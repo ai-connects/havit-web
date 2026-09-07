@@ -15,7 +15,9 @@
 const SITE = 'https://www.aihavit.com'
 const APP_STORE = 'https://apps.apple.com/us/app/havit-glp-1-weight-loss-coach/id6755166023'
 const PLAY_STORE = 'https://play.google.com/store/apps/details?id=com.aiconnects.havitWellness'
-const BLOG = 'https://blog.aihavit.com'
+// 블로그는 2026-09 에 www.aihavit.com/blog 로 들어왔다(서브도메인은 링크
+// 권위를 물려받지 못해 옮겼다). 같은 오리진이므로 절대 URL 대신 경로를 쓴다.
+const BLOG = '/blog'
 const APP = 'https://app.aihavit.com/'
 
 /**

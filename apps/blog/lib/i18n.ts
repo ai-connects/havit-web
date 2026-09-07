@@ -17,30 +17,30 @@ export const FALLBACK_LANG: LangKey = 'en_us';
 
 /**
  * SEO SSOT — 색인/크롤 대상 route short-lang.
- * 타겟 시장: 미국(en)·일본(ja)·한국(ko)·대만(zh-tw).
  * 이 배열 하나가 색인 게이팅(PRIORITY_INDEX_LANGS)·sitemap·hreflang·robots·
  * Header 언어 스위처를 모두 제어한다. (client·server 공용 — i18n.ts엔 fs 없음)
  *
- * 언어 승격(예: 스페인어·독일어): 여기에 'es','de' 추가 후 재배포하면 전 계층 자동 반영.
- * ⚠️ 신생 도메인은 크롤 예산이 부족하므로 웨이브로 승격한다 — 한 번에 다 켜지 말 것.
- *    (4개 색인률이 건강해진 뒤 다음 웨이브를 켜는 것을 권장.)
+ * 2026-09: 서빙 중인 10개 언어를 전부 되돌려 켰다.
+ *
+ * 앞서 en/ja/ko/zh-tw 4개만 남기고 나머지 6개를 410 으로 끊었던 이유는 크롤
+ * 예산을 타겟에 몰아주자는 것이었는데, 두 달간 효과가 0 이었다 — GSC
+ * "크롤링됨 — 미색인" 이 4,618 에서 4,740 으로 오히려 늘었다. 색인 슬롯을
+ * 묶고 있던 건 URL 공급량이 아니라 링크 권위였다(외부 링크 265개가 전부
+ * www 앞으로 들어오고 블로그로 오는 건 0). 그래서 언어를 조이는 축은 버리고,
+ * 같은 릴리스에서 블로그를 www.aihavit.com/blog 로 옮겨 그 권위를 잇는다.
+ *
+ * ⚠️ 언어 재오픈과 서브디렉터리 이전은 반드시 한 릴리스로 나가야 한다.
+ *    따로 내보내면 폐기 언어 URL 이 410 → 200 → 301 로 세 번 바뀌어
+ *    Google 이 상태를 다시 배우는 데만 몇 주가 더 든다.
  */
-export const INDEXABLE_ROUTE_LANGS = ['en', 'ja', 'ko', 'zh-tw'] as const;
+export const INDEXABLE_ROUTE_LANGS = [
+  'ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr',
+] as const;
 
 /** 블로그가 라우팅하는 전체 route short-lang (app/[lang] 세그먼트). */
 export const SERVED_ROUTE_LANGS = [
   'ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr',
 ] as const;
-
-/**
- * 색인 대상이 아닌(폐기) route short-lang = 서빙 − 타겟.
- * 이 언어 경로는 middleware에서 HTTP 410(Gone)으로 응답해 Googlebot의 반복
- * 재크롤을 끊고 크롤 예산을 타겟(INDEXABLE_ROUTE_LANGS)으로 회수한다.
- * 언어를 타겟으로 승격하려면 INDEXABLE_ROUTE_LANGS에 추가 → 자동으로 여기서 빠진다.
- */
-export const DEPRECATED_ROUTE_LANGS: string[] = SERVED_ROUTE_LANGS.filter(
-  (l) => !(INDEXABLE_ROUTE_LANGS as readonly string[]).includes(l)
-);
 
 /** short → full mapping (e.g. ko → ko_kr) */
 const SHORT_TO_FULL: Record<string, LangKey> = {

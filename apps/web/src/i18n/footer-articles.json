@@ -3,7 +3,13 @@
     "en",
     "ko",
     "ja",
-    "zh-tw"
+    "zh",
+    "zh-tw",
+    "es",
+    "pt-br",
+    "id",
+    "de",
+    "fr"
   ],
   "groups": [
     {
@@ -15,7 +21,13 @@
             "en": "Where You Inject Semaglutide Actually Matters",
             "ko": "세마글루타이드 주사 부위별 흡수율 차이",
             "ja": "セマグルチドの注射部位で吸収率が変わる",
-            "zh-tw": "Semaglutide 注射部位真的有差！腹部、大腿、手…"
+            "zh": "司美格鲁肽注射部位真的有讲究",
+            "zh-tw": "Semaglutide 注射部位真的有差！腹部、大腿、手…",
+            "es": "El lugar donde te inyectas semaglutida sí imp…",
+            "pt-br": "O Local da Injeção de Semaglutida Realmente I…",
+            "id": "Lokasi Suntikan Semaglutide Ternyata Penting",
+            "de": "Wo Sie Semaglutid injizieren",
+            "fr": "L'endroit où vous injectez le sémaglutide com…"
           }
         },
         {
@@ -24,7 +36,13 @@
             "en": "How to Make Ozempic Injections Less Painful",
             "ko": "오젠픽 주사 통증 줄이는 방법",
             "ja": "オゼンピック注射の痛みを軽減する方法",
-            "zh-tw": "如何讓 Ozempic 注射不再痛"
+            "zh": "司美格鲁肽注射怎么打才不疼",
+            "zh-tw": "如何讓 Ozempic 注射不再痛",
+            "es": "Cómo hacer que las inyecciones de Ozempic due…",
+            "pt-br": "Como Tornar as Injeções de Ozempic Menos Dolo…",
+            "id": "Cara Membuat Suntikan Ozempic Lebih Tidak Men…",
+            "de": "Wie Sie Ozempic-Injektionen weniger schmerzha…",
+            "fr": "Comment rendre les injections d'Ozempic moins…"
           }
         },
         {
@@ -33,7 +51,13 @@
             "en": "Mounjaro Dose Increase Schedule",
             "ko": "마운자로 용량 증가 시 부작용 최소화하는 스케줄",
             "ja": "マンジャロ増量スケジュール",
-            "zh-tw": "Mounjaro 劑量調整時程"
+            "zh": "替尔泊肽(穆峰达)剂量递增方案",
+            "zh-tw": "Mounjaro 劑量調整時程",
+            "es": "Calendario de Aumento de Dosis de Mounjaro",
+            "pt-br": "Cronograma de Aumento de Dose do Mounjaro",
+            "id": "Jadwal Peningkatan Dosis Mounjaro",
+            "de": "Mounjaro Dosissteigerung",
+            "fr": "Calendrier d'augmentation des doses de Mounja…"
           }
         },
         {
@@ -42,7 +66,13 @@
             "en": "How to Travel with Ozempic Without Refrigerat…",
             "ko": "오젬픽 냉장보관 없이 여행하는 방법",
             "ja": "オゼンピックを冷蔵庫なしで持ち運ぶ方法",
-            "zh-tw": "Ozempic 不冷藏怎麼帶出國"
+            "zh": "司美格鲁肽出行不冷藏怎么办",
+            "zh-tw": "Ozempic 不冷藏怎麼帶出國",
+            "es": "Cómo Viajar con Ozempic Sin Refrigeración",
+            "pt-br": "Como Viajar com Ozempic Sem Refrigeração",
+            "id": "Cara Bepergian dengan Ozempic Tanpa Pendingin",
+            "de": "Wie man mit Ozempic ohne Kühlung reist",
+            "fr": "Comment voyager avec Ozempic sans réfrigérati…"
           }
         },
         {
@@ -51,7 +81,12 @@
             "en": "How to Get Insurance to Cover Wegovy",
             "ko": "위고비 보험 적용 사전승인 획득 방법",
             "ja": "ウゴービの保険適用を勝ち取る方法",
-            "zh-tw": "Wegovy 保險給付攻略"
+            "zh": "2026年Wegovy司美格鲁肽医保报销攻略",
+            "zh-tw": "Wegovy 保險給付攻略",
+            "es": "Cómo conseguir que tu seguro cubra Wegovy",
+            "pt-br": "Como Conseguir que o Plano de Saúde Cubra Weg…",
+            "id": "Cara Mendapatkan Asuransi untuk Menanggung We…",
+            "fr": "Comment obtenir le remboursement de Wegovy pa…"
           }
         },
         {
@@ -60,7 +95,13 @@
             "en": "Should I Exercise Before or After My Ozempic…",
             "ko": "오젬픽 주사 전후 운동 타이밍",
             "ja": "オゼンピック注射の前後、運動はいつすべき",
-            "zh-tw": "打完 Ozempic 到底能不能運動"
+            "zh": "打完司美格鲁肽能马上运动吗",
+            "zh-tw": "打完 Ozempic 到底能不能運動",
+            "es": "¿Hago ejercicio antes o después de ponerme Oz…",
+            "pt-br": "Devo Me Exercitar Antes ou Depois da Injeção…",
+            "id": "Haruskah Saya Berolahraga Sebelum atau Sesuda…",
+            "de": "Sollte ich vor oder nach meiner Ozempic-Injek…",
+            "fr": "Dois-je faire de l'exercice avant ou après mo…"
           }
         }
       ]
@@ -119,7 +160,12 @@
             "en": "How to Reduce Ozempic Nausea Without Stopping",
             "ko": "오젠픽 메스꺼움 줄이는 실제 방법",
             "ja": "オゼンピックの吐き気を止めずに軽減する方法",
-            "zh-tw": "Ozempic 噁心感不用停藥也能改善"
+            "zh": "司美格鲁肽恶心怎么办",
+            "zh-tw": "Ozempic 噁心感不用停藥也能改善",
+            "es": "Cómo reducir las náuseas de Ozempic sin dejar…",
+            "pt-br": "Como Reduzir Náusea do Ozempic Sem Parar",
+            "id": "Cara Mengurangi Mual Ozempic Tanpa Menghentik…",
+            "fr": "Comment réduire les nausées sous Ozempic sans…"
           }
         }
       ]
@@ -151,7 +197,13 @@
             "en": "Mounjaro vs Wegovy Nausea Duration",
             "ko": "마운자로 vs 위고비 메스꺼움 지속 기간 비교",
             "ja": "マンジャロ vs ウゴービ 吐き気の持続期間を徹底…",
-            "zh-tw": "Mounjaro vs Wegovy 噁心持續時間比較"
+            "zh": "替尔泊肽 vs 司美格鲁肽恶心持续时间",
+            "zh-tw": "Mounjaro vs Wegovy 噁心持續時間比較",
+            "es": "Mounjaro vs Wegovy",
+            "pt-br": "Mounjaro vs Wegovy",
+            "id": "Mounjaro vs Wegovy Durasi Mual",
+            "de": "Mounjaro vs Wegovy Übelkeit Dauer",
+            "fr": "Mounjaro vs Wegovy"
           }
         },
         {
@@ -160,7 +212,12 @@
             "en": "Compounded Semaglutide vs Brand Wegovy",
             "ko": "조제 세마글루타이드 vs 위고비",
             "ja": "調剤セマグルチド vs ウゴービ",
-            "zh-tw": "複方調配 Semaglutide vs 原廠 Wegovy"
+            "zh": "复方司美格鲁肽 vs 品牌Wegovy",
+            "zh-tw": "複方調配 Semaglutide vs 原廠 Wegovy",
+            "es": "Semaglutida Compuesta vs Wegovy Original",
+            "pt-br": "Semaglutida Manipulada vs Wegovy Original",
+            "id": "Semaglutide Kompon vs Wegovy Bermerek",
+            "fr": "Sémaglutide composé vs Wegovy de marque"
           }
         },
         {
@@ -169,7 +226,13 @@
             "en": "Switching from Ozempic to Wegovy",
             "ko": "오젬픽에서 위고비로 전환할 때 용량 계산법과…",
             "ja": "オゼンピックからウゴービへの切り替え完全ガイド",
-            "zh-tw": "Ozempic 轉換 Wegovy 完整指南"
+            "zh": "司美格鲁肽换药全攻略",
+            "zh-tw": "Ozempic 轉換 Wegovy 完整指南",
+            "es": "Cómo cambiar de Ozempic a Wegovy",
+            "pt-br": "Mudança de Ozempic para Wegovy",
+            "id": "Beralih dari Ozempic ke Wegovy",
+            "de": "Wechsel von Ozempic zu Wegovy",
+            "fr": "Passer d'Ozempic à Wegovy"
           }
         },
         {
@@ -178,7 +241,13 @@
             "en": "Switching from Ozempic to Mounjaro",
             "ko": "오젭픽에서 마운자로 전환하는 방법",
             "ja": "オゼンピックからマンジャロへの切り替え",
-            "zh-tw": "從 Ozempic 轉換到 Mounjaro"
+            "zh": "从司美格鲁肽换到替尔泊肽",
+            "zh-tw": "從 Ozempic 轉換到 Mounjaro",
+            "es": "Cómo cambiar de Ozempic a Mounjaro",
+            "pt-br": "Mudança de Ozempic para Mounjaro",
+            "id": "Beralih dari Ozempic ke Mounjaro",
+            "de": "Wechsel von Ozempic zu Mounjaro",
+            "fr": "Passer d'Ozempic à Mounjaro"
           }
         }
       ]
@@ -192,7 +261,13 @@
             "en": "GLP-1 and Metformin Together",
             "ko": "GLP-1 메트포르민 병용 시너지 효과",
             "ja": "GLP-1とメトホルミンの併用療法",
-            "zh-tw": "GLP-1 加上 Metformin"
+            "zh": "GLP-1联合二甲双胍",
+            "zh-tw": "GLP-1 加上 Metformin",
+            "es": "GLP-1 y Metformina Juntos",
+            "pt-br": "GLP-1 e Metformina Juntos",
+            "id": "GLP-1 dan Metformin Bersamaan",
+            "de": "GLP-1 und Metformin zusammen",
+            "fr": "GLP-1 et metformine ensemble"
           }
         },
         {
@@ -201,7 +276,12 @@
             "en": "GLP-1 Medications and Antidepressants",
             "ko": "GLP-1 주사와 항우울제 SSRI 함께 복용해도 될까",
             "ja": "GLP-1薬と抗うつ薬の併用",
-            "zh-tw": "GLP-1 藥物與抗憂鬱藥併用"
+            "zh": "GLP-1药物和抗抑郁药联用",
+            "zh-tw": "GLP-1 藥物與抗憂鬱藥併用",
+            "es": "Medicamentos GLP-1 y antidepresivos",
+            "pt-br": "Medicamentos GLP-1 e Antidepressivos",
+            "id": "Obat GLP-1 dan Antidepresan",
+            "fr": "Médicaments GLP-1 et antidépresseurs"
           }
         },
         {
@@ -210,7 +290,13 @@
             "en": "Taking Thyroid Medication Levothyroxine with…",
             "ko": "GLP-1과 갑상선약 레보티록신 함께 복용할 때 반…",
             "ja": "GLP-1薬とレボチロキシン（チラーヂン）の併用｜…",
-            "zh-tw": "GLP-1藥物與甲狀腺藥Levothyroxine怎麼吃"
+            "zh": "GLP-1类药物与左甲状腺素同服",
+            "zh-tw": "GLP-1藥物與甲狀腺藥Levothyroxine怎麼吃",
+            "es": "Levotiroxina y medicamentos GLP-1",
+            "pt-br": "Tomando Levotiroxina com GLP-1",
+            "id": "Mengonsumsi Obat Tiroid Levothyroxine dengan…",
+            "de": "Schilddrüsenmedikament Levothyroxin mit GLP-1…",
+            "fr": "Prise de lévothyroxine avec les GLP-1"
           }
         },
         {
@@ -219,7 +305,13 @@
             "en": "GLP-1 Plus Statin",
             "ko": "GLP-1 스타틴 병용 콜레스테롤 개선",
             "ja": "GLP-1受容体作動薬とスタチンの併用療法",
-            "zh-tw": "GLP-1 加上史他汀"
+            "zh": "GLP-1联合他汀",
+            "zh-tw": "GLP-1 加上史他汀",
+            "es": "GLP-1 y estatinas juntos",
+            "pt-br": "GLP-1 Mais Estatina",
+            "id": "GLP-1 Plus Statin",
+            "de": "GLP-1 plus Statin",
+            "fr": "GLP-1 et statine"
           }
         },
         {
@@ -228,7 +320,13 @@
             "en": "Can I Drink Alcohol on Semaglutide Safely",
             "ko": "세마글루타이드 복용 중 음주, 어디까지 괜찮을까",
             "ja": "セマグルチド服用中のお酒は大丈夫",
-            "zh-tw": "使用 Semaglutide 期間可以喝酒嗎"
+            "zh": "司美格鲁肽期间能喝酒吗",
+            "zh-tw": "使用 Semaglutide 期間可以喝酒嗎",
+            "es": "¿Puedo beber alcohol tomando semaglutida",
+            "pt-br": "Posso Beber Álcool Tomando Semaglutida com Se…",
+            "id": "Bisakah Saya Minum Alkohol Saat Menggunakan S…",
+            "de": "Kann ich auf Semaglutid sicher Alkohol trinken",
+            "fr": "Puis-je boire de l'alcool sous sémaglutide en…"
           }
         },
         {
@@ -237,7 +335,13 @@
             "en": "Does Coffee Affect Semaglutide Effectiveness",
             "ko": "커피가 세마글루타이드 효과에 영향을 주는가",
             "ja": "コーヒーはセマグルチドの効果に影響する",
-            "zh-tw": "喝咖啡會影響瘦瘦針效果嗎"
+            "zh": "咖啡会影响司美格鲁肽的效果吗",
+            "zh-tw": "喝咖啡會影響瘦瘦針效果嗎",
+            "es": "¿El café afecta la efectividad de la semaglut…",
+            "pt-br": "O Café Afeta a Eficácia da Semaglutida",
+            "id": "Apakah Kopi Mempengaruhi Efektivitas Semaglut…",
+            "de": "Beeinflusst Kaffee die Wirksamkeit von Semagl…",
+            "fr": "Le café affecte-t-il l'efficacité du sémaglut…"
           }
         }
       ]
@@ -269,7 +373,12 @@
             "en": "After Ozempic",
             "ko": "오젬픽 중단 후 체중 유지하는 방법",
             "ja": "オゼンピック終了後のリバウンド対策",
-            "zh-tw": "停用 Ozempic 後如何維持體重"
+            "zh": "停药后如何不反弹",
+            "zh-tw": "停用 Ozempic 後如何維持體重",
+            "es": "Después de Ozempic",
+            "pt-br": "Depois do Ozempic",
+            "id": "Setelah Ozempic",
+            "fr": "Après Ozempic"
           }
         },
         {
@@ -278,7 +387,13 @@
             "en": "Stopping Semaglutide Without Regaining Weight",
             "ko": "오젭픽 중단 후 체중 유지 방법",
             "ja": "セマグルチド中止後にリバウンドしない方法",
-            "zh-tw": "停用 Ozempic 後不復胖"
+            "zh": "停用司美格鲁肽后如何不反弹",
+            "zh-tw": "停用 Ozempic 後不復胖",
+            "es": "Dejar la Semaglutida Sin Recuperar Peso",
+            "pt-br": "Parar a Semaglutida Sem Recuperar o Peso",
+            "id": "Menghentikan Semaglutide Tanpa Kembali Gemuk",
+            "de": "Semaglutid absetzen ohne Gewichtszunahme",
+            "fr": "Arrêter le sémaglutide sans reprendre du poids"
           }
         },
         {
@@ -287,7 +402,13 @@
             "en": "How to Prevent Muscle Loss on Semaglutide",
             "ko": "세마글루타이드 복용 중 근육 손실 막는 단백질…",
             "ja": "セマグルチド服用中の筋肉減少を防ぐ方法",
-            "zh-tw": "使用 Semaglutide 期間如何避免肌肉流失"
+            "zh": "司美格鲁肽减重期间如何保住肌肉",
+            "zh-tw": "使用 Semaglutide 期間如何避免肌肉流失",
+            "es": "Cómo evitar la pérdida de músculo con semaglu…",
+            "pt-br": "Como Prevenir Perda Muscular com Semaglutida",
+            "id": "Cara Mencegah Kehilangan Otot Saat Menggunaka…",
+            "de": "Wie Sie Muskelverlust bei Semaglutid verhinde…",
+            "fr": "Comment prévenir la perte musculaire sous sém…"
           }
         },
         {
@@ -296,7 +417,13 @@
             "en": "How to Check for Muscle Loss While on Wegovy",
             "ko": "위고비 복용 중 근육 감소 확인 방법",
             "ja": "ウゴービ服用中の筋肉減少チェック法",
-            "zh-tw": "Wegovy 減重期間如何監測肌肉流失"
+            "zh": "司美格鲁肽减重期间如何监测肌肉流失",
+            "zh-tw": "Wegovy 減重期間如何監測肌肉流失",
+            "es": "Cómo detectar pérdida muscular mientras tomas…",
+            "pt-br": "Como Verificar Perda Muscular Durante o Uso d…",
+            "id": "Cara Memeriksa Kehilangan Massa Otot Saat Men…",
+            "de": "Muskelverlust bei Wegovy erkennen",
+            "fr": "Comment détecter la perte musculaire sous Weg…"
           }
         }
       ]
@@ -337,7 +464,13 @@
             "en": "GLP-1 Medications for PCOS",
             "ko": "다낭성 난소 증후군에 오젭픽이 효과 있을까",
             "ja": "PCOSにGLP-1薬が効く理由",
-            "zh-tw": "GLP-1 藥物治療多囊性卵巢症候群"
+            "zh": "GLP-1药物治疗多囊卵巢综合征",
+            "zh-tw": "GLP-1 藥物治療多囊性卵巢症候群",
+            "es": "Ozempic y SOP",
+            "pt-br": "Medicamentos GLP-1 para SOP",
+            "id": "Obat GLP-1 untuk PCOS",
+            "de": "GLP-1-Medikamente bei PCOS",
+            "fr": "Médicaments GLP-1 pour le SOPK"
           }
         },
         {
@@ -346,7 +479,13 @@
             "en": "Does Semaglutide Affect Sleep Quality",
             "ko": "세마글루타이드가 수면의 질에 영향을 주는가",
             "ja": "セマグルチドは睡眠の質に影響する",
-            "zh-tw": "司美格魯肽會影響睡眠品質嗎"
+            "zh": "司美格鲁肽会影响睡眠质量吗",
+            "zh-tw": "司美格魯肽會影響睡眠品質嗎",
+            "es": "¿La semaglutida afecta la calidad del sueño",
+            "pt-br": "Semaglutida Afeta a Qualidade do Sono",
+            "id": "Apakah Semaglutide Mempengaruhi Kualitas Tidur",
+            "de": "Beeinflusst Semaglutid die Schlafqualität",
+            "fr": "Le sémaglutide affecte-t-il la qualité du som…"
           }
         },
         {
@@ -355,7 +494,12 @@
             "en": "Can Semaglutide Cause Depression or Anxiety",
             "ko": "세마글루타이드가 우울증이나 불안을 유발할까",
             "ja": "セマグルチドはうつや不安を引き起こす",
-            "zh-tw": "Semaglutide 會導致憂鬱或焦慮嗎"
+            "zh": "司美格鲁肽会导致抑郁或焦虑吗",
+            "zh-tw": "Semaglutide 會導致憂鬱或焦慮嗎",
+            "es": "¿Puede la Semaglutida Causar Depresión o Ansi…",
+            "pt-br": "Semaglutida Pode Causar Depressão ou Ansiedade",
+            "id": "Bisakah Semaglutide Menyebabkan Depresi atau…",
+            "fr": "Le sémaglutide peut-il causer dépression ou a…"
           }
         }
       ]

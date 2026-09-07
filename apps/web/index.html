@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Same icon set the blog serves (blog.aihavit.com layout.tsx), so the tab
+    <!-- Same icon set the blog serves (apps/blog layout.tsx), so the tab
          icon is identical across both sites. Every file here is the SAME tile —
          white ground, black wordmark — and none of them adapt to the OS theme.
          An earlier revision let favicon.svg flip to the dark tile under
@@ -36,7 +36,7 @@
          링크를 공유하면 로고 파일 하나가 튀어나온 것처럼 보였다. -->
     <meta property="og:image" content="https://www.aihavit.com/og-card.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <!-- GA4. 블로그(blog.aihavit.com)와 같은 속성을 쓴다 — 블로그에서 홈으로
+    <!-- GA4. 블로그(/blog)와 같은 속성을 쓴다 — 블로그에서 홈으로
          넘어와 스토어로 나가는 경로가 한 보고서에서 이어져 보여야 하기 때문.
          이 페이지의 목적이 Start Free 와 스토어 배지 두 개뿐이라, 그 두
          클릭만 이벤트로 잡는다. -->
@@ -71,7 +71,7 @@
           <a data-i18n="havit" href="#">HAVIT</a>
           <a data-i18n="features" href="#features">Features</a>
           <a data-i18n="faq" href="#faq">FAQ</a>
-          <a data-i18n="blog" href="https://blog.aihavit.com/">Blog</a>
+          <a data-i18n="blog" href="/blog/">Blog</a>
           <a data-i18n="affiliate" href="/affiliate/">Affiliate</a>
         </nav>
         <div class="nav__actions">
@@ -450,7 +450,7 @@
           </div>
 
           <!--
-            Three real articles from blog.aihavit.com, hand-picked as an
+            Three real articles from /blog, hand-picked as an
             evergreen shop window (one nutrition, one exercise, one sleep) so
             this section doesn't need a build-time feed. Thumbnails come from
             the same S3 article-photo library the blog and the app use, so a
@@ -463,7 +463,7 @@
               <figure class="article-card reveal">
                 <a
                   class="article-card__media"
-                  href="https://blog.aihavit.com/en/morning-vs-evening-workout-circadian-performance-2026"
+                  href="/blog/en/morning-vs-evening-workout-circadian-performance-2026"
                 >
                   <img decoding="async" width="760" height="760"
                     src="/src/assets/images/article-IMG_FLEX_003.webp"
@@ -478,7 +478,7 @@
               <figure class="article-card article-card--center reveal">
                 <a
                   class="article-card__media"
-                  href="https://blog.aihavit.com/en/postprandial-glucose-spike-prevention-food-order-2026"
+                  href="/blog/en/postprandial-glucose-spike-prevention-food-order-2026"
                 >
                   <img decoding="async" width="760" height="760"
                     src="/src/assets/images/article-art_0084.webp"
@@ -493,7 +493,7 @@
               <figure class="article-card reveal">
                 <a
                   class="article-card__media"
-                  href="https://blog.aihavit.com/en/caffeine-intake-tracking-sleep-impact-timing-2026"
+                  href="/blog/en/caffeine-intake-tracking-sleep-impact-timing-2026"
                 >
                   <img decoding="async" width="760" height="760"
                     src="/src/assets/images/article-IMG_HYD_002.webp"
@@ -509,7 +509,7 @@
           </div>
 
           <div class="articles__cta">
-            <a data-i18n="more-articles" href="https://blog.aihavit.com/" class="btn btn--primary">More articles →</a>
+            <a data-i18n="more-articles" href="/blog/" class="btn btn--primary">More articles →</a>
           </div>
         </div>
       </section>
@@ -701,7 +701,7 @@
             <p data-i18n="product" class="eyebrow">PRODUCT</p>
             <a data-i18n="havit" href="#">HAVIT</a>
             <a data-i18n="features" href="#features">Features</a>
-            <a data-i18n="blog" href="https://blog.aihavit.com/">Blog</a>
+            <a data-i18n="blog" href="/blog/">Blog</a>
             <a data-i18n="faq" href="#faq">FAQ</a>
           </div>
           <div class="footer__col">
@@ -717,7 +717,7 @@
           </div>
         </div>
 
-        <!-- SEO link clusters into blog.aihavit.com. Generated per locale at
+        <!-- SEO link clusters into /blog. Generated per locale at
              build time by plugins/i18n-html.js; the article selection is shared
              with the blog (aihavit-blog lib/footer-links.ts). -->
         <!-- i18n:footer-articles --><!-- /i18n:footer-articles -->

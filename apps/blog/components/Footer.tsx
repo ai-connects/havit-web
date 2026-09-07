@@ -4,6 +4,7 @@ import { localizedCategory } from '@/lib/category-labels';
 import { ALL_CATEGORIES } from '@/lib/categories';
 import { FOOTER_LINK_GROUPS } from '@/lib/footer-links';
 import { getArticleBySlug, resolveContent } from '@/lib/articles-v2';
+import { asset } from '@/lib/site';
 
 // BLOG_AUTHORITY v1.0.0 (PRD §5.2.3 / §16.2 F-07 옵션 A) — 인라인 i18n.
 // lib/i18n.ts 미변경 (INV-010, P0-#2 회피). 6 lang 자체포함.
@@ -199,11 +200,11 @@ export default function Footer({ lang }: { lang: LangKey }) {
               {/* 마케팅 사이트와 같은 뱃지 에셋. next/image 를 쓰지 않는 이유는
                   5~6KB 짜리 고정 크기 PNG 라 최적화 이득이 없어서다. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/badge-appstore.png" alt="Download on the App Store" width={168} height={56} />
+              <img src={asset('/badge-appstore.png')} alt="Download on the App Store" width={168} height={56} />
             </a>
             <a href={`${MAIN_SITE}/#download`} className="hv-final-cta__badge" aria-label="Google Play">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/badge-googleplay.png" alt="Get it on Google Play" width={189} height={56} />
+              <img src={asset('/badge-googleplay.png')} alt="Get it on Google Play" width={189} height={56} />
             </a>
           </div>
           <p className="hv-final-cta__disclaimer">{cta.note}</p>
@@ -218,7 +219,7 @@ export default function Footer({ lang }: { lang: LangKey }) {
             wordmark but strip the gradient bar under it of its colour. */}
         <img
           className="mb-6"
-          src="/havit-logo-white.svg"
+          src={asset('/havit-logo-white.svg')}
           alt="HAVIT"
           width={264}
           height={163}
@@ -258,7 +259,8 @@ export default function Footer({ lang }: { lang: LangKey }) {
             <Link href={`/${shortLang}/about`}>About</Link>
             <Link href={`/${shortLang}/editorial-policy`}>Editorial Policy</Link>
             <Link href={`/${shortLang}/articles`}>{LABEL_ALL_ARTICLES[shortLang] ?? LABEL_ALL_ARTICLES.en}</Link>
-            <a href="/rss.xml">RSS</a>
+            {/* 원시 <a> 는 basePath 접두가 자동으로 붙지 않아 경로를 직접 적는다. */}
+            <a href="/blog/rss.xml">RSS</a>
             <a href="mailto:havit@aihavit.com">Contact</a>
           </div>
           <div className="hv-footer__col">

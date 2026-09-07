@@ -18,6 +18,7 @@ import { isYmylCategory } from '@/lib/articles-v2';
 import { toBcp47, toFullLang } from '@/lib/i18n';
 import { PUBLISHER_ORG, DEFAULT_AUTHOR, DEFAULT_REVIEWER, entitySchema } from '@/lib/team';
 import { articleImage } from '@/lib/article-images';
+import { SITE } from '@/lib/site';
 
 interface Props {
   article: ArticleV2;
@@ -25,7 +26,6 @@ interface Props {
   shortLang: string;
 }
 
-const SITE = 'https://blog.aihavit.com';
 
 // publisher Organization (incl. sameAs) is centralized in lib/team.ts (PUBLISHER_ORG).
 // NOTE: this used to be `${SITE}/og-default.png`, a file that does not exist in

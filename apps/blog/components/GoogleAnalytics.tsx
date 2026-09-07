@@ -4,7 +4,8 @@
  * 환경 변수: NEXT_PUBLIC_GA_ID (예: G-XXXXXXXXXX)
  *   값이 없으면 렌더링 안 함 (개발 환경 안전).
  *
- * Cross-domain: aihavit.com ↔ blog.aihavit.com 세션 연속성 보장.
+ * 블로그가 www.aihavit.com/blog 로 들어오면서 앱(app.aihavit.com)만이
+ * 남은 다른 서브도메인이다 — _ga 쿠키가 .aihavit.com 에 심기므로 그대로 이어진다.
  */
 
 import Script from 'next/script';

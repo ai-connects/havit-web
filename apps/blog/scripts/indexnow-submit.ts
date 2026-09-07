@@ -10,10 +10,10 @@
  *   npx tsx scripts/indexnow-submit.ts --sitemap-recent 200  # 200 most-recently-updated URLs from sitemap
  *
  * No auth required — IndexNow verifies the host owns the key by fetching
- * https://blog.aihavit.com/{key}.txt and matching the body to the key.
+ * https://www.aihavit.com/{key}.txt and matching the body to the key.
  */
 
-const HOST = 'blog.aihavit.com';
+const HOST = 'www.aihavit.com';
 const KEY = '81b971200b7d6aa96b465a75821c1b02';
 const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
 const INDEXNOW_ENDPOINT = 'https://api.indexnow.org/IndexNow';

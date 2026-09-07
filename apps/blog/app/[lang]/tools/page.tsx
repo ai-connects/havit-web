@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { toFullLang } from '@/lib/i18n';
+import { SITE } from '@/lib/site';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 type RouteLang = (typeof ROUTE_LANGS)[number];
@@ -112,23 +113,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? { index: true, follow: true }
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: {
-      canonical: `https://blog.aihavit.com/${lang}/tools`,
-      languages: Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `https://blog.aihavit.com/${l}/tools`])),
+      canonical: `${SITE}/${lang}/tools`,
+      languages: Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}/tools`])),
     },
     openGraph: {
       title: PAGE_TITLE[lang],
       description: PAGE_INTRO[lang],
       type: 'website',
-      url: `https://blog.aihavit.com/${lang}/tools`,
+      url: `${SITE}/${lang}/tools`,
       siteName: 'HAVIT Blog',
       locale: lang,
-      images: [{ url: 'https://blog.aihavit.com/og-card.png', width: 1200, height: 630, alt: 'HAVIT Blog' }],
+      images: [{ url: `${SITE}/og-card.png`, width: 1200, height: 630, alt: 'HAVIT Blog' }],
     },
     twitter: {
       card: 'summary_large_image',
       title: PAGE_TITLE[lang],
       description: PAGE_INTRO[lang],
-      images: ['https://blog.aihavit.com/og-card.png'],
+      images: [`${SITE}/og-card.png`],
     },
   };
 }

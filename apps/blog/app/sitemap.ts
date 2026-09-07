@@ -1,8 +1,8 @@
 import type { MetadataRoute } from 'next';
 import { getAllArticles, resolveContent, isLangIndexable } from '@/lib/articles-v2';
 import { ALL_CATEGORIES } from '@/lib/categories';
+import { SITE } from '@/lib/site';
 
-const SITE = 'https://blog.aihavit.com';
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 // SEO staging — sitemap lists only indexable (priority) langs so it never submits
 // a noindex URL (which GSC flags). Promote a lang via PRIORITY_INDEX_LANGS.

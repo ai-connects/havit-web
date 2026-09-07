@@ -8,11 +8,11 @@ import { listArticlesForLang, isLangIndexable } from '@/lib/articles-v2';
 import { localizedCategory } from '@/lib/category-labels';
 import { toFullLang } from '@/lib/i18n';
 import { ALL_CATEGORIES, categoryValueBySlug } from '@/lib/categories';
+import { SITE } from '@/lib/site';
 
 export const dynamicParams = false;
 export const revalidate = 600;
 
-const SITE = 'https://blog.aihavit.com';
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 type RouteLang = (typeof ROUTE_LANGS)[number];
 

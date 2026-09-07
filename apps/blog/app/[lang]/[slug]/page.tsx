@@ -7,6 +7,7 @@ import HubArticleView from '@/components/HubArticleView';
 import { getArticleBySlug, resolveContent, getAllArticles, PRIMARY_LANGS, isLangIndexable } from '@/lib/articles-v2';
 import { articleImage } from '@/lib/article-images';
 import { toFullLang } from '@/lib/i18n';
+import { SITE } from '@/lib/site';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 type RouteLang = (typeof ROUTE_LANGS)[number];
@@ -29,7 +30,7 @@ export async function generateStaticParams() {
 // Social preview used to be the HAVIT wordmark on every one of ~11k article
 // URLs — identical thumbnails across the whole site. Each article now has its
 // own photo (lib/article-images.ts), so share cards are distinct per article.
-const OG_IMAGE_FALLBACK = 'https://blog.aihavit.com/og-card.png';
+const OG_IMAGE_FALLBACK = `${SITE}/og-card.png`;
 // HTML <title> CTR target: keep core keywords visible in Google SERP without a
 // trailing " — HAVIT Blog" suffix (Google often appends site name automatically
 // via og:site_name + Organization schema). 50 chars leaves room without cutoff.
@@ -99,8 +100,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // self (distinct language), only the index signal is gated.
   const indexable = !isFallback && isLangIndexable(params.lang);
   const canonicalUrl = isFallback
-    ? `https://blog.aihavit.com/en/${params.slug}`
-    : `https://blog.aihavit.com/${params.lang}/${params.slug}`;
+    ? `${SITE}/en/${params.slug}`
+    : `${SITE}/${params.lang}/${params.slug}`;
 
   const ogImage = articleImage(params.slug, article.category) || OG_IMAGE_FALLBACK;
 
@@ -118,14 +119,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ROUTE_LANGS.filter((l) => {
           const rr = resolveContent(article, l);
           return rr && !rr.fallback && isLangIndexable(l);
-        }).map((l) => [l, `https://blog.aihavit.com/${l}/${params.slug}`]),
+        }).map((l) => [l, `${SITE}/${l}/${params.slug}`]),
       ),
     },
     openGraph: {
       title: content.title,
       description: fullDescription,
       type: 'article',
-      url: `https://blog.aihavit.com/${params.lang}/${params.slug}`,
+      url: `${SITE}/${params.lang}/${params.slug}`,
       siteName: 'HAVIT Blog',
       locale: params.lang,
       images: [

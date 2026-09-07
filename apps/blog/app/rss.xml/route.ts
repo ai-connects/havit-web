@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { getAllArticles, resolveContent } from '@/lib/articles-v2';
+import { SITE } from '@/lib/site';
 
-const SITE = 'https://blog.aihavit.com';
 
 export const revalidate = 600;
 

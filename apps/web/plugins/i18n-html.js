@@ -30,14 +30,21 @@ const FOOTER_GROUP_LABELS = {
   alternatives: { en: 'APP ALTERNATIVES', ko: '앱 대안 비교', ja: 'アプリの代替候補', 'zh-tw': '應用程式替代方案', 'zh-cn': '应用替代方案', es: 'ALTERNATIVAS DE APPS', de: 'APP-ALTERNATIVEN', fr: 'ALTERNATIVES AUX APPS', pt: 'ALTERNATIVAS DE APPS', it: 'ALTERNATIVE ALLE APP', id: 'ALTERNATIF APLIKASI' },
 }
 
-const BLOG = 'https://blog.aihavit.com'
+// 블로그는 2026-09 에 www.aihavit.com/blog 로 들어왔다(서브도메인은 링크
+// 권위를 물려받지 못해 옮겼다). 같은 오리진이므로 절대 URL 대신 경로를 쓴다.
+const BLOG = '/blog'
 
 /**
  * Render the SEO cluster block for one locale.
  *
- * The blog only serves en/ko/ja/zh-tw (its other language paths return 410), so
- * every other homepage locale links into the English articles — pointing a
- * German visitor at /de/<slug> would send them to a 410.
+ * 링크 언어는 **링크마다** 정한다. 생성기가 라벨을 넣어주는 건 그 언어에
+ * 실제 번역이 있을 때뿐이라, 라벨 유무가 곧 원문 존재 여부다. 번역이 없는데
+ * `/blog/<locale>/<slug>` 로 보내면 블로그가 영어 본문을 폴백으로 띄우면서
+ * noindex + canonical→en 을 달기 때문에, 홈페이지가 가진 링크 권위가
+ * 색인도 안 되는 URL 로 새어나간다. 그런 링크만 영어로 보낸다.
+ *
+ * (예전엔 언어 단위로 갈랐다 — 블로그가 en/ko/ja/zh-tw 만 서빙하고 나머지가
+ *  410 이던 시절의 로직이다. 2026-09 에 10개 언어를 되돌리면서 바뀌었다.)
  */
 function renderFooterArticles(locale) {
   const blogLang = FOOTER_ARTICLES.blogLangs.includes(locale) ? locale : DEFAULT_LOCALE
@@ -54,9 +61,11 @@ function renderFooterArticles(locale) {
       }
       const links = g.links
         .map((l) => {
-          const label = l.labels[blogLang] ?? l.labels[DEFAULT_LOCALE]
+          const native = l.labels[blogLang]
+          const label = native ?? l.labels[DEFAULT_LOCALE]
           if (!label) return ''
-          return `<a href="${BLOG}/${blogLang}/${l.slug}">${label}</a>`
+          const lang = native ? blogLang : DEFAULT_LOCALE
+          return `<a href="${BLOG}/${lang}/${l.slug}">${label}</a>`
         })
         .join('')
       return `<div class="footer__col"><p class="eyebrow">${heading}</p>${links}</div>`

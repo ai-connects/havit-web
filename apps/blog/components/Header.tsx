@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { type LangKey, toShortLang, t, INDEXABLE_ROUTE_LANGS } from '@/lib/i18n';
+import { asset } from '@/lib/site';
 
 // 블로그가 실제 서빙하는 10개 언어의 native 이름 lookup (현재 언어 이름 표시용).
 const TOGGLE_LANGS: { route: string; native: string }[] = [
@@ -75,7 +76,7 @@ export default function Header({ lang, currentSlug, currentCategorySlug }: Props
         <a href={MAIN_SITE} className="nav__logo" aria-label="HAVIT">
           {/* Same brand mark the marketing site uses (apps/web/public). The nav
               band is light, so this is the dark-wordmark asset. */}
-          <img src="/havit-logo.svg" alt="HAVIT" width={264} height={163} />
+          <img src={asset('/havit-logo.svg')} alt="HAVIT" width={264} height={163} />
         </a>
 
         <nav className="nav__links" aria-label="Primary">
