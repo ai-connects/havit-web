@@ -85,8 +85,15 @@ ozempic-tracker  vs  wegovy-tracker
   본문 10,337자 / 9,366자 — 차이 구간 102개, ratio 0.942
 ```
 
-이건 "색인이 안 된다" 이전에 Google **scaled content abuse** 정책 표면이다.
-도메인 단위 색인 스로틀링(5.7%)의 유력한 설명이 된다.
+> ⚠️ **2026-09-08 정정.** 초안은 여기서 곧장 "Google scaled content abuse
+> 정책 표면이고 도메인 단위 색인 스로틀링의 유력한 설명" 이라고 결론지었다.
+> **과했다.** ozempic↔wegovy 쌍을 문장 단위로 다시 재보니 절반이 고유
+> 내용이고 각 페이지가 제 약물의 올바른 용량 사다리를 담고 있다(§3).
+> 실제 "이름만 치환" 인 것은 foundayo↔orforglipron 한 쌍뿐이다 — 같은 분자라
+> 그렇다. jaccard 는 공통 주제를 중복으로 오인한다.
+>
+> 스로틀링의 설명은 §5 의 **링크 권위(외부 링크 265개 전부 www 홈, 블로그 0)**
+> 쪽이고, 이 문서의 컨텐츠 중복 가설은 대부분 기각됐다.
 
 ## 2. 이 클러스터만 dedup 을 건너뛴 상태
 
@@ -98,83 +105,88 @@ ozempic-tracker  vs  wegovy-tracker
 
 ## 3. 클러스터별 판정
 
-### A. generic tracker 6개 → 1개  【즉시 실행 가능】
+> **2026-09-08 개정.** 초안은 유사도(jaccard)만 보고 tracker·side-effects 를
+> 대거 통합하자고 했다. 틀렸다. 실측하니 각 페이지가 제 약물의 올바른 사실을
+> 담고 있었다. 아래가 정정된 판정이고, 초안의 통합 권고는 폐기한다.
 
-`glp-1-dose-tracker` · `glp-1-progress-tracker` · `glp-1-shot-tracker`
-`side-effect-tracker` · `glp-1-tracker-app` · `injection-tracker-app`
+### 왜 유사도만으로 판단하면 안 되는가
 
-약물 구분이 없는 동일 주제. 서로를 카니벌라이즈한다.
-
-→ keeper `glp-1-tracker` (신규 허브, 6개 본문의 고유 섹션 흡수)
-→ 나머지 5개 `merged-redirects.json` 301
-
-**URL −5**
-
-### B. foundayo → orforglipron 2쌍  【즉시 실행 가능】
-
-Foundayo 는 Lilly 의 orforglipron 브랜드명 = **같은 분자**.
-본문이 이름만 치환된 상태(차이 구간 35개).
-
-→ `foundayo-side-effects` 301 → `orforglipron-side-effects`
-→ `foundayo-tracker` 301 → `orforglipron-tracker`
-→ keeper 안에 "Foundayo (브랜드명)" 섹션 추가해 브랜드 쿼리 흡수
-
-**URL −2**
-
-### C. 브랜드 tracker 8개  → **(a) 통합 확정**
-
-`ozempic` `wegovy` `mounjaro` `zepbound` `semaglutide` `tirzepatide`
-`retatrutide` `oral-wegovy` × `-tracker` — 상호 유사도 0.65~0.88, ≥0.6 쌍 19개
-
-"이 약을 먹을 때 무엇을 기록할 것인가"는 약물이 달라도 조언이 거의 같다.
-GSC 실측 결과 **8개 전부 색인 0건**이다. 지킬 랭킹이 없으므로 통합에 비용이 없다.
-
-→ keeper `glp-1-tracker` (A 의 허브와 동일) 1개
-→ 8개 전부 301, 각 약물 고유 정보(titration 표 · 승인 적응증)는 허브 안 섹션으로 흡수
-
-**URL −8**
-
-### D. side-effects 11개  → **분자 기준 통합 확정**
-
-분자 기준으로 접으면 5개로 압축된다:
+각 브랜드 페이지는 제 약물의 **올바른 용량 사다리**를 담고 있다:
 
 ```
-semaglutide  ← ozempic, wegovy, oral-wegovy
-tirzepatide  ← mounjaro, zepbound
-orforglipron ← foundayo
-retatrutide
-glp-1 (허브)
+ozempic-tracker    0.25 / 0.5 / 1 / 2              ← Ozempic 실제 titration
+wegovy-tracker     0.25 / 0.5 / 1 / 1.7 / 2.4      ← Wegovy 실제 titration
+mounjaro-tracker   2.5 / 5 / 7.5 / 10 / 12.5 / 15  ← tirzepatide
+zepbound-tracker   2.5 / 5 / 10 / 15
 ```
 
-검색량은 **브랜드 >> 분자**이므로 보통은 브랜드를 keeper 로 둔다. 그러나 11개
-전부 색인 0건이라 현재 랭킹 기준으로는 어느 쪽을 keeper 로 잡아도 잃는 것이 없다.
-→ 검색량이 큰 **브랜드를 keeper** 로 두고 분자 페이지를 브랜드로 접는다:
+브랜드명·용량을 지운 정규화 문장 기준 공통 비율은 42~51% — **절반은 고유**다.
+
+| | 문장 | 4개 전부 공통 | 고유 |
+|---|---:|---:|---:|
+| ozempic-tracker | 76 | 37 | 51% |
+| wegovy-tracker | 73 | 37 | 49% |
+| mounjaro-tracker | 76 | 37 | 51% |
+| zepbound-tracker | 88 | 37 | 58% |
+
+jaccard 0.88 은 나머지 절반(무엇을 기록할지)이 공통이라 나온 값이고 같은
+주제이므로 당연하다. **1,500 단어 중 200 단어가 약물 고유여도 jaccard 는 0.88
+이 나오는데, 쿼리에 답하는 건 그 200 단어다.**
+
+### A. 브랜드 tracker 8개 · side-effects 11개 — **병합 반대**
+
+서로 다른 약을 찾는 사용자를 한 페이지로 보내게 된다. 개선 여지는 병합이 아니라
+**공통 boilerplate 42~51% 를 줄이는 것**이지만, 8~11 편 재작성이라 지금 우선순위가
+아니다.
+
+### B. Foundayo → orforglipron — **유일한 실제 중복 (실행함)**
+
+Foundayo 는 Lilly 의 orforglipron 브랜드명 = **같은 분자**이고 용량까지 같다:
 
 ```
-keeper: ozempic-side-effects · wegovy-side-effects · mounjaro-side-effects
-        zepbound-side-effects · glp-1-side-effects (허브)
-301   : semaglutide → wegovy   (감량 적응증 기준)
-        tirzepatide → zepbound
-        orforglipron ← foundayo (B 에서 처리)
-        oral-wegovy  → wegovy 안 "경구 제형" 섹션
-        retatrutide  → glp-1 허브 (미승인 약물, 단독 페이지 근거 약함)
+foundayo-tracker        0.8 / 2.5 / 5.5 / 9 / 14.5 / 17.2
+orforglipron-tracker    0.8 / 2.5 / 5.5 / 9 / 14.5 / 17.2
+foundayo-side-effects       5.5 / 9 / 17.2
+orforglipron-side-effects   5.5 / 9 / 17.2
 ```
 
-**URL −5**, 남는 6개는 약물별 실측 incidence 표로 차별화.
+`foundayo-side-effects` ↔ `orforglipron-side-effects` 는 본문 11,590자에 차이
+구간 35개 = 브랜드명 치환. 다른 브랜드 쌍과 달리 **구분할 사실 자체가 없다.**
+merged-redirects 에 2건 추가 (URL −8, 4 언어 × 2).
 
-### E. alternative 10개  【손대지 않음】
+⚠️ `orforglipron-side-effects` 의 **en 본문에 Foundayo 언급이 1회**뿐이다
+(ko 9 · ja 16 · zh-TW 18). 브랜드 쿼리 앵커가 얇으므로 en 에 한 문단 보강이
+필요하다 — 제품 페이지 문구라 별도 검토 항목.
 
-최고 유사도 0.654, ≥0.6 쌍 2/45. 경쟁 앱마다 타겟 쿼리가 다르다.
-**이 클러스터는 건강하다.** 유일한 검토 대상은 `pep-alternative` ↔
-`shotsy-alternative` (0.654) 한 쌍.
+### C. generic tracker 6개 — 보류
 
-## 4. 순서
+`glp-1-dose-tracker`(0.371) · `glp-1-shot-tracker`(0.499) ·
+`glp-1-progress-tracker`(0.466) · `side-effect-tracker`(0.359) ·
+`glp-1-tracker-app`(0.590) · `injection-tracker-app`(0.499).
 
-1. **A + B 먼저** — 판단 불필요, URL −7, `merged-redirects.json` 7줄 추가 + 허브 1편 작성
-2. GSC 색인 236건 CSV 로 C·D 갈래 확정
-3. C·D 실행 → URL −13. 총 4,143 → 4,123 이지만 **URL 수가 아니라 중복 신호 제거가 본질**
-4. 영어 색인 아티클이 4건 → 두 자리로 올라오는지 확인
-5. 그 다음에야 언어 웨이브 (es/de)
+초안은 "1개 허브로" 였는데 유사도가 **텍스트 중복 수준이 아니다.**
+카니발라이제이션(같은 검색의도를 6개가 나눠 먹음) 문제지 중복 문제가 아니라서,
+병합보다 각 페이지의 의도를 갈라주는 쪽이 맞다.
+
+### D. alternative 10개 · retatrutide — 손대지 않음
+
+alternative 최고 유사도 0.654(≥0.6 은 2/45 쌍). retatrutide 는 0.345~0.368 로
+독립적이다.
+
+### 언어 재오픈은 이 클러스터를 곱하지 않는다
+
+초안 작성 후 "언어가 10개가 되면 중복 1건이 10 URL 로 곱해진다" 고 적었는데
+**틀렸다.** GLP-1 허브 슬러그는 en/ko/ja/zh-tw **4개 언어만** 번역돼 있고
+(`nlang=4`) 나머지 6개는 폴백이라 noindex 다. 재오픈 전후로 URL 수가 같다.
+
+## 4. 결론
+
+실제로 실행한 것은 **Foundayo 2건 병합**뿐이다(URL −8). 나머지는 근거가
+무너졌다.
+
+즉 색인률의 남은 병목은 이 문서가 다루는 컨텐츠 중복이 **아니다.** §5 에 적은
+대로 링크 권위이고, 그건 서브디렉터리 이전(#48)으로 한 번 손댔다. 그 효과가
+4~8주 뒤에 나오는지를 보고 다음을 정한다.
 
 ## 5. 언어 재오픈 — 결정 기록
 
