@@ -228,6 +228,36 @@
       "source": "/home",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/eula",
+      "destination": "/eula.html",
+      "permanent": true
+    },
+    {
+      "source": "/eula-ko",
+      "destination": "/eula-ko.html",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms.html",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy.html",
+      "permanent": true
+    },
+    {
+      "source": "/refund",
+      "destination": "/refund.html",
+      "permanent": true
+    },
+    {
+      "source": "/refund-ko",
+      "destination": "/refund-ko.html",
+      "permanent": true
     }
   ]
 }
