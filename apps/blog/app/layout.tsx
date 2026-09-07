@@ -2,9 +2,10 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import CookieConsent from '@/components/CookieConsent';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import { METADATA_BASE, SITE, asset } from '@/lib/site';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://blog.aihavit.com'),
+  metadataBase: METADATA_BASE,
   title: {
     default: 'HAVIT Blog — Science-backed wellness guidance',
     template: '%s',
@@ -19,14 +20,14 @@ export const metadata: Metadata = {
     icon: [
       // SVG first for the browsers that take one; every file below is the same
       // fixed tile (white ground, black wordmark) and none adapt to the OS theme.
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico' },
-      { url: '/favicon-16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon-192.png', sizes: '192x192', type: 'image/png' },
-      { url: '/favicon-512.png', sizes: '512x512', type: 'image/png' },
+      { url: asset('/favicon.svg'), type: 'image/svg+xml' },
+      { url: asset('/favicon.ico') },
+      { url: asset('/favicon-16.png'), sizes: '16x16', type: 'image/png' },
+      { url: asset('/favicon-32.png'), sizes: '32x32', type: 'image/png' },
+      { url: asset('/favicon-192.png'), sizes: '192x192', type: 'image/png' },
+      { url: asset('/favicon-512.png'), sizes: '512x512', type: 'image/png' },
     ],
-    apple: '/apple-touch-icon.png',
+    apple: asset('/apple-touch-icon.png'),
   },
   verification: {
     other: {
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: 'HAVIT Blog',
-    url: 'https://blog.aihavit.com',
+    url: SITE,
   },
 };
 

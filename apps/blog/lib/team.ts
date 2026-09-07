@@ -1,3 +1,4 @@
+import { SITE } from '@/lib/site';
 /**
  * E-E-A-T entity registry (authors / reviewers / publisher) — data-driven so real
  * named experts can be slotted in without touching components or schema code.
@@ -26,12 +27,12 @@ export const BRAND_SAME_AS: string[] = [
 /** Reusable publisher Organization node for JSON-LD (home + articles). */
 export const PUBLISHER_ORG = {
   '@type': 'Organization' as const,
-  '@id': 'https://blog.aihavit.com/#publisher',
+  '@id': `${SITE}/#publisher`,
   name: 'Havit Inc.',
   url: 'https://www.aihavit.com',
   logo: {
     '@type': 'ImageObject' as const,
-    url: 'https://blog.aihavit.com/havit-logo.png',
+    url: `${SITE}/havit-logo.png`,
     width: 1600,
     height: 988,
   },
@@ -89,7 +90,7 @@ export function entitySchema(e: TeamEntity, shortLang: string) {
     '@type': e['@type'] ?? 'Organization',
     name: e.name,
   };
-  if (e.pathOnSite) node.url = `https://blog.aihavit.com/${shortLang}/${e.pathOnSite}`;
+  if (e.pathOnSite) node.url = `${SITE}/${shortLang}/${e.pathOnSite}`;
   if (e.sameAs?.length) node.sameAs = e.sameAs;
   if (e.knowsAbout?.length) node.knowsAbout = e.knowsAbout;
   if (e['@type'] === 'Person') {

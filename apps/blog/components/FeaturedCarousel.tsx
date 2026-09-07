@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { asset } from '@/lib/site';
 
 export interface FeaturedSlide {
   slug: string;
@@ -79,7 +80,7 @@ export default function FeaturedCarousel({
               aria-controls="featured-carousel"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/icons/ui/arrow-left.svg" alt="" width={36} height={36} />
+              <img src={asset('/icons/ui/arrow-left.svg')} alt="" width={36} height={36} />
             </button>
             <button
               type="button"
@@ -89,7 +90,7 @@ export default function FeaturedCarousel({
               aria-controls="featured-carousel"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/icons/ui/arrow-right.svg" alt="" width={36} height={36} />
+              <img src={asset('/icons/ui/arrow-right.svg')} alt="" width={36} height={36} />
             </button>
           </div>
         )}

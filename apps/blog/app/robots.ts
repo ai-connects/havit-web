@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
+import { SITE } from '@/lib/site';
 
 // PRD §6.7
 //
@@ -20,6 +21,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/data/', '/_next/image', '/admin/'],
       },
     ],
-    sitemap: 'https://blog.aihavit.com/sitemap.xml',
+    sitemap: `${SITE}/sitemap.xml`,
   };
 }

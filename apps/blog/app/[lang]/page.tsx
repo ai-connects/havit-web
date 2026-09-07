@@ -13,6 +13,7 @@ import FeaturedCarousel from '@/components/FeaturedCarousel';
 import { ALL_CATEGORY_ICON } from '@/lib/category-icons';
 import { articleImage } from '@/lib/article-images';
 import { BRAND_SAME_AS } from '@/lib/team';
+import { SITE } from '@/lib/site';
 
 export const revalidate = 600;
 
@@ -112,7 +113,7 @@ const LABEL_BY_PUBLISHER: Record<RouteLang, string> = {
   fr: 'Publié par Havit Inc.',
 };
 
-const OG_IMAGE_URL = 'https://blog.aihavit.com/og-card.png';
+const OG_IMAGE_URL = `${SITE}/og-card.png`;
 
 const HOME_TITLE: Record<RouteLang, string> = {
   ko: 'HAVIT 블로그 — 과학 기반 웰니스 가이드',
@@ -132,7 +133,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lang = params.lang as RouteLang;
   const title = HOME_TITLE[lang];
   const description = HERO_TAGLINE[lang];
-  const url = `https://blog.aihavit.com/${lang}`;
+  const url = `${SITE}/${lang}`;
   return {
     title,
     description,
@@ -143,7 +144,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: url,
       languages: Object.fromEntries(
-        ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `https://blog.aihavit.com/${l}`]),
+        ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}`]),
       ),
     },
     openGraph: {
@@ -219,29 +220,29 @@ export default function BlogIndexPage({ params, searchParams }: Props) {
     '@graph': [
       {
         '@type': 'WebSite',
-        '@id': 'https://blog.aihavit.com/#website',
-        url: 'https://blog.aihavit.com/',
+        '@id': `${SITE}/#website`,
+        url: `${SITE}/`,
         name: 'HAVIT Blog',
         description: HERO_TAGLINE[shortLang as RouteLang],
         inLanguage: shortLang,
-        publisher: { '@id': 'https://blog.aihavit.com/#publisher' },
+        publisher: { '@id': `${SITE}/#publisher` },
         potentialAction: {
           '@type': 'SearchAction',
           target: {
             '@type': 'EntryPoint',
-            urlTemplate: `https://blog.aihavit.com/${shortLang}?q={search_term_string}`,
+            urlTemplate: `${SITE}/${shortLang}?q={search_term_string}`,
           },
           'query-input': 'required name=search_term_string',
         },
       },
       {
         '@type': 'Organization',
-        '@id': 'https://blog.aihavit.com/#publisher',
+        '@id': `${SITE}/#publisher`,
         name: 'Havit Inc.',
         url: 'https://www.aihavit.com',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://blog.aihavit.com/havit-logo.png',
+          url: `${SITE}/havit-logo.png`,
           width: 1600,
           height: 988,
         },

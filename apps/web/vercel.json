@@ -190,16 +190,6 @@
       "permanent": true
     },
     {
-      "source": "/blog",
-      "destination": "https://blog.aihavit.com/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/:path*",
-      "destination": "https://blog.aihavit.com/",
-      "permanent": true
-    },
-    {
       "source": "/about",
       "destination": "/",
       "permanent": true
@@ -258,6 +248,16 @@
       "source": "/refund-ko",
       "destination": "/refund-ko.html",
       "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/blog",
+      "destination": "https://blog.aihavit.com/blog"
+    },
+    {
+      "source": "/blog/:path*",
+      "destination": "https://blog.aihavit.com/blog/:path*"
     }
   ]
 }

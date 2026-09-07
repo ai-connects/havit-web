@@ -1,3 +1,4 @@
+import { asset } from './site';
 /**
  * 카테고리 아이콘 — Figma 디자인 시스템에서 내려온 SVG.
  *
@@ -17,7 +18,7 @@
 /** 디자인의 24px 컨테이너 규격. SVG 는 자기 크기대로 그 안에 중앙 정렬된다. */
 export const CATEGORY_ICON_BOX = 24;
 
-const BASE = '/icons/category';
+const BASE = asset('/icons/category');
 
 /**
  * 디자인에 정의된 12개 카테고리.

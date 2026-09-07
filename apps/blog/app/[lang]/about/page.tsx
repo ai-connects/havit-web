@@ -13,6 +13,7 @@ import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { toFullLang } from '@/lib/i18n';
+import { SITE } from '@/lib/site';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 type RouteLang = (typeof ROUTE_LANGS)[number];
@@ -25,7 +26,6 @@ export function generateStaticParams() {
   return ROUTE_LANGS.map((lang) => ({ lang }));
 }
 
-const SITE = 'https://blog.aihavit.com';
 const CONTACT_EMAIL = 'havit@aihavit.com';
 const PUBLISHER_NAME = 'Havit Inc.';
 const PUBLISHER_URL = 'https://www.aihavit.com';

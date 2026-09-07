@@ -12,8 +12,9 @@ import sitemap from './plugins/sitemap.js'
 // sitemap.xml is generated from that same locale list rather than kept as a
 // static file, so lastmod cannot go stale behind a deploy.
 //
-// The blog lives on blog.aihavit.com (Next.js) and /blog/* is 301'd there in
-// vercel.json. Any real page needs its own entry below — Vite silently bundles
+// The blog is a separate Next.js project mounted at /blog via a vercel.json
+// rewrite (it used to live on blog.aihavit.com, which never inherited the
+// domain's links). Any real page here needs its own entry below — Vite silently bundles
 // only index.html otherwise.
 //
 // /affiliate/ is English-only and therefore NOT run through i18nHtml: that

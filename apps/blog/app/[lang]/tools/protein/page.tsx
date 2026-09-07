@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import ProteinCalculator from '@/components/tools/ProteinCalculator';
 import { PROTEIN_LABELS, type ToolLang, toToolLang } from '@/lib/tool-labels';
 import { toFullLang } from '@/lib/i18n';
+import { SITE } from '@/lib/site';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 interface Props { params: { lang: string } }
@@ -23,23 +24,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? { index: true, follow: true }
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: {
-      canonical: `https://blog.aihavit.com/${params.lang}/tools/protein`,
-      languages: Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `https://blog.aihavit.com/${l}/tools/protein`])),
+      canonical: `${SITE}/${params.lang}/tools/protein`,
+      languages: Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}/tools/protein`])),
     },
     openGraph: {
       title: L.pageTitle,
       description: L.pageIntro,
       type: 'website',
-      url: `https://blog.aihavit.com/${params.lang}/tools/protein`,
+      url: `${SITE}/${params.lang}/tools/protein`,
       siteName: 'HAVIT Blog',
       locale: params.lang,
-      images: [{ url: 'https://blog.aihavit.com/og-card.png', width: 1200, height: 630, alt: 'HAVIT Blog' }],
+      images: [{ url: `${SITE}/og-card.png`, width: 1200, height: 630, alt: 'HAVIT Blog' }],
     },
     twitter: {
       card: 'summary_large_image',
       title: L.pageTitle,
       description: L.pageIntro,
-      images: ['https://blog.aihavit.com/og-card.png'],
+      images: [`${SITE}/og-card.png`],
     },
   };
 }

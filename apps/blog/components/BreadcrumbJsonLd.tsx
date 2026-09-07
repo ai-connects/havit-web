@@ -9,6 +9,7 @@
 
 import type { ArticleV2 } from '@/lib/articles-v2';
 import { categoryByValue } from '@/lib/i18n';
+import { SITE } from '@/lib/site';
 
 interface Props {
   article: ArticleV2;
@@ -16,7 +17,6 @@ interface Props {
   shortLang: string;
 }
 
-const SITE = 'https://blog.aihavit.com';
 
 export default function BreadcrumbJsonLd({ article, content, shortLang }: Props) {
   const cat = categoryByValue(article.category);

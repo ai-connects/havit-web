@@ -1,6 +1,7 @@
 'use client';
 
 import { type LangKey, t } from '@/lib/i18n';
+import { asset } from '@/lib/site';
 
 interface Props {
   lang: LangKey;
@@ -52,7 +53,7 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
             이메일 헤더(apps/web/public/email)와 같은 흰 칩을 깔아 분리한다. */}
         <span className="install-cta__brand">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/havit-logo.svg" alt="HAVIT" width={264} height={163} />
+          <img src={asset('/havit-logo.svg')} alt="HAVIT" width={264} height={163} />
         </span>
         <p className="install-cta__title">{t(lang, 'installCta')}</p>
         <p className="install-cta__sub">{t(lang, 'installCtaSub')}</p>
@@ -60,17 +61,17 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
           <a href={universalLink} onClick={handleClick} className="install-cta__badge" aria-label="App Store">
             {/* 5~6KB 고정 크기 PNG 라 next/image 최적화 이득이 없다. */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/badge-appstore.png" alt="Download on the App Store" width={168} height={56} />
+            <img src={asset('/badge-appstore.png')} alt="Download on the App Store" width={168} height={56} />
           </a>
           <a href={universalLink} onClick={handleClick} className="install-cta__badge" aria-label="Google Play">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/badge-googleplay.png" alt="Get it on Google Play" width={189} height={56} />
+            <img src={asset('/badge-googleplay.png')} alt="Get it on Google Play" width={189} height={56} />
           </a>
         </div>
       </div>
       <div className="install-cta__shot" aria-hidden>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/app-preview.webp" alt="" width={330} height={670} loading="lazy" />
+        <img src={asset('/app-preview.webp')} alt="" width={330} height={670} loading="lazy" />
       </div>
     </div>
   );
