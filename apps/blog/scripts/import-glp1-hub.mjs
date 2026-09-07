@@ -114,7 +114,7 @@ const unquote = (v) => v.replace(/^["'](.*)["']$/s, '$1').trim()
 
 /**
  * 내부 참조를 사이트 경로로 되돌린다.
- * 원고는 `/ko/<slug>`, `/<slug>`, `https://blog.aihavit.com/ko/<slug>` 세 형태를
+ * 원고는 `/ko/<slug>`, `/<slug>`, `https://www.aihavit.com/blog/ko/<slug>` 세 형태를
  * 섞어 쓴다. 이제 전부 같은 사이트이므로 `/<lang>/<slug>` 상대경로로 통일한다.
  * 신규·기존 어디에도 없는 대상은 링크를 벗겨 문구만 남긴다(404 방지).
  */
