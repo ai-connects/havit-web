@@ -26,14 +26,37 @@ import { DEFAULT_LOCALE, LOCALES } from './plugins/locales.js'
  *
  * The cookie is what keeps the English edition reachable. Without it, a Korean
  * device clicking "English" in the switcher would land on `/` and be bounced
- * straight back to /ko/ — the language menu would look broken. One redirect
- * writes hv_lang, and after that `/` is served as-is.
+ * straight back to /ko/ — the language menu would look broken.
+ *
+ * 단, 쿠키는 **값**으로 읽어야 한다. 존재 여부만 보면 자동 라우팅으로 심긴
+ * `hv_lang=ko` 까지 "영어를 골랐다" 로 읽혀서, 한국어 기기가 두 번째 방문부터
+ * 영어를 받는다. 저장된 값이 기본 언어일 때만 그대로 둔다.
  */
 
 const COOKIE = 'hv_lang'
 const YEAR = 60 * 60 * 24 * 365
 
 const SERVED = new Set(LOCALES)
+
+/**
+ * 블로그가 실제로 서빙하는 10개 언어. 마케팅 사이트의 34개 로케일과 집합이
+ * 다르므로 좁혀서 매핑해야 한다 — 없는 언어로 보내면 블로그가 영어 본문을
+ * 폴백으로 띄우면서 noindex 를 달기 때문에, 링크 권위가 색인도 안 되는 URL 로
+ * 샌다. 출처는 블로그의 lib/i18n.ts SERVED_ROUTE_LANGS.
+ */
+const BLOG_LOCALES = new Set(['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'])
+
+/** 마케팅 사이트 로케일 → 블로그 언어. 디렉터리 이름이 다른 둘만 적는다. */
+const BLOG_ALIAS = { 'zh-cn': 'zh', pt: 'pt-br' }
+
+/**
+ * 폴백이 en 인 이유: sitemap 의 x-default 와 블로그 자체 FALLBACK_LANG 이
+ * 둘 다 en 이다. 여기만 ko 로 두면 세 곳이 어긋난다.
+ */
+function toBlogLang(locale) {
+  if (BLOG_LOCALES.has(locale)) return locale
+  return BLOG_ALIAS[locale] ?? DEFAULT_LOCALE
+}
 
 /**
  * Browser tags that do not equal one of our locale directory names.
@@ -98,20 +121,26 @@ function pickLocale(header) {
   return null
 }
 
-function redirect(to, locale) {
-  return new Response(null, {
-    status: 302,
-    headers: {
-      Location: to,
-      'Set-Cookie': `${COOKIE}=${locale}; Path=/; Max-Age=${YEAR}; SameSite=Lax; Secure`,
-      'Cache-Control': 'no-store',
-      Vary: 'Accept-Language, Cookie',
-    },
-  })
+function redirect(to, locale, { setCookie = true } = {}) {
+  const headers = {
+    Location: to,
+    'Cache-Control': 'no-store',
+    Vary: 'Accept-Language, Cookie',
+  }
+  // 쿠키는 "루트를 다시 튕기지 말라" 는 표시다. 블로그 루트는 언어 세그먼트가
+  // 없으면 페이지 자체가 없어 어차피 항상 보내므로 쿠키가 할 일이 없다.
+  // 오히려 심어두면 그 방문자가 나중에 `/` 로 왔을 때 마케팅 사이트의 언어
+  // 라우팅이 억제된다 — 독일어 기기가 /blog 를 먼저 열었다는 이유로 `/` 에서
+  // 영어를 받게 된다. 그래서 명시 선택(`?lang=`)일 때만 심는다.
+  if (setCookie) {
+    headers['Set-Cookie'] = `${COOKIE}=${locale}; Path=/; Max-Age=${YEAR}; SameSite=Lax; Secure`
+  }
+  return new Response(null, { status: 302, headers })
 }
 
 export default function middleware(request) {
   const url = new URL(request.url)
+  const isBlogRoot = url.pathname === '/blog' || url.pathname === '/blog/'
 
   /**
    * `?lang=` is the explicit override, and the language menu on every localized
@@ -124,12 +153,45 @@ export default function middleware(request) {
     if (locale) {
       // Redirect even for `en` — the response has to carry Set-Cookie, and the
       // cookie is what stops the next `/` visit from forwarding again.
-      return redirect(locale === DEFAULT_LOCALE ? '/' : `/${locale}/`, locale)
+      const to = isBlogRoot
+        ? `/blog/${toBlogLang(locale)}`
+        : locale === DEFAULT_LOCALE
+          ? '/'
+          : `/${locale}/`
+      return redirect(to, locale)
     }
   }
 
-  // Already routed once, or chose a language explicitly. Leave them alone.
-  if (request.headers.get('cookie')?.includes(`${COOKIE}=`)) return next()
+  /**
+   * 블로그 루트는 마케팅 루트와 성질이 다르다. `/` 는 그 자체로 영어판이라
+   * 아무것도 안 하면 되지만, `/blog` 는 언어 세그먼트가 없으면 페이지가 없다 —
+   * 오리진이 어차피 한 언어로 보낸다. 그러니 쿠키가 있든 없든 항상 보내되,
+   * 어디로 보낼지를 여기서 정한다. 쿠키가 있으면 그 선택을 존중한다.
+   */
+  if (isBlogRoot) {
+    const chosen = request.headers.get('cookie')?.match(/(?:^|;\s*)hv_lang=([^;]+)/)?.[1]
+    const locale =
+      (chosen && toLocale(chosen.toLowerCase())) ||
+      pickLocale(request.headers.get('accept-language')) ||
+      DEFAULT_LOCALE
+    return redirect(`/blog/${toBlogLang(locale)}`, locale, { setCookie: false })
+  }
+
+  /**
+   * 쿠키는 **값**으로 읽는다. 존재 여부만 보던 게 버그였다 — 한국어 기기가 첫
+   * 방문에 /ko/ 로 가면서 `hv_lang=ko` 가 심기는데, 그 다음부터는 쿠키가 있다는
+   * 이유만으로 `/` 가 영어로 나왔다. 저장해 둔 선택을 무시하고 정반대를 준 셈이다.
+   *
+   * 이제 값이 기본 언어면 그대로 두고(= 사용자가 영어를 고른 경우),
+   * 다른 언어면 그 판으로 보낸다. 아직 없으면 기기 언어로 판단한다.
+   * 어느 쪽이든 쿠키를 다시 심지는 않는다 — 이미 있는 선택을 덮어쓸 이유가 없다.
+   */
+  const stored = request.headers.get('cookie')?.match(/(?:^|;\s*)hv_lang=([^;]+)/)?.[1]
+  if (stored) {
+    const locale = toLocale(stored.toLowerCase())
+    if (!locale || locale === DEFAULT_LOCALE) return next()
+    return redirect(`/${locale}/`, locale, { setCookie: false })
+  }
 
   const locale = pickLocale(request.headers.get('accept-language'))
   if (!locale || locale === DEFAULT_LOCALE) return next()
@@ -138,10 +200,11 @@ export default function middleware(request) {
 }
 
 /**
- * Root only. The locale pages, /affiliate/, the legal documents and every asset
- * skip the middleware entirely — they are already unambiguous about which
- * edition they are, and an unmatched path is never even invoked.
+ * 루트와 블로그 루트만. 로케일 페이지·/affiliate/·법적 고지·에셋, 그리고
+ * `/blog/<lang>/...` 아래 전부는 이미 어느 판인지 분명하므로 건너뛴다.
+ * `/blog/` 도 넣은 이유는 슬래시 정규화 리다이렉트를 한 번 더 타지 않게
+ * 하려는 것 — 미들웨어가 vercel.json 보다 먼저 돌아 한 홉으로 끝난다.
  */
 export const config = {
-  matcher: '/',
+  matcher: ['/', '/blog', '/blog/'],
 }
