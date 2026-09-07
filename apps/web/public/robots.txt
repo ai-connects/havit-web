@@ -1,5 +1,13 @@
 User-agent: *
 Allow: /
+# 블로그(/blog)가 자기 robots.ts 로 막던 경로들. 서브도메인일 땐 그쪽 루트
+# robots.txt 가 유효했지만, www 아래로 들어오면서 루트가 여기 하나가 됐다.
+# 옮기지 않으면 Googlebot 이 RSC 페이로드와 이미지 최적화 엔드포인트를 긁는다 —
+# 크롤 예산이 부족해서 옮긴 마당에 그걸 다시 새게 두면 안 된다.
+Disallow: /blog/api/
+Disallow: /blog/_next/data/
+Disallow: /blog/_next/image
+Disallow: /blog/admin/
 
 Sitemap: https://www.aihavit.com/sitemap.xml
 Sitemap: https://www.aihavit.com/blog/sitemap.xml

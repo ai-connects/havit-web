@@ -10,12 +10,16 @@
  *   npx tsx scripts/indexnow-submit.ts --sitemap-recent 200  # 200 most-recently-updated URLs from sitemap
  *
  * No auth required — IndexNow verifies the host owns the key by fetching
- * https://www.aihavit.com/{key}.txt and matching the body to the key.
+ * keyLocation 의 파일을 가져와 본문이 키와 같은지 확인한다.
+ *
+ * 키 파일은 블로그 public/ 에 있어 basePath 때문에 /blog/{key}.txt 로 서빙된다.
+ * IndexNow 는 하위 경로의 키를 허용하되 제출 URL 이 그 경로 아래여야 하는데,
+ * 이 스크립트가 내는 URL 은 전부 /blog/ 아래라 조건을 만족한다.
  */
 
 const HOST = 'www.aihavit.com';
 const KEY = '81b971200b7d6aa96b465a75821c1b02';
-const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
+const KEY_LOCATION = `https://${HOST}/blog/${KEY}.txt`;
 const INDEXNOW_ENDPOINT = 'https://api.indexnow.org/IndexNow';
 
 const LANGS = ['en', 'ko', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'];

@@ -10,37 +10,37 @@ The publisher, AI Connect Inc., is a Seoul-based company digitalizing premium me
 
 The blog organizes content into 15 categories. 10 categories are classified as YMYL (Your Money, Your Life) per Google Search Quality Rater Guidelines §3.2, and use `MedicalWebPage` schema.
 
-- [Diet & Nutrition](https://blog.aihavit.com/en): protein needs, GLP-1 weight loss, evidence-based supplements
-- [Sleep & Recovery](https://blog.aihavit.com/en): sleep efficiency protocols, HRV interpretation, recovery scores
-- [Exercise & Activity](https://blog.aihavit.com/en): training volume, METs-based calorie burn, VO2max optimization
-- [Weight & Metabolism](https://blog.aihavit.com/en): metabolic adaptation, plateau breakthroughs, BMR/TDEE
-- [Medication Guide](https://blog.aihavit.com/en): GLP-1 receptor agonists (Ozempic/Wegovy/Mounjaro), drug interactions
-- [Health & Conditions](https://blog.aihavit.com/en): non-diabetic CGM, hypermobility, lichen planus
-- [Mental Health & Stress](https://blog.aihavit.com/en): anxiety, stress physiology, sleep impact
-- [Gut Health & Microbiome](https://blog.aihavit.com/en): fiber diversity, FODMAP, gut-brain axis
-- [Longevity & Healthy Aging](https://blog.aihavit.com/en): biological age tests, NMN/rapamycin, blue zones
-- [Hydration & Beverages](https://blog.aihavit.com/en): caffeine half-life, electrolyte balance
-- [Tracking & Insights](https://blog.aihavit.com/en): wearables (Apple Watch, Garmin, Whoop, Oura), CGM
-- [Mindset & Motivation](https://blog.aihavit.com/en): habit formation, accountability partners, behavior change
-- [Lifestyle Habits](https://blog.aihavit.com/en): biohacking (cold plunge, sauna, red light), habit stacking
-- [Personalized Strategies](https://blog.aihavit.com/en): age/sex/goal-specific protocols
-- [Situational Tips](https://blog.aihavit.com/en): travel, holiday, shift work, illness
+- [Diet & Nutrition](https://www.aihavit.com/blog/en): protein needs, GLP-1 weight loss, evidence-based supplements
+- [Sleep & Recovery](https://www.aihavit.com/blog/en): sleep efficiency protocols, HRV interpretation, recovery scores
+- [Exercise & Activity](https://www.aihavit.com/blog/en): training volume, METs-based calorie burn, VO2max optimization
+- [Weight & Metabolism](https://www.aihavit.com/blog/en): metabolic adaptation, plateau breakthroughs, BMR/TDEE
+- [Medication Guide](https://www.aihavit.com/blog/en): GLP-1 receptor agonists (Ozempic/Wegovy/Mounjaro), drug interactions
+- [Health & Conditions](https://www.aihavit.com/blog/en): non-diabetic CGM, hypermobility, lichen planus
+- [Mental Health & Stress](https://www.aihavit.com/blog/en): anxiety, stress physiology, sleep impact
+- [Gut Health & Microbiome](https://www.aihavit.com/blog/en): fiber diversity, FODMAP, gut-brain axis
+- [Longevity & Healthy Aging](https://www.aihavit.com/blog/en): biological age tests, NMN/rapamycin, blue zones
+- [Hydration & Beverages](https://www.aihavit.com/blog/en): caffeine half-life, electrolyte balance
+- [Tracking & Insights](https://www.aihavit.com/blog/en): wearables (Apple Watch, Garmin, Whoop, Oura), CGM
+- [Mindset & Motivation](https://www.aihavit.com/blog/en): habit formation, accountability partners, behavior change
+- [Lifestyle Habits](https://www.aihavit.com/blog/en): biohacking (cold plunge, sauna, red light), habit stacking
+- [Personalized Strategies](https://www.aihavit.com/blog/en): age/sex/goal-specific protocols
+- [Situational Tips](https://www.aihavit.com/blog/en): travel, holiday, shift work, illness
 
 ## Interactive Tools
 
 Free calculators with cited formulas, no ads, no signup:
 
-- [BMR + TDEE Calculator](https://blog.aihavit.com/en/tools/bmr): Mifflin-St Jeor equation, daily calorie baseline
-- [Protein Needs Calculator](https://blog.aihavit.com/en/tools/protein): grams per day by weight + goal (ISSN 2017 standard)
-- [Daily Water Intake Calculator](https://blog.aihavit.com/en/tools/water): NAM 2004 hydration formula
-- [Caffeine Cutoff Calculator](https://blog.aihavit.com/en/tools/caffeine): half-life simulation for sleep protection
-- [Sleep Cycle Calculator](https://blog.aihavit.com/en/tools/sleep-cycle): optimal bedtime for target wake time
-- [Exercise Calorie Burn Calculator](https://blog.aihavit.com/en/tools/exercise-calories): METs-based burn by activity type
+- [BMR + TDEE Calculator](https://www.aihavit.com/blog/en/tools/bmr): Mifflin-St Jeor equation, daily calorie baseline
+- [Protein Needs Calculator](https://www.aihavit.com/blog/en/tools/protein): grams per day by weight + goal (ISSN 2017 standard)
+- [Daily Water Intake Calculator](https://www.aihavit.com/blog/en/tools/water): NAM 2004 hydration formula
+- [Caffeine Cutoff Calculator](https://www.aihavit.com/blog/en/tools/caffeine): half-life simulation for sleep protection
+- [Sleep Cycle Calculator](https://www.aihavit.com/blog/en/tools/sleep-cycle): optimal bedtime for target wake time
+- [Exercise Calorie Burn Calculator](https://www.aihavit.com/blog/en/tools/exercise-calories): METs-based burn by activity type
 
 ## Editorial Trust
 
-- [About HAVIT Blog](https://blog.aihavit.com/en/about): publisher, mission, contact
-- [Editorial Policy](https://blog.aihavit.com/en/editorial-policy): AI scope, human review workflow, reviewer credentials, corrections policy
+- [About HAVIT Blog](https://www.aihavit.com/blog/en/about): publisher, mission, contact
+- [Editorial Policy](https://www.aihavit.com/blog/en/editorial-policy): AI scope, human review workflow, reviewer credentials, corrections policy
 - Publisher: AI Connect Inc. (Seoul, South Korea) — sole legal entity responsible for all content
 - Editorial team: HAVIT Editorial Team, reviewed by HAVIT Medical Advisory (medicine, pharmacology, nutrition science, public health)
 - Corrections: verified within 7 business days; `last_updated` date set on revision
@@ -69,6 +69,6 @@ Articles are available in 10 languages with hreflang alternates and full localiz
 
 ## Optional
 
-- [Sitemap](https://blog.aihavit.com/sitemap.xml): 10,800+ URLs (article × lang × hreflang alternates)
-- [RSS Feed](https://blog.aihavit.com/rss.xml): latest articles
+- [Sitemap](https://www.aihavit.com/blog/sitemap.xml): 10,800+ URLs (article × lang × hreflang alternates)
+- [RSS Feed](https://www.aihavit.com/blog/rss.xml): latest articles
 - [HAVIT App](https://app.aihavit.com/): the wellness companion app this blog supports
