@@ -116,7 +116,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
           alternates[other] = `${SITE}/${other}/${a.slug}`;
         }
       }
-      alternates['x-default'] = `${SITE}/en/${a.slug}`;
+      // en 원문이 없는 아티클(5건)까지 x-default 를 달면 404 를 가리킨다.
+      // Google 은 클러스터 구성원 하나가 죽으면 그 hreflang 묶음을 통째로 버린다.
+      if (alternates['en']) alternates['x-default'] = `${SITE}/en/${a.slug}`;
       entries.push({
         url: `${SITE}/${lang}/${a.slug}`,
         lastModified: safeLastMod(a.updated_at, now),

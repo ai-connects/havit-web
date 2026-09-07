@@ -34,6 +34,16 @@ const LANG_TO_DATA = {
   es: 'es', 'pt-br': 'pt-BR', id: 'id', de: 'de', fr: 'fr',
 }
 
+/**
+ * 통합된 슬러그는 빼야 한다. 블로그 자체 푸터는 lib/articles-v2.ts 의
+ * MERGED_AWAY 필터를 거쳐 이미 빠지는데, 이 생성기는 파일을 직접 읽어서
+ * 걸러지지 않았다 — 같은 SSOT 를 쓴다는 두 푸터가 서로 달라져,
+ * 34개 로케일 홈이 308 로 리다이렉트되는 URL 로 링크하고 있었다.
+ */
+const MERGED_AWAY = new Set(
+  JSON.parse(readFileSync(resolve(BLOG, 'lib/merged-redirects.json'), 'utf-8')).map((r) => r.from),
+)
+
 const src = readFileSync(resolve(BLOG, 'lib/footer-links.ts'), 'utf-8')
 const groups = []
 for (const m of src.matchAll(/key:\s*'([a-zA-Z0-9]+)',\s*slugs:\s*\[([\s\S]*?)\]/g)) {
@@ -73,6 +83,10 @@ const out = groups.map((g) => ({
   key: g.key,
   links: g.slugs
     .map((slug) => {
+      if (MERGED_AWAY.has(slug)) {
+        console.warn(`  ! merged away, skipping: ${slug}`)
+        return null
+      }
       const p = resolve(BLOG, 'data/articles', `${slug}.json`)
       if (!existsSync(p)) {
         missing++

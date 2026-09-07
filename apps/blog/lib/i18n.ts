@@ -61,7 +61,7 @@ const SHORT_TO_FULL: Record<string, LangKey> = {
 const FULL_TO_SHORT: Record<LangKey, string> = {
   ko_kr: 'ko', en_us: 'en', en_gb: 'en-gb', ja_jp: 'ja', zh_cn: 'zh', zh_tw: 'zh-tw',
   th_th: 'th', vi_vn: 'vi', id_id: 'id', ru_ru: 'ru', fr_fr: 'fr', es_es: 'es',
-  pt_pt: 'pt', ar_ae: 'ar', el_gr: 'el', nl_nl: 'nl', de_de: 'de', tr_tr: 'tr',
+  pt_pt: 'pt-br', ar_ae: 'ar', el_gr: 'el', nl_nl: 'nl', de_de: 'de', tr_tr: 'tr',
   it_it: 'it', sv_se: 'sv', pl_pl: 'pl', nb_no: 'nb', da_dk: 'da', ro_ro: 'ro',
   ms_my: 'ms', sk_sk: 'sk', uk_ua: 'uk', cs_cz: 'cs', ca_es: 'ca', hr_hr: 'hr',
   fi_fi: 'fi', hu_hu: 'hu', he_il: 'he', hi_in: 'hi', uz_cyrl_uz: 'uz',
@@ -79,6 +79,10 @@ export function toShortLang(full: LangKey): string {
 export function toBcp47(full: LangKey): string {
   const [lang, region] = full.split('_');
   if (full === 'uz_cyrl_uz') return 'uz-Cyrl-UZ';
+  // 블로그의 포르투갈어 원고는 브라질(data key `pt-BR`)이고 라우트도 `pt-br` 인데,
+  // LangKey 만 앱 SSOT 를 따라 `pt_pt` 다. 파생값을 유럽 포르투갈어로 내보내면
+  // JSON-LD inLanguage 가 실제 본문과 어긋난다.
+  if (full === 'pt_pt') return 'pt-BR';
   return `${lang}-${region.toUpperCase()}`;
 }
 

@@ -30,7 +30,8 @@ export function GET() {
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HAVIT Blog</title>
-    <link>${SITE}</link>
+    <!-- ${SITE} 는 언어 라우팅 때문에 리다이렉트된다. 정본 en 판을 가리킨다. -->
+    <link>${SITE}/en</link>
     <description>Evidence-based wellness guides on habits, sleep, nutrition, and movement.</description>
     <language>en-US</language>
     <atom:link href="${SITE}/rss.xml" rel="self" type="application/rss+xml" />

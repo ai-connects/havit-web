@@ -35,7 +35,7 @@ function buildUrls(): string[] {
   const urls: string[] = [];
   for (const slug of NEW_SLUGS) {
     for (const lang of LANGS) {
-      urls.push(`https://${HOST}/${lang}/${slug}`);
+      urls.push(`https://${HOST}/blog/${lang}/${slug}`);
     }
   }
   return urls;

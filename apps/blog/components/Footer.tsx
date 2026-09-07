@@ -283,9 +283,14 @@ export default function Footer({ lang }: { lang: LangKey }) {
                 if (!article) return null;
                 const r = resolveContent(article, shortLang);
                 if (!r) return null;
-                return { slug, label: shortLabel(r.content.title) };
+                // 번역이 없으면 이 언어의 URL 은 영어 본문을 폴백으로 띄우면서
+                // noindex + canonical→en 을 단다. 거기로 링크하면 전 페이지의
+                // 푸터가 색인도 안 되는 URL 로 내부 링크를 흘려보낸다.
+                // 원문(en)으로 보낸다 — 본문 내 related 링크가 이미 쓰는 규칙.
+                const lang = r.fallback ? 'en' : shortLang;
+                return { slug, lang, label: shortLabel(r.content.title) };
               })
-              .filter((x): x is { slug: string; label: string } => x !== null);
+              .filter((x): x is { slug: string; lang: string; label: string } => x !== null);
             if (!links.length) return null;
             return (
               <div key={group.key} className="hv-footer__col">
@@ -295,7 +300,7 @@ export default function Footer({ lang }: { lang: LangKey }) {
                     group.key}
                 </p>
                 {links.map((l) => (
-                  <Link key={l.slug} href={`/${shortLang}/${l.slug}`}>
+                  <Link key={l.slug} href={`/${l.lang}/${l.slug}`}>
                     {l.label}
                   </Link>
                 ))}
