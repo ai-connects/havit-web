@@ -6,7 +6,7 @@ import ArticleView from '@/components/ArticleView';
 import HubArticleView from '@/components/HubArticleView';
 import { getArticleBySlug, resolveContent, getAllArticles, PRIMARY_LANGS, isLangIndexable } from '@/lib/articles-v2';
 import { articleImage } from '@/lib/article-images';
-import { toFullLang } from '@/lib/i18n';
+import { toFullLang, toBcp47 } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
@@ -115,12 +115,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: canonicalUrl,
       // hreflang cluster lists only indexable (priority + native) langs, so every
       // alternate Google sees is itself indexable — no noindex/hreflang conflict.
-      languages: Object.fromEntries(
-        ROUTE_LANGS.filter((l) => {
+      languages: (() => {
+        const native = ROUTE_LANGS.filter((l) => {
           const rr = resolveContent(article, l);
           return rr && !rr.fallback && isLangIndexable(l);
-        }).map((l) => [l, `${SITE}/${l}/${params.slug}`]),
-      ),
+        });
+        const map: Record<string, string> = Object.fromEntries(
+          native.map((l) => [l, `${SITE}/${l}/${params.slug}`]),
+        );
+        // sitemap 은 x-default 를 선언하는데 HTML 은 안 하고 있었다. 같은
+        // 클러스터를 두 소스가 다르게 말하면 Google 이 그걸 문제로 잡는다.
+        // en 원문이 없는 아티클(5건)에는 붙이지 않는다 — 404 를 가리키게 된다.
+        if (map['en']) map['x-default'] = map['en'];
+        return map;
+      })(),
     },
     openGraph: {
       title: content.title,
@@ -128,7 +136,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       url: `${SITE}/${params.lang}/${params.slug}`,
       siteName: 'HAVIT Blog',
-      locale: params.lang,
+      // og:locale 은 `ll_CC` 형식이다. 라우트 코드를 그대로 넣으면
+      // `pt-br`·`zh-tw` 같은 값이 나가 파서가 못 읽는다.
+      locale: toBcp47(toFullLang(params.lang)).replace('-', '_'),
       images: [
         {
           url: ogImage,

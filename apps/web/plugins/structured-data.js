@@ -19,7 +19,7 @@ const PLAY_STORE = 'https://play.google.com/store/apps/details?id=com.aiconnects
 // 권위를 물려받지 못해 옮겼다). 같은 오리진이므로 절대 URL 대신 경로를 쓴다.
 // schema.org 의 sameAs·url 은 절대 URL 이어야 한다. 링크용 상대경로와 달리
 // 여기서는 호스트를 붙인다.
-const BLOG = `${SITE}/blog`
+const BLOG = `${SITE}/blog/en`
 const APP = 'https://app.aihavit.com/'
 
 /**

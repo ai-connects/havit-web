@@ -46,8 +46,16 @@ const BLOG = '/blog'
  * (예전엔 언어 단위로 갈랐다 — 블로그가 en/ko/ja/zh-tw 만 서빙하고 나머지가
  *  410 이던 시절의 로직이다. 2026-09 에 10개 언어를 되돌리면서 바뀌었다.)
  */
+/**
+ * 마케팅 사이트 로케일 → 블로그 언어. 두 집합의 디렉터리 이름이 다른 둘만 적는다.
+ * 이게 없어서 `pt` 와 `zh-cn` 홈은 블로그 링크 51개가 전부 영어로 나갔다 —
+ * `/blog/pt-br` 과 `/blog/zh` 는 멀쩡히 살아 있는데도.
+ */
+const BLOG_LANG_OF = { 'zh-cn': 'zh', pt: 'pt-br' }
+
 function renderFooterArticles(locale) {
-  const blogLang = FOOTER_ARTICLES.blogLangs.includes(locale) ? locale : DEFAULT_LOCALE
+  const mapped = BLOG_LANG_OF[locale] ?? locale
+  const blogLang = FOOTER_ARTICLES.blogLangs.includes(mapped) ? mapped : DEFAULT_LOCALE
   const cols = FOOTER_ARTICLES.groups
     .map((g) => {
       // 라벨이 없으면 예전에는 키(`tracker`)가 그대로 노출됐다. 조용히 나쁜 값을

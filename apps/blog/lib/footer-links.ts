@@ -109,7 +109,7 @@ export const FOOTER_LINK_GROUPS: FooterLinkGroup[] = [
       'glp-1-habit-report',
       'glp-1-first-month',
       'glp1-rebound-weight-gain-prevention-2026',
-      'stopping-semaglutide-weight-regain-prevention-protocol-2026',
+      'glp1-rebound-weight-gain-prevention-2026',
       'glp1-muscle-preservation-protein-timing-resistance-training-2026',
       'glp1-sarcopenia-screening-dexa-grip-strength-protocol-2026',
     ],

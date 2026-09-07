@@ -38,18 +38,22 @@ export async function POST(req: NextRequest) {
   let indexnow_notified = false;
   if (process.env.INDEXNOW_KEY) {
     try {
-      await fetch('https://api.indexnow.org/IndexNow', {
+      const res = await fetch('https://api.indexnow.org/IndexNow', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           host: 'www.aihavit.com',
           key: process.env.INDEXNOW_KEY,
-          keyLocation: `https://www.aihavit.com/${process.env.INDEXNOW_KEY}.txt`,
+          // 키 파일은 블로그 public/ 에 있어 basePath 때문에 /blog/ 아래로 서빙된다.
+          keyLocation: `https://www.aihavit.com/blog/${process.env.INDEXNOW_KEY}.txt`,
           urlList: [`https://www.aihavit.com/blog/en/${payload.slug}`],
         }),
         signal: AbortSignal.timeout(5000),
       });
-      indexnow_notified = true;
+      // fetch 는 403/422 에 throw 하지 않는다. ok 를 안 보면 거부당한 제출도
+      // 성공으로 보고하게 된다 — 실제로 키 위치가 틀려 계속 거부되던 동안
+      // 이 엔드포인트는 매번 true 를 반환했다.
+      indexnow_notified = res.ok;
     } catch {
       // silent skip + metric (mock)
     }
