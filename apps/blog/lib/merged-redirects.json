@@ -152,6 +152,14 @@
     "to": "food-logging-accuracy-portion-estimation-bias-2026"
   },
   {
+    "from": "foundayo-side-effects",
+    "to": "orforglipron-side-effects"
+  },
+  {
+    "from": "foundayo-tracker",
+    "to": "orforglipron-tracker"
+  },
+  {
     "from": "functional-dyspepsia-gut-brain-treatment-2026",
     "to": "functional-dyspepsia-gut-brain-interaction-treatment-2026"
   },
