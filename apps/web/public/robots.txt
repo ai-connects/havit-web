@@ -1,9 +1,28 @@
 User-agent: *
 Allow: /
+# RSC prefetch 페이로드. 이게 크롤 예산의 대부분을 먹고 있었다 —
+# GSC 크롤링 통계 기준 요청의 93% 가 HTML 이 아닌 이 응답이고(총 8.29GB),
+# 반대로 discovery 에 쓰인 몫은 2% 뿐이라 신규 URL 6,787 개가 "발견됨 — 미색인"
+# 에 묶여 있었다.
+#
+# Next.js App Router 는 <Link> 마다 `?_rsc=<해시>` 를 붙여 프리페치하는데,
+# 링크마다 해시가 달라 크롤러에게는 전부 다른 URL 로 보인다. 응답은
+# text/x-component 86KB 이고 `max-age=0, must-revalidate` 라 캐시도 안 먹는다.
+# 페이지가 아니므로 색인될 일도 없다.
+#
+# 막아도 렌더링에는 영향이 없다. 본문은 이미 서버에서 완성돼 오고, 이 페이로드는
+# 클라이언트가 *다른* 페이지로 이동할 때만 쓴다. robots.txt 는 브라우저에
+# 영향을 주지 않으므로 사용자 경험도 그대로다.
+Disallow: /*?_rsc=
+Disallow: /*&_rsc=
+
 # 블로그(/blog)가 자기 robots.ts 로 막던 경로들. 서브도메인일 땐 그쪽 루트
 # robots.txt 가 유효했지만, www 아래로 들어오면서 루트가 여기 하나가 됐다.
-# 옮기지 않으면 Googlebot 이 RSC 페이로드와 이미지 최적화 엔드포인트를 긁는다 —
-# 크롤 예산이 부족해서 옮긴 마당에 그걸 다시 새게 두면 안 된다.
+#
+# ⚠️ `/blog/_next/data/` 는 **무효**다. 그 경로는 Pages Router 의 것이고 이
+#    블로그는 App Router 라 한 번도 쓰이지 않는다(렌더 HTML 내 참조 0건).
+#    RSC 를 막으려던 의도는 위의 `?_rsc=` 규칙이 실제로 수행한다.
+#    Pages Router 로 되돌아갈 일은 없지만 규칙 자체는 무해해서 남겨 둔다.
 Disallow: /blog/api/
 Disallow: /blog/_next/data/
 Disallow: /blog/_next/image
