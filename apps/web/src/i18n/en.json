@@ -16,7 +16,7 @@
   "behavior-based-daily-actions": "Behavior-based daily actions",
   "weight-management-expertise": "Weight-management expertise",
   "havit-connects-ai-body-composition": "Meet HAVI, your AI weight loss coach. HAVI reads your meals, weight, and body composition trends, then tells you exactly what to do today—so you lose fat, not muscle.",
-  "works-with-or-without-glp": "Built by alumni of Juvis Diet, Korea's leading weight-management program. Works with or without GLP-1. Not medical advice.",
+  "works-with-or-without-glp": "Built by Juvis Diet alumni. Clinically tested with Eulji University. Works with or without GLP-1.",
   "havit-turns-scattered-health-information": "HAVIT turns scattered health information into one daily routine, with guidance designed to help you understand and act on what matters.",
   "body-insights": "BODY INSIGHTS",
   "follow-estimated-body-composition-and": "Follow estimated body composition and wellness trends over time.",
@@ -89,5 +89,15 @@
   "lang-current": "English",
   "affiliate": "Affiliate",
   "partners": "PARTNERS",
-  "affiliate-program": "Affiliate Program"
+  "affiliate-program": "Affiliate Program",
+  "study-eyebrow": "CLINICAL RESULTS · EULJI UNIVERSITY",
+  "study-headline": "Clinically tested for 12 weeks.<br /> Measured on InBody.",
+  "study-desc": "In a 12-week clinical study with Eulji University, HAVIT users were compared with a control group. Every result comes from InBody measurements, not self-reported weight.",
+  "study-stat-1-value": "4×",
+  "study-stat-1-label": "more likely to lose 5%+ of body weight",
+  "study-stat-1-compare": "32% of HAVIT users vs 8% of the control group",
+  "study-stat-2-value": "83%",
+  "study-stat-2-label": "of HAVIT users lowered their body fat percentage",
+  "study-stat-2-compare": "vs 49% of the control group",
+  "study-footnote": "12-week clinical study conducted with Eulji University, June–August 2026. Analysis of 78 participants (HAVIT 41, control 37) with InBody results at week 1 and week 12. 5%+ weight loss: 31.7% vs 8.1% (3.9×, p=0.012). Lower body fat percentage: 83% vs 49% (p=0.002). Unblinded study. Individual results vary. HAVIT is a wellness app and is not intended to diagnose, treat, or prevent any disease."
 }

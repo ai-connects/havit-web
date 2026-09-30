@@ -89,5 +89,15 @@
   "lang-current": "Norsk bokmål",
   "affiliate": "Affiliate",
   "partners": "Partnere",
-  "affiliate-program": "Affiliate-program"
+  "affiliate-program": "Affiliate-program",
+  "study-eyebrow": "KLINISKE RESULTATER · EULJI UNIVERSITY",
+  "study-headline": "Klinisk testet i 12 uker.<br /> Målt med InBody.",
+  "study-desc": "I en 12-ukers klinisk studie med Eulji University ble HAVIT-brukere sammenlignet med en kontrollgruppe. Alle resultater kommer fra InBody-målinger, ikke selvrapportert vekt.",
+  "study-stat-1-value": "4×",
+  "study-stat-1-label": "større sjanse for å gå ned minst 5 % av kroppsvekten",
+  "study-stat-1-compare": "32 % av HAVIT-brukerne vs. 8 % av kontrollgruppen",
+  "study-stat-2-value": "83 %",
+  "study-stat-2-label": "av HAVIT-brukerne senket fettprosenten sin",
+  "study-stat-2-compare": "vs. 49 % av kontrollgruppen",
+  "study-footnote": "12-ukers klinisk studie gjennomført med Eulji University, juni–august 2026. Analysen omfatter 78 deltakere (HAVIT 41, kontroll 37) med InBody-resultater i uke 1 og uke 12. Vektnedgang på minst 5 %: 31,7 % vs. 8,1 % (3,9×, p=0,012). Lavere fettprosent: 83 % vs. 49 % (p=0,002). Ublindet studie. Individuelle resultater kan variere. HAVIT er en wellness-app og er ikke ment å diagnostisere, behandle eller forebygge sykdom."
 }

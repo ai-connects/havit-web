@@ -89,5 +89,15 @@
   "lang-current": "日本語",
   "affiliate": "アフィリエイト",
   "partners": "パートナー",
-  "affiliate-program": "アフィリエイトプログラム"
+  "affiliate-program": "アフィリエイトプログラム",
+  "study-eyebrow": "臨床結果 · 乙支大学校",
+  "study-headline": "12週間の臨床研究、<br /> InBodyで測定。",
+  "study-desc": "乙支大学校との12週間の臨床研究で、HAVITユーザーと対照群を比較しました。結果はすべて自己申告の体重ではなく、InBodyの測定値です。",
+  "study-stat-1-value": "4倍",
+  "study-stat-1-label": "体重5%以上の減量達成率",
+  "study-stat-1-compare": "HAVITユーザー32% vs 対照群8%",
+  "study-stat-2-value": "83%",
+  "study-stat-2-label": "体脂肪率が下がったHAVITユーザーの割合",
+  "study-stat-2-compare": "対照群は49%",
+  "study-footnote": "乙支大学校と共同で2026年6月〜8月に実施した12週間の臨床研究。1週目と12週目のInBody結果がそろった78名(HAVIT 41名、対照群37名)を分析。体重5%以上の減量:31.7% vs 8.1%(3.9倍、p=0.012)。体脂肪率の低下:83% vs 49%(p=0.002)。非盲検の研究です。結果には個人差があります。HAVITはウェルネスアプリであり、疾病の診断・治療・予防を目的としたものではありません。"
 }

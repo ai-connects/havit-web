@@ -89,5 +89,15 @@
   "lang-current": "繁體中文",
   "affiliate": "推廣合作",
   "partners": "合作夥伴",
-  "affiliate-program": "推廣合作計畫"
+  "affiliate-program": "推廣合作計畫",
+  "study-eyebrow": "臨床結果 · 乙支大學",
+  "study-headline": "12 週臨床研究，<br /> 以 InBody 實測。",
+  "study-desc": "在與乙支大學合作的 12 週臨床研究中，我們比較了 HAVIT 使用者與對照組。所有結果皆來自 InBody 測量，而非自行回報的體重。",
+  "study-stat-1-value": "4 倍",
+  "study-stat-1-label": "體重減少 5% 以上的達成率",
+  "study-stat-1-compare": "HAVIT 使用者 32% vs 對照組 8%",
+  "study-stat-2-value": "83%",
+  "study-stat-2-label": "的 HAVIT 使用者體脂率下降",
+  "study-stat-2-compare": "對照組為 49%",
+  "study-footnote": "與乙支大學合作，於 2026 年 6 月至 8 月進行的 12 週臨床研究。分析對象為第 1 週與第 12 週皆有 InBody 結果的 78 人（HAVIT 41 人、對照組 37 人）。體重減少 5% 以上：31.7% vs 8.1%（3.9 倍，p=0.012）。體脂率下降：83% vs 49%（p=0.002）。本研究為非盲性研究，個人結果可能不同。HAVIT 為健康生活類應用程式，不用於診斷、治療或預防任何疾病。"
 }

@@ -89,5 +89,15 @@
   "lang-current": "Magyar",
   "affiliate": "Partnerprogram",
   "partners": "Partnerek",
-  "affiliate-program": "Partnerprogram"
+  "affiliate-program": "Partnerprogram",
+  "study-eyebrow": "KLINIKAI EREDMÉNYEK · EULJI EGYETEM",
+  "study-headline": "12 hetes klinikai vizsgálat.<br /> InBody-val mérve.",
+  "study-desc": "Az Eulji Egyetemmel végzett 12 hetes klinikai vizsgálatban a HAVIT felhasználóit egy kontrollcsoporttal hasonlítottuk össze. Minden eredmény InBody-mérésből származik, nem saját bevalláson alapuló testsúlyból.",
+  "study-stat-1-value": "4×",
+  "study-stat-1-label": "nagyobb esély legalább 5% testsúlycsökkenésre",
+  "study-stat-1-compare": "a HAVIT-felhasználók 32%-a vs. a kontrollcsoport 8%-a",
+  "study-stat-2-value": "83%",
+  "study-stat-2-label": "a HAVIT-felhasználók közül csökkentette testzsírszázalékát",
+  "study-stat-2-compare": "vs. a kontrollcsoport 49%-a",
+  "study-footnote": "12 hetes klinikai vizsgálat az Eulji Egyetemmel, 2026. június–augusztus. 78 résztvevő (HAVIT 41, kontroll 37) adatait elemeztük, akiknek az 1. és a 12. héten is volt InBody-eredményük. Legalább 5% fogyás: 31,7% vs. 8,1% (3,9×, p=0,012). Csökkent testzsírszázalék: 83% vs. 49% (p=0,002). Nem vak vizsgálat. Az egyéni eredmények eltérhetnek. A HAVIT wellnessalkalmazás, nem betegségek diagnosztizálására, kezelésére vagy megelőzésére szolgál."
 }

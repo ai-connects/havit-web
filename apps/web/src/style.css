@@ -768,6 +768,63 @@ a {
   -webkit-mask: url('/src/assets/images/icon-check.svg') center / contain no-repeat;
   mask: url('/src/assets/images/icon-check.svg') center / contain no-repeat;
 }
+/* CLINICAL RESULTS (home) */
+.study {
+  background: var(--color-grey-100);
+  padding: 120px 0;
+}
+.study__stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+.study__stat {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 24px;
+  padding: 40px 32px;
+  text-align: center;
+}
+.study__value {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -2px;
+  color: var(--color-primary);
+  margin: 0 0 16px;
+}
+.study__label {
+  color: var(--color-white);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0 0 8px;
+}
+.study__compare {
+  color: var(--white-60);
+  font-size: 14px;
+  margin: 0;
+}
+.study__footnote {
+  color: var(--white-60);
+  font-size: 12px;
+  line-height: 1.6;
+  max-width: 880px;
+  margin: 32px auto 0;
+  text-align: center;
+}
+@media (max-width: 640px) {
+  .study {
+    padding: 80px 0;
+  }
+  .study__stats {
+    grid-template-columns: 1fr;
+  }
+  .study__value {
+    font-size: 56px;
+  }
+}
 /* EXPERTISE */
 .expertise {
   padding: 120px 0;
