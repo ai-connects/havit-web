@@ -825,6 +825,233 @@ a {
     font-size: 56px;
   }
 }
+.study__cases-title {
+  color: var(--color-white);
+  text-align: center;
+  margin: 80px 0 24px;
+}
+/* 10장이라 전 폭에서 가로 스크롤. 카드 폭 고정 + scroll-snap. */
+.cases {
+  display: grid;
+  grid-auto-flow: column;
+  /* 236px + gap 16 → 컨테이너 1072px 에 4장 + 5번째가 64px 걸쳐 보인다(넘길 수 있다는 신호). */
+  grid-auto-columns: 236px;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 4px 4px 16px;
+  scrollbar-color: var(--white-40) transparent;
+}
+.case-card {
+  scroll-snap-align: start;
+  background: var(--color-white);
+  border-radius: 24px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.case-card:hover {
+  transform: translateY(-4px);
+}
+.case-card__head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.case-card__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: var(--color-black);
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.case-card__nick {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+.case-card__who {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: var(--color-grey-60);
+}
+.case-card__loss {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1.5px;
+  color: var(--color-black);
+  margin: 0;
+}
+.case-card__weeks {
+  font-size: 13px;
+  color: var(--color-grey-60);
+  margin: 6px 0 20px;
+}
+.case-card__pbf {
+  margin-bottom: 12px;
+}
+.case-card__pbf-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--color-grey-60);
+  margin-bottom: 8px;
+}
+.case-card__pbf-row strong {
+  font-size: 13px;
+  color: var(--color-black);
+}
+.case-card__track {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--color-section-grey);
+  overflow: hidden;
+}
+.case-card__track span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--color-black);
+}
+.case-card__tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 0 0 16px;
+}
+.case-card__tile {
+  background: var(--color-grey-3);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+.case-card__tile--wide {
+  grid-column: 1 / -1;
+}
+.case-card__tile dt {
+  font-size: 11px;
+  color: var(--color-grey-60);
+  margin-bottom: 2px;
+}
+.case-card__tile dd {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+.case-card__days {
+  margin: auto 0 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-grey-100);
+  background: var(--tint-pale);
+  border: 1px solid var(--tint-lime);
+  border-radius: 999px;
+  padding: 6px 12px;
+  align-self: flex-start;
+}
+.cases-wrap {
+  position: relative;
+}
+/* 넘길 거리가 남은 쪽 가장자리를 흐린다. at-start / at-end 는 main.js 가 스크롤 위치로 토글. */
+.cases-wrap .cases {
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 48px, #000 calc(100% - 96px), transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0, #000 48px, #000 calc(100% - 96px), transparent 100%);
+}
+.cases-wrap.at-start .cases {
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 96px), transparent 100%);
+  mask-image: linear-gradient(to right, #000 calc(100% - 96px), transparent 100%);
+}
+.cases-wrap.at-end .cases {
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 48px);
+  mask-image: linear-gradient(to right, transparent 0, #000 48px);
+}
+.cases-wrap.at-start.at-end .cases {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+[dir='rtl'] .cases-wrap .cases,
+[dir='rtl'] .cases-wrap.at-start .cases,
+[dir='rtl'] .cases-wrap.at-end .cases {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+.cases__nav {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 48px;
+  height: 48px;
+  margin-top: -32px;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-primary);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.cases__nav:hover {
+  transform: scale(1.06);
+}
+.cases__nav::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-top: 2.5px solid var(--color-black);
+  border-right: 2.5px solid var(--color-black);
+  transform: translate(-65%, -50%) rotate(45deg);
+}
+.cases__nav--prev {
+  inset-inline-start: -20px;
+}
+.cases__nav--next {
+  inset-inline-end: -20px;
+}
+.cases__nav--prev::before {
+  transform: translate(-35%, -50%) rotate(-135deg);
+}
+[dir='rtl'] .cases__nav--prev::before {
+  transform: translate(-65%, -50%) rotate(45deg);
+}
+[dir='rtl'] .cases__nav--next::before {
+  transform: translate(-35%, -50%) rotate(-135deg);
+}
+.cases-wrap.at-start .cases__nav--prev,
+.cases-wrap.at-end .cases__nav--next {
+  opacity: 0;
+  pointer-events: none;
+}
+@media (max-width: 640px) {
+  .cases__nav {
+    display: none;
+  }
+}
+/* RTL 에서 "−8.7 kg" 가 "kg 8.7−" 로 뒤집히지 않도록 수치 칸만 LTR 로 고정한다. */
+[dir='rtl'] .case-card__loss,
+[dir='rtl'] .case-card__nick,
+[dir='rtl'] .case-card__tile dd,
+[dir='rtl'] .case-card__pbf-row strong {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+[dir='rtl'] .case-card__loss,
+[dir='rtl'] .case-card__nick {
+  text-align: right;
+}
 /* EXPERTISE */
 .expertise {
   padding: 120px 0;

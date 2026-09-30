@@ -197,3 +197,30 @@ if (langSwitch) {
     if (e.key === 'Escape') langSwitch.removeAttribute('open')
   })
 }
+
+// 임상 사례 카드 가로 스크롤 — 좌우 버튼 + 끝에 닿으면 버튼/가장자리 흐림을 끈다.
+// RTL 에서는 scrollLeft 가 0 에서 음수로 가므로 절댓값으로 위치를 재고, 방향은 뒤집는다.
+const casesWrap = document.querySelector('.cases-wrap')
+if (casesWrap) {
+  const track = casesWrap.querySelector('.cases')
+  const rtl = getComputedStyle(track).direction === 'rtl'
+  const step = () => {
+    const card = track.querySelector('.case-card')
+    return card ? (card.getBoundingClientRect().width + 16) * 2 : 500
+  }
+  const update = () => {
+    const max = track.scrollWidth - track.clientWidth
+    const x = Math.abs(track.scrollLeft)
+    casesWrap.classList.toggle('at-start', x <= 4)
+    casesWrap.classList.toggle('at-end', x >= max - 4)
+  }
+  casesWrap.querySelectorAll('.cases__nav').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const dir = Number(btn.dataset.dir) * (rtl ? -1 : 1)
+      track.scrollBy({ left: dir * step(), behavior: prefersReducedMotion ? 'auto' : 'smooth' })
+    })
+  })
+  track.addEventListener('scroll', update, { passive: true })
+  window.addEventListener('resize', update)
+  update()
+}
