@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
  * 다운로드 CTA 목적지 SSOT — 마케팅 사이트(apps/web/src/main.js)와 같은 규칙.
  *
  * 스토어 직링크로 나가면 설치가 AppsFlyer 에 오가닉으로 잡혀 웹 유입이 사라진다.
- * 모바일은 OneLink 로 보내 설치를 웹에 귀속시키고(c=blog 로 홈페이지와 구분,
+ * 모바일은 OneLink 로 보내 설치를 웹에 귀속시키고(af_channel=blog 로 홈페이지와 구분 — c 는 링크에 저장된 값이 이겨 덮어써지지 않는다,
  * af_adset 으로 버튼 위치), PC 는 직링크 — OneLink 데스크톱 리다이렉트는 하나뿐이라
  * Google Play 배지도 App Store 로 보내게 되고, app.aihavit.com 은 AppsFlyer
  * redirect allowlist 에 없다.
@@ -19,7 +19,7 @@ const ONELINK = 'https://havit.onelink.me/crNQ/website';
 export type MobileOS = 'ios' | 'android';
 
 export function oneLinkFor(placement: string): string {
-  return `${ONELINK}?c=blog&af_adset=${encodeURIComponent(placement)}`;
+  return `${ONELINK}?af_channel=blog&af_adset=${encodeURIComponent(placement)}`;
 }
 
 /** iPadOS 는 UA 가 Mac 으로 나오므로 터치 포인트로 가른다. */
