@@ -225,17 +225,26 @@ if (casesWrap) {
   update()
 }
 
-// 무료로 시작 → 기기별 목적지. iPhone/iPad 는 App Store, Android 는 Google Play, 그 외(PC)는 웹앱 그대로.
-// 스토어 URL 은 히어로 배지 링크에서 읽는다 — 주소를 두 군데에 적어두면 한쪽만 바뀌어 어긋난다.
-// iPadOS 는 UA 가 Mac 으로 나오므로 터치 포인트로 가른다.
+// 모바일 다운로드 경로 → AppsFlyer OneLink. 스토어 직링크로 나가면 설치가 AppsFlyer 에 오가닉으로 잡혀
+// 웹 유입이 사라진다. OneLink(대시보드 링크 "website", campaign=homepage)는 기기별로 App Store / Google Play 로 보내면서
+// 설치를 웹에 귀속시키고, af_adset 으로 어느 버튼이었는지 남긴다. PC 는 직링크 그대로 —
+// OneLink 의 데스크톱 리다이렉트는 하나뿐이라 Google Play 배지도 App Store 로 보내게 되고,
+// app.aihavit.com 은 AppsFlyer redirect allowlist 에 없다. iPadOS 는 UA 가 Mac 으로 나오므로 터치 포인트로 가른다.
 {
+  const ONELINK = 'https://havit.onelink.me/crNQ/website'
   const ua = navigator.userAgent
   const isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
   const isAndroid = /Android/i.test(ua)
-  const pick = (needle) => document.querySelector(`.hero__badge[href*="${needle}"]`)?.getAttribute('href')
-  const storeHref = isIOS ? pick('apps.apple.com') : isAndroid ? pick('play.google.com') : null
-  if (storeHref) {
-    document.querySelectorAll('a[data-cta="start-free"]').forEach((a) => a.setAttribute('href', storeHref))
+  if (isIOS || isAndroid) {
+    const oneLinkFor = (a) => `${ONELINK}?af_adset=${encodeURIComponent(a.dataset.placement || 'unknown')}`
+    // OneLink 는 누른 배지가 아니라 기기 OS 로 스토어를 고른다. 기기와 다른 배지(Android 의 App Store 배지)는
+    // 직링크로 둬서 누른 스토어가 열리게 한다 — 그 기기에선 어차피 설치할 수 없어 귀속할 것도 없다.
+    const deviceStore = isIOS ? 'app_store' : 'google_play'
+    document.querySelectorAll(`a[data-store="${deviceStore}"]`).forEach((a) => a.setAttribute('href', oneLinkFor(a)))
+    document.querySelectorAll('a[data-cta="start-free"]').forEach((a) => {
+      a.setAttribute('href', oneLinkFor(a))
+      a.dataset.destination = deviceStore
+    })
   }
 }
 
