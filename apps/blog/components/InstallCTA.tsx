@@ -2,6 +2,9 @@
 
 import { type LangKey, t } from '@/lib/i18n';
 import { asset } from '@/lib/site';
+import {
+  APP_STORE_URL, APP_URL, PLAY_STORE_URL, oneLinkFor, storeOf, trackGaEvent, useMobileOS,
+} from '@/lib/download-links';
 
 interface Props {
   lang: LangKey;
@@ -14,23 +17,19 @@ interface Props {
  * inline: 화면당 1개. sticky: mobile only (md:hidden), 화면당 1개. 합계 ≤ 2.
  */
 export default function InstallCTA({ lang, articleId, variant = 'inline' }: Props) {
-  const universalLink = 'https://app.aihavit.com/';
-
-  function handleClick() {
-    // PRD §10.3 GA4 click_install_cta — mock
-    if (typeof window !== 'undefined') {
-      console.log('[mock] GA4 click_install_cta', {
-        lang, article_id: articleId, variant,
-      });
-    }
-  }
+  const os = useMobileOS();
+  const context = { lang, article_id: articleId };
 
   if (variant === 'sticky') {
+    // PC 에선 md:hidden 으로 안 보이지만, 판정 전·데스크톱 폴백은 웹앱이다.
+    const placement = 'blog_sticky';
     return (
       <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 p-3 bg-white/95 backdrop-blur border-t border-gray-200">
         <a
-          href={universalLink}
-          onClick={handleClick}
+          href={os ? oneLinkFor(placement) : APP_URL}
+          onClick={() => trackGaEvent('start_free_click', {
+            ...context, link_location: placement, destination: os ? storeOf(os) : 'web',
+          })}
           className="btn-primary w-full"
         >
           📱 {t(lang, 'installCta')}
@@ -38,6 +37,14 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
       </div>
     );
   }
+
+  const placement = 'blog_article';
+  // OneLink 는 누른 배지가 아니라 기기 OS 로 스토어를 고른다. 배지가 기기와 다르면(Android 에서 App Store 배지)
+  // 직링크로 보내 누른 스토어가 열리게 한다 — 그 기기에선 어차피 설치할 수 없어 귀속할 것도 없다.
+  const badgeHref = (store: 'app_store' | 'google_play', directUrl: string) =>
+    os && storeOf(os) === store ? oneLinkFor(placement) : directUrl;
+  const onBadgeClick = (store: 'app_store' | 'google_play') => () =>
+    trackGaEvent('store_badge_click', { ...context, store, link_location: placement });
 
   return (
     /* 아티클 하단 전환 블록.
@@ -58,12 +65,12 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
         <p className="install-cta__title">{t(lang, 'installCta')}</p>
         <p className="install-cta__sub">{t(lang, 'installCtaSub')}</p>
         <div className="install-cta__badges">
-          <a href={universalLink} onClick={handleClick} className="install-cta__badge" aria-label="App Store">
+          <a href={badgeHref('app_store', APP_STORE_URL)} onClick={onBadgeClick('app_store')} target="_blank" rel="noopener" className="install-cta__badge" aria-label="App Store">
             {/* 5~6KB 고정 크기 PNG 라 next/image 최적화 이득이 없다. */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={asset('/badge-appstore.png')} alt="Download on the App Store" width={168} height={56} />
           </a>
-          <a href={universalLink} onClick={handleClick} className="install-cta__badge" aria-label="Google Play">
+          <a href={badgeHref('google_play', PLAY_STORE_URL)} onClick={onBadgeClick('google_play')} target="_blank" rel="noopener" className="install-cta__badge" aria-label="Google Play">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={asset('/badge-googleplay.png')} alt="Get it on Google Play" width={189} height={56} />
           </a>
