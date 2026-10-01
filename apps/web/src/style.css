@@ -1165,9 +1165,102 @@ a {
   margin-top: 8px;
 }
 /* USER STORIES */
+/* 히어로(흰색) 바로 뒤라 밝은 회색으로 둔다 — 다음 임상 섹션(짙은 회색)과 번갈아 리듬을 만든다. */
 .stories {
-  background: var(--color-grey-100);
+  background: var(--color-section-grey);
   padding: 120px 0;
+}
+/* 대표 후기(비포·애프터) — User Stories 맨 위. 짧은 베타 후기 카드보다 먼저 보인다. */
+.story-feature {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 40px;
+  align-items: center;
+  background: var(--color-white);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 28px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+.story-feature__media img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+}
+.story-feature__body {
+  padding: 8px 16px 8px 0;
+}
+.story-feature__title {
+  margin: 16px 0 16px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.5px;
+  color: var(--color-black);
+}
+.story-feature__quote {
+  margin: 0 0 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--color-grey-80);
+}
+.story-feature__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.story-feature__stat {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  background: var(--tint-pale);
+  border: 1px solid var(--tint-lime);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 12px;
+  color: var(--color-grey-60);
+}
+.story-feature__stat strong {
+  font-size: 15px;
+  color: var(--color-black);
+}
+.story-feature__author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.story-feature__author .text-title-small {
+  color: var(--color-black);
+  margin: 0;
+}
+.story-feature__author .text-body-small {
+  color: var(--color-grey-60);
+  margin: 2px 0 0;
+}
+.story-feature__note {
+  margin: 16px 0 0;
+  font-size: 12px;
+  color: var(--color-grey-60);
+}
+.story-feature__note:empty {
+  display: none;
+}
+[dir='rtl'] .story-feature__stat strong {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+@media (max-width: 960px) {
+  .story-feature {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .story-feature__body {
+    padding: 0 8px 8px;
+  }
+  .story-feature__title {
+    font-size: 22px;
+  }
 }
 .stories__grid {
   display: grid;
@@ -1175,7 +1268,8 @@ a {
   gap: 24px;
 }
 .story-card {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
   border-radius: 20px;
   padding: 24px;
   display: flex;
@@ -1185,7 +1279,7 @@ a {
 }
 .story-card:hover {
   transform: translateY(-6px);
-  background: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.06);
 }
 .story-card__stars {
   display: flex;
@@ -1196,7 +1290,7 @@ a {
   color: #ffd400;
 }
 .story-card__quote {
-  color: var(--color-white);
+  color: var(--color-black);
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
@@ -1206,10 +1300,10 @@ a {
   margin: 0;
 }
 .story-card__author .text-title-small {
-  color: var(--color-white);
+  color: var(--color-black);
 }
 .story-card__author .text-body-small {
-  color: var(--white-40);
+  color: var(--color-grey-60);
   margin-top: 4px;
 }
 
