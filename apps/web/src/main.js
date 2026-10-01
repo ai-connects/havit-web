@@ -224,3 +224,39 @@ if (casesWrap) {
   window.addEventListener('resize', update)
   update()
 }
+
+// 무료로 시작 → 기기별 목적지. iPhone/iPad 는 App Store, Android 는 Google Play, 그 외(PC)는 웹앱 그대로.
+// 스토어 URL 은 히어로 배지 링크에서 읽는다 — 주소를 두 군데에 적어두면 한쪽만 바뀌어 어긋난다.
+// iPadOS 는 UA 가 Mac 으로 나오므로 터치 포인트로 가른다.
+{
+  const ua = navigator.userAgent
+  const isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+  const isAndroid = /Android/i.test(ua)
+  const pick = (needle) => document.querySelector(`.hero__badge[href*="${needle}"]`)?.getAttribute('href')
+  const storeHref = isIOS ? pick('apps.apple.com') : isAndroid ? pick('play.google.com') : null
+  if (storeHref) {
+    document.querySelectorAll('a[data-cta="start-free"]').forEach((a) => a.setAttribute('href', storeHref))
+  }
+}
+
+// 모바일 하단 고정 CTA — 히어로가 화면 위로 빠지면 나타나고, 최종 CTA 가 화면에 들어오면 숨긴다.
+// (CSS 에서 640px 이하에서만 display:block 이라 데스크톱은 계산만 돌고 보이지 않는다.)
+const stickyCta = document.querySelector('.sticky-cta')
+const heroEl = document.querySelector('.hero')
+const finalCtaEl = document.querySelector('.final-cta')
+if (stickyCta && heroEl && finalCtaEl) {
+  let ticking = false
+  const syncSticky = () => {
+    ticking = false
+    const pastHero = heroEl.getBoundingClientRect().bottom < 0
+    const beforeFinal = finalCtaEl.getBoundingClientRect().top > window.innerHeight
+    stickyCta.classList.toggle('is-visible', pastHero && beforeFinal)
+  }
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      ticking = true
+      requestAnimationFrame(syncSticky)
+    }
+  }, { passive: true })
+  syncSticky()
+}
