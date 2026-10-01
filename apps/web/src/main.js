@@ -237,10 +237,13 @@ if (casesWrap) {
   const isAndroid = /Android/i.test(ua)
   if (isIOS || isAndroid) {
     const oneLinkFor = (a) => `${ONELINK}?af_adset=${encodeURIComponent(a.dataset.placement || 'unknown')}`
-    document.querySelectorAll('a[data-store]').forEach((a) => a.setAttribute('href', oneLinkFor(a)))
+    // OneLink 는 누른 배지가 아니라 기기 OS 로 스토어를 고른다. 기기와 다른 배지(Android 의 App Store 배지)는
+    // 직링크로 둬서 누른 스토어가 열리게 한다 — 그 기기에선 어차피 설치할 수 없어 귀속할 것도 없다.
+    const deviceStore = isIOS ? 'app_store' : 'google_play'
+    document.querySelectorAll(`a[data-store="${deviceStore}"]`).forEach((a) => a.setAttribute('href', oneLinkFor(a)))
     document.querySelectorAll('a[data-cta="start-free"]').forEach((a) => {
       a.setAttribute('href', oneLinkFor(a))
-      a.dataset.destination = isIOS ? 'app_store' : 'google_play'
+      a.dataset.destination = deviceStore
     })
   }
 }
