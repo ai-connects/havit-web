@@ -245,7 +245,68 @@ if (casesWrap) {
       a.setAttribute('href', oneLinkFor(a))
       a.dataset.destination = deviceStore
     })
+    upgradeWithSmartScript(deviceStore)
   }
+}
+
+// 광고로 들어온 방문만 AppsFlyer Smart Script 로 OneLink 를 다시 만든다 — 위 고정 링크(website)는 어느 광고가
+// 데려왔는지를 모르므로, 설치가 전부 "website / homepage" 한 줄로 묶인다. 광고 파라미터가 없으면 아무것도 안 바꾼다
+// (일반 유입은 #60 동작 그대로). 스크립트는 모바일 + 광고 유입일 때만 불러온다.
+//
+// impact.com 과의 충돌 방지:
+// - impact 파트너 링크는 홈페이지를 거치지 않고 OneLink(pid=impactradius_int) 로 바로 간다 → 이 코드와 무관.
+// - 파트너가 홈페이지로 딥링크하면 impact 가 irclickid 를 붙인다. 그때 website/광고 링크로 바꾸면 AppsFlyer 가
+//   impact 클릭을 못 봐서 수수료가 사라진다 → 매체를 impactradius_int 로 고정하고 clickid 로 넘긴다
+//   (서버 affiliate_external_touch_usecase 가 읽는 키와 같다).
+// - af_sub1~4 는 impact 가 쓰는 칸이다. Smart Script 가 gclid 를 af_sub4 에 자동으로 싣지만, 서버는
+//   media_source=impactradius_int 일 때만 af_sub 를 읽으므로 광고 링크와 섞이지 않는다.
+function upgradeWithSmartScript(deviceStore) {
+  const params = new URLSearchParams(location.search)
+  const AD_KEYS = ['utm_source', 'gclid', 'gbraid', 'wbraid', 'fbclid', 'ttclid', 'irclickid']
+  if (!AD_KEYS.some((k) => params.has(k))) return
+  const isImpact = params.has('irclickid')
+  const has = (...keys) => keys.some((k) => params.has(k))
+  // utm_source 가 없을 때의 매체 이름. 클릭 ID 로 어느 플랫폼인지만 가른다.
+  const fallbackSource = isImpact ? 'impactradius_int'
+    : has('gclid', 'gbraid', 'wbraid') ? 'google_web'
+    : has('fbclid') ? 'meta_web'
+    : has('ttclid') ? 'tiktok_web'
+    : 'website'
+  const apply = () => {
+    const generate = window.AF_SMART_SCRIPT && window.AF_SMART_SCRIPT.generateOneLinkURL
+    if (!generate) return
+    const targets = document.querySelectorAll(`a[data-store="${deviceStore}"], a[data-cta="start-free"]`)
+    targets.forEach((a) => {
+      const result = window.AF_SMART_SCRIPT.generateOneLinkURL({
+        oneLinkURL: 'https://havit.onelink.me/crNQ',
+        afParameters: {
+          // utm_source 값은 웹 경유 매체 이름으로 정리한다 — 'facebook' 같은 값이 그대로 pid 가 되면 AppsFlyer 에 연동된
+          // 앱 광고 매체(SRN)와 리포트에서 섞여 보인다. 웹을 거친 설치는 항상 *_web 으로 구분한다.
+          mediaSource: isImpact ? { keys: [], defaultValue: 'impactradius_int' } : {
+            keys: ['utm_source'],
+            overrideValues: {
+              facebook: 'meta_web', fb: 'meta_web', instagram: 'meta_web', ig: 'meta_web', meta: 'meta_web',
+              google: 'google_web', youtube: 'google_web', tiktok: 'tiktok_web', naver: 'naver_web', kakao: 'kakao_web',
+            },
+            defaultValue: fallbackSource,
+          },
+          campaign: { keys: ['utm_campaign'], defaultValue: 'homepage' },
+          channel: { keys: ['utm_medium'] },
+          ad: { keys: ['utm_content'] },
+          // 어느 버튼이었는지는 고정 링크와 같은 af_adset 에 남긴다(리포트 연속성).
+          adSet: { keys: [], defaultValue: a.dataset.placement || 'unknown' },
+          afCustom: isImpact ? [{ paramKey: 'clickid', keys: ['irclickid'] }] : [],
+        },
+      })
+      // null 이면(스크립트가 생성을 거부) 고정 링크를 그대로 둔다 — 링크가 깨지는 것보다 귀속이 덜 정확한 편이 낫다.
+      if (result && result.clickURL) a.setAttribute('href', result.clickURL)
+    })
+  }
+  const s = document.createElement('script')
+  s.src = 'https://onelinksmartscript.appsflyer.com/onelink-smart-script-latest-minified.js'
+  s.async = true
+  s.onload = apply
+  document.head.appendChild(s)
 }
 
 // 모바일 하단 고정 CTA — 히어로가 화면 위로 빠지면 나타나고, 최종 CTA 가 화면에 들어오면 숨긴다.
