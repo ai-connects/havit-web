@@ -51,7 +51,7 @@
         var a = e.target.closest && e.target.closest('a[href]')
         if (!a) return
         var href = a.getAttribute('href') || ''
-        // 모바일에선 main.js 가 무료로 시작·스토어 배지 href 를 AppsFlyer OneLink 로 바꾼다. 그래서 목적지는
+        // main.js 가 무료로 시작(모든 기기)·기기 스토어 배지(모바일) href 를 app.aihavit.com 쿼리 링크로 바꾼다. 그래서 목적지는
         // URL 이 아니라 data 속성으로 가른다(start-free 의 data-destination 도 main.js 가 기기별로 채운다).
         // 이벤트 이름·파라미터는 그대로 둬서 변경 전 데이터와 이어 볼 수 있게 한다.
         if (a.getAttribute('data-cta') === 'start-free') {

@@ -1,7 +1,7 @@
 'use client';
 
 import { APP_CTA, type ToolLang } from '@/lib/tool-labels';
-import { APP_URL, oneLinkFor, storeOf, trackGaEvent, useMobileOS } from '@/lib/download-links';
+import { appLinkFor, destinationOf, trackGaEvent, useMobileOS } from '@/lib/download-links';
 
 const PLACEMENT = 'blog_tool';
 
@@ -13,8 +13,8 @@ export default function AppCtaBanner({ lang }: { lang: ToolLang }) {
       <div className="font-bold text-base mb-1.5">{t.title}</div>
       <p className="text-sm text-gray-700 mb-3 leading-relaxed">{t.body}</p>
       <a
-        href={os ? oneLinkFor(PLACEMENT) : APP_URL}
-        onClick={() => trackGaEvent('start_free_click', { link_location: PLACEMENT, destination: os ? storeOf(os) : 'web' })}
+        href={appLinkFor(os, PLACEMENT)}
+        onClick={() => trackGaEvent('start_free_click', { link_location: PLACEMENT, destination: destinationOf(os) })}
         target="_blank"
         rel="noopener"
         className="inline-block px-5 py-2.5 rounded-xl bg-primary-500 hover:bg-primary-600 text-gray-900 font-semibold text-sm transition-colors">

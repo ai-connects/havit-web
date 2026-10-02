@@ -225,88 +225,45 @@ if (casesWrap) {
   update()
 }
 
-// 모바일 다운로드 경로 → AppsFlyer OneLink. 스토어 직링크로 나가면 설치가 AppsFlyer 에 오가닉으로 잡혀
-// 웹 유입이 사라진다. OneLink(대시보드 링크 "website", campaign=homepage)는 기기별로 App Store / Google Play 로 보내면서
-// 설치를 웹에 귀속시키고, af_adset 으로 어느 버튼이었는지 남긴다. PC 는 직링크 그대로 —
-// OneLink 의 데스크톱 리다이렉트는 하나뿐이라 Google Play 배지도 App Store 로 보내게 되고,
-// app.aihavit.com 은 AppsFlyer redirect allowlist 에 없다. iPadOS 는 UA 가 Mac 으로 나오므로 터치 포인트로 가른다.
+// 다운로드 경로 → app.aihavit.com. OneLink 를 어떻게 만들지(매체·캠페인 판정, PC 는 QR)는 app.aihavit.com
+// (app-link 레포) 한 곳에서 정하고, 여기서는 그 페이지가 판정에 쓸 값만 실어 보낸다. app.aihavit.com 은 자기 주소의
+// 쿼리만 볼 수 있어서, 이 페이지에 붙어 온 광고 파라미터를 넘기지 않으면 광고 → 홈페이지 → 설치가 끊긴다.
+// - c=homepage: 홈페이지를 거쳤다는 표시. utm_campaign 이 있으면 붙이지 않는다 — app.aihavit.com 은 넘겨받은 c 를
+//   utm_campaign 보다 먼저 써서, 붙이면 광고 캠페인 이름이 사라진다.
+// - af_adset=버튼 위치: 모바일만. PC 에서 붙이면 app.aihavit.com 이 QR 에 desktop_qr 을 남기지 않아
+//   PC → QR 설치를 모바일 설치와 구분할 수 없다.
+// - irclickid(impact 딥링크)도 넘긴다. app.aihavit.com 이 pid=impactradius_int + clickid 로 바꿔 수수료 귀속을 지킨다
+//   (서버 affiliate_external_touch_usecase 가 읽는 키).
+// - keyword(Google Ads {keyword})와 twclid·sccid 는 예전 Smart Script 가 자동으로 실어 보내던 값이라 그대로 넘긴다.
+//   keyword 는 app.aihavit.com 이 af_keywords 로 옮긴다.
+// 스토어 배지는 모바일에서 기기와 같은 스토어일 때만 바꾼다. app.aihavit.com 은 누른 배지가 아니라 기기 OS 로 스토어를
+// 고르므로, 기기와 다른 배지(Android 의 App Store 배지)와 PC 배지는 직링크로 둬서 누른 스토어가 열리게 한다.
+// iPadOS 는 UA 가 Mac 으로 나오므로 터치 포인트로 가른다.
 {
-  const ONELINK = 'https://havit.onelink.me/crNQ/website'
+  const APP_LINK = 'https://app.aihavit.com/'
+  // app.aihavit.com 의 매체 판정 규칙이 읽는 키만 넘긴다.
+  const FORWARD_KEYS = [
+    'utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'keyword',
+    'gclid', 'gbraid', 'wbraid', 'fbclid', 'ttclid', 'twclid', 'sccid', 'irclickid', 'oppref',
+  ]
+  const landing = new URLSearchParams(location.search)
+  // 버튼마다 다른 건 af_adset 뿐이라 나머지는 한 번만 만든다.
+  const base = new URLSearchParams()
+  FORWARD_KEYS.forEach((k) => { if (landing.has(k)) base.set(k, landing.get(k)) })
+  if (!base.has('utm_campaign')) base.set('c', 'homepage')
   const ua = navigator.userAgent
   const isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
-  const isAndroid = /Android/i.test(ua)
-  if (isIOS || isAndroid) {
-    const oneLinkFor = (a) => `${ONELINK}?af_adset=${encodeURIComponent(a.dataset.placement || 'unknown')}`
-    // OneLink 는 누른 배지가 아니라 기기 OS 로 스토어를 고른다. 기기와 다른 배지(Android 의 App Store 배지)는
-    // 직링크로 둬서 누른 스토어가 열리게 한다 — 그 기기에선 어차피 설치할 수 없어 귀속할 것도 없다.
-    const deviceStore = isIOS ? 'app_store' : 'google_play'
-    document.querySelectorAll(`a[data-store="${deviceStore}"]`).forEach((a) => a.setAttribute('href', oneLinkFor(a)))
-    document.querySelectorAll('a[data-cta="start-free"]').forEach((a) => {
-      a.setAttribute('href', oneLinkFor(a))
-      a.dataset.destination = deviceStore
-    })
-    upgradeWithSmartScript(deviceStore)
+  const deviceStore = isIOS ? 'app_store' : /Android/i.test(ua) ? 'google_play' : null
+  const toAppLink = (a) => {
+    const q = new URLSearchParams(base)
+    if (deviceStore) q.set('af_adset', a.dataset.placement || 'unknown')
+    a.setAttribute('href', `${APP_LINK}?${q}`)
   }
-}
-
-// 광고로 들어온 방문만 AppsFlyer Smart Script 로 OneLink 를 다시 만든다 — 위 고정 링크(website)는 어느 광고가
-// 데려왔는지를 모르므로, 설치가 전부 "website / homepage" 한 줄로 묶인다. 광고 파라미터가 없으면 아무것도 안 바꾼다
-// (일반 유입은 #60 동작 그대로). 스크립트는 모바일 + 광고 유입일 때만 불러온다.
-//
-// impact.com 과의 충돌 방지:
-// - impact 파트너 링크는 홈페이지를 거치지 않고 OneLink(pid=impactradius_int) 로 바로 간다 → 이 코드와 무관.
-// - 파트너가 홈페이지로 딥링크하면 impact 가 irclickid 를 붙인다. 그때 website/광고 링크로 바꾸면 AppsFlyer 가
-//   impact 클릭을 못 봐서 수수료가 사라진다 → 매체를 impactradius_int 로 고정하고 clickid 로 넘긴다
-//   (서버 affiliate_external_touch_usecase 가 읽는 키와 같다).
-// - af_sub1~4 는 impact 가 쓰는 칸이다. Smart Script 가 gclid 를 af_sub4 에 자동으로 싣지만, 서버는
-//   media_source=impactradius_int 일 때만 af_sub 를 읽으므로 광고 링크와 섞이지 않는다.
-function upgradeWithSmartScript(deviceStore) {
-  const params = new URLSearchParams(location.search)
-  const AD_KEYS = ['utm_source', 'gclid', 'gbraid', 'wbraid', 'fbclid', 'ttclid', 'irclickid']
-  if (!AD_KEYS.some((k) => params.has(k))) return
-  const isImpact = params.has('irclickid')
-  const has = (...keys) => keys.some((k) => params.has(k))
-  // utm_source 가 없을 때의 매체 이름. 클릭 ID 로 어느 플랫폼인지만 가른다.
-  const fallbackSource = isImpact ? 'impactradius_int'
-    : has('gclid', 'gbraid', 'wbraid') ? 'google_web'
-    : has('fbclid') ? 'meta_web'
-    : has('ttclid') ? 'tiktok_web'
-    : 'website'
-  const apply = () => {
-    const generate = window.AF_SMART_SCRIPT && window.AF_SMART_SCRIPT.generateOneLinkURL
-    if (!generate) return
-    const targets = document.querySelectorAll(`a[data-store="${deviceStore}"], a[data-cta="start-free"]`)
-    targets.forEach((a) => {
-      const result = window.AF_SMART_SCRIPT.generateOneLinkURL({
-        oneLinkURL: 'https://havit.onelink.me/crNQ',
-        afParameters: {
-          // utm_source 값은 웹 경유 매체 이름으로 정리한다 — 'facebook' 같은 값이 그대로 pid 가 되면 AppsFlyer 에 연동된
-          // 앱 광고 매체(SRN)와 리포트에서 섞여 보인다. 웹을 거친 설치는 항상 *_web 으로 구분한다.
-          mediaSource: isImpact ? { keys: [], defaultValue: 'impactradius_int' } : {
-            keys: ['utm_source'],
-            overrideValues: {
-              facebook: 'meta_web', fb: 'meta_web', instagram: 'meta_web', ig: 'meta_web', meta: 'meta_web',
-              google: 'google_web', youtube: 'google_web', tiktok: 'tiktok_web', naver: 'naver_web', kakao: 'kakao_web',
-            },
-            defaultValue: fallbackSource,
-          },
-          campaign: { keys: ['utm_campaign'], defaultValue: 'homepage' },
-          channel: { keys: ['utm_medium'] },
-          ad: { keys: ['utm_content'] },
-          // 어느 버튼이었는지는 고정 링크와 같은 af_adset 에 남긴다(리포트 연속성).
-          adSet: { keys: [], defaultValue: a.dataset.placement || 'unknown' },
-          afCustom: isImpact ? [{ paramKey: 'clickid', keys: ['irclickid'] }] : [],
-        },
-      })
-      // null 이면(스크립트가 생성을 거부) 고정 링크를 그대로 둔다 — 링크가 깨지는 것보다 귀속이 덜 정확한 편이 낫다.
-      if (result && result.clickURL) a.setAttribute('href', result.clickURL)
-    })
-  }
-  const s = document.createElement('script')
-  s.src = 'https://onelinksmartscript.appsflyer.com/onelink-smart-script-latest-minified.js'
-  s.async = true
-  s.onload = apply
-  document.head.appendChild(s)
+  document.querySelectorAll('a[data-cta="start-free"]').forEach((a) => {
+    toAppLink(a)
+    if (deviceStore) a.dataset.destination = deviceStore
+  })
+  if (deviceStore) document.querySelectorAll(`a[data-store="${deviceStore}"]`).forEach(toAppLink)
 }
 
 // 모바일 하단 고정 CTA — 히어로가 화면 위로 빠지면 나타나고, 최종 CTA 가 화면에 들어오면 숨긴다.

@@ -3,7 +3,7 @@
 import { type LangKey, t } from '@/lib/i18n';
 import { asset } from '@/lib/site';
 import {
-  APP_STORE_URL, APP_URL, PLAY_STORE_URL, oneLinkFor, storeOf, trackGaEvent, useMobileOS,
+  APP_STORE_URL, PLAY_STORE_URL, appLinkFor, destinationOf, storeOf, trackGaEvent, useMobileOS,
 } from '@/lib/download-links';
 
 interface Props {
@@ -26,9 +26,9 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
     return (
       <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 p-3 bg-white/95 backdrop-blur border-t border-gray-200">
         <a
-          href={os ? oneLinkFor(placement) : APP_URL}
+          href={appLinkFor(os, placement)}
           onClick={() => trackGaEvent('start_free_click', {
-            ...context, link_location: placement, destination: os ? storeOf(os) : 'web',
+            ...context, link_location: placement, destination: destinationOf(os),
           })}
           className="btn-primary w-full"
         >
@@ -39,10 +39,10 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
   }
 
   const placement = 'blog_article';
-  // OneLink 는 누른 배지가 아니라 기기 OS 로 스토어를 고른다. 배지가 기기와 다르면(Android 에서 App Store 배지)
+  // app.aihavit.com 은 누른 배지가 아니라 기기 OS 로 스토어를 고른다. 배지가 기기와 다르면(Android 에서 App Store 배지)
   // 직링크로 보내 누른 스토어가 열리게 한다 — 그 기기에선 어차피 설치할 수 없어 귀속할 것도 없다.
   const badgeHref = (store: 'app_store' | 'google_play', directUrl: string) =>
-    os && storeOf(os) === store ? oneLinkFor(placement) : directUrl;
+    os && storeOf(os) === store ? appLinkFor(os, placement) : directUrl;
   const onBadgeClick = (store: 'app_store' | 'google_play') => () =>
     trackGaEvent('store_badge_click', { ...context, store, link_location: placement });
 
