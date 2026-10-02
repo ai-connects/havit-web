@@ -234,6 +234,8 @@ if (casesWrap) {
 //   PC → QR 설치를 모바일 설치와 구분할 수 없다.
 // - irclickid(impact 딥링크)도 넘긴다. app.aihavit.com 이 pid=impactradius_int + clickid 로 바꿔 수수료 귀속을 지킨다
 //   (서버 affiliate_external_touch_usecase 가 읽는 키).
+// - keyword(Google Ads {keyword})와 twclid·sccid 는 예전 Smart Script 가 자동으로 실어 보내던 값이라 그대로 넘긴다.
+//   keyword 는 app.aihavit.com 이 af_keywords 로 옮긴다.
 // 스토어 배지는 모바일에서 기기와 같은 스토어일 때만 바꾼다. app.aihavit.com 은 누른 배지가 아니라 기기 OS 로 스토어를
 // 고르므로, 기기와 다른 배지(Android 의 App Store 배지)와 PC 배지는 직링크로 둬서 누른 스토어가 열리게 한다.
 // iPadOS 는 UA 가 Mac 으로 나오므로 터치 포인트로 가른다.
@@ -241,8 +243,8 @@ if (casesWrap) {
   const APP_LINK = 'https://app.aihavit.com/'
   // app.aihavit.com 의 매체 판정 규칙이 읽는 키만 넘긴다.
   const FORWARD_KEYS = [
-    'utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term',
-    'gclid', 'gbraid', 'wbraid', 'fbclid', 'ttclid', 'irclickid', 'oppref',
+    'utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'keyword',
+    'gclid', 'gbraid', 'wbraid', 'fbclid', 'ttclid', 'twclid', 'sccid', 'irclickid', 'oppref',
   ]
   const landing = new URLSearchParams(location.search)
   // 버튼마다 다른 건 af_adset 뿐이라 나머지는 한 번만 만든다.
