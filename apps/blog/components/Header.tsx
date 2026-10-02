@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { type LangKey, toShortLang, t, INDEXABLE_ROUTE_LANGS } from '@/lib/i18n';
 import { asset } from '@/lib/site';
-import { APP_URL, appLinkFor, storeOf, trackGaEvent, useMobileOS } from '@/lib/download-links';
+import { appLinkFor, destinationOf, trackGaEvent, useMobileOS } from '@/lib/download-links';
 
 // 블로그가 실제 서빙하는 10개 언어의 native 이름 lookup (현재 언어 이름 표시용).
 const TOGGLE_LANGS: { route: string; native: string }[] = [
@@ -69,9 +69,8 @@ export default function Header({ lang, currentSlug, currentCategorySlug }: Props
 
   const shortLang = toShortLang(lang);
   const startFree = LABEL_START_FREE[shortLang] ?? LABEL_START_FREE.en;
-  const startFreeHref = (placement: string) => (os ? appLinkFor(placement) : APP_URL);
   const onStartFreeClick = (placement: string) => () =>
-    trackGaEvent('start_free_click', { link_location: placement, destination: os ? storeOf(os) : 'web' });
+    trackGaEvent('start_free_click', { link_location: placement, destination: destinationOf(os) });
 
   return (
     <header className={`nav ${scrolled ? 'is-scrolled' : ''}`}>
@@ -142,7 +141,7 @@ export default function Header({ lang, currentSlug, currentCategorySlug }: Props
             )}
           </div>
 
-          <a href={startFreeHref('blog_nav')} onClick={onStartFreeClick('blog_nav')} className="btn btn--primary btn--sm hidden md:inline-flex">
+          <a href={appLinkFor(os, 'blog_nav')} onClick={onStartFreeClick('blog_nav')} className="btn btn--primary btn--sm hidden md:inline-flex">
             {startFree}
           </a>
 
@@ -168,7 +167,7 @@ export default function Header({ lang, currentSlug, currentCategorySlug }: Props
           <Link href={`/${shortLang}/articles`} className="py-1">Articles</Link>
           <Link href={`/${shortLang}/tools`} className="py-1">Tools</Link>
           <a href="https://app.aihavit.com/" target="_blank" rel="noopener" className="py-1">App</a>
-          <a href={startFreeHref('blog_nav_menu')} onClick={onStartFreeClick('blog_nav_menu')} className="btn btn--primary btn--sm self-start mt-1">
+          <a href={appLinkFor(os, 'blog_nav_menu')} onClick={onStartFreeClick('blog_nav_menu')} className="btn btn--primary btn--sm self-start mt-1">
             {startFree}
           </a>
         </div>

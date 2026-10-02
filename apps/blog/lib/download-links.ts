@@ -17,7 +17,9 @@ export const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com
 
 export type MobileOS = 'ios' | 'android';
 
-export function appLinkFor(placement: string): string {
+/** os 가 null(PC·판정 전)이면 값 없는 APP_URL — 위 desktop_qr 규칙을 호출부마다 지키지 않아도 되게 여기서 가른다. */
+export function appLinkFor(os: MobileOS | null, placement: string): string {
+  if (!os) return APP_URL;
   return `${APP_URL}?c=homepage&af_channel=blog&af_adset=${encodeURIComponent(placement)}`;
 }
 
@@ -38,6 +40,11 @@ export function useMobileOS(): MobileOS | null {
 
 export function storeOf(os: MobileOS): 'app_store' | 'google_play' {
   return os === 'ios' ? 'app_store' : 'google_play';
+}
+
+/** start_free_click 의 destination — PC 는 웹앱. */
+export function destinationOf(os: MobileOS | null): 'app_store' | 'google_play' | 'web' {
+  return os ? storeOf(os) : 'web';
 }
 
 type Gtag = (command: 'event', name: string, params: Record<string, unknown>) => void;

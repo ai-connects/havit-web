@@ -245,23 +245,23 @@ if (casesWrap) {
     'gclid', 'gbraid', 'wbraid', 'fbclid', 'ttclid', 'irclickid', 'oppref',
   ]
   const landing = new URLSearchParams(location.search)
+  // 버튼마다 다른 건 af_adset 뿐이라 나머지는 한 번만 만든다.
+  const base = new URLSearchParams()
+  FORWARD_KEYS.forEach((k) => { if (landing.has(k)) base.set(k, landing.get(k)) })
+  if (!base.has('utm_campaign')) base.set('c', 'homepage')
   const ua = navigator.userAgent
   const isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
-  const isAndroid = /Android/i.test(ua)
-  const isMobile = isIOS || isAndroid
-  const appLinkFor = (a) => {
-    const q = new URLSearchParams()
-    FORWARD_KEYS.forEach((k) => { if (landing.has(k)) q.set(k, landing.get(k)) })
-    if (!q.has('utm_campaign')) q.set('c', 'homepage')
-    if (isMobile) q.set('af_adset', a.dataset.placement || 'unknown')
-    return `${APP_LINK}?${q}`
+  const deviceStore = isIOS ? 'app_store' : /Android/i.test(ua) ? 'google_play' : null
+  const toAppLink = (a) => {
+    const q = new URLSearchParams(base)
+    if (deviceStore) q.set('af_adset', a.dataset.placement || 'unknown')
+    a.setAttribute('href', `${APP_LINK}?${q}`)
   }
-  document.querySelectorAll('a[data-cta="start-free"]').forEach((a) => a.setAttribute('href', appLinkFor(a)))
-  if (isMobile) {
-    const deviceStore = isIOS ? 'app_store' : 'google_play'
-    document.querySelectorAll(`a[data-store="${deviceStore}"]`).forEach((a) => a.setAttribute('href', appLinkFor(a)))
-    document.querySelectorAll('a[data-cta="start-free"]').forEach((a) => { a.dataset.destination = deviceStore })
-  }
+  document.querySelectorAll('a[data-cta="start-free"]').forEach((a) => {
+    toAppLink(a)
+    if (deviceStore) a.dataset.destination = deviceStore
+  })
+  if (deviceStore) document.querySelectorAll(`a[data-store="${deviceStore}"]`).forEach(toAppLink)
 }
 
 // 모바일 하단 고정 CTA — 히어로가 화면 위로 빠지면 나타나고, 최종 CTA 가 화면에 들어오면 숨긴다.
