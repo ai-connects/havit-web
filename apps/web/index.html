@@ -66,6 +66,9 @@
         }
       })
     </script>
+    <!-- OpenAI(ChatGPT 광고) 측정 픽셀 — app.aihavit.com 과 같은 Pixel ID. init 만으로 랜딩 URL 의 oppref(클릭 ID)를
+         __oppref 쿠키에 저장한다. 이벤트(page_viewed / start_free_click)는 ChatGPT 유입일 때만 main.js 가 보낸다. -->
+    <script>!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");oaiq("init",{pixelId:"C5o7rmB5pD4mEUU8yayZ8N"});</script>
   </head>
   <body>
     <header class="nav">

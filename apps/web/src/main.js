@@ -287,3 +287,29 @@ if (stickyCta && heroEl && finalCtaEl) {
   }, { passive: true })
   syncSticky()
 }
+
+// ChatGPT 광고 유입 전환 신호(OpenAI 픽셀). 캠페인 랜딩이 홈페이지라, 랜딩 방문과 다운로드 버튼 클릭을 보낸다.
+// 유입 판정 = 이번 탭에서 oppref(OpenAI 클릭 ID) 또는 utm_source=chatgpt/openai 로 들어온 적이 있음.
+// sessionStorage 에 남겨서 랜딩 이후 페이지 안에서 이동하거나 스크롤한 뒤 눌러도 잡는다. 다른 유입에는 이벤트를 보내지 않는다.
+// 앱 설치·가입·결제는 AppsFlyer 연동이 서버로 보내고, 스토어 이동 직전 이벤트는 app.aihavit.com 이 보낸다.
+{
+  const params = new URLSearchParams(location.search)
+  const src = (params.get('utm_source') || '').toLowerCase()
+  const KEY = 'hv_from_chatgpt'
+  let fromChatGPT = params.has('oppref') || src === 'chatgpt' || src === 'openai'
+  try {
+    if (fromChatGPT) sessionStorage.setItem(KEY, '1')
+    else fromChatGPT = sessionStorage.getItem(KEY) === '1'
+  } catch (e) { /* 저장소 차단 환경은 이번 페이지 판정만 쓴다 */ }
+  if (fromChatGPT && typeof window.oaiq === 'function') {
+    window.oaiq('measure', 'page_viewed', {
+      type: 'contents',
+      contents: [{ id: location.pathname, name: document.title, content_type: 'page' }],
+    })
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest && e.target.closest('a[data-cta="start-free"], a[data-store]')
+      if (!a) return
+      window.oaiq('measure', 'custom', { type: 'custom' }, { custom_event_name: 'start_free_click' })
+    })
+  }
+}
