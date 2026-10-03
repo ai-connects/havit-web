@@ -245,6 +245,9 @@ if (casesWrap) {
   const FORWARD_KEYS = [
     'utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'keyword',
     'gclid', 'gbraid', 'wbraid', 'fbclid', 'ttclid', 'twclid', 'sccid', 'irclickid', 'oppref',
+    // ChatGPT 광고 추적 매개변수({campaign_id}/{ad_group_id}/{ad_id})로 붙는 AppsFlyer ID 칸. app.aihavit.com 이
+    // utm_* 외의 키는 그대로 OneLink 에 싣기 때문에 여기서만 통과시키면 리포트에 캠페인·광고그룹·광고 ID 가 남는다.
+    'af_c_id', 'af_adset_id', 'af_ad_id',
   ]
   const landing = new URLSearchParams(location.search)
   // 버튼마다 다른 건 af_adset 뿐이라 나머지는 한 번만 만든다.
