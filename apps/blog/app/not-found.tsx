@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ArticleCardV2 from '@/components/ArticleCardV2';
 import type { Metadata } from 'next';
+import DocumentShell from '@/components/DocumentShell';
 
 // 404 should never be indexed (page also returns HTTP 404).
 export const metadata: Metadata = { robots: { index: false, follow: true } };
@@ -11,7 +12,9 @@ export const metadata: Metadata = { robots: { index: false, follow: true } };
 export default function NotFound() {
   const recommended = listArticlesForLang('en', 6);
 
+  // 루트 레이아웃이 <html> 을 그리지 않으므로 404 는 자기 문서를 직접 연다.
   return (
+    <DocumentShell lang="en">
     <div className="min-h-screen flex flex-col">
       <Header lang="en_us" />
       <main className="flex-1 mx-auto max-w-7xl px-4 md:px-6 py-12">
@@ -38,5 +41,6 @@ export default function NotFound() {
       </main>
       <Footer lang="en_us" />
     </div>
+    </DocumentShell>
   );
 }

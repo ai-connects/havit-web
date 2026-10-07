@@ -3,7 +3,7 @@ import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import type { ArticleV2, ArticleV2LangContent } from '@/lib/articles-v2';
-import { getRelatedForLang } from '@/lib/articles-v2';
+import { getRelatedForLang, articleDates } from '@/lib/articles-v2';
 import { articleImage } from '@/lib/article-images';
 import { localizedCategory } from '@/lib/category-labels';
 import { CategoryIcon } from '@/components/CategoryIcon';
@@ -100,11 +100,10 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
           </div>
         )}
 
-        {content.last_updated && (
-          <div className="text-body-small">
-            🕓 {label('updated', shortLang)}: <strong>{content.last_updated}</strong>
-          </div>
-        )}
+        {/* JSON-LD dateModified 와 같은 값이어야 한다 — 화면·구조화 데이터가 다르면 Google 이 둘 다 버린다. */}
+        <div className="text-body-small">
+          🕓 {label('updated', shortLang)}: <strong>{articleDates(article).modified.slice(0, 10)}</strong>
+        </div>
 
         {/* BLOG_AUTHORITY v1.0.0 (PRD §7.3 Step 3a) — author/reviewer byline */}
         <div className="mt-3">

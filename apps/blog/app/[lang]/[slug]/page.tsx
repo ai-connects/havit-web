@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ArticleView from '@/components/ArticleView';
 import HubArticleView from '@/components/HubArticleView';
-import { getArticleBySlug, resolveContent, getAllArticles, PRIMARY_LANGS, isLangIndexable } from '@/lib/articles-v2';
+import { getArticleBySlug, resolveContent, getAllArticles, PRIMARY_LANGS, isLangIndexable, articleDates } from '@/lib/articles-v2';
 import { articleImage } from '@/lib/article-images';
 import { toFullLang, toBcp47 } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
@@ -145,8 +145,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           alt: content.title,
         },
       ],
-      publishedTime: article.published_at ?? content.last_updated ?? undefined,
-      modifiedTime: content.last_updated ?? article.updated_at ?? undefined,
+      publishedTime: articleDates(article).published,
+      modifiedTime: articleDates(article).modified,
     },
     twitter: {
       card: 'summary_large_image',

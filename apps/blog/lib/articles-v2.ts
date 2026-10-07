@@ -83,6 +83,10 @@ export interface ArticleV2 {
   langs: Record<string, ArticleV2LangContent>;
   published_at?: string;
   updated_at?: string;
+  /** 생성 파이프라인이 기록한 실제 생성 시각. 날짜 신호의 유일한 실측값 — articleDates() 참조. */
+  generated_at?: string;
+  /** JSON 에 직접 적힌 updated_at (loadAll 이 last_updated 로 채우기 전 값). */
+  explicit_updated_at?: string;
   /** PRD §5.2.1 — 런타임 default 주입 (loadAll). JSON 파일에는 없음. */
   author?: ArticleAuthor;
   /** PRD §5.2.1 — 런타임 default 주입 (loadAll). JSON 파일에는 없음. */
@@ -175,6 +179,7 @@ function loadAll(): ArticleV2[] {
         const full = path.join(ARTICLES_DIR, f);
         const raw = readFileSync(full, 'utf-8');
         const parsed = JSON.parse(raw) as ArticleV2;
+        parsed.explicit_updated_at = parsed.updated_at;
         if (!parsed.updated_at) {
           const fromContent =
             parsed.langs?.en?.last_updated ??
@@ -212,6 +217,32 @@ function loadAll(): ArticleV2[] {
 
 export function getAllArticles(): ArticleV2[] {
   return loadAll();
+}
+
+// 블로그 최초 발행일. 이보다 이른 날짜는 존재할 수 없다.
+const LAUNCH_FLOOR = '2026-05-23T00:00:00.000Z';
+
+/**
+ * 검색엔진에 내보내는 발행/수정 시각 (sitemap lastmod · JSON-LD · og · 본문 표시).
+ *
+ * `langs.*.last_updated` 는 생성 모델이 써 넣은 값이라 믿을 수 없다 — 1,091건 중
+ * 1,069건이 generated_at 보다 앞서고 40건은 2025년(블로그 런칭 1년 전)이다. 그래서
+ * slug 는 `-2026` 인데 JSON-LD 는 2025 를 말하는 모순이 생겼다. 실제로 기록된 시각은
+ * generated_at 뿐이므로 그걸 쓴다. JSON 에 updated_at 을 명시하면(실제 수정 시)
+ * 그 값이 수정 시각이 된다.
+ */
+export function articleDates(a: ArticleV2): { published: string; modified: string } {
+  const now = new Date().toISOString();
+  const clamp = (iso: string) => (iso < LAUNCH_FLOOR ? LAUNCH_FLOOR : iso > now ? now : iso);
+  const valid = (raw?: string) => {
+    if (!raw) return null;
+    const d = new Date(raw);
+    return Number.isNaN(d.getTime()) ? null : clamp(d.toISOString());
+  };
+  const published = valid(a.generated_at) ?? valid(a.published_at) ?? LAUNCH_FLOOR;
+  const explicit = valid(a.explicit_updated_at);
+  const modified = explicit && explicit > published ? explicit : published;
+  return { published, modified };
 }
 
 export function getArticleBySlug(slug: string): ArticleV2 | null {
