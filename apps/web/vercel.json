@@ -125,6 +125,21 @@
   ],
   "redirects": [
     {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(ar|ca|cs|da|de|el|es|fi|fr|he|hi|hr|hu|id|it|ja|ko|ms|nb|nl|pl|pt|ro|ru|sk|sv|th|tr|uk|uz|vi|zh-cn|zh-tw)/index.html",
+      "destination": "/:locale/",
+      "permanent": true
+    },
+    {
+      "source": "/:locale(ar|ca|cs|da|de|el|es|fi|fr|he|hi|hr|hu|id|it|ja|ko|ms|nb|nl|pl|pt|ro|ru|sk|sv|th|tr|uk|uz|vi|zh-cn|zh-tw)",
+      "destination": "/:locale/",
+      "permanent": true
+    },
+    {
       "source": "/blog/",
       "destination": "/blog",
       "permanent": true
