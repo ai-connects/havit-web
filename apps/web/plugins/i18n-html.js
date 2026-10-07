@@ -53,9 +53,23 @@ const BLOG = '/blog'
  */
 const BLOG_LANG_OF = { 'zh-cn': 'zh', pt: 'pt-br' }
 
-function renderFooterArticles(locale) {
+/** 이 홈 로케일이 링크할 블로그 언어 (블로그에 없는 언어면 영어). */
+function blogLangOf(locale) {
   const mapped = BLOG_LANG_OF[locale] ?? locale
-  const blogLang = FOOTER_ARTICLES.blogLangs.includes(mapped) ? mapped : DEFAULT_LOCALE
+  return FOOTER_ARTICLES.blogLangs.includes(mapped) ? mapped : DEFAULT_LOCALE
+}
+
+/**
+ * index.html 의 블로그 링크(`/blog/`)를 로케일 블로그로 직접 보낸다.
+ * `/blog/` 는 308(슬래시) → `/blog` 302(Accept-Language) → `/blog/<lang>` 3홉이고,
+ * 크롤러는 Accept-Language 를 안 보내서 /ko/ 홈에서 따라가도 영어 블로그로 간다.
+ */
+function localizeBlogLinks(html, locale) {
+  return html.replace(/href="\/blog\/"/g, `href="${BLOG}/${blogLangOf(locale)}"`)
+}
+
+function renderFooterArticles(locale) {
+  const blogLang = blogLangOf(locale)
   const cols = FOOTER_ARTICLES.groups
     .map((g) => {
       // 라벨이 없으면 예전에는 키(`tracker`)가 그대로 노출됐다. 조용히 나쁜 값을
@@ -267,7 +281,7 @@ export function renderLocale(baseHtml, locale) {
     ? { html: baseHtml, missing: 0 }
     : translateBody(baseHtml, dict)
   const withHead = renderLangMenu(translateHead(html, locale, dict, baseHtml), locale)
-  return { html: injectFooterArticles(withHead, locale), missing }
+  return { html: localizeBlogLinks(injectFooterArticles(withHead, locale), locale), missing }
 }
 
 export default function i18nHtml() {

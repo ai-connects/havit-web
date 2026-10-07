@@ -43,10 +43,11 @@ interface Props {
   lang: LangKey;
   currentSlug?: string | null;
   currentCategorySlug?: string | null;
-  availableLangs?: LangKey[];
+  /** 이 페이지에 실제 번역이 있는 라우트 언어. 주면 스위처를 여기로 좁힌다. */
+  availableRoutes?: readonly string[];
 }
 
-export default function Header({ lang, currentSlug, currentCategorySlug }: Props) {
+export default function Header({ lang, currentSlug, currentCategorySlug, availableRoutes }: Props) {
   const [open, setOpen] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -68,6 +69,12 @@ export default function Header({ lang, currentSlug, currentCategorySlug }: Props
   }
 
   const shortLang = toShortLang(lang);
+  // 번역 없는 언어로 링크하면 404(본문 없음) 또는 noindex 대체 페이지로 간다.
+  // 2026-10-07 실측: 아티클 370개에서 이런 내부링크가 4,300개+ — 크롤 대기열이
+  // 병목인데 그 예산을 죽은 URL 재방문에 쓰고 있었다.
+  const switcherLangs = availableRoutes
+    ? VISIBLE_LANGS.filter((l) => l.route === shortLang || availableRoutes.includes(l.route))
+    : VISIBLE_LANGS;
   const startFree = LABEL_START_FREE[shortLang] ?? LABEL_START_FREE.en;
   const onStartFreeClick = (placement: string) => () =>
     trackGaEvent('start_free_click', { link_location: placement, destination: destinationOf(os) });
@@ -117,7 +124,7 @@ export default function Header({ lang, currentSlug, currentCategorySlug }: Props
                 <div className="px-3 py-2 text-xs" style={{ color: 'var(--hv-fg-subtle)' }}>
                   {t(lang, 'language')}
                 </div>
-                {VISIBLE_LANGS.map((opt) => {
+                {switcherLangs.map((opt) => {
                   const active = opt.route === shortLang;
                   return (
                     <Link
