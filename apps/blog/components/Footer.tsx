@@ -4,7 +4,7 @@ import { localizedCategory } from '@/lib/category-labels';
 import { ALL_CATEGORIES } from '@/lib/categories';
 import { FOOTER_LINK_GROUPS } from '@/lib/footer-links';
 import { getArticleBySlug, resolveContent } from '@/lib/articles-v2';
-import { asset } from '@/lib/site';
+import { asset, mainSiteHome } from '@/lib/site';
 
 // BLOG_AUTHORITY v1.0.0 (PRD §5.2.3 / §16.2 F-07 옵션 A) — 인라인 i18n.
 // lib/i18n.ts 미변경 (INV-010, P0-#2 회피). 6 lang 자체포함.
@@ -196,13 +196,13 @@ export default function Footer({ lang }: { lang: LangKey }) {
           <h2 className="hv-final-cta__title">{cta.title}</h2>
           <p className="hv-final-cta__sub">{cta.sub}</p>
           <div className="hv-final-cta__badges">
-            <a href={`${MAIN_SITE}/#download`} className="hv-final-cta__badge" aria-label="App Store">
+            <a href={`${mainSiteHome(shortLang)}#download`} className="hv-final-cta__badge" aria-label="App Store">
               {/* 마케팅 사이트와 같은 뱃지 에셋. next/image 를 쓰지 않는 이유는
                   5~6KB 짜리 고정 크기 PNG 라 최적화 이득이 없어서다. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={asset('/badge-appstore.png')} alt="Download on the App Store" width={168} height={56} />
             </a>
-            <a href={`${MAIN_SITE}/#download`} className="hv-final-cta__badge" aria-label="Google Play">
+            <a href={`${mainSiteHome(shortLang)}#download`} className="hv-final-cta__badge" aria-label="Google Play">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={asset('/badge-googleplay.png')} alt="Get it on Google Play" width={189} height={56} />
             </a>
@@ -235,7 +235,7 @@ export default function Footer({ lang }: { lang: LangKey }) {
         <div className="hv-footer__columns">
           <div className="hv-footer__col">
             <p className="eyebrow">PRODUCT</p>
-            <a href={MAIN_SITE}>HAVIT</a>
+            <a href={mainSiteHome(shortLang)}>HAVIT</a>
             <a href="https://app.aihavit.com/" target="_blank" rel="noopener">App</a>
             <Link href={`/${shortLang}`}>Blog</Link>
             <Link href={`/${shortLang}/tools`}>Tools</Link>

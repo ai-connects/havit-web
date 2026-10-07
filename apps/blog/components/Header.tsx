@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { type LangKey, toShortLang, t, INDEXABLE_ROUTE_LANGS } from '@/lib/i18n';
-import { asset } from '@/lib/site';
+import { asset, mainSiteHome } from '@/lib/site';
 import { appLinkFor, destinationOf, trackGaEvent, useMobileOS } from '@/lib/download-links';
 
 // 블로그가 실제 서빙하는 10개 언어의 native 이름 lookup (현재 언어 이름 표시용).
@@ -31,7 +31,6 @@ function currentNative(shortLang: string): string {
   return TOGGLE_LANGS.find((l) => l.route === shortLang)?.native ?? 'English';
 }
 
-const MAIN_SITE = process.env.NEXT_PUBLIC_MAIN_URL ?? 'https://www.aihavit.com';
 
 const LABEL_START_FREE: Record<string, string> = {
   en: 'Start Free', ko: '무료로 시작', ja: '無料で始める', zh: '免费开始', 'zh-tw': '免費開始',
@@ -82,20 +81,20 @@ export default function Header({ lang, currentSlug, currentCategorySlug, availab
   return (
     <header className={`nav ${scrolled ? 'is-scrolled' : ''}`}>
       <div className="nav__inner">
-        <a href={MAIN_SITE} className="nav__logo" aria-label="HAVIT">
+        <a href={mainSiteHome(shortLang)} className="nav__logo" aria-label="HAVIT">
           {/* Same brand mark the marketing site uses (apps/web/public). The nav
               band is light, so this is the dark-wordmark asset. */}
           <img src={asset('/havit-logo.svg')} alt="HAVIT" width={264} height={163} />
         </a>
 
         <nav className="nav__links" aria-label="Primary">
-          <a href={MAIN_SITE}>HAVIT</a>
-          <a href={`${MAIN_SITE}/#features`}>Features</a>
+          <a href={mainSiteHome(shortLang)}>HAVIT</a>
+          <a href={`${mainSiteHome(shortLang)}#features`}>Features</a>
           <Link href={`/${shortLang}`} className="is-active">
             {t(lang, 'blog')}
           </Link>
           <Link href={`/${shortLang}/tools`}>Tools</Link>
-          <a href={`${MAIN_SITE}/#faq`}>FAQ</a>
+          <a href={`${mainSiteHome(shortLang)}#faq`}>FAQ</a>
         </nav>
 
         <div className="flex items-center gap-1">
@@ -169,7 +168,7 @@ export default function Header({ lang, currentSlug, currentCategorySlug, availab
           className="md:hidden border-t px-6 py-4 flex flex-col gap-3"
           style={{ borderColor: 'var(--hv-border)', background: 'var(--hv-surface)' }}
         >
-          <a href={MAIN_SITE} className="py-1">HAVIT</a>
+          <a href={mainSiteHome(shortLang)} className="py-1">HAVIT</a>
           <Link href={`/${shortLang}`} className="py-1">{t(lang, 'blog')}</Link>
           <Link href={`/${shortLang}/articles`} className="py-1">Articles</Link>
           <Link href={`/${shortLang}/tools`} className="py-1">Tools</Link>

@@ -99,9 +99,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // priority native pages stay noindex/follow until promoted; canonical remains
   // self (distinct language), only the index signal is gated.
   const indexable = !isFallback && isLangIndexable(params.lang);
-  const canonicalUrl = isFallback
-    ? `${SITE}/en/${params.slug}`
-    : `${SITE}/${params.lang}/${params.slug}`;
+  // noindex 와 "다른 URL 이 정본" canonical 을 같이 주면 신호가 엇갈린다(Google 은
+  // 둘 중 하나를 무시). 폴백 페이지는 noindex 하나로 충분하고, sitemap·hreflang·
+  // 언어 스위처(#70) 모두에서 빠져 있어 정본 이전이 필요 없다 → canonical 은 자기 자신.
+  const canonicalUrl = `${SITE}/${params.lang}/${params.slug}`;
 
   const ogImage = articleImage(params.slug, article.category) || OG_IMAGE_FALLBACK;
 
