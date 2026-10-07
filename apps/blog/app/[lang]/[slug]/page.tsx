@@ -203,7 +203,11 @@ export default function ArticlePage({ params }: Props) {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header lang={fullLang} currentSlug={params.slug} availableLangs={['en_us', 'ko_kr', 'ja_jp', 'zh_cn', 'zh_tw', 'es_es']} />
+      <Header
+        lang={fullLang}
+        currentSlug={params.slug}
+        availableRoutes={ROUTE_LANGS.filter((l) => availability[l])}
+      />
       <main className="flex-1">
         {/* 언어 전환 바 제거 — 헤더 우측 🌐 선택기와 완전히 중복이었다.
             크롤 경로는 잃지 않는다: (a) <head> 의 hreflang alternates 가 그대로이고

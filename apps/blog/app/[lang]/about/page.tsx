@@ -298,7 +298,7 @@ export default function AboutPage({ params }: Props) {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header lang={fullLang} availableLangs={['en_us', 'ko_kr', 'ja_jp', 'zh_cn', 'zh_tw', 'es_es']} />
+      <Header lang={fullLang} />
       <main className="flex-1">
         <article className="mx-auto max-w-3xl px-4 md:px-6 py-8 md:py-12">
           <header className="mb-8">
