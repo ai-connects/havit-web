@@ -45,3 +45,18 @@ export const LEGACY_ORIGIN = 'https://blog.aihavit.com';
 export function asset(path: string): string {
   return `${BASE_PATH}${path.startsWith('/') ? path : `/${path}`}`;
 }
+
+// 블로그 언어 → 마케팅 사이트 로케일 디렉터리. 이름이 다른 둘만 적는다
+// (apps/web/plugins/i18n-html.js 의 BLOG_LANG_OF 역방향).
+const WWW_LOCALE_OF: Record<string, string> = { zh: 'zh-cn', 'pt-br': 'pt' };
+
+/**
+ * 이 블로그 언어에 맞는 마케팅 사이트 홈. 루트(/)로 보내면 middleware 가
+ * Accept-Language 로 302 한 번 더 태우고, 크롤러는 언어 헤더가 없어 /ko 블로그에서도
+ * 영어 홈으로 간다. 영어만 루트가 정본이다.
+ */
+export function mainSiteHome(shortLang: string): string {
+  const main = process.env.NEXT_PUBLIC_MAIN_URL ?? SITE_ORIGIN;
+  if (shortLang === 'en') return `${main}/`;
+  return `${main}/${WWW_LOCALE_OF[shortLang] ?? shortLang}/`;
+}

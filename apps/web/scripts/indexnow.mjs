@@ -17,7 +17,10 @@ const SITEMAPS = [`https://${HOST}/sitemap.xml`, `https://${HOST}/blog/sitemap.x
 
 async function sitemapUrls(url) {
   const xml = await (await fetch(url)).text();
-  return [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
+  const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
+  // 블로그 sitemap.xml 은 색인(sitemapindex) — 하위 언어별 사이트맵까지 따라간다.
+  if (/<sitemapindex[\s>]/.test(xml)) return (await Promise.all(locs.map(sitemapUrls))).flat();
+  return locs;
 }
 
 const args = process.argv.slice(2);

@@ -6,7 +6,7 @@ import { SITE } from '@/lib/site';
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 // SEO staging — sitemap lists only indexable (priority) langs so it never submits
 // a noindex URL (which GSC flags). Promote a lang via PRIORITY_INDEX_LANGS.
-const INDEXABLE_LANGS = ROUTE_LANGS.filter(isLangIndexable);
+export const INDEXABLE_LANGS = ROUTE_LANGS.filter(isLangIndexable);
 
 // lastmod 는 "정확할 때만" 의미가 있다. Google 은 사이트 단위로 lastmod 를 검증해서
 // 틀린 값이 섞이면 전부 무시한다. 그래서:
@@ -25,7 +25,7 @@ function langAlternates(pathFor: (lang: string) => string): Record<string, strin
   return out;
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export function sitemapEntries(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
   const articles = getAllArticles();
   const modifiedOf = new Map(articles.map((a) => [a.slug, articleDates(a).modified]));
@@ -134,4 +134,49 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   return entries;
+}
+
+const xmlEscape = (v: string) =>
+  v.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const iso = (d: string | Date | undefined) => (d ? new Date(d).toISOString() : undefined);
+
+/** 한 언어(/blog/<lang>, /blog/<lang>/...) 의 항목만. zh 가 zh-tw 를 먹지 않게 세그먼트 단위로 자른다. */
+export function entriesForLang(lang: string): MetadataRoute.Sitemap {
+  const root = `${SITE}/${lang}`;
+  return sitemapEntries().filter((e) => e.url === root || e.url.startsWith(`${root}/`));
+}
+
+export function newestLastmod(entries: MetadataRoute.Sitemap): string | undefined {
+  return entries.reduce<string | undefined>((m, e) => {
+    const d = iso(e.lastModified);
+    return d && (!m || d > m) ? d : m;
+  }, undefined);
+}
+
+/** next 의 MetadataRoute 직렬화와 같은 모양(urlset + xhtml:link). */
+export function renderUrlset(entries: MetadataRoute.Sitemap): string {
+  const urls = entries
+    .map((e) => {
+      const alts = Object.entries(e.alternates?.languages ?? {})
+        .map(([hl, href]) => `<xhtml:link rel="alternate" hreflang="${hl}" href="${xmlEscape(String(href))}" />`)
+        .join('\n');
+      const lm = iso(e.lastModified);
+      return [
+        '<url>',
+        `<loc>${xmlEscape(e.url)}</loc>`,
+        alts,
+        lm ? `<lastmod>${lm}</lastmod>` : '',
+        e.changeFrequency ? `<changefreq>${e.changeFrequency}</changefreq>` : '',
+        e.priority !== undefined ? `<priority>${e.priority}</priority>` : '',
+        '</url>',
+      ]
+        .filter(Boolean)
+        .join('\n');
+    })
+    .join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${urls}
+</urlset>
+`;
 }
