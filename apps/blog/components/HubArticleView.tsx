@@ -3,7 +3,7 @@ import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import type { ArticleV2, ArticleV2LangContent } from '@/lib/articles-v2';
-import { getRelatedForLang } from '@/lib/articles-v2';
+import { getRelatedForLang, articleDates } from '@/lib/articles-v2';
 import { articleImage, hubSectionImage } from '@/lib/article-images';
 import { localizedCategory } from '@/lib/category-labels';
 import { CategoryIcon } from '@/components/CategoryIcon';
@@ -241,11 +241,10 @@ export default function HubArticleView({ article, content, shortLang, fallback }
         <div className="hub-meta">
           <ArticleAuthorBlock article={article} shortLang={shortLang} />
           <span className="hub-meta__row">
-            {content.last_updated && (
-              <span>
-                {t('updated', shortLang)} {content.last_updated}
-              </span>
-            )}
+            {/* JSON-LD dateModified 와 같은 값 (articleDates). */}
+            <span>
+              {t('updated', shortLang)} {articleDates(article).modified.slice(0, 10)}
+            </span>
             {article.reading_time_min && (
               <span>
                 · {article.reading_time_min}

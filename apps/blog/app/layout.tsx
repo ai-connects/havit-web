@@ -1,7 +1,5 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
-import CookieConsent from '@/components/CookieConsent';
-import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { METADATA_BASE, SITE, asset } from '@/lib/site';
 
 export const metadata: Metadata = {
@@ -47,18 +45,12 @@ export const viewport: Viewport = {
   themeColor: '#ffffff',
 };
 
+/**
+ * <html>/<body> 는 여기서 그리지 않는다 — 루트 레이아웃은 params 를 못 받아서
+ * 여기 두면 10개 언어 전부 `<html lang="en">` 으로 고정된다(2026-10-07 감사).
+ * 언어 라우트는 app/[lang]/layout.tsx 가, 404 는 app/not-found.tsx 가 각자
+ * components/DocumentShell 로 문서를 연다. (next-intl 의 표준 패턴, 정적 생성 유지)
+ */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en" suppressHydrationWarning>
-      <head>
-        {/* impact.com affiliate site verification (non-standard `value` attr required by impact.com) */}
-        <meta {...{ name: 'impact-site-verification', value: 'cf5ec2a5-ad3b-4112-9e9a-c9451e7c7029' }} />
-      </head>
-      <body>
-        <GoogleAnalytics />
-        {children}
-        <CookieConsent lang="en_us" />
-      </body>
-    </html>
-  );
+  return children;
 }

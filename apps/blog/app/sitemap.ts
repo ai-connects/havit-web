@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { getAllArticles, resolveContent, isLangIndexable } from '@/lib/articles-v2';
+import { getAllArticles, resolveContent, isLangIndexable, articleDates } from '@/lib/articles-v2';
 import { ALL_CATEGORIES } from '@/lib/categories';
 import { SITE } from '@/lib/site';
 
@@ -8,16 +8,14 @@ const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de',
 // a noindex URL (which GSC flags). Promote a lang via PRIORITY_INDEX_LANGS.
 const INDEXABLE_LANGS = ROUTE_LANGS.filter(isLangIndexable);
 
-// 블로그 최초 발행일(2026-05). 일부 아티클 updated_at 이 langs.*.last_updated(2025) 로
-// 채워져 런칭 이전(불가능) lastmod 가 새어나가던 문제 → 하한(floor)으로 클램프.
-const LAUNCH_FLOOR = new Date('2026-05-23T00:00:00.000Z');
-/** lastmod 안전화: 파싱불가/런칭이전 → floor, 미래 → now 로 클램프. */
-function safeLastMod(raw: string | undefined, now: Date): Date {
-  const d = raw ? new Date(raw) : now;
-  if (Number.isNaN(d.getTime()) || d < LAUNCH_FLOOR) return LAUNCH_FLOOR;
-  if (d > now) return now;
-  return d;
-}
+// lastmod 는 "정확할 때만" 의미가 있다. Google 은 사이트 단위로 lastmod 를 검증해서
+// 틀린 값이 섞이면 전부 무시한다. 그래서:
+//  - 아티클 = articleDates() 의 실측 시각 (생성 모델이 지어낸 last_updated 아님)
+//  - 목록/카테고리 허브 = 그 안 아티클 중 가장 최근 시각 (새 글이 붙을 때만 바뀜)
+//  - tools/about/editorial-policy = lastmod 생략. 예전엔 빌드 시각(now)을 찍어서
+//    배포할 때마다 260개 URL 이 "방금 바뀜" 을 주장했다.
+// 2026-10-07 GSC URL 검사 표본: 미색인의 대부분이 "발견됨 — 미색인"(크롤 대기)이라
+// 무엇을 먼저 크롤할지 알려주는 이 신호가 지금 가장 쓸모 있다.
 
 /** hreflang alternates for a path template present in all indexable langs (incl. x-default). */
 function langAlternates(pathFor: (lang: string) => string): Record<string, string> {
@@ -29,26 +27,34 @@ function langAlternates(pathFor: (lang: string) => string): Record<string, strin
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
-  const now = new Date();
+  const articles = getAllArticles();
+  const modifiedOf = new Map(articles.map((a) => [a.slug, articleDates(a).modified]));
+  const newest = (list: typeof articles) =>
+    list.reduce<string | undefined>((m, a) => {
+      const d = modifiedOf.get(a.slug)!;
+      return !m || d > m ? d : m;
+    }, undefined);
+  const newestAll = newest(articles);
+  const newestByCategory = new Map(
+    ALL_CATEGORIES.map((c) => [c.slug, newest(articles.filter((a) => a.category === c.value))]),
+  );
 
   for (const lang of INDEXABLE_LANGS) {
     entries.push({
       url: `${SITE}/${lang}`,
-      lastModified: now,
+      lastModified: newestAll,
       changeFrequency: 'daily',
       priority: lang === 'en' ? 1.0 : 0.9,
     });
     entries.push({
       url: `${SITE}/${lang}/tools`,
-      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.8,
     });
     for (const tool of ['bmr', 'protein', 'water', 'caffeine', 'sleep-cycle', 'exercise-calories']) {
       entries.push({
         url: `${SITE}/${lang}/tools/${tool}`,
-        lastModified: now,
-        changeFrequency: 'monthly',
+          changeFrequency: 'monthly',
         priority: 0.8,
       });
     }
@@ -70,14 +76,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     entries.push({
       url: `${SITE}/${lang}/about`,
-      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.6,
       alternates: { languages: aboutAlternates },
     });
     entries.push({
       url: `${SITE}/${lang}/editorial-policy`,
-      lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.6,
       alternates: { languages: policyAlternates },
@@ -89,7 +93,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const lang of INDEXABLE_LANGS) {
     entries.push({
       url: `${SITE}/${lang}/articles`,
-      lastModified: now,
+      lastModified: newestAll,
       changeFrequency: 'daily',
       priority: 0.8,
       alternates: { languages: langAlternates((l) => `${SITE}/${l}/articles`) },
@@ -97,7 +101,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const cat of ALL_CATEGORIES) {
       entries.push({
         url: `${SITE}/${lang}/category/${cat.slug}`,
-        lastModified: now,
+        lastModified: newestByCategory.get(cat.slug),
         changeFrequency: 'weekly',
         priority: 0.7,
         alternates: { languages: langAlternates((l) => `${SITE}/${l}/category/${cat.slug}`) },
@@ -105,7 +109,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  for (const a of getAllArticles()) {
+  for (const a of articles) {
     for (const lang of INDEXABLE_LANGS) {
       const r = resolveContent(a, lang);
       if (!r || r.fallback) continue;
@@ -121,7 +125,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       if (alternates['en']) alternates['x-default'] = `${SITE}/en/${a.slug}`;
       entries.push({
         url: `${SITE}/${lang}/${a.slug}`,
-        lastModified: safeLastMod(a.updated_at, now),
+        lastModified: modifiedOf.get(a.slug),
         changeFrequency: 'weekly',
         priority: 0.7,
         alternates: { languages: alternates },

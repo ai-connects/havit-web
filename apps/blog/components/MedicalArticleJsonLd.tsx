@@ -14,7 +14,7 @@
  */
 
 import type { ArticleV2, ArticleV2LangContent } from '@/lib/articles-v2';
-import { isYmylCategory } from '@/lib/articles-v2';
+import { isYmylCategory, articleDates } from '@/lib/articles-v2';
 import { toBcp47, toFullLang } from '@/lib/i18n';
 import { PUBLISHER_ORG, DEFAULT_AUTHOR, DEFAULT_REVIEWER, entitySchema } from '@/lib/team';
 import { articleImage } from '@/lib/article-images';
@@ -54,10 +54,9 @@ interface JsonLdPayload {
 
 function buildPayload(article: ArticleV2, content: ArticleV2LangContent, shortLang: string): JsonLdPayload {
   const ymyl = isYmylCategory(article.category);
-  const dateModified =
-    content.last_updated ?? article.updated_at ?? new Date().toISOString();
-  const datePublished = article.published_at ?? dateModified;
-  const lastReviewed = content.last_updated ?? dateModified;
+  // 날짜 SSOT = articleDates() — content.last_updated 는 생성 모델이 지어낸 값(2025 등)이다.
+  const { published: datePublished, modified: dateModified } = articleDates(article);
+  const lastReviewed = dateModified;
 
   const fullLang = toFullLang(shortLang === 'zh-tw' ? 'zh-tw' : shortLang === 'zh' ? 'zh-cn' : shortLang);
   const inLanguage = toBcp47(fullLang);
