@@ -111,31 +111,49 @@
       ],
       "references": [
         {
-          "text": "Eli Lilly / FDA — MOUNJARO (tirzepatide) Prescribing Information (label).",
+          "title": "MOUNJARO (tirzepatide) injection — U.S. Prescribing Information",
+          "source": "Eli Lilly and Company / U.S. FDA (current label)",
           "url": "https://pi.lilly.com/us/mounjaro-uspi.pdf"
         },
         {
-          "text": "FDA — MOUNJARO (tirzepatide) label, 2022 approval.",
+          "title": "MOUNJARO (tirzepatide) injection — original approval label (NDA 215866)",
+          "source": "U.S. FDA, 2022",
           "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/215866s000lbl.pdf"
         },
         {
-          "text": "Eli Lilly Medical — Common adverse events with Mounjaro (tirzepatide) in adults.",
+          "title": "Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial",
+          "source": "The Lancet, 2021",
+          "url": "https://doi.org/10.1016/S0140-6736(21)01324-6"
+        },
+        {
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2022",
+          "url": "https://doi.org/10.1056/NEJMoa2206038"
+        },
+        {
+          "title": "Management of type 2 diabetes with the dual GIP/GLP-1 receptor agonist tirzepatide: a systematic review and meta-analysis",
+          "source": "Diabetologia, 2022",
+          "url": "https://doi.org/10.1007/s00125-022-05715-4"
+        },
+        {
+          "title": "Common adverse events with Mounjaro (tirzepatide) in adults",
+          "source": "Lilly Medical (medical information)",
           "url": "https://medical.lilly.com/us/products/answers/what-are-the-common-adverse-events-with-mounjaro-tirzepatide-in-adults-310838"
         },
         {
-          "text": "Mayo Clinic — Tirzepatide (subcutaneous route): description & side effects.",
+          "title": "Tirzepatide (subcutaneous route): description and side effects",
+          "source": "Mayo Clinic",
           "url": "https://www.mayoclinic.org/drugs-supplements/tirzepatide-subcutaneous-route/description/drg-20534045"
         },
         {
-          "text": "Cleveland Clinic — GLP-1 Agonists.",
+          "title": "GLP-1 Agonists",
+          "source": "Cleveland Clinic",
           "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
         },
         {
-          "text": "GoodRx — 18 Possible Side Effects of Tirzepatide (Mounjaro, Zepbound).",
-          "url": "https://www.goodrx.com/mounjaro/common-side-effects"
-        },
-        {
-          "text": "All medical claims above were verified against the cited FDA/Lilly Mounjaro label, Eli Lilly materials, Mayo Clinic, and Cleveland Clinic as of mid-2026. Labels are updated periodically — confirm current details with your clinician and the official prescribing information.*"
+          "title": "Drug approval information (Mounjaro) — Integrated drug information system",
+          "source": "Ministry of Food and Drug Safety, Korea (MFDS)",
+          "url": "https://nedrug.mfds.go.kr"
         }
       ],
       "last_updated": "2026-07-02"
@@ -242,31 +260,49 @@
       ],
       "references": [
         {
-          "text": "일라이 릴리 / FDA — MOUNJARO(티르제파타이드) 허가사항(라벨).",
+          "title": "MOUNJARO (tirzepatide) injection — U.S. Prescribing Information",
+          "source": "Eli Lilly and Company / U.S. FDA (current label)",
           "url": "https://pi.lilly.com/us/mounjaro-uspi.pdf"
         },
         {
-          "text": "FDA — MOUNJARO(티르제파타이드) 라벨, 2022년 승인.",
+          "title": "MOUNJARO (tirzepatide) injection — original approval label (NDA 215866)",
+          "source": "U.S. FDA, 2022",
           "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/215866s000lbl.pdf"
         },
         {
-          "text": "Eli Lilly Medical — Common adverse events with Mounjaro (tirzepatide) in adults.",
+          "title": "Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial",
+          "source": "The Lancet, 2021",
+          "url": "https://doi.org/10.1016/S0140-6736(21)01324-6"
+        },
+        {
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2022",
+          "url": "https://doi.org/10.1056/NEJMoa2206038"
+        },
+        {
+          "title": "Management of type 2 diabetes with the dual GIP/GLP-1 receptor agonist tirzepatide: a systematic review and meta-analysis",
+          "source": "Diabetologia, 2022",
+          "url": "https://doi.org/10.1007/s00125-022-05715-4"
+        },
+        {
+          "title": "Common adverse events with Mounjaro (tirzepatide) in adults",
+          "source": "Lilly Medical (medical information)",
           "url": "https://medical.lilly.com/us/products/answers/what-are-the-common-adverse-events-with-mounjaro-tirzepatide-in-adults-310838"
         },
         {
-          "text": "Mayo Clinic — Tirzepatide(subcutaneous route): 설명·부작용.",
+          "title": "Tirzepatide (subcutaneous route): description and side effects",
+          "source": "Mayo Clinic",
           "url": "https://www.mayoclinic.org/drugs-supplements/tirzepatide-subcutaneous-route/description/drg-20534045"
         },
         {
-          "text": "Cleveland Clinic — GLP-1 Agonists.",
+          "title": "GLP-1 Agonists",
+          "source": "Cleveland Clinic",
           "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
         },
         {
-          "text": "식품의약품안전처 — 의약품안전나라 의약품통합정보시스템(마운자로 허가정보).",
+          "title": "Drug approval information (Mounjaro) — Integrated drug information system",
+          "source": "Ministry of Food and Drug Safety, Korea (MFDS)",
           "url": "https://nedrug.mfds.go.kr"
-        },
-        {
-          "text": "위 의학적 내용은 2026년 중반 기준으로 인용된 FDA/일라이 릴리 마운자로 라벨, 일라이 릴리 자료, Mayo Clinic, Cleveland Clinic, 국내 식약처 허가정보에 대조해 확인했습니다. 허가사항은 주기적으로 갱신되므로, 최신 세부사항은 담당 의료진과 공식 허가사항으로 확인하세요.*"
         }
       ],
       "last_updated": "2026-07-02"
@@ -338,7 +374,53 @@
         ]
       },
       "faq": [],
-      "references": [],
+      "references": [
+        {
+          "title": "MOUNJARO (tirzepatide) injection — U.S. Prescribing Information",
+          "source": "Eli Lilly and Company / U.S. FDA (current label)",
+          "url": "https://pi.lilly.com/us/mounjaro-uspi.pdf"
+        },
+        {
+          "title": "MOUNJARO (tirzepatide) injection — original approval label (NDA 215866)",
+          "source": "U.S. FDA, 2022",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/215866s000lbl.pdf"
+        },
+        {
+          "title": "Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial",
+          "source": "The Lancet, 2021",
+          "url": "https://doi.org/10.1016/S0140-6736(21)01324-6"
+        },
+        {
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2022",
+          "url": "https://doi.org/10.1056/NEJMoa2206038"
+        },
+        {
+          "title": "Management of type 2 diabetes with the dual GIP/GLP-1 receptor agonist tirzepatide: a systematic review and meta-analysis",
+          "source": "Diabetologia, 2022",
+          "url": "https://doi.org/10.1007/s00125-022-05715-4"
+        },
+        {
+          "title": "Common adverse events with Mounjaro (tirzepatide) in adults",
+          "source": "Lilly Medical (medical information)",
+          "url": "https://medical.lilly.com/us/products/answers/what-are-the-common-adverse-events-with-mounjaro-tirzepatide-in-adults-310838"
+        },
+        {
+          "title": "Tirzepatide (subcutaneous route): description and side effects",
+          "source": "Mayo Clinic",
+          "url": "https://www.mayoclinic.org/drugs-supplements/tirzepatide-subcutaneous-route/description/drg-20534045"
+        },
+        {
+          "title": "GLP-1 Agonists",
+          "source": "Cleveland Clinic",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "title": "Drug approval information (Mounjaro) — Integrated drug information system",
+          "source": "Ministry of Food and Drug Safety, Korea (MFDS)",
+          "url": "https://nedrug.mfds.go.kr"
+        }
+      ],
       "last_updated": "2026-07-02"
     },
     "zh-TW": {
@@ -408,9 +490,56 @@
         ]
       },
       "faq": [],
-      "references": [],
+      "references": [
+        {
+          "title": "MOUNJARO (tirzepatide) injection — U.S. Prescribing Information",
+          "source": "Eli Lilly and Company / U.S. FDA (current label)",
+          "url": "https://pi.lilly.com/us/mounjaro-uspi.pdf"
+        },
+        {
+          "title": "MOUNJARO (tirzepatide) injection — original approval label (NDA 215866)",
+          "source": "U.S. FDA, 2022",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/215866s000lbl.pdf"
+        },
+        {
+          "title": "Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1): a double-blind, randomised, phase 3 trial",
+          "source": "The Lancet, 2021",
+          "url": "https://doi.org/10.1016/S0140-6736(21)01324-6"
+        },
+        {
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2022",
+          "url": "https://doi.org/10.1056/NEJMoa2206038"
+        },
+        {
+          "title": "Management of type 2 diabetes with the dual GIP/GLP-1 receptor agonist tirzepatide: a systematic review and meta-analysis",
+          "source": "Diabetologia, 2022",
+          "url": "https://doi.org/10.1007/s00125-022-05715-4"
+        },
+        {
+          "title": "Common adverse events with Mounjaro (tirzepatide) in adults",
+          "source": "Lilly Medical (medical information)",
+          "url": "https://medical.lilly.com/us/products/answers/what-are-the-common-adverse-events-with-mounjaro-tirzepatide-in-adults-310838"
+        },
+        {
+          "title": "Tirzepatide (subcutaneous route): description and side effects",
+          "source": "Mayo Clinic",
+          "url": "https://www.mayoclinic.org/drugs-supplements/tirzepatide-subcutaneous-route/description/drg-20534045"
+        },
+        {
+          "title": "GLP-1 Agonists",
+          "source": "Cleveland Clinic",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "title": "Drug approval information (Mounjaro) — Integrated drug information system",
+          "source": "Ministry of Food and Drug Safety, Korea (MFDS)",
+          "url": "https://nedrug.mfds.go.kr"
+        }
+      ],
       "last_updated": "2026-07-02"
     }
   },
-  "generated_at": "2026-08-14T00:00:00.000Z"
+  "generated_at": "2026-08-14T00:00:00.000Z",
+  "updated_at": "2026-10-07T14:35:02.000Z"
 }
