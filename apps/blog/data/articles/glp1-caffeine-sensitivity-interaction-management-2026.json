@@ -11,75 +11,75 @@
     "en": {
       "title": "Why Your Morning Coffee Hits Different on GLP-1 Medications: Managing Caffeine Sensitivity",
       "meta_description": "GLP-1 medications slow gastric emptying, changing how your body absorbs caffeine. Learn why coffee feels stronger and how to adjust your intake safely.",
-      "tldr": "GLP-1 drugs delay stomach emptying by 30-50%, causing caffeine to absorb slower but last longer—here's how to recalibrate your coffee routine.",
-      "body_md": "## That Third Cup Used to Be Fine. What Changed?\n\nThree weeks into semaglutide, Sarah noticed something strange. Her usual two-cup morning routine now left her jittery until dinner. Heart racing at 3 PM. Sleep wrecked. She hadn't changed her coffee brand or brewing method. The medication had changed how her body processes caffeine.\n\nThis isn't rare. It's pharmacology.\n\n## The Stomach Slowdown Nobody Warned You About\n\nGLP-1 receptor agonists work partly by delaying gastric emptying—how fast your stomach passes contents to your small intestine. This helps with appetite suppression and blood sugar control. But it also transforms caffeine absorption kinetics in ways that catch people off guard.\n\nNormally, caffeine hits your bloodstream within 15-45 minutes of drinking coffee. Peak plasma concentration happens around 30-60 minutes. Your body then metabolizes it with a half-life of roughly 5 hours.\n\nOn GLP-1 medications, that timeline stretches. Research published in Clinical Pharmacokinetics in 2024 found that gastric emptying delays of 30-50% significantly alter absorption curves for orally consumed substances, including caffeine. Instead of a sharp spike and gradual decline, you get a flatter, longer curve. The caffeine doesn't hit as hard initially, but it lingers.\n\nThis explains why Sarah's afternoon jitters appeared. Her morning coffee wasn't clearing her system on the old schedule.\n\n## The Absorption Curve Shift: What Actually Happens\n\nPicture two graphs. The first shows normal caffeine absorption: steep climb, clear peak at 45 minutes, smooth descent over 5-6 hours. The second shows absorption with delayed gastric emptying: gentler slope, plateau instead of peak, extended tail lasting 7-9 hours.\n\nA 2025 study in the Journal of Caffeine Research examined this phenomenon directly. Participants taking GLP-1 agonists showed peak caffeine concentrations occurring 90-120 minutes post-consumption rather than the typical 30-60 minutes. Total area under the curve—meaning total caffeine exposure—remained similar, but the distribution shifted dramatically.\n\nThis matters for several reasons. You might not feel your coffee \"working\" as quickly in the morning. You might add another cup because the first seems weak. Then both cups hit simultaneously two hours later. And the combined caffeine sticks around well into evening.\n\n## Why Some People Notice This More Than Others\n\nGenetics plays a role. The CYP1A2 enzyme metabolizes about 95% of caffeine in your liver. Some people are rapid metabolizers—they clear caffeine quickly regardless of absorption timing. Others are slow metabolizers, and for them, the extended absorption window compounds an already lengthy clearance process.\n\nOne study found that slow CYP1A2 metabolizers taking GLP-1 medications experienced effective caffeine half-lives approaching 8-10 hours. That morning espresso at 7 AM still has measurable effects at midnight.\n\nDosage matters too. Higher doses of GLP-1 medications produce more pronounced gastric emptying delays. Someone on maintenance-dose semaglutide (2.4mg weekly) will likely notice stronger effects than someone on initial titration doses (0.25mg weekly).\n\nAnd coffee composition isn't irrelevant. A cold brew concentrate contains roughly 200mg caffeine per 8 ounces. A standard drip coffee has 95mg. The absolute amount entering your altered absorption system determines the magnitude of effects.\n\n## Practical Adjustments That Actually Work\n\nThe solution isn't necessarily quitting coffee. It's recalibrating.\n\nStart by cutting your usual intake by 30-40% during the first month of GLP-1 treatment. If you normally drink three cups, try two. If you're a two-cup person, try one and a half. Give your body time to reveal its new caffeine response pattern.\n\nTiming adjustments help significantly. Move your last caffeinated drink earlier. If you used to have coffee at 2 PM without sleep issues, try making noon your cutoff. Some people find they need to stop caffeine intake by 10 AM to sleep normally.\n\nConsider switching to lower-caffeine options for later consumption. Green tea contains 25-50mg per cup versus coffee's 95mg. You still get the ritual and some alertness benefit without the prolonged stimulation.\n\nSpread your intake rather than concentrating it. Two half-cups separated by two hours produces a more manageable curve than one full cup. The total caffeine is identical, but the absorption dynamics differ.\n\n## The Hydration Complication\n\nCaffeine is a mild diuretic. GLP-1 medications can reduce fluid intake because they suppress appetite broadly, including thirst signals in some people. Combine these factors with delayed gastric emptying, and dehydration risk increases.\n\nDehydration worsens caffeine's negative effects—headaches, heart palpitations, anxiety. It also slows caffeine metabolism, extending the already-extended exposure window.\n\nTrack your water intake separately from caffeinated beverages. Aim for at least 64 ounces of non-caffeinated fluids daily. Some people set phone reminders because thirst signals become unreliable.\n\n## When to Talk to Your Healthcare Provider\n\nMost caffeine sensitivity increases are manageable through the adjustments above. But certain symptoms warrant professional discussion.\n\nHeart palpitations that persist more than a few minutes. Chest discomfort or pressure. Anxiety that interferes with daily functioning. Sleep disruption that doesn't improve after two weeks of caffeine reduction. Severe headaches when reducing caffeine intake.\n\nYour provider might suggest temporary caffeine elimination to establish a baseline, then gradual reintroduction to find your new tolerance threshold. They can also check whether other medications you're taking interact with either the GLP-1 drug or caffeine metabolism.\n\n## The Adaptation Timeline\n\nBodies adjust. The gastric emptying delay from GLP-1 medications is most pronounced in the first 2-3 months of treatment. Some research suggests partial adaptation occurs over time, though the effect never fully normalizes while on medication.\n\nPeople who've been on semaglutide for a year often report that caffeine sensitivity, while still elevated compared to pre-medication baseline, becomes more predictable and manageable. The initial chaos of the first few months settles into a new normal.\n\nKeeping a simple log helps during this period. Note caffeine intake times, amounts, and any symptoms. Patterns emerge within 2-3 weeks that guide personalized adjustments.\n\n## Finding Your New Normal\n\nSarah eventually settled on one strong coffee at 6:30 AM and green tea at 10 AM. No caffeine after noon. Her jitters disappeared. Sleep returned to normal. She didn't have to give up coffee—she just had to understand that her body now processes it on a different schedule.\n\nThe relationship between GLP-1 medications and caffeine isn't dangerous for most people. It's just different. And different requires attention, adjustment, and a willingness to experiment until you find what works.\n\nYour morning ritual can survive this medication. It just might need to evolve.",
+      "tldr": "GLP-1 drugs slow stomach emptying, especially early in treatment, which may make caffeine kick in later and linger—here's how to recalibrate your coffee routine.",
+      "body_md": "## That Third Cup Used to Be Fine. What Changed?\n\nSome people who start semaglutide or tirzepatide notice that their usual coffee feels different—slower to kick in, or more noticeable later in the day, with jitters or poorer sleep. Nothing about the coffee itself has changed.\n\nNo study has yet measured caffeine levels directly in people taking GLP-1 medications. But what we know about how these drugs affect the stomach offers a plausible explanation.\n\n## The Stomach Slowdown Nobody Warned You About\n\nGLP-1 receptor agonists work partly by delaying gastric emptying—how fast your stomach passes contents to your small intestine. This helps with appetite suppression and blood sugar control. But it also transforms caffeine absorption kinetics in ways that catch people off guard.\n\nNormally, caffeine hits your bloodstream within 15-45 minutes of drinking coffee. Peak plasma concentration happens around 30-60 minutes. Your body then metabolizes it with a half-life of roughly 5 hours.\n\nOn GLP-1 medications, that timeline may stretch. Studies that use paracetamol (acetaminophen) absorption as a marker show the clearest effect in the first hour after a meal: in a 12-week crossover trial in 30 adults with obesity, semaglutide 1.0 mg reduced first-hour absorption by about 27% compared with placebo, while overall absorption over five hours was not different (Hjerpsted et al., 2018). Caffeine hasn't been tested this way, but a similar pattern—a slower start without less total caffeine—is plausible.\n\n## The Absorption Curve Shift: What Actually Happens\n\nPicture two graphs. The first shows normal caffeine absorption: a fairly steep climb, a peak within about an hour, then a gradual decline over several hours. The second shows what slower gastric emptying would be expected to produce: a gentler slope, a lower and later peak, and a longer tail. How large that shift is for coffee specifically hasn't been measured, and total caffeine exposure probably stays about the same—it's the timing that changes.\n\nThis could matter in a few ways. You might not feel your coffee \"working\" as quickly in the morning and reach for a second cup because the first seems weak—then feel both later on. That combined caffeine can stick around into the evening.\n\n## Why Some People Notice This More Than Others\n\nGenetics plays a role. The CYP1A2 enzyme metabolizes about 95% of caffeine in your liver. Some people are rapid metabolizers—they clear caffeine quickly regardless of absorption timing. Others are slow metabolizers, and for them, the extended absorption window compounds an already lengthy clearance process.\n\nCaffeine's half-life already varies widely from person to person, depending on genetics, smoking, pregnancy, oral contraceptives, liver function, and some medications (Nehlig, 2018). Whether GLP-1 medications add to that variation hasn't been studied directly.\n\nDosage may matter too. GLP-1 doses are increased step by step, and many people notice stomach-related effects most around a dose increase. Someone on maintenance-dose semaglutide (2.4mg weekly) may notice more than someone on the starting dose (0.25mg weekly).\n\nAnd coffee composition isn't irrelevant. A cold brew concentrate contains roughly 200mg caffeine per 8 ounces. A standard drip coffee has 95mg. The absolute amount entering your altered absorption system determines the magnitude of effects.\n\n## Practical Adjustments That Actually Work\n\nThe solution isn't necessarily quitting coffee. It's recalibrating.\n\nStart by cutting your usual intake by 30-40% during the first month of GLP-1 treatment. If you normally drink three cups, try two. If you're a two-cup person, try one and a half. Give your body time to reveal its new caffeine response pattern.\n\nTiming adjustments help. Move your last caffeinated drink earlier. In a sleep study, 400 mg of caffeine taken even 6 hours before bedtime still disrupted sleep (Drake et al., 2013), so a noon or early-afternoon cutoff is a reasonable place to start if your sleep has slipped.\n\nConsider switching to lower-caffeine options for later consumption. Green tea contains 25-50mg per cup versus coffee's 95mg. You still get the ritual and some alertness benefit without the prolonged stimulation.\n\nSpread your intake rather than concentrating it. Two half-cups separated by two hours produces a more manageable curve than one full cup. The total caffeine is identical, but the absorption dynamics differ.\n\n## The Hydration Complication\n\nCaffeine is a mild diuretic. GLP-1 medications can reduce fluid intake because they suppress appetite broadly, including thirst signals in some people. Combine these factors with delayed gastric emptying, and dehydration risk increases.\n\nDehydration can make caffeine's unpleasant effects—headaches, heart palpitations, anxiety—feel worse.\n\nTrack your water intake separately from caffeinated beverages. Aim for at least 64 ounces of non-caffeinated fluids daily. Some people set phone reminders because thirst signals become unreliable.\n\n## When to Talk to Your Healthcare Provider\n\nMost caffeine sensitivity increases are manageable through the adjustments above. But certain symptoms warrant professional discussion.\n\nHeart palpitations that persist more than a few minutes. Chest discomfort or pressure. Anxiety that interferes with daily functioning. Sleep disruption that doesn't improve after two weeks of caffeine reduction. Severe headaches when reducing caffeine intake.\n\nYour provider might suggest temporary caffeine elimination to establish a baseline, then gradual reintroduction to find your new tolerance threshold. They can also check whether other medications you're taking interact with either the GLP-1 drug or caffeine metabolism.\n\n## The Adaptation Timeline\n\nBodies adjust. In a randomized trial of liraglutide 3.0 mg, the delay in emptying a solid meal was about 70 minutes at week 5 but about 30 minutes at week 16 (Halawi et al., 2017)—a sign that this effect partly fades over time, though it doesn't disappear while you stay on the medication.\n\nKeeping a simple log helps during this period. Note caffeine intake times, amounts, and any symptoms. Patterns emerge within 2-3 weeks that guide personalized adjustments.\n\n## Finding Your New Normal\n\nIn practice, many people settle on a simple routine: one coffee early in the morning, a lower-caffeine drink such as green tea later in the morning if needed, and no caffeine after midday. The goal isn't to give up coffee—it's to match it to how your body handles it now.\n\nThe relationship between GLP-1 medications and caffeine isn't dangerous for most people. It's just different. And different requires attention, adjustment, and a willingness to experiment until you find what works.\n\nYour morning ritual can survive this medication. It just might need to evolve.",
       "key_stats": [
         {
-          "label": "Gastric emptying delay on GLP-1 medications",
-          "value": "30-50%",
-          "source": "Clinical Pharmacokinetics 2024"
+          "label": "First-hour gastric emptying with semaglutide 1.0 mg",
+          "value": "~27% slower vs placebo (no difference over 5 h)",
+          "source": "Hjerpsted et al., Diabetes Obes Metab 2018"
         },
         {
-          "label": "Shifted time to peak caffeine concentration",
-          "value": "90-120 minutes (vs. normal 30-60 min)",
-          "source": "Journal of Caffeine Research 2025"
+          "label": "Solid-meal emptying delay with liraglutide 3.0 mg",
+          "value": "~70 min at week 5 → ~30 min at week 16",
+          "source": "Halawi et al., Lancet Gastroenterol Hepatol 2017"
         },
         {
-          "label": "Caffeine half-life in slow metabolizers on GLP-1",
-          "value": "8-10 hours",
-          "source": "Clinical Pharmacokinetics 2024"
-        },
-        {
-          "label": "Recommended initial caffeine reduction",
-          "value": "30-40%",
-          "source": "Clinical practice guidelines"
-        },
-        {
-          "label": "CYP1A2 enzyme caffeine metabolism share",
+          "label": "Share of caffeine metabolized by CYP1A2",
           "value": "~95%",
-          "source": "Journal of Caffeine Research 2025"
+          "source": "Nehlig, Pharmacol Rev 2018"
+        },
+        {
+          "label": "Caffeine (400 mg) taken 6 hours before bed",
+          "value": "Still disrupted sleep",
+          "source": "Drake et al., J Clin Sleep Med 2013"
+        },
+        {
+          "label": "Daily caffeine considered safe for healthy adults",
+          "value": "Up to 400 mg",
+          "source": "EFSA Journal 2015"
         }
       ],
       "comparison_table": {
-        "title": "Caffeine Absorption: Normal vs. GLP-1 Medication",
+        "title": "Caffeine Absorption: Typical vs. Expected on GLP-1 Medication",
         "headers": [
           "Parameter",
-          "Normal Absorption",
-          "On GLP-1 Medication"
+          "Typical",
+          "Expected on GLP-1 Medication"
         ],
         "rows": [
           [
             "Time to feel effects",
-            "15-45 minutes",
-            "45-90 minutes"
+            "~15-45 minutes",
+            "Possibly later"
           ],
           [
             "Peak blood concentration",
-            "30-60 minutes",
-            "90-120 minutes"
+            "Within ~1 hour",
+            "Possibly lower and later"
           ],
           [
             "Absorption curve shape",
-            "Sharp spike, gradual decline",
-            "Flatter plateau, extended tail"
+            "Sharp rise, gradual decline",
+            "Flatter, longer"
           ],
           [
-            "Effective duration",
-            "5-6 hours",
-            "7-9 hours"
+            "Total caffeine absorbed",
+            "Full dose",
+            "Probably similar"
           ],
           [
             "Perceived initial strength",
-            "Strong, quick onset",
-            "Weaker, delayed onset"
+            "Quick onset",
+            "May feel weaker at first"
           ],
           [
             "Late-day effects",
-            "Minimal after 6 hours",
-            "Noticeable for 8+ hours"
+            "Depends on dose and timing",
+            "May be more noticeable"
           ]
         ],
-        "caption": "Based on pharmacokinetic data from Clinical Pharmacokinetics 2024 and Journal of Caffeine Research 2025"
+        "caption": "Expected pattern based on gastric-emptying studies of GLP-1 medications (Hjerpsted 2018; Halawi 2017). Caffeine levels on these drugs have not been measured directly."
       },
       "faq": [
         {
@@ -113,24 +113,39 @@
       ],
       "references": [
         {
-          "title": "Altered Absorption Kinetics of Oral Substances During GLP-1 Receptor Agonist Therapy",
-          "source": "Clinical Pharmacokinetics, 2024",
+          "title": "Semaglutide improves postprandial glucose and lipid metabolism, and delays first-hour gastric emptying in subjects with obesity",
+          "source": "Diabetes, Obesity and Metabolism, 2018",
+          "url": "https://doi.org/10.1111/dom.13120"
+        },
+        {
+          "title": "Effects of liraglutide on weight, satiation, and gastric functions in obesity: a randomised, placebo-controlled pilot trial",
+          "source": "The Lancet Gastroenterology & Hepatology, 2017",
+          "url": "https://doi.org/10.1016/S2468-1253(17)30285-6"
+        },
+        {
+          "title": "Pharmacokinetics and Clinical Implications of Semaglutide: A New Glucagon-Like Peptide (GLP)-1 Receptor Agonist",
+          "source": "Clinical Pharmacokinetics, 2018",
           "url": "https://doi.org/10.1007/s40262-018-0668-z"
         },
         {
-          "title": "Caffeine Pharmacokinetics in Patients with Delayed Gastric Emptying",
-          "source": "Journal of Caffeine Research, 2025",
-          "url": "https://doi.org/10.3390/pharmaceutics15020328"
+          "title": "A Comprehensive Review on the Pharmacokinetics and Drug−Drug Interactions of Approved GLP-1 Receptor Agonists and a Dual GLP-1/GIP Receptor Agonist",
+          "source": "Drug Design, Development and Therapy, 2025",
+          "url": "https://doi.org/10.2147/dddt.s506957"
         },
         {
-          "title": "CYP1A2 Genetic Polymorphisms and Caffeine Metabolism Variability",
-          "source": "Pharmacogenomics Journal, 2024",
-          "url": "https://doi.org/10.21203/rs.3.rs-3090935/v1"
+          "title": "Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption",
+          "source": "Pharmacological Reviews, 2018",
+          "url": "https://doi.org/10.1124/pr.117.014407"
         },
         {
-          "title": "Gastrointestinal Effects of Incretin-Based Therapies: Clinical Implications",
-          "source": "Diabetes Care, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42168641/"
+          "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+          "source": "Journal of Clinical Sleep Medicine, 2013",
+          "url": "https://doi.org/10.5664/jcsm.3170"
+        },
+        {
+          "title": "Scientific Opinion on the safety of caffeine",
+          "source": "EFSA Journal, 2015",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4102"
         }
       ],
       "last_updated": "2026-05-23"
@@ -138,76 +153,75 @@
     "ko": {
       "title": "GLP-1 약물 복용 중 커피가 갑자기 독해진 이유와 카페인 민감도 관리법",
       "meta_description": "GLP-1 약물이 위 배출 속도를 늦춰 카페인 흡수 패턴을 바꿉니다. 커피 한 잔에 심장이 두근거리는 이유와 실용적인 조절법을 알려드려요.",
-      "tldr": "GLP-1 약물이 위 배출을 37% 늦추면서 카페인이 천천히, 하지만 더 오래 흡수되어 민감도가 높아집니다.",
-      "body_md": "## 어느 날 갑자기, 커피 한 잔이 두 잔처럼 느껴졌다\n\n\"저 원래 하루에 아메리카노 세 잔은 기본이었거든요.\"\n\n40대 직장인 K씨는 세마글루타이드를 시작한 지 3주쯤 됐을 때 이상한 걸 느꼈어요. 평소처럼 출근길에 커피를 마셨는데, 오전 내내 손이 미세하게 떨리고 심장이 콩닥거렸죠. 처음엔 스트레스 탓인가 싶었어요. 그런데 며칠이 지나도 같은 증상이 반복됐습니다.\n\n이건 K씨만의 이야기가 아니에요. GLP-1 수용체 작용제를 복용하는 사람들 사이에서 \"커피가 갑자기 세졌다\"는 경험담이 꽤 흔합니다. 실제로 2025년 Journal of Caffeine Research에 실린 연구에 따르면, GLP-1 약물 복용자의 67%가 카페인 민감도 변화를 체감했다고 해요.\n\n## 위장이 느려지면 카페인 흡수 곡선이 바뀐다\n\n여기서 핵심은 위 배출 속도예요.\n\nGLP-1 약물의 대표적인 작용 중 하나가 위에서 음식물이 소장으로 넘어가는 속도를 늦추는 거잖아요. 이게 포만감을 오래 유지시켜주는 원리인데, 문제는 카페인도 이 느려진 고속도로를 함께 지나간다는 점입니다.\n\n보통 카페인은 섭취 후 45분 내에 혈중 최고 농도에 도달해요. 그런데 GLP-1 약물을 복용하면? Clinical Pharmacokinetics 2024년 연구팀이 측정한 결과, 최고 농도 도달 시간이 평균 72분으로 늘어났습니다. 37%나 지연된 거죠.\n\n\"그럼 천천히 흡수되니까 오히려 순하게 느껴져야 하는 거 아닌가요?\"\n\n직관적으로는 그렇게 생각할 수 있어요. 하지만 실제로는 정반대 현상이 일어납니다.\n\n## 피크는 낮아도 꼬리가 길어진다\n\n카페인 흡수 곡선을 산에 비유해볼게요.\n\n일반적인 흡수 패턴은 가파른 산봉우리 같아요. 빠르게 올라갔다가 빠르게 내려오죠. 반면 GLP-1 약물 복용 시의 패턴은 완만한 구릉 같습니다. 정상 높이는 약간 낮지만, 산 전체 길이가 훨씬 깁니다.\n\n수치로 보면 이래요. 혈중 카페인 반감기가 평균 5.7시간에서 7.2시간으로 26% 연장됩니다. 아침 8시에 마신 커피의 카페인이 오후 3시가 돼도 체내에 절반 가까이 남아있는 셈이에요. 여기에 점심때 한 잔 더 마시면? 카페인이 누적되면서 저녁에 불면증을 겪게 됩니다.\n\n실제로 GLP-1 복용자 중 수면 문제를 호소하는 비율이 23%인데, 이 중 상당수가 카페인 조절로 개선됐다는 임상 보고가 있어요.\n\n## 왜 어떤 사람은 더 민감할까\n\n같은 약을 먹어도 카페인 민감도 변화 정도는 사람마다 달라요.\n\n여기엔 몇 가지 변수가 작용합니다. 우선 CYP1A2 효소 활성도예요. 이 효소가 카페인을 분해하는 주역인데, 유전적으로 활성도가 낮은 사람은 원래부터 카페인에 민감해요. 여기에 GLP-1 약물 효과까지 더해지면 민감도가 급격히 올라갑니다.\n\n나이도 영향을 줘요. 50대 이상에서는 기저 위 배출 속도가 이미 젊을 때보다 느린 경우가 많거든요. GLP-1 약물이 이 속도를 더 늦추면서 카페인 체류 시간이 예상보다 훨씬 길어질 수 있습니다.\n\n흡연 여부도 변수예요. 흡연자는 CYP1A2 효소가 활성화되어 카페인을 빨리 분해하는 편인데, 금연하면서 동시에 GLP-1 약물을 시작한 경우 두 가지 변화가 겹쳐 카페인 민감도가 급등할 수 있어요.\n\n## 커피를 끊을 필요는 없어요\n\n좋은 소식부터 말씀드릴게요. 커피를 완전히 끊어야 하는 건 아닙니다.\n\n다만 마시는 방식을 조정할 필요는 있어요. 가장 효과적인 전략은 양과 타이밍 두 가지를 동시에 바꾸는 거예요.\n\n**양 조절**: 기존 섭취량의 50-70%로 시작해보세요. 하루 커피 세 잔이었다면 두 잔으로, 두 잔이었다면 한 잔 반으로요. 2-3주간 적응 기간을 두고 몸의 반응을 관찰합니다.\n\n**타이밍 조절**: 마지막 카페인 섭취 시간을 최소 2시간 앞당기세요. 오후 4시까지 괜찮았다면 이제는 오후 2시를 마지노선으로 잡는 거예요. 반감기가 길어진 만큼 수면에 영향을 주는 시간대도 앞당겨지거든요.\n\n**농도 조절**: 같은 한 잔이라도 에스프레소 더블샷 아메리카노(약 150mg)와 드립 커피(약 95mg)는 카페인 함량이 다릅니다. 익숙한 음료의 농도를 한 단계 낮추는 것도 방법이에요.\n\n## 약물 용량 증량 시기를 주의하세요\n\nGLP-1 약물은 보통 저용량에서 시작해 점진적으로 올리잖아요.\n\n이 증량 시기마다 카페인 민감도가 한 번씩 더 올라갈 수 있습니다. 세마글루타이드 기준으로 0.25mg에서 0.5mg으로 올릴 때, 다시 1.0mg으로 올릴 때 위 배출 지연 효과가 단계적으로 강해지거든요.\n\n그래서 용량을 올린 첫 1-2주는 카페인 섭취를 평소보다 더 보수적으로 가져가는 게 좋아요. 몸이 새 용량에 적응한 후에 조금씩 원래 패턴으로 돌아가면 됩니다.\n\n한 가지 팁을 더 드리자면, 약물 주사 당일은 위장관 효과가 가장 강한 날이에요. 주 1회 제제를 맞는 분들은 주사 당일과 다음 날은 카페인을 평소의 절반 이하로 줄여보세요.\n\n## 카페인 말고 다른 각성 전략\n\n\"그래도 오후에 졸리면 어떡해요?\"\n\n충분히 이해해요. 직장인에게 오후 3시의 졸음은 실질적인 문제니까요.\n\n카페인 외에 각성 효과를 줄 수 있는 방법들이 있어요. 10분 햇빛 산책은 코르티솔 분비를 자연스럽게 높여줍니다. 차가운 물로 세수하는 것도 순간적인 각성에 효과적이에요. 페퍼민트 향을 맡는 것만으로도 인지 기능이 일시적으로 향상된다는 연구 결과도 있고요.\n\n디카페인 커피도 대안이에요. 카페인 함량이 일반 커피의 3% 정도라서 의례적인 커피 타임은 유지하면서 카페인 부담은 확 줄일 수 있어요. 맛도 요즘은 많이 좋아졌고요.\n\n## 언제 의료진과 상담해야 할까\n\n대부분의 카페인 민감도 변화는 생활 조절로 관리할 수 있어요.\n\n하지만 몇 가지 상황에서는 담당 의료진과 상담하는 게 좋습니다. 심계항진이 하루에 여러 번 반복되거나, 불안 증상이 일상에 지장을 줄 정도로 심해졌거나, 카페인을 완전히 끊었는데도 증상이 2주 이상 지속된다면요.\n\n드물지만 GLP-1 약물 자체가 심박수를 약간 올리는 효과가 있어서, 카페인과 상승작용을 일으키는 경우도 있어요. 이런 경우엔 약물 종류나 용량 조정이 필요할 수 있습니다.\n\n결국 GLP-1 약물과 카페인의 관계는 적대적인 게 아니에요. 그냥 새로운 균형점을 찾아야 하는 거죠. 몸이 보내는 신호에 귀 기울이면서 나만의 적정량을 찾아가면 됩니다. 커피를 포기하지 않아도 돼요. 조금만 조절하면 되는 일이니까요.",
+      "tldr": "GLP-1 약물은 특히 치료 초기에 위 배출을 늦춰, 카페인이 더 늦게 듣고 더 오래 남는 것처럼 느껴질 수 있습니다. 커피 습관을 다시 맞추는 방법을 정리했어요.",
+      "body_md": "## 어느 날 갑자기, 커피 한 잔이 두 잔처럼 느껴졌다\n\n세마글루타이드나 터제파타이드를 시작한 뒤 평소 마시던 커피가 다르게 느껴진다는 분들이 있어요. 출근길에 늘 마시던 한 잔인데 오전 내내 손이 미세하게 떨리거나, 오후 늦게까지 심장이 콩닥거리거나, 밤잠이 얕아졌다는 거죠.\n\nGLP-1 수용체 작용제를 쓰는 사람들 사이에서 \"커피가 갑자기 세졌다\"는 경험담은 드물지 않아요. 다만 이 약을 쓰는 사람의 혈중 카페인 농도를 직접 측정한 연구는 아직 없습니다. 지금 알려진 건 이 약들이 위에 미치는 영향이고, 그걸로 그럴듯한 설명을 할 수 있어요.\n\n## 위장이 느려지면 카페인 흡수 곡선이 바뀐다\n\n여기서 핵심은 위 배출 속도예요.\n\nGLP-1 약물의 대표적인 작용 중 하나가 위에서 음식물이 소장으로 넘어가는 속도를 늦추는 거잖아요. 이게 포만감을 오래 유지시켜주는 원리인데, 문제는 카페인도 이 느려진 고속도로를 함께 지나간다는 점입니다.\n\n보통 카페인은 섭취 후 1시간 안팎에 혈중 최고 농도에 도달해요. 그런데 GLP-1 약물을 복용하면? 파라세타몰(아세트아미노펜) 흡수를 지표로 쓴 연구를 보면 영향은 식후 첫 1시간에 가장 뚜렷합니다. 비만 성인 30명을 대상으로 한 12주 교차 시험에서 세마글루타이드 1.0mg은 식후 첫 1시간 흡수를 위약보다 약 27% 줄였지만, 5시간 전체 흡수량에는 차이가 없었어요(Hjerpsted 등, 2018). 카페인으로 직접 확인한 건 아니지만, '시작은 느리고 총량은 비슷한' 비슷한 패턴을 충분히 예상할 수 있습니다.\n\n\"그럼 천천히 흡수되니까 오히려 순하게 느껴져야 하는 거 아닌가요?\"\n\n직관적으로는 그렇게 생각할 수 있어요. 하지만 흡수가 늦어지면 효과가 느껴지는 시점도 함께 뒤로 밀릴 수 있습니다.\n\n## 피크는 낮아도 꼬리가 길어진다\n\n카페인 흡수 곡선을 산에 비유해볼게요.\n\n일반적인 흡수 패턴은 가파른 산봉우리 같아요. 빠르게 올라갔다가 서서히 내려오죠. 반면 위 배출이 느려지면 완만한 구릉 같은 모양이 예상됩니다. 정상은 조금 낮고 늦게 오지만, 산 전체 길이가 더 길어지는 거예요. 커피에서 이 변화가 실제로 얼마나 큰지는 아직 측정된 적이 없어요.\n\n여기에 개인차가 더해집니다. 카페인 반감기는 원래도 유전, 흡연, 임신, 경구피임약, 간 기능, 일부 약물에 따라 사람마다 크게 다릅니다(Nehlig, 2018). 그래서 아침에 마신 커피가 오후까지 꽤 남아 있는 사람도 있어요. 여기에 점심때 한 잔 더 마시면 카페인이 쌓이면서 밤잠에 영향을 줄 수 있습니다. 실제로 400mg의 카페인은 잠들기 6시간 전에 마셔도 수면을 방해했어요(Drake 등, 2013).\n\n## 왜 어떤 사람은 더 민감할까\n\n같은 약을 먹어도 카페인 민감도 변화 정도는 사람마다 달라요.\n\n여기엔 몇 가지 변수가 작용합니다. 우선 CYP1A2 효소 활성도예요. 이 효소가 카페인을 분해하는 주역인데, 유전적으로 활성도가 낮은 사람은 원래부터 카페인에 민감해요. 여기에 GLP-1 약물 효과까지 더해지면 민감도가 급격히 올라갑니다.\n\n나이도 영향을 줘요. 50대 이상에서는 기저 위 배출 속도가 이미 젊을 때보다 느린 경우가 많거든요. GLP-1 약물이 이 속도를 더 늦추면서 카페인 체류 시간이 예상보다 훨씬 길어질 수 있습니다.\n\n흡연 여부도 변수예요. 흡연자는 CYP1A2 효소가 활성화되어 카페인을 빨리 분해하는 편인데, 금연하면서 동시에 GLP-1 약물을 시작한 경우 두 가지 변화가 겹쳐 카페인 민감도가 급등할 수 있어요.\n\n## 커피를 끊을 필요는 없어요\n\n좋은 소식부터 말씀드릴게요. 커피를 완전히 끊어야 하는 건 아닙니다.\n\n다만 마시는 방식을 조정할 필요는 있어요. 가장 효과적인 전략은 양과 타이밍 두 가지를 동시에 바꾸는 거예요.\n\n**양 조절**: 기존 섭취량의 50-70%로 시작해보세요. 하루 커피 세 잔이었다면 두 잔으로, 두 잔이었다면 한 잔 반으로요. 2-3주간 적응 기간을 두고 몸의 반응을 관찰합니다.\n\n**타이밍 조절**: 마지막 카페인 섭취 시간을 앞당기세요. 오후 4시까지 괜찮았다면 이제는 오후 2시를 마지노선으로 잡아보는 거예요. 카페인을 늦게 마실수록 수면에 영향을 줄 가능성이 커지거든요.\n\n**농도 조절**: 같은 한 잔이라도 에스프레소 더블샷 아메리카노(약 150mg)와 드립 커피(약 95mg)는 카페인 함량이 다릅니다. 익숙한 음료의 농도를 한 단계 낮추는 것도 방법이에요.\n\n## 약물 용량 증량 시기를 주의하세요\n\nGLP-1 약물은 보통 저용량에서 시작해 점진적으로 올리잖아요.\n\n이 증량 시기마다 카페인 민감도가 한 번씩 더 올라갈 수 있습니다. 세마글루타이드 기준으로 0.25mg에서 0.5mg으로, 다시 1.0mg으로 올리는 시기에 위장 관련 증상을 더 많이 느끼는 분들이 많거든요.\n\n그래서 용량을 올린 첫 1-2주는 카페인 섭취를 평소보다 더 보수적으로 가져가는 게 좋아요. 몸이 새 용량에 적응한 후에 조금씩 원래 패턴으로 돌아가면 됩니다.\n\n## 카페인 말고 다른 각성 전략\n\n\"그래도 오후에 졸리면 어떡해요?\"\n\n충분히 이해해요. 직장인에게 오후 3시의 졸음은 실질적인 문제니까요.\n\n카페인 외에 각성 효과를 줄 수 있는 방법들이 있어요. 10분 햇빛 산책은 코르티솔 분비를 자연스럽게 높여줍니다. 차가운 물로 세수하는 것도 순간적인 각성에 효과적이에요. 페퍼민트 향을 맡는 것만으로도 인지 기능이 일시적으로 향상된다는 연구 결과도 있고요.\n\n디카페인 커피도 대안이에요. 카페인 함량이 일반 커피의 3% 정도라서 의례적인 커피 타임은 유지하면서 카페인 부담은 확 줄일 수 있어요. 맛도 요즘은 많이 좋아졌고요.\n\n## 언제 의료진과 상담해야 할까\n\n대부분의 카페인 민감도 변화는 생활 조절로 관리할 수 있어요.\n\n하지만 몇 가지 상황에서는 담당 의료진과 상담하는 게 좋습니다. 심계항진이 하루에 여러 번 반복되거나, 불안 증상이 일상에 지장을 줄 정도로 심해졌거나, 카페인을 완전히 끊었는데도 증상이 2주 이상 지속된다면요.\n\n드물지만 GLP-1 약물 자체가 심박수를 약간 올리는 효과가 있어서, 카페인과 상승작용을 일으키는 경우도 있어요. 이런 경우엔 약물 종류나 용량 조정이 필요할 수 있습니다.\n\n결국 GLP-1 약물과 카페인의 관계는 적대적인 게 아니에요. 그냥 새로운 균형점을 찾아야 하는 거죠. 몸이 보내는 신호에 귀 기울이면서 나만의 적정량을 찾아가면 됩니다. 커피를 포기하지 않아도 돼요. 조금만 조절하면 되는 일이니까요.",
       "key_stats": [
         {
-          "label": "카페인 민감도 변화 체감 비율",
-          "value": "67%",
-          "source": "Journal of Caffeine Research, 2025"
+          "label": "세마글루타이드 1.0mg의 식후 첫 1시간 위 배출",
+          "value": "위약 대비 약 27% 느림 (5시간 전체는 차이 없음)",
+          "source": "Hjerpsted et al., Diabetes Obes Metab 2018"
         },
         {
-          "label": "카페인 최고 농도 도달 시간 지연",
-          "value": "45분 → 72분 (37% 증가)",
-          "source": "Clinical Pharmacokinetics, 2024"
+          "label": "리라글루타이드 3.0mg의 고형식 위 배출 지연",
+          "value": "5주차 약 70분 → 16주차 약 30분",
+          "source": "Halawi et al., Lancet Gastroenterol Hepatol 2017"
         },
         {
-          "label": "카페인 반감기 연장",
-          "value": "5.7시간 → 7.2시간 (26% 증가)",
-          "source": "Clinical Pharmacokinetics, 2024"
+          "label": "CYP1A2가 대사하는 카페인 비율",
+          "value": "약 95%",
+          "source": "Nehlig, Pharmacol Rev 2018"
         },
         {
-          "label": "GLP-1 복용자 수면 문제 비율",
-          "value": "23%",
-          "source": "Journal of Caffeine Research, 2025"
+          "label": "잠들기 6시간 전 카페인(400mg)",
+          "value": "그래도 수면을 방해함",
+          "source": "Drake et al., J Clin Sleep Med 2013"
         },
         {
-          "label": "디카페인 커피 카페인 함량",
-          "value": "일반 커피의 약 3%",
-          "source": "Journal of Caffeine Research, 2025"
+          "label": "건강한 성인의 하루 카페인 안전 섭취량",
+          "value": "400mg 이하",
+          "source": "EFSA Journal 2015"
         }
       ],
       "comparison_table": {
-        "title": "GLP-1 복용 전후 카페인 흡수 패턴 비교",
+        "title": "카페인 흡수 패턴: 일반적인 경우 vs GLP-1 복용 시 예상",
         "headers": [
           "항목",
-          "GLP-1 복용 전",
-          "GLP-1 복용 후",
-          "변화율"
+          "일반적인 경우",
+          "GLP-1 복용 시 (예상)"
         ],
         "rows": [
           [
             "최고 농도 도달 시간",
-            "45분",
-            "72분",
-            "+37%"
+            "약 1시간 이내",
+            "더 늦어질 수 있음"
           ],
           [
-            "혈중 반감기",
-            "5.7시간",
-            "7.2시간",
-            "+26%"
+            "최고 농도",
+            "기준",
+            "다소 낮아질 수 있음"
           ],
           [
-            "체내 잔류 시간 (90% 배출)",
-            "약 19시간",
-            "약 24시간",
-            "+26%"
+            "흡수 곡선 모양",
+            "빠르게 올랐다 서서히 하강",
+            "더 완만하고 길게"
           ],
           [
-            "권장 마지막 섭취 시간",
+            "흡수되는 카페인 총량",
+            "전량",
+            "비슷할 것으로 추정"
+          ],
+          [
+            "권장 마지막 섭취 시간 (예시)",
             "오후 4시",
-            "오후 2시",
-            "2시간 앞당김"
+            "오후 2시"
           ],
           [
-            "권장 일일 섭취량",
+            "섭취량 조절 (예시)",
             "기존 100%",
-            "기존의 50-70%",
-            "30-50% 감소"
+            "기존의 50-70%로 시작"
           ]
         ],
-        "caption": "개인차가 있으므로 본인의 반응을 관찰하며 조절하세요"
+        "caption": "GLP-1 약물의 위 배출 연구(Hjerpsted 2018, Halawi 2017)를 바탕으로 한 예상 패턴이며, 이 약을 쓰는 동안의 카페인 농도는 직접 측정된 적이 없습니다. 개인차가 있으니 본인의 반응을 관찰하며 조절하세요."
       },
       "faq": [
         {
@@ -241,24 +255,39 @@
       ],
       "references": [
         {
-          "title": "Caffeine Absorption Dynamics in Patients Using GLP-1 Receptor Agonists",
-          "source": "Journal of Caffeine Research, 2025",
-          "url": "https://doi.org/10.36266/jmcs/224"
+          "title": "Semaglutide improves postprandial glucose and lipid metabolism, and delays first-hour gastric emptying in subjects with obesity",
+          "source": "Diabetes, Obesity and Metabolism, 2018",
+          "url": "https://doi.org/10.1111/dom.13120"
         },
         {
-          "title": "Drug-Drug Interactions of GLP-1 Receptor Agonists: A Comprehensive Review",
-          "source": "Clinical Pharmacokinetics, 2024",
+          "title": "Effects of liraglutide on weight, satiation, and gastric functions in obesity: a randomised, placebo-controlled pilot trial",
+          "source": "The Lancet Gastroenterology & Hepatology, 2017",
+          "url": "https://doi.org/10.1016/S2468-1253(17)30285-6"
+        },
+        {
+          "title": "Pharmacokinetics and Clinical Implications of Semaglutide: A New Glucagon-Like Peptide (GLP)-1 Receptor Agonist",
+          "source": "Clinical Pharmacokinetics, 2018",
+          "url": "https://doi.org/10.1007/s40262-018-0668-z"
+        },
+        {
+          "title": "A Comprehensive Review on the Pharmacokinetics and Drug−Drug Interactions of Approved GLP-1 Receptor Agonists and a Dual GLP-1/GIP Receptor Agonist",
+          "source": "Drug Design, Development and Therapy, 2025",
           "url": "https://doi.org/10.2147/dddt.s506957"
         },
         {
-          "title": "Gastric Emptying Delay and Its Effects on Oral Drug Absorption",
-          "source": "European Journal of Pharmaceutical Sciences, 2024",
-          "url": "https://doi.org/10.1016/j.ejps.2006.10.011"
+          "title": "Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption",
+          "source": "Pharmacological Reviews, 2018",
+          "url": "https://doi.org/10.1124/pr.117.014407"
         },
         {
-          "title": "Sleep Quality Changes in Patients Initiating Semaglutide Therapy",
-          "source": "Journal of Clinical Sleep Medicine, 2025",
-          "url": "https://doi.org/10.5664/jcsm.11514"
+          "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+          "source": "Journal of Clinical Sleep Medicine, 2013",
+          "url": "https://doi.org/10.5664/jcsm.3170"
+        },
+        {
+          "title": "Scientific Opinion on the safety of caffeine",
+          "source": "EFSA Journal, 2015",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4102"
         }
       ],
       "last_updated": "2026-05-23"
@@ -266,75 +295,75 @@
     "ja": {
       "title": "GLP-1薬を飲み始めてからコーヒーの効き方が変わった？カフェイン感受性の変化と上手な付き合い方",
       "meta_description": "GLP-1受容体作動薬は胃排出を遅らせ、カフェインの吸収パターンを変化させます。コーヒーが以前より強く感じる理由と、安全な摂取量の調整方法を解説します。",
-      "tldr": "GLP-1薬は胃排出を30〜50%遅らせるため、カフェインの吸収がゆっくりになり、効果が長く続きます。コーヒー習慣の見直し方をご紹介します。",
-      "body_md": "## いつもの3杯目が急にキツくなった理由\n\nセマグルチドを始めて3週間、佐藤さん（仮名）は不思議な変化に気づきました。毎朝2杯のコーヒーを飲む習慣は変えていないのに、夕方まで動悸が止まらない。午後3時になっても心臓がドキドキする。夜は眠れない。コーヒーの銘柄も淹れ方も変えていないのに、です。\n\n実は、薬がカフェインの代謝の仕方を変えていたのです。\n\nこれは珍しいことではありません。薬理学的に説明できる現象なのです。\n\n## 誰も教えてくれなかった「胃の動きが遅くなる」という副作用\n\nGLP-1受容体作動薬は、胃排出（胃の内容物が小腸に送られる速度）を遅らせることで効果を発揮します。これが食欲抑制や血糖コントロールに役立つわけですが、同時にカフェインの吸収動態も大きく変えてしまいます。\n\n通常、カフェインはコーヒーを飲んでから15〜45分で血中に到達します。血中濃度のピークは30〜60分後。その後、約5時間の半減期で代謝されていきます。\n\nところがGLP-1薬を服用していると、このタイムラインが引き延ばされます。2024年にClinical Pharmacokineticsに掲載された研究によると、胃排出が30〜50%遅延すると、カフェインを含む経口摂取物質の吸収曲線が大きく変化することがわかっています。急激に上昇してゆるやかに下降するパターンではなく、なだらかで長く続く曲線になるのです。最初の効きは弱く感じますが、その分長く体内に残ります。\n\n佐藤さんの午後の動悸は、まさにこれが原因でした。朝のコーヒーが以前のスケジュールでは体から抜けきらなくなっていたのです。\n\n## 吸収曲線の変化：体の中で何が起きているのか\n\n2つのグラフを思い浮かべてください。1つ目は通常のカフェイン吸収：急な上昇、45分でピーク、5〜6時間かけてなめらかに下降。2つ目は胃排出が遅延した場合：ゆるやかな上昇、ピークではなくプラトー（横ばい）、7〜9時間続く長い尾。\n\n2025年のJournal of Caffeine Researchに掲載された研究では、この現象を直接検証しています。GLP-1作動薬を服用している被験者では、カフェインの血中濃度ピークが通常の30〜60分後ではなく、90〜120分後に現れました。曲線下面積（総カフェイン曝露量）はほぼ同じでしたが、分布パターンが劇的に変化していたのです。\n\nこれが問題になる理由はいくつかあります。朝、コーヒーの「効き目」をすぐに感じにくくなります。1杯目が弱く感じて、もう1杯追加してしまうかもしれません。すると2時間後に2杯分が同時に効いてきます。そして、その合計カフェインが夜遅くまで体内に残り続けるのです。\n\n## 影響を強く感じる人とそうでない人の違い\n\n遺伝的な要因も関係しています。CYP1A2という酵素が、肝臓でカフェインの約95%を代謝しています。この酵素の働きが速い「高速代謝型」の人は、吸収タイミングに関わらずカフェインを素早く分解できます。一方、「低速代謝型」の人は、吸収時間が延びることで、もともと長い代謝時間がさらに延長されてしまいます。\n\nある研究では、低速CYP1A2代謝型でGLP-1薬を服用している人のカフェイン半減期が、実質8〜10時間に達することが示されました。朝7時のエスプレッソが、深夜0時になっても測定可能なレベルで残っているということです。\n\n薬の用量も影響します。GLP-1薬の用量が高いほど、胃排出遅延の効果は顕著になります。維持量のセマグルチド（週2.4mg）を服用している人は、初期用量（週0.25mg）の人より強い影響を感じる可能性が高いでしょう。\n\nそしてコーヒーの種類も無関係ではありません。コールドブリュー濃縮液は240mlあたり約200mgのカフェインを含みます。通常のドリップコーヒーは95mg程度。変化した吸収システムに入るカフェインの絶対量が、影響の大きさを左右するのです。\n\n## 実際に効果のある調整方法\n\n解決策は必ずしもコーヒーをやめることではありません。再調整することです。\n\nまず、GLP-1治療開始後の最初の1ヶ月間は、通常の摂取量を30〜40%減らしてみましょう。普段3杯飲んでいるなら2杯に。2杯なら1杯半に。体が新しいカフェイン反応パターンを示すまで、様子を見てください。\n\nタイミングの調整も大きな効果があります。最後のカフェイン摂取を早い時間に移しましょう。以前は午後2時にコーヒーを飲んでも眠れていたなら、正午をカットオフタイムにしてみてください。人によっては、正常な睡眠のために午前10時以降のカフェイン摂取を控える必要があるかもしれません。\n\n遅い時間の飲み物は、カフェイン含有量の少ないものに切り替えることを検討してください。緑茶は1杯あたり25〜50mg程度で、コーヒーの95mgより少なめです。習慣や軽い覚醒効果は維持しながら、長時間の刺激を避けられます。\n\n摂取を分散させるのも有効です。1杯を一度に飲むより、半分ずつを2時間空けて飲む方が、より穏やかな曲線になります。総カフェイン量は同じでも、吸収のダイナミクスが異なるのです。\n\n## 水分補給の問題も見逃せない\n\nカフェインには軽い利尿作用があります。GLP-1薬は食欲全般を抑制するため、喉の渇きのシグナルも弱くなる人がいます。これに胃排出遅延が加わると、脱水リスクが高まります。\n\n脱水状態はカフェインの悪影響（頭痛、動悸、不安感）を悪化させます。また、カフェイン代謝も遅くなり、すでに延長された曝露時間がさらに長くなってしまいます。\n\nカフェイン飲料とは別に、水分摂取量を記録しましょう。1日あたり少なくとも2リットルのノンカフェイン飲料を目標に。喉の渇きのシグナルが当てにならなくなるため、スマホのリマインダーを設定している人もいます。\n\n## 医療機関に相談すべきタイミング\n\nほとんどのカフェイン感受性の上昇は、上記の調整で対処できます。ただし、以下の症状がある場合は専門家に相談してください。\n\n数分以上続く動悸。胸の不快感や圧迫感。日常生活に支障をきたすレベルの不安感。カフェインを減らしても2週間以上改善しない睡眠障害。カフェイン減量時の激しい頭痛。\n\n医師は、まずカフェインを一時的に完全にやめて基準値を確立し、その後徐々に再導入して新しい耐性の閾値を見つけることを提案するかもしれません。また、服用中の他の薬がGLP-1薬やカフェイン代謝と相互作用していないかも確認できます。\n\n## 体が適応するまでの期間\n\n体は順応していきます。GLP-1薬による胃排出遅延は、治療開始後2〜3ヶ月が最も顕著です。一部の研究では、時間の経過とともに部分的な適応が起こることが示唆されていますが、服薬中は完全に元に戻ることはありません。\n\nセマグルチドを1年以上服用している人の多くは、カフェイン感受性は服薬前より高いままだが、より予測可能で管理しやすくなったと報告しています。最初の数ヶ月の混乱が落ち着き、新しい「普通」が確立されるのです。\n\nこの期間は簡単な記録をつけると役立ちます。カフェイン摂取の時間、量、症状をメモしましょう。2〜3週間でパターンが見えてきて、個人に合った調整の指針になります。\n\n## 新しい「自分の適量」を見つける\n\n佐藤さんは最終的に、朝6時半に濃いめのコーヒー1杯、10時に緑茶というパターンに落ち着きました。正午以降はカフェインなし。動悸は消え、睡眠も正常に戻りました。コーヒーをやめる必要はなかったのです。体が今は違うスケジュールでカフェインを処理していることを理解すればよかったのです。\n\nGLP-1薬とカフェインの関係は、ほとんどの人にとって危険なものではありません。ただ「違う」だけです。そして「違う」には、注意を払い、調整し、自分に合う方法を見つけるまで試行錯誤する姿勢が必要です。\n\n朝のコーヒー習慣は、この薬とも共存できます。ただ、少し進化させる必要があるかもしれません。",
+      "tldr": "GLP-1薬は特に治療初期に胃排出を遅らせるため、カフェインの効き始めが遅くなり、長引く可能性があります。コーヒー習慣の見直し方を解説します。",
+      "body_md": "## いつもの3杯目が急にキツくなった理由\n\nセマグルチドやチルゼパチドを始めた人の中には、いつものコーヒーの感じ方が変わったと気づく人がいます。効き始めが遅く感じたり、逆に午後になってからそわそわしたり、眠りが浅くなったり。コーヒー自体は何も変わっていないのに、です。\n\nGLP-1薬を使っている人のカフェイン血中濃度を直接測った研究は、まだありません。ただ、これらの薬が胃に与える影響から、もっともらしい説明ができます。\n\n## 誰も教えてくれなかった「胃の動きが遅くなる」という副作用\n\nGLP-1受容体作動薬は、胃排出（胃の内容物が小腸に送られる速度）を遅らせることで効果を発揮します。これが食欲抑制や血糖コントロールに役立つわけですが、同時にカフェインの吸収動態も大きく変えてしまいます。\n\n通常、カフェインはコーヒーを飲んでから15〜45分で血中に到達します。血中濃度のピークは30〜60分後。その後、約5時間の半減期で代謝されていきます。\n\nGLP-1薬を服用していると、このタイムラインが引き延ばされる可能性があります。パラセタモール（アセトアミノフェン）の吸収を目安にした研究では、効果が最もはっきり出るのは食後1時間です。肥満のある成人30人を対象とした12週間のクロスオーバー試験では、セマグルチド1.0mgで食後1時間の吸収がプラセボより約27%少なかった一方、5時間全体の吸収量には差がありませんでした（Hjerpsted et al., 2018）。カフェインでは検証されていませんが、「立ち上がりは遅いが、総量は変わらない」という似たパターンは十分考えられます。\n\n## 吸収曲線の変化：体の中で何が起きているのか\n\n2つのグラフを思い浮かべてください。1つ目は通常のカフェイン吸収：比較的急な上昇、1時間以内にピーク、その後数時間かけてゆるやかに下降。2つ目は胃排出が遅くなった場合に予想される形：なだらかな上昇、低めで遅いピーク、長い裾野。コーヒーでこの変化がどれほどの大きさになるかは測定されておらず、体に入るカフェインの総量はおそらくほぼ同じで、変わるのはタイミングです。\n\nこれが問題になる場面はいくつかあります。朝、コーヒーの「効き目」をすぐに感じにくくなり、1杯目が弱く感じてもう1杯追加する。すると後になって両方の効果を感じることがあります。合計したカフェインは夕方まで残る可能性があります。\n\n## 影響を強く感じる人とそうでない人の違い\n\n遺伝的な要因も関係しています。CYP1A2という酵素が、肝臓でカフェインの約95%を代謝しています。この酵素の働きが速い「高速代謝型」の人は、吸収タイミングに関わらずカフェインを素早く分解できます。一方、「低速代謝型」の人は、吸収時間が延びることで、もともと長い代謝時間がさらに延長されてしまいます。\n\nカフェインの半減期は、遺伝、喫煙、妊娠、経口避妊薬、肝機能、一部の薬剤などによって、もともと人によって大きく異なります（Nehlig, 2018）。GLP-1薬がこのばらつきをさらに広げるかどうかは、直接研究されていません。\n\n薬の用量も影響する可能性があります。GLP-1薬は段階的に増量され、多くの人は増量の前後に胃腸の影響を最も強く感じます。維持量のセマグルチド（週2.4mg）を使用している人は、開始用量（週0.25mg）の人より変化を感じやすいかもしれません。\n\nそしてコーヒーの種類も無関係ではありません。コールドブリュー濃縮液は240mlあたり約200mgのカフェインを含みます。通常のドリップコーヒーは95mg程度。変化した吸収システムに入るカフェインの絶対量が、影響の大きさを左右するのです。\n\n## 実際に効果のある調整方法\n\n解決策は必ずしもコーヒーをやめることではありません。再調整することです。\n\nまず、GLP-1治療開始後の最初の1ヶ月間は、通常の摂取量を30〜40%減らしてみましょう。普段3杯飲んでいるなら2杯に。2杯なら1杯半に。体が新しいカフェイン反応パターンを示すまで、様子を見てください。\n\nタイミングの調整は役立ちます。最後のカフェイン摂取を早い時間に移しましょう。睡眠研究では、就寝6時間前に摂った400mgのカフェインでも睡眠が妨げられました（Drake et al., 2013）。睡眠が乱れてきたなら、正午か午後の早い時間を区切りにするのが現実的な出発点です。\n\n遅い時間の飲み物は、カフェイン含有量の少ないものに切り替えることを検討してください。緑茶は1杯あたり25〜50mg程度で、コーヒーの95mgより少なめです。習慣や軽い覚醒効果は維持しながら、長時間の刺激を避けられます。\n\n摂取を分散させるのも有効です。1杯を一度に飲むより、半分ずつを2時間空けて飲む方が、より穏やかな曲線になります。総カフェイン量は同じでも、吸収のダイナミクスが異なるのです。\n\n## 水分補給の問題も見逃せない\n\nカフェインには軽い利尿作用があります。GLP-1薬は食欲全般を抑制するため、喉の渇きのシグナルも弱くなる人がいます。これに胃排出遅延が加わると、脱水リスクが高まります。\n\n脱水状態は、カフェインの不快な作用（頭痛、動悸、不安感）を強く感じさせることがあります。\n\nカフェイン飲料とは別に、水分摂取量を記録しましょう。1日あたり少なくとも2リットルのノンカフェイン飲料を目標に。喉の渇きのシグナルが当てにならなくなるため、スマホのリマインダーを設定している人もいます。\n\n## 医療機関に相談すべきタイミング\n\nほとんどのカフェイン感受性の上昇は、上記の調整で対処できます。ただし、以下の症状がある場合は専門家に相談してください。\n\n数分以上続く動悸。胸の不快感や圧迫感。日常生活に支障をきたすレベルの不安感。カフェインを減らしても2週間以上改善しない睡眠障害。カフェイン減量時の激しい頭痛。\n\n医師は、まずカフェインを一時的に完全にやめて基準値を確立し、その後徐々に再導入して新しい耐性の閾値を見つけることを提案するかもしれません。また、服用中の他の薬がGLP-1薬やカフェイン代謝と相互作用していないかも確認できます。\n\n## 体が適応するまでの期間\n\n体は順応していきます。リラグルチド3.0mgのランダム化試験では、固形食の胃排出の遅れが5週目には約70分でしたが、16週目には約30分になりました（Halawi et al., 2017）。この効果は時間とともに部分的に弱まるものの、服薬中に完全になくなるわけではないことを示しています。\n\nこの期間は簡単な記録をつけると役立ちます。カフェイン摂取の時間、量、症状をメモしましょう。2〜3週間でパターンが見えてきて、個人に合った調整の指針になります。\n\n## 新しい「自分の適量」を見つける\n\n実際には、シンプルなパターンに落ち着く人が多いようです。朝早めにコーヒー1杯、必要なら午前中に緑茶のようなカフェインの少ない飲み物、正午以降はカフェインなし。目的はコーヒーをやめることではなく、今の体の処理の仕方に合わせることです。\n\nGLP-1薬とカフェインの関係は、ほとんどの人にとって危険なものではありません。ただ「違う」だけです。そして「違う」には、注意を払い、調整し、自分に合う方法を見つけるまで試行錯誤する姿勢が必要です。\n\n朝のコーヒー習慣は、この薬とも共存できます。ただ、少し進化させる必要があるかもしれません。",
       "key_stats": [
         {
-          "label": "GLP-1薬による胃排出遅延",
-          "value": "30〜50%",
-          "source": "Clinical Pharmacokinetics 2024"
+          "label": "セマグルチド1.0mgによる食後1時間の胃排出",
+          "value": "プラセボより約27%遅い（5時間全体では差なし）",
+          "source": "Hjerpsted et al., Diabetes Obes Metab 2018"
         },
         {
-          "label": "カフェイン血中濃度ピークまでの時間（変化後）",
-          "value": "90〜120分（通常は30〜60分）",
-          "source": "Journal of Caffeine Research 2025"
+          "label": "リラグルチド3.0mgによる固形食の胃排出遅延",
+          "value": "5週目 約70分 → 16週目 約30分",
+          "source": "Halawi et al., Lancet Gastroenterol Hepatol 2017"
         },
         {
-          "label": "低速代謝型でGLP-1服用時のカフェイン半減期",
-          "value": "8〜10時間",
-          "source": "Clinical Pharmacokinetics 2024"
-        },
-        {
-          "label": "推奨される初期カフェイン減量幅",
-          "value": "30〜40%",
-          "source": "臨床実践ガイドライン"
-        },
-        {
-          "label": "CYP1A2酵素によるカフェイン代謝の割合",
+          "label": "CYP1A2が代謝するカフェインの割合",
           "value": "約95%",
-          "source": "Journal of Caffeine Research 2025"
+          "source": "Nehlig, Pharmacol Rev 2018"
+        },
+        {
+          "label": "就寝6時間前のカフェイン（400mg）",
+          "value": "それでも睡眠を妨げた",
+          "source": "Drake et al., J Clin Sleep Med 2013"
+        },
+        {
+          "label": "健康な成人で安全とされる1日のカフェイン量",
+          "value": "400mgまで",
+          "source": "EFSA Journal 2015"
         }
       ],
       "comparison_table": {
-        "title": "カフェイン吸収の比較：通常時 vs GLP-1薬服用時",
+        "title": "カフェイン吸収：通常 vs GLP-1薬服用時に予想されるパターン",
         "headers": [
           "項目",
-          "通常の吸収",
-          "GLP-1薬服用時"
+          "通常",
+          "GLP-1薬服用時（予想）"
         ],
         "rows": [
           [
-            "効果を感じるまでの時間",
-            "15〜45分",
-            "45〜90分"
+            "効果を感じるまで",
+            "約15〜45分",
+            "遅くなる可能性"
           ],
           [
-            "血中濃度ピーク",
-            "30〜60分後",
-            "90〜120分後"
+            "血中濃度のピーク",
+            "約1時間以内",
+            "低く、遅くなる可能性"
           ],
           [
-            "吸収曲線の形状",
-            "急上昇→緩やかに下降",
-            "なだらかなプラトー→長い尾"
+            "吸収曲線の形",
+            "急上昇・ゆるやかに下降",
+            "より平らで長い"
           ],
           [
-            "実効持続時間",
-            "5〜6時間",
-            "7〜9時間"
+            "吸収されるカフェイン総量",
+            "全量",
+            "おそらくほぼ同じ"
           ],
           [
-            "最初に感じる強さ",
-            "強い、即効性あり",
-            "弱め、効き始めが遅い"
+            "最初の効き目の感じ方",
+            "すぐに効く",
+            "最初は弱く感じることも"
           ],
           [
             "夕方以降の影響",
-            "6時間後はほぼなし",
-            "8時間以上残る"
+            "量とタイミング次第",
+            "感じやすくなる可能性"
           ]
         ],
-        "caption": "Clinical Pharmacokinetics 2024およびJournal of Caffeine Research 2025の薬物動態データに基づく"
+        "caption": "GLP-1薬の胃排出研究（Hjerpsted 2018、Halawi 2017）に基づく予想パターンです。これらの薬を使用中のカフェイン濃度は直接測定されていません。"
       },
       "faq": [
         {
@@ -368,24 +397,39 @@
       ],
       "references": [
         {
-          "title": "Altered Absorption Kinetics of Oral Substances During GLP-1 Receptor Agonist Therapy",
-          "source": "Clinical Pharmacokinetics, 2024",
+          "title": "Semaglutide improves postprandial glucose and lipid metabolism, and delays first-hour gastric emptying in subjects with obesity",
+          "source": "Diabetes, Obesity and Metabolism, 2018",
+          "url": "https://doi.org/10.1111/dom.13120"
+        },
+        {
+          "title": "Effects of liraglutide on weight, satiation, and gastric functions in obesity: a randomised, placebo-controlled pilot trial",
+          "source": "The Lancet Gastroenterology & Hepatology, 2017",
+          "url": "https://doi.org/10.1016/S2468-1253(17)30285-6"
+        },
+        {
+          "title": "Pharmacokinetics and Clinical Implications of Semaglutide: A New Glucagon-Like Peptide (GLP)-1 Receptor Agonist",
+          "source": "Clinical Pharmacokinetics, 2018",
           "url": "https://doi.org/10.1007/s40262-018-0668-z"
         },
         {
-          "title": "Caffeine Pharmacokinetics in Patients with Delayed Gastric Emptying",
-          "source": "Journal of Caffeine Research, 2025",
-          "url": "https://doi.org/10.3390/pharmaceutics15020328"
+          "title": "A Comprehensive Review on the Pharmacokinetics and Drug−Drug Interactions of Approved GLP-1 Receptor Agonists and a Dual GLP-1/GIP Receptor Agonist",
+          "source": "Drug Design, Development and Therapy, 2025",
+          "url": "https://doi.org/10.2147/dddt.s506957"
         },
         {
-          "title": "CYP1A2 Genetic Polymorphisms and Caffeine Metabolism Variability",
-          "source": "Pharmacogenomics Journal, 2024",
-          "url": "https://doi.org/10.21203/rs.3.rs-3090935/v1"
+          "title": "Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption",
+          "source": "Pharmacological Reviews, 2018",
+          "url": "https://doi.org/10.1124/pr.117.014407"
         },
         {
-          "title": "Gastrointestinal Effects of Incretin-Based Therapies: Clinical Implications",
-          "source": "Diabetes Care, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42168641/"
+          "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+          "source": "Journal of Clinical Sleep Medicine, 2013",
+          "url": "https://doi.org/10.5664/jcsm.3170"
+        },
+        {
+          "title": "Scientific Opinion on the safety of caffeine",
+          "source": "EFSA Journal, 2015",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4102"
         }
       ],
       "last_updated": "2026-05-23"
@@ -393,75 +437,75 @@
     "zh-CN": {
       "title": "为什么用了GLP-1药物后，咖啡变得\"更猛\"了？咖啡因敏感度管理指南",
       "meta_description": "GLP-1药物会延缓胃排空，改变身体吸收咖啡因的方式。了解为什么咖啡感觉更强烈，以及如何安全调整摄入量。",
-      "tldr": "GLP-1药物让胃排空速度减慢30-50%，导致咖啡因吸收变慢但持续时间更长——这篇文章教你重新调整喝咖啡的习惯。",
-      "body_md": "## 以前喝三杯都没事，现在怎么不行了？\n\n小李开始用司美格鲁肽三周后，发现了一件怪事。平时早上喝两杯咖啡完全没问题，现在却心慌到下午，晚上翻来覆去睡不着。咖啡豆没换，冲泡方式也一样。变的是药物改变了身体代谢咖啡因的方式。\n\n这不是个例，这是药理学。\n\n## 没人告诉你的\"胃排空减速\"效应\n\nGLP-1受体激动剂的作用机制之一，就是延缓胃排空——也就是胃把食物送到小肠的速度变慢了。这对控制食欲和血糖很有帮助，但同时也彻底改变了咖啡因的吸收动力学，让很多人措手不及。\n\n正常情况下，咖啡因在喝下去后15-45分钟就会进入血液，30-60分钟左右达到血药浓度峰值，然后以大约5小时的半衰期被代谢掉。\n\n但在使用GLP-1药物期间，这个时间线被拉长了。2024年发表在《Clinical Pharmacokinetics》上的研究发现，胃排空延迟30-50%会显著改变口服物质（包括咖啡因）的吸收曲线。原本是快速上升、逐渐下降的曲线，现在变成了更平缓、更持久的曲线。咖啡因一开始不会那么快起效，但会在体内停留更久。\n\n这就解释了为什么小李下午会心慌——早上的咖啡没有按原来的节奏代谢掉。\n\n## 吸收曲线的变化：到底发生了什么\n\n想象两张图。第一张是正常的咖啡因吸收曲线：陡峭上升，45分钟达到明显峰值，然后在5-6小时内平稳下降。第二张是胃排空延迟后的曲线：上升坡度更缓，不是尖峰而是平台，尾部延长到7-9小时。\n\n2025年《Journal of Caffeine Research》的一项研究直接考察了这个现象。服用GLP-1激动剂的受试者，咖啡因血药浓度峰值出现在摄入后90-120分钟，而不是通常的30-60分钟。曲线下面积（也就是总咖啡因暴露量）差不多，但分布发生了巨大变化。\n\n这意味着什么？早上你可能觉得咖啡\"不够劲\"，于是又来一杯。结果两杯咖啡在两小时后同时发力，而且这些咖啡因会一直持续到晚上。\n\n## 为什么有些人反应特别明显\n\n基因是一个因素。CYP1A2酶负责代谢肝脏中约95%的咖啡因。有些人是快代谢者——不管吸收时间怎么变，他们都能快速清除咖啡因。而慢代谢者本身清除咖啡因就慢，再加上吸收时间延长，效果就叠加了。\n\n有研究发现，CYP1A2慢代谢者在服用GLP-1药物期间，咖啡因的有效半衰期可能接近8-10小时。早上7点的那杯浓缩咖啡，到午夜还能检测到影响。\n\n药物剂量也很重要。GLP-1药物剂量越高，胃排空延迟越明显。用维持剂量司美格鲁肽（每周2.4mg）的人，通常比刚开始滴定剂量（每周0.25mg）的人感受更强烈。\n\n咖啡本身的成分也不能忽视。冷萃浓缩咖啡每240毫升含约200mg咖啡因，普通滴滤咖啡是95mg。进入你改变后的吸收系统的绝对量，决定了效果的强度。\n\n## 真正有效的调整方法\n\n解决办法不一定是戒咖啡，而是重新校准。\n\n开始GLP-1治疗的第一个月，先把平时的咖啡摄入量减少30-40%。如果你平时喝三杯，试试两杯；如果是两杯，试试一杯半。给身体时间去展现新的咖啡因反应模式。\n\n调整喝咖啡的时间也很有帮助。把最后一杯含咖啡因饮料的时间提前。如果你以前下午2点喝咖啡也不影响睡眠，现在试试把截止时间改到中午。有些人发现必须在上午10点前停止摄入咖啡因才能正常入睡。\n\n考虑在下午改喝低咖啡因的饮品。绿茶每杯含25-50mg咖啡因，而咖啡是95mg。你仍然能保持喝东西的仪式感和一定的提神效果，但不会有那么长时间的刺激。\n\n分散摄入而不是集中摄入。两个半杯间隔两小时，比一次喝一整杯产生的曲线更容易控制。总咖啡因量一样，但吸收动力学不同。\n\n## 补水问题不能忽视\n\n咖啡因是温和的利尿剂。GLP-1药物会抑制食欲，有些人连口渴的信号也会变弱，导致喝水量减少。再加上胃排空延迟，脱水风险就增加了。\n\n脱水会加重咖啡因的负面作用——头痛、心悸、焦虑。它还会减慢咖啡因代谢，让本就延长的暴露时间更长。\n\n把喝水量和含咖啡因饮料分开记录。每天至少喝1900毫升（约64盎司）不含咖啡因的液体。有些人会设手机提醒，因为口渴信号变得不可靠了。\n\n## 什么情况下需要咨询医生\n\n大多数咖啡因敏感度增加的情况，通过上述调整都能解决。但某些症状需要专业指导。\n\n心悸持续超过几分钟。胸部不适或压迫感。焦虑影响到日常生活。减少咖啡因两周后睡眠问题仍未改善。减少咖啡因摄入时出现严重头痛。\n\n医生可能会建议暂时完全停止咖啡因，建立基线，然后逐渐恢复，找到你新的耐受阈值。他们还可以检查你正在服用的其他药物是否与GLP-1药物或咖啡因代谢有相互作用。\n\n## 适应期有多长\n\n身体会适应的。GLP-1药物引起的胃排空延迟在治疗的前2-3个月最明显。一些研究表明，随着时间推移会出现部分适应，但在用药期间这种效应不会完全消失。\n\n用司美格鲁肽一年的人通常反映，咖啡因敏感度虽然仍比用药前高，但变得更可预测、更容易管理了。最初几个月的混乱会逐渐稳定成新的常态。\n\n在这个阶段做个简单记录很有帮助。记下咖啡因摄入时间、量和任何症状。2-3周内就能发现规律，指导你做出个性化调整。\n\n## 找到你的新平衡\n\n小李最终的方案是：早上6:30一杯浓咖啡，上午10点一杯绿茶，中午后不再摄入咖啡因。心慌消失了，睡眠恢复正常。她不用戒掉咖啡——只需要明白身体现在按不同的时间表处理咖啡因。\n\nGLP-1药物和咖啡因之间的相互作用，对大多数人来说并不危险，只是不一样了。而\"不一样\"需要关注、调整，以及愿意尝试直到找到适合自己的方法。\n\n你的早晨咖啡仪式可以在这种药物治疗中保留下来，只是可能需要进化一下。",
+      "tldr": "GLP-1药物会减慢胃排空，尤其是在治疗初期，这可能让咖啡因起效变慢、持续更久——教你重新调整喝咖啡的习惯。",
+      "body_md": "## 以前喝三杯都没事，现在怎么不行了？\n\n有些人开始使用司美格鲁肽或替尔泊肽后，会发现平时的咖啡感觉不一样了——起效变慢，或者到了下午才觉得心慌、晚上睡不好。咖啡本身其实什么都没变。\n\n目前还没有研究直接测量过使用GLP-1药物的人体内的咖啡因浓度。但根据这类药物对胃的影响，可以给出一个合理的解释。\n\n## 没人告诉你的\"胃排空减速\"效应\n\nGLP-1受体激动剂的作用机制之一，就是延缓胃排空——也就是胃把食物送到小肠的速度变慢了。这对控制食欲和血糖很有帮助，但同时也彻底改变了咖啡因的吸收动力学，让很多人措手不及。\n\n正常情况下，咖啡因在喝下去后15-45分钟就会进入血液，30-60分钟左右达到血药浓度峰值，然后以大约5小时的半衰期被代谢掉。\n\n在使用GLP-1药物期间，这个时间线可能会被拉长。以对乙酰氨基酚（扑热息痛）吸收作为指标的研究显示，影响在餐后第一个小时最明显：一项针对30名肥胖成年人、为期12周的交叉试验中，司美格鲁肽1.0mg使餐后第一小时的吸收比安慰剂少约27%，而5小时内的总吸收量没有差异（Hjerpsted等，2018）。咖啡因还没有这样测试过，但类似的模式——起效变慢、总量不变——是合理的推测。\n\n## 吸收曲线的变化：到底发生了什么\n\n想象两张图。第一张是正常的咖啡因吸收曲线：较快上升，约1小时内达到峰值，然后在几个小时内逐渐下降。第二张是胃排空变慢时预期的曲线：上升更平缓，峰值更低更晚，尾巴更长。具体到咖啡，这种变化有多大还没有被测量过；进入体内的咖啡因总量可能差不多，改变的是时间分布。\n\n这可能带来几个影响。早上你可能觉得咖啡\"不够劲\"，于是又来一杯，结果之后两杯的效果一起出现。叠加的咖啡因可能一直持续到傍晚。\n\n## 为什么有些人反应特别明显\n\n基因是一个因素。CYP1A2酶负责代谢肝脏中约95%的咖啡因。有些人是快代谢者——不管吸收时间怎么变，他们都能快速清除咖啡因。而慢代谢者本身清除咖啡因就慢，再加上吸收时间延长，效果就叠加了。\n\n咖啡因的半衰期本来就因人而异，受基因、吸烟、怀孕、口服避孕药、肝功能和某些药物影响（Nehlig，2018）。GLP-1药物是否会进一步扩大这种差异，目前还没有直接研究。\n\n药物剂量也可能有影响。GLP-1药物是逐步加量的，很多人在加量前后最能感觉到肠胃方面的变化。用维持剂量司美格鲁肽（每周2.4mg）的人，可能比用起始剂量（每周0.25mg）的人感受更明显。\n\n咖啡本身的成分也不能忽视。冷萃浓缩咖啡每240毫升含约200mg咖啡因，普通滴滤咖啡是95mg。进入你改变后的吸收系统的绝对量，决定了效果的强度。\n\n## 真正有效的调整方法\n\n解决办法不一定是戒咖啡，而是重新校准。\n\n开始GLP-1治疗的第一个月，先把平时的咖啡摄入量减少30-40%。如果你平时喝三杯，试试两杯；如果是两杯，试试一杯半。给身体时间去展现新的咖啡因反应模式。\n\n调整喝咖啡的时间会有帮助。把最后一杯含咖啡因饮料的时间提前。一项睡眠研究发现，即使在睡前6小时摄入400mg咖啡因，仍然会干扰睡眠（Drake等，2013）。如果你的睡眠变差了，可以先把截止时间定在中午或下午早些时候。\n\n考虑在下午改喝低咖啡因的饮品。绿茶每杯含25-50mg咖啡因，而咖啡是95mg。你仍然能保持喝东西的仪式感和一定的提神效果，但不会有那么长时间的刺激。\n\n分散摄入而不是集中摄入。两个半杯间隔两小时，比一次喝一整杯产生的曲线更容易控制。总咖啡因量一样，但吸收动力学不同。\n\n## 补水问题不能忽视\n\n咖啡因是温和的利尿剂。GLP-1药物会抑制食欲，有些人连口渴的信号也会变弱，导致喝水量减少。再加上胃排空延迟，脱水风险就增加了。\n\n脱水可能让咖啡因的不适作用——头痛、心悸、焦虑——感觉更严重。\n\n把喝水量和含咖啡因饮料分开记录。每天至少喝1900毫升（约64盎司）不含咖啡因的液体。有些人会设手机提醒，因为口渴信号变得不可靠了。\n\n## 什么情况下需要咨询医生\n\n大多数咖啡因敏感度增加的情况，通过上述调整都能解决。但某些症状需要专业指导。\n\n心悸持续超过几分钟。胸部不适或压迫感。焦虑影响到日常生活。减少咖啡因两周后睡眠问题仍未改善。减少咖啡因摄入时出现严重头痛。\n\n医生可能会建议暂时完全停止咖啡因，建立基线，然后逐渐恢复，找到你新的耐受阈值。他们还可以检查你正在服用的其他药物是否与GLP-1药物或咖啡因代谢有相互作用。\n\n## 适应期有多长\n\n身体会适应的。一项利拉鲁肽3.0mg的随机试验中，固体餐的胃排空延迟在第5周约为70分钟，到第16周约为30分钟（Halawi等，2017）——说明这种效应会随时间部分减弱，但在持续用药期间不会完全消失。\n\n在这个阶段做个简单记录很有帮助。记下咖啡因摄入时间、量和任何症状。2-3周内就能发现规律，指导你做出个性化调整。\n\n## 找到你的新平衡\n\n实际上，很多人最后会形成一个简单的习惯：清晨一杯咖啡，需要的话上午再喝一杯绿茶这样咖啡因较低的饮品，中午以后不再摄入咖啡因。目标不是戒掉咖啡，而是让它适应你身体现在的处理方式。\n\nGLP-1药物和咖啡因之间的相互作用，对大多数人来说并不危险，只是不一样了。而\"不一样\"需要关注、调整，以及愿意尝试直到找到适合自己的方法。\n\n你的早晨咖啡仪式可以在这种药物治疗中保留下来，只是可能需要进化一下。",
       "key_stats": [
         {
-          "label": "GLP-1药物导致的胃排空延迟",
-          "value": "30-50%",
-          "source": "Clinical Pharmacokinetics 2024"
+          "label": "司美格鲁肽1.0mg对餐后第一小时胃排空的影响",
+          "value": "比安慰剂慢约27%（5小时总量无差异）",
+          "source": "Hjerpsted et al., Diabetes Obes Metab 2018"
         },
         {
-          "label": "咖啡因血药浓度峰值时间变化",
-          "value": "90-120分钟（正常为30-60分钟）",
-          "source": "Journal of Caffeine Research 2025"
+          "label": "利拉鲁肽3.0mg的固体餐胃排空延迟",
+          "value": "第5周约70分钟 → 第16周约30分钟",
+          "source": "Halawi et al., Lancet Gastroenterol Hepatol 2017"
         },
         {
-          "label": "慢代谢者用GLP-1时的咖啡因半衰期",
-          "value": "8-10小时",
-          "source": "Clinical Pharmacokinetics 2024"
-        },
-        {
-          "label": "建议的初始咖啡因减量幅度",
-          "value": "30-40%",
-          "source": "临床实践指南"
-        },
-        {
-          "label": "CYP1A2酶代谢咖啡因的比例",
+          "label": "由CYP1A2代谢的咖啡因比例",
           "value": "约95%",
-          "source": "Journal of Caffeine Research 2025"
+          "source": "Nehlig, Pharmacol Rev 2018"
+        },
+        {
+          "label": "睡前6小时摄入咖啡因（400mg）",
+          "value": "仍会干扰睡眠",
+          "source": "Drake et al., J Clin Sleep Med 2013"
+        },
+        {
+          "label": "健康成年人每日安全咖啡因摄入量",
+          "value": "最多400mg",
+          "source": "EFSA Journal 2015"
         }
       ],
       "comparison_table": {
-        "title": "咖啡因吸收对比：正常状态 vs. 使用GLP-1药物期间",
+        "title": "咖啡因吸收：一般情况 vs 使用GLP-1药物时的预期",
         "headers": [
           "参数",
-          "正常吸收",
-          "使用GLP-1药物期间"
+          "一般情况",
+          "使用GLP-1药物时（预期）"
         ],
         "rows": [
           [
-            "开始感受到效果的时间",
-            "15-45分钟",
-            "45-90分钟"
+            "感觉到效果的时间",
+            "约15-45分钟",
+            "可能更晚"
           ],
           [
-            "血药浓度峰值时间",
-            "30-60分钟",
-            "90-120分钟"
+            "血药浓度峰值",
+            "约1小时内",
+            "可能更低、更晚"
           ],
           [
             "吸收曲线形状",
             "快速上升，逐渐下降",
-            "平缓上升，平台期，尾部延长"
+            "更平缓、更长"
           ],
           [
-            "有效持续时间",
-            "5-6小时",
-            "7-9小时"
+            "吸收的咖啡因总量",
+            "全部",
+            "可能差不多"
           ],
           [
-            "初始感受强度",
-            "强烈，起效快",
-            "较弱，起效慢"
+            "最初感受到的强度",
+            "起效快",
+            "一开始可能感觉较弱"
           ],
           [
-            "下午/晚间影响",
-            "6小时后基本消退",
-            "8小时以上仍有明显影响"
+            "傍晚以后的影响",
+            "取决于剂量和时间",
+            "可能更明显"
           ]
         ],
-        "caption": "数据来源：Clinical Pharmacokinetics 2024 及 Journal of Caffeine Research 2025 药代动力学研究"
+        "caption": "根据GLP-1药物胃排空研究（Hjerpsted 2018；Halawi 2017）推测的模式。使用这类药物时的咖啡因浓度尚未被直接测量。"
       },
       "faq": [
         {
@@ -495,24 +539,39 @@
       ],
       "references": [
         {
-          "title": "Altered Absorption Kinetics of Oral Substances During GLP-1 Receptor Agonist Therapy",
-          "source": "Clinical Pharmacokinetics, 2024",
+          "title": "Semaglutide improves postprandial glucose and lipid metabolism, and delays first-hour gastric emptying in subjects with obesity",
+          "source": "Diabetes, Obesity and Metabolism, 2018",
+          "url": "https://doi.org/10.1111/dom.13120"
+        },
+        {
+          "title": "Effects of liraglutide on weight, satiation, and gastric functions in obesity: a randomised, placebo-controlled pilot trial",
+          "source": "The Lancet Gastroenterology & Hepatology, 2017",
+          "url": "https://doi.org/10.1016/S2468-1253(17)30285-6"
+        },
+        {
+          "title": "Pharmacokinetics and Clinical Implications of Semaglutide: A New Glucagon-Like Peptide (GLP)-1 Receptor Agonist",
+          "source": "Clinical Pharmacokinetics, 2018",
           "url": "https://doi.org/10.1007/s40262-018-0668-z"
         },
         {
-          "title": "Caffeine Pharmacokinetics in Patients with Delayed Gastric Emptying",
-          "source": "Journal of Caffeine Research, 2025",
-          "url": "https://doi.org/10.3390/pharmaceutics15020328"
+          "title": "A Comprehensive Review on the Pharmacokinetics and Drug−Drug Interactions of Approved GLP-1 Receptor Agonists and a Dual GLP-1/GIP Receptor Agonist",
+          "source": "Drug Design, Development and Therapy, 2025",
+          "url": "https://doi.org/10.2147/dddt.s506957"
         },
         {
-          "title": "CYP1A2 Genetic Polymorphisms and Caffeine Metabolism Variability",
-          "source": "Pharmacogenomics Journal, 2024",
-          "url": "https://doi.org/10.21203/rs.3.rs-3090935/v1"
+          "title": "Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption",
+          "source": "Pharmacological Reviews, 2018",
+          "url": "https://doi.org/10.1124/pr.117.014407"
         },
         {
-          "title": "Gastrointestinal Effects of Incretin-Based Therapies: Clinical Implications",
-          "source": "Diabetes Care, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42168641/"
+          "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+          "source": "Journal of Clinical Sleep Medicine, 2013",
+          "url": "https://doi.org/10.5664/jcsm.3170"
+        },
+        {
+          "title": "Scientific Opinion on the safety of caffeine",
+          "source": "EFSA Journal, 2015",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4102"
         }
       ],
       "last_updated": "2026-05-23"
@@ -520,75 +579,75 @@
     "zh-TW": {
       "title": "為什麼吃 GLP-1 藥物後咖啡變得超有感？咖啡因敏感度改變的應對指南",
       "meta_description": "GLP-1 藥物會延緩胃排空，改變身體吸收咖啡因的方式。了解為什麼咖啡效果變強，以及如何安全調整攝取量。",
-      "tldr": "GLP-1 藥物會讓胃排空延遲 30-50%，導致咖啡因吸收變慢但作用時間拉長——這篇教你重新調整喝咖啡的習慣。",
-      "body_md": "## 以前喝三杯都沒事，現在怎麼了？\n\n開始使用 semaglutide 三週後，Sarah 發現了奇怪的變化。她平常早上喝兩杯咖啡的習慣，現在卻讓她一路亢奮到晚餐。下午三點心跳加速，晚上睡眠品質大崩壞。咖啡品牌沒換、沖泡方式也一樣，是藥物改變了她身體代謝咖啡因的方式。\n\n這不是個案，這是藥理學。\n\n## 沒人告訴你的胃排空延遲效應\n\nGLP-1 受體促效劑的作用機制之一，就是延緩胃排空——也就是胃把內容物送到小腸的速度變慢。這有助於抑制食慾和控制血糖，但同時也徹底改變了咖啡因的吸收動力學，讓很多人措手不及。\n\n正常情況下，咖啡因在喝下後 15-45 分鐘就會進入血液，約 30-60 分鐘達到血中濃度高峰，然後以大約 5 小時的半衰期代謝掉。\n\n但使用 GLP-1 藥物後，這個時間軸會被拉長。2024 年發表在《Clinical Pharmacokinetics》的研究發現，胃排空延遲 30-50% 會顯著改變口服物質（包括咖啡因）的吸收曲線。原本應該是快速上升再逐漸下降的曲線，變成了更平緩、更持久的型態。咖啡因一開始的衝擊感沒那麼強，但會在體內停留更久。\n\n這就解釋了為什麼 Sarah 下午會開始焦躁不安——她早上喝的咖啡沒有按照原本的時程從體內清除。\n\n## 吸收曲線的變化：到底發生了什麼事\n\n想像兩張圖。第一張是正常的咖啡因吸收曲線：陡峭上升，45 分鐘左右達到明顯高峰，然後在 5-6 小時內平滑下降。第二張是胃排空延遲時的吸收曲線：坡度較緩，高峰變成平台期，尾端延長到 7-9 小時。\n\n2025 年《Journal of Caffeine Research》的研究直接探討了這個現象。服用 GLP-1 促效劑的受試者，咖啡因血中濃度高峰出現在攝取後 90-120 分鐘，而非一般的 30-60 分鐘。曲線下面積（也就是總咖啡因暴露量）差不多，但分布型態完全不同。\n\n這很重要，原因有幾個。早上喝咖啡可能不會像以前那麼快「有感」，你可能因為覺得第一杯沒效而再來一杯。結果兩杯咖啡在兩小時後同時發威，而且這些咖啡因會一路作用到晚上。\n\n## 為什麼有些人特別有感\n\n基因是關鍵因素之一。肝臟中的 CYP1A2 酵素負責代謝約 95% 的咖啡因。有些人是快速代謝者——不管吸收時間怎麼變，他們都能快速清除咖啡因。但慢速代謝者就不一樣了，對他們來說，延長的吸收時間會讓原本就緩慢的清除過程雪上加霜。\n\n有研究發現，服用 GLP-1 藥物的慢速 CYP1A2 代謝者，咖啡因的有效半衰期可能接近 8-10 小時。早上七點喝的濃縮咖啡，到午夜還測得到殘留效應。\n\n藥物劑量也有影響。GLP-1 藥物劑量越高，胃排空延遲越明顯。使用維持劑量 semaglutide（每週 2.4mg）的人，感受通常比初期滴定劑量（每週 0.25mg）的人更強烈。\n\n咖啡本身的成分也不能忽略。冷萃濃縮咖啡每 240 毫升含約 200mg 咖啡因，一般手沖咖啡則是 95mg。進入你改變後吸收系統的絕對量，決定了效果的強度。\n\n## 真正有效的實用調整方法\n\n解決方案不一定是戒掉咖啡，而是重新校準。\n\n開始 GLP-1 治療的第一個月，先把平常的攝取量減少 30-40%。如果你平常喝三杯，試試兩杯；如果是兩杯的人，試試一杯半。給身體時間展現新的咖啡因反應模式。\n\n調整時間也很有幫助。把最後一杯含咖啡因飲料的時間提前。如果你以前下午兩點喝咖啡睡眠都沒問題，試試把截止時間改到中午。有些人發現必須在早上十點前停止攝取咖啡因才能正常入睡。\n\n考慮在較晚的時段改喝低咖啡因飲品。綠茶每杯含 25-50mg 咖啡因，相較於咖啡的 95mg 少很多。你仍然保有喝飲料的儀式感和一些提神效果，但不會有持續太久的刺激作用。\n\n分散攝取而非集中飲用。間隔兩小時喝兩個半杯，比一次喝一整杯產生更好控制的曲線。總咖啡因量相同，但吸收動態不同。\n\n## 水分補充的複雜性\n\n咖啡因是輕度利尿劑。GLP-1 藥物會全面抑制食慾，有些人連口渴的訊號都會變弱，導致液體攝取減少。這些因素加上胃排空延遲，脫水風險就會增加。\n\n脫水會加重咖啡因的負面效應——頭痛、心悸、焦慮。它也會減緩咖啡因代謝，讓原本就延長的暴露時間更長。\n\n把喝水量和含咖啡因飲料分開記錄。每天至少攝取約 1900 毫升的無咖啡因液體。有些人會設手機提醒，因為口渴的感覺變得不可靠。\n\n## 什麼時候該跟醫療人員討論\n\n大多數咖啡因敏感度增加的情況，透過上述調整都能處理。但某些症狀需要專業諮詢。\n\n心悸持續超過幾分鐘、胸悶或胸口有壓迫感、焦慮嚴重到影響日常生活、減少咖啡因兩週後睡眠問題仍未改善、減少咖啡因攝取時出現嚴重頭痛。\n\n你的醫療人員可能會建議暫時完全停止咖啡因以建立基準線，然後逐步重新引入，找出你新的耐受閾值。他們也可以檢查你正在服用的其他藥物是否會與 GLP-1 藥物或咖啡因代謝產生交互作用。\n\n## 適應期時程\n\n身體會調適。GLP-1 藥物造成的胃排空延遲，在治療的前 2-3 個月最為明顯。有些研究顯示，隨著時間會出現部分適應，但在用藥期間這個效應不會完全恢復正常。\n\n使用 semaglutide 一年的人常反映，咖啡因敏感度雖然仍比用藥前高，但變得更可預測、更好管理。最初幾個月的混亂會逐漸穩定成新的常態。\n\n在這段期間做簡單的記錄會很有幫助。記下咖啡因攝取的時間、份量和任何症狀。2-3 週內就會浮現規律，幫助你做出個人化的調整。\n\n## 找到你的新常態\n\nSarah 最後調整成早上 6:30 喝一杯濃咖啡，10 點喝綠茶，中午後不再攝取咖啡因。她的焦躁消失了，睡眠也恢復正常。她不需要放棄咖啡——只需要理解她的身體現在用不同的時程在處理咖啡因。\n\nGLP-1 藥物和咖啡因之間的關係，對大多數人來說並不危險，只是不一樣了。而「不一樣」需要關注、調整，以及願意嘗試直到找出適合自己的方式。\n\n你的早晨儀式可以在這個藥物治療中存活下來，只是可能需要進化一下。",
+      "tldr": "GLP-1 藥物會減慢胃排空，尤其在治療初期，可能讓咖啡因起效變慢、持續更久——教你重新調整喝咖啡的習慣。",
+      "body_md": "## 以前喝三杯都沒事，現在怎麼了？\n\n有些人開始使用司美格魯肽或替爾泊肽後，會發現平常的咖啡感覺不太一樣——起效變慢，或是到了下午才覺得心悸、晚上睡不好。咖啡本身其實什麼都沒變。\n\n目前還沒有研究直接測量過使用 GLP-1 藥物者體內的咖啡因濃度。不過根據這類藥物對胃的影響，可以提出一個合理的解釋。\n\n## 沒人告訴你的胃排空延遲效應\n\nGLP-1 受體促效劑的作用機制之一，就是延緩胃排空——也就是胃把內容物送到小腸的速度變慢。這有助於抑制食慾和控制血糖，但同時也徹底改變了咖啡因的吸收動力學，讓很多人措手不及。\n\n正常情況下，咖啡因在喝下後 15-45 分鐘就會進入血液，約 30-60 分鐘達到血中濃度高峰，然後以大約 5 小時的半衰期代謝掉。\n\n使用 GLP-1 藥物時，這個時間線可能會被拉長。以乙醯胺酚（普拿疼）吸收作為指標的研究顯示，影響在餐後第一個小時最明顯：一項針對 30 位肥胖成人、為期 12 週的交叉試驗中，司美格魯肽 1.0mg 讓餐後第一小時的吸收比安慰劑少約 27%，而 5 小時內的總吸收量沒有差異（Hjerpsted 等，2018）。咖啡因尚未以這種方式測試，但類似的模式——起效變慢、總量不變——是合理的推測。\n\n## 吸收曲線的變化：到底發生了什麼事\n\n想像兩張圖。第一張是正常的咖啡因吸收曲線：較快上升，約 1 小時內達到高峰，接著在幾個小時內逐漸下降。第二張是胃排空變慢時預期的曲線：上升較平緩，高峰更低、更晚，尾巴更長。具體到咖啡，這種變化有多大尚未被測量；進入體內的咖啡因總量大概差不多，改變的是時間分布。\n\n這可能帶來幾個影響。早上你可能覺得咖啡「不夠力」，於是又多喝一杯，結果之後兩杯的效果一起出現。疊加的咖啡因可能一路持續到傍晚。\n\n## 為什麼有些人特別有感\n\n基因是關鍵因素之一。肝臟中的 CYP1A2 酵素負責代謝約 95% 的咖啡因。有些人是快速代謝者——不管吸收時間怎麼變，他們都能快速清除咖啡因。但慢速代謝者就不一樣了，對他們來說，延長的吸收時間會讓原本就緩慢的清除過程雪上加霜。\n\n咖啡因的半衰期本來就因人而異，會受到基因、吸菸、懷孕、口服避孕藥、肝功能和某些藥物影響（Nehlig，2018）。GLP-1 藥物是否會進一步擴大這種差異，目前還沒有直接研究。\n\n藥物劑量也可能有影響。GLP-1 藥物是逐步加量的，很多人在加量前後最能感受到腸胃方面的變化。使用維持劑量司美格魯肽（每週 2.4mg）的人，可能比使用起始劑量（每週 0.25mg）的人感受更明顯。\n\n咖啡本身的成分也不能忽略。冷萃濃縮咖啡每 240 毫升含約 200mg 咖啡因，一般手沖咖啡則是 95mg。進入你改變後吸收系統的絕對量，決定了效果的強度。\n\n## 真正有效的實用調整方法\n\n解決方案不一定是戒掉咖啡，而是重新校準。\n\n開始 GLP-1 治療的第一個月，先把平常的攝取量減少 30-40%。如果你平常喝三杯，試試兩杯；如果是兩杯的人，試試一杯半。給身體時間展現新的咖啡因反應模式。\n\n調整喝咖啡的時間會有幫助。把最後一杯含咖啡因飲料的時間提前。一項睡眠研究發現，即使在睡前 6 小時攝取 400mg 咖啡因，仍會干擾睡眠（Drake 等，2013）。如果你的睡眠變差了，可以先把截止時間定在中午或下午早一點。\n\n考慮在較晚的時段改喝低咖啡因飲品。綠茶每杯含 25-50mg 咖啡因，相較於咖啡的 95mg 少很多。你仍然保有喝飲料的儀式感和一些提神效果，但不會有持續太久的刺激作用。\n\n分散攝取而非集中飲用。間隔兩小時喝兩個半杯，比一次喝一整杯產生更好控制的曲線。總咖啡因量相同，但吸收動態不同。\n\n## 水分補充的複雜性\n\n咖啡因是輕度利尿劑。GLP-1 藥物會全面抑制食慾，有些人連口渴的訊號都會變弱，導致液體攝取減少。這些因素加上胃排空延遲，脫水風險就會增加。\n\n脫水可能讓咖啡因的不適作用——頭痛、心悸、焦慮——感覺更嚴重。\n\n把喝水量和含咖啡因飲料分開記錄。每天至少攝取約 1900 毫升的無咖啡因液體。有些人會設手機提醒，因為口渴的感覺變得不可靠。\n\n## 什麼時候該跟醫療人員討論\n\n大多數咖啡因敏感度增加的情況，透過上述調整都能處理。但某些症狀需要專業諮詢。\n\n心悸持續超過幾分鐘、胸悶或胸口有壓迫感、焦慮嚴重到影響日常生活、減少咖啡因兩週後睡眠問題仍未改善、減少咖啡因攝取時出現嚴重頭痛。\n\n你的醫療人員可能會建議暫時完全停止咖啡因以建立基準線，然後逐步重新引入，找出你新的耐受閾值。他們也可以檢查你正在服用的其他藥物是否會與 GLP-1 藥物或咖啡因代謝產生交互作用。\n\n## 適應期時程\n\n身體會適應的。一項利拉魯肽 3.0mg 的隨機試驗中，固體餐的胃排空延遲在第 5 週約為 70 分鐘，到第 16 週約為 30 分鐘（Halawi 等，2017）——顯示這種效應會隨時間部分減弱，但在持續用藥期間不會完全消失。\n\n在這段期間做簡單的記錄會很有幫助。記下咖啡因攝取的時間、份量和任何症狀。2-3 週內就會浮現規律，幫助你做出個人化的調整。\n\n## 找到你的新常態\n\n實際上，很多人最後會形成簡單的習慣：清晨一杯咖啡，需要的話上午再喝一杯綠茶之類咖啡因較低的飲品，中午以後不再攝取咖啡因。目標不是戒掉咖啡，而是讓它配合你身體現在的處理方式。\n\nGLP-1 藥物和咖啡因之間的關係，對大多數人來說並不危險，只是不一樣了。而「不一樣」需要關注、調整，以及願意嘗試直到找出適合自己的方式。\n\n你的早晨儀式可以在這個藥物治療中存活下來，只是可能需要進化一下。",
       "key_stats": [
         {
-          "label": "GLP-1 藥物造成的胃排空延遲",
-          "value": "30-50%",
-          "source": "Clinical Pharmacokinetics 2024"
+          "label": "司美格魯肽 1.0mg 對餐後第一小時胃排空的影響",
+          "value": "比安慰劑慢約 27%（5 小時總量無差異）",
+          "source": "Hjerpsted et al., Diabetes Obes Metab 2018"
         },
         {
-          "label": "咖啡因血中濃度高峰時間延後",
-          "value": "90-120 分鐘（正常為 30-60 分鐘）",
-          "source": "Journal of Caffeine Research 2025"
+          "label": "利拉魯肽 3.0mg 的固體餐胃排空延遲",
+          "value": "第 5 週約 70 分鐘 → 第 16 週約 30 分鐘",
+          "source": "Halawi et al., Lancet Gastroenterol Hepatol 2017"
         },
         {
-          "label": "慢速代謝者服用 GLP-1 時的咖啡因半衰期",
-          "value": "8-10 小時",
-          "source": "Clinical Pharmacokinetics 2024"
-        },
-        {
-          "label": "建議初期減少的咖啡因攝取量",
-          "value": "30-40%",
-          "source": "臨床實務指引"
-        },
-        {
-          "label": "CYP1A2 酵素代謝咖啡因的比例",
+          "label": "由 CYP1A2 代謝的咖啡因比例",
           "value": "約 95%",
-          "source": "Journal of Caffeine Research 2025"
+          "source": "Nehlig, Pharmacol Rev 2018"
+        },
+        {
+          "label": "睡前 6 小時攝取咖啡因（400mg）",
+          "value": "仍會干擾睡眠",
+          "source": "Drake et al., J Clin Sleep Med 2013"
+        },
+        {
+          "label": "健康成人每日安全咖啡因攝取量",
+          "value": "最多 400mg",
+          "source": "EFSA Journal 2015"
         }
       ],
       "comparison_table": {
-        "title": "咖啡因吸收比較：正常 vs. 服用 GLP-1 藥物",
+        "title": "咖啡因吸收：一般情況 vs 使用 GLP-1 藥物時的預期",
         "headers": [
           "參數",
-          "正常吸收",
-          "服用 GLP-1 藥物時"
+          "一般情況",
+          "使用 GLP-1 藥物時（預期）"
         ],
         "rows": [
           [
-            "開始感受到效果的時間",
-            "15-45 分鐘",
-            "45-90 分鐘"
+            "感覺到效果的時間",
+            "約 15-45 分鐘",
+            "可能更晚"
           ],
           [
             "血中濃度高峰",
-            "30-60 分鐘",
-            "90-120 分鐘"
+            "約 1 小時內",
+            "可能更低、更晚"
           ],
           [
             "吸收曲線形狀",
-            "急速上升，逐漸下降",
-            "較平緩的平台期，尾端延長"
+            "快速上升、逐漸下降",
+            "更平緩、更長"
           ],
           [
-            "有效作用時間",
-            "5-6 小時",
-            "7-9 小時"
+            "吸收的咖啡因總量",
+            "全部",
+            "可能差不多"
           ],
           [
-            "初期感受強度",
-            "強烈，快速起效",
-            "較弱，延遲起效"
+            "最初感受到的強度",
+            "起效快",
+            "一開始可能感覺較弱"
           ],
           [
-            "傍晚後的殘留效應",
-            "6 小時後幾乎消失",
-            "8 小時以上仍有感"
+            "傍晚以後的影響",
+            "取決於劑量和時間",
+            "可能更明顯"
           ]
         ],
-        "caption": "資料來源：Clinical Pharmacokinetics 2024 及 Journal of Caffeine Research 2025 的藥物動力學數據"
+        "caption": "根據 GLP-1 藥物胃排空研究（Hjerpsted 2018；Halawi 2017）推估的模式。使用這類藥物時的咖啡因濃度尚未被直接測量。"
       },
       "faq": [
         {
@@ -622,24 +681,39 @@
       ],
       "references": [
         {
-          "title": "Altered Absorption Kinetics of Oral Substances During GLP-1 Receptor Agonist Therapy",
-          "source": "Clinical Pharmacokinetics, 2024",
+          "title": "Semaglutide improves postprandial glucose and lipid metabolism, and delays first-hour gastric emptying in subjects with obesity",
+          "source": "Diabetes, Obesity and Metabolism, 2018",
+          "url": "https://doi.org/10.1111/dom.13120"
+        },
+        {
+          "title": "Effects of liraglutide on weight, satiation, and gastric functions in obesity: a randomised, placebo-controlled pilot trial",
+          "source": "The Lancet Gastroenterology & Hepatology, 2017",
+          "url": "https://doi.org/10.1016/S2468-1253(17)30285-6"
+        },
+        {
+          "title": "Pharmacokinetics and Clinical Implications of Semaglutide: A New Glucagon-Like Peptide (GLP)-1 Receptor Agonist",
+          "source": "Clinical Pharmacokinetics, 2018",
           "url": "https://doi.org/10.1007/s40262-018-0668-z"
         },
         {
-          "title": "Caffeine Pharmacokinetics in Patients with Delayed Gastric Emptying",
-          "source": "Journal of Caffeine Research, 2025",
-          "url": "https://doi.org/10.3390/pharmaceutics15020328"
+          "title": "A Comprehensive Review on the Pharmacokinetics and Drug−Drug Interactions of Approved GLP-1 Receptor Agonists and a Dual GLP-1/GIP Receptor Agonist",
+          "source": "Drug Design, Development and Therapy, 2025",
+          "url": "https://doi.org/10.2147/dddt.s506957"
         },
         {
-          "title": "CYP1A2 Genetic Polymorphisms and Caffeine Metabolism Variability",
-          "source": "Pharmacogenomics Journal, 2024",
-          "url": "https://doi.org/10.21203/rs.3.rs-3090935/v1"
+          "title": "Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption",
+          "source": "Pharmacological Reviews, 2018",
+          "url": "https://doi.org/10.1124/pr.117.014407"
         },
         {
-          "title": "Gastrointestinal Effects of Incretin-Based Therapies: Clinical Implications",
-          "source": "Diabetes Care, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42168641/"
+          "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+          "source": "Journal of Clinical Sleep Medicine, 2013",
+          "url": "https://doi.org/10.5664/jcsm.3170"
+        },
+        {
+          "title": "Scientific Opinion on the safety of caffeine",
+          "source": "EFSA Journal, 2015",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4102"
         }
       ],
       "last_updated": "2026-05-23"
@@ -647,75 +721,75 @@
     "es": {
       "title": "Por qué tu café mañanero pega diferente con medicamentos GLP-1: Cómo manejar la sensibilidad a la cafeína",
       "meta_description": "Los medicamentos GLP-1 ralentizan el vaciado gástrico, cambiando cómo tu cuerpo absorbe la cafeína. Descubre por qué el café te afecta más y cómo ajustar tu consumo.",
-      "tldr": "Los fármacos GLP-1 retrasan el vaciado del estómago un 30-50%, haciendo que la cafeína se absorba más lento pero dure más tiempo. Aquí te explicamos cómo recalibrar tu rutina de café.",
-      "body_md": "## Ese tercer café antes no te afectaba. ¿Qué cambió?\n\nTres semanas después de empezar con semaglutida, Laura notó algo extraño. Su rutina habitual de dos cafés por la mañana ahora la dejaba nerviosa hasta la cena. Corazón acelerado a las 3 de la tarde. Sueño destrozado. No había cambiado de marca de café ni de método de preparación. El medicamento había cambiado cómo su cuerpo procesa la cafeína.\n\nEsto no es raro. Es farmacología.\n\n## El frenazo gástrico del que nadie te advirtió\n\nLos agonistas del receptor GLP-1 funcionan en parte retrasando el vaciado gástrico—la velocidad con la que tu estómago pasa su contenido al intestino delgado. Esto ayuda a suprimir el apetito y controlar el azúcar en sangre. Pero también transforma la cinética de absorción de la cafeína de formas que pillan a la gente desprevenida.\n\nNormalmente, la cafeína llega a tu torrente sanguíneo entre 15 y 45 minutos después de tomar café. La concentración máxima en plasma ocurre alrededor de los 30-60 minutos. Tu cuerpo luego la metaboliza con una vida media de aproximadamente 5 horas.\n\nCon medicamentos GLP-1, ese cronograma se estira. Una investigación publicada en Clinical Pharmacokinetics en 2024 encontró que los retrasos en el vaciado gástrico del 30-50% alteran significativamente las curvas de absorción de sustancias consumidas oralmente, incluyendo la cafeína. En lugar de un pico pronunciado y un descenso gradual, obtienes una curva más plana y prolongada. La cafeína no pega tan fuerte al principio, pero permanece más tiempo.\n\nEsto explica por qué Laura tenía nervios por la tarde. Su café de la mañana no se eliminaba de su sistema según el horario de antes.\n\n## El cambio en la curva de absorción: Qué pasa realmente\n\nImagina dos gráficos. El primero muestra la absorción normal de cafeína: subida pronunciada, pico claro a los 45 minutos, descenso suave durante 5-6 horas. El segundo muestra la absorción con vaciado gástrico retrasado: pendiente más suave, meseta en lugar de pico, cola extendida que dura 7-9 horas.\n\nUn estudio de 2025 en el Journal of Caffeine Research examinó este fenómeno directamente. Los participantes que tomaban agonistas GLP-1 mostraron concentraciones máximas de cafeína entre 90-120 minutos después del consumo, en lugar de los típicos 30-60 minutos. El área total bajo la curva—es decir, la exposición total a la cafeína—se mantuvo similar, pero la distribución cambió drásticamente.\n\nEsto importa por varias razones. Puede que no sientas que tu café \"funciona\" tan rápido por la mañana. Puede que añadas otra taza porque la primera parece floja. Entonces ambas tazas pegan simultáneamente dos horas después. Y la cafeína combinada permanece hasta bien entrada la noche.\n\n## Por qué algunas personas lo notan más que otras\n\nLa genética juega un papel. La enzima CYP1A2 metaboliza aproximadamente el 95% de la cafeína en tu hígado. Algunas personas son metabolizadores rápidos—eliminan la cafeína rápidamente independientemente del tiempo de absorción. Otras son metabolizadores lentos, y para ellas, la ventana de absorción extendida se suma a un proceso de eliminación ya de por sí largo.\n\nUn estudio encontró que los metabolizadores lentos de CYP1A2 que tomaban medicamentos GLP-1 experimentaban vidas medias efectivas de cafeína de 8-10 horas. Ese espresso de las 7 de la mañana todavía tiene efectos medibles a medianoche.\n\nLa dosis también importa. Dosis más altas de medicamentos GLP-1 producen retrasos más pronunciados en el vaciado gástrico. Alguien con dosis de mantenimiento de semaglutida (2,4mg semanales) probablemente notará efectos más fuertes que alguien en dosis de titulación inicial (0,25mg semanales).\n\nY la composición del café no es irrelevante. Un cold brew concentrado contiene aproximadamente 200mg de cafeína por 240ml. Un café de filtro estándar tiene 95mg. La cantidad absoluta que entra en tu sistema de absorción alterado determina la magnitud de los efectos.\n\n## Ajustes prácticos que realmente funcionan\n\nLa solución no es necesariamente dejar el café. Es recalibrar.\n\nEmpieza reduciendo tu consumo habitual un 30-40% durante el primer mes de tratamiento GLP-1. Si normalmente tomas tres tazas, prueba con dos. Si eres de dos tazas, prueba con una y media. Dale tiempo a tu cuerpo para revelar su nuevo patrón de respuesta a la cafeína.\n\nLos ajustes de horario ayudan significativamente. Adelanta tu última bebida con cafeína. Si antes tomabas café a las 2 de la tarde sin problemas de sueño, prueba a hacer del mediodía tu hora límite. Algunas personas descubren que necesitan dejar la cafeína a las 10 de la mañana para dormir con normalidad.\n\nConsidera cambiar a opciones con menos cafeína para el consumo más tardío. El té verde contiene 25-50mg por taza frente a los 95mg del café. Sigues teniendo el ritual y algo de beneficio de alerta sin la estimulación prolongada.\n\nReparte tu consumo en lugar de concentrarlo. Dos medias tazas separadas por dos horas producen una curva más manejable que una taza completa. La cafeína total es idéntica, pero la dinámica de absorción difiere.\n\n## La complicación de la hidratación\n\nLa cafeína es un diurético suave. Los medicamentos GLP-1 pueden reducir la ingesta de líquidos porque suprimen el apetito de forma amplia, incluyendo las señales de sed en algunas personas. Combina estos factores con el vaciado gástrico retrasado y el riesgo de deshidratación aumenta.\n\nLa deshidratación empeora los efectos negativos de la cafeína—dolores de cabeza, palpitaciones, ansiedad. También ralentiza el metabolismo de la cafeína, extendiendo la ventana de exposición ya extendida.\n\nControla tu ingesta de agua por separado de las bebidas con cafeína. Apunta a al menos 2 litros de líquidos sin cafeína al día. Algunas personas ponen recordatorios en el móvil porque las señales de sed se vuelven poco fiables.\n\n## Cuándo hablar con tu médico\n\nLa mayoría de los aumentos de sensibilidad a la cafeína son manejables con los ajustes anteriores. Pero ciertos síntomas justifican una consulta profesional.\n\nPalpitaciones cardíacas que persisten más de unos minutos. Molestia o presión en el pecho. Ansiedad que interfiere con el funcionamiento diario. Alteración del sueño que no mejora después de dos semanas de reducción de cafeína. Dolores de cabeza severos al reducir la cafeína.\n\nTu médico podría sugerir una eliminación temporal de cafeína para establecer una línea base, luego una reintroducción gradual para encontrar tu nuevo umbral de tolerancia. También puede verificar si otros medicamentos que tomas interactúan con el fármaco GLP-1 o con el metabolismo de la cafeína.\n\n## El cronograma de adaptación\n\nLos cuerpos se adaptan. El retraso en el vaciado gástrico de los medicamentos GLP-1 es más pronunciado en los primeros 2-3 meses de tratamiento. Algunas investigaciones sugieren que ocurre una adaptación parcial con el tiempo, aunque el efecto nunca se normaliza completamente mientras se está con la medicación.\n\nLas personas que llevan un año con semaglutida a menudo reportan que la sensibilidad a la cafeína, aunque sigue elevada comparada con la línea base pre-medicación, se vuelve más predecible y manejable. El caos inicial de los primeros meses se asienta en una nueva normalidad.\n\nLlevar un registro simple ayuda durante este período. Anota los horarios de consumo de cafeína, las cantidades y cualquier síntoma. Los patrones emergen en 2-3 semanas y guían los ajustes personalizados.\n\n## Encontrando tu nueva normalidad\n\nLaura finalmente se quedó con un café fuerte a las 6:30 de la mañana y té verde a las 10. Nada de cafeína después del mediodía. Sus nervios desaparecieron. El sueño volvió a la normalidad. No tuvo que renunciar al café—solo tuvo que entender que su cuerpo ahora lo procesa con un horario diferente.\n\nLa relación entre los medicamentos GLP-1 y la cafeína no es peligrosa para la mayoría de las personas. Simplemente es diferente. Y diferente requiere atención, ajustes y disposición para experimentar hasta encontrar lo que funciona.\n\nTu ritual matutino puede sobrevivir a esta medicación. Solo puede que necesite evolucionar.",
+      "tldr": "Los fármacos GLP-1 ralentizan el vaciamiento gástrico, sobre todo al inicio del tratamiento, lo que puede hacer que la cafeína tarde más en actuar y dure más: así puedes reajustar tu rutina de café.",
+      "body_md": "## Ese tercer café antes no te afectaba. ¿Qué cambió?\n\nAlgunas personas que empiezan con semaglutida o tirzepatida notan que su café de siempre se siente distinto: tarda más en hacer efecto, o se nota más tarde en el día, con nerviosismo o peor sueño. El café en sí no ha cambiado nada.\n\nTodavía ningún estudio ha medido directamente los niveles de cafeína en personas que toman medicamentos GLP-1. Pero lo que sabemos sobre cómo estos fármacos afectan al estómago ofrece una explicación plausible.\n\n## El frenazo gástrico del que nadie te advirtió\n\nLos agonistas del receptor GLP-1 funcionan en parte retrasando el vaciado gástrico—la velocidad con la que tu estómago pasa su contenido al intestino delgado. Esto ayuda a suprimir el apetito y controlar el azúcar en sangre. Pero también transforma la cinética de absorción de la cafeína de formas que pillan a la gente desprevenida.\n\nNormalmente, la cafeína llega a tu torrente sanguíneo entre 15 y 45 minutos después de tomar café. La concentración máxima en plasma ocurre alrededor de los 30-60 minutos. Tu cuerpo luego la metaboliza con una vida media de aproximadamente 5 horas.\n\nCon los medicamentos GLP-1, esa línea de tiempo puede alargarse. Los estudios que usan la absorción de paracetamol como marcador muestran el efecto más claro en la primera hora tras una comida: en un ensayo cruzado de 12 semanas con 30 adultos con obesidad, la semaglutida 1,0 mg redujo la absorción de la primera hora en un 27% aproximadamente frente al placebo, mientras que la absorción total en cinco horas no fue diferente (Hjerpsted et al., 2018). La cafeína no se ha estudiado de esta forma, pero un patrón similar —un inicio más lento sin menos cafeína total— es plausible.\n\n## El cambio en la curva de absorción: Qué pasa realmente\n\nImagina dos gráficos. El primero muestra la absorción normal de cafeína: una subida bastante rápida, un pico en aproximadamente una hora y luego un descenso gradual durante varias horas. El segundo muestra lo que cabría esperar con un vaciamiento gástrico más lento: una pendiente más suave, un pico más bajo y más tardío, y una cola más larga. No se ha medido cuán grande es ese cambio con el café en concreto, y la exposición total a la cafeína probablemente se mantiene similar: lo que cambia es el momento.\n\nEsto puede importar de varias formas. Puede que no sientas que el café \"funciona\" tan rápido por la mañana y tomes una segunda taza porque la primera parece floja, y luego sientas ambas más tarde. Esa cafeína combinada puede durar hasta la tarde-noche.\n\n## Por qué algunas personas lo notan más que otras\n\nLa genética juega un papel. La enzima CYP1A2 metaboliza aproximadamente el 95% de la cafeína en tu hígado. Algunas personas son metabolizadores rápidos—eliminan la cafeína rápidamente independientemente del tiempo de absorción. Otras son metabolizadores lentos, y para ellas, la ventana de absorción extendida se suma a un proceso de eliminación ya de por sí largo.\n\nLa vida media de la cafeína ya varía mucho de una persona a otra según la genética, el tabaquismo, el embarazo, los anticonceptivos orales, la función hepática y algunos medicamentos (Nehlig, 2018). No se ha estudiado directamente si los medicamentos GLP-1 añaden más variación.\n\nLa dosis también puede influir. Las dosis de GLP-1 se aumentan de forma escalonada, y muchas personas notan más los efectos digestivos alrededor de cada aumento. Alguien con dosis de mantenimiento de semaglutida (2,4 mg semanales) puede notar más cambios que alguien con la dosis inicial (0,25 mg semanales).\n\nY la composición del café no es irrelevante. Un cold brew concentrado contiene aproximadamente 200mg de cafeína por 240ml. Un café de filtro estándar tiene 95mg. La cantidad absoluta que entra en tu sistema de absorción alterado determina la magnitud de los efectos.\n\n## Ajustes prácticos que realmente funcionan\n\nLa solución no es necesariamente dejar el café. Es recalibrar.\n\nEmpieza reduciendo tu consumo habitual un 30-40% durante el primer mes de tratamiento GLP-1. Si normalmente tomas tres tazas, prueba con dos. Si eres de dos tazas, prueba con una y media. Dale tiempo a tu cuerpo para revelar su nuevo patrón de respuesta a la cafeína.\n\nAjustar el horario ayuda. Adelanta tu última bebida con cafeína. En un estudio del sueño, 400 mg de cafeína tomados incluso 6 horas antes de acostarse seguían alterando el sueño (Drake et al., 2013), así que poner el límite al mediodía o a primera hora de la tarde es un punto de partida razonable si tu sueño ha empeorado.\n\nConsidera cambiar a opciones con menos cafeína para el consumo más tardío. El té verde contiene 25-50mg por taza frente a los 95mg del café. Sigues teniendo el ritual y algo de beneficio de alerta sin la estimulación prolongada.\n\nReparte tu consumo en lugar de concentrarlo. Dos medias tazas separadas por dos horas producen una curva más manejable que una taza completa. La cafeína total es idéntica, pero la dinámica de absorción difiere.\n\n## La complicación de la hidratación\n\nLa cafeína es un diurético suave. Los medicamentos GLP-1 pueden reducir la ingesta de líquidos porque suprimen el apetito de forma amplia, incluyendo las señales de sed en algunas personas. Combina estos factores con el vaciado gástrico retrasado y el riesgo de deshidratación aumenta.\n\nLa deshidratación puede hacer que los efectos desagradables de la cafeína —dolores de cabeza, palpitaciones, ansiedad— se sientan peor.\n\nControla tu ingesta de agua por separado de las bebidas con cafeína. Apunta a al menos 2 litros de líquidos sin cafeína al día. Algunas personas ponen recordatorios en el móvil porque las señales de sed se vuelven poco fiables.\n\n## Cuándo hablar con tu médico\n\nLa mayoría de los aumentos de sensibilidad a la cafeína son manejables con los ajustes anteriores. Pero ciertos síntomas justifican una consulta profesional.\n\nPalpitaciones cardíacas que persisten más de unos minutos. Molestia o presión en el pecho. Ansiedad que interfiere con el funcionamiento diario. Alteración del sueño que no mejora después de dos semanas de reducción de cafeína. Dolores de cabeza severos al reducir la cafeína.\n\nTu médico podría sugerir una eliminación temporal de cafeína para establecer una línea base, luego una reintroducción gradual para encontrar tu nuevo umbral de tolerancia. También puede verificar si otros medicamentos que tomas interactúan con el fármaco GLP-1 o con el metabolismo de la cafeína.\n\n## El cronograma de adaptación\n\nEl cuerpo se adapta. En un ensayo aleatorizado con liraglutida 3,0 mg, el retraso en el vaciamiento de una comida sólida fue de unos 70 minutos en la semana 5, pero de unos 30 minutos en la semana 16 (Halawi et al., 2017): una señal de que este efecto se atenúa en parte con el tiempo, aunque no desaparece mientras sigues con el medicamento.\n\nLlevar un registro simple ayuda durante este período. Anota los horarios de consumo de cafeína, las cantidades y cualquier síntoma. Los patrones emergen en 2-3 semanas y guían los ajustes personalizados.\n\n## Encontrando tu nueva normalidad\n\nEn la práctica, muchas personas acaban con una rutina sencilla: un café temprano por la mañana, una bebida con menos cafeína como el té verde a media mañana si hace falta, y nada de cafeína después del mediodía. El objetivo no es dejar el café, sino adaptarlo a cómo tu cuerpo lo procesa ahora.\n\nLa relación entre los medicamentos GLP-1 y la cafeína no es peligrosa para la mayoría de las personas. Simplemente es diferente. Y diferente requiere atención, ajustes y disposición para experimentar hasta encontrar lo que funciona.\n\nTu ritual matutino puede sobrevivir a esta medicación. Solo puede que necesite evolucionar.",
       "key_stats": [
         {
-          "label": "Retraso del vaciado gástrico con medicamentos GLP-1",
-          "value": "30-50%",
-          "source": "Clinical Pharmacokinetics 2024"
+          "label": "Vaciamiento gástrico en la primera hora con semaglutida 1,0 mg",
+          "value": "~27% más lento vs placebo (sin diferencia en 5 h)",
+          "source": "Hjerpsted et al., Diabetes Obes Metab 2018"
         },
         {
-          "label": "Tiempo desplazado hasta la concentración máxima de cafeína",
-          "value": "90-120 minutos (vs. normal 30-60 min)",
-          "source": "Journal of Caffeine Research 2025"
+          "label": "Retraso del vaciamiento de comida sólida con liraglutida 3,0 mg",
+          "value": "~70 min en la semana 5 → ~30 min en la semana 16",
+          "source": "Halawi et al., Lancet Gastroenterol Hepatol 2017"
         },
         {
-          "label": "Vida media de la cafeína en metabolizadores lentos con GLP-1",
-          "value": "8-10 horas",
-          "source": "Clinical Pharmacokinetics 2024"
-        },
-        {
-          "label": "Reducción inicial de cafeína recomendada",
-          "value": "30-40%",
-          "source": "Guías de práctica clínica"
-        },
-        {
-          "label": "Porcentaje de metabolismo de cafeína por enzima CYP1A2",
+          "label": "Proporción de cafeína metabolizada por CYP1A2",
           "value": "~95%",
-          "source": "Journal of Caffeine Research 2025"
+          "source": "Nehlig, Pharmacol Rev 2018"
+        },
+        {
+          "label": "Cafeína (400 mg) 6 horas antes de dormir",
+          "value": "Aún alteró el sueño",
+          "source": "Drake et al., J Clin Sleep Med 2013"
+        },
+        {
+          "label": "Cafeína diaria considerada segura en adultos sanos",
+          "value": "Hasta 400 mg",
+          "source": "EFSA Journal 2015"
         }
       ],
       "comparison_table": {
-        "title": "Absorción de cafeína: Normal vs. Con medicación GLP-1",
+        "title": "Absorción de cafeína: típica vs. esperada con medicamentos GLP-1",
         "headers": [
           "Parámetro",
-          "Absorción normal",
-          "Con medicación GLP-1"
+          "Típica",
+          "Esperada con GLP-1"
         ],
         "rows": [
           [
-            "Tiempo para sentir efectos",
-            "15-45 minutos",
-            "45-90 minutos"
+            "Tiempo hasta notar efectos",
+            "~15-45 minutos",
+            "Posiblemente más tarde"
           ],
           [
-            "Concentración máxima en sangre",
-            "30-60 minutos",
-            "90-120 minutos"
+            "Pico de concentración en sangre",
+            "En ~1 hora",
+            "Posiblemente más bajo y tardío"
           ],
           [
             "Forma de la curva de absorción",
-            "Pico pronunciado, descenso gradual",
-            "Meseta más plana, cola extendida"
+            "Subida rápida, descenso gradual",
+            "Más plana y prolongada"
           ],
           [
-            "Duración efectiva",
-            "5-6 horas",
-            "7-9 horas"
+            "Cafeína total absorbida",
+            "Dosis completa",
+            "Probablemente similar"
           ],
           [
             "Intensidad inicial percibida",
-            "Fuerte, inicio rápido",
-            "Más suave, inicio retrasado"
+            "Efecto rápido",
+            "Puede parecer más débil al principio"
           ],
           [
-            "Efectos a última hora del día",
-            "Mínimos después de 6 horas",
-            "Notables durante 8+ horas"
+            "Efectos al final del día",
+            "Según dosis y horario",
+            "Pueden notarse más"
           ]
         ],
-        "caption": "Basado en datos farmacocinéticos de Clinical Pharmacokinetics 2024 y Journal of Caffeine Research 2025"
+        "caption": "Patrón esperado según estudios de vaciamiento gástrico con medicamentos GLP-1 (Hjerpsted 2018; Halawi 2017). Los niveles de cafeína con estos fármacos no se han medido directamente."
       },
       "faq": [
         {
@@ -749,24 +823,39 @@
       ],
       "references": [
         {
-          "title": "Altered Absorption Kinetics of Oral Substances During GLP-1 Receptor Agonist Therapy",
-          "source": "Clinical Pharmacokinetics, 2024",
+          "title": "Semaglutide improves postprandial glucose and lipid metabolism, and delays first-hour gastric emptying in subjects with obesity",
+          "source": "Diabetes, Obesity and Metabolism, 2018",
+          "url": "https://doi.org/10.1111/dom.13120"
+        },
+        {
+          "title": "Effects of liraglutide on weight, satiation, and gastric functions in obesity: a randomised, placebo-controlled pilot trial",
+          "source": "The Lancet Gastroenterology & Hepatology, 2017",
+          "url": "https://doi.org/10.1016/S2468-1253(17)30285-6"
+        },
+        {
+          "title": "Pharmacokinetics and Clinical Implications of Semaglutide: A New Glucagon-Like Peptide (GLP)-1 Receptor Agonist",
+          "source": "Clinical Pharmacokinetics, 2018",
           "url": "https://doi.org/10.1007/s40262-018-0668-z"
         },
         {
-          "title": "Caffeine Pharmacokinetics in Patients with Delayed Gastric Emptying",
-          "source": "Journal of Caffeine Research, 2025",
-          "url": "https://doi.org/10.3390/pharmaceutics15020328"
+          "title": "A Comprehensive Review on the Pharmacokinetics and Drug−Drug Interactions of Approved GLP-1 Receptor Agonists and a Dual GLP-1/GIP Receptor Agonist",
+          "source": "Drug Design, Development and Therapy, 2025",
+          "url": "https://doi.org/10.2147/dddt.s506957"
         },
         {
-          "title": "CYP1A2 Genetic Polymorphisms and Caffeine Metabolism Variability",
-          "source": "Pharmacogenomics Journal, 2024",
-          "url": "https://doi.org/10.21203/rs.3.rs-3090935/v1"
+          "title": "Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption",
+          "source": "Pharmacological Reviews, 2018",
+          "url": "https://doi.org/10.1124/pr.117.014407"
         },
         {
-          "title": "Gastrointestinal Effects of Incretin-Based Therapies: Clinical Implications",
-          "source": "Diabetes Care, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42168641/"
+          "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+          "source": "Journal of Clinical Sleep Medicine, 2013",
+          "url": "https://doi.org/10.5664/jcsm.3170"
+        },
+        {
+          "title": "Scientific Opinion on the safety of caffeine",
+          "source": "EFSA Journal, 2015",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4102"
         }
       ],
       "last_updated": "2026-05-23"
@@ -774,75 +863,75 @@
     "pt-BR": {
       "title": "Por Que Seu Café da Manhã Age Diferente com Medicamentos GLP-1: Gerenciando a Sensibilidade à Cafeína",
       "meta_description": "Medicamentos GLP-1 retardam o esvaziamento gástrico, alterando como seu corpo absorve cafeína. Entenda por que o café parece mais forte e como ajustar seu consumo com segurança.",
-      "tldr": "Medicamentos GLP-1 atrasam o esvaziamento do estômago em 30-50%, fazendo a cafeína ser absorvida mais lentamente, mas durar mais tempo—veja como recalibrar sua rotina de café.",
-      "body_md": "## Aquela Terceira Xícara Costumava Ser Tranquila. O Que Mudou?\n\nTrês semanas após iniciar semaglutida, Sarah notou algo estranho. Sua rotina habitual de duas xícaras pela manhã agora a deixava agitada até o jantar. Coração acelerado às 15h. Sono arruinado. Ela não havia mudado a marca do café nem o método de preparo. O medicamento havia mudado como seu corpo processa a cafeína.\n\nIsso não é raro. É farmacologia.\n\n## A Desaceleração do Estômago Que Ninguém Te Avisou\n\nAgonistas do receptor GLP-1 funcionam em parte retardando o esvaziamento gástrico—a velocidade com que seu estômago passa o conteúdo para o intestino delgado. Isso ajuda na supressão do apetite e controle da glicemia. Mas também transforma a cinética de absorção da cafeína de maneiras que pegam as pessoas desprevenidas.\n\nNormalmente, a cafeína atinge sua corrente sanguínea dentro de 15-45 minutos após beber café. A concentração plasmática máxima acontece por volta de 30-60 minutos. Seu corpo então a metaboliza com uma meia-vida de aproximadamente 5 horas.\n\nCom medicamentos GLP-1, essa linha do tempo se estende. Pesquisa publicada no Clinical Pharmacokinetics em 2024 descobriu que atrasos no esvaziamento gástrico de 30-50% alteram significativamente as curvas de absorção de substâncias consumidas oralmente, incluindo cafeína. Em vez de um pico acentuado e declínio gradual, você obtém uma curva mais plana e prolongada. A cafeína não atinge tão forte inicialmente, mas persiste.\n\nIsso explica por que a agitação vespertina de Sarah apareceu. Seu café da manhã não estava saindo do sistema no cronograma antigo.\n\n## A Mudança na Curva de Absorção: O Que Realmente Acontece\n\nImagine dois gráficos. O primeiro mostra absorção normal de cafeína: subida íngreme, pico claro aos 45 minutos, descida suave ao longo de 5-6 horas. O segundo mostra absorção com esvaziamento gástrico retardado: inclinação mais suave, platô em vez de pico, cauda estendida durando 7-9 horas.\n\nUm estudo de 2025 no Journal of Caffeine Research examinou esse fenômeno diretamente. Participantes tomando agonistas GLP-1 apresentaram concentrações máximas de cafeína ocorrendo 90-120 minutos após o consumo, em vez dos típicos 30-60 minutos. A área total sob a curva—significando exposição total à cafeína—permaneceu similar, mas a distribuição mudou dramaticamente.\n\nIsso importa por várias razões. Você pode não sentir seu café \"funcionando\" tão rapidamente pela manhã. Pode adicionar outra xícara porque a primeira parece fraca. Então ambas as xícaras atingem simultaneamente duas horas depois. E a cafeína combinada permanece até a noite.\n\n## Por Que Algumas Pessoas Notam Isso Mais Que Outras\n\nA genética desempenha um papel. A enzima CYP1A2 metaboliza cerca de 95% da cafeína no seu fígado. Algumas pessoas são metabolizadoras rápidas—eliminam cafeína rapidamente independentemente do tempo de absorção. Outras são metabolizadoras lentas, e para elas, a janela de absorção estendida agrava um processo de eliminação já demorado.\n\nUm estudo descobriu que metabolizadores lentos de CYP1A2 tomando medicamentos GLP-1 experimentaram meias-vidas efetivas de cafeína aproximando-se de 8-10 horas. Aquele espresso da manhã às 7h ainda tem efeitos mensuráveis à meia-noite.\n\nA dosagem também importa. Doses mais altas de medicamentos GLP-1 produzem atrasos mais pronunciados no esvaziamento gástrico. Alguém em dose de manutenção de semaglutida (2,4mg semanais) provavelmente notará efeitos mais fortes que alguém em doses iniciais de titulação (0,25mg semanais).\n\nE a composição do café não é irrelevante. Um concentrado de cold brew contém aproximadamente 200mg de cafeína por 240ml. Um café coado padrão tem 95mg. A quantidade absoluta entrando em seu sistema de absorção alterado determina a magnitude dos efeitos.\n\n## Ajustes Práticos Que Realmente Funcionam\n\nA solução não é necessariamente parar de tomar café. É recalibrar.\n\nComece reduzindo seu consumo habitual em 30-40% durante o primeiro mês de tratamento com GLP-1. Se você normalmente bebe três xícaras, tente duas. Se você toma duas xícaras, tente uma e meia. Dê ao seu corpo tempo para revelar seu novo padrão de resposta à cafeína.\n\nAjustes de horário ajudam significativamente. Antecipe sua última bebida com cafeína. Se você costumava tomar café às 14h sem problemas de sono, tente fazer do meio-dia seu limite. Algumas pessoas descobrem que precisam parar o consumo de cafeína às 10h para dormir normalmente.\n\nConsidere mudar para opções com menos cafeína para consumo posterior. Chá verde contém 25-50mg por xícara versus 95mg do café. Você ainda mantém o ritual e algum benefício de alerta sem a estimulação prolongada.\n\nDistribua seu consumo em vez de concentrá-lo. Duas meias xícaras separadas por duas horas produzem uma curva mais gerenciável que uma xícara cheia. A cafeína total é idêntica, mas a dinâmica de absorção difere.\n\n## A Complicação da Hidratação\n\nCafeína é um diurético leve. Medicamentos GLP-1 podem reduzir a ingestão de líquidos porque suprimem o apetite amplamente, incluindo sinais de sede em algumas pessoas. Combine esses fatores com esvaziamento gástrico retardado, e o risco de desidratação aumenta.\n\nDesidratação piora os efeitos negativos da cafeína—dores de cabeça, palpitações cardíacas, ansiedade. Também retarda o metabolismo da cafeína, estendendo a janela de exposição já estendida.\n\nAcompanhe sua ingestão de água separadamente de bebidas com cafeína. Busque pelo menos 2 litros de líquidos não cafeinados diariamente. Algumas pessoas configuram lembretes no celular porque os sinais de sede se tornam não confiáveis.\n\n## Quando Conversar com Seu Profissional de Saúde\n\nA maioria dos aumentos de sensibilidade à cafeína são gerenciáveis através dos ajustes acima. Mas certos sintomas justificam discussão profissional.\n\nPalpitações cardíacas que persistem mais que alguns minutos. Desconforto ou pressão no peito. Ansiedade que interfere no funcionamento diário. Perturbação do sono que não melhora após duas semanas de redução de cafeína. Dores de cabeça severas ao reduzir o consumo de cafeína.\n\nSeu médico pode sugerir eliminação temporária de cafeína para estabelecer uma linha de base, depois reintrodução gradual para encontrar seu novo limiar de tolerância. Eles também podem verificar se outros medicamentos que você está tomando interagem com o medicamento GLP-1 ou com o metabolismo da cafeína.\n\n## A Linha do Tempo de Adaptação\n\nOs corpos se adaptam. O atraso no esvaziamento gástrico dos medicamentos GLP-1 é mais pronunciado nos primeiros 2-3 meses de tratamento. Algumas pesquisas sugerem que adaptação parcial ocorre ao longo do tempo, embora o efeito nunca normalize completamente enquanto em medicação.\n\nPessoas que estão em semaglutida há um ano frequentemente relatam que a sensibilidade à cafeína, embora ainda elevada comparada à linha de base pré-medicação, se torna mais previsível e gerenciável. O caos inicial dos primeiros meses se acomoda em um novo normal.\n\nManter um registro simples ajuda durante esse período. Anote horários de consumo de cafeína, quantidades e quaisquer sintomas. Padrões emergem dentro de 2-3 semanas que guiam ajustes personalizados.\n\n## Encontrando Seu Novo Normal\n\nSarah eventualmente se estabeleceu em um café forte às 6h30 e chá verde às 10h. Nada de cafeína após o meio-dia. Sua agitação desapareceu. O sono voltou ao normal. Ela não teve que desistir do café—apenas teve que entender que seu corpo agora o processa em um cronograma diferente.\n\nA relação entre medicamentos GLP-1 e cafeína não é perigosa para a maioria das pessoas. É apenas diferente. E diferente requer atenção, ajuste e disposição para experimentar até encontrar o que funciona.\n\nSeu ritual matinal pode sobreviver a esse medicamento. Só pode precisar evoluir.",
+      "tldr": "Os remédios GLP-1 retardam o esvaziamento do estômago, principalmente no início do tratamento, o que pode fazer a cafeína agir mais tarde e durar mais — veja como reajustar sua rotina de café.",
+      "body_md": "## Aquela Terceira Xícara Costumava Ser Tranquila. O Que Mudou?\n\nAlgumas pessoas que começam a usar semaglutida ou tirzepatida percebem que o café de sempre parece diferente: demora mais para fazer efeito, ou se faz notar mais tarde no dia, com tremores ou sono pior. Nada no café em si mudou.\n\nNenhum estudo mediu ainda os níveis de cafeína diretamente em pessoas que usam medicamentos GLP-1. Mas o que sabemos sobre como esses remédios afetam o estômago oferece uma explicação plausível.\n\n## A Desaceleração do Estômago Que Ninguém Te Avisou\n\nAgonistas do receptor GLP-1 funcionam em parte retardando o esvaziamento gástrico—a velocidade com que seu estômago passa o conteúdo para o intestino delgado. Isso ajuda na supressão do apetite e controle da glicemia. Mas também transforma a cinética de absorção da cafeína de maneiras que pegam as pessoas desprevenidas.\n\nNormalmente, a cafeína atinge sua corrente sanguínea dentro de 15-45 minutos após beber café. A concentração plasmática máxima acontece por volta de 30-60 minutos. Seu corpo então a metaboliza com uma meia-vida de aproximadamente 5 horas.\n\nCom medicamentos GLP-1, essa linha do tempo pode se alongar. Estudos que usam a absorção de paracetamol como marcador mostram o efeito mais claro na primeira hora após uma refeição: em um ensaio cruzado de 12 semanas com 30 adultos com obesidade, a semaglutida 1,0 mg reduziu a absorção da primeira hora em cerca de 27% em comparação com placebo, enquanto a absorção total em cinco horas não foi diferente (Hjerpsted et al., 2018). A cafeína não foi testada dessa forma, mas um padrão semelhante — início mais lento sem menos cafeína no total — é plausível.\n\n## A Mudança na Curva de Absorção: O Que Realmente Acontece\n\nImagine dois gráficos. O primeiro mostra a absorção normal de cafeína: subida relativamente rápida, pico em cerca de uma hora e depois queda gradual ao longo de várias horas. O segundo mostra o que se esperaria com o esvaziamento gástrico mais lento: inclinação mais suave, pico mais baixo e mais tardio, e uma cauda mais longa. O tamanho dessa mudança com o café especificamente não foi medido, e a exposição total à cafeína provavelmente continua parecida — o que muda é o momento.\n\nIsso pode importar de algumas formas. Você pode não sentir o café \"funcionando\" tão rápido de manhã e tomar uma segunda xícara porque a primeira pareceu fraca — e depois sentir as duas mais tarde. Essa cafeína somada pode durar até o começo da noite.\n\n## Por Que Algumas Pessoas Notam Isso Mais Que Outras\n\nA genética desempenha um papel. A enzima CYP1A2 metaboliza cerca de 95% da cafeína no seu fígado. Algumas pessoas são metabolizadoras rápidas—eliminam cafeína rapidamente independentemente do tempo de absorção. Outras são metabolizadoras lentas, e para elas, a janela de absorção estendida agrava um processo de eliminação já demorado.\n\nA meia-vida da cafeína já varia muito de pessoa para pessoa, conforme genética, tabagismo, gravidez, anticoncepcionais orais, função do fígado e alguns medicamentos (Nehlig, 2018). Se os medicamentos GLP-1 aumentam essa variação não foi estudado diretamente.\n\nA dose também pode importar. As doses de GLP-1 são aumentadas aos poucos, e muitas pessoas sentem mais os efeitos digestivos perto de cada aumento. Quem usa a dose de manutenção de semaglutida (2,4 mg por semana) pode notar mais do que quem está na dose inicial (0,25 mg por semana).\n\nE a composição do café não é irrelevante. Um concentrado de cold brew contém aproximadamente 200mg de cafeína por 240ml. Um café coado padrão tem 95mg. A quantidade absoluta entrando em seu sistema de absorção alterado determina a magnitude dos efeitos.\n\n## Ajustes Práticos Que Realmente Funcionam\n\nA solução não é necessariamente parar de tomar café. É recalibrar.\n\nComece reduzindo seu consumo habitual em 30-40% durante o primeiro mês de tratamento com GLP-1. Se você normalmente bebe três xícaras, tente duas. Se você toma duas xícaras, tente uma e meia. Dê ao seu corpo tempo para revelar seu novo padrão de resposta à cafeína.\n\nAjustar o horário ajuda. Antecipe sua última bebida com cafeína. Em um estudo sobre sono, 400 mg de cafeína tomados até 6 horas antes de dormir ainda prejudicaram o sono (Drake et al., 2013), então um limite ao meio-dia ou no começo da tarde é um bom ponto de partida se o seu sono piorou.\n\nConsidere mudar para opções com menos cafeína para consumo posterior. Chá verde contém 25-50mg por xícara versus 95mg do café. Você ainda mantém o ritual e algum benefício de alerta sem a estimulação prolongada.\n\nDistribua seu consumo em vez de concentrá-lo. Duas meias xícaras separadas por duas horas produzem uma curva mais gerenciável que uma xícara cheia. A cafeína total é idêntica, mas a dinâmica de absorção difere.\n\n## A Complicação da Hidratação\n\nCafeína é um diurético leve. Medicamentos GLP-1 podem reduzir a ingestão de líquidos porque suprimem o apetite amplamente, incluindo sinais de sede em algumas pessoas. Combine esses fatores com esvaziamento gástrico retardado, e o risco de desidratação aumenta.\n\nA desidratação pode fazer os efeitos desagradáveis da cafeína — dores de cabeça, palpitações, ansiedade — parecerem piores.\n\nAcompanhe sua ingestão de água separadamente de bebidas com cafeína. Busque pelo menos 2 litros de líquidos não cafeinados diariamente. Algumas pessoas configuram lembretes no celular porque os sinais de sede se tornam não confiáveis.\n\n## Quando Conversar com Seu Profissional de Saúde\n\nA maioria dos aumentos de sensibilidade à cafeína são gerenciáveis através dos ajustes acima. Mas certos sintomas justificam discussão profissional.\n\nPalpitações cardíacas que persistem mais que alguns minutos. Desconforto ou pressão no peito. Ansiedade que interfere no funcionamento diário. Perturbação do sono que não melhora após duas semanas de redução de cafeína. Dores de cabeça severas ao reduzir o consumo de cafeína.\n\nSeu médico pode sugerir eliminação temporária de cafeína para estabelecer uma linha de base, depois reintrodução gradual para encontrar seu novo limiar de tolerância. Eles também podem verificar se outros medicamentos que você está tomando interagem com o medicamento GLP-1 ou com o metabolismo da cafeína.\n\n## A Linha do Tempo de Adaptação\n\nO corpo se ajusta. Em um ensaio randomizado com liraglutida 3,0 mg, o atraso no esvaziamento de uma refeição sólida foi de cerca de 70 minutos na semana 5, mas de cerca de 30 minutos na semana 16 (Halawi et al., 2017) — sinal de que esse efeito diminui em parte com o tempo, embora não desapareça enquanto você usa o medicamento.\n\nManter um registro simples ajuda durante esse período. Anote horários de consumo de cafeína, quantidades e quaisquer sintomas. Padrões emergem dentro de 2-3 semanas que guiam ajustes personalizados.\n\n## Encontrando Seu Novo Normal\n\nNa prática, muitas pessoas chegam a uma rotina simples: um café no início da manhã, uma bebida com menos cafeína, como chá verde, no meio da manhã se necessário, e nada de cafeína depois do meio-dia. O objetivo não é largar o café, e sim ajustá-lo a como seu corpo o processa agora.\n\nA relação entre medicamentos GLP-1 e cafeína não é perigosa para a maioria das pessoas. É apenas diferente. E diferente requer atenção, ajuste e disposição para experimentar até encontrar o que funciona.\n\nSeu ritual matinal pode sobreviver a esse medicamento. Só pode precisar evoluir.",
       "key_stats": [
         {
-          "label": "Atraso no esvaziamento gástrico com medicamentos GLP-1",
-          "value": "30-50%",
-          "source": "Clinical Pharmacokinetics 2024"
+          "label": "Esvaziamento gástrico na primeira hora com semaglutida 1,0 mg",
+          "value": "~27% mais lento vs placebo (sem diferença em 5 h)",
+          "source": "Hjerpsted et al., Diabetes Obes Metab 2018"
         },
         {
-          "label": "Tempo alterado para concentração máxima de cafeína",
-          "value": "90-120 minutos (vs. normal 30-60 min)",
-          "source": "Journal of Caffeine Research 2025"
+          "label": "Atraso no esvaziamento de refeição sólida com liraglutida 3,0 mg",
+          "value": "~70 min na semana 5 → ~30 min na semana 16",
+          "source": "Halawi et al., Lancet Gastroenterol Hepatol 2017"
         },
         {
-          "label": "Meia-vida da cafeína em metabolizadores lentos com GLP-1",
-          "value": "8-10 horas",
-          "source": "Clinical Pharmacokinetics 2024"
-        },
-        {
-          "label": "Redução inicial recomendada de cafeína",
-          "value": "30-40%",
-          "source": "Clinical practice guidelines"
-        },
-        {
-          "label": "Participação da enzima CYP1A2 no metabolismo da cafeína",
+          "label": "Parcela da cafeína metabolizada pela CYP1A2",
           "value": "~95%",
-          "source": "Journal of Caffeine Research 2025"
+          "source": "Nehlig, Pharmacol Rev 2018"
+        },
+        {
+          "label": "Cafeína (400 mg) 6 horas antes de dormir",
+          "value": "Ainda prejudicou o sono",
+          "source": "Drake et al., J Clin Sleep Med 2013"
+        },
+        {
+          "label": "Cafeína diária considerada segura para adultos saudáveis",
+          "value": "Até 400 mg",
+          "source": "EFSA Journal 2015"
         }
       ],
       "comparison_table": {
-        "title": "Absorção de Cafeína: Normal vs. Medicamento GLP-1",
+        "title": "Absorção de cafeína: típica vs. esperada com medicamentos GLP-1",
         "headers": [
           "Parâmetro",
-          "Absorção Normal",
-          "Com Medicamento GLP-1"
+          "Típica",
+          "Esperada com GLP-1"
         ],
         "rows": [
           [
-            "Tempo para sentir efeitos",
-            "15-45 minutos",
-            "45-90 minutos"
+            "Tempo para sentir os efeitos",
+            "~15-45 minutos",
+            "Possivelmente mais tarde"
           ],
           [
-            "Concentração sanguínea máxima",
-            "30-60 minutos",
-            "90-120 minutos"
+            "Pico de concentração no sangue",
+            "Em ~1 hora",
+            "Possivelmente mais baixo e mais tarde"
           ],
           [
             "Formato da curva de absorção",
-            "Pico acentuado, declínio gradual",
-            "Platô mais plano, cauda estendida"
+            "Subida rápida, queda gradual",
+            "Mais plana e mais longa"
           ],
           [
-            "Duração efetiva",
-            "5-6 horas",
-            "7-9 horas"
+            "Cafeína total absorvida",
+            "Dose completa",
+            "Provavelmente semelhante"
           ],
           [
-            "Força inicial percebida",
-            "Forte, início rápido",
-            "Mais fraca, início retardado"
+            "Intensidade inicial percebida",
+            "Efeito rápido",
+            "Pode parecer mais fraca no início"
           ],
           [
-            "Efeitos no final do dia",
-            "Mínimos após 6 horas",
-            "Perceptíveis por 8+ horas"
+            "Efeitos no fim do dia",
+            "Depende da dose e do horário",
+            "Podem ser mais perceptíveis"
           ]
         ],
-        "caption": "Baseado em dados farmacocinéticos do Clinical Pharmacokinetics 2024 e Journal of Caffeine Research 2025"
+        "caption": "Padrão esperado com base em estudos de esvaziamento gástrico com medicamentos GLP-1 (Hjerpsted 2018; Halawi 2017). Os níveis de cafeína com esses medicamentos não foram medidos diretamente."
       },
       "faq": [
         {
@@ -876,24 +965,39 @@
       ],
       "references": [
         {
-          "title": "Altered Absorption Kinetics of Oral Substances During GLP-1 Receptor Agonist Therapy",
-          "source": "Clinical Pharmacokinetics, 2024",
+          "title": "Semaglutide improves postprandial glucose and lipid metabolism, and delays first-hour gastric emptying in subjects with obesity",
+          "source": "Diabetes, Obesity and Metabolism, 2018",
+          "url": "https://doi.org/10.1111/dom.13120"
+        },
+        {
+          "title": "Effects of liraglutide on weight, satiation, and gastric functions in obesity: a randomised, placebo-controlled pilot trial",
+          "source": "The Lancet Gastroenterology & Hepatology, 2017",
+          "url": "https://doi.org/10.1016/S2468-1253(17)30285-6"
+        },
+        {
+          "title": "Pharmacokinetics and Clinical Implications of Semaglutide: A New Glucagon-Like Peptide (GLP)-1 Receptor Agonist",
+          "source": "Clinical Pharmacokinetics, 2018",
           "url": "https://doi.org/10.1007/s40262-018-0668-z"
         },
         {
-          "title": "Caffeine Pharmacokinetics in Patients with Delayed Gastric Emptying",
-          "source": "Journal of Caffeine Research, 2025",
-          "url": "https://doi.org/10.3390/pharmaceutics15020328"
+          "title": "A Comprehensive Review on the Pharmacokinetics and Drug−Drug Interactions of Approved GLP-1 Receptor Agonists and a Dual GLP-1/GIP Receptor Agonist",
+          "source": "Drug Design, Development and Therapy, 2025",
+          "url": "https://doi.org/10.2147/dddt.s506957"
         },
         {
-          "title": "CYP1A2 Genetic Polymorphisms and Caffeine Metabolism Variability",
-          "source": "Pharmacogenomics Journal, 2024",
-          "url": "https://doi.org/10.21203/rs.3.rs-3090935/v1"
+          "title": "Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption",
+          "source": "Pharmacological Reviews, 2018",
+          "url": "https://doi.org/10.1124/pr.117.014407"
         },
         {
-          "title": "Gastrointestinal Effects of Incretin-Based Therapies: Clinical Implications",
-          "source": "Diabetes Care, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42168641/"
+          "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+          "source": "Journal of Clinical Sleep Medicine, 2013",
+          "url": "https://doi.org/10.5664/jcsm.3170"
+        },
+        {
+          "title": "Scientific Opinion on the safety of caffeine",
+          "source": "EFSA Journal, 2015",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4102"
         }
       ],
       "last_updated": "2026-05-23"
@@ -901,75 +1005,75 @@
     "id": {
       "title": "Mengapa Kopi Pagi Anda Terasa Berbeda Saat Menggunakan Obat GLP-1: Mengelola Sensitivitas Kafein",
       "meta_description": "Obat GLP-1 memperlambat pengosongan lambung, mengubah cara tubuh menyerap kafein. Pelajari mengapa kopi terasa lebih kuat dan cara menyesuaikan asupan dengan aman.",
-      "tldr": "Obat GLP-1 menunda pengosongan lambung hingga 30-50%, menyebabkan kafein diserap lebih lambat tetapi bertahan lebih lama—berikut cara mengkalibrasi ulang rutinitas kopi Anda.",
-      "body_md": "## Cangkir Ketiga Dulu Tidak Masalah. Apa yang Berubah?\n\nTiga minggu setelah menggunakan semaglutide, Sarah menyadari sesuatu yang aneh. Rutinitas dua cangkir kopi paginya yang biasa kini membuatnya gelisah hingga makan malam. Jantung berdebar-debar jam 3 sore. Tidur berantakan. Dia tidak mengubah merek kopi atau cara menyeduhnya. Obat tersebut telah mengubah cara tubuhnya memproses kafein.\n\nIni bukan hal langka. Ini farmakologi.\n\n## Perlambatan Lambung yang Tidak Ada yang Memperingatkan Anda\n\nAgonis reseptor GLP-1 bekerja sebagian dengan menunda pengosongan lambung—seberapa cepat lambung Anda mengalirkan isinya ke usus halus. Ini membantu menekan nafsu makan dan mengontrol gula darah. Tetapi ini juga mengubah kinetika penyerapan kafein dengan cara yang mengejutkan orang.\n\nNormalnya, kafein masuk ke aliran darah Anda dalam 15-45 menit setelah minum kopi. Konsentrasi plasma puncak terjadi sekitar 30-60 menit. Tubuh Anda kemudian memetabolismenya dengan waktu paruh sekitar 5 jam.\n\nPada obat GLP-1, garis waktu itu memanjang. Penelitian yang diterbitkan di Clinical Pharmacokinetics pada 2024 menemukan bahwa penundaan pengosongan lambung sebesar 30-50% secara signifikan mengubah kurva penyerapan untuk zat yang dikonsumsi secara oral, termasuk kafein. Alih-alih lonjakan tajam dan penurunan bertahap, Anda mendapatkan kurva yang lebih datar dan lebih panjang. Kafein tidak langsung terasa kuat pada awalnya, tetapi bertahan lebih lama.\n\nIni menjelaskan mengapa kegelisahan sore Sarah muncul. Kopi paginya tidak keluar dari sistemnya sesuai jadwal lama.\n\n## Pergeseran Kurva Penyerapan: Apa yang Sebenarnya Terjadi\n\nBayangkan dua grafik. Yang pertama menunjukkan penyerapan kafein normal: pendakian curam, puncak jelas pada 45 menit, penurunan mulus selama 5-6 jam. Yang kedua menunjukkan penyerapan dengan pengosongan lambung yang tertunda: kemiringan lebih lembut, dataran tinggi alih-alih puncak, ekor yang memanjang berlangsung 7-9 jam.\n\nSebuah studi 2025 di Journal of Caffeine Research meneliti fenomena ini secara langsung. Peserta yang menggunakan agonis GLP-1 menunjukkan konsentrasi kafein puncak terjadi 90-120 menit pasca-konsumsi daripada 30-60 menit yang khas. Total area di bawah kurva—yang berarti total paparan kafein—tetap serupa, tetapi distribusinya bergeser secara dramatis.\n\nIni penting karena beberapa alasan. Anda mungkin tidak merasakan kopi Anda \"bekerja\" secepat biasanya di pagi hari. Anda mungkin menambahkan cangkir lain karena yang pertama tampak lemah. Kemudian kedua cangkir itu menghantam secara bersamaan dua jam kemudian. Dan kafein gabungan bertahan hingga malam hari.\n\n## Mengapa Beberapa Orang Lebih Merasakan Ini Daripada yang Lain\n\nGenetika berperan. Enzim CYP1A2 memetabolisme sekitar 95% kafein di hati Anda. Beberapa orang adalah metabolizer cepat—mereka membersihkan kafein dengan cepat terlepas dari waktu penyerapan. Yang lain adalah metabolizer lambat, dan bagi mereka, jendela penyerapan yang diperpanjang memperparah proses pembersihan yang sudah lama.\n\nSatu studi menemukan bahwa metabolizer CYP1A2 lambat yang menggunakan obat GLP-1 mengalami waktu paruh kafein efektif mendekati 8-10 jam. Espresso pagi itu pada jam 7 pagi masih memiliki efek yang terukur pada tengah malam.\n\nDosis juga penting. Dosis GLP-1 yang lebih tinggi menghasilkan penundaan pengosongan lambung yang lebih jelas. Seseorang dengan dosis pemeliharaan semaglutide (2,4mg mingguan) kemungkinan akan merasakan efek yang lebih kuat daripada seseorang dengan dosis titrasi awal (0,25mg mingguan).\n\nDan komposisi kopi tidak tidak relevan. Cold brew konsentrat mengandung sekitar 200mg kafein per 8 ons. Kopi seduh standar memiliki 95mg. Jumlah absolut yang masuk ke sistem penyerapan Anda yang berubah menentukan besarnya efek.\n\n## Penyesuaian Praktis yang Benar-Benar Berhasil\n\nSolusinya tidak harus berhenti minum kopi. Ini tentang mengkalibrasi ulang.\n\nMulailah dengan memotong asupan biasa Anda sebesar 30-40% selama bulan pertama pengobatan GLP-1. Jika Anda biasanya minum tiga cangkir, coba dua. Jika Anda orang dua cangkir, coba satu setengah. Beri tubuh Anda waktu untuk mengungkapkan pola respons kafein barunya.\n\nPenyesuaian waktu sangat membantu. Pindahkan minuman berkafein terakhir Anda lebih awal. Jika Anda biasa minum kopi pada jam 2 siang tanpa masalah tidur, coba jadikan tengah hari sebagai batas waktu Anda. Beberapa orang menemukan mereka perlu menghentikan asupan kafein pada jam 10 pagi untuk tidur normal.\n\nPertimbangkan untuk beralih ke pilihan kafein rendah untuk konsumsi nanti. Teh hijau mengandung 25-50mg per cangkir versus 95mg kopi. Anda masih mendapatkan ritual dan beberapa manfaat kewaspadaan tanpa stimulasi yang berkepanjangan.\n\nSebarkan asupan Anda daripada memusatkannya. Dua setengah cangkir yang dipisahkan dua jam menghasilkan kurva yang lebih dapat dikelola daripada satu cangkir penuh. Total kafeinnya identik, tetapi dinamika penyerapannya berbeda.\n\n## Komplikasi Hidrasi\n\nKafein adalah diuretik ringan. Obat GLP-1 dapat mengurangi asupan cairan karena menekan nafsu makan secara luas, termasuk sinyal haus pada beberapa orang. Gabungkan faktor-faktor ini dengan pengosongan lambung yang tertunda, dan risiko dehidrasi meningkat.\n\nDehidrasi memperburuk efek negatif kafein—sakit kepala, jantung berdebar, kecemasan. Ini juga memperlambat metabolisme kafein, memperpanjang jendela paparan yang sudah diperpanjang.\n\nLacak asupan air Anda secara terpisah dari minuman berkafein. Targetkan setidaknya 64 ons cairan non-kafein setiap hari. Beberapa orang mengatur pengingat telepon karena sinyal haus menjadi tidak dapat diandalkan.\n\n## Kapan Harus Berbicara dengan Penyedia Layanan Kesehatan Anda\n\nSebagian besar peningkatan sensitivitas kafein dapat dikelola melalui penyesuaian di atas. Tetapi gejala tertentu memerlukan diskusi profesional.\n\nJantung berdebar yang berlangsung lebih dari beberapa menit. Ketidaknyamanan atau tekanan dada. Kecemasan yang mengganggu fungsi sehari-hari. Gangguan tidur yang tidak membaik setelah dua minggu pengurangan kafein. Sakit kepala parah saat mengurangi asupan kafein.\n\nPenyedia Anda mungkin menyarankan eliminasi kafein sementara untuk menetapkan garis dasar, kemudian pengenalan kembali bertahap untuk menemukan ambang toleransi baru Anda. Mereka juga dapat memeriksa apakah obat lain yang Anda minum berinteraksi dengan obat GLP-1 atau metabolisme kafein.\n\n## Garis Waktu Adaptasi\n\nTubuh beradaptasi. Penundaan pengosongan lambung dari obat GLP-1 paling jelas dalam 2-3 bulan pertama pengobatan. Beberapa penelitian menunjukkan adaptasi parsial terjadi seiring waktu, meskipun efeknya tidak pernah sepenuhnya normal saat menggunakan obat.\n\nOrang yang telah menggunakan semaglutide selama setahun sering melaporkan bahwa sensitivitas kafein, meskipun masih meningkat dibandingkan dengan garis dasar pra-obat, menjadi lebih dapat diprediksi dan dikelola. Kekacauan awal beberapa bulan pertama menetap menjadi normal baru.\n\nMembuat catatan sederhana membantu selama periode ini. Catat waktu asupan kafein, jumlah, dan gejala apa pun. Pola muncul dalam 2-3 minggu yang memandu penyesuaian yang dipersonalisasi.\n\n## Menemukan Normal Baru Anda\n\nSarah akhirnya memutuskan satu kopi kuat pada jam 6:30 pagi dan teh hijau pada jam 10 pagi. Tidak ada kafein setelah tengah hari. Kegelisahannya menghilang. Tidur kembali normal. Dia tidak harus berhenti minum kopi—dia hanya harus memahami bahwa tubuhnya sekarang memprosesnya dengan jadwal yang berbeda.\n\nHubungan antara obat GLP-1 dan kafein tidak berbahaya bagi kebanyakan orang. Ini hanya berbeda. Dan berbeda memerlukan perhatian, penyesuaian, dan kesediaan untuk bereksperimen sampai Anda menemukan apa yang berhasil.\n\nRitual pagi Anda dapat bertahan dengan obat ini. Itu hanya mungkin perlu berkembang.",
+      "tldr": "Obat GLP-1 memperlambat pengosongan lambung, terutama di awal pengobatan, sehingga kafein bisa bekerja lebih lambat dan bertahan lebih lama—begini cara menyesuaikan kebiasaan ngopi Anda.",
+      "body_md": "## Cangkir Ketiga Dulu Tidak Masalah. Apa yang Berubah?\n\nSebagian orang yang mulai memakai semaglutide atau tirzepatide merasa kopi biasa mereka terasa berbeda—lebih lambat bekerja, atau baru terasa di siang hingga sore hari, disertai gelisah atau tidur yang lebih buruk. Padahal kopinya sendiri tidak berubah.\n\nBelum ada studi yang mengukur kadar kafein secara langsung pada orang yang memakai obat GLP-1. Namun, apa yang kita ketahui tentang efek obat ini pada lambung memberikan penjelasan yang masuk akal.\n\n## Perlambatan Lambung yang Tidak Ada yang Memperingatkan Anda\n\nAgonis reseptor GLP-1 bekerja sebagian dengan menunda pengosongan lambung—seberapa cepat lambung Anda mengalirkan isinya ke usus halus. Ini membantu menekan nafsu makan dan mengontrol gula darah. Tetapi ini juga mengubah kinetika penyerapan kafein dengan cara yang mengejutkan orang.\n\nNormalnya, kafein masuk ke aliran darah Anda dalam 15-45 menit setelah minum kopi. Konsentrasi plasma puncak terjadi sekitar 30-60 menit. Tubuh Anda kemudian memetabolismenya dengan waktu paruh sekitar 5 jam.\n\nSaat memakai obat GLP-1, garis waktu itu bisa memanjang. Studi yang memakai penyerapan parasetamol sebagai penanda menunjukkan efek paling jelas pada satu jam pertama setelah makan: dalam uji silang 12 minggu pada 30 orang dewasa dengan obesitas, semaglutide 1,0 mg mengurangi penyerapan pada jam pertama sekitar 27% dibandingkan plasebo, sementara total penyerapan selama lima jam tidak berbeda (Hjerpsted et al., 2018). Kafein belum diuji dengan cara ini, tetapi pola serupa—awal yang lebih lambat tanpa mengurangi total kafein—masuk akal.\n\n## Pergeseran Kurva Penyerapan: Apa yang Sebenarnya Terjadi\n\nBayangkan dua grafik. Grafik pertama menunjukkan penyerapan kafein normal: naik cukup cepat, puncak dalam sekitar satu jam, lalu turun bertahap selama beberapa jam. Grafik kedua menunjukkan apa yang diperkirakan terjadi bila pengosongan lambung melambat: kenaikan lebih landai, puncak lebih rendah dan lebih lambat, serta ekor yang lebih panjang. Seberapa besar pergeseran ini untuk kopi belum pernah diukur, dan total paparan kafein kemungkinan tetap mirip—yang berubah adalah waktunya.\n\nIni bisa berpengaruh dalam beberapa hal. Anda mungkin tidak merasakan kopi \"bekerja\" secepat biasanya di pagi hari lalu menambah cangkir kedua karena yang pertama terasa lemah—kemudian merasakan keduanya belakangan. Kafein gabungan itu bisa bertahan hingga sore atau malam.\n\n## Mengapa Beberapa Orang Lebih Merasakan Ini Daripada yang Lain\n\nGenetika berperan. Enzim CYP1A2 memetabolisme sekitar 95% kafein di hati Anda. Beberapa orang adalah metabolizer cepat—mereka membersihkan kafein dengan cepat terlepas dari waktu penyerapan. Yang lain adalah metabolizer lambat, dan bagi mereka, jendela penyerapan yang diperpanjang memperparah proses pembersihan yang sudah lama.\n\nWaktu paruh kafein memang sudah sangat bervariasi antarorang, tergantung genetika, merokok, kehamilan, kontrasepsi oral, fungsi hati, dan beberapa obat (Nehlig, 2018). Apakah obat GLP-1 menambah variasi itu belum diteliti secara langsung.\n\nDosis juga mungkin berpengaruh. Dosis GLP-1 dinaikkan bertahap, dan banyak orang paling merasakan efek pencernaan di sekitar kenaikan dosis. Orang dengan dosis pemeliharaan semaglutide (2,4 mg per minggu) mungkin merasakan lebih banyak perubahan dibandingkan yang masih di dosis awal (0,25 mg per minggu).\n\nDan komposisi kopi tidak tidak relevan. Cold brew konsentrat mengandung sekitar 200mg kafein per 8 ons. Kopi seduh standar memiliki 95mg. Jumlah absolut yang masuk ke sistem penyerapan Anda yang berubah menentukan besarnya efek.\n\n## Penyesuaian Praktis yang Benar-Benar Berhasil\n\nSolusinya tidak harus berhenti minum kopi. Ini tentang mengkalibrasi ulang.\n\nMulailah dengan memotong asupan biasa Anda sebesar 30-40% selama bulan pertama pengobatan GLP-1. Jika Anda biasanya minum tiga cangkir, coba dua. Jika Anda orang dua cangkir, coba satu setengah. Beri tubuh Anda waktu untuk mengungkapkan pola respons kafein barunya.\n\nMenyesuaikan waktu membantu. Majukan minuman berkafein terakhir Anda. Dalam sebuah studi tidur, 400 mg kafein yang diminum bahkan 6 jam sebelum tidur masih mengganggu tidur (Drake et al., 2013), jadi batas di siang hari atau awal sore adalah titik awal yang masuk akal jika tidur Anda memburuk.\n\nPertimbangkan untuk beralih ke pilihan kafein rendah untuk konsumsi nanti. Teh hijau mengandung 25-50mg per cangkir versus 95mg kopi. Anda masih mendapatkan ritual dan beberapa manfaat kewaspadaan tanpa stimulasi yang berkepanjangan.\n\nSebarkan asupan Anda daripada memusatkannya. Dua setengah cangkir yang dipisahkan dua jam menghasilkan kurva yang lebih dapat dikelola daripada satu cangkir penuh. Total kafeinnya identik, tetapi dinamika penyerapannya berbeda.\n\n## Komplikasi Hidrasi\n\nKafein adalah diuretik ringan. Obat GLP-1 dapat mengurangi asupan cairan karena menekan nafsu makan secara luas, termasuk sinyal haus pada beberapa orang. Gabungkan faktor-faktor ini dengan pengosongan lambung yang tertunda, dan risiko dehidrasi meningkat.\n\nDehidrasi bisa membuat efek kafein yang tidak nyaman—sakit kepala, jantung berdebar, cemas—terasa lebih berat.\n\nLacak asupan air Anda secara terpisah dari minuman berkafein. Targetkan setidaknya 64 ons cairan non-kafein setiap hari. Beberapa orang mengatur pengingat telepon karena sinyal haus menjadi tidak dapat diandalkan.\n\n## Kapan Harus Berbicara dengan Penyedia Layanan Kesehatan Anda\n\nSebagian besar peningkatan sensitivitas kafein dapat dikelola melalui penyesuaian di atas. Tetapi gejala tertentu memerlukan diskusi profesional.\n\nJantung berdebar yang berlangsung lebih dari beberapa menit. Ketidaknyamanan atau tekanan dada. Kecemasan yang mengganggu fungsi sehari-hari. Gangguan tidur yang tidak membaik setelah dua minggu pengurangan kafein. Sakit kepala parah saat mengurangi asupan kafein.\n\nPenyedia Anda mungkin menyarankan eliminasi kafein sementara untuk menetapkan garis dasar, kemudian pengenalan kembali bertahap untuk menemukan ambang toleransi baru Anda. Mereka juga dapat memeriksa apakah obat lain yang Anda minum berinteraksi dengan obat GLP-1 atau metabolisme kafein.\n\n## Garis Waktu Adaptasi\n\nTubuh beradaptasi. Dalam uji acak liraglutide 3,0 mg, keterlambatan pengosongan makanan padat sekitar 70 menit pada minggu ke-5, tetapi sekitar 30 menit pada minggu ke-16 (Halawi et al., 2017)—tanda bahwa efek ini sebagian memudar seiring waktu, meski tidak hilang selama Anda masih memakai obatnya.\n\nMembuat catatan sederhana membantu selama periode ini. Catat waktu asupan kafein, jumlah, dan gejala apa pun. Pola muncul dalam 2-3 minggu yang memandu penyesuaian yang dipersonalisasi.\n\n## Menemukan Normal Baru Anda\n\nDalam praktiknya, banyak orang akhirnya memakai rutinitas sederhana: satu kopi di pagi hari, minuman berkafein lebih rendah seperti teh hijau menjelang siang bila perlu, dan tanpa kafein setelah tengah hari. Tujuannya bukan berhenti minum kopi, melainkan menyesuaikannya dengan cara tubuh Anda memprosesnya sekarang.\n\nHubungan antara obat GLP-1 dan kafein tidak berbahaya bagi kebanyakan orang. Ini hanya berbeda. Dan berbeda memerlukan perhatian, penyesuaian, dan kesediaan untuk bereksperimen sampai Anda menemukan apa yang berhasil.\n\nRitual pagi Anda dapat bertahan dengan obat ini. Itu hanya mungkin perlu berkembang.",
       "key_stats": [
         {
-          "label": "Penundaan pengosongan lambung pada obat GLP-1",
-          "value": "30-50%",
-          "source": "Clinical Pharmacokinetics 2024"
+          "label": "Pengosongan lambung jam pertama dengan semaglutide 1,0 mg",
+          "value": "~27% lebih lambat vs plasebo (tanpa perbedaan dalam 5 jam)",
+          "source": "Hjerpsted et al., Diabetes Obes Metab 2018"
         },
         {
-          "label": "Pergeseran waktu ke konsentrasi kafein puncak",
-          "value": "90-120 menit (vs. normal 30-60 menit)",
-          "source": "Journal of Caffeine Research 2025"
+          "label": "Keterlambatan pengosongan makanan padat dengan liraglutide 3,0 mg",
+          "value": "~70 menit di minggu ke-5 → ~30 menit di minggu ke-16",
+          "source": "Halawi et al., Lancet Gastroenterol Hepatol 2017"
         },
         {
-          "label": "Waktu paruh kafein pada metabolizer lambat dengan GLP-1",
-          "value": "8-10 jam",
-          "source": "Clinical Pharmacokinetics 2024"
-        },
-        {
-          "label": "Pengurangan kafein awal yang direkomendasikan",
-          "value": "30-40%",
-          "source": "Clinical practice guidelines"
-        },
-        {
-          "label": "Bagian metabolisme kafein enzim CYP1A2",
+          "label": "Porsi kafein yang dimetabolisme CYP1A2",
           "value": "~95%",
-          "source": "Journal of Caffeine Research 2025"
+          "source": "Nehlig, Pharmacol Rev 2018"
+        },
+        {
+          "label": "Kafein (400 mg) 6 jam sebelum tidur",
+          "value": "Masih mengganggu tidur",
+          "source": "Drake et al., J Clin Sleep Med 2013"
+        },
+        {
+          "label": "Kafein harian yang dianggap aman untuk orang dewasa sehat",
+          "value": "Hingga 400 mg",
+          "source": "EFSA Journal 2015"
         }
       ],
       "comparison_table": {
-        "title": "Penyerapan Kafein: Normal vs. Obat GLP-1",
+        "title": "Penyerapan Kafein: Biasa vs. Perkiraan saat Memakai Obat GLP-1",
         "headers": [
           "Parameter",
-          "Penyerapan Normal",
-          "Dengan Obat GLP-1"
+          "Biasa",
+          "Perkiraan dengan GLP-1"
         ],
         "rows": [
           [
-            "Waktu untuk merasakan efek",
-            "15-45 menit",
-            "45-90 menit"
+            "Waktu hingga efek terasa",
+            "~15-45 menit",
+            "Mungkin lebih lambat"
           ],
           [
-            "Konsentrasi darah puncak",
-            "30-60 menit",
-            "90-120 menit"
+            "Puncak kadar dalam darah",
+            "Dalam ~1 jam",
+            "Mungkin lebih rendah dan lebih lambat"
           ],
           [
             "Bentuk kurva penyerapan",
-            "Lonjakan tajam, penurunan bertahap",
-            "Dataran tinggi lebih datar, ekor memanjang"
+            "Naik cepat, turun bertahap",
+            "Lebih datar dan lebih panjang"
           ],
           [
-            "Durasi efektif",
-            "5-6 jam",
-            "7-9 jam"
+            "Total kafein yang diserap",
+            "Dosis penuh",
+            "Kemungkinan serupa"
           ],
           [
             "Kekuatan awal yang dirasakan",
-            "Kuat, onset cepat",
-            "Lebih lemah, onset tertunda"
+            "Cepat terasa",
+            "Mungkin terasa lebih lemah di awal"
           ],
           [
-            "Efek akhir hari",
-            "Minimal setelah 6 jam",
-            "Terasa selama 8+ jam"
+            "Efek di sore/malam hari",
+            "Tergantung dosis dan waktu",
+            "Mungkin lebih terasa"
           ]
         ],
-        "caption": "Berdasarkan data farmakokinetik dari Clinical Pharmacokinetics 2024 dan Journal of Caffeine Research 2025"
+        "caption": "Pola perkiraan berdasarkan studi pengosongan lambung obat GLP-1 (Hjerpsted 2018; Halawi 2017). Kadar kafein saat memakai obat ini belum diukur secara langsung."
       },
       "faq": [
         {
@@ -1003,24 +1107,39 @@
       ],
       "references": [
         {
-          "title": "Altered Absorption Kinetics of Oral Substances During GLP-1 Receptor Agonist Therapy",
-          "source": "Clinical Pharmacokinetics, 2024",
+          "title": "Semaglutide improves postprandial glucose and lipid metabolism, and delays first-hour gastric emptying in subjects with obesity",
+          "source": "Diabetes, Obesity and Metabolism, 2018",
+          "url": "https://doi.org/10.1111/dom.13120"
+        },
+        {
+          "title": "Effects of liraglutide on weight, satiation, and gastric functions in obesity: a randomised, placebo-controlled pilot trial",
+          "source": "The Lancet Gastroenterology & Hepatology, 2017",
+          "url": "https://doi.org/10.1016/S2468-1253(17)30285-6"
+        },
+        {
+          "title": "Pharmacokinetics and Clinical Implications of Semaglutide: A New Glucagon-Like Peptide (GLP)-1 Receptor Agonist",
+          "source": "Clinical Pharmacokinetics, 2018",
           "url": "https://doi.org/10.1007/s40262-018-0668-z"
         },
         {
-          "title": "Caffeine Pharmacokinetics in Patients with Delayed Gastric Emptying",
-          "source": "Journal of Caffeine Research, 2025",
-          "url": "https://doi.org/10.3390/pharmaceutics15020328"
+          "title": "A Comprehensive Review on the Pharmacokinetics and Drug−Drug Interactions of Approved GLP-1 Receptor Agonists and a Dual GLP-1/GIP Receptor Agonist",
+          "source": "Drug Design, Development and Therapy, 2025",
+          "url": "https://doi.org/10.2147/dddt.s506957"
         },
         {
-          "title": "CYP1A2 Genetic Polymorphisms and Caffeine Metabolism Variability",
-          "source": "Pharmacogenomics Journal, 2024",
-          "url": "https://doi.org/10.21203/rs.3.rs-3090935/v1"
+          "title": "Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption",
+          "source": "Pharmacological Reviews, 2018",
+          "url": "https://doi.org/10.1124/pr.117.014407"
         },
         {
-          "title": "Gastrointestinal Effects of Incretin-Based Therapies: Clinical Implications",
-          "source": "Diabetes Care, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42168641/"
+          "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+          "source": "Journal of Clinical Sleep Medicine, 2013",
+          "url": "https://doi.org/10.5664/jcsm.3170"
+        },
+        {
+          "title": "Scientific Opinion on the safety of caffeine",
+          "source": "EFSA Journal, 2015",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4102"
         }
       ],
       "last_updated": "2026-05-23"
@@ -1028,75 +1147,75 @@
     "de": {
       "title": "Warum Ihr Morgenkaffee unter GLP-1-Medikamenten anders wirkt: Koffeinempfindlichkeit richtig managen",
       "meta_description": "GLP-1-Medikamente verlangsamen die Magenentleerung und verändern die Koffeinaufnahme. Erfahren Sie, warum Kaffee stärker wirkt und wie Sie Ihren Konsum sicher anpassen.",
-      "tldr": "GLP-1-Präparate verzögern die Magenentleerung um 30-50%, wodurch Koffein langsamer aufgenommen wird, aber länger wirkt – so passen Sie Ihre Kaffeeroutine an.",
-      "body_md": "## Die dritte Tasse war früher kein Problem. Was hat sich geändert?\n\nDrei Wochen nach Beginn der Semaglutid-Therapie bemerkte Sarah etwas Seltsames. Ihre übliche Zwei-Tassen-Morgenroutine ließ sie nun bis zum Abendessen nervös zurück. Herzrasen um 15 Uhr. Schlaf ruiniert. Sie hatte weder ihre Kaffeemarke noch ihre Zubereitungsmethode geändert. Das Medikament hatte verändert, wie ihr Körper Koffein verarbeitet.\n\nDas ist nicht selten. Es ist Pharmakologie.\n\n## Die Magenverlangsamung, vor der Sie niemand gewarnt hat\n\nGLP-1-Rezeptoragonisten wirken teilweise durch Verzögerung der Magenentleerung – also wie schnell Ihr Magen Inhalte in den Dünndarm weiterleitet. Dies hilft bei der Appetitunterdrückung und Blutzuckerkontrolle. Aber es verändert auch die Koffeinaufnahme-Kinetik auf eine Weise, die Menschen überrascht.\n\nNormalerweise gelangt Koffein innerhalb von 15-45 Minuten nach dem Kaffeetrinken in Ihren Blutkreislauf. Die maximale Plasmakonzentration tritt etwa nach 30-60 Minuten auf. Ihr Körper verstoffwechselt es dann mit einer Halbwertszeit von ungefähr 5 Stunden.\n\nUnter GLP-1-Medikamenten dehnt sich dieser Zeitrahmen aus. Eine in Clinical Pharmacokinetics 2024 veröffentlichte Studie ergab, dass Verzögerungen der Magenentleerung um 30-50% die Absorptionskurven für oral aufgenommene Substanzen, einschließlich Koffein, erheblich verändern. Statt eines steilen Anstiegs und allmählichen Abfalls erhalten Sie eine flachere, längere Kurve. Das Koffein wirkt anfangs nicht so stark, bleibt aber länger im System.\n\nDies erklärt, warum Sarahs Nachmittagsnervosität auftrat. Ihr Morgenkaffee verließ ihr System nicht mehr nach dem alten Zeitplan.\n\n## Die Verschiebung der Absorptionskurve: Was tatsächlich passiert\n\nStellen Sie sich zwei Diagramme vor. Das erste zeigt normale Koffeinaufnahme: steiler Anstieg, klarer Höhepunkt bei 45 Minuten, sanfter Abstieg über 5-6 Stunden. Das zweite zeigt Absorption bei verzögerter Magenentleerung: sanftere Steigung, Plateau statt Spitze, verlängerter Ausläufer über 7-9 Stunden.\n\nEine Studie aus 2025 im Journal of Caffeine Research untersuchte dieses Phänomen direkt. Teilnehmer unter GLP-1-Agonisten zeigten maximale Koffeinkonzentrationen 90-120 Minuten nach dem Konsum statt der üblichen 30-60 Minuten. Die Gesamtfläche unter der Kurve – also die gesamte Koffeinexposition – blieb ähnlich, aber die Verteilung verschob sich dramatisch.\n\nDas ist aus mehreren Gründen wichtig. Sie spüren möglicherweise nicht so schnell, dass Ihr Kaffee morgens „wirkt\". Sie fügen vielleicht eine weitere Tasse hinzu, weil die erste schwach erscheint. Dann wirken beide Tassen zwei Stunden später gleichzeitig. Und das kombinierte Koffein bleibt bis in den Abend hinein.\n\n## Warum manche Menschen dies stärker bemerken als andere\n\nGenetik spielt eine Rolle. Das Enzym CYP1A2 verstoffwechselt etwa 95% des Koffeins in Ihrer Leber. Manche Menschen sind schnelle Metabolisierer – sie bauen Koffein unabhängig vom Aufnahme-Timing schnell ab. Andere sind langsame Metabolisierer, und für sie verstärkt das verlängerte Absorptionsfenster einen ohnehin schon langwierigen Abbauprozess.\n\nEine Studie ergab, dass langsame CYP1A2-Metabolisierer unter GLP-1-Medikamenten effektive Koffein-Halbwertszeiten von 8-10 Stunden erlebten. Der Morgen-Espresso um 7 Uhr hat um Mitternacht noch messbare Effekte.\n\nAuch die Dosierung spielt eine Rolle. Höhere Dosen von GLP-1-Medikamenten erzeugen ausgeprägtere Verzögerungen der Magenentleerung. Jemand mit Erhaltungsdosis Semaglutid (2,4 mg wöchentlich) wird wahrscheinlich stärkere Effekte bemerken als jemand in der anfänglichen Aufdosierungsphase (0,25 mg wöchentlich).\n\nUnd die Kaffeezusammensetzung ist nicht irrelevant. Ein Cold-Brew-Konzentrat enthält etwa 200 mg Koffein pro 240 ml. Ein Standard-Filterkaffee hat 95 mg. Die absolute Menge, die in Ihr verändertes Absorptionssystem gelangt, bestimmt das Ausmaß der Effekte.\n\n## Praktische Anpassungen, die tatsächlich funktionieren\n\nDie Lösung ist nicht unbedingt, Kaffee aufzugeben. Es geht um Neukalibrierung.\n\nBeginnen Sie damit, Ihren üblichen Konsum während des ersten Monats der GLP-1-Behandlung um 30-40% zu reduzieren. Wenn Sie normalerweise drei Tassen trinken, versuchen Sie zwei. Wenn Sie ein Zwei-Tassen-Mensch sind, versuchen Sie eineinhalb. Geben Sie Ihrem Körper Zeit, sein neues Koffein-Reaktionsmuster zu zeigen.\n\nZeitliche Anpassungen helfen erheblich. Verlegen Sie Ihr letztes koffeinhaltiges Getränk nach vorne. Wenn Sie früher um 14 Uhr Kaffee ohne Schlafprobleme trinken konnten, versuchen Sie, 12 Uhr mittags als Grenze zu setzen. Manche Menschen stellen fest, dass sie die Koffeinaufnahme bis 10 Uhr beenden müssen, um normal zu schlafen.\n\nErwägen Sie den Wechsel zu koffeinärmeren Optionen für späteren Konsum. Grüner Tee enthält 25-50 mg pro Tasse gegenüber 95 mg bei Kaffee. Sie behalten das Ritual und einen gewissen Wachheitseffekt, ohne die verlängerte Stimulation.\n\nVerteilen Sie Ihren Konsum, anstatt ihn zu konzentrieren. Zwei halbe Tassen im Abstand von zwei Stunden erzeugen eine besser handhabbare Kurve als eine volle Tasse. Die Gesamtmenge Koffein ist identisch, aber die Absorptionsdynamik unterscheidet sich.\n\n## Die Hydratations-Komplikation\n\nKoffein ist ein mildes Diuretikum. GLP-1-Medikamente können die Flüssigkeitsaufnahme reduzieren, weil sie den Appetit allgemein unterdrücken, einschließlich Durstsignalen bei manchen Menschen. Kombinieren Sie diese Faktoren mit verzögerter Magenentleerung, und das Dehydrationsrisiko steigt.\n\nDehydration verschlimmert die negativen Effekte von Koffein – Kopfschmerzen, Herzrasen, Angst. Sie verlangsamt auch den Koffeinabbau und verlängert das ohnehin schon verlängerte Expositionsfenster.\n\nVerfolgen Sie Ihre Wasseraufnahme getrennt von koffeinhaltigen Getränken. Streben Sie mindestens 2 Liter koffeinfreie Flüssigkeiten täglich an. Manche Menschen stellen Handy-Erinnerungen ein, weil Durstsignale unzuverlässig werden.\n\n## Wann Sie mit Ihrem Arzt sprechen sollten\n\nDie meisten Zunahmen der Koffeinempfindlichkeit sind durch die oben genannten Anpassungen handhabbar. Aber bestimmte Symptome rechtfertigen ein professionelles Gespräch.\n\nHerzrasen, das länger als einige Minuten anhält. Brustbeschwerden oder -druck. Angst, die das tägliche Funktionieren beeinträchtigt. Schlafstörungen, die sich nach zwei Wochen Koffeinreduktion nicht verbessern. Starke Kopfschmerzen beim Reduzieren der Koffeinaufnahme.\n\nIhr Arzt könnte eine vorübergehende Koffein-Elimination vorschlagen, um eine Baseline zu etablieren, dann schrittweise Wiedereinführung, um Ihre neue Toleranzschwelle zu finden. Er kann auch prüfen, ob andere Medikamente, die Sie einnehmen, mit dem GLP-1-Präparat oder dem Koffeinabbau interagieren.\n\n## Der Anpassungszeitraum\n\nKörper passen sich an. Die Verzögerung der Magenentleerung durch GLP-1-Medikamente ist in den ersten 2-3 Monaten der Behandlung am ausgeprägtesten. Einige Forschungen deuten darauf hin, dass im Laufe der Zeit eine teilweise Anpassung erfolgt, obwohl der Effekt sich während der Medikation nie vollständig normalisiert.\n\nMenschen, die seit einem Jahr Semaglutid nehmen, berichten oft, dass die Koffeinempfindlichkeit, obwohl immer noch erhöht im Vergleich zur Baseline vor der Medikation, vorhersehbarer und handhabbarer wird. Das anfängliche Chaos der ersten Monate legt sich zu einem neuen Normal.\n\nEin einfaches Protokoll hilft während dieser Zeit. Notieren Sie Koffeinaufnahme-Zeiten, Mengen und eventuelle Symptome. Muster entstehen innerhalb von 2-3 Wochen, die personalisierte Anpassungen leiten.\n\n## Ihr neues Normal finden\n\nSarah entschied sich schließlich für einen starken Kaffee um 6:30 Uhr und grünen Tee um 10 Uhr. Kein Koffein nach 12 Uhr mittags. Ihre Nervosität verschwand. Der Schlaf kehrte zur Normalität zurück. Sie musste Kaffee nicht aufgeben – sie musste nur verstehen, dass ihr Körper ihn jetzt nach einem anderen Zeitplan verarbeitet.\n\nDie Beziehung zwischen GLP-1-Medikamenten und Koffein ist für die meisten Menschen nicht gefährlich. Sie ist nur anders. Und anders erfordert Aufmerksamkeit, Anpassung und die Bereitschaft zu experimentieren, bis Sie finden, was funktioniert.\n\nIhr Morgenritual kann diese Medikation überleben. Es muss sich vielleicht nur weiterentwickeln.",
+      "tldr": "GLP-1-Medikamente verlangsamen die Magenentleerung, besonders zu Beginn der Behandlung – dadurch kann Koffein später wirken und länger anhalten. So passen Sie Ihre Kaffeeroutine an.",
+      "body_md": "## Die dritte Tasse war früher kein Problem. Was hat sich geändert?\n\nManche Menschen, die mit Semaglutid oder Tirzepatid beginnen, bemerken, dass sich ihr gewohnter Kaffee anders anfühlt – er wirkt langsamer oder macht sich erst später am Tag bemerkbar, mit Nervosität oder schlechterem Schlaf. Am Kaffee selbst hat sich nichts geändert.\n\nBisher hat keine Studie den Koffeinspiegel direkt bei Menschen gemessen, die GLP-1-Medikamente nehmen. Was wir über die Wirkung dieser Medikamente auf den Magen wissen, liefert aber eine plausible Erklärung.\n\n## Die Magenverlangsamung, vor der Sie niemand gewarnt hat\n\nGLP-1-Rezeptoragonisten wirken teilweise durch Verzögerung der Magenentleerung – also wie schnell Ihr Magen Inhalte in den Dünndarm weiterleitet. Dies hilft bei der Appetitunterdrückung und Blutzuckerkontrolle. Aber es verändert auch die Koffeinaufnahme-Kinetik auf eine Weise, die Menschen überrascht.\n\nNormalerweise gelangt Koffein innerhalb von 15-45 Minuten nach dem Kaffeetrinken in Ihren Blutkreislauf. Die maximale Plasmakonzentration tritt etwa nach 30-60 Minuten auf. Ihr Körper verstoffwechselt es dann mit einer Halbwertszeit von ungefähr 5 Stunden.\n\nUnter GLP-1-Medikamenten kann sich dieser Zeitrahmen dehnen. Studien, die die Aufnahme von Paracetamol als Marker nutzen, zeigen den deutlichsten Effekt in der ersten Stunde nach einer Mahlzeit: In einer 12-wöchigen Crossover-Studie mit 30 Erwachsenen mit Adipositas verringerte Semaglutid 1,0 mg die Aufnahme in der ersten Stunde um etwa 27% gegenüber Placebo, während die Gesamtaufnahme über fünf Stunden nicht verschieden war (Hjerpsted et al., 2018). Koffein wurde so nicht getestet, aber ein ähnliches Muster – langsamerer Beginn ohne weniger Gesamtkoffein – ist plausibel.\n\n## Die Verschiebung der Absorptionskurve: Was tatsächlich passiert\n\nStellen Sie sich zwei Diagramme vor. Das erste zeigt die normale Koffeinaufnahme: ein recht steiler Anstieg, ein Gipfel innerhalb von etwa einer Stunde, dann ein allmählicher Abfall über mehrere Stunden. Das zweite zeigt, was bei verlangsamter Magenentleerung zu erwarten wäre: ein flacherer Anstieg, ein niedrigerer und späterer Gipfel und ein längerer Ausläufer. Wie groß diese Verschiebung speziell bei Kaffee ist, wurde nicht gemessen, und die gesamte Koffeinbelastung bleibt wahrscheinlich ähnlich – es ändert sich das Timing.\n\nDas kann auf mehrere Arten eine Rolle spielen. Vielleicht spüren Sie morgens den Kaffee nicht so schnell \"wirken\" und greifen zu einer zweiten Tasse, weil die erste schwach erscheint – und spüren später beide. Dieses kombinierte Koffein kann bis in den Abend anhalten.\n\n## Warum manche Menschen dies stärker bemerken als andere\n\nGenetik spielt eine Rolle. Das Enzym CYP1A2 verstoffwechselt etwa 95% des Koffeins in Ihrer Leber. Manche Menschen sind schnelle Metabolisierer – sie bauen Koffein unabhängig vom Aufnahme-Timing schnell ab. Andere sind langsame Metabolisierer, und für sie verstärkt das verlängerte Absorptionsfenster einen ohnehin schon langwierigen Abbauprozess.\n\nDie Halbwertszeit von Koffein schwankt ohnehin stark von Mensch zu Mensch – abhängig von Genetik, Rauchen, Schwangerschaft, oralen Verhütungsmitteln, Leberfunktion und manchen Medikamenten (Nehlig, 2018). Ob GLP-1-Medikamente diese Schwankung noch vergrößern, wurde nicht direkt untersucht.\n\nAuch die Dosierung kann eine Rolle spielen. GLP-1-Dosen werden schrittweise erhöht, und viele Menschen bemerken Magen-Darm-Effekte am stärksten rund um eine Dosiserhöhung. Jemand mit der Erhaltungsdosis Semaglutid (2,4 mg wöchentlich) bemerkt womöglich mehr als jemand mit der Anfangsdosis (0,25 mg wöchentlich).\n\nUnd die Kaffeezusammensetzung ist nicht irrelevant. Ein Cold-Brew-Konzentrat enthält etwa 200 mg Koffein pro 240 ml. Ein Standard-Filterkaffee hat 95 mg. Die absolute Menge, die in Ihr verändertes Absorptionssystem gelangt, bestimmt das Ausmaß der Effekte.\n\n## Praktische Anpassungen, die tatsächlich funktionieren\n\nDie Lösung ist nicht unbedingt, Kaffee aufzugeben. Es geht um Neukalibrierung.\n\nBeginnen Sie damit, Ihren üblichen Konsum während des ersten Monats der GLP-1-Behandlung um 30-40% zu reduzieren. Wenn Sie normalerweise drei Tassen trinken, versuchen Sie zwei. Wenn Sie ein Zwei-Tassen-Mensch sind, versuchen Sie eineinhalb. Geben Sie Ihrem Körper Zeit, sein neues Koffein-Reaktionsmuster zu zeigen.\n\nZeitliche Anpassungen helfen. Verlegen Sie Ihr letztes koffeinhaltiges Getränk nach vorne. In einer Schlafstudie störten 400 mg Koffein selbst 6 Stunden vor dem Schlafengehen noch den Schlaf (Drake et al., 2013). Eine Grenze zur Mittagszeit oder am frühen Nachmittag ist daher ein sinnvoller Ausgangspunkt, wenn Ihr Schlaf schlechter geworden ist.\n\nErwägen Sie den Wechsel zu koffeinärmeren Optionen für späteren Konsum. Grüner Tee enthält 25-50 mg pro Tasse gegenüber 95 mg bei Kaffee. Sie behalten das Ritual und einen gewissen Wachheitseffekt, ohne die verlängerte Stimulation.\n\nVerteilen Sie Ihren Konsum, anstatt ihn zu konzentrieren. Zwei halbe Tassen im Abstand von zwei Stunden erzeugen eine besser handhabbare Kurve als eine volle Tasse. Die Gesamtmenge Koffein ist identisch, aber die Absorptionsdynamik unterscheidet sich.\n\n## Die Hydratations-Komplikation\n\nKoffein ist ein mildes Diuretikum. GLP-1-Medikamente können die Flüssigkeitsaufnahme reduzieren, weil sie den Appetit allgemein unterdrücken, einschließlich Durstsignalen bei manchen Menschen. Kombinieren Sie diese Faktoren mit verzögerter Magenentleerung, und das Dehydrationsrisiko steigt.\n\nDehydration kann die unangenehmen Effekte von Koffein – Kopfschmerzen, Herzklopfen, Angst – stärker wirken lassen.\n\nVerfolgen Sie Ihre Wasseraufnahme getrennt von koffeinhaltigen Getränken. Streben Sie mindestens 2 Liter koffeinfreie Flüssigkeiten täglich an. Manche Menschen stellen Handy-Erinnerungen ein, weil Durstsignale unzuverlässig werden.\n\n## Wann Sie mit Ihrem Arzt sprechen sollten\n\nDie meisten Zunahmen der Koffeinempfindlichkeit sind durch die oben genannten Anpassungen handhabbar. Aber bestimmte Symptome rechtfertigen ein professionelles Gespräch.\n\nHerzrasen, das länger als einige Minuten anhält. Brustbeschwerden oder -druck. Angst, die das tägliche Funktionieren beeinträchtigt. Schlafstörungen, die sich nach zwei Wochen Koffeinreduktion nicht verbessern. Starke Kopfschmerzen beim Reduzieren der Koffeinaufnahme.\n\nIhr Arzt könnte eine vorübergehende Koffein-Elimination vorschlagen, um eine Baseline zu etablieren, dann schrittweise Wiedereinführung, um Ihre neue Toleranzschwelle zu finden. Er kann auch prüfen, ob andere Medikamente, die Sie einnehmen, mit dem GLP-1-Präparat oder dem Koffeinabbau interagieren.\n\n## Der Anpassungszeitraum\n\nDer Körper passt sich an. In einer randomisierten Studie mit Liraglutid 3,0 mg betrug die Verzögerung der Magenentleerung einer festen Mahlzeit in Woche 5 etwa 70 Minuten, in Woche 16 aber nur noch etwa 30 Minuten (Halawi et al., 2017) – ein Hinweis darauf, dass dieser Effekt mit der Zeit teilweise nachlässt, auch wenn er unter laufender Medikation nicht verschwindet.\n\nEin einfaches Protokoll hilft während dieser Zeit. Notieren Sie Koffeinaufnahme-Zeiten, Mengen und eventuelle Symptome. Muster entstehen innerhalb von 2-3 Wochen, die personalisierte Anpassungen leiten.\n\n## Ihr neues Normal finden\n\nIn der Praxis landen viele bei einer einfachen Routine: ein Kaffee früh am Morgen, bei Bedarf ein koffeinärmeres Getränk wie grüner Tee am Vormittag und kein Koffein nach Mittag. Es geht nicht darum, auf Kaffee zu verzichten, sondern ihn daran anzupassen, wie Ihr Körper ihn jetzt verarbeitet.\n\nDie Beziehung zwischen GLP-1-Medikamenten und Koffein ist für die meisten Menschen nicht gefährlich. Sie ist nur anders. Und anders erfordert Aufmerksamkeit, Anpassung und die Bereitschaft zu experimentieren, bis Sie finden, was funktioniert.\n\nIhr Morgenritual kann diese Medikation überleben. Es muss sich vielleicht nur weiterentwickeln.",
       "key_stats": [
         {
-          "label": "Verzögerung der Magenentleerung unter GLP-1-Medikamenten",
-          "value": "30-50%",
-          "source": "Clinical Pharmacokinetics 2024"
+          "label": "Magenentleerung in der ersten Stunde unter Semaglutid 1,0 mg",
+          "value": "~27% langsamer vs. Placebo (kein Unterschied über 5 h)",
+          "source": "Hjerpsted et al., Diabetes Obes Metab 2018"
         },
         {
-          "label": "Verschobene Zeit bis zur maximalen Koffeinkonzentration",
-          "value": "90-120 Minuten (vs. normal 30-60 Min.)",
-          "source": "Journal of Caffeine Research 2025"
+          "label": "Verzögerung der Entleerung fester Nahrung unter Liraglutid 3,0 mg",
+          "value": "~70 Min. in Woche 5 → ~30 Min. in Woche 16",
+          "source": "Halawi et al., Lancet Gastroenterol Hepatol 2017"
         },
         {
-          "label": "Koffein-Halbwertszeit bei langsamen Metabolisierern unter GLP-1",
-          "value": "8-10 Stunden",
-          "source": "Clinical Pharmacokinetics 2024"
-        },
-        {
-          "label": "Empfohlene anfängliche Koffeinreduktion",
-          "value": "30-40%",
-          "source": "Clinical practice guidelines"
-        },
-        {
-          "label": "Anteil des CYP1A2-Enzyms am Koffeinabbau",
+          "label": "Anteil des über CYP1A2 abgebauten Koffeins",
           "value": "~95%",
-          "source": "Journal of Caffeine Research 2025"
+          "source": "Nehlig, Pharmacol Rev 2018"
+        },
+        {
+          "label": "Koffein (400 mg) 6 Stunden vor dem Schlafengehen",
+          "value": "Störte den Schlaf noch immer",
+          "source": "Drake et al., J Clin Sleep Med 2013"
+        },
+        {
+          "label": "Als sicher geltende tägliche Koffeinmenge für gesunde Erwachsene",
+          "value": "Bis zu 400 mg",
+          "source": "EFSA Journal 2015"
         }
       ],
       "comparison_table": {
-        "title": "Koffeinaufnahme: Normal vs. unter GLP-1-Medikation",
+        "title": "Koffeinaufnahme: typisch vs. erwartet unter GLP-1-Medikamenten",
         "headers": [
           "Parameter",
-          "Normale Absorption",
-          "Unter GLP-1-Medikation"
+          "Typisch",
+          "Erwartet unter GLP-1"
         ],
         "rows": [
           [
-            "Zeit bis zum Spüren der Wirkung",
-            "15-45 Minuten",
-            "45-90 Minuten"
+            "Zeit bis zur spürbaren Wirkung",
+            "~15-45 Minuten",
+            "Möglicherweise später"
           ],
           [
-            "Maximale Blutkonzentration",
-            "30-60 Minuten",
-            "90-120 Minuten"
+            "Spitzenkonzentration im Blut",
+            "Innerhalb ~1 Stunde",
+            "Möglicherweise niedriger und später"
           ],
           [
-            "Form der Absorptionskurve",
+            "Form der Aufnahmekurve",
             "Steiler Anstieg, allmählicher Abfall",
-            "Flacheres Plateau, verlängerter Ausläufer"
+            "Flacher, länger"
           ],
           [
-            "Effektive Wirkdauer",
-            "5-6 Stunden",
-            "7-9 Stunden"
+            "Insgesamt aufgenommenes Koffein",
+            "Volle Dosis",
+            "Wahrscheinlich ähnlich"
           ],
           [
             "Wahrgenommene Anfangsstärke",
-            "Stark, schneller Wirkungseintritt",
-            "Schwächer, verzögerter Wirkungseintritt"
+            "Schneller Wirkungseintritt",
+            "Anfangs eventuell schwächer"
           ],
           [
-            "Späte Tageseffekte",
-            "Minimal nach 6 Stunden",
-            "Spürbar für 8+ Stunden"
+            "Wirkung am späten Tag",
+            "Abhängig von Dosis und Zeitpunkt",
+            "Eventuell deutlicher spürbar"
           ]
         ],
-        "caption": "Basierend auf pharmakokinetischen Daten aus Clinical Pharmacokinetics 2024 und Journal of Caffeine Research 2025"
+        "caption": "Erwartetes Muster auf Basis von Magenentleerungsstudien zu GLP-1-Medikamenten (Hjerpsted 2018; Halawi 2017). Koffeinspiegel unter diesen Medikamenten wurden nicht direkt gemessen."
       },
       "faq": [
         {
@@ -1130,24 +1249,39 @@
       ],
       "references": [
         {
-          "title": "Altered Absorption Kinetics of Oral Substances During GLP-1 Receptor Agonist Therapy",
-          "source": "Clinical Pharmacokinetics, 2024",
+          "title": "Semaglutide improves postprandial glucose and lipid metabolism, and delays first-hour gastric emptying in subjects with obesity",
+          "source": "Diabetes, Obesity and Metabolism, 2018",
+          "url": "https://doi.org/10.1111/dom.13120"
+        },
+        {
+          "title": "Effects of liraglutide on weight, satiation, and gastric functions in obesity: a randomised, placebo-controlled pilot trial",
+          "source": "The Lancet Gastroenterology & Hepatology, 2017",
+          "url": "https://doi.org/10.1016/S2468-1253(17)30285-6"
+        },
+        {
+          "title": "Pharmacokinetics and Clinical Implications of Semaglutide: A New Glucagon-Like Peptide (GLP)-1 Receptor Agonist",
+          "source": "Clinical Pharmacokinetics, 2018",
           "url": "https://doi.org/10.1007/s40262-018-0668-z"
         },
         {
-          "title": "Caffeine Pharmacokinetics in Patients with Delayed Gastric Emptying",
-          "source": "Journal of Caffeine Research, 2025",
-          "url": "https://doi.org/10.3390/pharmaceutics15020328"
+          "title": "A Comprehensive Review on the Pharmacokinetics and Drug−Drug Interactions of Approved GLP-1 Receptor Agonists and a Dual GLP-1/GIP Receptor Agonist",
+          "source": "Drug Design, Development and Therapy, 2025",
+          "url": "https://doi.org/10.2147/dddt.s506957"
         },
         {
-          "title": "CYP1A2 Genetic Polymorphisms and Caffeine Metabolism Variability",
-          "source": "Pharmacogenomics Journal, 2024",
-          "url": "https://doi.org/10.21203/rs.3.rs-3090935/v1"
+          "title": "Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption",
+          "source": "Pharmacological Reviews, 2018",
+          "url": "https://doi.org/10.1124/pr.117.014407"
         },
         {
-          "title": "Gastrointestinal Effects of Incretin-Based Therapies: Clinical Implications",
-          "source": "Diabetes Care, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42168641/"
+          "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+          "source": "Journal of Clinical Sleep Medicine, 2013",
+          "url": "https://doi.org/10.5664/jcsm.3170"
+        },
+        {
+          "title": "Scientific Opinion on the safety of caffeine",
+          "source": "EFSA Journal, 2015",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4102"
         }
       ],
       "last_updated": "2026-05-23"
@@ -1155,75 +1289,75 @@
     "fr": {
       "title": "Pourquoi votre café du matin agit différemment sous agonistes des récepteurs du GLP-1 : Gérer la sensibilité à la caféine",
       "meta_description": "Les agonistes des récepteurs du GLP-1 ralentissent la vidange gastrique, modifiant l'absorption de la caféine. Découvrez pourquoi le café semble plus fort et comment ajuster votre consommation en toute sécurité.",
-      "tldr": "Les agonistes des récepteurs du GLP-1 retardent la vidange gastrique de 30-50 %, entraînant une absorption plus lente mais plus prolongée de la caféine—voici comment recalibrer votre routine café.",
-      "body_md": "## Cette troisième tasse ne posait aucun problème avant. Qu'est-ce qui a changé ?\n\nTrois semaines après avoir commencé le sémaglutide, Sarah a remarqué quelque chose d'étrange. Sa routine habituelle de deux tasses le matin la rendait maintenant nerveuse jusqu'au dîner. Cœur qui s'emballe à 15 h. Sommeil perturbé. Elle n'avait pas changé sa marque de café ni sa méthode d'infusion. Le médicament avait modifié la façon dont son corps traite la caféine.\n\nCe n'est pas rare. C'est de la pharmacologie.\n\n## Le ralentissement gastrique dont personne ne vous a averti\n\nLes agonistes des récepteurs du GLP-1 agissent en partie en retardant la vidange gastrique—la vitesse à laquelle votre estomac transfère son contenu vers l'intestin grêle. Cela contribue à la suppression de l'appétit et au contrôle de la glycémie. Mais cela transforme également la cinétique d'absorption de la caféine d'une manière qui prend les gens au dépourvu.\n\nNormalement, la caféine atteint votre circulation sanguine dans les 15 à 45 minutes suivant la consommation de café. La concentration plasmatique maximale survient environ 30 à 60 minutes après. Votre corps la métabolise ensuite avec une demi-vie d'environ 5 heures.\n\nSous agonistes des récepteurs du GLP-1, ce calendrier s'étire. Une recherche publiée dans Clinical Pharmacokinetics en 2024 a révélé que des retards de vidange gastrique de 30-50 % modifient considérablement les courbes d'absorption des substances consommées par voie orale, y compris la caféine. Au lieu d'un pic brutal et d'un déclin graduel, vous obtenez une courbe plus plate et plus longue. La caféine ne frappe pas aussi fort initialement, mais elle persiste.\n\nCela explique pourquoi les tremblements de l'après-midi de Sarah sont apparus. Son café du matin ne quittait pas son système selon l'ancien calendrier.\n\n## Le changement de courbe d'absorption : Ce qui se passe réellement\n\nImaginez deux graphiques. Le premier montre l'absorption normale de caféine : montée abrupte, pic clair à 45 minutes, descente régulière sur 5-6 heures. Le second montre l'absorption avec vidange gastrique retardée : pente plus douce, plateau au lieu de pic, queue prolongée durant 7-9 heures.\n\nUne étude de 2025 dans le Journal of Caffeine Research a examiné ce phénomène directement. Les participants prenant des agonistes du GLP-1 ont montré des concentrations maximales de caféine survenant 90-120 minutes après la consommation plutôt que les 30-60 minutes typiques. L'aire totale sous la courbe—c'est-à-dire l'exposition totale à la caféine—restait similaire, mais la distribution changeait radicalement.\n\nCela compte pour plusieurs raisons. Vous pourriez ne pas sentir votre café « agir » aussi rapidement le matin. Vous pourriez ajouter une autre tasse parce que la première semble faible. Puis les deux tasses frappent simultanément deux heures plus tard. Et la caféine combinée persiste bien jusqu'en soirée.\n\n## Pourquoi certaines personnes le remarquent plus que d'autres\n\nLa génétique joue un rôle. L'enzyme CYP1A2 métabolise environ 95 % de la caféine dans votre foie. Certaines personnes sont des métaboliseurs rapides—elles éliminent la caféine rapidement indépendamment du moment d'absorption. D'autres sont des métaboliseurs lents, et pour elles, la fenêtre d'absorption prolongée aggrave un processus d'élimination déjà long.\n\nUne étude a révélé que les métaboliseurs lents du CYP1A2 prenant des agonistes du GLP-1 connaissaient des demi-vies effectives de caféine approchant 8-10 heures. Cet espresso du matin à 7 h a encore des effets mesurables à minuit.\n\nLa posologie compte aussi. Des doses plus élevées d'agonistes du GLP-1 produisent des retards de vidange gastrique plus prononcés. Quelqu'un sous dose d'entretien de sémaglutide (2,4 mg par semaine) remarquera probablement des effets plus forts que quelqu'un sous doses initiales de titration (0,25 mg par semaine).\n\nEt la composition du café n'est pas négligeable. Un concentré de café infusé à froid contient environ 200 mg de caféine par 8 onces. Un café filtre standard en contient 95 mg. La quantité absolue entrant dans votre système d'absorption modifié détermine l'ampleur des effets.\n\n## Ajustements pratiques qui fonctionnent réellement\n\nLa solution n'est pas nécessairement d'arrêter le café. C'est de recalibrer.\n\nCommencez par réduire votre consommation habituelle de 30-40 % pendant le premier mois de traitement par agoniste du GLP-1. Si vous buvez normalement trois tasses, essayez-en deux. Si vous êtes une personne à deux tasses, essayez une tasse et demie. Donnez à votre corps le temps de révéler son nouveau schéma de réponse à la caféine.\n\nLes ajustements de timing aident considérablement. Avancez votre dernière boisson caféinée. Si vous preniez du café à 14 h sans problèmes de sommeil, essayez de faire de midi votre limite. Certaines personnes trouvent qu'elles doivent arrêter la consommation de caféine à 10 h pour dormir normalement.\n\nEnvisagez de passer à des options à faible teneur en caféine pour la consommation ultérieure. Le thé vert contient 25-50 mg par tasse contre 95 mg pour le café. Vous conservez le rituel et un certain bénéfice de vigilance sans la stimulation prolongée.\n\nÉtalez votre consommation plutôt que de la concentrer. Deux demi-tasses séparées de deux heures produisent une courbe plus gérable qu'une tasse complète. La caféine totale est identique, mais la dynamique d'absorption diffère.\n\n## La complication de l'hydratation\n\nLa caféine est un diurétique léger. Les agonistes du GLP-1 peuvent réduire l'apport en liquides car ils suppriment l'appétit de manière générale, y compris les signaux de soif chez certaines personnes. Combinez ces facteurs avec la vidange gastrique retardée, et le risque de déshydratation augmente.\n\nLa déshydratation aggrave les effets négatifs de la caféine—maux de tête, palpitations cardiaques, anxiété. Elle ralentit également le métabolisme de la caféine, prolongeant la fenêtre d'exposition déjà étendue.\n\nSuivez votre consommation d'eau séparément des boissons caféinées. Visez au moins 64 onces de liquides non caféinés par jour. Certaines personnes programment des rappels sur leur téléphone car les signaux de soif deviennent peu fiables.\n\n## Quand consulter votre professionnel de la santé\n\nLa plupart des augmentations de sensibilité à la caféine sont gérables grâce aux ajustements ci-dessus. Mais certains symptômes justifient une discussion professionnelle.\n\nPalpitations cardiaques qui persistent plus de quelques minutes. Inconfort ou pression thoracique. Anxiété qui interfère avec le fonctionnement quotidien. Perturbation du sommeil qui ne s'améliore pas après deux semaines de réduction de caféine. Maux de tête sévères lors de la réduction de la consommation de caféine.\n\nVotre professionnel pourrait suggérer une élimination temporaire de la caféine pour établir une base de référence, puis une réintroduction progressive pour trouver votre nouveau seuil de tolérance. Il peut également vérifier si d'autres médicaments que vous prenez interagissent avec l'agoniste du GLP-1 ou le métabolisme de la caféine.\n\n## Le calendrier d'adaptation\n\nLe corps s'adapte. Le retard de vidange gastrique causé par les agonistes du GLP-1 est plus prononcé dans les 2-3 premiers mois de traitement. Certaines recherches suggèrent qu'une adaptation partielle se produit avec le temps, bien que l'effet ne se normalise jamais complètement pendant la prise du médicament.\n\nLes personnes sous sémaglutide depuis un an rapportent souvent que la sensibilité à la caféine, bien que toujours élevée par rapport à la base pré-médicamenteuse, devient plus prévisible et gérable. Le chaos initial des premiers mois se stabilise en une nouvelle normalité.\n\nTenir un journal simple aide pendant cette période. Notez les heures de consommation de caféine, les quantités et tout symptôme. Des schémas émergent en 2-3 semaines qui guident les ajustements personnalisés.\n\n## Trouver votre nouvelle normalité\n\nSarah a finalement opté pour un café fort à 6 h 30 et du thé vert à 10 h. Pas de caféine après midi. Ses tremblements ont disparu. Le sommeil est revenu à la normale. Elle n'a pas eu à abandonner le café—elle a juste dû comprendre que son corps le traite maintenant selon un calendrier différent.\n\nLa relation entre les agonistes du GLP-1 et la caféine n'est pas dangereuse pour la plupart des gens. Elle est simplement différente. Et différent nécessite attention, ajustement et volonté d'expérimenter jusqu'à trouver ce qui fonctionne.\n\nVotre rituel matinal peut survivre à ce médicament. Il pourrait simplement avoir besoin d'évoluer.",
+      "tldr": "Les médicaments GLP-1 ralentissent la vidange gastrique, surtout en début de traitement, ce qui peut retarder l'effet de la caféine et le prolonger — voici comment réajuster votre routine café.",
+      "body_md": "## Cette troisième tasse ne posait aucun problème avant. Qu'est-ce qui a changé ?\n\nCertaines personnes qui commencent le sémaglutide ou le tirzépatide remarquent que leur café habituel ne fait plus le même effet : il agit plus lentement, ou se fait sentir plus tard dans la journée, avec de la nervosité ou un sommeil moins bon. Pourtant, le café lui-même n'a pas changé.\n\nAucune étude n'a encore mesuré directement les taux de caféine chez les personnes sous médicaments GLP-1. Mais ce que l'on sait de l'effet de ces médicaments sur l'estomac fournit une explication plausible.\n\n## Le ralentissement gastrique dont personne ne vous a averti\n\nLes agonistes des récepteurs du GLP-1 agissent en partie en retardant la vidange gastrique—la vitesse à laquelle votre estomac transfère son contenu vers l'intestin grêle. Cela contribue à la suppression de l'appétit et au contrôle de la glycémie. Mais cela transforme également la cinétique d'absorption de la caféine d'une manière qui prend les gens au dépourvu.\n\nNormalement, la caféine atteint votre circulation sanguine dans les 15 à 45 minutes suivant la consommation de café. La concentration plasmatique maximale survient environ 30 à 60 minutes après. Votre corps la métabolise ensuite avec une demi-vie d'environ 5 heures.\n\nSous médicaments GLP-1, ce calendrier peut s'étirer. Les études qui utilisent l'absorption du paracétamol comme marqueur montrent l'effet le plus net dans la première heure après un repas : dans un essai croisé de 12 semaines chez 30 adultes en situation d'obésité, le sémaglutide 1,0 mg a réduit l'absorption de la première heure d'environ 27 % par rapport au placebo, tandis que l'absorption totale sur cinq heures n'était pas différente (Hjerpsted et al., 2018). La caféine n'a pas été testée de cette façon, mais un schéma similaire — un démarrage plus lent sans moins de caféine au total — est plausible.\n\n## Le changement de courbe d'absorption : Ce qui se passe réellement\n\nImaginez deux graphiques. Le premier montre l'absorption normale de la caféine : une montée assez rapide, un pic en une heure environ, puis une baisse progressive sur plusieurs heures. Le second montre ce qu'on attendrait avec une vidange gastrique ralentie : une pente plus douce, un pic plus bas et plus tardif, et une traîne plus longue. L'ampleur de ce décalage pour le café n'a pas été mesurée, et l'exposition totale à la caféine reste probablement semblable — c'est le moment qui change.\n\nCela peut compter de plusieurs façons. Vous pourriez ne pas sentir votre café « agir » aussi vite le matin et prendre une deuxième tasse parce que la première semble faible — puis ressentir les deux plus tard. Cette caféine cumulée peut persister jusqu'en soirée.\n\n## Pourquoi certaines personnes le remarquent plus que d'autres\n\nLa génétique joue un rôle. L'enzyme CYP1A2 métabolise environ 95 % de la caféine dans votre foie. Certaines personnes sont des métaboliseurs rapides—elles éliminent la caféine rapidement indépendamment du moment d'absorption. D'autres sont des métaboliseurs lents, et pour elles, la fenêtre d'absorption prolongée aggrave un processus d'élimination déjà long.\n\nLa demi-vie de la caféine varie déjà beaucoup d'une personne à l'autre selon la génétique, le tabagisme, la grossesse, la contraception orale, la fonction hépatique et certains médicaments (Nehlig, 2018). On n'a pas étudié directement si les médicaments GLP-1 accentuent cette variation.\n\nLa dose peut aussi jouer. Les doses de GLP-1 sont augmentées par paliers, et beaucoup de personnes ressentent surtout les effets digestifs autour d'une augmentation. Une personne à la dose d'entretien de sémaglutide (2,4 mg par semaine) peut remarquer davantage d'effets qu'une personne à la dose de départ (0,25 mg par semaine).\n\nEt la composition du café n'est pas négligeable. Un concentré de café infusé à froid contient environ 200 mg de caféine par 8 onces. Un café filtre standard en contient 95 mg. La quantité absolue entrant dans votre système d'absorption modifié détermine l'ampleur des effets.\n\n## Ajustements pratiques qui fonctionnent réellement\n\nLa solution n'est pas nécessairement d'arrêter le café. C'est de recalibrer.\n\nCommencez par réduire votre consommation habituelle de 30-40 % pendant le premier mois de traitement par agoniste du GLP-1. Si vous buvez normalement trois tasses, essayez-en deux. Si vous êtes une personne à deux tasses, essayez une tasse et demie. Donnez à votre corps le temps de révéler son nouveau schéma de réponse à la caféine.\n\nAjuster l'horaire aide. Avancez votre dernière boisson caféinée. Dans une étude sur le sommeil, 400 mg de caféine pris même 6 heures avant le coucher perturbaient encore le sommeil (Drake et al., 2013) ; fixer une limite à midi ou en début d'après-midi est donc un point de départ raisonnable si votre sommeil s'est dégradé.\n\nEnvisagez de passer à des options à faible teneur en caféine pour la consommation ultérieure. Le thé vert contient 25-50 mg par tasse contre 95 mg pour le café. Vous conservez le rituel et un certain bénéfice de vigilance sans la stimulation prolongée.\n\nÉtalez votre consommation plutôt que de la concentrer. Deux demi-tasses séparées de deux heures produisent une courbe plus gérable qu'une tasse complète. La caféine totale est identique, mais la dynamique d'absorption diffère.\n\n## La complication de l'hydratation\n\nLa caféine est un diurétique léger. Les agonistes du GLP-1 peuvent réduire l'apport en liquides car ils suppriment l'appétit de manière générale, y compris les signaux de soif chez certaines personnes. Combinez ces facteurs avec la vidange gastrique retardée, et le risque de déshydratation augmente.\n\nLa déshydratation peut rendre les effets désagréables de la caféine — maux de tête, palpitations, anxiété — plus marqués.\n\nSuivez votre consommation d'eau séparément des boissons caféinées. Visez au moins 64 onces de liquides non caféinés par jour. Certaines personnes programment des rappels sur leur téléphone car les signaux de soif deviennent peu fiables.\n\n## Quand consulter votre professionnel de la santé\n\nLa plupart des augmentations de sensibilité à la caféine sont gérables grâce aux ajustements ci-dessus. Mais certains symptômes justifient une discussion professionnelle.\n\nPalpitations cardiaques qui persistent plus de quelques minutes. Inconfort ou pression thoracique. Anxiété qui interfère avec le fonctionnement quotidien. Perturbation du sommeil qui ne s'améliore pas après deux semaines de réduction de caféine. Maux de tête sévères lors de la réduction de la consommation de caféine.\n\nVotre professionnel pourrait suggérer une élimination temporaire de la caféine pour établir une base de référence, puis une réintroduction progressive pour trouver votre nouveau seuil de tolérance. Il peut également vérifier si d'autres médicaments que vous prenez interagissent avec l'agoniste du GLP-1 ou le métabolisme de la caféine.\n\n## Le calendrier d'adaptation\n\nLe corps s'adapte. Dans un essai randomisé avec le liraglutide 3,0 mg, le retard de vidange d'un repas solide était d'environ 70 minutes à la semaine 5, mais d'environ 30 minutes à la semaine 16 (Halawi et al., 2017) — signe que cet effet s'atténue en partie avec le temps, sans disparaître tant que le traitement continue.\n\nTenir un journal simple aide pendant cette période. Notez les heures de consommation de caféine, les quantités et tout symptôme. Des schémas émergent en 2-3 semaines qui guident les ajustements personnalisés.\n\n## Trouver votre nouvelle normalité\n\nEn pratique, beaucoup de personnes adoptent une routine simple : un café tôt le matin, une boisson moins caféinée comme le thé vert en milieu de matinée si besoin, et pas de caféine après midi. Le but n'est pas d'arrêter le café, mais de l'adapter à la façon dont votre corps le traite désormais.\n\nLa relation entre les agonistes du GLP-1 et la caféine n'est pas dangereuse pour la plupart des gens. Elle est simplement différente. Et différent nécessite attention, ajustement et volonté d'expérimenter jusqu'à trouver ce qui fonctionne.\n\nVotre rituel matinal peut survivre à ce médicament. Il pourrait simplement avoir besoin d'évoluer.",
       "key_stats": [
         {
-          "label": "Retard de vidange gastrique sous agonistes du GLP-1",
-          "value": "30-50%",
-          "source": "Clinical Pharmacokinetics 2024"
+          "label": "Vidange gastrique de la première heure sous sémaglutide 1,0 mg",
+          "value": "~27 % plus lente vs placebo (pas de différence sur 5 h)",
+          "source": "Hjerpsted et al., Diabetes Obes Metab 2018"
         },
         {
-          "label": "Temps décalé jusqu'à la concentration maximale de caféine",
-          "value": "90-120 minutes (vs. 30-60 min normalement)",
-          "source": "Journal of Caffeine Research 2025"
+          "label": "Retard de vidange d'un repas solide sous liraglutide 3,0 mg",
+          "value": "~70 min à la semaine 5 → ~30 min à la semaine 16",
+          "source": "Halawi et al., Lancet Gastroenterol Hepatol 2017"
         },
         {
-          "label": "Demi-vie de la caféine chez les métaboliseurs lents sous GLP-1",
-          "value": "8-10 heures",
-          "source": "Clinical Pharmacokinetics 2024"
+          "label": "Part de la caféine métabolisée par le CYP1A2",
+          "value": "~95 %",
+          "source": "Nehlig, Pharmacol Rev 2018"
         },
         {
-          "label": "Réduction initiale recommandée de la caféine",
-          "value": "30-40%",
-          "source": "Clinical practice guidelines"
+          "label": "Caféine (400 mg) 6 heures avant le coucher",
+          "value": "Perturbait encore le sommeil",
+          "source": "Drake et al., J Clin Sleep Med 2013"
         },
         {
-          "label": "Part du métabolisme de la caféine par l'enzyme CYP1A2",
-          "value": "~95%",
-          "source": "Journal of Caffeine Research 2025"
+          "label": "Apport quotidien de caféine jugé sûr pour l'adulte en bonne santé",
+          "value": "Jusqu'à 400 mg",
+          "source": "EFSA Journal 2015"
         }
       ],
       "comparison_table": {
-        "title": "Absorption de la caféine : Normale vs. Sous agoniste du GLP-1",
+        "title": "Absorption de la caféine : habituelle vs attendue sous médicaments GLP-1",
         "headers": [
           "Paramètre",
-          "Absorption normale",
-          "Sous agoniste du GLP-1"
+          "Habituelle",
+          "Attendue sous GLP-1"
         ],
         "rows": [
           [
-            "Temps pour ressentir les effets",
-            "15-45 minutes",
-            "45-90 minutes"
+            "Délai avant de ressentir les effets",
+            "~15-45 minutes",
+            "Possiblement plus tard"
           ],
           [
-            "Concentration sanguine maximale",
-            "30-60 minutes",
-            "90-120 minutes"
+            "Pic de concentration sanguine",
+            "En ~1 heure",
+            "Possiblement plus bas et plus tardif"
           ],
           [
             "Forme de la courbe d'absorption",
-            "Pic brutal, déclin graduel",
-            "Plateau plus plat, queue prolongée"
+            "Montée rapide, baisse progressive",
+            "Plus plate, plus longue"
           ],
           [
-            "Durée effective",
-            "5-6 heures",
-            "7-9 heures"
+            "Caféine totale absorbée",
+            "Dose complète",
+            "Probablement semblable"
           ],
           [
-            "Force initiale perçue",
-            "Forte, début rapide",
-            "Plus faible, début retardé"
+            "Intensité initiale ressentie",
+            "Effet rapide",
+            "Peut sembler plus faible au début"
           ],
           [
             "Effets en fin de journée",
-            "Minimes après 6 heures",
-            "Notables pendant 8+ heures"
+            "Selon la dose et l'horaire",
+            "Peuvent être plus perceptibles"
           ]
         ],
-        "caption": "Basé sur les données pharmacocinétiques de Clinical Pharmacokinetics 2024 et Journal of Caffeine Research 2025"
+        "caption": "Schéma attendu d'après les études de vidange gastrique sous médicaments GLP-1 (Hjerpsted 2018 ; Halawi 2017). Les taux de caféine sous ces médicaments n'ont pas été mesurés directement."
       },
       "faq": [
         {
@@ -1257,30 +1391,46 @@
       ],
       "references": [
         {
-          "title": "Altered Absorption Kinetics of Oral Substances During GLP-1 Receptor Agonist Therapy",
-          "source": "Clinical Pharmacokinetics, 2024",
+          "title": "Semaglutide improves postprandial glucose and lipid metabolism, and delays first-hour gastric emptying in subjects with obesity",
+          "source": "Diabetes, Obesity and Metabolism, 2018",
+          "url": "https://doi.org/10.1111/dom.13120"
+        },
+        {
+          "title": "Effects of liraglutide on weight, satiation, and gastric functions in obesity: a randomised, placebo-controlled pilot trial",
+          "source": "The Lancet Gastroenterology & Hepatology, 2017",
+          "url": "https://doi.org/10.1016/S2468-1253(17)30285-6"
+        },
+        {
+          "title": "Pharmacokinetics and Clinical Implications of Semaglutide: A New Glucagon-Like Peptide (GLP)-1 Receptor Agonist",
+          "source": "Clinical Pharmacokinetics, 2018",
           "url": "https://doi.org/10.1007/s40262-018-0668-z"
         },
         {
-          "title": "Caffeine Pharmacokinetics in Patients with Delayed Gastric Emptying",
-          "source": "Journal of Caffeine Research, 2025",
-          "url": "https://doi.org/10.3390/pharmaceutics15020328"
+          "title": "A Comprehensive Review on the Pharmacokinetics and Drug−Drug Interactions of Approved GLP-1 Receptor Agonists and a Dual GLP-1/GIP Receptor Agonist",
+          "source": "Drug Design, Development and Therapy, 2025",
+          "url": "https://doi.org/10.2147/dddt.s506957"
         },
         {
-          "title": "CYP1A2 Genetic Polymorphisms and Caffeine Metabolism Variability",
-          "source": "Pharmacogenomics Journal, 2024",
-          "url": "https://doi.org/10.21203/rs.3.rs-3090935/v1"
+          "title": "Interindividual Differences in Caffeine Metabolism and Factors Driving Caffeine Consumption",
+          "source": "Pharmacological Reviews, 2018",
+          "url": "https://doi.org/10.1124/pr.117.014407"
         },
         {
-          "title": "Gastrointestinal Effects of Incretin-Based Therapies: Clinical Implications",
-          "source": "Diabetes Care, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42168641/"
+          "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+          "source": "Journal of Clinical Sleep Medicine, 2013",
+          "url": "https://doi.org/10.5664/jcsm.3170"
+        },
+        {
+          "title": "Scientific Opinion on the safety of caffeine",
+          "source": "EFSA Journal, 2015",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4102"
         }
       ],
       "last_updated": "2026-05-23"
     }
   },
   "generated_at": "2026-05-24T13:51:24.262Z",
+  "updated_at": "2026-10-08T01:35:36.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
