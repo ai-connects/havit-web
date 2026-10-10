@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { renderSeoHead } from './structured-data.js'
+import { ogImageUrl, renderSeoHead } from './structured-data.js'
 import { DEFAULT_LOCALE, LOCALE_META, LOCALES } from './locales.js'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
@@ -185,6 +185,14 @@ function translateHead(html, locale, dict, baseHtml) {
       `<meta name="description" content="${dict.__description}" />`,
     )
   }
+
+  // 소셜 카드도 로케일별 파일로 바꾼다. renderSeoHead 가 아니라 여기서 바꾸는
+  // 것은 og:image 가 index.html 의 정적 태그라서다 — 아래 i18n:seo 블록에 또
+  // 하나 넣으면 같은 property 가 두 번 나가고, 크롤러마다 먼저 읽는 쪽이 달라진다.
+  html = html.replace(
+    /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i,
+    `<meta property="og:image" content="${ogImageUrl(locale)}" />`,
+  )
 
   // Strip any previously-injected block so re-runs stay idempotent.
   html = html.replace(/\s*<!-- i18n:alternates -->[\s\S]*?<!-- \/i18n:alternates -->/i, '')

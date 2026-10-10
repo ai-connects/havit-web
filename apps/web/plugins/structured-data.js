@@ -12,6 +12,8 @@
  * actually says. Add an FAQ item to the markup and it appears in the schema.
  */
 
+import { DEFAULT_LOCALE } from './locales.js'
+
 const SITE = 'https://www.aihavit.com'
 const APP_STORE = 'https://apps.apple.com/us/app/havit-glp-1-weight-loss-coach/id6755166023'
 const PLAY_STORE = 'https://play.google.com/store/apps/details?id=com.aiconnects.havitWellness'
@@ -29,9 +31,23 @@ const APP = 'https://app.aihavit.com/'
  * a shared link look like a stray logo file. This one carries the page's own
  * headline and the app screen at the 1.91:1 ratio the platforms crop to.
  */
-const OG_IMAGE = `${SITE}/og-card.png`
 const OG_IMAGE_W = 1200
 const OG_IMAGE_H = 630
+
+/**
+ * 소셜 카드는 로케일마다 다른 파일이다 — 헤드라인이 그 언어로 박혀 있다.
+ *
+ * og:title·og:description 은 이미 로케일별로 번역돼 나가는데 이미지 하나만
+ * 영어로 고정돼 있었다. 크롤러는 URL 당 한 번 긁고 캐시하므로, 로케일 URL
+ * (`/ko/`)을 공유하면 그 언어 카드가 그대로 따라간다.
+ *
+ * 영어만 `/og-card.png` 에 남긴다. public/{eula,terms,refund,privacy}.html 과
+ * affiliate/index.html 이 그 URL 을 직접 들고 있고, 이미 밖에 뿌려져 캐시된
+ * 링크들도 그 URL 을 가리킨다 — 옮기면 그 카드들이 전부 깨진다.
+ */
+export function ogImageUrl(locale) {
+  return locale === DEFAULT_LOCALE ? `${SITE}/og-card.png` : `${SITE}/og/${locale}.png`
+}
 
 /**
  * og:locale wants language_TERRITORY, which cannot be derived from a bare
@@ -142,7 +158,7 @@ export function renderSeoHead({ locale, dict, baseHtml, title, description, url,
   const twitter = [
     ['twitter:title', title],
     ['twitter:description', description],
-    ['twitter:image', OG_IMAGE],
+    ['twitter:image', ogImageUrl(locale)],
   ]
     .map(([n, c]) => `    <meta name="${n}" content="${attr(c)}" />`)
     .join('\n')
