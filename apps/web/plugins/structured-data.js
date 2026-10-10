@@ -97,6 +97,20 @@ function faqKeys(baseHtml) {
 }
 
 /**
+ * The hero <h1>'s i18n key, read from the markup.
+ *
+ * The slogan below has to be the headline the page actually shows, in the
+ * page's own language — so it is looked up rather than hard-coded. Reading the
+ * key out of the markup also survives the key being renamed: it is still named
+ * `lost-weight-keep-muscle` from a tagline the site dropped in #89, and a
+ * literal here would silently return '' the day someone fixes that.
+ */
+function heroKey(baseHtml) {
+  const m = /<h1[^>]*\sdata-i18n="([^"]+)"/i.exec(baseHtml)
+  return m ? m[1] : null
+}
+
+/**
  * Build the whole head block for one locale.
  *
  * `title`/`description` are passed in already resolved because translateHead has
@@ -105,6 +119,9 @@ function faqKeys(baseHtml) {
 export function renderSeoHead({ locale, dict, baseHtml, title, description, url, localeMeta }) {
   const strings = baseStrings(baseHtml)
   const t = (key) => plain(dict[key] ?? strings[key] ?? '')
+
+  const hk = heroKey(baseHtml)
+  const slogan = hk ? t(hk) : ''
 
   const faq = faqKeys(baseHtml)
     .map(([q, a]) => ({ q: t(q), a: t(a) }))
@@ -140,6 +157,10 @@ export function renderSeoHead({ locale, dict, baseHtml, title, description, url,
       url: SITE,
       logo: { '@type': 'ImageObject', url: `${SITE}/favicon-512.png`, width: 512, height: 512 },
       sameAs: [APP_STORE, PLAY_STORE, BLOG],
+      // The hero headline, in this locale's language. Korean deliberately says
+      // something else (it leads with the Juvis Diet provenance), so this is
+      // read from the page rather than translated from the English line.
+      ...(slogan ? { slogan } : {}),
     },
     {
       '@type': 'WebSite',

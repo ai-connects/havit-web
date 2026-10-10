@@ -1,10 +1,10 @@
 # HAVIT Blog
 
-> Science-backed wellness guidance — 1,086 articles on habits, sleep, nutrition, hydration, and movement, across 10 languages. AI-assisted research, human-reviewed by HAVIT Editorial Team. Published by AI Connect Inc.
+> Science-backed wellness guidance — 1,100+ articles on habits, sleep, nutrition, hydration, and movement, across 10 languages. AI-assisted research, human-reviewed by HAVIT Editorial Team. Published by Havit Inc.
 
 HAVIT Blog turns peer-reviewed studies and clinical guidelines into actionable, multilingual content. Every article passes a four-stage editorial workflow before publication: AI-drafted from primary sources → human fact-check against listed citations → medical advisory review for YMYL categories → publish with verified `last_updated` date. Articles cite 4–6 verifiable references (Crossref DOIs + PubMed PMIDs); ~90% of references link to peer-reviewed sources.
 
-The publisher, AI Connect Inc., is a Seoul-based company digitalizing premium metabolic health: care that previously required expensive equipment, specialist clinics, and dedicated coordinators, now accessible to anyone with a smartphone via HAVIT — its core product.
+The publisher, Havit Inc. (주식회사 하비트), is a Seoul-based company whose core product is HAVIT — an AI weight loss coach for iOS and Android that puts meals, weight, body composition, sleep and GLP-1 tracking in one app and turns the log into one concrete action a day. The company was formerly named AI Connect Inc.; aiconnects.me now redirects here.
 
 ## Categories
 
@@ -41,7 +41,7 @@ Free calculators with cited formulas, no ads, no signup:
 
 - [About HAVIT Blog](https://www.aihavit.com/blog/en/about): publisher, mission, contact
 - [Editorial Policy](https://www.aihavit.com/blog/en/editorial-policy): AI scope, human review workflow, reviewer credentials, corrections policy
-- Publisher: AI Connect Inc. (Seoul, South Korea) — sole legal entity responsible for all content
+- Publisher: Havit Inc. (주식회사 하비트), Seoul, South Korea — sole legal entity responsible for all content. Business Registration No. 306-86-03160, `havit@aihavit.com`
 - Editorial team: HAVIT Editorial Team, reviewed by HAVIT Medical Advisory (medicine, pharmacology, nutrition science, public health)
 - Corrections: verified within 7 business days; `last_updated` date set on revision
 
@@ -64,11 +64,11 @@ Articles are available in 10 languages with hreflang alternates and full localiz
 
 - `MedicalWebPage` schema for YMYL articles (10 categories above)
 - `Article` schema for non-YMYL articles
-- `Organization` schema (AI Connect Inc.) with `Person` author/reviewer
+- `Organization` schema (Havit Inc.) with `Person` author/reviewer
 - `AboutPage` + `WebPage` schemas for About / Editorial Policy
 
 ## Optional
 
 - [Sitemap](https://www.aihavit.com/blog/sitemap.xml): 10,800+ URLs (article × lang × hreflang alternates)
 - [RSS Feed](https://www.aihavit.com/blog/rss.xml): latest articles
-- [HAVIT App](https://app.aihavit.com/): the wellness companion app this blog supports
+- [HAVIT App](https://app.aihavit.com/): the AI weight loss coach this blog supports — [product site](https://www.aihavit.com/), [llms.txt](https://www.aihavit.com/llms.txt)
