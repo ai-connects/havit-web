@@ -1,34 +1,67 @@
-# HAVIT — The Duolingo for Healthier Living
+# HAVIT — Your AI weight loss coach. Everything in one app.
 
-> AI-powered metabolic wellness app. Personalized coaching from metabolic-science diagnosis through gamified challenges and 24/7 adaptive guidance, in 35 languages. Published by Havit Inc.
+> AI weight loss coach for iOS and Android. Log a meal in seconds; HAVI, the in-app coach, reads your weight, body composition, sleep and GLP-1 trends together and tells you the one thing to do today. Works with or without GLP-1 medication. Published by Havit Inc.
 
-HAVIT digitalizes premium metabolic health: care that previously required expensive equipment, specialist clinics, and dedicated coordinators is now accessible to anyone with a smartphone. The product takes a user from baseline diagnosis (body composition, metabolic markers, lifestyle), through a science-derived prescription tailored to their goal, into daily coaching that adapts to logs, progress, and feedback. The aihavit.com site is the public landing/marketing surface; the operative product lives in the HAVIT app (iOS / Android).
+HAVIT replaces the stack of single-purpose apps a weight-loss attempt usually needs. Meals, hydration, workouts, sleep, steps, cycle, mood and GLP-1 doses are logged in one place, and HAVI turns that log into one concrete next step each day instead of another dashboard of numbers. The program was built by professionals formerly at Juvis Diet, a leading Korean metabolic weight-management clinic, and was tested in a 12-week clinical study with Eulji University where results were measured on InBody rather than self-reported.
+
+www.aihavit.com is the marketing site (one home page per language, plus the blog and the legal documents). The product itself is the HAVIT mobile app.
+
+HAVIT is a wellness app, not a medical device. Body composition figures are statistical estimates, not clinical measurements. HAVIT does not diagnose, treat or prevent disease, and does not give medication advice — dose and side-effect decisions belong with a qualified healthcare professional.
+
+## What the App Does
+
+- **AI Coach (HAVI)** — reads what you ate, how you moved and how you are trending, then gives one clear next step. Ask it anything, any time: meals, plateaus, cravings.
+- **Nutrition** — photograph a meal for an estimated calorie and nutrient breakdown.
+- **Daily missions** — behavior-change techniques turned into small repeatable actions, with streaks and visible progress.
+- **Body insights** — estimated body composition and wellness trends over time, not just scale weight.
+- **Daily check-in** — condition, sleep, appetite and mood in a few taps; HAVI returns one focus for the day and why it is the right call.
+- **Mind & recovery** — guided meditation for cravings, sleep, calm, focus, breathing and gratitude, plus workout videos and 1,400+ articles in Discovery.
+- **Tracking** — meals, hydration, workouts, sleep, steps, cycle, mood and GLP-1 in a single app.
+
+## Evidence
+
+- [Clinical results](https://www.aihavit.com/#study): 12-week clinical study with Eulji University, June–August 2026. 78 participants analysed (HAVIT 41, control 37), InBody measured at week 1 and week 12. 5%+ weight loss: 31.7% vs 8.1% (3.9×, p=0.012). Lower body-fat percentage: 83% vs 49% (p=0.002). Unblinded; individual results vary.
+- Body composition model: 92.9% estimated agreement with InBody readings in an internal study with Eulji University (n=70).
+- [User stories](https://www.aihavit.com/#stories): reviews from study participants and beta users. Individual experiences and results vary.
 
 ## Sections of This Site
 
-- [Home — How It Works](https://www.aihavit.com/#how): the 4-step metabolic flow (diagnosis → prescription → coaching → change)
-- [Features](https://www.aihavit.com/#features): coaching, article library, food scan, challenges
-- [Validation](https://www.aihavit.com/#proof): open-beta trial data (n=596), peer-reviewed citations
-- [About Havit Inc.](https://www.aihavit.com): the company behind HAVIT
+- [Features](https://www.aihavit.com/#features): what HAVI reads, feature by feature
+- [Clinical results](https://www.aihavit.com/#study): the Eulji University study and its eight largest cases
+- [FAQ](https://www.aihavit.com/#faq): GLP-1, how the AI coach works, what body composition numbers mean, data handling
+- [Download](https://www.aihavit.com/#download): App Store and Google Play
+- [Affiliate program](https://www.aihavit.com/affiliate/): English-only partner program
 
 ## Get the App
 
 - [Open the app (universal link)](https://app.aihavit.com/): platform-detecting deep link → iOS App Store / Google Play
+- [App Store](https://apps.apple.com/us/app/havit-glp-1-weight-loss-coach/id6755166023)
+- [Google Play](https://play.google.com/store/apps/details?id=com.aiconnects.havitWellness)
+- Free to download. In-app purchases may apply.
+
+## Languages
+
+The home page is served in 34 locales: English at the root and 33 localized paths (`/ko/`, `/ja/`, `/de/`, `/es/`, `/fr/`, `/pt/`, `/it/`, `/nl/`, `/pl/`, `/ru/`, `/uk/`, `/tr/`, `/ar/`, `/he/`, `/hi/`, `/id/`, `/ms/`, `/th/`, `/vi/`, `/zh-cn/`, `/zh-tw/`, `/ca/`, `/cs/`, `/da/`, `/el/`, `/fi/`, `/hr/`, `/hu/`, `/nb/`, `/ro/`, `/sk/`, `/sv/`, `/uz/`). The app itself is localized into 35 languages.
+
+The Korean page carries a different lead than the other locales: it leads with the team's origin at Juvis Diet (`쥬비스 출신이 만든 AI 다이어트`) because that clinic is a recognised brand in Korea. The product described is the same one.
 
 ## Editorial / Knowledge Resources
 
-- [HAVIT Blog](https://www.aihavit.com/blog/): 1,086+ science-backed wellness articles in 10 languages — habits, sleep, nutrition, GLP-1 medication, longevity, microbiome
+- [HAVIT Blog](https://www.aihavit.com/blog/en): 1,100+ science-backed articles in 10 languages — nutrition, sleep, exercise, weight and metabolism, GLP-1 medication, gut health, longevity
 - [Wellness Calculators](https://www.aihavit.com/blog/en/tools): BMR/TDEE, protein, hydration, caffeine cutoff, sleep cycle, exercise calories
-- [Editorial Policy](https://www.aihavit.com/blog/en/editorial-policy): AI-assisted research + human + medical-advisory review workflow
+- [Editorial Policy](https://www.aihavit.com/blog/en/editorial-policy): AI-assisted research + human review + medical-advisory review for YMYL categories
 
 ## Trust & Compliance
 
 - [Privacy Policy](https://www.aihavit.com/privacy.html): version 2.1, effective 2026-03-01
-- [Terms of Service](https://www.aihavit.com/terms.html)
-- Publisher: Havit Inc., Seoul, South Korea (`havit@aihavit.com`)
+- [Terms of Use](https://www.aihavit.com/terms.html)
+- [EULA](https://www.aihavit.com/eula.html) ([Korean](https://www.aihavit.com/eula-ko.html))
+- [Refund Policy](https://www.aihavit.com/refund.html) ([Korean](https://www.aihavit.com/refund-ko.html))
+- Publisher: Havit Inc. (주식회사 하비트) — A-611, Daesung D-Polis, 606 Seobusaet-gil, Geumcheon-gu, Seoul 08504, Republic of Korea. Business Registration No. 306-86-03160.
+- Contact: `havit@aihavit.com` (company), `help@aihavit.com` (support)
 
 ## Optional
 
 - [Sitemap](https://www.aihavit.com/sitemap.xml)
 - [robots.txt](https://www.aihavit.com/robots.txt)
-- [Company site (Havit Inc.)](https://www.aihavit.com)
+- [Blog llms.txt](https://www.aihavit.com/blog/llms.txt)

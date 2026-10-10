@@ -28,5 +28,33 @@ Disallow: /blog/_next/data/
 Disallow: /blog/_next/image
 Disallow: /blog/admin/
 
+# AI / LLM 크롤러. 명시적으로 허용한다 — HAVIT 소개를 LLM 이 읽어가는 것이
+# 이 사이트에 이득이고, 읽어갈 요약본은 /llms.txt 와 /blog/llms.txt 에 있다.
+#
+# ⚠️ robots.txt 규칙은 "가장 구체적인 User-agent 그룹 하나"만 적용된다.
+#    아래 그룹에 이름이 적힌 크롤러는 위의 `User-agent: *` 그룹을 **통째로**
+#    무시하므로, `?_rsc=` 차단을 여기 그대로 다시 적어야 한다. 빼면 크롤
+#    예산을 먹던 RSC 페이로드가 이 봇들에게만 다시 열린다.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
+User-agent: Bytespider
+User-agent: CCBot
+Allow: /
+Disallow: /*?_rsc=
+Disallow: /*&_rsc=
+Disallow: /blog/api/
+Disallow: /blog/_next/data/
+Disallow: /blog/_next/image
+Disallow: /blog/admin/
+
 Sitemap: https://www.aihavit.com/sitemap.xml
 Sitemap: https://www.aihavit.com/blog/sitemap.xml
