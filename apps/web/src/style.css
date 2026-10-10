@@ -462,9 +462,16 @@ a {
   letter-spacing: -2px;
   margin: 0 0 24px;
 }
+/* H1 둘째 줄은 첫 줄(카테고리)을 받쳐 주는 보조 주장이다. 같은 64px 검정이면
+   둘이 한 덩어리로 읽혀 위계가 없다. 크기만 낮추고 색은 검정을 유지한다 —
+   회색으로 빼면 핵심 주장이 비활성처럼 보인다.
+   밑줄 마스크 높이도 글자 크기에 맞춰 20px → 16px 로 줄인다. 안 줄이면
+   작아진 글자에 비해 형광펜이 너무 두꺼워 글자를 가로지른다. */
 .hero__headline-underline {
   position: relative;
   display: inline-block;
+  font-size: 44px;
+  letter-spacing: -1px;
 }
 .hero__headline-underline::after {
   content: '';
@@ -472,7 +479,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0px;
-  height: 20px;
+  height: 16px;
   background-color: var(--color-primary);
   -webkit-mask: url('/src/assets/images/underline-keepmuscle.svg') center / 100% 100% no-repeat;
   mask: url('/src/assets/images/underline-keepmuscle.svg') center / 100% 100% no-repeat;
@@ -961,16 +968,15 @@ a {
   justify-content: center;
   flex-shrink: 0;
 }
-.case-card__nick {
+/* 마스킹 닉네임(“레**” 등)을 뺐다. 한국인 참가자라 한글 한 글자가 아바타와
+   닉네임에 그대로 들어가, data-i18n 도 없이 34개 로케일 전 페이지에 한글로
+   나가고 있었다. 익명 닉네임은 신뢰에 기여하는 바가 없어 성별·나이만 남긴다.
+   그래서 who 가 카드 헤더 역할을 넘겨받는다. */
+.case-card__who {
   margin: 0;
   font-size: 15px;
   font-weight: 700;
   color: var(--color-black);
-}
-.case-card__who {
-  margin: 2px 0 0;
-  font-size: 12px;
-  color: var(--color-grey-60);
 }
 .case-card__loss {
   font-size: 40px;
@@ -1113,13 +1119,11 @@ a {
 }
 /* RTL 에서 "−8.7 kg" 가 "kg 8.7−" 로 뒤집히지 않도록 수치 칸만 LTR 로 고정한다. */
 [dir='rtl'] .case-card__loss,
-[dir='rtl'] .case-card__nick,
 [dir='rtl'] .case-card__metric-row strong {
   direction: ltr;
   unicode-bidi: isolate;
 }
-[dir='rtl'] .case-card__loss,
-[dir='rtl'] .case-card__nick {
+[dir='rtl'] .case-card__loss {
   text-align: right;
 }
 /* EXPERTISE */
@@ -1614,6 +1618,36 @@ a {
 .floating-card--bottom {
   bottom: 80px;
   right: -60px;
+}
+/* 카드는 폰 프레임 밖으로 좌우 60px 씩 튀어나와 있다. 데스크톱은 양옆이 비어
+   문제가 없지만, 좁은 화면에서는 프레임이 뷰포트를 거의 꽉 채워서 그 60px 이
+   화면 밖으로 나간다 — 실측으로 390px 에서 왼쪽 카드 left:-36px(“50%” 의 5 가
+   잘려 “0%” 로 보인다), 오른쪽 카드 right:426px(“up to 3 times” 가 잘린다).
+   `.affiliate-hero` 바깥은 body 의 overflow-x:hidden 이 받아내므로 스크롤 대신
+   그냥 사라진다. 수수료율은 이 페이지에서 가장 중요한 정보라 잘리면 안 된다.
+   실측상 500px 이상에서는 기존 값으로도 안 잘려서, 코드베이스의 기존 중단점을
+   따라 640px 이하에서만 프레임 안쪽으로 당긴다. */
+@media (max-width: 640px) {
+  .floating-card {
+    max-width: min(200px, 52vw);
+    padding: 12px 14px;
+    border-radius: 16px;
+  }
+  .floating-card__icon {
+    font-size: 22px;
+    margin-bottom: 6px;
+  }
+  .floating-card__value {
+    font-size: 22px;
+  }
+  .floating-card--top {
+    top: 24px;
+    left: 0;
+  }
+  .floating-card--bottom {
+    bottom: 48px;
+    right: 0;
+  }
 }
 
 /* AFFILIATE PAGE — WHO SHOULD JOIN */
