@@ -122,9 +122,10 @@ function faqKeys(baseHtml) {
  *
  * The slogan below has to be the headline the page actually shows, in the
  * page's own language — so it is looked up rather than hard-coded. Reading the
- * key out of the markup also survives the key being renamed: it is still named
- * `lost-weight-keep-muscle` from a tagline the site dropped in #89, and a
- * literal here would silently return '' the day someone fixes that.
+ * key out of the markup also survives the key being renamed: it used to be
+ * called `lost-weight-keep-muscle` after a tagline the site dropped in #89, and
+ * a literal here would have silently returned '' the day it was renamed. It is
+ * now `hero-headline`, and this function still does not care.
  */
 function heroKey(baseHtml) {
   const m = /<h1[^>]*\sdata-i18n="([^"]+)"/i.exec(baseHtml)
@@ -210,6 +211,22 @@ export function renderSeoHead({ locale, dict, baseHtml, title, description, url,
       description,
       url: APP,
       applicationCategory: 'HealthApplication',
+      // 추천형 질의("다이어트 앱 추천해줘")는 카테고리 명사로 매칭된다. 페이지가 이미
+      // 하는 일을 분류어로 한 번 더 적어 두는 것이고, 없는 기능을 적지는 않는다.
+      applicationSubCategory: [
+        'Weight Loss', 'Diet & Nutrition Tracking', 'Calorie Counter',
+        'AI Coaching', 'Body Composition Tracking', 'Habit Tracking',
+        'GLP-1 Companion',
+      ],
+      featureList: [
+        'AI coach that returns one concrete action per day',
+        'Photo-based meal logging with estimated calories and nutrients',
+        'Estimated body composition trends',
+        'Daily missions and streaks',
+        'Daily check-in for condition, sleep, appetite and mood',
+        'Guided meditation and workout videos',
+        'Meals, hydration, workouts, sleep, steps, cycle, mood and GLP-1 in one app',
+      ],
       operatingSystem: 'iOS, Android',
       inLanguage: lang,
       publisher: { '@id': `${SITE}/#organization` },
