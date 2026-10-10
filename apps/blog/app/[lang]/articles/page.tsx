@@ -8,6 +8,7 @@ import { localizedCategory } from '@/lib/category-labels';
 import { toFullLang } from '@/lib/i18n';
 import { ALL_CATEGORIES, categorySlug } from '@/lib/categories';
 import { SITE } from '@/lib/site';
+import { articlesMetaDescription } from '@/lib/meta-descriptions';
 
 export const dynamicParams = false;
 export const revalidate = 600;
@@ -50,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ROUTE_LANGS.includes(params.lang as RouteLang)) return { title: 'Not Found — HAVIT Blog' };
   const lang = params.lang as RouteLang;
   const title = `${TITLE[lang]} — HAVIT Blog`;
-  const description = TAGLINE[lang];
+  const description = articlesMetaDescription(lang, listArticlesForLang(lang).filter((i) => i.native).length);
   const url = `${SITE}/${lang}/articles`;
   return {
     title,
