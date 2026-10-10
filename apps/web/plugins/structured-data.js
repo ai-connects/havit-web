@@ -41,12 +41,17 @@ const OG_IMAGE_H = 630
  * 영어로 고정돼 있었다. 크롤러는 URL 당 한 번 긁고 캐시하므로, 로케일 URL
  * (`/ko/`)을 공유하면 그 언어 카드가 그대로 따라간다.
  *
- * 영어만 `/og-card.png` 에 남긴다. public/{eula,terms,refund,privacy}.html 과
- * affiliate/index.html 이 그 URL 을 직접 들고 있고, 이미 밖에 뿌려져 캐시된
- * 링크들도 그 URL 을 가리킨다 — 옮기면 그 카드들이 전부 깨진다.
+ * 영어도 `/og/en.png` 로 보낸다. 파일을 갈아끼우면서 URL 을 그대로 두면 안 된다 —
+ * 카카오톡은 og:image **URL 단위로 이미지를 캐시**하고, HTML 은 다시 읽어도 그 캐시는
+ * 안 버린다. app.aihavit.com 이 실제로 그렇게 당했다: 같은 `og-image.png` URL 의 내용만
+ * 세 번 갈아끼웠더니 2026-10-11 에도 2026-03-23 자 카드가 그대로 떴다(제목만 새것).
+ * 로케일 카드 33장이 멀쩡히 나온 건 `/og/<locale>.png` 가 전부 새 경로였기 때문이다.
+ *
+ * `/og-card.png` 파일 자체는 남겨 둔다. 밖에 뿌려져 그 URL 을 캐시한 링크가 404 를
+ * 만나면 미리보기가 통째로 비는 클라이언트가 있다.
  */
 export function ogImageUrl(locale) {
-  return locale === DEFAULT_LOCALE ? `${SITE}/og-card.png` : `${SITE}/og/${locale}.png`
+  return `${SITE}/og/${locale}.png`
 }
 
 /**
