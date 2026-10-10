@@ -9,6 +9,7 @@ import { localizedCategory } from '@/lib/category-labels';
 import { toFullLang } from '@/lib/i18n';
 import { ALL_CATEGORIES, categoryValueBySlug } from '@/lib/categories';
 import { SITE } from '@/lib/site';
+import { categoryMetaDescription } from '@/lib/meta-descriptions';
 
 export const dynamicParams = false;
 export const revalidate = 600;
@@ -52,7 +53,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const lang = params.lang as RouteLang;
   const name = localizedCategory(value, lang);
   const title = `${name} — HAVIT Blog`;
-  const description = `${name} · HAVIT Blog`;
+  const titles = listArticlesForLang(lang)
+    .filter((i) => i.native && i.category === value)
+    .map((i) => i.title);
+  const description = categoryMetaDescription(lang, name, titles);
   const url = `${SITE}/${lang}/category/${params.slug}`;
   return {
     title,

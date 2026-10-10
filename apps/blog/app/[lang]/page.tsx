@@ -14,6 +14,7 @@ import { ALL_CATEGORY_ICON } from '@/lib/category-icons';
 import { articleImage } from '@/lib/article-images';
 import { BRAND_SAME_AS } from '@/lib/team';
 import { SITE } from '@/lib/site';
+import { homeMetaDescription } from '@/lib/meta-descriptions';
 
 export const revalidate = 600;
 
@@ -132,7 +133,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ROUTE_LANGS.includes(params.lang as RouteLang)) return { title: 'Not Found — HAVIT Blog' };
   const lang = params.lang as RouteLang;
   const title = HOME_TITLE[lang];
-  const description = HERO_TAGLINE[lang];
+  const description = homeMetaDescription(lang, listArticlesForLang(lang).filter((i) => i.native).length);
   const url = `${SITE}/${lang}`;
   return {
     title,

@@ -327,6 +327,8 @@ export interface ArticleListItem {
   title: string;
   tldr?: string;
   meta_description?: string;
+  /** false = 이 언어 원고가 없어 영어 폴백으로 보여 주는 글 */
+  native: boolean;
 }
 
 export function listArticlesForLang(shortLang: string, limit?: number): ArticleListItem[] {
@@ -343,6 +345,7 @@ export function listArticlesForLang(shortLang: string, limit?: number): ArticleL
       title: r.content.title,
       tldr: r.content.tldr,
       meta_description: r.content.meta_description,
+      native: r.fallback !== true,
     });
     if (limit && items.length >= limit) break;
   }
