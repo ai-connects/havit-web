@@ -2,7 +2,7 @@ import { readFileSync, readdirSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { ogImageUrl, renderSeoHead } from './structured-data.js'
-import { DEFAULT_LOCALE, LOCALE_META, LOCALES } from './locales.js'
+import { AFFILIATE_LOCALES, DEFAULT_LOCALE, LOCALE_META, LOCALES } from './locales.js'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
 const I18N_DIR = resolve(HERE, '../src/i18n')
@@ -137,6 +137,60 @@ export function localeUrl(locale) {
 }
 
 /**
+ * i18n 을 태우는 페이지들.
+ *
+ * 예전엔 index.html 하나만 돌렸다. 제휴 모집 페이지(/affiliate/)는 "영어 전용,
+ * 의도적" 이라는 주석과 함께 파이프라인 밖에 있었는데, 프로그램을 다국어로 돌리기로
+ * 하면서 들어왔다. 소스를 하나 더 받을 수 있게 테이블로 뺀다 — 세 번째 페이지가
+ * 생겨도 여기 한 줄이면 된다.
+ *
+ * `path` 가 로케일별 경로를 만든다. 영어는 접두사가 없다(루트가 곧 영어판).
+ */
+export const I18N_PAGES = [
+  {
+    bundle: 'index.html',
+    source: 'index.html',
+    path: (l) => (l === DEFAULT_LOCALE ? '/' : `/${l}/`),
+    titleKey: '__title',
+    descKey: '__description',
+  },
+  {
+    bundle: 'affiliate/index.html',
+    source: 'affiliate/index.html',
+    path: (l) => (l === DEFAULT_LOCALE ? '/affiliate/' : `/${l}/affiliate/`),
+    titleKey: '__affiliate_title',
+    descKey: '__affiliate_description',
+    locales: AFFILIATE_LOCALES,
+  },
+]
+
+const HOME_PAGE = I18N_PAGES[0]
+
+/**
+ * 이 페이지를 실제로 찍을 로케일.
+ *
+ * 홈은 로케일 사전이 있으면 전부 찍는다. 홈이 아닌 페이지는 **그 페이지의 문구가
+ * 번역돼 있는 로케일만** 찍는다 — 번역이 없으면 translateBody 가 영어를 그대로
+ * 두기 때문에, `/de/affiliate/` 가 독일어 내비게이션에 영어 본문인 페이지로 나간다.
+ * 그건 페이지가 없는 것보다 나쁘다: 중복 콘텐츠이고, hreflang 이 "독일어판" 이라고
+ * 거짓을 선언하게 된다.
+ *
+ * 목록은 plugins/locales.js 의 AFFILIATE_LOCALES 하나뿐이다 — 미들웨어도 같은
+ * 목록을 봐야 존재하지 않는 경로로 302 를 쏘지 않는다.
+ */
+export function localesFor(page) {
+  const all = translatedLocales()
+  if (!page.locales) return all
+  const allowed = new Set(page.locales)
+  return all.filter((l) => allowed.has(l))
+}
+
+/** 이 페이지의 로케일판 절대 URL. */
+function pageUrl(page, locale) {
+  return `${SITE}${page.path(locale)}`
+}
+
+/**
  * Swap every `data-i18n` element's inner HTML for the localized string.
  *
  * Values may contain inline markup (`<br>`, the underline `<span>`, the mailto
@@ -169,20 +223,20 @@ function translateBody(html, dict) {
  * strings in the markup rather than a dictionary, so the schema builder needs
  * the original to resolve a key when `dict` is empty.
  */
-function translateHead(html, locale, dict, baseHtml) {
+function translateHead(html, locale, dict, baseHtml, page) {
   const meta = LOCALE_META[locale]
   // Arabic and Hebrew need dir="rtl"; every other locale must not carry a stale
   // dir attribute, so the whole <html …> tag is rewritten rather than patched.
   const dirAttr = meta.dir ? ` dir="${meta.dir}"` : ''
   html = html.replace(/<html\b[^>]*>/i, `<html lang="${meta.htmlLang}"${dirAttr}>`)
 
-  if (dict.__title) {
-    html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${dict.__title}</title>`)
+  if (dict[page.titleKey]) {
+    html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${dict[page.titleKey]}</title>`)
   }
-  if (dict.__description) {
+  if (dict[page.descKey]) {
     html = html.replace(
       /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
-      `<meta name="description" content="${dict.__description}" />`,
+      `<meta name="description" content="${dict[page.descKey]}" />`,
     )
   }
 
@@ -198,13 +252,15 @@ function translateHead(html, locale, dict, baseHtml) {
   html = html.replace(/\s*<!-- i18n:alternates -->[\s\S]*?<!-- \/i18n:alternates -->/i, '')
   html = html.replace(/\s*<!-- i18n:seo -->[\s\S]*?<!-- \/i18n:seo -->/i, '')
 
+  // 이 페이지의 로케일판끼리 묶는다. 홈의 alternate 를 제휴 페이지에 달면 서로 다른
+  // 문서를 번역본이라고 선언하는 꼴이라 구글이 hreflang 묶음을 통째로 무시한다.
   const links = [
-    `    <link rel="canonical" href="${localeUrl(locale)}" />`,
-    ...translatedLocales().map(
+    `    <link rel="canonical" href="${pageUrl(page, locale)}" />`,
+    ...localesFor(page).map(
       (l) =>
-        `    <link rel="alternate" hreflang="${LOCALE_META[l].hreflang}" href="${localeUrl(l)}" />`,
+        `    <link rel="alternate" hreflang="${LOCALE_META[l].hreflang}" href="${pageUrl(page, l)}" />`,
     ),
-    `    <link rel="alternate" hreflang="x-default" href="${localeUrl(DEFAULT_LOCALE)}" />`,
+    `    <link rel="alternate" hreflang="x-default" href="${pageUrl(page, DEFAULT_LOCALE)}" />`,
   ].join('\n')
 
   // Whatever survived the rewrites above is what the page actually says, so the
@@ -219,7 +275,7 @@ function translateHead(html, locale, dict, baseHtml) {
     baseHtml,
     title,
     description,
-    url: localeUrl(locale),
+    url: pageUrl(page, locale),
     localeMeta: meta,
   })
 
@@ -261,9 +317,13 @@ function injectFooterArticles(html, locale) {
  * `?lang=en` is the explicit override the middleware honours; the root page's
  * own entry stays a clean `/` because being there already sets the cookie.
  */
-function langHref(target, current) {
-  if (target !== DEFAULT_LOCALE) return `/${target}/`
-  return current === DEFAULT_LOCALE ? '/' : '/?lang=en'
+export function langHref(target, current, page = HOME_PAGE) {
+  if (target === current) return page.path(target)
+  // 전환은 `?lang=` 으로 보낸다 — middleware 가 그 쿼리를 보고 hv_lang 쿠키를 갱신한다.
+  // 경로로 직행하면 쿠키가 그대로 남아 "방금 고른 언어"와 "저장된 선택"이 어긋난다.
+  // 보고 있던 페이지는 유지한다 — 제휴 페이지에서 언어를 바꾸면 제휴 페이지의 그
+  // 언어판으로 간다.
+  return `${page.path(current)}?lang=${target}`
 }
 
 /**
@@ -271,10 +331,10 @@ function langHref(target, current) {
  * it has to be generated rather than hand-maintained, and generating it per page
  * lets the current locale be marked with aria-current.
  */
-function renderLangMenu(html, locale) {
-  const items = translatedLocales().map((l) => {
+function renderLangMenu(html, locale, page) {
+  const items = localesFor(page).map((l) => {
     const cur = l === locale ? ' aria-current="true"' : ''
-    return `<a href="${langHref(l, locale)}"${cur}>${LOCALE_META[l].native}</a>`
+    return `<a href="${langHref(l, locale, page)}"${cur}>${LOCALE_META[l].native}</a>`
   }).join('')
   return html.replace(
     /(<div class="lang-switch__menu">)[\s\S]*?(<\/div>)/i,
@@ -283,12 +343,12 @@ function renderLangMenu(html, locale) {
 }
 
 /** Root-relative asset paths already work from /<locale>/, so nothing to rewrite. */
-export function renderLocale(baseHtml, locale) {
+export function renderLocale(baseHtml, locale, page = HOME_PAGE) {
   const dict = locale === DEFAULT_LOCALE ? {} : loadDict(locale)
   const { html, missing } = locale === DEFAULT_LOCALE
     ? { html: baseHtml, missing: 0 }
     : translateBody(baseHtml, dict)
-  const withHead = renderLangMenu(translateHead(html, locale, dict, baseHtml), locale)
+  const withHead = renderLangMenu(translateHead(html, locale, dict, baseHtml, page), locale, page)
   return { html: localizeBlogLinks(injectFooterArticles(withHead, locale), locale), missing }
 }
 
@@ -308,15 +368,20 @@ export default function i18nHtml() {
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
         const path = (req.url || '').split('?')[0]
-        const m = /^\/([a-z-]+)\/?$/.exec(path)
-        const locale = path === '/' ? DEFAULT_LOCALE : m && m[1]
+        // `/ko/affiliate/` 를 먼저 본다 — `/affiliate/` 가 로케일 패턴에도 걸리므로
+        // 순서를 바꾸면 'affiliate' 를 로케일 이름으로 읽는다.
+        const aff = /^\/(?:([a-z-]+)\/)?affiliate\/?$/.exec(path)
+        const home = /^\/([a-z-]+)\/?$/.exec(path)
+        const hit = aff
+          ? { page: I18N_PAGES[1], locale: aff[1] || DEFAULT_LOCALE }
+          : { page: HOME_PAGE, locale: path === '/' ? DEFAULT_LOCALE : home && home[1] }
+        const { page, locale } = hit
         if (!locale || !translatedLocales().includes(locale)) return next()
         try {
-          const raw = readFileSync(resolve(HERE, '../index.html'), 'utf-8')
-          const url = locale === DEFAULT_LOCALE ? '/' : `/${locale}/`
-          const transformed = await server.transformIndexHtml(url, raw)
-          const { html, missing } = renderLocale(transformed, locale)
-          if (missing) server.config.logger.warn(`[i18n] ${locale}: ${missing} missing keys`)
+          const raw = readFileSync(resolve(HERE, '..', page.source), 'utf-8')
+          const transformed = await server.transformIndexHtml(page.path(locale), raw)
+          const { html, missing } = renderLocale(transformed, locale, page)
+          if (missing) server.config.logger.warn(`[i18n] ${locale} ${page.source}: ${missing} missing keys`)
           res.setHeader('Content-Type', 'text/html')
           res.end(html)
         } catch (e) {
@@ -327,19 +392,28 @@ export default function i18nHtml() {
 
     /** Build: emit one extra HTML file per non-default locale. */
     generateBundle(_options, bundle) {
-      const index = bundle['index.html']
-      if (!index) return
-      const base = typeof index.source === 'string' ? index.source : index.source.toString()
+      for (const page of I18N_PAGES) {
+        const entry = bundle[page.bundle]
+        if (!entry) {
+          this.warn(`[i18n] ${page.bundle} 이 번들에 없다 — vite.config.js 의 input 을 확인할 것`)
+          continue
+        }
+        const base = typeof entry.source === 'string' ? entry.source : entry.source.toString()
 
-      // The default locale still needs canonical + hreflang injected.
-      const root = renderLocale(base, DEFAULT_LOCALE)
-      index.source = root.html
+        // The default locale still needs canonical + hreflang injected.
+        entry.source = renderLocale(base, DEFAULT_LOCALE, page).html
 
-      for (const locale of translatedLocales()) {
-        if (locale === DEFAULT_LOCALE) continue
-        const { html, missing } = renderLocale(base, locale)
-        if (missing) this.warn(`[i18n] ${locale}: ${missing} keys missing from src/i18n/${locale}.json`)
-        this.emitFile({ type: 'asset', fileName: `${locale}/index.html`, source: html })
+        for (const locale of localesFor(page)) {
+          if (locale === DEFAULT_LOCALE) continue
+          const { html, missing } = renderLocale(base, locale, page)
+          if (missing) {
+            this.warn(`[i18n] ${locale} ${page.source}: ${missing} keys missing from src/i18n/${locale}.json`)
+          }
+          // page.path() 는 '/ko/affiliate/' 처럼 슬래시로 감싸져 있다 — 파일명으로
+          // 쓰려면 앞뒤를 떼고 index.html 을 붙인다.
+          const fileName = `${page.path(locale).replace(/^\/|\/$/g, '')}/index.html`
+          this.emitFile({ type: 'asset', fileName, source: html })
+        }
       }
     },
   }

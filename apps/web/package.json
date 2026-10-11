@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run check:tokens && vite build",
+    "build": "npm run check:tokens && npm run check:affiliate-locales && npm run check:lang-switcher && vite build",
     "preview": "vite preview",
-    "check:tokens": "node ../../packages/design/check.mjs"
+    "check:tokens": "node ../../packages/design/check.mjs",
+    "check:affiliate-locales": "node scripts/check-affiliate-locales.mjs",
+    "check:lang-switcher": "node scripts/check-lang-switcher.mjs"
   },
   "devDependencies": {
     "vite": "^8.2.0"

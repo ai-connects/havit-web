@@ -64,3 +64,24 @@ export const LOCALE_META = {
 }
 
 export const LOCALES = Object.keys(LOCALE_META)
+
+/**
+ * 제휴 모집 페이지(/affiliate/)가 번역된 로케일.
+ *
+ * 홈은 34개 전부지만 이 페이지는 집합이 다르다. 번역이 없는 로케일에 페이지를
+ * 찍으면 그 언어 내비게이션에 영어 본문인 문서가 나가고, hreflang 이 "그 언어판"
+ * 이라고 거짓을 선언한다 — 페이지가 없는 것보다 나쁘다.
+ *
+ * **미들웨어와 빌드가 같은 목록을 봐야 한다.** 여기만 두는 이유다. 미들웨어는
+ * 엣지 런타임이라 src/i18n/*.json 을 읽을 수 없어서 사전에서 추론할 수 없고,
+ * 목록이 갈라지면 `/affiliate/` 가 존재하지 않는 `/ru/affiliate/` 로 302 를
+ * 쏘면서 404 가 된다. 실제로 그렇게 깨졌었다.
+ *
+ * scripts/check-affiliate-locales.mjs 가 이 목록과 실제 번역을 대조한다.
+ * 언어를 추가할 때는 src/i18n/<locale>.json 에 aff-* 키를 넣고 여기 한 줄 추가.
+ *
+ * 현재 집합은 블로그가 서빙하는 10개 언어와 같다.
+ */
+export const AFFILIATE_LOCALES = [
+  'en', 'ko', 'ja', 'zh-cn', 'zh-tw', 'es', 'pt', 'id', 'de', 'fr',
+]

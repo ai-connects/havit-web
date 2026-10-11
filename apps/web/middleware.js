@@ -1,5 +1,5 @@
 import { next } from '@vercel/functions'
-import { DEFAULT_LOCALE, LOCALES } from './plugins/locales.js'
+import { AFFILIATE_LOCALES, DEFAULT_LOCALE, LOCALES } from './plugins/locales.js'
 
 /**
  * Send first-time visitors on `/` to the edition their device asks for.
@@ -138,9 +138,42 @@ function redirect(to, locale, { setCookie = true } = {}) {
   return new Response(null, { status: 302, headers })
 }
 
+/**
+ * 제휴 모집 페이지도 34개 로케일로 나간다(`/affiliate/`, `/ko/affiliate/` …).
+ *
+ * `/affiliate/` 는 루트와 같은 성질이다 — 그 자체가 영어판이고, 기기 언어에 따라
+ * 번역판으로 보낸다. `/ko/affiliate/` 같은 로케일판은 이미 어느 판인지 분명하므로
+ * 라우팅하지 않고 **`?lang=` 전환만** 받는다(`/ko/` 를 matcher 에 안 넣는 것과 같다).
+ */
+const AFFILIATE = /^\/(?:([a-z-]+)\/)?affiliate\/?$/
+
+/**
+ * 제휴 페이지가 실제로 존재하는 로케일. 홈(34개)보다 좁다.
+ *
+ * 이 집합을 안 보면 러시아어 기기가 `/affiliate/` 를 열었을 때 `/ru/affiliate/`
+ * 로 302 를 받고 404 를 만난다 — 실제로 그렇게 깨졌었다. 없는 언어는 영어판에
+ * 그대로 둔다.
+ */
+const AFFILIATE_SERVED = new Set(AFFILIATE_LOCALES)
+
 export default function middleware(request) {
   const url = new URL(request.url)
   const isBlogRoot = url.pathname === '/blog' || url.pathname === '/blog/'
+  const affiliate = AFFILIATE.exec(url.pathname)
+  // 언어 세그먼트가 붙은 제휴 페이지인가(= 라우팅 대상이 아님).
+  const isLocalizedAffiliate = Boolean(affiliate && affiliate[1])
+
+  /**
+   * 이 요청이 보고 있는 페이지의, 주어진 로케일판 경로.
+   * 제휴 페이지는 번역이 있는 로케일만 존재하므로, 없으면 영어판을 돌려준다.
+   */
+  const pathFor = (locale) => {
+    if (affiliate) {
+      const served = AFFILIATE_SERVED.has(locale) ? locale : DEFAULT_LOCALE
+      return served === DEFAULT_LOCALE ? '/affiliate/' : `/${served}/affiliate/`
+    }
+    return locale === DEFAULT_LOCALE ? '/' : `/${locale}/`
+  }
 
   /**
    * `?lang=` is the explicit override, and the language menu on every localized
@@ -153,11 +186,9 @@ export default function middleware(request) {
     if (locale) {
       // Redirect even for `en` — the response has to carry Set-Cookie, and the
       // cookie is what stops the next `/` visit from forwarding again.
-      const to = isBlogRoot
-        ? `/blog/${toBlogLang(locale)}`
-        : locale === DEFAULT_LOCALE
-          ? '/'
-          : `/${locale}/`
+      // 보던 페이지를 유지한 채 언어만 바꾼다 — 제휴 페이지에서 고르면 제휴
+      // 페이지의 그 언어판으로 간다.
+      const to = isBlogRoot ? `/blog/${toBlogLang(locale)}` : pathFor(locale)
       return redirect(to, locale)
     }
   }
@@ -186,25 +217,42 @@ export default function middleware(request) {
    * 다른 언어면 그 판으로 보낸다. 아직 없으면 기기 언어로 판단한다.
    * 어느 쪽이든 쿠키를 다시 심지는 않는다 — 이미 있는 선택을 덮어쓸 이유가 없다.
    */
+  // `/ko/affiliate/` 는 이미 한국어판이다. 여기까지 왔다는 건 `?lang=` 이 없었다는
+  // 뜻이므로 아무것도 하지 않는다 — `/ko/` 를 matcher 에서 뺀 것과 같은 이유다.
+  if (isLocalizedAffiliate) return next()
+
+  // pathFor 가 폴백한 결과가 지금 보고 있는 경로와 같으면 보내지 않는다 —
+  // `/affiliate/` 에서 러시아어 기기는 영어판으로 폴백되므로 자기 자신으로
+  // 302 를 쏘는 무한 루프가 된다.
+  const goOrStay = (locale, opts) => {
+    const to = pathFor(locale)
+    if (to === url.pathname || (affiliate && to === '/affiliate/' && !affiliate[1])) return next()
+    return redirect(to, locale, opts)
+  }
+
   const stored = request.headers.get('cookie')?.match(/(?:^|;\s*)hv_lang=([^;]+)/)?.[1]
   if (stored) {
     const locale = toLocale(stored.toLowerCase())
     if (!locale || locale === DEFAULT_LOCALE) return next()
-    return redirect(`/${locale}/`, locale, { setCookie: false })
+    return goOrStay(locale, { setCookie: false })
   }
 
   const locale = pickLocale(request.headers.get('accept-language'))
   if (!locale || locale === DEFAULT_LOCALE) return next()
 
-  return redirect(`/${locale}/`, locale)
+  return goOrStay(locale)
 }
 
 /**
- * 루트와 블로그 루트만. 로케일 페이지·/affiliate/·법적 고지·에셋, 그리고
- * `/blog/<lang>/...` 아래 전부는 이미 어느 판인지 분명하므로 건너뛴다.
+ * 루트·블로그 루트·제휴 페이지만. 홈의 로케일 페이지(`/ko/`)·법적 고지·에셋,
+ * 그리고 `/blog/<lang>/...` 아래 전부는 이미 어느 판인지 분명하므로 건너뛴다.
+ *
+ * `/:locale/affiliate/` 를 넣은 건 라우팅 때문이 아니라 **`?lang=` 전환을 받기
+ * 위해서다**. 언어 메뉴가 `/ko/affiliate/?lang=en` 을 가리키는데, 이 경로가
+ * matcher 에 없으면 쿼리가 무시돼 쿠키가 갱신되지 않는다.
  * `/blog/` 도 넣은 이유는 슬래시 정규화 리다이렉트를 한 번 더 타지 않게
  * 하려는 것 — 미들웨어가 vercel.json 보다 먼저 돌아 한 홉으로 끝난다.
  */
 export const config = {
-  matcher: ['/', '/blog', '/blog/'],
+  matcher: ['/', '/blog', '/blog/', '/affiliate/', '/:locale/affiliate/'],
 }
