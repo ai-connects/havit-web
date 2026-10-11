@@ -11,7 +11,15 @@
  * their own dates because they genuinely only change when the document does.
  */
 
-import { LOCALES, LOCALE_META, DEFAULT_LOCALE, localeUrl, translatedLocales } from './i18n-html.js'
+import {
+  LOCALES,
+  LOCALE_META,
+  DEFAULT_LOCALE,
+  I18N_PAGES,
+  localeUrl,
+  localesFor,
+  translatedLocales,
+} from './i18n-html.js'
 
 const SITE = 'https://www.aihavit.com'
 
@@ -29,12 +37,14 @@ const DOCUMENTS = [
 ]
 
 /**
- * Real pages that are not locale twins of index.html. They are rebuilt on every
- * deploy like the locale pages are, but their content only changes when someone
- * edits them — so they get an explicit date for the same reason DOCUMENTS do,
- * rather than claiming a fresh lastmod on every unrelated release.
+ * i18n 을 태우는 페이지 중 홈이 아닌 것들. 홈과 달리 내용이 자주 안 바뀌므로
+ * DOCUMENTS 와 같은 이유로 명시 날짜를 쓴다 — 무관한 배포마다 lastmod 를 새로
+ * 주장하지 않기 위해서다.
+ *
+ * 경로는 I18N_PAGES 에서 가져온다. 사이트맵에만 손으로 적어 두면 로케일이
+ * 늘거나 경로가 바뀔 때 둘이 어긋난다.
  */
-const PAGES = [{ path: '/affiliate/', lastmod: '2026-08-25', priority: '0.6' }]
+const EXTRA_PAGE_META = { 'affiliate/index.html': { lastmod: '2026-08-25', priority: '0.6' } }
 
 function today() {
   return new Date().toISOString().slice(0, 10)
@@ -46,20 +56,21 @@ function today() {
  * valid, but the blog's sitemap annotates too and matching it means one rule to
  * remember instead of two.
  */
-function alternates() {
-  const locales = translatedLocales()
+function alternates(page) {
+  const url = (l) => `${SITE}${page.path(l)}`
   return [
-    ...locales.map(
+    ...localesFor(page).map(
       (l) =>
-        `    <xhtml:link rel="alternate" hreflang="${LOCALE_META[l].hreflang}" href="${localeUrl(l)}" />`,
+        `    <xhtml:link rel="alternate" hreflang="${LOCALE_META[l].hreflang}" href="${url(l)}" />`,
     ),
-    `    <xhtml:link rel="alternate" hreflang="x-default" href="${localeUrl(DEFAULT_LOCALE)}" />`,
+    `    <xhtml:link rel="alternate" hreflang="x-default" href="${url(DEFAULT_LOCALE)}" />`,
   ].join('\n')
 }
 
 function buildSitemap() {
   const stamp = today()
-  const alt = alternates()
+  const [home, ...extraPages] = I18N_PAGES
+  const homeAlt = alternates(home)
 
   const localeUrls = translatedLocales().map((l) =>
     [
@@ -68,7 +79,7 @@ function buildSitemap() {
       `    <lastmod>${stamp}</lastmod>`,
       '    <changefreq>weekly</changefreq>',
       `    <priority>${l === DEFAULT_LOCALE ? '1.0' : '0.8'}</priority>`,
-      alt,
+      homeAlt,
       '  </url>',
     ].join('\n'),
   )
@@ -84,16 +95,24 @@ function buildSitemap() {
     ].join('\n'),
   )
 
-  const pageUrls = PAGES.map((p) =>
-    [
-      '  <url>',
-      `    <loc>${SITE}${p.path}</loc>`,
-      `    <lastmod>${p.lastmod}</lastmod>`,
-      '    <changefreq>monthly</changefreq>',
-      `    <priority>${p.priority}</priority>`,
-      '  </url>',
-    ].join('\n'),
-  )
+  // 홈이 아닌 i18n 페이지도 로케일 수만큼 URL 이 나온다. 각 URL 은 자기 페이지의
+  // alternate 묶음을 단다 — 홈의 묶음을 달면 서로 다른 문서를 번역본이라 선언하는
+  // 꼴이라 구글이 hreflang 을 통째로 무시한다.
+  const pageUrls = extraPages.flatMap((page) => {
+    const meta = EXTRA_PAGE_META[page.bundle]
+    const alt = alternates(page)
+    return localesFor(page).map((l) =>
+      [
+        '  <url>',
+        `    <loc>${SITE}${page.path(l)}</loc>`,
+        `    <lastmod>${meta.lastmod}</lastmod>`,
+        '    <changefreq>monthly</changefreq>',
+        `    <priority>${meta.priority}</priority>`,
+        alt,
+        '  </url>',
+      ].join('\n'),
+    )
+  })
 
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
