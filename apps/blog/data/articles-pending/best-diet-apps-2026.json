@@ -10,105 +10,117 @@
   "primary_keyword_ko": "다이어트 앱 추천 2026 다이어트 앱 비교 칼로리 앱",
   "langs": {
     "en": {
-      "title": "Best Diet Apps in 2026: An Honest Buyer's Guide to the Five Types",
-      "short_title": "Best Diet Apps 2026: Honest Buyer's Guide",
-      "meta_description": "No single app wins. Sort the market into five types — food database, behaviour programme, fast logging, fasting + coaching, composition + lifestyle — and pick by your own problem. With seven criteria, a comparison table, and where each one (including ours) falls short.",
-      "tldr": "Pick by type, not by ranking. Decide whether your problem is information, execution, speed, or everything-at-once — then judge the finalists on one question: will you still be logging in six weeks?",
-      "body_md": "*Honest disclosure: HAVIT publishes this blog. We include HAVIT below and we also say plainly where it loses. Every app here is judged on the same seven criteria, and none of them is the right answer for everyone.*\n\n*Medical disclaimer: this article is for educational purposes and is not medical advice. Follow the instructions from your prescribing clinician and pharmacist, and never change a dose because of what an app shows.*\n\n\"What's the best diet app?\" has no answer, because the apps in this category are not trying to do the same job. One is a food database. One is a psychology course. One is a medication companion. One is a body-composition tracker. Asking which is best is like asking whether a dictionary beats a grammar teacher.\n\nSo this guide does something narrower and more useful. It defines the seven criteria that research links to actually losing weight and keeping it off, sorts the market into five genuine types, and tells you which type fits which person. Then you pick.\n\n## The one thing that predicts success, regardless of app\n\nBefore any feature comparison, one finding should reframe how you choose: **self-monitoring is the behaviour most consistently associated with weight loss**. A systematic review of 22 self-monitoring studies — 15 of them on food logging specifically — found that association consistently, though the reviewers rated the strength of the evidence as weak given the study designs ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)).\n\nRead that carefully, because it is not a feature claim. It says the *act of recording* carries the effect. The app's job is to make recording survivable for months — not to have the biggest food database.\n\nThis is why the single best predictor of whether an app will work for you is boring: **will you still open it in week six?** Most people answer that question by downloading, not by reading. Which is fine — but it means the criteria below matter more than any star rating.\n\n## 7 criteria that actually matter\n\nWeight these by your own situation. Someone with a demanding job needs criterion 2 far more than criterion 5.\n\n### 1. Does it measure the thing you actually care about?\n\nMost people say \"lose weight\" and mean \"look and feel better\" — which is mostly a body-composition change, not a scale change. Scale weight moves with water, glycogen, salt and the menstrual cycle, and BMI misclassifies a large share of people when checked against actual cardiometabolic markers ([Tomiyama et al., *International Journal of Obesity*, 2016](https://www.nature.com/articles/ijo201617)).\n\nIf an app shows you only one number and that number is bodyweight, it will tell you that you failed on days you did not.\n\n### 2. How long does one log take?\n\nThe honest unit of measurement is seconds, not features. Barcode scanning, photo logging, recent-meal shortcuts and voice entry all exist to attack the same problem: a log that takes two minutes gets abandoned, a log that takes ten seconds does not.\n\nTest this during the free trial with your actual food — not with a chicken breast, but with the mixed, home-cooked, hard-to-weigh meal you actually eat on a Tuesday.\n\n### 3. Does it tell you what to do next, or only what you did?\n\nA tracker reports. A coach prescribes. Both are legitimate, but they suit different people. If you already know what to change and need the discipline, a tracker is enough and a coach is noise. If you have tracked for years and still plateau, the missing piece is not more data.\n\n### 4. Is the behaviour-change method real or decorative?\n\nStreaks, badges and missions are implementations of established behaviour-change techniques — goal setting, self-monitoring, feedback, habit formation — catalogued in a standard taxonomy ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)). They work when they are tied to a specific behaviour you chose. They are decorative when the only thing a streak measures is whether you opened the app.\n\n### 5. Does it handle the rest of your life?\n\nSleep, stress, alcohol, menstrual cycle, steps, and medication all move appetite and weight. An app that models food alone will read a bad week as a willpower failure when it was a four-hour-sleep week.\n\n### 6. What happens to your data?\n\nWeight, food and cycle data are among the most sensitive categories a phone holds. Check the store listing's data-safety section before you commit months of logging to it, and prefer apps that let you export and delete.\n\n### 7. What does it cost after the trial?\n\nPricing in this category changes often enough that any number printed in an article is wrong within months. Check the live store listing. The question worth asking is not the price — it is whether the paywall sits in front of the one feature you downloaded the app for.\n\n## The five kinds of diet app\n\nAlmost every app in this market is one of five types. Naming the type tells you more than any ranking.\n\n*App characteristics as described here are as of October 2026 — features in this category change often, so check the live store listing before you commit.*\n\n| Type | What it optimises for | Representative apps | Best for | The trade-off |\n| --- | --- | --- | --- | --- |\n| Food database | Breadth and accuracy of food entries | MyFitnessPal, Cronometer, FatSecret | People who want precise macro and micronutrient numbers | Reports the past; does not tell you what to change |\n| Behaviour programme | Psychology, lessons, coaching | Noom, WeightWatchers | People who know the information and cannot execute it | Heavier time cost; subscription-led |\n| Fast logging / AI capture | Seconds per log | Cal AI, photo-first loggers | People who abandoned tracking because it was slow | Estimates from photos are approximations |\n| Fasting + coaching | A fasting pattern plus an always-on coach | Simple.Life | People who respond to a clear eating window | BMI and fasting-pattern centric; no body-composition estimate |\n| Composition + lifestyle | Body composition plus sleep, cycle, mood, medication | HAVIT | People whose weight is tangled up with sleep, stress, cycle or GLP-1 | Smaller food database than the specialists |\n\nNo type dominates. A person who weighs and logs precisely is poorly served by a photo-first app; a person who has quit three trackers is poorly served by a bigger database.\n\n## Matching the app to your situation\n\n**You have never tracked before.** Start with fast logging. Accuracy matters less than establishing the habit, and the research above says the habit is the active ingredient.\n\n**You have tracked for years and plateaued.** More precision will not help. You need either a behaviour programme or a composition-plus-lifestyle app, because the missing variable is probably not food.\n\n**You are on a GLP-1 medication.** You need protein tracking and medication logging in the same place. The lean-mass share of weight lost on GLP-1 therapy varies widely between trials — 40–60% in some, 15% or less in others ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/)) — and lean mass is not the same as muscle, since it also counts organs, bone and fluid. Either way, a scale cannot show you which end you are on.\n\n**You are managing a medical condition.** Use whichever app your clinician can read, and treat every app estimate as an estimate.\n\n**Your weight tracks your sleep and stress more than your diet.** A food-only app will keep blaming you for the wrong thing.\n\n## Where each approach falls short — including ours\n\nA buyer's guide that finds no fault with its publisher's product is an advertisement. So, plainly:\n\n- **Food databases** are unbeaten on nutrient depth. If you need verified micronutrient data — for a clinical diet, a deficiency, or competitive sport — use one. HAVIT does not try to match Cronometer here.\n- **Behaviour programmes** have the strongest structured-curriculum argument. If you want human coaching and scheduled lessons, that is their design and not ours.\n- **Photo-first apps** are the fastest path from meal to log. Any photo-derived calorie figure, ours included, is an estimate and should be read as a range.\n- **HAVIT** has a smaller food database than MyFitnessPal or Cronometer, its body-composition figures are AI estimates and not DEXA or InBody measurements, and it is a wellness app rather than a medical device. If you want one verified number rather than a daily trend, we are the wrong tool.\n\n## The bottom line\n\nPick by type, not by ranking. Decide first whether your problem is *information*, *execution*, *speed*, or *everything-at-once*, and the field narrows to two or three candidates immediately. Then judge the finalists on one question only: will you still be logging in six weeks?\n\nThat question — not the database size, not the price — is the one the evidence actually cares about.\n\n## Why HAVIT — body composition and behaviour, in one place\n\nHAVIT exists for the fourth type: people whose weight is not a food problem in isolation.\n\nThe US Preventive Services Task Force gives a Grade B recommendation that clinicians offer or refer adults with a BMI of 30 or higher to intensive, multicomponent behavioural interventions ([USPSTF, 2018; the topic is currently under update](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). That recommendation is about clinician-delivered care, not apps. The principle we took from it is narrower: structure and repetition are the active parts. The Diabetes Prevention Program showed a structured lifestyle programme outperforming metformin on diabetes risk reduction, 58% versus 31% ([Knowler et al., *New England Journal of Medicine*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\nHAVIT puts AI body-composition estimates, meals, hydration, sleep, steps, cycle, mood and GLP-1 medication into one daily routine, then turns it into one concrete action a day. In our own analysis of 1,090 GLP-1 users, the people who logged most consistently built the strongest habits ([see the GLP-1 Habit Report](/en/glp-1-habit-report)).\n\nIt works with or without GLP-1 medication. It is a wellness app, not a medical device, and body-composition results are estimates.\n\n[Try HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Best Diet Apps in 2026: Every Major App, Reviewed One by One",
+      "short_title": "Best Diet Apps 2026",
+      "meta_description": "HAVIT, Noom, WeightWatchers, MyFitnessPal and Simple.Life — each taken apart: what it is built for, food database, body composition, cycle, GLP-1, and who it suits. Checked against store listings, October 2026.",
+      "tldr": "There is no best diet app, because they are not the same shape. But if food, sleep, stress and cycle are all tangled together, running four apps is the problem — the pieces have to see each other first.",
+      "body_md": "\"What's the best diet app?\" has no single answer, because the apps in this category are not trying to do the same job. One is a food database. One is a psychology course. One is a fasting timer. One tracks what your body is actually made of.\n\nSo this guide takes them one at a time — what each is built for, what it does well, where it falls down, and who it suits. Checked against store listings and current as of October 2026.\n\n![Progress is easier to see when the pieces are in one place](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_TRACK_001.jpg)\n\n## Three questions before you pick\n\n**1. Does it measure weight, or what you are made of?** Most people say \"lose weight\" and mean \"look and feel better\" — a body-composition change. Scale weight swings on water, salt and cycle. An app that shows one number, and that number is bodyweight, will tell you that you failed on days you did not.\n\n**2. Is there anything after the log?** A tracker reports; a coach prescribes. If nothing ever tells you what to change, around week five it becomes bookkeeping.\n\n**3. Does it see the rest of your life?** Sleep, stress, cycle and medication all move appetite. A food-only app reads a four-hour-sleep week as a willpower failure.\n\n## HAVIT — everything in one app, and a coach that reads all of it\n\n| | |\n| --- | --- |\n| Maker | Havit Inc. |\n| Price | Free · in-app purchases |\n| Tracks | Meals, hydration, workouts, sleep, steps, cycle, mood, GLP-1 |\n| Food database | ~486,000 entries (432,418 USDA branded + 41,218 Korea MFDS + 12,671 curated) |\n| Languages | 35 |\n\n![HAVIT's AI coach reads every log and returns one concrete action](/blog/havit/shot/feature-ai-coach.webp)\n\nMost people end up running four apps: one for calories, one for workouts, one for meditation, one for cycle. **HAVIT puts all of it in one place — and the AI coach reads all of it together.**\n\nThat is what lets it answer a stalled week. *Protein under target four days running, two nights under six hours, and the week before your period — these three are connected, and here is the one to fix first.* Four separate apps cannot produce that sentence, because none of them can see the other three.\n\n### Logging in seconds\n\n![AI Food Scan — photograph a meal, get an estimated breakdown](/blog/havit/shot/feature-nutrition.webp)\n\n**AI Food Scan** turns a photo into an estimated calorie and nutrient breakdown. The database behind it is drawn from **public food authorities** — 432,418 USDA branded foods and more — rather than user uploads, so you can say where a number came from.\n\n### Body composition, not just weight\n\n![Body insights — fat and lean trends](/blog/havit/shot/feature-body-insights.webp)\n\nHAVIT estimates **fat and lean mass trends** with no hardware, and publishes an internal comparison against InBody (n=70). It is an estimate, not a DEXA reading.\n\nIt matters most on GLP-1 therapy, where the lean-mass share of weight lost has been reported at **40–60%** in some trials and a scale reports that as success. **Dose, side effects and protein** are logged in the same app.\n\n### What keeps you going\n\n**Daily missions** turn behaviour-change techniques into one action for today. The **daily check-in** takes condition, sleep, appetite and mood in a few taps, so the coach knows what kind of day it is before it asks anything. Streaks, badges, avatars, ranks and **team challenges** sit on top.\n\n![Guided meditation for cravings, sleep, calm, focus, breathing and gratitude](/blog/havit/shot/feature-mind-recovery.webp)\n\n**Six guided-meditation tracks**, **workout video**, **1,400+ articles**, and **fasting** — same app. Built with experts from Juvis Diet, Korea's leading diet clinic.\n\n**Who it suits:** people tired of running four apps; people who log but don't know what to change; people whose weight is tangled up with sleep, stress or cycle; people on a GLP-1.\n\n## Noom — psychology curriculum and a human coach\n\n| | |\n| --- | --- |\n| Maker | Noom, Inc. |\n| Price | Subscription |\n| Food database | ~100,000 entries |\n\n![Structure is what Noom actually sells](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n**What it does well.** A colour-coded food system and a daily curriculum, plus **a human coach you can message**. Not an AI pretending — an actual person. For people who know what to do and still don't do it, that structure is the product.\n\n**Where it falls down.** The highest price bracket in this category. Its ~100,000-entry database is a fraction of MyFitnessPal's. Body composition, cycle and medication are out of scope.\n\n**Who it suits:** people who need to be accountable to a person.\n\n## WeightWatchers — the points system, decades in\n\n| | |\n| --- | --- |\n| Price | Subscription |\n\n**What it does well.** The points system is the most tested simplification in this field: one number per food, no macro maths. Workshops and community are real assets for people who want other humans involved.\n\n**Where it falls down.** Points abstract away the detail some people need, and the programme runs on its own structure rather than yours.\n\n**Who it suits:** people who want one simple number and a community.\n\n## MyFitnessPal — the biggest food database\n\n| | |\n| --- | --- |\n| Price | Free · Premium subscription |\n| Database | 14M+ entries, heavily user-submitted |\n\n**What it does well.** Breadth no one matches — chain restaurants, obscure brands, foreign products. Mature barcode scanning.\n\n**Where it falls down.** That breadth is user-submitted, so one product appears many times at different values. It reports; it does not prescribe.\n\n**Who it suits:** people who eat a lot of packaged and restaurant food.\n\n## Simple.Life — built around the eating window\n\n| | |\n| --- | --- |\n| Price | Subscription |\n\n**What it does well.** A fasting pattern plus an always-on AI coach (Avo). Simple to follow if a clear eating window is what works for you.\n\n**Where it falls down.** BMI and fasting-pattern centric — **no body-composition estimate.** Cycle and medication are out of scope.\n\n**Who it suits:** people for whom *when* they eat matters more than *what*.\n\n## Side by side\n\n| App | Food database | Body composition | Cycle | GLP-1 | Meditation & workouts | Coach |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **~486k, public sources** | **Estimated** | **Yes** | **Yes** | **Yes** | **AI, reads all 8 logs** |\n| Noom | ~100k | No | No | No | Content only | Human |\n| WeightWatchers | Points-based | No | No | No | Community | Workshops |\n| MyFitnessPal | 14M+, user-submitted | No | No | Basic logging | No | Limited |\n| Simple.Life | Moderate | **No** | No | No | No | AI, fasting-led |\n\nApp characteristics as of October 2026. Plans and features change often — check the store listing.\n\n## Matching the app to your situation\n\n**You are running four apps and sick of it** → HAVIT. Meals, hydration, workouts, sleep, steps, cycle, mood and medication, plus meditation and workout video, in one place.\n\n**You know what to do and don't do it** → Noom or WeightWatchers. Structure and other people.\n\n**You want one simple number** → WeightWatchers.\n\n**You eat mostly packaged and restaurant food** → MyFitnessPal.\n\n**Your plan is an eating window** → Simple.Life, or HAVIT's fasting feature.\n\n**You are on a GLP-1** → HAVIT. Dose, side effects, protein and body composition in one view.\n\n## The bottom line\n\nThere is no best app, because the apps are not the same shape. But if your problem is not one thing — if food, sleep, stress and cycle are all tangled together — then running four apps is the problem, not the solution. The pieces have to be able to talk to each other before anything can explain your week.\n\n[Try HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "DPP: structured lifestyle programme vs metformin, diabetes risk reduction",
-          "value": "58% vs 31%",
-          "source": "Knowler et al. 2002, NEJM (n=3,234)"
+          "label": "HAVIT food database",
+          "value": "~486,000 entries",
+          "source": "432,418 USDA branded + 41,218 Korea MFDS + 12,671 curated"
+        },
+        {
+          "label": "Noom food database",
+          "value": "~100,000 entries",
+          "source": "App Store listing, checked October 2026"
+        },
+        {
+          "label": "MyFitnessPal food entries",
+          "value": "14M+",
+          "source": "Heavily user-submitted"
         },
         {
           "label": "Lean-mass share of weight lost on GLP-1 therapy",
-          "value": "40–60% in some trials, ≤15% in others",
-          "source": "Neeland et al. 2024, Diabetes Obes Metab — range across trials; lean mass ≠ muscle"
-        },
-        {
-          "label": "Studies in the self-monitoring review (15 of them on food logging)",
-          "value": "22 studies",
-          "source": "Burke et al. 2011, J Am Diet Assoc — evidence level rated weak by the authors"
-        },
-        {
-          "label": "USPSTF recommendation grade for intensive behavioural intervention in obesity",
-          "value": "Grade B",
-          "source": "U.S. Preventive Services Task Force"
+          "value": "40–60% in some trials",
+          "source": "Neeland et al. 2024, Diabetes Obes Metab"
         }
       ],
       "comparison_table": {
-        "title": "The five kinds of diet app in 2026",
+        "title": "Side by side",
         "headers": [
-          "Type",
-          "Optimises for",
-          "Representative apps",
-          "Best for",
-          "Trade-off"
+          "App",
+          "Food database",
+          "Body composition",
+          "Cycle",
+          "GLP-1",
+          "Meditation & workouts",
+          "Coach"
         ],
         "rows": [
           [
-            "Food database",
-            "Breadth and accuracy of food entries",
-            "MyFitnessPal, Cronometer, FatSecret",
-            "Precise macro and micronutrient numbers",
-            "Reports the past; does not prescribe"
-          ],
-          [
-            "Behaviour programme",
-            "Psychology, lessons, coaching",
-            "Noom, WeightWatchers",
-            "Knowing the information but not executing it",
-            "Higher time cost; subscription-led"
-          ],
-          [
-            "Fast logging / AI capture",
-            "Seconds per log",
-            "Cal AI, photo-first loggers",
-            "People who quit tracking because it was slow",
-            "Photo-derived figures are estimates"
-          ],
-          [
-            "Fasting + coaching",
-            "A fasting pattern plus an always-on coach",
-            "Simple.Life",
-            "People who respond to a clear eating window",
-            "BMI and fasting-pattern centric; no body-composition estimate"
-          ],
-          [
-            "Composition + lifestyle",
-            "Body composition plus sleep, cycle, mood, medication",
             "HAVIT",
-            "Weight tangled up with sleep, stress, cycle or GLP-1",
-            "Smaller food database than the specialists"
+            "~486k, public sources",
+            "Estimated",
+            "Yes",
+            "Yes",
+            "Yes",
+            "AI, reads all 8 logs"
+          ],
+          [
+            "Noom",
+            "~100k",
+            "No",
+            "No",
+            "No",
+            "Content only",
+            "Human"
+          ],
+          [
+            "WeightWatchers",
+            "Points-based",
+            "No",
+            "No",
+            "No",
+            "Community",
+            "Workshops"
+          ],
+          [
+            "MyFitnessPal",
+            "14M+, user-submitted",
+            "No",
+            "No",
+            "Basic logging",
+            "No",
+            "Limited"
+          ],
+          [
+            "Simple.Life",
+            "Moderate",
+            "No",
+            "No",
+            "No",
+            "No",
+            "AI, fasting-led"
           ]
         ],
-        "caption": "App characteristics as of October 2026. Type, not ranking, is the useful axis — each row is unbeaten at its own job and weak outside it."
+        "caption": "App characteristics as of October 2026. Plans and features change often — check the store listing."
       },
       "faq": [
         {
           "question": "What is the best diet app in 2026?",
-          "answer": "There is no single best one, because these apps do different jobs. Decide first whether your problem is information (use a food database like Cronometer or MyFitnessPal), execution (a behaviour programme like Noom), speed (a photo-first logger), or the interaction between weight, sleep, cycle and medication (a composition-and-lifestyle app such as HAVIT). The type decides the shortlist; the question of whether you will still be logging in six weeks decides the winner."
+          "answer": "They are not the same shape, so there is no single winner. If your problem is one thing — finding foods, or sticking to a plan — a specialist is fine. If food, sleep, stress and cycle are tangled together, an app that tracks all of them and reads them together is the better fit, because four separate apps cannot explain a stalled week to each other."
         },
         {
-          "question": "Which diet app is best for a beginner who has never tracked food?",
-          "answer": "Pick whichever one makes a single log take about ten seconds. Accuracy matters less at the start than establishing the habit — a systematic review of 22 studies found self-monitoring itself to be consistently associated with weight loss. A rough app you keep using beats a precise one you abandon in week two."
+          "question": "Noom vs WeightWatchers — which is better?",
+          "answer": "Both sell structure, differently. Noom runs a psychology curriculum with a human coach you can message. WeightWatchers runs a points system plus workshops and community. Noom suits people who want one-to-one accountability; WeightWatchers suits people who want one simple number per food and other humans around."
         },
         {
-          "question": "Do diet apps actually work?",
-          "answer": "The logging behaviour they support has solid evidence behind it; the apps themselves vary. Self-monitoring is consistently linked with weight loss, and structured behavioural programmes outperformed metformin on diabetes risk in the Diabetes Prevention Program (58% vs 31%). An app helps to the extent that it keeps you doing that for months."
+          "question": "Which diet app tracks body composition instead of just weight?",
+          "answer": "Very few. Most work from scale weight and BMI — Simple.Life included. HAVIT estimates fat and lean mass trends from your own inputs with no hardware and publishes an internal comparison against InBody (n=70). Treat it as a trend over weeks, not a verified measurement."
         },
         {
           "question": "What is the best diet app if I am on Ozempic, Wegovy or Mounjaro?",
-          "answer": "You need protein tracking and medication logging in the same place. The lean-mass share of weight lost on GLP-1 therapy ranges from 40–60% in some trials to 15% or less in others, and a bathroom scale shows you none of it. (Lean mass is not the same as muscle — it also counts organs, bone and fluid.) A generic calorie counter will not flag that; a GLP-1-aware app will."
+          "answer": "One that keeps protein, dose and body composition in the same place. The lean-mass share of weight lost on GLP-1 therapy has been reported at 40–60% in some trials, and a bathroom scale reports that as success. Lean mass is not the same as muscle — it includes organs, bone and fluid — but either way the scale cannot show you which end you are on."
         },
         {
-          "question": "Is a free diet app good enough?",
-          "answer": "Often yes, for logging. The question worth asking is not the price but where the paywall sits — if the one feature you downloaded the app for is behind it, the free tier is a trial, not a product. Pricing in this category changes frequently, so check the live store listing rather than any figure printed in an article."
+          "question": "Are there diet apps that track the menstrual cycle too?",
+          "answer": "Not many. HAVIT tracks cycle alongside meals, sleep, steps and mood, and its coach reads them together — so a week when appetite moved with your cycle is not read as a willpower failure. Most calorie-first apps leave cycle out entirely."
         },
         {
-          "question": "Which app tracks body composition rather than just weight?",
-          "answer": "Far fewer than you would expect — most weight-loss apps, Simple.Life included, work from scale weight and BMI. HAVIT is the one in this list that estimates body composition. Be clear on what that is: a consumer app produces an estimate, not a DEXA or InBody measurement, and it is useful for a trend over weeks rather than for a single verified number."
+          "question": "Do I need to pay?",
+          "answer": "Not to start. MyFitnessPal has a free tier and HAVIT is free to download with in-app purchases. Noom and WeightWatchers are subscription-led because the thing you are buying is coaching and programme structure. Plans change often, so compare the current offers on the store listing."
         }
       ],
       "references": [
@@ -151,105 +163,129 @@
       "last_updated": "2026-10-11"
     },
     "ko": {
-      "title": "2026 다이어트 앱 추천 — 다섯 가지 유형으로 고르는 솔직한 구매 가이드",
-      "short_title": "2026 다이어트 앱 추천 가이드",
-      "meta_description": "하나로 정해지는 앱은 없습니다. 음식 데이터베이스·행동 프로그램·빠른 기록·단식+코칭·체성분+생활, 다섯 유형으로 나눠 내 문제에 맞게 고르는 법. 7개 기준과 비교표, 그리고 각 유형(우리 것 포함)이 밀리는 지점까지.",
-      "tldr": "순위가 아니라 유형으로 고르세요. 내 문제가 정보인지·실행인지·속도인지·한꺼번에 보기인지 정한 다음, 마지막 질문 하나만 보면 됩니다. 6주 뒤에도 기록하고 있을까?",
-      "body_md": "*밝혀둡니다: 이 블로그는 HAVIT이 발행합니다. 아래에 HAVIT도 넣었고, 어디서 밀리는지도 그대로 적었습니다. 모든 앱을 같은 7개 기준으로 봤고, 모두에게 정답인 앱은 없습니다.*\n\n*의료 면책: 이 글은 교육 목적이며 의학적 조언이 아닙니다. 처방한 의료진과 약사의 지시를 따르시고, 앱에 표시된 내용을 근거로 용량을 바꾸지 마세요.*\n\n\"다이어트 앱 뭐가 제일 좋아요?\"에는 답이 없습니다. 이 카테고리의 앱들이 애초에 서로 다른 일을 하기 때문입니다. 어떤 건 음식 데이터베이스고, 어떤 건 심리 프로그램이고, 어떤 건 약 복용 기록장이고, 어떤 건 체성분 추적기입니다. 뭐가 더 좋냐고 묻는 건 사전이 문법 선생님보다 나으냐고 묻는 것과 비슷합니다.\n\n그래서 이 글은 범위를 좁힙니다. 연구가 실제 감량·유지와 연결지은 7개 기준을 정의하고, 시장을 다섯 가지 실제 유형으로 나누고, 어떤 유형이 어떤 사람에게 맞는지까지만 말합니다. 고르는 건 본인 몫입니다.\n\n## 앱과 무관하게, 성공을 가장 잘 예측하는 한 가지\n\n기능 비교보다 먼저 알아야 할 결과가 하나 있습니다. **기록 자체가 감량과 가장 일관되게 연결된 행동**이라는 겁니다. 자기 기록 연구 22건(그중 15건이 식단 기록)을 묶은 체계적 문헌고찰에서 그 연관이 일관되게 확인됐습니다. 다만 저자들은 연구 설계의 한계 때문에 **근거 수준 자체는 약하다**고 적었습니다 ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)).\n\n이건 기능 자랑이 아닙니다. **기록하는 행위 자체**에 효과가 실려 있다는 뜻입니다. 그러니 앱이 할 일은 음식 데이터베이스를 제일 크게 만드는 게 아니라, 기록을 몇 달 동안 버틸 만하게 만드는 겁니다.\n\n그래서 이 앱이 나한테 맞을지를 가장 잘 알려주는 질문은 싱겁습니다. **6주 뒤에도 이 앱을 열고 있을까?** 대부분은 이 질문에 글이 아니라 설치로 답합니다. 그래도 괜찮습니다 — 다만 그렇기 때문에 아래 기준들이 별점보다 중요합니다.\n\n## 실제로 중요한 7가지 기준\n\n본인 상황에 맞게 가중치를 다르게 두세요. 야근이 잦은 사람에게는 2번이 5번보다 훨씬 중요합니다.\n\n### 1. 내가 정말 신경 쓰는 걸 재고 있나\n\n\"살 빼고 싶다\"고 말할 때 사람들이 실제로 원하는 건 대개 \"몸이 달라 보이고 가뿐해지는 것\"입니다. 그건 체중 변화라기보다 체성분 변화입니다. 체중은 수분·글리코겐·염분·생리주기에 따라 움직이고, BMI는 실제 대사 지표와 대조하면 상당수의 사람을 잘못 분류합니다 ([Tomiyama et al., *International Journal of Obesity*, 2016](https://www.nature.com/articles/ijo201617)).\n\n숫자를 하나만 보여주는데 그 숫자가 체중이라면, 그 앱은 실패하지 않은 날에도 실패했다고 말하게 됩니다.\n\n### 2. 한 끼 기록에 몇 초 걸리나\n\n기준은 기능 개수가 아니라 초입니다. 바코드 스캔, 사진 기록, 최근 식단 불러오기, 음성 입력은 전부 같은 문제를 겨냥한 장치입니다. 2분 걸리는 기록은 버려지고, 10초 걸리는 기록은 안 버려집니다.\n\n무료 체험 기간에 **본인이 실제로 먹는 음식**으로 시험해 보세요. 닭가슴살 말고, 화요일 저녁에 실제로 먹는, 여러 가지가 한 그릇에 섞인 그 집밥으로요.\n\n### 3. 한 일을 알려주나, 할 일을 알려주나\n\n트래커는 보고하고 코치는 처방합니다. 둘 다 쓸모 있지만 맞는 사람이 다릅니다. 뭘 바꿔야 할지 이미 알고 실행력만 필요하다면 트래커로 충분하고 코치는 소음입니다. 몇 년을 기록했는데도 정체라면, 부족한 건 데이터가 아닙니다.\n\n### 4. 행동변화 설계가 진짜인가, 장식인가\n\n스트릭·배지·미션은 목표 설정, 자기 기록, 피드백, 습관 형성 같은 검증된 행동변화기법을 구현한 것입니다. 표준 분류 체계까지 있습니다 ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)). 내가 고른 특정 행동에 묶여 있을 때 작동합니다. 스트릭이 재는 게 \"앱을 열었는지\"뿐이라면 그건 장식입니다.\n\n### 5. 식사 말고 나머지 삶도 다루나\n\n수면, 스트레스, 술, 생리주기, 걸음, 복약은 전부 식욕과 체중을 움직입니다. 음식만 보는 앱은 네 시간 자고 버틴 한 주를 의지 부족으로 읽습니다.\n\n### 6. 내 데이터는 어떻게 되나\n\n체중·식사·생리주기는 휴대폰에 담기는 가장 민감한 정보에 속합니다. 몇 달치 기록을 맡기기 전에 스토어 페이지의 데이터 안전 섹션을 확인하고, 내보내기와 삭제가 되는 앱을 고르세요.\n\n### 7. 체험 끝나면 얼마인가\n\n이 카테고리는 가격이 자주 바뀌어서, 글에 적힌 숫자는 몇 달이면 틀립니다. 실시간 스토어 페이지를 보세요. 중요한 건 가격 자체가 아니라, **내가 이 앱을 설치한 이유인 그 기능이 결제창 뒤에 있는지**입니다.\n\n## 다이어트 앱의 다섯 가지 유형\n\n이 시장의 거의 모든 앱은 다섯 중 하나입니다. 순위보다 유형을 아는 게 훨씬 쓸모 있습니다.\n\n*여기 적은 앱 특성은 2026년 10월 기준입니다. 이 카테고리는 기능이 자주 바뀌니 결제 전에 스토어 페이지를 확인하세요.*\n\n| 유형 | 무엇에 최적화됐나 | 대표 앱 | 어떤 사람에게 | 감수할 점 |\n| --- | --- | --- | --- | --- |\n| 음식 데이터베이스 | 음식 데이터의 양과 정확도 | MyFitnessPal, Cronometer, FatSecret | 정확한 매크로·미량영양소 숫자가 필요한 사람 | 지난 일을 보고할 뿐, 뭘 바꿀지는 안 알려줌 |\n| 행동 프로그램 | 심리·레슨·코칭 | Noom, WeightWatchers | 알긴 아는데 실행이 안 되는 사람 | 시간 비용이 크고 구독 중심 |\n| 빠른 기록 / AI 인식 | 기록 1건당 초 | Cal AI, 사진 우선 기록 앱 | 느려서 기록을 포기했던 사람 | 사진 기반 수치는 추정치 |\n| 단식 + 코칭 | 단식 패턴과 상시 코치 | Simple.Life | 먹는 시간대를 정하면 잘 되는 사람 | BMI·단식 패턴 중심, 체성분 추정 없음 |\n| 체성분 + 생활 | 체성분에 수면·주기·기분·복약까지 | HAVIT | 체중이 수면·스트레스·주기·GLP-1과 얽힌 사람 | 음식 DB는 전문 앱보다 작음 |\n\n어느 유형도 압도적이지 않습니다. 무게 재서 정확히 기록하는 사람에게 사진 우선 앱은 답답하고, 트래커를 세 번 그만둔 사람에게 더 큰 데이터베이스는 소용없습니다.\n\n## 내 상황에 맞는 유형 고르기\n\n**기록을 한 번도 안 해봤다면.** 빠른 기록부터. 정확도보다 습관이 먼저입니다. 위 연구가 말하는 유효 성분이 바로 그 습관입니다.\n\n**몇 년 기록했는데 정체라면.** 더 정밀해져도 안 풀립니다. 행동 프로그램이나 체성분+생활 쪽이 필요합니다. 빠진 변수가 음식이 아닐 가능성이 큽니다.\n\n**GLP-1 약을 쓰고 있다면.** 단백질 기록과 복약 기록이 한 곳에 있어야 합니다. GLP-1 치료로 빠진 체중 중 제지방이 차지하는 비율은 연구마다 편차가 큽니다 — 40~60%인 연구도 있고 15% 이하인 연구도 있습니다 ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/)). 제지방은 근육과 같은 말이 아닙니다. 장기·뼈·체수분이 함께 들어가고, 저자들은 이 변화의 상당 부분을 적응적 반응으로 봅니다, 그건 체중계가 보여줄 수 없는 바로 그 부분입니다.\n\n**질환을 관리 중이라면.** 담당 의료진이 읽을 수 있는 앱을 쓰고, 앱의 모든 수치는 추정치로 다루세요.\n\n**체중이 식단보다 수면·스트레스를 따라 움직인다면.** 음식만 보는 앱은 계속 엉뚱한 걸 탓합니다.\n\n## 각 접근이 밀리는 지점 — 우리 것 포함\n\n발행사 제품에서 아무 단점도 못 찾는 구매 가이드는 광고입니다. 그래서 그대로 적습니다.\n\n- **음식 데이터베이스**는 영양소 깊이에서 안 집니다. 임상 식이, 결핍 관리, 시합을 앞둔 선수처럼 검증된 미량영양소 데이터가 필요하면 이쪽을 쓰세요. HAVIT은 이 영역에서 Cronometer를 따라가려 하지 않습니다.\n- **행동 프로그램**은 짜인 커리큘럼이라는 점에서 가장 설득력이 있습니다. 사람 코치와 정해진 수업을 원한다면 그건 그쪽 설계지 우리 설계가 아닙니다.\n- **사진 우선 앱**은 식사에서 기록까지가 가장 빠릅니다. 사진으로 뽑은 칼로리 수치는 우리 것을 포함해 전부 추정치고, 범위로 읽어야 합니다.\n- **HAVIT**은 음식 데이터베이스가 MyFitnessPal이나 Cronometer보다 작고, 체성분 수치는 DEXA나 인바디 측정값이 아니라 AI 추정치이며, 의료기기가 아닌 웰니스 앱입니다. 매일의 추세가 아니라 검증된 숫자 하나가 필요하다면 저희는 맞는 도구가 아닙니다.\n\n## 정리\n\n순위가 아니라 유형으로 고르세요. 내 문제가 *정보*인지, *실행*인지, *속도*인지, *한꺼번에 보기*인지부터 정하면 후보가 바로 두세 개로 줄어듭니다. 그다음엔 질문 하나만 남습니다. **6주 뒤에도 기록하고 있을까?**\n\n데이터베이스 크기도, 가격도 아니고, 연구가 실제로 가리키는 건 그 질문입니다.\n\n## HAVIT을 만든 이유 — 체성분과 행동을 한곳에서\n\nHAVIT은 네 번째 유형을 위해 있습니다. 체중이 음식만의 문제가 아닌 사람들이요.\n\n미국 예방서비스특별위원회는 BMI 30 이상 성인에게 집중적·다요소 행동 중재를 **제공하거나 연계하라**고 권고합니다(Grade B) ([USPSTF, 2018 · 현재 갱신 진행 중](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). 이건 의료진이 전달하는 치료에 대한 권고지 앱에 대한 권고가 아닙니다. 여기서 가져온 원칙은 그보다 좁습니다 — **구조와 반복이 작동 성분**이라는 것. 당뇨병 예방 프로그램(DPP)에서는 구조화된 생활습관 프로그램이 당뇨 위험 감소에서 메트포르민을 앞섰습니다. 58% 대 31%였습니다 ([Knowler et al., *New England Journal of Medicine*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\nHAVIT은 AI 체성분 추정과 식사·수분·수면·걸음·생리주기·기분·GLP-1 복약을 하나의 일상 루틴으로 묶고, 거기서 **오늘 할 구체적인 행동 하나**를 꺼냅니다. 자체 분석한 GLP-1 사용자 1,090명 데이터에서, 가장 꾸준히 기록한 사람들이 가장 단단한 습관을 만들었습니다 ([GLP-1 습관 리포트 보기](/ko/glp-1-habit-report)).\n\nGLP-1 약을 쓰든 안 쓰든 사용할 수 있습니다. 의료기기가 아닌 웰니스 앱이고, 체성분 결과는 추정치입니다.\n\n[HAVIT 시작하기 →](https://www.aihavit.com/)\n",
+      "title": "2026 다이어트 앱 추천 — 앱별로 뜯어보고 고르는 법",
+      "short_title": "2026 다이어트 앱 추천",
+      "meta_description": "하비트·눔·밀리그램·MyFitnessPal·Simple.Life를 하나씩 뜯어봤습니다. 음식 DB 규모와 출처, 한국 음식 커버리지, 체성분·생리주기·GLP-1까지 — 평점과 가격은 스토어에서 직접 확인한 2026년 10월 기준입니다.",
+      "tldr": "유형이 다르니 \"제일 좋은 앱\"은 없습니다. 다만 음식도 수면도 스트레스도 주기도 얽혀 있다면, 앱 네 개를 쓰는 것보다 하나에서 연결해 보는 쪽이 맞습니다.",
+      "body_md": "\"다이어트 앱 뭐가 제일 좋아요?\"에는 답이 없습니다. 이 카테고리의 앱들이 애초에 서로 다른 일을 하기 때문입니다. 어떤 건 음식 데이터베이스고, 어떤 건 심리 코칭 프로그램이고, 어떤 건 단식 타이머고, 어떤 건 몸의 구성을 추적합니다.\n\n그래서 이 글은 **앱을 하나씩 뜯어봅니다.** 무엇을 위해 만들어졌는지, 잘하는 게 뭔지, 뭐가 아쉬운지, 어떤 사람에게 맞는지까지. 평점과 가격은 스토어에서 직접 확인한 2026년 10월 기준입니다.\n\n![기록이 쌓여야 뭘 바꿀지가 보인다](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_TRACK_001.jpg)\n\n## 고르기 전에 — 3가지\n\n**1. 체중만 보나, 몸의 구성을 보나.** \"살 빼고 싶다\"고 할 때 실제로 원하는 건 대개 체성분 변화입니다. 체중은 수분·염분·생리주기로 출렁입니다. 숫자 하나만 보여주는데 그게 체중이라면, 실패하지 않은 날에도 실패했다고 말하게 됩니다.\n\n**2. 기록 다음이 있나.** 트래커는 보고하고 코치는 처방합니다. 몇 주 기록했는데 \"뭘 바꿔야 하는지\" 아무도 말해주지 않으면 장부 쓰는 기분이 듭니다.\n\n**3. 음식 말고 나머지 삶도 다루나.** 수면, 스트레스, 생리주기, 복약은 전부 식욕을 움직입니다. 음식만 보는 앱은 네 시간 자고 버틴 한 주를 의지 부족으로 읽습니다.\n\n## 하비트(HAVIT) — 흩어진 걸 하나로 묶고, AI 코치가 전부를 읽습니다\n\n| | |\n| --- | --- |\n| 개발사 | 주식회사 하비트 (Havit Inc.) |\n| 가격 | 무료 · 앱 내 구입 |\n| 음식 DB | **약 486,000건** — USDA 432,418 + 식약처 41,218 + 자체 큐레이션 12,671 |\n| 지원 언어 | 35개 |\n| 플랫폼 | iOS · Android |\n\n![하비트 AI 코치 — 기록 전부를 읽고 오늘 할 행동 하나를 돌려준다](/blog/havit/shot/feature-ai-coach.webp)\n\n**다른 앱과 갈리는 지점은 하나입니다.** 보통 칼로리 앱 하나, 운동 앱 하나, 명상 앱 하나, 생리 앱 하나를 따로 씁니다. 하비트는 그걸 **한 앱에 담고, 그 전부를 AI 코치가 읽습니다.**\n\n기록하는 항목이 **여덟 가지**입니다 — 식사, 수분, 운동, 수면, 걸음, **생리주기**, 기분, **GLP-1 복약**. 그리고 코치가 이 전부를 같이 봅니다.\n\n그래서 정체된 한 주에 답을 낼 수 있습니다. *단백질이 나흘째 목표 아래였고, 이번 주 두 번은 6시간을 못 잤고, 생리 전 주다 — 셋은 연결돼 있고, 먼저 건드릴 건 이거다.* 음식만 보는 앱에는 이걸 볼 방법이 아예 없습니다.\n\n### 음식 DB — 크기가 아니라 출처\n\n![국내 가공식품은 식약처 데이터에서 나온다](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg)\n\n- **USDA 432,418건** — 미국 농무부 가공식품\n- **식약처 41,218건** — 한국 가공식품. **편의점·마트 제품이 여기서 나옵니다**\n- **자체 큐레이션 12,671건**\n\nMyFitnessPal은 1,400만 건이지만 대부분 사용자가 올린 항목이라 같은 제품이 여러 값으로 있습니다. 눔은 약 10만 건입니다. 하비트는 **공공 검증 데이터가 기반**이고, 국내 가공식품을 이 규모로 들고 있는 건 해외 앱이 따라오기 어려운 부분입니다.\n\n### 기록은 사진으로\n\n![AI 음식 스캔 — 사진 한 장으로 칼로리와 영양소 추정](/blog/havit/shot/feature-nutrition.webp)\n\n**AI 음식 스캔**으로 찍으면 끝납니다. 재료 열한 개짜리 집밥에서 기록을 포기하는 일이 여기서 줄어듭니다.\n\n### 체중 말고 몸의 구성\n\n![체성분 인사이트 — 체지방·근육 추세](/blog/havit/shot/feature-body-insights.webp)\n\n장비 없이 **체지방·근육 추세를 추정**합니다. 인바디를 기준으로 한 자체 비교 연구(n=70)를 공개하고 있습니다. GLP-1(위고비·오젬픽·마운자로·젭바운드)을 쓰는 중이면 특히 중요합니다 — 빠진 체중 중 제지방 비율이 연구에 따라 40~60%까지 보고되는데 체중계는 그걸 성공으로만 보고합니다. **용량·부작용·단백질**까지 같은 앱에서 기록합니다.\n\n### 계속하게 만드는 장치\n\n**데일리 미션**이 검증된 행동변화기법을 오늘 할 행동 하나로 바꿉니다. **데일리 체크인**은 컨디션·수면·식욕·기분을 몇 번 탭으로 받아, 코치가 뭘 요구하기 전에 오늘이 어떤 날인지부터 압니다. 여기에 연속 기록·배지·아바타·랭크·**팀 챌린지**가 붙습니다.\n\n### 숫자 말고 사람도\n\n![가이드 명상 — 식욕·수면·안정·집중·호흡·감사](/blog/havit/shot/feature-mind-recovery.webp)\n\n**가이드 명상이 6종**(식욕·수면·안정·집중·호흡·감사)으로 나뉘어 있고, **운동 영상**과 디스커버리의 **1,400개 이상 아티클**, **단식** 기능까지 같은 앱에 있습니다.\n\n### 만든 사람들\n\n**한국 1위 다이어트 클리닉 쥬비스 다이어트 출신 전문가들**과 함께 만들었습니다. 소프트웨어 이전에 사람을 상대로 이 일을 해온 쪽의 방법론이 들어가 있습니다.\n\n**이런 분께**: 앱 여러 개 쓰기 싫은 분, 기록은 하는데 뭘 바꿀지 모르겠는 분, 체중이 수면·스트레스·생리주기와 얽힌 분, GLP-1을 쓰는 분.\n\n## 눔(Noom) — 심리 커리큘럼과 사람 코치\n\n| | |\n| --- | --- |\n| 개발사 | Noom, Inc. |\n| 평점 | 4.1 · 5.7천개의 평가 (App Store) |\n| 가격 | 무료 · 앱 내 구입 (구독) |\n| 음식 DB | 약 10만 건 |\n\n![행동을 바꾸려면 구조가 필요하다](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n**잘하는 것.** 음식을 신호등으로 분류하고, 매일 읽을 콘텐츠가 커리큘럼으로 짜여 있습니다. **1:1 코치에게 메시지**를 보낼 수 있다는 게 가장 큰 차별점입니다. \"아는데 실행이 안 되는\" 사람에게 구조를 줍니다.\n\n**아쉬운 것.** 가격대가 높은 편입니다. 음식 DB는 10만 건이라 국내 제품 검색은 약합니다. 체성분·생리주기·복약은 범위 밖입니다.\n\n**이런 분께**: 정보는 충분한데 혼자서는 안 되는 분, 사람 코치에 돈을 쓸 의향이 있는 분.\n\n## 밀리그램 — 국내에서 가장 많이 쓰이는 기록 앱\n\n| | |\n| --- | --- |\n| 개발사 | (주)킬로 (KILO Inc.) |\n| 평점 | **4.8** · 3만개의 평가 (App Store) |\n| 가격 | 무료 · Pro 구독 / 평생 플랜 |\n\n![국내 음식 검색이 편하다](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n**잘하는 것.** 식단·운동·신체·물·수면·컨디션·생리를 한 곳에서 기록합니다. 국내 음식 검색이 편하고, AI 코치가 식단을 분석해 피드백을 줍니다. 같은 레벨 사용자끼리 겨루는 구조가 동기 유지에 붙어 있습니다. 가격도 합리적입니다.\n\n**아쉬운 것.** 체성분 추정이나 GLP-1 복약 기록처럼 **몸 상태 쪽 축**은 얇습니다. 명상·운동 영상 같은 회복 쪽도 범위 밖입니다.\n\n**이런 분께**: 국내 음식 위주로 가볍게 기록하고, 커뮤니티 동기부여를 원하는 분.\n\n## MyFitnessPal — 음식 데이터가 가장 많습니다\n\n| | |\n| --- | --- |\n| 개발사 | MyFitnessPal, Inc. |\n| 가격 | 무료 · Premium 유료 |\n| 음식 DB | 1,400만 건 이상 (대부분 사용자 입력) |\n\n**잘하는 것.** 해외 제품, 프랜차이즈 메뉴, 낯선 식재료까지 대개 나옵니다. 바코드 스캔이 오래돼서 안정적입니다.\n\n**아쉬운 것.** 크기가 사용자 입력에서 나온 거라 **같은 제품이 서로 다른 값으로 여러 개** 있습니다. 어느 항목을 고르냐로 하루 총합이 달라집니다. 기록 다음에 뭘 할지는 말해주지 않습니다.\n\n**이런 분께**: 포장식품·해외 제품을 자주 먹고, 항목을 직접 골라 쓸 수 있는 분.\n\n## Simple.Life — 먹는 시간대로 푸는 방식\n\n| | |\n| --- | --- |\n| 가격 | 무료 체험 · 구독 |\n| 특징 | 단식 패턴 + 상시 AI 코치(Avo) |\n\n**잘하는 것.** 먹는 시간대를 정해 두는 게 잘 맞는 사람에게는 단순해서 좋습니다. 코치가 24시간 붙어 있습니다.\n\n**아쉬운 것.** BMI와 단식 패턴 중심이라 **체성분 추정이 없습니다.** 생리주기·복약도 범위 밖입니다.\n\n**이런 분께**: 뭘 먹느냐보다 언제 먹느냐를 정하면 잘 되는 분.\n\n## 한눈에 비교\n\n| 앱 | 음식 DB | 한국 음식 | 체성분 | 생리주기 | GLP-1 | 명상·운동 | AI 코치 | 가격대 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **하비트** | **48.6만 (USDA+식약처)** | **강함** | **추정 제공** | **있음** | **있음** | **있음** | **전 데이터 연결** | 무료+인앱 |\n| 눔 | 10만 | 보통 | 없음 | 없음 | 없음 | 콘텐츠 중심 | 사람 코치 | 구독 (높은 편) |\n| 밀리그램 | 국내 중심 | **강함** | 없음 | 있음 | 없음 | 없음 | 식단 분석 | 무료+구독 |\n| MyFitnessPal | 1,400만(사용자) | 보통 | 없음 | 없음 | 기본 기록 | 없음 | 제한적 | 무료+Premium |\n| Simple.Life | 보통 | 약함 | **없음** | 없음 | 없음 | 없음 | 단식 코치 | 구독 |\n\n앱 특성은 2026년 10월 기준입니다. 요금제와 기능은 자주 바뀌니 결제 전에 스토어 페이지를 확인하세요.\n\n## 내 상황에 맞는 앱\n\n**앱 여러 개 쓰기 싫다** → 하비트. 식사·수분·운동·수면·걸음·생리주기·기분·복약에 명상·운동 영상까지 한 앱입니다.\n\n**아는데 실행이 안 된다** → 눔. 커리큘럼과 사람 코치가 구조를 줍니다.\n\n**국내 음식 위주로 가볍게** → 밀리그램.\n\n**해외 제품을 많이 먹는다** → MyFitnessPal.\n\n**먹는 시간대로 풀고 싶다** → Simple.Life 또는 하비트의 단식 기능.\n\n**GLP-1을 쓰고 있다** → 하비트. 용량·부작용·단백질·체성분을 한 곳에서 봅니다.\n\n## 정리\n\n유형이 다르니 \"제일 좋은 앱\"은 없습니다. 다만 **내 문제가 한 가지가 아니라면** — 음식도, 수면도, 스트레스도, 주기도 얽혀 있다면 — 앱을 네 개 쓰는 것보다 **하나에서 연결해 보는 쪽**이 맞습니다. 조각들이 서로 말을 걸지 않으면 그 주에 무슨 일이 있었는지 아무도 설명해 주지 않으니까요.\n\n[하비트 시작하기 →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "DPP — 구조화된 생활습관 프로그램 vs 메트포르민, 당뇨 위험 감소",
-          "value": "58% 대 31%",
-          "source": "Knowler et al. 2002, NEJM (n=3,234)"
+          "label": "하비트 음식 데이터베이스",
+          "value": "약 486,000건",
+          "source": "USDA 432,418 + 식약처 41,218 + 자체 큐레이션 12,671"
         },
         {
-          "label": "GLP-1 감량분 중 제지방이 차지하는 비율",
-          "value": "연구에 따라 40~60%, 15% 이하",
-          "source": "Neeland et al. 2024, Diabetes Obes Metab — 연구 간 편차, 제지방≠근육"
+          "label": "그중 한국 가공식품 (식약처)",
+          "value": "41,218건",
+          "source": "편의점·마트 제품이 여기서 나옴"
         },
         {
-          "label": "문헌고찰에 포함된 자기 기록 연구 수 (그중 15건이 식단 기록)",
-          "value": "22개 연구",
-          "source": "Burke et al. 2011, J Am Diet Assoc — 저자들은 근거 수준을 약하다고 평가"
+          "label": "눔 음식 데이터베이스",
+          "value": "약 100,000건",
+          "source": "App Store 설명, 2026년 10월 확인"
         },
         {
-          "label": "비만 성인 대상 집중 행동 중재에 대한 USPSTF 권고 등급",
-          "value": "Grade B",
-          "source": "미국 예방서비스특별위원회"
+          "label": "밀리그램 App Store 평점",
+          "value": "4.8 (3만개 평가)",
+          "source": "App Store, 2026년 10월 확인"
         }
       ],
       "comparison_table": {
-        "title": "2026년 다이어트 앱의 다섯 가지 유형",
+        "title": "한눈에 비교",
         "headers": [
-          "유형",
-          "무엇에 최적화",
-          "대표 앱",
-          "어떤 사람에게",
-          "감수할 점"
+          "앱",
+          "음식 DB",
+          "한국 음식",
+          "체성분",
+          "생리주기",
+          "GLP-1",
+          "명상·운동",
+          "AI 코치",
+          "가격대"
         ],
         "rows": [
           [
-            "음식 데이터베이스",
-            "음식 데이터의 양과 정확도",
-            "MyFitnessPal, Cronometer, FatSecret",
-            "정확한 매크로·미량영양소 숫자",
-            "보고만 할 뿐 처방하지 않음"
+            "하비트",
+            "48.6만 (USDA+식약처)",
+            "강함",
+            "추정 제공",
+            "있음",
+            "있음",
+            "있음",
+            "전 데이터 연결",
+            "무료+인앱"
           ],
           [
-            "행동 프로그램",
-            "심리·레슨·코칭",
-            "Noom, WeightWatchers",
-            "알지만 실행이 안 되는 사람",
-            "시간 비용이 크고 구독 중심"
+            "눔",
+            "10만",
+            "보통",
+            "없음",
+            "없음",
+            "없음",
+            "콘텐츠 중심",
+            "사람 코치",
+            "구독 (높은 편)"
           ],
           [
-            "빠른 기록 / AI 인식",
-            "기록 1건당 초",
-            "Cal AI, 사진 우선 기록 앱",
-            "느려서 기록을 포기했던 사람",
-            "사진 기반 수치는 추정치"
+            "밀리그램",
+            "국내 중심",
+            "강함",
+            "없음",
+            "있음",
+            "없음",
+            "없음",
+            "식단 분석",
+            "무료+구독"
           ],
           [
-            "단식 + 코칭",
-            "단식 패턴과 상시 코치",
+            "MyFitnessPal",
+            "1,400만(사용자 입력)",
+            "보통",
+            "없음",
+            "없음",
+            "기본 기록",
+            "없음",
+            "제한적",
+            "무료+Premium"
+          ],
+          [
             "Simple.Life",
-            "먹는 시간대를 정하면 잘 되는 사람",
-            "BMI·단식 패턴 중심, 체성분 추정 없음"
-          ],
-          [
-            "체성분 + 생활",
-            "체성분에 수면·주기·기분·복약까지",
-            "HAVIT",
-            "체중이 수면·스트레스·주기·GLP-1과 얽힌 사람",
-            "음식 DB가 전문 앱보다 작음"
+            "보통",
+            "약함",
+            "없음",
+            "없음",
+            "없음",
+            "없음",
+            "단식 코치",
+            "구독"
           ]
         ],
-        "caption": "앱 특성은 2026년 10월 기준. 순위가 아니라 유형이 쓸모 있는 축이다 — 각 줄은 자기 일에서는 안 지고, 그 바깥에서는 약하다."
+        "caption": "앱 특성은 2026년 10월 기준. 요금제와 기능은 자주 바뀌니 결제 전에 스토어 페이지를 확인하세요."
       },
       "faq": [
         {
-          "question": "2026년에 제일 좋은 다이어트 앱은 뭔가요?",
-          "answer": "하나로 정해지지 않습니다. 앱마다 하는 일이 다르기 때문입니다. 내 문제가 정보인지(Cronometer·MyFitnessPal 같은 음식 데이터베이스), 실행인지(Noom 같은 행동 프로그램), 속도인지(사진 우선 기록 앱), 아니면 체중·수면·생리주기·복약이 얽힌 문제인지(HAVIT 같은 체성분+생활 앱)부터 정하세요. 유형이 후보를 좁히고, '6주 뒤에도 기록하고 있을까'가 최종 선택을 정합니다."
+          "question": "2026년 다이어트 앱, 뭐가 제일 좋나요?",
+          "answer": "앱마다 하는 일이 달라서 하나로 정해지지 않습니다. 다만 내 문제가 한 가지가 아니라면 — 음식도, 수면도, 스트레스도, 생리주기도 얽혀 있다면 — 앱 네 개를 쓰는 것보다 하나에서 연결해 보는 쪽이 맞습니다. 하비트는 식사·수분·운동·수면·걸음·생리주기·기분·GLP-1 여덟 가지를 한 앱에 담고 AI 코치가 그 전부를 함께 읽습니다. 커리큘럼과 사람 코치가 필요하면 눔, 국내 음식 위주로 가볍게 기록하려면 밀리그램이 맞습니다."
         },
         {
-          "question": "기록을 한 번도 안 해본 초보에게는 어떤 앱이 맞나요?",
-          "answer": "한 끼 기록이 10초 안에 끝나는 앱을 고르세요. 초반에는 정확도보다 습관이 먼저입니다. 22개 연구를 묶은 문헌고찰에서 자기 기록 자체가 감량과 일관되게 연결됐습니다. 2주 만에 그만둘 정밀한 앱보다, 계속 쓰는 대충한 앱이 낫습니다."
+          "question": "한국 음식이 잘 나오는 다이어트 앱은 뭔가요?",
+          "answer": "식약처 데이터가 들어 있는지가 갈림길입니다. 하비트는 식약처 가공식품 41,218건을 포함해 약 486,000건을 들고 있어 편의점·마트 제품이 공공 데이터에서 바로 나옵니다. 밀리그램도 국내 음식 검색이 편합니다. 해외 앱인 MyFitnessPal은 항목 수는 1,400만 건으로 많지만 대부분 사용자 입력이라 국내 제품은 들쑥날쑥합니다."
         },
         {
-          "question": "다이어트 앱이 실제로 효과가 있나요?",
-          "answer": "앱이 떠받치는 '기록'이라는 행동에는 근거가 탄탄합니다. 앱 자체는 편차가 큽니다. 자기 기록은 감량과 일관되게 연결돼 있고, 구조화된 행동 프로그램은 당뇨병 예방 프로그램에서 메트포르민을 앞섰습니다(58% 대 31%). 앱은 그 행동을 몇 달 이어가게 해주는 만큼만 도움이 됩니다."
+          "question": "눔은 왜 비싼가요? 그만한 값어치가 있나요?",
+          "answer": "눔은 이 카테고리에서 가격대가 가장 높은 편입니다. 사람 코치가 붙기 때문입니다. '아는데 실행이 안 되는' 상태라서 사람에게 책임지는 구조가 필요하다면 값어치가 있습니다. 기록과 데이터 기반 피드백이 목적이라면 더 저렴한 선택지가 많습니다."
         },
         {
           "question": "위고비·오젬픽·마운자로를 쓰는 중이면 어떤 앱이 좋나요?",
-          "answer": "단백질 기록과 복약 기록이 한 곳에 있어야 합니다. GLP-1 치료에서 빠진 체중 중 제지방이 차지하는 비율은 연구에 따라 40~60%까지 보고되기도 하는데, 그건 체중계가 보여주지 못하는 부분입니다. 참고로 제지방은 근육과 같은 말이 아니라 장기·뼈·체수분을 함께 포함합니다. 일반 칼로리 앱은 이걸 짚어주지 않지만 GLP-1을 아는 앱은 짚어줍니다."
+          "answer": "단백질·복약·체성분이 한 곳에 있어야 합니다. GLP-1 치료에서 빠진 체중 중 제지방 비율은 연구에 따라 40~60%까지 보고되는데, 체중계는 그걸 성공으로만 보고합니다. 참고로 제지방은 근육과 같은 말이 아니라 장기·뼈·체수분을 함께 포함합니다. 하비트는 용량·부작용·단백질 기록과 체성분 추정을 같은 앱에서 봅니다."
         },
         {
-          "question": "무료 앱으로 충분한가요?",
-          "answer": "기록 용도라면 대체로 충분합니다. 중요한 건 가격이 아니라 결제창의 위치입니다. 내가 이 앱을 설치한 바로 그 기능이 결제창 뒤에 있다면 무료 플랜은 제품이 아니라 체험판입니다. 이 카테고리는 가격이 자주 바뀌니 글에 적힌 숫자 말고 스토어 페이지를 직접 확인하세요."
+          "question": "생리주기까지 같이 보는 다이어트 앱이 있나요?",
+          "answer": "많지 않습니다. 하비트와 밀리그램이 생리주기를 기록합니다. 다만 하비트는 그걸 AI 코치가 식사·수면·체성분과 함께 읽어서, 주기에 따라 식욕이 움직인 주를 의지 부족으로 읽지 않습니다."
         },
         {
-          "question": "체중 말고 체성분을 추적하는 앱은 뭐가 있나요?",
-          "answer": "생각보다 훨씬 적습니다. Simple.Life를 포함한 대부분의 다이어트 앱은 체중과 BMI로 돌아갑니다. 이 목록에서 체성분을 추정하는 건 HAVIT입니다. 다만 그게 무엇인지는 분명히 하세요 — 소비자 앱이 내놓는 건 DEXA나 인바디 측정값이 아니라 추정치고, 검증된 숫자 하나가 아니라 몇 주짜리 추세를 보는 데 쓸모 있습니다."
+          "question": "무료로 쓸 수 있나요?",
+          "answer": "하비트와 밀리그램 모두 무료로 받을 수 있고 앱 내 구입이 있습니다. 기록이 목적이면 무료 범위로도 대체로 충분합니다. 요금제는 자주 바뀌니 결제 전에 스토어 페이지를 확인하세요."
         }
       ],
       "references": [

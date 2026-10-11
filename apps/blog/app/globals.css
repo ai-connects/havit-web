@@ -1351,6 +1351,67 @@
   margin: 32px 0 0;
 }
 
+/* 원고가 위치를 지정한 인라인 사진 — components/HubArticleView.tsx 의 image 블록.
+
+   두 가지다:
+   - 사진(.hub-figure--inline): 1024x1024 원본이라 4:3 으로 잘라도 손해가 없다.
+   - 앱 화면(.hub-shot): 세로로 긴 스크린샷. 같은 방식으로 넣으면 가운데 띠만
+     남고 위아래가 잘린다. 비율을 그대로 두고 좁은 폭에 가운데 정렬한다.
+
+   캡션은 흐름 안에 둔다. 전에 absolute 로 띄웠더니 다음 문단과 겹쳤다. */
+.hub-figure--inline {
+  margin: 28px 0 0;
+}
+.hub-figure__box {
+  display: block;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 24px;
+  overflow: hidden;
+  background: var(--hv-grey-3);
+}
+
+.hub-shot {
+  margin: 28px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hub-shot__frame {
+  display: block;
+  position: relative;
+  width: min(340px, 72%);
+  aspect-ratio: 3 / 4;
+  border-radius: 22px;
+  overflow: hidden;
+  background: var(--tint-pale, #f6ffdc);
+}
+
+.hub-figcaption {
+  margin: 10px 0 0;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--hv-grey-60);
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .hub-figure__box { aspect-ratio: 1 / 1; }
+  .hub-shot__frame { width: 78%; }
+}
+
+/* 열 이름 없는 2열 스펙표 — 앱 한눈 정보. 왼쪽을 라벨로 세운다. */
+.hub-table--spec td:first-child {
+  width: 34%;
+  white-space: nowrap;
+  font-weight: 600;
+  color: var(--hv-grey-60);
+}
+@media (max-width: 640px) {
+  .hub-table--spec td:first-child { width: 40%; white-space: normal; }
+}
+
 .hub-faq__list {
   display: flex;
   flex-direction: column;

@@ -10,98 +10,117 @@
   "primary_keyword_ko": "AI 코치 앱 추천 2026 AI 다이어트 코치 앱 비교",
   "langs": {
     "en": {
-      "title": "Best AI Health Coach Apps in 2026: How to Tell a Coach From a Chatbot",
+      "title": "Best AI Health Coach Apps in 2026: Which Ones Actually Read Your Data",
       "short_title": "Best AI Health Coach Apps 2026",
-      "meta_description": "Almost every health app added an AI coach. Most added a chat box. Six criteria, four types of 'AI coach', who should not buy one, and where the whole category — ours included — is weakest.",
-      "tldr": "A coach knows something about you that you never typed into the chat. Test three things in the trial: does it read your data, does it give one action instead of a plan, and does it change when you have a bad week?",
-      "body_md": "*Honest disclosure: HAVIT publishes this blog and builds one of the apps discussed. We have tried to write the guide we would want to read before paying for one — including the parts where our own category is weakest.*\n\nAlmost every health app added an AI coach in the last two years. Most of them added a chat box. These are not the same thing, and the difference decides whether you get a coach or a search engine with a friendly tone.\n\nA chat box answers questions you already knew to ask. A coach notices what you did not ask about. This guide is about telling the two apart before you pay for twelve months of one.\n\n## What separates a coach from a chatbot\n\nThe test is simple: **does it know anything about you that you did not type into the chat?**\n\nA general assistant can explain creatine, build a meal plan, and talk you through a plateau. It will do all of that well. General assistants now remember across conversations, and they can message you on a schedule if you set one up. What they still do not have is a **live feed of today's meals, sleep and steps**. So the 9pm message — your protein has been under target four days running, you slept under six hours twice this week, your weight is flat, and here is which of the three to fix first — has to be one you configured in advance, from data you pasted in.\n\nThat difference is not model quality. It is continuous access to your logged data, and a design decision to speak first from it.\n\nThere is a second, less obvious test: **does it say less than you expected?** A coach that answers a simple question with fourteen bullet points has told you nothing — it has transferred the work of deciding back to you. Coaching is compression. The form that clinical guidance backs is structured and repeated: the USPSTF gives a Grade B recommendation that clinicians offer adults with a BMI of 30 or higher intensive, multicomponent behavioural intervention ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). It says nothing about apps — but it does say what the active ingredients are.\n\n## 6 criteria for choosing an AI coaching app\n\n### 1. Does it read your own data, or only your messages?\n\nAsk in the trial: \"what did I eat yesterday?\" If it cannot answer without you pasting it in, the coach is a chat window and the app is a tracker. That is not a scandal — it is just a different product, priced as if it were not.\n\n### 2. Does it give you one action, or a plan?\n\nA plan is what you already failed to follow. One concrete action for today — *eat 30g of protein at breakfast tomorrow* — is a thing you can either do or not do, which makes it measurable. The standard taxonomy of behaviour-change interventions catalogues 93 discrete techniques, and the unit throughout is a specific action rather than a general intention ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)).\n\n### 3. Does it change its mind when you change?\n\nThe honest version of this test takes two weeks. Deliberately log a bad week. A real coaching system adjusts: it lowers the ask, changes the target, or asks what happened. A scripted one repeats the same cheerful nudge, which is how you learn the \"personalisation\" is a template.\n\n### 4. Does it remember?\n\nCoaching is a relationship with continuity. If you tell it you are vegetarian in January and it suggests chicken in March, it is not coaching you; it is answering you. Memory across sessions is the single most expensive feature in this category and the one most often faked.\n\n### 5. Where are its safety boundaries?\n\nA good health AI refuses things. It should not diagnose, should not tell you to change a prescribed dose, and should be explicit that body-composition and calorie figures are estimates. An app that confidently answers medical questions it should decline is not more capable — it is less safe.\n\n### 6. What language does it coach you in — really?\n\nTranslated interface strings are not the same as coaching in your language. Test it in the language you actually think in, with a food you actually eat. Many apps translate buttons and then coach in machine-translated English.\n\n## The four kinds of \"AI coach\" you will meet\n\n*App characteristics below are as of October 2026 — this category changes fast, so verify on the live store listing.*\n\n| Type | What it actually is | Examples | Knows your logs | The trade-off |\n| --- | --- | --- | --- | --- |\n| General assistant | A frontier chatbot you ask health questions | ChatGPT, Claude, Gemini | No continuous feed | Remembers across chats and can message on a schedule, but only what you set up |\n| Chat bolted onto a tracker | A chat tab inside a logging app | MyFitnessPal, Cal AI | Partly — often recent entries only | Reactive; the coaching is still your idea |\n| Programme with AI assist | Human-designed curriculum, AI delivery | Noom, WeightWatchers | Within the programme | You follow its arc, not yours |\n| Fasting coach | An eating window plus an always-on coach | Simple.Life (\"Avo\") | Fasting and food log | BMI and fasting-pattern centric |\n| Data-driven daily coach | Reads your logs and opens with one action | HAVIT | Meals, sleep, steps, cycle, mood, medication | Only as good as what you log |\n\nMost disappointment in this category comes from paying for row four and receiving row two.\n\n## Who should not buy an AI coaching app\n\nThis matters more than another feature list.\n\n- **If you do not log anything, skip it.** Every coach in rows three and four is a function of your data. With no inputs, it degrades into a chatbot you are paying a subscription for. Start with a logging habit; add the coach when you have four weeks of data.\n- **If you want a human, hire one.** AI coaching is cheaper, available at 2am, and never judges you. It is also not a dietitian, not a therapist, and not accountable to you. For disordered eating, a diagnosed condition, or an athletic goal with a deadline, a person is the right call.\n- **If you already know exactly what to do**, you need adherence tools — alarms, streaks, a friend — not advice.\n\n## Where this category is weakest — including us\n\n- **Estimates stay estimates.** Photo-based calorie figures and AI body-composition numbers, HAVIT's included, are approximations. Read them as trends, not measurements.\n- **Proactivity can become nagging.** The same mechanism that makes a coach useful makes a bad one exhausting. Check that notifications are granular before you commit.\n- **Memory is uneven.** Almost every app in this space, ours included, remembers some things and forgets others. Test it on something that matters to you — an allergy, a goal, a constraint — before you trust it with the rest.\n- **HAVIT** is only as good as the day you logged. On a week you record nothing it has nothing to say, where a general assistant still answers. It coaches toward habit and body-composition trends, not toward a dated performance goal — if you want programmed periodisation for a race, this is the wrong tool. And it is a wellness app, not a medical device: it will not diagnose, and it will not tell you to change a prescribed dose.\n\n## The bottom line\n\nThe question is not \"which AI is smartest.\" All of the serious ones are smart enough for this job. The question is which one **sees your data, says one thing, and changes when you change.**\n\nTest that in the trial, in your own language, with your own food, over two weeks including one bad week. Most of the category fails that test, and it takes about fourteen days to find out.\n\n## Why HAVIT — a coach that reads your day\n\nHAVI, HAVIT's coach, is built around the three tests above. It reads what you logged — meals, hydration, sleep, steps, cycle, mood, GLP-1 medication — and returns one concrete action for today rather than a plan for the quarter. The daily check-in exists so that the coach knows what kind of day it is before it asks anything of you.\n\nThe reason for that design is the evidence base: structured behaviour change is what clinical guidance recommends alongside, not instead of, everything else ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)), and the Diabetes Prevention Program showed a structured lifestyle programme outperforming metformin on diabetes risk, 58% to 31% ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\nIn our own analysis of 1,090 GLP-1 users, the most consistent loggers built the strongest habits ([GLP-1 Habit Report](/en/glp-1-habit-report)).\n\nHAVIT is a wellness app, not a medical device. It does not diagnose, and it will not tell you to change a prescribed dose. Body-composition results are estimates.\n\n[Try HAVIT →](https://www.aihavit.com/)\n",
+      "meta_description": "HAVIT, Noom, Simple.Life, Cal AI and general assistants — each taken apart by what the coach actually reads, whether it speaks first, and what data it can never see. October 2026.",
+      "tldr": "A chat box answers what you knew to ask; a coach notices what you did not. What separates them is whether your logs reach the coach at all — test that in the trial, including one bad week.",
+      "body_md": "Almost every health app added an \"AI coach\" in the last two years. Most of them added a chat box. These are not the same thing.\n\nA chat box answers the questions you already knew to ask. A coach notices what you did not ask about. What separates them is not model quality — it is **whether your logs reach the coach at all.**\n\nThis guide takes the apps claiming AI coaching one at a time. Checked against store listings, October 2026.\n\n![A coach sees your day, not just your messages](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n## Three tests that separate a coach from a chatbot\n\n**1. Does it read your own data?** In the trial, ask it what you ate yesterday. If you have to paste the answer in, the coach is a chat window and the app is a tracker.\n\n**2. Does it give one action, or a plan?** A plan is what you already failed to follow. *Eat 30g of protein at breakfast* is either true or false at 9am, which makes it measurable.\n\n**3. Does it change when you change?** Deliberately log a bad week. A real coaching system lowers the ask or asks what happened. A scripted one repeats the same cheerful nudge.\n\n## HAVIT — eight streams of data, feeding one coach\n\n| | |\n| --- | --- |\n| Maker | Havit Inc. |\n| Price | Free · in-app purchases |\n| What the coach reads | Meals, hydration, workouts, sleep, steps, cycle, mood, GLP-1 |\n| Food database | ~486,000 entries from public food authorities |\n| Platforms | iOS · Android · 35 languages |\n\n![HAVIT's AI coach reads every log and returns one concrete action](/blog/havit/shot/feature-ai-coach.webp)\n\n**This is the whole difference.** HAVIT's coach does not read a chat log. It reads **eight streams of your own data** — not just meals, but sleep, steps, cycle and medication too.\n\nSo it can say: *protein has been under target four days running, you slept under six hours twice this week, and you are in the week before your period — these three are connected, and here is the one to fix first.* A general assistant cannot produce that sentence. It may remember you across conversations, but it has **no live feed of today's meals, sleep and steps**.\n\n### What comes back is one action, not a dashboard\n\n![Daily check-in — the coach asks what kind of day it is first](/blog/havit/shot/feature-daily-check-in.webp)\n\nThe **daily check-in** comes first: condition, sleep, appetite and mood in a few taps, so the coach knows what kind of day it is before it asks anything of you. It is also how a bad day enters the system without ending it.\n\nThen **daily missions** turn established behaviour-change techniques into one action for today. Miss it and that is an input, not a broken streak — the next day's ask changes.\n\n### The coach sees your body too\n\n![Body insights — fat and lean trends](/blog/havit/shot/feature-body-insights.webp)\n\nHAVIT estimates **fat and lean mass trends** with no hardware (internal comparison against InBody, n=70). On GLP-1 therapy, **dose, side effects and protein** are read by the same coach.\n\n### And everything else is in the same app\n\n**Six guided-meditation tracks**, **workout video**, **1,400+ articles**, **fasting**, plus streaks, badges, avatars, ranks and team challenges. Built with experts from Juvis Diet, Korea's leading diet clinic.\n\n**Who it suits:** people who log and still don't know what to change; people who want a coach that actually sees their data; people tired of running four apps.\n\n## Noom — the coach is a person, not an AI\n\n| | |\n| --- | --- |\n| Maker | Noom, Inc. |\n| Price | Subscription |\n\n![Human accountability is a different product](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n**What it does well.** **A human coach you can message at any time.** Not an AI pretending. Plus a psychology-based curriculum that decides what you read each day.\n\n**Where it falls down.** The highest price bracket here. Coaching scope is meals, activity and weight — cycle, medication and body composition are out.\n\n**Who it suits:** people who need to be accountable to a person and will pay for it.\n\n## Simple.Life — an always-on coach built on the eating window\n\n| | |\n| --- | --- |\n| Price | Subscription |\n| Coach | \"Avo\", fasting-led |\n\n**What it does well.** A clear eating window with a coach attached around the clock. Simple to follow.\n\n**Where it falls down.** BMI and fasting-pattern centric — **no body-composition estimate**, and a narrow slice of data for the coach to read.\n\n**Who it suits:** people for whom *when* they eat is the lever.\n\n## Cal AI and photo-first loggers\n\n**What they do well.** Turn a photo into a log in seconds. The AI is doing recognition, and it is good at it.\n\n**Where they fall down.** Recognition is not coaching. These apps answer \"what was that?\" — not \"what should I change?\" The figure they return is the midpoint of a range.\n\n**Who they suit:** people whose blocker is logging speed.\n\n## General assistants (ChatGPT, Claude, Gemini)\n\n**What they do well.** Explaining concepts and building plans on request, very well. They now remember across conversations and can message you on a schedule if you set one up.\n\n**Where they fall down.** **No continuous feed of today's meals, sleep and steps.** The 9pm message has to be one you configured, from data you pasted in. They also — correctly — decline to diagnose or to manage medication.\n\n**Who they suit:** people who want answers to questions. Not a coach that speaks first from your own data.\n\n## Side by side\n\n| App | What the coach reads | Speaks first | Body composition | Cycle | GLP-1 | Meditation & workouts |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **All 8 logs** | **Yes** | **Estimated** | **Yes** | **Yes** | **Yes** |\n| Noom | Meals, activity, weight | Human coach does | No | No | No | Content only |\n| Simple.Life | Fasting and meals | Yes | No | No | No | No |\n| Cal AI / photo loggers | The photo you just took | No | No | No | No | No |\n| General assistants | Only what you paste in | Only if scheduled | No | No | No | No |\n\nApp characteristics as of October 2026.\n\n## When not to buy one\n\n- **If you log nothing.** A data-driven coach is a function of your inputs. Build the logging habit first, then add coaching once you have about four weeks of data.\n- **If you need a human.** For disordered eating, a diagnosed condition, or a deadline-bound athletic goal, see a professional. A good health AI declines to diagnose and will not tell you to change a prescribed dose — HAVIT included.\n\n## The bottom line\n\n\"Which AI is smartest\" is the wrong question. All the serious ones are smart enough for this job.\n\nThe question is which one **sees your data, says one thing, and changes when you change.** Test that over two weeks, including one bad week, inside the free trial.\n\n[Try HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "USPSTF recommendation grade for intensive, multicomponent behavioural intervention",
-          "value": "Grade B",
-          "source": "U.S. Preventive Services Task Force"
+          "label": "Data streams HAVIT's coach reads",
+          "value": "8",
+          "source": "Meals, hydration, workouts, sleep, steps, cycle, mood, GLP-1"
         },
         {
-          "label": "DPP: structured lifestyle programme vs metformin, diabetes risk reduction",
-          "value": "58% vs 31%",
-          "source": "Knowler et al. 2002, NEJM (n=3,234)"
+          "label": "What a general assistant has no feed of",
+          "value": "Today's meals, sleep and steps",
+          "source": "Memory is not a live data feed"
+        },
+        {
+          "label": "Trial length that exposes scripted personalisation",
+          "value": "~2 weeks, including one bad week",
+          "source": "This guide's testing method"
         },
         {
           "label": "Behaviour change techniques in the standard taxonomy",
-          "value": "93 techniques",
+          "value": "93",
           "source": "Michie et al. 2013, Ann Behav Med"
-        },
-        {
-          "label": "Named AI-coach types in this guide",
-          "value": "5 types",
-          "source": "General assistant · chat-in-tracker · programme · fasting coach · data-driven"
         }
       ],
       "comparison_table": {
-        "title": "The four kinds of \"AI coach\"",
+        "title": "Side by side",
         "headers": [
-          "Type",
-          "What it actually is",
-          "Knows your data",
-          "Best for",
-          "Trade-off"
+          "App",
+          "What the coach reads",
+          "Speaks first",
+          "Body composition",
+          "Cycle",
+          "GLP-1",
+          "Meditation & workouts"
         ],
         "rows": [
           [
-            "General assistant",
-            "A frontier chatbot you ask health questions",
+            "HAVIT",
+            "All 8 logs",
+            "Yes",
+            "Estimated",
+            "Yes",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Noom",
+            "Meals, activity, weight",
+            "Human coach does",
             "No",
-            "Explaining concepts, plans on request",
-            "Starts from zero; nothing proactive"
+            "No",
+            "No",
+            "Content only"
           ],
           [
-            "Chat bolted onto a tracker",
-            "A chat tab inside a logging app",
-            "Partly — often recent entries only",
-            "Asking about an entry you just made",
-            "Reactive; the coaching is still your idea"
+            "Simple.Life",
+            "Fasting and meals",
+            "Yes",
+            "No",
+            "No",
+            "No",
+            "No"
           ],
           [
-            "Programme with AI assist",
-            "Human-designed curriculum, AI delivery",
-            "Yes, within the programme",
-            "People who want structure and lessons",
-            "You follow its arc, not yours"
+            "Cal AI / photo loggers",
+            "The photo you just took",
+            "No",
+            "No",
+            "No",
+            "No",
+            "No"
           ],
           [
-            "Data-driven daily coach",
-            "Reads your logs, opens with one action",
-            "Yes — meals, sleep, steps, cycle, mood",
-            "Trackers who still don't know what to change",
-            "Only as good as what you log"
+            "General assistants",
+            "Only what you paste in",
+            "Only if scheduled",
+            "No",
+            "No",
+            "No",
+            "No"
           ]
         ],
-        "caption": "Most disappointment in this category comes from paying for row four and receiving row two."
+        "caption": "App characteristics as of October 2026."
       },
       "faq": [
         {
           "question": "What is the best AI health coach app in 2026?",
-          "answer": "The one that reads your own logged data rather than only your chat messages. Ask it in the trial what you ate yesterday — if you have to paste the answer in, it is a chat window inside a tracker, not a coach. Then check that it returns one concrete action rather than a plan, and that it adjusts when you have a bad week."
+          "answer": "The one that reads your own logged data rather than only your chat messages. Ask it in the trial what you ate yesterday — if you have to paste the answer in, it is a chat window inside a tracker. Then check that it returns one concrete action rather than a plan, and that it adjusts when you have a bad week."
         },
         {
-          "question": "How is an AI coaching app different from asking ChatGPT or Claude about my diet?",
-          "answer": "A general assistant answers the questions you already knew to ask, starting from zero each time. A coaching app has access to your meals, sleep, steps, cycle and medication, and speaks first — it can tell you that four days of low protein, two short nights and a flat weight are connected. That is a data-access and design difference, not a model-quality one."
+          "question": "How is an AI coaching app different from asking ChatGPT about my diet?",
+          "answer": "General assistants now remember across conversations and can message you on a schedule. What they still do not have is a live feed of today's meals, sleep and steps, so the connection between four days of low protein, two short nights and a flat weight has to be one you spell out yourself. A coaching app reads those streams continuously and speaks first from them."
         },
         {
-          "question": "Can an AI coach replace a dietitian or a therapist?",
-          "answer": "No. AI coaching is cheaper, available at 2am and never judgemental, but it is not a licensed professional and is not accountable to you. For disordered eating, a diagnosed condition, or a deadline-bound athletic goal, see a person. A good health AI also refuses to diagnose or to tell you to change a prescribed dose."
+          "question": "Is Noom's coach a real person or an AI?",
+          "answer": "A real person. Noom's core offer is a human coach you can message, alongside a psychology curriculum. That is also why it sits in the highest price bracket in this category. AI coaching is cheaper and available at 2am, but accountability to a person is a different product."
         },
         {
-          "question": "How do I tell if an app's 'personalisation' is real?",
-          "answer": "Log a deliberately bad week. A real coaching system lowers the ask, changes the target, or asks what happened. A scripted one repeats the same cheerful nudge. This takes about two weeks to detect, which is why it is worth doing inside the free trial."
+          "question": "Is Cal AI an AI coach?",
+          "answer": "It is AI recognition rather than AI coaching. Photo-first apps are good at turning a plate into a log in seconds, which solves a real problem. But recognition answers \"what was that?\" — not \"what should I change?\" If logging speed is your blocker they are an excellent fit; if the blocker is knowing what to do next, they are not."
         },
         {
-          "question": "Is an AI coach worth it if I do not log anything?",
-          "answer": "No. Data-driven coaches are a function of your inputs; with nothing logged, you are paying a subscription for a chatbot. Build a logging habit first and add coaching once you have roughly four weeks of data."
+          "question": "How do I tell if an app's personalisation is real?",
+          "answer": "Deliberately log a bad week. A real coaching system lowers the ask, changes the target, or asks what happened. A scripted one repeats the same cheerful nudge. It takes about two weeks to detect, which is why it is worth doing inside the free trial."
         },
         {
-          "question": "Do AI coaching apps work in languages other than English?",
-          "answer": "Interface translation and coaching in your language are different things. Many apps translate buttons and then coach in machine-translated English. Test it in the language you actually think in, using a food you actually eat."
+          "question": "Can an AI coach replace a dietitian or therapist?",
+          "answer": "No. A good health AI declines to diagnose and will not tell you to change a prescribed dose — HAVIT included, as a wellness app rather than a medical device. For disordered eating, a diagnosed condition, or a deadline-bound athletic goal, see a professional."
         }
       ],
       "references": [
@@ -129,98 +148,123 @@
       "last_updated": "2026-10-11"
     },
     "ko": {
-      "title": "2026 AI 코치 앱 추천 — 코치와 챗봇을 구분하는 법",
-      "short_title": "2026 AI 코치 앱 추천 가이드",
-      "meta_description": "거의 모든 헬스 앱이 AI 코치를 붙였지만 대부분은 채팅창을 붙였습니다. 6가지 기준, 네 가지 유형, 사지 말아야 할 사람, 그리고 이 카테고리(우리 포함)가 약한 지점.",
-      "tldr": "코치는 내가 채팅에 입력하지 않은 나를 압니다. 체험 기간에 세 가지만 시험하세요. 내 기록을 읽는가, 계획이 아니라 행동 하나를 주는가, 내가 한 주를 망쳤을 때 같이 달라지는가.",
-      "body_md": "*밝혀둡니다: 이 블로그는 HAVIT이 발행하고, 여기서 다루는 앱 중 하나를 만듭니다. 돈 내기 전에 제가 읽고 싶었을 가이드를 쓰려고 했습니다 — 우리가 속한 유형이 가장 약한 지점까지 포함해서요.*\n\n최근 2년 사이 거의 모든 헬스 앱이 AI 코치를 붙였습니다. 대부분은 채팅창을 붙였습니다. 이 둘은 같은 게 아니고, 그 차이가 당신이 코치를 얻는지 말투 친절한 검색창을 얻는지를 가릅니다.\n\n채팅창은 **내가 물어볼 줄 알았던 것**에 답합니다. 코치는 **내가 못 물어본 것**을 짚습니다. 이 글은 1년치 결제를 하기 전에 그 둘을 구분하는 법에 관한 겁니다.\n\n## 코치와 챗봇을 가르는 것\n\n시험은 단순합니다. **내가 채팅에 입력하지 않은 나에 대한 정보를 알고 있나?**\n\n범용 어시스턴트는 크레아틴을 설명하고, 식단표를 짜고, 정체기 상담도 해줍니다. 전부 잘합니다. 요즘 범용 어시스턴트는 대화가 바뀌어도 기억하고, 미리 걸어두면 정해진 시각에 먼저 말을 걸기도 합니다. 여전히 없는 건 **오늘의 식사·수면·걸음이 계속 흘러드는 통로**입니다. 그래서 밤 9시의 그 메시지 — \"단백질이 나흘째 목표 아래였고, 이번 주 두 번은 6시간 못 잤고, 체중은 멈춰 있다. 먼저 건드릴 건 이거다\" — 는 내가 미리 설정해 두고, 내가 붙여넣은 데이터로만 가능합니다.\n\n이건 모델 성능 차이가 아닙니다. **내 기록이 계속 흘러드느냐**, 그리고 **거기서 먼저 말하도록 설계했느냐**의 차이입니다.\n\n덜 알려진 두 번째 시험도 있습니다. **예상보다 적게 말하나?** 간단한 질문에 불릿 14개로 답하는 코치는 아무것도 알려준 게 없습니다. 결정하는 일을 나에게 되돌려준 것뿐입니다. 코칭은 압축입니다. 임상 가이드가 뒷받침하는 형태도 구조화되고 반복되는 쪽입니다. 미국 예방서비스특별위원회는 BMI 30 이상 성인에게 집중적·다요소 행동 중재를 제공하라고 Grade B 로 권고합니다 ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). 앱에 대한 얘기는 한 마디도 없지만, **무엇이 작동 성분인지**는 말해 줍니다.\n\n## AI 코칭 앱을 고르는 6가지 기준\n\n### 1. 내 기록을 읽나, 내 메시지만 읽나\n\n체험 기간에 물어보세요. \"나 어제 뭐 먹었지?\" 내가 붙여넣지 않으면 답을 못 하면, 그 코치는 채팅창이고 그 앱은 트래커입니다. 흠은 아닙니다 — 그냥 다른 제품인데, 다른 제품이 아닌 것처럼 가격이 매겨져 있을 뿐입니다.\n\n### 2. 행동 하나를 주나, 계획을 주나\n\n계획은 이미 한 번 못 지킨 바로 그것입니다. **오늘 할 구체적인 행동 하나** — *내일 아침에 단백질 30g* — 는 했거나 안 했거나로 끝나고, 그래서 측정됩니다. 행동변화 개입을 정리한 표준 분류 체계는 93가지 기법을 담고 있는데, 그 단위는 막연한 결심이 아니라 **구체적인 행동 하나**입니다 ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)).\n\n### 3. 내가 달라지면 같이 달라지나\n\n이 시험의 정직한 버전은 2주 걸립니다. 일부러 한 주를 망쳐서 기록해 보세요. 진짜 코칭 시스템은 조정합니다. 요구를 낮추거나, 목표를 바꾸거나, 무슨 일 있었냐고 묻습니다. 스크립트로 짠 쪽은 똑같이 밝은 응원을 반복합니다. 그때 \"개인화\"가 템플릿이었다는 걸 알게 됩니다.\n\n### 4. 기억하나\n\n코칭은 연속성이 있는 관계입니다. 1월에 채식한다고 말했는데 3월에 닭가슴살을 권하면, 그건 코칭이 아니라 응답입니다. 대화가 바뀌어도 이어지는 기억은 이 카테고리에서 가장 비싼 기능이고, 가장 자주 흉내만 내는 기능입니다.\n\n### 5. 안전 경계는 어디인가\n\n좋은 헬스 AI는 거절합니다. 진단하지 않아야 하고, 처방된 용량을 바꾸라고 말하지 않아야 하고, 체성분·칼로리 수치가 추정치라는 걸 분명히 밝혀야 합니다. 거절해야 할 의학적 질문에 자신 있게 답하는 앱은 더 유능한 게 아니라 **덜 안전한** 겁니다.\n\n### 6. 진짜 내 언어로 코칭하나\n\n인터페이스 번역과 내 언어로 코칭하는 건 다릅니다. 내가 실제로 생각하는 언어로, 내가 실제로 먹는 음식으로 시험해 보세요. 버튼만 번역하고 코칭은 기계번역된 영어로 하는 앱이 많습니다.\n\n## 만나게 될 \"AI 코치\" 네 가지\n\n*아래 앱 특성은 2026년 10월 기준입니다. 이 카테고리는 변화가 빨라 결제 전에 스토어 페이지를 확인하세요.*\n\n| 유형 | 실제로는 무엇인가 | 예 | 내 기록이 흘러드나 | 감수할 점 |\n| --- | --- | --- | --- | --- |\n| 범용 어시스턴트 | 건강 질문을 던지는 프런티어 챗봇 | ChatGPT, Claude, Gemini | 계속 흘러들지는 않음 | 대화가 바뀌어도 기억하고 예약 발송도 되지만, 내가 걸어둔 것만 |\n| 트래커에 붙인 채팅 | 기록 앱 안의 채팅 탭 | MyFitnessPal, Cal AI | 일부 — 대개 최근 기록만 | 수동적, 코칭의 발상은 여전히 내 몫 |\n| AI를 얹은 프로그램 | 사람이 설계한 커리큘럼, AI가 전달 | Noom, WeightWatchers | 프로그램 범위 안에서 | 내 흐름이 아니라 그쪽 흐름을 따라감 |\n| 단식 코치 | 먹는 시간대와 상시 코치 | Simple.Life(\"Avo\") | 단식·식사 기록 | BMI·단식 패턴 중심 |\n| 데이터 기반 데일리 코치 | 기록을 읽고 행동 하나로 먼저 말을 건넴 | HAVIT | 식사·수면·걸음·주기·기분·복약 | 내가 기록한 만큼만 좋아짐 |\n\n이 카테고리의 실망은 대부분 **네 번째 줄 값을 내고 두 번째 줄을 받는 데서** 나옵니다.\n\n## 사지 말아야 할 사람\n\n기능 목록 하나 더보다 이게 중요합니다.\n\n- **아무것도 기록하지 않는다면 사지 마세요.** 3·4번 줄의 코치는 전부 내 데이터의 함수입니다. 입력이 없으면 구독료 내는 챗봇으로 전락합니다. 기록 습관부터 만들고, 4주치 데이터가 쌓이면 그때 코치를 붙이세요.\n- **사람이 필요하면 사람을 구하세요.** AI 코칭은 싸고, 새벽 2시에도 있고, 판단하지 않습니다. 동시에 영양사도 치료사도 아니고, 나에게 책임을 지지도 않습니다. 섭식 문제, 진단받은 질환, 대회 날짜가 정해진 운동 목표라면 사람이 맞습니다.\n- **뭘 해야 할지 이미 정확히 안다면**, 필요한 건 조언이 아니라 실행 장치입니다. 알람, 스트릭, 같이 할 사람이요.\n\n## 이 카테고리가 약한 지점 — 우리 포함\n\n- **추정치는 끝까지 추정치입니다.** 사진 기반 칼로리와 AI 체성분 수치는 HAVIT 것을 포함해 전부 근사값입니다. 측정값이 아니라 추세로 읽으세요.\n- **먼저 말하는 설계는 잔소리가 될 수 있습니다.** 코치를 쓸모 있게 만드는 그 장치가, 잘못 만들면 사람을 지치게 합니다. 결제 전에 알림을 세밀하게 끌 수 있는지 확인하세요.\n- **기억은 고르지 않습니다.** 우리를 포함해 이 바닥의 거의 모든 앱이 어떤 건 기억하고 어떤 건 잊습니다. 나머지를 맡기기 전에, 나에게 중요한 것 하나로 — 알레르기, 목표, 제약 — 먼저 시험해 보세요.\n- **HAVIT**은 내가 기록한 만큼만 좋아집니다. 아무것도 기록하지 않은 주에는 할 말이 없고, 그런 상황에서는 범용 어시스턴트가 차라리 답을 합니다. 또 습관과 체성분 추세 쪽으로 코칭하지, 날짜가 정해진 경기 기록 쪽으로 끌어주지는 않습니다 — 대회를 앞둔 주기화 훈련이 필요하면 맞는 도구가 아닙니다. 그리고 의료기기가 아닌 웰니스 앱이라 진단하지 않고, 처방된 용량을 바꾸라고 하지 않습니다.\n\n## 정리\n\n질문은 \"어느 AI가 제일 똑똑한가\"가 아닙니다. 쓸 만한 것들은 이 일을 하기엔 다 충분히 똑똑합니다. 질문은 **내 데이터를 보고, 한 가지만 말하고, 내가 달라지면 같이 달라지는가**입니다.\n\n체험 기간에, 내 언어로, 내 음식으로, 망친 한 주를 포함해 2주 동안 시험해 보세요. 이 카테고리의 대부분이 이 시험에서 탈락하고, 알아내는 데 2주면 됩니다.\n\n## HAVIT을 만든 이유 — 오늘 하루를 읽는 코치\n\nHAVIT의 코치 HAVI는 위의 세 가지 시험을 기준으로 설계했습니다. 기록한 것 — 식사·수분·수면·걸음·생리주기·기분·GLP-1 복약 — 을 읽고, 분기 계획이 아니라 **오늘 할 구체적인 행동 하나**를 돌려줍니다. 데일리 체크인이 있는 이유는, 뭔가를 요구하기 전에 오늘이 어떤 날인지부터 알기 위해서입니다.\n\n그렇게 설계한 근거는 이렇습니다. 임상 가이드는 구조화된 행동 변화를 다른 모든 것을 **대신**하는 게 아니라 **함께** 가야 할 것으로 권고하고 ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)), 당뇨병 예방 프로그램에서는 구조화된 생활습관 프로그램이 당뇨 위험 감소에서 메트포르민을 앞섰습니다. 58% 대 31%였습니다 ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\n자체 분석한 GLP-1 사용자 1,090명 데이터에서, 가장 꾸준히 기록한 사람들이 가장 단단한 습관을 만들었습니다 ([GLP-1 습관 리포트](/ko/glp-1-habit-report)).\n\nHAVIT은 의료기기가 아닌 웰니스 앱입니다. 진단하지 않고, 처방된 용량을 바꾸라고 하지 않습니다. 체성분 결과는 추정치입니다.\n\n[HAVIT 시작하기 →](https://www.aihavit.com/)\n",
+      "title": "2026 AI 코치 앱 추천 — 내 데이터를 읽는 코치 고르는 법",
+      "short_title": "2026 AI 코치 앱 추천",
+      "meta_description": "AI 코치를 내세우는 앱을 하나씩 뜯어봤습니다. 하비트·눔·밀리그램·Simple.Life·범용 어시스턴트 — 코치가 실제로 읽는 데이터가 무엇인지, 먼저 말을 거는지까지. 2026년 10월 기준.",
+      "tldr": "코치와 챗봇을 가르는 건 모델 성능이 아니라 내 기록이 코치에게 흘러드느냐입니다. 체험 기간에 세 가지만 시험하세요 — 내 기록을 읽는가, 계획이 아니라 행동 하나를 주는가, 내가 망치면 같이 조정되는가.",
+      "body_md": "최근 2년 사이 거의 모든 헬스 앱이 \"AI 코치\"를 붙였습니다. 그런데 대부분은 **채팅창을 붙인 것**입니다. 이 둘은 다릅니다.\n\n채팅창은 내가 물어볼 줄 알았던 것에 답합니다. 코치는 **내가 못 물어본 것**을 짚습니다. 그 차이를 가르는 건 모델 성능이 아니라 **내 기록이 코치에게 흘러드느냐**입니다.\n\n이 글은 \"AI 코치\"를 내세우는 앱들을 하나씩 뜯어봅니다. 평점과 가격은 스토어에서 직접 확인한 2026년 10월 기준입니다.\n\n![코치가 보는 건 대화가 아니라 내 하루다](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n## 코치와 챗봇을 가르는 3가지 시험\n\n**1. 내 기록을 읽나.** 체험 기간에 \"나 어제 뭐 먹었지?\"라고 물어보세요. 내가 붙여넣어야 답하면 그건 트래커 안의 채팅창입니다.\n\n**2. 계획이 아니라 행동 하나를 주나.** 계획은 이미 한 번 못 지킨 그것입니다. *내일 아침에 단백질 30g*은 했거나 안 했거나로 끝나서 측정됩니다.\n\n**3. 내가 망치면 같이 조정되나.** 일부러 한 주를 망쳐서 기록해 보세요. 진짜 코칭은 요구를 낮추거나 무슨 일 있었냐고 묻습니다. 스크립트는 똑같이 밝은 응원을 반복합니다.\n\n## 하비트(HAVIT) — 여덟 가지 기록이 전부 코치로 흘러듭니다\n\n| | |\n| --- | --- |\n| 개발사 | 주식회사 하비트 (Havit Inc.) |\n| 가격 | 무료 · 앱 내 구입 |\n| 코치가 읽는 데이터 | 식사·수분·운동·수면·걸음·생리주기·기분·GLP-1 복약 |\n| 음식 DB | 약 486,000건 (USDA + 식약처 + 자체) |\n| 플랫폼 | iOS · Android · 35개 언어 |\n\n![하비트 AI 코치 — 기록 전부를 읽고 오늘 할 행동 하나를 돌려준다](/blog/havit/shot/feature-ai-coach.webp)\n\n**여기가 핵심입니다.** 하비트의 코치는 채팅 로그가 아니라 **내가 남긴 여덟 가지 기록 전부**를 읽습니다. 식사만이 아니라 수면도, 걸음도, 생리주기도, 복약도요.\n\n그래서 이렇게 말할 수 있습니다. *단백질이 나흘째 목표 아래였고, 이번 주 두 번은 6시간을 못 잤고, 생리 전 주다. 셋은 연결돼 있고 먼저 건드릴 건 이거다.* — 범용 챗봇은 이걸 못 합니다. 기억을 해도 **오늘의 식사·수면·걸음이 계속 흘러드는 통로**가 없기 때문입니다.\n\n### 돌려주는 건 대시보드가 아니라 행동 하나\n\n![데일리 체크인 — 오늘이 어떤 날인지부터 묻는다](/blog/havit/shot/feature-daily-check-in.webp)\n\n**데일리 체크인**이 먼저 있습니다. 컨디션·수면·식욕·기분을 몇 번 탭으로 받아서, 코치가 뭘 요구하기 전에 **오늘이 어떤 날인지부터** 압니다. 망친 하루가 시스템을 끝내지 않고 들어오는 통로이기도 합니다.\n\n그다음 **데일리 미션**이 검증된 행동변화기법을 오늘 할 행동 하나로 바꿉니다. 못 했으면 끊긴 스트릭이 아니라 **입력값**이고, 다음 날 요구가 달라집니다.\n\n### 몸 상태도 코치가 봅니다\n\n![체성분 인사이트 — 체지방·근육 추세](/blog/havit/shot/feature-body-insights.webp)\n\n장비 없이 **체지방·근육 추세를 추정**합니다(인바디 기준 자체 비교 n=70). GLP-1을 쓰는 중이면 용량·부작용·단백질까지 같은 코치가 함께 봅니다.\n\n### 코칭 밖의 것도 같은 앱에\n\n**가이드 명상 6종**(식욕·수면·안정·집중·호흡·감사), **운동 영상**, 디스커버리 **1,400개 이상 아티클**, **단식** 기능. 연속 기록·배지·아바타·랭크·팀 챌린지도 붙습니다.\n\n**한국 1위 다이어트 클리닉 쥬비스 다이어트 출신 전문가들**과 함께 만들었습니다.\n\n**이런 분께**: 기록은 하는데 뭘 바꿀지 모르겠는 분, 코치가 내 데이터를 실제로 보길 원하는 분, 앱 여러 개 쓰기 싫은 분.\n\n## 눔(Noom) — AI가 아니라 사람 코치\n\n| | |\n| --- | --- |\n| 개발사 | Noom, Inc. |\n| 평점 | 4.1 · 5.7천개의 평가 (App Store) |\n| 가격 | 무료 · 앱 내 구입 (구독) |\n\n![사람이 붙는다는 게 이 앱의 핵심이다](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n**잘하는 것.** **1:1 코치에게 언제든 메시지**를 보낼 수 있습니다. AI 흉내가 아니라 진짜 사람입니다. 심리학 기반 커리큘럼이 매일 읽을 것을 정해 줍니다.\n\n**아쉬운 것.** 가격대가 이 카테고리에서 가장 높습니다. 코칭 범위가 식사·운동·체중 중심이라 생리주기·복약·체성분은 안 봅니다.\n\n**이런 분께**: 사람에게 책임지는 구조가 필요하고, 거기에 돈을 쓸 의향이 있는 분.\n\n## 밀리그램 — 식단을 분석해 주는 국내 AI 코치\n\n| | |\n| --- | --- |\n| 개발사 | (주)킬로 (KILO Inc.) |\n| 평점 | **4.8** · 3만개의 평가 (App Store) |\n| 가격 | 무료 · Pro 구독 / 평생 플랜 |\n\n**잘하는 것.** AI 코치가 **식단을 분석해 실시간 피드백**을 주고 데일리 리포트를 냅니다. 같은 레벨 사용자끼리 겨루는 구조가 동기 유지에 붙어 있습니다.\n\n**아쉬운 것.** 코치가 보는 범위가 주로 **식단**입니다. 체성분 추정, GLP-1 복약, 명상·회복은 범위 밖입니다.\n\n**이런 분께**: 국내 음식 위주로 식단 피드백을 받고 싶은 분.\n\n## Simple.Life — 단식 패턴에 붙은 상시 코치\n\n| | |\n| --- | --- |\n| 특징 | 먹는 시간대 + AI 코치(Avo) |\n\n**잘하는 것.** 단식 시간대를 축으로 24시간 붙어 있는 코치입니다. 구조가 단순해서 따라가기 쉽습니다.\n\n**아쉬운 것.** BMI와 단식 패턴 중심이라 **체성분 추정이 없습니다.** 코치가 볼 수 있는 데이터의 폭이 좁습니다.\n\n**이런 분께**: 먹는 시간대를 정하면 잘 되는 분.\n\n## 범용 어시스턴트 (ChatGPT · Claude · Gemini)\n\n**잘하는 것.** 개념 설명과 계획 작성은 매우 잘합니다. 대화가 바뀌어도 기억하고, 미리 걸어두면 정해진 시각에 먼저 말을 걸기도 합니다.\n\n**아쉬운 것.** **오늘의 식사·수면·걸음이 계속 흘러드는 통로가 없습니다.** 밤 9시의 그 메시지는 내가 미리 설정하고, 내가 붙여넣은 데이터로만 가능합니다. 진단하지 않고 복약을 다루지 않는 것도 당연히 범위 밖입니다.\n\n**이런 분께**: 질문에 답을 얻고 싶은 분. 다만 \"먼저 말 거는 코치\"는 아닙니다.\n\n## 한눈에 비교\n\n| 앱 | 코치가 읽는 데이터 | 먼저 말 거나 | 체성분 | 생리주기 | GLP-1 | 명상·운동 | 가격대 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| **하비트** | **기록 8종 전부** | **있음** | **추정 제공** | **있음** | **있음** | **있음** | 무료+인앱 |\n| 눔 | 식사·운동·체중 | 사람 코치가 | 없음 | 없음 | 없음 | 콘텐츠 | 구독 (높은 편) |\n| 밀리그램 | 주로 식단 | 리포트 | 없음 | 있음 | 없음 | 없음 | 무료+구독 |\n| Simple.Life | 단식·식사 | 있음 | 없음 | 없음 | 없음 | 없음 | 구독 |\n| 범용 어시스턴트 | 내가 붙여넣은 것만 | 설정해야 | 없음 | 없음 | 없음 | 없음 | 무료/구독 |\n\n앱 특성은 2026년 10월 기준입니다.\n\n## 사지 말아야 할 경우\n\n- **아무것도 기록하지 않는다면.** 데이터 기반 코치는 내 입력의 함수입니다. 기록 습관부터 만들고 4주쯤 쌓이면 그때 붙이세요.\n- **사람이 필요하다면.** 섭식 문제, 진단받은 질환, 대회 날짜가 정해진 목표라면 전문가를 만나세요. 좋은 헬스 AI는 진단을 거절하고, 처방된 용량을 바꾸라고 하지 않습니다.\n\n## 정리\n\n\"어느 AI가 제일 똑똑한가\"는 틀린 질문입니다. 쓸 만한 것들은 다 충분히 똑똑합니다.\n\n**내 데이터를 보고, 한 가지만 말하고, 내가 달라지면 같이 달라지는가.** 이 세 가지를 체험 기간에 2주 동안 — 망친 한 주를 포함해서 — 시험해 보세요.\n\n[하비트 시작하기 →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "집중적·다요소 행동 중재에 대한 USPSTF 권고 등급",
-          "value": "Grade B",
-          "source": "미국 예방서비스특별위원회"
+          "label": "하비트 코치가 읽는 기록",
+          "value": "8종",
+          "source": "식사·수분·운동·수면·걸음·생리주기·기분·GLP-1"
         },
         {
-          "label": "DPP — 구조화된 생활습관 프로그램 vs 메트포르민, 당뇨 위험 감소",
-          "value": "58% 대 31%",
-          "source": "Knowler et al. 2002, NEJM (n=3,234)"
+          "label": "눔 App Store 평점",
+          "value": "4.1 (5.7천개 평가)",
+          "source": "App Store, 2026년 10월 확인"
         },
         {
-          "label": "표준 분류 체계에 정리된 행동변화기법 수",
-          "value": "93가지",
-          "source": "Michie et al. 2013, Ann Behav Med"
+          "label": "밀리그램 App Store 평점",
+          "value": "4.8 (3만개 평가)",
+          "source": "App Store, 2026년 10월 확인"
         },
         {
-          "label": "이 글이 나누는 AI 코치 유형",
-          "value": "5가지",
-          "source": "범용 어시스턴트·트래커 내 채팅·프로그램·단식 코치·데이터 기반"
+          "label": "스크립트 개인화를 가려내는 시험 기간",
+          "value": "약 2주 (망친 한 주 포함)",
+          "source": "이 가이드의 시험 방법"
         }
       ],
       "comparison_table": {
-        "title": "\"AI 코치\" 네 가지 유형",
+        "title": "한눈에 비교",
         "headers": [
-          "유형",
-          "실제로는 무엇인가",
-          "내 기록을 아나",
-          "어떤 사람에게",
-          "감수할 점"
+          "앱",
+          "코치가 읽는 데이터",
+          "먼저 말 거나",
+          "체성분",
+          "생리주기",
+          "GLP-1",
+          "명상·운동",
+          "가격대"
         ],
         "rows": [
           [
+            "하비트",
+            "기록 8종 전부",
+            "있음",
+            "추정 제공",
+            "있음",
+            "있음",
+            "있음",
+            "무료+인앱"
+          ],
+          [
+            "눔",
+            "식사·운동·체중",
+            "사람 코치가",
+            "없음",
+            "없음",
+            "없음",
+            "콘텐츠",
+            "구독 (높은 편)"
+          ],
+          [
+            "밀리그램",
+            "주로 식단",
+            "리포트",
+            "없음",
+            "있음",
+            "없음",
+            "없음",
+            "무료+구독"
+          ],
+          [
+            "Simple.Life",
+            "단식·식사",
+            "있음",
+            "없음",
+            "없음",
+            "없음",
+            "없음",
+            "구독"
+          ],
+          [
             "범용 어시스턴트",
-            "건강 질문을 던지는 프런티어 챗봇",
-            "모름",
-            "개념 설명, 요청하면 계획 작성",
-            "매번 0에서 시작, 먼저 말하지 않음"
-          ],
-          [
-            "트래커에 붙인 채팅",
-            "기록 앱 안의 채팅 탭",
-            "일부 — 대개 최근 기록만",
-            "방금 넣은 기록에 대해 묻기",
-            "수동적, 코칭의 발상은 여전히 내 몫"
-          ],
-          [
-            "AI를 얹은 프로그램",
-            "사람이 설계한 커리큘럼, AI가 전달",
-            "프로그램 범위 안에서는 앎",
-            "짜인 구조와 레슨을 원하는 사람",
-            "내 흐름이 아니라 그쪽 흐름을 따라감"
-          ],
-          [
-            "데이터 기반 데일리 코치",
-            "기록을 읽고 행동 하나로 먼저 말을 건넴",
-            "식사·수면·걸음·주기·기분까지 앎",
-            "기록은 하는데 뭘 바꿀지 모르겠는 사람",
-            "내가 기록한 만큼만 좋아짐"
+            "내가 붙여넣은 것만",
+            "설정해야",
+            "없음",
+            "없음",
+            "없음",
+            "없음",
+            "무료/구독"
           ]
         ],
-        "caption": "이 카테고리의 실망은 대부분 네 번째 줄 값을 내고 두 번째 줄을 받는 데서 나온다."
+        "caption": "앱 특성은 2026년 10월 기준."
       },
       "faq": [
         {
-          "question": "2026년 AI 코치 앱 중에 뭐가 제일 좋나요?",
-          "answer": "채팅 메시지 말고 내가 기록한 데이터를 읽는 앱입니다. 체험 기간에 '나 어제 뭐 먹었지'라고 물어보세요. 내가 붙여넣어야 답하면 그건 트래커 안의 채팅창이지 코치가 아닙니다. 그다음 계획이 아니라 구체적인 행동 하나를 주는지, 한 주를 망쳤을 때 같이 조정되는지 확인하세요."
+          "question": "AI 코치 앱, 뭐가 제일 좋나요?",
+          "answer": "채팅 메시지가 아니라 내가 남긴 기록을 읽는 앱입니다. 체험 기간에 '나 어제 뭐 먹었지'라고 물어보세요. 내가 붙여넣어야 답하면 그건 트래커 안의 채팅창입니다. 하비트의 코치는 식사·수분·운동·수면·걸음·생리주기·기분·GLP-1 여덟 가지를 전부 읽습니다."
         },
         {
-          "question": "AI 코치 앱이 ChatGPT나 Claude에 식단 물어보는 거랑 뭐가 다른가요?",
-          "answer": "범용 어시스턴트는 내가 물어볼 줄 알았던 것에 매번 0에서 시작해 답합니다. 코칭 앱은 내 식사·수면·걸음·주기·복약에 접근할 수 있고 먼저 말을 겁니다 — 단백질 부족 나흘, 짧은 수면 두 번, 멈춘 체중이 연결돼 있다고 짚어줄 수 있습니다. 모델 성능이 아니라 데이터 접근과 설계의 차이입니다."
+          "question": "ChatGPT에 식단 물어보는 거랑 뭐가 다른가요?",
+          "answer": "요즘 범용 어시스턴트는 대화가 바뀌어도 기억하고, 미리 걸어두면 정해진 시각에 먼저 말을 걸기도 합니다. 여전히 없는 건 오늘의 식사·수면·걸음이 계속 흘러드는 통로입니다. 그래서 '단백질이 나흘째 부족하고 수면이 짧았다'는 식의 연결은 내가 직접 데이터를 붙여넣어야 가능합니다."
         },
         {
-          "question": "AI 코치가 영양사나 상담사를 대신할 수 있나요?",
-          "answer": "아니요. AI 코칭은 싸고, 새벽에도 있고, 판단하지 않습니다. 동시에 면허를 가진 전문가가 아니고 나에게 책임지지도 않습니다. 섭식 문제, 진단받은 질환, 기한이 있는 경기 목표라면 사람을 만나세요. 좋은 헬스 AI는 진단을 거절하고, 처방된 용량을 바꾸라고 말하지 않습니다."
+          "question": "밀리그램 AI 코치랑 하비트 AI 코치는 뭐가 다른가요?",
+          "answer": "보는 범위가 다릅니다. 밀리그램의 AI는 주로 식단을 분석해 피드백과 데일리 리포트를 줍니다. 하비트는 식사에 더해 수면·걸음·생리주기·기분·GLP-1 복약까지 함께 읽고, 그걸 묶어 오늘 할 행동 하나로 돌려줍니다. 체성분 추정도 같은 코치가 함께 봅니다."
         },
         {
-          "question": "그 앱의 '개인화'가 진짜인지 어떻게 아나요?",
-          "answer": "일부러 한 주를 망쳐서 기록해 보세요. 진짜 코칭 시스템은 요구를 낮추거나, 목표를 바꾸거나, 무슨 일 있었냐고 묻습니다. 스크립트로 짠 쪽은 똑같이 밝은 응원을 반복합니다. 가려내는 데 2주쯤 걸리니 무료 체험 안에서 해보는 게 좋습니다."
+          "question": "눔의 코치는 AI인가요 사람인가요?",
+          "answer": "사람입니다. 눔은 1:1 코치에게 언제든 메시지를 보낼 수 있는 구조가 핵심입니다. 그래서 이 카테고리에서 가격대가 가장 높은 편입니다. AI 코칭은 더 싸고 새벽에도 있지만, 사람에게 지는 책임은 다른 종류입니다."
         },
         {
-          "question": "아무것도 기록 안 하는데 AI 코치가 의미 있나요?",
-          "answer": "없습니다. 데이터 기반 코치는 내 입력의 함수라, 기록이 없으면 구독료 내는 챗봇이 됩니다. 기록 습관을 먼저 만들고 4주치 데이터가 쌓이면 그때 코칭을 붙이세요."
+          "question": "그 앱의 개인화가 진짜인지 어떻게 아나요?",
+          "answer": "일부러 한 주를 망쳐서 기록해 보세요. 진짜 코칭 시스템은 요구를 낮추거나 무슨 일 있었냐고 묻습니다. 스크립트로 짠 쪽은 똑같이 밝은 응원을 반복합니다. 가려내는 데 2주쯤 걸리니 무료 체험 안에서 해보는 게 좋습니다."
         },
         {
-          "question": "영어 말고 다른 언어로도 코칭이 되나요?",
-          "answer": "인터페이스 번역과 내 언어로 코칭하는 건 다릅니다. 버튼만 번역하고 코칭은 기계번역된 영어로 하는 앱이 많습니다. 내가 실제로 생각하는 언어로, 내가 실제로 먹는 음식으로 시험해 보세요."
+          "question": "AI 코치가 영양사나 의사를 대신할 수 있나요?",
+          "answer": "아니요. 좋은 헬스 AI는 진단을 거절하고, 처방된 용량을 바꾸라고 말하지 않습니다. 하비트도 의료기기가 아닌 웰니스 앱입니다. 섭식 문제나 진단받은 질환이 있다면 전문가를 먼저 만나세요."
         }
       ],
       "references": [

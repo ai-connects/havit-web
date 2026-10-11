@@ -12,71 +12,84 @@
     "en": {
       "title": "Best Body Composition Tracking Apps in 2026: The Accuracy Ladder",
       "short_title": "Best Body Composition Apps 2026",
-      "meta_description": "No consumer app replaces a DEXA scan — including ours. But if your question is 'am I losing fat or muscle?', an estimate that is consistently wrong still tracks change correctly. The four-rung accuracy ladder, five criteria, and how to read your own numbers.",
-      "tldr": "DEXA and InBody measure; smart scales and app estimates infer. An estimate that is consistently wrong in the same direction still tracks change correctly — right for 'is this diet costing me muscle?', wrong for 'what is my body fat percentage?'",
-      "body_md": "*Honest disclosure: HAVIT publishes this blog and makes one of the tools discussed. This article argues that no consumer app can replace a clinical measurement — including ours.*\n\n*Medical disclaimer: this article is for educational purposes and is not medical advice. Follow the instructions from your prescribing clinician and pharmacist, and never change a dose because of what an app shows.*\n\nIf you want a number you can take to a clinician, stop reading and book a DEXA scan. No app is that.\n\nIf you want to know whether the weight you are losing is fat or muscle, week over week, then a consumer tool is genuinely useful — provided you understand what it is actually doing. This guide is mostly about that second thing, because almost every disappointment in this category comes from applying a trend tool to a question that needed a measurement.\n\n## Why body composition instead of weight\n\nThe scale answers a question nobody is really asking. Bodyweight moves with water, glycogen, sodium, the menstrual cycle and what is still in your digestive tract. Two people at the same BMI can sit at opposite ends of cardiometabolic risk, and BMI misclassifies a substantial share of adults when checked against actual metabolic markers ([Tomiyama et al., *International Journal of Obesity*, 2016](https://www.nature.com/articles/ijo201617)).\n\nIt matters more than it used to. On GLP-1 therapy, the lean-mass share of weight lost ranges from 40–60% in some trials to 15% or less in others ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/)) — a spread wide enough that you cannot assume which end you are on without looking. Lean mass is not identical to muscle; it includes organs, bone and fluid, and the authors judge much of the change to be adaptive. A scale reports none of it. It is the one scenario where tracking weight alone can actively mislead you.\n\nClinical thinking has moved the same direction. Waist circumference has been proposed as a routine vital sign precisely because weight alone misses where the tissue sits ([Ross et al., *Nature Reviews Endocrinology*, 2020](https://www.nature.com/articles/s41574-019-0310-7)), and body composition rather than weight is increasingly treated as the better basis for risk assessment (Heymsfield et al., *Obesity Reviews*, 2024).\n\n## The accuracy ladder\n\nEvery tool in this category sits on one of four rungs. Knowing which rung you are on prevents almost every misunderstanding.\n\n| Rung | Method | What it measures | Typical use | What moves the number |\n| --- | --- | --- | --- | --- |\n| 1 | DEXA | X-ray attenuation, by region | Reference standard; research and clinical | Very little — that is the point |\n| 2 | Multi-frequency BIA (InBody and similar) | Electrical impedance, segmental | Gym, clinic, periodic check | Hydration, food, exercise, time of day |\n| 3 | Smart scale BIA | Impedance foot-to-foot | Daily home trend | Everything in rung 2, plus foot moisture |\n| 4 | App estimate (photo or survey model) | Inferred from inputs, not measured | Daily trend, zero equipment | Input quality and model assumptions |\n\nRungs 1 and 2 measure. Rungs 3 and 4 **estimate**. That distinction is the whole article. An estimate that is consistently wrong in the same direction still tracks change correctly — which is exactly what you need for \"am I losing fat or muscle?\" and exactly what you cannot use for \"what is my body fat percentage?\"\n\n## 5 criteria for choosing a consumer tool\n\n### 1. Does it tell you it is estimating?\n\nA tool that presents an inferred figure with no qualification is making a claim it cannot support. Honesty here correlates with everything else.\n\n### 2. Does it show a trend line, or a daily verdict?\n\nThe right output for rungs 3 and 4 is a slope over weeks. A single-day body fat percentage read to one decimal place is false precision, and it will swing on a salty dinner.\n\n### 3. Can you hold the conditions constant?\n\nRung 2 and 3 readings move with hydration, food, and exercise. Same time of day, same state, same scale, or the comparison is meaningless. A tool that reminds you to standardise is doing you a favour.\n\n### 4. Does it separate fat mass from lean mass?\n\n\"Body fat %\" alone hides the thing that matters during weight loss. You want to see fat mass down and lean mass flat. A single percentage can fall while both are shrinking.\n\n### 5. Does anything act on it?\n\nA number with no consequence changes nothing. The tools worth paying for connect the trend to protein intake, resistance training, or the rate at which you are losing.\n\n## How to read your own numbers honestly\n\n- **Compare like with like.** One device, one time of day, one state. Never compare an InBody reading to an app estimate and treat the gap as error — they are measuring differently.\n- **Use a four-week window.** Shorter than that and you are reading noise.\n- **Watch the pair, not the percentage.** Fat mass and lean mass moving in opposite directions is the signal.\n- **Let a measurement anchor the trend.** An occasional DEXA or InBody, with an app tracking between them, gets you most of the value of both.\n- **If the number distresses you, stop using it.** This metric lends itself to fixation. Weekly is plenty; daily is usually counterproductive.\n\n## Where each tool falls short — including ours\n\n- **DEXA** is the reference and is impractical as a habit: cost, booking, a small radiation dose.\n- **InBody-class BIA** is widely available and genuinely useful, and still moves several points with hydration alone. Same-day repeats can disagree.\n- **Smart scales** are the best value for daily trend data and the weakest for absolute accuracy — foot-to-foot impedance under-samples the upper body.\n- **App estimates, including HAVIT's**, are inferred rather than measured. Ours is a survey-based model validated internally against InBody on a small sample (n=70) — that is a starting point, not a clinical validation, and we publish it as such ([our write-up](/en/havit-ai-body-composition-92percent-vs-inbody)). If you need a defensible number, none of rung 3 or 4 will give you one, and we are not going to claim otherwise.\n\n## The bottom line\n\nPick the rung that matches your question. \"What is my body fat percentage?\" is a rung 1 or 2 question. \"Is this diet costing me muscle?\" is a rung 3 or 4 question, and consumer apps answer it well enough to change what you do.\n\nMost people need the second one, weekly, for free — and an occasional real measurement to anchor it.\n\n## Why HAVIT — the trend, with something attached to it\n\nHAVIT estimates body composition from your own inputs rather than asking you to buy hardware, and shows it as a trend rather than a verdict. The point is not the number — it is what sits next to it.\n\nBecause meals, protein, sleep, steps, cycle, mood and GLP-1 medication are in the same app, a lean-mass trend that is drifting down can be answered the same day: more protein, more resistance work, a slower rate of loss. That is the action a standalone scale cannot produce.\n\nIt matters most on GLP-1 therapy, where lean tissue loss is a known part of the picture and the scale cannot show it. Clinical guidance pairs medication with structured behaviour change rather than treating either alone as sufficient ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT is a wellness app, not a medical device. Body-composition results are estimates, not measurements.\n\n[Try HAVIT →](https://www.aihavit.com/)\n",
+      "meta_description": "DEXA, InBody, smartwatch BIA, smart scales and HAVIT — taken one at a time. What measures and what estimates, why that distinction decides your choice, and whether anything is attached to the trend.",
+      "tldr": "DEXA and InBody measure; smart scales and apps estimate. An estimate that is consistently wrong still tracks change correctly — right for \"is this costing me muscle?\", wrong for \"what is my body fat percentage?\"",
+      "body_md": "If you need a number you can take to a clinician, stop reading and book a **DEXA scan**. No app is that.\n\nIf you want to know whether the weight you are losing is fat or muscle, **week over week**, a consumer tool is genuinely useful — provided you understand what it is doing.\n\nThis guide takes the methods and apps one at a time.\n\n![One number on a scale cannot tell you what you lost](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_004.jpg)\n\n## First — the accuracy ladder\n\n| Rung | Method | Measures or estimates | What moves the number |\n| --- | --- | --- | --- |\n| 1 | DEXA | **Measures** (reference standard) | Very little |\n| 2 | Multi-frequency BIA (InBody and similar) | **Measures** | Hydration, food, exercise, time of day |\n| 3 | Smart scale · smartwatch BIA | Measures (foot-to-foot / hand-to-hand) | Everything in rung 2, plus contact quality |\n| 4 | App estimate (survey or photo model) | **Estimates** | Input quality, model assumptions |\n\nRungs 1 and 2 measure. Rungs 3 and 4 **estimate**. That distinction is the whole article. An estimate that is consistently wrong in the same direction still tracks change correctly — right for \"is this diet costing me muscle?\", wrong for \"what is my body fat percentage?\"\n\n## Why composition instead of weight\n\nScale weight moves with water, glycogen, sodium and cycle. It matters most on **GLP-1 therapy** (Wegovy, Ozempic, Mounjaro, Zepbound): the lean-mass share of weight lost has been reported at **40–60%** in some trials and **15% or less** in others. A scale reports all of it as success. Lean mass is not identical to muscle — it also counts organs, bone and fluid — but either way the scale cannot show you which end you are on.\n\n## HAVIT — the trend, with something attached to it\n\n| | |\n| --- | --- |\n| Rung | 4 (survey-based AI estimate) |\n| Hardware | None |\n| Validation | Internal comparison against InBody, **n=70**, published |\n| Read alongside | Meals, hydration, workouts, sleep, steps, cycle, mood, GLP-1 |\n| Price | Free · in-app purchases |\n\n![Body insights — a trend, not a verdict](/blog/havit/shot/feature-body-insights.webp)\n\n**The number is not the point. What sits next to it is.**\n\nA smart scale gives you a figure and stops. HAVIT puts the composition trend next to **meals, protein, sleep, steps, cycle and medication**, and **the AI coach reads all of it together**. So a lean-mass trend drifting down can be answered the same day: more protein, more resistance work, or a slower rate of loss.\n\n![The AI coach turns the trend into one action](/blog/havit/shot/feature-ai-coach.webp)\n\nOn GLP-1 therapy, **dose, side effects and protein** are logged in the same app, so the lean-mass signal is never read in isolation.\n\nThe same app also carries **daily missions**, the **daily check-in**, **six guided-meditation tracks**, **workout video**, **fasting** and **1,400+ articles**. Built with experts from Juvis Diet, Korea's leading diet clinic.\n\n**Stated plainly:** this is rung 4. An estimate, not a measurement. But for watching a trend and changing what you do about it, it is enough — and connecting the trend to an action is something nothing else on this list does.\n\n**Who it suits:** people who want a weekly trend with no hardware, and want to know what to do about it.\n\n## InBody — the most widely available rung 2\n\n| | |\n| --- | --- |\n| Rung | 2 (multi-frequency BIA) |\n| Hardware | Dedicated device (gyms, clinics, some home units) |\n| App | Result history, syncs with Samsung Health |\n\n![Same conditions, or the comparison means nothing](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_005.jpg)\n\n**What it does well.** Segmental readings and wide availability. Excellent for establishing a baseline.\n\n**Where it falls down.** Readings move several points with hydration, food, exercise and time of day — **same-day repeats can disagree.** And you have to go to where the machine is, so it is not a daily-trend tool.\n\n**Who it suits:** people who want a solid baseline once or twice a month.\n\n## Smartwatch BIA (Samsung Galaxy Watch and similar)\n\n| | |\n| --- | --- |\n| Rung | 3 (hand-to-hand BIA) |\n\n**What it does well.** No trip to a machine. Measure from the wrist in under a minute, and sync with other health apps.\n\n**Where it falls down.** Hand-to-hand sampling under-reads the lower body, and results depend on a correct profile — Samsung's own guidance says to check your profile first if the result looks wrong.\n\n**Who it suits:** people who already wear the watch.\n\n## Smart scales — best value for a daily trend\n\n| | |\n| --- | --- |\n| Rung | 3 (foot-to-foot BIA) |\n\n**What they do well.** Step on and you are done. The best value on the ladder for trend data.\n\n**Where they fall down.** Foot-to-foot impedance under-samples the upper body, and readings shift with foot moisture. **Do not trust the absolute number.**\n\n**Who they suit:** people who will stand on it at the same time every day and read only the slope.\n\n## Side by side\n\n| Tool | Rung | Hardware | Daily trend | Connects to action | Read alongside |\n| --- | --- | --- | --- | --- | --- |\n| DEXA | 1 | Clinic | No | No | Nothing |\n| InBody | 2 | Dedicated device | Hard | No | Nothing |\n| Smartwatch BIA | 3 | Watch | Yes | No | Activity |\n| Smart scale | 3 | Scale | **Yes** | No | Nothing |\n| **HAVIT** | 4 | **None** | **Yes** | **AI coach connects it** | **All 8 logs** |\n\n## Reading your own numbers honestly\n\n- **Compare like with like.** One device, one time of day, one state.\n- **Use a four-week window.** Shorter and you are reading noise.\n- **Watch the pair, not the percentage.** Fat mass and lean mass moving in opposite directions is the signal.\n- **Let a real measurement anchor the trend.** An occasional InBody or DEXA, with an app filling the gaps, gets most of the value of both.\n- **If the number distresses you, stop using it.** Weekly is plenty.\n\n## The bottom line\n\nPick the rung that matches your question. \"What is my body fat percentage?\" is a rung 1 or 2 question. \"Is this diet costing me muscle?\" is a rung 3 or 4 question — and consumer tools answer it well enough to change what you do.\n\nMost people need the second one. The next fork is whether anything is attached to the trend.\n\n[Try HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Rungs on the body-composition accuracy ladder",
-          "value": "4 (DEXA, multi-frequency BIA, smart scale, app estimate)",
-          "source": "This guide"
+          "label": "Rungs on the accuracy ladder",
+          "value": "4",
+          "source": "DEXA · multi-frequency BIA · scale/watch BIA · app estimate"
         },
         {
           "label": "Rungs that measure rather than estimate",
-          "value": "2 of 4 (DEXA, InBody-class BIA)",
-          "source": "This guide"
+          "value": "2 of 4",
+          "source": "DEXA and InBody-class BIA"
         },
         {
           "label": "Lean-mass share of weight lost on GLP-1 therapy",
           "value": "40–60% in some trials, ≤15% in others",
-          "source": "Neeland et al. 2024, Diabetes Obes Metab — lean mass ≠ muscle"
+          "source": "Neeland et al. 2024, Diabetes Obes Metab"
         },
         {
-          "label": "Window needed before a consumer trend means anything",
-          "value": "4 weeks",
-          "source": "Shorter reads as noise"
+          "label": "HAVIT internal validation",
+          "value": "n=70 against InBody",
+          "source": "Havit Inc., published"
         }
       ],
       "comparison_table": {
-        "title": "The accuracy ladder",
+        "title": "Side by side",
         "headers": [
+          "Tool",
           "Rung",
-          "Method",
-          "What it measures",
-          "Typical use",
-          "What moves the number"
+          "Hardware",
+          "Daily trend",
+          "Connects to action",
+          "Read alongside"
         ],
         "rows": [
           [
-            "1",
             "DEXA",
-            "X-ray attenuation, by region",
-            "Reference standard; research and clinical",
-            "Very little — that is the point"
+            "1",
+            "Clinic",
+            "No",
+            "No",
+            "Nothing"
           ],
           [
+            "InBody",
             "2",
-            "Multi-frequency BIA (InBody and similar)",
-            "Electrical impedance, segmental",
-            "Gym, clinic, periodic check",
-            "Hydration, food, exercise, time of day"
+            "Dedicated device",
+            "Hard",
+            "No",
+            "Nothing"
           ],
           [
+            "Smartwatch BIA",
             "3",
-            "Smart scale BIA",
-            "Impedance foot-to-foot",
-            "Daily home trend",
-            "Everything in rung 2, plus foot moisture"
+            "Watch",
+            "Yes",
+            "No",
+            "Activity"
           ],
           [
+            "Smart scale",
+            "3",
+            "Scale",
+            "Yes",
+            "No",
+            "Nothing"
+          ],
+          [
+            "HAVIT",
             "4",
-            "App estimate (photo or survey model)",
-            "Inferred from inputs, not measured",
-            "Daily trend, zero equipment",
-            "Input quality and model assumptions"
+            "None",
+            "Yes",
+            "AI coach connects it",
+            "All 8 logs"
           ]
         ],
-        "caption": "Rungs 1–2 measure. Rungs 3–4 estimate. An estimate that is consistently wrong still tracks change correctly."
+        "caption": "Rungs 1–2 measure, rungs 3–4 estimate. App characteristics as of October 2026."
       },
       "faq": [
         {
@@ -85,19 +98,19 @@
         },
         {
           "question": "Can an app really estimate body fat percentage?",
-          "answer": "It can produce an estimate, not a measurement. Photo and survey models infer from inputs rather than measuring tissue. The useful property is consistency: a figure that is wrong in the same direction every week still shows the direction of change correctly. Treat the absolute number with suspicion and the slope with interest."
+          "answer": "It produces an estimate, not a measurement. Survey and photo models infer from inputs rather than measuring tissue. The useful property is consistency: a figure wrong in the same direction every week still shows the direction of change. Treat the absolute number with suspicion and the slope with interest. HAVIT publishes an internal comparison against InBody (n=70)."
         },
         {
-          "question": "Why does my InBody reading change so much between sessions?",
-          "answer": "Bioelectrical impedance moves with hydration, recent food, recent exercise and time of day — same-day repeats can disagree by several points. That is not a broken machine. Standardise the conditions: same time, same state, same device, before comparing."
+          "question": "Why does my InBody reading change between sessions?",
+          "answer": "Bioelectrical impedance moves with hydration, recent food, recent exercise and time of day — same-day repeats can disagree by several points. That is not a broken machine. Standardise the conditions before comparing: same time, same state, same device."
         },
         {
-          "question": "Is a smart scale worth buying?",
-          "answer": "For daily trend data it is the best value on the ladder, and for absolute accuracy it is the weakest — foot-to-foot impedance under-samples the upper body. Buy it to watch a slope over four weeks, not to learn a number."
+          "question": "Is Galaxy Watch body composition accurate?",
+          "answer": "It is hand-to-hand BIA, so it under-reads the lower body, and the result depends on a correct profile — Samsung's own guidance says to check your profile first if a reading looks wrong. Use it for a trend rather than as a baseline figure."
         },
         {
           "question": "Why track body composition instead of weight on Ozempic or Wegovy?",
-          "answer": "Because a meaningful share of the weight lost on GLP-1 therapy can be lean tissue rather than fat, and the scale reports that as success. It is the clearest case where tracking weight alone can actively mislead you. Watch fat mass and lean mass as a pair rather than a single percentage."
+          "answer": "Because the lean-mass share of weight lost on GLP-1 therapy has been reported at 40–60% in some trials and 15% or less in others, and a scale reports all of it as success. Watch fat mass and lean mass as a pair rather than a single percentage, and keep protein and dose in the same view."
         },
         {
           "question": "How often should I measure?",
@@ -136,96 +149,109 @@
     "ko": {
       "title": "2026 체성분 측정 앱 추천 — 정확도 사다리로 고르는 법",
       "short_title": "2026 체성분 측정 앱 추천",
-      "meta_description": "어떤 소비자용 앱도 DEXA를 대신하지 못합니다, 우리 것 포함. 하지만 '지방이 빠지나 근육이 빠지나'가 질문이라면 늘 같은 방향으로 틀리는 추정치도 변화는 제대로 따라갑니다. 4단 정확도 사다리와 5가지 기준, 내 숫자를 정직하게 읽는 법.",
-      "tldr": "DEXA와 인바디는 재고, 체성분 체중계와 앱은 추론합니다. 늘 같은 방향으로 틀리는 추정치도 변화는 제대로 따라갑니다 — '이 다이어트가 근육을 깎나'에는 맞고 '내 체지방률이 몇인가'에는 틀립니다.",
-      "body_md": "*밝혀둡니다: 이 블로그는 HAVIT이 발행하고, 여기서 다루는 도구 중 하나를 만듭니다. 이 글의 주장은 **어떤 소비자용 앱도 임상 측정을 대신할 수 없다**는 것이고, 거기엔 우리도 포함됩니다.*\n\n*의료 면책: 이 글은 교육 목적이며 의학적 조언이 아닙니다. 처방한 의료진과 약사의 지시를 따르시고, 앱에 표시된 내용을 근거로 용량을 바꾸지 마세요.*\n\n의료진에게 들고 갈 숫자가 필요하시면, 여기서 읽기를 멈추고 DEXA 검사를 예약하세요. 그건 어떤 앱도 못 합니다.\n\n지금 빠지고 있는 게 지방인지 근육인지를 주 단위로 알고 싶으신 거라면, 소비자용 도구가 **진짜로 쓸모 있습니다.** 다만 그게 실제로 뭘 하고 있는지 알고 써야 합니다. 이 글은 대부분 그 두 번째 이야기입니다. 이 카테고리의 실망은 거의 다 **측정이 필요한 질문에 추세 도구를 들이대는 데서** 나오니까요.\n\n## 왜 체중이 아니라 체성분인가\n\n체중계는 아무도 실제로 묻지 않는 질문에 답합니다. 체중은 수분·글리코겐·나트륨·생리주기, 그리고 아직 소화관에 남아 있는 것에 따라 움직입니다. 같은 BMI인 두 사람이 대사 위험의 양극단에 있을 수 있고, BMI는 실제 대사 지표와 대조하면 상당수의 성인을 잘못 분류합니다 ([Tomiyama et al., *International Journal of Obesity*, 2016](https://www.nature.com/articles/ijo201617)).\n\n예전보다 더 중요해졌습니다. GLP-1 치료에서 빠진 체중 중 제지방이 차지하는 비율은 연구마다 40~60%부터 15% 이하까지 벌어집니다 ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/)). 내가 어느 쪽인지는 보지 않고는 알 수 없을 만큼 넓은 폭입니다. 제지방은 근육과 같은 말이 아니고 — 장기·뼈·체수분이 함께 들어갑니다 — 저자들은 이 변화의 상당 부분을 적응적 반응으로 봅니다. 체중계는 그 어느 것도 보여주지 않습니다. 체중만 보는 게 적극적으로 사람을 속일 수 있는 거의 유일한 상황입니다.\n\n임상 쪽 판단도 같은 방향으로 움직였습니다. 허리둘레를 일상적인 활력징후로 쓰자는 제안이 나온 것도, 체중만으로는 **조직이 어디에 붙어 있는지**를 놓치기 때문입니다 ([Ross et al., *Nature Reviews Endocrinology*, 2020](https://www.nature.com/articles/s41574-019-0310-7)). 체중이 아니라 체성분이 위험 평가의 더 나은 근거로 다뤄지는 흐름입니다 (Heymsfield et al., *Obesity Reviews*, 2024).\n\n## 정확도 사다리\n\n이 카테고리의 모든 도구는 네 단 중 하나에 있습니다. 내가 몇 단에 있는지만 알아도 오해의 대부분이 사라집니다.\n\n| 단 | 방식 | 무엇을 재나 | 쓰임새 | 숫자를 흔드는 것 |\n| --- | --- | --- | --- | --- |\n| 1 | DEXA | 부위별 X선 감쇠 | 기준 표준, 연구·임상 | 거의 없음 — 그게 요점 |\n| 2 | 다주파 BIA (인바디류) | 부위별 전기 저항 | 헬스장·클리닉·정기 점검 | 수분, 식사, 운동, 시간대 |\n| 3 | 체성분 체중계 BIA | 발-발 임피던스 | 집에서 매일 추세 | 2단의 모든 것 + 발바닥 습기 |\n| 4 | 앱 추정 (사진·설문 모델) | 재는 게 아니라 입력에서 추론 | 장비 없이 매일 추세 | 입력 품질과 모델 가정 |\n\n1·2단은 **잽니다.** 3·4단은 **추정합니다.** 이 구분이 이 글의 전부입니다. 늘 같은 방향으로 틀리는 추정치도 **변화는 제대로 따라갑니다** — \"지방이 빠지나 근육이 빠지나\"에는 딱 맞고, \"내 체지방률이 몇인가\"에는 쓸 수 없는 이유가 바로 그겁니다.\n\n## 소비자용 도구를 고르는 5가지 기준\n\n### 1. 추정하고 있다고 말하나\n\n추론한 숫자를 아무 단서 없이 내놓는 도구는 뒷받침할 수 없는 주장을 하는 겁니다. 이 지점의 정직함은 나머지 전부와 상관관계가 있습니다.\n\n### 2. 추세선을 주나, 하루치 판정을 주나\n\n3·4단의 올바른 출력은 **몇 주에 걸친 기울기**입니다. 소수점 한 자리까지 찍힌 하루치 체지방률은 거짓 정밀도고, 짠 저녁 한 끼에 흔들립니다.\n\n### 3. 조건을 똑같이 유지할 수 있나\n\n2·3단 측정은 수분·식사·운동에 따라 움직입니다. 같은 시간, 같은 상태, 같은 기기 — 아니면 비교 자체가 무의미합니다. 조건을 맞추라고 알려주는 도구는 호의를 베푸는 겁니다.\n\n### 4. 지방량과 제지방량을 나눠서 보여주나\n\n\"체지방률\" 하나로는 감량 중에 정작 중요한 게 가려집니다. **지방량은 내려가고 제지방량은 유지**되는 걸 봐야 합니다. 둘 다 줄어드는 중에도 퍼센트 하나는 떨어질 수 있습니다.\n\n### 5. 그 숫자로 뭔가 하나\n\n결과가 따르지 않는 숫자는 아무것도 바꾸지 않습니다. 돈 낼 가치가 있는 도구는 추세를 단백질 섭취, 근력 운동, 감량 속도에 연결합니다.\n\n## 내 숫자를 정직하게 읽는 법\n\n- **같은 것끼리 비교하세요.** 기기 하나, 시간대 하나, 상태 하나. 인바디 수치와 앱 추정치를 비교해 그 차이를 오차라고 부르지 마세요 — 애초에 다른 방식으로 재고 있습니다.\n- **4주 창으로 보세요.** 그보다 짧으면 노이즈를 읽는 겁니다.\n- **퍼센트 말고 한 쌍을 보세요.** 지방량과 제지방량이 반대로 움직이는 게 신호입니다.\n- **가끔은 실제 측정으로 기준점을 잡으세요.** 이따금 DEXA나 인바디를 찍고 그 사이를 앱으로 메우면 양쪽의 가치를 대부분 가져갑니다.\n- **숫자가 괴롭다면 쓰지 마세요.** 이 지표는 집착하기 쉽습니다. 주 1회면 충분하고, 매일은 대개 역효과입니다.\n\n## 각 도구가 밀리는 지점 — 우리 것 포함\n\n- **DEXA**는 기준이지만 습관으로 삼기엔 비현실적입니다. 비용, 예약, 소량의 방사선 피폭.\n- **인바디급 BIA**는 접근성이 좋고 실제로 쓸모 있지만, 수분만으로도 몇 포인트가 움직입니다. 같은 날 두 번 재도 값이 다를 수 있습니다.\n- **체성분 체중계**는 매일 추세로는 가성비가 제일 좋고 절대 정확도로는 제일 약합니다. 발-발 임피던스는 상체를 제대로 못 봅니다.\n- **앱 추정치는, HAVIT 것을 포함해** 재는 게 아니라 추론입니다. 저희 건 설문 기반 모델이고 인바디를 기준으로 **소규모 내부 비교(n=70)** 를 거쳤습니다 — 그건 출발점이지 임상 검증이 아니고, 그렇게 밝혀서 공개하고 있습니다 ([해당 글](/ko/havit-ai-body-composition-92percent-vs-inbody)). 근거를 댈 수 있는 숫자가 필요하다면 3단도 4단도 그걸 주지 못하고, 아닌 척하지 않겠습니다.\n\n## 정리\n\n**내 질문에 맞는 단을 고르세요.** \"내 체지방률이 몇이지?\"는 1·2단 질문입니다. \"이 다이어트가 근육을 깎고 있나?\"는 3·4단 질문이고, 소비자용 앱은 **행동을 바꿀 만큼은** 답해줍니다.\n\n대부분의 사람에게 필요한 건 두 번째입니다. 주 1회, 공짜로. 그리고 가끔 실제 측정 하나로 기준점을 잡으면 됩니다.\n\n## HAVIT을 만든 이유 — 추세에 할 일을 붙여서\n\nHAVIT은 장비를 사게 하는 대신 사용자의 입력에서 체성분을 추정하고, 판정이 아니라 **추세**로 보여줍니다. 요점은 숫자가 아니라 **그 옆에 뭐가 있느냐**입니다.\n\n식사·단백질·수면·걸음·생리주기·기분·GLP-1 복약이 같은 앱에 있으니, 제지방 추세가 아래로 흐르면 그날 바로 답을 낼 수 있습니다. 단백질을 늘리거나, 근력 운동을 늘리거나, 감량 속도를 늦추거나. 체중계 혼자서는 못 만드는 행동입니다.\n\nGLP-1 치료 중에 특히 중요합니다. 제지방 손실이 알려진 그림의 일부인데 체중계는 그걸 보여주지 못하니까요. 임상 가이드도 약물 하나로 충분하다고 보지 않고 구조화된 행동 변화와 **함께** 가져가라고 합니다 ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT은 의료기기가 아닌 웰니스 앱입니다. 체성분 결과는 측정값이 아니라 추정치입니다.\n\n[HAVIT 시작하기 →](https://www.aihavit.com/)\n",
+      "meta_description": "DEXA·인바디·갤럭시 워치·체성분 체중계·하비트를 하나씩 뜯어봤습니다. 재는 것과 추정하는 것의 차이, 그리고 추세 옆에 할 일이 붙어 있는지까지. 2026년 10월 기준.",
+      "tldr": "DEXA와 인바디는 재고, 체중계와 앱은 추정합니다. 늘 같은 방향으로 틀리는 추정치도 변화는 제대로 따라갑니다. 대부분에게 필요한 건 주 단위 추세고, 그다음 갈림길은 추세 옆에 할 일이 붙어 있느냐입니다.",
+      "body_md": "의료진에게 들고 갈 숫자가 필요하시면 여기서 멈추고 **DEXA**를 예약하세요. 어떤 앱도 그건 못 합니다.\n\n지금 빠지는 게 지방인지 근육인지를 **주 단위로** 알고 싶은 거라면, 소비자용 도구가 진짜로 쓸모 있습니다. 다만 그게 뭘 하고 있는지 알고 써야 합니다.\n\n이 글은 체성분을 재거나 추정하는 방법과 앱을 하나씩 뜯어봅니다.\n\n![체중계 숫자 하나로는 무엇이 빠졌는지 알 수 없다](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_004.jpg)\n\n## 먼저 — 정확도 사다리 4단\n\n| 단 | 방식 | 재나, 추정하나 | 숫자를 흔드는 것 |\n| --- | --- | --- | --- |\n| 1 | DEXA | **잰다** (기준 표준) | 거의 없음 |\n| 2 | 다주파 BIA (인바디류) | **잰다** | 수분·식사·운동·시간대 |\n| 3 | 체성분 체중계 · 스마트워치 BIA | 잰다(발-발/손-손) | 2단 전부 + 접촉 상태 |\n| 4 | 앱 추정 (설문·사진 모델) | **추정한다** | 입력 품질·모델 가정 |\n\n1·2단은 **재고**, 3·4단은 **추정합니다.** 이 구분이 전부입니다. 늘 같은 방향으로 틀리는 추정치도 **변화는 제대로 따라갑니다** — \"지방이 빠지나 근육이 빠지나\"에는 맞고, \"내 체지방률이 몇인가\"에는 쓸 수 없습니다.\n\n## 왜 체중이 아니라 체성분인가\n\n체중은 수분·글리코겐·나트륨·생리주기에 따라 움직입니다. 특히 **GLP-1(위고비·오젬픽·마운자로·젭바운드)**을 쓰는 중이면 중요합니다. 빠진 체중 중 제지방 비율이 연구에 따라 **40~60%**까지 보고됩니다. 체중계는 그걸 성공으로만 보고합니다.\n\n## 하비트(HAVIT) — 추정치에 할 일을 붙여 줍니다\n\n| | |\n| --- | --- |\n| 단 | 4단 (설문 기반 AI 추정) |\n| 장비 | 필요 없음 |\n| 검증 | 인바디 기준 자체 비교 연구 **n=70** 공개 |\n| 함께 보는 것 | 식사·수분·운동·수면·걸음·생리주기·기분·GLP-1 |\n| 가격 | 무료 · 앱 내 구입 |\n\n![체성분 인사이트 — 체지방·근육 추세를 판정이 아니라 추세로](/blog/havit/shot/feature-body-insights.webp)\n\n**숫자가 요점이 아니라 그 옆에 뭐가 있느냐가 요점입니다.**\n\n체중계는 숫자를 주고 끝납니다. 하비트는 체성분 추세 옆에 **식사·단백질·수면·걸음·생리주기·복약**이 같이 있고, **AI 코치가 그 전부를 함께 읽습니다.** 그래서 제지방 추세가 아래로 흐르면 그날 바로 답이 나옵니다 — 단백질을 늘리거나, 근력 운동을 늘리거나, 감량 속도를 늦추거나.\n\n![AI 코치 — 추세를 읽고 오늘 할 행동 하나로](/blog/havit/shot/feature-ai-coach.webp)\n\nGLP-1을 쓰는 중이라면 **용량·부작용·단백질**까지 같은 앱에서 기록돼, 제지방 손실 신호와 함께 볼 수 있습니다.\n\n여기에 **데일리 미션**, **데일리 체크인**, **가이드 명상 6종**, **운동 영상**, **단식**, 디스커버리 **1,400개 이상 아티클**이 같은 앱에 있습니다. **한국 1위 다이어트 클리닉 쥬비스 다이어트 출신 전문가들**과 함께 만들었습니다.\n\n**정직하게 말하면**: 이건 4단입니다. 추정치지 측정값이 아닙니다. 다만 **추세를 보고 행동을 바꾸는 용도로는 충분하고**, 그 행동까지 연결해 주는 건 이 목록에서 하비트뿐입니다.\n\n**이런 분께**: 장비 없이 주 단위 추세를 보고, 그 결과로 뭘 할지까지 알고 싶은 분.\n\n## 인바디 (InBody) — 가장 널리 쓰이는 2단 측정\n\n| | |\n| --- | --- |\n| 단 | 2단 (다주파 BIA) |\n| 장비 | 전용 측정기 (헬스장·클리닉·일부 가정용) |\n| 앱 | 측정 결과 관리, 삼성 헬스 연동 가능 |\n\n![같은 조건에서 재야 비교가 된다](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_005.jpg)\n\n**잘하는 것.** 접근성이 좋고 부위별로 나옵니다. 국내 헬스장에 거의 다 있습니다. 기준점을 잡는 용도로 훌륭합니다.\n\n**아쉬운 것.** 수분·식사·운동·시간대에 따라 몇 포인트가 움직입니다. **같은 날 두 번 재도 값이 다를 수 있습니다.** 그리고 기계가 있는 곳에 가야 합니다 — 매일 추세를 보는 용도가 아닙니다.\n\n**이런 분께**: 한 달에 한두 번 기준점을 잡고 싶은 분.\n\n## 삼성 헬스 + 갤럭시 워치 — 손목에서 바로\n\n| | |\n| --- | --- |\n| 단 | 3단 (손-손 BIA) |\n| 장비 | 갤럭시 워치 |\n| 방법 | 삼성 헬스 > 체성분 > 측정 |\n\n**잘하는 것.** 기계가 있는 곳에 갈 필요가 없습니다. 성별·키·체중을 넣고 바로 잽니다. 인바디 앱과 데이터 연동도 됩니다.\n\n**아쉬운 것.** 손-손 측정이라 하체를 제대로 못 봅니다. 프로필이 틀리면 결과가 흔들립니다(삼성도 결과가 부정확하면 프로필부터 확인하라고 안내합니다).\n\n**이런 분께**: 이미 갤럭시 워치를 쓰는 분.\n\n## 체성분 체중계 — 매일 추세로는 가성비 최고\n\n| | |\n| --- | --- |\n| 단 | 3단 (발-발 BIA) |\n| 장비 | 스마트 체중계 |\n\n**잘하는 것.** 매일 올라서기만 하면 됩니다. 추세 보기에는 사다리에서 가성비가 제일 좋습니다.\n\n**아쉬운 것.** 발-발 임피던스는 상체를 제대로 못 봅니다. 발바닥 습기에도 흔들립니다. **절대값은 믿지 마세요.**\n\n**이런 분께**: 매일 같은 조건에서 기울기만 보고 싶은 분.\n\n## 한눈에 비교\n\n| 도구 | 단 | 장비 | 매일 추세 | 행동까지 연결 | 함께 보는 데이터 |\n| --- | --- | --- | --- | --- | --- |\n| DEXA | 1 | 의료기관 | 불가 | 없음 | 없음 |\n| 인바디 | 2 | 전용 측정기 | 어려움 | 없음 | 없음 |\n| 갤럭시 워치 | 3 | 워치 | 가능 | 없음 | 활동 중심 |\n| 체성분 체중계 | 3 | 체중계 | **가능** | 없음 | 없음 |\n| **하비트** | 4 | **없음** | **가능** | **AI 코치가 연결** | **기록 8종 전부** |\n\n## 내 숫자를 정직하게 읽는 법\n\n- **같은 것끼리 비교하세요.** 기기 하나, 시간대 하나, 상태 하나.\n- **4주 창으로 보세요.** 그보다 짧으면 노이즈입니다.\n- **퍼센트 말고 한 쌍을 보세요.** 지방량과 제지방량이 반대로 움직이는 게 신호입니다.\n- **가끔은 실제 측정으로 기준점을.** 이따금 인바디를 찍고 그 사이를 앱으로 메우면 양쪽의 가치를 대부분 가져갑니다.\n- **숫자가 괴롭다면 쓰지 마세요.** 주 1회면 충분합니다.\n\n## 정리\n\n**내 질문에 맞는 단을 고르세요.** \"내 체지방률이 몇이지?\"는 1·2단 질문이고, \"이 다이어트가 근육을 깎고 있나?\"는 3·4단 질문입니다.\n\n대부분의 사람에게 필요한 건 두 번째입니다. 그리고 **추세 옆에 뭘 할지가 붙어 있는지**가 그다음 갈림길입니다.\n\n[하비트 시작하기 →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "체성분 정확도 사다리의 단 수",
-          "value": "4단 (DEXA·다주파 BIA·체성분 체중계·앱 추정)",
-          "source": "이 가이드"
+          "label": "정확도 사다리",
+          "value": "4단",
+          "source": "DEXA · 다주파 BIA · 체중계/워치 BIA · 앱 추정"
         },
         {
-          "label": "추정이 아니라 실제로 재는 단",
-          "value": "4단 중 2단 (DEXA·인바디급 BIA)",
-          "source": "이 가이드"
+          "label": "GLP-1 감량분 중 제지방 비율",
+          "value": "연구에 따라 40~60%",
+          "source": "Neeland et al. 2024, Diabetes Obes Metab"
         },
         {
-          "label": "GLP-1 감량분 중 제지방이 차지하는 비율",
-          "value": "연구에 따라 40~60%, 15% 이하",
-          "source": "Neeland et al. 2024, Diabetes Obes Metab — 제지방≠근육"
+          "label": "하비트 체성분 자체 비교 연구",
+          "value": "n=70 (인바디 기준)",
+          "source": "Havit Inc. 내부 연구, 공개"
         },
         {
-          "label": "소비자용 추세가 의미를 갖는 데 필요한 기간",
+          "label": "추세가 의미를 갖는 최소 기간",
           "value": "4주",
           "source": "그보다 짧으면 노이즈"
         }
       ],
       "comparison_table": {
-        "title": "정확도 사다리",
+        "title": "한눈에 비교",
         "headers": [
+          "도구",
           "단",
-          "방식",
-          "무엇을 재나",
-          "쓰임새",
-          "숫자를 흔드는 것"
+          "장비",
+          "매일 추세",
+          "행동까지 연결",
+          "함께 보는 데이터"
         ],
         "rows": [
           [
-            "1",
             "DEXA",
-            "부위별 X선 감쇠",
-            "기준 표준, 연구·임상",
-            "거의 없음 — 그게 요점"
+            "1",
+            "의료기관",
+            "불가",
+            "없음",
+            "없음"
           ],
           [
+            "인바디",
             "2",
-            "다주파 BIA (인바디류)",
-            "부위별 전기 저항",
-            "헬스장·클리닉·정기 점검",
-            "수분, 식사, 운동, 시간대"
+            "전용 측정기",
+            "어려움",
+            "없음",
+            "없음"
           ],
           [
+            "갤럭시 워치",
             "3",
-            "체성분 체중계 BIA",
-            "발-발 임피던스",
-            "집에서 매일 추세",
-            "2단의 모든 것 + 발바닥 습기"
+            "워치",
+            "가능",
+            "없음",
+            "활동 중심"
           ],
           [
+            "체성분 체중계",
+            "3",
+            "체중계",
+            "가능",
+            "없음",
+            "없음"
+          ],
+          [
+            "하비트",
             "4",
-            "앱 추정 (사진·설문 모델)",
-            "재는 게 아니라 입력에서 추론",
-            "장비 없이 매일 추세",
-            "입력 품질과 모델 가정"
+            "없음",
+            "가능",
+            "AI 코치가 연결",
+            "기록 8종 전부"
           ]
         ],
-        "caption": "1·2단은 잰다. 3·4단은 추정한다. 늘 같은 방향으로 틀리는 추정치도 변화는 제대로 따라간다."
+        "caption": "1·2단은 재고 3·4단은 추정한다. 앱 특성은 2026년 10월 기준."
       },
       "faq": [
         {
-          "question": "체성분 측정은 어떤 앱이 제일 좋나요?",
-          "answer": "먼저 내 질문이 뭔지 정하세요. \"내 체지방률이 몇이지?\"는 측정이 필요합니다 — DEXA나 인바디급 다주파 BIA요. \"이 다이어트가 근육을 깎고 있나?\"는 추세 질문이고, 체성분 체중계나 앱 추정치가 행동을 바꿀 만큼은 답해줍니다. 대부분은 두 번째가 필요하고, 가끔 실제 측정 하나로 기준점을 잡으면 됩니다."
+          "question": "체성분 측정, 어떤 앱이 제일 좋나요?",
+          "answer": "먼저 내 질문을 정하세요. '내 체지방률이 몇이지'는 DEXA나 인바디가 필요한 질문이고, '이 다이어트가 근육을 깎고 있나'는 체중계나 앱 추정으로도 행동을 바꿀 만큼은 답이 나옵니다. 대부분은 두 번째가 필요하고, 그다음 갈림길은 추세 옆에 할 일이 붙어 있느냐입니다."
         },
         {
           "question": "앱이 체지방률을 진짜로 알 수 있나요?",
-          "answer": "추정치를 낼 수 있을 뿐 측정은 아닙니다. 사진·설문 모델은 조직을 재는 게 아니라 입력에서 추론합니다. 쓸모 있는 성질은 일관성입니다. 매주 같은 방향으로 틀리는 숫자도 변화의 방향은 제대로 보여줍니다. 절대값은 의심하고 기울기는 믿으세요."
+          "answer": "추정치를 낼 수 있을 뿐 측정은 아닙니다. 다만 매주 같은 방향으로 틀리는 숫자도 변화의 방향은 제대로 보여줍니다. 절대값은 의심하고 기울기를 보세요. 하비트는 인바디를 기준으로 한 자체 비교 연구(n=70)를 공개하고 있습니다."
         },
         {
-          "question": "인바디가 잴 때마다 왜 이렇게 달라지나요?",
-          "answer": "생체전기저항은 수분, 직전 식사, 직전 운동, 시간대에 따라 움직입니다. 같은 날 두 번 재도 몇 포인트가 다를 수 있습니다. 기계가 고장난 게 아닙니다. 같은 시간, 같은 상태, 같은 기기로 조건을 맞추고 비교하세요."
+          "question": "인바디가 잴 때마다 왜 다른가요?",
+          "answer": "생체전기저항은 수분·직전 식사·직전 운동·시간대에 따라 움직입니다. 같은 날 두 번 재도 몇 포인트가 다를 수 있습니다. 같은 시간, 같은 상태, 같은 기기로 조건을 맞추고 비교하세요."
         },
         {
-          "question": "체성분 체중계 살 만한가요?",
-          "answer": "매일 추세를 보는 용도로는 사다리에서 가성비가 제일 좋고, 절대 정확도로는 제일 약합니다. 발-발 임피던스는 상체를 제대로 못 봅니다. 숫자를 알려고가 아니라 4주짜리 기울기를 보려고 사세요."
+          "question": "갤럭시 워치 체성분은 정확한가요?",
+          "answer": "손-손 방식이라 하체를 제대로 못 봅니다. 삼성도 결과가 부정확하면 프로필부터 확인하라고 안내합니다. 기준점이 아니라 추세용으로 쓰세요."
         },
         {
           "question": "오젬픽·위고비 쓰는데 왜 체중 말고 체성분을 봐야 하나요?",
-          "answer": "GLP-1로 빠지는 체중에는 지방이 아닌 제지방이 상당히 섞일 수 있는데, 체중계는 그걸 성공으로 보고하기 때문입니다. 체중만 보는 게 사람을 적극적으로 속일 수 있는 가장 분명한 경우입니다. 퍼센트 하나가 아니라 지방량과 제지방량을 한 쌍으로 보세요."
+          "answer": "GLP-1로 빠진 체중 중 제지방 비율이 연구에 따라 40~60%까지 보고되는데, 체중계는 그걸 성공으로만 보고하기 때문입니다. 퍼센트 하나가 아니라 지방량과 제지방량을 한 쌍으로 보세요. 하비트는 체성분 추정과 용량·부작용·단백질 기록을 같은 앱에서 봅니다."
         },
         {
           "question": "얼마나 자주 재야 하나요?",
-          "answer": "주 1회면 충분하고, 의미가 생기는 최소 창은 4주입니다. 매일 재면 대개 노이즈를 읽게 되고, 어떤 사람에게는 집착을 키웁니다. 숫자가 괴롭다면 쓰지 마세요."
+          "answer": "주 1회면 충분하고, 의미가 생기는 최소 창은 4주입니다. 매일 재면 노이즈를 읽게 되고 어떤 사람에게는 집착을 키웁니다."
         }
       ],
       "references": [
