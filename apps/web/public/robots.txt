@@ -29,7 +29,7 @@ Disallow: /blog/_next/image
 Disallow: /blog/admin/
 
 # AI / LLM 크롤러. 명시적으로 허용한다 — HAVIT 소개를 LLM 이 읽어가는 것이
-# 이 사이트에 이득이고, 읽어갈 요약본은 /llms.txt 와 /blog/llms.txt 에 있다.
+# 이 사이트에 이득이고, 읽어갈 요약본은 /llms.txt · /llms-full.txt · /blog/llms.txt 에 있다.
 #
 # ⚠️ robots.txt 규칙은 "가장 구체적인 User-agent 그룹 하나"만 적용된다.
 #    아래 그룹에 이름이 적힌 크롤러는 위의 `User-agent: *` 그룹을 **통째로**
