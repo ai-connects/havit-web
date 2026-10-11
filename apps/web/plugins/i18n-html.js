@@ -321,9 +321,14 @@ export function langHref(target, current, page = HOME_PAGE) {
   if (target === current) return page.path(target)
   // 전환은 `?lang=` 으로 보낸다 — middleware 가 그 쿼리를 보고 hv_lang 쿠키를 갱신한다.
   // 경로로 직행하면 쿠키가 그대로 남아 "방금 고른 언어"와 "저장된 선택"이 어긋난다.
-  // 보고 있던 페이지는 유지한다 — 제휴 페이지에서 언어를 바꾸면 제휴 페이지의 그
-  // 언어판으로 간다.
-  return `${page.path(current)}?lang=${target}`
+  //
+  // ⚠️ 기준 경로는 **보고 있던 경로가 아니라 기본 언어판 경로**다. matcher 가
+  // `/` 와 `/affiliate/` 는 받지만 `/ko/` 는 안 받기 때문이다. `/ko/?lang=en` 로
+  // 보내면 미들웨어가 아예 돌지 않아 쿼리가 통째로 무시되고, 언어 메뉴가 33개
+  // 언어판 홈에서 죽는다(실측: 200 응답, Set-Cookie 없음, 같은 언어 재노출).
+  // 보던 페이지는 그대로 유지된다 — pathFor 가 제휴 페이지면 제휴 페이지의,
+  // 홈이면 홈의 목적지를 돌려주기 때문이다.
+  return `${page.path(DEFAULT_LOCALE)}?lang=${target}`
 }
 
 /**
