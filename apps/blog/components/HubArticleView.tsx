@@ -80,6 +80,52 @@ function Inline({ children }: { children: string }) {
   );
 }
 
+/**
+ * 구조화 비교표.
+ *
+ * 제목이 본문 h2 와 같으면 **그 섹션 안에서** 렌더한다. 예전엔 본문 전부를
+ * 그린 뒤 맨 끝에 같은 제목으로 한 번 더 그렸다 — 그래서 독자는 같은 제목을
+ * 두 번 보고, 표를 소개하는 문장은 정작 표에서 멀리 떨어져 있었다.
+ * 실측: hub 65건 중 63건 · 326개 (글×언어) 가 이 상태였고 영어·한국어
+ * 포함 전 언어에 해당했다(= 번역 문제가 아니라 레이아웃 문제).
+ */
+function ComparisonTable({
+  table,
+  withHeading,
+}: {
+  table: NonNullable<ArticleV2LangContent['comparison_table']>;
+  withHeading: boolean;
+}) {
+  return (
+    <>
+      {withHeading && <h2 className="hub-h2">{table.title}</h2>}
+      <div className="hub-table-wrap">
+        <table className="hub-table">
+          <thead>
+            <tr>
+              {table.headers.map((h, i) => (
+                <th key={i} scope="col">
+                  {h}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {table.rows.map((row, i) => (
+              <tr key={i}>
+                {row.map((c, j) => (
+                  <td key={j}>{c}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      {table.caption && <p className="hub-caption">{table.caption}</p>}
+    </>
+  );
+}
+
 function Block({ block }: { block: HubBlock }) {
   switch (block.type) {
     case 'heading':
@@ -212,6 +258,23 @@ function Block({ block }: { block: HubBlock }) {
 export default function HubArticleView({ article, content, shortLang, fallback }: Props) {
   const langKey = toFullLang(shortLang === 'zh' ? 'zh-cn' : shortLang);
   const body = parseHubBody(content.body_md);
+
+  /**
+   * 구조화 비교표를 "어느 섹션 안에서" 그릴지.
+   *
+   * 원고가 `## 비교표 …` 라는 섹션을 두고 그 아래에 소개 문장만 쓴 뒤, 표 자체는
+   * `comparison_table` 필드에 담는 패턴이 굳어 있다. 렌더러가 그걸 맨 끝에 같은
+   * 제목으로 또 그려서 **제목이 두 번 나오고 소개 문장과 표가 떨어져 있었다.**
+   * 제목이 일치하는 섹션을 찾아 그 안에서 그린다. 못 찾으면 종전대로 맨 끝.
+   *
+   * 공백만 다른 경우가 있어 normalize 후 비교한다(번역본에서 `比較表:` 뒤
+   * 공백 유무가 언어마다 갈렸다).
+   */
+  const norm = (t: string) => t.replace(/\s+/g, ' ').trim().toLowerCase();
+  const tableTitle = content.comparison_table?.title;
+  const tableSectionId = tableTitle
+    ? (body.sections.find((s) => norm(s.title) === norm(tableTitle))?.id ?? null)
+    : null;
   const related = getRelatedForLang(article, shortLang, 4);
   const references = Array.isArray(content.references) ? content.references : null;
   const hero = articleImage(article.slug, article.category);
@@ -307,6 +370,11 @@ export default function HubArticleView({ article, content, shortLang, fallback }
           {s.blocks.map((b, i) => (
             <Block key={i} block={b} />
           ))}
+          {/* 제목이 같은 섹션이면 표를 여기서 그린다 — 제목 중복이 사라지고,
+              표를 소개하는 문장 바로 아래에 표가 온다. */}
+          {tableSectionId === s.id && content.comparison_table && (
+            <ComparisonTable table={content.comparison_table} withHeading={false} />
+          )}
           {/* 섹션 사진은 히어로와도, 서로와도 겹치지 않게 미리 배정돼 있다
               (data/hub-section-images.json). 배정이 없으면 생략한다 —
               같은 사진을 한 글에서 반복하는 것보다 없는 편이 낫다. */}
@@ -330,34 +398,10 @@ export default function HubArticleView({ article, content, shortLang, fallback }
         </section>
       ))}
 
-      {content.comparison_table && (
+      {/* 짝이 되는 섹션이 없을 때만 독립 섹션으로. 있으면 위에서 이미 그렸다. */}
+      {content.comparison_table && !tableSectionId && (
         <section className="hub-section">
-          <h2 className="hub-h2">{content.comparison_table.title}</h2>
-          <div className="hub-table-wrap">
-            <table className="hub-table">
-              <thead>
-                <tr>
-                  {content.comparison_table.headers.map((h, i) => (
-                    <th key={i} scope="col">
-                      {h}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {content.comparison_table.rows.map((row, i) => (
-                  <tr key={i}>
-                    {row.map((c, j) => (
-                      <td key={j}>{c}</td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          {content.comparison_table.caption && (
-            <p className="hub-caption">{content.comparison_table.caption}</p>
-          )}
+          <ComparisonTable table={content.comparison_table} withHeading />
         </section>
       )}
 
