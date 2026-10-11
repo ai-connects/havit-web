@@ -321,196 +321,6 @@
       "last_updated": "2026-07-02",
       "short_title": "MyFitnessPal 대안 GLP-1 트래커｜2026 솔직 비교"
     },
-    "ja": {
-      "title": "MyFitnessPal 代替アプリ｜GLP-1向け 2026年 正直比較｜Havit vs MyFitnessPal",
-      "meta_description": "オゼンピックやウゴービを使いながらMyFitnessPalの代替を探していますか？2026年に加わったGLP-1サポートの中身と足りない点、専用アプリの選び方を正直に比較します。",
-      "tldr": "オゼンピックやウゴービを使いながらMyFitnessPalの代替を探していますか？2026年に加わったGLP-1サポートの中身と足りない点、専用アプリの選び方を正直に比較します。",
-      "body_md": "*医療上の注意：本記事は情報提供のみを目的とし、医療アドバイスではありません。用量や使用方法は必ず処方医・薬剤師の指示に従ってください。アプリの表示を根拠に用量を変更しないでください。*\n\n「MyFitnessPal 代替」と検索したなら、たいてい次のどちらかでしょう。GLP-1（オゼンピック・ウゴービ・マンジャロ・ゼップバウンド）を使っていて、MyFitnessPalが「薬の機能を後付けした食事アプリ」に感じられるか、あるいはPremiumの課金に疲れて、もっとシンプルなアプリが自分の道のりに合うのではと考えているか。\n\nこの記事は特定アプリの売り込みではなく、中立の比較です。MyFitnessPalは本当に強力なアプリで、2026年にGLP-1ユーザー向けに確かに良くなりました。何が得意になったのか、週1回の注射を管理する人にどんな隙間が残るのか、代替アプリで何を見るべきかを正直に整理します。誇張はなし。薬こそが*道のりの中心*であるときに本当に大事なことだけを。\n\n## MyFitnessPalが得意なこと\n\nMyFitnessPalは10年以上カロリー計算の標準であり続けました。その地位を守ってきたのには理由があります。\n\n### 食品DBは業界最高\n\n2026年3月にCal AIを買収した後、MyFitnessPalのデータベースは**約2,000万件の食品、68,500以上のブランド、380以上の外食チェーン**のメニューをカバーします（[TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/)）。バーコード読み取り、レストランメニュー、レシピ取り込みはどれも速く成熟しています。正確で素早い食事記録が最優先なら、これに勝るものはほぼありません。\n\n### ついに本格的なGLP-1サポートを追加\n\nこれが2026年の大きな変化で、正直に認めるべき点です。2026年春、MyFitnessPalは米国ユーザー向けの無料機能**GLP-1サポート**を公開しました（[MyFitnessPal Blog](https://blog.myfitnesspal.com/glp-1-support-medication-tracking/)、[GlobeNewswire](https://www.globenewswire.com/news-release/2026/04/28/3282728/0/en/MyFitnessPal-Launches-Comprehensive-GLP-1-Support-Helping-Users-Stay-Consistent-and-Build-Habits-Alongside-Medication-to-Maximize-Their-Experience.html)）：\n\n- 食事と同じ画面で**薬剤の種類・用量・注射部位・日付・時刻**を記録。\n- 指定した注射曜日・時刻に**リマインダー**を受け取り、最後の投与をToday画面で確認。\n- 食べたもの・体調・投与スケジュールのパターンを見つけるために**副作用**（良い・悪い両方）を記録（公開時点でiOSのみ）。\n- 専用のGLP-1設定ページからすべて管理。\n\nマーケティング上のジェスチャーではなく、実機能のセットです。2026年にMyFitnessPalがGLP-1ユーザーに「何もしない」と言う人は、情報が古いだけです。\n\n### 成熟したエコシステム\n\nApple ヘルス・Google Fit連携、巨大なコミュニティ、運動記録、長年の作り込み。MyFitnessPalは安定し、サポートが手厚く、使い慣れています。\n\n## GLP-1ユーザーにとってMyFitnessPalが足りない点\n\nでは、なぜ代替を探すのか。「GLP-1記録を追加した」と「GLP-1のために作られた」は別物だからです。まだ残る隙間はこうです。\n\n### 1. 部位ローテーションを導く視覚的な体マップがない\n\nMyFitnessPalは注射部位を*記録*できますが、ローテーションを能動的にガイドする体マップは提供しません。同じ場所に打ち続けると炎症やしこりの原因になり得るため、腹部・太もも・上腕を切り替えるよう促す視覚的リマインダーは、専用トラッカーと食事アプリを分ける機能です。MFPはデータを残すだけで、ローテーションをコーチしません。\n\n### 2. 副作用記録がiOS限定（かつ米国先行の機能）\n\n公開時点で副作用記録は――GLP-1ユーザーの**40〜70%が消化器症状を経験する**ため（[BioSpace](https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates)）最も価値の高い機能なのに――iOSユーザーのみが使え、GLP-1サポート自体も**米国**に先行して展開されました。Androidや米国外なら、最も必要な機能がまだ無い可能性があります。\n\n### 3. 血中濃度の推定ビューがない\n\n専用トラッカーはしばしば、薬剤の半減期に基づく教育的な「血中濃度の推定」カーブを表示し、1週間の中で食欲や副作用がなぜ増減するかを可視化します。MyFitnessPalにはこれがありません。（測定ではなく近似ですが、自分のパターンを理解するのに役立つというユーザーは多いです。）\n\n### 4. 本質は今もカロリーアプリ\n\nMyFitnessPalの重心は「摂取カロリー対消費カロリー」です。GLP-1では、食欲が抑えられた状態で**たんぱく質を十分に摂ること**、副作用のつらい週を乗り切って継続すること、週1回の注射を忘れないことの方が難しい問題です。MFPにもたんぱく質はありますが、多くのマクロの一つで主役ではありません。習慣づくりとコーチングまで*注射を中心に*組み立てた体験が欲しいなら、それは別の製品思想です。\n\n### 5. Premium課金への誘導\n\nMyFitnessPalの便利な分析・機能の多くはPremiumの先にあります。GLP-1サポート自体は無料ですが、周辺体験はサブスクへ誘導します。それらを実際に使うなら問題ありませんので、課金前に確認しましょう。\n\n## 比較表：MyFitnessPal vs 専用GLP-1トラッカー\n\n正直に分類すると2種類です。**GLP-1機能を足した一般的なカロリーアプリ**と、**専用のGLP-1トラッカー**。MyFitnessPalは今や境界線上にいますが、DNAは依然として栄養中心です。\n\n*機能や地域は頻繁に変わります。導入前にApp Store／Google Playで確認してください。出典：[MyFitnessPal Blog](https://blog.myfitnesspal.com/glp-1-support-medication-tracking/)、[MeAgain](https://meagain.com/best-glp-1-tracker-apps)。*\n\n### 隙間の核心\n\nMyFitnessPalは数年前に*食品*の差を大方埋め、2026年には*薬の記録*の差を大きく縮めました。残るのは、**GLP-1を記録すること**と、**GLP-1を中心に設計されたアプリ**の違いです――ガイド付き部位ローテーション、プラットフォーム横断の副作用インサイト、たんぱく質を優先する設計、そしてつらい週を乗り切らせるコーチング。これらが大事なら、代替を見る価値があります。\n\n## MyFitnessPalに留まる人 vs 乗り換える人\n\n**MyFitnessPalに留まる：**\n- すでにアプリに馴染み、毎日食事を記録している。\n- 米国のiOSユーザーだ（だから副作用記録が使える）。\n- 食品DBの深さとバーコードの速さが最優先。\n- 基本の用量・リマインダー記録で「十分」だ。\n\n**代替を検討する：**\n- ローテーションを能動的に導く視覚的な部位マップが欲しい。\n- Androidまたは米国外で、今すぐ副作用記録が必要。\n- たんぱく質の保持が主目標で、それを前面に置きたい。\n- 単なる記録ではなく、注射を軸にしたコーチング・習慣化が欲しい。\n- 薬タブ付きカロリーアプリより、GLP-1を中心にまとめた1本のアプリが良い。\n\n## MyFitnessPalの代替で見るべきこと\n\n乗り換えるなら、GLP-1ユーザーに本当に重要な基準で候補を判断しましょう。\n\n1. **用量＋ガイド付き部位ローテーション** — テキスト欄ではなく、切り替えを促す体マップ。\n2. **プラットフォーム横断の副作用記録** — 投与タイムラインと結びつき、パターンを見つけ主治医に共有できる。\n3. **たんぱく質優先の食事記録** — GLP-1で食欲が落ちるため、たんぱく質不足は筋肉減少のリスク。\n4. **リマインダー・増量サポート** — 次回注射までのカウントダウンと用量ステップアップの把握。\n5. **進捗の記録** — 体重の推移と写真、できればApple ヘルス・Google Fit連携。\n6. **プライバシー** — 多くのウェルネスアプリは医療機関向けの規制外なので、ポリシーを読み、書き出し・削除ができるものを。\n7. **コーチング・習慣サポート** — 最初の週ではなく数か月続けさせてくれる機能。\n\n## 正確性と安全性について\n\nどんなアプリも――MyFitnessPalでも代替でも――主治医の代わりにはなりません。「血中濃度の推定」グラフは公表された半減期に基づく教育的な近似であり、体内の実際の薬物量の測定値ではありません。どのトラッカーも**より良いデータとより良い質問**を診察室へ持ち込むために使い、画面の表示を理由に用量を変えないでください。\n\n## まとめ\n\n2026年のMyFitnessPalは、合うユーザーには本当に良いGLP-1の相棒です――米国のiOSユーザー、食品DBにこだわる人、基本の用量記録で満足できる人。正直な隙間は、ガイド付き部位ローテーション、プラットフォーム横断の副作用記録、たんぱく質優先の設計、コーチングです。それがあなたがMyFitnessPalの代替を検索した理由なら、それは正当な理由です。\n\n用量記録、ガイド付き部位ローテーション、副作用インサイト、たんぱく質優先の食事記録、やさしいコーチングを1か所で――カロリー計算機に後付けするのではなく、注射を中心に設計されたアプリが欲しいなら、ぜひ **[HAVIT アプリ](https://www.aihavit.com/)** を試してください。GLP-1の道のりを1週間ずつ着実に続けられるように作られています。まずは [GLP-1 記録アプリの選び方](/ja/best-glp-1-tracker-apps) と [GLP-1中のたんぱく質量ガイド](/ja/protein-tracker-for-glp-1) も参考にしてください。\n\n## よくある質問（FAQ）\n\n**1. 2026年、オゼンピックやウゴービの記録にMyFitnessPalは良いですか？**\n以前より良いです。MyFitnessPalのGLP-1サポートは薬剤・用量・注射部位・日時・副作用を記録し、投与リマインダーも設定でき、米国ユーザーには無料です。ただし副作用記録は公開時点でiOS限定、ガイド付きの部位ローテーションはありません――この点は専用トラッカーが今も上回ります。\n\n**2. GLP-1ユーザーに最適なMyFitnessPalの代替は？**\n隙間によります。視覚的な部位マップとプラットフォーム横断の副作用記録が欲しいならMeAgainやShotsyのような専用トラッカーが合います。用量記録にたんぱく質優先の記録とコーチングまで1本で欲しいならHAVITを試す価値があります。食品DBの深さだけが優先ならMyFitnessPalは強敵です。\n\n**3. MyFitnessPalに部位ローテーションマップはありますか？**\nガイド付きのものはありません。どこに打ったかは記録できますが、部位を切り替えるよう能動的に促す視覚的な体マップは提供しません。専用GLP-1トラッカーは通常これを備えており、同じ場所を繰り返すと炎症やしこりの原因になり得るため重要です。\n\n**4. MyFitnessPalのGLP-1副作用記録はAndroidでも使えますか？**\n公開時点では使えません。副作用記録はiOSに先行して展開され、GLP-1サポート自体も米国が先行しました。今後拡大する可能性があるのでアプリを確認しましょう。ただし今Androidなら、代替の方が副作用記録を早く使えるかもしれません。\n\n**5. MyFitnessPalのGLP-1サポートは無料ですか？**\nはい。GLP-1サポートは米国のすべてのMyFitnessPalユーザーに無料です。ただし他の分析・機能の多くはPremiumに含まれるため、周辺体験は依然サブスクへ誘導します。\n\n**6. MyFitnessPalの代替はMFPと同じくらい食事を記録できますか？**\n純粋なDB規模ではMyFitnessPalが依然トップです（Cal AI買収後は約2,000万件）。一部の代替はたんぱく質優先や写真ベースなど別の方法で記録します。食欲が抑えられ、たんぱく質が優先のときは、この方式の方がDBの大きさより重要になり得ます。\n\n**7. 道の途中でアプリを替えるべき？それとも慣れたものを使う？**\nアプリよりも継続が大事です。MyFitnessPalが既に毎日記録させてくれているなら、乗り換えコストは見合わないかもしれません。ガイド付きローテーション、Androidの副作用記録、たんぱく質重視、コーチングといった具体的な隙間が継続を実際に妨げているときだけ替えましょう。\n\n**8. これらのアプリは医療アドバイスの代わりになりますか？**\nなりません。MyFitnessPalを含め、ここで挙げたアプリはすべて記録ツールであり臨床家ではありません。血中濃度の推定ビューは教育的な近似であって測定値ではありません。処方医・薬剤師の指示に従い、トラッカーはより良いデータを診察に持ち込むために使ってください。\n\n## 関連記事\n\n- [GLP-1 記録アプリ おすすめ2026：失敗しない選び方](/ja/best-glp-1-tracker-apps)\n- [GLP-1中のたんぱく質は1日どれくらい必要か](/ja/protein-tracker-for-glp-1)\n- [GLP-1の副作用とその対処法](/ja/glp-1-side-effects)\n- [GLP-1習慣レポート2026：1,090人のデータ](/ja/glp-1-habit-report)\n\n## なぜHAVITなのか — 薬の管理と行動変容をひとつに\n\nGLP-1薬は体重をしっかり減らしてくれます。ただ、体重計の数字だけがすべてではありません。GLP-1で減った体重のおよそ20〜40%は、脂肪ではなく筋肉などの除脂肪量である可能性があり（[Neeland他, *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)）、薬をやめた後に習慣が根づいていなければ、効果は戻りやすいこともわかっています。だからこそ主要なガイドラインは、薬を治療の「すべて」ではなく「一部」と位置づけます。米国予防医学専門委員会(USPSTF)は、肥満のある成人に集中的で多面的な行動介入を提供するよう推奨しています（[USPSTF, グレードB](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)）。\n\nHAVITは、まさにこの時代のために作られました。服薬の記録、体組成、栄養とたんぱく質、毎日の習慣づくり、そしてあなたに合わせて助言するAIコーチを、ひとつのアプリに。実際にHAVITのGLP-1ユーザー1,090人を分析したところ、記録を続けた人ほど強い習慣を築いていました（[GLP-1習慣レポートを見る](/ja/glp-1-habit-report)）。\n\n薬も、筋肉も、いっしょに。[HAVITを始める →](https://www.aihavit.com)\n\n## 参考文献\n\n1. MyFitnessPal Blog. *Introducing GLP-1 Support: Track Medication & Nutrition Together.* https://blog.myfitnesspal.com/glp-1-support-medication-tracking/\n2. GlobeNewswire. *MyFitnessPal Launches Comprehensive GLP-1 Support* (2026). https://www.globenewswire.com/news-release/2026/04/28/3282728/0/en/MyFitnessPal-Launches-Comprehensive-GLP-1-Support-Helping-Users-Stay-Consistent-and-Build-Habits-Alongside-Medication-to-Maximize-Their-Experience.html\n3. TechCrunch. *MyFitnessPal has acquired Cal AI, the viral calorie app built by teens* (2026). https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/\n4. MyFitnessPal Support. *GLP-1 Support.* https://support.myfitnesspal.com/hc/en-us/articles/40936733058445-GLP-1-Support\n5. BioSpace. *GLP-1 Side Effects Only One Factor Driving Patient Discontinuation Rates.* https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates\n6. MeAgain. *7 Best GLP-1 Tracker Apps Compared (2026).* https://meagain.com/best-glp-1-tracker-apps\n7. Stanford Medicine. *GLP-1s 101: What the science says about weight loss, side effects, and safe use* (2026). https://med.stanford.edu/news/insights/2026/06/glp1s-101-weight-loss-wegovy-ozempic-zepbound-side-effects-safe-use.html",
-      "comparison_table": {
-        "title": "比較表：MyFitnessPal vs 専用GLP-1トラッカー",
-        "headers": [
-          "機能",
-          "MyFitnessPal",
-          "専用GLP-1トラッカー（MeAgain・Shotsy）",
-          "HAVIT"
-        ],
-        "rows": [
-          [
-            "用量・注射記録",
-            "あり（2026年追加）",
-            "あり",
-            "あり"
-          ],
-          [
-            "部位ローテーションマップ",
-            "部位記録のみ、ガイド無し",
-            "あり（視覚的な体マップ）",
-            "あり"
-          ],
-          [
-            "副作用記録",
-            "あり — iOSのみ（公開時）",
-            "あり（iOS＋Android）",
-            "あり"
-          ],
-          [
-            "血中濃度の推定ビュー",
-            "なし",
-            "あることが多い",
-            "教育的ビュー"
-          ],
-          [
-            "食品DBの深さ",
-            "業界最高（約2,000万件）",
-            "アプリ次第（多くは軽め）",
-            "たんぱく質重視"
-          ],
-          [
-            "たんぱく質を優先表示",
-            "多数のマクロの一つ",
-            "あり",
-            "あり"
-          ],
-          [
-            "リマインダー・投与カウントダウン",
-            "あり",
-            "あり",
-            "あり"
-          ],
-          [
-            "コーチング・習慣化",
-            "限定的",
-            "アプリ次第",
-            "あり（習慣＋コーチング）"
-          ],
-          [
-            "利用可能地域",
-            "GLP-1サポートは米国先行",
-            "より広い",
-            "広い"
-          ],
-          [
-            "料金",
-            "無料コア＋Premium",
-            "無料＋有料",
-            "無料＋任意コーチ"
-          ]
-        ],
-        "caption": "Havit（ハビット）は、GLP-1の服薬記録・体組成・毎日の習慣コーチングを1つにまとめたAIヘルスコンパニオンです。"
-      },
-      "faq": [
-        {
-          "question": "HavitはMyFitnessPalより優れていますか？",
-          "answer": "何を記録したいかによります。MyFitnessPalは一般的なカロリー・栄養記録に向いています。HavitはGLP-1の治療経過を軸に作られており、投与量と注射部位の記録、注射タイミングと結びついた副作用の傾向、体組成、除脂肪量を守るためのたんぱく質摂取までを扱います。GLP-1を使用中なら一般的なトラッカーが取りこぼす部分をHavitが補い、カロリー計算だけで足りるならMyFitnessPalで十分です。"
-        },
-        {
-          "question": "MyFitnessPalにはなくてHavitにある機能は何ですか？",
-          "answer": "投与量と注射部位のローテーション、注射タイミングに紐づく副作用記録、体組成の推移、そして記録データに合わせて調整される習慣コーチングです。服薬管理と行動変容をアプリ2つに分けず、1か所でまとめて扱います。"
-        },
-        {
-          "question": "MyFitnessPalからHavitに乗り換えられますか？",
-          "answer": "できます。多くの人は1〜2週間は両方を併用し、慣れた側で記録を続けながらHavitにGLP-1のスケジュールを設定します。投与リマインダーと副作用の履歴がたまってから移行すれば十分です。処方内容は変わりません。Havitは記録を支える伴走アプリであり、医療機器ではありません。"
-        }
-      ],
-      "references": [],
-      "last_updated": "2026-07-02",
-      "short_title": "MyFitnessPal 代替アプリ｜GLP-1向け 2026年 正直比較"
-    },
-    "zh-TW": {
-      "title": "MyFitnessPal 替代方案｜GLP-1 專用 2026 誠實比較｜Havit vs MyFitnessPal",
-      "meta_description": "在用胰妥讚或週纖達，想找 MyFitnessPal 替代方案？看 2026 年新增的 GLP-1 支援做了什麼、還缺什麼，以及挑選專用瘦瘦筆 App 的標準。",
-      "tldr": "在用胰妥讚或週纖達，想找 MyFitnessPal 替代方案？看 2026 年新增的 GLP-1 支援做了什麼、還缺什麼，以及挑選專用瘦瘦筆 App 的標準。",
-      "body_md": "*醫療聲明：本文僅供衛教資訊，並非醫療建議。劑量與使用方式請務必遵循處方醫師與藥師指示，切勿依 App 畫面自行調整劑量。*\n\n會搜尋「MyFitnessPal 替代方案」的人，大多屬於兩種：正在使用 GLP-1（胰妥讚、週纖達、猛健樂、Zepbound），覺得 MyFitnessPal 像是「硬加上藥物功能的飲食 App」；或是厭倦了 Premium 訂閱，好奇更簡單的工具是否更適合自己的療程。\n\n這是一篇中立、不偏袒任何廠商的比較。MyFitnessPal 確實是很強的 App，而 2026 年對 GLP-1 使用者也有意義地變好了。我們會誠實說明它現在做得好的地方、對每週注射者仍留下的缺口，以及替代方案該看什麼。不吹捧，只講當藥物*就是你的療程主軸*時真正重要的事。\n\n## MyFitnessPal 做得好的地方\n\nMyFitnessPal 當了十多年熱量計算的預設選擇，能守住這個位置是有原因的。\n\n### 食品資料庫業界最強\n\n2026 年 3 月收購 Cal AI 後，MyFitnessPal 的資料庫涵蓋約 **2,000 萬筆食品、68,500 個以上品牌、380 家以上連鎖餐廳**的菜單（[TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/)）。條碼掃描、餐廳菜單、食譜匯入都快速且成熟。若你最在意的是準確又快速地記錄飲食，幾乎沒有對手。\n\n### 終於加入真正的 GLP-1 支援\n\n這是 2026 年的重大改變，也該誠實承認。2026 年春天，MyFitnessPal 推出面向美國使用者的免費功能 **GLP-1 支援**（[MyFitnessPal Blog](https://blog.myfitnesspal.com/glp-1-support-medication-tracking/)、[GlobeNewswire](https://www.globenewswire.com/news-release/2026/04/28/3282728/0/en/MyFitnessPal-Launches-Comprehensive-GLP-1-Support-Helping-Users-Stay-Consistent-and-Build-Habits-Alongside-Medication-to-Maximize-Their-Experience.html)）：\n\n- 在同一畫面記錄**藥物種類、劑量、注射部位、日期與時間**，和飲食並列。\n- 為指定的注射日與時間設定**提醒**，並在 Today 畫面看到最近一次注射。\n- 記錄**副作用**（正面與負面皆可），找出飲食、感受與注射時程之間的規律（推出時僅限 iOS）。\n- 從專屬的 GLP-1 設定頁集中管理。\n\n這是實際的功能組合，而非行銷姿態。2026 年還說 MyFitnessPal 對 GLP-1 使用者「什麼都沒做」的人，資訊已經過時了。\n\n### 成熟的生態系\n\nApple 健康與 Google Fit 同步、龐大社群、運動記錄，以及多年打磨。MyFitnessPal 穩定、支援完善、也熟悉。\n\n## 對 GLP-1 使用者而言 MyFitnessPal 還缺什麼\n\n那為什麼還要找替代方案？因為「加入 GLP-1 記錄」和「為 GLP-1 而生」是兩回事。仍存在的缺口如下。\n\n### 1. 沒有引導輪替的視覺化身體圖\n\nMyFitnessPal 能*記錄*注射部位，卻不提供主動引導輪替的身體圖。同一位置反覆施打可能造成刺激或硬塊，因此提醒你在腹部、大腿、上臂之間輪換的視覺提示，正是專用追蹤器與飲食 App 的分界。MFP 只留下資料，並不教你怎麼輪替。\n\n### 2. 副作用記錄僅限 iOS（且為美國先行功能）\n\n推出時，副作用記錄——明明是最有價值的功能，因為 GLP-1 使用者的 **40〜70% 會出現腸胃道症狀**（[BioSpace](https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates)）——卻只有 iOS 使用者能用，而且整個 GLP-1 支援也先在**美國**推出。若你用 Android 或不在美國，最需要的功能可能還沒到。\n\n### 3. 沒有血中濃度推估視圖\n\n專用追蹤器常提供依藥物半衰期計算的衛教用「血中濃度推估」曲線，讓你看見一週內食慾或副作用為何起伏。MyFitnessPal 沒有這個功能。（那是近似值而非測量，但許多使用者覺得有助於理解自己的規律。）\n\n### 4. 骨子裡仍是熱量 App\n\nMyFitnessPal 的重心是「攝取熱量對消耗熱量」。使用 GLP-1 時，更難的問題往往是在食慾被壓抑時**吃夠蛋白質**、撐過副作用嚴重的那幾週保持一致，以及別忘了每週一次的注射。MFP 裡也有蛋白質，但只是眾多營養素之一，而非主角。若你想要一段*以注射為中心*、含習慣養成與教練的完整體驗，那是另一種產品哲學。\n\n### 5. Premium 訂閱的推力\n\nMyFitnessPal 許多最實用的分析與功能都在 Premium 之後。GLP-1 支援本身免費，但周邊體驗仍會推你走向訂閱。如果你真的會用那些功能就無妨——付費前先確認清楚。\n\n## 比較表：MyFitnessPal vs 專用 GLP-1 追蹤器\n\n誠實的分類是兩類：**加了 GLP-1 功能的一般熱量 App**，以及**專用的 GLP-1 追蹤器**。MyFitnessPal 如今跨在界線上，但骨子裡仍是營養優先。\n\n*功能與地區經常變動，付費前請在 App Store／Google Play 確認。來源：[MyFitnessPal Blog](https://blog.myfitnesspal.com/glp-1-support-medication-tracking/)、[MeAgain](https://meagain.com/best-glp-1-tracker-apps)。*\n\n### 缺口的核心\n\nMyFitnessPal 幾年前已補上大半*食品*的差距，2026 年又大幅縮小*藥物記錄*的差距。剩下的，是**記錄你的 GLP-1** 與**一個為 GLP-1 而設計的 App** 之間的差別——引導式部位輪替、跨平台的副作用洞察、蛋白質優先設計，以及撐過艱難週的教練。若這些對你重要，替代方案值得一看。台灣目前缺乏在地化的專用瘦瘦筆 App，這個差距對台灣使用者更明顯。\n\n## 誰該留在 MyFitnessPal、誰該換\n\n**留在 MyFitnessPal，如果：**\n- 你已習慣這個 App，每天記錄飲食。\n- 你是美國的 iOS 使用者（因此能用副作用記錄）。\n- 食品資料庫深度與條碼速度是你的第一優先。\n- 基本的劑量與提醒記錄對你「已經夠了」。\n\n**考慮替代方案，如果：**\n- 你想要主動引導輪替的視覺化部位地圖。\n- 你用 Android 或不在美國，現在就需要副作用記錄。\n- 保留蛋白質是主要目標，你想把它放到最前面。\n- 你想要以注射為軸的教練與習慣養成，而不只是記錄。\n- 比起加了藥物分頁的熱量 App，你更想要一個以 GLP-1 為核心整理的 App。\n\n## 挑選 MyFitnessPal 替代方案該看什麼\n\n若要換，請用對 GLP-1 使用者真正重要的標準來評估候選。\n\n1. **劑量＋引導式部位輪替**——不只是文字欄位，而是提醒你輪換的身體圖。\n2. **跨平台副作用記錄**——與劑量時間軸連動，找出規律並向醫師說明。\n3. **蛋白質優先的飲食記錄**——GLP-1 讓食慾下降，蛋白質吃不夠有流失肌肉的風險。\n4. **提醒與劑量遞增支援**——下次注射倒數，以及劑量往上調整的提示。\n5. **進度追蹤**——體重趨勢與進度照，最好能與 Apple 健康／Google Fit 同步。\n6. **隱私**——多數健康 App 不受醫療等級法規保護，請讀政策並偏好可匯出／刪除的工具。\n7. **教練或習慣支援**——幫你撐過好幾個月、而不只是第一週的功能。\n\n## 關於準確與安全\n\n沒有任何 App——無論 MyFitnessPal 或任何替代方案——能取代你的醫療團隊。「血中濃度推估」圖是基於已公布半衰期的衛教近似值，並非體內實際藥量的測量。任何追蹤器都應用來把**更好的資料與問題**帶進診間，切勿因畫面顯示而調整劑量。\n\n## 結語\n\n2026 年的 MyFitnessPal 對合適的使用者是很好的 GLP-1 夥伴——美國的 iOS 使用者、熱愛食品資料庫、滿足於基本劑量記錄的人。誠實的缺口是引導式部位輪替、跨平台副作用記錄、蛋白質優先設計與教練。若這些正是你搜尋 MyFitnessPal 替代方案的理由，那都是正當的理由。\n\n想把劑量記錄、引導式部位輪替、副作用洞察、蛋白質優先的飲食記錄與溫和教練整合在一處——由一個以注射為核心設計、而非在熱量計算機上外掛的 App——歡迎試試 **[HAVIT App](https://www.aihavit.com/)**，它為了讓你一週一週穩定走完 GLP-1 旅程而設計。你也可以先看 [GLP-1 追蹤 App 怎麼選](/zh-tw/best-glp-1-tracker-apps) 與 [GLP-1 期間該吃多少蛋白質](/zh-tw/protein-tracker-for-glp-1)。\n\n## 常見問題（FAQ）\n\n**1. 2026 年用 MyFitnessPal 記錄胰妥讚或週纖達好用嗎？**\n比以前好。MyFitnessPal 的 GLP-1 支援能記錄藥物、劑量、注射部位、日期、時間與副作用，並設定注射提醒，對美國使用者免費。但副作用記錄推出時僅限 iOS，且沒有引導式部位輪替——這正是專用追蹤器仍領先的地方。\n\n**2. 對 GLP-1 使用者，最好的 MyFitnessPal 替代方案是哪個？**\n看你的缺口。想要視覺化部位地圖與跨平台副作用記錄，MeAgain、Shotsy 這類專用追蹤器更合適。想要劑量記錄加上蛋白質優先與教練都在一個 App，HAVIT 值得一試。若只在意食品資料庫深度，MyFitnessPal 很難被超越。\n\n**3. MyFitnessPal 有部位輪替地圖嗎？**\n沒有引導式的。你能記錄打在哪裡，但它不提供主動提醒你輪換部位的視覺化身體圖。專用 GLP-1 追蹤器通常有，這很重要，因為同一位置反覆施打可能造成刺激或硬塊。\n\n**4. MyFitnessPal 的 GLP-1 副作用記錄在 Android 上有嗎？**\n推出時沒有。副作用記錄先在 iOS 推出，GLP-1 支援整體也先在美國上線。日後可能擴大，請以 App 現況為準；但若你現在用 Android，替代方案或許能更早給你副作用記錄。\n\n**5. MyFitnessPal 的 GLP-1 支援免費嗎？**\n是。GLP-1 支援對美國所有 MyFitnessPal 使用者免費。但它許多其他分析與功能仍在 Premium 之後，因此周邊體驗仍會推你走向訂閱。\n\n**6. MyFitnessPal 替代方案能像 MFP 一樣記錄飲食嗎？**\n論資料庫規模，MyFitnessPal 仍是龍頭（收購 Cal AI 後約 2,000 萬筆食品）。有些替代方案用不同方式記錄，例如蛋白質優先或拍照，當食慾被壓抑、蛋白質是重點時，這比純粹的資料庫大小更重要。\n\n**7. 療程中途該換 App，還是用習慣的就好？**\n一致性比 App 更重要。若 MyFitnessPal 已讓你每天記錄，換掉的成本未必值得。只有當引導式輪替、Android 副作用記錄、蛋白質重點或教練這類具體缺口，正在實際傷害你的一致性時，才換。\n\n**8. 這些 App 能取代醫療建議嗎？**\n不能。包含 MyFitnessPal 在內，這裡的每個 App 都是記錄工具，不是臨床人員。血中濃度推估視圖是衛教近似，並非測量。請遵循處方醫師與藥師，並用追蹤器把更好的資料帶進回診。\n\n## 相關文章\n\n- [GLP-1 追蹤 App 推薦 2026：瘦瘦筆記錄與比較](/zh-tw/best-glp-1-tracker-apps)\n- [GLP-1 期間該吃多少蛋白質](/zh-tw/protein-tracker-for-glp-1)\n- [GLP-1 副作用與因應方式](/zh-tw/glp-1-side-effects)\n- [GLP-1 習慣報告 2026：1,090 位使用者數據](/zh-tw/glp-1-habit-report)\n\n## 為什麼選 HAVIT — 藥物管理與行為改變，一站完成\n\nGLP-1 藥物確實能有效減重，但體重計上的數字並非全部。研究指出，使用 GLP-1 減掉的體重中，約有 20〜40% 可能來自肌肉等「淨體重（lean mass）」，而非脂肪（[Neeland 等人，*Diabetes, Obesity and Metabolism*，2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)）；一旦停藥，若沒有養成新的生活習慣，成果往往容易反彈。正因如此，主流指引都把藥物視為治療的一環，而非全部：美國預防服務工作小組（USPSTF）建議，為肥胖成人提供密集、多面向的行為介入（[USPSTF，B 級建議](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)）。\n\nHAVIT 正是為這個時代而生——把用藥紀錄、體組成、營養與蛋白質、每日習慣養成，以及能因人調整的 AI 教練，全部整合在同一個 App。我們分析自家 1,090 位 GLP-1 使用者後發現：紀錄越持續的人，習慣也養得越扎實（[查看 GLP-1 習慣報告](/zh-tw/glp-1-habit-report)）。\n\n管好藥物，也守住肌肉。[立即開始使用 HAVIT →](https://www.aihavit.com)\n\n## 參考文獻\n\n1. MyFitnessPal Blog. *Introducing GLP-1 Support: Track Medication & Nutrition Together.* https://blog.myfitnesspal.com/glp-1-support-medication-tracking/\n2. GlobeNewswire. *MyFitnessPal Launches Comprehensive GLP-1 Support* (2026). https://www.globenewswire.com/news-release/2026/04/28/3282728/0/en/MyFitnessPal-Launches-Comprehensive-GLP-1-Support-Helping-Users-Stay-Consistent-and-Build-Habits-Alongside-Medication-to-Maximize-Their-Experience.html\n3. TechCrunch. *MyFitnessPal has acquired Cal AI, the viral calorie app built by teens* (2026). https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/\n4. MyFitnessPal Support. *GLP-1 Support.* https://support.myfitnesspal.com/hc/en-us/articles/40936733058445-GLP-1-Support\n5. BioSpace. *GLP-1 Side Effects Only One Factor Driving Patient Discontinuation Rates.* https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates\n6. MeAgain. *7 Best GLP-1 Tracker Apps Compared (2026).* https://meagain.com/best-glp-1-tracker-apps\n7. Stanford Medicine. *GLP-1s 101: What the science says about weight loss, side effects, and safe use* (2026). https://med.stanford.edu/news/insights/2026/06/glp1s-101-weight-loss-wegovy-ozempic-zepbound-side-effects-safe-use.html",
-      "comparison_table": {
-        "title": "比較表：MyFitnessPal vs 專用 GLP-1 追蹤器",
-        "headers": [
-          "功能",
-          "MyFitnessPal",
-          "專用 GLP-1 追蹤器（MeAgain・Shotsy）",
-          "HAVIT"
-        ],
-        "rows": [
-          [
-            "劑量／注射記錄",
-            "有（2026 年新增）",
-            "有",
-            "有"
-          ],
-          [
-            "部位輪替地圖",
-            "只記部位，無引導",
-            "有（視覺化身體圖）",
-            "有"
-          ],
-          [
-            "副作用記錄",
-            "有 — 僅 iOS（推出時）",
-            "有（iOS＋Android）",
-            "有"
-          ],
-          [
-            "血中濃度推估視圖",
-            "無",
-            "常有",
-            "衛教視圖"
-          ],
-          [
-            "食品資料庫深度",
-            "業界最強（約 2,000 萬）",
-            "視 App 而定（多半較輕）",
-            "蛋白質導向"
-          ],
-          [
-            "蛋白質優先顯示",
-            "眾多營養素之一",
-            "有",
-            "有"
-          ],
-          [
-            "提醒／注射倒數",
-            "有",
-            "有",
-            "有"
-          ],
-          [
-            "教練／習慣養成",
-            "有限",
-            "視 App 而定",
-            "有（習慣＋教練）"
-          ],
-          [
-            "可用地區",
-            "GLP-1 支援美國先行",
-            "較廣",
-            "廣"
-          ],
-          [
-            "價格",
-            "免費核心＋Premium",
-            "免費＋付費",
-            "免費＋選配教練"
-          ]
-        ],
-        "caption": "Havit 是一款 AI 健康夥伴 App，將 GLP-1 用藥記錄、身體組成與每日習慣教練整合在同一個應用程式中。"
-      },
-      "faq": [
-        {
-          "question": "Havit 比 MyFitnessPal 更好嗎？",
-          "answer": "取決於你要記錄什麼。MyFitnessPal 是為一般熱量與營養記錄設計的；Havit 則圍繞 GLP-1 療程打造 — 劑量與注射部位記錄、與注射時間對應的副作用型態、身體組成，以及保護肌肉量所需的蛋白質攝取。如果你正在使用 GLP-1，Havit 能補上一般追蹤器沒有的部分；如果你只需要計算熱量，MyFitnessPal 就夠了。"
-        },
-        {
-          "question": "MyFitnessPal 沒有、但 Havit 有的功能是什麼？",
-          "answer": "劑量與注射部位輪換、對應注射時間的副作用記錄、身體組成趨勢，以及會依你記錄的資料調整的習慣教練。Havit 把用藥管理與行為改變放在同一個地方，而不是拆成兩個 App。"
-        },
-        {
-          "question": "可以從 MyFitnessPal 換到 Havit 嗎？",
-          "answer": "可以。多數人會先併用一到兩週，在習慣的 App 繼續記錄，同時在 Havit 設定 GLP-1 療程；等劑量提醒與副作用紀錄累積後再完全轉過來。處方不會有任何改變，Havit 是協助記錄的夥伴 App，不是醫療器材。"
-        }
-      ],
-      "references": [],
-      "last_updated": "2026-07-02",
-      "short_title": "MyFitnessPal 替代方案｜GLP-1 專用 2026 誠實比較"
-    },
     "zh-CN": {
       "title": "GLP-1 用户的 MyFitnessPal 替代方案:2026 年诚实对比 — Havit vs MyFitnessPal",
       "meta_description": "正在使用 Ozempic 或 Zepbound 并寻找 MyFitnessPal 替代方案?了解 MFP 的 GLP-1 支持功能、不足之处以及应该关注什么。",
@@ -1447,6 +1257,325 @@
       ],
       "last_updated": "2026-07-02",
       "short_title": "Alternative à MyFitnessPal pour utilisateurs de GLP-1 : Comparaison honnête 2026"
+    },
+    "ja": {
+      "title": "GLP-1ユーザー向けMyFitnessPal代替アプリ:2026年版正直な比較 — Havit vs MyFitnessPal",
+      "meta_description": "OzempicやZepboundを使用中でMyFitnessPalの代替をお探しですか?MFPのGLP-1サポート機能の実力と限界、そして何を基準に選ぶべきかを解説します。",
+      "tldr": "OzempicやZepboundを使用中でMyFitnessPalの代替をお探しですか?MFPのGLP-1サポート機能の実力と限界、そして何を基準に選ぶべきかを解説します。",
+      "body_md": "*医療免責事項:本記事は教育目的のみであり、医学的助言ではありません。必ず処方医と薬剤師の指示に従ってください。アプリの情報に基づいて用量を変更しないでください。*\n\n「MyFitnessPal 代替」と検索したあなたは、おそらく次の2つのいずれかに当てはまるでしょう:GLP-1製剤(Ozempic、Wegovy、Mounjaro、Zepbound)を使用していて、MyFitnessPalが食事アプリに薬剤機能を後付けしただけに感じている — あるいはプレミアム料金を払い続けることに疲れて、もっとシンプルで自分の治療に合ったものがないか探している。\n\nこれは正直で中立的な比較です。MyFitnessPalは本当に優れたアプリであり、2026年にはGLP-1ユーザー向けに大幅に改善されました。現在何が優れているのか、週1回の注射を管理する人にとってまだどこにギャップがあるのか、そして代替アプリで何を探すべきかを明確にします。誇張なし — 薬剤*そのもの*があなたの治療の中心である時に、実際に重要なことだけを伝えます。\n\n## MyFitnessPalの優れている点\n\nMyFitnessPalは10年以上にわたってカロリー計算アプリのデフォルトであり続けており、トップに留まり続けるには十分な理由があります。\n\n### 食品データベースは業界最高\n\n2026年3月にCal AIを買収した後、MyFitnessPalのデータベースは約**2,000万の食品、68,500以上のブランド、380以上のレストランチェーンの料理**を網羅しています([TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/))。バーコードスキャン、レストランメニュー、レシピのインポートはすべて高速で成熟しています。食事を正確かつ迅速に記録することが最優先なら、これに勝るものはほとんどありません。\n\n### ついに本格的なGLP-1サポートを追加\n\nこれが2026年の大きな変化であり、正直に認めることが重要です。2026年春、MyFitnessPalは**GLP-1サポート**を開始しました。これは米国ユーザー向けの無料機能で、次のことができます([MyFitnessPal Blog](https://blog.myfitnesspal.com/glp-1-support-medication-tracking/)、[GlobeNewswire](https://www.globenewswire.com/news-release/2026/04/28/3282728/0/en/MyFitnessPal-Launches-Comprehensive-GLP-1-Support-Helping-Users-Stay-Consistent-and-Build-Habits-Alongside-Medication-to-Maximize-Their-Experience.html)):\n\n- **薬剤の種類、用量、注射部位、日付、時刻**を食事と同じ画面で記録できます。\n- 特定の投与日と時刻に**リマインダー**を設定でき、今日の画面で最後の投与を確認できます。\n- **副作用** — ポジティブとネガティブの両方 — を追跡して、食事内容、体調、薬剤スケジュールの間のパターンを見つけられます(iOS版のみ)。\n- 専用のGLP-1設定ページからすべてを管理できます。\n\nこれは本物の機能セットであり、マーケティング上のジェスチャーではありません。2026年のMyFitnessPalがGLP-1ユーザーに「何もしない」と言う人は、情報が古いです。\n\n### 成熟したエコシステム\n\nApple HealthとGoogle Fitの同期、巨大なコミュニティ、運動記録、そして長年の洗練。MyFitnessPalは安定しており、よくサポートされ、使い慣れています。\n\n## MyFitnessPalがGLP-1ユーザーにとって不十分な点\n\nでは、なぜ代替アプリを探すのでしょうか?「GLP-1記録を追加した」ことと「GLP-1のために作られた」ことは同じではないからです。ギャップがまだ見られる点は次のとおりです。\n\n### 1. 視覚的な回転式注射部位マップがない\n\nMyFitnessPalは注射部位を*記録*できますが、ローテーションを積極的にガイドする身体マップは提供していません。同じ場所に繰り返し注射すると炎症やしこりが生じる可能性があるため、腹部、太もも、上腕を交互に使うよう視覚的にリマインドする機能は、専用トラッカーと食事アプリを区別するものの1つです。MFPはデータを記録しますが、ローテーションをコーチしません。\n\n### 2. 副作用追跡はiOSのみ(かつ米国限定機能)\n\nローンチ時点で、副作用記録 — おそらく最も価値の高いGLP-1機能(ユーザーの40〜70%が消化器症状を経験するため([BioSpace](https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates))) — はiOSユーザーのみが利用でき、GLP-1サポート全体が**米国**で最初に展開されました。Androidユーザーまたは米国外の場合、最も必要な機能がまだ利用できない可能性があります。\n\n### 3. 推定薬剤レベル表示がない\n\n専用トラッカーは、薬剤の半減期に基づいた教育的な「推定薬剤レベル」曲線を表示することが多く、食欲や副作用が週を通じてどのように変動するかを視覚化できます。MyFitnessPalはこれを提供していません。(これは近似値であり測定値ではありませんが、多くのユーザーが自分のパターンを理解するのに役立つと感じています。)\n\n### 4. 本質的にはカロリーアプリのまま\n\nMyFitnessPalの重心は摂取カロリー対消費カロリーです。GLP-1使用時のより困難な問題は、食欲が抑制されている間に**十分なタンパク質を摂取すること**、副作用のある週を通じて一貫性を保つこと、週1回の注射を忘れないことです。タンパク質はMFPに存在しますが、見出しではなく多くのマクロ栄養素の1つです。**注射を中心に**組織された全体的な体験 — 習慣形成とコーチングを含む — が必要な場合、それは異なる製品哲学です。\n\n### 5. プレミアムへのアップセル摩擦\n\nMyFitnessPalの最も有用な分析機能の多くはプレミアムの背後にあります。GLP-1サポート自体は無料ですが、周辺の体験はサブスクリプションへと誘導します。それらの機能を使用するなら問題ありませんが、コミットする前に確認する価値があります。\n\n## 比較表:MyFitnessPal vs 専用GLP-1トラッカー\n\n正直な枠組みは2つのカテゴリーです:**GLP-1機能を追加した一般的なカロリーアプリ**と**専用のGLP-1トラッカー**。MyFitnessPalは今やその境界線をまたいでいますが、そのDNAは依然として栄養第一です。\n\n*機能と利用可能性は頻繁に変更されます — コミットする前にApp StoreまたはGoogle Playで確認してください。出典:[MyFitnessPal Blog](https://blog.myfitnesspal.com/glp-1-support-medication-tracking/)、[MeAgain](https://meagain.com/best-glp-1-tracker-apps)。*\n\n### ギャップの結論\n\nMyFitnessPalは*食事*のギャップを数年前に埋め、2026年には*薬剤記録*のギャップの多くを埋めました。残っているのは、**GLP-1を記録すること**と**GLP-1を中心に設計されたアプリ**を持つことの違いです — ガイド付き部位ローテーション、クロスプラットフォームの副作用インサイト、タンパク質第一のフレーミング、そして困難な週を通じて一貫性を保つコーチング。これらがあなたにとって重要なら、代替アプリを検討する価値があります。\n\n## MyFitnessPalを使い続けるべき人 — そして切り替えるべき人\n\n**MyFitnessPalを使い続けるべき人:**\n- すでにアプリを日常的に使用し、毎日食事を記録している。\n- 米国でiOSを使用している(副作用追跡が利用できる)。\n- 食品データベースの深さとバーコードスキャンの速度が最優先事項。\n- 基本的な用量+リマインダー記録で「十分」。\n\n**代替アプリを検討すべき人:**\n- ローテーションを積極的にガイドする視覚的な注射部位マップが欲しい。\n- Androidまたは米国外で、今すぐ副作用追跡が必要。\n- タンパク質保持が主要な目標で、それを前面に出したい。\n- 単なる記録ではなく、注射を中心としたコーチングと習慣形成が欲しい。\n- 薬剤タブ付きのカロリーアプリではなく、GLP-1を中心に組織された1つのアプリが欲しい。\n\n## MyFitnessPal代替アプリで探すべきもの\n\n切り替える場合は、GLP-1ユーザーにとって実際に重要な基準で候補を判断してください:\n\n1. **用量+ガイド付き注射部位ローテーション** — 単なるテキストフィールドではなく、部位を交互にするよう思い出させる身体マップ。\n2. **クロスプラットフォームの副作用記録**が用量タイムラインに紐付けられ、パターンを見つけて医師に報告できる。\n3. **タンパク質第一の食事記録** — GLP-1で食欲が低下し、タンパク質不足は筋肉量減少のリスクがある。\n4. **リマインダーと用量調整サポート** — 次回の注射までのカウントダウンと用量増加の認識。\n5. **進捗追跡** — 体重トレンドと進捗写真、理想的にはApple Health / Google Fit同期付き。\n6. **プライバシー** — 米国のほとんどのウェルネスアプリはHIPAAの対象外なので、ポリシーを読み、エクスポート/削除コントロールを優先する。\n7. **コーチングまたは習慣サポート** — 最初の週だけでなく、数か月間一貫性を保つのに役立つ機能。\n\n## 精度と安全性に関する注意\n\nMyFitnessPalであれ代替アプリであれ、どのアプリもケアチームの代わりにはなりません。「推定薬剤レベル」グラフは、公表された半減期に基づく教育的近似値であり、体内の薬剤の測定値ではありません。どのトラッカーも**より良いデータとより良い質問**を医師に持っていくために使用し、画面に表示されるものに基づいて用量を調整しないでください。\n\n## 結論\n\n2026年のMyFitnessPalは、適切なユーザーにとって正当に優れたGLP-1コンパニオンです:iOS、米国ベース、食品データベースに執着し、基本的な用量記録で満足している人。正直なギャップは、ガイド付き部位ローテーション、クロスプラットフォームの副作用追跡、タンパク質第一のフレーミング、そしてコーチングです。これらがMyFitnessPal代替を検索した理由なら、それは正当な理由です。\n\n用量記録、ガイド付き部位ローテーション、副作用インサイト、タンパク質第一の食事追跡、そして穏やかなコーチングを1か所で — カロリーカウンターに後付けされたものではなく、注射を中心に構築されたものが欲しいなら — **[HAVITアプリを試してください](https://www.aihavit.com/)**。週ごとにGLP-1治療で一貫性を保つように設計されています。\n\n## なぜHAVITか — 薬剤+行動変容を1つのアプリで\n\nGLP-1製剤は体重を有意に減少させることができますが、体重計の数字は物語の一部に過ぎません。GLP-1療法で失われた体重の除脂肪量の割合は、一部の試験では40〜60%、他では15%以下の範囲であり — 除脂肪量には筋肉だけでなく臓器、骨、体液も含まれます([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)) — そして薬剤を中止すると、新しい習慣が定着しない限り結果は薄れる傾向があります。だからこそ、主要なガイダンスは薬剤をケアの一部として扱い、全体ではありません:米国予防医療専門委員会は、肥満の成人に集中的で多成分の行動介入を提供することを推奨しています([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。\n\nHAVITはまさにこの瞬間のために構築されています — 薬剤追跡、体組成、栄養とタンパク質、毎日の習慣形成、そしてあなたに適応するAIコーチを統合する1つのアプリ。私たち自身の1,090人のGLP-1ユーザーの中で、最も一貫して追跡した人が最も強い習慣を構築しました([GLP-1習慣レポートを参照](/en/glp-1-habit-report))。\n\n薬と筋肉を — 一緒に管理しましょう。[HAVITで始める →](https://www.aihavit.com)\n\n**重要な免責事項:HAVITは医療診断ツールではありません。**",
+      "comparison_table": {
+        "title": "比較表:MyFitnessPal vs 専用GLP-1トラッカー",
+        "headers": [
+          "機能",
+          "MyFitnessPal",
+          "専用GLP-1トラッカー(MeAgain、Shotsy)",
+          "HAVIT"
+        ],
+        "rows": [
+          [
+            "用量+注射記録",
+            "あり(2026年追加)",
+            "あり",
+            "あり"
+          ],
+          [
+            "回転式注射部位マップ",
+            "部位を記録、ガイド付きローテーションなし",
+            "あり(視覚的身体マップ)",
+            "あり"
+          ],
+          [
+            "副作用追跡",
+            "あり — ローンチ時はiOSのみ",
+            "あり(iOS + Android)",
+            "あり"
+          ],
+          [
+            "推定薬剤レベル表示",
+            "なし",
+            "多くの場合あり",
+            "教育的表示"
+          ],
+          [
+            "食品データベースの深さ",
+            "業界最高(約2,000万食品)",
+            "様々(多くの場合軽量)",
+            "タンパク質重視の記録"
+          ],
+          [
+            "タンパク質第一のフレーミング",
+            "多くのマクロの1つ",
+            "あり",
+            "あり"
+          ],
+          [
+            "リマインダー/用量カウントダウン",
+            "あり",
+            "あり",
+            "あり"
+          ],
+          [
+            "コーチング/習慣形成",
+            "限定的",
+            "様々",
+            "あり(習慣+コーチング)"
+          ],
+          [
+            "利用可能性",
+            "GLP-1サポートは米国優先",
+            "より広範",
+            "広範"
+          ],
+          [
+            "価格",
+            "無料コア+プレミアム",
+            "無料+有料プラン",
+            "無料+オプションのコーチ"
+          ]
+        ],
+        "caption": "HavitはGLP-1薬剤追跡、体組成、毎日の習慣コーチングを1つのアプリで組み合わせたAIヘルスコンパニオンです。"
+      },
+      "faq": [
+        {
+          "question": "2026年のMyFitnessPalはOzempicやWegovyの追跡に適していますか?",
+          "answer": "はい、以前よりも適しています。MyFitnessPalのGLP-1サポートでは、薬剤、用量、注射部位、日付、時刻、副作用を記録し、用量リマインダーを設定できます — すべて米国ユーザー向けに無料です。副作用追跡はローンチ時点でiOSのみで、ガイド付き注射部位ローテーションはありません。これが専用トラッカーがまだリードしている点です。"
+        },
+        {
+          "question": "GLP-1ユーザーにとって最良のMyFitnessPal代替アプリは何ですか?",
+          "answer": "ギャップによります。視覚的な注射部位マップとクロスプラットフォームの副作用記録が欲しい場合、MeAgainやShotsyのような専用トラッカーがより適しています。用量追跡とタンパク質第一の記録とコーチングを1つのアプリで欲しい場合、HAVITを試す価値があります。食品データベースの深さだけが優先事項なら、MyFitnessPalに勝るものはありません。"
+        },
+        {
+          "question": "MyFitnessPalには回転式注射部位マップがありますか?",
+          "answer": "ガイド付きのものはありません。どこに注射したかを記録できますが、MyFitnessPalは部位をローテーションするよう積極的にリマインドする視覚的身体マップを提供していません。専用GLP-1トラッカーは通常これを提供しており、同じ場所を繰り返し使用すると炎症やしこりが生じる可能性があるため重要です。"
+        },
+        {
+          "question": "MyFitnessPalのGLP-1副作用追跡はAndroidで利用できますか?",
+          "answer": "ローンチ時点では、いいえ。副作用記録は最初にiOSユーザーに展開され、GLP-1サポート全体が米国で最初にローンチされました。利用可能性は時間とともに拡大する可能性があるため、現在のアプリを確認してください — しかし今Androidを使用している場合、代替アプリの方が早く副作用追跡を提供する可能性があります。"
+        },
+        {
+          "question": "MyFitnessPalのGLP-1サポートは無料ですか?",
+          "answer": "はい。GLP-1サポートは米国のすべてのMyFitnessPalユーザーに無料です。ただし、MyFitnessPalの他の多くの分析機能はプレミアムの背後にあるため、周辺の体験は依然としてサブスクリプションへと誘導します。"
+        },
+        {
+          "question": "MyFitnessPal代替アプリはMFPと同じように食事を追跡できますか?",
+          "answer": "生のデータベースサイズでは、MyFitnessPalが依然としてリーダーです(Cal AI買収後約2,000万食品)。一部の代替アプリは食事を異なる方法で記録します — 例えば、タンパク質第一または写真ベース — 食欲が抑制されタンパク質が優先事項である場合、純粋なデータベースサイズよりも重要になる可能性があります。"
+        },
+        {
+          "question": "治療の途中でアプリを切り替えるべきですか、それとも慣れたものを使い続けるべきですか?",
+          "answer": "一貫性がアプリよりも重要です。MyFitnessPalがすでに毎日の記録を維持させているなら、切り替えコストは価値がないかもしれません。特定のギャップ — ガイド付き部位ローテーション、Androidの副作用追跡、タンパク質重視、またはコーチング — が一貫性を積極的に損なっている場合にのみ切り替えてください。"
+        },
+        {
+          "question": "これらのアプリは医学的助言の代わりになりますか?",
+          "answer": "いいえ。MyFitnessPalを含むここにあるすべてのアプリは追跡ツールであり、医師ではありません。推定薬剤レベル表示は教育的近似値であり、測定値ではありません。処方医と薬剤師に従い、トラッカーを使用してより良いデータを診察に持っていってください。"
+        },
+        {
+          "question": "HavitはMyFitnessPalより優れていますか?",
+          "answer": "何を追跡しているかによります。MyFitnessPalは一般的なカロリーと栄養記録のために構築されています。HavitはGLP-1コースを中心に構築されています — 用量と注射部位の記録、注射タイミングに紐付けられた副作用パターン、体組成、除脂肪量を保護するためのタンパク質摂取。GLP-1を使用している場合、Havitは一般的なトラッカーが残すものをカバーします。カロリー計算だけが必要な場合、MyFitnessPalで十分です。"
+        },
+        {
+          "question": "HavitはMyFitnessPalにない何をしますか?",
+          "answer": "用量と注射部位ローテーション、注射タイミングに対して記録された副作用、体組成トレンド追跡、そしてあなた自身の記録データに適応する習慣コーチング。Havitは薬剤管理と行動変容を複数のアプリに分割するのではなく、1か所で組み合わせます。"
+        },
+        {
+          "question": "MyFitnessPalからHavitに切り替えられますか?",
+          "answer": "はい。ほとんどの人は1〜2週間両方を実行します — 慣れている場所で記録を続けながら、HavitでGLP-1コースを設定します — その後、用量リマインダーと副作用履歴が整ったら移行します。処方箋については何も変わりません。Havitは追跡コンパニオンであり、医療機器ではありません。"
+        }
+      ],
+      "references": [
+        {
+          "text": "MyFitnessPal Blog. *Introducing GLP-1 Support: Track Medication & Nutrition Together.*",
+          "url": "https://blog.myfitnesspal.com/glp-1-support-medication-tracking/"
+        },
+        {
+          "text": "GlobeNewswire. *MyFitnessPal Launches Comprehensive GLP-1 Support* (2026).",
+          "url": "https://www.globenewswire.com/news-release/2026/04/28/3282728/0/en/MyFitnessPal-Launches-Comprehensive-GLP-1-Support-Helping-Users-Stay-Consistent-and-Build-Habits-Alongside-Medication-to-Maximize-Their-Experience.html"
+        },
+        {
+          "text": "TechCrunch. *MyFitnessPal has acquired Cal AI, the viral calorie app built by teens* (2026).",
+          "url": "https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/"
+        },
+        {
+          "text": "MyFitnessPal Support. *GLP-1 Support.*",
+          "url": "https://support.myfitnesspal.com/hc/en-us/articles/40936733058445-GLP-1-Support"
+        },
+        {
+          "text": "BioSpace. *GLP-1 Side Effects Only One Factor Driving Patient Discontinuation Rates.*",
+          "url": "https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates"
+        },
+        {
+          "text": "MeAgain. *7 Best GLP-1 Tracker Apps Compared (2026).*",
+          "url": "https://meagain.com/best-glp-1-tracker-apps"
+        },
+        {
+          "text": "Stanford Medicine. *GLP-1s 101: What the science says about weight loss, side effects, and safe use* (2026).",
+          "url": "https://med.stanford.edu/news/insights/2026/06/glp1s-101-weight-loss-wegovy-ozempic-zepbound-side-effects-safe-use.html"
+        }
+      ],
+      "last_updated": "2026-07-02",
+      "short_title": "GLP-1ユーザー向けMyFitnessPal代替アプリ:2026年版正直な比較"
+    },
+    "zh-TW": {
+      "title": "GLP-1 使用者的 MyFitnessPal 替代方案:2026 年誠實比較 — Havit vs MyFitnessPal",
+      "meta_description": "正在使用 Ozempic 或 Zepbound 並尋找 MyFitnessPal 替代方案?了解 MFP 的 GLP-1 支援功能、不足之處,以及該尋找什麼。",
+      "tldr": "正在使用 Ozempic 或 Zepbound 並尋找 MyFitnessPal 替代方案?了解 MFP 的 GLP-1 支援功能、不足之處,以及該尋找什麼。",
+      "body_md": "*醫療免責聲明:本文僅供教育目的,不構成醫療建議。請務必遵循開立處方的臨床醫師和藥師的指示。切勿根據應用程式自行調整劑量。*\n\n如果你搜尋「MyFitnessPal 替代方案」,你可能屬於以下兩種情況之一:你正在使用 GLP-1 藥物(Ozempic、Wegovy、Mounjaro、Zepbound),而 MyFitnessPal 感覺像是一個附加了藥物功能的飲食應用程式 — 或者你厭倦了為 Premium 付費,想知道是否有更簡單的選擇更適合你的旅程。\n\n這是一個誠實、中立的比較。MyFitnessPal 確實是一個強大的應用程式,而且在 2026 年對 GLP-1 使用者來說有了顯著改善。我們會清楚說明它現在做得好的地方、對於管理每週注射的人來說仍存在哪些缺口,以及在替代方案中該尋找什麼。不誇大其詞 — 只談當藥物*就是*你的旅程時真正重要的事。\n\n## MyFitnessPal 做得好的地方\n\nMyFitnessPal 已經是十多年來的預設卡路里計算器,它能保持領先地位是有充分理由的。\n\n### 食物資料庫是業界最佳\n\n在 2026 年 3 月收購 Cal AI 後,MyFitnessPal 的資料庫涵蓋約 **2000 萬種食物、68,500+ 個品牌,以及來自 380+ 家連鎖餐廳的餐點** ([TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/))。條碼掃描、餐廳菜單和食譜匯入都快速且成熟。如果你的首要任務是準確快速地記錄食物,幾乎沒有什麼能超越它。\n\n### 它終於加入了真正的 GLP-1 支援\n\n這是 2026 年的重大變化,值得誠實地認可。在 2026 年春季,MyFitnessPal 推出了 **GLP-1 支援**,這是一項針對美國使用者的免費功能,讓你可以 ([MyFitnessPal Blog](https://blog.myfitnesspal.com/glp-1-support-medication-tracking/)、[GlobeNewswire](https://www.globenewswire.com/news-release/2026/04/28/3282728/0/en/MyFitnessPal-Launches-Comprehensive-GLP-1-Support-Helping-Users-Stay-Consistent-and-Build-Habits-Alongside-Medication-to-Maximize-Their-Experience.html)):\n\n- 在同一個畫面上記錄你的**藥物類型、劑量、注射部位、日期和時間**,與你的飲食一起。\n- 為你的特定劑量日期和時間設定**提醒**,並在「今日」畫面上查看你的上次劑量。\n- 追蹤**副作用** — 包括正面和負面 — 以發現你吃的食物、感受和用藥時間表之間的模式(推出時僅限 iOS)。\n- 從專用的 GLP-1 設定頁面管理所有內容。\n\n這是一個真正的功能集,不是行銷姿態。任何告訴你 MyFitnessPal 在 2026 年「對 GLP-1 使用者什麼都不做」的人都已經過時了。\n\n### 成熟的生態系統\n\nApple Health 和 Google Fit 同步、龐大的社群、運動記錄,以及多年的打磨。MyFitnessPal 穩定、支援良好且熟悉。\n\n## MyFitnessPal 對 GLP-1 使用者的不足之處\n\n那麼為什麼還要尋找替代方案呢?因為「新增 GLP-1 記錄」和「為 GLP-1 打造」並不相同。以下是仍然存在的缺口。\n\n### 1. 沒有視覺化、輪替的注射部位地圖\n\nMyFitnessPal 讓你*記錄*注射部位,但它不會給你一個主動引導輪替的身體地圖。重複在同一個部位注射可能會導致刺激或腫塊,因此視覺提醒輪替 — 腹部、大腿、上臂 — 是區分專用追蹤器和飲食應用程式的功能之一。MFP 記錄資料;它不會指導輪替。\n\n### 2. 副作用追蹤僅限 iOS(且僅限美國功能)\n\n推出時,副作用記錄 — 可以說是最高價值的 GLP-1 功能,因為 40–70% 的使用者會出現胃腸道症狀 ([BioSpace](https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates)) — 僅適用於 iOS 使用者,而 GLP-1 支援整體首先在**美國**推出。如果你使用 Android 或在美國以外,你最需要的功能可能還不存在。\n\n### 3. 沒有估計藥物濃度檢視\n\n專用追蹤器通常會根據藥物的半衰期顯示教育性的「估計藥物濃度」曲線,這樣你就可以視覺化為什麼你的食慾或副作用在一週內起伏。MyFitnessPal 不提供這個功能。(這是一個近似值,絕不是測量值 — 但許多使用者發現它有助於理解自己的模式。)\n\n### 4. 它本質上仍然是一個卡路里應用程式\n\nMyFitnessPal 的重心是卡路里攝入/消耗。在使用 GLP-1 時,更困難的問題往往是在食慾受抑制時**攝取足夠的蛋白質**、在副作用週期保持一致,以及不忘記每週一次的注射。蛋白質在 MFP 中存在,但它只是眾多巨量營養素之一,而不是重點。如果你想要整個體驗圍繞*注射*組織 — 包括習慣養成和指導 — 那是不同的產品理念。\n\n### 5. Premium 升級摩擦\n\nMyFitnessPal 許多最有用的分析和功能都在 Premium 後面。GLP-1 支援本身是免費的,但周圍的體驗會推動你訂閱。如果你使用這些功能,那很好 — 在承諾之前值得檢查。\n\n## 比較表:MyFitnessPal vs 專用 GLP-1 追蹤器\n\n誠實的框架是兩個類別:**新增了 GLP-1 功能的通用卡路里應用程式**和**專為 GLP-1 打造的追蹤器**。MyFitnessPal 現在跨越了這條線,但它的 DNA 仍然是營養優先。\n\n*功能和可用性經常變化 — 在承諾之前請在 App Store 或 Google Play 中驗證。來源:[MyFitnessPal Blog](https://blog.myfitnesspal.com/glp-1-support-medication-tracking/)、[MeAgain](https://meagain.com/best-glp-1-tracker-apps)。*\n\n### 關於差距的結論\n\nMyFitnessPal 多年前就彌補了大部分*飲食*差距,並在 2026 年彌補了大部分*藥物記錄*差距。剩下的是**記錄你的 GLP-1** 和擁有一個**圍繞它設計**的應用程式之間的差異 — 引導式部位輪替、跨平台副作用洞察、蛋白質優先框架,以及在困難週期保持你一致性的指導。如果這些對你很重要,替代方案值得一看。\n\n## 誰應該繼續使用 MyFitnessPal — 誰應該切換\n\n**繼續使用 MyFitnessPal 如果:**\n- 你已經每天在應用程式中記錄食物。\n- 你在美國使用 iOS(所以你可以使用副作用追蹤)。\n- 食物資料庫深度和條碼速度是你的首要任務。\n- 基本的劑量 + 提醒記錄對你的需求「足夠」。\n\n**考慮替代方案如果:**\n- 你想要一個主動引導輪替的視覺化注射部位地圖。\n- 你使用 Android 或在美國以外,現在就需要副作用追蹤。\n- 蛋白質保存是主要目標,你希望它位於最前面和中心。\n- 你想要圍繞注射的指導和習慣養成,而不僅僅是記錄。\n- 你寧願有一個圍繞你的 GLP-1 組織的應用程式,而不是一個帶有藥物標籤的卡路里應用程式。\n\n## 在 MyFitnessPal 替代方案中尋找什麼\n\n如果你確實切換,請根據對 GLP-1 使用者真正重要的標準來評判候選者:\n\n1. **劑量 + 引導式注射部位輪替** — 不僅僅是一個文字欄位,而是一個提醒你輪替部位的身體地圖。\n2. **跨平台副作用記錄**,與你的劑量時間表綁定,這樣你就可以發現模式並向臨床醫師簡報。\n3. **蛋白質優先的飲食記錄** — 在 GLP-1 上食慾下降,蛋白質攝取不足會導致肌肉流失風險。\n4. **提醒和劑量調整支援** — 下次注射的倒數計時和劑量增加的意識。\n5. **進度追蹤** — 體重趨勢和進度照片,最好與 Apple Health / Google Fit 同步。\n6. **隱私** — 大多數美國健康應用程式不受 HIPAA 保護,因此請閱讀政策並偏好匯出/刪除控制。\n7. **指導或習慣支援** — 幫助你在數月內保持一致的功能,而不僅僅是第一週。\n\n## 關於準確性和安全性的說明\n\n沒有應用程式 — MyFitnessPal 或任何替代方案 — 可以取代你的照護團隊。「估計藥物濃度」圖表是基於已發表半衰期的教育性近似值,而不是你體內藥物的測量值。使用任何追蹤器向你的臨床醫師帶來**更好的資料和更好的問題**,並且切勿因為螢幕顯示的內容而調整你的劑量。\n\n## 結論\n\n2026 年的 MyFitnessPal 對於合適的使用者來說是一個真正好的 GLP-1 伴侶:iOS、美國、對食物資料庫著迷,並且對基本劑量記錄感到滿意。誠實的差距是引導式部位輪替、跨平台副作用追蹤、蛋白質優先框架和指導。如果這些是你搜尋 MyFitnessPal 替代方案的原因,它們是有效的原因。\n\n如果你想要劑量記錄、引導式部位輪替、副作用洞察、蛋白質優先的飲食追蹤,以及溫和的指導集於一處 — 圍繞你的注射而不是附加到卡路里計算器上 — **[試試 HAVIT 應用程式](https://www.aihavit.com/)**。它旨在讓你在 GLP-1 旅程中保持一致,一次一週。\n\n## 為什麼選擇 HAVIT — 藥物 + 行為改變,集於一個應用程式\n\nGLP-1 藥物可以顯著減輕體重 — 但體重秤上的數字只是故事的一部分。在一些試驗中,GLP-1 治療中減輕的體重中瘦體重的比例從 40–60% 到其他試驗中的 15% 或更少不等 — 而瘦體重包括器官、骨骼和液體,而不僅僅是肌肉 ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)),而且一旦停止用藥,結果往往會消退,除非新習慣取而代之。這就是為什麼領先的指導將藥物視為照護的一部分,而不是全部:美國預防服務工作組建議為肥胖成人提供密集的多成分行為介入 ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。\n\nHAVIT 正是為這一刻而打造 — 一個結合藥物追蹤、身體組成、營養和蛋白質、每日習慣養成,以及適應你的 AI 教練的應用程式。在我們自己的 1,090 名 GLP-1 使用者中,最一致的追蹤者建立了最強的習慣 ([見 GLP-1 習慣報告](/en/glp-1-habit-report))。\n\n一起管理藥物和肌肉。[從 HAVIT 開始 →](https://www.aihavit.com)\n\n*重要提醒:HAVIT 不是醫療診斷工具。*",
+      "key_stats": [],
+      "comparison_table": {
+        "title": "比較表:MyFitnessPal vs 專用 GLP-1 追蹤器",
+        "headers": [
+          "功能",
+          "MyFitnessPal",
+          "專用 GLP-1 追蹤器(MeAgain、Shotsy)",
+          "HAVIT"
+        ],
+        "rows": [
+          [
+            "劑量 + 注射記錄",
+            "是(2026 年新增)",
+            "是",
+            "是"
+          ],
+          [
+            "輪替注射部位地圖",
+            "記錄部位,無引導輪替",
+            "是(視覺化身體地圖)",
+            "是"
+          ],
+          [
+            "副作用追蹤",
+            "是 — 推出時僅限 iOS",
+            "是(iOS + Android)",
+            "是"
+          ],
+          [
+            "估計藥物濃度檢視",
+            "否",
+            "通常是",
+            "教育性檢視"
+          ],
+          [
+            "食物資料庫深度",
+            "業界最佳(約 2000 萬種食物)",
+            "不一(通常較輕)",
+            "蛋白質優先記錄"
+          ],
+          [
+            "蛋白質優先框架",
+            "眾多巨量營養素之一",
+            "是",
+            "是"
+          ],
+          [
+            "提醒/劑量倒數計時",
+            "是",
+            "是",
+            "是"
+          ],
+          [
+            "指導/習慣養成",
+            "有限",
+            "不一",
+            "是(習慣 + 指導)"
+          ],
+          [
+            "可用性",
+            "GLP-1 支援美國優先",
+            "更廣泛",
+            "廣泛"
+          ],
+          [
+            "價格",
+            "免費核心 + Premium",
+            "免費 + 付費層級",
+            "免費 + 可選教練"
+          ]
+        ],
+        "caption": "Havit 是一個 AI 健康伴侶,將 GLP-1 藥物追蹤、身體組成和每日習慣指導結合在一個應用程式中。"
+      },
+      "faq": [
+        {
+          "question": "MyFitnessPal 在 2026 年適合追蹤 Ozempic 或 Wegovy 嗎?",
+          "answer": "是的,比以前更好。MyFitnessPal 的 GLP-1 支援讓你記錄藥物、劑量、注射部位、日期、時間和副作用,並設定劑量提醒 — 對美國使用者全部免費。副作用追蹤在推出時僅限 iOS,而且沒有引導式注射部位輪替,這是專用追蹤器仍然領先的地方。"
+        },
+        {
+          "question": "對 GLP-1 使用者來說,最好的 MyFitnessPal 替代方案是什麼?",
+          "answer": "這取決於你的缺口。如果你想要視覺化注射部位地圖和跨平台副作用記錄,專為此打造的追蹤器如 MeAgain 或 Shotsy 更合適。如果你想要劑量追蹤加上蛋白質優先記錄和指導集於一個應用程式,HAVIT 值得嘗試。如果食物資料庫深度是你唯一的優先事項,MyFitnessPal 很難被超越。"
+        },
+        {
+          "question": "MyFitnessPal 有輪替注射部位地圖嗎?",
+          "answer": "沒有引導式的。你可以記錄你注射的位置,但 MyFitnessPal 不會給你一個主動提醒你輪替部位的視覺化身體地圖。專用 GLP-1 追蹤器通常會這樣做,這很重要,因為重複使用同一個部位可能會導致刺激或腫塊。"
+        },
+        {
+          "question": "MyFitnessPal 的 GLP-1 副作用追蹤在 Android 上可用嗎?",
+          "answer": "推出時不可用。副作用記錄首先推出給 iOS 使用者,而 GLP-1 支援整體首先在美國推出。可用性可能會隨著時間擴展,因此請檢查當前的應用程式 — 但如果你現在使用 Android,替代方案可能會更快為你提供副作用追蹤。"
+        },
+        {
+          "question": "MyFitnessPal GLP-1 支援是免費的嗎?",
+          "answer": "是的。GLP-1 支援對所有美國的 MyFitnessPal 使用者免費。請注意,MyFitnessPal 的許多其他分析和功能都在 Premium 後面,因此周圍的體驗仍然會推動你訂閱。"
+        },
+        {
+          "question": "MyFitnessPal 替代方案可以像 MFP 一樣追蹤我的飲食嗎?",
+          "answer": "就原始資料庫大小而言,MyFitnessPal 仍然是領導者(收購 Cal AI 後約 2000 萬種食物)。一些替代方案以不同方式記錄食物 — 例如,蛋白質優先或基於照片 — 當你的食慾受抑制且蛋白質是優先事項時,這可能比單純的資料庫大小更重要。"
+        },
+        {
+          "question": "我應該在旅程中途切換應用程式還是堅持我知道的?",
+          "answer": "一致性比應用程式更重要。如果 MyFitnessPal 已經讓你每天記錄,切換成本可能不值得。只有在特定缺口 — 引導式部位輪替、Android 副作用追蹤、蛋白質焦點或指導 — 正在積極損害你的一致性時才切換。"
+        },
+        {
+          "question": "這些應用程式可以取代醫療建議嗎?",
+          "answer": "不能。這裡的每個應用程式,包括 MyFitnessPal,都是追蹤工具,而不是臨床醫師。估計藥物濃度檢視是教育性近似值,而不是測量值。遵循你的處方醫師和藥師,並使用你的追蹤器向你的約診帶來更好的資料。"
+        },
+        {
+          "question": "Havit 比 MyFitnessPal 好嗎?",
+          "answer": "這取決於你在追蹤什麼。MyFitnessPal 是為一般卡路里和營養記錄而打造的。Havit 是圍繞 GLP-1 療程打造的 — 劑量和注射部位記錄、與注射時間綁定的副作用模式、身體組成,以及保護瘦體重的蛋白質攝取。如果你正在使用 GLP-1,Havit 涵蓋了一般追蹤器遺漏的內容;如果你只需要卡路里計算,MyFitnessPal 就足夠了。"
+        },
+        {
+          "question": "Havit 做了哪些 MyFitnessPal 沒有做的事?",
+          "answer": "劑量和注射部位輪替、針對注射時間記錄的副作用、身體組成趨勢追蹤,以及適應你自己記錄資料的習慣指導。Havit 將藥物管理和行為改變結合在一個地方,而不是將它們分散在不同的應用程式中。"
+        },
+        {
+          "question": "我可以從 MyFitnessPal 切換到 Havit 嗎?",
+          "answer": "可以。大多數人會同時運行兩者一兩週 — 在你感到舒適的地方繼續記錄,同時在 Havit 中設定你的 GLP-1 療程 — 然後在劑量提醒和副作用歷史就位後轉移。你的處方沒有任何改變;Havit 是一個追蹤伴侶,而不是醫療設備。"
+        }
+      ],
+      "references": [
+        {
+          "title": "MyFitnessPal Blog. *Introducing GLP-1 Support: Track Medication & Nutrition Together.*",
+          "source": "MyFitnessPal Blog",
+          "url": "https://blog.myfitnesspal.com/glp-1-support-medication-tracking/"
+        },
+        {
+          "title": "GlobeNewswire. *MyFitnessPal Launches Comprehensive GLP-1 Support* (2026).",
+          "source": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/04/28/3282728/0/en/MyFitnessPal-Launches-Comprehensive-GLP-1-Support-Helping-Users-Stay-Consistent-and-Build-Habits-Alongside-Medication-to-Maximize-Their-Experience.html"
+        },
+        {
+          "title": "TechCrunch. *MyFitnessPal has acquired Cal AI, the viral calorie app built by teens* (2026).",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/"
+        },
+        {
+          "title": "MyFitnessPal Support. *GLP-1 Support.*",
+          "source": "MyFitnessPal Support",
+          "url": "https://support.myfitnesspal.com/hc/en-us/articles/40936733058445-GLP-1-Support"
+        },
+        {
+          "title": "BioSpace. *GLP-1 Side Effects Only One Factor Driving Patient Discontinuation Rates.*",
+          "source": "BioSpace",
+          "url": "https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates"
+        },
+        {
+          "title": "MeAgain. *7 Best GLP-1 Tracker Apps Compared (2026).*",
+          "source": "MeAgain",
+          "url": "https://meagain.com/best-glp-1-tracker-apps"
+        },
+        {
+          "title": "Stanford Medicine. *GLP-1s 101: What the science says about weight loss, side effects, and safe use* (2026).",
+          "source": "Stanford Medicine",
+          "url": "https://med.stanford.edu/news/insights/2026/06/glp1s-101-weight-loss-wegovy-ozempic-zepbound-side-effects-safe-use.html"
+        }
+      ],
+      "last_updated": "2026-07-02"
     }
   },
   "generated_at": "2026-08-14T00:00:00.000Z"
