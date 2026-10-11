@@ -54,30 +54,51 @@ const assign = readJson(path.join(PENDING, 'images.json'));
 
 const hero = assign.hero?.[slug];
 const sections = assign.sections?.[slug];
-if (!hero || !sections) {
+if (!hero || !Array.isArray(sections) || sections.length === 0) {
   console.error(`images.json 에 ${slug} 배정이 없다 — 사진 없이 나가면 카테고리 폴백이 뜬다.`);
   process.exit(1);
 }
 
-/* 섹션 사진 개수는 본문 h2 개수와 맞아야 한다. 어긋나면 뒤쪽 섹션이
-   조용히 사진 없이 나가거나 엉뚱한 섹션에 붙는다. 언어마다 검사한다. */
-for (const [lang, content] of Object.entries(article.langs)) {
+/*
+ * 배열은 **위치로** 읽힌다 — lib/article-images.ts 의 `HUB_MAP[slug]?.[sectionIndex]`.
+ * 그래서 모자라면 뒤쪽 섹션이 조용히 사진 없이 나가고, 남으면 그냥 안 쓰인다.
+ * 엉뚱한 섹션에 붙는 일은 없다.
+ *
+ * 실제로 쓰이는 건 일부뿐이다: HubArticleView 가 `si % 2 === 1` 인 섹션에만,
+ * 그것도 표·카드·스텝이 없는 섹션에만 사진을 건다(h2 7개면 2~3장). 남는 항목은
+ * 인덱스를 맞추기 위한 자리라 그대로 둔다.
+ */
+for (const [lang, content] of Object.entries(article.langs ?? {})) {
+  if (typeof content?.body_md !== 'string') {
+    console.error(`${slug} [${lang}]: body_md 가 없다.`);
+    process.exit(1);
+  }
   const h2 = (content.body_md.match(/^## /gm) ?? []).length;
-  if (h2 !== sections.length) {
-    console.error(`${slug} [${lang}]: h2 ${h2}개인데 섹션 사진은 ${sections.length}개다.`);
+  if (sections.length < h2) {
+    console.error(`${slug} [${lang}]: h2 ${h2}개인데 섹션 사진은 ${sections.length}개뿐이다.`);
     process.exit(1);
   }
 }
 
 const heroMap = readJson(HERO_MAP);
 const sectionMap = readJson(SECTION_MAP);
+if (heroMap.map[slug] || sectionMap.map[slug]) {
+  console.error(`${slug}: 사진 맵에 이미 항목이 있다 — 덮어쓰지 않는다. 되돌리려면 두 맵에서 먼저 지울 것.`);
+  process.exit(1);
+}
 heroMap.map[slug] = hero;
 heroMap.count = Object.keys(heroMap.map).length;
 sectionMap.map[slug] = sections;
 
-renameSync(src, dest);
+/*
+ * 순서가 중요하다. 파일을 먼저 옮기면, 그 뒤 쓰기가 실패했을 때(디스크 참·중단)
+ * **아티클만 게시되고 사진 배정은 없는** 상태로 남는다 — 이 스크립트가 막으려던
+ * 바로 그 상태다. 게다가 재실행하면 pending 에 없다며 exit 1 이라 손으로 되돌려야
+ * 한다. 맵을 먼저 쓰고, 공개로 바뀌는 rename 을 마지막에 둔다.
+ */
 writeJson(HERO_MAP, heroMap);
 writeJson(SECTION_MAP, sectionMap);
+renameSync(src, dest);
 
 delete assign.hero[slug];
 delete assign.sections[slug];

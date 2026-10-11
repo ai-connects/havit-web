@@ -1,52 +1,52 @@
 {
   "_generator": "손으로 쓰지 않는다 — apps/web/src/i18n/*.json 의 홈 피처 문구를 그대로 옮긴 것.",
   "_source": "apps/web/index.html #features + apps/web/src/i18n/<locale>.json",
-  "_note": "blog lang → web locale: zh→zh-cn, pt-br→pt. 나머지는 동일.",
+  "_note": "blog lang → web locale: zh→zh-cn, pt-br→pt. 나머지는 동일. 사진은 긴 변 450px 로 미리 줄여 뒀다 — next/image 는 원본 폭을 상한으로 쓰므로, 표시 폭(최대 140 CSS px)의 3배수를 덮는 450px 이면 어떤 breakpoint 에서도 그 이상 내려가지 않는다.",
   "features": [
     {
       "image": "/havit/feature-ai-coach.webp",
-      "width": 1000,
-      "height": 1363,
+      "width": 330,
+      "height": 450,
       "alt_en": "AI coach screen",
       "eyebrow_key": "ai-coach",
       "title_key": "know-what-to-do-today"
     },
     {
       "image": "/havit/feature-nutrition.webp",
-      "width": 917,
-      "height": 1743,
+      "width": 237,
+      "height": 450,
       "alt_en": "Photo meal logging screen",
       "eyebrow_key": "nutrition",
       "title_key": "log-meals-in-seconds"
     },
     {
       "image": "/havit/feature-body-insights.webp",
-      "width": 681,
-      "height": 1193,
+      "width": 257,
+      "height": 450,
       "alt_en": "Body composition trend screen",
       "eyebrow_key": "body-insights",
       "title_key": "see-more-than-weight"
     },
     {
       "image": "/havit/feature-daily-missions.webp",
-      "width": 880,
-      "height": 2201,
+      "width": 180,
+      "height": 450,
       "alt_en": "Daily missions screen",
       "eyebrow_key": "daily-missions",
       "title_key": "build-habits-you-can-repeat"
     },
     {
       "image": "/havit/feature-daily-check-in.webp",
-      "width": 1024,
-      "height": 1536,
+      "width": 300,
+      "height": 450,
       "alt_en": "Daily check-in screen",
       "eyebrow_key": "daily-check-in",
       "title_key": "tell-havi-how-today-feels"
     },
     {
       "image": "/havit/feature-track-everything.webp",
-      "width": 1000,
-      "height": 941,
+      "width": 450,
+      "height": 423,
       "alt_en": "Tracking screen",
       "eyebrow_key": "track-everything",
       "title_key": "from-water-to-glp-1"

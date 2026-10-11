@@ -133,6 +133,20 @@ const COPY: Record<string, Copy> = {
 /** 근거 아티클 — 주장에서 출처로 넘어갈 수 있게 본문 안에서 링크한다. */
 const REPORT_SLUG = 'glp-1-habit-report';
 
+/**
+ * 그 글이 실제로 번역돼 있는 언어 (data/articles/glp-1-habit-report.json 의 langs).
+ *
+ * 없는 언어로 링크하면 resolveContent 가 영어로 폴백하고 page.tsx 가 noindex 를
+ * 박는다. 이 블록은 10,537 페이지 전부에 붙으므로, 그대로 두면 6개 언어에서
+ * **사이트 전역 내부 링크가 색인도 안 되는 URL 로 향한다.** 번역이 없으면
+ * 영어판으로 보낸다 — 적어도 색인되는 URL 이다.
+ */
+const REPORT_LANGS = new Set(['en', 'ko', 'ja', 'zh-tw']);
+
+function reportHref(shortLang: string): string {
+  return `/${REPORT_LANGS.has(shortLang) ? shortLang : 'en'}/${REPORT_SLUG}`;
+}
+
 interface FeatureMeta {
   image: string;
   width: number;
@@ -162,6 +176,11 @@ const INSIDE: Record<string, string> = {
 /**
  * 사진 7장.
  *
+ * 원본은 긴 변 450px 로 미리 줄여 뒀다 — next/image 는 원본 폭을 상한으로 쓰므로
+ * (424px 짜리 mind-recovery 는 w=640 이든 w=3840 이든 같은 18KB 를 돌려준다) 표시
+ * 폭 최대 140 CSS px 의 3배수를 덮는 450px 이면 어떤 breakpoint 에서도 과다 전송이
+ * 없다. 줄이기 전엔 DPR3 단말이 7장에 447KB 를 받아갔다.
+ *
  * 첫 장만 `loading="eager"` 가 아니라 전부 lazy 다 — 이 블록은 본문 끝에 있어
  * 첫 화면에 걸리는 일이 없고, 10,537 페이지 전부에 붙기 때문에 LCP 를 건드리면
  * 손해가 그만큼 곱해진다. 세로비가 제각각(424²~880×2201)이라 높이를 고정하고
@@ -172,17 +191,18 @@ function FeatureStrip({ shortLang }: { shortLang: string }) {
   const heading = INSIDE[shortLang] ?? INSIDE.en;
   return (
     <div className="about-havit__features">
-      <p className="about-havit__features-heading">{heading}</p>
+      <h3 className="about-havit__features-heading">{heading}</h3>
       <ul className="about-havit__grid">
         {FEATURES.map((f) => (
           <li key={f.image} className="about-havit__feature">
             <span className="about-havit__shot">
               <Image
                 src={asset(f.image)}
-                alt={copy[f.title_key] ?? f.alt_en}
+                alt=""
+                aria-hidden
                 width={f.width}
                 height={f.height}
-                sizes="(max-width: 700px) 45vw, 180px"
+                sizes="150px"
                 loading="lazy"
               />
             </span>
@@ -206,7 +226,7 @@ export default function AboutHavit({ shortLang }: { shortLang: string }) {
       <p className="about-havit__body">{c.body}</p>
       <p className="about-havit__body">
         {c.data}{' '}
-        <Link href={`/${shortLang}/${REPORT_SLUG}`} className="about-havit__link">
+        <Link href={reportHref(shortLang)} className="about-havit__link">
           {c.cta}
         </Link>
       </p>

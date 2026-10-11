@@ -1,9 +1,12 @@
 {
-  "_note": "승인 시 scripts/approve-pending-article.mjs 가 이 배정을 data/article-images.json(hero) 와 data/hub-section-images.json(sections) 에 옮긴다. 파일명은 data/article-image-catalog.csv 에 실재하는 것만 썼고, 섹션 사진은 히어로와도 서로와도 겹치지 않는다(기존 build-hub-section-images.mjs 와 같은 규칙).",
+  "_note": "승인 시 scripts/approve-pending-article.mjs 가 이 배정을 data/article-images.json(hero) 와 data/hub-section-images.json(sections) 에 옮긴다. 파일명은 data/article-image-catalog.csv 에 실재하는 것만 썼고, 히어로는 섹션과 겹치지 않으며 섹션끼리도 겹치지 않는다(기존 build-hub-section-images.mjs 와 같은 규칙). 섹션 사진 개수는 본문 h2 개수와 같아야 한다.",
   "hero": {
     "best-diet-apps-2026": "IMG_CAT_DIET.jpg",
     "best-ai-health-coach-apps-2026": "IMG_MIND_010.jpg",
-    "best-calorie-counter-apps-2026": "IMG_TRACK_001.jpg"
+    "best-calorie-counter-apps-2026": "IMG_TRACK_001.jpg",
+    "best-food-logging-apps-2026": "IMG_MEAL_007.jpg",
+    "best-body-composition-apps-2026": "IMG_WT_004.jpg",
+    "best-habit-tracker-weight-loss-2026": "IMG_MIND_005.jpg"
   },
   "sections": {
     "best-diet-apps-2026": [
@@ -32,6 +35,34 @@
       "IMG_WT_008.jpg",
       "IMG_MEAL_008.jpg",
       "IMG_WT_002.jpg"
+    ],
+    "best-food-logging-apps-2026": [
+      "IMG_SIT_008.jpg",
+      "IMG_CARB_001.jpg",
+      "IMG_PRO_004.jpg",
+      "IMG_SIT_002.jpg",
+      "IMG_MIND_006.jpg",
+      "IMG_CAT_SIT.jpg",
+      "IMG_HYD_002.jpg"
+    ],
+    "best-body-composition-apps-2026": [
+      "IMG_WT_005.jpg",
+      "IMG_CAT_HEALTH.jpg",
+      "IMG_STR_003.jpg",
+      "IMG_MED_009.jpg",
+      "IMG_FAT_005.jpg",
+      "IMG_CARDIO_006.jpg",
+      "IMG_CAT_WT.jpg"
+    ],
+    "best-habit-tracker-weight-loss-2026": [
+      "IMG_MIND_009.jpg",
+      "IMG_TRACK_001.jpg",
+      "IMG_NEAT_001.jpg",
+      "IMG_CAT_MIND.jpg",
+      "IMG_STR_005.jpg",
+      "IMG_SLEEP_001.jpg",
+      "IMG_MIND_003.jpg",
+      "IMG_CAT_LIFE.jpg"
     ]
   }
 }
