@@ -128,6 +128,31 @@ function ComparisonTable({
 
 function Block({ block }: { block: HubBlock }) {
   switch (block.type) {
+    /* 원고가 위치를 직접 지정한 사진. 자동 섹션 사진과 달리 표가 있는 섹션에도
+       들어간다 — 앱을 하나씩 소개하는 글은 섹션마다 표가 있어서 자동 배치로는
+       사진이 한 장도 안 붙는다.
+
+       `/havit/shot/` 아래는 **앱 화면**이다. 세로로 긴 스크린샷이라 사진과 같은
+       4:3 cover 로 넣으면 가운데 띠만 남고 위아래가 잘린다. 그래서 세로 비율을
+       그대로 두고 contain 으로, 좁은 폭에 가운데 정렬해 넣는다. */
+    case 'image': {
+      const isShot = block.src.includes('/havit/shot/');
+      return (
+        <figure className={isShot ? 'hub-shot' : 'hub-figure hub-figure--inline'}>
+          <span className={isShot ? 'hub-shot__frame' : 'hub-figure__box'}>
+            <Image
+              src={block.src}
+              alt={block.alt}
+              fill
+              sizes={isShot ? '(max-width: 860px) 70vw, 340px' : '(max-width: 860px) 100vw, 800px'}
+              loading="lazy"
+              className={isShot ? 'object-contain' : 'object-cover'}
+            />
+          </span>
+          {block.alt && <figcaption className="hub-figcaption">{block.alt}</figcaption>}
+        </figure>
+      );
+    }
     case 'heading':
       return block.level === 3 ? (
         <h3 className="hub-h3">
@@ -225,19 +250,25 @@ function Block({ block }: { block: HubBlock }) {
         </div>
       );
 
-    case 'table':
+    case 'table': {
+      /* 헤더가 전부 비어 있으면 "스펙표"다 — `| | |` 로 열 이름 없이 항목·값만
+         적은 2열 표. 그대로 그리면 빈 `<th>` 띠가 하나 생겨 글 사이에 정체불명의
+         여백이 박힌다. 그럴 땐 thead 를 빼고 왼쪽 열을 라벨로 세운다. */
+      const isSpec = block.headers.every((h) => !h.trim());
       return (
         <div className="hub-table-wrap">
-          <table className="hub-table">
-            <thead>
-              <tr>
-                {block.headers.map((h, i) => (
-                  <th key={i} scope="col">
-                    <Inline>{h}</Inline>
-                  </th>
-                ))}
-              </tr>
-            </thead>
+          <table className={isSpec ? 'hub-table hub-table--spec' : 'hub-table'}>
+            {!isSpec && (
+              <thead>
+                <tr>
+                  {block.headers.map((h, i) => (
+                    <th key={i} scope="col">
+                      <Inline>{h}</Inline>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+            )}
             <tbody>
               {block.rows.map((row, i) => (
                 <tr key={i}>
@@ -252,6 +283,7 @@ function Block({ block }: { block: HubBlock }) {
           </table>
         </div>
       );
+    }
   }
 }
 

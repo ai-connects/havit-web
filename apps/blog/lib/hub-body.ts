@@ -15,6 +15,7 @@
 
 export type HubBlock =
   | { type: 'para'; text: string }
+  | { type: 'image'; src: string; alt: string }
   | { type: 'heading'; level: 3 | 4; text: string }
   | { type: 'list'; ordered: boolean; items: string[] }
   | { type: 'steps'; items: Array<{ title: string; body: string }> }
@@ -166,11 +167,26 @@ function parseBlocks(lines: string[]): HubBlock[] {
       continue;
     }
 
+    /**
+     * 한 줄이 통째로 `![alt](src)` 면 이미지 블록.
+     *
+     * 섹션 사진(hub-section-images.json)은 섹션당 1장·홀수 인덱스에만 붙고,
+     * 표가 있는 섹션은 아예 건너뛴다. 앱을 하나씩 소개하는 글에서는 그 규칙으로
+     * 사진을 한 장도 못 붙인다 — 앱 섹션마다 표가 들어가기 때문이다.
+     * 그래서 원고가 직접 위치를 지정할 수 있는 경로를 둔다.
+     */
+    const img = lines[i].trim().match(/^!\[([^\]]*)\]\(([^)\s]+)\)$/);
+    if (img) {
+      out.push({ type: 'image', alt: img[1], src: img[2] });
+      i++;
+      continue;
+    }
+
     const buf: string[] = [];
     while (
       i < lines.length &&
       lines[i].trim() &&
-      !/^(#{3,6}\s|>|\s*\||\s*[-*]\s|\s*\d+\.\s|---+\s*$)/.test(lines[i])
+      !/^(#{3,6}\s|>|\s*\||\s*[-*]\s|\s*\d+\.\s|---+\s*$|!\[)/.test(lines[i])
     ) {
       buf.push(lines[i++]);
     }
