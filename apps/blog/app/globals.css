@@ -1576,6 +1576,70 @@
   .about-havit { padding: 22px 20px; }
 }
 
+/* 홈(#features)에서 가져온 피처 사진 7장 — components/AboutHavit.tsx
+   세로비가 424² ~ 880×2201 로 제각각이라 높이만 고정하고 contain 으로 받는다.
+   채워 넣으면 앱 화면의 위아래가 잘려 무슨 화면인지 못 알아본다. */
+.about-havit__features {
+  margin: 20px 0 16px;
+  padding-top: 18px;
+  border-top: 1px solid #e8f3bf;
+}
+.about-havit__features-heading {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #5f7a00;
+  margin: 0 0 14px;
+}
+.about-havit__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.about-havit__feature {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.about-havit__shot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 132px;
+  margin-bottom: 8px;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid #edf5d4;
+  overflow: hidden;
+}
+.about-havit__shot img {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+.about-havit__eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--hv-grey-60);
+}
+.about-havit__feature-title {
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--hv-black);
+}
+@media (max-width: 700px) {
+  .about-havit__grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .about-havit__shot { height: 118px; }
+}
+
 /* 설치 CTA — components/InstallCTA.tsx (inline)
    마케팅 사이트 final-cta 와 같은 구성: 플랫 브랜드 라임 + 실제 스토어 배지 +
    앱 화면. 종전 그라디언트 + 이모지 버튼은 스토어 배포로 읽히지 않았다. */

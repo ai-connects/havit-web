@@ -1,0 +1,306 @@
+{
+  "article_id": "BLOG_BEST_CALORIE_COUNTER_APPS_2026",
+  "slug": "best-calorie-counter-apps-2026",
+  "category": "Tracking & Insights",
+  "category_emoji": "🔢",
+  "type": "comparison",
+  "layout": "hub",
+  "reading_time_min": 8,
+  "primary_keyword_en": "best calorie counting app 2026 calorie counter app comparison nutrition tracker",
+  "primary_keyword_ko": "칼로리 계산 앱 추천 2026 식단 기록 앱 비교 영양 트래커",
+  "langs": {
+    "en": {
+      "title": "Best Calorie Counting Apps in 2026: Why Consistency Beats Accuracy",
+      "short_title": "Best Calorie Counter Apps 2026",
+      "meta_description": "Every number in a calorie app is an estimate — label, database, portion, expenditure. Once you accept that, you stop shopping for accuracy and start shopping for consistency. Six criteria, a by-purpose comparison, and where each app loses.",
+      "tldr": "Four layers of approximation stack up before a calorie figure reaches your screen, so the daily total is a range, not a number. Choose the app where logging your actual Tuesday dinner takes ten seconds — then read the week, not the day.",
+      "body_md": "*Honest disclosure: HAVIT publishes this blog and makes one of the apps below. We have named where it loses. Every app here is judged on the same criteria.*\n\nHere is the thing nobody selling you a calorie counter will lead with: **every number in the chain is an estimate.** The label on the packet is an estimate. The database entry someone else typed in is an estimate. Your portion size is an estimate. Your daily energy expenditure is an estimate of an estimate.\n\nThat is not an argument against counting. It is an argument for choosing an app on the right criterion. Once you accept that the absolute number is approximate, accuracy stops being the thing to shop for and **consistency** takes its place — the same food, logged the same way, every time, so the trend means something even when the number does not.\n\nThis guide sorts the category on that basis.\n\n## Why \"most accurate calorie counter\" is the wrong search\n\nFour separate layers of approximation stack up before a number reaches your screen.\n\n**The label.** Packaged-food energy values are derived figures with regulatory tolerances, not exact measurements of the item in your hand.\n\n**The database.** The big nutrition apps built their breadth on user-submitted entries. Breadth is why they win; user submission is why the same yoghurt appears nine times with five different calorie counts. Verified-entry databases trade size for reliability, which is a real trade and not a marketing line.\n\n**The portion.** This is usually the largest single error. \"One bowl\" varies more between two people than most database entries vary from the truth.\n\n**Your expenditure.** Any target built on a BMR or TDEE formula carries meaningful individual variation. The formula is a population average being applied to one person.\n\nStack those and the daily total is a range, not a figure. The useful question becomes: does this app let me log the same way every day, quickly enough that I keep doing it? That is the behaviour with evidence behind it — a systematic review of 22 studies found self-monitoring consistently associated with weight loss ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pubmed.ncbi.nlm.nih.gov/21185970/)).\n\n## 6 criteria for choosing a calorie counting app\n\n### 1. Verified entries or crowd-sourced breadth?\n\nDecide which failure you prefer. A verified database will not have your local bakery's bread; a crowd-sourced one will have it nine times at different values. If you eat mostly packaged food, breadth wins. If you need defensible numbers, verification wins.\n\n### 2. How many taps is a repeat meal?\n\nMost people eat a small rotation of meals. The app that turns your Tuesday breakfast into one tap will out-perform a more accurate app that makes you search for it every morning — because you will still be using it in March.\n\n### 3. Does it track micronutrients, or only macros?\n\nOnly some apps go deep on vitamins and minerals. If you are managing a deficiency, a clinical diet, or a restrictive pattern, this is the criterion that decides your shortlist, and the dedicated nutrition apps are genuinely better at it than everyone else.\n\n### 4. Does it adjust the target, or set it once?\n\nA target computed once on day one gets stale as you lose weight, change training, or plateau. Look for apps that recalculate from your own observed intake and weight trend rather than re-running the same formula.\n\n### 5. Does it show you a trend or a verdict?\n\nDaily totals are noisy — water, salt, cycle, glycogen. A weekly rolling view answers \"am I moving?\" far better than a red \"over budget\" banner, which mostly teaches people to stop logging on the days they most need to.\n\n### 6. Does counting calories suit you at all?\n\nWorth asking honestly. For some people detailed counting becomes an unhelpful fixation. If tracking makes you anxious or rigid around food, a habit-based or composition-based approach is a better fit, and speaking to a professional is a better first step than a different app.\n\n## The calorie counting apps, by what they are built for\n\n| App type | Built for | Database style | Micronutrients | Where it loses |\n| --- | --- | --- | --- | --- |\n| MyFitnessPal | Breadth — find almost any food | Large, heavily user-submitted | Basic | Duplicate and inconsistent entries |\n| Cronometer | Accuracy and nutrient depth | Verified, curated | Extensive | Smaller database; more manual entry |\n| FatSecret | Free, straightforward logging | User-submitted | Basic | Fewer coaching or trend features |\n| Photo-first / AI loggers | Speed — seconds per meal | Model estimate from an image | Limited | The estimate is a range, not a reading |\n| HAVIT | Context — food inside sleep, cycle, mood, medication | Moderate | Core macros, protein-first | Smaller database than the specialists |\n\nIf your only requirement is a precise micronutrient breakdown, a dedicated nutrition app is the right answer and this is a short conversation.\n\n## How to count without losing your mind\n\n- **Log the same way every time.** Consistency beats accuracy. Pick an entry for your usual oats and reuse it rather than optimising it weekly.\n- **Weigh the big three.** Oils, nuts and grains carry the most error per gram. Weighing only these gets most of the benefit for a fraction of the effort.\n- **Read the week, not the day.** One day tells you almost nothing.\n- **Front-load protein.** Protein targets are the part of the plan that holds up when calories are imperfect — especially on GLP-1 therapy, where a meaningful share of lost weight can be lean tissue ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)).\n- **Stop logging perfectly and start logging always.** A rough entry beats a blank day by a wide margin.\n\n## Where each app falls short — including ours\n\n- **MyFitnessPal** has the breadth no one else matches, and the duplicate-entry problem that comes with it.\n- **Cronometer** is the most defensible on data quality and asks more of you in return.\n- **Photo-first logging** is the fastest route from plate to log; the figure it returns is a model's estimate and should be read as a range.\n- **HAVIT** has a smaller food database than MyFitnessPal or Cronometer, and its body-composition figures are AI estimates rather than DEXA or InBody measurements. If precise micronutrient data is your requirement, use a dedicated nutrition app — we do not try to win that comparison.\n\n## The bottom line\n\nChoose on consistency, not on claimed accuracy. The best calorie counting app is the one where logging your actual Tuesday dinner takes ten seconds, because the evidence sits with the act of logging rather than with the precision of the number.\n\nThen read the week, not the day.\n\n## Why HAVIT — calories are one input, not the whole picture\n\nHAVIT counts calories, and it does not stop there. The reason is that the number on its own does not explain a stalled week: sleep, stress, cycle phase, steps and GLP-1 medication all move appetite and weight, and a food-only app has no way to see any of it.\n\nSo HAVIT keeps meals, hydration, sleep, steps, cycle, mood and medication in one routine, estimates body composition rather than reporting weight alone, and turns the week into one concrete action for today. Photo logging handles the speed problem; the daily check-in handles the context problem.\n\nClinical guidance supports pairing this kind of structured behaviour change with everything else ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). In our own analysis of 1,090 GLP-1 users, the most consistent loggers built the strongest habits ([GLP-1 Habit Report](/en/glp-1-habit-report)).\n\nHAVIT is a wellness app, not a medical device. Calorie and body-composition figures are estimates.\n\n[Try HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "Layers of approximation between a food and its calorie figure",
+          "value": "4 (label, database, portion, expenditure)",
+          "source": "This guide"
+        },
+        {
+          "label": "Studies in the self-monitoring review linked to weight loss",
+          "value": "22 studies",
+          "source": "Burke et al. 2011, J Am Diet Assoc"
+        },
+        {
+          "label": "Share of GLP-1 weight loss that can come from lean tissue",
+          "value": "~20–40%",
+          "source": "Neeland et al. 2024, Diabetes Obes Metab"
+        },
+        {
+          "label": "Foods worth weighing for most of the benefit",
+          "value": "3 (oils, nuts, grains)",
+          "source": "Highest error per gram"
+        }
+      ],
+      "comparison_table": {
+        "title": "Calorie counting apps, by what they are built for",
+        "headers": [
+          "App",
+          "Built for",
+          "Database style",
+          "Micronutrients",
+          "Where it loses"
+        ],
+        "rows": [
+          [
+            "MyFitnessPal",
+            "Breadth — find almost any food",
+            "Large, heavily user-submitted",
+            "Basic",
+            "Duplicate and inconsistent entries"
+          ],
+          [
+            "Cronometer",
+            "Accuracy and nutrient depth",
+            "Verified, curated",
+            "Extensive",
+            "Smaller database; more manual entry"
+          ],
+          [
+            "FatSecret",
+            "Free, straightforward logging",
+            "User-submitted",
+            "Basic",
+            "Fewer coaching or trend features"
+          ],
+          [
+            "Photo-first / AI loggers",
+            "Speed — seconds per meal",
+            "Model estimate from an image",
+            "Limited",
+            "The estimate is a range, not a reading"
+          ],
+          [
+            "HAVIT",
+            "Context — food inside sleep, cycle, mood, medication",
+            "Moderate",
+            "Core macros, protein-first",
+            "Smaller database than the specialists"
+          ]
+        ],
+        "caption": "If a precise micronutrient breakdown is your only requirement, a dedicated nutrition app is the right answer."
+      },
+      "faq": [
+        {
+          "question": "Which calorie counting app is the most accurate?",
+          "answer": "None of them is accurate in the way the question implies. Four layers of approximation stack up — the label's regulatory tolerance, the database entry, your portion estimate, and the formula estimating your expenditure. Cronometer is the most defensible on data quality because its entries are verified, but the daily total is still a range. Choose for consistency instead: the same food logged the same way every time."
+        },
+        {
+          "question": "Is MyFitnessPal or Cronometer better?",
+          "answer": "They optimise for opposite things. MyFitnessPal wins on breadth because it is heavily user-submitted, which is also why the same yoghurt can appear nine times at five different values. Cronometer wins on verified entries and micronutrient depth, and asks more manual entry of you in return. Packaged food and convenience favour the first; a deficiency, clinical diet or restrictive pattern favours the second."
+        },
+        {
+          "question": "Do I need to weigh my food?",
+          "answer": "Not all of it. Portion estimation is usually the single largest source of error, but oils, nuts and grains carry the most error per gram. Weighing only those three captures most of the benefit for a fraction of the effort."
+        },
+        {
+          "question": "Why is my calorie app not working even though I stay under my target?",
+          "answer": "The target itself is an estimate — BMR and TDEE formulas are population averages applied to one person — and daily totals are noisy with water, salt, cycle and glycogen. Read a weekly rolling average rather than a daily verdict. If a stalled week coincides with poor sleep or high stress, a food-only app has no way to show you that."
+        },
+        {
+          "question": "Are photo-based AI calorie estimates reliable?",
+          "answer": "They are fast, and they are estimates. A model inferring a portion from an image returns a range, not a reading. That is an acceptable trade if speed is what keeps you logging — a rough entry beats a blank day — but do not treat the figure as a measurement."
+        },
+        {
+          "question": "Should I count calories at all?",
+          "answer": "For many people it helps, because self-monitoring is the behaviour most consistently linked to weight loss. For some it becomes an unhelpful fixation. If tracking makes you anxious or rigid around food, a habit-based or body-composition approach fits better, and speaking to a professional is a better first step than switching apps."
+        }
+      ],
+      "references": [
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
+        },
+        {
+          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+        },
+        {
+          "title": "Misclassification of cardiometabolic health when using BMI categories (Tomiyama et al.)",
+          "source": "International Journal of Obesity, 2016",
+          "url": "https://www.nature.com/articles/ijo201617"
+        },
+        {
+          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
+          "source": "New England Journal of Medicine, 2002",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa012512"
+        },
+        {
+          "title": "Changes in lean body mass with GLP-1-based therapies (Neeland et al.)",
+          "source": "Diabetes, Obesity and Metabolism, 2024",
+          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728"
+        },
+        {
+          "title": "Behavioral counseling interventions for weight loss in adults with obesity — Grade B recommendation",
+          "source": "U.S. Preventive Services Task Force, 2018",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "Cardiovascular effects of intensive lifestyle intervention in type 2 diabetes (Look AHEAD Research Group)",
+          "source": "New England Journal of Medicine, 2013",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1212914"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — internal analysis of 1,090 HAVIT GLP-1 users",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "ko": {
+      "title": "2026 칼로리 계산 앱 추천 — 정확도보다 일관성으로 고르는 법",
+      "short_title": "2026 칼로리 계산 앱 추천",
+      "meta_description": "칼로리 앱의 모든 숫자는 추정치입니다 — 표시량도, 데이터베이스도, 1인분도, 소비량도. 그걸 받아들이면 기준이 정확도에서 일관성으로 바뀝니다. 6가지 기준과 목적별 비교, 각 앱이 밀리는 지점.",
+      "tldr": "숫자가 화면에 닿기 전에 네 겹의 근사가 쌓여서, 하루 총합은 숫자가 아니라 구간입니다. 실제로 먹은 화요일 저녁을 10초에 넣을 수 있는 앱을 고르고, 하루가 아니라 한 주를 읽으세요.",
+      "body_md": "*밝혀둡니다: 이 블로그는 HAVIT이 발행하고, 아래 앱 중 하나를 만듭니다. 어디서 밀리는지도 적었습니다. 모든 앱을 같은 기준으로 봤습니다.*\n\n칼로리 앱을 파는 쪽이 먼저 꺼내지 않는 사실이 하나 있습니다. **그 숫자가 만들어지는 모든 단계가 추정치**라는 겁니다. 포장지의 표시량도 추정치고, 누군가 입력해 둔 데이터베이스 항목도 추정치고, 내 1인분도 추정치고, 내 하루 소비 칼로리는 추정치의 추정치입니다.\n\n세지 말라는 얘기가 아닙니다. **고르는 기준을 바꾸라는 얘기**입니다. 절대값이 근사치라는 걸 받아들이면 \"정확도\"는 쇼핑 기준에서 내려오고, 그 자리를 **일관성**이 대신합니다. 같은 음식을 같은 방식으로 매번 기록하면, 숫자 자체는 틀려도 **추세는 의미를 갖습니다.**\n\n이 글은 그 기준으로 카테고리를 정리합니다.\n\n## \"제일 정확한 칼로리 앱\"이 잘못된 검색어인 이유\n\n숫자가 화면에 닿기 전에 네 겹의 근사가 쌓입니다.\n\n**표시량.** 가공식품의 열량 값은 손에 든 그 제품을 실측한 값이 아니라, 법적 허용 오차를 가진 산출값입니다.\n\n**데이터베이스.** 큰 영양 앱들은 사용자 입력으로 데이터 양을 키웠습니다. 양이 많은 건 그래서고, 같은 요거트가 아홉 번 서로 다른 칼로리로 올라와 있는 것도 그래서입니다. 검증된 데이터베이스는 양을 포기하고 신뢰도를 삽니다. 마케팅 문구가 아니라 실제 맞바꿈입니다.\n\n**1인분.** 보통 여기서 오차가 제일 큽니다. \"한 그릇\"은 두 사람 사이의 편차가, 대부분의 데이터베이스 항목이 실제값에서 벗어난 폭보다 큽니다.\n\n**내 소비량.** BMR·TDEE 공식으로 잡은 목표치에는 개인차가 상당히 실립니다. 집단 평균을 한 사람에게 적용하는 거니까요.\n\n이걸 다 쌓으면 하루 총합은 숫자가 아니라 **구간**입니다. 그러면 쓸모 있는 질문은 이렇게 바뀝니다. *이 앱으로 매일 같은 방식으로, 계속할 만큼 빠르게 기록할 수 있나?* 근거가 붙어 있는 행동이 바로 그겁니다. 22개 연구를 묶은 문헌고찰에서 자기 기록은 감량과 일관되게 연결됐습니다 ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pubmed.ncbi.nlm.nih.gov/21185970/)).\n\n## 칼로리 앱을 고르는 6가지 기준\n\n### 1. 검증된 데이터인가, 많은 데이터인가\n\n어느 쪽 실패를 감수할지 정하세요. 검증형에는 동네 빵집 빵이 없고, 사용자 입력형에는 그게 아홉 개의 다른 값으로 있습니다. 포장식품 위주로 먹으면 양이 이깁니다. 설명 가능한 숫자가 필요하면 검증이 이깁니다.\n\n### 2. 늘 먹던 메뉴를 다시 넣는 데 몇 번 누르나\n\n대부분은 정해진 몇 가지를 돌려 먹습니다. 화요일 아침을 한 번에 넣어주는 앱이, 매일 아침 검색하게 만드는 더 정확한 앱을 이깁니다. **3월에도 쓰고 있을 테니까요.**\n\n### 3. 미량영양소까지 보나, 매크로만 보나\n\n비타민·무기질까지 깊게 다루는 앱은 일부뿐입니다. 결핍 관리, 임상 식이, 제한식을 하고 있다면 이 기준이 후보를 결정합니다. 그리고 이 영역은 전문 영양 앱이 실제로 더 낫습니다.\n\n### 4. 목표치를 조정하나, 한 번 정하고 마나\n\n첫날 계산한 목표는 체중이 빠지고, 운동이 바뀌고, 정체가 오면 낡습니다. 같은 공식을 다시 돌리는 게 아니라 **내 실제 섭취와 체중 추세로 다시 계산해 주는** 앱을 보세요.\n\n### 5. 추세를 보여주나, 판정을 내리나\n\n하루 총합은 노이즈가 큽니다. 수분, 염분, 주기, 글리코겐이 다 끼어듭니다. \"목표 초과\" 빨간 배너보다 주간 이동평균이 \"내가 움직이고 있나\"에 훨씬 잘 답합니다. 빨간 배너는 대개, 가장 기록이 필요한 날에 기록을 멈추게 만듭니다.\n\n### 6. 애초에 칼로리 계산이 나한테 맞나\n\n정직하게 물어볼 만합니다. 어떤 사람에게는 세밀한 계산이 도움 안 되는 집착이 됩니다. 기록이 음식 앞에서 불안하거나 경직되게 만든다면, 습관 기반이나 체성분 기반 접근이 더 맞고, 다른 앱을 찾기보다 전문가와 이야기하는 게 먼저입니다.\n\n## 칼로리 앱, 무엇을 위해 만들어졌나로 보기\n\n| 앱 유형 | 무엇을 위해 | 데이터 방식 | 미량영양소 | 밀리는 지점 |\n| --- | --- | --- | --- | --- |\n| MyFitnessPal | 양 — 웬만한 음식은 다 있음 | 크고, 사용자 입력 비중 높음 | 기본 | 중복·불일치 항목 |\n| Cronometer | 정확도와 영양소 깊이 | 검증·큐레이션 | 광범위 | DB가 작고 수동 입력이 많음 |\n| FatSecret | 무료, 단순한 기록 | 사용자 입력 | 기본 | 코칭·추세 기능이 적음 |\n| 사진 우선 / AI 기록 | 속도 — 한 끼 몇 초 | 이미지 기반 모델 추정 | 제한적 | 추정값은 수치가 아니라 구간 |\n| HAVIT | 맥락 — 수면·주기·기분·복약 속의 식사 | 중간 | 핵심 매크로, 단백질 중심 | 전문 앱보다 DB가 작음 |\n\n정밀한 미량영양소 분석 하나만 필요하다면 전문 영양 앱이 답이고, 이 대화는 여기서 끝나도 됩니다.\n\n## 지치지 않고 세는 법\n\n- **매번 같은 방식으로 기록하세요.** 일관성이 정확도를 이깁니다. 늘 먹는 오트밀은 항목 하나를 정해 두고 계속 쓰세요. 매주 더 나은 항목을 찾지 마세요.\n- **세 가지만 저울에.** 기름, 견과, 곡물이 g당 오차가 가장 큽니다. 이 셋만 재도 효과의 대부분을 가져갑니다.\n- **하루가 아니라 한 주를 읽으세요.** 하루는 거의 아무것도 알려주지 않습니다.\n- **단백질을 먼저 채우세요.** 칼로리가 부정확해도 버티는 건 단백질 목표입니다. GLP-1 치료 중이면 특히 그렇습니다. 빠지는 체중에 제지방이 상당히 섞일 수 있으니까요 ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)).\n- **완벽하게 기록하지 말고 항상 기록하세요.** 대충 넣은 기록이 빈 하루보다 압도적으로 낫습니다.\n\n## 각 앱이 밀리는 지점 — 우리 것 포함\n\n- **MyFitnessPal**은 아무도 못 따라오는 양을 갖고 있고, 그에 딸려오는 중복 항목 문제도 함께 갖고 있습니다.\n- **Cronometer**는 데이터 품질에서 가장 설명 가능하고, 대신 사용자에게 더 많은 걸 요구합니다.\n- **사진 우선 기록**은 접시에서 기록까지가 가장 빠릅니다. 돌려주는 숫자는 모델의 추정치고 구간으로 읽어야 합니다.\n- **HAVIT**은 MyFitnessPal이나 Cronometer보다 음식 데이터베이스가 작고, 체성분 수치는 DEXA나 인바디 측정값이 아니라 AI 추정치입니다. 정밀한 미량영양소 데이터가 요구사항이라면 전문 영양 앱을 쓰세요. 그 비교에서 이기려 하지 않습니다.\n\n## 정리\n\n주장된 정확도가 아니라 **일관성**으로 고르세요. 가장 좋은 칼로리 앱은 **내가 실제로 먹은 화요일 저녁을 10초 만에 넣을 수 있는 앱**입니다. 근거는 숫자의 정밀함이 아니라 기록이라는 행위 쪽에 있으니까요.\n\n그리고 하루가 아니라 한 주를 읽으세요.\n\n## HAVIT을 만든 이유 — 칼로리는 입력 하나일 뿐입니다\n\nHAVIT도 칼로리를 셉니다. 거기서 멈추지 않을 뿐입니다. 숫자 하나로는 정체된 한 주가 설명되지 않기 때문입니다. 수면, 스트레스, 생리주기, 걸음, GLP-1 복약이 전부 식욕과 체중을 움직이는데, 음식만 보는 앱은 그중 어느 것도 볼 방법이 없습니다.\n\n그래서 HAVIT은 식사·수분·수면·걸음·생리주기·기분·복약을 하나의 루틴에 두고, 체중만 보고하는 대신 체성분을 추정하고, 한 주를 **오늘 할 행동 하나**로 바꿉니다. 사진 기록이 속도 문제를, 데일리 체크인이 맥락 문제를 맡습니다.\n\n임상 가이드도 이런 구조화된 행동 변화를 다른 모든 것과 **함께** 가져가라고 권고합니다 ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). 자체 분석한 GLP-1 사용자 1,090명 데이터에서, 가장 꾸준히 기록한 사람들이 가장 단단한 습관을 만들었습니다 ([GLP-1 습관 리포트](/ko/glp-1-habit-report)).\n\nHAVIT은 의료기기가 아닌 웰니스 앱입니다. 칼로리와 체성분 수치는 추정치입니다.\n\n[HAVIT 시작하기 →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "음식에서 칼로리 숫자까지 쌓이는 근사의 겹",
+          "value": "4겹 (표시량·DB·1인분·소비량)",
+          "source": "이 가이드"
+        },
+        {
+          "label": "자기 기록과 감량의 연관을 확인한 문헌고찰 포함 연구 수",
+          "value": "22개 연구",
+          "source": "Burke et al. 2011, J Am Diet Assoc"
+        },
+        {
+          "label": "GLP-1 감량분 중 제지방이 차지할 수 있는 비중",
+          "value": "약 20~40%",
+          "source": "Neeland et al. 2024, Diabetes Obes Metab"
+        },
+        {
+          "label": "효과 대부분을 가져가는 저울질 대상",
+          "value": "3가지 (기름·견과·곡물)",
+          "source": "g당 오차가 가장 큼"
+        }
+      ],
+      "comparison_table": {
+        "title": "칼로리 앱, 무엇을 위해 만들어졌나",
+        "headers": [
+          "앱",
+          "무엇을 위해",
+          "데이터 방식",
+          "미량영양소",
+          "밀리는 지점"
+        ],
+        "rows": [
+          [
+            "MyFitnessPal",
+            "양 — 웬만한 음식은 다 있음",
+            "크고, 사용자 입력 비중 높음",
+            "기본",
+            "중복·불일치 항목"
+          ],
+          [
+            "Cronometer",
+            "정확도와 영양소 깊이",
+            "검증·큐레이션",
+            "광범위",
+            "DB가 작고 수동 입력이 많음"
+          ],
+          [
+            "FatSecret",
+            "무료, 단순한 기록",
+            "사용자 입력",
+            "기본",
+            "코칭·추세 기능이 적음"
+          ],
+          [
+            "사진 우선 / AI 기록",
+            "속도 — 한 끼 몇 초",
+            "이미지 기반 모델 추정",
+            "제한적",
+            "추정값은 수치가 아니라 구간"
+          ],
+          [
+            "HAVIT",
+            "맥락 — 수면·주기·기분·복약 속의 식사",
+            "중간",
+            "핵심 매크로, 단백질 중심",
+            "전문 앱보다 DB가 작음"
+          ]
+        ],
+        "caption": "정밀한 미량영양소 분석 하나만 필요하다면 전문 영양 앱이 답이다."
+      },
+      "faq": [
+        {
+          "question": "칼로리 앱 중에 제일 정확한 게 뭔가요?",
+          "answer": "질문이 전제하는 의미로 정확한 앱은 없습니다. 네 겹의 근사가 쌓입니다 — 표시량의 법적 허용 오차, 데이터베이스 항목, 내 1인분 추정, 소비량을 추정하는 공식. 데이터 품질에서 가장 설명 가능한 건 항목을 검증하는 Cronometer지만, 그래도 하루 총합은 구간입니다. 대신 일관성으로 고르세요. 같은 음식을 매번 같은 방식으로요."
+        },
+        {
+          "question": "MyFitnessPal이랑 Cronometer 중에 뭐가 나은가요?",
+          "answer": "서로 반대되는 걸 최적화합니다. MyFitnessPal은 사용자 입력 비중이 높아 양에서 이기고, 같은 요거트가 아홉 번 다른 값으로 올라와 있는 이유도 그겁니다. Cronometer는 검증된 항목과 미량영양소 깊이에서 이기고, 대신 수동 입력을 더 요구합니다. 포장식품 위주면 전자, 결핍·임상 식이·제한식이면 후자입니다."
+        },
+        {
+          "question": "음식을 꼭 저울에 달아야 하나요?",
+          "answer": "전부는 아닙니다. 1인분 추정이 보통 오차가 가장 크지만, 그중에서도 기름·견과·곡물이 g당 오차가 가장 큽니다. 이 셋만 재도 효과의 대부분을 훨씬 적은 수고로 가져갑니다."
+        },
+        {
+          "question": "목표 칼로리를 지키는데도 왜 효과가 없을까요?",
+          "answer": "목표치 자체가 추정입니다. BMR·TDEE 공식은 집단 평균을 한 사람에게 적용한 값이고, 하루 총합은 수분·염분·주기·글리코겐으로 출렁입니다. 하루 판정 말고 주간 이동평균을 보세요. 정체된 한 주가 수면 부족이나 높은 스트레스와 겹쳤다면, 음식만 보는 앱은 그걸 보여줄 방법이 없습니다."
+        },
+        {
+          "question": "사진으로 칼로리 추정하는 거 믿을 만한가요?",
+          "answer": "빠르고, 추정치입니다. 이미지에서 1인분을 추론하는 모델은 수치가 아니라 구간을 돌려줍니다. 그 속도 덕분에 기록을 계속하게 된다면 받아들일 만한 맞바꿈입니다 — 대충 넣은 기록이 빈 하루보다 낫습니다. 다만 그 숫자를 측정값으로 다루지는 마세요."
+        },
+        {
+          "question": "칼로리를 세는 게 맞긴 한가요?",
+          "answer": "많은 사람에게 도움이 됩니다. 자기 기록이 감량과 가장 일관되게 연결된 행동이니까요. 다만 어떤 사람에게는 도움 안 되는 집착이 됩니다. 기록이 음식 앞에서 불안하거나 경직되게 만든다면 습관 기반이나 체성분 기반 접근이 더 맞고, 앱을 바꾸기보다 전문가와 이야기하는 게 먼저입니다."
+        }
+      ],
+      "references": [
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
+        },
+        {
+          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+        },
+        {
+          "title": "Misclassification of cardiometabolic health when using BMI categories (Tomiyama et al.)",
+          "source": "International Journal of Obesity, 2016",
+          "url": "https://www.nature.com/articles/ijo201617"
+        },
+        {
+          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
+          "source": "New England Journal of Medicine, 2002",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa012512"
+        },
+        {
+          "title": "Changes in lean body mass with GLP-1-based therapies (Neeland et al.)",
+          "source": "Diabetes, Obesity and Metabolism, 2024",
+          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728"
+        },
+        {
+          "title": "Behavioral counseling interventions for weight loss in adults with obesity — Grade B recommendation",
+          "source": "U.S. Preventive Services Task Force, 2018",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "Cardiovascular effects of intensive lifestyle intervention in type 2 diabetes (Look AHEAD Research Group)",
+          "source": "New England Journal of Medicine, 2013",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1212914"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — internal analysis of 1,090 HAVIT GLP-1 users",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    }
+  },
+  "generated_at": "2026-10-11T00:00:00.000Z"
+}
