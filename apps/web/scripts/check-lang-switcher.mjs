@@ -29,15 +29,17 @@ import { config } from '../middleware.js'
  * 패턴(`(.*)`, `:name*`, `:name?`)이 들어오면 조용히 통과시키지 않고 멈춘다.
  */
 function matcherToRegExp(pattern) {
-  if (/[(*?+]/.test(pattern)) {
-    throw new Error(`matcher 패턴을 해석할 수 없다: ${pattern} — 이 가드를 함께 고칠 것`)
-  }
   const source = pattern
     .split('/')
     .map((seg) => {
       if (!seg) return ''
-      if (seg.startsWith(':')) return '[^/]+'
-      return seg.replace(/[.\\^$]/g, '\\$&')
+      if (/^:[A-Za-z_]\w*$/.test(seg)) return '[^/]+'
+      // 리터럴 세그먼트만 허용한다. `[abc]` 같은 게 들어오면 아래 escape 가
+      // 문자클래스로 살아남아 **조용히 통과**한다 — 그래서 모양부터 막는다.
+      if (/[^\w.\-~%]/.test(seg)) {
+        throw new Error(`matcher 패턴을 해석할 수 없다: ${pattern} — 이 가드를 함께 고칠 것`)
+      }
+      return seg.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
     })
     .join('/')
   return new RegExp(`^${source}$`)
