@@ -226,6 +226,878 @@
         }
       ],
       "last_updated": "2026-10-11"
+    },
+    "ja": {
+      "title": "2026年版 最適な食事記録アプリ:機能ではなく「挫折の仕方」で選ぶ",
+      "short_title": "2026年版 最適な食事記録アプリ",
+      "meta_description": "食事記録を止める理由は精度の問題ではない。特定の瞬間に挫折する。4つの挫折パターン — 検索の負担、自炊の壁、恥の隙間、無意味感の漂流 — とそれぞれを解決するアプリタイプ、そして2週間のテスト方法。",
+      "tldr": "まず自分の挫折パターンを診断する:検索の負担、自炊の壁、恥の隙間、無意味感の漂流。それぞれ異なるアプリタイプで解決される。調子の悪い日の不完全な記録は、良い日の完璧な記録より価値がある。",
+      "body_md": "*正直な開示:HAVITはこのブログを公開しており、以下で紹介するアプリの1つを提供しています。HAVITが劣る点も明記しています。*\n\n食事記録を止める理由は、アプリの精度が低いからではない。特定の瞬間 — 夜9時、疲れてキッチンに立ち、6つの材料で作った自家製の料理を前に、「これは記録する価値がない」と判断する瞬間 — があるからだ。\n\nそのため、このガイドは機能リストではなく、そうした瞬間を軸に構成されている。挫折パターンは4つあり、これが食事記録習慣が途絶える4つの方法であり、それぞれ異なる種類のアプリで解決される。\n\n## 食事記録が途絶える4つの方法\n\n自分のパターンを見つけよう。どのレビューよりも、これがあなたに必要なアプリを決定する。\n\n**1. 検索の負担。** 毎食、入力から始まり、ほぼ同一の9つの結果をスクロールし、どれが正しいか推測する。毎回30秒、1日4回。これが最も一般的なパターンだ。\n\n**2. 自炊の壁。** パッケージ食品は問題なく記録できる。しかし自炊すると、1つの皿が11回の検索になる。何ヶ月も朝食は完璧に記録するが、夕食は一度も記録しない人がいる。\n\n**3. 恥の隙間。** 1日がうまくいかず、それを記録したくなくて記録をスキップする — そしてそこで習慣が途切れる。スキップした日こそ、まさに情報価値の高い日なのだ。\n\n**4. 無意味感の漂流。** 5週間忠実に記録し、アプリは数字を返すが、何を変えるべきか何も教えてくれず、記録作業が簿記のように感じ始める。\n\n4つの問題、4つの異なる答え。これらを混同するから、「MyFitnessPalを使えばいい」というアドバイスは半分の場合に悪いアドバイスになる。\n\n## どのアプリタイプがどの問題を解決するか\n\n*アプリの特性は2026年10月時点のもの — 契約前に最新のストア情報を確認してください。*\n\n| あなたの挫折パターン | 解決策 | アプリタイプ | 注意点 |\n| --- | --- | --- | --- |\n| 検索の負担 | 最近の食事のショートカット、バーコード、音声入力 | 優れた「繰り返し」フローを持つ成熟したトラッカー | 繰り返しフローが埋もれていれば、データベースの広さは無意味 |\n| 自炊の壁 | 写真キャプチャ、または保存された複数材料の食事 | 写真優先/AIロガー | 数値はモデル推定値であり、測定値ではない |\n| 恥の隙間 | 低摩擦の部分記録、赤い「予算超過」判定なし | 習慣主導またはコーチ主導のアプリ | ゲーミフィケーションがスキップを悪化させるアプリもある |\n| 無意味感の漂流 | ログを読んで処方するもの | コーチングまたは体組成・ライフスタイルアプリ | 読むのに十分な記録がある場合のみ機能する |\n\n研究で押さえておくべき点:効果をもたらすのは*記録すること*であり、精度ではない。22件のセルフモニタリング研究(うち15件が食事記録)の系統的レビューでは、体重減少との一貫した関連が見られた — 一方で方法論的根拠から証拠の質は弱いと評価されている([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/))。調子の悪い日の不完全な記録は、良い日の完璧な記録より価値がある。\n\n## 写真記録が実際にできること、できないこと\n\n写真ベースの記録は現在このカテゴリーの目玉機能なので、率直な答えに値する。\n\n**得意なこと。** 検索の負担と自炊の壁の大部分を一度に取り除く。混合料理 — シチュー、お弁当、他人の料理 — では、記録するかしないかの違いを生む。それだけで、ほとんどの初心者にとって正しいデフォルトになる。\n\n**できないこと。** 写真を見るモデルは、食品に吸収された油を見ることができず、上層の下にあるものの重さを測ることができず、全脂肪と低脂肪を区別できない。妥当な範囲を数値として返す。数値を測定値ではなく範囲の中点として扱うこと。\n\n**うまく使う方法。** 食べる前に、真上からではなく深さが分かる角度から撮影し、明らかな見落とし — 油、ソース、ご飯の量 — を修正する。修正された写真推定値は、通常、週次トレンドには十分であり、それが重要な唯一の解像度だ。\n\n## 実際に何かを教えてくれる2週間のテスト\n\nレビューではこれに答えられない。なぜなら、あなたの挫折パターンは個人的なものだからだ。代わりに無料トライアル期間中にこれを実行しよう:\n\n1. **最も難しい食事を最初に記録する。** 鶏胸肉ではなく — 混合された、自家製の、重さを測りにくいもの。アプリがそれを処理できれば、簡単な食事は自然に対応できる。\n2. **同じ食事を3日空けて2回記録する。** 2回目のタップ数を数える。劇的に少なくなければ、繰り返しフローが悪く、4週目に挫折する。\n3. **意図的に悪い日を過ごし、それを記録する。** アプリが何をするか観察する。赤いバナーと途切れた連続記録は、まさに重要な日に記録を止めることを教える。\n4. **14日目に、アプリが何を教えたか問う。** 答えが「自分の数値」なら、それは台帳。「何を変えるべきか」なら、それはツールだ。\n\n## 各アプローチが劣る点 — 私たちのものも含めて\n\n- **大規模データベーストラッカー**は広さで勝ち、自炊の壁で負ける。検索が中核的なインタラクションであり、検索が負担だ。\n- **写真優先の記録**は速度で勝ち、精度で負ける。写真によるカロリー精度を主張する者は誰でも過大評価しており、それは私たちも含む。\n- **習慣主導のアプリ**は連続記録を守るが、後で栄養に関する質問に答えるには記録が粗すぎることが多い。\n- **HAVIT**の食品データベースはMyFitnessPalやCronometerより小さい。私たちの写真推定値は推定値だ。臨床食のための検証済み微量栄養素データが必要なら、専用の栄養アプリを使うべきだ — その比較は明白で、私たちはそうでないふりをするつもりはない。\n\n## 結論\n\nまず自分の挫折パターンを診断する。検索の負担、自炊の壁、恥の隙間、無意味感の漂流は4つの異なる問題であり、1つを解決するアプリが別のものを解決するとは限らない。\n\nそして2週間のテストを実行する。これは、このカテゴリーのすべてのレビュー(このレビューも含む)を合わせたものより有用だ。\n\n## なぜHAVIT — 悪い週を乗り越える記録\n\nHAVITは写真記録で自炊の壁を攻略し、ログを読むコーチで無意味感の漂流を攻略する。なぜなら、これらがほとんどの記録習慣を終わらせる2つだからだ。\n\n毎日のチェックインは恥の隙間のために存在する。忘れたい日を記録するより、今日が大変だったとアプリに伝える方が軽いアクションであり、糸を途切れさせない — これは重要だ。なぜなら、スキップした日は通常、複数日の最初の1日だからだ。\n\n食事、水分補給、睡眠、歩数、サイクル、気分、GLP-1薬が1つのルーチンに収まり、週は数字のページではなく今日の1つの具体的なアクションとして返ってくる。臨床ガイダンスは、この種の構造化された行動変容をケアの中核部分として扱い、オプションの追加ではない([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。1,090人のGLP-1ユーザーを対象とした私たち自身の分析では、最も一貫して記録したユーザーが最も強い習慣を構築した([GLP-1習慣レポート](/en/glp-1-habit-report))。\n\nHAVITはウェルネスアプリであり、医療機器ではありません。カロリーと体組成の数値は推定値です。\n\n[HAVITを試す →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "食事記録習慣が途絶える方法",
+          "value": "4つ(検索の負担、自炊の壁、恥の隙間、無意味感の漂流)",
+          "source": "このガイド"
+        },
+        {
+          "label": "セルフモニタリングと体重減少を関連付ける研究",
+          "value": "22件の研究",
+          "source": "Burke et al. 2011, J Am Diet Assoc"
+        },
+        {
+          "label": "挫折パターンを明らかにするトライアル期間",
+          "value": "2週間、悪い日の記録1日を含む",
+          "source": "このガイドのテスト"
+        },
+        {
+          "label": "写真由来のカロリー数値の読み方",
+          "value": "範囲の中点であり、測定値ではない",
+          "source": "画像からのモデル推定"
+        }
+      ],
+      "comparison_table": {
+        "title": "どのアプリタイプがどの挫折パターンを解決するか",
+        "headers": [
+          "あなたの挫折パターン",
+          "解決策",
+          "アプリタイプ",
+          "注意点"
+        ],
+        "rows": [
+          [
+            "検索の負担",
+            "最近の食事のショートカット、バーコード、音声入力",
+            "優れた繰り返しフローを持つ成熟したトラッカー",
+            "繰り返しフローが埋もれていれば、広さは無意味"
+          ],
+          [
+            "自炊の壁",
+            "写真キャプチャ、または保存された複数材料の食事",
+            "写真優先/AIロガー",
+            "数値はモデル推定値であり、測定値ではない"
+          ],
+          [
+            "恥の隙間",
+            "低摩擦の部分記録、赤い判定なし",
+            "習慣主導またはコーチ主導のアプリ",
+            "ゲーミフィケーションがスキップを悪化させるアプリもある"
+          ],
+          [
+            "無意味感の漂流",
+            "ログを読んで処方するもの",
+            "コーチングまたは体組成・ライフスタイルアプリ",
+            "読むのに十分な記録がある場合のみ機能する"
+          ]
+        ],
+        "caption": "これらを混同するから、'MyFitnessPalを使えばいい'というアドバイスは約半分の場合に悪いアドバイスになる。"
+      },
+      "faq": [
+        {
+          "question": "2026年の最適な食事記録アプリは何ですか?",
+          "answer": "前回どのように挫折したかによります。毎食の検索に疲れたなら、強力な繰り返し食事フローを持つトラッカーが必要です。自家製料理が障壁だったなら、写真記録が必要です。悪い日に止めたなら、連続記録を壊さずに部分的なログを受け入れるアプリが必要です。何週間も記録して何を変えるべきか何も教えられなかったなら、台帳ではなくコーチングが必要です。"
+        },
+        {
+          "question": "写真ベースの食事記録は正確ですか?",
+          "answer": "速いですが、推定値です。写真を見るモデルは、吸収された油を見ることができず、上層の下にあるものの重さを測ることができず、全脂肪と低脂肪を区別できません。数値を範囲の中点として読んでください。食べる前に、深さが分かる角度から撮影し、明らかな見落とし — 油、ソース、ご飯の量 — を修正してください。"
+        },
+        {
+          "question": "諦めずに自家製の食事を記録するにはどうすればいいですか?",
+          "answer": "2つの方法が機能します。完成した料理を撮影して推定値を修正するか、レシピを一度作成して単一のエントリとして再利用します。毎回11の材料を検索することが習慣を終わらせます — アプリがそれを強いるなら、それはあなたの食べ方に合わない間違ったアプリです。"
+        },
+        {
+          "question": "食べ過ぎた日も記録すべきですか?",
+          "answer": "特にその日こそ記録すべきです。それらが情報価値の高い日であり、それらをスキップすることで習慣が途切れます。セルフモニタリングは体重減少と最も一貫して関連する行動であり、完全性は精度より重要です。アプリが悪い日を罰のように感じさせるなら、行動ではなくアプリを変えてください。"
+        },
+        {
+          "question": "アプリが自分に合うかどうか知るのにどれくらいかかりますか?",
+          "answer": "2週間です。1日目に最も難しい食事を記録し、3日後に同じ食事を再度記録してタップ数を数え、意図的に1日悪い日を記録し、14日目にアプリが実際に何を教えたか問います。答えが'自分の数値'なら、それは台帳です。'何を変えるべきか'なら、それはツールです。"
+        },
+        {
+          "question": "無料の食事記録アプリで十分ですか?",
+          "answer": "記録には通常十分です。価格ではなく、ペイウォールがどこにあるかを確認してください — あなたの特定の挫折パターンを解決する機能がその後ろにあれば、無料版はトライアルです。このカテゴリーの価格設定は頻繁に変わるので、最新のストア情報を確認してください。"
+        }
+      ],
+      "references": [
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22件の研究、うち15件が食事のセルフモニタリング;著者は証拠レベルを弱いと評価",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
+          "source": "U.S. Preventive Services Task Force, 2018(トピックは更新中);BMI≥30の成人、臨床医による提供",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1習慣レポート2026 — 1,090人のGLP-1ユーザーを対象としたHAVIT内部分析",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "zh-CN": {
+      "title": "2026年最佳饮食记录应用:根据你为何放弃选择,而非功能清单",
+      "short_title": "2026年最佳饮食记录应用",
+      "meta_description": "没有人因为应用不准确而放弃饮食记录。他们在特定时刻放弃。四种失败模式——搜索税、自制餐障碍、羞耻感缺口、无意义漂移——以及解决每种问题的应用类型,外加一个两周测试。",
+      "tldr": "首先诊断你的失败模式:搜索税、自制餐障碍、羞耻感缺口或无意义漂移。每种都由不同的应用类型解决,糟糕日子里的不完美记录比美好日子里的完美记录更有价值。",
+      "body_md": "*诚实披露:HAVIT发布此博客,并开发了下文提到的应用之一。我们已标明它的不足之处。*\n\n没有人因为应用不准确而放弃饮食记录。他们因为某个特定时刻而放弃——晚上9点站在厨房里,疲惫不堪,面对一碗含有六种食材的自制食物,然后决定不值得记录。\n\n因此本指南围绕这些时刻组织,而非功能清单。有四种这样的时刻,它们是记录习惯消亡的四种方式,每一种都由不同类型的应用解决。\n\n## 记录习惯消亡的四种方式\n\n找到你的那一种。它比任何评测更能决定你需要哪个应用。\n\n**1. 搜索税。**每顿饭都从输入开始,然后滚动浏览九个几乎相同的结果,再猜测哪个是对的。每次三十秒,一天四次。这是最常见的一种。\n\n**2. 自制餐障碍。**包装食品记录得很好。然后你做饭,一碗饭变成十一次查找。人们完美记录早餐数月,却从未记录过一次晚餐。\n\n**3. 羞耻感缺口。**这一天过得很糟,你不想看到它被写下来,你跳过记录——而那一天正是习惯破裂的时刻。被跳过的日子恰恰是最有信息量的。\n\n**4. 无意义漂移。**你忠实记录五周,应用报告数字,没有任何东西告诉你该改变什么,这项练习开始感觉像记账。\n\n四个问题,四种不同的答案。混淆它们就是为什么'直接用MyFitnessPal'有一半时间是糟糕建议。\n\n## 哪种应用类型解决哪种问题\n\n*应用特征截至2026年10月——在承诺使用前请查看应用商店的实时列表。*\n\n| 你的失败模式 | 解决方法 | 应用类型 | 注意事项 |\n| --- | --- | --- | --- |\n| 搜索税 | 最近餐食快捷方式、条形码、语音 | 任何具有良好'重复'流程的成熟追踪器 | 如果重复流程被隐藏,广度就毫无用处 |\n| 自制餐障碍 | 照片捕捉,或保存的多成分餐食 | 照片优先/AI记录器 | 数字是模型估算,不是测量值 |\n| 羞耻感缺口 | 低摩擦部分记录,无红色'超预算'判决 | 习惯或教练主导的应用 | 某些应用的游戏化方式使跳过变得更糟 |\n| 无意义漂移 | 能读取日志并给出建议的功能 | 教练或身体成分与生活方式应用 | 仅在你记录足够多时才有效 |\n\n值得记住的研究要点:是*记录*本身,而非精确度,产生效果。对22项自我监测研究(其中15项关于饮食记录)的系统综述发现,它与体重减轻存在一致关联——尽管作者在方法学基础上将证据评为薄弱([Burke等,*Journal of the American Dietetic Association*,2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/))。糟糕日子里的不完美记录比美好日子里的完美记录更有价值。\n\n## 照片记录实际能做什么,不能做什么\n\n基于照片的记录是目前这一类别的头条功能,因此值得直接回答。\n\n**它擅长什么。**它一举消除了搜索税和大部分自制餐障碍。对于混合菜肴——炖菜、打包午餐、别人做的饭——它是记录与不记录的区别。仅此一点就使它成为大多数初学者的正确默认选择。\n\n**它不能做什么。**看照片的模型看不到被食物吸收的油,无法称量顶层下面的东西,也无法区分全脂和低脂。它返回一个以数字形式呈现的合理范围。将数字视为范围的中点,而非测量值。\n\n**如何正确使用。**进食前拍照,从显示深度的角度而非正上方拍摄,并纠正明显的遗漏——油、酱汁、米饭份量。经过纠正的照片估算通常足以显示每周趋势,而这是唯一重要的分辨率。\n\n## 一个真正有用的两周测试\n\n评测无法为你回答这个问题,因为你的失败模式是个人化的。在免费试用期内运行这个测试:\n\n1. **首先记录你最难的一餐。**不是鸡胸肉——而是混合的、自制的、难以称重的那一餐。如果应用能处理那个,简单的餐食就能自行解决。\n2. **间隔三天记录同一餐两次。**第二次计算点击次数。如果没有显著减少,重复流程很糟糕,你会在第四周放弃。\n3. **故意过一个糟糕的日子并记录它。**观察应用的反应。红色横幅和中断的连续记录会教你在恰恰重要的日子停止记录。\n4. **在第十四天,问它告诉了你什么。**如果答案是'我的数字',你有一本账本。如果是'该改变什么',你有一个工具。\n\n## 每种方法的不足之处——包括我们的\n\n- **大型数据库追踪器**在广度上获胜,在自制餐障碍上失败。搜索是它们的核心交互,而搜索就是税收。\n- **照片优先记录**在速度上获胜,在精确度上失败。任何声称照片卡路里准确的人都在过度推销,包括我们。\n- **习惯主导的应用**保护连续记录,但记录往往过于粗略,无法在以后回答营养问题。\n- **HAVIT**的食品数据库比MyFitnessPal或Cronometer小。我们的照片估算是估算值。如果你需要临床饮食的验证微量营养素数据,请使用专门的营养应用——这种比较毫无悬念,我们不会假装不是这样。\n\n## 底线\n\n首先诊断你的失败模式。搜索税、自制餐障碍、羞耻感缺口和无意义漂移是四个不同的问题,解决一个的应用不会解决另一个。\n\n然后运行两周测试。它比包括本文在内的这一类别的所有评测加起来都更有用。\n\n## 为什么选择HAVIT——在糟糕的一周中存活的记录\n\nHAVIT用照片记录攻克自制餐障碍,用读取日志的教练攻克无意义漂移,因为这两个是终结大多数记录习惯的原因。\n\n每日签到的存在是为了羞耻感缺口。告诉应用今天很艰难是比记录你宁愿忘记的一天更轻松的行动,它保持线索不断——这很重要,因为跳过的一天通常是连续几天的第一天。\n\n餐食、水分、睡眠、步数、周期、情绪和GLP-1药物在一个例程中,一周的情况以今天的一个具体行动而非一页数字的形式返回。临床指南将这种结构化行为改变视为护理的核心部分,而非可选额外项([USPSTF,B级](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。在我们对1,090名GLP-1用户的分析中,最一致的记录者建立了最强的习惯([GLP-1习惯报告](/en/glp-1-habit-report))。\n\nHAVIT是健康应用,不是医疗设备。卡路里和身体成分数字是估算值。HAVIT不是医疗诊断工具。\n\n[试用HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "饮食记录习惯消亡的方式",
+          "value": "4种(搜索税、自制餐障碍、羞耻感缺口、无意义漂移)",
+          "source": "本指南"
+        },
+        {
+          "label": "将自我监测与体重减轻联系起来的研究",
+          "value": "22项研究",
+          "source": "Burke等 2011,J Am Diet Assoc"
+        },
+        {
+          "label": "揭示你失败模式的试用时长",
+          "value": "2周,包括一个记录的糟糕日子",
+          "source": "本指南的测试"
+        },
+        {
+          "label": "如何解读照片衍生的卡路里数字",
+          "value": "范围的中点,不是测量值",
+          "source": "来自图像的模型估算"
+        }
+      ],
+      "comparison_table": {
+        "title": "哪种应用类型解决哪种失败模式",
+        "headers": [
+          "你的失败模式",
+          "解决方法",
+          "应用类型",
+          "注意事项"
+        ],
+        "rows": [
+          [
+            "搜索税",
+            "最近餐食快捷方式、条形码、语音",
+            "任何具有良好重复流程的成熟追踪器",
+            "如果重复流程被隐藏,广度就毫无用处"
+          ],
+          [
+            "自制餐障碍",
+            "照片捕捉,或保存的多成分餐食",
+            "照片优先/AI记录器",
+            "数字是模型估算,不是测量值"
+          ],
+          [
+            "羞耻感缺口",
+            "低摩擦部分记录,无红色判决",
+            "习惯或教练主导的应用",
+            "某些应用的游戏化使跳过变得更糟"
+          ],
+          [
+            "无意义漂移",
+            "能读取日志并给出建议的功能",
+            "教练或身体成分与生活方式应用",
+            "仅在你记录足够多时才有效"
+          ]
+        ],
+        "caption": "混淆这些就是为什么'直接用MyFitnessPal'大约有一半时间是糟糕建议。"
+      },
+      "faq": [
+        {
+          "question": "2026年最好的饮食记录应用是什么?",
+          "answer": "这取决于你上次是如何放弃的。如果为每顿饭搜索让你筋疲力尽,你需要一个具有强大重复餐食流程的追踪器。如果家常菜是障碍,你需要照片记录。如果你在糟糕的日子停止,你需要一个接受部分日志而不破坏连续记录的应用。如果你记录了几周但没有任何东西告诉你该改变什么,你需要教练而非账本。"
+        },
+        {
+          "question": "基于照片的餐食记录准确吗?",
+          "answer": "它很快,而且是估算。看照片的模型看不到被吸收的油,无法称量顶层下面的东西,也无法区分全脂和低脂。将数字解读为范围的中点。进食前拍照,从显示深度的角度拍摄,并纠正明显的遗漏——油、酱汁、米饭份量。"
+        },
+        {
+          "question": "如何在不放弃的情况下记录家常菜?",
+          "answer": "两种方法有效。拍摄成品菜并纠正估算,或者构建一次食谱并将其作为单个条目重复使用。每次搜索十一种成分是终结习惯的原因——如果应用让你这样做,它就是你饮食方式的错误应用。"
+        },
+        {
+          "question": "我应该在暴食的日子记录吗?",
+          "answer": "尤其要记录。那些是有信息量的日子,跳过它们是习惯破裂的方式。自我监测是与体重减轻最一致相关的行为,完整性比精确度更重要。如果你的应用让糟糕的日子感觉像惩罚,改变应用而非行为。"
+        },
+        {
+          "question": "需要多长时间才能知道应用是否适合我?",
+          "answer": "两周。第一天记录你最难的一餐,三天后再次记录同一餐并计算点击次数,故意记录一个糟糕的日子,然后在第十四天问应用实际告诉了你什么。如果答案是'我的数字',它是账本;如果是'该改变什么',它是工具。"
+        },
+        {
+          "question": "免费的饮食记录应用够用吗?",
+          "answer": "对于记录,通常够用。检查付费墙的位置而非价格——如果解决你特定失败模式的功能在付费墙后面,免费版就是试用版。这一类别的定价经常变化,所以请查看应用商店的实时列表。"
+        }
+      ],
+      "references": [
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association,2011——22项研究,15项关于饮食自我监测;作者将证据水平评为薄弱",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions——B级",
+          "source": "U.S. Preventive Services Task Force,2018(主题更新中);BMI≥30的成人,由临床医生提供",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026——HAVIT对1,090名GLP-1用户的内部分析",
+          "source": "Havit Inc.,2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "zh-TW": {
+      "title": "2026 年最佳飲食記錄 App:依你放棄的原因選擇,而非功能清單",
+      "short_title": "2026 年最佳飲食記錄 App",
+      "meta_description": "沒有人因為 App 不準確而放棄飲食記錄。他們在特定時刻放棄。四種失敗模式——搜尋稅、自煮牆、羞恥落差、無意義漂移——以及解決各自問題的 App 類型,加上兩週測試法。",
+      "tldr": "先診斷你的失敗模式:搜尋稅、自煮牆、羞恥落差或無意義漂移。每一種都由不同的 App 類型解決,而糟糕日子裡的不完美記錄,比美好日子裡的完美記錄更有價值。",
+      "body_md": "*誠實揭露:HAVIT 發布此部落格,並製作下列其中一款 App。我們已標明它在哪些方面不如其他選擇。*\n\n沒有人因為 App 不準確而放棄飲食記錄。他們放棄是因為某個特定時刻——晚上 9 點站在廚房裡,疲憊不堪,面對一碗含有六種食材的自製料理,然後決定「不值得」。\n\n所以本指南圍繞這些時刻組織,而非功能清單。有四種這樣的時刻,它們是記錄習慣死亡的四種方式,每一種都由不同類型的 App 解決。\n\n## 記錄習慣死亡的四種方式\n\n找出你的模式。它比任何評論更能決定你需要哪款 App。\n\n**1. 搜尋稅。** 每餐都從打字開始,然後滾動九個幾乎相同的結果,再猜測哪個是對的。每次三十秒,一天四次。這是最常見的一種。\n\n**2. 自煮牆。** 包裝食品記錄得很好。然後你開始烹飪,一碗飯變成十一次查找。人們可以完美記錄早餐數月,卻從未記錄過一次晚餐。\n\n**3. 羞恥落差。** 這一天過得很糟,你不想看到它被寫下來,於是跳過記錄——而那正是習慣斷裂的時刻。被跳過的日子恰恰是最有資訊價值的。\n\n**4. 無意義漂移。** 你忠實記錄了五週,App 回報數字,沒有任何東西告訴你該改變什麼,這項練習開始感覺像記帳。\n\n四個問題,四種不同答案。混淆它們就是為什麼「直接用 MyFitnessPal」有一半時間是糟糕建議。\n\n## 哪種 App 類型解決哪種問題\n\n*App 特性截至 2026 年 10 月——在承諾使用前請查看即時商店列表。*\n\n| 你的失敗模式 | 解決方法 | App 類型 | 注意事項 |\n| --- | --- | --- | --- |\n| 搜尋稅 | 近期餐點捷徑、條碼、語音 | 任何具有良好'重複'流程的成熟追蹤器 | 如果重複流程被埋藏,廣度再大也沒用 |\n| 自煮牆 | 照片擷取,或儲存的多成分餐點 | 照片優先 / AI 記錄器 | 數字是模型估計,不是測量值 |\n| 羞恥落差 | 低摩擦部分記錄,無紅色'超出預算'判決 | 習慣或教練導向 App | 某些 App 的遊戲化方式讓跳過變得更糟 |\n| 無意義漂移 | 能讀取記錄並開處方的功能 | 教練或身體組成與生活方式 App | 只有在你記錄足夠多時才有效 |\n\n值得記住的研究要點:是*記錄行為*,而非精確度,產生效果。一項針對 22 項自我監測研究(其中 15 項關於飲食記錄)的系統性回顧發現,與體重減輕有一致的關聯——同時在方法學基礎上將證據評為薄弱([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/))。糟糕日子裡的不完美記錄,比美好日子裡的完美記錄更有價值。\n\n## 照片記錄實際能做什麼、不能做什麼\n\n基於照片的記錄是目前這個類別的頭條功能,所以值得直接回答。\n\n**它做得好的地方。** 它一次移除搜尋稅和大部分自煮牆。對於混合菜餚——燉菜、便當、別人做的料理——它是記錄與不記錄的差別。光這一點就使它成為大多數初學者的正確預設選擇。\n\n**它做不到的地方。** 看著照片的模型無法看到被食物吸收的油、無法稱量頂層下方的東西,也無法分辨全脂與低脂。它返回一個以數字呈現的合理範圍。將數字視為範圍的中點,而非測量值。\n\n**如何善用它。** 在進食前拍照,從顯示深度的角度而非正上方,並修正明顯的遺漏——油、醬汁、米飯份量。經過修正的照片估計通常足以顯示每週趨勢,而那是唯一重要的解析度。\n\n## 真正能告訴你答案的兩週測試\n\n評論無法為你回答這個問題,因為你的失敗模式是個人的。在免費試用期內執行這個測試:\n\n1. **先記錄你最難的一餐。** 不是雞胸肉——而是混合的、自製的、難以稱重的那一餐。如果 App 能處理那個,簡單的餐點就能自行解決。\n2. **相隔三天記錄同一餐兩次。** 第二次計算點擊次數。如果沒有顯著減少,重複流程很糟,你會在第四週放棄。\n3. **刻意過一個糟糕的日子並記錄它。** 觀察 App 做什麼。紅色橫幅和中斷的連續記錄會教你在恰恰重要的日子停止記錄。\n4. **在第十四天,問它告訴了你什麼。** 如果答案是'我的數字',你有一本帳簿。如果是'該改變什麼',你有一個工具。\n\n## 每種方法的不足之處——包括我們的\n\n- **大型資料庫追蹤器**在廣度上獲勝,在自煮牆上失分。搜尋是它們的核心互動,而搜尋就是稅。\n- **照片優先記錄**在速度上獲勝,在精確度上失分。任何聲稱照片卡路里準確的人都在過度推銷,包括我們。\n- **習慣導向 App**保護連續記錄,但記錄往往太粗略,無法在之後回答營養問題。\n- **HAVIT**的食物資料庫比 MyFitnessPal 或 Cronometer 小。我們的照片估計就是估計。如果你需要經過驗證的微量營養素資料用於臨床飲食,請使用專門的營養 App——那個比較並不接近,我們不會假裝如此。\n\n## 結論\n\n先診斷你的失敗模式。搜尋稅、自煮牆、羞恥落差和無意義漂移是四個不同的問題,解決其中一個的 App 不會解決另一個。\n\n然後執行兩週測試。它比這個類別的所有評論加起來都更有用,包括這一篇。\n\n## 為什麼選擇 HAVIT——在糟糕的一週中存活的記錄\n\nHAVIT 用照片記錄攻擊自煮牆,用讀取記錄的教練攻擊無意義漂移,因為這兩者是終結大多數記錄習慣的原因。\n\n每日簽到的存在是為了羞恥落差。告訴 App 今天很艱難,是比記錄你寧願忘記的一天更輕的行動,而且它保持線索不中斷——這很重要,因為跳過的一天通常是連續數天的第一天。\n\n餐點、水分、睡眠、步數、週期、情緒和 GLP-1 藥物位於一個例行程序中,而這一週以今天的一個具體行動回饋,而非一頁數字。臨床指引將這種結構化行為改變視為照護的核心部分,而非可選附加項目([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。在我們自己對 1,090 名 GLP-1 使用者的分析中,最一致的記錄者建立了最強的習慣([GLP-1 習慣報告](/en/glp-1-habit-report))。\n\nHAVIT 是健康 App,不是醫療設備。卡路里和身體組成數字是估計值。HAVIT 不是醫療診斷工具。\n\n[試用 HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "飲食記錄習慣死亡的方式",
+          "value": "4 種(搜尋稅、自煮牆、羞恥落差、無意義漂移)",
+          "source": "本指南"
+        },
+        {
+          "label": "將自我監測與體重減輕連結的研究",
+          "value": "22 項研究",
+          "source": "Burke et al. 2011, J Am Diet Assoc"
+        },
+        {
+          "label": "揭示你失敗模式的試用長度",
+          "value": "2 週,包含一個記錄的糟糕日子",
+          "source": "本指南的測試"
+        },
+        {
+          "label": "如何解讀照片衍生的卡路里數字",
+          "value": "範圍的中點,不是測量值",
+          "source": "來自影像的模型估計"
+        }
+      ],
+      "comparison_table": {
+        "title": "哪種 App 類型解決哪種失敗模式",
+        "headers": [
+          "你的失敗模式",
+          "解決方法",
+          "App 類型",
+          "注意事項"
+        ],
+        "rows": [
+          [
+            "搜尋稅",
+            "近期餐點捷徑、條碼、語音",
+            "任何具有良好重複流程的成熟追蹤器",
+            "如果重複流程被埋藏,廣度再大也沒用"
+          ],
+          [
+            "自煮牆",
+            "照片擷取,或儲存的多成分餐點",
+            "照片優先 / AI 記錄器",
+            "數字是模型估計,不是測量值"
+          ],
+          [
+            "羞恥落差",
+            "低摩擦部分記錄,無紅色判決",
+            "習慣或教練導向 App",
+            "某些 App 的遊戲化讓跳過變得更糟"
+          ],
+          [
+            "無意義漂移",
+            "能讀取記錄並開處方的功能",
+            "教練或身體組成與生活方式 App",
+            "只有在你記錄足夠多時才有效"
+          ]
+        ],
+        "caption": "混淆這些就是為什麼'直接用 MyFitnessPal'有大約一半時間是糟糕建議。"
+      },
+      "faq": [
+        {
+          "question": "2026 年最佳飲食記錄 App 是什麼?",
+          "answer": "取決於你上次如何放棄。如果為每餐搜尋讓你疲憊,你需要具有強大重複餐點流程的追蹤器。如果自煮食物是阻礙,你需要照片記錄。如果你在糟糕的日子停止,你需要一個接受部分記錄而不中斷連續記錄的 App。如果你記錄了數週卻沒有任何東西告訴你該改變什麼,你需要教練而非帳簿。"
+        },
+        {
+          "question": "基於照片的餐點記錄準確嗎?",
+          "answer": "它很快,而且是估計。看著照片的模型無法看到被吸收的油、無法稱量頂層下方的東西,也無法分辨全脂與低脂。將數字解讀為範圍的中點。在進食前拍照,從顯示深度的角度,並修正明顯的遺漏——油、醬汁、米飯份量。"
+        },
+        {
+          "question": "如何記錄自煮餐點而不放棄?",
+          "answer": "兩種選項有效。拍攝完成的菜餚並修正估計,或建立食譜一次並作為單一條目重複使用。每次搜尋十一種食材是終結習慣的原因——如果一個 App 讓你這樣做,它對你的飲食方式來說是錯誤的 App。"
+        },
+        {
+          "question": "我應該在暴食的日子記錄嗎?",
+          "answer": "尤其是那時候。那些是有資訊價值的日子,跳過它們是習慣斷裂的方式。自我監測是與體重減輕最一致相關的行為,完整性比精確度更重要。如果你的 App 讓糟糕的日子感覺像懲罰,改變 App 而非行為。"
+        },
+        {
+          "question": "需要多長時間才能知道一個 App 是否適合我?",
+          "answer": "兩週。第一天記錄你最難的一餐,三天後再次記錄同一餐並計算點擊次數,刻意記錄一個糟糕的日子,然後在第十四天問 App 實際告訴了你什麼。如果答案是'我的數字',它是帳簿;如果是'該改變什麼',它是工具。"
+        },
+        {
+          "question": "免費的飲食記錄 App 足夠嗎?",
+          "answer": "對於記錄,通常是的。檢查付費牆在哪裡而非價格——如果解決你特定失敗模式的功能在付費牆後面,免費版就是試用版。這個類別的定價經常變化,所以請查看即時商店列表。"
+        }
+      ],
+      "references": [
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 項研究,15 項關於飲食自我監測;作者將證據等級評為薄弱",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
+          "source": "U.S. Preventive Services Task Force, 2018(主題更新中);BMI ≥30 的成人,由臨床醫師提供",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — HAVIT 對 1,090 名 GLP-1 使用者的內部分析",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "es": {
+      "title": "Mejores Apps para Registrar Comidas en 2026: Elige Según Cómo Abandonas, No por las Funciones",
+      "short_title": "Mejores Apps de Registro de Comidas 2026",
+      "meta_description": "Nadie abandona el registro de comidas porque la app era imprecisa. Lo abandonan en un momento específico. Cuatro modos de falla — el impuesto de búsqueda, la barrera casera, la brecha de vergüenza, la deriva sin sentido — y el tipo de app que soluciona cada uno, más una prueba de dos semanas.",
+      "tldr": "Diagnostica primero tu modo de falla: el impuesto de búsqueda, la barrera casera, la brecha de vergüenza o la deriva sin sentido. Cada uno se resuelve con un tipo diferente de app, y un registro imperfecto en un mal día vale más que uno perfecto en un buen día.",
+      "body_md": "*Divulgación honesta: HAVIT publica este blog y desarrolla una de las apps mencionadas. Hemos indicado dónde pierde.*\n\nNadie abandona el registro de comidas porque la app era imprecisa. Lo abandonan por un momento específico — parado en la cocina a las 9 de la noche, cansado, frente a un plato de algo casero con seis ingredientes, y decidiendo que no vale la pena.\n\nAsí que esta guía está organizada alrededor de esos momentos en lugar de listas de funciones. Hay cuatro, son las cuatro formas en que muere un hábito de registro, y cada una se resuelve con un tipo diferente de app.\n\n## Las cuatro formas en que muere el registro\n\nEncuentra la tuya. Determina qué app necesitas más que cualquier reseña.\n\n**1. El impuesto de búsqueda.** Cada comida comienza escribiendo, luego desplazándote por nueve resultados casi idénticos, luego adivinando cuál es el correcto. Treinta segundos cada vez, cuatro veces al día. Este es el más común.\n\n**2. La barrera casera.** Los alimentos empaquetados se registran bien. Luego cocinas, y un plato se convierte en once búsquedas. La gente registra el desayuno perfectamente durante meses y nunca registra la cena ni una vez.\n\n**3. La brecha de vergüenza.** El día va mal, no quieres verlo por escrito, te saltas el registro — y ese es el día en que se rompe el hábito. Los días omitidos son precisamente los informativos.\n\n**4. La deriva sin sentido.** Registras fielmente durante cinco semanas, la app reporta números, nada te dice qué cambiar, y el ejercicio empieza a sentirse como contabilidad.\n\nCuatro problemas, cuatro respuestas diferentes. Mezclarlos es por qué 'solo usa MyFitnessPal' es mal consejo la mitad del tiempo.\n\n## Qué tipo de app resuelve qué\n\n*Las características de las apps son a octubre de 2026 — verifica la tienda en vivo antes de comprometerte.*\n\n| Tu modo de falla | Qué lo soluciona | Tipo de app | Ten cuidado con |\n| --- | --- | --- | --- |\n| El impuesto de búsqueda | Atajos de comidas recientes, código de barras, voz | Cualquier rastreador maduro con buen flujo de 'repetir' | La amplitud es inútil si el flujo de repetición está enterrado |\n| La barrera casera | Captura de foto, o comidas guardadas con múltiples ingredientes | Registradores con foto primero / IA | La cifra es una estimación del modelo, no una lectura |\n| La brecha de vergüenza | Registro parcial de baja fricción, sin veredictos rojos de 'excediste el presupuesto' | Apps guiadas por hábitos o coach | Algunas apps gamifican de forma que saltarse empeora |\n| La deriva sin sentido | Algo que lee el registro y prescribe | Apps de coaching o composición-y-estilo de vida | Solo funciona si registraste lo suficiente para leer |\n\nEl punto de investigación que vale la pena retener: es el *registro*, no la precisión, lo que lleva el efecto. Una revisión sistemática de 22 estudios de automonitoreo, 15 de ellos sobre registro de alimentos, encontró una asociación consistente con pérdida de peso — aunque calificó la evidencia como débil en términos metodológicos ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)). Un registro imperfecto en un mal día vale más que uno perfecto en un buen día.\n\n## Qué hace realmente el registro por foto, y qué no\n\nEl registro basado en fotos es la función destacada de esta categoría ahora mismo, así que merece una respuesta directa.\n\n**Qué hace bien.** Elimina el impuesto de búsqueda y la mayor parte de la barrera casera de un solo movimiento. Para platos mixtos — un guiso, un almuerzo empacado, la comida de otra persona — es la diferencia entre registrar y no registrar. Solo eso lo convierte en la opción predeterminada correcta para la mayoría de las personas que comienzan.\n\n**Qué no puede hacer.** Un modelo mirando una fotografía no puede ver aceite absorbido en la comida, no puede pesar lo que está bajo la capa superior, y no puede distinguir entre entero y reducido en grasa. Devuelve un rango plausible presentado como un número. Trata el número como el punto medio de un rango, no como una medición.\n\n**Cómo usarlo bien.** Fotografía antes de comer, desde un ángulo que muestre profundidad en lugar de directamente desde arriba, y corrige los errores obvios — el aceite, la salsa, la porción de arroz. Una estimación fotográfica corregida suele ser suficientemente buena para una tendencia semanal, que es la única resolución que importa.\n\n## Una prueba de dos semanas que realmente te dice algo\n\nLas reseñas no pueden responder esto por ti porque tu modo de falla es personal. Ejecuta esto en su lugar, dentro de la prueba gratuita:\n\n1. **Registra tu comida más difícil primero.** No una pechuga de pollo — la mixta, casera, difícil de pesar. Si la app maneja eso, las comidas fáciles se cuidan solas.\n2. **Registra la misma comida dos veces, con tres días de diferencia.** Cuenta los toques la segunda vez. Si no son dramáticamente menos, el flujo de repetición es malo y abandonarás en la semana cuatro.\n3. **Deliberadamente ten un mal día y regístralo.** Observa qué hace la app. Un banner rojo y una racha rota te enseña a dejar de registrar exactamente en los días que importan.\n4. **En el día catorce, pregunta qué te dijo.** Si la respuesta es 'mis números', tienes un libro mayor. Si es 'qué cambiar', tienes una herramienta.\n\n## Dónde falla cada enfoque — incluyendo el nuestro\n\n- **Rastreadores de gran base de datos** ganan en amplitud y pierden en la barrera casera. Buscar es su interacción central, y buscar es el impuesto.\n- **Registro con foto primero** gana en velocidad y pierde en precisión. Cualquiera que afirme precisión calórica fotográfica está exagerando, y eso nos incluye.\n- **Apps guiadas por hábitos** protegen la racha pero a menudo registran de forma demasiado general para responder una pregunta nutricional después.\n- **HAVIT** tiene una base de datos de alimentos más pequeña que MyFitnessPal o Cronometer. Nuestras estimaciones fotográficas son estimaciones. Si necesitas datos verificados de micronutrientes para una dieta clínica, usa una app de nutrición dedicada — esa comparación no es cercana y no vamos a pretender lo contrario.\n\n## La conclusión\n\nDiagnostica tu modo de falla primero. El impuesto de búsqueda, la barrera casera, la brecha de vergüenza y la deriva sin sentido son cuatro problemas diferentes, y la app que resuelve uno no resolverá otro.\n\nLuego ejecuta la prueba de dos semanas. Es más útil que todas las reseñas de esta categoría combinadas, incluyendo esta.\n\n## Por qué HAVIT — registro que sobrevive una mala semana\n\nHAVIT ataca la barrera casera con registro fotográfico y la deriva sin sentido con un coach que lee el registro, porque esos son los dos que terminan la mayoría de los hábitos de registro.\n\nEl check-in diario existe para la brecha de vergüenza. Decirle a la app que hoy fue difícil es una acción más ligera que registrar un día que preferirías olvidar, y mantiene el hilo intacto — lo cual importa, porque un día omitido suele ser el primero de varios.\n\nComidas, hidratación, sueño, pasos, ciclo, estado de ánimo y medicación GLP-1 están en una rutina, y la semana regresa como una acción concreta para hoy en lugar de una página de números. La orientación clínica trata este tipo de cambio de comportamiento estructurado como una parte central del cuidado, no como un extra opcional ([USPSTF, Grado B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). En nuestro propio análisis de 1,090 usuarios de GLP-1, los registradores más consistentes construyeron los hábitos más fuertes ([Reporte de Hábitos GLP-1](/en/glp-1-habit-report)).\n\nHAVIT es una app de bienestar, no un dispositivo médico. Las cifras de calorías y composición corporal son estimaciones. HAVIT no es una herramienta de diagnóstico médico.\n\n[Prueba HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "Formas en que muere un hábito de registro de comidas",
+          "value": "4 (impuesto de búsqueda, barrera casera, brecha de vergüenza, deriva sin sentido)",
+          "source": "Esta guía"
+        },
+        {
+          "label": "Estudios que vinculan el automonitoreo con pérdida de peso",
+          "value": "22 estudios",
+          "source": "Burke et al. 2011, J Am Diet Assoc"
+        },
+        {
+          "label": "Duración de prueba que revela tu modo de falla",
+          "value": "2 semanas, incl. un mal día registrado",
+          "source": "Prueba de esta guía"
+        },
+        {
+          "label": "Cómo leer una cifra calórica derivada de foto",
+          "value": "Punto medio de un rango, no una medición",
+          "source": "Estimaciones del modelo a partir de imágenes"
+        }
+      ],
+      "comparison_table": {
+        "title": "Qué tipo de app resuelve qué modo de falla",
+        "headers": [
+          "Tu modo de falla",
+          "Qué lo soluciona",
+          "Tipo de app",
+          "Ten cuidado con"
+        ],
+        "rows": [
+          [
+            "El impuesto de búsqueda",
+            "Atajos de comidas recientes, código de barras, voz",
+            "Cualquier rastreador maduro con buen flujo de repetición",
+            "La amplitud es inútil si el flujo de repetición está enterrado"
+          ],
+          [
+            "La barrera casera",
+            "Captura de foto, o comidas guardadas con múltiples ingredientes",
+            "Registradores con foto primero / IA",
+            "La cifra es una estimación del modelo, no una lectura"
+          ],
+          [
+            "La brecha de vergüenza",
+            "Registro parcial de baja fricción, sin veredictos rojos",
+            "Apps guiadas por hábitos o coach",
+            "Algunas apps gamifican de forma que saltarse duele más"
+          ],
+          [
+            "La deriva sin sentido",
+            "Algo que lee el registro y prescribe",
+            "Apps de coaching o composición-y-estilo de vida",
+            "Solo funciona si registraste lo suficiente para leer"
+          ]
+        ],
+        "caption": "Mezclar estos es por qué 'solo usa MyFitnessPal' es mal consejo aproximadamente la mitad del tiempo."
+      },
+      "faq": [
+        {
+          "question": "¿Cuál es la mejor app para registrar comidas en 2026?",
+          "answer": "Depende de cómo abandonaste la última vez. Si buscar cada comida te agotó, necesitas un rastreador con un flujo fuerte de repetir comidas. Si la comida casera fue el bloqueador, necesitas registro fotográfico. Si te detuviste en los malos días, necesitas una app que acepte un registro parcial sin romper una racha. Si registraste durante semanas y nada te dijo qué cambiar, necesitas coaching en lugar de un libro mayor."
+        },
+        {
+          "question": "¿Es preciso el registro de comidas basado en fotos?",
+          "answer": "Es rápido, y es una estimación. Un modelo mirando una fotografía no puede ver aceite absorbido, no puede pesar lo que está bajo la capa superior, y no puede distinguir entre entero y reducido en grasa. Lee la cifra como el punto medio de un rango. Fotografía antes de comer, desde un ángulo que muestre profundidad, y corrige los errores obvios — aceite, salsa, porción de arroz."
+        },
+        {
+          "question": "¿Cómo registro comidas caseras sin rendirme?",
+          "answer": "Dos opciones funcionan. Fotografía el plato terminado y corrige la estimación, o construye la receta una vez y reutilízala como una sola entrada. Buscar once ingredientes cada vez es lo que termina el hábito — si una app te hace hacer eso, es la app equivocada para cómo comes."
+        },
+        {
+          "question": "¿Debo registrar en días cuando como en exceso?",
+          "answer": "Especialmente entonces. Esos son los días informativos, y saltarlos es cómo se rompe el hábito. El automonitoreo es el comportamiento más consistentemente vinculado con pérdida de peso, y la completitud importa más que la precisión. Si tu app hace que un mal día se sienta como un castigo, cambia la app en lugar del comportamiento."
+        },
+        {
+          "question": "¿Cuánto tiempo toma saber si una app me conviene?",
+          "answer": "Dos semanas. Registra tu comida más difícil el día uno, registra la misma comida nuevamente tres días después y cuenta los toques, deliberadamente registra un mal día, luego en el día catorce pregunta qué te dijo realmente la app. Si la respuesta es 'mis números', es un libro mayor; si es 'qué cambiar', es una herramienta."
+        },
+        {
+          "question": "¿Es suficiente una app gratuita de registro de comidas?",
+          "answer": "Para registrar, usualmente sí. Verifica dónde está el muro de pago en lugar del precio — si la función que resuelve tu modo de falla particular está detrás de él, el nivel gratuito es una prueba. Los precios en esta categoría cambian a menudo, así que verifica la tienda en vivo."
+        }
+      ],
+      "references": [
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 estudios, 15 sobre automonitoreo dietético; los autores califican el nivel de evidencia como débil",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grado B",
+          "source": "U.S. Preventive Services Task Force, 2018 (tema en actualización); adultos con IMC ≥30, entregado por clínico",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — análisis interno de HAVIT de 1,090 usuarios de GLP-1",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "pt-BR": {
+      "title": "Melhores Apps de Registro Alimentar em 2026: Escolha Pelo Motivo de Desistência, Não Pelos Recursos",
+      "short_title": "Melhores Apps de Registro Alimentar 2026",
+      "meta_description": "Ninguém desiste do registro alimentar porque o app era impreciso. Eles desistem em um momento específico. Quatro modos de falha — o imposto da busca, a barreira do caseiro, a lacuna da vergonha, a deriva da inutilidade — e o tipo de app que resolve cada um, mais um teste de duas semanas.",
+      "tldr": "Diagnostique primeiro seu modo de falha: o imposto da busca, a barreira do caseiro, a lacuna da vergonha ou a deriva da inutilidade. Cada um é resolvido por um tipo diferente de app, e um registro imperfeito em um dia ruim vale mais do que um perfeito em um dia bom.",
+      "body_md": "*Divulgação honesta: HAVIT publica este blog e faz um dos apps abaixo. Indicamos onde ele perde.*\n\nNinguém desiste do registro alimentar porque o app era impreciso. Eles desistem por causa de um momento específico — parado na cozinha às 21h, cansado, diante de uma tigela de algo caseiro com seis ingredientes, e decidindo que não vale a pena.\n\nEntão este guia é organizado em torno desses momentos, e não em torno de listas de recursos. Existem quatro deles, são as quatro maneiras pelas quais um hábito de registro morre, e cada um é resolvido por um tipo diferente de app.\n\n## As quatro maneiras pelas quais o registro morre\n\nEncontre a sua. Ela determina qual app você precisa mais do que qualquer avaliação.\n\n**1. O imposto da busca.** Cada refeição começa com digitação, depois rolando nove resultados quase idênticos, depois adivinhando qual é o certo. Trinta segundos cada vez, quatro vezes por dia. Este é o mais comum.\n\n**2. A barreira do caseiro.** Comida embalada registra bem. Então você cozinha, e uma tigela se torna onze buscas. As pessoas registram o café da manhã perfeitamente por meses e nunca registram o jantar uma única vez.\n\n**3. A lacuna da vergonha.** O dia vai mal, você não quer ver isso escrito, você pula o registro — e esse é o dia em que o hábito quebra. Os dias pulados são precisamente os informativos.\n\n**4. A deriva da inutilidade.** Você registra fielmente por cinco semanas, o app reporta números de volta, nada te diz o que mudar, e o exercício começa a parecer contabilidade.\n\nQuatro problemas, quatro respostas diferentes. Misturá-los é por isso que 'apenas use MyFitnessPal' é um mau conselho metade das vezes.\n\n## Qual tipo de app resolve qual\n\n*As características dos apps são de outubro de 2026 — verifique a listagem ao vivo na loja antes de se comprometer.*\n\n| Seu modo de falha | O que resolve | Tipo de app | Cuidado com |\n| --- | --- | --- | --- |\n| O imposto da busca | Atalhos de refeições recentes, código de barras, voz | Qualquer rastreador maduro com bom fluxo de 'repetir' | Amplitude é inútil se o fluxo de repetição está enterrado |\n| A barreira do caseiro | Captura por foto, ou refeições salvas com múltiplos ingredientes | Registradores com foto em primeiro lugar / IA | O valor é uma estimativa de modelo, não uma leitura |\n| A lacuna da vergonha | Registro parcial de baixo atrito, sem vereditos vermelhos de 'acima do orçamento' | Apps orientados por hábito ou coach | Alguns apps gamificam de forma que pular piora |\n| A deriva da inutilidade | Algo que lê o registro e prescreve | Apps de coaching ou composição-e-estilo-de-vida | Só funciona se você registrou o suficiente para ler |\n\nO ponto de pesquisa que vale a pena reter: é o *registro*, não a precisão, que carrega o efeito. Uma revisão sistemática de 22 estudos de automonitoramento, 15 deles sobre registro alimentar, encontrou uma associação consistente com perda de peso — enquanto classificava a evidência como fraca em bases metodológicas ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)). Um registro imperfeito em um dia ruim vale mais do que um registro perfeito em um dia bom.\n\n## O que o registro por foto realmente faz, e não faz\n\nO registro baseado em foto é o recurso de destaque desta categoria agora, então merece uma resposta direta.\n\n**O que faz bem.** Remove o imposto da busca e a maior parte da barreira do caseiro em um movimento. Para pratos mistos — um ensopado, uma marmita, a comida de outra pessoa — é a diferença entre registrar e não registrar. Só isso já o torna a opção padrão certa para a maioria das pessoas começando.\n\n**O que não pode fazer.** Um modelo olhando para uma fotografia não pode ver óleo absorvido na comida, não pode pesar o que está sob a camada superior, e não pode distinguir integral de reduzido em gordura. Ele retorna uma faixa plausível apresentada como um número. Trate o número como o ponto médio de uma faixa, não uma medição.\n\n**Como usar bem.** Fotografe antes de comer, de um ângulo que mostre profundidade em vez de diretamente de cima, e corrija os erros óbvios — o óleo, o molho, a porção de arroz. Uma estimativa de foto corrigida geralmente é boa o suficiente para uma tendência semanal, que é a única resolução que importa.\n\n## Um teste de duas semanas que realmente te diz algo\n\nAvaliações não podem responder isso por você porque seu modo de falha é pessoal. Execute isto em vez disso, dentro do período de teste gratuito:\n\n1. **Registre sua refeição mais difícil primeiro.** Não um peito de frango — a misturada, caseira, difícil de pesar. Se o app lida com isso, as refeições fáceis se resolvem sozinhas.\n2. **Registre a mesma refeição duas vezes, com três dias de intervalo.** Conte os toques na segunda vez. Se não for dramaticamente menos, o fluxo de repetição é ruim e você vai desistir na semana quatro.\n3. **Deliberadamente tenha um dia ruim e registre-o.** Observe o que o app faz. Um banner vermelho e uma sequência quebrada te ensina a parar de registrar exatamente nos dias que importam.\n4. **No dia quatorze, pergunte o que ele te disse.** Se a resposta for 'meus números', você tem um livro-razão. Se for 'o que mudar', você tem uma ferramenta.\n\n## Onde cada abordagem falha — incluindo a nossa\n\n- **Rastreadores de grande banco de dados** ganham em amplitude e perdem na barreira do caseiro. Buscar é sua interação central, e buscar é o imposto.\n- **Registro com foto em primeiro lugar** ganha em velocidade e perde em precisão. Qualquer um alegando precisão calórica fotográfica está exagerando, e isso nos inclui.\n- **Apps orientados por hábito** protegem a sequência mas frequentemente registram de forma muito grosseira para responder uma questão nutricional depois.\n- **HAVIT** tem um banco de dados de alimentos menor que MyFitnessPal ou Cronometer. Nossas estimativas por foto são estimativas. Se você precisa de dados verificados de micronutrientes para uma dieta clínica, use um app de nutrição dedicado — essa comparação não é próxima e não vamos fingir o contrário.\n\n## A linha de fundo\n\nDiagnostique seu modo de falha primeiro. O imposto da busca, a barreira do caseiro, a lacuna da vergonha e a deriva da inutilidade são quatro problemas diferentes, e o app que resolve um não resolverá outro.\n\nEntão execute o teste de duas semanas. É mais útil do que todas as avaliações desta categoria combinadas, incluindo esta.\n\n## Por que HAVIT — registro que sobrevive a uma semana ruim\n\nHAVIT ataca a barreira do caseiro com registro por foto e a deriva da inutilidade com um coach que lê o registro, porque esses são os dois que terminam a maioria dos hábitos de registro.\n\nO check-in diário existe para a lacuna da vergonha. Dizer ao app que hoje foi difícil é uma ação mais leve do que registrar um dia que você preferiria esquecer, e mantém o fio ininterrupto — o que importa, porque um dia pulado geralmente é o primeiro de vários.\n\nRefeições, hidratação, sono, passos, ciclo, humor e medicação GLP-1 ficam em uma rotina, e a semana volta como uma ação concreta para hoje em vez de uma página de números. Orientação clínica trata este tipo de mudança de comportamento estruturada como parte central do cuidado, não um extra opcional ([USPSTF, Grau B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Em nossa própria análise de 1.090 usuários de GLP-1, os registradores mais consistentes construíram os hábitos mais fortes ([Relatório de Hábitos GLP-1](/en/glp-1-habit-report)).\n\nHAVIT não é uma ferramenta de diagnóstico médico. HAVIT é um app de bem-estar, não um dispositivo médico. Valores de calorias e composição corporal são estimativas.\n\n[Experimente HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "Maneiras pelas quais um hábito de registro alimentar morre",
+          "value": "4 (imposto da busca, barreira do caseiro, lacuna da vergonha, deriva da inutilidade)",
+          "source": "Este guia"
+        },
+        {
+          "label": "Estudos ligando automonitoramento à perda de peso",
+          "value": "22 estudos",
+          "source": "Burke et al. 2011, J Am Diet Assoc"
+        },
+        {
+          "label": "Duração do teste que revela seu modo de falha",
+          "value": "2 semanas, incl. um dia ruim registrado",
+          "source": "Teste deste guia"
+        },
+        {
+          "label": "Como ler um valor calórico derivado de foto",
+          "value": "Ponto médio de uma faixa, não uma medição",
+          "source": "Estimativas de modelo a partir de imagens"
+        }
+      ],
+      "comparison_table": {
+        "title": "Qual tipo de app resolve qual modo de falha",
+        "headers": [
+          "Seu modo de falha",
+          "O que resolve",
+          "Tipo de app",
+          "Cuidado com"
+        ],
+        "rows": [
+          [
+            "O imposto da busca",
+            "Atalhos de refeições recentes, código de barras, voz",
+            "Qualquer rastreador maduro com bom fluxo de repetição",
+            "Amplitude é inútil se o fluxo de repetição está enterrado"
+          ],
+          [
+            "A barreira do caseiro",
+            "Captura por foto, ou refeições salvas com múltiplos ingredientes",
+            "Registradores com foto em primeiro lugar / IA",
+            "O valor é uma estimativa de modelo, não uma leitura"
+          ],
+          [
+            "A lacuna da vergonha",
+            "Registro parcial de baixo atrito, sem vereditos vermelhos",
+            "Apps orientados por hábito ou coach",
+            "Alguns apps gamificam de forma que pular piora"
+          ],
+          [
+            "A deriva da inutilidade",
+            "Algo que lê o registro e prescreve",
+            "Apps de coaching ou composição-e-estilo-de-vida",
+            "Só funciona se você registrou o suficiente para ler"
+          ]
+        ],
+        "caption": "Misturar esses é por isso que 'apenas use MyFitnessPal' é um mau conselho cerca de metade das vezes."
+      },
+      "faq": [
+        {
+          "question": "Qual é o melhor app de registro alimentar em 2026?",
+          "answer": "Depende de como você desistiu da última vez. Se buscar cada refeição te desgastou, você precisa de um rastreador com um fluxo forte de repetição de refeição. Se comida caseira foi o bloqueio, você precisa de registro por foto. Se você parou nos dias ruins, você precisa de um app que aceite um registro parcial sem quebrar uma sequência. Se você registrou por semanas e nada te disse o que mudar, você precisa de coaching em vez de um livro-razão."
+        },
+        {
+          "question": "O registro de refeições baseado em foto é preciso?",
+          "answer": "É rápido, e é uma estimativa. Um modelo olhando para uma fotografia não pode ver óleo absorvido, não pode pesar o que está sob a camada superior, e não pode distinguir integral de reduzido em gordura. Leia o valor como o ponto médio de uma faixa. Fotografe antes de comer, de um ângulo que mostre profundidade, e corrija os erros óbvios — óleo, molho, porção de arroz."
+        },
+        {
+          "question": "Como registro refeições caseiras sem desistir?",
+          "answer": "Duas opções funcionam. Fotografe o prato finalizado e corrija a estimativa, ou construa a receita uma vez e reutilize-a como uma entrada única. Buscar onze ingredientes toda vez é o que termina o hábito — se um app te faz fazer isso, é o app errado para como você come."
+        },
+        {
+          "question": "Devo registrar em dias em que como demais?",
+          "answer": "Especialmente então. Esses são os dias informativos, e pulá-los é como o hábito quebra. Automonitoramento é o comportamento mais consistentemente ligado à perda de peso, e completude importa mais do que precisão. Se seu app faz um dia ruim parecer uma punição, mude o app em vez do comportamento."
+        },
+        {
+          "question": "Quanto tempo leva para saber se um app me serve?",
+          "answer": "Duas semanas. Registre sua refeição mais difícil no dia um, registre a mesma refeição novamente três dias depois e conte os toques, deliberadamente registre um dia ruim, então no dia quatorze pergunte o que o app realmente te disse. Se a resposta for 'meus números', é um livro-razão; se for 'o que mudar', é uma ferramenta."
+        },
+        {
+          "question": "Um app gratuito de registro alimentar é suficiente?",
+          "answer": "Para registro, geralmente sim. Verifique onde fica o paywall em vez do preço — se o recurso que resolve seu modo de falha particular está atrás dele, o nível gratuito é um teste. Preços nesta categoria mudam frequentemente, então verifique a listagem ao vivo na loja."
+        }
+      ],
+      "references": [
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 estudos, 15 sobre automonitoramento dietético; autores classificam o nível de evidência como fraco",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grau B",
+          "source": "U.S. Preventive Services Task Force, 2018 (tópico em atualização); adultos com IMC ≥30, entregue por clínico",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "Relatório de Hábitos GLP-1 2026 — análise interna HAVIT de 1.090 usuários de GLP-1",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "id": {
+      "title": "Aplikasi Pencatat Makanan Terbaik di 2026: Pilih Berdasarkan Cara Anda Berhenti, Bukan Fitur",
+      "short_title": "Aplikasi Pencatat Makanan Terbaik 2026",
+      "meta_description": "Tidak ada yang berhenti mencatat makanan karena aplikasinya tidak akurat. Mereka berhenti pada momen tertentu. Empat mode kegagalan — pajak pencarian, tembok masakan rumah, kesenjangan rasa malu, hanyutan tanpa tujuan — dan jenis aplikasi yang memperbaiki masing-masing, plus uji coba dua minggu.",
+      "tldr": "Diagnosis mode kegagalan Anda terlebih dahulu: pajak pencarian, tembok masakan rumah, kesenjangan rasa malu, atau hanyutan tanpa tujuan. Masing-masing diselesaikan oleh jenis aplikasi yang berbeda, dan entri yang tidak sempurna di hari yang buruk lebih berharga daripada entri sempurna di hari yang baik.",
+      "body_md": "*Pengungkapan jujur: HAVIT menerbitkan blog ini dan membuat salah satu aplikasi di bawah ini. Kami telah menyebutkan di mana aplikasi kami kalah.*\n\nTidak ada yang berhenti mencatat makanan karena aplikasinya tidak akurat. Mereka berhenti karena momen tertentu — berdiri di dapur jam 9 malam, lelah, menghadapi semangkuk sesuatu yang dimasak sendiri dengan enam bahan, dan memutuskan itu tidak sepadan.\n\nJadi panduan ini disusun berdasarkan momen-momen tersebut daripada daftar fitur. Ada empat momen, mereka adalah empat cara kebiasaan mencatat mati, dan masing-masing diselesaikan oleh jenis aplikasi yang berbeda.\n\n## Empat cara pencatatan mati\n\nTemukan milik Anda. Ini menentukan aplikasi mana yang Anda butuhkan lebih dari ulasan mana pun.\n\n**1. Pajak pencarian.** Setiap makan dimulai dengan mengetik, lalu menggulir sembilan hasil yang hampir identik, lalu menebak mana yang benar. Tiga puluh detik setiap kali, empat kali sehari. Ini yang paling umum.\n\n**2. Tembok masakan rumah.** Makanan kemasan dicatat dengan baik. Lalu Anda memasak, dan satu mangkuk menjadi sebelas pencarian. Orang mencatat sarapan dengan sempurna selama berbulan-bulan dan tidak pernah sekalipun mencatat makan malam.\n\n**3. Kesenjangan rasa malu.** Hari berjalan buruk, Anda tidak ingin melihatnya tertulis, Anda melewatkan pencatatan — dan itulah saat kebiasaan patah. Hari-hari yang dilewati justru yang informatif.\n\n**4. Hanyutan tanpa tujuan.** Anda mencatat dengan setia selama lima minggu, aplikasi melaporkan angka-angka kembali, tidak ada yang memberi tahu Anda apa yang harus diubah, dan latihan mulai terasa seperti pembukuan.\n\nEmpat masalah, empat jawaban berbeda. Mencampuradukkannya adalah mengapa 'gunakan saja MyFitnessPal' adalah saran buruk setengah waktu.\n\n## Jenis aplikasi mana yang menyelesaikan yang mana\n\n*Karakteristik aplikasi per Oktober 2026 — periksa daftar toko langsung sebelum Anda berkomitmen.*\n\n| Mode kegagalan Anda | Apa yang memperbaikinya | Jenis aplikasi | Waspadai |\n| --- | --- | --- | --- |\n| Pajak pencarian | Pintasan makanan terbaru, barcode, suara | Pelacak matang apa pun dengan alur 'ulangi' yang baik | Keluasan tidak berguna jika alur ulangi tersembunyi |\n| Tembok masakan rumah | Tangkapan foto, atau makanan multi-bahan yang disimpan | Pencatat foto-pertama / AI | Angkanya adalah estimasi model, bukan pembacaan |\n| Kesenjangan rasa malu | Pencatatan parsial rendah gesekan, tanpa putusan 'melebihi anggaran' merah | Aplikasi berbasis kebiasaan atau pelatih | Beberapa aplikasi gamifikasi dengan cara yang membuat melewatkan lebih buruk |\n| Hanyutan tanpa tujuan | Sesuatu yang membaca log dan meresepkan | Aplikasi pelatihan atau komposisi-dan-gaya-hidup | Hanya bekerja jika Anda mencatat cukup untuk dibaca |\n\nPoin penelitian yang perlu dipegang: *pencatatan*-lah, bukan presisi, yang membawa efek. Tinjauan sistematis dari 22 studi pemantauan diri, 15 di antaranya tentang pencatatan makanan, menemukan asosiasi konsisten dengan penurunan berat badan — sambil menilai bukti lemah pada dasar metodologis ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)). Entri yang tidak sempurna di hari yang buruk lebih berharga daripada entri sempurna di hari yang baik.\n\n## Apa yang sebenarnya dilakukan dan tidak dilakukan pencatatan foto\n\nPencatatan berbasis foto adalah fitur utama kategori ini saat ini, jadi layak mendapat jawaban langsung.\n\n**Apa yang dilakukannya dengan baik.** Ini menghilangkan pajak pencarian dan sebagian besar tembok masakan rumah dalam satu gerakan. Untuk hidangan campuran — semur, bekal makan siang, masakan orang lain — ini adalah perbedaan antara mencatat dan tidak mencatat. Itu saja membuatnya default yang tepat untuk kebanyakan orang yang memulai.\n\n**Apa yang tidak bisa dilakukannya.** Model yang melihat foto tidak dapat melihat minyak yang diserap ke dalam makanan, tidak dapat menimbang apa yang ada di bawah lapisan atas, dan tidak dapat membedakan full-fat dari reduced-fat. Ini mengembalikan rentang yang masuk akal yang disajikan sebagai angka. Perlakukan angka sebagai titik tengah rentang, bukan pengukuran.\n\n**Cara menggunakannya dengan baik.** Foto sebelum makan, dari sudut yang menunjukkan kedalaman daripada lurus ke bawah, dan perbaiki kesalahan yang jelas — minyak, saus, porsi nasi. Estimasi foto yang diperbaiki biasanya cukup baik untuk tren mingguan, yang merupakan satu-satunya resolusi yang penting.\n\n## Uji coba dua minggu yang benar-benar memberi tahu Anda sesuatu\n\nUlasan tidak dapat menjawab ini untuk Anda karena mode kegagalan Anda bersifat pribadi. Jalankan ini sebagai gantinya, di dalam uji coba gratis:\n\n1. **Catat makanan tersulit Anda terlebih dahulu.** Bukan dada ayam — yang campuran, dimasak sendiri, sulit ditimbang. Jika aplikasi menangani itu, makanan mudah akan mengurus diri mereka sendiri.\n2. **Catat makanan yang sama dua kali, tiga hari terpisah.** Hitung ketukan kedua kalinya. Jika tidak jauh lebih sedikit, alur ulangi buruk dan Anda akan berhenti di minggu empat.\n3. **Sengaja memiliki hari yang buruk dan mencatatnya.** Perhatikan apa yang dilakukan aplikasi. Spanduk merah dan streak yang rusak mengajari Anda untuk berhenti mencatat tepat pada hari-hari yang penting.\n4. **Pada hari keempat belas, tanyakan apa yang diberitahukannya.** Jika jawabannya 'angka saya', Anda memiliki buku besar. Jika 'apa yang harus diubah', Anda memiliki alat.\n\n## Di mana setiap pendekatan gagal — termasuk milik kami\n\n- **Pelacak database besar** menang pada keluasan dan kalah pada tembok masakan rumah. Pencarian adalah interaksi inti mereka, dan pencarian adalah pajak.\n- **Pencatatan foto-pertama** menang pada kecepatan dan kalah pada presisi. Siapa pun yang mengklaim akurasi kalori fotografi berlebihan menjual, dan itu termasuk kami.\n- **Aplikasi berbasis kebiasaan** melindungi streak tetapi sering mencatat terlalu kasar untuk menjawab pertanyaan nutrisi nanti.\n- **HAVIT** memiliki database makanan yang lebih kecil daripada MyFitnessPal atau Cronometer. Estimasi foto kami adalah estimasi. Jika Anda memerlukan data mikronutrien terverifikasi untuk diet klinis, gunakan aplikasi nutrisi khusus — perbandingan itu tidak dekat dan kami tidak akan berpura-pura sebaliknya.\n\n## Intinya\n\nDiagnosis mode kegagalan Anda terlebih dahulu. Pajak pencarian, tembok masakan rumah, kesenjangan rasa malu, dan hanyutan tanpa tujuan adalah empat masalah berbeda, dan aplikasi yang menyelesaikan satu tidak akan menyelesaikan yang lain.\n\nKemudian jalankan uji coba dua minggu. Ini lebih berguna daripada setiap ulasan kategori ini digabungkan, termasuk yang ini.\n\n## Mengapa HAVIT — pencatatan yang bertahan di minggu yang buruk\n\nHAVIT menyerang tembok masakan rumah dengan pencatatan foto dan hanyutan tanpa tujuan dengan pelatih yang membaca log, karena keduanya adalah yang mengakhiri sebagian besar kebiasaan pencatatan.\n\nCheck-in harian ada untuk kesenjangan rasa malu. Memberi tahu aplikasi bahwa hari ini sulit adalah tindakan yang lebih ringan daripada mencatat hari yang ingin Anda lupakan, dan itu menjaga benang tidak terputus — yang penting, karena hari yang dilewati biasanya yang pertama dari beberapa.\n\nMakanan, hidrasi, tidur, langkah, siklus, suasana hati, dan obat GLP-1 duduk dalam satu rutinitas, dan minggu kembali sebagai satu tindakan konkret untuk hari ini daripada halaman angka. Panduan klinis memperlakukan jenis perubahan perilaku terstruktur ini sebagai bagian inti perawatan, bukan tambahan opsional ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Dalam analisis kami sendiri terhadap 1.090 pengguna GLP-1, pencatat paling konsisten membangun kebiasaan terkuat ([Laporan Kebiasaan GLP-1](/en/glp-1-habit-report)).\n\nHAVIT adalah aplikasi kesehatan, bukan alat medis. Angka kalori dan komposisi tubuh adalah estimasi.\n\n[Coba HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "Cara kebiasaan pencatatan makanan mati",
+          "value": "4 (pajak pencarian, tembok masakan rumah, kesenjangan rasa malu, hanyutan tanpa tujuan)",
+          "source": "Panduan ini"
+        },
+        {
+          "label": "Studi yang menghubungkan pemantauan diri dengan penurunan berat badan",
+          "value": "22 studi",
+          "source": "Burke et al. 2011, J Am Diet Assoc"
+        },
+        {
+          "label": "Panjang uji coba yang mengungkapkan mode kegagalan Anda",
+          "value": "2 minggu, termasuk satu hari buruk yang dicatat",
+          "source": "Uji coba panduan ini"
+        },
+        {
+          "label": "Cara membaca angka kalori yang berasal dari foto",
+          "value": "Titik tengah rentang, bukan pengukuran",
+          "source": "Estimasi model dari gambar"
+        }
+      ],
+      "comparison_table": {
+        "title": "Jenis aplikasi mana yang menyelesaikan mode kegagalan mana",
+        "headers": [
+          "Mode kegagalan Anda",
+          "Apa yang memperbaikinya",
+          "Jenis aplikasi",
+          "Waspadai"
+        ],
+        "rows": [
+          [
+            "Pajak pencarian",
+            "Pintasan makanan terbaru, barcode, suara",
+            "Pelacak matang apa pun dengan alur ulangi yang baik",
+            "Keluasan tidak berguna jika alur ulangi tersembunyi"
+          ],
+          [
+            "Tembok masakan rumah",
+            "Tangkapan foto, atau makanan multi-bahan yang disimpan",
+            "Pencatat foto-pertama / AI",
+            "Angkanya adalah estimasi model, bukan pembacaan"
+          ],
+          [
+            "Kesenjangan rasa malu",
+            "Pencatatan parsial rendah gesekan, tanpa putusan merah",
+            "Aplikasi berbasis kebiasaan atau pelatih",
+            "Beberapa aplikasi gamifikasi sehingga melewatkan lebih menyakitkan"
+          ],
+          [
+            "Hanyutan tanpa tujuan",
+            "Sesuatu yang membaca log dan meresepkan",
+            "Aplikasi pelatihan atau komposisi-dan-gaya-hidup",
+            "Hanya bekerja jika Anda mencatat cukup untuk dibaca"
+          ]
+        ],
+        "caption": "Mencampuradukkan ini adalah mengapa 'gunakan saja MyFitnessPal' adalah saran buruk sekitar setengah waktu."
+      },
+      "faq": [
+        {
+          "question": "Apa aplikasi pencatat makanan terbaik di 2026?",
+          "answer": "Tergantung bagaimana Anda berhenti terakhir kali. Jika mencari setiap makanan membuat Anda lelah, Anda memerlukan pelacak dengan alur ulangi-makanan yang kuat. Jika makanan yang dimasak di rumah adalah penghambat, Anda memerlukan pencatatan foto. Jika Anda berhenti di hari-hari buruk, Anda memerlukan aplikasi yang menerima log parsial tanpa merusak streak. Jika Anda mencatat selama berminggu-minggu dan tidak ada yang memberi tahu Anda apa yang harus diubah, Anda memerlukan pelatihan daripada buku besar."
+        },
+        {
+          "question": "Apakah pencatatan makanan berbasis foto akurat?",
+          "answer": "Ini cepat, dan ini adalah estimasi. Model yang melihat foto tidak dapat melihat minyak yang diserap, tidak dapat menimbang apa yang ada di bawah lapisan atas, dan tidak dapat membedakan full-fat dari reduced-fat. Baca angka sebagai titik tengah rentang. Foto sebelum makan, dari sudut yang menunjukkan kedalaman, dan perbaiki kesalahan yang jelas — minyak, saus, porsi nasi."
+        },
+        {
+          "question": "Bagaimana cara mencatat makanan yang dimasak di rumah tanpa menyerah?",
+          "answer": "Dua opsi berhasil. Foto hidangan jadi dan perbaiki estimasi, atau buat resep sekali dan gunakan kembali sebagai entri tunggal. Mencari sebelas bahan setiap kali adalah yang mengakhiri kebiasaan — jika aplikasi membuat Anda melakukan itu, itu adalah aplikasi yang salah untuk cara Anda makan."
+        },
+        {
+          "question": "Haruskah saya mencatat di hari-hari ketika saya makan berlebihan?",
+          "answer": "Terutama saat itu. Itu adalah hari-hari informatif, dan melewatkannya adalah bagaimana kebiasaan patah. Pemantauan diri adalah perilaku yang paling konsisten terkait dengan penurunan berat badan, dan kelengkapan lebih penting daripada presisi. Jika aplikasi Anda membuat hari buruk terasa seperti hukuman, ubah aplikasi daripada perilaku."
+        },
+        {
+          "question": "Berapa lama waktu yang dibutuhkan untuk mengetahui apakah aplikasi cocok untuk saya?",
+          "answer": "Dua minggu. Catat makanan tersulit Anda pada hari pertama, catat makanan yang sama lagi tiga hari kemudian dan hitung ketukan, sengaja catat satu hari buruk, lalu pada hari keempat belas tanyakan apa yang sebenarnya diberitahukan aplikasi kepada Anda. Jika jawabannya 'angka saya', itu adalah buku besar; jika 'apa yang harus diubah', itu adalah alat."
+        },
+        {
+          "question": "Apakah aplikasi pencatat makanan gratis cukup?",
+          "answer": "Untuk pencatatan, biasanya ya. Periksa di mana paywall berada daripada harga — jika fitur yang menyelesaikan mode kegagalan khusus Anda ada di belakangnya, tingkat gratis adalah uji coba. Harga dalam kategori ini sering berubah, jadi periksa daftar toko langsung."
+        }
+      ],
+      "references": [
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 studi, 15 tentang pemantauan diri diet; penulis menilai tingkat bukti lemah",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
+          "source": "U.S. Preventive Services Task Force, 2018 (topik dalam pembaruan); dewasa dengan BMI ≥30, diberikan oleh klinisi",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — analisis internal HAVIT terhadap 1.090 pengguna GLP-1",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "de": {
+      "title": "Beste Food-Tracking-Apps 2026: Wählen Sie nach Abbruchgrund, nicht nach Features",
+      "short_title": "Beste Food-Tracking-Apps 2026",
+      "meta_description": "Niemand bricht das Food-Tracking ab, weil die App ungenau war. Der Abbruch erfolgt in einem bestimmten Moment. Vier Abbruchmuster – die Suchsteuer, die Selbstgekocht-Mauer, die Scham-Lücke, die Sinnlosigkeits-Drift – und der App-Typ, der jedes löst, plus ein Zwei-Wochen-Test.",
+      "tldr": "Diagnostizieren Sie zuerst Ihr Abbruchmuster: die Suchsteuer, die Selbstgekocht-Mauer, die Scham-Lücke oder die Sinnlosigkeits-Drift. Jedes wird durch einen anderen App-Typ gelöst, und ein unvollkommener Eintrag an einem schlechten Tag ist mehr wert als ein perfekter an einem guten.",
+      "body_md": "*Ehrliche Offenlegung: HAVIT veröffentlicht diesen Blog und entwickelt eine der unten genannten Apps. Wir haben benannt, wo sie verliert.*\n\nNiemand bricht das Food-Tracking ab, weil die App ungenau war. Der Abbruch erfolgt wegen eines bestimmten Moments – wenn man um 21 Uhr in der Küche steht, müde, vor einer Schüssel mit etwas Selbstgekochtem mit sechs Zutaten, und entscheidet, dass es den Aufwand nicht wert ist.\n\nDieser Leitfaden ist daher um diese Momente herum organisiert und nicht um Feature-Listen. Es gibt vier davon, sie sind die vier Arten, wie eine Tracking-Gewohnheit stirbt, und jede wird durch eine andere Art von App gelöst.\n\n## Die vier Arten, wie Tracking stirbt\n\nFinden Sie Ihre. Sie bestimmt, welche App Sie brauchen, mehr als jede Bewertung es tut.\n\n**1. Die Suchsteuer.** Jede Mahlzeit beginnt mit Tippen, dann durch neun nahezu identische Ergebnisse scrollen, dann raten, welches das richtige ist. Dreißig Sekunden jedes Mal, viermal am Tag. Das ist die häufigste.\n\n**2. Die Selbstgekocht-Mauer.** Verpackte Lebensmittel lassen sich gut tracken. Dann kochen Sie, und eine Schüssel wird zu elf Suchvorgängen. Menschen tracken monatelang perfekt ihr Frühstück und nie auch nur einmal das Abendessen.\n\n**3. Die Scham-Lücke.** Der Tag läuft schlecht, Sie wollen es nicht aufgeschrieben sehen, Sie überspringen das Tracking – und das ist der Tag, an dem die Gewohnheit bricht. Die übersprungenen Tage sind genau die informativen.\n\n**4. Die Sinnlosigkeits-Drift.** Sie tracken fünf Wochen lang gewissenhaft, die App meldet Zahlen zurück, nichts sagt Ihnen, was Sie ändern sollen, und die Übung fängt an, sich wie Buchhaltung anzufühlen.\n\nVier Probleme, vier verschiedene Antworten. Sie zu verwechseln ist der Grund, warum 'einfach MyFitnessPal verwenden' in der Hälfte der Fälle ein schlechter Rat ist.\n\n## Welcher App-Typ löst welches Problem\n\n*App-Eigenschaften Stand Oktober 2026 – prüfen Sie den aktuellen Store-Eintrag, bevor Sie sich festlegen.*\n\n| Ihr Abbruchmuster | Was es behebt | App-Typ | Worauf achten |\n| --- | --- | --- | --- |\n| Die Suchsteuer | Kürzliche-Mahlzeiten-Shortcuts, Barcode, Sprache | Jeder ausgereifte Tracker mit gutem 'Wiederholen'-Ablauf | Breite ist nutzlos, wenn der Wiederholen-Ablauf versteckt ist |\n| Die Selbstgekocht-Mauer | Foto-Erfassung oder gespeicherte Mehrkomponenten-Mahlzeiten | Foto-first / KI-Logger | Die Zahl ist eine Modellschätzung, keine Messung |\n| Die Scham-Lücke | Reibungsarmes Teilprotokoll, keine roten 'Budget überschritten'-Urteile | Gewohnheits- oder Coach-geführte Apps | Manche Apps gamifizieren so, dass Überspringen schlimmer wird |\n| Die Sinnlosigkeits-Drift | Etwas, das das Protokoll liest und verschreibt | Coaching- oder Zusammensetzungs-und-Lifestyle-Apps | Funktioniert nur, wenn Sie genug geloggt haben zum Auslesen |\n\nDer Forschungspunkt, den man festhalten sollte: Es ist das *Tracking*, nicht die Präzision, das die Wirkung trägt. Eine systematische Übersicht von 22 Selbstüberwachungsstudien, 15 davon zum Food-Tracking, fand eine konsistente Assoziation mit Gewichtsverlust – während die Autoren die Evidenz aus methodischen Gründen als schwach bewerteten ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)). Ein unvollkommener Eintrag an einem schlechten Tag ist mehr wert als ein perfekter an einem guten.\n\n## Was Foto-Tracking tatsächlich leistet und was nicht\n\nFoto-basiertes Tracking ist derzeit das Headline-Feature dieser Kategorie, daher verdient es eine klare Antwort.\n\n**Was es gut macht.** Es beseitigt die Suchsteuer und den Großteil der Selbstgekocht-Mauer in einem Zug. Bei gemischten Gerichten – einem Eintopf, einem Lunchpaket, dem Essen von jemand anderem – ist es der Unterschied zwischen Tracking und Nicht-Tracking. Das allein macht es zur richtigen Standardwahl für die meisten Einsteiger.\n\n**Was es nicht kann.** Ein Modell, das ein Foto betrachtet, kann kein in die Speise aufgenommenes Öl sehen, kann nicht wiegen, was unter der obersten Schicht liegt, und kann nicht Vollfett von fettreduziert unterscheiden. Es liefert eine plausible Spanne, die als Zahl präsentiert wird. Behandeln Sie die Zahl als Mittelpunkt einer Spanne, nicht als Messung.\n\n**Wie man es gut nutzt.** Fotografieren Sie vor dem Essen, aus einem Winkel, der Tiefe zeigt statt von direkt oben, und korrigieren Sie die offensichtlichen Fehler – das Öl, die Sauce, die Reisportion. Eine korrigierte Fotoschätzung ist normalerweise gut genug für einen Wochentrend, und das ist die einzige Auflösung, die zählt.\n\n## Ein Zwei-Wochen-Test, der tatsächlich etwas aussagt\n\nBewertungen können das nicht für Sie beantworten, weil Ihr Abbruchmuster persönlich ist. Führen Sie stattdessen dies durch, innerhalb der kostenlosen Testphase:\n\n1. **Tracken Sie zuerst Ihre schwierigste Mahlzeit.** Nicht eine Hähnchenbrust – die gemischte, selbstgekochte, schwer zu wiegende. Wenn die App damit umgehen kann, erledigen sich die einfachen Mahlzeiten von selbst.\n2. **Tracken Sie dieselbe Mahlzeit zweimal, drei Tage auseinander.** Zählen Sie beim zweiten Mal die Taps. Wenn es nicht dramatisch weniger sind, ist der Wiederholen-Ablauf schlecht und Sie werden in Woche vier aufhören.\n3. **Haben Sie bewusst einen schlechten Tag und tracken Sie ihn.** Beobachten Sie, was die App macht. Ein rotes Banner und eine unterbrochene Serie lehrt Sie, genau an den Tagen aufzuhören zu tracken, die zählen.\n4. **Fragen Sie an Tag vierzehn, was sie Ihnen gesagt hat.** Wenn die Antwort 'meine Zahlen' ist, haben Sie ein Kassenbuch. Wenn es 'was zu ändern ist' ist, haben Sie ein Werkzeug.\n\n## Wo jeder Ansatz zu kurz greift – einschließlich unserem\n\n- **Große Datenbank-Tracker** gewinnen bei Breite und verlieren bei der Selbstgekocht-Mauer. Suchen ist ihre Kerninteraktion, und Suchen ist die Steuer.\n- **Foto-first-Tracking** gewinnt bei Geschwindigkeit und verliert bei Präzision. Jeder, der fotografische Kaloriengenauigkeit behauptet, übertreibt, und das schließt uns ein.\n- **Gewohnheits-geführte Apps** schützen die Serie, tracken aber oft zu grob, um später eine Ernährungsfrage zu beantworten.\n- **HAVIT** hat eine kleinere Lebensmitteldatenbank als MyFitnessPal oder Cronometer. Unsere Fotoschätzungen sind Schätzungen. Wenn Sie verifizierte Mikronährstoffdaten für eine klinische Diät benötigen, verwenden Sie eine dedizierte Ernährungs-App – dieser Vergleich ist nicht knapp und wir werden nicht so tun, als wäre es anders.\n\n## Das Fazit\n\nDiagnostizieren Sie zuerst Ihr Abbruchmuster. Die Suchsteuer, die Selbstgekocht-Mauer, die Scham-Lücke und die Sinnlosigkeits-Drift sind vier verschiedene Probleme, und die App, die eines löst, wird kein anderes lösen.\n\nDann führen Sie den Zwei-Wochen-Test durch. Er ist nützlicher als jede Bewertung dieser Kategorie zusammen, einschließlich dieser.\n\n## Warum HAVIT – Tracking, das eine schlechte Woche überlebt\n\nHAVIT greift die Selbstgekocht-Mauer mit Foto-Tracking an und die Sinnlosigkeits-Drift mit einem Coach, der das Protokoll liest, weil das die beiden sind, die die meisten Tracking-Gewohnheiten beenden.\n\nDas tägliche Check-in existiert für die Scham-Lücke. Der App zu sagen, dass heute schwer war, ist eine leichtere Aktion als einen Tag zu tracken, den Sie lieber vergessen würden, und es hält den Faden ungebrochen – was zählt, weil ein übersprungener Tag normalerweise der erste von mehreren ist.\n\nMahlzeiten, Hydration, Schlaf, Schritte, Zyklus, Stimmung und GLP-1-Medikation sitzen in einer Routine, und die Woche kommt als eine konkrete Aktion für heute zurück statt als Seite voller Zahlen. Klinische Leitlinien behandeln diese Art strukturierter Verhaltensänderung als Kernbestandteil der Versorgung, nicht als optionales Extra ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). In unserer eigenen Analyse von 1.090 GLP-1-Nutzern bauten die konsequentesten Logger die stärksten Gewohnheiten auf ([GLP-1 Habit Report](/en/glp-1-habit-report)).\n\nHAVIT ist eine Wellness-App, kein medizinisches Diagnosegerät. Kalorien- und Körperzusammensetzungszahlen sind Schätzungen.\n\n[HAVIT ausprobieren →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "Arten, wie eine Food-Tracking-Gewohnheit stirbt",
+          "value": "4 (Suchsteuer, Selbstgekocht-Mauer, Scham-Lücke, Sinnlosigkeits-Drift)",
+          "source": "Dieser Leitfaden"
+        },
+        {
+          "label": "Studien, die Selbstüberwachung mit Gewichtsverlust verknüpfen",
+          "value": "22 Studien",
+          "source": "Burke et al. 2011, J Am Diet Assoc"
+        },
+        {
+          "label": "Testdauer, die Ihr Abbruchmuster offenbart",
+          "value": "2 Wochen, inkl. einem getrackten schlechten Tag",
+          "source": "Test dieses Leitfadens"
+        },
+        {
+          "label": "Wie man eine foto-abgeleitete Kalorienzahl liest",
+          "value": "Mittelpunkt einer Spanne, keine Messung",
+          "source": "Modellschätzungen aus Bildern"
+        }
+      ],
+      "comparison_table": {
+        "title": "Welcher App-Typ löst welches Abbruchmuster",
+        "headers": [
+          "Ihr Abbruchmuster",
+          "Was es behebt",
+          "App-Typ",
+          "Worauf achten"
+        ],
+        "rows": [
+          [
+            "Die Suchsteuer",
+            "Kürzliche-Mahlzeiten-Shortcuts, Barcode, Sprache",
+            "Jeder ausgereifte Tracker mit gutem Wiederholen-Ablauf",
+            "Breite ist nutzlos, wenn der Wiederholen-Ablauf versteckt ist"
+          ],
+          [
+            "Die Selbstgekocht-Mauer",
+            "Foto-Erfassung oder gespeicherte Mehrkomponenten-Mahlzeiten",
+            "Foto-first / KI-Logger",
+            "Die Zahl ist eine Modellschätzung, keine Messung"
+          ],
+          [
+            "Die Scham-Lücke",
+            "Reibungsarmes Teilprotokoll, keine roten Urteile",
+            "Gewohnheits- oder Coach-geführte Apps",
+            "Manche Apps gamifizieren so, dass Überspringen mehr schadet"
+          ],
+          [
+            "Die Sinnlosigkeits-Drift",
+            "Etwas, das das Protokoll liest und verschreibt",
+            "Coaching- oder Zusammensetzungs-und-Lifestyle-Apps",
+            "Funktioniert nur, wenn Sie genug geloggt haben zum Auslesen"
+          ]
+        ],
+        "caption": "Sie zu verwechseln ist der Grund, warum 'einfach MyFitnessPal verwenden' in etwa der Hälfte der Fälle ein schlechter Rat ist."
+      },
+      "faq": [
+        {
+          "question": "Was ist die beste Food-Tracking-App 2026?",
+          "answer": "Es hängt davon ab, wie Sie beim letzten Mal aufgehört haben. Wenn Sie das Suchen nach jeder Mahlzeit zermürbt hat, brauchen Sie einen Tracker mit starkem Wiederholen-Mahlzeit-Ablauf. Wenn selbstgekochtes Essen der Blocker war, brauchen Sie Foto-Tracking. Wenn Sie an schlechten Tagen aufgehört haben, brauchen Sie eine App, die ein Teilprotokoll akzeptiert, ohne eine Serie zu unterbrechen. Wenn Sie wochenlang geloggt haben und nichts Ihnen gesagt hat, was zu ändern ist, brauchen Sie Coaching statt eines Kassenbuchs."
+        },
+        {
+          "question": "Ist foto-basiertes Mahlzeiten-Tracking genau?",
+          "answer": "Es ist schnell, und es ist eine Schätzung. Ein Modell, das ein Foto betrachtet, kann kein aufgenommenes Öl sehen, kann nicht wiegen, was unter der obersten Schicht liegt, und kann nicht Vollfett von fettreduziert unterscheiden. Lesen Sie die Zahl als Mittelpunkt einer Spanne. Fotografieren Sie vor dem Essen, aus einem Winkel, der Tiefe zeigt, und korrigieren Sie die offensichtlichen Fehler – Öl, Sauce, Reisportion."
+        },
+        {
+          "question": "Wie tracke ich selbstgekochte Mahlzeiten, ohne aufzugeben?",
+          "answer": "Zwei Optionen funktionieren. Fotografieren Sie das fertige Gericht und korrigieren Sie die Schätzung, oder bauen Sie das Rezept einmal auf und verwenden Sie es als einzelnen Eintrag wieder. Elf Zutaten jedes Mal zu suchen ist das, was die Gewohnheit beendet – wenn eine App Sie dazu zwingt, ist es die falsche App für Ihre Essweise."
+        },
+        {
+          "question": "Sollte ich an Tagen tracken, an denen ich zu viel esse?",
+          "answer": "Besonders dann. Das sind die informativen Tage, und sie zu überspringen ist, wie die Gewohnheit bricht. Selbstüberwachung ist das Verhalten, das am konsistentesten mit Gewichtsverlust verknüpft ist, und Vollständigkeit zählt mehr als Präzision. Wenn Ihre App einen schlechten Tag wie eine Bestrafung anfühlen lässt, ändern Sie die App statt des Verhaltens."
+        },
+        {
+          "question": "Wie lange dauert es zu wissen, ob eine App zu mir passt?",
+          "answer": "Zwei Wochen. Tracken Sie Ihre schwierigste Mahlzeit an Tag eins, tracken Sie dieselbe Mahlzeit drei Tage später erneut und zählen Sie die Taps, tracken Sie bewusst einen schlechten Tag, dann fragen Sie an Tag vierzehn, was die App Ihnen tatsächlich gesagt hat. Wenn die Antwort 'meine Zahlen' ist, ist es ein Kassenbuch; wenn es 'was zu ändern ist' ist, ist es ein Werkzeug."
+        },
+        {
+          "question": "Reicht eine kostenlose Food-Tracking-App aus?",
+          "answer": "Zum Tracking normalerweise ja. Prüfen Sie, wo die Paywall sitzt, statt den Preis – wenn das Feature, das Ihr spezielles Abbruchmuster löst, dahinter liegt, ist die kostenlose Version eine Testversion. Die Preisgestaltung in dieser Kategorie ändert sich oft, also prüfen Sie den aktuellen Store-Eintrag."
+        }
+      ],
+      "references": [
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 – 22 Studien, 15 zur diätetischen Selbstüberwachung; Autoren bewerten Evidenzniveau als schwach",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions – Grade B",
+          "source": "U.S. Preventive Services Task Force, 2018 (Thema wird aktualisiert); Erwachsene mit BMI ≥30, klinisch durchgeführt",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 – HAVIT interne Analyse von 1.090 GLP-1-Nutzern",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "fr": {
+      "title": "Meilleures applications de suivi alimentaire en 2026 : choisissez selon pourquoi vous abandonnez, pas selon les fonctionnalités",
+      "short_title": "Meilleures applis de suivi alimentaire 2026",
+      "meta_description": "Personne n'abandonne le suivi alimentaire parce que l'application était imprécise. On abandonne à un moment précis. Quatre modes d'échec — la taxe de recherche, le mur du fait-maison, l'écart de honte, la dérive du non-sens — et le type d'application qui résout chacun, plus un test de deux semaines.",
+      "tldr": "Diagnostiquez d'abord votre mode d'échec : la taxe de recherche, le mur du fait-maison, l'écart de honte ou la dérive du non-sens. Chacun est résolu par un type d'application différent, et une entrée imparfaite un mauvais jour vaut plus qu'une entrée parfaite un bon jour.",
+      "body_md": "*Divulgation honnête : HAVIT publie ce blogue et fabrique l'une des applications ci-dessous. Nous avons indiqué où elle perd.*\n\nPersonne n'abandonne le suivi alimentaire parce que l'application était imprécise. On abandonne à cause d'un moment précis — debout dans une cuisine à 21h, fatigué, face à un bol de quelque chose fait maison avec six ingrédients, et on décide que ça n'en vaut pas la peine.\n\nCe guide est donc organisé autour de ces moments plutôt qu'autour de listes de fonctionnalités. Il y en a quatre, ce sont les quatre façons dont une habitude de suivi meurt, et chacune est résolue par un type d'application différent.\n\n## Les quatre façons dont le suivi meurt\n\nTrouvez la vôtre. Elle détermine l'application dont vous avez besoin plus que n'importe quelle critique.\n\n**1. La taxe de recherche.** Chaque repas commence par taper, puis faire défiler neuf résultats quasi identiques, puis deviner lequel est le bon. Trente secondes à chaque fois, quatre fois par jour. C'est la plus courante.\n\n**2. Le mur du fait-maison.** Les aliments emballés se notent bien. Puis vous cuisinez, et un bol devient onze recherches. Les gens notent le petit-déjeuner parfaitement pendant des mois et ne notent jamais le dîner.\n\n**3. L'écart de honte.** La journée se passe mal, vous ne voulez pas le voir écrit, vous sautez la notation — et c'est ce jour-là que l'habitude se brise. Les jours sautés sont précisément les jours informatifs.\n\n**4. La dérive du non-sens.** Vous notez fidèlement pendant cinq semaines, l'application renvoie des chiffres, rien ne vous dit quoi changer, et l'exercice commence à ressembler à de la comptabilité.\n\nQuatre problèmes, quatre réponses différentes. Les mélanger est la raison pour laquelle 'utilisez simplement MyFitnessPal' est un mauvais conseil la moitié du temps.\n\n## Quel type d'application résout quoi\n\n*Les caractéristiques des applications sont celles d'octobre 2026 — vérifiez la liste en direct dans le magasin avant de vous engager.*\n\n| Votre mode d'échec | Ce qui le résout | Type d'application | Attention à |\n| --- | --- | --- | --- |\n| La taxe de recherche | Raccourcis de repas récents, code-barres, voix | Tout tracker mature avec un bon flux de 'répétition' | L'étendue est inutile si le flux de répétition est enfoui |\n| Le mur du fait-maison | Capture photo, ou repas multi-ingrédients sauvegardés | Enregistreurs photo-d'abord / IA | Le chiffre est une estimation de modèle, pas une mesure |\n| L'écart de honte | Notation partielle à faible friction, pas de verdicts rouges 'dépassement de budget' | Applications axées sur les habitudes ou le coaching | Certaines applications gamifient d'une manière qui aggrave le fait de sauter |\n| La dérive du non-sens | Quelque chose qui lit le journal et prescrit | Applications de coaching ou de composition-et-style-de-vie | Ne fonctionne que si vous avez assez noté pour lire |\n\nLe point de recherche à retenir : c'est la *notation*, pas la précision, qui porte l'effet. Une revue systématique de 22 études d'auto-surveillance, dont 15 sur la notation alimentaire, a trouvé une association constante avec la perte de poids — tout en évaluant les preuves comme faibles sur le plan méthodologique ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)). Une entrée imparfaite un mauvais jour vaut plus qu'une entrée parfaite un bon jour.\n\n## Ce que la notation photo fait réellement, et ne fait pas\n\nLa notation basée sur la photo est la fonctionnalité phare de cette catégorie en ce moment, elle mérite donc une réponse directe.\n\n**Ce qu'elle fait bien.** Elle supprime la taxe de recherche et la majeure partie du mur du fait-maison en un seul mouvement. Pour les plats mixtes — un ragoût, un lunch emballé, la cuisine de quelqu'un d'autre — c'est la différence entre noter et ne pas noter. Cela seul en fait le choix par défaut pour la plupart des gens qui débutent.\n\n**Ce qu'elle ne peut pas faire.** Un modèle regardant une photographie ne peut pas voir l'huile absorbée dans l'aliment, ne peut pas peser ce qui est sous la couche supérieure, et ne peut pas distinguer le plein gras du réduit en gras. Il renvoie une plage plausible présentée comme un chiffre. Traitez le chiffre comme le point médian d'une plage, pas comme une mesure.\n\n**Comment bien l'utiliser.** Photographiez avant de manger, sous un angle qui montre la profondeur plutôt que directement du dessus, et corrigez les erreurs évidentes — l'huile, la sauce, la portion de riz. Une estimation photo corrigée est généralement suffisante pour une tendance hebdomadaire, qui est la seule résolution qui compte.\n\n## Un test de deux semaines qui vous dit vraiment quelque chose\n\nLes critiques ne peuvent pas répondre à cela pour vous parce que votre mode d'échec est personnel. Faites plutôt ceci, pendant l'essai gratuit :\n\n1. **Notez d'abord votre repas le plus difficile.** Pas un blanc de poulet — celui qui est mixte, fait maison, difficile à peser. Si l'application gère cela, les repas faciles se gèrent d'eux-mêmes.\n2. **Notez le même repas deux fois, à trois jours d'intervalle.** Comptez les tapotements la deuxième fois. Si ce n'est pas dramatiquement moins, le flux de répétition est mauvais et vous abandonnerez à la semaine quatre.\n3. **Ayez délibérément une mauvaise journée et notez-la.** Regardez ce que fait l'application. Une bannière rouge et une série brisée vous apprennent à arrêter de noter exactement les jours qui comptent.\n4. **Au jour quatorze, demandez ce qu'elle vous a dit.** Si la réponse est 'mes chiffres', vous avez un registre. Si c'est 'quoi changer', vous avez un outil.\n\n## Où chaque approche échoue — y compris la nôtre\n\n- **Les trackers à grande base de données** gagnent en étendue et perdent sur le mur du fait-maison. La recherche est leur interaction principale, et la recherche est la taxe.\n- **La notation photo-d'abord** gagne en vitesse et perd en précision. Quiconque prétend à la précision calorique photographique survend, et cela nous inclut.\n- **Les applications axées sur les habitudes** protègent la série mais notent souvent trop grossièrement pour répondre à une question nutritionnelle plus tard.\n- **HAVIT** a une base de données alimentaires plus petite que MyFitnessPal ou Cronometer. Nos estimations photo sont des estimations. Si vous avez besoin de données vérifiées sur les micronutriments pour un régime clinique, utilisez une application de nutrition dédiée — cette comparaison n'est pas proche et nous n'allons pas prétendre le contraire.\n\n## L'essentiel\n\nDiagnostiquez d'abord votre mode d'échec. La taxe de recherche, le mur du fait-maison, l'écart de honte et la dérive du non-sens sont quatre problèmes différents, et l'application qui résout l'un ne résoudra pas l'autre.\n\nPuis faites le test de deux semaines. Il est plus utile que toutes les critiques de cette catégorie combinées, y compris celle-ci.\n\n## Pourquoi HAVIT — une notation qui survit à une mauvaise semaine\n\nHAVIT attaque le mur du fait-maison avec la notation photo et la dérive du non-sens avec un coach qui lit le journal, parce que ce sont les deux qui mettent fin à la plupart des habitudes de notation.\n\nL'enregistrement quotidien existe pour l'écart de honte. Dire à l'application qu'aujourd'hui était difficile est une action plus légère que de noter une journée que vous préféreriez oublier, et cela garde le fil ininterrompu — ce qui compte, parce qu'un jour sauté est généralement le premier de plusieurs.\n\nRepas, hydratation, sommeil, pas, cycle, humeur et médicament GLP-1 se trouvent dans une seule routine, et la semaine revient comme une action concrète pour aujourd'hui plutôt qu'une page de chiffres. Les directives cliniques traitent ce type de changement de comportement structuré comme une partie essentielle des soins, pas comme un extra optionnel ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Dans notre propre analyse de 1 090 utilisateurs de GLP-1, les notateurs les plus constants ont construit les habitudes les plus fortes ([Rapport sur les habitudes GLP-1](/en/glp-1-habit-report)).\n\nHAVIT est une application de bien-être, pas un dispositif médical. HAVIT n'est pas un outil de diagnostic médical. Les chiffres de calories et de composition corporelle sont des estimations.\n\n[Essayez HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "Façons dont une habitude de suivi alimentaire meurt",
+          "value": "4 (taxe de recherche, mur du fait-maison, écart de honte, dérive du non-sens)",
+          "source": "Ce guide"
+        },
+        {
+          "label": "Études liant l'auto-surveillance à la perte de poids",
+          "value": "22 études",
+          "source": "Burke et al. 2011, J Am Diet Assoc"
+        },
+        {
+          "label": "Durée d'essai qui révèle votre mode d'échec",
+          "value": "2 semaines, incluant une mauvaise journée notée",
+          "source": "Test de ce guide"
+        },
+        {
+          "label": "Comment lire un chiffre calorique dérivé d'une photo",
+          "value": "Point médian d'une plage, pas une mesure",
+          "source": "Estimations de modèle à partir d'images"
+        }
+      ],
+      "comparison_table": {
+        "title": "Quel type d'application résout quel mode d'échec",
+        "headers": [
+          "Votre mode d'échec",
+          "Ce qui le résout",
+          "Type d'application",
+          "Attention à"
+        ],
+        "rows": [
+          [
+            "La taxe de recherche",
+            "Raccourcis de repas récents, code-barres, voix",
+            "Tout tracker mature avec un bon flux de répétition",
+            "L'étendue est inutile si le flux de répétition est enfoui"
+          ],
+          [
+            "Le mur du fait-maison",
+            "Capture photo, ou repas multi-ingrédients sauvegardés",
+            "Enregistreurs photo-d'abord / IA",
+            "Le chiffre est une estimation de modèle, pas une mesure"
+          ],
+          [
+            "L'écart de honte",
+            "Notation partielle à faible friction, pas de verdicts rouges",
+            "Applications axées sur les habitudes ou le coaching",
+            "Certaines applications gamifient de sorte que sauter fait plus mal"
+          ],
+          [
+            "La dérive du non-sens",
+            "Quelque chose qui lit le journal et prescrit",
+            "Applications de coaching ou de composition-et-style-de-vie",
+            "Ne fonctionne que si vous avez assez noté pour lire"
+          ]
+        ],
+        "caption": "Mélanger ces éléments est la raison pour laquelle 'utilisez simplement MyFitnessPal' est un mauvais conseil environ la moitié du temps."
+      },
+      "faq": [
+        {
+          "question": "Quelle est la meilleure application de suivi alimentaire en 2026 ?",
+          "answer": "Cela dépend de comment vous avez abandonné la dernière fois. Si chercher chaque repas vous a épuisé, vous avez besoin d'un tracker avec un flux de répétition de repas solide. Si la nourriture faite maison était le blocage, vous avez besoin de notation photo. Si vous avez arrêté les mauvais jours, vous avez besoin d'une application qui accepte un journal partiel sans briser une série. Si vous avez noté pendant des semaines et que rien ne vous a dit quoi changer, vous avez besoin de coaching plutôt que d'un registre."
+        },
+        {
+          "question": "La notation de repas basée sur la photo est-elle précise ?",
+          "answer": "Elle est rapide, et c'est une estimation. Un modèle regardant une photographie ne peut pas voir l'huile absorbée, ne peut pas peser ce qui est sous la couche supérieure, et ne peut pas distinguer le plein gras du réduit en gras. Lisez le chiffre comme le point médian d'une plage. Photographiez avant de manger, sous un angle qui montre la profondeur, et corrigez les erreurs évidentes — huile, sauce, portion de riz."
+        },
+        {
+          "question": "Comment noter les repas faits maison sans abandonner ?",
+          "answer": "Deux options fonctionnent. Photographiez le plat fini et corrigez l'estimation, ou construisez la recette une fois et réutilisez-la comme une seule entrée. Chercher onze ingrédients à chaque fois est ce qui met fin à l'habitude — si une application vous fait faire cela, c'est la mauvaise application pour votre façon de manger."
+        },
+        {
+          "question": "Dois-je noter les jours où je mange trop ?",
+          "answer": "Surtout alors. Ce sont les jours informatifs, et les sauter est comment l'habitude se brise. L'auto-surveillance est le comportement le plus constamment lié à la perte de poids, et l'exhaustivité compte plus que la précision. Si votre application fait qu'un mauvais jour ressemble à une punition, changez l'application plutôt que le comportement."
+        },
+        {
+          "question": "Combien de temps faut-il pour savoir si une application me convient ?",
+          "answer": "Deux semaines. Notez votre repas le plus difficile le premier jour, notez le même repas à nouveau trois jours plus tard et comptez les tapotements, notez délibérément une mauvaise journée, puis au jour quatorze demandez ce que l'application vous a réellement dit. Si la réponse est 'mes chiffres', c'est un registre ; si c'est 'quoi changer', c'est un outil."
+        },
+        {
+          "question": "Une application gratuite de suivi alimentaire suffit-elle ?",
+          "answer": "Pour la notation, généralement oui. Vérifiez où se situe le mur payant plutôt que le prix — si la fonctionnalité qui résout votre mode d'échec particulier est derrière, le niveau gratuit est un essai. Les prix dans cette catégorie changent souvent, alors vérifiez la liste en direct dans le magasin."
+        }
+      ],
+      "references": [
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 études, 15 sur l'auto-surveillance alimentaire ; les auteurs évaluent le niveau de preuve comme faible",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
+          "source": "U.S. Preventive Services Task Force, 2018 (sujet en cours de mise à jour) ; adultes avec IMC ≥30, fourni par un clinicien",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — Analyse interne HAVIT de 1 090 utilisateurs de GLP-1",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
     }
   },
   "generated_at": "2026-10-11T00:00:00.000Z"

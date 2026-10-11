@@ -246,6 +246,958 @@
         }
       ],
       "last_updated": "2026-10-11"
+    },
+    "ja": {
+      "title": "2026年版 最高のAIヘルスコーチアプリ:コーチとチャットボットを見分ける方法",
+      "short_title": "2026年版 最高のAIヘルスコーチアプリ",
+      "meta_description": "ほぼすべてのヘルスアプリがAIコーチを追加しました。しかしほとんどはチャットボックスを追加しただけです。6つの基準、4種類の'AIコーチ'、購入すべきでない人、そしてこのカテゴリー全体(私たちのアプリを含む)の最も弱い部分について解説します。",
+      "tldr": "コーチは、あなたがチャットに入力したことのない情報をあなたについて知っています。トライアル期間中に3つのことをテストしましょう:データを読み取るか、計画ではなく1つのアクションを提示するか、そして悪い週があったときに対応を変えるか。",
+      "body_md": "*正直な開示:HAVITはこのブログを公開し、議論されているアプリの1つを開発しています。私たちは、自分たちが購入前に読みたいと思うガイドを書こうと努めました。それには、私たち自身のカテゴリーが最も弱い部分も含まれています。*\n\nほぼすべてのヘルスアプリが過去2年間でAIコーチを追加しました。しかしそのほとんどは、チャットボックスを追加しただけです。これらは同じものではなく、その違いによって、あなたがコーチを手に入れるのか、それとも親しみやすい口調の検索エンジンを手に入れるのかが決まります。\n\nチャットボックスは、あなたがすでに尋ねることを知っている質問に答えます。コーチは、あなたが尋ねなかったことに気づきます。このガイドは、12ヶ月分の料金を支払う前に、この2つを見分ける方法についてです。\n\n## コーチとチャットボットを分けるもの\n\nテストは簡単です:**チャットに入力していない、あなたについての情報を何か知っていますか?**\n\n汎用アシスタントは、クレアチンについて説明し、食事プランを作成し、停滞期を乗り越える手助けをしてくれます。そしてそれらすべてをうまくこなします。汎用アシスタントは今や会話を記憶し、設定すればスケジュールに従ってメッセージを送ることもできます。しかし彼らがまだ持っていないのは、**今日の食事、睡眠、歩数のライブフィード**です。そのため、午後9時のメッセージ — あなたのタンパク質摂取量が4日連続で目標を下回っている、今週2回睡眠時間が6時間未満だった、体重は横ばい、そしてこの3つのうちどれを最初に改善すべきかの提案 — は、あなたが事前に設定し、貼り付けたデータから生成されたものでなければなりません。\n\nこの違いはモデルの品質ではありません。それは、記録されたデータへの継続的なアクセスと、そのデータから最初に話すという設計上の決定です。\n\n2つ目の、あまり明白でないテストがあります:**期待よりも少ないことを言いますか?** 簡単な質問に14個の箇条書きで答えるコーチは、何も教えてくれていません — 決定する作業をあなたに戻しただけです。コーチングとは圧縮です。臨床ガイダンスが支持する形式は、構造化され反復的です:USPSTFは、BMIが30以上の成人に対して、集中的で多要素の行動介入を提供することを、グレードBの推奨として臨床医に提示しています([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。アプリについては何も述べていませんが、有効成分が何であるかは述べています。\n\n## AIコーチングアプリを選ぶための6つの基準\n\n### 1. あなた自身のデータを読み取りますか、それともメッセージだけですか?\n\nトライアル期間中に尋ねてみましょう:「昨日私は何を食べましたか?」 貼り付けなければ答えられない場合、そのコーチはチャットウィンドウであり、アプリはトラッカーです。それはスキャンダルではありません — ただ異なる製品であり、そうでないかのように価格設定されているだけです。\n\n### 2. 1つのアクションを提示しますか、それとも計画を提示しますか?\n\n計画とは、あなたがすでに実行に失敗したものです。今日のための1つの具体的なアクション — *明日の朝食で30gのタンパク質を摂取する* — は、実行できるかできないかのどちらかであり、それが測定可能にします。行動変容介入の標準的な分類法は93の個別の技法を記録しており、その単位は一般的な意図ではなく具体的なアクションです([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/))。\n\n### 3. あなたが変わったときに考えを変えますか?\n\nこのテストの正直なバージョンには2週間かかります。意図的に悪い週を記録してください。本物のコーチングシステムは調整します:要求を下げる、目標を変更する、または何が起こったかを尋ねます。スクリプト化されたものは同じ陽気なナッジを繰り返し、それによって'パーソナライゼーション'がテンプレートであることがわかります。\n\n### 4. 記憶していますか?\n\nコーチングとは、継続性のある関係です。1月にベジタリアンだと伝えて、3月に鶏肉を提案された場合、それはあなたをコーチングしているのではなく、あなたに答えているだけです。セッション間の記憶は、このカテゴリーで最もコストのかかる機能であり、最も頻繁に偽装される機能です。\n\n### 5. 安全境界はどこにありますか?\n\n優れたヘルスAIは拒否します。診断すべきではなく、処方された用量を変更するよう指示すべきではなく、体組成とカロリーの数値が推定値であることを明示すべきです。拒否すべき医療質問に自信を持って答えるアプリは、より有能なのではなく、より安全性が低いのです。\n\n### 6. 実際にどの言語でコーチングしていますか?\n\n翻訳されたインターフェース文字列は、あなたの言語でのコーチングと同じではありません。実際に考える言語で、実際に食べる食品を使ってテストしてください。多くのアプリはボタンを翻訳し、その後機械翻訳された英語でコーチングします。\n\n## あなたが出会う4種類の'AIコーチ'\n\n*以下のアプリの特性は2026年10月時点のものです — このカテゴリーは急速に変化するため、実際のストアリストで確認してください。*\n\n| タイプ | 実際には何か | 例 | あなたのログを知っている | トレードオフ |\n| --- | --- | --- | --- | --- |\n| 汎用アシスタント | 健康に関する質問をする最先端チャットボット | ChatGPT、Claude、Gemini | 継続的なフィードなし | チャット間で記憶し、スケジュールに従ってメッセージを送信できるが、設定したものだけ |\n| トラッカーに追加されたチャット | ログアプリ内のチャットタブ | MyFitnessPal、Cal AI | 部分的 — 多くの場合最近のエントリのみ | 反応的;コーチングはまだあなたのアイデア |\n| AIアシスト付きプログラム | 人間が設計したカリキュラム、AI配信 | Noom、WeightWatchers | プログラム内で | あなたではなく、そのアークに従う |\n| 断食コーチ | 食事時間枠と常時オンのコーチ | Simple.Life('Avo') | 断食と食事ログ | BMIと断食パターン中心 |\n| データ駆動型デイリーコーチ | ログを読み取り、1つのアクションで開始 | HAVIT | 食事、睡眠、歩数、サイクル、気分、薬 | 記録したものと同じくらい良い |\n\nこのカテゴリーでのほとんどの失望は、4行目に対して支払い、2行目を受け取ることから生じます。\n\n## AIコーチングアプリを購入すべきでない人\n\nこれは、別の機能リストよりも重要です。\n\n- **何も記録しない場合は、スキップしてください。** 3行目と4行目のすべてのコーチは、あなたのデータの関数です。入力がなければ、サブスクリプション料金を支払っているチャットボットに劣化します。まずログ習慣を始め、4週間分のデータができたらコーチを追加してください。\n- **人間が欲しい場合は、雇ってください。** AIコーチングは安価で、午前2時に利用可能で、決して判断しません。しかし、栄養士でもセラピストでもなく、あなたに対して責任を負いません。摂食障害、診断された状態、または期限のある運動目標の場合は、人間が正しい選択です。\n- **すでに何をすべきか正確にわかっている場合**、必要なのは遵守ツール — アラーム、ストリーク、友人 — であり、アドバイスではありません。\n\n## このカテゴリーが最も弱い部分 — 私たちを含めて\n\n- **推定値は推定値のままです。** 写真ベースのカロリー数値とAI体組成数値は、HAVITのものを含めて、近似値です。測定値ではなく、トレンドとして読んでください。\n- **積極性は押し付けがましくなる可能性があります。** コーチを有用にする同じメカニズムが、悪いコーチを疲れさせるものにします。コミットする前に、通知が細かく設定できることを確認してください。\n- **記憶は不均一です。** この分野のほぼすべてのアプリ(私たちのものを含む)は、いくつかのことを覚え、他のことを忘れます。信頼する前に、あなたにとって重要なこと — アレルギー、目標、制約 — でテストしてください。\n- **HAVIT**は、あなたが記録した日と同じくらい良いだけです。何も記録しない週には何も言うことがなく、汎用アシスタントはまだ答えます。習慣と体組成のトレンドに向けてコーチングし、日付のあるパフォーマンス目標に向けてではありません — レースのためのプログラムされた期分けが必要な場合、これは間違ったツールです。そして、それはウェルネスアプリであり、医療機器ではありません:診断せず、処方された用量を変更するよう指示しません。**HAVITは医療診断ツールではありません。**\n\n## 結論\n\n問題は'どのAIが最も賢いか'ではありません。真剣なものはすべて、この仕事には十分賢いです。問題は、どれが**あなたのデータを見て、1つのことを言い、あなたが変わったときに変わるか**です。\n\nトライアル期間中に、自分の言語で、自分の食べ物で、悪い週を含む2週間にわたってテストしてください。このカテゴリーのほとんどはそのテストに失敗し、それを見つけるには約14日かかります。\n\n## なぜHAVITか — あなたの一日を読むコーチ\n\nHAVI(HAVITのコーチ)は、上記の3つのテストを中心に構築されています。記録したもの — 食事、水分補給、睡眠、歩数、サイクル、気分、GLP-1薬 — を読み取り、四半期の計画ではなく今日のための1つの具体的なアクションを返します。デイリーチェックインは、コーチがあなたに何かを求める前に、それがどんな日かを知るために存在します。\n\nその設計の理由は、エビデンスベースです:構造化された行動変容は、他のすべての代わりにではなく、それと並んで臨床ガイダンスが推奨するものであり([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))、糖尿病予防プログラムは、構造化されたライフスタイルプログラムが糖尿病リスクにおいてmetforminを上回り、58%対31%であることを示しました([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/))。\n\n1,090人のGLP-1ユーザーに関する私たち自身の分析では、最も一貫してログを記録する人が最も強い習慣を構築しました([GLP-1習慣レポート](/en/glp-1-habit-report))。\n\nHAVITはウェルネスアプリであり、医療機器ではありません。診断せず、処方された用量を変更するよう指示しません。体組成の結果は推定値です。\n\n[HAVITを試す →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "集中的で多要素の行動介入に対するUSPSTF推奨グレード",
+          "value": "Grade B",
+          "source": "U.S. Preventive Services Task Force"
+        },
+        {
+          "label": "DPP:構造化されたライフスタイルプログラム対metformin、糖尿病リスク低減",
+          "value": "58% vs 31%",
+          "source": "Knowler et al. 2002, NEJM (n=3,234)"
+        },
+        {
+          "label": "標準的な分類法における行動変容技法",
+          "value": "93の技法",
+          "source": "Michie et al. 2013, Ann Behav Med"
+        },
+        {
+          "label": "このガイドで名前が挙げられたAIコーチのタイプ",
+          "value": "5タイプ",
+          "source": "汎用アシスタント・トラッカー内チャット・プログラム・断食コーチ・データ駆動型"
+        }
+      ],
+      "comparison_table": {
+        "title": "4種類の'AIコーチ'",
+        "headers": [
+          "タイプ",
+          "実際には何か",
+          "あなたのデータを知っている",
+          "最適な用途",
+          "トレードオフ"
+        ],
+        "rows": [
+          [
+            "汎用アシスタント",
+            "健康に関する質問をする最先端チャットボット",
+            "いいえ",
+            "概念の説明、リクエストに応じた計画",
+            "ゼロから始まる;何も積極的ではない"
+          ],
+          [
+            "トラッカーに追加されたチャット",
+            "ログアプリ内のチャットタブ",
+            "部分的 — 多くの場合最近のエントリのみ",
+            "作成したばかりのエントリについて尋ねる",
+            "反応的;コーチングはまだあなたのアイデア"
+          ],
+          [
+            "AIアシスト付きプログラム",
+            "人間が設計したカリキュラム、AI配信",
+            "はい、プログラム内で",
+            "構造とレッスンを求める人",
+            "あなたではなく、そのアークに従う"
+          ],
+          [
+            "データ駆動型デイリーコーチ",
+            "ログを読み取り、1つのアクションで開始",
+            "はい — 食事、睡眠、歩数、サイクル、気分",
+            "まだ何を変えるべきかわからないトラッカー",
+            "記録したものと同じくらい良い"
+          ]
+        ],
+        "caption": "このカテゴリーでのほとんどの失望は、4行目に対して支払い、2行目を受け取ることから生じます。"
+      },
+      "faq": [
+        {
+          "question": "2026年の最高のAIヘルスコーチアプリは何ですか?",
+          "answer": "チャットメッセージだけでなく、あなた自身の記録されたデータを読み取るものです。トライアル期間中に、昨日何を食べたかを尋ねてください — 答えを貼り付けなければならない場合、それはトラッカー内のチャットウィンドウであり、コーチではありません。次に、計画ではなく1つの具体的なアクションを返すこと、そして悪い週があったときに調整することを確認してください。"
+        },
+        {
+          "question": "AIコーチングアプリは、ChatGPTやClaudeに食事について尋ねることとどう違いますか?",
+          "answer": "汎用アシスタントは、あなたがすでに尋ねることを知っている質問に、毎回ゼロから答えます。コーチングアプリは、あなたの食事、睡眠、歩数、サイクル、薬へのアクセス権を持ち、最初に話します — 4日間の低タンパク質、2回の短い夜、横ばいの体重がつながっていることを伝えることができます。これはデータアクセスと設計の違いであり、モデル品質の違いではありません。"
+        },
+        {
+          "question": "AIコーチは栄養士やセラピストの代わりになりますか?",
+          "answer": "いいえ。AIコーチングは安価で、午前2時に利用可能で、決して判断的ではありませんが、免許を持った専門家ではなく、あなたに対して責任を負いません。摂食障害、診断された状態、または期限のある運動目標の場合は、人に会ってください。優れたヘルスAIは、診断したり、処方された用量を変更するよう指示したりすることも拒否します。"
+        },
+        {
+          "question": "アプリの'パーソナライゼーション'が本物かどうかをどうやって見分けますか?",
+          "answer": "意図的に悪い週を記録してください。本物のコーチングシステムは、要求を下げる、目標を変更する、または何が起こったかを尋ねます。スクリプト化されたものは同じ陽気なナッジを繰り返します。これを検出するには約2週間かかるため、無料トライアル期間内に行う価値があります。"
+        },
+        {
+          "question": "何も記録しない場合、AIコーチは価値がありますか?",
+          "answer": "いいえ。データ駆動型コーチは、あなたの入力の関数です;何も記録されていない場合、あなたはチャットボットのサブスクリプション料金を支払っています。まずログ習慣を構築し、約4週間分のデータができたらコーチングを追加してください。"
+        },
+        {
+          "question": "AIコーチングアプリは英語以外の言語で機能しますか?",
+          "answer": "インターフェースの翻訳とあなたの言語でのコーチングは別物です。多くのアプリはボタンを翻訳し、その後機械翻訳された英語でコーチングします。実際に考える言語で、実際に食べる食品を使ってテストしてください。"
+        }
+      ],
+      "references": [
+        {
+          "title": "93の階層的にクラスター化された技法の行動変容技法分類法(v1)(Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+        },
+        {
+          "title": "ライフスタイル介入またはmetforminによる2型糖尿病発症率の低減 — DPP(Knowler et al.)",
+          "source": "New England Journal of Medicine, 2002 (n=3,234)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
+        },
+        {
+          "title": "成人における肥満関連の罹患率と死亡率を予防するための体重減少:行動介入 — Grade B",
+          "source": "U.S. Preventive Services Task Force, 2018(トピックは更新中);BMI≥30の成人、臨床医による提供",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1習慣レポート2026 — 1,090人のGLP-1ユーザーに関するHAVIT内部分析",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "zh-CN": {
+      "title": "2026年最佳AI健康教练应用:如何区分真教练与聊天机器人",
+      "short_title": "2026年最佳AI健康教练应用",
+      "meta_description": "几乎每个健康应用都添加了AI教练功能,但大多数只是加了个聊天框。六项标准、四种'AI教练'类型、哪些人不应购买,以及整个品类(包括我们自己的产品)最薄弱的环节。",
+      "tldr": "真正的教练会知道一些你从未在聊天中输入过的信息。试用期测试三件事:它是否读取你的数据、是否给出单一行动而非计划、以及当你度过糟糕一周时它是否会调整。",
+      "body_md": "*诚实声明:HAVIT发布本博客并开发本文讨论的应用之一。我们试图撰写自己在付费前想要阅读的指南——包括我们所在品类最薄弱的部分。*\n\n过去两年,几乎每个健康应用都添加了AI教练功能。其中大多数只是加了个聊天框。这两者并不相同,而这一区别决定了你得到的是教练还是一个语气友好的搜索引擎。\n\n聊天框回答你已经知道要问的问题。教练则会注意到你没有问及的事情。本指南旨在帮助你在为某个产品支付十二个月费用之前,分辨出两者的区别。\n\n## 教练与聊天机器人的区别\n\n测试很简单:**它是否知道一些你没有在聊天中输入的关于你的信息?**\n\n通用助手可以解释肌酸、制定膳食计划,并帮你度过平台期。它会把这些都做得很好。通用助手现在能跨对话记忆,如果你设置了日程,它们还能按时给你发消息。但它们仍然没有的是**今天膳食、睡眠和步数的实时数据流**。所以晚上9点的消息——你的蛋白质摄入已连续四天低于目标、本周有两次睡眠不足六小时、体重持平,以及这三项中应优先解决哪一项——必须是你提前配置的,使用你粘贴进去的数据。\n\n这一差异不在于模型质量,而在于对你记录数据的持续访问,以及优先从这些数据出发的设计决策。\n\n还有第二个不太明显的测试:**它说的是否比你预期的少?** 一个用十四条要点回答简单问题的教练什么也没告诉你——它只是把决策工作转移回给了你。教练的作用是压缩信息。临床指导支持的形式是结构化和重复的:美国预防服务工作组(USPSTF)给出B级推荐,建议临床医生为BMI达到或超过30的成年人提供密集的、多组分的行为干预([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。它没有提及应用——但确实说明了有效成分是什么。\n\n## 选择AI教练应用的6项标准\n\n### 1. 它读取你自己的数据,还是只读取你的消息?\n\n在试用期问:'我昨天吃了什么?'如果它不能在你粘贴内容之前回答,那么这个教练就是个聊天窗口,而应用只是个记录工具。这不是丑闻——只是不同的产品,却按另一种产品定价。\n\n### 2. 它给你一个行动,还是一个计划?\n\n计划是你已经未能遵循的东西。一个具体的今日行动——*明天早餐吃30克蛋白质*——是你可以做或不做的事情,这使其可衡量。行为改变干预的标准分类法列出了93种离散技术,其中的单位始终是具体行动而非笼统意图([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/))。\n\n### 3. 当你改变时,它是否改变想法?\n\n这个测试的诚实版本需要两周。故意记录糟糕的一周。真正的教练系统会调整:降低要求、改变目标,或询问发生了什么。脚本化的系统会重复同样欢快的提示,这就是你了解到'个性化'只是模板的方式。\n\n### 4. 它是否记得?\n\n教练是一种具有连续性的关系。如果你在一月告诉它你是素食者,而它在三月建议吃鸡肉,那它不是在指导你;它只是在回答你。跨会话记忆是这个品类中最昂贵的单一功能,也是最常被伪造的功能。\n\n### 5. 它的安全边界在哪里?\n\n好的健康AI会拒绝某些事情。它不应诊断、不应告诉你改变处方剂量,并应明确说明身体成分和卡路里数字是估算值。一个自信地回答它应该拒绝的医疗问题的应用不是更有能力——而是更不安全。\n\n### 6. 它用什么语言指导你——真正地?\n\n翻译的界面字符串与用你的语言进行指导不是一回事。用你实际思考的语言、用你实际吃的食物来测试它。许多应用翻译了按钮,然后用机器翻译的英语进行指导。\n\n## 你会遇到的四种'AI教练'\n\n*以下应用特征截至2026年10月——这个品类变化很快,请在实时应用商店列表中验证。*\n\n| 类型 | 实际是什么 | 示例 | 了解你的记录 | 权衡 |\n| --- | --- | --- | --- | --- |\n| 通用助手 | 你向其询问健康问题的前沿聊天机器人 | ChatGPT、Claude、Gemini | 无持续数据流 | 跨聊天记忆并可按日程发消息,但仅限你设置的内容 |\n| 附加在记录工具上的聊天 | 记录应用内的聊天标签 | MyFitnessPal、Cal AI | 部分——通常仅限近期条目 | 被动响应;指导仍是你的主意 |\n| 带AI辅助的课程 | 人工设计的课程,AI交付 | Noom、WeightWatchers | 在课程范围内 | 你遵循它的路线,而非你自己的 |\n| 禁食教练 | 进食窗口加上全天候教练 | Simple.Life('Avo') | 禁食和饮食记录 | 以BMI和禁食模式为中心 |\n| 数据驱动的每日教练 | 读取你的记录并以一个行动开始 | HAVIT | 膳食、睡眠、步数、周期、情绪、用药 | 仅与你记录的内容一样好 |\n\n这个品类中的大多数失望来自于为第四行付费却收到第二行的产品。\n\n## 哪些人不应购买AI教练应用\n\n这比另一个功能列表更重要。\n\n- **如果你什么都不记录,跳过它。** 第三行和第四行的每个教练都是你数据的函数。没有输入,它就会退化为你付费订阅的聊天机器人。先养成记录习惯;当你有四周数据时再添加教练。\n- **如果你想要真人,雇一个。** AI教练更便宜、凌晨2点可用,且永不评判你。但它也不是营养师、不是治疗师,也不对你负责。对于饮食失调、已诊断的疾病或有截止日期的运动目标,真人是正确的选择。\n- **如果你已经确切知道该做什么**,你需要的是坚持工具——闹钟、连续记录、朋友——而非建议。\n\n## 这个品类最薄弱的地方——包括我们\n\n- **估算始终是估算。** 基于照片的卡路里数字和AI身体成分数据(包括HAVIT的)都是近似值。将它们视为趋势,而非测量值。\n- **主动性可能变成唠叨。** 使教练有用的同一机制也会使糟糕的教练令人疲惫。在承诺之前检查通知是否可细粒度控制。\n- **记忆不均衡。** 这个领域的几乎每个应用(包括我们的)都会记住某些事情而忘记其他事情。在信任它处理其余事项之前,用对你重要的事情测试它——过敏、目标、限制。\n- **HAVIT** 仅与你记录的那天一样好。在你什么都没记录的一周,它无话可说,而通用助手仍会回答。它指导习惯和身体成分趋势,而非有日期的表现目标——如果你想要为比赛进行程序化周期训练,这不是合适的工具。而且它是健康应用,不是医疗设备:HAVIT不是医疗诊断工具,它不会诊断,也不会告诉你改变处方剂量。\n\n## 结论\n\n问题不在于'哪个AI最聪明'。所有认真的AI对这项工作都足够聪明。问题在于哪一个**看到你的数据、说一件事,并在你改变时改变**。\n\n在试用期测试这一点,用你自己的语言、你自己的食物,在包括一个糟糕周的两周内测试。这个品类的大多数产品都未能通过该测试,而发现这一点大约需要十四天。\n\n## 为什么选择HAVIT——一个读取你一天的教练\n\nHAVI,HAVIT的教练,是围绕上述三项测试构建的。它读取你记录的内容——膳食、水分、睡眠、步数、周期、情绪、GLP-1药物——并返回今天的一个具体行动,而非一个季度的计划。每日签到的存在是为了让教练在向你提出任何要求之前知道这是怎样的一天。\n\n这种设计的原因是证据基础:结构化行为改变是临床指导推荐的,与其他一切并行而非替代([USPSTF, B级](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)),而糖尿病预防计划(DPP)显示结构化生活方式计划在糖尿病风险方面优于二甲双胍,58%对31%([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/))。\n\n在我们对1,090名GLP-1用户的内部分析中,最持续记录的用户建立了最强的习惯([GLP-1习惯报告](/en/glp-1-habit-report))。\n\nHAVIT是健康应用,不是医疗设备。HAVIT不是医疗诊断工具。它不会诊断,也不会告诉你改变处方剂量。身体成分结果是估算值。\n\n[试用HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "USPSTF对密集、多组分行为干预的推荐等级",
+          "value": "B级",
+          "source": "U.S. Preventive Services Task Force"
+        },
+        {
+          "label": "DPP:结构化生活方式计划vs二甲双胍,糖尿病风险降低",
+          "value": "58% vs 31%",
+          "source": "Knowler et al. 2002, NEJM (n=3,234)"
+        },
+        {
+          "label": "标准分类法中的行为改变技术",
+          "value": "93种技术",
+          "source": "Michie et al. 2013, Ann Behav Med"
+        },
+        {
+          "label": "本指南中命名的AI教练类型",
+          "value": "5种类型",
+          "source": "通用助手·记录工具中的聊天·课程·禁食教练·数据驱动"
+        }
+      ],
+      "comparison_table": {
+        "title": "四种'AI教练'",
+        "headers": [
+          "类型",
+          "实际是什么",
+          "了解你的数据",
+          "最适合",
+          "权衡"
+        ],
+        "rows": [
+          [
+            "通用助手",
+            "你向其询问健康问题的前沿聊天机器人",
+            "否",
+            "解释概念、按需制定计划",
+            "从零开始;没有主动性"
+          ],
+          [
+            "附加在记录工具上的聊天",
+            "记录应用内的聊天标签",
+            "部分——通常仅限近期条目",
+            "询问你刚刚做的条目",
+            "被动响应;指导仍是你的主意"
+          ],
+          [
+            "带AI辅助的课程",
+            "人工设计的课程,AI交付",
+            "是,在课程范围内",
+            "想要结构和课程的人",
+            "你遵循它的路线,而非你自己的"
+          ],
+          [
+            "数据驱动的每日教练",
+            "读取你的记录,以一个行动开始",
+            "是——膳食、睡眠、步数、周期、情绪",
+            "仍不知道该改变什么的记录者",
+            "仅与你记录的内容一样好"
+          ]
+        ],
+        "caption": "这个品类中的大多数失望来自于为第四行付费却收到第二行的产品。"
+      },
+      "faq": [
+        {
+          "question": "2026年最佳AI健康教练应用是什么?",
+          "answer": "读取你自己记录数据而非仅读取聊天消息的那个。在试用期问它你昨天吃了什么——如果你必须粘贴答案,那它就是记录工具内的聊天窗口,而非教练。然后检查它是否返回一个具体行动而非计划,以及当你度过糟糕一周时它是否会调整。"
+        },
+        {
+          "question": "AI教练应用与向ChatGPT或Claude询问我的饮食有何不同?",
+          "answer": "通用助手回答你已经知道要问的问题,每次都从零开始。教练应用可以访问你的膳食、睡眠、步数、周期和用药,并主动发言——它可以告诉你四天的低蛋白摄入、两个短睡眠之夜和持平的体重是相关的。这是数据访问和设计上的差异,而非模型质量的差异。"
+        },
+        {
+          "question": "AI教练能替代营养师或治疗师吗?",
+          "answer": "不能。AI教练更便宜、凌晨2点可用且永不评判,但它不是持证专业人士,也不对你负责。对于饮食失调、已诊断的疾病或有截止日期的运动目标,请咨询真人。好的健康AI也会拒绝诊断或告诉你改变处方剂量。"
+        },
+        {
+          "question": "如何判断应用的'个性化'是否真实?",
+          "answer": "故意记录糟糕的一周。真正的教练系统会降低要求、改变目标或询问发生了什么。脚本化的系统会重复同样欢快的提示。检测这一点大约需要两周,这就是为什么值得在免费试用期内进行测试。"
+        },
+        {
+          "question": "如果我什么都不记录,AI教练值得吗?",
+          "answer": "不值得。数据驱动的教练是你输入的函数;如果什么都没记录,你就是在为聊天机器人付费订阅。先养成记录习惯,在你有大约四周数据后再添加教练。"
+        },
+        {
+          "question": "AI教练应用支持英语以外的语言吗?",
+          "answer": "界面翻译和用你的语言进行指导是不同的事情。许多应用翻译了按钮,然后用机器翻译的英语进行指导。用你实际思考的语言、使用你实际吃的食物来测试它。"
+        }
+      ],
+      "references": [
+        {
+          "title": "93种分层聚类技术的行为改变技术分类法(v1)(Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+        },
+        {
+          "title": "通过生活方式干预或二甲双胍降低2型糖尿病发病率——DPP(Knowler et al.)",
+          "source": "New England Journal of Medicine, 2002 (n=3,234)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
+        },
+        {
+          "title": "减重以预防成人肥胖相关发病率和死亡率:行为干预——B级",
+          "source": "U.S. Preventive Services Task Force, 2018(主题更新中);BMI≥30的成年人,临床医生提供",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1习惯报告2026——HAVIT对1,090名GLP-1用户的内部分析",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "zh-TW": {
+      "title": "2026 年最佳 AI 健康教練應用程式:如何分辨真教練與聊天機器人",
+      "short_title": "2026 年最佳 AI 健康教練應用程式",
+      "meta_description": "幾乎每個健康應用程式都加入了 AI 教練。大多數只是加了一個聊天框。六項標準、四種『AI 教練』類型、哪些人不該購買,以及整個類別(包括我們自己的產品)最弱的環節。",
+      "tldr": "真正的教練知道一些你從未在聊天中輸入的資訊。在試用期測試三件事:它是否讀取你的數據、是否給出單一行動而非計畫,以及當你度過糟糕的一週時它是否會調整。",
+      "body_md": "*誠實揭露:HAVIT 發布此部落格並開發本文討論的應用程式之一。我們試圖撰寫我們在付費前想要閱讀的指南——包括我們自己所屬類別最弱的部分。*\n\n過去兩年,幾乎每個健康應用程式都加入了 AI 教練。大多數只是加了一個聊天框。這兩者並不相同,而這個差異決定了你得到的是教練還是一個語氣友善的搜尋引擎。\n\n聊天框回答你已經知道要問的問題。教練會注意到你沒有問的事情。本指南旨在幫助你在付費訂閱十二個月之前分辨兩者的差異。\n\n## 教練與聊天機器人的區別\n\n測試很簡單:**它是否知道一些你沒有在聊天中輸入的資訊?**\n\n通用助理可以解釋肌酸、建立飲食計畫,並幫助你度過停滯期。它會做得很好。通用助理現在可以跨對話記憶,如果你設定了時程,它們可以按時發送訊息。但它們仍然沒有的是**今天的餐點、睡眠和步數的即時資料流**。所以晚上 9 點的訊息——你的蛋白質連續四天低於目標、本週有兩次睡眠不足六小時、你的體重持平,這裡是三者中應該優先解決的——必須是你事先配置的,使用你貼上的數據。\n\n這個差異不在於模型品質。而在於持續存取你記錄的數據,以及優先從這些數據發言的設計決策。\n\n還有第二個較不明顯的測試:**它說的是否比你預期的少?** 一個用十四個要點回答簡單問題的教練什麼也沒告訴你——它只是把決定的工作轉回給你。教練的作用是壓縮資訊。臨床指引支持的形式是結構化且重複的:USPSTF 給予 B 級建議,建議臨床醫師為 BMI 達 30 或以上的成年人提供密集、多元的行為介入 ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。它沒有提到應用程式——但它確實說明了有效成分是什麼。\n\n## 選擇 AI 教練應用程式的 6 項標準\n\n### 1. 它是讀取你自己的數據,還是只讀取你的訊息?\n\n在試用期問:「我昨天吃了什麼?」如果它無法在你貼上資料前回答,那麼教練只是一個聊天視窗,而應用程式只是一個追蹤器。這不是醜聞——只是不同的產品,卻以相同價格定價。\n\n### 2. 它給你單一行動,還是一個計畫?\n\n計畫是你已經無法遵循的東西。一個具體的今日行動——*明天早餐吃 30 克蛋白質*——是你可以做或不做的事情,這使它可以衡量。行為改變介入的標準分類法列出了 93 種離散技術,整個分類的單位是具體行動而非一般意圖 ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/))。\n\n### 3. 當你改變時,它是否會改變想法?\n\n這個測試的誠實版本需要兩週。故意記錄糟糕的一週。真正的教練系統會調整:降低要求、改變目標,或詢問發生了什麼。腳本化的系統會重複相同的愉快提醒,這就是你了解到『個人化』只是範本的方式。\n\n### 4. 它是否記得?\n\n教練是一種具有連續性的關係。如果你在一月告訴它你是素食者,而它在三月建議雞肉,那它不是在教練你;它只是在回答你。跨會話記憶是這個類別中最昂貴的單一功能,也是最常被偽造的功能。\n\n### 5. 它的安全界限在哪裡?\n\n好的健康 AI 會拒絕某些事情。它不應該診斷、不應該告訴你改變處方劑量,並且應該明確表示身體組成和卡路里數字是估計值。一個自信地回答它應該拒絕的醫療問題的應用程式不是更有能力——而是更不安全。\n\n### 6. 它真正用什麼語言教練你?\n\n翻譯的介面字串與用你的語言教練不同。用你實際思考的語言、用你實際吃的食物來測試它。許多應用程式翻譯按鈕,然後用機器翻譯的英語進行教練。\n\n## 你會遇到的四種『AI 教練』\n\n*以下應用程式特性截至 2026 年 10 月——這個類別變化快速,請在實際商店列表上驗證。*\n\n| 類型 | 實際上是什麼 | 範例 | 知道你的記錄 | 取捨 |\n| --- | --- | --- | --- | --- |\n| 通用助理 | 你詢問健康問題的前沿聊天機器人 | ChatGPT、Claude、Gemini | 無持續資料流 | 跨聊天記憶並可按時程發送訊息,但僅限你設定的內容 |\n| 追蹤器上的聊天功能 | 記錄應用程式內的聊天分頁 | MyFitnessPal、Cal AI | 部分——通常僅限近期條目 | 被動;教練仍然是你的想法 |\n| 帶 AI 輔助的計畫 | 人工設計的課程、AI 交付 | Noom、WeightWatchers | 在計畫內 | 你遵循它的軌跡,而非你自己的 |\n| 斷食教練 | 進食時段加上全天候教練 | Simple.Life (「Avo」) | 斷食和飲食記錄 | 以 BMI 和斷食模式為中心 |\n| 數據驅動的每日教練 | 讀取你的記錄並以單一行動開始 | HAVIT | 餐點、睡眠、步數、週期、情緒、藥物 | 僅與你記錄的內容一樣好 |\n\n這個類別中的大多數失望來自於付費購買第四行卻收到第二行。\n\n## 哪些人不應該購買 AI 教練應用程式\n\n這比另一個功能列表更重要。\n\n- **如果你什麼都不記錄,請跳過。** 第三和第四行的每個教練都是你數據的函數。沒有輸入,它就會降級為你付費訂閱的聊天機器人。先建立記錄習慣;當你有四週的數據時再加入教練。\n- **如果你想要真人,請聘請一位。** AI 教練更便宜、凌晨 2 點可用,且永不評判你。但它也不是營養師、不是治療師,也不對你負責。對於飲食失調、已診斷的病症或有截止日期的運動目標,真人是正確的選擇。\n- **如果你已經確切知道該做什麼**,你需要的是遵守工具——鬧鐘、連續記錄、朋友——而非建議。\n\n## 這個類別最弱的地方——包括我們\n\n- **估計值仍然是估計值。** 基於照片的卡路里數字和 AI 身體組成數字(包括 HAVIT 的)都是近似值。將它們視為趨勢,而非測量值。\n- **主動性可能變成煩擾。** 使教練有用的相同機制也會使糟糕的教練令人疲憊。在承諾之前檢查通知是否細緻。\n- **記憶不均勻。** 這個領域的幾乎每個應用程式(包括我們的)都會記住某些事情並忘記其他事情。在信任它處理其他事情之前,先測試對你重要的事情——過敏、目標、限制。\n- **HAVIT** 僅與你記錄的那天一樣好。在你什麼都不記錄的一週,它無話可說,而通用助理仍然會回答。它針對習慣和身體組成趨勢進行教練,而非針對有日期的表現目標——如果你想要為比賽進行程式化週期訓練,這不是正確的工具。而且它是健康應用程式,不是醫療設備:HAVIT 不是醫療診斷工具,它不會診斷,也不會告訴你改變處方劑量。\n\n## 結論\n\n問題不是「哪個 AI 最聰明」。所有認真的 AI 對這項工作來說都足夠聰明。問題是哪一個**看到你的數據、說一件事,並在你改變時改變。**\n\n在試用期測試這一點,用你自己的語言、你自己的食物,在包括一個糟糕週的兩週內。這個類別的大多數產品都無法通過該測試,而發現這一點大約需要十四天。\n\n## 為什麼選擇 HAVIT——一個讀取你一天的教練\n\nHAVI,HAVIT 的教練,是圍繞上述三個測試建立的。它讀取你記錄的內容——餐點、水分、睡眠、步數、週期、情緒、GLP-1 藥物——並返回今天的一個具體行動,而非一季的計畫。每日簽到的存在是為了讓教練在要求你做任何事之前知道這是什麼樣的一天。\n\n這種設計的原因是證據基礎:結構化行為改變是臨床指引建議與其他一切並行而非取代的 ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)),而糖尿病預防計畫顯示結構化生活方式計畫在糖尿病風險上優於 metformin,58% 對 31% ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/))。\n\n在我們自己對 1,090 名 GLP-1 使用者的分析中,最一致的記錄者建立了最強的習慣 ([GLP-1 習慣報告](/en/glp-1-habit-report))。\n\nHAVIT 是健康應用程式,不是醫療設備。HAVIT 不是醫療診斷工具。它不會診斷,也不會告訴你改變處方劑量。身體組成結果是估計值。\n\n[試用 HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "USPSTF 對密集、多元行為介入的建議等級",
+          "value": "B 級",
+          "source": "U.S. Preventive Services Task Force"
+        },
+        {
+          "label": "DPP:結構化生活方式計畫 vs metformin,糖尿病風險降低",
+          "value": "58% vs 31%",
+          "source": "Knowler et al. 2002, NEJM (n=3,234)"
+        },
+        {
+          "label": "標準分類法中的行為改變技術",
+          "value": "93 種技術",
+          "source": "Michie et al. 2013, Ann Behav Med"
+        },
+        {
+          "label": "本指南中命名的 AI 教練類型",
+          "value": "5 種類型",
+          "source": "通用助理 · 追蹤器內聊天 · 計畫 · 斷食教練 · 數據驅動"
+        }
+      ],
+      "comparison_table": {
+        "title": "四種『AI 教練』",
+        "headers": [
+          "類型",
+          "實際上是什麼",
+          "知道你的數據",
+          "最適合",
+          "取捨"
+        ],
+        "rows": [
+          [
+            "通用助理",
+            "你詢問健康問題的前沿聊天機器人",
+            "否",
+            "解釋概念、應要求提供計畫",
+            "從零開始;沒有主動性"
+          ],
+          [
+            "追蹤器上的聊天功能",
+            "記錄應用程式內的聊天分頁",
+            "部分——通常僅限近期條目",
+            "詢問你剛剛記錄的條目",
+            "被動;教練仍然是你的想法"
+          ],
+          [
+            "帶 AI 輔助的計畫",
+            "人工設計的課程、AI 交付",
+            "是,在計畫內",
+            "想要結構和課程的人",
+            "你遵循它的軌跡,而非你自己的"
+          ],
+          [
+            "數據驅動的每日教練",
+            "讀取你的記錄,以單一行動開始",
+            "是——餐點、睡眠、步數、週期、情緒",
+            "仍不知道該改變什麼的追蹤者",
+            "僅與你記錄的內容一樣好"
+          ]
+        ],
+        "caption": "這個類別中的大多數失望來自於付費購買第四行卻收到第二行。"
+      },
+      "faq": [
+        {
+          "question": "2026 年最佳的 AI 健康教練應用程式是什麼?",
+          "answer": "讀取你自己記錄的數據而非僅讀取你的聊天訊息的那個。在試用期問它你昨天吃了什麼——如果你必須貼上答案,那它只是追蹤器內的聊天視窗,而非教練。然後檢查它是否返回一個具體行動而非計畫,以及當你度過糟糕的一週時它是否會調整。"
+        },
+        {
+          "question": "AI 教練應用程式與詢問 ChatGPT 或 Claude 關於我的飲食有何不同?",
+          "answer": "通用助理回答你已經知道要問的問題,每次都從零開始。教練應用程式可以存取你的餐點、睡眠、步數、週期和藥物,並優先發言——它可以告訴你四天的低蛋白質、兩個短睡眠夜晚和持平的體重是相關的。這是數據存取和設計的差異,而非模型品質的差異。"
+        },
+        {
+          "question": "AI 教練可以取代營養師或治療師嗎?",
+          "answer": "不能。AI 教練更便宜、凌晨 2 點可用且永不評判,但它不是持照專業人員,也不對你負責。對於飲食失調、已診斷的病症或有截止日期的運動目標,請諮詢真人。好的健康 AI 也會拒絕診斷或告訴你改變處方劑量。"
+        },
+        {
+          "question": "我如何判斷應用程式的『個人化』是否真實?",
+          "answer": "故意記錄糟糕的一週。真正的教練系統會降低要求、改變目標或詢問發生了什麼。腳本化的系統會重複相同的愉快提醒。這大約需要兩週才能檢測到,這就是為什麼值得在免費試用期內進行。"
+        },
+        {
+          "question": "如果我什麼都不記錄,AI 教練值得嗎?",
+          "answer": "不值得。數據驅動的教練是你輸入的函數;沒有記錄任何內容,你就是在為聊天機器人付費訂閱。先建立記錄習慣,當你有大約四週的數據時再加入教練。"
+        },
+        {
+          "question": "AI 教練應用程式是否支援英語以外的語言?",
+          "answer": "介面翻譯和用你的語言教練是不同的事情。許多應用程式翻譯按鈕,然後用機器翻譯的英語進行教練。用你實際思考的語言、使用你實際吃的食物來測試它。"
+        }
+      ],
+      "references": [
+        {
+          "title": "93 種分層聚類技術的行為改變技術分類法 (v1) (Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+        },
+        {
+          "title": "透過生活方式介入或 metformin 降低第 2 型糖尿病發生率——DPP (Knowler et al.)",
+          "source": "New England Journal of Medicine, 2002 (n=3,234)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
+        },
+        {
+          "title": "減重以預防成人肥胖相關疾病和死亡率:行為介入——B 級",
+          "source": "U.S. Preventive Services Task Force, 2018 (主題更新中);BMI ≥30 的成年人,由臨床醫師提供",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 習慣報告 2026——HAVIT 對 1,090 名 GLP-1 使用者的內部分析",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "es": {
+      "title": "Mejores Apps de Coach de Salud con IA en 2026: Cómo Distinguir un Coach de un Chatbot",
+      "short_title": "Mejores Apps de Coach con IA 2026",
+      "meta_description": "Casi todas las apps de salud agregaron un coach de IA. La mayoría agregó una caja de chat. Seis criterios, cuatro tipos de 'coach de IA', quién no debería comprar uno, y dónde toda la categoría — incluida la nuestra — es más débil.",
+      "tldr": "Un coach sabe algo sobre ti que nunca escribiste en el chat. Prueba tres cosas en el período de prueba: ¿lee tus datos?, ¿te da una acción en lugar de un plan?, y ¿cambia cuando tienes una mala semana?",
+      "body_md": "*Divulgación honesta: HAVIT publica este blog y desarrolla una de las apps discutidas. Hemos intentado escribir la guía que querríamos leer antes de pagar por una — incluyendo las partes donde nuestra propia categoría es más débil.*\n\nCasi todas las apps de salud agregaron un coach de IA en los últimos dos años. La mayoría de ellas agregó una caja de chat. Estas no son lo mismo, y la diferencia decide si obtienes un coach o un motor de búsqueda con tono amigable.\n\nUna caja de chat responde preguntas que ya sabías hacer. Un coach nota lo que no preguntaste. Esta guía trata sobre distinguir los dos antes de pagar por doce meses de uno.\n\n## Qué separa a un coach de un chatbot\n\nLa prueba es simple: **¿sabe algo sobre ti que no escribiste en el chat?**\n\nUn asistente general puede explicar creatina, crear un plan de comidas y ayudarte a superar un estancamiento. Hará todo eso bien. Los asistentes generales ahora recuerdan entre conversaciones, y pueden enviarte mensajes según un horario si configuras uno. Lo que todavía no tienen es un **flujo en vivo de las comidas, sueño y pasos de hoy**. Entonces el mensaje de las 9pm — tu proteína ha estado bajo el objetivo cuatro días seguidos, dormiste menos de seis horas dos veces esta semana, tu peso está estable, y aquí está cuál de los tres arreglar primero — tiene que ser uno que configuraste con anticipación, con datos que pegaste.\n\nEsa diferencia no es calidad del modelo. Es acceso continuo a tus datos registrados, y una decisión de diseño de hablar primero desde ellos.\n\nHay una segunda prueba, menos obvia: **¿dice menos de lo que esperabas?** Un coach que responde una pregunta simple con catorce puntos no te ha dicho nada — ha transferido el trabajo de decidir de vuelta a ti. El coaching es compresión. La forma que respalda la orientación clínica es estructurada y repetida: la USPSTF da una recomendación Grado B de que los clínicos ofrezcan a adultos con un IMC de 30 o más una intervención conductual intensiva y multicomponente ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). No dice nada sobre apps — pero sí dice cuáles son los ingredientes activos.\n\n## 6 criterios para elegir una app de coaching con IA\n\n### 1. ¿Lee tus propios datos, o solo tus mensajes?\n\nPregunta en el período de prueba: '¿qué comí ayer?' Si no puede responder sin que lo pegues, el coach es una ventana de chat y la app es un rastreador. Eso no es un escándalo — es simplemente un producto diferente, con precio como si no lo fuera.\n\n### 2. ¿Te da una acción, o un plan?\n\nUn plan es lo que ya fallaste en seguir. Una acción concreta para hoy — *come 30g de proteína en el desayuno mañana* — es algo que puedes hacer o no hacer, lo que lo hace medible. La taxonomía estándar de intervenciones de cambio de comportamiento cataloga 93 técnicas discretas, y la unidad en todo momento es una acción específica en lugar de una intención general ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)).\n\n### 3. ¿Cambia de opinión cuando tú cambias?\n\nLa versión honesta de esta prueba toma dos semanas. Registra deliberadamente una mala semana. Un sistema de coaching real se ajusta: baja la exigencia, cambia el objetivo, o pregunta qué pasó. Uno programado repite el mismo empujón alegre, que es cómo aprendes que la 'personalización' es una plantilla.\n\n### 4. ¿Recuerda?\n\nEl coaching es una relación con continuidad. Si le dices que eres vegetariano en enero y sugiere pollo en marzo, no te está haciendo coaching; te está respondiendo. La memoria entre sesiones es la característica más costosa en esta categoría y la que más a menudo se falsifica.\n\n### 5. ¿Dónde están sus límites de seguridad?\n\nUna buena IA de salud rechaza cosas. No debería diagnosticar, no debería decirte que cambies una dosis prescrita, y debería ser explícita en que las cifras de composición corporal y calorías son estimaciones. Una app que responde con confianza preguntas médicas que debería rechazar no es más capaz — es menos segura.\n\n### 6. ¿En qué idioma te hace coaching — realmente?\n\nLas cadenas de interfaz traducidas no son lo mismo que coaching en tu idioma. Pruébala en el idioma en que realmente piensas, con una comida que realmente comes. Muchas apps traducen botones y luego hacen coaching en inglés traducido automáticamente.\n\n## Los cuatro tipos de 'coach de IA' que encontrarás\n\n*Las características de las apps a continuación son de octubre de 2026 — esta categoría cambia rápido, así que verifica en la lista de la tienda en vivo.*\n\n| Tipo | Lo que realmente es | Ejemplos | Conoce tus registros | El compromiso |\n| --- | --- | --- | --- | --- |\n| Asistente general | Un chatbot de frontera al que haces preguntas de salud | ChatGPT, Claude, Gemini | Sin flujo continuo | Recuerda entre chats y puede enviar mensajes según horario, pero solo lo que configures |\n| Chat agregado a un rastreador | Una pestaña de chat dentro de una app de registro | MyFitnessPal, Cal AI | Parcialmente — a menudo solo entradas recientes | Reactivo; el coaching sigue siendo tu idea |\n| Programa con asistencia de IA | Currículo diseñado por humanos, entrega con IA | Noom, WeightWatchers | Dentro del programa | Sigues su arco, no el tuyo |\n| Coach de ayuno | Una ventana de alimentación más un coach siempre activo | Simple.Life ('Avo') | Registro de ayuno y comida | Centrado en IMC y patrón de ayuno |\n| Coach diario basado en datos | Lee tus registros y abre con una acción | HAVIT | Comidas, sueño, pasos, ciclo, estado de ánimo, medicación | Solo tan bueno como lo que registres |\n\nLa mayoría de la decepción en esta categoría viene de pagar por la fila cuatro y recibir la fila dos.\n\n## Quién no debería comprar una app de coaching con IA\n\nEsto importa más que otra lista de características.\n\n- **Si no registras nada, omítela.** Cada coach en las filas tres y cuatro es una función de tus datos. Sin entradas, se degrada en un chatbot por el que estás pagando una suscripción. Comienza con un hábito de registro; agrega el coach cuando tengas cuatro semanas de datos.\n- **Si quieres un humano, contrata uno.** El coaching con IA es más barato, está disponible a las 2am, y nunca te juzga. Tampoco es un dietista, no es un terapeuta, y no es responsable ante ti. Para trastornos alimentarios, una condición diagnosticada, o un objetivo atlético con fecha límite, una persona es la decisión correcta.\n- **Si ya sabes exactamente qué hacer**, necesitas herramientas de adherencia — alarmas, rachas, un amigo — no consejos.\n\n## Donde esta categoría es más débil — incluyéndonos\n\n- **Las estimaciones siguen siendo estimaciones.** Las cifras de calorías basadas en fotos y los números de composición corporal con IA, incluidos los de HAVIT, son aproximaciones. Léelos como tendencias, no mediciones.\n- **La proactividad puede volverse molesta.** El mismo mecanismo que hace útil a un coach hace agotador a uno malo. Verifica que las notificaciones sean granulares antes de comprometerte.\n- **La memoria es desigual.** Casi todas las apps en este espacio, incluida la nuestra, recuerdan algunas cosas y olvidan otras. Pruébala en algo que te importe — una alergia, un objetivo, una restricción — antes de confiarle el resto.\n- **HAVIT** es solo tan bueno como el día que registraste. En una semana en que no registras nada no tiene nada que decir, donde un asistente general todavía responde. Hace coaching hacia hábitos y tendencias de composición corporal, no hacia un objetivo de rendimiento con fecha — si quieres periodización programada para una carrera, esta es la herramienta equivocada. Y es una app de bienestar, no un dispositivo médico: HAVIT no es una herramienta de diagnóstico médico, no diagnosticará, y no te dirá que cambies una dosis prescrita.\n\n## La conclusión\n\nLa pregunta no es 'cuál IA es más inteligente'. Todas las serias son lo suficientemente inteligentes para este trabajo. La pregunta es cuál **ve tus datos, dice una cosa, y cambia cuando tú cambias.**\n\nPrueba eso en el período de prueba, en tu propio idioma, con tu propia comida, durante dos semanas incluyendo una mala semana. La mayoría de la categoría falla esa prueba, y toma alrededor de catorce días descubrirlo.\n\n## Por qué HAVIT — un coach que lee tu día\n\nHAVI, el coach de HAVIT, está construido alrededor de las tres pruebas anteriores. Lee lo que registraste — comidas, hidratación, sueño, pasos, ciclo, estado de ánimo, medicación GLP-1 — y devuelve una acción concreta para hoy en lugar de un plan para el trimestre. El check-in diario existe para que el coach sepa qué tipo de día es antes de pedirte algo.\n\nLa razón de ese diseño es la base de evidencia: el cambio de comportamiento estructurado es lo que la orientación clínica recomienda junto con, no en lugar de, todo lo demás ([USPSTF, Grado B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)), y el Programa de Prevención de Diabetes mostró que un programa de estilo de vida estructurado superó a metformin en riesgo de diabetes, 58% a 31% ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\nEn nuestro propio análisis de 1,090 usuarios de GLP-1, los registradores más consistentes construyeron los hábitos más fuertes ([Reporte de Hábitos GLP-1](/en/glp-1-habit-report)).\n\nHAVIT es una app de bienestar, no un dispositivo médico. HAVIT no es una herramienta de diagnóstico médico. No diagnostica, y no te dirá que cambies una dosis prescrita. Los resultados de composición corporal son estimaciones.\n\n[Prueba HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "Grado de recomendación USPSTF para intervención conductual intensiva y multicomponente",
+          "value": "Grado B",
+          "source": "U.S. Preventive Services Task Force"
+        },
+        {
+          "label": "DPP: programa de estilo de vida estructurado vs metformin, reducción de riesgo de diabetes",
+          "value": "58% vs 31%",
+          "source": "Knowler et al. 2002, NEJM (n=3,234)"
+        },
+        {
+          "label": "Técnicas de cambio de comportamiento en la taxonomía estándar",
+          "value": "93 técnicas",
+          "source": "Michie et al. 2013, Ann Behav Med"
+        },
+        {
+          "label": "Tipos de coach de IA nombrados en esta guía",
+          "value": "5 tipos",
+          "source": "Asistente general · chat-en-rastreador · programa · coach de ayuno · basado en datos"
+        }
+      ],
+      "comparison_table": {
+        "title": "Los cuatro tipos de 'coach de IA'",
+        "headers": [
+          "Tipo",
+          "Lo que realmente es",
+          "Conoce tus datos",
+          "Mejor para",
+          "Compromiso"
+        ],
+        "rows": [
+          [
+            "Asistente general",
+            "Un chatbot de frontera al que haces preguntas de salud",
+            "No",
+            "Explicar conceptos, planes a pedido",
+            "Comienza desde cero; nada proactivo"
+          ],
+          [
+            "Chat agregado a un rastreador",
+            "Una pestaña de chat dentro de una app de registro",
+            "Parcialmente — a menudo solo entradas recientes",
+            "Preguntar sobre una entrada que acabas de hacer",
+            "Reactivo; el coaching sigue siendo tu idea"
+          ],
+          [
+            "Programa con asistencia de IA",
+            "Currículo diseñado por humanos, entrega con IA",
+            "Sí, dentro del programa",
+            "Personas que quieren estructura y lecciones",
+            "Sigues su arco, no el tuyo"
+          ],
+          [
+            "Coach diario basado en datos",
+            "Lee tus registros, abre con una acción",
+            "Sí — comidas, sueño, pasos, ciclo, estado de ánimo",
+            "Rastreadores que aún no saben qué cambiar",
+            "Solo tan bueno como lo que registres"
+          ]
+        ],
+        "caption": "La mayoría de la decepción en esta categoría viene de pagar por la fila cuatro y recibir la fila dos."
+      },
+      "faq": [
+        {
+          "question": "¿Cuál es la mejor app de coach de salud con IA en 2026?",
+          "answer": "La que lee tus propios datos registrados en lugar de solo tus mensajes de chat. Pregúntale en el período de prueba qué comiste ayer — si tienes que pegar la respuesta, es una ventana de chat dentro de un rastreador, no un coach. Luego verifica que devuelva una acción concreta en lugar de un plan, y que se ajuste cuando tengas una mala semana."
+        },
+        {
+          "question": "¿En qué se diferencia una app de coaching con IA de preguntarle a ChatGPT o Claude sobre mi dieta?",
+          "answer": "Un asistente general responde las preguntas que ya sabías hacer, comenzando desde cero cada vez. Una app de coaching tiene acceso a tus comidas, sueño, pasos, ciclo y medicación, y habla primero — puede decirte que cuatro días de proteína baja, dos noches cortas y un peso estable están conectados. Esa es una diferencia de acceso a datos y diseño, no de calidad del modelo."
+        },
+        {
+          "question": "¿Puede un coach de IA reemplazar a un dietista o un terapeuta?",
+          "answer": "No. El coaching con IA es más barato, está disponible a las 2am y nunca juzga, pero no es un profesional licenciado y no es responsable ante ti. Para trastornos alimentarios, una condición diagnosticada, o un objetivo atlético con fecha límite, consulta a una persona. Una buena IA de salud también se niega a diagnosticar o a decirte que cambies una dosis prescrita."
+        },
+        {
+          "question": "¿Cómo sé si la 'personalización' de una app es real?",
+          "answer": "Registra deliberadamente una mala semana. Un sistema de coaching real baja la exigencia, cambia el objetivo, o pregunta qué pasó. Uno programado repite el mismo empujón alegre. Esto toma alrededor de dos semanas detectar, por eso vale la pena hacerlo dentro del período de prueba gratuito."
+        },
+        {
+          "question": "¿Vale la pena un coach de IA si no registro nada?",
+          "answer": "No. Los coaches basados en datos son una función de tus entradas; sin nada registrado, estás pagando una suscripción por un chatbot. Construye primero un hábito de registro y agrega coaching una vez que tengas aproximadamente cuatro semanas de datos."
+        },
+        {
+          "question": "¿Las apps de coaching con IA funcionan en idiomas distintos al inglés?",
+          "answer": "La traducción de interfaz y el coaching en tu idioma son cosas diferentes. Muchas apps traducen botones y luego hacen coaching en inglés traducido automáticamente. Pruébala en el idioma en que realmente piensas, usando una comida que realmente comes."
+        }
+      ],
+      "references": [
+        {
+          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+        },
+        {
+          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
+          "source": "New England Journal of Medicine, 2002 (n=3,234)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
+          "source": "U.S. Preventive Services Task Force, 2018 (topic under update); adults with BMI ≥30, clinician-delivered",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — HAVIT internal analysis of 1,090 GLP-1 users",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "pt-BR": {
+      "title": "Melhores Apps de Coach de Saúde com IA em 2026: Como Diferenciar um Coach de um Chatbot",
+      "short_title": "Melhores Apps de Coach com IA 2026",
+      "meta_description": "Quase todos os apps de saúde adicionaram um coach com IA. A maioria adicionou uma caixa de chat. Seis critérios, quatro tipos de 'coach com IA', quem não deveria comprar um, e onde toda a categoria — incluindo a nossa — é mais fraca.",
+      "tldr": "Um coach sabe algo sobre você que você nunca digitou no chat. Teste três coisas no período de teste: ele lê seus dados, ele dá uma ação em vez de um plano, e ele muda quando você tem uma semana ruim?",
+      "body_md": "*Divulgação honesta: HAVIT publica este blog e desenvolve um dos apps discutidos. Tentamos escrever o guia que gostaríamos de ler antes de pagar por um — incluindo as partes onde nossa própria categoria é mais fraca.*\n\nQuase todos os apps de saúde adicionaram um coach com IA nos últimos dois anos. A maioria deles adicionou uma caixa de chat. Essas não são a mesma coisa, e a diferença decide se você terá um coach ou um mecanismo de busca com tom amigável.\n\nUma caixa de chat responde perguntas que você já sabia fazer. Um coach percebe o que você não perguntou. Este guia é sobre como diferenciar os dois antes de pagar por doze meses de um deles.\n\n## O que separa um coach de um chatbot\n\nO teste é simples: **ele sabe algo sobre você que você não digitou no chat?**\n\nUm assistente geral pode explicar creatina, montar um plano alimentar e te ajudar a superar um platô. Ele fará tudo isso bem. Assistentes gerais agora lembram de conversas anteriores, e podem te enviar mensagens em um horário programado se você configurar. O que eles ainda não têm é um **feed ao vivo das refeições, sono e passos de hoje**. Então a mensagem das 21h — sua proteína está abaixo da meta há quatro dias seguidos, você dormiu menos de seis horas duas vezes esta semana, seu peso está estável, e aqui está qual dos três corrigir primeiro — tem que ser uma que você configurou antecipadamente, com dados que você colou.\n\nEssa diferença não é qualidade do modelo. É acesso contínuo aos seus dados registrados, e uma decisão de design de falar primeiro a partir deles.\n\nHá um segundo teste, menos óbvio: **ele diz menos do que você esperava?** Um coach que responde uma pergunta simples com quatorze tópicos não te disse nada — ele transferiu o trabalho de decidir de volta para você. Coaching é compressão. A forma que a orientação clínica apoia é estruturada e repetida: a USPSTF dá uma recomendação Grau B para que clínicos ofereçam a adultos com IMC de 30 ou mais intervenção comportamental intensiva e multicomponente ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Não diz nada sobre apps — mas diz quais são os ingredientes ativos.\n\n## 6 critérios para escolher um app de coaching com IA\n\n### 1. Ele lê seus próprios dados, ou apenas suas mensagens?\n\nPergunte no período de teste: 'o que eu comi ontem?' Se ele não conseguir responder sem você colar a informação, o coach é uma janela de chat e o app é um rastreador. Isso não é um escândalo — é apenas um produto diferente, com preço como se não fosse.\n\n### 2. Ele te dá uma ação, ou um plano?\n\nUm plano é o que você já falhou em seguir. Uma ação concreta para hoje — *coma 30g de proteína no café da manhã amanhã* — é algo que você pode fazer ou não fazer, o que a torna mensurável. A taxonomia padrão de intervenções de mudança de comportamento cataloga 93 técnicas discretas, e a unidade ao longo é uma ação específica em vez de uma intenção geral ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)).\n\n### 3. Ele muda de ideia quando você muda?\n\nA versão honesta deste teste leva duas semanas. Registre deliberadamente uma semana ruim. Um sistema de coaching real se ajusta: ele diminui a exigência, muda a meta, ou pergunta o que aconteceu. Um sistema programado repete o mesmo cutucão animado, que é como você descobre que a 'personalização' é um modelo.\n\n### 4. Ele lembra?\n\nCoaching é um relacionamento com continuidade. Se você diz que é vegetariano em janeiro e ele sugere frango em março, ele não está te orientando; ele está te respondendo. Memória entre sessões é o recurso mais caro nesta categoria e o que mais frequentemente é falsificado.\n\n### 5. Onde estão seus limites de segurança?\n\nUma boa IA de saúde recusa coisas. Ela não deve diagnosticar, não deve te dizer para mudar uma dose prescrita, e deve ser explícita que números de composição corporal e calorias são estimativas. Um app que responde confiantemente perguntas médicas que deveria recusar não é mais capaz — é menos seguro.\n\n### 6. Em que idioma ele te orienta — de verdade?\n\nStrings de interface traduzidas não são o mesmo que coaching no seu idioma. Teste no idioma em que você realmente pensa, com um alimento que você realmente come. Muitos apps traduzem botões e depois fazem coaching em inglês traduzido por máquina.\n\n## Os quatro tipos de 'coach com IA' que você encontrará\n\n*As características dos apps abaixo são de outubro de 2026 — esta categoria muda rápido, então verifique na listagem da loja ao vivo.*\n\n| Tipo | O que realmente é | Exemplos | Conhece seus registros | A compensação |\n| --- | --- | --- | --- | --- |\n| Assistente geral | Um chatbot de ponta ao qual você faz perguntas sobre saúde | ChatGPT, Claude, Gemini | Sem feed contínuo | Lembra de chats anteriores e pode enviar mensagens em horário programado, mas apenas o que você configurar |\n| Chat acoplado a um rastreador | Uma aba de chat dentro de um app de registro | MyFitnessPal, Cal AI | Parcialmente — frequentemente apenas entradas recentes | Reativo; o coaching ainda é sua ideia |\n| Programa com assistência de IA | Currículo desenhado por humanos, entrega por IA | Noom, WeightWatchers | Dentro do programa | Você segue o arco dele, não o seu |\n| Coach de jejum | Uma janela de alimentação mais um coach sempre disponível | Simple.Life ('Avo') | Jejum e registro de alimentos | Centrado em IMC e padrão de jejum |\n| Coach diário orientado por dados | Lê seus registros e abre com uma ação | HAVIT | Refeições, sono, passos, ciclo, humor, medicação | Tão bom quanto o que você registra |\n\nA maior decepção nesta categoria vem de pagar pela linha quatro e receber a linha dois.\n\n## Quem não deveria comprar um app de coaching com IA\n\nIsso importa mais do que outra lista de recursos.\n\n- **Se você não registra nada, pule.** Todo coach nas linhas três e quatro é uma função dos seus dados. Sem entradas, ele se degrada em um chatbot pelo qual você está pagando uma assinatura. Comece com um hábito de registro; adicione o coach quando tiver quatro semanas de dados.\n- **Se você quer um humano, contrate um.** Coaching com IA é mais barato, disponível às 2h da manhã, e nunca te julga. Também não é um nutricionista, não é um terapeuta, e não é responsável perante você. Para transtornos alimentares, uma condição diagnosticada, ou um objetivo atlético com prazo, uma pessoa é a escolha certa.\n- **Se você já sabe exatamente o que fazer**, você precisa de ferramentas de aderência — alarmes, sequências, um amigo — não conselhos.\n\n## Onde esta categoria é mais fraca — incluindo nós\n\n- **Estimativas continuam sendo estimativas.** Números de calorias baseados em fotos e números de composição corporal por IA, incluindo os do HAVIT, são aproximações. Leia-os como tendências, não medições.\n- **Proatividade pode se tornar incômodo.** O mesmo mecanismo que torna um coach útil torna um ruim exaustivo. Verifique se as notificações são granulares antes de se comprometer.\n- **Memória é irregular.** Quase todos os apps neste espaço, incluindo o nosso, lembram de algumas coisas e esquecem outras. Teste em algo que importa para você — uma alergia, um objetivo, uma restrição — antes de confiar nele com o resto.\n- **HAVIT** é tão bom quanto o dia que você registrou. Em uma semana em que você não registra nada, ele não tem nada a dizer, enquanto um assistente geral ainda responde. Ele orienta em direção a hábitos e tendências de composição corporal, não em direção a um objetivo de desempenho com data — se você quer periodização programada para uma corrida, esta é a ferramenta errada. E HAVIT não é uma ferramenta de diagnóstico médico: ele não diagnosticará, e não dirá para você mudar uma dose prescrita.\n\n## A conclusão\n\nA pergunta não é 'qual IA é mais inteligente'. Todas as sérias são inteligentes o suficiente para este trabalho. A pergunta é qual **vê seus dados, diz uma coisa, e muda quando você muda.**\n\nTeste isso no período de teste, no seu próprio idioma, com sua própria comida, ao longo de duas semanas incluindo uma semana ruim. A maior parte da categoria falha nesse teste, e leva cerca de quatorze dias para descobrir.\n\n## Por que HAVIT — um coach que lê seu dia\n\nHAVI, o coach do HAVIT, é construído em torno dos três testes acima. Ele lê o que você registrou — refeições, hidratação, sono, passos, ciclo, humor, medicação GLP-1 — e retorna uma ação concreta para hoje em vez de um plano para o trimestre. O check-in diário existe para que o coach saiba que tipo de dia é antes de pedir qualquer coisa de você.\n\nA razão para esse design é a base de evidências: mudança comportamental estruturada é o que a orientação clínica recomenda junto com, não em vez de, todo o resto ([USPSTF, Grau B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)), e o Diabetes Prevention Program mostrou que um programa de estilo de vida estruturado superou a metformina no risco de diabetes, 58% contra 31% ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\nEm nossa própria análise de 1.090 usuários de GLP-1, os registradores mais consistentes construíram os hábitos mais fortes ([Relatório de Hábitos GLP-1](/en/glp-1-habit-report)).\n\nHAVIT é um app de bem-estar, não um dispositivo médico. Ele não diagnostica, e não dirá para você mudar uma dose prescrita. Resultados de composição corporal são estimativas.\n\n[Experimente HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "Grau de recomendação da USPSTF para intervenção comportamental intensiva e multicomponente",
+          "value": "Grau B",
+          "source": "U.S. Preventive Services Task Force"
+        },
+        {
+          "label": "DPP: programa de estilo de vida estruturado vs metformina, redução de risco de diabetes",
+          "value": "58% vs 31%",
+          "source": "Knowler et al. 2002, NEJM (n=3.234)"
+        },
+        {
+          "label": "Técnicas de mudança de comportamento na taxonomia padrão",
+          "value": "93 técnicas",
+          "source": "Michie et al. 2013, Ann Behav Med"
+        },
+        {
+          "label": "Tipos de coach com IA nomeados neste guia",
+          "value": "5 tipos",
+          "source": "Assistente geral · chat-em-rastreador · programa · coach de jejum · orientado por dados"
+        }
+      ],
+      "comparison_table": {
+        "title": "Os quatro tipos de 'coach com IA'",
+        "headers": [
+          "Tipo",
+          "O que realmente é",
+          "Conhece seus dados",
+          "Melhor para",
+          "Compensação"
+        ],
+        "rows": [
+          [
+            "Assistente geral",
+            "Um chatbot de ponta ao qual você faz perguntas sobre saúde",
+            "Não",
+            "Explicar conceitos, planos sob demanda",
+            "Começa do zero; nada proativo"
+          ],
+          [
+            "Chat acoplado a um rastreador",
+            "Uma aba de chat dentro de um app de registro",
+            "Parcialmente — frequentemente apenas entradas recentes",
+            "Perguntar sobre uma entrada que você acabou de fazer",
+            "Reativo; o coaching ainda é sua ideia"
+          ],
+          [
+            "Programa com assistência de IA",
+            "Currículo desenhado por humanos, entrega por IA",
+            "Sim, dentro do programa",
+            "Pessoas que querem estrutura e lições",
+            "Você segue o arco dele, não o seu"
+          ],
+          [
+            "Coach diário orientado por dados",
+            "Lê seus registros, abre com uma ação",
+            "Sim — refeições, sono, passos, ciclo, humor",
+            "Rastreadores que ainda não sabem o que mudar",
+            "Tão bom quanto o que você registra"
+          ]
+        ],
+        "caption": "A maior decepção nesta categoria vem de pagar pela linha quatro e receber a linha dois."
+      },
+      "faq": [
+        {
+          "question": "Qual é o melhor app de coach de saúde com IA em 2026?",
+          "answer": "Aquele que lê seus próprios dados registrados em vez de apenas suas mensagens de chat. Pergunte no período de teste o que você comeu ontem — se você tiver que colar a resposta, é uma janela de chat dentro de um rastreador, não um coach. Depois verifique se ele retorna uma ação concreta em vez de um plano, e se ele se ajusta quando você tem uma semana ruim."
+        },
+        {
+          "question": "Como um app de coaching com IA é diferente de perguntar ao ChatGPT ou Claude sobre minha dieta?",
+          "answer": "Um assistente geral responde as perguntas que você já sabia fazer, começando do zero cada vez. Um app de coaching tem acesso às suas refeições, sono, passos, ciclo e medicação, e fala primeiro — ele pode te dizer que quatro dias de baixa proteína, duas noites curtas e um peso estável estão conectados. Essa é uma diferença de acesso a dados e design, não de qualidade do modelo."
+        },
+        {
+          "question": "Um coach com IA pode substituir um nutricionista ou um terapeuta?",
+          "answer": "Não. Coaching com IA é mais barato, disponível às 2h da manhã e nunca julga, mas não é um profissional licenciado e não é responsável perante você. Para transtornos alimentares, uma condição diagnosticada, ou um objetivo atlético com prazo, consulte uma pessoa. Uma boa IA de saúde também recusa diagnosticar ou dizer para você mudar uma dose prescrita."
+        },
+        {
+          "question": "Como saber se a 'personalização' de um app é real?",
+          "answer": "Registre deliberadamente uma semana ruim. Um sistema de coaching real diminui a exigência, muda a meta, ou pergunta o que aconteceu. Um sistema programado repete o mesmo cutucão animado. Isso leva cerca de duas semanas para detectar, por isso vale a pena fazer dentro do período de teste gratuito."
+        },
+        {
+          "question": "Um coach com IA vale a pena se eu não registro nada?",
+          "answer": "Não. Coaches orientados por dados são uma função das suas entradas; sem nada registrado, você está pagando uma assinatura por um chatbot. Construa um hábito de registro primeiro e adicione coaching quando tiver aproximadamente quatro semanas de dados."
+        },
+        {
+          "question": "Apps de coaching com IA funcionam em idiomas além do inglês?",
+          "answer": "Tradução de interface e coaching no seu idioma são coisas diferentes. Muitos apps traduzem botões e depois fazem coaching em inglês traduzido por máquina. Teste no idioma em que você realmente pensa, usando um alimento que você realmente come."
+        }
+      ],
+      "references": [
+        {
+          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+        },
+        {
+          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
+          "source": "New England Journal of Medicine, 2002 (n=3.234)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
+          "source": "U.S. Preventive Services Task Force, 2018 (tópico em atualização); adultos com IMC ≥30, entregue por clínico",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "Relatório de Hábitos GLP-1 2026 — análise interna da HAVIT de 1.090 usuários de GLP-1",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "id": {
+      "title": "Aplikasi AI Health Coach Terbaik di 2026: Cara Membedakan Coach dari Chatbot",
+      "short_title": "Aplikasi AI Health Coach Terbaik 2026",
+      "meta_description": "Hampir setiap aplikasi kesehatan menambahkan AI coach. Sebagian besar hanya menambahkan kotak chat. Enam kriteria, empat jenis 'AI coach', siapa yang sebaiknya tidak membelinya, dan di mana kelemahan terbesar kategori ini — termasuk milik kami.",
+      "tldr": "Seorang coach tahu sesuatu tentang Anda yang tidak pernah Anda ketik di chat. Uji tiga hal dalam masa percobaan: apakah ia membaca data Anda, apakah ia memberikan satu tindakan alih-alih rencana, dan apakah ia berubah ketika Anda mengalami minggu yang buruk?",
+      "body_md": "*Pengungkapan jujur: HAVIT menerbitkan blog ini dan membangun salah satu aplikasi yang dibahas. Kami berusaha menulis panduan yang ingin kami baca sebelum membayar untuk satu aplikasi — termasuk bagian di mana kategori kami sendiri paling lemah.*\n\nHampir setiap aplikasi kesehatan menambahkan AI coach dalam dua tahun terakhir. Sebagian besar dari mereka menambahkan kotak chat. Ini bukan hal yang sama, dan perbedaannya menentukan apakah Anda mendapatkan coach atau mesin pencari dengan nada ramah.\n\nKotak chat menjawab pertanyaan yang sudah Anda tahu untuk ditanyakan. Seorang coach memperhatikan apa yang tidak Anda tanyakan. Panduan ini tentang membedakan keduanya sebelum Anda membayar untuk dua belas bulan salah satunya.\n\n## Apa yang memisahkan coach dari chatbot\n\nTesnya sederhana: **apakah ia tahu sesuatu tentang Anda yang tidak Anda ketik ke dalam chat?**\n\nAsisten umum dapat menjelaskan creatine, membuat meal plan, dan membantu Anda melewati plateau. Ia akan melakukan semua itu dengan baik. Asisten umum sekarang mengingat percakapan sebelumnya, dan mereka dapat mengirimi Anda pesan sesuai jadwal jika Anda mengaturnya. Yang masih tidak mereka miliki adalah **feed langsung dari makanan, tidur, dan langkah hari ini**. Jadi pesan pukul 9 malam — protein Anda di bawah target empat hari berturut-turut, Anda tidur kurang dari enam jam dua kali minggu ini, berat badan Anda stagnan, dan inilah mana dari ketiga hal tersebut yang harus diperbaiki terlebih dahulu — harus menjadi pesan yang Anda konfigurasi sebelumnya, dari data yang Anda tempel.\n\nPerbedaan itu bukan kualitas model. Ini adalah akses berkelanjutan ke data yang Anda catat, dan keputusan desain untuk berbicara terlebih dahulu dari data tersebut.\n\nAda tes kedua yang kurang jelas: **apakah ia mengatakan lebih sedikit dari yang Anda harapkan?** Seorang coach yang menjawab pertanyaan sederhana dengan empat belas poin tidak memberi tahu Anda apa-apa — ia telah memindahkan pekerjaan memutuskan kembali kepada Anda. Coaching adalah kompresi. Bentuk yang didukung oleh panduan klinis terstruktur dan berulang: USPSTF memberikan rekomendasi Grade B bahwa dokter menawarkan intervensi perilaku intensif dan multikomponen kepada orang dewasa dengan BMI 30 atau lebih tinggi ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Tidak disebutkan tentang aplikasi — tetapi disebutkan apa bahan aktifnya.\n\n## 6 kriteria untuk memilih aplikasi AI coaching\n\n### 1. Apakah ia membaca data Anda sendiri, atau hanya pesan Anda?\n\nTanyakan dalam masa percobaan: 'apa yang saya makan kemarin?' Jika ia tidak dapat menjawab tanpa Anda menempelkannya, coach tersebut adalah jendela chat dan aplikasinya adalah tracker. Itu bukan skandal — itu hanya produk yang berbeda, dengan harga seolah-olah bukan.\n\n### 2. Apakah ia memberi Anda satu tindakan, atau rencana?\n\nRencana adalah apa yang sudah gagal Anda ikuti. Satu tindakan konkret untuk hari ini — *makan 30g protein saat sarapan besok* — adalah hal yang bisa Anda lakukan atau tidak lakukan, yang membuatnya terukur. Taksonomi standar intervensi perubahan perilaku mengkatalogkan 93 teknik diskrit, dan unit di seluruhnya adalah tindakan spesifik daripada niat umum ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)).\n\n### 3. Apakah ia mengubah pendapatnya ketika Anda berubah?\n\nVersi jujur dari tes ini membutuhkan dua minggu. Sengaja catat minggu yang buruk. Sistem coaching yang nyata menyesuaikan: ia menurunkan permintaan, mengubah target, atau bertanya apa yang terjadi. Yang terskrip mengulangi dorongan ceria yang sama, yang membuat Anda tahu bahwa 'personalisasi' adalah template.\n\n### 4. Apakah ia mengingat?\n\nCoaching adalah hubungan dengan kontinuitas. Jika Anda memberi tahu bahwa Anda vegetarian di Januari dan ia menyarankan ayam di Maret, ia tidak melatih Anda; ia menjawab Anda. Memori lintas sesi adalah fitur paling mahal dalam kategori ini dan yang paling sering dipalsukan.\n\n### 5. Di mana batas keamanannya?\n\nAI kesehatan yang baik menolak hal-hal tertentu. Ia tidak boleh mendiagnosis, tidak boleh memberi tahu Anda untuk mengubah dosis yang diresepkan, dan harus eksplisit bahwa angka komposisi tubuh dan kalori adalah perkiraan. Aplikasi yang dengan percaya diri menjawab pertanyaan medis yang seharusnya ditolak bukan lebih mampu — ia kurang aman.\n\n### 6. Dalam bahasa apa ia melatih Anda — sebenarnya?\n\nString antarmuka yang diterjemahkan tidak sama dengan coaching dalam bahasa Anda. Uji dalam bahasa yang sebenarnya Anda gunakan untuk berpikir, dengan makanan yang sebenarnya Anda makan. Banyak aplikasi menerjemahkan tombol dan kemudian melatih dalam bahasa Inggris yang diterjemahkan mesin.\n\n## Empat jenis 'AI coach' yang akan Anda temui\n\n*Karakteristik aplikasi di bawah ini per Oktober 2026 — kategori ini berubah cepat, jadi verifikasi pada daftar store langsung.*\n\n| Jenis | Apa sebenarnya | Contoh | Mengetahui log Anda | Trade-off |\n| --- | --- | --- | --- | --- |\n| Asisten umum | Chatbot frontier yang Anda tanyai pertanyaan kesehatan | ChatGPT, Claude, Gemini | Tidak ada feed berkelanjutan | Mengingat lintas chat dan dapat mengirim pesan sesuai jadwal, tetapi hanya yang Anda atur |\n| Chat yang ditempelkan ke tracker | Tab chat di dalam aplikasi pencatatan | MyFitnessPal, Cal AI | Sebagian — sering hanya entri terbaru | Reaktif; coaching masih ide Anda |\n| Program dengan bantuan AI | Kurikulum yang dirancang manusia, pengiriman AI | Noom, WeightWatchers | Dalam program | Anda mengikuti alurnya, bukan alur Anda |\n| Fasting coach | Jendela makan plus coach yang selalu aktif | Simple.Life ('Avo') | Log puasa dan makanan | Berpusat pada BMI dan pola puasa |\n| Daily coach berbasis data | Membaca log Anda dan membuka dengan satu tindakan | HAVIT | Makanan, tidur, langkah, siklus, mood, obat | Hanya sebaik apa yang Anda catat |\n\nSebagian besar kekecewaan dalam kategori ini berasal dari membayar untuk baris empat dan menerima baris dua.\n\n## Siapa yang sebaiknya tidak membeli aplikasi AI coaching\n\nIni lebih penting daripada daftar fitur lainnya.\n\n- **Jika Anda tidak mencatat apa pun, lewati saja.** Setiap coach di baris tiga dan empat adalah fungsi dari data Anda. Tanpa input, ia menurun menjadi chatbot yang Anda bayar dengan langganan. Mulailah dengan kebiasaan mencatat; tambahkan coach ketika Anda memiliki empat minggu data.\n- **Jika Anda menginginkan manusia, pekerjakan satu.** AI coaching lebih murah, tersedia pada pukul 2 pagi, dan tidak pernah menghakimi Anda. Ini juga bukan ahli gizi, bukan terapis, dan tidak bertanggung jawab kepada Anda. Untuk gangguan makan, kondisi yang didiagnosis, atau tujuan atletik dengan tenggat waktu, orang adalah pilihan yang tepat.\n- **Jika Anda sudah tahu persis apa yang harus dilakukan**, Anda membutuhkan alat kepatuhan — alarm, streak, teman — bukan nasihat.\n\n## Di mana kategori ini paling lemah — termasuk kami\n\n- **Perkiraan tetap perkiraan.** Angka kalori berbasis foto dan angka komposisi tubuh AI, termasuk milik HAVIT, adalah perkiraan. Baca sebagai tren, bukan pengukuran.\n- **Proaktivitas bisa menjadi mengganggu.** Mekanisme yang sama yang membuat coach berguna membuat yang buruk melelahkan. Periksa bahwa notifikasi terperinci sebelum Anda berkomitmen.\n- **Memori tidak merata.** Hampir setiap aplikasi di ruang ini, termasuk milik kami, mengingat beberapa hal dan melupakan yang lain. Uji pada sesuatu yang penting bagi Anda — alergi, tujuan, batasan — sebelum Anda mempercayainya dengan sisanya.\n- **HAVIT** hanya sebaik hari yang Anda catat. Pada minggu Anda tidak mencatat apa pun, ia tidak memiliki apa-apa untuk dikatakan, di mana asisten umum masih menjawab. Ia melatih menuju kebiasaan dan tren komposisi tubuh, bukan menuju tujuan kinerja bertanggal — jika Anda menginginkan periodisasi terprogram untuk perlombaan, ini adalah alat yang salah. Dan ini adalah aplikasi wellness, bukan alat medis: HAVIT bukan alat diagnostik medis, tidak akan mendiagnosis, dan tidak akan memberi tahu Anda untuk mengubah dosis yang diresepkan.\n\n## Kesimpulan\n\nPertanyaannya bukan 'AI mana yang paling pintar.' Semua yang serius cukup pintar untuk pekerjaan ini. Pertanyaannya adalah mana yang **melihat data Anda, mengatakan satu hal, dan berubah ketika Anda berubah.**\n\nUji itu dalam masa percobaan, dalam bahasa Anda sendiri, dengan makanan Anda sendiri, selama dua minggu termasuk satu minggu buruk. Sebagian besar kategori gagal tes itu, dan dibutuhkan sekitar empat belas hari untuk mengetahuinya.\n\n## Mengapa HAVIT — coach yang membaca hari Anda\n\nHAVI, coach HAVIT, dibangun di sekitar tiga tes di atas. Ia membaca apa yang Anda catat — makanan, hidrasi, tidur, langkah, siklus, mood, obat GLP-1 — dan mengembalikan satu tindakan konkret untuk hari ini daripada rencana untuk kuartal. Check-in harian ada sehingga coach tahu hari seperti apa sebelum meminta apa pun dari Anda.\n\nAlasan untuk desain itu adalah basis bukti: perubahan perilaku terstruktur adalah apa yang direkomendasikan panduan klinis bersama dengan, bukan sebagai pengganti, segala hal lainnya ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)), dan Diabetes Prevention Program menunjukkan program gaya hidup terstruktur mengungguli metformin pada risiko diabetes, 58% hingga 31% ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\nDalam analisis kami sendiri terhadap 1.090 pengguna GLP-1, pencatat paling konsisten membangun kebiasaan terkuat ([GLP-1 Habit Report](/en/glp-1-habit-report)).\n\nHAVIT adalah aplikasi wellness, bukan alat medis. HAVIT bukan alat diagnostik medis, tidak mendiagnosis, dan tidak akan memberi tahu Anda untuk mengubah dosis yang diresepkan. Hasil komposisi tubuh adalah perkiraan.\n\n[Coba HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "Grade rekomendasi USPSTF untuk intervensi perilaku intensif dan multikomponen",
+          "value": "Grade B",
+          "source": "U.S. Preventive Services Task Force"
+        },
+        {
+          "label": "DPP: program gaya hidup terstruktur vs metformin, pengurangan risiko diabetes",
+          "value": "58% vs 31%",
+          "source": "Knowler et al. 2002, NEJM (n=3.234)"
+        },
+        {
+          "label": "Teknik perubahan perilaku dalam taksonomi standar",
+          "value": "93 teknik",
+          "source": "Michie et al. 2013, Ann Behav Med"
+        },
+        {
+          "label": "Jenis AI-coach yang disebutkan dalam panduan ini",
+          "value": "5 jenis",
+          "source": "Asisten umum · chat-in-tracker · program · fasting coach · berbasis data"
+        }
+      ],
+      "comparison_table": {
+        "title": "Empat jenis 'AI coach'",
+        "headers": [
+          "Jenis",
+          "Apa sebenarnya",
+          "Mengetahui data Anda",
+          "Terbaik untuk",
+          "Trade-off"
+        ],
+        "rows": [
+          [
+            "Asisten umum",
+            "Chatbot frontier yang Anda tanyai pertanyaan kesehatan",
+            "Tidak",
+            "Menjelaskan konsep, rencana atas permintaan",
+            "Mulai dari nol; tidak ada yang proaktif"
+          ],
+          [
+            "Chat yang ditempelkan ke tracker",
+            "Tab chat di dalam aplikasi pencatatan",
+            "Sebagian — sering hanya entri terbaru",
+            "Bertanya tentang entri yang baru saja Anda buat",
+            "Reaktif; coaching masih ide Anda"
+          ],
+          [
+            "Program dengan bantuan AI",
+            "Kurikulum yang dirancang manusia, pengiriman AI",
+            "Ya, dalam program",
+            "Orang yang menginginkan struktur dan pelajaran",
+            "Anda mengikuti alurnya, bukan alur Anda"
+          ],
+          [
+            "Daily coach berbasis data",
+            "Membaca log Anda, membuka dengan satu tindakan",
+            "Ya — makanan, tidur, langkah, siklus, mood",
+            "Pencatat yang masih tidak tahu apa yang harus diubah",
+            "Hanya sebaik apa yang Anda catat"
+          ]
+        ],
+        "caption": "Sebagian besar kekecewaan dalam kategori ini berasal dari membayar untuk baris empat dan menerima baris dua."
+      },
+      "faq": [
+        {
+          "question": "Apa aplikasi AI health coach terbaik di 2026?",
+          "answer": "Yang membaca data yang Anda catat sendiri daripada hanya pesan chat Anda. Tanyakan dalam masa percobaan apa yang Anda makan kemarin — jika Anda harus menempelkan jawabannya, itu adalah jendela chat di dalam tracker, bukan coach. Kemudian periksa bahwa ia mengembalikan satu tindakan konkret daripada rencana, dan bahwa ia menyesuaikan ketika Anda mengalami minggu yang buruk."
+        },
+        {
+          "question": "Bagaimana aplikasi AI coaching berbeda dari bertanya kepada ChatGPT atau Claude tentang diet saya?",
+          "answer": "Asisten umum menjawab pertanyaan yang sudah Anda tahu untuk ditanyakan, mulai dari nol setiap kali. Aplikasi coaching memiliki akses ke makanan, tidur, langkah, siklus, dan obat Anda, dan berbicara terlebih dahulu — ia dapat memberi tahu Anda bahwa empat hari protein rendah, dua malam pendek, dan berat badan stagnan terhubung. Itu adalah perbedaan akses data dan desain, bukan perbedaan kualitas model."
+        },
+        {
+          "question": "Bisakah AI coach menggantikan ahli gizi atau terapis?",
+          "answer": "Tidak. AI coaching lebih murah, tersedia pada pukul 2 pagi dan tidak pernah menghakimi, tetapi bukan profesional berlisensi dan tidak bertanggung jawab kepada Anda. Untuk gangguan makan, kondisi yang didiagnosis, atau tujuan atletik dengan tenggat waktu, temui orang. AI kesehatan yang baik juga menolak untuk mendiagnosis atau memberi tahu Anda untuk mengubah dosis yang diresepkan."
+        },
+        {
+          "question": "Bagaimana cara mengetahui apakah 'personalisasi' aplikasi itu nyata?",
+          "answer": "Catat minggu yang sengaja buruk. Sistem coaching yang nyata menurunkan permintaan, mengubah target, atau bertanya apa yang terjadi. Yang terskrip mengulangi dorongan ceria yang sama. Ini membutuhkan sekitar dua minggu untuk mendeteksi, itulah mengapa layak dilakukan di dalam masa percobaan gratis."
+        },
+        {
+          "question": "Apakah AI coach layak jika saya tidak mencatat apa pun?",
+          "answer": "Tidak. Coach berbasis data adalah fungsi dari input Anda; tanpa apa pun yang dicatat, Anda membayar langganan untuk chatbot. Bangun kebiasaan mencatat terlebih dahulu dan tambahkan coaching setelah Anda memiliki sekitar empat minggu data."
+        },
+        {
+          "question": "Apakah aplikasi AI coaching bekerja dalam bahasa selain bahasa Inggris?",
+          "answer": "Terjemahan antarmuka dan coaching dalam bahasa Anda adalah hal yang berbeda. Banyak aplikasi menerjemahkan tombol dan kemudian melatih dalam bahasa Inggris yang diterjemahkan mesin. Uji dalam bahasa yang sebenarnya Anda gunakan untuk berpikir, menggunakan makanan yang sebenarnya Anda makan."
+        }
+      ],
+      "references": [
+        {
+          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+        },
+        {
+          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
+          "source": "New England Journal of Medicine, 2002 (n=3.234)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
+          "source": "U.S. Preventive Services Task Force, 2018 (topik dalam pembaruan); dewasa dengan BMI ≥30, diberikan oleh dokter",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — analisis internal HAVIT terhadap 1.090 pengguna GLP-1",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "de": {
+      "title": "Beste KI-Gesundheitscoach-Apps 2026: Wie man einen Coach von einem Chatbot unterscheidet",
+      "short_title": "Beste KI-Gesundheitscoach-Apps 2026",
+      "meta_description": "Fast jede Gesundheits-App hat einen KI-Coach hinzugefügt. Die meisten haben eine Chatbox hinzugefügt. Sechs Kriterien, vier Arten von 'KI-Coach', wer keinen kaufen sollte und wo die gesamte Kategorie – einschließlich unserer – am schwächsten ist.",
+      "tldr": "Ein Coach weiß etwas über Sie, das Sie nie in den Chat eingegeben haben. Testen Sie drei Dinge in der Testphase: Liest er Ihre Daten, gibt er eine Handlung statt eines Plans und ändert er sich, wenn Sie eine schlechte Woche haben?",
+      "body_md": "*Ehrliche Offenlegung: HAVIT veröffentlicht diesen Blog und entwickelt eine der besprochenen Apps. Wir haben versucht, den Leitfaden zu schreiben, den wir selbst lesen möchten, bevor wir für eine App bezahlen – einschließlich der Bereiche, in denen unsere eigene Kategorie am schwächsten ist.*\n\nFast jede Gesundheits-App hat in den letzten zwei Jahren einen KI-Coach hinzugefügt. Die meisten haben eine Chatbox hinzugefügt. Das ist nicht dasselbe, und der Unterschied entscheidet darüber, ob Sie einen Coach oder eine Suchmaschine mit freundlichem Ton erhalten.\n\nEine Chatbox beantwortet Fragen, von denen Sie bereits wussten, dass Sie sie stellen sollten. Ein Coach bemerkt, wonach Sie nicht gefragt haben. Dieser Leitfaden hilft Ihnen, die beiden zu unterscheiden, bevor Sie für zwölf Monate bezahlen.\n\n## Was einen Coach von einem Chatbot unterscheidet\n\nDer Test ist einfach: **Weiß er etwas über Sie, das Sie nicht in den Chat eingegeben haben?**\n\nEin allgemeiner Assistent kann Kreatin erklären, einen Ernährungsplan erstellen und Sie durch ein Plateau begleiten. Er wird all das gut machen. Allgemeine Assistenten erinnern sich jetzt über Gespräche hinweg, und sie können Ihnen nach einem Zeitplan Nachrichten senden, wenn Sie einen einrichten. Was sie immer noch nicht haben, ist ein **Live-Feed der heutigen Mahlzeiten, des Schlafs und der Schritte**. Die Nachricht um 21 Uhr – Ihr Protein lag vier Tage hintereinander unter dem Zielwert, Sie haben zweimal diese Woche unter sechs Stunden geschlafen, Ihr Gewicht stagniert, und hier ist, welches der drei Sie zuerst beheben sollten – muss eine sein, die Sie im Voraus konfiguriert haben, aus Daten, die Sie eingefügt haben.\n\nDieser Unterschied liegt nicht in der Modellqualität. Es ist der kontinuierliche Zugriff auf Ihre protokollierten Daten und eine Designentscheidung, zuerst daraus zu sprechen.\n\nEs gibt einen zweiten, weniger offensichtlichen Test: **Sagt er weniger als erwartet?** Ein Coach, der eine einfache Frage mit vierzehn Aufzählungspunkten beantwortet, hat Ihnen nichts gesagt – er hat die Entscheidungsarbeit an Sie zurückgegeben. Coaching ist Kompression. Die Form, die klinische Leitlinien unterstützen, ist strukturiert und wiederholt: Die USPSTF gibt eine Empfehlung der Stufe B, dass Kliniker Erwachsenen mit einem BMI von 30 oder höher intensive, multikomponentale Verhaltensinterventionen anbieten sollten ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Sie sagt nichts über Apps – aber sie sagt, was die aktiven Bestandteile sind.\n\n## 6 Kriterien für die Auswahl einer KI-Coaching-App\n\n### 1. Liest sie Ihre eigenen Daten oder nur Ihre Nachrichten?\n\nFragen Sie in der Testphase: 'Was habe ich gestern gegessen?' Wenn sie nicht antworten kann, ohne dass Sie es einfügen, ist der Coach ein Chatfenster und die App ein Tracker. Das ist kein Skandal – es ist nur ein anderes Produkt, das so bepreist wird, als wäre es keines.\n\n### 2. Gibt sie Ihnen eine Handlung oder einen Plan?\n\nEin Plan ist das, was Sie bereits nicht befolgt haben. Eine konkrete Handlung für heute – *essen Sie morgen zum Frühstück 30 g Protein* – ist etwas, das Sie entweder tun oder nicht tun können, was es messbar macht. Die Standardtaxonomie von Verhaltensänderungsinterventionen katalogisiert 93 diskrete Techniken, und die Einheit ist durchweg eine spezifische Handlung statt einer allgemeinen Absicht ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)).\n\n### 3. Ändert sie ihre Meinung, wenn Sie sich ändern?\n\nDie ehrliche Version dieses Tests dauert zwei Wochen. Protokollieren Sie absichtlich eine schlechte Woche. Ein echtes Coaching-System passt sich an: Es senkt die Anforderung, ändert das Ziel oder fragt, was passiert ist. Ein geskriptetes wiederholt denselben fröhlichen Anstoß, wodurch Sie lernen, dass die 'Personalisierung' eine Vorlage ist.\n\n### 4. Erinnert sie sich?\n\nCoaching ist eine Beziehung mit Kontinuität. Wenn Sie ihr im Januar sagen, dass Sie Vegetarier sind, und sie im März Hühnchen vorschlägt, coacht sie Sie nicht; sie beantwortet Sie. Erinnerung über Sitzungen hinweg ist die teuerste Funktion in dieser Kategorie und diejenige, die am häufigsten vorgetäuscht wird.\n\n### 5. Wo sind ihre Sicherheitsgrenzen?\n\nEine gute Gesundheits-KI lehnt Dinge ab. Sie sollte nicht diagnostizieren, sollte Ihnen nicht sagen, eine verschriebene Dosis zu ändern, und sollte explizit sein, dass Körperzusammensetzungs- und Kalorienzahlen Schätzungen sind. Eine App, die medizinische Fragen, die sie ablehnen sollte, selbstbewusst beantwortet, ist nicht fähiger – sie ist weniger sicher.\n\n### 6. In welcher Sprache coacht sie Sie – wirklich?\n\nÜbersetzte Oberflächenstrings sind nicht dasselbe wie Coaching in Ihrer Sprache. Testen Sie sie in der Sprache, in der Sie tatsächlich denken, mit einem Lebensmittel, das Sie tatsächlich essen. Viele Apps übersetzen Schaltflächen und coachen dann in maschinell übersetztem Englisch.\n\n## Die vier Arten von 'KI-Coach', denen Sie begegnen werden\n\n*App-Merkmale unten sind Stand Oktober 2026 – diese Kategorie ändert sich schnell, überprüfen Sie daher die Live-Store-Auflistung.*\n\n| Typ | Was es tatsächlich ist | Beispiele | Kennt Ihre Protokolle | Der Kompromiss |\n| --- | --- | --- | --- | --- |\n| Allgemeiner Assistent | Ein Frontier-Chatbot, den Sie Gesundheitsfragen stellen | ChatGPT, Claude, Gemini | Kein kontinuierlicher Feed | Erinnert sich über Chats hinweg und kann nach Zeitplan Nachrichten senden, aber nur was Sie einrichten |\n| Chat an Tracker angebaut | Ein Chat-Tab in einer Protokollierungs-App | MyFitnessPal, Cal AI | Teilweise – oft nur aktuelle Einträge | Reaktiv; das Coaching ist immer noch Ihre Idee |\n| Programm mit KI-Unterstützung | Von Menschen entworfener Lehrplan, KI-Bereitstellung | Noom, WeightWatchers | Innerhalb des Programms | Sie folgen seinem Bogen, nicht Ihrem |\n| Fasten-Coach | Ein Essensfenster plus ein immer verfügbarer Coach | Simple.Life ('Avo') | Fasten- und Ernährungsprotokoll | BMI- und Fastenmuster-zentriert |\n| Datengesteuerter täglicher Coach | Liest Ihre Protokolle und beginnt mit einer Handlung | HAVIT | Mahlzeiten, Schlaf, Schritte, Zyklus, Stimmung, Medikamente | Nur so gut wie das, was Sie protokollieren |\n\nDie meiste Enttäuschung in dieser Kategorie kommt daher, dass man für Zeile vier bezahlt und Zeile zwei erhält.\n\n## Wer sollte keine KI-Coaching-App kaufen\n\nDies ist wichtiger als eine weitere Funktionsliste.\n\n- **Wenn Sie nichts protokollieren, überspringen Sie es.** Jeder Coach in den Zeilen drei und vier ist eine Funktion Ihrer Daten. Ohne Eingaben degradiert er zu einem Chatbot, für den Sie ein Abonnement bezahlen. Beginnen Sie mit einer Protokollierungsgewohnheit; fügen Sie den Coach hinzu, wenn Sie vier Wochen Daten haben.\n- **Wenn Sie einen Menschen wollen, stellen Sie einen ein.** KI-Coaching ist günstiger, um 2 Uhr morgens verfügbar und urteilt nie. Es ist aber auch kein Ernährungsberater, kein Therapeut und Ihnen gegenüber nicht rechenschaftspflichtig. Bei Essstörungen, einer diagnostizierten Erkrankung oder einem sportlichen Ziel mit Frist ist eine Person die richtige Wahl.\n- **Wenn Sie bereits genau wissen, was zu tun ist**, brauchen Sie Adhärenz-Tools – Alarme, Streaks, einen Freund – nicht Ratschläge.\n\n## Wo diese Kategorie am schwächsten ist – einschließlich uns\n\n- **Schätzungen bleiben Schätzungen.** Fotobasierte Kalorienzahlen und KI-Körperzusammensetzungszahlen, einschließlich HAVITs, sind Annäherungen. Lesen Sie sie als Trends, nicht als Messungen.\n- **Proaktivität kann zu Nörgeln werden.** Derselbe Mechanismus, der einen Coach nützlich macht, macht einen schlechten erschöpfend. Überprüfen Sie, ob Benachrichtigungen granular sind, bevor Sie sich verpflichten.\n- **Erinnerung ist ungleichmäßig.** Fast jede App in diesem Bereich, einschließlich unserer, erinnert sich an einige Dinge und vergisst andere. Testen Sie sie bei etwas, das Ihnen wichtig ist – eine Allergie, ein Ziel, eine Einschränkung – bevor Sie ihr den Rest anvertrauen.\n- **HAVIT** ist nur so gut wie der Tag, den Sie protokolliert haben. In einer Woche, in der Sie nichts aufzeichnen, hat es nichts zu sagen, wo ein allgemeiner Assistent immer noch antwortet. Es coacht in Richtung Gewohnheit und Körperzusammensetzungstrends, nicht in Richtung eines datierten Leistungsziels – wenn Sie programmierte Periodisierung für ein Rennen wollen, ist dies das falsche Werkzeug. Und es ist eine Wellness-App, kein medizinisches Gerät: HAVIT ist kein medizinisches Diagnosegerät, wird nicht diagnostizieren und wird Ihnen nicht sagen, eine verschriebene Dosis zu ändern.\n\n## Das Fazit\n\nDie Frage ist nicht 'welche KI ist am klügsten'. Alle seriösen sind klug genug für diese Aufgabe. Die Frage ist, welche **Ihre Daten sieht, eine Sache sagt und sich ändert, wenn Sie sich ändern.**\n\nTesten Sie das in der Testphase, in Ihrer eigenen Sprache, mit Ihrem eigenen Essen, über zwei Wochen einschließlich einer schlechten Woche. Die meisten der Kategorie bestehen diesen Test nicht, und es dauert etwa vierzehn Tage, um das herauszufinden.\n\n## Warum HAVIT – ein Coach, der Ihren Tag liest\n\nHAVI, HAVITs Coach, ist um die drei oben genannten Tests herum aufgebaut. Er liest, was Sie protokolliert haben – Mahlzeiten, Hydratation, Schlaf, Schritte, Zyklus, Stimmung, GLP-1-Medikamente – und gibt eine konkrete Handlung für heute zurück, anstatt einen Plan für das Quartal. Der tägliche Check-in existiert, damit der Coach weiß, was für ein Tag es ist, bevor er etwas von Ihnen verlangt.\n\nDer Grund für dieses Design ist die Evidenzbasis: Strukturierte Verhaltensänderung ist das, was klinische Leitlinien neben, nicht anstelle von allem anderen empfehlen ([USPSTF, Stufe B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)), und das Diabetes Prevention Program zeigte, dass ein strukturiertes Lebensstilprogramm Metformin beim Diabetesrisiko übertraf, 58% zu 31% ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\nIn unserer eigenen Analyse von 1.090 GLP-1-Nutzern bauten die konsequentesten Protokollierer die stärksten Gewohnheiten auf ([GLP-1 Habit Report](/de/glp-1-habit-report)).\n\nHAVIT ist eine Wellness-App, kein medizinisches Gerät. HAVIT ist kein medizinisches Diagnosegerät und wird Ihnen nicht sagen, eine verschriebene Dosis zu ändern. Körperzusammensetzungsergebnisse sind Schätzungen.\n\n[HAVIT ausprobieren →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "USPSTF-Empfehlungsgrad für intensive, multikomponentale Verhaltensintervention",
+          "value": "Stufe B",
+          "source": "U.S. Preventive Services Task Force"
+        },
+        {
+          "label": "DPP: strukturiertes Lebensstilprogramm vs. Metformin, Diabetesrisikoreduktion",
+          "value": "58% vs. 31%",
+          "source": "Knowler et al. 2002, NEJM (n=3.234)"
+        },
+        {
+          "label": "Verhaltensänderungstechniken in der Standardtaxonomie",
+          "value": "93 Techniken",
+          "source": "Michie et al. 2013, Ann Behav Med"
+        },
+        {
+          "label": "Benannte KI-Coach-Typen in diesem Leitfaden",
+          "value": "5 Typen",
+          "source": "Allgemeiner Assistent · Chat-in-Tracker · Programm · Fasten-Coach · datengesteuert"
+        }
+      ],
+      "comparison_table": {
+        "title": "Die vier Arten von 'KI-Coach'",
+        "headers": [
+          "Typ",
+          "Was es tatsächlich ist",
+          "Kennt Ihre Daten",
+          "Am besten für",
+          "Kompromiss"
+        ],
+        "rows": [
+          [
+            "Allgemeiner Assistent",
+            "Ein Frontier-Chatbot, den Sie Gesundheitsfragen stellen",
+            "Nein",
+            "Konzepte erklären, Pläne auf Anfrage",
+            "Beginnt bei Null; nichts Proaktives"
+          ],
+          [
+            "Chat an Tracker angebaut",
+            "Ein Chat-Tab in einer Protokollierungs-App",
+            "Teilweise – oft nur aktuelle Einträge",
+            "Fragen zu einem gerade gemachten Eintrag",
+            "Reaktiv; das Coaching ist immer noch Ihre Idee"
+          ],
+          [
+            "Programm mit KI-Unterstützung",
+            "Von Menschen entworfener Lehrplan, KI-Bereitstellung",
+            "Ja, innerhalb des Programms",
+            "Menschen, die Struktur und Lektionen wollen",
+            "Sie folgen seinem Bogen, nicht Ihrem"
+          ],
+          [
+            "Datengesteuerter täglicher Coach",
+            "Liest Ihre Protokolle, beginnt mit einer Handlung",
+            "Ja – Mahlzeiten, Schlaf, Schritte, Zyklus, Stimmung",
+            "Tracker, die immer noch nicht wissen, was zu ändern ist",
+            "Nur so gut wie das, was Sie protokollieren"
+          ]
+        ],
+        "caption": "Die meiste Enttäuschung in dieser Kategorie kommt daher, dass man für Zeile vier bezahlt und Zeile zwei erhält."
+      },
+      "faq": [
+        {
+          "question": "Was ist die beste KI-Gesundheitscoach-App im Jahr 2026?",
+          "answer": "Diejenige, die Ihre eigenen protokollierten Daten liest, anstatt nur Ihre Chat-Nachrichten. Fragen Sie sie in der Testphase, was Sie gestern gegessen haben – wenn Sie die Antwort einfügen müssen, ist es ein Chatfenster in einem Tracker, kein Coach. Überprüfen Sie dann, ob sie eine konkrete Handlung statt eines Plans zurückgibt und ob sie sich anpasst, wenn Sie eine schlechte Woche haben."
+        },
+        {
+          "question": "Wie unterscheidet sich eine KI-Coaching-App vom Fragen an ChatGPT oder Claude über meine Ernährung?",
+          "answer": "Ein allgemeiner Assistent beantwortet die Fragen, von denen Sie bereits wussten, dass Sie sie stellen sollten, und beginnt jedes Mal bei Null. Eine Coaching-App hat Zugriff auf Ihre Mahlzeiten, Schlaf, Schritte, Zyklus und Medikamente und spricht zuerst – sie kann Ihnen sagen, dass vier Tage mit niedrigem Protein, zwei kurze Nächte und ein stagnierendes Gewicht zusammenhängen. Das ist ein Datenzugriffs- und Designunterschied, kein Modellqualitätsunterschied."
+        },
+        {
+          "question": "Kann ein KI-Coach einen Ernährungsberater oder Therapeuten ersetzen?",
+          "answer": "Nein. KI-Coaching ist günstiger, um 2 Uhr morgens verfügbar und nie wertend, aber es ist kein lizenzierter Fachmann und Ihnen gegenüber nicht rechenschaftspflichtig. Bei Essstörungen, einer diagnostizierten Erkrankung oder einem termingebundenen sportlichen Ziel sollten Sie eine Person aufsuchen. Eine gute Gesundheits-KI lehnt es auch ab, zu diagnostizieren oder Ihnen zu sagen, eine verschriebene Dosis zu ändern."
+        },
+        {
+          "question": "Wie erkenne ich, ob die 'Personalisierung' einer App echt ist?",
+          "answer": "Protokollieren Sie absichtlich eine schlechte Woche. Ein echtes Coaching-System senkt die Anforderung, ändert das Ziel oder fragt, was passiert ist. Ein geskriptetes wiederholt denselben fröhlichen Anstoß. Dies dauert etwa zwei Wochen, um es zu erkennen, weshalb es sich lohnt, dies innerhalb der kostenlosen Testphase zu tun."
+        },
+        {
+          "question": "Lohnt sich ein KI-Coach, wenn ich nichts protokolliere?",
+          "answer": "Nein. Datengesteuerte Coaches sind eine Funktion Ihrer Eingaben; ohne protokollierte Daten bezahlen Sie ein Abonnement für einen Chatbot. Bauen Sie zuerst eine Protokollierungsgewohnheit auf und fügen Sie Coaching hinzu, sobald Sie etwa vier Wochen Daten haben."
+        },
+        {
+          "question": "Funktionieren KI-Coaching-Apps in anderen Sprachen als Englisch?",
+          "answer": "Oberflächenübersetzung und Coaching in Ihrer Sprache sind unterschiedliche Dinge. Viele Apps übersetzen Schaltflächen und coachen dann in maschinell übersetztem Englisch. Testen Sie sie in der Sprache, in der Sie tatsächlich denken, mit einem Lebensmittel, das Sie tatsächlich essen."
+        }
+      ],
+      "references": [
+        {
+          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+        },
+        {
+          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
+          "source": "New England Journal of Medicine, 2002 (n=3.234)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Stufe B",
+          "source": "U.S. Preventive Services Task Force, 2018 (Thema wird aktualisiert); Erwachsene mit BMI ≥30, von Klinikern durchgeführt",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — HAVIT interne Analyse von 1.090 GLP-1-Nutzern",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/de/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
+    },
+    "fr": {
+      "title": "Meilleures applications de coach santé IA en 2026 : comment distinguer un coach d'un chatbot",
+      "short_title": "Meilleures applis coach IA 2026",
+      "meta_description": "Presque toutes les applications santé ont ajouté un coach IA. La plupart ont ajouté une boîte de dialogue. Six critères, quatre types de 'coach IA', qui ne devrait pas en acheter un, et où toute la catégorie — la nôtre incluse — est la plus faible.",
+      "tldr": "Un coach connaît quelque chose sur vous que vous n'avez jamais tapé dans le chat. Testez trois choses pendant l'essai : lit-il vos données, donne-t-il une action au lieu d'un plan, et change-t-il quand vous avez une mauvaise semaine ?",
+      "body_md": "*Divulgation honnête : HAVIT publie ce blog et développe l'une des applications discutées. Nous avons essayé d'écrire le guide que nous voudrions lire avant de payer pour une application — y compris les parties où notre propre catégorie est la plus faible.*\n\nPresque toutes les applications santé ont ajouté un coach IA au cours des deux dernières années. La plupart d'entre elles ont ajouté une boîte de dialogue. Ce ne sont pas la même chose, et la différence détermine si vous obtenez un coach ou un moteur de recherche avec un ton amical.\n\nUne boîte de dialogue répond aux questions que vous saviez déjà poser. Un coach remarque ce que vous n'avez pas demandé. Ce guide explique comment faire la différence avant de payer pour douze mois d'abonnement.\n\n## Ce qui sépare un coach d'un chatbot\n\nLe test est simple : **connaît-il quelque chose sur vous que vous n'avez pas tapé dans le chat ?**\n\nUn assistant général peut expliquer la créatine, créer un plan de repas et vous accompagner à travers un plateau. Il fera tout cela bien. Les assistants généraux se souviennent maintenant d'une conversation à l'autre, et ils peuvent vous envoyer des messages selon un calendrier si vous en configurez un. Ce qu'ils n'ont toujours pas, c'est un **flux en direct des repas, du sommeil et des pas d'aujourd'hui**. Donc le message de 21h — vos protéines sont sous l'objectif depuis quatre jours, vous avez dormi moins de six heures deux fois cette semaine, votre poids est stable, et voici lequel des trois corriger en premier — doit être un message que vous avez configuré à l'avance, à partir de données que vous avez collées.\n\nCette différence n'est pas une question de qualité de modèle. C'est un accès continu à vos données enregistrées, et une décision de conception de parler d'abord à partir de celles-ci.\n\nIl y a un deuxième test, moins évident : **dit-il moins que ce que vous attendiez ?** Un coach qui répond à une question simple avec quatorze points ne vous a rien dit — il vous a retransféré le travail de décision. Le coaching, c'est la compression. La forme que soutient l'orientation clinique est structurée et répétée : l'USPSTF donne une recommandation de grade B pour que les cliniciens offrent aux adultes ayant un IMC de 30 ou plus une intervention comportementale intensive et multicomposante ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Elle ne dit rien sur les applications — mais elle dit quels sont les ingrédients actifs.\n\n## 6 critères pour choisir une application de coaching IA\n\n### 1. Lit-elle vos propres données, ou seulement vos messages ?\n\nDemandez pendant l'essai : 'qu'ai-je mangé hier ?' Si elle ne peut pas répondre sans que vous le colliez, le coach est une fenêtre de chat et l'application est un tracker. Ce n'est pas un scandale — c'est juste un produit différent, tarifé comme s'il ne l'était pas.\n\n### 2. Vous donne-t-elle une action, ou un plan ?\n\nUn plan est ce que vous avez déjà échoué à suivre. Une action concrète pour aujourd'hui — *mangez 30 g de protéines au petit-déjeuner demain* — est quelque chose que vous pouvez faire ou ne pas faire, ce qui la rend mesurable. La taxonomie standard des interventions de changement de comportement répertorie 93 techniques discrètes, et l'unité tout au long est une action spécifique plutôt qu'une intention générale ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)).\n\n### 3. Change-t-elle d'avis quand vous changez ?\n\nLa version honnête de ce test prend deux semaines. Enregistrez délibérément une mauvaise semaine. Un véritable système de coaching s'ajuste : il abaisse la demande, change l'objectif ou demande ce qui s'est passé. Un système scripté répète le même coup de pouce joyeux, c'est ainsi que vous apprenez que la 'personnalisation' est un modèle.\n\n### 4. Se souvient-elle ?\n\nLe coaching est une relation avec continuité. Si vous lui dites que vous êtes végétarien en janvier et qu'elle suggère du poulet en mars, elle ne vous coache pas ; elle vous répond. La mémoire entre les sessions est la fonctionnalité la plus coûteuse de cette catégorie et celle qui est le plus souvent simulée.\n\n### 5. Où sont ses limites de sécurité ?\n\nUne bonne IA santé refuse des choses. Elle ne devrait pas diagnostiquer, ne devrait pas vous dire de modifier une dose prescrite, et devrait être explicite sur le fait que les chiffres de composition corporelle et de calories sont des estimations. Une application qui répond avec confiance à des questions médicales qu'elle devrait refuser n'est pas plus capable — elle est moins sûre.\n\n### 6. Dans quelle langue vous coache-t-elle — vraiment ?\n\nLes chaînes d'interface traduites ne sont pas la même chose que le coaching dans votre langue. Testez-la dans la langue dans laquelle vous pensez réellement, avec un aliment que vous mangez réellement. Beaucoup d'applications traduisent les boutons puis coachent en anglais traduit automatiquement.\n\n## Les quatre types de 'coach IA' que vous rencontrerez\n\n*Les caractéristiques des applications ci-dessous sont celles d'octobre 2026 — cette catégorie change rapidement, donc vérifiez sur la liste du magasin en direct.*\n\n| Type | Ce que c'est réellement | Exemples | Connaît vos journaux | Le compromis |\n| --- | --- | --- | --- | --- |\n| Assistant général | Un chatbot de pointe auquel vous posez des questions santé | ChatGPT, Claude, Gemini | Pas de flux continu | Se souvient d'un chat à l'autre et peut envoyer des messages selon un calendrier, mais seulement ce que vous configurez |\n| Chat greffé sur un tracker | Un onglet de chat dans une application de suivi | MyFitnessPal, Cal AI | Partiellement — souvent seulement les entrées récentes | Réactif ; le coaching reste votre idée |\n| Programme avec assistance IA | Curriculum conçu par des humains, livraison IA | Noom, WeightWatchers | Dans le programme | Vous suivez son arc, pas le vôtre |\n| Coach de jeûne | Une fenêtre alimentaire plus un coach toujours actif | Simple.Life ('Avo') | Journal de jeûne et d'alimentation | Centré sur l'IMC et les schémas de jeûne |\n| Coach quotidien basé sur les données | Lit vos journaux et ouvre avec une action | HAVIT | Repas, sommeil, pas, cycle, humeur, médicaments | Aussi bon que ce que vous enregistrez |\n\nLa plupart des déceptions dans cette catégorie viennent du fait de payer pour la ligne quatre et de recevoir la ligne deux.\n\n## Qui ne devrait pas acheter une application de coaching IA\n\nCeci est plus important qu'une autre liste de fonctionnalités.\n\n- **Si vous n'enregistrez rien, passez votre chemin.** Chaque coach des lignes trois et quatre est une fonction de vos données. Sans entrées, il se dégrade en chatbot pour lequel vous payez un abonnement. Commencez par une habitude d'enregistrement ; ajoutez le coach quand vous avez quatre semaines de données.\n- **Si vous voulez un humain, engagez-en un.** Le coaching IA est moins cher, disponible à 2h du matin et ne vous juge jamais. Ce n'est pas non plus un diététicien, pas un thérapeute, et pas responsable envers vous. Pour les troubles alimentaires, une condition diagnostiquée ou un objectif athlétique avec une échéance, une personne est le bon choix.\n- **Si vous savez déjà exactement quoi faire**, vous avez besoin d'outils d'adhésion — alarmes, séries, un ami — pas de conseils.\n\n## Où cette catégorie est la plus faible — nous y compris\n\n- **Les estimations restent des estimations.** Les chiffres de calories basés sur des photos et les chiffres de composition corporelle IA, ceux de HAVIT inclus, sont des approximations. Lisez-les comme des tendances, pas des mesures.\n- **La proactivité peut devenir du harcèlement.** Le même mécanisme qui rend un coach utile rend un mauvais coach épuisant. Vérifiez que les notifications sont granulaires avant de vous engager.\n- **La mémoire est inégale.** Presque toutes les applications dans cet espace, la nôtre incluse, se souviennent de certaines choses et en oublient d'autres. Testez-la sur quelque chose qui compte pour vous — une allergie, un objectif, une contrainte — avant de lui faire confiance pour le reste.\n- **HAVIT** n'est aussi bon que le jour que vous avez enregistré. Sur une semaine où vous n'enregistrez rien, il n'a rien à dire, alors qu'un assistant général répond toujours. Il coache vers l'habitude et les tendances de composition corporelle, pas vers un objectif de performance daté — si vous voulez une périodisation programmée pour une course, ce n'est pas le bon outil. Et c'est une application de bien-être, pas un dispositif médical : HAVIT n'est pas un outil de diagnostic médical, il ne diagnostiquera pas et ne vous dira pas de modifier une dose prescrite.\n\n## L'essentiel\n\nLa question n'est pas 'quelle IA est la plus intelligente'. Toutes les sérieuses sont assez intelligentes pour ce travail. La question est laquelle **voit vos données, dit une chose, et change quand vous changez.**\n\nTestez cela pendant l'essai, dans votre propre langue, avec votre propre nourriture, sur deux semaines incluant une mauvaise semaine. La plupart de la catégorie échoue à ce test, et il faut environ quatorze jours pour le découvrir.\n\n## Pourquoi HAVIT — un coach qui lit votre journée\n\nHAVI, le coach de HAVIT, est construit autour des trois tests ci-dessus. Il lit ce que vous avez enregistré — repas, hydratation, sommeil, pas, cycle, humeur, médicaments GLP-1 — et retourne une action concrète pour aujourd'hui plutôt qu'un plan pour le trimestre. L'enregistrement quotidien existe pour que le coach sache quel type de journée c'est avant de vous demander quoi que ce soit.\n\nLa raison de cette conception est la base de preuves : le changement de comportement structuré est ce que l'orientation clinique recommande en plus, et non à la place, de tout le reste ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)), et le Diabetes Prevention Program a montré qu'un programme de mode de vie structuré surpassait la metformine sur le risque de diabète, 58 % contre 31 % ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\nDans notre propre analyse de 1 090 utilisateurs de GLP-1, les utilisateurs les plus réguliers ont construit les habitudes les plus solides ([Rapport sur les habitudes GLP-1](/fr/glp-1-habit-report)).\n\nHAVIT est une application de bien-être, pas un dispositif médical. HAVIT n'est pas un outil de diagnostic médical. Il ne diagnostique pas et ne vous dira pas de modifier une dose prescrite. Les résultats de composition corporelle sont des estimations.\n\n[Essayer HAVIT →](https://www.aihavit.com/)\n",
+      "key_stats": [
+        {
+          "label": "Grade de recommandation USPSTF pour l'intervention comportementale intensive et multicomposante",
+          "value": "Grade B",
+          "source": "U.S. Preventive Services Task Force"
+        },
+        {
+          "label": "DPP : programme de mode de vie structuré vs metformine, réduction du risque de diabète",
+          "value": "58 % vs 31 %",
+          "source": "Knowler et al. 2002, NEJM (n=3 234)"
+        },
+        {
+          "label": "Techniques de changement de comportement dans la taxonomie standard",
+          "value": "93 techniques",
+          "source": "Michie et al. 2013, Ann Behav Med"
+        },
+        {
+          "label": "Types de coach IA nommés dans ce guide",
+          "value": "5 types",
+          "source": "Assistant général · chat-dans-tracker · programme · coach de jeûne · basé sur les données"
+        }
+      ],
+      "comparison_table": {
+        "title": "Les quatre types de 'coach IA'",
+        "headers": [
+          "Type",
+          "Ce que c'est réellement",
+          "Connaît vos données",
+          "Meilleur pour",
+          "Compromis"
+        ],
+        "rows": [
+          [
+            "Assistant général",
+            "Un chatbot de pointe auquel vous posez des questions santé",
+            "Non",
+            "Expliquer des concepts, plans sur demande",
+            "Part de zéro ; rien de proactif"
+          ],
+          [
+            "Chat greffé sur un tracker",
+            "Un onglet de chat dans une application de suivi",
+            "Partiellement — souvent seulement les entrées récentes",
+            "Poser des questions sur une entrée que vous venez de faire",
+            "Réactif ; le coaching reste votre idée"
+          ],
+          [
+            "Programme avec assistance IA",
+            "Curriculum conçu par des humains, livraison IA",
+            "Oui, dans le programme",
+            "Les personnes qui veulent de la structure et des leçons",
+            "Vous suivez son arc, pas le vôtre"
+          ],
+          [
+            "Coach quotidien basé sur les données",
+            "Lit vos journaux, ouvre avec une action",
+            "Oui — repas, sommeil, pas, cycle, humeur",
+            "Les trackers qui ne savent toujours pas quoi changer",
+            "Aussi bon que ce que vous enregistrez"
+          ]
+        ],
+        "caption": "La plupart des déceptions dans cette catégorie viennent du fait de payer pour la ligne quatre et de recevoir la ligne deux."
+      },
+      "faq": [
+        {
+          "question": "Quelle est la meilleure application de coach santé IA en 2026 ?",
+          "answer": "Celle qui lit vos propres données enregistrées plutôt que seulement vos messages de chat. Demandez-lui pendant l'essai ce que vous avez mangé hier — si vous devez coller la réponse, c'est une fenêtre de chat dans un tracker, pas un coach. Ensuite, vérifiez qu'elle retourne une action concrète plutôt qu'un plan, et qu'elle s'ajuste quand vous avez une mauvaise semaine."
+        },
+        {
+          "question": "En quoi une application de coaching IA est-elle différente de poser des questions à ChatGPT ou Claude sur mon alimentation ?",
+          "answer": "Un assistant général répond aux questions que vous saviez déjà poser, en repartant de zéro à chaque fois. Une application de coaching a accès à vos repas, sommeil, pas, cycle et médicaments, et parle en premier — elle peut vous dire que quatre jours de faibles protéines, deux nuits courtes et un poids stable sont connectés. C'est une différence d'accès aux données et de conception, pas de qualité de modèle."
+        },
+        {
+          "question": "Un coach IA peut-il remplacer un diététicien ou un thérapeute ?",
+          "answer": "Non. Le coaching IA est moins cher, disponible à 2h du matin et jamais dans le jugement, mais ce n'est pas un professionnel agréé et il n'est pas responsable envers vous. Pour les troubles alimentaires, une condition diagnostiquée ou un objectif athlétique avec échéance, consultez une personne. Une bonne IA santé refuse également de diagnostiquer ou de vous dire de modifier une dose prescrite."
+        },
+        {
+          "question": "Comment savoir si la 'personnalisation' d'une application est réelle ?",
+          "answer": "Enregistrez délibérément une mauvaise semaine. Un véritable système de coaching abaisse la demande, change l'objectif ou demande ce qui s'est passé. Un système scripté répète le même coup de pouce joyeux. Cela prend environ deux semaines à détecter, c'est pourquoi il vaut la peine de le faire pendant l'essai gratuit."
+        },
+        {
+          "question": "Un coach IA vaut-il la peine si je n'enregistre rien ?",
+          "answer": "Non. Les coachs basés sur les données sont une fonction de vos entrées ; sans rien d'enregistré, vous payez un abonnement pour un chatbot. Construisez d'abord une habitude d'enregistrement et ajoutez le coaching une fois que vous avez environ quatre semaines de données."
+        },
+        {
+          "question": "Les applications de coaching IA fonctionnent-elles dans d'autres langues que l'anglais ?",
+          "answer": "La traduction de l'interface et le coaching dans votre langue sont des choses différentes. Beaucoup d'applications traduisent les boutons puis coachent en anglais traduit automatiquement. Testez-la dans la langue dans laquelle vous pensez réellement, en utilisant un aliment que vous mangez réellement."
+        }
+      ],
+      "references": [
+        {
+          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+        },
+        {
+          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
+          "source": "New England Journal of Medicine, 2002 (n=3 234)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
+          "source": "U.S. Preventive Services Task Force, 2018 (sujet en cours de mise à jour) ; adultes avec IMC ≥30, délivré par un clinicien",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — analyse interne HAVIT de 1 090 utilisateurs de GLP-1",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/fr/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-11"
     }
   },
   "generated_at": "2026-10-11T00:00:00.000Z"
