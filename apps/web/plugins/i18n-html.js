@@ -254,16 +254,24 @@ function injectFooterArticles(html, locale) {
 /**
  * Href for one entry of the language menu.
  *
- * Everything points at its own directory except English, which is the root —
- * and the root is what middleware.js forwards to the device language. A visitor
- * who landed on /ko/ from a search result carries no hv_lang cookie yet, so a
- * bare `/` here would forward them right back and the menu would look broken.
- * `?lang=en` is the explicit override the middleware honours; the root page's
- * own entry stays a clean `/` because being there already sets the cookie.
+ * **전환은 전부 `/?lang=<locale>` 로 보낸다.** middleware 의 matcher 가 `/` 뿐이라
+ * 거기를 거쳐야만 `hv_lang` 쿠키가 갱신되기 때문이다.
+ *
+ * 예전엔 영어만 `?lang=en` 이고 나머지 33개는 `/ko/` 처럼 직행했다. 그래서 선택이
+ * 한쪽으로만 기록됐다 — 영어를 한 번 누르면 `hv_lang=en` 이 365일 박히는데, 그 뒤에
+ * 한국어를 다시 눌러도 `/ko/` 로 가기만 하고 쿠키는 `en` 그대로였다. 결과적으로
+ * 한국어 기기가 맨 URL(`www.aihavit.com`)을 열면 영원히 영어가 나오고, **메뉴로는
+ * 그 고정을 풀 방법이 아예 없었다**(주소창에 `?lang=ko` 를 직접 치거나 쿠키 삭제).
+ * 쿠키는 브라우저마다 따로라 "사파리는 되는데 크롬은 안 된다" 로 나타났다.
+ *
+ * `/ko/?lang=ko` 로 붙이는 건 소용없다 — matcher 가 `/` 만 타서 미들웨어를 안 거친다.
+ *
+ * 현재 보고 있는 언어만 자기 경로를 그대로 쓴다. 이미 그 판에 있으니 쿠키를 다시
+ * 쓸 이유가 없고, `aria-current` 가 붙는 항목이라 클릭될 일도 드물다.
  */
-function langHref(target, current) {
-  if (target !== DEFAULT_LOCALE) return `/${target}/`
-  return current === DEFAULT_LOCALE ? '/' : '/?lang=en'
+export function langHref(target, current) {
+  if (target === current) return target === DEFAULT_LOCALE ? '/' : `/${target}/`
+  return `/?lang=${target}`
 }
 
 /**
