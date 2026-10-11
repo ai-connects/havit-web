@@ -20,7 +20,12 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { complete, safeJsonParse } from './anthropic-client';
 
-const ARTICLES_DIR = path.resolve(__dirname, '../data/articles');
+/** `--dir data/articles-pending` 로 검토 대기 아티클도 번역할 수 있다. */
+const ARTICLES_DIR = (() => {
+  const i = process.argv.indexOf('--dir');
+  if (i > -1 && process.argv[i + 1]) return path.resolve(__dirname, '..', process.argv[i + 1]);
+  return path.resolve(__dirname, '../data/articles');
+})();
 
 interface TargetLang {
   code: string;
@@ -29,7 +34,26 @@ interface TargetLang {
   disclaimer_hint: string;
 }
 
-const TARGETS: TargetLang[] = [
+/**
+ * `--langs ko,de` 로 일부만 돌릴 수 있다. 없으면 8개 전부.
+ *
+ * 왜 필요한가: 15건 × 6개 언어를 한 번에 돌리기 전에 1건 × 1개 언어로 품질과
+ * 비용을 먼저 확인해야 한다. 플래그가 없으면 확인 자체가 전체 실행이 된다.
+ */
+function selectedLangs(all: TargetLang[]): TargetLang[] {
+  const i = process.argv.indexOf('--langs');
+  if (i < 0 || !process.argv[i + 1]) return all;
+  const want = new Set(process.argv[i + 1].split(',').map((x) => x.trim()).filter(Boolean));
+  const picked = all.filter((t) => want.has(t.code));
+  const unknown = [...want].filter((w) => !all.some((t) => t.code === w));
+  if (unknown.length) {
+    console.error(`[translate-5] 알 수 없는 언어 코드: ${unknown.join(', ')} — 가능: ${all.map((t) => t.code).join(', ')}`);
+    process.exit(1);
+  }
+  return picked;
+}
+
+const ALL_TARGETS: TargetLang[] = [
   {
     code: 'ja',
     name: 'Japanese',
@@ -79,6 +103,8 @@ const TARGETS: TargetLang[] = [
     disclaimer_hint: "HAVIT n'est pas un outil de diagnostic médical",
   },
 ];
+
+const TARGETS: TargetLang[] = selectedLangs(ALL_TARGETS);
 
 const DEFAULT_SLUGS: string[] = [
   'havit-vs-myfitnesspal-noom-simple-2026',

@@ -19,7 +19,7 @@
  * Usage: node scripts/build-hub-section-images.mjs [--report]
  */
 
-import { readFileSync, readdirSync, writeFileSync } from 'fs'
+import { readFileSync, readdirSync, writeFileSync, existsSync } from 'fs'
 import path from 'path'
 
 const ROOT = process.cwd()
@@ -119,13 +119,24 @@ for (const f of readdirSync(ARTICLES).filter((x) => x.endsWith('.json')).sort())
   out[a.slug] = picks
 }
 
+/*
+ * 이 파일의 두 번째 작성자: scripts/approve-pending-article.mjs.
+ *
+ * 그쪽은 검토가 끝난 아티클 한 건의 배정을 손으로 넣는다. 여기서 `out` 을 빈
+ * 객체에서 새로 쌓아 통째로 덮어쓰면 **그 배정이 조용히 사라지고** 이 스크립트의
+ * 탐욕적 선택으로 바뀐다. 그래서 기존 파일을 먼저 읽고, 이번에 다시 고른 slug 만
+ * 교체한다. 전부 다시 고르고 싶으면 OUT 을 지우고 돌리면 된다.
+ */
+const prev = existsSync(OUT) ? JSON.parse(readFileSync(OUT, 'utf8')) : { map: {} }
+const merged = { ...(prev.map ?? {}), ...out }
+
 writeFileSync(
   OUT,
   JSON.stringify(
     {
       _generated: 'scripts/build-hub-section-images.mjs',
-      _note: '허브 아티클 섹션별 사진. 인덱스 = body_md 의 h2 순서. 히어로와 서로 겹치지 않는다.',
-      map: out,
+      _note: '허브 아티클 섹션별 사진. 인덱스 = body_md 의 h2 순서. 히어로와 서로 겹치지 않는다. approve-pending-article.mjs 가 넣은 항목은 보존된다.',
+      map: merged,
     },
     null,
     2

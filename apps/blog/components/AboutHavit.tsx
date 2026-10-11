@@ -1,4 +1,7 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import featureData from '@/data/havit-features.json';
+import { asset } from '@/lib/site';
 
 /**
  * "What is Havit?" — 본문 영역에 들어가는 엔티티 블록.
@@ -25,6 +28,14 @@ import Link from 'next/link';
  *     엔진이 주장에서 출처로 넘어갈 수 있다. 을지대 n=70 은 표본이 작고
  *     뒷받침 문서도 없어 넣지 않는다.
  *   - "웰니스 앱, 의료기기 아님" — 의료 주장으로 읽히면 인용을 피한다.
+ *
+ * 사진
+ * ────
+ * 글만 있는 블록은 "읽고 지나가는 각주"로 읽힌다. 홈(aihavit.com #features)에
+ * 쓰는 피처 이미지 7장을 그대로 가져와 같은 순서로 붙인다. 문구도 새로 쓰지
+ * 않고 apps/web/src/i18n/<locale>.json 의 같은 키를 옮겼다(data/havit-features.json,
+ * 생성 경로는 그 파일 _source 참조) — 마케팅 사이트와 한 글자라도 달라지면
+ * 같은 제품을 설명하는 두 문서가 서로 다른 제품처럼 읽힌다.
  */
 
 type Copy = {
@@ -122,6 +133,88 @@ const COPY: Record<string, Copy> = {
 /** 근거 아티클 — 주장에서 출처로 넘어갈 수 있게 본문 안에서 링크한다. */
 const REPORT_SLUG = 'glp-1-habit-report';
 
+/**
+ * 그 글이 실제로 번역돼 있는 언어 (data/articles/glp-1-habit-report.json 의 langs).
+ *
+ * 없는 언어로 링크하면 resolveContent 가 영어로 폴백하고 page.tsx 가 noindex 를
+ * 박는다. 이 블록은 10,537 페이지 전부에 붙으므로, 그대로 두면 6개 언어에서
+ * **사이트 전역 내부 링크가 색인도 안 되는 URL 로 향한다.** 번역이 없으면
+ * 영어판으로 보낸다 — 적어도 색인되는 URL 이다.
+ */
+const REPORT_LANGS = new Set(['en', 'ko', 'ja', 'zh-tw']);
+
+function reportHref(shortLang: string): string {
+  return `/${REPORT_LANGS.has(shortLang) ? shortLang : 'en'}/${REPORT_SLUG}`;
+}
+
+interface FeatureMeta {
+  image: string;
+  width: number;
+  height: number;
+  alt_en: string;
+  eyebrow_key: string;
+  title_key: string;
+}
+
+const FEATURES = (featureData as { features: FeatureMeta[] }).features;
+const FEATURE_COPY = (featureData as { copy: Record<string, Record<string, string>> }).copy;
+
+/** 홈의 피처 섹션 제목. 블록 안에서 사진 묶음이 무엇인지 한 줄로 받아준다. */
+const INSIDE: Record<string, string> = {
+  en: 'Inside the app',
+  ko: '앱 안에서는',
+  ja: 'アプリの中身',
+  'zh-tw': 'App 裡有什麼',
+  zh: 'App 里有什么',
+  es: 'Dentro de la app',
+  'pt-br': 'Dentro do app',
+  id: 'Di dalam aplikasi',
+  de: 'In der App',
+  fr: 'Dans l’application',
+};
+
+/**
+ * 사진 7장.
+ *
+ * 원본은 긴 변 450px 로 미리 줄여 뒀다 — next/image 는 원본 폭을 상한으로 쓰므로
+ * (424px 짜리 mind-recovery 는 w=640 이든 w=3840 이든 같은 18KB 를 돌려준다) 표시
+ * 폭 최대 140 CSS px 의 3배수를 덮는 450px 이면 어떤 breakpoint 에서도 과다 전송이
+ * 없다. 줄이기 전엔 DPR3 단말이 7장에 447KB 를 받아갔다.
+ *
+ * 첫 장만 `loading="eager"` 가 아니라 전부 lazy 다 — 이 블록은 본문 끝에 있어
+ * 첫 화면에 걸리는 일이 없고, 10,537 페이지 전부에 붙기 때문에 LCP 를 건드리면
+ * 손해가 그만큼 곱해진다. 세로비가 제각각(424²~880×2201)이라 높이를 고정하고
+ * `object-fit: contain` 으로 받는다 — 잘라내면 화면 UI 가 잘린다.
+ */
+function FeatureStrip({ shortLang }: { shortLang: string }) {
+  const copy = FEATURE_COPY[shortLang] ?? FEATURE_COPY.en;
+  const heading = INSIDE[shortLang] ?? INSIDE.en;
+  return (
+    <div className="about-havit__features">
+      <h3 className="about-havit__features-heading">{heading}</h3>
+      <ul className="about-havit__grid">
+        {FEATURES.map((f) => (
+          <li key={f.image} className="about-havit__feature">
+            <span className="about-havit__shot">
+              <Image
+                src={asset(f.image)}
+                alt=""
+                aria-hidden
+                width={f.width}
+                height={f.height}
+                sizes="150px"
+                loading="lazy"
+              />
+            </span>
+            <span className="about-havit__eyebrow">{copy[f.eyebrow_key]}</span>
+            <span className="about-havit__feature-title">{copy[f.title_key]}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 export default function AboutHavit({ shortLang }: { shortLang: string }) {
   const c = COPY[shortLang] ?? COPY.en;
   return (
@@ -133,10 +226,11 @@ export default function AboutHavit({ shortLang }: { shortLang: string }) {
       <p className="about-havit__body">{c.body}</p>
       <p className="about-havit__body">
         {c.data}{' '}
-        <Link href={`/${shortLang}/${REPORT_SLUG}`} className="about-havit__link">
+        <Link href={reportHref(shortLang)} className="about-havit__link">
           {c.cta}
         </Link>
       </p>
+      <FeatureStrip shortLang={shortLang} />
       <p className="about-havit__note">{c.note}</p>
     </section>
   );
