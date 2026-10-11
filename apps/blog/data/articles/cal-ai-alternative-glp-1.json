@@ -321,196 +321,6 @@
       "last_updated": "2026-07-02",
       "short_title": "Cal AI 대안 GLP-1 트래커｜2026 솔직 비교"
     },
-    "ja": {
-      "title": "Cal AI 代替アプリ｜GLP-1向け 2026年 正直比較｜Havit vs Cal AI",
-      "meta_description": "GLP-1を使いながらCal AIの代替を探していますか？写真カロリー計算の中身と、精度・薬記録の限界、専用GLP-1アプリの選び方を正直に比較します。",
-      "tldr": "GLP-1を使いながらCal AIの代替を探していますか？写真カロリー計算の中身と、精度・薬記録の限界、専用GLP-1アプリの選び方を正直に比較します。",
-      "body_md": "*医療上の注意：本記事は情報提供のみを目的とし、医療アドバイスではありません。用量や使用方法は必ず処方医・薬剤師の指示に従ってください。アプリの表示を根拠に用量を変更しないでください。*\n\nオゼンピック・ウゴービ・マンジャロ・ゼップバウンドを使いながら「Cal AI 代替」と検索したなら、食事を撮って手入力を省くアイデアは気に入っているはずです。ただ、どれだけ洗練された写真カロリーアプリでも、道のりの本当に大事な部分――週1回の注射――には役立たないと気づいたのでしょう。\n\nこの記事は中立の比較です。Cal AIが記録の摩擦を他のどのアプリより上手に減らしたことは認めます。同時に、精度の限界、薄い栄養データ、薬について何も追跡しないという事実も率直に指摘します。カロリーカメラではなくGLP-1の相棒が必要なら、何を見るべきかを整理します。\n\n## Cal AIが得意なこと\n\nCal AIが2020年代半ばに最速で成長した栄養アプリの一つになった理由は明快です：記録をほぼ苦労なくしたからです。\n\n### 数秒で写真→記録\n\nCal AIの核心は**3〜5秒のワークフロー**です――皿を撮ると、マルチモーダルAIスタックがマクロの内訳を返します（[Vora Blog](https://askvora.com/blog/cal-ai-acquisition-photo-food-logging)、[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)）。スマホの深度センサーで食べ物の体積を推定する巧みな要素もあります。面倒で手入力のカロリー記録を諦めた人には、本当の突破口です。\n\n### 巨大なDBが後ろ盾（買収後）\n\nMyFitnessPalが**2026年3月にCal AIを買収**し、アプリは約2,000万件の食品・68,500以上のブランド・380以上の外食チェーンをカバーするMFPのDBと統合されました（[TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/)）。Cal AIは元のチームを維持したまま独立製品として続きます――消えるのではなく、今はMyFitnessPalのエコシステム内にあります。\n\n### 低い摩擦が継続を生む\n\n人が食事記録をやめる最大の理由は「手間が多すぎる」ことです。Cal AIの速さは、一部のユーザーが手入力アプリより継続して記録するのを本当に助けます。価値は継続から生まれるので、これは意味があります。\n\n## GLP-1ユーザーにとってCal AIが足りない点\n\n率直な核心：**Cal AIはカロリーカメラであってGLP-1トラッカーではありません。** 薬の機能が全く無く、栄養データと精度にも実際の限界があります。\n\n### 1. 用量・注射・薬の記録がない\n\nCal AIには薬剤・用量・注射部位・注射日のための欄がありません。週1回のGLP-1では注射が道のりの中心なのに、Cal AIはそのどれも追跡しません。昼食のカロリーは教えても、最後にいつ注射したかは分かりません。\n\n### 2. 副作用と用量の相関がない\n\nGLP-1ユーザーの40〜70%が消化器系副作用を経験し（[BioSpace](https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates)）、症状を投与タイムラインに結びつけて記録するのは最も有用な習慣の一つです。Cal AIには構造化された症状記録が無く、吐き気が注射の2日後にピークになると気づく手助けもできません。\n\n### 3. 精度がばらつく\n\n写真推定は印象的ですが完璧ではありません。レビューはCal AIの誤差を標準的な食事で**約10〜20%**とし、実機テストではより大きな外れも見つかっています――リンゴをティッカ・マサラと誤認し、単純なリンゴを約3分の1過小評価した有名な例があります（[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)、[Aumiqx](https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/)）。おおまかなカロリーの目安には十分ですが、食欲が抑えられた中で精密なたんぱく質目標を狙うには不安です。\n\n### 4. 微量栄養素・たんぱく質の深さが最小限\n\nCal AIはカロリーと主要マクロに集中し、ビタミン・ミネラル・食物繊維・アミノ酸などの詳細な微量栄養素記録は最小限か欠けています（[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)）。GLP-1ユーザーにとっては、筋肉を守る最重要のたんぱく質が、信頼できるデータに支えられた前面の目標ではなく、マクロ内訳の中の数字として扱われる恐れがあります。\n\n### 5. 料金と信頼の懸念\n\nCal AIの料金はおよそ**週$2.99から年$29.99**で、限定的な無料枠があります（[NutriScan](https://nutriscan.app/blog/posts/cal-ai-pricing-2026-monthly-yearly-premium-abc6e7b26f)）。2026年は波乱でした：誤解を招く課金の懸念でApp Storeから一時削除され、320万人以上に影響するデータ侵害を公表しました（[Aumiqx](https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/)）。健康関連データを保存するアプリとしては、この経緯は考慮に値します。\n\n## 比較表：Cal AI vs 専用GLP-1トラッカー\n\n率直な分類：Cal AIは**速いカロリーカメラ**、専用GLP-1トラッカーは**薬優先の相棒**です。目的が違う別の道具です。\n\n*機能・料金・精度は頻繁に変わります。導入前にApp Store／Google Playで確認してください。出典：[Vora Blog](https://askvora.com/blog/cal-ai-acquisition-photo-food-logging)、[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)、[MeAgain](https://meagain.com/best-glp-1-tracker-apps)。*\n\n### 隙間の核心\n\nCal AIはGLP-1ユーザーにとって間違った問題を――見事に――解きました。カロリー記録の摩擦は取り除きましたが、カロリー記録はそもそもGLP-1の道のりで難しい部分ではありませんでした。難しいのは、忘れられない注射、先に備えるべき副作用、守らねばならないたんぱく質です。Cal AIはそのどれにも対応しません。\n\n## Cal AIに留まる人 vs 乗り換える人\n\n**Cal AIに留まる：**\n- 食事記録の速さが最大の障壁で、写真撮影が継続を支えている。\n- 精密な栄養データではなく、おおまかなカロリーの目安だけ欲しい。\n- 薬は別の場所で記録しても構わない。\n\n**代替を検討する：**\n- 用量・注射部位・副作用を同じアプリで記録したい。\n- たんぱく質の精度が大事（写真推定は厳密な目標には不十分）。\n- 注射リマインダーと増量の把握が欲しい。\n- 2026年の課金・データ侵害の経緯が健康データ保存に引っかかる。\n- 単なるカロリー計算ではなく、コーチング・習慣サポートが欲しい。\n\n## Cal AIの代替で見るべきこと\n\n乗り換えるなら、記録の速さだけでなくGLP-1の基本で候補を判断しましょう。\n\n1. **用量＋ガイド付き部位ローテーション** — Cal AIに無い中核。\n2. **投与タイムラインに結びつく副作用記録** — つらい日に先回りできる。\n3. **信頼できるたんぱく質優先の食事記録** — GLP-1で食欲が落ちるため、たんぱく質不足は筋肉減少のリスク。前面に、正確に。\n4. **リマインダー・増量サポート** — 次回注射までのカウントダウンとステップアップの把握。\n5. **進捗の記録** — 体重の推移と写真、できればApple ヘルス・Google Fit連携。\n6. **プライバシー** — ポリシーを読み、侵害の経緯を確認し、書き出し・削除ができるものを。\n7. **コーチング・習慣サポート** — 単なる記録と、継続を支えるシステムの違い。\n\n写真記録について一言：素晴らしい便利さであって、上記の薬機能の代わりではありません。理想は、記録が簡単で*かつ*注射を中心に作られたアプリです。\n\n## 正確性と安全性について\n\nどんなアプリも主治医の代わりにはなりません――速くてAI駆動でも。写真ベースのカロリー推定は相応の誤差を含むので、正確とみなさないでください。GLP-1アプリの「血中濃度の推定」カーブも公表された半減期に基づく教育的な近似で、測定値ではありません。記録したものは**より良い質問を診察室へ**持ち込むために使い、画面を理由に用量を変えないでください。\n\n## まとめ\n\nCal AIは本当に印象的なカロリーカメラで、記録の摩擦が食事記録を妨げていたなら役立つかもしれません。しかしGLP-1の道のりを規定する薬については何も追跡せず――用量も、注射部位も、副作用も、リマインダーも――栄養の精度・深さも限定的です。GLP-1の相棒としては間違った道具です。\n\n用量、ガイド付き部位ローテーション、副作用インサイト、たんぱく質優先の食事記録、やさしいコーチングを1か所で――皿の写真ではなく注射を中心に設計されたアプリが欲しいなら、ぜひ **[HAVIT アプリ](https://www.aihavit.com/)** を試してください。GLP-1の道のりを1週間ずつ続けられるように作られています。まずは [GLP-1 記録アプリの選び方](/ja/best-glp-1-tracker-apps) も参考にしてください。\n\n## よくある質問（FAQ）\n\n**1. Cal AIはオゼンピックやウゴービのようなGLP-1を記録できますか？**\nいいえ。Cal AIは写真ベースのカロリー計算機で、薬の機能がありません――用量・注射部位・注射日・副作用の欄がありません。食べ物のカロリー・マクロは推定しても注射については何も残さず、それ単体ではGLP-1トラッカーとして機能しません。\n\n**2. GLP-1ユーザーに最適なCal AIの代替は？**\n薬の記録と食事記録を1本で欲しいなら、MeAgainやShotsyのような専用トラッカーが注射側を担い、HAVITは用量記録・たんぱく質優先の食事記録・コーチングを組み合わせます。どれが「最適」かは、部位ローテーション、副作用インサイト、たんぱく質重視、オールインワンの便利さのどれを最も必要とするかによります。\n\n**3. Cal AIのカロリー計算はどれくらい正確ですか？**\nばらつきます。レビューは標準的な食事で約10〜20%の誤差とし、実機テストでは食品を完全に誤認する大きな誤りも見つかっています。おおまかな目安には十分ですが、食欲が抑えられた中で精密なたんぱく質目標を狙うには頼りません。\n\n**4. MyFitnessPal買収後もCal AIは残っていますか？**\nはい。MyFitnessPalが2026年3月にCal AIを買収しましたが、元のチームを維持したまま独立アプリとして続き、今はMyFitnessPalのより大きな食品DBと統合されています。終了ではなく、MyFitnessPalのエコシステムの一部です。\n\n**5. Cal AIはGLP-1中に筋肉を守るのに役立ちますか？**\n間接的にのみ。たんぱく質をマクロ内訳の一部として表示しますが、写真推定は精密でなく、たんぱく質優先の設計もありません。筋肉保持には信頼でき前面に置かれたたんぱく質記録と筋トレが必要で、この点は専用GLP-1アプリの方が得意な傾向です。\n\n**6. Cal AIに健康データを保存しても安全ですか？**\n経緯を考慮しましょう。2026年、Cal AIは課金の懸念でApp Storeから一時削除され、数百万人に影響するデータ侵害を公表しました。多くの消費者向けウェルネスアプリは医療機関向けの規制外なので、プライバシーポリシーを読み、気になるなら書き出し・削除が明確な代替を検討してください。\n\n**7. GLP-1ユーザーに写真の食事記録は価値がありますか？**\n良い便利さです――摩擦が低いとより継続的な記録につながり得ます。ただしGLP-1の道のりの薬側面は全く扱いません。理想は、記録が簡単で*かつ*用量・副作用・リマインダーを追跡するアプリであって、食事を撮るだけのアプリではありません。\n\n**8. これらのアプリは医療アドバイスの代わりになりますか？**\nなりません。Cal AIもここで挙げた代替もすべて記録ツールであり臨床家ではありません。写真カロリー推定や薬濃度ビューは近似であって測定値ではありません。処方医・薬剤師の指示に従い、トラッカーはより良いデータを診察に持ち込むために使ってください。\n\n## 関連記事\n\n- [GLP-1 記録アプリ おすすめ2026：失敗しない選び方](/ja/best-glp-1-tracker-apps)\n- [GLP-1中のたんぱく質は1日どれくらい必要か](/ja/protein-tracker-for-glp-1)\n- [GLP-1の副作用とその対処法](/ja/glp-1-side-effects)\n- [GLP-1習慣レポート2026：1,090人のデータ](/ja/glp-1-habit-report)\n\n## なぜHAVITなのか — 薬の管理と行動変容をひとつに\n\nGLP-1薬は体重をしっかり減らしてくれます。ただ、体重計の数字だけがすべてではありません。GLP-1で減った体重のおよそ20〜40%は、脂肪ではなく筋肉などの除脂肪量である可能性があり（[Neeland他, *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)）、薬をやめた後に習慣が根づいていなければ、効果は戻りやすいこともわかっています。だからこそ主要なガイドラインは、薬を治療の「すべて」ではなく「一部」と位置づけます。米国予防医学専門委員会(USPSTF)は、肥満のある成人に集中的で多面的な行動介入を提供するよう推奨しています（[USPSTF, グレードB](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)）。\n\nHAVITは、まさにこの時代のために作られました。服薬の記録、体組成、栄養とたんぱく質、毎日の習慣づくり、そしてあなたに合わせて助言するAIコーチを、ひとつのアプリに。実際にHAVITのGLP-1ユーザー1,090人を分析したところ、記録を続けた人ほど強い習慣を築いていました（[GLP-1習慣レポートを見る](/ja/glp-1-habit-report)）。\n\n薬も、筋肉も、いっしょに。[HAVITを始める →](https://www.aihavit.com)\n\n## 参考文献\n\n1. Vora Blog. *Cal AI Review 2026: Photo Food Logging Accuracy, Pricing & Best Alternatives.* https://askvora.com/blog/cal-ai-acquisition-photo-food-logging\n2. Nutrola. *Cal AI Review 2026: Honest Pros, Cons, and Accuracy Test.* https://nutrola.app/en/blog/cal-ai-review-2026\n3. TechCrunch. *MyFitnessPal has acquired Cal AI, the viral calorie app built by teens* (2026). https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/\n4. Aumiqx. *Cal AI Review 2026: Is Photo Calorie Counting Accurate?* https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/\n5. NutriScan App. *Cal AI Pricing 2026: Monthly vs Yearly and What Premium Unlocks.* https://nutriscan.app/blog/posts/cal-ai-pricing-2026-monthly-yearly-premium-abc6e7b26f\n6. BioSpace. *GLP-1 Side Effects Only One Factor Driving Patient Discontinuation Rates.* https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates\n7. MeAgain. *7 Best GLP-1 Tracker Apps Compared (2026).* https://meagain.com/best-glp-1-tracker-apps",
-      "comparison_table": {
-        "title": "比較表：Cal AI vs 専用GLP-1トラッカー",
-        "headers": [
-          "機能",
-          "Cal AI",
-          "専用GLP-1トラッカー（MeAgain・Shotsy）",
-          "HAVIT"
-        ],
-        "rows": [
-          [
-            "用量・注射記録",
-            "なし",
-            "あり",
-            "あり"
-          ],
-          [
-            "部位ローテーションマップ",
-            "なし",
-            "あり",
-            "あり"
-          ],
-          [
-            "副作用記録",
-            "なし",
-            "あり",
-            "あり"
-          ],
-          [
-            "注射リマインダー・増量",
-            "なし",
-            "あり",
-            "あり"
-          ],
-          [
-            "食事記録",
-            "写真で高速（精度にばらつき）",
-            "アプリ次第",
-            "たんぱく質重視"
-          ],
-          [
-            "たんぱく質を優先表示",
-            "マクロ内訳のみ",
-            "あり",
-            "あり（前面配置）"
-          ],
-          [
-            "微量栄養素の深さ",
-            "最小限",
-            "最小限",
-            "中程度"
-          ],
-          [
-            "進捗（体重＋写真）",
-            "限定的",
-            "あり",
-            "あり"
-          ],
-          [
-            "コーチング・習慣化",
-            "なし",
-            "アプリ次第",
-            "あり"
-          ],
-          [
-            "料金",
-            "約 週$2.99〜年$29.99",
-            "無料＋有料",
-            "無料＋任意コーチ"
-          ]
-        ],
-        "caption": "Havit（ハビット）は、GLP-1の服薬記録・体組成・毎日の習慣コーチングを1つにまとめたAIヘルスコンパニオンです。"
-      },
-      "faq": [
-        {
-          "question": "HavitはCal AIより優れていますか？",
-          "answer": "何を記録したいかによります。Cal AIは一般的なカロリー・栄養記録に向いています。HavitはGLP-1の治療経過を軸に作られており、投与量と注射部位の記録、注射タイミングと結びついた副作用の傾向、体組成、除脂肪量を守るためのたんぱく質摂取までを扱います。GLP-1を使用中なら一般的なトラッカーが取りこぼす部分をHavitが補い、カロリー計算だけで足りるならCal AIで十分です。"
-        },
-        {
-          "question": "Cal AIにはなくてHavitにある機能は何ですか？",
-          "answer": "投与量と注射部位のローテーション、注射タイミングに紐づく副作用記録、体組成の推移、そして記録データに合わせて調整される習慣コーチングです。服薬管理と行動変容をアプリ2つに分けず、1か所でまとめて扱います。"
-        },
-        {
-          "question": "Cal AIからHavitに乗り換えられますか？",
-          "answer": "できます。多くの人は1〜2週間は両方を併用し、慣れた側で記録を続けながらHavitにGLP-1のスケジュールを設定します。投与リマインダーと副作用の履歴がたまってから移行すれば十分です。処方内容は変わりません。Havitは記録を支える伴走アプリであり、医療機器ではありません。"
-        }
-      ],
-      "references": [],
-      "last_updated": "2026-07-02",
-      "short_title": "Cal AI 代替アプリ｜GLP-1向け 2026年 正直比較"
-    },
-    "zh-TW": {
-      "title": "Cal AI 替代方案｜GLP-1 專用 2026 誠實比較｜Havit vs Cal AI",
-      "meta_description": "在用 GLP-1，想找 Cal AI 替代方案？看拍照算熱量做了什麼、準確度與藥物記錄的限制，以及挑選專用瘦瘦筆 App 的標準，誠實比較。",
-      "tldr": "在用 GLP-1，想找 Cal AI 替代方案？看拍照算熱量做了什麼、準確度與藥物記錄的限制，以及挑選專用瘦瘦筆 App 的標準，誠實比較。",
-      "body_md": "*醫療聲明：本文僅供衛教資訊，並非醫療建議。劑量與使用方式請務必遵循處方醫師與藥師指示，切勿依 App 畫面自行調整劑量。*\n\n若你在用胰妥讚、週纖達、猛健樂、Zepbound，又搜尋「Cal AI 替代方案」，你大概很喜歡拍照就免手動輸入的點子——但你也發現，再流暢的拍照熱量 App，都幫不上療程真正重要的那部分：每週的注射。\n\n這是一篇中立的比較。Cal AI 確實把記錄的摩擦降得比誰都低，這點我們會說。我們也會直白地談它的準確度限制、單薄的營養資料，以及它對你的藥物一無所記的事實。如果你需要的是 GLP-1 夥伴，而非一台熱量相機，以下是該看的重點。\n\n## Cal AI 做得好的地方\n\nCal AI 成為 2020 年代中期成長最快的營養 App 之一，原因很清楚：它讓記錄幾乎毫不費力。\n\n### 幾秒完成拍照→記錄\n\nCal AI 的核心賣點是 **3〜5 秒的流程**——拍下你的餐盤，多模態 AI 就回傳三大營養素的拆解（[Vora Blog](https://askvora.com/blog/cal-ai-acquisition-photo-food-logging)、[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)）。它還用手機的深度感測器估算食物體積，是聰明的一招。對那些因為太麻煩而放棄手動記熱量的人，這是真正的突破。\n\n### 背後有龐大資料庫（收購後）\n\nMyFitnessPal 於 **2026 年 3 月收購 Cal AI**，App 也整合進 MFP 涵蓋約 2,000 萬筆食品、68,500 個以上品牌、380 家以上連鎖餐廳的資料庫（[TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/)）。Cal AI 保留原班團隊、以獨立產品續存——不會消失，而是進入 MyFitnessPal 的生態系。\n\n### 低摩擦帶來一致性\n\n人們放棄記錄飲食最大的原因，就是「太費工」。Cal AI 的速度確實幫一些使用者比在手動 App 時記得更持續。價值來自一致性，所以這點很重要。\n\n## 對 GLP-1 使用者而言 Cal AI 還缺什麼\n\n誠實的核心：**Cal AI 是一台熱量相機，不是 GLP-1 追蹤器。** 它完全沒有藥物功能，營養資料與準確度也有實際限制。\n\n### 1. 沒有劑量、注射或藥物記錄\n\nCal AI 沒有藥物、劑量、注射部位或注射日期的欄位。對每週一次的 GLP-1，注射是旅程的核心，Cal AI 卻一項也不追蹤。它能告訴你午餐幾大卡，卻不知道你上次何時注射。\n\n### 2. 沒有副作用與劑量的關聯\n\n40〜70% 的 GLP-1 使用者會出現腸胃道副作用（[BioSpace](https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates)），把症狀對應到劑量時間軸記錄，是最有用的習慣之一。Cal AI 沒有結構化的症狀記錄，也就無法幫你看出噁心固定在注射後兩天達到高峰。\n\n### 3. 準確度時好時壞\n\n拍照估算令人驚豔，卻不完美。評測把 Cal AI 在一般餐點的誤差抓在 **約 10〜20%**，而實測還出現更大的失誤——有個著名例子把蘋果認成印度奶油咖哩（tikka masala），並把一顆單純的蘋果低估了約三分之一（[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)、[Aumiqx](https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/)）。當作大略的熱量參考沒問題；但要在食慾被壓抑時命中精準的蛋白質目標，就不太可靠。\n\n### 4. 微量營養素與蛋白質深度極少\n\nCal AI 專注於熱量與主要三大營養素；維生素、礦物質、纖維、胺基酸等詳細微量營養素則極少或缺席（[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)）。對 GLP-1 使用者而言，風險是——你最需要用來保留肌肉的蛋白質，被當成三大營養素拆解裡的一個數字，而非有可靠資料支撐、放在最前面的目標。\n\n### 5. 價格與信任疑慮\n\nCal AI 的價格大約從 **每週 $2.99 到每年 $29.99**，並有有限的免費方案（[NutriScan](https://nutriscan.app/blog/posts/cal-ai-pricing-2026-monthly-yearly-premium-abc6e7b26f)）。它的 2026 年並不平順：曾因涉及誤導性收費被短暫下架，並揭露一起影響 320 萬名以上使用者的資料外洩（[Aumiqx](https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/)）。對一款儲存健康相關資料的 App，這段歷史值得掂量。\n\n## 比較表：Cal AI vs 專用 GLP-1 追蹤器\n\n誠實的定位：Cal AI 是**快速的熱量相機**，專用 GLP-1 追蹤器則是**藥物優先的夥伴**。不同工作，不同工具。\n\n*功能、價格與準確度經常變動，付費前請在 App Store／Google Play 確認。來源：[Vora Blog](https://askvora.com/blog/cal-ai-acquisition-photo-food-logging)、[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)、[MeAgain](https://meagain.com/best-glp-1-tracker-apps)。*\n\n### 缺口的核心\n\nCal AI 為 GLP-1 使用者——出色地——解錯了問題。它移除了記熱量的摩擦，但記熱量從來不是 GLP-1 旅程中困難的部分。困難的是那支不能忘的注射、那些需要預先設想的副作用，以及那份必須守住的蛋白質。這些 Cal AI 一項也沒解決。\n\n## 誰該留在 Cal AI、誰該換\n\n**留在 Cal AI，如果：**\n- 記錄飲食的速度是你最大的障礙，拍照讓你保持一致。\n- 你只想要大略的熱量參考，而非精準營養資料。\n- 你能接受把藥物記在別處。\n\n**考慮替代方案，如果：**\n- 你想把劑量、注射部位與副作用記在同一個 App。\n- 蛋白質的精準對你重要（拍照估算對嚴格目標不夠可靠）。\n- 你想要注射提醒與劑量遞增提示。\n- 2026 年的收費與資料外洩歷史讓你對在此儲存健康資料有疑慮。\n- 你想要教練與習慣支援，而不只是一個熱量數字。\n\n## 挑選 Cal AI 替代方案該看什麼\n\n若要換，請以 GLP-1 的基本盤、而非只看記錄速度來評估候選。\n\n1. **劑量＋引導式部位輪替**——Cal AI 沒有的核心。\n2. **與劑量時間軸連動的副作用記錄**——讓你預先設想難受的日子。\n3. **可靠且蛋白質優先的飲食記錄**——GLP-1 讓食慾下降，蛋白質吃不夠有流失肌肉的風險；要放前面、要準確。\n4. **提醒與劑量遞增支援**——下次注射倒數與劑量調升提示。\n5. **進度追蹤**——體重趨勢與照片，最好能與 Apple 健康／Google Fit 同步。\n6. **隱私**——讀政策、看外洩歷史，偏好可匯出／刪除的工具。\n7. **教練或習慣支援**——一份記錄與一套讓你保持一致的系統，差別就在這裡。\n\n關於拍照記錄一句話：它是很好的便利，卻不是上述藥物功能的替代品。理想是一個既容易記錄、*又*以注射為核心打造的 App。\n\n## 關於準確與安全\n\n沒有任何 App 能取代你的醫療團隊——即使它又快又有 AI。拍照的熱量估算帶有相當的誤差，別當成精確值。GLP-1 App 裡任何「血中濃度推估」曲線，也是基於已公布半衰期的衛教近似，而非測量。用你記錄的一切把**更好的問題帶進診間**，切勿因畫面顯示而調整劑量。\n\n## 結語\n\nCal AI 是一台真正令人驚豔的熱量相機，若記錄的摩擦正是阻止你記飲食的原因，它或許幫得上忙。但它沒有追蹤任何定義 GLP-1 旅程的藥物——沒有劑量、沒有注射部位、沒有副作用、沒有提醒——營養的準確度與深度也有限。作為 GLP-1 夥伴，它是錯的工具。\n\n想把劑量、引導式部位輪替、副作用洞察、蛋白質優先的飲食記錄與溫和教練整合在一處——由一個以注射為核心、而非圍繞一張餐盤照片打造的 App，歡迎試試 **[HAVIT App](https://www.aihavit.com/)**，它為了讓你一週一週走完 GLP-1 旅程而設計。你也可以先看 [GLP-1 追蹤 App 怎麼選](/zh-tw/best-glp-1-tracker-apps)。\n\n## 常見問題（FAQ）\n\n**1. Cal AI 能記錄胰妥讚或週纖達這類 GLP-1 嗎？**\n不能。Cal AI 是拍照式熱量計算 App，沒有藥物功能——沒有劑量、注射部位、注射日期或副作用的欄位。它估算食物的熱量與三大營養素，卻對注射一無所記，因此本身無法作為 GLP-1 追蹤器。\n\n**2. 對 GLP-1 使用者，最好的 Cal AI 替代方案是哪個？**\n若想把藥物記錄與飲食記錄合在一個 App，MeAgain、Shotsy 這類專用追蹤器顧好注射面，HAVIT 則結合劑量記錄、蛋白質優先的飲食記錄與教練。哪個「最好」，取決於你最需要部位輪替、副作用洞察、蛋白質重點，還是一站式的便利。\n\n**3. Cal AI 算熱量有多準？**\n時好時壞。評測把一般餐點的誤差抓在約 10〜20%，實測還出現把食物完全認錯的更大誤差。當大略參考沒問題，但要在食慾被壓抑時命中精準蛋白質目標就不可靠。\n\n**4. MyFitnessPal 收購後 Cal AI 還在嗎？**\n還在。MyFitnessPal 於 2026 年 3 月收購 Cal AI，但它保留原班團隊、以獨立 App 續存，如今整合進 MyFitnessPal 更大的食品資料庫。它不是被關閉，而是成為 MyFitnessPal 生態系的一部分。\n\n**5. Cal AI 能幫我在 GLP-1 期間守住肌肉嗎？**\n只能間接。它把蛋白質當成三大營養素拆解的一部分顯示，但拍照估算不精準，也沒有蛋白質優先設計。要保留肌肉，你需要可靠且放在前面的蛋白質記錄搭配阻力訓練，而這些正是專用 GLP-1 App 通常做得更好的地方。\n\n**6. 把健康資料存在 Cal AI 安全嗎？**\n掂量一下它的歷史。2026 年 Cal AI 曾因收費疑慮被短暫下架，並揭露影響數百萬使用者的資料外洩。多數消費型健康 App 不受醫療等級法規保護，請讀隱私政策；若你有疑慮，考慮一個有清楚匯出／刪除機制的替代方案。\n\n**7. 對 GLP-1 使用者，拍照記錄飲食值得嗎？**\n是不錯的便利——低摩擦可能帶來更持續的記錄。但它完全沒處理 GLP-1 旅程的藥物面。理想是一個既容易記錄、*又*能追蹤劑量、副作用與提醒的 App，而不是只會拍食物的那種。\n\n**8. 這些 App 能取代醫療建議嗎？**\n不能。Cal AI 與這裡的每個替代方案都是記錄工具，不是臨床人員。拍照熱量估算與任何藥物濃度視圖都是近似，並非測量。請遵循處方醫師與藥師，並用追蹤器把更好的資料帶進回診。\n\n## 相關文章\n\n- [GLP-1 追蹤 App 推薦 2026：瘦瘦筆記錄與比較](/zh-tw/best-glp-1-tracker-apps)\n- [GLP-1 期間該吃多少蛋白質](/zh-tw/protein-tracker-for-glp-1)\n- [GLP-1 副作用與因應方式](/zh-tw/glp-1-side-effects)\n- [GLP-1 習慣報告 2026：1,090 位使用者數據](/zh-tw/glp-1-habit-report)\n\n## 為什麼選 HAVIT — 藥物管理與行為改變，一站完成\n\nGLP-1 藥物確實能有效減重，但體重計上的數字並非全部。研究指出，使用 GLP-1 減掉的體重中，約有 20〜40% 可能來自肌肉等「淨體重（lean mass）」，而非脂肪（[Neeland 等人，*Diabetes, Obesity and Metabolism*，2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)）；一旦停藥，若沒有養成新的生活習慣，成果往往容易反彈。正因如此，主流指引都把藥物視為治療的一環，而非全部：美國預防服務工作小組（USPSTF）建議，為肥胖成人提供密集、多面向的行為介入（[USPSTF，B 級建議](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)）。\n\nHAVIT 正是為這個時代而生——把用藥紀錄、體組成、營養與蛋白質、每日習慣養成，以及能因人調整的 AI 教練，全部整合在同一個 App。我們分析自家 1,090 位 GLP-1 使用者後發現：紀錄越持續的人，習慣也養得越扎實（[查看 GLP-1 習慣報告](/zh-tw/glp-1-habit-report)）。\n\n管好藥物，也守住肌肉。[立即開始使用 HAVIT →](https://www.aihavit.com)\n\n## 參考文獻\n\n1. Vora Blog. *Cal AI Review 2026: Photo Food Logging Accuracy, Pricing & Best Alternatives.* https://askvora.com/blog/cal-ai-acquisition-photo-food-logging\n2. Nutrola. *Cal AI Review 2026: Honest Pros, Cons, and Accuracy Test.* https://nutrola.app/en/blog/cal-ai-review-2026\n3. TechCrunch. *MyFitnessPal has acquired Cal AI, the viral calorie app built by teens* (2026). https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/\n4. Aumiqx. *Cal AI Review 2026: Is Photo Calorie Counting Accurate?* https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/\n5. NutriScan App. *Cal AI Pricing 2026: Monthly vs Yearly and What Premium Unlocks.* https://nutriscan.app/blog/posts/cal-ai-pricing-2026-monthly-yearly-premium-abc6e7b26f\n6. BioSpace. *GLP-1 Side Effects Only One Factor Driving Patient Discontinuation Rates.* https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates\n7. MeAgain. *7 Best GLP-1 Tracker Apps Compared (2026).* https://meagain.com/best-glp-1-tracker-apps",
-      "comparison_table": {
-        "title": "比較表：Cal AI vs 專用 GLP-1 追蹤器",
-        "headers": [
-          "功能",
-          "Cal AI",
-          "專用 GLP-1 追蹤器（MeAgain・Shotsy）",
-          "HAVIT"
-        ],
-        "rows": [
-          [
-            "劑量／注射記錄",
-            "無",
-            "有",
-            "有"
-          ],
-          [
-            "部位輪替地圖",
-            "無",
-            "有",
-            "有"
-          ],
-          [
-            "副作用記錄",
-            "無",
-            "有",
-            "有"
-          ],
-          [
-            "注射提醒／劑量遞增",
-            "無",
-            "有",
-            "有"
-          ],
-          [
-            "飲食記錄",
-            "拍照最快（準確度浮動）",
-            "視 App 而定",
-            "蛋白質導向"
-          ],
-          [
-            "蛋白質優先顯示",
-            "只有三大營養素拆解",
-            "有",
-            "有（放在最前面）"
-          ],
-          [
-            "微量營養素深度",
-            "極少",
-            "極少",
-            "中等"
-          ],
-          [
-            "進度（體重＋照片）",
-            "有限",
-            "有",
-            "有"
-          ],
-          [
-            "教練／習慣養成",
-            "無",
-            "視 App 而定",
-            "有"
-          ],
-          [
-            "價格",
-            "約 每週$2.99〜每年$29.99",
-            "免費＋付費",
-            "免費＋選配教練"
-          ]
-        ],
-        "caption": "Havit 是一款 AI 健康夥伴 App，將 GLP-1 用藥記錄、身體組成與每日習慣教練整合在同一個應用程式中。"
-      },
-      "faq": [
-        {
-          "question": "Havit 比 Cal AI 更好嗎？",
-          "answer": "取決於你要記錄什麼。Cal AI 是為一般熱量與營養記錄設計的；Havit 則圍繞 GLP-1 療程打造 — 劑量與注射部位記錄、與注射時間對應的副作用型態、身體組成，以及保護肌肉量所需的蛋白質攝取。如果你正在使用 GLP-1，Havit 能補上一般追蹤器沒有的部分；如果你只需要計算熱量，Cal AI 就夠了。"
-        },
-        {
-          "question": "Cal AI 沒有、但 Havit 有的功能是什麼？",
-          "answer": "劑量與注射部位輪換、對應注射時間的副作用記錄、身體組成趨勢，以及會依你記錄的資料調整的習慣教練。Havit 把用藥管理與行為改變放在同一個地方，而不是拆成兩個 App。"
-        },
-        {
-          "question": "可以從 Cal AI 換到 Havit 嗎？",
-          "answer": "可以。多數人會先併用一到兩週，在習慣的 App 繼續記錄，同時在 Havit 設定 GLP-1 療程；等劑量提醒與副作用紀錄累積後再完全轉過來。處方不會有任何改變，Havit 是協助記錄的夥伴 App，不是醫療器材。"
-        }
-      ],
-      "references": [],
-      "last_updated": "2026-07-02",
-      "short_title": "Cal AI 替代方案｜GLP-1 專用 2026 誠實比較"
-    },
     "zh-CN": {
       "title": "Cal AI 替代方案(GLP-1 用户专用):2026 年诚实对比 — Havit vs Cal AI",
       "meta_description": "正在使用 GLP-1 并寻找 Cal AI 替代方案?了解 Cal AI 的拍照计算卡路里功能、它的不足之处,以及应该寻找什么替代品。",
@@ -1461,6 +1271,324 @@
         {
           "title": "MeAgain. *7 Best GLP-1 Tracker Apps Compared (2026).*",
           "source": "MeAgain",
+          "url": "https://meagain.com/best-glp-1-tracker-apps"
+        }
+      ],
+      "last_updated": "2026-07-02"
+    },
+    "ja": {
+      "title": "GLP-1ユーザー向けCal AI代替アプリ:2026年正直比較 — Havit vs Cal AI",
+      "meta_description": "GLP-1使用中でCal AI代替アプリをお探しですか?Cal AIの写真カロリー計算機能、その限界、そして代わりに何を探すべきかを解説します。",
+      "tldr": "GLP-1使用中でCal AI代替アプリをお探しですか?Cal AIの写真カロリー計算機能、その限界、そして代わりに何を探すべきかを解説します。",
+      "body_md": "*医療免責事項:この記事は教育目的のみであり、医療アドバイスではありません。必ず処方医と薬剤師の指示に従ってください。アプリに基づいて用量を変更しないでください。*\n\nOzempic、Wegovy、Mounjaro、Zepboundを使用していて「Cal AI代替アプリ」を検索したなら、おそらく食事を撮影して手動入力をスキップするアイデアは気に入っているものの、どれほど洗練された写真カロリーカウンターでも、実際に重要な部分 — 週1回の注射 — には役立たないことに気づいたのでしょう。\n\nこれは正直で中立的な比較です。Cal AIは確かにほぼ誰よりも記録の手間を減らしました。そのことは認めます。同時に、精度の限界、薄い栄養データ、そして薬剤について何も追跡しないという事実についても率直に述べます。カロリーカメラではなくGLP-1コンパニオンが必要なら、何を探すべきかをご紹介します。\n\n## Cal AIが優れている点\n\nCal AIが2020年代半ばに最も急成長した栄養アプリの1つになった理由は明確です:記録をほぼ無努力にしたからです。\n\n### 数秒で写真から記録へ\n\nCal AIの核心的な売りは**3〜5秒のワークフロー** — 皿を撮影すれば、マルチモーダルAIスタックがマクロ栄養素の内訳を返します([Vora Blog](https://askvora.com/blog/cal-ai-acquisition-photo-food-logging)、[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026))。スマートフォンの深度センサーを使って食品の体積を推定するのは巧妙な工夫です。手動カロリー追跡が面倒で諦めた人にとって、これは真の画期的進歩です。\n\n### 巨大なデータベースに支えられている(買収後)\n\nMyFitnessPalは**2026年3月にCal AIを買収**し、アプリはMFPの約2,000万食品、68,500以上のブランド、380以上のレストランチェーンを網羅するデータベースと統合されました([TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/))。Cal AIは元のチームを維持したまま独立製品として継続しているため、消滅するわけではありませんが、現在はMyFitnessPalのエコシステム内に位置しています。\n\n### 低摩擦が一貫性を促進\n\n人々が食事追跡をやめる最大の理由は、手間がかかりすぎることです。Cal AIのスピードは、手動アプリでは決してできなかったほど一貫して記録できるようユーザーを本当に助けます。一貫性こそが価値の源泉なので、これは重要です。\n\n## GLP-1ユーザーにとってCal AIが不十分な点\n\n正直な核心はこうです:**Cal AIはカロリーカメラであり、GLP-1トラッカーではありません。**薬剤機能は一切なく、栄養データと精度には実際の限界があります。\n\n### 1. 用量、注射、薬剤追跡がない\n\nCal AIには薬剤、用量、注射部位、注射日の入力欄がありません。週1回のGLP-1では、注射が旅の中心です — そしてCal AIはそれを何も追跡しません。昼食のカロリーは教えてくれますが、最後に注射した時期については何も教えてくれません。\n\n### 2. 副作用の相関がない\n\nGLP-1ユーザーの40〜70%が消化器系の副作用を経験し([BioSpace](https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates))、用量タイムラインに対して症状を記録することはGLP-1で最も有用な習慣の1つです。Cal AIは構造化された症状追跡を提供しないため、各注射の2日後に吐き気がピークに達することを発見する手助けはできません。\n\n### 3. 精度にばらつきがある\n\n写真推定は印象的ですが不完全です。レビューではCal AIの誤差は**標準的な食事で約10〜20%**とされ、実地テストではより大きな誤りが見つかっています — 有名な例では、リンゴをティッカマサラと識別し、シンプルなリンゴを約3分の1過小評価しました([Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)、[Aumiqx](https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/))。大まかなカロリーの目安には問題ありませんが、食欲が抑制された状態で正確なタンパク質目標を達成しようとする場合は不安定です。\n\n### 4. 微量栄養素とタンパク質の深さが最小限\n\nCal AIはカロリーと主要マクロ栄養素に焦点を当てており、詳細な微量栄養素追跡 — ビタミン、ミネラル、繊維、アミノ酸 — は最小限または不在です([Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026))。GLP-1ユーザーにとってのリスクは、筋肉を保護するために最も必要な栄養素であるタンパク質が、信頼できるデータに裏打ちされた最優先目標ではなく、マクロ分割の数字として扱われることです。\n\n### 5. 価格と信頼の懸念\n\nCal AIの価格は**週約$2.99から年$29.99**で、限定的な無料プランがあります([NutriScan](https://nutriscan.app/blog/posts/cal-ai-pricing-2026-monthly-yearly-premium-abc6e7b26f))。2026年は波乱の年でした:欺瞞的請求の懸念でApp Storeから一時削除され、320万人以上のユーザーに影響するデータ侵害を開示しました([Aumiqx](https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/))。健康関連データを保存するアプリとして、この履歴は検討に値します。\n\n## 比較表:Cal AI vs 専用GLP-1トラッカー\n\n正直な枠組み:Cal AIは**高速カロリーカメラ**、専用GLP-1トラッカーは**薬剤優先のコンパニオン**です。異なる仕事のための異なるツールです。\n\n*機能、価格、精度は頻繁に変更されます — コミットする前にApp StoreまたはGoogle Playで確認してください。出典:[Vora Blog](https://askvora.com/blog/cal-ai-acquisition-photo-food-logging)、[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)、[MeAgain](https://meagain.com/best-glp-1-tracker-apps)。*\n\n### ギャップの結論\n\nCal AIはGLP-1ユーザーにとって間違った問題を — 見事に — 解決しました。カロリー記録の摩擦を取り除きましたが、カロリー記録はGLP-1の旅の難しい部分ではありませんでした。難しい部分は忘れられない注射、予測すべき副作用、そして保護しなければならないタンパク質です。Cal AIはそれらのどれにも対処していません。\n\n## Cal AIを続けるべき人 — そして切り替えるべき人\n\n**Cal AIを続けるべき場合:**\n- 食事記録のスピードが最大の障壁であり、写真撮影が一貫性を保つ。\n- 正確な栄養データではなく、大まかなカロリーの目安だけが欲しい。\n- 薬剤を別の場所で別々に追跡することに抵抗がない。\n\n**代替を検討すべき場合:**\n- 用量、注射部位、副作用を同じアプリで追跡したい。\n- タンパク質の精度が重要(写真推定は厳密な目標には十分信頼できない)。\n- 注射リマインダーと用量調整の認識が欲しい。\n- 2026年の請求とデータ侵害の履歴が健康データ保存に懸念を抱かせる。\n- カロリー数だけでなく、コーチングと習慣サポートが欲しい。\n\n## Cal AI代替アプリで探すべきもの\n\n切り替える場合、記録スピードだけでなくGLP-1の基本で候補を判断してください:\n\n1. **用量 + ガイド付き注射部位ローテーション** — Cal AIにはない核心機能。\n2. **用量タイムラインに紐づいた副作用記録** — 辛い日を予測できるように。\n3. **信頼できるタンパク質優先の食事記録** — GLP-1で食欲が低下し、タンパク質不足は筋肉減少のリスク;タンパク質が目立ち正確であることが重要。\n4. **リマインダーと用量調整サポート** — 次回注射までのカウントダウンとステップアップの認識。\n5. **進捗追跡** — 体重トレンドと写真、理想的にはApple Health / Google Fitと同期。\n6. **プライバシー** — ポリシーを読み、侵害履歴を確認し、エクスポート/削除コントロールを優先。\n7. **コーチングまたは習慣サポート** — 記録と一貫性を保つシステムの違い。\n\n写真記録についての注記:便利な機能ですが、上記の薬剤機能の代替ではありません。理想は記録しやすく*かつ*注射を中心に構築されたアプリです。\n\n## 精度と安全性についての注記\n\nどのアプリも — 高速でAI駆動のものでも — ケアチームの代わりにはなりません。写真ベースのカロリー推定には意味のある誤差があるため、正確なものとして扱わないでください。そして、GLP-1アプリの「推定薬剤レベル」曲線は、公表された半減期からの教育的近似であり、測定ではありません。追跡したものを使って**臨床医により良い質問を持ち込み**、画面に表示されたものに基づいて用量を調整しないでください。\n\n## 結論\n\nCal AIは本当に印象的なカロリーカメラであり、記録の摩擦が食事追跡を妨げているなら役立つかもしれません。しかし、GLP-1の旅を定義する薬剤については何も追跡しません — 用量なし、注射部位なし、副作用なし、リマインダーなし — そして栄養精度と深さは限定的です。GLP-1コンパニオンとしては、間違ったツールです。\n\n用量、ガイド付き部位ローテーション、副作用の洞察、タンパク質優先の食事記録、そして優しいコーチングを1つの場所で — 皿の写真ではなく注射を中心に構築されたものが欲しいなら — **[HAVITアプリを試してください](https://www.aihavit.com/)**。GLP-1の旅で一貫性を保つよう設計されています、週ごとに。\n\n## なぜHAVIT — 薬剤 + 行動変容、1つのアプリで\n\nGLP-1薬剤は体重を有意に減少させることができます — しかし体重計の数字は物語の一部に過ぎません。GLP-1療法で失われた体重の除脂肪量の割合は、一部の試験では40〜60%、他では15%以下の範囲でした — そして除脂肪量には臓器、骨、体液が含まれ、筋肉だけではありません([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728))、そして薬剤を中止すると新しい習慣が定着しない限り結果は薄れる傾向があります。だからこそ主要なガイダンスは薬剤をケアの一部として扱い、全体ではありません:米国予防医学専門委員会は、肥満の成人に集中的で多成分の行動介入を提供することを推奨しています([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。\n\nHAVITはまさにこの瞬間のために構築されています — 薬剤追跡、体組成、栄養とタンパク質、日々の習慣構築、そしてあなたに適応するAIコーチを統合する1つのアプリ。私たち自身の1,090人のGLP-1ユーザーの中で、最も一貫した追跡者が最も強い習慣を構築しました([GLP-1習慣レポートを参照](/en/glp-1-habit-report))。\n\n薬と筋肉を — 一緒に — 管理しましょう。[HAVITで始める →](https://www.aihavit.com)\n\n**重要な免責事項:HAVITは医療診断ツールではありません。**",
+      "key_stats": [],
+      "comparison_table": {
+        "title": "比較表:Cal AI vs 専用GLP-1トラッカー",
+        "headers": [
+          "機能",
+          "Cal AI",
+          "専用GLP-1トラッカー(MeAgain、Shotsy)",
+          "HAVIT"
+        ],
+        "rows": [
+          [
+            "用量 + 注射記録",
+            "なし",
+            "あり",
+            "あり"
+          ],
+          [
+            "注射部位ローテーションマップ",
+            "なし",
+            "あり",
+            "あり"
+          ],
+          [
+            "副作用追跡",
+            "なし",
+            "あり",
+            "あり"
+          ],
+          [
+            "注射リマインダー / 用量調整",
+            "なし",
+            "あり",
+            "あり"
+          ],
+          [
+            "食事記録",
+            "写真で高速(精度にばらつき)",
+            "様々",
+            "タンパク質優先"
+          ],
+          [
+            "タンパク質優先の枠組み",
+            "マクロ分割のみ",
+            "あり",
+            "あり(最優先)"
+          ],
+          [
+            "微量栄養素の深さ",
+            "最小限",
+            "最小限",
+            "中程度"
+          ],
+          [
+            "進捗(体重 + 写真)",
+            "限定的",
+            "あり",
+            "あり"
+          ],
+          [
+            "コーチング / 習慣構築",
+            "なし",
+            "様々",
+            "あり"
+          ],
+          [
+            "価格",
+            "週約$2.99〜年$29.99",
+            "無料 + 有料プラン",
+            "無料 + オプションのコーチ"
+          ]
+        ],
+        "caption": "HavitはGLP-1薬剤追跡、体組成、日々の習慣コーチングを1つのアプリで組み合わせたAI健康コンパニオンです。"
+      },
+      "faq": [
+        {
+          "question": "Cal AIはOzempicやWegovyのようなGLP-1薬剤を追跡しますか?",
+          "answer": "いいえ。Cal AIは写真ベースのカロリーカウンターであり、薬剤機能はありません — 用量、注射部位、注射日、副作用の入力欄がありません。食品のカロリーとマクロ栄養素を推定しますが、注射については何もないため、単独でGLP-1トラッカーとして機能することはできません。"
+        },
+        {
+          "question": "GLP-1ユーザーにとって最良のCal AI代替アプリは何ですか?",
+          "answer": "1つのアプリで薬剤追跡と食事記録の両方が必要な場合、MeAgainやShotsyのような専用トラッカーが注射側を処理し、HAVITは用量記録、タンパク質優先の食事追跡、コーチングを組み合わせます。'最良'は、部位ローテーション、副作用の洞察、タンパク質重視、またはオールインワンの利便性のどれが最も必要かによります。"
+        },
+        {
+          "question": "Cal AIのカロリー計算はどのくらい正確ですか?",
+          "answer": "ばらつきがあります。レビューでは標準的な食事で約10〜20%の誤差とされ、実地テストでは食品を完全に誤認識するなど、より大きな誤りが見つかっています。大まかな目安には問題ありませんが、GLP-1で食欲が抑制された状態で正確なタンパク質目標を達成するには信頼できません。"
+        },
+        {
+          "question": "MyFitnessPal買収後もCal AIはまだ存在しますか?",
+          "answer": "はい。MyFitnessPalは2026年3月にCal AIを買収しましたが、元のチームを維持したまま独立アプリとして継続し、現在はMyFitnessPalのより大きな食品データベースと統合されています。閉鎖されるわけではなく、MyFitnessPalエコシステムの一部です。"
+        },
+        {
+          "question": "Cal AIはGLP-1で筋肉を保護するのに役立ちますか?",
+          "answer": "間接的にのみです。マクロ分割の一部としてタンパク質を表示しますが、写真ベースの推定は正確ではなく、タンパク質優先の枠組みがありません。筋肉保護には、レジスタンストレーニングと組み合わせた信頼できる目立つタンパク質追跡が必要です — 専用GLP-1アプリがより優れている領域です。"
+        },
+        {
+          "question": "Cal AIに健康データを保存するのは安全ですか?",
+          "answer": "履歴を検討してください。2026年にCal AIは請求に関する懸念でApp Storeから一時削除され、数百万人のユーザーに影響するデータ侵害を開示しました。ほとんどの消費者向けウェルネスアプリはHIPAAの対象ではないため、プライバシーポリシーを読み、これが懸念される場合は明確なエクスポート/削除コントロールを持つ代替を検討してください。"
+        },
+        {
+          "question": "写真食事記録はGLP-1ユーザーにとって価値がありますか?",
+          "answer": "便利な機能です — 摩擦が少ないとより一貫した記録につながる可能性があります。しかし、GLP-1の旅の薬剤側には全く対処していません。理想は記録しやすく*かつ*用量、副作用、リマインダーを追跡するアプリであり、食品を撮影するだけのものではありません。"
+        },
+        {
+          "question": "これらのアプリは医療アドバイスの代わりになりますか?",
+          "answer": "いいえ。Cal AIとここにあるすべての代替アプリは追跡ツールであり、臨床医ではありません。写真カロリー推定と薬剤レベルビューはすべて近似であり、測定ではありません。処方医と薬剤師に従い、トラッカーを使ってより良いデータを診察に持ち込んでください。"
+        },
+        {
+          "question": "HavitはCal AIより優れていますか?",
+          "answer": "何を追跡しているかによります。Cal AIは一般的なカロリーと栄養記録用に構築されています。HavitはGLP-1コースを中心に構築されています — 用量と注射部位の記録、注射タイミングに紐づいた副作用パターン、体組成、除脂肪量を保護するためのタンパク質摂取。GLP-1を使用している場合、Havitは一般的なトラッカーが見逃すものをカバーします;カロリー計算だけが必要な場合、Cal AIで十分です。"
+        },
+        {
+          "question": "HavitはCal AIにない何をしますか?",
+          "answer": "用量と注射部位ローテーション、注射タイミングに対して記録された副作用、体組成トレンド追跡、そして自分の記録データに適応する習慣コーチング。Havitは薬剤管理と行動変容を複数のアプリに分散させるのではなく、1つの場所で組み合わせます。"
+        },
+        {
+          "question": "Cal AIからHavitに切り替えられますか?",
+          "answer": "はい。ほとんどの人は両方を1〜2週間実行します — 快適な場所で記録を続けながらHavitでGLP-1コースを設定し、用量リマインダーと副作用履歴が整ったら移行します。処方箋については何も変わりません;Havitは追跡コンパニオンであり、医療機器ではありません。"
+        }
+      ],
+      "references": [
+        {
+          "title": "Vora Blog. *Cal AI Review 2026: Photo Food Logging Accuracy, Pricing & Best Alternatives.*",
+          "source": "Vora Blog",
+          "url": "https://askvora.com/blog/cal-ai-acquisition-photo-food-logging"
+        },
+        {
+          "title": "Nutrola. *Cal AI Review 2026: Honest Pros, Cons, and Accuracy Test.*",
+          "source": "Nutrola",
+          "url": "https://nutrola.app/en/blog/cal-ai-review-2026"
+        },
+        {
+          "title": "TechCrunch. *MyFitnessPal has acquired Cal AI, the viral calorie app built by teens* (2026).",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/"
+        },
+        {
+          "title": "Aumiqx. *Cal AI Review 2026: Is Photo Calorie Counting Accurate?*",
+          "source": "Aumiqx",
+          "url": "https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/"
+        },
+        {
+          "title": "NutriScan App. *Cal AI Pricing 2026: Monthly vs Yearly and What Premium Unlocks.*",
+          "source": "NutriScan App",
+          "url": "https://nutriscan.app/blog/posts/cal-ai-pricing-2026-monthly-yearly-premium-abc6e7b26f"
+        },
+        {
+          "title": "BioSpace. *GLP-1 Side Effects Only One Factor Driving Patient Discontinuation Rates.*",
+          "source": "BioSpace",
+          "url": "https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates"
+        },
+        {
+          "title": "MeAgain. *7 Best GLP-1 Tracker Apps Compared (2026).*",
+          "source": "MeAgain",
+          "url": "https://meagain.com/best-glp-1-tracker-apps"
+        }
+      ],
+      "last_updated": "2026-07-02"
+    },
+    "zh-TW": {
+      "title": "GLP-1 使用者的 Cal AI 替代方案:2026 年誠實比較 — Havit vs Cal AI",
+      "meta_description": "正在使用 GLP-1 並尋找 Cal AI 替代方案?了解 Cal AI 的拍照計算熱量功能、其不足之處,以及應該尋找什麼替代方案。",
+      "tldr": "正在使用 GLP-1 並尋找 Cal AI 替代方案?了解 Cal AI 的拍照計算熱量功能、其不足之處,以及應該尋找什麼替代方案。",
+      "body_md": "*醫療免責聲明:本文僅供教育目的,不構成醫療建議。請務必遵循開立處方的臨床醫師和藥師的指示。切勿根據應用程式自行調整劑量。*\n\n如果您正在使用 Ozempic、Wegovy、Mounjaro 或 Zepbound,並搜尋「Cal AI 替代方案」,您可能喜歡拍照記錄食物、跳過手動輸入的想法——但您已經意識到,無論拍照熱量計算器多麼精美,它都無法幫助您完成旅程中真正重要的部分:每週注射。\n\n這是一個誠實、中立的比較。Cal AI 確實比幾乎所有競品都更好地減少了記錄摩擦,我們會如實說明。我們也會直接指出其準確度限制、薄弱的營養數據,以及它完全不追蹤您的藥物這一事實。如果您需要的是 GLP-1 伴侶而非熱量相機,以下是您應該尋找的功能。\n\n## Cal AI 的優勢\n\nCal AI 成為 2020 年代中期成長最快的營養應用程式之一,原因很明確:它讓記錄變得幾乎毫不費力。\n\n### 3-5 秒完成拍照記錄\n\nCal AI 的核心賣點是 **3-5 秒的工作流程**——拍攝您的餐盤,多模態 AI 系統就會返回巨量營養素分解([Vora Blog](https://askvora.com/blog/cal-ai-acquisition-photo-food-logging)、[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026))。它使用手機的深度感測器來估算食物體積,這是一個巧妙的設計。對於因為繁瑣而放棄手動熱量追蹤的人來說,這是一個真正的突破。\n\n### 由龐大資料庫支援(收購後)\n\nMyFitnessPal **於 2026 年 3 月收購了 Cal AI**,該應用程式與 MFP 的資料庫整合,涵蓋約 2000 萬種食物、68,500 多個品牌和 380 多家連鎖餐廳([TechCrunch](https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/))。Cal AI 繼續作為獨立產品運作,原團隊得以保留——所以它不會消失,但現在已納入 MyFitnessPal 的生態系統。\n\n### 低摩擦促進一致性\n\n人們放棄食物追蹤的最大原因是工作量太大。Cal AI 的速度確實幫助一些使用者比在手動應用程式中更一致地記錄。一致性是價值的來源,所以這很重要。\n\n## Cal AI 對 GLP-1 使用者的不足之處\n\n誠實的核心是:**Cal AI 是熱量相機,不是 GLP-1 追蹤器。**它完全沒有藥物功能,其營養數據和準確度也有實際限制。\n\n### 1. 無劑量、注射或藥物追蹤\n\nCal AI 沒有欄位可記錄您的藥物、劑量、注射部位或注射日期。對於每週一次的 GLP-1,注射是旅程的中心——而 Cal AI 完全不追蹤。它可以告訴您午餐的熱量,但無法告訴您上次注射的時間。\n\n### 2. 無副作用關聯\n\n40-70% 的 GLP-1 使用者會經歷胃腸道副作用([BioSpace](https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates)),記錄症狀與劑量時間軸的關聯是 GLP-1 使用中最有用的習慣之一。Cal AI 不提供結構化的症狀追蹤,因此無法幫助您發現噁心在每次注射後兩天達到高峰。\n\n### 3. 準確度不穩定\n\n拍照估算令人印象深刻但並不完美。評論顯示 Cal AI 在標準餐點上的誤差約為 **10-20%**,實測發現更大的誤差——有一個著名案例將蘋果識別為印度咖哩雞,並將簡單蘋果的熱量低估了約三分之一([Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)、[Aumiqx](https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/))。這對於粗略的熱量估算來說沒問題;但當您試圖在食慾受抑制的情況下達到精確的蛋白質目標時,就不夠可靠了。\n\n### 4. 微量營養素和蛋白質深度資料極少\n\nCal AI 專注於熱量和主要巨量營養素;詳細的微量營養素追蹤——維生素、礦物質、纖維、胺基酸——極少或缺失([Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026))。對於 GLP-1 使用者,風險在於蛋白質——您最需要保護肌肉的營養素——被視為巨量營養素分配中的一個數字,而非具有可靠數據支持的首要目標。\n\n### 5. 定價和信任疑慮\n\nCal AI 的定價從約 **每週 $2.99 到每年 $29.99** 不等,並有限制性的免費版本([NutriScan](https://nutriscan.app/blog/posts/cal-ai-pricing-2026-monthly-yearly-premium-abc6e7b26f))。其 2026 年並不順利:它曾因欺騙性計費問題短暫從 App Store 下架,並披露影響 320 萬以上使用者的資料外洩事件([Aumiqx](https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/))。對於儲存健康相關資料的應用程式,這段歷史值得權衡。\n\n## 比較表:Cal AI vs 專用 GLP-1 追蹤器\n\n誠實的框架:Cal AI 是**快速熱量相機**;專用 GLP-1 追蹤器是**藥物優先的伴侶**。不同的工作需要不同的工具。\n\n*功能、定價和準確度經常變化——在承諾使用前請在 App Store 或 Google Play 中驗證。來源:[Vora Blog](https://askvora.com/blog/cal-ai-acquisition-photo-food-logging)、[Nutrola](https://nutrola.app/en/blog/cal-ai-review-2026)、[MeAgain](https://meagain.com/best-glp-1-tracker-apps)。*\n\n### 差距的底線\n\nCal AI 為 GLP-1 使用者解決了錯誤的問題——而且解決得很出色。它消除了熱量記錄的摩擦,但熱量記錄從來不是 GLP-1 旅程的困難部分。困難的部分是您不能忘記的注射、需要預期的副作用,以及必須保護的蛋白質。Cal AI 完全不處理這些問題。\n\n## 誰應該繼續使用 Cal AI——誰應該轉換\n\n**繼續使用 Cal AI,如果:**\n- 食物記錄的速度是您最大的障礙,拍照記錄讓您保持一致。\n- 您只想要粗略的熱量估算,不需要精確的營養數據。\n- 您願意在其他地方單獨追蹤您的藥物。\n\n**考慮替代方案,如果:**\n- 您希望在同一個應用程式中追蹤劑量、注射部位和副作用。\n- 蛋白質精確度對您很重要(拍照估算對於嚴格目標不夠可靠)。\n- 您想要注射提醒和劑量調整意識。\n- 2026 年的計費和資料外洩歷史讓您對在那裡儲存健康資料感到猶豫。\n- 您想要指導和習慣支援,而不僅僅是熱量計數。\n\n## 在 Cal AI 替代方案中尋找什麼\n\n如果您轉換,請根據 GLP-1 基本功能而非僅記錄速度來評估候選方案:\n\n1. **劑量 + 引導式注射部位輪換**——Cal AI 核心功能所缺少的。\n2. **與劑量時間軸關聯的副作用記錄**——這樣您可以預期困難的日子。\n3. **可靠的蛋白質優先食物記錄**——GLP-1 會降低食慾,蛋白質攝取不足會導致肌肉流失風險;您需要蛋白質顯著且準確。\n4. **提醒和劑量調整支援**——下次注射的倒數計時和劑量增加的意識。\n5. **進度追蹤**——體重趨勢和照片,最好與 Apple Health / Google Fit 同步。\n6. **隱私**——閱讀政策,檢查外洩歷史,優先選擇具有匯出/刪除控制的應用程式。\n7. **指導或習慣支援**——記錄與讓您保持一致的系統之間的差異。\n\n關於拍照記錄的說明:這是一個很好的便利功能,但不能替代上述藥物功能。理想的應用程式是易於記錄*且*圍繞您的注射而建立的。\n\n## 關於準確度和安全性的說明\n\n沒有應用程式可以取代您的照護團隊——包括快速的 AI 驅動應用程式。基於拍照的熱量估算存在顯著誤差,因此不要將其視為精確值。任何 GLP-1 應用程式中的「估計藥物濃度」曲線都是基於已發表半衰期的教育性近似值,而非測量值。使用您追蹤的任何內容向您的臨床醫師**提出更好的問題**,切勿因為螢幕顯示的內容而調整劑量。\n\n## 底線\n\nCal AI 是一個真正令人印象深刻的熱量相機,如果記錄摩擦是阻止您追蹤食物的原因,它可能會有所幫助。但它完全不追蹤定義 GLP-1 旅程的藥物——沒有劑量、沒有注射部位、沒有副作用、沒有提醒——其營養準確度和深度也有限。作為 GLP-1 伴侶,這是錯誤的工具。\n\n如果您想要在一個地方擁有劑量、引導式部位輪換、副作用洞察、蛋白質優先的食物記錄和溫和的指導——圍繞您的注射而非您餐盤的照片而建立——**[試用 HAVIT 應用程式](https://www.aihavit.com/)**。它旨在讓您在 GLP-1 旅程中保持一致,一次一週。\n\n## 為什麼選擇 HAVIT——藥物 + 行為改變,在一個應用程式中\n\nGLP-1 藥物可以顯著減輕體重——但體重計上的數字只是故事的一部分。在某些試驗中,GLP-1 治療減輕的體重中瘦體重的比例從 40-60% 到 15% 或更少不等——而瘦體重包括器官、骨骼和體液,不僅僅是肌肉([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)),一旦停止用藥,效果往往會消退,除非新習慣取而代之。這就是為什麼領先的指引將藥物視為照護的一部分,而非全部:美國預防服務工作組建議為肥胖成人提供密集的多元行為介入([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。\n\nHAVIT 正是為這一時刻而建——一個結合藥物追蹤、身體組成、營養和蛋白質、日常習慣養成,以及適應您的 AI 教練的應用程式。在我們自己的 1,090 名 GLP-1 使用者中,最一致的追蹤者建立了最強的習慣([參見 GLP-1 習慣報告](/en/glp-1-habit-report))。\n\n同時管理藥物和肌肉。[從 HAVIT 開始 →](https://www.aihavit.com)\n\n*重要聲明:HAVIT 不是醫療診斷工具。本應用程式提供的所有資訊和功能僅供教育和自我追蹤目的,不應用於診斷、治療或預防任何疾病。請始終遵循您的醫療專業人員的建議。*",
+      "comparison_table": {
+        "title": "比較表:Cal AI vs 專用 GLP-1 追蹤器",
+        "headers": [
+          "功能",
+          "Cal AI",
+          "專用 GLP-1 追蹤器(MeAgain、Shotsy)",
+          "HAVIT"
+        ],
+        "rows": [
+          [
+            "劑量 + 注射記錄",
+            "無",
+            "有",
+            "有"
+          ],
+          [
+            "注射部位輪換地圖",
+            "無",
+            "有",
+            "有"
+          ],
+          [
+            "副作用追蹤",
+            "無",
+            "有",
+            "有"
+          ],
+          [
+            "注射提醒 / 劑量調整",
+            "無",
+            "有",
+            "有"
+          ],
+          [
+            "食物記錄",
+            "拍照快速(準確度不穩定)",
+            "各異",
+            "蛋白質優先"
+          ],
+          [
+            "蛋白質優先框架",
+            "僅巨量營養素分配",
+            "有",
+            "有(首要位置)"
+          ],
+          [
+            "微量營養素深度",
+            "極少",
+            "極少",
+            "中等"
+          ],
+          [
+            "進度(體重 + 照片)",
+            "有限",
+            "有",
+            "有"
+          ],
+          [
+            "指導 / 習慣養成",
+            "無",
+            "各異",
+            "有"
+          ],
+          [
+            "價格",
+            "約 $2.99/週–$29.99/年",
+            "免費 + 付費版本",
+            "免費 + 可選教練"
+          ]
+        ],
+        "caption": "Havit 是一個 AI 健康伴侶,在一個應用程式中結合 GLP-1 藥物追蹤、身體組成和日常習慣指導。"
+      },
+      "faq": [
+        {
+          "question": "Cal AI 是否追蹤 Ozempic 或 Wegovy 等 GLP-1 藥物?",
+          "answer": "不。Cal AI 是基於拍照的熱量計算器,沒有藥物功能——沒有劑量、注射部位、注射日期或副作用的欄位。它估算食物中的熱量和巨量營養素,但完全不涉及您的注射,因此無法單獨作為 GLP-1 追蹤器使用。"
+        },
+        {
+          "question": "對 GLP-1 使用者來說,最好的 Cal AI 替代方案是什麼?",
+          "answer": "如果您想要在一個應用程式中同時進行藥物追蹤和食物記錄,MeAgain 或 Shotsy 等專用追蹤器可處理注射方面,而 HAVIT 結合了劑量記錄、蛋白質優先的食物追蹤和指導。哪個'最好'取決於您最需要部位輪換、副作用洞察、蛋白質重點,還是一體化便利性。"
+        },
+        {
+          "question": "Cal AI 的熱量計算準確度如何?",
+          "answer": "不穩定。評論顯示其在標準餐點上的誤差約為 10-20%,實測發現更大的誤差,包括完全誤識食物。這對於粗略估算來說沒問題,但對於達到精確的蛋白質目標不可靠——當 GLP-1 已經抑制您的食慾時,這一點很重要。"
+        },
+        {
+          "question": "MyFitnessPal 收購後 Cal AI 還存在嗎?",
+          "answer": "是的。MyFitnessPal 於 2026 年 3 月收購了 Cal AI,但它繼續作為獨立應用程式運作,原團隊得以保留,現在與 MyFitnessPal 更大的食物資料庫整合。它不會被關閉——它是 MyFitnessPal 生態系統的一部分。"
+        },
+        {
+          "question": "Cal AI 能幫助我在 GLP-1 期間保護肌肉嗎?",
+          "answer": "只能間接幫助。它將蛋白質顯示為巨量營養素分配的一部分,但其基於拍照的估算並不精確,也缺乏蛋白質優先的框架。為了保護肌肉,您需要可靠、顯著的蛋白質追蹤配合阻力訓練——這些是專為 GLP-1 設計的應用程式往往做得更好的領域。"
+        },
+        {
+          "question": "在 Cal AI 中儲存我的健康資料安全嗎?",
+          "answer": "權衡其歷史。2026 年 Cal AI 曾因計費問題短暫從 App Store 下架,並披露影響數百萬使用者的資料外洩事件。大多數消費者健康應用程式不受 HIPAA 保護,因此請閱讀隱私政策,如果這讓您擔心,請考慮具有明確匯出/刪除控制的替代方案。"
+        },
+        {
+          "question": "拍照食物記錄對 GLP-1 使用者值得嗎?",
+          "answer": "這是一個不錯的便利功能——較低的摩擦可能意味著更一致的記錄。但它完全不處理 GLP-1 旅程的藥物方面。理想的應用程式是易於記錄*且*追蹤您的劑量、副作用和提醒的,而不是只拍攝食物照片的。"
+        },
+        {
+          "question": "這些應用程式能取代醫療建議嗎?",
+          "answer": "不能。Cal AI 和這裡的每個替代方案都是追蹤工具,不是臨床醫師。拍照熱量估算和任何藥物濃度視圖都是近似值,不是測量值。請遵循您的處方醫師和藥師,並使用您的追蹤器為您的就診帶來更好的資料。"
+        },
+        {
+          "question": "Havit 比 Cal AI 更好嗎?",
+          "answer": "這取決於您追蹤什麼。Cal AI 是為一般熱量和營養記錄而建立的。Havit 是圍繞 GLP-1 療程而建立的——劑量和注射部位記錄、與注射時間關聯的副作用模式、身體組成,以及保護瘦體重的蛋白質攝取。如果您正在使用 GLP-1,Havit 涵蓋了一般追蹤器遺漏的內容;如果您只需要熱量計算,Cal AI 就足夠了。"
+        },
+        {
+          "question": "Havit 做了哪些 Cal AI 沒有做的事?",
+          "answer": "劑量和注射部位輪換、與注射時間關聯的副作用記錄、身體組成趨勢追蹤,以及根據您自己記錄的資料調整的習慣指導。Havit 在一個地方結合藥物管理和行為改變,而不是將它們分散在多個應用程式中。"
+        },
+        {
+          "question": "我可以從 Cal AI 轉換到 Havit 嗎?",
+          "answer": "可以。大多數人會同時使用兩者一兩週——在您習慣的地方繼續記錄,同時在 Havit 中設定您的 GLP-1 療程——然後在劑量提醒和副作用歷史就位後轉移。您的處方不會改變;Havit 是追蹤伴侶,不是醫療設備。"
+        }
+      ],
+      "references": [
+        {
+          "text": "Vora Blog. *Cal AI Review 2026: Photo Food Logging Accuracy, Pricing & Best Alternatives.*",
+          "url": "https://askvora.com/blog/cal-ai-acquisition-photo-food-logging"
+        },
+        {
+          "text": "Nutrola. *Cal AI Review 2026: Honest Pros, Cons, and Accuracy Test.*",
+          "url": "https://nutrola.app/en/blog/cal-ai-review-2026"
+        },
+        {
+          "text": "TechCrunch. *MyFitnessPal has acquired Cal AI, the viral calorie app built by teens* (2026).",
+          "url": "https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/"
+        },
+        {
+          "text": "Aumiqx. *Cal AI Review 2026: Is Photo Calorie Counting Accurate?*",
+          "url": "https://aumiqx.com/ai-tools/cal-ai-app-review-nutrition-tracker-2026/"
+        },
+        {
+          "text": "NutriScan App. *Cal AI Pricing 2026: Monthly vs Yearly and What Premium Unlocks.*",
+          "url": "https://nutriscan.app/blog/posts/cal-ai-pricing-2026-monthly-yearly-premium-abc6e7b26f"
+        },
+        {
+          "text": "BioSpace. *GLP-1 Side Effects Only One Factor Driving Patient Discontinuation Rates.*",
+          "url": "https://www.biospace.com/drug-development/glp-1-side-effects-only-one-factor-driving-patient-discontinuation-rates"
+        },
+        {
+          "text": "MeAgain. *7 Best GLP-1 Tracker Apps Compared (2026).*",
           "url": "https://meagain.com/best-glp-1-tracker-apps"
         }
       ],
