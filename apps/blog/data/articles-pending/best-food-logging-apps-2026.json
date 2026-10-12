@@ -395,214 +395,296 @@
       "last_updated": "2026-10-11"
     },
     "zh-CN": {
-      "title": "2026年最佳饮食记录应用:根据你为何放弃选择,而非功能清单",
-      "short_title": "2026年最佳饮食记录应用",
-      "meta_description": "没有人因为应用不准确而放弃饮食记录。他们在特定时刻放弃。四种失败模式——搜索税、自制餐障碍、羞耻感缺口、无意义漂移——以及解决每种问题的应用类型,外加一个两周测试。",
-      "tldr": "首先诊断你的失败模式:搜索税、自制餐障碍、羞耻感缺口或无意义漂移。每种都由不同的应用类型解决,糟糕日子里的不完美记录比美好日子里的完美记录更有价值。",
-      "body_md": "*诚实披露:HAVIT发布此博客,并开发了下文提到的应用之一。我们已标明它的不足之处。*\n\n没有人因为应用不准确而放弃饮食记录。他们因为某个特定时刻而放弃——晚上9点站在厨房里,疲惫不堪,面对一碗含有六种食材的自制食物,然后决定不值得记录。\n\n因此本指南围绕这些时刻组织,而非功能清单。有四种这样的时刻,它们是记录习惯消亡的四种方式,每一种都由不同类型的应用解决。\n\n## 记录习惯消亡的四种方式\n\n找到你的那一种。它比任何评测更能决定你需要哪个应用。\n\n**1. 搜索税。**每顿饭都从输入开始,然后滚动浏览九个几乎相同的结果,再猜测哪个是对的。每次三十秒,一天四次。这是最常见的一种。\n\n**2. 自制餐障碍。**包装食品记录得很好。然后你做饭,一碗饭变成十一次查找。人们完美记录早餐数月,却从未记录过一次晚餐。\n\n**3. 羞耻感缺口。**这一天过得很糟,你不想看到它被写下来,你跳过记录——而那一天正是习惯破裂的时刻。被跳过的日子恰恰是最有信息量的。\n\n**4. 无意义漂移。**你忠实记录五周,应用报告数字,没有任何东西告诉你该改变什么,这项练习开始感觉像记账。\n\n四个问题,四种不同的答案。混淆它们就是为什么'直接用MyFitnessPal'有一半时间是糟糕建议。\n\n## 哪种应用类型解决哪种问题\n\n*应用特征截至2026年10月——在承诺使用前请查看应用商店的实时列表。*\n\n| 你的失败模式 | 解决方法 | 应用类型 | 注意事项 |\n| --- | --- | --- | --- |\n| 搜索税 | 最近餐食快捷方式、条形码、语音 | 任何具有良好'重复'流程的成熟追踪器 | 如果重复流程被隐藏,广度就毫无用处 |\n| 自制餐障碍 | 照片捕捉,或保存的多成分餐食 | 照片优先/AI记录器 | 数字是模型估算,不是测量值 |\n| 羞耻感缺口 | 低摩擦部分记录,无红色'超预算'判决 | 习惯或教练主导的应用 | 某些应用的游戏化方式使跳过变得更糟 |\n| 无意义漂移 | 能读取日志并给出建议的功能 | 教练或身体成分与生活方式应用 | 仅在你记录足够多时才有效 |\n\n值得记住的研究要点:是*记录*本身,而非精确度,产生效果。对22项自我监测研究(其中15项关于饮食记录)的系统综述发现,它与体重减轻存在一致关联——尽管作者在方法学基础上将证据评为薄弱([Burke等,*Journal of the American Dietetic Association*,2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/))。糟糕日子里的不完美记录比美好日子里的完美记录更有价值。\n\n## 照片记录实际能做什么,不能做什么\n\n基于照片的记录是目前这一类别的头条功能,因此值得直接回答。\n\n**它擅长什么。**它一举消除了搜索税和大部分自制餐障碍。对于混合菜肴——炖菜、打包午餐、别人做的饭——它是记录与不记录的区别。仅此一点就使它成为大多数初学者的正确默认选择。\n\n**它不能做什么。**看照片的模型看不到被食物吸收的油,无法称量顶层下面的东西,也无法区分全脂和低脂。它返回一个以数字形式呈现的合理范围。将数字视为范围的中点,而非测量值。\n\n**如何正确使用。**进食前拍照,从显示深度的角度而非正上方拍摄,并纠正明显的遗漏——油、酱汁、米饭份量。经过纠正的照片估算通常足以显示每周趋势,而这是唯一重要的分辨率。\n\n## 一个真正有用的两周测试\n\n评测无法为你回答这个问题,因为你的失败模式是个人化的。在免费试用期内运行这个测试:\n\n1. **首先记录你最难的一餐。**不是鸡胸肉——而是混合的、自制的、难以称重的那一餐。如果应用能处理那个,简单的餐食就能自行解决。\n2. **间隔三天记录同一餐两次。**第二次计算点击次数。如果没有显著减少,重复流程很糟糕,你会在第四周放弃。\n3. **故意过一个糟糕的日子并记录它。**观察应用的反应。红色横幅和中断的连续记录会教你在恰恰重要的日子停止记录。\n4. **在第十四天,问它告诉了你什么。**如果答案是'我的数字',你有一本账本。如果是'该改变什么',你有一个工具。\n\n## 每种方法的不足之处——包括我们的\n\n- **大型数据库追踪器**在广度上获胜,在自制餐障碍上失败。搜索是它们的核心交互,而搜索就是税收。\n- **照片优先记录**在速度上获胜,在精确度上失败。任何声称照片卡路里准确的人都在过度推销,包括我们。\n- **习惯主导的应用**保护连续记录,但记录往往过于粗略,无法在以后回答营养问题。\n- **HAVIT**的食品数据库比MyFitnessPal或Cronometer小。我们的照片估算是估算值。如果你需要临床饮食的验证微量营养素数据,请使用专门的营养应用——这种比较毫无悬念,我们不会假装不是这样。\n\n## 底线\n\n首先诊断你的失败模式。搜索税、自制餐障碍、羞耻感缺口和无意义漂移是四个不同的问题,解决一个的应用不会解决另一个。\n\n然后运行两周测试。它比包括本文在内的这一类别的所有评测加起来都更有用。\n\n## 为什么选择HAVIT——在糟糕的一周中存活的记录\n\nHAVIT用照片记录攻克自制餐障碍,用读取日志的教练攻克无意义漂移,因为这两个是终结大多数记录习惯的原因。\n\n每日签到的存在是为了羞耻感缺口。告诉应用今天很艰难是比记录你宁愿忘记的一天更轻松的行动,它保持线索不断——这很重要,因为跳过的一天通常是连续几天的第一天。\n\n餐食、水分、睡眠、步数、周期、情绪和GLP-1药物在一个例程中,一周的情况以今天的一个具体行动而非一页数字的形式返回。临床指南将这种结构化行为改变视为护理的核心部分,而非可选额外项([USPSTF,B级](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。在我们对1,090名GLP-1用户的分析中,最一致的记录者建立了最强的习惯([GLP-1习惯报告](/en/glp-1-habit-report))。\n\nHAVIT是健康应用,不是医疗设备。卡路里和身体成分数字是估算值。HAVIT不是医疗诊断工具。\n\n[试用HAVIT →](https://www.aihavit.com/)\n",
+      "title": "2026饮食记录App推荐 — 先搞清楚你是在哪一天放弃的",
+      "short_title": "2026饮食记录App推荐",
+      "meta_description": "搜索成本、家常菜的墙、聚餐之后、记了没下文——饮食记录死掉的四种方式。HAVIT、薄荷健康、小卡健康、食卡卡、体重小本、Keep 逐个拆解，评分取自中国区App Store，2026年10月核验。",
+      "tldr": "放弃记录不是因为App不准，是因为四个具体时刻：搜索太烦、家常菜不知道搜什么、聚餐之后不想面对、记了一个月没人告诉你该改什么。先认出自己断在哪一种，App就好选了。",
+      "body_md": "放弃记录饮食，几乎从来不是因为\"这个App不准\"。是因为某几个具体的时刻——你在那个时刻放下了手机，然后就再也没打开。\n\n先找到自己是在哪个时刻掉队的，选App这件事就不用纠结了。\n\n评分均取自中国区 App Store，2026年10月核验。厂商自己账号写的\"多App实测横评\"，本文不引用。\n\n![记录断在哪一天，比记得准不准更重要](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n## 饮食记录死掉的四种方式\n\n**一、搜索成本。**一顿饭要搜四五次、每次都要在十几条结果里挑一条，一天就是二十次决策。第九天你会算一笔账：这件事值不值。\n\n**二、家常菜和一锅菜。**西红柿炒蛋、乱炖、火锅、一碗加了半勺辣油的面。你根本不知道该搜什么词——这是搜索式记录最硬的一堵墙，而中国人的一日三餐大部分撞在这堵墙上。\n\n**三、聚餐和应酬之后。**烧烤、火锅、半斤白酒。这一顿记起来既算不清又难为情，于是干脆跳过；跳过一顿，第二天就容易整天不记；三天之后，连续记录没了，App也就卸了。\n\n**四、记了，但没有下文。**记满一个月，App还是只告诉你\"今天剩480千卡\"。没人说该改什么，记录就变成了记账，而记账没有回报。\n\n对号入座之后，再往下看。\n\n## HAVIT — 四个口子一起堵\n\n| | |\n| --- | --- |\n| 开发者 | Havit Inc. |\n| 中国区 App Store | 有中文版，名为\"HAVIT AI减肥教练\" |\n| 食物库 | 约486,000条 — USDA 432,418 + 韩国食药处 41,218 + 自建精选 12,671 |\n| 记录类别 | **8类**（饮食·饮水·运动·睡眠·步数·生理周期·心情·用药） |\n| 平台 | iOS · Android · 35种语言 |\n| 价位 | 免费下载 · 应用内购买 |\n\n![全部记录在一个地方](/blog/havit/shot/feature-track-everything.webp)\n\n**对搜索成本** — **AI食物扫描**：拍照，结束。不用先替这盘菜想好名字。\n\n![AI食物扫描——拍一张照，一餐就记完了](/blog/havit/shot/feature-nutrition.webp)\n\n**对家常菜那堵墙** — 同一条路。一盘十一种食材的菜，拍一张就行；在中文食物库里搜\"回锅肉\"还是\"五花肉+青蒜+豆瓣酱\"这个问题，根本不会出现。\n\n**对聚餐之后** — **每日签到**。几次点击说清今天的状态、睡眠、食欲和心情；搞砸的一天不会把连续记录直接清零。**每日任务**接着给一个小到今晚能做完的动作，而不是让你从零再来。\n\n![每日签到——把搞砸的那天接住，而不是清零](/blog/havit/shot/feature-daily-check-in.webp)\n\n**对没有下文** — 这是最关键的一条。**AI教练把八类记录一起读**，然后只给你今天的一个动作。记录因此有了回报：*蛋白质连续四天不够，这周两晚睡不到六小时，又在经期前一周——先动这一件。*只记食物的App，连看到这个关系的途径都没有。\n\n### 第五件事：它本来就不是一个只管饮食的App\n\n前面四条能同时成立，靠的是这一点。多数人手机里是四个App——一个记热量、一个练课程、一个记经期、一个冥想。**HAVIT 把它们装进同一个App**，所以八类记录（饮食、饮水、运动、睡眠、步数、生理周期、心情、**用药**）才有可能被同一个教练一起读。分散在四个App里的数据，谁也读不到谁——这就是第四种死法的根源。\n\n![引导式冥想——食欲·睡眠·安定·专注·呼吸·感恩](/blog/havit/shot/feature-mind-recovery.webp)\n\n同一个App里还有：**引导式冥想六类**（食欲、睡眠、安定、专注、呼吸、感恩）——情绪性进食恰恰最常发生在记录断掉的那几天，这一组是直接冲着它去的；**运动视频**、**轻断食**，以及发现页**1,400篇以上**的文章。再往上是连续打卡、徽章、虚拟形象、段位和**团队挑战**。\n\n### 谁做的\n\n和**韩国排名第一的减重诊所Juvis Diet出身的专家们**一起做的。\"吃撑的那天怎么接住\"这种设计，不是从产品会议里长出来的，是真人咨询里反复出现的场景。\n\n另外要如实说一句：**查中国的包装食品、奶茶和外卖套餐，薄荷健康比HAVIT更准更全。**HAVIT 的食物库走的是公共机构来源那条路——USDA 432,418条、韩国食药处 41,218条、自建精选 12,671条——比的不是条数，是每一条有没有出处；而中式家常菜本来就不该靠搜索解决。\n\n**适合谁**：三餐以家常菜为主的人；之前每次都断在\"吃多了的那一天\"的人；记了很久但没拿到任何结论的人。\n\n## 薄荷健康 — 搜索命中率最高的那一个\n\n| | |\n| --- | --- |\n| 开发者 | BOOHEE TECHNOLOGY |\n| 中国区 App Store | 4.7分 · 12万+ 条评分 |\n| 食物库 | 官方应用描述称\"17年积累、100万+条、以中国食物为主\" |\n| 价位 | 免费下载 · 会员订阅 |\n\n**擅长什么。**专治第一种死法里的\"搜不到\"。奶茶、便利店商品、连锁餐厅菜品，基本一搜就中，不用自己改数字。常点外卖的人在这里最省事。注意\"100万+条\"是官方说法，没有第三方核验。\n\n**不足。**它解决的是搜得到，但没解决\"你得想出搜什么词\"——家常菜那堵墙依然在。聚餐之后的接住机制、以及记完之后的那句话，也偏薄。\n\n**适合谁**：外食和包装食品占比高的人。\n\n## 小卡健康 · 食卡卡 — 把摩擦压到最低\n\n| | |\n| --- | --- |\n| 小卡健康 | 4.7分 · 4万+ 条评分（中国区 App Store） |\n| 食卡卡 | 4.9分 · 4.8万 条评分（中国区 App Store） |\n| 卖点 | 照片识别 + 轻量记录 |\n| 价位 | 免费下载 · 订阅 |\n\n**擅长什么。**对准第一和第二种死法：拍一张，完事。讨厌搜索的人在这类App里留存最好。\n\n**不足。**识别准确率的公开数字多数出自厂商自己的测评，样本小、立场明确，**本文不引用**。记完之后那一步也偏薄——睡眠、周期、体成分都不在视野里，所以第四种死法它接不住。\n\n**适合谁**：只想把\"记下来\"这个动作做到最快的人。\n\n## 体重小本 — 靠人把你拽回来\n\n| | |\n| --- | --- |\n| 开发者 | Shenzhen Xindie Technology Co.,Ltd. |\n| 中国区 App Store | 4.9分 · 6.7万 条评分 |\n| 定位 | 体重打卡 + 饮食记录 + 社区 |\n| 价位 | 免费下载 · 内购 |\n\n**擅长什么。**对准第三种死法。社区里天天有人在打卡，吃撑的那天也有人在发\"我今天也崩了\"——这种氛围的拉力，是工具做不出来的。\n\n**不足。**营养分析和身体状态这两轴浅，第四种死法仍然无解。\n\n**适合谁**：一个人坚持不下来、需要同伴的人。\n\n## Keep — 练完顺手记一笔\n\n| | |\n| --- | --- |\n| 开发者 | Beijing Calorie Technology Co., Ltd. |\n| 中国区 App Store | 4.9分 · 294万+ 条评分 |\n| 定位 | 运动课程 + 社区，饮食为附属功能 |\n| 价位 | 免费下载 · 会员订阅 |\n\n**擅长什么。**如果你本来就天天在里面上课，顺手记一笔的摩擦最小——少开一个App本身就是留存。\n\n**不足。**饮食是附属功能，食物库和分析深度都不如专门做这件事的。四种死法里它只减轻了\"又要多开一个App\"的那部分。\n\n**适合谁**：重心在练、饮食只想粗略留个底的人。\n\n## 一张表看完\n\n| 应用 | 搜索成本 | 家常菜 | 吃撑的那天 | 记完之后 | 一起看的数据 |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **拍照跳过** | **拍照跳过** | **签到接住，不清零** | **AI教练给今天的一个动作** | **8类** |\n| 薄荷健康 | **命中率最高** | 仍需想词 | 一般 | 饮食分析 | 饮食为主 |\n| 小卡健康 / 食卡卡 | **拍照跳过** | **拍照跳过** | 一般 | 提醒为主 | 饮食为主 |\n| 体重小本 | 一般 | 仍需想词 | **社区拉回** | 社区 | 体重·饮食 |\n| Keep | 一般 | 仍需想词 | 一般 | 训练向 | 运动为主 |\n\n以上为2026年10月的情况。功能和会员政策变动频繁，付费前请以App Store页面为准。\n\n## 两周测试\n\n别靠界面好不好看来选。装上之后按这个顺序测：\n\n1. **第1天** 记一顿外食、一顿家常菜。看家常菜那一顿花了几分钟。\n2. **第4天前后** 故意不记一顿。看App第二天怎么对你——是从头数，还是接着走。\n3. **第7天** 找一天吃到撑，然后照实记下来。能不难受地记完，这个App才留得住。\n4. **第14天** 问一个问题：它有没有告诉过我该改什么？如果两周里一句都没有，那它是记账本，不是教练。\n\n![两周之后，你会知道自己是哪一种](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_TRACK_001.jpg)\n\n## 写在最后\n\n饮食记录不是靠意志力撑下去的，是靠**摩擦足够小**，并且**记了有回报**。中国食物搜得最准的是薄荷健康；但三餐以家常菜为主、又总是断在吃撑那天的人，更需要的是拍照记录、能接住搞砸的签到，以及一个把八类记录一起读完再开口的教练。\n\n[免费开始使用 HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "饮食记录习惯消亡的方式",
-          "value": "4种(搜索税、自制餐障碍、羞耻感缺口、无意义漂移)",
-          "source": "本指南"
+          "label": "饮食记录习惯死掉的方式",
+          "value": "4种",
+          "source": "搜索成本·家常菜的墙·聚餐之后·记了没下文"
         },
         {
-          "label": "将自我监测与体重减轻联系起来的研究",
-          "value": "22项研究",
-          "source": "Burke等 2011,J Am Diet Assoc"
+          "label": "HAVIT 食物数据库",
+          "value": "约486,000条",
+          "source": "USDA 432,418 + 韩国食药处 41,218 + 自建精选 12,671"
         },
         {
-          "label": "揭示你失败模式的试用时长",
-          "value": "2周,包括一个记录的糟糕日子",
-          "source": "本指南的测试"
+          "label": "HAVIT 记录的类别",
+          "value": "8类",
+          "source": "饮食·饮水·运动·睡眠·步数·生理周期·心情·用药"
         },
         {
-          "label": "如何解读照片衍生的卡路里数字",
-          "value": "范围的中点,不是测量值",
-          "source": "来自图像的模型估算"
+          "label": "薄荷健康 中国区 App Store 评分",
+          "value": "4.7（12万+ 条评分）",
+          "source": "中国区 App Store，2026年10月核验"
+        },
+        {
+          "label": "看清自己属于哪一种所需的时间",
+          "value": "2周（要包含吃到撑的那一天）",
+          "source": "崩掉的那天才是真正的测试"
         }
       ],
       "comparison_table": {
-        "title": "哪种应用类型解决哪种失败模式",
+        "title": "一张表看完",
         "headers": [
-          "你的失败模式",
-          "解决方法",
-          "应用类型",
-          "注意事项"
+          "应用",
+          "搜索成本",
+          "家常菜",
+          "吃撑的那天",
+          "记完之后",
+          "一起看的数据"
         ],
         "rows": [
           [
-            "搜索税",
-            "最近餐食快捷方式、条形码、语音",
-            "任何具有良好重复流程的成熟追踪器",
-            "如果重复流程被隐藏,广度就毫无用处"
+            "HAVIT",
+            "拍照跳过",
+            "拍照跳过",
+            "签到接住，不清零",
+            "AI教练给今天的一个动作",
+            "8类"
           ],
           [
-            "自制餐障碍",
-            "照片捕捉,或保存的多成分餐食",
-            "照片优先/AI记录器",
-            "数字是模型估算,不是测量值"
+            "薄荷健康",
+            "命中率最高",
+            "仍需想词",
+            "一般",
+            "饮食分析",
+            "饮食为主"
           ],
           [
-            "羞耻感缺口",
-            "低摩擦部分记录,无红色判决",
-            "习惯或教练主导的应用",
-            "某些应用的游戏化使跳过变得更糟"
+            "小卡健康 / 食卡卡",
+            "拍照跳过",
+            "拍照跳过",
+            "一般",
+            "提醒为主",
+            "饮食为主"
           ],
           [
-            "无意义漂移",
-            "能读取日志并给出建议的功能",
-            "教练或身体成分与生活方式应用",
-            "仅在你记录足够多时才有效"
+            "体重小本",
+            "一般",
+            "仍需想词",
+            "社区拉回",
+            "社区",
+            "体重·饮食"
+          ],
+          [
+            "Keep",
+            "一般",
+            "仍需想词",
+            "一般",
+            "训练向",
+            "运动为主"
           ]
         ],
-        "caption": "混淆这些就是为什么'直接用MyFitnessPal'大约有一半时间是糟糕建议。"
+        "caption": "以上为2026年10月的情况。功能和会员政策变动频繁，付费前请以App Store页面为准。"
       },
       "faq": [
         {
-          "question": "2026年最好的饮食记录应用是什么?",
-          "answer": "这取决于你上次是如何放弃的。如果为每顿饭搜索让你筋疲力尽,你需要一个具有强大重复餐食流程的追踪器。如果家常菜是障碍,你需要照片记录。如果你在糟糕的日子停止,你需要一个接受部分日志而不破坏连续记录的应用。如果你记录了几周但没有任何东西告诉你该改变什么,你需要教练而非账本。"
+          "question": "饮食记录App哪个最好？",
+          "answer": "取决于你是在哪一步掉队的。外食和包装食品多、苦于搜不到，薄荷健康的中国食物库命中率最高；三餐以家常菜为主、不知道该搜什么词，拍照记录才是出路；每次都断在吃撑的那一天，就要看这个App会不会把连续记录清零。HAVIT 的做法是四个口子一起堵：拍照跳过搜索、每日签到接住崩掉的那天、AI教练把八类记录读完再给今天的一个动作。"
         },
         {
-          "question": "基于照片的餐食记录准确吗?",
-          "answer": "它很快,而且是估算。看照片的模型看不到被吸收的油,无法称量顶层下面的东西,也无法区分全脂和低脂。将数字解读为范围的中点。进食前拍照,从显示深度的角度拍摄,并纠正明显的遗漏——油、酱汁、米饭份量。"
+          "question": "家常菜和一锅菜怎么记才不会崩？",
+          "answer": "别试图在搜索框里描述它。西红柿炒蛋、乱炖、火锅这类菜，搜索式记录基本走不通——你得先替它想一个名字，而这一步本身就是放弃的理由。用AI拍照识别，一张照片就记完。想更准一点，就把两三样天天吃又热量密度高的东西（米饭、食用油）称一次，之后目测。"
         },
         {
-          "question": "如何在不放弃的情况下记录家常菜?",
-          "answer": "两种方法有效。拍摄成品菜并纠正估算,或者构建一次食谱并将其作为单个条目重复使用。每次搜索十一种成分是终结习惯的原因——如果应用让你这样做,它就是你饮食方式的错误应用。"
+          "question": "吃撑的那天也要记吗？",
+          "answer": "要，而且这一天比其他任何一天都重要。只记表现好的日子，数据就失去了意义，教练也会得出错误结论。更实际的问题是App怎么对待这一天：清零连续记录的设计会直接把人劝退。HAVIT 的每日签到允许你先说明今天的状态，搞砸的一天不会把连续记录抹掉。"
         },
         {
-          "question": "我应该在暴食的日子记录吗?",
-          "answer": "尤其要记录。那些是有信息量的日子,跳过它们是习惯破裂的方式。自我监测是与体重减轻最一致相关的行为,完整性比精确度更重要。如果你的应用让糟糕的日子感觉像惩罚,改变应用而非行为。"
+          "question": "外卖和便利店的东西能查到吗？",
+          "answer": "这一项薄荷健康最强，十几年的中国食物数据积累在这里体现得最明显，奶茶和连锁餐厅菜品基本一搜就中。HAVIT 在中国包装食品上不如它，这是实情；HAVIT 的食物库走的是公共机构来源（USDA、韩国食药处）加AI拍照识别的路线，外食可以搜，家常菜直接拍。"
         },
         {
-          "question": "需要多长时间才能知道应用是否适合我?",
-          "answer": "两周。第一天记录你最难的一餐,三天后再次记录同一餐并计算点击次数,故意记录一个糟糕的日子,然后在第十四天问应用实际告诉了你什么。如果答案是'我的数字',它是账本;如果是'该改变什么',它是工具。"
+          "question": "免费的饮食记录App够用吗？",
+          "answer": "如果目标只是把吃的记下来，多数App的免费范围基本够。需要付费的通常是深度分析、教练和课程这类功能。HAVIT 可以免费下载并有应用内购买。会员内容变动频繁，付费前请以App Store页面为准。"
         },
         {
-          "question": "免费的饮食记录应用够用吗?",
-          "answer": "对于记录,通常够用。检查付费墙的位置而非价格——如果解决你特定失败模式的功能在付费墙后面,免费版就是试用版。这一类别的定价经常变化,所以请查看应用商店的实时列表。"
+          "question": "多久能知道一个App适不适合我？",
+          "answer": "两周，而且必须包含一天吃到撑的日子。第1天测家常菜那一顿要花几分钟；第4天故意漏记一顿，看它第二天怎么对你；第7天照实记下吃撑的那一餐；第14天问自己一句：这两周里它有没有告诉过我该改什么。最后这一条答不上来，它就只是记账本。"
         }
       ],
       "references": [
         {
+          "title": "薄荷健康 官方 App Store 页面（中国区）",
+          "source": "Apple App Store，2026年10月核验：4.7分 / 12万+条评分；“100万+条食物”为开发者描述",
+          "url": "https://apps.apple.com/cn/app/id457856023"
+        },
+        {
+          "title": "Keep - AI 运动教练 官方 App Store 页面（中国区）",
+          "source": "Apple App Store，2026年10月核验：4.9分 / 294万+条评分",
+          "url": "https://apps.apple.com/cn/app/id952694580"
+        },
+        {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association,2011——22项研究,15项关于饮食自我监测;作者将证据水平评为薄弱",
+          "source": "Journal of the American Dietetic Association, 2011 — 22项研究，其中15项为饮食自我监测；作者自评证据等级为弱",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions——B级",
-          "source": "U.S. Preventive Services Task Force,2018(主题更新中);BMI≥30的成人,由临床医生提供",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026——HAVIT对1,090名GLP-1用户的内部分析",
-          "source": "Havit Inc.,2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
-        }
-      ],
-      "last_updated": "2026-10-11"
-    },
-    "zh-TW": {
-      "title": "2026 年最佳飲食記錄 App:依你放棄的原因選擇,而非功能清單",
-      "short_title": "2026 年最佳飲食記錄 App",
-      "meta_description": "沒有人因為 App 不準確而放棄飲食記錄。他們在特定時刻放棄。四種失敗模式——搜尋稅、自煮牆、羞恥落差、無意義漂移——以及解決各自問題的 App 類型,加上兩週測試法。",
-      "tldr": "先診斷你的失敗模式:搜尋稅、自煮牆、羞恥落差或無意義漂移。每一種都由不同的 App 類型解決,而糟糕日子裡的不完美記錄,比美好日子裡的完美記錄更有價值。",
-      "body_md": "*誠實揭露:HAVIT 發布此部落格,並製作下列其中一款 App。我們已標明它在哪些方面不如其他選擇。*\n\n沒有人因為 App 不準確而放棄飲食記錄。他們放棄是因為某個特定時刻——晚上 9 點站在廚房裡,疲憊不堪,面對一碗含有六種食材的自製料理,然後決定「不值得」。\n\n所以本指南圍繞這些時刻組織,而非功能清單。有四種這樣的時刻,它們是記錄習慣死亡的四種方式,每一種都由不同類型的 App 解決。\n\n## 記錄習慣死亡的四種方式\n\n找出你的模式。它比任何評論更能決定你需要哪款 App。\n\n**1. 搜尋稅。** 每餐都從打字開始,然後滾動九個幾乎相同的結果,再猜測哪個是對的。每次三十秒,一天四次。這是最常見的一種。\n\n**2. 自煮牆。** 包裝食品記錄得很好。然後你開始烹飪,一碗飯變成十一次查找。人們可以完美記錄早餐數月,卻從未記錄過一次晚餐。\n\n**3. 羞恥落差。** 這一天過得很糟,你不想看到它被寫下來,於是跳過記錄——而那正是習慣斷裂的時刻。被跳過的日子恰恰是最有資訊價值的。\n\n**4. 無意義漂移。** 你忠實記錄了五週,App 回報數字,沒有任何東西告訴你該改變什麼,這項練習開始感覺像記帳。\n\n四個問題,四種不同答案。混淆它們就是為什麼「直接用 MyFitnessPal」有一半時間是糟糕建議。\n\n## 哪種 App 類型解決哪種問題\n\n*App 特性截至 2026 年 10 月——在承諾使用前請查看即時商店列表。*\n\n| 你的失敗模式 | 解決方法 | App 類型 | 注意事項 |\n| --- | --- | --- | --- |\n| 搜尋稅 | 近期餐點捷徑、條碼、語音 | 任何具有良好'重複'流程的成熟追蹤器 | 如果重複流程被埋藏,廣度再大也沒用 |\n| 自煮牆 | 照片擷取,或儲存的多成分餐點 | 照片優先 / AI 記錄器 | 數字是模型估計,不是測量值 |\n| 羞恥落差 | 低摩擦部分記錄,無紅色'超出預算'判決 | 習慣或教練導向 App | 某些 App 的遊戲化方式讓跳過變得更糟 |\n| 無意義漂移 | 能讀取記錄並開處方的功能 | 教練或身體組成與生活方式 App | 只有在你記錄足夠多時才有效 |\n\n值得記住的研究要點:是*記錄行為*,而非精確度,產生效果。一項針對 22 項自我監測研究(其中 15 項關於飲食記錄)的系統性回顧發現,與體重減輕有一致的關聯——同時在方法學基礎上將證據評為薄弱([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/))。糟糕日子裡的不完美記錄,比美好日子裡的完美記錄更有價值。\n\n## 照片記錄實際能做什麼、不能做什麼\n\n基於照片的記錄是目前這個類別的頭條功能,所以值得直接回答。\n\n**它做得好的地方。** 它一次移除搜尋稅和大部分自煮牆。對於混合菜餚——燉菜、便當、別人做的料理——它是記錄與不記錄的差別。光這一點就使它成為大多數初學者的正確預設選擇。\n\n**它做不到的地方。** 看著照片的模型無法看到被食物吸收的油、無法稱量頂層下方的東西,也無法分辨全脂與低脂。它返回一個以數字呈現的合理範圍。將數字視為範圍的中點,而非測量值。\n\n**如何善用它。** 在進食前拍照,從顯示深度的角度而非正上方,並修正明顯的遺漏——油、醬汁、米飯份量。經過修正的照片估計通常足以顯示每週趨勢,而那是唯一重要的解析度。\n\n## 真正能告訴你答案的兩週測試\n\n評論無法為你回答這個問題,因為你的失敗模式是個人的。在免費試用期內執行這個測試:\n\n1. **先記錄你最難的一餐。** 不是雞胸肉——而是混合的、自製的、難以稱重的那一餐。如果 App 能處理那個,簡單的餐點就能自行解決。\n2. **相隔三天記錄同一餐兩次。** 第二次計算點擊次數。如果沒有顯著減少,重複流程很糟,你會在第四週放棄。\n3. **刻意過一個糟糕的日子並記錄它。** 觀察 App 做什麼。紅色橫幅和中斷的連續記錄會教你在恰恰重要的日子停止記錄。\n4. **在第十四天,問它告訴了你什麼。** 如果答案是'我的數字',你有一本帳簿。如果是'該改變什麼',你有一個工具。\n\n## 每種方法的不足之處——包括我們的\n\n- **大型資料庫追蹤器**在廣度上獲勝,在自煮牆上失分。搜尋是它們的核心互動,而搜尋就是稅。\n- **照片優先記錄**在速度上獲勝,在精確度上失分。任何聲稱照片卡路里準確的人都在過度推銷,包括我們。\n- **習慣導向 App**保護連續記錄,但記錄往往太粗略,無法在之後回答營養問題。\n- **HAVIT**的食物資料庫比 MyFitnessPal 或 Cronometer 小。我們的照片估計就是估計。如果你需要經過驗證的微量營養素資料用於臨床飲食,請使用專門的營養 App——那個比較並不接近,我們不會假裝如此。\n\n## 結論\n\n先診斷你的失敗模式。搜尋稅、自煮牆、羞恥落差和無意義漂移是四個不同的問題,解決其中一個的 App 不會解決另一個。\n\n然後執行兩週測試。它比這個類別的所有評論加起來都更有用,包括這一篇。\n\n## 為什麼選擇 HAVIT——在糟糕的一週中存活的記錄\n\nHAVIT 用照片記錄攻擊自煮牆,用讀取記錄的教練攻擊無意義漂移,因為這兩者是終結大多數記錄習慣的原因。\n\n每日簽到的存在是為了羞恥落差。告訴 App 今天很艱難,是比記錄你寧願忘記的一天更輕的行動,而且它保持線索不中斷——這很重要,因為跳過的一天通常是連續數天的第一天。\n\n餐點、水分、睡眠、步數、週期、情緒和 GLP-1 藥物位於一個例行程序中,而這一週以今天的一個具體行動回饋,而非一頁數字。臨床指引將這種結構化行為改變視為照護的核心部分,而非可選附加項目([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。在我們自己對 1,090 名 GLP-1 使用者的分析中,最一致的記錄者建立了最強的習慣([GLP-1 習慣報告](/en/glp-1-habit-report))。\n\nHAVIT 是健康 App,不是醫療設備。卡路里和身體組成數字是估計值。HAVIT 不是醫療診斷工具。\n\n[試用 HAVIT →](https://www.aihavit.com/)\n",
-      "key_stats": [
-        {
-          "label": "飲食記錄習慣死亡的方式",
-          "value": "4 種(搜尋稅、自煮牆、羞恥落差、無意義漂移)",
-          "source": "本指南"
-        },
-        {
-          "label": "將自我監測與體重減輕連結的研究",
-          "value": "22 項研究",
-          "source": "Burke et al. 2011, J Am Diet Assoc"
-        },
-        {
-          "label": "揭示你失敗模式的試用長度",
-          "value": "2 週,包含一個記錄的糟糕日子",
-          "source": "本指南的測試"
-        },
-        {
-          "label": "如何解讀照片衍生的卡路里數字",
-          "value": "範圍的中點,不是測量值",
-          "source": "來自影像的模型估計"
-        }
-      ],
-      "comparison_table": {
-        "title": "哪種 App 類型解決哪種失敗模式",
-        "headers": [
-          "你的失敗模式",
-          "解決方法",
-          "App 類型",
-          "注意事項"
-        ],
-        "rows": [
-          [
-            "搜尋稅",
-            "近期餐點捷徑、條碼、語音",
-            "任何具有良好重複流程的成熟追蹤器",
-            "如果重複流程被埋藏,廣度再大也沒用"
-          ],
-          [
-            "自煮牆",
-            "照片擷取,或儲存的多成分餐點",
-            "照片優先 / AI 記錄器",
-            "數字是模型估計,不是測量值"
-          ],
-          [
-            "羞恥落差",
-            "低摩擦部分記錄,無紅色判決",
-            "習慣或教練導向 App",
-            "某些 App 的遊戲化讓跳過變得更糟"
-          ],
-          [
-            "無意義漂移",
-            "能讀取記錄並開處方的功能",
-            "教練或身體組成與生活方式 App",
-            "只有在你記錄足夠多時才有效"
-          ]
-        ],
-        "caption": "混淆這些就是為什麼'直接用 MyFitnessPal'有大約一半時間是糟糕建議。"
-      },
-      "faq": [
-        {
-          "question": "2026 年最佳飲食記錄 App 是什麼?",
-          "answer": "取決於你上次如何放棄。如果為每餐搜尋讓你疲憊,你需要具有強大重複餐點流程的追蹤器。如果自煮食物是阻礙,你需要照片記錄。如果你在糟糕的日子停止,你需要一個接受部分記錄而不中斷連續記錄的 App。如果你記錄了數週卻沒有任何東西告訴你該改變什麼,你需要教練而非帳簿。"
-        },
-        {
-          "question": "基於照片的餐點記錄準確嗎?",
-          "answer": "它很快,而且是估計。看著照片的模型無法看到被吸收的油、無法稱量頂層下方的東西,也無法分辨全脂與低脂。將數字解讀為範圍的中點。在進食前拍照,從顯示深度的角度,並修正明顯的遺漏——油、醬汁、米飯份量。"
-        },
-        {
-          "question": "如何記錄自煮餐點而不放棄?",
-          "answer": "兩種選項有效。拍攝完成的菜餚並修正估計,或建立食譜一次並作為單一條目重複使用。每次搜尋十一種食材是終結習慣的原因——如果一個 App 讓你這樣做,它對你的飲食方式來說是錯誤的 App。"
-        },
-        {
-          "question": "我應該在暴食的日子記錄嗎?",
-          "answer": "尤其是那時候。那些是有資訊價值的日子,跳過它們是習慣斷裂的方式。自我監測是與體重減輕最一致相關的行為,完整性比精確度更重要。如果你的 App 讓糟糕的日子感覺像懲罰,改變 App 而非行為。"
-        },
-        {
-          "question": "需要多長時間才能知道一個 App 是否適合我?",
-          "answer": "兩週。第一天記錄你最難的一餐,三天後再次記錄同一餐並計算點擊次數,刻意記錄一個糟糕的日子,然後在第十四天問 App 實際告訴了你什麼。如果答案是'我的數字',它是帳簿;如果是'該改變什麼',它是工具。"
-        },
-        {
-          "question": "免費的飲食記錄 App 足夠嗎?",
-          "answer": "對於記錄,通常是的。檢查付費牆在哪裡而非價格——如果解決你特定失敗模式的功能在付費牆後面,免費版就是試用版。這個類別的定價經常變化,所以請查看即時商店列表。"
-        }
-      ],
-      "references": [
-        {
-          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 項研究,15 項關於飲食自我監測;作者將證據等級評為薄弱",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
         },
         {
           "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018(主題更新中);BMI ≥30 的成人,由臨床醫師提供",
+          "source": "U.S. Preventive Services Task Force, 2018（该主题更新中）",
           "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — HAVIT 对1,090名用药用户的内部分析",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-12"
+    },
+    "zh-TW": {
+      "title": "2026 飲食記錄 App 推薦（台灣）— 先搞清楚你是哪一種放棄",
+      "short_title": "2026 飲食記錄 App 推薦",
+      "meta_description": "HAVIT、Cofit、MyFitnessPal、fatsecret、OZO 一款一款拆開看。搜尋成本、外食與混合菜的牆、難堪的缺口、失去意義的漂流 — 找出你的那一種，App 就定了。評分取自 App Store 台灣，2026 年 10 月。",
+      "tldr": "停止記錄不是因為 App 不準，是因為某一個具體時刻。搜尋成本、外食與混合菜的牆、難堪的缺口、失去意義的漂流——先診斷你是哪一種，再挑 App。",
+      "body_md": "沒有人是因為「這個 App 不準」才停止記錄飲食的。停下來都是因為**某一個具體的時刻**。\n\n晚上九點，很累，面前是一個夾了十樣菜的自助餐便當，然後你想：「這個要一樣一樣輸入嗎？」\n\n所以這篇先把**記錄會死掉的四種方式**講清楚，再把 App 一款一款拆開看。評分取自 **App Store 台灣**，2026 年 10 月查核。\n\n![終結記錄的不是準確度，是疲勞](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## 記錄會死掉的四種方式\n\n**1. 搜尋成本。** 每一餐都從打字開始，捲過一堆長得很像的結果，再挑一個。一次三十秒，一天四次。手搖飲還要再處理半糖、少冰、加珍珠。\n\n**2. 外食與混合菜的牆。** 包裝食品很好記。但自助餐、滷味、火鍋、一鍋家常菜——一碗等於搜尋十一次。台灣人三餐大量外食，這面牆擋住的是大多數。\n\n**3. 難堪的缺口。** 今天吃垮了，不想看到它變成文字，於是跳過。**那一天就是習慣斷掉的那一天。**\n\n**4. 失去意義的漂流。** 認真記了五週，App 只回給你數字。從那時候開始，你覺得自己在寫帳簿。\n\n## HAVIT — 四種全部都打\n\n| | |\n| --- | --- |\n| 開發商 | Havit Inc. |\n| 食物資料庫 | **約 486,000 筆** — USDA 432,418 ＋ 韓國食藥處 41,218 ＋ 自家精選 12,671 |\n| 記錄項目 | 飲食・喝水・運動・睡眠・步數・生理週期・心情・GLP-1 |\n| 價格 | 免費下載 · App 內購買 |\n\n![AI 食物掃描：拍一張照就結束](/blog/havit/shot/feature-nutrition.webp)\n\n**先認一件事。** 台灣超商鮮食、自助餐菜色、夜市小吃這些在地品項，下面要講的 Cofit 蒐得比我們齊。要靠搜尋命中「某家超商的某一款飯糰」，那邊比較強。\n\n**外食與混合菜的牆**，HAVIT 用 **AI 食物掃描**翻過去。拍一張，熱量與營養素的推估就出來了。不用把便當裡的十樣菜一樣一樣查——這才是台灣的記錄現場真正卡住的地方。\n\n![同一項包裝食品，數字要有人負責](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg)\n\n**搜尋成本**由資料的出處壓下來。HAVIT 的 48.6 萬筆由 **USDA 432,418 筆**、**韓國食藥處 41,218 筆**和**自家精選 12,671 筆**組成——全部來自公務機關或自家維護的資料，不是群眾上傳。群眾上傳的資料庫筆數再多，同一項商品也會有好幾個互相打架的值，你每次都得比較九筆再決定。\n\n![每日簽到：搞砸的那天也有地方可以進來](/blog/havit/shot/feature-daily-check-in.webp)\n\n**難堪的缺口**由**每日簽到**補起來。用幾下點選說一句「今天很硬」，遠比把一整天你想刪掉的東西逐筆打進去來得輕。線不會斷。\n\n**失去意義的漂流**由 **AI 教練**擋住。它讀完八種紀錄，回給你**今天要做的一件事**。數字不是只是堆著，後面接著的是下一步。\n\n![八種紀錄在同一個地方](/blog/havit/shot/feature-track-everything.webp)\n\n同一款 App 裡還有**每日任務**、**六種引導式冥想**（食慾、睡眠、安定、專注、呼吸、感恩）、**運動影片**、**斷食**、探索專區**超過 1,400 篇文章**、體組成推估，以及連續紀錄、徽章、虛擬角色、等級與團隊挑戰。和**韓國第一減重診所 Juvis Diet 出身的專家**一起做出來的。\n\n**適合誰**：常吃自助餐和家常混合菜的人、搞砸的那天就停止記錄的人、需要記錄之後還有下一步的人。\n\n## Cofit 我的專屬營養師 — 台灣在地品項最齊，而且有人看\n\n| | |\n| --- | --- |\n| 開發商 | Cofit Healthcare Inc.（群健科技） |\n| 評分 | **4.8** · 8,524 則評分（App Store 台灣） |\n| 價格 | 免費下載 · App 內購買 |\n\n![三餐來自超商和外食的人，需要的是在地資料](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n**做得好的地方。** 商店說明寫明資料庫收錄「上萬筆食物營養資訊」，**特別涵蓋便利商店與外食餐廳**。要處理「搜尋成本」這一項，台灣目前沒有比它更齊的。而且每天的紀錄下面會有**真人營養師**回覆——「難堪的缺口」在這裡被另一種方式接住：有人在看，所以你會記。\n\n**不足的地方。** 每餐都要拍照上傳，記錄流程本身偏重。完整的營養師服務是課程制，價位在這份名單的高端。生理週期、GLP-1 用藥、冥想與恢復不在範圍內。\n\n**適合誰**：三餐以超商和外食為主、而且需要有人盯著才記得下去的人。\n\n## MyFitnessPal — 搜尋幾乎都查得到\n\n| | |\n| --- | --- |\n| 評分 | 4.7 · 23,792 則評分（App Store 台灣） |\n| 價格 | 免費下載 · Premium 另計 |\n\n**做得好的地方。** 進口包裝食品、連鎖速食、健身補給品的覆蓋最廣，條碼掃描成熟穩定。\n\n**不足的地方。** **同一項商品有好幾筆不同的數值。** 搜尋是它的核心動作，而搜尋正是疲勞的來源。台式小吃和超商鮮食要看有沒有人剛好建過。\n\n**適合誰**：常吃進口包裝食品、習慣掃條碼的人。\n\n## fatsecret 卡路里計算器 — 不付費也能走很遠\n\n| | |\n| --- | --- |\n| 評分 | 4.7 · 8,833 則評分（App Store 台灣） |\n| 價格 | 免費版相當完整 · Premium 另計 |\n\n**做得好的地方。** 不花錢，基本記錄幾乎都做得到。條碼、食譜、社群都在。想先把習慣養起來的人，門檻最低。\n\n**不足的地方。** 趨勢與體組成那一側很薄，資料同樣以使用者上傳為主。\n\n**適合誰**：不想付費，只想每天把東西記下來的人。\n\n## OZO — 台灣開發的拍照記錄\n\n| | |\n| --- | --- |\n| 開發商 | Po-Hsiang Lu（台灣） |\n| 價格 | 免費下載 · App 內購買（免費額度有限） |\n| 特色 | 針對台灣餐點的影像辨識 |\n\n**做得好的地方。** 商店說明寫明支援辨識台灣常見餐點，包含街邊小吃、手搖飲與便當，並提到有台灣臨床營養師參與。方向很對：台灣的記錄問題確實要從「混合菜拍照」這一端解。\n\n**不足的地方。** 很新，評分樣本還很小，所以這裡不引用它的評分數字。免費額度有限，而且影像推估就只是影像推估——看不見吸進去的油，也答不出最上層底下是什麼。\n\n**適合誰**：想試試台灣團隊做的拍照記錄的人。\n\n## 一次看完\n\n| App | 食物資料出處 | 台灣外食品項 | 拍照記錄 | 搞砸的那天接不接得住 | 記錄之後 | 體組成 |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **USDA ＋ 韓國食藥處 ＋ 自家精選** | 以 AI 掃描補足 | **有** | **每日簽到接住** | **AI 教練給一件行動** | **推估趨勢** |\n| Cofit | 自建，含便利商店與外食餐廳 | **最齊** | 有，並由營養師看 | 營養師回覆 | 營養師建議 | 可匯入 InBody 報告 |\n| MyFitnessPal | 以使用者上傳為主 | 普通 | 有限 | 無 | 無 | 無 |\n| fatsecret | 以使用者上傳為主 | 普通 | 有限 | 社群 | 無 | 無 |\n| OZO（台灣開發） | 影像推估 | 針對台灣餐點 | **有** | 無 | 有限 | 無 |\n\nApp 特性以 2026 年 10 月為準，評分取自 App Store 台灣。方案與功能經常改動，付費前請先看商店頁面。\n\n## 兩週測試\n\n1. **從最難的那一餐開始記。** 不要用雞胸肉，用你真正會吃的自助餐便當。\n2. **三天後把同一餐再記一次**，數你按了幾下。\n3. **故意搞砸一天，然後把它記下來。** 看它是跳紅色警告，還是接住你。\n4. **第十四天問自己**：這個 App 告訴過我什麼？\n\n答案如果是「我的數字」，那是帳簿；是「我該改哪一件事」，那才是工具。\n\n[開始使用 HAVIT →](https://www.aihavit.com/)",
+      "key_stats": [
+        {
+          "label": "飲食記錄習慣死掉的方式",
+          "value": "4 種",
+          "source": "搜尋成本・外食與混合菜的牆・難堪的缺口・失去意義的漂流"
+        },
+        {
+          "label": "HAVIT 食物資料庫",
+          "value": "約 486,000 筆",
+          "source": "USDA 432,418 ＋ 韓國食藥處 41,218 ＋ 自家精選 12,671，皆為公務機關或自家維護的資料"
+        },
+        {
+          "label": "Cofit 我的專屬營養師（App Store 台灣）",
+          "value": "4.8 · 8,524 則評分",
+          "source": "App Store 台灣，2026 年 10 月查核 — 便利商店與外食餐廳品項最齊"
+        },
+        {
+          "label": "看出自己是哪一種放棄需要的時間",
+          "value": "2 週（含一天故意搞砸）",
+          "source": "本文的兩週測試"
+        }
+      ],
+      "comparison_table": {
+        "title": "一次看完",
+        "headers": [
+          "App",
+          "食物資料出處",
+          "台灣外食品項",
+          "拍照記錄",
+          "搞砸的那天接不接得住",
+          "記錄之後",
+          "體組成"
+        ],
+        "rows": [
+          [
+            "HAVIT",
+            "USDA ＋ 韓國食藥處 ＋ 自家精選",
+            "以 AI 掃描補足",
+            "有",
+            "每日簽到接住",
+            "AI 教練給一件行動",
+            "推估趨勢"
+          ],
+          [
+            "Cofit",
+            "自建，含便利商店與外食餐廳",
+            "最齊",
+            "有，並由營養師看",
+            "營養師回覆",
+            "營養師建議",
+            "可匯入 InBody 報告"
+          ],
+          [
+            "MyFitnessPal",
+            "以使用者上傳為主",
+            "普通",
+            "有限",
+            "無",
+            "無",
+            "無"
+          ],
+          [
+            "fatsecret",
+            "以使用者上傳為主",
+            "普通",
+            "有限",
+            "社群",
+            "無",
+            "無"
+          ],
+          [
+            "OZO（台灣開發）",
+            "影像推估",
+            "針對台灣餐點",
+            "有",
+            "無",
+            "有限",
+            "無"
+          ]
+        ],
+        "caption": "App 特性以 2026 年 10 月為準，評分取自 App Store 台灣。方案與功能經常改動，付費前請先看商店頁面。"
+      },
+      "faq": [
+        {
+          "question": "飲食記錄 App 哪一款最好？",
+          "answer": "看你上次是怎麼放棄的。每餐都要搜尋搜到煩，就選在地資料最齊的；卡在自助餐和混合菜，就選拍照記錄；搞砸那天就停下來，就選接得住爛日子的；記了卻不知道要改什麼，那缺的是教練。HAVIT 的設計是四種一起打。"
+        },
+        {
+          "question": "自助餐便當和火鍋要怎麼記才不會累？",
+          "answer": "拍照再修比較實際。把配菜一樣一樣搜尋，正是終結習慣的那件事。HAVIT 的 AI 食物掃描拍一張就給出熱量與營養素的推估，直接跳過那一步；台灣開發的 OZO 也走同一條路。"
+        },
+        {
+          "question": "吃垮的那天也要記嗎？",
+          "answer": "尤其是那一天。它的資訊量最大，而跳過的那一刻習慣就斷了。如果 App 讓搞砸的一天感覺像懲罰，該換的是 App 不是行為。HAVIT 的每日簽到用幾下點選收走「今天很硬」，讓那條線不會斷。"
+        },
+        {
+          "question": "超商的御飯糰、便當查得到嗎？",
+          "answer": "在地品項目前以 Cofit 最齊，它的商店說明明確寫到涵蓋便利商店與外食餐廳。國際 App 要看有沒有使用者剛好建過那一筆。要跨過這個缺口，另一條路是拍照推估。"
+        },
+        {
+          "question": "免費的飲食記錄 App 夠用嗎？",
+          "answer": "以記錄為目的大致夠。HAVIT 和 Cofit 都能免費下載並有 App 內購買，fatsecret 的免費版相當完整。方案常改，付費前請看商店頁面。"
+        },
+        {
+          "question": "要多久才知道這款 App 適不適合我？",
+          "answer": "兩週。第一天記最難的那一餐、三天後把同一餐再記一次數按了幾下、故意搞砸一天然後把它記下來，第十四天問自己「這個 App 告訴過我什麼」。"
+        }
+      ],
+      "references": [
+        {
+          "title": "Cofit - 我的專屬營養師（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.8 · 8,524 則評分；商店說明載明涵蓋便利商店與外食餐廳",
+          "url": "https://apps.apple.com/tw/app/id1062498342"
+        },
+        {
+          "title": "MyFitnessPal 的卡路里計算機和膳食追蹤工具（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.7 · 23,792 則評分",
+          "url": "https://apps.apple.com/tw/app/id341232718"
+        },
+        {
+          "title": "fatsecret 卡路里計算器（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.7 · 8,833 則評分",
+          "url": "https://apps.apple.com/tw/app/id347184248"
+        },
+        {
+          "title": "OZO（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 商店說明載明支援辨識台灣常見餐點；評分樣本仍小，故未引用數字",
+          "url": "https://apps.apple.com/tw/app/id6743049961"
+        },
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 項研究，其中 15 項針對飲食自我監測；作者評定證據等級為弱",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
+          "source": "Annals of Behavioral Medicine, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
         },
         {
           "title": "GLP-1 Habit Report 2026 — HAVIT 對 1,090 名 GLP-1 使用者的內部分析",
@@ -610,7 +692,7 @@
           "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-12"
     },
     "es": {
       "title": "Mejores apps para registrar comidas en 2026: elige por cómo lo dejaste",
@@ -851,113 +933,147 @@
       "last_updated": "2026-10-11"
     },
     "id": {
-      "title": "Aplikasi Pencatat Makanan Terbaik di 2026: Pilih Berdasarkan Cara Anda Berhenti, Bukan Fitur",
+      "title": "Aplikasi Pencatat Makanan Terbaik 2026: Pilih dari Cara Anda Berhenti Terakhir Kali",
       "short_title": "Aplikasi Pencatat Makanan Terbaik 2026",
-      "meta_description": "Tidak ada yang berhenti mencatat makanan karena aplikasinya tidak akurat. Mereka berhenti pada momen tertentu. Empat mode kegagalan — pajak pencarian, tembok masakan rumah, kesenjangan rasa malu, hanyutan tanpa tujuan — dan jenis aplikasi yang memperbaiki masing-masing, plus uji coba dua minggu.",
-      "tldr": "Diagnosis mode kegagalan Anda terlebih dahulu: pajak pencarian, tembok masakan rumah, kesenjangan rasa malu, atau hanyutan tanpa tujuan. Masing-masing diselesaikan oleh jenis aplikasi yang berbeda, dan entri yang tidak sempurna di hari yang buruk lebih berharga daripada entri sempurna di hari yang baik.",
-      "body_md": "*Pengungkapan jujur: HAVIT menerbitkan blog ini dan membuat salah satu aplikasi di bawah ini. Kami telah menyebutkan di mana aplikasi kami kalah.*\n\nTidak ada yang berhenti mencatat makanan karena aplikasinya tidak akurat. Mereka berhenti karena momen tertentu — berdiri di dapur jam 9 malam, lelah, menghadapi semangkuk sesuatu yang dimasak sendiri dengan enam bahan, dan memutuskan itu tidak sepadan.\n\nJadi panduan ini disusun berdasarkan momen-momen tersebut daripada daftar fitur. Ada empat momen, mereka adalah empat cara kebiasaan mencatat mati, dan masing-masing diselesaikan oleh jenis aplikasi yang berbeda.\n\n## Empat cara pencatatan mati\n\nTemukan milik Anda. Ini menentukan aplikasi mana yang Anda butuhkan lebih dari ulasan mana pun.\n\n**1. Pajak pencarian.** Setiap makan dimulai dengan mengetik, lalu menggulir sembilan hasil yang hampir identik, lalu menebak mana yang benar. Tiga puluh detik setiap kali, empat kali sehari. Ini yang paling umum.\n\n**2. Tembok masakan rumah.** Makanan kemasan dicatat dengan baik. Lalu Anda memasak, dan satu mangkuk menjadi sebelas pencarian. Orang mencatat sarapan dengan sempurna selama berbulan-bulan dan tidak pernah sekalipun mencatat makan malam.\n\n**3. Kesenjangan rasa malu.** Hari berjalan buruk, Anda tidak ingin melihatnya tertulis, Anda melewatkan pencatatan — dan itulah saat kebiasaan patah. Hari-hari yang dilewati justru yang informatif.\n\n**4. Hanyutan tanpa tujuan.** Anda mencatat dengan setia selama lima minggu, aplikasi melaporkan angka-angka kembali, tidak ada yang memberi tahu Anda apa yang harus diubah, dan latihan mulai terasa seperti pembukuan.\n\nEmpat masalah, empat jawaban berbeda. Mencampuradukkannya adalah mengapa 'gunakan saja MyFitnessPal' adalah saran buruk setengah waktu.\n\n## Jenis aplikasi mana yang menyelesaikan yang mana\n\n*Karakteristik aplikasi per Oktober 2026 — periksa daftar toko langsung sebelum Anda berkomitmen.*\n\n| Mode kegagalan Anda | Apa yang memperbaikinya | Jenis aplikasi | Waspadai |\n| --- | --- | --- | --- |\n| Pajak pencarian | Pintasan makanan terbaru, barcode, suara | Pelacak matang apa pun dengan alur 'ulangi' yang baik | Keluasan tidak berguna jika alur ulangi tersembunyi |\n| Tembok masakan rumah | Tangkapan foto, atau makanan multi-bahan yang disimpan | Pencatat foto-pertama / AI | Angkanya adalah estimasi model, bukan pembacaan |\n| Kesenjangan rasa malu | Pencatatan parsial rendah gesekan, tanpa putusan 'melebihi anggaran' merah | Aplikasi berbasis kebiasaan atau pelatih | Beberapa aplikasi gamifikasi dengan cara yang membuat melewatkan lebih buruk |\n| Hanyutan tanpa tujuan | Sesuatu yang membaca log dan meresepkan | Aplikasi pelatihan atau komposisi-dan-gaya-hidup | Hanya bekerja jika Anda mencatat cukup untuk dibaca |\n\nPoin penelitian yang perlu dipegang: *pencatatan*-lah, bukan presisi, yang membawa efek. Tinjauan sistematis dari 22 studi pemantauan diri, 15 di antaranya tentang pencatatan makanan, menemukan asosiasi konsisten dengan penurunan berat badan — sambil menilai bukti lemah pada dasar metodologis ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)). Entri yang tidak sempurna di hari yang buruk lebih berharga daripada entri sempurna di hari yang baik.\n\n## Apa yang sebenarnya dilakukan dan tidak dilakukan pencatatan foto\n\nPencatatan berbasis foto adalah fitur utama kategori ini saat ini, jadi layak mendapat jawaban langsung.\n\n**Apa yang dilakukannya dengan baik.** Ini menghilangkan pajak pencarian dan sebagian besar tembok masakan rumah dalam satu gerakan. Untuk hidangan campuran — semur, bekal makan siang, masakan orang lain — ini adalah perbedaan antara mencatat dan tidak mencatat. Itu saja membuatnya default yang tepat untuk kebanyakan orang yang memulai.\n\n**Apa yang tidak bisa dilakukannya.** Model yang melihat foto tidak dapat melihat minyak yang diserap ke dalam makanan, tidak dapat menimbang apa yang ada di bawah lapisan atas, dan tidak dapat membedakan full-fat dari reduced-fat. Ini mengembalikan rentang yang masuk akal yang disajikan sebagai angka. Perlakukan angka sebagai titik tengah rentang, bukan pengukuran.\n\n**Cara menggunakannya dengan baik.** Foto sebelum makan, dari sudut yang menunjukkan kedalaman daripada lurus ke bawah, dan perbaiki kesalahan yang jelas — minyak, saus, porsi nasi. Estimasi foto yang diperbaiki biasanya cukup baik untuk tren mingguan, yang merupakan satu-satunya resolusi yang penting.\n\n## Uji coba dua minggu yang benar-benar memberi tahu Anda sesuatu\n\nUlasan tidak dapat menjawab ini untuk Anda karena mode kegagalan Anda bersifat pribadi. Jalankan ini sebagai gantinya, di dalam uji coba gratis:\n\n1. **Catat makanan tersulit Anda terlebih dahulu.** Bukan dada ayam — yang campuran, dimasak sendiri, sulit ditimbang. Jika aplikasi menangani itu, makanan mudah akan mengurus diri mereka sendiri.\n2. **Catat makanan yang sama dua kali, tiga hari terpisah.** Hitung ketukan kedua kalinya. Jika tidak jauh lebih sedikit, alur ulangi buruk dan Anda akan berhenti di minggu empat.\n3. **Sengaja memiliki hari yang buruk dan mencatatnya.** Perhatikan apa yang dilakukan aplikasi. Spanduk merah dan streak yang rusak mengajari Anda untuk berhenti mencatat tepat pada hari-hari yang penting.\n4. **Pada hari keempat belas, tanyakan apa yang diberitahukannya.** Jika jawabannya 'angka saya', Anda memiliki buku besar. Jika 'apa yang harus diubah', Anda memiliki alat.\n\n## Di mana setiap pendekatan gagal — termasuk milik kami\n\n- **Pelacak database besar** menang pada keluasan dan kalah pada tembok masakan rumah. Pencarian adalah interaksi inti mereka, dan pencarian adalah pajak.\n- **Pencatatan foto-pertama** menang pada kecepatan dan kalah pada presisi. Siapa pun yang mengklaim akurasi kalori fotografi berlebihan menjual, dan itu termasuk kami.\n- **Aplikasi berbasis kebiasaan** melindungi streak tetapi sering mencatat terlalu kasar untuk menjawab pertanyaan nutrisi nanti.\n- **HAVIT** memiliki database makanan yang lebih kecil daripada MyFitnessPal atau Cronometer. Estimasi foto kami adalah estimasi. Jika Anda memerlukan data mikronutrien terverifikasi untuk diet klinis, gunakan aplikasi nutrisi khusus — perbandingan itu tidak dekat dan kami tidak akan berpura-pura sebaliknya.\n\n## Intinya\n\nDiagnosis mode kegagalan Anda terlebih dahulu. Pajak pencarian, tembok masakan rumah, kesenjangan rasa malu, dan hanyutan tanpa tujuan adalah empat masalah berbeda, dan aplikasi yang menyelesaikan satu tidak akan menyelesaikan yang lain.\n\nKemudian jalankan uji coba dua minggu. Ini lebih berguna daripada setiap ulasan kategori ini digabungkan, termasuk yang ini.\n\n## Mengapa HAVIT — pencatatan yang bertahan di minggu yang buruk\n\nHAVIT menyerang tembok masakan rumah dengan pencatatan foto dan hanyutan tanpa tujuan dengan pelatih yang membaca log, karena keduanya adalah yang mengakhiri sebagian besar kebiasaan pencatatan.\n\nCheck-in harian ada untuk kesenjangan rasa malu. Memberi tahu aplikasi bahwa hari ini sulit adalah tindakan yang lebih ringan daripada mencatat hari yang ingin Anda lupakan, dan itu menjaga benang tidak terputus — yang penting, karena hari yang dilewati biasanya yang pertama dari beberapa.\n\nMakanan, hidrasi, tidur, langkah, siklus, suasana hati, dan obat GLP-1 duduk dalam satu rutinitas, dan minggu kembali sebagai satu tindakan konkret untuk hari ini daripada halaman angka. Panduan klinis memperlakukan jenis perubahan perilaku terstruktur ini sebagai bagian inti perawatan, bukan tambahan opsional ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Dalam analisis kami sendiri terhadap 1.090 pengguna GLP-1, pencatat paling konsisten membangun kebiasaan terkuat ([Laporan Kebiasaan GLP-1](/en/glp-1-habit-report)).\n\nHAVIT adalah aplikasi kesehatan, bukan alat medis. Angka kalori dan komposisi tubuh adalah estimasi.\n\n[Coba HAVIT →](https://www.aihavit.com/)\n",
+      "meta_description": "HAVIT, FatSecret, MyFitnessPal, Cronometer, dan pencatat berbasis foto, dibahas satu per satu. Empat cara kebiasaan mencatat mati — pajak pencarian, tembok warteg, jurang rasa bersalah, hanyut karena sia-sia — dan aplikasi mana yang menutup tiap celah.",
+      "tldr": "Tidak ada yang berhenti mencatat karena aplikasinya tidak akurat. Di Indonesia penyebab utamanya adalah tembok warteg: satu piring campur berubah jadi enam pencarian. Diagnosis dulu cara Anda berhenti, baru pilih aplikasinya.",
+      "body_md": "Tidak ada yang berhenti mencatat makanan karena aplikasinya tidak akurat. Orang berhenti pada satu momen yang sangat spesifik — pukul sembilan malam, capek, memegang bungkusan nasi warteg berisi nasi, sayur, satu lauk, sambal, dan kerupuk, lalu memutuskan ini tidak sepadan dengan usahanya.\n\nJadi panduan ini mulai dari **empat cara kebiasaan mencatat itu mati**, baru kemudian membahas aplikasinya satu per satu. Dicek di Google Play dan situs resmi, Oktober 2026.\n\n![Yang mengakhiri pencatatan adalah kelelahan, bukan ketidakakuratan](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## Empat cara kebiasaan mencatat mati\n\n**1. Pajak pencarian.** Tiap makan dimulai dengan mengetik, lalu menggulir hasil yang nyaris sama, lalu menebak. Tiga puluh detik, empat kali sehari.\n\n**2. Tembok warteg.** Produk kemasan tercatat mulus. Lalu Anda makan di warung atau masak sendiri, dan satu piring berubah jadi enam pencarian terpisah. Ini hambatan nomor satu di Indonesia, bukan akurasi.\n\n**3. Jurang rasa bersalah.** Harinya berantakan, Anda tidak mau melihatnya tertulis, jadi Anda lewati — dan **hari itulah kebiasaannya putus.**\n\n**4. Hanyut karena terasa sia-sia.** Lima minggu mencatat dengan setia, dan aplikasinya hanya memantulkan angka kembali. Lama-lama terasa seperti pembukuan.\n\nRamadan mempertajam keempatnya sekaligus: jadwal makan bergeser, sahur dilakukan setengah sadar, dan menu berbuka sebagian besar adalah masakan rumah yang tidak ada di database mana pun.\n\n## HAVIT — dibangun untuk menyerang keempatnya\n\n| | |\n| --- | --- |\n| Pembuat | Havit Inc. |\n| Harga | Gratis · ada pembelian dalam aplikasi |\n| Database makanan | **±486.000 entri** — 432.418 USDA branded + 41.218 Korea MFDS + 12.671 hasil kurasi |\n| Yang dicatat | Makan, air, olahraga, tidur, langkah, siklus haid, suasana hati, obat GLP-1 |\n| Bahasa | 35 bahasa, termasuk Bahasa Indonesia |\n\n![AI Food Scan — foto piringnya, lewati pencarian](/blog/havit/shot/feature-nutrition.webp)\n\n**Tembok warteg** adalah masalah yang harus dijawab lebih dulu, dan jawabannya harus jujur: tidak ada aplikasi — HAVIT termasuk — yang punya database lengkap masakan rumahan dan warung Indonesia. Entri \"nasi campur, lauk telur balado, sayur nangka\" tidak ada di mana pun, karena porsinya berbeda di tiap warung.\n\nYang dilakukan HAVIT adalah menghindari pencarian sama sekali. **AI Food Scan** mengubah satu foto piring menjadi perkiraan kalori dan makro per komponen. Piring dengan enam komponen justru kasus terbaiknya — persis kasus di mana kolom pencarian kalah dan kamera menang.\n\n**Pajak pencarian** dipangkas lewat asal data. 486.000 entri HAVIT berasal dari **lembaga pangan publik** — 432.418 produk bermerek USDA dan 41.218 dari Korea MFDS, lembaga yang setara BPOM di Korea — bukan dari unggahan pengguna. Artinya Anda tidak perlu membandingkan sembilan versi nyaris identik dari yoghurt yang sama untuk menebak mana yang benar.\n\n![Check-in harian — cara hari yang buruk masuk tanpa mengakhiri apa pun](/blog/havit/shot/feature-daily-check-in.webp)\n\n**Jurang rasa bersalah** ditutup oleh **check-in harian**. Mengatakan \"hari ini berat\" dalam beberapa ketukan adalah tindakan yang jauh lebih ringan daripada mencatat hari yang ingin Anda lupakan, dan benangnya tetap tidak putus.\n\n**Hanyut karena sia-sia** adalah alasan **coach AI** itu ada. Ia membaca kedelapan catatan dan mengembalikan **satu tindakan konkret untuk hari ini**, bukan satu halaman angka.\n\nDi atas semua itu: **misi harian**, **enam meditasi terpandu**, **video olahraga**, fitur **puasa** yang cocok dipakai saat Ramadan maupun di luar itu, **lebih dari 1.400 artikel**, estimasi komposisi tubuh, rangkaian hari, lencana, peringkat, dan tantangan tim. Dikembangkan bersama para ahli dari Juvis Diet, klinik diet nomor satu di Korea.\n\n**Cocok untuk:** orang yang makan di warung atau masak sendiri; orang yang berhenti mencatat pada hari-hari buruk; orang yang butuh sesuatu setelah catatan.\n\n## FatSecret — cari makanan Indonesia, biasanya ketemu\n\n| | |\n| --- | --- |\n| Harga | Paket gratis yang luas · Premium terpisah |\n| Google Play | 4,8 bintang · 548 rb ulasan · 50 jt+ unduhan |\n| Situs lokal | fatsecret.co.id, berbahasa Indonesia |\n\n**Yang dikerjakannya dengan baik.** Perlu diakui terus terang: **untuk pencarian makanan Indonesia, inilah yang paling lengkap di daftar ini.** Situs Indonesia sendiri, entri berbahasa Indonesia, dan paket gratis paling murah hati di kategori ini. Dicek Oktober 2026, \"sate ayam\" mengembalikan 960 hasil dan \"rendang\" 80 hasil.\n\n**Di mana ia gugur.** Mencari **adalah** interaksi utamanya — dan mencari adalah pajaknya. Entrinya berasal dari kontribusi anggota, jadi nilai untuk makanan yang sama bisa berjauhan: pada hari yang sama, \"Rendang\" generik tercatat sekitar 195 kkal per 100 g sementara satu entri bermerek tercatat 500 kkal per 100 g. Dan hidangan campur tetap buntu — \"nasi padang\" hanya mengembalikan satu entri. Tidak ada yang menangkap Anda pada hari yang buruk, dan tidak ada apa-apa setelah angkanya.\n\n**Cocok untuk:** orang yang betah mencari manual dan ingin tetap gratis.\n\n## MyFitnessPal — raja barcode\n\n| | |\n| --- | --- |\n| Harga | Gratis · langganan Premium |\n| Google Play | 4,8 bintang · 2,92 jt ulasan · 100 jt+ unduhan |\n| Database | 14 jt+ entri, didominasi kiriman pengguna |\n\n**Yang dikerjakannya dengan baik.** Cakupan produk kemasan terluas yang ada, dengan pemindai barcode paling matang. Untuk camilan dan minuman minimarket, ini yang paling sering langsung berhasil.\n\n**Di mana ia gugur.** Pajak pencariannya besar, dan satu produk muncul berkali-kali dengan nilai berbeda. Untuk masakan warung dan rumahan, cakupannya jauh lebih tipis daripada FatSecret — artinya tembok warteg tetap berdiri.\n\n**Cocok untuk:** orang yang pola makannya didominasi produk kemasan.\n\n## Cronometer — entri lebih sedikit, tapi lebih baik\n\n| | |\n| --- | --- |\n| Harga | Gratis · langganan Gold |\n| Google Play | 4,6 bintang · 59,1 rb ulasan · 5 jt+ unduhan |\n\n![Saat kedalaman gizi benar-benar penting](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n**Yang dikerjakannya dengan baik.** Entri terverifikasi dan terkurasi, dengan kedalaman mikronutrien yang sungguhan. Kalau angka Anda akan dibawa ke ahli gizi, ini pilihannya.\n\n**Di mana ia gugur.** Database lebih kecil dan entri manual lebih banyak — dan untuk makanan Indonesia kekosongannya terasa tajam. Warung di ujung gang Anda tidak ada di sana.\n\n**Cocok untuk:** orang yang butuh angka gizi yang bisa dipertanggungjawabkan.\n\n## Journable dan pencatat berbasis foto lainnya\n\n| | |\n| --- | --- |\n| Google Play | Journable 4,9 bintang · 121 rb ulasan · 1 jt+ unduhan |\n\n![Jalan terpendek dari piring ke catatan](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg)\n\n**Yang dikerjakannya dengan baik.** Kecepatan, dan itu langsung menjawab tembok warteg. Untuk hidangan campur dan masakan orang lain, merekalah yang menentukan satu makanan tercatat atau dilewati sama sekali.\n\n**Di mana ia gugur.** Model yang melihat foto tidak bisa melihat minyak yang terserap atau menimbang apa yang ada di bawah lapisan atas — baca angkanya sebagai titik tengah sebuah rentang. Dan setelah angka itu, sebagian besar berhenti: tidak ada yang menangkap hari buruk, tidak ada yang menjelaskan minggu yang mandek.\n\n**Cocok untuk:** orang yang berhenti mencatat karena terlalu lama.\n\n## Perbandingan berdampingan\n\n| Aplikasi | Database | Asal data | Makanan Indonesia | Catat lewat foto | Menerima hari buruk | Setelah catatan |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **±486 rb** | **Lembaga pangan publik** | Tidak lengkap, ditutup scan foto | **Ya** | **Check-in** | **Satu tindakan per hari** |\n| FatSecret | Sedang | Kiriman anggota | **Paling luas** | Terbatas | Tidak | Tidak |\n| MyFitnessPal | 14 jt+ | Kiriman pengguna | Tipis | Terbatas | Tidak | Tidak |\n| Cronometer | Lebih kecil | Terverifikasi, terkurasi | Sangat tipis | Terbatas | Tidak | Tidak |\n| Pencatat foto | Perkiraan model | Inferensi gambar | Lewat gambar | **Ya** | Tidak | Terbatas |\n\nKarakteristik aplikasi per Oktober 2026.\n\n## Uji dua minggu\n\n1. **Catat makanan tersulit Anda lebih dulu** — bukan dada ayam rebus, tapi bungkus nasi warteg lengkap dengan sambal dan kerupuk.\n2. **Catat makanan yang sama lagi tiga hari kemudian** dan hitung ketukannya. Kalau tidak jauh lebih sedikit, Anda akan berhenti di minggu keempat.\n3. **Sengaja jalani satu hari buruk dan catat apa adanya.** Perhatikan apa yang dilakukan aplikasinya. Spanduk merah mengajari Anda untuk berhenti mencatat tepat pada hari-hari yang paling penting.\n4. **Di hari keempat belas, tanyakan apa yang sudah ia sampaikan.** \"Angka saya\" berarti buku kas. \"Apa yang harus diubah\" berarti alat.\n\n[Coba HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "Cara kebiasaan pencatatan makanan mati",
-          "value": "4 (pajak pencarian, tembok masakan rumah, kesenjangan rasa malu, hanyutan tanpa tujuan)",
-          "source": "Panduan ini"
+          "label": "Cara kebiasaan mencatat makanan mati",
+          "value": "4",
+          "source": "Pajak pencarian, tembok warteg, jurang rasa bersalah, hanyut karena sia-sia"
         },
         {
-          "label": "Studi yang menghubungkan pemantauan diri dengan penurunan berat badan",
-          "value": "22 studi",
-          "source": "Burke et al. 2011, J Am Diet Assoc"
+          "label": "Database makanan HAVIT",
+          "value": "±486.000 entri",
+          "source": "432.418 USDA branded + 41.218 Korea MFDS + 12.671 hasil kurasi"
         },
         {
-          "label": "Panjang uji coba yang mengungkapkan mode kegagalan Anda",
+          "label": "Hasil pencarian \"nasi padang\" di FatSecret Indonesia",
+          "value": "1 entri",
+          "source": "fatsecret.co.id, dicek Oktober 2026"
+        },
+        {
+          "label": "Lama uji yang menyingkap cara Anda berhenti",
           "value": "2 minggu, termasuk satu hari buruk yang dicatat",
-          "source": "Uji coba panduan ini"
-        },
-        {
-          "label": "Cara membaca angka kalori yang berasal dari foto",
-          "value": "Titik tengah rentang, bukan pengukuran",
-          "source": "Estimasi model dari gambar"
+          "source": "Uji dalam panduan ini"
         }
       ],
       "comparison_table": {
-        "title": "Jenis aplikasi mana yang menyelesaikan mode kegagalan mana",
+        "title": "Perbandingan berdampingan",
         "headers": [
-          "Mode kegagalan Anda",
-          "Apa yang memperbaikinya",
-          "Jenis aplikasi",
-          "Waspadai"
+          "Aplikasi",
+          "Database",
+          "Asal data",
+          "Makanan Indonesia",
+          "Catat lewat foto",
+          "Menerima hari buruk",
+          "Setelah catatan"
         ],
         "rows": [
           [
-            "Pajak pencarian",
-            "Pintasan makanan terbaru, barcode, suara",
-            "Pelacak matang apa pun dengan alur ulangi yang baik",
-            "Keluasan tidak berguna jika alur ulangi tersembunyi"
+            "HAVIT",
+            "±486 rb",
+            "Lembaga pangan publik",
+            "Tidak lengkap, ditutup scan foto",
+            "Ya",
+            "Check-in",
+            "Satu tindakan per hari"
           ],
           [
-            "Tembok masakan rumah",
-            "Tangkapan foto, atau makanan multi-bahan yang disimpan",
-            "Pencatat foto-pertama / AI",
-            "Angkanya adalah estimasi model, bukan pembacaan"
+            "FatSecret",
+            "Sedang",
+            "Kiriman anggota",
+            "Paling luas",
+            "Terbatas",
+            "Tidak",
+            "Tidak"
           ],
           [
-            "Kesenjangan rasa malu",
-            "Pencatatan parsial rendah gesekan, tanpa putusan merah",
-            "Aplikasi berbasis kebiasaan atau pelatih",
-            "Beberapa aplikasi gamifikasi sehingga melewatkan lebih menyakitkan"
+            "MyFitnessPal",
+            "14 jt+",
+            "Kiriman pengguna",
+            "Tipis",
+            "Terbatas",
+            "Tidak",
+            "Tidak"
           ],
           [
-            "Hanyutan tanpa tujuan",
-            "Sesuatu yang membaca log dan meresepkan",
-            "Aplikasi pelatihan atau komposisi-dan-gaya-hidup",
-            "Hanya bekerja jika Anda mencatat cukup untuk dibaca"
+            "Cronometer",
+            "Lebih kecil",
+            "Terverifikasi, terkurasi",
+            "Sangat tipis",
+            "Terbatas",
+            "Tidak",
+            "Tidak"
+          ],
+          [
+            "Pencatat foto",
+            "Perkiraan model",
+            "Inferensi gambar",
+            "Lewat gambar",
+            "Ya",
+            "Tidak",
+            "Terbatas"
           ]
         ],
-        "caption": "Mencampuradukkan ini adalah mengapa 'gunakan saja MyFitnessPal' adalah saran buruk sekitar setengah waktu."
+        "caption": "Karakteristik aplikasi per Oktober 2026."
       },
       "faq": [
         {
-          "question": "Apa aplikasi pencatat makanan terbaik di 2026?",
-          "answer": "Tergantung bagaimana Anda berhenti terakhir kali. Jika mencari setiap makanan membuat Anda lelah, Anda memerlukan pelacak dengan alur ulangi-makanan yang kuat. Jika makanan yang dimasak di rumah adalah penghambat, Anda memerlukan pencatatan foto. Jika Anda berhenti di hari-hari buruk, Anda memerlukan aplikasi yang menerima log parsial tanpa merusak streak. Jika Anda mencatat selama berminggu-minggu dan tidak ada yang memberi tahu Anda apa yang harus diubah, Anda memerlukan pelatihan daripada buku besar."
+          "question": "Aplikasi pencatat makanan terbaik di Indonesia tahun 2026 apa?",
+          "answer": "Tergantung cara Anda berhenti terakhir kali. Kalau yang membunuh kebiasaan Anda adalah mencari entri, pilih aplikasi dengan scan foto. Kalau Anda betah mencari manual dan ingin cakupan hidangan lokal terluas, FatSecret paling kuat. Kalau Anda berhenti karena merasa sia-sia, cari aplikasi yang mengubah catatan menjadi satu tindakan — itu yang dilakukan coach AI HAVIT."
         },
         {
-          "question": "Apakah pencatatan makanan berbasis foto akurat?",
-          "answer": "Ini cepat, dan ini adalah estimasi. Model yang melihat foto tidak dapat melihat minyak yang diserap, tidak dapat menimbang apa yang ada di bawah lapisan atas, dan tidak dapat membedakan full-fat dari reduced-fat. Baca angka sebagai titik tengah rentang. Foto sebelum makan, dari sudut yang menunjukkan kedalaman, dan perbaiki kesalahan yang jelas — minyak, saus, porsi nasi."
+          "question": "Bagaimana mencatat masakan rumahan dan menu warteg tanpa menyerah?",
+          "answer": "Berhentilah mencarinya sebagai satu entri, karena entri itu memang tidak ada — di aplikasi mana pun, HAVIT termasuk. Foto piringnya dan biarkan AI memecahnya per komponen, lalu perbaiki satu atau dua komponen yang jelas meleset. Catatan kasar yang selesai dalam sepuluh detik jauh lebih berharga daripada catatan sempurna yang tidak pernah Anda buat."
         },
         {
-          "question": "Bagaimana cara mencatat makanan yang dimasak di rumah tanpa menyerah?",
-          "answer": "Dua opsi berhasil. Foto hidangan jadi dan perbaiki estimasi, atau buat resep sekali dan gunakan kembali sebagai entri tunggal. Mencari sebelas bahan setiap kali adalah yang mengakhiri kebiasaan — jika aplikasi membuat Anda melakukan itu, itu adalah aplikasi yang salah untuk cara Anda makan."
+          "question": "Apakah pencatatan lewat foto akurat?",
+          "answer": "Bacalah sebagai titik tengah sebuah rentang. Model tidak bisa melihat minyak yang terserap atau menimbang apa yang ada di bawah lapisan atas, dan masakan Indonesia banyak yang digoreng dan bersantan — dua hal yang paling sering diremehkan. Tapi pembandingnya bukan timbangan dapur, melainkan hari kosong tanpa catatan sama sekali."
         },
         {
-          "question": "Haruskah saya mencatat di hari-hari ketika saya makan berlebihan?",
-          "answer": "Terutama saat itu. Itu adalah hari-hari informatif, dan melewatkannya adalah bagaimana kebiasaan patah. Pemantauan diri adalah perilaku yang paling konsisten terkait dengan penurunan berat badan, dan kelengkapan lebih penting daripada presisi. Jika aplikasi Anda membuat hari buruk terasa seperti hukuman, ubah aplikasi daripada perilaku."
+          "question": "Haruskah saya tetap mencatat pada hari ketika saya makan berlebihan?",
+          "answer": "Ya, dan itu justru hari yang paling penting. Hari yang dilewati adalah hari kebiasaan itu putus, bukan hari kalorinya meleset. Kalau mencatat hari buruk terasa terlalu berat, cari aplikasi yang menyediakan jalan yang lebih ringan — di HAVIT, check-in harian membiarkan Anda mengatakan \"hari ini berat\" dalam beberapa ketukan tanpa memutus rangkaian."
         },
         {
-          "question": "Berapa lama waktu yang dibutuhkan untuk mengetahui apakah aplikasi cocok untuk saya?",
-          "answer": "Dua minggu. Catat makanan tersulit Anda pada hari pertama, catat makanan yang sama lagi tiga hari kemudian dan hitung ketukan, sengaja catat satu hari buruk, lalu pada hari keempat belas tanyakan apa yang sebenarnya diberitahukan aplikasi kepada Anda. Jika jawabannya 'angka saya', itu adalah buku besar; jika 'apa yang harus diubah', itu adalah alat."
+          "question": "Bagaimana mencatat selama Ramadan?",
+          "answer": "Geser jendelanya, jangan targetnya. Sahur dan berbuka adalah dua waktu makan yang nyata, jadi catat keduanya seperti biasa, dan perhatikan protein pada sahur karena itu yang paling menentukan rasa lapar sepanjang hari. Fitur puasa dan check-in harian HAVIT menaruh jendela makan, tidur, dan nafsu makan di tempat yang sama, sehingga perubahan pola selama sebulan itu terbaca sebagai konteks, bukan sebagai kegagalan."
         },
         {
-          "question": "Apakah aplikasi pencatat makanan gratis cukup?",
-          "answer": "Untuk pencatatan, biasanya ya. Periksa di mana paywall berada daripada harga — jika fitur yang menyelesaikan mode kegagalan khusus Anda ada di belakangnya, tingkat gratis adalah uji coba. Harga dalam kategori ini sering berubah, jadi periksa daftar toko langsung."
+          "question": "Apakah ukuran database itu penting?",
+          "answer": "Lebih penting asalnya. Database raksasa yang didominasi kiriman pengguna membuat satu produk muncul dengan banyak nilai berbeda, dan pilihan entri Anda mengubah total harian. Database yang lebih kecil tapi berasal dari lembaga pangan publik bisa dipertanggungjawabkan. Untuk makanan Indonesia, keduanya tetap punya lubang yang sama — dan di situlah scan foto lebih menentukan daripada jumlah entri."
         }
       ],
       "references": [
         {
+          "title": "Pencarian makanan FatSecret Indonesia",
+          "source": "fatsecret.co.id — hasil pencarian \"nasi padang\", \"gado gado\", \"rendang\", \"sate ayam\", dicek Oktober 2026",
+          "url": "https://www.fatsecret.co.id/kalori-gizi/"
+        },
+        {
+          "title": "Data Komposisi Pangan Indonesia (TKPI)",
+          "source": "Tabel Komposisi Pangan Indonesia 2017 — basis data gizi pangan Indonesia",
+          "url": "https://www.panganku.org/id-ID/beranda"
+        },
+        {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 studi, 15 tentang pemantauan diri diet; penulis menilai tingkat bukti lemah",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 studi, 15 di antaranya tentang pencatatan makan; penulis menilai tingkat buktinya lemah",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
         },
         {
           "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (topik dalam pembaruan); dewasa dengan BMI ≥30, diberikan oleh klinisi",
+          "source": "U.S. Preventive Services Task Force, 2018 (topik sedang diperbarui); dewasa dengan IMT ≥30, dijalankan klinisi",
           "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
         },
         {
-          "title": "GLP-1 Habit Report 2026 — analisis internal HAVIT terhadap 1.090 pengguna GLP-1",
+          "title": "GLP-1 Habit Report 2026 — analisis internal HAVIT atas 1.090 pengguna GLP-1",
           "source": "Havit Inc., 2026",
           "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-12"
     },
     "de": {
       "title": "Beste Apps zum Essen protokollieren 2026: nach Ihrem Abbruchmuster wählen",
@@ -1079,113 +1195,174 @@
       "last_updated": "2026-10-11"
     },
     "fr": {
-      "title": "Meilleures applications de suivi alimentaire en 2026 : choisissez selon pourquoi vous abandonnez, pas selon les fonctionnalités",
-      "short_title": "Meilleures applis de suivi alimentaire 2026",
-      "meta_description": "Personne n'abandonne le suivi alimentaire parce que l'application était imprécise. On abandonne à un moment précis. Quatre modes d'échec — la taxe de recherche, le mur du fait-maison, l'écart de honte, la dérive du non-sens — et le type d'application qui résout chacun, plus un test de deux semaines.",
-      "tldr": "Diagnostiquez d'abord votre mode d'échec : la taxe de recherche, le mur du fait-maison, l'écart de honte ou la dérive du non-sens. Chacun est résolu par un type d'application différent, et une entrée imparfaite un mauvais jour vaut plus qu'une entrée parfaite un bon jour.",
-      "body_md": "*Divulgation honnête : HAVIT publie ce blogue et fabrique l'une des applications ci-dessous. Nous avons indiqué où elle perd.*\n\nPersonne n'abandonne le suivi alimentaire parce que l'application était imprécise. On abandonne à cause d'un moment précis — debout dans une cuisine à 21h, fatigué, face à un bol de quelque chose fait maison avec six ingrédients, et on décide que ça n'en vaut pas la peine.\n\nCe guide est donc organisé autour de ces moments plutôt qu'autour de listes de fonctionnalités. Il y en a quatre, ce sont les quatre façons dont une habitude de suivi meurt, et chacune est résolue par un type d'application différent.\n\n## Les quatre façons dont le suivi meurt\n\nTrouvez la vôtre. Elle détermine l'application dont vous avez besoin plus que n'importe quelle critique.\n\n**1. La taxe de recherche.** Chaque repas commence par taper, puis faire défiler neuf résultats quasi identiques, puis deviner lequel est le bon. Trente secondes à chaque fois, quatre fois par jour. C'est la plus courante.\n\n**2. Le mur du fait-maison.** Les aliments emballés se notent bien. Puis vous cuisinez, et un bol devient onze recherches. Les gens notent le petit-déjeuner parfaitement pendant des mois et ne notent jamais le dîner.\n\n**3. L'écart de honte.** La journée se passe mal, vous ne voulez pas le voir écrit, vous sautez la notation — et c'est ce jour-là que l'habitude se brise. Les jours sautés sont précisément les jours informatifs.\n\n**4. La dérive du non-sens.** Vous notez fidèlement pendant cinq semaines, l'application renvoie des chiffres, rien ne vous dit quoi changer, et l'exercice commence à ressembler à de la comptabilité.\n\nQuatre problèmes, quatre réponses différentes. Les mélanger est la raison pour laquelle 'utilisez simplement MyFitnessPal' est un mauvais conseil la moitié du temps.\n\n## Quel type d'application résout quoi\n\n*Les caractéristiques des applications sont celles d'octobre 2026 — vérifiez la liste en direct dans le magasin avant de vous engager.*\n\n| Votre mode d'échec | Ce qui le résout | Type d'application | Attention à |\n| --- | --- | --- | --- |\n| La taxe de recherche | Raccourcis de repas récents, code-barres, voix | Tout tracker mature avec un bon flux de 'répétition' | L'étendue est inutile si le flux de répétition est enfoui |\n| Le mur du fait-maison | Capture photo, ou repas multi-ingrédients sauvegardés | Enregistreurs photo-d'abord / IA | Le chiffre est une estimation de modèle, pas une mesure |\n| L'écart de honte | Notation partielle à faible friction, pas de verdicts rouges 'dépassement de budget' | Applications axées sur les habitudes ou le coaching | Certaines applications gamifient d'une manière qui aggrave le fait de sauter |\n| La dérive du non-sens | Quelque chose qui lit le journal et prescrit | Applications de coaching ou de composition-et-style-de-vie | Ne fonctionne que si vous avez assez noté pour lire |\n\nLe point de recherche à retenir : c'est la *notation*, pas la précision, qui porte l'effet. Une revue systématique de 22 études d'auto-surveillance, dont 15 sur la notation alimentaire, a trouvé une association constante avec la perte de poids — tout en évaluant les preuves comme faibles sur le plan méthodologique ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)). Une entrée imparfaite un mauvais jour vaut plus qu'une entrée parfaite un bon jour.\n\n## Ce que la notation photo fait réellement, et ne fait pas\n\nLa notation basée sur la photo est la fonctionnalité phare de cette catégorie en ce moment, elle mérite donc une réponse directe.\n\n**Ce qu'elle fait bien.** Elle supprime la taxe de recherche et la majeure partie du mur du fait-maison en un seul mouvement. Pour les plats mixtes — un ragoût, un lunch emballé, la cuisine de quelqu'un d'autre — c'est la différence entre noter et ne pas noter. Cela seul en fait le choix par défaut pour la plupart des gens qui débutent.\n\n**Ce qu'elle ne peut pas faire.** Un modèle regardant une photographie ne peut pas voir l'huile absorbée dans l'aliment, ne peut pas peser ce qui est sous la couche supérieure, et ne peut pas distinguer le plein gras du réduit en gras. Il renvoie une plage plausible présentée comme un chiffre. Traitez le chiffre comme le point médian d'une plage, pas comme une mesure.\n\n**Comment bien l'utiliser.** Photographiez avant de manger, sous un angle qui montre la profondeur plutôt que directement du dessus, et corrigez les erreurs évidentes — l'huile, la sauce, la portion de riz. Une estimation photo corrigée est généralement suffisante pour une tendance hebdomadaire, qui est la seule résolution qui compte.\n\n## Un test de deux semaines qui vous dit vraiment quelque chose\n\nLes critiques ne peuvent pas répondre à cela pour vous parce que votre mode d'échec est personnel. Faites plutôt ceci, pendant l'essai gratuit :\n\n1. **Notez d'abord votre repas le plus difficile.** Pas un blanc de poulet — celui qui est mixte, fait maison, difficile à peser. Si l'application gère cela, les repas faciles se gèrent d'eux-mêmes.\n2. **Notez le même repas deux fois, à trois jours d'intervalle.** Comptez les tapotements la deuxième fois. Si ce n'est pas dramatiquement moins, le flux de répétition est mauvais et vous abandonnerez à la semaine quatre.\n3. **Ayez délibérément une mauvaise journée et notez-la.** Regardez ce que fait l'application. Une bannière rouge et une série brisée vous apprennent à arrêter de noter exactement les jours qui comptent.\n4. **Au jour quatorze, demandez ce qu'elle vous a dit.** Si la réponse est 'mes chiffres', vous avez un registre. Si c'est 'quoi changer', vous avez un outil.\n\n## Où chaque approche échoue — y compris la nôtre\n\n- **Les trackers à grande base de données** gagnent en étendue et perdent sur le mur du fait-maison. La recherche est leur interaction principale, et la recherche est la taxe.\n- **La notation photo-d'abord** gagne en vitesse et perd en précision. Quiconque prétend à la précision calorique photographique survend, et cela nous inclut.\n- **Les applications axées sur les habitudes** protègent la série mais notent souvent trop grossièrement pour répondre à une question nutritionnelle plus tard.\n- **HAVIT** a une base de données alimentaires plus petite que MyFitnessPal ou Cronometer. Nos estimations photo sont des estimations. Si vous avez besoin de données vérifiées sur les micronutriments pour un régime clinique, utilisez une application de nutrition dédiée — cette comparaison n'est pas proche et nous n'allons pas prétendre le contraire.\n\n## L'essentiel\n\nDiagnostiquez d'abord votre mode d'échec. La taxe de recherche, le mur du fait-maison, l'écart de honte et la dérive du non-sens sont quatre problèmes différents, et l'application qui résout l'un ne résoudra pas l'autre.\n\nPuis faites le test de deux semaines. Il est plus utile que toutes les critiques de cette catégorie combinées, y compris celle-ci.\n\n## Pourquoi HAVIT — une notation qui survit à une mauvaise semaine\n\nHAVIT attaque le mur du fait-maison avec la notation photo et la dérive du non-sens avec un coach qui lit le journal, parce que ce sont les deux qui mettent fin à la plupart des habitudes de notation.\n\nL'enregistrement quotidien existe pour l'écart de honte. Dire à l'application qu'aujourd'hui était difficile est une action plus légère que de noter une journée que vous préféreriez oublier, et cela garde le fil ininterrompu — ce qui compte, parce qu'un jour sauté est généralement le premier de plusieurs.\n\nRepas, hydratation, sommeil, pas, cycle, humeur et médicament GLP-1 se trouvent dans une seule routine, et la semaine revient comme une action concrète pour aujourd'hui plutôt qu'une page de chiffres. Les directives cliniques traitent ce type de changement de comportement structuré comme une partie essentielle des soins, pas comme un extra optionnel ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Dans notre propre analyse de 1 090 utilisateurs de GLP-1, les notateurs les plus constants ont construit les habitudes les plus fortes ([Rapport sur les habitudes GLP-1](/en/glp-1-habit-report)).\n\nHAVIT est une application de bien-être, pas un dispositif médical. HAVIT n'est pas un outil de diagnostic médical. Les chiffres de calories et de composition corporelle sont des estimations.\n\n[Essayez HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Meilleures applis de suivi alimentaire 2026 : choisissez selon votre façon d'arrêter",
+      "short_title": "Applis de suivi alimentaire 2026",
+      "meta_description": "Yuka, Foodvisor, Yazio, MyFitnessPal, Le Secret du Poids et HAVIT passées en revue. Les quatre façons dont meurt un journal alimentaire — taxe de recherche, mur du fait maison, trou de la honte, dérive — et quelle appli règle laquelle.",
+      "tldr": "Personne n'arrête de tenir un journal parce que l'appli manquait de précision. Trouvez d'abord votre façon d'arrêter : taxe de recherche, mur du fait maison, trou de la honte, ou dérive vers l'inutile.",
+      "body_md": "Personne n'arrête de tenir un journal alimentaire parce que l'appli manquait de précision. On arrête parce que c'est devenu pénible, ou gênant, ou inutile.\n\nAlors avant de comparer des applis, identifiez **votre** façon d'arrêter. Il y en a quatre, et chacune a une solution différente.\n\n![Ce qui tue le journal, c'est la fatigue, pas l'imprécision](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n> **Un mot sur les sources.** Les pages françaises qui classent les « meilleures applis de suivi alimentaire » sont presque toutes écrites par des éditeurs de la catégorie ou par des sites d'affiliation, et leurs palmarès se contredisent. Il n'y a pas de classement ici.\n\n## Les quatre façons d'arrêter\n\n**1. La taxe de recherche.** Vous mangez une quiche lorraine. Vous tapez « quiche ». Vous obtenez quarante résultats, dont six avec des valeurs différentes. Vous choisissez au hasard. Trois repas plus tard, vous laissez tomber.\n\n**2. Le mur du fait maison.** En France, une grande partie des repas sont cuisinés. Un bœuf bourguignon n'est dans aucune base de codes-barres, et saisir dix ingrédients pour une assiette est une corvée que personne ne tient.\n\n**3. Le trou de la honte.** La journée a dérapé. Plutôt que de le noter, vous ne notez rien. Le lendemain non plus. Et le journal est mort — pas sur un mauvais repas, mais sur le silence qui a suivi.\n\n**4. La dérive vers l'inutile.** Vous saisissez consciencieusement depuis six semaines, personne ne vous a jamais rien dit, et vous ne savez plus à quoi ça sert. C'est la mort la plus fréquente, et la plus silencieuse.\n\n## Yuka — pourquoi ce n'est pas un journal alimentaire\n\n| | |\n| --- | --- |\n| Éditeur | Yuca (France) |\n| Base revendiquée | 6 millions de produits (4 millions d'aliments, 2 millions de cosmétiques) |\n| App Store France | 4,7/5, environ 295 700 notes |\n\nIl faut commencer par là, parce que c'est l'appli alimentaire la plus présente dans les poches françaises et que beaucoup de gens croient qu'elle fait le travail.\n\n**Ce qu'elle fait très bien.** Pour décider devant un rayon, **rien ne l'égale en France** : code-barres, note sur 100, additifs signalés, alternative proposée, aucune publicité. L'éditeur revendique 85 millions d'utilisateurs.\n\n**Ce qui lui manque.** Yuka note un **produit**, au moment de l'achat. Elle ne sait pas combien vous en avez mangé, ni quand, ni ce que vous avez cuisiné. Elle ne traite aucune des quatre façons d'arrêter décrites ci-dessus, parce qu'elle ne tient pas de journal du tout.\n\n**Pour qui.** Pour vos courses. Pas pour vos journées.\n\n## Foodvisor — la réponse française à la taxe de recherche\n\n| | |\n| --- | --- |\n| Éditeur | Foodvisor (France) |\n| Saisie | Photo, voix, texte, code-barres |\n| App Store France | 4,6/5, environ 72 800 notes |\n\n**Ce qu'elle fait très bien.** C'est l'appli qui attaque le plus directement les problèmes 1 et 2, et elle le fait **en français, pour des assiettes françaises** : photographiez, dictez, ou tapez trois mots. Sur la reconnaissance d'une assiette d'ici, c'est le meilleur point de départ du marché — autant le dire sans détour. La fiche officielle annonce aussi un suivi de l'hydratation, du jeûne intermittent et de l'activité, et une gamification (une graine qui grandit avec les quêtes du jour) qui traite le problème 4 en vous donnant une raison de revenir.\n\n**Ce qui lui manque.** Le problème 3 — le trou de la honte — reste entier : rien n'est prévu pour qu'un mauvais jour entre dans l'appli sans tout interrompre. Et sa fiche ne mentionne ni sommeil, ni cycle, ni composition corporelle, ni GLP-1.\n\n**Pour qui.** Pour qui cuisine français et abandonne à cause de la recherche.\n\n## Yazio — chercher et trouver, proprement\n\n**Ce qu'elle fait très bien.** Interface sobre, saisie rapide, grosse base (l'éditeur annonce plus de 4 millions d'aliments), recettes et minuteur de jeûne. C'est le compteur le plus noté de l'App Store français, avec environ 144 700 notes.\n\n**Ce qui lui manque.** Le fait maison reste laborieux, et il ne se passe rien après la saisie. Ni cycle, ni composition corporelle.\n\n**Pour qui.** Pour qui veut un carnet propre et une discipline simple.\n\n## MyFitnessPal — tout trouver, au prix du tri\n\n**Ce qu'elle fait très bien.** Plus de 20,5 millions d'aliments annoncés : si un produit existe, il y est. Scanner de codes-barres mature.\n\n**Ce qui lui manque.** L'essentiel de ces entrées vient des utilisateurs. La taxe de recherche ne disparaît pas, elle change de forme : au lieu de ne pas trouver, vous trouvez sept versions contradictoires du même yaourt. Et le silence après la saisie est total.\n\n**Pour qui.** Pour qui mange beaucoup de produits industriels et de restauration de chaîne.\n\n## Le Secret du Poids — saisir sans peser\n\n![Choisir une portion sur une photo plutôt que la peser](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n**Ce qu'elle fait très bien.** Une solution élégante au problème 1 : on choisit sa portion sur une photo au lieu de la peser, et tout est déduit d'un budget calorique quotidien. Aucun aliment n'est interdit, donc le problème 3 est partiellement désamorcé — un excès se compense, il ne se cache pas. L'éditeur revendique plus de 1,2 million d'utilisateurs.\n\n**Ce qui lui manque.** Le périmètre s'arrête à la calorie : pas de cycle, pas de sommeil, pas de composition corporelle, pas de GLP-1.\n\n**Pour qui.** Pour qui a abandonné deux applis à cause de la saisie.\n\n## HAVIT — construite contre les quatre\n\n| | |\n| --- | --- |\n| Éditeur | Havit Inc. |\n| Enregistre | Repas, hydratation, sport, sommeil, pas, **cycle menstruel**, humeur, **GLP-1** |\n| Base d'aliments | Environ 486 000 entrées d'origine publique (432 418 USDA, 41 218 MFDS Corée, 12 671 curation interne) |\n| Langues | 35 |\n\n![Scan IA : photographiez l'assiette, sautez la recherche](/blog/havit/shot/feature-nutrition.webp)\n\n**Contre la taxe de recherche et le mur du fait maison.** Le **scan IA** estime la composition d'une assiette depuis une seule photo — y compris un plat maison qui n'existe dans aucune base de codes-barres. La base, elle, est volontairement plus petite que celle de MyFitnessPal mais presque entièrement d'origine publique : 432 418 entrées de l'USDA, 41 218 du ministère coréen de la sécurité alimentaire, 12 671 curées en interne. Moins de doublons à arbitrer.\n\n![Check-in quotidien : comment un mauvais jour entre sans tout arrêter](/blog/havit/shot/feature-daily-check-in.webp)\n\n**Contre le trou de la honte.** Le **check-in quotidien** demande la forme, le sommeil, l'appétit et l'humeur en quelques tapes. C'est précisément le dispositif qui permet à une mauvaise journée d'entrer dans l'appli sans mettre fin à une série : vous déclarez l'état, vous ne justifiez rien.\n\n**Contre la dérive vers l'inutile.** C'est le point central. Le **coach IA lit les huit journaux ensemble** et renvoie **une action pour aujourd'hui**, pas un tableau de bord. La saisie a une suite, donc elle a un sens : *quatre jours sous l'objectif protéines, deux nuits courtes, et la semaine avant les règles — commencez par là.* Les **missions du jour**, issues de techniques de changement de comportement validées, font le reste.\n\nDans la même appli : **six méditations guidées**, **vidéos d'entraînement**, **jeûne intermittent**, **estimation de composition corporelle**, plus de **1 400 articles**, séries, badges, rangs et **défis d'équipe**. Conçue avec des anciens de Juvis Diet, la première clinique minceur de Corée.\n\n**Soyons honnêtes.** Pour la reconnaissance d'une assiette typiquement française, Foodvisor joue à domicile : c'est une appli française, entraînée sur la cuisine d'ici, et c'est sa force. HAVIT fait aussi du scan photo, mais sa base est pondérée côté USDA, donc moins profonde sur les produits de supermarché français. Ce que HAVIT ajoute, c'est tout ce qui vient **après** l'enregistrement — et les sept autres journaux qui l'entourent.\n\n**Pour qui.** Pour qui a déjà abandonné un journal alimentaire et voudrait savoir pourquoi.\n\n## Tableau comparatif\n\n| Appli | Produits français | Saisie photo | Accepte un mauvais jour ? | Après la saisie | Composition corporelle |\n| --- | --- | --- | --- | --- | --- |\n| Yuka | **Excellent** | Non (code-barres) | Sans objet | Note du produit | Non |\n| Foodvisor | **Fort** | **Oui, mature** | Pas de dispositif | Programme guidé, quêtes | Non |\n| Yazio | Correct | Oui | Pas de dispositif | Plans et jeûne | Non |\n| MyFitnessPal | Correct | Oui | Pas de dispositif | Peu de chose | Non |\n| Le Secret du Poids | Fort | Portions sur photo | Compensation du budget | Jauge quotidienne | Non |\n| **HAVIT** | Limité | **Oui** | **Check-in quotidien** | **Une action du coach IA** | **Estimée** |\n\nOctobre 2026, d'après les fiches officielles des stores et des éditeurs.\n\n## Un test de deux semaines\n\n1. **Semaine 1 — saisissez tout, sans corriger.** Vous cherchez votre point de friction, pas la perfection.\n2. **Notez le jour où vous avez failli arrêter.** C'est votre façon d'arrêter : recherche, fait maison, honte, ou inutilité.\n3. **Semaine 2 — incluez volontairement un mauvais jour.** Une appli qui n'a rien prévu pour ça vous lâchera au premier vrai dérapage.\n4. **À la fin, posez une question simple :** est-ce que cette appli m'a appris quelque chose que je ne savais pas ? Sinon, changez-en.\n\n## En résumé\n\nLe journal alimentaire ne meurt pas d'imprécision. Il meurt de fatigue, de honte ou d'ennui. Trouvez laquelle des quatre vous guette, et choisissez l'appli qui a prévu quelque chose contre celle-là.\n\n[Essayer HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Façons dont une habitude de suivi alimentaire meurt",
-          "value": "4 (taxe de recherche, mur du fait-maison, écart de honte, dérive du non-sens)",
-          "source": "Ce guide"
+          "label": "Façons dont meurt un journal alimentaire",
+          "value": "4",
+          "source": "Taxe de recherche, mur du fait maison, trou de la honte, dérive vers l'inutile"
         },
         {
-          "label": "Études liant l'auto-surveillance à la perte de poids",
-          "value": "22 études",
-          "source": "Burke et al. 2011, J Am Diet Assoc"
+          "label": "Base d'aliments de HAVIT",
+          "value": "Environ 486 000 entrées",
+          "source": "432 418 USDA + 41 218 MFDS (Corée) + 12 671 curation interne"
         },
         {
-          "label": "Durée d'essai qui révèle votre mode d'échec",
-          "value": "2 semaines, incluant une mauvaise journée notée",
-          "source": "Test de ce guide"
+          "label": "Point faible de la saisie photo",
+          "value": "La taille de la portion",
+          "source": "Reconnaître l'aliment est simple ; estimer son poids depuis une image l'est beaucoup moins"
         },
         {
-          "label": "Comment lire un chiffre calorique dérivé d'une photo",
-          "value": "Point médian d'une plage, pas une mesure",
-          "source": "Estimations de modèle à partir d'images"
+          "label": "Durée du test qui révèle votre façon d'arrêter",
+          "value": "2 semaines, avec un mauvais jour enregistré",
+          "source": "Protocole décrit dans cet article"
         }
       ],
       "comparison_table": {
-        "title": "Quel type d'application résout quel mode d'échec",
+        "title": "Tableau comparatif",
         "headers": [
-          "Votre mode d'échec",
-          "Ce qui le résout",
-          "Type d'application",
-          "Attention à"
+          "Appli",
+          "Produits français",
+          "Saisie photo",
+          "Accepte un mauvais jour ?",
+          "Après la saisie",
+          "Composition corporelle"
         ],
         "rows": [
           [
-            "La taxe de recherche",
-            "Raccourcis de repas récents, code-barres, voix",
-            "Tout tracker mature avec un bon flux de répétition",
-            "L'étendue est inutile si le flux de répétition est enfoui"
+            "Yuka",
+            "Excellent",
+            "Non (code-barres)",
+            "Sans objet",
+            "Note du produit",
+            "Non"
           ],
           [
-            "Le mur du fait-maison",
-            "Capture photo, ou repas multi-ingrédients sauvegardés",
-            "Enregistreurs photo-d'abord / IA",
-            "Le chiffre est une estimation de modèle, pas une mesure"
+            "Foodvisor",
+            "Fort",
+            "Oui, mature",
+            "Pas de dispositif",
+            "Programme guidé, quêtes",
+            "Non"
           ],
           [
-            "L'écart de honte",
-            "Notation partielle à faible friction, pas de verdicts rouges",
-            "Applications axées sur les habitudes ou le coaching",
-            "Certaines applications gamifient de sorte que sauter fait plus mal"
+            "Yazio",
+            "Correct",
+            "Oui",
+            "Pas de dispositif",
+            "Plans et jeûne",
+            "Non"
           ],
           [
-            "La dérive du non-sens",
-            "Quelque chose qui lit le journal et prescrit",
-            "Applications de coaching ou de composition-et-style-de-vie",
-            "Ne fonctionne que si vous avez assez noté pour lire"
+            "MyFitnessPal",
+            "Correct",
+            "Oui",
+            "Pas de dispositif",
+            "Peu de chose",
+            "Non"
+          ],
+          [
+            "Le Secret du Poids",
+            "Fort",
+            "Portions sur photo",
+            "Compensation du budget",
+            "Jauge quotidienne",
+            "Non"
+          ],
+          [
+            "HAVIT",
+            "Limité",
+            "Oui",
+            "Check-in quotidien",
+            "Une action du coach IA",
+            "Estimée"
           ]
         ],
-        "caption": "Mélanger ces éléments est la raison pour laquelle 'utilisez simplement MyFitnessPal' est un mauvais conseil environ la moitié du temps."
+        "caption": "Octobre 2026, d'après les fiches officielles des stores et des éditeurs."
       },
       "faq": [
         {
-          "question": "Quelle est la meilleure application de suivi alimentaire en 2026 ?",
-          "answer": "Cela dépend de comment vous avez abandonné la dernière fois. Si chercher chaque repas vous a épuisé, vous avez besoin d'un tracker avec un flux de répétition de repas solide. Si la nourriture faite maison était le blocage, vous avez besoin de notation photo. Si vous avez arrêté les mauvais jours, vous avez besoin d'une application qui accepte un journal partiel sans briser une série. Si vous avez noté pendant des semaines et que rien ne vous a dit quoi changer, vous avez besoin de coaching plutôt que d'un registre."
+          "question": "Quelle est la meilleure appli pour tenir un journal alimentaire ?",
+          "answer": "Celle qui a prévu quelque chose contre votre façon d'arrêter. Si c'est la recherche d'aliments, prenez une appli à saisie photo. Si c'est le fait maison, idem. Si c'est la honte après un dérapage, il vous faut un dispositif qui accepte un mauvais jour sans casser la série. Si c'est l'ennui, il vous faut une appli qui vous dit quelque chose après la saisie."
         },
         {
-          "question": "La notation de repas basée sur la photo est-elle précise ?",
-          "answer": "Elle est rapide, et c'est une estimation. Un modèle regardant une photographie ne peut pas voir l'huile absorbée, ne peut pas peser ce qui est sous la couche supérieure, et ne peut pas distinguer le plein gras du réduit en gras. Lisez le chiffre comme le point médian d'une plage. Photographiez avant de manger, sous un angle qui montre la profondeur, et corrigez les erreurs évidentes — huile, sauce, portion de riz."
+          "question": "Yuka peut-elle servir de journal alimentaire ?",
+          "answer": "Non, et ce n'est pas son objet. Yuka note un produit au moment de l'achat : elle ignore les quantités, les horaires et tout ce que vous cuisinez. C'est l'outil le plus efficace de France pour décider devant un rayon, et il faut un journal à côté."
         },
         {
-          "question": "Comment noter les repas faits maison sans abandonner ?",
-          "answer": "Deux options fonctionnent. Photographiez le plat fini et corrigez l'estimation, ou construisez la recette une fois et réutilisez-la comme une seule entrée. Chercher onze ingrédients à chaque fois est ce qui met fin à l'habitude — si une application vous fait faire cela, c'est la mauvaise application pour votre façon de manger."
+          "question": "Comment enregistrer les plats faits maison sans abandonner ?",
+          "answer": "Photographiez l'assiette plutôt que de saisir dix ingrédients. Les applis à reconnaissance photo — Foodvisor en France, HAVIT dans la catégorie tout-en-un — existent exactement pour ce cas. Pour un plat que vous refaites souvent, enregistrez-le une fois comme recette et réutilisez-le ensuite en une tape."
         },
         {
-          "question": "Dois-je noter les jours où je mange trop ?",
-          "answer": "Surtout alors. Ce sont les jours informatifs, et les sauter est comment l'habitude se brise. L'auto-surveillance est le comportement le plus constamment lié à la perte de poids, et l'exhaustivité compte plus que la précision. Si votre application fait qu'un mauvais jour ressemble à une punition, changez l'application plutôt que le comportement."
+          "question": "Faut-il noter les jours où on a trop mangé ?",
+          "answer": "Oui, et ce sont les jours les plus utiles. Un journal qui s'interrompt dès que ça dérape ne vous apprend rien sur ce qui dérape. Ce qui est associé au résultat dans la littérature, c'est la régularité de la saisie — ce qui suppose de continuer les mauvais jours, pas seulement les bons."
         },
         {
-          "question": "Combien de temps faut-il pour savoir si une application me convient ?",
-          "answer": "Deux semaines. Notez votre repas le plus difficile le premier jour, notez le même repas à nouveau trois jours plus tard et comptez les tapotements, notez délibérément une mauvaise journée, puis au jour quatorze demandez ce que l'application vous a réellement dit. Si la réponse est 'mes chiffres', c'est un registre ; si c'est 'quoi changer', c'est un outil."
+          "question": "Les produits de supermarché français sont-ils dans ces bases ?",
+          "answer": "Pour la plupart, oui, notamment grâce à Open Food Facts, base collaborative et ouverte portée par une association française, qui référence plus de 1,2 million de produits dans sa vue France. Les applis conçues en France, comme Foodvisor et Le Secret du Poids, couvrent mieux les plats cuisinés et la cuisine maison que les bases d'origine américaine."
         },
         {
-          "question": "Une application gratuite de suivi alimentaire suffit-elle ?",
-          "answer": "Pour la notation, généralement oui. Vérifiez où se situe le mur payant plutôt que le prix — si la fonctionnalité qui résout votre mode d'échec particulier est derrière, le niveau gratuit est un essai. Les prix dans cette catégorie changent souvent, alors vérifiez la liste en direct dans le magasin."
+          "question": "Combien de temps faut-il pour savoir si une appli me convient ?",
+          "answer": "Deux semaines, en incluant volontairement un mauvais jour. La première semaine révèle votre point de friction, la seconde montre si l'appli a prévu quelque chose quand la semaine ne ressemble pas à la brochure."
         }
       ],
       "references": [
         {
+          "title": "Yuka — fiche App Store France",
+          "source": "Apple App Store (FR), consulté en octobre 2026 — 4,7/5 sur environ 295 700 notes ; 85 millions d'utilisateurs et 6 millions de produits revendiqués par l'éditeur",
+          "url": "https://apps.apple.com/fr/app/id1092799236"
+        },
+        {
+          "title": "Foodvisor — fiche App Store France",
+          "source": "Apple App Store (FR), consulté en octobre 2026 — 4,6/5 sur environ 72 800 notes ; l'éditeur revendique plus de 15 millions d'utilisateurs",
+          "url": "https://apps.apple.com/fr/app/id1064020872"
+        },
+        {
+          "title": "Yazio : Compteur de Calories — fiche App Store France",
+          "source": "Apple App Store (FR), YAZIO GmbH, consulté en octobre 2026 — 4,7/5 sur environ 144 700 notes ; plus de 4 millions d'aliments revendiqués",
+          "url": "https://apps.apple.com/fr/app/id946099227"
+        },
+        {
+          "title": "MyFitnessPal : compte-calories — fiche App Store France",
+          "source": "Apple App Store (FR), MyFitnessPal, Inc., consulté en octobre 2026 — 4,6/5 sur environ 52 000 notes ; plus de 20,5 millions d'aliments revendiqués",
+          "url": "https://apps.apple.com/fr/app/id341232718"
+        },
+        {
+          "title": "Le Secret Du Poids — fiche App Store France",
+          "source": "Apple App Store (FR), Le Secret du Poids, consulté en octobre 2026 — 4,4/5 sur environ 7 700 notes ; plus de 1,2 million d'utilisateurs revendiqués",
+          "url": "https://apps.apple.com/fr/app/id651023505"
+        },
+        {
+          "title": "HAVIT : Coach Minceur, Calories — fiche App Store France",
+          "source": "Apple App Store (FR), Havit Incorporated, consulté en octobre 2026",
+          "url": "https://apps.apple.com/fr/app/id6755166023"
+        },
+        {
+          "title": "Open Food Facts — base de données alimentaire libre et collaborative",
+          "source": "Association Open Food Facts, vue France : 1 274 235 produits référencés (consulté en octobre 2026) ; données ouvertes et réutilisables par tous",
+          "url": "https://fr.openfoodfacts.org/"
+        },
+        {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 études, 15 sur l'auto-surveillance alimentaire ; les auteurs évaluent le niveau de preuve comme faible",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 études, dont 15 sur l'auto-surveillance alimentaire ; les auteurs qualifient eux-mêmes le niveau de preuve de faible",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (sujet en cours de mise à jour) ; adultes avec IMC ≥30, fourni par un clinicien",
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — grade B",
+          "source": "U.S. Preventive Services Task Force, 2018 (recommandation en cours d'actualisation) ; adultes avec IMC supérieur ou égal à 30, interventions délivrées en milieu clinique",
           "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
         },
         {
-          "title": "GLP-1 Habit Report 2026 — Analyse interne HAVIT de 1 090 utilisateurs de GLP-1",
+          "title": "GLP-1 Habit Report 2026 — analyse interne HAVIT portant sur 1 090 utilisateurs sous GLP-1",
           "source": "Havit Inc., 2026",
           "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-12"
     }
   },
   "generated_at": "2026-10-11T00:00:00.000Z"
