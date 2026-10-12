@@ -417,262 +417,307 @@
       "last_updated": "2026-10-11"
     },
     "zh-CN": {
-      "title": "2026年最佳减重习惯追踪器:为什么单靠连续打卡不起作用",
-      "short_title": "2026年最佳减重习惯追踪器",
-      "meta_description": "完美的90天打卡记录却没有减掉体重,这是此类应用的典型失败。大多数习惯应用只实现了93种行为改变技术中的两种。哪五个标准重要、连续打卡设计缺陷在哪里,以及应该选择哪两个习惯。",
-      "tldr": "习惯追踪器只有在追踪具体行为、通过数据而非勾选验证、并在你错过时调整而非重置时,才能帮助减重。选择两个习惯,为每个习惯设定触发条件,并在你最糟糕的一天评判这个应用。",
-      "body_md": "*诚实披露:HAVIT 发布本博客,并且是下文提到的应用之一。我们已标明它的不足之处。*\n\n通用习惯追踪器非常擅长一件事:告诉你是否完成了某件事。但对于减重来说,这只是问题的简单一半,这就是为什么许多人保持完美的90天打卡记录却没有减掉任何体重。\n\n差距不在于动力。而在于'那件事'从未被明确到足以产生影响,而应用中没有任何功能注意到这一点。\n\n## 习惯追踪器应该做什么,而大多数没有做到\n\n行为改变研究对此并不含糊。标准分类法列出了93种不同的技术,其中能带来减重效果的技术是具体的:针对*行为*而非结果的目标设定、对该行为的自我监测、反馈、行动计划,以及计划失败时的回顾([Michie等,*Annals of Behavioral Medicine*,2013](https://pubmed.ncbi.nlm.nih.gov/23512568/))。\n\n大多数习惯应用恰好实现了其中两种——自我监测和连续打卡——然后就认为完成了。缺失的部分才是减重真正发生的地方。\n\n在选择时值得记住的两个发现:\n\n**具体性胜过强度。**'吃得更好'不是一个习惯。'早餐摄入30克蛋白质'才是,因为在早上9点,这要么是真的,要么是假的。附加在模糊意图上的勾选框记录的是你的乐观情绪,而不是你的行为。\n\n**习惯养成需要的时间比应用暗示的更长。**在一项关于习惯养成的真实世界研究中,自动化达到平台期的中位时间为66天,个体差异极大([Lally等,*European Journal of Social Psychology*,2010](https://doi.org/10.1002/ejsp.674))。21天挑战大约在三分之一的时候就结束了。\n\n## 连续打卡问题\n\n连续打卡有效。但它也包含一个设计缺陷,运行时间越长,这个缺陷就越严重。\n\n连续打卡的价值完全在于不打破它,这意味着一旦打破,它的价值就会反转。93天连续打卡的第94天是最有可能放弃的一天——你唯一的强化因素刚刚变成了失败的证据。这与第一个糟糕日子所需要的恰恰相反。\n\n应该寻找的替代方案:\n\n- **修复机制。**连续打卡冻结、休息日、每周目标而非每日目标。任何让一次错过只是错过而非重置的机制。\n- **每周框架。**'七天中的五天'能挺过糟糕的一天。'中断'则不能。\n- **部分完成的认可。**半记录的一天应该算作某种成就,因为替代方案是什么都不记录。\n\n## 减重习惯追踪器的5个标准\n\n### 1. 它追踪的是行为还是结果?\n\n体重是一个结果。它反应缓慢、充满噪音,并且对你上周做的事情做出反应。将体重放在每日清单上的追踪器是在为你无法直接控制的当天事情打分。\n\n### 2. 习惯能否与触发条件关联?\n\n'倒完咖啡后,我喝蛋白质奶昔。'这种如果-那么形式的执行意图是该文献中支持度较高的工具之一,它们需要应用存储一个触发条件,而不仅仅是一个名称。\n\n### 3. 它看到数据,还是只看到勾选框?\n\n知道你记录了40克蛋白质的追踪器可以验证习惯。只知道你勾选了一个框的追踪器是在相信晚上11点做出的自我报告。\n\n### 4. 它会调整目标吗?\n\n连续四次错过意味着要求错了,而不是你软弱。好的系统会降低要求。清单则会重复要求,直到你删除应用。\n\n### 5. 它能挺过糟糕的一周吗?\n\n这是唯一对留存率重要的一周。在承诺之前故意测试它。\n\n## 通用习惯追踪器 vs 减重专用习惯系统\n\n| | 通用习惯追踪器 | 减重习惯系统 |\n| --- | --- | --- |\n| 记录内容 | 你勾选了一个框 | 行为及其数据(蛋白质、步数、睡眠) |\n| 目标类型 | 连续打卡计数 | 与结果趋势关联的行为 |\n| 验证方式 | 自我报告 | 日志本身 |\n| 错过一天时 | 连续打卡重置 | 目标调整,一周继续 |\n| 优势 | 任何习惯,完全灵活 | 仅限减重相关习惯,但可验证 |\n\n如果你正在建立十个不相关的习惯,通用追踪器更好。但在这里它们更差,因为勾选无法区分30克蛋白质和吃它的意图。\n\n## 真正能改变体重的习惯\n\n选择两个。不是八个。\n\n1. **第一餐的蛋白质。**锚定一天并保护瘦体重——这在GLP-1药物治疗中更重要,因为在一些试验中,减重中瘦体重的比例已被报告高达40-60%([Neeland等,*Diabetes, Obesity and Metabolism*,2024](https://pubmed.ncbi.nlm.nih.gov/38937282/))。\n2. **每天记录,必要时粗略记录。**在22项自我监测研究中——其中15项关于食物记录——与减重的关联是一致的,尽管审稿人将证据评为弱([Burke等,2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/))。完整性胜过准确性。\n3. **固定的睡眠时间窗口。**睡眠不足会影响食欲。这是人们跳过的习惯,因为它与食物无关。\n4. **每周两次抗阻训练。**保护饮食试图带走的瘦体重。\n5. **每周一次回顾。**几乎每个应用都忽略的技术:回顾一周,改变一件事。\n\n在糖尿病预防计划中,由这类组成部分构建的结构化项目在糖尿病风险上的表现优于二甲双胍,58%对31%([Knowler等,*NEJM*,2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/))。\n\n## 每种方法的不足之处——包括我们的\n\n- **通用习惯应用**在灵活性上获胜,在验证上失败。它们无法检查习惯是否发生。\n- **连续打卡优先应用**建立强大的短期依从性,并在第一次错过时惩罚最重。\n- **项目应用**提供其他应用忽略的每周回顾,但按照它们的时间表而非你的。\n- **HAVIT**只追踪健康行为——如果你想在同一个地方追踪吉他练习和使用牙线,我们不是合适的应用。我们的食物数据库比专门的营养追踪器小,身体成分数据是估算值。\n\n## 结论\n\n习惯追踪器只有在追踪**具体行为**、能够通过数据而非勾选**验证**它、并在你错过时**调整**而非重置时,才能帮助减重。\n\n选择两个习惯,为每个习惯设定一个触发条件,并根据系统在你最糟糕的一天的表现来评判它——而不是最好的一天。\n\n## 为什么选择HAVIT——任务而非勾选框\n\nHAVIT的每日任务是产品形式的行为改变技术:一个具体行动,与应用实际能看到的数据关联,在你错过时进行调整。\n\n最后一部分是重要的设计决策。因为餐食、蛋白质、睡眠、步数、周期、情绪和药物都在一个地方,错过的蛋白质目标不是中断的连续打卡——它是一个输入,第二天的行动会因此改变。每日签到是糟糕的一天进入系统而不结束它的方式。\n\n临床指南将结构化行为改变视为肥胖护理的核心组成部分,而非可选项([USPSTF,B级](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。在我们对1,090名GLP-1用户的分析中,最持续的记录者建立了最强的习惯([GLP-1习惯报告](/en/glp-1-habit-report))。\n\nHAVIT 不是医疗诊断工具,而是一款健康应用。身体成分数据是估算值。\n\n[试用HAVIT →](https://www.aihavit.com/)\n",
+      "title": "2026减肥习惯打卡App推荐 — 为什么连续187天还是没瘦",
+      "short_title": "2026减肥习惯打卡App推荐",
+      "meta_description": "HAVIT、小日常、习惯清单、番茄ToDo、Keep、微信运动逐个拆解：追的是不是具体行为、用数据还是靠点勾验证、漏一天是调整还是清零，以及习惯有没有和饮食·睡眠·生理周期一起被读。2026年10月核验。",
+      "tldr": "一个勾区分不了“蛋白质吃够了”和“想起来要吃蛋白质”。挑习惯App只看三件事：追的是具体行为、用数据验证、漏一天是调整而不是清零。",
+      "body_md": "打卡连续187天，体重没动——这种事太常见了。\n\n原因不复杂：**一个勾，区分不了\"今天蛋白质吃够了\"和\"今天想起来要吃蛋白质\"。**打勾验证的是你点了那一下，不是你做了那件事。\n\n所以挑习惯App，要看的不是界面好不好看、徽章够不够多，而是另外三件事。\n\n评分均取自中国区 App Store，2026年10月核验。厂商自己账号写的排名，本文不引用。\n\n![连续打卡本身不是结果](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n## 习惯App该做到的三件事\n\n**一、追的是具体行为，不是模糊意图。**\"好好吃饭\"没法执行，也没法验证。\"午饭加一份蛋白质\"可以。\n\n**二、用数据验证，而不是靠你自己说。**勾是你点的，数据是你记的。两者差得很远——前者只证明你打开过App。\n\n**三、漏一天是调整，不是清零。**行为改变的标准分类体系里有**93种**技术，而多数通用习惯App只实现了其中**两种**：自我监测和目标设定。真正决定你能不能撑过第三周的，往往是\"失败之后怎么办\"那一类技术——而这正是清零式连续记录做得最差的地方。生活里漏掉一天是必然的，一个把必然事件设计成惩罚的系统，注定留不住人。\n\n顺便说一句：习惯养成需要多久，研究给出的中位数约为**66天**，个体差异从18天到254天都有。那些承诺\"21天养成\"的说法，没有证据支持。\n\n## HAVIT — 不是打勾，是用数据验证\n\n| | |\n| --- | --- |\n| 开发者 | Havit Inc. |\n| 中国区 App Store | 有中文版，名为\"HAVIT AI减肥教练\" |\n| 用来验证习惯的记录 | **8类**（饮食·饮水·运动·睡眠·步数·生理周期·心情·**用药**） |\n| 食物库 | 约486,000条 — USDA 432,418 + 韩国食药处 41,218 + 自建精选 12,671 |\n| 平台 | iOS · Android · 35种语言 |\n| 价位 | 免费下载 · 应用内购买 |\n\n![每日任务——把行为改变技术压成今天的一件事](/blog/havit/shot/feature-daily-missions.webp)\n\n**擅长什么。**三件事它都正面答了。\n\n**第一件 — 具体行为。每日任务**不是让你自己写一条\"要好好吃饭\"然后天天打勾。它把经过验证的行为改变技术翻译成**今天的一个具体动作**，小到今晚就能做完。\n\n**第二件 — 数据验证。**这个动作做没做到，由你的实际记录说了算：蛋白质够不够，看饮食记录里的数字；睡没睡够，看睡眠记录；走没走够，看步数。**你没有办法靠点一下勾骗过它**——这是它和通用打卡App最根本的分界。\n\n![每日签到——先知道今天是什么样的日子，再谈要求](/blog/havit/shot/feature-daily-check-in.webp)\n\n**第三件 — 漏一天怎么办。每日签到**用几次点击说清状态、睡眠、食欲和心情。搞砸的一天不会把连续记录直接清零，教练会据此把明天的要求调小，而不是让你从零再来一遍。这是绝大多数打卡App没有的东西。\n\n### 习惯要验证，记录就不能太贵\n\n\"每天记录吃的\"是最该养成的习惯，但如果记一顿饭要搜四五次，这个习惯撑不过第二周——**习惯死在摩擦上，不是死在意志上。**\n\n![AI食物扫描——拍一张照，一餐就记完了](/blog/havit/shot/feature-nutrition.webp)\n\n**AI食物扫描**把它压成拍一张照，不用先替一盘西红柿炒蛋想好该搜什么词。食物库约**486,000条**来自USDA、韩国食药处和自建精选——比的不是条数，是每一条有没有公共机构的出处。\n\n### 八类记录在同一个App里，所以教练读得到全部\n\n![全部记录在一个地方](/blog/havit/shot/feature-track-everything.webp)\n\n多数人手机里是四个App：一个记热量、一个练课程、一个记经期、一个冥想。**HAVIT 把它们装进同一个App**，于是**AI教练能把八类记录一起读**，然后告诉你今天先动哪一件。\n\n这对习惯这件事特别要紧，因为它能回答\"为什么我做到了却没效果\"：*打卡都完成了，但蛋白质连续四天低于目标，这周两晚睡不到六小时，又在经期前一周——先补这一件。*只有打卡数据的App，连看到这个关系的途径都没有。\n\n同一个App里还有**引导式冥想六类**（食欲、睡眠、安定、专注、呼吸、感恩）——压力型进食常常就是那条\"守不住\"的习惯崩掉的地方；加上**运动视频**、**轻断食**、发现页**1,400篇以上**文章，以及连续打卡、徽章、虚拟形象、段位和**团队挑战**。\n\n### 谁做的\n\n和**韩国排名第一的减重诊所Juvis Diet出身的专家们**一起做的。\"漏一天该怎么接\"这种设计，不是从产品会议里长出来的，是真人咨询里反复出现的场景。\n\n**不足。**它是减重语境下的习惯系统，不是通用待办工具。\"每天练琴三十分钟\"\"每天背五十个单词\"这类和身体无关的习惯，它不负责，也验证不了。\n\n**适合谁**：打卡记录很漂亮但体重没动的人；每次都在漏掉一天之后彻底放弃的人；希望习惯和饮食、睡眠、周期、用药连在一起看的人。\n\n## 小日常 · 习惯清单 — 通用习惯App里最顺手的\n\n| | |\n| --- | --- |\n| 小日常 | 4.8分 · 55万+ 条评分（中国区 App Store） |\n| 习惯清单 | 4.8分 · 10.9万+ 条评分（中国区 App Store） |\n| 定位 | 任意习惯打卡 + 统计 + 提醒 |\n| 验证方式 | 自己点勾 |\n| 价位 | 免费下载 · 内购 |\n\n**擅长什么。**直接认下来：**论\"想追什么就追什么\"的灵活度和顺手程度，这类App比任何减重App都强。**喝水、早睡、读书、护肤、吃维生素，想建几条建几条；热力图、连续天数、周月统计做得细致，提醒可以精确到某天某个时间点，界面也讨喜。几十万量级的评分人数说明它们确实被大量使用，而且留得住人。\n\n**不足。**它们验证不了内容——你点的那一下和你实际做了什么，中间没有桥。减重语境下最关键的信息（蛋白质到底够没够、昨晚睡了几小时）它们拿不到，所以也不可能告诉你\"做到了却没效果\"的原因。漏一天通常意味着连续记录断掉，而断掉之后的处理方式基本只有\"重新开始\"。\n\n**适合谁**：要管的习惯五花八门、而且习惯本身就是目的的人。把它和一个专门的饮食App配着用也行，代价是两边的数据互相读不到。\n\n## 番茄ToDo — 把自律做成时间管理\n\n| | |\n| --- | --- |\n| 开发者 | Shanghai Paitui Technology Co., Ltd. |\n| 中国区 App Store | 4.9分 · 94万+ 条评分 |\n| 定位 | 番茄钟 + 自习室 + 组队监督 |\n| 验证方式 | 计时器 |\n| 价位 | 免费下载 · 内购 |\n\n**擅长什么。**它解决的是\"坐不住\"。自习室、组队监督、强制锁机这些设计在国内学生和考证人群里非常有效——**社交监督的力度比单机打卡强得多**，这一点它做得比多数习惯App都狠。\n\n**不足。**它管的是时间，不是身体。饮食、睡眠、体成分完全不在范围内。它出现在这份名单里，是因为很多人把它当成了泛自律工具，但对体重它基本没有直接作用——专注四个小时和当天吃了什么，中间没有必然联系。\n\n**适合谁**：主诉是拖延和专注，而不是减重的人。\n\n## Keep — 训练的连续性和线上赛事\n\n| | |\n| --- | --- |\n| 开发者 | Beijing Calorie Technology Co., Ltd. |\n| 中国区 App Store | 4.9分 · 294万+ 条评分 |\n| 定位 | 运动课程 + 打卡 + 线上赛事奖牌 |\n| 验证方式 | 训练数据 |\n| 价位 | 免费下载 · 会员订阅 |\n\n**擅长什么。**\"这周练了几次\"这件事，它验证得很硬——课程完成度、里程、配速都是真实数据，不是自己点的勾，这一点和通用打卡App完全不是一个层级。线上赛事和奖牌提供了一个具体到日期的目标，比\"坚持运动\"这种口号管用得多。\n\n**不足。**只覆盖运动这一条习惯线。吃、睡、周期、用药不在视野里，所以它说不出\"你这周练得很好但体重没动，问题在蛋白质\"。饮食记录是附属功能，深度有限。\n\n**适合谁**：要养成的习惯主要是\"动起来\"的人。\n\n## 微信运动 · 支付宝运动 — 中国独有的那层社交推力\n\n| | |\n| --- | --- |\n| 形态 | 微信/支付宝内的步数排行与互动 |\n| 需要安装 | 不需要，已经在你手机里 |\n| 验证方式 | 手机或手环的传感器步数 |\n| 价位 | 免费 |\n\n**擅长什么。**这是国外市场复制不了的一层：**你的同事、同学、家人已经在同一个排行榜里。**步数来自传感器，点勾作弊这条路直接堵死；\"被点赞\"和\"被超过\"的推力每天都在发生，而且完全不需要你额外装任何东西、注册任何账号。就\"让人每天多走两步\"这一件事而言，它是成本最低的解法——坦率说，专门的习惯App也比不了。\n\n**不足。**只有步数这一个维度。吃了什么、睡了多久、体成分怎么走，它一概不管，也不会给你任何建议。排行榜还容易把人推向\"刷步数\"，而步数和体重之间的关系远没有饮食那么直接。\n\n**适合谁**：先把\"每天多走一点\"这件事启动起来的人。它适合当起点，不适合当全部。\n\n## 一张表看完\n\n| 应用 | 记录什么 | 怎么验证 | 漏一天会怎样 | 一起看的数据 | 价位 |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **今天的一个具体动作** | **用8类实际记录验证** | **签到接住，可调整** | **8类** | 免费+内购 |\n| 小日常 / 习惯清单 | 任意自定义习惯 | 自己点勾 | 通常清零 | 仅打卡本身 | 免费+内购 |\n| 番茄ToDo | 专注时长 | 计时器 | 通常清零 | 时间 | 免费+内购 |\n| Keep | 训练次数 | **训练数据** | 训练记录中断 | 运动为主 | 免费+订阅 |\n| 微信/支付宝运动 | 步数 | **传感器步数** | 当天排名下滑 | 仅步数 | 免费 |\n\n以上为2026年10月的情况。功能和会员政策变动频繁，付费前请以App Store页面为准。\n\n## 真正会动体重的习惯，只有两个\n\n别一口气建十二条。证据最硬的其实就这两件：\n\n**一、每天记录吃的。**自我监测是行为改变里被研究得最多的一项，也是最常和减重结果同向的一项（相关系统综述的作者把证据等级评为弱，但方向一致）。\n\n**二、蛋白质和睡眠保住底线。**蛋白质决定减下去的那部分里有多少是脂肪；睡眠直接推动第二天的食欲。这两条一塌，其余十条习惯全是装饰。\n\n![先把两件事做稳，再谈第三件](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_010.jpg)\n\n选习惯的时候还有一条经验：**要小到在最差的那一天也能做到。**能在最糟的日子完成的习惯，才撑得到第66天。\n\n## 写在最后\n\n连续记录本身不是结果，它只是过程的影子。要让习惯真的推动体重，得同时满足三件事：**追的是具体行为、用数据而不是勾来验证、漏一天是调整而不是清零。**\n\n通用习惯App在\"什么都能追\"上更顺手，微信运动在\"推着你多走两步\"上无可替代——这两点都是事实。但如果你想要的是\"习惯做到了，身体也真的在变\"，那就得让习惯和饮食、睡眠、生理周期、用药、体成分在**同一个App里互相说得上话**，并且有一个教练把它们一起读完。\n\n[免费开始使用 HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "标准分类法中的行为改变技术",
-          "value": "93种技术",
-          "source": "Michie等 2013, Ann Behav Med"
+          "label": "标准分类体系中的行为改变技术",
+          "value": "93种",
+          "source": "Michie et al., BCT Taxonomy v1, 2013"
         },
         {
-          "label": "大多数习惯应用实际实现的技术",
-          "value": "2种(自我监测、连续打卡)",
-          "source": "本指南"
+          "label": "多数通用习惯App实现的技术",
+          "value": "2种",
+          "source": "自我监测与目标设定"
         },
         {
-          "label": "新习惯自动化达到平台期的中位时间",
-          "value": "66天",
-          "source": "Lally等 2010, Eur J Soc Psychol"
+          "label": "习惯养成所需时间的中位数",
+          "value": "约66天",
+          "source": "Lally et al., 2010；个体差异18–254天"
         },
         {
-          "label": "DPP:结构化生活方式项目 vs 二甲双胍,糖尿病风险降低",
-          "value": "58% vs 31%",
-          "source": "Knowler等 2002, NEJM (n=3,234)"
+          "label": "HAVIT 用来验证习惯的记录",
+          "value": "8类",
+          "source": "饮食·饮水·运动·睡眠·步数·生理周期·心情·用药"
+        },
+        {
+          "label": "小日常 中国区 App Store 评分",
+          "value": "4.8（55万+ 条评分）",
+          "source": "中国区 App Store，2026年10月核验"
         }
       ],
       "comparison_table": {
-        "title": "通用习惯追踪器 vs 减重习惯系统",
+        "title": "一张表看完",
         "headers": [
-          "",
-          "通用习惯追踪器",
-          "减重习惯系统"
+          "应用",
+          "记录什么",
+          "怎么验证",
+          "漏一天会怎样",
+          "一起看的数据",
+          "价位"
         ],
         "rows": [
           [
-            "记录内容",
-            "你勾选了一个框",
-            "行为及其数据(蛋白质、步数、睡眠)"
+            "HAVIT",
+            "今天的一个具体动作",
+            "用8类实际记录验证",
+            "签到接住，可调整",
+            "8类",
+            "免费+内购"
           ],
           [
-            "目标类型",
-            "连续打卡计数",
-            "与结果趋势关联的行为"
+            "小日常 / 习惯清单",
+            "任意自定义习惯",
+            "自己点勾",
+            "通常清零",
+            "仅打卡本身",
+            "免费+内购"
           ],
           [
-            "验证方式",
-            "自我报告",
-            "日志本身"
+            "番茄ToDo",
+            "专注时长",
+            "计时器",
+            "通常清零",
+            "时间",
+            "免费+内购"
           ],
           [
-            "错过一天时",
-            "连续打卡重置",
-            "目标调整,一周继续"
+            "Keep",
+            "训练次数",
+            "训练数据",
+            "训练记录中断",
+            "运动为主",
+            "免费+订阅"
           ],
           [
-            "优势",
-            "任何习惯,完全灵活",
-            "仅限减重相关习惯,但可验证"
+            "微信/支付宝运动",
+            "步数",
+            "传感器步数",
+            "当天排名下滑",
+            "仅步数",
+            "免费"
           ]
         ],
-        "caption": "勾选无法区分30克蛋白质和吃它的意图。"
+        "caption": "以上为2026年10月的情况。功能和会员政策变动频繁，付费前请以App Store页面为准。"
       },
       "faq": [
         {
-          "question": "减重最好的习惯追踪器是什么?",
-          "answer": "能够追踪具体行为而非模糊意图、通过你的数据而非勾选框验证它、并在你错过时降低目标而非重置连续打卡的追踪器。如果你正在建立十个不相关的习惯,通用习惯应用更好;但在这里它们更差,因为勾选无法区分30克蛋白质和吃它的意图。"
+          "question": "减肥习惯打卡App，哪个最好？",
+          "answer": "看你要追的是什么。习惯本身五花八门、而且习惯就是目的，小日常和习惯清单在灵活度和顺手程度上确实更强，这点直接认；只想把步数启动起来，微信运动成本最低，而且熟人排行榜的推力没有App复制得了。但如果目标是体重真的动起来，就要看这个App能不能用实际记录验证行为——HAVIT 的每日任务由饮食、睡眠等八类记录来验证，而不是靠你点一下勾。"
         },
         {
-          "question": "为什么我保持完美的连续打卡却没有减掉体重?",
-          "answer": "通常是因为习惯从未被明确到足以产生影响。'吃得更好'记录的是你的乐观情绪;'早餐摄入30克蛋白质'在早上9点要么是真的,要么是假的。大多数习惯应用只实现了93种行为改变技术中的两种——自我监测和连续打卡——而缺失的部分,特别是行动计划和每周回顾,才是减重发生的地方。"
+          "question": "连续打卡很漂亮，为什么体重没动？",
+          "answer": "因为勾验证的是你点了那一下，不是你做了那件事。“今天好好吃饭”打上勾，和蛋白质实际吃够了，是两码事。另一个常见原因是习惯选错了：建了十二条，但没有一条触及蛋白质和睡眠这两个真正决定结果的变量。"
         },
         {
-          "question": "连续打卡对减重是好是坏?",
-          "answer": "两者都有。连续打卡的价值完全在于不打破它,所以一旦打破,价值就会反转——93天连续打卡的第94天是最有可能放弃的一天。寻找修复机制:连续打卡冻结、休息日、每周目标而非每日目标,以及对部分记录日的认可。"
+          "question": "连续记录对减肥是好事还是坏事？",
+          "answer": "看它怎么对待失败。连续记录能提供拉力，但清零式设计会在你漏掉一天之后把整件事变得没意义——而生活里漏掉一天是必然的。更合理的设计是允许你说明今天的状态，然后把明天的要求调小。HAVIT 的每日签到就是干这个的：搞砸的一天不会把连续记录直接抹掉。"
         },
         {
-          "question": "建立一个习惯需要多长时间?",
-          "answer": "比大多数应用暗示的更长。在一项真实世界研究中,自动化达到平台期的中位时间为66天,个体差异非常大。21天挑战大约在三分之一的时候就结束了,这是许多挑战之后出现反弹的原因之一。"
+          "question": "通用习惯App和减重专用App差在哪？",
+          "answer": "差在验证这一环。通用习惯App可以追任何事，但它只知道你点了勾，不知道你做了什么，所以减重语境下最关键的信息它拿不到。减重专用App的习惯是挂在实际记录上的——蛋白质、睡眠时长、步数都是数据，不是自我申报。代价是它们没法帮你管“每天练琴三十分钟”这类习惯。"
         },
         {
-          "question": "哪些习惯真正能改变体重?",
-          "answer": "选择两个,不是八个。第一餐的蛋白质、每天记录即使粗略、固定的睡眠时间窗口、每周两次抗阻训练,以及每周一次回顾。每周回顾是几乎每个应用都忽略的技术:回顾一周并改变一件事。"
+          "question": "真正会影响体重的习惯是哪些？",
+          "answer": "证据最集中的是两件：每天记录吃的，以及把蛋白质和睡眠的底线守住。自我监测是行为改变研究里被研究最多、方向最一致的一项（相关系统综述的作者把证据等级评为弱，但结论方向一致）。蛋白质决定减下去的部分里有多少是脂肪，睡眠直接推动第二天的食欲。这两条不稳，其余习惯都是装饰。"
         },
         {
-          "question": "我应该将体重作为每日习惯追踪吗?",
-          "answer": "体重是一个结果,不是行为——它反应缓慢、充满噪音,并且对你上周做的事情做出反应。将它放在每日清单上是在为你当天无法控制的事情打分。每天追踪行为,将体重作为每周趋势来读取。"
+          "question": "一个习惯要多久才能养成？",
+          "answer": "研究给出的中位数约为66天，个体差异从18天到254天。“21天养成习惯”没有证据支持。更实际的做法是：一次只建一到两条，而且要小到就算今天很糟也能完成——能在最差的一天做到的习惯，才撑得到第66天。"
         }
       ],
       "references": [
-        {
-          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22项研究,15项关于饮食自我监测;作者将证据水平评为弱",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
-        },
         {
           "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
           "source": "Annals of Behavioral Medicine, 2013",
           "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
         },
         {
+          "title": "How are habits formed: modelling habit formation in the real world (Lally et al.)",
+          "source": "European Journal of Social Psychology, 2010 — 中位数66天，区间18–254天，n=96",
+          "url": "https://doi.org/10.1002/ejsp.674"
+        },
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22项研究；作者自评证据等级为弱",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
           "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
-          "source": "New England Journal of Medicine, 2002 (n=3,234)",
+          "source": "New England Journal of Medicine, 2002（n=3,234）",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
         },
         {
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
-          "source": "Diabetes, Obesity and Metabolism, 2024 — 在一些试验中减重的瘦体重比例为40-60%,在其他试验中≤15%;瘦体重≠肌肉",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — 部分试验中去脂体重占减重量的40–60%；去脂体重≠肌肉",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018(主题更新中);BMI≥30的成年人,临床医生提供",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+          "title": "Keep - AI 运动教练 官方 App Store 页面（中国区）",
+          "source": "Apple App Store，2026年10月核验：4.9分 / 294万+条评分",
+          "url": "https://apps.apple.com/cn/app/id952694580"
         },
         {
-          "title": "How are habits formed: modelling habit formation in the real world (Lally, van Jaarsveld, Potts & Wardle)",
-          "source": "European Journal of Social Psychology, 2010 — 自动化达到平台期的中位时间为66天",
-          "url": "https://doi.org/10.1002/ejsp.674"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026 — HAVIT对1,090名GLP-1用户的内部分析",
+          "title": "GLP-1 Habit Report 2026 — HAVIT 对1,090名用药用户的内部分析",
           "source": "Havit Inc., 2026",
           "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-12"
     },
     "zh-TW": {
-      "title": "2026 年最佳減重習慣追蹤器:為何單靠連續打卡無效",
-      "short_title": "2026 年最佳減重習慣追蹤器",
-      "meta_description": "完美的 90 天連續打卡卻沒減掉任何體重,這是此類應用程式的典型失敗案例。大多數習慣應用程式只實作了 93 種行為改變技術中的兩種。哪五項標準才重要、連續打卡設計的缺陷,以及真正該選擇的兩個習慣。",
-      "tldr": "習慣追蹤器只有在追蹤特定行為、從數據而非勾選驗證、以及在你錯過時調整而非重置的情況下,才能幫助減重。選擇兩個習慣,為每個習慣設定提示,並在你最糟糕的一天評估這個應用程式。",
-      "body_md": "*誠實揭露:HAVIT 發布此部落格,並製作了以下其中一款應用程式。我們已標明其不足之處。*\n\n通用習慣追蹤器非常擅長一件事:告訴你是否完成了某件事。但對於減重來說,這只是問題的簡單一半,這就是為什麼許多人保持完美的 90 天連續打卡卻沒有減掉任何體重。\n\n問題不在於動機。而是「那件事」從未被明確定義到足以產生影響,而應用程式中沒有任何功能注意到這一點。\n\n## 習慣追蹤器必須做什麼,而大多數都沒做到\n\n行為改變研究對此並不含糊。標準分類法列出了 93 種不同的技術,而那些能帶來減重成果的技術是具體的:針對*行為*而非結果的目標設定、該行為的自我監測、回饋、行動計劃,以及當計劃失敗時的檢討([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/))。\n\n大多數習慣應用程式只實作了其中兩種——自我監測和連續打卡——就認為完成了。缺失的部分才是減重真正發生的地方。\n\n有兩個發現值得納入你的選擇考量:\n\n**具體性勝過強度。**「吃得更好」不是一個習慣。「早餐攝取 30 克蛋白質」才是,因為在早上 9 點時,這要麼是真的,要麼是假的。附加在模糊意圖上的勾選框記錄的是你的樂觀態度,而非你的行為。\n\n**習慣養成所需時間比應用程式暗示的更長。**在一項真實世界的習慣養成研究中,自動化達到平穩期的中位數時間為 66 天,且個體差異極大([Lally et al., *European Journal of Social Psychology*, 2010](https://doi.org/10.1002/ejsp.674))。21 天挑戰大約在三分之一的時間點就結束了。\n\n## 連續打卡的問題\n\n連續打卡有效。但它也包含一個設計缺陷,而且運行時間越長,這個缺陷就越嚴重。\n\n連續打卡的價值完全在於不中斷它,這意味著一旦中斷,其價值就會反轉。93 天連續打卡的第 94 天是最可能放棄的一天——你唯一的強化機制剛剛變成了失敗的證據。這與第一個糟糕日子所需要的完全相反。\n\n應該尋找的替代方案:\n\n- **修復機制。**連續打卡凍結、休息日、每週目標而非每日目標。任何能讓錯過就是錯過而非重置的機制。\n- **每週框架。**「七天中的五天」能在糟糕的一天中存活下來。「中斷」則不能。\n- **部分完成的認可。**半記錄的一天應該算些什麼,因為替代方案是什麼都不記錄。\n\n## 減重習慣追蹤器的 5 項標準\n\n### 1. 它追蹤的是行為還是結果?\n\n體重是一個結果。它反應緩慢、充滿雜訊,並且受你上週所做事情的影響。將體重放在每日檢查清單上的追蹤器,是在評分你當天無法直接控制的事情。\n\n### 2. 習慣能否與提示連結?\n\n「倒完咖啡後,我喝蛋白質奶昔。」這種如果-那麼形式的執行意圖是文獻中支持度較高的工具之一,它們需要應用程式儲存提示,而不僅僅是名稱。\n\n### 3. 它看到的是數據,還是只有勾選框?\n\n知道你記錄了 40 克蛋白質的追蹤器可以驗證習慣。只知道你勾選了方框的追蹤器,是在信任你晚上 11 點做出的自我報告。\n\n### 4. 它會調整目標嗎?\n\n連續四次錯過意味著要求是錯誤的,而不是你軟弱。好的系統會降低目標。檢查清單會重複它,直到你刪除應用程式。\n\n### 5. 它能在糟糕的一週中存活嗎?\n\n這是唯一對留存率重要的一週。在承諾之前刻意測試它。\n\n## 通用習慣追蹤器 vs 減重專用習慣系統\n\n| | 通用習慣追蹤器 | 減重習慣系統 |\n| --- | --- | --- |\n| 記錄內容 | 你勾選了方框 | 行為及其數據(蛋白質、步數、睡眠) |\n| 目標類型 | 連續打卡次數 | 與結果趨勢連結的行為 |\n| 驗證方式 | 自我報告 | 記錄本身 |\n| 錯過一天時 | 連續打卡重置 | 目標調整,週期繼續 |\n| 優勢 | 任何習慣,完全靈活 | 僅限減重相關習慣,但可驗證 |\n\n通用追蹤器在建立十個不相關的習慣時更好。但在這裡的單一任務上較差,因為勾選無法區分 30 克蛋白質和吃它的意圖。\n\n## 真正能影響體重的習慣\n\n選擇兩個。不是八個。\n\n1. **第一餐攝取蛋白質。**穩定一天的開始並保護瘦體組織——這在使用 GLP-1 藥物時更重要,因為在某些試驗中,減重中瘦體組織的比例據報導高達 40–60%([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/))。\n2. **每天記錄,即使記錄得很糟也要記。**在 22 項自我監測研究中——其中 15 項關於飲食記錄——與減重的關聯是一致的,儘管審查者將證據評為薄弱([Burke et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/))。完整性勝過準確性。\n3. **固定的睡眠時段。**睡眠不足會影響食慾。這是人們跳過的習慣,因為它與食物無關。\n4. **每週兩次阻力訓練。**保護飲食試圖帶走的瘦體組織。\n5. **每週一次檢討。**幾乎每個應用程式都省略的技術:回顧這一週,改變一件事。\n\n在糖尿病預防計劃中,由這類組成部分構建的結構化計劃在糖尿病風險上的表現優於 metformin,58% 對 31%([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/))。\n\n## 每種方法的不足之處——包括我們的\n\n- **通用習慣應用程式**在靈活性上獲勝,在驗證上失分。它們無法檢查習慣是否發生。\n- **連續打卡優先的應用程式**建立強大的短期依從性,但在第一次錯過時懲罰最重。\n- **計劃應用程式**提供其他應用程式省略的每週檢討,但按照它們的時間表而非你的。\n- **HAVIT** 只追蹤健康行為——如果你想在同一個地方追蹤吉他練習和使用牙線,我們不是合適的應用程式。我們的食物資料庫比專門的營養追蹤器小,身體組成數據是估計值。\n\n## 結論\n\n習慣追蹤器只有在追蹤**特定行為**、能從數據而非勾選**驗證**它、以及在你錯過時**調整**而非重置的情況下,才能幫助減重。\n\n選擇兩個習慣,為每個習慣設定提示,並根據系統在你最糟糕的一天的表現來評判它——而非最好的一天。\n\n## 為何選擇 HAVIT——任務而非勾選框\n\nHAVIT 的每日任務是產品形式的行為改變技術:一個特定行動,與應用程式實際能看到的數據連結,在你錯過時進行調整。\n\n最後一部分是重要的設計決策。因為餐食、蛋白質、睡眠、步數、週期、情緒和藥物都在一個地方,錯過的蛋白質目標不是中斷的連續打卡——它是一個輸入,而第二天的行動會因此改變。每日簽到是讓糟糕的一天進入系統而不結束它的方式。\n\n臨床指引將結構化行為改變視為肥胖照護的核心組成部分,而非可選項目([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。在我們自己對 1,090 名 GLP-1 使用者的分析中,最持續記錄的人建立了最強的習慣([GLP-1 習慣報告](/en/glp-1-habit-report))。\n\nHAVIT 不是醫療診斷工具,而是一款健康應用程式。身體組成數據是估計值。\n\n[試用 HAVIT →](https://www.aihavit.com/)\n",
+      "title": "2026 減重習慣 App 推薦（台灣）— 連續打卡為什麼不夠",
+      "short_title": "2026 減重習慣 App 推薦",
+      "meta_description": "HAVIT、Forest 專注森林、Flora、Habit Tracker、iBetter、Daylio、Cofit 一款一款拆開看。打勾驗證不了行為，漏一天該調整而不是歸零 — 評分取自 App Store 台灣，2026 年 10 月查核。",
+      "tldr": "一個打勾分不出「蛋白質吃到 30 公克」和「本來想吃」。要找的是追蹤具體行為、用資料驗證、漏掉時會調整而不是歸零的 App。",
+      "body_md": "連續打卡九十天，一天沒漏，體重原地不動——這是這個類別最常見的失敗。\n\n少掉的不是意志力。少掉的是：**那個「它」從來沒有被定義到足以產生意義，而 App 的任何一個部分都沒有察覺到這件事。**\n\n這篇把台灣常用的習慣 App 一款一款拆開看。評分取自 **App Store 台灣**，2026 年 10 月查核。\n\n![打勾本身說不出那個習慣到底有沒有發生](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_010.jpg)\n\n## 習慣追蹤器該做的事\n\n行為改變研究的標準分類體系整理出 **93 種技術**。其中真正會做出減重結果的，全部都很具體——針對**行為**（不是結果）設定目標、記錄那個行為、給回饋、訂執行計畫，以及計畫破掉時的檢討。\n\n多數習慣 App 只實作了其中**兩種**：自我記錄，和連續紀錄。\n\n**連續紀錄的陷阱**：連續紀錄的價值全部押在「不要斷」上面。那意思是，**斷掉的那一刻價值會反轉**。第 93 天的隔天，也就是第 94 天，是放棄機率最高的一天。\n\n## HAVIT — 不是靠打勾，是靠資料驗證\n\n| | |\n| --- | --- |\n| 開發商 | Havit Inc. |\n| 習慣驗證方式 | **用紀錄資料**（不是打勾） |\n| 追蹤項目 | 飲食・喝水・運動・睡眠・步數・生理週期・心情・GLP-1 |\n| 機制 | 每日任務 · 連續紀錄 · 徽章 · 虛擬角色 · 等級 · 團隊挑戰 |\n| 價格 | 免費下載 · App 內購買 |\n\n![每日任務：今天要做的一件具體行動](/blog/havit/shot/feature-daily-missions.webp)\n\n**決定性的差別是驗證。** 只認得打勾的 App，相信的是你晚上十一點的自我回報。HAVIT 知道的是**你有沒有真的把 40 公克蛋白質記進去**。一個打勾分不出「蛋白質吃到 30 公克」和「本來想吃」。\n\n![八種紀錄在同一個地方](/blog/havit/shot/feature-track-everything.webp)\n\n**每日任務**是把行為改變技術做成產品：一件具體的行為、綁在 App 真的看得到的資料上、而且**沒做到的時候會跟著調整**。\n\n![每日簽到：搞砸的那天不會終結整個系統](/blog/havit/shot/feature-daily-check-in.webp)\n\n**最後這點是核心設計。** 蛋白質沒達標不是一條斷掉的連續紀錄，而是一筆**輸入值**。AI 教練會把飲食、睡眠、步數、生理週期一起讀，然後改掉隔天的要求。**每日簽到**則是「搞砸的那天」能進來、而不會終結整個系統的通道。\n\n再加上連續紀錄、徽章、虛擬角色、等級與**團隊挑戰**，以及同一款 App 裡的**六種引導式冥想**、**運動影片**、**斷食**、探索專區**超過 1,400 篇文章**和體組成推估。和**韓國第一減重診所 Juvis Diet 出身的專家**一起做出來的。\n\n**適合誰**：打勾累積了一堆、身體卻沒變的人；搞砸的那天就把 App 刪掉的人。\n\n## Forest 專注森林 — 台灣團隊做的，但它量的是別的東西\n\n| | |\n| --- | --- |\n| 開發商 | SEEKRTECH CO., LTD.（台灣） |\n| 評分 | **4.8** · 10,720 則評分（App Store 台灣） |\n| 價格 | 依版本而異 · App 內購買 |\n\n![有些習慣要靠「不要碰」來達成](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n**做得好的地方。** 這是台灣團隊做出來、在全球都站得住的作品。它把「不碰手機」變成一棵會死掉的樹，而這個機制強得不講理——**在「阻止你分心」這件事上，HAVIT 沒有要跟它比**，這點我們認。同類的 **Flora 綠的專注力**（4.8 · 25,820 則評分）在台灣的評分數甚至更高。\n\n**不足的地方。** 它量的是**專注時長**，不是減重行為。它不知道你有沒有吃到蛋白質、有沒有睡滿、步數走到哪。拿它來做減重習慣，驗證的是「你沒有打開手機」，不是「你做了那件事」。\n\n**適合誰**：問題出在分心，不是出在飲食的人。讀書、工作用它，減重用別的。\n\n## Habit Tracker（InnerGrow）／ iBetter — 打勾類的代表\n\n| | |\n| --- | --- |\n| 評分 | Habit Tracker：4.9 · 10,613 則評分 ／ iBetter：4.8 · 3,658 則評分（App Store 台灣） |\n| 價格 | 免費下載 · App 內購買 |\n\n**做得好的地方。** 自由度最高，什麼都能追——練吉他、用牙線、喝水、早睡。介面輕、心理負擔小，在台灣的使用者基數也大。\n\n**不足的地方。** **沒有驗證。** 打勾只知道「你按了」。而且它們不跟健康資料連在一起，所以「每天記錄飲食」這個習慣打了勾，App 其實不知道你有沒有記。漏一天通常就是連續紀錄歸零——價值反轉的那個設計。\n\n**適合誰**：同時在養十個彼此無關的習慣的人。\n\n## Daylio 心情日記 — 把心情和行為放在一起\n\n| | |\n| --- | --- |\n| 開發商 | Relaxio s.r.o. |\n| 評分 | 4.8 · 1,340 則評分（App Store 台灣） |\n| 價格 | 免費下載 · App 內購買 |\n\n**做得好的地方。** 記錄門檻極低，幾下點選就完成，而且它會把心情和當天做了什麼對起來。對「壓力一來就吃」的人，這個對照本身很有價值。\n\n**不足的地方。** 它不處理飲食、體重或體組成，也不會給建議。它是觀察工具，不是介入工具。\n\n**適合誰**：想先搞清楚自己的情緒和進食怎麼連動的人。\n\n## Cofit 我的專屬營養師 — 習慣靠人盯著\n\n| | |\n| --- | --- |\n| 開發商 | Cofit Healthcare Inc.（群健科技） |\n| 評分 | **4.8** · 8,524 則評分（App Store 台灣） |\n| 價格 | 免費下載 · App 內購買 |\n\n**做得好的地方。** 它不是習慣 App，但在台灣它解決的是同一個問題——**有人在看**。每天的紀錄下面有真人營養師回覆，社群還有打卡挑戰和競賽。對「沒人盯就不會動」的人，這比任何連續紀錄機制都有效。\n\n**不足的地方。** 完整服務是課程制，價位在這份名單的高端，而且要配合對方的節奏。生理週期、用藥、睡眠的交互作用不在範圍內。\n\n**適合誰**：需要真人盯著，而且願意為此付費的人。\n\n## 一次看完\n\n| App | 它記的是什麼 | 怎麼驗證 | 漏掉一天會怎樣 | 一起看的資料 |\n| --- | --- | --- | --- | --- |\n| **HAVIT** | **行為，以及該行為的資料** | **用紀錄本身驗證** | **調整目標，整週繼續** | **八種紀錄全部** |\n| Cofit | 飲食照片、身體數值 | 真人營養師看 | 營養師回覆 | 飲食與身體數值 |\n| Forest / Flora | 專注時長 | 手機有沒有被打開 | 樹枯掉 | 無 |\n| Habit Tracker / iBetter | 打勾 | 無 | 連續紀錄歸零 | 無 |\n| Daylio | 心情與活動 | 自我回報 | 連續紀錄中斷 | 心情 |\n\nApp 特性以 2026 年 10 月為準，評分取自 App Store 台灣。方案與功能經常改動，付費前請先看商店頁面。\n\n## 真的會動到體重的習慣，只有幾個\n\n1. **第一餐的蛋白質。** 正在打 GLP-1 的人更關鍵——減掉的體重裡，瘦體組織所佔的比例在部分試驗被報告到 40–60%。\n2. **每天都記，記得爛也沒關係。** 準確度比不上「沒有空白的一天」。\n3. **固定睡覺時段。** 因為它跟食物無關，所以最常被跳過。\n4. **一週兩次阻力訓練。**\n5. **一週檢討一次。** 看完整週，然後**只改一件事**。\n\n## 結論\n\n習慣追蹤器要對體重有用，需要三件事：追蹤**具體的行為**、用**資料而不是打勾**來驗證，以及漏掉的時候是**調整**而不是歸零。\n\n判斷標準不是它在你最好的那天做了什麼，是**它在你最糟的那天做了什麼**。\n\n[開始使用 HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "標準分類法中的行為改變技術",
-          "value": "93 種技術",
+          "label": "標準分類體系整理出的行為改變技術",
+          "value": "93 種",
           "source": "Michie et al. 2013, Ann Behav Med"
         },
         {
-          "label": "大多數習慣應用程式實際實作的技術",
-          "value": "2 種(自我監測、連續打卡)",
-          "source": "本指南"
+          "label": "多數習慣 App 實作的技術",
+          "value": "2 種",
+          "source": "自我記錄與連續紀錄"
         },
         {
-          "label": "新習慣達到自動化平穩期的中位數時間",
-          "value": "66 天",
-          "source": "Lally et al. 2010, Eur J Soc Psychol"
+          "label": "HAVIT 用來驗證習慣的紀錄種類",
+          "value": "8 種",
+          "source": "飲食・喝水・運動・睡眠・步數・生理週期・心情・GLP-1"
         },
         {
-          "label": "DPP:結構化生活方式計劃 vs metformin,糖尿病風險降低",
-          "value": "58% vs 31%",
-          "source": "Knowler et al. 2002, NEJM (n=3,234)"
+          "label": "Forest 專注森林（App Store 台灣）",
+          "value": "4.8 · 10,720 則評分",
+          "source": "App Store 台灣，2026 年 10 月查核 — 台灣團隊 SEEKRTECH 開發"
         }
       ],
       "comparison_table": {
-        "title": "通用習慣追蹤器 vs 減重習慣系統",
+        "title": "一次看完",
         "headers": [
-          "",
-          "通用習慣追蹤器",
-          "減重習慣系統"
+          "App",
+          "它記的是什麼",
+          "怎麼驗證",
+          "漏掉一天會怎樣",
+          "一起看的資料"
         ],
         "rows": [
           [
-            "記錄內容",
-            "你勾選了方框",
-            "行為及其數據(蛋白質、步數、睡眠)"
+            "HAVIT",
+            "行為，以及該行為的資料",
+            "用紀錄本身驗證",
+            "調整目標，整週繼續",
+            "八種紀錄全部"
           ],
           [
-            "目標類型",
-            "連續打卡次數",
-            "與結果趨勢連結的行為"
+            "Cofit",
+            "飲食照片、身體數值",
+            "真人營養師看",
+            "營養師回覆",
+            "飲食與身體數值"
           ],
           [
-            "驗證方式",
-            "自我報告",
-            "記錄本身"
+            "Forest / Flora",
+            "專注時長",
+            "手機有沒有被打開",
+            "樹枯掉",
+            "無"
           ],
           [
-            "錯過一天時",
-            "連續打卡重置",
-            "目標調整,週期繼續"
+            "Habit Tracker / iBetter",
+            "打勾",
+            "無",
+            "連續紀錄歸零",
+            "無"
           ],
           [
-            "優勢",
-            "任何習慣,完全靈活",
-            "僅限減重相關習慣,但可驗證"
+            "Daylio",
+            "心情與活動",
+            "自我回報",
+            "連續紀錄中斷",
+            "心情"
           ]
         ],
-        "caption": "勾選無法區分 30 克蛋白質和吃它的意圖。"
+        "caption": "App 特性以 2026 年 10 月為準，評分取自 App Store 台灣。方案與功能經常改動，付費前請先看商店頁面。"
       },
       "faq": [
         {
-          "question": "減重最好的習慣追蹤器是什麼?",
-          "answer": "追蹤特定行為而非模糊意圖、從你的數據而非勾選框驗證、以及在你錯過時降低目標而非重置連續打卡的那一個。通用習慣應用程式在建立十個不相關的習慣時更好;但在這裡較差,因為勾選無法區分 30 克蛋白質和吃它的意圖。"
+          "question": "用習慣 App 減重，為什麼打卡滿滿卻沒瘦？",
+          "answer": "因為打勾驗證不了行為。一個勾分不出「蛋白質吃到 30 公克」和「本來想吃」。會動到體重的，是綁在真實資料上的具體行為——HAVIT 的每日任務知道你有沒有真的把那 40 公克記進去，而不是你晚上十一點按了什麼。"
         },
         {
-          "question": "為什麼我保持完美的連續打卡卻沒有減重?",
-          "answer": "通常是因為習慣從未被明確定義到足以產生影響。「吃得更好」記錄的是你的樂觀態度;「早餐攝取 30 克蛋白質」在早上 9 點時要麼是真的,要麼是假的。大多數習慣應用程式只實作了 93 種行為改變技術中的兩種——自我監測和連續打卡——而缺失的部分,特別是行動計劃和每週檢討,才是減重發生的地方。"
+          "question": "Forest 專注森林可以拿來養減重習慣嗎？",
+          "answer": "不太適合，雖然它本身很強。它是台灣團隊 SEEKRTECH 的作品，在「阻止你分心」這件事上幾乎無可取代，但它量的是專注時長——它不知道你有沒有吃到蛋白質、有沒有睡滿、步數走到哪。讀書工作用它，減重用別的。"
         },
         {
-          "question": "連續打卡對減重是好是壞?",
-          "answer": "兩者皆是。連續打卡的價值完全在於不中斷它,所以一旦中斷,價值就會反轉——93 天連續打卡的第 94 天是最可能放棄的一天。尋找修復機制:連續打卡凍結、休息日、每週目標而非每日目標,以及對部分記錄日的認可。"
+          "question": "連續紀錄斷掉就想放棄，怎麼辦？",
+          "answer": "那是設計造成的，不是你的問題。連續紀錄的價值全押在「不要斷」，所以斷掉的那一刻價值會反轉，第 94 天往往就是放棄的那一天。要找的是把漏掉當成輸入值、然後調整隔天要求的 App。HAVIT 的每日簽到就是讓爛日子有地方可以進來的通道。"
         },
         {
-          "question": "養成一個習慣需要多長時間?",
-          "answer": "比大多數應用程式暗示的更長。在一項真實世界研究中,自動化達到平穩期的中位數時間為 66 天,且個體差異非常大。21 天挑戰大約在三分之一的時間點就結束了,這是許多挑戰之後出現復發的原因之一。"
+          "question": "台灣有沒有會有人盯著我的選擇？",
+          "answer": "有。Cofit 的每日紀錄下面會有真人營養師回覆，社群也有打卡挑戰。對「沒人盯就不會動」的人，這比任何徽章都有效。代價是完整服務採課程制，價位在這個類別的高端。"
         },
         {
-          "question": "哪些習慣真正能影響體重?",
-          "answer": "選擇兩個,不是八個。第一餐攝取蛋白質、每天記錄即使記錄得很糟、固定的睡眠時段、每週兩次阻力訓練,以及每週一次檢討。每週檢討是幾乎每個應用程式都省略的技術:回顧這一週並改變一件事。"
+          "question": "一次該養幾個習慣？",
+          "answer": "一個。真的會動到體重的習慣沒幾個——第一餐的蛋白質、每天都記（記得爛也沒關係）、固定睡覺時段、一週兩次阻力訓練，以及一週檢討一次然後只改一件事。同時推五個，通常五個都不會留下來。"
         },
         {
-          "question": "我應該將體重作為每日習慣追蹤嗎?",
-          "answer": "體重是結果,不是行為——它反應緩慢、充滿雜訊,並且受你上週所做事情的影響。將它放在每日檢查清單上是在評分你當天無法控制的事情。每天追蹤行為,並將體重視為每週趨勢。"
+          "question": "怎麼判斷一款習慣 App 值不值得留？",
+          "answer": "看它在你最糟的那天做什麼，不是看它在你最好的那天做什麼。故意搞砸一天，然後看它是把連續紀錄歸零、跳紅色警告，還是降低隔天的要求、問你發生了什麼事。"
         }
       ],
       "references": [
-        {
-          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 項研究,15 項關於飲食自我監測;作者將證據等級評為薄弱",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
-        },
         {
           "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
           "source": "Annals of Behavioral Medicine, 2013",
           "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
         },
         {
-          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
-          "source": "New England Journal of Medicine, 2002 (n=3,234)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
+          "title": "Forest 專注森林 - 讀書專注番茄鐘（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.8 · 10,720 則評分；開發商 SEEKRTECH CO., LTD.（台灣）",
+          "url": "https://apps.apple.com/tw/app/id866450515"
+        },
+        {
+          "title": "Flora 綠的專注力（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.8 · 25,820 則評分",
+          "url": "https://apps.apple.com/tw/app/id1225155794"
+        },
+        {
+          "title": "Habit Tracker（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.9 · 10,613 則評分",
+          "url": "https://apps.apple.com/tw/app/id1438388363"
+        },
+        {
+          "title": "Daylio 心情日記本（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.8 · 1,340 則評分",
+          "url": "https://apps.apple.com/tw/app/id1194023242"
+        },
+        {
+          "title": "Cofit - 我的專屬營養師（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.8 · 8,524 則評分",
+          "url": "https://apps.apple.com/tw/app/id1062498342"
+        },
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 項研究，其中 15 項針對飲食自我監測；作者評定證據等級為弱",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
         },
         {
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
-          "source": "Diabetes, Obesity and Metabolism, 2024 — 在某些試驗中減重的瘦體組織比例為 40–60%,在其他試驗中 ≤15%;瘦體組織 ≠ 肌肉",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — 減重中瘦體組織所佔比例在部分試驗為 40–60%；瘦體組織 ≠ 肌肉",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018(主題更新中);BMI ≥30 的成人,由臨床醫師提供",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "How are habits formed: modelling habit formation in the real world (Lally, van Jaarsveld, Potts & Wardle)",
-          "source": "European Journal of Social Psychology, 2010 — 自動化達到平穩期的中位數時間為 66 天",
-          "url": "https://doi.org/10.1002/ejsp.674"
-        },
-        {
-          "title": "GLP-1 習慣報告 2026 — HAVIT 對 1,090 名 GLP-1 使用者的內部分析",
+          "title": "GLP-1 Habit Report 2026 — HAVIT 對 1,090 名 GLP-1 使用者的內部分析",
           "source": "Havit Inc., 2026",
           "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-12"
     },
     "es": {
       "title": "Mejores apps de hábitos para adelgazar en 2026: por qué las rachas no bastan",
@@ -943,133 +988,145 @@
       "last_updated": "2026-10-11"
     },
     "id": {
-      "title": "Aplikasi Pelacak Kebiasaan Terbaik untuk Penurunan Berat Badan di 2026: Mengapa Streak Saja Tidak Cukup",
-      "short_title": "Aplikasi Pelacak Kebiasaan Terbaik untuk Penurunan Berat Badan 2026",
-      "meta_description": "Streak sempurna 90 hari tanpa penurunan berat badan adalah kegagalan khas kategori ini. Sebagian besar aplikasi kebiasaan hanya menerapkan dua dari 93 teknik perubahan perilaku yang terkatalog. Lima kriteria yang penting, kelemahan desain streak, dan dua kebiasaan yang benar-benar perlu dipilih.",
-      "tldr": "Pelacak kebiasaan membantu penurunan berat badan hanya jika melacak perilaku spesifik, memverifikasinya dari data bukan centang, dan menyesuaikan saat Anda melewatkan alih-alih mereset. Pilih dua kebiasaan, beri masing-masing isyarat, dan nilai aplikasi berdasarkan hari terburuk Anda.",
-      "body_md": "*Pengungkapan jujur: HAVIT menerbitkan blog ini dan membuat salah satu aplikasi di bawah ini. Kami telah menyebutkan di mana aplikasi kami kalah.*\n\nPelacak kebiasaan generik sangat baik dalam satu hal: memberi tahu Anda apakah Anda melakukan hal tersebut. Untuk penurunan berat badan, ternyata itu hanya setengah dari masalahnya, itulah mengapa banyak orang mempertahankan streak sempurna 90 hari tanpa kehilangan berat badan sama sekali.\n\nKesenjangan bukan pada motivasi. Masalahnya adalah 'hal tersebut' tidak pernah dispesifikasikan dengan cukup baik untuk berarti, dan tidak ada dalam aplikasi yang menyadarinya.\n\n## Apa yang harus dilakukan pelacak kebiasaan, dan sebagian besar tidak melakukannya\n\nPenelitian perubahan perilaku tidak samar tentang ini. Taksonomi standar mengkatalog 93 teknik berbeda, dan yang membawa hasil penurunan berat badan bersifat spesifik: penetapan tujuan pada *perilaku* bukan hasil, pemantauan diri terhadap perilaku tersebut, umpan balik, perencanaan tindakan, dan peninjauan saat rencana gagal ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)).\n\nSebagian besar aplikasi kebiasaan hanya menerapkan dua dari itu — pemantauan diri dan streak — dan menganggapnya selesai. Bagian yang hilang adalah tempat penurunan berat badan sebenarnya terjadi.\n\nDua temuan yang perlu dibawa ke dalam pilihan Anda:\n\n**Spesifisitas mengalahkan intensitas.** 'Makan lebih baik' bukan kebiasaan. '30g protein saat sarapan' adalah kebiasaan, karena pada pukul 9 pagi itu benar atau salah. Kotak centang yang terhubung dengan niat samar mencatat optimisme Anda, bukan perilaku Anda.\n\n**Kebiasaan membutuhkan waktu lebih lama dari yang diimplikasikan aplikasi.** Dalam studi dunia nyata tentang pembentukan kebiasaan, otomatisitas membutuhkan median 66 hari untuk mencapai dataran tinggi, dengan penyebaran individual yang sangat besar ([Lally et al., *European Journal of Social Psychology*, 2010](https://doi.org/10.1002/ejsp.674)). Tantangan 21 hari berakhir kira-kira sepertiga dari perjalanan.\n\n## Masalah streak\n\nStreak berfungsi. Mereka juga mengandung kelemahan desain yang semakin buruk semakin lama berjalan.\n\nNilai streak sepenuhnya terletak pada tidak memutuskannya, yang berarti nilainya berbalik saat terputus. Hari ke-94 dari streak 93 hari adalah hari yang paling mungkin untuk berhenti — satu-satunya penguatan yang Anda miliki baru saja berubah menjadi bukti kegagalan. Itu kebalikan dari apa yang dibutuhkan hari buruk pertama.\n\nApa yang harus dicari sebagai gantinya:\n\n- **Mekanik perbaikan.** Pembekuan streak, hari istirahat, target mingguan alih-alih harian. Apa pun yang membuat kelewatan tetap sebagai kelewatan bukan reset.\n- **Kerangka mingguan.** 'Lima dari tujuh' bertahan dari hari buruk. 'Terputus' tidak.\n- **Kredit untuk parsial.** Hari yang tercatat setengah harus dihitung untuk sesuatu, karena alternatifnya adalah tidak mencatat apa pun.\n\n## 5 kriteria untuk pelacak kebiasaan penurunan berat badan\n\n### 1. Apakah melacak perilaku atau hasil?\n\nBerat badan adalah hasil. Ia merespons secara lambat, berisik, dan terhadap hal-hal yang Anda lakukan minggu lalu. Pelacak yang menempatkan berat badan pada daftar periksa harian memberi Anda skor pada sesuatu yang tidak dapat Anda kontrol langsung hari itu.\n\n### 2. Bisakah kebiasaan dikaitkan dengan isyarat?\n\n'Setelah saya menuangkan kopi, saya mengambil protein shake.' Niat implementasi dengan bentuk jika-maka seperti itu adalah salah satu alat yang lebih didukung dalam literatur ini, dan mereka membutuhkan aplikasi untuk menyimpan isyarat, bukan hanya nama.\n\n### 3. Apakah melihat data, atau hanya kotak centang?\n\nPelacak yang tahu Anda mencatat 40g protein dapat memverifikasi kebiasaan. Yang hanya tahu Anda mencentang kotak mempercayai laporan diri yang dibuat pada pukul 11 malam.\n\n### 4. Apakah menyesuaikan target?\n\nEmpat kelewatan berturut-turut berarti permintaan salah, bukan bahwa Anda lemah. Sistem yang baik menurunkannya. Daftar periksa mengulanginya sampai Anda menghapus aplikasi.\n\n### 5. Apakah bertahan dari minggu buruk?\n\nSatu-satunya minggu yang penting untuk retensi. Uji secara sengaja sebelum Anda berkomitmen.\n\n## Pelacak kebiasaan generik vs khusus berat badan\n\n| | Pelacak kebiasaan generik | Sistem kebiasaan penurunan berat badan |\n| --- | --- | --- |\n| Apa yang dicatat | Bahwa Anda mencentang kotak | Perilaku dan datanya (protein, langkah, tidur) |\n| Jenis tujuan | Hitungan streak | Perilaku terkait tren hasil |\n| Verifikasi | Laporan diri | Log itu sendiri |\n| Pada hari yang terlewat | Streak direset | Target disesuaikan, minggu berlanjut |\n| Kekuatan | Kebiasaan apa pun, fleksibilitas total | Hanya kebiasaan terkait berat badan, tetapi dapat diverifikasi |\n\nPelacak generik lebih baik jika Anda membangun sepuluh kebiasaan yang tidak terkait. Mereka lebih buruk pada satu pekerjaan di sini, karena centang tidak dapat membedakan antara 30g protein dan niat untuk memakannya.\n\n## Kebiasaan yang benar-benar menggerakkan berat badan\n\nPilih dua. Bukan delapan.\n\n1. **Protein pada makanan pertama.** Menambatkan hari dan melindungi massa tanpa lemak — yang lebih penting pada obat GLP-1, di mana bagian massa tanpa lemak dari berat yang hilang telah dilaporkan setinggi 40–60% dalam beberapa uji coba ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/)).\n2. **Catat setiap hari, buruk jika perlu.** Di 22 studi pemantauan diri — 15 tentang pencatatan makanan — asosiasi dengan penurunan berat badan konsisten, meskipun peninjau menilai buktinya lemah ([Burke et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)). Kelengkapan mengalahkan akurasi.\n3. **Jendela tidur tetap.** Tidur pendek menggerakkan nafsu makan. Ini adalah kebiasaan yang dilewatkan orang karena bukan tentang makanan.\n4. **Latihan resistensi dua kali seminggu.** Melindungi massa tanpa lemak yang coba diambil diet.\n5. **Satu tinjauan mingguan.** Teknik yang hampir setiap aplikasi lewatkan: lihat minggu ini, ubah satu hal.\n\nProgram terstruktur yang dibangun dari komponen seperti ini mengungguli metformin pada risiko diabetes dalam Diabetes Prevention Program, 58% hingga 31% ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\n## Di mana setiap pendekatan gagal — termasuk milik kami\n\n- **Aplikasi kebiasaan generik** menang pada fleksibilitas dan kalah pada verifikasi. Mereka tidak dapat memeriksa kebiasaan terjadi.\n- **Aplikasi streak-first** membangun kepatuhan jangka pendek yang kuat dan menghukum kelewatan pertama paling keras.\n- **Aplikasi program** menyediakan tinjauan mingguan yang dilewatkan yang lain, pada jadwal mereka bukan Anda.\n- **HAVIT** hanya melacak perilaku kesehatan — jika Anda ingin melacak latihan gitar dan flossing di tempat yang sama, kami adalah aplikasi yang salah. Database makanan kami lebih kecil dari pelacak nutrisi khusus, dan angka komposisi tubuh adalah estimasi.\n\n## Intinya\n\nPelacak kebiasaan membantu berat badan hanya jika melacak **perilaku spesifik**, dapat **memverifikasi** dari data bukan centang, dan **menyesuaikan** saat Anda melewatkan alih-alih mereset.\n\nPilih dua kebiasaan, beri masing-masing isyarat, dan nilai sistem berdasarkan apa yang dilakukannya pada hari terburuk Anda — bukan yang terbaik.\n\n## Mengapa HAVIT — misi alih-alih kotak centang\n\nMisi harian HAVIT adalah teknik perubahan perilaku dalam bentuk produk: satu tindakan spesifik, terkait dengan data yang benar-benar dapat dilihat aplikasi, disesuaikan saat Anda melewatkannya.\n\nBagian terakhir adalah keputusan desain yang penting. Karena makanan, protein, tidur, langkah, siklus, suasana hati, dan obat ada di satu tempat, target protein yang terlewat bukan streak yang terputus — itu adalah input, dan tindakan hari berikutnya berubah karenanya. Check-in harian adalah cara hari buruk masuk ke sistem tanpa mengakhirinya.\n\nPanduan klinis memperlakukan perubahan perilaku terstruktur sebagai komponen inti perawatan obesitas, bukan tambahan opsional ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Dalam analisis kami sendiri terhadap 1.090 pengguna GLP-1, pencatat paling konsisten membangun kebiasaan terkuat ([Laporan Kebiasaan GLP-1](/en/glp-1-habit-report)).\n\nHAVIT adalah aplikasi wellness, bukan alat diagnostik medis. Angka komposisi tubuh adalah estimasi.\n\n[Coba HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Pelacak Kebiasaan Terbaik untuk Turun Berat Badan 2026: Kenapa Rangkaian Hari Saja Gagal",
+      "short_title": "Pelacak Kebiasaan Diet Terbaik 2026",
+      "meta_description": "HAVIT, Loop Habit Tracker, Habitica, Lifesum, YAZIO, dan aplikasi kebiasaan generik, dibahas satu per satu. Sebagian besar menerapkan dua dari 93 teknik perubahan perilaku — itulah sebabnya rangkaian sempurna tanpa berat turun jadi kegagalan khas kategori ini.",
+      "tldr": "Satu centang tidak bisa membedakan 30 g protein dari niat memakannya. Pelacak kebiasaan hanya membantu kalau ia melacak perilaku spesifik, memverifikasinya dari data, dan menyesuaikan diri ketika Anda melewatkannya alih-alih mereset.",
+      "body_md": "Rangkaian 90 hari yang sempurna tanpa satu kilogram pun turun adalah kegagalan khas kategori ini.\n\nYang hilang bukan motivasi. Yang hilang adalah bahwa \"hal itu\" tidak pernah dirumuskan cukup spesifik untuk berarti, dan tidak ada apa pun di aplikasinya yang menyadarinya.\n\nPanduan ini membahas aplikasi kebiasaan satu per satu, dengan yang benar-benar beredar di Play Store Indonesia. Dicek Oktober 2026.\n\n![Satu centang tidak bisa memberitahu apakah kebiasaannya benar-benar terjadi](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_010.jpg)\n\n## Apa yang harus dilakukan pelacak kebiasaan\n\nTaksonomi standar intervensi perubahan perilaku mendaftar **93 teknik berbeda**. Teknik yang benar-benar membawa hasil penurunan berat badan bersifat spesifik: penetapan tujuan pada *perilaku* alih-alih hasil, pemantauan mandiri atas perilaku itu, umpan balik, perencanaan tindakan, dan peninjauan ketika rencananya gagal.\n\nSebagian besar aplikasi kebiasaan menerapkan tepat dua: pemantauan mandiri dan rangkaian hari.\n\n**Masalah rangkaian hari.** Nilai sebuah rangkaian seluruhnya terletak pada tidak terputusnya rangkaian itu — artinya nilainya terbalik pada detik ia putus. Hari ke-94 dari rangkaian 93 hari adalah hari dengan kemungkinan berhenti paling tinggi. Cari mekanisme pemulihan: hari istirahat, target mingguan alih-alih harian, atau kredit untuk catatan sebagian.\n\nDi Indonesia ada satu ujian tahunan yang tidak terhindarkan: Ramadan menggeser jam makan, jam tidur, dan jam olahraga sekaligus selama sebulan penuh. Aplikasi yang memperlakukan pergeseran itu sebagai rangkaian yang putus akan kehilangan Anda pada minggu pertama.\n\n## HAVIT — diverifikasi dari data, bukan dari kotak centang\n\n| | |\n| --- | --- |\n| Pembuat | Havit Inc. |\n| Verifikasi kebiasaan | **Dari catatannya sendiri**, bukan kotak centang |\n| Yang dicatat | Makan, air, olahraga, tidur, langkah, siklus haid, suasana hati, obat GLP-1 |\n| Mekanik | Misi harian · rangkaian hari · lencana · avatar · peringkat · tantangan tim |\n| Harga | Gratis · ada pembelian dalam aplikasi |\n| Bahasa | 35 bahasa, termasuk Bahasa Indonesia |\n\n![Misi harian — satu tindakan spesifik untuk hari ini](/blog/havit/shot/feature-daily-missions.webp)\n\n**Verifikasi adalah seluruh perbedaannya.** Aplikasi yang hanya mengenal kotak centang sedang mempercayai laporan diri yang dibuat pukul sebelas malam. HAVIT tahu apakah Anda benar-benar mencatat 40 g protein. Satu centang tidak bisa membedakan *30 g protein* dari *niat untuk memakannya*.\n\n**Misi harian** adalah teknik perubahan perilaku dalam bentuk produk: satu tindakan spesifik, terikat pada data yang memang bisa dilihat aplikasinya, dan **disesuaikan ketika Anda melewatkannya.**\n\n![Check-in harian — hari yang buruk masuk ke sistem tanpa mengakhirinya](/blog/havit/shot/feature-daily-check-in.webp)\n\nBagian terakhir itulah keputusan desain yang paling berarti. Target protein yang meleset bukan rangkaian yang putus — itu **masukan**. Coach AI membacanya bersama tidur, langkah, dan siklus haid, lalu permintaan hari berikutnya berubah. **Check-in harian** adalah cara satu hari yang buruk masuk ke sistem tanpa mengakhirinya. Selama Ramadan, mekanik yang sama membuat jadwal yang bergeser terbaca sebagai konteks, bukan sebagai kegagalan.\n\nSupaya verifikasi itu punya bahan, catatannya harus terisi — dan di Indonesia catatan mati di piring campur. Jujur saja: tidak ada aplikasi, HAVIT termasuk, yang punya database lengkap masakan warung dan rumahan. **AI Food Scan** mengambil jalan lain: foto piringnya sekali, dan AI memecahnya menjadi perkiraan per komponen. Itu sebabnya kebiasaan seperti \"protein di waktu makan pertama\" masih bisa diverifikasi pada hari-hari ketika Anda makan di warteg.\n\nDi sekelilingnya ada **rangkaian hari, lencana, avatar, peringkat, dan tantangan tim**, plus **enam meditasi terpandu**, **video olahraga**, fitur **puasa**, **lebih dari 1.400 artikel**, dan estimasi komposisi tubuh. Dikembangkan bersama para ahli dari Juvis Diet, klinik diet nomor satu di Korea.\n\n**Cocok untuk:** orang yang centangnya menumpuk tapi tubuhnya tidak berubah; orang yang menghapus aplikasinya setelah satu minggu buruk.\n\n## Loop Habit Tracker — gratis, bersih, sumber terbuka\n\n| | |\n| --- | --- |\n| Harga | Gratis |\n| Google Play | 4,9 bintang · 63,5 rb ulasan · 5 jt+ unduhan |\n\n![Fleksibilitas adalah produknya — dan juga batasnya](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n**Yang dikerjakannya dengan baik.** Ini pengakuan yang jujur: **sebagai pelacak kebiasaan murni, Loop lebih bersih daripada aplikasi kesehatan mana pun di daftar ini** — gratis sepenuhnya, tanpa iklan, tanpa akun, dan skor kekuatan kebiasaannya tidak langsung nol hanya karena Anda melewatkan satu hari. Itu mekanisme pemulihan yang sebenarnya, dan jarang ada.\n\n**Di mana ia gugur.** **Tidak ada verifikasi.** Centang hanya tahu bahwa Anda mengetuknya. Ia juga tidak terhubung ke data kesehatan apa pun, jadi tidak ada yang bisa menyilangkan kebiasaan dengan hasilnya — Anda bisa mencentang \"makan sehat\" selama tiga bulan tanpa satu pun angka yang membuktikannya.\n\n**Cocok untuk:** orang yang membangun kebiasaan yang memang tidak bisa diukur aplikasi, seperti salat tepat waktu atau membaca.\n\n## Habitica — kebiasaan sebagai permainan peran\n\n| | |\n| --- | --- |\n| Harga | Gratis · ada pembelian dalam aplikasi |\n| Google Play | 4,9 bintang · 75,8 rb ulasan · 5 jt+ unduhan |\n\n**Yang dikerjakannya dengan baik.** Mengubah daftar kebiasaan menjadi karakter yang naik level, dengan party dan quest bersama teman. Untuk sebagian orang, tanggung jawab sosial di dalam party itulah satu-satunya mekanisme yang pernah bekerja.\n\n**Di mana ia gugur.** Sama seperti Loop: centangnya adalah laporan diri, dan tidak ada data kesehatan yang masuk. Lapisan permainannya juga butuh perawatan — banyak orang akhirnya mengurus karakternya, bukan kebiasaannya.\n\n**Cocok untuk:** orang yang termotivasi oleh permainan dan punya teman yang ikut serta.\n\n## Aplikasi to-do dan pelacak kebiasaan generik lainnya\n\n**Yang dikerjakannya dengan baik.** Melacak apa saja — latihan gitar, minum air, jalan kaki pagi. Fleksibilitas maksimum, dan Play Store Indonesia penuh pilihan gratis.\n\n**Di mana ia gugur.** Tidak ada verifikasi, tidak ada data kesehatan, dan hampir semuanya mereset rangkaian pada satu hari yang terlewat. Untuk penurunan berat badan, kombinasi itu persis yang menghasilkan rangkaian sempurna tanpa perubahan apa pun.\n\n**Cocok untuk:** orang yang membangun sepuluh kebiasaan yang tidak saling berhubungan.\n\n## Lifesum dan YAZIO — rangkaian hari di atas pencatatan makan\n\n| | |\n| --- | --- |\n| Google Play | Lifesum 4,9 bintang · 379 rb ulasan · 10 jt+ unduhan |\n| Google Play | YAZIO 4,9 bintang · 870 rb ulasan · 50 jt+ unduhan |\n\n**Yang dikerjakannya dengan baik.** Rangkaian harinya setidaknya menempel pada data nyata — Anda mencatat makan, jadi centangnya punya isi. YAZIO menambahkan timer puasa yang berguna selama Ramadan.\n\n**Di mana ia gugur.** Yang diverifikasi hanya \"saya mencatat sesuatu\", bukan \"saya benar-benar mencapai target protein\". Dan cakupan makanan Indonesianya tipis, jadi pada hari-hari warteg catatannya kosong dan rangkaiannya tetap putus.\n\n**Cocok untuk:** orang yang pola makannya berbasis produk kemasan.\n\n## Perbandingan berdampingan\n\n| Aplikasi | Yang dicatat | Verifikasi | Pada hari yang terlewat | Dibaca bersama |\n| --- | --- | --- | --- | --- |\n| **HAVIT** | **Perilaku dan datanya** | **Catatannya sendiri** | **Target disesuaikan, minggu berlanjut** | **8 catatan** |\n| Loop Habit Tracker | Kotak centang | Tidak ada | Skor turun, tidak langsung nol | Tidak ada |\n| Habitica | Kotak centang | Tidak ada | Kerugian di dalam permainan | Tidak ada |\n| Aplikasi to-do generik | Kotak centang | Tidak ada | Rangkaian direset | Tidak ada |\n| Lifesum / YAZIO | Catatan makan | \"Saya mencatat sesuatu\" | Rangkaian putus | Makan, berat |\n\nKarakteristik aplikasi per Oktober 2026.\n\n## Kebiasaan yang benar-benar menggerakkan berat badan — pilih dua\n\n1. **Protein di waktu makan pertama.** Ini lebih penting lagi pada obat GLP-1, karena porsi massa tanpa lemak dari berat yang hilang pernah dilaporkan setinggi 40–60% pada sebagian uji klinis. Pada hari puasa, artinya protein saat sahur.\n2. **Catat setiap hari, boleh asal-asalan.** Kelengkapan mengalahkan akurasi. Foto piringnya kalau tidak sempat.\n3. **Jendela tidur yang tetap.** Kebiasaan yang paling sering dilewati orang karena tidak terasa berhubungan dengan makanan.\n4. **Latihan beban dua kali seminggu.** Ini yang menentukan berat yang hilang itu lemak atau otot.\n5. **Satu peninjauan mingguan.** Lihat satu minggu, lalu ubah **satu** hal saja.\n\n## Kesimpulan\n\nPelacak kebiasaan hanya membantu penurunan berat badan kalau ia melacak **perilaku yang spesifik**, bisa **memverifikasinya** dari data alih-alih dari centang, dan **menyesuaikan diri** ketika Anda melewatkannya alih-alih mereset.\n\nNilailah dari apa yang dilakukannya pada hari terburuk Anda, bukan pada hari terbaik Anda.\n\n[Coba HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
           "label": "Teknik perubahan perilaku dalam taksonomi standar",
-          "value": "93 teknik",
-          "source": "Michie et al. 2013, Ann Behav Med"
+          "value": "93",
+          "source": "Michie dkk. 2013, Ann Behav Med"
         },
         {
-          "label": "Teknik yang benar-benar diterapkan sebagian besar aplikasi kebiasaan",
-          "value": "2 (pemantauan diri, streak)",
-          "source": "Panduan ini"
+          "label": "Teknik yang benar-benar diterapkan kebanyakan aplikasi kebiasaan",
+          "value": "2",
+          "source": "Pemantauan mandiri dan rangkaian hari"
         },
         {
-          "label": "Waktu median untuk kebiasaan baru mencapai dataran tinggi otomatisitas",
-          "value": "66 hari",
-          "source": "Lally et al. 2010, Eur J Soc Psychol"
+          "label": "Aliran data yang dipakai HAVIT untuk memverifikasi kebiasaan",
+          "value": "8",
+          "source": "Makan, air, olahraga, tidur, langkah, siklus haid, suasana hati, GLP-1"
         },
         {
-          "label": "DPP: program gaya hidup terstruktur vs metformin, pengurangan risiko diabetes",
-          "value": "58% vs 31%",
-          "source": "Knowler et al. 2002, NEJM (n=3.234)"
+          "label": "Porsi massa tanpa lemak dari berat yang hilang pada terapi GLP-1",
+          "value": "40–60% pada sebagian uji klinis",
+          "source": "Neeland dkk. 2024, Diabetes Obes Metab"
         }
       ],
       "comparison_table": {
-        "title": "Pelacak kebiasaan generik vs sistem kebiasaan penurunan berat badan",
+        "title": "Perbandingan berdampingan",
         "headers": [
-          "",
-          "Pelacak kebiasaan generik",
-          "Sistem kebiasaan penurunan berat badan"
+          "Aplikasi",
+          "Yang dicatat",
+          "Verifikasi",
+          "Pada hari yang terlewat",
+          "Dibaca bersama"
         ],
         "rows": [
           [
-            "Apa yang dicatat",
-            "Bahwa Anda mencentang kotak",
-            "Perilaku dan datanya (protein, langkah, tidur)"
+            "HAVIT",
+            "Perilaku dan datanya",
+            "Catatannya sendiri",
+            "Target disesuaikan, minggu berlanjut",
+            "8 catatan"
           ],
           [
-            "Jenis tujuan",
-            "Hitungan streak",
-            "Perilaku terkait tren hasil"
+            "Loop Habit Tracker",
+            "Kotak centang",
+            "Tidak ada",
+            "Skor turun, tidak langsung nol",
+            "Tidak ada"
           ],
           [
-            "Verifikasi",
-            "Laporan diri",
-            "Log itu sendiri"
+            "Habitica",
+            "Kotak centang",
+            "Tidak ada",
+            "Kerugian di dalam permainan",
+            "Tidak ada"
           ],
           [
-            "Pada hari yang terlewat",
-            "Streak direset",
-            "Target disesuaikan, minggu berlanjut"
+            "Aplikasi to-do generik",
+            "Kotak centang",
+            "Tidak ada",
+            "Rangkaian direset",
+            "Tidak ada"
           ],
           [
-            "Kekuatan",
-            "Kebiasaan apa pun, fleksibilitas total",
-            "Hanya kebiasaan terkait berat badan, tetapi dapat diverifikasi"
+            "Lifesum / YAZIO",
+            "Catatan makan",
+            "\"Saya mencatat sesuatu\"",
+            "Rangkaian putus",
+            "Makan, berat"
           ]
         ],
-        "caption": "Centang tidak dapat membedakan antara 30g protein dan niat untuk memakannya."
+        "caption": "Karakteristik aplikasi per Oktober 2026."
       },
       "faq": [
         {
-          "question": "Apa pelacak kebiasaan terbaik untuk penurunan berat badan?",
-          "answer": "Yang melacak perilaku spesifik bukan niat samar, memverifikasinya dari data Anda bukan kotak centang, dan menurunkan target saat Anda melewatkan alih-alih mereset streak. Aplikasi kebiasaan generik lebih baik jika Anda membangun sepuluh kebiasaan yang tidak terkait; mereka lebih buruk di sini, karena centang tidak dapat membedakan 30g protein dari niat untuk memakannya."
+          "question": "Pelacak kebiasaan terbaik untuk turun berat badan apa?",
+          "answer": "Yang bisa memverifikasi kebiasaannya dari data, bukan dari kotak centang. Untuk kebiasaan yang tidak berhubungan dengan kesehatan, Loop Habit Tracker gratis dan sangat bersih. Untuk kebiasaan yang menggerakkan berat badan — protein, tidur, langkah, latihan beban — Anda butuh aplikasi yang tahu apakah hal itu benar-benar terjadi dan mengubah permintaannya ketika Anda melewatkannya."
         },
         {
-          "question": "Mengapa saya mempertahankan streak sempurna tetapi tidak kehilangan berat badan?",
-          "answer": "Biasanya karena kebiasaan tidak pernah dispesifikasikan dengan cukup baik untuk berarti. 'Makan lebih baik' mencatat optimisme Anda; '30g protein saat sarapan' benar atau salah pada pukul 9 pagi. Sebagian besar aplikasi kebiasaan hanya menerapkan dua dari 93 teknik perubahan perilaku yang terkatalog — pemantauan diri dan streak — dan bagian yang hilang, terutama perencanaan tindakan dan tinjauan mingguan, adalah tempat penurunan berat badan terjadi."
+          "question": "Kenapa rangkaian hari saya sempurna tapi berat badan tidak turun?",
+          "answer": "Hampir selalu karena yang dicentang tidak pernah dirumuskan cukup spesifik. \"Makan sehat\" tidak bisa diverifikasi oleh siapa pun, termasuk Anda sendiri pukul sebelas malam. \"40 g protein di waktu makan pertama\" benar atau salah, dan bisa diperiksa dari catatan. Centang yang menumpuk tanpa perubahan tubuh adalah tanda bahwa yang Anda lacak adalah niat, bukan perilaku."
         },
         {
-          "question": "Apakah streak baik atau buruk untuk penurunan berat badan?",
-          "answer": "Keduanya. Nilai streak sepenuhnya terletak pada tidak memutuskannya, jadi nilai itu berbalik saat terputus — hari ke-94 dari streak 93 hari adalah hari yang paling mungkin untuk berhenti. Cari mekanik perbaikan: pembekuan streak, hari istirahat, target mingguan alih-alih harian, dan kredit untuk hari yang tercatat sebagian."
+          "question": "Rangkaian hari itu baik atau buruk untuk penurunan berat badan?",
+          "answer": "Baik sampai ia putus, lalu berbalik menjadi buruk. Seluruh nilai sebuah rangkaian terletak pada tidak terputusnya, sehingga hari pertama setelah putus adalah hari dengan kemungkinan berhenti paling tinggi. Cari mekanisme pemulihan: hari istirahat, target mingguan, kredit untuk catatan sebagian, atau check-in ringan yang membiarkan hari buruk masuk tanpa mengakhiri apa pun."
         },
         {
-          "question": "Berapa lama waktu yang dibutuhkan untuk membangun kebiasaan?",
-          "answer": "Lebih lama dari yang diimplikasikan sebagian besar aplikasi. Dalam studi dunia nyata, otomatisitas membutuhkan median 66 hari untuk mencapai dataran tinggi, dengan penyebaran individual yang sangat luas. Tantangan 21 hari berakhir kira-kira sepertiga dari perjalanan, yang merupakan salah satu alasan mengapa banyak dari mereka diikuti oleh kekambuhan."
+          "question": "Apa bedanya aplikasi kebiasaan generik dengan aplikasi khusus penurunan berat badan?",
+          "answer": "Verifikasi dan konteks. Aplikasi generik seperti Loop atau Habitica melacak apa saja, tapi centangnya hanya tahu bahwa Anda mengetuknya, dan tidak ada data kesehatan yang masuk. Aplikasi khusus bisa memeriksa perilakunya dari catatan nyata dan menyilangkannya dengan tidur, langkah, serta siklus haid — sehingga ada yang bisa menjelaskan kenapa minggu Anda mandek."
         },
         {
-          "question": "Kebiasaan mana yang benar-benar menggerakkan berat badan?",
-          "answer": "Pilih dua, bukan delapan. Protein pada makanan pertama, mencatat setiap hari bahkan dengan buruk, jendela tidur tetap, latihan resistensi dua kali seminggu, dan satu tinjauan mingguan. Tinjauan mingguan adalah teknik yang hampir setiap aplikasi lewatkan: lihat minggu ini dan ubah satu hal."
+          "question": "Bagaimana menjaga kebiasaan selama Ramadan?",
+          "answer": "Geser jendelanya, jangan hapus kebiasaannya. Protein saat sahur menggantikan protein saat sarapan, latihan beban digeser ke setelah tarawih atau sebelum berbuka, dan target langkah diturunkan dengan sengaja selama sebulan itu. Yang penting adalah aplikasinya tidak memperlakukan pergeseran itu sebagai rangkaian yang putus — di HAVIT, check-in harian dan misi yang menyesuaikan diri dirancang persis untuk hari-hari seperti itu."
         },
         {
-          "question": "Haruskah saya melacak berat badan sebagai kebiasaan harian?",
-          "answer": "Berat badan adalah hasil, bukan perilaku — ia merespons secara lambat, berisik, dan terhadap hal-hal yang Anda lakukan minggu lalu. Menempatkannya pada daftar periksa harian memberi Anda skor pada sesuatu yang tidak dapat Anda kontrol hari itu. Lacak perilaku setiap hari dan baca berat badan sebagai tren mingguan."
+          "question": "Perlukah saya menimbang berat badan sebagai kebiasaan harian?",
+          "answer": "Boleh, asal yang Anda baca adalah tren mingguan, bukan angka harian. Berat bergerak mengikuti air, garam, dan siklus haid, dan masakan Indonesia tinggi natrium sehingga lonjakan sehari setelah makan di luar hampir selalu air. Kalau angka harian membuat Anda tertekan, timbang seminggu sekali — atau lacak perilakunya saja dan biarkan berat badan menyusul."
         }
       ],
       "references": [
         {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 studi, 15 tentang pemantauan diri diet; penulis menilai tingkat bukti lemah",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 studi, 15 di antaranya tentang pencatatan makan; penulis menilai tingkat buktinya lemah",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
         },
         {
-          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
+          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie dkk.)",
           "source": "Annals of Behavioral Medicine, 2013",
           "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
         },
         {
-          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
+          "title": "How are habits formed: modelling habit formation in the real world (Lally, van Jaarsveld, Potts & Wardle)",
+          "source": "European Journal of Social Psychology, 2010 — median 66 hari sampai otomatisitas mendatar",
+          "url": "https://doi.org/10.1002/ejsp.674"
+        },
+        {
+          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler dkk.)",
           "source": "New England Journal of Medicine, 2002 (n=3.234)",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
         },
         {
-          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
-          "source": "Diabetes, Obesity and Metabolism, 2024 — bagian massa tanpa lemak dari berat yang hilang berkisar 40–60% dalam beberapa uji coba, ≤15% pada yang lain; massa tanpa lemak ≠ otot",
+          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland dkk.)",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — porsi massa tanpa lemak dari berat yang hilang berkisar 40–60% pada sebagian uji, ≤15% pada uji lain; massa tanpa lemak ≠ otot",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (topik dalam pembaruan); dewasa dengan BMI ≥30, diberikan oleh klinisi",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+          "title": "Bukan Soal Penampilan, Obesitas Berkaitan dengan Kualitas Hidup",
+          "source": "Kementerian Kesehatan RI, 2026 — mengutip SKI 2023: 23,4% orang dewasa hidup dengan obesitas",
+          "url": "https://kemkes.go.id/id/bukan-soal-penampilan-obesitas-berkaitan-dengan-kualitas-hidup"
         },
         {
-          "title": "How are habits formed: modelling habit formation in the real world (Lally, van Jaarsveld, Potts & Wardle)",
-          "source": "European Journal of Social Psychology, 2010 — median 66 hari untuk dataran tinggi otomatisitas",
-          "url": "https://doi.org/10.1002/ejsp.674"
-        },
-        {
-          "title": "Laporan Kebiasaan GLP-1 2026 — analisis internal HAVIT terhadap 1.090 pengguna GLP-1",
+          "title": "GLP-1 Habit Report 2026 — analisis internal HAVIT atas 1.090 pengguna GLP-1",
           "source": "Havit Inc., 2026",
           "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-12"
     },
     "de": {
       "title": "Beste Habit-Tracker zum Abnehmen 2026: warum Serien allein scheitern",
@@ -1206,105 +1263,168 @@
       "last_updated": "2026-10-11"
     },
     "fr": {
-      "title": "Meilleurs trackers d'habitudes pour la perte de poids en 2026 : pourquoi les séries seules ne fonctionnent pas",
-      "short_title": "Meilleurs trackers d'habitudes pour la perte de poids 2026",
-      "meta_description": "Une série parfaite de 90 jours et aucun poids perdu est l'échec caractéristique de cette catégorie. La plupart des applications d'habitudes implémentent deux des 93 techniques de changement de comportement répertoriées. Quels sont les cinq critères qui comptent, le défaut de conception des séries, et les deux habitudes à vraiment choisir.",
-      "tldr": "Un tracker d'habitudes aide à perdre du poids seulement s'il suit un comportement spécifique, le vérifie à partir de données plutôt qu'une coche, et s'ajuste quand vous manquez au lieu de se réinitialiser. Choisissez deux habitudes, donnez à chacune un signal, et jugez l'application sur votre pire journée.",
-      "body_md": "*Divulgation honnête : HAVIT publie ce blog et fait partie des applications ci-dessous. Nous avons indiqué où elle échoue.*\n\nLes trackers d'habitudes génériques excellent dans une chose : vous dire si vous avez fait la chose. Pour la perte de poids, il s'avère que c'est la moitié facile du problème, ce qui explique pourquoi tant de gens maintiennent une série parfaite de 90 jours et ne perdent rien.\n\nLe problème n'est pas la motivation. C'est que 'la chose' n'a jamais été suffisamment spécifiée pour avoir de l'importance, et rien dans l'application ne l'a remarqué.\n\n## Ce qu'un tracker d'habitudes doit faire, et que la plupart ne font pas\n\nLa recherche sur le changement de comportement n'est pas vague à ce sujet. La taxonomie standard répertorie 93 techniques distinctes, et celles qui produisent des résultats de perte de poids sont spécifiques : définition d'objectifs sur le *comportement* plutôt que sur le résultat, auto-surveillance de ce comportement, rétroaction, planification d'action, et révision quand le plan échoue ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)).\n\nLa plupart des applications d'habitudes implémentent exactement deux de ces techniques — l'auto-surveillance et une série — et considèrent le travail terminé. Les éléments manquants sont là où la perte de poids se produit réellement.\n\nDeux constats à retenir pour votre choix :\n\n**La spécificité bat l'intensité.** 'Mieux manger' n'est pas une habitude. '30g de protéines au petit-déjeuner' en est une, car à 9h du matin c'est soit vrai soit faux. Une case à cocher attachée à une intention vague enregistre votre optimisme, pas votre comportement.\n\n**Les habitudes prennent plus de temps que l'application ne le suggère.** Dans une étude réelle de formation d'habitudes, l'automaticité a pris une médiane de 66 jours pour atteindre un plateau, avec une énorme variation individuelle ([Lally et al., *European Journal of Social Psychology*, 2010](https://doi.org/10.1002/ejsp.674)). Un défi de 21 jours se termine environ au tiers du parcours.\n\n## Le problème des séries\n\nLes séries fonctionnent. Elles contiennent aussi un défaut de conception qui s'aggrave plus elles durent.\n\nLa valeur d'une série réside entièrement dans le fait de ne pas la briser, ce qui signifie que sa valeur s'inverse au moment où elle se brise. Le jour 94 d'une série de 93 jours est le jour le plus susceptible d'abandonner — le seul renforcement que vous aviez vient de se transformer en preuve d'échec. C'est l'opposé de ce dont la première mauvaise journée a besoin.\n\nCe qu'il faut rechercher à la place :\n\n- **Mécanismes de réparation.** Gel de série, jours de repos, un objectif hebdomadaire au lieu d'un objectif quotidien. Tout ce qui permet qu'un manquement soit un manquement plutôt qu'une réinitialisation.\n- **Cadrage hebdomadaire.** 'Cinq sur sept' survit à une mauvaise journée. 'Brisé' ne survit pas.\n- **Crédit pour partiel.** Une journée à moitié enregistrée devrait compter pour quelque chose, car l'alternative est de ne rien enregistrer.\n\n## 5 critères pour un tracker d'habitudes de perte de poids\n\n### 1. Suit-il les comportements ou les résultats ?\n\nLe poids est un résultat. Il répond lentement, de manière bruyante, et aux choses que vous avez faites la semaine dernière. Un tracker qui met le poids sur la liste de contrôle quotidienne vous évalue sur quelque chose que vous ne pouvez pas contrôler directement ce jour-là.\n\n### 2. Une habitude peut-elle être liée à un signal ?\n\n'Après avoir versé mon café, je prends le shake protéiné.' Les intentions d'implémentation de cette forme si-alors sont l'un des outils les mieux soutenus dans cette littérature, et ils nécessitent que l'application stocke un signal, pas seulement un nom.\n\n### 3. Voit-il les données, ou seulement la case à cocher ?\n\nUn tracker qui sait que vous avez enregistré 40g de protéines peut vérifier l'habitude. Un qui sait seulement que vous avez coché une case fait confiance à un auto-rapport fait à 23h.\n\n### 4. Adapte-t-il l'objectif ?\n\nQuatre manquements consécutifs signifient que la demande était erronée, pas que vous êtes faible. Un bon système l'abaisse. Une liste de contrôle la répète jusqu'à ce que vous supprimiez l'application.\n\n### 5. Survit-il à une mauvaise semaine ?\n\nLa seule semaine qui compte pour la rétention. Testez-le délibérément avant de vous engager.\n\n## Tracker d'habitudes générique vs système d'habitudes spécifique au poids\n\n| | Tracker d'habitudes générique | Système d'habitudes pour la perte de poids |\n| --- | --- | --- |\n| Ce qu'il enregistre | Que vous avez coché une case | Le comportement et ses données (protéines, pas, sommeil) |\n| Type d'objectif | Compteur de série | Comportement lié à une tendance de résultat |\n| Vérification | Auto-rapport | Le journal lui-même |\n| Lors d'un jour manqué | La série se réinitialise | L'objectif s'ajuste, la semaine continue |\n| Force | N'importe quelle habitude, flexibilité totale | Seulement les habitudes liées au poids, mais vérifiables |\n\nLes trackers génériques sont meilleurs si vous construisez dix habitudes non liées. Ils sont moins bons pour le seul travail ici, car une coche ne peut pas faire la différence entre 30g de protéines et l'intention d'en manger.\n\n## Habitudes qui font vraiment bouger le poids\n\nChoisissez-en deux. Pas huit.\n\n1. **Protéines au premier repas.** Ancre la journée et protège la masse maigre — ce qui compte davantage sous médication GLP-1, où la part de masse maigre du poids perdu a été rapportée jusqu'à 40–60% dans certains essais ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/)).\n2. **Enregistrer chaque jour, mal si nécessaire.** Dans 22 études d'auto-surveillance — 15 sur l'enregistrement alimentaire — l'association avec la perte de poids était cohérente, bien que les examinateurs aient évalué les preuves comme faibles ([Burke et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)). L'exhaustivité bat la précision.\n3. **Une fenêtre de sommeil fixe.** Le manque de sommeil déplace l'appétit. C'est l'habitude que les gens sautent parce qu'elle ne concerne pas la nourriture.\n4. **Entraînement en résistance deux fois par semaine.** Protège la masse maigre que le régime essaie de prendre.\n5. **Une révision hebdomadaire.** La technique que presque toutes les applications omettent : regarder la semaine, changer une chose.\n\nLes programmes structurés construits exactement à partir de ce type de composants ont surpassé la metformine sur le risque de diabète dans le Diabetes Prevention Program, 58% contre 31% ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\n## Où chaque approche échoue — y compris la nôtre\n\n- **Les applications d'habitudes génériques** gagnent en flexibilité et perdent en vérification. Elles ne peuvent pas vérifier que l'habitude s'est produite.\n- **Les applications axées sur les séries** construisent une forte adhésion à court terme et punissent le premier manquement le plus durement.\n- **Les applications de programme** fournissent la révision hebdomadaire que les autres omettent, selon leur calendrier plutôt que le vôtre.\n- **HAVIT** ne suit que les comportements de santé — si vous voulez suivre la pratique de la guitare et l'utilisation du fil dentaire au même endroit, nous sommes la mauvaise application. Notre base de données alimentaires est plus petite que les trackers nutritionnels dédiés, et les chiffres de composition corporelle sont des estimations.\n\n## L'essentiel\n\nUn tracker d'habitudes aide à perdre du poids seulement s'il suit un **comportement spécifique**, peut le **vérifier** à partir de données plutôt qu'une coche, et **s'ajuste** quand vous manquez au lieu de se réinitialiser.\n\nChoisissez deux habitudes, donnez à chacune un signal, et jugez le système sur ce qu'il fait lors de votre pire journée — pas votre meilleure.\n\n## Pourquoi HAVIT — des missions au lieu de cases à cocher\n\nLes missions quotidiennes de HAVIT sont des techniques de changement de comportement sous forme de produit : une action spécifique, liée à des données que l'application peut réellement voir, ajustée quand vous la manquez.\n\nCette dernière partie est la décision de conception qui compte. Parce que les repas, les protéines, le sommeil, les pas, le cycle, l'humeur et les médicaments sont au même endroit, un objectif de protéines manqué n'est pas une série brisée — c'est une entrée, et l'action du lendemain change à cause de cela. L'enregistrement quotidien est la façon dont une mauvaise journée entre dans le système sans y mettre fin.\n\nLes directives cliniques traitent le changement de comportement structuré comme un composant central des soins de l'obésité, pas un extra optionnel ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Dans notre propre analyse de 1 090 utilisateurs de GLP-1, les enregistreurs les plus cohérents ont construit les habitudes les plus solides ([Rapport sur les habitudes GLP-1](/en/glp-1-habit-report)).\n\nHAVIT est une application de bien-être, pas un dispositif médical. HAVIT n'est pas un outil de diagnostic médical. Les chiffres de composition corporelle sont des estimations.\n\n[Essayer HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Meilleurs trackers d'habitudes pour maigrir 2026 : pourquoi les séries échouent",
+      "short_title": "Trackers d'habitudes minceur 2026",
+      "meta_description": "HAVIT, Foodvisor, Yuka, Noom, WeightWatchers et les applis d'habitudes génériques comme Habitica et Streaks passées en revue, à l'aune des deux défauts de conception qui font échouer les trackers d'habitudes.",
+      "tldr": "Deux défauts de conception : une case cochée ne prouve rien, et la série punit le mauvais jour plus fort que le mauvais jour lui-même — au point qu'on arrête tout.",
+      "body_md": "La plupart des applis d'habitudes échouent sur la perte de poids pour deux raisons de conception, et aucune des deux ne tient à un manque de volonté.\n\n**Défaut n°1 : une case cochée ne prouve rien.** Vous cochez « marcher 30 minutes » sur le canapé. L'appli enregistre un succès. Elle n'a aucun moyen de savoir si la marche a eu lieu.\n\n**Défaut n°2 : la série punit le mauvais jour plus fort que le mauvais jour lui-même.** Quarante et un jours d'affilée, un dîner raté, tout retombe à zéro. Ce n'est pas la soirée qui fait arrêter : c'est le compteur remis à zéro le lendemain matin.\n\n![Une case cochée ne dit pas si l'habitude a eu lieu](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_010.jpg)\n\n> **Un mot sur les sources.** Les comparatifs français d'applis d'habitudes sont presque tous écrits par des éditeurs de la catégorie ou des sites d'affiliation, et leurs classements se contredisent. Pas de palmarès ici.\n\n## Ce qu'un tracker d'habitudes doit faire\n\n**Confirmer depuis les données, pas depuis une case.** Les pas viennent du téléphone. Le sommeil vient de la montre. Le repas vient d'une photo. Ces trois-là ne peuvent pas être cochés depuis le canapé.\n\n**Survivre à un mauvais jour.** Il faut une porte d'entrée pour la journée ratée — sinon l'appli se referme exactement au moment où elle serait utile.\n\n**S'adapter.** Une habitude choisie en janvier n'est pas forcément celle qui compte en mars. Si l'appli ne réévalue jamais, vous suivez une consigne périmée.\n\n**Mener à autre chose qu'une habitude.** Le poids ne bouge pas parce que vous avez coché une case. Il bouge parce que des apports, une dépense et un sommeil ont changé — et un tracker qui ne voit aucun de ces trois-là ne peut pas vous dire si ça marche.\n\nSur le temps nécessaire, la référence la plus honnête reste l'étude de Lally et ses collègues : la médiane observée avant que le comportement devienne automatique est de **66 jours**, avec une variabilité considérable d'une personne à l'autre. Le « 21 jours » qu'on lit partout n'a aucun fondement dans cette littérature.\n\n## HAVIT — confirmé par les données, pas par une case\n\n| | |\n| --- | --- |\n| Éditeur | Havit Inc. |\n| Enregistre | Repas, hydratation, sport, sommeil, pas, **cycle menstruel**, humeur, **GLP-1** |\n| Confirme depuis | Les 8 journaux, pas une case à cocher |\n| Langues | 35 |\n\n![Missions du jour : une action concrète pour aujourd'hui](/blog/havit/shot/feature-daily-missions.webp)\n\n**Contre le défaut n°1.** Les habitudes de HAVIT sont confirmées par des données réelles : les pas viennent du téléphone, le sommeil de la montre, le repas d'une photo passée au **scan IA**, l'hydratation d'une tape au moment où vous buvez. Les **missions du jour** s'appuient sur des techniques de changement de comportement validées — la taxonomie de référence en recense 93 — et n'en proposent **qu'une seule pour aujourd'hui**, parce qu'une liste de douze intentions est une liste qu'on abandonne.\n\n![Check-in quotidien : comment un mauvais jour entre sans tout arrêter](/blog/havit/shot/feature-daily-check-in.webp)\n\n**Contre le défaut n°2.** Le **check-in quotidien** — forme, sommeil, appétit, humeur en quelques tapes — est précisément le dispositif qui laisse entrer une mauvaise journée sans mettre fin à la série. Vous déclarez l'état, vous ne vous justifiez pas, et demain repart de là où vous en êtes réellement.\n\n**Et au-delà de l'habitude.** Le **coach IA lit les huit journaux ensemble** et renvoie une action, pas un tableau de bord. Dans la même appli : **estimation de composition corporelle**, **six méditations guidées**, **vidéos d'entraînement**, **jeûne intermittent**, **carnet GLP-1**, plus de **1 400 articles**, séries, badges, avatars, rangs et **défis d'équipe** — parce qu'une habitude tenue à plusieurs se tient mieux. Conçue avec des anciens de Juvis Diet, la première clinique minceur de Corée.\n\n## Foodvisor — la graine, et pourquoi ça marche\n\n| | |\n| --- | --- |\n| Éditeur | Foodvisor (France) |\n| Dispositif d'habitude | Quêtes du jour, une graine qui grandit |\n| App Store France | 4,6/5, environ 72 800 notes |\n\n**Ce qu'elle fait très bien.** Il faut reconnaître la qualité du dispositif : Foodvisor a remplacé le compteur de série par **une graine qui grandit** quand vous enregistrez vos repas, buvez et bougez. Ce n'est pas un gadget — c'est une forme de progression qui ne s'effondre pas aussi brutalement qu'un compteur remis à zéro, et c'est une appli française qui l'a conçue. Les quêtes du jour donnent une raison concrète de rouvrir l'appli.\n\n**Ce qui lui manque.** Les habitudes suivies s'arrêtent à l'alimentation et à l'activité : ni sommeil, ni cycle, ni composition corporelle, ni carnet GLP-1 dans sa fiche officielle. Le tracker ne peut donc pas vous dire que la semaine a dérapé à cause de quatre nuits trop courtes.\n\n**Pour qui.** Pour qui veut une habitude alimentaire quotidienne, en français, sans la violence du compteur à zéro.\n\n## Yuka — l'habitude la plus répandue de France\n\n**Ce qu'elle fait très bien.** C'est, de loin, le réflexe alimentaire le mieux installé du pays : scanner avant de mettre dans le caddie. Aucune appli de perte de poids n'a jamais réussi à ancrer un geste aussi largement — l'éditeur revendique 85 millions d'utilisateurs, et la fiche App Store française cumule environ 295 700 notes. C'est une habitude réelle, déclenchée par un indice réel (le rayon), avec une récompense immédiate (la note). Du manuel de formation des habitudes.\n\n**Ce qui lui manque.** L'habitude s'arrête à l'achat. Yuka ne sait pas si vous avez mangé le produit, ni combien, ni ce qui s'est passé le reste de la journée. Ce n'est ni un tracker d'habitudes, ni un journal.\n\n**Pour qui.** Pour installer une bonne habitude de courses. Pas pour suivre un objectif de perte de poids.\n\n## Noom — un programme et un bilan hebdomadaire\n\n**Ce qu'elle fait très bien.** Un contenu quotidien de psychologie comportementale et un coach humain à qui écrire. La structure est le produit.\n\n**Ce qui lui manque.** La validation repose largement sur ce que vous déclarez. Et son implantation française est faible : environ 1 100 notes sur l'App Store français, contre quelque 52 000 pour MyFitnessPal. Le programme est pensé pour un public anglophone, et c'est la gamme de prix la plus élevée de la catégorie.\n\n**Pour qui.** Pour qui a besoin de rendre des comptes à quelqu'un et que l'anglais n'arrête pas.\n\n## WeightWatchers — un chiffre, affiné pendant des décennies\n\n**Ce qu'elle fait très bien.** Un système de points qui simplifie radicalement la décision du quotidien, et une communauté qui existait bien avant les applis. Pour beaucoup de gens, « un seul chiffre à surveiller » est exactement ce qu'il faut.\n\n**Ce qui lui manque.** C'est un budget, pas un tracker d'habitudes : la validation reste déclarative, et le dispositif ne voit ni votre sommeil, ni votre cycle, ni votre composition corporelle.\n\n**Pour qui.** Pour qui veut une règle simple et un collectif.\n\n## Les applis d'habitudes génériques (Habitica, Streaks et consorts)\n\n**Ce qu'elles font très bien.** Elles sont souples, jolies, et suivent n'importe quelle habitude — pas seulement la santé. Habitica en fait un jeu de rôle, ce qui fonctionne remarquablement bien pour certains profils.\n\n**Ce qui leur manque.** Elles cumulent les deux défauts de conception : la case cochée prouve seulement que vous avez coché, et le compteur à zéro punit plus que l'écart. Elles ne voient ni repas, ni sommeil, ni pas, ni poids — donc elles ne pourront jamais vous dire si l'habitude a produit un effet.\n\n**Pour qui.** Pour des habitudes non mesurables (lire, méditer, appeler ses parents). Pas pour la perte de poids.\n\n## Une particularité française\n\nDeux choses pèsent ici plus qu'ailleurs, et aucune n'apparaît dans les comparatifs anglophones.\n\n**Le Nutri-Score a déjà installé un réflexe.** Mis en place en France en 2017 par Santé publique France, fondé sur les travaux de l'équipe du Pr Serge Hercberg avec l'expertise de l'ANSES et du HCSP, il a rendu une grande partie de la population capable de juger un produit en une seconde, dans le cadre du PNNS. Autrement dit : la plupart des Français n'ont pas besoin d'une appli pour apprendre quoi acheter. Ils ont besoin d'aide pour **tenir**, pas pour **savoir** — et c'est une distinction importante au moment de choisir un outil.\n\n**La question des données est un vrai critère d'achat.** Les données enregistrées par ces applis sont des données de santé au sens du RGPD, donc des données sensibles. La certification HDS, elle, vise surtout l'hébergement de données issues d'un contexte de soin et ne s'impose pas mécaniquement à une appli de bien-être — mais beaucoup d'acheteurs français la regardent quand même. Withings, société française, indique héberger les données de santé en France sur une plateforme certifiée HDS. HAVIT est une société coréenne, et la République de Corée figure sur la liste des pays reconnus adéquats par la Commission européenne depuis décembre 2021, ce qui encadre le transfert — mais ce n'est pas un hébergement français, et autant le dire franchement.\n\n## Mise en regard\n\n| Appli | Confirmé par les données ? | Survit à un mauvais jour ? | S'adapte ? | Au-delà des habitudes |\n| --- | --- | --- | --- | --- |\n| **HAVIT** | **Oui, depuis 8 journaux** | **Oui, check-in quotidien** | **Oui, coach IA** | **Repas, corps, cycle, GLP-1, méditation, sport** |\n| Foodvisor | Partiellement (repas, activité) | Graine progressive | Programme guidé | Alimentation et activité |\n| Yuka | Sans objet (achat) | Sans objet | Non | Note du produit |\n| Noom | Surtout déclaratif | Bilan hebdomadaire | Coach humain | Contenus seulement |\n| WeightWatchers | Déclaratif | Budget reportable | Peu | Communauté |\n| Habitica, Streaks | Non, case cochée | Non, série à zéro | Non | Rien |\n\nOctobre 2026, d'après les fiches officielles des stores et des éditeurs.\n\n## Les habitudes qui déplacent vraiment l'aiguille — choisissez-en deux\n\nPas huit. Deux, pendant quatre semaines.\n\n1. **Des protéines à chaque repas.** C'est l'habitude qui protège la masse maigre pendant une perte de poids, et c'est encore plus vrai sous traitement GLP-1, où la part de masse maigre dans le poids perdu a été décrite entre 40 et 60 % dans certains essais.\n2. **Enregistrer tous les jours, y compris les mauvais.** C'est la régularité, et non la minutie, qui est associée au résultat.\n3. **Sept heures de sommeil.** L'appétit du lendemain se décide la nuit précédente.\n4. **Deux séances de renforcement musculaire par semaine.** Sans stimulus, le corps n'a aucune raison de garder du muscle pendant un déficit.\n5. **Marcher après le dîner.** La plus facile à tenir, et la plus facile à vérifier avec des données réelles.\n\nChoisissez-en deux. Suivez-les quatre semaines. Si la direction de la courbe ne bouge pas, changez de paire — et non d'appli.\n\n## En résumé\n\nDeux défauts de conception font échouer les trackers d'habitudes : la case qui ne prouve rien, et la série qui punit plus fort que l'écart. Un bon outil confirme depuis des données réelles, accepte une mauvaise journée, et sait vous dire si l'habitude a produit un effet. Tout le reste est de la décoration.\n\n[Essayer HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Techniques de changement de comportement dans la taxonomie standard",
-          "value": "93 techniques",
-          "source": "Michie et al. 2013, Ann Behav Med"
+          "label": "Défauts de conception qui font échouer les trackers d'habitudes",
+          "value": "2",
+          "source": "La case qui ne prouve rien, la série remise à zéro"
         },
         {
-          "label": "Techniques que la plupart des applications d'habitudes implémentent réellement",
-          "value": "2 (auto-surveillance, série)",
-          "source": "Ce guide"
+          "label": "Habitudes à suivre en même temps",
+          "value": "2",
+          "source": "Pendant quatre semaines, puis on réévalue"
         },
         {
-          "label": "Temps médian pour qu'une nouvelle habitude atteigne un plateau d'automaticité",
+          "label": "Délai médian avant qu'un comportement devienne automatique",
           "value": "66 jours",
-          "source": "Lally et al. 2010, Eur J Soc Psychol"
+          "source": "Lally et al. 2010, European Journal of Social Psychology — forte variabilité individuelle"
         },
         {
-          "label": "DPP : programme de style de vie structuré vs metformine, réduction du risque de diabète",
-          "value": "58% vs 31%",
-          "source": "Knowler et al. 2002, NEJM (n=3 234)"
+          "label": "Journaux depuis lesquels HAVIT confirme une habitude",
+          "value": "8",
+          "source": "Repas, hydratation, sport, sommeil, pas, cycle, humeur, GLP-1"
         }
       ],
       "comparison_table": {
-        "title": "Tracker d'habitudes générique vs système d'habitudes pour la perte de poids",
+        "title": "Mise en regard",
         "headers": [
-          "",
-          "Tracker d'habitudes générique",
-          "Système d'habitudes pour la perte de poids"
+          "Appli",
+          "Confirmé par les données ?",
+          "Survit à un mauvais jour ?",
+          "S'adapte ?",
+          "Au-delà des habitudes"
         ],
         "rows": [
           [
-            "Ce qu'il enregistre",
-            "Que vous avez coché une case",
-            "Le comportement et ses données (protéines, pas, sommeil)"
+            "HAVIT",
+            "Oui, depuis 8 journaux",
+            "Oui, check-in quotidien",
+            "Oui, coach IA",
+            "Repas, corps, cycle, GLP-1, méditation, sport"
           ],
           [
-            "Type d'objectif",
-            "Compteur de série",
-            "Comportement lié à une tendance de résultat"
+            "Foodvisor",
+            "Partiellement (repas, activité)",
+            "Graine progressive",
+            "Programme guidé",
+            "Alimentation et activité"
           ],
           [
-            "Vérification",
-            "Auto-rapport",
-            "Le journal lui-même"
+            "Yuka",
+            "Sans objet (achat)",
+            "Sans objet",
+            "Non",
+            "Note du produit"
           ],
           [
-            "Lors d'un jour manqué",
-            "La série se réinitialise",
-            "L'objectif s'ajuste, la semaine continue"
+            "Noom",
+            "Surtout déclaratif",
+            "Bilan hebdomadaire",
+            "Coach humain",
+            "Contenus seulement"
           ],
           [
-            "Force",
-            "N'importe quelle habitude, flexibilité totale",
-            "Seulement les habitudes liées au poids, mais vérifiables"
+            "WeightWatchers",
+            "Déclaratif",
+            "Budget reportable",
+            "Peu",
+            "Communauté"
+          ],
+          [
+            "Habitica, Streaks",
+            "Non, case cochée",
+            "Non, série à zéro",
+            "Non",
+            "Rien"
           ]
         ],
-        "caption": "Une coche ne peut pas faire la différence entre 30g de protéines et l'intention d'en manger."
+        "caption": "Octobre 2026, d'après les fiches officielles des stores et des éditeurs."
       },
       "faq": [
         {
-          "question": "Quel est le meilleur tracker d'habitudes pour la perte de poids ?",
-          "answer": "Celui qui suit un comportement spécifique plutôt qu'une intention vague, le vérifie à partir de vos données plutôt qu'une case à cocher, et abaisse l'objectif quand vous manquez au lieu de réinitialiser une série. Les applications d'habitudes génériques sont meilleures si vous construisez dix habitudes non liées ; elles sont moins bonnes ici, car une coche ne peut pas distinguer 30g de protéines de l'intention d'en manger."
+          "question": "Pourquoi les trackers d'habitudes échouent-ils sur la perte de poids ?",
+          "answer": "Pour deux raisons de conception. D'abord, une case cochée ne prouve pas que l'habitude a eu lieu : on peut cocher « marcher 30 minutes » depuis le canapé. Ensuite, la série remise à zéro punit un mauvais jour plus fort que le mauvais jour lui-même, et c'est ce compteur à zéro qui fait désinstaller, pas le dîner raté."
         },
         {
-          "question": "Pourquoi je maintiens une série parfaite mais ne perds pas de poids ?",
-          "answer": "Généralement parce que l'habitude n'a jamais été suffisamment spécifiée pour avoir de l'importance. 'Mieux manger' enregistre votre optimisme ; '30g de protéines au petit-déjeuner' est soit vrai soit faux à 9h du matin. La plupart des applications d'habitudes implémentent seulement deux des 93 techniques de changement de comportement répertoriées — l'auto-surveillance et une série — et les éléments manquants, en particulier la planification d'action et la révision hebdomadaire, sont là où la perte de poids se produit."
+          "question": "Combien d'habitudes suivre en même temps ?",
+          "answer": "Deux, pendant quatre semaines. Huit intentions simultanées, c'est une liste qu'on abandonne au bout de dix jours. Si la direction de la courbe ne bouge pas au bout d'un mois, changez de paire d'habitudes — pas d'application."
         },
         {
-          "question": "Les séries sont-elles bonnes ou mauvaises pour la perte de poids ?",
-          "answer": "Les deux. La valeur d'une série réside entièrement dans le fait de ne pas la briser, donc cette valeur s'inverse au moment où elle se brise — le jour 94 d'une série de 93 jours est le jour le plus susceptible d'abandonner. Recherchez des mécanismes de réparation : gel de série, jours de repos, un objectif hebdomadaire au lieu d'un objectif quotidien, et crédit pour une journée partiellement enregistrée."
+          "question": "Quelles habitudes font vraiment bouger les choses pour maigrir ?",
+          "answer": "Des protéines à chaque repas, un enregistrement quotidien y compris les mauvais jours, sept heures de sommeil, deux séances de renforcement musculaire par semaine, et une marche après le dîner. Les protéines et la musculation sont les deux qui protègent la masse maigre pendant un déficit, et c'est encore plus déterminant sous traitement GLP-1."
         },
         {
-          "question": "Combien de temps faut-il pour construire une habitude ?",
-          "answer": "Plus longtemps que la plupart des applications ne le suggèrent. Dans une étude réelle, l'automaticité a pris une médiane de 66 jours pour atteindre un plateau, avec une très large variation individuelle. Un défi de 21 jours se termine environ au tiers du parcours, ce qui est l'une des raisons pour lesquelles tant d'entre eux sont suivis d'une rechute."
+          "question": "Que faire après un jour raté ?",
+          "answer": "L'enregistrer, et continuer le lendemain. C'est exactement ce que la plupart des applis rendent difficile, puisque leur compteur retombe à zéro. Un dispositif de check-in quotidien — déclarer sa forme, son sommeil, son appétit et son humeur en quelques tapes — permet à la mauvaise journée d'entrer sans interrompre la progression."
         },
         {
-          "question": "Quelles habitudes font vraiment bouger le poids ?",
-          "answer": "Choisissez-en deux, pas huit. Protéines au premier repas, enregistrer chaque jour même mal, une fenêtre de sommeil fixe, entraînement en résistance deux fois par semaine, et une révision hebdomadaire. La révision hebdomadaire est la technique que presque toutes les applications omettent : regarder la semaine et changer une chose."
+          "question": "En combien de temps une habitude s'installe-t-elle ?",
+          "answer": "Le chiffre de 21 jours n'a aucun fondement dans la littérature sérieuse. Dans l'étude de Lally et ses collègues, la médiane observée avant le plateau d'automaticité était de 66 jours, avec une variabilité considérable d'une personne et d'un comportement à l'autre. Choisissez donc un outil que vous supporterez pendant deux mois, pas trois semaines."
         },
         {
-          "question": "Dois-je suivre le poids comme une habitude quotidienne ?",
-          "answer": "Le poids est un résultat, pas un comportement — il répond lentement, de manière bruyante, et aux choses que vous avez faites la semaine dernière. Le mettre sur une liste de contrôle quotidienne vous évalue sur quelque chose que vous ne pouvez pas contrôler ce jour-là. Suivez les comportements quotidiennement et lisez le poids comme une tendance hebdomadaire."
+          "question": "Les applis d'habitudes génériques comme Habitica ou Streaks suffisent-elles ?",
+          "answer": "Pour lire, méditer ou appeler ses parents, oui — ce sont d'excellents outils. Pour perdre du poids, elles cumulent les deux défauts : la case cochée ne prouve rien, et elles ne voient ni repas, ni sommeil, ni pas, ni poids, donc elles ne peuvent pas vous dire si l'habitude a produit un effet."
+        },
+        {
+          "question": "Le Nutri-Score suffit-il pour bien manger ?",
+          "answer": "Il a installé en France un réflexe de lecture très efficace, mis en place en 2017 par Santé publique France dans le cadre du PNNS. Mais il juge un produit, pas une journée ni une quantité. La plupart des gens n'ont pas besoin d'une appli pour savoir quoi acheter : ils ont besoin d'aide pour tenir, ce qui est un problème différent."
         }
       ],
       "references": [
         {
-          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 études, 15 sur l'auto-surveillance alimentaire ; les auteurs évaluent le niveau de preuve comme faible",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+          "title": "How are habits formed: modelling habit formation in the real world (Lally, van Jaarsveld, Potts & Wardle)",
+          "source": "European Journal of Social Psychology, 2010 — médiane de 66 jours avant le plateau d'automaticité",
+          "url": "https://doi.org/10.1002/ejsp.674"
         },
         {
           "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
           "source": "Annals of Behavioral Medicine, 2013",
           "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+        },
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 études, dont 15 sur l'auto-surveillance alimentaire ; les auteurs qualifient eux-mêmes le niveau de preuve de faible",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "Foodvisor — fiche App Store France",
+          "source": "Apple App Store (FR), consulté en octobre 2026 — 4,6/5 sur environ 72 800 notes ; l'éditeur revendique plus de 15 millions d'utilisateurs",
+          "url": "https://apps.apple.com/fr/app/id1064020872"
+        },
+        {
+          "title": "Yuka — fiche App Store France",
+          "source": "Apple App Store (FR), consulté en octobre 2026 — 4,7/5 sur environ 295 700 notes ; 85 millions d'utilisateurs et 6 millions de produits revendiqués par l'éditeur",
+          "url": "https://apps.apple.com/fr/app/id1092799236"
+        },
+        {
+          "title": "Noom Weight Loss, Food Tracker — fiche App Store France",
+          "source": "Apple App Store (FR), Noom, Inc., consulté en octobre 2026 — environ 1 100 notes",
+          "url": "https://apps.apple.com/fr/app/id634598719"
+        },
+        {
+          "title": "HAVIT : Coach Minceur, Calories — fiche App Store France",
+          "source": "Apple App Store (FR), Havit Incorporated, consulté en octobre 2026",
+          "url": "https://apps.apple.com/fr/app/id6755166023"
+        },
+        {
+          "title": "Nutri-Score",
+          "source": "Santé publique France — logo mis en place en France en 2017, fondé sur les travaux de l'équipe du Pr Serge Hercberg avec l'expertise de l'ANSES et du HCSP, dans le cadre du PNNS",
+          "url": "https://www.santepubliquefrance.fr/determinants-de-sante/nutrition-et-activite-physique/articles/nutri-score"
+        },
+        {
+          "title": "Politique de confidentialité Withings (avril 2026)",
+          "source": "Withings — données de santé hébergées sur une plateforme certifiée HDS, serveurs situés en France chez l'opérateur européen BSO, non transférées hors EEE",
+          "url": "https://media.withings.com/web/legal/legal-pdf/privacy-policy/wo-fr-withings-privacy-policy-20260424.pdf"
+        },
+        {
+          "title": "Décisions d'adéquation — transferts de données personnelles hors UE",
+          "source": "Commission européenne — la République de Corée figure sur la liste, décision adoptée le 17 décembre 2021 au titre de l'article 45 du RGPD",
+          "url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en"
         },
         {
           "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
@@ -1313,26 +1433,21 @@
         },
         {
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
-          "source": "Diabetes, Obesity and Metabolism, 2024 — la part de masse maigre du poids perdu varie de 40–60% dans certains essais, ≤15% dans d'autres ; masse maigre ≠ muscle",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — la part de masse maigre dans le poids perdu va de 40 à 60 % dans certains essais et reste inférieure ou égale à 15 % dans d'autres ; masse maigre n'est pas synonyme de muscle",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (sujet en cours de mise à jour) ; adultes avec IMC ≥30, délivré par un clinicien",
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — grade B",
+          "source": "U.S. Preventive Services Task Force, 2018 (recommandation en cours d'actualisation) ; adultes avec IMC supérieur ou égal à 30, interventions délivrées en milieu clinique",
           "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
         },
         {
-          "title": "How are habits formed: modelling habit formation in the real world (Lally, van Jaarsveld, Potts & Wardle)",
-          "source": "European Journal of Social Psychology, 2010 — médiane de 66 jours pour atteindre un plateau d'automaticité",
-          "url": "https://doi.org/10.1002/ejsp.674"
-        },
-        {
-          "title": "Rapport sur les habitudes GLP-1 2026 — Analyse interne HAVIT de 1 090 utilisateurs de GLP-1",
+          "title": "GLP-1 Habit Report 2026 — analyse interne HAVIT portant sur 1 090 utilisateurs sous GLP-1",
           "source": "Havit Inc., 2026",
           "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-12"
     }
   },
   "generated_at": "2026-10-11T00:00:00.000Z"

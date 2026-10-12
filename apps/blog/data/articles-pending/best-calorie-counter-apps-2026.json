@@ -459,248 +459,336 @@
       "last_updated": "2026-10-11"
     },
     "zh-CN": {
-      "title": "2026年最佳卡路里计数应用:为什么一致性胜过准确性",
-      "short_title": "2026年最佳卡路里计数应用",
-      "meta_description": "卡路里应用中的每个数字都是估算值——标签、数据库、份量、消耗。一旦接受这一点,你就会停止追求准确性,转而追求一致性。六项标准、按用途分类的对比,以及每款应用的不足之处。",
-      "tldr": "在卡路里数字到达你的屏幕之前,四层近似值已经叠加,所以每日总量是一个范围,而非精确数字。选择能让你在十秒内记录周二晚餐的应用——然后关注一周的趋势,而非单日数据。",
-      "body_md": "*诚实声明:HAVIT 发布此博客,并且是下文提到的应用之一。我们已明确指出它的不足之处。这里的每款应用都按相同标准评判。*\n\n这里有一个卖卡路里计数器的人不会首先告诉你的事实:**整个链条中的每个数字都是估算值。**包装上的标签是估算值。别人输入的数据库条目是估算值。你的份量是估算值。你的每日能量消耗是估算值的估算值。\n\n这不是反对计数的理由。这是选择应用时应采用正确标准的理由。一旦接受绝对数字是近似的,准确性就不再是购物标准,**一致性**取而代之——同样的食物,以同样的方式记录,每次都如此,这样即使数字不准确,趋势也有意义。\n\n本指南基于这一原则对该类别进行分类。\n\n## 为什么'最准确的卡路里计数器'是错误的搜索方向\n\n在数字到达你的屏幕之前,四个独立的近似层已经叠加。\n\n**标签。**包装食品的能量值是根据存在的营养素计算的,而非测量你手中的那包食品,每个主要市场的食品标签规则都允许声明值与分析值之间存在误差。这个数字是声明,而非读数。\n\n**数据库。**大型营养应用通过用户提交的条目建立其广度。广度是它们获胜的原因;用户提交是为什么一个超市酸奶可以返回十几个几乎相同但卡路里数字有明显差异的条目。经过验证的条目数据库以可靠性换取规模,这是真实的权衡,而非营销话术。\n\n**份量。**这通常是最大的单一误差来源。'一碗'在两个人之间的差异比大多数数据库条目与真实值的差异更大。\n\n**你的消耗。**任何基于 BMR 或 TDEE 公式建立的目标都存在明显的个体差异。该公式是应用于个人的人群平均值。\n\n将这些叠加起来,每日总量是一个范围,而非数字。有用的问题变成:这款应用是否让我每天以相同方式记录,且快到让我坚持下去?这是证据指向的行为——对22项自我监测研究(其中15项关于食物记录)的系统综述发现,与体重减轻存在一致关联,同时评定证据本身在方法学基础上较弱([Burke 等,*Journal of the American Dietetic Association*,2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/))。\n\n## 选择卡路里计数应用的6项标准\n\n### 1. 验证条目还是众包广度?\n\n决定你更能接受哪种失败。验证数据库不会有你当地面包店的面包;众包数据库会有很多次,但数值不同。如果你主要吃包装食品,广度获胜。如果你需要可靠的数字,验证获胜。\n\n### 2. 重复一餐需要点击多少次?\n\n大多数人吃少量轮换的餐食。能将你的周二早餐变成一次点击的应用将胜过更准确但每天早上都要搜索的应用——因为到三月你还在使用它。\n\n### 3. 它追踪微量营养素,还是只追踪宏量营养素?\n\n只有部分应用深入追踪维生素和矿物质。如果你在管理缺乏症、临床饮食或限制性模式,这是决定你候选名单的标准,专门的营养应用在这方面确实优于其他所有应用。\n\n### 4. 它调整目标,还是只设置一次?\n\n第一天计算一次的目标会随着你减重、改变训练或进入平台期而过时。寻找根据你自己观察到的摄入量和体重趋势重新计算的应用,而非重新运行相同公式。\n\n### 5. 它显示趋势还是判决?\n\n每日总量有噪音——水分、盐分、周期、糖原。每周滚动视图比红色的'超出预算'横幅更能回答'我在进步吗?',后者主要教会人们在最需要记录的日子停止记录。\n\n### 6. 计算卡路里是否适合你?\n\n值得诚实地问。对某些人来说,详细计数会成为无益的执念。如果追踪让你对食物感到焦虑或僵化,基于习惯或成分的方法更合适,咨询专业人士是比换应用更好的第一步。\n\n## 按用途分类的卡路里计数应用\n\n*应用特性截至2026年10月——在承诺前请查看实时商店列表。*\n\n| 应用类型 | 用途 | 数据库风格 | 微量营养素 | 不足之处 |\n| --- | --- | --- | --- | --- |\n| MyFitnessPal | 广度——几乎能找到任何食物 | 大型,大量用户提交 | 基础 | 重复和不一致的条目 |\n| Cronometer | 准确性和营养深度 | 验证、精选 | 广泛 | 数据库较小;更多手动输入 |\n| FatSecret | 慷慨免费层上的直接记录 | 用户提交 | 基础 | 比教练主导的应用缺少趋势和身体成分功能 |\n| 照片优先/AI记录器 | 速度——每餐几秒钟 | 从图像进行模型估算 | 有限 | 估算是范围,而非读数 |\n| HAVIT | 情境——睡眠、周期、情绪、药物中的食物 | 中等 | 核心宏量,蛋白质优先 | 数据库小于专业应用 |\n\n如果你唯一的要求是精确的微量营养素分解,专门的营养应用是正确答案,这是一个简短的对话。\n\n## 如何计数而不失去理智\n\n- **每次以相同方式记录。**一致性胜过准确性。为你常吃的燕麦选择一个条目并重复使用,而非每周优化它。\n- **称量高密度食物。**油、坚果、坚果酱和干谷物在最小体积中包含最多能量,所以目测这些食物的份量是一天最容易出错的地方。只称量这些就能以一小部分努力获得大部分好处。\n- **关注一周,而非一天。**一天几乎说明不了什么。\n- **优先摄入蛋白质。**当卡路里不完美时,蛋白质目标是计划中坚持下来的部分——尤其是在 GLP-1 治疗中,某些试验中减重的瘦体重份额为40-60%,而其他试验中为15%或更少([Neeland 等,*Diabetes, Obesity and Metabolism*,2024](https://pubmed.ncbi.nlm.nih.gov/38937282/))。\n- **停止完美记录,开始始终记录。**粗略条目远胜空白日。\n\n## 每款应用的不足之处——包括我们的\n\n- **MyFitnessPal** 拥有无人能及的广度,以及随之而来的重复条目问题。\n- **Cronometer** 在数据质量上最可靠,相应地对你要求更多。\n- **照片优先记录**是从盘子到记录的最快途径;它返回的数字是模型估算,应作为范围阅读。\n- **HAVIT** 的食物数据库小于 MyFitnessPal 或 Cronometer,其身体成分数字是 AI 估算,而非 DEXA 或 InBody 测量。如果精确的微量营养素数据是你的要求,请使用专门的营养应用——我们不试图在该比较中获胜。\n\n## 底线\n\n基于一致性选择,而非声称的准确性。最佳卡路里计数应用是能让你在十秒内记录周二晚餐的应用,因为证据支持记录行为,而非数字的精确度。\n\n然后关注一周,而非一天。\n\n## 为什么选择 HAVIT——卡路里是一项输入,而非全貌\n\nHAVIT 计算卡路里,但不止于此。原因是数字本身无法解释停滞的一周:睡眠、压力、周期阶段、步数和 GLP-1 药物都会影响食欲和体重,而仅关注食物的应用无法看到这些。\n\n因此 HAVIT 将餐食、水分、睡眠、步数、周期、情绪和药物保持在一个例程中,估算身体成分而非仅报告体重,并将一周转化为今天的一个具体行动。照片记录解决速度问题;每日检查解决情境问题。\n\nUSPSTF 对 BMI 为30或更高的成年人的密集、多成分行为干预给予 B 级推荐——由临床医生提供,而非应用提供([USPSTF,2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。结构和重复是应用可以借鉴的部分。在我们对1,090名 GLP-1 用户的分析中,最一致的记录者建立了最强的习惯([GLP-1 习惯报告](/en/glp-1-habit-report))。\n\nHAVIT 是健康应用,不是医疗设备。卡路里和身体成分数字是估算值。\n\n[试用 HAVIT →](https://www.aihavit.com/)\n",
+      "title": "2026热量计算App推荐 — 比起准，先挑能一直记下去的那个",
+      "short_title": "2026热量计算App推荐",
+      "meta_description": "HAVIT、薄荷健康、小卡健康、食卡卡、体重小本、fatsecret 逐个拆解：数据出处、中国食物覆盖、拍照记录、体成分与用药记录。评分取自中国区App Store，2026年10月核验，不引用厂商自写的准确率对比。",
+      "tldr": "决定结果的不是准，是一致。查中国食物薄荷健康最强，这点直接认；但如果你常做饭、又关心睡眠和体成分，拍照记录加上一个把全部记录一起读的AI教练更省力。MyFitnessPal 在中国区App Store搜不到。",
+      "body_md": "热量计算App最容易被问的是\"哪个最准\"。但真正决定结果的不是准，是**一致**——同一碗面今天记380、明天记520，差的不是营养学，是你根本不知道这周到底多吃了没有。\n\n所以这篇按\"你会怎么用它\"来拆：数据从哪来、中国菜查不查得到、不用搜索的路子有没有、以及记完之后有没有下一句话。\n\n评分均取自中国区 App Store，2026年10月核验。厂商自己账号写的识别准确率对比，本文一律不引用——这类内容在搜索结果里占比很高，看之前建议先确认作者是谁。\n\n![同一碗面记成两个数，问题不在营养学](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## 挑之前，只看三件事\n\n**一、数据从哪来。**条目数越大不等于越好。靠用户上传堆出来的库，同一盒酸奶能有九个版本，你选哪条，今天的总和就是哪个数。\n\n**二、你常吃的东西，用哪条路进去。**常点外卖、常吃包装食品，靠的是搜索命中率；常做饭、吃食堂，靠搜索基本走不通——那得看有没有拍照这条路。\n\n**三、数字之后有没有下一句。**只给一个\"今天还剩多少千卡\"，撑不过三周。\n\n## HAVIT — 记录、教练、身体状态在同一个App里接上\n\n| | |\n| --- | --- |\n| 开发者 | Havit Inc. |\n| 中国区 App Store | 有中文版，名为\"HAVIT AI减肥教练\" |\n| 食物库 | **约486,000条** — USDA 432,418 + 韩国食药处 41,218 + 自建精选 12,671 |\n| 记录类别 | 8类（饮食·饮水·运动·睡眠·步数·生理周期·心情·用药） |\n| 平台 | iOS · Android · 35种语言 |\n| 价位 | 免费下载 · 应用内购买 |\n\n![AI食物扫描——拍一张照，热量和营养素就出来了](/blog/havit/shot/feature-nutrition.webp)\n\n### 食物库：比的不是条数，是出处\n\n先把话说清楚：**查中国的包装食品、奶茶、连锁餐厅菜品和外卖套餐，薄荷健康比HAVIT更强。**人家在这件事上做了十几年，这是实情。\n\nHAVIT选的是另一条路——**公共机构数据**：\n\n- **USDA 432,418条** — 美国农业部\n- **韩国食药处 41,218条** — 韩国的包装食品\n- **自建精选 12,671条**\n\n约48.6万条，数量不是卖点，**每一条背后有机构来源**才是。用户上传型的大库问题在于版本太多：选哪条决定了今天的数字，而你并不知道该选哪条。\n\n### 拍一张照，几秒钟\n\n**AI食物扫描**把搜索这一步整个跳过去。中式家常菜尤其吃这一套——一盘回锅肉你要搜\"回锅肉\"还是\"五花肉+青蒜+豆瓣酱\"？搜索式记录就是死在这里的。拍照不需要你先替这盘菜想好名字。\n\n### 看的不是体重，是身体成分\n\n![体成分洞察——体脂与肌肉的走势](/blog/havit/shot/feature-body-insights.webp)\n\n不用器械，**推算体脂与肌肉的走势**，并公开了以InBody为基准的自建对照研究（n=70）。正在执行医师减重方案的人尤其该看这个：体重掉得快的时候，秤只会报\"成功\"，不会告诉你掉下去的那部分里有多少是去脂体重。**剂量、身体反应、蛋白质摄入**也记在同一个App里。（去脂体重不等于肌肉，它还包含脏器、骨骼与体水分。）\n\n### 让你能留下来的那些装置\n\n**每日任务**把经过验证的行为改变技术压成今天的一个动作；**每日签到**用几次点击收走状态、睡眠、食欲、心情，所以搞砸的一天不会直接把连续记录清零。再加上连续打卡、徽章、虚拟形象、段位和**团队挑战**。\n\n### 数字之外，也管人\n\n![引导式冥想——食欲·睡眠·安定·专注·呼吸·感恩](/blog/havit/shot/feature-mind-recovery.webp)\n\n**引导式冥想六类**（食欲、睡眠、安定、专注、呼吸、感恩）、**运动视频**、**轻断食**，加上发现页**1,400篇以上**文章，都在同一个App里。\n\n### 谁做的\n\n和**韩国排名第一的减重诊所Juvis Diet出身的专家们**一起做的。方法论在变成软件之前，先在真人身上跑过。\n\n**适合谁**：常做饭、不想一条条搜的人；记录之后想要一句\"所以改什么\"的人；关心体成分而不只是体重的人。\n\n## 薄荷健康 — 中国食物查得最准\n\n| | |\n| --- | --- |\n| 开发者 | BOOHEE TECHNOLOGY |\n| 中国区 App Store | 4.7分 · 12万+ 条评分 |\n| 食物库 | 官方应用描述称\"17年积累、100万+条、以中国食物为主\" |\n| 价位 | 免费下载 · 会员订阅 |\n\n**擅长什么。**螺蛳粉、生椰拿铁、某品牌某口味酸奶——搜得到，基本不用自己改数字。这是国内市场最深的那条护城河，国外App追不上。它还自营控卡食品，记录和购买是打通的。\n\n**不足。**\"100万+条\"是官方应用描述里的说法，没有独立第三方核验，所以本文把它标成官方说法而不是事实。体成分推算、用药记录这些\"身体状态\"的轴比较薄。\n\n**适合谁**：主要吃中餐、常点外卖、希望搜索一次就命中的人。\n\n## 小卡健康 · 食卡卡 — 拍照优先，速度最快\n\n| | |\n| --- | --- |\n| 小卡健康 | 4.7分 · 4万+ 条评分（中国区 App Store） |\n| 食卡卡 | 4.9分 · 4.8万 条评分（中国区 App Store） |\n| 卖点 | 照片识别 + 轻量记录 |\n| 价位 | 免费下载 · 订阅 |\n\n**擅长什么。**对着饭拍一张就完事，摩擦力最低。讨厌搜索的人在这类App里留存最好。\n\n**不足。**识别准确率的公开数字几乎都来自厂商自己的测评，样本小、立场明确，**所以本文不给准确率结论**——自己用一周，拿常吃的几样对着实物比一比更靠谱。另外它们记完之后的那一步偏薄：体成分、生理周期、睡眠都不在范围内。\n\n**适合谁**：只想把记录这件事做到最快的人。\n\n## 体重小本 — 轻，而且有人陪着\n\n| | |\n| --- | --- |\n| 开发者 | Shenzhen Xindie Technology Co.,Ltd. |\n| 中国区 App Store | 4.9分 · 6.7万 条评分 |\n| 定位 | 体重打卡 + 饮食记录 + 社区 |\n| 价位 | 免费下载 · 内购 |\n\n**擅长什么。**界面简单，打卡成本低，社区活跃——减重这件事上\"有人一起\"的推力是实打实的。\n\n**不足。**营养分析的深度有限，身体成分、用药这些轴没有。\n\n**适合谁**：主要靠氛围和同伴推动自己的人。\n\n## fatsecret卡路里计算器 — 免费能走得最远\n\n| | |\n| --- | --- |\n| 开发者 | FatSecret |\n| 中国区 App Store | 4.7分 · 2,275 条评分 |\n| 特点 | 免费范围大，有中文界面 |\n| 价位 | 免费 · 有付费版 |\n\n**擅长什么。**不订阅也能用到大部分记录功能，有条形码扫描，界面已汉化。\n\n**不足。**食物库以国际条目为主，中国本土的包装食品和外卖命中率明显不如国内App。中国区评分人数只有四位数，说明国内用的人不多。\n\n**适合谁**：不想订阅、又经常吃进口或国际连锁食品的人。\n\n## 国外热量App在中国区的现状\n\n值得单独说一句。**MyFitnessPal 在中国区 App Store 搜不到**（2026年10月按其App ID在中国区查询无结果）。Cronometer 能下载，但中国区评分人数只有两位数。Noom 同理。\n\n所以英文媒体那种\"全球最佳热量App\"的榜单，直接搬进国内基本用不了——这也是本文重新按中国市场写一遍的原因。\n\n## 一张表看完\n\n| 应用 | 数据出处 | 中国食物 | 拍照记录 | 体成分 | 生理周期 | 用药记录 | 记完之后 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **USDA+韩国食药处+自建精选** | 一般 | **有** | **可推算** | **有** | **有** | **AI教练给今天的一个动作** |\n| 薄荷健康 | 自建（官方称100万+条） | **最强** | 有 | 无 | 部分 | 无 | 饮食分析 |\n| 小卡健康 / 食卡卡 | 自建 | 强 | **主打** | 无 | 无 | 无 | 提醒为主 |\n| 体重小本 | 自建 | 较强 | 有 | 无 | 无 | 无 | 社区 |\n| fatsecret | 国际条目为主 | 弱 | 部分 | 无 | 无 | 无 | 基本没有 |\n\n以上为2026年10月的情况。功能和会员政策变动频繁，付费前请以App Store页面为准。\n\n## 不至于半途而废的数法\n\n**先保证一致，再谈准确。**同一样东西，永远选同一条记录。你要看的是这周比上周多还是少。\n\n**称一次就够。**挑两三样天天吃的——米饭、油、坚果——称一次记住大概的量，之后目测。全部都称的人，没有一个能坚持过一个月。\n\n**吃得乱的那天更要记。**只记\"表现好\"的日子，数据就失去了用处。HAVIT 的每日签到就是为这个做的：你先说今天状态如何，教练再决定要不要提要求。\n\n**看一周平均，别看单日。**单日会被水、盐、生理周期推着晃。\n\n## 写在最后\n\n热量计算App的差距，不在小数点后一位，**在你能不能一直记下去，以及记完之后有没有人接话。**中国食物查得最准的是薄荷健康，这一点没有争议；但如果你常做饭、同时还关心睡眠、周期和体成分，那把这些放在一个地方、让一个教练一起读完，才是更省力的路。\n\n[免费开始使用 HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "食物与其卡路里数字之间的近似层数",
-          "value": "4层:标签、数据库、份量、消耗",
-          "source": "每一层都是估算;见上文部分"
+          "label": "HAVIT 食物数据库",
+          "value": "约486,000条",
+          "source": "USDA 432,418 + 韩国食药处 41,218 + 自建精选 12,671"
         },
         {
-          "label": "自我监测综述中的研究数(其中15项关于食物记录)",
-          "value": "22项研究",
-          "source": "Burke 等 2011,J Am Diet Assoc——作者评定证据水平较弱"
+          "label": "其中来自公共机构的条目",
+          "value": "473,636条",
+          "source": "USDA 432,418 + 韩国食药处 41,218"
         },
         {
-          "label": "GLP-1 治疗中减重的瘦体重份额",
-          "value": "某些试验中为40-60%,其他试验中≤15%",
-          "source": "Neeland 等 2024,Diabetes Obes Metab"
+          "label": "薄荷健康 中国区 App Store 评分",
+          "value": "4.7（12万+ 条评分）",
+          "source": "中国区 App Store，2026年10月核验"
         },
         {
-          "label": "值得称量以获得大部分好处的食物",
-          "value": "高能量密度食物:油、坚果、坚果酱、干谷物",
-          "source": "最小体积中的最多能量"
+          "label": "fatsecret 中国区评分人数",
+          "value": "2,275条",
+          "source": "中国区 App Store，2026年10月核验"
+        },
+        {
+          "label": "MyFitnessPal 在中国区",
+          "value": "搜不到",
+          "source": "按其App ID在中国区App Store查询无结果，2026年10月"
         }
       ],
       "comparison_table": {
-        "title": "按用途分类的卡路里计数应用",
+        "title": "一张表看完",
         "headers": [
           "应用",
-          "用途",
-          "数据库风格",
-          "微量营养素",
-          "不足之处"
+          "数据出处",
+          "中国食物",
+          "拍照记录",
+          "体成分",
+          "生理周期",
+          "用药记录",
+          "记完之后"
         ],
         "rows": [
           [
-            "MyFitnessPal",
-            "广度——几乎能找到任何食物",
-            "大型,大量用户提交",
-            "基础",
-            "重复和不一致的条目"
-          ],
-          [
-            "Cronometer",
-            "准确性和营养深度",
-            "验证、精选",
-            "广泛",
-            "数据库较小;更多手动输入"
-          ],
-          [
-            "FatSecret",
-            "慷慨免费层上的直接记录",
-            "用户提交",
-            "基础",
-            "比教练主导的应用缺少趋势和身体成分功能"
-          ],
-          [
-            "照片优先/AI记录器",
-            "速度——每餐几秒钟",
-            "从图像进行模型估算",
-            "有限",
-            "估算是范围,而非读数"
-          ],
-          [
             "HAVIT",
-            "情境——睡眠、周期、情绪、药物中的食物",
-            "中等",
-            "核心宏量,蛋白质优先",
-            "数据库小于专业应用"
+            "USDA+韩国食药处+自建精选",
+            "一般",
+            "有",
+            "可推算",
+            "有",
+            "有",
+            "AI教练给今天的一个动作"
+          ],
+          [
+            "薄荷健康",
+            "自建（官方称100万+条）",
+            "最强",
+            "有",
+            "无",
+            "部分",
+            "无",
+            "饮食分析"
+          ],
+          [
+            "小卡健康 / 食卡卡",
+            "自建",
+            "强",
+            "主打",
+            "无",
+            "无",
+            "无",
+            "提醒为主"
+          ],
+          [
+            "体重小本",
+            "自建",
+            "较强",
+            "有",
+            "无",
+            "无",
+            "无",
+            "社区"
+          ],
+          [
+            "fatsecret",
+            "国际条目为主",
+            "弱",
+            "部分",
+            "无",
+            "无",
+            "无",
+            "基本没有"
           ]
         ],
-        "caption": "如果精确的微量营养素分解是你唯一的要求,专门的营养应用是正确答案。"
+        "caption": "以上为2026年10月的情况。功能和会员政策变动频繁，付费前请以App Store页面为准。"
       },
       "faq": [
         {
-          "question": "哪款卡路里计数应用最准确?",
-          "answer": "没有一款应用以问题暗示的方式准确。四层近似值叠加——标签的监管误差、数据库条目、你的份量估算,以及估算你消耗的公式。Cronometer 在数据质量上最可靠,因为其条目经过验证,但每日总量仍是一个范围。应选择一致性:每次以相同方式记录相同食物。"
+          "question": "热量计算App里哪个最准？",
+          "answer": "没有哪个能在所有食物上都准，因为同一道菜的做法、用油和分量本来就不固定。更有用的标准是一致：同一样东西永远选同一条记录，你要比较的是这周和上周，不是绝对值。查中国本土食物，薄荷健康的命中率最高；常做饭、懒得搜索，拍照识别这条路更现实。"
         },
         {
-          "question": "MyFitnessPal 还是 Cronometer 更好?",
-          "answer": "它们优化相反的方面。MyFitnessPal 在广度上获胜,因为它大量依赖用户提交,这也是为什么一个超市酸奶可以返回十几个几乎相同但卡路里数字有明显差异的条目。Cronometer 在验证条目和微量营养素深度上获胜,相应地要求你更多手动输入。包装食品和便利性倾向前者;缺乏症、临床饮食或限制性模式倾向后者。"
+          "question": "查中国菜和外卖的热量，哪个App最好用？",
+          "answer": "薄荷健康。十几年的中国食物数据积累是它最硬的部分，奶茶、连锁餐厅、便利店商品基本一搜就中。其官方应用描述称食物库有100万+条、以中国食物为主，这是厂商说法，没有独立第三方核验。HAVIT 在这一项上不如它，解法是用AI拍照绕开搜索，并用USDA与韩国食药处这类公共机构数据保证每一条有出处。"
         },
         {
-          "question": "我需要称量食物吗?",
-          "answer": "不是全部。份量估算通常是最大的单一误差来源,但油、坚果和谷物每克携带最多误差。只称量这三类就能以一小部分努力获得大部分好处。"
+          "question": "拍照算热量靠谱吗？",
+          "answer": "作为估算工具靠谱，作为精确测量不靠谱。它的价值在于让你能一直记下去——一盘十一种食材的家常菜，用搜索几乎记不动。网上流传的识别准确率对比多数出自App厂商自己的账号，样本只有几道菜，本文不采用。想知道准不准，自己用一周比什么都强。"
         },
         {
-          "question": "为什么即使我保持在目标以下,我的卡路里应用也不起作用?",
-          "answer": "目标本身是估算——BMR 和 TDEE 公式是应用于个人的人群平均值——每日总量因水分、盐分、周期和糖原而有噪音。阅读每周滚动平均值而非每日判决。如果停滞的一周与睡眠不佳或高压力同时发生,仅关注食物的应用无法向你显示这一点。"
+          "question": "MyFitnessPal 在国内能用吗？",
+          "answer": "2026年10月按其App ID在中国区App Store查询没有结果，也就是说国内账号搜不到、下不了。Cronometer 可以下载但中国区评分人数只有两位数，Noom 情况类似。所以英文媒体的“全球最佳热量App”榜单不能直接照搬到国内。"
         },
         {
-          "question": "基于照片的 AI 卡路里估算可靠吗?",
-          "answer": "它们很快,而且是估算。从图像推断份量的模型返回范围,而非读数。如果速度是让你坚持记录的因素,这是可接受的权衡——粗略条目胜过空白日——但不要将数字视为测量值。"
+          "question": "一定要用厨房秤吗？",
+          "answer": "不用全称。挑两三样天天吃、热量密度又高的——米饭、食用油、坚果——称一次，记住大概的体积对应多少克，之后目测就够。要求每样都称的方法，坚持不过一个月。"
         },
         {
-          "question": "我应该计算卡路里吗?",
-          "answer": "对许多人有帮助,因为自我监测是与体重减轻最一致相关的行为。对某些人来说,它会成为无益的执念。如果追踪让你对食物感到焦虑或僵化,基于习惯或身体成分的方法更合适,咨询专业人士是比换应用更好的第一步。"
+          "question": "热量都控制住了，为什么还是没效果？",
+          "answer": "常见原因有三个：记录只记了表现好的日子；喝的东西没算进去；以及问题根本不在食物上。睡眠不足、压力大、处在生理周期的某个阶段，都会推高食欲和水分潴留。这也是把饮食、睡眠、周期、心情记在同一个App、让教练一起读的意义——否则你只会得出“我不够自律”这个错误结论。"
         }
       ],
       "references": [
         {
-          "title": "减重中的自我监测:文献系统综述(Burke、Wang 和 Sevick)",
-          "source": "Journal of the American Dietetic Association,2011——22项研究,15项关于饮食自我监测;作者评定证据水平较弱",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+          "title": "薄荷健康 官方 App Store 页面（中国区）",
+          "source": "Apple App Store，2026年10月核验：4.7分 / 12万+条评分；“100万+条食物”为开发者描述",
+          "url": "https://apps.apple.com/cn/app/id457856023"
         },
         {
-          "title": "基于 GLP-1 疗法的瘦体重变化及缓解策略(Neeland 等)",
-          "source": "Diabetes, Obesity and Metabolism,2024——某些试验中减重的瘦体重份额为40-60%,其他试验中≤15%;瘦体重≠肌肉",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+          "title": "FoodData Central（美国农业部食物成分数据库）",
+          "source": "USDA Agricultural Research Service",
+          "url": "https://fdc.nal.usda.gov/"
         },
-        {
-          "title": "减重以预防成人肥胖相关发病率和死亡率:行为干预——B 级",
-          "source": "U.S. Preventive Services Task Force,2018(主题更新中);BMI ≥30 的成年人,由临床医生提供",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "GLP-1 习惯报告2026——HAVIT 对1,090名 GLP-1 用户的内部分析",
-          "source": "Havit Inc.,2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
-        }
-      ],
-      "last_updated": "2026-10-11"
-    },
-    "zh-TW": {
-      "title": "2026 年最佳熱量計算 App:為什麼一致性勝過準確性",
-      "short_title": "2026 年最佳熱量計算 App",
-      "meta_description": "熱量 App 中的每個數字都是估計值——標籤、資料庫、份量、消耗量。一旦接受這點,你就會停止追求準確性,開始追求一致性。六項標準、依用途分類的比較,以及每款 App 的弱點。",
-      "tldr": "在熱量數字出現在螢幕上之前,已經堆疊了四層近似值,所以每日總量是一個範圍,而非單一數字。選擇能讓你在十秒內記錄週二晚餐的 App——然後看週趨勢,而非單日數據。",
-      "body_md": "*誠實揭露:HAVIT 發布此部落格,並製作以下其中一款 App。我們已標明其弱點所在。此處每款 App 都以相同標準評判。*\n\n沒有任何熱量計算 App 銷售方會率先告訴你這件事:**整個鏈條中的每個數字都是估計值。**包裝上的標籤是估計值。別人輸入的資料庫條目是估計值。你的份量大小是估計值。你的每日能量消耗是估計值的估計值。\n\n這不是反對計算熱量的論點,而是選擇 App 時應採用正確標準的論點。一旦接受絕對數字是近似值,準確性就不再是選購重點,**一致性**取而代之——同樣的食物,以同樣的方式記錄,每次都一樣,這樣即使數字不準確,趨勢仍有意義。\n\n本指南以此為基礎對這類 App 進行分類。\n\n## 為什麼「最準確的熱量計算器」是錯誤的搜尋方向\n\n在數字出現在螢幕上之前,已經堆疊了四層獨立的近似值。\n\n**標籤。**包裝食品的熱量值是根據所含營養素計算出來的,而非測量你手中那包食品,而且每個主要市場的食品標示規則都允許申報數值與分析數值之間存在容許誤差。這個數字是申報值,而非測量值。\n\n**資料庫。**大型營養 App 透過使用者提交的條目建立其廣度。廣度是它們獲勝的原因;使用者提交則是為何單一超市優格可能出現十幾個幾乎相同但熱量數字有明顯差異的條目。經驗證的資料庫以規模換取可靠性,這是真實的取捨,而非行銷話術。\n\n**份量。**這通常是最大的單一誤差來源。「一碗」在兩個人之間的差異,比大多數資料庫條目與真實值的差異還大。\n\n**你的消耗量。**任何基於 BMR 或 TDEE 公式建立的目標都帶有明顯的個體差異。公式是應用於單一個人的族群平均值。\n\n將這些堆疊起來,每日總量就是一個範圍,而非數字。有用的問題變成:這款 App 是否能讓我每天以相同方式記錄,且速度快到讓我持續使用?這才是證據指向的行為——一項涵蓋 22 項自我監測研究(其中 15 項關於飲食記錄)的系統性回顧發現,與體重減輕存在一致的關聯,但作者在方法學基礎上將證據本身評為薄弱([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/))。\n\n## 選擇熱量計算 App 的 6 項標準\n\n### 1. 經驗證條目還是群眾外包的廣度?\n\n決定你偏好哪種失敗。經驗證的資料庫不會有你當地麵包店的麵包;群眾外包的資料庫會有很多次,且數值不同。如果你主要吃包裝食品,廣度獲勝。如果你需要可信賴的數字,驗證獲勝。\n\n### 2. 重複餐點需要點擊幾次?\n\n大多數人吃的是少量輪替的餐點。能將你的週二早餐變成一次點擊的 App,會勝過讓你每天早上都要搜尋的更準確 App——因為你在三月時還會繼續使用它。\n\n### 3. 它追蹤微量營養素,還是只追蹤巨量營養素?\n\n只有部分 App 深入追蹤維生素和礦物質。如果你正在管理缺乏症、臨床飲食或限制性飲食模式,這項標準決定你的候選清單,而專門的營養 App 在這方面確實優於其他所有 App。\n\n### 4. 它會調整目標,還是只設定一次?\n\n在第一天計算一次的目標,會隨著你減重、改變訓練或進入停滯期而過時。尋找根據你自己觀察到的攝取量和體重趨勢重新計算的 App,而非重新執行相同公式的 App。\n\n### 5. 它顯示趨勢還是判決?\n\n每日總量有雜訊——水分、鹽分、週期、肝醣。每週滾動視圖比紅色的「超出預算」橫幅更能回答「我有在進步嗎?」,後者主要教會人們在最需要記錄的日子停止記錄。\n\n### 6. 計算熱量到底適合你嗎?\n\n值得誠實地問自己。對某些人來說,詳細計算會變成無益的執著。如果追蹤讓你對食物感到焦慮或僵化,基於習慣或身體組成的方法更適合,而諮詢專業人士是比換 App 更好的第一步。\n\n## 依用途分類的熱量計算 App\n\n*App 特性截至 2026 年 10 月——承諾前請查看即時商店列表。*\n\n| App 類型 | 用途 | 資料庫風格 | 微量營養素 | 弱點所在 |\n| --- | --- | --- | --- | --- |\n| MyFitnessPal | 廣度——找到幾乎任何食物 | 大型,大量使用者提交 | 基本 | 重複且不一致的條目 |\n| Cronometer | 準確性和營養素深度 | 經驗證、策劃 | 廣泛 | 資料庫較小;需要更多手動輸入 |\n| FatSecret | 在慷慨的免費方案上直接記錄 | 使用者提交 | 基本 | 比教練導向 App 少趨勢和身體組成功能 |\n| 照片優先 / AI 記錄器 | 速度——每餐幾秒鐘 | 從圖像進行模型估計 | 有限 | 估計值是範圍,而非讀數 |\n| HAVIT | 情境——食物結合睡眠、週期、情緒、藥物 | 中等 | 核心巨量營養素,蛋白質優先 | 資料庫比專業 App 小 |\n\n如果你唯一的需求是精確的微量營養素分解,專門的營養 App 是正確答案,這是個簡短的對話。\n\n## 如何計算而不失去理智\n\n- **每次都以相同方式記錄。**一致性勝過準確性。為你常吃的燕麥選擇一個條目並重複使用,而非每週優化它。\n- **秤量高密度食物。**油、堅果、堅果醬和乾穀物在最小體積中包含最多能量,所以目測這些食物的份量是一天最快出錯的地方。只秤量這些就能以一小部分努力獲得大部分好處。\n- **看週趨勢,而非單日數據。**單日幾乎說明不了什麼。\n- **優先攝取蛋白質。**蛋白質目標是當熱量不完美時仍能維持的計畫部分——特別是在 GLP-1 治療中,某些試驗中減重的瘦體重比例範圍從 40–60%,其他試驗中則為 15% 或更少([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/))。\n- **停止完美記錄,開始持續記錄。**粗略條目遠勝空白日。\n\n## 每款 App 的不足之處——包括我們的\n\n- **MyFitnessPal** 擁有無人能及的廣度,以及隨之而來的重複條目問題。\n- **Cronometer** 在資料品質上最站得住腳,相應地對你要求更多。\n- **照片優先記錄** 是從餐盤到記錄的最快路徑;它返回的數字是模型的估計值,應視為範圍。\n- **HAVIT** 的食物資料庫比 MyFitnessPal 或 Cronometer 小,其身體組成數字是 AI 估計值,而非 DEXA 或 InBody 測量值。如果精確的微量營養素資料是你的需求,請使用專門的營養 App——我們不試圖在該比較中獲勝。\n\n## 結論\n\n選擇一致性,而非聲稱的準確性。最佳熱量計算 App 是能讓你在十秒內記錄週二晚餐的那款,因為證據支持的是記錄行為,而非數字的精確度。\n\n然後看週趨勢,而非單日數據。\n\n## 為什麼選擇 HAVIT——熱量是一項輸入,而非全貌\n\nHAVIT 計算熱量,但不止於此。原因是單獨的數字無法解釋停滯的一週:睡眠、壓力、週期階段、步數和 GLP-1 藥物都會影響食慾和體重,而只關注食物的 App 無法看到任何這些因素。\n\n所以 HAVIT 將餐點、水分、睡眠、步數、週期、情緒和藥物保持在一個例行程序中,估計身體組成而非僅報告體重,並將一週轉化為今天的一個具體行動。照片記錄處理速度問題;每日檢查處理情境問題。\n\nUSPSTF 對 BMI 為 30 或更高的成人給予 B 級建議,建議採用密集、多元的行為介入——由臨床醫師提供,而非 App 提供([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions))。結構和重複是 App 可以借鑑的部分。在我們對 1,090 名 GLP-1 使用者的分析中,最一致的記錄者建立了最強的習慣([GLP-1 習慣報告](/en/glp-1-habit-report))。\n\nHAVIT 是健康 App,不是醫療設備。熱量和身體組成數字是估計值。\n\n[試用 HAVIT →](https://www.aihavit.com/)\n",
-      "key_stats": [
-        {
-          "label": "食物與其熱量數字之間的近似值層數",
-          "value": "4 層:標籤、資料庫、份量、消耗量",
-          "source": "每一層都是估計值;見上述章節"
-        },
-        {
-          "label": "自我監測回顧中的研究數(其中 15 項關於飲食記錄)",
-          "value": "22 項研究",
-          "source": "Burke et al. 2011, J Am Diet Assoc——作者將證據等級評為薄弱"
-        },
-        {
-          "label": "GLP-1 治療中減重的瘦體重比例",
-          "value": "某些試驗中為 40–60%,其他試驗中 ≤15%",
-          "source": "Neeland et al. 2024, Diabetes Obes Metab"
-        },
-        {
-          "label": "值得秤量以獲得大部分好處的食物",
-          "value": "高能量密度食物:油、堅果、堅果醬、乾穀物",
-          "source": "最小體積中的最多能量"
-        }
-      ],
-      "comparison_table": {
-        "title": "依用途分類的熱量計算 App",
-        "headers": [
-          "App",
-          "用途",
-          "資料庫風格",
-          "微量營養素",
-          "弱點所在"
-        ],
-        "rows": [
-          [
-            "MyFitnessPal",
-            "廣度——找到幾乎任何食物",
-            "大型,大量使用者提交",
-            "基本",
-            "重複且不一致的條目"
-          ],
-          [
-            "Cronometer",
-            "準確性和營養素深度",
-            "經驗證、策劃",
-            "廣泛",
-            "資料庫較小;需要更多手動輸入"
-          ],
-          [
-            "FatSecret",
-            "在慷慨的免費方案上直接記錄",
-            "使用者提交",
-            "基本",
-            "比教練導向 App 少趨勢和身體組成功能"
-          ],
-          [
-            "照片優先 / AI 記錄器",
-            "速度——每餐幾秒鐘",
-            "從圖像進行模型估計",
-            "有限",
-            "估計值是範圍,而非讀數"
-          ],
-          [
-            "HAVIT",
-            "情境——食物結合睡眠、週期、情緒、藥物",
-            "中等",
-            "核心巨量營養素,蛋白質優先",
-            "資料庫比專業 App 小"
-          ]
-        ],
-        "caption": "如果精確的微量營養素分解是你唯一的需求,專門的營養 App 是正確答案。"
-      },
-      "faq": [
-        {
-          "question": "哪款熱量計算 App 最準確?",
-          "answer": "沒有一款以問題暗示的方式準確。四層近似值堆疊起來——標籤的法規容許誤差、資料庫條目、你的份量估計,以及估計你消耗量的公式。Cronometer 在資料品質上最站得住腳,因為其條目經過驗證,但每日總量仍是一個範圍。改為選擇一致性:每次都以相同方式記錄相同食物。"
-        },
-        {
-          "question": "MyFitnessPal 還是 Cronometer 比較好?",
-          "answer": "它們針對相反的事物進行優化。MyFitnessPal 在廣度上獲勝,因為它大量依賴使用者提交,這也是為何一個超市優格可能出現十幾個幾乎相同但熱量數字有明顯差異的條目。Cronometer 在經驗證條目和微量營養素深度上獲勝,相應地要求你進行更多手動輸入。包裝食品和便利性偏好前者;缺乏症、臨床飲食或限制性飲食模式偏好後者。"
-        },
-        {
-          "question": "我需要秤量食物嗎?",
-          "answer": "不是全部。份量估計通常是最大的單一誤差來源,但油、堅果和穀物每克帶來最多誤差。只秤量這三類就能以一小部分努力獲得大部分好處。"
-        },
-        {
-          "question": "為什麼即使我保持在目標以下,我的熱量 App 仍不起作用?",
-          "answer": "目標本身就是估計值——BMR 和 TDEE 公式是應用於單一個人的族群平均值——而且每日總量因水分、鹽分、週期和肝醣而有雜訊。閱讀每週滾動平均值,而非每日判決。如果停滯的一週與睡眠不佳或高壓力同時發生,只關注食物的 App 無法向你顯示這點。"
-        },
-        {
-          "question": "基於照片的 AI 熱量估計可靠嗎?",
-          "answer": "它們很快,而且是估計值。從圖像推斷份量的模型返回的是範圍,而非讀數。如果速度是讓你持續記錄的關鍵,這是可接受的取捨——粗略條目勝過空白日——但不要將數字視為測量值。"
-        },
-        {
-          "question": "我到底應該計算熱量嗎?",
-          "answer": "對許多人有幫助,因為自我監測是與體重減輕最一致相關的行為。對某些人來說,它會變成無益的執著。如果追蹤讓你對食物感到焦慮或僵化,基於習慣或身體組成的方法更適合,而諮詢專業人士是比換 App 更好的第一步。"
-        }
-      ],
-      "references": [
         {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011——22 項研究,15 項關於飲食自我監測;作者將證據等級評為薄弱",
+          "source": "Journal of the American Dietetic Association, 2011 — 22项研究，其中15项为饮食自我监测；作者自评证据等级为弱",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
         },
         {
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
-          "source": "Diabetes, Obesity and Metabolism, 2024——某些試驗中減重的瘦體重比例範圍為 40–60%,其他試驗中 ≤15%;瘦體重 ≠ 肌肉",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — 部分试验中去脂体重占减重量的40–60%；去脂体重≠肌肉",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
           "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018(主題更新中);BMI ≥30 的成人,由臨床醫師提供",
+          "source": "U.S. Preventive Services Task Force, 2018（该主题更新中）",
           "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "GLP-1 Habit Report 2026 — HAVIT 对1,090名用药用户的内部分析",
+          "source": "Havit Inc., 2026",
+          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+        }
+      ],
+      "last_updated": "2026-10-12"
+    },
+    "zh-TW": {
+      "title": "2026 熱量計算 App 推薦（台灣）— 不是比準，是比記得下去",
+      "short_title": "2026 熱量計算 App 推薦",
+      "meta_description": "HAVIT、MyFitnessPal、fatsecret、Cofit、Appediet、Cronometer 一款一款拆開看。資料出處、台灣外食與超商品項、體組成與 GLP-1 — 評分取自 App Store 台灣，2026 年 10 月查核。",
+      "tldr": "絕對值本來就是近似，所以用一致性挑，不要用準確度挑。資料比的是出處不是筆數；三餐靠超商和自助餐的人，在地品項是第一順位；然後看數字後面有沒有人告訴你該改哪一件事。",
+      "body_md": "挑熱量 App 的時候，大部分人問的是「哪一款最準」。這個問題沒有答案。\n\n包裝上的熱量是**用成分算出來的**，不是把那一包實際燒過；資料庫裡的每一筆是某個人輸入的；一份是多少是你目測的；每日消耗熱量是公式吐出來的推估。在台灣還要再加一層——自助餐夾十樣菜、手搖飲可以客製成半糖少冰加珍珠、同一碗滷肉飯每一攤的肥瘦比都不一樣。\n\n所以標準要換。既然絕對值本來就是近似，真正重要的是**一致性**。同一種食物每次都用同一種方式記，數字本身即使偏掉，**趨勢是對的**。\n\n這篇把台灣查得到的熱量記錄 App 一款一款拆開看。評分取自 **App Store 台灣**，2026 年 10 月查核。\n\n![記錄比的是撐多久，不是有多準](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_TRACK_001.jpg)\n\n## 挑之前只要看三件事\n\n**1. 記一餐要花幾秒。** 大部分人每天吃的就是那幾樣在輪。能把「星期二的早餐」一鍵叫回來的 App，會贏過那個逼你每天重新搜尋、但比較準的 App——因為三月的時候你還在用它。\n\n**2. 資料從哪裡來。** 不是比大小，是比**出處**。使用者上傳的比重高，同一項商品就會有好幾個互相打架的數值；經過驗證的資料筆數少，但你知道誰在負責。\n\n**3. 數字後面有沒有東西。** 只記不解讀的話，大概第五週就會開始覺得自己在寫帳簿。要看它會不會讀這些數字，然後告訴你**該改哪一件事**。\n\n## HAVIT — 記錄、教練、身體狀態在同一款 App 裡接起來\n\n| | |\n| --- | --- |\n| 開發商 | Havit Inc. |\n| 價格 | 免費下載 · App 內購買 |\n| 食物資料庫 | **約 486,000 筆** — USDA 432,418 ＋ 韓國食藥處 41,218 ＋ 自家精選 12,671 |\n| 支援語言 | 35 種 |\n| 平台 | iOS · Android |\n\n![HAVIT 的 AI 教練會讀完所有紀錄，再給出今天要做的一件事](/blog/havit/shot/feature-ai-coach.webp)\n\n**先認一件事。** 台灣超商鮮食、自助餐菜色、夜市小吃這些在地品項，Cofit 蒐得比我們齊。要查「某家超商某一款飯糰」，那邊命中率比較高。\n\nHAVIT 打的是別的東西：熱量 App 通常只看「吃了什麼」，HAVIT 把飲食、喝水、運動、睡眠、步數、**生理週期**、心情、**GLP-1 用藥**放進同一款 App，而且**全部由 AI 教練一起讀**。\n\n所以停滯的那一週它答得出來：蛋白質連續四天低於目標、這週有兩天睡不到六小時、而且這是經期前一週——三件事連在一起，它會告訴你先動哪一個。只看食物的 App 沒有辦法看到這件事。\n\n### 資料庫比的不是大小，是出處\n\n![同一項包裝食品，數字要有人負責](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg)\n\n- **USDA 432,418 筆** — 美國農業部的食品資料\n- **韓國食藥處 41,218 筆** — 韓國食品藥品安全處的加工食品資料\n- **自家精選 12,671 筆** — 逐筆整理過營養素的項目\n\n這跟群眾上傳的資料庫不是同一種東西。MyFitnessPal 的筆數最多，但那是使用者堆出來的，所以同一罐超市優格會有好幾個互相矛盾的值，你選到哪一筆、當天的總和就不一樣。順帶一提，MyFitnessPal 官方網站不同位置列出的食物筆數彼此也不一致，所以這篇不引用任何一個數字。\n\n這也是台灣熱量資料的通病：同一份手搖飲配料，不同來源給出的熱量差距大到不能當成同一個東西用。**所以出處比筆數重要。**\n\n### 一個便當夾十樣菜，用拍的\n\n![AI 食物掃描：拍一張照，推估熱量與營養素](/blog/havit/shot/feature-nutrition.webp)\n\n**AI 食物掃描**拍一張就好，直接推估熱量與營養素。自助餐便當、滷味、火鍋、家裡煮的一鍋菜，這些「要搜尋十一次」的餐點不用一樣一樣查。這是把在地資料庫缺口補起來的實際做法。\n\n### 看的是身體的組成，不是體重\n\n![體組成洞察：體脂與肌肉的走向](/blog/havit/shot/feature-body-insights.webp)\n\n不用買裝置，**體組成洞察**會推估體脂與肌肉的趨勢，並公開了以 InBody 為對照的自家比對研究（n=70）。要講清楚：這是推估，不是 DEXA 或 InBody 的量測值。\n\n正在打 GLP-1（Wegovy、Ozempic、Mounjaro、Zepbound）的話特別重要。減掉的體重裡，瘦體組織所佔的比例在部分試驗被報告到 40–60%，體重計只會把它報告成成功。HAVIT 連**劑量、副作用、蛋白質**都記在同一款 App 裡。\n\n### 讓你撐得下去的設計\n\n![每日任務：今天只要做一件具體的事](/blog/havit/shot/feature-daily-missions.webp)\n\n**每日任務**把經過驗證的行為改變技術變成今天要做的一件具體行動。**每日簽到**用幾下點選收走狀態、睡眠、食慾與心情，教練在要求你之前先知道今天是什麼樣的一天。再加上連續紀錄、徽章、虛擬角色、等級和團隊挑戰。\n\n### 不是只管數字\n\n![引導式冥想分成六種：食慾、睡眠、安定、專注、呼吸、感恩](/blog/havit/shot/feature-mind-recovery.webp)\n\n**六種引導式冥想**（食慾、睡眠、安定、專注、呼吸、感恩）、**運動影片**、**斷食**，以及探索專區**超過 1,400 篇文章**，全部在同一款 App 裡。\n\n> 原本熱量一款、冥想一款、運動一款、經期一款，現在是**一款**。\n\n和**韓國第一減重診所 Juvis Diet 出身的專家**一起做出來的。\n\n**適合誰**：有在記錄但不知道該改什麼的人、常吃自助餐和家常混合菜的人、體重和睡眠・壓力・生理週期纏在一起的人、正在用 GLP-1 的人。\n\n## MyFitnessPal — 條碼與進口食品查得最廣\n\n| | |\n| --- | --- |\n| 開發商 | MyFitnessPal, Inc. |\n| 評分 | 4.7 · 23,792 則評分（App Store 台灣） |\n| 價格 | 免費下載 · Premium 另計 |\n\n**做得好的地方。** 台灣評分數最多的國際熱量 App。進口包裝食品、連鎖速食、健身補給品幾乎都查得到，條碼掃描成熟穩定。\n\n**不足的地方。** 那個量來自使用者上傳，所以**同一項商品有好幾筆不同的數值**，你選到哪一筆會改變當天的總和。台式小吃與超商鮮食要看有沒有人剛好建過。記錄完之後，它不會告訴你下一步。\n\n**適合誰**：常吃進口包裝食品、習慣掃條碼、而且有能力自己判斷該選哪一筆資料的人。\n\n## fatsecret 卡路里計算器 — 不付費也能走很遠\n\n| | |\n| --- | --- |\n| 開發商 | fatsecret |\n| 評分 | 4.7 · 8,833 則評分（App Store 台灣） |\n| 價格 | 免費版相當完整 · Premium 另計 |\n\n**做得好的地方。** 不花錢，基本記錄幾乎都做得到，條碼、食譜、社群都在。它也會算每日消耗熱量、整理每週攝取，資料派的人會喜歡。\n\n**不足的地方。** 資料同樣以使用者上傳為主。趨勢分析、體組成、教練這些都薄。\n\n**適合誰**：不想付費，只想老實把東西記下來的人。\n\n## Cofit 我的專屬營養師 — 台灣外食品項最齊\n\n| | |\n| --- | --- |\n| 開發商 | Cofit Healthcare Inc.（群健科技） |\n| 評分 | **4.8** · 8,524 則評分（App Store 台灣） |\n| 價格 | 免費下載 · App 內購買 |\n\n![三餐來自超商和自助餐的人，需要的是在地資料](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n**做得好的地方。** 商店說明寫明資料庫收錄「上萬筆食物營養資訊」，而且**特別涵蓋便利商店與外食餐廳**。要記超商鮮食和外食，這是台灣目前最齊的一款。而且照片傳上去會有**真人營養師**回覆，身體數值可追蹤十項以上，還能匯入 InBody 報告。\n\n**不足的地方。** 完整的營養師服務是課程制，價位在這份名單的高端。每餐都要拍照上傳，記錄流程偏重。生理週期、GLP-1 用藥、冥想與恢復都不在範圍內。\n\n**適合誰**：三餐以超商和外食為主，而且願意為真人回饋付費的人。\n\n## AI 卡路里計算器（Appediet） — 營養素欄位最多\n\n| | |\n| --- | --- |\n| 開發商 | Appediet Information PTE. LTD |\n| 評分 | **4.8** · 7,051 則評分（App Store 台灣） |\n| 價格 | 免費下載 · App 內購買 |\n\n**做得好的地方。** 拍照辨識加條碼，商店說明標示收錄超過 150 萬筆食物與 **108 項營養素**，含維生素與礦物質。有繁體中文介面，內建 AI 助理會檢查當天的攝取。\n\n**不足的地方。** 商店頁面沒有針對台灣或華語圈食物提出任何覆蓋宣稱，使用者評論也反映中文圈的品項偏少。視野只有飲食一條線。\n\n**適合誰**：主要吃包裝食品，想要欄位多一點的人。\n\n## Cronometer — 微量營養素看得最深\n\n| | |\n| --- | --- |\n| 開發商 | Cronometer Software Inc |\n| 價格 | 免費下載 · Gold 另計 |\n| 資料 | 驗證・精選 |\n\n**做得好的地方。** 維生素與礦物質追得最紮實。缺乏症管理、臨床飲食、限制性飲食的人，幾乎找不到替代品。它是這份名單裡最敢把資料品質拿出來講的一款。\n\n**不足的地方。** 選了驗證就換來資料庫小，手動輸入的機會多。台灣在地食物很弱，巷口麵包店的麵包不會在裡面。在台灣的使用者基數也很小。\n\n**適合誰**：真的需要微量營養素數字的人。\n\n## 一次看完\n\n| App | 資料出處 | 台灣外食品項 | 拍照記錄 | 微量營養素 | 體組成 | 生理週期 | GLP-1 | AI 教練 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **USDA ＋ 韓國食藥處 ＋ 自家精選** | 以 AI 掃描補足 | **有** | 主要巨量 | **推估趨勢** | **有** | **有** | **八種紀錄一起讀** |\n| Cofit | 自建，含便利商店與外食餐廳 | **最齊** | 有，並由營養師看 | 部分 | 可匯入 InBody 報告 | 無 | 無 | AI 辨識 ＋ 真人營養師 |\n| MyFitnessPal | 以使用者上傳為主 | 普通 | 有限 | 部分 | 無 | 無 | 基本記錄 | 有限 |\n| fatsecret | 以使用者上傳為主 | 普通 | 有限 | 部分 | 無 | 無 | 無 | 無 |\n| AI 卡路里計算器（Appediet） | 自建 ＋ 條碼 | 偏少 | **有** | **108 項** | 無 | 無 | 無 | 飲食助理 |\n| Cronometer | 驗證・精選 | 弱 | 無 | **最深** | 無 | 無 | 無 | 無 |\n\nApp 特性以 2026 年 10 月為準，評分取自 App Store 台灣。方案與功能經常改動，付費前請先看商店頁面。\n\n## 不會累的記法\n\n![一碗飯每個人盛的量都不一樣](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n- **每次都用同一種方式記。** 每天吃的那份燕麥就固定選同一筆，別每次重挑。\n- **只秤熱量密度高的。** 油、堅果、堅果醬、乾的穀物，在很小的體積裡塞最多熱量。\n- **看一週，不要看一天。** 單日總和會被水分、鹽分、生理週期推著跑。\n- **先把蛋白質填滿。** 熱量不準的時候，撐住結果的是蛋白質目標。\n- **手搖飲照實記。** 半糖、加珍珠、換燕麥奶都要記進去，不然你會以為自己停滯得莫名其妙。\n- **不要追求完美，要追求每天都有。** 隨便記的一餐遠勝過空白的一天。\n\n## 結論\n\n不要用準確度挑，用**一致性**挑。最好的熱量 App 是**能讓你在十秒內把星期二晚餐記進去的那一款**。\n\n然後看數字後面有沒有東西。如果記錄沒有變成**今天要做的一件事**，那它就是一本帳簿。\n\n[開始使用 HAVIT →](https://www.aihavit.com/)",
+      "key_stats": [
+        {
+          "label": "HAVIT 食物資料庫",
+          "value": "約 486,000 筆",
+          "source": "USDA 432,418 ＋ 韓國食藥處 41,218 ＋ 自家精選 12,671，皆為公務機關或自家維護的資料"
+        },
+        {
+          "label": "MyFitnessPal（App Store 台灣）",
+          "value": "4.7 · 23,792 則評分",
+          "source": "App Store 台灣，2026 年 10 月查核"
+        },
+        {
+          "label": "Cofit 我的專屬營養師（App Store 台灣）",
+          "value": "4.8 · 8,524 則評分",
+          "source": "App Store 台灣，2026 年 10 月查核 — 台灣外食與便利商店品項最齊"
+        },
+        {
+          "label": "AI 卡路里計算器 Appediet 標示的營養素欄位",
+          "value": "108 項",
+          "source": "App Store 台灣商店說明，2026 年 10 月查核"
+        }
+      ],
+      "comparison_table": {
+        "title": "一次看完",
+        "headers": [
+          "App",
+          "資料出處",
+          "台灣外食品項",
+          "拍照記錄",
+          "微量營養素",
+          "體組成",
+          "生理週期",
+          "GLP-1",
+          "AI 教練"
+        ],
+        "rows": [
+          [
+            "HAVIT",
+            "USDA ＋ 韓國食藥處 ＋ 自家精選",
+            "以 AI 掃描補足",
+            "有",
+            "主要巨量",
+            "推估趨勢",
+            "有",
+            "有",
+            "八種紀錄一起讀"
+          ],
+          [
+            "Cofit",
+            "自建，含便利商店與外食餐廳",
+            "最齊",
+            "有，並由營養師看",
+            "部分",
+            "可匯入 InBody 報告",
+            "無",
+            "無",
+            "AI 辨識 ＋ 真人營養師"
+          ],
+          [
+            "MyFitnessPal",
+            "以使用者上傳為主",
+            "普通",
+            "有限",
+            "部分",
+            "無",
+            "無",
+            "基本記錄",
+            "有限"
+          ],
+          [
+            "fatsecret",
+            "以使用者上傳為主",
+            "普通",
+            "有限",
+            "部分",
+            "無",
+            "無",
+            "無",
+            "無"
+          ],
+          [
+            "AI 卡路里計算器（Appediet）",
+            "自建 ＋ 條碼",
+            "偏少",
+            "有",
+            "108 項",
+            "無",
+            "無",
+            "無",
+            "飲食助理"
+          ],
+          [
+            "Cronometer",
+            "驗證・精選",
+            "弱",
+            "無",
+            "最深",
+            "無",
+            "無",
+            "無",
+            "無"
+          ]
+        ],
+        "caption": "App 特性以 2026 年 10 月為準，評分取自 App Store 台灣。方案與功能經常改動，付費前請先看商店頁面。"
+      },
+      "faq": [
+        {
+          "question": "熱量計算 App 哪一款最準？",
+          "answer": "照這個問題的字面意思，沒有一款準。包裝上的熱量是用成分算出來的、資料庫裡的每一筆是某個人輸入的、一份是多少是你目測的、每日消耗是公式的推估。改用一致性來挑——同一種食物每次都用同一種方式記，數字本身偏掉，趨勢還是對的。"
+        },
+        {
+          "question": "台灣超商鮮食和自助餐便當，哪一款查得到？",
+          "answer": "在地品項目前以 Cofit 最齊，它的商店說明明確寫到涵蓋便利商店與外食餐廳。國際 App 要看有沒有使用者剛好建過，數值也常互相矛盾。另一條路是拍照：HAVIT 的 AI 食物掃描直接推估混合菜色，自助餐便當不用一樣一樣查。"
+        },
+        {
+          "question": "手搖飲要怎麼記才有意義？",
+          "answer": "把客製化一起記進去。半糖、加珍珠、換燕麥奶，每一項都會改變結果。要注意的是，同一款配料在不同來源查到的熱量差距可以很大，所以重點是每次都用同一筆資料記——換來換去會讓你的週趨勢完全看不出東西。"
+        },
+        {
+          "question": "MyFitnessPal 和 Cronometer 該選哪個？",
+          "answer": "它們最佳化的是相反的東西。MyFitnessPal 以使用者上傳為主，所以筆數贏，但同一項商品有多個互相矛盾的值也是同一個原因。Cronometer 贏在經過驗證的條目和微量營養素深度，代價是要手動輸入更多，而且台灣在地食物很弱。常吃包裝食品選前者，做缺乏症管理或限制性飲食選後者。"
+        },
+        {
+          "question": "食物一定要秤嗎？",
+          "answer": "不用全部秤。油、堅果、堅果醬、乾的穀物在很小的體積裡塞最多熱量，光秤這幾類，就能用少很多的力氣拿到大部分的效果。"
+        },
+        {
+          "question": "熱量都有控制，為什麼沒效？",
+          "answer": "目標值本身就是推估，而單日總和會被水分、鹽分、生理週期推著跑。看週趨勢，不要做單日判決。如果停滯的那一週剛好撞上睡眠不足或經期前一週，只看食物的 App 沒有辦法讓你看見這件事——這就是 HAVIT 把飲食和睡眠、週期放在一起讀的原因。"
+        }
+      ],
+      "references": [
+        {
+          "title": "MyFitnessPal 的卡路里計算機和膳食追蹤工具（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.7 · 23,792 則評分",
+          "url": "https://apps.apple.com/tw/app/id341232718"
+        },
+        {
+          "title": "fatsecret 卡路里計算器（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.7 · 8,833 則評分",
+          "url": "https://apps.apple.com/tw/app/id347184248"
+        },
+        {
+          "title": "Cofit - 我的專屬營養師（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.8 · 8,524 則評分",
+          "url": "https://apps.apple.com/tw/app/id1062498342"
+        },
+        {
+          "title": "AI 卡路里計算器 - Appediet（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核 — 4.8 · 7,051 則評分；商店說明標示 108 項營養素",
+          "url": "https://apps.apple.com/tw/app/id6450329545"
+        },
+        {
+          "title": "Cronometer: Calorie Counter（App Store 台灣）",
+          "source": "Apple App Store 台灣，2026 年 10 月查核",
+          "url": "https://apps.apple.com/tw/app/id1145935738"
+        },
+        {
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 項研究，其中 15 項針對飲食自我監測；作者評定證據等級為弱",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — 減重中瘦體組織所佔比例在部分試驗為 40–60%，其他試驗 ≤15%；瘦體組織 ≠ 肌肉",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
           "title": "GLP-1 Habit Report 2026 — HAVIT 對 1,090 名 GLP-1 使用者的內部分析",
@@ -708,7 +796,7 @@
           "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-12"
     },
     "es": {
       "title": "Mejores apps para contar calorías en 2026: una por una",
@@ -999,130 +1087,186 @@
       "last_updated": "2026-10-11"
     },
     "id": {
-      "title": "Aplikasi Penghitung Kalori Terbaik di 2026: Mengapa Konsistensi Mengalahkan Akurasi",
+      "title": "Aplikasi Penghitung Kalori Terbaik 2026: Dibedah Satu per Satu untuk Makanan Indonesia",
       "short_title": "Aplikasi Penghitung Kalori Terbaik 2026",
-      "meta_description": "Setiap angka dalam aplikasi kalori adalah perkiraan — label, database, porsi, pengeluaran. Setelah Anda menerima itu, Anda berhenti mencari akurasi dan mulai mencari konsistensi. Enam kriteria, perbandingan berdasarkan tujuan, dan di mana setiap aplikasi kalah.",
-      "tldr": "Empat lapisan perkiraan menumpuk sebelum angka kalori muncul di layar Anda, jadi total harian adalah rentang, bukan angka. Pilih aplikasi di mana mencatat makan malam Selasa Anda yang sebenarnya hanya butuh sepuluh detik — lalu baca mingguan, bukan harian.",
-      "body_md": "*Pengungkapan jujur: HAVIT menerbitkan blog ini dan membuat salah satu aplikasi di bawah ini. Kami telah menyebutkan di mana aplikasi kami kalah. Setiap aplikasi di sini dinilai dengan kriteria yang sama.*\n\nInilah hal yang tidak akan disampaikan oleh siapa pun yang menjual penghitung kalori kepada Anda: **setiap angka dalam rantai adalah perkiraan.** Label pada kemasan adalah perkiraan. Entri database yang diketik orang lain adalah perkiraan. Ukuran porsi Anda adalah perkiraan. Pengeluaran energi harian Anda adalah perkiraan dari perkiraan.\n\nItu bukan argumen menentang penghitungan. Ini adalah argumen untuk memilih aplikasi berdasarkan kriteria yang tepat. Setelah Anda menerima bahwa angka absolut adalah perkiraan, akurasi berhenti menjadi hal yang perlu dicari dan **konsistensi** menggantikannya — makanan yang sama, dicatat dengan cara yang sama, setiap kali, sehingga tren berarti sesuatu bahkan ketika angkanya tidak.\n\nPanduan ini mengurutkan kategori berdasarkan hal tersebut.\n\n## Mengapa 'penghitung kalori paling akurat' adalah pencarian yang salah\n\nEmpat lapisan perkiraan terpisah menumpuk sebelum angka mencapai layar Anda.\n\n**Label.** Nilai energi makanan kemasan dihitung dari nutrisi yang ada, bukan diukur dalam kemasan yang Anda pegang, dan aturan pelabelan makanan di setiap pasar utama mengizinkan toleransi antara angka yang dinyatakan dan yang dianalisis. Angka tersebut adalah deklarasi, bukan pembacaan.\n\n**Database.** Aplikasi nutrisi besar membangun keluasan mereka dari entri yang dikirimkan pengguna. Keluasan adalah alasan mereka menang; pengiriman pengguna adalah alasan satu yoghurt supermarket dapat menghasilkan selusin entri yang hampir identik dengan angka kalori yang berbeda secara bermakna. Database entri terverifikasi menukar ukuran dengan keandalan, yang merupakan pertukaran nyata dan bukan slogan pemasaran.\n\n**Porsi.** Ini biasanya kesalahan tunggal terbesar. 'Satu mangkuk' bervariasi lebih banyak antara dua orang daripada sebagian besar entri database bervariasi dari kebenaran.\n\n**Pengeluaran Anda.** Setiap target yang dibangun pada formula BMR atau TDEE membawa variasi individual yang bermakna. Formula adalah rata-rata populasi yang diterapkan pada satu orang.\n\nTumpuk itu dan total harian adalah rentang, bukan angka. Pertanyaan yang berguna menjadi: apakah aplikasi ini memungkinkan saya mencatat dengan cara yang sama setiap hari, cukup cepat sehingga saya terus melakukannya? Itulah perilaku yang ditunjukkan oleh bukti — tinjauan sistematis dari 22 studi pemantauan diri, 15 tentang pencatatan makanan, menemukan hubungan konsisten dengan penurunan berat badan, sambil menilai bukti itu sendiri lemah pada dasar metodologis ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)).\n\n## 6 kriteria untuk memilih aplikasi penghitung kalori\n\n### 1. Entri terverifikasi atau keluasan crowd-sourced?\n\nTentukan kegagalan mana yang Anda sukai. Database terverifikasi tidak akan memiliki roti toko roti lokal Anda; yang crowd-sourced akan memilikinya berkali-kali dengan nilai berbeda. Jika Anda kebanyakan makan makanan kemasan, keluasan menang. Jika Anda memerlukan angka yang dapat Anda pertanggungjawabkan, verifikasi menang.\n\n### 2. Berapa banyak ketukan untuk makanan berulang?\n\nKebanyakan orang makan rotasi kecil makanan. Aplikasi yang mengubah sarapan Selasa Anda menjadi satu ketukan akan mengungguli aplikasi yang lebih akurat yang membuat Anda mencarinya setiap pagi — karena Anda masih akan menggunakannya di bulan Maret.\n\n### 3. Apakah melacak mikronutrien, atau hanya makro?\n\nHanya beberapa aplikasi yang mendalam tentang vitamin dan mineral. Jika Anda mengelola defisiensi, diet klinis, atau pola restriktif, ini adalah kriteria yang menentukan daftar pendek Anda, dan aplikasi nutrisi khusus benar-benar lebih baik dalam hal ini daripada yang lain.\n\n### 4. Apakah menyesuaikan target, atau mengaturnya sekali?\n\nTarget yang dihitung sekali pada hari pertama menjadi basi saat Anda menurunkan berat badan, mengubah latihan, atau plateau. Cari aplikasi yang menghitung ulang dari asupan yang diamati dan tren berat badan Anda sendiri daripada menjalankan ulang formula yang sama.\n\n### 5. Apakah menunjukkan tren atau putusan?\n\nTotal harian berisik — air, garam, siklus, glikogen. Tampilan bergulir mingguan menjawab 'apakah saya bergerak?' jauh lebih baik daripada spanduk merah 'melebihi anggaran', yang sebagian besar mengajarkan orang untuk berhenti mencatat pada hari-hari yang paling mereka butuhkan.\n\n### 6. Apakah menghitung kalori cocok untuk Anda sama sekali?\n\nPatut ditanyakan dengan jujur. Bagi sebagian orang, penghitungan terperinci menjadi fiksasi yang tidak membantu. Jika pelacakan membuat Anda cemas atau kaku seputar makanan, pendekatan berbasis kebiasaan atau berbasis komposisi adalah yang lebih cocok, dan berbicara dengan profesional adalah langkah pertama yang lebih baik daripada aplikasi yang berbeda.\n\n## Aplikasi penghitung kalori, berdasarkan untuk apa mereka dibuat\n\n*Karakteristik aplikasi per Oktober 2026 — periksa daftar toko langsung sebelum Anda berkomitmen.*\n\n| Jenis aplikasi | Dibuat untuk | Gaya database | Mikronutrien | Di mana kalah |\n| --- | --- | --- | --- | --- |\n| MyFitnessPal | Keluasan — temukan hampir semua makanan | Besar, banyak dikirimkan pengguna | Dasar | Entri duplikat dan tidak konsisten |\n| Cronometer | Akurasi dan kedalaman nutrisi | Terverifikasi, dikurasi | Ekstensif | Database lebih kecil; lebih banyak entri manual |\n| FatSecret | Pencatatan langsung pada tingkat gratis yang murah hati | Dikirimkan pengguna | Dasar | Lebih sedikit fitur tren dan komposisi tubuh daripada aplikasi yang dipimpin pelatihan |\n| Photo-first / AI loggers | Kecepatan — detik per makanan | Perkiraan model dari gambar | Terbatas | Perkiraan adalah rentang, bukan pembacaan |\n| HAVIT | Konteks — makanan di dalam tidur, siklus, suasana hati, obat | Sedang | Makro inti, protein-first | Database lebih kecil daripada spesialis |\n\nJika satu-satunya persyaratan Anda adalah rincian mikronutrien yang tepat, aplikasi nutrisi khusus adalah jawaban yang tepat dan ini adalah percakapan singkat.\n\n## Cara menghitung tanpa kehilangan akal\n\n- **Catat dengan cara yang sama setiap kali.** Konsistensi mengalahkan akurasi. Pilih entri untuk oat biasa Anda dan gunakan kembali daripada mengoptimalkannya setiap minggu.\n- **Timbang hal-hal padat.** Minyak, kacang-kacangan, selai kacang, dan biji-bijian kering mengemas energi paling banyak ke dalam volume terkecil, jadi porsi yang diperkirakan dari ini adalah di mana hari salah paling cepat. Menimbang hanya ini mendapatkan sebagian besar manfaat untuk sebagian kecil dari usaha.\n- **Baca mingguan, bukan harian.** Satu hari hampir tidak memberi tahu Anda apa pun.\n- **Prioritaskan protein.** Target protein adalah bagian dari rencana yang bertahan ketika kalori tidak sempurna — terutama pada terapi GLP-1, di mana bagian massa tanpa lemak dari berat yang hilang berkisar dari 40–60% dalam beberapa uji coba hingga 15% atau kurang di yang lain ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/)).\n- **Berhenti mencatat dengan sempurna dan mulai mencatat selalu.** Entri kasar mengalahkan hari kosong dengan margin yang lebar.\n\n## Di mana setiap aplikasi gagal — termasuk milik kami\n\n- **MyFitnessPal** memiliki keluasan yang tidak ada yang lain cocok, dan masalah entri duplikat yang datang dengannya.\n- **Cronometer** adalah yang paling dapat dipertahankan pada kualitas data dan meminta lebih banyak dari Anda sebagai imbalannya.\n- **Pencatatan berbasis foto** adalah rute tercepat dari piring ke catatan; angka yang dikembalikannya adalah perkiraan model dan harus dibaca sebagai rentang.\n- **HAVIT** memiliki database makanan yang lebih kecil daripada MyFitnessPal atau Cronometer, dan angka komposisi tubuhnya adalah perkiraan AI daripada pengukuran DEXA atau InBody. Jika data mikronutrien yang tepat adalah persyaratan Anda, gunakan aplikasi nutrisi khusus — kami tidak mencoba memenangkan perbandingan itu.\n\n## Kesimpulan\n\nPilih berdasarkan konsistensi, bukan pada klaim akurasi. Aplikasi penghitung kalori terbaik adalah yang di mana mencatat makan malam Selasa Anda yang sebenarnya membutuhkan sepuluh detik, karena bukti terletak pada tindakan mencatat daripada pada presisi angka.\n\nLalu baca mingguan, bukan harian.\n\n## Mengapa HAVIT — kalori adalah satu input, bukan keseluruhan gambar\n\nHAVIT menghitung kalori, dan tidak berhenti di situ. Alasannya adalah bahwa angka itu sendiri tidak menjelaskan minggu yang terhenti: tidur, stres, fase siklus, langkah, dan obat GLP-1 semuanya menggerakkan nafsu makan dan berat badan, dan aplikasi khusus makanan tidak memiliki cara untuk melihat salah satunya.\n\nJadi HAVIT menyimpan makanan, hidrasi, tidur, langkah, siklus, suasana hati, dan obat dalam satu rutinitas, memperkirakan komposisi tubuh daripada melaporkan berat badan saja, dan mengubah minggu menjadi satu tindakan konkret untuk hari ini. Pencatatan foto menangani masalah kecepatan; check-in harian menangani masalah konteks.\n\nUSPSTF memberikan rekomendasi Grade B untuk intervensi perilaku intensif, multikomponen pada orang dewasa dengan BMI 30 atau lebih tinggi — yang diberikan oleh klinisi, bukan yang diberikan oleh aplikasi ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Struktur dan pengulangan adalah bagian yang dapat dipinjam aplikasi. Dalam analisis kami sendiri terhadap 1.090 pengguna GLP-1, pencatat yang paling konsisten membangun kebiasaan terkuat ([Laporan Kebiasaan GLP-1](/en/glp-1-habit-report)).\n\nHAVIT adalah aplikasi kesehatan, bukan alat medis. Angka kalori dan komposisi tubuh adalah perkiraan.\n\n[Coba HAVIT →](https://www.aihavit.com/)\n",
+      "meta_description": "FatSecret, MyFitnessPal, Cronometer, YAZIO, Lose It!, pencatat berbasis foto, dan HAVIT — dibedah satu per satu: asal data, cakupan makanan Indonesia, mikronutrien, komposisi tubuh. Dicek Oktober 2026.",
+      "tldr": "Semua angka di aplikasi kalori adalah perkiraan, jadi pilih berdasarkan konsistensi, bukan klaim akurasi. Di Indonesia penentunya satu: apa yang terjadi saat Anda menghadapi piring campur dengan enam komponen.",
+      "body_md": "Kebanyakan orang yang mencari aplikasi penghitung kalori bertanya mana yang paling akurat. Pertanyaan itu tidak punya jawaban. Angka di kemasan dihitung dari kandungan gizi, bukan diukur dari bungkus yang sedang Anda pegang. Entri di database diketik seseorang. Porsi Anda ditaksir dengan mata. Pengeluaran energi harian Anda adalah tebakan sebuah rumus.\n\nDi Indonesia ada satu lapisan lagi: sebagian besar yang Anda makan tidak berlabel sama sekali. Sepiring nasi campur warteg, nasi padang, atau pecel lele plus lalapan tidak punya tabel gizi, dan porsinya berbeda di tiap warung.\n\nJadi ganti kriterianya. Kalau angka mutlaknya memang perkiraan, yang penting adalah **konsistensi** — makanan yang sama, dicatat dengan cara yang sama, setiap kali. Angkanya boleh meleset asal trennya benar.\n\nPanduan ini membahas aplikasi utamanya satu per satu. Semua dicek di Google Play dan situs resmi masing-masing, posisi Oktober 2026.\n\n![Mencatat adalah masalah kebiasaan sebelum menjadi masalah akurasi](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_TRACK_001.jpg)\n\n## Tiga hal yang perlu dicek sebelum memilih\n\n**1. Berapa detik per catatan?** Kebanyakan orang memakan rotasi menu yang sempit. Aplikasi yang mengubah sarapan hari Selasa menjadi satu ketukan mengalahkan aplikasi yang lebih akurat tapi menyuruh Anda mencari ulang tiap pagi — karena bulan depan Anda masih memakainya.\n\n**2. Dari mana datanya berasal?** Bukan ukurannya. **Asalnya.** Database yang didominasi kiriman pengguna memuat produk yang sama berkali-kali dengan nilai berbeda. Database terverifikasi lebih kecil tapi bisa dipertanggungjawabkan. Pilih kegagalan mana yang lebih bisa Anda terima.\n\n**3. Ada apa setelah angkanya?** Kalau aplikasinya hanya melaporkan, sekitar minggu kelima ini terasa seperti pembukuan. Cari sesuatu yang membaca catatan lalu memberi tahu apa yang harus diubah.\n\n## HAVIT — pencatatan makanan, data tubuh, dan coach AI dalam satu aplikasi\n\n| | |\n| --- | --- |\n| Pembuat | Havit Inc. |\n| Harga | Gratis · ada pembelian dalam aplikasi |\n| Database makanan | **±486.000 entri** — 432.418 USDA branded + 41.218 Korea MFDS + 12.671 hasil kurasi |\n| Bahasa | 35 bahasa, termasuk Bahasa Indonesia |\n| Platform | iOS · Android |\n\n![AI Food Scan — foto piringnya, dapatkan rincian perkiraan](/blog/havit/shot/feature-nutrition.webp)\n\n**Pengakuan dulu, baru argumennya.** Tidak ada aplikasi di daftar ini — HAVIT termasuk — yang punya database lengkap masakan rumahan dan warung Indonesia. Tidak ada entri \"nasi campur, lauk ayam goreng, sayur nangka, sambal\" yang bisa dicari, karena porsinya berbeda di tiap warung dan tiap dapur.\n\nJustru karena itu **AI Food Scan** menjadi fitur paling penting HAVIT di pasar Indonesia. Satu foto piring dipecah menjadi perkiraan kalori dan makro per komponen. Piring dengan enam komponen adalah kasus di mana kolom pencarian pasti kalah dan kamera menang — dan itu kebetulan adalah bentuk makan siang yang paling umum di sini.\n\n### Database: asal lebih penting daripada ukuran\n\n![Dari mana entri berasal lebih penting daripada berapa banyak jumlahnya](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg)\n\n- **432.418 produk bermerek USDA** — basis data pangan publik Amerika Serikat\n- **41.218 produk bermerek Korea MFDS** — lembaga yang setara BPOM di Korea\n- **12.671 entri hasil kurasi** dengan data gizi lengkap\n\nMyFitnessPal punya lebih dari 14 juta entri, tapi sebagian besar dikirim pengguna — itu sebabnya satu yoghurt supermarket bisa kembali sebagai belasan entri nyaris identik dengan angka yang berbeda jauh. 486.000 entri HAVIT berasal dari **lembaga pangan publik**, bukan unggahan. Lebih kecil, dan Anda bisa menunjuk dari mana tiap angka datang.\n\n### Delapan catatan, satu coach\n\n![Coach AI HAVIT membaca seluruh catatan lalu mengembalikan satu tindakan konkret](/blog/havit/shot/feature-ai-coach.webp)\n\nAplikasi kalori hanya melihat apa yang Anda makan. HAVIT mencatat **delapan hal** — makan, air, olahraga, tidur, langkah, **siklus haid**, suasana hati, dan **obat GLP-1** — dan coach AI membacanya bersama-sama.\n\nItulah yang membuatnya bisa menjawab minggu yang mandek. *Protein di bawah target empat hari berturut-turut, dua malam tidur di bawah enam jam, dan ini minggu sebelum haid — tiga hal ini berhubungan, dan ini yang pertama diperbaiki.* Aplikasi yang hanya melihat makanan tidak punya cara melihat satu pun dari itu.\n\n### Komposisi tubuh, bukan cuma berat\n\n![Wawasan komposisi tubuh — tren, bukan satu angka](/blog/havit/shot/feature-body-insights.webp)\n\nHAVIT memperkirakan **tren lemak tubuh dan massa tanpa lemak** tanpa alat, dan menerbitkan studi pembanding internal terhadap InBody (n=70). Ini estimasi, bukan hasil DEXA atau InBody.\n\nPada terapi GLP-1 ini lebih penting lagi: porsi massa tanpa lemak dari berat yang hilang pernah dilaporkan mencapai **40–60%** pada sebagian uji klinis, dan timbangan kamar mandi membacanya sebagai keberhasilan. HAVIT mencatat **dosis, efek samping, dan protein** di tempat yang sama.\n\n### Yang membuat Anda tetap mencatat\n\n**Misi harian** menerjemahkan teknik perubahan perilaku yang sudah mapan menjadi satu tindakan untuk hari ini. **Check-in harian** menanyakan kondisi, tidur, nafsu makan, dan suasana hati dalam beberapa ketukan. Di atasnya ada rangkaian hari, lencana, avatar, peringkat, dan **tantangan tim**. Plus **enam meditasi terpandu**, **video olahraga**, **lebih dari 1.400 artikel**, dan **puasa** — yang selama Ramadan membuat sahur dan berbuka masuk ke aplikasi yang sama dengan tidur dan nafsu makan. Dikembangkan bersama para ahli dari Juvis Diet, klinik diet nomor satu di Korea.\n\n**Cocok untuk:** orang yang makan di warung atau masak sendiri; orang yang rajin mencatat tapi tidak tahu apa yang harus diubah; pengguna GLP-1; orang yang capek memakai empat aplikasi.\n\n## FatSecret — cakupan makanan Indonesia terbaik\n\n| | |\n| --- | --- |\n| Harga | Paket gratis yang luas · Premium terpisah |\n| Google Play | 4,8 bintang · 548 rb ulasan · 50 jt+ unduhan |\n| Situs lokal | fatsecret.co.id, berbahasa Indonesia |\n\n**Yang dikerjakannya dengan baik.** Ini keunggulan nyata yang perlu diakui: **untuk makanan Indonesia, FatSecret paling lengkap di daftar ini.** Ia punya situs Indonesia sendiri dengan entri berbahasa Indonesia. Dicek Oktober 2026, pencarian \"sate ayam\" mengembalikan 960 hasil dan \"rendang\" 80 hasil. Paket gratisnya pun paling murah hati di kategori ini.\n\n**Di mana ia gugur.** Cakupan itu datang dari kontribusi anggota — situsnya sendiri mengajak pengguna \"menambahkan item baru di database makanan\". Hasilnya sebaran nilai yang lebar untuk makanan yang sama: pada hari yang sama, \"Rendang\" generik tercatat sekitar 195 kkal per 100 g sementara satu entri bermerek tercatat 500 kkal per 100 g. Pada entri \"Gado-Gado (Gado-Gado Boplo)\" bahkan tertera 400 kkal per 1 porsi 100 g dengan 0,00 g lemak dan 56 g protein — angka yang tidak mungkin untuk gado-gado. Dan hidangan campur tetap buntu: \"nasi padang\" hanya mengembalikan satu entri, dalam satuan \"1/2 porsi (540 g)\".\n\n**Cocok untuk:** orang yang bersedia mencari manual dan sudah punya perkiraan porsi sendiri.\n\n## MyFitnessPal — database paling besar\n\n| | |\n| --- | --- |\n| Harga | Gratis · langganan Premium |\n| Google Play | 4,8 bintang · 2,92 jt ulasan · 100 jt+ unduhan |\n| Database | 14 jt+ entri, didominasi kiriman pengguna |\n\n**Yang dikerjakannya dengan baik.** Keluasan yang tak tertandingi untuk produk kemasan dan restoran rantai, dengan pemindai barcode yang matang. Di minimarket, ini aplikasi yang paling sering berhasil.\n\n**Di mana ia gugur.** Keluasan itu dari kiriman pengguna, jadi satu produk muncul berkali-kali dengan nilai berbeda dan pilihan entri mengubah total harian Anda. Untuk masakan warung, cakupannya jauh lebih tipis daripada FatSecret. Ia melaporkan; ia tidak meresepkan.\n\n**Cocok untuk:** orang yang banyak makan produk kemasan dan restoran rantai.\n\n## Cronometer — data paling bisa dipertanggungjawabkan\n\n| | |\n| --- | --- |\n| Harga | Gratis · langganan Gold |\n| Google Play | 4,6 bintang · 59,1 rb ulasan · 5 jt+ unduhan |\n\n![Saat mikronutrien benar-benar penting](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n**Yang dikerjakannya dengan baik.** Vitamin dan mineral dilacak dengan benar, dari sumber terkurasi dan terverifikasi. Untuk defisiensi, diet klinis, atau pola makan yang sangat terbatas, hampir tidak ada penggantinya.\n\n**Di mana ia gugur.** Verifikasi berarti database lebih kecil dan entri manual lebih banyak — dan untuk makanan Indonesia itu terasa tajam sekali. Roti dari toko di ujung gang Anda tidak ada di sana, begitu juga menu warung.\n\n**Cocok untuk:** orang yang benar-benar butuh angka mikronutrien.\n\n## YAZIO — dibangun di sekitar jendela makan\n\n| | |\n| --- | --- |\n| Harga | Gratis · langganan PRO |\n| Google Play | 4,9 bintang · 870 rb ulasan · 50 jt+ unduhan |\n\n**Yang dikerjakannya dengan baik.** Timer puasa dan rencana makan menyatu, dengan antarmuka rapi dan terjemahan Indonesia yang layak. Timer puasanya berguna di luar Ramadan maupun di dalamnya.\n\n**Di mana ia gugur.** Cakupan menu restoran dan merek lokal lebih tipis daripada FatSecret, dan rencana makannya disusun di sekitar bahan Eropa.\n\n**Cocok untuk:** orang yang rencananya dibangun di sekitar *kapan* makan.\n\n## Lose It! — sederhana dan murah\n\n| | |\n| --- | --- |\n| Harga | Gratis dengan iklan · langganan Premium |\n| Google Play | 4,7 bintang · 184 rb ulasan · 10 jt+ unduhan |\n\n**Yang dikerjakannya dengan baik.** Salah satu opsi mapan dengan tingkat harga paling rendah, dan sangat sederhana dipakai.\n\n**Di mana ia gugur.** Pengulas konsisten mengeluhkan gangguan iklan di tingkat gratis, dan sebagian fitur dasar ada di balik dinding berbayar. Cakupan makanan Indonesia tipis.\n\n**Cocok untuk:** orang yang ingin pencatatan lurus-lurus saja di tingkat harga paling rendah.\n\n## Pencatat berbasis foto dan AI\n\n| | |\n| --- | --- |\n| Contoh di Play Store Indonesia | Journable — 4,9 bintang · 121 rb ulasan · 1 jt+ unduhan |\n\n**Yang dikerjakannya dengan baik.** Kecepatan. Untuk hidangan campur dan masakan orang lain, merekalah yang menentukan satu makanan tercatat atau dilewati sama sekali.\n\n**Di mana ia gugur.** Model yang melihat foto tidak bisa melihat minyak yang terserap atau menimbang apa yang ada di bawah lapisan atas. Baca angkanya sebagai titik tengah sebuah rentang, bukan sebagai hasil ukur. Dan setelah angka itu, sebagian besar berhenti.\n\n**Cocok untuk:** orang yang berhenti mencatat karena terlalu lama.\n\n## Perbandingan berdampingan\n\n| Aplikasi | Asal data | Makanan Indonesia | Mikronutrien | Scan foto | Komposisi tubuh | Siklus haid | GLP-1 | Coach AI |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **USDA + MFDS + kurasi** | Tidak lengkap, ditutup scan foto | Makro inti, protein dulu | **Ya** | **Estimasi** | **Ya** | **Ya** | **Baca 8 catatan** |\n| FatSecret | Kiriman anggota | **Paling luas** | Dasar | Terbatas | Tidak | Tidak | Tidak | Tidak |\n| MyFitnessPal | Kiriman pengguna | Tipis | Dasar | Terbatas | Tidak | Tidak | Catatan dasar | Terbatas |\n| Cronometer | Terverifikasi, terkurasi | Sangat tipis | **Lengkap** | Terbatas | Tidak | Tidak | Tidak | Tidak |\n| YAZIO | Kurasi | Tipis | Dasar | Terbatas | Tidak | Tidak | Tidak | Dipandu puasa |\n| Lose It! | Kiriman pengguna | Tipis | Dasar | Terbatas | Tidak | Tidak | Tidak | Tidak |\n| Pencatat foto | Perkiraan model | Lewat gambar | Tidak | **Ya** | Tidak | Tidak | Tidak | Terbatas |\n\nKarakteristik aplikasi per Oktober 2026. Paket dan harga sering berubah — bandingkan penawaran terbaru di halaman tokonya sebelum berlangganan.\n\n## Cara menghitung tanpa kehabisan tenaga\n\n- **Catat dengan cara yang sama setiap kali.** Pilih satu entri untuk nasi putih Anda dan pakai ulang terus.\n- **Timbang hanya yang padat energi.** Minyak goreng, santan, kacang, dan selai kacang memadatkan energi paling banyak dalam volume paling kecil — dan masakan Indonesia penuh dengan ketiganya.\n- **Untuk piring campur, foto dulu, perbaiki belakangan.** Catatan kasar jauh lebih baik daripada hari kosong.\n- **Baca mingguan, bukan harian.** Total harian naik-turun karena air, garam, dan siklus haid. Masakan Indonesia tinggi natrium, jadi lonjakan sehari setelah makan di luar itu hampir selalu air.\n- **Dahulukan protein.** Ini bagian rencana yang tetap bertahan ketika hitungan kalorinya tidak sempurna.\n\n## Kesimpulan\n\nPilih berdasarkan konsistensi, bukan berdasarkan klaim akurasi. Aplikasi penghitung kalori terbaik adalah yang membuat makan malam Anda yang sesungguhnya tercatat dalam sepuluh detik.\n\nDi Indonesia itu berarti satu pertanyaan konkret: apa yang terjadi saat Anda menghadapi piring dengan enam komponen? Kalau jawabannya \"cari satu per satu\", Anda akan berhenti di minggu keempat. Lalu cek apa yang datang setelah angkanya — kalau catatan itu tidak pernah berubah jadi **satu hal yang harus dilakukan hari ini**, yang Anda beli adalah buku kas.\n\n[Coba HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "Lapisan perkiraan antara makanan dan angka kalorinya",
-          "value": "4: label, database, porsi, pengeluaran",
-          "source": "Masing-masing adalah perkiraan; lihat bagian di atas"
+          "label": "Database makanan HAVIT",
+          "value": "±486.000 entri",
+          "source": "432.418 USDA branded + 41.218 Korea MFDS + 12.671 hasil kurasi"
         },
         {
-          "label": "Studi dalam tinjauan pemantauan diri (15 di antaranya tentang pencatatan makanan)",
-          "value": "22 studi",
-          "source": "Burke et al. 2011, J Am Diet Assoc — tingkat bukti dinilai lemah oleh penulis"
+          "label": "Entri makanan MyFitnessPal",
+          "value": "14 jt+",
+          "source": "Didominasi kiriman pengguna — produk yang sama dengan beberapa nilai"
         },
         {
-          "label": "Bagian massa tanpa lemak dari berat yang hilang pada terapi GLP-1",
-          "value": "40–60% dalam beberapa uji coba, ≤15% di yang lain",
-          "source": "Neeland et al. 2024, Diabetes Obes Metab"
+          "label": "Sebaran nilai \"Rendang\" di FatSecret Indonesia",
+          "value": "±195 hingga 500 kkal per 100 g",
+          "source": "fatsecret.co.id, dicek Oktober 2026"
         },
         {
-          "label": "Makanan yang layak ditimbang untuk sebagian besar manfaat",
-          "value": "Yang padat energi: minyak, kacang-kacangan, selai kacang, biji-bijian kering",
-          "source": "Energi paling banyak dalam volume terkecil"
+          "label": "Porsi massa tanpa lemak dari berat yang hilang pada terapi GLP-1",
+          "value": "40–60% pada sebagian uji klinis",
+          "source": "Neeland dkk. 2024, Diabetes Obes Metab"
         }
       ],
       "comparison_table": {
-        "title": "Aplikasi penghitung kalori, berdasarkan untuk apa mereka dibuat",
+        "title": "Perbandingan berdampingan",
         "headers": [
           "Aplikasi",
-          "Dibuat untuk",
-          "Gaya database",
+          "Asal data",
+          "Makanan Indonesia",
           "Mikronutrien",
-          "Di mana kalah"
+          "Scan foto",
+          "Komposisi tubuh",
+          "Siklus haid",
+          "GLP-1",
+          "Coach AI"
         ],
         "rows": [
           [
-            "MyFitnessPal",
-            "Keluasan — temukan hampir semua makanan",
-            "Besar, banyak dikirimkan pengguna",
-            "Dasar",
-            "Entri duplikat dan tidak konsisten"
-          ],
-          [
-            "Cronometer",
-            "Akurasi dan kedalaman nutrisi",
-            "Terverifikasi, dikurasi",
-            "Ekstensif",
-            "Database lebih kecil; lebih banyak entri manual"
+            "HAVIT",
+            "USDA + MFDS + kurasi",
+            "Tidak lengkap, ditutup scan foto",
+            "Makro inti, protein dulu",
+            "Ya",
+            "Estimasi",
+            "Ya",
+            "Ya",
+            "Baca 8 catatan"
           ],
           [
             "FatSecret",
-            "Pencatatan langsung pada tingkat gratis yang murah hati",
-            "Dikirimkan pengguna",
+            "Kiriman anggota",
+            "Paling luas",
             "Dasar",
-            "Lebih sedikit fitur tren dan komposisi tubuh daripada aplikasi yang dipimpin pelatihan"
-          ],
-          [
-            "Photo-first / AI loggers",
-            "Kecepatan — detik per makanan",
-            "Perkiraan model dari gambar",
             "Terbatas",
-            "Perkiraan adalah rentang, bukan pembacaan"
+            "Tidak",
+            "Tidak",
+            "Tidak",
+            "Tidak"
           ],
           [
-            "HAVIT",
-            "Konteks — makanan di dalam tidur, siklus, suasana hati, obat",
-            "Sedang",
-            "Makro inti, protein-first",
-            "Database lebih kecil daripada spesialis"
+            "MyFitnessPal",
+            "Kiriman pengguna",
+            "Tipis",
+            "Dasar",
+            "Terbatas",
+            "Tidak",
+            "Tidak",
+            "Catatan dasar",
+            "Terbatas"
+          ],
+          [
+            "Cronometer",
+            "Terverifikasi, terkurasi",
+            "Sangat tipis",
+            "Lengkap",
+            "Terbatas",
+            "Tidak",
+            "Tidak",
+            "Tidak",
+            "Tidak"
+          ],
+          [
+            "YAZIO",
+            "Kurasi",
+            "Tipis",
+            "Dasar",
+            "Terbatas",
+            "Tidak",
+            "Tidak",
+            "Tidak",
+            "Dipandu puasa"
+          ],
+          [
+            "Lose It!",
+            "Kiriman pengguna",
+            "Tipis",
+            "Dasar",
+            "Terbatas",
+            "Tidak",
+            "Tidak",
+            "Tidak",
+            "Tidak"
+          ],
+          [
+            "Pencatat foto",
+            "Perkiraan model",
+            "Lewat gambar",
+            "Tidak",
+            "Ya",
+            "Tidak",
+            "Tidak",
+            "Tidak",
+            "Terbatas"
           ]
         ],
-        "caption": "Jika rincian mikronutrien yang tepat adalah satu-satunya persyaratan Anda, aplikasi nutrisi khusus adalah jawaban yang tepat."
+        "caption": "Karakteristik aplikasi per Oktober 2026. Paket dan harga sering berubah — bandingkan penawaran terbaru di halaman tokonya sebelum berlangganan."
       },
       "faq": [
         {
           "question": "Aplikasi penghitung kalori mana yang paling akurat?",
-          "answer": "Tidak ada yang akurat dengan cara yang tersirat oleh pertanyaan. Empat lapisan perkiraan menumpuk — toleransi regulasi label, entri database, perkiraan porsi Anda, dan formula yang memperkirakan pengeluaran Anda. Cronometer adalah yang paling dapat dipertahankan pada kualitas data karena entrinya diverifikasi, tetapi total harian masih merupakan rentang. Pilih untuk konsistensi sebagai gantinya: makanan yang sama dicatat dengan cara yang sama setiap kali."
+          "answer": "Tidak ada yang bisa disebut paling akurat, karena setiap angka dalam rantainya adalah perkiraan: nilai di kemasan dihitung bukan diukur, entri database diketik orang, dan porsi Anda ditaksir dengan mata. Pilih berdasarkan konsistensi — makanan yang sama, dicatat dengan cara yang sama, setiap kali. Angkanya boleh meleset asal trennya benar."
         },
         {
-          "question": "Apakah MyFitnessPal atau Cronometer lebih baik?",
-          "answer": "Mereka mengoptimalkan untuk hal yang berlawanan. MyFitnessPal menang pada keluasan karena banyak dikirimkan pengguna, yang juga mengapa satu yoghurt supermarket dapat kembali sebagai selusin entri yang hampir identik dengan angka kalori yang berbeda secara bermakna. Cronometer menang pada entri terverifikasi dan kedalaman mikronutrien, dan meminta lebih banyak entri manual dari Anda sebagai imbalannya. Makanan kemasan dan kenyamanan mendukung yang pertama; defisiensi, diet klinis atau pola restriktif mendukung yang kedua."
+          "question": "Aplikasi apa yang paling lengkap untuk makanan Indonesia?",
+          "answer": "FatSecret. Ia punya situs berbahasa Indonesia sendiri dan entri untuk banyak hidangan lokal — dicek Oktober 2026, pencarian \"sate ayam\" mengembalikan 960 hasil. Catatannya, entri itu berasal dari kontribusi anggota, jadi nilai untuk makanan yang sama bisa berjauhan, dan hidangan campur seperti nasi padang hampir tidak terwakili."
         },
         {
-          "question": "Apakah saya perlu menimbang makanan saya?",
-          "answer": "Tidak semuanya. Perkiraan porsi biasanya sumber kesalahan tunggal terbesar, tetapi minyak, kacang-kacangan, dan biji-bijian membawa kesalahan paling banyak per gram. Menimbang hanya tiga itu menangkap sebagian besar manfaat untuk sebagian kecil dari usaha."
+          "question": "Bagaimana menghitung kalori sepiring nasi padang atau nasi campur?",
+          "answer": "Jangan mencarinya sebagai satu entri — di database mana pun, HAVIT termasuk, entri itu tidak ada, karena porsinya berbeda di tiap warung. Dua cara yang bekerja: foto piringnya dan biarkan AI memecahnya per komponen, atau catat manual per komponen (nasi, lauk, sayur, sambal, kerupuk). Cara kedua akurat tapi lambat, dan itulah alasan paling umum orang berhenti mencatat."
         },
         {
-          "question": "Mengapa aplikasi kalori saya tidak bekerja meskipun saya tetap di bawah target saya?",
-          "answer": "Target itu sendiri adalah perkiraan — formula BMR dan TDEE adalah rata-rata populasi yang diterapkan pada satu orang — dan total harian berisik dengan air, garam, siklus, dan glikogen. Baca rata-rata bergulir mingguan daripada putusan harian. Jika minggu yang terhenti bertepatan dengan tidur yang buruk atau stres tinggi, aplikasi khusus makanan tidak memiliki cara untuk menunjukkan itu kepada Anda."
+          "question": "Lebih baik MyFitnessPal atau Cronometer?",
+          "answer": "Tergantung kegagalan mana yang lebih bisa Anda terima. MyFitnessPal punya keluasan terbesar untuk produk kemasan dan restoran rantai, tapi entrinya didominasi kiriman pengguna sehingga satu produk muncul dengan beberapa nilai. Cronometer memakai sumber terkurasi dan terverifikasi dengan kedalaman mikronutrien terbaik, tapi databasenya lebih kecil — dan untuk makanan Indonesia terasa jauh lebih kosong."
         },
         {
-          "question": "Apakah perkiraan kalori AI berbasis foto dapat diandalkan?",
-          "answer": "Mereka cepat, dan mereka adalah perkiraan. Model yang menyimpulkan porsi dari gambar mengembalikan rentang, bukan pembacaan. Itu adalah pertukaran yang dapat diterima jika kecepatan adalah yang membuat Anda mencatat — entri kasar mengalahkan hari kosong — tetapi jangan perlakukan angka sebagai pengukuran."
+          "question": "Apakah perkiraan kalori dari foto bisa dipercaya?",
+          "answer": "Bacalah sebagai titik tengah sebuah rentang, bukan hasil pengukuran. Model yang melihat foto tidak bisa melihat minyak yang terserap atau menimbang apa yang ada di bawah lapisan atas. Tapi di Indonesia pertandingannya bukan foto melawan timbangan dapur — melainkan foto melawan tidak mencatat sama sekali, dan foto menang telak di situ."
         },
         {
-          "question": "Haruskah saya menghitung kalori sama sekali?",
-          "answer": "Bagi banyak orang itu membantu, karena pemantauan diri adalah perilaku yang paling konsisten terkait dengan penurunan berat badan. Bagi sebagian orang itu menjadi fiksasi yang tidak membantu. Jika pelacakan membuat Anda cemas atau kaku seputar makanan, pendekatan berbasis kebiasaan atau komposisi tubuh lebih cocok, dan berbicara dengan profesional adalah langkah pertama yang lebih baik daripada mengganti aplikasi."
+          "question": "Kenapa saya di bawah target kalori tapi berat badan tidak turun?",
+          "answer": "Tiga penyebab paling umum. Pertama, porsi yang ditaksir terlalu rendah untuk makanan berminyak dan bersantan — dua bahan paling padat energi di masakan Indonesia. Kedua, Anda membaca angka harian, padahal berat badan naik-turun karena air, garam, dan siklus haid; masakan Indonesia tinggi natrium sehingga lonjakan sehari setelah makan di luar hampir selalu air. Ketiga, yang berubah mungkin komposisi tubuh, bukan berat — dan timbangan tidak bisa menunjukkannya."
         }
       ],
       "references": [
         {
+          "title": "Pencarian makanan FatSecret Indonesia",
+          "source": "fatsecret.co.id — hasil pencarian \"nasi padang\", \"gado gado\", \"rendang\", \"sate ayam\", dicek Oktober 2026",
+          "url": "https://www.fatsecret.co.id/kalori-gizi/"
+        },
+        {
+          "title": "Data Komposisi Pangan Indonesia (TKPI)",
+          "source": "Tabel Komposisi Pangan Indonesia 2017 — basis data gizi pangan Indonesia",
+          "url": "https://www.panganku.org/id-ID/beranda"
+        },
+        {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 studi, 15 tentang pemantauan diri diet; penulis menilai tingkat bukti lemah",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 studi, 15 di antaranya tentang pencatatan makan; penulis menilai tingkat buktinya lemah",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
         },
         {
-          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
-          "source": "Diabetes, Obesity and Metabolism, 2024 — bagian massa tanpa lemak dari berat yang hilang berkisar 40–60% dalam beberapa uji coba, ≤15% di yang lain; massa tanpa lemak ≠ otot",
+          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland dkk.)",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — porsi massa tanpa lemak dari berat yang hilang berkisar 40–60% pada sebagian uji, ≤15% pada uji lain; massa tanpa lemak ≠ otot",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
           "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (topik sedang diperbarui); orang dewasa dengan BMI ≥30, yang diberikan oleh klinisi",
+          "source": "U.S. Preventive Services Task Force, 2018 (topik sedang diperbarui); dewasa dengan IMT ≥30, dijalankan klinisi",
           "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
         },
         {
-          "title": "Laporan Kebiasaan GLP-1 2026 — analisis internal HAVIT terhadap 1.090 pengguna GLP-1",
+          "title": "GLP-1 Habit Report 2026 — analisis internal HAVIT atas 1.090 pengguna GLP-1",
           "source": "Havit Inc., 2026",
           "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-12"
     },
     "de": {
       "title": "Beste Kalorienzähler-Apps 2026: jede App einzeln geprüft",
@@ -1269,130 +1413,203 @@
       "last_updated": "2026-10-11"
     },
     "fr": {
-      "title": "Meilleures applications de comptage de calories en 2026 : pourquoi la cohérence bat la précision",
-      "short_title": "Meilleures applis compteur de calories 2026",
-      "meta_description": "Chaque chiffre dans une application de calories est une estimation — étiquette, base de données, portion, dépense. Une fois que vous l'acceptez, vous cessez de chercher la précision et commencez à chercher la cohérence. Six critères, une comparaison par objectif, et où chaque application échoue.",
-      "tldr": "Quatre couches d'approximation s'accumulent avant qu'un chiffre de calories n'atteigne votre écran, donc le total quotidien est une fourchette, pas un nombre. Choisissez l'application où enregistrer votre vrai dîner du mardi prend dix secondes — puis lisez la semaine, pas la journée.",
-      "body_md": "*Divulgation honnête : HAVIT publie ce blog et fabrique l'une des applications ci-dessous. Nous avons indiqué où elle échoue. Chaque application ici est jugée selon les mêmes critères.*\n\nVoici ce qu'aucun vendeur d'application de comptage de calories ne vous dira d'emblée : **chaque chiffre dans la chaîne est une estimation.** L'étiquette sur l'emballage est une estimation. L'entrée de base de données que quelqu'un d'autre a saisie est une estimation. La taille de votre portion est une estimation. Votre dépense énergétique quotidienne est une estimation d'une estimation.\n\nCe n'est pas un argument contre le comptage. C'est un argument pour choisir une application selon le bon critère. Une fois que vous acceptez que le chiffre absolu est approximatif, la précision cesse d'être ce qu'il faut rechercher et **la cohérence** prend sa place — le même aliment, enregistré de la même manière, à chaque fois, pour que la tendance signifie quelque chose même quand le chiffre ne le fait pas.\n\nCe guide classe la catégorie sur cette base.\n\n## Pourquoi 'compteur de calories le plus précis' est la mauvaise recherche\n\nQuatre couches distinctes d'approximation s'accumulent avant qu'un chiffre n'atteigne votre écran.\n\n**L'étiquette.** Les valeurs énergétiques des aliments emballés sont calculées à partir des nutriments présents, pas mesurées dans le paquet que vous tenez, et les règles d'étiquetage alimentaire dans tous les grands marchés autorisent une tolérance entre le chiffre déclaré et celui analysé. Le chiffre est une déclaration, pas une lecture.\n\n**La base de données.** Les grandes applications de nutrition ont construit leur étendue sur des entrées soumises par les utilisateurs. L'étendue est pourquoi elles gagnent ; la soumission par les utilisateurs est pourquoi un seul yaourt de supermarché peut retourner une douzaine d'entrées quasi identiques avec des chiffres de calories significativement différents. Les bases de données à entrées vérifiées échangent la taille contre la fiabilité, ce qui est un vrai compromis et pas une ligne marketing.\n\n**La portion.** C'est généralement la plus grande erreur unique. 'Un bol' varie plus entre deux personnes que la plupart des entrées de base de données ne varient de la vérité.\n\n**Votre dépense.** Tout objectif construit sur une formule de BMR ou TDEE comporte une variation individuelle significative. La formule est une moyenne de population appliquée à une personne.\n\nEmpilez tout cela et le total quotidien est une fourchette, pas un chiffre. La question utile devient : cette application me permet-elle d'enregistrer de la même manière chaque jour, assez rapidement pour que je continue à le faire ? C'est le comportement vers lequel pointent les preuves — une revue systématique de 22 études d'auto-surveillance, dont 15 sur l'enregistrement alimentaire, a trouvé une association cohérente avec la perte de poids, tout en qualifiant les preuves elles-mêmes de faibles sur le plan méthodologique ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)).\n\n## 6 critères pour choisir une application de comptage de calories\n\n### 1. Entrées vérifiées ou étendue collaborative ?\n\nDécidez quel échec vous préférez. Une base de données vérifiée n'aura pas le pain de votre boulangerie locale ; une base collaborative l'aura plusieurs fois avec des valeurs différentes. Si vous mangez principalement des aliments emballés, l'étendue gagne. Si vous avez besoin de chiffres sur lesquels vous pouvez vous appuyer, la vérification gagne.\n\n### 2. Combien de clics pour un repas répété ?\n\nLa plupart des gens mangent une petite rotation de repas. L'application qui transforme votre petit-déjeuner du mardi en un seul clic surpassera une application plus précise qui vous oblige à le chercher chaque matin — parce que vous l'utiliserez encore en mars.\n\n### 3. Suit-elle les micronutriments, ou seulement les macros ?\n\nSeules certaines applications vont en profondeur sur les vitamines et minéraux. Si vous gérez une carence, un régime clinique ou un modèle restrictif, c'est le critère qui décide de votre liste restreinte, et les applications de nutrition dédiées sont véritablement meilleures que tout le monde à ce sujet.\n\n### 4. Ajuste-t-elle l'objectif, ou le fixe-t-elle une fois ?\n\nUn objectif calculé une fois le premier jour devient obsolète à mesure que vous perdez du poids, changez d'entraînement ou atteignez un plateau. Recherchez des applications qui recalculent à partir de votre propre apport observé et de votre tendance de poids plutôt que de réexécuter la même formule.\n\n### 5. Vous montre-t-elle une tendance ou un verdict ?\n\nLes totaux quotidiens sont bruités — eau, sel, cycle, glycogène. Une vue hebdomadaire mobile répond à 'est-ce que je progresse ?' bien mieux qu'une bannière rouge 'au-dessus du budget', qui enseigne surtout aux gens d'arrêter d'enregistrer les jours où ils en ont le plus besoin.\n\n### 6. Le comptage de calories vous convient-il du tout ?\n\nÇa vaut la peine de se demander honnêtement. Pour certaines personnes, le comptage détaillé devient une fixation inutile. Si le suivi vous rend anxieux ou rigide autour de la nourriture, une approche basée sur les habitudes ou la composition corporelle est un meilleur choix, et parler à un professionnel est une meilleure première étape qu'une application différente.\n\n## Les applications de comptage de calories, selon ce pour quoi elles sont conçues\n\n*Les caractéristiques des applications sont celles d'octobre 2026 — vérifiez la liste en direct du magasin avant de vous engager.*\n\n| Type d'application | Conçue pour | Style de base de données | Micronutriments | Où elle échoue |\n| --- | --- | --- | --- | --- |\n| MyFitnessPal | Étendue — trouver presque n'importe quel aliment | Grande, fortement soumise par les utilisateurs | Basique | Entrées dupliquées et incohérentes |\n| Cronometer | Précision et profondeur nutritionnelle | Vérifiée, organisée | Étendue | Base de données plus petite ; plus de saisie manuelle |\n| FatSecret | Enregistrement simple sur un niveau gratuit généreux | Soumise par les utilisateurs | Basique | Moins de fonctionnalités de tendance et de composition corporelle que les applications axées sur le coaching |\n| Enregistreurs photo / IA | Vitesse — secondes par repas | Estimation du modèle à partir d'une image | Limitée | L'estimation est une fourchette, pas une lecture |\n| HAVIT | Contexte — alimentation dans le sommeil, cycle, humeur, médicaments | Modérée | Macros de base, protéines en priorité | Base de données plus petite que les spécialistes |\n\nSi votre seule exigence est une répartition précise des micronutriments, une application de nutrition dédiée est la bonne réponse et c'est une conversation courte.\n\n## Comment compter sans perdre la tête\n\n- **Enregistrez de la même manière à chaque fois.** La cohérence bat la précision. Choisissez une entrée pour votre avoine habituelle et réutilisez-la plutôt que de l'optimiser chaque semaine.\n- **Pesez les choses denses.** Les huiles, noix, beurres de noix et grains secs concentrent le plus d'énergie dans le plus petit volume, donc une portion estimée à l'œil de ceux-ci est là où une journée déraille le plus vite. Peser seulement ceux-ci obtient la plupart des avantages pour une fraction de l'effort.\n- **Lisez la semaine, pas la journée.** Un jour ne vous dit presque rien.\n- **Priorisez les protéines.** Les objectifs de protéines sont la partie du plan qui tient quand les calories sont imparfaites — surtout sous thérapie GLP-1, où la part de masse maigre du poids perdu varie de 40–60% dans certains essais à 15% ou moins dans d'autres ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/)).\n- **Arrêtez d'enregistrer parfaitement et commencez à enregistrer toujours.** Une entrée approximative bat un jour vide par une large marge.\n\n## Où chaque application échoue — y compris la nôtre\n\n- **MyFitnessPal** a l'étendue que personne d'autre n'égale, et le problème d'entrées dupliquées qui vient avec.\n- **Cronometer** est la plus défendable sur la qualité des données et vous en demande plus en retour.\n- **L'enregistrement photo** est la route la plus rapide de l'assiette au journal ; le chiffre qu'il retourne est l'estimation d'un modèle et devrait être lu comme une fourchette.\n- **HAVIT** a une base de données alimentaire plus petite que MyFitnessPal ou Cronometer, et ses chiffres de composition corporelle sont des estimations IA plutôt que des mesures DEXA ou InBody. Si des données précises de micronutriments sont votre exigence, utilisez une application de nutrition dédiée — nous n'essayons pas de gagner cette comparaison.\n\n## Le résultat final\n\nChoisissez sur la cohérence, pas sur la précision revendiquée. La meilleure application de comptage de calories est celle où enregistrer votre vrai dîner du mardi prend dix secondes, parce que les preuves reposent sur l'acte d'enregistrer plutôt que sur la précision du chiffre.\n\nPuis lisez la semaine, pas la journée.\n\n## Pourquoi HAVIT — les calories sont une entrée, pas toute l'image\n\nHAVIT compte les calories, et elle ne s'arrête pas là. La raison est que le chiffre seul n'explique pas une semaine stagnante : le sommeil, le stress, la phase du cycle, les pas et les médicaments GLP-1 déplacent tous l'appétit et le poids, et une application alimentaire seule n'a aucun moyen de voir tout cela.\n\nAlors HAVIT garde les repas, l'hydratation, le sommeil, les pas, le cycle, l'humeur et les médicaments dans une seule routine, estime la composition corporelle plutôt que de rapporter le poids seul, et transforme la semaine en une action concrète pour aujourd'hui. L'enregistrement photo gère le problème de vitesse ; le bilan quotidien gère le problème de contexte.\n\nL'USPSTF donne une recommandation de grade B pour une intervention comportementale intensive et multicomposante chez les adultes avec un IMC de 30 ou plus — délivrée par un clinicien, pas par une application ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). La structure et la répétition sont les parties qu'une application peut emprunter. Dans notre propre analyse de 1 090 utilisateurs de GLP-1, les enregistreurs les plus cohérents ont construit les habitudes les plus fortes ([Rapport sur les habitudes GLP-1](/en/glp-1-habit-report)).\n\nHAVIT n'est pas un outil de diagnostic médical. Les chiffres de calories et de composition corporelle sont des estimations.\n\n[Essayez HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Meilleurs compteurs de calories 2026 : chacun passé en revue, un par un",
+      "short_title": "Meilleurs compteurs de calories 2026",
+      "meta_description": "Open Food Facts, Yazio, MyFitnessPal, Foodvisor, Le Secret du Poids, FatSecret et HAVIT décortiqués un par un : provenance des données, produits français, composition corporelle, cycle et GLP-1. Octobre 2026.",
+      "tldr": "Tous les chiffres d'un compteur de calories sont des estimations. Choisissez donc sur la régularité et sur la provenance des données — et souvenez-vous qu'en France la meilleure base de produits est ouverte à tout le monde.",
+      "body_md": "Tous les chiffres que vous voyez dans un compteur de calories sont des estimations. L'étiquette du paquet est une estimation réglementaire tolérée. La base de données est une estimation moyennée. Votre portion est une estimation à l'œil. Et votre dépense est une estimation calculée sur votre profil.\n\nCe n'est pas une raison d'arrêter de compter. C'est une raison de choisir une appli sur sa **cohérence** et sur la **provenance de ses données**, et non sur une précision annoncée que personne ne peut tenir.\n\n![Compter est d'abord un problème de régularité, ensuite un problème de précision](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg)\n\n> **Un mot sur les sources.** En français, la première page de résultats pour « meilleur compteur de calories » est presque entièrement composée de pages écrites par des éditeurs d'applis de la catégorie et de sites d'affiliation. Leurs classements se contredisent. Vous ne trouverez donc ici aucun palmarès, seulement des fiches officielles et ce qu'elles disent.\n\n## Trois choses à regarder avant de choisir\n\n**1. D'où viennent les données ?** Une base d'aliments peut être nourrie par des organismes publics, par un éditeur, ou par ses propres utilisateurs. Les trois n'ont pas la même fiabilité. Vingt millions d'entrées saisies à la main ne valent pas mieux qu'un demi-million d'entrées vérifiées — elles valent surtout plus de doublons à trier.\n\n**2. Est-ce que la cuisine française y est ?** Un cassoulet, une blanquette, un sandwich jambon-beurre de boulangerie, une part de tarte Tatin. Les bases américaines s'en sortent mal sur ce terrain, et c'est là que les applis françaises prennent l'avantage.\n\n**3. Est-ce qu'il se passe quelque chose après la saisie ?** Compter sans interprétation devient de la comptabilité, et la comptabilité, on l'abandonne. La littérature sur l'auto-surveillance alimentaire est elle-même prudente : ses auteurs qualifient le niveau de preuve de faible, et ce qui est régulièrement associé au résultat, c'est la **régularité** de la saisie — pas sa minutie.\n\n## Open Food Facts — la base française qui change le débat\n\n| | |\n| --- | --- |\n| Porteur | Association Open Food Facts (France), projet à but non lucratif |\n| Produits référencés | 1 274 235 dans la vue France (consulté en octobre 2026) |\n| Données | Ouvertes, réutilisables par tous |\n\nC'est la particularité française de cette catégorie, et elle mérite d'être comprise avant de comparer quoi que ce soit : il existe en France une base d'aliments **publique, libre et collaborative**, alimentée par des bénévoles et réutilisable par n'importe qui. Beaucoup des applis de scan que vous connaissez s'appuient dessus ou y contribuent.\n\nConséquence directe : en France, l'argument « notre base est immense » pèse moins qu'ailleurs, parce qu'une base sérieuse de produits français est ouverte à tout le monde. L'argument qui pèse, c'est ce que l'appli **fait** de la donnée une fois l'aliment trouvé.\n\n**Ce qui lui manque.** L'appli Open Food Facts elle-même est un outil de consultation, pas un journal alimentaire complet : pas d'objectifs personnalisés, pas de coaching, pas de composition corporelle.\n\n## Yazio — le compteur le plus installé en France\n\n| | |\n| --- | --- |\n| Éditeur | YAZIO GmbH (Allemagne) |\n| Base revendiquée | Plus de 4 millions d'aliments |\n| App Store France | 4,7/5, environ 144 700 notes |\n\n**Ce qu'elle fait très bien.** C'est le compteur de calories qui cumule le plus de notes sur l'App Store français, devant Foodvisor et MyFitnessPal. Saisie photo, code-barres, recettes, et un minuteur de jeûne très complet (l'éditeur annonce plus de vingt méthodes).\n\n**Ce qui lui manque.** Pas de composition corporelle, pas de cycle, pas de suivi de traitement. Et sur les produits de boulangerie ou les plats régionaux français, la couverture reste inférieure à celle d'une appli conçue ici.\n\n**Pour qui.** Pour qui veut compter et jeûner au même endroit, avec une interface sobre.\n\n## MyFitnessPal — la plus grande base, et ses doublons\n\n| | |\n| --- | --- |\n| Éditeur | MyFitnessPal, Inc. (États-Unis) |\n| Base revendiquée | Plus de 20,5 millions d'aliments |\n| App Store France | 4,6/5, environ 52 000 notes |\n\n**Ce qu'elle fait très bien.** Une couverture que personne n'égale, y compris sur les marques obscures et les chaînes internationales. Scanner de codes-barres mature, intégrations nombreuses.\n\n**Ce qui lui manque.** L'essentiel de ces entrées est saisi par les utilisateurs. Le même produit apparaît plusieurs fois avec des valeurs différentes, et c'est vous qui arbitrez — à chaque repas. Et après la saisie, il ne se passe rien.\n\n**Pour qui.** Pour qui mange beaucoup de produits industriels et de restauration de chaîne.\n\n## Foodvisor — française, et pensée pour les assiettes d'ici\n\n| | |\n| --- | --- |\n| Éditeur | Foodvisor (France) |\n| Saisie | Photo, voix, texte, code-barres |\n| App Store France | 4,6/5, environ 72 800 notes |\n\n![La reconnaissance photo évite la recherche, mais la portion reste une estimation](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n**Ce qu'elle fait très bien.** Reconnaissance photo mature, entraînée sur la cuisine française — sur ce terrain précis, c'est l'appli la mieux placée du marché. Sa fiche officielle annonce aussi calories, macronutriments, **vitamines et minéraux**, poids, hydratation, jeûne intermittent, activité et synchronisation Apple Santé.\n\n**Ce qui lui manque.** Sa fiche ne mentionne ni sommeil, ni cycle menstruel, ni composition corporelle, ni carnet GLP-1. Le compte est excellent ; ce qui l'entoure s'arrête à l'alimentation.\n\n**Pour qui.** Pour qui cuisine français et veut photographier plutôt que chercher.\n\n## Le Secret du Poids — compter sans peser\n\n| | |\n| --- | --- |\n| Éditeur | Le Secret du Poids (France) |\n| Principe | Un budget calorique quotidien, des portions choisies sur photo |\n| App Store France | 4,4/5, environ 7 700 notes |\n\n**Ce qu'elle fait très bien.** Elle attaque le vrai problème du comptage, qui n'est pas la précision mais la fatigue. On choisit sa portion sur une photo au lieu de la peser, aucun aliment n'est interdit, et une jauge indique ce qu'il reste du budget. L'éditeur revendique plus de 1,2 million d'utilisateurs.\n\n**Ce qui lui manque.** Le périmètre s'arrête à la calorie : ni composition corporelle, ni cycle, ni sommeil, ni GLP-1.\n\n**Pour qui.** Pour qui a déjà abandonné deux applis à cause de la saisie.\n\n## FatSecret — sobre, gratuite, et très correcte\n\n**Ce qu'elle fait très bien.** Un compteur simple et bien noté sur l'App Store français (4,7/5, environ 6 900 notes), avec journal, code-barres et objectif calculé automatiquement. Peu de friction commerciale.\n\n**Ce qui lui manque.** Peu d'accompagnement, pas de composition corporelle, pas de cycle. C'est un carnet, assumé comme tel.\n\n**Pour qui.** Pour qui veut un journal sans programme ni discours.\n\n## HAVIT — compter, mesurer et un coach IA dans la même appli\n\n| | |\n| --- | --- |\n| Éditeur | Havit Inc. |\n| Base d'aliments | Environ 486 000 entrées d'origine publique (432 418 USDA, 41 218 MFDS Corée, 12 671 curation interne) |\n| Enregistre | Repas, hydratation, sport, sommeil, pas, **cycle menstruel**, humeur, **GLP-1** |\n| Langues | 35 |\n\n![Le coach IA de HAVIT lit les huit journaux et renvoie une seule action](/blog/havit/shot/feature-ai-coach.webp)\n\n### La provenance avant la taille\n\nLa base de HAVIT compte environ **486 000 aliments**, et presque toutes viennent d'organismes publics : **432 418 du département de l'Agriculture des États-Unis (USDA)**, **41 218 du ministère coréen de la sécurité alimentaire (MFDS)**, et 12 671 entrées curées en interne. C'est volontairement plus petit qu'une base nourrie par ses utilisateurs — et vérifié à la source, donc sans le même yaourt en sept exemplaires contradictoires.\n\n### Saisir en quelques secondes\n\n![Scan IA : une photo, une estimation nutritionnelle](/blog/havit/shot/feature-nutrition.webp)\n\nLe **scan IA** estime la composition d'une assiette à partir d'une seule photo, ce qui résout le cas le plus pénible du comptage : le plat fait maison, qui n'est dans aucune base.\n\n### La composition corporelle plutôt que le seul chiffre\n\n![Tendances de masse grasse et de masse maigre plutôt qu'un chiffre de balance](/blog/havit/shot/feature-body-insights.webp)\n\nHAVIT estime les **tendances de masse grasse et de masse maigre** sans matériel, à partir du poids, des mensurations et du profil ; une comparaison interne face à un InBody (n=70) a été publiée. C'est une estimation statistique, pas une impédancemétrie — et c'est écrit tel quel dans la fiche de l'appli.\n\nÇa compte particulièrement sous **GLP-1** : la part de masse maigre dans le poids perdu a été décrite entre **40 et 60 %** dans certains essais, et un compteur de calories classique n'en saura jamais rien. Dose, effets ressentis, apport protéique et tendance corporelle sont au même endroit.\n\n### Ce qui fait tenir l'habitude\n\n![Méditations guidées : fringales, sommeil, apaisement, concentration, respiration, gratitude](/blog/havit/shot/feature-mind-recovery.webp)\n\n**Missions du jour**, **check-in quotidien** (forme, sommeil, appétit, humeur en quelques tapes), séries, badges, avatars, rangs, **défis d'équipe**, **six méditations guidées**, **vidéos d'entraînement**, **jeûne intermittent** et plus de **1 400 articles**. Conçue avec des anciens de Juvis Diet, la première clinique minceur de Corée.\n\n**Soyons honnêtes.** Sur les produits de supermarché français et la cuisine d'ici, une base nourrie par Open Food Facts ou une appli française comme Foodvisor couvre mieux que la base de HAVIT, pondérée côté USDA. C'est factuel. Ce que HAVIT apporte en échange, c'est que le chiffre ne reste pas seul : il est lu avec sept autres journaux par un coach qui renvoie **une action pour aujourd'hui**.\n\n**Pour qui.** Pour qui veut compter sans s'arrêter au comptage ; pour qui le poids est lié au sommeil, au stress ou au cycle ; pour qui suit un traitement GLP-1.\n\n## Tableau comparatif\n\n| Appli | Provenance des données | Produits français | Saisie photo | Composition corporelle | Cycle | GLP-1 | Coach |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Open Food Facts | **Collaborative, ouverte** | **Excellent** | Non | Non | Non | Non | Aucun |\n| Yazio | Éditeur | Correct | Oui | Non | Non | Non | Plans et jeûne |\n| MyFitnessPal | Surtout saisie utilisateurs | Correct | Oui | Non | Non | Basique | Limité |\n| Foodvisor | Éditeur + code-barres | **Fort** | **Oui, mature** | Non | Non | Non | Programme guidé |\n| Le Secret du Poids | Catalogue photos/portions | Fort | Portions sur photo | Non | Non | Non | Personnage guide |\n| FatSecret | Éditeur + utilisateurs | Correct | Oui | Non | Non | Non | Aucun |\n| **HAVIT** | **Organismes publics (USDA, MFDS)** | Limité | **Oui** | **Estimée** | **Oui** | **Oui** | **IA, lit les 8 journaux** |\n\nOctobre 2026, d'après les fiches officielles des stores et des éditeurs.\n\n## Compter sans s'épuiser\n\n1. **Visez la régularité, pas la décimale.** Une saisie approximative tous les jours bat une saisie parfaite trois jours sur sept.\n2. **Gardez la même source pour un même aliment.** L'erreur devient constante, donc la tendance reste lisible.\n3. **Enregistrez aussi les mauvais jours.** Un journal qui s'arrête dès que ça dérape ne vous apprend rien sur ce qui dérape.\n4. **Si le chiffre ne déclenche rien, changez d'outil.** Un compteur qui ne débouche sur aucune décision finit toujours désinstallé.\n\n## En résumé\n\nAucune appli ne vous donnera la vérité calorique de votre assiette, et aucune ne le peut. Choisissez donc sur ce qui est vérifiable : d'où viennent les données, est-ce que la cuisine d'ici y figure, et est-ce qu'il se passe quelque chose une fois l'aliment saisi.\n\n[Essayer HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Couches d'approximation entre un aliment et son chiffre de calories",
-          "value": "4 : étiquette, base de données, portion, dépense",
-          "source": "Chacune est une estimation ; voir la section ci-dessus"
+          "label": "Base d'aliments de HAVIT",
+          "value": "Environ 486 000 entrées",
+          "source": "432 418 USDA + 41 218 MFDS (Corée) + 12 671 curation interne"
         },
         {
-          "label": "Études dans la revue d'auto-surveillance (15 d'entre elles sur l'enregistrement alimentaire)",
-          "value": "22 études",
-          "source": "Burke et al. 2011, J Am Diet Assoc — niveau de preuve qualifié de faible par les auteurs"
+          "label": "Produits référencés par Open Food Facts (vue France)",
+          "value": "1 274 235",
+          "source": "fr.openfoodfacts.org, consulté en octobre 2026 — données ouvertes"
         },
         {
-          "label": "Part de masse maigre du poids perdu sous thérapie GLP-1",
-          "value": "40–60% dans certains essais, ≤15% dans d'autres",
+          "label": "Part de masse maigre dans le poids perdu sous GLP-1",
+          "value": "40 à 60 % dans certains essais",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
         },
         {
-          "label": "Aliments à peser pour la plupart des avantages",
-          "value": "Les aliments denses en énergie : huiles, noix, beurres de noix, grains secs",
-          "source": "Le plus d'énergie dans le plus petit volume"
+          "label": "Journaux que lit le coach de HAVIT",
+          "value": "8",
+          "source": "Repas, hydratation, sport, sommeil, pas, cycle, humeur, GLP-1"
         }
       ],
       "comparison_table": {
-        "title": "Applications de comptage de calories, selon ce pour quoi elles sont conçues",
+        "title": "Tableau comparatif",
         "headers": [
-          "Application",
-          "Conçue pour",
-          "Style de base de données",
-          "Micronutriments",
-          "Où elle échoue"
+          "Appli",
+          "Provenance des données",
+          "Produits français",
+          "Saisie photo",
+          "Composition corporelle",
+          "Cycle",
+          "GLP-1",
+          "Coach"
         ],
         "rows": [
           [
-            "MyFitnessPal",
-            "Étendue — trouver presque n'importe quel aliment",
-            "Grande, fortement soumise par les utilisateurs",
-            "Basique",
-            "Entrées dupliquées et incohérentes"
+            "Open Food Facts",
+            "Collaborative, ouverte",
+            "Excellent",
+            "Non",
+            "Non",
+            "Non",
+            "Non",
+            "Aucun"
           ],
           [
-            "Cronometer",
-            "Précision et profondeur nutritionnelle",
-            "Vérifiée, organisée",
-            "Étendue",
-            "Base de données plus petite ; plus de saisie manuelle"
+            "Yazio",
+            "Éditeur",
+            "Correct",
+            "Oui",
+            "Non",
+            "Non",
+            "Non",
+            "Plans et jeûne"
+          ],
+          [
+            "MyFitnessPal",
+            "Surtout saisie utilisateurs",
+            "Correct",
+            "Oui",
+            "Non",
+            "Non",
+            "Basique",
+            "Limité"
+          ],
+          [
+            "Foodvisor",
+            "Éditeur + code-barres",
+            "Fort",
+            "Oui, mature",
+            "Non",
+            "Non",
+            "Non",
+            "Programme guidé"
+          ],
+          [
+            "Le Secret du Poids",
+            "Catalogue photos/portions",
+            "Fort",
+            "Portions sur photo",
+            "Non",
+            "Non",
+            "Non",
+            "Personnage guide"
           ],
           [
             "FatSecret",
-            "Enregistrement simple sur un niveau gratuit généreux",
-            "Soumise par les utilisateurs",
-            "Basique",
-            "Moins de fonctionnalités de tendance et de composition corporelle que les applications axées sur le coaching"
-          ],
-          [
-            "Enregistreurs photo / IA",
-            "Vitesse — secondes par repas",
-            "Estimation du modèle à partir d'une image",
-            "Limitée",
-            "L'estimation est une fourchette, pas une lecture"
+            "Éditeur + utilisateurs",
+            "Correct",
+            "Oui",
+            "Non",
+            "Non",
+            "Non",
+            "Aucun"
           ],
           [
             "HAVIT",
-            "Contexte — alimentation dans le sommeil, cycle, humeur, médicaments",
-            "Modérée",
-            "Macros de base, protéines en priorité",
-            "Base de données plus petite que les spécialistes"
+            "Organismes publics (USDA, MFDS)",
+            "Limité",
+            "Oui",
+            "Estimée",
+            "Oui",
+            "Oui",
+            "IA, lit les 8 journaux"
           ]
         ],
-        "caption": "Si une répartition précise des micronutriments est votre seule exigence, une application de nutrition dédiée est la bonne réponse."
+        "caption": "Octobre 2026, d'après les fiches officielles des stores et des éditeurs."
       },
       "faq": [
         {
-          "question": "Quelle application de comptage de calories est la plus précise ?",
-          "answer": "Aucune d'entre elles n'est précise de la manière que la question implique. Quatre couches d'approximation s'accumulent — la tolérance réglementaire de l'étiquette, l'entrée de base de données, votre estimation de portion, et la formule estimant votre dépense. Cronometer est la plus défendable sur la qualité des données parce que ses entrées sont vérifiées, mais le total quotidien est toujours une fourchette. Choisissez plutôt pour la cohérence : le même aliment enregistré de la même manière à chaque fois."
+          "question": "Quel compteur de calories est le plus précis ?",
+          "answer": "Aucun ne peut l'être, et c'est la mauvaise question. L'étiquette, la base de données, votre portion et votre dépense sont toutes des estimations. Ce qui est associé au résultat dans la littérature, c'est la régularité de la saisie, pas sa minutie. Choisissez l'appli que vous ouvrirez encore dans six semaines."
         },
         {
-          "question": "MyFitnessPal ou Cronometer est-il meilleur ?",
-          "answer": "Ils optimisent pour des choses opposées. MyFitnessPal gagne sur l'étendue parce qu'il est fortement soumis par les utilisateurs, ce qui est aussi pourquoi un yaourt de supermarché peut revenir comme une douzaine d'entrées quasi identiques avec des chiffres de calories significativement différents. Cronometer gagne sur les entrées vérifiées et la profondeur des micronutriments, et vous demande plus de saisie manuelle en retour. Les aliments emballés et la commodité favorisent le premier ; une carence, un régime clinique ou un modèle restrictif favorise le second."
+          "question": "Quelle appli connaît le mieux les produits de supermarché français ?",
+          "answer": "Les applis qui s'appuient sur Open Food Facts sont difficiles à battre sur ce point : c'est une base collaborative et ouverte, portée par une association française, qui référence plus de 1,2 million de produits dans sa vue France. Pour les plats cuisinés et la cuisine maison, Foodvisor et Le Secret du Poids, conçues en France, s'en sortent mieux que les bases américaines."
         },
         {
-          "question": "Dois-je peser ma nourriture ?",
-          "answer": "Pas toute. L'estimation de portion est généralement la plus grande source d'erreur unique, mais les huiles, noix et grains portent le plus d'erreur par gramme. Peser seulement ces trois capture la plupart des avantages pour une fraction de l'effort."
+          "question": "La taille de la base de données compte-t-elle vraiment ?",
+          "answer": "Moins qu'on ne le dit, et en France encore moins qu'ailleurs, puisqu'une base sérieuse de produits français est ouverte à tout le monde. Vingt millions d'entrées saisies par des utilisateurs produisent surtout des doublons contradictoires. La provenance — organisme public, éditeur, ou foule — en dit davantage que le chiffre."
         },
         {
-          "question": "Pourquoi mon application de calories ne fonctionne-t-elle pas même si je reste sous mon objectif ?",
-          "answer": "L'objectif lui-même est une estimation — les formules BMR et TDEE sont des moyennes de population appliquées à une personne — et les totaux quotidiens sont bruités avec l'eau, le sel, le cycle et le glycogène. Lisez une moyenne mobile hebdomadaire plutôt qu'un verdict quotidien. Si une semaine stagnante coïncide avec un mauvais sommeil ou un stress élevé, une application alimentaire seule n'a aucun moyen de vous le montrer."
+          "question": "Les estimations de calories à partir d'une photo sont-elles fiables ?",
+          "answer": "Elles identifient bien les aliments, et beaucoup moins bien les quantités. Reconnaître « des pâtes » est simple ; estimer deux cent dix grammes de pâtes depuis une photo ne l'est pas. Utilisez la photo pour arrêter de chercher dans un moteur, puis corrigez la portion quand elle vous semble fausse."
         },
         {
-          "question": "Les estimations de calories IA basées sur des photos sont-elles fiables ?",
-          "answer": "Elles sont rapides, et ce sont des estimations. Un modèle déduisant une portion d'une image retourne une fourchette, pas une lecture. C'est un compromis acceptable si la vitesse est ce qui vous fait continuer à enregistrer — une entrée approximative bat un jour vide — mais ne traitez pas le chiffre comme une mesure."
+          "question": "Existe-t-il des applis qui suivent aussi la composition corporelle ?",
+          "answer": "Peu de compteurs le font. HAVIT estime les tendances de masse grasse et de masse maigre sans matériel, à partir du poids, des mensurations et du profil, avec une comparaison interne publiée face à un InBody (n=70). C'est une estimation, pas une mesure par impédancemétrie, et l'appli le dit."
         },
         {
-          "question": "Devrais-je compter les calories du tout ?",
-          "answer": "Pour beaucoup de gens, cela aide, parce que l'auto-surveillance est le comportement le plus constamment lié à la perte de poids. Pour certains, cela devient une fixation inutile. Si le suivi vous rend anxieux ou rigide autour de la nourriture, une approche basée sur les habitudes ou la composition corporelle convient mieux, et parler à un professionnel est une meilleure première étape que de changer d'application."
+          "question": "Je reste sous mon objectif calorique et je ne perds pas. Pourquoi ?",
+          "answer": "Le plus souvent parce que les estimations dérivent — portions sous-évaluées, grignotages non saisis, dépense surestimée — et parce que l'eau, le sel, le sommeil et le cycle masquent plusieurs semaines de progrès réels sur la balance. C'est exactement pour cela que regarder la tendance de composition corporelle, et pas seulement le poids, évite d'abandonner un plan qui fonctionnait."
         }
       ],
       "references": [
         {
+          "title": "Open Food Facts — base de données alimentaire libre et collaborative",
+          "source": "Association Open Food Facts, vue France : 1 274 235 produits référencés (consulté en octobre 2026) ; données ouvertes et réutilisables par tous",
+          "url": "https://fr.openfoodfacts.org/"
+        },
+        {
+          "title": "Yazio : Compteur de Calories — fiche App Store France",
+          "source": "Apple App Store (FR), YAZIO GmbH, consulté en octobre 2026 — 4,7/5 sur environ 144 700 notes ; plus de 4 millions d'aliments revendiqués",
+          "url": "https://apps.apple.com/fr/app/id946099227"
+        },
+        {
+          "title": "MyFitnessPal : compte-calories — fiche App Store France",
+          "source": "Apple App Store (FR), MyFitnessPal, Inc., consulté en octobre 2026 — 4,6/5 sur environ 52 000 notes ; plus de 20,5 millions d'aliments revendiqués",
+          "url": "https://apps.apple.com/fr/app/id341232718"
+        },
+        {
+          "title": "Foodvisor — fiche App Store France",
+          "source": "Apple App Store (FR), consulté en octobre 2026 — 4,6/5 sur environ 72 800 notes ; l'éditeur revendique plus de 15 millions d'utilisateurs",
+          "url": "https://apps.apple.com/fr/app/id1064020872"
+        },
+        {
+          "title": "Le Secret Du Poids — fiche App Store France",
+          "source": "Apple App Store (FR), Le Secret du Poids, consulté en octobre 2026 — 4,4/5 sur environ 7 700 notes ; plus de 1,2 million d'utilisateurs revendiqués",
+          "url": "https://apps.apple.com/fr/app/id651023505"
+        },
+        {
+          "title": "Compteur de Calories fatsecret — fiche App Store France",
+          "source": "Apple App Store (FR), Secret Industries Pty Ltd, consulté en octobre 2026 — 4,7/5 sur environ 6 900 notes",
+          "url": "https://apps.apple.com/fr/app/id347184248"
+        },
+        {
+          "title": "HAVIT : Coach Minceur, Calories — fiche App Store France",
+          "source": "Apple App Store (FR), Havit Incorporated, consulté en octobre 2026",
+          "url": "https://apps.apple.com/fr/app/id6755166023"
+        },
+        {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 études, 15 sur l'auto-surveillance alimentaire ; les auteurs qualifient le niveau de preuve de faible",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 études, dont 15 sur l'auto-surveillance alimentaire ; les auteurs qualifient eux-mêmes le niveau de preuve de faible",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
         },
         {
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
-          "source": "Diabetes, Obesity and Metabolism, 2024 — la part de masse maigre du poids perdu varie de 40–60% dans certains essais, ≤15% dans d'autres ; masse maigre ≠ muscle",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — la part de masse maigre dans le poids perdu va de 40 à 60 % dans certains essais et reste inférieure ou égale à 15 % dans d'autres ; masse maigre n'est pas synonyme de muscle",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (sujet en cours de mise à jour) ; adultes avec IMC ≥30, délivré par un clinicien",
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — grade B",
+          "source": "U.S. Preventive Services Task Force, 2018 (recommandation en cours d'actualisation) ; adultes avec IMC supérieur ou égal à 30, interventions délivrées en milieu clinique",
           "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
         },
         {
-          "title": "GLP-1 Habit Report 2026 — analyse interne HAVIT de 1 090 utilisateurs de GLP-1",
+          "title": "GLP-1 Habit Report 2026 — analyse interne HAVIT portant sur 1 090 utilisateurs sous GLP-1",
           "source": "Havit Inc., 2026",
           "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-12"
     }
   },
   "generated_at": "2026-10-11T00:00:00.000Z"
