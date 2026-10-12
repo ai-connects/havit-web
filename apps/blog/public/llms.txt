@@ -1,6 +1,6 @@
 # HAVIT Blog
 
-> Science-backed wellness guidance — 1,000+ articles per language on habits, sleep, nutrition, hydration, and movement, across 10 languages (9,724 article URLs in total). AI-assisted research, human-reviewed by HAVIT Editorial Team. Published by Havit Inc.
+> Science-backed wellness guidance — ~1,000 articles per language (722 in German) on habits, sleep, nutrition, hydration, and movement, across 10 languages (9,874 article URLs in total). AI-assisted research, human-reviewed by HAVIT Editorial Team. Published by Havit Inc.
 
 HAVIT Blog turns peer-reviewed studies and clinical guidelines into actionable, multilingual content. Every article passes a four-stage editorial workflow before publication: AI-drafted from primary sources → human fact-check against listed citations → medical advisory review for YMYL categories → publish with verified `last_updated` date. Articles cite 4–6 verifiable references (Crossref DOIs + PubMed PMIDs); ~90% of references link to peer-reviewed sources.
 
@@ -69,6 +69,6 @@ Articles are available in 10 languages with hreflang alternates and full localiz
 
 ## Optional
 
-- [Sitemap](https://www.aihavit.com/blog/sitemap.xml): a sitemap index over 10 per-language sitemaps, 9,724 URLs in total (ko 1,037 · en 1,036 · ja 1,032 · zh-tw 1,030 · es 980 · pt-br 979 · id 979 · fr 978 · zh 972 · de 701)
+- [Sitemap](https://www.aihavit.com/blog/sitemap.xml): a sitemap index over 10 per-language sitemaps, 9,874 URLs in total (ko 1,043 · en 1,042 · ja 1,038 · zh-tw 1,036 · es 1,001 · pt-br 1,000 · id 1,000 · fr 999 · zh 993 · de 722)
 - [RSS Feed](https://www.aihavit.com/blog/rss.xml): latest articles
 - [HAVIT App](https://app.aihavit.com/): the AI weight loss coach this blog supports — [product site](https://www.aihavit.com/), [llms.txt](https://www.aihavit.com/llms.txt)
