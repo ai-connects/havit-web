@@ -659,98 +659,117 @@
       "last_updated": "2026-10-11"
     },
     "es": {
-      "title": "Mejores Apps de Coach de Salud con IA en 2026: Cómo Distinguir un Coach de un Chatbot",
-      "short_title": "Mejores Apps de Coach con IA 2026",
-      "meta_description": "Casi todas las apps de salud agregaron un coach de IA. La mayoría agregó una caja de chat. Seis criterios, cuatro tipos de 'coach de IA', quién no debería comprar uno, y dónde toda la categoría — incluida la nuestra — es más débil.",
-      "tldr": "Un coach sabe algo sobre ti que nunca escribiste en el chat. Prueba tres cosas en el período de prueba: ¿lee tus datos?, ¿te da una acción en lugar de un plan?, y ¿cambia cuando tienes una mala semana?",
-      "body_md": "*Divulgación honesta: HAVIT publica este blog y desarrolla una de las apps discutidas. Hemos intentado escribir la guía que querríamos leer antes de pagar por una — incluyendo las partes donde nuestra propia categoría es más débil.*\n\nCasi todas las apps de salud agregaron un coach de IA en los últimos dos años. La mayoría de ellas agregó una caja de chat. Estas no son lo mismo, y la diferencia decide si obtienes un coach o un motor de búsqueda con tono amigable.\n\nUna caja de chat responde preguntas que ya sabías hacer. Un coach nota lo que no preguntaste. Esta guía trata sobre distinguir los dos antes de pagar por doce meses de uno.\n\n## Qué separa a un coach de un chatbot\n\nLa prueba es simple: **¿sabe algo sobre ti que no escribiste en el chat?**\n\nUn asistente general puede explicar creatina, crear un plan de comidas y ayudarte a superar un estancamiento. Hará todo eso bien. Los asistentes generales ahora recuerdan entre conversaciones, y pueden enviarte mensajes según un horario si configuras uno. Lo que todavía no tienen es un **flujo en vivo de las comidas, sueño y pasos de hoy**. Entonces el mensaje de las 9pm — tu proteína ha estado bajo el objetivo cuatro días seguidos, dormiste menos de seis horas dos veces esta semana, tu peso está estable, y aquí está cuál de los tres arreglar primero — tiene que ser uno que configuraste con anticipación, con datos que pegaste.\n\nEsa diferencia no es calidad del modelo. Es acceso continuo a tus datos registrados, y una decisión de diseño de hablar primero desde ellos.\n\nHay una segunda prueba, menos obvia: **¿dice menos de lo que esperabas?** Un coach que responde una pregunta simple con catorce puntos no te ha dicho nada — ha transferido el trabajo de decidir de vuelta a ti. El coaching es compresión. La forma que respalda la orientación clínica es estructurada y repetida: la USPSTF da una recomendación Grado B de que los clínicos ofrezcan a adultos con un IMC de 30 o más una intervención conductual intensiva y multicomponente ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). No dice nada sobre apps — pero sí dice cuáles son los ingredientes activos.\n\n## 6 criterios para elegir una app de coaching con IA\n\n### 1. ¿Lee tus propios datos, o solo tus mensajes?\n\nPregunta en el período de prueba: '¿qué comí ayer?' Si no puede responder sin que lo pegues, el coach es una ventana de chat y la app es un rastreador. Eso no es un escándalo — es simplemente un producto diferente, con precio como si no lo fuera.\n\n### 2. ¿Te da una acción, o un plan?\n\nUn plan es lo que ya fallaste en seguir. Una acción concreta para hoy — *come 30g de proteína en el desayuno mañana* — es algo que puedes hacer o no hacer, lo que lo hace medible. La taxonomía estándar de intervenciones de cambio de comportamiento cataloga 93 técnicas discretas, y la unidad en todo momento es una acción específica en lugar de una intención general ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)).\n\n### 3. ¿Cambia de opinión cuando tú cambias?\n\nLa versión honesta de esta prueba toma dos semanas. Registra deliberadamente una mala semana. Un sistema de coaching real se ajusta: baja la exigencia, cambia el objetivo, o pregunta qué pasó. Uno programado repite el mismo empujón alegre, que es cómo aprendes que la 'personalización' es una plantilla.\n\n### 4. ¿Recuerda?\n\nEl coaching es una relación con continuidad. Si le dices que eres vegetariano en enero y sugiere pollo en marzo, no te está haciendo coaching; te está respondiendo. La memoria entre sesiones es la característica más costosa en esta categoría y la que más a menudo se falsifica.\n\n### 5. ¿Dónde están sus límites de seguridad?\n\nUna buena IA de salud rechaza cosas. No debería diagnosticar, no debería decirte que cambies una dosis prescrita, y debería ser explícita en que las cifras de composición corporal y calorías son estimaciones. Una app que responde con confianza preguntas médicas que debería rechazar no es más capaz — es menos segura.\n\n### 6. ¿En qué idioma te hace coaching — realmente?\n\nLas cadenas de interfaz traducidas no son lo mismo que coaching en tu idioma. Pruébala en el idioma en que realmente piensas, con una comida que realmente comes. Muchas apps traducen botones y luego hacen coaching en inglés traducido automáticamente.\n\n## Los cuatro tipos de 'coach de IA' que encontrarás\n\n*Las características de las apps a continuación son de octubre de 2026 — esta categoría cambia rápido, así que verifica en la lista de la tienda en vivo.*\n\n| Tipo | Lo que realmente es | Ejemplos | Conoce tus registros | El compromiso |\n| --- | --- | --- | --- | --- |\n| Asistente general | Un chatbot de frontera al que haces preguntas de salud | ChatGPT, Claude, Gemini | Sin flujo continuo | Recuerda entre chats y puede enviar mensajes según horario, pero solo lo que configures |\n| Chat agregado a un rastreador | Una pestaña de chat dentro de una app de registro | MyFitnessPal, Cal AI | Parcialmente — a menudo solo entradas recientes | Reactivo; el coaching sigue siendo tu idea |\n| Programa con asistencia de IA | Currículo diseñado por humanos, entrega con IA | Noom, WeightWatchers | Dentro del programa | Sigues su arco, no el tuyo |\n| Coach de ayuno | Una ventana de alimentación más un coach siempre activo | Simple.Life ('Avo') | Registro de ayuno y comida | Centrado en IMC y patrón de ayuno |\n| Coach diario basado en datos | Lee tus registros y abre con una acción | HAVIT | Comidas, sueño, pasos, ciclo, estado de ánimo, medicación | Solo tan bueno como lo que registres |\n\nLa mayoría de la decepción en esta categoría viene de pagar por la fila cuatro y recibir la fila dos.\n\n## Quién no debería comprar una app de coaching con IA\n\nEsto importa más que otra lista de características.\n\n- **Si no registras nada, omítela.** Cada coach en las filas tres y cuatro es una función de tus datos. Sin entradas, se degrada en un chatbot por el que estás pagando una suscripción. Comienza con un hábito de registro; agrega el coach cuando tengas cuatro semanas de datos.\n- **Si quieres un humano, contrata uno.** El coaching con IA es más barato, está disponible a las 2am, y nunca te juzga. Tampoco es un dietista, no es un terapeuta, y no es responsable ante ti. Para trastornos alimentarios, una condición diagnosticada, o un objetivo atlético con fecha límite, una persona es la decisión correcta.\n- **Si ya sabes exactamente qué hacer**, necesitas herramientas de adherencia — alarmas, rachas, un amigo — no consejos.\n\n## Donde esta categoría es más débil — incluyéndonos\n\n- **Las estimaciones siguen siendo estimaciones.** Las cifras de calorías basadas en fotos y los números de composición corporal con IA, incluidos los de HAVIT, son aproximaciones. Léelos como tendencias, no mediciones.\n- **La proactividad puede volverse molesta.** El mismo mecanismo que hace útil a un coach hace agotador a uno malo. Verifica que las notificaciones sean granulares antes de comprometerte.\n- **La memoria es desigual.** Casi todas las apps en este espacio, incluida la nuestra, recuerdan algunas cosas y olvidan otras. Pruébala en algo que te importe — una alergia, un objetivo, una restricción — antes de confiarle el resto.\n- **HAVIT** es solo tan bueno como el día que registraste. En una semana en que no registras nada no tiene nada que decir, donde un asistente general todavía responde. Hace coaching hacia hábitos y tendencias de composición corporal, no hacia un objetivo de rendimiento con fecha — si quieres periodización programada para una carrera, esta es la herramienta equivocada. Y es una app de bienestar, no un dispositivo médico: HAVIT no es una herramienta de diagnóstico médico, no diagnosticará, y no te dirá que cambies una dosis prescrita.\n\n## La conclusión\n\nLa pregunta no es 'cuál IA es más inteligente'. Todas las serias son lo suficientemente inteligentes para este trabajo. La pregunta es cuál **ve tus datos, dice una cosa, y cambia cuando tú cambias.**\n\nPrueba eso en el período de prueba, en tu propio idioma, con tu propia comida, durante dos semanas incluyendo una mala semana. La mayoría de la categoría falla esa prueba, y toma alrededor de catorce días descubrirlo.\n\n## Por qué HAVIT — un coach que lee tu día\n\nHAVI, el coach de HAVIT, está construido alrededor de las tres pruebas anteriores. Lee lo que registraste — comidas, hidratación, sueño, pasos, ciclo, estado de ánimo, medicación GLP-1 — y devuelve una acción concreta para hoy en lugar de un plan para el trimestre. El check-in diario existe para que el coach sepa qué tipo de día es antes de pedirte algo.\n\nLa razón de ese diseño es la base de evidencia: el cambio de comportamiento estructurado es lo que la orientación clínica recomienda junto con, no en lugar de, todo lo demás ([USPSTF, Grado B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)), y el Programa de Prevención de Diabetes mostró que un programa de estilo de vida estructurado superó a metformin en riesgo de diabetes, 58% a 31% ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\nEn nuestro propio análisis de 1,090 usuarios de GLP-1, los registradores más consistentes construyeron los hábitos más fuertes ([Reporte de Hábitos GLP-1](/en/glp-1-habit-report)).\n\nHAVIT es una app de bienestar, no un dispositivo médico. HAVIT no es una herramienta de diagnóstico médico. No diagnostica, y no te dirá que cambies una dosis prescrita. Los resultados de composición corporal son estimaciones.\n\n[Prueba HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Mejores apps con coach de IA en 2026: cuáles leen tus datos de verdad",
+      "short_title": "Mejores apps con coach de IA 2026",
+      "meta_description": "Noom, Fitia, Lifesum, apps de foto, asistentes generales y HAVIT, una por una: qué lee cada coach, si habla primero y qué datos no puede ver nunca. Octubre de 2026.",
+      "tldr": "Un chat responde a lo que ya sabías preguntar; un coach señala lo que no preguntaste. Lo que los separa es si tus registros llegan al coach: pruébalo en la versión gratuita, incluida una mala semana.",
+      "body_md": "En los últimos dos años casi todas las apps de salud añadieron un \"coach de IA\". La mayoría añadió **un chat**. No es lo mismo.\n\nUn chat responde a las preguntas que ya sabías hacer. Un coach señala **lo que no preguntaste**. Lo que los separa no es la calidad del modelo: es **si tus registros llegan al coach**.\n\nEsta guía analiza una por una las apps que se presentan como coaching con IA. Octubre de 2026.\n\n![Un coach mira tu día, no solo tus mensajes](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n## Tres pruebas que separan un coach de un chatbot\n\n**1. ¿Lee tus propios datos?** En la prueba gratuita, pregúntale qué comiste ayer. Si tienes que pegar la respuesta, el coach es una ventana de chat y la app es un registrador.\n\n**2. ¿Da una acción o un plan?** Un plan es lo que ya incumpliste. *Treinta gramos de proteína en el desayuno* es verdadero o falso a las nueve de la mañana, y por eso se puede medir.\n\n**3. ¿Cambia cuando tú cambias?** Registra una mala semana a propósito. Un sistema de coaching real baja la exigencia o pregunta qué pasó. Uno con guion repite el mismo ánimo alegre.\n\n## Noom — el coach es una persona, no una IA\n\n| | |\n| --- | --- |\n| Desarrollador | Noom, Inc. |\n\n![Rendir cuentas ante una persona es otro producto](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n**Lo que hace bien.** **Un coach humano al que puedes escribir cuando quieras.** No una IA simulando. Además, un currículo basado en psicología decide qué lees cada día.\n\n**Dónde falla.** La franja de precio más alta de esta categoría. El alcance del coaching son comidas, actividad y peso: ciclo, medicación y composición corporal quedan fuera.\n\n**Para quién.** Para quien necesita rendir cuentas ante una persona.\n\n## Fitia y Lifesum — planes guiados, no coaching\n\n| | |\n| --- | --- |\n| Fitia | Planes de comida generados a partir de tus objetivos |\n| Lifesum | Dietas guiadas y hábitos |\n\n**Lo que hacen bien.** Convierten tus objetivos en un plan concreto sin que tengas que diseñarlo. Para mucha gente eso resuelve el primer bloqueo.\n\n**Dónde fallan.** Un plan generado no es un coach que se adapta. No leen sueño, ciclo ni medicación, así que no pueden explicar por qué esta semana fue distinta.\n\n**Para quién.** Para quien quiere que le digan qué comer, no por qué su semana se torció.\n\n## Apps de foto (Cal AI y similares)\n\n**Lo que hacen bien.** Convierten una foto en un registro en segundos. La IA hace reconocimiento, y lo hace bien.\n\n**Dónde fallan.** Reconocer no es entrenar. Responden \"¿qué era eso?\", no \"¿qué debería cambiar?\". El número que devuelven es el punto medio de un rango.\n\n**Para quién.** Para quien se atasca en la velocidad de registro.\n\n## Asistentes generales (ChatGPT, Claude, Gemini)\n\n**Lo que hacen bien.** Explicar conceptos y montar planes a petición, muy bien. Hoy recuerdan entre conversaciones y pueden escribirte a una hora fija si lo configuras.\n\n**Dónde fallan.** **No tienen un flujo continuo de las comidas, el sueño y los pasos de hoy.** El mensaje de las nueve de la noche tiene que ser uno que configuraste tú, con datos que pegaste tú. Y declinan —con razón— diagnosticar o gestionar medicación.\n\n**Para quién.** Para quien quiere respuestas a preguntas. No es un coach que habla primero desde tus datos.\n\n## HAVIT — ocho flujos de datos que alimentan a un solo coach\n\n| | |\n| --- | --- |\n| Desarrollador | Havit Inc. |\n| Lo que lee el coach | Comidas, hidratación, entrenamientos, sueño, pasos, **ciclo**, ánimo, **GLP-1** |\n| Idiomas | 35 |\n\n![El coach de IA de HAVIT lee los ocho registros y devuelve una sola acción](/blog/havit/shot/feature-ai-coach.webp)\n\n**Aquí está toda la diferencia.** El coach de HAVIT no lee un historial de chat. Lee **ocho flujos de tus propios datos**: no solo comidas, también sueño, pasos, ciclo y medicación.\n\nPor eso puede decir: *llevas cuatro días por debajo del objetivo de proteína, dos noches de menos de seis horas y estás en la semana previa a la regla; las tres cosas están conectadas y esta es la que conviene tocar primero.* Un asistente general no puede construir esa frase: puede recordarte entre conversaciones, pero **no tiene un flujo en vivo de tu día**.\n\n### Lo que devuelve es una acción, no un panel\n\n![Check-in diario: el coach pregunta primero qué día es](/blog/havit/shot/feature-daily-check-in.webp)\n\nPrimero está el **check-in diario**: estado, sueño, apetito y ánimo en unos toques, para que el coach sepa qué día es antes de pedirte nada. También es la vía por la que un mal día entra en el sistema sin terminarlo.\n\nDespués, las **misiones diarias** convierten técnicas de cambio de conducta en una acción para hoy. Si la fallas, eso es **un dato de entrada**, no una racha rota: la exigencia del día siguiente cambia.\n\n### El coach también mira tu cuerpo\n\n![Tendencias de grasa y masa magra](/blog/havit/shot/feature-body-insights.webp)\n\nEstima **tendencias de grasa y masa magra** sin hardware (comparación interna frente a InBody, n=70). Con tratamiento GLP-1, **dosis, efectos secundarios y proteína** los lee el mismo coach.\n\n**Seis pistas de meditación guiada**, **vídeos de entrenamiento**, **más de 1.400 artículos** y **ayuno**, en la misma app. Creada junto a especialistas procedentes de Juvis Diet, la clínica de adelgazamiento de referencia en Corea.\n\n**Para quién.** Para quien registra y sigue sin saber qué cambiar; para quien quiere un coach que vea sus datos de verdad.\n\n## Comparación\n\n| App | Qué lee el coach | ¿Habla primero? | Composición corporal | Ciclo | GLP-1 | Meditación y entrenamientos |\n| --- | --- | --- | --- | --- | --- | --- |\n| Noom | Comidas, actividad, peso | Lo hace el coach humano | No | No | No | Solo contenido |\n| Fitia / Lifesum | Comidas y objetivos | No | No | No | No | No |\n| Apps de foto | La foto que acabas de hacer | No | No | No | No | No |\n| Asistentes generales | Solo lo que pegas | Solo si lo programas | No | No | No | No |\n| **HAVIT** | **Los 8 registros** | **Sí** | **Estimada** | **Sí** | **Sí** | **Sí** |\n\nCaracterísticas de octubre de 2026.\n\n## Cuándo no comprar uno\n\n- **Si no registras nada.** Un coach basado en datos es una función de tus entradas. Construye primero el hábito de registrar y añade el coaching cuando tengas unas cuatro semanas.\n- **Si necesitas una persona.** Ante un trastorno de la conducta alimentaria, una enfermedad diagnosticada o un objetivo deportivo con fecha, acude a un profesional. Una IA de salud sensata declina diagnosticar y no te dirá que cambies una dosis prescrita; HAVIT tampoco, porque es una app de bienestar y no un producto sanitario.\n\n## En resumen\n\n\"Qué IA es más lista\" es la pregunta equivocada: todas las serias son suficientemente listas para esto.\n\nLa pregunta es cuál **ve tus datos, dice una sola cosa y cambia cuando tú cambias.** Pruébalo durante dos semanas, incluida una mala semana, dentro de la prueba gratuita.\n\n[Probar HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Grado de recomendación USPSTF para intervención conductual intensiva y multicomponente",
-          "value": "Grado B",
-          "source": "U.S. Preventive Services Task Force"
+          "label": "Flujos de datos que lee el coach de HAVIT",
+          "value": "8",
+          "source": "Comidas, hidratación, entrenamientos, sueño, pasos, ciclo, ánimo, GLP-1"
         },
         {
-          "label": "DPP: programa de estilo de vida estructurado vs metformin, reducción de riesgo de diabetes",
-          "value": "58% vs 31%",
-          "source": "Knowler et al. 2002, NEJM (n=3,234)"
+          "label": "Lo que no tiene un asistente general",
+          "value": "Flujo en vivo de comidas, sueño y pasos",
+          "source": "Memoria y conexión de datos no son lo mismo"
         },
         {
-          "label": "Técnicas de cambio de comportamiento en la taxonomía estándar",
-          "value": "93 técnicas",
+          "label": "Tiempo de prueba que destapa una personalización con guion",
+          "value": "~2 semanas, con una mala semana",
+          "source": "Método de prueba de esta guía"
+        },
+        {
+          "label": "Técnicas de cambio de conducta en la taxonomía estándar",
+          "value": "93",
           "source": "Michie et al. 2013, Ann Behav Med"
-        },
-        {
-          "label": "Tipos de coach de IA nombrados en esta guía",
-          "value": "5 tipos",
-          "source": "Asistente general · chat-en-rastreador · programa · coach de ayuno · basado en datos"
         }
       ],
       "comparison_table": {
-        "title": "Los cuatro tipos de 'coach de IA'",
+        "title": "Comparación",
         "headers": [
-          "Tipo",
-          "Lo que realmente es",
-          "Conoce tus datos",
-          "Mejor para",
-          "Compromiso"
+          "App",
+          "Qué lee el coach",
+          "¿Habla primero?",
+          "Composición corporal",
+          "Ciclo",
+          "GLP-1",
+          "Meditación y entrenamientos"
         ],
         "rows": [
           [
-            "Asistente general",
-            "Un chatbot de frontera al que haces preguntas de salud",
+            "Noom",
+            "Comidas, actividad, peso",
+            "Lo hace el coach humano",
             "No",
-            "Explicar conceptos, planes a pedido",
-            "Comienza desde cero; nada proactivo"
+            "No",
+            "No",
+            "Solo contenido"
           ],
           [
-            "Chat agregado a un rastreador",
-            "Una pestaña de chat dentro de una app de registro",
-            "Parcialmente — a menudo solo entradas recientes",
-            "Preguntar sobre una entrada que acabas de hacer",
-            "Reactivo; el coaching sigue siendo tu idea"
+            "Fitia / Lifesum",
+            "Comidas y objetivos",
+            "No",
+            "No",
+            "No",
+            "No",
+            "No"
           ],
           [
-            "Programa con asistencia de IA",
-            "Currículo diseñado por humanos, entrega con IA",
-            "Sí, dentro del programa",
-            "Personas que quieren estructura y lecciones",
-            "Sigues su arco, no el tuyo"
+            "Apps de foto",
+            "La foto que acabas de hacer",
+            "No",
+            "No",
+            "No",
+            "No",
+            "No"
           ],
           [
-            "Coach diario basado en datos",
-            "Lee tus registros, abre con una acción",
-            "Sí — comidas, sueño, pasos, ciclo, estado de ánimo",
-            "Rastreadores que aún no saben qué cambiar",
-            "Solo tan bueno como lo que registres"
+            "Asistentes generales",
+            "Solo lo que pegas",
+            "Solo si lo programas",
+            "No",
+            "No",
+            "No",
+            "No"
+          ],
+          [
+            "HAVIT",
+            "Los 8 registros",
+            "Sí",
+            "Estimada",
+            "Sí",
+            "Sí",
+            "Sí"
           ]
         ],
-        "caption": "La mayoría de la decepción en esta categoría viene de pagar por la fila cuatro y recibir la fila dos."
+        "caption": "Características de octubre de 2026."
       },
       "faq": [
         {
-          "question": "¿Cuál es la mejor app de coach de salud con IA en 2026?",
-          "answer": "La que lee tus propios datos registrados en lugar de solo tus mensajes de chat. Pregúntale en el período de prueba qué comiste ayer — si tienes que pegar la respuesta, es una ventana de chat dentro de un rastreador, no un coach. Luego verifica que devuelva una acción concreta en lugar de un plan, y que se ajuste cuando tengas una mala semana."
+          "question": "¿Cuál es la mejor app con coach de IA?",
+          "answer": "La que lee tus propios registros y no solo tus mensajes. Pregúntale en la prueba gratuita qué comiste ayer: si tienes que pegar la respuesta, es una ventana de chat dentro de un registrador. Después comprueba que devuelva una acción concreta en lugar de un plan, y que se ajuste cuando tengas una mala semana."
         },
         {
-          "question": "¿En qué se diferencia una app de coaching con IA de preguntarle a ChatGPT o Claude sobre mi dieta?",
-          "answer": "Un asistente general responde las preguntas que ya sabías hacer, comenzando desde cero cada vez. Una app de coaching tiene acceso a tus comidas, sueño, pasos, ciclo y medicación, y habla primero — puede decirte que cuatro días de proteína baja, dos noches cortas y un peso estable están conectados. Esa es una diferencia de acceso a datos y diseño, no de calidad del modelo."
+          "question": "¿En qué se diferencia de preguntarle a ChatGPT sobre mi dieta?",
+          "answer": "Los asistentes generales ya recuerdan entre conversaciones y pueden escribirte a una hora fija si lo configuras. Lo que siguen sin tener es un flujo continuo de las comidas, el sueño y los pasos de hoy, así que la conexión entre cuatro días de poca proteína, dos noches cortas y un peso estancado tienes que plantearla tú."
         },
         {
-          "question": "¿Puede un coach de IA reemplazar a un dietista o un terapeuta?",
-          "answer": "No. El coaching con IA es más barato, está disponible a las 2am y nunca juzga, pero no es un profesional licenciado y no es responsable ante ti. Para trastornos alimentarios, una condición diagnosticada, o un objetivo atlético con fecha límite, consulta a una persona. Una buena IA de salud también se niega a diagnosticar o a decirte que cambies una dosis prescrita."
+          "question": "¿El coach de Noom es una IA o una persona?",
+          "answer": "Una persona. El núcleo de Noom es un coach humano al que puedes escribir, junto a un currículo de psicología. Por eso está en la franja de precio más alta. El coaching con IA es más barato y está disponible a las dos de la mañana, pero rendir cuentas ante alguien es otro producto."
         },
         {
-          "question": "¿Cómo sé si la 'personalización' de una app es real?",
-          "answer": "Registra deliberadamente una mala semana. Un sistema de coaching real baja la exigencia, cambia el objetivo, o pregunta qué pasó. Uno programado repite el mismo empujón alegre. Esto toma alrededor de dos semanas detectar, por eso vale la pena hacerlo dentro del período de prueba gratuito."
+          "question": "¿Las apps que calculan calorías por foto son coaches de IA?",
+          "answer": "Hacen reconocimiento, no coaching. Son muy buenas convirtiendo un plato en un registro en segundos, lo que resuelve un problema real. Pero responden \"¿qué era eso?\" y no \"¿qué debería cambiar?\". Si tu bloqueo es la velocidad, encajan; si es no saber qué hacer después, no."
         },
         {
-          "question": "¿Vale la pena un coach de IA si no registro nada?",
-          "answer": "No. Los coaches basados en datos son una función de tus entradas; sin nada registrado, estás pagando una suscripción por un chatbot. Construye primero un hábito de registro y agrega coaching una vez que tengas aproximadamente cuatro semanas de datos."
+          "question": "¿Cómo sé si la personalización de una app es real?",
+          "answer": "Registra una mala semana a propósito. Un sistema de coaching real baja la exigencia, cambia el objetivo o pregunta qué pasó. Uno con guion repite el mismo ánimo alegre. Detectarlo lleva unas dos semanas, por eso conviene hacerlo dentro de la prueba gratuita."
         },
         {
-          "question": "¿Las apps de coaching con IA funcionan en idiomas distintos al inglés?",
-          "answer": "La traducción de interfaz y el coaching en tu idioma son cosas diferentes. Muchas apps traducen botones y luego hacen coaching en inglés traducido automáticamente. Pruébala en el idioma en que realmente piensas, usando una comida que realmente comes."
+          "question": "¿Puede un coach de IA sustituir a un dietista o a un psicólogo?",
+          "answer": "No. Una IA de salud sensata declina diagnosticar y no te dirá que cambies una dosis prescrita, HAVIT incluida, porque es una app de bienestar y no un producto sanitario. Ante un trastorno de la conducta alimentaria o una enfermedad diagnosticada, acude a un profesional."
         }
       ],
       "references": [

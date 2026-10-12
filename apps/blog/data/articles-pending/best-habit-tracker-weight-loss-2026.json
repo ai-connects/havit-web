@@ -675,93 +675,98 @@
       "last_updated": "2026-10-11"
     },
     "es": {
-      "title": "Mejores rastreadores de hábitos para bajar de peso en 2026: por qué las rachas solas no funcionan",
-      "short_title": "Mejores rastreadores de hábitos para bajar de peso 2026",
-      "meta_description": "Una racha perfecta de 90 días y ningún peso perdido es el fracaso característico de esta categoría. La mayoría de las apps de hábitos implementan dos de las 93 técnicas de cambio de comportamiento catalogadas. Cuáles cinco criterios importan, la falla de diseño de las rachas y los dos hábitos que realmente debes elegir.",
-      "tldr": "Un rastreador de hábitos ayuda con el peso solo si rastrea un comportamiento específico, lo verifica desde datos en lugar de una marca, y se ajusta cuando fallas en lugar de reiniciarse. Elige dos hábitos, dale a cada uno una señal y juzga la app en tu peor día.",
-      "body_md": "*Divulgación honesta: HAVIT publica este blog y hace una de las apps mencionadas. Hemos indicado dónde pierde.*\n\nLos rastreadores de hábitos genéricos son muy buenos en una cosa: decirte si hiciste la cosa. Para bajar de peso, eso resulta ser la mitad fácil del problema, por eso tantas personas mantienen una racha perfecta de 90 días y no pierden nada.\n\nLa brecha no es motivación. Es que 'la cosa' nunca se especificó lo suficientemente bien como para importar, y nada en la app lo notó.\n\n## Qué debe hacer un rastreador de hábitos, y la mayoría no lo hace\n\nLa investigación sobre cambio de comportamiento no es vaga al respecto. La taxonomía estándar cataloga 93 técnicas distintas, y las que producen resultados de pérdida de peso son específicas: establecimiento de metas sobre *comportamiento* en lugar de resultado, automonitoreo de ese comportamiento, retroalimentación, planificación de acciones y revisión cuando el plan falla ([Michie et al., *Annals of Behavioral Medicine*, 2013](https://pubmed.ncbi.nlm.nih.gov/23512568/)).\n\nLa mayoría de las apps de hábitos implementan exactamente dos de esas — automonitoreo y una racha — y lo dan por hecho. Las piezas faltantes son donde realmente vive la pérdida de peso.\n\nDos hallazgos que vale la pena llevar a tu elección:\n\n**La especificidad supera a la intensidad.** 'Comer mejor' no es un hábito. '30g de proteína en el desayuno' sí lo es, porque a las 9am es verdadero o falso. Una casilla de verificación adjunta a una intención vaga registra tu optimismo, no tu comportamiento.\n\n**Los hábitos toman más tiempo del que la app implica.** En un estudio del mundo real sobre formación de hábitos, la automaticidad tomó una mediana de 66 días para estabilizarse, con una enorme dispersión individual ([Lally et al., *European Journal of Social Psychology*, 2010](https://doi.org/10.1002/ejsp.674)). Un desafío de 21 días termina aproximadamente a un tercio del camino.\n\n## El problema de las rachas\n\nLas rachas funcionan. También contienen una falla de diseño que empeora cuanto más duran.\n\nEl valor de una racha está completamente en no romperla, lo que significa que su valor se invierte en el momento en que se rompe. El día 94 de una racha de 93 días es el día con más probabilidades de renunciar — el único refuerzo que tenías acaba de convertirse en evidencia de fracaso. Eso es lo opuesto de lo que necesita el primer mal día.\n\nQué buscar en su lugar:\n\n- **Mecánicas de reparación.** Congelamiento de rachas, días de descanso, un objetivo semanal en lugar de uno diario. Cualquier cosa que permita que una falla sea una falla en lugar de un reinicio.\n- **Marco semanal.** 'Cinco de siete' sobrevive un mal día. 'Roto' no.\n- **Crédito por parcial.** Un día registrado a medias debería contar para algo, porque la alternativa es no registrar nada.\n\n## 5 criterios para un rastreador de hábitos de pérdida de peso\n\n### 1. ¿Rastrea comportamientos o resultados?\n\nEl peso es un resultado. Responde lentamente, con ruido y a cosas que hiciste la semana pasada. Un rastreador que pone el peso en la lista de verificación diaria te está calificando en algo que no puedes controlar directamente ese día.\n\n### 2. ¿Puede un hábito vincularse a una señal?\n\n'Después de servir mi café, tomo el batido de proteína'. Las intenciones de implementación de esa forma si-entonces son una de las herramientas mejor respaldadas en esta literatura, y necesitan que la app almacene una señal, no solo un nombre.\n\n### 3. ¿Ve los datos o solo la casilla de verificación?\n\nUn rastreador que sabe que registraste 40g de proteína puede verificar el hábito. Uno que solo sabe que marcaste una casilla está confiando en un autorreporte hecho a las 11pm.\n\n### 4. ¿Adapta el objetivo?\n\nCuatro fallas seguidas significan que la solicitud estaba mal, no que eres débil. Un buen sistema lo reduce. Una lista de verificación lo repite hasta que eliminas la app.\n\n### 5. ¿Sobrevive una mala semana?\n\nLa única semana que importa para la retención. Pruébalo deliberadamente antes de comprometerte.\n\n## Rastreador de hábitos genérico vs específico para peso\n\n| | Rastreador de hábitos genérico | Sistema de hábitos para pérdida de peso |\n| --- | --- | --- |\n| Qué registra | Que marcaste una casilla | El comportamiento y sus datos (proteína, pasos, sueño) |\n| Tipo de meta | Conteo de racha | Comportamiento vinculado a una tendencia de resultado |\n| Verificación | Autorreporte | El registro mismo |\n| En un día perdido | La racha se reinicia | El objetivo se ajusta, la semana continúa |\n| Fortaleza | Cualquier hábito, flexibilidad total | Solo hábitos relacionados con el peso, pero verificables |\n\nLos rastreadores genéricos son mejores si estás construyendo diez hábitos no relacionados. Son peores en el único trabajo aquí, porque una marca no puede distinguir entre 30g de proteína y la intención de comerla.\n\n## Hábitos que realmente mueven el peso\n\nElige dos. No ocho.\n\n1. **Proteína en la primera comida.** Ancla el día y protege la masa magra — lo cual importa más con medicación GLP-1, donde la proporción de masa magra del peso perdido se ha reportado tan alta como 40–60% en algunos ensayos ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/)).\n2. **Registra todos los días, mal si es necesario.** A través de 22 estudios de automonitoreo — 15 sobre registro de alimentos — la asociación con pérdida de peso fue consistente, aunque los revisores calificaron la evidencia como débil ([Burke et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)). La completitud supera a la precisión.\n3. **Una ventana de sueño fija.** El sueño corto mueve el apetito. Este es el hábito que la gente omite porque no se trata de comida.\n4. **Entrenamiento de resistencia dos veces por semana.** Protege la masa magra que la dieta está tratando de tomar.\n5. **Una revisión semanal.** La técnica que casi todas las apps omiten: mira la semana, cambia una cosa.\n\nLos programas estructurados construidos exactamente a partir de este tipo de componentes superaron a la metformina en el riesgo de diabetes en el Programa de Prevención de Diabetes, 58% a 31% ([Knowler et al., *NEJM*, 2002](https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/)).\n\n## Dónde cada enfoque se queda corto — incluyendo el nuestro\n\n- **Apps de hábitos genéricos** ganan en flexibilidad y pierden en verificación. No pueden verificar que el hábito ocurrió.\n- **Apps centradas en rachas** construyen fuerte adherencia a corto plazo y castigan la primera falla más duramente.\n- **Apps de programas** proporcionan la revisión semanal que otras omiten, en su horario en lugar del tuyo.\n- **HAVIT** solo rastrea comportamientos de salud — si quieres rastrear práctica de guitarra y uso de hilo dental en el mismo lugar, somos la app equivocada. Nuestra base de datos de alimentos es más pequeña que los rastreadores de nutrición dedicados, y las cifras de composición corporal son estimaciones.\n\n## La conclusión\n\nUn rastreador de hábitos ayuda con el peso solo si rastrea un **comportamiento específico**, puede **verificarlo** desde datos en lugar de una marca, y **se ajusta** cuando fallas en lugar de reiniciarse.\n\nElige dos hábitos, dale a cada uno una señal y juzga el sistema por lo que hace en tu peor día — no en tu mejor día.\n\n## Por qué HAVIT — misiones en lugar de casillas de verificación\n\nLas misiones diarias de HAVIT son técnicas de cambio de comportamiento en forma de producto: una acción específica, vinculada a datos que la app realmente puede ver, ajustada cuando la fallas.\n\nEsa última parte es la decisión de diseño que importa. Debido a que comidas, proteína, sueño, pasos, ciclo, estado de ánimo y medicación están en un solo lugar, un objetivo de proteína perdido no es una racha rota — es una entrada, y la acción del día siguiente cambia debido a ello. El check-in diario es cómo un mal día entra al sistema sin terminarlo.\n\nLa orientación clínica trata el cambio de comportamiento estructurado como un componente central del cuidado de la obesidad, no como un extra opcional ([USPSTF, Grado B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). En nuestro propio análisis de 1,090 usuarios de GLP-1, los registradores más consistentes construyeron los hábitos más fuertes ([Reporte de hábitos GLP-1](/en/glp-1-habit-report)).\n\nHAVIT es una app de bienestar, no un dispositivo médico. HAVIT no es una herramienta de diagnóstico médico. Las cifras de composición corporal son estimaciones.\n\n[Prueba HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Mejores apps de hábitos para adelgazar en 2026: por qué las rachas no bastan",
+      "short_title": "Mejores apps de hábitos 2026",
+      "meta_description": "Noom, Fitia, Lifesum, apps genéricas y HAVIT, una por una. La mayoría implementa dos de las 93 técnicas de cambio de conducta: por eso una racha perfecta sin bajar de peso es el fallo típico.",
+      "tldr": "Una marca no distingue 30 g de proteína de la intención de comérselos. Un registrador de hábitos ayuda solo si sigue una conducta concreta, la verifica desde los datos y se ajusta cuando fallas.",
+      "body_md": "Una racha perfecta de 90 días y ni un kilo menos: es el fallo característico de esta categoría.\n\nLo que faltaba no era motivación. Es que **\"la cosa\" nunca se concretó lo suficiente como para importar**, y nada en la app se dio cuenta.\n\nEsta guía analiza las apps de hábitos una por una.\n\n![Una marca no dice si el hábito ocurrió](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_010.jpg)\n\n## Qué tiene que hacer un registrador de hábitos\n\nLa taxonomía estándar de intervenciones de cambio de conducta recoge **93 técnicas**. Las que producen resultados en pérdida de peso son concretas: fijar objetivos sobre la **conducta** y no sobre el resultado, registrar esa conducta, dar retroalimentación, planificar la acción y revisar cuando el plan falla.\n\nLa mayoría de las apps de hábitos implementan exactamente dos: el autorregistro y la racha.\n\n**El problema de la racha.** Todo su valor está en no romperla, así que ese valor se invierte en el momento en que se rompe. El día 94 de una racha de 93 días es el día con más probabilidad de abandono. Busca mecanismos de reparación: días de descanso, objetivo semanal en vez de diario, puntos por un registro parcial.\n\n## Noom — currículo y la revisión semanal\n\n| | |\n| --- | --- |\n| Desarrollador | Noom, Inc. |\n\n**Lo que hace bien.** Un currículo diario estructurado y **un coach humano** que hace la revisión semanal, la técnica que casi todas las demás apps omiten.\n\n**Dónde falla.** Funciona según su calendario, no el tuyo, y está en la franja de precio más alta de la categoría. La base sigue siendo el autoinforme.\n\n**Para quién.** Para quien quiere estructura y una persona que supervise.\n\n## Fitia y Lifesum — el plan como hábito\n\n**Lo que hacen bien.** Convierten el objetivo en un plan concreto y, en el caso de Lifesum, cuidan mucho que apetezca volver a abrir la app. En una categoría donde casi todo se abandona, eso no es decorativo.\n\n**Dónde fallan.** El cumplimiento es autoinformado y el plan no se ajusta cuando fallas: simplemente queda sin marcar.\n\n**Para quién.** Para quien necesita que le digan qué hacer cada día.\n\n## Apps de hábitos genéricas (Habitica, Streaks y similares)\n\n**Lo que hacen bien.** Registran cualquier cosa: practicar guitarra, usar hilo dental, beber agua. Flexibilidad máxima.\n\n**Dónde fallan.** **No verifican nada.** Una marca solo sabe que la pulsaste. Y no están conectadas a datos de salud, así que nada puede cruzar el hábito con el resultado.\n\n**Para quién.** Para quien construye diez hábitos sin relación entre sí.\n\n## HAVIT — verificado desde los datos, no desde una casilla\n\n| | |\n| --- | --- |\n| Desarrollador | Havit Inc. |\n| Verificación del hábito | **Desde el propio registro**, no una casilla |\n| Registra | Comidas, hidratación, entrenamientos, sueño, pasos, ciclo, ánimo, GLP-1 |\n| Mecánicas | Misiones diarias · rachas · insignias · avatares · rangos · retos de equipo |\n\n![Misiones diarias: una acción concreta para hoy](/blog/havit/shot/feature-daily-missions.webp)\n\n**La verificación es toda la diferencia.** Una app que solo conoce una casilla está confiando en un autoinforme hecho a las once de la noche. HAVIT sabe si registraste de verdad 40 g de proteína. Una marca no distingue *30 g de proteína* de *la intención de comérselos*.\n\nLas **misiones diarias** son técnicas de cambio de conducta hechas producto: una acción concreta, atada a datos que la app puede ver, **y que se ajusta cuando fallas**.\n\n![Check-in diario: así entra un mal día sin terminar con todo](/blog/havit/shot/feature-daily-check-in.webp)\n\nEsa última parte es la decisión de diseño que importa. Un objetivo de proteína fallado no es una racha rota: es **un dato de entrada**. El coach de IA lo lee junto al sueño, los pasos y el ciclo, y la exigencia del día siguiente cambia. El **check-in diario** es la vía por la que un mal día entra en el sistema sin terminarlo.\n\nAlrededor: **rachas, insignias, avatares, rangos y retos de equipo**, además de **seis pistas de meditación guiada**, **vídeos de entrenamiento**, **ayuno**, **más de 1.400 artículos** y estimación de composición corporal. Creada junto a especialistas procedentes de Juvis Diet, la clínica de adelgazamiento de referencia en Corea.\n\n**Para quién.** Para quien acumuló marcas mientras su cuerpo no cambiaba; para quien borró la app después de una mala semana.\n\n## Comparación\n\n| App | Qué registra | Verificación | Si fallas un día | Se lee junto a |\n| --- | --- | --- | --- | --- |\n| Noom | Comidas, actividad, peso | Autoinforme | El coach lo revisa | Comidas, actividad |\n| Fitia / Lifesum | Plan de comidas | Autoinforme | Queda sin marcar | Comidas |\n| Apps genéricas | Una casilla | Ninguna | La racha se reinicia | Nada |\n| **HAVIT** | **La conducta y sus datos** | **El propio registro** | **El objetivo se ajusta** | **Los 8 registros** |\n\nCaracterísticas de octubre de 2026.\n\n## Hábitos que mueven el peso de verdad — elige dos\n\n1. **Proteína en la primera comida.** Importa más con GLP-1, donde la masa magra se ha descrito como el 40–60% del peso perdido en algunos ensayos.\n2. **Registra cada día, aunque sea mal.** La continuidad gana a la exactitud.\n3. **Una ventana de sueño fija.** El hábito que la gente se salta porque no va de comida.\n4. **Fuerza dos veces por semana.**\n5. **Una revisión semanal.** Mira la semana y cambia **una** cosa.\n\n## En resumen\n\nUn registrador de hábitos ayuda con el peso solo si sigue una **conducta concreta**, puede **verificarla** desde los datos en lugar de una marca, y **se ajusta** cuando fallas en lugar de reiniciarse.\n\nJúzgalo por lo que hace en tu peor día, no en el mejor.\n\n[Probar HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Técnicas de cambio de comportamiento en la taxonomía estándar",
-          "value": "93 técnicas",
+          "label": "Técnicas de cambio de conducta en la taxonomía estándar",
+          "value": "93",
           "source": "Michie et al. 2013, Ann Behav Med"
         },
         {
-          "label": "Técnicas que la mayoría de las apps de hábitos realmente implementan",
-          "value": "2 (automonitoreo, racha)",
-          "source": "Esta guía"
+          "label": "Técnicas que implementan la mayoría de apps de hábitos",
+          "value": "2",
+          "source": "Autorregistro y racha"
         },
         {
-          "label": "Tiempo mediano para que un nuevo hábito se estabilice en automaticidad",
-          "value": "66 días",
-          "source": "Lally et al. 2010, Eur J Soc Psychol"
+          "label": "Registros con los que HAVIT verifica hábitos",
+          "value": "8",
+          "source": "Comidas, hidratación, entrenamientos, sueño, pasos, ciclo, ánimo, GLP-1"
         },
         {
-          "label": "DPP: programa de estilo de vida estructurado vs metformina, reducción de riesgo de diabetes",
-          "value": "58% vs 31%",
-          "source": "Knowler et al. 2002, NEJM (n=3,234)"
+          "label": "Masa magra dentro del peso perdido con GLP-1",
+          "value": "40–60% en algunos ensayos",
+          "source": "Neeland et al. 2024, Diabetes Obes Metab"
         }
       ],
       "comparison_table": {
-        "title": "Rastreador de hábitos genérico vs sistema de hábitos para pérdida de peso",
+        "title": "Comparación",
         "headers": [
-          "",
-          "Rastreador de hábitos genérico",
-          "Sistema de hábitos para pérdida de peso"
+          "App",
+          "Qué registra",
+          "Verificación",
+          "Si fallas un día",
+          "Se lee junto a"
         ],
         "rows": [
           [
-            "Qué registra",
-            "Que marcaste una casilla",
-            "El comportamiento y sus datos (proteína, pasos, sueño)"
+            "Noom",
+            "Comidas, actividad, peso",
+            "Autoinforme",
+            "El coach lo revisa",
+            "Comidas, actividad"
           ],
           [
-            "Tipo de meta",
-            "Conteo de racha",
-            "Comportamiento vinculado a una tendencia de resultado"
+            "Fitia / Lifesum",
+            "Plan de comidas",
+            "Autoinforme",
+            "Queda sin marcar",
+            "Comidas"
           ],
           [
-            "Verificación",
-            "Autorreporte",
-            "El registro mismo"
-          ],
-          [
-            "En un día perdido",
+            "Apps genéricas",
+            "Una casilla",
+            "Ninguna",
             "La racha se reinicia",
-            "El objetivo se ajusta, la semana continúa"
+            "Nada"
           ],
           [
-            "Fortaleza",
-            "Cualquier hábito, flexibilidad total",
-            "Solo hábitos relacionados con el peso, pero verificables"
+            "HAVIT",
+            "La conducta y sus datos",
+            "El propio registro",
+            "El objetivo se ajusta",
+            "Los 8 registros"
           ]
         ],
-        "caption": "Una marca no puede distinguir entre 30g de proteína y la intención de comerla."
+        "caption": "Características de octubre de 2026."
       },
       "faq": [
         {
-          "question": "¿Cuál es el mejor rastreador de hábitos para bajar de peso?",
-          "answer": "El que rastrea un comportamiento específico en lugar de una intención vaga, lo verifica desde tus datos en lugar de una casilla de verificación, y reduce el objetivo cuando fallas en lugar de reiniciar una racha. Las apps de hábitos genéricos son mejores si estás construyendo diez hábitos no relacionados; son peores aquí, porque una marca no puede distinguir 30g de proteína de la intención de comerla."
+          "question": "¿Cuál es la mejor app de hábitos para adelgazar?",
+          "answer": "La que sigue una conducta concreta en vez de una intención vaga, la verifica desde tus datos en lugar de una casilla, y baja el objetivo cuando fallas en vez de reiniciar una racha. Las apps genéricas son mejores si construyes diez hábitos sin relación; aquí son peores, porque una marca no distingue 30 g de proteína de la intención de comérselos."
         },
         {
-          "question": "¿Por qué mantengo una racha perfecta pero no pierdo peso?",
-          "answer": "Usualmente porque el hábito nunca se especificó lo suficientemente bien como para importar. 'Comer mejor' registra tu optimismo; '30g de proteína en el desayuno' es verdadero o falso a las 9am. La mayoría de las apps de hábitos implementan solo dos de las 93 técnicas de cambio de comportamiento catalogadas — automonitoreo y una racha — y las piezas faltantes, especialmente la planificación de acciones y la revisión semanal, son donde vive la pérdida de peso."
+          "question": "Mantengo la racha perfecta pero no bajo de peso. ¿Por qué?",
+          "answer": "Casi siempre porque el hábito nunca se concretó lo suficiente. \"Comer mejor\" registra tu optimismo; \"30 g de proteína en el desayuno\" es verdadero o falso a las nueve. La mayoría de apps implementa solo dos de las 93 técnicas catalogadas —autorregistro y racha— y lo que falta, sobre todo planificar la acción y revisar la semana, es donde ocurre la pérdida de peso."
         },
         {
-          "question": "¿Las rachas son buenas o malas para bajar de peso?",
-          "answer": "Ambas. El valor de una racha está completamente en no romperla, por lo que ese valor se invierte en el momento en que se rompe — el día 94 de una racha de 93 días es el día con más probabilidades de renunciar. Busca mecánicas de reparación: congelamiento de rachas, días de descanso, un objetivo semanal en lugar de uno diario, y crédito por un día registrado parcialmente."
+          "question": "¿Las rachas son buenas o malas?",
+          "answer": "Las dos cosas. Todo su valor está en no romperlas, así que se invierte en cuanto se rompen: el día 94 de una racha de 93 días es el de más abandono. Busca mecanismos de reparación: días de descanso, objetivo semanal en vez de diario y puntos por un registro parcial."
         },
         {
-          "question": "¿Cuánto tiempo toma construir un hábito?",
-          "answer": "Más de lo que la mayoría de las apps implican. En un estudio del mundo real, la automaticidad tomó una mediana de 66 días para estabilizarse, con una dispersión individual muy amplia. Un desafío de 21 días termina aproximadamente a un tercio del camino, lo cual es una razón por la que tantos de ellos son seguidos por una recaída."
+          "question": "¿Qué diferencia hay entre una app de hábitos genérica y una de adelgazamiento?",
+          "answer": "La verificación. Una app genérica solo sabe que pulsaste una casilla. Una construida sobre tus registros sabe si se anotaron de verdad 40 g de proteína. Si tu objetivo es el peso, esa verificación es lo que hace que el registro signifique algo."
         },
         {
-          "question": "¿Qué hábitos realmente mueven el peso?",
-          "answer": "Elige dos, no ocho. Proteína en la primera comida, registrar todos los días incluso mal, una ventana de sueño fija, entrenamiento de resistencia dos veces por semana y una revisión semanal. La revisión semanal es la técnica que casi todas las apps omiten: mira la semana y cambia una cosa."
+          "question": "¿Qué hábitos mueven el peso de verdad?",
+          "answer": "Elige dos, no ocho. Proteína en la primera comida, registrar cada día aunque sea mal, una ventana de sueño fija, fuerza dos veces por semana y una revisión semanal. La revisión semanal es la técnica que casi todas las apps omiten: mira la semana y cambia una sola cosa."
         },
         {
-          "question": "¿Debería rastrear el peso como un hábito diario?",
-          "answer": "El peso es un resultado, no un comportamiento — responde lentamente, con ruido y a cosas que hiciste la semana pasada. Ponerlo en una lista de verificación diaria te califica en algo que no puedes controlar ese día. Rastrea los comportamientos diariamente y lee el peso como una tendencia semanal."
+          "question": "¿Debo registrar el peso como hábito diario?",
+          "answer": "El peso es un resultado, no una conducta: responde despacio, con ruido, y a cosas que hiciste la semana pasada. Ponerlo en una lista diaria te puntúa por algo que no controlas ese día. Registra las conductas a diario y lee el peso como tendencia semanal."
         }
       ],
       "references": [
