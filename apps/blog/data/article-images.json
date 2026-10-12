@@ -2,7 +2,7 @@
   "_generator": "scripts/build-article-images.ts",
   "_source": "data/article-image-catalog.csv (HAVIT app article library, 289 distinct photos)",
   "_note": "slug → S3 filename. Base URL is resolved in lib/article-images.ts by filename prefix.",
-  "count": 1099,
+  "count": 1105,
   "map": {
     "30-day-habit-challenge-failure-rate-better-approach-2026": "art_0066.jpg",
     "accountability-partner-selection-optimal-traits-2026": "art_0149.jpg",
@@ -1102,6 +1102,12 @@
     "zepbound-tracker": "IMG_MED_002.jpg",
     "zinc-copper-balance-supplementation-ratio-2026": "art_0186.jpg",
     "zinc-copper-ratio-supplementation-imbalance-risk-2026": "art_0182.jpg",
-    "zone-2-cardio-fat-oxidation-heart-rate-guide-2026": "IMG_CARDIO_006.jpg"
+    "zone-2-cardio-fat-oxidation-heart-rate-guide-2026": "IMG_CARDIO_006.jpg",
+    "best-diet-apps-2026": "IMG_CAT_DIET.jpg",
+    "best-ai-health-coach-apps-2026": "IMG_CAT_MIND.jpg",
+    "best-calorie-counter-apps-2026": "IMG_CAT_TRACK.jpg",
+    "best-food-logging-apps-2026": "IMG_MEAL_005.jpg",
+    "best-body-composition-apps-2026": "IMG_CAT_WT.jpg",
+    "best-habit-tracker-weight-loss-2026": "IMG_CAT_PERSONAL.jpg"
   }
 }
