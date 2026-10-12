@@ -855,105 +855,123 @@
       "last_updated": "2026-10-11"
     },
     "pt-BR": {
-      "title": "Melhores Apps de Contagem de Calorias em 2026: Por Que Consistência Supera Precisão",
-      "short_title": "Melhores Apps Contador de Calorias 2026",
-      "meta_description": "Cada número em um app de calorias é uma estimativa — rótulo, banco de dados, porção, gasto energético. Quando você aceita isso, para de buscar precisão e começa a buscar consistência. Seis critérios, uma comparação por finalidade e onde cada app perde.",
-      "tldr": "Quatro camadas de aproximação se acumulam antes de um número de calorias chegar à sua tela, então o total diário é uma faixa, não um número. Escolha o app onde registrar seu jantar real de terça-feira leva dez segundos — depois leia a semana, não o dia.",
-      "body_md": "*Divulgação honesta: HAVIT publica este blog e desenvolve um dos apps abaixo. Indicamos onde ele perde. Cada app aqui é julgado pelos mesmos critérios.*\n\nAqui está a questão que ninguém vendendo um contador de calorias vai começar dizendo: **cada número na cadeia é uma estimativa.** O rótulo na embalagem é uma estimativa. A entrada no banco de dados que alguém digitou é uma estimativa. O tamanho da sua porção é uma estimativa. Seu gasto energético diário é uma estimativa de uma estimativa.\n\nIsso não é um argumento contra a contagem. É um argumento para escolher um app pelo critério certo. Quando você aceita que o número absoluto é aproximado, precisão deixa de ser o que buscar e **consistência** toma seu lugar — o mesmo alimento, registrado da mesma forma, toda vez, para que a tendência signifique algo mesmo quando o número não significa.\n\nEste guia organiza a categoria com base nisso.\n\n## Por que 'contador de calorias mais preciso' é a busca errada\n\nQuatro camadas separadas de aproximação se acumulam antes de um número chegar à sua tela.\n\n**O rótulo.** Os valores energéticos de alimentos embalados são calculados a partir dos nutrientes presentes, não medidos na embalagem que você está segurando, e as regras de rotulagem alimentar em todos os principais mercados permitem uma tolerância entre o valor declarado e o analisado. O número é uma declaração, não uma leitura.\n\n**O banco de dados.** Os grandes apps de nutrição construíram sua amplitude com entradas enviadas por usuários. Amplitude é por isso que eles ganham; envio por usuários é por isso que um único iogurte de supermercado pode retornar uma dúzia de entradas quase idênticas com valores calóricos significativamente diferentes. Bancos de dados de entradas verificadas trocam tamanho por confiabilidade, o que é uma troca real e não uma linha de marketing.\n\n**A porção.** Este é geralmente o maior erro isolado. 'Uma tigela' varia mais entre duas pessoas do que a maioria das entradas de banco de dados varia da verdade.\n\n**Seu gasto.** Qualquer meta construída em uma fórmula de TMB ou TDEE carrega variação individual significativa. A fórmula é uma média populacional sendo aplicada a uma pessoa.\n\nEmpilhe isso e o total diário é uma faixa, não um número. A pergunta útil se torna: este app me permite registrar da mesma forma todos os dias, rápido o suficiente para que eu continue fazendo isso? Esse é o comportamento para o qual as evidências apontam — uma revisão sistemática de 22 estudos de automonitoramento, 15 sobre registro alimentar, encontrou uma associação consistente com perda de peso, enquanto classificou a própria evidência como fraca em bases metodológicas ([Burke et al., *Journal of the American Dietetic Association*, 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/)).\n\n## 6 critérios para escolher um app de contagem de calorias\n\n### 1. Entradas verificadas ou amplitude colaborativa?\n\nDecida qual falha você prefere. Um banco de dados verificado não terá o pão da sua padaria local; um colaborativo terá várias vezes com valores diferentes. Se você come principalmente alimentos embalados, amplitude ganha. Se você precisa de números nos quais pode confiar, verificação ganha.\n\n### 2. Quantos toques é uma refeição repetida?\n\nA maioria das pessoas come uma pequena rotação de refeições. O app que transforma seu café da manhã de terça-feira em um toque vai superar um app mais preciso que faz você procurar por ele toda manhã — porque você ainda estará usando em março.\n\n### 3. Ele rastreia micronutrientes, ou apenas macros?\n\nApenas alguns apps se aprofundam em vitaminas e minerais. Se você está gerenciando uma deficiência, uma dieta clínica ou um padrão restritivo, este é o critério que decide sua lista curta, e os apps de nutrição dedicados são genuinamente melhores nisso do que todos os outros.\n\n### 4. Ele ajusta a meta, ou define uma vez?\n\nUma meta calculada uma vez no primeiro dia fica obsoleta conforme você perde peso, muda o treino ou atinge um platô. Procure apps que recalculam a partir da sua própria ingestão observada e tendência de peso em vez de reexecutar a mesma fórmula.\n\n### 5. Ele mostra uma tendência ou um veredicto?\n\nTotais diários são ruidosos — água, sal, ciclo, glicogênio. Uma visualização semanal móvel responde 'estou progredindo?' muito melhor do que um banner vermelho 'acima do orçamento', que principalmente ensina as pessoas a parar de registrar nos dias em que mais precisam.\n\n### 6. Contar calorias serve para você?\n\nVale perguntar honestamente. Para algumas pessoas, a contagem detalhada se torna uma fixação prejudicial. Se o rastreamento te deixa ansioso ou rígido em relação à comida, uma abordagem baseada em hábitos ou composição corporal é mais adequada, e falar com um profissional é um primeiro passo melhor do que um app diferente.\n\n## Os apps de contagem de calorias, por para que são construídos\n\n*Características dos apps são de outubro de 2026 — verifique a listagem da loja antes de se comprometer.*\n\n| Tipo de app | Construído para | Estilo de banco de dados | Micronutrientes | Onde ele perde |\n| --- | --- | --- | --- | --- |\n| MyFitnessPal | Amplitude — encontre quase qualquer alimento | Grande, fortemente enviado por usuários | Básico | Entradas duplicadas e inconsistentes |\n| Cronometer | Precisão e profundidade de nutrientes | Verificado, curado | Extensivo | Banco de dados menor; mais entrada manual |\n| FatSecret | Registro direto em um nível gratuito generoso | Enviado por usuários | Básico | Menos recursos de tendência e composição corporal do que os apps orientados por coaching |\n| Registradores por foto / IA | Velocidade — segundos por refeição | Estimativa de modelo a partir de uma imagem | Limitado | A estimativa é uma faixa, não uma leitura |\n| HAVIT | Contexto — alimento dentro de sono, ciclo, humor, medicação | Moderado | Macros principais, proteína em primeiro lugar | Banco de dados menor do que os especialistas |\n\nSe seu único requisito é um detalhamento preciso de micronutrientes, um app de nutrição dedicado é a resposta certa e esta é uma conversa curta.\n\n## Como contar sem perder a cabeça\n\n- **Registre da mesma forma toda vez.** Consistência supera precisão. Escolha uma entrada para sua aveia usual e reutilize em vez de otimizá-la semanalmente.\n- **Pese as coisas densas.** Óleos, castanhas, pastas de castanhas e grãos secos concentram mais energia no menor volume, então uma porção estimada a olho destes é onde um dia dá errado mais rápido. Pesar apenas estes obtém a maior parte do benefício por uma fração do esforço.\n- **Leia a semana, não o dia.** Um dia não te diz quase nada.\n- **Priorize proteína.** Metas de proteína são a parte do plano que se sustenta quando as calorias são imperfeitas — especialmente em terapia com GLP-1, onde a proporção de massa magra do peso perdido varia de 40–60% em alguns ensaios a 15% ou menos em outros ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/)).\n- **Pare de registrar perfeitamente e comece a registrar sempre.** Uma entrada aproximada supera um dia em branco por uma margem ampla.\n\n## Onde cada app falha — incluindo o nosso\n\n- **MyFitnessPal** tem a amplitude que ninguém mais iguala, e o problema de entradas duplicadas que vem com isso.\n- **Cronometer** é o mais defensável em qualidade de dados e pede mais de você em troca.\n- **Registro por foto** é a rota mais rápida do prato ao registro; o número que retorna é uma estimativa do modelo e deve ser lido como uma faixa.\n- **HAVIT** tem um banco de dados de alimentos menor do que MyFitnessPal ou Cronometer, e seus números de composição corporal são estimativas de IA em vez de medições DEXA ou InBody. Se dados precisos de micronutrientes são seu requisito, use um app de nutrição dedicado — não tentamos ganhar essa comparação.\n\n## A linha de fundo\n\nEscolha pela consistência, não pela precisão alegada. O melhor app de contagem de calorias é aquele onde registrar seu jantar real de terça-feira leva dez segundos, porque a evidência está no ato de registrar em vez de na precisão do número.\n\nDepois leia a semana, não o dia.\n\n## Por que HAVIT — calorias são uma entrada, não o quadro completo\n\nHAVIT conta calorias, e não para por aí. A razão é que o número sozinho não explica uma semana estagnada: sono, estresse, fase do ciclo, passos e medicação GLP-1 todos movem apetite e peso, e um app apenas de alimentos não tem como ver nada disso.\n\nEntão HAVIT mantém refeições, hidratação, sono, passos, ciclo, humor e medicação em uma rotina, estima composição corporal em vez de reportar apenas peso, e transforma a semana em uma ação concreta para hoje. Registro por foto lida com o problema de velocidade; o check-in diário lida com o problema de contexto.\n\nA USPSTF dá uma recomendação Grau B para intervenção comportamental intensiva e multicomponente em adultos com IMC de 30 ou mais — entregue por clínico, não por app ([USPSTF, 2018](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)). Estrutura e repetição são as partes que um app pode emprestar. Em nossa própria análise de 1.090 usuários de GLP-1, os registradores mais consistentes construíram os hábitos mais fortes ([Relatório de Hábitos GLP-1](/en/glp-1-habit-report)).\n\nHAVIT é um app de bem-estar, não um dispositivo médico. Números de calorias e composição corporal são estimativas.\n\n[Experimente HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Melhores apps para contar calorias em 2026: um a um",
+      "short_title": "Melhores apps de calorias 2026",
+      "meta_description": "FatSecret, Tecnonutri, MyFitnessPal, Yazio e HAVIT analisados um a um: procedência dos dados, comida brasileira, composição corporal, ciclo e GLP-1. Conferido nas fichas das lojas, outubro de 2026.",
+      "tldr": "Todo número em app de calorias é estimativa, então escolha por constância e não por precisão declarada. A procedência dos dados importa mais que o tamanho da base.",
+      "body_md": "Quase todo mundo pergunta qual é o app de calorias mais preciso. Essa pergunta não tem resposta. O valor do rótulo é **calculado** a partir dos nutrientes, não medido no pacote que você está segurando. A entrada do banco de dados foi digitada por alguém. Sua porção é um cálculo de olho. Seu gasto diário é a estimativa de uma fórmula.\n\nEntão mude o critério. Se o valor absoluto é aproximado, o que importa é a **constância**: o mesmo prato, registrado do mesmo jeito, sempre. Aí o número pode estar errado e a tendência continuar certa.\n\nEste guia analisa os principais apps um a um. Dados conferidos nas fichas das lojas, outubro de 2026.\n\n![Registrar é um problema de constância antes de ser de precisão](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_TRACK_001.jpg)\n\n> **Sobre as fontes.** Quase todos os comparativos que aparecem na busca são escritos por empresas que vendem um app da mesma categoria e se colocam em primeiro. Aqui não há ranking: cada app é descrito pelo que faz.\n\n## Três coisas para olhar antes de escolher\n\n**1. Quantos segundos por registro?** A maioria come um rodízio curto de pratos. O app que transforma o café da manhã de terça em um toque ganha de outro mais preciso que obriga a buscar toda manhã. Em março você ainda estará usando o primeiro.\n\n**2. De onde vêm os dados?** Não o tamanho: a **procedência**. Uma base alimentada por usuários tem o mesmo produto várias vezes com valores diferentes. Uma base verificada é menor e confiável.\n\n**3. O que vem depois do número?** Se o app só informa, lá pela quinta semana começa a parecer contabilidade. Procure algo que leia o registro e diga o que mudar.\n\n## FatSecret — o mais generoso no plano gratuito\n\n| | |\n| --- | --- |\n| Destaque | A maior parte dos recursos não fica atrás de assinatura |\n\n**O que faz bem.** É o app mais citado quando a pergunta é \"o que dá para usar sem pagar\". Busca, código de barras, receitas e comunidade funcionam no plano gratuito, o que é raro nesta categoria.\n\n**Onde falha.** Interface mais datada e recursos avançados simples. Não estima composição corporal nem acompanha ciclo ou medicação.\n\n**Para quem.** Para quem quer registrar de forma consistente sem assinar nada.\n\n## Tecnonutri — brasileiro, com cara de acompanhamento\n\n| | |\n| --- | --- |\n| Origem | Brasil |\n| Abordagem | Conteúdo e orientação dentro do app |\n\n![Comida brasileira nem sempre está nas bases internacionais](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg)\n\n**O que faz bem.** Tem um viés mais próximo de uma consulta de nutrição do que de um contador puro: orientação e conteúdo acompanham o registro. Sendo brasileiro, lida melhor com a comida daqui do que apps desenhados para os Estados Unidos.\n\n**Onde falha.** Os recursos mais completos são pagos, e o registro segue o modelo de buscar e digitar — ou seja, o pedágio da busca continua.\n\n**Para quem.** Para quem quer orientação nutricional junto do registro.\n\n## MyFitnessPal — o maior banco de dados\n\n| | |\n| --- | --- |\n| Base de alimentos | Mais de 14 milhões, em boa parte enviados por usuários |\n\n**O que faz bem.** Abrangência que ninguém alcança: redes de restaurantes, marcas pouco conhecidas, produtos importados. Leitor de código de barras maduro.\n\n**Onde falha.** Essa abrangência vem de envios de usuários, então o mesmo produto aparece várias vezes com valores diferentes e a entrada escolhida muda seu total do dia. A base é global mais do que local.\n\n**Para quem.** Para quem come muito produto industrializado e de rede.\n\n## Yazio — montado em volta do jejum\n\n| | |\n| --- | --- |\n| Origem | Alemanha |\n| Abordagem | Cronômetro de jejum, receitas, registro limpo |\n\n**O que faz bem.** Cronômetro de jejum intermitente e receitas integradas. Se seu plano é sobre *quando* comer, o app é organizado em torno disso.\n\n**Onde falha.** Cobertura menor de restaurantes e marcas de nicho que o MyFitnessPal. Não estima composição corporal.\n\n**Para quem.** Para quem organiza o dia pela janela de alimentação.\n\n## HAVIT — registro, corpo e um coach de IA no mesmo app\n\n| | |\n| --- | --- |\n| Desenvolvedor | Havit Inc. |\n| Base de alimentos | ~486.000 entradas — 432.418 do USDA + 41.218 da MFDS (Coreia) + 12.671 curadas |\n| Registra | Refeições, hidratação, treinos, sono, passos, **ciclo**, humor e **medicação GLP-1** |\n| Idiomas | 35 |\n\n![O coach de IA do HAVIT lê os oito registros e devolve uma única ação](/blog/havit/shot/feature-ai-coach.webp)\n\n**Uma coisa o separa do resto.** Um app de calorias olha o que você comeu. O HAVIT registra **oito coisas** e o coach de IA lê **todas juntas**.\n\nÉ isso que permite explicar uma semana parada: *você está quatro dias abaixo da meta de proteína, dormiu menos de seis horas em duas noites e está na semana antes da menstruação — as três coisas estão ligadas, e esta é a que vale mexer primeiro.* Um app que só vê comida não tem como enxergar nada disso.\n\n### Procedência antes de tamanho\n\nOs mais de 14 milhões do MyFitnessPal são majoritariamente envios de usuários. As ~486.000 entradas do HAVIT vêm de **órgãos públicos de alimentação** — 432.418 do USDA — então dá para dizer de onde saiu cada número.\n\n**Com honestidade**: para produto brasileiro de mercado, um app pensado para o Brasil reconhece melhor. A base do HAVIT se apoia em dados públicos americanos e coreanos.\n\n### Registrar em segundos\n\n![Scanner de comida com IA: uma foto e uma estimativa de calorias e nutrientes](/blog/havit/shot/feature-nutrition.webp)\n\nO **scanner de comida com IA** transforma uma foto em estimativa. É o que faz um prato caseiro ser registrado em vez de pulado.\n\n### Composição corporal, não só peso\n\n![Tendências de gordura e massa magra, não um número na balança](/blog/havit/shot/feature-body-insights.webp)\n\nO HAVIT estima **tendências de gordura e massa magra** sem hardware, e publica uma comparação interna com o InBody (n=70). É estimativa, não medição por DEXA.\n\nPesa mais em tratamento **GLP-1** (Wegovy, Ozempic, Mounjaro, Zepbound): a parcela de massa magra dentro do peso perdido foi descrita entre **40% e 60%** em alguns ensaios, e a balança conta tudo como sucesso. **Dose, efeitos colaterais e proteína** ficam no mesmo app.\n\n### O que sustenta o hábito\n\nAs **missões diárias** transformam técnicas de mudança de comportamento em uma ação para hoje. O **check-in diário** recolhe condição, sono, apetite e humor em alguns toques, então o coach sabe que dia é antes de pedir qualquer coisa. Há sequências, medalhas, avatares, ranques e **desafios em equipe**.\n\n![Meditação guiada para desejos, sono, calma, foco, respiração e gratidão](/blog/havit/shot/feature-mind-recovery.webp)\n\n**Seis faixas de meditação guiada**, **vídeos de treino**, **mais de 1.400 artigos** e **jejum**, no mesmo app. Criado com especialistas vindos da Juvis Diet, a clínica de emagrecimento de referência na Coreia.\n\n**Para quem.** Para quem registra e continua sem saber o que mudar; para quem tem o peso enroscado com sono, estresse ou ciclo; para quem usa GLP-1; para quem cansou de carregar quatro apps.\n\n## Comparação\n\n| App | Procedência dos dados | Comida brasileira | Composição corporal | Ciclo | GLP-1 | Meditação e treinos | Coach |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| FatSecret | Enviada por usuários | Média | Não | Não | Não | Não | Não |\n| Tecnonutri | Curada, foco Brasil | **Forte** | Não | Não | Não | Não | Orientação nutricional |\n| MyFitnessPal | Enviada por usuários | Média | Não | Não | Registro básico | Não | Limitado |\n| Yazio | Curada | Média | Não | Não | Não | Não | Guiado por jejum |\n| **HAVIT** | **Órgãos públicos** | Limitada | **Estimada** | **Sim** | **Sim** | **Sim** | **Lê os 8 registros** |\n\nCaracterísticas de outubro de 2026. As funções mudam com frequência: confira na ficha da loja.\n\n## Como contar sem se esgotar\n\n- **Registre sempre do mesmo jeito.** Escolha uma entrada para a aveia de todo dia e reutilize.\n- **Pese só o que é denso.** Óleos, castanhas, pastas de castanha e grãos secos concentram mais energia em menos volume.\n- **Leia a semana, não o dia.** O total diário oscila com água, sal e ciclo.\n- **Priorize a proteína.** É a parte do plano que se sustenta quando as calorias são imperfeitas.\n- **Pare de registrar perfeito e comece a registrar sempre.** Uma entrada aproximada vale muito mais que um dia em branco.\n\n## Resumindo\n\nEscolha por constância, não por precisão declarada. O melhor app de calorias é aquele em que registrar o jantar real de uma terça leva dez segundos.\n\nE veja o que vem depois do número. Se o registro nunca vira **uma coisa para fazer hoje**, você comprou um livro-caixa.\n\n[Experimentar o HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Camadas de aproximação entre um alimento e seu número de calorias",
-          "value": "4: rótulo, banco de dados, porção, gasto",
-          "source": "Cada uma é uma estimativa; veja a seção acima"
+          "label": "Base de alimentos do HAVIT",
+          "value": "~486.000 entradas",
+          "source": "432.418 USDA + 41.218 MFDS (Coreia) + 12.671 curadas"
         },
         {
-          "label": "Estudos na revisão de automonitoramento (15 deles sobre registro alimentar)",
-          "value": "22 estudos",
-          "source": "Burke et al. 2011, J Am Diet Assoc — nível de evidência classificado como fraco pelos autores"
+          "label": "Entradas do MyFitnessPal",
+          "value": "Mais de 14 milhões",
+          "source": "Em boa parte enviadas por usuários"
         },
         {
-          "label": "Proporção de massa magra do peso perdido em terapia com GLP-1",
-          "value": "40–60% em alguns ensaios, ≤15% em outros",
+          "label": "Massa magra dentro do peso perdido com GLP-1",
+          "value": "40–60% em alguns ensaios",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
         },
         {
-          "label": "Alimentos que vale a pena pesar para a maior parte do benefício",
-          "value": "Os densos em energia: óleos, castanhas, pastas de castanhas, grãos secos",
-          "source": "Mais energia no menor volume"
+          "label": "Registros que o coach do HAVIT lê",
+          "value": "8",
+          "source": "Refeições, hidratação, treinos, sono, passos, ciclo, humor, GLP-1"
         }
       ],
       "comparison_table": {
-        "title": "Apps de contagem de calorias, por para que são construídos",
+        "title": "Comparação",
         "headers": [
           "App",
-          "Construído para",
-          "Estilo de banco de dados",
-          "Micronutrientes",
-          "Onde ele perde"
+          "Procedência dos dados",
+          "Comida brasileira",
+          "Composição corporal",
+          "Ciclo",
+          "GLP-1",
+          "Meditação e treinos",
+          "Coach"
         ],
         "rows": [
           [
-            "MyFitnessPal",
-            "Amplitude — encontre quase qualquer alimento",
-            "Grande, fortemente enviado por usuários",
-            "Básico",
-            "Entradas duplicadas e inconsistentes"
-          ],
-          [
-            "Cronometer",
-            "Precisão e profundidade de nutrientes",
-            "Verificado, curado",
-            "Extensivo",
-            "Banco de dados menor; mais entrada manual"
-          ],
-          [
             "FatSecret",
-            "Registro direto em um nível gratuito generoso",
-            "Enviado por usuários",
-            "Básico",
-            "Menos recursos de tendência e composição corporal do que os apps orientados por coaching"
+            "Enviada por usuários",
+            "Média",
+            "Não",
+            "Não",
+            "Não",
+            "Não",
+            "Não"
           ],
           [
-            "Registradores por foto / IA",
-            "Velocidade — segundos por refeição",
-            "Estimativa de modelo a partir de uma imagem",
-            "Limitado",
-            "A estimativa é uma faixa, não uma leitura"
+            "Tecnonutri",
+            "Curada, foco Brasil",
+            "Forte",
+            "Não",
+            "Não",
+            "Não",
+            "Não",
+            "Orientação nutricional"
+          ],
+          [
+            "MyFitnessPal",
+            "Enviada por usuários",
+            "Média",
+            "Não",
+            "Não",
+            "Registro básico",
+            "Não",
+            "Limitado"
+          ],
+          [
+            "Yazio",
+            "Curada",
+            "Média",
+            "Não",
+            "Não",
+            "Não",
+            "Não",
+            "Guiado por jejum"
           ],
           [
             "HAVIT",
-            "Contexto — alimento dentro de sono, ciclo, humor, medicação",
-            "Moderado",
-            "Macros principais, proteína em primeiro lugar",
-            "Banco de dados menor do que os especialistas"
+            "Órgãos públicos",
+            "Limitada",
+            "Estimada",
+            "Sim",
+            "Sim",
+            "Sim",
+            "Lê os 8 registros"
           ]
         ],
-        "caption": "Se um detalhamento preciso de micronutrientes é seu único requisito, um app de nutrição dedicado é a resposta certa."
+        "caption": "Características de outubro de 2026. As funções mudam com frequência: confira na ficha da loja."
       },
       "faq": [
         {
-          "question": "Qual app de contagem de calorias é o mais preciso?",
-          "answer": "Nenhum deles é preciso da forma que a pergunta implica. Quatro camadas de aproximação se acumulam — a tolerância regulatória do rótulo, a entrada do banco de dados, sua estimativa de porção e a fórmula estimando seu gasto. Cronometer é o mais defensável em qualidade de dados porque suas entradas são verificadas, mas o total diário ainda é uma faixa. Escolha pela consistência: o mesmo alimento registrado da mesma forma toda vez."
+          "question": "Qual é o app mais preciso para contar calorias?",
+          "answer": "Nenhum, no sentido que a pergunta sugere. O rótulo é um valor calculado, a entrada do banco foi digitada por alguém, sua porção é um cálculo de olho e seu gasto é uma fórmula. São quatro camadas de aproximação, então o total do dia é uma faixa. Escolha por constância: o mesmo prato registrado do mesmo jeito."
         },
         {
-          "question": "MyFitnessPal ou Cronometer é melhor?",
-          "answer": "Eles otimizam para coisas opostas. MyFitnessPal ganha em amplitude porque é fortemente enviado por usuários, o que também é por isso que um único iogurte de supermercado pode retornar como uma dúzia de entradas quase idênticas com valores calóricos significativamente diferentes. Cronometer ganha em entradas verificadas e profundidade de micronutrientes, e pede mais entrada manual de você em troca. Alimentos embalados e conveniência favorecem o primeiro; uma deficiência, dieta clínica ou padrão restritivo favorece o segundo."
+          "question": "Qual app reconhece melhor a comida brasileira?",
+          "answer": "Os pensados para o Brasil, como o Tecnonutri, lidam melhor com a comida daqui do que apps desenhados para os Estados Unidos. O MyFitnessPal tem muito mais entradas no total, mas a base é global e em boa parte enviada por usuários. O HAVIT se apoia em dados públicos americanos e coreanos, então nesse ponto não compete."
         },
         {
-          "question": "Preciso pesar minha comida?",
-          "answer": "Não toda ela. Estimativa de porção é geralmente a maior fonte isolada de erro, mas óleos, castanhas e grãos carregam mais erro por grama. Pesar apenas esses três captura a maior parte do benefício por uma fração do esforço."
+          "question": "Qual é o melhor app gratuito?",
+          "answer": "O FatSecret é o mais citado quando a pergunta é o que dá para usar sem pagar: busca, código de barras, receitas e comunidade funcionam no plano gratuito. O HAVIT é gratuito para baixar com compras dentro do app. Os planos mudam com frequência, então compare as condições atuais na ficha da loja."
         },
         {
-          "question": "Por que meu app de calorias não está funcionando mesmo que eu fique abaixo da minha meta?",
-          "answer": "A própria meta é uma estimativa — fórmulas de TMB e TDEE são médias populacionais aplicadas a uma pessoa — e totais diários são ruidosos com água, sal, ciclo e glicogênio. Leia uma média móvel semanal em vez de um veredicto diário. Se uma semana estagnada coincide com sono ruim ou estresse alto, um app apenas de alimentos não tem como te mostrar isso."
+          "question": "Estimativa de caloria por foto é confiável?",
+          "answer": "É rápida, e é estimativa. Um modelo olhando uma fotografia não vê o óleo absorvido nem pesa o que está embaixo da camada de cima. Leia como o ponto médio de uma faixa. É uma troca aceitável se a velocidade é o que mantém você registrando."
         },
         {
-          "question": "Estimativas de calorias por IA baseadas em foto são confiáveis?",
-          "answer": "Elas são rápidas, e são estimativas. Um modelo inferindo uma porção a partir de uma imagem retorna uma faixa, não uma leitura. Essa é uma troca aceitável se velocidade é o que te mantém registrando — uma entrada aproximada supera um dia em branco — mas não trate o número como uma medição."
+          "question": "Tem algum app que também acompanha composição corporal?",
+          "answer": "Muito poucos. A maioria trabalha só com o peso da balança. O HAVIT estima tendências de gordura e massa magra a partir dos seus próprios dados, sem comprar nada, e publica uma comparação interna com o InBody (n=70). Serve como tendência ao longo de semanas, não como medição verificada."
         },
         {
-          "question": "Devo contar calorias?",
-          "answer": "Para muitas pessoas ajuda, porque automonitoramento é o comportamento mais consistentemente ligado à perda de peso. Para algumas se torna uma fixação prejudicial. Se o rastreamento te deixa ansioso ou rígido em relação à comida, uma abordagem baseada em hábitos ou composição corporal se encaixa melhor, e falar com um profissional é um primeiro passo melhor do que trocar de apps."
+          "question": "Estou abaixo da meta de calorias e não emagreço. Por quê?",
+          "answer": "A meta também é estimativa, e o total diário oscila com água, sal, ciclo e glicogênio. Leia uma média semanal. Se a semana parada coincidiu com sono ruim ou com a semana antes da menstruação, um app que só vê comida não tem como mostrar isso — por isso o HAVIT lê sono, passos e ciclo junto das refeições."
         }
       ],
       "references": [

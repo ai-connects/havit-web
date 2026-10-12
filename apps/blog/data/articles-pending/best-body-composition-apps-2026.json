@@ -806,98 +806,111 @@
       "last_updated": "2026-10-11"
     },
     "pt-BR": {
-      "title": "Melhores Apps de Composição Corporal em 2026: A Escada de Precisão",
-      "short_title": "Melhores Apps de Composição Corporal 2026",
-      "meta_description": "Nenhum app de consumo substitui um exame DEXA — incluindo o nosso. Mas se sua pergunta é 'estou perdendo gordura ou músculo?', uma estimativa consistentemente errada ainda rastreia mudanças corretamente. A escada de quatro degraus, cinco critérios e como ler seus próprios números.",
-      "tldr": "DEXA e InBody medem; balanças inteligentes e estimativas de apps inferem. Uma estimativa consistentemente errada na mesma direção ainda rastreia mudanças corretamente — certa para 'essa dieta está me custando músculo?', errada para 'qual é meu percentual de gordura corporal?'",
-      "body_md": "*Divulgação honesta: HAVIT publica este blog e fabrica uma das ferramentas discutidas. Este artigo argumenta que nenhum app de consumo pode substituir uma medição clínica — incluindo o nosso.*\n\n*Aviso médico: este artigo é para fins educacionais e não constitui aconselhamento médico. Siga as instruções do seu médico prescritor e farmacêutico, e nunca altere uma dose por causa do que um app mostra.*\n\nSe você quer um número que possa levar a um médico, pare de ler e agende um exame DEXA. Nenhum app é isso.\n\nSe você quer saber se o peso que está perdendo é gordura ou músculo, semana após semana, então uma ferramenta de consumo é genuinamente útil — desde que você entenda o que ela está realmente fazendo. Este guia é principalmente sobre essa segunda coisa, porque quase toda decepção nesta categoria vem de aplicar uma ferramenta de tendência a uma pergunta que precisava de uma medição.\n\n## Por que composição corporal em vez de peso\n\nA balança responde a uma pergunta que ninguém está realmente fazendo. O peso corporal varia com água, glicogênio, sódio, o ciclo menstrual e o que ainda está no seu trato digestivo. Duas pessoas com o mesmo IMC podem estar em extremos opostos de risco cardiometabólico, e o IMC classifica incorretamente uma parcela substancial de adultos quando verificado contra marcadores metabólicos reais ([Tomiyama et al., *International Journal of Obesity*, 2016](https://www.nature.com/articles/ijo201617)).\n\nIsso importa mais do que costumava. Na terapia com GLP-1, a proporção de massa magra do peso perdido varia de 40–60% em alguns estudos a 15% ou menos em outros ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://pubmed.ncbi.nlm.nih.gov/38937282/)) — uma variação ampla o suficiente para que você não possa presumir em qual extremo está sem verificar. Massa magra não é idêntica a músculo; inclui órgãos, ossos e fluidos, e os autores julgam que grande parte da mudança é adaptativa. Uma balança não reporta nada disso. É o único cenário onde rastrear apenas o peso pode ativamente enganá-lo.\n\nO pensamento clínico se moveu na mesma direção. A circunferência da cintura foi proposta como um sinal vital de rotina precisamente porque o peso sozinho não mostra onde o tecido está localizado ([Ross et al., *Nature Reviews Endocrinology*, 2020](https://www.nature.com/articles/s41574-019-0310-7)), e a composição corporal em vez do peso é cada vez mais tratada como a melhor base para avaliação de risco (Heymsfield et al., *Obesity Reviews*, 2024).\n\n## A escada de precisão\n\nCada ferramenta nesta categoria está em um de quatro degraus. Saber em qual degrau você está previne quase todo mal-entendido.\n\n| Degrau | Método | O que mede | Uso típico | O que move o número |\n| --- | --- | --- | --- | --- |\n| 1 | DEXA | Atenuação de raios-X, por região | Padrão de referência; pesquisa e clínica | Muito pouco — esse é o ponto |\n| 2 | BIA multifrequência (InBody e similares) | Impedância elétrica, segmentar | Academia, clínica, verificação periódica | Hidratação, alimentação, exercício, hora do dia |\n| 3 | BIA de balança inteligente | Impedância pé a pé | Tendência doméstica diária | Tudo do degrau 2, mais umidade dos pés |\n| 4 | Estimativa de app (modelo de foto ou questionário) | Inferido a partir de entradas, não medido | Tendência diária, zero equipamento | Qualidade da entrada e premissas do modelo |\n\nDegraus 1 e 2 medem. Degraus 3 e 4 **estimam**. Essa distinção é todo o artigo. Uma estimativa consistentemente errada na mesma direção ainda rastreia mudanças corretamente — que é exatamente o que você precisa para 'estou perdendo gordura ou músculo?' e exatamente o que você não pode usar para 'qual é meu percentual de gordura corporal?'\n\n## 5 critérios para escolher uma ferramenta de consumo\n\n### 1. Ela diz que está estimando?\n\nUma ferramenta que apresenta um número inferido sem qualificação está fazendo uma afirmação que não pode sustentar. Honestidade aqui se correlaciona com tudo mais.\n\n### 2. Ela mostra uma linha de tendência ou um veredito diário?\n\nA saída correta para degraus 3 e 4 é uma inclinação ao longo de semanas. Uma leitura de percentual de gordura corporal de um único dia com uma casa decimal é falsa precisão, e vai oscilar com um jantar salgado.\n\n### 3. Você pode manter as condições constantes?\n\nLeituras de degrau 2 e 3 variam com hidratação, alimentação e exercício. Mesma hora do dia, mesmo estado, mesma balança, ou a comparação não tem sentido. Uma ferramenta que te lembra de padronizar está te fazendo um favor.\n\n### 4. Ela separa massa gorda de massa magra?\n\n'% de gordura corporal' sozinho esconde a coisa que importa durante a perda de peso. Você quer ver massa gorda caindo e massa magra estável. Um único percentual pode cair enquanto ambos estão diminuindo.\n\n### 5. Algo age sobre isso?\n\nUm número sem consequência não muda nada. As ferramentas que valem a pena pagar conectam a tendência à ingestão de proteína, treinamento de resistência ou à taxa na qual você está perdendo.\n\n## Como ler seus próprios números honestamente\n\n- **Compare semelhante com semelhante.** Um dispositivo, uma hora do dia, um estado. Nunca compare uma leitura InBody com uma estimativa de app e trate a diferença como erro — eles estão medindo de forma diferente.\n- **Use uma janela de quatro semanas.** Menos que isso e você está lendo ruído.\n- **Observe o par, não o percentual.** Massa gorda e massa magra se movendo em direções opostas é o sinal.\n- **Deixe uma medição ancorar a tendência.** Um DEXA ou InBody ocasional, com um app rastreando entre eles, te dá a maior parte do valor de ambos.\n- **Se o número te angustia, pare de usá-lo.** Esta métrica se presta à fixação. Semanal é suficiente; diário geralmente é contraproducente.\n\n## Onde cada ferramenta falha — incluindo a nossa\n\n- **DEXA** é a referência e é impraticável como hábito: custo, agendamento, uma pequena dose de radiação.\n- **BIA classe InBody** é amplamente disponível e genuinamente útil, e ainda varia vários pontos apenas com hidratação. Repetições no mesmo dia podem discordar.\n- **Balanças inteligentes** são o melhor custo-benefício para dados de tendência diária e as mais fracas para precisão absoluta — impedância pé a pé subamostra a parte superior do corpo.\n- **Estimativas de app, incluindo a do HAVIT**, são inferidas em vez de medidas. A nossa é um modelo baseado em questionário validado internamente contra InBody em uma pequena amostra (n=70) — isso é um ponto de partida, não uma validação clínica, e publicamos como tal ([nosso artigo](/en/havit-ai-body-composition-92percent-vs-inbody)). Se você precisa de um número defensável, nenhum dos degraus 3 ou 4 vai te dar um, e não vamos afirmar o contrário.\n\n## A linha de fundo\n\nEscolha o degrau que corresponde à sua pergunta. 'Qual é meu percentual de gordura corporal?' é uma pergunta de degrau 1 ou 2. 'Essa dieta está me custando músculo?' é uma pergunta de degrau 3 ou 4, e apps de consumo a respondem bem o suficiente para mudar o que você faz.\n\nA maioria das pessoas precisa da segunda, semanalmente, de graça — e uma medição real ocasional para ancorá-la.\n\n## Por que HAVIT — a tendência, com algo ligado a ela\n\nHAVIT estima composição corporal a partir de suas próprias entradas em vez de pedir que você compre hardware, e mostra como uma tendência em vez de um veredito. O ponto não é o número — é o que está ao lado dele.\n\nPorque refeições, proteína, sono, passos, ciclo, humor e medicação GLP-1 estão no mesmo app, uma tendência de massa magra que está caindo pode ser respondida no mesmo dia: mais proteína, mais trabalho de resistência, uma taxa mais lenta de perda. Essa é a ação que uma balança independente não pode produzir.\n\nIsso importa mais na terapia com GLP-1, onde a perda de tecido magro é uma parte conhecida do quadro e a balança não pode mostrá-la. A orientação clínica combina medicação com mudança comportamental estruturada em vez de tratar qualquer uma sozinha como suficiente ([USPSTF, Grau B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT é um app de bem-estar, não um dispositivo médico. Resultados de composição corporal são estimativas, não medições. HAVIT não é uma ferramenta de diagnóstico médico.\n\n[Experimente HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Melhores apps de composição corporal em 2026: a escada de precisão",
+      "short_title": "Melhores apps de composição corporal 2026",
+      "meta_description": "DEXA, InBody, balanças de bioimpedância, relógios inteligentes e HAVIT, um a um. O que mede e o que estima, por que essa distinção decide a escolha, e se há algo preso à tendência.",
+      "tldr": "DEXA e InBody medem; balanças e apps estimam. Uma estimativa que erra sempre igual continua acompanhando bem a mudança: serve para \"está me custando músculo?\" e não para \"qual é o meu percentual de gordura?\".",
+      "body_md": "Se você precisa de um número para levar ao médico, pare de ler e marque um **DEXA**. Nenhum app é isso.\n\nSe o que você quer é saber, **semana a semana**, se o que está perdendo é gordura ou músculo, uma ferramenta de consumo serve de verdade — desde que você entenda o que ela está fazendo.\n\nEste guia analisa os métodos e os apps um a um.\n\n![Um número na balança não diz o que você perdeu](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_004.jpg)\n\n## Primeiro: a escada de precisão\n\n| Degrau | Método | Mede ou estima? | O que mexe no número |\n| --- | --- | --- | --- |\n| 1 | DEXA | **Mede** (referência) | Quase nada |\n| 2 | BIA multifrequência (InBody e similares) | **Mede** | Hidratação, comida, exercício, hora do dia |\n| 3 | Balança de bioimpedância · relógio | Mede (pé-pé / mão-mão) | Tudo do degrau 2, mais o contato |\n| 4 | Estimativa de app (questionário ou foto) | **Estima** | Qualidade dos dados, premissas do modelo |\n\nOs degraus 1 e 2 medem. Os degraus 3 e 4 **estimam**. Essa distinção é o artigo inteiro. Uma estimativa que erra sempre na mesma direção continua acompanhando bem a mudança: serve para \"esta dieta está me custando músculo?\" e não serve para \"qual é o meu percentual de gordura?\".\n\n## Por que composição e não peso\n\nO peso oscila com água, glicogênio, sódio e ciclo. Pesa mais em **GLP-1** (Wegovy, Ozempic, Mounjaro, Zepbound): a parcela de massa magra dentro do peso perdido foi descrita entre **40% e 60%** em alguns ensaios e em **15% ou menos** em outros. A balança conta tudo isso como sucesso.\n\nMassa magra não é a mesma coisa que músculo: inclui órgãos, osso e líquido. Mas de todo jeito a balança não diz em que extremo você está.\n\n## Balanças de bioimpedância — melhor custo-benefício para tendência\n\n| | |\n| --- | --- |\n| Degrau | 3 (BIA pé-pé) |\n| Hardware | Balança inteligente |\n\n![Mesmas condições, ou a comparação não significa nada](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_005.jpg)\n\n**O que fazem bem.** Você sobe e pronto. Para dados de tendência diária é o melhor custo-benefício da escada.\n\n**Onde falham.** A impedância pé-pé subestima o tronco superior e muda com a umidade dos pés. **Não confie no valor absoluto.**\n\n**Para quem.** Para quem sobe no mesmo horário, no mesmo estado, e lê só a inclinação.\n\n## InBody — o degrau 2 mais acessível\n\n| | |\n| --- | --- |\n| Degrau | 2 (BIA multifrequência) |\n| Hardware | Equipamento dedicado (academias, clínicas) |\n\n**O que faz bem.** Leituras por segmento e boa disponibilidade. Excelente para fixar um ponto de partida.\n\n**Onde falha.** As leituras se mexem vários pontos com hidratação, comida, exercício e hora do dia: **duas medidas no mesmo dia podem não bater.** E é preciso ir onde a máquina está, então não é ferramenta de tendência diária.\n\n**Para quem.** Para quem quer uma referência sólida uma ou duas vezes por mês.\n\n## BIA de relógio inteligente\n\n| | |\n| --- | --- |\n| Degrau | 3 (BIA mão-mão) |\n\n**O que faz bem.** Sem deslocamento: mede do pulso em menos de um minuto.\n\n**Onde falha.** A amostragem mão-mão subestima o tronco inferior e o resultado depende de o perfil estar certo.\n\n**Para quem.** Para quem já usa o relógio.\n\n## HAVIT — a tendência, com algo preso a ela\n\n| | |\n| --- | --- |\n| Degrau | 4 (estimativa por IA a partir de questionário) |\n| Hardware | Nenhum |\n| Validação | Comparação interna com o InBody, **n=70**, publicada |\n| Lido junto de | Refeições, hidratação, treinos, sono, passos, ciclo, humor, GLP-1 |\n\n![Tendências de gordura e massa magra, não um veredito](/blog/havit/shot/feature-body-insights.webp)\n\n**O número não é o ponto. O ponto é o que está ao lado dele.**\n\nUma balança inteligente dá uma cifra e acaba. O HAVIT coloca a tendência de composição junto de **refeições, proteína, sono, passos, ciclo e medicação**, e **o coach de IA lê tudo junto**. Por isso uma tendência de massa magra caindo pode ser respondida no mesmo dia: mais proteína, mais trabalho de força, ou baixar o ritmo da perda.\n\n![O coach de IA transforma a tendência em uma ação](/blog/havit/shot/feature-ai-coach.webp)\n\nEm tratamento GLP-1, **dose, efeitos colaterais e proteína** ficam no mesmo app, então o sinal de massa magra nunca é lido isolado.\n\nO mesmo app traz **missões diárias**, **check-in diário**, **seis faixas de meditação guiada**, **vídeos de treino**, **jejum** e **mais de 1.400 artigos**. Criado com especialistas vindos da Juvis Diet, a clínica de emagrecimento de referência na Coreia.\n\n**Dito com clareza:** isto é degrau 4. Estimativa, não medição. Mas para acompanhar uma tendência e mudar o que você faz é suficiente — e ligar a tendência a uma ação é algo que nada mais nesta lista faz.\n\n**Para quem.** Para quem quer tendência semanal sem comprar hardware, e saber o que fazer com ela.\n\n## Comparação\n\n| Ferramenta | Degrau | Hardware | Tendência diária | Liga a uma ação? | Lido junto de |\n| --- | --- | --- | --- | --- | --- |\n| DEXA | 1 | Clínica | Não | Não | Nada |\n| InBody | 2 | Equipamento dedicado | Difícil | Não | Nada |\n| Balança de bioimpedância | 3 | Balança | **Sim** | Não | Nada |\n| Relógio inteligente | 3 | Relógio | Sim | Não | Atividade |\n| **HAVIT** | 4 | **Nenhum** | **Sim** | **O coach liga** | **Os 8 registros** |\n\n## Como ler os seus números com honestidade\n\n- **Compare o comparável.** Um aparelho, um horário, um estado.\n- **Use uma janela de quatro semanas.** Menos que isso é ruído.\n- **Olhe o par, não o percentual.** O sinal é gordura e massa magra andando em direções opostas.\n- **Ancore a tendência com uma medição real.** Um InBody ocasional e o app preenchendo no meio entrega quase todo o valor dos dois.\n- **Se o número te angustia, pare de usar.** Uma vez por semana basta.\n\n## Resumindo\n\nEscolha o degrau que corresponde à sua pergunta. \"Qual é o meu percentual de gordura?\" é pergunta de degrau 1 ou 2. \"Esta dieta está me custando músculo?\" é de degrau 3 ou 4, e as ferramentas de consumo respondem bem o suficiente para mudar o que você faz.\n\nA maioria precisa da segunda. A bifurcação seguinte é se há algo preso à tendência.\n\n[Experimentar o HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Degraus na escada de precisão de composição corporal",
-          "value": "4 (DEXA, BIA multifrequência, balança inteligente, estimativa de app)",
-          "source": "Este guia"
+          "label": "Degraus da escada de precisão",
+          "value": "4",
+          "source": "DEXA · BIA multifrequência · balança/relógio · estimativa de app"
         },
         {
           "label": "Degraus que medem em vez de estimar",
-          "value": "2 de 4 (DEXA, BIA classe InBody)",
-          "source": "Este guia"
+          "value": "2 de 4",
+          "source": "DEXA e BIA tipo InBody"
         },
         {
-          "label": "Proporção de massa magra do peso perdido na terapia com GLP-1",
-          "value": "40–60% em alguns estudos, ≤15% em outros",
-          "source": "Neeland et al. 2024, Diabetes Obes Metab — massa magra ≠ músculo"
+          "label": "Massa magra dentro do peso perdido com GLP-1",
+          "value": "40–60% em alguns ensaios, ≤15% em outros",
+          "source": "Neeland et al. 2024, Diabetes Obes Metab"
         },
         {
-          "label": "Janela necessária antes que uma tendência de consumo signifique algo",
-          "value": "4 semanas",
-          "source": "Menos lê como ruído"
+          "label": "Validação interna do HAVIT",
+          "value": "n=70 contra o InBody",
+          "source": "Havit Inc., publicada"
         }
       ],
       "comparison_table": {
-        "title": "A escada de precisão",
+        "title": "Comparação",
         "headers": [
+          "Ferramenta",
           "Degrau",
-          "Método",
-          "O que mede",
-          "Uso típico",
-          "O que move o número"
+          "Hardware",
+          "Tendência diária",
+          "Liga a uma ação?",
+          "Lido junto de"
         ],
         "rows": [
           [
-            "1",
             "DEXA",
-            "Atenuação de raios-X, por região",
-            "Padrão de referência; pesquisa e clínica",
-            "Muito pouco — esse é o ponto"
+            "1",
+            "Clínica",
+            "Não",
+            "Não",
+            "Nada"
           ],
           [
+            "InBody",
             "2",
-            "BIA multifrequência (InBody e similares)",
-            "Impedância elétrica, segmentar",
-            "Academia, clínica, verificação periódica",
-            "Hidratação, alimentação, exercício, hora do dia"
+            "Equipamento dedicado",
+            "Difícil",
+            "Não",
+            "Nada"
           ],
           [
+            "Balança de bioimpedância",
             "3",
-            "BIA de balança inteligente",
-            "Impedância pé a pé",
-            "Tendência doméstica diária",
-            "Tudo do degrau 2, mais umidade dos pés"
+            "Balança",
+            "Sim",
+            "Não",
+            "Nada"
           ],
           [
+            "Relógio inteligente",
+            "3",
+            "Relógio",
+            "Sim",
+            "Não",
+            "Atividade"
+          ],
+          [
+            "HAVIT",
             "4",
-            "Estimativa de app (modelo de foto ou questionário)",
-            "Inferido a partir de entradas, não medido",
-            "Tendência diária, zero equipamento",
-            "Qualidade da entrada e premissas do modelo"
+            "Nenhum",
+            "Sim",
+            "O coach liga",
+            "Os 8 registros"
           ]
         ],
-        "caption": "Degraus 1–2 medem. Degraus 3–4 estimam. Uma estimativa consistentemente errada ainda rastreia mudanças corretamente."
+        "caption": "Os degraus 1–2 medem, os 3–4 estimam. Características de outubro de 2026."
       },
       "faq": [
         {
-          "question": "Qual é o melhor app para rastrear composição corporal?",
-          "answer": "Primeiro decida qual pergunta você está fazendo. 'Qual é meu percentual de gordura corporal?' precisa de uma medição — DEXA, ou uma BIA multifrequência classe InBody. 'Essa dieta está me custando músculo?' é uma pergunta de tendência, e uma balança inteligente ou uma estimativa de app a responde bem o suficiente para mudar o que você faz. A maioria das pessoas precisa da segunda, semanalmente, com uma medição real ocasional para ancorá-la."
+          "question": "Qual app mede melhor a composição corporal?",
+          "answer": "Primeiro defina a sua pergunta. \"Qual é o meu percentual de gordura?\" precisa de medição: DEXA ou uma BIA multifrequência tipo InBody. \"Esta dieta está me custando músculo?\" é pergunta de tendência, e uma balança ou uma estimativa de app respondem o suficiente para mudar o que você faz."
         },
         {
-          "question": "Um app pode realmente estimar o percentual de gordura corporal?",
-          "answer": "Ele pode produzir uma estimativa, não uma medição. Modelos de foto e questionário inferem a partir de entradas em vez de medir tecido. A propriedade útil é a consistência: um número que está errado na mesma direção toda semana ainda mostra a direção da mudança corretamente. Trate o número absoluto com suspeita e a inclinação com interesse."
+          "question": "Um app consegue mesmo saber meu percentual de gordura?",
+          "answer": "Produz uma estimativa, não uma medição. Modelos por questionário ou foto inferem a partir de dados, não medem tecido. O que é útil é a constância: um número errado sempre na mesma direção ainda mostra a direção da mudança. O HAVIT publica uma comparação interna com o InBody (n=70)."
         },
         {
-          "question": "Por que minha leitura InBody muda tanto entre sessões?",
-          "answer": "Impedância bioelétrica varia com hidratação, alimentação recente, exercício recente e hora do dia — repetições no mesmo dia podem discordar por vários pontos. Isso não é uma máquina quebrada. Padronize as condições: mesma hora, mesmo estado, mesmo dispositivo, antes de comparar."
+          "question": "Balança de bioimpedância é confiável?",
+          "answer": "Para tendência diária é o melhor custo-benefício; para o valor absoluto é o elo mais fraco da escada. A impedância pé-pé subestima o tronco superior e muda com a umidade dos pés. Suba no mesmo horário e no mesmo estado, e leia só a inclinação."
         },
         {
-          "question": "Vale a pena comprar uma balança inteligente?",
-          "answer": "Para dados de tendência diária é o melhor custo-benefício na escada, e para precisão absoluta é a mais fraca — impedância pé a pé subamostra a parte superior do corpo. Compre para observar uma inclinação ao longo de quatro semanas, não para aprender um número."
+          "question": "Por que minha leitura do InBody muda entre sessões?",
+          "answer": "A bioimpedância se mexe com hidratação, comida recente, exercício recente e hora do dia: duas medidas no mesmo dia podem diferir em vários pontos. Não é defeito da máquina. Padronize as condições antes de comparar."
         },
         {
-          "question": "Por que rastrear composição corporal em vez de peso no Ozempic ou Wegovy?",
-          "answer": "Porque uma parcela significativa do peso perdido na terapia com GLP-1 pode ser tecido magro em vez de gordura, e a balança reporta isso como sucesso. É o caso mais claro onde rastrear apenas o peso pode ativamente enganá-lo. Observe massa gorda e massa magra como um par em vez de um único percentual."
+          "question": "Por que acompanhar composição e não peso se uso Ozempic ou Wegovy?",
+          "answer": "Porque a parcela de massa magra dentro do peso perdido com GLP-1 foi descrita entre 40% e 60% em alguns ensaios e em 15% ou menos em outros, e a balança conta tudo como sucesso. Olhe gordura e massa magra como um par, e mantenha proteína e dose na mesma visão."
         },
         {
           "question": "Com que frequência devo medir?",
-          "answer": "Semanal é suficiente, e quatro semanas é a janela mais curta que significa algo. Medição diária principalmente lê ruído e, para algumas pessoas, alimenta uma fixação. Se o número te angustia, pare de usá-lo."
+          "answer": "Uma vez por semana basta, e quatro semanas é a janela mínima que significa alguma coisa. Medir todo dia costuma ler ruído e, em algumas pessoas, alimenta uma fixação. Se o número te angustia, pare de usar."
         }
       ],
       "references": [
