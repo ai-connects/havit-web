@@ -282,6 +282,115 @@
       "faq": [],
       "references": [],
       "last_updated": "2026-07-06"
+    },
+    "de": {
+      "title": "GLP-1-Dosis-Tracker: Protokollieren Sie Ihre mg & Titrations-Plan",
+      "meta_description": "Ein GLP-1-Dosis-Tracker protokolliert, welche Milligramm-Dosis Sie an welchem Datum eingenommen haben, und folgt Ihrer Titration — Wegovy 0,25→2,4, Zepbound 2,5→15. So tracken und teilen Sie sie.",
+      "tldr": "Ein GLP-1-Dosis-Tracker protokolliert, welche Milligramm-Dosis Sie an welchem Datum eingenommen haben, und folgt Ihrer Titration — Wegovy 0,25→2,4, Zepbound 2,5→15. So tracken und teilen Sie sie.",
+      "body_md": "GLP-1-Medikamente haben keine einzige feste Dosis. Sie beginnen niedrig und steigen durch einen geplanten **Titrationsplan**, um Nebenwirkungen zu reduzieren, und pendeln sich dann bei einer **Erhaltungsdosis** ein. Das bedeutet, die Antwort auf ‚Wie viel nehme ich?' ändert sich alle paar Wochen — und die Milligramm-Zahl, die Sie injizieren, ist etwas anderes als der *Akt* der Injektion selbst. Ein **Dosis-Tracker** übernimmt die Milligramm-Seite der Geschichte: welche Stärke, an welchem Datum und wo Sie auf der Eskalationsleiter stehen. (Für die Protokollierung des Injektionsereignisses und der Rotationsstellen siehe den ergänzenden [GLP-1-Shot-Tracker](/de/glp-1-shot-tracker); für das Gesamtbild verbindet der Hub [GLP-1-Tracker-App](/de/glp-1-tracker-app) Dosis, Gewicht, Protein und Nebenwirkungen.)\n\n## Warum der Titrationsplan es wert ist, getrackt zu werden\n\nDrei Dinge machen Ihre Dosishistorie wirklich nützlich und nicht nur ordentlich:\n\n- **Sie hält Sie mit dem Plan synchron.** Dosissteigerungen erfolgen nach einem Kalender (typischerweise nicht früher als alle vier Wochen). Ein Tracker zeigt, wann Ihre nächste Erhöhung fällig ist, damit Sie und Ihr verschreibender Arzt abgestimmt sind.\n- **Sie verknüpft Nebenwirkungen mit einer Änderung.** Übelkeit und gastrointestinale Symptome treten am häufigsten direkt nach einer Dosiserhöhung auf oder verschlimmern sich dann. Die Protokollierung der mg *und* des Datums lässt Sie sehen: ‚Die Übelkeit begann drei Tage nachdem ich auf 1,0 mg gewechselt bin' — ein Muster, auf das Ihr Arzt reagieren kann.\n- **Sie gibt Ihrem Arzt eine exakte Historie.** Bei Terminen zur Dosisanpassung ist ‚Ich glaube, ich bin schon eine Weile bei der mittleren Dosis' weit schwächer als eine datierte Leiter, die er in Sekunden ablesen kann.\n\n## Titrationspläne nach Medikament (protokollieren Sie welche mg, welches Datum)\n\nHier ist die Eskalationsform für die gängigen GLP-1. Nutzen Sie sie als Rückgrat Ihres Dosisprotokolls — aber behandeln Sie das genaue Timing als Entscheidung Ihres Arztes, nicht als Anleitung zur Selbstanpassung.\n\nWegovy erreicht seine 2,4-mg-Erhaltungsdosis über etwa 16–17 Wochen; Tirzepatid steigt in 2,5-mg-Schritten durch 2,5, 5, 7,5, 10, 12,5 und 15 mg, wobei Ihr Arzt entscheidet, wo Sie sich basierend auf Ansprechen und Verträglichkeit einpendeln. Die klinische Begründung hinter dem Tempo wird im [Leitfaden zum Timing der Dosiseskalation](/de/glp1-dose-escalation-timing-optimization-2026) behandelt.\n\n## Was ein gutes Dosisprotokoll tatsächlich erfasst\n\nFür jeden Eintrag erfassen Sie:\n\n- **Das Datum**, ab dem die Dosis galt (normalerweise Ihr Injektionsdatum).\n- **Die Stärke in mg**, die Sie eingenommen haben.\n- **Ob es eine Steigerung, ein Halten oder eine Reduzierung war** — und kurz, warum (z. B. ‚bei 5 mg gehalten — Übelkeit').\n- **Verträglichkeit bei dieser Dosis** — eine kurze Notiz oder 1–5-Bewertung, damit Muster sichtbar werden.\n\nSo protokolliert, liest sich Ihre Historie wie eine Leiter: *0,25 mg (3. März) → 0,5 mg (31. März) → gehalten (28. April, GI) → 1,0 mg (12. Mai)*. Diese einzelne Zeile sagt Ihrem Arzt mehr als ein ganzer Termin voller Erinnerungen.\n\n## Erreichen und Halten Ihrer Erhaltungsdosis\n\nTitration ist der Aufstieg; **Erhaltung** ist der Ort, an dem der größte Teil der Reise stattfindet. Sobald Sie sich bei einer Erhaltungsstärke einpendeln (zum Beispiel Wegovy 2,4 mg oder eine Tirzepatid-Dosis von 5–15 mg), verschiebt sich die Aufgabe des Protokolls von ‚den Aufstieg tracken' zu ‚bestätigen, dass ich die richtige Stärke konsequent nehme und notieren, wie sie sich hält'. Wenn Nebenwirkungen, Kosten oder Ergebnisse eine Änderung nahelegen, macht eine datierte Historie das Gespräch über *Anpassung* der Dosis — nach oben, unten oder Halten — evidenzbasiert statt erinnerungsbasiert.\n\n## Teilen Ihrer Dosishistorie mit Ihrem Arzt\n\nDer größte Nutzen eines Dosis-Trackers ist der Termin. Vor einem Besuch:\n\n1. **Öffnen Sie Ihre Dosisleiter** — die datierte Abfolge der Stärken.\n2. **Markieren Sie, wo sich Nebenwirkungen häuften** relativ zu jeder Steigerung.\n3. **Notieren Sie alle Halte oder verpassten Steigerungen** und den Grund.\n4. **Bringen Sie Ihren Gewichtstrend daneben mit**, damit Ansprechen und Dosis zusammen sichtbar sind.\n5. **Stellen Sie Ihre konkrete Frage** — ‚Soll ich steigern oder hier halten?' — gestützt auf die Daten statt auf eine Vermutung.\n\n## Wie Sie eine Dosis-Tracking-Routine in 5 Schritten aufbauen\n\n1. **Erfassen Sie Ihre aktuelle Stärke** und das Datum, an dem sie begann, als Ihre Baseline.\n2. **Protokollieren Sie jede Steigerung am Tag, an dem sie passiert**, genau wie Ihr Arzt es angeordnet hat — eskalieren Sie niemals selbst.\n3. **Fügen Sie eine einzeilige Verträglichkeitsnotiz hinzu** bei jeder neuen Dosis (Übelkeit, keine, besser).\n4. **Setzen Sie eine Erinnerung für Ihre nächste Überprüfung**, etwa vier Wochen später, damit eine Steigerung nicht vergessen wird.\n5. **Exportieren oder screenshotten Sie die Leiter** vor jedem Klinikbesuch, um sie sauber zu teilen.\n\n## Wie eine GLP-1-Dosis-Tracker-App dies automatisiert\n\n- **Eine visuelle Dosisleiter**, die jede mg automatisch gegen ihr Datum plottet.\n- **Steigerungs-Erinnerungen**, zeitlich abgestimmt auf Ihre ~4-Wochen-Eskalationskadenz.\n- **Nebenwirkungs-Overlay**, sodass Symptome sich genau gegen die Dosisänderung ausrichten, die ihnen vorausging.\n- **Ein teilbarer Export** — eine saubere datierte Historie für Ihren Arzt.\n- **Erhaltungsbestätigung**, sodass Sie immer wissen, welche Stärke Sie diese Woche injizieren sollten.\n\n[**HAVIT**](https://www.aihavit.com) hält Ihre Dosisleiter neben Gewicht, Körperzusammensetzung, Ernährungs- und Protein-Tracking in einer Wellness-App — sodass eine Steigerung und die Nebenwirkungen, der Appetit und die Ergebnisse drumherum alle zusammenleben. Wenn Sie Ihre Titrationshistorie und Ihre täglichen Gewohnheiten am selben Ort haben möchten, ist es ein natürliches Zuhause für Ihre GLP-1-Reise. Vergleichen Sie Medikamente, während Sie sich entscheiden? Siehe [Semaglutid vs. Tirzepatid](/de/semaglutide-vs-tirzepatide).\n\n## Warum HAVIT — Medikation + Verhaltensänderung, in einer App\n\nGLP-1-Medikamente können das Gewicht bedeutsam reduzieren — aber die Zahl auf der Waage ist nur ein Teil der Geschichte. Der Anteil an fettfreier Masse am unter GLP-1-Therapie verlorenen Gewicht lag in einigen Studien bei 40–60%, in anderen bei 15% oder weniger — und fettfreie Masse umfasst Organe, Knochen und Flüssigkeit, nicht nur Muskel ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), und Ergebnisse verblassen tendenziell, sobald das Medikament gestoppt wird, es sei denn, neue Gewohnheiten treten an ihre Stelle. Deshalb behandeln führende Leitlinien Medikation als einen Teil der Versorgung, nicht als das Ganze: Die U.S. Preventive Services Task Force empfiehlt, dass Erwachsenen mit Adipositas intensive, multikomponente Verhaltensinterventionen angeboten werden ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT ist genau für diesen Moment gebaut — eine App, die Medikations-Tracking, Körperzusammensetzung, Ernährung und Protein, täglichen Gewohnheitsaufbau und einen KI-Coach, der sich an Sie anpasst, vereint. Unter unseren eigenen 1.090 GLP-1-Nutzern bauten die konsequentesten Tracker die stärksten Gewohnheiten auf ([siehe den GLP-1-Gewohnheiten-Report](/de/glp-1-habit-report)).\n\nManagen Sie das Medikament und den Muskel — zusammen. [Starten Sie mit HAVIT →](https://www.aihavit.com)\n\n**Wichtiger Hinweis:** HAVIT ist kein medizinisches Diagnosegerät. Alle Dosisanpassungen müssen mit Ihrem verschreibenden Arzt besprochen werden.",
+      "key_stats": [],
+      "comparison_table": {
+        "title": "Titrationspläne nach Medikament (protokollieren Sie welche mg, welches Datum)",
+        "headers": [
+          "Medikament (Generikum)",
+          "Startdosis",
+          "Eskalation",
+          "Erhaltung"
+        ],
+        "rows": [
+          [
+            "Wegovy (Semaglutid)",
+            "0,25 mg einmal wöchentlich",
+            "Steigerung ~alle 4 Wochen: 0,5 → 1,0 → 1,7 mg",
+            "1,7 oder 2,4 mg wöchentlich"
+          ],
+          [
+            "Ozempic (Semaglutid)",
+            "0,25 mg wöchentlich für 4 Wochen",
+            "→ 0,5 mg, dann 1,0 nach ≥4 Wochen",
+            "0,5, 1,0 oder 2,0 mg wöchentlich"
+          ],
+          [
+            "Zepbound / Mounjaro (Tirzepatid)",
+            "2,5 mg wöchentlich für 4 Wochen",
+            "→ 5 mg, dann +2,5 mg alle ≥4 Wochen",
+            "5–15 mg wöchentlich"
+          ]
+        ],
+        "caption": null
+      },
+      "faq": [
+        {
+          "question": "Was ist ein GLP-1-Dosis-Tracker?",
+          "answer": "Es ist ein Tool — normalerweise eine App —, das erfasst, welche Milligramm-Stärke Sie an welchem Datum eingenommen haben, und es gegen Ihren Titrationsplan legt. Es zeigt Ihre Dosisleiter, erinnert Sie, wann eine Steigerung fällig ist, und erstellt eine saubere Historie zum Teilen mit Ihrem Arzt."
+        },
+        {
+          "question": "Wie unterscheidet sich ein Dosis-Tracker von einem Shot-Tracker?",
+          "answer": "Ein Dosis-Tracker konzentriert sich auf die *Milligramm* — Ihre Stärke und wo Sie auf der Eskalationsleiter stehen. Ein Shot-Tracker konzentriert sich auf das *Injektionsereignis* — wann und wo an Ihrem Körper Sie injiziert haben. Sie ergänzen sich und leben oft in einer App."
+        },
+        {
+          "question": "Was ist Titration und warum ist sie wichtig?",
+          "answer": "Titration ist die geplante, schrittweise Erhöhung von einer niedrigen Startdosis zu einer Erhaltungsdosis, um Nebenwirkungen zu reduzieren. Da sie nach einem Zeitplan erfolgt, hält die Protokollierung, welche mg an welchem Datum begann, Sie mit dem Plan und Ihrem Arzt abgestimmt."
+        },
+        {
+          "question": "Wie schnell steigt die Dosis?",
+          "answer": "Im Allgemeinen nicht früher als alle vier Wochen. Wegovy steigt 0,25→0,5→1,0→1,7→2,4 mg über etwa 16–17 Wochen; Tirzepatid steigt in 2,5-mg-Schritten von 2,5 bis zu 15 mg. Ihr Arzt entscheidet das Tempo basierend darauf, wie Sie jeden Schritt vertragen."
+        },
+        {
+          "question": "Was ist eine Erhaltungsdosis?",
+          "answer": "Die Stärke, bei der Sie nach der Titration bleiben — zum Beispiel Wegovy 2,4 mg oder eine Tirzepatid-Dosis von 5–15 mg. Die Rolle eines Trackers in dieser Phase ist es, zu bestätigen, dass Sie konsequent die richtige Stärke nehmen, und zu notieren, wie sie sich hält."
+        },
+        {
+          "question": "Kann ein Dosis-Tracker mir sagen, wann ich meine Dosis erhöhen soll?",
+          "answer": "Nein. Er erfasst und erinnert; er leitet niemals eine Dosisänderung an. Erhöhungen, Halte und Reduzierungen werden von Ihrem Arzt entschieden. Sie genau zu protokollieren ist das Ziel — Selbstanpassung ist es nicht."
+        },
+        {
+          "question": "Warum sollte ich Nebenwirkungen mit der Dosis protokollieren?",
+          "answer": "Weil gastrointestinale Symptome normalerweise direkt nach einer Steigerung aufflammen. Die Paarung der mg mit dem Datum macht Ursache und Wirkung sichtbar — ‚Übelkeit begann drei Tage nach dem Wechsel auf 5 mg' — was Ihrem Arzt hilft zu entscheiden, ob er halten oder den Aufstieg verlangsamen soll."
+        },
+        {
+          "question": "Wie teile ich meine Dosishistorie bei einem Termin?",
+          "answer": "Bringen Sie die datierte Leiter der Stärken mit, markieren Sie, wo sich Nebenwirkungen häuften, notieren Sie alle Halte oder verpassten Steigerungen und zeigen Sie Ihren Gewichtstrend daneben. Viele Apps lassen Sie dies mit einem Tippen exportieren oder screenshotten."
+        }
+      ],
+      "references": [
+        {
+          "title": "U.S. Food & Drug Administration — WEGOVY (semaglutide) prescribing information, dosage and titration (0.25→2.4 mg).",
+          "source": "FDA",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215256s024lbl.pdf"
+        },
+        {
+          "title": "Novo Nordisk — Wegovy dosing schedule and dose-escalation guidance.",
+          "source": "Novo Nordisk",
+          "url": "https://www.wegovy.com/taking-wegovy/dosing-schedule.html"
+        },
+        {
+          "title": "Novo Nordisk — Ozempic dosing (0.25→0.5→1→2 mg) and titration.",
+          "source": "Novo Nordisk",
+          "url": "https://www.ozempic.com/ozempic-pen/dosing.html"
+        },
+        {
+          "title": "Eli Lilly — ZEPBOUND (tirzepatide) prescribing information, dosage and titration (2.5→15 mg).",
+          "source": "Eli Lilly",
+          "url": "https://pi.lilly.com/us/zepbound-uspi.pdf"
+        },
+        {
+          "title": "Eli Lilly — Zepbound dosage options and schedules.",
+          "source": "Eli Lilly",
+          "url": "https://zepbound.lilly.com/hcp/dosage"
+        },
+        {
+          "title": "Cleveland Clinic — GLP-1 Agonists: dosing overview.",
+          "source": "Cleveland Clinic",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "title": "Alle medizinischen Angaben wurden anhand der zitierten FDA-Labels und Herstellermaterialien per Juli 2026 verifiziert. Labels werden regelmäßig aktualisiert — bestätigen Sie aktuelle Details mit Ihrem Arzt und der offiziellen Fachinformation.",
+          "source": "",
+          "url": ""
+        }
+      ],
+      "last_updated": "2026-07-06"
     }
   },
   "generated_at": "2026-08-14T00:00:00.000Z"
