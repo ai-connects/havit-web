@@ -454,6 +454,136 @@
         }
       ],
       "last_updated": "2026-07-05"
+    },
+    "de": {
+      "title": "GLP-1 Gewichtsverlust-Rechner: Schätzen Sie Ihre Ergebnisse",
+      "meta_description": "Kostenloser GLP-1 Gewichtsverlust-Rechner: Schätzen Sie Ihr Gewicht und Ihren BMI nach 3, 6 und 12 Monaten mit Wegovy, Ozempic, Zepbound oder Mounjaro anhand klinischer Studiendurchschnitte.",
+      "tldr": "Dieser GLP-1 Gewichtsverlust-Rechner schätzt Ihr Gewicht und Ihren BMI nach 3, 6 und 12 Monaten mit Wegovy, Ozempic, Zepbound, Mounjaro oder kompoundiertem Semaglutid/Tirzepatid, indem er den durchschnittlichen prozentualen Gewichtsverlust aus klinischen Studien auf Ihr Körpergewicht anwendet. Es handelt sich um eine Bildungsschätzung, keine Vorhersage.",
+      "body_md": "**[ Interaktiver Rechner wird hier eingebettet — siehe `tools/glp-1-weight-loss-calculator.html` ]**\n\nWenn Ihnen gerade ein GLP-1-Medikament verschrieben wurde — **Semaglutid** (Ozempic, Wegovy) oder das duale GIP/GLP-1-Medikament **Tirzepatid** (Mounjaro, Zepbound) — ist die erste Frage fast immer dieselbe: *Wie viel Gewicht werde ich tatsächlich verlieren, und wie schnell?* Diese Seite bietet Ihnen einen realistischen, auf Studien basierenden **Ozempic- und Wegovy-Gewichtsverlust-Rechner**, um Erwartungen zu setzen, plus die ehrlichen Grenzen jeder solchen Schätzung.\n\n## Wie der GLP-1 Gewichtsverlust-Rechner funktioniert\n\nDas Tool macht drei einfache Dinge. Erstens nimmt es Ihr **aktuelles Gewicht und Ihre Größe** (in kg/cm oder lb/in — umschaltbar) und berechnet Ihren Ausgangs-BMI. Zweitens wendet es den **durchschnittlichen Gesamtkörpergewichtsverlust** an, der für Ihr gewähltes Medikament in seiner zentralen klinischen Studie berichtet wurde. Drittens skaliert es dieses Gesamtergebnis über die Zeit mithilfe einer **Titrations- und Plateaukurve**, da der Gewichtsverlust langsam aufbaut, während Ihre Dosis schrittweise erhöht wird, und sich dann nahe dem Studienendpunkt einpendelt.\n\nDas Ergebnis ist Ihr **geschätztes Gewicht und BMI nach Monat 3, 6 und 12**, mit einem Schieberegler, um jeden Monat bis zu 18 zu sehen. Betrachten Sie es als einen **Zielgewichts-Prädiktor**, der auf veröffentlichten Durchschnittswerten basiert — nicht als Versprechen über Ihren Körper.\n\n## Die klinischen Zahlen hinter der Schätzung\n\nJede Schätzung ist an einen realen Studiendurchschnitt gebunden. Dies sind die Annahmen, die der Rechner auf dem Bildschirm angibt:\n\nZwei Dinge sind hier wichtig. **Ozempic und Mounjaro verwenden niedrigere Diabetes-Dosierungen** als ihre auf Gewichtsverlust ausgerichteten Markenverwandten, weshalb der Rechner für sie weniger schätzt als für Wegovy oder Zepbound — obwohl Ozempic und Wegovy das *gleiche Molekül* sind. Und **kompoundierte Produkte sind nicht FDA-zugelassen oder standardisiert**, daher ist jede Zahl für sie besonders unsicher; das Tool kennzeichnet dies deutlich.\n\n### Die monatliche Kurve (warum Monat 3 nicht ein Drittel von Monat 12 ist)\n\nGewichtsverlust-Kurven aus Studien sind nicht linear. In den ersten Monaten wird Ihre Dosis noch **auftitriert**, sodass der frühe Verlust bescheiden ist; die Kurve wird dann steiler und **flacht schließlich** nahe dem ~68–72-Wochen-Endpunkt ab. Der Rechner modelliert dies, indem er etwa **35 % des vollen Verlusts bis Monat 3, ~62 % bis Monat 6 und ~90 % bis Monat 12** erreicht und zwischen diesen Ankerpunkten interpoliert. Dies spiegelt die Form der veröffentlichten mittleren Kurven wider, anstatt einen stetigen wöchentlichen Verlust anzunehmen.\n\n## So verwenden Sie ihn in 4 Schritten\n\n1. **Geben Sie Ihr aktuelles Gewicht ein** und schalten Sie bei Bedarf den kg/lb-Umschalter um.\n2. **Geben Sie Ihre Größe ein** (die Einheit folgt Ihrem Gewichtsumschalter), damit der BMI berechnet werden kann.\n3. **Wählen Sie Ihr Medikament** aus der Liste — die Schätzung ändert sich mit dem Studiendurchschnitt des Medikaments.\n4. **Schieben Sie die Zielmonats-Steuerung** auf Ihren Zeithorizont und lesen Sie die geschätzten Gewichts- und BMI-Karten ab.\n\nDas war's. Es gibt keine Anmeldung, und nichts wird gespeichert — die Berechnung läuft vollständig in Ihrem Browser.\n\n## Was der Rechner Ihnen nicht sagen kann\n\nDies ist ein auf Durchschnittswerten basierender **Semaglutid-Gewichtsverlust-Rechner**, und Durchschnittswerte verbergen viel Streuung. Ihr tatsächliches Ergebnis hängt von Dingen ab, die kein Rechner wissen kann: Ihre **genaue Dosis und wie hoch Sie titrieren**, wie konsequent Sie es einnehmen, Ihre **Ernährung und Proteinzufuhr**, **Aktivität und Krafttraining** (die Muskeln schützen), Schlaf, andere Medikamente und Erkrankungen sowie einfache biologische Variation in der Reaktion. In Studien verloren einige Menschen weit mehr als der Durchschnitt und einige verloren wenig oder gar nichts.\n\nZwei ehrliche Vorbehalte, die es wert sind, wiederholt zu werden:\n\n- **Es ist ein Leitfaden, kein Ziel.** Verwenden Sie die Zahl, um Erwartungen zu setzen und zu erkennen, ob Sie ungefähr auf Kurs sind — nicht als Ziel, das durch Unterernährung oder Überdosierung verfolgt werden soll.\n- **Muskeln sind wichtig.** Schneller Gewichtsverlust kann Muskeln kosten, es sei denn, Sie priorisieren **Protein und Kraftarbeit**. Pfunde auf einer Waage sind nicht die ganze Geschichte; Körperzusammensetzung ist es. Siehe unseren [7-Tage-GLP-1-Ernährungsplan](/en/glp-1-diet-7-day-meal-plan) für eine proteinorientierte Vorlage.\n\n## Eine Schätzung in ein Ergebnis verwandeln\n\nEine Schätzung hilft nur, wenn Sie darauf reagieren und die Realität damit abgleichen. Die einzelne Gewohnheit, die am meisten mit dem Erreichen von Gewichts- und Proteinzielen verbunden ist, ist das **Protokollieren** — zu wissen, ob das heutige Protein 40 g oder 90 g war und ob Ihr wöchentlicher Trend mit der Kurve übereinstimmt. Tools wie die **[HAVIT-App](https://www.aihavit.com)** ermöglichen es Ihnen, Gewicht, Injektionstage, Protein, Ballaststoffe und Wasser in Sekunden aufzuzeichnen, sodass die Schätzung auf dieser Seite zu einem echten, anpassbaren Plan wird. Für einen tieferen Einblick, was Sie essen und was Sie vermeiden sollten, beginnen Sie mit unserem [GLP-1-Nebenwirkungsleitfaden](/en/glp-1-side-effects).\n\n## Warum HAVIT — Medikation + Verhaltensänderung, in einer App\n\nGLP-1-Medikamente können das Gewicht bedeutsam reduzieren — aber die Zahl auf der Waage ist nur ein Teil der Geschichte. Ein erheblicher Anteil des mit GLP-1-Therapie verlorenen Gewichts — der zwischen Studien stark variiert — kann aus magerem Gewebe statt aus Fett stammen ([*Diabetes, Obesity and Metabolism*, 2024](https://doi.org/10.1111/dom.15728)), und die Ergebnisse neigen dazu zu verblassen, sobald das Medikament gestoppt wird, es sei denn, neue Gewohnheiten treten an ihre Stelle. Deshalb behandelt führende Leitlinie Medikation als einen Teil der Versorgung, nicht als Ganzes: Die U.S. Preventive Services Task Force empfiehlt, dass Erwachsenen mit Adipositas intensive, multikomponente Verhaltensinterventionen angeboten werden sollten ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT ist genau für diesen Moment gebaut — eine App, die Medikationsverfolgung, Körperzusammensetzung, Ernährung und Protein, täglichen Gewohnheitsaufbau und einen KI-Coach vereint, der sich an Sie anpasst. Unter unseren eigenen 1.090 GLP-1-Nutzern bauten die konsequentesten Tracker die stärksten Gewohnheiten auf ([siehe den GLP-1-Gewohnheitsbericht](/en/glp-1-habit-report)).\n\nVerwalten Sie die Medizin und die Muskeln — zusammen. [Starten Sie mit HAVIT →](https://www.aihavit.com)",
+      "key_stats": [],
+      "comparison_table": {
+        "title": "Die klinischen Zahlen hinter der Schätzung",
+        "headers": [
+          "Medikament (Dosistyp)",
+          "Durchschnittlicher Gesamtgewichtsverlust aus Studie",
+          "Quellstudie"
+        ],
+        "rows": [
+          [
+            "Wegovy (Semaglutid 2,4 mg)",
+            "~15 % nach 68 Wochen",
+            "STEP-1"
+          ],
+          [
+            "Zepbound (Tirzepatid 10–15 mg)",
+            "~21 % (bis zu 22,5 %) nach 72 Wochen",
+            "SURMOUNT-1"
+          ],
+          [
+            "Ozempic (Semaglutid 1–2 mg, Diabetes-Dosis)",
+            "~6–7 % nach 40 Wochen",
+            "SUSTAIN FORTE"
+          ],
+          [
+            "Mounjaro (Tirzepatid, Diabetes-Dosis)",
+            "~12 % nach 40 Wochen (höchste Dosis)",
+            "SURPASS-2"
+          ],
+          [
+            "Kompoundiertes Semaglutid/Tirzepatid",
+            "Nicht standardisiert — nur grobe Schätzung",
+            "Keine zentrale Studie"
+          ]
+        ],
+        "caption": ""
+      },
+      "faq": [
+        {
+          "question": "Wie genau ist ein GLP-1 Gewichtsverlust-Rechner?",
+          "answer": "Es ist eine Bildungsschätzung, keine Vorhersage. Er wendet den durchschnittlichen prozentualen Verlust jedes Medikaments aus Studien auf Ihr Gewicht an und skaliert ihn über die Zeit. Echte Ergebnisse variieren stark mit Dosis, Ernährung, Aktivität und individueller Reaktion, behandeln Sie es also nur als groben Leitfaden."
+        },
+        {
+          "question": "Wie viel Gewicht werde ich mit Wegovy verlieren?",
+          "answer": "In STEP-1 erzeugte Wegovy (Semaglutid 2,4 mg) etwa 15 % durchschnittlichen Gesamtkörpergewichtsverlust nach 68 Wochen. Bei einem Ausgangsgewicht von 90 kg sind das im Durchschnitt etwa 13–14 kg — aber Einzelpersonen verlieren bedeutsam mehr oder weniger als der Studienmittelwert."
+        },
+        {
+          "question": "Unterscheidet sich der Ozempic-Gewichtsverlust-Rechner von Wegovy?",
+          "answer": "Ja. Ozempic und Wegovy sind beide Semaglutid, aber Ozempic verwendet die niedrigere Diabetes-Dosis (bis zu 2 mg) gegenüber Wegovys 2,4-mg-Adipositas-Dosis. Der durchschnittliche Verlust bei der Diabetes-Dosis ist geringer — etwa 6–7 % nach 40 Wochen in der SUSTAIN FORTE-Studie — daher ist die Schätzung niedriger."
+        },
+        {
+          "question": "Wie viel mehr Gewichtsverlust mit Zepbound vs. Wegovy?",
+          "answer": "In separaten zentralen Studien erreichte Zepbound (Tirzepatid) durchschnittlich etwa 21 % nach 72 Wochen gegenüber Wegovys ~15 % nach 68 Wochen. In der direkten Vergleichsstudie SURMOUNT-5 betrug der durchschnittliche Verlust nach 72 Wochen 20,2 % mit Tirzepatid gegenüber 13,7 % mit Semaglutid, obwohl die individuelle Reaktion weiterhin variiert."
+        },
+        {
+          "question": "Was ist ein Zielgewichts-Prädiktor und kann ich ihm vertrauen?",
+          "answer": "Es ist ein Tool, das ein plausibles zukünftiges Gewicht aus Durchschnittsdaten projiziert. Es ist nützlich, um Erwartungen zu setzen, aber es kann Ihre persönliche Reaktion nicht berücksichtigen, behandeln Sie seine Zahl also nicht als Garantie oder hartes Ziel."
+        },
+        {
+          "question": "Wie wird der BMI hier berechnet?",
+          "answer": "Der BMI ist Ihr projiziertes Gewicht in Kilogramm geteilt durch die Größe in Metern zum Quadrat. Das Tool schätzt Ihr zukünftiges Gewicht für jeden Monat und berechnet dann den BMI aus diesem projizierten Gewicht und Ihrer eingegebenen Größe neu."
+        },
+        {
+          "question": "Ändert das Geschlecht die Schätzung?",
+          "answer": "Der Rechner erfasst das Geschlecht für den BMI-Kontext, ändert aber nicht die prozentuale Verlustschätzung, da die zentralen Studien keine robuste, verallgemeinerbare Geschlechtsaufteilung für Gewichtsverlust berichten. Ihr verschreibender Arzt kann Erwartungen personalisieren."
+        },
+        {
+          "question": "Ist dies medizinischer Rat?",
+          "answer": "Nein. Es ist nur eine Bildungsschätzung — keine Diagnose, Dosierungsanleitung oder Behandlung und kein medizinisches Gerät. GLP-1-Medikamente bergen ernsthafte Risiken; folgen Sie immer Ihrem verschreibenden Arzt und dem FDA-zugelassenen Etikett."
+        }
+      ],
+      "references": [
+        {
+          "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+          "source": "New England Journal of Medicine, 2021",
+          "url": "https://doi.org/10.1056/NEJMoa2032183"
+        },
+        {
+          "title": "Semaglutide once a week in adults with overweight or obesity, with or without type 2 diabetes in an east Asian population (STEP 6): a randomised, double-blind, double-dummy, placebo-controlled, phase 3a trial",
+          "source": "The Lancet Diabetes & Endocrinology, 2022",
+          "url": "https://doi.org/10.1016/S2213-8587(22)00008-0"
+        },
+        {
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2022",
+          "url": "https://doi.org/10.1056/NEJMoa2206038"
+        },
+        {
+          "title": "Tirzepatide as Compared with Semaglutide for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2025",
+          "url": "https://doi.org/10.1056/NEJMoa2416394"
+        },
+        {
+          "title": "Efficacy and safety of once-weekly semaglutide 2·0 mg versus 1·0 mg in patients with type 2 diabetes (SUSTAIN FORTE): a double-blind, randomised, phase 3B trial",
+          "source": "The Lancet Diabetes & Endocrinology, 2021",
+          "url": "https://doi.org/10.1016/S2213-8587(21)00174-1"
+        },
+        {
+          "title": "Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes",
+          "source": "New England Journal of Medicine, 2021",
+          "url": "https://doi.org/10.1056/NEJMoa2107519"
+        },
+        {
+          "title": "WEGOVY (semaglutide) — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b"
+        },
+        {
+          "title": "ZEPBOUND (tirzepatide) — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b"
+        },
+        {
+          "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies",
+          "source": "Diabetes, Obesity and Metabolism, 2024",
+          "url": "https://doi.org/10.1111/dom.15728"
+        },
+        {
+          "title": "Behavioral Weight Loss Interventions to Prevent Obesity-Related Morbidity and Mortality in Adults: US Preventive Services Task Force Recommendation Statement",
+          "source": "JAMA, 2018",
+          "url": "https://doi.org/10.1001/jama.2018.13022"
+        }
+      ],
+      "last_updated": "2026-07-02"
     }
   },
   "generated_at": "2026-08-14T00:00:00.000Z",
