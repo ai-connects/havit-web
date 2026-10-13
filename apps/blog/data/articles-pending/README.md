@@ -21,12 +21,12 @@ npm run build        # 확인
 
 | slug | 타겟 질의 | 언어 | h2 |
 | --- | --- | --- | --- |
-| `best-diet-apps-2026` | 다이어트 앱 추천 / best diet app | en, ko | 7 |
-| `best-ai-health-coach-apps-2026` | AI 코치 앱 추천 / best AI health coach app | en, ko | 7 |
-| `best-calorie-counter-apps-2026` | 칼로리 계산 앱 추천 / best calorie counting app | en, ko | 7 |
-| `best-food-logging-apps-2026` | 식단 기록 앱 추천 / best food logging app | en, ko | 7 |
-| `best-body-composition-apps-2026` | 체성분 측정 앱 추천 / body composition app | en, ko | 7 |
-| `best-habit-tracker-weight-loss-2026` | 다이어트 습관 앱 추천 / habit tracker for weight loss | en, ko | 8 |
+| `best-diet-apps` | 다이어트 앱 추천 / best diet app | en, ko | 7 |
+| `best-ai-health-coach-apps` | AI 코치 앱 추천 / best AI health coach app | en, ko | 7 |
+| `best-calorie-counter-apps` | 칼로리 계산 앱 추천 / best calorie counting app | en, ko | 7 |
+| `best-food-logging-apps` | 식단 기록 앱 추천 / best food logging app | en, ko | 7 |
+| `best-body-composition-apps` | 체성분 측정 앱 추천 / body composition app | en, ko | 7 |
+| `best-habit-tracker-weight-loss` | 다이어트 습관 앱 추천 / habit tracker for weight loss | en, ko | 8 |
 
 전부 `type: comparison`, `layout: hub`.
 
