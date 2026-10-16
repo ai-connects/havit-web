@@ -254,6 +254,9 @@ if (casesWrap) {
   const base = new URLSearchParams()
   FORWARD_KEYS.forEach((k) => { if (landing.has(k)) base.set(k, landing.get(k)) })
   if (!base.has('utm_campaign')) base.set('c', 'homepage')
+  // hl=지금 보고 있는 페이지 언어. app.aihavit.com 은 기기 언어로 QR·이동 안내 문구를 고르는데, /ja/ 를 영어 기기로
+  // 보던 사람은 일본어 페이지에서 눌렀는데 영어 안내를 받는다. hl 을 기기 언어보다 먼저 쓰고 OneLink 로는 넘기지 않는다.
+  if (document.documentElement.lang) base.set('hl', document.documentElement.lang)
   const ua = navigator.userAgent
   const isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
   const deviceStore = isIOS ? 'app_store' : /Android/i.test(ua) ? 'google_play' : null
