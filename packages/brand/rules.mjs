@@ -50,6 +50,22 @@ export const ALLOW = [
   },
 ]
 
+/**
+ * 파일과 무관하게 옛 표기를 그대로 두는 **구문**. { phrase, reason }.
+ * phrase 는 `Havit` 위치에서 시작해 맞춰 본다(정확 일치, 대소문자 구분).
+ * 브랜드 표기(HAVIT)와 법인·판매자명은 별개다 — docs/brand-glossary.md §5.
+ */
+export const ALLOW_PHRASES = [
+  {
+    phrase: /Havit Inc\.(?![A-Za-z])/y,
+    reason: '법인명 — 등기 영문 상호(Havit Inc.)는 브랜드 표기와 별개(저작권·약관·JSON-LD legalName)',
+  },
+  {
+    phrase: /Havit Incorporated\b/y,
+    reason: '판매자명 — App Store 가 보여주는 판매자명을 그대로 인용',
+  },
+]
+
 /* ───────────── 규칙 ───────────── */
 
 const HANGUL = /[가-힣]/
@@ -63,8 +79,10 @@ function latinExclusion(text, index) {
   const after2 = text.slice(index + 5, index + 7)
   if (/[/\\.@_-]/.test(before)) return `경로/도메인/slug 연결(앞 '${before}')`
   if (/^[-_/.@][A-Za-z0-9]/.test(after2)) return `경로/도메인/slug 연결(뒤 '${after2}')`
-  // 외부 원문 인용 — App Store 판매자명 표기("Havit Incorporated")는 스토어가 보여주는 그대로 인용한다.
-  if (text.startsWith(' Incorporated', index + 5)) return '외부 원문 인용(App Store 판매자명)'
+  for (const a of ALLOW_PHRASES) {
+    a.phrase.lastIndex = index
+    if (a.phrase.test(text)) return a.reason
+  }
   // 같은 토큰(공백·따옴표·괄호로 끊기는 구간) 안에 URL 표지가 있는가
   let s = index
   while (s > 0 && !/[\s"'`()<>[\]]/.test(text[s - 1])) s--
@@ -97,6 +115,9 @@ function koHabitReplace(m, paren, particle, offset, text) {
 /** 하비트파워 → 하비트 파워 (기능명 띄어쓰기). */
 const KO_SPACING_RE = /하비트(파워|프로|코인|프리미엄)/g
 
+/** 법인명을 브랜드 표기로 잘못 바꾼 `HAVIT Inc.` → 등기 영문 상호 `Havit Inc.` */
+const LEGAL_RE = /(?<![A-Za-z0-9_$])HAVIT Inc\.(?![A-Za-z])/g
+
 export const RULES = [
   {
     id: 'latin-havit',
@@ -104,6 +125,13 @@ export const RULES = [
     re: LATIN_RE,
     exclude: latinExclusion,
     replace: () => 'HAVIT',
+  },
+  {
+    id: 'legal-name',
+    label: 'HAVIT Inc. → Havit Inc. (법인명)',
+    re: LEGAL_RE,
+    exclude: () => null,
+    replace: () => 'Havit Inc.',
   },
   {
     id: 'ko-habit',

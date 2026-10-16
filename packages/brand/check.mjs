@@ -15,7 +15,7 @@
  */
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
-import { ROOT, SCOPES, ALLOW, listFiles, transformFile, lineOf } from './rules.mjs'
+import { ROOT, SCOPES, ALLOW, ALLOW_PHRASES, listFiles, transformFile, lineOf } from './rules.mjs'
 
 const args = process.argv.slice(2)
 const appIdx = args.indexOf('--app')
@@ -45,5 +45,5 @@ if (problems.length) {
   process.exit(1)
 }
 
-const allow = ALLOW.filter((a) => files.includes(a.file)).length
-console.log(`브랜드 표기 OK — ${files.length}개 파일 확인${app ? ` (${app})` : ''}, 허용 목록 ${allow}건`)
+const allowFiles = ALLOW.filter((a) => files.includes(a.file)).length
+console.log(`브랜드 표기 OK — ${files.length}개 파일 확인${app ? ` (${app})` : ''}, 허용 규칙 파일 ${allowFiles}건·구문 ${ALLOW_PHRASES.length}건`)

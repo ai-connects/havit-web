@@ -108,11 +108,11 @@ const LABEL_MIN_READ: Record<RouteLang, string> = {
 };
 
 const LABEL_BY_PUBLISHER: Record<RouteLang, string> = {
-  ko: '주식회사 하비트 발행', en: 'Published by HAVIT Inc.',
-  ja: 'HAVIT Inc. 発行', zh: '由 HAVIT Inc. 出版', 'zh-tw': '由 HAVIT Inc. 出版',
-  es: 'Publicado por HAVIT Inc.', 'pt-br': 'Publicado por HAVIT Inc.',
-  id: 'Diterbitkan oleh HAVIT Inc.', de: 'Herausgegeben von HAVIT Inc.',
-  fr: 'Publié par HAVIT Inc.',
+  ko: '주식회사 하비트 발행', en: 'Published by Havit Inc.',
+  ja: 'Havit Inc. 発行', zh: '由 Havit Inc. 出版', 'zh-tw': '由 Havit Inc. 出版',
+  es: 'Publicado por Havit Inc.', 'pt-br': 'Publicado por Havit Inc.',
+  id: 'Diterbitkan oleh Havit Inc.', de: 'Herausgegeben von Havit Inc.',
+  fr: 'Publié par Havit Inc.',
 };
 
 /* 「앱 추천·비교」 고정 섹션 — 앱을 찾는 검색을 받는 글로 가는 상시 링크(lib/app-guides.ts). */
@@ -261,7 +261,8 @@ export default function BlogIndexPage({ params, searchParams }: Props) {
       {
         '@type': 'Organization',
         '@id': `${SITE}/#publisher`,
-        name: 'HAVIT Inc.',
+        name: 'HAVIT',
+        legalName: 'Havit Inc.',
         url: 'https://www.aihavit.com',
         logo: {
           '@type': 'ImageObject',

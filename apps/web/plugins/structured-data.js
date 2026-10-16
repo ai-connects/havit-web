@@ -175,7 +175,9 @@ export function renderSeoHead({ locale, dict, baseHtml, title, description, url,
     {
       '@type': 'Organization',
       '@id': `${SITE}/#organization`,
-      name: 'HAVIT Inc.',
+      // 브랜드명(name)과 등기 영문 상호(legalName)는 별개다 — docs/brand-glossary.md
+      name: 'HAVIT',
+      legalName: 'Havit Inc.',
       url: SITE,
       logo: { '@type': 'ImageObject', url: `${SITE}/favicon-512.png`, width: 512, height: 512 },
       sameAs: [APP_STORE, PLAY_STORE, BLOG],

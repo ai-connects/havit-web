@@ -22,8 +22,8 @@ import { asset } from '@/lib/site';
  * 묶이지 않는다. 경쟁 비교 아티클 13건의 표 캡션에 넣은 문장과 같은 계열이다.
  *
  * `lede` 는 2026-10-16 대표 확정 A안(대사 과학·근육 보호·대사 활성·요요 없는 유지)이다.
- * ko 원문이 기준이고 나머지 언어는 그 의미 그대로 옮겼다. 비교 아티클 캡션
- * (scripts/geo-entity-surfacing.mjs 의 ENTITY)은 아직 이전 문장이다.
+ * ko 원문이 기준이고 나머지 언어는 그 의미 그대로 옮겼다. 비교 아티클 13건의 표
+ * 캡션(scripts/geo-entity-surfacing.mjs 의 ENTITY)과 토씨까지 같다 — 함께 고칠 것.
  * 표기 규칙은 docs/brand-glossary.md (영문 HAVIT, 한국어 하비트).
  *
  * 근거는 홈페이지(aihavit.com)에 공개된 것만 쓴다:

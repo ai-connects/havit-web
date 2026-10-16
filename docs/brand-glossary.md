@@ -12,6 +12,13 @@
 | 중국어 간체·번체 | **HAVIT** (음역 금지) | 哈比特, 哈維特, 哈维特, Havit |
 | 그 외(아랍어·태국어·히브리어 등) | **HAVIT** (라틴 문자 그대로) | 현지 음역 |
 
+### 법인명 (2026-10-16 추가 결정)
+
+- **법인명: `Havit Inc.`** (등기 영문 상호, 브랜드 표기와 별개). 한국어는 `주식회사 하비트`.
+- 저작권 문구(`© 2026 Havit Inc.`), 약관·개인정보·EULA·환불 고지의 계약 당사자, 발행인 표기, 출처 표기(`Havit Inc., 2026`)는 법인명을 쓴다. `HAVIT Inc.` 로 바꾸지 않는다.
+- JSON-LD `Organization` 은 `name: "HAVIT"`(브랜드) + `legalName: "Havit Inc."`(법인명)로 나눠 적는다.
+- App Store 판매자명 인용(`Havit Incorporated`)은 스토어 표기를 그대로 둔다.
+
 ## 2. 기능·상품명
 
 | 개념 | 한국어 | 영문 | 코드 식별자(변경 금지) |
@@ -31,6 +38,7 @@
 - 사용자 입력 인식용 정규식(오타 허용 목적: `하비트|해빗|하빗|헤빗`) — 일부러 오표기를 받아들이는 코드
 - 테스트 픽스처의 가짜 사람 이름·닉네임(예: 김하빗, 하빗팀) — 브랜드 표기가 아니라 임의 데이터
 - 인용된 외부 원문, 마이그레이션 히스토리 파일의 과거 기록(실행 결과가 바뀌면 안 됨)
+- 법인명 `Havit Inc.`, 판매자명 `Havit Incorporated` (위 §1 법인명)
 
 ## 4. 적용 범위
 
@@ -56,4 +64,4 @@
 
 - 일괄 정리: `node packages/brand/normalize.mjs` (기본은 **리포트만**, `--write` 로 적용). 멱등이라 다른 브랜치가 머지된 뒤 다시 돌려도 된다.
 - 빌드 가드: `node packages/brand/check.mjs --app web|blog` — 두 앱의 `npm run build` 가 `check:brand` 로 먼저 부른다. 위반이 있으면 빌드 실패.
-- 규칙·허용 목록 SSOT: `packages/brand/rules.mjs`. 예외를 늘릴 때는 여기 `ALLOW` 에 파일과 이유를 적는다.
+- 규칙·허용 목록 SSOT: `packages/brand/rules.mjs`. 파일 단위 예외는 `ALLOW`, 구문 단위 예외(법인명 `Havit Inc.`·판매자명 `Havit Incorporated`)는 `ALLOW_PHRASES` 에 이유와 함께 적는다.

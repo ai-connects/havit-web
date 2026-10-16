@@ -49,13 +49,21 @@ const RIVAL = {
 
 /**
  * 엔티티 정의 — 모든 곳에서 같은 문장이어야 생성형 엔진이 하나의 개체로 묶는다.
- * 홈페이지·스토어·외부 매체와도 이 표현을 맞출 것.
+ * 블로그 소개 블록(components/AboutHavit.tsx 의 `lede`)과 **토씨까지 같아야 한다.**
+ * 2026-10-16 대표 확정 A안(ko 원문 기준). 한쪽을 고치면 다른 쪽도 같이 고칠 것.
+ * 키는 아티클 JSON 의 langs 키(zh-CN·zh-TW·pt-BR)를 따른다.
  */
 const ENTITY = {
-  en: 'HAVIT is an AI health companion that combines GLP-1 medication tracking, body composition, and daily habit coaching in one app.',
-  ko: '하비트(HAVIT)는 GLP-1 약물 기록, 체성분, 매일의 습관 코칭을 한 앱에 담은 AI 헬스 컴패니언입니다.',
-  ja: 'HAVIT（ハビット）は、GLP-1の服薬記録・体組成・毎日の習慣コーチングを1つにまとめたAIヘルスコンパニオンです。',
-  'zh-TW': 'HAVIT 是一款 AI 健康夥伴 App，將 GLP-1 用藥記錄、身體組成與每日習慣教練整合在同一個應用程式中。',
+  en: 'HAVIT is an AI health partner built on metabolic science — it protects your muscle, wakes up your metabolism, and helps you keep a healthy, rebound-free body for the long run.',
+  ko: '하비트는 대사 과학을 기반으로 근육은 지키고 대사는 깨워, 요요 없는 몸을 오래 유지하도록 돕는 AI 건강 파트너입니다.',
+  ja: 'HAVIT は、代謝科学にもとづいて筋肉を守り、代謝を目覚めさせ、リバウンドしない体を長く保てるようサポートする AI ヘルスパートナーです。',
+  'zh-TW': 'HAVIT 是以代謝科學為基礎的 AI 健康夥伴，幫你守住肌肉、喚醒代謝，長久維持不復胖的身體。',
+  'zh-CN': 'HAVIT 是以代谢科学为基础的 AI 健康伙伴，帮你守住肌肉、唤醒代谢，长久保持不反弹的身体。',
+  es: 'HAVIT es un aliado de salud con IA basado en la ciencia del metabolismo: protege tu músculo, despierta tu metabolismo y te ayuda a mantener a largo plazo un cuerpo sano y sin efecto rebote.',
+  'pt-BR': 'O HAVIT é um parceiro de saúde com IA baseado na ciência do metabolismo: protege seus músculos, desperta seu metabolismo e ajuda você a manter por muito tempo um corpo saudável e sem efeito sanfona.',
+  id: 'HAVIT adalah mitra kesehatan berbasis AI yang berlandaskan ilmu metabolisme — menjaga otot Anda, membangunkan metabolisme, dan membantu Anda mempertahankan tubuh sehat tanpa efek yoyo dalam jangka panjang.',
+  de: 'HAVIT ist ein KI-Gesundheitspartner auf Basis der Stoffwechselwissenschaft – er schützt Ihre Muskeln, weckt Ihren Stoffwechsel und hilft Ihnen, langfristig einen gesunden Körper ohne Jo-Jo-Effekt zu halten.',
+  fr: 'HAVIT est un partenaire santé IA fondé sur la science du métabolisme : il protège vos muscles, réveille votre métabolisme et vous aide à garder durablement un corps en bonne santé, sans effet yo-yo.',
 }
 
 /** FAQ 3종. 생성형 엔진이 가장 잘 인용하는 형식이라 질문형으로 고정한다. */
@@ -111,7 +119,10 @@ for (const [slug, rival] of Object.entries(RIVAL)) {
   let touched = false
 
   for (const [lang, c] of Object.entries(a.langs)) {
-    const key = lang in ENTITY ? lang : 'en'
+    // FAQ 템플릿은 4개 언어뿐이라 나머지는 en 으로 넣고 번역 파이프라인이 옮긴다.
+    // 캡션은 10개 언어 정의가 다 있으니 언어별로 넣는다. 두 키를 섞으면 안 된다.
+    const key = lang in FAQ ? lang : 'en'
+    const entityKey = lang in ENTITY ? lang : 'en'
 
     // ① 제목 — SERP 용 short_title 은 원문을 남겨 CTR 최적화를 유지한다.
     const next = withEntity(c.title, rival, key)
@@ -132,10 +143,12 @@ for (const [slug, rival] of Object.entries(RIVAL)) {
     }
 
     // ③ 비교표 캡션 — 13건에 같은 정의 문장을 반복시켜 개체를 굳힌다.
-    if (c.comparison_table && !/havit is|하비트\(havit\)는|하빗\(havit\)은|havit（ハビット）|havit 是/i.test(
-      c.comparison_table.caption ?? '',
-    )) {
-      c.comparison_table.caption = [c.comparison_table.caption, ENTITY[key]].filter(Boolean).join(' ')
+    // 이미 브랜드가 든 캡션(현행 정의든, 번역된 옛 정의든)에는 다시 붙이지 않는다(멱등).
+    // 옛 판정식(/havit is|…/)은 번역된 es·de·ja… 캡션을 못 알아봐 재실행 때마다 영어
+    // 정의를 덧붙였다. 하빗은 옛 표기 인식용이다(docs/brand-glossary.md).
+    const caption = c.comparison_table?.caption ?? ''
+    if (c.comparison_table && !caption.includes(ENTITY[entityKey]) && !/havit|하비트|하빗/i.test(caption)) {
+      c.comparison_table.caption = [caption, ENTITY[entityKey]].filter(Boolean).join(' ')
       touched = true
     }
   }
