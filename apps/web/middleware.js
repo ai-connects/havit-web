@@ -156,10 +156,57 @@ const AFFILIATE = /^\/(?:([a-z-]+)\/)?affiliate\/?$/
  */
 const AFFILIATE_SERVED = new Set(AFFILIATE_LOCALES)
 
+/**
+ * `/blog` 가 빠진 블로그 URL → 정본으로 301.
+ *
+ * 블로그(Next.js, basePath `/blog`)의 RSC 페이로드에는 `<Link>` 의 href 가
+ * basePath 없이 실린다(`"href":"/en/best-ai-health-coach-apps"`). 렌더된 `<a>`
+ * 에는 `/blog` 가 붙고 클라이언트 라우터가 붙여 쓰므로 Next 의 정상 동작이지만,
+ * Googlebot 이 페이로드 문자열을 URL 로 주워 www 루트에서 404 를 316건 쌓았다.
+ *
+ * **홈 경로와 겹치지 않는 것만** 옮긴다. 홈은 34개 로케일 중 ko·ja·zh-tw·es·
+ * id·de·fr 이 블로그 언어와 같은 프리픽스를 쓰고, 그 아래 실제 페이지는
+ * `/{locale}/`(index.html) 와 `/{locale}/affiliate/` 뿐이다(dist 전수 확인).
+ * 그 두 갈래는 건드리지 않는다.
+ *
+ * 여러 단계 경로는 블로그에 실제로 그 깊이가 있는 최상위 세그먼트
+ * (`tools/<도구>`, `category/<슬러그>`)만 옮기고, 나머지는 원래대로 404 에
+ * 둔다 — 블로그에서도 404 일 URL 을 301 로 세탁할 이유가 없다.
+ *
+ * 목적지는 슬래시 없는 정본이라 블로그 쪽 슬래시 정규화를 한 번 더 타지 않는다
+ * (1홉). 쿼리스트링은 그대로 넘긴다.
+ */
+const HOME_UNDER_LOCALE = new Set(['index.html', 'affiliate'])
+const BLOG_NESTED = new Set(['tools', 'category'])
+/** 홈에 같은 이름의 로케일이 없는 블로그 언어 — 이 셋은 `/en` 자체도 블로그 홈. */
+const BLOG_ONLY_LANGS = new Set(['en', 'zh', 'pt-br'])
+
+export function blogStrayTarget(pathname) {
+  const m = /^\/([a-z]{2}(?:-[a-z]{2})?)(?:\/(.*))?$/.exec(pathname)
+  if (!m || !BLOG_LOCALES.has(m[1])) return null
+  const lang = m[1]
+  const parts = (m[2] ?? '').split('/').filter(Boolean)
+
+  if (parts.length === 0) return BLOG_ONLY_LANGS.has(lang) ? `/blog/${lang}` : null
+  if (HOME_UNDER_LOCALE.has(parts[0])) return null
+  if (parts.length === 1 || (parts.length === 2 && BLOG_NESTED.has(parts[0]))) {
+    return `/blog/${lang}/${parts.join('/')}`
+  }
+  return null
+}
+
 export default function middleware(request) {
   const url = new URL(request.url)
+
+  const stray = blogStrayTarget(url.pathname)
+  if (stray) {
+    return new Response(null, { status: 301, headers: { Location: stray + url.search } })
+  }
   const isBlogRoot = url.pathname === '/blog' || url.pathname === '/blog/'
   const affiliate = AFFILIATE.exec(url.pathname)
+  // 아래 언어 라우팅은 루트·블로그 루트·제휴 페이지 전용이다. 위 블로그 경로
+  // 때문에 matcher 가 넓어졌으니, 그 외 경로(`/ko/index.html` 등)는 여기서 놓아준다.
+  if (url.pathname !== '/' && !isBlogRoot && !affiliate) return next()
   // 언어 세그먼트가 붙은 제휴 페이지인가(= 라우팅 대상이 아님).
   const isLocalizedAffiliate = Boolean(affiliate && affiliate[1])
 
@@ -256,5 +303,15 @@ export default function middleware(request) {
  * 하려는 것 — 미들웨어가 vercel.json 보다 먼저 돌아 한 홉으로 끝난다.
  */
 export const config = {
-  matcher: ['/', '/blog', '/blog/', '/affiliate/', '/:locale/affiliate/'],
+  matcher: [
+    '/',
+    '/blog',
+    '/blog/',
+    '/affiliate/',
+    '/:locale/affiliate/',
+    // `/blog` 가 빠진 블로그 URL(blogStrayTarget). 언어 목록은 BLOG_LOCALES 와 같다.
+    '/:lang(en|zh|pt-br)',
+    '/:lang(en|zh|pt-br)/',
+    '/:lang(ko|en|ja|zh|zh-tw|es|pt-br|id|de|fr)/:path+',
+  ],
 }
