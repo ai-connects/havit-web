@@ -25,15 +25,19 @@ import { config } from '../middleware.js'
 
 /**
  * Vercel matcher 한 줄을 정규식으로. `/:name` 은 슬래시 없는 한 세그먼트다.
- * 우리가 쓰는 문법은 리터럴과 `/:name` 뿐이라 이 정도면 충분하다 — 더 복잡한
+ * 우리가 쓰는 문법은 리터럴, `/:name`, 리터럴 선택지 `/:name(a|b-c)`, 그리고
+ * 마지막 세그먼트의 `/:name+`(한 세그먼트 이상) 뿐이다 — 더 복잡한
  * 패턴(`(.*)`, `:name*`, `:name?`)이 들어오면 조용히 통과시키지 않고 멈춘다.
  */
 function matcherToRegExp(pattern) {
-  const source = pattern
-    .split('/')
-    .map((seg) => {
+  const segs = pattern.split('/')
+  const source = segs
+    .map((seg, i) => {
       if (!seg) return ''
       if (/^:[A-Za-z_]\w*$/.test(seg)) return '[^/]+'
+      const alt = /^:[A-Za-z_]\w*\(([a-z0-9-]+(?:\|[a-z0-9-]+)*)\)$/.exec(seg)
+      if (alt) return `(?:${alt[1]})`
+      if (/^:[A-Za-z_]\w*\+$/.test(seg) && i === segs.length - 1) return '[^/]+(?:/[^/]+)*'
       // 리터럴 세그먼트만 허용한다. `[abc]` 같은 게 들어오면 아래 escape 가
       // 문자클래스로 살아남아 **조용히 통과**한다 — 그래서 모양부터 막는다.
       if (/[^\w.\-~%]/.test(seg)) {
