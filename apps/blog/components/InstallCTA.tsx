@@ -3,7 +3,7 @@
 import { type LangKey, t } from '@/lib/i18n';
 import { asset } from '@/lib/site';
 import {
-  APP_STORE_URL, PLAY_STORE_URL, appLinkFor, destinationOf, storeOf, trackGaEvent, useMobileOS,
+  PLAY_STORE_URL, appLinkFor, appStoreUrlFor, destinationOf, storeOf, trackGaEvent, useMobileOS,
 } from '@/lib/download-links';
 
 interface Props {
@@ -65,7 +65,7 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
         <p className="install-cta__title">{t(lang, 'installCta')}</p>
         <p className="install-cta__sub">{t(lang, 'installCtaSub')}</p>
         <div className="install-cta__badges">
-          <a href={badgeHref('app_store', APP_STORE_URL)} onClick={onBadgeClick('app_store')} target="_blank" rel="noopener" className="install-cta__badge" aria-label="App Store">
+          <a href={badgeHref('app_store', appStoreUrlFor(lang))} onClick={onBadgeClick('app_store')} target="_blank" rel="noopener" className="install-cta__badge" aria-label="App Store">
             {/* 5~6KB 고정 크기 PNG 라 next/image 최적화 이득이 없다. */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={asset('/badge-appstore.png')} alt="Download on the App Store" width={168} height={56} />

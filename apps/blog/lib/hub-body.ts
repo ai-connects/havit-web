@@ -13,6 +13,8 @@
  *   - "**제목** 설명" 꼴 목록은 카드/스텝 컴포넌트로 승격시킨다.
  */
 
+import { emphasisSpans } from './emphasis';
+
 export type HubBlock =
   | { type: 'para'; text: string }
   | { type: 'image'; src: string; alt: string }
@@ -70,7 +72,23 @@ function boldLeadRatio(items: string[]): number {
  */
 export function splitParagraph(text: string): string[] {
   if (text.length <= TARGET_PARA) return [text];
-  const parts = text.split(/(?<=[다요]\.|[a-z0-9)][.!?])\s+(?=[가-힣A-Z“"(])/);
+  const rawParts = text.split(/(?<=[다요]\.|[a-z0-9)][.!?])\s+(?=[가-힣A-Z“"(])/);
+  if (rawParts.length < 2) return [text];
+  // 강조(`**…**`, `*…*`)가 여러 문장에 걸쳐 있으면 그 안에서는 자르지 않는다.
+  // 자르면 양쪽 조각 모두 별표가 짝을 잃어 화면에 그대로 찍힌다(en 원문에도 있던 노출).
+  // 강조가 없는 문단은 종전과 똑같이 나뉜다.
+  // 링크(`[글](/en/x)`)도 같다 — 링크 글자 안의 "vs." 에서 잘려 대괄호가 그대로 보였다.
+  const spans = emphasisSpans(text);
+  for (const m of text.matchAll(/\[[^\]]*\]\([^)\s]*\)/g)) spans.push([m.index ?? 0, (m.index ?? 0) + m[0].length]);
+  const parts: string[] = [];
+  let offset = 0;
+  for (const part of rawParts) {
+    const start = text.indexOf(part, offset);
+    const inside = spans.some(([s0, s1]) => s0 < start && start < s1);
+    if (inside && parts.length) parts[parts.length - 1] += text.slice(offset, start) + part;
+    else parts.push(part);
+    offset = start + part.length;
+  }
   if (parts.length < 2) return [text];
   const out: string[] = [];
   let buf = '';
@@ -192,7 +210,10 @@ function parseBlocks(lines: string[]): HubBlock[] {
     }
     const text = buf.join(' ').trim();
     // 통째로 이탤릭인 줄은 보조 캡션 — 본문과 같은 크기로 두면 리듬이 죽는다.
-    if (/^\*[^*].*\*$/.test(text)) out.push({ type: 'caption', text: text.replace(/^\*|\*$/g, '') });
+    // "첫 별표와 끝 별표가 서로 짝"일 때만 캡션이다. `*앞 문장。* **굵게** … *끝 문장。*` 처럼
+    // 별표로 시작·끝나기만 하는 문단을 캡션으로 보고 양끝만 벗기면 가운데 별표가 짝을 잃었다.
+    if (/^\*[^*].*\*$/.test(text) && emphasisSpans(text).some(([a, b]) => a === 0 && b === text.length))
+      out.push({ type: 'caption', text: text.replace(/^\*|\*$/g, '') });
     else for (const chunk of splitParagraph(text)) out.push({ type: 'para', text: chunk });
   }
   return out;

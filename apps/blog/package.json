@@ -5,7 +5,7 @@
   "description": "HAVIT Blog SEO prototype — Next.js 14 App Router. LOCKED PRD v0.3.0 기반.",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run check:tokens && next build",
+    "build": "npm run check:tokens && npm run check:brand && next build",
     "start": "next start",
     "lint": "next lint",
     "discover": "tsx scripts/discover-topics.ts",
@@ -14,7 +14,8 @@
     "queue:status": "cat data/queue-state.json | python3 -m json.tool | head -20",
     "commit:articles": "tsx scripts/auto-commit.ts",
     "pipeline:run": "npm run queue && npm run commit:articles",
-    "check:tokens": "node ../../packages/design/check.mjs"
+    "check:tokens": "node ../../packages/design/check.mjs",
+    "check:brand": "node ../../packages/brand/check.mjs --app blog"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.98.0",

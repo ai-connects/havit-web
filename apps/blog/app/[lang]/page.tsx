@@ -261,7 +261,8 @@ export default function BlogIndexPage({ params, searchParams }: Props) {
       {
         '@type': 'Organization',
         '@id': `${SITE}/#publisher`,
-        name: 'Havit Inc.',
+        name: 'HAVIT',
+        legalName: 'Havit Inc.',
         url: 'https://www.aihavit.com',
         logo: {
           '@type': 'ImageObject',
