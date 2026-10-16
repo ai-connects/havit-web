@@ -6,7 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { listArticlesForLang, getAllArticles, resolveContent, isLangIndexable } from '@/lib/articles-v2';
 import { localizedCategory } from '@/lib/category-labels';
-import { toFullLang } from '@/lib/i18n';
+import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { categorySlug } from '@/lib/categories';
 import { CategoryIcon } from '@/components/CategoryIcon';
 import FeaturedCarousel from '@/components/FeaturedCarousel';
@@ -144,8 +144,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: {
       canonical: url,
-      languages: Object.fromEntries(
-        ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}`]),
+      languages: toHreflangMap(
+        Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}`])),
       ),
     },
     openGraph: {
