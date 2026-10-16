@@ -9,6 +9,9 @@ import { localizedCategory } from '@/lib/category-labels';
 import { CategoryIcon } from '@/components/CategoryIcon';
 import { toFullLang } from '@/lib/i18n';
 import { parseHubBody, type HubBlock } from '@/lib/hub-body';
+import { remarkRepairEmphasis, renderEmphasis } from '@/lib/emphasis';
+import { resolveBlogLink } from '@/lib/internal-links';
+import { bodyDuplicatesTable } from '@/lib/comparison-table';
 import ArticleAuthorBlock from './ArticleAuthorBlock';
 import MedicalDisclaimer from './MedicalDisclaimer';
 import MedicalArticleJsonLd from './MedicalArticleJsonLd';
@@ -36,31 +39,85 @@ interface Props {
   fallback: boolean;
 }
 
+/* ko/ja/en 외 7개 언어(zh·zh-tw·es·pt-br·id·de·fr)는 예전엔 default(영어)로 떨어져
+   "Quick answer / Contents / Updated" 가 번역 본문 사이에 영어로 찍혔다.
+   표현은 ArticleView 의 같은 라벨(L)과 맞췄다 — 한 사이트에서 같은 개념을 두 말로 부르지 않게. */
 const L: Record<string, Record<string, string>> = {
-  back: { ko: '← 블로그 전체 보기', en: '← All articles', ja: '← 記事一覧', default: '← All articles' },
-  toc: { ko: '목차', en: 'Contents', ja: '目次', default: 'Contents' },
-  quick: { ko: '빠른 답변', en: 'Quick answer', ja: '結論', default: 'Quick answer' },
-  minRead: { ko: '분 분량', en: 'min read', ja: '分', default: 'min read' },
-  updated: { ko: '최종 수정', en: 'Updated', ja: '更新', default: 'Updated' },
-  faq: { ko: '자주 묻는 질문', en: 'Frequently asked questions', ja: 'よくある質問', default: 'FAQ' },
-  refs: { ko: '참고 자료', en: 'References', ja: '参考資料', default: 'References' },
-  related: { ko: '관련 글', en: 'Related articles', ja: '関連記事', default: 'Related articles' },
+  back: {
+    ko: '← 블로그 전체 보기', en: '← All articles', ja: '← 記事一覧', zh: '← 全部文章', 'zh-tw': '← 全部文章',
+    es: '← Todos los artículos', 'pt-br': '← Todos os artigos', id: '← Semua artikel', de: '← Alle Artikel',
+    fr: '← Tous les articles', default: '← All articles',
+  },
+  toc: {
+    ko: '목차', en: 'Contents', ja: '目次', zh: '目录', 'zh-tw': '目錄', es: 'Índice', 'pt-br': 'Índice',
+    id: 'Daftar isi', de: 'Inhalt', fr: 'Sommaire', default: 'Contents',
+  },
+  quick: {
+    ko: '빠른 답변', en: 'Quick answer', ja: '結論', zh: '简要回答', 'zh-tw': '簡要回答', es: 'Respuesta rápida',
+    'pt-br': 'Resposta rápida', id: 'Jawaban singkat', de: 'Kurz beantwortet', fr: 'Réponse rapide',
+    default: 'Quick answer',
+  },
+  minRead: {
+    ko: '분 분량', en: 'min read', ja: '分', zh: '分钟阅读', 'zh-tw': '分鐘閱讀', es: 'min de lectura',
+    'pt-br': 'min de leitura', id: 'menit baca', de: 'Min. Lesezeit', fr: 'min de lecture', default: 'min read',
+  },
+  updated: {
+    ko: '최종 수정', en: 'Updated', ja: '更新', zh: '更新于', 'zh-tw': '更新於', es: 'Actualizado',
+    'pt-br': 'Atualizado', id: 'Diperbarui', de: 'Aktualisiert', fr: 'Mis à jour', default: 'Updated',
+  },
+  faq: {
+    ko: '자주 묻는 질문', en: 'Frequently asked questions', ja: 'よくある質問', zh: '常见问题', 'zh-tw': '常見問題',
+    es: 'Preguntas frecuentes', 'pt-br': 'Perguntas frequentes', id: 'Pertanyaan umum', de: 'Häufige Fragen',
+    fr: 'Questions fréquentes', default: 'FAQ',
+  },
+  refs: {
+    ko: '참고 자료', en: 'References', ja: '参考資料', zh: '参考资料', 'zh-tw': '參考資料', es: 'Referencias',
+    'pt-br': 'Referências', id: 'Referensi', de: 'Quellen', fr: 'Références', default: 'References',
+  },
+  related: {
+    ko: '관련 글', en: 'Related articles', ja: '関連記事', zh: '相关文章', 'zh-tw': '相關文章',
+    es: 'Artículos relacionados', 'pt-br': 'Artigos relacionados', id: 'Artikel terkait', de: 'Ähnliche Artikel',
+    fr: 'Articles liés', default: 'Related articles',
+  },
   fallbackBanner: {
     ko: '이 글은 아직 한국어 번역본이 없어 영어 원문을 보여드립니다.',
     en: 'Showing the English original — no translation yet for this language.',
+    ja: 'この記事はまだ日本語版がないため、英語の原文を表示しています。',
+    zh: '本文暂无简体中文版，以下显示英文原文。',
+    'zh-tw': '本文尚無繁體中文版，以下顯示英文原文。',
+    es: 'Este artículo aún no está traducido al español; se muestra el original en inglés.',
+    'pt-br': 'Este artigo ainda não foi traduzido para o português; exibindo o original em inglês.',
+    id: 'Artikel ini belum diterjemahkan ke bahasa Indonesia; menampilkan versi asli bahasa Inggris.',
+    de: 'Dieser Artikel ist noch nicht auf Deutsch verfügbar – angezeigt wird das englische Original.',
+    fr: 'Cet article n’est pas encore traduit en français ; voici l’original en anglais.',
     default: 'Showing the English original — no translation yet for this language.',
   },
 };
 const t = (key: string, lang: string) => L[key]?.[lang] ?? L[key]?.default ?? key;
 
-/** 인라인 마크다운(링크·굵게)만 처리. 블록 요소는 파서가 이미 나눠놨다. */
-function Inline({ children }: { children: string }) {
+/**
+ * 인라인 마크다운(링크·굵게)만 처리. 블록 요소는 파서가 이미 나눠놨다.
+ *
+ * - remarkRepairEmphasis: CJK 구두점 뒤에서 닫히는 `**` 처럼 CommonMark 가 못 닫는 강조를 복구.
+ * - 블로그 내부 링크는 resolveBlogLink 로 현재 언어 경로로 바꾸고, 없는 글이면 링크를 걷는다.
+ * - singleTilde:false: `1~3일` 같은 범위 표기의 `~` 두 개가 취소선으로 그려지던 것을 막는다.
+ */
+function Inline({ children, lang, slug }: { children: string; lang: string; slug: string }) {
   return (
     <ReactMarkdown
-      remarkPlugins={[remarkGfm]}
+      remarkPlugins={[[remarkGfm, { singleTilde: false }], remarkRepairEmphasis]}
       components={{
         p: ({ children }) => <>{children}</>,
         a: ({ href, children }) => {
+          const r = resolveBlogLink(href, lang, slug);
+          if (r.kind === 'dead') return <>{children}</>;
+          if (r.kind === 'internal') {
+            return (
+              <Link href={r.path} className="hub-link">
+                {children}
+              </Link>
+            );
+          }
           const external = /^https?:\/\//.test(href ?? '');
           return external ? (
             <a href={href} target="_blank" rel="noopener noreferrer" className="hub-link">
@@ -114,19 +171,19 @@ function ComparisonTable({
             {table.rows.map((row, i) => (
               <tr key={i}>
                 {row.map((c, j) => (
-                  <td key={j}>{c}</td>
+                  <td key={j}>{renderEmphasis(c)}</td>
                 ))}
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-      {table.caption && <p className="hub-caption">{table.caption}</p>}
+      {table.caption && <p className="hub-caption">{renderEmphasis(table.caption)}</p>}
     </>
   );
 }
 
-function Block({ block }: { block: HubBlock }) {
+function Block({ block, lang, slug }: { block: HubBlock; lang: string; slug: string }) {
   switch (block.type) {
     /* 원고가 위치를 직접 지정한 사진. 자동 섹션 사진과 달리 표가 있는 섹션에도
        들어간다 — 앱을 하나씩 소개하는 글은 섹션마다 표가 있어서 자동 배치로는
@@ -156,32 +213,32 @@ function Block({ block }: { block: HubBlock }) {
     case 'heading':
       return block.level === 3 ? (
         <h3 className="hub-h3">
-          <Inline>{block.text}</Inline>
+          <Inline lang={lang} slug={slug}>{block.text}</Inline>
         </h3>
       ) : (
         <h4 className="hub-h4">
-          <Inline>{block.text}</Inline>
+          <Inline lang={lang} slug={slug}>{block.text}</Inline>
         </h4>
       );
 
     case 'para':
       return (
         <p className="hub-p">
-          <Inline>{block.text}</Inline>
+          <Inline lang={lang} slug={slug}>{block.text}</Inline>
         </p>
       );
 
     case 'caption':
       return (
         <p className="hub-caption">
-          <Inline>{block.text}</Inline>
+          <Inline lang={lang} slug={slug}>{block.text}</Inline>
         </p>
       );
 
     case 'quote':
       return (
         <blockquote className="hub-quote">
-          <Inline>{block.text}</Inline>
+          <Inline lang={lang} slug={slug}>{block.text}</Inline>
         </blockquote>
       );
 
@@ -190,7 +247,7 @@ function Block({ block }: { block: HubBlock }) {
         <ol className="hub-ol">
           {block.items.map((it, i) => (
             <li key={i}>
-              <Inline>{it}</Inline>
+              <Inline lang={lang} slug={slug}>{it}</Inline>
             </li>
           ))}
         </ol>
@@ -200,7 +257,7 @@ function Block({ block }: { block: HubBlock }) {
             <li key={i}>
               <span className="hub-bullet" aria-hidden />
               <span>
-                <Inline>{it}</Inline>
+                <Inline lang={lang} slug={slug}>{it}</Inline>
               </span>
             </li>
           ))}
@@ -216,12 +273,12 @@ function Block({ block }: { block: HubBlock }) {
               <div>
                 {it.title && (
                   <p className="hub-step__title">
-                    <Inline>{it.title}</Inline>
+                    <Inline lang={lang} slug={slug}>{it.title}</Inline>
                   </p>
                 )}
                 {it.body && (
                   <p className="hub-step__body">
-                    <Inline>{it.body}</Inline>
+                    <Inline lang={lang} slug={slug}>{it.body}</Inline>
                   </p>
                 )}
               </div>
@@ -237,12 +294,12 @@ function Block({ block }: { block: HubBlock }) {
             <div key={i} className="hub-card">
               {it.title && (
                 <p className="hub-card__title">
-                  <Inline>{it.title}</Inline>
+                  <Inline lang={lang} slug={slug}>{it.title}</Inline>
                 </p>
               )}
               {it.body && (
                 <p className="hub-card__body">
-                  <Inline>{it.body}</Inline>
+                  <Inline lang={lang} slug={slug}>{it.body}</Inline>
                 </p>
               )}
             </div>
@@ -263,7 +320,7 @@ function Block({ block }: { block: HubBlock }) {
                 <tr>
                   {block.headers.map((h, i) => (
                     <th key={i} scope="col">
-                      <Inline>{h}</Inline>
+                      <Inline lang={lang} slug={slug}>{h}</Inline>
                     </th>
                   ))}
                 </tr>
@@ -274,7 +331,7 @@ function Block({ block }: { block: HubBlock }) {
                 <tr key={i}>
                   {row.map((c, j) => (
                     <td key={j}>
-                      <Inline>{c}</Inline>
+                      <Inline lang={lang} slug={slug}>{c}</Inline>
                     </td>
                   ))}
                 </tr>
@@ -307,6 +364,11 @@ export default function HubArticleView({ article, content, shortLang, fallback }
   const tableSectionId = tableTitle
     ? (body.sections.find((s) => norm(s.title) === norm(tableTitle))?.id ?? null)
     : null;
+  /* 본문 마크다운에 같은 표(열 이름이 같은 표)가 이미 있으면 구조화 표는 그리지 않는다.
+     best-* 비교 글은 원고가 `## 비교` 섹션에 표+캡션을 직접 쓰고 같은 표를 comparison_table
+     에도 담아, 위 "섹션 안에서 그리기" 와 겹쳐 같은 표와 각주가 연달아 두 번 나왔다.
+     본문 쪽을 남긴다 — 소개 문장·캡션과 붙어 있고 셀 안 굵게/링크도 살아 있다. */
+  const showTable = !!content.comparison_table && !bodyDuplicatesTable(content.body_md, content.comparison_table);
   const related = getRelatedForLang(article, shortLang, 6);
   const references = Array.isArray(content.references) ? content.references : null;
   const hero = articleImage(article.slug, article.category);
@@ -367,7 +429,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
         {content.tldr && (
           <div className="hub-quick">
             <p className="hub-quick__label">{t('quick', shortLang)}</p>
-            <p className="hub-quick__text">{content.tldr}</p>
+            <p className="hub-quick__text">{renderEmphasis(content.tldr)}</p>
           </div>
         )}
       </header>
@@ -378,7 +440,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
           <div className="hub-toc__list">
             {body.sections.map((s) => (
               <a key={s.id} href={`#${s.id}`} className="hub-toc__link">
-                {s.title}
+                {renderEmphasis(s.title)}
               </a>
             ))}
           </div>
@@ -388,7 +450,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
       {body.lead.length > 0 && (
         <div className="hub-lead">
           {body.lead.map((b, i) => (
-            <Block key={i} block={b} />
+            <Block key={i} block={b} lang={shortLang} slug={article.slug} />
           ))}
         </div>
       )}
@@ -397,14 +459,14 @@ export default function HubArticleView({ article, content, shortLang, fallback }
         <section key={s.id} className="hub-section">
           <p className="eyebrow hub-section__n">{String(si + 1).padStart(2, '0')}</p>
           <h2 id={s.id} className="hub-h2">
-            {s.title}
+            {renderEmphasis(s.title)}
           </h2>
           {s.blocks.map((b, i) => (
-            <Block key={i} block={b} />
+            <Block key={i} block={b} lang={shortLang} slug={article.slug} />
           ))}
           {/* 제목이 같은 섹션이면 표를 여기서 그린다 — 제목 중복이 사라지고,
               표를 소개하는 문장 바로 아래에 표가 온다. */}
-          {tableSectionId === s.id && content.comparison_table && (
+          {tableSectionId === s.id && showTable && content.comparison_table && (
             <ComparisonTable table={content.comparison_table} withHeading={false} />
           )}
           {/* 섹션 사진은 히어로와도, 서로와도 겹치지 않게 미리 배정돼 있다
@@ -431,7 +493,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
       ))}
 
       {/* 짝이 되는 섹션이 없을 때만 독립 섹션으로. 있으면 위에서 이미 그렸다. */}
-      {content.comparison_table && !tableSectionId && (
+      {showTable && content.comparison_table && !tableSectionId && (
         <section className="hub-section">
           <ComparisonTable table={content.comparison_table} withHeading />
         </section>
@@ -451,7 +513,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
                     ▾
                   </span>
                 </summary>
-                <div className="hub-faq__answer">{q.answer}</div>
+                <div className="hub-faq__answer">{renderEmphasis(q.answer)}</div>
               </details>
             ))}
           </div>
@@ -484,7 +546,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
               }
               return (
                 <li key={i}>
-                  {text}
+                  {renderEmphasis(text)}
                   {url && (
                     <>
                       {' '}

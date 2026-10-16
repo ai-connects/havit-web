@@ -17,6 +17,9 @@ import MedicalArticleJsonLd from './MedicalArticleJsonLd';
 import FaqJsonLd from './FaqJsonLd';
 import BreadcrumbJsonLd from './BreadcrumbJsonLd';
 import AboutHavit from './AboutHavit';
+import { remarkRepairEmphasis } from '@/lib/emphasis';
+import { resolveBlogLink } from '@/lib/internal-links';
+import { bodyDuplicatesTable } from '@/lib/comparison-table';
 
 interface Props {
   article: ArticleV2;
@@ -115,7 +118,27 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
       <MedicalDisclaimer shortLang={shortLang} />
 
       <div className="prose prose-gray max-w-none prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-[24px] prose-h2:mt-12 prose-h2:mb-4 prose-h3:text-[18px] prose-p:leading-[1.7] prose-p:text-[var(--hv-fg-muted)] prose-li:text-[var(--hv-fg-muted)] prose-a:text-primary-700 prose-strong:text-[var(--hv-fg)]">
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{content.body_md}</ReactMarkdown>
+        {/* singleTilde:false — 원고의 `~` 는 범위 표기(1~3일, 1.2~1.6 克)다. 기본값이면 두 `~` 사이가
+            취소선(<del>)으로 그려졌다(main 기준 135페이지). 원고에 `~~` 취소선은 0건.
+            remarkRepairEmphasis: CJK 구두점 뒤에서 닫히는 `**`/`*` 복구(lib/emphasis.ts).
+            a: 블로그 내부 링크만 현재 언어·basePath 로 바로잡고, 없는 글이면 링크를 걷는다.
+            일반 <a> 라 basePath 를 직접 붙인 href 를 쓴다. 외부 링크는 종전 그대로. */}
+        <ReactMarkdown
+          remarkPlugins={[[remarkGfm, { singleTilde: false }], remarkRepairEmphasis]}
+          components={{
+            a: ({ href, children, node: _node, ...rest }) => {
+              const r = resolveBlogLink(href, shortLang, article.slug);
+              if (r.kind === 'dead') return <>{children}</>;
+              return (
+                <a {...rest} href={r.kind === 'internal' ? r.href : href}>
+                  {children}
+                </a>
+              );
+            },
+          }}
+        >
+          {content.body_md}
+        </ReactMarkdown>
       </div>
 
 
@@ -136,7 +159,8 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
         </section>
       )}
 
-      {content.comparison_table && (
+      {/* 본문에 같은 표가 이미 있으면 다시 그리지 않는다(lib/comparison-table.ts). */}
+      {content.comparison_table && !bodyDuplicatesTable(content.body_md, content.comparison_table) && (
         <section className="mt-12">
           <h2 className="text-title-xlarge mb-4">{content.comparison_table.title}</h2>
           <div className="overflow-x-auto -mx-4 md:mx-0 rounded-2xl border" style={{ borderColor: 'var(--hv-border)' }}>

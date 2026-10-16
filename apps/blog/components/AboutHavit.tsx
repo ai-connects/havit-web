@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import featureData from '@/data/havit-features.json';
 import { asset } from '@/lib/site';
+import { getArticleBySlug, resolveContent } from '@/lib/articles-v2';
 
 /**
  * "What is Havit?" — 본문 영역에 들어가는 엔티티 블록.
@@ -134,17 +135,19 @@ const COPY: Record<string, Copy> = {
 const REPORT_SLUG = 'glp-1-habit-report';
 
 /**
- * 그 글이 실제로 번역돼 있는 언어 (data/articles/glp-1-habit-report.json 의 langs).
+ * 그 글이 실제로 번역돼 있는 언어로 링크한다 — 리포트 아티클 데이터에서 직접 판정.
  *
  * 없는 언어로 링크하면 resolveContent 가 영어로 폴백하고 page.tsx 가 noindex 를
- * 박는다. 이 블록은 10,537 페이지 전부에 붙으므로, 그대로 두면 6개 언어에서
- * **사이트 전역 내부 링크가 색인도 안 되는 URL 로 향한다.** 번역이 없으면
- * 영어판으로 보낸다 — 적어도 색인되는 URL 이다.
+ * 박는다. 이 블록은 10,537 페이지 전부에 붙으므로, 그대로 두면 **사이트 전역 내부
+ * 링크가 색인도 안 되는 URL 로 향한다.** 번역이 없으면 영어판으로 보낸다.
+ *
+ * 예전엔 언어 목록을 손으로 적어 뒀다(en·ko·ja·zh-tw). 번역이 늘어도(de 는 이미 있었다)
+ * 링크가 계속 영어판으로 가서, 원고 유무를 데이터에서 읽도록 바꿨다.
  */
-const REPORT_LANGS = new Set(['en', 'ko', 'ja', 'zh-tw']);
-
 function reportHref(shortLang: string): string {
-  return `/${REPORT_LANGS.has(shortLang) ? shortLang : 'en'}/${REPORT_SLUG}`;
+  const report = getArticleBySlug(REPORT_SLUG);
+  const r = report ? resolveContent(report, shortLang) : null;
+  return `/${r && !r.fallback ? shortLang : 'en'}/${REPORT_SLUG}`;
 }
 
 interface FeatureMeta {

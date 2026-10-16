@@ -287,6 +287,58 @@ const UI_STRINGS: Record<string, Record<string, string>> = {
   },
 };
 
+/**
+ * 블로그가 서빙하는 나머지 7개 언어. 예전엔 위 3개 언어만 있어 zh·zh-tw·es·pt-br·id·de·fr
+ * 아티클 하단 설치 박스가 "Continue in the App / Personalized wellness with your own data"
+ * 로 영어였다. 렌더되는 키(설치 CTA·헤더)만 옮긴다 — 나머지 키는 화면에 쓰이지 않는다.
+ * 브랜드는 HAVIT 표기(docs/brand-glossary.md) — 이 문구들엔 브랜드명이 없다.
+ */
+const SERVED_UI_STRINGS: Record<string, Record<string, string>> = {
+  zh_cn: {
+    blog: '博客',
+    language: '语言',
+    installCta: '在 App 中继续',
+    installCtaSub: '用你自己的数据，获得个性化的健康管理',
+  },
+  zh_tw: {
+    blog: '部落格',
+    language: '語言',
+    installCta: '在 App 中繼續',
+    installCtaSub: '用你自己的數據，獲得個人化的健康管理',
+  },
+  es_es: {
+    blog: 'Blog',
+    language: 'Idioma',
+    installCta: 'Continúa en la app',
+    installCtaSub: 'Bienestar personalizado con tus propios datos',
+  },
+  pt_pt: {
+    blog: 'Blog',
+    language: 'Idioma',
+    installCta: 'Continue no app',
+    installCtaSub: 'Bem-estar personalizado com seus próprios dados',
+  },
+  id_id: {
+    blog: 'Blog',
+    language: 'Bahasa',
+    installCta: 'Lanjutkan di aplikasi',
+    installCtaSub: 'Kesehatan yang dipersonalisasi dengan data Anda sendiri',
+  },
+  de_de: {
+    blog: 'Blog',
+    language: 'Sprache',
+    installCta: 'In der App weitermachen',
+    installCtaSub: 'Personalisierte Gesundheit mit Ihren eigenen Daten',
+  },
+  fr_fr: {
+    blog: 'Blog',
+    language: 'Langue',
+    installCta: 'Continuer dans l’app',
+    installCtaSub: 'Un bien-être personnalisé grâce à vos propres données',
+  },
+};
+for (const [lang, strings] of Object.entries(SERVED_UI_STRINGS)) UI_STRINGS[lang] = strings;
+
 export function t(lang: LangKey, key: string): string {
   return UI_STRINGS[lang]?.[key] ?? UI_STRINGS.en_us[key] ?? key;
 }
