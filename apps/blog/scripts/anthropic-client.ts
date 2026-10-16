@@ -29,14 +29,18 @@ export interface CompletionOptions {
   system?: string;
   user: string;
   maxTokens?: number;
-  temperature?: number;
+  /** null omits the param (newer models reject `temperature`). */
+  temperature?: number | null;
+  /** Reasoning effort (output_config.effort); omitted when unset. 'low' keeps thinking from eating max_tokens on bulk JSON tasks. */
+  effort?: 'low' | 'medium' | 'high';
   cacheSystem?: boolean;
   /** Override the default Opus model (e.g. 'claude-sonnet-4-5' for cost). */
   model?: string;
 }
 
 export async function complete(opts: CompletionOptions): Promise<string> {
-  const { system, user, maxTokens = MAX_TOKENS, temperature = 0.7, cacheSystem = true, model = MODEL } = opts;
+  const { system, user, maxTokens = MAX_TOKENS, temperature = 0.7, cacheSystem = true, model = MODEL, effort } = opts;
+  const effortParam = effort ? ({ output_config: { effort } } as Record<string, unknown>) : {};
   const c = getClient();
 
   for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
@@ -59,7 +63,8 @@ export async function complete(opts: CompletionOptions): Promise<string> {
         const stream = c.messages.stream({
           model,
           max_tokens: maxTokens,
-          temperature,
+          ...(temperature != null ? { temperature } : {}),
+          ...effortParam,
           ...(systemBlocks ? { system: systemBlocks } : {}),
           messages: [{ role: 'user', content: user }],
         });
@@ -74,7 +79,8 @@ export async function complete(opts: CompletionOptions): Promise<string> {
       const response = await c.messages.create({
         model,
         max_tokens: maxTokens,
-        temperature,
+        ...(temperature != null ? { temperature } : {}),
+        ...effortParam,
         ...(systemBlocks ? { system: systemBlocks } : {}),
         messages: [{ role: 'user', content: user }],
       });

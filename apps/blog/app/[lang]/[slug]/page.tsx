@@ -79,7 +79,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!r) return { title: 'Not Found — HAVIT Blog' };
   const { content } = r;
   const fullDescription = content.meta_description ?? content.tldr ?? undefined;
-  const htmlDescription = truncateDescription(fullDescription);
+  const htmlDescription = content.short_description?.trim() || truncateDescription(fullDescription);
   // Prefer hand-tuned short_title (high-CTR pattern) when available;
   // otherwise auto-truncate the full title. No brand suffix — Google often
   // appends site name via og:site_name + Organization schema, and the extra
