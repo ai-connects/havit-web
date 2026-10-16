@@ -1,5 +1,49 @@
 {
   "_note": "승인 시 scripts/approve-pending-article.mjs 가 이 배정을 data/article-images.json(hero) 와 data/hub-section-images.json(sections) 에 옮긴다. 본문이 `![](...)` 로 직접 넣는 사진과 겹치지 않게 골랐다 — 같은 사진이 한 글에 두 번 나오는 걸 막는다. 섹션 사진 개수는 본문 h2 개수 이상이어야 한다.",
-  "hero": {},
-  "sections": {}
+  "hero": {
+    "best-macro-tracker-apps": "IMG_PRO_001.jpg",
+    "best-intermittent-fasting-apps": "IMG_MEAL_007.jpg",
+    "myfitnesspal-alternatives": "IMG_CAT_TRACK.jpg"
+  },
+  "sections": {
+    "best-macro-tracker-apps": [
+      "IMG_CAT_DIET.jpg",
+      "IMG_PRO_003.jpg",
+      "IMG_CAT_WT.jpg",
+      "IMG_PRO_005.jpg",
+      "IMG_CAT_TRACK.jpg",
+      "IMG_STR_001.jpg",
+      "IMG_CAT_EX.jpg",
+      "IMG_PRO_006.jpg",
+      "IMG_CAT_MED.jpg",
+      "IMG_CAT_LIFE.jpg",
+      "IMG_PRO_007.jpg"
+    ],
+    "best-intermittent-fasting-apps": [
+      "IMG_CAT_DIET.jpg",
+      "IMG_CAT_TRACK.jpg",
+      "IMG_SLEEP_001.jpg",
+      "IMG_CAT_WT.jpg",
+      "IMG_MEAL_008.jpg",
+      "IMG_CAT_MED.jpg",
+      "IMG_HYD_001.jpg",
+      "IMG_CAT_LIFE.jpg",
+      "IMG_CAT_MIND.jpg",
+      "IMG_PRO_008.jpg",
+      "IMG_CAT_PERSONAL.jpg"
+    ],
+    "myfitnesspal-alternatives": [
+      "IMG_CAT_DIET.jpg",
+      "IMG_CARB_006.jpg",
+      "IMG_CAT_WT.jpg",
+      "IMG_MEAL_006.jpg",
+      "IMG_CAT_MIND.jpg",
+      "IMG_CARB_007.jpg",
+      "IMG_CAT_LIFE.jpg",
+      "IMG_VEG_005.jpg",
+      "IMG_CAT_PERSONAL.jpg",
+      "IMG_CAT_EX.jpg",
+      "IMG_WT_002.jpg"
+    ]
+  }
 }
