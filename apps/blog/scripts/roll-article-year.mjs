@@ -45,7 +45,7 @@ if (!/^\d{4}$/.test(from ?? '') || !/^\d{4}$/.test(to ?? '')) {
   process.exit(1);
 }
 
-const FIELDS = ['title', 'short_title', 'meta_description', 'tldr', 'body_md'];
+const FIELDS = ['title', 'short_title', 'meta_description', 'short_description', 'tldr', 'body_md'];
 let total = 0;
 
 for (const slug of SLUGS) {

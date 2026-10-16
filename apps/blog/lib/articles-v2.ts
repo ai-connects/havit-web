@@ -43,6 +43,13 @@ export interface ArticleV2LangContent {
    */
   short_title?: string;
   meta_description?: string;
+  /**
+   * Optional SEO short description used only for HTML <meta name="description">.
+   * Should be ≤ ~155 chars. When absent, `meta_description` is auto-truncated,
+   * which for Latin-script langs often drops everything after the first sentence.
+   * og:description and JSON-LD always use the full `meta_description`.
+   */
+  short_description?: string;
   tldr?: string;
   body_md: string;
   key_stats?: Array<{ label: string; value: string; source?: string }>;
