@@ -44,10 +44,10 @@ function label(key: string, shortLang: string): string {
 export default function ArticleView({ article, content, shortLang, fallback }: Props) {
   const langKey = toFullLang(shortLang === 'zh' ? 'zh-cn' : shortLang);
   const references = Array.isArray(content.references) ? content.references : null;
-  // SEO — same-category sibling links (native-content only) so no article is an
-  // orphan. Reachability from related pages is a direct lever against
+  // SEO — topic-similar links (native-content only), spread so no article is an
+  // orphan (lib/related-articles.ts). Reachability from related pages is a direct lever against
   // "Crawled/Discovered — currently not indexed".
-  const related = getRelatedForLang(article, shortLang, 4);
+  const related = getRelatedForLang(article, shortLang, 6);
 
   return (
     <article className="post hv-container post__col">
@@ -230,7 +230,7 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
               <figure key={r.slug} className="article-card">
                 <Link href={`/${shortLang}/${r.slug}`} className="article-card__media" tabIndex={-1} aria-hidden>
                   <Image
-                    src={articleImage(r.slug, article.category)}
+                    src={articleImage(r.slug, r.category)}
                     alt=""
                     fill
                     sizes="(max-width: 960px) 100vw, 330px"

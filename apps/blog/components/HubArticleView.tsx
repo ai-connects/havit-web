@@ -307,7 +307,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
   const tableSectionId = tableTitle
     ? (body.sections.find((s) => norm(s.title) === norm(tableTitle))?.id ?? null)
     : null;
-  const related = getRelatedForLang(article, shortLang, 4);
+  const related = getRelatedForLang(article, shortLang, 6);
   const references = Array.isArray(content.references) ? content.references : null;
   const hero = articleImage(article.slug, article.category);
 
@@ -513,7 +513,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
                   aria-hidden
                 >
                   <Image
-                    src={articleImage(r.slug, article.category)}
+                    src={articleImage(r.slug, r.category)}
                     alt=""
                     fill
                     sizes="(max-width: 960px) 100vw, 330px"
