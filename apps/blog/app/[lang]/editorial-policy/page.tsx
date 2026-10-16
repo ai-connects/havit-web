@@ -33,7 +33,7 @@ export function generateStaticParams() {
 }
 
 const CONTACT_EMAIL = 'havit@aihavit.com';
-const PUBLISHER_NAME = 'Havit Inc.';
+const PUBLISHER_NAME = 'HAVIT Inc.';
 const PUBLISHER_URL = 'https://www.aihavit.com';
 const LAST_REVIEWED = '2026-05-25';
 
@@ -65,7 +65,7 @@ const POLICY_I18N: Record<RouteLang, PolicyI18n> = {
   en: {
     title: 'Editorial Policy',
     metaDescription:
-      'HAVIT Blog editorial policy: AI scope, human review workflow, reviewer credentials, corrections, and contact. Published by Havit Inc.',
+      'HAVIT Blog editorial policy: AI scope, human review workflow, reviewer credentials, corrections, and contact. Published by HAVIT Inc.',
     heading: 'Editorial Policy',
     lastReviewedLabel: 'Last reviewed',
     aiScopeHeading: 'How We Use AI',
@@ -122,7 +122,7 @@ const POLICY_I18N: Record<RouteLang, PolicyI18n> = {
   ja: {
     title: '編集ポリシー',
     metaDescription:
-      'HAVITブログ編集ポリシー: AI活用範囲、人間によるレビューワークフロー、レビュアー資格、訂正方針、お問い合わせ。発行: Havit Inc.',
+      'HAVITブログ編集ポリシー: AI活用範囲、人間によるレビューワークフロー、レビュアー資格、訂正方針、お問い合わせ。発行: HAVIT Inc.',
     heading: '編集ポリシー',
     lastReviewedLabel: '最終レビュー',
     aiScopeHeading: 'AIの活用範囲',
@@ -150,7 +150,7 @@ const POLICY_I18N: Record<RouteLang, PolicyI18n> = {
   zh: {
     title: '编辑政策',
     metaDescription:
-      'HAVIT 博客编辑政策: AI 使用范围、人工审核工作流、审核员资格、更正政策、联系方式。发行: Havit Inc.',
+      'HAVIT 博客编辑政策: AI 使用范围、人工审核工作流、审核员资格、更正政策、联系方式。发行: HAVIT Inc.',
     heading: '编辑政策',
     lastReviewedLabel: '最后审核',
     aiScopeHeading: 'AI 使用范围',
@@ -178,7 +178,7 @@ const POLICY_I18N: Record<RouteLang, PolicyI18n> = {
   'zh-tw': {
     title: '編輯政策',
     metaDescription:
-      'HAVIT 部落格編輯政策: AI 使用範圍、人工審核工作流程、審核員資格、更正政策、聯絡方式。發行: Havit Inc.',
+      'HAVIT 部落格編輯政策: AI 使用範圍、人工審核工作流程、審核員資格、更正政策、聯絡方式。發行: HAVIT Inc.',
     heading: '編輯政策',
     lastReviewedLabel: '最後審核',
     aiScopeHeading: 'AI 使用範圍',
@@ -206,7 +206,7 @@ const POLICY_I18N: Record<RouteLang, PolicyI18n> = {
   es: {
     title: 'Política Editorial',
     metaDescription:
-      'Política editorial de HAVIT Blog: alcance de IA, flujo de revisión humana, credenciales de revisores, política de correcciones y contacto. Publicado por Havit Inc.',
+      'Política editorial de HAVIT Blog: alcance de IA, flujo de revisión humana, credenciales de revisores, política de correcciones y contacto. Publicado por HAVIT Inc.',
     heading: 'Política Editorial',
     lastReviewedLabel: 'Última revisión',
     aiScopeHeading: 'Cómo Usamos IA',
@@ -235,7 +235,7 @@ const POLICY_I18N: Record<RouteLang, PolicyI18n> = {
   'pt-br': {
     title: 'Política Editorial',
     metaDescription:
-      'Política editorial do HAVIT Blog: escopo da IA, fluxo de revisão humana, credenciais dos revisores, política de correções e contato. Publicado pela Havit Inc.',
+      'Política editorial do HAVIT Blog: escopo da IA, fluxo de revisão humana, credenciais dos revisores, política de correções e contato. Publicado pela HAVIT Inc.',
     heading: 'Política Editorial',
     lastReviewedLabel: 'Última revisão',
     aiScopeHeading: 'Como Usamos IA',
@@ -264,7 +264,7 @@ const POLICY_I18N: Record<RouteLang, PolicyI18n> = {
   id: {
     title: 'Kebijakan Editorial',
     metaDescription:
-      'Kebijakan editorial HAVIT Blog: cakupan AI, alur tinjauan manusia, kredensial peninjau, kebijakan koreksi, dan kontak. Diterbitkan oleh Havit Inc.',
+      'Kebijakan editorial HAVIT Blog: cakupan AI, alur tinjauan manusia, kredensial peninjau, kebijakan koreksi, dan kontak. Diterbitkan oleh HAVIT Inc.',
     heading: 'Kebijakan Editorial',
     lastReviewedLabel: 'Terakhir ditinjau',
     aiScopeHeading: 'Cara Kami Menggunakan AI',
@@ -293,7 +293,7 @@ const POLICY_I18N: Record<RouteLang, PolicyI18n> = {
   de: {
     title: 'Redaktionsrichtlinie',
     metaDescription:
-      'HAVIT Blog Redaktionsrichtlinie: KI-Umfang, menschlicher Prüfprozess, Prüfer-Qualifikationen, Korrekturrichtlinie und Kontakt. Herausgegeben von Havit Inc.',
+      'HAVIT Blog Redaktionsrichtlinie: KI-Umfang, menschlicher Prüfprozess, Prüfer-Qualifikationen, Korrekturrichtlinie und Kontakt. Herausgegeben von HAVIT Inc.',
     heading: 'Redaktionsrichtlinie',
     lastReviewedLabel: 'Zuletzt geprüft',
     aiScopeHeading: 'Wie wir KI nutzen',
@@ -322,7 +322,7 @@ const POLICY_I18N: Record<RouteLang, PolicyI18n> = {
   fr: {
     title: 'Politique Éditoriale',
     metaDescription:
-      "Politique éditoriale du HAVIT Blog : portée de l'IA, processus de relecture humaine, qualifications des relecteurs, politique de corrections et contact. Publié par Havit Inc.",
+      "Politique éditoriale du HAVIT Blog : portée de l'IA, processus de relecture humaine, qualifications des relecteurs, politique de corrections et contact. Publié par HAVIT Inc.",
     heading: 'Politique Éditoriale',
     lastReviewedLabel: 'Dernière révision',
     aiScopeHeading: "Comment nous utilisons l'IA",

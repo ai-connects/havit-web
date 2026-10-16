@@ -175,7 +175,7 @@ export function renderSeoHead({ locale, dict, baseHtml, title, description, url,
     {
       '@type': 'Organization',
       '@id': `${SITE}/#organization`,
-      name: 'Havit Inc.',
+      name: 'HAVIT Inc.',
       url: SITE,
       logo: { '@type': 'ImageObject', url: `${SITE}/favicon-512.png`, width: 512, height: 512 },
       sameAs: [APP_STORE, PLAY_STORE, BLOG],

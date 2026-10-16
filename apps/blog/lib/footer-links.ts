@@ -154,7 +154,7 @@ export const FOOTER_LINK_GROUPS: FooterLinkGroup[] = [
     ],
   },
   {
-    // Competitor comparisons. The title carries "Havit vs <rival>" so the pair
+    // Competitor comparisons. The title carries "HAVIT vs <rival>" so the pair
     // is legible to generative engines, while the slug keeps the query people
     // actually search ("<rival> alternative") — swapping the slug would trade
     // real search demand for a term nobody looks up yet.

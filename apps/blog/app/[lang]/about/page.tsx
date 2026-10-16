@@ -27,7 +27,7 @@ export function generateStaticParams() {
 }
 
 const CONTACT_EMAIL = 'havit@aihavit.com';
-const PUBLISHER_NAME = 'Havit Inc.';
+const PUBLISHER_NAME = 'HAVIT Inc.';
 const PUBLISHER_URL = 'https://www.aihavit.com';
 
 interface AboutI18n {
@@ -48,11 +48,11 @@ const ABOUT_I18N: Record<RouteLang, AboutI18n> = {
   en: {
     title: 'About HAVIT Blog',
     metaDescription:
-      'HAVIT Blog is published by Havit Inc. We share AI-assisted, human-reviewed wellness research on habits, sleep, nutrition, and movement.',
+      'HAVIT Blog is published by HAVIT Inc. We share AI-assisted, human-reviewed wellness research on habits, sleep, nutrition, and movement.',
     heading: 'About HAVIT Blog',
     sectionPublisherHeading: 'Publisher',
     sectionPublisherBody:
-      'HAVIT Blog is published by Havit Inc., a Seoul-based company digitalizing premium metabolic health. Havit Inc. builds HAVIT — an AI-powered wellness companion that turns care once reserved for expensive equipment, specialist clinics, and dedicated coordinators into something anyone, anywhere can access through a smartphone. HAVIT Blog extends that mission into content. Havit Inc. is the sole legal entity responsible for everything published on this site.',
+      'HAVIT Blog is published by HAVIT Inc., a Seoul-based company digitalizing premium metabolic health. HAVIT Inc. builds HAVIT — an AI-powered wellness companion that turns care once reserved for expensive equipment, specialist clinics, and dedicated coordinators into something anyone, anywhere can access through a smartphone. HAVIT Blog extends that mission into content. HAVIT Inc. is the sole legal entity responsible for everything published on this site.',
     sectionMissionHeading: 'Our Mission',
     sectionMissionBody:
       'A healthy, vibrant life — for every single person in the world. We believe the clarity of information that used to require specialist clinics or paid consultations should be available to anyone with a smartphone. HAVIT Blog translates peer-reviewed research and clinical guidelines into actionable, multilingual content on habits, sleep, nutrition, hydration, and movement. Every article passes through AI-assisted research and human editorial review before publishing.',
@@ -82,11 +82,11 @@ const ABOUT_I18N: Record<RouteLang, AboutI18n> = {
   ja: {
     title: 'HAVITブログについて',
     metaDescription:
-      'HAVITブログはHavit Inc.が発行しています。AI支援リサーチと人間による編集レビューを経た、習慣・睡眠・栄養・運動に関するウェルネスコンテンツをお届けします。',
+      'HAVITブログはHAVIT Inc.が発行しています。AI支援リサーチと人間による編集レビューを経た、習慣・睡眠・栄養・運動に関するウェルネスコンテンツをお届けします。',
     heading: 'HAVITブログについて',
     sectionPublisherHeading: '発行元',
     sectionPublisherBody:
-      'HAVITブログはソウル拠点の Havit Inc. が発行しています。Havit Inc. は、高額な機器、専門クリニック、専属コーディネーターでしか受けられなかったプレミアム代謝(metabolic)ヘルスケアを、スマートフォン一つで世界中の誰もが利用できるようデジタル化する会社です。HAVITアプリがその中核製品であり、HAVITブログはそのミッションをコンテンツへと広げます。本サイトに掲載されるすべてのコンテンツの法的責任主体は Havit Inc. です。',
+      'HAVITブログはソウル拠点の HAVIT Inc. が発行しています。HAVIT Inc. は、高額な機器、専門クリニック、専属コーディネーターでしか受けられなかったプレミアム代謝(metabolic)ヘルスケアを、スマートフォン一つで世界中の誰もが利用できるようデジタル化する会社です。HAVITアプリがその中核製品であり、HAVITブログはそのミッションをコンテンツへと広げます。本サイトに掲載されるすべてのコンテンツの法的責任主体は HAVIT Inc. です。',
     sectionMissionHeading: 'ミッション',
     sectionMissionBody:
       '健やかで活力ある人生を — 世界中のすべての人へ。かつて専門クリニックや有料相談でしか得られなかったレベルの明確でエビデンスに基づく健康情報を、スマートフォンを持つ誰もが利用できるべきだと信じています。HAVITブログは査読付き研究と臨床ガイドラインを、習慣・睡眠・栄養・水分・運動に関する実行可能な多言語コンテンツへ変換します。すべての記事は公開前に AI 支援リサーチと人間による編集レビューを経ます。',
@@ -99,11 +99,11 @@ const ABOUT_I18N: Record<RouteLang, AboutI18n> = {
   zh: {
     title: '关于 HAVIT 博客',
     metaDescription:
-      'HAVIT 博客由 Havit Inc. 发行。我们分享经过 AI 辅助研究和人工编辑审核的习惯、睡眠、营养和运动相关健康内容。',
+      'HAVIT 博客由 HAVIT Inc. 发行。我们分享经过 AI 辅助研究和人工编辑审核的习惯、睡眠、营养和运动相关健康内容。',
     heading: '关于 HAVIT 博客',
     sectionPublisherHeading: '发行方',
     sectionPublisherBody:
-      'HAVIT 博客由首尔的 Havit Inc. 发布。Havit Inc. 是一家将高端代谢(metabolic)健康管理数字化的公司——把过去只有昂贵设备、专科诊所和专属协调员才能提供的护理，让全世界任何人都能通过一部智能手机享用。HAVIT 应用是其核心产品，HAVIT 博客将这一使命延伸到内容层面。本网站所有内容的法律责任主体为 Havit Inc.。',
+      'HAVIT 博客由首尔的 HAVIT Inc. 发布。HAVIT Inc. 是一家将高端代谢(metabolic)健康管理数字化的公司——把过去只有昂贵设备、专科诊所和专属协调员才能提供的护理，让全世界任何人都能通过一部智能手机享用。HAVIT 应用是其核心产品，HAVIT 博客将这一使命延伸到内容层面。本网站所有内容的法律责任主体为 HAVIT Inc.。',
     sectionMissionHeading: '我们的使命',
     sectionMissionBody:
       '健康、充满活力的生活——为世界上每一个人。我们相信，过去只能在专科诊所或付费咨询中才能获得的清晰、基于证据的健康信息，应该让每一位拥有智能手机的人都能获得。HAVIT 博客将同行评审研究和临床指南转化为可执行的多语言内容，涵盖习惯、睡眠、营养、水合和运动。每篇文章在发布前都经过 AI 辅助研究和人工编辑审核。',
@@ -116,11 +116,11 @@ const ABOUT_I18N: Record<RouteLang, AboutI18n> = {
   'zh-tw': {
     title: '關於 HAVIT 部落格',
     metaDescription:
-      'HAVIT 部落格由 Havit Inc. 發行。我們分享經過 AI 輔助研究和人工編輯審核的習慣、睡眠、營養和運動相關健康內容。',
+      'HAVIT 部落格由 HAVIT Inc. 發行。我們分享經過 AI 輔助研究和人工編輯審核的習慣、睡眠、營養和運動相關健康內容。',
     heading: '關於 HAVIT 部落格',
     sectionPublisherHeading: '發行方',
     sectionPublisherBody:
-      'HAVIT 部落格由首爾的 Havit Inc. 發布。Havit Inc. 是一家將高端代謝(metabolic)健康管理數位化的公司——將過去只有昂貴設備、專科診所和專屬協調員才能提供的照護，讓全世界任何人都能透過一部智慧型手機享用。HAVIT 應用是其核心產品，HAVIT 部落格將這一使命延伸到內容層面。本網站所有內容的法律責任主體為 Havit Inc.。',
+      'HAVIT 部落格由首爾的 HAVIT Inc. 發布。HAVIT Inc. 是一家將高端代謝(metabolic)健康管理數位化的公司——將過去只有昂貴設備、專科診所和專屬協調員才能提供的照護，讓全世界任何人都能透過一部智慧型手機享用。HAVIT 應用是其核心產品，HAVIT 部落格將這一使命延伸到內容層面。本網站所有內容的法律責任主體為 HAVIT Inc.。',
     sectionMissionHeading: '我們的使命',
     sectionMissionBody:
       '健康、充滿活力的生活——為世界上每一個人。我們相信，過去只能在專科診所或付費諮詢中才能獲得的清晰、基於實證的健康資訊，應該讓每一位擁有智慧型手機的人都能獲得。HAVIT 部落格將同儕審查研究和臨床指引轉化為可執行的多語言內容，涵蓋習慣、睡眠、營養、水合和運動。每篇文章在發布前都經過 AI 輔助研究和人工編輯審核。',
@@ -133,11 +133,11 @@ const ABOUT_I18N: Record<RouteLang, AboutI18n> = {
   es: {
     title: 'Acerca de HAVIT Blog',
     metaDescription:
-      'HAVIT Blog es publicado por Havit Inc. Compartimos investigación de bienestar asistida por IA y revisada por humanos sobre hábitos, sueño, nutrición y movimiento.',
+      'HAVIT Blog es publicado por HAVIT Inc. Compartimos investigación de bienestar asistida por IA y revisada por humanos sobre hábitos, sueño, nutrición y movimiento.',
     heading: 'Acerca de HAVIT Blog',
     sectionPublisherHeading: 'Editorial',
     sectionPublisherBody:
-      'HAVIT Blog es publicado por Havit Inc., una empresa con sede en Seúl que digitaliza la salud metabólica premium — el tipo de cuidado que antes solo era posible con equipos costosos, clínicas especializadas y coordinadores dedicados, ahora accesible para cualquier persona a través de un smartphone. HAVIT es su producto principal, y HAVIT Blog extiende esa misión al contenido. Havit Inc. es la única entidad legal responsable de todo lo publicado en este sitio.',
+      'HAVIT Blog es publicado por HAVIT Inc., una empresa con sede en Seúl que digitaliza la salud metabólica premium — el tipo de cuidado que antes solo era posible con equipos costosos, clínicas especializadas y coordinadores dedicados, ahora accesible para cualquier persona a través de un smartphone. HAVIT es su producto principal, y HAVIT Blog extiende esa misión al contenido. HAVIT Inc. es la única entidad legal responsable de todo lo publicado en este sitio.',
     sectionMissionHeading: 'Nuestra Misión',
     sectionMissionBody:
       'Una vida saludable y vibrante — para cada persona del mundo. Creemos que la claridad de información que antes requería clínicas especializadas o consultas pagas debería estar disponible para cualquiera con un smartphone. HAVIT Blog traduce investigaciones revisadas por pares y guías clínicas en contenido multilingüe y accionable sobre hábitos, sueño, nutrición, hidratación y movimiento. Cada artículo pasa por investigación asistida por IA y revisión editorial humana antes de su publicación.',
@@ -150,11 +150,11 @@ const ABOUT_I18N: Record<RouteLang, AboutI18n> = {
   'pt-br': {
     title: 'Sobre o HAVIT Blog',
     metaDescription:
-      'HAVIT Blog é publicado pela Havit Inc. Compartilhamos pesquisas de bem-estar assistidas por IA e revisadas por humanos sobre hábitos, sono, nutrição e movimento.',
+      'HAVIT Blog é publicado pela HAVIT Inc. Compartilhamos pesquisas de bem-estar assistidas por IA e revisadas por humanos sobre hábitos, sono, nutrição e movimento.',
     heading: 'Sobre o HAVIT Blog',
     sectionPublisherHeading: 'Publicador',
     sectionPublisherBody:
-      'O HAVIT Blog é publicado pela Havit Inc., uma empresa sediada em Seul que digitaliza a saúde metabólica premium — cuidados que antes só eram possíveis com equipamentos caros, clínicas especializadas e coordenadores dedicados, agora acessíveis a qualquer pessoa através de um smartphone. O HAVIT é o produto principal, e o HAVIT Blog estende essa missão ao conteúdo. A Havit Inc. é a única entidade legal responsável por tudo publicado neste site.',
+      'O HAVIT Blog é publicado pela HAVIT Inc., uma empresa sediada em Seul que digitaliza a saúde metabólica premium — cuidados que antes só eram possíveis com equipamentos caros, clínicas especializadas e coordenadores dedicados, agora acessíveis a qualquer pessoa através de um smartphone. O HAVIT é o produto principal, e o HAVIT Blog estende essa missão ao conteúdo. A HAVIT Inc. é a única entidade legal responsável por tudo publicado neste site.',
     sectionMissionHeading: 'Nossa Missão',
     sectionMissionBody:
       'Uma vida saudável e cheia de energia — para cada pessoa no mundo. Acreditamos que a clareza das informações que antes exigiam clínicas especializadas ou consultas pagas deve estar disponível para qualquer pessoa com um smartphone. O HAVIT Blog traduz pesquisas revisadas por pares e diretrizes clínicas em conteúdo multilíngue e acionável sobre hábitos, sono, nutrição, hidratação e movimento. Cada artigo passa por pesquisa assistida por IA e revisão editorial humana antes de ser publicado.',
@@ -167,11 +167,11 @@ const ABOUT_I18N: Record<RouteLang, AboutI18n> = {
   id: {
     title: 'Tentang HAVIT Blog',
     metaDescription:
-      'HAVIT Blog diterbitkan oleh Havit Inc. Kami berbagi riset kesehatan yang dibantu AI dan diperiksa manusia tentang kebiasaan, tidur, nutrisi, dan gerakan.',
+      'HAVIT Blog diterbitkan oleh HAVIT Inc. Kami berbagi riset kesehatan yang dibantu AI dan diperiksa manusia tentang kebiasaan, tidur, nutrisi, dan gerakan.',
     heading: 'Tentang HAVIT Blog',
     sectionPublisherHeading: 'Penerbit',
     sectionPublisherBody:
-      'HAVIT Blog diterbitkan oleh Havit Inc., perusahaan berbasis Seoul yang mendigitalkan kesehatan metabolik premium — perawatan yang dulu hanya mungkin dengan peralatan mahal, klinik spesialis, dan koordinator khusus, kini dapat diakses siapa saja melalui smartphone. HAVIT adalah produk utamanya, dan HAVIT Blog memperluas misi tersebut ke dalam konten. Havit Inc. adalah satu-satunya entitas hukum yang bertanggung jawab atas semua yang diterbitkan di situs ini.',
+      'HAVIT Blog diterbitkan oleh HAVIT Inc., perusahaan berbasis Seoul yang mendigitalkan kesehatan metabolik premium — perawatan yang dulu hanya mungkin dengan peralatan mahal, klinik spesialis, dan koordinator khusus, kini dapat diakses siapa saja melalui smartphone. HAVIT adalah produk utamanya, dan HAVIT Blog memperluas misi tersebut ke dalam konten. HAVIT Inc. adalah satu-satunya entitas hukum yang bertanggung jawab atas semua yang diterbitkan di situs ini.',
     sectionMissionHeading: 'Misi Kami',
     sectionMissionBody:
       'Hidup sehat dan penuh energi — untuk setiap orang di dunia. Kami percaya bahwa kejelasan informasi yang dulu hanya bisa didapat di klinik spesialis atau konsultasi berbayar harus tersedia untuk siapa saja yang memiliki smartphone. HAVIT Blog menerjemahkan riset yang telah ditinjau sejawat dan pedoman klinis menjadi konten multibahasa yang dapat dipraktikkan tentang kebiasaan, tidur, nutrisi, hidrasi, dan gerakan. Setiap artikel melalui riset yang dibantu AI dan tinjauan editorial manusia sebelum diterbitkan.',
@@ -184,11 +184,11 @@ const ABOUT_I18N: Record<RouteLang, AboutI18n> = {
   de: {
     title: 'Über HAVIT Blog',
     metaDescription:
-      'HAVIT Blog wird von Havit Inc. herausgegeben. Wir teilen KI-gestützte und von Menschen geprüfte Wellness-Forschung zu Gewohnheiten, Schlaf, Ernährung und Bewegung.',
+      'HAVIT Blog wird von HAVIT Inc. herausgegeben. Wir teilen KI-gestützte und von Menschen geprüfte Wellness-Forschung zu Gewohnheiten, Schlaf, Ernährung und Bewegung.',
     heading: 'Über HAVIT Blog',
     sectionPublisherHeading: 'Herausgeber',
     sectionPublisherBody:
-      'HAVIT Blog wird von Havit Inc. herausgegeben, einem in Seoul ansässigen Unternehmen, das Premium-Stoffwechselgesundheit digitalisiert — Versorgung, die früher teure Geräte, Spezialkliniken und persönliche Koordinatoren erforderte, ist nun für jeden über ein Smartphone zugänglich. HAVIT ist das Hauptprodukt, und der HAVIT Blog erweitert diese Mission auf Inhalte. Havit Inc. ist die alleinige juristische Person, die für alles auf dieser Website verantwortlich ist.',
+      'HAVIT Blog wird von HAVIT Inc. herausgegeben, einem in Seoul ansässigen Unternehmen, das Premium-Stoffwechselgesundheit digitalisiert — Versorgung, die früher teure Geräte, Spezialkliniken und persönliche Koordinatoren erforderte, ist nun für jeden über ein Smartphone zugänglich. HAVIT ist das Hauptprodukt, und der HAVIT Blog erweitert diese Mission auf Inhalte. HAVIT Inc. ist die alleinige juristische Person, die für alles auf dieser Website verantwortlich ist.',
     sectionMissionHeading: 'Unsere Mission',
     sectionMissionBody:
       'Ein gesundes, vitales Leben — für jeden Menschen auf der Welt. Wir glauben, dass die Klarheit von Informationen, die früher Spezialkliniken oder kostenpflichtige Beratungen erforderte, jedem mit einem Smartphone zur Verfügung stehen sollte. HAVIT Blog übersetzt peer-reviewed Forschung und klinische Leitlinien in handlungsorientierte, mehrsprachige Inhalte zu Gewohnheiten, Schlaf, Ernährung, Hydration und Bewegung. Jeder Artikel durchläuft vor der Veröffentlichung KI-gestützte Recherche und menschliche redaktionelle Prüfung.',
@@ -201,11 +201,11 @@ const ABOUT_I18N: Record<RouteLang, AboutI18n> = {
   fr: {
     title: 'À propos de HAVIT Blog',
     metaDescription:
-      'HAVIT Blog est publié par Havit Inc. Nous partageons des recherches sur le bien-être assistées par IA et révisées par des humains sur les habitudes, le sommeil, la nutrition et le mouvement.',
+      'HAVIT Blog est publié par HAVIT Inc. Nous partageons des recherches sur le bien-être assistées par IA et révisées par des humains sur les habitudes, le sommeil, la nutrition et le mouvement.',
     heading: 'À propos de HAVIT Blog',
     sectionPublisherHeading: 'Éditeur',
     sectionPublisherBody:
-      "HAVIT Blog est publié par Havit Inc., une société basée à Séoul qui numérise la santé métabolique premium — des soins qui n'étaient autrefois possibles qu'avec du matériel coûteux, des cliniques spécialisées et des coordinateurs dédiés, désormais accessibles à toute personne via un smartphone. HAVIT est le produit principal, et HAVIT Blog étend cette mission au contenu. Havit Inc. est la seule entité légale responsable de tout ce qui est publié sur ce site.",
+      "HAVIT Blog est publié par HAVIT Inc., une société basée à Séoul qui numérise la santé métabolique premium — des soins qui n'étaient autrefois possibles qu'avec du matériel coûteux, des cliniques spécialisées et des coordinateurs dédiés, désormais accessibles à toute personne via un smartphone. HAVIT est le produit principal, et HAVIT Blog étend cette mission au contenu. HAVIT Inc. est la seule entité légale responsable de tout ce qui est publié sur ce site.",
     sectionMissionHeading: 'Notre Mission',
     sectionMissionBody:
       "Une vie saine et pleine d'énergie — pour chaque personne dans le monde. Nous pensons que la clarté de l'information qui exigeait autrefois des cliniques spécialisées ou des consultations payantes devrait être disponible pour quiconque possède un smartphone. HAVIT Blog traduit la recherche évaluée par des pairs et les directives cliniques en contenu multilingue et actionnable sur les habitudes, le sommeil, la nutrition, l'hydratation et le mouvement. Chaque article passe par une recherche assistée par IA et une révision éditoriale humaine avant publication.",

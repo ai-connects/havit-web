@@ -11,8 +11,8 @@ import { SITE } from '@/lib/site';
  */
 
 /**
- * Verified official Havit Inc. properties (same legal entity).
- * aiconnects.me is deliberately absent: after the AI Connect → Havit Inc.
+ * Verified official HAVIT Inc. properties (same legal entity).
+ * aiconnects.me is deliberately absent: after the AI Connect → HAVIT Inc.
  * rename it redirects here, and sameAs must list live canonical profiles, not
  * URLs that bounce. The bare apex aihavit.com is absent for the same reason —
  * it 307s to www, so www is the one canonical form.
@@ -28,7 +28,7 @@ export const BRAND_SAME_AS: string[] = [
 export const PUBLISHER_ORG = {
   '@type': 'Organization' as const,
   '@id': `${SITE}/#publisher`,
-  name: 'Havit Inc.',
+  name: 'HAVIT Inc.',
   url: 'https://www.aihavit.com',
   logo: {
     '@type': 'ImageObject' as const,
