@@ -15,6 +15,7 @@ import { readdirSync, readFileSync, statSync } from 'fs';
 import path from 'path';
 import { INDEXABLE_ROUTE_LANGS } from './i18n';
 import mergedRedirects from './merged-redirects.json';
+import { assignRelated, computeNeighbors, type Neighbor } from './related-articles';
 
 /**
  * 중복 통합으로 301(next.config redirects)이 걸린 슬러그.
@@ -272,10 +273,28 @@ export function resolveContent(
   return null;
 }
 
+let _neighbors: Map<string, Neighbor[]> | null = null;
+let _relatedBySlug: Map<string, ArticleV2> | null = null;
+
+/** 주제 유사도 이웃(프로세스당 1회 계산) — lib/related-articles.ts 참조. */
+function relatedNeighbors(): Map<string, Neighbor[]> {
+  if (!_neighbors) _neighbors = computeNeighbors(loadAll());
+  return _neighbors;
+}
+
+function relatedBySlug(slug: string): ArticleV2 | undefined {
+  if (!_relatedBySlug) _relatedBySlug = new Map(loadAll().map((a) => [a.slug, a]));
+  return _relatedBySlug.get(slug);
+}
+
 export function getRelatedArticles(article: ArticleV2, limit = 4): ArticleV2[] {
-  return loadAll()
-    .filter((a) => a.slug !== article.slug && a.category === article.category)
-    .slice(0, limit);
+  const out: ArticleV2[] = [];
+  for (const n of relatedNeighbors().get(article.slug) ?? []) {
+    const a = relatedBySlug(n.slug);
+    if (a) out.push(a);
+    if (out.length >= limit) break;
+  }
+  return out;
 }
 
 // SEO staging — index priority languages first to escape "Crawled — currently
@@ -294,25 +313,47 @@ export function isLangIndexable(shortLang: string): boolean {
 export interface RelatedArticleLink {
   slug: string;
   title: string;
-  /** 아이콘이 카테고리로 결정되므로 함께 넘긴다(같은 카테고리 안이라 항상 동일). */
+  /** 아이콘이 카테고리로 결정되므로 함께 넘긴다(유사도 추천이라 현재 글과 다를 수 있음). */
   category: string;
   category_emoji?: string;
 }
 
+/** 언어(데이터 키)별 관련글 배정 캐시. limit 별로 따로 둔다. */
+const _relatedPlans = new Map<string, Map<string, string[]>>();
+
 /**
- * Same-category articles with NATIVE (non-fallback) content in `shortLang`,
- * excluding the current one. Powers in-article internal linking so every article
- * is reachable from its siblings — kills orphan pages and improves crawl depth,
- * a direct lever against "Crawled/Discovered — currently not indexed".
+ * 주제 유사도 기반 관련글 — `shortLang` 원고(폴백 아님)가 있는 글만, 현재 글 제외.
+ * 앞 칸은 유사도 상위, 뒤 칸은 유사도 후보 중 아직 인링크가 적은 글을 우선해
+ * 내부 링크가 소수 글에 몰리지 않게 한다(고아 페이지 해소 → "발견됨/크롤링됨 —
+ * 미색인" 대응). 결정론적 — 같은 데이터면 빌드마다 같은 결과.
+ * 알고리즘: lib/related-articles.ts.
  */
 export function getRelatedForLang(
   article: ArticleV2,
   shortLang: string,
-  limit = 4,
+  limit = 6,
 ): RelatedArticleLink[] {
+  const dataLang = SHORT_LANG_TO_DATA[shortLang.toLowerCase()] ?? 'en';
+  const key = `${dataLang}:${limit}`;
+  let plan = _relatedPlans.get(key);
+  if (!plan) {
+    const native = new Set<string>();
+    for (const a of loadAll()) {
+      const r = resolveContent(a, shortLang);
+      if (r && !r.fallback) native.add(a.slug);
+    }
+    plan = assignRelated(relatedNeighbors(), native, limit);
+    _relatedPlans.set(key, plan);
+  }
+  // 이 언어 원고가 없는 글(폴백 페이지)은 배정 대상이 아니므로 유사도 상위만 쓴다.
+  const slugs =
+    plan.get(article.slug) ??
+    (relatedNeighbors().get(article.slug) ?? []).map((n) => n.slug);
   const out: RelatedArticleLink[] = [];
-  for (const a of loadAll()) {
-    if (a.slug === article.slug || a.category !== article.category) continue;
+  for (const slug of slugs) {
+    if (slug === article.slug) continue;
+    const a = relatedBySlug(slug);
+    if (!a) continue;
     const r = resolveContent(a, shortLang);
     if (!r || r.fallback) continue;
     out.push({ slug: a.slug, title: r.content.title, category: a.category, category_emoji: a.category_emoji });
