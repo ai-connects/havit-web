@@ -141,6 +141,19 @@ export const FOOTER_LINK_GROUPS: FooterLinkGroup[] = [
     ],
   },
   {
+    // 「<분야> 앱 추천」 — 설치 직전의 검색("칼로리 계산 앱 추천")을 받는 글.
+    // 8개 전부는 블로그 메인의 고정 섹션(lib/app-guides.ts)이 맡고, 사이트 전역
+    // 푸터에는 검색량이 큰 넷만 둔다. 이 그룹은 원고 없는 언어에서 영어로 돌리지
+    // 않고 아예 뺀다 — Footer.tsx 의 STRICT_NATIVE_GROUPS.
+    key: 'appGuides',
+    slugs: [
+      'best-calorie-counter-apps',
+      'best-diet-apps',
+      'best-glp-1-tracker-apps',
+      'best-ai-health-coach-apps',
+    ],
+  },
+  {
     // Competitor comparisons. The title carries "Havit vs <rival>" so the pair
     // is legible to generative engines, while the slug keeps the query people
     // actually search ("<rival> alternative") — swapping the slug would trade

@@ -27,6 +27,7 @@ const FOOTER_GROUP_LABELS = {
   afterGlp1: { en: 'AFTER GLP-1', ko: '중단 후 유지', ja: '中止後の維持', 'zh-tw': '停藥後維持', 'zh-cn': '停药后维持', es: 'DESPUÉS DEL GLP-1', de: 'NACH GLP-1', fr: 'APRÈS LE GLP-1', pt: 'DEPOIS DO GLP-1', it: 'DOPO IL GLP-1', id: 'SETELAH GLP-1' },
   conditions: { en: 'FOR YOUR SITUATION', ko: '상황별 가이드', ja: '状況別ガイド', 'zh-tw': '依情況查看', 'zh-cn': '按情况查看', es: 'SEGÚN TU CASO', de: 'FÜR IHRE SITUATION', fr: 'SELON VOTRE CAS', pt: 'PARA O SEU CASO', it: 'IN BASE ALLA TUA SITUAZIONE', id: 'SESUAI KONDISI ANDA' },
   tracker: { en: 'TRACKING BY MEDICATION', ko: '약물별 기록', ja: '薬剤別の記録', 'zh-tw': '依藥物追蹤', 'zh-cn': '按药物追踪', es: 'SEGUIMIENTO POR MEDICAMENTO', de: 'TRACKING NACH MEDIKAMENT', fr: 'SUIVI PAR TRAITEMENT', pt: 'ACOMPANHAMENTO POR MEDICAMENTO', it: 'MONITORAGGIO PER FARMACO', id: 'PELACAKAN PER OBAT' },
+  appGuides: { en: 'BEST APPS', ko: '앱 추천', ja: 'おすすめアプリ', 'zh-tw': 'App 推薦', 'zh-cn': '应用推荐', es: 'MEJORES APPS', de: 'BESTE APPS', fr: 'MEILLEURES APPLIS', pt: 'MELHORES APPS', it: 'MIGLIORI APP', id: 'APLIKASI TERBAIK' },
   alternatives: { en: 'APP ALTERNATIVES', ko: '앱 대안 비교', ja: 'アプリの代替候補', 'zh-tw': '應用程式替代方案', 'zh-cn': '应用替代方案', es: 'ALTERNATIVAS DE APPS', de: 'APP-ALTERNATIVEN', fr: 'ALTERNATIVES AUX APPS', pt: 'ALTERNATIVAS DE APPS', it: 'ALTERNATIVE ALLE APP', id: 'ALTERNATIF APLIKASI' },
 }
 
