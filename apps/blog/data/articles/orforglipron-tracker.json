@@ -659,6 +659,731 @@
         }
       ],
       "last_updated": "2026-07-05"
+    },
+    "zh-CN": {
+      "title": "Orforglipron 记录工具：服用 GLP-1 口服药应记录什么（2026）",
+      "short_title": "Orforglipron 记录：GLP-1 口服药要记什么",
+      "meta_description": "orforglipron 记录工具可记录每日剂量、剂量递增阶段、体重趋势、蛋白质摄入和副作用。了解服用口服 GLP-1 药物 Foundayo 时应记录什么，以及为什么要记录。",
+      "short_description": "了解服用口服 GLP-1 药物 Foundayo 时，如何记录每日剂量、递增阶段、体重趋势、蛋白质和副作用，以及这样做的原因。",
+      "tldr": "orforglipron 记录工具可记录每日剂量、剂量递增阶段、体重趋势、蛋白质摄入和副作用。了解服用口服 GLP-1 药物 Foundayo 时应记录什么，以及为什么要记录。",
+      "body_md": "Orforglipron 以 **Foundayo** 之名销售，是 Eli Lilly 的口服**非肽类小分子 GLP-1 受体激动剂**——一种每日一次、用于体重管理的 GLP-1 *药片*，可以**随餐或空腹服用**，没有口服司美格鲁肽那样的禁食和饮水规定（[FDA/DailyMed 说明书](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)）。FDA 于 2026 年批准其用于患有肥胖症，或超重且至少有一种与体重相关疾病的成年人，需配合低热量饮食和增加运动（[FDA/DailyMed 说明书](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)）。和其他 GLP-1 药物一样，它需要数月才能慢慢见效，剂量按日程逐步递增——这正是特别值得认真记录的一类治疗。\n\n本指南介绍服用 orforglipron 时*记录什么*、每一项*为什么重要*，以及*如何*把它变成每天两分钟的例行习惯。内容中立，仅供教育参考：这一切用纸笔也能完成，应用只是把人们容易忘记的部分自动化。如果你想先了解整体框架，或者正在比较药片和注射剂，请先阅读我们的[GLP-1 记录应用完整指南](/en/glp-1-tracker-app)，再回来看 orforglipron 的具体细节。\n\n## 为什么口服 GLP-1 药片需要不同的记录方式\n\n如果你读过我们的 [Wegovy 记录](/zh/wegovy-tracker)或 Ozempic 指南，可以忘掉注射部位图——orforglipron 是**药片**，没有针头，也不需要记录轮换注射部位。另有三点使记录在这里格外有用：\n\n- **它是每日服用而非每周一次，漏服会悄悄累积。**每日一片意味着每月有 30 次可能出错的机会。漏打一次每周注射很显眼；而忙碌的一周里漏服几片却容易被忽略。每日打勾或连续打卡能让依从性变得看得见。\n- **剂量按日程递增。**Orforglipron 从低剂量开始，每次递增至少间隔 30 天。记录你当前服用的 mg 规格及其更换日期，可以让你与方案保持同步，也能让处方医生在每次就诊时看到清晰的历史。\n- **副作用集中出现在每次加量前后。**胃肠道症状在剂量增加后最常见，随着身体适应会逐渐缓解。只有结合递增日期的趋势，才能判断你的感受是正常适应还是危险信号。\n\n## 服用 orforglipron 应记录什么（以及每项为何重要）\n\n以下是 orforglipron 的核心记录项目。无论你用纸笔、电子表格还是应用，都可以把它当作清单。请注意，这里**没有注射部位一栏**——每日剂量和递增阶段取代了它的位置。\n\n### 每日剂量、服药时间与 orforglipron 递增方案\n\nOrforglipron 有意从低剂量开始并缓慢增加，以减少胃肠道副作用。根据 FDA 说明书，起始为每日一次 **0.8 mg**，随后每次间隔至少 30 天递增至 **2.5 mg**，再到 **5.5 mg**；如果需要更多减重且耐受良好，则可继续至 **9 mg、14.5 mg，或最高 17.2 mg**，每日一次（[FDA/DailyMed 说明书](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)；[Lilly 剂量信息](https://foundayo.lilly.com/hcp/dosage)）。由于规格按日程变化，记录**你服用的 mg 以及更换日期**是最有用的记录之一。每一步由你的处方医生决定，清晰的剂量记录能让沟通更快。\n\n与另一种 GLP-1 药片**口服司美格鲁肽（Rybelsus）**相比，最大的实际优势是 orforglipron **没有禁食或饮水量规定**：每日一次，一片，可随餐或空腹，整片吞服（[FDA 说明书](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)）。相比之下，Rybelsus 必须在早晨空腹服用，饮用不超过 4 oz 的白开水，并至少等待 30 分钟后才能进食、饮水或服用其他药片（[Rybelsus FDA 说明书](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98)）。正因这种自由度，一个简单的每日记录才如此有效——唯一需要守住的就是每日习惯。\n\n**漏服规则（值得弄清楚）。**由于 orforglipron 是每日药片，规则与每周注射药物不同。根据 FDA 说明书：如果漏服一次，请尽快补服，但**不要在下一次服药时加倍**；如果**连续漏服 7 次或更多**，处方医生可能会让你从较低剂量重新开始，以减少胃肠道副作用（[FDA 说明书](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)）。能显示每日连续打卡的记录工具，可以让你一眼看清，而不必靠猜。\n\n### 体重、围度与进展照片\n\n对于 **orforglipron 减重记录**来说，体重是最醒目的数字，但每天的波动很大。请在相同时间称重（通常是早晨、如厕后、进食前），并让趋势线——而不是单次读数——来说明问题。在 3 期 **ATTAIN-1** 试验（72 周，无糖尿病的肥胖成年人）中，最高剂量组平均减重约 **11%**，而安慰剂组约为 2%，且该剂量组中约 **55% 的人减掉了至少 10%** 的体重（[NEJM, 2025](https://doi.org/10.1056/NEJMoa2511774)；[ClinicalTrials.gov NCT05869903](https://clinicaltrials.gov/study/NCT05869903)）。这很有意义——不过通常**低于**注射用司美格鲁肽和替尔泊肽主要试验中约 **15–21%** 的结果，许多人为了无需针头的药片而接受这种取舍（注射剂的数据请见我们的[司美格鲁肽与替尔泊肽对比指南](/en/semaglutide-vs-tirzepatide)）。平台期很常见，也有医学上的解释；腰围测量和**每 2–4 周拍照**可以捕捉到体重秤看不出的身体成分变化。\n\n### 蛋白质、饮食与保护肌肉\n\n这是任何 GLP-1 旅程中最容易被低估的部分。由于 orforglipron 会明显降低食欲，减掉的体重中有相当一部分可能是**去脂体重**——对 GLP-1 试验的综述显示，平均约占减重的 **20–30%**，不同研究之间差异很大（且去脂体重包括水分和器官组织，而不仅是骨骼肌）（[*IJMS* 综述，2025](https://doi.org/10.3390/ijms262412130)）。肌肉能保护你的代谢和长期效果。两个可记录的习惯最为关键：\n\n1. **蛋白质。**每餐设定一个蛋白质目标。食欲下降时，蛋白质通常最先减少——记录它能让你时刻留意。\n2. **抗阻训练。**力量训练是服用 GLP-1 期间对抗肌肉流失最有力的手段；请像记录剂量一样记录训练。\n\n### 副作用——正常反应还是危险信号\n\nOrforglipron 最常见的副作用是胃肠道反应——在最高剂量下，**恶心（约 35%）、腹泻（约 25%）、便秘（约 24%）和呕吐（约 24%）**，此外还有消化不良、腹痛、头痛和疲劳（[FDA 说明书](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)）。这些症状通常在剂量递增后出现或加重，并随身体适应而缓解。Orforglipron 还带有**甲状腺 C 细胞肿瘤的黑框警告**，对本人或家族有甲状腺髓样癌或 MEN 2 病史的人禁用（[FDA 说明书](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)）。胰腺炎和胆囊疾病等罕见但严重的风险需要及时就医评估。记录**你的感受、严重程度，以及距上次加量已过几天**，可以把含糊的“我感觉不对劲”变成清晰的规律。关于逐项症状的完整说明，请参阅我们的 [GLP-1 副作用指南](/en/glp-1-side-effects)。\n\n## 如何用 6 个步骤建立 orforglipron 记录习惯\n\n你不需要复杂的系统——你需要的是可重复的系统。每天只需几秒钟，外加每周一次的快速回顾。\n\n1. **设置每日服药提醒。**选一个固定时间并设置重复提醒，避免漏服悄悄发生。\n2. **服药后立即打卡。**一键“已服用”可建立可见的连续记录——这是预测效果的最佳单一指标。\n3. **记录每次递增。**当处方医生为你加量时（2.5 → 5.5 → 9 → 14.5 → 17.2 mg），记录新的 mg 和日期。\n4. **在固定日期称重。**每周选择 1–3 个早晨，条件相同，看趋势——而不是每天的波动。\n5. **每天记录蛋白质和饮水，出现副作用时随时记录。**记下症状、严重程度和距上次加量的天数。\n6. **每 2–4 周拍照，并在每次就诊前回顾。**光线相同、角度相同——并把剂量记录和副作用时间线带给你的临床医生。\n\n## 需要 orforglipron 应用，还是笔记本就够了？\n\n坦率地说，任何记录都胜过不记录——笔记本上的 **orforglipron 日记**同样有用。应用的价值在于把人们容易忘记的部分自动化：每日提醒、依从性连续记录、递增阶段历史、能平滑每日体重波动的趋势线，以及可以交给临床医生的副作用时间线。Orforglipron 并不附带专属的配套应用，因此大多数人使用通用的 GLP-1 或健康记录工具。如果你希望把剂量记录与保护成果的日常习惯——蛋白质、运动、饮水、体重和身体成分趋势——放在一起，像 [HAVIT](https://www.aihavit.com) 这样的健康应用是很自然的选择。你可以在我们的[最佳 GLP-1 记录应用指南](/en/glp-1-tracker-app)中比较几种选择，挑一个你真正会坚持使用的；坚持比品牌重要得多。\n\n## 相关指南\n\n- [Wegovy 记录：每周注射应记录什么](/zh/wegovy-tracker)\n- [Ozempic 记录：使用 Ozempic 应记录什么及如何记录](/zh/ozempic-tracker)\n- [GLP-1 副作用：恶心、胃肠道症状与危险信号](/en/glp-1-side-effects)\n- [GLP-1 记录应用完整指南](/en/glp-1-tracker-app)\n\n## 为什么选择 HAVIT——药物管理与行为改变，一个应用搞定\n\nGLP-1 药物可以显著减轻体重——但体重秤上的数字只是故事的一部分。GLP-1 治疗中减掉的体重有相当一部分可能来自瘦组织而非脂肪——不同研究的估计范围从约 15% 或更低到 40–60%（[Neeland 等，*Diabetes, Obesity and Metabolism*，2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)），而且停药后，除非有新的习惯接替，效果往往会逐渐消退。这就是主流指南把药物视为照护的一部分而非全部的原因：美国预防服务工作组（U.S. Preventive Services Task Force）建议为肥胖成年人提供强化的、多组分的行为干预（[USPSTF，B 级](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)）。\n\nHAVIT 正是为此时刻而设计——一个应用整合了用药记录、身体成分、营养与蛋白质、日常习惯养成，以及能够适应你的 AI 教练。在我们自己的 1,090 名 GLP-1 用户中，记录最稳定的人养成了最牢固的习惯（[查看 GLP-1 习惯报告](/en/glp-1-habit-report)）。\n\n药物与肌肉，一并管理。[从 HAVIT 开始 →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "服用 orforglipron 应记录什么（以及每项为何重要）",
+        "headers": [
+          "记录内容",
+          "为什么重要",
+          "记录频率"
+        ],
+        "rows": [
+          [
+            "每日是否服药（是/否）+ 时间",
+            "这是每日一次的药片——每日依从性就是关键，连续打卡视图能快速发现漏服",
+            "每天"
+          ],
+          [
+            "当前递增阶段（mg）",
+            "剂量每隔 ≥30 天上调一次（0.8 → 最高 17.2 mg）；记录你所处的阶段，能让你和处方医生保持一致",
+            "每次加量时"
+          ],
+          [
+            "体重",
+            "主要结局指标；趋势而非单日数据才能揭示平台期和代谢适应",
+            "每周 1–3 次，每天同一时间"
+          ],
+          [
+            "腰围/围度",
+            "能发现体重秤错过的脂肪减少，尤其是在保留肌肉的同时",
+            "每 1–2 周"
+          ],
+          [
+            "蛋白质摄入量（克）",
+            "保护去脂肌肉量，快速减重期间肌肉有流失风险",
+            "每天"
+          ],
+          [
+            "水/饮水量",
+            "缓解早期以及每次加量时常见的便秘和恶心",
+            "每天"
+          ],
+          [
+            "副作用与严重程度",
+            "区分正常适应（加量后最明显）与危险信号症状",
+            "出现时"
+          ],
+          [
+            "进展照片",
+            "体重秤停滞时，身体成分变化的直观证据",
+            "每 2–4 周"
+          ],
+          [
+            "续药/药片库存",
+            "每日药片会在可预测的日期用完；避免出现断药",
+            "每月"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "什么是 orforglipron 记录工具？",
+          "answer": "它是任何能记录 orforglipron（Foundayo）治疗关键内容的工具——应用、电子表格或笔记本均可：你的每日剂量和服药时间、当前递增阶段（mg）、体重、蛋白质、饮水、副作用和进展照片。它能把这些转化为提醒、依从性连续记录和可与医生分享的趋势图表。"
+        },
+        {
+          "question": "服用 orforglipron 应该记录什么？",
+          "answer": "至少包括：是否服用每日药片及服药时间、当前 mg 阶段、体重、蛋白质摄入、饮水和副作用，以及定期的围度测量或照片。由于它是每日药片，简单的依从性连续记录是最有价值的单项记录。"
+        },
+        {
+          "question": "我应该记录的 orforglipron 剂量方案是什么？",
+          "answer": "根据 FDA 说明书，orforglipron 起始剂量为每日一次 0.8 mg，随后每次间隔至少 30 天递增至 2.5 mg，再到 5.5 mg；如有需要且耐受良好，可继续至 9 mg、14.5 mg，或最高 17.2 mg。请记录你服用的 mg 以及更换日期。"
+        },
+        {
+          "question": "如果漏服一次 orforglipron 会怎样？",
+          "answer": "根据 FDA 说明书，请尽快补服漏服的剂量，不要在下一次服药时加倍。如果连续漏服 7 次或更多，处方医生可能会让你从较低剂量重新开始。请始终遵循你自己的说明书和处方医生的指导。"
+        },
+        {
+          "question": "服用 orforglipron 需要记录注射部位吗？",
+          "answer": "不需要。Orforglipron 是口服药片，不是注射剂，因此没有需要记录的注射部位或部位轮换——这是它与 Wegovy 或 Ozempic 的一个关键区别。你的每日剂量打卡和递增阶段取代了记录工具中的注射部位图。"
+        },
+        {
+          "question": "orforglipron 像 Rybelsus 一样需要考虑进食或饮水吗？",
+          "answer": "不需要。Orforglipron 每日一次，可随餐或空腹，整片吞服。这与另一种 GLP-1 药片 Rybelsus 不同，后者要求空腹、饮水不超过 4 oz，并在进食前等待 30 分钟。"
+        },
+        {
+          "question": "orforglipron 能帮助减多少体重？",
+          "answer": "在为期 72 周的 ATTAIN-1 试验中，使用最高剂量的成年人平均减重约 11%（安慰剂组约为 2%），约 55% 的人减掉了至少 10%。这通常低于注射用司美格鲁肽和替尔泊肽约 15–21% 的结果，一些人为了无需针头的每日药片而接受这种取舍。"
+        },
+        {
+          "question": "orforglipron 在韩国、日本或台湾可以买到吗？",
+          "answer": "目前还不能。截至 2026 年 7 月，orforglipron（Foundayo）仅在美国获得 FDA 批准并上市；尚未获得韩国 MFDS、日本 PMDA 或台湾 TFDA 的批准。美国以外地区的批准时间表仍未确定——请向当地监管机构查询。"
+        }
+      ],
+      "references": [
+        {
+          "title": "FOUNDAYO (orforglipron) tablets — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62"
+        },
+        {
+          "title": "Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist for Obesity Treatment (ATTAIN-1)",
+          "source": "New England Journal of Medicine, 2025",
+          "url": "https://doi.org/10.1056/NEJMoa2511774"
+        },
+        {
+          "title": "Orforglipron, an oral small-molecule GLP-1 receptor agonist, for the treatment of obesity in people with type 2 diabetes (ATTAIN-2): a phase 3, double-blind, randomised, multicentre, placebo-controlled trial",
+          "source": "The Lancet, 2025",
+          "url": "https://doi.org/10.1016/S0140-6736(25)02165-8"
+        },
+        {
+          "title": "RYBELSUS and OZEMPIC (oral semaglutide) tablets — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98"
+        },
+        {
+          "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+          "source": "New England Journal of Medicine, 2021",
+          "url": "https://doi.org/10.1056/NEJMoa2032183"
+        },
+        {
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2022",
+          "url": "https://doi.org/10.1056/NEJMoa2206038"
+        },
+        {
+          "title": "The Influence of Glucagon-like Peptide-1 Receptor Agonists and Other Incretin Hormone Agonists on Body Composition",
+          "source": "International Journal of Molecular Sciences, 2025",
+          "url": "https://doi.org/10.3390/ijms262412130"
+        },
+        {
+          "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies",
+          "source": "Diabetes, Obesity and Metabolism, 2024",
+          "url": "https://doi.org/10.1111/dom.15728"
+        },
+        {
+          "title": "GLP-1 agonists and exercise: the future of lifestyle prioritization",
+          "source": "Frontiers in Clinical Diabetes and Healthcare, 2025",
+          "url": "https://doi.org/10.3389/fcdhc.2025.1720794"
+        }
+      ],
+      "last_updated": "2026-07-05"
+    },
+    "es": {
+      "title": "Registro de orforglipron: qué anotar con la píldora GLP-1 (2026)",
+      "short_title": "Registro de orforglipron: qué anotar en Foundayo",
+      "meta_description": "Un registro de orforglipron anota su dosis diaria, paso de titulación, tendencia de peso, proteína y efectos secundarios. Qué registrar con Foundayo, la píldora oral GLP-1, y por qué.",
+      "short_description": "Qué anotar con orforglipron (Foundayo): dosis diaria, paso de titulación, peso, proteína y efectos secundarios, y por qué cada dato importa.",
+      "tldr": "Un registro de orforglipron anota su dosis diaria, paso de titulación, tendencia de peso, proteína y efectos secundarios. Qué registrar con Foundayo, la píldora oral GLP-1, y por qué.",
+      "body_md": "Orforglipron, comercializado como **Foundayo**, es el **agonista oral del receptor de GLP-1, no peptídico y de molécula pequeña** de Eli Lilly: una *píldora* GLP-1 de toma diaria para el control del peso que puede tomarse **con o sin alimentos**, sin las reglas de ayuno y de agua que se aplican a la semaglutida oral ([etiqueta FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). La FDA lo aprobó en 2026 para adultos con obesidad, o con sobrepeso y al menos una afección relacionada con el peso, junto con una dieta reducida en calorías y más actividad física ([etiqueta FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Como otros GLP-1, actúa lentamente a lo largo de meses con una dosis que aumenta según un calendario, lo que lo convierte justo en el tipo de tratamiento que se beneficia de llevar buenos registros.\n\nEsta guía explica *qué* registrar con orforglipron, *por qué* importa cada elemento y *cómo* convertirlo en una rutina diaria de dos minutos. Es neutral y educativa: todo se puede hacer en papel. Una app solo automatiza lo que la gente suele olvidar. Si prefiere ver primero el marco general, o si está comparando la píldora con las inyecciones, comience con nuestra [guía completa de apps de registro de GLP-1](/en/glp-1-tracker-app) y luego regrese para los detalles específicos de orforglipron.\n\n## Por qué una píldora GLP-1 oral requiere otro tipo de registro\n\nSi ha leído nuestras guías de [registro de Wegovy](/es/wegovy-tracker) u Ozempic, olvide el mapa de sitios de inyección: orforglipron es una **píldora**, así que no hay aguja ni rotación de sitios que anotar. Otras tres razones hacen que el registro sea realmente útil aquí:\n\n- **Es diaria, no semanal, así que las omisiones se acumulan sin notarse.** Una píldora de toma diaria significa 30 oportunidades al mes de olvidarla. Una sola inyección semanal omitida es evidente; un par de píldoras omitidas se esconden en una semana ocupada. Una casilla diaria o una racha convierte la adherencia en algo que realmente puede ver.\n- **La dosis aumenta según un calendario.** Orforglipron comienza con una dosis baja y sube en intervalos de al menos 30 días. Anotar qué concentración en mg toma y cuándo cambió lo mantiene alineado con el plan y le da a su médico prescriptor un historial claro en cada consulta.\n- **Los efectos secundarios se concentran alrededor de cada aumento.** Los síntomas gastrointestinales son más frecuentes justo después de aumentar la dosis y se calman a medida que su cuerpo se adapta. Solo una tendencia, vinculada a la fecha de titulación, le indica si lo que siente es una adaptación normal o una señal de alarma.\n\n## Qué registrar con orforglipron (y por qué importa cada elemento)\n\nEste es el conjunto básico de datos de orforglipron. Úselo como lista de verificación, ya sea que registre en papel, en una hoja de cálculo o en una app. Observe que **no hay fila de sitio de inyección**: las filas de dosis diaria y paso de titulación ocupan su lugar.\n\n### Dosis diaria, horario y calendario de titulación de orforglipron\n\nOrforglipron se inicia deliberadamente con una dosis baja y se aumenta despacio para reducir los efectos secundarios gastrointestinales. Según la etiqueta de la FDA, el esquema es **0.8 mg** una vez al día para comenzar, luego aumentos con al menos 30 días de diferencia a **2.5 mg**, después **5.5 mg** y, si se necesita más pérdida de peso y se tolera, **9 mg, 14.5 mg o un máximo de 17.2 mg** una vez al día ([etiqueta FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62); [dosificación de Lilly](https://foundayo.lilly.com/hcp/dosage)). Como la concentración cambia según un calendario, anotar **cuántos mg toma y la fecha en que cambió** es uno de los datos más útiles que puede registrar. Su médico decide cada paso, y un registro de dosis claro hace esa conversación más rápida.\n\nLa mayor ventaja práctica frente a la otra píldora GLP-1, la **semaglutida oral (Rybelsus)**, es que orforglipron **no tiene reglas de ayuno ni de volumen de agua**: se toma una tableta una vez al día, con o sin alimentos, y se traga entera ([etiqueta FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Rybelsus, en cambio, debe tomarse por la mañana con el estómago vacío, con no más de 4 oz de agua sola, y esperando al menos 30 minutos antes de consumir alimentos, bebidas u otras píldoras ([etiqueta FDA de Rybelsus](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98)). Esa libertad es justamente la razón por la que un registro diario sencillo funciona tan bien: lo único que hay que proteger es el hábito diario.\n\n**La regla de la dosis omitida (conviene tenerla clara).** Como orforglipron es una píldora diaria, la regla difiere de las de las inyecciones semanales. Según la etiqueta de la FDA: si omite una dosis, tómela lo antes posible, pero **no duplique** la siguiente dosis; si omite **7 o más dosis seguidas**, su médico puede reiniciarle con una dosis más baja para reducir los efectos secundarios gastrointestinales ([etiqueta FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Un registro que muestre su racha diaria convierte esto en un vistazo en lugar de una conjetura.\n\n### Peso, medidas y fotos de progreso\n\nEl peso es la cifra principal de un **registro de pérdida de peso con orforglipron**, pero varía mucho de un día a otro. Pésese a la misma hora (normalmente por la mañana, después de ir al baño y antes de comer) y deje que la línea de tendencia, no una sola lectura, cuente la historia. En el ensayo de fase 3 **ATTAIN-1** (72 semanas, adultos con obesidad sin diabetes), la dosis más alta produjo una pérdida de peso promedio de alrededor de **11%** frente a alrededor de 2% con placebo, y cerca de **55% de las personas con esa dosis perdió al menos 10%** de su peso corporal ([NEJM, 2025](https://doi.org/10.1056/NEJMoa2511774); [ClinicalTrials.gov NCT05869903](https://clinicaltrials.gov/study/NCT05869903)). Es una cifra significativa, aunque en general **menor que el ~15–21%** observado en los ensayos principales de semaglutida y tirzepatida inyectables, una compensación que muchas personas aceptan por una píldora sin agujas (consulte nuestra [guía de semaglutida vs. tirzepatida](/en/semaglutide-vs-tirzepatide) para ver las cifras de los inyectables). Las mesetas son comunes y tienen explicación médica; las medidas de cintura y las **fotos cada 2–4 semanas** captan cambios en la composición corporal que la báscula oculta.\n\n### Proteína, alimentación y protección del músculo\n\nEsta es la parte más subestimada de cualquier proceso con GLP-1. Como orforglipron reduce considerablemente el apetito, una parte importante del peso que se pierde puede ser **masa magra**: las revisiones de ensayos con GLP-1 la sitúan en aproximadamente **20–30% del peso perdido** en promedio, con gran variación entre estudios (y la masa magra incluye agua y tejido de órganos, no solo músculo esquelético) ([revisión en *IJMS*, 2025](https://doi.org/10.3390/ijms262412130)). El músculo protege su metabolismo y sus resultados a largo plazo. Dos hábitos que se pueden registrar hacen el trabajo pesado:\n\n1. **Proteína.** Fíjese una meta de proteína en cada comida. Cuando baja el apetito, la proteína suele ser lo primero que disminuye, así que registrarla la mantiene presente.\n2. **Entrenamiento de fuerza.** El trabajo de fuerza es la mejor defensa contra la pérdida de músculo con un GLP-1; anote sus sesiones como anota su dosis.\n\n### Efectos secundarios: normales vs. señales de alarma\n\nLos efectos secundarios más comunes de orforglipron son gastrointestinales: con la dosis más alta, **náuseas (alrededor de 35%), diarrea (~25%), estreñimiento (~24%) y vómitos (~24%)**, además de indigestión, dolor abdominal, dolor de cabeza y fatiga ([etiqueta FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Suelen aparecer o empeorar justo después de aumentar la dosis y se calman a medida que su cuerpo se adapta. Orforglipron también tiene una **advertencia en recuadro por tumores de células C de la tiroides** y está contraindicado en personas con antecedentes personales o familiares de carcinoma medular de tiroides o NEM 2 ([etiqueta FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Riesgos poco frecuentes pero graves, como la pancreatitis y las enfermedades de la vesícula biliar, requieren evaluación médica oportuna. Anotar **qué sintió, qué tan intenso fue y cuántos días pasaron desde su último aumento de dosis** convierte un vago «me he sentido mal» en un patrón claro. Para el desglose completo síntoma por síntoma, consulte nuestra [guía de efectos secundarios de los GLP-1](/en/glp-1-side-effects).\n\n## Cómo crear una rutina de registro de orforglipron en 6 pasos\n\nNo necesita un sistema complicado, necesita uno repetible. Toma segundos al día más una revisión semanal rápida.\n\n1. **Configure un recordatorio diario de la píldora.** Elija una hora constante y programe una alerta recurrente para que una píldora omitida nunca lo tome por sorpresa.\n2. **Marque la dosis justo después de tomarla.** Un toque en «tomada» construye una racha visible, el mejor predictor individual de resultados.\n3. **Anote cada paso de titulación.** Cuando su médico le suba la dosis (2.5 → 5.5 → 9 → 14.5 → 17.2 mg), registre los nuevos mg y la fecha.\n4. **Pésese en días fijos.** Elija 1–3 mañanas por semana, en las mismas condiciones, y lea la tendencia, no el ruido diario.\n5. **Registre proteína y agua a diario, y anote los efectos secundarios cuando ocurran.** Anote el síntoma, la intensidad y los días desde su último aumento.\n6. **Tome una foto cada 2–4 semanas y revise antes de cada consulta.** Misma iluminación, mismo ángulo, y lleve a su médico su registro de dosis y la cronología de efectos secundarios.\n\n## ¿Necesita una app de orforglipron o basta con un cuaderno?\n\nHonestamente, cualquier registro es mejor que ninguno: un **diario de orforglipron** en un cuaderno funciona. Lo que aporta una app es la automatización de lo que la gente suele olvidar: el recordatorio diario, la racha de adherencia, el historial de pasos de titulación, la línea de tendencia que suaviza el ruido del peso diario y una cronología de efectos secundarios que puede entregar a su médico. Orforglipron no incluye una app complementaria propia, por lo que la mayoría usa un registro general de GLP-1 o de bienestar. Si quiere que su registro de dosis conviva con los hábitos diarios que protegen sus resultados (proteína, movimiento, hidratación, tendencias de peso y composición corporal), una app de bienestar como [HAVIT](https://www.aihavit.com) es un lugar natural para ello. Compare algunas opciones en nuestra [guía de las mejores apps de registro de GLP-1](/en/glp-1-tracker-app) y elija la que realmente seguirá usando; la constancia importa mucho más que la marca.\n\n## Guías relacionadas\n\n- [Registro de Wegovy: qué anotar con la inyección semanal](/es/wegovy-tracker)\n- [Registro de Ozempic: qué anotar con Ozempic y cómo](/es/ozempic-tracker)\n- [Efectos secundarios de los GLP-1: náuseas, síntomas gastrointestinales y señales de alarma](/en/glp-1-side-effects)\n- [La guía completa de apps de registro de GLP-1](/en/glp-1-tracker-app)\n\n## Por qué HAVIT: medicación y cambio de conducta, en una sola app\n\nLos medicamentos GLP-1 pueden reducir el peso de forma significativa, pero el número en la báscula es solo una parte de la historia. Una parte importante del peso perdido con la terapia GLP-1 puede provenir de tejido magro y no de grasa: las estimaciones van desde cerca de 15% o menos hasta 40–60% según los estudios ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), y los resultados tienden a desvanecerse cuando se suspende el medicamento, a menos que nuevos hábitos ocupen su lugar. Por eso las guías de referencia tratan el medicamento como una parte de la atención, no como el todo: el Grupo de Trabajo de Servicios Preventivos de EE. UU. recomienda que a los adultos con obesidad se les ofrezcan intervenciones conductuales intensivas y multicomponente ([USPSTF, Grado B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT está diseñada para este momento: una sola app que une el registro de medicación, la composición corporal, la nutrición y la proteína, la creación de hábitos diarios y un coach de IA que se adapta a usted. Entre nuestros propios 1,090 usuarios de GLP-1, quienes registraban con más constancia construyeron los hábitos más sólidos ([vea el informe de hábitos de GLP-1](/en/glp-1-habit-report)).\n\nGestione el medicamento y el músculo, juntos. [Comience con HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "Qué registrar con orforglipron (y por qué importa cada elemento)",
+        "headers": [
+          "Qué registrar",
+          "Por qué importa",
+          "Con qué frecuencia"
+        ],
+        "rows": [
+          [
+            "Dosis diaria tomada (sí/no) + hora",
+            "Es una píldora de toma diaria: la adherencia diaria lo es todo, y una vista de racha detecta rápido las omisiones",
+            "Todos los días"
+          ],
+          [
+            "Paso de titulación actual (mg)",
+            "La dosis sube cada ≥30 días (0.8 → hasta 17.2 mg); registrar su paso lo mantiene alineado con su médico",
+            "En cada aumento"
+          ],
+          [
+            "Peso corporal",
+            "Es el resultado principal; la tendencia, no un solo día, revela las mesetas y la adaptación metabólica",
+            "1–3× por semana, a la misma hora del día"
+          ],
+          [
+            "Cintura / medidas",
+            "Detecta la pérdida de grasa que la báscula no muestra, sobre todo al preservar el músculo",
+            "Cada 1–2 semanas"
+          ],
+          [
+            "Ingesta de proteína (gramos)",
+            "Protege la masa muscular magra, que está en riesgo durante una pérdida de peso rápida",
+            "Diario"
+          ],
+          [
+            "Agua / hidratación",
+            "Alivia el estreñimiento y las náuseas frecuentes al inicio y en cada aumento de dosis",
+            "Diario"
+          ],
+          [
+            "Efectos secundarios e intensidad",
+            "Distingue la adaptación normal (peor justo después de un aumento) de los síntomas de alarma",
+            "Cuando ocurran"
+          ],
+          [
+            "Fotos de progreso",
+            "Prueba visual del cambio en la composición corporal cuando la báscula se estanca",
+            "Cada 2–4 semanas"
+          ],
+          [
+            "Reposición / suministro de tabletas",
+            "Una píldora diaria se acaba en una fecha predecible; evita un vacío en la cobertura",
+            "Mensual"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "¿Qué es un registro de orforglipron?",
+          "answer": "Es cualquier herramienta (app, hoja de cálculo o cuaderno) que registra las partes clave del tratamiento con orforglipron (Foundayo): su dosis diaria y la hora en que la tomó, su paso de titulación actual en mg, peso, proteína, agua, efectos secundarios y fotos de progreso. Los convierte en recordatorios, una racha de adherencia y gráficas de tendencia que puede compartir con su médico."
+        },
+        {
+          "question": "¿Qué debo registrar con orforglipron?",
+          "answer": "Como mínimo: si tomó la píldora diaria y cuándo, su paso actual en mg, peso corporal, ingesta de proteína, agua y efectos secundarios, además de medidas o fotos periódicas. Como es una píldora diaria, una simple racha de adherencia es lo más valioso que puede registrar."
+        },
+        {
+          "question": "¿Qué esquema de dosis de orforglipron debo registrar?",
+          "answer": "Según la etiqueta de la FDA, orforglipron comienza con 0.8 mg una vez al día, luego aumenta con al menos 30 días de diferencia a 2.5 mg, después 5.5 mg y, si se necesita y se tolera, 9 mg, 14.5 mg o un máximo de 17.2 mg. Anote cuántos mg toma y la fecha en que cambió."
+        },
+        {
+          "question": "¿Qué pasa si omito una dosis de orforglipron?",
+          "answer": "Según la etiqueta de la FDA, tome la dosis omitida lo antes posible y no duplique la siguiente dosis. Si omite 7 o más dosis seguidas, su médico puede reiniciarle con una dosis más baja. Siga siempre su propia etiqueta y las indicaciones de su médico."
+        },
+        {
+          "question": "¿Necesito registrar un sitio de inyección con orforglipron?",
+          "answer": "No. Orforglipron es una píldora oral, no una inyección, así que no hay sitio de inyección ni rotación de sitios que anotar, una diferencia clave con Wegovy u Ozempic. Su casilla de dosis diaria y el paso de titulación reemplazan el mapa de sitios de inyección en su registro."
+        },
+        {
+          "question": "¿Orforglipron se toma con alimentos o agua como Rybelsus?",
+          "answer": "No. Orforglipron se toma una vez al día, con o sin alimentos, y se traga entero. Es distinto de la otra píldora GLP-1, Rybelsus, que requiere estómago vacío, no más de 4 oz de agua y una espera de 30 minutos antes de comer."
+        },
+        {
+          "question": "¿Cuánto peso puede ayudar a perder orforglipron?",
+          "answer": "En el ensayo ATTAIN-1 de 72 semanas, los adultos con la dosis más alta perdieron en promedio cerca de 11% de su peso corporal (frente a cerca de 2% con placebo), y cerca de 55% perdió al menos 10%. En general es menos que el ~15–21% observado con semaglutida y tirzepatida inyectables, una compensación que algunas personas aceptan por una píldora diaria sin agujas."
+        },
+        {
+          "question": "¿Orforglipron está disponible en Corea, Japón o Taiwán?",
+          "answer": "Todavía no. A julio de 2026, orforglipron (Foundayo) está aprobado por la FDA y disponible solo en EE. UU.; aún no está aprobado por el MFDS de Corea, la PMDA de Japón ni la TFDA de Taiwán. Los plazos de aprobación fuera de EE. UU. siguen pendientes; consulte a su autoridad regulatoria local."
+        }
+      ],
+      "references": [
+        {
+          "title": "FOUNDAYO (orforglipron) tablets — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62"
+        },
+        {
+          "title": "Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist for Obesity Treatment (ATTAIN-1)",
+          "source": "New England Journal of Medicine, 2025",
+          "url": "https://doi.org/10.1056/NEJMoa2511774"
+        },
+        {
+          "title": "Orforglipron, an oral small-molecule GLP-1 receptor agonist, for the treatment of obesity in people with type 2 diabetes (ATTAIN-2): a phase 3, double-blind, randomised, multicentre, placebo-controlled trial",
+          "source": "The Lancet, 2025",
+          "url": "https://doi.org/10.1016/S0140-6736(25)02165-8"
+        },
+        {
+          "title": "RYBELSUS and OZEMPIC (oral semaglutide) tablets — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98"
+        },
+        {
+          "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+          "source": "New England Journal of Medicine, 2021",
+          "url": "https://doi.org/10.1056/NEJMoa2032183"
+        },
+        {
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2022",
+          "url": "https://doi.org/10.1056/NEJMoa2206038"
+        },
+        {
+          "title": "The Influence of Glucagon-like Peptide-1 Receptor Agonists and Other Incretin Hormone Agonists on Body Composition",
+          "source": "International Journal of Molecular Sciences, 2025",
+          "url": "https://doi.org/10.3390/ijms262412130"
+        },
+        {
+          "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies",
+          "source": "Diabetes, Obesity and Metabolism, 2024",
+          "url": "https://doi.org/10.1111/dom.15728"
+        },
+        {
+          "title": "GLP-1 agonists and exercise: the future of lifestyle prioritization",
+          "source": "Frontiers in Clinical Diabetes and Healthcare, 2025",
+          "url": "https://doi.org/10.3389/fcdhc.2025.1720794"
+        }
+      ],
+      "last_updated": "2026-07-05"
+    },
+    "pt-BR": {
+      "title": "Controle do orforglipron: o que registrar na pílula de GLP-1 (2026)",
+      "short_title": "Controle do orforglipron: o que registrar na pílula",
+      "meta_description": "Um controle do orforglipron registra sua dose diária, etapa de titulação, tendência de peso, proteína e efeitos colaterais. Veja o que acompanhar com Foundayo, a pílula oral de GLP-1, e por quê.",
+      "short_description": "Veja o que registrar com o orforglipron (Foundayo): dose diária, etapa de titulação, peso, proteína e efeitos colaterais.",
+      "tldr": "Um controle do orforglipron registra sua dose diária, etapa de titulação, tendência de peso, proteína e efeitos colaterais. Veja o que acompanhar com Foundayo, a pílula oral de GLP-1, e por quê.",
+      "body_md": "O orforglipron, vendido como **Foundayo**, é o **agonista oral do receptor de GLP-1, não peptídico e de molécula pequena**, da Eli Lilly — uma *pílula* de GLP-1 de uso único diário para controle de peso que pode ser tomada **com ou sem alimentos**, sem as regras de jejum e de água que se aplicam à semaglutida oral ([bula FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). A FDA o aprovou em 2026 para adultos com obesidade, ou com sobrepeso mais pelo menos uma condição relacionada ao peso, em conjunto com uma dieta de calorias reduzidas e mais atividade física ([bula FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Como outros GLP-1, ele age lentamente ao longo de meses, com uma dose que aumenta conforme um calendário — o que o torna exatamente o tipo de tratamento que recompensa bons registros.\n\nEste guia explica *o que* acompanhar com o orforglipron, *por que* cada item importa e *como* transformar isso em uma rotina diária de dois minutos. O conteúdo é neutro e educativo: você pode fazer tudo no papel. Um app apenas automatiza o que as pessoas costumam esquecer. Se quiser primeiro a estrutura geral, ou se estiver comparando a pílula com as injeções, comece pelo nosso [guia completo de apps para controle de GLP-1](/en/glp-1-tracker-app) e depois volte para os detalhes específicos do orforglipron.\n\n## Por que uma pílula oral de GLP-1 exige outro tipo de acompanhamento\n\nSe você leu nosso guia do [Wegovy tracker](/pt-br/wegovy-tracker) ou do Ozempic, esqueça o mapa de locais de injeção — o orforglipron é uma **pílula**, então não há agulha nem rodízio de locais para registrar. Três outros fatores tornam o acompanhamento realmente útil aqui:\n\n- **É diário, não semanal, então as falhas se acumulam sem alarde.** Uma pílula diária significa 30 chances por mês de escorregar. Uma única injeção semanal esquecida é óbvia; algumas pílulas puladas somem em uma semana corrida. Uma caixa de marcação diária ou uma sequência transforma a adesão em algo que você realmente enxerga.\n- **A dose aumenta em um cronograma.** O orforglipron começa baixo e sobe em intervalos de pelo menos 30 dias. Registrar qual dose em mg você está tomando, e quando ela mudou, mantém você alinhado ao plano e dá ao seu prescritor um histórico limpo a cada consulta.\n- **Os efeitos colaterais se concentram em torno de cada aumento de dose.** Os sintomas gastrointestinais são mais comuns logo após um aumento de dose e diminuem à medida que o corpo se adapta. Só uma tendência — ligada à data da titulação — mostra se o que você sente é adaptação normal ou sinal de alerta.\n\n## O que acompanhar com o orforglipron (e por que cada item importa)\n\nEste é o conjunto básico de dados do orforglipron. Use-o como lista de verificação, seja no papel, em uma planilha ou em um app. Observe que **não há linha de local de injeção** — as linhas de dose diária e de etapa de titulação ocupam o lugar dela.\n\n### Dose diária, horário e o cronograma de titulação do orforglipron\n\nO orforglipron é iniciado deliberadamente em dose baixa e aumentado devagar para reduzir os efeitos colaterais gastrointestinais. Segundo a bula da FDA, o cronograma é **0,8 mg** uma vez ao dia para começar, depois aumentos com intervalo de pelo menos 30 dias para **2,5 mg**, depois **5,5 mg** e — se for necessária mais perda de peso e houver boa tolerância — **9 mg, 14,5 mg ou o máximo de 17,2 mg** uma vez ao dia ([bula FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62); [posologia da Lilly](https://foundayo.lilly.com/hcp/dosage)). Como a dose muda conforme um calendário, registrar **qual dose em mg você toma e a data em que ela mudou** é uma das coisas mais úteis que você pode anotar. Seu prescritor decide cada etapa, e um registro de doses organizado torna essa conversa mais rápida.\n\nA maior vantagem prática em relação à outra pílula de GLP-1, a **semaglutida oral (Rybelsus)**, é que o orforglipron **não tem regras de jejum nem de volume de água**: tome um comprimido uma vez ao dia, com ou sem alimentos, engolido inteiro ([bula FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Já o Rybelsus deve ser tomado de manhã, em jejum, com no máximo 4 oz de água pura, aguardando pelo menos 30 minutos antes de alimentos, bebidas ou outros comprimidos ([bula FDA do Rybelsus](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98)). Essa liberdade é justamente o motivo de um controle diário simples funcionar tão bem — a única coisa a proteger é o hábito diário.\n\n**A regra da dose esquecida (vale acertar).** Como o orforglipron é uma pílula diária, a regra é diferente das regras das injeções semanais. Segundo a bula da FDA: se você esquecer uma dose, tome-a o mais rápido possível, mas **não dobre** a próxima dose; se esquecer **7 ou mais doses seguidas**, seu prescritor pode reiniciar o tratamento em uma dose mais baixa para reduzir os efeitos colaterais gastrointestinais ([bula FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Um controle que mostra sua sequência diária transforma isso em uma olhada, em vez de um palpite.\n\n### Peso, medidas e fotos de progresso\n\nO peso é o número principal em um **controle de perda de peso com orforglipron**, mas oscila de um dia para o outro. Pese-se no mesmo horário (em geral de manhã, depois de ir ao banheiro e antes de comer) e deixe a linha de tendência — não uma única leitura — contar a história. No estudo de fase 3 **ATTAIN-1** (72 semanas, adultos com obesidade sem diabetes), a dose mais alta produziu perda de peso média de cerca de **11%**, contra cerca de 2% com placebo, e cerca de **55% das pessoas nessa dose perderam pelo menos 10%** do peso corporal ([NEJM, 2025](https://doi.org/10.1056/NEJMoa2511774); [ClinicalTrials.gov NCT05869903](https://clinicaltrials.gov/study/NCT05869903)). Isso é significativo — embora geralmente **menor que os ~15–21%** observados nos principais estudos de semaglutida e tirzepatida injetáveis, uma troca que muitas pessoas aceitam por uma pílula sem agulha (veja nosso [guia semaglutida vs. tirzepatida](/en/semaglutide-vs-tirzepatide) para os números das injeções). Platôs são comuns e têm explicação médica; medidas da cintura e **fotos a cada 2–4 semanas** captam mudanças na composição corporal que a balança esconde.\n\n### Proteína, alimentação e proteção muscular\n\nEsta é a parte mais subestimada de qualquer jornada com GLP-1. Como o orforglipron reduz bastante o apetite, uma parcela significativa do peso perdido pode ser **massa magra** — revisões de estudos com GLP-1 estimam cerca de **20–30% do peso perdido** em média, com ampla variação entre os estudos (e a massa magra inclui água e tecido de órgãos, não apenas músculo esquelético) ([revisão na *IJMS*, 2025](https://doi.org/10.3390/ijms262412130)). O músculo protege seu metabolismo e os resultados a longo prazo. Dois hábitos que podem ser registrados fazem o trabalho pesado:\n\n1. **Proteína.** Estabeleça uma meta de proteína em cada refeição. Quando o apetite cai, a proteína costuma ser a primeira coisa a diminuir — então registrá-la a mantém em mente.\n2. **Treino de força.** O trabalho de força é a defesa mais forte contra a perda muscular durante o uso de um GLP-1; registre seus treinos como registra sua dose.\n\n### Efeitos colaterais — normais vs. sinais de alerta\n\nOs efeitos colaterais mais comuns do orforglipron são gastrointestinais — na dose mais alta, **náusea (cerca de 35%), diarreia (~25%), constipação (~24%) e vômito (~24%)**, além de indigestão, dor abdominal, dor de cabeça e fadiga ([bula FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Eles costumam surgir ou piorar logo após um aumento de dose e diminuem à medida que o corpo se adapta. O orforglipron também tem uma **tarja de advertência (boxed warning) para tumores de células C da tireoide** e é contraindicado para pessoas com histórico pessoal ou familiar de carcinoma medular de tireoide ou NEM 2 ([bula FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Riscos raros, porém graves, como pancreatite e doença da vesícula biliar, exigem avaliação médica imediata. Registrar **o que você sentiu, a gravidade e quantos dias se passaram desde o último aumento de dose** transforma um vago “estou me sentindo estranho” em um padrão claro. Para a descrição completa sintoma por sintoma, veja nosso [guia de efeitos colaterais dos GLP-1](/en/glp-1-side-effects).\n\n## Como montar uma rotina de acompanhamento do orforglipron em 6 passos\n\nVocê não precisa de um sistema complicado — precisa de um que se repita. Isso leva segundos por dia, mais uma revisão semanal rápida.\n\n1. **Defina um lembrete diário da pílula.** Escolha um horário fixo e configure um alerta recorrente para que uma pílula esquecida nunca pegue você de surpresa.\n2. **Marque a dose logo após tomá-la.** Um toque em “tomada” cria uma sequência visível — o melhor indicador isolado de resultados.\n3. **Registre cada etapa de titulação.** Quando seu prescritor aumentar sua dose (2,5 → 5,5 → 9 → 14,5 → 17,2 mg), anote a nova dose em mg e a data.\n4. **Pese-se em dias fixos.** Escolha de 1 a 3 manhãs por semana, nas mesmas condições, e leia a tendência — não a oscilação diária.\n5. **Acompanhe proteína e água diariamente e anote os efeitos colaterais quando ocorrerem.** Registre o sintoma, a gravidade e os dias desde o último aumento de dose.\n6. **Tire fotos a cada 2–4 semanas e revise antes de cada consulta.** Mesma iluminação, mesmo ângulo — e leve seu registro de doses e a linha do tempo dos efeitos colaterais ao seu profissional de saúde.\n\n## Você precisa de um app para orforglipron ou um caderno basta?\n\nSinceramente, qualquer acompanhamento é melhor que nenhum — um **diário do orforglipron** em um caderno funciona. O que um app acrescenta é a automação das partes que as pessoas esquecem: o lembrete diário, a sequência de adesão, o histórico das etapas de titulação, a linha de tendência que suaviza a oscilação diária do peso e uma linha do tempo de efeitos colaterais que você pode entregar ao seu profissional de saúde. O orforglipron não vem com um aplicativo próprio, então a maioria das pessoas usa um controle geral de GLP-1 ou de bem-estar. Se você quer seu registro de doses ao lado dos hábitos diários que protegem seus resultados — proteína, movimento, hidratação, tendências de peso e de composição corporal — um app de bem-estar como o [HAVIT](https://www.aihavit.com) é um lugar natural para isso. Compare algumas opções em nosso [guia dos melhores apps de controle de GLP-1](/en/glp-1-tracker-app) e escolha o que você realmente vai continuar usando; a constância importa muito mais que a marca.\n\n## Guias relacionados\n\n- [Wegovy tracker: o que registrar na injeção semanal](/pt-br/wegovy-tracker)\n- [Ozempic tracker: o que registrar com o Ozempic e como](/pt-br/ozempic-tracker)\n- [Efeitos colaterais dos GLP-1: náusea, sintomas gastrointestinais e sinais de alerta](/en/glp-1-side-effects)\n- [O guia completo de apps para controle de GLP-1](/en/glp-1-tracker-app)\n\n## Por que o HAVIT — medicação + mudança de comportamento, em um só app\n\nOs medicamentos GLP-1 podem reduzir o peso de forma significativa — mas o número na balança é só parte da história. Uma parcela significativa do peso perdido com a terapia com GLP-1 pode vir de tecido magro, e não de gordura — as estimativas variam de cerca de 15% ou menos a 40–60% entre os estudos ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), e os resultados tendem a diminuir quando o medicamento é interrompido, a menos que novos hábitos ocupem o lugar. É por isso que as principais diretrizes tratam a medicação como uma parte do cuidado, não como o todo: a U.S. Preventive Services Task Force recomenda que adultos com obesidade recebam intervenções comportamentais intensivas e multicomponentes ([USPSTF, Grau B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nO HAVIT foi criado exatamente para este momento — um app que reúne acompanhamento de medicação, composição corporal, nutrição e proteína, construção de hábitos diários e um coach de IA que se adapta a você. Entre nossos 1090 usuários de GLP-1, os que mais registravam construíram os hábitos mais fortes ([veja o relatório de hábitos de GLP-1](/en/glp-1-habit-report)).\n\nCuide do medicamento e do músculo — juntos. [Comece com o HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "O que acompanhar com o orforglipron (e por que cada item importa)",
+        "headers": [
+          "O que acompanhar",
+          "Por que importa",
+          "Com que frequência"
+        ],
+        "rows": [
+          [
+            "Dose diária tomada (sim/não) + horário",
+            "É uma pílula de uso diário — a adesão diária é o que define o resultado, e uma visão de sequência detecta falhas rapidamente",
+            "Todos os dias"
+          ],
+          [
+            "Etapa atual de titulação (mg)",
+            "A dose sobe a cada ≥30 dias (0,8 → até 17,2 mg); registrar sua etapa mantém você e seu prescritor alinhados",
+            "A cada aumento de dose"
+          ],
+          [
+            "Peso corporal",
+            "É o desfecho principal; a tendência — não um único dia — revela platôs e adaptação metabólica",
+            "1–3× por semana, no mesmo horário do dia"
+          ],
+          [
+            "Cintura / medidas",
+            "Capta a perda de gordura que a balança não mostra, especialmente ao preservar o músculo",
+            "A cada 1–2 semanas"
+          ],
+          [
+            "Ingestão de proteína (gramas)",
+            "Protege a massa muscular magra, que corre risco durante a perda de peso rápida",
+            "Diariamente"
+          ],
+          [
+            "Água / hidratação",
+            "Alivia a constipação e a náusea comuns no início e a cada aumento de dose",
+            "Diariamente"
+          ],
+          [
+            "Efeitos colaterais e gravidade",
+            "Separa a adaptação normal (pior logo após um aumento de dose) dos sintomas de alerta",
+            "Quando ocorrerem"
+          ],
+          [
+            "Fotos de progresso",
+            "Prova visual da mudança na composição corporal quando a balança estaciona",
+            "A cada 2–4 semanas"
+          ],
+          [
+            "Reposição / estoque de comprimidos",
+            "Uma pílula diária acaba em uma data previsível; evita uma interrupção na cobertura",
+            "Mensalmente"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "O que é um controle do orforglipron?",
+          "answer": "É qualquer ferramenta — app, planilha ou caderno — que registra as principais partes do tratamento com orforglipron (Foundayo): sua dose diária e o horário em que a tomou, sua etapa atual de titulação em mg, peso, proteína, água, efeitos colaterais e fotos de progresso. Ele os transforma em lembretes, uma sequência de adesão e gráficos de tendência que você pode compartilhar com seu médico."
+        },
+        {
+          "question": "O que devo acompanhar com o orforglipron?",
+          "answer": "No mínimo: se você tomou a pílula diária e quando, sua etapa atual em mg, peso corporal, ingestão de proteína, água e efeitos colaterais, além de medidas ou fotos periódicas. Como é uma pílula diária, uma simples sequência de adesão é o item mais valioso para acompanhar."
+        },
+        {
+          "question": "Qual é o cronograma de doses do orforglipron que devo registrar?",
+          "answer": "Segundo a bula da FDA, o orforglipron começa com 0,8 mg uma vez ao dia, depois aumenta, com intervalo de pelo menos 30 dias, para 2,5 mg, depois 5,5 mg e — se necessário e tolerado — 9 mg, 14,5 mg ou o máximo de 17,2 mg. Registre qual dose em mg você toma e a data em que ela mudou."
+        },
+        {
+          "question": "O que acontece se eu esquecer uma dose de orforglipron?",
+          "answer": "Segundo a bula da FDA, tome a dose esquecida o mais rápido possível e não dobre a próxima dose. Se você esquecer 7 ou mais doses seguidas, seu prescritor pode reiniciar o tratamento em uma dose mais baixa. Siga sempre a sua própria bula e o seu prescritor."
+        },
+        {
+          "question": "Preciso registrar o local de injeção com o orforglipron?",
+          "answer": "Não. O orforglipron é uma pílula oral, não uma injeção, então não há local de injeção nem rodízio de locais para registrar — uma diferença importante em relação ao Wegovy ou ao Ozempic. Sua caixa de marcação da dose diária e a etapa de titulação substituem o mapa de locais de injeção no seu controle."
+        },
+        {
+          "question": "O orforglipron é tomado com alimentos ou água como o Rybelsus?",
+          "answer": "Não. O orforglipron é tomado uma vez ao dia, com ou sem alimentos, engolido inteiro. Isso é diferente da outra pílula de GLP-1, o Rybelsus, que exige estômago vazio, no máximo 4 oz de água e uma espera de 30 minutos antes de comer."
+        },
+        {
+          "question": "Quanto peso o orforglipron pode ajudar você a perder?",
+          "answer": "No estudo ATTAIN-1, de 72 semanas, adultos na dose mais alta perderam cerca de 11% do peso corporal em média (contra cerca de 2% com placebo), e cerca de 55% perderam pelo menos 10%. Isso é geralmente menos que os ~15–21% observados com semaglutida e tirzepatida injetáveis, uma troca que algumas pessoas aceitam por uma pílula diária sem agulha."
+        },
+        {
+          "question": "O orforglipron está disponível na Coreia, no Japão ou em Taiwan?",
+          "answer": "Ainda não. Em julho de 2026, o orforglipron (Foundayo) é aprovado pela FDA e está disponível apenas nos EUA; ainda não é aprovado pelo MFDS da Coreia, pela PMDA do Japão nem pela TFDA de Taiwan. Os prazos de aprovação fora dos EUA ainda estão pendentes — consulte o órgão regulador local."
+        }
+      ],
+      "references": [
+        {
+          "title": "FOUNDAYO (orforglipron) tablets — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62"
+        },
+        {
+          "title": "Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist for Obesity Treatment (ATTAIN-1)",
+          "source": "New England Journal of Medicine, 2025",
+          "url": "https://doi.org/10.1056/NEJMoa2511774"
+        },
+        {
+          "title": "Orforglipron, an oral small-molecule GLP-1 receptor agonist, for the treatment of obesity in people with type 2 diabetes (ATTAIN-2): a phase 3, double-blind, randomised, multicentre, placebo-controlled trial",
+          "source": "The Lancet, 2025",
+          "url": "https://doi.org/10.1016/S0140-6736(25)02165-8"
+        },
+        {
+          "title": "RYBELSUS and OZEMPIC (oral semaglutide) tablets — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98"
+        },
+        {
+          "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+          "source": "New England Journal of Medicine, 2021",
+          "url": "https://doi.org/10.1056/NEJMoa2032183"
+        },
+        {
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2022",
+          "url": "https://doi.org/10.1056/NEJMoa2206038"
+        },
+        {
+          "title": "The Influence of Glucagon-like Peptide-1 Receptor Agonists and Other Incretin Hormone Agonists on Body Composition",
+          "source": "International Journal of Molecular Sciences, 2025",
+          "url": "https://doi.org/10.3390/ijms262412130"
+        },
+        {
+          "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies",
+          "source": "Diabetes, Obesity and Metabolism, 2024",
+          "url": "https://doi.org/10.1111/dom.15728"
+        },
+        {
+          "title": "GLP-1 agonists and exercise: the future of lifestyle prioritization",
+          "source": "Frontiers in Clinical Diabetes and Healthcare, 2025",
+          "url": "https://doi.org/10.3389/fcdhc.2025.1720794"
+        }
+      ],
+      "last_updated": "2026-07-05"
+    },
+    "id": {
+      "title": "Pencatat Orforglipron: Apa yang Perlu Dicatat pada Pil GLP-1 (2026)",
+      "short_title": "Pencatat Orforglipron: Catat Dosis & Efek Samping",
+      "meta_description": "Pencatat orforglipron mencatat dosis harian, tahap titrasi, tren berat badan, protein & efek samping. Pelajari apa yang dicatat pada Foundayo, pil GLP-1 oral, dan alasannya.",
+      "short_description": "Pelajari apa yang perlu dicatat pada orforglipron (Foundayo): dosis harian, tahap titrasi, berat badan, protein, dan efek samping, beserta alasannya.",
+      "tldr": "Pencatat orforglipron mencatat dosis harian, tahap titrasi, tren berat badan, protein & efek samping. Pelajari apa yang dicatat pada Foundayo, pil GLP-1 oral, dan alasannya.",
+      "body_md": "Orforglipron, yang dijual sebagai **Foundayo**, adalah **agonis reseptor GLP-1 molekul kecil non-peptida** oral dari Eli Lilly — *pil* GLP-1 sekali sehari untuk manajemen berat badan yang dapat diminum **dengan atau tanpa makanan**, tanpa aturan puasa dan air yang berlaku untuk semaglutide oral ([label FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). FDA menyetujuinya pada 2026 untuk orang dewasa dengan obesitas, atau kelebihan berat badan ditambah setidaknya satu kondisi terkait berat badan, bersama diet rendah kalori dan peningkatan aktivitas ([label FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Seperti GLP-1 lainnya, obat ini bekerja perlahan selama berbulan-bulan dengan dosis yang naik bertahap sesuai kalender — sehingga pencatatan yang baik sangat bermanfaat.\n\nPanduan ini membahas *apa* yang perlu dicatat pada orforglipron, *mengapa* setiap item penting, dan *bagaimana* menjadikannya rutinitas harian dua menit. Panduan ini bersifat netral dan edukatif: semuanya bisa Anda lakukan di atas kertas. Aplikasi hanya mengotomatiskan bagian yang sering terlupa. Jika Anda ingin kerangka umumnya terlebih dahulu, atau sedang membandingkan pil dengan suntikan, mulailah dari [panduan lengkap aplikasi pencatat GLP-1](/en/glp-1-tracker-app), lalu kembali untuk detail khusus orforglipron.\n\n## Mengapa pil GLP-1 oral memerlukan jenis pencatatan yang berbeda\n\nJika Anda sudah membaca panduan [pencatat Wegovy](/id/wegovy-tracker) atau Ozempic kami, lupakan peta lokasi suntikan — orforglipron adalah **pil**, jadi tidak ada jarum dan tidak ada rotasi lokasi yang perlu dicatat. Tiga hal lain membuat pencatatan benar-benar berguna di sini:\n\n- **Obat ini diminum harian, bukan mingguan, sehingga dosis terlewat menumpuk tanpa terasa.** Pil sekali sehari berarti 30 kesempatan per bulan untuk terlewat. Satu suntikan mingguan yang terlewat mudah disadari; beberapa pil yang terlewat bisa tersembunyi dalam minggu yang sibuk. Kotak centang atau rangkaian hari harian membuat kepatuhan menjadi sesuatu yang bisa Anda lihat.\n- **Dosis naik sesuai jadwal.** Orforglipron dimulai dari dosis rendah dan dinaikkan dengan selang minimal 30 hari. Mencatat kekuatan mg yang Anda gunakan, dan kapan berubah, membuat Anda tetap sesuai rencana dan memberi dokter Anda riwayat yang rapi pada setiap kunjungan.\n- **Efek samping berkumpul di sekitar setiap kenaikan dosis.** Gejala saluran cerna paling sering muncul tepat setelah dosis dinaikkan dan mereda seiring tubuh beradaptasi. Hanya tren — yang dikaitkan dengan tanggal titrasi Anda — yang dapat menunjukkan apakah yang Anda rasakan adalah adaptasi normal atau tanda bahaya.\n\n## Apa yang perlu dicatat pada orforglipron (dan mengapa masing-masing penting)\n\nBerikut data inti orforglipron. Gunakan sebagai daftar periksa, baik Anda mencatat di kertas, spreadsheet, atau aplikasi. Perhatikan bahwa **tidak ada baris lokasi suntikan** — baris dosis harian dan tahap titrasi menggantikannya.\n\n### Dosis harian, waktu, dan jadwal titrasi orforglipron\n\nOrforglipron sengaja dimulai dari dosis rendah dan dinaikkan perlahan untuk mengurangi efek samping saluran cerna. Menurut label FDA, jadwalnya adalah **0,8 mg** sekali sehari untuk memulai, kemudian dinaikkan dengan selang minimal 30 hari ke **2,5 mg**, lalu **5,5 mg**, dan — jika diperlukan penurunan berat badan lebih besar dan dapat ditoleransi — **9 mg, 14,5 mg, atau maksimum 17,2 mg** sekali sehari ([label FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62); [dosis menurut Lilly](https://foundayo.lilly.com/hcp/dosage)). Karena kekuatan dosis berubah sesuai kalender, mencatat **berapa mg yang Anda gunakan dan tanggal perubahannya** adalah salah satu hal paling berguna untuk dicatat. Dokter Anda yang menentukan setiap kenaikan, dan catatan dosis yang rapi mempercepat pembicaraan tersebut.\n\nKeunggulan praktis terbesar dibandingkan pil GLP-1 lainnya, **semaglutide oral (Rybelsus)**, adalah orforglipron **tidak memiliki aturan puasa atau volume air**: minum satu tablet sekali sehari, dengan atau tanpa makanan, ditelan utuh ([label FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Sebaliknya, Rybelsus harus diminum pada pagi hari dalam keadaan perut kosong dengan tidak lebih dari 4 oz air putih, lalu menunggu setidaknya 30 menit sebelum makanan, minuman, atau pil lain ([label FDA Rybelsus](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98)). Kebebasan itulah alasan pencatat harian sederhana bekerja sangat baik — satu-satunya yang perlu dijaga adalah kebiasaan hariannya.\n\n**Aturan dosis terlewat (penting untuk dipahami dengan benar).** Karena orforglipron adalah pil harian, aturannya berbeda dari aturan suntikan mingguan. Menurut label FDA: jika Anda melewatkan satu dosis, minumlah sesegera mungkin, tetapi **jangan menggandakan** dosis berikutnya; jika Anda melewatkan **7 dosis atau lebih berturut-turut**, dokter Anda mungkin memulai ulang Anda pada dosis yang lebih rendah untuk mengurangi efek samping saluran cerna ([label FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Pencatat yang menampilkan rangkaian hari harian Anda mengubah hal ini menjadi sekilas pandang, bukan tebakan.\n\n### Berat badan, ukuran tubuh, dan foto kemajuan\n\nBerat badan adalah angka utama untuk **pencatat penurunan berat badan orforglipron**, tetapi angkanya berfluktuasi dari hari ke hari. Timbang pada waktu yang sama (biasanya pagi, setelah dari kamar mandi, sebelum makan) dan biarkan garis tren — bukan satu hasil timbangan — yang bercerita. Pada uji coba fase 3 **ATTAIN-1** (72 minggu, orang dewasa dengan obesitas tanpa diabetes), dosis tertinggi menghasilkan rata-rata penurunan berat badan sekitar **11%** dibandingkan sekitar 2% dengan plasebo, dan sekitar **55% orang pada dosis tersebut kehilangan setidaknya 10%** berat badannya ([NEJM, 2025](https://doi.org/10.1056/NEJMoa2511774); [ClinicalTrials.gov NCT05869903](https://clinicaltrials.gov/study/NCT05869903)). Itu bermakna — meskipun umumnya **lebih rendah dari ~15–21%** yang terlihat pada uji coba utama semaglutide dan tirzepatide suntik, kompromi yang diterima banyak orang demi pil tanpa jarum (lihat [panduan semaglutide vs. tirzepatide](/en/semaglutide-vs-tirzepatide) kami untuk angka obat suntik). Plateau itu umum dan dapat dijelaskan secara medis; ukuran pinggang dan **foto setiap 2–4 minggu** menangkap perubahan komposisi tubuh yang tidak terlihat oleh timbangan.\n\n### Protein, makanan, dan menjaga otot\n\nIni adalah bagian yang paling kurang dihargai dari setiap perjalanan GLP-1. Karena orforglipron menurunkan nafsu makan secara tajam, sebagian besar berat badan yang hilang dapat berupa **massa tubuh tanpa lemak** — tinjauan uji coba GLP-1 menyebutkan sekitar **20–30% dari berat badan yang hilang** secara rata-rata, dengan variasi besar antarstudi (dan massa tanpa lemak mencakup air dan jaringan organ, bukan hanya otot rangka) ([tinjauan di *IJMS*, 2025](https://doi.org/10.3390/ijms262412130)). Otot melindungi metabolisme dan hasil jangka panjang Anda. Dua kebiasaan yang dapat dicatat berperan besar:\n\n1. **Protein.** Tetapkan target protein pada setiap kali makan. Saat nafsu makan turun, protein biasanya yang pertama berkurang — jadi mencatatnya membuatnya tetap diingat.\n2. **Latihan beban.** Latihan kekuatan adalah pertahanan terkuat terhadap kehilangan otot saat menggunakan GLP-1; catat sesi latihan Anda seperti Anda mencatat dosis.\n\n### Efek samping — normal vs. tanda bahaya\n\nEfek samping orforglipron yang paling umum adalah gangguan saluran cerna — pada dosis tertinggi, **mual (sekitar 35%), diare (~25%), sembelit (~24%), dan muntah (~24%)**, ditambah gangguan pencernaan, nyeri perut, sakit kepala, dan kelelahan ([label FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Efek ini biasanya muncul atau memburuk tepat setelah dosis dinaikkan dan mereda seiring tubuh beradaptasi. Orforglipron juga memiliki **peringatan boxed untuk tumor sel C tiroid** dan dikontraindikasikan pada orang dengan riwayat pribadi atau keluarga karsinoma tiroid meduler atau MEN 2 ([label FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Risiko yang jarang tetapi serius seperti pankreatitis dan penyakit kandung empedu memerlukan penilaian medis segera. Mencatat **apa yang Anda rasakan, seberapa berat, dan berapa hari sejak kenaikan dosis terakhir** mengubah ungkapan samar \"saya merasa tidak enak badan\" menjadi pola yang jelas. Untuk uraian lengkap gejala demi gejala, lihat [panduan efek samping GLP-1](/en/glp-1-side-effects) kami.\n\n## Cara membangun rutinitas pencatatan orforglipron dalam 6 langkah\n\nAnda tidak memerlukan sistem yang rumit — Anda memerlukan sistem yang bisa diulang. Ini hanya memakan beberapa detik per hari ditambah tinjauan mingguan singkat.\n\n1. **Atur pengingat pil harian.** Pilih waktu yang konsisten dan atur peringatan berulang agar pil yang terlewat tidak terjadi begitu saja.\n2. **Centang dosis segera setelah meminumnya.** Satu ketukan \"sudah diminum\" membangun rangkaian hari yang terlihat — prediktor hasil terbaik.\n3. **Catat setiap tahap titrasi.** Ketika dokter Anda menaikkan dosis (2,5 → 5,5 → 9 → 14,5 → 17,2 mg), catat mg yang baru dan tanggalnya.\n4. **Timbang pada hari yang tetap.** Pilih 1–3 pagi dalam seminggu, dengan kondisi yang sama, dan baca trennya — bukan fluktuasi harian.\n5. **Catat protein dan air setiap hari, dan catat efek samping saat terjadi.** Catat gejala, tingkat keparahan, dan jumlah hari sejak kenaikan dosis terakhir.\n6. **Foto setiap 2–4 minggu dan tinjau sebelum setiap kunjungan.** Pencahayaan dan sudut yang sama — dan bawa catatan dosis serta riwayat waktu efek samping ke dokter Anda.\n\n## Apakah Anda memerlukan aplikasi orforglipron, atau buku catatan sudah cukup?\n\nJujur saja, pencatatan apa pun lebih baik daripada tidak sama sekali — **buku harian orforglipron** di buku catatan pun berfungsi. Yang ditambahkan aplikasi adalah otomatisasi bagian yang sering terlupa: pengingat harian, rangkaian kepatuhan, riwayat tahap titrasi, garis tren yang menghaluskan fluktuasi berat badan harian, dan lini masa efek samping yang bisa Anda serahkan kepada dokter. Orforglipron tidak dilengkapi aplikasi pendamping khusus, jadi kebanyakan orang menggunakan pencatat GLP-1 atau kesehatan umum. Jika Anda ingin catatan dosis berada di samping kebiasaan harian yang melindungi hasil Anda — protein, gerak, hidrasi, tren berat badan dan komposisi tubuh — aplikasi kesehatan seperti [HAVIT](https://www.aihavit.com) adalah tempat yang cocok. Bandingkan beberapa pilihan di [panduan aplikasi pencatat GLP-1 terbaik](/en/glp-1-tracker-app) kami dan pilih yang benar-benar akan terus Anda gunakan; konsistensi jauh lebih penting daripada mereknya.\n\n## Panduan terkait\n\n- [Pencatat Wegovy: apa yang dicatat pada suntikan mingguan](/id/wegovy-tracker)\n- [Pencatat Ozempic: apa yang dicatat pada Ozempic dan caranya](/id/ozempic-tracker)\n- [Efek samping GLP-1: mual, gejala saluran cerna & tanda bahaya](/en/glp-1-side-effects)\n- [Panduan lengkap aplikasi pencatat GLP-1](/en/glp-1-tracker-app)\n\n## Mengapa HAVIT — Obat + Perubahan Perilaku, dalam Satu Aplikasi\n\nObat GLP-1 dapat menurunkan berat badan secara bermakna — tetapi angka di timbangan hanyalah sebagian dari ceritanya. Sebagian besar berat badan yang hilang pada terapi GLP-1 dapat berasal dari jaringan tanpa lemak, bukan lemak — perkiraannya berkisar dari sekitar 15% atau kurang hingga 40–60% di berbagai studi ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), dan hasilnya cenderung memudar setelah obat dihentikan kecuali kebiasaan baru menggantikannya. Itulah sebabnya panduan terkemuka memandang obat sebagai salah satu bagian dari perawatan, bukan keseluruhannya: U.S. Preventive Services Task Force merekomendasikan agar orang dewasa dengan obesitas ditawari intervensi perilaku multikomponen yang intensif ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT dibuat tepat untuk momen ini — satu aplikasi yang menyatukan pencatatan obat, komposisi tubuh, nutrisi dan protein, pembentukan kebiasaan harian, dan pelatih AI yang menyesuaikan diri dengan Anda. Di antara 1.090 pengguna GLP-1 kami sendiri, pencatat yang paling konsisten membangun kebiasaan terkuat ([lihat laporan kebiasaan GLP-1](/en/glp-1-habit-report)).\n\nKelola obat dan otot — bersama-sama. [Mulai dengan HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "Apa yang perlu dicatat pada orforglipron (dan mengapa masing-masing penting)",
+        "headers": [
+          "Apa yang dicatat",
+          "Mengapa penting",
+          "Seberapa sering"
+        ],
+        "rows": [
+          [
+            "Dosis harian yang diminum (ya/tidak) + waktu",
+            "Ini pil sekali sehari — kepatuhan harian adalah kuncinya, dan tampilan rangkaian hari menangkap dosis terlewat dengan cepat",
+            "Setiap hari"
+          ],
+          [
+            "Tahap titrasi saat ini (mg)",
+            "Dosis naik setiap ≥30 hari (0,8 → hingga 17,2 mg); mencatat tahap Anda menjaga Anda dan dokter tetap selaras",
+            "Pada setiap kenaikan dosis"
+          ],
+          [
+            "Berat badan",
+            "Hasil utama; tren — bukan satu hari — menunjukkan plateau dan adaptasi metabolik",
+            "1–3× per minggu, pada waktu yang sama setiap hari"
+          ],
+          [
+            "Lingkar pinggang / ukuran tubuh",
+            "Menangkap penurunan lemak yang tidak terlihat oleh timbangan, terutama saat otot dipertahankan",
+            "Setiap 1–2 minggu"
+          ],
+          [
+            "Asupan protein (gram)",
+            "Melindungi massa otot tanpa lemak, yang berisiko selama penurunan berat badan yang cepat",
+            "Setiap hari"
+          ],
+          [
+            "Air / hidrasi",
+            "Meredakan sembelit dan mual yang umum pada awal pengobatan dan setiap kenaikan dosis",
+            "Setiap hari"
+          ],
+          [
+            "Efek samping & tingkat keparahan",
+            "Membedakan adaptasi normal (terburuk tepat setelah kenaikan dosis) dari gejala tanda bahaya",
+            "Saat terjadi"
+          ],
+          [
+            "Foto kemajuan",
+            "Bukti visual perubahan komposisi tubuh ketika timbangan stagnan",
+            "Setiap 2–4 minggu"
+          ],
+          [
+            "Isi ulang / persediaan tablet",
+            "Pil harian habis pada tanggal yang dapat diprediksi; menghindari jeda pengobatan",
+            "Bulanan"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "Apa itu pencatat orforglipron?",
+          "answer": "Ini adalah alat apa pun — aplikasi, spreadsheet, atau buku catatan — yang mencatat bagian-bagian utama pengobatan orforglipron (Foundayo): dosis harian dan waktu Anda meminumnya, tahap titrasi saat ini dalam mg, berat badan, protein, air, efek samping, dan foto kemajuan. Alat ini mengubahnya menjadi pengingat, rangkaian kepatuhan, dan grafik tren yang dapat Anda bagikan kepada dokter."
+        },
+        {
+          "question": "Apa yang harus saya catat pada orforglipron?",
+          "answer": "Minimal: apakah Anda meminum pil harian dan kapan, tahap mg Anda saat ini, berat badan, asupan protein, air, dan efek samping, ditambah pengukuran atau foto secara berkala. Karena ini pil harian, rangkaian kepatuhan sederhana adalah satu-satunya hal yang paling berharga untuk dicatat."
+        },
+        {
+          "question": "Apa jadwal dosis orforglipron yang harus saya catat?",
+          "answer": "Menurut label FDA, orforglipron dimulai dengan 0,8 mg sekali sehari, kemudian dinaikkan dengan selang minimal 30 hari ke 2,5 mg, lalu 5,5 mg, dan — jika diperlukan dan dapat ditoleransi — 9 mg, 14,5 mg, atau maksimum 17,2 mg. Catat berapa mg yang Anda gunakan dan tanggal perubahannya."
+        },
+        {
+          "question": "Apa yang terjadi jika saya melewatkan dosis orforglipron?",
+          "answer": "Menurut label FDA, minum dosis yang terlewat sesegera mungkin dan jangan menggandakan dosis berikutnya. Jika Anda melewatkan 7 dosis atau lebih berturut-turut, dokter Anda mungkin memulai ulang Anda pada dosis yang lebih rendah. Selalu ikuti label dan dokter Anda sendiri."
+        },
+        {
+          "question": "Apakah saya perlu mencatat lokasi suntikan dengan orforglipron?",
+          "answer": "Tidak. Orforglipron adalah pil oral, bukan suntikan, jadi tidak ada lokasi suntikan atau rotasi lokasi yang perlu dicatat — perbedaan utama dari Wegovy atau Ozempic. Kotak centang dosis harian dan tahap titrasi menggantikan peta lokasi suntikan pada pencatat Anda."
+        },
+        {
+          "question": "Apakah orforglipron diminum dengan makanan atau air seperti Rybelsus?",
+          "answer": "Tidak. Orforglipron diminum sekali sehari, dengan atau tanpa makanan, ditelan utuh. Ini berbeda dari pil GLP-1 lainnya, Rybelsus, yang mengharuskan perut kosong, tidak lebih dari 4 oz air, dan menunggu 30 menit sebelum makan."
+        },
+        {
+          "question": "Berapa banyak berat badan yang dapat diturunkan dengan bantuan orforglipron?",
+          "answer": "Pada uji coba ATTAIN-1 selama 72 minggu, orang dewasa pada dosis tertinggi kehilangan sekitar 11% berat badan secara rata-rata (dibandingkan sekitar 2% dengan plasebo), dan sekitar 55% kehilangan setidaknya 10%. Itu umumnya lebih rendah dari ~15–21% yang terlihat pada semaglutide dan tirzepatide suntik, kompromi yang diterima sebagian orang demi pil harian tanpa jarum."
+        },
+        {
+          "question": "Apakah orforglipron tersedia di Korea, Jepang, atau Taiwan?",
+          "answer": "Belum. Per Juli 2026 orforglipron (Foundayo) disetujui FDA dan tersedia hanya di AS; belum disetujui oleh MFDS Korea, PMDA Jepang, atau TFDA Taiwan. Jadwal persetujuan di luar AS masih menunggu — periksa regulator setempat Anda."
+        }
+      ],
+      "references": [
+        {
+          "title": "FOUNDAYO (orforglipron) tablets — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62"
+        },
+        {
+          "title": "Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist for Obesity Treatment (ATTAIN-1)",
+          "source": "New England Journal of Medicine, 2025",
+          "url": "https://doi.org/10.1056/NEJMoa2511774"
+        },
+        {
+          "title": "Orforglipron, an oral small-molecule GLP-1 receptor agonist, for the treatment of obesity in people with type 2 diabetes (ATTAIN-2): a phase 3, double-blind, randomised, multicentre, placebo-controlled trial",
+          "source": "The Lancet, 2025",
+          "url": "https://doi.org/10.1016/S0140-6736(25)02165-8"
+        },
+        {
+          "title": "RYBELSUS and OZEMPIC (oral semaglutide) tablets — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98"
+        },
+        {
+          "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+          "source": "New England Journal of Medicine, 2021",
+          "url": "https://doi.org/10.1056/NEJMoa2032183"
+        },
+        {
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2022",
+          "url": "https://doi.org/10.1056/NEJMoa2206038"
+        },
+        {
+          "title": "The Influence of Glucagon-like Peptide-1 Receptor Agonists and Other Incretin Hormone Agonists on Body Composition",
+          "source": "International Journal of Molecular Sciences, 2025",
+          "url": "https://doi.org/10.3390/ijms262412130"
+        },
+        {
+          "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies",
+          "source": "Diabetes, Obesity and Metabolism, 2024",
+          "url": "https://doi.org/10.1111/dom.15728"
+        },
+        {
+          "title": "GLP-1 agonists and exercise: the future of lifestyle prioritization",
+          "source": "Frontiers in Clinical Diabetes and Healthcare, 2025",
+          "url": "https://doi.org/10.3389/fcdhc.2025.1720794"
+        }
+      ],
+      "last_updated": "2026-07-05"
+    },
+    "fr": {
+      "title": "Suivi orforglipron : que noter avec la pilule GLP-1 (2026)",
+      "short_title": "Suivi orforglipron : que noter sous Foundayo",
+      "meta_description": "Un suivi orforglipron enregistre votre dose quotidienne, votre palier de titration, l'évolution du poids, les protéines et les effets secondaires. Que noter sous Foundayo, la pilule GLP-1, et pourquoi.",
+      "short_description": "Dose quotidienne, palier de titration, poids, protéines, effets secondaires : voyez quoi noter sous Foundayo, la pilule GLP-1, et pourquoi.",
+      "tldr": "Un suivi orforglipron enregistre votre dose quotidienne, votre palier de titration, l'évolution du poids, les protéines et les effets secondaires. Que noter sous Foundayo, la pilule GLP-1, et pourquoi.",
+      "body_md": "L'orforglipron, commercialisé sous le nom de **Foundayo**, est l'**agoniste oral du récepteur du GLP-1, une petite molécule non peptidique**, d'Eli Lilly : une *pilule* GLP-1 à prendre une fois par jour pour la gestion du poids, qui peut être prise **pendant ou en dehors des repas**, sans les règles de jeûne et d'eau qui s'appliquent au sémaglutide oral ([notice FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). La FDA l'a approuvé en 2026 pour les adultes souffrant d'obésité, ou en surpoids avec au moins une affection liée au poids, en complément d'une alimentation hypocalorique et d'une activité physique accrue ([notice FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Comme les autres GLP-1, il agit lentement, sur plusieurs mois, avec une dose qui augmente selon un calendrier : c'est précisément le type de traitement pour lequel un bon suivi est payant.\n\nCe guide explique *ce qu'il faut noter* avec l'orforglipron, *pourquoi* chaque élément compte et *comment* en faire une routine quotidienne de deux minutes. Il est neutre et pédagogique : vous pouvez tout faire sur papier. Une application automatise simplement ce que l'on oublie. Si vous voulez d'abord le cadre général, ou si vous comparez la pilule aux injections, commencez par notre [guide complet des applications de suivi GLP-1](/en/glp-1-tracker-app), puis revenez ici pour les détails propres à l'orforglipron.\n\n## Pourquoi une pilule GLP-1 orale demande un autre type de suivi\n\nSi vous avez lu notre [suivi Wegovy](/fr/wegovy-tracker) ou nos guides sur Ozempic, oubliez la cartographie des sites d'injection : l'orforglipron est une **pilule**, donc pas d'aiguille ni de rotation des sites à noter. Trois autres éléments rendent ici le suivi vraiment utile :\n\n- **Elle se prend chaque jour, pas chaque semaine, donc les oublis s'accumulent discrètement.** Une pilule quotidienne, c'est 30 occasions par mois de faire un oubli. Une injection hebdomadaire manquée se remarque ; quelques pilules oubliées se perdent dans une semaine chargée. Une case à cocher ou une série quotidienne rend l'observance visible.\n- **La dose augmente selon un calendrier.** L'orforglipron commence à faible dose et augmente par paliers espacés d'au moins 30 jours. Noter le dosage en mg que vous prenez, et la date de changement, vous garde aligné sur le plan et donne à votre prescripteur un historique clair à chaque consultation.\n- **Les effets secondaires se concentrent autour de chaque augmentation de dose.** Les symptômes gastro-intestinaux sont les plus fréquents juste après une augmentation de dose et s'atténuent à mesure que votre corps s'adapte. Seule une tendance, reliée à la date de titration, permet de savoir si ce que vous ressentez relève d'une adaptation normale ou d'un signal d'alerte.\n\n## Que noter avec l'orforglipron (et pourquoi chaque élément compte)\n\nVoici l'essentiel des données à suivre avec l'orforglipron. Utilisez-le comme liste de contrôle, sur papier, dans un tableur ou dans une application. Notez qu'il n'y a **aucune ligne pour le site d'injection** : les lignes de dose quotidienne et de palier de titration la remplacent.\n\n### Dose quotidienne, horaire et schéma de titration de l'orforglipron\n\nL'orforglipron est volontairement commencé à faible dose puis augmenté lentement pour réduire les effets secondaires gastro-intestinaux. Selon la notice de la FDA, le schéma est de **0,8 mg** une fois par jour au début, puis des augmentations espacées d'au moins 30 jours jusqu'à **2,5 mg**, puis **5,5 mg**, et — si une perte de poids supplémentaire est nécessaire et que le traitement est toléré — **9 mg, 14,5 mg, ou un maximum de 17,2 mg** une fois par jour ([notice FDA/DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62) ; [posologie Lilly](https://foundayo.lilly.com/hcp/dosage)). Comme le dosage change selon un calendrier, noter **le nombre de mg que vous prenez et la date du changement** est l'une des choses les plus utiles à consigner. Votre prescripteur décide de chaque palier, et un journal de doses précis rend cet échange plus rapide.\n\nLe principal avantage pratique par rapport à l'autre pilule GLP-1, le **sémaglutide oral (Rybelsus)**, est que l'orforglipron n'a **aucune règle de jeûne ni de volume d'eau** : on prend un comprimé une fois par jour, pendant ou en dehors des repas, avalé entier ([notice FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Le Rybelsus, à l'inverse, doit être pris le matin à jeun avec pas plus de 4 oz d'eau plate, en attendant au moins 30 minutes avant de manger, boire ou prendre d'autres comprimés ([notice FDA du Rybelsus](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98)). Cette liberté explique pourquoi un simple suivi quotidien fonctionne si bien : il n'y a que l'habitude quotidienne à protéger.\n\n**La règle de la dose oubliée (à bien connaître).** L'orforglipron étant une pilule quotidienne, la règle diffère de celle des injections hebdomadaires. Selon la notice de la FDA : si vous oubliez une dose, prenez-la dès que possible, mais **ne doublez pas** la dose suivante ; si vous oubliez **7 doses consécutives ou plus**, votre prescripteur peut vous refaire démarrer à une dose plus faible pour réduire les effets secondaires gastro-intestinaux ([notice FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Un suivi qui affiche votre série quotidienne transforme cela en simple coup d'œil plutôt qu'en supposition.\n\n### Poids, mensurations et photos de progression\n\nLe poids est le chiffre phare d'un **suivi de perte de poids sous orforglipron**, mais il varie d'un jour à l'autre. Pesez-vous à la même heure (généralement le matin, après être passé aux toilettes, avant de manger) et laissez la courbe de tendance, et non une seule mesure, raconter l'histoire. Dans l'essai de phase 3 **ATTAIN-1** (72 semaines, adultes obèses sans diabète), la dose la plus élevée a produit une perte de poids moyenne d'environ **11 %** contre environ 2 % avec le placebo, et environ **55 % des personnes sous cette dose ont perdu au moins 10 %** de leur poids corporel ([NEJM, 2025](https://doi.org/10.1056/NEJMoa2511774) ; [ClinicalTrials.gov NCT05869903](https://clinicaltrials.gov/study/NCT05869903)). C'est significatif, même si c'est généralement **inférieur aux ~15–21 %** observés dans les principaux essais du sémaglutide et du tirzépatide injectables, un compromis que beaucoup acceptent pour une pilule sans aiguille (voir notre [guide sémaglutide vs tirzépatide](/en/semaglutide-vs-tirzepatide) pour les chiffres des injectables). Les plateaux sont fréquents et s'expliquent médicalement ; le tour de taille et des **photos toutes les 2 à 4 semaines** montrent les changements de composition corporelle que la balance masque.\n\n### Protéines, alimentation et protection musculaire\n\nC'est la partie la plus sous-estimée de tout parcours GLP-1. Comme l'orforglipron réduit fortement l'appétit, une part importante du poids perdu peut être de la **masse maigre** : les revues d'essais sur les GLP-1 l'estiment à environ **20–30 % du poids perdu** en moyenne, avec de grandes variations entre les études (et la masse maigre inclut l'eau et les tissus des organes, pas seulement le muscle squelettique) ([revue dans *IJMS*, 2025](https://doi.org/10.3390/ijms262412130)). Le muscle protège votre métabolisme et vos résultats à long terme. Deux habitudes faciles à suivre font le gros du travail :\n\n1. **Protéines.** Visez un objectif de protéines à chaque repas. Quand l'appétit baisse, les protéines sont souvent la première chose à diminuer ; les noter les garde à l'esprit.\n2. **Musculation.** Le travail de force est la meilleure défense contre la perte musculaire sous GLP-1 ; notez vos séances comme vous notez votre dose.\n\n### Effets secondaires : normaux ou signaux d'alerte\n\nLes effets secondaires les plus courants de l'orforglipron sont gastro-intestinaux — à la dose la plus élevée, **nausées (environ 35 %), diarrhée (~25 %), constipation (~24 %) et vomissements (~24 %)**, ainsi que indigestion, douleurs abdominales, maux de tête et fatigue ([notice FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Ils apparaissent ou s'aggravent généralement juste après une augmentation de dose et s'atténuent à mesure que votre corps s'adapte. L'orforglipron comporte aussi un **avertissement encadré (boxed warning) concernant les tumeurs des cellules C de la thyroïde** et est contre-indiqué chez les personnes ayant des antécédents personnels ou familiaux de carcinome médullaire de la thyroïde ou de NEM 2 ([notice FDA](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62)). Des risques rares mais graves, comme la pancréatite et les maladies de la vésicule biliaire, nécessitent une évaluation médicale rapide. Noter **ce que vous avez ressenti, son intensité et le nombre de jours écoulés depuis votre dernière augmentation de dose** transforme un vague « je me sens mal » en un schéma clair. Pour le détail symptôme par symptôme, consultez notre [guide des effets secondaires des GLP-1](/en/glp-1-side-effects).\n\n## Comment mettre en place une routine de suivi de l'orforglipron en 6 étapes\n\nVous n'avez pas besoin d'un système compliqué, mais d'un système reproductible. Cela prend quelques secondes par jour, plus un bref bilan hebdomadaire.\n\n1. **Programmez un rappel quotidien pour la pilule.** Choisissez une heure régulière et réglez une alerte récurrente pour qu'un oubli ne vous surprenne jamais.\n2. **Cochez la dose juste après l'avoir prise.** Un simple appui sur « pris » construit une série visible, le meilleur indicateur des résultats.\n3. **Notez chaque palier de titration.** Quand votre prescripteur vous fait monter (2,5 → 5,5 → 9 → 14,5 → 17,2 mg), enregistrez les nouveaux mg et la date.\n4. **Pesez-vous à jours fixes.** Choisissez 1 à 3 matins par semaine, dans les mêmes conditions, et lisez la tendance, pas le bruit quotidien.\n5. **Suivez chaque jour les protéines et l'eau, et notez les effets secondaires quand ils surviennent.** Enregistrez le symptôme, son intensité et le nombre de jours depuis votre dernière augmentation de dose.\n6. **Prenez une photo toutes les 2 à 4 semaines et faites le point avant chaque consultation.** Même éclairage, même angle — et apportez à votre soignant votre journal de doses et la chronologie de vos effets secondaires.\n\n## Faut-il une application pour l'orforglipron, ou un carnet suffit-il ?\n\nHonnêtement, tout suivi vaut mieux que rien : un **journal de l'orforglipron** dans un carnet fonctionne. Ce qu'une application ajoute, c'est l'automatisation de ce que l'on oublie : le rappel quotidien, la série d'observance, l'historique des paliers de titration, la courbe de tendance qui lisse le bruit du poids quotidien et une chronologie des effets secondaires que vous pouvez remettre à votre soignant. L'orforglipron n'est pas fourni avec une application dédiée, donc la plupart des gens utilisent un suivi GLP-1 ou bien-être générique. Si vous voulez que votre journal de doses côtoie les habitudes quotidiennes qui protègent vos résultats — protéines, mouvement, hydratation, tendances du poids et de la composition corporelle — une application bien-être comme [HAVIT](https://www.aihavit.com) est un endroit naturel pour cela. Comparez plusieurs options dans notre [guide des meilleures applications de suivi GLP-1](/en/glp-1-tracker-app) et choisissez celle que vous utiliserez vraiment ; la régularité compte bien plus que la marque.\n\n## Guides associés\n\n- [Suivi Wegovy : que noter avec l'injection hebdomadaire](/fr/wegovy-tracker)\n- [Suivi Ozempic : que noter avec Ozempic et comment](/fr/ozempic-tracker)\n- [Effets secondaires des GLP-1 : nausées, symptômes digestifs et signaux d'alerte](/en/glp-1-side-effects)\n- [Le guide complet des applications de suivi GLP-1](/en/glp-1-tracker-app)\n\n## Pourquoi HAVIT — médicament et changement de comportement, dans une seule application\n\nLes médicaments GLP-1 peuvent réduire sensiblement le poids, mais le chiffre sur la balance n'est qu'une partie de l'histoire. Une part importante du poids perdu sous traitement GLP-1 peut provenir de tissu maigre plutôt que de graisse — les estimations vont d'environ 15 % ou moins à 40–60 % selon les études ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), et les résultats tendent à s'estomper à l'arrêt du médicament si de nouvelles habitudes ne prennent pas le relais. C'est pourquoi les recommandations de référence traitent le médicament comme une partie des soins, pas leur totalité : le U.S. Preventive Services Task Force recommande de proposer aux adultes obèses des interventions comportementales intensives et multicomposantes ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT est conçu pour ce moment précis : une seule application qui réunit le suivi du médicament, la composition corporelle, la nutrition et les protéines, la construction d'habitudes quotidiennes et un coach IA qui s'adapte à vous. Parmi nos 1 090 utilisateurs de GLP-1, ceux qui suivaient le plus régulièrement ont construit les habitudes les plus solides ([voir le rapport sur les habitudes GLP-1](/en/glp-1-habit-report)).\n\nGérez le médicament et le muscle — ensemble. [Commencer avec HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "Que noter avec l'orforglipron (et pourquoi chaque élément compte)",
+        "headers": [
+          "Que noter",
+          "Pourquoi c'est important",
+          "Fréquence"
+        ],
+        "rows": [
+          [
+            "Dose quotidienne prise (oui/non) + heure",
+            "C'est une pilule quotidienne : l'observance quotidienne est tout l'enjeu, et une vue en série repère vite les oublis",
+            "Tous les jours"
+          ],
+          [
+            "Palier de titration actuel (mg)",
+            "La dose augmente tous les ≥30 jours (0,8 → jusqu'à 17,2 mg) ; noter votre palier vous garde aligné avec votre prescripteur",
+            "À chaque augmentation de dose"
+          ],
+          [
+            "Poids corporel",
+            "Le critère principal ; c'est la tendance, et non un seul jour, qui révèle les plateaux et l'adaptation métabolique",
+            "1 à 3 fois par semaine, à la même heure"
+          ],
+          [
+            "Tour de taille / mensurations",
+            "Repère la perte de graisse que la balance ne montre pas, surtout en préservant le muscle",
+            "Toutes les 1 à 2 semaines"
+          ],
+          [
+            "Apport en protéines (grammes)",
+            "Protège la masse musculaire maigre, menacée lors d'une perte de poids rapide",
+            "Tous les jours"
+          ],
+          [
+            "Eau / hydratation",
+            "Atténue la constipation et les nausées fréquentes au début et à chaque augmentation de dose",
+            "Tous les jours"
+          ],
+          [
+            "Effets secondaires et intensité",
+            "Distingue l'adaptation normale (pire juste après une augmentation) des symptômes d'alerte",
+            "Au fur et à mesure"
+          ],
+          [
+            "Photos de progression",
+            "Preuve visuelle du changement de composition corporelle quand la balance stagne",
+            "Toutes les 2 à 4 semaines"
+          ],
+          [
+            "Renouvellement / stock de comprimés",
+            "Une pilule quotidienne s'épuise à une date prévisible ; évite une interruption de traitement",
+            "Tous les mois"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "Qu'est-ce qu'un suivi orforglipron ?",
+          "answer": "C'est tout outil — application, tableur ou carnet — qui enregistre les éléments clés du traitement par orforglipron (Foundayo) : votre dose quotidienne et l'heure de prise, votre palier de titration actuel en mg, le poids, les protéines, l'eau, les effets secondaires et les photos de progression. Il les transforme en rappels, en série d'observance et en graphiques de tendance que vous pouvez partager avec votre médecin."
+        },
+        {
+          "question": "Que dois-je noter avec l'orforglipron ?",
+          "answer": "Au minimum : si vous avez pris la pilule quotidienne et quand, votre palier actuel en mg, votre poids, votre apport en protéines, l'eau et les effets secondaires, ainsi que des mensurations ou photos périodiques. Comme c'est une pilule quotidienne, une simple série d'observance est l'élément le plus précieux à suivre."
+        },
+        {
+          "question": "Quel schéma de doses d'orforglipron dois-je noter ?",
+          "answer": "Selon la notice de la FDA, l'orforglipron commence à 0,8 mg une fois par jour, puis augmente par paliers espacés d'au moins 30 jours jusqu'à 2,5 mg, puis 5,5 mg, et — si nécessaire et toléré — 9 mg, 14,5 mg ou un maximum de 17,2 mg. Notez le nombre de mg que vous prenez et la date du changement."
+        },
+        {
+          "question": "Que se passe-t-il si j'oublie une dose d'orforglipron ?",
+          "answer": "Selon la notice de la FDA, prenez la dose oubliée dès que possible et ne doublez pas la dose suivante. Si vous oubliez 7 doses consécutives ou plus, votre prescripteur peut vous refaire démarrer à une dose plus faible. Suivez toujours votre propre notice et votre prescripteur."
+        },
+        {
+          "question": "Dois-je noter un site d'injection avec l'orforglipron ?",
+          "answer": "Non. L'orforglipron est une pilule orale, pas une injection : il n'y a donc ni site d'injection ni rotation des sites à noter, une différence majeure avec Wegovy ou Ozempic. Votre case de dose quotidienne et votre palier de titration remplacent la cartographie des sites d'injection dans votre suivi."
+        },
+        {
+          "question": "L'orforglipron se prend-il avec de la nourriture ou de l'eau comme le Rybelsus ?",
+          "answer": "Non. L'orforglipron se prend une fois par jour, pendant ou en dehors des repas, avalé entier. C'est différent de l'autre pilule GLP-1, le Rybelsus, qui exige d'être à jeun, pas plus de 4 oz d'eau et 30 minutes d'attente avant de manger."
+        },
+        {
+          "question": "Quelle perte de poids l'orforglipron peut-il aider à obtenir ?",
+          "answer": "Dans l'essai ATTAIN-1 de 72 semaines, les adultes sous la dose la plus élevée ont perdu en moyenne environ 11 % de leur poids corporel (contre environ 2 % sous placebo), et environ 55 % ont perdu au moins 10 %. C'est généralement moins que les ~15–21 % observés avec le sémaglutide et le tirzépatide injectables, un compromis que certains acceptent pour une pilule quotidienne sans aiguille."
+        },
+        {
+          "question": "L'orforglipron est-il disponible en Corée, au Japon ou à Taïwan ?",
+          "answer": "Pas encore. En juillet 2026, l'orforglipron (Foundayo) est approuvé par la FDA et disponible uniquement aux États-Unis ; il n'est pas encore approuvé par le MFDS coréen, la PMDA japonaise ou la TFDA taïwanaise. Les calendriers d'approbation en dehors des États-Unis sont encore en attente — renseignez-vous auprès de votre autorité de santé locale."
+        }
+      ],
+      "references": [
+        {
+          "title": "FOUNDAYO (orforglipron) tablets — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ac446c5-feba-474f-a103-23facb9b5c62"
+        },
+        {
+          "title": "Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist for Obesity Treatment (ATTAIN-1)",
+          "source": "New England Journal of Medicine, 2025",
+          "url": "https://doi.org/10.1056/NEJMoa2511774"
+        },
+        {
+          "title": "Orforglipron, an oral small-molecule GLP-1 receptor agonist, for the treatment of obesity in people with type 2 diabetes (ATTAIN-2): a phase 3, double-blind, randomised, multicentre, placebo-controlled trial",
+          "source": "The Lancet, 2025",
+          "url": "https://doi.org/10.1016/S0140-6736(25)02165-8"
+        },
+        {
+          "title": "RYBELSUS and OZEMPIC (oral semaglutide) tablets — Prescribing Information",
+          "source": "U.S. FDA label via DailyMed, 2026",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98"
+        },
+        {
+          "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+          "source": "New England Journal of Medicine, 2021",
+          "url": "https://doi.org/10.1056/NEJMoa2032183"
+        },
+        {
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2022",
+          "url": "https://doi.org/10.1056/NEJMoa2206038"
+        },
+        {
+          "title": "The Influence of Glucagon-like Peptide-1 Receptor Agonists and Other Incretin Hormone Agonists on Body Composition",
+          "source": "International Journal of Molecular Sciences, 2025",
+          "url": "https://doi.org/10.3390/ijms262412130"
+        },
+        {
+          "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies",
+          "source": "Diabetes, Obesity and Metabolism, 2024",
+          "url": "https://doi.org/10.1111/dom.15728"
+        },
+        {
+          "title": "GLP-1 agonists and exercise: the future of lifestyle prioritization",
+          "source": "Frontiers in Clinical Diabetes and Healthcare, 2025",
+          "url": "https://doi.org/10.3389/fcdhc.2025.1720794"
+        }
+      ],
+      "last_updated": "2026-07-05"
     }
   },
   "generated_at": "2026-08-14T00:00:00.000Z",

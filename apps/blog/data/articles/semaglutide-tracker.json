@@ -425,6 +425,591 @@
         }
       ],
       "last_updated": "2026-07-02"
+    },
+    "zh-CN": {
+      "title": "司美格鲁肽记录工具：该记录什么（Ozempic、Wegovy、Rybelsus）",
+      "short_title": "司美格鲁肽记录工具：该记录哪些内容",
+      "meta_description": "司美格鲁肽记录工具可记录 Ozempic、Wegovy 和 Rybelsus 的剂量、注射部位或服药时间、体重趋势、蛋白质摄入和副作用。以下是需要记录的内容。",
+      "short_description": "司美格鲁肽记录工具可记录剂量、注射部位或服药时间、体重趋势、蛋白质和副作用，适用于 Ozempic、Wegovy 和 Rybelsus。",
+      "tldr": "司美格鲁肽记录工具可记录 Ozempic、Wegovy 和 Rybelsus 的剂量、注射部位或服药时间、体重趋势、蛋白质摄入和副作用。以下是需要记录的内容。",
+      "body_md": "**司美格鲁肽**是一种单一的 GLP-1 受体激动剂——只有一种分子——以三个品牌名销售：**Ozempic**（用于2型糖尿病的每周一次注射剂）、**Wegovy**（用于慢性体重管理的每周一次注射剂）和 **Rybelsus**（用于2型糖尿病的每日一次口服片剂）。它与替尔泊肽（Mounjaro、Zepbound）*不是*同一种药物，后者是另一种双激素分子。由于同一种活性成分有不同的剂量、给药途径和用药计划，每一种司美格鲁肽方案都需要的*唯一*一件事，就是整洁的记录。本指南介绍使用司美格鲁肽时*该记录什么*、注射剂与口服剂在记录上有何不同，以及品牌药与复方司美格鲁肽会带来哪些变化。内容中立，仅供教育参考——这些全都可以用纸笔完成。\n\n如果你已经知道自己使用的具体品牌，可以直接查看品牌专属指南：我们的 [Ozempic 记录指南](/zh/ozempic-tracker)和 [Wegovy 记录指南](/zh/wegovy-tracker)。如果你想先了解适用于所有 GLP-1 药物的通用框架，请从[完整的 GLP-1 记录应用指南](/en/glp-1-tracker-app)开始。\n\n## 什么是司美格鲁肽？一种分子，三个品牌\n\n司美格鲁肽模拟肠道激素 GLP-1，该激素可减慢胃排空，并作用于大脑中的食欲中枢（[Cleveland Clinic](https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists)）。大多数人遇到的困惑是：*同一种*分子以三个名称销售，适应症、剂量和用药计划各不相同。下面是对照表——这也正是记录工具重要的原因。\n\n*（剂量依据 FDA 标签——见参考文献。超适应症处方确实存在；请始终遵循你自己的处方医生和药品标签。）*\n\n要点：无论你使用哪个品牌，你用的都是司美格鲁肽——但每个品牌需要你*记录*的用药计划各不相同。本指南其余部分将对此展开说明。\n\n## 为什么司美格鲁肽尤其需要记录\n\n司美格鲁肽有三个特点，使记录不只是“锦上添花”：\n\n- **剂量按计划递增。** 每个司美格鲁肽品牌都从低剂量开始，在数周内逐步加量，以减少胃肠道副作用。记录你在哪一天用了哪个剂量，可以让你与该计划保持同步，也能让处方医生在调整剂量的就诊时获得准确的历史记录。\n- **用药时间容易错过。** 每周一次的注射容易忘记或推迟；每日一次的药片有严格的空腹规定，容易违反。无论哪种情况，带时间戳的记录都能把令人焦虑的“我用了吗？”变成一眼就能确认的事。\n- **效果和副作用并非线性。** 体重下降时快时慢并会出现平台期，恶心往往在每次加量后立即加重。只有趋势——而不是某一天的数据——才能显示真实情况。\n\n## 使用司美格鲁肽时该记录什么（以及每项为何重要）\n\n以下是司美格鲁肽的核心记录项目。无论你是注射（Ozempic/Wegovy）还是服用口服片剂（Rybelsus），也无论你用纸笔、电子表格还是应用，都可以把它当作清单。\n\n| 记录内容 | 为什么重要 | 记录频率 |\n|---|---|---|\n| **用药日期和剂量（mg）** | 使你与剂量递增计划保持一致；确认依从性；防止意外重复用药 | 每次用药（每周注射 / 每日服药） |\n| **注射部位与轮换**（注射剂） | 轮换部位可防止出现会改变药物吸收的硬结瘢痕组织（脂肪增生） | 每次注射 |\n| **服药时间与空腹时段**（口服） | Rybelsus 只有在空腹、搭配正确的饮水量并等待足够时间时才能正确吸收 | 每次晨间服药 |\n| **体重** | 主要结果指标；趋势可揭示平台期和代谢适应 | 每周 1–3 次，每次在一天中的同一时间 | \n| **腰围 / 身体围度** | 能发现体重秤漏掉的脂肪减少，尤其是在保留肌肉的同时 | 每 1–2 周 |\n| **蛋白质摄入量（克）** | 保护瘦体重（肌肉），快速减重期间瘦体重有流失风险 | 每天 |\n| **饮水量 / 水分补充** | 缓解最初几周常见的便秘和恶心 | 每天 |\n| **副作用及严重程度** | 区分正常的适应反应与需要就医的危险信号症状 | 出现时记录 |\n| **血糖**（如有糖尿病） | Ozempic 和 Rybelsus 是糖尿病药物；血糖是核心结果指标 | 按你的诊疗计划 |\n| **补药 / 药品库存** | 每周一支的笔或每日一盒的药片会在可预测的日期用完；避免出现断药 | 每月 |\n\n## 注射型与口服型司美格鲁肽：记录上有什么不同\n\n这是最容易让人困惑的分岔点。活性成分相同，但*你要记录的内容*取决于你是注射还是吞服。\n\n### 注射型司美格鲁肽（Ozempic 和 Wegovy）\n\n两种注射品牌均为皮下注射，部位为**腹部**（距肚脐至少两英寸）、**大腿前侧**或**上臂**，每周轮换（[wegovy.com pen guide](https://www.wegovy.com/obesity/starting-wegovy/starting-wegovy-pen.html)；[ozempic.com dosing](https://www.ozempic.com/ozempic-pen/dosing.html)）。反复在同一位置注射可能导致**脂肪增生**——即会改变药物吸收的硬结瘢痕组织。请记录**你用了多少 mg、在哪一天、在哪个部位。**两者的剂量递增计划不同：\n\n- **Ozempic** 依次为 0.25 mg（第 1–4 周，起始剂量，不用于血糖控制）→ 0.5 mg → 1 mg → 最高 2 mg，按处方医生的指示进行（[FDA Ozempic label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf)）。\n- **Wegovy** 依次为 0.25 → 0.5 → 1 → 1.7 → 2.4 mg 维持剂量（[novoMEDLINK Wegovy dosing](https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html)）。\n\n由于这两个品牌的最高剂量不同，剂量记录可以消除你对自己处于具体计划哪一步的任何疑问。品牌的详细信息请参阅我们的 [Ozempic 记录指南](/zh/ozempic-tracker)和 [Wegovy 记录指南](/zh/wegovy-tracker)。\n\n### 口服型司美格鲁肽（Rybelsus）\n\nRybelsus 的记录是另一类问题：它是**每日一次、有严格时间规定的片剂。**根据 Novo Nordisk 和 FDA 标签，应在**清晨起床后空腹**服用，**饮用不超过 4 oz（约 120 mL）的白水**，然后**至少等待 30 分钟**，才能进食、饮用其他任何东西或服用其他药物（[novoMEDLINK Rybelsus dosing](https://www.novomedlink.com/diabetes/products/treatments/rybelsus/dosing-administration/dosing-and-prescribing.html)；[FDA Rybelsus label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf)）。整片吞服——不要掰开、压碎或咀嚼。其剂量递增为 **3 mg 持续 30 天 → 7 mg → 14 mg。**对口服用户来说，记录工具的任务是**每日提醒加上空腹时段**，而不是注射部位图——因为违反空腹规定会悄悄降低吸收。\n\n## 漏服规则因品牌而异——不要混淆\n\n这是司美格鲁肽中最容易被混淆的一点，用错品牌的规则会造成问题。请为每次用药记录时间戳，这样做决定时只需一眼确认，而不是靠猜。\n\n| 品牌 | 漏服规则 |\n|---|---|\n| **Wegovy**（每周） | 如果距下一次用药**超过 2 天（48 小时）**，请尽快补用漏掉的剂量；如果距下一次用药不足 2 天，则跳过该剂量，按原计划继续 |\n| **Ozempic**（每周） | 在**5 天内**尽快补用漏掉的剂量；如果已超过 5 天，则跳过该剂量，按原计划继续（48 小时内不要用两次剂量） |\n| **Rybelsus**（每日） | 完全**跳过**漏服的剂量，次日服用下一剂——不要加倍服用 |\n\n来源：[novoMEDLINK Wegovy dosing](https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html)；[FDA Ozempic label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf)；[FDA Rybelsus label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf)。请始终遵循你自己的药品标签和处方医生的指导——这是教育内容，不是用药指示。\n\n## 品牌药与复方司美格鲁肽：该记录和了解什么\n\n你可能见过远程医疗诊所或医美机构提供“复方司美格鲁肽”，价格往往比品牌笔更便宜。以下是截至 2026 年的监管现状，因为它关系到你实际注射的是什么。\n\n- **品牌司美格鲁肽**（Ozempic、Wegovy、Rybelsus）**已获 FDA 批准**——经过安全性、有效性和生产质量的审查。\n- **复方司美格鲁肽**　**未获 FDA 批准。**只有在司美格鲁肽被列入 FDA 药品短缺清单期间，复方配制才被广泛允许。FDA 宣布该**短缺已于 2025 年 2 月 21 日解决**，并设定了执法截止日期：**503A** 药房截至 **2025 年 4 月 22 日**，**503B** 外包设施截至 **2025 年 5 月 22 日**（[FDA compounding policy statement](https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize)）。\n- **在这些日期之后**，不再允许对已获批准的司美格鲁肽进行常规的大规模复方仿制；只可能保留少数针对具体患者的 503A 例外情形（例如有记录在案的辅料过敏，或没有市售的规格）。\n\n如果你使用的是复方产品，请认真记录**确切的来源、浓度以及以你自己的单位计的剂量**——复方制剂的规格和单位可能与品牌笔不同，这是有文献记载的剂量错误风险。如有疑问，请咨询有执照的药剂师或你的处方医生，并优先选择 FDA 批准的产品。\n\n## 司美格鲁肽与替尔泊肽：不是同一种分子\n\n一个常见的混淆：**司美格鲁肽是单一的 GLP-1 受体激动剂**，而**替尔泊肽（Mounjaro、Zepbound）是双重 GIP + GLP-1 受体激动剂**——是另一种作用于两条激素通路的分子，并且在头对头试验中，平均减重幅度更大。如果你正在二者之间做选择或准备换药，那是另一个话题，详见我们的[司美格鲁肽与替尔泊肽对比指南](/en/semaglutide-vs-tirzepatide)。就记录而言，二者不可互换：切勿把替尔泊肽的剂量记在司美格鲁肽的计划里。\n\n## 分 6 步建立司美格鲁肽记录习惯\n\n你不需要复杂的系统——你需要的是可重复的系统。核心记录每周花不到两分钟（Rybelsus 则是每天早晨点一下），外加每天几次快速记录。\n\n1. **设置与你的剂型相匹配的用药提醒。**Ozempic/Wegovy 设每周循环提醒，Rybelsus 设每日晨间闹钟，以免错过空腹时段。\n2. **服药后立即记录剂量。**记录 mg 剂量，如果是注射，还要标记身体部位区域，让下周的轮换一目了然。\n3. **固定日期称重。**每周选择 1–3 个早晨，条件相同，关注趋势——而不是每天的波动。\n4. **每天记录蛋白质和饮水。**每餐快速记一下，保证肌肉保护不掉线。\n5. **出现副作用时随时记录。**记录症状、严重程度，以及距上次用药或加量已过去几天。\n6. **每 2–4 周拍一次照片，并在每次就诊前回顾。**光线相同、角度相同——并把你的剂量记录和副作用时间线带给医生。\n\n## 需要司美格鲁肽应用，还是笔记本就够了？\n\n说实话，任何记录都胜过不记录——笔记本上的**司美格鲁肽日记**同样有效。应用的额外价值在于把人们容易忘记的环节自动化：按每周或每日调整的用药提醒、笔式注射剂的注射部位轮换图、能平滑每日体重波动的趋势线，以及可以交给医生的副作用时间线。三个品牌都没有配套的专用应用，所以大多数人使用通用的 GLP-1 或健康记录工具。如果你希望把剂量记录与保护成果的日常习惯——蛋白质、运动、饮水、体重和身体成分趋势——放在一起，像 [HAVIT](https://www.aihavit.com) 这样的健康应用是自然的选择。你可以在我们的[最佳 GLP-1 记录应用指南](/en/glp-1-tracker-app)中比较各种选项，选择你真正会坚持使用的；坚持比品牌重要得多。\n\n## 相关指南\n\n- [Ozempic 记录：使用 Ozempic 时该记录什么以及如何记录](/zh/ozempic-tracker)\n- [Wegovy 记录：使用 Wegovy 时该记录什么以及如何记录](/zh/wegovy-tracker)\n- [司美格鲁肽与替尔泊肽：哪种 GLP-1 适合你？](/en/semaglutide-vs-tirzepatide)\n- [完整的 GLP-1 记录应用指南](/en/glp-1-tracker-app)\n\n## 为什么选择 HAVIT——用药与行为改变，尽在一个应用\n\nGLP-1 药物可以显著减轻体重——但体重秤上的数字只是故事的一部分。在 GLP-1 治疗中减掉的体重里，瘦体重所占比例在一些试验中为 40–60%，在另一些试验中则为 15% 或更低——而且瘦体重包括器官、骨骼和体液，不只是肌肉（[Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)），并且停药后效果往往会逐渐消退，除非有新的习惯取而代之。这就是为什么主要指南把药物视为照护的一部分，而不是全部：美国预防服务工作组（U.S. Preventive Services Task Force）建议为肥胖成人提供强化的、多成分的行为干预（[USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)）。\n\nHAVIT 正是为这样的时刻而打造——一个应用整合了用药记录、身体成分、营养与蛋白质、日常习惯养成，以及能适应你的 AI 教练。在我们自己的 1,090 名 GLP-1 用户中，记录最坚持的人养成了最牢固的习惯（[查看 GLP-1 习惯报告](/en/glp-1-habit-report)）。\n\n药物与肌肉，一起管理。[从 HAVIT 开始 →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "什么是司美格鲁肽？一种分子，三个品牌",
+        "headers": [
+          "品牌",
+          "剂型与用药计划",
+          "FDA 批准的用途",
+          "剂量范围"
+        ],
+        "rows": [
+          [
+            "Ozempic",
+            "每周一次注射",
+            "2型糖尿病",
+            "0.25 → 0.5 → 1 → 最高 2 mg"
+          ],
+          [
+            "Wegovy",
+            "每周一次注射",
+            "慢性体重管理",
+            "0.25 → 0.5 → 1 → 1.7 → 2.4 mg"
+          ],
+          [
+            "Rybelsus",
+            "每日一次口服片剂",
+            "2型糖尿病",
+            "3 → 7 → 14 mg"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "什么是司美格鲁肽记录工具？",
+          "answer": "它是任何用来记录司美格鲁肽治疗关键信息的工具——应用、电子表格或笔记本均可：你的剂量和日期、注射部位（Rybelsus 则为服药时间）、体重、蛋白质、饮水、副作用和照片。它会把这些信息转化为提醒和趋势图，供你回顾并与医生分享。"
+        },
+        {
+          "question": "Ozempic、Wegovy 和 Rybelsus 是同一种药吗？",
+          "answer": "是的——三者含有相同的活性成分司美格鲁肽，一种单一的 GLP-1 受体激动剂。它们在剂型和批准用途上不同：Ozempic 和 Rybelsus 用于2型糖尿病（分别为注射剂和口服片剂），而 Wegovy 是用于体重管理的注射剂，各自有不同的剂量计划。"
+        },
+        {
+          "question": "记录口服司美格鲁肽（Rybelsus）有什么不同？",
+          "answer": "Rybelsus 是每日一次的片剂，有严格的时间规定：清晨起床后空腹服用，饮水不超过 4 oz，然后至少等待 30 分钟再做其他事。因此 Rybelsus 的记录以每日提醒和空腹时段为中心，而不是注射部位图。"
+        },
+        {
+          "question": "我应该记录哪种司美格鲁肽剂量计划？",
+          "answer": "取决于品牌。Ozempic 每周依次为 0.25 → 0.5 → 1 → 最高 2 mg；Wegovy 每周依次为 0.25 → 0.5 → 1 → 1.7 → 2.4 mg；Rybelsus 每日依次为 3 → 7 → 14 mg。请记录你在哪一天用了哪个剂量，让处方医生看到完整的历史。"
+        },
+        {
+          "question": "如果漏用一次司美格鲁肽怎么办？",
+          "answer": "因品牌而异。Wegovy 采用 2 天规则，Ozempic 采用 5 天规则，而 Rybelsus 的规定是跳过漏服的剂量，次日继续。切勿加倍用药。这正是带时间戳的剂量记录如此有用的原因——请始终遵循你自己的药品标签。"
+        },
+        {
+          "question": "复方司美格鲁肽与品牌药相同吗？",
+          "answer": "不相同。品牌司美格鲁肽已获 FDA 批准；复方版本未获批准。大范围的复方配制只在 FDA 短缺期间被允许，该短缺已于 2025 年 2 月 21 日宣布解决，503A/503B 的截止日期在 2025 年 4–5 月。如果你使用复方产品，请认真记录其确切来源、浓度和单位。"
+        },
+        {
+          "question": "司美格鲁肽与替尔泊肽是同一种药吗？",
+          "answer": "不是。司美格鲁肽是单一的 GLP-1 受体激动剂（Ozempic、Wegovy、Rybelsus）。替尔泊肽（Mounjaro、Zepbound）是另一种双重 GIP + GLP-1 分子。二者不可互换，因此切勿把替尔泊肽的剂量记在司美格鲁肽的计划里。"
+        },
+        {
+          "question": "有官方的司美格鲁肽记录应用吗？",
+          "answer": "没有任何司美格鲁肽品牌附带专用的配套记录应用。大多数人使用通用的 GLP-1 或健康应用，或简单的笔记本，来记录剂量、部位或服药时间、体重和副作用。选择你会坚持使用的那一种——这比具体的工具更重要。"
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — Ozempic (semaglutide) injection, prescribing information (dose escalation, missed dose within 5 days). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — Wegovy (semaglutide) prescribing information (2.4 mg escalation, 2-day missed-dose rule). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215256s033lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — Rybelsus (semaglutide) tablets, prescribing information (3/7/14 mg, empty-stomach administration, skip missed dose). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf"
+        },
+        {
+          "text": "Novo Nordisk (novoMEDLINK) — Rybelsus dosing & administration (take with ≤4 oz water, wait ≥30 minutes). novomedlink.com",
+          "url": "https://www.novomedlink.com/diabetes/products/treatments/rybelsus/dosing-administration/dosing-and-prescribing.html"
+        },
+        {
+          "text": "Novo Nordisk (novoMEDLINK) — Wegovy dosing & administration: escalation and 2-day missed-dose guidance. novomedlink.com",
+          "url": "https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html"
+        },
+        {
+          "text": "Novo Nordisk — Ozempic pen dosing & administration. ozempic.com",
+          "url": "https://www.ozempic.com/ozempic-pen/dosing.html"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — FDA clarifies policies for compounders as national GLP-1 supply begins to stabilize (semaglutide shortage resolved Feb 21, 2025; 503A/503B deadlines). fda.gov",
+          "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 agonists: uses, how they work, and side effects. my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Mayo Clinic — Semaglutide (subcutaneous route): description and proper use. mayoclinic.org",
+          "url": "https://www.mayoclinic.org/drugs-supplements/semaglutide-subcutaneous-route/description/drg-20406730"
+        },
+        {
+          "text": "Frontiers in Clinical Diabetes and Healthcare (via PMC) — GLP-1 agonists, lean-mass loss, and the role of exercise and protein. pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/"
+        },
+        {
+          "text": "All medical claims verified against the cited FDA labels, Novo Nordisk materials, and FDA compounding statements as of July 2026. Re-review at least every 12 months or sooner if an FDA label changes.*"
+        }
+      ],
+      "last_updated": "2026-07-02"
+    },
+    "es": {
+      "title": "Registro de semaglutida: qué anotar (Ozempic, Wegovy, Rybelsus)",
+      "short_title": "Registro de semaglutida: qué anotar y cómo",
+      "meta_description": "Un registro de semaglutida anota su dosis, sitio de inyección u horario de la pastilla, tendencia de peso, proteína y efectos secundarios en Ozempic, Wegovy y Rybelsus.",
+      "short_description": "Aprenda qué anotar con Ozempic, Wegovy y Rybelsus: dosis, sitio de inyección u horario de la pastilla, peso, proteína y efectos secundarios.",
+      "tldr": "Un registro de semaglutida anota su dosis, sitio de inyección u horario de la pastilla, tendencia de peso, proteína y efectos secundarios en Ozempic, Wegovy y Rybelsus.",
+      "body_md": "**La semaglutida** es un único agonista del receptor de GLP-1 —una sola molécula— que se vende con tres nombres comerciales: **Ozempic** (inyección semanal para la diabetes tipo 2), **Wegovy** (inyección semanal para el control crónico del peso) y **Rybelsus** (tableta oral diaria para la diabetes tipo 2). *No* es el mismo medicamento que la tirzepatida (Mounjaro, Zepbound), que es una molécula distinta con dos hormonas. Como el mismo principio activo viene en distintas dosis, vías y horarios, lo *único* que todo plan con semaglutida recompensa es llevar un registro ordenado. Esta guía explica *qué* anotar con semaglutida, en qué se diferencia el registro entre la forma inyectable y la oral, y cómo cambia el panorama entre la semaglutida de marca y la preparada en farmacias de compuestos (compounded). Es neutral y educativa: puede hacerlo todo en papel.\n\nSi ya conoce su marca, pase a las guías específicas: nuestra [guía de registro de Ozempic](/es/ozempic-tracker) y la [guía de registro de Wegovy](/es/wegovy-tracker). Si primero quiere el marco general para todos los GLP-1, comience con la [guía completa de apps de registro de GLP-1](/en/glp-1-tracker-app).\n\n## ¿Qué es la semaglutida? Una molécula, tres marcas\n\nLa semaglutida imita la hormona intestinal GLP-1, que retrasa el vaciamiento gástrico y actúa sobre los centros del apetito en el cerebro ([Cleveland Clinic](https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists)). La confusión más común es que la *misma* molécula se comercializa con tres nombres, con distintas indicaciones, dosis y horarios. Este es el mapa, y es justo la razón por la que importa llevar un registro.\n\n*(Dosis según las etiquetas de la FDA; vea las Referencias. Existe la prescripción fuera de indicación; siga siempre a su prescriptor y la etiqueta.)*\n\nLa conclusión: sea cual sea su marca, usted toma semaglutida, pero el horario que debe *registrar* es distinto en cada una. Eso es lo que explica el resto de esta guía.\n\n## Por qué es importante llevar un registro específicamente con semaglutida\n\nTres características de la semaglutida hacen que el registro sea más que algo útil:\n\n- **La dosis aumenta según un calendario.** Todas las marcas de semaglutida comienzan con una dosis baja y suben a lo largo de semanas para reducir los efectos secundarios gastrointestinales. Anotar qué dosis tomó y en qué fecha lo mantiene alineado con ese plan y le da a su prescriptor un historial exacto en las consultas de ajuste.\n- **El horario es fácil de pasar por alto.** Una inyección semanal es fácil de olvidar o retrasar; una pastilla diaria tiene reglas estrictas de ayuno que es fácil romper. En ambos casos, un registro con fecha y hora convierte un estresante «¿ya me la puse?» en un vistazo.\n- **Los resultados y los efectos secundarios no son lineales.** El peso baja a tropiezos y con estancamientos, y las náuseas suelen aumentar justo después de cada aumento de dosis. Solo una tendencia, y no un día aislado, muestra lo que realmente ocurre.\n\n## Qué anotar con semaglutida (y por qué importa cada dato)\n\nEste es el conjunto básico de datos de la semaglutida. Úselo como lista de verificación ya sea que se inyecte (Ozempic/Wegovy) o tome la tableta oral (Rybelsus), en papel, en una hoja de cálculo o en una app.\n\n| Qué anotar | Por qué importa | Con qué frecuencia |\n|---|---|---|\n| **Fecha y cantidad de la dosis (mg)** | Lo mantiene alineado con el calendario de titulación; confirma la adherencia; evita una doble dosis accidental | Cada dosis (inyección semanal / pastilla diaria) |\n| **Sitio de inyección y rotación** (inyectable) | Rotar los sitios evita el tejido cicatricial con bultos (lipohipertrofia) que cambia la absorción del medicamento | Cada inyección |\n| **Horario de la pastilla y ventana de ayuno** (oral) | Rybelsus solo se absorbe bien con el estómago vacío, con el agua y la espera correctas | Cada dosis de la mañana |\n| **Peso corporal** | El resultado principal; la tendencia revela estancamientos y adaptación metabólica | 1–3× por semana, a la misma hora del día |\n| **Cintura / medidas** | Detecta la pérdida de grasa que la báscula no muestra, sobre todo al preservar el músculo | Cada 1–2 semanas |\n| **Ingesta de proteína (gramos)** | Protege la masa muscular magra, que está en riesgo durante una pérdida de peso rápida | Diario |\n| **Agua / hidratación** | Alivia el estreñimiento y las náuseas comunes en las primeras semanas | Diario |\n| **Efectos secundarios y gravedad** | Distingue la adaptación normal de los síntomas de alarma que requieren un médico | Cuando ocurran |\n| **Azúcar en sangre** (si tiene diabetes) | Ozempic y Rybelsus son medicamentos para la diabetes; la glucosa es un resultado central | Según su plan de atención |\n| **Resurtido / suministro** | Una pluma semanal o un paquete de pastillas diarias se agota en una fecha predecible; evita un hueco en la cobertura | Mensual |\n\n## Semaglutida inyectable vs. oral: qué cambia en el registro\n\nEsta es la bifurcación que confunde a la gente. El principio activo es idéntico, pero *lo que usted registra* depende de si se inyecta o lo traga.\n\n### Semaglutida inyectable (Ozempic y Wegovy)\n\nAmbas marcas inyectables se administran por vía subcutánea en el **abdomen** (al menos a dos pulgadas del ombligo), en la **parte frontal del muslo** o en la **parte superior del brazo**, rotando cada semana ([guía de la pluma en wegovy.com](https://www.wegovy.com/obesity/starting-wegovy/starting-wegovy-pen.html); [dosificación en ozempic.com](https://www.ozempic.com/ozempic-pen/dosing.html)). Inyectarse repetidamente en el mismo punto puede causar **lipohipertrofia**: tejido cicatricial con bultos que cambia la absorción. Anote **cuántos mg se aplicó, en qué fecha y en qué sitio.** Sus calendarios de titulación son diferentes:\n\n- **Ozempic** avanza de 0.25 mg (semanas 1–4, una dosis de inicio, no para el control de la glucosa) → 0.5 mg → 1 mg → hasta un máximo de 2 mg, según indique su prescriptor ([etiqueta de Ozempic de la FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf)).\n- **Wegovy** avanza de 0.25 → 0.5 → 1 → 1.7 → 2.4 mg de mantenimiento ([dosificación de Wegovy en novoMEDLINK](https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html)).\n\nComo las dos marcas llegan a dosis máximas distintas, un registro de dosis elimina cualquier duda sobre en qué punto de su calendario específico se encuentra. Consulte nuestro [registro de Ozempic](/es/ozempic-tracker) y [registro de Wegovy](/es/wegovy-tracker) para el detalle de cada marca.\n\n### Semaglutida oral (Rybelsus)\n\nRybelsus es un problema de registro distinto: es una **tableta de una vez al día con reglas estrictas de horario.** Según Novo Nordisk y la etiqueta de la FDA, se toma **a primera hora de la mañana con el estómago vacío**, con **no más de 4 oz (unos 120 mL) de agua sola**, y luego se debe **esperar al menos 30 minutos** antes de comer, beber cualquier otra cosa o tomar otros medicamentos ([dosificación de Rybelsus en novoMEDLINK](https://www.novomedlink.com/diabetes/products/treatments/rybelsus/dosing-administration/dosing-and-prescribing.html); [etiqueta de Rybelsus de la FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf)). Trague la tableta entera: no la parta, triture ni mastique. Su titulación es **3 mg durante 30 días → 7 mg → 14 mg.** Para quienes toman la forma oral, la tarea del registro es un **recordatorio diario más la ventana de ayuno**, no un mapa de sitios de inyección, porque romper la regla del estómago vacío reduce la absorción sin que se note.\n\n## Las reglas de dosis omitida difieren según la marca: no las confunda\n\nEste es el dato sobre semaglutida que más se confunde, y equivocarse de marca importa. Anote cada dosis con fecha y hora para que la decisión sea un vistazo y no una conjetura.\n\n| Marca | Regla de dosis omitida |\n|---|---|\n| **Wegovy** (semanal) | Si la siguiente dosis está a **más de 2 días (48 h)**, tome la dosis omitida lo antes posible; si faltan menos de 2 días, sáltela y retome el calendario |\n| **Ozempic** (semanal) | Tome la dosis omitida lo antes posible **dentro de 5 días**; si han pasado más de 5 días, sáltela y retome el calendario (no tome dos dosis en un lapso de 48 h) |\n| **Rybelsus** (diario) | **Omita** por completo la dosis olvidada y tome la siguiente dosis al día siguiente; no duplique |\n\nFuentes: [dosificación de Wegovy en novoMEDLINK](https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html); [etiqueta de Ozempic de la FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf); [etiqueta de Rybelsus de la FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf). Siga siempre su propia etiqueta y a su prescriptor: esto es educación, no una indicación.\n\n## Semaglutida de marca vs. compounded: qué registrar y qué saber\n\nQuizá haya visto «semaglutida compounded» ofrecida por clínicas de telesalud o spas médicos, a menudo más barata que las plumas de marca. Esta es la realidad regulatoria a 2026, porque afecta lo que realmente se está inyectando.\n\n- **La semaglutida de marca** (Ozempic, Wegovy, Rybelsus) está **aprobada por la FDA**: se revisó su seguridad, eficacia y calidad de fabricación.\n- **La semaglutida compounded** **no está aprobada por la FDA.** La preparación de compuestos estuvo ampliamente permitida solo mientras la semaglutida estuvo en la lista de escasez de medicamentos de la FDA. La FDA declaró **resuelta esa escasez el 21 de febrero de 2025** y fijó plazos de cumplimiento: las farmacias **503A** hasta el **22 de abril de 2025** y las instalaciones de subcontratación **503B** hasta el **22 de mayo de 2025** ([declaración de política de la FDA sobre compounding](https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize)).\n- **Después de esas fechas**, ya no se permite la preparación rutinaria a gran escala de copias de la semaglutida aprobada; solo pueden quedar excepciones 503A estrechas y específicas para cada paciente (p. ej., una alergia documentada a un excipiente, o una concentración no disponible comercialmente).\n\nSi usa un producto compounded, anote con cuidado **la fuente exacta, la concentración y la dosis en sus propias unidades**: las formulaciones compounded pueden diferir en concentración y unidades de las plumas de marca, lo cual es un riesgo documentado de error de dosificación. Ante la duda, consulte a un farmacéutico con licencia o a su prescriptor, y prefiera productos aprobados por la FDA.\n\n## Semaglutida vs. tirzepatida: no es la misma molécula\n\nUna confusión común: **la semaglutida es un único agonista del receptor de GLP-1**, mientras que **la tirzepatida (Mounjaro, Zepbound) es un agonista dual de los receptores de GIP + GLP-1**: una molécula distinta que actúa sobre dos vías hormonales y que, en ensayos comparativos directos, produjo una mayor pérdida de peso promedio. Si está decidiendo entre ellas, o cambiando de una a otra, esa es otra conversación que se aborda en nuestra [guía de semaglutida vs. tirzepatida](/en/semaglutide-vs-tirzepatide). Para fines de registro, las dos no son intercambiables: nunca anote una dosis de tirzepatida en un calendario de semaglutida.\n\n## Cómo crear una rutina de registro de semaglutida en 6 pasos\n\nNo necesita un sistema complicado: necesita uno repetible. El registro básico toma menos de dos minutos a la semana (o un toque cada mañana con Rybelsus), además de breves toques diarios.\n\n1. **Configure un recordatorio de dosis que corresponda a su forma.** Una alerta semanal recurrente para Ozempic/Wegovy, o una alarma matutina diaria para Rybelsus, de modo que no se pierda la ventana de ayuno.\n2. **Anote la dosis justo después de tomarla.** Registre la cantidad en mg y, si se inyecta, marque la zona en el mapa corporal para que la rotación de la próxima semana sea evidente.\n3. **Pésese en días fijos.** Elija 1–3 mañanas por semana, en las mismas condiciones, y lea la tendencia, no el ruido diario.\n4. **Registre proteína y agua a diario.** Un toque rápido por comida mantiene al día la protección muscular.\n5. **Anote los efectos secundarios cuando ocurran.** Registre el síntoma, la gravedad y los días transcurridos desde su última dosis o aumento de dosis.\n6. **Tome una foto cada 2–4 semanas y revise antes de cada consulta.** Con la misma luz y el mismo ángulo; y lleve a su médico su registro de dosis y la cronología de efectos secundarios.\n\n## ¿Necesita una app de semaglutida o basta con un cuaderno?\n\nHonestamente, cualquier registro es mejor que ninguno: un **diario de semaglutida** en un cuaderno funciona. Lo que añade una app es la automatización de lo que la gente olvida: el recordatorio de dosis ajustado a semanal o diario, el mapa de rotación de sitios de inyección para las plumas, la línea de tendencia que suaviza el ruido diario del peso y una cronología de efectos secundarios que puede entregar a su médico. Ninguna de las tres marcas incluye una app complementaria dedicada, así que la mayoría de las personas usa un registro general de GLP-1 o de bienestar. Si quiere que su registro de dosis conviva con los hábitos diarios que protegen sus resultados (proteína, movimiento, hidratación, tendencias de peso y composición corporal), una app de bienestar como [HAVIT](https://www.aihavit.com) es un lugar natural para ello. Compare opciones en nuestra [guía de las mejores apps de registro de GLP-1](/en/glp-1-tracker-app) y elija la que realmente seguirá usando; la constancia importa mucho más que la marca.\n\n## Guías relacionadas\n\n- [Registro de Ozempic: qué anotar con Ozempic y cómo](/es/ozempic-tracker)\n- [Registro de Wegovy: qué registrar con Wegovy y cómo](/es/wegovy-tracker)\n- [Semaglutida vs. tirzepatida: ¿qué GLP-1 es el adecuado para usted?](/en/semaglutide-vs-tirzepatide)\n- [La guía completa de apps de registro de GLP-1](/en/glp-1-tracker-app)\n\n## Por qué HAVIT: medicamento + cambio de conducta, en una sola app\n\nLos medicamentos GLP-1 pueden reducir el peso de manera significativa, pero el número en la báscula es solo una parte de la historia. La proporción de masa magra dentro del peso perdido con la terapia con GLP-1 ha oscilado entre 40–60% en algunos ensayos y 15% o menos en otros, y la masa magra incluye órganos, hueso y líquido, no solo músculo ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)); además, los resultados tienden a desvanecerse cuando se suspende el medicamento, a menos que nuevos hábitos ocupen su lugar. Por eso las guías principales consideran el medicamento como una parte de la atención, no como el todo: el U.S. Preventive Services Task Force recomienda que a los adultos con obesidad se les ofrezcan intervenciones conductuales intensivas y multicomponente ([USPSTF, Grado B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT está diseñada para este momento: una sola app que une el registro de medicamentos, la composición corporal, la nutrición y la proteína, la creación de hábitos diarios y un coach de IA que se adapta a usted. Entre nuestros propios 1,090 usuarios de GLP-1, quienes registraban con más constancia crearon los hábitos más sólidos ([vea el informe de hábitos con GLP-1](/en/glp-1-habit-report)).\n\nCuide el medicamento y el músculo, juntos. [Comience con HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "¿Qué es la semaglutida? Una molécula, tres marcas",
+        "headers": [
+          "Marca",
+          "Forma y horario",
+          "Uso aprobado por la FDA",
+          "Rango de dosis"
+        ],
+        "rows": [
+          [
+            "Ozempic",
+            "Inyección una vez por semana",
+            "Diabetes tipo 2",
+            "0.25 → 0.5 → 1 → hasta 2 mg"
+          ],
+          [
+            "Wegovy",
+            "Inyección una vez por semana",
+            "Control crónico del peso",
+            "0.25 → 0.5 → 1 → 1.7 → 2.4 mg"
+          ],
+          [
+            "Rybelsus",
+            "Tableta oral diaria",
+            "Diabetes tipo 2",
+            "3 → 7 → 14 mg"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "¿Qué es un registro de semaglutida?",
+          "answer": "Es cualquier herramienta (app, hoja de cálculo o cuaderno) que registra las partes clave del tratamiento con semaglutida: su dosis y fecha, el sitio de inyección (o el horario de la pastilla en el caso de Rybelsus), peso, proteína, agua, efectos secundarios y fotos. Los convierte en recordatorios y gráficas de tendencia que puede revisar y compartir con su médico."
+        },
+        {
+          "question": "¿Ozempic, Wegovy y Rybelsus son el mismo medicamento?",
+          "answer": "Sí: los tres contienen el mismo principio activo, la semaglutida, un único agonista del receptor de GLP-1. Se diferencian por su forma y aprobación: Ozempic y Rybelsus son para la diabetes tipo 2 (inyección y tableta oral), mientras que Wegovy es una inyección para el control del peso, cada uno con su propio calendario de dosis."
+        },
+        {
+          "question": "¿En qué se diferencia el registro de la semaglutida oral (Rybelsus)?",
+          "answer": "Rybelsus es una tableta diaria con horarios estrictos: se toma a primera hora de la mañana con el estómago vacío y con no más de 4 oz de agua, y luego se espera al menos 30 minutos antes de cualquier otra cosa. Por eso un registro de Rybelsus se centra en un recordatorio diario y la ventana de ayuno, no en un mapa de sitios de inyección."
+        },
+        {
+          "question": "¿Qué calendario de dosis de semaglutida debo registrar?",
+          "answer": "Depende de la marca. Ozempic avanza 0.25 → 0.5 → 1 → hasta 2 mg por semana; Wegovy avanza 0.25 → 0.5 → 1 → 1.7 → 2.4 mg por semana; Rybelsus avanza 3 → 7 → 14 mg por día. Anote qué dosis tomó y en qué fecha para que su prescriptor vea el historial completo."
+        },
+        {
+          "question": "¿Qué pasa si olvido una dosis de semaglutida?",
+          "answer": "Varía según la marca. Wegovy usa una regla de 2 días, Ozempic una regla de 5 días, y con Rybelsus se indica omitir la dosis olvidada y retomar al día siguiente. Nunca duplique la dosis. Justo por eso es tan útil un registro de dosis con fecha y hora; siga siempre su propia etiqueta."
+        },
+        {
+          "question": "¿La semaglutida compounded es igual a la de marca?",
+          "answer": "No. La semaglutida de marca está aprobada por la FDA; las versiones compounded no. La preparación amplia de compuestos se permitió solo durante la escasez declarada por la FDA, que se declaró resuelta el 21 de febrero de 2025, con plazos 503A/503B entre abril y mayo de 2025. Si usa un producto compounded, anote con cuidado su fuente exacta, concentración y unidades."
+        },
+        {
+          "question": "¿La semaglutida es lo mismo que la tirzepatida?",
+          "answer": "No. La semaglutida es un único agonista del receptor de GLP-1 (Ozempic, Wegovy, Rybelsus). La tirzepatida (Mounjaro, Zepbound) es una molécula distinta, dual de GIP + GLP-1. No son intercambiables, así que nunca anote una dosis de tirzepatida en un calendario de semaglutida."
+        },
+        {
+          "question": "¿Existe una app oficial para registrar la semaglutida?",
+          "answer": "Ninguna marca de semaglutida incluye una app de registro complementaria dedicada. La mayoría de las personas usa una app general de GLP-1 o de bienestar, o un simple cuaderno, para anotar dosis, sitios u horario de la pastilla, peso y efectos secundarios. Elija la que vaya a seguir usando; eso importa más que la herramienta específica."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — Ozempic (semaglutide) injection, prescribing information (dose escalation, missed dose within 5 days). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — Wegovy (semaglutide) prescribing information (2.4 mg escalation, 2-day missed-dose rule). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215256s033lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — Rybelsus (semaglutide) tablets, prescribing information (3/7/14 mg, empty-stomach administration, skip missed dose). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf"
+        },
+        {
+          "text": "Novo Nordisk (novoMEDLINK) — Rybelsus dosing & administration (take with ≤4 oz water, wait ≥30 minutes). novomedlink.com",
+          "url": "https://www.novomedlink.com/diabetes/products/treatments/rybelsus/dosing-administration/dosing-and-prescribing.html"
+        },
+        {
+          "text": "Novo Nordisk (novoMEDLINK) — Wegovy dosing & administration: escalation and 2-day missed-dose guidance. novomedlink.com",
+          "url": "https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html"
+        },
+        {
+          "text": "Novo Nordisk — Ozempic pen dosing & administration. ozempic.com",
+          "url": "https://www.ozempic.com/ozempic-pen/dosing.html"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — FDA clarifies policies for compounders as national GLP-1 supply begins to stabilize (semaglutide shortage resolved Feb 21, 2025; 503A/503B deadlines). fda.gov",
+          "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 agonists: uses, how they work, and side effects. my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Mayo Clinic — Semaglutide (subcutaneous route): description and proper use. mayoclinic.org",
+          "url": "https://www.mayoclinic.org/drugs-supplements/semaglutide-subcutaneous-route/description/drg-20406730"
+        },
+        {
+          "text": "Frontiers in Clinical Diabetes and Healthcare (via PMC) — GLP-1 agonists, lean-mass loss, and the role of exercise and protein. pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/"
+        },
+        {
+          "text": "All medical claims verified against the cited FDA labels, Novo Nordisk materials, and FDA compounding statements as of July 2026. Re-review at least every 12 months or sooner if an FDA label changes.*"
+        }
+      ],
+      "last_updated": "2026-07-02"
+    },
+    "pt-BR": {
+      "title": "Controle da Semaglutida: o que registrar (Ozempic, Wegovy, Rybelsus)",
+      "short_title": "Controle da semaglutida: o que registrar",
+      "meta_description": "Um controle da semaglutida registra sua dose, local da injeção ou horário do comprimido, tendência de peso, proteína e efeitos colaterais no Ozempic, Wegovy e Rybelsus. Veja o que registrar.",
+      "short_description": "Veja o que registrar na semaglutida: dose, local da injeção ou horário do comprimido, peso, proteína e efeitos colaterais no Ozempic, Wegovy e Rybelsus.",
+      "tldr": "Um controle da semaglutida registra sua dose, local da injeção ou horário do comprimido, tendência de peso, proteína e efeitos colaterais no Ozempic, Wegovy e Rybelsus. Veja o que registrar.",
+      "body_md": "**Semaglutida** é um único agonista do receptor de GLP-1 — uma só molécula — vendido sob três nomes comerciais: **Ozempic** (injeção semanal para diabetes tipo 2), **Wegovy** (injeção semanal para controle crônico de peso) e **Rybelsus** (comprimido oral diário para diabetes tipo 2). Ela *não* é o mesmo medicamento que a tirzepatida (Mounjaro, Zepbound), que é uma molécula diferente, de duplo hormônio. Como o mesmo princípio ativo vem em doses, vias e esquemas diferentes, a *única* coisa que todo plano com semaglutida recompensa é um registro organizado. Este guia aborda *o que* registrar na semaglutida, como o registro difere entre as formas injetável e oral, e como a semaglutida de marca versus a manipulada muda o cenário. O conteúdo é neutro e educativo — você pode fazer tudo isso no papel.\n\nSe você já sabe qual é a sua marca, vá direto aos guias específicos: nosso [guia de controle do Ozempic](/pt-br/ozempic-tracker) e o [guia de controle do Wegovy](/pt-br/wegovy-tracker). Se quiser primeiro ver o panorama geral para todos os GLP-1, comece pelo [guia completo de aplicativos de controle de GLP-1](/en/glp-1-tracker-app).\n\n## O que é a semaglutida? Uma molécula, três marcas\n\nA semaglutida imita o hormônio intestinal GLP-1, que retarda o esvaziamento do estômago e age nos centros de apetite do cérebro ([Cleveland Clinic](https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists)). A confusão em que a maioria das pessoas cai é que a *mesma* molécula é comercializada com três nomes, com indicações, doses e esquemas diferentes. Aqui está o mapa — e é exatamente por isso que um controle é importante.\n\n*(Doses conforme as bulas da FDA — veja as Referências. A prescrição off-label acontece; siga sempre o seu prescritor e a bula.)*\n\nA conclusão: seja qual for a marca, você está usando semaglutida — mas o esquema que você precisa *registrar* é diferente para cada uma. É isso que o restante deste guia detalha.\n\n## Por que registrar é importante especificamente na semaglutida\n\nTrês características da semaglutida fazem do registro mais do que algo desejável:\n\n- **A dose aumenta de forma programada.** Toda marca de semaglutida começa com dose baixa e sobe ao longo de semanas para reduzir os efeitos colaterais gastrointestinais. Registrar qual dose você tomou em qual data mantém você alinhado a esse plano e dá ao seu prescritor um histórico exato nas consultas de ajuste.\n- **O horário é fácil de perder.** Uma injeção semanal é fácil de esquecer ou atrasar; um comprimido diário tem regras rígidas de jejum que são fáceis de quebrar. Em ambos os casos, um registro com data e hora transforma o estressante \"será que tomei?\" em uma olhada rápida.\n- **Resultados e efeitos colaterais não são lineares.** O peso cai aos trancos e com platôs, e a náusea tende a aumentar logo após cada aumento de dose. Somente uma tendência — e não um único dia — mostra o que realmente está acontecendo.\n\n## O que registrar na semaglutida (e por que cada item importa)\n\nEste é o conjunto básico de dados da semaglutida. Use-o como lista de verificação, seja você usuário de injeção (Ozempic/Wegovy) ou do comprimido oral (Rybelsus), no papel, em uma planilha ou em um aplicativo.\n\n| O que registrar | Por que importa | Com que frequência |\n|---|---|---|\n| **Data e quantidade da dose (mg)** | Mantém você alinhado ao esquema de titulação; confirma a adesão; evita dose dupla acidental | A cada dose (injeção semanal / comprimido diário) |\n| **Local da injeção e rodízio** (injetável) | Alternar os locais evita tecido cicatricial endurecido (lipo-hipertrofia) que altera a absorção do medicamento | A cada injeção |\n| **Horário do comprimido e janela de jejum** (oral) | O Rybelsus só é absorvido corretamente com o estômago vazio, com a água certa e o tempo de espera | A cada dose matinal |\n| **Peso corporal** | O principal resultado; a tendência revela platôs e adaptação metabólica | 1–3× por semana, no mesmo horário do dia |\n| **Cintura / medidas** | Capta a perda de gordura que a balança não mostra, especialmente ao preservar músculo | A cada 1–2 semanas |\n| **Ingestão de proteína (gramas)** | Protege a massa magra, que está em risco durante a perda de peso rápida | Diariamente |\n| **Água / hidratação** | Ameniza a constipação e a náusea comuns nas primeiras semanas | Diariamente |\n| **Efeitos colaterais e gravidade** | Separa a adaptação normal de sintomas de alerta que precisam de médico | Conforme ocorrerem |\n| **Glicemia** (se tiver diabetes) | Ozempic e Rybelsus são medicamentos para diabetes; a glicose é um resultado central | Conforme seu plano de cuidado |\n| **Reposição / estoque** | Uma caneta semanal ou uma cartela de comprimidos diários acaba em data previsível; evita um intervalo na cobertura | Mensalmente |\n\n## Semaglutida injetável vs oral: o que muda no registro\n\nEsta é a bifurcação que confunde as pessoas. O princípio ativo é idêntico, mas *o que você registra* depende de você injetar ou engolir o medicamento.\n\n### Semaglutida injetável (Ozempic e Wegovy)\n\nAs duas marcas injetáveis são aplicadas por via subcutânea no **abdômen** (a pelo menos cinco centímetros do umbigo — two inches), na **parte da frente da coxa** ou na **parte superior do braço**, alternando a cada semana ([guia da caneta em wegovy.com](https://www.wegovy.com/obesity/starting-wegovy/starting-wegovy-pen.html); [dosagem em ozempic.com](https://www.ozempic.com/ozempic-pen/dosing.html)). Injetar repetidamente no mesmo local pode causar **lipo-hipertrofia** — tecido cicatricial endurecido que altera a absorção. Registre **quantos mg você tomou, em que data, em qual local.** Os esquemas de titulação são diferentes:\n\n- **Ozempic** sobe de 0,25 mg (semanas 1–4, dose inicial, não para controle glicêmico) → 0,5 mg → 1 mg → até o máximo de 2 mg, conforme orientação do seu prescritor ([bula do Ozempic da FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf)).\n- **Wegovy** sobe de 0,25 → 0,5 → 1 → 1,7 → 2,4 mg de manutenção ([dosagem do Wegovy no novoMEDLINK](https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html)).\n\nComo as duas marcas chegam a doses máximas diferentes, um registro de doses elimina qualquer dúvida sobre em que ponto você está no seu esquema específico. Veja nosso [controle do Ozempic](/pt-br/ozempic-tracker) e [controle do Wegovy](/pt-br/wegovy-tracker) para o detalhamento marca a marca.\n\n### Semaglutida oral (Rybelsus)\n\nO Rybelsus é um problema de registro diferente: é um **comprimido de uso diário com regras rígidas de horário.** Segundo a Novo Nordisk e a bula da FDA, tome-o **logo de manhã, em jejum**, com **no máximo 4 oz (cerca de 120 mL) de água pura**, e depois **espere pelo menos 30 minutos** antes de comer, beber qualquer outra coisa ou tomar outros medicamentos ([dosagem do Rybelsus no novoMEDLINK](https://www.novomedlink.com/diabetes/products/treatments/rybelsus/dosing-administration/dosing-and-prescribing.html); [bula do Rybelsus da FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf)). Engula o comprimido inteiro — não o parta, esmague nem mastigue. A titulação é de **3 mg por 30 dias → 7 mg → 14 mg.** Para quem usa a forma oral, a função do controle é um **lembrete diário mais a janela de jejum**, não um mapa de locais de injeção — porque quebrar a regra do estômago vazio reduz a absorção sem que você perceba.\n\n## As regras de dose esquecida diferem por marca — não as confunda\n\nEste é o fato sobre semaglutida mais confundido, e errar na marca errada faz diferença. Registre cada dose com data e hora para que a decisão seja uma olhada, não um palpite.\n\n| Marca | Regra de dose esquecida |\n|---|---|\n| **Wegovy** (semanal) | Se a próxima dose estiver a **mais de 2 dias (48 h)**, tome a dose esquecida o quanto antes; se estiver a menos de 2 dias, pule-a e retome o esquema |\n| **Ozempic** (semanal) | Tome a dose esquecida o quanto antes **dentro de 5 dias**; se tiverem passado mais de 5 dias, pule-a e retome o esquema (não tome duas doses em um intervalo de 48 h) |\n| **Rybelsus** (diário) | **Pule** completamente a dose esquecida e tome a próxima dose no dia seguinte — não dobre a dose |\n\nFontes: [dosagem do Wegovy no novoMEDLINK](https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html); [bula do Ozempic da FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf); [bula do Rybelsus da FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf). Siga sempre a sua bula e o seu prescritor — isto é educação, não orientação.\n\n## Semaglutida de marca vs manipulada: o que registrar e saber\n\nVocê pode ter visto \"semaglutida manipulada\" oferecida por clínicas de telessaúde ou spas médicos, muitas vezes mais barata que as canetas de marca. Esta é a realidade regulatória em 2026, porque ela afeta o que você está de fato injetando.\n\n- **A semaglutida de marca** (Ozempic, Wegovy, Rybelsus) é **aprovada pela FDA** — avaliada quanto à segurança, eficácia e qualidade de fabricação.\n- **A semaglutida manipulada** **não é aprovada pela FDA.** A manipulação foi amplamente permitida apenas enquanto a semaglutida estava na lista de escassez de medicamentos da FDA. A FDA declarou que **a escassez foi resolvida em 21 de fevereiro de 2025** e definiu prazos de fiscalização: farmácias **503A** até **22 de abril de 2025** e instalações terceirizadas **503B** até **22 de maio de 2025** ([declaração da FDA sobre a política de manipulação](https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize)).\n- **Após essas datas**, a manipulação rotineira em larga escala de cópias da semaglutida aprovada não é mais permitida; apenas exceções 503A restritas, específicas para cada paciente (por exemplo, alergia documentada a um excipiente ou uma concentração não disponível comercialmente), podem continuar.\n\nSe você usa um produto manipulado, registre com atenção **a origem exata, a concentração e a dose nas suas próprias unidades** — as formulações manipuladas podem diferir em concentração e unidades das canetas de marca, o que é um risco documentado de erro de dose. Em caso de dúvida, pergunte a um farmacêutico licenciado ou ao seu prescritor, e dê preferência a produtos aprovados pela FDA.\n\n## Semaglutida vs tirzepatida: não é a mesma molécula\n\nUma confusão comum: **a semaglutida é um único agonista do receptor de GLP-1**, enquanto **a tirzepatida (Mounjaro, Zepbound) é um agonista duplo dos receptores de GIP + GLP-1** — uma molécula diferente que age em duas vias hormonais e, em estudos comparativos diretos, produziu maior perda de peso média. Se você está decidindo entre elas, ou trocando, essa é outra conversa, tratada em nosso [guia semaglutida vs tirzepatida](/en/semaglutide-vs-tirzepatide). Para fins de registro, as duas não são intercambiáveis: nunca registre uma dose de tirzepatida em um esquema de semaglutida.\n\n## Como montar uma rotina de registro da semaglutida em 6 passos\n\nVocê não precisa de um sistema complicado — precisa de um sistema repetível. O registro básico leva menos de dois minutos por semana (ou um toque por manhã no Rybelsus), mais toques rápidos diários.\n\n1. **Defina um lembrete de dose que combine com a sua forma.** Um alerta semanal recorrente para Ozempic/Wegovy, ou um alarme diário pela manhã para o Rybelsus, para que a janela de jejum não seja perdida.\n2. **Registre a dose logo após tomá-la.** Anote a quantidade em mg e — se for injeção — marque a região no mapa corporal para que o rodízio da próxima semana fique óbvio.\n3. **Pese-se em dias fixos.** Escolha 1–3 manhãs por semana, nas mesmas condições, e leia a tendência — não o ruído diário.\n4. **Registre proteína e água diariamente.** Um toque rápido por refeição mantém a proteção muscular em dia.\n5. **Anote os efeitos colaterais quando acontecerem.** Registre o sintoma, a gravidade e os dias desde a última dose ou aumento de dose.\n6. **Tire uma foto a cada 2–4 semanas e revise antes de cada consulta.** Mesma iluminação, mesmo ângulo — e leve seu registro de doses e a linha do tempo de efeitos colaterais ao seu profissional de saúde.\n\n## Você precisa de um aplicativo de semaglutida ou um caderno basta?\n\nHonestamente, qualquer registro é melhor que nenhum — um **diário da semaglutida** em um caderno funciona. O que um aplicativo acrescenta é a automação das partes que as pessoas esquecem: o lembrete de dose ajustado para semanal ou diário, o mapa de rodízio dos locais de injeção para as canetas, a linha de tendência que suaviza o ruído diário do peso e uma linha do tempo de efeitos colaterais que você pode entregar ao seu profissional de saúde. Nenhuma das três marcas vem com um aplicativo complementar dedicado, então a maioria das pessoas usa um controle geral de GLP-1 ou de bem-estar. Se você quer o registro de doses ao lado dos hábitos diários que protegem seus resultados — proteína, movimento, hidratação, tendências de peso e composição corporal —, um aplicativo de bem-estar como o [HAVIT](https://www.aihavit.com) é um lugar natural para isso. Compare opções em nosso [guia dos melhores aplicativos de controle de GLP-1](/en/glp-1-tracker-app) e escolha o que você realmente vai continuar usando; a constância importa muito mais que a marca.\n\n## Guias relacionados\n\n- [Controle do Ozempic: o que registrar no Ozempic e como](/pt-br/ozempic-tracker)\n- [Controle do Wegovy: o que registrar no Wegovy e como](/pt-br/wegovy-tracker)\n- [Semaglutida vs. tirzepatida: qual GLP-1 é o certo para você?](/en/semaglutide-vs-tirzepatide)\n- [O guia completo de aplicativos de controle de GLP-1](/en/glp-1-tracker-app)\n\n## Por que o HAVIT — Medicação + Mudança de Comportamento, em Um Só Aplicativo\n\nOs medicamentos GLP-1 podem reduzir o peso de forma significativa — mas o número na balança é só parte da história. A parcela de massa magra do peso perdido com a terapia com GLP-1 variou de 40–60% em alguns estudos a 15% ou menos em outros — e a massa magra inclui órgãos, ossos e líquidos, não apenas músculo ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), e os resultados tendem a se perder quando o medicamento é interrompido, a menos que novos hábitos ocupem o lugar. É por isso que as principais diretrizes tratam a medicação como uma parte do cuidado, não o todo: a U.S. Preventive Services Task Force recomenda que adultos com obesidade recebam intervenções comportamentais intensivas e multicomponentes ([USPSTF, Grau B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nO HAVIT foi criado exatamente para este momento — um aplicativo que reúne controle de medicação, composição corporal, nutrição e proteína, construção de hábitos diários e um coach de IA que se adapta a você. Entre nossos 1090 usuários de GLP-1, os que mais registravam com constância construíram os hábitos mais fortes ([veja o relatório de hábitos com GLP-1](/en/glp-1-habit-report)).\n\nCuide do medicamento e do músculo — juntos. [Comece com o HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "O que é a semaglutida? Uma molécula, três marcas",
+        "headers": [
+          "Marca",
+          "Forma e esquema",
+          "Uso aprovado pela FDA",
+          "Faixa de dose"
+        ],
+        "rows": [
+          [
+            "Ozempic",
+            "Injeção uma vez por semana",
+            "Diabetes tipo 2",
+            "0,25 → 0,5 → 1 → até 2 mg"
+          ],
+          [
+            "Wegovy",
+            "Injeção uma vez por semana",
+            "Controle crônico de peso",
+            "0,25 → 0,5 → 1 → 1,7 → 2,4 mg"
+          ],
+          [
+            "Rybelsus",
+            "Comprimido oral diário",
+            "Diabetes tipo 2",
+            "3 → 7 → 14 mg"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "O que é um controle da semaglutida?",
+          "answer": "É qualquer ferramenta — aplicativo, planilha ou caderno — que registra as partes principais do tratamento com semaglutida: sua dose e data, o local da injeção (ou o horário do comprimido no Rybelsus), peso, proteína, água, efeitos colaterais e fotos. Ela os transforma em lembretes e gráficos de tendência que você pode revisar e compartilhar com seu médico."
+        },
+        {
+          "question": "Ozempic, Wegovy e Rybelsus são o mesmo medicamento?",
+          "answer": "Sim — os três contêm o mesmo princípio ativo, a semaglutida, um único agonista do receptor de GLP-1. Eles diferem na forma e na aprovação: Ozempic e Rybelsus são para diabetes tipo 2 (injeção e comprimido oral), enquanto o Wegovy é uma injeção para controle de peso, cada um com seu próprio esquema de doses."
+        },
+        {
+          "question": "Como o registro da semaglutida oral (Rybelsus) é diferente?",
+          "answer": "O Rybelsus é um comprimido diário com horário rígido: tome-o logo de manhã, em jejum, com no máximo 4 oz de água, e depois espere pelo menos 30 minutos antes de qualquer outra coisa. Por isso, o controle do Rybelsus se concentra em um lembrete diário e na janela de jejum, não em um mapa de locais de injeção."
+        },
+        {
+          "question": "Qual esquema de doses da semaglutida devo registrar?",
+          "answer": "Depende da marca. O Ozempic sobe 0,25 → 0,5 → 1 → até 2 mg por semana; o Wegovy sobe 0,25 → 0,5 → 1 → 1,7 → 2,4 mg por semana; o Rybelsus sobe 3 → 7 → 14 mg por dia. Registre qual dose você tomou em qual data para que seu prescritor veja o histórico completo."
+        },
+        {
+          "question": "O que acontece se eu esquecer uma dose de semaglutida?",
+          "answer": "Varia conforme a marca. O Wegovy usa uma regra de 2 dias, o Ozempic uma regra de 5 dias, e o Rybelsus diz para pular a dose esquecida e retomar no dia seguinte. Nunca dobre a dose. É exatamente por isso que um registro de doses com data e hora é tão útil — siga sempre a sua bula."
+        },
+        {
+          "question": "A semaglutida manipulada é igual à de marca?",
+          "answer": "Não. A semaglutida de marca é aprovada pela FDA; as versões manipuladas não são. A manipulação em larga escala foi permitida apenas durante a escassez declarada pela FDA, que foi considerada resolvida em 21 de fevereiro de 2025, com prazos 503A/503B em abril–maio de 2025. Se você usa um produto manipulado, registre com atenção sua origem exata, concentração e unidades."
+        },
+        {
+          "question": "A semaglutida é a mesma coisa que a tirzepatida?",
+          "answer": "Não. A semaglutida é um único agonista do receptor de GLP-1 (Ozempic, Wegovy, Rybelsus). A tirzepatida (Mounjaro, Zepbound) é uma molécula diferente, dupla de GIP + GLP-1. Elas não são intercambiáveis, então nunca registre uma dose de tirzepatida em um esquema de semaglutida."
+        },
+        {
+          "question": "Existe um aplicativo oficial de controle da semaglutida?",
+          "answer": "Nenhuma marca de semaglutida vem com um aplicativo complementar de controle dedicado. A maioria das pessoas usa um aplicativo geral de GLP-1 ou de bem-estar, ou um simples caderno, para registrar doses, locais ou horário do comprimido, peso e efeitos colaterais. Escolha o que você vai continuar usando — isso importa mais que a ferramenta específica."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — Ozempic (semaglutide) injection, prescribing information (dose escalation, missed dose within 5 days). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — Wegovy (semaglutide) prescribing information (2.4 mg escalation, 2-day missed-dose rule). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215256s033lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — Rybelsus (semaglutide) tablets, prescribing information (3/7/14 mg, empty-stomach administration, skip missed dose). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf"
+        },
+        {
+          "text": "Novo Nordisk (novoMEDLINK) — Rybelsus dosing & administration (take with ≤4 oz water, wait ≥30 minutes). novomedlink.com",
+          "url": "https://www.novomedlink.com/diabetes/products/treatments/rybelsus/dosing-administration/dosing-and-prescribing.html"
+        },
+        {
+          "text": "Novo Nordisk (novoMEDLINK) — Wegovy dosing & administration: escalation and 2-day missed-dose guidance. novomedlink.com",
+          "url": "https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html"
+        },
+        {
+          "text": "Novo Nordisk — Ozempic pen dosing & administration. ozempic.com",
+          "url": "https://www.ozempic.com/ozempic-pen/dosing.html"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — FDA clarifies policies for compounders as national GLP-1 supply begins to stabilize (semaglutide shortage resolved Feb 21, 2025; 503A/503B deadlines). fda.gov",
+          "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 agonists: uses, how they work, and side effects. my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Mayo Clinic — Semaglutide (subcutaneous route): description and proper use. mayoclinic.org",
+          "url": "https://www.mayoclinic.org/drugs-supplements/semaglutide-subcutaneous-route/description/drg-20406730"
+        },
+        {
+          "text": "Frontiers in Clinical Diabetes and Healthcare (via PMC) — GLP-1 agonists, lean-mass loss, and the role of exercise and protein. pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/"
+        },
+        {
+          "text": "All medical claims verified against the cited FDA labels, Novo Nordisk materials, and FDA compounding statements as of July 2026. Re-review at least every 12 months or sooner if an FDA label changes.*"
+        }
+      ],
+      "last_updated": "2026-07-02"
+    },
+    "id": {
+      "title": "Pencatat Semaglutide: Apa yang Perlu Dicatat (Ozempic, Wegovy, Rybelsus)",
+      "short_title": "Pencatat Semaglutide: Apa yang Perlu Dicatat",
+      "meta_description": "Pencatat semaglutide mencatat dosis, lokasi suntikan atau waktu minum pil, tren berat badan, protein & efek samping pada Ozempic, Wegovy & Rybelsus. Ini yang perlu dicatat.",
+      "short_description": "Catat dosis, lokasi suntikan atau waktu pil, berat badan, protein, dan efek samping untuk Ozempic, Wegovy & Rybelsus. Ini daftar yang perlu dicatat.",
+      "tldr": "Pencatat semaglutide mencatat dosis, lokasi suntikan atau waktu minum pil, tren berat badan, protein & efek samping pada Ozempic, Wegovy & Rybelsus. Ini yang perlu dicatat.",
+      "body_md": "**Semaglutide** adalah satu agonis reseptor GLP-1 — satu molekul — yang dijual dengan tiga nama merek: **Ozempic** (suntikan mingguan untuk diabetes tipe 2), **Wegovy** (suntikan mingguan untuk penanganan berat badan kronis), dan **Rybelsus** (tablet oral harian untuk diabetes tipe 2). Obat ini *bukan* obat yang sama dengan tirzepatide (Mounjaro, Zepbound), yang merupakan molekul berbeda dengan dua hormon. Karena bahan aktif yang sama hadir dalam dosis, cara pemberian, dan jadwal yang berbeda, hal *satu-satunya* yang selalu bermanfaat dalam setiap rencana semaglutide adalah pencatatan yang rapi. Panduan ini membahas *apa* yang perlu dicatat pada semaglutide, bagaimana pencatatan berbeda antara bentuk suntik dan oral, dan bagaimana semaglutide merek dibandingkan semaglutide racikan (compounded) mengubah gambarannya. Panduan ini netral dan bersifat edukasi — semuanya bisa Anda lakukan di atas kertas.\n\nJika Anda sudah tahu merek yang Anda gunakan, langsung ke panduan khusus merek: [panduan pencatat Ozempic](/id/ozempic-tracker) dan [panduan pencatat Wegovy](/id/wegovy-tracker) kami. Jika Anda ingin kerangka umum untuk semua GLP-1 terlebih dahulu, mulailah dengan [panduan lengkap aplikasi pencatat GLP-1](/en/glp-1-tracker-app).\n\n## Apa itu semaglutide? Satu molekul, tiga merek\n\nSemaglutide meniru hormon usus GLP-1, yang memperlambat pengosongan lambung dan bekerja pada pusat nafsu makan di otak ([Cleveland Clinic](https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists)). Kebingungan yang paling sering dialami adalah bahwa molekul yang *sama* dipasarkan dengan tiga nama dengan indikasi, dosis, dan jadwal yang berbeda. Berikut petanya — dan inilah alasan mengapa pencatat itu penting.\n\n*(Dosis menurut label FDA — lihat Referensi. Peresepan di luar indikasi (off-label) memang terjadi; selalu ikuti dokter yang meresepkan dan label Anda sendiri.)*\n\nKesimpulannya: merek apa pun yang Anda gunakan, Anda memakai semaglutide — tetapi jadwal yang harus Anda *catat* berbeda untuk setiap merek. Itulah yang diuraikan di bagian selanjutnya panduan ini.\n\n## Mengapa pencatatan penting khususnya pada semaglutide\n\nTiga ciri semaglutide membuat pencatatan lebih dari sekadar pelengkap:\n\n- **Dosis ditingkatkan sesuai jadwal.** Setiap merek semaglutide dimulai dari dosis rendah dan naik bertahap selama beberapa minggu untuk mengurangi efek samping pencernaan. Mencatat dosis mana yang Anda gunakan pada tanggal berapa membuat Anda tetap sesuai rencana dan memberi dokter riwayat yang tepat saat penyesuaian dosis.\n- **Waktunya mudah terlewat.** Suntikan mingguan mudah terlupa atau tertunda; pil harian memiliki aturan puasa ketat yang mudah dilanggar. Dalam kedua kasus, catatan dengan penanda waktu mengubah pertanyaan membuat stres \"sudah belum ya?\" menjadi cukup sekali lirik.\n- **Hasil dan efek samping tidak linear.** Berat badan turun naik-turun dan sempat mendatar, dan mual cenderung meningkat tepat setelah setiap kenaikan dosis. Hanya tren — bukan satu hari saja — yang menunjukkan apa yang sebenarnya terjadi.\n\n## Apa yang perlu dicatat pada semaglutide (dan mengapa masing-masing penting)\n\nBerikut data inti semaglutide. Gunakan sebagai daftar periksa Anda, baik Anda menyuntik (Ozempic/Wegovy) maupun minum tablet oral (Rybelsus), di atas kertas, di spreadsheet, atau di aplikasi.\n\n| Apa yang dicatat | Mengapa penting | Seberapa sering |\n|---|---|---|\n| **Tanggal & jumlah dosis (mg)** | Menjaga Anda selaras dengan jadwal titrasi; memastikan kepatuhan; mencegah dosis ganda yang tidak disengaja | Setiap dosis (suntikan mingguan / pil harian) |\n| **Lokasi suntikan & rotasi** (suntik) | Merotasi lokasi mencegah jaringan parut yang menggumpal (lipohipertrofi) yang mengubah penyerapan obat | Setiap suntikan |\n| **Waktu minum pil & jendela puasa** (oral) | Rybelsus hanya terserap dengan benar pada perut kosong dengan air dan waktu tunggu yang tepat | Setiap dosis pagi |\n| **Berat badan** | Hasil utama; tren menunjukkan dataran (plateau) dan adaptasi metabolik | 1–3× per minggu, pada jam yang sama |\n| **Lingkar pinggang / ukuran tubuh** | Menangkap penurunan lemak yang tidak terlihat di timbangan, terutama saat mempertahankan otot | Setiap 1–2 minggu |\n| **Asupan protein (gram)** | Melindungi massa otot tanpa lemak, yang berisiko selama penurunan berat badan cepat | Setiap hari |\n| **Air / hidrasi** | Meringankan sembelit dan mual yang umum pada minggu-minggu awal | Setiap hari |\n| **Efek samping & tingkat keparahan** | Membedakan adaptasi normal dari gejala bahaya yang membutuhkan dokter | Saat terjadi |\n| **Gula darah** (jika diabetes) | Ozempic dan Rybelsus adalah obat diabetes; glukosa adalah hasil utama | Sesuai rencana perawatan Anda |\n| **Isi ulang / persediaan** | Pen mingguan atau kemasan pil harian habis pada tanggal yang dapat diprediksi; menghindari jeda cakupan | Bulanan |\n\n## Semaglutide suntik vs oral: apa yang berubah dalam pencatatan\n\nInilah persimpangan yang sering membingungkan. Bahan aktifnya identik, tetapi *apa yang Anda catat* bergantung pada apakah Anda menyuntik atau menelannya.\n\n### Semaglutide suntik (Ozempic & Wegovy)\n\nKedua merek suntik diberikan secara subkutan di **perut** (setidaknya dua inci dari pusar), **bagian depan paha**, atau **lengan atas**, dengan rotasi setiap minggu ([panduan pen wegovy.com](https://www.wegovy.com/obesity/starting-wegovy/starting-wegovy-pen.html); [dosis ozempic.com](https://www.ozempic.com/ozempic-pen/dosing.html)). Menyuntik di tempat yang sama berulang kali dapat menyebabkan **lipohipertrofi** — jaringan parut menggumpal yang mengubah penyerapan. Catat **berapa mg yang Anda gunakan, pada tanggal berapa, di lokasi mana.** Jadwal titrasi keduanya berbeda:\n\n- **Ozempic** naik 0,25 mg (minggu 1–4, dosis awal, bukan untuk kontrol glikemik) → 0,5 mg → 1 mg → hingga maksimum 2 mg, sesuai arahan dokter Anda ([label FDA Ozempic](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf)).\n- **Wegovy** naik 0,25 → 0,5 → 1 → 1,7 → 2,4 mg dosis pemeliharaan ([dosis Wegovy novoMEDLINK](https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html)).\n\nKarena kedua merek mencapai dosis puncak yang berbeda, catatan dosis menghilangkan keraguan tentang posisi Anda dalam jadwal spesifik Anda. Lihat [pencatat Ozempic](/id/ozempic-tracker) dan [pencatat Wegovy](/id/wegovy-tracker) kami untuk rincian per merek.\n\n### Semaglutide oral (Rybelsus)\n\nRybelsus adalah masalah pencatatan yang berbeda: ini adalah **tablet sekali sehari dengan aturan waktu yang ketat.** Menurut Novo Nordisk dan label FDA, minumlah **pertama kali di pagi hari pada perut kosong**, dengan **tidak lebih dari 4 oz (sekitar 120 mL) air putih**, lalu **tunggu setidaknya 30 menit** sebelum makan, minum apa pun yang lain, atau minum obat lain ([dosis Rybelsus novoMEDLINK](https://www.novomedlink.com/diabetes/products/treatments/rybelsus/dosing-administration/dosing-and-prescribing.html); [label FDA Rybelsus](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf)). Telan tablet utuh — jangan dibelah, dihancurkan, atau dikunyah. Titrasinya adalah **3 mg selama 30 hari → 7 mg → 14 mg.** Bagi pengguna oral, tugas pencatat adalah **pengingat harian ditambah jendela puasa**, bukan peta lokasi suntikan — karena melanggar aturan perut kosong secara diam-diam mengurangi penyerapan.\n\n## Aturan dosis terlewat berbeda per merek — jangan tertukar\n\nIni adalah fakta semaglutide yang paling sering dikacaukan, dan keliru menerapkannya pada merek yang salah itu penting. Catat setiap dosis dengan penanda waktu agar keputusannya cukup sekali lirik, bukan tebakan.\n\n| Merek | Aturan dosis terlewat |\n|---|---|\n| **Wegovy** (mingguan) | Jika dosis berikutnya **lebih dari 2 hari (48 jam)** lagi, gunakan dosis yang terlewat sesegera mungkin; jika kurang dari 2 hari lagi, lewati dan lanjutkan sesuai jadwal |\n| **Ozempic** (mingguan) | Gunakan dosis yang terlewat sesegera mungkin **dalam 5 hari**; jika sudah lebih dari 5 hari berlalu, lewati dan lanjutkan sesuai jadwal (jangan menggunakan dua dosis dalam 48 jam) |\n| **Rybelsus** (harian) | **Lewati** sepenuhnya dosis yang terlewat dan minum dosis berikutnya keesokan harinya — jangan menggandakan |\n\nSumber: [dosis Wegovy novoMEDLINK](https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html); [label FDA Ozempic](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf); [label FDA Rybelsus](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf). Selalu ikuti label dan dokter Anda sendiri — ini edukasi, bukan instruksi.\n\n## Semaglutide merek vs racikan (compounded): apa yang perlu dicatat dan diketahui\n\nAnda mungkin pernah melihat \"semaglutide racikan\" ditawarkan oleh klinik telehealth atau med-spa, sering kali lebih murah daripada pen bermerek. Berikut kenyataan regulasi per 2026, karena hal ini memengaruhi apa yang sebenarnya Anda suntikkan.\n\n- **Semaglutide bermerek** (Ozempic, Wegovy, Rybelsus) **disetujui FDA** — ditinjau keamanan, kemanjuran, dan kualitas produksinya.\n- **Semaglutide racikan** **tidak disetujui FDA.** Peracikan secara luas diizinkan hanya selama semaglutide berada dalam daftar kekurangan obat FDA. FDA menyatakan bahwa **kekurangan tersebut teratasi pada 21 Februari 2025**, dan menetapkan tenggat penegakan: apotek **503A** hingga **22 April 2025** dan fasilitas alih daya **503B** hingga **22 Mei 2025** ([pernyataan kebijakan peracikan FDA](https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize)).\n- **Setelah tanggal-tanggal tersebut**, peracikan rutin skala besar salinan semaglutide yang disetujui tidak lagi diizinkan; hanya pengecualian 503A sempit yang spesifik pasien (misalnya alergi eksipien yang terdokumentasi, atau kekuatan yang tidak tersedia secara komersial) yang mungkin tetap ada.\n\nJika Anda menggunakan produk racikan, catat dengan cermat **sumber yang tepat, konsentrasi, dan dosis dalam satuan Anda sendiri** — formulasi racikan dapat berbeda kekuatan dan satuannya dari pen bermerek, yang merupakan risiko kesalahan dosis yang terdokumentasi. Jika ragu, tanyakan kepada apoteker berlisensi atau dokter Anda, dan pilih produk yang disetujui FDA.\n\n## Semaglutide vs tirzepatide: bukan molekul yang sama\n\nKekeliruan yang umum: **semaglutide adalah satu agonis reseptor GLP-1**, sedangkan **tirzepatide (Mounjaro, Zepbound) adalah agonis reseptor ganda GIP + GLP-1** — molekul berbeda yang bekerja pada dua jalur hormon dan, dalam uji perbandingan langsung, menghasilkan penurunan berat badan rata-rata yang lebih besar. Jika Anda sedang memilih di antara keduanya, atau beralih, itu percakapan terpisah yang dibahas dalam [panduan semaglutide vs tirzepatide](/en/semaglutide-vs-tirzepatide) kami. Untuk keperluan pencatatan, keduanya tidak dapat dipertukarkan: jangan pernah mencatat dosis tirzepatide pada jadwal semaglutide.\n\n## Cara membangun rutinitas pencatatan semaglutide dalam 6 langkah\n\nAnda tidak perlu sistem yang rumit — Anda perlu yang bisa diulang. Catatan inti memakan waktu kurang dari dua menit seminggu (atau satu ketukan setiap pagi untuk Rybelsus), ditambah ketukan cepat harian.\n\n1. **Atur pengingat dosis yang sesuai dengan bentuk obat Anda.** Peringatan mingguan berulang untuk Ozempic/Wegovy, atau alarm pagi harian untuk Rybelsus agar jendela puasa tidak terlewat.\n2. **Catat dosis segera setelah menggunakannya.** Catat jumlah mg dan — jika menyuntik — tandai zona pada peta tubuh agar rotasi minggu depan jelas.\n3. **Timbang pada hari yang tetap.** Pilih 1–3 pagi seminggu, dengan kondisi yang sama, dan baca trennya — bukan fluktuasi harian.\n4. **Catat protein dan air setiap hari.** Satu ketukan cepat per makan menjaga perlindungan otot tetap terpantau.\n5. **Catat efek samping saat terjadi.** Catat gejala, tingkat keparahan, dan jumlah hari sejak dosis terakhir atau kenaikan dosis Anda.\n6. **Foto setiap 2–4 minggu dan tinjau sebelum setiap kunjungan.** Pencahayaan dan sudut yang sama — dan bawa catatan dosis serta lini masa efek samping Anda kepada dokter.\n\n## Apakah Anda perlu aplikasi semaglutide, atau buku catatan sudah cukup?\n\nJujur saja, pencatatan apa pun lebih baik daripada tidak sama sekali — **buku harian semaglutide** di buku catatan pun berfungsi. Yang ditambahkan aplikasi adalah otomatisasi bagian yang sering terlupa: pengingat dosis yang disesuaikan mingguan-vs-harian, peta rotasi lokasi suntikan untuk pen, garis tren yang menghaluskan fluktuasi berat badan harian, dan lini masa efek samping yang bisa Anda serahkan kepada dokter. Ketiga merek tidak dilengkapi aplikasi pendamping khusus, sehingga kebanyakan orang menggunakan pencatat GLP-1 umum atau pencatat kesehatan. Jika Anda ingin catatan dosis berdampingan dengan kebiasaan harian yang melindungi hasil Anda — protein, gerak, hidrasi, tren berat badan dan komposisi tubuh — aplikasi kesehatan seperti [HAVIT](https://www.aihavit.com) adalah tempat yang wajar. Bandingkan pilihan dalam [panduan aplikasi pencatat GLP-1 terbaik](/en/glp-1-tracker-app) kami dan pilih yang benar-benar akan Anda gunakan terus; konsistensi jauh lebih penting daripada mereknya.\n\n## Panduan terkait\n\n- [Pencatat Ozempic: apa yang dicatat pada Ozempic dan caranya](/id/ozempic-tracker)\n- [Pencatat Wegovy: apa yang dicatat pada Wegovy dan caranya](/id/wegovy-tracker)\n- [Semaglutide vs. tirzepatide: GLP-1 mana yang tepat untuk Anda?](/en/semaglutide-vs-tirzepatide)\n- [Panduan lengkap aplikasi pencatat GLP-1](/en/glp-1-tracker-app)\n\n## Mengapa HAVIT — Obat + Perubahan Perilaku, dalam Satu Aplikasi\n\nObat GLP-1 dapat menurunkan berat badan secara bermakna — tetapi angka di timbangan hanyalah sebagian dari ceritanya. Porsi massa tanpa lemak dari berat badan yang hilang pada terapi GLP-1 berkisar dari 40–60% dalam beberapa uji hingga 15% atau kurang dalam uji lainnya — dan massa tanpa lemak mencakup organ, tulang, dan cairan, bukan hanya otot ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), dan hasilnya cenderung memudar setelah obat dihentikan kecuali kebiasaan baru menggantikannya. Itulah sebabnya panduan terkemuka memandang obat sebagai salah satu bagian perawatan, bukan keseluruhannya: U.S. Preventive Services Task Force merekomendasikan agar orang dewasa dengan obesitas ditawarkan intervensi perilaku multikomponen yang intensif ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT dibuat untuk momen seperti ini — satu aplikasi yang menyatukan pencatatan obat, komposisi tubuh, nutrisi dan protein, pembentukan kebiasaan harian, dan pelatih AI yang menyesuaikan diri dengan Anda. Di antara 1.090 pengguna GLP-1 kami sendiri, pencatat yang paling konsisten membangun kebiasaan terkuat ([lihat laporan kebiasaan GLP-1](/en/glp-1-habit-report)).\n\nKelola obatnya dan ototnya — bersama-sama. [Mulai dengan HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "Apa itu semaglutide? Satu molekul, tiga merek",
+        "headers": [
+          "Merek",
+          "Bentuk & jadwal",
+          "Penggunaan yang disetujui FDA",
+          "Rentang dosis"
+        ],
+        "rows": [
+          [
+            "Ozempic",
+            "Suntikan sekali seminggu",
+            "Diabetes tipe 2",
+            "0,25 → 0,5 → 1 → hingga 2 mg"
+          ],
+          [
+            "Wegovy",
+            "Suntikan sekali seminggu",
+            "Penanganan berat badan kronis",
+            "0,25 → 0,5 → 1 → 1,7 → 2,4 mg"
+          ],
+          [
+            "Rybelsus",
+            "Tablet oral harian",
+            "Diabetes tipe 2",
+            "3 → 7 → 14 mg"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "Apa itu pencatat semaglutide?",
+          "answer": "Pencatat semaglutide adalah alat apa pun — aplikasi, spreadsheet, atau buku catatan — yang merekam bagian-bagian penting dari pengobatan semaglutide: dosis dan tanggal, lokasi suntikan (atau waktu minum pil untuk Rybelsus), berat badan, protein, air, efek samping, dan foto. Alat ini mengubahnya menjadi pengingat dan grafik tren yang dapat Anda tinjau dan bagikan kepada dokter."
+        },
+        {
+          "question": "Apakah Ozempic, Wegovy, dan Rybelsus obat yang sama?",
+          "answer": "Ya — ketiganya mengandung bahan aktif yang sama, semaglutide, satu agonis reseptor GLP-1. Perbedaannya ada pada bentuk dan persetujuan: Ozempic dan Rybelsus untuk diabetes tipe 2 (suntikan dan tablet oral), sedangkan Wegovy adalah suntikan untuk penanganan berat badan, masing-masing dengan jadwal dosisnya sendiri."
+        },
+        {
+          "question": "Apa bedanya mencatat semaglutide oral (Rybelsus)?",
+          "answer": "Rybelsus adalah tablet harian dengan waktu yang ketat: minum pertama kali di pagi hari pada perut kosong dengan tidak lebih dari 4 oz air, lalu tunggu setidaknya 30 menit sebelum apa pun yang lain. Jadi pencatat Rybelsus berpusat pada pengingat harian dan jendela puasa, bukan peta lokasi suntikan."
+        },
+        {
+          "question": "Jadwal dosis semaglutide apa yang harus saya catat?",
+          "answer": "Tergantung mereknya. Ozempic naik 0,25 → 0,5 → 1 → hingga 2 mg per minggu; Wegovy naik 0,25 → 0,5 → 1 → 1,7 → 2,4 mg per minggu; Rybelsus naik 3 → 7 → 14 mg per hari. Catat dosis mana yang Anda gunakan pada tanggal berapa agar dokter Anda melihat riwayat lengkapnya."
+        },
+        {
+          "question": "Apa yang terjadi jika saya melewatkan dosis semaglutide?",
+          "answer": "Berbeda per merek. Wegovy menggunakan aturan 2 hari, Ozempic aturan 5 hari, dan Rybelsus menyatakan lewati dosis yang terlewat dan lanjutkan keesokan harinya. Jangan pernah menggandakan dosis. Inilah mengapa catatan dosis dengan penanda waktu sangat berguna — selalu ikuti label Anda sendiri."
+        },
+        {
+          "question": "Apakah semaglutide racikan sama dengan yang bermerek?",
+          "answer": "Tidak. Semaglutide bermerek disetujui FDA; versi racikan tidak. Peracikan secara luas hanya diizinkan selama kekurangan obat menurut FDA, yang dinyatakan teratasi pada 21 Februari 2025, dengan tenggat 503A/503B pada April–Mei 2025. Jika Anda menggunakan produk racikan, catat dengan cermat sumber, konsentrasi, dan satuannya yang tepat."
+        },
+        {
+          "question": "Apakah semaglutide sama dengan tirzepatide?",
+          "answer": "Tidak. Semaglutide adalah satu agonis reseptor GLP-1 (Ozempic, Wegovy, Rybelsus). Tirzepatide (Mounjaro, Zepbound) adalah molekul ganda GIP + GLP-1 yang berbeda. Keduanya tidak dapat dipertukarkan, jadi jangan pernah mencatat dosis tirzepatide pada jadwal semaglutide."
+        },
+        {
+          "question": "Apakah ada aplikasi pencatat semaglutide resmi?",
+          "answer": "Tidak ada merek semaglutide yang disertai aplikasi pencatat pendamping khusus. Kebanyakan orang menggunakan aplikasi GLP-1 umum atau aplikasi kesehatan, atau buku catatan sederhana, untuk mencatat dosis, lokasi atau waktu minum pil, berat badan, dan efek samping. Pilih yang akan Anda gunakan terus — itu lebih penting daripada alat tertentu."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — Ozempic (semaglutide) injection, prescribing information (dose escalation, missed dose within 5 days). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — Wegovy (semaglutide) prescribing information (2.4 mg escalation, 2-day missed-dose rule). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215256s033lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — Rybelsus (semaglutide) tablets, prescribing information (3/7/14 mg, empty-stomach administration, skip missed dose). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf"
+        },
+        {
+          "text": "Novo Nordisk (novoMEDLINK) — Rybelsus dosing & administration (take with ≤4 oz water, wait ≥30 minutes). novomedlink.com",
+          "url": "https://www.novomedlink.com/diabetes/products/treatments/rybelsus/dosing-administration/dosing-and-prescribing.html"
+        },
+        {
+          "text": "Novo Nordisk (novoMEDLINK) — Wegovy dosing & administration: escalation and 2-day missed-dose guidance. novomedlink.com",
+          "url": "https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html"
+        },
+        {
+          "text": "Novo Nordisk — Ozempic pen dosing & administration. ozempic.com",
+          "url": "https://www.ozempic.com/ozempic-pen/dosing.html"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — FDA clarifies policies for compounders as national GLP-1 supply begins to stabilize (semaglutide shortage resolved Feb 21, 2025; 503A/503B deadlines). fda.gov",
+          "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 agonists: uses, how they work, and side effects. my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Mayo Clinic — Semaglutide (subcutaneous route): description and proper use. mayoclinic.org",
+          "url": "https://www.mayoclinic.org/drugs-supplements/semaglutide-subcutaneous-route/description/drg-20406730"
+        },
+        {
+          "text": "Frontiers in Clinical Diabetes and Healthcare (via PMC) — GLP-1 agonists, lean-mass loss, and the role of exercise and protein. pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/"
+        },
+        {
+          "text": "All medical claims verified against the cited FDA labels, Novo Nordisk materials, and FDA compounding statements as of July 2026. Re-review at least every 12 months or sooner if an FDA label changes.*"
+        }
+      ],
+      "last_updated": "2026-07-02"
+    },
+    "fr": {
+      "title": "Suivi sémaglutide : que suivre (Ozempic, Wegovy, Rybelsus)",
+      "short_title": "Suivi sémaglutide : que noter au quotidien",
+      "meta_description": "Un suivi sémaglutide enregistre votre dose, le site d'injection ou l'heure du comprimé, la tendance du poids, les protéines et les effets secondaires pour Ozempic, Wegovy et Rybelsus. Voici quoi suivre.",
+      "short_description": "Dose, site d'injection ou horaire du comprimé, poids, protéines, effets secondaires : voici quoi suivre sous Ozempic, Wegovy ou Rybelsus.",
+      "tldr": "Un suivi sémaglutide enregistre votre dose, le site d'injection ou l'heure du comprimé, la tendance du poids, les protéines et les effets secondaires pour Ozempic, Wegovy et Rybelsus. Voici quoi suivre.",
+      "body_md": "Le **sémaglutide** est un agoniste unique du récepteur du GLP-1 — une seule molécule — commercialisé sous trois noms de marque : **Ozempic** (injection hebdomadaire pour le diabète de type 2), **Wegovy** (injection hebdomadaire pour la gestion chronique du poids) et **Rybelsus** (comprimé oral quotidien pour le diabète de type 2). Ce n'est *pas* le même médicament que le tirzépatide (Mounjaro, Zepbound), qui est une molécule différente, agissant sur deux hormones. Comme le même principe actif existe en différentes doses, voies d'administration et rythmes, la *seule* chose que tout plan sous sémaglutide récompense, c'est un suivi rigoureux. Ce guide explique *quoi* suivre sous sémaglutide, en quoi le suivi diffère entre les formes injectable et orale, et comment le sémaglutide de marque et le sémaglutide issu de préparations magistrales (compounded) changent la donne. Il est neutre et pédagogique — vous pouvez tout faire sur papier.\n\nSi vous connaissez déjà votre marque, passez directement aux guides dédiés : notre [guide du suivi Ozempic](/fr/ozempic-tracker) et notre [guide du suivi Wegovy](/fr/wegovy-tracker). Si vous voulez d'abord le cadre général pour tous les GLP-1, commencez par le [guide complet des applications de suivi GLP-1](/en/glp-1-tracker-app).\n\n## Qu'est-ce que le sémaglutide ? Une molécule, trois marques\n\nLe sémaglutide imite l'hormone intestinale GLP-1, qui ralentit la vidange gastrique et agit sur les centres de l'appétit dans le cerveau ([Cleveland Clinic](https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists)). La confusion la plus fréquente vient du fait que la *même* molécule est commercialisée sous trois noms, avec des indications, des doses et des rythmes différents. Voici la carte — et c'est exactement pourquoi un suivi est utile.\n\n*(Doses selon les notices de la FDA — voir les références. Des prescriptions hors AMM existent ; suivez toujours votre prescripteur et votre notice.)*\n\nÀ retenir : quelle que soit votre marque, vous êtes sous sémaglutide — mais le calendrier que vous devez *suivre* est différent pour chacune. C'est ce que détaille la suite de ce guide.\n\n## Pourquoi le suivi compte tout particulièrement sous sémaglutide\n\nTrois caractéristiques du sémaglutide font du suivi bien plus qu'un simple plus :\n\n- **La dose augmente selon un calendrier.** Chaque marque de sémaglutide commence à faible dose et augmente par paliers sur plusieurs semaines pour réduire les effets secondaires digestifs. Noter la dose prise à chaque date vous garde synchronisé avec ce plan et donne à votre prescripteur un historique exact lors des ajustements.\n- **Le moment de la prise est facile à manquer.** Une injection hebdomadaire s'oublie ou se retarde facilement ; un comprimé quotidien impose des règles de jeûne strictes faciles à enfreindre. Dans les deux cas, un journal horodaté transforme un « l'ai-je fait ? » stressant en simple coup d'œil.\n- **Les résultats et les effets secondaires ne sont pas linéaires.** Le poids baisse par à-coups et par paliers, et les nausées tendent à s'aggraver juste après chaque augmentation de dose. Seule une tendance — et non une journée isolée — montre ce qui se passe réellement.\n\n## Que suivre sous sémaglutide (et pourquoi chaque élément compte)\n\nVoici l'essentiel des données à suivre sous sémaglutide. Utilisez-le comme liste de contrôle, que vous vous injectiez (Ozempic/Wegovy) ou preniez le comprimé oral (Rybelsus), sur papier, dans un tableur ou dans une application.\n\n| Que suivre | Pourquoi c'est important | Fréquence |\n|---|---|---|\n| **Date et quantité de la dose (mg)** | Vous garde aligné avec le calendrier de titration ; confirme l'observance ; évite une double dose accidentelle | À chaque dose (injection hebdomadaire / comprimé quotidien) |\n| **Site d'injection et rotation** (injectable) | Alterner les sites évite la formation de tissu cicatriciel bosselé (lipohypertrophie) qui modifie l'absorption du médicament | À chaque injection |\n| **Horaire du comprimé et fenêtre de jeûne** (oral) | Rybelsus n'est correctement absorbé qu'à jeun, avec la bonne quantité d'eau et le bon délai d'attente | À chaque prise du matin |\n| **Poids corporel** | Le critère principal ; la tendance révèle les plateaux et l'adaptation métabolique | 1 à 3 fois par semaine, à la même heure |\n| **Tour de taille / mensurations** | Détecte la perte de graisse que la balance ne voit pas, surtout en préservant le muscle | Toutes les 1 à 2 semaines |\n| **Apport en protéines (grammes)** | Protège la masse maigre, qui est menacée lors d'une perte de poids rapide | Quotidien |\n| **Eau / hydratation** | Atténue la constipation et les nausées fréquentes durant les premières semaines | Quotidien |\n| **Effets secondaires et intensité** | Distingue l'adaptation normale des symptômes d'alerte nécessitant un médecin | Dès qu'ils surviennent |\n| **Glycémie** (si diabète) | Ozempic et Rybelsus sont des médicaments du diabète ; la glycémie est un critère essentiel | Selon votre plan de soins |\n| **Renouvellement / stock** | Un stylo hebdomadaire ou une boîte de comprimés quotidiens s'épuise à une date prévisible ; évite une interruption de traitement | Mensuel |\n\n## Sémaglutide injectable ou oral : ce qui change dans le suivi\n\nC'est le point qui déroute le plus. Le principe actif est identique, mais *ce que vous notez* dépend de la voie : injection ou comprimé.\n\n### Sémaglutide injectable (Ozempic et Wegovy)\n\nLes deux marques injectables s'administrent par voie sous-cutanée dans l'**abdomen** (à au moins cinq centimètres, soit deux pouces, du nombril), sur le **devant de la cuisse** ou le **haut du bras**, en alternant chaque semaine ([guide du stylo wegovy.com](https://www.wegovy.com/obesity/starting-wegovy/starting-wegovy-pen.html) ; [posologie ozempic.com](https://www.ozempic.com/ozempic-pen/dosing.html)). Injecter à répétition au même endroit peut provoquer une **lipohypertrophie** — un tissu cicatriciel bosselé qui modifie l'absorption. Notez **quelle dose en mg vous avez prise, à quelle date, et à quel site.** Leurs calendriers de titration diffèrent :\n\n- **Ozempic** : 0,25 mg (semaines 1 à 4, dose de départ, non destinée au contrôle glycémique) → 0,5 mg → 1 mg → jusqu'à un maximum de 2 mg, selon les indications de votre prescripteur ([notice FDA d'Ozempic](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf)).\n- **Wegovy** : 0,25 → 0,5 → 1 → 1,7 → 2,4 mg en dose d'entretien ([posologie Wegovy sur novoMEDLINK](https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html)).\n\nComme les deux marques plafonnent à des doses différentes, un journal des doses lève tout doute sur votre position dans votre calendrier précis. Consultez notre [suivi Ozempic](/fr/ozempic-tracker) et notre [suivi Wegovy](/fr/wegovy-tracker) pour le détail marque par marque.\n\n### Sémaglutide oral (Rybelsus)\n\nRybelsus pose un autre problème de suivi : c'est un **comprimé une fois par jour avec des règles d'horaire strictes.** Selon Novo Nordisk et la notice de la FDA, prenez-le **dès le matin, à jeun**, avec **pas plus de 4 oz (environ 120 mL) d'eau plate**, puis **attendez au moins 30 minutes** avant de manger, de boire autre chose ou de prendre d'autres médicaments ([posologie Rybelsus sur novoMEDLINK](https://www.novomedlink.com/diabetes/products/treatments/rybelsus/dosing-administration/dosing-and-prescribing.html) ; [notice FDA de Rybelsus](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf)). Avalez le comprimé entier — ne le coupez pas, ne l'écrasez pas, ne le croquez pas. Sa titration est **3 mg pendant 30 jours → 7 mg → 14 mg.** Pour les utilisateurs de la forme orale, le rôle du suivi est un **rappel quotidien et la fenêtre de jeûne**, et non une carte des sites d'injection — car ne pas respecter la règle de l'estomac vide réduit discrètement l'absorption.\n\n## Les règles en cas de dose oubliée diffèrent selon la marque — ne les confondez pas\n\nC'est le point du sémaglutide le plus souvent confondu, et se tromper de marque a des conséquences. Notez chaque dose avec un horodatage pour que la décision soit un coup d'œil, pas une supposition.\n\n| Marque | Règle en cas de dose oubliée |\n|---|---|\n| **Wegovy** (hebdomadaire) | Si la prochaine dose est dans **plus de 2 jours (48 h)**, prenez la dose oubliée dès que possible ; si elle est dans moins de 2 jours, sautez-la et reprenez selon le calendrier |\n| **Ozempic** (hebdomadaire) | Prenez la dose oubliée dès que possible **dans un délai de 5 jours** ; si plus de 5 jours se sont écoulés, sautez-la et reprenez selon le calendrier (ne prenez pas deux doses à moins de 48 h d'intervalle) |\n| **Rybelsus** (quotidien) | **Sautez** complètement la dose oubliée et prenez la dose suivante le lendemain — ne doublez pas |\n\nSources : [posologie Wegovy sur novoMEDLINK](https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html) ; [notice FDA d'Ozempic](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf) ; [notice FDA de Rybelsus](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf). Suivez toujours votre propre notice et votre prescripteur — ceci est de l'information, pas une instruction.\n\n## Sémaglutide de marque ou compounded : ce qu'il faut suivre et savoir\n\nVous avez peut-être vu du « sémaglutide compounded » proposé par des cliniques de télésanté ou des centres esthétiques, souvent moins cher que les stylos de marque. Voici la réalité réglementaire en 2026, car elle influe sur ce que vous vous injectez réellement.\n\n- **Le sémaglutide de marque** (Ozempic, Wegovy, Rybelsus) est **approuvé par la FDA** — évalué sur la sécurité, l'efficacité et la qualité de fabrication.\n- **Le sémaglutide compounded** n'est **pas approuvé par la FDA.** La préparation magistrale (compounding) n'était largement autorisée que tant que le sémaglutide figurait sur la liste des pénuries de médicaments de la FDA. La FDA a déclaré cette **pénurie résolue le 21 février 2025** et fixé des échéances d'application : **503A** pour les pharmacies jusqu'au **22 avril 2025** et **503B** pour les établissements sous-traitants jusqu'au **22 mai 2025** ([déclaration de la FDA sur la politique de compounding](https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize)).\n- **Après ces dates**, la préparation courante à grande échelle de copies du sémaglutide approuvé n'est plus autorisée ; seules de rares exceptions 503A propres à un patient (p. ex. une allergie documentée à un excipient, ou un dosage non disponible dans le commerce) peuvent subsister.\n\nSi vous utilisez un produit compounded, suivez soigneusement **la source exacte, la concentration et la dose dans vos propres unités** — les formulations compounded peuvent différer des stylos de marque par le dosage et les unités, ce qui constitue un risque documenté d'erreur de dose. En cas de doute, demandez à un pharmacien agréé ou à votre prescripteur, et privilégiez les produits approuvés par la FDA.\n\n## Sémaglutide ou tirzépatide : pas la même molécule\n\nUne confusion courante : **le sémaglutide est un agoniste unique du récepteur du GLP-1**, alors que **le tirzépatide (Mounjaro, Zepbound) est un agoniste double des récepteurs GIP + GLP-1** — une molécule différente qui agit sur deux voies hormonales et qui, dans des essais comparatifs directs, a produit une perte de poids moyenne plus importante. Si vous hésitez entre les deux, ou si vous changez, c'est une autre discussion, traitée dans notre [guide sémaglutide vs tirzépatide](/en/semaglutide-vs-tirzepatide). Pour le suivi, les deux ne sont pas interchangeables : ne notez jamais une dose de tirzépatide dans un calendrier de sémaglutide.\n\n## Comment mettre en place un suivi du sémaglutide en 6 étapes\n\nVous n'avez pas besoin d'un système compliqué — vous avez besoin d'un système reproductible. Le journal de base prend moins de deux minutes par semaine (ou une pression chaque matin pour Rybelsus), plus quelques pressions rapides au quotidien.\n\n1. **Réglez un rappel de dose adapté à votre forme.** Une alerte hebdomadaire récurrente pour Ozempic/Wegovy, ou une alarme quotidienne le matin pour Rybelsus afin de ne pas manquer la fenêtre de jeûne.\n2. **Notez la dose juste après l'avoir prise.** Enregistrez la quantité en mg et — si vous vous injectez — marquez la zone sur la carte du corps pour que la rotation de la semaine suivante soit évidente.\n3. **Pesez-vous à jours fixes.** Choisissez 1 à 3 matins par semaine, dans les mêmes conditions, et lisez la tendance — pas le bruit quotidien.\n4. **Suivez les protéines et l'eau chaque jour.** Une pression rapide à chaque repas maintient la protection musculaire sur la bonne voie.\n5. **Notez les effets secondaires quand ils surviennent.** Enregistrez le symptôme, son intensité et le nombre de jours depuis votre dernière dose ou dernière augmentation de dose.\n6. **Prenez une photo toutes les 2 à 4 semaines et relisez tout avant chaque consultation.** Même éclairage, même angle — et apportez votre journal de doses et la chronologie de vos effets secondaires à votre médecin.\n\n## Faut-il une application pour le sémaglutide, ou un carnet suffit-il ?\n\nHonnêtement, n'importe quel suivi vaut mieux que rien — un **journal du sémaglutide** dans un carnet fonctionne. Ce qu'une application ajoute, c'est l'automatisation de ce que l'on oublie : le rappel de dose adapté à l'hebdomadaire ou au quotidien, la carte de rotation des sites d'injection pour les stylos, la courbe de tendance qui lisse le bruit du poids quotidien, et une chronologie des effets secondaires que vous pouvez remettre à votre médecin. Aucune des trois marques n'est fournie avec une application dédiée, donc la plupart des gens utilisent un suivi GLP-1 généraliste ou une application de bien-être. Si vous voulez que votre journal de doses vive à côté des habitudes quotidiennes qui protègent vos résultats — protéines, activité, hydratation, tendances du poids et de la composition corporelle — une application de bien-être comme [HAVIT](https://www.aihavit.com) est un foyer naturel pour cela. Comparez les options dans notre [guide des meilleures applications de suivi GLP-1](/en/glp-1-tracker-app) et choisissez ce que vous continuerez réellement à utiliser ; la régularité compte bien plus que la marque.\n\n## Guides associés\n\n- [Suivi Ozempic : que noter sous Ozempic et comment](/fr/ozempic-tracker)\n- [Suivi Wegovy : que suivre sous Wegovy et comment](/fr/wegovy-tracker)\n- [Sémaglutide vs tirzépatide : quel GLP-1 vous convient ?](/en/semaglutide-vs-tirzepatide)\n- [Le guide complet des applications de suivi GLP-1](/en/glp-1-tracker-app)\n\n## Pourquoi HAVIT — Médicament + changement de comportement, dans une seule application\n\nLes médicaments GLP-1 peuvent réduire le poids de façon significative — mais le chiffre sur la balance n'est qu'une partie de l'histoire. La part de masse maigre dans le poids perdu sous traitement GLP-1 a varié de 40 à 60 % dans certains essais à 15 % ou moins dans d'autres — et la masse maigre inclut les organes, les os et les liquides, pas seulement les muscles ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), et les résultats tendent à s'estomper à l'arrêt du médicament si de nouvelles habitudes ne prennent pas le relais. C'est pourquoi les recommandations de référence considèrent le médicament comme une partie des soins, non comme le tout : l'U.S. Preventive Services Task Force recommande que les adultes obèses se voient proposer des interventions comportementales intensives et multicomposantes ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT est conçue pour ce moment précis — une seule application qui réunit le suivi du traitement, la composition corporelle, la nutrition et les protéines, la construction d'habitudes quotidiennes, et un coach IA qui s'adapte à vous. Parmi nos 1 090 utilisateurs de GLP-1, ceux qui suivaient le plus régulièrement ont bâti les habitudes les plus solides ([voir le rapport sur les habitudes GLP-1](/en/glp-1-habit-report)).\n\nGérez le médicament et le muscle — ensemble. [Commencer avec HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "Qu'est-ce que le sémaglutide ? Une molécule, trois marques",
+        "headers": [
+          "Marque",
+          "Forme et rythme",
+          "Usage approuvé par la FDA",
+          "Plage de doses"
+        ],
+        "rows": [
+          [
+            "Ozempic",
+            "Injection une fois par semaine",
+            "Diabète de type 2",
+            "0,25 → 0,5 → 1 → jusqu'à 2 mg"
+          ],
+          [
+            "Wegovy",
+            "Injection une fois par semaine",
+            "Gestion chronique du poids",
+            "0,25 → 0,5 → 1 → 1,7 → 2,4 mg"
+          ],
+          [
+            "Rybelsus",
+            "Comprimé oral quotidien",
+            "Diabète de type 2",
+            "3 → 7 → 14 mg"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "Qu'est-ce qu'un suivi sémaglutide ?",
+          "answer": "C'est tout outil — application, tableur ou carnet — qui enregistre les éléments clés du traitement par sémaglutide : votre dose et sa date, le site d'injection (ou l'horaire du comprimé pour Rybelsus), le poids, les protéines, l'eau, les effets secondaires et les photos. Il les transforme en rappels et en courbes de tendance que vous pouvez consulter et partager avec votre médecin."
+        },
+        {
+          "question": "Ozempic, Wegovy et Rybelsus sont-ils le même médicament ?",
+          "answer": "Oui — les trois contiennent le même principe actif, le sémaglutide, un agoniste unique du récepteur du GLP-1. Ils diffèrent par la forme et l'approbation : Ozempic et Rybelsus sont destinés au diabète de type 2 (injection et comprimé oral), tandis que Wegovy est une injection pour la gestion du poids, chacun avec son propre calendrier de doses."
+        },
+        {
+          "question": "En quoi le suivi du sémaglutide oral (Rybelsus) est-il différent ?",
+          "answer": "Rybelsus est un comprimé quotidien aux horaires stricts : prenez-le dès le matin, à jeun, avec pas plus de 4 oz d'eau, puis attendez au moins 30 minutes avant toute autre chose. Un suivi Rybelsus repose donc sur un rappel quotidien et la fenêtre de jeûne, et non sur une carte des sites d'injection."
+        },
+        {
+          "question": "Quel calendrier de doses de sémaglutide dois-je noter ?",
+          "answer": "Cela dépend de la marque. Ozempic : 0,25 → 0,5 → 1 → jusqu'à 2 mg par semaine ; Wegovy : 0,25 → 0,5 → 1 → 1,7 → 2,4 mg par semaine ; Rybelsus : 3 → 7 → 14 mg par jour. Notez la dose prise à chaque date pour que votre prescripteur voie l'historique complet."
+        },
+        {
+          "question": "Que se passe-t-il si j'oublie une dose de sémaglutide ?",
+          "answer": "Cela varie selon la marque. Wegovy applique une règle de 2 jours, Ozempic une règle de 5 jours, et pour Rybelsus il faut sauter la dose oubliée et reprendre le lendemain. Ne doublez jamais. C'est précisément pourquoi un journal de doses horodaté est si utile — suivez toujours votre propre notice."
+        },
+        {
+          "question": "Le sémaglutide compounded est-il identique à celui de marque ?",
+          "answer": "Non. Le sémaglutide de marque est approuvé par la FDA ; les versions compounded ne le sont pas. La préparation à grande échelle n'était autorisée que pendant la pénurie signalée par la FDA, déclarée résolue le 21 février 2025, avec des échéances 503A/503B en avril–mai 2025. Si vous utilisez un produit compounded, suivez soigneusement sa source exacte, sa concentration et ses unités."
+        },
+        {
+          "question": "Le sémaglutide est-il identique au tirzépatide ?",
+          "answer": "Non. Le sémaglutide est un agoniste unique du récepteur du GLP-1 (Ozempic, Wegovy, Rybelsus). Le tirzépatide (Mounjaro, Zepbound) est une molécule différente, double GIP + GLP-1. Ils ne sont pas interchangeables, donc ne notez jamais une dose de tirzépatide dans un calendrier de sémaglutide."
+        },
+        {
+          "question": "Existe-t-il une application officielle de suivi du sémaglutide ?",
+          "answer": "Aucune marque de sémaglutide n'est fournie avec une application de suivi dédiée. La plupart des gens utilisent une application GLP-1 généraliste ou de bien-être, ou un simple carnet, pour noter les doses, les sites ou l'horaire du comprimé, le poids et les effets secondaires. Choisissez ce que vous continuerez à utiliser — c'est plus important que l'outil lui-même."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — Ozempic (semaglutide) injection, prescribing information (dose escalation, missed dose within 5 days). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — Wegovy (semaglutide) prescribing information (2.4 mg escalation, 2-day missed-dose rule). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215256s033lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — Rybelsus (semaglutide) tablets, prescribing information (3/7/14 mg, empty-stomach administration, skip missed dose). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/213051Orig1s020,213051Orig1s021lbl.pdf"
+        },
+        {
+          "text": "Novo Nordisk (novoMEDLINK) — Rybelsus dosing & administration (take with ≤4 oz water, wait ≥30 minutes). novomedlink.com",
+          "url": "https://www.novomedlink.com/diabetes/products/treatments/rybelsus/dosing-administration/dosing-and-prescribing.html"
+        },
+        {
+          "text": "Novo Nordisk (novoMEDLINK) — Wegovy dosing & administration: escalation and 2-day missed-dose guidance. novomedlink.com",
+          "url": "https://www.novomedlink.com/obesity/products/treatments/wegovy/dosing-administration/dosing.html"
+        },
+        {
+          "text": "Novo Nordisk — Ozempic pen dosing & administration. ozempic.com",
+          "url": "https://www.ozempic.com/ozempic-pen/dosing.html"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — FDA clarifies policies for compounders as national GLP-1 supply begins to stabilize (semaglutide shortage resolved Feb 21, 2025; 503A/503B deadlines). fda.gov",
+          "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 agonists: uses, how they work, and side effects. my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Mayo Clinic — Semaglutide (subcutaneous route): description and proper use. mayoclinic.org",
+          "url": "https://www.mayoclinic.org/drugs-supplements/semaglutide-subcutaneous-route/description/drg-20406730"
+        },
+        {
+          "text": "Frontiers in Clinical Diabetes and Healthcare (via PMC) — GLP-1 agonists, lean-mass loss, and the role of exercise and protein. pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/"
+        },
+        {
+          "text": "All medical claims verified against the cited FDA labels, Novo Nordisk materials, and FDA compounding statements as of July 2026. Re-review at least every 12 months or sooner if an FDA label changes.*"
+        }
+      ],
+      "last_updated": "2026-07-02"
     }
   },
   "generated_at": "2026-08-14T00:00:00.000Z"

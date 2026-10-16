@@ -511,6 +511,641 @@
         }
       ],
       "last_updated": "2026-07-02"
+    },
+    "zh-CN": {
+      "title": "Zepbound 记录工具：Zepbound 期间该记录什么、怎么记（2026）",
+      "short_title": "Zepbound 记录：该记什么、怎么记（2026）",
+      "meta_description": "Zepbound 记录工具可以记录用药日期、注射部位、体重趋势、蛋白质摄入和副作用。了解使用替尔泊肽期间究竟该记录什么，以及为什么重要。",
+      "short_description": "Zepbound 记录工具可记录用药日期、注射部位、体重趋势、蛋白质和副作用。了解替尔泊肽期间该记什么、为什么重要。",
+      "tldr": "Zepbound 记录工具可以记录用药日期、注射部位、体重趋势、蛋白质摄入和副作用。了解使用替尔泊肽期间究竟该记录什么，以及为什么重要。",
+      "body_md": "Zepbound（替尔泊肽）是一种每周注射一次的药物，获批用于慢性体重管理。它是一种**GIP 和 GLP-1 双受体激动剂**——与用于2型糖尿病的 **Mounjaro** 是同一种分子——起效缓慢，需要数月时间，剂量按固定的日程逐步上调。这样的特点使它正是那种会因良好记录而受益的治疗。本指南介绍在 Zepbound 期间*记录什么*、每一项*为什么*在临床上重要，以及*如何*把它变成每周两分钟的例行习惯。内容中立，仅供教育参考：这一切都可以用纸笔完成。应用程序只是把人们容易忘记的部分自动化。\n\n如果你正在比较 Zepbound 与其他 GLP-1 药物，或想先了解总体框架，请先阅读我们的 [GLP-1 记录应用完整指南](/en/glp-1-tracker-app)，然后再回到这里查看 Zepbound 的具体细节。\n\n## 为什么在 Zepbound 期间记录尤其重要\n\nZepbound 有三个特点，使记录不只是“最好有”：\n\n- **剂量按日程递增。** Zepbound 从 2.5 mg 开始，以 2.5 mg 为增量逐步上调，每个剂量至少维持四周。记录你在哪一天用了哪个剂量，可以让你与计划保持同步，也能在调整剂量的就诊时为处方医生提供准确的历史记录。\n- **每周一次，所以容易漏打。** 与每日用药相比，每周用药的药物更容易出现漏打或延迟。带时间戳的记录能让漏打后的决定变得简单而不焦虑（Zepbound 采用 4 天规则——见下文）。\n- **效果和副作用并非线性。** 体重下降时快时慢，还会出现平台期，而恶心往往在每次增加剂量后立即加重。只有趋势——而不是某一天的数字——才能告诉你实际情况。\n\n## 在 Zepbound 期间记录什么（以及每一项为什么重要）\n\n以下是 Zepbound 的核心数据集。无论你用纸笔、电子表格还是应用程序，都可以把它当作清单。\n\n### 用药日期与你的 Zepbound 剂量递增日程\n\nZepbound 有意从低剂量开始，并按既定日程递增，以减少胃肠道副作用。根据 Eli Lilly 的剂量信息，推荐起始剂量为**每周一次 2.5 mg，持续 4 周**（这是起始剂量，不是维持剂量），然后为 **5 mg**；此后，在当前剂量**至少用满 4 周后**，可以**以 2.5 mg 为增量**上调，**最高为 15 mg**，每周一次。推荐的维持剂量为 **5 mg、10 mg 或 15 mg**（[FDA 处方信息](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf)；[zepbound.lilly.com 剂量说明](https://zepbound.lilly.com/hcp/dosage)）。由于剂量按日程变化，记录**你在哪一天用了多少 mg** 是最有用的一件事。你的处方医生会决定你最终维持在哪个剂量，以及是否继续上调——清晰的剂量记录能让这场沟通更快。\n\n**漏打规则（值得弄准确）。** Zepbound 采用 **4 天（96 小时）规则**——不同于 Wegovy 的 2 天规则和 Ozempic 的 5 天规则，这是常见的混淆点。根据 FDA 标签：如果距离漏打的剂量**不超过 4 天**，请尽快补打；如果已**超过 4 天**，请跳过漏打的剂量，并在下一个常规日期继续用药（[FDA 处方信息](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf)）。为每次注射标注时间的记录工具能让你一眼看清。请始终遵循你自己的药品标签和处方医生的指导。\n\n### 注射部位与轮换\n\nZepbound 通过皮下注射，部位有三处：**腹部**（距离肚脐至少两英寸）、**大腿前侧或外侧**，或**上臂**。你可以重复使用同一身体区域，但绝不能注射在完全相同的点上——每周轮换（[Zepbound 使用方法，Eli Lilly](https://zepbound.lilly.com/weight/how-to-use)）。反复在同一个确切位置注射可能导致**脂肪增生**——即会改变药物吸收方式的块状瘢痕组织。问题在于记忆：几周之后，没人记得“上次是左大腿还是右臂？”这正是记录工具发挥作用的地方——好的工具会显示一张**身体图**，并突出标出你最近的注射部位，让你总能选择新的位置。Zepbound 有单剂量笔、单剂量药瓶和 KwikPen 几种形式，所以也请记下你使用的形式和规格。\n\n### 体重、围度和进展照片\n\n对于 **Zepbound 体重减轻记录**来说，体重是最主要的数字，但每天都会有波动。请在同一时间称重（通常是早晨、如厕后、进食前），让趋势线——而不是单次读数——来说明情况。平台期很常见，并且在医学上可以解释。腰围测量和**每 2–4 周一次的进展照片**能捕捉体重秤看不出的身体成分变化，而这在数字停滞时最为重要。\n\n### 蛋白质、饮食与保护肌肉\n\n这是 Zepbound 旅程中最容易被忽视的部分。由于替尔泊肽会明显降低食欲，所减掉的体重中有相当一部分可能是**瘦体重**——对 GLP-1 减重试验的分析报告称，减轻的体重中大约有 **30–40% 为瘦体重**（请注意，其中一部分是水分和器官组织，而不仅仅是骨骼肌）（[*Frontiers / PMC* 综述](https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/)）。肌肉能保护你的代谢和长期效果。两个可记录的习惯起着关键作用：\n\n1. **蛋白质。** 每餐设定较高的蛋白质目标（许多临床医生建议将蛋白质分散在一天各餐中）。当食欲下降时，蛋白质通常是最先减少的——所以记录它能让你时刻留意。\n2. **抗阻训练。** 力量训练是在使用 GLP-1 期间防止肌肉流失的最有力手段；像记录剂量一样记录你的训练。\n\n### 副作用——正常情况与危险信号\n\nZepbound 最常见的副作用是胃肠道方面的：恶心、腹泻、呕吐、便秘、腹痛和食欲下降。这些通常在增加剂量后立即出现或加重，并随着身体适应而缓解。罕见但严重的风险包括胰腺炎和胆囊疾病，并且标签带有关于在啮齿动物中发现的甲状腺 C 细胞肿瘤的黑框警告。记录**你的感受、严重程度，以及距离上次用药或上次增加剂量已经过了多少天**，能把含糊的“我一直觉得不舒服”变成清晰的规律。关于逐项症状的完整说明，请参阅我们的 [GLP-1 副作用指南](/en/glp-1-side-effects)。\n\n## Zepbound 与 Wegovy 一览对比\n\n如果你正在这两种主要的减重注射药之间做选择，记录工具可以帮助你长期观察以下内容。\n\n| | Zepbound（替尔泊肽） | Wegovy（司美格鲁肽） |\n|---|---|---|\n| 激素靶点 | GIP + GLP-1（双靶点） | 仅 GLP-1 |\n| 最大剂量 | 每周 15 mg | 每周 2.4 mg |\n| 递增步骤 | 2.5 → 5 → 7.5 → 10 → 12.5 → 15 mg | 0.25 → 0.5 → 1 → 1.7 → 2.4 mg |\n| 漏打规则 | 4 天（96 小时） | 2 天（48 小时） |\n| 平均减重（试验） | 最高约 22.5%（SURMOUNT-1，15 mg） | 最高约 15%（STEP 1） |\n| 糖尿病对应药物 | Mounjaro | Ozempic |\n\n*（数据已在正文中引用 FDA 标签和试验论文；发布时请核实是否为最新。完整的决策指南请参阅[司美格鲁肽与替尔泊肽对比](/en/semaglutide-vs-tirzepatide)。）*\n\n## 分 6 步建立 Zepbound 记录例行习惯\n\n你不需要复杂的系统——你需要的是可重复的系统。核心记录每周只需不到两分钟，再加上每天快速点几下。\n\n1. **设置每周注射提醒。** 选定固定的日期和时间，并设置重复提醒，这样就不会突然发现注射延迟了。\n2. **注射后立即记录剂量和部位。** 记下 mg 数量并标记身体图上的区域，这样下周的轮换就一目了然。\n3. **在固定的日子称重。** 每周选择 1–3 个早晨，在相同条件下称重，看趋势——而不是每天的波动。\n4. **每天记录蛋白质和饮水。** 每餐快速点一下就足以让肌肉保护保持在正轨。\n5. **出现副作用时随时记录。** 记下症状、严重程度，以及距离上次用药或增加剂量的天数。\n6. **每 2–4 周拍一次照片，并在每次就诊前回顾。** 光线相同、角度相同——并把你的剂量记录和副作用时间线带给你的临床医生。\n\n## 你需要 Zepbound 应用，还是笔记本就够了？\n\n说实话，任何记录都胜过没有记录——笔记本上的 **Zepbound 日记**也行得通。应用程序增加的是把人们容易忘记的部分自动化：每周提醒、注射部位轮换图、能平滑每日体重波动的趋势线，以及可以交给临床医生的副作用时间线。Zepbound 并没有附带专用的配套应用，所以大多数人使用通用的 GLP-1 或健康记录工具。如果你希望把剂量记录与保护你成果的日常习惯——蛋白质、运动、补水、体重和身体成分趋势——放在一起，像 [HAVIT](https://www.aihavit.com) 这样的健康应用是很自然的选择。你可以在我们的[最佳 GLP-1 记录应用指南](/en/glp-1-tracker-app)中比较几种选择，选一个你真正能坚持使用的；坚持比品牌重要得多。\n\n## 相关指南\n\n- [Wegovy 记录工具：在 Wegovy 期间记录什么、怎么记](/zh/wegovy-tracker)\n- [GLP-1 副作用：恶心、胃肠道症状与危险信号](/en/glp-1-side-effects)\n- [司美格鲁肽与替尔泊肽：哪种 GLP-1 适合你？](/en/semaglutide-vs-tirzepatide)\n- [GLP-1 记录应用完整指南](/en/glp-1-tracker-app)\n\n## 为什么选择 HAVIT——药物管理与行为改变，尽在一个应用\n\nGLP-1 药物可以显著减轻体重——但体重秤上的数字只是故事的一部分。在 GLP-1 治疗中，所减轻体重里瘦体重的占比，在一些试验中为 40–60%，在另一些试验中为 15% 或更低——而且瘦体重包括器官、骨骼和体液，而不仅仅是肌肉（[Neeland 等，*Diabetes, Obesity and Metabolism*，2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)），并且一旦停药，效果往往会逐渐消退，除非有新的习惯取而代之。这就是为什么主要指南把药物视为治疗的一部分，而不是全部：美国预防服务工作组（U.S. Preventive Services Task Force）建议为肥胖成年人提供强化的、多成分的行为干预（[USPSTF，B 级](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)）。\n\nHAVIT 正是为这一时刻而打造——一个整合了用药记录、身体成分、营养与蛋白质、日常习惯养成，以及能够适应你的 AI 教练的应用。在我们自己的 1,090 位 GLP-1 用户中，记录最持续的人养成了最牢固的习惯（[查看 GLP-1 习惯报告](/en/glp-1-habit-report)）。\n\n同时管理药物与肌肉。[从 HAVIT 开始 →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "在 Zepbound 期间记录什么（以及每一项为什么重要）",
+        "headers": [
+          "记录内容",
+          "为什么重要",
+          "频率"
+        ],
+        "rows": [
+          [
+            "用药日期与剂量（mg）",
+            "让你与剂量递增日程保持一致；确认依从性；防止意外重复用药",
+            "每次注射（每周）"
+          ],
+          [
+            "注射部位与轮换",
+            "轮换部位可防止出现改变药物吸收的块状瘢痕组织（脂肪增生）",
+            "每次注射"
+          ],
+          [
+            "体重",
+            "主要结局指标；趋势可揭示平台期和代谢适应",
+            "每周 1–3 次，每天同一时间"
+          ],
+          [
+            "腰围 / 围度",
+            "捕捉体重秤漏掉的脂肪减少，尤其是在保留肌肉的同时",
+            "每 1–2 周"
+          ],
+          [
+            "蛋白质摄入量（克）",
+            "保护瘦肌肉量，而在快速减重期间肌肉有流失风险",
+            "每天"
+          ],
+          [
+            "饮水 / 补水",
+            "缓解最初几周常见的便秘和恶心",
+            "每天"
+          ],
+          [
+            "副作用及严重程度",
+            "区分正常适应与需要就医的危险信号症状",
+            "出现时记录"
+          ],
+          [
+            "进展照片",
+            "在体重秤停滞时，直观呈现身体成分的变化",
+            "每 2–4 周"
+          ],
+          [
+            "续药 / 笔或药瓶库存",
+            "每周注射的药物会在可预见的日期用完；避免出现供药空档",
+            "每月"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "什么是 Zepbound 记录工具？",
+          "answer": "它是任何用于记录 Zepbound 治疗关键内容的工具——应用、电子表格或笔记本均可：你每周的用药日期和 mg 剂量、轮换到的注射部位、体重、蛋白质、饮水、副作用和进展照片。它会把这些内容转化为提醒和趋势图，供你回顾并与医生分享。"
+        },
+        {
+          "question": "我在使用 Zepbound 期间应该记录什么？",
+          "answer": "至少包括：每周的用药日期和剂量、注射部位、体重、蛋白质摄入、饮水和副作用，外加定期的围度测量或照片。加入抗阻训练记录也很有价值，因为力量训练能保护快速减重可能带走的肌肉。"
+        },
+        {
+          "question": "我应该记录的 Zepbound 剂量日程是什么？",
+          "answer": "Zepbound 从每周一次 2.5 mg 开始，持续 4 周，然后为 5 mg，并可每 4 周以 2.5 mg 为步长上调，最高为 15 mg；维持剂量为 5、10 或 15 mg。记录你在哪一天用了多少 mg，这样你和处方医生就能看到完整的历史。"
+        },
+        {
+          "question": "如果漏打了一次 Zepbound 怎么办？",
+          "answer": "Zepbound 采用 4 天（96 小时）规则。如果距离漏打的剂量不超过 4 天，请尽快补打；如果已超过 4 天，请跳过该剂量，并在下一个预定日期继续用药。这不同于 Wegovy 的 2 天规则和 Ozempic 的 5 天规则。请始终遵循你自己的药品标签和处方医生的指导。"
+        },
+        {
+          "question": "Zepbound 和 Mounjaro 是一样的吗？",
+          "answer": "它们是同一种药物——替尔泊肽——来自同一家制造商。Zepbound 获批用于慢性体重管理，而 Mounjaro 获批用于2型糖尿病。分子、笔和剂量都相同；获批的适应症不同。无论使用哪一种，记录剂量和部位的方式都一样。"
+        },
+        {
+          "question": "为什么我需要记录 Zepbound 的注射部位？",
+          "answer": "反复在同一位置注射可能形成块状瘢痕组织（脂肪增生），从而改变吸收。在腹部、大腿和上臂之间轮换，并记录每次的部位，可保持吸收一致，而使用记录工具的身体图会更容易做到。"
+        },
+        {
+          "question": "为什么在 Zepbound 期间记录蛋白质如此重要？",
+          "answer": "由于替尔泊肽会明显降低食欲，所减轻的体重中可能有很大一部分是瘦体重——GLP-1 试验分析显示大约为 30–40%。每餐优先摄入蛋白质，并配合抗阻训练，是保护肌肉和长期代谢的主要方法。"
+        },
+        {
+          "question": "有官方的 Zepbound 记录应用吗？",
+          "answer": "Zepbound 并未附带专用的配套记录应用。大多数人使用通用的 GLP-1 或健康应用，或者一本简单的笔记本，来记录剂量、部位、体重和副作用。选择你能持续使用的那一种——这比具体的工具更重要。"
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — Zepbound (tirzepatide) prescribing information (dose escalation, missed dose, injection sites, boxed warning). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf"
+        },
+        {
+          "text": "Eli Lilly — Zepbound dosage options, schedules & missed doses. zepbound.lilly.com",
+          "url": "https://zepbound.lilly.com/hcp/dosage"
+        },
+        {
+          "text": "Eli Lilly — Zepbound: how to use and how to inject (injection sites: abdomen, thigh, upper arm). zepbound.lilly.com",
+          "url": "https://zepbound.lilly.com/weight/how-to-use"
+        },
+        {
+          "text": "Eli Lilly — SURMOUNT-1 results (NEJM): tirzepatide achieved 16.0%–22.5% weight loss in adults with obesity or overweight. investor.lilly.com",
+          "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-surmount-1-results-published-new-england-journal-medicine"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 agonists: uses, how they work, and side effects. my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Frontiers in Clinical Diabetes and Healthcare (via PMC) — GLP-1 agonists, lean-mass loss, and the role of exercise and protein. pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/"
+        },
+        {
+          "text": "All medical claims verified against the cited FDA label and Eli Lilly materials as of July 2026. Re-review at least every 12 months or sooner if the FDA label changes.*"
+        }
+      ],
+      "last_updated": "2026-07-02"
+    },
+    "es": {
+      "title": "Registro de Zepbound: qué registrar con Zepbound y cómo (2026)",
+      "short_title": "Registro de Zepbound: qué anotar y cómo (2026)",
+      "meta_description": "Un registro de Zepbound anota la fecha de su dosis, el sitio de inyección, la tendencia de peso, la proteína y los efectos secundarios. Sepa qué registrar con tirzepatida y por qué importa.",
+      "short_description": "Aprenda qué registrar con Zepbound: fecha de dosis, sitio de inyección, tendencia de peso, proteína y efectos secundarios, y por qué importa.",
+      "tldr": "Un registro de Zepbound anota la fecha de su dosis, el sitio de inyección, la tendencia de peso, la proteína y los efectos secundarios. Sepa qué registrar con tirzepatida y por qué importa.",
+      "body_md": "Zepbound (tirzepatida) es un inyectable de una vez por semana aprobado para el control crónico del peso. Es un **agonista dual de los receptores de GIP y GLP-1**, la misma molécula que se vende como **Mounjaro** para la diabetes tipo 2, y actúa lentamente, a lo largo de meses, con una dosis que sube según un calendario fijo. Esa combinación lo convierte en el tipo de tratamiento que premia llevar buenos registros. Esta guía explica *qué* registrar con Zepbound, *por qué* cada elemento importa clínicamente y *cómo* convertirlo en una rutina semanal de dos minutos. Es neutral y educativa: puede hacerlo todo en papel. Una app solo automatiza las partes que la gente suele olvidar.\n\nSi está comparando Zepbound con otros GLP-1 o quiere ver primero el marco general, comience con nuestra [guía completa de apps para registrar GLP-1](/en/glp-1-tracker-app) y luego regrese aquí para los detalles específicos de Zepbound.\n\n## Por qué es especialmente importante llevar un registro con Zepbound\n\nTres características de Zepbound hacen que llevar un registro sea más que algo deseable:\n\n- **La dosis aumenta según un calendario.** Zepbound comienza con 2.5 mg y sube en incrementos de 2.5 mg, cada uno mantenido durante al menos cuatro semanas. Anotar qué dosis se aplicó en qué fecha lo mantiene alineado con ese plan y le da a su prescriptor un historial exacto en las consultas de ajuste de dosis.\n- **Es de una vez por semana, así que es fácil olvidarse.** Es mucho más probable omitir o retrasar una sola inyección con un medicamento semanal que con uno diario. Un registro con fecha y hora hace que la decisión sobre una dosis omitida sea sencilla en lugar de estresante (Zepbound usa una regla de 4 días; vea más abajo).\n- **Los resultados y los efectos secundarios no son lineales.** El peso baja a saltos y con mesetas, y las náuseas tienden a aumentar justo después de cada aumento de dosis. Solo una tendencia, no un día aislado, le dice lo que realmente está ocurriendo.\n\n## Qué registrar con Zepbound (y por qué importa cada elemento)\n\nEste es el conjunto básico de datos de Zepbound. Úselo como lista de verificación, ya sea que registre en papel, en una hoja de cálculo o en una app.\n\n### Fecha de la dosis y su calendario de titulación de Zepbound\n\nZepbound se inicia deliberadamente con una dosis baja y se aumenta según un calendario establecido para reducir los efectos secundarios gastrointestinales. Según la información de dosificación de Eli Lilly, la dosis inicial recomendada es de **2.5 mg una vez por semana durante 4 semanas** (una dosis de inicio, no de mantenimiento), y luego **5 mg**; a partir de ahí, la dosis puede aumentarse en **incrementos de 2.5 mg después de al menos 4 semanas** con la dosis actual, hasta un **máximo de 15 mg** una vez por semana. Las dosis de mantenimiento recomendadas son **5 mg, 10 mg o 15 mg** ([información de prescripción de la FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf); [zepbound.lilly.com dosing](https://zepbound.lilly.com/hcp/dosage)). Como la dosis cambia según un calendario, anotar **cuántos mg se aplicó y en qué fecha** es lo más útil que puede registrar. Su prescriptor decide en qué dosis se estabiliza y si debe subirla; un registro de dosis claro agiliza esa conversación.\n\n**La regla de la dosis omitida (conviene entenderla bien).** Zepbound usa una **regla de 4 días (96 horas)**, distinta de la regla de 2 días de Wegovy y de la de 5 días de Ozempic, un punto de confusión común. Según la etiqueta de la FDA: si han pasado **4 días o menos** desde su dosis omitida, aplíquela lo antes posible; si han pasado **más de 4 días**, omita la dosis olvidada y retome el esquema en su próximo día programado regularmente ([información de prescripción de la FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf)). Un registro que marque la hora de cada inyección convierte esto en un vistazo. Siga siempre su propia etiqueta y a su prescriptor.\n\n### Sitio de inyección y rotación\n\nZepbound se inyecta por vía subcutánea en una de tres zonas: el **abdomen** (a al menos dos pulgadas del ombligo), la **parte frontal o externa del muslo** o la **parte superior del brazo**. Puede volver a usar la misma zona del cuerpo, pero nunca el mismo punto exacto: rote cada semana ([Zepbound how-to-use, Eli Lilly](https://zepbound.lilly.com/weight/how-to-use)). Inyectar repetidamente en el mismo punto exacto puede causar **lipohipertrofia**: tejido cicatricial con bultos que cambia la forma en que se absorbe el medicamento. El problema es la memoria: pasadas unas semanas, nadie recuerda «¿la vez pasada fue el muslo izquierdo o el brazo derecho?». Aquí es donde un registro demuestra su valor: uno bueno muestra un **mapa corporal** con sus sitios recientes resaltados para que siempre elija uno nuevo. Zepbound viene en pluma de dosis única, vial de dosis única y KwikPen, así que anote también qué presentación y qué concentración usó.\n\n### Peso, medidas y fotos de progreso\n\nEl peso es la cifra principal de un **registro de pérdida de peso con Zepbound**, pero varía mucho de un día a otro. Pésese a la misma hora (normalmente por la mañana, después de ir al baño y antes de comer) y deje que la línea de tendencia, no una lectura aislada, cuente la historia. Las mesetas son comunes y tienen explicación médica. Las medidas de cintura y las **fotos de progreso cada 2–4 semanas** captan cambios en la composición corporal que la báscula oculta, lo cual importa más justo cuando el número se estanca.\n\n### Proteína, alimentación y protección del músculo\n\nEsta es la parte más subestimada del camino con Zepbound. Como la tirzepatida reduce marcadamente el apetito, una parte significativa del peso que se pierde puede ser **masa magra**: los análisis de ensayos de pérdida de peso con GLP-1 han reportado aproximadamente **30–40% del peso perdido como masa magra** (tenga en cuenta que parte de esto es agua y tejido de órganos, no solo músculo esquelético) ([revisión en *Frontiers / PMC*](https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/)). El músculo protege su metabolismo y sus resultados a largo plazo. Dos hábitos que puede registrar hacen la mayor parte del trabajo:\n\n1. **Proteína.** Apunte a una meta alta de proteína en cada comida (muchos médicos sugieren distribuir la proteína a lo largo del día). Cuando el apetito baja, la proteína suele ser lo primero que disminuye, así que registrarla la mantiene presente.\n2. **Entrenamiento de fuerza.** El trabajo de fuerza es la mejor defensa contra la pérdida de músculo con un GLP-1; registre sus sesiones como registra su dosis.\n\n### Efectos secundarios: normales vs. señales de alarma\n\nLos efectos secundarios más comunes de Zepbound son gastrointestinales: náuseas, diarrea, vómitos, estreñimiento, dolor abdominal y disminución del apetito. Suelen aparecer o empeorar justo después de un aumento de dosis y se calman a medida que su cuerpo se adapta. Los riesgos poco frecuentes pero graves incluyen pancreatitis y enfermedad de la vesícula biliar, y la etiqueta lleva una advertencia en recuadro por tumores de células C de la tiroides observados en roedores. Anotar **qué sintió, qué tan intenso fue y cuántos días habían pasado desde su última dosis o aumento de dosis** convierte un vago «me he sentido mal» en un patrón claro. Para ver el desglose completo síntoma por síntoma, consulte nuestra [guía de efectos secundarios de los GLP-1](/en/glp-1-side-effects).\n\n## Zepbound frente a Wegovy de un vistazo\n\nSi está eligiendo entre los dos grandes inyectables para bajar de peso, esto es lo que un registro le ayuda a vigilar con el tiempo.\n\n| | Zepbound (tirzepatida) | Wegovy (semaglutida) |\n|---|---|---|\n| Objetivo hormonal | GIP + GLP-1 (dual) | Solo GLP-1 |\n| Dosis máxima | 15 mg semanales | 2.4 mg semanales |\n| Pasos de titulación | 2.5 → 5 → 7.5 → 10 → 12.5 → 15 mg | 0.25 → 0.5 → 1 → 1.7 → 2.4 mg |\n| Regla de dosis omitida | 4 días (96 h) | 2 días (48 h) |\n| Pérdida de peso promedio (ensayos) | hasta ~22.5% (SURMOUNT-1, 15 mg) | hasta ~15% (STEP 1) |\n| Gemelo para diabetes | Mounjaro | Ozempic |\n\n*(Cifras citadas en el texto a partir de etiquetas de la FDA y publicaciones de ensayos; verificar que estén vigentes al publicar. Para una guía de decisión completa, vea [semaglutida vs. tirzepatida](/en/semaglutide-vs-tirzepatide).)*\n\n## Cómo crear una rutina de registro de Zepbound en 6 pasos\n\nNo necesita un sistema complicado, necesita uno repetible. El registro básico toma menos de dos minutos a la semana, más unos toques rápidos diarios.\n\n1. **Programe un recordatorio semanal de inyección.** Elija un día y una hora constantes y configure una alerta recurrente para que una inyección tardía nunca lo sorprenda.\n2. **Anote la dosis y el sitio justo después de inyectarse.** Registre la cantidad en mg y marque la zona en el mapa corporal, para que la rotación de la próxima semana sea obvia.\n3. **Pésese en días fijos.** Elija de 1 a 3 mañanas por semana, en las mismas condiciones, y lea la tendencia, no el ruido diario.\n4. **Registre la proteína y el agua a diario.** Un toque rápido por comida basta para mantener la protección muscular en marcha.\n5. **Anote los efectos secundarios cuando ocurran.** Registre el síntoma, la intensidad y los días desde su última dosis o aumento de dosis.\n6. **Tome fotos cada 2–4 semanas y revise antes de cada consulta.** Misma iluminación, mismo ángulo, y lleve su registro de dosis y la cronología de efectos secundarios a su médico.\n\n## ¿Necesita una app para Zepbound o basta con un cuaderno?\n\nHonestamente, cualquier registro es mejor que ninguno: un **diario de Zepbound** en un cuaderno funciona. Lo que aporta una app es la automatización de las partes que la gente olvida: el recordatorio semanal, el mapa de rotación de sitios de inyección, la línea de tendencia que suaviza el ruido del peso diario y una cronología de efectos secundarios que puede entregar a su médico. Zepbound no incluye una app complementaria propia, por lo que la mayoría de las personas usan un registro general de GLP-1 o de bienestar. Si quiere que su registro de dosis viva junto a los hábitos diarios que protegen sus resultados (proteína, movimiento, hidratación, tendencias de peso y composición corporal), una app de bienestar como [HAVIT](https://www.aihavit.com) es un lugar natural para ello. Compare algunas opciones en nuestra [guía de las mejores apps para registrar GLP-1](/en/glp-1-tracker-app) y elija la que realmente seguirá usando; la constancia importa mucho más que la marca.\n\n## Guías relacionadas\n\n- [Registro de Wegovy: qué anotar con Wegovy y cómo](/es/wegovy-tracker)\n- [Efectos secundarios de los GLP-1: náuseas, síntomas gastrointestinales y señales de alarma](/en/glp-1-side-effects)\n- [Semaglutida vs. tirzepatida: ¿qué GLP-1 es adecuado para usted?](/en/semaglutide-vs-tirzepatide)\n- [La guía completa de apps para registrar GLP-1](/en/glp-1-tracker-app)\n\n## Por qué HAVIT: medicación + cambio de conducta, en una sola app\n\nLos medicamentos GLP-1 pueden reducir el peso de forma significativa, pero el número en la báscula es solo una parte de la historia. La proporción de masa magra en el peso perdido con la terapia con GLP-1 ha variado de 40–60% en algunos ensayos a 15% o menos en otros, y la masa magra incluye órganos, hueso y líquidos, no solo músculo ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)); además, los resultados tienden a desvanecerse una vez que se suspende el medicamento, a menos que nuevos hábitos ocupen su lugar. Por eso las guías de referencia consideran el medicamento como una parte de la atención, no la totalidad: el U.S. Preventive Services Task Force recomienda que a los adultos con obesidad se les ofrezcan intervenciones conductuales intensivas y multicomponente ([USPSTF, Grado B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT está diseñada para este momento: una sola app que une el registro de medicación, la composición corporal, la nutrición y la proteína, la creación de hábitos diarios y un coach de IA que se adapta a usted. Entre nuestros propios 1,090 usuarios de GLP-1, quienes registraron con mayor constancia construyeron los hábitos más sólidos ([vea el informe de hábitos con GLP-1](/en/glp-1-habit-report)).\n\nGestione el medicamento y el músculo, juntos. [Comience con HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "Qué registrar con Zepbound (y por qué importa cada elemento)",
+        "headers": [
+          "Qué registrar",
+          "Por qué importa",
+          "Con qué frecuencia"
+        ],
+        "rows": [
+          [
+            "Fecha y cantidad de la dosis (mg)",
+            "Lo mantiene alineado con el calendario de titulación; confirma la adherencia; evita una doble dosis accidental",
+            "Cada inyección (semanal)"
+          ],
+          [
+            "Sitio de inyección y rotación",
+            "Rotar los sitios previene el tejido cicatricial con bultos (lipohipertrofia) que cambia la absorción del medicamento",
+            "Cada inyección"
+          ],
+          [
+            "Peso corporal",
+            "Es el resultado principal; la tendencia revela mesetas y adaptación metabólica",
+            "1–3× por semana, a la misma hora del día"
+          ],
+          [
+            "Cintura / medidas",
+            "Detecta la pérdida de grasa que la báscula no muestra, especialmente al preservar el músculo",
+            "Cada 1–2 semanas"
+          ],
+          [
+            "Ingesta de proteína (gramos)",
+            "Protege la masa muscular magra, que está en riesgo durante una pérdida de peso rápida",
+            "Diariamente"
+          ],
+          [
+            "Agua / hidratación",
+            "Alivia el estreñimiento y las náuseas comunes en las primeras semanas",
+            "Diariamente"
+          ],
+          [
+            "Efectos secundarios e intensidad",
+            "Distingue la adaptación normal de los síntomas de alarma que requieren un médico",
+            "Cuando ocurran"
+          ],
+          [
+            "Fotos de progreso",
+            "Prueba visual del cambio en la composición corporal cuando la báscula se estanca",
+            "Cada 2–4 semanas"
+          ],
+          [
+            "Reposición / suministro de plumas o viales",
+            "Un inyectable semanal se agota en una fecha predecible; evita un hueco en la cobertura",
+            "Mensualmente"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "¿Qué es un registro de Zepbound?",
+          "answer": "Es cualquier herramienta (app, hoja de cálculo o cuaderno) que registra las partes clave del tratamiento con Zepbound: la fecha de su dosis semanal y la cantidad en mg, el sitio de inyección al que rotó, el peso, la proteína, el agua, los efectos secundarios y las fotos de progreso. Los convierte en recordatorios y gráficos de tendencia que puede revisar y compartir con su médico."
+        },
+        {
+          "question": "¿Qué debo registrar con Zepbound?",
+          "answer": "Como mínimo: la fecha y la cantidad de la dosis semanal, el sitio de inyección, el peso corporal, la ingesta de proteína, el agua y los efectos secundarios, además de medidas o fotos periódicas. Vale la pena añadir las sesiones de entrenamiento de fuerza, ya que el trabajo de fuerza protege el músculo que una pérdida de peso rápida puede restar."
+        },
+        {
+          "question": "¿Qué calendario de dosis de Zepbound debo registrar?",
+          "answer": "Zepbound comienza con 2.5 mg una vez por semana durante 4 semanas, luego 5 mg, y puede aumentarse en pasos de 2.5 mg cada 4 semanas hasta un máximo de 15 mg; las dosis de mantenimiento son 5, 10 o 15 mg. Anote cuántos mg se aplicó y en qué fecha para que usted y su prescriptor vean el historial completo."
+        },
+        {
+          "question": "¿Qué pasa si me salto una dosis de Zepbound?",
+          "answer": "Zepbound usa una regla de 4 días (96 horas). Si han pasado 4 días o menos desde la dosis omitida, aplíquela lo antes posible; si han pasado más de 4 días, omítala y retome el esquema en su próximo día programado. Esto difiere de las reglas de 2 días de Wegovy y de 5 días de Ozempic. Siga siempre su propia etiqueta y a su prescriptor."
+        },
+        {
+          "question": "¿Zepbound es lo mismo que Mounjaro?",
+          "answer": "Es el mismo medicamento, tirzepatida, del mismo fabricante. Zepbound está aprobado para el control crónico del peso, mientras que Mounjaro está aprobado para la diabetes tipo 2. La molécula, las plumas y las dosis son las mismas; lo que difiere es la indicación aprobada. Registre su dosis y su sitio de la misma manera con cualquiera de los dos."
+        },
+        {
+          "question": "¿Por qué debo registrar el sitio de inyección de Zepbound?",
+          "answer": "Inyectar repetidamente en el mismo punto puede crear tejido cicatricial con bultos (lipohipertrofia) que cambia la absorción. Rotar entre el abdomen, el muslo y la parte superior del brazo, y anotar cada sitio, mantiene la absorción constante, y esto es más fácil con el mapa corporal de un registro."
+        },
+        {
+          "question": "¿Por qué es tan importante registrar la proteína con Zepbound?",
+          "answer": "Como la tirzepatida reduce marcadamente el apetito, una gran parte del peso perdido puede ser masa magra; los análisis de ensayos de GLP-1 sugieren aproximadamente 30–40%. Priorizar la proteína en cada comida, junto con el entrenamiento de fuerza, es la principal forma de proteger el músculo y su metabolismo a largo plazo."
+        },
+        {
+          "question": "¿Existe una app oficial para registrar Zepbound?",
+          "answer": "Zepbound no viene con una app complementaria de registro propia. La mayoría de las personas usan una app general de GLP-1 o de bienestar, o un simple cuaderno, para anotar dosis, sitios, peso y efectos secundarios. Elija la que usará de forma constante; eso importa más que la herramienta específica."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — Zepbound (tirzepatide) prescribing information (dose escalation, missed dose, injection sites, boxed warning). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf"
+        },
+        {
+          "text": "Eli Lilly — Zepbound dosage options, schedules & missed doses. zepbound.lilly.com",
+          "url": "https://zepbound.lilly.com/hcp/dosage"
+        },
+        {
+          "text": "Eli Lilly — Zepbound: how to use and how to inject (injection sites: abdomen, thigh, upper arm). zepbound.lilly.com",
+          "url": "https://zepbound.lilly.com/weight/how-to-use"
+        },
+        {
+          "text": "Eli Lilly — SURMOUNT-1 results (NEJM): tirzepatide achieved 16.0%–22.5% weight loss in adults with obesity or overweight. investor.lilly.com",
+          "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-surmount-1-results-published-new-england-journal-medicine"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 agonists: uses, how they work, and side effects. my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Frontiers in Clinical Diabetes and Healthcare (via PMC) — GLP-1 agonists, lean-mass loss, and the role of exercise and protein. pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/"
+        },
+        {
+          "text": "All medical claims verified against the cited FDA label and Eli Lilly materials as of July 2026. Re-review at least every 12 months or sooner if the FDA label changes.*"
+        }
+      ],
+      "last_updated": "2026-07-02"
+    },
+    "pt-BR": {
+      "title": "Controle do Zepbound: o que registrar no Zepbound e como (2026)",
+      "short_title": "Controle do Zepbound: o que registrar (2026)",
+      "meta_description": "Um controle do Zepbound registra data da dose, local da injeção, tendência de peso, proteína e efeitos colaterais. Veja o que registrar com tirzepatida e por quê.",
+      "short_description": "Veja o que registrar no Zepbound: data da dose, local da injeção, peso, proteína e efeitos colaterais, e por que cada item importa com a tirzepatida.",
+      "tldr": "Um controle do Zepbound registra data da dose, local da injeção, tendência de peso, proteína e efeitos colaterais. Veja o que registrar com tirzepatida e por quê.",
+      "body_md": "O Zepbound (tirzepatida) é um medicamento injetável semanal aprovado para o controle crônico do peso. É um **agonista duplo dos receptores de GIP e GLP-1** — a mesma molécula vendida como **Mounjaro** para diabetes tipo 2 — e age lentamente, ao longo de meses, com uma dose que aumenta em um calendário fixo. Essa combinação faz dele exatamente o tipo de tratamento que recompensa bons registros. Este guia mostra *o que* registrar no Zepbound, *por que* cada item importa do ponto de vista clínico e *como* transformar isso em uma rotina semanal de dois minutos. O conteúdo é neutro e educativo: você pode fazer tudo no papel. Um aplicativo apenas automatiza as partes que as pessoas esquecem.\n\nSe você está comparando o Zepbound com outros GLP-1 ou quer ver primeiro a estrutura geral, comece pelo nosso [guia completo de aplicativos de controle de GLP-1](/en/glp-1-tracker-app) e depois volte aqui para os detalhes específicos do Zepbound.\n\n## Por que registrar é especialmente importante no Zepbound\n\nTrês características do Zepbound tornam o registro mais do que algo apenas desejável:\n\n- **A dose aumenta em um cronograma.** O Zepbound começa com 2,5 mg e sobe em incrementos de 2,5 mg, cada um mantido por pelo menos quatro semanas. Registrar qual dose você tomou em qual data mantém você alinhado a esse plano e dá ao seu prescritor um histórico exato nas consultas de ajuste de dose.\n- **É semanal, então é fácil esquecer.** Uma única aplicação pulada ou atrasada é muito mais provável com um medicamento semanal do que com um diário. Um registro com data e hora torna a decisão sobre dose esquecida simples, em vez de estressante (o Zepbound usa uma regra de 4 dias — veja abaixo).\n- **Resultados e efeitos colaterais não são lineares.** O peso cai aos trancos e com platôs, e a náusea tende a aumentar logo após cada aumento de dose. Só uma tendência — não um único dia — mostra o que realmente está acontecendo.\n\n## O que registrar no Zepbound (e por que cada item importa)\n\nEste é o conjunto básico de dados do Zepbound. Use-o como lista de verificação, seja no papel, em uma planilha ou em um aplicativo.\n\n### Data da dose e seu cronograma de titulação do Zepbound\n\nO Zepbound é iniciado deliberadamente com dose baixa e aumentado em um cronograma definido para reduzir os efeitos colaterais gastrointestinais. Segundo as informações de dosagem da Eli Lilly, a dose inicial recomendada é de **2,5 mg uma vez por semana durante 4 semanas** (uma dose de início, não de manutenção), depois **5 mg**; a partir daí, a dose pode ser aumentada em **incrementos de 2,5 mg após pelo menos 4 semanas** na dose atual, até o **máximo de 15 mg** uma vez por semana. As doses de manutenção recomendadas são **5 mg, 10 mg ou 15 mg** ([bula da FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf); [zepbound.lilly.com dosing](https://zepbound.lilly.com/hcp/dosage)). Como a dose muda conforme um calendário, registrar **quantos mg você tomou em qual data** é a coisa mais útil que você pode anotar. Seu prescritor decide em que dose você vai se estabilizar e se deve aumentar — um registro de doses organizado torna essa conversa mais rápida.\n\n**A regra da dose esquecida (vale acertar).** O Zepbound usa uma **regra de 4 dias (96 horas)** — diferente da regra de 2 dias do Wegovy e da regra de 5 dias do Ozempic, um ponto comum de confusão. Segundo a bula da FDA: se passaram **4 dias ou menos** desde a dose esquecida, tome-a assim que possível; se passaram **mais de 4 dias**, pule a dose esquecida e retome no próximo dia regularmente programado ([bula da FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf)). Um aplicativo de controle que registra data e hora de cada aplicação transforma isso em uma olhada rápida. Siga sempre a sua própria bula e o seu prescritor.\n\n### Local da injeção e rodízio\n\nO Zepbound é injetado por via subcutânea em uma de três áreas: o **abdômen** (mantenha pelo menos cinco centímetros de distância do umbigo, ou seja, duas polegadas), a **coxa, na frente ou na lateral externa**, ou a **parte superior do braço**. Você pode usar a mesma área do corpo, mas nunca o mesmo ponto exato — faça rodízio a cada semana ([Zepbound how-to-use, Eli Lilly](https://zepbound.lilly.com/weight/how-to-use)). Injetar repetidamente no mesmo ponto exato pode causar **lipo-hipertrofia** — um tecido cicatricial com nódulos que altera a forma como o medicamento é absorvido. O problema é a memória: depois de algumas semanas, ninguém lembra se foi “coxa esquerda ou braço direito da última vez?”. É aqui que um aplicativo de controle se justifica — um bom aplicativo mostra um **mapa corporal** com os locais recentes destacados, para você sempre escolher um novo. O Zepbound vem em caneta de dose única, frasco de dose única e KwikPen, então anote também qual apresentação e qual dosagem você usou.\n\n### Peso, medidas e fotos de progresso\n\nO peso é o número principal em um **controle de perda de peso com Zepbound**, mas oscila de um dia para o outro. Pese-se no mesmo horário (normalmente de manhã, depois de ir ao banheiro e antes de comer) e deixe a linha de tendência — e não uma leitura isolada — contar a história. Platôs são comuns e têm explicação médica. Medidas da cintura e **fotos de progresso a cada 2–4 semanas** captam mudanças na composição corporal que a balança esconde, o que importa mais justamente quando o número estaciona.\n\n### Proteína, alimentação e proteção da massa muscular\n\nEsta é a parte mais subestimada da jornada com o Zepbound. Como a tirzepatida reduz bastante o apetite, uma parte significativa do peso perdido pode ser **massa magra** — análises de estudos de perda de peso com GLP-1 relataram cerca de **30–40% do peso perdido como massa magra** (note que parte disso é água e tecido de órgãos, não apenas músculo esquelético) ([revisão na *Frontiers / PMC*](https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/)). O músculo protege seu metabolismo e seus resultados a longo prazo. Dois hábitos registráveis fazem o trabalho pesado:\n\n1. **Proteína.** Busque uma meta alta de proteína em cada refeição (muitos clínicos sugerem distribuir a proteína ao longo do dia). Quando o apetite cai, a proteína costuma ser a primeira coisa a diminuir — por isso registrá-la a mantém em evidência.\n2. **Treino de resistência.** O treino de força é a melhor defesa contra a perda muscular com um GLP-1; registre suas sessões como você registra sua dose.\n\n### Efeitos colaterais — normais x sinais de alerta\n\nOs efeitos colaterais mais comuns do Zepbound são gastrointestinais: náusea, diarreia, vômito, constipação, dor abdominal e redução do apetite. Eles geralmente aparecem ou pioram logo após um aumento de dose e diminuem à medida que seu corpo se adapta. Riscos raros, mas graves, incluem pancreatite e doença da vesícula biliar, e a bula traz uma tarja de advertência (boxed warning) para tumores de células C da tireoide observados em roedores. Registrar **o que você sentiu, a gravidade e quantos dias se passaram desde a última dose ou o último aumento de dose** transforma um vago “estou me sentindo mal” em um padrão claro. Para a lista completa, sintoma por sintoma, veja nosso [guia de efeitos colaterais dos GLP-1](/en/glp-1-side-effects).\n\n## Como o Zepbound se compara ao Wegovy em resumo\n\nSe você está escolhendo entre os dois grandes injetáveis para perda de peso, é isso que um aplicativo de controle ajuda você a acompanhar ao longo do tempo.\n\n| | Zepbound (tirzepatida) | Wegovy (semaglutida) |\n|---|---|---|\n| Alvo hormonal | GIP + GLP-1 (duplo) | Apenas GLP-1 |\n| Dose máxima | 15 mg por semana | 2,4 mg por semana |\n| Etapas de titulação | 2,5 → 5 → 7,5 → 10 → 12,5 → 15 mg | 0,25 → 0,5 → 1 → 1,7 → 2,4 mg |\n| Regra da dose esquecida | 4 dias (96 h) | 2 dias (48 h) |\n| Perda de peso média (estudos) | até ~22,5% (SURMOUNT-1, 15 mg) | até ~15% (STEP 1) |\n| Gêmeo para diabetes | Mounjaro | Ozempic |\n\n*(Números citados no texto a partir de bulas da FDA e publicações de estudos; verifique os dados atuais na publicação. Para um guia completo de decisão, veja [semaglutida vs. tirzepatida](/en/semaglutide-vs-tirzepatide).)*\n\n## Como montar uma rotina de registro do Zepbound em 6 passos\n\nVocê não precisa de um sistema complicado — precisa de um que seja repetível. O registro básico leva menos de dois minutos por semana, mais alguns toques rápidos diários.\n\n1. **Defina um lembrete semanal de injeção.** Escolha um dia e um horário constantes e programe um alerta recorrente para que uma aplicação atrasada nunca pegue você de surpresa.\n2. **Registre a dose e o local logo após injetar.** Anote a quantidade em mg e marque a zona no mapa corporal, para que o rodízio da próxima semana seja óbvio.\n3. **Pese-se em dias fixos.** Escolha 1–3 manhãs por semana, nas mesmas condições, e leia a tendência — não a oscilação diária.\n4. **Registre proteína e água diariamente.** Um toque rápido por refeição basta para manter a proteção muscular em dia.\n5. **Anote os efeitos colaterais quando acontecerem.** Registre o sintoma, a gravidade e os dias desde a última dose ou aumento de dose.\n6. **Faça fotos a cada 2–4 semanas e revise antes de cada consulta.** Mesma iluminação, mesmo ângulo — e leve seu registro de doses e a linha do tempo dos efeitos colaterais para o seu profissional de saúde.\n\n## Você precisa de um aplicativo para o Zepbound ou um caderno basta?\n\nHonestamente, qualquer registro é melhor do que nenhum — um **diário do Zepbound** em um caderno funciona. O que um aplicativo acrescenta é a automação das partes que as pessoas esquecem: o lembrete semanal, o mapa de rodízio dos locais de injeção, a linha de tendência que suaviza a oscilação diária do peso e uma linha do tempo de efeitos colaterais que você pode entregar ao seu profissional de saúde. O Zepbound não vem com um aplicativo próprio, então a maioria das pessoas usa um aplicativo geral de GLP-1 ou de bem-estar. Se você quer seu registro de doses ao lado dos hábitos diários que protegem seus resultados — proteína, movimento, hidratação, tendências de peso e composição corporal — um aplicativo de bem-estar como o [HAVIT](https://www.aihavit.com) é um lugar natural para isso. Compare algumas opções em nosso [guia dos melhores aplicativos de controle de GLP-1](/en/glp-1-tracker-app) e escolha o que você realmente vai continuar usando; a constância importa muito mais do que a marca.\n\n## Guias relacionados\n\n- [Controle do Wegovy: o que registrar no Wegovy e como](/pt-br/wegovy-tracker)\n- [Efeitos colaterais dos GLP-1: náusea, sintomas gastrointestinais e sinais de alerta](/en/glp-1-side-effects)\n- [Semaglutida vs. tirzepatida: qual GLP-1 é o certo para você?](/en/semaglutide-vs-tirzepatide)\n- [O guia completo de aplicativos de controle de GLP-1](/en/glp-1-tracker-app)\n\n## Por que o HAVIT — medicação + mudança de comportamento, em um só aplicativo\n\nOs medicamentos GLP-1 podem reduzir o peso de forma significativa — mas o número na balança é só parte da história. A parcela de massa magra do peso perdido com a terapia com GLP-1 variou de 40–60% em alguns estudos a 15% ou menos em outros — e a massa magra inclui órgãos, ossos e líquidos, não apenas músculo ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), e os resultados tendem a diminuir quando o medicamento é interrompido, a menos que novos hábitos ocupem seu lugar. É por isso que as principais diretrizes tratam o medicamento como uma parte do cuidado, não como o todo: a U.S. Preventive Services Task Force recomenda que adultos com obesidade recebam intervenções comportamentais intensivas e multicomponentes ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nO HAVIT foi criado para exatamente este momento — um só aplicativo que reúne controle da medicação, composição corporal, nutrição e proteína, construção de hábitos diários e um coach de IA que se adapta a você. Entre os nossos 1090 usuários de GLP-1, os que mais registravam com constância construíram os hábitos mais fortes ([veja o relatório de hábitos de GLP-1](/en/glp-1-habit-report)).\n\nCuide do medicamento e do músculo — juntos. [Comece com o HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "O que registrar no Zepbound (e por que cada item importa)",
+        "headers": [
+          "O que registrar",
+          "Por que importa",
+          "Com que frequência"
+        ],
+        "rows": [
+          [
+            "Data e quantidade da dose (mg)",
+            "Mantém você alinhado ao cronograma de titulação; confirma a adesão; evita dose dupla acidental",
+            "A cada injeção (semanal)"
+          ],
+          [
+            "Local da injeção e rodízio",
+            "O rodízio dos locais evita tecido cicatricial com nódulos (lipo-hipertrofia) que altera a absorção do medicamento",
+            "A cada injeção"
+          ],
+          [
+            "Peso corporal",
+            "O principal resultado; a tendência revela platôs e adaptação metabólica",
+            "1–3× por semana, no mesmo horário do dia"
+          ],
+          [
+            "Cintura / medidas",
+            "Capta a perda de gordura que a balança não mostra, especialmente ao preservar o músculo",
+            "A cada 1–2 semanas"
+          ],
+          [
+            "Ingestão de proteína (gramas)",
+            "Protege a massa muscular magra, que está em risco durante a perda de peso rápida",
+            "Diariamente"
+          ],
+          [
+            "Água / hidratação",
+            "Alivia a constipação e a náusea comuns nas primeiras semanas",
+            "Diariamente"
+          ],
+          [
+            "Efeitos colaterais e gravidade",
+            "Separa a adaptação normal de sintomas de alerta que exigem um médico",
+            "Quando ocorrerem"
+          ],
+          [
+            "Fotos de progresso",
+            "Prova visual da mudança na composição corporal quando a balança estaciona",
+            "A cada 2–4 semanas"
+          ],
+          [
+            "Reposição / estoque de canetas ou frascos",
+            "Um injetável semanal acaba em uma data previsível; evita uma lacuna de cobertura",
+            "Mensalmente"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "O que é um controle do Zepbound?",
+          "answer": "É qualquer ferramenta — aplicativo, planilha ou caderno — que registra as partes principais do tratamento com Zepbound: a data da dose semanal e a quantidade em mg, o local de injeção para o qual você fez rodízio, peso, proteína, água, efeitos colaterais e fotos de progresso. Ela transforma isso em lembretes e gráficos de tendência que você pode revisar e compartilhar com seu médico."
+        },
+        {
+          "question": "O que devo registrar no Zepbound?",
+          "answer": "No mínimo: a data e a quantidade da dose semanal, o local da injeção, o peso corporal, a ingestão de proteína, a água e os efeitos colaterais, além de medidas ou fotos periódicas. Vale a pena incluir as sessões de treino de resistência, já que o treino de força protege o músculo que a perda rápida de peso pode retirar."
+        },
+        {
+          "question": "Qual é o cronograma de doses do Zepbound que devo registrar?",
+          "answer": "O Zepbound começa com 2,5 mg uma vez por semana durante 4 semanas, depois 5 mg, e pode aumentar em etapas de 2,5 mg a cada 4 semanas até o máximo de 15 mg; as doses de manutenção são 5, 10 ou 15 mg. Registre quantos mg você tomou em qual data para que você e seu prescritor vejam o histórico completo."
+        },
+        {
+          "question": "O que acontece se eu esquecer uma dose de Zepbound?",
+          "answer": "O Zepbound usa uma regra de 4 dias (96 horas). Se passaram 4 dias ou menos desde a dose esquecida, tome-a assim que possível; se passaram mais de 4 dias, pule-a e retome no próximo dia programado. Isso difere das regras de 2 dias do Wegovy e de 5 dias do Ozempic. Siga sempre a sua própria bula e o seu prescritor."
+        },
+        {
+          "question": "O Zepbound é igual ao Mounjaro?",
+          "answer": "São o mesmo medicamento — tirzepatida — do mesmo fabricante. O Zepbound é aprovado para o controle crônico do peso, enquanto o Mounjaro é aprovado para diabetes tipo 2. A molécula, as canetas e as doses são as mesmas; o que difere é a indicação aprovada. Registre sua dose e o local da injeção da mesma forma para qualquer um dos dois."
+        },
+        {
+          "question": "Por que preciso registrar o local da injeção do Zepbound?",
+          "answer": "Injetar repetidamente no mesmo ponto pode criar tecido cicatricial com nódulos (lipo-hipertrofia) que altera a absorção. Fazer rodízio entre abdômen, coxa e parte superior do braço — e registrar cada local — mantém a absorção consistente, o que fica mais fácil com o mapa corporal de um aplicativo de controle."
+        },
+        {
+          "question": "Por que registrar a proteína é tão importante no Zepbound?",
+          "answer": "Como a tirzepatida reduz bastante o apetite, uma grande parte do peso perdido pode ser massa magra — análises de estudos com GLP-1 sugerem cerca de 30–40%. Priorizar a proteína em cada refeição, junto com o treino de resistência, é a principal forma de proteger o músculo e o metabolismo a longo prazo."
+        },
+        {
+          "question": "Existe um aplicativo oficial de controle do Zepbound?",
+          "answer": "O Zepbound não vem com um aplicativo próprio de controle. A maioria das pessoas usa um aplicativo geral de GLP-1 ou de bem-estar, ou um simples caderno, para registrar doses, locais, peso e efeitos colaterais. Escolha o que você vai continuar usando de forma consistente — isso importa mais do que a ferramenta específica."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — Zepbound (tirzepatide) prescribing information (dose escalation, missed dose, injection sites, boxed warning). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf"
+        },
+        {
+          "text": "Eli Lilly — Zepbound dosage options, schedules & missed doses. zepbound.lilly.com",
+          "url": "https://zepbound.lilly.com/hcp/dosage"
+        },
+        {
+          "text": "Eli Lilly — Zepbound: how to use and how to inject (injection sites: abdomen, thigh, upper arm). zepbound.lilly.com",
+          "url": "https://zepbound.lilly.com/weight/how-to-use"
+        },
+        {
+          "text": "Eli Lilly — SURMOUNT-1 results (NEJM): tirzepatide achieved 16.0%–22.5% weight loss in adults with obesity or overweight. investor.lilly.com",
+          "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-surmount-1-results-published-new-england-journal-medicine"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 agonists: uses, how they work, and side effects. my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Frontiers in Clinical Diabetes and Healthcare (via PMC) — GLP-1 agonists, lean-mass loss, and the role of exercise and protein. pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/"
+        },
+        {
+          "text": "All medical claims verified against the cited FDA label and Eli Lilly materials as of July 2026. Re-review at least every 12 months or sooner if the FDA label changes.*"
+        }
+      ],
+      "last_updated": "2026-07-02"
+    },
+    "id": {
+      "title": "Pencatat Zepbound: Apa yang Perlu Dicatat di Zepbound & Caranya (2026)",
+      "short_title": "Pencatat Zepbound: Apa yang Perlu Dicatat",
+      "meta_description": "Pencatat Zepbound mencatat tanggal dosis, lokasi suntikan, tren berat badan, protein & efek samping. Pelajari apa yang perlu dicatat pada tirzepatide dan alasannya.",
+      "short_description": "Pelajari apa yang perlu dicatat pada Zepbound: tanggal dosis, lokasi suntikan, tren berat badan, protein, dan efek samping, serta alasannya.",
+      "tldr": "Pencatat Zepbound mencatat tanggal dosis, lokasi suntikan, tren berat badan, protein & efek samping. Pelajari apa yang perlu dicatat pada tirzepatide dan alasannya.",
+      "body_md": "Zepbound (tirzepatide) adalah obat suntik sekali seminggu yang disetujui untuk pengelolaan berat badan kronis. Obat ini merupakan **agonis reseptor ganda GIP dan GLP-1** — molekul yang sama dengan yang dijual sebagai **Mounjaro** untuk diabetes tipe 2 — dan bekerja perlahan, selama berbulan-bulan, dengan dosis yang naik mengikuti kalender tetap. Kombinasi itu membuatnya jenis pengobatan yang sangat diuntungkan oleh pencatatan yang baik. Panduan ini membahas *apa* yang perlu dicatat pada Zepbound, *mengapa* setiap item penting secara klinis, dan *bagaimana* menjadikannya rutinitas mingguan dua menit. Panduan ini bersifat netral dan edukatif: semuanya bisa Anda lakukan di atas kertas. Aplikasi hanya mengotomatiskan bagian-bagian yang sering terlupa.\n\nJika Anda sedang membandingkan Zepbound dengan GLP-1 lain atau ingin memahami kerangka umumnya terlebih dahulu, mulailah dengan [panduan lengkap aplikasi pencatat GLP-1](/en/glp-1-tracker-app), lalu kembali ke sini untuk detail khusus Zepbound.\n\n## Mengapa pencatatan penting khusus pada Zepbound\n\nTiga hal tentang Zepbound membuat pencatatan lebih dari sekadar pelengkap:\n\n- **Dosis meningkat sesuai jadwal.** Zepbound dimulai pada 2,5 mg dan naik dengan kelipatan 2,5 mg, masing-masing dipertahankan setidaknya empat minggu. Mencatat dosis mana yang Anda gunakan pada tanggal berapa menjaga Anda tetap sesuai rencana dan memberi dokter Anda riwayat yang tepat saat kunjungan penyesuaian dosis.\n- **Obat ini sekali seminggu, sehingga mudah terlewat.** Satu suntikan yang terlewat atau terlambat jauh lebih mungkin terjadi pada obat mingguan daripada harian. Catatan berstempel waktu membuat keputusan saat dosis terlewat menjadi sederhana, bukan menegangkan (Zepbound menggunakan aturan 4 hari — lihat di bawah).\n- **Hasil dan efek samping tidak linier.** Berat badan turun naik-turun dan sempat mendatar, dan mual cenderung memuncak tepat setelah setiap kenaikan dosis. Hanya tren — bukan satu hari saja — yang menunjukkan apa yang sebenarnya terjadi.\n\n## Apa yang perlu dicatat pada Zepbound (dan mengapa masing-masing penting)\n\nBerikut data inti Zepbound. Gunakan sebagai daftar periksa Anda, baik mencatat di kertas, spreadsheet, maupun aplikasi.\n\n### Tanggal dosis dan jadwal titrasi Zepbound Anda\n\nZepbound sengaja dimulai dari dosis rendah dan dinaikkan sesuai jadwal tertentu untuk mengurangi efek samping pencernaan. Menurut informasi dosis Eli Lilly, dosis awal yang dianjurkan adalah **2,5 mg sekali seminggu selama 4 minggu** (dosis inisiasi, bukan dosis pemeliharaan), kemudian **5 mg**; dari sana dosis dapat dinaikkan dengan **kelipatan 2,5 mg setelah setidaknya 4 minggu** pada dosis saat ini, hingga **maksimum 15 mg** sekali seminggu. Dosis pemeliharaan yang dianjurkan adalah **5 mg, 10 mg, atau 15 mg** ([informasi peresepan FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf); [dosis di zepbound.lilly.com](https://zepbound.lilly.com/hcp/dosage)). Karena dosis berubah mengikuti kalender, mencatat **berapa mg yang Anda gunakan pada tanggal berapa** adalah hal paling berguna yang bisa Anda rekam. Dokter Anda yang menentukan di dosis mana Anda menetap dan apakah perlu naik — catatan dosis yang rapi mempercepat pembicaraan itu.\n\n**Aturan dosis terlewat (penting untuk dipahami dengan benar).** Zepbound menggunakan **aturan 4 hari (96 jam)** — berbeda dari aturan 2 hari pada Wegovy dan aturan 5 hari pada Ozempic, yang sering membingungkan. Menurut label FDA: jika sudah **4 hari atau kurang** sejak dosis yang terlewat, gunakan sesegera mungkin; jika sudah **lebih dari 4 hari**, lewati dosis yang terlewat dan lanjutkan pada hari terjadwal berikutnya ([informasi peresepan FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf)). Pencatat yang memberi stempel waktu pada setiap suntikan membuat hal ini cukup dilihat sekilas. Selalu ikuti label obat dan dokter Anda sendiri.\n\n### Lokasi suntikan dan rotasi\n\nZepbound disuntikkan secara subkutan ke salah satu dari tiga area: **perut** (jaga jarak minimal dua inci dari pusar), **paha depan atau luar**, atau **lengan atas**. Anda boleh memakai area tubuh yang sama, tetapi jangan pernah titik yang persis sama — rotasikan setiap minggu ([cara penggunaan Zepbound, Eli Lilly](https://zepbound.lilly.com/weight/how-to-use)). Menyuntik titik yang persis sama berulang kali dapat menyebabkan **lipohipertrofi** — jaringan parut berbenjol yang mengubah cara obat diserap. Masalahnya adalah ingatan: setelah beberapa minggu, tak ada yang ingat “terakhir kali paha kiri atau lengan kanan?” Di sinilah pencatat berguna — yang baik menampilkan **peta tubuh** dengan lokasi terbaru Anda disorot sehingga Anda selalu memilih lokasi baru. Zepbound tersedia sebagai pen dosis tunggal, vial dosis tunggal, dan KwikPen, jadi catat juga bentuk dan kekuatan yang Anda gunakan.\n\n### Berat badan, pengukuran, dan foto kemajuan\n\nBerat badan adalah angka utama bagi **pencatat penurunan berat badan Zepbound**, tetapi angkanya berfluktuasi dari hari ke hari. Timbang pada waktu yang sama (biasanya pagi, setelah buang air, sebelum makan) dan biarkan garis tren — bukan satu pembacaan — yang bercerita. Berat badan yang mendatar itu umum dan dapat dijelaskan secara medis. Ukuran pinggang dan **foto kemajuan setiap 2–4 minggu** menangkap perubahan komposisi tubuh yang tidak terlihat di timbangan, yang paling penting justru saat angka timbangan berhenti turun.\n\n### Protein, makanan, dan melindungi otot\n\nIni bagian yang paling kurang dihargai dalam perjalanan Zepbound. Karena tirzepatide menurunkan nafsu makan secara tajam, sebagian besar berat badan yang hilang dapat berupa **massa tubuh tanpa lemak** — analisis uji coba penurunan berat badan GLP-1 melaporkan sekitar **30–40% berat yang hilang berupa massa tanpa lemak** (perlu dicatat sebagian di antaranya adalah air dan jaringan organ, bukan hanya otot rangka) ([tinjauan di *Frontiers / PMC*](https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/)). Otot melindungi metabolisme dan hasil jangka panjang Anda. Dua kebiasaan yang dapat dicatat ini berperan besar:\n\n1. **Protein.** Targetkan asupan protein tinggi pada setiap waktu makan (banyak klinisi menyarankan membagi protein sepanjang hari). Saat nafsu makan turun, protein biasanya hal pertama yang berkurang — jadi mencatatnya membuatnya tetap diingat.\n2. **Latihan beban.** Latihan kekuatan adalah pertahanan terkuat terhadap hilangnya otot saat memakai GLP-1; catat sesi latihan Anda seperti Anda mencatat dosis.\n\n### Efek samping — normal vs. tanda bahaya\n\nEfek samping Zepbound yang paling umum berkaitan dengan pencernaan: mual, diare, muntah, sembelit, nyeri perut, dan nafsu makan menurun. Efek ini biasanya muncul atau memburuk tepat setelah kenaikan dosis dan mereda seiring tubuh Anda beradaptasi. Risiko yang jarang tetapi serius mencakup pankreatitis dan penyakit kandung empedu, dan label memuat peringatan kotak hitam untuk tumor sel C tiroid yang terlihat pada hewan pengerat. Mencatat **apa yang Anda rasakan, seberapa berat, dan berapa hari sejak dosis terakhir atau kenaikan dosis** mengubah “saya merasa tidak enak badan” yang samar menjadi pola yang jelas. Untuk uraian lengkap gejala demi gejala, lihat [panduan efek samping GLP-1](/en/glp-1-side-effects) kami.\n\n## Perbandingan singkat Zepbound dan Wegovy\n\nJika Anda memilih di antara dua obat suntik penurun berat badan utama ini, inilah yang dibantu pantau oleh pencatat dari waktu ke waktu.\n\n| | Zepbound (tirzepatide) | Wegovy (semaglutide) |\n|---|---|---|\n| Target hormon | GIP + GLP-1 (ganda) | Hanya GLP-1 |\n| Dosis maks. | 15 mg per minggu | 2,4 mg per minggu |\n| Tahap titrasi | 2,5 → 5 → 7,5 → 10 → 12,5 → 15 mg | 0,25 → 0,5 → 1 → 1,7 → 2,4 mg |\n| Aturan dosis terlewat | 4 hari (96 jam) | 2 hari (48 jam) |\n| Rata-rata penurunan berat badan (uji coba) | hingga ~22,5% (SURMOUNT-1, 15 mg) | hingga ~15% (STEP 1) |\n| Kembaran untuk diabetes | Mounjaro | Ozempic |\n\n*(Angka dikutip di dalam teks dari label FDA dan publikasi uji coba; verifikasi data terkini saat terbit. Untuk panduan keputusan lengkap, lihat [semaglutide vs. tirzepatide](/en/semaglutide-vs-tirzepatide).)*\n\n## Cara membangun rutinitas pencatatan Zepbound dalam 6 langkah\n\nAnda tidak membutuhkan sistem rumit — Anda membutuhkan sistem yang bisa diulang. Catatan inti ini memakan waktu kurang dari dua menit seminggu, ditambah ketukan singkat harian.\n\n1. **Atur pengingat suntik mingguan.** Pilih hari dan waktu yang konsisten dan atur alarm berulang agar suntikan terlambat tidak menyergap Anda.\n2. **Catat dosis dan lokasi segera setelah menyuntik.** Rekam jumlah mg dan tandai zona pada peta tubuh, sehingga rotasi minggu depan jelas.\n3. **Timbang pada hari yang tetap.** Pilih 1–3 pagi per minggu, dengan kondisi yang sama, dan baca trennya — bukan fluktuasi harian.\n4. **Catat protein dan air setiap hari.** Satu ketukan cepat per waktu makan sudah cukup untuk menjaga perlindungan otot.\n5. **Catat efek samping saat terjadi.** Rekam gejala, tingkat keparahan, dan jumlah hari sejak dosis terakhir atau kenaikan dosis.\n6. **Foto setiap 2–4 minggu dan tinjau sebelum setiap kunjungan.** Pencahayaan dan sudut yang sama — dan bawa catatan dosis serta linimasa efek samping Anda ke klinisi.\n\n## Apakah Anda perlu aplikasi Zepbound, atau buku catatan sudah cukup?\n\nJujur saja, pencatatan apa pun lebih baik daripada tidak sama sekali — sebuah **diari Zepbound** di buku catatan pun bisa. Yang ditambahkan aplikasi adalah otomatisasi bagian yang sering terlupa: pengingat mingguan, peta rotasi lokasi suntikan, garis tren yang meratakan fluktuasi berat badan harian, dan linimasa efek samping yang dapat Anda berikan kepada klinisi. Zepbound tidak dilengkapi aplikasi pendamping khusus, jadi kebanyakan orang memakai pencatat GLP-1 atau kesehatan umum. Jika Anda ingin catatan dosis berdampingan dengan kebiasaan harian yang melindungi hasil Anda — protein, gerak, hidrasi, tren berat badan dan komposisi tubuh — aplikasi kesehatan seperti [HAVIT](https://www.aihavit.com) adalah tempat yang wajar. Bandingkan beberapa pilihan di [panduan aplikasi pencatat GLP-1 terbaik](/en/glp-1-tracker-app) kami dan pilih yang benar-benar akan Anda gunakan terus; konsistensi jauh lebih penting daripada mereknya.\n\n## Panduan terkait\n\n- [Pencatat Wegovy: apa yang dicatat di Wegovy dan caranya](/id/wegovy-tracker)\n- [Efek samping GLP-1: mual, gejala pencernaan & tanda bahaya](/en/glp-1-side-effects)\n- [Semaglutide vs. tirzepatide: GLP-1 mana yang tepat untuk Anda?](/en/semaglutide-vs-tirzepatide)\n- [Panduan lengkap aplikasi pencatat GLP-1](/en/glp-1-tracker-app)\n\n## Mengapa HAVIT — Obat + Perubahan Perilaku, dalam Satu Aplikasi\n\nObat GLP-1 dapat menurunkan berat badan secara berarti — tetapi angka di timbangan hanyalah sebagian dari cerita. Porsi massa tanpa lemak dari berat badan yang hilang pada terapi GLP-1 berkisar dari 40–60% pada beberapa uji coba hingga 15% atau kurang pada uji coba lain — dan massa tanpa lemak mencakup organ, tulang, dan cairan, bukan hanya otot ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), dan hasilnya cenderung memudar setelah obat dihentikan kecuali kebiasaan baru menggantikannya. Itulah mengapa panduan terkemuka memandang obat sebagai satu bagian dari perawatan, bukan keseluruhannya: U.S. Preventive Services Task Force merekomendasikan agar orang dewasa dengan obesitas ditawari intervensi perilaku multikomponen yang intensif ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT dibuat tepat untuk momen ini — satu aplikasi yang menyatukan pencatatan obat, komposisi tubuh, nutrisi dan protein, pembentukan kebiasaan harian, serta pelatih AI yang menyesuaikan diri dengan Anda. Pada 1.090 pengguna GLP-1 kami sendiri, pencatat yang paling konsisten membangun kebiasaan terkuat ([lihat laporan kebiasaan GLP-1](/en/glp-1-habit-report)).\n\nKelola obat dan otot — bersamaan. [Mulai dengan HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "Apa yang perlu dicatat pada Zepbound (dan mengapa masing-masing penting)",
+        "headers": [
+          "Apa yang dicatat",
+          "Mengapa penting",
+          "Seberapa sering"
+        ],
+        "rows": [
+          [
+            "Tanggal & jumlah dosis (mg)",
+            "Menjaga Anda selaras dengan jadwal titrasi; memastikan kepatuhan; mencegah dosis ganda yang tidak disengaja",
+            "Setiap suntikan (mingguan)"
+          ],
+          [
+            "Lokasi suntikan & rotasi",
+            "Merotasi lokasi mencegah jaringan parut berbenjol (lipohipertrofi) yang mengubah penyerapan obat",
+            "Setiap suntikan"
+          ],
+          [
+            "Berat badan",
+            "Hasil utama; tren menunjukkan berat yang mendatar dan adaptasi metabolik",
+            "1–3× per minggu, pada waktu yang sama setiap hari"
+          ],
+          [
+            "Lingkar pinggang / pengukuran",
+            "Menangkap penurunan lemak yang terlewat oleh timbangan, terutama saat otot dipertahankan",
+            "Setiap 1–2 minggu"
+          ],
+          [
+            "Asupan protein (gram)",
+            "Melindungi massa otot tanpa lemak, yang berisiko selama penurunan berat badan yang cepat",
+            "Setiap hari"
+          ],
+          [
+            "Air / hidrasi",
+            "Meredakan sembelit dan mual yang umum pada minggu-minggu pertama",
+            "Setiap hari"
+          ],
+          [
+            "Efek samping & tingkat keparahan",
+            "Membedakan adaptasi normal dari gejala tanda bahaya yang memerlukan dokter",
+            "Saat terjadi"
+          ],
+          [
+            "Foto kemajuan",
+            "Bukti visual perubahan komposisi tubuh saat timbangan berhenti turun",
+            "Setiap 2–4 minggu"
+          ],
+          [
+            "Isi ulang / persediaan pen atau vial",
+            "Obat suntik mingguan habis pada tanggal yang dapat diprediksi; menghindari jeda cakupan",
+            "Bulanan"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "Apa itu pencatat Zepbound?",
+          "answer": "Itu adalah alat apa pun — aplikasi, spreadsheet, atau buku catatan — yang merekam bagian-bagian utama pengobatan Zepbound: tanggal dosis mingguan dan jumlah mg, lokasi suntikan yang Anda rotasikan, berat badan, protein, air, efek samping, dan foto kemajuan. Alat ini mengubahnya menjadi pengingat dan grafik tren yang dapat Anda tinjau dan bagikan kepada dokter Anda."
+        },
+        {
+          "question": "Apa yang harus saya catat pada Zepbound?",
+          "answer": "Minimal: tanggal dan jumlah dosis mingguan, lokasi suntikan, berat badan, asupan protein, air, dan efek samping, ditambah pengukuran atau foto secara berkala. Menambahkan sesi latihan beban juga bermanfaat, karena latihan kekuatan melindungi otot yang dapat hilang akibat penurunan berat badan yang cepat."
+        },
+        {
+          "question": "Bagaimana jadwal dosis Zepbound yang harus saya catat?",
+          "answer": "Zepbound dimulai pada 2,5 mg sekali seminggu selama 4 minggu, kemudian 5 mg, dan dapat dinaikkan dengan kelipatan 2,5 mg setiap 4 minggu hingga maksimum 15 mg; dosis pemeliharaan adalah 5, 10, atau 15 mg. Catat berapa mg yang Anda gunakan pada tanggal berapa agar Anda dan dokter dapat melihat riwayat lengkapnya."
+        },
+        {
+          "question": "Apa yang terjadi jika saya melewatkan dosis Zepbound?",
+          "answer": "Zepbound menggunakan aturan 4 hari (96 jam). Jika sudah 4 hari atau kurang sejak dosis yang terlewat, gunakan sesegera mungkin; jika sudah lebih dari 4 hari, lewati dan lanjutkan pada hari terjadwal berikutnya. Ini berbeda dari aturan 2 hari pada Wegovy dan 5 hari pada Ozempic. Selalu ikuti label obat dan dokter Anda sendiri."
+        },
+        {
+          "question": "Apakah Zepbound sama dengan Mounjaro?",
+          "answer": "Keduanya adalah obat yang sama — tirzepatide — dari pembuat yang sama. Zepbound disetujui untuk pengelolaan berat badan kronis, sedangkan Mounjaro disetujui untuk diabetes tipe 2. Molekul, pen, dan dosisnya sama; indikasi yang disetujui berbeda. Catat dosis dan lokasi suntikan dengan cara yang sama untuk keduanya."
+        },
+        {
+          "question": "Mengapa saya perlu mencatat lokasi suntikan Zepbound?",
+          "answer": "Menyuntik titik yang sama berulang kali dapat membentuk jaringan parut berbenjol (lipohipertrofi) yang mengubah penyerapan. Merotasi antara perut, paha, dan lengan atas — dan mencatat setiap lokasi — menjaga penyerapan tetap konsisten, yang lebih mudah dengan peta tubuh pada pencatat."
+        },
+        {
+          "question": "Mengapa pencatatan protein sangat penting pada Zepbound?",
+          "answer": "Karena tirzepatide menurunkan nafsu makan secara tajam, sebagian besar berat badan yang hilang dapat berupa massa tanpa lemak — analisis uji coba GLP-1 menunjukkan sekitar 30–40%. Memprioritaskan protein pada setiap waktu makan, bersama latihan beban, adalah cara utama melindungi otot dan metabolisme jangka panjang Anda."
+        },
+        {
+          "question": "Apakah ada aplikasi pencatat Zepbound resmi?",
+          "answer": "Zepbound tidak dilengkapi aplikasi pencatat pendamping khusus. Kebanyakan orang memakai aplikasi GLP-1 atau kesehatan umum, atau buku catatan sederhana, untuk mencatat dosis, lokasi, berat badan, dan efek samping. Pilih mana pun yang akan Anda gunakan secara konsisten — itu lebih penting daripada alat tertentu."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — Zepbound (tirzepatide) prescribing information (dose escalation, missed dose, injection sites, boxed warning). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf"
+        },
+        {
+          "text": "Eli Lilly — Zepbound dosage options, schedules & missed doses. zepbound.lilly.com",
+          "url": "https://zepbound.lilly.com/hcp/dosage"
+        },
+        {
+          "text": "Eli Lilly — Zepbound: how to use and how to inject (injection sites: abdomen, thigh, upper arm). zepbound.lilly.com",
+          "url": "https://zepbound.lilly.com/weight/how-to-use"
+        },
+        {
+          "text": "Eli Lilly — SURMOUNT-1 results (NEJM): tirzepatide achieved 16.0%–22.5% weight loss in adults with obesity or overweight. investor.lilly.com",
+          "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-surmount-1-results-published-new-england-journal-medicine"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 agonists: uses, how they work, and side effects. my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Frontiers in Clinical Diabetes and Healthcare (via PMC) — GLP-1 agonists, lean-mass loss, and the role of exercise and protein. pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/"
+        },
+        {
+          "text": "All medical claims verified against the cited FDA label and Eli Lilly materials as of July 2026. Re-review at least every 12 months or sooner if the FDA label changes.*"
+        }
+      ],
+      "last_updated": "2026-07-02"
+    },
+    "fr": {
+      "title": "Suivi Zepbound : que suivre sous Zepbound et comment (2026)",
+      "short_title": "Suivi Zepbound : que noter et comment (2026)",
+      "meta_description": "Un suivi Zepbound enregistre la date de votre dose, le site d'injection, la tendance de poids, les protéines et les effets secondaires. Que suivre sous tirzépatide, et pourquoi.",
+      "short_description": "Dose, site d'injection, poids, protéines, effets secondaires : voyez précisément ce qu'il faut suivre sous tirzépatide et pourquoi c'est important.",
+      "tldr": "Un suivi Zepbound enregistre la date de votre dose, le site d'injection, la tendance de poids, les protéines et les effets secondaires. Que suivre sous tirzépatide, et pourquoi.",
+      "body_md": "Zepbound (tirzépatide) est un médicament injectable hebdomadaire approuvé pour la gestion du poids à long terme. C'est un **agoniste double des récepteurs du GIP et du GLP-1** — la même molécule que celle commercialisée sous le nom de **Mounjaro** pour le diabète de type 2 — et il agit lentement, sur plusieurs mois, avec une dose qui augmente selon un calendrier fixe. Cette combinaison en fait exactement le type de traitement pour lequel un bon suivi est utile. Ce guide explique *quoi* suivre sous Zepbound, *pourquoi* chaque élément compte sur le plan clinique, et *comment* en faire une routine hebdomadaire de deux minutes. Il est neutre et pédagogique : vous pouvez tout faire sur papier. Une application automatise simplement les éléments que l'on oublie.\n\nSi vous hésitez entre Zepbound et d'autres GLP-1 ou si vous voulez d'abord le cadre général, commencez par notre [guide complet des applications de suivi GLP-1](/en/glp-1-tracker-app), puis revenez ici pour les détails propres à Zepbound.\n\n## Pourquoi le suivi compte tout particulièrement sous Zepbound\n\nTrois caractéristiques de Zepbound font du suivi bien plus qu'un simple plus :\n\n- **La dose augmente selon un calendrier.** Zepbound commence à 2,5 mg et augmente par paliers de 2,5 mg, chacun maintenu au moins quatre semaines. Noter quelle dose vous avez prise à quelle date vous garde aligné sur ce plan et donne à votre prescripteur un historique exact lors des consultations d'ajustement de dose.\n- **Il est hebdomadaire, donc un oubli est facile.** Une injection sautée ou tardive est bien plus probable avec un médicament hebdomadaire qu'avec un médicament quotidien. Un journal horodaté rend la décision en cas de dose oubliée simple plutôt que stressante (Zepbound applique une règle de 4 jours — voir ci-dessous).\n- **Les résultats et les effets secondaires ne sont pas linéaires.** Le poids baisse par à-coups et par paliers, et les nausées ont tendance à s'aggraver juste après chaque augmentation de dose. Seule une tendance — et non une journée isolée — vous indique ce qui se passe réellement.\n\n## Que suivre sous Zepbound (et pourquoi chaque élément compte)\n\nVoici les données essentielles pour Zepbound. Utilisez-les comme liste de contrôle, que vous suiviez sur papier, dans un tableur ou dans une application.\n\n### Date de la dose et calendrier de titration de Zepbound\n\nZepbound est volontairement commencé à faible dose, puis augmenté selon un calendrier défini afin de réduire les effets secondaires gastro-intestinaux. Selon les informations posologiques d'Eli Lilly, la dose de départ recommandée est de **2,5 mg une fois par semaine pendant 4 semaines** (une dose d'initiation, et non une dose d'entretien), puis **5 mg** ; à partir de là, la dose peut être augmentée par **paliers de 2,5 mg après au moins 4 semaines** à la dose actuelle, jusqu'à la **dose maximale de 15 mg** une fois par semaine. Les doses d'entretien recommandées sont **5 mg, 10 mg ou 15 mg** ([notice FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf) ; [posologie sur zepbound.lilly.com](https://zepbound.lilly.com/hcp/dosage)). Comme la dose change selon un calendrier, noter **quelle dose en mg vous avez prise à quelle date** est l'information la plus utile à consigner. Votre prescripteur décide de la dose à laquelle vous vous stabilisez et de l'opportunité d'augmenter — un journal de doses clair rend cet échange plus rapide.\n\n**La règle de la dose oubliée (à bien connaître).** Zepbound applique une **règle de 4 jours (96 heures)** — différente de la règle de 2 jours de Wegovy et de celle de 5 jours d'Ozempic, source fréquente de confusion. Selon la notice de la FDA : s'il s'est écoulé **4 jours ou moins** depuis la dose oubliée, prenez-la dès que possible ; si **plus de 4 jours** se sont écoulés, sautez la dose oubliée et reprenez au jour prévu suivant ([notice FDA](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf)). Un outil de suivi qui horodate chaque injection rend cela immédiat. Suivez toujours votre propre notice et votre prescripteur.\n\n### Site d'injection et rotation\n\nZepbound s'injecte par voie sous-cutanée dans l'une de trois zones : l'**abdomen** (à au moins deux pouces du nombril), la **face avant ou externe de la cuisse**, ou le **haut du bras**. Vous pouvez réutiliser la même zone du corps, mais jamais exactement le même point — changez de point chaque semaine ([mode d'emploi de Zepbound, Eli Lilly](https://zepbound.lilly.com/weight/how-to-use)). Injecter à répétition exactement au même endroit peut provoquer une **lipohypertrophie** — un tissu cicatriciel bosselé qui modifie l'absorption du médicament. Le problème, c'est la mémoire : après quelques semaines, personne ne se souvient de « cuisse gauche ou bras droit la dernière fois ? ». C'est là qu'un outil de suivi est utile — un bon outil affiche une **carte du corps** avec vos sites récents en surbrillance pour toujours choisir un nouveau site. Zepbound existe en stylo à dose unique, en flacon à dose unique et en KwikPen ; notez donc aussi la forme et le dosage utilisés.\n\n### Poids, mensurations et photos de progression\n\nLe poids est le chiffre phare d'un **suivi de perte de poids Zepbound**, mais il varie beaucoup d'un jour à l'autre. Pesez-vous à la même heure (généralement le matin, après être passé aux toilettes, avant de manger) et laissez la courbe de tendance — et non une mesure isolée — raconter l'histoire. Les plateaux sont fréquents et s'expliquent médicalement. Les tours de taille et les **photos de progression toutes les 2 à 4 semaines** révèlent les changements de composition corporelle que la balance masque, ce qui compte surtout lorsque le chiffre stagne.\n\n### Protéines, alimentation et protection musculaire\n\nC'est la partie la plus sous-estimée d'un parcours Zepbound. Comme le tirzépatide réduit fortement l'appétit, une part non négligeable du poids perdu peut être de la **masse maigre** — des analyses d'essais sur la perte de poids avec les GLP-1 ont rapporté environ **30 à 40 % du poids perdu sous forme de masse maigre** (notez qu'une partie correspond à de l'eau et à du tissu d'organes, pas uniquement à du muscle squelettique) ([revue dans *Frontiers / PMC*](https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/)). Le muscle protège votre métabolisme et vos résultats à long terme. Deux habitudes faciles à suivre font l'essentiel du travail :\n\n1. **Protéines.** Visez un objectif riche en protéines à chaque repas (de nombreux cliniciens conseillent de répartir les protéines sur la journée). Quand l'appétit baisse, les protéines sont généralement les premières à diminuer — les noter permet de ne pas les oublier.\n2. **Musculation.** Le travail de force est la meilleure défense contre la perte musculaire sous GLP-1 ; notez vos séances comme vous notez votre dose.\n\n### Effets secondaires — normaux ou signaux d'alerte\n\nLes effets secondaires les plus courants de Zepbound sont gastro-intestinaux : nausées, diarrhée, vomissements, constipation, douleurs abdominales et diminution de l'appétit. Ils apparaissent ou s'aggravent généralement juste après une augmentation de dose et s'atténuent à mesure que votre corps s'adapte. Les risques rares mais graves comprennent la pancréatite et les maladies de la vésicule biliaire, et la notice comporte un avertissement encadré (boxed warning) concernant les tumeurs des cellules C de la thyroïde observées chez les rongeurs. Noter **ce que vous avez ressenti, avec quelle intensité, et combien de jours après votre dernière dose ou dernière augmentation de dose** transforme un vague « je me sens mal » en un schéma clair. Pour le détail symptôme par symptôme, consultez notre [guide des effets secondaires des GLP-1](/en/glp-1-side-effects).\n\n## Zepbound et Wegovy en un coup d'œil\n\nSi vous choisissez entre les deux grands injectables de perte de poids, voici ce qu'un outil de suivi vous aide à surveiller dans le temps.\n\n| | Zepbound (tirzépatide) | Wegovy (sémaglutide) |\n|---|---|---|\n| Cible hormonale | GIP + GLP-1 (double) | GLP-1 uniquement |\n| Dose max. | 15 mg par semaine | 2,4 mg par semaine |\n| Paliers de titration | 2,5 → 5 → 7,5 → 10 → 12,5 → 15 mg | 0,25 → 0,5 → 1 → 1,7 → 2,4 mg |\n| Règle de la dose oubliée | 4 jours (96 h) | 2 jours (48 h) |\n| Perte de poids moyenne (essais) | jusqu'à ~22,5 % (SURMOUNT-1, 15 mg) | jusqu'à ~15 % (STEP 1) |\n| Jumeau pour le diabète | Mounjaro | Ozempic |\n\n*(Chiffres cités dans le texte d'après les notices de la FDA et les publications des essais ; à vérifier au moment de la publication. Pour un guide de décision complet, voir [sémaglutide vs tirzépatide](/en/semaglutide-vs-tirzepatide).)*\n\n## Comment construire une routine de suivi Zepbound en 6 étapes\n\nVous n'avez pas besoin d'un système compliqué — il vous faut un système reproductible. Le journal de base prend moins de deux minutes par semaine, plus de petites saisies quotidiennes.\n\n1. **Programmez un rappel d'injection hebdomadaire.** Choisissez un jour et une heure fixes et réglez une alerte récurrente pour qu'une injection tardive ne vous surprenne jamais.\n2. **Notez la dose et le site juste après l'injection.** Consignez la quantité en mg et marquez la zone sur la carte du corps, pour que la rotation de la semaine suivante soit évidente.\n3. **Pesez-vous à jours fixes.** Choisissez 1 à 3 matins par semaine, dans les mêmes conditions, et lisez la tendance — pas le bruit quotidien.\n4. **Suivez les protéines et l'eau chaque jour.** Une saisie rapide par repas suffit pour maintenir la protection musculaire.\n5. **Notez les effets secondaires quand ils surviennent.** Consignez le symptôme, son intensité et le nombre de jours depuis votre dernière dose ou augmentation de dose.\n6. **Photo toutes les 2 à 4 semaines et revue avant chaque consultation.** Même éclairage, même angle — et apportez à votre médecin votre journal de doses et la chronologie de vos effets secondaires.\n\n## Faut-il une application Zepbound, ou un carnet suffit-il ?\n\nHonnêtement, tout suivi vaut mieux que rien — un **journal Zepbound** dans un carnet fonctionne. Ce qu'une application apporte, c'est l'automatisation des éléments que l'on oublie : le rappel hebdomadaire, la carte de rotation des sites d'injection, la courbe de tendance qui lisse le bruit du poids quotidien, et une chronologie des effets secondaires que vous pouvez remettre à votre médecin. Zepbound n'est pas fourni avec une application compagnon dédiée ; la plupart des gens utilisent donc un outil de suivi GLP-1 ou de bien-être généraliste. Si vous voulez que votre journal de doses vive à côté des habitudes quotidiennes qui protègent vos résultats — protéines, activité physique, hydratation, tendances de poids et de composition corporelle — une application de bien-être comme [HAVIT](https://www.aihavit.com) est un point de chute naturel. Comparez quelques options dans notre [guide des meilleures applications de suivi GLP-1](/en/glp-1-tracker-app) et choisissez celle que vous continuerez réellement à utiliser ; la régularité compte bien plus que la marque.\n\n## Guides associés\n\n- [Suivi Wegovy : que noter sous Wegovy et comment](/fr/wegovy-tracker)\n- [Effets secondaires des GLP-1 : nausées, symptômes digestifs et signaux d'alerte](/en/glp-1-side-effects)\n- [Sémaglutide vs tirzépatide : quel GLP-1 vous convient ?](/en/semaglutide-vs-tirzepatide)\n- [Le guide complet des applications de suivi GLP-1](/en/glp-1-tracker-app)\n\n## Pourquoi HAVIT — Médicament + changement de comportement, dans une seule application\n\nLes médicaments GLP-1 peuvent réduire sensiblement le poids — mais le chiffre sur la balance n'est qu'une partie de l'histoire. La part de masse maigre dans le poids perdu sous traitement GLP-1 a varié de 40 à 60 % dans certains essais à 15 % ou moins dans d'autres — et la masse maigre inclut les organes, les os et les liquides, pas seulement le muscle ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), et les résultats tendent à s'estomper à l'arrêt du médicament si de nouvelles habitudes ne prennent pas le relais. C'est pourquoi les recommandations de référence considèrent le médicament comme un volet de la prise en charge, et non comme un tout : l'U.S. Preventive Services Task Force recommande de proposer aux adultes obèses des interventions comportementales intensives et multicomposantes ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT est conçu pour ce moment précis — une seule application qui réunit le suivi du médicament, la composition corporelle, la nutrition et les protéines, la construction d'habitudes quotidiennes et un coach IA qui s'adapte à vous. Parmi nos propres 1 090 utilisateurs de GLP-1, ceux qui suivaient le plus régulièrement ont construit les habitudes les plus solides ([voir le rapport sur les habitudes GLP-1](/en/glp-1-habit-report)).\n\nGérez le médicament et le muscle — ensemble. [Commencer avec HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "Que suivre sous Zepbound (et pourquoi chaque élément compte)",
+        "headers": [
+          "Que suivre",
+          "Pourquoi c'est important",
+          "Fréquence"
+        ],
+        "rows": [
+          [
+            "Date et quantité de la dose (mg)",
+            "Vous garde aligné sur le calendrier de titration ; confirme l'observance ; évite une double dose accidentelle",
+            "À chaque injection (hebdomadaire)"
+          ],
+          [
+            "Site d'injection et rotation",
+            "Alterner les sites évite le tissu cicatriciel bosselé (lipohypertrophie) qui modifie l'absorption du médicament",
+            "À chaque injection"
+          ],
+          [
+            "Poids corporel",
+            "Le critère principal ; la tendance révèle les plateaux et l'adaptation métabolique",
+            "1 à 3 fois par semaine, à la même heure"
+          ],
+          [
+            "Tour de taille / mensurations",
+            "Repère la perte de graisse que la balance ne montre pas, surtout lorsque le muscle est préservé",
+            "Toutes les 1 à 2 semaines"
+          ],
+          [
+            "Apport en protéines (grammes)",
+            "Protège la masse musculaire maigre, menacée lors d'une perte de poids rapide",
+            "Quotidien"
+          ],
+          [
+            "Eau / hydratation",
+            "Atténue la constipation et les nausées fréquentes durant les premières semaines",
+            "Quotidien"
+          ],
+          [
+            "Effets secondaires et intensité",
+            "Distingue l'adaptation normale des symptômes d'alerte nécessitant un médecin",
+            "Au fur et à mesure"
+          ],
+          [
+            "Photos de progression",
+            "Preuve visuelle du changement de composition corporelle quand la balance stagne",
+            "Toutes les 2 à 4 semaines"
+          ],
+          [
+            "Renouvellement / stock de stylos ou flacons",
+            "Un injectable hebdomadaire s'épuise à une date prévisible ; évite une interruption de couverture",
+            "Mensuel"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "Qu'est-ce qu'un suivi Zepbound ?",
+          "answer": "C'est tout outil — application, tableur ou carnet — qui enregistre les éléments clés du traitement par Zepbound : la date et la quantité en mg de votre dose hebdomadaire, le site d'injection alterné, le poids, les protéines, l'eau, les effets secondaires et les photos de progression. Il les transforme en rappels et en courbes de tendance que vous pouvez consulter et partager avec votre médecin."
+        },
+        {
+          "question": "Que dois-je suivre sous Zepbound ?",
+          "answer": "Au minimum : la date et la quantité de la dose hebdomadaire, le site d'injection, le poids corporel, l'apport en protéines, l'eau et les effets secondaires, ainsi que des mensurations ou des photos périodiques. Noter vos séances de musculation est utile, car le travail de force protège le muscle que la perte de poids rapide peut entamer."
+        },
+        {
+          "question": "Quel calendrier de doses Zepbound dois-je noter ?",
+          "answer": "Zepbound commence à 2,5 mg une fois par semaine pendant 4 semaines, puis 5 mg, et peut être augmenté par paliers de 2,5 mg toutes les 4 semaines jusqu'à un maximum de 15 mg ; les doses d'entretien sont de 5, 10 ou 15 mg. Notez quelle dose en mg vous avez prise à quelle date afin que vous et votre prescripteur puissiez voir tout l'historique."
+        },
+        {
+          "question": "Que se passe-t-il si j'oublie une dose de Zepbound ?",
+          "answer": "Zepbound applique une règle de 4 jours (96 heures). S'il s'est écoulé 4 jours ou moins depuis la dose oubliée, prenez-la dès que possible ; si plus de 4 jours se sont écoulés, sautez-la et reprenez au jour prévu suivant. Cela diffère des règles de 2 jours de Wegovy et de 5 jours d'Ozempic. Suivez toujours votre propre notice et votre prescripteur."
+        },
+        {
+          "question": "Zepbound est-il identique à Mounjaro ?",
+          "answer": "C'est le même médicament — le tirzépatide — du même fabricant. Zepbound est approuvé pour la gestion du poids à long terme, tandis que Mounjaro est approuvé pour le diabète de type 2. La molécule, les stylos et les doses sont les mêmes ; l'indication approuvée diffère. Suivez votre dose et votre site de la même manière pour l'un comme pour l'autre."
+        },
+        {
+          "question": "Pourquoi dois-je suivre mon site d'injection Zepbound ?",
+          "answer": "Injecter à répétition au même endroit peut créer un tissu cicatriciel bosselé (lipohypertrophie) qui modifie l'absorption. Alterner entre l'abdomen, la cuisse et le haut du bras — et noter chaque site — maintient une absorption régulière, ce qui est plus facile avec la carte du corps d'un outil de suivi."
+        },
+        {
+          "question": "Pourquoi le suivi des protéines est-il si important sous Zepbound ?",
+          "answer": "Comme le tirzépatide réduit fortement l'appétit, une grande part du poids perdu peut être de la masse maigre — les analyses d'essais sur les GLP-1 suggèrent environ 30 à 40 %. Privilégier les protéines à chaque repas, en plus de la musculation, est le principal moyen de protéger le muscle et votre métabolisme à long terme."
+        },
+        {
+          "question": "Existe-t-il une application officielle de suivi Zepbound ?",
+          "answer": "Zepbound n'est pas fourni avec une application de suivi dédiée. La plupart des gens utilisent une application GLP-1 ou de bien-être généraliste, ou un simple carnet, pour noter les doses, les sites, le poids et les effets secondaires. Choisissez celui que vous utiliserez régulièrement — c'est plus important que l'outil lui-même."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — Zepbound (tirzepatide) prescribing information (dose escalation, missed dose, injection sites, boxed warning). accessdata.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s037lbl.pdf"
+        },
+        {
+          "text": "Eli Lilly — Zepbound dosage options, schedules & missed doses. zepbound.lilly.com",
+          "url": "https://zepbound.lilly.com/hcp/dosage"
+        },
+        {
+          "text": "Eli Lilly — Zepbound: how to use and how to inject (injection sites: abdomen, thigh, upper arm). zepbound.lilly.com",
+          "url": "https://zepbound.lilly.com/weight/how-to-use"
+        },
+        {
+          "text": "Eli Lilly — SURMOUNT-1 results (NEJM): tirzepatide achieved 16.0%–22.5% weight loss in adults with obesity or overweight. investor.lilly.com",
+          "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-surmount-1-results-published-new-england-journal-medicine"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 agonists: uses, how they work, and side effects. my.clevelandclinic.org",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Frontiers in Clinical Diabetes and Healthcare (via PMC) — GLP-1 agonists, lean-mass loss, and the role of exercise and protein. pmc.ncbi.nlm.nih.gov",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12683586/"
+        },
+        {
+          "text": "All medical claims verified against the cited FDA label and Eli Lilly materials as of July 2026. Re-review at least every 12 months or sooner if the FDA label changes.*"
+        }
+      ],
+      "last_updated": "2026-07-02"
     }
   },
   "generated_at": "2026-08-14T00:00:00.000Z"
