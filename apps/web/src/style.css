@@ -1548,6 +1548,11 @@ a {
   position: relative;
   padding: 140px 0 100px;
   text-align: center;
+  /* 900px glow 가 좁은 화면에서 좌우로 255px 씩 삐져나가 문서 폭이 645px(390px 뷰포트)로
+     늘어난다. body 의 overflow-x:hidden 은 iOS Safari 에서 가로 스크롤을 막지 못해 페이지가
+     좌우로 흔들린다. clip 은 가로만 자르고 스크롤 컨테이너를 만들지 않아서, 위아래 섹션으로
+     번지는 glow 는 그대로 둔다. */
+  overflow-x: clip;
 }
 .affiliate-hero__inner {
   position: relative;
@@ -1559,9 +1564,9 @@ a {
 .affiliate-hero__headline {
   max-width: 900px;
 }
-/* Glow is centered on the "Join now" button itself (not the section), and
-   is deliberately left unclipped so it bleeds into the sections around it
-   — body has overflow-x: hidden to keep this from causing a scrollbar. */
+/* Glow is centered on the "Join now" button itself (not the section) and
+   bleeds vertically into the sections around it; `.affiliate-hero` clips
+   only the horizontal overflow. */
 .affiliate-hero__cta {
   position: relative;
   display: inline-flex;
