@@ -348,6 +348,497 @@
         }
       ],
       "last_updated": "2026-07-06"
+    },
+    "zh-CN": {
+      "title": "GLP-1 绘图器：随时间绘制你的药物水平与体重曲线",
+      "short_title": "GLP-1 绘图器：药物水平与体重趋势曲线怎么看",
+      "meta_description": "GLP-1 绘图器可绘制每周给药之间的药物水平、体重趋势曲线和剂量时间线，让你看到全貌，而不是只盯着一个数字。",
+      "short_description": "了解 GLP-1 绘图器如何绘制每周给药间的药物水平、体重趋势曲线和剂量时间线，以及如何正确解读而不过度解读。",
+      "tldr": "GLP-1 绘图器可绘制每周给药之间的药物水平、体重趋势曲线和剂量时间线，让你看到全貌，而不是只看一个数字。",
+      "body_md": "某一天早晨的一个体重数字，几乎说明不了什么。Wegovy（诺和盈）、Ozempic（诺和泰）、Zepbound（美国商品名）或 Mounjaro（穆峰达）这类 GLP-1 药物需要数月才能见效，药物在体内的水平会在每周注射之间起伏，而体重的下降也是一条不均匀、时有平台期的曲线。**绘图器**（plotter）是你治疗历程的图表视图，它能把这些零散的数据点变成真正看得懂的曲线。本页将说明 GLP-1 绘图器会*绘制*什么、如何解读，以及如何避免过度解读。\n\n绘图器不同于普通的[剂量记录器](/zh/glp-1-dose-tracker)，后者记录的是*你在什么时间用了多少 mg*；它也不同于[进度追踪器](/zh/weight-loss-tracker-app-glp-1)，后者追踪你的体重和身体测量数据。绘图器是**建立在两者之上的可视化层**：它读取你记录的剂量和称重数据，并将其绘制成线条。若想了解所有值得记录的内容，请从 [GLP-1 追踪应用](/zh/glp-1-tracker-app)总览页开始。\n\n## GLP-1 绘图器绘制的三条曲线\n\n一个实用的绘图器会把三项内容叠加在同一条时间线上：\n\n1. **药物水平曲线**：一条概念性曲线，显示每次注射后药物水平上升、并在下次注射前逐渐回落。\n2. **体重趋势曲线**：把你的称重数据平滑成趋势线，让每日的波动噪声消失。\n3. **剂量时间线**：每次剂量递增（滴定上调）时的标记，置于另外两条曲线下方，方便你看出因果关系。\n\n把它们放在同一张图上的意义在于呈现*关联*：你可以看到某次剂量上调与体重骤降（whoosh）的位置关系，或与一周难受的副作用之间的关系。\n\n## 药物水平曲线：峰值、谷值与半衰期\n\n最容易被误解的是药物水平曲线。这里仅从科普角度给出直观理解：皮下注射后，药物上升至峰值，然后随着身体清除而下降。下降的快慢由药物的**半衰期**决定，即药物水平下降一半所需的时间。\n\n根据 FDA 的 Ozempic 说明书，司美格鲁肽的半衰期约为**一周（大约 7 天）**，给药后 **1–3 天**达到血药浓度峰值。替尔泊肽的半衰期约为 **5 天**。正是这么长的半衰期，才使它们可以每周注射一次：两次注射之间，药物水平不会完全消退。以上数据来自美国FDA说明书；在中国内地，司美格鲁肽以诺和泰（2型糖尿病）和诺和盈（体重管理）上市，替尔泊肽以穆峰达上市（据报道），国内用药请以国家药监局批准的中文说明书为准。\n\n绘图器会把这一过程画成缓缓起伏的波浪：每次注射后几天出现一个小高峰，下次注射前出现一个小低谷。**重要提示：** 这是根据人群平均值建立的模型，并不是对*你自己*血液的检测结果。它只是帮助建立直观认识的方式（“两次注射之间药物水平不会降到零”），绝不能作为安排注射时间或判断自己是否处于“谷值”的依据。这些决定应由你的处方医生来做。\n\n## 为什么每周给药会形成近乎平稳的曲线\n\n由于半衰期相对于 7 天的间隔较长，每次注射时，上一次的药物尚未完全清除。因此在最初几周，药物水平会逐渐上升到**稳态**，也就是在一个稳定的范围内波动。持续每周使用司美格鲁肽约 **4–5 周**后可达到稳态。在绘图器上，这表现为一条起点较低的波浪，随着最初几次给药逐级上升，然后稳定为平稳的小幅波动。看到曲线趋于平缓是令人安心的：它就是你的药物水平变得稳定的图像。\n\n每当你按照滴定方案增加剂量，绘图器都会显示该范围在随后几周内上升到新的、更高的稳定水平，而这段时间也正是副作用容易集中出现的时期。\n\n## 体重趋势曲线：读懂非线性的曲线\n\n体重是最受关注的指标，但日常的变化主要受水分、饮食和激素影响。直接绘制原始数据会杂乱不堪，而绘制成**趋势线**才能反映真实情况。有两个要点：\n\n- **平台期是正常的。** 持续两到四周的平稳阶段很常见，在医学上也能解释，原因包括代谢适应、摄入量悄悄增加或肌肉流失。在绘图器上，平台期表现为一段明显的“台阶”，而不是失败。\n- **体重骤降会发生。** 体重有时会保持不变，然后突然下降。趋势线能够捕捉到单次称重所掩盖的整体方向。\n\n将体重与剂量时间线对照绘制的价值在于：你不再对某一个糟糕的早晨做出反应，而是开始解读持续数周的变化斜率。\n\n## 如何解读你的图表而不过度解读\n\n绘图器是一个辅助思考的工具，而不是神谕。三条注意事项：\n\n- **药物曲线是概念性的，而非个人化的。** 它无法告诉你真实的药物水平，也无法告诉你何时注射。\n- **拉长时间范围来看。** 以 4 周为窗口来判断体重，而不是逐日判断。\n- **把它带给你的临床医生，不要仅凭它自行行动。** 清晰的图表能让问诊更有成效，但绝不能取代问诊。\n\n## 如何分 5 步建立 GLP-1 图表\n\n1. **记录每一次注射**的日期和 mg 剂量，它们将成为你的剂量时间线标记。\n2. **在固定的日子称重**（每周 1–3 个早晨，条件相同），让趋势线有可靠的数据输入。\n3. **让工具把体重平滑**成趋势曲线，而不是把原始数据点直接连线。\n4. **叠加剂量时间线**，让每次滴定上调都能在曲线下方清楚显示。\n5. **每次就诊前查看整张图表**，并将时间范围拉长到数周；切勿根据药物曲线自行调整剂量。\n\n## GLP-1 追踪应用如何自动绘制这些图表\n\n手工绘制这些曲线非常繁琐，这正是应用的用武之地。一款好的追踪应用会把你的记录变成实时图表：\n\n- **体重趋势线**：平滑每日波动，让平台期一目了然。\n- **剂量时间线**：在曲线下方标出每一次滴定上调。\n- **科普性的药物水平视图**：帮助你理解峰值和谷值，并明确标注这是模型，而不是你的血药浓度。\n- **副作用标记**：叠加显示，让你看到症状如何集中出现在剂量变化前后。\n\n[**HAVIT**](https://www.aihavit.com) 将你的用药剂量、称重、身体成分和习惯整合到同一个健康应用中，并一并绘制成图表，让你记录的数字变成可以阅读、可以分享的图像。如果你希望数据和图表都在同一个地方，它是记录你的 GLP-1 历程的理想之选。\n\n## 为什么选择 HAVIT：药物 + 行为改变，尽在一个应用\n\nGLP-1 药物可以显著减轻体重，但体重秤上的数字只是故事的一部分。在 GLP-1 治疗中，所减体重里瘦体重所占的比例，在一些试验中为 40–60%，在另一些试验中则为 15% 或更低，而且瘦体重包括器官、骨骼和体液，而不仅仅是肌肉（[Neeland 等，*Diabetes, Obesity and Metabolism*，2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)）；停药后，如果没有新的习惯来接替，效果往往会逐渐消退。因此，权威指南把药物视为治疗的一部分，而非全部：美国预防服务工作组（U.S. Preventive Services Task Force）建议为肥胖成年人提供强化的、多组分的行为干预（[USPSTF，B 级推荐](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)）。\n\nHAVIT 正是为这一时刻而打造：一个应用整合了用药追踪、身体成分、营养与蛋白质、日常习惯养成，以及能够根据你的情况调整的 AI 教练。在我们自己的 1,090 名 GLP-1 用户中，记录最持之以恒的人养成了最牢固的习惯（[查看 GLP-1 习惯报告](/zh/glp-1-habit-report)）。\n\n药物和肌肉，一起管理。[从 HAVIT 开始 →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "药物水平曲线：峰值、谷值与半衰期",
+        "headers": [
+          "药物（品牌）",
+          "消除半衰期",
+          "给药后的峰值水平",
+          "达到稳态水平"
+        ],
+        "rows": [
+          [
+            "司美格鲁肽（Ozempic/诺和泰、Wegovy/诺和盈）",
+            "约 1 周（约 7 天）",
+            "注射后 1–3 天",
+            "每周一次给药约 4–5 周后"
+          ],
+          [
+            "替尔泊肽（Mounjaro/穆峰达、Zepbound）",
+            "约 5 天",
+            "几天内",
+            "每周一次给药几周内"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "什么是 GLP-1 绘图器？",
+          "answer": "它是你 GLP-1 治疗历程的图表视图：在同一条时间线上绘制每周给药之间的估算药物水平、体重趋势线和剂量时间线，让你读懂规律，而不是只看单个数字。"
+        },
+        {
+          "question": "绘图器和进度追踪器有什么不同？",
+          "answer": "进度追踪器负责记录和保存你的体重和身体测量数据；绘图器则是把这些记录变成平滑曲线的*可视化*工具。绘图器还会加入普通进度记录通常不会显示的药物水平线和剂量时间线。"
+        },
+        {
+          "question": "绘图器能告诉我实际的药物水平吗？",
+          "answer": "不能。药物水平曲线是根据人群平均值（半衰期、给药间隔）建立的模型，并不是对你血液的测量。它有助于建立对峰值和谷值的直观认识，但绝不能用来安排注射时间或做出医疗决定。"
+        },
+        {
+          "question": "司美格鲁肽的半衰期是多久，它对图表有什么影响？",
+          "answer": "根据 FDA 说明书，约为一周（大约 7 天），给药后 1–3 天达到峰值水平。正因为半衰期长，绘制出的曲线在每周给药之间不会降到零，药物水平在约 4–5 周后会达到稳定范围。"
+        },
+        {
+          "question": "为什么我的体重曲线会连续几周持平？",
+          "answer": "平台期是正常且在意料之中的。它可能反映代谢适应、摄入量小幅增加或肌肉流失。绘图器会把平台期显示为一段明显的“台阶”，提示你把时间范围拉长到数周来看，而不是对某一次称重做出反应。"
+        },
+        {
+          "question": "为什么要把剂量时间线放在其他曲线下方？",
+          "answer": "因为背景信息至关重要。叠加每一次滴定上调，可以让你看到剂量增加与体重趋势变化或副作用集中出现之间的对应关系，而分开的图表会掩盖这种关联。"
+        },
+        {
+          "question": "为了得到有用的趋势线，我应该多久称一次体重？",
+          "answer": "每周 1 到 3 个早晨，在相同的时间和相同的条件下称重就足够了。每天的体重会受水分和饮食影响而波动；持续数周的趋势线远比任何单次读数更有意义。"
+        },
+        {
+          "question": "我应该根据自己的图表做出调整吗？",
+          "answer": "不应该。使用图表来了解你自己的规律，并让就诊更有成效。任何剂量调整都应由你的处方医生按照你的滴定方案来决定：绘制你的数据，但不要据此自行调整。"
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — OZEMPIC (semaglutide) Prescribing Information, Section 12.3 Pharmacokinetics (half-life ~1 week; peak 1–3 days).",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/209637s020s021lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — MOUNJARO (tirzepatide) Prescribing Information, Pharmacokinetics (half-life ~5 days).",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215866s039lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — ZEPBOUND (tirzepatide) Prescribing Information.",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217806s003lbl.pdf"
+        },
+        {
+          "text": "Furihata K. et al. — Population pharmacokinetics of the GIP/GLP-1 receptor agonist tirzepatide, *PMC*.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10962491/"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 Agonists: how they work and are dosed.",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "以上药代动力学数据均已对照所引用的FDA说明书和药理学文献核对（截至2026年7月）。说明书会定期更新——请向你的处方医生确认最新信息，并以官方说明书为准。"
+        },
+        {
+          "text": "北京日报（科技部网站转载）：诺和盈获国家药监局批准用于成人长期体重管理（2024年6月）；二手来源，checked 2026-10-16",
+          "url": "https://www.ncsti.gov.cn/kjdt/kjrd/yyjk_kjrd/202406/t20240627_169511.html"
+        },
+        {
+          "text": "华尔街见闻：替尔泊肽（穆峰达）体重管理适应症获国家药监局批准；媒体报道，checked 2026-10-16",
+          "url": "https://wallstreetcn.com/articles/3720297"
+        }
+      ],
+      "last_updated": "2026-07-06"
+    },
+    "es": {
+      "title": "Plotter de GLP-1: grafica tu nivel de medicación y tu peso a lo largo del tiempo",
+      "short_title": "Plotter de GLP-1: grafica tu dosis y tu peso",
+      "meta_description": "Un plotter de GLP-1 grafica tu nivel de medicación entre dosis semanales, la curva de tendencia de tu peso y tu cronología de dosis, para que veas el panorama completo y no un solo número.",
+      "short_description": "Aprende qué grafica un plotter de GLP-1: nivel de medicación, tendencia de peso y cronología de dosis, y cómo leerlo sin sobreinterpretarlo.",
+      "tldr": "Un plotter de GLP-1 grafica tu nivel de medicación entre dosis semanales, la curva de tendencia de tu peso y tu cronología de dosis, para que veas el panorama completo y no un solo número.",
+      "body_md": "El número de peso de una sola mañana casi no dice nada. Un GLP-1 como Wegovy, Ozempic, Zepbound o Mounjaro actúa durante meses, su nivel en tu cuerpo sube y baja entre inyecciones semanales, y tu peso desciende en una línea irregular, con mesetas intercaladas. Un **plotter** —la vista de gráficos de tu recorrido— convierte esos datos dispersos en curvas que realmente puedes leer. Esta página explica qué *grafica* un plotter de GLP-1 y cómo leerlo, sin sobreinterpretarlo.\n\nUn plotter es diferente de un simple [registro de dosis](/es/glp-1-dose-tracker), que anota *qué mg te aplicaste y cuándo*, y de un [seguimiento de progreso](/es/weight-loss-tracker-app-glp-1), que registra tu peso y tus medidas. El plotter es la **capa de visualización sobre ambos**: toma las dosis y los pesajes que registraste y los dibuja como líneas. Para ver todo lo que vale la pena registrar, empieza por el centro de la [app de seguimiento de GLP-1](/es/glp-1-tracker-app).\n\n## Las tres curvas que dibuja un plotter de GLP-1\n\nUn plotter útil superpone tres elementos en una misma cronología:\n\n1. **La curva del nivel de medicación**: una línea conceptual que muestra cómo sube el nivel del fármaco tras cada inyección y disminuye antes de la siguiente.\n2. **La curva de tendencia del peso**: tus pesajes suavizados en una línea de tendencia, para que desaparezca el ruido diario.\n3. **La cronología de dosis**: un marcador cada vez que aumenta tu titulación, colocado debajo de las otras dos para que veas la causa y el efecto.\n\nLa razón de ponerlas en un mismo gráfico es la *relación*: puedes ver cómo un aumento de dosis coincide con una bajada repentina de peso o con una semana difícil de efectos secundarios.\n\n## La curva del nivel de medicación: picos, valles y vida media\n\nLa curva más malinterpretada es la del nivel de medicación. Esta es la idea intuitiva, con fines educativos: tras una inyección subcutánea, el fármaco sube hasta un pico y luego baja a medida que tu cuerpo lo elimina. La rapidez con la que baja depende de la **vida media** del fármaco: el tiempo que tarda el nivel en reducirse a la mitad.\n\nLa semaglutida tiene una vida media de aproximadamente **una semana (unos 7 días)**, y el pico de nivel en sangre se alcanza **1–3 días** después de una dosis, según la etiqueta de Ozempic de la FDA. La vida media de la tirzepatida es de unos **5 días**. Estas cifras proceden de las fichas técnicas de EE. UU.; para tu producto, la referencia es la ficha técnica o el prospecto de tu país (en España, el CIMA de la AEMPS; en México, el registro de la COFEPRIS). Esas vidas medias largas son precisamente *la razón* por la que estas inyecciones son semanales: el nivel nunca se elimina por completo entre una inyección y otra.\n\nUn plotter dibuja esto como una onda que sube y baja suavemente: un pequeño pico un par de días después de cada inyección y un pequeño valle justo antes de la siguiente. **Importante:** es un modelo construido con promedios poblacionales, no una lectura de *tu* sangre. Sirve para desarrollar una idea intuitiva (\"los niveles no caen a cero entre inyecciones\"), nunca como base para decidir cuándo aplicarte una dosis ni para concluir que sientes un \"valle\". Esas decisiones le corresponden a quien te prescribe el tratamiento.\n\n## Por qué la dosis semanal produce una línea casi plana\n\nComo la vida media es larga en relación con el intervalo de 7 días, cada inyección llega antes de que se haya eliminado la anterior. Por eso, durante las primeras semanas el nivel sube hasta un **estado estable**: una banda estable dentro de la cual oscila, que se alcanza tras aproximadamente **4–5 semanas** de dosis semanales constantes de semaglutida. En el plotter se ve como una onda que empieza baja, sube con cada una de las primeras dosis y luego se asienta en una ondulación estable. Ver ese aplanamiento tranquiliza: es la gráfica de tu medicación volviéndose constante.\n\nCada vez que tu dosis aumenta según tu esquema de titulación, el plotter muestra cómo la banda sube a un nuevo nivel estable más alto durante las semanas siguientes, que es también cuando tienden a concentrarse los efectos secundarios.\n\n## La curva de tendencia del peso: cómo leer una línea no lineal\n\nEl peso es lo que más llama la atención, pero día a día lo dominan el agua, la comida y las hormonas. Graficado en bruto es un desorden irregular; graficado como **línea de tendencia** dice la verdad. Dos características importan:\n\n- **Las mesetas son normales.** Los tramos planos de dos a cuatro semanas son frecuentes y tienen explicación médica: adaptación metabólica, pequeños aumentos en la ingesta o pérdida de músculo. En un plotter una meseta es un escalón visible, no un fracaso.\n- **Los descensos repentinos ocurren.** A veces el peso se mantiene y de pronto baja. Una línea de tendencia capta la dirección de fondo que un solo pesaje oculta.\n\nLa ventaja de graficar el peso *junto con* la cronología de dosis es que dejas de reaccionar a una mala mañana y empiezas a leer la pendiente de varias semanas.\n\n## Cómo leer tu gráfico sin sobreinterpretarlo\n\nUn plotter es una herramienta para pensar, no un oráculo. Tres salvaguardas:\n\n- **La curva de medicación es conceptual, no personal.** No te dirá tu nivel real del fármaco ni cuándo inyectarte.\n- **Aléjate para ver el conjunto.** Evalúa el peso en ventanas de 4 semanas, no día a día.\n- **Llévalo a tu profesional de salud, no actúes solo con él.** Un gráfico claro hace más productiva una consulta; nunca la sustituye.\n\n## Cómo crear un gráfico de GLP-1 en 5 pasos\n\n1. **Registra cada inyección** con su fecha y sus mg: serán los marcadores de tu cronología de dosis.\n2. **Pésate en días fijos** (1–3 mañanas por semana, en las mismas condiciones) para que la línea de tendencia tenga datos fiables.\n3. **Deja que la herramienta suavice el peso** en una curva de tendencia en lugar de unir puntos sin procesar.\n4. **Superpón la cronología de dosis** para que cada aumento de titulación se vea debajo de las curvas.\n5. **Revisa el gráfico completo antes de cada consulta**, visto a escala de semanas; nunca uses la curva de medicación para autoajustarte una dosis.\n\n## Cómo una app de seguimiento de GLP-1 lo grafica automáticamente\n\nDibujar estas curvas a mano es tedioso; para eso sirve justamente una app. Un buen seguimiento convierte tus registros en un gráfico en tiempo real:\n\n- **Una línea de tendencia del peso** que suaviza el ruido diario y hace evidentes las mesetas.\n- **Una cronología de dosis** que marca cada aumento de titulación debajo de tus curvas.\n- **Una vista educativa del nivel de medicación** para que entiendas picos y valles, claramente señalada como un modelo, no como tu nivel en sangre.\n- **Marcadores de efectos secundarios** superpuestos para que veas cómo los síntomas se concentran en torno a los cambios de dosis.\n\n[**HAVIT**](https://www.aihavit.com) reúne tus dosis, pesajes, composición corporal y hábitos en una sola app de bienestar y los grafica juntos, de modo que los números que registras se convierten en una imagen que puedes leer y compartir. Si quieres tener tus datos y tus gráficos en el mismo lugar, es un hogar natural para tu recorrido con GLP-1.\n\n## Por qué HAVIT: medicación y cambio de conducta en una sola app\n\nLos medicamentos GLP-1 pueden reducir el peso de forma significativa, pero el número de la báscula es solo una parte de la historia. La proporción de masa magra dentro del peso perdido con la terapia con GLP-1 ha oscilado entre el 40–60 % en algunos ensayos y el 15 % o menos en otros, y la masa magra incluye órganos, hueso y líquido, no solo músculo ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)); además, los resultados tienden a desvanecerse al suspender el medicamento si no se adoptan nuevos hábitos. Por eso las guías más reconocidas consideran la medicación una parte de la atención, no el todo: el Grupo de Trabajo de Servicios Preventivos de EE. UU. (U.S. Preventive Services Task Force) recomienda ofrecer a los adultos con obesidad intervenciones conductuales intensivas y multicomponente ([USPSTF, Grado B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT está diseñada para este momento: una sola app que une el seguimiento de la medicación, la composición corporal, la nutrición y las proteínas, la creación de hábitos diarios y un coach de IA que se adapta a ti. Entre nuestros 1090 usuarios de GLP-1, quienes registraban con más constancia crearon los hábitos más sólidos ([consulta el informe de hábitos con GLP-1](/es/glp-1-habit-report)).\n\nGestiona el medicamento y el músculo, juntos. [Empieza con HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "La curva del nivel de medicación: picos, valles y vida media",
+        "headers": [
+          "Medicamento (marca)",
+          "Vida media de eliminación",
+          "Nivel máximo tras una dosis",
+          "Niveles estables alcanzados"
+        ],
+        "rows": [
+          [
+            "Semaglutida (Ozempic, Wegovy)",
+            "~1 semana (unos 7 días)",
+            "1–3 días después de la inyección",
+            "tras ~4–5 semanas de dosis semanales"
+          ],
+          [
+            "Tirzepatida (Mounjaro, Zepbound)",
+            "~5 días",
+            "en unos pocos días",
+            "en unas pocas semanas de dosis semanales"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "¿Qué es un plotter de GLP-1?",
+          "answer": "Es la vista de gráficos de tu recorrido con GLP-1: un gráfico que traza en una misma cronología tu nivel estimado de medicación entre dosis semanales, tu línea de tendencia del peso y tu cronología de dosis, para que puedas leer patrones en lugar de números aislados."
+        },
+        {
+          "question": "¿En qué se diferencia un plotter de un seguimiento de progreso?",
+          "answer": "Un seguimiento de progreso registra y guarda tu peso y tus medidas; un plotter es la *visualización* que convierte esos registros en curvas suavizadas. Además, el plotter añade las líneas de nivel de medicación y de cronología de dosis que un registro de progreso simple normalmente no muestra."
+        },
+        {
+          "question": "¿Puede un plotter decirme mi nivel real del fármaco?",
+          "answer": "No. La curva del nivel de medicación es un modelo construido con promedios poblacionales (vida media, intervalo de dosis), no una medición de tu sangre. Ayuda a entender intuitivamente los picos y valles, pero nunca debe usarse para decidir cuándo aplicarte una dosis ni para tomar una decisión médica."
+        },
+        {
+          "question": "¿Cuál es la vida media de la semaglutida y por qué importa para el gráfico?",
+          "answer": "Aproximadamente una semana (unos 7 días), según la etiqueta de la FDA, con el nivel máximo 1–3 días después de una inyección. Esa vida media larga es la razón por la que la curva graficada nunca cae a cero entre dosis semanales y por la que los niveles alcanzan una banda estable tras unas 4–5 semanas."
+        },
+        {
+          "question": "¿Por qué mi curva de peso se queda plana durante semanas?",
+          "answer": "Las mesetas son normales y esperables. Pueden reflejar adaptación metabólica, pequeños aumentos en la ingesta o pérdida de músculo. Un plotter muestra una meseta como un escalón visible: una señal para alejarte y mirar varias semanas en lugar de reaccionar a un solo pesaje."
+        },
+        {
+          "question": "¿Por qué graficar la cronología de dosis debajo de las otras curvas?",
+          "answer": "Porque el contexto lo es todo. Al superponer cada aumento de titulación puedes ver cómo un aumento de dosis coincide con un cambio en la tendencia del peso o con un conjunto de efectos secundarios, una relación que los gráficos separados ocultan."
+        },
+        {
+          "question": "¿Con qué frecuencia debo pesarme para obtener una línea de tendencia útil?",
+          "answer": "De una a tres mañanas por semana, a la misma hora y en las mismas condiciones, es más que suficiente. El peso diario fluctúa por el agua y la comida; una línea de tendencia de varias semanas es mucho más significativa que cualquier lectura aislada."
+        },
+        {
+          "question": "¿Debo cambiar algo a partir de mi gráfico?",
+          "answer": "No. Usa el gráfico para entender tu patrón y para que tus consultas con el profesional de salud sean más productivas. Cualquier cambio de dosis lo decide quien te prescribe el tratamiento según tu esquema de titulación: grafica tus datos, pero no te autoajustes a partir de ellos."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — OZEMPIC (semaglutide) Prescribing Information, Section 12.3 Pharmacokinetics (half-life ~1 week; peak 1–3 days).",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/209637s020s021lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — MOUNJARO (tirzepatide) Prescribing Information, Pharmacokinetics (half-life ~5 days).",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215866s039lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — ZEPBOUND (tirzepatide) Prescribing Information.",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217806s003lbl.pdf"
+        },
+        {
+          "text": "Furihata K. et al. — Population pharmacokinetics of the GIP/GLP-1 receptor agonist tirzepatide, *PMC*.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10962491/"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 Agonists: how they work and are dosed.",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Todos los datos farmacocinéticos anteriores se verificaron con las fichas técnicas de la FDA citadas y la bibliografía farmacológica a julio de 2026. Las fichas técnicas se actualizan periódicamente: confirma los datos vigentes con quien te prescribe el tratamiento y la información oficial de prescripción."
+        },
+        {
+          "text": "AEMPS — CIMA, Centro de información de medicamentos (Wegovy, Mounjaro, Ozempic: autorización en España, con receta), checked 2026-10-16.",
+          "url": "https://cima.aemps.es/cima/rest/medicamentos?nombre=wegovy"
+        },
+        {
+          "text": "EMA — Mounjaro: European Public Assessment Report (EPAR), checked 2026-10-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro"
+        },
+        {
+          "text": "COFEPRIS — Comunicado de riesgo: agonistas del receptor GLP-1 (28/05/2024), checked 2026-10-16.",
+          "url": "https://www.gob.mx/cms/uploads/attachment/file/918431/Comunicado_de_Riesgo_agonistas_del_receptor_GLP-1_28052024.pdf"
+        }
+      ],
+      "last_updated": "2026-07-06"
+    },
+    "pt-BR": {
+      "title": "Plotter de GLP-1: acompanhe em gráfico o nível do medicamento e seu peso ao longo do tempo",
+      "short_title": "Plotter de GLP-1: gráfico de dose e peso",
+      "meta_description": "Um plotter de GLP-1 mostra em gráfico o nível do medicamento entre as doses semanais, sua curva de tendência de peso e a linha do tempo das doses — para ver o quadro completo, não só um número.",
+      "short_description": "Veja como um plotter de GLP-1 mostra o nível do medicamento, a tendência de peso e a linha do tempo das doses, e como ler o gráfico sem exagerar.",
+      "tldr": "Um plotter de GLP-1 mostra em gráfico o nível do medicamento entre as doses semanais, sua curva de tendência de peso e a linha do tempo das doses — para você ver o quadro completo, não só um número.",
+      "body_md": "O número da balança em uma única manhã diz quase nada. Um GLP-1 como Wegovy, Ozempic ou Mounjaro (ou Zepbound, nos EUA) age ao longo de meses, o nível dele no seu corpo sobe e desce entre as aplicações semanais, e o seu peso diminui em uma linha irregular, pontuada por platôs. Um **plotter** — a visualização em gráfico da sua jornada — transforma esses pontos de dados dispersos em curvas que você consegue de fato ler. Esta página explica o que um plotter de GLP-1 *desenha* e como interpretá-lo, sem exagerar na leitura.\n\nUm plotter é diferente de um simples [registro de doses](/pt-br/glp-1-dose-tracker), que anota *quantos mg você tomou e quando*, e de um [acompanhamento de progresso](/pt-br/weight-loss-tracker-app-glp-1), que acompanha seu peso e suas medidas. O plotter é a **camada de visualização sobre os dois** — ele pega as doses e as pesagens que você registrou e as desenha como linhas. Para ver tudo o que vale a pena registrar, comece pelo hub do [app de acompanhamento de GLP-1](/pt-br/glp-1-tracker-app).\n\n## As três curvas que um plotter de GLP-1 desenha\n\nUm bom plotter sobrepõe três elementos em uma mesma linha do tempo:\n\n1. **A curva do nível do medicamento** — uma linha conceitual que mostra o nível do fármaco subindo após cada aplicação e diminuindo antes da próxima.\n2. **A curva de tendência de peso** — suas pesagens suavizadas em uma linha de tendência, para que a oscilação diária desapareça.\n3. **A linha do tempo das doses** — um marcador a cada aumento de dose na titulação, posicionado abaixo das outras duas para que você veja causa e efeito.\n\nO objetivo de reunir as três em um só gráfico é mostrar a *relação* entre elas: você pode ver como um aumento de dose se posiciona em relação a uma queda súbita de peso (o chamado \"whoosh\") ou a uma semana difícil de efeitos colaterais.\n\n## A curva do nível do medicamento: picos, vales e meia-vida\n\nA curva mais mal compreendida é a do nível do medicamento. Eis a ideia, em caráter educativo: depois de uma injeção subcutânea, o fármaco sobe até um pico e depois cai conforme o corpo o elimina. A velocidade dessa queda é determinada pela **meia-vida** do fármaco — o tempo necessário para o nível cair pela metade.\n\nA semaglutida tem meia-vida de cerca de **uma semana (aproximadamente 7 dias)**, com o pico de concentração no sangue atingido de **1 a 3 dias** após a dose, segundo a bula do Ozempic da FDA. A meia-vida da tirzepatida é de cerca de **5 dias**. Essas meias-vidas longas são exatamente o *motivo* de serem injeções semanais: o nível nunca se esgota por completo entre as aplicações.\n\nOs dados farmacocinéticos citados vêm das bulas da FDA dos EUA. No Brasil, a Anvisa aprovou o Mounjaro para controle crônico do peso (junho de 2025) e o Wegovy para obesidade em adultos, com venda sob receita médica retida; a bula brasileira de cada produto é a referência para o seu caso ([Anvisa](https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/novos-medicamentos-e-indicacoes/mounjaro-r-tirzepatida-nova-indicacao)).\n\nUm plotter desenha isso como uma onda que sobe e desce suavemente — um pequeno pico alguns dias após cada aplicação e um pequeno vale logo antes da seguinte. **Importante:** isso é um modelo construído a partir de médias populacionais, não uma leitura do *seu* sangue. É uma forma de construir intuição (\"os níveis não caem a zero entre as aplicações\"), nunca uma base para definir o horário de uma dose nem para concluir que você está sentindo um \"vale\". Essas decisões cabem ao seu médico prescritor.\n\n## Por que a dose semanal gera uma linha quase plana\n\nComo a meia-vida é longa em relação ao intervalo de 7 dias, cada aplicação chega antes de a anterior ter sido eliminada. Por isso, nas primeiras semanas o nível sobe até um **estado de equilíbrio** — uma faixa estável dentro da qual ele oscila —, atingido após cerca de **4 a 5 semanas** de doses semanais consistentes de semaglutida. No plotter, isso aparece como uma onda que começa baixa, sobe a cada dose inicial e depois se estabiliza em uma oscilação regular. Ver essa estabilização é tranquilizador: é o gráfico do seu medicamento se tornando consistente.\n\nA cada aumento da sua dose conforme o esquema de titulação, o plotter mostra a faixa subindo para um novo nível de equilíbrio, mais alto, ao longo das semanas seguintes — que também é quando os efeitos colaterais tendem a se concentrar.\n\n## A curva de tendência de peso: como ler uma linha não linear\n\nO peso é a manchete, mas, no dia a dia, ele é dominado por água, alimentação e hormônios. Desenhado em estado bruto, é um traçado irregular; desenhado como **linha de tendência**, mostra a verdade. Duas características importam:\n\n- **Platôs são normais.** Períodos estáveis de duas a quatro semanas são comuns e têm explicação médica — adaptação metabólica, pequeno aumento gradual da ingestão ou perda de massa muscular. No plotter, um platô é uma plataforma visível, não um fracasso.\n- **Os \"whooshes\" acontecem.** Às vezes o peso se mantém e depois cai de repente. Uma linha de tendência capta a direção de fundo que uma única pesagem esconde.\n\nO valor de desenhar o peso *junto* da linha do tempo das doses é que você deixa de reagir a uma manhã ruim e passa a ler a inclinação ao longo de várias semanas.\n\n## Como ler seu gráfico sem interpretá-lo demais\n\nUm plotter é uma ferramenta de reflexão, não um oráculo. Três cuidados:\n\n- **A curva do medicamento é conceitual, não pessoal.** Ela não vai informar seu nível real do fármaco nem quando aplicar.\n- **Afaste o zoom.** Avalie o peso em janelas de 4 semanas, não dia a dia.\n- **Leve ao seu profissional de saúde, não aja sozinho com base nele.** Um gráfico claro torna a consulta mais produtiva; nunca a substitui.\n\n## Como montar um gráfico de GLP-1 em 5 passos\n\n1. **Registre cada aplicação** com data e mg — esses registros viram os marcadores da sua linha do tempo de doses.\n2. **Pese-se em dias fixos** (1 a 3 manhãs por semana, nas mesmas condições) para que a linha de tendência tenha dados confiáveis.\n3. **Deixe a ferramenta suavizar o peso** em uma curva de tendência, em vez de ligar os pontos brutos.\n4. **Sobreponha a linha do tempo das doses** para que cada aumento da titulação fique visível sob as curvas.\n5. **Revise o gráfico inteiro antes de cada consulta**, com o zoom afastado para semanas — nunca use a curva do medicamento para ajustar a dose por conta própria.\n\n## Como um app de acompanhamento de GLP-1 faz esse gráfico automaticamente\n\nDesenhar essas curvas à mão é trabalhoso; é exatamente para isso que serve um app. Um bom app transforma seus registros em um gráfico ao vivo:\n\n- **Uma linha de tendência de peso** que suaviza a oscilação diária e deixa os platôs evidentes.\n- **Uma linha do tempo das doses** marcando cada aumento da titulação abaixo das suas curvas.\n- **Uma visualização educativa do nível do medicamento** para que você entenda picos e vales — claramente identificada como um modelo, não como seu nível sanguíneo.\n- **Marcadores de efeitos colaterais** sobrepostos para que você veja os sintomas se concentrarem em torno das mudanças de dose.\n\nO [**HAVIT**](https://www.aihavit.com) reúne suas doses, pesagens, composição corporal e hábitos em um único app de bem-estar e os desenha juntos — para que os números que você registra virem uma imagem que você consegue ler e compartilhar. Se você quer seus dados e seus gráficos no mesmo lugar, ele é um lar natural para a sua jornada com GLP-1.\n\n## Por que o HAVIT — medicamento + mudança de comportamento, em um só app\n\nOs medicamentos GLP-1 podem reduzir o peso de forma significativa — mas o número na balança é só parte da história. A proporção de massa magra na perda de peso com a terapia com GLP-1 variou de 40–60% em alguns estudos a 15% ou menos em outros — e a massa magra inclui órgãos, ossos e líquidos, não apenas músculo ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), e os resultados tendem a diminuir quando o medicamento é interrompido, a menos que novos hábitos tomem o lugar. Por isso, as principais diretrizes tratam o medicamento como uma parte do cuidado, não como o todo: a U.S. Preventive Services Task Force recomenda que adultos com obesidade recebam intervenções comportamentais intensivas e multicomponentes ([USPSTF, Grau B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nO HAVIT foi criado para este momento — um app que une acompanhamento do medicamento, composição corporal, nutrição e proteína, construção de hábitos diários e um coach de IA que se adapta a você. Entre os nossos 1.090 usuários de GLP-1, os que mais registravam foram os que construíram os hábitos mais fortes ([veja o relatório de hábitos com GLP-1](/pt-br/glp-1-habit-report)).\n\nCuide do medicamento e do músculo — juntos. [Comece com o HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "A curva do nível do medicamento: picos, vales e meia-vida",
+        "headers": [
+          "Medicamento (marca)",
+          "Meia-vida de eliminação",
+          "Pico após uma dose",
+          "Níveis estáveis atingidos"
+        ],
+        "rows": [
+          [
+            "Semaglutida (Ozempic, Wegovy)",
+            "~1 semana (cerca de 7 dias)",
+            "1–3 dias após a aplicação",
+            "após ~4–5 semanas de doses semanais"
+          ],
+          [
+            "Tirzepatida (Mounjaro; Zepbound nos EUA)",
+            "~5 dias",
+            "em poucos dias",
+            "em poucas semanas de doses semanais"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "O que é um plotter de GLP-1?",
+          "answer": "É a visualização em gráfico da sua jornada com GLP-1: um gráfico que desenha, em uma única linha do tempo, o nível estimado do medicamento entre as doses semanais, sua linha de tendência de peso e a linha do tempo das doses, para que você leia padrões em vez de números isolados."
+        },
+        {
+          "question": "Qual a diferença entre um plotter e um acompanhamento de progresso?",
+          "answer": "Um acompanhamento de progresso registra e guarda seu peso e suas medidas; o plotter é a *visualização* que transforma esses registros em curvas suavizadas. O plotter também acrescenta as linhas de nível do medicamento e de linha do tempo das doses, que um simples registro de progresso normalmente não mostra."
+        },
+        {
+          "question": "Um plotter consegue me dizer meu nível real do medicamento?",
+          "answer": "Não. A curva do nível do medicamento é um modelo construído a partir de médias populacionais (meia-vida, intervalo entre as doses), não uma medição do seu sangue. Ela ajuda a construir intuição sobre picos e vales, mas nunca deve ser usada para definir o horário de uma dose nem para tomar uma decisão médica."
+        },
+        {
+          "question": "Qual é a meia-vida da semaglutida e por que ela importa para o gráfico?",
+          "answer": "Cerca de uma semana (aproximadamente 7 dias), segundo a bula aprovada pela FDA, com o pico de nível de 1 a 3 dias após a aplicação. Essa meia-vida longa é o motivo de a curva desenhada nunca cair a zero entre as doses semanais e de os níveis chegarem a uma faixa estável após cerca de 4 a 5 semanas."
+        },
+        {
+          "question": "Por que minha curva de peso fica plana por semanas?",
+          "answer": "Platôs são normais e esperados. Podem refletir adaptação metabólica, pequenos aumentos na ingestão ou perda de massa muscular. O plotter mostra o platô como uma plataforma visível — um sinal para afastar o zoom e olhar para semanas, em vez de reagir a uma única pesagem."
+        },
+        {
+          "question": "Por que desenhar a linha do tempo das doses abaixo das outras curvas?",
+          "answer": "Porque o contexto é tudo. Sobrepor cada aumento da titulação permite ver como um aumento de dose coincide com uma mudança na tendência de peso ou com um conjunto de efeitos colaterais — uma relação que gráficos separados escondem."
+        },
+        {
+          "question": "Com que frequência devo me pesar para ter uma linha de tendência útil?",
+          "answer": "De uma a três manhãs por semana, no mesmo horário e nas mesmas condições, é suficiente. O peso oscila diariamente por causa de água e alimentação; uma linha de tendência ao longo de semanas é muito mais significativa do que qualquer leitura isolada."
+        },
+        {
+          "question": "Devo mudar alguma coisa com base no meu gráfico?",
+          "answer": "Não. Use o gráfico para entender seu padrão e tornar as consultas mais produtivas. Qualquer mudança de dose é decidida pelo seu médico prescritor, conforme o seu esquema de titulação — desenhe seus dados, mas não se autoajuste com base neles."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — OZEMPIC (semaglutide) Prescribing Information, Section 12.3 Pharmacokinetics (half-life ~1 week; peak 1–3 days).",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/209637s020s021lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — MOUNJARO (tirzepatide) Prescribing Information, Pharmacokinetics (half-life ~5 days).",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215866s039lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — ZEPBOUND (tirzepatide) Prescribing Information.",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217806s003lbl.pdf"
+        },
+        {
+          "text": "Furihata K. et al. — Population pharmacokinetics of the GIP/GLP-1 receptor agonist tirzepatide, *PMC*.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10962491/"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 Agonists: how they work and are dosed.",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Todos os dados farmacocinéticos acima foram verificados com base nas bulas da FDA citadas e na literatura de farmacologia, em julho de 2026. As bulas são atualizadas periodicamente — confirme os detalhes atuais com o seu prescritor e com a bula oficial."
+        },
+        {
+          "text": "Anvisa — Mounjaro (tirzepatida): nova indicação para controle crônico do peso (DOU 09/06/2025) (checked 2026-10-16).",
+          "url": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/novos-medicamentos-e-indicacoes/mounjaro-r-tirzepatida-nova-indicacao"
+        },
+        {
+          "text": "Anvisa — alerta sobre canetas emagrecedoras: indicações de bula e retenção de receita (RDC 973/2025, IN 360/2025) (checked 2026-10-16).",
+          "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-emite-alerta-para-risco-de-pancreatite-aguda-associada-ao-uso-indevido-de-canetas-emagrecedoras"
+        }
+      ],
+      "last_updated": "2026-07-06"
+    },
+    "id": {
+      "title": "Plotter GLP-1: Grafik Kadar Obat & Berat Badan dari Waktu ke Waktu",
+      "short_title": "Plotter GLP-1: grafik kadar obat & berat badan",
+      "meta_description": "Plotter GLP-1 memetakan kadar obat di antara dosis mingguan, kurva tren berat badan, dan linimasa dosis Anda — agar Anda melihat gambaran utuh, bukan satu angka.",
+      "short_description": "Pelajari cara membaca plotter GLP-1: kurva kadar obat, tren berat badan, dan linimasa dosis, serta cara menafsirkannya tanpa berlebihan.",
+      "tldr": "Plotter GLP-1 memetakan kadar obat di antara dosis mingguan, kurva tren berat badan, dan linimasa dosis Anda — agar Anda melihat gambaran utuh, bukan satu angka.",
+      "body_md": "Angka berat badan pada satu pagi hampir tidak memberi tahu apa-apa. GLP-1 seperti Wegovy, Ozempic, Zepbound atau Mounjaro bekerja selama berbulan-bulan, kadarnya di dalam tubuh naik dan turun di antara suntikan mingguan, dan berat badan Anda turun dalam garis yang tidak rata dan diselingi plateau. **Plotter** — tampilan grafik dari perjalanan Anda — mengubah titik-titik data yang tersebar itu menjadi kurva yang benar-benar bisa dibaca. Halaman ini menjelaskan apa yang *dipetakan* oleh plotter GLP-1 dan cara membacanya, tanpa menafsirkannya secara berlebihan.\n\nPlotter berbeda dari [pelacak dosis](/id/glp-1-dose-tracker) biasa, yang mencatat *berapa mg yang Anda gunakan dan kapan*, dan dari [pelacak progres](/id/weight-loss-tracker-app-glp-1), yang memantau berat badan dan ukuran tubuh Anda. Plotter adalah **lapisan visualisasi di atas keduanya** — ia mengambil dosis dan hasil timbang yang Anda catat lalu menggambarnya sebagai garis. Untuk gambaran lengkap tentang semua hal yang layak dicatat, mulailah dari hub [aplikasi pelacak GLP-1](/id/glp-1-tracker-app).\n\n## Tiga kurva yang digambar plotter GLP-1\n\nPlotter yang berguna menumpuk tiga hal pada satu linimasa:\n\n1. **Kurva kadar obat** — garis konseptual yang menunjukkan kadar obat Anda naik setelah setiap suntikan dan menurun sebelum suntikan berikutnya.\n2. **Kurva tren berat badan** — hasil timbang Anda yang dihaluskan menjadi garis tren, sehingga fluktuasi harian hilang.\n3. **Linimasa dosis** — penanda setiap kali titrasi Anda naik, diletakkan di bawah dua kurva lainnya agar Anda bisa melihat sebab dan akibat.\n\nTujuan menaruh ketiganya dalam satu grafik adalah *hubungan*: Anda bisa melihat bagaimana kenaikan dosis berada di samping penurunan berat badan yang mendadak (whoosh), atau di samping seminggu efek samping yang berat.\n\n## Kurva kadar obat: puncak, lembah, dan waktu paruh\n\nKurva yang paling sering disalahpahami adalah kadar obat. Berikut gambaran intuitifnya, dalam bentuk edukasi: setelah suntikan subkutan, obat naik hingga mencapai puncak, lalu turun saat tubuh membersihkannya. Seberapa cepat penurunannya ditentukan oleh **waktu paruh** obat — waktu yang dibutuhkan agar kadar turun setengahnya.\n\nSemaglutide memiliki waktu paruh sekitar **satu minggu (kira-kira 7 hari)**, dengan kadar puncak dalam darah tercapai **1–3 hari** setelah dosis, menurut label Ozempic dari FDA. Waktu paruh tirzepatide sekitar **5 hari**. Waktu paruh yang panjang inilah *alasan* obat-obat ini disuntikkan sekali seminggu: kadarnya tidak pernah benar-benar habis di antara suntikan.\n\nPlotter menggambarnya sebagai gelombang yang naik-turun dengan lembut — puncak kecil beberapa hari setelah setiap suntikan, lembah kecil tepat sebelum suntikan berikutnya. **Penting:** ini adalah model yang dibangun dari rata-rata populasi, bukan hasil pembacaan darah *Anda*. Ini hanyalah cara membangun intuisi (\"kadar tidak anjlok ke nol di antara suntikan\"), dan tidak boleh dijadikan dasar untuk menentukan waktu dosis atau memutuskan bahwa Anda merasakan \"lembah\". Keputusan tersebut ada di tangan dokter yang meresepkan.\n\n## Mengapa dosis mingguan menghasilkan garis yang hampir datar\n\nKarena waktu paruhnya panjang dibandingkan jeda 7 hari, setiap suntikan masuk sebelum suntikan sebelumnya habis dibersihkan. Selama beberapa minggu pertama, kadar obat karenanya naik menuju **keadaan tunak (steady state)** — pita stabil tempat kadar berosilasi — yang tercapai setelah sekitar **4–5 minggu** pemberian semaglutide mingguan yang konsisten. Pada plotter, ini tampak sebagai gelombang yang dimulai rendah, naik bertahap pada setiap dosis awal, lalu menetap menjadi riak yang stabil. Melihat pendataran itu menenangkan: itulah grafik obat Anda yang menjadi konsisten.\n\nSetiap kali dosis Anda dinaikkan sesuai jadwal titrasi, plotter menunjukkan pita tersebut naik ke tingkat tunak yang baru dan lebih tinggi selama beberapa minggu berikutnya — yang juga merupakan saat efek samping cenderung muncul bersamaan.\n\n## Kurva tren berat badan: membaca garis yang tidak linear\n\nBerat badan adalah sorotan utama, tetapi dari hari ke hari ia didominasi oleh air, makanan, dan hormon. Jika digambar mentah, hasilnya bergerigi dan berantakan; jika digambar sebagai **garis tren**, ia menunjukkan kebenaran. Dua hal penting:\n\n- **Plateau itu normal.** Masa datar selama dua hingga empat minggu adalah hal yang umum dan dapat dijelaskan secara medis — adaptasi metabolik, asupan yang perlahan bertambah, atau hilangnya otot. Pada plotter, plateau terlihat sebagai undakan, bukan kegagalan.\n- **Whoosh terjadi.** Berat badan kadang bertahan lalu tiba-tiba turun. Garis tren menangkap arah yang mendasarinya, yang tersembunyi oleh satu kali timbang.\n\nNilai dari memetakan berat badan *terhadap* linimasa dosis adalah Anda berhenti bereaksi pada satu pagi yang buruk dan mulai membaca kemiringan selama beberapa minggu.\n\n## Cara membaca plot Anda tanpa menafsirkannya berlebihan\n\nPlotter adalah alat berpikir, bukan peramal. Tiga pagar pengaman:\n\n- **Kurva obat bersifat konseptual, bukan personal.** Kurva ini tidak akan memberi tahu kadar obat Anda yang sebenarnya atau kapan harus menyuntik.\n- **Perluas rentang tampilan.** Nilai berat badan dalam jendela 4 minggu, bukan dari hari ke hari.\n- **Bawa ke tenaga medis Anda, jangan bertindak sendiri berdasarkan grafik.** Grafik yang rapi membuat janji temu lebih produktif; ia tidak pernah menggantikannya.\n\n## Cara membuat plot GLP-1 dalam 5 langkah\n\n1. **Catat setiap suntikan** beserta tanggal dan mg-nya — ini akan menjadi penanda linimasa dosis Anda.\n2. **Timbang pada hari yang tetap** (1–3 pagi seminggu, dengan kondisi yang sama) agar garis tren memiliki masukan yang jujur.\n3. **Biarkan alat menghaluskan berat badan** menjadi kurva tren, alih-alih menghubungkan titik-titik mentah.\n4. **Tumpuk linimasa dosis** agar setiap kenaikan titrasi terlihat di bawah kurva-kurva tersebut.\n5. **Tinjau seluruh grafik sebelum setiap kunjungan ke tenaga medis**, dengan tampilan diperluas hingga hitungan minggu — jangan pernah menggunakan kurva obat untuk menyesuaikan dosis sendiri.\n\n## Bagaimana aplikasi pelacak GLP-1 memplot ini secara otomatis\n\nMenggambar kurva-kurva ini secara manual itu melelahkan; inilah tepatnya fungsi sebuah aplikasi. Pelacak yang baik mengubah catatan Anda menjadi plot langsung:\n\n- **Garis tren berat badan** yang menghaluskan fluktuasi harian dan membuat plateau terlihat jelas.\n- **Linimasa dosis** yang menandai setiap kenaikan titrasi di bawah kurva Anda.\n- **Tampilan kadar obat edukatif** agar Anda memahami puncak dan lembah — diberi label jelas sebagai model, bukan kadar darah Anda.\n- **Penanda efek samping** yang ditumpuk agar Anda bisa melihat gejala muncul berkelompok di sekitar perubahan dosis.\n\n[**HAVIT**](https://www.aihavit.com) menyatukan dosis, hasil timbang, komposisi tubuh, dan kebiasaan Anda dalam satu aplikasi kesehatan dan memplotnya bersama — sehingga angka yang Anda catat menjadi gambaran yang bisa dibaca dan dibagikan. Jika Anda ingin data dan grafik Anda berada di tempat yang sama, ini adalah rumah yang wajar untuk perjalanan GLP-1 Anda.\n\n## Mengapa HAVIT — Obat + Perubahan Perilaku, dalam Satu Aplikasi\n\nObat GLP-1 dapat menurunkan berat badan secara bermakna — tetapi angka di timbangan hanyalah sebagian dari cerita. Porsi massa tanpa lemak dari berat badan yang turun pada terapi GLP-1 berkisar dari 40–60% pada sebagian uji coba hingga 15% atau kurang pada uji coba lain — dan massa tanpa lemak mencakup organ, tulang, dan cairan, bukan hanya otot ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), dan hasilnya cenderung memudar setelah obat dihentikan kecuali kebiasaan baru mengambil alih. Itulah sebabnya panduan terkemuka memperlakukan obat sebagai satu bagian dari perawatan, bukan keseluruhannya: U.S. Preventive Services Task Force merekomendasikan agar orang dewasa dengan obesitas ditawari intervensi perilaku multikomponen yang intensif ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT dibuat tepat untuk momen ini — satu aplikasi yang menyatukan pelacakan obat, komposisi tubuh, nutrisi dan protein, pembentukan kebiasaan harian, serta pelatih AI yang menyesuaikan diri dengan Anda. Dari 1.090 pengguna GLP-1 kami sendiri, pengguna yang paling konsisten mencatat membangun kebiasaan terkuat ([lihat laporan kebiasaan GLP-1](/id/glp-1-habit-report)).\n\nKelola obatnya dan ototnya — bersama-sama. [Mulai dengan HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "Kurva kadar obat: puncak, lembah, dan waktu paruh",
+        "headers": [
+          "Obat (merek)",
+          "Waktu paruh eliminasi",
+          "Kadar puncak setelah dosis",
+          "Kadar tunak tercapai"
+        ],
+        "rows": [
+          [
+            "Semaglutide (Ozempic, Wegovy)",
+            "~1 minggu (sekitar 7 hari)",
+            "1–3 hari setelah suntikan",
+            "setelah ~4–5 minggu pemberian sekali seminggu"
+          ],
+          [
+            "Tirzepatide (Mounjaro, Zepbound)",
+            "~5 hari",
+            "dalam beberapa hari",
+            "dalam beberapa minggu pemberian sekali seminggu"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "Apa itu plotter GLP-1?",
+          "answer": "Plotter adalah tampilan grafik dari perjalanan GLP-1 Anda: grafik yang memetakan perkiraan kadar obat di antara dosis mingguan, garis tren berat badan, dan linimasa dosis dalam satu linimasa, sehingga Anda bisa membaca pola, bukan angka tunggal."
+        },
+        {
+          "question": "Apa bedanya plotter dengan pelacak progres?",
+          "answer": "Pelacak progres mencatat dan menyimpan berat badan serta ukuran tubuh Anda; plotter adalah *visualisasi* yang mengubah catatan tersebut menjadi kurva yang dihaluskan. Plotter juga menambahkan garis kadar obat dan linimasa dosis yang biasanya tidak ditampilkan oleh catatan progres biasa."
+        },
+        {
+          "question": "Bisakah plotter memberi tahu kadar obat saya yang sebenarnya?",
+          "answer": "Tidak. Kurva kadar obat adalah model yang dibangun dari rata-rata populasi (waktu paruh, interval pemberian), bukan pengukuran darah Anda. Kurva ini membangun intuisi tentang puncak dan lembah, tetapi tidak boleh digunakan untuk menentukan waktu dosis atau membuat keputusan medis."
+        },
+        {
+          "question": "Berapa waktu paruh semaglutide, dan mengapa penting untuk grafik?",
+          "answer": "Sekitar satu minggu (kira-kira 7 hari), menurut label FDA, dengan kadar puncak 1–3 hari setelah suntikan. Waktu paruh yang panjang itulah alasan kurva yang diplot tidak pernah turun ke nol di antara dosis mingguan dan mengapa kadar mencapai pita yang stabil setelah sekitar 4–5 minggu."
+        },
+        {
+          "question": "Mengapa kurva berat badan saya datar selama berminggu-minggu?",
+          "answer": "Plateau itu normal dan wajar terjadi. Plateau dapat mencerminkan adaptasi metabolik, peningkatan kecil pada asupan, atau hilangnya otot. Plotter menampilkan plateau sebagai undakan yang terlihat — pertanda untuk memperluas tampilan hingga hitungan minggu, bukan bereaksi pada satu kali timbang."
+        },
+        {
+          "question": "Mengapa linimasa dosis diletakkan di bawah kurva lainnya?",
+          "answer": "Karena konteks adalah segalanya. Dengan menumpuk setiap kenaikan titrasi, Anda bisa melihat bagaimana peningkatan dosis sejalan dengan perubahan tren berat badan atau kumpulan efek samping — hubungan yang tersembunyi jika grafiknya terpisah."
+        },
+        {
+          "question": "Seberapa sering saya harus menimbang untuk mendapatkan garis tren yang berguna?",
+          "answer": "Satu hingga tiga pagi seminggu, pada waktu yang sama dan dalam kondisi yang sama, sudah cukup. Berat badan harian berayun karena air dan makanan; garis tren selama berminggu-minggu jauh lebih bermakna daripada satu pembacaan mana pun."
+        },
+        {
+          "question": "Haruskah saya mengubah sesuatu berdasarkan plot saya?",
+          "answer": "Tidak. Gunakan plot untuk memahami pola Anda dan membuat kunjungan ke tenaga medis lebih produktif. Setiap perubahan dosis diputuskan oleh dokter yang meresepkan sesuai jadwal titrasi Anda — plot data Anda, jangan menyesuaikan dosis sendiri berdasarkan plot tersebut."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — OZEMPIC (semaglutide) Prescribing Information, Section 12.3 Pharmacokinetics (half-life ~1 week; peak 1–3 days).",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/209637s020s021lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — MOUNJARO (tirzepatide) Prescribing Information, Pharmacokinetics (half-life ~5 days).",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215866s039lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — ZEPBOUND (tirzepatide) Prescribing Information.",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217806s003lbl.pdf"
+        },
+        {
+          "text": "Furihata K. et al. — Population pharmacokinetics of the GIP/GLP-1 receptor agonist tirzepatide, *PMC*.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10962491/"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 Agonists: how they work and are dosed.",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Semua fakta farmakokinetik di atas diverifikasi terhadap label FDA yang dikutip dan literatur farmakologi per Juli 2026. Label diperbarui secara berkala — konfirmasikan rincian terbaru dengan dokter yang meresepkan dan informasi peresepan resmi."
+        }
+      ],
+      "last_updated": "2026-07-06"
+    },
+    "fr": {
+      "title": "Graphique GLP-1 : suivez votre taux de médicament et votre courbe de poids dans le temps",
+      "short_title": "Graphique GLP-1 : taux de médicament et courbe de poids",
+      "meta_description": "Un graphique GLP-1 représente votre taux de médicament entre les doses hebdomadaires, votre courbe de poids et votre calendrier de doses, pour une vue d'ensemble plutôt qu'un seul chiffre.",
+      "short_description": "Un graphique GLP-1 affiche votre taux de médicament, votre courbe de poids et vos doses. Apprenez à lire ces courbes sans les surinterpréter.",
+      "tldr": "Un graphique GLP-1 représente votre taux de médicament entre les doses hebdomadaires, votre courbe de tendance de poids et votre calendrier de doses, pour que vous voyiez l'ensemble du tableau et non un seul chiffre.",
+      "body_md": "Un poids relevé un matin donné ne vous apprend presque rien. Un GLP-1 comme Wegovy, Ozempic ou Mounjaro (Zepbound aux États-Unis) agit sur plusieurs mois, son taux dans votre organisme monte et descend entre les injections hebdomadaires, et votre poids diminue selon une ligne irrégulière, ponctuée de plateaux. Un **graphique GLP-1** — la vue graphique de votre parcours — transforme ces points épars en courbes réellement lisibles. Cette page explique ce qu'un graphique GLP-1 *représente* et comment le lire, sans le surinterpréter.\n\nUn graphique se distingue d'un simple [suivi des doses](/fr/glp-1-dose-tracker), qui enregistre *quelle dose en mg vous avez prise et quand*, et d'un [suivi de progression](/fr/weight-loss-tracker-app-glp-1), qui suit votre poids et vos mensurations. Le graphique est la **couche de visualisation au-dessus des deux** : il prend vos doses et vos pesées enregistrées et les dessine sous forme de courbes. Pour une vision complète de tout ce qui mérite d'être noté, commencez par la page de référence [application de suivi GLP-1](/fr/glp-1-tracker-app).\n\n*Repère pour la France : le sémaglutide (Ozempic, Wegovy) et le tirzépatide (Mounjaro) sont des médicaments sur ordonnance ; selon l'ANSM, leur usage dans l'obésité s'inscrit en seconde intention, après échec d'une prise en charge nutritionnelle, et non pour une perte de poids esthétique. Les données pharmacocinétiques ci-dessous viennent des notices FDA ; vérifiez celle de votre produit.*\n\n## Les trois courbes que dessine un graphique GLP-1\n\nUn graphique utile superpose trois éléments sur une même chronologie :\n\n1. **La courbe du taux de médicament** — une ligne conceptuelle montrant le taux du médicament qui monte après chaque injection puis diminue avant la suivante.\n2. **La courbe de tendance du poids** — vos pesées lissées en une courbe de tendance, pour que le bruit quotidien disparaisse.\n3. **Le calendrier des doses** — un repère à chaque palier d'augmentation de la titration, placé sous les deux autres courbes pour que vous voyiez la cause et l'effet.\n\nL'intérêt de les réunir sur un même graphique est la *relation* : vous voyez comment une augmentation de dose se situe par rapport à une chute brutale du poids après un palier, ou par rapport à une semaine difficile d'effets secondaires.\n\n## La courbe du taux de médicament : pics, creux et demi-vie\n\nLa courbe la plus mal comprise est celle du taux de médicament. Voici l'intuition, à visée pédagogique : après une injection sous-cutanée, le médicament monte jusqu'à un pic, puis baisse à mesure que votre organisme l'élimine. La vitesse de cette baisse dépend de la **demi-vie** du médicament, c'est-à-dire le temps nécessaire pour que le taux diminue de moitié.\n\nLe sémaglutide a une demi-vie d'environ **une semaine (à peu près 7 jours)**, avec un pic de concentration sanguine atteint **1 à 3 jours** après une dose, selon la notice américaine (FDA) d'Ozempic ; la notice de votre pays (RCP/EMA) fait foi. La demi-vie du tirzépatide est d'environ **5 jours**. Ces longues demi-vies sont précisément la raison pour laquelle ces médicaments s'administrent en une injection par semaine : le taux ne retombe jamais complètement entre deux injections.\n\nUn graphique dessine cela sous la forme d'une onde qui monte et descend doucement — un petit pic quelques jours après chaque injection, un petit creux juste avant la suivante. **Important :** il s'agit d'un modèle construit à partir de moyennes de population, et non d'une mesure de *votre* sang. C'est un moyen de se faire une idée intuitive (« les taux ne tombent pas à zéro entre deux injections »), jamais une base pour choisir le moment d'une dose ni pour décider que vous ressentez un « creux ». Ces décisions relèvent de votre prescripteur.\n\n## Pourquoi une dose hebdomadaire donne une ligne quasi plate\n\nComme la demi-vie est longue par rapport à l'intervalle de 7 jours, chaque injection arrive avant que la précédente ait été éliminée. Au cours des premières semaines, le taux monte donc jusqu'à un **état d'équilibre** (steady state) — une plage stable dans laquelle il oscille — atteint après environ **4 à 5 semaines** d'administration hebdomadaire régulière de sémaglutide. Sur le graphique, cela ressemble à une onde qui part de bas, monte à chaque dose du début, puis se stabilise en une ondulation régulière. Voir cet aplatissement est rassurant : c'est le graphique de votre traitement qui devient régulier.\n\nÀ chaque augmentation de votre dose selon votre schéma de titration, le graphique montre la plage monter vers un nouveau niveau d'équilibre plus élevé au cours des semaines suivantes — c'est aussi la période où les effets secondaires ont tendance à se regrouper.\n\n## La courbe de tendance du poids : lire une ligne non linéaire\n\nLe poids est l'indicateur principal, mais au jour le jour il dépend surtout de l'eau, de l'alimentation et des hormones. Tracé brut, c'est un dessin en dents de scie ; tracé sous forme de **courbe de tendance**, il dit la vérité. Deux éléments comptent :\n\n- **Les plateaux sont normaux.** Des périodes stables de deux à quatre semaines sont fréquentes et s'expliquent médicalement — adaptation métabolique, légère augmentation progressive des apports, ou perte de muscle. Sur un graphique, un plateau est un palier visible, pas un échec.\n- **Les « whooshes » arrivent.** Le poids stagne parfois, puis chute brusquement après un palier (certains parlent de « whoosh »). Une courbe de tendance saisit la direction de fond qu'une pesée isolée masque.\n\nL'intérêt de tracer le poids *par rapport* au calendrier des doses est que vous cessez de réagir à un mauvais matin et commencez à lire la pente sur plusieurs semaines.\n\n## Comment lire votre courbe sans la surinterpréter\n\nUn graphique est un outil de réflexion, pas un oracle. Trois garde-fous :\n\n- **La courbe du médicament est conceptuelle, pas personnelle.** Elle ne vous indiquera ni votre taux réel de médicament ni le moment où injecter.\n- **Prenez du recul.** Jugez le poids sur des fenêtres de 4 semaines, pas au jour le jour.\n- **Apportez-la à votre médecin, n'agissez pas seul(e) à partir d'elle.** Un graphique clair rend un rendez-vous plus utile ; il ne le remplace jamais.\n\n## Comment construire un graphique GLP-1 en 5 étapes\n\n1. **Notez chaque injection** avec sa date et sa dose en mg — ce seront vos repères du calendrier des doses.\n2. **Pesez-vous à des jours fixes** (1 à 3 matins par semaine, dans les mêmes conditions) pour que la courbe de tendance repose sur des données fiables.\n3. **Laissez l'outil lisser le poids** en une courbe de tendance plutôt que de relier les points bruts.\n4. **Superposez le calendrier des doses** pour que chaque augmentation de titration soit visible sous les courbes.\n5. **Passez en revue l'ensemble du graphique avant chaque consultation**, en vue élargie sur plusieurs semaines — n'utilisez jamais la courbe du médicament pour ajuster vous-même une dose.\n\n## Comment une application de suivi GLP-1 trace tout cela automatiquement\n\nDessiner ces courbes à la main est fastidieux ; c'est précisément à cela que sert une application. Un bon outil de suivi transforme vos données en un graphique en direct :\n\n- **Une courbe de tendance du poids** qui lisse le bruit quotidien et rend les plateaux évidents.\n- **Un calendrier des doses** qui marque chaque augmentation de titration sous vos courbes.\n- **Une vue pédagogique du taux de médicament** pour comprendre les pics et les creux — clairement indiquée comme un modèle, et non comme votre taux sanguin.\n- **Des repères d'effets secondaires** superposés pour voir les symptômes se regrouper autour des changements de dose.\n\n[**HAVIT**](https://www.aihavit.com) réunit vos doses, vos pesées, votre composition corporelle et vos habitudes dans une seule application de bien-être et les représente ensemble — afin que les chiffres que vous notez deviennent une image que vous pouvez lire et partager. Si vous voulez vos données et vos graphiques au même endroit, c'est un point de départ naturel pour votre parcours GLP-1.\n\n## Pourquoi HAVIT — Médicament + changement de comportement, dans une seule application\n\nLes médicaments GLP-1 peuvent réduire sensiblement le poids, mais le chiffre sur la balance n'est qu'une partie de l'histoire. La part de masse maigre dans le poids perdu sous traitement GLP-1 a varié de 40 à 60 % dans certains essais, à 15 % ou moins dans d'autres — et la masse maigre comprend les organes, les os et les fluides, pas seulement les muscles ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), et les résultats tendent à s'estomper à l'arrêt du médicament si de nouvelles habitudes ne prennent pas le relais. C'est pourquoi les recommandations de référence considèrent le médicament comme un élément de la prise en charge, et non comme sa totalité : l'U.S. Preventive Services Task Force recommande que des interventions comportementales intensives et multicomposantes soient proposées aux adultes en situation d'obésité ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT est conçue pour ce moment précis — une seule application qui réunit le suivi du traitement, la composition corporelle, la nutrition et les protéines, la construction d'habitudes quotidiennes, et un coach IA qui s'adapte à vous. Parmi nos 1 090 utilisateurs de GLP-1, ceux qui suivaient leurs données le plus régulièrement ont construit les habitudes les plus solides ([voir le rapport sur les habitudes GLP-1](/fr/glp-1-habit-report)).\n\nGérez le médicament et le muscle — ensemble. [Commencer avec HAVIT →](https://www.aihavit.com)",
+      "comparison_table": {
+        "title": "La courbe du taux de médicament : pics, creux et demi-vie",
+        "headers": [
+          "Médicament (marque)",
+          "Demi-vie d'élimination",
+          "Pic après une dose",
+          "Taux d'équilibre atteint"
+        ],
+        "rows": [
+          [
+            "Sémaglutide (Ozempic, Wegovy)",
+            "~1 semaine (environ 7 jours)",
+            "1 à 3 jours après l'injection",
+            "après ~4 à 5 semaines d'administration hebdomadaire"
+          ],
+          [
+            "Tirzépatide (Mounjaro, Zepbound)",
+            "~5 jours",
+            "en quelques jours",
+            "en quelques semaines d'administration hebdomadaire"
+          ]
+        ]
+      },
+      "faq": [
+        {
+          "question": "Qu'est-ce qu'un graphique GLP-1 ?",
+          "answer": "C'est la vue graphique de votre parcours GLP-1 : un graphique qui représente sur une même chronologie votre taux estimé de médicament entre les doses hebdomadaires, votre courbe de tendance du poids et votre calendrier de doses, afin que vous lisiez des tendances plutôt que des chiffres isolés."
+        },
+        {
+          "question": "En quoi un graphique diffère-t-il d'un suivi de progression ?",
+          "answer": "Un suivi de progression enregistre et conserve votre poids et vos mensurations ; un graphique est la *visualisation* qui transforme ces données en courbes lissées. Le graphique ajoute aussi les lignes du taux de médicament et du calendrier des doses qu'un simple journal de progression n'affiche généralement pas."
+        },
+        {
+          "question": "Un graphique peut-il m'indiquer mon taux réel de médicament ?",
+          "answer": "Non. La courbe du taux de médicament est un modèle construit à partir de moyennes de population (demi-vie, intervalle entre les doses), et non une mesure de votre sang. Elle aide à comprendre intuitivement les pics et les creux, mais ne doit jamais servir à choisir le moment d'une dose ni à prendre une décision médicale."
+        },
+        {
+          "question": "Quelle est la demi-vie du sémaglutide, et pourquoi est-elle importante pour le graphique ?",
+          "answer": "Environ une semaine (à peu près 7 jours), selon l'étiquetage de la FDA, avec un pic 1 à 3 jours après une injection. Cette longue demi-vie explique pourquoi la courbe tracée ne retombe jamais à zéro entre deux doses hebdomadaires, et pourquoi les taux atteignent une plage stable après environ 4 à 5 semaines."
+        },
+        {
+          "question": "Pourquoi ma courbe de poids reste-t-elle plate pendant des semaines ?",
+          "answer": "Les plateaux sont normaux et attendus. Ils peuvent refléter une adaptation métabolique, de légères hausses des apports ou une perte de muscle. Un graphique montre un plateau comme un palier visible — un signal pour prendre du recul sur plusieurs semaines plutôt que de réagir à une seule pesée."
+        },
+        {
+          "question": "Pourquoi tracer le calendrier des doses sous les autres courbes ?",
+          "answer": "Parce que le contexte est essentiel. Superposer chaque augmentation de titration permet de voir comment une hausse de dose coïncide avec un changement de tendance du poids ou un regroupement d'effets secondaires — une relation que des graphiques séparés masquent."
+        },
+        {
+          "question": "À quelle fréquence dois-je me peser pour obtenir une courbe de tendance utile ?",
+          "answer": "Un à trois matins par semaine, à la même heure et dans les mêmes conditions, c'est largement suffisant. Le poids varie d'un jour à l'autre selon l'eau et l'alimentation ; une courbe de tendance sur plusieurs semaines est bien plus parlante qu'une mesure isolée."
+        },
+        {
+          "question": "Dois-je modifier quoi que ce soit en fonction de mon graphique ?",
+          "answer": "Non. Utilisez le graphique pour comprendre votre évolution et rendre vos consultations plus utiles. Toute modification de dose est décidée par votre prescripteur selon votre schéma de titration — tracez vos données, mais ne vous ajustez pas seul(e) à partir d'elles."
+        }
+      ],
+      "references": [
+        {
+          "text": "U.S. Food & Drug Administration — OZEMPIC (semaglutide) Prescribing Information, Section 12.3 Pharmacokinetics (half-life ~1 week; peak 1–3 days).",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/209637s020s021lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — MOUNJARO (tirzepatide) Prescribing Information, Pharmacokinetics (half-life ~5 days).",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215866s039lbl.pdf"
+        },
+        {
+          "text": "U.S. Food & Drug Administration — ZEPBOUND (tirzepatide) Prescribing Information.",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217806s003lbl.pdf"
+        },
+        {
+          "text": "Furihata K. et al. — Population pharmacokinetics of the GIP/GLP-1 receptor agonist tirzepatide, *PMC*.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10962491/"
+        },
+        {
+          "text": "Cleveland Clinic — GLP-1 Agonists: how they work and are dosed.",
+          "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists"
+        },
+        {
+          "text": "Les données pharmacocinétiques ci-dessus ont été vérifiées sur les notices FDA citées et dans la littérature de pharmacologie en juillet 2026. Les notices sont mises à jour périodiquement : confirmez les informations actuelles auprès de votre prescripteur et de la notice officielle de votre pays."
+        },
+        {
+          "text": "ANSM. Analogues du GLP-1 indiqués dans le traitement de l'obésité : l'ANSM fait évoluer leurs conditions de prescription et de délivrance (checked 2026-10-16).",
+          "url": "https://ansm.sante.fr/actualites/impression/5375"
+        },
+        {
+          "text": "EMA — Mounjaro EPAR (checked 2026-10-16).",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro"
+        }
+      ],
+      "last_updated": "2026-07-06"
     }
   },
   "generated_at": "2026-08-14T00:00:00.000Z"
