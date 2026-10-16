@@ -86,6 +86,50 @@ export function toBcp47(full: LangKey): string {
   return `${lang}-${region.toUpperCase()}`;
 }
 
+/**
+ * 라우트 short-lang → hreflang 값. 블로그의 hreflang(HTML <link> · 사이트맵
+ * xhtml:link)과 <html lang> 은 전부 이 표 하나를 거친다.
+ *
+ * 중국어는 지역(zh-TW)이 아니라 문자 체계(ISO 15924 스크립트 하위태그)로 낸다.
+ * 예전 값 `zh` / `zh-tw` 는 번체를 대만에만 묶어서 홍콩·마카오 사용자가 간체
+ * 페이지로 매칭됐다(홍콩 CTR 1.6% vs 대만 2.4%). Google 은 hreflang 에
+ * `zh-Hant` / `zh-Hans` 같은 스크립트 하위태그를 지원하고, 번체 페이지가 하나뿐이면
+ * `zh-Hant` 하나로 대만·홍콩·마카오가 전부 이 URL 을 받는다 — 같은 URL 에
+ * zh-Hant-TW / zh-Hant-HK 를 더 붙여도 새 신호가 없다(지역별로 다른 페이지가 있을
+ * 때만 의미가 있다). 홈페이지(apps/web/plugins/locales.js)도 같은 값을 쓴다.
+ *
+ * ⚠️ URL 경로(/blog/zh, /blog/zh-tw)는 그대로다. 바뀌는 건 hreflang 값과 html lang 뿐.
+ */
+const HREFLANG_BY_ROUTE: Record<string, string> = {
+  zh: 'zh-Hans',
+  'zh-tw': 'zh-Hant',
+};
+
+/** 라우트 short-lang(또는 'x-default') → hreflang 값. 표에 없으면 라우트 코드 그대로. */
+export function toHreflang(routeLang: string): string {
+  return HREFLANG_BY_ROUTE[routeLang.toLowerCase()] ?? routeLang;
+}
+
+/**
+ * `{ 라우트lang: url }` → `{ hreflang: url }`. metadata.alternates.languages 와
+ * 사이트맵이 같은 클러스터를 같은 값으로 말하도록 둘 다 이걸 쓴다.
+ * en 이 있는데 x-default 가 없으면 en 으로 채운다(사이트맵과 HTML 정합 — en 원문이
+ * 없는 클러스터에는 404 를 가리키지 않도록 붙이지 않는다).
+ */
+export function toHreflangMap(byRouteLang: Record<string, string>): Record<string, string> {
+  const out: Record<string, string> = {};
+  for (const [l, href] of Object.entries(byRouteLang)) out[toHreflang(l)] = href;
+  if (out.en && !out['x-default']) out['x-default'] = out.en;
+  return out;
+}
+
+/** 라우트 short-lang → <html lang>. 중국어는 hreflang 과 같은 스크립트 태그, 나머지는 기존 BCP47. */
+export function toHtmlLang(routeLang: string): string {
+  const s = routeLang.toLowerCase();
+  if (HREFLANG_BY_ROUTE[s]) return HREFLANG_BY_ROUTE[s];
+  return toBcp47(toFullLang(s));
+}
+
 /** RTL 언어 (PRD §16.5 i18n 폰트) */
 export const RTL_LANGS: LangKey[] = ['ar_ae', 'he_il'];
 export function isRtl(lang: LangKey): boolean {

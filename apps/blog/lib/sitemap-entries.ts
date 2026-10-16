@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getAllArticles, resolveContent, isLangIndexable, articleDates } from '@/lib/articles-v2';
 import { ALL_CATEGORIES } from '@/lib/categories';
 import { SITE } from '@/lib/site';
+import { toHreflangMap } from '@/lib/i18n';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 // SEO staging — sitemap lists only indexable (priority) langs so it never submits
@@ -157,7 +158,9 @@ export function newestLastmod(entries: MetadataRoute.Sitemap): string | undefine
 export function renderUrlset(entries: MetadataRoute.Sitemap): string {
   const urls = entries
     .map((e) => {
-      const alts = Object.entries(e.alternates?.languages ?? {})
+      // 엔트리는 라우트 코드(zh, zh-tw…)로 들고 있다가 직렬화 직전에 hreflang 값으로 바꾼다
+      // (HTML metadata 와 같은 toHreflangMap — 두 소스가 같은 클러스터를 같은 값으로 말해야 한다).
+      const alts = Object.entries(toHreflangMap((e.alternates?.languages ?? {}) as Record<string, string>))
         .map(([hl, href]) => `<xhtml:link rel="alternate" hreflang="${hl}" href="${xmlEscape(String(href))}" />`)
         .join('\n');
       const lm = iso(e.lastModified);

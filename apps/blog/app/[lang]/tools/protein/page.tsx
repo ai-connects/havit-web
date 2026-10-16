@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ProteinCalculator from '@/components/tools/ProteinCalculator';
 import { PROTEIN_LABELS, type ToolLang, toToolLang } from '@/lib/tool-labels';
-import { toFullLang } from '@/lib/i18n';
+import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: {
       canonical: `${SITE}/${params.lang}/tools/protein`,
-      languages: Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}/tools/protein`])),
+      languages: toHreflangMap(Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}/tools/protein`]))),
     },
     openGraph: {
       title: L.pageTitle,

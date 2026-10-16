@@ -18,7 +18,7 @@ import { isLangIndexable } from '@/lib/articles-v2';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { toFullLang } from '@/lib/i18n';
+import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
@@ -362,7 +362,7 @@ export function generateMetadata({ params }: Props): Metadata {
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: {
       canonical: `${SITE}/${params.lang}/editorial-policy`,
-      languages: Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}/editorial-policy`])),
+      languages: toHreflangMap(Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}/editorial-policy`]))),
     },
     openGraph: {
       title: i18n.title,

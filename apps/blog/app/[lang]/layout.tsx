@@ -1,10 +1,12 @@
 import DocumentShell from '@/components/DocumentShell';
-import { toBcp47, toFullLang } from '@/lib/i18n';
+import { toHtmlLang } from '@/lib/i18n';
 
-/** 라우트 언어 → <html lang>. og:locale · JSON-LD inLanguage 와 같은 변환을 쓴다. */
+/**
+ * 라우트 언어 → <html lang>. 중국어는 hreflang 과 같은 zh-Hans / zh-Hant(스크립트),
+ * 나머지는 og:locale · JSON-LD inLanguage 와 같은 BCP47 변환. lib/i18n.ts toHtmlLang 참조.
+ */
 function htmlLang(shortLang: string): string {
-  const s = shortLang.toLowerCase();
-  return toBcp47(toFullLang(s === 'zh-tw' ? 'zh-tw' : s === 'zh' ? 'zh-cn' : s));
+  return toHtmlLang(shortLang);
 }
 
 export default function LangLayout({

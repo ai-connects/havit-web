@@ -6,7 +6,7 @@ import ArticleView from '@/components/ArticleView';
 import HubArticleView from '@/components/HubArticleView';
 import { getArticleBySlug, resolveContent, getAllArticles, PRIMARY_LANGS, isLangIndexable, articleDates } from '@/lib/articles-v2';
 import { articleImage } from '@/lib/article-images';
-import { toFullLang, toBcp47 } from '@/lib/i18n';
+import { toFullLang, toBcp47, toHreflangMap } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
@@ -128,7 +128,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         // 클러스터를 두 소스가 다르게 말하면 Google 이 그걸 문제로 잡는다.
         // en 원문이 없는 아티클(5건)에는 붙이지 않는다 — 404 를 가리키게 된다.
         if (map['en']) map['x-default'] = map['en'];
-        return map;
+        return toHreflangMap(map);
       })(),
     },
     openGraph: {

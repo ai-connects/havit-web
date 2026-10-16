@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { listArticlesForLang, isLangIndexable } from '@/lib/articles-v2';
 import { localizedCategory } from '@/lib/category-labels';
-import { toFullLang } from '@/lib/i18n';
+import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { ALL_CATEGORIES, categorySlug } from '@/lib/categories';
 import { SITE } from '@/lib/site';
 import { articlesMetaDescription } from '@/lib/meta-descriptions';
@@ -62,12 +62,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: {
       canonical: url,
-      languages: {
+      languages: toHreflangMap({
         ...Object.fromEntries(
           ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}/articles`]),
         ),
         'x-default': `${SITE}/en/articles`,
-      },
+      }),
     },
     openGraph: { title, description, type: 'website', siteName: 'HAVIT Blog', url, locale: lang },
   };
