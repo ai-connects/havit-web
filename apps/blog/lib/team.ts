@@ -28,7 +28,9 @@ export const BRAND_SAME_AS: string[] = [
 export const PUBLISHER_ORG = {
   '@type': 'Organization' as const,
   '@id': `${SITE}/#publisher`,
-  name: 'Havit Inc.',
+  // 브랜드명(name)과 등기 영문 상호(legalName)는 별개다 — docs/brand-glossary.md
+  name: 'HAVIT',
+  legalName: 'Havit Inc.',
   url: 'https://www.aihavit.com',
   logo: {
     '@type': 'ImageObject' as const,

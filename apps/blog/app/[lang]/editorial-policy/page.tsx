@@ -393,6 +393,7 @@ interface PolicyJsonLd {
   publisher: {
     '@type': 'Organization';
     name: string;
+    legalName: string;
     url: string;
     logo: { '@type': 'ImageObject'; url: string };
   };
@@ -413,7 +414,8 @@ function buildPolicyJsonLd(lang: RouteLang, i18n: PolicyI18n): PolicyJsonLd {
     lastReviewed: LAST_REVIEWED,
     publisher: {
       '@type': 'Organization',
-      name: PUBLISHER_NAME,
+      name: 'HAVIT',
+      legalName: PUBLISHER_NAME,
       url: PUBLISHER_URL,
       logo: {
         '@type': 'ImageObject',

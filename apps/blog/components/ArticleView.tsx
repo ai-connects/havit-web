@@ -184,7 +184,7 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
         </section>
       )}
 
-      {/* 엔티티 블록 — 본문 영역 안. 푸터/CTA 의 Havit 언급은 추출 단계에서
+      {/* 엔티티 블록 — 본문 영역 안. 푸터/CTA 의 HAVIT 언급은 추출 단계에서
           대체로 버려지므로 <article> 안에서 한 번은 브랜드를 말해야 한다. */}
 
       {/* 무엇인지 먼저 말하고, 그 다음 설치를 권한다. */}

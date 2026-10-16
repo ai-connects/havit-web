@@ -78,7 +78,7 @@ export function appGuideLabel(content: Pick<ArticleV2LangContent, 'title' | 'sho
     .trim();
   const parts = t.split(STRONG_SEPARATORS).map((x) => x.trim()).filter(Boolean);
   // 여러 앱을 나란히 비교하는 글(「HAVIT vs A vs B」)만 비교 조각을 쓴다. 「<앱> 대안」 글의
-  // 「Havit vs <앱>」 조각은 쓰지 않는다 — 사람들이 검색하는 말은 「<앱> 대안」 쪽이다.
+  // 「HAVIT vs <앱>」 조각은 쓰지 않는다 — 사람들이 검색하는 말은 「<앱> 대안」 쪽이다.
   const multiVs = parts.find((x) => (x.match(/\bvs\b/gi) ?? []).length >= 2);
   let label = multiVs ?? parts[0] ?? t;
   if (displayWidth(label) > LABEL_MAX) {

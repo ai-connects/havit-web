@@ -259,6 +259,7 @@ interface AboutPageJsonLd {
   publisher: {
     '@type': 'Organization';
     name: string;
+    legalName: string;
     url: string;
     logo: { '@type': 'ImageObject'; url: string };
   };
@@ -279,7 +280,8 @@ function buildAboutJsonLd(lang: RouteLang, i18n: AboutI18n): AboutPageJsonLd {
     inLanguage: bcp,
     publisher: {
       '@type': 'Organization',
-      name: PUBLISHER_NAME,
+      name: 'HAVIT',
+      legalName: PUBLISHER_NAME,
       url: PUBLISHER_URL,
       logo: {
         '@type': 'ImageObject',
