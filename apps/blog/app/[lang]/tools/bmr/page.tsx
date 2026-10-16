@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ROUTE_LANGS.includes(params.lang as ToolLang)) return { title: 'Not Found' };
   const L = BMR_LABELS[toToolLang(params.lang)];
   return {
-    title: `${L.pageTitle} — HAVIT`,
-    description: L.pageIntro,
+    title: `${L.metaTitle ?? L.pageTitle} — HAVIT`,
+    description: L.metaDescription ?? L.pageIntro,
     // SEO staging — index only priority langs first (PRIORITY_INDEX_LANGS).
     robots: isLangIndexable(params.lang)
       ? { index: true, follow: true }
@@ -33,8 +33,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: toHreflangMap(Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}/tools/bmr`]))),
     },
     openGraph: {
-      title: L.pageTitle,
-      description: L.pageIntro,
+      title: L.metaTitle ?? L.pageTitle,
+      description: L.metaDescription ?? L.pageIntro,
       type: 'website',
       url: `${SITE}/${params.lang}/tools/bmr`,
       siteName: 'HAVIT Blog',
@@ -43,8 +43,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary_large_image',
-      title: L.pageTitle,
-      description: L.pageIntro,
+      title: L.metaTitle ?? L.pageTitle,
+      description: L.metaDescription ?? L.pageIntro,
       images: [`${SITE}/og-card.png`],
     },
   };
