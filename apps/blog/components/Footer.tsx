@@ -5,6 +5,7 @@ import { ALL_CATEGORIES } from '@/lib/categories';
 import { FOOTER_LINK_GROUPS } from '@/lib/footer-links';
 import { getArticleBySlug, resolveContent } from '@/lib/articles-v2';
 import { asset, mainSiteHome } from '@/lib/site';
+import { appGuideLabel } from '@/lib/app-guides';
 
 // BLOG_AUTHORITY v1.0.0 (PRD §5.2.3 / §16.2 F-07 옵션 A) — 인라인 i18n.
 // lib/i18n.ts 미변경 (INV-010, P0-#2 회피). 6 lang 자체포함.
@@ -139,6 +140,11 @@ const FOOTER_GROUP_LABELS: Record<string, Record<string, string>> = {
     'zh-tw': 'GLP-1 追蹤器', es: 'RASTREADORES GLP-1', 'pt-br': 'RASTREADORES GLP-1',
     id: 'PELACAK GLP-1', de: 'GLP-1 TRACKER', fr: 'SUIVI GLP-1',
   },
+  appGuides: {
+    en: 'BEST APPS', ko: '앱 추천', ja: 'おすすめアプリ', zh: '应用推荐',
+    'zh-tw': 'App 推薦', es: 'MEJORES APPS', 'pt-br': 'MELHORES APPS',
+    id: 'APLIKASI TERBAIK', de: 'BESTE APPS', fr: 'MEILLEURES APPLIS',
+  },
   alternatives: {
     en: 'COMPARE APPS', ko: '앱 비교', ja: 'アプリ比較', zh: '应用比较',
     'zh-tw': 'App 比較', es: 'COMPARAR APPS', 'pt-br': 'COMPARAR APPS',
@@ -150,6 +156,12 @@ const FOOTER_GROUP_LABELS: Record<string, Record<string, string>> = {
     id: 'SESUAI KONDISI ANDA', de: 'FÜR IHRE SITUATION', fr: 'SELON VOTRE CAS',
   },
 };
+
+/**
+ * 원고 없는 언어에서는 영어로 돌리지 않고 링크 자체를 빼는 그룹.
+ * 앵커도 제목 앞부분이 아니라 앱 추천용 짧은 앵커("칼로리 계산 앱 추천")를 쓴다.
+ */
+const STRICT_NATIVE_GROUPS = new Set(['appGuides']);
 
 /**
  * Trim an article title down to a footer-sized anchor.
@@ -283,6 +295,10 @@ export default function Footer({ lang }: { lang: LangKey }) {
                 if (!article) return null;
                 const r = resolveContent(article, shortLang);
                 if (!r) return null;
+                if (STRICT_NATIVE_GROUPS.has(group.key)) {
+                  if (r.fallback) return null;
+                  return { slug, lang: shortLang, label: appGuideLabel(r.content) };
+                }
                 // 번역이 없으면 이 언어의 URL 은 영어 본문을 폴백으로 띄우면서
                 // noindex + canonical→en 을 단다. 거기로 링크하면 전 페이지의
                 // 푸터가 색인도 안 되는 URL 로 내부 링크를 흘려보낸다.

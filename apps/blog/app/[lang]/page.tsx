@@ -15,6 +15,7 @@ import { articleImage } from '@/lib/article-images';
 import { BRAND_SAME_AS } from '@/lib/team';
 import { SITE } from '@/lib/site';
 import { homeMetaDescription } from '@/lib/meta-descriptions';
+import { APP_ALTERNATIVE_SLUGS, APP_PICK_SLUGS, appGuideLinks } from '@/lib/app-guides';
 
 export const revalidate = 600;
 
@@ -112,6 +113,27 @@ const LABEL_BY_PUBLISHER: Record<RouteLang, string> = {
   es: 'Publicado por Havit Inc.', 'pt-br': 'Publicado por Havit Inc.',
   id: 'Diterbitkan oleh Havit Inc.', de: 'Herausgegeben von Havit Inc.',
   fr: 'Publié par Havit Inc.',
+};
+
+/* 「앱 추천·비교」 고정 섹션 — 앱을 찾는 검색을 받는 글로 가는 상시 링크(lib/app-guides.ts). */
+const LABEL_APP_GUIDES: Record<RouteLang, string> = {
+  ko: '앱 추천·비교', en: 'App picks & comparisons', ja: 'おすすめアプリ・比較',
+  zh: '应用推荐与比较', 'zh-tw': 'App 推薦與比較', es: 'Apps recomendadas y comparativas',
+  'pt-br': 'Apps recomendados e comparações', id: 'Rekomendasi & perbandingan aplikasi',
+  de: 'App-Empfehlungen & Vergleiche', fr: 'Applis recommandées et comparatifs',
+};
+
+const LABEL_APP_PICKS: Record<RouteLang, string> = {
+  ko: '앱 추천', en: 'Best apps', ja: 'おすすめアプリ', zh: '应用推荐', 'zh-tw': 'App 推薦',
+  es: 'Mejores apps', 'pt-br': 'Melhores apps', id: 'Aplikasi terbaik', de: 'Beste Apps',
+  fr: 'Meilleures applis',
+};
+
+const LABEL_APP_ALTERNATIVES: Record<RouteLang, string> = {
+  ko: '앱 대안·비교', en: 'Alternatives & comparisons', ja: '代替アプリ・比較',
+  zh: '替代方案与比较', 'zh-tw': '替代方案與比較', es: 'Alternativas y comparativas',
+  'pt-br': 'Alternativas e comparações', id: 'Alternatif & perbandingan',
+  de: 'Alternativen & Vergleiche', fr: 'Alternatives et comparatifs',
 };
 
 const OG_IMAGE_URL = `${SITE}/og-card.png`;
@@ -278,6 +300,15 @@ export default function BlogIndexPage({ params, searchParams }: Props) {
     for (let p = from; p <= to; p++) pageNumbers.push(p);
   }
 
+  // 검색·필터 중에는 결과 아래 무관한 링크 묶음이 방해만 되므로 히어로처럼 비운다.
+  const appGuideGroups =
+    !query && !category
+      ? [
+          { key: 'picks', title: LABEL_APP_PICKS[shortLang as RouteLang], links: appGuideLinks(APP_PICK_SLUGS, shortLang) },
+          { key: 'alternatives', title: LABEL_APP_ALTERNATIVES[shortLang as RouteLang], links: appGuideLinks(APP_ALTERNATIVE_SLUGS, shortLang) },
+        ].filter((g) => g.links.length > 0)
+      : [];
+
   const heading = query
     ? `"${query}" — ${total} ${LABEL_ITEMS[shortLang as RouteLang]}`
     : category
@@ -430,6 +461,32 @@ export default function BlogIndexPage({ params, searchParams }: Props) {
             </div>
           </div>
         </section>
+
+        {appGuideGroups.length > 0 && (
+          <section className="blog-apps" aria-labelledby="blog-apps-title">
+            <div className="hv-container">
+              <div className="blog-apps__inner">
+                <h2 id="blog-apps-title" className="text-heading-4 blog-apps__title">
+                  {LABEL_APP_GUIDES[shortLang as RouteLang]}
+                </h2>
+                {appGuideGroups.map((g) => (
+                  <div key={g.key} className="blog-apps__group">
+                    <p className="eyebrow">{g.title}</p>
+                    <ul className="blog-apps__links">
+                      {g.links.map((l) => (
+                        <li key={l.slug}>
+                          <Link href={`${basePath}/${l.slug}`} className="blog-categories__item blog-apps__chip">
+                            <span className="text-body-medium">{l.label}</span>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
       </main>
       <Footer lang={lang} />
     </div>
