@@ -266,15 +266,15 @@
             </div>
 
             <h3>2.1 AI Service Providers</h3>
-            <p>We use the following third-party AI services to power features of the App. Depending on the feature, a request may be handled by any one of these providers, so each of them may receive the data described in Section 2.2:</p>
+            <p>We use the following third-party AI services to power features of the App. We use all three providers interchangeably: any AI feature may be handled by any one of them, and which provider handles a request can change over time (for example, for quality, availability, or cost). Each of them may therefore receive the data described in Section 2.2:</p>
             <table>
                 <thead>
                     <tr><th>Provider</th><th>Role</th><th>Purpose</th><th>Data protection</th></tr>
                 </thead>
                 <tbody>
-                    <tr><td>Anthropic, PBC (Claude API) — USA</td><td>Data Processor</td><td>Havi coach conversations, personalized coaching messages and check-in recaps, comments on your logs, food photo and barcode/label analysis</td><td>Anthropic commercial terms and Data Processing Addendum; API data not used for model training</td></tr>
-                    <tr><td>OpenAI, L.L.C. (OpenAI API) — USA</td><td>Data Processor</td><td>Havi coach conversations, personalized coaching messages and check-in recaps, comments on your logs, food photo analysis, and text-to-speech for spoken running-coach cues</td><td>OpenAI API terms and Data Processing Addendum; API data not used for model training</td></tr>
-                    <tr><td>Google LLC (Gemini API) — USA</td><td>Data Processor</td><td>Havi coach conversations, food photo and barcode/label analysis</td><td>Google's paid-service API terms and data processing terms; data not used for model training</td></tr>
+                    <tr><td>Anthropic, PBC (Claude API) — USA</td><td>Data Processor</td><td>Havi coach conversations, personalized coaching messages, check-in recaps, comments on your logs, food photo and barcode/label analysis, AI running coach cues, and text-to-speech</td><td>Anthropic commercial terms and Data Processing Addendum; API data not used for model training</td></tr>
+                    <tr><td>OpenAI, L.L.C. (OpenAI API) — USA</td><td>Data Processor</td><td>Havi coach conversations, personalized coaching messages, check-in recaps, comments on your logs, food photo and barcode/label analysis, AI running coach cues, and text-to-speech</td><td>OpenAI API terms and Data Processing Addendum; API data not used for model training</td></tr>
+                    <tr><td>Google LLC (Gemini API) — USA</td><td>Data Processor</td><td>Havi coach conversations, personalized coaching messages, check-in recaps, comments on your logs, food photo and barcode/label analysis, AI running coach cues, and text-to-speech</td><td>Google's paid-service API terms and data processing terms; data not used for model training</td></tr>
                 </tbody>
             </table>
 
@@ -307,7 +307,7 @@
                 <li>Recent feeling/mood logs (feeling score, stress level)</li>
                 <li>Menstrual cycle data, if you track it (cycle phase, period dates)</li>
                 <li>Recent running records (distance, pace, duration, heart-rate summary). Route coordinates (GPS points) are <strong>not</strong> sent to AI services.</li>
-                <li>During a run with the AI running coach (on iPhone or Apple Watch): your name, distance unit, coach character, each split's pace and heart rate, this week's running progress, and short notes from your past coaching conversations, used to generate a one-sentence spoken cue. The cue text is then converted to speech by OpenAI.</li>
+                <li>During a run with the AI running coach (on iPhone or Apple Watch): your name, distance unit, coach character, each split's pace and heart rate, this week's running progress, and short notes from your past coaching conversations, used to generate a one-sentence spoken cue. The cue text is then converted to speech by one of the AI service providers listed in Section 2.1.</li>
             </ul>
 
             <h4>Category C — Conversation Content (sent during chat interactions):</h4>
@@ -345,7 +345,7 @@
             <h3>2.5 Your Consent and Control</h3>
             <ul>
                 <li><strong>Permission before sharing:</strong> During onboarding, before any AI analysis begins, the App asks for your consent to process your personal and health data and send it to our AI service providers, which it names (OpenAI, Google Gemini, Anthropic Claude), with a link to this Privacy Policy. AI features are used only after you agree.</li>
-                <li><strong>AI running coach:</strong> The spoken AI tips during a run (Section 2.2, Category B) can be turned off at any time under <em>AI coaching</em> in the running coach settings; your run data is then no longer sent to AI services to create tips. If voice announcements stay on, the announcement of your distance, time and pace is still converted to speech by OpenAI; turn voice announcements off to stop this.</li>
+                <li><strong>AI running coach:</strong> The spoken AI tips during a run (Section 2.2, Category B) can be turned off at any time under <em>AI coaching</em> in the running coach settings; your run data is then no longer sent to AI services to create tips. If voice announcements stay on, the announcement of your distance, time and pace is still converted to speech by one of the AI service providers listed in Section 2.1; turn voice announcements off to stop this.</li>
                 <li><strong>Withdraw consent:</strong> You can withdraw your consent for AI data sharing at any time by contacting us at <a href="mailto:privacy@aihavit.com">privacy@aihavit.com</a>. Once you withdraw consent, we stop sending your data to AI service providers, and AI-powered features (Havi coach conversations, AI photo and barcode analysis, and AI-generated coaching messages) become unavailable.</li>
                 <li><strong>Delete conversations:</strong> You can delete all your Havi conversation history at any time by contacting us at <a href="mailto:privacy@aihavit.com">privacy@aihavit.com</a>.</li>
             </ul>
@@ -506,7 +506,7 @@
                     <tr><td>Amazon Web Services (Seoul region, Republic of Korea; some storage in the USA)</td><td>Data Processor</td><td>Cloud infrastructure and data storage, including data synced from Apple HealthKit / Google Health Connect</td><td>All data (encrypted at rest and in transit)</td></tr>
                     <tr><td>Anthropic (USA)</td><td>Data Processor</td><td>AI-powered features (see Section 2.1)</td><td>See Section 2.2 (Categories A–D)</td></tr>
                     <tr><td>OpenAI (USA)</td><td>Data Processor</td><td>AI-powered features (see Section 2.1)</td><td>See Section 2.2 (Categories A–D)</td></tr>
-                    <tr><td>Google (USA)</td><td>Data Processor</td><td>AI-powered features via the Gemini API (see Section 2.1)</td><td>See Section 2.2 (Categories A–D)</td></tr>
+                    <tr><td>Google (USA)</td><td>Data Processor</td><td>AI-powered features (see Section 2.1)</td><td>See Section 2.2 (Categories A–D)</td></tr>
                     <tr><td>Google Firebase (USA)</td><td>Data Processor</td><td>Authentication, push notifications, crash reporting, app integrity checks, app analytics (Google Analytics for Firebase)</td><td>User ID, device identifiers, push token, app usage events, crash logs (no health measurements)</td></tr>
                     <tr><td>Sentry (USA)</td><td>Data Processor</td><td>Server error monitoring</td><td>Error logs, which may include user ID</td></tr>
                     <tr><td>AppsFlyer (Israel/USA), Meta (Facebook SDK, USA)</td><td>Data Processor</td><td>Install attribution and measurement of our advertising campaigns</td><td>Device and advertising identifiers (only with your permission where required, e.g. Apple's App Tracking Transparency), install and purchase events (no health data)</td></tr>
@@ -845,9 +845,9 @@
                 </thead>
                 <tbody>
                     <tr><td>Amazon Web Services</td><td>클라우드 인프라 및 데이터 저장</td><td>aws.amazon.com</td></tr>
-                    <tr><td>Anthropic</td><td>AI 기반 개인화 코칭 메시지 생성 및 영양 분석 (주 엔진)</td><td>anthropic.com</td></tr>
-                    <tr><td>OpenAI</td><td>AI 기반 코칭 메시지 생성 및 자연어 처리 (보조 엔진)</td><td>openai.com</td></tr>
-                    <tr><td>Google</td><td>AI 기반 분석 기능 처리</td><td>google.com</td></tr>
+                    <tr><td>Anthropic</td><td>AI 코칭 대화·메시지 생성, 음식 사진·바코드 분석, 러닝 코치 음성 생성 (세 수탁사가 모든 AI 기능을 나누어 처리)</td><td>anthropic.com</td></tr>
+                    <tr><td>OpenAI</td><td>AI 코칭 대화·메시지 생성, 음식 사진·바코드 분석, 러닝 코치 음성 생성 (세 수탁사가 모든 AI 기능을 나누어 처리)</td><td>openai.com</td></tr>
+                    <tr><td>Google</td><td>AI 코칭 대화·메시지 생성, 음식 사진·바코드 분석, 러닝 코치 음성 생성 (세 수탁사가 모든 AI 기능을 나누어 처리)</td><td>google.com</td></tr>
                 </tbody>
             </table>
 
@@ -891,7 +891,7 @@
                     <tr><td>1.1</td><td>2026.02.01</td><td>Social login data, gamification features</td></tr>
                     <tr><td>2.0</td><td>2026.02.18</td><td>Comprehensive AI data sharing disclosure (Section 2); explicit AI consent mechanism; detailed data collection tables; connected health apps section; enhanced regional supplements</td></tr>
                     <tr><td>2.1</td><td>2026.02.18</td><td>AI-estimated body composition metrics and health scores added to Category A disclosure; Section 3 clarification on AI data sharing; tracking log details enhanced (Category B); email contacts unified; analytics opt-out and regional supplements corrected</td></tr>
-                    <tr><td><strong>2.2</strong></td><td><strong>2026.10.17</strong></td><td><strong>AI providers named per feature (Section 2.1); AI consent described as obtained in onboarding; AI running coach tips can be turned off (Section 2.5, 7.3); full Apple HealthKit / Google Health Connect data list and disclosure that this data is stored on our servers and shared with AI providers for coaching (Section 8.1); menstrual cycle and running/location data added; named analytics, attribution and infrastructure providers (Section 6.1, 12); Sign in with Apple data corrected; AI provider retention statement corrected; AI running coach (iPhone and Apple Watch) disclosed</strong></td></tr>
+                    <tr><td><strong>2.2</strong></td><td><strong>2026.10.17</strong></td><td><strong>AI providers named, any of which may handle any AI feature (Section 2.1); AI consent described as obtained in onboarding; AI running coach tips can be turned off (Section 2.5, 7.3); full Apple HealthKit / Google Health Connect data list and disclosure that this data is stored on our servers and shared with AI providers for coaching (Section 8.1); menstrual cycle and running/location data added; named analytics, attribution and infrastructure providers (Section 6.1, 12); Sign in with Apple data corrected; AI provider retention statement corrected; AI running coach (iPhone and Apple Watch) disclosed</strong></td></tr>
                 </tbody>
             </table>
             <p>Previous versions of this Privacy Policy are available upon request at <a href="mailto:privacy@aihavit.com">privacy@aihavit.com</a>.</p>
