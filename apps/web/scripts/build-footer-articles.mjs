@@ -78,6 +78,37 @@ function shortLabel(title) {
   return `${out.trimEnd()}…`
 }
 
+/**
+ * 앱 추천 그룹(appGuides)의 앵커 — 블로그 apps/blog/lib/app-guides.ts appGuideLabel 의 복제.
+ * short_title(없으면 title)에서 연도를 떼고 첫 구분자 앞만 남긴다 → "칼로리 계산 앱 추천".
+ * 고치면 블로그 쪽도 같이 고칠 것.
+ */
+const APP_GUIDE_GROUPS = new Set(['appGuides'])
+const STRONG_SEPARATORS = /\s*(?:[:：｜|—–?？]|\s-\s)\s*/
+const WEAK_SEPARATORS = /\s*[,，、]\s*/
+function appGuideLabel(content) {
+  const MAX = 56
+  const t = (content.short_title || content.title)
+    .replace(/[（(]\s*2026\s*[)）]/g, '')
+    .replace(/\s*(?:\b(?:in|en|em|di|im)\s+)?2026\s*(?:年版|年)?\s*/gi, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim()
+  const parts = t.split(STRONG_SEPARATORS).map((x) => x.trim()).filter(Boolean)
+  const multiVs = parts.find((x) => (x.match(/\bvs\b/gi) ?? []).length >= 2)
+  let label = multiVs ?? parts[0] ?? t
+  if (width(label) > MAX) {
+    const head = label.split(WEAK_SEPARATORS)[0].trim()
+    if (head && width(head) <= MAX) label = head
+  }
+  if (width(label) <= MAX) return label
+  let out = ''
+  for (const ch of label) {
+    if (width(out + ch) > MAX - 1) break
+    out += ch
+  }
+  return `${out.trimEnd()}…`
+}
+
 let missing = 0
 const out = groups.map((g) => ({
   key: g.key,
@@ -96,8 +127,14 @@ const out = groups.map((g) => ({
       const a = JSON.parse(readFileSync(p, 'utf-8'))
       const labels = {}
       for (const lang of BLOG_LANGS) {
-        const t = a.langs?.[LANG_TO_DATA[lang]]?.title
-        if (t) labels[lang] = shortLabel(t)
+        const c = a.langs?.[LANG_TO_DATA[lang]]
+        // 앱 추천 그룹은 블로그 resolveContent 와 같은 기준(title·body_md 둘 다)으로 원고 여부를 본다.
+        if (!c?.title) continue
+        if (APP_GUIDE_GROUPS.has(g.key)) {
+          if (c.body_md) labels[lang] = appGuideLabel(c)
+        } else {
+          labels[lang] = shortLabel(c.title)
+        }
       }
       return { slug, labels }
     })

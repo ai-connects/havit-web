@@ -947,6 +947,48 @@
   }
 
   /* ---------------------------------------------------------------- */
+  /* Blog home — 「앱 추천·비교」 고정 링크 (lib/app-guides.ts)         */
+  /* ---------------------------------------------------------------- */
+  /* 칩은 카테고리 레일의 .blog-categories__item 을 그대로 쓴다(색·라운드·호버
+     동일). 아이콘이 없으므로 좌우 패딩만 대칭으로 맞춘다. */
+  .blog-apps {
+    padding: 0 0 96px;
+  }
+  .blog-apps__inner {
+    border-top: 1px solid var(--hv-border);
+    padding-top: 48px;
+  }
+  .blog-apps__title {
+    margin-bottom: 24px;
+  }
+  .blog-apps__group + .blog-apps__group {
+    margin-top: 28px;
+  }
+  .blog-apps__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .blog-apps__links > li {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .blog-apps__chip {
+    padding: 8px 14px;
+  }
+  @media (max-width: 960px) {
+    .blog-apps {
+      padding-bottom: 64px;
+    }
+    .blog-apps__inner {
+      padding-top: 40px;
+    }
+  }
+
+  /* ---------------------------------------------------------------- */
   /* Responsive — mirrors the marketing site's 960px breakpoint         */
   /* ---------------------------------------------------------------- */
   @media (max-width: 960px) {

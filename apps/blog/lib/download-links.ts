@@ -12,7 +12,36 @@ import { useEffect, useState } from 'react';
  * 설치를 구분할 수 없다. 스토어 배지는 PC 에선 각 스토어 직링크다.
  */
 export const APP_URL = 'https://app.aihavit.com/';
-export const APP_STORE_URL = 'https://apps.apple.com/us/app/havit-glp-1-weight-loss-coach/id6755166023';
+export const APP_STORE_ID = 'id6755166023';
+
+/**
+ * 블로그 언어 → App Store 국가(스토어프런트). 예전엔 전 언어가 `/us/` 였다 — 일본어 독자가
+ * 미국 스토어의 영문 앱 이름으로 가서 "내 나라 앱이 아니다" 로 읽혔다.
+ *
+ * 전부 iTunes lookup(`?id=6755166023&country=XX`)으로 앱이 있는 것을 확인했다(2026-10-16,
+ * resultCount=1: us·kr·jp·tw·cn·es·mx·br·id·de·fr). 여기 없는 언어는 us.
+ * es 는 스페인(es): GSC 3개월 국가별 클릭이 스페인 387 > 멕시코 126(중남미 5개국 합 278)으로
+ * 단일 국가 최대다. iOS 에선 App Store 앱이 사용자 계정의 스토어로 열기 때문에 국가 코드는
+ * 주로 PC 브라우저의 스토어 웹 페이지(앱 이름·설명 언어)를 정한다.
+ *
+ * 경로에 앱 이름 slug 를 넣지 않는다 — 스토어마다 이름이 다르고(하비트 - AI 다이어트 코치 …)
+ * 이름이 바뀌면 낡는다. `/{cc}/app/id…` 는 Apple 이 현재 이름 slug 로 301 해 준다.
+ */
+const APP_STORE_COUNTRY: Record<string, string> = {
+  ko_kr: 'kr',
+  ja_jp: 'jp',
+  zh_tw: 'tw',
+  zh_cn: 'cn',
+  es_es: 'es',
+  pt_pt: 'br', // 블로그 pt 원고는 브라질 포르투갈어(pt-BR) — lib/i18n.ts toBcp47 참조
+  id_id: 'id',
+  de_de: 'de',
+  fr_fr: 'fr',
+};
+
+export function appStoreUrlFor(lang: string): string {
+  return `https://apps.apple.com/${APP_STORE_COUNTRY[lang] ?? 'us'}/app/${APP_STORE_ID}`;
+}
 export const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.aiconnects.havitWellness';
 
 export type MobileOS = 'ios' | 'android';

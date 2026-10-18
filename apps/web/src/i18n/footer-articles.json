@@ -563,6 +563,71 @@
       ]
     },
     {
+      "key": "appGuides",
+      "links": [
+        {
+          "slug": "best-calorie-counter-apps",
+          "labels": {
+            "en": "Best Calorie Counter Apps",
+            "ko": "칼로리 계산 앱 추천",
+            "ja": "カロリー計算アプリおすすめ",
+            "zh": "热量计算App推荐",
+            "zh-tw": "熱量計算 App 推薦",
+            "es": "Mejores apps de calorías",
+            "pt-br": "Melhores apps de calorias",
+            "id": "Aplikasi Penghitung Kalori Terbaik",
+            "de": "Beste Kalorienzähler-Apps",
+            "fr": "Meilleurs compteurs de calories"
+          }
+        },
+        {
+          "slug": "best-diet-apps",
+          "labels": {
+            "en": "Best Diet Apps",
+            "ko": "다이어트 앱 추천",
+            "ja": "ダイエットアプリおすすめ",
+            "zh": "减肥App推荐",
+            "zh-tw": "減重 App 推薦",
+            "es": "Mejores apps para adelgazar",
+            "pt-br": "Melhores apps para emagrecer",
+            "id": "Aplikasi Diet Terbaik",
+            "de": "Beste Abnehm-Apps",
+            "fr": "Meilleures applis minceur"
+          }
+        },
+        {
+          "slug": "best-glp-1-tracker-apps",
+          "labels": {
+            "en": "Best GLP-1 Tracker Apps",
+            "ko": "GLP-1 트래커 앱 추천",
+            "ja": "最適なGLP-1トラッカーアプリ",
+            "zh": "最佳GLP-1追踪应用",
+            "zh-tw": "最佳 GLP-1 追蹤 App",
+            "es": "Las Mejores Apps de Seguimiento de GLP-1",
+            "pt-br": "Melhores Apps para Rastrear GLP-1",
+            "id": "Aplikasi Pelacak GLP-1 Terbaik",
+            "de": "Die besten GLP-1-Tracker-Apps",
+            "fr": "Meilleures applications de suivi GLP-1"
+          }
+        },
+        {
+          "slug": "best-ai-health-coach-apps",
+          "labels": {
+            "en": "Best AI Health Coach Apps",
+            "ko": "AI 코치 앱 추천",
+            "ja": "AIコーチアプリおすすめ",
+            "zh": "AI健康教练App推荐",
+            "zh-tw": "AI 健康教練 App 推薦",
+            "es": "Mejores apps con coach de IA",
+            "pt-br": "Melhores apps com coach de IA",
+            "id": "Aplikasi Coach AI Terbaik",
+            "de": "Beste KI-Coach-Apps",
+            "fr": "Meilleurs coachs IA santé"
+          }
+        }
+      ]
+    },
+    {
       "key": "alternatives",
       "links": [
         {
@@ -578,7 +643,7 @@
           "slug": "noom-glp-1-alternative",
           "labels": {
             "en": "Noom GLP-1 Alternative",
-            "ko": "눔(Noom) 대안 GLP-1｜2026 솔직 비교｜Havit vs…",
+            "ko": "눔(Noom) 대안 GLP-1｜2026 솔직 비교｜HAVIT vs…",
             "ja": "Noom（ヌーム）代替｜GLP-1向け 2026 正直比較｜…",
             "zh-tw": "Noom 替代方案｜GLP-1 專用 2026 誠實比較｜Havi…"
           }
