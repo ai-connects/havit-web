@@ -64,6 +64,17 @@ export default function SleepCyclePage({ params }: Props) {
           <h2 className="text-2xl font-bold mb-3">{L.aboutHeader}</h2>
           <p className="text-gray-700 leading-relaxed">{L.aboutBody}</p>
         </section>
+        {L.faq && L.faq.length > 0 && (
+          <section className="mt-10">
+            <h2 className="text-2xl font-bold mb-3">{L.faqHeader}</h2>
+            {L.faq.map((f) => (
+              <div key={f.q} className="mb-4">
+                <h3 className="text-lg font-semibold mb-1">{f.q}</h3>
+                <p className="text-gray-700 leading-relaxed">{f.a}</p>
+              </div>
+            ))}
+          </section>
+        )}
       </main>
       <Footer lang={fullLang} />
     </div>
