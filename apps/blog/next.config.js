@@ -33,6 +33,17 @@ const nextConfig = {
       { source: '/', destination: '/ko', permanent: true },
     ];
 
+    // 병합된 slug 는 최종 주소로 바로 보낸다 — 아래 일반 규칙(→ www) 뒤에
+    // 병합 규칙(→ 정본 slug)이 한 번 더 붙어 2홉이 되던 것을 1홉으로 줄인다.
+    // 일반 규칙보다 먼저 와야 하고, `/blog` 로 시작하는 경로는 매칭되지 않는다
+    // (`:lang` 은 단일 세그먼트이며 `/blog/<lang>/<slug>` 는 세그먼트가 3개).
+    const legacyMerged = mergedRedirects.map((r) => ({
+      source: `/:lang((?!blog$)[^/]+)/${r.from}`,
+      destination: `${SITE}/:lang/${r.to}`,
+      permanent: true,
+      basePath: false,
+    }));
+
     const legacyHost = [
       {
         source: '/',
@@ -48,7 +59,7 @@ const nextConfig = {
       },
     ];
 
-    return [...root, ...merged, ...legacyHost];
+    return [...root, ...merged, ...legacyMerged, ...legacyHost];
   },
   images: {
     remotePatterns: [

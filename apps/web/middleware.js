@@ -1,5 +1,7 @@
 import { next } from '@vercel/functions'
 import { AFFILIATE_LOCALES, DEFAULT_LOCALE, LOCALES } from './plugins/locales.js'
+// 블로그의 병합 리다이렉트 표(slug → 정본 slug). 데이터를 복제하지 않고 그대로 읽는다.
+import mergedRedirects from '../blog/lib/merged-redirects.json' with { type: 'json' }
 
 /**
  * Send first-time visitors on `/` to the edition their device asks for.
@@ -181,6 +183,13 @@ const BLOG_NESTED = new Set(['tools', 'category'])
 /** 홈에 같은 이름의 로케일이 없는 블로그 언어 — 이 셋은 `/en` 자체도 블로그 홈. */
 const BLOG_ONLY_LANGS = new Set(['en', 'zh', 'pt-br'])
 
+/**
+ * 블로그가 병합한 slug 는 블로그에서 한 번 더 301 을 탄다(`/:lang/<from>` →
+ * `/:lang/<to>`). `/blog` 빠진 URL 을 옮기면서 그 표를 같이 보면 2홉이 1홉이 된다.
+ * 표는 모든 언어에 같은 slug 로 적용된다(blog next.config.js 의 `:lang`).
+ */
+const MERGED_SLUG = new Map(mergedRedirects.map((r) => [r.from, r.to]))
+
 export function blogStrayTarget(pathname) {
   const m = /^\/([a-z]{2}(?:-[a-z]{2})?)(?:\/(.*))?$/.exec(pathname)
   if (!m || !BLOG_LOCALES.has(m[1])) return null
@@ -189,7 +198,10 @@ export function blogStrayTarget(pathname) {
 
   if (parts.length === 0) return BLOG_ONLY_LANGS.has(lang) ? `/blog/${lang}` : null
   if (HOME_UNDER_LOCALE.has(parts[0])) return null
-  if (parts.length === 1 || (parts.length === 2 && BLOG_NESTED.has(parts[0]))) {
+  if (parts.length === 1) {
+    return `/blog/${lang}/${MERGED_SLUG.get(parts[0]) ?? parts[0]}`
+  }
+  if (parts.length === 2 && BLOG_NESTED.has(parts[0])) {
     return `/blog/${lang}/${parts.join('/')}`
   }
   return null

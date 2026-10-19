@@ -64,6 +64,8 @@ const blogCases = [
   ['/en', '/blog/en'],
   ['/zh/', '/blog/zh'],
   ['/pt-br', '/blog/pt-br'],
+  ['/ko/best-diet-apps-2026', '/blog/ko/best-diet-apps'],
+  ['/en/best-body-composition-apps-2026?a=1', '/blog/en/best-body-composition-apps?a=1'],
   ['/en/best-diet-apps?utm_source=x&a=1', '/blog/en/best-diet-apps?utm_source=x&a=1'],
 ]
 for (const [from, to] of blogCases) {
