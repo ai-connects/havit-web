@@ -9,7 +9,9 @@
  * 빌드 전에 돈다(dist 없이). 홈 경로 집합은 i18n-html 이 찍는 그대로다:
  * `/{l}/`, `/{l}/index.html`, 제휴 번역이 있는 로케일의 `/{l}/affiliate/`.
  */
-import middleware, { blogStrayTarget } from '../middleware.js'
+import { loadMiddleware } from './load-middleware.mjs'
+
+const { default: middleware, blogStrayTarget } = await loadMiddleware()
 import { AFFILIATE_LOCALES, LOCALES } from '../plugins/locales.js'
 
 const ORIGIN = 'https://www.aihavit.com'
@@ -64,6 +66,8 @@ const blogCases = [
   ['/en', '/blog/en'],
   ['/zh/', '/blog/zh'],
   ['/pt-br', '/blog/pt-br'],
+  ['/ko/best-diet-apps-2026', '/blog/ko/best-diet-apps'],
+  ['/en/best-body-composition-apps-2026?a=1', '/blog/en/best-body-composition-apps?a=1'],
   ['/en/best-diet-apps?utm_source=x&a=1', '/blog/en/best-diet-apps?utm_source=x&a=1'],
 ]
 for (const [from, to] of blogCases) {

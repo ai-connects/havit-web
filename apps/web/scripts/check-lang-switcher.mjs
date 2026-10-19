@@ -21,7 +21,9 @@
  */
 import { I18N_PAGES, langHref, localesFor } from '../plugins/i18n-html.js'
 import { DEFAULT_LOCALE } from '../plugins/locales.js'
-import { config } from '../middleware.js'
+import { loadMiddleware } from './load-middleware.mjs'
+
+const { config } = await loadMiddleware()
 
 /**
  * Vercel matcher 한 줄을 정규식으로. `/:name` 은 슬래시 없는 한 세그먼트다.
