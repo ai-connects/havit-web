@@ -1,7 +1,8 @@
 import { next } from '@vercel/functions'
 import { AFFILIATE_LOCALES, DEFAULT_LOCALE, LOCALES } from './plugins/locales.js'
 // 블로그의 병합 리다이렉트 표(slug → 정본 slug). 데이터를 복제하지 않고 그대로 읽는다.
-import mergedRedirects from '../blog/lib/merged-redirects.json' with { type: 'json' }
+// import 속성(`with { type: 'json' }`)은 Vercel 미들웨어 번들러가 못 읽어 빌드가 깨진다 — 쓰지 말 것.
+import mergedRedirects from '../blog/lib/merged-redirects.json'
 
 /**
  * Send first-time visitors on `/` to the edition their device asks for.
