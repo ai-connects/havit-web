@@ -1393,6 +1393,18 @@
         {
           "question": "Dois-je également m'inquiéter de la variabilité de la fréquence cardiaque pendant le sommeil ?",
           "answer": "La variabilité de la fréquence cardiaque (VFC) pendant le sommeil fournit des informations complémentaires. Une VFC plus élevée pendant le sommeil indique généralement un bon tonus parasympathique et une bonne récupération. Une VFC nocturne faible combinée à une baisse réduite renforce le signal que la récupération autonome peut être compromise. De nombreux appareils portables suivent maintenant les deux métriques."
+        },
+        {
+          "question": "Quelle est la fréquence cardiaque normale la nuit (bpm pendant le sommeil) ?",
+          "answer": "Il n'existe pas de chiffre unique valable pour tout le monde. Le repère utilisé ici est relatif : la fréquence cardiaque baisse de 10 à 20 % pendant le sommeil par rapport à votre fréquence de repos en journée. Avec 70 bpm au repos le jour, on peut descendre à environ 56-63 bpm la nuit. Comparez donc vos bpm nocturnes à vos propres valeurs diurnes, sur plusieurs semaines, et parlez-en à votre médecin si le résultat vous inquiète."
+        },
+        {
+          "question": "Pourquoi la fréquence cardiaque baisse-t-elle la nuit ?",
+          "answer": "Pendant un sommeil sain, le système nerveux autonome change de vitesse : la branche sympathique (combat ou fuite) se calme et la branche parasympathique (repos et digestion) prend le relais. La tension artérielle et la fréquence cardiaque diminuent, avec un creux marqué vers 3h du matin, puis la fréquence remonte progressivement avant le réveil."
+        },
+        {
+          "question": "Que faire si ma fréquence cardiaque ne baisse pas la nuit, ou si mes bpm nocturnes semblent trop bas ?",
+          "answer": "Une seule nuit ne dit presque rien : alcool, repas tardif, stress ou sport tardif peuvent aplatir la courbe. Observez 14 à 21 nuits. Si la baisse reste inférieure à 10 % sur plusieurs semaines (absence de baisse), si elle change brutalement, ou si vous êtes souvent au-delà de 25 % de baisse avec des étourdissements ou une fatigue inhabituelle, parlez-en à un professionnel de santé. Si vous ronflez fort ou vous réveillez avec des maux de tête, le dépistage de l'apnée du sommeil mérite aussi d'être évoqué. Les chiffres d'un objet connecté ne constituent pas un diagnostic."
         }
       ],
       "references": [

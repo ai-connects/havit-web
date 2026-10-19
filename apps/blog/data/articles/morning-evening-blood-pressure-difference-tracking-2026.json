@@ -1451,6 +1451,18 @@
         {
           "question": "La caféine affecte-t-elle les lectures de tension artérielle matinales ?",
           "answer": "La caféine peut augmenter la tension artérielle de 5-10 mmHg chez certains individus, surtout ceux qui n'en consomment pas régulièrement. Pour une mesure précise de la hausse matinale, prenez votre lecture avant votre premier café. Cela capture votre véritable schéma physiologique plutôt qu'un pic influencé par la caféine."
+        },
+        {
+          "question": "La tension artérielle est-elle plus élevée le matin ou le soir ?",
+          "answer": "Chez la plupart des adultes en bonne santé, la tension systolique est plus élevée le matin que le soir, d'environ 10 à 15 mmHg (5 à 10 mmHg pour la diastolique). Elle atteint un pic entre 6h et midi, puis diminue progressivement en soirée. Votre propre écart compte davantage qu'une valeur isolée : suivez vos mesures du matin et du soir sur deux semaines et parlez-en à votre médecin si l'écart est important ou irrégulier."
+        },
+        {
+          "question": "Pourquoi ma tension est-elle plus élevée le soir que le matin ?",
+          "answer": "Ce schéma est moins courant que la hausse matinale et mérite d'être observé sur la durée plutôt que sur une seule journée. Parmi les facteurs évoqués dans ce guide : l'alcool du soir, un dîner riche en sel, un sommeil de mauvaise qualité ou fragmenté, ainsi que le stress. Notez vos mesures matin et soir pendant deux semaines, puis présentez-les à votre médecin, qui pourra adapter la prise en charge à votre profil, notamment si votre tension est surtout élevée en fin de journée."
+        },
+        {
+          "question": "Qu'appelle-t-on l'hypertension matinale ?",
+          "answer": "Une hausse de tension au réveil est normale. On parle de hausse matinale exagérée lorsque la pression grimpe nettement plus que d'habitude pendant les premières heures après le réveil, période où le système cardiovasculaire est déjà sollicité. Les seuils varient selon les études, et le repère de 20 mmHg de ce guide est un repère pratique de suivi, pas un diagnostic. Si vos mesures du matin dépassent régulièrement 140/90, ou si l'écart avec le soir reste élevé sur deux semaines, consultez un professionnel de santé."
         }
       ],
       "references": [
