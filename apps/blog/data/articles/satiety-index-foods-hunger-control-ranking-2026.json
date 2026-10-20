@@ -149,6 +149,14 @@
         {
           "question": "How long do high-satiety foods keep you full?",
           "answer": "The original studies measured fullness over two hours, finding significant differences persisting throughout. Practical experience suggests high-satiety meals can maintain satisfaction for 4-6 hours, while low-satiety meals may leave you hungry within 1-2 hours."
+        },
+        {
+          "question": "Which foods have the lowest satiety index?",
+          "answer": "Croissants scored lowest at 47, followed by donuts (68), candy bars (70), peanuts (84), chips (91), and ice cream (96)—all below white bread's reference score of 100. In the original analysis, more fat and higher palatability went with lower scores, while heavier servings with more protein, fiber, and water scored higher. A low score doesn't make a food off-limits; it just means 240 calories of it won't keep you full for long."
+        },
+        {
+          "question": "How is a satiety index score calculated?",
+          "answer": "Each score is the area under a food's two-hour fullness curve divided by white bread's, times 100. Participants ate 240-calorie portions and rated their fullness every 15 minutes, so a food scoring 200 produced roughly twice the fullness of white bread, calorie for calorie. Because the index is per calorie rather than per serving, much of the gap between foods comes from portion size and weight."
         }
       ],
       "references": [
