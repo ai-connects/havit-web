@@ -65,6 +65,19 @@ function blogLangOf(locale) {
  * `/blog/` 는 308(슬래시) → `/blog` 302(Accept-Language) → `/blog/<lang>` 3홉이고,
  * 크롤러는 Accept-Language 를 안 보내서 /ko/ 홈에서 따라가도 영어 블로그로 간다.
  */
+/**
+ * 본문 아티클 카드(`/blog/en/<slug>`)를 로케일 블로그로 보낸다. 푸터와 같은 규칙 —
+ * 그 언어 원고가 있을 때만 바꾸고, 없으면 영어 그대로 둔다. 푸터를 끼워 넣기 전에
+ * 돌려야 푸터의 의도된 영어 폴백 링크를 건드리지 않는다.
+ */
+function localizeArticleCards(html, locale) {
+  const blogLang = blogLangOf(locale)
+  if (blogLang === DEFAULT_LOCALE) return html
+  return html.replace(/href="\/blog\/en\/([^"/#?]+)"/g, (m, slug) =>
+    FOOTER_ARTICLES.cards?.[slug]?.includes(blogLang) ? `href="${BLOG}/${blogLang}/${slug}"` : m,
+  )
+}
+
 function localizeBlogLinks(html, locale) {
   return html.replace(/href="\/blog\/"/g, `href="${BLOG}/${blogLangOf(locale)}"`)
 }
@@ -355,7 +368,7 @@ export function renderLocale(baseHtml, locale, page = HOME_PAGE) {
     ? { html: baseHtml, missing: 0 }
     : translateBody(baseHtml, dict)
   const withHead = renderLangMenu(translateHead(html, locale, dict, baseHtml, page), locale, page)
-  return { html: localizeBlogLinks(injectFooterArticles(withHead, locale), locale), missing }
+  return { html: localizeBlogLinks(injectFooterArticles(localizeArticleCards(withHead, locale), locale), locale), missing }
 }
 
 export default function i18nHtml() {

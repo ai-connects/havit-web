@@ -141,8 +141,27 @@ const out = groups.map((g) => ({
     .filter(Boolean),
 }))
 
+// index.html 본문의 아티클 카드는 `/blog/en/<slug>` 로 박혀 있다. 로케일 홈에서
+// 제 언어로 보내려면 그 언어 원고가 있는지 알아야 해서(없으면 noindex 폴백 페이지로
+// 링크 권위가 샌다) 카드 slug 마다 원고가 있는 블로그 언어를 같이 굽는다.
+const cards = {}
+const indexHtml = readFileSync(resolve(HERE, '../index.html'), 'utf-8')
+for (const [, slug] of indexHtml.matchAll(/href="\/blog\/en\/([^"/#?]+)"/g)) {
+  const p = resolve(BLOG, 'data/articles', `${slug}.json`)
+  if (!existsSync(p)) {
+    missing++
+    console.warn(`  ! missing card article: ${slug}`)
+    continue
+  }
+  const a = JSON.parse(readFileSync(p, 'utf-8'))
+  cards[slug] = BLOG_LANGS.filter((lang) => {
+    const c = a.langs?.[LANG_TO_DATA[lang]]
+    return c?.title && c?.body_md
+  })
+}
+
 const dest = resolve(HERE, '../src/i18n/footer-articles.json')
-writeFileSync(dest, `${JSON.stringify({ blogLangs: BLOG_LANGS, groups: out }, null, 2)}\n`)
+writeFileSync(dest, `${JSON.stringify({ blogLangs: BLOG_LANGS, groups: out, cards }, null, 2)}\n`)
 console.log(
   `wrote ${dest.split('/').slice(-3).join('/')} — ${out.length} groups, ` +
     `${out.reduce((n, g) => n + g.links.length, 0)} links, ${missing} missing`,

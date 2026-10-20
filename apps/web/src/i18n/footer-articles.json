@@ -50,14 +50,14 @@
           "labels": {
             "en": "Mounjaro Dose Increase Schedule",
             "ko": "마운자로 용량 증가 시 부작용 최소화하는 스케줄",
-            "ja": "マンジャロ増量スケジュール",
-            "zh": "替尔泊肽(穆峰达)剂量递增方案",
-            "zh-tw": "Mounjaro 劑量調整時程",
-            "es": "Calendario de Aumento de Dosis de Mounjaro",
-            "pt-br": "Cronograma de Aumento de Dose do Mounjaro",
-            "id": "Jadwal Peningkatan Dosis Mounjaro",
-            "de": "Mounjaro Dosissteigerung",
-            "fr": "Calendrier d'augmentation des doses de Mounja…"
+            "ja": "マンジャロの増量スケジュール",
+            "zh": "Mounjaro加量时间表",
+            "zh-tw": "Mounjaro 加量時程",
+            "es": "Calendario de aumento de dosis de Mounjaro",
+            "pt-br": "Cronograma de aumento de dose do Mounjaro",
+            "id": "Jadwal Kenaikan Dosis Mounjaro",
+            "de": "Mounjaro-Dosissteigerung",
+            "fr": "Calendrier d'augmentation de dose de Mounjaro"
           }
         },
         {
@@ -81,11 +81,12 @@
             "en": "How to Get Insurance to Cover Wegovy",
             "ko": "위고비 보험 적용 사전승인 획득 방법",
             "ja": "ウゴービの保険適用を勝ち取る方法",
-            "zh": "2026年Wegovy司美格鲁肽医保报销攻略",
+            "zh": "2026年Wegovy司美格鲁肽保险报销攻略",
             "zh-tw": "Wegovy 保險給付攻略",
             "es": "Cómo conseguir que tu seguro cubra Wegovy",
             "pt-br": "Como Conseguir que o Plano de Saúde Cubra Weg…",
             "id": "Cara Mendapatkan Asuransi untuk Menanggung We…",
+            "de": "Wie Sie Ihre Krankenkasse dazu bringen",
             "fr": "Comment obtenir le remboursement de Wegovy pa…"
           }
         },
@@ -115,7 +116,13 @@
             "en": "Ozempic Side Effects",
             "ko": "오젬픽 부작용 총정리",
             "ja": "オゼンピックの副作用｜吐き気・期間・重大な注…",
-            "zh-tw": "胰妥讚副作用全解析"
+            "zh": "Ozempic（诺和泰）副作用",
+            "zh-tw": "胰妥讚副作用全解析",
+            "es": "Efectos secundarios de Ozempic",
+            "pt-br": "Efeitos colaterais do Ozempic",
+            "id": "Efek Samping Ozempic",
+            "de": "Ozempic-Nebenwirkungen",
+            "fr": "Effets secondaires d'Ozempic"
           }
         },
         {
@@ -124,7 +131,13 @@
             "en": "Wegovy Side Effects",
             "ko": "위고비 부작용 총정리",
             "ja": "ウゴービの副作用｜吐き気・脱毛・続く期間（202…",
-            "zh-tw": "週纖達副作用全解析"
+            "zh": "Wegovy（诺和盈）副作用",
+            "zh-tw": "週纖達副作用全解析",
+            "es": "Efectos secundarios de Wegovy",
+            "pt-br": "Efeitos colaterais do Wegovy",
+            "id": "Efek Samping Wegovy",
+            "de": "Wegovy Nebenwirkungen",
+            "fr": "Effets secondaires de Wegovy"
           }
         },
         {
@@ -133,7 +146,13 @@
             "en": "Mounjaro Side Effects",
             "ko": "마운자로 부작용",
             "ja": "マンジャロの副作用｜吐き気・硫黄げっぷ・期間…",
-            "zh-tw": "猛健樂副作用全解析"
+            "zh": "Mounjaro（穆峰达）副作用",
+            "zh-tw": "猛健樂副作用全解析",
+            "es": "Efectos secundarios de Mounjaro",
+            "pt-br": "Efeitos colaterais do Mounjaro",
+            "id": "Efek Samping Mounjaro",
+            "de": "Mounjaro Nebenwirkungen",
+            "fr": "Effets secondaires de Mounjaro"
           }
         },
         {
@@ -142,7 +161,8 @@
             "en": "Zepbound Side Effects",
             "ko": "젭바운드 부작용",
             "ja": "ゼップバウンドの副作用｜吐き気・脱毛・期間（2…",
-            "zh-tw": "Zepbound（猛健樂）副作用"
+            "zh-tw": "Zepbound（猛健樂）副作用",
+            "de": "Zepbound-Nebenwirkungen"
           }
         },
         {
@@ -151,7 +171,13 @@
             "en": "Semaglutide Side Effects",
             "ko": "세마글루타이드 부작용",
             "ja": "セマグルチドの副作用｜オゼンピック・ウゴービ…",
-            "zh-tw": "司美格魯肽副作用"
+            "zh": "司美格鲁肽副作用",
+            "zh-tw": "司美格魯肽副作用",
+            "es": "Efectos secundarios de la semaglutida",
+            "pt-br": "Efeitos colaterais da semaglutida",
+            "id": "Efek Samping Semaglutide",
+            "de": "Semaglutid-Nebenwirkungen",
+            "fr": "Effets secondaires du sémaglutide"
           }
         },
         {
@@ -165,6 +191,7 @@
             "es": "Cómo reducir las náuseas de Ozempic sin dejar…",
             "pt-br": "Como Reduzir Náusea do Ozempic Sem Parar",
             "id": "Cara Mengurangi Mual Ozempic Tanpa Menghentik…",
+            "de": "Wie man Ozempic-Übelkeit reduziert",
             "fr": "Comment réduire les nausées sous Ozempic sans…"
           }
         }
@@ -179,7 +206,13 @@
             "en": "Semaglutide vs Tirzepatide",
             "ko": "세마글루타이드 vs 티르제파타이드 (위고비·마운…",
             "ja": "セマグルチド vs チルゼパチド（オゼンピック・…",
-            "zh-tw": "semaglutide vs 替爾泊肽（週纖達・猛健樂）怎麼…"
+            "zh": "司美格鲁肽（诺和盈/诺和泰）与替尔泊肽（穆峰达…",
+            "zh-tw": "semaglutide vs 替爾泊肽（週纖達・猛健樂）怎麼…",
+            "es": "Semaglutida vs tirzepatida",
+            "pt-br": "Semaglutida vs tirzepatida",
+            "id": "Semaglutide vs Tirzepatide",
+            "de": "Semaglutid vs. Tirzepatid",
+            "fr": "Sémaglutide ou tirzépatide"
           }
         },
         {
@@ -188,22 +221,28 @@
             "en": "Tirzepatide Side Effects",
             "ko": "티르제파타이드 부작용",
             "ja": "チルゼパチドの副作用｜マンジャロ・ゼップバウ…",
-            "zh-tw": "替爾泊肽副作用全解析"
+            "zh": "替尔泊肽副作用",
+            "zh-tw": "替爾泊肽副作用全解析",
+            "es": "Efectos secundarios de la tirzepatida",
+            "pt-br": "Efeitos colaterais da tirzepatida (Mounjaro)",
+            "id": "Efek Samping Tirzepatide",
+            "de": "Tirzepatid-Nebenwirkungen",
+            "fr": "Effets secondaires du tirzépatide"
           }
         },
         {
           "slug": "tirzepatide-vs-semaglutide-gi-side-effects-duration-comparison-2026",
           "labels": {
-            "en": "Mounjaro vs Wegovy Nausea Duration",
-            "ko": "마운자로 vs 위고비 메스꺼움 지속 기간 비교",
-            "ja": "マンジャロ vs ウゴービ 吐き気の持続期間を徹底…",
-            "zh": "替尔泊肽 vs 司美格鲁肽恶心持续时间",
-            "zh-tw": "Mounjaro vs Wegovy 噁心持續時間比較",
-            "es": "Mounjaro vs Wegovy",
-            "pt-br": "Mounjaro vs Wegovy",
-            "id": "Mounjaro vs Wegovy Durasi Mual",
-            "de": "Mounjaro vs Wegovy Übelkeit Dauer",
-            "fr": "Mounjaro vs Wegovy"
+            "en": "Mounjaro vs Wegovy Nausea",
+            "ko": "마운자로 vs 위고비 메스꺼움 비교",
+            "ja": "マンジャロ vs ウゴービの吐き気",
+            "zh": "穆峰达 vs 诺和盈恶心对比",
+            "zh-tw": "猛健樂 vs 週纖達噁心比較",
+            "es": "Náuseas con Mounjaro vs Wegovy",
+            "pt-br": "Náusea com Mounjaro vs Wegovy",
+            "id": "Mual Mounjaro vs Wegovy",
+            "de": "Übelkeit unter Mounjaro vs. Wegovy",
+            "fr": "Nausées sous Mounjaro vs Wegovy"
           }
         },
         {
@@ -217,6 +256,7 @@
             "es": "Semaglutida Compuesta vs Wegovy Original",
             "pt-br": "Semaglutida Manipulada vs Wegovy Original",
             "id": "Semaglutide Kompon vs Wegovy Bermerek",
+            "de": "Compounded Semaglutid vs. Marken-Wegovy",
             "fr": "Sémaglutide composé vs Wegovy de marque"
           }
         },
@@ -224,7 +264,7 @@
           "slug": "glp1-switching-brands-equivalence-guide-2026",
           "labels": {
             "en": "Switching from Ozempic to Wegovy",
-            "ko": "오젬픽에서 위고비로 전환할 때 용량 계산법과…",
+            "ko": "오젬픽 위고비 차이와 전환 가이드",
             "ja": "オゼンピックからウゴービへの切り替え完全ガイド",
             "zh": "司美格鲁肽换药全攻略",
             "zh-tw": "Ozempic 轉換 Wegovy 完整指南",
@@ -281,6 +321,7 @@
             "es": "Medicamentos GLP-1 y antidepresivos",
             "pt-br": "Medicamentos GLP-1 e Antidepressivos",
             "id": "Obat GLP-1 dan Antidepresan",
+            "de": "GLP-1-Medikamente und Antidepressiva",
             "fr": "Médicaments GLP-1 et antidépresseurs"
           }
         },
@@ -355,7 +396,13 @@
             "en": "The GLP-1 Habit Report 2026",
             "ko": "GLP-1(위고비·마운자로) 습관 리포트 2026｜사용…",
             "ja": "GLP-1(オゼンピック・マンジャロ)習慣レポート20…",
-            "zh-tw": "GLP-1 習慣報告2026｜1,090 位使用者數據揭示的…"
+            "zh": "2026年GLP-1习惯报告",
+            "zh-tw": "GLP-1 習慣報告2026｜1,090 位使用者數據揭示的…",
+            "es": "El informe de hábitos con GLP-1 2026",
+            "pt-br": "Relatório de Hábitos com GLP-1 2026",
+            "id": "Laporan Kebiasaan GLP-1 2026",
+            "de": "Der GLP-1-Gewohnheiten-Report 2026",
+            "fr": "Le rapport HAVIT sur les habitudes des utilis…"
           }
         },
         {
@@ -364,7 +411,13 @@
             "en": "GLP-1 First Month",
             "ko": "GLP-1 첫 한 달 (위고비·마운자로)｜다이어트 주…",
             "ja": "GLP-1 最初の1か月（オゼンピック・マンジャロ）…",
-            "zh-tw": "GLP-1 第一個月（週纖達・猛健樂）逐週變化 (202…"
+            "zh": "GLP-1 第一个月",
+            "zh-tw": "GLP-1 第一個月（週纖達・猛健樂）逐週變化 (202…",
+            "es": "Primer mes con un GLP-1",
+            "pt-br": "Primeiro mês de GLP-1",
+            "id": "GLP-1 di Bulan Pertama",
+            "de": "GLP-1 erster Monat",
+            "fr": "Premier mois sous GLP-1"
           }
         },
         {
@@ -378,6 +431,7 @@
             "es": "Después de Ozempic",
             "pt-br": "Depois do Ozempic",
             "id": "Setelah Ozempic",
+            "de": "Nach Ozempic",
             "fr": "Après Ozempic"
           }
         },
@@ -392,6 +446,7 @@
             "es": "Después de Ozempic",
             "pt-br": "Depois do Ozempic",
             "id": "Setelah Ozempic",
+            "de": "Nach Ozempic",
             "fr": "Après Ozempic"
           }
         },
@@ -436,7 +491,13 @@
             "en": "GLP-1 for PCOS",
             "ko": "GLP-1(위고비·마운자로) 다낭성난소증후군(PCOS)…",
             "ja": "GLP-1(オゼンピック・マンジャロ)とPCOS｜多嚢胞…",
-            "zh-tw": "GLP-1(週纖達·猛健樂)與多囊性卵巢症候群 PCOS"
+            "zh": "GLP-1 与多囊卵巢综合征（PCOS）",
+            "zh-tw": "GLP-1(週纖達·猛健樂)與多囊性卵巢症候群 PCOS",
+            "es": "GLP-1 para el SOP",
+            "pt-br": "GLP-1 para SOP",
+            "id": "GLP-1 untuk PCOS",
+            "de": "GLP-1 bei PCOS",
+            "fr": "GLP-1 et SOPK"
           }
         },
         {
@@ -445,7 +506,13 @@
             "en": "GLP-1 for Menopause",
             "ko": "GLP-1(위고비·마운자로)과 폐경 체중 증가·복부…",
             "ja": "GLP-1(オゼンピック・マンジャロ)と更年期の体重…",
-            "zh-tw": "GLP-1(週纖達·猛健樂)與更年期體重·內臟脂肪"
+            "zh": "更年期使用 GLP-1",
+            "zh-tw": "GLP-1(週纖達·猛健樂)與更年期體重·內臟脂肪",
+            "es": "GLP-1 en la menopausia",
+            "pt-br": "GLP-1 na menopausa",
+            "id": "GLP-1 untuk Menopause",
+            "de": "GLP-1 in den Wechseljahren",
+            "fr": "GLP-1 et ménopause"
           }
         },
         {
@@ -454,22 +521,28 @@
             "en": "GLP-1 Postpartum",
             "ko": "GLP-1(위고비·마운자로)과 산후",
             "ja": "GLP-1(オゼンピック・マンジャロ)と産後:授乳の…",
-            "zh-tw": "GLP-1(週纖達·猛健樂)與產後減重"
+            "zh": "产后使用 GLP-1",
+            "zh-tw": "GLP-1(週纖達·猛健樂)與產後減重",
+            "es": "GLP-1 posparto",
+            "pt-br": "GLP-1 no pós-parto",
+            "id": "GLP-1 Setelah Melahirkan",
+            "de": "GLP-1 postpartal",
+            "fr": "GLP-1 après l'accouchement"
           }
         },
         {
           "slug": "glp1-pcos-weight-loss-insulin-resistance-improvement-2026",
           "labels": {
             "en": "GLP-1 Medications for PCOS",
-            "ko": "다낭성 난소 증후군에 오젭픽이 효과 있을까",
-            "ja": "PCOSにGLP-1薬が効く理由",
+            "ko": "다낭성 난소 증후군에 GLP-1 약물이 효과 있을까",
+            "ja": "PCOSのためのGLP-1薬",
             "zh": "GLP-1药物治疗多囊卵巢综合征",
-            "zh-tw": "GLP-1 藥物治療多囊性卵巢症候群",
-            "es": "Ozempic y SOP",
+            "zh-tw": "GLP-1藥物用於多囊性卵巢症候群",
+            "es": "Medicamentos GLP-1 para el SOP",
             "pt-br": "Medicamentos GLP-1 para SOP",
             "id": "Obat GLP-1 untuk PCOS",
             "de": "GLP-1-Medikamente bei PCOS",
-            "fr": "Médicaments GLP-1 pour le SOPK"
+            "fr": "Médicaments GLP-1 et SOPK"
           }
         },
         {
@@ -498,6 +571,7 @@
             "es": "¿Puede la Semaglutida Causar Depresión o Ansi…",
             "pt-br": "Semaglutida Pode Causar Depressão ou Ansiedade",
             "id": "Bisakah Semaglutide Menyebabkan Depresi atau…",
+            "de": "Kann Semaglutid Depressionen oder Angstzustän…",
             "fr": "Le sémaglutide peut-il causer dépression ou a…"
           }
         }
@@ -512,7 +586,13 @@
             "en": "Ozempic Tracker",
             "ko": "오젬픽 기록 완벽 가이드",
             "ja": "オゼンピック トラッカー｜注射・血糖・体重を記…",
-            "zh-tw": "胰妥讚記錄全攻略"
+            "zh": "司美格鲁肽（诺和泰/Ozempic）用药记录",
+            "zh-tw": "胰妥讚記錄全攻略",
+            "es": "Registro de Ozempic",
+            "pt-br": "Controle do Ozempic",
+            "id": "Pencatat Ozempic",
+            "de": "Ozempic-Tracker",
+            "fr": "Suivi Ozempic"
           }
         },
         {
@@ -521,7 +601,13 @@
             "en": "Wegovy Tracker",
             "ko": "위고비 기록 완벽 가이드",
             "ja": "ウゴービ 記録アプリ｜注射・体重・副作用を管理…",
-            "zh-tw": "週纖達記錄全攻略"
+            "zh": "Wegovy（诺和盈）记录工具",
+            "zh-tw": "週纖達記錄全攻略",
+            "es": "Registro de Wegovy",
+            "pt-br": "Controle do Wegovy",
+            "id": "Pencatat Wegovy",
+            "de": "Wegovy-Tracker",
+            "fr": "Suivi Wegovy"
           }
         },
         {
@@ -530,7 +616,13 @@
             "en": "Mounjaro Tracker",
             "ko": "마운자로 기록 완벽 가이드",
             "ja": "マンジャロ 記録アプリ｜注射・体重・副作用を管…",
-            "zh-tw": "猛健樂記錄全攻略"
+            "zh": "穆峰达（Mounjaro）记录工具",
+            "zh-tw": "猛健樂記錄全攻略",
+            "es": "Registro de Mounjaro",
+            "pt-br": "Controle do Mounjaro",
+            "id": "Pencatat Mounjaro",
+            "de": "Mounjaro Tracker",
+            "fr": "Suivi Mounjaro"
           }
         },
         {
@@ -539,7 +631,8 @@
             "en": "Zepbound Tracker",
             "ko": "젭바운드 기록 완벽 가이드",
             "ja": "ゼップバウンド 記録アプリ｜注射・体重・副作用…",
-            "zh-tw": "Zepbound 追蹤全攻略"
+            "zh-tw": "Zepbound 追蹤全攻略",
+            "de": "Zepbound-Tracker"
           }
         },
         {
@@ -548,7 +641,13 @@
             "en": "Semaglutide Tracker",
             "ko": "세마글루티드 기록 가이드",
             "ja": "セマグルチド 記録｜オゼンピック・ウゴービ・リ…",
-            "zh-tw": "司美格魯肽追蹤全攻略"
+            "zh": "司美格鲁肽记录工具",
+            "zh-tw": "司美格魯肽追蹤全攻略",
+            "es": "Registro de semaglutida",
+            "pt-br": "Controle da Semaglutida",
+            "id": "Pencatat Semaglutide",
+            "de": "Semaglutid-Tracker",
+            "fr": "Suivi sémaglutide"
           }
         },
         {
@@ -557,7 +656,13 @@
             "en": "Tirzepatide Tracker",
             "ko": "티르제파타이드 기록 가이드",
             "ja": "チルゼパチド 記録｜マンジャロ・ゼップバウンド…",
-            "zh-tw": "替爾泊肽追蹤全攻略"
+            "zh": "替尔泊肽（穆峰达/Mounjaro）记录工具",
+            "zh-tw": "替爾泊肽追蹤全攻略",
+            "es": "Registro de tirzepatida",
+            "pt-br": "Controle da tirzepatida",
+            "id": "Pencatat Tirzepatide",
+            "de": "Tirzepatid-Tracker",
+            "fr": "Suivi tirzépatide"
           }
         }
       ]
@@ -573,17 +678,17 @@
             "ja": "カロリー計算アプリおすすめ",
             "zh": "热量计算App推荐",
             "zh-tw": "熱量計算 App 推薦",
-            "es": "Mejores apps de calorías",
-            "pt-br": "Melhores apps de calorias",
-            "id": "Aplikasi Penghitung Kalori Terbaik",
-            "de": "Beste Kalorienzähler-Apps",
-            "fr": "Meilleurs compteurs de calories"
+            "es": "Contador de calorías gratis",
+            "pt-br": "Contador de calorias grátis",
+            "id": "Aplikasi Penghitung Kalori Gratis Terbaik",
+            "de": "Kalorienzähler-App kostenlos",
+            "fr": "Compteur de calories gratuit"
           }
         },
         {
           "slug": "best-diet-apps",
           "labels": {
-            "en": "Best Diet Apps",
+            "en": "Best Weight Loss Apps",
             "ko": "다이어트 앱 추천",
             "ja": "ダイエットアプリおすすめ",
             "zh": "减肥App推荐",
@@ -635,8 +740,14 @@
           "labels": {
             "en": "MyFitnessPal Alternative for GLP-1 Users",
             "ko": "MyFitnessPal 대안 GLP-1 트래커｜2026 솔직 비…",
-            "ja": "MyFitnessPal 代替アプリ｜GLP-1向け 2026年 正…",
-            "zh-tw": "MyFitnessPal 替代方案｜GLP-1 專用 2026 誠實比…"
+            "ja": "GLP-1ユーザー向けMyFitnessPal代替アプリ:2026…",
+            "zh": "GLP-1 用户的 MyFitnessPal 替代方案:2026 年诚…",
+            "zh-tw": "GLP-1 使用者的 MyFitnessPal 替代方案:2026 年…",
+            "es": "Alternativa a MyFitnessPal para usuarios de G…",
+            "pt-br": "Alternativa ao MyFitnessPal para Usuários de…",
+            "id": "Alternatif MyFitnessPal untuk Pengguna GLP-1",
+            "de": "MyFitnessPal-Alternative für GLP-1-Nutzer",
+            "fr": "Alternative à MyFitnessPal pour les utilisate…"
           }
         },
         {
@@ -644,17 +755,29 @@
           "labels": {
             "en": "Noom GLP-1 Alternative",
             "ko": "눔(Noom) 대안 GLP-1｜2026 솔직 비교｜HAVIT vs…",
-            "ja": "Noom（ヌーム）代替｜GLP-1向け 2026 正直比較｜…",
-            "zh-tw": "Noom 替代方案｜GLP-1 專用 2026 誠實比較｜Havi…"
+            "ja": "Noom GLP-1代替アプリ:2026年版正直な比較",
+            "zh": "Noom GLP-1 替代方案:2026 年诚实对比",
+            "zh-tw": "Noom GLP-1 替代方案:2026 年誠實比較",
+            "es": "Alternativa a Noom para GLP-1",
+            "pt-br": "Alternativa ao Noom GLP-1",
+            "id": "Alternatif Noom GLP-1",
+            "de": "Noom GLP-1-Alternative",
+            "fr": "Alternative à Noom pour les GLP-1"
           }
         },
         {
           "slug": "weightwatchers-glp-1-alternative",
           "labels": {
             "en": "WeightWatchers GLP-1 Alternative",
-            "ko": "웨이트워처스 대안 GLP-1｜2026 솔직 비교｜Havi…",
-            "ja": "ウェイトウォッチャーズ 代替｜GLP-1向け 2026…",
-            "zh-tw": "慧優體 替代方案｜GLP-1 專用 2026 誠實比較｜Ha…"
+            "ko": "웨이트워처스 대안 GLP-1｜2026 솔직 비교｜HAVI…",
+            "ja": "WeightWatchersのGLP-1代替アプリ:2026年版正直…",
+            "zh": "WeightWatchers GLP-1 替代方案:2026 年诚实对比",
+            "zh-tw": "WeightWatchers GLP-1 替代方案:2026 年誠實比較",
+            "es": "Alternativa a WeightWatchers para GLP-1",
+            "pt-br": "Alternativa ao WeightWatchers para GLP-1",
+            "id": "Alternatif GLP-1 WeightWatchers",
+            "de": "WeightWatchers GLP-1 Alternative",
+            "fr": "Alternative GLP-1 à WeightWatchers"
           }
         },
         {
@@ -662,8 +785,14 @@
           "labels": {
             "en": "Shotsy Alternative for GLP-1 Users",
             "ko": "Shotsy 대안 앱 2026｜GLP-1 주사 기록",
-            "ja": "Shotsy 代替アプリ 2026｜GLP-1注射記録アプリを…",
-            "zh-tw": "Shotsy 替代 App 2026｜GLP-1 瘦瘦筆記錄，誠實…"
+            "ja": "GLP-1ユーザー向けShotsy代替アプリ:2026年版正…",
+            "zh": "Shotsy 替代品:GLP-1 用户的诚实对比(2026)",
+            "zh-tw": "Shotsy 替代方案:GLP-1 使用者的誠實比較(2026)",
+            "es": "Alternativa a Shotsy para usuarios de GLP-1",
+            "pt-br": "Alternativa ao Shotsy para Usuários de GLP-1",
+            "id": "Alternatif Shotsy untuk Pengguna GLP-1",
+            "de": "Shotsy-Alternative für GLP-1-Anwender",
+            "fr": "Alternative à Shotsy pour les utilisateurs de…"
           }
         },
         {
@@ -671,8 +800,14 @@
           "labels": {
             "en": "MacroFactor Alternative for GLP-1 Users",
             "ko": "MacroFactor 대체 앱",
-            "ja": "MacroFactorの代替アプリ｜GLP-1（ダイエット注…",
-            "zh-tw": "MacroFactor 替代 App｜GLP-1（瘦瘦針）使用者的…"
+            "ja": "GLP-1ユーザー向けMacroFactor代替アプリ:2026年…",
+            "zh": "GLP-1 用户的 MacroFactor 替代方案:2026 年诚实…",
+            "zh-tw": "GLP-1 使用者的 MacroFactor 替代方案:2026 年誠…",
+            "es": "Alternativa a MacroFactor para usuarios de GL…",
+            "pt-br": "Alternativa ao MacroFactor para Usuários de G…",
+            "id": "Alternatif MacroFactor untuk Pengguna GLP-1",
+            "de": "MacroFactor-Alternative für GLP-1-Anwender",
+            "fr": "Alternative à MacroFactor pour utilisateurs d…"
           }
         },
         {
@@ -681,10 +816,54 @@
             "en": "GLP-1 Tracker App",
             "ko": "GLP-1(위고비·마운자로) 기록 앱",
             "ja": "GLP-1(オゼンピック・マンジャロ)記録アプリ 完…",
-            "zh-tw": "GLP-1 追蹤 App"
+            "zh": "GLP-1 追踪应用",
+            "zh-tw": "GLP-1 追蹤 App",
+            "es": "App para el seguimiento de GLP-1",
+            "pt-br": "App para acompanhar GLP-1",
+            "id": "Aplikasi Pelacak GLP-1",
+            "de": "GLP-1-Tracker-App",
+            "fr": "Application de suivi GLP-1"
           }
         }
       ]
     }
-  ]
+  ],
+  "cards": {
+    "morning-vs-evening-workout-circadian-performance-optimization-2026": [
+      "en",
+      "ko",
+      "ja",
+      "zh",
+      "zh-tw",
+      "es",
+      "pt-br",
+      "id",
+      "de",
+      "fr"
+    ],
+    "postprandial-glucose-spike-prevention-food-order-2026": [
+      "en",
+      "ko",
+      "ja",
+      "zh",
+      "zh-tw",
+      "es",
+      "pt-br",
+      "id",
+      "de",
+      "fr"
+    ],
+    "caffeine-intake-tracking-sleep-impact-timing-2026": [
+      "en",
+      "ko",
+      "ja",
+      "zh",
+      "zh-tw",
+      "es",
+      "pt-br",
+      "id",
+      "de",
+      "fr"
+    ]
+  }
 }
