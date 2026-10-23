@@ -290,6 +290,33 @@ a {
 [dir='rtl'] .btn--hero::after {
   transform: rotate(90deg);
 }
+/* Start Free(헤더·히어로·하단 고정) — 블로그 하단 CTA 와 같은 Figma 색(영상/이미지 리소스 857-11636):
+   #121212 알약 + 라임 글자 + 뒤에 라임→시안 글로우. 라임 배경 버튼보다 화면에서 더 튀어 클릭을 유도한다.
+   글로우는 ::before(z-index:-1) — 버튼에 z-index 를 주면 글로우가 버튼 배경 위로 올라오므로 주지 않는다.
+   ::after 는 히어로 화살표가 쓰고 있다. */
+.btn--primary[data-cta='start-free'] {
+  position: relative;
+  background: #121212;
+  color: var(--color-primary);
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.6);
+}
+.btn--primary[data-cta='start-free']::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  z-index: -1;
+  border-radius: 999px;
+  background: linear-gradient(95deg, var(--color-primary) 0%, #32d6ff 100%);
+  filter: blur(12px);
+  transition: filter 0.25s ease, inset 0.25s ease;
+}
+.btn--primary[data-cta='start-free']:hover {
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+.btn--primary[data-cta='start-free']:hover::before {
+  inset: -6px;
+  filter: blur(16px);
+}
 .hero__actions .btn--ghost {
   background: transparent;
   color: var(--color-grey-80);
