@@ -827,6 +827,10 @@
         {
           "question": "¿Todos los medicamentos GLP-1 tienen el mismo riesgo de hipoglucemia en terapia combinada?",
           "answer": "No. Las formulaciones semanales de acción más prolongada (semaglutida, tirzepatida) producen efectos más sostenidos y pueden conllevar mayor riesgo de hipoglucemia en combinación. Las formulaciones de acción más corta dos veces al día (exenatida) tienen efectos más predecibles concentrados alrededor de las comidas. Tu médico debe considerar estas diferencias al ajustar las dosis de medicamentos concurrentes."
+        },
+        {
+          "question": "¿Es seguro añadir un GLP-1 a la insulina?",
+          "answer": "Se puede combinar, pero el riesgo de hipoglucemia aumenta, así que el ajuste de la dosis de insulina debe acordarse con tu médico antes de la primera inyección de GLP-1. Durante las semanas 2 a 6 conviene revisar la glucosa con más frecuencia, sobre todo antes de las comidas y de conducir, tener glucosa de acción rápida a mano y no saltarte comidas aunque tengas menos apetito."
         }
       ],
       "references": [
