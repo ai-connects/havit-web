@@ -1338,6 +1338,14 @@
         {
           "question": "Apakah suplemen tertentu meningkatkan lipolisis?",
           "answer": "Beberapa senyawa menunjukkan efek sederhana dalam penelitian: kafein, katekin teh hijau (EGCG), dan capsaicin dapat sedikit meningkatkan pelepasan katekolamin atau kadar cAMP. Namun, efeknya kecil dibandingkan faktor gaya hidup seperti tidur, waktu olahraga, dan komposisi makanan. Tidak ada suplemen yang mengatasi dasar-dasar yang buruk."
+        },
+        {
+          "question": "Apa itu lipolisis?",
+          "answer": "Lipolisis adalah proses melepaskan lemak yang tersimpan di sel lemak dengan memecah trigliserida. Proses ini tidak terjadi hanya karena Anda ingin atau berolahraga keras, melainkan ketika sinyal hormonal tertentu, terutama katekolamin (epinefrin dan norepinefrin), tiba di sel lemak saat insulin rendah."
+        },
+        {
+          "question": "Bagaimana proses lipolisis berlangsung di dalam sel lemak?",
+          "answer": "Katekolamin mengikat reseptor beta-adrenergik di permukaan sel lemak, lalu mengaktifkan adenylyl cyclase yang menghasilkan cAMP, pembawa pesan yang menyuruh sel memecah trigliserida. Insulin bekerja sebagai rem pada proses ini. Karena itu, insulin yang tetap rendah dan paparan katekolamin yang berlanjut, misalnya saat olahraga atau puasa, membantu lipolisis berjalan."
         }
       ],
       "references": [

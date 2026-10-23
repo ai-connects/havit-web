@@ -244,6 +244,10 @@
         {
           "question": "신경과 검사는 어떤 걸 하나요?",
           "answer": "근전도(EMG) 검사가 대표적이에요. 가느다란 바늘을 근육에 삽입해 전기 신호를 측정합니다. 약간 불편할 수 있지만, 양성 근섬유 연축과 신경 손상을 구분하는 가장 정확한 방법입니다."
+        },
+        {
+          "question": "fasciculation 뜻이 뭔가요? twitching과 같은 말인가요?",
+          "answer": "fasciculation(근섬유 연축)은 운동 신경이 지배하는 근육 다발이 불규칙하게 수축하는 현상으로, twitching(떨림)이라고 부르는 증상과 같은 것을 가리킵니다. 피부 아래에서 작은 벌레가 기어가는 것처럼 보이거나 손가락을 대면 톡톡 튀는 느낌이 나요. 근력 저하나 근육 위축 없이 떨림만 있다면 대부분 신경 손상이 없는 양성 근섬유 연축이지만, 힘이 빠지면서 떨린다면 신경과 상담을 권합니다."
         }
       ],
       "references": [
@@ -1074,6 +1078,14 @@
         {
           "question": "Kapan saya sebenarnya harus menemui dokter tentang kedutan otot?",
           "answer": "Temui dokter jika Anda melihat kelemahan yang sebenarnya (bukan hanya kelelahan), penyusutan otot yang terlihat, kesulitan menelan atau berbicara, atau kedutan yang tetap di satu lokasi tanpa berpindah. Juga cari evaluasi jika Anda memiliki riwayat keluarga penyakit neuron motorik atau jika kecemasan tentang gejala secara signifikan memengaruhi kualitas hidup Anda."
+        },
+        {
+          "question": "Fasikulasi adalah apa?",
+          "answer": "Fasikulasi adalah kontraksi involunter sekelompok kecil serat otot yang dikendalikan oleh satu neuron motorik, yang terlihat beriak di bawah kulit atau terasa seperti getaran. Satu episode biasanya berlangsung beberapa detik hingga menit. Pada orang sehat hal ini cukup umum: dalam satu studi ultrasonografi, 43% dari 58 orang dewasa sehat memilikinya saat istirahat."
+        },
+        {
+          "question": "Apakah fasikulasi lidah berbahaya?",
+          "answer": "Kedutan memang bisa muncul di lidah pada sindrom fasikulasi jinak, dan kedutan saja tanpa kelemahan atau penyusutan otot memiliki nilai prediktif yang sangat rendah untuk penyakit neurologis. Namun jika disertai kesulitan menelan, perubahan cara berbicara, kelemahan nyata, atau otot yang terlihat menyusut, temui ahli saraf."
         }
       ],
       "references": [

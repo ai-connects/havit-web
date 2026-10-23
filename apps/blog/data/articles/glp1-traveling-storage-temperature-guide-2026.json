@@ -1270,6 +1270,14 @@
         {
           "question": "Sind TSA-Gel-Kühlpacks für Medikamente erlaubt?",
           "answer": "Ja. Die TSA erlaubt Eis- und Gelpacks zur Kühlung medizinisch notwendiger Medikamente im Handgepäck. Melden Sie sie zu Beginn der Kontrolle; sie können zusätzlich kontrolliert werden. Regeln können sich ändern, prüfen Sie daher vor dem Flug die Website der TSA."
+        },
+        {
+          "question": "Muss Ozempic gekühlt werden?",
+          "answer": "Ja, noch nicht verwendete Ozempic-Pens gehören laut Fachinformation bei 2–8°C in den Kühlschrank. Erst nach der ersten Anwendung darf ein Pen 56 Tage lang entweder im Kühlschrank oder bei Raumtemperatur (15–30°C) liegen. Nicht einfrieren und vor Hitze und direktem Sonnenlicht schützen."
+        },
+        {
+          "question": "Was passiert, wenn Ozempic nicht gekühlt wird?",
+          "answer": "Eine genaue Zahl dazu, wie viel Wirkung ein Pen nach einer Hitzespitze verliert, liefert die Fachinformation nicht, und wir haben dazu keine veröffentlichte Studie gefunden. Bleiben Sie deshalb im Bereich der Fachinformation und rechnen Sie Tage bei Raumtemperatur auf das 56-Tage-Fenster nach Anbruch an. War ein Pen eindeutig großer Hitze oder Frost ausgesetzt, fragen Sie vor der Anwendung in der Apotheke oder beim Hersteller nach."
         }
       ],
       "references": [
