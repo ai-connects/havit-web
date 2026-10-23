@@ -998,6 +998,14 @@
         {
           "question": "Café pode contar para minha ingestão diária de água?",
           "answer": "Sim. Os valores de referência de água das Academias Nacionais dos EUA contam bebidas com cafeína na ingestão total de água, e a EFSA considera seguros até 400 mg de cafeína por dia para adultos saudáveis (200 mg na gravidez)."
+        },
+        {
+          "question": "O café desidrata o corpo?",
+          "answer": "Não, para quem toma café com regularidade o efeito diurético da cafeína é pequeno e o café conta como líquido. Em um estudo com 50 homens habituados ao café, três dias com quatro canecas por dia não mudaram o estado de hidratação em comparação com água. O cenário mais provável para notar mais idas ao banheiro é uma dose alta de cafeína depois de uma pausa de duas semanas ou mais."
+        },
+        {
+          "question": "O café retém líquido ou faz perder líquido?",
+          "answer": "Nas pesquisas citadas neste artigo, o café não fez o corpo perder mais líquido do que a água. Em um ensaio com 72 homens, 1 litro de café não produziu mais urina do que 1 litro de água sem gás. Se algo no seu corpo preocupa você, vale conversar com um médico."
         }
       ],
       "references": [
