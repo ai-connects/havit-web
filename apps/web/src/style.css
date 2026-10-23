@@ -772,6 +772,16 @@ a {
 .feature-card--horizontal .feature-card__image {
   width: 600px;
 }
+/* 운동·러닝 코치: 그림이 세로로 길어(폰 2대) 가로 카드에서 600px 이면 너무 크다 — 일반 카드에 가까운 폭으로.
+   모바일에선 아래 media 의 400px 규칙이 뒤에 있어 그대로 적용된다. */
+.feature-card--running {
+  justify-content: space-around;
+  padding: 40px;
+}
+.feature-card--running .feature-card__image-frame,
+.feature-card--running .feature-card__image {
+  width: 420px;
+}
 
 /* the wide row holds a single card that should span the full row width,
    not be squeezed into one half of a 2-column grid */

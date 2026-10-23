@@ -46,6 +46,16 @@ export function asset(path: string): string {
   return `${BASE_PATH}${path.startsWith('/') ? path : `/${path}`}`;
 }
 
+/**
+ * 앱 화면 이미지의 언어판. public/havit/l10n/<route 언어>/<파일> 로 둔다(홈 aihavit.com 의 public/l10n 을
+ * 블로그 표시 크기로 줄인 것 — 원본은 Figma 「영상 / 이미지 리소스」 홈페이지 언어 섹션). 없는 언어는 기본 이미지.
+ */
+const L10N_LANGS = new Set(['en', 'ko', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr']);
+export function localizedShot(shortLang: string, fallbackPath: string): string {
+  const file = fallbackPath.split('/').pop();
+  return L10N_LANGS.has(shortLang) ? asset(`/havit/l10n/${shortLang}/${file}`) : asset(fallbackPath);
+}
+
 // 블로그 언어 → 마케팅 사이트 로케일 디렉터리. 이름이 다른 둘만 적는다
 // (apps/web/plugins/i18n-html.js 의 BLOG_LANG_OF 역방향).
 const WWW_LOCALE_OF: Record<string, string> = { zh: 'zh-cn', 'pt-br': 'pt' };

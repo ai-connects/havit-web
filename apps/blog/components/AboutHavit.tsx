@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import featureData from '@/data/havit-features.json';
-import { asset } from '@/lib/site';
+import { asset, localizedShot } from '@/lib/site';
 import { getArticleBySlug, resolveContent } from '@/lib/articles-v2';
 
 /**
@@ -162,6 +162,8 @@ interface FeatureMeta {
   alt_en: string;
   eyebrow_key: string;
   title_key: string;
+  /** public/havit/l10n/<언어>/ 에 언어판이 있다 */
+  localized?: boolean;
 }
 
 const FEATURES = (featureData as { features: FeatureMeta[] }).features;
@@ -205,7 +207,7 @@ function FeatureStrip({ shortLang }: { shortLang: string }) {
           <li key={f.image} className="about-havit__feature">
             <span className="about-havit__shot">
               <Image
-                src={asset(f.image)}
+                src={f.localized ? localizedShot(shortLang, f.image) : asset(f.image)}
                 alt=""
                 aria-hidden
                 width={f.width}

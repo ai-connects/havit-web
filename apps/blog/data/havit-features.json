@@ -9,7 +9,17 @@
       "height": 450,
       "alt_en": "AI coach screen",
       "eyebrow_key": "ai-coach",
-      "title_key": "know-what-to-do-today"
+      "title_key": "know-what-to-do-today",
+      "localized": true
+    },
+    {
+      "image": "/havit/feature-running-coach.webp",
+      "width": 285,
+      "height": 450,
+      "alt_en": "Home workout and running coach screens",
+      "eyebrow_key": "running-coach",
+      "title_key": "from-home-workouts-to-your-next-run",
+      "localized": true
     },
     {
       "image": "/havit/feature-nutrition.webp",
@@ -17,7 +27,8 @@
       "height": 450,
       "alt_en": "Photo meal logging screen",
       "eyebrow_key": "nutrition",
-      "title_key": "log-meals-in-seconds"
+      "title_key": "log-meals-in-seconds",
+      "localized": true
     },
     {
       "image": "/havit/feature-body-insights.webp",
@@ -25,7 +36,8 @@
       "height": 450,
       "alt_en": "Body composition trend screen",
       "eyebrow_key": "body-insights",
-      "title_key": "see-more-than-weight"
+      "title_key": "see-more-than-weight",
+      "localized": true
     },
     {
       "image": "/havit/feature-daily-missions.webp",
@@ -33,7 +45,8 @@
       "height": 450,
       "alt_en": "Daily missions screen",
       "eyebrow_key": "daily-missions",
-      "title_key": "build-habits-you-can-repeat"
+      "title_key": "build-habits-you-can-repeat",
+      "localized": true
     },
     {
       "image": "/havit/feature-daily-check-in.webp",
@@ -41,7 +54,8 @@
       "height": 450,
       "alt_en": "Daily check-in screen",
       "eyebrow_key": "daily-check-in",
-      "title_key": "tell-havi-how-today-feels"
+      "title_key": "tell-havi-how-today-feels",
+      "localized": true
     },
     {
       "image": "/havit/feature-track-everything.webp",
@@ -49,7 +63,8 @@
       "height": 423,
       "alt_en": "Tracking screen",
       "eyebrow_key": "track-everything",
-      "title_key": "from-water-to-glp-1"
+      "title_key": "from-water-to-glp-1",
+      "localized": true
     },
     {
       "image": "/havit/feature-mind-recovery.webp",
@@ -75,7 +90,9 @@
       "track-everything": "TRACK EVERYTHING",
       "from-water-to-glp-1": "From water to GLP-1",
       "mind-and-recovery": "MIND & RECOVERY",
-      "for-the-days-willpower-runs-out": "For the days willpower runs out."
+      "for-the-days-willpower-runs-out": "For the days willpower runs out.",
+      "running-coach": "WORKOUT & RUNNING",
+      "from-home-workouts-to-your-next-run": "From home workouts to your next run."
     },
     "ko": {
       "ai-coach": "AI 코치",
@@ -91,7 +108,9 @@
       "track-everything": "전부 기록",
       "from-water-to-glp-1": "물부터 GLP-1까지",
       "mind-and-recovery": "마음과 회복",
-      "for-the-days-willpower-runs-out": "의지가 바닥나는 날을 위해."
+      "for-the-days-willpower-runs-out": "의지가 바닥나는 날을 위해.",
+      "running-coach": "운동 & 러닝",
+      "from-home-workouts-to-your-next-run": "홈트부터 러닝까지, AI 코치와 함께."
     },
     "ja": {
       "ai-coach": "AIコーチ",
@@ -107,7 +126,9 @@
       "track-everything": "すべてを記録",
       "from-water-to-glp-1": "水分からGLP-1まで",
       "mind-and-recovery": "心とリカバリー",
-      "for-the-days-willpower-runs-out": "意志がもたない日のために。"
+      "for-the-days-willpower-runs-out": "意志がもたない日のために。",
+      "running-coach": "ワークアウト & ランニング",
+      "from-home-workouts-to-your-next-run": "宅トレからランニングまで、AIコーチと一緒に。"
     },
     "zh": {
       "ai-coach": "AI 教练",
@@ -123,7 +144,9 @@
       "track-everything": "全部都能记录",
       "from-water-to-glp-1": "从喝水到 GLP-1",
       "mind-and-recovery": "身心与恢复",
-      "for-the-days-willpower-runs-out": "为意志力见底的日子准备。"
+      "for-the-days-willpower-runs-out": "为意志力见底的日子准备。",
+      "running-coach": "运动与跑步",
+      "from-home-workouts-to-your-next-run": "从居家训练到户外跑步，AI 教练全程陪伴。"
     },
     "zh-tw": {
       "ai-coach": "AI 教練",
@@ -139,7 +162,9 @@
       "track-everything": "全部都能記錄",
       "from-water-to-glp-1": "從喝水到 GLP-1",
       "mind-and-recovery": "身心與恢復",
-      "for-the-days-willpower-runs-out": "為意志力見底的日子準備。"
+      "for-the-days-willpower-runs-out": "為意志力見底的日子準備。",
+      "running-coach": "運動與跑步",
+      "from-home-workouts-to-your-next-run": "從居家訓練到戶外跑步，AI 教練全程陪伴。"
     },
     "es": {
       "ai-coach": "COACH DE IA",
@@ -155,7 +180,9 @@
       "track-everything": "REGÍSTRALO TODO",
       "from-water-to-glp-1": "Del agua al GLP-1",
       "mind-and-recovery": "MENTE Y RECUPERACIÓN",
-      "for-the-days-willpower-runs-out": "Para los días en que se acaba la fuerza de voluntad."
+      "for-the-days-willpower-runs-out": "Para los días en que se acaba la fuerza de voluntad.",
+      "running-coach": "EJERCICIO Y RUNNING",
+      "from-home-workouts-to-your-next-run": "De los entrenamientos en casa a tu próxima carrera."
     },
     "pt-br": {
       "ai-coach": "COACH DE IA",
@@ -171,7 +198,9 @@
       "track-everything": "REGISTE TUDO",
       "from-water-to-glp-1": "Da água ao GLP-1",
       "mind-and-recovery": "MENTE E RECUPERAÇÃO",
-      "for-the-days-willpower-runs-out": "Para os dias em que a força de vontade acaba."
+      "for-the-days-willpower-runs-out": "Para os dias em que a força de vontade acaba.",
+      "running-coach": "TREINO E CORRIDA",
+      "from-home-workouts-to-your-next-run": "Dos treinos em casa à sua próxima corrida."
     },
     "id": {
       "ai-coach": "PELATIH AI",
@@ -187,7 +216,9 @@
       "track-everything": "CATAT SEMUANYA",
       "from-water-to-glp-1": "Dari air hingga GLP-1",
       "mind-and-recovery": "PIKIRAN & PEMULIHAN",
-      "for-the-days-willpower-runs-out": "Untuk hari-hari saat tekad habis."
+      "for-the-days-willpower-runs-out": "Untuk hari-hari saat tekad habis.",
+      "running-coach": "OLAHRAGA & LARI",
+      "from-home-workouts-to-your-next-run": "Dari olahraga di rumah sampai lari berikutnya."
     },
     "de": {
       "ai-coach": "KI-COACH",
@@ -203,7 +234,9 @@
       "track-everything": "ALLES TRACKEN",
       "from-water-to-glp-1": "Von Wasser bis GLP-1",
       "mind-and-recovery": "KOPF UND ERHOLUNG",
-      "for-the-days-willpower-runs-out": "Für die Tage, an denen die Willenskraft ausgeht."
+      "for-the-days-willpower-runs-out": "Für die Tage, an denen die Willenskraft ausgeht.",
+      "running-coach": "TRAINING & LAUFEN",
+      "from-home-workouts-to-your-next-run": "Vom Home-Workout bis zum nächsten Lauf."
     },
     "fr": {
       "ai-coach": "COACH IA",
@@ -219,7 +252,9 @@
       "track-everything": "TOUT SUIVRE",
       "from-water-to-glp-1": "De l'eau au GLP-1",
       "mind-and-recovery": "MENTAL ET RÉCUPÉRATION",
-      "for-the-days-willpower-runs-out": "Pour les jours où la volonté lâche."
+      "for-the-days-willpower-runs-out": "Pour les jours où la volonté lâche.",
+      "running-coach": "SPORT & COURSE",
+      "from-home-workouts-to-your-next-run": "De l’entraînement à la maison à votre prochaine course."
     }
   }
 }

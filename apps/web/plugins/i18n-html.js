@@ -369,7 +369,7 @@ function renderLangMenu(html, locale, page) {
  */
 const LOCALIZED_IMAGES = [
   'hero-phone', 'feature-ai-coach', 'feature-nutrition', 'feature-daily-missions',
-  'feature-body-insights', 'feature-daily-check-in', 'feature-track-everything',
+  'feature-body-insights', 'feature-daily-check-in', 'feature-track-everything', 'feature-running-coach',
 ]
 const L10N_DIR = resolve(HERE, '../public/l10n')
 
