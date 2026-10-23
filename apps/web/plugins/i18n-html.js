@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { ogImageUrl, renderSeoHead } from './structured-data.js'
@@ -361,6 +361,25 @@ function renderLangMenu(html, locale, page) {
   )
 }
 
+/**
+ * 앱 화면이 든 이미지(히어로 폰·기능 카드)를 그 언어판으로 바꾼다.
+ * 원본은 Figma 「영상 / 이미지 리소스」 홈페이지 페이지의 언어 섹션이고, public/l10n/<locale>/<name>.webp 로 둔다.
+ * dev 에선 /src/assets/images/<name>.webp, 빌드 후엔 /assets/<name>-<hash>.webp 라 둘 다 받는다.
+ * 그 언어 파일이 없으면 원래 이미지를 그대로 둔다.
+ */
+const LOCALIZED_IMAGES = [
+  'hero-phone', 'feature-ai-coach', 'feature-nutrition', 'feature-daily-missions',
+  'feature-body-insights', 'feature-daily-check-in', 'feature-track-everything',
+]
+const L10N_DIR = resolve(HERE, '../public/l10n')
+
+function localizeImages(html, locale) {
+  return html.replace(
+    new RegExp(`(?:/src/assets/images|/assets)/(${LOCALIZED_IMAGES.join('|')})(?:-[\\w-]{8})?\\.webp`, 'g'),
+    (m, name) => (existsSync(resolve(L10N_DIR, locale, `${name}.webp`)) ? `/l10n/${locale}/${name}.webp` : m),
+  )
+}
+
 /** Root-relative asset paths already work from /<locale>/, so nothing to rewrite. */
 export function renderLocale(baseHtml, locale, page = HOME_PAGE) {
   const dict = locale === DEFAULT_LOCALE ? {} : loadDict(locale)
@@ -368,7 +387,8 @@ export function renderLocale(baseHtml, locale, page = HOME_PAGE) {
     ? { html: baseHtml, missing: 0 }
     : translateBody(baseHtml, dict)
   const withHead = renderLangMenu(translateHead(html, locale, dict, baseHtml, page), locale, page)
-  return { html: localizeBlogLinks(injectFooterArticles(localizeArticleCards(withHead, locale), locale), locale), missing }
+  const out = localizeBlogLinks(injectFooterArticles(localizeArticleCards(withHead, locale), locale), locale)
+  return { html: localizeImages(out, locale), missing }
 }
 
 export default function i18nHtml() {
