@@ -1824,6 +1824,77 @@
   filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.18));
 }
 
+/* 모바일 하단 고정 CTA — Figma 영상/이미지 리소스 857-11636.
+   바: 위는 투명→아래 흰색 그라디언트 + 뒤 본문 블러(8px). 투명한 윗부분이 본문 탭을 막지
+   않도록 바는 포인터를 통과시키고 버튼만 받는다. */
+.sticky-cta-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px calc(24px + env(safe-area-inset-bottom));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  pointer-events: none;
+}
+.sticky-cta-spacer {
+  height: calc(104px + env(safe-area-inset-bottom));
+}
+/* 버튼: #121212 알약, 라임 Poppins 600 18px. 폭은 영어판(223px)이 최소이고
+   문구가 길면 늘어난다. 화면보다 길어지면 줄바꿈해 높이로 받는다. */
+.sticky-cta-btn {
+  position: relative;
+  isolation: isolate;
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  min-width: 223px; /* 영어판 "Continue in the App" 폭 — 짧은 언어(ko·ja 등)도 이보다 작아지지 않는다 */
+  max-width: 100%;
+  padding: 0 24px;
+  border-radius: 999px;
+  background: #121212;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.6);
+  color: var(--hv-primary);
+  font-family: 'Poppins', 'Pretendard', 'Pretendard Variable', -apple-system, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.36px;
+  text-align: center;
+  word-break: keep-all;
+}
+/* 글로우: 버튼보다 상하좌우 4px 큰 라임→시안 알약을 12px 블러로 뒤에 깐다(Figma 231×64 vs 버튼 223×56).
+   버튼 폭이 늘면 같이 늘어난다. */
+.sticky-cta-btn::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  z-index: -1;
+  border-radius: 999px;
+  background: linear-gradient(95deg, var(--hv-primary) 0%, #32d6ff 100%);
+  filter: blur(12px);
+}
+.sticky-cta-btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: #121212;
+}
+@media (min-width: 768px) {
+  .sticky-cta-bar,
+  .sticky-cta-spacer {
+    display: none;
+  }
+}
+
 @media (max-width: 860px) {
   .install-cta {
     grid-template-columns: 1fr;

@@ -23,18 +23,23 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
   if (variant === 'sticky') {
     // PC 에선 md:hidden 으로 안 보이지만, 판정 전·데스크톱 폴백은 웹앱이다.
     const placement = 'blog_sticky';
+    // Figma 영상/이미지 리소스 857-11636 — 흰 그라디언트+블러 바 위 검정 알약 버튼, 뒤에 라임→시안 글로우.
+    // 버튼 폭은 문구가 정한다(영어판 폭이 최소, 긴 언어는 그만큼 늘어남). 스페이서는 바가 푸터 끝을 가리지 않게 한다.
     return (
-      <div className="md:hidden fixed bottom-0 left-0 right-0 z-30 p-3 bg-white/95 backdrop-blur border-t border-gray-200">
-        <a
-          href={appLinkFor(os, placement)}
-          onClick={() => trackGaEvent('start_free_click', {
-            ...context, link_location: placement, destination: destinationOf(os),
-          })}
-          className="btn-primary w-full"
-        >
-          📱 {t(lang, 'installCta')}
-        </a>
-      </div>
+      <>
+        <div className="md:hidden sticky-cta-spacer" aria-hidden />
+        <div className="md:hidden sticky-cta-bar">
+          <a
+            href={appLinkFor(os, placement)}
+            onClick={() => trackGaEvent('start_free_click', {
+              ...context, link_location: placement, destination: destinationOf(os),
+            })}
+            className="sticky-cta-btn"
+          >
+            {t(lang, 'installCta')}
+          </a>
+        </div>
+      </>
     );
   }
 
