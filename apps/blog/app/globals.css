@@ -1824,7 +1824,7 @@
   filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.18));
 }
 
-/* 모바일 하단 고정 CTA — Figma 영상/이미지 리소스 857-11636.
+/* 모바일 하단 고정 CTA — Figma 영상/이미지 리소스 882-24264.
    바: 위는 투명→아래 흰색 그라디언트 + 뒤 본문 블러(8px). 투명한 윗부분이 본문 탭을 막지
    않도록 바는 포인터를 통과시키고 버튼만 받는다. */
 .sticky-cta-bar {
@@ -1841,25 +1841,69 @@
   backdrop-filter: blur(8px);
   pointer-events: none;
 }
+/* 바 높이(24+46+24) + 버튼 위로 솟은 캐릭터(약 31px) */
 .sticky-cta-spacer {
-  height: calc(104px + env(safe-area-inset-bottom));
+  height: calc(126px + env(safe-area-inset-bottom));
 }
-/* 버튼: #121212 알약, 라임 Poppins 600 18px. 폭은 영어판(223px)이 최소이고
+/* 캐릭터·글로우·버튼을 묶는 판(Figma 882-24264). 쌓는 순서: 글로우(::before) → 기사·공룡 → 버튼 → 빼꼼.
+   캐릭터 묶음(폭 175px)은 버튼 가운데 기준이라 문구가 길어 버튼이 넓어져도 가운데에 남는다. */
+.cta-pill {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  max-width: 100%;
+  pointer-events: auto;
+}
+.cta-pill::before {
+  content: '';
+  position: absolute;
+  top: -23.5px;
+  bottom: 0;
+  left: -12px;
+  right: -12px;
+  border-radius: 99px;
+  background: linear-gradient(95deg, var(--hv-primary) 0%, #32d6ff 100%);
+  filter: blur(12px);
+}
+.cta-pill__char {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+}
+.cta-pill__char--knight {
+  left: calc(50% - 87.5px);
+  top: -54.5px;
+  width: 67px;
+  height: 70px;
+}
+.cta-pill__char--dino {
+  left: calc(50% + 17.5px);
+  top: -47.5px;
+  width: 70px;
+  height: 70px;
+}
+.cta-pill__char--peek {
+  left: calc(50% - 31.5px);
+  top: -54.5px;
+  width: 63px;
+  height: 60px;
+  z-index: 2;
+}
+/* 버튼: #121212 알약, 라임 Poppins 600 18px, 높이 46. 폭은 영어판(207px)이 최소이고
    문구가 길면 늘어난다. 화면보다 길어지면 줄바꿈해 높이로 받는다. */
 .sticky-cta-btn {
   position: relative;
-  isolation: isolate;
-  pointer-events: auto;
+  z-index: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 56px;
-  min-width: 223px; /* 영어판 "Continue in the App" 폭 — 짧은 언어(ko·ja 등)도 이보다 작아지지 않는다 */
+  min-height: 46px;
+  min-width: 207px; /* 영어판 "Continue in the App" 폭 — 짧은 언어(ko·ja 등)도 이보다 작아지지 않는다 */
   max-width: 100%;
-  padding: 0 24px;
+  padding: 12px 16px;
   border-radius: 999px;
   background: #121212;
-  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.6);
   color: var(--hv-primary);
   font-family: 'Poppins', 'Pretendard', 'Pretendard Variable', -apple-system, sans-serif;
   font-size: 18px;
@@ -1868,25 +1912,6 @@
   letter-spacing: -0.36px;
   text-align: center;
   word-break: keep-all;
-}
-/* 글로우: 버튼보다 상하좌우 4px 큰 라임→시안 알약을 12px 블러로 뒤에 깐다(Figma 231×64 vs 버튼 223×56).
-   버튼 폭이 늘면 같이 늘어난다. */
-.sticky-cta-btn::before {
-  content: '';
-  position: absolute;
-  inset: -4px;
-  z-index: -1;
-  border-radius: 999px;
-  background: linear-gradient(95deg, var(--hv-primary) 0%, #32d6ff 100%);
-  filter: blur(12px);
-}
-.sticky-cta-btn::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  border-radius: inherit;
-  background: #121212;
 }
 @media (min-width: 768px) {
   .sticky-cta-bar,

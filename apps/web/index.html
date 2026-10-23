@@ -994,7 +994,13 @@
 
     <!-- 모바일 하단 고정 CTA — 히어로를 지나고 최종 CTA 에 닿기 전까지만 보인다(main.js). -->
     <div class="sticky-cta">
-      <a data-i18n="start-free" data-cta="start-free" data-placement="sticky" href="https://app.aihavit.com/" class="btn btn--primary sticky-cta__btn">Start Free</a>
+      <!-- Figma 영상/이미지 리소스 882-24264: 캐릭터는 링크 밖 형제로 둔다(data-i18n 이 링크 안쪽을 통째로 바꾼다). -->
+      <div class="cta-pill">
+        <img class="cta-pill__char cta-pill__char--knight" src="/cta/knight.webp" alt="" width="67" height="70" aria-hidden="true" />
+        <img class="cta-pill__char cta-pill__char--dino" src="/cta/dino.webp" alt="" width="70" height="70" aria-hidden="true" />
+        <a data-i18n="start-free" data-cta="start-free" data-placement="sticky" href="https://app.aihavit.com/" class="btn btn--primary sticky-cta__btn">Start Free</a>
+        <img class="cta-pill__char cta-pill__char--peek" src="/cta/peek.webp" alt="" width="63" height="60" aria-hidden="true" />
+      </div>
     </div>
 
     <footer class="footer">

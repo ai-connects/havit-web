@@ -335,31 +335,92 @@ a {
   .hero .hero__actions .btn {
     justify-content: center;
   }
+  /* 블로그 하단 CTA 와 같은 Figma(영상/이미지 리소스 882-24264): 위 투명→아래 흰색 그라디언트 + 블러 바,
+     가운데 검정 알약 + 라임→시안 글로우 + 캐릭터 3종. 바는 포인터를 통과시키고 판만 받는다.
+     숨길 때는 버튼 위로 솟은 캐릭터(약 31px)까지 화면 밖으로 내린다. */
   .sticky-cta {
-    display: block;
+    display: flex;
+    justify-content: center;
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 60;
-    padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
-    background: rgba(255, 255, 255, 0.92);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.08);
-    transform: translateY(110%);
+    padding: 24px 16px calc(24px + env(safe-area-inset-bottom));
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    pointer-events: none;
+    transform: translateY(calc(100% + 40px));
     transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   }
   .sticky-cta.is-visible {
     transform: none;
   }
   .sticky-cta__btn {
-    width: 100%;
+    position: relative;
+    z-index: 1;
     justify-content: center;
-    padding: 16px;
-    font-size: 16px;
-    font-weight: 700;
+    min-height: 46px;
+    min-width: 207px; /* 영어판 폭이 최소, 긴 언어는 늘어남 */
+    max-width: 100%;
+    padding: 12px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.36px;
+    white-space: normal;
+    text-align: center;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.6);
   }
+  /* 알약의 글로우는 .cta-pill::before 가 맡는다 — 버튼 자체 글로우(z-index:-1)는 버튼 위로 올라오므로 끈다. */
+  .sticky-cta .btn--primary[data-cta='start-free']::before {
+    display: none;
+  }
+}
+/* 캐릭터·글로우·버튼 묶음. 쌓는 순서: 글로우(::before) → 기사·공룡 → 버튼 → 빼꼼.
+   캐릭터 묶음(폭 175px)은 버튼 가운데 기준이라 문구가 길어 버튼이 넓어져도 가운데에 남는다. */
+.cta-pill {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  max-width: 100%;
+  pointer-events: auto;
+}
+.cta-pill::before {
+  content: '';
+  position: absolute;
+  top: -23.5px;
+  bottom: 0;
+  left: -12px;
+  right: -12px;
+  border-radius: 99px;
+  background: linear-gradient(95deg, var(--color-primary) 0%, #32d6ff 100%);
+  filter: blur(12px);
+}
+.cta-pill__char {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+}
+.cta-pill__char--knight {
+  left: calc(50% - 87.5px);
+  top: -54.5px;
+  width: 67px;
+  height: 70px;
+}
+.cta-pill__char--dino {
+  left: calc(50% + 17.5px);
+  top: -47.5px;
+  width: 70px;
+  height: 70px;
+}
+.cta-pill__char--peek {
+  left: calc(50% - 31.5px);
+  top: -54.5px;
+  width: 63px;
+  height: 60px;
+  z-index: 2;
 }
 
 /* NAV */

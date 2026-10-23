@@ -23,21 +23,30 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
   if (variant === 'sticky') {
     // PC 에선 md:hidden 으로 안 보이지만, 판정 전·데스크톱 폴백은 웹앱이다.
     const placement = 'blog_sticky';
-    // Figma 영상/이미지 리소스 857-11636 — 흰 그라디언트+블러 바 위 검정 알약 버튼, 뒤에 라임→시안 글로우.
+    // Figma 영상/이미지 리소스 882-24264 — 흰 그라디언트+블러 바 위 검정 알약 버튼, 뒤에 라임→시안 글로우,
+    // 버튼 위로 캐릭터 3종이 고개를 내민다(기사·공룡은 버튼 뒤, 빼꼼은 버튼 앞).
     // 버튼 폭은 문구가 정한다(영어판 폭이 최소, 긴 언어는 그만큼 늘어남). 스페이서는 바가 푸터 끝을 가리지 않게 한다.
     return (
       <>
         <div className="md:hidden sticky-cta-spacer" aria-hidden />
         <div className="md:hidden sticky-cta-bar">
-          <a
-            href={appLinkFor(os, placement)}
-            onClick={() => trackGaEvent('start_free_click', {
-              ...context, link_location: placement, destination: destinationOf(os),
-            })}
-            className="sticky-cta-btn"
-          >
-            {t(lang, 'installCta')}
-          </a>
+          <div className="cta-pill">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="cta-pill__char cta-pill__char--knight" src={asset('/cta/knight.webp')} alt="" width={67} height={70} aria-hidden />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="cta-pill__char cta-pill__char--dino" src={asset('/cta/dino.webp')} alt="" width={70} height={70} aria-hidden />
+            <a
+              href={appLinkFor(os, placement)}
+              onClick={() => trackGaEvent('start_free_click', {
+                ...context, link_location: placement, destination: destinationOf(os),
+              })}
+              className="sticky-cta-btn"
+            >
+              {t(lang, 'installCta')}
+            </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="cta-pill__char cta-pill__char--peek" src={asset('/cta/peek.webp')} alt="" width={63} height={60} aria-hidden />
+          </div>
         </div>
       </>
     );
