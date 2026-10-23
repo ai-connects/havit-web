@@ -1,7 +1,7 @@
 'use client';
 
-import { type LangKey, t } from '@/lib/i18n';
-import { asset } from '@/lib/site';
+import { type LangKey, t, toShortLang } from '@/lib/i18n';
+import { asset, localizedShot } from '@/lib/site';
 import {
   PLAY_STORE_URL, appLinkFor, appStoreUrlFor, destinationOf, storeOf, trackGaEvent, useMobileOS,
 } from '@/lib/download-links';
@@ -92,7 +92,7 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
       </div>
       <div className="install-cta__shot" aria-hidden>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={asset('/app-preview.webp')} alt="" width={330} height={670} loading="lazy" />
+        <img src={localizedShot(toShortLang(lang), '/app-preview.webp')} alt="" width={330} height={670} loading="lazy" />
       </div>
     </div>
   );
