@@ -848,6 +848,14 @@
         {
           "question": "¿El café puede contar como parte de mi ingesta diaria de agua?",
           "answer": "Sí. Los valores de referencia de agua de las Academias Nacionales de EE. UU. cuentan las bebidas con cafeína en la ingesta total de agua, y la EFSA considera seguros hasta 400 mg de cafeína al día para adultos sanos (200 mg en el embarazo)."
+        },
+        {
+          "question": "¿Qué tan malo es tomar 1,5 litros de café al día?",
+          "answer": "Para un adulto sano que toma café con regularidad, la deshidratación no es el problema: los ensayos con dosis equivalentes a unas cuatro a seis tazas al día no mostraron signos de hipohidratación. Lo que sí conviene vigilar es la cafeína total, porque la EFSA considera seguros hasta 400 mg diarios para adultos sanos (200 mg durante el embarazo). Si duermes mal o tienes palpitaciones, consulta con tu médico."
+        },
+        {
+          "question": "¿El café retiene líquidos en el cuerpo?",
+          "answer": "No hay evidencia de que el café retenga líquidos. En un ensayo con 72 hombres, el café no produjo más orina que el agua sin gas, y su aporte de agua cuenta para tu ingesta diaria de líquidos. La cafeína tiene un efecto diurético leve que en bebedores habituales casi desaparece."
         }
       ],
       "references": [
@@ -998,6 +1006,14 @@
         {
           "question": "Café pode contar para minha ingestão diária de água?",
           "answer": "Sim. Os valores de referência de água das Academias Nacionais dos EUA contam bebidas com cafeína na ingestão total de água, e a EFSA considera seguros até 400 mg de cafeína por dia para adultos saudáveis (200 mg na gravidez)."
+        },
+        {
+          "question": "O café desidrata o corpo?",
+          "answer": "Não, para quem toma café com regularidade o efeito diurético da cafeína é pequeno e o café conta como líquido. Em um estudo com 50 homens habituados ao café, três dias com quatro canecas por dia não mudaram o estado de hidratação em comparação com água. O cenário mais provável para notar mais idas ao banheiro é uma dose alta de cafeína depois de uma pausa de duas semanas ou mais."
+        },
+        {
+          "question": "O café retém líquido ou faz perder líquido?",
+          "answer": "Nas pesquisas citadas neste artigo, o café não fez o corpo perder mais líquido do que a água. Em um ensaio com 72 homens, 1 litro de café não produziu mais urina do que 1 litro de água sem gás. Se algo no seu corpo preocupa você, vale conversar com um médico."
         }
       ],
       "references": [

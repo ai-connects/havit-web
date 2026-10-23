@@ -110,6 +110,14 @@
         {
           "question": "Do calories burned while sleeping count as active or total?",
           "answer": "Sleep calories are part of your BMR and appear only in total calories burned, not active calories. Your body still expends significant energy during sleep—typically 40-80 calories per hour depending on your size—for essential functions like breathing, circulation, and cellular repair."
+        },
+        {
+          "question": "What is the difference between active calories and total calories?",
+          "answer": "Active calories are only the energy you spend on movement above your baseline, while total calories are your baseline burn (BMR) plus the thermic effect of food plus all physical activity. For most adults, BMR alone makes up roughly 60-75% of daily burn. So if your watch shows 387 for a run and 2,847 for the day, the gap is mostly what your body would have burned anyway."
+        },
+        {
+          "question": "What does active calories mean on a fitness tracker?",
+          "answer": "Active calories mean the extra energy you burned from movement beyond what you would have burned resting on the couch. They exclude your baseline burn, which is why the number looks small next to total calories. Trackers estimate both from population-based formulas, so treat each as an approximation and watch weekly trends rather than single-day figures."
         }
       ],
       "references": [
