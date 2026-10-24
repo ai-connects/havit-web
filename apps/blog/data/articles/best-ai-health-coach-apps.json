@@ -1085,156 +1085,162 @@
       "last_updated": "2026-10-24"
     },
     "id": {
-      "title": "Aplikasi Coach Kesehatan AI Terbaik 2026: Mana yang Benar-Benar Membaca Data Anda",
-      "short_title": "Aplikasi Coach AI Terbaik 2026",
-      "meta_description": "HAVIT, Halodoc, Alodokter, Journable, Lifesum, YAZIO, dan asisten umum — dibedah dari apa yang benar-benar dibaca coach-nya, apakah ia bicara lebih dulu, dan data apa yang tak pernah dilihatnya. Oktober 2026.",
-      "tldr": "Kotak chat menjawab yang sudah Anda tahu harus ditanya; coach memperhatikan yang tidak Anda tanyakan. Pembedanya adalah apakah catatan harian Anda sampai ke coach itu sama sekali — uji itu di masa coba, termasuk satu minggu yang buruk.",
-      "body_md": "Hampir semua aplikasi kesehatan menambahkan \"coach AI\" dalam dua tahun terakhir. Sebagian besar sebenarnya menambahkan kotak chat. Dua hal itu tidak sama.\n\nKotak chat menjawab pertanyaan yang sudah Anda tahu harus ditanyakan. Coach memperhatikan hal yang tidak Anda tanyakan. Yang memisahkan keduanya bukan kualitas model, melainkan **apakah catatan harian Anda sampai ke coach itu sama sekali.**\n\nPanduan ini membahas satu per satu aplikasi yang mengaku memberi pendampingan AI di Indonesia — termasuk aplikasi telemedisin yang sering dianggap pengganti, padahal bukan. Dicek di Google Play dan situs resmi, Oktober 2026.\n\n![Coach melihat hari Anda, bukan hanya pesan Anda](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n## Tiga uji yang memisahkan coach dari chatbot\n\n**1. Apakah ia membaca data Anda sendiri?** Saat masa coba, tanyakan apa yang Anda makan kemarin. Kalau Anda harus menempelkan jawabannya sendiri, coach itu cuma jendela chat dan aplikasinya cuma pelacak.\n\n**2. Apakah ia memberi satu tindakan, atau sebuah rencana?** Rencana adalah hal yang sudah pernah gagal Anda jalankan. *Makan 30 g protein saat sarapan* itu benar atau salah pada pukul sembilan pagi — artinya bisa diukur.\n\n**3. Apakah ia berubah ketika Anda berubah?** Sengaja catat satu minggu yang buruk. Sistem pendampingan yang sungguhan akan menurunkan permintaannya atau menanyakan apa yang terjadi. Yang berbasis skrip akan mengulang dorongan ceria yang sama.\n\n## HAVIT — delapan aliran data, masuk ke satu coach\n\n| | |\n| --- | --- |\n| Pembuat | Havit Inc. |\n| Harga | Gratis · ada pembelian dalam aplikasi |\n| Yang dibaca coach | Makan, air, olahraga, tidur, langkah, siklus haid, suasana hati, obat GLP-1 |\n| Database makanan | ±486.000 entri dari lembaga pangan publik |\n| Platform | iOS · Android · 35 bahasa, termasuk Bahasa Indonesia |\n\n![Coach AI HAVIT membaca seluruh catatan lalu mengembalikan satu tindakan konkret](/blog/havit/shot/feature-ai-coach.webp)\n\n**Di sinilah seluruh perbedaannya.** Coach HAVIT tidak membaca riwayat chat. Ia membaca **delapan aliran data Anda sendiri** — bukan cuma makanan, tapi juga tidur, langkah, siklus haid, dan obat.\n\nJadi ia bisa berkata: *protein di bawah target empat hari berturut-turut, dua malam tidur di bawah enam jam, dan ini minggu sebelum haid — tiga hal ini saling berhubungan, dan ini yang pertama diperbaiki.* Asisten AI umum tidak bisa menghasilkan kalimat itu. Ia mungkin mengingat Anda antarpercakapan, tapi ia **tidak punya aliran langsung ke makan, tidur, dan langkah Anda hari ini.**\n\n### Masuk dulu ke datanya: foto, bukan kolom pencarian\n\n![AI Food Scan — foto piringnya, lewati pencarian](/blog/havit/shot/feature-nutrition.webp)\n\nCoach sebaik datanya. Dan di Indonesia, data itu mati di titik yang sangat spesifik: sepiring nasi campur dengan enam komponen. Mari jujur — tidak ada aplikasi, HAVIT sekalipun, yang punya database lengkap masakan warteg dan rumahan Indonesia.\n\n**AI Food Scan** menyelesaikan hambatan itu dengan jalan lain: satu foto diubah menjadi perkiraan kalori dan makro per komponen. Itu sebabnya coach HAVIT masih punya sesuatu untuk dibaca pada hari-hari ketika aplikasi berbasis pencarian sudah menyerah.\n\n### Yang kembali adalah satu tindakan, bukan dasbor\n\n![Check-in harian — coach menanyakan dulu hari ini hari seperti apa](/blog/havit/shot/feature-daily-check-in.webp)\n\n**Check-in harian** datang lebih dulu: kondisi, tidur, nafsu makan, dan suasana hati dalam beberapa ketukan, supaya coach tahu hari ini hari seperti apa sebelum meminta apa pun. Ini juga cara satu hari yang buruk masuk ke sistem tanpa mengakhirinya.\n\nLalu **misi harian** menerjemahkan teknik perubahan perilaku yang sudah mapan menjadi satu tindakan untuk hari ini. Gagal mengerjakannya adalah masukan, bukan rangkaian yang putus — permintaan hari berikutnya ikut berubah.\n\n### Coach juga melihat tubuh Anda\n\n![Wawasan komposisi tubuh — tren lemak dan massa tanpa lemak](/blog/havit/shot/feature-body-insights.webp)\n\nHAVIT memperkirakan **tren lemak tubuh dan massa tanpa lemak** tanpa alat apa pun (studi pembanding internal terhadap InBody, n=70). Pada terapi GLP-1, **dosis, efek samping, dan protein** dibaca oleh coach yang sama.\n\n### Dan sisanya ada di aplikasi yang sama\n\n**Enam meditasi terpandu**, **video olahraga**, **lebih dari 1.400 artikel**, **puasa** — plus rangkaian hari, lencana, avatar, peringkat, dan tantangan tim. Fitur puasa dan check-in harian kebetulan pas sekali dengan Ramadan: sahur, berbuka, tidur yang berantakan, dan nafsu makan yang berubah semuanya masuk ke coach yang sama. Dikembangkan bersama para ahli dari Juvis Diet.\n\n**Cocok untuk:** orang yang rajin mencatat tapi tetap tidak tahu apa yang harus diubah; orang yang ingin coach yang benar-benar melihat datanya; orang yang capek memakai empat aplikasi.\n\n## Halodoc dan Alodokter — dokter sungguhan, bukan coach harian\n\n| | |\n| --- | --- |\n| Jenis | Telemedisin · konsultasi dokter, apotek, tes lab |\n| Google Play | Halodoc 4,8 bintang · 504 rb ulasan · 10 jt+ unduhan |\n| Google Play | Alodokter 4,8 bintang · 497 rb ulasan · 10 jt+ unduhan |\n\n![Manusia yang berlisensi adalah produk yang berbeda](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n**Yang dikerjakannya dengan baik.** Ini pengakuan yang harus dibuat terus terang: **keduanya memberi Anda akses ke dokter berlisensi dalam hitungan menit, dan tidak ada coach AI yang bisa menggantikan itu.** Chat dokter umum maupun spesialis, resep, obat diantar, tes lab di rumah, dan psikolog. Untuk gejala, diagnosis, dan obat, inilah jawaban yang benar di Indonesia.\n\n**Di mana ia gugur.** Keduanya bukan pendamping harian. Tidak ada pencatatan makan, tidak ada estimasi komposisi tubuh, tidak ada tren protein — jadi tidak ada yang bisa dibaca di antara konsultasi. Anda datang ketika ada masalah; tidak ada yang berbicara lebih dulu pada hari Selasa biasa ketika protein Anda turun tiga hari berturut-turut.\n\n**Cocok untuk:** siapa pun yang butuh dokter. Pakai keduanya berdampingan dengan aplikasi harian, bukan sebagai gantinya.\n\n## Journable dan pencatat berbasis AI lainnya\n\n| | |\n| --- | --- |\n| Jenis | Pencatatan kalori lewat chat dan foto |\n| Google Play | 4,9 bintang · 121 rb ulasan · 1 jt+ unduhan |\n\n**Yang dikerjakannya dengan baik.** Mengubah foto atau satu kalimat menjadi catatan dalam hitungan detik. AI-nya memang bekerja, dan untuk hidangan campur ini sering menentukan makanan itu tercatat atau tidak sama sekali.\n\n**Di mana ia gugur.** Pengenalan bukan pendampingan. Aplikasi seperti ini menjawab \"tadi itu apa?\" — bukan \"apa yang harus saya ubah?\". Tidur, langkah, siklus haid, dan obat tidak ikut terbaca, jadi tidak ada yang bisa menghubungkan satu minggu yang mandek dengan penyebabnya.\n\n**Cocok untuk:** orang yang hambatannya murni kecepatan mencatat.\n\n## Lifesum dan YAZIO — AI di atas pencatatan\n\n| | |\n| --- | --- |\n| Google Play | Lifesum 4,9 bintang · 379 rb ulasan · 10 jt+ unduhan |\n| Google Play | YAZIO 4,9 bintang · 870 rb ulasan · 50 jt+ unduhan |\n\n**Yang dikerjakannya dengan baik.** Keduanya rapi, tersedia dalam Bahasa Indonesia, dan punya lapisan saran otomatis di atas catatan makan. YAZIO menambahkan timer puasa yang berguna selama Ramadan.\n\n**Di mana ia gugur.** Yang dibaca lapisan AI-nya tetap sempit: makanan, berat badan, kadang aktivitas. Komposisi tubuh dan siklus haid di luar cakupan, dan cakupan makanan Indonesianya tipis dibanding FatSecret — artinya pada hari-hari warteg, catatannya kosong dan AI-nya kehilangan bahan.\n\n**Cocok untuk:** orang yang pola makannya berbasis produk kemasan dan ingin saran ringan.\n\n## Asisten umum (ChatGPT, Claude, Gemini)\n\n**Yang dikerjakannya dengan baik.** Menjelaskan konsep dan menyusun rencana ketika diminta — sangat baik, dan gratis untuk dicoba. Sekarang mereka juga mengingat antarpercakapan dan bisa mengirim pesan terjadwal kalau Anda mengaturnya.\n\n**Di mana ia gugur.** **Tidak ada aliran berkelanjutan dari makan, tidur, dan langkah Anda hari ini.** Pesan pukul sembilan malam adalah pesan yang Anda sendiri konfigurasikan, dari data yang Anda tempelkan sendiri. Mereka juga — dan ini benar — menolak mendiagnosis atau mengatur dosis obat.\n\n**Cocok untuk:** orang yang ingin jawaban atas pertanyaan. Bukan coach yang berbicara lebih dulu dari data Anda sendiri.\n\n## Perbandingan berdampingan\n\n| Aplikasi | Yang dibaca coach | Bicara lebih dulu | Komposisi tubuh | Siklus haid | GLP-1 | Meditasi & olahraga |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **8 catatan** | **Ya** | **Estimasi** | **Ya** | **Ya** | **Ya** |\n| Halodoc / Alodokter | Tidak ada catatan harian | Tidak | Tidak | Tidak | Konsultasi dokter | Tidak |\n| Journable / pencatat AI | Foto yang baru diambil | Tidak | Tidak | Tidak | Tidak | Tidak |\n| Lifesum | Makan, berat | Terbatas | Tidak | Tidak | Tidak | Konten saja |\n| YAZIO | Makan, puasa | Terbatas | Tidak | Tidak | Tidak | Tidak |\n| Asisten umum | Hanya yang Anda tempel | Hanya kalau dijadwalkan | Tidak | Tidak | Tidak | Tidak |\n\nKarakteristik aplikasi per Oktober 2026.\n\n## Kapan sebaiknya Anda tidak membeli coach AI\n\n- **Kalau Anda belum mencatat apa pun.** Coach berbasis data adalah fungsi dari masukan Anda. Bangun dulu kebiasaan mencatat, lalu tambahkan pendampingan setelah punya sekitar empat minggu data.\n- **Kalau yang Anda butuhkan manusia.** Untuk gangguan makan, kondisi yang sudah terdiagnosis, atau target atlet dengan tenggat, temui profesional — di Indonesia itu semudah membuka Halodoc atau Alodokter. AI kesehatan yang baik menolak mendiagnosis dan tidak akan menyuruh Anda mengubah dosis yang diresepkan, HAVIT termasuk.\n\n## Kesimpulan\n\n\"AI mana yang paling pintar\" adalah pertanyaan yang keliru. Semua yang serius sudah cukup pintar untuk pekerjaan ini.\n\nPertanyaannya adalah mana yang **melihat data Anda, mengatakan satu hal, dan berubah ketika Anda berubah.** Uji itu selama dua minggu, termasuk satu minggu yang buruk, di dalam masa coba gratis.\n\n[Coba HAVIT →](https://www.aihavit.com/)",
+      "title": "Rekomendasi 7 Aplikasi Pelatih Diet AI 2026 — Pilih dari Apa yang Dibaca Pelatihnya",
+      "short_title": "7 Aplikasi Pelatih Diet AI 2026",
+      "meta_description": "HAVIT, Fita, Journable, Lifesum, Cal AI, Noom, dan asisten AI umum dibandingkan: catatan apa yang dibaca pelatih AI-nya, apakah ia menyapa lebih dulu, apakah bisa ditanya lewat foto, dan apa saja yang gratis. Berdasarkan App Store Indonesia, Oktober 2026.",
+      "tldr": "Pilih aplikasi pelatih AI bukan dari seberapa pintar AI-nya, tapi dari apa yang dibaca pelatihnya dan apa yang ia lakukan untuk Anda. Pelatih yang hanya melihat makanan dan pelatih yang juga membaca tidur, langkah, siklus haid, dan obat akan memberi jawaban berbeda untuk pertanyaan yang sama. Saat mencoba, tanyakan \"kemarin saya makan apa?\" dan cek sejauh mana chat dan analisis foto bisa dipakai gratis.",
+      "body_md": "Sekarang hampir semua aplikasi diet menempelkan label \"AI\". Tapi begitu dipakai, kerjanya ternyata sangat berbeda. Ada yang menghitung kalori dari foto makanan, ada yang menjawab lewat chat setiap kali Anda bertanya, ada yang menyusun rencana makan, dan ada yang benar-benar membaca catatan harian Anda.\n\nWalaupun namanya sama, pembedanya hanya satu: **seberapa banyak catatan Anda yang dibaca pelatihnya, dan apa yang ia lakukan dengan catatan itu.** Untuk pertanyaan yang sama, pelatih yang tahu apa yang Anda makan kemarin, bagaimana tidur Anda minggu lalu, dan arah berat badan Anda bulan ini akan menjawab berbeda dari pelatih yang tidak tahu apa-apa.\n\nArtikel ini membahas tujuh pilihan yang banyak dicari di Indonesia: HAVIT, Fita, Journable, Lifesum, Cal AI, Noom yang menawarkan coaching dengan manusia, serta asisten AI umum seperti ChatGPT. Rating dan fitur mengikuti deskripsi resmi di App Store Indonesia per 24 Oktober 2026. Harga tidak kami tulis karena sering berubah.\n\nHAVIT dibuat oleh tim yang menulis artikel ini, yaitu **para ahli yang berasal dari Juvis Diet** (merek pendampingan diet asal Korea Selatan). Karena itu kami menuliskan kriteria memilih lebih dulu, dan juga menulis terus terang kapan HAVIT bukan pilihan yang tepat.\n\n![Yang dilihat pelatih bukan percakapan Anda, tapi hari Anda](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n## Rekomendasi cepat sesuai kondisi Anda\n\n| Kalau Anda... | Aplikasi yang cocok | Alasannya |\n| --- | --- | --- |\n| Rajin mencatat tapi bingung harus mengubah apa | **HAVIT** | Pelatih AI HAVI membaca catatan makan, tidur, langkah, dan siklus haid sekaligus lalu menyarankan tindakan hari ini |\n| Sedang memakai obat GLP-1 | **HAVIT** | Sejak percakapan pertama ditanya soal pemakaian obat dan efek samping, lalu catatan dosis dibaca oleh pelatih yang sama |\n| Ingin menutup hari dan menulis komitmen | **HAVIT** | Ringkasan malam pukul 22.00 dan komitmen satu kalimat (HAVIT Premium) |\n| Ingin program dan komunitas yang terasa Indonesia | Fita | Program diet & olahraga, resep lokal, komunitas yang dimoderasi pelatih bersertifikat |\n| Ingin mencatat makan semudah chatting | Journable | Ketik atau kirim foto ke AI, kalori dan makro langsung dihitung |\n| Ingin rencana makan yang disusun untuk Anda | Lifesum | Rencana nutrisi dan menu sesuai tujuan, pencatatan dengan foto dan suara |\n| Cukup foto makanan lalu tahu angkanya | Cal AI | Foto makanan → rincian gizi (hasil analisis perlu berlangganan) |\n| Ingin bicara dengan manusia, bukan AI | Noom | Coaching 1:1 opsional dan pelajaran harian |\n| Sesekali hanya ingin bertanya | Asisten AI umum (ChatGPT dll.) | Pandai menjelaskan dan menyusun rencana, tapi catatan Anda harus dimasukkan sendiri |\n\n## Kriteria memilih pelatih AI — cukup lihat 4 hal ini\n\n**1. Apa yang dibaca pelatihnya?** Ini yang pertama harus dilihat. Pelatih yang hanya melihat makanan cuma bisa bilang \"makan siang tadi terlalu asin\". Supaya bisa ikut mencari \"kenapa berat badan minggu ini berhenti turun\", tidur, langkah, siklus haid, dan obat harus ada di aplikasi yang sama. Saat mencoba, tanyakan \"kemarin saya makan apa?\" dan \"bagaimana tidur saya minggu ini?\". Kalau Anda harus memberi tahu ulang supaya ia bisa menjawab, pelatih itu tidak membaca catatan Anda.\n\nMenumpuknya catatan yang bisa dibaca juga penting. Sebuah tinjauan sistematis atas 39 uji acak tentang pencatatan mandiri digital dalam program penurunan berat badan menemukan bahwa **pada 74% temuan yang dianalisis, pencatatan yang lebih banyak berkaitan dengan penurunan berat badan yang lebih besar** (Patel 2021). Kalau catatannya tipis, pelatih mana pun tidak punya banyak bahan.\n\n**2. Apakah ia memberi tindakan untuk hari ini, bukan sekadar rencana?** \"Coba jaga pola makan\" bukan saran. Lihat apakah ia memberi satu tindakan yang jelas dilakukan atau tidak, misalnya \"malam ini mulai dari lauk berprotein\". Cek juga apakah pelatih hanya menjawab saat ditanya, atau menyapa lebih dulu lewat laporan atau pesan.\n\n**3. Pahami bedanya dengan pelatih manusia.** Pelatih AI menjawab tengah malam sekalipun dan tidak lelah ditanya hal yang sama sepuluh kali. Pelatih manusia menciptakan \"hubungan\": Anda merasa tidak enak kalau tidak membalas. Dari sisi penelitian, bukti untuk AI juga mulai terkumpul. Meta-analisis atas 19 studi chatbot untuk aktivitas fisik, pola makan, dan tidur menemukan chatbot meningkatkan jumlah langkah harian, asupan sayur dan buah, serta durasi tidur — tapi 74% studinya dinilai berkualitas rendah (Singh 2023). Dalam tinjauan pencatatan tadi, tingkat konsistensi mencatat pada program yang disertai konseling dan program yang hanya memakai aplikasi juga mirip (Patel 2021). Kalau Anda baru bergerak saat harus melapor ke seseorang, pilih pelatih manusia; kalau waktu dan biaya jadi kendala, pelatih AI lebih masuk akal.\n\n**4. Apakah Anda tahu batasnya?** AI kesehatan yang baik tidak mendiagnosis dan tidak menyuruh Anda mengubah dosis obat yang diresepkan. Kalau Anda curiga punya gangguan makan, sudah didiagnosis penyakit tertentu, atau sedang hamil, temui tenaga kesehatan lebih dulu sebelum mengandalkan aplikasi. Cal AI pun menulis di deskripsinya bahwa mereka tidak memberikan nasihat medis.\n\n## HAVIT — pelatih AI HAVI buatan mantan tim Juvis Diet\n\n| | |\n| --- | --- |\n| Pengembang | Havit Inc. |\n| Pembuat | Para ahli yang berasal dari Juvis Diet |\n| Pelatih AI | HAVI — menyusun Body Blueprint dan rencana target lewat percakapan awal, membaca seluruh catatan dan menyarankan tindakan hari ini, bisa ditanya lewat foto |\n| Gratis | Pencatatan makan (cari atau ketik sendiri) dan kalori per waktu makan; catatan berat badan, air, tidur, langkah, puasa, suasana hati, siklus haid, dan GLP-1; estimasi komposisi tubuh; chat dengan pelatih AI (jumlah per hari dibatasi) |\n| HAVIT Premium | Chat tanpa batas; ringkasan malam dan komitmen; check-in harian; analisis karbohidrat, protein, dan lemak per waktu makan dan per hari; sisa kalori; pemindaian makanan dengan AI; video olahraga, meditasi terpandu, dan artikel; 2 Streak Saver setiap minggu |\n| App Store | 4,7 (159 ulasan, App Store AS — ulasan di App Store Indonesia masih terlalu sedikit) |\n\nPembagian gratis/Premium mengikuti pengaturan bawaan aplikasi per Oktober 2026; sebagian fitur Premium bisa saja dibuka gratis saat ada promo.\n\n### Pelatih AI HAVI — membaca catatan Anda dan memberi tahu apa yang dilakukan hari ini\n\n![Pelatih AI HAVIT — membaca seluruh catatan, lalu mengembalikan satu tindakan untuk hari ini](/blog/havit/shot/feature-ai-coach.webp)\n\n**Dimulai dengan percakapan.** HAVI menanyakan tujuan Anda (turun berat, menjaga berat, kebiasaan sehat, atau menambah otot), apakah Anda memakai obat GLP-1 dan efek sampingnya, lalu tinggi, berat, lingkar pinggang, dan bentuk tubuh. Dari jawaban itu HAVI menyusun **Body Blueprint** — gambaran kondisi tubuh Anda saat ini — beserta rencana target. Karena dimulai dengan percakapan, bukan mengisi formulir pengaturan, orang yang memakai obat dan yang tidak sudah mendapat rencana berbeda sejak awal.\n\n**Setiap hari, seluruh catatan dibaca bersama.** Makan, berat badan, air, tidur, langkah, puasa, siklus haid, suasana hati, dan obat GLP-1 ada di satu aplikasi, sehingga HAVI tidak hanya melihat menu makan, tapi juga hari di baliknya. Misalnya di minggu ketika berat badan berhenti turun, HAVI bisa melihat bahwa protein empat hari berturut-turut di bawah target, dua malam tidur kurang dari enam jam, dan itu minggu menjelang haid — lalu menunjuk **satu hal yang sebaiknya diubah lebih dulu**. Inilah jawaban HAVIT untuk kriteria nomor 1, \"apa yang dibaca pelatihnya\".\n\n**Tanyakan langsung, juga lewat foto.** Pilihan menu saat makan di luar, berat badan yang mandek, atau mau makan apa saat perut tidak nyaman setelah minum obat — Anda bisa menanyakannya lewat chat, bahkan **dengan mengirim foto**. Misalnya memotret daftar menu atau etalase minimarket lalu bertanya \"mana yang lebih baik?\". Anggota gratis punya batas jumlah chat per hari; HAVIT Premium tanpa batas.\n\n**Menutup hari dan menulis komitmen.** Setiap pukul 22.00 datang **ringkasan malam** untuk hari itu, dan Anda bisa menulis **komitmen satu kalimat** untuk besok. Seiring waktu, terlihat berapa komitmen yang Anda tepati dalam 14 hari terakhir. Artinya, ada satu waktu tetap setiap hari ketika pelatih menyapa lebih dulu (ringkasan malam dan komitmen termasuk HAVIT Premium).\n\n![Check-in harian — catat hari ini hari seperti apa dengan beberapa ketukan](/blog/havit/shot/feature-daily-check-in.webp)\n\nDengan **check-in harian** (HAVIT Premium), Anda cukup mengetuk beberapa kali untuk mencatat kondisi, tidur, nafsu makan, dan suasana hati. Hari yang kurang lancar pun tidak dibiarkan kosong; Anda tetap meninggalkan jejak hari itu seperti apa.\n\n**Program 12 minggu menentukan tindakannya.** Setiap dari 12 tahap punya misi konkret seperti target langkah atau protein, dan tercapainya misi dinilai dari catatan makan dan langkah yang nyata, bukan dari tombol \"sudah\". Misi yang harus dilakukan beberapa hari berturut-turut dimaafkan sekali kalau terlewat, kedua kalinya bisa dilanjutkan dengan Streak Saver (item penjaga rangkaian), dan ketiga kalinya dimulai ulang.\n\n### Dibuat oleh mantan tim Juvis Diet\n\nHAVIT dibuat oleh **para ahli yang berasal dari Juvis Diet**. Juvis adalah merek diet asal Korea Selatan yang mendampingi pola makan dan gaya hidup kliennya secara langsung, orang ke orang. Percakapan awal HAVI dan program 12 minggunya membawa cara kerja dari pihak yang sudah lama membantu orang menurunkan dan menjaga berat badan, jauh sebelum membuat aplikasi.\n\n![Wawasan komposisi tubuh — bukan hanya berat, tapi tren lemak dan massa tanpa lemak](/blog/havit/shot/feature-body-insights.webp)\n\n- **Melihat komposisi tubuh, bukan cuma angka timbangan.** HAVIT memperkirakan tren lemak dan massa tanpa lemak tanpa alat apa pun (gratis). Dalam perbandingan internal (70 orang), 92,9% hasilnya berada dalam selisih ±5 poin persen dari pengukuran InBody; ini bukan pengukuran medis. Karena itu protein dan latihan beban ada di pusat misi dan arahan pelatih.\n- **Mengubah satu hal dalam satu waktu.** Seperti saat didampingi orang, pelatih tidak menjejerkan banyak tugas, tapi menunjuk satu hal yang perlu diubah sekarang.\n- **Hari yang berantakan dianggap bagian dari proses.** Supaya satu hari bolong tidak mengakhiri semuanya, ada kelonggaran dan Streak Saver untuk menarik Anda kembali.\n\n### Kapan HAVIT kurang cocok untuk Anda\n\nKalau Anda **ingin mencatat makan cukup dengan satu foto dan semuanya gratis**, HAVIT kurang cocok, karena pemindaian makanan dengan AI adalah fitur HAVIT Premium. Kalau Anda ingin **program dan komunitas dengan konteks lokal**, Fita lebih pas; kalau **rencana makan siap pakai** yang jadi prioritas, Lifesum; kalau perlu **pelatih manusia**, Noom. Saat memakai versi gratis, chat dengan pelatih dibatasi per hari, dan ringkasan malam serta check-in harian tidak terbuka.\n\n**Cocok untuk:** Anda yang rajin mencatat tapi bingung harus mengubah apa, yang berat badannya terkait dengan tidur dan siklus haid, yang sedang memakai obat GLP-1, dan yang ingin pelatihnya melihat seluruh catatan.\n\n## Fita — program dan komunitas dengan konteks Indonesia\n\n| | |\n| --- | --- |\n| App Store (Indonesia) | 4,6 (523 ulasan) |\n| Pendampingan | Bimbingan personal di dalam program, komunitas yang dimoderasi pelatih bersertifikat, langganan Exercise AI |\n| Gratis/berbayar | Unduh gratis; Meal Plan, Exercise Plan, Exercise AI, Fita Premium, dan paket lain lewat pembelian dalam aplikasi |\n\n**Kelebihannya.** Di setiap program diet atau olahraga — termasuk program dari influencer — Anda mendapat **bimbingan personal** untuk membangun kebiasaan baik, kebutuhan kalori, dan pengetahuan hidup sehat. Pertanyaan soal gizi dan olahraga bisa diajukan di **komunitas yang dimoderasi pelatih berpengalaman dan bersertifikat**. Pencatatan makannya mengenal makanan favorit Indonesia, dan langkah serta aktivitas bisa diambil dari Apple Health.\n\n**Kekurangannya.** Deskripsi resmi tidak menjelaskan bagaimana pendampingan membaca catatan harian Anda, dan apa persisnya fungsi \"Exercise AI\" juga tidak dirinci. Catatan tidur, siklus haid, dan obat GLP-1 tidak disebutkan.\n\n**Cocok untuk:** Anda yang ingin program terstruktur dengan menu lokal dan suka bertanya di komunitas.\n\n## Journable — mencatat makan lewat chat dengan AI\n\n| | |\n| --- | --- |\n| App Store (Indonesia) | 4,9 (84 ulasan) |\n| AI | Chat teks atau foto → kalori dan makro dihitung, wawasan nutrisi dari AI, laporan mingguan |\n| Gratis/berbayar | Ada uji coba gratis; setelahnya perlu berlangganan untuk terus mencatat |\n\n**Kelebihannya.** Cukup tulis \"tadi makan nasi, ayam goreng, dan sayur\" atau kirim foto, AI akan menghitung kalori dan makronya. Mendukung makanan lokal maupun internasional menurut deskripsinya. Ada wawasan nutrisi dari AI, pengingat, catatan air, dan **laporan mingguan** yang bisa dibagikan ke pelatih pribadi atau ahli gizi.\n\n**Kekurangannya.** Setelah masa uji coba, pencatatan pun perlu berlangganan. Yang dibaca AI-nya adalah makanan, olahraga, dan berat badan; tidur dan siklus haid tidak disebutkan. Jumlah ulasannya di Indonesia masih sedikit.\n\n**Cocok untuk:** Anda yang hambatan utamanya adalah repotnya mencatat.\n\n## Lifesum — rencana nutrisi yang disusun untuk Anda\n\n| | |\n| --- | --- |\n| App Store (Indonesia) | 4,8 (1.761 ulasan) |\n| AI | Pencatatan lewat foto, suara, teks, atau barcode; rencana nutrisi dan menu sesuai tujuan; Life Score |\n| Gratis/berbayar | Gratis dengan fitur terbatas + Premium |\n\n**Kelebihannya.** Anda bisa mencatat dengan **memotret, berbicara, mengetik, atau memindai barcode**. Setelah Anda memasukkan tujuan, preferensi, pantangan, dan tingkat aktivitas, Lifesum menyusun **rencana nutrisi** dan rencana makan lengkap dengan daftar belanja. **Life Score** menilai kesehatan secara umum dari pola makan, minum, dan aktivitas.\n\n**Kekurangannya.** Fitur lengkapnya ada di Premium. Deskripsi resmi tidak menyebut chat dengan pelatih maupun catatan tidur, siklus haid, atau obat GLP-1. Bahasa Indonesia tidak tercantum di daftar bahasa aplikasinya di App Store.\n\n**Cocok untuk:** Anda yang ingin rencana makan siap pakai, bukan percakapan.\n\n## Cal AI — foto makanan, langsung tahu angkanya\n\n| | |\n| --- | --- |\n| App Store (Indonesia) | 4,9 (2.290 ulasan) |\n| AI | Rencana disusun dari pertanyaan gaya hidup; foto makanan → rincian gizi |\n| Gratis/berbayar | Hasil analisis foto makanan perlu berlangganan |\n\n**Kelebihannya.** Alurnya sangat sederhana: jawab beberapa pertanyaan gaya hidup untuk menyusun rencana, lalu potret makanan untuk mendapat rincian gizinya. Cocok kalau Anda ingin mencatat dengan usaha sesedikit mungkin.\n\n**Kekurangannya.** Hasil analisis foto perlu berlangganan. Deskripsi resminya berfokus pada pencatatan makan; tidak disebutkan pelatih yang membaca tidur, langkah, atau siklus haid. Aplikasi ini juga menulis bahwa mereka tidak memberikan nasihat medis.\n\n**Cocok untuk:** Anda yang cukup ingin tahu angka kalori dari foto.\n\n## Noom — pelatih manusia, bukan AI\n\n| | |\n| --- | --- |\n| App Store (Indonesia) | 4,4 (128 ulasan) |\n| Pelatih | Coaching 1:1 opsional (manusia), pelajaran harian tentang kebiasaan |\n| Gratis/berbayar | Berbasis langganan (menurut deskripsi resmi) |\n\n![Adanya manusia adalah inti aplikasi ini](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n**Kelebihannya.** Di antara daftar ini, Noom satu-satunya yang menawarkan **coaching 1:1 dengan manusia** sebagai pilihan. Ada pelajaran harian tentang kebiasaan dan perubahan perilaku, pencatatan makan dengan AI, kelas olahraga dan meditasi, serta komunitas.\n\n**Kekurangannya.** Deskripsinya di App Store Indonesia banyak merujuk ke layanan dan harga Amerika Serikat, jadi periksa dulu apa yang tersedia untuk Anda. Pelatih manusia juga tidak selalu membalas seketika. Catatan siklus haid dan estimasi komposisi tubuh tidak disebutkan di deskripsi resmi.\n\n**Cocok untuk:** Anda yang baru bergerak kalau harus melapor ke seseorang, dan siap membayar untuk itu.\n\n## Asisten AI umum (ChatGPT, Gemini, Claude, dll.)\n\n**Kelebihannya.** Sangat pandai menjelaskan konsep, menyusun menu mingguan, atau membandingkan pilihan makanan di luar. Anda juga bisa bertanya dengan mengunggah foto, dan sebagian layanan punya fitur yang mengingat percakapan sebelumnya.\n\n**Kekurangannya.** Berbeda dengan aplikasi diet, **catatan makan, langkah, dan tidur Anda tidak masuk otomatis setiap hari.** Ia menjawab dari informasi yang Anda tempelkan, jadi di hari yang tidak Anda ceritakan, ia pun tidak tahu. Sebagian layanan mulai menyediakan integrasi data kesehatan, tapi ketersediaannya berbeda menurut negara dan fitur, jadi periksa sendiri. Jangan pula memakainya untuk mendiagnosis atau menentukan dosis obat.\n\n**Cocok untuk:** Anda yang ingin bertanya kapan saja. Ia bukan pelatih yang menyapa lebih dulu setiap hari.\n\n## Perbandingan sekilas\n\n| Aplikasi | Yang dilakukan AI/pelatih | Catatan yang ikut dibaca | Bertanya/mencatat lewat foto | Menyapa lebih dulu | Gratis/berbayar | App Store |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | Rencana dari percakapan awal → membaca catatan dan menyarankan tindakan hari ini | Makan, tidur, langkah, siklus haid, suasana hati, GLP-1, dan lainnya | Foto di chat (pemindaian makanan AI di Premium) | Ringkasan malam pukul 22.00 (Premium) | Chat gratis (dibatasi per hari), tanpa batas di Premium | 4,7 (159, AS) |\n| Fita | Bimbingan dalam program, komunitas dengan pelatih bersertifikat | Makan, air, olahraga, berat, langkah | Tidak disebutkan di deskripsi resmi | Tidak disebutkan di deskripsi resmi | Gratis + paket berbayar | 4,6 (523) |\n| Journable | Mencatat lewat chat, wawasan nutrisi AI | Makan, olahraga, berat, air | Foto → kalori dan makro | Pengingat, laporan mingguan | Uji coba, lalu berlangganan | 4,9 (84) |\n| Lifesum | Rencana nutrisi dan menu, Life Score | Makan, minum, aktivitas | Foto, suara, barcode | Tidak disebutkan di deskripsi resmi | Gratis terbatas + Premium | 4,8 (1.761) |\n| Cal AI | Rencana dari pertanyaan, analisis foto makanan | Makan | Foto → rincian gizi | Tidak disebutkan di deskripsi resmi | Analisis foto perlu berlangganan | 4,9 (2.290) |\n| Noom | Coaching 1:1 manusia (opsional), pelajaran harian | Makan, langkah | Pencatatan makan dengan AI | Tidak disebutkan di deskripsi resmi | Langganan | 4,4 (128) |\n| Asisten AI umum | Menjawab pertanyaan, menyusun rencana | Yang Anda masukkan sendiri | Bisa melampirkan foto | Harus diatur sendiri | Gratis + berbayar | — |\n\nBerdasarkan deskripsi resmi di App Store Indonesia per 24 Oktober 2026 (HAVIT memakai rating App Store AS karena ulasan di Indonesia masih terlalu sedikit). \"Tidak disebutkan di deskripsi resmi\" berarti fitur itu tidak bisa dipastikan dari deskripsi, bukan berarti pasti tidak ada.\n\n## Coba dua minggu dengan cara ini\n\nSebagian besar aplikasi bisa dimulai gratis atau punya masa uji coba, jadi cara paling pasti adalah mencobanya sendiri sebelum memutuskan.\n\n1. **Minggu pertama, catat seperti biasa.** Jangan hanya makan; biarkan tidur dan langkah juga ikut terkumpul.\n2. **Tanyakan \"kemarin saya makan apa?\" dan \"bagaimana tidur saya minggu ini?\".** Langsung kelihatan apakah pelatihnya membaca catatan.\n3. **Tanyakan \"kenapa berat saya minggu ini tidak turun?\".** Perhatikan apakah jawabannya cuma teori umum (\"kurangi kalori\") atau mencari alasan dari catatan Anda.\n4. **Catat juga hari yang berantakan apa adanya.** Apa yang dikatakan pelatih setelah hari yang buruk menentukan apakah Anda akan betah memakainya lama.\n5. **Cek apa saja yang gratis.** Apakah chat dengan pelatih gratis, berapa kali sehari, dan apakah analisis foto berbayar — semuanya berbeda di setiap aplikasi.\n\n## Kesimpulan\n\nAplikasi pelatih AI lebih tepat dipilih dari **apa yang dibaca pelatihnya dan apa yang ia lakukan untuk Anda**, bukan dari \"AI mana yang lebih pintar\".\n\nKalau ingin program dan komunitas dengan konteks lokal, Fita; kalau ingin mencatat semudah chatting, Journable; kalau ingin rencana makan siap pakai, Lifesum; kalau cukup foto lalu tahu angkanya, Cal AI; kalau perlu pelatih manusia, Noom. Tapi kalau Anda rajin mencatat dan tetap tidak tahu harus mengubah apa, Anda butuh pelatih yang membaca makan, tidur, langkah, siklus haid, dan obat GLP-1 sekaligus, lalu mengatakan satu hal untuk dilakukan hari ini. HAVIT adalah aplikasi tempat para ahli dari Juvis Diet mewujudkan pelatih itu sebagai pelatih AI HAVI.\n\n[Mulai dengan HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "Aliran data yang dibaca coach HAVIT",
-          "value": "8",
-          "source": "Makan, air, olahraga, tidur, langkah, siklus haid, suasana hati, GLP-1"
+          "label": "Temuan pada studi pencatatan digital: pencatatan lebih banyak, penurunan berat lebih besar",
+          "value": "74%",
+          "source": "Patel dkk. 2021, Obesity (tinjauan sistematis 39 uji acak)"
         },
         {
-          "label": "Yang tidak dimiliki asisten AI umum",
-          "value": "Aliran langsung makan, tidur, dan langkah hari ini",
-          "source": "Ingatan antarpercakapan bukan aliran data langsung"
+          "label": "Meta-analisis chatbot untuk aktivitas, pola makan, dan tidur",
+          "value": "19 studi — langkah, sayur-buah, dan tidur membaik; 74% berkualitas rendah",
+          "source": "Singh dkk. 2023, npj Digital Medicine"
         },
         {
-          "label": "Unduhan Halodoc di Google Play",
-          "value": "10 jt+ · 4,8 bintang",
-          "source": "Google Play, dicek Oktober 2026"
+          "label": "Rating HAVIT di App Store (AS)",
+          "value": "4,7 (159 ulasan)",
+          "source": "App Store, dicek 24 Oktober 2026"
         },
         {
-          "label": "Teknik perubahan perilaku dalam taksonomi standar",
-          "value": "93",
-          "source": "Michie dkk. 2013, Ann Behav Med"
+          "label": "Catatan yang dibaca bersama oleh HAVI",
+          "value": "Makan, tidur, langkah, siklus haid, suasana hati, GLP-1, dan lainnya",
+          "source": "Fitur aplikasi HAVIT"
         }
       ],
       "comparison_table": {
-        "title": "Perbandingan berdampingan",
+        "title": "Perbandingan sekilas",
         "headers": [
           "Aplikasi",
-          "Yang dibaca coach",
-          "Bicara lebih dulu",
-          "Komposisi tubuh",
-          "Siklus haid",
-          "GLP-1",
-          "Meditasi & olahraga"
+          "Yang dilakukan AI/pelatih",
+          "Catatan yang ikut dibaca",
+          "Bertanya/mencatat lewat foto",
+          "Menyapa lebih dulu",
+          "Gratis/berbayar",
+          "App Store"
         ],
         "rows": [
           [
             "HAVIT",
-            "8 catatan",
-            "Ya",
-            "Estimasi",
-            "Ya",
-            "Ya",
-            "Ya"
+            "Rencana dari percakapan awal → membaca catatan dan menyarankan tindakan hari ini",
+            "Makan, tidur, langkah, siklus haid, suasana hati, GLP-1, dan lainnya",
+            "Foto di chat (pemindaian makanan AI di Premium)",
+            "Ringkasan malam pukul 22.00 (Premium)",
+            "Chat gratis (dibatasi per hari), tanpa batas di Premium",
+            "4,7 (159, AS)"
           ],
           [
-            "Halodoc / Alodokter",
-            "Tidak ada catatan harian",
-            "Tidak",
-            "Tidak",
-            "Tidak",
-            "Konsultasi dokter",
-            "Tidak"
+            "Fita",
+            "Bimbingan dalam program, komunitas dengan pelatih bersertifikat",
+            "Makan, air, olahraga, berat, langkah",
+            "Tidak disebutkan di deskripsi resmi",
+            "Tidak disebutkan di deskripsi resmi",
+            "Gratis + paket berbayar",
+            "4,6 (523)"
           ],
           [
-            "Journable / pencatat AI",
-            "Foto yang baru diambil",
-            "Tidak",
-            "Tidak",
-            "Tidak",
-            "Tidak",
-            "Tidak"
+            "Journable",
+            "Mencatat lewat chat, wawasan nutrisi AI",
+            "Makan, olahraga, berat, air",
+            "Foto → kalori dan makro",
+            "Pengingat, laporan mingguan",
+            "Uji coba, lalu berlangganan",
+            "4,9 (84)"
           ],
           [
             "Lifesum",
-            "Makan, berat",
-            "Terbatas",
-            "Tidak",
-            "Tidak",
-            "Tidak",
-            "Konten saja"
+            "Rencana nutrisi dan menu, Life Score",
+            "Makan, minum, aktivitas",
+            "Foto, suara, barcode",
+            "Tidak disebutkan di deskripsi resmi",
+            "Gratis terbatas + Premium",
+            "4,8 (1.761)"
           ],
           [
-            "YAZIO",
-            "Makan, puasa",
-            "Terbatas",
-            "Tidak",
-            "Tidak",
-            "Tidak",
-            "Tidak"
+            "Cal AI",
+            "Rencana dari pertanyaan, analisis foto makanan",
+            "Makan",
+            "Foto → rincian gizi",
+            "Tidak disebutkan di deskripsi resmi",
+            "Analisis foto perlu berlangganan",
+            "4,9 (2.290)"
           ],
           [
-            "Asisten umum",
-            "Hanya yang Anda tempel",
-            "Hanya kalau dijadwalkan",
-            "Tidak",
-            "Tidak",
-            "Tidak",
-            "Tidak"
+            "Noom",
+            "Coaching 1:1 manusia (opsional), pelajaran harian",
+            "Makan, langkah",
+            "Pencatatan makan dengan AI",
+            "Tidak disebutkan di deskripsi resmi",
+            "Langganan",
+            "4,4 (128)"
+          ],
+          [
+            "Asisten AI umum",
+            "Menjawab pertanyaan, menyusun rencana",
+            "Yang Anda masukkan sendiri",
+            "Bisa melampirkan foto",
+            "Harus diatur sendiri",
+            "Gratis + berbayar",
+            "—"
           ]
         ],
-        "caption": "Karakteristik aplikasi per Oktober 2026."
+        "caption": "Berdasarkan deskripsi resmi di App Store Indonesia per 24 Oktober 2026 (HAVIT memakai rating App Store AS). \"Tidak disebutkan di deskripsi resmi\" berarti fitur itu tidak bisa dipastikan dari deskripsi, bukan berarti pasti tidak ada."
       },
       "faq": [
         {
-          "question": "Aplikasi coach kesehatan AI terbaik di Indonesia tahun 2026 apa?",
-          "answer": "Yang membaca data Anda sendiri, bukan hanya pesan Anda. Ujilah dengan tiga hal: tanyakan apa yang Anda makan kemarin tanpa menempelkan jawabannya, lihat apakah yang kembali adalah satu tindakan dan bukan satu rencana panjang, lalu sengaja catat satu minggu yang buruk dan perhatikan apakah permintaannya berubah. HAVIT dibangun di sekitar tiga hal itu karena coach-nya membaca delapan catatan sekaligus."
+          "question": "Aplikasi pelatih diet AI mana yang paling cocok?",
+          "answer": "Tergantung apa yang Anda cari. Kalau rajin mencatat tapi bingung harus mengubah apa, HAVIT yang membaca catatan makan, tidur, langkah, siklus haid, dan GLP-1 sekaligus. Kalau ingin program dengan konteks lokal, Fita. Kalau ingin mencatat lewat chat, Journable. Kalau ingin rencana makan siap pakai, Lifesum. Kalau perlu pelatih manusia, Noom."
         },
         {
-          "question": "Apa bedanya aplikasi coach AI dengan bertanya ke ChatGPT soal diet saya?",
-          "answer": "Asisten umum sangat baik menjelaskan konsep dan menyusun rencana, dan sekarang bisa mengingat Anda antarpercakapan. Yang tidak dimilikinya adalah aliran berkelanjutan dari makan, tidur, dan langkah Anda hari ini. Semua yang diketahuinya adalah yang Anda tempelkan sendiri, jadi ia tidak pernah bisa bicara lebih dulu tentang sesuatu yang tidak Anda sadari."
+          "question": "Apa yang dilakukan pelatih AI HAVI di HAVIT?",
+          "answer": "Di awal, HAVI menanyakan tujuan, pemakaian obat GLP-1 dan efek sampingnya, serta tinggi, berat, lingkar pinggang, dan bentuk tubuh lewat percakapan, lalu menyusun Body Blueprint dan rencana target. Setelah itu HAVI membaca seluruh catatan untuk menyarankan tindakan hari ini, dan Anda juga bisa bertanya dengan mengirim foto. Pukul 22.00 datang ringkasan malam dan komitmen satu kalimat, lengkap dengan jumlah komitmen yang ditepati dalam 14 hari terakhir (Premium)."
         },
         {
-          "question": "Apakah Halodoc atau Alodokter bisa menggantikan coach harian?",
-          "answer": "Tidak, dan sebaliknya juga tidak. Keduanya memberi akses ke dokter berlisensi dalam hitungan menit untuk gejala, resep, dan tes lab — tidak ada AI yang menggantikan itu. Tapi keduanya tidak mencatat makan, tidur, atau protein harian Anda, jadi tidak ada yang bisa dibaca di antara konsultasi. Pakai keduanya berdampingan dengan aplikasi pencatatan harian."
+          "question": "Apakah pelatih AI HAVIT gratis?",
+          "answer": "Chat dengan pelatih bisa dipakai gratis, tapi jumlahnya dibatasi per hari. HAVIT Premium membuka chat tanpa batas, ringkasan malam dan komitmen, check-in harian, pemindaian makanan dengan AI, dan analisis karbohidrat-protein-lemak. Catatan makan, berat badan, tidur, langkah, siklus haid, GLP-1, dan estimasi komposisi tubuh gratis."
         },
         {
-          "question": "Apakah pencatat kalori berbasis AI seperti Journable sudah termasuk coach?",
-          "answer": "Belum. Pengenalan foto bukan pendampingan. Aplikasi itu menjawab \"tadi itu apa?\" dengan sangat cepat, dan itu berharga di Indonesia karena hidangan campur sulit dicari manual. Tapi ia tidak membaca tidur, langkah, siklus haid, atau obat, jadi tidak ada yang bisa menjelaskan kenapa minggu Anda mandek."
+          "question": "Apa bedanya HAVIT dengan Fita?",
+          "answer": "Fita kuat di program diet dan olahraga dengan konteks Indonesia, resep lokal, dan komunitas yang dimoderasi pelatih bersertifikat. HAVIT menaruh pelatih AI di pusatnya: sejak percakapan awal menanyakan obat GLP-1 dan efek samping, lalu membaca tidur, langkah, siklus haid, dan catatan dosis untuk menyarankan tindakan hari ini. Kalau ingin program dan komunitas lokal, Fita; kalau butuh pelatih yang membaca seluruh catatan, HAVIT."
         },
         {
-          "question": "Bagaimana saya tahu personalisasi sebuah aplikasi itu sungguhan?",
-          "answer": "Sengaja jalani satu minggu yang buruk dan catat apa adanya. Sistem yang sungguhan akan menurunkan permintaannya, menanyakan apa yang terjadi, atau mengganti sasaran hari berikutnya. Sistem berbasis skrip akan mengulang dorongan yang sama dengan nada ceria yang sama. Dua minggu masa coba cukup untuk melihat bedanya."
+          "question": "Apa bedanya dengan aplikasi pencatat AI seperti Journable atau Cal AI?",
+          "answer": "Journable dan Cal AI kuat di pencatatan: tulis atau potret makanan, kalori dan gizinya langsung dihitung. Pertanyaan yang mereka jawab adalah \"tadi itu apa?\". HAVIT berangkat dari pertanyaan \"apa yang harus diubah?\", dengan membaca makan bersama tidur, langkah, siklus haid, dan obat. Kalau hambatan Anda hanya repotnya mencatat, pencatat AI sudah cukup."
         },
         {
-          "question": "Apakah coach AI bisa menggantikan ahli gizi atau psikolog?",
-          "answer": "Tidak. Untuk gangguan makan, kondisi yang sudah terdiagnosis, atau target performa dengan tenggat, temui profesional. AI kesehatan yang baik akan menolak mendiagnosis dan tidak akan menyuruh Anda mengubah dosis yang diresepkan dokter — HAVIT termasuk. Yang bisa dilakukannya adalah menjaga tindakan harian tetap konsisten di antara kunjungan."
+          "question": "Apa bedanya dengan bertanya soal diet ke ChatGPT?",
+          "answer": "Menjelaskan dan menyusun rencana juga bisa dilakukan asisten AI umum seperti ChatGPT. Bedanya ada di catatan harian. Pelatih AI di aplikasi diet langsung membaca catatan makan, langkah, dan tidur yang tersimpan di aplikasi, sedangkan asisten AI umum menjawab dari informasi yang Anda tempelkan. Di hari yang tidak Anda ceritakan, ia pun tidak tahu."
+        },
+        {
+          "question": "Pelatih AI atau pelatih manusia, mana yang lebih baik?",
+          "answer": "Tergantung karakter Anda. Meta-analisis atas 19 studi chatbot untuk aktivitas, pola makan, dan tidur menemukan chatbot meningkatkan jumlah langkah, asupan sayur-buah, dan durasi tidur, tapi sebagian besar studinya berkualitas rendah (Singh 2023). AI menjawab kapan saja dan biayanya lebih rendah; pelatih manusia menciptakan rasa wajib melapor. Kalau Anda baru bergerak saat harus melapor ke seseorang, pertimbangkan coaching manusia seperti di Noom."
+        },
+        {
+          "question": "Apakah pelatih AI bisa menggantikan ahli gizi atau dokter?",
+          "answer": "Tidak. AI kesehatan yang baik tidak mendiagnosis dan tidak menyuruh Anda mengubah dosis obat yang diresepkan. HAVIT juga bukan alat kesehatan, dan estimasi komposisi tubuhnya bukan pengukuran medis. Kalau Anda curiga punya gangguan makan, sudah didiagnosis penyakit tertentu, atau sedang hamil, temui tenaga kesehatan lebih dulu."
+        },
+        {
+          "question": "Siapa yang membuat HAVIT?",
+          "answer": "HAVIT dibuat oleh para ahli yang berasal dari Juvis Diet, merek pendampingan diet asal Korea Selatan. Cara mereka mendampingi pola makan dan gaya hidup klien secara langsung dipindahkan ke pelatih AI HAVI dan program 12 minggu, dengan fokus pada komposisi tubuh (lemak dan massa tanpa lemak), bukan sekadar angka timbangan. Pengembangnya adalah Havit Inc."
         }
       ],
       "references": [
         {
-          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie dkk.)",
-          "source": "Annals of Behavioral Medicine, 2013",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+          "title": "Self-Monitoring via Digital Health in Weight Loss Interventions: A Systematic Review Among Adults with Overweight or Obesity (Patel, Wakayama & Bennett)",
+          "source": "Obesity, 2021 — 39 uji acak; pencatatan digital yang lebih banyak berkaitan dengan penurunan berat pada 74% temuan; tingkat pencatatan mirip antara kelompok dengan konseling dan aplikasi saja",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33624440/"
         },
         {
-          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler dkk.)",
-          "source": "New England Journal of Medicine, 2002 (n=3.234)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
-        },
-        {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (topik sedang diperbarui); dewasa dengan IMT ≥30, dijalankan klinisi",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "Bukan Soal Penampilan, Obesitas Berkaitan dengan Kualitas Hidup",
-          "source": "Kementerian Kesehatan RI, 2026 — mengutip SKI 2023: 23,4% orang dewasa hidup dengan obesitas",
-          "url": "https://kemkes.go.id/id/bukan-soal-penampilan-obesitas-berkaitan-dengan-kualitas-hidup"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026 — analisis internal HAVIT atas 1.090 pengguna GLP-1",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "Systematic review and meta-analysis of the effectiveness of chatbots on lifestyle behaviours (Singh dkk.)",
+          "source": "npj Digital Medicine, 2023 — 19 uji; chatbot meningkatkan langkah, asupan sayur-buah, dan durasi tidur; 74% uji dinilai berkualitas rendah",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37353578/"
         }
       ],
-      "last_updated": "2026-10-12"
+      "last_updated": "2026-10-24"
     },
     "de": {
       "title": "KI-Coach-Apps zum Abnehmen 2026: 7 im Vergleich — entscheidend ist, was der Coach liest",
