@@ -2,7 +2,7 @@
   "_generator": "scripts/build-article-images.ts",
   "_source": "data/article-image-catalog.csv (HAVIT app article library, 289 distinct photos)",
   "_note": "slug → S3 filename. Base URL is resolved in lib/article-images.ts by filename prefix.",
-  "count": 1108,
+  "count": 1116,
   "map": {
     "30-day-habit-challenge-failure-rate-better-approach-2026": "art_0066.jpg",
     "accountability-partner-selection-optimal-traits-2026": "art_0149.jpg",
@@ -1111,6 +1111,14 @@
     "best-habit-tracker-weight-loss": "IMG_CAT_PERSONAL.jpg",
     "best-macro-tracker-apps": "IMG_PRO_001.jpg",
     "best-intermittent-fasting-apps": "IMG_MEAL_007.jpg",
-    "myfitnesspal-alternatives": "IMG_CAT_TRACK.jpg"
+    "myfitnesspal-alternatives": "IMG_CAT_TRACK.jpg",
+    "body-scan-sleep-meditation-10-minute-guide-2026": "IMG_SLEEP_001.jpg",
+    "breathing-relaxation-meditation-stress-anxiety-2026": "IMG_CAT_MIND.jpg",
+    "guided-meditation-weight-loss-healthy-habits-guide-2026": "IMG_MIND_003.jpg",
+    "meditation-for-beginners-5-minutes-anywhere-2026": "IMG_MIND_004.jpg",
+    "meditation-for-emotional-stress-eating-2026": "art_0168.jpg",
+    "meditation-for-food-cravings-5-minute-practice-2026": "art_0154.jpg",
+    "morning-meditation-focus-energy-5-minute-2026": "IMG_MIND_010.jpg",
+    "self-compassion-meditation-weight-loss-motivation-2026": "IMG_MIND_006.jpg"
   }
 }
