@@ -64,7 +64,7 @@ html,body{width:${W}px;height:${H}px;overflow:hidden}
 body{font-family:${fontOf(lang)};-webkit-font-smoothing:antialiased;line-break:strict;overflow-wrap:anywhere;word-break:${lang === 'ko' ? 'keep-all' : lang === 'ja' ? 'auto-phrase' : 'normal'}}
 .s{position:relative;width:${W}px;height:${H}px;padding:96px 88px;display:flex;flex-direction:column}
 .dark{background:#121212;color:#fff}.light{background:#F6F6F1;color:#121212}.lime{background:#D4FF50;color:#121212}
-.logo{height:40px;width:auto;position:absolute;top:72px;left:88px}
+.logo{height:80px;width:auto;position:absolute;top:64px;left:88px}
 .num{position:absolute;top:76px;right:88px;font:700 30px Poppins;opacity:.45}
 .bar{width:96px;height:12px;background:#D4FF50;border-radius:6px;margin-bottom:40px}
 .light .bar{background:#121212}
