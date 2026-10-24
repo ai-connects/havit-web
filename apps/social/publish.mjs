@@ -44,7 +44,7 @@ for (const dir of dirs) {
     try {
       const urls = d.media?.length ? d.media : hostImages(dir, f, d.images || []);
       const res = d.channel === 'instagram'
-        ? await publishInstagram({ token, imageUrls: urls, caption: [d.posts[0], (d.hashtags || []).map((t) => `#${t}`).join(' ')].filter(Boolean).join('\n\n') })
+        ? await publishInstagram({ token, imageUrls: urls, caption: [d.posts[0], (d.hashtags || []).map((t) => `#${t}`).join(' ')].filter(Boolean).join('\n\n'), firstComment: d.first_reply })
         : await publishThreads({ token, posts: d.posts, imageUrl: d.share === 'link' ? null : urls[0], linkUrl: d.share === 'link' ? d.link : null, firstReply: d.first_reply });
       writeFileSync(p, JSON.stringify({ ...d, published: { ...res, at: new Date().toISOString(), media: urls } }, null, 2) + '\n');
       ok++;

@@ -48,7 +48,7 @@ Use exactly this URL: {url}
 Return ONLY a JSON object (no prose, no code fence) with these keys:
 - "posts": array of strings (Threads: 1–3 posts; other channels: exactly 1 string = the full body/caption)
 - "slides": array of {"title","body"} (Instagram only, otherwise [])
-- "first_reply": string (Threads first reply / LinkedIn first comment; otherwise "")
+- "first_reply": string (Threads first reply / Instagram first comment from the brand / LinkedIn first comment)
 - "hashtags": array of strings without '#'
 - "evidence": array of {"value","source"} for every number you used from the SOURCE
 - "alt_text": string (Instagram only, otherwise "")

@@ -36,7 +36,7 @@ export async function whoami(channel, token) {
 }
 
 /** Instagram 캐러셀(이미지 2~10장) 또는 단일 이미지. imageUrls 는 공개 JPEG URL. */
-export async function publishInstagram({ token, imageUrls, caption }) {
+export async function publishInstagram({ token, imageUrls, caption, firstComment }) {
   const me = await whoami('instagram', token);
   const uid = me.user_id || me.id;
   let creation;
@@ -52,6 +52,11 @@ export async function publishInstagram({ token, imageUrls, caption }) {
   }
   await waitReady(IG, creation, token);
   const pub = await call(IG, 'POST', `/${uid}/media_publish`, { creation_id: creation }, token);
+  // 브랜드 첫 댓글(참여 유도 + 앱 안내). 실패해도 게시물은 이미 올라갔으니 발행 성공으로 둔다.
+  if (firstComment) {
+    try { await call(IG, 'POST', `/${pub.id}/comments`, { message: firstComment }, token); }
+    catch (e) { console.log(`IG 첫 댓글 실패: ${String(e.message).slice(0, 120)}`); }
+  }
   const info = await call(IG, 'GET', `/${pub.id}`, { fields: 'permalink' }, token);
   return { id: pub.id, url: info.permalink };
 }
