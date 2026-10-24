@@ -3,7 +3,7 @@
 import { execFileSync } from 'node:child_process';
 import { readdirSync, statSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { readJson } from './lib/source.mjs';
+import { originLabel, readJson } from './lib/source.mjs';
 
 const repo = process.env.GITHUB_REPOSITORY || 'ai-connects/havit-web';
 const NAME = { threads: 'Threads', instagram: 'Instagram' };
@@ -17,7 +17,7 @@ for (const dir of process.argv.slice(2).filter((p) => statSync(p, { throwIfNoEnt
       `<!-- social-draft: ${key} -->`,
       `**${NAME[d.channel]} · ${d.lang} · ${d.format}** — 발행 예정 ${d.publish_at} (UTC)`,
       `사람 검토 사유: ${(d.decision.reasons || []).join(', ')}`,
-      `원문 글: https://www.aihavit.com/blog/${d.lang}/${d.slug}`,
+      `원문: ${originLabel(d)}`,
       '',
       ...(d.media || []).map((u, i) => `![${i + 1}](${u})`),
       '',
