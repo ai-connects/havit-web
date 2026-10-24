@@ -381,6 +381,22 @@ function localizeImages(html, locale) {
 }
 
 /** Root-relative asset paths already work from /<locale>/, so nothing to rewrite. */
+/**
+ * 푸터 Instagram·Threads 링크를 그 언어 계정으로. 계정은 9개 언어만 있어서(apps/social config/accounts.json)
+ * 나머지 언어는 영어 계정, 중국어 간체는 번체 계정으로 보낸다.
+ */
+const SOCIAL_HANDLE = {
+  ko: 'havit_app', ja: 'havit_app.jp', en: 'havit_app.en', 'zh-tw': 'havit_app.tw', 'zh-cn': 'havit_app.tw',
+  es: 'havit_app.es', pt: 'havit_app.br', id: 'havit_app.id', de: 'havit_app.de', fr: 'havit_app.fr',
+}
+export const socialHandle = (locale) => SOCIAL_HANDLE[locale] || SOCIAL_HANDLE.en
+function localizeSocial(html, locale) {
+  const h = socialHandle(locale)
+  return html
+    .replace(/(data-social="instagram" href=")[^"]*"/g, `$1https://www.instagram.com/${h}/"`)
+    .replace(/(data-social="threads" href=")[^"]*"/g, `$1https://www.threads.com/@${h}"`)
+}
+
 export function renderLocale(baseHtml, locale, page = HOME_PAGE) {
   const dict = locale === DEFAULT_LOCALE ? {} : loadDict(locale)
   const { html, missing } = locale === DEFAULT_LOCALE
@@ -388,7 +404,7 @@ export function renderLocale(baseHtml, locale, page = HOME_PAGE) {
     : translateBody(baseHtml, dict)
   const withHead = renderLangMenu(translateHead(html, locale, dict, baseHtml, page), locale, page)
   const out = localizeBlogLinks(injectFooterArticles(localizeArticleCards(withHead, locale), locale), locale)
-  return { html: localizeImages(out, locale), missing }
+  return { html: localizeSocial(localizeImages(out, locale), locale), missing }
 }
 
 export default function i18nHtml() {

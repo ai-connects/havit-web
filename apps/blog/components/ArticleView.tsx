@@ -17,6 +17,7 @@ import MedicalArticleJsonLd from './MedicalArticleJsonLd';
 import FaqJsonLd from './FaqJsonLd';
 import BreadcrumbJsonLd from './BreadcrumbJsonLd';
 import AboutHavit from './AboutHavit';
+import SocialFollow from './SocialFollow';
 import { remarkRepairEmphasis } from '@/lib/emphasis';
 import { resolveBlogLink } from '@/lib/internal-links';
 import { bodyDuplicatesTable } from '@/lib/comparison-table';
@@ -217,6 +218,8 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
       <div className="mt-12">
         <InstallCTA lang={langKey} articleId={article.article_id} variant="inline" />
       </div>
+
+      <SocialFollow shortLang={shortLang} />
 
       {references && references.length > 0 && (
         <section className="mt-14 pt-8 border-t" style={{ borderColor: 'var(--hv-border)' }}>

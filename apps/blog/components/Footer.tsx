@@ -6,6 +6,7 @@ import { FOOTER_LINK_GROUPS } from '@/lib/footer-links';
 import { getArticleBySlug, resolveContent } from '@/lib/articles-v2';
 import { asset, mainSiteHome, storeBadge } from '@/lib/site';
 import { appGuideLabel } from '@/lib/app-guides';
+import { FOLLOW_LABEL, socialLinks } from '@/lib/social';
 
 // BLOG_AUTHORITY v1.0.0 (PRD §5.2.3 / §16.2 F-07 옵션 A) — 인라인 i18n.
 // lib/i18n.ts 미변경 (INV-010, P0-#2 회피). 6 lang 자체포함.
@@ -251,6 +252,11 @@ export default function Footer({ lang }: { lang: LangKey }) {
             <a href="https://app.aihavit.com/" target="_blank" rel="noopener">App</a>
             <Link href={`/${shortLang}`}>Blog</Link>
             <Link href={`/${shortLang}/tools`}>Tools</Link>
+          </div>
+          <div className="hv-footer__col">
+            <p className="eyebrow">{FOLLOW_LABEL[shortLang] ?? FOLLOW_LABEL.en}</p>
+            <a href={socialLinks(shortLang).instagram} target="_blank" rel="noopener">Instagram</a>
+            <a href={socialLinks(shortLang).threads} target="_blank" rel="noopener">Threads</a>
           </div>
           <div className="hv-footer__col hv-footer__col--topics">
             <p className="eyebrow">{LABEL_TOPICS[shortLang] ?? LABEL_TOPICS.en}</p>

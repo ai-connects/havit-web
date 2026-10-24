@@ -637,6 +637,11 @@ a {
   width: 380px;
   border-radius: 32px;
 }
+/* 언어별 히어로 이미지(/l10n/, #149)는 휴대폰이 이미지 끝까지 꽉 차 있어(여백 0) 같은 380px 로 그리면
+   예전 이미지(휴대폰이 폭의 89%)보다 앱 화면이 14% 크게 보였다. 보이는 휴대폰 폭을 예전(약 340px)에 맞춘다. */
+.hero__phone[src*="/l10n/"] {
+  width: 340px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .hero__phone {
     animation: float 6s ease-in-out infinite;

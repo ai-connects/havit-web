@@ -20,6 +20,7 @@ import FaqJsonLd from './FaqJsonLd';
 import BreadcrumbJsonLd from './BreadcrumbJsonLd';
 import InstallCTA from './InstallCTA';
 import AboutHavit from './AboutHavit';
+import SocialFollow from './SocialFollow';
 
 /**
  * GLP-1 SEO 허브 아티클 레이아웃.
@@ -526,6 +527,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
       {/* 무엇인지 먼저 말하고, 그 다음 설치를 권한다. 순서가 반대면
           아직 브랜드를 모르는 독자에게 CTA 가 먼저 온다. */}
       <AboutHavit shortLang={shortLang} />
+      <SocialFollow shortLang={shortLang} />
 
       <div className="hub-cta">
         <InstallCTA lang={langKey} articleId={article.article_id} variant="inline" />
