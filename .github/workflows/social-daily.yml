@@ -24,6 +24,7 @@ jobs:
       SOCIAL_MEDIA_PREFIX: image/sns
       QUEUE_S3: s3://havit-prod-us-east/social-queue/
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       GH_TOKEN: ${{ github.token }}
       CHROME_BIN: /usr/bin/google-chrome
@@ -48,6 +49,7 @@ jobs:
           DATE="${{ inputs.date }}"; [ -z "$DATE" ] && DATE=$(date -u -d '+1 day' +%F)
           node plan.mjs "$DATE"
           node generate.mjs "queue/plan-$DATE.json" --date "$DATE"
+          node imagery.mjs "queue/$DATE"
           node render.mjs "queue/$DATE"
           node host.mjs "queue/$DATE"
           node reviewer.mjs "queue/$DATE"

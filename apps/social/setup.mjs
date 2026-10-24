@@ -40,6 +40,7 @@ for (const [ch, label, where] of [
 
 for (const [name, q] of [
   ['ANTHROPIC_API_KEY', 'Anthropic API 키(console.anthropic.com → API Keys)'],
+  ['GEMINI_API_KEY', 'Google AI Studio API 키(aistudio.google.com → Get API key — 사진이 없을 때 AI 이미지 생성용)'],
   ['SLACK_WEBHOOK_URL', 'Slack Webhook URL(선택 — 매일 요약·검토 알림 받을 곳)'],
   ['SLACK_FEED_WEBHOOK_URL', 'Slack Webhook URL(#havit-sns-feed — 한국어·영어·일본어·프랑스어 발행물 공유)'],
   ['SOCIAL_SECRETS_PAT', 'GitHub 토큰(토큰 자동 갱신용: github.com/settings/personal-access-tokens → ai-connects/havit-web, Secrets: Read and write)'],
@@ -65,6 +66,6 @@ if (!existing.has('AWS_ACCESS_KEY_ID') && (await ask('\nAWS 업로드 전용 키
 }
 rl.close();
 const now = new Set(execFileSync('gh', ['secret', 'list', '--repo', REPO, '--json', 'name', '-q', '.[].name'], { encoding: 'utf8' }).split('\n').filter(Boolean));
-const need = [...langs.flatMap((l) => [`THREADS_TOKEN_${envKey(l)}`, `IG_TOKEN_${envKey(l)}`]), 'ANTHROPIC_API_KEY', 'AWS_ACCESS_KEY_ID', 'AWS_SECRET_ACCESS_KEY', 'SOCIAL_SECRETS_PAT'];
+const need = [...langs.flatMap((l) => [`THREADS_TOKEN_${envKey(l)}`, `IG_TOKEN_${envKey(l)}`]), 'ANTHROPIC_API_KEY', 'GEMINI_API_KEY', 'AWS_ACCESS_KEY_ID', 'AWS_SECRET_ACCESS_KEY', 'SOCIAL_SECRETS_PAT'];
 const missing = need.filter((n) => !now.has(n));
 console.log(missing.length ? `\n남은 항목 ${missing.length}개: ${missing.join(', ')}\n다시 실행하면 남은 것만 물어봅니다.` : '\n🎉 설정 완료 — 이제 매일 자동으로 돌아갑니다. Claude 에게 "설정 끝"이라고 알려주세요.');
