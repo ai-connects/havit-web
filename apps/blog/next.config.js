@@ -33,6 +33,17 @@ const nextConfig = {
       { source: '/', destination: '/ko', permanent: true },
     ];
 
+    // 끝에 연도·마침표·사설영역 문자(U+E14D 등, AI 답변의 인용 표식)가 덧붙은 URL
+    // (`…-2026` + `2026.` / `20262026` / `.`, `…/glp-1-side-effects2026.`, `…-2026\uE14D…2026.`).
+    // 외부 글이 링크 뒤 텍스트를 붙여 긁어 간 것으로, GSC 404 976건 중 476건, noindex 599건 대부분(2026-10-24)이 이 꼴이다.
+    // 실제 slug 는 `-2026` 으로 끝나거나 글자로 끝나므로, 그 뒤에 붙은 부분만 떼어 정본으로 보낸다.
+    const J = '(?:2026)+\\.?|[^a-z0-9/.-][^/]*';
+    const junkSuffix = [
+      { source: `/:lang/:slug([a-z0-9-]+-2026):junk(${J}|\\.)`, destination: '/:lang/:slug', permanent: true },
+      { source: `/:lang/:slug([a-z0-9-]*[a-z0-9]):junk(${J})`, destination: '/:lang/:slug', permanent: true },
+      { source: `/:lang/:dir(category|tools)/:slug([a-z0-9-]*[a-z0-9]):junk(${J})`, destination: '/:lang/:dir/:slug', permanent: true },
+    ];
+
     // 병합된 slug 는 최종 주소로 바로 보낸다 — 아래 일반 규칙(→ www) 뒤에
     // 병합 규칙(→ 정본 slug)이 한 번 더 붙어 2홉이 되던 것을 1홉으로 줄인다.
     // 일반 규칙보다 먼저 와야 하고, `/blog` 로 시작하는 경로는 매칭되지 않는다
@@ -59,7 +70,7 @@ const nextConfig = {
       },
     ];
 
-    return [...root, ...merged, ...legacyMerged, ...legacyHost];
+    return [...root, ...junkSuffix, ...merged, ...legacyMerged, ...legacyHost];
   },
   images: {
     remotePatterns: [
