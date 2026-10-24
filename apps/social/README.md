@@ -1,6 +1,6 @@
 # HAVIT SNS 초안 생성기
 
-블로그의 **검증된 글**을 Threads · Instagram · Facebook · LinkedIn 용 ko/ja/en 포스트 초안으로 바꾸고, 발행 전에 기계 검사를 한다. **발행은 사람이 승인한 초안만** 한다(완전 무인 발행 금지).
+블로그의 **검증된 글**을 9개 언어 Threads · Instagram 포스트로 바꾸고, 기계 검사 → AI 리뷰어(예외만 사람) → 자동 발행한다. 물량·포맷·후킹·카피·검색 최적화 전략은 [STRATEGY.md](STRATEGY.md).
 
 ```
 plan.mjs      계정(채널×언어)별 주당 빈도로 2주 계획 → queue/plan-<시작일>.json

@@ -8,7 +8,7 @@ const src = loadSource(slug, 'ko');
 const entry = { channel: 'threads', lang: 'ko', format: 'question', slug };
 const link = withUtm(src.url, entry);
 const disclaimer = '※ 일반 정보이며 의학적 조언을 대신하지 않아요. 섭식 문제나 질환이 있다면 전문가와 상담하세요.';
-const good = () => ({ ...entry, link, posts: ['밤 10시, 야식 생각이 올라오면 5분만 지켜봐요. 오늘은 어떤 음식이 떠올랐나요?'], slides: [], first_reply: `전체 가이드 👉 ${link}\n${disclaimer}`, hashtags: ['다이어트'], evidence: [] });
+const good = () => ({ ...entry, link, posts: ['밤 10시, 야식 생각이 올라오면 5분만 지켜봐요. 오늘은 어떤 음식이 떠올랐나요?'], slides: [], first_reply: `전체 가이드 👉 ${link}\n${disclaimer}`, hashtags: ['다이어트'], evidence: [], keywords: ['야식'] });
 
 test('숫자 토큰 정규화', () => {
   assert.deepEqual(numbers('1,350명 20–30% 4.5kg'), ['1350', '20', '30', '4.5']);
@@ -40,7 +40,7 @@ test('영어 금지어는 단어 경계로만(secure 는 통과)', () => {
   const s = loadSource(slug, 'en');
   const e = { channel: 'threads', lang: 'en', format: 'question', slug };
   const l = withUtm(s.url, e);
-  const d = { ...e, link: l, posts: ['Feel secure about cravings for 5 minutes. What helps you?'], first_reply: `${l}\nGeneral info, not medical advice. If you're dealing with disordered eating or a health condition, talk to a professional.`, hashtags: [], evidence: [] };
+  const d = { ...e, link: l, posts: ['Feel secure about cravings for 5 minutes. What helps you?'], first_reply: `${l}\nGeneral info, not medical advice. If you're dealing with disordered eating or a health condition, talk to a professional.`, hashtags: [], evidence: [], keywords: ['cravings'] };
   assert.equal(lint(d, s).status, 'PASS', lint(d, s).errors.join());
 });
 
@@ -49,7 +49,7 @@ test('스페인어 금지어도 단어 단위(segura 는 통과, cura 는 FAIL)'
   const e = { channel: 'threads', lang: 'es', format: 'question', slug };
   const l = withUtm(s.url, e);
   const disc = 'Información general, no es consejo médico. Si tienes problemas con la alimentación o una condición de salud, consulta a un profesional.';
-  const base = { ...e, link: l, first_reply: `${l}\n${disc}`, hashtags: [], evidence: [] };
+  const base = { ...e, link: l, first_reply: `${l}\n${disc}`, hashtags: [], evidence: [], keywords: ['antojo'] };
   assert.equal(lint({ ...base, posts: ['Una forma segura de pasar 5 minutos con un antojo. ¿Lo probarías?'] }, s).status, 'PASS');
   assert.match(lint({ ...base, posts: ['Esta meditación cura los antojos.'] }, s).errors.join(), /금지어/);
 });
@@ -64,4 +64,16 @@ test('중국어 번체 소스와 면책 위치', () => {
 test('한국어 브랜드 표기는 하비트(하빗은 FAIL)', () => {
   const d = good(); d.posts = ['하빗 앱에서 5분 명상을 해봐요. 어떤 음식이 떠올랐나요?'];
   assert.match(lint(d, src).errors.join(), /금지어: 하빗/);
+});
+
+test('대표 검색 키워드가 없으면 FAIL', () => {
+  const { keywords, ...d } = good();
+  assert.match(lint(d, src).errors.join(), /keywords/);
+});
+
+test('링크 공유 글: URL 이 본문·답글에 있으면 FAIL, 없으면 PASS', () => {
+  const ok = { ...good(), share: 'link', first_reply: disclaimer };
+  assert.equal(lint(ok, src).status, 'PASS');
+  const bad = { ...ok, first_reply: `${link}\n${disclaimer}` };
+  assert.match(lint(bad, src).errors.join(), /링크 공유/);
 });

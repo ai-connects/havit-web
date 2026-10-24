@@ -25,6 +25,21 @@ The card image text, the Instagram cover title and the first line of the post mu
 - Stop-doing: one habit to drop, with the reason in the next line
 - Curiosity gap: a question the post actually answers — never bait you don't pay off
 No clickbait that the post doesn't deliver, no fear-mongering, no exclamation spam, no ALL CAPS.
+Before writing, draft 3 different hooks (different patterns) in your head and keep the strongest — the one a busy {segment} would stop for. Put the other two in "hook_alternatives".
+Hooks that win: specific (a number, a time, a food, a body signal) beats vague; tension or surprise beats description; under 12 words. Weak hooks to avoid: "Did you know…", "Here are N tips", "Let's talk about…", generic questions anyone could ask.
+
+## Copy (the body must earn the save or the reply)
+- Line 1 = the hook. Line 2 pays it off immediately (the finding, the answer, or the twist) — never make readers wait.
+- Then the useful part: concrete, specific, doable today. Short lines, one idea per line, generous line breaks. No filler sentences ("In today's busy world…").
+- End with one natural action that fits the format: save it for later (checklists, recipes, steps), send it to someone it fits (relatable moments), or answer a genuine question (Threads). One action only, never "like + comment + share".
+- Readers never say "carousel", "slide", "card" or the format name. To point to the images, copy this exact phrase: {swipe}
+- Instagram: the first 125 characters show before "more" — the hook and the payoff must both fit there.
+
+## Search (people find posts by searching — write for that)
+- Choose ONE primary search keyword: the phrase a native {lang} speaker would actually type into Instagram/Threads search for this topic (e.g. ko "단백질 식단", ja "睡眠の質", en "protein breakfast"). Use the everyday term, not the jargon in the article title.
+- Put the primary keyword naturally in the first sentence of the caption/post, in the Instagram cover title or alt_text, and in "keywords".
+- Hashtags — Instagram: 3–5 total = 1 brand tag {brand_tag} + 2–3 niche tags people in this topic actually follow in {lang} + at most 1 broader tag. No generic mega tags (#love, #instagood, #health alone), no banned or spammy tags, no repeating the same set every post. Threads: at most 1 topic tag — the primary keyword as a tag, no brand tag.
+- alt_text (Instagram): describe the cover image and include the primary keyword once — it is indexed by search.
 
 ## Link
 Use exactly this URL: {url}
@@ -38,4 +53,6 @@ Return ONLY a JSON object (no prose, no code fence) with these keys:
 - "evidence": array of {"value","source"} for every number you used from the SOURCE
 - "alt_text": string (Instagram only, otherwise "")
 - "image_brief": one English sentence describing the ideal photo for this post (concrete objects, setting, light). No text in the image, no medical procedures, no body comparisons; prefer food, objects, hands, places.
+- "hook_alternatives": array of the 2 hooks you did not use
+- "keywords": array — [primary search keyword, up to 2 secondary keywords], in {lang}
 - "card_text": the hook line printed on the image card (Threads card / Instagram cover idea). Max 40 characters for ko/ja/zh, max 60 for other languages. A complete sentence or phrase — never cut off.

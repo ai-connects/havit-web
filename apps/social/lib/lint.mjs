@@ -74,7 +74,10 @@ export function lint(draft, source) {
   // 5) 링크 위치 — 정확히 UTM 이 붙은 URL 이어야 한다
   const link = draft.link;
   const inBody = /https?:\/\//.test(body);
-  if (rule.link === 'body') {
+  if (draft.share === 'link') {
+    // 링크 미리보기 카드로 붙는 글 — 글·답글 어디에도 URL 을 쓰지 않는다
+    if (/https?:\/\//.test(all)) errors.push('링크 공유 글인데 본문·답글에 URL 있음(미리보기로 자동 첨부)');
+  } else if (rule.link === 'body') {
     if (!body.includes(link)) errors.push('본문에 지정 링크 없음');
   } else if (rule.link === 'first_reply' || rule.link === 'first_comment') {
     if (inBody) errors.push('본문에 링크 있음(첫 답글/댓글로 옮길 것)');
@@ -89,10 +92,21 @@ export function lint(draft, source) {
     if ([...draft.card_text].length > lim) errors.push(`card_text ${[...draft.card_text].length}자 > ${lim}`);
   }
 
+  // 5-2) 내부 용어 유출(독자는 '캐러셀'이라 말하지 않는다 — 언어별 swipe 문구를 쓴다)
+  const META = /carousel|carrousel|carrusel|carrossel|karussell|korsel|캐러셀|카루셀|슬라이드|カルーセル|スライド|輪播/i;
+  if (META.test(norm(all))) errors.push(`내부 용어 유출: "${norm(all).match(META)[0]}" — 언어별 swipe 문구로`);
+
   // 6) 해시태그
   const tags = new Set([...(draft.hashtags || []), ...[...norm(all).matchAll(/#([^\s#]+)/g)].map((m) => m[1])]);
   const [lo, hi] = rule.hashtags;
   if (tags.size < lo || tags.size > hi) warnings.push(`해시태그 ${tags.size}개 (권장 ${lo}~${hi})`);
+  const brand = config('channels').langs[draft.lang]?.brand_tag;
+  if (draft.channel === 'instagram' && brand && ![...tags].some((t) => t.toLowerCase() === brand.toLowerCase())) warnings.push(`브랜드 태그 #${brand} 없음`);
+
+  // 6-1) 검색 키워드: 대표 키워드가 첫 125자(인스타 '더 보기' 전) 안에
+  const kw = (draft.keywords || [])[0];
+  if (!kw) errors.push('keywords(대표 검색 키워드) 없음');
+  else if (!norm(body).slice(0, 125).toLowerCase().includes(kw.toLowerCase())) warnings.push(`대표 키워드 "${kw}" 가 첫 125자 밖`);
 
   // 7) 일본어 문체: だ/である 체 비율
   if (draft.lang === 'ja') {

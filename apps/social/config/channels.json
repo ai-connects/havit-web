@@ -9,8 +9,13 @@
       "tz": "Asia/Seoul",
       "post_hours": {
         "instagram": 12,
-        "threads": 20
-      }
+        "instagram_2": 19,
+        "threads": 20,
+        "threads_2": 8,
+        "threads_link": 12
+      },
+      "brand_tag": "하비트",
+      "swipe": "옆으로 넘겨 보세요 →"
     },
     "ja": {
       "route": "ja",
@@ -19,8 +24,13 @@
       "tz": "Asia/Tokyo",
       "post_hours": {
         "instagram": 12,
-        "threads": 20
-      }
+        "instagram_2": 19,
+        "threads": 20,
+        "threads_2": 8,
+        "threads_link": 12
+      },
+      "brand_tag": "HAVIT",
+      "swipe": "スワイプしてみてください →"
     },
     "en": {
       "route": "en",
@@ -29,8 +39,13 @@
       "tz": "America/New_York",
       "post_hours": {
         "instagram": 12,
-        "threads": 20
-      }
+        "instagram_2": 19,
+        "threads": 20,
+        "threads_2": 8,
+        "threads_link": 12
+      },
+      "brand_tag": "HAVITapp",
+      "swipe": "Swipe →"
     },
     "zh-tw": {
       "route": "zh-tw",
@@ -39,8 +54,13 @@
       "tz": "Asia/Taipei",
       "post_hours": {
         "instagram": 12,
-        "threads": 20
-      }
+        "instagram_2": 19,
+        "threads": 20,
+        "threads_2": 8,
+        "threads_link": 12
+      },
+      "brand_tag": "HAVIT",
+      "swipe": "往左滑看看 →"
     },
     "zh": {
       "route": "zh",
@@ -49,8 +69,13 @@
       "tz": "Asia/Shanghai",
       "post_hours": {
         "instagram": 12,
-        "threads": 20
-      }
+        "instagram_2": 19,
+        "threads": 20,
+        "threads_2": 8,
+        "threads_link": 12
+      },
+      "brand_tag": "HAVIT",
+      "swipe": "往左滑 →"
     },
     "es": {
       "route": "es",
@@ -59,8 +84,13 @@
       "tz": "America/Mexico_City",
       "post_hours": {
         "instagram": 12,
-        "threads": 20
-      }
+        "instagram_2": 19,
+        "threads": 20,
+        "threads_2": 8,
+        "threads_link": 12
+      },
+      "brand_tag": "HAVITapp",
+      "swipe": "Desliza →"
     },
     "pt-br": {
       "route": "pt-br",
@@ -69,8 +99,13 @@
       "tz": "America/Sao_Paulo",
       "post_hours": {
         "instagram": 12,
-        "threads": 20
-      }
+        "instagram_2": 19,
+        "threads": 20,
+        "threads_2": 8,
+        "threads_link": 12
+      },
+      "brand_tag": "HAVITapp",
+      "swipe": "Arrasta pro lado →"
     },
     "id": {
       "route": "id",
@@ -79,8 +114,13 @@
       "tz": "Asia/Jakarta",
       "post_hours": {
         "instagram": 12,
-        "threads": 20
-      }
+        "instagram_2": 19,
+        "threads": 20,
+        "threads_2": 8,
+        "threads_link": 12
+      },
+      "brand_tag": "HAVITapp",
+      "swipe": "Geser ke samping →"
     },
     "de": {
       "route": "de",
@@ -89,8 +129,13 @@
       "tz": "Europe/Berlin",
       "post_hours": {
         "instagram": 12,
-        "threads": 20
-      }
+        "instagram_2": 19,
+        "threads": 20,
+        "threads_2": 8,
+        "threads_link": 12
+      },
+      "brand_tag": "HAVITapp",
+      "swipe": "Wisch weiter →"
     },
     "fr": {
       "route": "fr",
@@ -99,8 +144,13 @@
       "tz": "Europe/Paris",
       "post_hours": {
         "instagram": 12,
-        "threads": 20
-      }
+        "instagram_2": 19,
+        "threads": 20,
+        "threads_2": 8,
+        "threads_link": 12
+      },
+      "brand_tag": "HAVITapp",
+      "swipe": "Fais défiler →"
     }
   },
   "channels": {
@@ -116,7 +166,7 @@
         "de",
         "fr"
       ],
-      "per_week": 7,
+      "per_week": 21,
       "max_chars_per_post": 500,
       "max_posts": 3,
       "link": "first_reply",
@@ -126,13 +176,28 @@
         1
       ],
       "formats": [
+        "hot_take",
         "question",
         "one_stat",
+        "ab_question",
         "myth_fact",
+        "recipe_quick",
         "mini_steps",
         "havi_scene"
       ],
-      "enabled": true
+      "enabled": true,
+      "extra_slots": [
+        {
+          "hour_key": "threads_2"
+        },
+        {
+          "hour_key": "threads_link",
+          "share": "link",
+          "formats": [
+            "link_teaser"
+          ]
+        }
+      ]
     },
     "instagram": {
       "langs": [
@@ -146,7 +211,7 @@
         "de",
         "fr"
       ],
-      "per_week": 7,
+      "per_week": 14,
       "max_caption": 2200,
       "slides": [
         6,
@@ -159,13 +224,22 @@
         5
       ],
       "formats": [
+        "quiz_carousel",
         "steps_carousel",
+        "versus_carousel",
+        "recipe_carousel",
         "myth_fact_carousel",
-        "one_stat_carousel",
+        "mistakes_carousel",
         "checklist_carousel",
+        "one_stat_carousel",
         "havi_scene_carousel"
       ],
-      "enabled": true
+      "enabled": true,
+      "extra_slots": [
+        {
+          "hour_key": "instagram_2"
+        }
+      ]
     },
     "facebook": {
       "langs": [
@@ -395,5 +469,10 @@
       "ja",
       "fr"
     ]
+  },
+  "format_requires": {
+    "_note": "이 포맷은 sources.json 에서 해당 표시가 있는 글에만 쓴다(없으면 다음 포맷).",
+    "recipe_quick": "recipe_ok",
+    "recipe_carousel": "recipe_ok"
   }
 }

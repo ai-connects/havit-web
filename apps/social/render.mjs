@@ -203,13 +203,15 @@ function shoot(html, out) {
   return m ? JSON.parse(m[1].replace(/&quot;/g, '"').replace(/&amp;/g, '&')) : ['QA 결과 없음'];
 }
 
-const dirs = process.argv.slice(2).filter((p) => statSync(p).isDirectory()).map((p) => path.resolve(p));
+const dirs = process.argv.slice(2).filter((p) => !p.startsWith('--')).filter((p) => statSync(p).isDirectory()).map((p) => path.resolve(p));
 let n = 0, bad = 0;
 for (const dir of dirs) {
   CURRENT_DIR = dir;
   for (const f of readdirSync(dir).filter((x) => x.endsWith('.json'))) {
     const p = path.join(dir, f);
     const d = readJson(p);
+    if (d.share === 'link') continue; // 블로그 링크 미리보기로 발행 — 카드 이미지 없음
+    if (process.argv.includes('--pending') && d.decision) continue; // 이미 판정된 초안은 다시 그리지 않음(고쳐 쓴 초안만)
     const outDir = path.join(dir, 'img', f.replace(/\.json$/, ''));
     mkdirSync(outDir, { recursive: true });
     const pages = d.slides?.length
