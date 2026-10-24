@@ -1,0 +1,1406 @@
+{
+ "_note": "SNS 편성표 — scripts/build_calendar.py 로 생성(손으로 고치지 말 것). 매일 9개 언어 같은 콘텐츠. 배틀패스 퀴즈 커리큘럼 순서, 하루 주제 2개(콘텐츠+퀴즈). 약물 제외. 끝나면 처음부터 반복.",
+ "start": "2026-10-25",
+ "days": [
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-1404",
+   "article_a": "art-1404",
+   "quiz_b": "quiz-s01-art-0687",
+   "article_b": "art-0687"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-0625",
+   "article_a": "art-0625",
+   "quiz_b": "quiz-s01-art-1075",
+   "article_b": "art-1075"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-0692",
+   "article_a": "art-0692",
+   "quiz_b": "quiz-s01-art-0117",
+   "article_b": "art-0117"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-1417",
+   "article_a": "art-1417",
+   "quiz_b": "quiz-s01-art-0774",
+   "article_b": "art-0774"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-1166",
+   "article_a": "art-1166",
+   "quiz_b": "quiz-s01-art-1020",
+   "article_b": "art-1020"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-0574",
+   "article_a": "art-0574",
+   "quiz_b": "quiz-s01-art-0485",
+   "article_b": "art-0485"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-1230",
+   "article_a": "art-1230",
+   "quiz_b": "quiz-s01-art-1414",
+   "article_b": "art-1414"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-0554",
+   "article_a": "art-0554",
+   "quiz_b": "quiz-s01-art-0478",
+   "article_b": "art-0478"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-1031",
+   "article_a": "art-1031",
+   "quiz_b": "quiz-s01-art-1412",
+   "article_b": "art-1412"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-0624",
+   "article_a": "art-0624",
+   "quiz_b": "quiz-s01-art-0844",
+   "article_b": "art-0844"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-0846",
+   "article_a": "art-0846",
+   "quiz_b": "quiz-s01-art-0853",
+   "article_b": "art-0853"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-0858",
+   "article_a": "art-0858",
+   "quiz_b": "quiz-s01-art-0862",
+   "article_b": "art-0862"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-0864",
+   "article_a": "art-0864",
+   "quiz_b": "quiz-s01-art-0940",
+   "article_b": "art-0940"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-0952",
+   "article_a": "art-0952",
+   "quiz_b": "quiz-s01-art-0958",
+   "article_b": "art-0958"
+  },
+  {
+   "stage": 1,
+   "theme": "기초",
+   "quiz_a": "quiz-s01-art-0962",
+   "article_a": "art-0962",
+   "quiz_b": "quiz-s02-art-1309",
+   "article_b": "art-1309"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-0717",
+   "article_a": "art-0717",
+   "quiz_b": "quiz-s02-art-0232",
+   "article_b": "art-0232"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-0503",
+   "article_a": "art-0503",
+   "quiz_b": "quiz-s02-art-1110",
+   "article_b": "art-1110"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-0443",
+   "article_a": "art-0443",
+   "quiz_b": "quiz-s02-art-0236",
+   "article_b": "art-0236"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-0394",
+   "article_a": "art-0394",
+   "quiz_b": "quiz-s02-art-1113",
+   "article_b": "art-1113"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-0615",
+   "article_a": "art-0615",
+   "quiz_b": "quiz-s02-art-0453",
+   "article_b": "art-0453"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-1237",
+   "article_a": "art-1237",
+   "quiz_b": "quiz-s02-art-0698",
+   "article_b": "art-0698"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-1106",
+   "article_a": "art-1106",
+   "quiz_b": "quiz-s02-art-0801",
+   "article_b": "art-0801"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-0894",
+   "article_a": "art-0894",
+   "quiz_b": "quiz-s02-art-1069",
+   "article_b": "art-1069"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-0669",
+   "article_a": "art-0669",
+   "quiz_b": "quiz-s02-art-0886",
+   "article_b": "art-0886"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-0935",
+   "article_a": "art-0935",
+   "quiz_b": "quiz-s02-art-0936",
+   "article_b": "art-0936"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-0937",
+   "article_a": "art-0937",
+   "quiz_b": "quiz-s02-art-0939",
+   "article_b": "art-0939"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-0943",
+   "article_a": "art-0943",
+   "quiz_b": "quiz-s02-art-0944",
+   "article_b": "art-0944"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-0976",
+   "article_a": "art-0976",
+   "quiz_b": "quiz-s02-art-1184",
+   "article_b": "art-1184"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-1242",
+   "article_a": "art-1242",
+   "quiz_b": "quiz-s02-art-1368",
+   "article_b": "art-1368"
+  },
+  {
+   "stage": 2,
+   "theme": "마인드셋",
+   "quiz_a": "quiz-s02-art-1390",
+   "article_a": "art-1390",
+   "quiz_b": "quiz-s03-art-0092",
+   "article_b": "art-0092"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-1339",
+   "article_a": "art-1339",
+   "quiz_b": "quiz-s03-art-0114",
+   "article_b": "art-0114"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-1411",
+   "article_a": "art-1411",
+   "quiz_b": "quiz-s03-art-1268",
+   "article_b": "art-1268"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-0105",
+   "article_a": "art-0105",
+   "quiz_b": "quiz-s03-art-0060",
+   "article_b": "art-0060"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-1269",
+   "article_a": "art-1269",
+   "quiz_b": "quiz-s03-art-1406",
+   "article_b": "art-1406"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-0096",
+   "article_a": "art-0096",
+   "quiz_b": "quiz-s03-art-0905",
+   "article_b": "art-0905"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-0985",
+   "article_a": "art-0985",
+   "quiz_b": "quiz-s03-art-1196",
+   "article_b": "art-1196"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-0988",
+   "article_a": "art-0988",
+   "quiz_b": "quiz-s03-art-0098",
+   "article_b": "art-0098"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-0094",
+   "article_a": "art-0094",
+   "quiz_b": "quiz-s03-art-0120",
+   "article_b": "art-0120"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-0086",
+   "article_a": "art-0086",
+   "quiz_b": "quiz-s03-art-0101",
+   "article_b": "art-0101"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-1195",
+   "article_a": "art-1195",
+   "quiz_b": "quiz-s03-art-0986",
+   "article_b": "art-0986"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-1197",
+   "article_a": "art-1197",
+   "quiz_b": "quiz-s03-art-0911",
+   "article_b": "art-0911"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-0912",
+   "article_a": "art-0912",
+   "quiz_b": "quiz-s03-art-0917",
+   "article_b": "art-0917"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-0918",
+   "article_a": "art-0918",
+   "quiz_b": "quiz-s03-art-0919",
+   "article_b": "art-0919"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-0921",
+   "article_a": "art-0921",
+   "quiz_b": "quiz-s03-art-0923",
+   "article_b": "art-0923"
+  },
+  {
+   "stage": 3,
+   "theme": "영양 기초",
+   "quiz_a": "quiz-s03-art-0924",
+   "article_a": "art-0924",
+   "quiz_b": "quiz-s04-art-0304",
+   "article_b": "art-0304"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-1162",
+   "article_a": "art-1162",
+   "quiz_b": "quiz-s04-art-0064",
+   "article_b": "art-0064"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-1142",
+   "article_a": "art-1142",
+   "quiz_b": "quiz-s04-art-0055",
+   "article_b": "art-0055"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-1000",
+   "article_a": "art-1000",
+   "quiz_b": "quiz-s04-art-0068",
+   "article_b": "art-0068"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-1083",
+   "article_a": "art-1083",
+   "quiz_b": "quiz-s04-art-0208",
+   "article_b": "art-0208"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-0785",
+   "article_a": "art-0785",
+   "quiz_b": "quiz-s04-art-0043",
+   "article_b": "art-0043"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-0056",
+   "article_a": "art-0056",
+   "quiz_b": "quiz-s04-art-1262",
+   "article_b": "art-1262"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-1374",
+   "article_a": "art-1374",
+   "quiz_b": "quiz-s04-art-1163",
+   "article_b": "art-1163"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-1330",
+   "article_a": "art-1330",
+   "quiz_b": "quiz-s04-art-0045",
+   "article_b": "art-0045"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-0634",
+   "article_a": "art-0634",
+   "quiz_b": "quiz-s04-art-0093",
+   "article_b": "art-0093"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-0066",
+   "article_a": "art-0066",
+   "quiz_b": "quiz-s04-art-0041",
+   "article_b": "art-0041"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-0124",
+   "article_a": "art-0124",
+   "quiz_b": "quiz-s04-art-0786",
+   "article_b": "art-0786"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-1017",
+   "article_a": "art-1017",
+   "quiz_b": "quiz-s04-art-1051",
+   "article_b": "art-1051"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-1095",
+   "article_a": "art-1095",
+   "quiz_b": "quiz-s04-art-1099",
+   "article_b": "art-1099"
+  },
+  {
+   "stage": 4,
+   "theme": "단백질",
+   "quiz_a": "quiz-s04-art-1125",
+   "article_a": "art-1125",
+   "quiz_b": "quiz-s05-art-1336",
+   "article_b": "art-1336"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-1370",
+   "article_a": "art-1370",
+   "quiz_b": "quiz-s05-art-1013",
+   "article_b": "art-1013"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-1201",
+   "article_a": "art-1201",
+   "quiz_b": "quiz-s05-art-0546",
+   "article_b": "art-0546"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-0996",
+   "article_a": "art-0996",
+   "quiz_b": "quiz-s05-art-1204",
+   "article_b": "art-1204"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-0765",
+   "article_a": "art-0765",
+   "quiz_b": "quiz-s05-art-0077",
+   "article_b": "art-0077"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-1260",
+   "article_a": "art-1260",
+   "quiz_b": "quiz-s05-art-0540",
+   "article_b": "art-0540"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-0475",
+   "article_a": "art-0475",
+   "quiz_b": "quiz-s05-art-1318",
+   "article_b": "art-1318"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-0019",
+   "article_a": "art-0019",
+   "quiz_b": "quiz-s05-art-1375",
+   "article_b": "art-1375"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-0550",
+   "article_a": "art-0550",
+   "quiz_b": "quiz-s05-art-0369",
+   "article_b": "art-0369"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-0329",
+   "article_a": "art-0329",
+   "quiz_b": "quiz-s05-art-1357",
+   "article_b": "art-1357"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-0176",
+   "article_a": "art-0176",
+   "quiz_b": "quiz-s05-art-1023",
+   "article_b": "art-1023"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-0631",
+   "article_a": "art-0631",
+   "quiz_b": "quiz-s05-art-0950",
+   "article_b": "art-0950"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-1080",
+   "article_a": "art-1080",
+   "quiz_b": "quiz-s05-art-1304",
+   "article_b": "art-1304"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-1351",
+   "article_a": "art-1351",
+   "quiz_b": "quiz-s05-art-1364",
+   "article_b": "art-1364"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-1395",
+   "article_a": "art-1395",
+   "quiz_b": "quiz-s05-art-1396",
+   "article_b": "art-1396"
+  },
+  {
+   "stage": 5,
+   "theme": "탄수화물·지방",
+   "quiz_a": "quiz-s05-art-1410",
+   "article_a": "art-1410",
+   "quiz_b": "quiz-s06-art-0193",
+   "article_b": "art-0193"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-0341",
+   "article_a": "art-0341",
+   "quiz_b": "quiz-s06-art-0349",
+   "article_b": "art-0349"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-0162",
+   "article_a": "art-0162",
+   "quiz_b": "quiz-s06-art-0328",
+   "article_b": "art-0328"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-0282",
+   "article_a": "art-0282",
+   "quiz_b": "quiz-s06-art-1187",
+   "article_b": "art-1187"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-1392",
+   "article_a": "art-1392",
+   "quiz_b": "quiz-s06-art-1416",
+   "article_b": "art-1416"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-0644",
+   "article_a": "art-0644",
+   "quiz_b": "quiz-s06-art-0298",
+   "article_b": "art-0298"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-1362",
+   "article_a": "art-1362",
+   "quiz_b": "quiz-s06-art-0364",
+   "article_b": "art-0364"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-0713",
+   "article_a": "art-0713",
+   "quiz_b": "quiz-s06-art-0344",
+   "article_b": "art-0344"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-0362",
+   "article_a": "art-0362",
+   "quiz_b": "quiz-s06-art-0213",
+   "article_b": "art-0213"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-1217",
+   "article_a": "art-1217",
+   "quiz_b": "quiz-s06-art-0641",
+   "article_b": "art-0641"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-1152",
+   "article_a": "art-1152",
+   "quiz_b": "quiz-s06-art-1335",
+   "article_b": "art-1335"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-0965",
+   "article_a": "art-0965",
+   "quiz_b": "quiz-s06-art-0569",
+   "article_b": "art-0569"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-1321",
+   "article_a": "art-1321",
+   "quiz_b": "quiz-s06-art-1349",
+   "article_b": "art-1349"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-0980",
+   "article_a": "art-0980",
+   "quiz_b": "quiz-s06-art-0094",
+   "article_b": "art-0094"
+  },
+  {
+   "stage": 6,
+   "theme": "수분·수면",
+   "quiz_a": "quiz-s06-art-0131",
+   "article_a": "art-0131",
+   "quiz_b": "quiz-s06-art-0146",
+   "article_b": "art-0146"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-1108",
+   "article_a": "art-1108",
+   "quiz_b": "quiz-s07-art-0345",
+   "article_b": "art-0345"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-1287",
+   "article_a": "art-1287",
+   "quiz_b": "quiz-s07-art-0257",
+   "article_b": "art-0257"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-1029",
+   "article_a": "art-1029",
+   "quiz_b": "quiz-s07-art-0238",
+   "article_b": "art-0238"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-0228",
+   "article_a": "art-0228",
+   "quiz_b": "quiz-s07-art-0401",
+   "article_b": "art-0401"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-1248",
+   "article_a": "art-1248",
+   "quiz_b": "quiz-s07-art-1189",
+   "article_b": "art-1189"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-1405",
+   "article_a": "art-1405",
+   "quiz_b": "quiz-s07-art-0397",
+   "article_b": "art-0397"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-0449",
+   "article_a": "art-0449",
+   "quiz_b": "quiz-s07-art-0274",
+   "article_b": "art-0274"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-0744",
+   "article_a": "art-0744",
+   "quiz_b": "quiz-s07-art-0226",
+   "article_b": "art-0226"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-0941",
+   "article_a": "art-0941",
+   "quiz_b": "quiz-s07-art-0255",
+   "article_b": "art-0255"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-0003",
+   "article_a": "art-0003",
+   "quiz_b": "quiz-s07-art-0222",
+   "article_b": "art-0222"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-1027",
+   "article_a": "art-1027",
+   "quiz_b": "quiz-s07-art-0244",
+   "article_b": "art-0244"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-0317",
+   "article_a": "art-0317",
+   "quiz_b": "quiz-s07-art-0149",
+   "article_b": "art-0149"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-0155",
+   "article_a": "art-0155",
+   "quiz_b": "quiz-s07-art-0162",
+   "article_b": "art-0162"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-0168",
+   "article_a": "art-0168",
+   "quiz_b": "quiz-s07-art-0171",
+   "article_b": "art-0171"
+  },
+  {
+   "stage": 7,
+   "theme": "움직임",
+   "quiz_a": "quiz-s07-art-0176",
+   "article_a": "art-0176",
+   "quiz_b": "quiz-s07-art-0216",
+   "article_b": "art-0216"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0455",
+   "article_a": "art-0455",
+   "quiz_b": "quiz-s08-art-0339",
+   "article_b": "art-0339"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0080",
+   "article_a": "art-0080",
+   "quiz_b": "quiz-s08-art-0465",
+   "article_b": "art-0465"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-1045",
+   "article_a": "art-1045",
+   "quiz_b": "quiz-s08-art-0073",
+   "article_b": "art-0073"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0729",
+   "article_a": "art-0729",
+   "quiz_b": "quiz-s08-art-1153",
+   "article_b": "art-1153"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-1065",
+   "article_a": "art-1065",
+   "quiz_b": "quiz-s08-art-0742",
+   "article_b": "art-0742"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0740",
+   "article_a": "art-0740",
+   "quiz_b": "quiz-s08-art-1202",
+   "article_b": "art-1202"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0158",
+   "article_a": "art-0158",
+   "quiz_b": "quiz-s08-art-0447",
+   "article_b": "art-0447"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0653",
+   "article_a": "art-0653",
+   "quiz_b": "quiz-s08-art-0723",
+   "article_b": "art-0723"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0595",
+   "article_a": "art-0595",
+   "quiz_b": "quiz-s08-art-1328",
+   "article_b": "art-1328"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0018",
+   "article_a": "art-0018",
+   "quiz_b": "quiz-s08-art-0019",
+   "article_b": "art-0019"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0020",
+   "article_a": "art-0020",
+   "quiz_b": "quiz-s08-art-0022",
+   "article_b": "art-0022"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0032",
+   "article_a": "art-0032",
+   "quiz_b": "quiz-s08-art-0033",
+   "article_b": "art-0033"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0034",
+   "article_a": "art-0034",
+   "quiz_b": "quiz-s08-art-0036",
+   "article_b": "art-0036"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0037",
+   "article_a": "art-0037",
+   "quiz_b": "quiz-s08-art-0038",
+   "article_b": "art-0038"
+  },
+  {
+   "stage": 8,
+   "theme": "감정적 식사",
+   "quiz_a": "quiz-s08-art-0040",
+   "article_a": "art-0040",
+   "quiz_b": "quiz-s09-art-1347",
+   "article_b": "art-1347"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-1369",
+   "article_a": "art-1369",
+   "quiz_b": "quiz-s09-art-1049",
+   "article_b": "art-1049"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-0626",
+   "article_a": "art-0626",
+   "quiz_b": "quiz-s09-art-0052",
+   "article_b": "art-0052"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-0971",
+   "article_a": "art-0971",
+   "quiz_b": "quiz-s09-art-0142",
+   "article_b": "art-0142"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-0140",
+   "article_a": "art-0140",
+   "quiz_b": "quiz-s09-art-1050",
+   "article_b": "art-1050"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-0659",
+   "article_a": "art-0659",
+   "quiz_b": "quiz-s09-art-0671",
+   "article_b": "art-0671"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-0215",
+   "article_a": "art-0215",
+   "quiz_b": "quiz-s09-art-1135",
+   "article_b": "art-1135"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-0137",
+   "article_a": "art-0137",
+   "quiz_b": "quiz-s09-art-0913",
+   "article_b": "art-0913"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-1291",
+   "article_a": "art-1291",
+   "quiz_b": "quiz-s09-art-1041",
+   "article_b": "art-1041"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-1385",
+   "article_a": "art-1385",
+   "quiz_b": "quiz-s09-art-1325",
+   "article_b": "art-1325"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-0041",
+   "article_a": "art-0041",
+   "quiz_b": "quiz-s09-art-0051",
+   "article_b": "art-0051"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-0060",
+   "article_a": "art-0060",
+   "quiz_b": "quiz-s09-art-0066",
+   "article_b": "art-0066"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-0069",
+   "article_a": "art-0069",
+   "quiz_b": "quiz-s09-art-0076",
+   "article_b": "art-0076"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-0077",
+   "article_a": "art-0077",
+   "quiz_b": "quiz-s09-art-0078",
+   "article_b": "art-0078"
+  },
+  {
+   "stage": 9,
+   "theme": "사회·환경",
+   "quiz_a": "quiz-s09-art-0079",
+   "article_a": "art-0079",
+   "quiz_b": "quiz-s09-art-0080",
+   "article_b": "art-0080"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0506",
+   "article_a": "art-0506",
+   "quiz_b": "quiz-s10-art-1076",
+   "article_b": "art-1076"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0370",
+   "article_a": "art-0370",
+   "quiz_b": "quiz-s10-art-0704",
+   "article_b": "art-0704"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0706",
+   "article_a": "art-0706",
+   "quiz_b": "quiz-s10-art-0097",
+   "article_b": "art-0097"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0390",
+   "article_a": "art-0390",
+   "quiz_b": "quiz-s10-art-0705",
+   "article_b": "art-0705"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-1266",
+   "article_a": "art-1266",
+   "quiz_b": "quiz-s10-art-1356",
+   "article_b": "art-1356"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0484",
+   "article_a": "art-0484",
+   "quiz_b": "quiz-s10-art-0523",
+   "article_b": "art-0523"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0496",
+   "article_a": "art-0496",
+   "quiz_b": "quiz-s10-art-0614",
+   "article_b": "art-0614"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0299",
+   "article_a": "art-0299",
+   "quiz_b": "quiz-s10-art-0410",
+   "article_b": "art-0410"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0559",
+   "article_a": "art-0559",
+   "quiz_b": "quiz-s10-art-0497",
+   "article_b": "art-0497"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-1091",
+   "article_a": "art-1091",
+   "quiz_b": "quiz-s10-art-0709",
+   "article_b": "art-0709"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-1238",
+   "article_a": "art-1238",
+   "quiz_b": "quiz-s10-art-0505",
+   "article_b": "art-0505"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0039",
+   "article_a": "art-0039",
+   "quiz_b": "quiz-s10-art-0057",
+   "article_b": "art-0057"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0068",
+   "article_a": "art-0068",
+   "quiz_b": "quiz-s10-art-0081",
+   "article_b": "art-0081"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0095",
+   "article_a": "art-0095",
+   "quiz_b": "quiz-s10-art-0098",
+   "article_b": "art-0098"
+  },
+  {
+   "stage": 10,
+   "theme": "정체기·재시작",
+   "quiz_a": "quiz-s10-art-0099",
+   "article_a": "art-0099",
+   "quiz_b": "quiz-s10-art-0100",
+   "article_b": "art-0100"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-1326",
+   "article_a": "art-1326",
+   "quiz_b": "quiz-s11-art-0128",
+   "article_b": "art-0128"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-0085",
+   "article_a": "art-0085",
+   "quiz_b": "quiz-s11-art-0895",
+   "article_b": "art-0895"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-1353",
+   "article_a": "art-1353",
+   "quiz_b": "quiz-s11-art-1355",
+   "article_b": "art-1355"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-1143",
+   "article_a": "art-1143",
+   "quiz_b": "quiz-s11-art-0198",
+   "article_b": "art-0198"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-0517",
+   "article_a": "art-0517",
+   "quiz_b": "quiz-s11-art-1408",
+   "article_b": "art-1408"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-0733",
+   "article_a": "art-0733",
+   "quiz_b": "quiz-s11-art-0531",
+   "article_b": "art-0531"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-0034",
+   "article_a": "art-0034",
+   "quiz_b": "quiz-s11-art-0127",
+   "article_b": "art-0127"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-0163",
+   "article_a": "art-0163",
+   "quiz_b": "quiz-s11-art-0582",
+   "article_b": "art-0582"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-0290",
+   "article_a": "art-0290",
+   "quiz_b": "quiz-s11-art-0564",
+   "article_b": "art-0564"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-0722",
+   "article_a": "art-0722",
+   "quiz_b": "quiz-s11-art-0313",
+   "article_b": "art-0313"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-0887",
+   "article_a": "art-0887",
+   "quiz_b": "quiz-s11-art-0628",
+   "article_b": "art-0628"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-0413",
+   "article_a": "art-0413",
+   "quiz_b": "quiz-s11-art-0108",
+   "article_b": "art-0108"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-0109",
+   "article_a": "art-0109",
+   "quiz_b": "quiz-s11-art-0110",
+   "article_b": "art-0110"
+  },
+  {
+   "stage": 11,
+   "theme": "호르몬·건강",
+   "quiz_a": "quiz-s11-art-0111",
+   "article_a": "art-0111",
+   "quiz_b": "quiz-s12-art-0458",
+   "article_b": "art-0458"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-1322",
+   "article_a": "art-1322",
+   "quiz_b": "quiz-s12-art-0436",
+   "article_b": "art-0436"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-0402",
+   "article_a": "art-0402",
+   "quiz_b": "quiz-s12-art-1393",
+   "article_b": "art-1393"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-0857",
+   "article_a": "art-0857",
+   "quiz_b": "quiz-s12-art-0241",
+   "article_b": "art-0241"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-0452",
+   "article_a": "art-0452",
+   "quiz_b": "quiz-s12-art-0076",
+   "article_b": "art-0076"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-0446",
+   "article_a": "art-0446",
+   "quiz_b": "quiz-s12-art-0892",
+   "article_b": "art-0892"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-0057",
+   "article_a": "art-0057",
+   "quiz_b": "quiz-s12-art-0716",
+   "article_b": "art-0716"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-0667",
+   "article_a": "art-0667",
+   "quiz_b": "quiz-s12-art-1072",
+   "article_b": "art-1072"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-0629",
+   "article_a": "art-0629",
+   "quiz_b": "quiz-s12-art-0409",
+   "article_b": "art-0409"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-1035",
+   "article_a": "art-1035",
+   "quiz_b": "quiz-s12-art-0556",
+   "article_b": "art-0556"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-1114",
+   "article_a": "art-1114",
+   "quiz_b": "quiz-s12-art-0106",
+   "article_b": "art-0106"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-0349",
+   "article_a": "art-0349",
+   "quiz_b": "quiz-s12-art-0350",
+   "article_b": "art-0350"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-0351",
+   "article_a": "art-0351",
+   "quiz_b": "quiz-s12-art-0352",
+   "article_b": "art-0352"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-0354",
+   "article_a": "art-0354",
+   "quiz_b": "quiz-s12-art-0355",
+   "article_b": "art-0355"
+  },
+  {
+   "stage": 12,
+   "theme": "통합",
+   "quiz_a": "quiz-s12-art-0360",
+   "article_a": "art-0360",
+   "quiz_b": "quiz-s12-art-0361",
+   "article_b": "art-0361"
+  }
+ ]
+}
