@@ -6,7 +6,11 @@
 plan.mjs      계정(채널×언어)별 주당 빈도로 2주 계획 → queue/plan-<시작일>.json
 generate.mjs  계획 슬롯마다 Claude 로 초안 → 검사(실패 시 1회 재생성) → queue/<날짜>/*.json (approved:false)
 lint.mjs      사람이 고친 초안 재검사
+render.mjs    초안 → 이미지(PNG 1080×1350): IG 는 슬라이드마다, 나머지는 카드 1장
+review_html.mjs  이미지 포함 검토 페이지
 ```
+
+이미지는 설치된 Chrome 헤드리스로 렌더한다(추가 의존성 없음, `CHROME_BIN` 으로 경로 변경). 재료는 브랜드 컬러(라임 #D4FF50·검정)·HAVI 캐릭터(`web/public/cta`)·블로그 대표 사진(앱 아티클 사진 라이브러리)뿐이고, 이미지 속 글은 lint 를 통과한 초안 문구만 쓴다. AI 이미지 생성은 쓰지 않는다(건강 콘텐츠의 사실성·브랜드 일관성).
 
 API 키 없이 돌릴 때(에이전트·사람이 초안을 쓰는 경우): `dump_prompts.mjs` 로 슬롯별 프롬프트를 떨구고, 출력 JSON 을 `<id>.out.json` 으로 둔 뒤 `import_drafts.mjs` 로 큐에 넣는다.
 
@@ -50,5 +54,5 @@ PASS 여도 `approved:false` 로 큐에 들어간다. 승인 → Buffer API 예�
 
 ## 미확정
 
-- Instagram 해시태그 상한(정책 변경 중) · 캐러셀 이미지 렌더(현재는 슬라이드 문구만 생성) · Buffer 연결
+- Instagram 해시태그 상한(정책 변경 중) · Buffer 연결 · HAVI 캐릭터 고해상도 원본(현재 210px)
 - 명상 음원·앱 운동 영상은 권리 확인 전까지 SNS 에 쓰지 않는다

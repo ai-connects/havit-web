@@ -7,7 +7,9 @@
     "plan": "node plan.mjs",
     "generate": "node generate.mjs",
     "lint": "node lint.mjs",
-    "test": "node --test test/*.test.mjs"
+    "test": "node --test test/*.test.mjs",
+    "render": "node render.mjs",
+    "review": "node review_html.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.98.0"
