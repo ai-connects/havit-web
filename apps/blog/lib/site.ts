@@ -56,6 +56,32 @@ export function localizedShot(shortLang: string, fallbackPath: string): string {
   return L10N_LANGS.has(shortLang) ? asset(`/havit/l10n/${shortLang}/${file}`) : asset(fallbackPath);
 }
 
+/**
+ * 본문 앱 화면(`/havit/shot/<파일>`)의 언어판. public/havit/shot/<route 언어>/<파일> 로 둔다(홈
+ * apps/web/public/l10n 원본을 본문 크기 — 긴 변 1100 — 로 줄인 것). 원고는 언어와 무관하게 기본
+ * 경로를 쓰고 렌더 시 바꾼다. 언어판이 없는 파일(명상 사진 등)·언어는 기본 이미지.
+ */
+const SHOT_L10N_FILES = new Set([
+  'feature-ai-coach.webp', 'feature-body-insights.webp', 'feature-daily-check-in.webp',
+  'feature-daily-missions.webp', 'feature-nutrition.webp', 'feature-track-everything.webp',
+]);
+export function localizedBodyShot(shortLang: string, src: string): string {
+  const m = src.match(/\/havit\/shot\/([^/]+)$/);
+  if (!m || !SHOT_L10N_FILES.has(m[1]) || !L10N_LANGS.has(shortLang)) return src;
+  return src.replace(/\/havit\/shot\/[^/]+$/, `/havit/shot/${shortLang}/${m[1]}`);
+}
+
+/**
+ * 스토어 배지의 언어판 — Apple(App Store 마케팅 툴 공식 SVG)·Google(Play 공식 배지 PNG, 여백 잘라냄)을
+ * public/badges/<route 언어>/ 에 둔다. 없는 언어는 기존 영어 배지.
+ */
+export function storeBadge(shortLang: string, store: 'app_store' | 'google_play'): string {
+  if (L10N_LANGS.has(shortLang)) {
+    return asset(`/badges/${shortLang}/${store === 'app_store' ? 'app-store.svg' : 'google-play.png'}`);
+  }
+  return asset(store === 'app_store' ? '/badge-appstore.png' : '/badge-googleplay.png');
+}
+
 // 블로그 언어 → 마케팅 사이트 로케일 디렉터리. 이름이 다른 둘만 적는다
 // (apps/web/plugins/i18n-html.js 의 BLOG_LANG_OF 역방향).
 const WWW_LOCALE_OF: Record<string, string> = { zh: 'zh-cn', 'pt-br': 'pt' };
