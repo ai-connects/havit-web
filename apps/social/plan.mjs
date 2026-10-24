@@ -1,11 +1,11 @@
-// 하루치 발행 계획: 켜진 채널(enabled)×언어×슬롯마다 1건. 퀴즈 슬롯(source: 'quiz')은 앱 퀴즈 라이브러리를 쓴다. 글은 그 계정에서 가장 오래 안 쓴 검증 글, 포맷은 날짜로 돌린다.
+// 하루치 발행 계획: config/calendar.json(84일 편성표)을 따라 켜진 채널×슬롯마다 1건 — 9개 언어 모두 같은 콘텐츠·같은 포맷, 시각만 현지. 글은 그 계정에서 가장 오래 안 쓴 검증 글, 포맷은 날짜로 돌린다.
 //   node plan.mjs 2026-10-26            → queue/plan-2026-10-26.json (그날 하루)
 //   node plan.mjs 2026-10-26 7          → 그날부터 7일
 // 발행 시각(publish_at, UTC)은 config/channels.json 의 langs.*.tz / post_hours(현지 시각).
-import { existsSync, mkdirSync, readdirSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { config, hasLang, quizSlugs, readJson, verifiedSlugs } from './lib/source.mjs';
+import { config, hasLang, isDrugTopic } from './lib/source.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const QUEUE = path.join(ROOT, 'queue');
@@ -25,19 +25,9 @@ export function localToUtc(date, hour, tz) {
   return new Date(ms).toISOString();
 }
 
-// 계정별로 각 글을 마지막으로 쓴 날짜(계획 파일 기준) — 가장 오래 안 쓴 글부터 고른다.
-const lastUsed = new Map();
-if (existsSync(QUEUE)) {
-  for (const f of readdirSync(QUEUE).filter((x) => /^plan-.*\.json$/.test(x))) {
-    for (const e of readJson(path.join(QUEUE, f)).entries) {
-      const k = `${e.channel}:${e.lang}:${e.slug}`;
-      if (!lastUsed.has(k) || lastUsed.get(k) < e.date) lastUsed.set(k, e.date);
-    }
-  }
-}
-
 const ch = config('channels');
-const slugs = verifiedSlugs();
+const CAL = config('calendar');
+const calDay = (date) => CAL.days[(((dayIndex(date) - dayIndex(CAL.start)) % CAL.days.length) + CAL.days.length) % CAL.days.length];
 // 레시피 같은 포맷은 해당 표시(sources.json)가 있는 글에만 — 아니면 다음 포맷으로.
 const REQUIRES = ch.format_requires || {};
 const FLAGS = new Map(config('sources').sources.map((x) => [x.slug, x]));
@@ -55,39 +45,31 @@ for (let i = 0; i < Number(days); i++) {
   d.setUTCDate(d.getUTCDate() + i);
   const date = d.toISOString().slice(0, 10);
   if (existsSync(path.join(QUEUE, `plan-${date}.json`))) continue; // 이미 계획된 날은 건너뜀(재실행 안전)
+  const cal = calDay(date);
   let a = 0;
   for (const [channel, rule] of Object.entries(ch.channels)) {
     if (!rule.enabled) continue;
-    // 기본 슬롯 + 추가 슬롯(예: Threads 블로그 링크 글). 추가 슬롯은 다른 글을 쓴다.
-    const slots = [{}, ...(rule.extra_slots || [])];
-    const today = new Map();
-    const usedToday = (c, l) => today.get(`${c}:${l}`) || today.set(`${c}:${l}`, new Set()).get(`${c}:${l}`);
+    const slots = [{ pick: rule.pick }, ...(rule.extra_slots || [])];
+    const used = new Set();
     slots.forEach((slot, si) => {
-      const formats = slot.formats || rule.formats;
-      rule.langs.forEach((lang, li) => {
-        // source: 'quiz' 슬롯은 앱 퀴즈 라이브러리에서, 나머지는 검증된 블로그 글에서 고른다.
-        const pool = (slot.source === 'quiz' ? quizSlugs() : slugs).filter((s) => hasLang(s, lang));
-        // 가장 오래 안 쓴 글(안 쓴 글 우선). 같은 날 같은 언어의 IG·Threads 가 같은 글을 쓰지 않게 계정마다 시작점을 비튼다.
-        const ranked = pool
-          .map((s, j) => ({ s, used: lastUsed.get(`${channel}:${lang}:${s}`) || '', tie: (j + a * 7 + dayIndex(date)) % pool.length }))
-          .sort((x, y) => x.used.localeCompare(y.used) || x.tie - y.tie);
-        const slug = ranked[0].s;
-        lastUsed.set(`${channel}:${lang}:${slug}`, date);
+      const slug = cal[slot.pick];
+      if (!slug) throw new Error(`편성표에 ${slot.pick} 없음: ${date}`);
+      if (isDrugTopic(slug)) throw new Error(`편성표에 약물 주제: ${slug}`);
+      // 포맷은 날짜로 돌리되 언어와 무관(전 언어 동일). 같은 계정 같은 날 포맷 중복 없음.
+      const format = pickFormat(slot.formats || rule.formats, (dayIndex(date) + si) % (slot.formats || rule.formats).length, slug, used);
+      used.add(format);
+      for (const lang of rule.langs) {
+        if (!hasLang(slug, lang)) throw new Error(`${slug} 에 ${lang} 판 없음`);
         const L = ch.langs[lang];
         entries.push({
-          date,
-          channel,
-          lang,
-          slug,
-          // 같은 계정의 같은 날 슬롯끼리 포맷이 겹치지 않게(날짜×슬롯 수 + 슬롯 + 언어)
-          format: pickFormat(formats, (dayIndex(date) * slots.length + si + li) % formats.length, slug, usedToday(channel, lang)),
+          date, channel, lang, slug, format,
+          theme: cal.theme,
           segment: ch.segments[lang][(dayIndex(date) + a) % ch.segments[lang].length],
           publish_at: localToUtc(date, L.post_hours?.[slot.hour_key || channel] ?? 12, L.tz || 'UTC'),
           ...(slot.share ? { share: slot.share } : {}),
         });
-        usedToday(channel, lang).add(entries.at(-1).format);
-        a++;
-      });
+      }
+      a++;
     });
   }
   mkdirSync(QUEUE, { recursive: true });

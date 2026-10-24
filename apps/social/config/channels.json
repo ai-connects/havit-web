@@ -176,28 +176,27 @@
         1
       ],
       "formats": [
-        "hot_take",
-        "question",
-        "one_stat",
-        "ab_question",
-        "myth_fact",
-        "recipe_quick",
-        "mini_steps",
-        "havi_scene"
+        "app_quiz_post"
       ],
       "enabled": true,
       "extra_slots": [
         {
-          "hour_key": "threads_2"
+          "hour_key": "threads_2",
+          "pick": "quiz_tip",
+          "formats": [
+            "app_quiz_tip"
+          ]
         },
         {
           "hour_key": "threads_link",
+          "pick": "article",
           "share": "link",
           "formats": [
             "link_teaser"
           ]
         }
-      ]
+      ],
+      "pick": "quiz_ox"
     },
     "instagram": {
       "langs": [
@@ -237,12 +236,13 @@
       "extra_slots": [
         {
           "hour_key": "instagram_2",
-          "source": "quiz",
+          "pick": "quiz_ig",
           "formats": [
             "app_quiz_carousel"
           ]
         }
-      ]
+      ],
+      "pick": "article"
     },
     "facebook": {
       "langs": [

@@ -1,0 +1,678 @@
+{
+ "_note": "SNS 84일 편성표 — scripts/build_calendar.py 로 생성(손으로 고치지 말 것). 매일 9개 언어 같은 콘텐츠. day=(날짜-start)%84. 배틀패스 12주 커리큘럼=주간 테마. 약물 주제 제외.",
+ "start": "2026-10-25",
+ "days": [
+  {
+   "week": 1,
+   "theme": "기초(Foundation)",
+   "article": "body-weight-fluctuation-normal-range-daily-tracking-2026",
+   "quiz_ig": "quiz-s01-art-1404",
+   "quiz_tip": "quiz-s01-art-0687",
+   "quiz_ox": "quiz-s01-art-0625"
+  },
+  {
+   "week": 1,
+   "theme": "기초(Foundation)",
+   "article": "active-calories-vs-total-calories-burned-tracking-2026",
+   "quiz_ig": "quiz-s01-art-1075",
+   "quiz_tip": "quiz-s01-art-0692",
+   "quiz_ox": "quiz-s01-art-0117"
+  },
+  {
+   "week": 1,
+   "theme": "기초(Foundation)",
+   "article": "cold-water-drinking-metabolism-calorie-burn-myth-2026",
+   "quiz_ig": "quiz-s01-art-1417",
+   "quiz_tip": "quiz-s01-art-0774",
+   "quiz_ox": "quiz-s01-art-1166"
+  },
+  {
+   "week": 1,
+   "theme": "기초(Foundation)",
+   "article": "satiety-index-foods-hunger-control-ranking-2026",
+   "quiz_ig": "quiz-s01-art-1020",
+   "quiz_tip": "quiz-s01-art-0574",
+   "quiz_ox": "quiz-s01-art-0485"
+  },
+  {
+   "week": 1,
+   "theme": "기초(Foundation)",
+   "article": "vitamin-d3-k2-synergy-calcium-metabolism-2026",
+   "quiz_ig": "quiz-s01-art-1230",
+   "quiz_tip": "quiz-s01-art-1414",
+   "quiz_ox": "quiz-s01-art-0554"
+  },
+  {
+   "week": 1,
+   "theme": "기초(Foundation)",
+   "article": "apple-cider-vinegar-drink-blood-sugar-hydration-2026",
+   "quiz_ig": "quiz-s01-art-0478",
+   "quiz_tip": "quiz-s01-art-1031",
+   "quiz_ox": "quiz-s01-art-1412"
+  },
+  {
+   "week": 1,
+   "theme": "기초(Foundation)",
+   "article": "zinc-copper-ratio-supplementation-imbalance-risk-2026",
+   "quiz_ig": "quiz-s01-art-0624",
+   "quiz_tip": "quiz-s01-art-0844",
+   "quiz_ox": "quiz-s01-art-0846"
+  },
+  {
+   "week": 2,
+   "theme": "마인드셋",
+   "article": "self-compassion-meditation-weight-loss-motivation-2026",
+   "quiz_ig": "quiz-s02-art-1309",
+   "quiz_tip": "quiz-s02-art-0717",
+   "quiz_ox": "quiz-s02-art-0232"
+  },
+  {
+   "week": 2,
+   "theme": "마인드셋",
+   "article": "guided-meditation-weight-loss-healthy-habits-guide-2026",
+   "quiz_ig": "quiz-s02-art-0503",
+   "quiz_tip": "quiz-s02-art-1110",
+   "quiz_ox": "quiz-s02-art-0443"
+  },
+  {
+   "week": 2,
+   "theme": "마인드셋",
+   "article": "morning-meditation-focus-energy-5-minute-2026",
+   "quiz_ig": "quiz-s02-art-0236",
+   "quiz_tip": "quiz-s02-art-0394",
+   "quiz_ox": "quiz-s02-art-1113"
+  },
+  {
+   "week": 2,
+   "theme": "마인드셋",
+   "article": "meditation-for-beginners-5-minutes-anywhere-2026",
+   "quiz_ig": "quiz-s02-art-0615",
+   "quiz_tip": "quiz-s02-art-0453",
+   "quiz_ox": "quiz-s02-art-1237"
+  },
+  {
+   "week": 2,
+   "theme": "마인드셋",
+   "article": "sparkling-water-bone-health-carbonation-calcium-myth-2026",
+   "quiz_ig": "quiz-s02-art-0698",
+   "quiz_tip": "quiz-s02-art-1106",
+   "quiz_ox": "quiz-s02-art-0801"
+  },
+  {
+   "week": 2,
+   "theme": "마인드셋",
+   "article": "sleep-pressure-adenosine-buildup-timing-2026",
+   "quiz_ig": "quiz-s02-art-0894",
+   "quiz_tip": "quiz-s02-art-1069",
+   "quiz_ox": "quiz-s02-art-0669"
+  },
+  {
+   "week": 2,
+   "theme": "마인드셋",
+   "article": "milk-hydration-index-better-than-water-study-2026",
+   "quiz_ig": "quiz-s02-art-0886",
+   "quiz_tip": "quiz-s02-art-0935",
+   "quiz_ox": "quiz-s02-art-0936"
+  },
+  {
+   "week": 3,
+   "theme": "영양 기초",
+   "article": "satiety-index-foods-hunger-control-ranking-2026",
+   "quiz_ig": "quiz-s03-art-0092",
+   "quiz_tip": "quiz-s03-art-1339",
+   "quiz_ox": "quiz-s03-art-0114"
+  },
+  {
+   "week": 3,
+   "theme": "영양 기초",
+   "article": "vitamin-d3-k2-synergy-calcium-metabolism-2026",
+   "quiz_ig": "quiz-s03-art-1411",
+   "quiz_tip": "quiz-s03-art-1268",
+   "quiz_ox": "quiz-s03-art-0105"
+  },
+  {
+   "week": 3,
+   "theme": "영양 기초",
+   "article": "apple-cider-vinegar-drink-blood-sugar-hydration-2026",
+   "quiz_ig": "quiz-s03-art-0060",
+   "quiz_tip": "quiz-s03-art-1269",
+   "quiz_ox": "quiz-s03-art-1406"
+  },
+  {
+   "week": 3,
+   "theme": "영양 기초",
+   "article": "zinc-copper-ratio-supplementation-imbalance-risk-2026",
+   "quiz_ig": "quiz-s03-art-0096",
+   "quiz_tip": "quiz-s03-art-0905",
+   "quiz_ox": "quiz-s03-art-0985"
+  },
+  {
+   "week": 3,
+   "theme": "영양 기초",
+   "article": "caffeine-half-life-sleep-cutoff-time-calculation-2026",
+   "quiz_ig": "quiz-s03-art-1196",
+   "quiz_tip": "quiz-s03-art-0988",
+   "quiz_ox": "quiz-s03-art-0098"
+  },
+  {
+   "week": 3,
+   "theme": "영양 기초",
+   "article": "magnesium-forms-sleep-specific-absorption-2026",
+   "quiz_ig": "quiz-s03-art-0094",
+   "quiz_tip": "quiz-s03-art-0120",
+   "quiz_ox": "quiz-s03-art-0086"
+  },
+  {
+   "week": 3,
+   "theme": "영양 기초",
+   "article": "coconut-water-vs-sports-drinks-electrolyte-comparison-2026",
+   "quiz_ig": "quiz-s03-art-0101",
+   "quiz_tip": "quiz-s03-art-1195",
+   "quiz_ox": "quiz-s03-art-0986"
+  },
+  {
+   "week": 4,
+   "theme": "단백질",
+   "article": "leucine-threshold-per-meal-muscle-protein-synthesis-2026",
+   "quiz_ig": "quiz-s04-art-0304",
+   "quiz_tip": "quiz-s04-art-1162",
+   "quiz_ox": "quiz-s04-art-0064"
+  },
+  {
+   "week": 4,
+   "theme": "단백질",
+   "article": "diet-induced-thermogenesis-protein-thermic-effect-2026",
+   "quiz_ig": "quiz-s04-art-1142",
+   "quiz_tip": "quiz-s04-art-0055",
+   "quiz_ox": "quiz-s04-art-1000"
+  },
+  {
+   "week": 4,
+   "theme": "단백질",
+   "article": "protein-quality-aging-leucine-threshold-muscle-2026",
+   "quiz_ig": "quiz-s04-art-0068",
+   "quiz_tip": "quiz-s04-art-1083",
+   "quiz_ox": "quiz-s04-art-0208"
+  },
+  {
+   "week": 4,
+   "theme": "단백질",
+   "article": "creatine-monohydrate-food-sources-supplementation-need-2026",
+   "quiz_ig": "quiz-s04-art-0785",
+   "quiz_tip": "quiz-s04-art-0043",
+   "quiz_ox": "quiz-s04-art-0056"
+  },
+  {
+   "week": 4,
+   "theme": "단백질",
+   "article": "tart-cherry-juice-sleep-melatonin-hydration-timing-2026",
+   "quiz_ig": "quiz-s04-art-1262",
+   "quiz_tip": "quiz-s04-art-1374",
+   "quiz_ox": "quiz-s04-art-1163"
+  },
+  {
+   "week": 4,
+   "theme": "단백질",
+   "article": "meditation-for-emotional-stress-eating-2026",
+   "quiz_ig": "quiz-s04-art-1330",
+   "quiz_tip": "quiz-s04-art-0045",
+   "quiz_ox": "quiz-s04-art-0634"
+  },
+  {
+   "week": 4,
+   "theme": "단백질",
+   "article": "meditation-for-food-cravings-5-minute-practice-2026",
+   "quiz_ig": "quiz-s04-art-0093",
+   "quiz_tip": "quiz-s04-art-0066",
+   "quiz_ox": "quiz-s04-art-0041"
+  },
+  {
+   "week": 5,
+   "theme": "탄수화물·지방",
+   "article": "post-meal-walking-blood-sugar-timing-optimization-2026",
+   "quiz_ig": "quiz-s05-art-1336",
+   "quiz_tip": "quiz-s05-art-1370",
+   "quiz_ox": "quiz-s05-art-1013"
+  },
+  {
+   "week": 5,
+   "theme": "탄수화물·지방",
+   "article": "carbohydrate-insulin-model-obesity-current-evidence-2026",
+   "quiz_ig": "quiz-s05-art-1201",
+   "quiz_tip": "quiz-s05-art-0546",
+   "quiz_ox": "quiz-s05-art-0996"
+  },
+  {
+   "week": 5,
+   "theme": "탄수화물·지방",
+   "article": "autophagy-fasting-protocol-duration-threshold-evidence-2026",
+   "quiz_ig": "quiz-s05-art-1204",
+   "quiz_tip": "quiz-s05-art-0765",
+   "quiz_ox": "quiz-s05-art-0077"
+  },
+  {
+   "week": 5,
+   "theme": "탄수화물·지방",
+   "article": "breathing-relaxation-meditation-stress-anxiety-2026",
+   "quiz_ig": "quiz-s05-art-1260",
+   "quiz_tip": "quiz-s05-art-0540",
+   "quiz_ox": "quiz-s05-art-0475"
+  },
+  {
+   "week": 5,
+   "theme": "탄수화물·지방",
+   "article": "water-retention-causes-solutions-weight-fluctuation-2026",
+   "quiz_ig": "quiz-s05-art-1318",
+   "quiz_tip": "quiz-s05-art-0019",
+   "quiz_ox": "quiz-s05-art-1375"
+  },
+  {
+   "week": 5,
+   "theme": "탄수화물·지방",
+   "article": "weight-loss-rate-optimal-speed-muscle-preservation-2026",
+   "quiz_ig": "quiz-s05-art-0550",
+   "quiz_tip": "quiz-s05-art-0369",
+   "quiz_ox": "quiz-s05-art-0329"
+  },
+  {
+   "week": 5,
+   "theme": "탄수화물·지방",
+   "article": "refeeding-syndrome-extreme-diet-warning-signs-2026",
+   "quiz_ig": "quiz-s05-art-1357",
+   "quiz_tip": "quiz-s05-art-0176",
+   "quiz_ox": "quiz-s05-art-1023"
+  },
+  {
+   "week": 6,
+   "theme": "수분·수면",
+   "article": "sparkling-water-bone-health-carbonation-calcium-myth-2026",
+   "quiz_ig": "quiz-s06-art-0193",
+   "quiz_tip": "quiz-s06-art-0341",
+   "quiz_ox": "quiz-s06-art-0349"
+  },
+  {
+   "week": 6,
+   "theme": "수분·수면",
+   "article": "sleep-pressure-adenosine-buildup-timing-2026",
+   "quiz_ig": "quiz-s06-art-0162",
+   "quiz_tip": "quiz-s06-art-0328",
+   "quiz_ox": "quiz-s06-art-0282"
+  },
+  {
+   "week": 6,
+   "theme": "수분·수면",
+   "article": "milk-hydration-index-better-than-water-study-2026",
+   "quiz_ig": "quiz-s06-art-1187",
+   "quiz_tip": "quiz-s06-art-1392",
+   "quiz_ox": "quiz-s06-art-1416"
+  },
+  {
+   "week": 6,
+   "theme": "수분·수면",
+   "article": "caffeine-half-life-sleep-cutoff-time-calculation-2026",
+   "quiz_ig": "quiz-s06-art-0644",
+   "quiz_tip": "quiz-s06-art-0298",
+   "quiz_ox": "quiz-s06-art-1362"
+  },
+  {
+   "week": 6,
+   "theme": "수분·수면",
+   "article": "magnesium-forms-sleep-specific-absorption-2026",
+   "quiz_ig": "quiz-s06-art-0364",
+   "quiz_tip": "quiz-s06-art-0713",
+   "quiz_ox": "quiz-s06-art-0344"
+  },
+  {
+   "week": 6,
+   "theme": "수분·수면",
+   "article": "coconut-water-vs-sports-drinks-electrolyte-comparison-2026",
+   "quiz_ig": "quiz-s06-art-0362",
+   "quiz_tip": "quiz-s06-art-0213",
+   "quiz_ox": "quiz-s06-art-1217"
+  },
+  {
+   "week": 6,
+   "theme": "수분·수면",
+   "article": "tart-cherry-juice-sleep-melatonin-hydration-timing-2026",
+   "quiz_ig": "quiz-s06-art-0641",
+   "quiz_tip": "quiz-s06-art-1152",
+   "quiz_ox": "quiz-s06-art-1335"
+  },
+  {
+   "week": 7,
+   "theme": "움직임",
+   "article": "stair-climbing-cardiorespiratory-fitness-apartment-workout-2026",
+   "quiz_ig": "quiz-s07-art-1108",
+   "quiz_tip": "quiz-s07-art-0345",
+   "quiz_ox": "quiz-s07-art-1287"
+  },
+  {
+   "week": 7,
+   "theme": "움직임",
+   "article": "body-recomposition-lose-fat-gain-muscle-simultaneously-2026",
+   "quiz_ig": "quiz-s07-art-0257",
+   "quiz_tip": "quiz-s07-art-1029",
+   "quiz_ox": "quiz-s07-art-0238"
+  },
+  {
+   "week": 7,
+   "theme": "움직임",
+   "article": "grip-strength-longevity-predictor-training-2026",
+   "quiz_ig": "quiz-s07-art-0228",
+   "quiz_tip": "quiz-s07-art-0401",
+   "quiz_ox": "quiz-s07-art-1248"
+  },
+  {
+   "week": 7,
+   "theme": "움직임",
+   "article": "farmers-walk-functional-strength-whole-body-exercise-2026",
+   "quiz_ig": "quiz-s07-art-1189",
+   "quiz_tip": "quiz-s07-art-1405",
+   "quiz_ox": "quiz-s07-art-0397"
+  },
+  {
+   "week": 7,
+   "theme": "움직임",
+   "article": "breathing-technique-lifting-valsalva-safety-2026",
+   "quiz_ig": "quiz-s07-art-0449",
+   "quiz_tip": "quiz-s07-art-0274",
+   "quiz_ox": "quiz-s07-art-0744"
+  },
+  {
+   "week": 7,
+   "theme": "움직임",
+   "article": "alcohol-dehydration-recovery-timeline-rehydration-protocol-2026",
+   "quiz_ig": "quiz-s07-art-0226",
+   "quiz_tip": "quiz-s07-art-0941",
+   "quiz_ox": "quiz-s07-art-0255"
+  },
+  {
+   "week": 7,
+   "theme": "움직임",
+   "article": "herbal-tea-caffeine-free-hydration-sleep-quality-2026",
+   "quiz_ig": "quiz-s07-art-0003",
+   "quiz_tip": "quiz-s07-art-0222",
+   "quiz_ox": "quiz-s07-art-1027"
+  },
+  {
+   "week": 8,
+   "theme": "감정적 식사",
+   "article": "meditation-for-emotional-stress-eating-2026",
+   "quiz_ig": "quiz-s08-art-0455",
+   "quiz_tip": "quiz-s08-art-0339",
+   "quiz_ox": "quiz-s08-art-0080"
+  },
+  {
+   "week": 8,
+   "theme": "감정적 식사",
+   "article": "meditation-for-food-cravings-5-minute-practice-2026",
+   "quiz_ig": "quiz-s08-art-0465",
+   "quiz_tip": "quiz-s08-art-1045",
+   "quiz_ox": "quiz-s08-art-0073"
+  },
+  {
+   "week": 8,
+   "theme": "감정적 식사",
+   "article": "breathing-relaxation-meditation-stress-anxiety-2026",
+   "quiz_ig": "quiz-s08-art-0729",
+   "quiz_tip": "quiz-s08-art-1153",
+   "quiz_ox": "quiz-s08-art-1065"
+  },
+  {
+   "week": 8,
+   "theme": "감정적 식사",
+   "article": "reading-before-bed-screen-vs-paper-sleep-onset-2026",
+   "quiz_ig": "quiz-s08-art-0742",
+   "quiz_tip": "quiz-s08-art-0740",
+   "quiz_ox": "quiz-s08-art-1202"
+  },
+  {
+   "week": 8,
+   "theme": "감정적 식사",
+   "article": "body-scan-sleep-meditation-10-minute-guide-2026",
+   "quiz_ig": "quiz-s08-art-0158",
+   "quiz_tip": "quiz-s08-art-0447",
+   "quiz_ox": "quiz-s08-art-0653"
+  },
+  {
+   "week": 8,
+   "theme": "감정적 식사",
+   "article": "brain-derived-neurotrophic-factor-boosting-activities-2026",
+   "quiz_ig": "quiz-s08-art-0723",
+   "quiz_tip": "quiz-s08-art-0595",
+   "quiz_ox": "quiz-s08-art-1328"
+  },
+  {
+   "week": 8,
+   "theme": "감정적 식사",
+   "article": "skin-temperature-circadian-rhythm-tracking-2026",
+   "quiz_ig": "quiz-s08-art-0018",
+   "quiz_tip": "quiz-s08-art-0019",
+   "quiz_ox": "quiz-s08-art-0020"
+  },
+  {
+   "week": 9,
+   "theme": "사회·환경",
+   "article": "alcohol-dehydration-recovery-timeline-rehydration-protocol-2026",
+   "quiz_ig": "quiz-s09-art-1347",
+   "quiz_tip": "quiz-s09-art-1369",
+   "quiz_ox": "quiz-s09-art-1049"
+  },
+  {
+   "week": 9,
+   "theme": "사회·환경",
+   "article": "herbal-tea-caffeine-free-hydration-sleep-quality-2026",
+   "quiz_ig": "quiz-s09-art-0626",
+   "quiz_tip": "quiz-s09-art-0052",
+   "quiz_ox": "quiz-s09-art-0971"
+  },
+  {
+   "week": 9,
+   "theme": "사회·환경",
+   "article": "reading-before-bed-screen-vs-paper-sleep-onset-2026",
+   "quiz_ig": "quiz-s09-art-0142",
+   "quiz_tip": "quiz-s09-art-0140",
+   "quiz_ox": "quiz-s09-art-1050"
+  },
+  {
+   "week": 9,
+   "theme": "사회·환경",
+   "article": "leucine-threshold-per-meal-muscle-protein-synthesis-2026",
+   "quiz_ig": "quiz-s09-art-0659",
+   "quiz_tip": "quiz-s09-art-0671",
+   "quiz_ox": "quiz-s09-art-0215"
+  },
+  {
+   "week": 9,
+   "theme": "사회·환경",
+   "article": "diet-induced-thermogenesis-protein-thermic-effect-2026",
+   "quiz_ig": "quiz-s09-art-1135",
+   "quiz_tip": "quiz-s09-art-0137",
+   "quiz_ox": "quiz-s09-art-0913"
+  },
+  {
+   "week": 9,
+   "theme": "사회·환경",
+   "article": "protein-quality-aging-leucine-threshold-muscle-2026",
+   "quiz_ig": "quiz-s09-art-1291",
+   "quiz_tip": "quiz-s09-art-1041",
+   "quiz_ox": "quiz-s09-art-1385"
+  },
+  {
+   "week": 9,
+   "theme": "사회·환경",
+   "article": "creatine-monohydrate-food-sources-supplementation-need-2026",
+   "quiz_ig": "quiz-s09-art-1325",
+   "quiz_tip": "quiz-s09-art-0041",
+   "quiz_ox": "quiz-s09-art-0051"
+  },
+  {
+   "week": 10,
+   "theme": "정체기·재시작",
+   "article": "water-retention-causes-solutions-weight-fluctuation-2026",
+   "quiz_ig": "quiz-s10-art-0506",
+   "quiz_tip": "quiz-s10-art-1076",
+   "quiz_ox": "quiz-s10-art-0370"
+  },
+  {
+   "week": 10,
+   "theme": "정체기·재시작",
+   "article": "weight-loss-rate-optimal-speed-muscle-preservation-2026",
+   "quiz_ig": "quiz-s10-art-0704",
+   "quiz_tip": "quiz-s10-art-0706",
+   "quiz_ox": "quiz-s10-art-0097"
+  },
+  {
+   "week": 10,
+   "theme": "정체기·재시작",
+   "article": "refeeding-syndrome-extreme-diet-warning-signs-2026",
+   "quiz_ig": "quiz-s10-art-0390",
+   "quiz_tip": "quiz-s10-art-0705",
+   "quiz_ox": "quiz-s10-art-1266"
+  },
+  {
+   "week": 10,
+   "theme": "정체기·재시작",
+   "article": "post-meal-walking-blood-sugar-timing-optimization-2026",
+   "quiz_ig": "quiz-s10-art-1356",
+   "quiz_tip": "quiz-s10-art-0484",
+   "quiz_ox": "quiz-s10-art-0523"
+  },
+  {
+   "week": 10,
+   "theme": "정체기·재시작",
+   "article": "carbohydrate-insulin-model-obesity-current-evidence-2026",
+   "quiz_ig": "quiz-s10-art-0496",
+   "quiz_tip": "quiz-s10-art-0614",
+   "quiz_ox": "quiz-s10-art-0299"
+  },
+  {
+   "week": 10,
+   "theme": "정체기·재시작",
+   "article": "autophagy-fasting-protocol-duration-threshold-evidence-2026",
+   "quiz_ig": "quiz-s10-art-0410",
+   "quiz_tip": "quiz-s10-art-0559",
+   "quiz_ox": "quiz-s10-art-0497"
+  },
+  {
+   "week": 10,
+   "theme": "정체기·재시작",
+   "article": "self-compassion-meditation-weight-loss-motivation-2026",
+   "quiz_ig": "quiz-s10-art-1091",
+   "quiz_tip": "quiz-s10-art-0709",
+   "quiz_ox": "quiz-s10-art-1238"
+  },
+  {
+   "week": 11,
+   "theme": "호르몬·건강",
+   "article": "chronic-inflammation-markers-crp-levels-lifestyle-reduction-2026",
+   "quiz_ig": "quiz-s11-art-1326",
+   "quiz_tip": "quiz-s11-art-0128",
+   "quiz_ox": "quiz-s11-art-0085"
+  },
+  {
+   "week": 11,
+   "theme": "호르몬·건강",
+   "article": "morning-evening-blood-pressure-difference-tracking-2026",
+   "quiz_ig": "quiz-s11-art-0895",
+   "quiz_tip": "quiz-s11-art-1353",
+   "quiz_ox": "quiz-s11-art-1355"
+  },
+  {
+   "week": 11,
+   "theme": "호르몬·건강",
+   "article": "histamine-intolerance-hidden-trigger-foods-2026",
+   "quiz_ig": "quiz-s11-art-1143",
+   "quiz_tip": "quiz-s11-art-0198",
+   "quiz_ox": "quiz-s11-art-0517"
+  },
+  {
+   "week": 11,
+   "theme": "호르몬·건강",
+   "article": "joint-pain-morning-stiffness-duration-meaning-2026",
+   "quiz_ig": "quiz-s11-art-1408",
+   "quiz_tip": "quiz-s11-art-0733",
+   "quiz_ox": "quiz-s11-art-0531"
+  },
+  {
+   "week": 11,
+   "theme": "호르몬·건강",
+   "article": "blood-pressure-variability-day-to-day-normal-range-2026",
+   "quiz_ig": "quiz-s11-art-0034",
+   "quiz_tip": "quiz-s11-art-0127",
+   "quiz_ox": "quiz-s11-art-0163"
+  },
+  {
+   "week": 11,
+   "theme": "호르몬·건강",
+   "article": "low-stomach-acid-hypochlorhydria-signs-natural-support-2026",
+   "quiz_ig": "quiz-s11-art-0582",
+   "quiz_tip": "quiz-s11-art-0290",
+   "quiz_ox": "quiz-s11-art-0564"
+  },
+  {
+   "week": 11,
+   "theme": "호르몬·건강",
+   "article": "post-viral-fatigue-recovery-timeline-protocol-2026",
+   "quiz_ig": "quiz-s11-art-0722",
+   "quiz_tip": "quiz-s11-art-0313",
+   "quiz_ox": "quiz-s11-art-0887"
+  },
+  {
+   "week": 12,
+   "theme": "통합",
+   "article": "body-scan-sleep-meditation-10-minute-guide-2026",
+   "quiz_ig": "quiz-s12-art-0458",
+   "quiz_tip": "quiz-s12-art-1322",
+   "quiz_ox": "quiz-s12-art-0436"
+  },
+  {
+   "week": 12,
+   "theme": "통합",
+   "article": "brain-derived-neurotrophic-factor-boosting-activities-2026",
+   "quiz_ig": "quiz-s12-art-0402",
+   "quiz_tip": "quiz-s12-art-1393",
+   "quiz_ox": "quiz-s12-art-0857"
+  },
+  {
+   "week": 12,
+   "theme": "통합",
+   "article": "skin-temperature-circadian-rhythm-tracking-2026",
+   "quiz_ig": "quiz-s12-art-0241",
+   "quiz_tip": "quiz-s12-art-0452",
+   "quiz_ox": "quiz-s12-art-0076"
+  },
+  {
+   "week": 12,
+   "theme": "통합",
+   "article": "guided-meditation-weight-loss-healthy-habits-guide-2026",
+   "quiz_ig": "quiz-s12-art-0446",
+   "quiz_tip": "quiz-s12-art-0892",
+   "quiz_ox": "quiz-s12-art-0057"
+  },
+  {
+   "week": 12,
+   "theme": "통합",
+   "article": "morning-meditation-focus-energy-5-minute-2026",
+   "quiz_ig": "quiz-s12-art-0716",
+   "quiz_tip": "quiz-s12-art-0667",
+   "quiz_ox": "quiz-s12-art-1072"
+  },
+  {
+   "week": 12,
+   "theme": "통합",
+   "article": "meditation-for-beginners-5-minutes-anywhere-2026",
+   "quiz_ig": "quiz-s12-art-0629",
+   "quiz_tip": "quiz-s12-art-0409",
+   "quiz_ox": "quiz-s12-art-1035"
+  },
+  {
+   "week": 12,
+   "theme": "통합",
+   "article": "body-weight-fluctuation-normal-range-daily-tracking-2026",
+   "quiz_ig": "quiz-s12-art-0556",
+   "quiz_tip": "quiz-s12-art-1114",
+   "quiz_ox": "quiz-s12-art-0106"
+  }
+ ]
+}

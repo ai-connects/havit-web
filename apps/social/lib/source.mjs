@@ -27,6 +27,15 @@ const quiz = (id) => {
 };
 export const quizSlugs = () => config('quizzes').quizzes.map((q) => q.id);
 
+// 약물 주제(GLP-1·오젬픽·마운자로 등)는 SNS 에 내지 않는다(대표 결정 2026-10-24: 승인 부담 0 + 의약품 광고 규제).
+// 블로그에는 남는다. 판정은 ko·en 판의 제목·요약(퀴즈는 전문).
+const DRUG_TOPIC = /glp-?1|semaglutide|tirzepatide|liraglutide|orforglipron|retatrutide|ozempic|wegovy|mounjaro|zepbound|saxenda|rybelsus|metformin|levothyroxine|rapamycin|세마글루타이드|터제파타이드|티르제파타이드|오젬픽|위고비|마운자로|젭바운드|삭센다|메트포르민|레보티록신|주사제|비만 ?주사|처방약/i;
+export function isDrugTopic(slug) {
+  if (isQuiz(slug)) return ['ko', 'en'].some((l) => DRUG_TOPIC.test(Object.values(quiz(slug).langs[l] || {}).join(' ')));
+  const L = readJson(path.join(ARTICLES, `${slug}.json`)).langs;
+  return ['ko', 'en'].some((l) => L[l] && DRUG_TOPIC.test(`${L[l].title} ${L[l].tldr || ''}`));
+}
+
 /** 발행물이 나온 원문 위치(사람 검토·Slack 링크용). */
 export const originLabel = (d) =>
   isQuiz(d.slug) ? `앱 퀴즈 ${d.slug}` : `https://www.aihavit.com/blog/${d.lang}/${d.slug}`;

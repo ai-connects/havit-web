@@ -21,3 +21,11 @@ test('퀴즈 소스: 정답·해설·출처를 싣고, 숫자 허용 목록은 �
 test('없는 퀴즈 id 는 거부', () => {
   assert.throws(() => loadSource('quiz-s99-art-0000', 'ko'), /퀴즈 라이브러리에 없다/);
 });
+
+test('약물 주제는 SNS 계획에서 빠진다', async () => {
+  const { isDrugTopic, verifiedSlugs } = await import('../lib/source.mjs');
+  assert.ok(isDrugTopic('ozempic-side-effects'));
+  assert.ok(isDrugTopic('semaglutide-vs-tirzepatide'));
+  assert.ok(!isDrugTopic('sparkling-water-bone-health-carbonation-calcium-myth-2026'));
+  assert.ok(verifiedSlugs().filter((s) => !isDrugTopic(s)).length >= 50);
+});
