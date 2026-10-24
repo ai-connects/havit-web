@@ -1,0 +1,301 @@
+{
+  "_note": "SNS 소스로 쓸 수 있는 글 = 인용이 PubMed/Crossref 로 검증된 글만. 오래된 글은 지어낸 인용이 섞여 있어 제외한다. 인용 교정이 끝난 글을 여기에 추가한다.",
+  "sources": [
+    {
+      "slug": "creatine-monohydrate-food-sources-supplementation-need-2026",
+      "verified": "2026-10-24 참고문헌 파일럿 (#152)"
+    },
+    {
+      "slug": "active-calories-vs-total-calories-burned-tracking-2026",
+      "verified": "2026-10-24 참고문헌 파일럿 (#152)"
+    },
+    {
+      "slug": "caffeine-half-life-sleep-cutoff-time-calculation-2026",
+      "verified": "2026-10-24 참고문헌 파일럿 (#152)"
+    },
+    {
+      "slug": "carbohydrate-insulin-model-obesity-current-evidence-2026",
+      "verified": "2026-10-24 참고문헌 파일럿 (#152)"
+    },
+    {
+      "slug": "skin-temperature-circadian-rhythm-tracking-2026",
+      "verified": "2026-10-24 참고문헌 파일럿 (#152)"
+    },
+    {
+      "slug": "weight-loss-rate-optimal-speed-muscle-preservation-2026",
+      "verified": "2026-10-24 참고문헌 파일럿 (#152)"
+    },
+    {
+      "slug": "bruising-easily-causes-when-to-investigate-2026",
+      "verified": "2026-10-24 참고문헌 파일럿 (#152)"
+    },
+    {
+      "slug": "glp1-nausea-management-evidence-based-strategies-2026",
+      "verified": "2026-10-24 참고문헌 파일럿 (#152)"
+    },
+    {
+      "slug": "zinc-copper-ratio-supplementation-imbalance-risk-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "benign-fasciculation-syndrome-muscle-twitching-anxiety-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "farmers-walk-functional-strength-whole-body-exercise-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "bile-acid-malabsorption-diarrhea-dietary-management-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "morning-evening-blood-pressure-difference-tracking-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "histamine-intolerance-hidden-trigger-foods-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "sleep-pressure-adenosine-buildup-timing-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "cold-water-drinking-metabolism-calorie-burn-myth-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "benign-positional-vertigo-epley-maneuver-home-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "milk-hydration-index-better-than-water-study-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "satiety-index-foods-hunger-control-ranking-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "glp1-metformin-combination-therapy-synergy-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "brain-derived-neurotrophic-factor-boosting-activities-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "post-viral-fatigue-recovery-timeline-protocol-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "tirzepatide-dose-titration-schedule-minimize-nausea-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "post-meal-walking-blood-sugar-timing-optimization-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "apple-cider-vinegar-drink-blood-sugar-hydration-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "chronic-inflammation-markers-crp-levels-lifestyle-reduction-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "glp1-switching-brands-equivalence-guide-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "mounjaro-side-effects",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "glp1-exercise-timing-medication-effectiveness-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "grip-strength-longevity-predictor-training-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "breathing-technique-lifting-valsalva-safety-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "histamine-intolerance-symptom-patterns-elimination-protocol-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "magnesium-forms-sleep-specific-absorption-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "ozempic-tracker",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "tart-cherry-juice-sleep-melatonin-hydration-timing-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "glp1-levothyroxine-thyroid-medication-interaction-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "post-covid-return-to-exercise-gradual-protocol-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "transitioning-from-ozempic-to-mounjaro-protocol-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "coconut-water-vs-sports-drinks-electrolyte-comparison-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "ozempic-side-effects",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "leucine-threshold-per-meal-muscle-protein-synthesis-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "drinking-alcohol-on-semaglutide-safety-tolerance-changes-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "body-recomposition-lose-fat-gain-muscle-simultaneously-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "autophagy-fasting-protocol-duration-threshold-evidence-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "vitamin-d3-k2-synergy-calcium-metabolism-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "glp-1-cost-korea",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "reading-before-bed-screen-vs-paper-sleep-onset-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "water-retention-causes-solutions-weight-fluctuation-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "protein-quality-aging-leucine-threshold-muscle-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "herbal-tea-caffeine-free-hydration-sleep-quality-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "sparkling-water-bone-health-carbonation-calcium-myth-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "small-intestinal-bacterial-overgrowth-sibo-breath-test-interpretation-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "joint-pain-morning-stiffness-duration-meaning-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "alcohol-dehydration-recovery-timeline-rehydration-protocol-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "post-surgery-recovery-nutrition-protein-wound-healing-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "blood-pressure-variability-day-to-day-normal-range-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "zinc-copper-balance-supplementation-ratio-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "semaglutide-vs-tirzepatide",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "rapamycin-mimetics-natural-mtor-inhibitors-foods-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "low-stomach-acid-hypochlorhydria-signs-natural-support-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "diet-induced-thermogenesis-protein-thermic-effect-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "chronic-inflammation-markers-crp-reduction-diet-protocol-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "refeeding-syndrome-extreme-diet-warning-signs-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "body-weight-fluctuation-normal-range-daily-tracking-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "stair-climbing-cardiorespiratory-fitness-apartment-workout-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "gallbladder-removed-digestion-changes-long-term-adaptation-2026",
+      "verified": "2026-10-24 AI 노출 상위 인용 교정 (#155/#156)"
+    },
+    {
+      "slug": "guided-meditation-weight-loss-healthy-habits-guide-2026",
+      "verified": "2026-10-24 명상 시리즈 신규 (#153/#154, PubMed 실재 논문만)"
+    },
+    {
+      "slug": "meditation-for-food-cravings-5-minute-practice-2026",
+      "verified": "2026-10-24 명상 시리즈 신규 (#153/#154, PubMed 실재 논문만)"
+    },
+    {
+      "slug": "meditation-for-emotional-stress-eating-2026",
+      "verified": "2026-10-24 명상 시리즈 신규 (#153/#154, PubMed 실재 논문만)"
+    },
+    {
+      "slug": "body-scan-sleep-meditation-10-minute-guide-2026",
+      "verified": "2026-10-24 명상 시리즈 신규 (#153/#154, PubMed 실재 논문만)"
+    },
+    {
+      "slug": "breathing-relaxation-meditation-stress-anxiety-2026",
+      "verified": "2026-10-24 명상 시리즈 신규 (#153/#154, PubMed 실재 논문만)"
+    },
+    {
+      "slug": "morning-meditation-focus-energy-5-minute-2026",
+      "verified": "2026-10-24 명상 시리즈 신규 (#153/#154, PubMed 실재 논문만)"
+    },
+    {
+      "slug": "self-compassion-meditation-weight-loss-motivation-2026",
+      "verified": "2026-10-24 명상 시리즈 신규 (#153/#154, PubMed 실재 논문만)"
+    },
+    {
+      "slug": "meditation-for-beginners-5-minutes-anywhere-2026",
+      "verified": "2026-10-24 명상 시리즈 신규 (#153/#154, PubMed 실재 논문만)"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "_note": "채널×언어 규칙. 계정 매트릭스: IG·Threads 는 언어별 계정(ko/ja/en), LinkedIn 은 회사 페이지(en) + 창업자 개인(ko/en), Facebook 은 en 페이지 1개. 빈도는 시작값(업계 관행) — 4주 실측 후 조정.",
+  "langs": {
+    "ko": { "route": "ko", "disclaimer": "※ 일반 정보이며 의학적 조언을 대신하지 않아요. 섭식 문제나 질환이 있다면 전문가와 상담하세요.", "disclaimer_formal": "※ 일반 정보이며 의학적 조언을 대신하지 않습니다. 섭식 문제나 질환이 있다면 전문가와 상담하세요." },
+    "ja": { "route": "ja", "disclaimer": "※一般的な情報であり、医療上のアドバイスに代わるものではありません。摂食の悩みや持病がある方は専門家にご相談ください。" },
+    "en": { "route": "en", "disclaimer": "General info, not medical advice. If you're dealing with disordered eating or a health condition, talk to a professional." }
+  },
+  "channels": {
+    "threads": {
+      "langs": ["ko", "ja", "en"],
+      "per_week": 5,
+      "max_chars_per_post": 500,
+      "max_posts": 3,
+      "link": "first_reply",
+      "disclaimer": "first_reply",
+      "hashtags": [0, 1],
+      "formats": ["question", "one_stat", "myth_fact", "mini_steps", "havi_scene"]
+    },
+    "instagram": {
+      "langs": ["ko", "ja", "en"],
+      "per_week": 3,
+      "max_caption": 2200,
+      "slides": [6, 10],
+      "link": "profile",
+      "disclaimer": "caption",
+      "hashtags": [3, 5],
+      "formats": ["steps_carousel", "myth_fact_carousel", "one_stat_carousel", "checklist_carousel", "havi_scene_carousel"]
+    },
+    "facebook": {
+      "langs": ["en"],
+      "per_week": 3,
+      "max_chars": 1500,
+      "link": "body",
+      "disclaimer": "body",
+      "hashtags": [0, 2],
+      "formats": ["community_question", "checklist", "one_stat"]
+    },
+    "linkedin_company": {
+      "langs": ["en"],
+      "per_week": 2,
+      "max_chars": 3000,
+      "link": "first_comment",
+      "disclaimer": "body",
+      "hashtags": [3, 5],
+      "formats": ["workplace_insight", "evidence_brief"]
+    },
+    "linkedin_founder": {
+      "langs": ["ko", "en"],
+      "per_week": 2,
+      "max_chars": 3000,
+      "link": "first_comment",
+      "disclaimer": "body",
+      "hashtags": [0, 3],
+      "formats": ["building_in_public", "lesson_learned"]
+    }
+  },
+  "segments": {
+    "ko": ["건강검진 수치가 신경 쓰이기 시작한 40대 직장인", "다이어트를 여러 번 반복해 본 30대"],
+    "ja": ["子どもを寝かしつけた後の30〜40代の親", "根拠のある情報を好む20〜30代の会社員"],
+    "en": ["adults on a GLP-1 medication dealing with food noise and protein targets", "busy professionals who stress-eat"]
+  },
+  "banned": {
+    "ko": ["살 빠지는", "살빠지는", "감량 보장", "치료", "완치", "처방", "약 대신", "무조건", "100%", "기적", "해독", "디톡스", "전후 비교"],
+    "ja": ["痩せる", "痩せた", "痩せます", "効く", "効きます", "治る", "治ります", "必ず", "絶対", "誰でも", "奇跡", "デトックス", "ビフォーアフター"],
+    "en": ["cure", "cures", "guaranteed", "melt fat", "detox", "miracle", "before/after", "before and after", "doctor-approved"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "threads": {
+    "ko": "Threads 한국어: 해요체, 친근한 반말 섞임 허용. 포스트당 150~300자. 링크와 면책 문구는 본문이 아니라 first_reply 에. 해시태그는 토픽 1개 이하.",
+    "ja": "Threads 日本語: やわらかい です/ます。1文ごとに改行。1投稿150〜300字。リンクと免責文は本文ではなく first_reply に。トピックは1つまで。",
+    "en": "Threads English: short paragraphs, opinionated first line, 2nd person. 150–300 characters per post. Link and disclaimer go in first_reply, not in posts. At most 1 topic tag."
+  },
+  "instagram": {
+    "ko": "Instagram 캐러셀 한국어: slides 6~10장. 1장 표지 제목 15자 이내. 수치가 들어간 장은 출처를 body 끝에 (저널, 연도). 캡션 300~800자, 마지막 줄에 면책 문구. 링크 대신 '전체 가이드는 프로필 링크에서'. 해시태그 3~5개.",
+    "ja": "Instagram カルーセル日本語: slides 6〜10枚。表紙は「〜な人へ」「保存版」型、20字以内。数値スライドは本文末に出典(誌名, 年)。キャプション300〜800字、箇条書き+絵文字は控えめ、最後の行に免責文。リンクは「プロフィールのリンクから」。ハッシュタグ3〜5個。",
+    "en": "Instagram carousel English: 6–10 slides. Cover title 6 words max. Any slide with a number ends with the source (Journal, Year). Caption 300–800 characters, disclaimer as the last line. No link — say 'full guide via the link in bio'. 3–5 niche hashtags."
+  },
+  "facebook": {
+    "en": "Facebook page English: community tone for adults 30–55, 400–900 characters, link in the body, disclaimer at the end, 0–2 hashtags."
+  },
+  "linkedin_company": {
+    "en": "LinkedIn company page English: workplace-wellbeing angle, 800–1,500 characters, first two lines are the hook, no casual bathroom/stall imagery, no investor-pitch slogans. Link goes in first_reply (posted as first comment). Disclaimer at the end of the body. 3–5 hashtags."
+  },
+  "linkedin_founder": {
+    "ko": "LinkedIn 창업자 개인 한국어: 합니다체, 1인칭 창업자 시점(제품을 만들며 배운 점·근거를 다루는 방식), 800~1,500자, 과장·투자 피치 문구 금지. 링크는 first_reply(첫 댓글). 면책 문구는 본문 끝. 해시태그 0~3개.",
+    "en": "LinkedIn founder personal English: first-person founder voice (what we learned building the product, how we handle evidence), 800–1,500 characters, no hype or pitch slogans. Link in first_reply (first comment). Disclaimer at the end of the body. 0–3 hashtags."
+  }
+}
