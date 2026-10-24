@@ -75,7 +75,7 @@
             "Better than sitting"
           ]
         ],
-        "caption": "Summarized from Reynolds et al. 2016, Nygaard et al. 2009, Buffey et al. 2022 and Kang et al. 2023; effect sizes vary between studies"
+        "caption": "Summarized from published trials and meta-analyses of post-meal walking; effect sizes vary between studies"
       },
       "faq": [
         {
@@ -202,7 +202,7 @@
             "앉아 있는 것보다는 나음"
           ]
         ],
-        "caption": "출처: Reynolds 외 2016, Nygaard 외 2009, Buffey 외 2022, Kang 외 2023 종합. 효과 크기는 연구마다 다릅니다"
+        "caption": "식후 걷기에 관한 임상시험과 메타분석 결과를 종합. 효과 크기는 연구마다 다릅니다"
       },
       "faq": [
         {
@@ -334,7 +334,7 @@
             "座っているよりは良い"
           ]
         ],
-        "caption": "Reynolds et al. 2016、Nygaard et al. 2009、Buffey et al. 2022、Kang et al. 2023 をもとに要約。効果の大きさは研究によって異なります"
+        "caption": "食後ウォーキングに関する臨床試験やメタ分析をもとに要約。効果の大きさは研究によって異なります"
       },
       "faq": [
         {
@@ -466,7 +466,7 @@
             "比坐着好"
           ]
         ],
-        "caption": "根据 Reynolds et al. 2016、Nygaard et al. 2009、Buffey et al. 2022 和 Kang et al. 2023 总结；各研究的效果大小不同"
+        "caption": "根据有关饭后步行的临床试验和荟萃分析总结；各研究的效果大小不同"
       },
       "faq": [
         {
@@ -598,7 +598,7 @@
             "比坐著好"
           ]
         ],
-        "caption": "根據 Reynolds et al. 2016、Nygaard et al. 2009、Buffey et al. 2022 與 Kang et al. 2023 整理；各研究的效果大小不同"
+        "caption": "根據飯後步行相關的臨床試驗與統合分析整理；各研究的效果大小不同"
       },
       "faq": [
         {
@@ -740,7 +740,7 @@
             "Mejor que estar sentado"
           ]
         ],
-        "caption": "Resumen de Reynolds et al. 2016, Nygaard et al. 2009, Buffey et al. 2022 y Kang et al. 2023; el tamaño del efecto varía entre estudios"
+        "caption": "Resumen de ensayos y metaanálisis publicados sobre caminar después de comer; el tamaño del efecto varía entre estudios"
       },
       "faq": [
         {
@@ -874,7 +874,7 @@
             "Melhor do que ficar sentado"
           ]
         ],
-        "caption": "Resumo de Reynolds et al. 2016, Nygaard et al. 2009, Buffey et al. 2022 e Kang et al. 2023; o tamanho do efeito varia entre estudos"
+        "caption": "Resumo de ensaios e meta-análises publicados sobre caminhada após as refeições; o tamanho do efeito varia entre estudos"
       },
       "faq": [
         {
@@ -1007,7 +1007,7 @@
             "Lebih baik daripada duduk"
           ]
         ],
-        "caption": "Dirangkum dari Reynolds et al. 2016, Nygaard et al. 2009, Buffey et al. 2022 dan Kang et al. 2023; besar efek berbeda antar studi"
+        "caption": "Dirangkum dari uji klinis dan meta-analisis tentang jalan kaki setelah makan; besar efek berbeda antar studi"
       },
       "faq": [
         {
@@ -1140,7 +1140,7 @@
             "Besser als Sitzen"
           ]
         ],
-        "caption": "Zusammengefasst aus Reynolds et al. 2016, Nygaard et al. 2009, Buffey et al. 2022 und Kang et al. 2023; Effektgrößen unterscheiden sich zwischen Studien"
+        "caption": "Zusammengefasst aus veröffentlichten Studien und Metaanalysen zum Gehen nach dem Essen; Effektgrößen unterscheiden sich zwischen Studien"
       },
       "faq": [
         {
@@ -1273,7 +1273,7 @@
             "Mieux que rester assis"
           ]
         ],
-        "caption": "Synthèse de Reynolds et al. 2016, Nygaard et al. 2009, Buffey et al. 2022 et Kang et al. 2023 ; la taille de l'effet varie selon les études"
+        "caption": "Synthèse d'essais et de méta-analyses publiés sur la marche après les repas ; la taille de l'effet varie selon les études"
       },
       "faq": [
         {
@@ -1341,7 +1341,7 @@
     }
   },
   "generated_at": "2026-05-24T08:17:32.821Z",
-  "updated_at": "2026-10-07T13:21:04.000Z",
+  "updated_at": "2026-10-24T03:18:13.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1

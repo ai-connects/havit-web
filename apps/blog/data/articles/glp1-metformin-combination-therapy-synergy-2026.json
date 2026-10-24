@@ -81,7 +81,7 @@
             "Supportive, but less definitive"
           ]
         ],
-        "caption": "Sources: ADA Standards of Care 2025; Lancet Diabetes & Endocrinology 2021 meta-analysis; Nature Reviews Endocrinology 2023 review."
+        "caption": "Key differences in how GLP-1 receptor agonists and metformin work, based on current guidelines and research reviews."
       },
       "faq": [
         {
@@ -214,7 +214,7 @@
             "긍정적이나 덜 확정적"
           ]
         ],
-        "caption": "출처: ADA Standards of Care 2025, Lancet Diabetes & Endocrinology 2021 메타분석, Nature Reviews Endocrinology 2023 리뷰"
+        "caption": "GLP-1 수용체 작용제와 메트포르민의 작용 방식 차이를 현재 진료 지침과 연구 리뷰를 바탕으로 정리했습니다."
       },
       "faq": [
         {
@@ -347,7 +347,7 @@
             "支持的だが確定的ではない"
           ]
         ],
-        "caption": "出典：ADA Standards of Care 2025、Lancet Diabetes & Endocrinology 2021メタ解析、Nature Reviews Endocrinology 2023レビュー"
+        "caption": "現在の診療ガイドラインと研究レビューに基づく、GLP-1受容体作動薬とメトホルミンの作用の主な違い。"
       },
       "faq": [
         {
@@ -479,7 +479,7 @@
             "有支持性证据，但不够确定"
           ]
         ],
-        "caption": "来源：ADA诊疗标准2025；Lancet Diabetes & Endocrinology 2021荟萃分析；Nature Reviews Endocrinology 2023综述"
+        "caption": "根据现行诊疗指南和研究综述，整理GLP-1受体激动剂与二甲双胍在作用方式上的主要差异。"
       },
       "faq": [
         {
@@ -611,7 +611,7 @@
             "有支持性證據，但不夠確定"
           ]
         ],
-        "caption": "來源：ADA照護標準2025；Lancet Diabetes & Endocrinology 2021統合分析；Nature Reviews Endocrinology 2023綜述"
+        "caption": "根據現行診療指引與研究綜述，整理GLP-1受體促效劑與二甲雙胍在作用方式上的主要差異。"
       },
       "faq": [
         {
@@ -745,7 +745,7 @@
             "Favorable, pero menos concluyente"
           ]
         ],
-        "caption": "Fuentes: ADA Standards of Care 2025; metaanálisis de Lancet Diabetes & Endocrinology 2021; revisión de Nature Reviews Endocrinology 2023."
+        "caption": "Principales diferencias en cómo actúan los agonistas del receptor de GLP-1 y la metformina, según las guías actuales y revisiones de la investigación."
       },
       "faq": [
         {
@@ -879,7 +879,7 @@
             "Favorável, porém menos definitiva"
           ]
         ],
-        "caption": "Fontes: ADA Standards of Care 2025; meta-análise da Lancet Diabetes & Endocrinology 2021; revisão da Nature Reviews Endocrinology 2023."
+        "caption": "Principais diferenças na forma de ação dos agonistas do receptor de GLP-1 e da metformina, com base nas diretrizes atuais e em revisões de pesquisas."
       },
       "faq": [
         {
@@ -1013,7 +1013,7 @@
             "Mendukung, tetapi kurang pasti"
           ]
         ],
-        "caption": "Sumber: ADA Standards of Care 2025; meta-analisis Lancet Diabetes & Endocrinology 2021; tinjauan Nature Reviews Endocrinology 2023."
+        "caption": "Perbedaan utama cara kerja agonis reseptor GLP-1 dan metformin, berdasarkan pedoman terkini dan tinjauan penelitian."
       },
       "faq": [
         {
@@ -1147,7 +1147,7 @@
             "Unterstützend, aber weniger eindeutig"
           ]
         ],
-        "caption": "Quellen: ADA Standards of Care 2025; Metaanalyse in Lancet Diabetes & Endocrinology 2021; Übersicht in Nature Reviews Endocrinology 2023."
+        "caption": "Die wichtigsten Unterschiede in der Wirkweise von GLP-1-Rezeptoragonisten und Metformin, basierend auf aktuellen Leitlinien und Forschungsübersichten."
       },
       "faq": [
         {
@@ -1281,7 +1281,7 @@
             "Favorables mais moins définitives"
           ]
         ],
-        "caption": "Sources : ADA Standards of Care 2025 ; méta-analyse Lancet Diabetes & Endocrinology 2021 ; revue Nature Reviews Endocrinology 2023."
+        "caption": "Principales différences de mode d'action entre les agonistes du récepteur du GLP-1 et la metformine, d'après les recommandations actuelles et les revues de la recherche."
       },
       "faq": [
         {
@@ -1344,7 +1344,7 @@
     }
   },
   "generated_at": "2026-05-24T13:55:55.404Z",
-  "updated_at": "2026-10-07T13:30:13.000Z",
+  "updated_at": "2026-10-24T03:20:25.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
