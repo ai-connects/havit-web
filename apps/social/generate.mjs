@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 import { loadSource, readJson, withUtm } from './lib/source.mjs';
 import { buildPrompt } from './lib/prompt.mjs';
 import { lint } from './lib/lint.mjs';
-import { withTagline } from './lib/brand.mjs';
+import { withIntro, withTagline } from './lib/brand.mjs';
 import { config } from './lib/source.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
@@ -54,7 +54,7 @@ for (const e of entries) {
       messages: [{ role: 'user', content: attempt === 0 ? user : `${user}\n\nYour previous draft failed these checks — fix them:\n${result.errors.join('\n')}` }],
     });
     try {
-      draft = withTagline({ ...parseJson(msg.content.map((c) => c.text || '').join('')), ...e, link }, config('channels').langs[e.lang].disclaimer);
+      draft = withIntro(withTagline({ ...parseJson(msg.content.map((c) => c.text || '').join('')), ...e, link }, config('channels').langs[e.lang].disclaimer));
       result = lint(draft, source);
     } catch (err) {
       // 응답이 잘렸거나 JSON 이 아니면 그 건만 실패로 두고 재시도(다른 건은 계속 생성)

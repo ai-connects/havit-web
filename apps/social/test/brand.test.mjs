@@ -14,3 +14,11 @@ test('면책 문구가 없으면(Threads 본문) 마지막 줄에', () => {
 test('SNS 9개 언어 모두 키 카피가 있다', () => {
   for (const l of ['ko', 'ja', 'en', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr']) assert.ok(TAGLINE[l], l);
 });
+
+test('첫 댓글 서비스 소개는 링크 줄 바로 위에 한 번', async () => {
+  const { INTRO, withIntro } = await import('../lib/brand.mjs');
+  const d = withIntro({ lang: 'ko', first_reply: '정답은 O예요.\n\n무료 하비트 앱 👉 https://app.aihavit.com/' });
+  assert.equal(d.first_reply, `정답은 O예요.\n\n${INTRO.ko}\n무료 하비트 앱 👉 https://app.aihavit.com/`);
+  assert.equal(withIntro(d).first_reply, d.first_reply);
+  assert.ok(withIntro({ lang: 'en', first_reply: 'O or X? Tell us below 👇' }).first_reply.endsWith(INTRO.en));
+});
