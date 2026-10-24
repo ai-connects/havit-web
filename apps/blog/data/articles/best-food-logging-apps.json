@@ -1204,174 +1204,150 @@
       "last_updated": "2026-10-11"
     },
     "fr": {
-      "title": "Meilleures applis de suivi alimentaire 2026 : choisissez selon votre façon d'arrêter",
-      "short_title": "Applis de suivi alimentaire 2026",
-      "meta_description": "Yuka, Foodvisor, Yazio, MyFitnessPal, Le Secret du Poids et HAVIT passées en revue. Les quatre façons dont meurt un journal alimentaire — taxe de recherche, mur du fait maison, trou de la honte, dérive — et quelle appli règle laquelle.",
-      "tldr": "Personne n'arrête de tenir un journal parce que l'appli manquait de précision. Trouvez d'abord votre façon d'arrêter : taxe de recherche, mur du fait maison, trou de la honte, ou dérive vers l'inutile.",
-      "body_md": "Personne n'arrête de tenir un journal alimentaire parce que l'appli manquait de précision. On arrête parce que c'est devenu pénible, ou gênant, ou inutile.\n\nAlors avant de comparer des applis, identifiez **votre** façon d'arrêter. Il y en a quatre, et chacune a une solution différente.\n\n![Ce qui tue le journal, c'est la fatigue, pas l'imprécision](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n> **Un mot sur les sources.** Les pages françaises qui classent les « meilleures applis de suivi alimentaire » sont presque toutes écrites par des éditeurs de la catégorie ou par des sites d'affiliation, et leurs palmarès se contredisent. Il n'y a pas de classement ici.\n\n## Les quatre façons d'arrêter\n\n**1. La taxe de recherche.** Vous mangez une quiche lorraine. Vous tapez « quiche ». Vous obtenez quarante résultats, dont six avec des valeurs différentes. Vous choisissez au hasard. Trois repas plus tard, vous laissez tomber.\n\n**2. Le mur du fait maison.** En France, une grande partie des repas sont cuisinés. Un bœuf bourguignon n'est dans aucune base de codes-barres, et saisir dix ingrédients pour une assiette est une corvée que personne ne tient.\n\n**3. Le trou de la honte.** La journée a dérapé. Plutôt que de le noter, vous ne notez rien. Le lendemain non plus. Et le journal est mort — pas sur un mauvais repas, mais sur le silence qui a suivi.\n\n**4. La dérive vers l'inutile.** Vous saisissez consciencieusement depuis six semaines, personne ne vous a jamais rien dit, et vous ne savez plus à quoi ça sert. C'est la mort la plus fréquente, et la plus silencieuse.\n\n## Yuka — pourquoi ce n'est pas un journal alimentaire\n\n| | |\n| --- | --- |\n| Éditeur | Yuca (France) |\n| Base revendiquée | 6 millions de produits (4 millions d'aliments, 2 millions de cosmétiques) |\n| App Store France | 4,7/5, environ 295 700 notes |\n\nIl faut commencer par là, parce que c'est l'appli alimentaire la plus présente dans les poches françaises et que beaucoup de gens croient qu'elle fait le travail.\n\n**Ce qu'elle fait très bien.** Pour décider devant un rayon, **rien ne l'égale en France** : code-barres, note sur 100, additifs signalés, alternative proposée, aucune publicité. L'éditeur revendique 85 millions d'utilisateurs.\n\n**Ce qui lui manque.** Yuka note un **produit**, au moment de l'achat. Elle ne sait pas combien vous en avez mangé, ni quand, ni ce que vous avez cuisiné. Elle ne traite aucune des quatre façons d'arrêter décrites ci-dessus, parce qu'elle ne tient pas de journal du tout.\n\n**Pour qui.** Pour vos courses. Pas pour vos journées.\n\n## Foodvisor — la réponse française à la taxe de recherche\n\n| | |\n| --- | --- |\n| Éditeur | Foodvisor (France) |\n| Saisie | Photo, voix, texte, code-barres |\n| App Store France | 4,6/5, environ 72 800 notes |\n\n**Ce qu'elle fait très bien.** C'est l'appli qui attaque le plus directement les problèmes 1 et 2, et elle le fait **en français, pour des assiettes françaises** : photographiez, dictez, ou tapez trois mots. Sur la reconnaissance d'une assiette d'ici, c'est le meilleur point de départ du marché — autant le dire sans détour. La fiche officielle annonce aussi un suivi de l'hydratation, du jeûne intermittent et de l'activité, et une gamification (une graine qui grandit avec les quêtes du jour) qui traite le problème 4 en vous donnant une raison de revenir.\n\n**Ce qui lui manque.** Le problème 3 — le trou de la honte — reste entier : rien n'est prévu pour qu'un mauvais jour entre dans l'appli sans tout interrompre. Et sa fiche ne mentionne ni sommeil, ni cycle, ni composition corporelle, ni GLP-1.\n\n**Pour qui.** Pour qui cuisine français et abandonne à cause de la recherche.\n\n## Yazio — chercher et trouver, proprement\n\n**Ce qu'elle fait très bien.** Interface sobre, saisie rapide, grosse base (l'éditeur annonce plus de 4 millions d'aliments), recettes et minuteur de jeûne. C'est le compteur le plus noté de l'App Store français, avec environ 144 700 notes.\n\n**Ce qui lui manque.** Le fait maison reste laborieux, et il ne se passe rien après la saisie. Ni cycle, ni composition corporelle.\n\n**Pour qui.** Pour qui veut un carnet propre et une discipline simple.\n\n## MyFitnessPal — tout trouver, au prix du tri\n\n**Ce qu'elle fait très bien.** Plus de 20,5 millions d'aliments annoncés : si un produit existe, il y est. Scanner de codes-barres mature.\n\n**Ce qui lui manque.** L'essentiel de ces entrées vient des utilisateurs. La taxe de recherche ne disparaît pas, elle change de forme : au lieu de ne pas trouver, vous trouvez sept versions contradictoires du même yaourt. Et le silence après la saisie est total.\n\n**Pour qui.** Pour qui mange beaucoup de produits industriels et de restauration de chaîne.\n\n## Le Secret du Poids — saisir sans peser\n\n![Choisir une portion sur une photo plutôt que la peser](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n**Ce qu'elle fait très bien.** Une solution élégante au problème 1 : on choisit sa portion sur une photo au lieu de la peser, et tout est déduit d'un budget calorique quotidien. Aucun aliment n'est interdit, donc le problème 3 est partiellement désamorcé — un excès se compense, il ne se cache pas. L'éditeur revendique plus de 1,2 million d'utilisateurs.\n\n**Ce qui lui manque.** Le périmètre s'arrête à la calorie : pas de cycle, pas de sommeil, pas de composition corporelle, pas de GLP-1.\n\n**Pour qui.** Pour qui a abandonné deux applis à cause de la saisie.\n\n## HAVIT — construite contre les quatre\n\n| | |\n| --- | --- |\n| Éditeur | Havit Inc. |\n| Enregistre | Repas, hydratation, sport, sommeil, pas, **cycle menstruel**, humeur, **GLP-1** |\n| Base d'aliments | Environ 486 000 entrées d'origine publique (432 418 USDA, 41 218 MFDS Corée, 12 671 curation interne) |\n| Langues | 35 |\n\n![Scan IA : photographiez l'assiette, sautez la recherche](/blog/havit/shot/feature-nutrition.webp)\n\n**Contre la taxe de recherche et le mur du fait maison.** Le **scan IA** estime la composition d'une assiette depuis une seule photo — y compris un plat maison qui n'existe dans aucune base de codes-barres. La base, elle, est volontairement plus petite que celle de MyFitnessPal mais presque entièrement d'origine publique : 432 418 entrées de l'USDA, 41 218 du ministère coréen de la sécurité alimentaire, 12 671 curées en interne. Moins de doublons à arbitrer.\n\n![Check-in quotidien : comment un mauvais jour entre sans tout arrêter](/blog/havit/shot/feature-daily-check-in.webp)\n\n**Contre le trou de la honte.** Le **check-in quotidien** demande la forme, le sommeil, l'appétit et l'humeur en quelques tapes. C'est précisément le dispositif qui permet à une mauvaise journée d'entrer dans l'appli sans mettre fin à une série : vous déclarez l'état, vous ne justifiez rien.\n\n**Contre la dérive vers l'inutile.** C'est le point central. Le **coach IA lit les huit journaux ensemble** et renvoie **une action pour aujourd'hui**, pas un tableau de bord. La saisie a une suite, donc elle a un sens : *quatre jours sous l'objectif protéines, deux nuits courtes, et la semaine avant les règles — commencez par là.* Les **missions du jour**, issues de techniques de changement de comportement validées, font le reste.\n\nDans la même appli : **six méditations guidées**, **vidéos d'entraînement**, **jeûne intermittent**, **estimation de composition corporelle**, plus de **1 400 articles**, séries, badges, rangs et **défis d'équipe**. Conçue avec des experts issus de Juvis Diet.\n\n**Soyons honnêtes.** Pour la reconnaissance d'une assiette typiquement française, Foodvisor joue à domicile : c'est une appli française, entraînée sur la cuisine d'ici, et c'est sa force. HAVIT fait aussi du scan photo, mais sa base est pondérée côté USDA, donc moins profonde sur les produits de supermarché français. Ce que HAVIT ajoute, c'est tout ce qui vient **après** l'enregistrement — et les sept autres journaux qui l'entourent.\n\n**Pour qui.** Pour qui a déjà abandonné un journal alimentaire et voudrait savoir pourquoi.\n\n## Tableau comparatif\n\n| Appli | Produits français | Saisie photo | Accepte un mauvais jour ? | Après la saisie | Composition corporelle |\n| --- | --- | --- | --- | --- | --- |\n| Yuka | **Excellent** | Non (code-barres) | Sans objet | Note du produit | Non |\n| Foodvisor | **Fort** | **Oui, mature** | Pas de dispositif | Programme guidé, quêtes | Non |\n| Yazio | Correct | Oui | Pas de dispositif | Plans et jeûne | Non |\n| MyFitnessPal | Correct | Oui | Pas de dispositif | Peu de chose | Non |\n| Le Secret du Poids | Fort | Portions sur photo | Compensation du budget | Jauge quotidienne | Non |\n| **HAVIT** | Limité | **Oui** | **Check-in quotidien** | **Une action du coach IA** | **Estimée** |\n\nOctobre 2026, d'après les fiches officielles des stores et des éditeurs.\n\n## Un test de deux semaines\n\n1. **Semaine 1 — saisissez tout, sans corriger.** Vous cherchez votre point de friction, pas la perfection.\n2. **Notez le jour où vous avez failli arrêter.** C'est votre façon d'arrêter : recherche, fait maison, honte, ou inutilité.\n3. **Semaine 2 — incluez volontairement un mauvais jour.** Une appli qui n'a rien prévu pour ça vous lâchera au premier vrai dérapage.\n4. **À la fin, posez une question simple :** est-ce que cette appli m'a appris quelque chose que je ne savais pas ? Sinon, changez-en.\n\n## En résumé\n\nLe journal alimentaire ne meurt pas d'imprécision. Il meurt de fatigue, de honte ou d'ennui. Trouvez laquelle des quatre vous guette, et choisissez l'appli qui a prévu quelque chose contre celle-là.\n\n[Essayer HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Applis de suivi alimentaire 2026 : 7 applis comparées — photo, gratuit ou payant, coach IA",
+      "short_title": "Applis de suivi alimentaire 2026 : 7 applis comparées",
+      "meta_description": "HAVIT, Foodvisor, Yazio, Lifesum, MyFitnessPal, fatsecret et Le Secret du Poids comparées : saisie par photo, ce qui est gratuit ou payant, macronutriments et coach IA. D'après les fiches de l'App Store français, octobre 2026.",
+      "tldr": "Pour un journal alimentaire, noter souvent sans interruption compte plus que noter longtemps et au gramme près. Repérez le moment où vous décrochez (recherche pénible, plat maison, lendemain d'excès, chiffres qui ne mènent à rien) et choisissez l'appli qui le rend plus facile. La saisie par photo n'est pas gratuite partout : payante chez HAVIT, non précisée chez plusieurs autres, vérifiez avant.",
+      "body_md": "On arrête rarement un journal alimentaire parce que l'appli « n'était pas assez précise ». Le plus souvent, on lâche à **un moment bien précis** : un soir de fatigue, devant un plat maison à six ingrédients, quand on se dit « je ne vais pas tout chercher », ou le lendemain d'un repas copieux, quand on n'a pas envie de voir les chiffres.\n\nCe guide commence donc par les quatre moments où un journal s'interrompt, puis regarde **avec quelle fonction chaque appli y répond, et si cette fonction est gratuite ou payante**. Nous avons retenu sept applis utilisées en France pour tenir un journal alimentaire : HAVIT, Foodvisor, Yazio, Lifesum, MyFitnessPal, fatsecret et Le Secret du Poids. Notes et fonctions viennent des fiches officielles de l'App Store français, consultées le 24 octobre 2026. Nous n'indiquons pas les prix, qui changent souvent.\n\nHAVIT est l'appli de l'équipe qui écrit ce blog. Elle a été conçue par des experts issus de **Juvis**, une marque coréenne spécialisée dans l'accompagnement minceur. Nous signalons donc ce qui est payant chez HAVIT, et nous précisons dans quels cas HAVIT n'est pas le bon choix.\n\n![Ce qui met fin au journal, c'est la lassitude plus que l'imprécision](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## Le choix rapide, selon votre situation\n\n| Votre situation | Appli adaptée | Pourquoi |\n| --- | --- | --- |\n| Tenir un journal sans payer | fatsecret · Le Secret du Poids | fatsecret se dit gratuit et liste la reconnaissance d'image parmi ses outils ; chez Le Secret du Poids, le Premium porte sur la publicité, l'avatar et la sauvegarde |\n| Une photo, et c'est noté | Foodvisor · Yazio · Lifesum · HAVIT (Premium) | La saisie par photo figure dans leur fiche officielle |\n| Ne pas peser, choisir sa portion en image | Le Secret du Poids | On sélectionne la portion sur une photo |\n| Jeûne intermittent et journal ensemble | Yazio · Foodvisor | Jeûne et journal dans la même appli |\n| Beaucoup de produits industriels et de plats de chaîne | MyFitnessPal | Plus de 20,5 millions d'aliments, plats de restaurant compris |\n| Traitement GLP-1 en cours | **HAVIT** | Repas, prises, poids et estimation de la composition corporelle dans la même appli (tout cela en gratuit) |\n| Vous notez tout, mais ne savez pas quoi changer | **HAVIT** | Le coach IA Havi lit l'ensemble de votre journal et vous dit quoi faire aujourd'hui |\n\n## Avant de choisir : les quatre moments où l'on décroche\n\nLe journal alimentaire est un outil de base des programmes de perte de poids. Une revue systématique de 22 études trouve un lien **constant** entre le fait de noter ce que l'on mange et la perte de poids ; à cause des limites des études, les auteurs jugent toutefois le niveau de preuve **faible** (Burke 2011). Dans un programme en ligne de six mois suivi par 142 participants, le temps passé à noter est passé de **23,2 minutes par jour** le premier mois à **14,6 minutes** au sixième. Ce qui distinguait les personnes ayant perdu au moins 5 % de leur poids des autres, ce n'était pas ce temps, mais **le nombre de fois par jour où elles ouvraient leur journal** : 2,4 contre 1,6 (Harvey 2019).\n\nAutrement dit, noter **souvent et sans interruption** compte plus que noter longtemps et au gramme près. Choisissez donc l'appli qui vous fait le moins décrocher.\n\n**1. Quand la recherche devient pénible.** À chaque repas, taper un nom, puis choisir parmi des résultats qui se ressemblent. À regarder : les favoris pour retrouver vos repas habituels (Foodvisor, Lifesum, Le Secret du Poids), le scan de code-barres (Foodvisor, Yazio, Lifesum, fatsecret ; chez MyFitnessPal, la fiche le range dans le Premium).\n\n**2. Devant un plat maison.** Un produit emballé se scanne ; une blanquette faite maison, il faut la décomposer ingrédient par ingrédient. À regarder : la reconnaissance photo et l'enregistrement de recettes. La photo n'est pas gratuite partout. Chez HAVIT, le **scan IA des repas fait partie de HAVIT Premium**. Foodvisor, Yazio et Lifesum proposent la saisie par photo, mais leur fiche ne précise pas si elle est gratuite ; fatsecret liste la reconnaissance d'image parmi ses outils, hors de sa liste Premium. Foodvisor, MyFitnessPal et Le Secret du Poids permettent d'enregistrer vos propres recettes.\n\n**3. Le lendemain d'un excès.** On n'a pas envie de voir les chiffres, on saute un jour, puis un deuxième. À regarder : un moyen de noter simplement comment on va, plutôt que des chiffres, et une appli qui ne présente pas cette journée comme un échec. Le **check-in quotidien de HAVIT (Premium)** enregistre forme, sommeil, appétit et humeur en quelques touches. Le Secret du Poids part du principe qu'aucun aliment n'est interdit : un dépassement du budget du jour se lit en grammes, il ne se cache pas.\n\n**4. Quand les chiffres ne mènent à rien.** Des semaines de saisie, et l'appli n'affiche que des totaux : la motivation s'effrite. À regarder : une fonction qui lit votre journal et vous dit quoi faire ensuite. C'est le cas du **coach IA Havi** de HAVIT (en gratuit, nombre de messages limité par jour), du programme personnalisé et des conseils de Foodvisor Premium, ou du Life Score hebdomadaire de Lifesum.\n\n## HAVIT : un coach IA qui lit votre journal\n\n| | |\n| --- | --- |\n| Éditeur | Havit Inc. (Corée du Sud) |\n| Conçue par | Des experts issus de Juvis, marque coréenne d'accompagnement minceur |\n| App Store | 4,7 (159 notes, App Store américain). Pas encore de notes sur l'App Store français |\n| Gratuit | Journal des repas (recherche, saisie manuelle) et calories par repas ; poids, hydratation, sommeil, pas, jeûne, humeur, cycle menstruel, GLP-1 ; estimation de la composition corporelle ; chat avec le coach IA (nombre de messages limité par jour) |\n| HAVIT Premium | Scan IA des repas, analyse des glucides, protéines et lipides par repas et par jour, calories restantes, check-in quotidien, chat illimité, bilan du soir et engagement, vidéos d'entraînement, méditations guidées, articles |\n\nLa répartition gratuit / Premium correspond aux réglages par défaut de l'appli en octobre 2026 ; des offres ponctuelles peuvent ouvrir certaines fonctions Premium gratuitement.\n\n![Scan IA des repas (HAVIT Premium) : calories et nutriments estimés à partir d'une photo](/blog/havit/shot/feature-nutrition.webp)\n\n**Ce qui est gratuit.** Vous cherchez un aliment ou le saisissez vous-même, et les calories de chaque repas s'affichent. Au-delà des repas, la même appli enregistre poids, hydratation, sommeil, pas, jeûne, humeur, cycle menstruel et prises de GLP-1, et estime sans appareil la tendance de votre masse grasse et de votre masse maigre (ce n'est pas une mesure médicale). Là où la plupart des journaux alimentaires s'arrêtent aux repas et au poids, vous voyez sur le même écran si un plateau vient plutôt du sommeil ou du cycle.\n\n**Ce que débloque le Premium.** Devant un plat maison, le **scan IA des repas** vous évite la saisie : une photo, et vous obtenez une estimation des calories et des nutriments. L'**analyse des glucides, protéines et lipides** par repas et par jour, ainsi que les **calories restantes**, font aussi partie du Premium. Si vous voulez les macronutriments sans payer, d'autres applis de cette liste les affichent en version gratuite.\n\n### Le coach IA Havi : ce qu'il faut faire après la saisie\n\n![Coach IA HAVIT : lire tout le journal et proposer l'action du jour](/blog/havit/shot/feature-ai-coach.webp)\n\nSi un journal alimentaire classique est l'endroit où s'additionnent les chiffres, le cœur de HAVIT est le **coach IA Havi**.\n\n**Au départ, une conversation pour poser le plan.** Havi vous demande votre objectif, si vous suivez un traitement GLP-1 et avec quels effets indésirables, puis votre taille, votre poids et quelques autres informations. À partir de vos réponses, il établit **votre plan corporel**, qui fait le point sur votre situation, et un plan pour atteindre votre objectif.\n\n**Chaque jour, il lit tout le journal.** Pas seulement les repas : le sommeil, les pas, le cycle et les prises de GLP-1 aussi, pour vous proposer **l'action du jour**. Une semaine où les calories sont respectées mais où le poids ne bouge pas, par exemple, il regarde aussi le sommeil et les pas de la semaine et vous indique par quoi commencer.\n\n**Vous pouvez lui envoyer une photo.** Un plat au restaurant difficile à saisir ? **Envoyez la photo** dans le chat et posez votre question. Le chat est accessible en gratuit, avec un nombre de messages limité par jour ; il est illimité avec HAVIT Premium.\n\n**Il clôt la journée.** À 22 h arrive votre **bilan du soir**, et vous pouvez noter un **engagement** d'une ligne pour le lendemain ; l'appli affiche combien d'engagements vous avez tenus sur les 14 derniers jours (HAVIT Premium).\n\n![Check-in quotidien (HAVIT Premium) : garder le fil même les jours d'excès](/blog/havit/shot/feature-daily-check-in.webp)\n\nAvec le **check-in quotidien** (HAVIT Premium), vous notez forme, sommeil, appétit et humeur, et Havi sait à quel type de journée il a affaire avant d'engager la conversation. Un jour d'excès, plutôt que de reprendre chaque repas, quelques touches suffisent pour garder une trace.\n\n### Une appli conçue par des anciens de Juvis\n\nHAVIT a été conçue par **des experts issus de Juvis**, une marque coréenne où des coachs suivent personnellement l'alimentation et le mode de vie de leurs clients pour les aider à perdre du poids. Cette méthode se retrouve dans le coach et dans le programme de 12 semaines.\n\n- **La composition du corps plutôt que le poids.** C'est pourquoi l'estimation de la composition corporelle est gratuite, et que les protéines et le renforcement musculaire sont au cœur du coaching.\n- **Un changement à la fois.** Le programme de 12 semaines est découpé en 12 étapes ; une mission n'est pas cochée par vous, elle est validée par les données de votre journal (repas, pas, etc.).\n- **Les mauvais jours font partie du parcours.** Pour une mission à tenir plusieurs jours d'affilée, un premier oubli ne fait pas perdre la progression ; au deuxième, un Saver (qui protège votre série) permet de continuer ; au troisième, on recommence.\n\n### Quand HAVIT n'est pas le bon choix\n\nSi vous voulez **les macronutriments gratuitement**, la version gratuite de HAVIT ne suffit pas (elle s'arrête aux calories par repas). Si vous voulez **la saisie par photo sans payer**, essayez d'abord fatsecret, qui la liste hors de son Premium. Si vous préférez **ne rien peser et choisir vos portions en image**, Le Secret du Poids est conçu pour cela. Si vous scannez surtout **des produits industriels**, regardez MyFitnessPal ou Yazio. Et si **le jeûne intermittent** est votre méthode principale, Yazio en fait un de ses trois piliers.\n\n**Pour qui** : celles et ceux qui notent tout sans savoir quoi changer, dont le poids dépend aussi du sommeil ou du cycle, ou qui veulent suivre repas et traitement GLP-1 au même endroit.\n\n## Foodvisor : la photo, en français\n\n| | |\n| --- | --- |\n| Éditeur | Foodvisor (France) |\n| App Store (France) | 4,6 (73 167 notes) |\n| Photo | L'IA identifie le repas à partir d'une photo ; saisie aussi par la voix, au clavier ou par code-barres |\n| Gratuit / payant | Gratuit + Foodvisor Premium (analyse des vitamines et minéraux, programme personnalisé, séances de sport, programmes de jeûne, recettes, sans publicité) |\n\n![La photo, c'est la façon la plus rapide de noter](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_PRO_004.jpg)\n\n**Ses points forts.** Une appli française qui propose plusieurs façons de noter : photo, voix, quelques mots tapés, code-barres, et des favoris pour retrouver aliments, recettes et repas. Elle suit calories, macronutriments, vitamines et minéraux, ainsi que le poids, l'hydratation, le jeûne intermittent et l'activité. Une « graine » à faire grandir avec les quêtes du jour donne une raison de revenir, et une communauté partage progrès et recettes.\n\n**Ses limites.** La fiche ne précise pas si la saisie par photo est gratuite. L'analyse complète des micronutriments et le programme personnalisé sont réservés au Premium. Elle ne mentionne ni le sommeil ni le cycle menstruel.\n\n**Pour qui** : celles et ceux qui veulent noter vite, avec une photo, et une appli pensée en français.\n\n## Yazio : journal, jeûne et recettes\n\n| | |\n| --- | --- |\n| Éditeur | YAZIO GmbH |\n| App Store (France) | 4,7 (145 562 notes) |\n| Photo | Calcul des calories par IA à partir d'une photo (fiche officielle) |\n| Gratuit / payant | Gratuit + Yazio Pro (programmes alimentaires spécialisés, analyse des nutriments, vitamines et minéraux, connexion à Fitbit, Garmin, Polar, sans publicité) |\n\n**Ses points forts.** Plus de 4 millions d'aliments, un lecteur de codes-barres, le suivi des macronutriments et plus de 20 méthodes de jeûne intermittent (16:8, 14:10, 5:2, 6:1…) dans la même appli. S'y ajoutent plus de 2 900 recettes et une liste de courses.\n\n**Ses limites.** La fiche ne dit pas si la saisie par photo est gratuite. Les programmes alimentaires spécialisés et l'analyse détaillée des nutriments relèvent de Yazio Pro.\n\n**Pour qui** : celles et ceux qui pratiquent le jeûne intermittent et veulent le journal au même endroit.\n\n## Lifesum : photo, voix, code-barres\n\n| | |\n| --- | --- |\n| Éditeur | Lifesum AB |\n| App Store (France) | 4,5 (34 092 notes) |\n| Photo | Oui, ainsi que la voix, le clavier et le code-barres |\n| Gratuit / payant | Gratuit « avec des fonctionnalités limitées » + Premium (la fiche ne détaille pas la répartition) |\n\n**Ses points forts.** Plusieurs façons de noter, dont une saisie rapide. Compteur de calories et suivi des macronutriments, évaluation des aliments, plans alimentaires, programmes de jeûne intermittent, suivi de l'hydratation et des mensurations, et un Life Score hebdomadaire pour faire le point. Synchronisation avec Apple Santé.\n\n**Ses limites.** La fiche indique que la version gratuite est limitée, sans dire lesquelles des fonctions sont réservées au Premium : vérifiez dans l'appli.\n\n**Pour qui** : celles et ceux qui veulent varier les façons de noter et suivre des objectifs simples (fruits, légumes, eau).\n\n## MyFitnessPal : une très grande base d'aliments\n\n| | |\n| --- | --- |\n| Éditeur | MyFitnessPal, Inc. |\n| App Store (France) | 4,6 (52 091 notes) |\n| Photo | Non mentionnée dans la fiche ; le scan de code-barres y figure dans la liste Premium |\n| Gratuit / payant | Gratuit + MyFitnessPal Premium (scan de code-barres, jeûne intermittent, objectifs de macronutriments personnalisés, sans publicité) |\n\n**Ses points forts.** Selon la fiche, plus de **20,5 millions d'aliments**, plats de restaurant compris. Suivi des glucides, lipides et protéines, de l'eau, de l'activité et des pas, enregistrement de vos propres repas et recettes, connexion à plus de 40 applis et appareils, et des forums actifs.\n\n**Ses limites.** Une base aussi vaste demande du tri : il faut choisir la bonne entrée parmi les résultats. Enregistrez vos aliments habituels pour gagner du temps. Sur la fiche française, le scan de code-barres fait partie du Premium.\n\n**Pour qui** : celles et ceux qui mangent souvent des produits industriels ou dans des chaînes de restaurants.\n\n## fatsecret : un périmètre gratuit large\n\n| | |\n| --- | --- |\n| Éditeur | Secret Industries Pty Ltd |\n| App Store (France) | 4,7 (6 876 notes) |\n| Photo | Reconnaissance d'image ; noter ses repas avec l'appareil photo (fiche officielle) |\n| Gratuit / payant | Gratuit + Premium (plans nutritionnels conçus par un diététicien, planification des repas, six types de repas supplémentaires, suivi de l'eau) |\n\n**Ses points forts.** La fiche annonce d'emblée que « fatsecret est gratuit ». Le Premium couvre quatre choses : plans nutritionnels, planification avancée, types de repas supplémentaires et suivi de l'eau. Reconnaissance d'image, lecteur de codes-barres, journal d'exercice, suivi du poids, rapports, rappels et communauté figurent parmi les outils de base.\n\n**Ses limites.** La fiche française est une traduction approximative ; la couverture des produits et plats français est à tester par vous-même. Aucun coaching par IA n'est mentionné.\n\n**Pour qui** : celles et ceux qui veulent tenir un journal régulier sans payer.\n\n## Le Secret du Poids : les portions en photo, sans balance\n\n| | |\n| --- | --- |\n| Éditeur | Le Secret du Poids |\n| App Store (France) | 4,4 (7 769 notes) |\n| Photo | On choisit la portion parmi des photos ; scan d'aliments |\n| Gratuit / payant | Gratuit + Premium (sans publicité, avatar personnalisé, sauvegarde dans le cloud, accès aux nouveautés) |\n\n![Choisir une portion en image plutôt que la peser](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n**Ses points forts.** On sélectionne ce qu'on a mangé à partir de milliers de photos de portions, sans rien peser, et une jauge montre ce qui reste du budget calorique du jour. Aucun aliment n'est interdit : un tableau indique en temps réel, en grammes, l'effet d'un dépassement ou d'une restriction. Recettes et aliments personnels, favoris, et un personnage qui vous accompagne.\n\n**Ses limites.** L'appli est volontairement épurée : la fiche parle de calories, pas de macronutriments, et ne mentionne ni sommeil, ni cycle, ni activité.\n\n**Pour qui** : celles et ceux qui ont abandonné d'autres applis à cause de la pesée et de la saisie.\n\n## Et Yuka ?\n\nYuka (4,7 sur l'App Store français, 295 878 notes) est très présente dans les téléphones en France, mais ce n'est pas un journal alimentaire : elle scanne le code-barres d'un produit et évalue sa composition au moment de l'achat. Elle ne sait ni combien vous en avez mangé, ni quand, ni ce que vous avez cuisiné. Utile en rayon, à compléter par un journal.\n\n## La photo : jusqu'où lui faire confiance ?\n\nL'avantage de la photo, c'est la vitesse. Devant un plat composé, ce qui décide si l'on note ou non est souvent le temps que cela prend, plus que la précision.\n\nMais une photo ne montre pas **ce qui ne se voit pas** : l'huile de cuisson, la sauce absorbée, ce qui se cache sous le riz. Prenez l'estimation comme point de départ, et corrigez-la vous-même quand la portion est très différente ou que le plat est gras. Et vérifiez avant de vous lancer ce qui est gratuit : selon les applis, la photo est payante ou la fiche ne dit rien.\n\n## Le comparatif\n\n| Appli | App Store | Saisie photo | Macronutriments | Coach ou conseils | Gratuit / payant |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | 4,7 (159, App Store américain) | **Scan IA (Premium)** | Premium | Havi (gratuit : messages limités par jour) | Gratuit + HAVIT Premium |\n| Foodvisor | 4,6 (73 167) | Oui (IA) | Oui | Programme et conseils (Premium) | Gratuit + Premium |\n| Yazio | 4,7 (145 562) | Oui (IA) | Oui | Non mentionné | Gratuit + Pro |\n| Lifesum | 4,5 (34 092) | Oui | Oui | Life Score hebdomadaire | Gratuit limité + Premium |\n| MyFitnessPal | 4,6 (52 091) | Non mentionnée | Oui | Conseils nutritionnels personnalisés | Gratuit + Premium |\n| fatsecret | 4,7 (6 876) | Reconnaissance d'image | Informations nutritionnelles | Non mentionné | Gratuit + Premium |\n| Le Secret du Poids | 4,4 (7 769) | Portions en photo | Non mentionné | Personnage d'accompagnement | Gratuit + Premium |\n\nNotes et fonctions : fiches officielles de l'App Store français au 24 octobre 2026, sauf HAVIT (App Store américain, faute de notes en France). Une fonction « non mentionnée » peut exister dans l'appli.\n\n## Le test des deux semaines\n\n1. **Commencez par le repas le plus difficile.** Pas un blanc de poulet : un plat maison à plusieurs ingrédients.\n2. **Saisissez le même repas trois jours plus tard**, et comptez le nombre de touches.\n3. **Notez aussi un jour d'excès.** Regardez comment l'appli présente cette journée.\n4. **Au 14e jour, posez-vous la question :** l'appli m'a-t-elle dit **quoi changer**, au-delà de mes chiffres ?\n\nComme dans l'étude citée plus haut, il est normal que le temps de saisie diminue avec le temps (Harvey 2019). L'appli que vous avez ouverte chaque jour pendant deux semaines est celle que vous garderez.\n\n## En résumé\n\nChoisissez votre journal alimentaire en fonction **du moment où vous décrochez**. Pour noter sans payer : fatsecret ou Le Secret du Poids. Pour aller vite avec une photo : Foodvisor, Yazio, Lifesum ou HAVIT Premium. Pour le jeûne intermittent : Yazio. Pour les produits industriels : MyFitnessPal.\n\nSi vous notez tout mais ne savez pas quoi changer, il vous faut un coach qui lit l'ensemble de votre journal et vous indique la prochaine action. HAVIT, c'est ce coach transformé en IA par des experts issus de Juvis.\n\n[Essayer HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Façons dont meurt un journal alimentaire",
-          "value": "4",
-          "source": "Taxe de recherche, mur du fait maison, trou de la honte, dérive vers l'inutile"
+          "label": "Ouvertures du journal par jour : perte de 5 % ou plus vs moins",
+          "value": "2,4 vs 1,6 fois par jour",
+          "source": "Harvey et al. 2019, Obesity (programme en ligne de 6 mois, 142 participants)"
         },
         {
-          "label": "Base d'aliments de HAVIT",
-          "value": "Environ 486 000 entrées",
-          "source": "432 418 USDA + 41 218 MFDS (Corée) + 12 671 curation interne"
+          "label": "Temps de saisie quotidien",
+          "value": "23,2 min le premier mois → 14,6 min au sixième",
+          "source": "Harvey et al. 2019, Obesity"
         },
         {
-          "label": "Point faible de la saisie photo",
-          "value": "La taille de la portion",
-          "source": "Reconnaître l'aliment est simple ; estimer son poids depuis une image l'est beaucoup moins"
+          "label": "Lien entre journal alimentaire et perte de poids",
+          "value": "Constant (niveau de preuve faible)",
+          "source": "Burke, Wang & Sevick 2011, J Am Diet Assoc (revue de 22 études)"
         },
         {
-          "label": "Durée du test qui révèle votre façon d'arrêter",
-          "value": "2 semaines, avec un mauvais jour enregistré",
-          "source": "Protocole décrit dans cet article"
+          "label": "Applis de journal alimentaire comparées",
+          "value": "7",
+          "source": "Fiches officielles de l'App Store français au 24 octobre 2026"
         }
       ],
       "comparison_table": {
-        "title": "Tableau comparatif",
+        "title": "Le comparatif",
         "headers": [
           "Appli",
-          "Produits français",
+          "App Store",
           "Saisie photo",
-          "Accepte un mauvais jour ?",
-          "Après la saisie",
-          "Composition corporelle"
+          "Macronutriments",
+          "Coach ou conseils",
+          "Gratuit / payant"
         ],
         "rows": [
           [
-            "Yuka",
-            "Excellent",
-            "Non (code-barres)",
-            "Sans objet",
-            "Note du produit",
-            "Non"
+            "HAVIT",
+            "4,7 (159, App Store américain)",
+            "Scan IA (Premium)",
+            "Premium",
+            "Havi (gratuit : messages limités par jour)",
+            "Gratuit + HAVIT Premium"
           ],
           [
             "Foodvisor",
-            "Fort",
-            "Oui, mature",
-            "Pas de dispositif",
-            "Programme guidé, quêtes",
-            "Non"
+            "4,6 (73 167)",
+            "Oui (IA)",
+            "Oui",
+            "Programme et conseils (Premium)",
+            "Gratuit + Premium"
           ],
           [
             "Yazio",
-            "Correct",
+            "4,7 (145 562)",
+            "Oui (IA)",
             "Oui",
-            "Pas de dispositif",
-            "Plans et jeûne",
-            "Non"
+            "Non mentionné",
+            "Gratuit + Pro"
+          ],
+          [
+            "Lifesum",
+            "4,5 (34 092)",
+            "Oui",
+            "Oui",
+            "Life Score hebdomadaire",
+            "Gratuit limité + Premium"
           ],
           [
             "MyFitnessPal",
-            "Correct",
+            "4,6 (52 091)",
+            "Non mentionnée",
             "Oui",
-            "Pas de dispositif",
-            "Peu de chose",
-            "Non"
+            "Conseils nutritionnels personnalisés",
+            "Gratuit + Premium"
+          ],
+          [
+            "fatsecret",
+            "4,7 (6 876)",
+            "Reconnaissance d'image",
+            "Informations nutritionnelles",
+            "Non mentionné",
+            "Gratuit + Premium"
           ],
           [
             "Le Secret du Poids",
-            "Fort",
-            "Portions sur photo",
-            "Compensation du budget",
-            "Jauge quotidienne",
-            "Non"
-          ],
-          [
-            "HAVIT",
-            "Limité",
-            "Oui",
-            "Check-in quotidien",
-            "Une action du coach IA",
-            "Estimée"
+            "4,4 (7 769)",
+            "Portions en photo",
+            "Non mentionné",
+            "Personnage d'accompagnement",
+            "Gratuit + Premium"
           ]
         ],
-        "caption": "Octobre 2026, d'après les fiches officielles des stores et des éditeurs."
+        "caption": "Fiches officielles de l'App Store français au 24 octobre 2026, sauf la note de HAVIT (App Store américain, faute de notes en France). Une fonction non mentionnée peut exister dans l'appli."
       },
       "faq": [
         {
-          "question": "Quelle est la meilleure appli pour tenir un journal alimentaire ?",
-          "answer": "Celle qui a prévu quelque chose contre votre façon d'arrêter. Si c'est la recherche d'aliments, prenez une appli à saisie photo. Si c'est le fait maison, idem. Si c'est la honte après un dérapage, il vous faut un dispositif qui accepte un mauvais jour sans casser la série. Si c'est l'ennui, il vous faut une appli qui vous dit quelque chose après la saisie."
+          "question": "Quelle appli choisir pour tenir un journal alimentaire ?",
+          "answer": "Celle qui vous aide au moment où vous décrochez. Pour noter sans payer : fatsecret ou Le Secret du Poids. Pour aller vite avec une photo : Foodvisor, Yazio, Lifesum ou HAVIT Premium. Pour le jeûne intermittent : Yazio. Pour les produits industriels et les plats de chaîne : MyFitnessPal. Si vous notez tout sans savoir quoi changer, essayez le coach IA Havi de HAVIT, qui lit l'ensemble de votre journal et propose l'action du jour."
+        },
+        {
+          "question": "Qu'est-ce qui est gratuit dans ces applis ?",
+          "answer": "Les sept se téléchargent et s'utilisent gratuitement, mais pas avec le même périmètre. Chez HAVIT, la version gratuite comprend le journal des repas (recherche, saisie manuelle) et les calories par repas, le suivi du poids, du sommeil, des pas, du GLP-1, etc., l'estimation de la composition corporelle et le chat avec le coach IA (messages limités par jour) ; le scan IA des repas, les macronutriments, les calories restantes et le check-in quotidien relèvent de HAVIT Premium. fatsecret limite son Premium à quatre fonctions (plans nutritionnels, planification, types de repas, eau). Chez Le Secret du Poids, le Premium porte sur la publicité, l'avatar, la sauvegarde et les nouveautés. Lifesum indique une version gratuite « limitée » sans détailler."
+        },
+        {
+          "question": "Quelles applis permettent de noter ses repas en photo ?",
+          "answer": "D'après les fiches de l'App Store français : Foodvisor, Yazio et Lifesum (sans préciser si c'est gratuit), fatsecret (reconnaissance d'image, hors de sa liste Premium) et HAVIT (scan IA des repas, Premium). Le Secret du Poids fonctionne autrement : on choisit sa portion parmi des photos. La fiche de MyFitnessPal ne mentionne pas de saisie photo."
+        },
+        {
+          "question": "Les calories estimées sur photo sont-elles fiables ?",
+          "answer": "Prenez-les comme point de départ. Une photo ne montre ni l'huile de cuisson, ni la sauce absorbée, ni ce qui se cache sous le riz. Corrigez vous-même quand la portion est très différente ou que le plat est gras. Mais une estimation approximative vaut mieux qu'un repas pas noté du tout."
+        },
+        {
+          "question": "Faut-il noter les jours où l'on a trop mangé ?",
+          "answer": "Oui, même brièvement. Dans une étude de six mois, les personnes qui ont perdu au moins 5 % de leur poids ouvraient leur journal plus souvent dans la journée ; ce n'est pas le temps passé à noter qui faisait la différence (Harvey 2019). Si tout saisir est trop lourd ce jour-là, une note ou une photo suffit. Dans HAVIT, le check-in quotidien (Premium) enregistre forme, appétit et humeur en quelques touches."
         },
         {
           "question": "Yuka peut-elle servir de journal alimentaire ?",
-          "answer": "Non, et ce n'est pas son objet. Yuka note un produit au moment de l'achat : elle ignore les quantités, les horaires et tout ce que vous cuisinez. C'est l'outil le plus efficace de France pour décider devant un rayon, et il faut un journal à côté."
+          "answer": "Non. Yuka scanne le code-barres d'un produit et évalue sa composition au moment de l'achat ; elle ne sait ni combien vous en avez mangé, ni quand, ni ce que vous avez cuisiné. Elle est utile en rayon, mais il faut un journal à côté."
         },
         {
-          "question": "Comment enregistrer les plats faits maison sans abandonner ?",
-          "answer": "Photographiez l'assiette plutôt que de saisir dix ingrédients. Les applis à reconnaissance photo — Foodvisor en France, HAVIT dans la catégorie tout-en-un — existent exactement pour ce cas. Pour un plat que vous refaites souvent, enregistrez-le une fois comme recette et réutilisez-le ensuite en une tape."
+          "question": "Que fait le coach IA de HAVIT ?",
+          "answer": "Au départ, Havi vous interroge sur votre objectif, un éventuel traitement GLP-1 et votre profil, puis établit votre plan corporel et un plan pour atteindre votre objectif. Ensuite, il lit ensemble vos repas, votre sommeil, vos pas, votre cycle et vos prises de GLP-1 pour vous proposer l'action du jour, et vous pouvez lui envoyer une photo. En gratuit, le nombre de messages est limité par jour ; le chat illimité, le bilan du soir de 22 h et l'engagement du lendemain font partie de HAVIT Premium."
         },
         {
-          "question": "Faut-il noter les jours où on a trop mangé ?",
-          "answer": "Oui, et ce sont les jours les plus utiles. Un journal qui s'interrompt dès que ça dérape ne vous apprend rien sur ce qui dérape. Ce qui est associé au résultat dans la littérature, c'est la régularité de la saisie — ce qui suppose de continuer les mauvais jours, pas seulement les bons."
-        },
-        {
-          "question": "Les produits de supermarché français sont-ils dans ces bases ?",
-          "answer": "Pour la plupart, oui, notamment grâce à Open Food Facts, base collaborative et ouverte portée par une association française, qui référence plus de 1,2 million de produits dans sa vue France. Les applis conçues en France, comme Foodvisor et Le Secret du Poids, couvrent mieux les plats cuisinés et la cuisine maison que les bases d'origine américaine."
-        },
-        {
-          "question": "Combien de temps faut-il pour savoir si une appli me convient ?",
-          "answer": "Deux semaines, en incluant volontairement un mauvais jour. La première semaine révèle votre point de friction, la seconde montre si l'appli a prévu quelque chose quand la semaine ne ressemble pas à la brochure."
+          "question": "Qui a conçu HAVIT ?",
+          "answer": "Des experts issus de Juvis, une marque coréenne où des coachs suivent personnellement l'alimentation et le mode de vie de leurs clients pour les aider à perdre du poids. Cette méthode a été transposée dans le coach IA et le programme de 12 semaines, qui mettent la composition du corps (masse grasse, masse maigre) avant le poids. L'éditeur est Havit Inc."
         }
       ],
       "references": [
         {
-          "title": "Yuka — fiche App Store France",
-          "source": "Apple App Store (FR), consulté en octobre 2026 — 4,7/5 sur environ 295 700 notes ; 85 millions d'utilisateurs et 6 millions de produits revendiqués par l'éditeur",
-          "url": "https://apps.apple.com/fr/app/id1092799236"
-        },
-        {
-          "title": "Foodvisor — fiche App Store France",
-          "source": "Apple App Store (FR), consulté en octobre 2026 — 4,6/5 sur environ 72 800 notes ; l'éditeur revendique plus de 15 millions d'utilisateurs",
-          "url": "https://apps.apple.com/fr/app/id1064020872"
-        },
-        {
-          "title": "Yazio : Compteur de Calories — fiche App Store France",
-          "source": "Apple App Store (FR), YAZIO GmbH, consulté en octobre 2026 — 4,7/5 sur environ 144 700 notes ; plus de 4 millions d'aliments revendiqués",
-          "url": "https://apps.apple.com/fr/app/id946099227"
-        },
-        {
-          "title": "MyFitnessPal : compte-calories — fiche App Store France",
-          "source": "Apple App Store (FR), MyFitnessPal, Inc., consulté en octobre 2026 — 4,6/5 sur environ 52 000 notes ; plus de 20,5 millions d'aliments revendiqués",
-          "url": "https://apps.apple.com/fr/app/id341232718"
-        },
-        {
-          "title": "Le Secret Du Poids — fiche App Store France",
-          "source": "Apple App Store (FR), Le Secret du Poids, consulté en octobre 2026 — 4,4/5 sur environ 7 700 notes ; plus de 1,2 million d'utilisateurs revendiqués",
-          "url": "https://apps.apple.com/fr/app/id651023505"
-        },
-        {
-          "title": "HAVIT : Coach Minceur, Calories — fiche App Store France",
-          "source": "Apple App Store (FR), Havit Incorporated, consulté en octobre 2026",
-          "url": "https://apps.apple.com/fr/app/id6755166023"
-        },
-        {
-          "title": "Open Food Facts — base de données alimentaire libre et collaborative",
-          "source": "Association Open Food Facts, vue France : 1 274 235 produits référencés (consulté en octobre 2026) ; données ouvertes et réutilisables par tous",
-          "url": "https://fr.openfoodfacts.org/"
-        },
-        {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 études, dont 15 sur l'auto-surveillance alimentaire ; les auteurs qualifient eux-mêmes le niveau de preuve de faible",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+          "source": "Journal of the American Dietetic Association, 2011 — 22 études, dont 15 sur le journal alimentaire ; lien constant avec la perte de poids, niveau de preuve jugé faible par les auteurs",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (recommandation en cours d'actualisation) ; adultes avec IMC supérieur ou égal à 30, interventions délivrées en milieu clinique",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026 — analyse interne HAVIT portant sur 1 090 utilisateurs sous GLP-1",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "Log Often, Lose More: Electronic Dietary Self-Monitoring for Weight Loss (Harvey, Krukowski, Priest & West)",
+          "source": "Obesity, 2019 — programme en ligne de 24 semaines, 142 participants ; 23,2 → 14,6 min par jour ; ouvertures du journal 2,4 vs 1,6 fois par jour chez les personnes ayant perdu au moins 5 %",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30801989/"
         }
       ],
-      "last_updated": "2026-10-12"
+      "last_updated": "2026-10-24"
     }
   },
   "generated_at": "2026-10-11T00:00:00.000Z",
