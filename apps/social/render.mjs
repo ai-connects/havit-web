@@ -28,16 +28,22 @@ const LOGO = file(path.join(WEB, 'havit-logo.svg'));
 const esc = (s) => String(s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const nl = (s) => esc(s).replace(/\n+/g, '<br>');
 
-const FONT = { ko: "'Poppins','Noto Sans KR',sans-serif", ja: "'Poppins','Noto Sans JP',sans-serif", en: "'Poppins',sans-serif" };
+const FONT = {
+  ko: "'Poppins','Noto Sans KR',sans-serif",
+  ja: "'Poppins','Noto Sans JP',sans-serif",
+  'zh-tw': "'Poppins','Noto Sans TC',sans-serif",
+  zh: "'Poppins','Noto Sans SC',sans-serif",
+};
+const fontOf = (lang) => FONT[lang] || "'Poppins','Noto Sans',sans-serif";
 const fit = (s, big, small, limit) => ([...String(s || '')].length > limit ? small : big);
 
 function page(lang, inner) {
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&family=Noto+Sans+KR:wght@500;700;900&family=Noto+Sans+JP:wght@500;700;900&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&family=Noto+Sans+KR:wght@500;700;900&family=Noto+Sans+JP:wght@500;700;900&family=Noto+Sans+TC:wght@500;700;900&family=Noto+Sans+SC:wght@500;700;900&family=Noto+Sans:wght@500;700;900&display=block" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0}
 html,body{width:${W}px;height:${H}px;overflow:hidden}
-body{font-family:${FONT[lang]};-webkit-font-smoothing:antialiased;line-break:strict;overflow-wrap:anywhere;word-break:${lang === 'ko' ? 'keep-all' : 'normal'}}
+body{font-family:${fontOf(lang)};-webkit-font-smoothing:antialiased;line-break:strict;overflow-wrap:anywhere;word-break:${lang === 'ko' ? 'keep-all' : 'normal'}}
 .s{position:relative;width:${W}px;height:${H}px;padding:96px 88px;display:flex;flex-direction:column}
 .dark{background:#121212;color:#fff}.light{background:#F6F6F1;color:#121212}.lime{background:#D4FF50;color:#121212}
 .logo{height:40px;width:auto;position:absolute;top:72px;left:88px}

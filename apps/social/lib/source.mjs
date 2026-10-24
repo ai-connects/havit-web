@@ -5,8 +5,12 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ARTICLES = path.resolve(ROOT, '../blog/data/articles');
-// 블로그 데이터는 zh-CN / pt-BR 같은 키를 쓰지만 SNS 범위는 ko/ja/en 뿐이라 그대로 맞는다.
-const DATA_LANG = { ko: 'ko', ja: 'ja', en: 'en' };
+// SNS 언어 코드 = 블로그 라우트 코드. 블로그 데이터 키는 zh-CN / zh-TW / pt-BR 로 다르다.
+const DATA_LANG = { ko: 'ko', ja: 'ja', en: 'en', zh: 'zh-CN', 'zh-tw': 'zh-TW', es: 'es', 'pt-br': 'pt-BR', id: 'id', de: 'de', fr: 'fr' };
+
+export function hasLang(slug, lang) {
+  return Boolean(readJson(path.join(ARTICLES, `${slug}.json`)).langs[DATA_LANG[lang]]);
+}
 
 export const readJson = (p) => JSON.parse(readFileSync(p, 'utf8'));
 export const config = (name) => readJson(path.join(ROOT, 'config', `${name}.json`));

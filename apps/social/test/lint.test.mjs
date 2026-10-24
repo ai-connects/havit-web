@@ -43,3 +43,20 @@ test('영어 금지어는 단어 경계로만(secure 는 통과)', () => {
   const d = { ...e, link: l, posts: ['Feel secure about cravings for 5 minutes. What helps you?'], first_reply: `${l}\nGeneral info, not medical advice. If you're dealing with disordered eating or a health condition, talk to a professional.`, hashtags: [], evidence: [] };
   assert.equal(lint(d, s).status, 'PASS', lint(d, s).errors.join());
 });
+
+test('스페인어 금지어도 단어 단위(segura 는 통과, cura 는 FAIL)', () => {
+  const s = loadSource(slug, 'es');
+  const e = { channel: 'threads', lang: 'es', format: 'question', slug };
+  const l = withUtm(s.url, e);
+  const disc = 'Información general, no es consejo médico. Si tienes problemas con la alimentación o una condición de salud, consulta a un profesional.';
+  const base = { ...e, link: l, first_reply: `${l}\n${disc}`, hashtags: [], evidence: [] };
+  assert.equal(lint({ ...base, posts: ['Una forma segura de pasar 5 minutos con un antojo. ¿Lo probarías?'] }, s).status, 'PASS');
+  assert.match(lint({ ...base, posts: ['Esta meditación cura los antojos.'] }, s).errors.join(), /금지어/);
+});
+test('중국어 번체 소스와 면책 위치', () => {
+  const s = loadSource(slug, 'zh-tw');
+  const e = { channel: 'threads', lang: 'zh-tw', format: 'question', slug };
+  const l = withUtm(s.url, e);
+  const d = { ...e, link: l, posts: ['嘴饞的時候，先給自己5分鐘看看那股衝動。你最常想吃什麼？'], first_reply: l, hashtags: [], evidence: [] };
+  assert.match(lint(d, s).errors.join(), /면책/);
+});

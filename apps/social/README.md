@@ -6,6 +6,9 @@
 plan.mjs      계정(채널×언어)별 주당 빈도로 2주 계획 → queue/plan-<시작일>.json
 generate.mjs  계획 슬롯마다 Claude 로 초안 → 검사(실패 시 1회 재생성) → queue/<날짜>/*.json (approved:false)
 lint.mjs      사람이 고친 초안 재검사
+approve.mjs   (수동) 검토 후 일괄 승인(PASS 만, --except/--only)
+reviewer.mjs  AI 리뷰어(글+이미지) → 자동 발행 게이트(lib/gate.mjs)
+digest.mjs    매일 요약(SLACK_WEBHOOK_URL 이 있으면 Slack)
 render.mjs    초안 → 이미지(PNG 1080×1350): IG 는 슬라이드마다, 나머지는 카드 1장
 review_html.mjs  이미지 포함 검토 페이지
 ```
@@ -27,8 +30,8 @@ npm test
 
 | 채널 | 언어 | 주당 |
 |---|---|---|
-| Threads | ko · ja · en (언어별 계정) | 5 |
-| Instagram | ko · ja · en (언어별 계정) | 3 |
+| Threads | 블로그 10개 언어(ko·ja·en·zh-tw·zh·es·pt-br·id·de·fr) 언어별 계정 | 7(매일) |
+| Instagram | 같은 10개 언어별 계정 (ko = `havit_app`) | 7(매일) |
 | Facebook 페이지 | en | 3 |
 | LinkedIn 회사 페이지 | en | 2 |
 | LinkedIn 창업자 개인 | ko · en | 2 |
@@ -50,7 +53,19 @@ npm test
 | 링크 위치(Threads·LinkedIn 첫 답글/댓글, IG 링크 금지, FB 본문) + UTM | FAIL |
 | 해시태그 개수, 일본어 だ/である 체 비율 | 경고 |
 
-PASS 여도 `approved:false` 로 큐에 들어간다. 승인 → Buffer API 예약은 다음 단계에서 붙인다.
+## 자동 발행 게이트 (대표 결정 2026-10-24: AI 리뷰어 자동 + 예외만 사람)
+
+기계 검사 PASS → AI 리뷰어(`SOCIAL_REVIEW_MODEL`, 기본 opus — 생성보다 강한 모델) 가 글·이미지를 판정 → 아래 예외가 없으면 `auto_approved`.
+
+| 사람 검토로 넘기는 경우 (코드로 고정, AI 판단 아님) |
+|---|
+| 약물 언급(GLP-1·성분명·브랜드명·medication 등 10개 언어) |
+| `config/accounts.json` 에 첫 발행일이 없는 계정, 첫 발행 후 7일 |
+| 리뷰어 verdict=human 또는 확신 0.85 미만 |
+
+- `revise` = 재작성 필요, `rejected` = 기계 검사 FAIL — 둘 다 발행 안 함
+- 긴급 중지: `config/control.json` 의 `publishing_paused: true` → 모든 판정이 `paused`
+- 매일 `digest.mjs` 로 결과 요약. 자동 승인 → Buffer API 예약은 다음 단계에서 붙인다.
 
 ## 미확정
 

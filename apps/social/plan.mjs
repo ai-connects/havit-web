@@ -3,14 +3,14 @@
 import { existsSync, mkdirSync, readdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { config, readJson, verifiedSlugs } from './lib/source.mjs';
+import { config, hasLang, readJson, verifiedSlugs } from './lib/source.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const QUEUE = path.join(ROOT, 'queue');
 const [start = new Date().toISOString().slice(0, 10), weeks = '2'] = process.argv.slice(2);
 
 // 주 n회를 요일에 고르게 펼친다(월=0).
-const DAYS = { 1: [2], 2: [1, 3], 3: [0, 2, 4], 4: [0, 1, 3, 4], 5: [0, 1, 2, 3, 4] };
+const DAYS = { 1: [2], 2: [1, 3], 3: [0, 2, 4], 4: [0, 1, 3, 4], 5: [0, 1, 2, 3, 4], 7: [0, 1, 2, 3, 4, 5, 6] };
 
 // 최근 30일에 같은 계정에서 쓴 글은 다시 고르지 않는다.
 const used = new Map();
@@ -32,7 +32,8 @@ for (const [channel, rule] of Object.entries(ch.channels)) {
   for (const lang of rule.langs) {
     const key = `${channel}:${lang}`;
     const seen = used.get(key) || new Set();
-    const pool = slugs.filter((s) => !seen.has(s));
+    // 그 언어판이 있는 글만(예: glp-1-cost-korea 는 한국어판뿐)
+    const pool = slugs.filter((s) => !seen.has(s) && hasLang(s, lang));
     let i = (seed++ * 7) % pool.length; // 계정마다 시작점을 달리해 같은 날 같은 글이 몰리지 않게
     let f = 0;
     for (let w = 0; w < Number(weeks); w++) {

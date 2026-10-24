@@ -2,12 +2,26 @@
   "threads": {
     "ko": "Threads 한국어: 해요체, 친근한 반말 섞임 허용. 포스트당 150~300자. 링크와 면책 문구는 본문이 아니라 first_reply 에. 해시태그는 토픽 1개 이하.",
     "ja": "Threads 日本語: やわらかい です/ます。1文ごとに改行。1投稿150〜300字。リンクと免責文は本文ではなく first_reply に。トピックは1つまで。",
-    "en": "Threads English: short paragraphs, opinionated first line, 2nd person. 150–300 characters per post. Link and disclaimer go in first_reply, not in posts. At most 1 topic tag."
+    "en": "Threads English: short paragraphs, opinionated first line, 2nd person. 150–300 characters per post. Link and disclaimer go in first_reply, not in posts. At most 1 topic tag.",
+    "zh-tw": "Threads 繁體中文（台灣）：口語親切，每則150〜300字。連結和免責聲明放在 first_reply，不放正文。話題標籤最多1個。",
+    "zh": "Threads 简体中文：口语亲切，每条150〜300字。链接和免责声明放在 first_reply，不放正文。话题标签最多1个。",
+    "es": "Threads español (neutro): tuteo cercano, párrafos cortos, 150–300 caracteres por post. Enlace y aviso legal en first_reply, no en posts. Máximo 1 tema.",
+    "pt-br": "Threads português do Brasil: tom próximo (você), parágrafos curtos, 150–300 caracteres por post. Link e aviso no first_reply, não nos posts. No máximo 1 tópico.",
+    "id": "Threads Bahasa Indonesia: santai tapi sopan (pakai 'kamu'), 150–300 karakter per post. Link dan disclaimer di first_reply, bukan di posts. Maksimal 1 topik.",
+    "de": "Threads Deutsch: duzen, sachlich-freundlich, 150–300 Zeichen pro Post. Link und Hinweis in first_reply, nicht in posts. Höchstens 1 Thema.",
+    "fr": "Threads français : tutoiement, phrases courtes, 150–300 caractères par post. Lien et avertissement dans first_reply, pas dans posts. 1 sujet maximum."
   },
   "instagram": {
     "ko": "Instagram 캐러셀 한국어: slides 6~10장. 1장 표지 제목 15자 이내. 수치가 들어간 장은 출처를 body 끝에 (저널, 연도). 캡션 300~800자, 마지막 줄에 면책 문구. 링크 대신 '전체 가이드는 프로필 링크에서'. 해시태그 3~5개.",
     "ja": "Instagram カルーセル日本語: slides 6〜10枚。表紙は「〜な人へ」「保存版」型、20字以内。数値スライドは本文末に出典(誌名, 年)。キャプション300〜800字、箇条書き+絵文字は控えめ、最後の行に免責文。リンクは「プロフィールのリンクから」。ハッシュタグ3〜5個。",
-    "en": "Instagram carousel English: 6–10 slides. Cover title 6 words max. Any slide with a number ends with the source (Journal, Year). Caption 300–800 characters, disclaimer as the last line. No link — say 'full guide via the link in bio'. 3–5 niche hashtags."
+    "en": "Instagram carousel English: 6–10 slides. Cover title 6 words max. Any slide with a number ends with the source (Journal, Year). Caption 300–800 characters, disclaimer as the last line. No link — say 'full guide via the link in bio'. 3–5 niche hashtags.",
+    "zh-tw": "Instagram 輪播 繁體中文（台灣）：slides 6〜10張。封面標題15字以內。有數據的張數在內文最後註明出處（期刊, 年份）。說明文字300〜800字，最後一行放免責聲明。不放連結，寫「完整指南在個人檔案連結」。標籤3〜5個。",
+    "zh": "Instagram 轮播 简体中文：slides 6〜10张。封面标题15字以内。有数据的页面在正文最后注明出处（期刊, 年份）。文案300〜800字，最后一行放免责声明。不放链接，写「完整指南见主页链接」。标签3〜5个。",
+    "es": "Carrusel de Instagram en español: 6–10 slides. Portada de 6 palabras máx. Toda slide con un número termina con la fuente (Revista, Año). Pie de foto de 300–800 caracteres, aviso como última línea. Sin enlace: 'guía completa en el enlace de la bio'. 3–5 hashtags de nicho.",
+    "pt-br": "Carrossel do Instagram em português do Brasil: 6–10 slides. Capa com até 6 palavras. Slide com número termina com a fonte (Revista, Ano). Legenda de 300–800 caracteres, aviso na última linha. Sem link: 'guia completo no link da bio'. 3–5 hashtags de nicho.",
+    "id": "Carousel Instagram Bahasa Indonesia: 6–10 slide. Judul sampul maks. 6 kata. Slide berisi angka diakhiri sumber (Jurnal, Tahun). Caption 300–800 karakter, disclaimer di baris terakhir. Tanpa link: 'panduan lengkap di link bio'. 3–5 hashtag niche.",
+    "de": "Instagram-Karussell Deutsch: 6–10 Slides. Cover-Titel max. 6 Wörter. Slides mit Zahlen enden mit Quelle (Zeitschrift, Jahr). Caption 300–800 Zeichen, Hinweis als letzte Zeile. Kein Link: 'ganzer Guide über den Link in der Bio'. 3–5 Nischen-Hashtags.",
+    "fr": "Carrousel Instagram en français : 6–10 slides. Titre de couverture 6 mots max. Toute slide avec un chiffre se termine par la source (Revue, Année). Légende de 300–800 caractères, avertissement en dernière ligne. Pas de lien : « guide complet via le lien en bio ». 3–5 hashtags de niche."
   },
   "facebook": {
     "en": "Facebook page English: community tone for adults 30–55, 400–900 characters, link in the body, disclaimer at the end, 0–2 hashtags."

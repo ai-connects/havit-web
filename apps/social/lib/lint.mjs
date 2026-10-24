@@ -2,6 +2,7 @@
 import { config } from './source.mjs';
 
 const norm = (s) => (s || '').normalize('NFKC');
+const LATIN = new Set(['en', 'es', 'pt-br', 'id', 'de', 'fr']);
 
 /** "1,350" "4.5" "20–30%" → ["1350","4.5","20","30"] */
 export function numbers(text) {
@@ -43,8 +44,9 @@ export function lint(draft, source) {
   // 2) 금지어
   const lowered = norm(all).toLowerCase();
   for (const w of ch.banned[draft.lang] || []) {
-    const hit = draft.lang === 'en'
-      ? new RegExp(`(^|[^a-z])${w.toLowerCase().replace(/[.*+?^${}()|[\]\\/]/g, '\\$&')}([^a-z]|$)`).test(lowered)
+    // 라틴 문자 언어는 단어 단위(es「cura」가「segura」에 걸리지 않게), CJK 는 부분 문자열.
+    const hit = LATIN.has(draft.lang)
+      ? new RegExp(`(^|[^\\p{L}])${w.toLowerCase().replace(/[.*+?^${}()|[\]\\/]/g, '\\$&')}([^\\p{L}]|$)`, 'u').test(lowered)
       : lowered.includes(w.toLowerCase());
     if (hit) errors.push(`금지어: ${w}`);
   }

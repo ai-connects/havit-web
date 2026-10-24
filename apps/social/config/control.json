@@ -1,0 +1,4 @@
+{
+  "_note": "긴급 중지: publishing_paused 를 true 로 바꾸면 자동 승인·발행이 즉시 멈춘다(이미 Buffer 에 예약된 건은 Buffer 에서 일시정지).",
+  "publishing_paused": false
+}
