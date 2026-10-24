@@ -1126,123 +1126,144 @@
       "last_updated": "2026-10-12"
     },
     "de": {
-      "title": "Beste Apps für Körperzusammensetzung 2026: die Genauigkeitsleiter",
-      "short_title": "Körperzusammensetzung-Apps 2026",
-      "meta_description": "DXA, InBody, Körperfettwaage, Smartwatch-BIA und App-Schätzung — welche Stufe was kann. Mit HAVIT, InBody, Withings, Garmin und Renpho einzeln geprüft.",
-      "tldr": "Oberhalb von Stufe 2 messen Sie selten. Was täglich zählt, ist die Richtung über vier Wochen — und ob jemand daraus eine Konsequenz zieht.",
-      "body_md": "Die Waage sagt Ihnen, dass Sie vier Kilo leichter sind. Sie sagt Ihnen nicht, **wovon**. Genau das entscheidet aber darüber, ob die nächsten vier Kilo genauso leicht fallen oder ob der Stoffwechsel langsam dichtmacht.\n\nDeshalb beginnt dieser Leitfaden nicht mit Apps, sondern mit der **Genauigkeitsleiter**: welches Verfahren was kann, und wofür eine App überhaupt zuständig ist.\n\n![Eine Zahl auf der Waage sagt nicht, was weg ist](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_004.jpg)\n\n## Zuerst: die Genauigkeitsleiter\n\n**Stufe 1 — DXA.** Der Referenzstandard. Im medizinischen Umfeld, mit Termin, nicht wöchentlich.\n\n**Stufe 2 — professionelle BIA** (InBody und vergleichbare Mehrfrequenzgeräte im Studio). Reproduzierbar genug, um einen Trend über Monate zu lesen.\n\n**Stufe 3 — Körperfettwaage und Smartwatch-BIA.** Der absolute Wert kann daneben liegen. Die **Richtung** über Wochen ist brauchbar, wenn die Bedingungen gleich bleiben.\n\n**Stufe 4 — Schätzung aus Maßen und Protokoll.** Kein Messgerät. Dafür jeden Tag verfügbar und kostenlos.\n\n**Die entscheidende Einsicht:** Oberhalb von Stufe 2 messen Sie selten. Was Sie täglich sehen, ist Stufe 3 oder 4 — und dort ist nicht die Nachkommastelle das Problem, sondern dass niemand Ihnen sagt, was Sie mit der Kurve anfangen sollen.\n\n## Warum Körperzusammensetzung statt Gewicht\n\nZwei Menschen verlieren vier Kilo. Bei dem einen sind es überwiegend Fett, bei dem anderen ein erheblicher Anteil fettfreie Masse. Die Waage zeigt beides identisch an — der weitere Verlauf ist es nicht.\n\nDas ist kein theoretisches Risiko. Gerade unter starker Kalorienrestriktion und unter GLP-1-Therapie ist der Anteil fettfreier Masse am Gewichtsverlust ein eigener Diskussionspunkt in der Literatur — mit je nach Studie und Methode sehr unterschiedlichen Zahlen. Darum misst man es, statt es zu raten.\n\n## HAVIT — der Trend, und etwas, das daran hängt\n\n| | |\n| --- | --- |\n| Anbieter | Havit Inc. |\n| Stufe | 4 (Schätzung), täglich |\n| Erfasst zusätzlich | Mahlzeiten, Trinkmenge, Training, Schlaf, Schritte, Zyklus, Stimmung, GLP-1 |\n\n![Körper-Insights — ein Verlauf, kein Urteil](/blog/havit/shot/feature-body-insights.webp)\n\nHAVIT behauptet nicht, ein DXA zu ersetzen. Es schätzt Körperfett- und Magermasseanteil aus Gewicht, Maßen und Profil und zeigt den **Verlauf** — ausdrücklich als Trend, nicht als Urteil.\n\nDer eigentliche Unterschied liegt darin, **was daran hängt**. Eine Waage und ein Studiotermin geben Ihnen eine Zahl und sonst nichts. Bei HAVIT liegt dieselbe Kurve neben acht weiteren Protokollen, und der **KI-Coach liest sie zusammen**.\n\n![Der KI-Coach macht aus dem Verlauf eine Handlung](/blog/havit/shot/feature-ai-coach.webp)\n\nDas ist der Punkt, an dem aus Messen Handeln wird: Geht die Magermasse-Schätzung nach unten, während die Eiweißzufuhr seit zwei Wochen zu niedrig liegt und der Schlaf kurz ist, ist das **ein** Befund und nicht drei Apps, die nichts voneinander wissen.\n\nDazu, in derselben App: **KI-Food-Scan** für Selbstgekochtes, **Tagesmissionen**, **tägliches Check-in**, **sechs geführte Meditationen**, **Trainingsvideos**, **Fasten**, **Zyklusverfolgung**, **GLP-1-Protokoll**, **über 1.400 Artikel**, Serien, Abzeichen, Ränge und Team-Challenges. Entwickelt mit Fachleuten, die von Juvis Diet kommen.\n\n**Ehrlich gesagt**: Wollen Sie eine Messung, der Sie auf das Prozent vertrauen, gehen Sie zu Stufe 2. HAVIT ist dafür da, dass die tägliche Kurve etwas auslöst.\n\n## InBody — die am besten verfügbare Stufe 2\n\nIn Deutschland steht ein InBody oder ein vergleichbares Mehrfrequenzgerät in vielen Fitnessstudios und bei Ernährungsberatungen — oft inklusive oder gegen kleinen Aufpreis.\n\n**Was es gut macht.** Reproduzierbar genug für einen echten Monatsvergleich, mit segmentaler Auswertung.\n\n**Wo es schwächelt.** Sie messen alle vier bis acht Wochen. Zwischen zwei Terminen passiert das, was tatsächlich über das Ergebnis entscheidet — und darüber sagt der Ausdruck nichts.\n\n**So nutzen Sie es richtig.** Als Kalibrierung: alle zwei Monate InBody, täglich eine Stufe-3- oder Stufe-4-Kurve. Driften beide auseinander, hat die tägliche Kurve ein Bedingungsproblem.\n\n## Smartwatch-BIA und Körperfettwaagen\n\nSamsung Galaxy Watch und vergleichbare Uhren messen BIA am Handgelenk; Körperfettwaagen messen über die Füße. Beide sind Stufe 3.\n\n**Was sie gut machen.** Tägliche Datenpunkte ohne Aufwand. Withings, Garmin und Renpho sind in Deutschland breit verfügbar, und bei europäischen Anbietern ist der Serverstandort für viele ein eigenes Argument.\n\n**Wo sie schwächeln.** Der absolute Wert schwankt mit Hydration, Tageszeit und Hautkontakt. Und wieder: Die App zeigt die Kurve, zieht daraus aber keine Konsequenz.\n\n![Gleiche Bedingungen, sonst sagt der Vergleich nichts](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_005.jpg)\n\n## Gegenüberstellung\n\n| Verfahren | Stufe | Häufigkeit | Was daran hängt |\n| --- | --- | --- | --- |\n| DXA | 1 | Selten | Nichts |\n| InBody im Studio | 2 | Alle 4–8 Wochen | Ausdruck |\n| Smartwatch / Körperfettwaage | 3 | Täglich | Kurve in der App |\n| **HAVIT** | 4 (Schätzung) | **Täglich** | **KI-Coach liest es mit acht weiteren Protokollen** |\n\nStand Oktober 2026.\n\n## Ihre eigenen Zahlen ehrlich lesen\n\n1. **Immer unter gleichen Bedingungen messen** — morgens, nüchtern, vor dem Trinken, nach der Toilette. Sonst messen Sie Ihren Wasserhaushalt.\n2. **Den Einzelwert ignorieren, den Verlauf über vier Wochen lesen.** Ein Tagessprung ist Rauschen.\n3. **Verfahren nicht mischen.** Studiogerät mit Studiogerät vergleichen, App mit App.\n4. **Stimmt die Richtung nicht, Eiweiß, Krafttraining und Schlaf prüfen** — nicht noch weiter beim Essen kürzen.\n\n[HAVIT ausprobieren →](https://www.aihavit.com/)\n",
+      "title": "Körperzusammensetzung per App 2026: 6 Apps im Vergleich – InBody, Waage, Smartwatch und Schätzung ohne Gerät",
+      "short_title": "Körperanalyse-Apps 2026 im Vergleich",
+      "meta_description": "HAVIT, InBody, Withings, RENPHO Health, Zepp Life und Samsung Health im Vergleich: der Unterschied zwischen DXA, BIA und Schätzung ohne Gerät, welches Gerät Sie brauchen und was kostenlos ist. Stand Oktober 2026.",
+      "tldr": "Abgesehen von DXA sind auch die Körperfettwerte von InBody, Waage und Smartwatch Schätzungen aus dem elektrischen Widerstand. Für exakte Werte brauchen Sie DXA oder ein professionelles BIA-Gerät, mit eigenem Gerät die App des Herstellers, und ohne Gerät eine App mit kostenloser Schätzung und KI-Coach. In jedem Fall zählt der Verlauf aus mehreren Messungen mit demselben Gerät unter gleichen Bedingungen.",
+      "body_md": "Die InBody-Messung im Studio zeigt zwei Prozentpunkte weniger Körperfett als im Vormonat. Am nächsten Morgen meldet die Körperfettwaage zu Hause das Gegenteil. Ist eines der beiden Geräte kaputt?\n\nMeistens nicht. **Abgesehen von einer DXA-Untersuchung sind alle Körperfettwerte, die Sie im Alltag sehen, berechnete Schätzungen.** InBody-Geräte, Körperfettwaagen und Smartwatches schicken einen schwachen Strom durch den Körper, messen den elektrischen Widerstand (die Impedanz) und setzen diesen Wert zusammen mit Größe, Gewicht, Geschlecht und Alter in eine Formel ein. Das Verfahren heißt **bioelektrische Impedanzanalyse (BIA)**. Weil jeder Hersteller eine eigene Formel und andere Elektroden verwendet, liefern zwei Geräte am selben Tag unterschiedliche Zahlen.\n\nDieser Ratgeber ordnet die Verfahren nach Genauigkeit und stellt danach sechs Apps vor, die in Deutschland verbreitet sind. Bewertungen und Funktionsumfang stammen aus den Beschreibungen im deutschen App Store (Stand 24. Oktober 2026). Preise nennen wir nicht, weil sie sich oft ändern.\n\nHAVIT ist die App des Teams, das diesen Artikel schreibt. Entwickelt wurde sie von **Fachleuten, die von Juvis kommen**, einer koreanischen Marke für betreutes Abnehmen. Deshalb legen wir offen, was die Körperwerte in HAVIT sind und was nicht, und nennen auch die Fälle, in denen eine andere App besser passt.\n\n![Eine Zahl auf der Waage sagt nicht, was weg ist](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_004.jpg)\n\n## Kurz: Welche Lösung passt zu Ihnen?\n\n| Ihre Situation | Passende Lösung | Warum |\n| --- | --- | --- |\n| Sie brauchen exakte Werte für Arzt oder Studie | **DXA-Untersuchung** | Das Referenzverfahren der Forschung. Keine App kann es ersetzen |\n| Sie messen regelmäßig an einem InBody-Gerät im Studio oder in der Praxis | InBody-App | Offizielle App des Herstellers, zeigt die Werte Ihres InBody-Checks |\n| Sie haben eine Withings-Waage oder möchten eine kaufen | Withings-App | Gewicht und Körperzusammensetzung, dazu Schlaf, Aktivität und Blutdruck mit Withings-Geräten |\n| Sie haben eine Renpho-Waage | RENPHO Health | App zur Renpho-Waage, mehrere Körperwerte und Familienprofile |\n| Sie haben eine Xiaomi-Körperanalysewaage | Zepp Life | Koppelt Mi-Waage und Mi Band in einer App |\n| Sie tragen eine Galaxy Watch und nutzen ein Android-Handy | Samsung Health | BIA-Sensor am Handgelenk (die iPhone-App listet die Galaxy Watch nicht als kompatibel) |\n| Sie haben kein Messgerät und wollen Trend und nächsten Schritt sehen | **HAVIT** | Kostenlose Schätzung der Körperzusammensetzung und ein KI-Coach, der alle Einträge mitliest |\n| Sie nehmen ein GLP-1-Medikament (z. B. Wegovy, Ozempic, Mounjaro) | **HAVIT** | Dosis, Nebenwirkungen, Eiweiß und geschätzte Körperzusammensetzung in einer App |\n\n## Vier Wege zur Körperzusammensetzung\n\nSortiert von genau nach bequem. Je weiter unten, desto einfacher im Alltag und desto mehr Gründe, warum der Wert schwanken kann.\n\n| Verfahren | Prinzip | Typische Geräte und Apps | Was den Wert verschiebt |\n| --- | --- | --- | --- |\n| 1. DXA | Schwache Röntgenstrahlung trennt Fett, fettfreie Masse und Knochen. Referenzverfahren der Forschung | Geräte in Klinik und Forschung | Vergleichsweise wenig |\n| 2. Professionelles BIA-Gerät | **Schätzung per BIA.** Elektroden an Händen und Füßen, mehrere Frequenzen | InBody im Studio oder in der Praxis | Wasserhaushalt, Essen, Training, Tageszeit |\n| 3. BIA für zu Hause | **Schätzung per BIA.** Waage oder Smartwatch | Withings-, Renpho- und Xiaomi-Waagen, Galaxy Watch | Alles aus Stufe 2, dazu trockene Haut, Haltung, Kontakt der Elektroden |\n| 4. Schätzung in der App ohne Gerät | Ein Modell schätzt aus Ihren Angaben | HAVIT | Genauigkeit der Angaben, Annahmen des Modells |\n\n**Auch Stufe 2 und 3 „messen“ das Körperfett nicht, sie schätzen es.** Gemessen wird der Widerstand; der Körperfettanteil ist das Ergebnis einer Formel. Nutzlos sind die Geräte deshalb nicht. Das zeigen Studien:\n\n- **InBody im Vergleich zu DXA**: In einer Studie mit 67 Erwachsenen, die an zwei Tagen gemessen wurden, lieferten drei InBody-Modelle bei Wiederholung nahezu dieselben Werte (Standardmessfehler beim Körperfettanteil 0,77 bis 0,99 Prozentpunkte). Alle drei Modelle wiesen aber gegenüber DXA eine gleichbleibende Verzerrung auf: **Körperfett zu niedrig, fettfreie Masse zu hoch**. Die Autoren halten die Geräte für eine brauchbare Alternative, wenn kein DXA verfügbar ist, sofern man diese Verzerrung kennt (McLester 2020).\n- **Smartwatch-BIA im Vergleich zu DXA**: In einer Studie mit 75 Personen lag die fettfreie Masse der Uhr sehr nah an einem 8-Elektroden-BIA-Gerät aus der Forschung, wich aber deutlich von DXA ab (eine Abweichung, die sich korrigieren lässt). Außerdem war die Uhr bei Wiederholungsmessungen weniger präzise als DXA: **Um eine Veränderung so sicher zu erkennen wie mit DXA, braucht es mehr Messungen** (Bennett 2022).\n\nKurz gesagt: Geräte für zu Hause beantworten weniger die Frage „Wie hoch ist mein Körperfettanteil genau?“ als die Frage „In welche Richtung bewegt er sich, wenn ich immer mit demselben Gerät messe?“. Und auch diese Richtung ist erst verlässlich, wenn man mehrere Messungen zusammen betrachtet.\n\n## Warum Körperzusammensetzung statt Gewicht – besonders unter GLP-1\n\nDas Gewicht schwankt mit Wasser, Glykogen, Salz und Zyklus schon innerhalb eines Tages. Und es verrät nicht, ob Fett oder Muskulatur verschwunden ist.\n\nWer ein **GLP-1-Medikament (etwa Wegovy, Ozempic, Mounjaro oder Zepbound)** nimmt, sollte diese Frage ernster nehmen. Allerdings gehören beide Seiten der Studienlage dazu. Laut einer Übersichtsarbeit machte die fettfreie Masse am verlorenen Gewicht **in manchen Studien 40 bis 60 Prozent aus, in anderen etwa 15 Prozent oder weniger**. Außerdem ist **fettfreie Masse nicht dasselbe wie Muskulatur**: Dazu zählen auch Organe, Knochen, Körperwasser und das Wasser im Fettgewebe. Studien, die Muskeln per MRT direkt untersucht haben, fanden einen Muskelverlust, der angesichts von Alter, Erkrankung und Ausmaß der Abnahme zu erwarten war. Bei älteren Menschen und erhöhtem Risiko für Muskelabbau raten die Autoren dennoch zur Vorsicht (Neeland 2024).\n\nUnter GLP-1 lohnt es sich daher, nicht nur das Gewicht zu verfolgen, sondern **getrennt zu sehen, wie sich Fett- und fettfreie Masse entwickeln** und ob Eiweiß und Krafttraining in dieser Zeit gestimmt haben.\n\n## Vor der Wahl: vier Fragen\n\n**1. Was wollen Sie wissen?** „Wie hoch ist mein Körperfettanteil?“ ist eine Frage für DXA oder ein professionelles BIA-Gerät. „Verliere ich gerade Fett?“ lässt sich auch mit regelmäßigen Messungen am selben Gerät oder mit einer Schätzung ohne Gerät beantworten.\n\n**2. Welches Gerät haben Sie?** Die meisten Apps gehören zu einem bestimmten Gerät: die Withings-App zu Withings-Waagen, RENPHO Health zur Renpho-Waage, Zepp Life zu Xiaomi-Geräten, die Körperanalyse in Samsung Health zur Galaxy Watch. Ohne Gerät bleibt eine App, die ohne Hardware schätzt.\n\n**3. Können Sie immer unter gleichen Bedingungen messen?** BIA reagiert empfindlich auf die Umstände. Samsung empfiehlt für die Galaxy Watch, morgens vor dem Frühstück, nach dem Toilettengang und vor Sport oder Dusche zu messen und dabei immer dieselben Finger zu verwenden (Samsung-Support). Wählen Sie ein Gerät, bei dem Sie diese Routine durchhalten.\n\n**4. Was passiert nach der Zahl?** Die Körperzusammensetzung ist ein Ergebnis. Ob Sie bei sinkender fettfreier Masse am Eiweiß, am Krafttraining oder am Abnehmtempo ansetzen, sehen Sie erst zusammen mit Ernährungs- und Trainingsprotokoll. Prüfen Sie, ob eine App nur Zahlen zeigt oder diese mit Ihren übrigen Einträgen verbindet.\n\n## HAVIT – Schätzung ohne Gerät, verbunden mit einem KI-Coach\n\n| | |\n| --- | --- |\n| Anbieter | Havit Inc. |\n| Entwickelt von | Fachleuten, die von Juvis kommen (koreanische Marke für betreutes Abnehmen) |\n| Körperzusammensetzung | Schätzung ohne Gerät (kostenlos), keine medizinische Messung |\n| Genauigkeit | Interner Vergleich (70 Personen): in 92,9 % der Fälle innerhalb von ±5 Prozentpunkten des InBody-Werts |\n| KI-Coach | HAVI – liest alle Einträge, schlägt eine Handlung für heute vor, versteht auch Fotos |\n| Kostenlos | Mahlzeiten erfassen (Suche, manuelle Eingabe) mit Kalorien pro Mahlzeit; Gewicht, Trinkmenge, Schlaf, Schritte, Fasten, Stimmung, Zyklus und GLP-1; Schätzung der Körperzusammensetzung; Chat mit dem KI-Coach (mit Tageslimit) |\n| HAVIT Premium | Kohlenhydrate, Eiweiß und Fett pro Mahlzeit und Tag, verbleibende Kalorien, KI-Food-Scan, unbegrenzter Coach-Chat, tägliches Check-in, Trainingsvideos, geführte Meditationen und Artikel |\n| App Store | US-Wert 4,7 (159 Bewertungen); im deutschen App Store noch zu wenige Bewertungen |\n\nDie Aufteilung zwischen kostenlos und Premium entspricht der Standardeinstellung der App im Oktober 2026. Über Aktionen können einzelne Premium-Funktionen zeitweise kostenlos sein.\n\n![Körper-Insights – Fett und fettfreie Masse als Verlauf, nicht als Urteil](/blog/havit/shot/feature-body-insights.webp)\n\n**Vorweg ganz klar: Die Körperwerte in HAVIT sind Schätzungen, keine Messungen.** Es ist Stufe 4 aus der Tabelle oben. HAVIT hat keinen Sensor, der Körperfett misst, und die Werte eignen sich nicht für Diagnose oder Therapieentscheidungen. Dafür nennen wir die Genauigkeit als Zahl: In einem [internen Vergleich mit 70 Personen](/de/havit-ai-body-composition-92percent-vs-inbody) lag die HAVIT-Schätzung in **92,9 % der Fälle innerhalb von ±5 Prozentpunkten** des InBody-Werts derselben Person. Das ist ein eigener Vergleich, keine externe Validierung, und die Referenz war InBody, nicht DXA.\n\n**Der Vorteil: kein Gerät nötig, und kostenlos.** Ohne Körperfettwaage oder Uhr sehen Sie, in welche Richtung sich Fett und fettfreie Masse bewegen.\n\n### KI-Coach HAVI – aus dem Trend wird eine Aufgabe für heute\n\nDie meisten Körperanalyse-Apps enden bei Zahl und Diagramm. Im Mittelpunkt von HAVIT steht der **KI-Coach HAVI**, der diese Zahlen zusammen mit Ihren anderen Einträgen liest.\n\n![KI-Coach – liest den Verlauf und macht daraus eine Handlung für heute](/blog/havit/shot/feature-ai-coach.webp)\n\n**Am Anfang steht ein Gespräch.** HAVI fragt nach Ihrem Ziel, ob Sie ein GLP-1-Medikament nehmen und welche Nebenwirkungen Sie haben, nach Größe, Gewicht und weiteren Körperdaten. Daraus entstehen ein **Body Blueprint**, der Ihren aktuellen Stand zusammenfasst, und ein Zielplan.\n\n**Im Alltag liest HAVI alles mit.** Mahlzeiten, Trinkmenge, Training, Schlaf, Schritte, Fasten, Zyklus, Stimmung und GLP-1 liegen in einer App. Deshalb sieht der Coach nicht nur den Trend der Körperwerte, sondern auch den Alltag dahinter. Sinkt in einer Woche das Gewicht und zugleich die geschätzte fettfreie Masse, prüft HAVI etwa, ob Sie an vielen Tagen das Eiweißziel verfehlt haben oder ob das Training ausgefallen ist, und schlägt **zuerst eine Sache** vor, die Sie ändern können.\n\n**Fragen stellen Sie direkt.** Was essen am Tag der Injektion, was im Restaurant bestellen, wie mit einem Plateau umgehen: Sie fragen im Chat und können **auch ein Foto schicken**. Kostenlos gilt ein Tageslimit für Nachrichten, mit HAVIT Premium ist der Chat unbegrenzt.\n\n**Unter GLP-1** stehen Dosis, Nebenwirkungen und Mahlzeiten neben der Schätzung der Körperzusammensetzung. Sinkt die fettfreie Masse, sehen Sie in derselben App, was Sie in dieser Woche gegessen haben und wie es Ihnen ging.\n\n### Entwickelt von Fachleuten, die von Juvis kommen\n\nHAVIT wurde von **Fachleuten entwickelt, die von Juvis kommen**. Juvis ist eine koreanische Marke, bei der Coaches die Ernährung und den Alltag ihrer Kundinnen und Kunden persönlich begleitet haben. Aus dieser Arbeit stammt ein Grundsatz von HAVIT: **auf die Zusammensetzung des Körpers schauen, nicht nur auf das Gewicht**. Wer zu schnell abnimmt, verliert auch Muskulatur und nimmt leichter wieder zu. Deshalb zeigt HAVIT den Verlauf von Fett und fettfreier Masse und stellt Eiweiß und Krafttraining ins Zentrum von Coaching und Missionen.\n\nDas 12-Wochen-Programm ist in 12 Etappen gegliedert, jede mit konkreten Missionen wie Schritten oder Eiweiß. Ob eine Mission erfüllt ist, entscheidet nicht ein „Erledigt“-Knopf, sondern Ihre erfassten Daten zu Mahlzeiten und Schritten.\n\n### Wann HAVIT nicht die beste Wahl ist\n\nBrauchen Sie **einen exakten Körperfettwert**, führt kein Weg an DXA oder einem professionellen BIA-Gerät vorbei. Haben Sie **schon eine Withings-, Renpho- oder Xiaomi-Waage** und wollen genau deren Werte sehen, ist die App des Herstellers die naheliegende Wahl. Wer **Blutdruck oder EKG** mit verfolgen möchte, findet das bei Withings mit passenden Geräten. Und: Die Aufschlüsselung in Kohlenhydrate, Eiweiß und Fett, das tägliche Check-in und die Trainingsvideos gehören zu HAVIT Premium.\n\n**Für wen**: Für alle, die ohne Messgerät sehen wollen, wohin sich Fett und fettfreie Masse bewegen; die wissen wollen, was sie als Nächstes ändern sollen; die unter GLP-1 Sorge um ihre Muskulatur haben.\n\n## InBody-App – die offizielle App zum InBody-Check\n\n| | |\n| --- | --- |\n| Anbieter | InBody Co., Ltd. |\n| App Store (Deutschland) | 4,4 (408 Bewertungen) |\n| Kosten | Kostenlos |\n| Verfahren | Stufe 2 (professionelle BIA am InBody-Gerät) |\n\n![Nur gleiche Bedingungen machen Werte vergleichbar](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_005.jpg)\n\n**Was sie gut macht.** Die App zeigt die Ergebnisse Ihres InBody-Checks im Überblick, inklusive segmentaler Auswertung (etwa muskuläre Ungleichgewichte oder Wassereinlagerungen), erklärt die wichtigsten Messwerte und gibt laut Beschreibung Ernährungsempfehlungen auf Basis Ihrer Daten. Eine Suche zeigt Einrichtungen mit InBody-Gerät in Ihrer Nähe, Schritte und Körperdaten lassen sich mit Apple Health synchronisieren. Studien zeigen, dass InBody-Geräte bei Wiederholung stabile Werte liefern (McLester 2020).\n\n**Wo sie schwächelt.** Gemessen wird dort, wo das Gerät steht, also eher alle paar Wochen als täglich. Gegenüber DXA schätzt InBody das Körperfett systematisch zu niedrig ein; mischen Sie die Werte deshalb nicht mit denen anderer Geräte. Die App weist selbst darauf hin, dass sie nicht für Diagnose oder Behandlung gedacht ist.\n\n**Für wen**: Für alle, die regelmäßig im Studio oder in der Praxis am InBody messen und die Ergebnisse auf dem Handy verfolgen wollen.\n\n## Withings – Waage, Uhr und Blutdruck in einer App\n\n| | |\n| --- | --- |\n| Anbieter | Withings |\n| App Store (Deutschland) | 4,4 (141.730 Bewertungen) |\n| Kosten | Kostenlos, Withings-Gerät nötig; Abo Withings+ optional |\n| Verfahren | Stufe 3 (BIA über die Waage) |\n\n**Was sie gut macht.** Die App führt die Daten aller Withings-Geräte zusammen: Gewicht und Körperzusammensetzung, Aktivität, Schlaf, Blutdruck und Zyklus, laut Beschreibung auch Ernährungstracking. Mehrere Profile erlauben es, den ganzen Haushalt zu erfassen, und Berichte lassen sich mit der Ärztin oder dem Arzt teilen. Apple Health, Strava und MyFitnessPal lassen sich verbinden. Das Abo Withings+ ergänzt KI-gestützte Auswertungen und Coaching.\n\n**Wo sie schwächelt.** Auch Körperfettwaagen schätzen per BIA. Der absolute Wert ist weniger aussagekräftig als die Richtung über mehrere Messungen unter gleichen Bedingungen. Ohne Withings-Waage gibt es keine Körperanalyse.\n\n**Für wen**: Für alle, die eine Withings-Waage haben oder Gewicht, Körperzusammensetzung und Blutdruck in einem System sehen wollen.\n\n## RENPHO Health – App zur Renpho-Waage\n\n| | |\n| --- | --- |\n| Anbieter | Joicom Corporation |\n| App Store (Deutschland) | 4,4 (1.276 Bewertungen) |\n| Kosten | Kostenlos, Renpho-Waage nötig |\n| Verfahren | Stufe 3 (BIA über die Waage) |\n\n**Was sie gut macht.** Laut Beschreibung verfolgt die App mehrere Körperwerte, darunter BMI, Körperfettanteil, Körperwasser, Knochenmasse, Grundumsatz, Körperalter und Muskelmasse, und erstellt daraus Diagramme und Berichte. Mehrere Profile halten die Daten der Familie getrennt. Körperfettanteil, BMI und fettfreie Masse lassen sich mit Apple Health synchronisieren.\n\n**Wo sie schwächelt.** Die Beschreibung im deutschen App Store ist nur auf Englisch. Wie bei jeder Waage gilt: Es ist eine BIA-Schätzung, deren Richtung aussagekräftiger ist als der Einzelwert. Ein Ernährungsprotokoll ist in der Beschreibung nicht erwähnt.\n\n**Für wen**: Für alle, die eine Renpho-Waage nutzen und die Werte der ganzen Familie in einer App sehen wollen.\n\n## Zepp Life – für Xiaomi-Waage und Mi Band\n\n| | |\n| --- | --- |\n| Anbieter | Zepp Inc. |\n| App Store (Deutschland) | 4,0 (12.658 Bewertungen) |\n| Kosten | Kostenlos, Xiaomi-Gerät nötig |\n| Verfahren | Stufe 3 (BIA über die Waage) |\n\n**Was sie gut macht.** Zepp Life koppelt die Mi-Körperanalysewaage, die Mi-Waage, das Mi Band und weitere Geräte. Mit der Körperanalysewaage zeichnet die App laut Beschreibung zehn Körperwerte auf. Mit dem Band kommen Schritte, Training und Schlaf in dieselbe App, Daten gehen an Apple Health.\n\n**Wo sie schwächelt.** Auch hier ist der Körperfettwert eine BIA-Schätzung. Ein Ernährungsprotokoll ist in der Beschreibung nicht erwähnt.\n\n**Für wen**: Für alle, die mit einer Xiaomi-Waage jeden Morgen den Trend verfolgen wollen.\n\n## Samsung Health – BIA am Handgelenk\n\n| | |\n| --- | --- |\n| Anbieter | Samsung Electronics Co., Ltd. |\n| App Store (Deutschland) | 4,4 (17.599 Bewertungen) |\n| Kosten | Kostenlos (Körperanalyse nur mit Galaxy Watch mit BIA-Sensor) |\n| Verfahren | Stufe 3 (BIA an der Uhr) |\n\n**Was sie gut macht.** Mit der Uhr am Handgelenk legen Sie Mittel- und Ringfinger der anderen Hand auf die Tasten der Uhr; nach wenigen Sekunden erscheinen Körperfettanteil, Körperwasser und Skelettmuskelmasse (Samsung-Support). Sie müssen nirgends hin, und weil Sie die Uhr ohnehin tragen, stehen die Werte neben Training und Schlaf. Laut einer Studie lag die fettfreie Masse der Uhr sehr nah an einem BIA-Gerät aus der Forschung (Bennett 2022).\n\n**Wo sie schwächelt.** In derselben Studie war die Uhr bei Wiederholungsmessungen weniger präzise als DXA; für eine sichere Aussage über Veränderungen braucht es mehrere Messungen. Samsung rät von der Messung in der Schwangerschaft, während der Periode und mit implantierten elektronischen Geräten wie Herzschrittmachern ab. Wichtig für iPhone-Nutzer: Die Liste kompatibler Geräte in der Beschreibung der iOS-App enthält keine aktuelle Galaxy Watch mit BIA-Sensor.\n\n**Für wen**: Für alle, die mit einem Android-Handy bereits eine Galaxy Watch mit BIA-Sensor tragen.\n\n## Gegenüberstellung\n\n| App | Verfahren | Nötiges Gerät | Täglicher Verlauf | Zusammen mit Ernährung | Kosten |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | Schätzung ohne Gerät (Stufe 4) | **Keines** | Ja | **Ja (KI-Coach liest mit)** | Körperanalyse kostenlos + Premium |\n| InBody | Professionelle BIA (Stufe 2) | InBody-Gerät in Studio/Praxis | Nein, je nach Termin | Ernährungsempfehlungen | Kostenlos |\n| Withings | Waagen-BIA (Stufe 3) | Withings-Waage | Ja | Ernährungstracking laut Beschreibung | Kostenlos + Gerät, Withings+ optional |\n| RENPHO Health | Waagen-BIA (Stufe 3) | Renpho-Waage | Ja | Nicht in der Beschreibung | Kostenlos + Gerät |\n| Zepp Life | Waagen-BIA (Stufe 3) | Mi-Körperanalysewaage | Ja | Nicht in der Beschreibung | Kostenlos + Gerät |\n| Samsung Health | Uhren-BIA (Stufe 3) | Galaxy Watch mit BIA-Sensor | Ja | Nicht in der Beschreibung der iOS-App | Kostenlos + Gerät |\n\nStand: Beschreibungen im deutschen App Store, 24. Oktober 2026. Stufe 2 und 3 (BIA) sowie Stufe 4 (Schätzung ohne Gerät) liefern Schätzwerte; das Referenzverfahren ist DXA.\n\n## So lesen Sie Ihre eigenen Werte\n\n- **Vergleichen Sie nur Werte desselben Geräts.** InBody, Waage und Uhr rechnen mit unterschiedlichen Formeln. Wer die Zahlen mischt, sieht den Unterschied zwischen Geräten, nicht die eigene Veränderung.\n- **Messen Sie unter gleichen Bedingungen.** Morgens vor dem Frühstück, nach dem Toilettengang, vor Sport und Dusche, jedes Mal gleich (Samsung-Support).\n- **Achten Sie auf den Verlauf, nicht auf den Einzelwert.** BIA zu Hause ist bei Wiederholung weniger präzise als DXA; ein einzelner Ausreißer sagt wenig (Bennett 2022).\n- **Schauen Sie auf zwei Zahlen statt auf eine.** Sinkt die Fettmasse und bleibt die fettfreie Masse stabil, ist das ein gutes Zeichen. Sinken beide, ist es Zeit, Eiweiß und Krafttraining zu prüfen.\n- **Setzen Sie ab und zu einen Referenzpunkt.** Gelegentlich am professionellen Gerät messen und dazwischen mit Waage oder App-Schätzung verfolgen: So verbinden Sie Genauigkeit und Alltagstauglichkeit.\n- **Wenn die Zahlen Stress machen, messen Sie seltener.** Die Körperzusammensetzung muss niemand täglich kennen.\n\n## Fazit\n\nWählen Sie eine Körperanalyse-App danach, **was Sie wissen wollen**. Für einen exakten Körperfettwert brauchen Sie DXA oder ein professionelles BIA-Gerät. Haben Sie bereits ein Gerät, ist dessen App die richtige Wahl: Withings, RENPHO Health, Zepp Life oder Samsung Health mit Galaxy Watch.\n\nHaben Sie kein Gerät und möchten sehen, wohin sich Fett und fettfreie Masse bewegen und was Sie als Nächstes ändern sollten, ist HAVIT eine Option. Die Körperwerte in HAVIT sind Schätzungen, keine medizinische Messung, aber kostenlos, und der KI-Coach HAVI liest sie zusammen mit Ernährung, Training, Schlaf und GLP-1 und schlägt vor, was heute zu tun ist.\n\n[HAVIT ausprobieren →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Stufen der Genauigkeitsleiter",
-          "value": "4",
-          "source": "DXA → professionelle BIA → Waage/Smartwatch → Schätzung"
+          "label": "Messfehler von InBody-Geräten bei Wiederholung (Körperfettanteil)",
+          "value": "0,77–0,99 Prozentpunkte, aber Körperfett niedriger als bei DXA",
+          "source": "McLester et al. 2020, J Clin Densitom (67 Erwachsene)"
         },
         {
-          "label": "Typischer Abstand zwischen InBody-Messungen",
-          "value": "4–8 Wochen",
-          "source": "Studio- und Beratungspraxis"
+          "label": "Präzision von Smartwatch-BIA",
+          "value": "Geringer als DXA – für Veränderungen sind mehrere Messungen nötig",
+          "source": "Bennett et al. 2022, Am J Clin Nutr (75 Personen)"
         },
         {
-          "label": "Zeitraum, über den eine Kurve lesbar wird",
-          "value": "4 Wochen",
-          "source": "Einzelwerte sind Rauschen"
+          "label": "Anteil fettfreier Masse am Gewichtsverlust unter GLP-1",
+          "value": "Je nach Studie 40–60 % oder etwa 15 % und weniger (fettfreie Masse ≠ Muskulatur)",
+          "source": "Neeland et al. 2024, Diabetes Obes Metab"
         },
         {
-          "label": "Protokolle, die HAVIT neben dem Verlauf liest",
-          "value": "8",
-          "source": "Mahlzeiten, Trinkmenge, Training, Schlaf, Schritte, Zyklus, Stimmung, GLP-1"
+          "label": "HAVIT-Schätzung im Vergleich zu InBody",
+          "value": "92,9 % innerhalb von ±5 Prozentpunkten (70 Personen, keine medizinische Messung)",
+          "source": "Interner Vergleich, Havit Inc."
         }
       ],
       "comparison_table": {
         "title": "Gegenüberstellung",
         "headers": [
+          "App",
           "Verfahren",
-          "Stufe",
-          "Häufigkeit",
-          "Was daran hängt"
+          "Nötiges Gerät",
+          "Täglicher Verlauf",
+          "Zusammen mit Ernährung",
+          "Kosten"
         ],
         "rows": [
           [
-            "DXA",
-            "1",
-            "Selten",
-            "Nichts"
-          ],
-          [
-            "InBody im Studio",
-            "2",
-            "Alle 4–8 Wochen",
-            "Ausdruck"
-          ],
-          [
-            "Smartwatch / Körperfettwaage",
-            "3",
-            "Täglich",
-            "Kurve in der App"
-          ],
-          [
             "HAVIT",
-            "4 (Schätzung)",
-            "Täglich",
-            "KI-Coach liest es mit acht weiteren Protokollen"
+            "Schätzung ohne Gerät (Stufe 4)",
+            "Keines",
+            "Ja",
+            "Ja (KI-Coach liest mit)",
+            "Körperanalyse kostenlos + Premium"
+          ],
+          [
+            "InBody",
+            "Professionelle BIA (Stufe 2)",
+            "InBody-Gerät in Studio/Praxis",
+            "Nein, je nach Termin",
+            "Ernährungsempfehlungen",
+            "Kostenlos"
+          ],
+          [
+            "Withings",
+            "Waagen-BIA (Stufe 3)",
+            "Withings-Waage",
+            "Ja",
+            "Ernährungstracking laut Beschreibung",
+            "Kostenlos + Gerät, Withings+ optional"
+          ],
+          [
+            "RENPHO Health",
+            "Waagen-BIA (Stufe 3)",
+            "Renpho-Waage",
+            "Ja",
+            "Nicht in der Beschreibung",
+            "Kostenlos + Gerät"
+          ],
+          [
+            "Zepp Life",
+            "Waagen-BIA (Stufe 3)",
+            "Mi-Körperanalysewaage",
+            "Ja",
+            "Nicht in der Beschreibung",
+            "Kostenlos + Gerät"
+          ],
+          [
+            "Samsung Health",
+            "Uhren-BIA (Stufe 3)",
+            "Galaxy Watch mit BIA-Sensor",
+            "Ja",
+            "Nicht in der Beschreibung der iOS-App",
+            "Kostenlos + Gerät"
           ]
         ],
-        "caption": "Stand Oktober 2026."
+        "caption": "Stand: Beschreibungen im deutschen App Store, 24. Oktober 2026. BIA (Stufe 2 und 3) und Schätzung ohne Gerät (Stufe 4) liefern Schätzwerte; Referenzverfahren ist DXA."
       },
       "faq": [
         {
+          "question": "Welche App ist die beste für die Körperzusammensetzung?",
+          "answer": "Das hängt davon ab, was Sie wissen wollen und welches Gerät Sie haben. Für einen exakten Körperfettwert brauchen Sie DXA oder ein professionelles BIA-Gerät. Mit Withings-Waage passt die Withings-App, mit Renpho-Waage RENPHO Health, mit Xiaomi-Waage Zepp Life, mit Galaxy Watch und Android-Handy Samsung Health. Ohne Gerät, wenn Sie Richtung und nächsten Schritt sehen wollen, ist HAVIT mit kostenloser Schätzung und KI-Coach eine Option."
+        },
+        {
+          "question": "Misst ein InBody-Gerät die Körperzusammensetzung direkt?",
+          "answer": "Direkt gemessen wird der elektrische Widerstand des Körpers. Der Körperfettanteil ergibt sich, wenn dieser Wert zusammen mit Größe, Gewicht und weiteren Angaben in eine Formel eingesetzt wird (bioelektrische Impedanzanalyse, BIA). InBody-Geräte liefern bei Wiederholung stabile Werte, schätzen im Vergleich zu DXA das Körperfett aber systematisch zu niedrig und die fettfreie Masse zu hoch (McLester 2020). Vergleichen Sie die Werte deshalb nicht mit denen anderer Geräte."
+        },
+        {
+          "question": "Kann eine App den Körperfettanteil ohne Gerät bestimmen?",
+          "answer": "Sie misst ihn nicht, sie schätzt ihn. Die Schätzung von HAVIT lag in einem internen Vergleich mit 70 Personen in 92,9 % der Fälle innerhalb von ±5 Prozentpunkten des InBody-Werts derselben Person. Das ist keine externe Validierung und keine medizinische Messung; nutzen Sie die Werte, um die Richtung von Fett und fettfreier Masse zu verfolgen."
+        },
+        {
           "question": "Wie genau sind Körperfettwaagen und Smartwatches?",
-          "answer": "Der absolute Wert kann deutlich danebenliegen — er schwankt mit Hydration, Tageszeit und Hautkontakt. Die Richtung über vier Wochen ist brauchbar, sofern Sie immer unter gleichen Bedingungen messen: morgens, nüchtern, vor dem Trinken."
+          "answer": "In einer Studie lag die fettfreie Masse einer Smartwatch sehr nah an einem BIA-Gerät aus der Forschung, wich aber von DXA ab, und bei Wiederholung war die Uhr weniger präzise als DXA; für Veränderungen braucht es mehrere Messungen (Bennett 2022). Für Waagen gilt dasselbe Prinzip. Messen Sie immer zur gleichen Zeit und unter gleichen Bedingungen, etwa morgens vor dem Frühstück und nach dem Toilettengang."
         },
         {
-          "question": "Brauche ich ein DXA?",
-          "answer": "Für die meisten Ziele nicht. DXA ist der Referenzstandard, aber Sie machen es selten. Entscheidend ist, was Sie zwischen zwei Messungen tun — und dafür reicht eine konsistente tägliche Kurve."
+          "question": "Ich nehme Wegovy oder Mounjaro – warum sollte ich die Körperzusammensetzung verfolgen?",
+          "answer": "Der Anteil fettfreier Masse am Gewichtsverlust unter GLP-1-Medikamenten lag in manchen Studien bei 40 bis 60 Prozent, in anderen bei etwa 15 Prozent oder weniger. Fettfreie Masse umfasst zudem Organe, Knochen und Körperwasser und ist nicht gleichbedeutend mit Muskulatur (Neeland 2024). Achten Sie daher auf die Richtung von Fett- und fettfreier Masse und auf Eiweiß und Krafttraining. In HAVIT stehen die Schätzung der Körperzusammensetzung, Dosis, Nebenwirkungen und Mahlzeiten in einer App."
         },
         {
-          "question": "Kann eine App Körperzusammensetzung ohne Gerät schätzen?",
-          "answer": "Sie schätzt aus Gewicht, Maßen und Profil. Das ersetzt keine Messung und wird in HAVIT ausdrücklich als Trend und nicht als Urteil dargestellt. Der Nutzen liegt darin, dass die Kurve neben acht weiteren Protokollen liegt und der KI-Coach sie zusammen liest."
-        },
-        {
-          "question": "Warum überhaupt Körperzusammensetzung statt Gewicht?",
-          "answer": "Weil zwei Menschen vier Kilo verlieren können und die Zusammensetzung dieses Verlusts völlig verschieden ist. Gerade unter starker Kalorienrestriktion und unter GLP-1-Therapie ist der Anteil fettfreier Masse ein eigener Diskussionspunkt in der Literatur — mit je nach Studie und Methode sehr unterschiedlichen Zahlen."
-        },
-        {
-          "question": "Darf ich Studiomessung und App-Schätzung vergleichen?",
-          "answer": "Nein. Vergleichen Sie Studiogerät mit Studiogerät und App mit App. Driften beide Kurven auseinander, hat meist die tägliche Messung ein Bedingungsproblem."
-        },
-        {
-          "question": "Die Magermasse-Schätzung sinkt — was tun?",
-          "answer": "Zuerst Eiweißzufuhr, Krafttraining und Schlaf prüfen, bevor Sie beim Essen weiter kürzen. Genau dafür ist es nützlich, wenn dieselbe App auch Mahlzeiten, Training und Schlaf kennt."
+          "question": "Wie oft sollte ich messen?",
+          "answer": "Wichtiger als eine feste Zahl sind dasselbe Gerät und gleiche Bedingungen. BIA zu Hause ist weniger präzise als DXA, ein einzelner Ausschlag sagt also wenig; beurteilen Sie den Verlauf mehrerer Messungen. Wenn die Zahlen Sie stressen, messen Sie seltener."
         }
       ],
       "references": [
         {
-          "title": "Misclassification of cardiometabolic health when using BMI categories (Tomiyama et al.)",
-          "source": "International Journal of Obesity, 2016",
-          "url": "https://www.nature.com/articles/ijo201617"
+          "title": "Reliability and Agreement of Various InBody Body Composition Analyzers as Compared to Dual-Energy X-Ray Absorptiometry in Healthy Men and Women (McLester, Nickerson, Kliszczewicz & McLester)",
+          "source": "Journal of Clinical Densitometry, 2020 – 67 Erwachsene; InBody 230/720/770 sehr zuverlässig (Standardmessfehler Körperfettanteil 0,77–0,99 %), aber Körperfett niedriger und fettfreie Masse höher als bei DXA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30472111/"
         },
         {
-          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
-          "source": "Diabetes, Obesity and Metabolism, 2024 – Anteil der fettfreien Masse am Gewichtsverlust liegt zwischen 40–60% in einigen Studien, ≤15% in anderen; fettfreie Masse ≠ Muskeln",
+          "title": "Next-generation smart watches to estimate whole-body composition using bioimpedance analysis: accuracy and precision in a diverse, multiethnic sample (Bennett et al.)",
+          "source": "American Journal of Clinical Nutrition, 2022 – 75 Personen; fettfreie Masse der Uhr ≈ 8-Elektroden-BIA, signifikante, korrigierbare Abweichung zu DXA; geringere Präzision als DXA, mehr Wiederholungsmessungen nötig",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35883219/"
+        },
+        {
+          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland, Linge & Birkenfeld)",
+          "source": "Diabetes, Obesity and Metabolism, 2024 – Anteil fettfreier Masse am Gewichtsverlust 40–60 % in einigen Studien, ≤15 % in anderen; fettfreie Masse ≠ Muskulatur",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (Thema wird aktualisiert); Erwachsene mit BMI ≥30, klinisch durchgeführt",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "Waist circumference as a vital sign in clinical practice (Ross et al.)",
-          "source": "Nature Reviews Endocrinology, 2020",
-          "url": "https://www.nature.com/articles/s41574-019-0310-7"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026 — HAVIT interne Analyse von 1.090 GLP-1-Anwendern",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "How to measure your body composition with Galaxy Watch",
+          "source": "Samsung-Support – BIA-Sensor; morgens vor dem Essen messen; nicht in der Schwangerschaft, während der Periode oder mit implantierten elektronischen Geräten messen; nicht für Diagnosen",
+          "url": "https://www.samsung.com/uk/support/mobile-devices/measure-your-body-composition-with-the-galaxy-watch-series/"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-24"
     },
     "fr": {
       "title": "Meilleures applis de composition corporelle 2026 : l'échelle de précision",
