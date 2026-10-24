@@ -122,7 +122,7 @@ export function withUtm(url, { channel, lang, format }) {
   const u = new URL(url);
   u.searchParams.set('utm_source', channel);
   u.searchParams.set('utm_medium', 'social');
-  u.searchParams.set('utm_campaign', u.pathname.split('/').pop());
+  u.searchParams.set('utm_campaign', u.pathname.split('/').pop() || 'havit_app'); // 앱 소개(홈) 링크는 경로가 비어 있다
   u.searchParams.set('utm_content', `${lang}-${format}`);
   return u.toString();
 }
