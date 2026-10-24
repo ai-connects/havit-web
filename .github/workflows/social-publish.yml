@@ -55,7 +55,7 @@ jobs:
       - name: 발행
         working-directory: apps/social
         run: |
-          for d in $(date -u -d '-1 day' +%F) $(date -u +%F); do [ -d "queue/$d" ] && node publish.mjs "queue/$d" || true; done
+          for d in $(date -u -d '-1 day' +%F) $(date -u +%F) $(date -u -d '+1 day' +%F); do [ -d "queue/$d" ] && node publish.mjs "queue/$d" || true; done
       - name: 큐 올리기
         if: always()
         working-directory: apps/social
