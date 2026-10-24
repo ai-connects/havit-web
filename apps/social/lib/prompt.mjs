@@ -38,6 +38,9 @@ const FORMAT_HINT = {
   lesson_learned: 'Founder voice: one lesson from building a health coach app, tied to this topic.',
 };
 
+// 앱 퀴즈·앱 아티클 공통: 블로그 글이 없으므로 가이드·글 안내 금지, 링크는 하비트 앱 소개 페이지.
+const APP_SOURCE_RULES = ' In "evidence", use as source the journal/organisation name exactly as written in the SOURCE reference (e.g. "American Journal of Clinical Nutrition"), never "HAVIT app article". There is no blog article: never mention a guide, article or "full guide"; the profile link / link goes to the HAVIT app, where there is a new quiz and tip every day.';
+
 export function buildPrompt(entry, source, link) {
   const ch = config('channels');
   const lang = ch.langs[entry.lang];
@@ -49,7 +52,7 @@ export function buildPrompt(entry, source, link) {
     disclaimer: `"${disclaimer}" — place: ${ch.channels[entry.channel].disclaimer}`,
     channel: entry.channel,
     format: entry.format,
-    channel_rules: `${rule}\nFormat guidance: ${FORMAT_HINT[entry.format] || ''}`,
+    channel_rules: `${rule}\nFormat guidance: ${FORMAT_HINT[entry.format] || ''}${source.kind?.startsWith('app_') ? APP_SOURCE_RULES : ''}`,
     segment: entry.segment,
     brand_tag: `#${lang.brand_tag || 'HAVIT'}`,
     swipe: `"${lang.swipe || 'Swipe →'}"`,

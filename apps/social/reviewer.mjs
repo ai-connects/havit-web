@@ -31,7 +31,7 @@ for (const dir of dirs) {
       }));
       const msg = await client.messages.create({
         model: MODEL,
-        max_tokens: 1500,
+        max_tokens: 8000,
         system: SYSTEM.replaceAll('{lang}', d.lang).replaceAll('{channel}', d.channel),
         messages: [{ role: 'user', content: [
           { type: 'text', text: `SOURCE:\n${JSON.stringify(source, null, 1)}\n\nDRAFT:\n${JSON.stringify(draft, null, 1)}` },
@@ -39,7 +39,7 @@ for (const dir of dirs) {
         ] }],
       });
       const t = msg.content.map((c) => c.text || '').join('');
-      review = JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1));
+      try { review = JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1)); } catch { review = null; } // 파싱 실패 = 리뷰 없음 → 사람 검토
     }
     const decision = decide(d, review);
     const out = { ...d, review, decision, approved: decision.status === 'auto_approved', approved_by: decision.status === 'auto_approved' ? `ai-reviewer:${MODEL}` : null };

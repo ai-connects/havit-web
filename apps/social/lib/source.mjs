@@ -46,7 +46,7 @@ function loadAppArticle(slug, lang) {
     steps: (L.action?.items || []).map((i) => `${i.title}: ${i.description}`),
     mission: L.mission, reference: L.reference,
     key_stats: [], faq: [], h2: [],
-    url: `https://www.aihavit.com/blog/${config('channels').langs[lang].route}`,
+    url: 'https://www.aihavit.com/', // 블로그 글 없음 → 하비트 앱 소개(기기 언어로 이동)
     _text: JSON.stringify(L),
   };
 }
@@ -83,7 +83,7 @@ function loadQuiz(slug, lang) {
     faq: [],
     h2: [],
     steps: [],
-    url: `https://www.aihavit.com/blog/${config('channels').langs[lang].route}`,
+    url: 'https://www.aihavit.com/', // 블로그 글 없음 → 하비트 앱 소개(기기 언어로 이동)
     _text: [L.title, L.quiz_text, L.explanation, L.reference].join('\n'),
   };
 }
