@@ -22,12 +22,13 @@ for (const dir of process.argv.slice(2).filter((p) => statSync(p, { throwIfNoEnt
     const { lint: _l, review, decision, images, media, image_qa, approved, approved_by, ...prev } = d;
     const msg = await client.messages.create({
       model: MODEL,
-      max_tokens: 4000,
+      max_tokens: 16000,
       system,
       messages: [{ role: 'user', content: `${user}\n\nYour previous draft:\n${JSON.stringify(prev, null, 1)}\n\nThe reviewer sent it back. Issues:\n${(review.issues || []).join('\n')}\nFix instructions: ${review.fix_instructions || ''}\n\nRewrite the whole draft with these fixed. Same output format.` }],
     });
     const t = msg.content.map((c) => c.text || '').join('');
-    const fixed = JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1));
+    let fixed;
+    try { fixed = JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1)); } catch { console.log(`✏️  고쳐 쓰기 응답 파싱 실패(${msg.stop_reason}) — 건너뜀: ${f}`); continue; }
     // 계획 필드(채널·언어·글·포맷·발행시각 등)와 사진은 그대로 둔다
     const draft = { ...fixed, ...Object.fromEntries(['date', 'channel', 'lang', 'slug', 'format', 'segment', 'publish_at', 'share', 'link', 'photo'].filter((k) => k in d).map((k) => [k, d[k]])) };
     const result = lint(draft, source);
