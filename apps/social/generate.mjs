@@ -1,7 +1,7 @@
 // 계획의 슬롯을 Claude 로 초안 생성 → 자동 검사 → queue/<date>/ 에 저장(사람 승인 대기).
 //   node generate.mjs queue/plan-2026-10-26.json [--date 2026-10-26] [--dry]
 // 환경 변수: ANTHROPIC_API_KEY (필수, --dry 제외), SOCIAL_MODEL (기본 claude-sonnet-5-5)
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadSource, readJson, withUtm } from './lib/source.mjs';
@@ -33,6 +33,9 @@ function parseJson(text) {
 
 let pass = 0;
 for (const e of entries) {
+  // 이미 쓴 초안은 다시 쓰지 않는다(중간 단계 실패 후 재실행 때 비용 0). 다시 쓰려면 --force.
+  const out = path.join(ROOT, 'queue', e.date, `${e.channel}-${e.lang}-${e.slug}.json`);
+  if (!dry && !args.includes('--force') && existsSync(out)) { pass++; continue; }
   const source = loadSource(e.slug, e.lang);
   const link = withUtm(source.url, e);
   const { system, user } = buildPrompt(e, source, link);
