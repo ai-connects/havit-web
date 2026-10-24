@@ -44,12 +44,18 @@ for (const e of entries) {
   for (let attempt = 0; attempt < 2; attempt++) {
     const msg = await client.messages.create({
       model: MODEL,
-      max_tokens: 4000,
+      max_tokens: 16000, // 모델이 먼저 생각(thinking)에 토큰을 쓰므로 넉넉히 — 4000 이면 본문이 잘렸다
       system,
       messages: [{ role: 'user', content: attempt === 0 ? user : `${user}\n\nYour previous draft failed these checks — fix them:\n${result.errors.join('\n')}` }],
     });
-    draft = { ...parseJson(msg.content.map((c) => c.text || '').join('')), ...e, link };
-    result = lint(draft, source);
+    try {
+      draft = { ...parseJson(msg.content.map((c) => c.text || '').join('')), ...e, link };
+      result = lint(draft, source);
+    } catch (err) {
+      // 응답이 잘렸거나 JSON 이 아니면 그 건만 실패로 두고 재시도(다른 건은 계속 생성)
+      draft = { ...e, link, posts: [] };
+      result = { status: 'FAIL', errors: [`응답 JSON 파싱 실패(${msg.stop_reason}): ${String(err.message).slice(0, 80)}`], warnings: [] };
+    }
     if (result.status === 'PASS') break;
   }
   const dir = path.join(ROOT, 'queue', e.date);

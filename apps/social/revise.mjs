@@ -16,22 +16,23 @@ for (const dir of process.argv.slice(2).filter((p) => statSync(p, { throwIfNoEnt
   for (const f of readdirSync(dir).filter((x) => x.endsWith('.json'))) {
     const p = path.join(dir, f);
     const d = readJson(p);
-    if (d.decision?.status !== 'revise' || d.revision) continue;
+    if (d.decision?.status !== 'revise' || (d.revision || 0) >= 2) continue;
     const source = loadSource(d.slug, d.lang);
     const { system, user } = buildPrompt(d, source, d.link);
     const { lint: _l, review, decision, images, media, image_qa, approved, approved_by, ...prev } = d;
     const msg = await client.messages.create({
       model: MODEL,
-      max_tokens: 4000,
+      max_tokens: 16000,
       system,
       messages: [{ role: 'user', content: `${user}\n\nYour previous draft:\n${JSON.stringify(prev, null, 1)}\n\nThe reviewer sent it back. Issues:\n${(review.issues || []).join('\n')}\nFix instructions: ${review.fix_instructions || ''}\n\nRewrite the whole draft with these fixed. Same output format.` }],
     });
     const t = msg.content.map((c) => c.text || '').join('');
-    const fixed = JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1));
+    let fixed;
+    try { fixed = JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1)); } catch { console.log(`✏️  고쳐 쓰기 응답 파싱 실패(${msg.stop_reason}) — 건너뜀: ${f}`); continue; }
     // 계획 필드(채널·언어·글·포맷·발행시각 등)와 사진은 그대로 둔다
     const draft = { ...fixed, ...Object.fromEntries(['date', 'channel', 'lang', 'slug', 'format', 'segment', 'publish_at', 'share', 'link', 'photo'].filter((k) => k in d).map((k) => [k, d[k]])) };
     const result = lint(draft, source);
-    writeFileSync(p, JSON.stringify({ ...draft, lint: result, approved: false, revision: 1, previous_review: review }, null, 2) + '\n');
+    writeFileSync(p, JSON.stringify({ ...draft, lint: result, approved: false, revision: (d.revision || 0) + 1, previous_review: review }, null, 2) + '\n');
     n++;
     console.log(`✏️  ${result.status} ${f}${result.errors.length ? ' — ' + result.errors.join('; ') : ''}`);
   }

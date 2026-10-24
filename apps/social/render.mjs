@@ -64,7 +64,7 @@ html,body{width:${W}px;height:${H}px;overflow:hidden}
 body{font-family:${fontOf(lang)};-webkit-font-smoothing:antialiased;line-break:strict;overflow-wrap:anywhere;word-break:${lang === 'ko' ? 'keep-all' : lang === 'ja' ? 'auto-phrase' : 'normal'}}
 .s{position:relative;width:${W}px;height:${H}px;padding:96px 88px;display:flex;flex-direction:column}
 .dark{background:#121212;color:#fff}.light{background:#F6F6F1;color:#121212}.lime{background:#D4FF50;color:#121212}
-.logo{height:40px;width:auto;position:absolute;top:72px;left:88px}
+.logo{height:80px;width:auto;position:absolute;top:64px;left:88px}
 .num{position:absolute;top:76px;right:88px;font:700 30px Poppins;opacity:.45}
 .bar{width:96px;height:12px;background:#D4FF50;border-radius:6px;margin-bottom:40px}
 .light .bar{background:#121212}
@@ -220,7 +220,10 @@ for (const dir of dirs) {
     const issues = [];
     d.images = pages.map((html, i) => {
       const out = path.join(outDir, `${String(i + 1).padStart(2, '0')}.png`);
-      for (const x of shoot(html, out)) issues.push(`${i + 1}장 ${x}`);
+      let got = shoot(html, out);
+      // 웹폰트 로딩 실패는 일시적이라 최대 2번 다시 찍는다(실패를 반려로 넘기지 않게)
+      for (let t = 0; t < 2 && got.some((x) => x.startsWith('폰트미로드')); t++) got = shoot(html, out);
+      for (const x of got) issues.push(`${i + 1}장 ${x}`);
       n++;
       return path.relative(dir, out);
     });

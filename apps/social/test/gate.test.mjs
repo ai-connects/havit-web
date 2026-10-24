@@ -33,3 +33,9 @@ test('리뷰어 확신 0.85 미만이면 사람 검토', () => {
 test('긴급 중지 스위치가 켜지면 전부 중지', () => {
   assert.equal(decide(base, ok, '2026-11-20', { accounts, control: { publishing_paused: true } }).status, 'paused');
 });
+
+test('리뷰어 revise 는 2번까지 고쳐 쓰고, 그 뒤엔 반려', () => {
+  const rv = { verdict: 'revise', confidence: 0.9, issues: ['x'] };
+  assert.equal(decide({ ...base, revision: 1 }, rv).status, 'revise');
+  assert.equal(decide({ ...base, revision: 2 }, rv).status, 'rejected');
+});
