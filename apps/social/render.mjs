@@ -220,7 +220,10 @@ for (const dir of dirs) {
     const issues = [];
     d.images = pages.map((html, i) => {
       const out = path.join(outDir, `${String(i + 1).padStart(2, '0')}.png`);
-      for (const x of shoot(html, out)) issues.push(`${i + 1}장 ${x}`);
+      let got = shoot(html, out);
+      // 웹폰트 로딩 실패는 일시적이라 최대 2번 다시 찍는다(실패를 반려로 넘기지 않게)
+      for (let t = 0; t < 2 && got.some((x) => x.startsWith('폰트미로드')); t++) got = shoot(html, out);
+      for (const x of got) issues.push(`${i + 1}장 ${x}`);
       n++;
       return path.relative(dir, out);
     });
