@@ -1,0 +1,15 @@
+{
+  "name": "havit-social",
+  "private": true,
+  "type": "module",
+  "description": "블로그 검증 글 → 채널×언어 SNS 초안 생성·자동 검사 (발행은 사람 승인 후 Buffer)",
+  "scripts": {
+    "plan": "node plan.mjs",
+    "generate": "node generate.mjs",
+    "lint": "node lint.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.98.0"
+  }
+}
