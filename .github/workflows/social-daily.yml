@@ -65,6 +65,7 @@ jobs:
           node reviewer.mjs "queue/$DATE"
           node escalate.mjs "queue/$DATE"
           node digest.mjs "queue/$DATE"
+          node preview.mjs "queue/$DATE" ko
       - name: 큐 올리기
         if: always()
         working-directory: apps/social
