@@ -10,7 +10,8 @@ const REGION = process.env.AWS_REGION || 'us-east-1';
 
 export function toJpeg(png) {
   const jpg = png.replace(/\.png$/, '.jpg');
-  execFileSync('sips', ['-s', 'format', 'jpeg', '-s', 'formatOptions', '90', png, '--out', jpg], { stdio: 'ignore' });
+  if (process.platform === 'darwin') execFileSync('sips', ['-s', 'format', 'jpeg', '-s', 'formatOptions', '90', png, '--out', jpg], { stdio: 'ignore' });
+  else execFileSync('convert', [png, '-quality', '90', jpg], { stdio: 'ignore' }); // ubuntu 러너 ImageMagick
   return jpg;
 }
 

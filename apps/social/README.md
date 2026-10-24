@@ -83,6 +83,21 @@ tokens.mjs    threads <lang> | ig <lang> | check | refresh — 토큰은 .env �
 
 발행은 재실행해도 안전(이미 published 면 건너뜀), 긴급 중지가 켜져 있으면 아무것도 하지 않는다.
 
+## 완전 자동 운영 (GitHub Actions — 컴퓨터 꺼져 있어도 동작)
+
+| 워크플로 | 시각 | 하는 일 |
+|---|---|---|
+| `social-daily` | 매일 23:00 KST | 다음 날 하루치(9개 언어 × IG·Threads = 18건) 계획 → 생성 → 검사 → 이미지 렌더(자동 QA) → S3 호스팅 → AI 리뷰 → 사람 검토 이슈 → 요약 |
+| `social-publish` | 매시 15분 | 승인된 초안 중 현지 발행 시각(IG 12시·Threads 20시)이 지난 것 발행 |
+| `social-approve` | 이슈 댓글 | 레이블 `social-review` 이슈에 소유자·멤버가 `/approve` 또는 `/reject` → 반영 후 이슈 닫기 |
+| `social-refresh-tokens` | 매주 월 | 장기 토큰 갱신 → GitHub Secrets 덮어쓰기 |
+
+- 사람 검토는 **중요한 것만**: 약물 언급, AI 리뷰어 확신 < 0.85(또는 human 판정). 새 계정 7일 규칙은 끔.
+- 이미지 자동 QA(`render.mjs`): 글자 캔버스 밖 넘침·캐릭터 겹침·폰트 미로드·이미지 로드 실패 → FAIL 이면 발행 제외. 표지 사진은 글 주제와 맞을 때만, 아니면 브랜드 표지.
+- 큐는 공개 레포에 두지 않고 `s3://havit-prod-us-east/social-queue/`(비공개)와 동기화.
+- 긴급 중지: 레포 Settings → Variables `SOCIAL_PAUSED=true`.
+- 1회 설정: 대표님 Terminal 에서 `node setup.mjs` (토큰 18개·Anthropic 키·AWS 업로드 전용 키·갱신용 PAT 를 GitHub Secrets 로, 값은 화면에 안 남김).
+
 ## 미확정
 
 - Instagram 해시태그 상한(정책 변경 중) · Buffer 연결 · HAVI 캐릭터 고해상도 원본(현재 210px)

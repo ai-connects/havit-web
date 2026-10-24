@@ -1,0 +1,61 @@
+# 매시 15분: 자동 승인(또는 /approve)된 초안 중 현지 발행 시각이 지난 것을 Instagram·Threads 에 발행
+name: social-publish
+on:
+  schedule:
+    - cron: '15 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: social-queue
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    # 긴급 중지: 레포 Settings → Variables 에서 SOCIAL_PAUSED=true
+    if: ${{ vars.SOCIAL_PAUSED != 'true' }}
+    env:
+      SOCIAL_MEDIA_BUCKET: havit-prod-us-east
+      SOCIAL_MEDIA_PREFIX: image/sns
+      QUEUE_S3: s3://havit-prod-us-east/social-queue/
+      IG_TOKEN_KO: ${{ secrets.IG_TOKEN_KO }}
+      THREADS_TOKEN_KO: ${{ secrets.THREADS_TOKEN_KO }}
+      IG_TOKEN_JA: ${{ secrets.IG_TOKEN_JA }}
+      THREADS_TOKEN_JA: ${{ secrets.THREADS_TOKEN_JA }}
+      IG_TOKEN_EN: ${{ secrets.IG_TOKEN_EN }}
+      THREADS_TOKEN_EN: ${{ secrets.THREADS_TOKEN_EN }}
+      IG_TOKEN_ZH_TW: ${{ secrets.IG_TOKEN_ZH_TW }}
+      THREADS_TOKEN_ZH_TW: ${{ secrets.THREADS_TOKEN_ZH_TW }}
+      IG_TOKEN_ES: ${{ secrets.IG_TOKEN_ES }}
+      THREADS_TOKEN_ES: ${{ secrets.THREADS_TOKEN_ES }}
+      IG_TOKEN_PT_BR: ${{ secrets.IG_TOKEN_PT_BR }}
+      THREADS_TOKEN_PT_BR: ${{ secrets.THREADS_TOKEN_PT_BR }}
+      IG_TOKEN_ID: ${{ secrets.IG_TOKEN_ID }}
+      THREADS_TOKEN_ID: ${{ secrets.THREADS_TOKEN_ID }}
+      IG_TOKEN_DE: ${{ secrets.IG_TOKEN_DE }}
+      THREADS_TOKEN_DE: ${{ secrets.THREADS_TOKEN_DE }}
+      IG_TOKEN_FR: ${{ secrets.IG_TOKEN_FR }}
+      THREADS_TOKEN_FR: ${{ secrets.THREADS_TOKEN_FR }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+        working-directory: apps/social
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: 큐 내려받기(S3 비공개 경로 — 공개 레포라 큐는 git 에 두지 않음)
+        working-directory: apps/social
+        run: aws s3 sync "$QUEUE_S3" queue/ --only-show-errors
+      - name: 발행
+        working-directory: apps/social
+        run: |
+          for d in $(date -u -d '-1 day' +%F) $(date -u +%F); do [ -d "queue/$d" ] && node publish.mjs "queue/$d" || true; done
+      - name: 큐 올리기
+        if: always()
+        working-directory: apps/social
+        run: aws s3 sync queue/ "$QUEUE_S3" --only-show-errors --exclude "*.html" 

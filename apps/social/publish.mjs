@@ -22,11 +22,12 @@ for (const dir of dirs) {
     const d = readJson(p);
     if (!['instagram', 'threads'].includes(d.channel) || (onlyLang && d.lang !== onlyLang)) continue;
     if (!d.approved || d.published) { skip++; continue; }
+    if (d.publish_at && Date.parse(d.publish_at) > Date.now()) { skip++; continue; } // 아직 현지 발행 시각 전
     const token = d.channel === 'instagram' ? igToken(d.lang) : threadsToken(d.lang);
     if (!token) { console.log(`토큰 없음 ${d.channel}/${d.lang} — .env 확인`); skip++; continue; }
     if (dry) { console.log(`[dry] ${d.channel}/${d.lang} ${d.slug} 이미지 ${d.images?.length || 0}장`); continue; }
     try {
-      const urls = hostImages(dir, f, d.images || []);
+      const urls = d.media?.length ? d.media : hostImages(dir, f, d.images || []);
       const res = d.channel === 'instagram'
         ? await publishInstagram({ token, imageUrls: urls, caption: [d.posts[0], (d.hashtags || []).map((t) => `#${t}`).join(' ')].filter(Boolean).join('\n\n') })
         : await publishThreads({ token, posts: d.posts, imageUrl: urls[0], firstReply: d.first_reply });

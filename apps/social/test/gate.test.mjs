@@ -6,7 +6,7 @@ const base = { channel: 'threads', lang: 'ko', posts: ['야식 생각이 날 때
 const ok = { verdict: 'approve', confidence: 0.95, issues: [] };
 
 test('계정 미등록이면 사람 검토', () => {
-  assert.equal(decide(base, ok, '2026-11-20').status, 'human');
+  assert.equal(decide(base, ok, '2026-11-20', { accounts: [] }).status, 'human');
 });
 test('약물 언급은 무조건 사람 검토(다국어)', () => {
   for (const p of ['위고비 맞는 분들께', 'マンジャロを使っている方へ', 'Si usas un medicamento GLP-1', '正在使用司美格鲁肽', 'Ask your prescriber before changing medication']) {
@@ -20,12 +20,12 @@ test('리뷰어 revise 는 재작성', () => {
   assert.equal(decide(base, { verdict: 'revise', confidence: 0.9, issues: ['어색함'] }).status, 'revise');
 });
 
-const accounts = [{ channel: 'threads', lang: 'ko', first_post_date: '2026-11-01' }];
+const accounts = [{ channel: 'threads', lang: 'ko', handle: 'havit_app', first_post_date: '2026-11-01' }];
 test('등록 계정·7일 경과·리뷰 통과면 자동 승인', () => {
   assert.equal(decide(base, ok, '2026-11-20', { accounts }).status, 'auto_approved');
 });
-test('새 계정 첫 7일은 사람 검토', () => {
-  assert.equal(decide(base, ok, '2026-11-03', { accounts }).status, 'human');
+test('새 계정도 리뷰 통과면 자동 승인(첫 7일 규칙 끔)', () => {
+  assert.equal(decide(base, ok, '2026-11-03', { accounts }).status, 'auto_approved');
 });
 test('리뷰어 확신 0.85 미만이면 사람 검토', () => {
   assert.equal(decide(base, { ...ok, confidence: 0.7 }, '2026-11-20', { accounts }).status, 'human');

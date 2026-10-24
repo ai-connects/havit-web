@@ -17,7 +17,7 @@ const stripUrls = (s) => norm(s).replace(/https?:\/\/\S+/g, ' ');
 const stripTags = (s) => s.replace(/#[^\s#]+/g, ' ');
 
 function postText(d) {
-  return [...(d.posts || []), ...(d.slides || []).flatMap((s) => [s.title, s.body]), d.first_reply || '', d.alt_text || ''].join('\n');
+  return [d.card_text || '', ...(d.posts || []), ...(d.slides || []).flatMap((s) => [s.title, s.body]), d.first_reply || '', d.alt_text || ''].join('\n');
 }
 
 export function lint(draft, source) {
@@ -81,6 +81,12 @@ export function lint(draft, source) {
     if (!(draft.first_reply || '').includes(link)) errors.push('first_reply 에 지정 링크 없음');
   } else if (rule.link === 'profile') {
     if (/https?:\/\//.test(all)) errors.push('Instagram 본문·슬라이드에 링크 있음(프로필 링크로)');
+  }
+
+  // 5-1) 카드 문구 길이(이미지에 크게 찍힘)
+  if (draft.card_text) {
+    const lim = ['ko', 'ja', 'zh-tw', 'zh'].includes(draft.lang) ? 40 : 60;
+    if ([...draft.card_text].length > lim) errors.push(`card_text ${[...draft.card_text].length}자 > ${lim}`);
   }
 
   // 6) 해시태그

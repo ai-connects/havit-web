@@ -6,7 +6,8 @@ import { config } from './source.mjs';
 const MEDICATION = /glp-?1|semaglutide|tirzepatide|liraglutide|orforglipron|retatrutide|ozempic|wegovy|mounjaro|zepbound|saxenda|rybelsus|metformin|levothyroxine|insulin|medication|prescription|prescribed|세마글루타이드|터제파타이드|오젬픽|위고비|마운자로|젭바운드|메트포르민|인슐린|처방약|복용 중|セマグルチド|チルゼパチド|オゼンピック|ウゴービ|マンジャロ|メトホルミン|インスリン|處方|处方|司美格鲁肽|司美格魯肽|替尔泊肽|替爾泊肽|胰岛素|胰島素|medicamento|medicação|medicamento|obat|Medikament|médicament/i;
 
 export const MIN_CONFIDENCE = 0.85;
-export const NEW_ACCOUNT_DAYS = 7;
+// 새 계정 첫 N일 사람 검토 — 대표 결정(2026-10-24)으로 끔: 첫 주 126건 승인은 '중요한 것만'과 맞지 않음.
+export const NEW_ACCOUNT_DAYS = 0;
 
 /** 계정(채널:언어)의 첫 발행일 — config/accounts.json. 없으면 아직 개설 전으로 보고 사람 검토. */
 function accountStart(channel, lang, accounts = config('accounts').accounts) {
@@ -18,9 +19,10 @@ export function mustEscalate(draft, today = new Date().toISOString().slice(0, 10
   const reasons = [];
   const text = [...(draft.posts || []), ...(draft.slides || []).flatMap((s) => [s.title, s.body]), draft.first_reply || ''].join('\n');
   if (MEDICATION.test(text)) reasons.push('약물 언급');
+  const acc = (accounts || config('accounts').accounts).find((x) => x.channel === draft.channel && x.lang === draft.lang);
+  if (!acc?.handle) reasons.push('계정 미등록(config/accounts.json)');
   const start = accountStart(draft.channel, draft.lang, accounts);
-  if (!start) reasons.push('계정 미등록(config/accounts.json)');
-  else if ((Date.parse(today) - Date.parse(start)) / 864e5 < NEW_ACCOUNT_DAYS) reasons.push(`새 계정 첫 ${NEW_ACCOUNT_DAYS}일`);
+  if (NEW_ACCOUNT_DAYS && start && (Date.parse(today) - Date.parse(start)) / 864e5 < NEW_ACCOUNT_DAYS) reasons.push(`새 계정 첫 ${NEW_ACCOUNT_DAYS}일`);
   return reasons;
 }
 
@@ -28,6 +30,7 @@ export function mustEscalate(draft, today = new Date().toISOString().slice(0, 10
 export function decide(draft, review, today, { accounts, control = config('control') } = {}) {
   if (control.publishing_paused) return { status: 'paused', reasons: ['긴급 중지 스위치 켜짐(config/control.json)'] };
   if (draft.lint?.status !== 'PASS') return { status: 'rejected', reasons: ['기계 검사 FAIL', ...(draft.lint?.errors || [])] };
+  if (draft.image_qa?.status === 'FAIL') return { status: 'rejected', reasons: ['이미지 자동 검사 FAIL', ...draft.image_qa.issues] };
   if (!review) return { status: 'human', reasons: ['AI 리뷰 없음'] };
   if (review.verdict === 'revise') return { status: 'revise', reasons: review.issues || [] };
   const esc = mustEscalate(draft, today, accounts);

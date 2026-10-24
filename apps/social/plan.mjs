@@ -1,5 +1,7 @@
-// 2주(기본) 발행 계획: 계정(채널×언어)마다 주당 빈도만큼 슬롯을 만들고 글·포맷을 돌려 배정한다.
-//   node plan.mjs 2026-10-26 [weeks=2]   → queue/plan-2026-10-26.json
+// 하루치 발행 계획: 켜진 채널(enabled)×언어마다 1건. 글은 그 계정에서 가장 오래 안 쓴 검증 글, 포맷은 날짜로 돌린다.
+//   node plan.mjs 2026-10-26            → queue/plan-2026-10-26.json (그날 하루)
+//   node plan.mjs 2026-10-26 7          → 그날부터 7일
+// 발행 시각(publish_at, UTC)은 config/channels.json 의 langs.*.tz / post_hours(현지 시각).
 import { existsSync, mkdirSync, readdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -7,53 +9,68 @@ import { config, hasLang, readJson, verifiedSlugs } from './lib/source.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const QUEUE = path.join(ROOT, 'queue');
-const [start = new Date().toISOString().slice(0, 10), weeks = '2'] = process.argv.slice(2);
+const [start = new Date().toISOString().slice(0, 10), days = '1'] = process.argv.slice(2);
 
-// 주 n회를 요일에 고르게 펼친다(월=0).
-const DAYS = { 1: [2], 2: [1, 3], 3: [0, 2, 4], 4: [0, 1, 3, 4], 5: [0, 1, 2, 3, 4], 7: [0, 1, 2, 3, 4, 5, 6] };
+/** 현지 날짜·시각(tz) → UTC ISO. 실행 서버의 시간대와 무관(Intl 로 tz 오프셋 계산, DST 포함). */
+function tzOffsetMin(ms, tz) {
+  const p = Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: tz, hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' })
+    .formatToParts(new Date(ms)).map((x) => [x.type, x.value]));
+  return (Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute, +p.second) - ms) / 6e4;
+}
+export function localToUtc(date, hour, tz) {
+  const [y, m, d] = date.split('-').map(Number);
+  const wall = Date.UTC(y, m - 1, d, hour);
+  let ms = wall - tzOffsetMin(wall, tz) * 6e4;
+  ms = wall - tzOffsetMin(ms, tz) * 6e4; // DST 경계 보정
+  return new Date(ms).toISOString();
+}
 
-// 최근 30일에 같은 계정에서 쓴 글은 다시 고르지 않는다.
-const used = new Map();
+// 계정별로 각 글을 마지막으로 쓴 날짜(계획 파일 기준) — 가장 오래 안 쓴 글부터 고른다.
+const lastUsed = new Map();
 if (existsSync(QUEUE)) {
-  for (const f of readdirSync(QUEUE).filter((x) => x.startsWith('plan-'))) {
+  for (const f of readdirSync(QUEUE).filter((x) => /^plan-.*\.json$/.test(x))) {
     for (const e of readJson(path.join(QUEUE, f)).entries) {
-      const k = `${e.channel}:${e.lang}`;
-      if (!used.has(k)) used.set(k, new Set());
-      used.get(k).add(e.slug);
+      const k = `${e.channel}:${e.lang}:${e.slug}`;
+      if (!lastUsed.has(k) || lastUsed.get(k) < e.date) lastUsed.set(k, e.date);
     }
   }
 }
 
 const ch = config('channels');
 const slugs = verifiedSlugs();
+const dayIndex = (d) => Math.floor(Date.parse(`${d}T00:00:00Z`) / 864e5);
 const entries = [];
-let seed = 0;
-for (const [channel, rule] of Object.entries(ch.channels)) {
-  for (const lang of rule.langs) {
-    const key = `${channel}:${lang}`;
-    const seen = used.get(key) || new Set();
-    // 그 언어판이 있는 글만(예: glp-1-cost-korea 는 한국어판뿐)
-    const pool = slugs.filter((s) => !seen.has(s) && hasLang(s, lang));
-    let i = (seed++ * 7) % pool.length; // 계정마다 시작점을 달리해 같은 날 같은 글이 몰리지 않게
-    let f = 0;
-    for (let w = 0; w < Number(weeks); w++) {
-      for (const d of DAYS[rule.per_week]) {
-        const date = new Date(`${start}T00:00:00Z`);
-        date.setUTCDate(date.getUTCDate() + w * 7 + d);
-        entries.push({
-          date: date.toISOString().slice(0, 10),
-          channel,
-          lang,
-          slug: pool[i++ % pool.length],
-          format: rule.formats[f++ % rule.formats.length],
-          segment: ch.segments[lang][(w + d) % ch.segments[lang].length],
-        });
-      }
+for (let i = 0; i < Number(days); i++) {
+  const d = new Date(`${start}T00:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + i);
+  const date = d.toISOString().slice(0, 10);
+  if (existsSync(path.join(QUEUE, `plan-${date}.json`))) continue; // 이미 계획된 날은 건너뜀(재실행 안전)
+  let a = 0;
+  for (const [channel, rule] of Object.entries(ch.channels)) {
+    if (!rule.enabled) continue;
+    for (const lang of rule.langs) {
+      const pool = slugs.filter((s) => hasLang(s, lang));
+      // 가장 오래 안 쓴 글(안 쓴 글 우선). 같은 날 같은 언어의 IG·Threads 가 같은 글을 쓰지 않게 계정마다 시작점을 비튼다.
+      const ranked = pool
+        .map((s, j) => ({ s, used: lastUsed.get(`${channel}:${lang}:${s}`) || '', tie: (j + a * 7 + dayIndex(date)) % pool.length }))
+        .sort((x, y) => x.used.localeCompare(y.used) || x.tie - y.tie);
+      const slug = ranked[0].s;
+      lastUsed.set(`${channel}:${lang}:${slug}`, date);
+      const L = ch.langs[lang];
+      entries.push({
+        date,
+        channel,
+        lang,
+        slug,
+        format: rule.formats[(dayIndex(date) + a) % rule.formats.length],
+        segment: ch.segments[lang][(dayIndex(date) + a) % ch.segments[lang].length],
+        publish_at: localToUtc(date, L.post_hours?.[channel] ?? 12, L.tz || 'UTC'),
+      });
+      a++;
     }
   }
+  mkdirSync(QUEUE, { recursive: true });
+  const day = entries.filter((e) => e.date === date);
+  writeFileSync(path.join(QUEUE, `plan-${date}.json`), JSON.stringify({ start: date, entries: day }, null, 2) + '\n');
+  console.log(`${date}: ${day.length}건`);
 }
-entries.sort((a, b) => a.date.localeCompare(b.date) || a.channel.localeCompare(b.channel));
-mkdirSync(QUEUE, { recursive: true });
-const out = path.join(QUEUE, `plan-${start}.json`);
-writeFileSync(out, JSON.stringify({ start, weeks: Number(weeks), entries }, null, 2) + '\n');
-console.log(`${entries.length}건 → ${path.relative(ROOT, out)}`);
