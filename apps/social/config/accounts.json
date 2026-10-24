@@ -1,0 +1,149 @@
+{
+  "_note": "계정 등록부. first_post_date 가 비어 있으면 사람 검토, 첫 발행 후 7일까지도 사람 검토(새 계정 보호). 계정을 만들면 handle 과 첫 발행일을 채운다.",
+  "accounts": [
+    {
+      "channel": "instagram",
+      "lang": "ko",
+      "handle": "havit_app",
+      "first_post_date": null
+    },
+    {
+      "channel": "instagram",
+      "lang": "ja",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "instagram",
+      "lang": "en",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "instagram",
+      "lang": "zh-tw",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "instagram",
+      "lang": "zh",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "instagram",
+      "lang": "es",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "instagram",
+      "lang": "pt-br",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "instagram",
+      "lang": "id",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "instagram",
+      "lang": "de",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "instagram",
+      "lang": "fr",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "threads",
+      "lang": "ko",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "threads",
+      "lang": "ja",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "threads",
+      "lang": "en",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "threads",
+      "lang": "zh-tw",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "threads",
+      "lang": "zh",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "threads",
+      "lang": "es",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "threads",
+      "lang": "pt-br",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "threads",
+      "lang": "id",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "threads",
+      "lang": "de",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "threads",
+      "lang": "fr",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "facebook",
+      "lang": "en",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "linkedin_company",
+      "lang": "en",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "linkedin_founder",
+      "lang": "ko",
+      "handle": null,
+      "first_post_date": null
+    },
+    {
+      "channel": "linkedin_founder",
+      "lang": "en",
+      "handle": null,
+      "first_post_date": null
+    }
+  ]
+}
