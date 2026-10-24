@@ -1196,142 +1196,162 @@
       "last_updated": "2026-10-12"
     },
     "de": {
-      "title": "Beste KI-Coach-Apps 2026: welche Ihre Daten wirklich lesen",
-      "short_title": "Beste KI-Coach-Apps 2026",
-      "meta_description": "Noom, Yazio, Lifesum, Foto-Apps, allgemeine Assistenten und HAVIT einzeln geprüft: Was liest der Coach wirklich, spricht er zuerst, und welche Daten sieht er nie? Stand Oktober 2026.",
-      "tldr": "Ein Chat beantwortet, was Sie zu fragen wussten; ein Coach weist auf das hin, wonach Sie nicht gefragt haben. Entscheidend ist, ob Ihre Protokolle beim Coach ankommen.",
-      "body_md": "In den letzten zwei Jahren hat fast jede Gesundheits-App einen \"KI-Coach\" bekommen. Die meisten haben **ein Chatfenster** bekommen. Das ist nicht dasselbe.\n\nEin Chat beantwortet die Fragen, die Sie zu stellen wussten. Ein Coach weist auf das hin, **wonach Sie nicht gefragt haben**. Was beide trennt, ist nicht die Modellqualität — sondern **ob Ihre Protokolle beim Coach ankommen**.\n\nDieser Leitfaden nimmt die Apps, die mit KI-Coaching werben, einzeln durch. Stand Oktober 2026.\n\n![Ein Coach sieht Ihren Tag, nicht nur Ihre Nachrichten](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n## Drei Tests, die Coach von Chatbot trennen\n\n**1. Liest er Ihre eigenen Daten?** Fragen Sie in der Testphase, was Sie gestern gegessen haben. Müssen Sie die Antwort hineinkopieren, ist der Coach ein Chatfenster und die App ein Tracker.\n\n**2. Gibt er eine Handlung oder einen Plan?** Ein Plan ist das, was Sie schon einmal nicht eingehalten haben. *30 g Protein zum Frühstück* ist um neun Uhr wahr oder falsch — und damit messbar.\n\n**3. Ändert er sich, wenn Sie sich ändern?** Protokollieren Sie absichtlich eine schlechte Woche. Ein echtes Coaching-System senkt die Anforderung oder fragt, was los war. Ein Skript wiederholt denselben fröhlichen Anstoß.\n\n## Noom — der Coach ist ein Mensch, keine KI\n\n| | |\n| --- | --- |\n| Anbieter | Noom, Inc. |\n\n![Sich vor einem Menschen zu verantworten ist ein anderes Produkt](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n**Was sie gut macht.** **Ein menschlicher Coach, dem Sie jederzeit schreiben können.** Keine KI, die so tut. Dazu ein psychologisch aufgebautes Curriculum, das festlegt, was Sie täglich lesen.\n\n**Wo sie schwächelt.** Oberste Preisklasse der Kategorie. Der Coaching-Rahmen sind Mahlzeiten, Aktivität und Gewicht — Zyklus, Medikation und Körperzusammensetzung liegen außerhalb.\n\n**Für wen.** Für alle, die sich vor einem Menschen verantworten müssen.\n\n## Yazio und Lifesum — geführte Pläne, kein adaptives Coaching\n\n**Was sie gut machen.** Sie übersetzen Ihr Ziel in einen konkreten Plan, ohne dass Sie ihn entwerfen müssen. Yazio entlang der Fastenfenster, Lifesum entlang geführter Ernährungspläne und Gewohnheitsringe.\n\n**Wo sie schwächeln.** Ein erzeugter Plan ist kein Coach, der sich an Ihre Woche anpasst. Schlaf, Zyklus und Medikation werden nicht gelesen, also kann auch nicht erklärt werden, warum diese Woche anders lief.\n\n**Für wen.** Für alle, denen gesagt werden soll, was zu essen ist — nicht, warum die Woche kippte.\n\n## Foto-Apps (Cal AI und ähnliche)\n\n**Was sie gut machen.** Aus einem Foto wird in Sekunden ein Eintrag. Die KI macht Erkennung, und das gut.\n\n**Wo sie schwächeln.** Erkennung ist kein Coaching. Sie beantworten \"was war das?\", nicht \"was sollte ich ändern?\". Und die Portionsgröße ist die bekannte Schwachstelle dieser Technik.\n\n**Für wen.** Für alle, die an der Erfassungsgeschwindigkeit hängenbleiben.\n\n## Allgemeine Assistenten (ChatGPT, Claude, Gemini)\n\n**Was sie gut machen.** Begriffe erklären und auf Zuruf Pläne bauen — sehr gut. Sie erinnern sich inzwischen über Unterhaltungen hinweg und können Sie zu festen Zeiten anschreiben, wenn Sie das einrichten.\n\n**Wo sie schwächeln.** **Kein fortlaufender Strom der heutigen Mahlzeiten, des Schlafs und der Schritte.** Die 21-Uhr-Nachricht muss eine sein, die Sie eingerichtet haben, aus Daten, die Sie hineinkopiert haben. Und sie lehnen es — zu Recht — ab, zu diagnostizieren oder Medikation zu steuern.\n\n**Für wen.** Für alle, die Antworten auf Fragen wollen. Kein Coach, der aus Ihren Daten heraus zuerst spricht.\n\n## HAVIT — acht Datenströme, die einen Coach speisen\n\n| | |\n| --- | --- |\n| Anbieter | Havit Inc. |\n| Was der Coach liest | Mahlzeiten, Trinkmenge, Training, Schlaf, Schritte, **Zyklus**, Stimmung, **GLP-1** |\n| Sprachen | 35 |\n\n![Der KI-Coach von HAVIT liest alle acht Protokolle und gibt eine einzige Handlung zurück](/blog/havit/shot/feature-ai-coach.webp)\n\n**Hier liegt der ganze Unterschied.** Der Coach von HAVIT liest keinen Chatverlauf. Er liest **acht Ströme Ihrer eigenen Daten** — nicht nur Mahlzeiten, sondern auch Schlaf, Schritte, Zyklus und Medikation.\n\nDeshalb kann er sagen: *Sie liegen vier Tage unter dem Proteinziel, haben zweimal unter sechs Stunden geschlafen und sind in der Woche vor der Periode — die drei Dinge hängen zusammen, und hier setzt man zuerst an.* Ein allgemeiner Assistent bildet diesen Satz nicht: Er kann sich an Sie erinnern, hat aber **keinen Live-Strom Ihres Tages**.\n\n### Zurück kommt eine Handlung, kein Dashboard\n\n![Tägliches Check-in: Der Coach fragt zuerst, was für ein Tag ist](/blog/havit/shot/feature-daily-check-in.webp)\n\nZuerst kommt das **tägliche Check-in**: Befinden, Schlaf, Appetit und Stimmung in wenigen Tipps, damit der Coach weiß, was für ein Tag ist, bevor er etwas verlangt. Es ist auch der Weg, auf dem ein schlechter Tag ins System kommt, ohne es zu beenden.\n\nDanach übersetzen **Tagesmissionen** Techniken der Verhaltensänderung in eine Handlung für heute. Verfehlt heißt nicht abgerissene Serie, sondern **Eingabewert**: Die Anforderung am Folgetag ändert sich.\n\n### Der Coach sieht auch Ihren Körper\n\n![Trends bei Fett und Magermasse](/blog/havit/shot/feature-body-insights.webp)\n\nSchätzt **Trends bei Fett- und Magermasse** ohne Hardware (interner Vergleich mit InBody, n=70). Unter GLP-1-Therapie liest derselbe Coach **Dosis, Nebenwirkungen und Protein** mit.\n\n**Sechs geführte Meditationen**, **Trainingsvideos**, **über 1.400 Artikel** und **Fasten** in derselben App. Entwickelt mit Fachleuten, die von Juvis Diet kommen.\n\n**Für wen.** Für alle, die protokollieren und trotzdem nicht wissen, was zu ändern ist; die einen Coach wollen, der ihre Daten wirklich sieht.\n\n## Vergleich\n\n| App | Was der Coach liest | Spricht zuerst? | Körperzusammensetzung | Zyklus | GLP-1 | Meditation & Training |\n| --- | --- | --- | --- | --- | --- | --- |\n| Noom | Mahlzeiten, Aktivität, Gewicht | Der menschliche Coach | Nein | Nein | Nein | Nur Inhalte |\n| Yazio / Lifesum | Mahlzeiten und Ziele | Nein | Nein | Nein | Nein | Nein |\n| Foto-Apps | Das eben gemachte Foto | Nein | Nein | Nein | Nein | Nein |\n| Allgemeine Assistenten | Nur Eingefügtes | Nur wenn eingerichtet | Nein | Nein | Nein | Nein |\n| **HAVIT** | **Alle 8 Protokolle** | **Ja** | **Geschätzt** | **Ja** | **Ja** | **Ja** |\n\nStand Oktober 2026.\n\n## Wann Sie keinen kaufen sollten\n\n- **Wenn Sie nichts protokollieren.** Ein datengetriebener Coach ist eine Funktion Ihrer Eingaben. Bauen Sie erst die Protokollgewohnheit auf und ergänzen Sie Coaching nach etwa vier Wochen.\n- **Wenn Sie einen Menschen brauchen.** Bei Essstörungen, diagnostizierter Erkrankung oder einem Wettkampfziel mit Datum: zu einer Fachperson. Eine vernünftige Gesundheits-KI lehnt Diagnosen ab und sagt Ihnen nicht, eine verordnete Dosis zu ändern — HAVIT ebenfalls nicht, denn es ist eine Wellness-App und kein Medizinprodukt.\n\n## Fazit\n\n\"Welche KI ist schlauer\" ist die falsche Frage: Alle ernstzunehmenden sind dafür schlau genug.\n\nDie Frage ist, welche **Ihre Daten sieht, eine Sache sagt und sich ändert, wenn Sie sich ändern.** Testen Sie das zwei Wochen lang, inklusive einer schlechten Woche, in der kostenlosen Phase.\n\n[HAVIT ausprobieren →](https://www.aihavit.com/)\n",
+      "title": "KI-Coach-Apps zum Abnehmen 2026: 7 im Vergleich — entscheidend ist, was der Coach liest",
+      "short_title": "KI-Coach-Apps zum Abnehmen 2026",
+      "meta_description": "HAVIT, WeightWatchers, Noom, Lifesum, Yazio, Freeletics und allgemeine KI-Assistenten im Vergleich: Welche Daten liest der Coach, meldet er sich von selbst, kann man ihm Fotos schicken, und was ist kostenlos? Stand deutscher App Store, Oktober 2026.",
+      "tldr": "Wählen Sie eine KI-Coach-App nicht nach der Rechenleistung, sondern danach, was der Coach liest und was er daraus macht. Ein Coach, der nur Mahlzeiten kennt, antwortet anders als einer, der auch Schlaf, Schritte, Zyklus und Medikation sieht. Fragen Sie in der Testphase: „Was habe ich gestern gegessen?“ und prüfen Sie, wie weit Chat und Fotoanalyse kostenlos reichen.",
+      "body_md": "Fast jede Abnehm-App wirbt inzwischen mit KI. Im Alltag tut diese KI aber sehr Unterschiedliches: Die eine erkennt Kalorien auf einem Foto, die andere stellt Workouts zusammen, die dritte antwortet nur, wenn man sie fragt.\n\nDer Name ist derselbe, der Unterschied liegt an einer Stelle: **Wie viel von Ihren Einträgen liest der Coach, und was macht er daraus?** Auf dieselbe Frage antwortet ein Coach, der Ihr gestriges Essen, den Schlaf der letzten Woche und den Gewichtsverlauf des Monats kennt, anders als einer, der nichts davon weiß.\n\nDieser Vergleich nimmt sieben Angebote einzeln durch, die in Deutschland für KI-Unterstützung beim Abnehmen genutzt werden: HAVIT, WeightWatchers, Noom mit seinem Coaching, die Kalorienzähler Lifesum und Yazio, Freeletics als KI-Coach fürs Training und allgemeine KI-Assistenten wie ChatGPT. Bewertungen und Funktionen stammen aus den deutschen App-Store-Einträgen vom 24. Oktober 2026. Preise ändern sich häufig und stehen deshalb nicht hier.\n\nHAVIT ist die App unseres Teams; entwickelt wurde sie von **Fachleuten, die von Juvis Diet kommen**. Deshalb nennen wir unsere Kriterien zuerst und schreiben auch auf, wann HAVIT nicht die richtige Wahl ist.\n\n![Ein Coach sieht Ihren Tag, nicht nur Ihre Nachrichten](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n## Kurz: welche App zu wem passt\n\n| Wenn Sie … | Passende App | Warum |\n| --- | --- | --- |\n| protokollieren, aber nicht wissen, was Sie ändern sollen | **HAVIT** | Der KI-Coach HAVI liest Mahlzeiten, Schlaf, Schritte und Zyklus zusammen und schlägt eine Handlung für heute vor |\n| GLP-1-Medikamente nehmen | **HAVIT** · WeightWatchers | HAVI fragt schon im Startgespräch nach Medikation und Nebenwirkungen; WW hat ein GLP-1-Begleitprogramm |\n| den Tag abschließen und einen Vorsatz festhalten wollen | **HAVIT** | Abendrückblick um 22 Uhr mit einem Vorsatz für morgen (HAVIT Premium) |\n| Struktur, Punkte und eine Gruppe brauchen | WeightWatchers | Points-Programm, Community, Live-Sessions mit Coaches |\n| lieber mit einem Menschen als mit einer KI arbeiten | Noom | Coaching mit persönlichem Feedback und psychologischem Programm |\n| Mahlzeiten vor allem schnell per Foto erfassen wollen | Lifesum · Yazio | KI-Tracking per Foto (Lifesum auch per Sprache und Text) |\n| nicht wissen, welches Training zu Ihnen passt | Freeletics | KI-Coach passt jedes Workout an Fitnesslevel und Rückmeldung an |\n| nur ab und zu etwas fragen wollen | Allgemeine KI (ChatGPT u. a.) | Erklärt und plant gut, Ihre Einträge müssen Sie aber selbst hineinkopieren |\n\n## Vier Kriterien für die Wahl eines KI-Coachs\n\n**1. Was liest der Coach?** Das Wichtigste zuerst. Ein Coach, der nur Mahlzeiten kennt, kann sagen: „Das Mittagessen war salzig.“ Erst wenn Schlaf, Schritte, Zyklus und Medikation in derselben App liegen, lässt sich herausfinden, warum das Gewicht diese Woche stillsteht. Fragen Sie in der Testphase: „Was habe ich gestern gegessen?“ und „Wie habe ich diese Woche geschlafen?“. Müssen Sie die Antwort selbst liefern, liest der Coach Ihre Einträge nicht.\n\nDass überhaupt genug Einträge zusammenkommen, zählt ebenfalls. Eine systematische Übersicht über 39 randomisierte Studien zum digitalen Selbstmonitoring beim Abnehmen fand **in 74 Prozent der ausgewerteten Fälle: mehr Protokollieren, mehr Gewichtsverlust** (Patel 2021). Wo kaum etwas eingetragen wird, hat auch der beste Coach wenig zu sagen.\n\n**2. Gibt er eine Handlung für heute statt eines Plans?** „Achten Sie auf Ihre Ernährung“ ist kein Rat. Achten Sie darauf, ob der Coach eine Handlung nennt, die abends eindeutig erledigt ist oder nicht, etwa „heute Abend zuerst die Eiweißbeilage“. Und prüfen Sie, ob er nur antwortet, wenn Sie fragen, oder ob er sich mit Berichten oder Nachrichten auch von selbst meldet.\n\n**3. KI oder Mensch: Wissen Sie, was Sie brauchen?** Ein KI-Coach antwortet auch um zwei Uhr nachts und wird bei der zehnten gleichen Frage nicht ungeduldig. Ein menschlicher Coach schafft eine Beziehung: Wer nicht antwortet, fühlt sich gesehen. Die Studienlage für KI wächst. Eine Metaanalyse von 19 Studien zu Chatbots für Bewegung, Ernährung und Schlaf fand mehr Schritte pro Tag, mehr Obst und Gemüse und längeren Schlaf; **74 Prozent der Studien wurden aber als qualitativ schwach eingestuft** (Singh 2023). In der Übersicht zum Selbstmonitoring protokollierten Teilnehmende mit Beratung ähnlich konsequent wie solche, die nur eine App nutzten (Patel 2021). Wer sich vor jemandem verantworten muss, um dranzubleiben, ist mit einem Menschen besser bedient; wer vor allem Zeit oder Geld sparen will, mit einer KI.\n\n**4. Kennt er seine Grenzen?** Eine seriöse Gesundheits-KI stellt keine Diagnosen und rät nicht, die Dosis eines verordneten Medikaments zu ändern. Bei Verdacht auf eine Essstörung, bei einer diagnostizierten Erkrankung oder in der Schwangerschaft gehört der erste Termin in eine Praxis, nicht in eine App.\n\n## HAVIT — KI-Coach HAVI, entwickelt von Fachleuten aus dem Juvis-Umfeld\n\n| | |\n| --- | --- |\n| Anbieter | Havit Inc. |\n| Entwickelt von | Fachleuten, die von Juvis Diet kommen |\n| KI-Coach | HAVI — Startgespräch mit Body Blueprint und Zielplan, liest alle Einträge zusammen, schlägt eine Handlung für heute vor, beantwortet auch Fotos |\n| Kostenlos | Mahlzeiten erfassen (Suche, manuelle Eingabe) mit Kalorien pro Mahlzeit; Gewicht, Trinkmenge, Schlaf, Schritte, Fasten, Stimmung, Zyklus und GLP-1; geschätzte Körperzusammensetzung; Chat mit HAVI (mit Tageslimit) |\n| HAVIT Premium | Unbegrenzter Coach-Chat, Abendrückblick mit Vorsätzen, tägliches Check-in, Kohlenhydrate, Eiweiß und Fett pro Mahlzeit und Tag, verbleibende Kalorien, KI-Food-Scan, Trainingsvideos, geführte Meditationen und Artikel, jede Woche 2 Streak-Saver |\n| App Store (US) | 4,7 (159 Bewertungen) — in Deutschland noch zu wenige Bewertungen |\n\nDie Aufteilung zwischen kostenlos und Premium entspricht der Standardeinstellung der App im Oktober 2026; über Aktionen können einzelne Premium-Funktionen zeitweise freigeschaltet sein.\n\n### Der KI-Coach HAVI — liest Ihre Einträge und sagt, was heute dran ist\n\n![Der KI-Coach von HAVIT liest alle Einträge und gibt eine Handlung für heute zurück](/blog/havit/shot/feature-ai-coach.webp)\n\n**Am Anfang steht ein Gespräch.** HAVI fragt nach Ihrem Ziel (abnehmen, Gewicht halten, gesunde Gewohnheiten, Muskelaufbau), ob Sie GLP-1-Medikamente nehmen und welche Nebenwirkungen Sie haben, dann nach Größe, Gewicht, Taillenumfang und Körperform. Daraus entstehen Ihr **Body Blueprint**, eine Übersicht über Ihren Ausgangspunkt, und ein Zielplan. Statt Einstellungsseiten auszufüllen, führen Sie ein Gespräch, und wer Medikamente nimmt, bekommt von Anfang an einen anderen Plan als jemand ohne.\n\n**Danach liest er alles zusammen.** Mahlzeiten, Gewicht, Trinkmenge, Schlaf, Schritte, Fasten, Zyklus, Stimmung und GLP-1 liegen in einer App. HAVI sieht deshalb nicht nur das Essen, sondern den ganzen Tag. Ein Beispiel: In einer Woche, in der das Gewicht steht, sieht HAVI, dass Sie vier Tage unter Ihrem Eiweißziel lagen, zweimal unter sechs Stunden geschlafen haben und in der Woche vor der Periode sind, und nennt **die eine Sache, die Sie zuerst ändern sollten**. Das ist die Antwort von HAVIT auf Kriterium 1: Was liest der Coach?\n\n**Fragen stellen Sie direkt, auch mit Foto.** Restaurantbesuch, Plateau, was essen, wenn der Magen nach der Spritze rebelliert: Was gerade hakt, fragen Sie im Chat und können dazu **ein Foto schicken**, etwa von einer Speisekarte oder dem Kühlregal im Supermarkt: „Was davon passt am besten?“ Ohne Abo ist die Zahl der Chat-Nachrichten pro Tag begrenzt, mit HAVIT Premium unbegrenzt.\n\n**Der Tag endet mit einem Rückblick und einem Vorsatz.** Um 22 Uhr kommt Ihr **Abendrückblick**, und Sie können einen **Vorsatz für morgen** in einem Satz festhalten. Mit der Zeit sehen Sie, wie viele Ihrer Vorsätze der letzten 14 Tage Sie eingehalten haben. So meldet sich der Coach einmal am Tag zu einer festen Zeit von selbst (Abendrückblick und Vorsätze gehören zu HAVIT Premium).\n\n![Tägliches Check-in — in wenigen Tipps festhalten, was für ein Tag heute ist](/blog/havit/shot/feature-daily-check-in.webp)\n\nMit dem **täglichen Check-in** (HAVIT Premium) halten Sie Befinden, Schlaf, Appetit und Stimmung mit wenigen Tipps fest. Auch ein Tag, der nicht gut lief, bleibt so nicht leer, sondern zeigt, was für ein Tag es war.\n\n**Das 12-Wochen-Programm gibt die Handlungen vor.** Jede der 12 Stufen hat konkrete Missionen, etwa zu Schritten oder Eiweiß, und ob sie erfüllt sind, ergibt sich nicht aus einem Häkchen, sondern aus den tatsächlichen Mahlzeiten- und Schrittdaten. Bei Missionen über mehrere Tage wird ein verpasster Tag einmal toleriert, beim zweiten Mal hilft ein Streak-Saver, beim dritten beginnt die Mission neu.\n\n### Entwickelt von Fachleuten, die von Juvis Diet kommen\n\nHAVIT wurde von **Fachleuten entwickelt, die von Juvis Diet kommen**. Juvis ist eine koreanische Marke, bei der Beraterinnen und Berater Kundinnen und Kunden persönlich durch Ernährung und Alltag beim Abnehmen begleiten. Im Startgespräch mit HAVI und im 12-Wochen-Programm steckt diese Erfahrung aus der Arbeit mit Menschen, lange bevor es eine App gab.\n\n![Körperzusammensetzung — Trends bei Fett- und Magermasse statt nur Gewicht](/blog/havit/shot/feature-body-insights.webp)\n\n- **Zusammensetzung vor Gewicht.** HAVIT schätzt ohne zusätzliches Gerät die Entwicklung von Fett- und Magermasse (kostenlos). In einem internen Vergleich mit 70 Personen lag der geschätzte Körperfettanteil in 92,9 Prozent der Fälle innerhalb von ±5 Prozentpunkten des InBody-Messwerts; eine medizinische Messung ist das nicht. Deshalb stehen Eiweiß und Krafttraining im Mittelpunkt von Missionen und Coaching.\n- **Eins nach dem anderen.** Wie in der persönlichen Betreuung nennt der Coach lieber die eine Sache, die jetzt zählt, als eine lange Liste.\n- **Schlechte Tage gehören dazu.** Toleranz beim ersten Mal und Streak-Saver sorgen dafür, dass ein verpasster Tag nicht das Ende ist.\n\n### Wann HAVIT nicht die beste Wahl ist\n\nWenn Sie **Mahlzeiten kostenlos per Foto erfassen** wollen, ist HAVIT nicht die richtige App, denn der KI-Food-Scan gehört zu HAVIT Premium. Wer **mit einem Menschen statt mit einer KI** arbeiten will, ist bei Noom besser aufgehoben, wer **Punkte, Gruppe und Live-Sessions** braucht, bei WeightWatchers, und wer vor allem **einen Trainingsplan** sucht, bei Freeletics. Ohne Abo ist der Coach-Chat pro Tag begrenzt, Abendrückblick und tägliches Check-in sind dann nicht verfügbar.\n\n**Für wen.** Für alle, die protokollieren und nicht wissen, was sie ändern sollen; deren Gewicht mit Schlaf oder Zyklus zusammenhängt; die GLP-1-Medikamente nehmen; die einen Coach wollen, der alle Einträge sieht.\n\n## WeightWatchers — Punkte, Community und KI-Werkzeuge\n\n| | |\n| --- | --- |\n| App Store (DE) | **4,5 (103.882 Bewertungen)** |\n| KI und Coaching | KI-Body-Scanner, Weight Health Score, Live-Sessions mit Coaches |\n| Kosten | Gratis-Download, Mitgliedschaft im Abo |\n\n**Was sie gut macht.** Das Points-Programm mit ZeroPoint-Lebensmitteln ist eine bewährte Alternative zum Kalorienzählen. Laut Store-Eintrag zeigt ein **KI-Body-Scanner** Veränderungen bei Magermasse und Körperfett, und der **Weight Health Score** fasst zusammen, wie Schlaf, Bewegung und Ernährung zusammenwirken. Es gibt ein **GLP-1-Begleitprogramm** mit Dosis- und Nebenwirkungs-Tracker, Unterstützung in den Wechseljahren, Live-Sessions mit erfahrenen Coaches und eine Community. Mahlzeiten lassen sich auch per Foto erfassen, Aktivität und Schlaf kommen über Apple Health oder Fitbit.\n\n**Wo sie schwächelt.** Einen KI-Chat, dem man Fragen zu den eigenen Einträgen stellen kann, nennt der Store-Eintrag nicht. Ohne Mitgliedschaft bleibt wenig.\n\n**Für wen.** Für alle, die Struktur, eine Gruppe und viele Werkzeuge in einer bekannten Marke wollen.\n\n## Noom — Coaching durch Menschen statt KI\n\n| | |\n| --- | --- |\n| App Store (DE) | 4,3 (6.345 Bewertungen) |\n| Coaching | Persönliches Feedback vom Coach auf Basis Ihrer Aktivität in der App |\n| Kosten | Gratis-Download, Programm und Coaching im Abo |\n\n![Sich vor einem Menschen zu verantworten ist ein anderes Produkt](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n**Was sie gut macht.** Hier steht das **Coaching** im Mittelpunkt: Laut Store-Eintrag gibt der Coach persönliches Feedback auf Basis Ihrer Aktivität und Ihres Fortschritts und so viel Unterstützung, wie Sie brauchen. Dazu kommen ein psychologisch aufgebautes Programm mit über 250 Artikeln und Aufgaben sowie das Erfassen von Gewicht, Ernährung, Bewegung, Blutdruck und Blutzucker.\n\n**Wo sie schwächelt.** Programm und Coaching gibt es im Abo. Wo ein Mensch antwortet, kommt die Antwort nicht immer sofort. Zyklus, Medikation und Körperzusammensetzung kommen im Store-Eintrag nicht vor.\n\n**Für wen.** Für alle, die sich vor einer Person verantworten wollen und bereit sind, dafür zu zahlen.\n\n## Lifesum — KI-Tracking per Foto, Sprache und Text\n\n| | |\n| --- | --- |\n| App Store (DE) | 4,5 (81.840 Bewertungen) |\n| KI | Mahlzeiten per Foto, Sprachnachricht, Text oder Barcode erfassen; Life Score mit Tipps und Erinnerungen |\n| Kosten | Kostenlos mit eingeschränkten Funktionen, Premium im Abo |\n\n**Was sie gut macht.** Lifesum macht das Erfassen schnell: Foto, Sprachnachricht oder kurzer Text, und die App liefert Nährwerte. Der **Life Score** bewertet laut Store-Eintrag Essgewohnheiten, Trinkmenge und Aktivität und gibt Tipps und Erinnerungen. Dazu Habit-Tracker, Ernährungspläne mit Einkaufsliste und die Anbindung an Apple Health.\n\n**Wo sie schwächelt.** Die KI arbeitet vor allem beim Erfassen. Einen Coach, dem man Fragen zu den eigenen Einträgen stellt, nennt der Store-Eintrag nicht; Zyklus und Medikation kommen nicht vor.\n\n**Für wen.** Für alle, die vor allem schneller und einfacher protokollieren wollen.\n\n## Yazio — KI-Kalorienzähler und Intervallfasten\n\n| | |\n| --- | --- |\n| App Store (DE) | **4,6 (447.175 Bewertungen)** |\n| KI | Mahlzeiten per Foto erkennen und Kalorien tracken |\n| Kosten | Kostenlos, Yazio Pro im Abo |\n\n**Was sie gut macht.** Yazio kommt aus Deutschland und hat in diesem Vergleich die meisten Bewertungen im deutschen App Store. Laut Store-Eintrag erkennt die App Mahlzeiten auf einem Foto, dazu kommen Barcode-Scanner, über 20 Fastenpläne, über 3.000 Rezepte, Aktivitäts-Tracking und automatische Erinnerungen. Pro ergänzt unter anderem Auswertungen aller Nährstoffe und das Dokumentieren von Körperwerten.\n\n**Wo sie schwächelt.** Auch hier ist die KI vor allem ein Erfassungswerkzeug. Einen Chat-Coach, Zyklus oder Medikation nennt der Store-Eintrag nicht.\n\n**Für wen.** Für alle, die einen bewährten Kalorienzähler mit Fasten-Timer wollen.\n\n## Freeletics — KI-Coach fürs Training\n\n| | |\n| --- | --- |\n| App Store (DE) | 4,6 (53.060 Bewertungen) |\n| KI-Coach | Stellt jedes Workout nach Ziel, Vorlieben und Fitnesslevel zusammen und passt es an Ihre Rückmeldung an |\n| Kosten | Kostenlos (34 HIIT-Workouts), Freeletics Coach im Abo |\n\n**Was sie gut macht.** Der **KI-Coach** von Freeletics stimmt laut Store-Eintrag jedes Workout auf Ihr Fitnesslevel ab und passt es in Echtzeit an Ihr Feedback an, für zu Hause, im Studio oder unterwegs. Zur Wahl stehen 30 Trainingspläne mit unterschiedlichem Schwerpunkt, von Bodyweight-HIIT bis zu Geräten und Cardio.\n\n**Wo sie schwächelt.** Eine Trainings-App. Der Ernährungs-Coach steckt in einer separaten App (Freeletics Nutrition); wer das Abnehmen insgesamt begleiten lassen will, braucht dafür eine zweite App.\n\n**Für wen.** Für alle, die nicht wissen, welches Training zu ihnen passt, und die Ernährung anderweitig im Griff haben.\n\n## Allgemeine KI-Assistenten (ChatGPT, Gemini, Claude u. a.)\n\n**Was sie gut machen.** Begriffe erklären, Wochenpläne schreiben, Gerichte auf einer Speisekarte vergleichen: Das können sie sehr gut. Fotos lassen sich hochladen, und je nach Dienst merken sie sich frühere Unterhaltungen.\n\n**Wo sie schwächeln.** **Ihre Mahlzeiten, Schritte und Ihr Schlaf kommen nicht von selbst jeden Tag dort an.** Die Antworten beruhen auf dem, was Sie hineinkopieren; an Tagen ohne Eintrag weiß der Assistent nichts. Manche Dienste beginnen mit Anbindungen an Gesundheitsdaten, das hängt aber von Land und Funktion ab. Für Diagnosen oder Medikamentendosen sind sie nicht gedacht.\n\n**Für wen.** Für alle, die ab und zu etwas fragen wollen. Ein Coach, der sich jeden Tag von selbst kümmert, ist das nicht.\n\n## Gegenüberstellung\n\n| App | Was die KI bzw. der Coach tut | Was der Coach mitliest | Fotos | Meldet sich von selbst | Kosten | App Store |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | Startgespräch mit Plan → liest Einträge, schlägt Handlung für heute vor | Mahlzeiten, Schlaf, Schritte, Zyklus, Stimmung, GLP-1 u. a. | Fotos im Chat (KI-Food-Scan ist Premium) | Abendrückblick um 22 Uhr (Premium) | Coach-Chat kostenlos mit Tageslimit, unbegrenzt mit Premium | US 4,7 (159) |\n| WeightWatchers | KI-Body-Scanner, Weight Health Score, Live-Sessions mit Coaches | Ernährung, Aktivität, Schlaf, GLP-1 | Mahlzeiten per Foto | Nicht beschrieben | Mitgliedschaft (Abo) | DE 4,5 (103.882) |\n| Noom | Coaching mit persönlichem Feedback | Ernährung, Bewegung, Gewicht, Blutdruck, Blutzucker | Nicht beschrieben | Nicht beschrieben | Abo | DE 4,3 (6.345) |\n| Lifesum | KI-Erfassung, Life Score mit Tipps | Ernährung, Trinkmenge, Aktivität | Mahlzeiten per Foto | Tipps und Erinnerungen | Kostenlos (eingeschränkt) + Premium | DE 4,5 (81.840) |\n| Yazio | KI-Kalorienzähler | Ernährung, Fasten, Aktivität | Mahlzeiten per Foto | Erinnerungen | Kostenlos + Pro | DE 4,6 (447.175) |\n| Freeletics | KI-Coach für Workouts | Training, Feedback | Entfällt | Nicht beschrieben | Kostenlos + Coach-Abo | DE 4,6 (53.060) |\n| Allgemeine KI | Fragen beantworten, Pläne schreiben | Was Sie eingeben | Fotos hochladen möglich | Nur wenn eingerichtet | Kostenlos + Abo | — |\n\nStand: deutsche App-Store-Einträge vom 24. Oktober 2026 (HAVIT: US-Wert). „Nicht beschrieben“ heißt, dass der Store-Eintrag dazu nichts sagt, nicht, dass es die Funktion nicht gibt.\n\n## Zwei Wochen testen: so geht's\n\nDie meisten Apps lassen sich gratis laden oder bieten eine Testphase. Probieren Sie vor der Entscheidung selbst aus.\n\n1. **Protokollieren Sie die erste Woche wie gewohnt.** Nicht nur Mahlzeiten, auch Schlaf und Schritte.\n2. **Fragen Sie: „Was habe ich gestern gegessen?“ und „Wie habe ich diese Woche geschlafen?“** Dann sehen Sie sofort, ob der Coach Ihre Einträge liest.\n3. **Fragen Sie: „Warum steht mein Gewicht diese Woche?“** Kommt nur Allgemeines („weniger Kalorien“), oder sucht der Coach den Grund in Ihren Einträgen?\n4. **Tragen Sie auch einen schlechten Tag ehrlich ein.** Was der Coach am Tag danach sagt, entscheidet, ob Sie die App lange nutzen.\n5. **Prüfen Sie, was kostenlos ist.** Ob der Chat gratis ist, wie oft am Tag und ob die Fotoanalyse Geld kostet, ist von App zu App verschieden.\n\n## Fazit\n\nBei KI-Coach-Apps zählt weniger, welche KI klüger ist, sondern **was der Coach liest und was er damit für Sie tut.**\n\nWer Struktur und Gruppe braucht, ist bei WeightWatchers richtig, wer einen Menschen will, bei Noom, wer vor allem schneller erfassen möchte, bei Lifesum oder Yazio, und wer einen Trainingsplan sucht, bei Freeletics. Wenn Sie protokollieren und nicht wissen, was Sie ändern sollen, brauchen Sie einen Coach, der Mahlzeiten, Schlaf, Schritte, Zyklus und GLP-1 zusammen liest und eine Sache für heute nennt. HAVIT ist die App, in der Fachleute aus dem Juvis-Umfeld diesen Coach als KI-Coach HAVI umgesetzt haben.\n\n[HAVIT ausprobieren →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "Datenströme, die der HAVIT-Coach liest",
-          "value": "8",
-          "source": "Mahlzeiten, Trinkmenge, Training, Schlaf, Schritte, Zyklus, Stimmung, GLP-1"
+          "label": "Anteil der Auswertungen, in denen mehr digitales Protokollieren mit mehr Gewichtsverlust einherging",
+          "value": "74 %",
+          "source": "Patel et al. 2021, Obesity (systematische Übersicht, 39 randomisierte Studien)"
         },
         {
-          "label": "Was allgemeinen Assistenten fehlt",
-          "value": "Live-Strom der heutigen Mahlzeiten, des Schlafs und der Schritte",
-          "source": "Erinnerung und Datenanbindung sind nicht dasselbe"
+          "label": "Metaanalyse zu Chatbots für Bewegung, Ernährung und Schlaf",
+          "value": "19 Studien — mehr Schritte, Obst/Gemüse und Schlaf; 74 % qualitativ schwach",
+          "source": "Singh et al. 2023, npj Digital Medicine"
         },
         {
-          "label": "Testdauer, die ein Skript entlarvt",
-          "value": "~2 Wochen, mit einer schlechten Woche",
-          "source": "Testmethode dieses Leitfadens"
+          "label": "HAVIT im App Store (US)",
+          "value": "4,7 (159 Bewertungen)",
+          "source": "App Store, abgerufen am 24. Oktober 2026"
         },
         {
-          "label": "Techniken der Verhaltensänderung in der Standardtaxonomie",
-          "value": "93",
-          "source": "Michie et al. 2013, Ann Behav Med"
+          "label": "Was HAVI zusammen liest",
+          "value": "Mahlzeiten, Schlaf, Schritte, Zyklus, Stimmung, GLP-1 u. a.",
+          "source": "Funktionen der HAVIT-App"
         }
       ],
       "comparison_table": {
-        "title": "Vergleich",
+        "title": "Gegenüberstellung",
         "headers": [
           "App",
-          "Was der Coach liest",
-          "Spricht zuerst?",
-          "Körperzusammensetzung",
-          "Zyklus",
-          "GLP-1",
-          "Meditation & Training"
+          "Was die KI bzw. der Coach tut",
+          "Was der Coach mitliest",
+          "Fotos",
+          "Meldet sich von selbst",
+          "Kosten",
+          "App Store"
         ],
         "rows": [
           [
-            "Noom",
-            "Mahlzeiten, Aktivität, Gewicht",
-            "Der menschliche Coach",
-            "Nein",
-            "Nein",
-            "Nein",
-            "Nur Inhalte"
-          ],
-          [
-            "Yazio / Lifesum",
-            "Mahlzeiten und Ziele",
-            "Nein",
-            "Nein",
-            "Nein",
-            "Nein",
-            "Nein"
-          ],
-          [
-            "Foto-Apps",
-            "Das eben gemachte Foto",
-            "Nein",
-            "Nein",
-            "Nein",
-            "Nein",
-            "Nein"
-          ],
-          [
-            "Allgemeine Assistenten",
-            "Nur Eingefügtes",
-            "Nur wenn eingerichtet",
-            "Nein",
-            "Nein",
-            "Nein",
-            "Nein"
-          ],
-          [
             "HAVIT",
-            "Alle 8 Protokolle",
-            "Ja",
-            "Geschätzt",
-            "Ja",
-            "Ja",
-            "Ja"
+            "Startgespräch mit Plan → liest Einträge, schlägt Handlung für heute vor",
+            "Mahlzeiten, Schlaf, Schritte, Zyklus, Stimmung, GLP-1 u. a.",
+            "Fotos im Chat (KI-Food-Scan ist Premium)",
+            "Abendrückblick um 22 Uhr (Premium)",
+            "Coach-Chat kostenlos mit Tageslimit, unbegrenzt mit Premium",
+            "US 4,7 (159)"
+          ],
+          [
+            "WeightWatchers",
+            "KI-Body-Scanner, Weight Health Score, Live-Sessions mit Coaches",
+            "Ernährung, Aktivität, Schlaf, GLP-1",
+            "Mahlzeiten per Foto",
+            "Nicht beschrieben",
+            "Mitgliedschaft (Abo)",
+            "DE 4,5 (103.882)"
+          ],
+          [
+            "Noom",
+            "Coaching mit persönlichem Feedback",
+            "Ernährung, Bewegung, Gewicht, Blutdruck, Blutzucker",
+            "Nicht beschrieben",
+            "Nicht beschrieben",
+            "Abo",
+            "DE 4,3 (6.345)"
+          ],
+          [
+            "Lifesum",
+            "KI-Erfassung, Life Score mit Tipps",
+            "Ernährung, Trinkmenge, Aktivität",
+            "Mahlzeiten per Foto",
+            "Tipps und Erinnerungen",
+            "Kostenlos (eingeschränkt) + Premium",
+            "DE 4,5 (81.840)"
+          ],
+          [
+            "Yazio",
+            "KI-Kalorienzähler",
+            "Ernährung, Fasten, Aktivität",
+            "Mahlzeiten per Foto",
+            "Erinnerungen",
+            "Kostenlos + Pro",
+            "DE 4,6 (447.175)"
+          ],
+          [
+            "Freeletics",
+            "KI-Coach für Workouts",
+            "Training, Feedback",
+            "Entfällt",
+            "Nicht beschrieben",
+            "Kostenlos + Coach-Abo",
+            "DE 4,6 (53.060)"
+          ],
+          [
+            "Allgemeine KI",
+            "Fragen beantworten, Pläne schreiben",
+            "Was Sie eingeben",
+            "Fotos hochladen möglich",
+            "Nur wenn eingerichtet",
+            "Kostenlos + Abo",
+            "—"
           ]
         ],
-        "caption": "Stand Oktober 2026."
+        "caption": "Stand: deutsche App-Store-Einträge vom 24. Oktober 2026 (HAVIT: US-Wert). „Nicht beschrieben“ heißt, dass der Store-Eintrag dazu nichts sagt, nicht, dass es die Funktion nicht gibt."
       },
       "faq": [
         {
-          "question": "Welche KI-Coach-App ist die beste?",
-          "answer": "Die, die Ihre eigenen Protokolle liest und nicht nur Ihre Nachrichten. Fragen Sie in der Testphase, was Sie gestern gegessen haben: Müssen Sie die Antwort hineinkopieren, ist es ein Chatfenster in einem Tracker. Prüfen Sie danach, ob eine konkrete Handlung statt eines Plans zurückkommt und ob sich das System bei einer schlechten Woche anpasst."
+          "question": "Welche KI-Coach-App zum Abnehmen ist die beste?",
+          "answer": "Das hängt davon ab, was Sie brauchen. Wer protokolliert und nicht weiß, was zu ändern ist, ist mit HAVIT gut beraten, weil der Coach Mahlzeiten, Schlaf, Schritte, Zyklus und GLP-1 zusammen liest. Struktur und Gruppe bietet WeightWatchers, Coaching durch Menschen Noom, schnelles Erfassen per Foto Lifesum oder Yazio, Trainingspläne Freeletics."
+        },
+        {
+          "question": "Was macht der KI-Coach HAVI?",
+          "answer": "Zu Beginn fragt er im Gespräch nach Ziel, GLP-1-Medikamenten und Nebenwirkungen sowie Größe, Gewicht, Taillenumfang und Körperform und erstellt daraus Body Blueprint und Zielplan. Danach liest er alle Einträge und schlägt eine Handlung für heute vor; Fragen können Sie auch mit Foto stellen. Um 22 Uhr kommen Abendrückblick und ein Vorsatz für morgen, mit einer Übersicht, wie viele Vorsätze der letzten 14 Tage Sie gehalten haben (Premium)."
+        },
+        {
+          "question": "Ist der KI-Coach von HAVIT kostenlos?",
+          "answer": "Der Chat mit HAVI ist kostenlos, aber pro Tag begrenzt. Mit HAVIT Premium ist er unbegrenzt, und Abendrückblick mit Vorsätzen, tägliches Check-in, KI-Food-Scan und die Aufschlüsselung in Kohlenhydrate, Eiweiß und Fett kommen dazu. Mahlzeiten, Gewicht, Schlaf, Schritte, Zyklus und GLP-1 erfassen sowie die geschätzte Körperzusammensetzung sind kostenlos."
+        },
+        {
+          "question": "Was unterscheidet HAVIT von WeightWatchers?",
+          "answer": "WeightWatchers setzt laut Store-Eintrag auf das Points-Programm, Community und Live-Sessions mit Coaches, dazu KI-Body-Scanner, Weight Health Score und ein GLP-1-Begleitprogramm. Einen KI-Chat zu den eigenen Einträgen nennt der Eintrag nicht. HAVIT stellt den KI-Coach HAVI in den Mittelpunkt, der Zyklus, Schlaf und GLP-1 zusammen liest und eine Handlung für heute vorschlägt. Wer Gruppe und Punkte braucht, wählt WW; wer einen Coach für alle Einträge will, HAVIT."
+        },
+        {
+          "question": "Sind Lifesum und Yazio KI-Coaches?",
+          "answer": "Beide nutzen KI vor allem zum Erfassen: Mahlzeiten werden auf dem Foto erkannt, bei Lifesum auch per Sprache und Text. Lifesum ergänzt den Life Score mit Tipps und Erinnerungen. Einen Chat-Coach, der Ihre Einträge liest und Fragen dazu beantwortet, nennen die Store-Einträge nicht."
         },
         {
           "question": "Was ist der Unterschied zu ChatGPT für Ernährungsfragen?",
-          "answer": "Allgemeine Assistenten erinnern sich inzwischen über Unterhaltungen hinweg und können zu festen Zeiten schreiben, wenn man das einrichtet. Was weiterhin fehlt, ist ein fortlaufender Strom der heutigen Mahlzeiten, des Schlafs und der Schritte — die Verbindung zwischen vier Tagen wenig Protein, zwei kurzen Nächten und stehendem Gewicht müssen Sie selbst herstellen."
+          "answer": "Erklären und Pläne schreiben können allgemeine Assistenten wie ChatGPT gut. Der Unterschied sind die täglichen Einträge: Der Coach einer Abnehm-App liest Mahlzeiten, Schritte und Schlaf direkt aus der App, ein allgemeiner Assistent antwortet auf das, was Sie hineinkopieren. An Tagen ohne Eintrag weiß er nichts."
         },
         {
-          "question": "Ist der Coach bei Noom eine KI oder ein Mensch?",
-          "answer": "Ein Mensch. Kern von Noom ist ein menschlicher Coach, dem Sie schreiben können, dazu ein Psychologie-Curriculum. Deshalb liegt Noom in der obersten Preisklasse. KI-Coaching ist günstiger und auch um zwei Uhr nachts da, aber Verantwortung gegenüber einem Menschen ist ein anderes Produkt."
+          "question": "KI-Coach oder menschlicher Coach — was ist besser?",
+          "answer": "Das hängt von Ihnen ab. In einer Metaanalyse von 19 Studien steigerten Chatbots Schritte, Obst- und Gemüseverzehr und Schlafdauer, die meisten Studien waren aber qualitativ schwach (Singh 2023). Eine KI antwortet jederzeit und kostet weniger, ein Mensch schafft Verbindlichkeit. Wer sich vor jemandem verantworten muss, sollte menschliches Coaching wie bei Noom in Betracht ziehen."
         },
         {
-          "question": "Sind Foto-Apps wie Cal AI KI-Coaches?",
-          "answer": "Sie machen Erkennung, kein Coaching. Darin sind sie gut und lösen ein echtes Problem — aus einem Teller wird in Sekunden ein Eintrag. Aber sie beantworten \"was war das?\" und nicht \"was sollte ich ändern?\". Hängen Sie an der Geschwindigkeit, passen sie; hängen Sie am nächsten Schritt, nicht."
+          "question": "Kann ein KI-Coach Ernährungsberatung oder ärztliche Betreuung ersetzen?",
+          "answer": "Nein. Eine seriöse Gesundheits-KI stellt keine Diagnosen und rät nicht, die Dosis eines verordneten Medikaments zu ändern. Auch HAVIT ist kein Medizinprodukt und keine DiGA, die geschätzte Körperzusammensetzung keine medizinische Messung. Bei Verdacht auf eine Essstörung, einer diagnostizierten Erkrankung oder in der Schwangerschaft gehen Sie zuerst zu einer Fachperson."
         },
         {
-          "question": "Woran erkenne ich, ob die Personalisierung echt ist?",
-          "answer": "Protokollieren Sie absichtlich eine schlechte Woche. Ein echtes Coaching-System senkt die Anforderung, ändert das Ziel oder fragt, was los war. Ein Skript wiederholt denselben fröhlichen Anstoß. Das zu erkennen dauert rund zwei Wochen — deshalb lohnt es sich in der kostenlosen Phase."
-        },
-        {
-          "question": "Kann ein KI-Coach Ernährungsberatung oder Therapie ersetzen?",
-          "answer": "Nein. Eine vernünftige Gesundheits-KI lehnt Diagnosen ab und sagt Ihnen nicht, eine verordnete Dosis zu ändern — HAVIT eingeschlossen, denn es ist eine Wellness-App und kein Medizinprodukt. Bei Essstörungen oder diagnostizierter Erkrankung gehört das in fachliche Hände."
+          "question": "Wer steckt hinter HAVIT?",
+          "answer": "Entwickelt wurde HAVIT von Fachleuten, die von Juvis Diet kommen, einer koreanischen Marke für persönlich betreutes Abnehmen. Diese Erfahrung steckt im KI-Coach HAVI und im 12-Wochen-Programm, mit dem Schwerpunkt auf Fett- und Magermasse statt nur Gewicht. Anbieter ist Havit Inc."
         }
       ],
       "references": [
         {
-          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
-          "source": "Annals of Behavioral Medicine, 2013",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+          "title": "Self-Monitoring via Digital Health in Weight Loss Interventions: A Systematic Review Among Adults with Overweight or Obesity (Patel, Wakayama & Bennett)",
+          "source": "Obesity, 2021 — 39 RCTs; mehr digitales Selbstmonitoring in 74 % der Fälle mit Gewichtsverlust verbunden; Arme mit Beratung und reine App-Arme mit ähnlichen Protokollierungsraten",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33624440/"
         },
         {
-          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
-          "source": "New England Journal of Medicine, 2002 (n=3.234)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
-        },
-        {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Stufe B",
-          "source": "U.S. Preventive Services Task Force, 2018 (Thema wird aktualisiert); Erwachsene mit BMI ≥30, von Klinikern durchgeführt",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026 — HAVIT interne Analyse von 1.090 GLP-1-Nutzern",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/de/glp-1-habit-report"
+          "title": "Systematic review and meta-analysis of the effectiveness of chatbots on lifestyle behaviours (Singh et al.)",
+          "source": "npj Digital Medicine, 2023 — 19 Studien; Chatbots steigerten Schritte, Obst- und Gemüseverzehr und Schlafdauer; 74 % der Studien von geringer Qualität",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37353578/"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-24"
     },
     "fr": {
       "title": "Meilleurs coachs santé IA 2026 : lesquels lisent vraiment vos données",
