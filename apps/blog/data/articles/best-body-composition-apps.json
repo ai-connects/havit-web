@@ -710,141 +710,144 @@
       "last_updated": "2026-10-24"
     },
     "es": {
-      "title": "Mejores apps de composición corporal en 2026: la escalera de precisión",
-      "short_title": "Mejores apps de composición corporal 2026",
-      "meta_description": "DEXA, InBody, básculas de composición, relojes inteligentes y HAVIT, uno por uno. Qué mide y qué estima, por qué esa distinción decide tu elección, y si hay algo pegado a la tendencia.",
-      "tldr": "DEXA e InBody miden; las básculas y las apps estiman. Una estimación que se equivoca siempre igual sigue registrando bien el cambio: sirve para \"¿me está costando músculo?\" y no para \"¿cuál es mi porcentaje de grasa?\".",
-      "body_md": "Si necesitas un número que puedas llevar a tu médico, deja de leer y pide un **DEXA**. Ninguna app es eso.\n\nSi lo que quieres es saber, **semana a semana**, si lo que estás perdiendo es grasa o músculo, una herramienta de consumo sí sirve —siempre que entiendas qué está haciendo.\n\nEsta guía analiza los métodos y las apps uno por uno.\n\n![Un número en la báscula no dice qué has perdido](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_004.jpg)\n\n## Primero: la escalera de precisión\n\n| Escalón | Método | ¿Mide o estima? | Qué mueve el número |\n| --- | --- | --- | --- |\n| 1 | DEXA | **Mide** (referencia) | Casi nada |\n| 2 | BIA multifrecuencia (InBody y similares) | **Mide** | Hidratación, comida, ejercicio, hora del día |\n| 3 | Báscula de composición · reloj inteligente | Mide (pie-pie / mano-mano) | Todo lo del escalón 2, más el contacto |\n| 4 | Estimación de app (cuestionario o foto) | **Estima** | Calidad de los datos, supuestos del modelo |\n\nLos escalones 1 y 2 miden. Los escalones 3 y 4 **estiman**. Esa distinción es todo el artículo. Una estimación que se equivoca siempre en la misma dirección sigue registrando bien el cambio: sirve para \"¿esta dieta me está costando músculo?\" y no sirve para \"¿cuál es mi porcentaje de grasa?\".\n\n## Por qué composición y no peso\n\nEl peso oscila con agua, glucógeno, sodio y ciclo. Importa más con **GLP-1** (Wegovy, Ozempic, Mounjaro, Zepbound): la proporción de masa magra dentro del peso perdido se ha descrito entre el **40% y el 60%** en algunos ensayos y en **15% o menos** en otros. La báscula cuenta todo eso como éxito.\n\nLa masa magra no es lo mismo que músculo: incluye órganos, hueso y líquido. Pero en cualquier caso la báscula no te dice en qué extremo estás.\n\n## Básculas de composición corporal — lo más barato por tendencia\n\n| | |\n| --- | --- |\n| Escalón | 3 (BIA pie-pie) |\n| Hardware | Báscula inteligente |\n\n![Mismas condiciones, o la comparación no significa nada](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_005.jpg)\n\n**Lo que hacen bien.** Te subes y ya está. Para datos de tendencia diaria es la mejor relación coste-beneficio de la escalera.\n\n**Dónde fallan.** La impedancia pie-pie infravalora el tren superior y cambia con la humedad de los pies. **No te fíes del valor absoluto.**\n\n**Para quién.** Para quien se suba a la misma hora, en el mismo estado, y lea solo la pendiente.\n\n## InBody — el escalón 2 más accesible\n\n| | |\n| --- | --- |\n| Escalón | 2 (BIA multifrecuencia) |\n| Hardware | Equipo dedicado (gimnasios, clínicas) |\n\n**Lo que hace bien.** Lecturas por segmentos y disponibilidad amplia. Excelente para fijar un punto de partida.\n\n**Dónde falla.** Las lecturas se mueven varios puntos con hidratación, comida, ejercicio y hora del día: **dos medidas el mismo día pueden no coincidir.** Y hay que ir donde está la máquina, así que no es una herramienta de tendencia diaria.\n\n**Para quién.** Para quien quiera una referencia sólida una o dos veces al mes.\n\n## BIA en reloj inteligente\n\n| | |\n| --- | --- |\n| Escalón | 3 (BIA mano-mano) |\n\n**Lo que hace bien.** Sin desplazarte: mides desde la muñeca en menos de un minuto.\n\n**Dónde falla.** El muestreo mano-mano infravalora el tren inferior y el resultado depende de que el perfil esté bien configurado.\n\n**Para quién.** Para quien ya lleva ese reloj.\n\n## HAVIT — la tendencia, con algo pegado a ella\n\n| | |\n| --- | --- |\n| Escalón | 4 (estimación por IA a partir de cuestionario) |\n| Hardware | Ninguno |\n| Validación | Comparación interna frente a InBody, **n=70**, publicada |\n| Se lee junto a | Comidas, hidratación, entrenamientos, sueño, pasos, ciclo, ánimo, GLP-1 |\n\n![Tendencias de grasa y masa magra, no un veredicto](/blog/havit/shot/feature-body-insights.webp)\n\n**El número no es lo importante. Lo importante es lo que hay al lado.**\n\nUna báscula inteligente te da una cifra y se acaba. HAVIT pone la tendencia de composición junto a **comidas, proteína, sueño, pasos, ciclo y medicación**, y **el coach de IA lo lee todo junto**. Por eso una tendencia de masa magra que baja puede responderse el mismo día: más proteína, más trabajo de fuerza, o bajar el ritmo de pérdida.\n\n![El coach de IA convierte la tendencia en una acción](/blog/havit/shot/feature-ai-coach.webp)\n\nCon tratamiento GLP-1, **dosis, efectos secundarios y proteína** se registran en la misma app, así que la señal de masa magra nunca se lee aislada.\n\nLa misma app lleva **misiones diarias**, **check-in diario**, **seis pistas de meditación guiada**, **vídeos de entrenamiento**, **ayuno** y **más de 1.400 artículos**. Creada junto a especialistas procedentes de Juvis Diet, una clínica de adelgazamiento coreana.\n\n**Dicho claramente:** esto es el escalón 4. Una estimación, no una medición. Pero para vigilar una tendencia y cambiar lo que haces es suficiente, y conectar la tendencia con una acción es algo que no hace nada más de esta lista.\n\n**Para quién.** Para quien quiere una tendencia semanal sin comprar hardware, y saber qué hacer con ella.\n\n## Comparación\n\n| Herramienta | Escalón | Hardware | Tendencia diaria | ¿Conecta con una acción? | Se lee junto a |\n| --- | --- | --- | --- | --- | --- |\n| DEXA | 1 | Clínica | No | No | Nada |\n| InBody | 2 | Equipo dedicado | Difícil | No | Nada |\n| Báscula de composición | 3 | Báscula | **Sí** | No | Nada |\n| Reloj inteligente | 3 | Reloj | Sí | No | Actividad |\n| **HAVIT** | 4 | **Ninguno** | **Sí** | **El coach lo conecta** | **Los 8 registros** |\n\n## Cómo leer tus números con honestidad\n\n- **Compara lo comparable.** Un dispositivo, una hora del día, un estado.\n- **Usa una ventana de cuatro semanas.** Menos que eso es ruido.\n- **Mira el par, no el porcentaje.** La señal es grasa y masa magra moviéndose en direcciones opuestas.\n- **Ancla la tendencia con una medición real.** Un InBody ocasional y la app rellenando entre medias te da casi todo el valor de ambos.\n- **Si el número te angustia, deja de usarlo.** Una vez por semana sobra.\n\n## En resumen\n\nElige el escalón que corresponde a tu pregunta. \"¿Cuál es mi porcentaje de grasa?\" es una pregunta de escalón 1 o 2. \"¿Esta dieta me está costando músculo?\" es de escalón 3 o 4, y las herramientas de consumo la responden lo bastante bien como para cambiar lo que haces.\n\nLa mayoría necesita la segunda. La siguiente bifurcación es si hay algo pegado a la tendencia.\n\n[Probar HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Qué app de composición corporal elegir en 2026: 6 opciones comparadas (InBody, reloj, báscula o sin aparatos)",
+      "short_title": "Apps de composición corporal 2026: 6 opciones",
+      "meta_description": "HAVIT, InBody, Samsung Health, Withings, Zepp Life y RENPHO Health comparadas. Qué diferencia hay entre el DEXA, la bioimpedancia (InBody, báscula, reloj) y la estimación sin aparatos, qué necesitas y qué es gratis. Octubre de 2026.",
+      "tldr": "Salvo el DEXA, la composición corporal del InBody, la báscula o el reloj también es una estimación calculada a partir de la impedancia. Si necesitas una cifra fiable, DEXA o analizador de bioimpedancia; si ya tienes un aparato, su propia app; si no tienes aparatos y quieres ver la dirección de tu grasa y tu masa magra y qué hacer, una app con estimación gratuita y coach con IA. En todos los casos, mira la tendencia de varias mediciones con el mismo aparato y en las mismas condiciones.",
+      "body_md": "Te haces un InBody en el gimnasio y el porcentaje de grasa ha bajado dos puntos respecto al mes pasado. Al día siguiente, la báscula de casa dice justo lo contrario. ¿Se ha estropeado alguna de las dos?\n\nLo más probable es que no. **Salvo el DEXA, todas las cifras de composición corporal que manejamos son estimaciones calculadas.** El InBody, las básculas de composición y los relojes inteligentes hacen pasar una corriente muy débil por el cuerpo, miden la resistencia que encuentra (la impedancia) y meten ese valor, junto con tu altura, peso, sexo y edad, en una fórmula que estima la grasa y la masa muscular. Es lo que se llama **análisis de bioimpedancia (BIA)**. Cada aparato usa su propia fórmula y sus propios electrodos, así que el mismo día pueden dar números distintos.\n\nEn esta guía ordenamos las formas de conocer tu composición corporal de más a menos precisa y repasamos seis apps que se usan en España. Las valoraciones y lo que es gratis o de pago salen de la descripción oficial de cada app en el App Store de España (octubre de 2026). No ponemos precios porque cambian a menudo.\n\nHAVIT es la app que hace el equipo que escribe este blog, formado por **especialistas procedentes de Juvis Diet** (una marca coreana dedicada al control de peso con seguimiento personal). Por eso contamos con cifras qué es y qué no es el dato de composición corporal de HAVIT, y dedicamos un apartado a los casos en que HAVIT no es la mejor opción para ti.\n\n![Un número en la báscula no dice qué has perdido](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_004.jpg)\n\n## Si tienes prisa: qué te conviene según tu caso\n\n| Tu caso | Método o app | Por qué |\n| --- | --- | --- |\n| Necesitas una cifra fiable para tu médico o un estudio | **DEXA** | Es la prueba de referencia en investigación. Ninguna app la sustituye |\n| Te mides en un InBody (gimnasio, clínica) o tienes un aparato InBody | App InBody | App oficial del fabricante: resultados, gráficas e historial |\n| Ya llevas un Galaxy Watch con sensor BIA | Samsung Health | El reloj mide desde la muñeca |\n| Tienes o quieres una báscula Withings | Withings | Peso y composición corporal junto con sueño, actividad y tensión |\n| Tienes una báscula Xiaomi | Zepp Life | Se conecta a la Mi Body Composition Scale |\n| Quieres una báscula de composición asequible | RENPHO Health | App de las básculas RENPHO, con varios perfiles para la familia |\n| No tienes aparatos y quieres ver la tendencia y qué hacer con ella | **HAVIT** | Estimación de composición corporal gratis + un coach con IA que lee todos tus registros |\n| Estás en tratamiento con GLP-1 (Wegovy, Ozempic, Mounjaro…) | **HAVIT** | Dosis, efectos secundarios, proteína y composición estimada en la misma app |\n\n## Antes de nada: cuatro formas de conocer tu composición corporal\n\nDe más a menos precisa. Cuanto más abajo, más cómoda, pero también más cosas pueden mover el número.\n\n| Método | Cómo funciona | Aparatos o apps | Qué mueve el número |\n| --- | --- | --- | --- |\n| 1. DEXA | Rayos X de baja dosis que separan grasa, masa magra y hueso. Prueba de referencia | Hospitales y centros de investigación | Relativamente poco |\n| 2. Analizador de bioimpedancia | **Estima con BIA.** Electrodos en manos y pies, varias frecuencias | InBody de gimnasio o clínica | Hidratación, comida, ejercicio, hora del día |\n| 3. BIA doméstica | **Estima con BIA.** Báscula, reloj o aparato InBody de casa | Galaxy Watch, básculas Withings, Xiaomi o RENPHO | Lo del punto 2 + piel seca, postura, contacto |\n| 4. Estimación por app sin aparatos | Un modelo estima a partir de los datos que introduces | HAVIT | Calidad de los datos, supuestos del modelo |\n\n**Los puntos 2 y 3 tampoco \"miden\" la grasa: la estiman.** Lo que el aparato mide de verdad es la impedancia; el porcentaje de grasa sale de una fórmula. Eso no significa que no sirvan. Esto es lo que dicen los estudios:\n\n- **InBody frente a DEXA**: en un estudio con 67 adultos medidos en dos días distintos, tres modelos de InBody dieron valores casi idénticos al repetir la medición (error típico del porcentaje de grasa entre 0,77 y 0,99 puntos). Pero los tres tendían de forma sistemática a dar **menos grasa y más masa magra que el DEXA**. Los autores concluyen que pueden usarse si no hay DEXA, siempre que se tenga en cuenta ese sesgo (McLester 2020).\n- **Reloj inteligente frente a DEXA**: en un estudio con 75 personas, la masa magra del reloj fue casi igual a la de un BIA de investigación de 8 electrodos, pero difería de forma significativa de la del DEXA (un sesgo que se puede corregir). Además, el reloj era menos preciso al repetir la medición, así que **hacían falta más mediciones para confirmar un cambio** con la misma seguridad que con el DEXA (Bennett 2022).\n\nEn resumen: un aparato doméstico sirve menos para saber \"cuál es exactamente mi porcentaje de grasa\" y más para ver **hacia dónde va el número cuando te mides siempre con el mismo aparato**. Y esa dirección es fiable cuando miras varias mediciones juntas, no una sola.\n\n## Por qué mirar la composición y no solo el peso, sobre todo con GLP-1\n\nEl peso sube y baja a lo largo del día con el agua, el glucógeno, la sal o el ciclo menstrual, y no te dice si has perdido grasa o músculo.\n\nSi estás en tratamiento con **un fármaco GLP-1 (Wegovy, Ozempic, Mounjaro, Zepbound)**, la pregunta pesa todavía más. Eso sí, conviene no quedarse con una sola cifra. Según una revisión de los estudios publicados, la proporción de masa magra dentro del peso perdido fue **del 40 al 60 % en algunos estudios y de en torno al 15 % o menos en otros**. Y **masa magra no es lo mismo que músculo**: incluye también órganos, hueso, líquidos e incluso el agua del tejido graso. Los estudios que midieron el músculo directamente con resonancia magnética encontraron una pérdida acorde con la edad, las enfermedades y la cantidad de peso perdido, aunque los autores piden vigilarla en personas mayores o con riesgo de sarcopenia (Neeland 2024).\n\nPor eso, con GLP-1 tiene más sentido mirar **hacia dónde se mueven la grasa y la masa magra por separado**, y si mientras tanto has cuidado la proteína y el entrenamiento de fuerza, que fijarte solo en el peso.\n\n## Antes de elegir: cuatro preguntas\n\n**1. ¿Qué quieres saber?** \"¿Cuál es mi porcentaje de grasa?\" es una pregunta para un DEXA o un analizador de bioimpedancia. \"¿Estoy perdiendo grasa con esta dieta?\" se puede responder midiéndote siempre con el mismo aparato, o incluso con una estimación sin aparatos que muestre la dirección.\n\n**2. ¿Qué aparato tienes?** Casi todas estas apps dependen de un dispositivo concreto: Zepp Life de los de Xiaomi, Withings de sus básculas, RENPHO Health de las básculas RENPHO, y la composición corporal de Samsung Health de un Galaxy Watch. Si no tienes ninguno, te quedan las apps que estiman sin aparatos.\n\n**3. ¿Puedes medirte siempre en las mismas condiciones?** La BIA es muy sensible a cómo y cuándo te mides. Samsung recomienda medir la composición con el Galaxy Watch por la mañana, antes de comer, después de ir al baño, antes de hacer ejercicio o ducharte, y siempre con los mismos dedos (soporte de Samsung). Elige algo con lo que puedas cumplir esas condiciones cada vez.\n\n**4. ¿Qué harás después con el número?** La composición corporal es un resultado. Si la masa magra baja, para decidir si cambias la proteína, el entrenamiento de fuerza o el ritmo de pérdida necesitas ver también lo que comes y lo que entrenas. Comprueba si la app solo enseña cifras o si las pone junto a tus comidas y tu actividad.\n\n## HAVIT: estimación de composición corporal sin aparatos, con un coach con IA\n\n| | |\n| --- | --- |\n| Desarrollador | Havit Inc. |\n| Quién la hace | Especialistas procedentes de Juvis Diet |\n| Composición corporal | Estimada sin aparatos (gratis). No es una medición médica |\n| Precisión | En una comparación interna con 70 personas, el 92,9 % quedó a ±5 puntos del resultado de InBody |\n| Coach con IA | HAVI: lee todos tus registros y te propone qué hacer hoy; puedes preguntarle con fotos |\n| Gratis | Registro de comidas (búsqueda y entrada manual) con calorías por comida; registro de peso, agua, sueño, pasos, ayuno, ánimo, ciclo menstrual y GLP-1; estimación de composición corporal; chat con el coach (número de mensajes diarios limitado) |\n| HAVIT Premium | Análisis de hidratos, proteínas y grasas por comida y por día; calorías restantes; escáner de comida con IA; chat ilimitado con el coach; check-in diario; vídeos de entrenamiento, meditaciones guiadas y artículos |\n| App Store (EE. UU.) | 4,7 (159 valoraciones). En España todavía no tiene suficientes valoraciones para mostrar nota |\n\nLo que es gratis y lo que es Premium corresponde a la configuración estándar de la app en octubre de 2026; con promociones, algunas funciones Premium pueden abrirse gratis.\n\n![Composición corporal: la grasa y la masa magra como tendencia, no como veredicto](/blog/havit/shot/feature-body-insights.webp)\n\n**Para empezar, con claridad: la composición corporal de HAVIT es una estimación, no una medición.** Es el punto 4 de la lista anterior. No hay ningún sensor que mida tu grasa, y no es un dato válido para diagnosticar ni para decidir un tratamiento. A cambio, damos la cifra de precisión: en una comparación interna con 70 personas, la estimación de HAVIT quedó **a ±5 puntos del resultado de InBody de esa misma persona en el 92,9 % de los casos**. Es una comparación propia, no una validación externa, y la referencia fue InBody, no DEXA; tenlo en cuenta al leerla.\n\n**La ventaja es que no necesitas aparatos y es gratis.** Sin comprarte una báscula de composición ni un reloj, puedes ver hacia dónde se mueven tu grasa y tu masa magra.\n\n### HAVI, el coach con IA: convierte la tendencia en algo que hacer hoy\n\nLa mayoría de las apps de composición corporal se quedan en el número y la gráfica. Lo central en HAVIT es **HAVI, el coach con IA**, que lee ese número junto con el resto de tus registros.\n\n![El coach con IA lee la tendencia y la convierte en una acción para hoy](/blog/havit/shot/feature-ai-coach.webp)\n\n**Al principio, monta el plan contigo conversando.** HAVI te pregunta por tu objetivo, si tomas un GLP-1 y qué efectos secundarios notas, y por datos como tu altura y tu peso. Con esas respuestas prepara tu **Body Blueprint**, un resumen de cómo está tu cuerpo ahora, y un plan con tu objetivo.\n\n**Cada día, lee todos tus registros a la vez.** Comidas, agua, ejercicio, sueño, pasos, ayuno, ciclo, ánimo y toma de GLP-1 están en la misma app, así que no ve solo la tendencia de composición, sino tu día a día detrás de ella. Por ejemplo, si en una semana baja el peso pero también la masa magra estimada, mira si muchos días te quedaste corto de proteína o si dejaste de registrar entrenamientos, y te propone **lo primero que conviene cambiar**.\n\n**Y le puedes preguntar en el momento.** Qué comer el día de la inyección, qué pedir en un restaurante, qué hacer si te estancas: se lo preguntas por chat, y también puedes **mandarle una foto**. En la versión gratuita hay un límite de mensajes al día; con HAVIT Premium es ilimitado.\n\n**Si estás con GLP-1**, la medicación, los efectos secundarios y las comidas están en la misma app que la estimación de composición, así que cuando la masa magra baja puedes ver qué comiste y cómo fue esa semana.\n\n### Hecha por especialistas procedentes de Juvis Diet\n\nHAVIT la han creado **especialistas procedentes de Juvis Diet**, una marca coreana de control de peso en la que personas reales llevan el seguimiento de la alimentación y los hábitos de cada cliente. De esa experiencia viene una idea que guía la app: **mirar de qué está hecho el cuerpo, no solo cuánto pesa**. Perder peso muy deprisa suele llevarse músculo y facilita recuperarlo después, así que HAVIT muestra la tendencia de grasa y masa magra y pone la proteína y el entrenamiento de fuerza en el centro del coaching y de las misiones.\n\nEl programa de 12 semanas se divide en 12 etapas, cada una con misiones concretas, como pasos o proteína. Las misiones no se cumplen pulsando \"hecho\": se comprueban con los datos que registras, como tus comidas o tus pasos.\n\n### Cuándo HAVIT no es la mejor opción\n\nSi **necesitas el porcentaje de grasa exacto**, tienes que medirte con un DEXA o un analizador de bioimpedancia, no con HAVIT. Si **ya tienes una báscula Withings, Xiaomi o RENPHO y quieres ver sus datos tal cual**, su propia app te sirve mejor. Si te interesan sobre todo **la tensión arterial o el corazón**, Withings cubre eso con sus aparatos. Y el análisis de hidratos, proteínas y grasas, el check-in diario y los vídeos de entrenamiento son funciones de HAVIT Premium.\n\n**Para quién**: para quien quiere ver hacia dónde van su grasa y su masa magra sin comprar aparatos, para quien quiere saber qué cambiar a partir de ese dato y para quien está con GLP-1 y le preocupa perder músculo.\n\n## InBody: la app oficial del fabricante\n\n| | |\n| --- | --- |\n| Desarrollador | InBody Co., Ltd. |\n| App Store (España) | 4,6 (95 valoraciones) |\n| Gratis o de pago | Gratis |\n| Método | 2 y 3 (BIA de los aparatos InBody) |\n\n![Si no te mides en las mismas condiciones, la comparación no vale](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_005.jpg)\n\n**Lo que hace bien.** Es la app oficial de InBody, la marca que mucha gente conoce por los analizadores de los gimnasios. Según su descripción, se usa junto con un analizador de composición corporal o un tensiómetro de la marca, y muestra los resultados de los tests con gráficas e interpretación, el historial de composición corporal, la tensión arterial, un diario de ejercicio y comida, y el sueño si sincronizas la pulsera InBody BAND 2. Los analizadores InBody dan valores muy estables al repetir la medición (McLester 2020).\n\n**Lo que flojea.** El analizador está en el gimnasio o la clínica, así que no es la herramienta para ver la tendencia día a día. Además, da menos grasa que el DEXA, así que no mezcles sus cifras con las de otros aparatos. La propia app avisa de que sus guías son orientativas y no sustituyen el consejo médico. La descripción en España está en inglés.\n\n**Para quién**: para quien se mide con InBody de forma habitual o tiene un aparato de la marca.\n\n## Samsung Health + Galaxy Watch: desde la muñeca\n\n| | |\n| --- | --- |\n| Desarrollador | Samsung Electronics Co., Ltd. |\n| App Store (España) | 4,5 (6.729 valoraciones) |\n| Gratis o de pago | Gratis (la composición corporal necesita un Galaxy Watch con sensor BIA) |\n| Método | 3 (BIA en el reloj) |\n\n**Lo que hace bien.** Con el reloj puesto, apoyas el dedo corazón y el anular de la otra mano en los botones y en unos segundos tienes el porcentaje de grasa, el agua corporal y la masa muscular esquelética (soporte de Samsung). No tienes que ir a ningún sitio, y como ya llevas el reloj, lo ves junto con tu actividad y tu sueño. Un estudio encontró que la masa magra del reloj era casi igual a la de un BIA de investigación (Bennett 2022).\n\n**Lo que flojea.** En ese mismo estudio, el reloj fue menos preciso que el DEXA al repetir la medición, así que hacían falta varias mediciones para confirmar un cambio. Samsung indica que no se mida durante el embarazo o la menstruación ni con marcapasos u otros dispositivos médicos implantados, y que en menores de 20 años puede ser menos preciso. Ojo si usas iPhone: la lista de dispositivos compatibles de la descripción oficial de Samsung Health para iOS no incluye ningún Galaxy Watch con sensor BIA.\n\n**Para quién**: para quien ya usa un Galaxy Watch con sensor BIA en un móvil Android.\n\n## Withings: la báscula dentro de un ecosistema de salud\n\n| | |\n| --- | --- |\n| Desarrollador | Withings |\n| App Store (España) | 4,5 (20.134 valoraciones) |\n| Gratis o de pago | Gratis (necesita aparatos Withings); suscripción opcional Withings+ |\n| Método | 3 (BIA en la báscula) |\n\n**Lo que hace bien.** Según su descripción oficial, reúne en una app el peso y la composición corporal, la actividad, la puntuación del sueño, la tensión arterial, el ciclo menstrual y la nutrición, y se conecta con Salud de Apple, Strava o MyFitnessPal. Permite varios perfiles para toda la familia y generar informes para compartir con tu médico. Con la suscripción Withings+ añade evaluaciones con IA y revisión del ECG por un cardiólogo.\n\n**Lo que flojea.** La descripción habla de \"precisión de grado clínico\", pero la composición corporal de una báscula sigue siendo una estimación por BIA: úsala para ver la dirección con la misma báscula y en las mismas condiciones, no para fiarte del valor exacto. Necesitas sus aparatos para sacarle partido.\n\n**Para quién**: para quien quiere la báscula, la tensión y el sueño en una misma app y está dispuesto a comprar aparatos Withings.\n\n## Zepp Life: para las básculas de Xiaomi\n\n| | |\n| --- | --- |\n| Desarrollador | Zepp Inc. |\n| App Store (España) | 4,1 (36.776 valoraciones) |\n| Gratis o de pago | Gratis (necesita una báscula Xiaomi) |\n| Método | 3 (BIA en la báscula) |\n| Dispositivos | Mi Body Composition Scale, Mi Scale, Mi Band, Amazfit, entre otros |\n\n**Lo que hace bien.** Con la Mi Body Composition Scale registra 10 tipos de datos de composición corporal, según su descripción oficial. Como basta con subirse, es fácil medirse cada día a la misma hora, y si usas una Mi Band también tienes los pasos y el sueño en la misma app. Se sincroniza con Salud de Apple.\n\n**Lo que flojea.** La BIA de una báscula también es una estimación: sirve para ver la dirección en las mismas condiciones, más que el valor exacto. No tiene registro ni análisis de comidas.\n\n**Para quién**: para quien tiene una báscula de composición de Xiaomi y quiere ver la tendencia a diario.\n\n## RENPHO Health: la app de las básculas RENPHO\n\n| | |\n| --- | --- |\n| Desarrollador | Joicom Corporation |\n| App Store (España) | 4,5 (402 valoraciones) |\n| Gratis o de pago | Gratis (necesita una báscula RENPHO) |\n| Método | 3 (BIA en la báscula) |\n\n**Lo que hace bien.** Según su descripción, registra varios datos de composición corporal (IMC, porcentaje de grasa, agua corporal, masa ósea, metabolismo basal, edad corporal, masa muscular…), los convierte en gráficas e informes y permite crear perfiles separados para cada miembro de la familia. Envía el porcentaje de grasa, el IMC y la masa magra a Salud de Apple.\n\n**Lo que flojea.** Lo mismo que cualquier báscula BIA: el valor absoluto es una estimación. No registra comidas. La descripción en España está en inglés.\n\n**Para quién**: para quien busca una báscula de composición sencilla para toda la familia.\n\n## Comparación rápida\n\n| App | Método | Aparato necesario | Tendencia diaria | ¿La ves junto a tus comidas? | Gratis o de pago |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | Estimación sin aparatos (4) | **Ninguno** | Sí | **Sí (el coach con IA lo lee todo junto)** | Composición gratis + Premium |\n| InBody | BIA InBody (2 y 3) | Aparato InBody | Según el aparato | Diario de comida y ejercicio | Gratis |\n| Samsung Health | BIA en el reloj (3) | Galaxy Watch con sensor BIA | Sí | Tiene registro de comida | Gratis + aparato |\n| Withings | BIA en la báscula (3) | Báscula Withings | Sí | Seguimiento de nutrición | Gratis + aparato + Withings+ opcional |\n| Zepp Life | BIA en la báscula (3) | Báscula Xiaomi | Sí | No | Gratis + aparato |\n| RENPHO Health | BIA en la báscula (3) | Báscula RENPHO | Sí | No | Gratis + aparato |\n\n## Cómo leer bien tus números\n\n- **Compara solo mediciones del mismo aparato.** InBody, báscula y reloj usan fórmulas distintas; si mezclas sus cifras, verás la diferencia entre aparatos, no tu cambio.\n- **Mídete siempre en las mismas condiciones.** Por la mañana, antes de comer, después de ir al baño y antes de entrenar o ducharte (soporte de Samsung).\n- **Fíjate en la tendencia de varias mediciones, no en una.** La BIA doméstica es menos precisa que el DEXA al repetir la medición, así que no saques conclusiones por una subida o bajada aislada (Bennett 2022).\n- **Mira dos números, no solo el porcentaje.** Si baja la grasa y la masa magra se mantiene, buena señal; si bajan las dos, toca revisar la proteína y el entrenamiento de fuerza.\n- **De vez en cuando, vuelve a un punto de referencia.** Un InBody o un DEXA cada cierto tiempo, y la báscula o la estimación de la app entre medias, combinan precisión y comodidad.\n- **Si el número te agobia, mídete menos.** La composición corporal no es algo que haya que mirar a diario.\n\n## En resumen\n\nElige la app según **lo que quieres saber**. Para un porcentaje de grasa fiable, DEXA o un analizador de bioimpedancia. Si ya tienes un aparato, su propia app (InBody, Samsung Health, Withings, Zepp Life o RENPHO Health).\n\nSi no tienes aparatos y quieres ver hacia dónde van tu grasa y tu masa magra y saber qué cambiar, HAVIT es una opción. Su composición corporal es una estimación, no una medición médica, pero es gratis, y HAVI, el coach con IA, la lee junto con tus comidas, tu ejercicio, tu sueño y tu medicación GLP-1 para proponerte qué hacer hoy.\n\n[Probar HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Escalones de la escalera de precisión",
-          "value": "4",
-          "source": "DEXA · BIA multifrecuencia · báscula/reloj · estimación de app"
+          "label": "Error al repetir la medición con InBody (porcentaje de grasa)",
+          "value": "0,77–0,99 puntos, aunque da menos grasa que el DEXA",
+          "source": "McLester et al. 2020, J Clin Densitom (67 adultos)"
         },
         {
-          "label": "Escalones que miden en lugar de estimar",
-          "value": "2 de 4",
-          "source": "DEXA y BIA tipo InBody"
+          "label": "Precisión de la BIA en reloj inteligente",
+          "value": "Menor que el DEXA: hacen falta más mediciones para confirmar un cambio",
+          "source": "Bennett et al. 2022, Am J Clin Nutr (75 personas)"
         },
         {
           "label": "Masa magra dentro del peso perdido con GLP-1",
-          "value": "40–60% en algunos ensayos, ≤15% en otros",
+          "value": "40–60 % o ≤15 % según el estudio (masa magra ≠ músculo)",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
         },
         {
-          "label": "Validación interna de HAVIT",
-          "value": "n=70 frente a InBody",
-          "source": "Havit Inc., publicada"
+          "label": "Estimación de HAVIT frente a InBody",
+          "value": "92,9 % a ±5 puntos (70 personas, no es medición médica)",
+          "source": "Comparación interna de Havit Inc."
         }
       ],
       "comparison_table": {
-        "title": "Comparación",
+        "title": "Comparación rápida",
         "headers": [
-          "Herramienta",
-          "Escalón",
-          "Hardware",
+          "App",
+          "Método",
+          "Aparato necesario",
           "Tendencia diaria",
-          "¿Conecta con una acción?",
-          "Se lee junto a"
+          "¿La ves junto a tus comidas?",
+          "Gratis o de pago"
         ],
         "rows": [
           [
-            "DEXA",
-            "1",
-            "Clínica",
-            "No",
-            "No",
-            "Nada"
+            "HAVIT",
+            "Estimación sin aparatos (4)",
+            "Ninguno",
+            "Sí",
+            "Sí (el coach con IA lo lee todo junto)",
+            "Composición gratis + Premium"
           ],
           [
             "InBody",
-            "2",
-            "Equipo dedicado",
-            "Difícil",
-            "No",
-            "Nada"
+            "BIA InBody (2 y 3)",
+            "Aparato InBody",
+            "Según el aparato",
+            "Diario de comida y ejercicio",
+            "Gratis"
           ],
           [
-            "Báscula de composición",
-            "3",
-            "Báscula",
+            "Samsung Health",
+            "BIA en el reloj (3)",
+            "Galaxy Watch con sensor BIA",
             "Sí",
-            "No",
-            "Nada"
+            "Tiene registro de comida",
+            "Gratis + aparato"
           ],
           [
-            "Reloj inteligente",
-            "3",
-            "Reloj",
+            "Withings",
+            "BIA en la báscula (3)",
+            "Báscula Withings",
             "Sí",
-            "No",
-            "Actividad"
+            "Seguimiento de nutrición",
+            "Gratis + aparato + Withings+ opcional"
           ],
           [
-            "HAVIT",
-            "4",
-            "Ninguno",
+            "Zepp Life",
+            "BIA en la báscula (3)",
+            "Báscula Xiaomi",
             "Sí",
-            "El coach lo conecta",
-            "Los 8 registros"
+            "No",
+            "Gratis + aparato"
+          ],
+          [
+            "RENPHO Health",
+            "BIA en la báscula (3)",
+            "Báscula RENPHO",
+            "Sí",
+            "No",
+            "Gratis + aparato"
           ]
         ],
-        "caption": "Los escalones 1–2 miden, los 3–4 estiman. Características de octubre de 2026."
+        "caption": "Según la descripción oficial de cada app en el App Store de España, octubre de 2026. Los métodos 2 y 3 (BIA) y el 4 (sin aparatos) son estimaciones; la prueba de referencia es el DEXA."
       },
       "faq": [
         {
-          "question": "¿Qué app mide mejor la composición corporal?",
-          "answer": "Primero decide tu pregunta. \"¿Cuál es mi porcentaje de grasa?\" necesita una medición: DEXA o una BIA multifrecuencia tipo InBody. \"¿Esta dieta me está costando músculo?\" es una pregunta de tendencia, y una báscula o una estimación de app la responden lo suficiente para cambiar lo que haces."
+          "question": "¿Cuál es la mejor app para medir la composición corporal?",
+          "answer": "Depende de lo que quieras saber y del aparato que tengas. Para un porcentaje de grasa fiable, DEXA o un analizador de bioimpedancia; si te mides con InBody, la app InBody; con un Galaxy Watch, Samsung Health; con una báscula Withings, Xiaomi o RENPHO, la app de cada marca. Si no tienes aparatos y quieres ver hacia dónde van tu grasa y tu masa magra y qué hacer, HAVIT ofrece una estimación gratuita y un coach con IA."
         },
         {
-          "question": "¿Puede una app saber de verdad mi porcentaje de grasa?",
-          "answer": "Produce una estimación, no una medición. Los modelos por cuestionario o por foto infieren a partir de datos, no miden tejido. Lo útil es la constancia: una cifra equivocada siempre en la misma dirección sigue mostrando la dirección del cambio. HAVIT publica una comparación interna frente a InBody (n=70)."
+          "question": "¿El InBody mide directamente la grasa?",
+          "answer": "Lo que mide es la resistencia eléctrica del cuerpo; el porcentaje de grasa sale de meter ese valor, con tu altura y tu peso, en una fórmula (bioimpedancia o BIA). Los analizadores InBody dan valores muy estables al repetir la medición, pero tienden a dar menos grasa y más masa magra que el DEXA (McLester 2020). Por eso no conviene mezclar sus cifras con las de otros aparatos."
         },
         {
-          "question": "¿Son fiables las básculas de composición corporal?",
-          "answer": "Para tendencia diaria son la mejor relación coste-beneficio; para el valor absoluto son lo más flojo de la escalera. La impedancia pie-pie infravalora el tren superior y cambia con la humedad de los pies. Súbete a la misma hora y en el mismo estado, y lee solo la pendiente."
+          "question": "¿Puede una app saber mi porcentaje de grasa sin ningún aparato?",
+          "answer": "No lo mide: lo estima. En una comparación interna con 70 personas, la estimación de HAVIT quedó a ±5 puntos del resultado de InBody de la misma persona en el 92,9 % de los casos. No es una validación externa ni una medición médica, así que úsala para ver hacia dónde se mueven la grasa y la masa magra, no para conocer la cifra exacta."
         },
         {
-          "question": "¿Por qué mi lectura de InBody cambia entre sesiones?",
-          "answer": "La impedancia bioeléctrica se mueve con la hidratación, la comida reciente, el ejercicio reciente y la hora del día: dos medidas el mismo día pueden diferir en varios puntos. No es que la máquina falle. Estandariza las condiciones antes de comparar."
+          "question": "¿Es fiable la composición corporal del Galaxy Watch?",
+          "answer": "En un estudio, la masa magra del reloj fue casi igual a la de un BIA de investigación, pero difería de la del DEXA, y su precisión al repetir la medición era menor, así que hacían falta varias mediciones para confirmar un cambio (Bennett 2022). Samsung recomienda medir por la mañana antes de comer, después de ir al baño y antes de entrenar o ducharte, con los mismos dedos, y no medir durante el embarazo o la menstruación ni con marcapasos u otros dispositivos implantados."
         },
         {
-          "question": "¿Por qué seguir la composición y no el peso si uso Ozempic o Wegovy?",
-          "answer": "Porque la proporción de masa magra dentro del peso perdido con GLP-1 se ha descrito entre el 40% y el 60% en algunos ensayos y en 15% o menos en otros, y la báscula cuenta todo eso como éxito. Mira grasa y masa magra como un par, y mantén la proteína y la dosis en la misma vista."
+          "question": "Estoy con Ozempic o Mounjaro: ¿por qué mirar la composición y no solo el peso?",
+          "answer": "Porque la proporción de masa magra dentro del peso perdido con GLP-1 varía mucho según el estudio: del 40 al 60 % en algunos y en torno al 15 % o menos en otros. Además, la masa magra incluye órganos, hueso y líquidos, así que no equivale a pérdida de músculo (Neeland 2024). Mira hacia dónde van la grasa y la masa magra, y cuida la proteína y el entrenamiento de fuerza. HAVIT reúne la estimación de composición, la medicación, los efectos secundarios y las comidas en una misma app."
         },
         {
-          "question": "¿Con qué frecuencia debo medirme?",
-          "answer": "Una vez por semana sobra, y cuatro semanas es la ventana mínima que significa algo. Medir a diario suele leer ruido y, en algunas personas, alimenta una fijación. Si el número te angustia, deja de usarlo."
+          "question": "¿Cada cuánto debo medirme?",
+          "answer": "Importa más usar siempre el mismo aparato y las mismas condiciones que una frecuencia concreta. La BIA doméstica es menos precisa que el DEXA al repetir la medición, así que una subida o bajada aislada dice poco: fíjate en la tendencia de varias mediciones. Si mirar el número te agobia, mídete menos."
         }
       ],
       "references": [
         {
-          "title": "Clasificación errónea de salud cardiometabólica al usar categorías de IMC (Tomiyama et al.)",
-          "source": "International Journal of Obesity, 2016",
-          "url": "https://www.nature.com/articles/ijo201617"
+          "title": "Reliability and Agreement of Various InBody Body Composition Analyzers as Compared to Dual-Energy X-Ray Absorptiometry in Healthy Men and Women (McLester, Nickerson, Kliszczewicz & McLester)",
+          "source": "Journal of Clinical Densitometry, 2020 — 67 adultos; InBody 230/720/770 muy fiables (error típico del % de grasa 0,77–0,99) pero infraestiman la grasa y sobrestiman la masa magra frente al DEXA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30472111/"
         },
         {
-          "title": "Cambios en masa corporal magra con terapias basadas en GLP-1 y estrategias de mitigación (Neeland et al.)",
-          "source": "Diabetes, Obesity and Metabolism, 2024 — proporción de masa magra del peso perdido varía 40–60% en algunos ensayos, ≤15% en otros; masa magra ≠ músculo",
+          "title": "Next-generation smart watches to estimate whole-body composition using bioimpedance analysis: accuracy and precision in a diverse, multiethnic sample (Bennett et al.)",
+          "source": "American Journal of Clinical Nutrition, 2022 — 75 participantes; masa magra del reloj ≈ BIA de 8 electrodos, sesgo significativo pero corregible frente al DEXA; menor precisión que el DEXA, se necesitan más mediciones para seguir el cambio",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35883219/"
+        },
+        {
+          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland, Linge & Birkenfeld)",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — la masa magra supone el 40–60 % del peso perdido en algunos ensayos y ≤15 % en otros; masa magra ≠ músculo",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
-          "title": "Pérdida de peso para prevenir morbilidad y mortalidad relacionadas con obesidad en adultos: intervenciones conductuales — Grado B",
-          "source": "U.S. Preventive Services Task Force, 2018 (tema en actualización); adultos con IMC ≥30, entregado por médico",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "Circunferencia de cintura como signo vital en práctica clínica (Ross et al.)",
-          "source": "Nature Reviews Endocrinology, 2020",
-          "url": "https://www.nature.com/articles/s41574-019-0310-7"
-        },
-        {
-          "title": "Reporte de Hábitos GLP-1 2026 — Análisis interno de HAVIT de 1,090 usuarios de GLP-1",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "How to measure your body composition with Galaxy Watch",
+          "source": "Soporte de Samsung Electronics — sensor BIA; medir por la mañana antes de comer; no medir durante el embarazo, la menstruación ni con dispositivos médicos implantados; no apto para diagnóstico",
+          "url": "https://www.samsung.com/uk/support/mobile-devices/measure-your-body-composition-with-the-galaxy-watch-series/"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-24"
     },
     "pt-BR": {
       "title": "Apps de composição corporal em 2026: 5 opções comparadas — InBody, relógio, balança de bioimpedância ou estimativa sem aparelho",
