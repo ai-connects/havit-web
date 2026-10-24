@@ -38,6 +38,16 @@ if (existsSync(QUEUE)) {
 
 const ch = config('channels');
 const slugs = verifiedSlugs();
+// 레시피 같은 포맷은 해당 표시(sources.json)가 있는 글에만 — 아니면 다음 포맷으로.
+const REQUIRES = ch.format_requires || {};
+const FLAGS = new Map(config('sources').sources.map((x) => [x.slug, x]));
+const pickFormat = (formats, i, slug, used = new Set()) => {
+  for (let k = 0; k < formats.length; k++) {
+    const f = formats[(i + k) % formats.length];
+    if (!used.has(f) && (!REQUIRES[f] || FLAGS.get(slug)?.[REQUIRES[f]])) return f;
+  }
+  return formats[i];
+};
 const dayIndex = (d) => Math.floor(Date.parse(`${d}T00:00:00Z`) / 864e5);
 const entries = [];
 for (let i = 0; i < Number(days); i++) {
@@ -48,26 +58,36 @@ for (let i = 0; i < Number(days); i++) {
   let a = 0;
   for (const [channel, rule] of Object.entries(ch.channels)) {
     if (!rule.enabled) continue;
-    for (const lang of rule.langs) {
-      const pool = slugs.filter((s) => hasLang(s, lang));
-      // 가장 오래 안 쓴 글(안 쓴 글 우선). 같은 날 같은 언어의 IG·Threads 가 같은 글을 쓰지 않게 계정마다 시작점을 비튼다.
-      const ranked = pool
-        .map((s, j) => ({ s, used: lastUsed.get(`${channel}:${lang}:${s}`) || '', tie: (j + a * 7 + dayIndex(date)) % pool.length }))
-        .sort((x, y) => x.used.localeCompare(y.used) || x.tie - y.tie);
-      const slug = ranked[0].s;
-      lastUsed.set(`${channel}:${lang}:${slug}`, date);
-      const L = ch.langs[lang];
-      entries.push({
-        date,
-        channel,
-        lang,
-        slug,
-        format: rule.formats[(dayIndex(date) + a) % rule.formats.length],
-        segment: ch.segments[lang][(dayIndex(date) + a) % ch.segments[lang].length],
-        publish_at: localToUtc(date, L.post_hours?.[channel] ?? 12, L.tz || 'UTC'),
+    // 기본 슬롯 + 추가 슬롯(예: Threads 블로그 링크 글). 추가 슬롯은 다른 글을 쓴다.
+    const slots = [{}, ...(rule.extra_slots || [])];
+    const today = new Map();
+    const usedToday = (c, l) => today.get(`${c}:${l}`) || today.set(`${c}:${l}`, new Set()).get(`${c}:${l}`);
+    slots.forEach((slot, si) => {
+      const formats = slot.formats || rule.formats;
+      rule.langs.forEach((lang, li) => {
+        const pool = slugs.filter((s) => hasLang(s, lang));
+        // 가장 오래 안 쓴 글(안 쓴 글 우선). 같은 날 같은 언어의 IG·Threads 가 같은 글을 쓰지 않게 계정마다 시작점을 비튼다.
+        const ranked = pool
+          .map((s, j) => ({ s, used: lastUsed.get(`${channel}:${lang}:${s}`) || '', tie: (j + a * 7 + dayIndex(date)) % pool.length }))
+          .sort((x, y) => x.used.localeCompare(y.used) || x.tie - y.tie);
+        const slug = ranked[0].s;
+        lastUsed.set(`${channel}:${lang}:${slug}`, date);
+        const L = ch.langs[lang];
+        entries.push({
+          date,
+          channel,
+          lang,
+          slug,
+          // 같은 계정의 같은 날 슬롯끼리 포맷이 겹치지 않게(날짜×슬롯 수 + 슬롯 + 언어)
+          format: pickFormat(formats, (dayIndex(date) * slots.length + si + li) % formats.length, slug, usedToday(channel, lang)),
+          segment: ch.segments[lang][(dayIndex(date) + a) % ch.segments[lang].length],
+          publish_at: localToUtc(date, L.post_hours?.[slot.hour_key || channel] ?? 12, L.tz || 'UTC'),
+          ...(slot.share ? { share: slot.share } : {}),
+        });
+        usedToday(channel, lang).add(entries.at(-1).format);
+        a++;
       });
-      a++;
-    }
+    });
   }
   mkdirSync(QUEUE, { recursive: true });
   const day = entries.filter((e) => e.date === date);

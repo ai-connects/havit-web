@@ -27,7 +27,7 @@ for (const dir of process.argv.slice(2).filter((p) => statSync(p, { throwIfNoEnt
   for (const f of readdirSync(dir).filter((x) => x.endsWith('.json'))) {
     const p = path.join(dir, f);
     const d = readJson(p);
-    if (d.photo || d.lint?.status !== 'PASS') continue;
+    if (d.photo || d.share === 'link' || d.lint?.status !== 'PASS') continue;
     const summary = (d.card_text || d.slides?.[0]?.title || d.posts?.[0] || '').slice(0, 300);
     try {
       const pick = await choose(client, { brief: d.image_brief || summary, summary, slug: d.slug, recent: recentFiles(queueRoot, d.channel, d.lang, d.date) });

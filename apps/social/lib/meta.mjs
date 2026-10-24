@@ -63,11 +63,11 @@ async function threadsPost(uid, token, params) {
 }
 
 /** Threads: posts[0](카드 이미지 첨부 가능) → posts[1..] 를 이어 답글로 → first_reply(링크·면책)를 첫 포스트 답글로. */
-export async function publishThreads({ token, posts, imageUrl, firstReply }) {
+export async function publishThreads({ token, posts, imageUrl, linkUrl, firstReply }) {
   const me = await whoami('threads', token);
   const head = await threadsPost(me.id, token, imageUrl
     ? { media_type: 'IMAGE', image_url: imageUrl, text: posts[0] }
-    : { media_type: 'TEXT', text: posts[0] });
+    : { media_type: 'TEXT', text: posts[0], ...(linkUrl ? { link_attachment: linkUrl } : {}) });
   let prev = head;
   for (const p of posts.slice(1)) prev = await threadsPost(me.id, token, { media_type: 'TEXT', text: p, reply_to_id: prev });
   if (firstReply) await threadsPost(me.id, token, { media_type: 'TEXT', text: firstReply, reply_to_id: head });

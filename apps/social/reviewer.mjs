@@ -14,12 +14,13 @@ const MODEL = process.env.SOCIAL_REVIEW_MODEL || 'claude-opus-5-5';
 const { default: Anthropic } = await import('@anthropic-ai/sdk');
 const client = new Anthropic();
 
-const dirs = process.argv.slice(2).filter((p) => statSync(p, { throwIfNoEntry: false })?.isDirectory());
+const dirs = process.argv.slice(2).filter((p) => !p.startsWith('--')).filter((p) => statSync(p, { throwIfNoEntry: false })?.isDirectory());
 const tally = {};
 for (const dir of dirs) {
   for (const f of readdirSync(dir).filter((x) => x.endsWith('.json'))) {
     const p = path.join(dir, f);
     const d = readJson(p);
+    if (d.decision && !process.argv.includes('--force')) continue; // 이미 판정됨(고쳐 쓴 초안만 다시 본다)
     let review = null;
     if (d.lint?.status === 'PASS') {
       const { _text, ...source } = loadSource(d.slug, d.lang);

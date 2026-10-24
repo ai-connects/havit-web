@@ -32,7 +32,7 @@ export function decide(draft, review, today, { accounts, control = config('contr
   if (draft.lint?.status !== 'PASS') return { status: 'rejected', reasons: ['기계 검사 FAIL', ...(draft.lint?.errors || [])] };
   if (draft.image_qa?.status === 'FAIL') return { status: 'rejected', reasons: ['이미지 자동 검사 FAIL', ...draft.image_qa.issues] };
   if (!review) return { status: 'human', reasons: ['AI 리뷰 없음'] };
-  if (review.verdict === 'revise') return { status: 'revise', reasons: review.issues || [] };
+  if (review.verdict === 'revise') return { status: draft.revision ? 'rejected' : 'revise', reasons: [...(draft.revision ? ['고쳐 쓴 뒤에도 리뷰어 미통과'] : []), ...(review.issues || [])] };
   const esc = mustEscalate(draft, today, accounts);
   if (review.verdict === 'human' || (review.confidence ?? 0) < MIN_CONFIDENCE) esc.push(`AI 리뷰어 보류(확신 ${review.confidence})`);
   if (esc.length) return { status: 'human', reasons: esc };

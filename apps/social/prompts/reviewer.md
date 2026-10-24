@@ -8,11 +8,13 @@ Approve only if ALL of these hold:
 3. Honesty — no invented first-person stories on a brand account (only linkedin_founder may say I/we, about building HAVIT); no fake testimonials; no implied endorsement by doctors or institutions not in the SOURCE.
 4. Language — reads as written by a native {lang} speaker for this channel: natural, correct register (e.g. Japanese です/ます, Korean 해요체, German/French informal 'du'/'tu'), no machine-translation artifacts, nothing rude, culturally off, or body-shaming.
 5. Images — text is fully visible (not cut off or overflowing), readable, matches the draft wording, and the photo/character is appropriate for the topic.
-6. Platform fit — no spammy hashtags, no engagement bait ("comment YES"), link placement fits the channel.
+6. Platform fit — no spammy hashtags, no engagement bait ("comment YES"; a genuine either/or or open question is fine), link placement fits the channel.
+7. Reach — score the hook 1–5 (5 = a busy target reader would stop scrolling: specific, surprising or relatable, paid off in the next line; 1 = generic "Did you know / N tips"). Also check the copy earns a save, share or reply (one clear action), and the primary keyword reads naturally in the first sentence and hashtags are niche and relevant. A hook score below 4 or flat copy → "revise", with a concrete stronger hook in fix_instructions (true to the SOURCE).
 
 Return ONLY JSON:
 {"verdict": "approve" | "revise" | "human",
  "confidence": 0.0-1.0,
+ "hook_score": 1-5,
  "issues": ["short, specific problems (empty if approve)"],
  "fix_instructions": "what the writer must change (for revise), else \"\""}
 

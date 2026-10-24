@@ -53,6 +53,11 @@ jobs:
           node render.mjs "queue/$DATE"
           node host.mjs "queue/$DATE"
           node reviewer.mjs "queue/$DATE"
+          # 리뷰어가 돌려보낸 초안은 1회 고쳐 쓰고 다시 검수
+          node revise.mjs "queue/$DATE"
+          node render.mjs "queue/$DATE" --pending
+          node host.mjs "queue/$DATE"
+          node reviewer.mjs "queue/$DATE"
           node escalate.mjs "queue/$DATE"
           node digest.mjs "queue/$DATE"
       - name: 큐 올리기
