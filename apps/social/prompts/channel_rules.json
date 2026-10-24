@@ -1,15 +1,15 @@
 {
   "threads": {
-    "ko": "Threads 한국어: 해요체, 친근한 반말 섞임 허용. 포스트당 150~300자. 링크와 면책 문구는 본문이 아니라 first_reply 에. 해시태그는 토픽 1개 이하. 브랜드 한글 표기는 항상 '하비트'(‘하빗’ 금지).",
-    "ja": "Threads 日本語: やわらかい です/ます。1文ごとに改行。1投稿150〜300字。リンクと免責文は本文ではなく first_reply に。トピックは1つまで。",
-    "en": "Threads English: short paragraphs, opinionated first line, 2nd person. 150–300 characters per post. Link and disclaimer go in first_reply, not in posts. At most 1 topic tag.",
-    "zh-tw": "Threads 繁體中文（台灣）：口語親切，每則150〜300字。連結和免責聲明放在 first_reply，不放正文。話題標籤最多1個。",
-    "zh": "Threads 简体中文：口语亲切，每条150〜300字。链接和免责声明放在 first_reply，不放正文。话题标签最多1个。",
-    "es": "Threads español (neutro): tuteo cercano, párrafos cortos, 150–300 caracteres por post. Enlace y aviso legal en first_reply, no en posts. Máximo 1 tema.",
-    "pt-br": "Threads português do Brasil: tom próximo (você), parágrafos curtos, 150–300 caracteres por post. Link e aviso no first_reply, não nos posts. No máximo 1 tópico.",
-    "id": "Threads Bahasa Indonesia: santai tapi sopan (pakai 'kamu'), 150–300 karakter per post. Link dan disclaimer di first_reply, bukan di posts. Maksimal 1 topik.",
-    "de": "Threads Deutsch: duzen, sachlich-freundlich, 150–300 Zeichen pro Post. Link und Hinweis in first_reply, nicht in posts. Höchstens 1 Thema.",
-    "fr": "Threads français : tutoiement, phrases courtes, 150–300 caractères par post. Lien et avertissement dans first_reply, pas dans posts. 1 sujet maximum."
+    "ko": "Threads 한국어: 해요체, 친근한 반말 섞임 허용. 포스트당 150~300자. 링크는 본문이 아니라 first_reply 에. 면책 문구는 넣지 않음(프로필 소개에 있음). 해시태그는 토픽 1개 이하. 브랜드 한글 표기는 항상 '하비트'(‘하빗’ 금지).",
+    "ja": "Threads 日本語: やわらかい です/ます。1文ごとに改行。1投稿150〜300字。リンクは本文ではなく first_reply に。免責文は入れない(プロフィールにある)。トピックは1つまで。",
+    "en": "Threads English: short paragraphs, opinionated first line, 2nd person. 150–300 characters per post. Link goes in first_reply, not in posts. No disclaimer (it is in the profile bio). At most 1 topic tag.",
+    "zh-tw": "Threads 繁體中文（台灣）：口語親切，每則150〜300字。連結放在 first_reply，不放正文。不放免責聲明（在個人簡介）。話題標籤最多1個。",
+    "zh": "Threads 简体中文：口语亲切，每条150〜300字。链接放在 first_reply，不放正文。不放免责声明（在个人简介）。话题标签最多1个。",
+    "es": "Threads español (neutro): tuteo cercano, párrafos cortos, 150–300 caracteres por post. Enlace en first_reply, no en posts. Sin aviso legal (está en la bio). Máximo 1 tema.",
+    "pt-br": "Threads português do Brasil: tom próximo (você), parágrafos curtos, 150–300 caracteres por post. Link no first_reply, não nos posts. Sem aviso (está na bio). No máximo 1 tópico.",
+    "id": "Threads Bahasa Indonesia: santai tapi sopan (pakai 'kamu'), 150–300 karakter per post. Link di first_reply, bukan di posts. Tanpa disclaimer (ada di bio). Maksimal 1 topik.",
+    "de": "Threads Deutsch: duzen, sachlich-freundlich, 150–300 Zeichen pro Post. Link in first_reply, nicht in posts. Kein Hinweis (steht in der Bio). Höchstens 1 Thema.",
+    "fr": "Threads français : tutoiement, phrases courtes, 150–300 caractères par post. Lien dans first_reply, pas dans posts. Pas d'avertissement (il est dans la bio). 1 sujet maximum."
   },
   "instagram": {
     "ko": "Instagram 캐러셀 한국어: slides 6~10장. 1장 표지 제목 15자 이내. 수치가 들어간 장은 출처를 body 끝에 (저널, 연도). 캡션 300~800자, 마지막 줄에 면책 문구. 링크 대신 '전체 가이드는 프로필 링크에서'. 해시태그 3~5개. 브랜드 한글 표기는 항상 '하비트'(‘하빗’ 금지).",

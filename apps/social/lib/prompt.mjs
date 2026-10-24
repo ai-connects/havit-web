@@ -49,14 +49,16 @@ export function buildPrompt(entry, source, link) {
   const fill = {
     lang: entry.lang,
     banned: ch.banned[entry.lang].join(', '),
-    disclaimer: `"${disclaimer}" — place: ${ch.channels[entry.channel].disclaimer}`,
+    disclaimer: ch.channels[entry.channel].disclaimer === 'none'
+      ? 'NONE on this channel — do not write any disclaimer or "not medical advice" line anywhere (it is in the profile bio).'
+      : `"${disclaimer}" — place: ${ch.channels[entry.channel].disclaimer}`,
     channel: entry.channel,
     format: entry.format,
     channel_rules: `${rule}\nFormat guidance: ${FORMAT_HINT[entry.format] || ''}${source.kind?.startsWith('app_') ? APP_SOURCE_RULES : ''}`,
     segment: entry.segment,
     brand_tag: `#${lang.brand_tag || 'HAVIT'}`,
     swipe: `"${lang.swipe || 'Swipe →'}"`,
-    url: entry.share === 'link' ? `${link} — attached automatically as a link preview card on the post. Do NOT write this URL anywhere (not in posts, not in first_reply). first_reply holds only the disclaimer.` : link,
+    url: entry.share === 'link' ? `${link} — attached automatically as a link preview card on the post. Do NOT write this URL anywhere (not in posts, not in first_reply). first_reply stays empty unless the channel rules say otherwise.` : link,
   };
   const system = SYSTEM.replace(/\{(\w+)\}/g, (m, k) => (k in fill ? fill[k] : m));
   const { _text, ...packet } = source;

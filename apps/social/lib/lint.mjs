@@ -54,9 +54,14 @@ export function lint(draft, source) {
   // 3) 면책 문구 위치
   const disclaimers = [lang.disclaimer, lang.disclaimer_formal].filter(Boolean);
   const has = (s) => disclaimers.some((x) => norm(s).includes(norm(x)));
-  const where = rule.disclaimer === 'first_reply' ? draft.first_reply : body;
-  if (!has(where)) errors.push(`면책 문구가 ${rule.disclaimer} 에 없음`);
-  if (rule.disclaimer === 'first_reply' && has(body)) warnings.push('면책 문구가 본문에도 있음(Threads 는 첫 답글만)');
+  // Threads 는 면책 문구를 게시물에 넣지 않는다(프로필 소개에 둠, 대표 결정 2026-10-25) — 들어가 있으면 FAIL.
+  if (rule.disclaimer === 'none') {
+    if (has(body) || has(draft.first_reply || '')) errors.push('면책 문구는 Threads 게시물·댓글에 넣지 않음(프로필 소개에 있음)');
+  } else {
+    const where = rule.disclaimer === 'first_reply' ? draft.first_reply : body;
+    if (!has(where)) errors.push(`면책 문구가 ${rule.disclaimer} 에 없음`);
+    if (rule.disclaimer === 'first_reply' && has(body)) warnings.push('면책 문구가 본문에도 있음(Threads 는 첫 답글만)');
+  }
 
   // 4) 길이·개수
   if (rule.max_chars_per_post) {
