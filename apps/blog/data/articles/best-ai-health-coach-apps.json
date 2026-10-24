@@ -931,142 +931,158 @@
       "last_updated": "2026-10-11"
     },
     "pt-BR": {
-      "title": "Melhores apps com coach de IA em 2026: quais leem seus dados de verdade",
-      "short_title": "Melhores apps com coach de IA 2026",
-      "meta_description": "Noom, Tecnonutri, apps de foto, assistentes gerais e HAVIT, um a um: o que cada coach lê, se fala primeiro e quais dados nunca consegue ver. Outubro de 2026.",
-      "tldr": "Um chat responde ao que você já sabia perguntar; um coach aponta o que você não perguntou. O que separa os dois é se os seus registros chegam ao coach.",
-      "body_md": "Nos últimos dois anos quase todo app de saúde ganhou um \"coach de IA\". A maioria ganhou **uma caixa de chat**. Não é a mesma coisa.\n\nUm chat responde às perguntas que você já sabia fazer. Um coach aponta **o que você não perguntou**. O que separa os dois não é a qualidade do modelo: é **se os seus registros chegam ao coach**.\n\nEste guia analisa um a um os apps que se apresentam como coaching com IA. Outubro de 2026.\n\n![Um coach olha o seu dia, não só as suas mensagens](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n## Três testes que separam coach de chatbot\n\n**1. Ele lê os seus dados?** No período de teste, pergunte o que você comeu ontem. Se você tiver que colar a resposta, o coach é uma janela de chat e o app é um registrador.\n\n**2. Ele dá uma ação ou um plano?** Plano é aquilo que você já não cumpriu. *Trinta gramas de proteína no café da manhã* é verdadeiro ou falso às nove da manhã — por isso dá para medir.\n\n**3. Ele muda quando você muda?** Registre uma semana ruim de propósito. Um sistema de coaching de verdade baixa a exigência ou pergunta o que aconteceu. Um com roteiro repete o mesmo incentivo animado.\n\n## Noom — o coach é uma pessoa, não uma IA\n\n| | |\n| --- | --- |\n| Desenvolvedor | Noom, Inc. |\n\n![Prestar contas a uma pessoa é outro produto](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n**O que faz bem.** **Um coach humano para quem você escreve quando quiser.** Não uma IA simulando. Além disso, um currículo baseado em psicologia define o que você lê por dia.\n\n**Onde falha.** A faixa de preço mais alta da categoria. O alcance do coaching é refeições, atividade e peso: ciclo, medicação e composição corporal ficam de fora.\n\n**Para quem.** Para quem precisa prestar contas a uma pessoa.\n\n## Tecnonutri — orientação nutricional, não coaching adaptativo\n\n| | |\n| --- | --- |\n| Origem | Brasil |\n\n**O que faz bem.** Conteúdo e orientação acompanham o registro, num formato próximo de uma consulta. Para quem nunca teve acompanhamento, isso resolve o primeiro bloqueio.\n\n**Onde falha.** Orientação não é um coach que se ajusta sozinho ao que aconteceu na sua semana. Não lê sono, ciclo nem medicação.\n\n**Para quem.** Para quem quer ser orientado sobre o que comer.\n\n## Apps de foto (Cal AI e similares)\n\n**O que fazem bem.** Transformam uma foto em registro em segundos. A IA faz reconhecimento, e faz bem.\n\n**Onde falham.** Reconhecer não é treinar. Respondem \"o que era aquilo?\", não \"o que eu deveria mudar?\". O número que devolvem é o ponto médio de uma faixa.\n\n**Para quem.** Para quem trava na velocidade do registro.\n\n## Assistentes gerais (ChatGPT, Claude, Gemini)\n\n**O que fazem bem.** Explicar conceitos e montar planos sob encomenda, muito bem. Hoje lembram entre conversas e podem falar com você num horário fixo se você configurar.\n\n**Onde falham.** **Não têm um fluxo contínuo das refeições, do sono e dos passos de hoje.** A mensagem das nove da noite precisa ser uma que você configurou, com dados que você colou. E eles recusam — corretamente — diagnosticar ou gerenciar medicação.\n\n**Para quem.** Para quem quer respostas a perguntas. Não é um coach que fala primeiro a partir dos seus dados.\n\n## HAVIT — oito fluxos de dados alimentando um coach só\n\n| | |\n| --- | --- |\n| Desenvolvedor | Havit Inc. |\n| O que o coach lê | Refeições, hidratação, treinos, sono, passos, **ciclo**, humor, **GLP-1** |\n| Idiomas | 35 |\n\n![O coach de IA do HAVIT lê os oito registros e devolve uma única ação](/blog/havit/shot/feature-ai-coach.webp)\n\n**É aqui que mora toda a diferença.** O coach do HAVIT não lê um histórico de chat. Lê **oito fluxos dos seus próprios dados**: não só refeições, mas também sono, passos, ciclo e medicação.\n\nPor isso ele consegue dizer: *você está quatro dias abaixo da meta de proteína, dormiu menos de seis horas em duas noites e está na semana antes da menstruação — as três coisas estão ligadas, e esta é a que vale mexer primeiro.* Um assistente geral não constrói essa frase: pode lembrar de você entre conversas, mas **não tem um fluxo ao vivo do seu dia**.\n\n### O que volta é uma ação, não um painel\n\n![Check-in diário: o coach pergunta primeiro que dia é](/blog/havit/shot/feature-daily-check-in.webp)\n\nPrimeiro vem o **check-in diário**: condição, sono, apetite e humor em alguns toques, para o coach saber que dia é antes de pedir qualquer coisa. É também o caminho pelo qual um dia ruim entra no sistema sem encerrá-lo.\n\nDepois, as **missões diárias** transformam técnicas de mudança de comportamento em uma ação para hoje. Se você falhar, isso é **um dado de entrada**, não uma sequência quebrada: a exigência do dia seguinte muda.\n\n### O coach também olha o seu corpo\n\n![Tendências de gordura e massa magra](/blog/havit/shot/feature-body-insights.webp)\n\nEstima **tendências de gordura e massa magra** sem hardware (comparação interna com o InBody, n=70). Em tratamento GLP-1, **dose, efeitos colaterais e proteína** são lidos pelo mesmo coach.\n\n**Seis faixas de meditação guiada**, **vídeos de treino**, **mais de 1.400 artigos** e **jejum**, no mesmo app. Criado com especialistas vindos da Juvis Diet, rede de clínicas de emagrecimento da Coreia.\n\n**Para quem.** Para quem registra e continua sem saber o que mudar; para quem quer um coach que veja os dados de verdade.\n\n## Comparação\n\n| App | O que o coach lê | Fala primeiro? | Composição corporal | Ciclo | GLP-1 | Meditação e treinos |\n| --- | --- | --- | --- | --- | --- | --- |\n| Noom | Refeições, atividade, peso | O coach humano fala | Não | Não | Não | Só conteúdo |\n| Tecnonutri | Refeições e metas | Não | Não | Não | Não | Não |\n| Apps de foto | A foto que você acabou de tirar | Não | Não | Não | Não | Não |\n| Assistentes gerais | Só o que você cola | Só se agendar | Não | Não | Não | Não |\n| **HAVIT** | **Os 8 registros** | **Sim** | **Estimada** | **Sim** | **Sim** | **Sim** |\n\nCaracterísticas de outubro de 2026.\n\n## Quando não comprar\n\n- **Se você não registra nada.** Um coach guiado por dados é função das suas entradas. Construa o hábito de registrar primeiro e some o coaching com umas quatro semanas de histórico.\n- **Se você precisa de uma pessoa.** Diante de transtorno alimentar, doença diagnosticada ou meta esportiva com data, procure um profissional. Uma IA de saúde sensata recusa diagnosticar e não manda mudar uma dose prescrita — o HAVIT também não, porque é um app de bem-estar e não um dispositivo médico.\n\n## Resumindo\n\n\"Qual IA é mais inteligente\" é a pergunta errada: todas as sérias são inteligentes o bastante para isso.\n\nA pergunta é qual delas **vê os seus dados, diz uma coisa só e muda quando você muda.** Teste isso por duas semanas, incluindo uma semana ruim, dentro do período gratuito.\n\n[Experimentar o HAVIT →](https://www.aihavit.com/)\n",
+      "title": "7 apps com coach de IA para emagrecer em 2026: compare pelo que o coach lê",
+      "short_title": "7 apps com coach de IA para emagrecer (2026)",
+      "meta_description": "HAVIT, Appediet, Lifesum, Cal AI, Tecnonutri, Noom e assistentes gerais comparados: que registros o coach lê, se ele fala primeiro, se aceita foto e o que é grátis. App Store do Brasil, outubro de 2026.",
+      "tldr": "Escolha um coach de IA pelo que ele lê e pelo que faz com isso, não pela IA em si. Um coach que só vê a alimentação e um que lê também sono, passos, ciclo menstrual e medicação dão respostas diferentes à mesma pergunta. No teste, pergunte \"o que eu comi ontem?\" e confira até onde o chat e a análise por foto são grátis.",
+      "body_md": "Hoje quase todo app de dieta diz ter um \"coach de IA\". Na prática, eles fazem coisas bem diferentes. Um calcula as calorias da foto do prato, outro manda recomendações toda semana, outro só responde quando você pergunta.\n\nCom o mesmo nome, o que separa um do outro é uma coisa: **quanto dos seus registros o coach lê e o que ele faz com isso**. Para a mesma pergunta, um coach que sabe o que você comeu ontem, como dormiu na semana passada e como o peso andou no mês dá uma resposta diferente de um que não sabe nada disso.\n\nEste guia compara 7 opções que aparecem quando alguém no Brasil procura um coach de IA para emagrecer: HAVIT, Appediet, Lifesum e Cal AI; Tecnonutri e Noom, em que o acompanhamento é feito por pessoas; e assistentes gerais como o ChatGPT. Notas e recursos seguem a descrição oficial na App Store do Brasil em 24 de outubro de 2026. Preços mudam com frequência, então ficaram de fora.\n\nO HAVIT é o app da equipe que escreveu este texto, criado por **especialistas vindos da Juvis Diet**, marca coreana especializada em acompanhamento de emagrecimento. Por isso os critérios vêm primeiro, e também dizemos quando o HAVIT não é a melhor escolha.\n\n![Um coach olha o seu dia, não só as suas mensagens](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n## Resposta rápida: qual app para cada caso\n\n| Se você... | App indicado | Por quê |\n| --- | --- | --- |\n| Registra tudo e não sabe o que mudar | **HAVIT** | HAVI, o coach de IA, lê juntos refeições, sono, passos e ciclo menstrual e sugere a ação de hoje |\n| Usa GLP-1 com prescrição médica | **HAVIT** | A conversa inicial pergunta sobre o uso e os efeitos colaterais, e o mesmo coach acompanha as doses |\n| Quer fechar o dia com um balanço e um compromisso | **HAVIT** | Resumo da noite às 22h e compromisso de uma linha (HAVIT Premium) |\n| Quer registrar a refeição só com uma foto | Cal AI · Lifesum · Appediet | Análise da foto com IA (no Cal AI, o resultado exige assinatura) |\n| Quer receitas sugeridas e respostas rápidas sobre nutrição | Appediet | Assistente de IA que recomenda receitas e responde dúvidas de saúde |\n| Quer uma nota semanal do seu estilo de vida | Lifesum | Life Score semanal com recomendações de alimentação |\n| Prefere falar com nutricionista de verdade | Tecnonutri | Chat com a equipe de nutricionistas de segunda a sexta |\n| Quer um programa de mudança de comportamento | Noom | Lições diárias e coaching 1:1 opcional, feito por pessoas |\n| Só quer tirar dúvidas de vez em quando | Assistente geral (ChatGPT etc.) | Explica e monta planos bem, mas você precisa informar seus dados |\n\n## Como escolher um coach de IA: 4 critérios\n\n**1. O que o coach lê?** Comece por aqui. Um coach que só vê a alimentação consegue dizer, no máximo, que \"o almoço teve muito sódio\". Para descobrir por que o peso parou nesta semana, sono, passos, ciclo menstrual e medicação precisam estar no mesmo app. No período de teste, pergunte \"o que eu comi ontem?\" e \"como foi meu sono esta semana?\". Se você tiver que contar de novo, o coach não lê os seus registros.\n\nTer registros para o coach ler também conta. Uma revisão sistemática de 39 estudos randomizados sobre automonitoramento digital no emagrecimento encontrou que, **em 74% das análises, quem registrou mais perdeu mais peso** (Patel 2021). Com pouco registro, qualquer coach tem pouco a dizer.\n\n**2. Ele dá um plano ou uma ação para hoje?** \"Cuide da alimentação\" não é orientação. Veja se ele dá uma ação que dá para conferir, como \"no jantar, comece pela proteína\". E repare se o coach só responde quando você pergunta ou se manda relatórios e mensagens por conta própria.\n\n**3. Saiba o que muda em relação a um coach humano.** O coach de IA responde de madrugada e não se cansa de ouvir a mesma pergunta dez vezes. Com uma pessoa, surge a sensação de ter que prestar contas quando você some. As pesquisas sobre IA ainda estão em andamento: uma meta-análise de 19 estudos com chatbots para atividade física, alimentação e sono mostrou aumento de passos diários, de consumo de frutas e verduras e de horas de sono, mas 74% dos estudos foram classificados como de baixa qualidade (Singh 2023). Na revisão sobre registro citada acima, programas com aconselhamento e apps usados sozinhos tiveram taxas de registro parecidas (Patel 2021). Se você só se mexe quando precisa dar satisfação a alguém, um coach humano faz mais sentido; se tempo e custo pesam, a IA resolve.\n\n**4. Ele sabe o que não deve fazer?** Uma boa IA de saúde não dá diagnóstico nem manda mudar a dose de um remédio prescrito. Se há suspeita de transtorno alimentar, uma doença diagnosticada ou gravidez, procure um profissional antes do app. O próprio Cal AI avisa na descrição que não oferece orientação médica.\n\n## HAVIT — HAVI, o coach de IA criado por especialistas da Juvis Diet\n\n| | |\n| --- | --- |\n| Desenvolvedor | Havit Inc. |\n| Quem criou | Especialistas vindos da Juvis Diet (marca coreana especializada em acompanhamento de emagrecimento) |\n| Coach de IA | HAVI — conversa inicial que gera o Body Blueprint e o plano; lê todos os registros e sugere a ação de hoje; aceita fotos no chat |\n| Grátis | Registro de refeições (busca ou digitação) com calorias por refeição; peso, água, sono, passos, jejum, humor, ciclo menstrual e GLP-1; estimativa de composição corporal; chat com o coach (limite diário de mensagens) |\n| HAVIT Premium | Chat ilimitado; resumo da noite e compromisso; check-in diário; proteínas, carboidratos e gorduras por refeição e por dia; calorias restantes; registro de refeição por foto com IA; vídeos de treino, meditações guiadas e artigos; 2 Salvadores de Sequência por semana |\n| App Store (EUA) | 4,7 (159 avaliações) — no Brasil ainda não há avaliações suficientes |\n\nA divisão entre grátis e Premium segue a configuração padrão do app em outubro de 2026; promoções podem liberar alguns recursos Premium de graça.\n\n### HAVI — lê os seus registros e diz o que fazer hoje\n\n![Coach de IA do HAVIT: lê todos os registros e devolve uma ação para hoje](/blog/havit/shot/feature-ai-coach.webp)\n\n**Tudo começa numa conversa.** HAVI pergunta seu objetivo (perder peso, manter, criar hábitos saudáveis ou ganhar músculo), se você usa GLP-1 e quais efeitos colaterais sente, e depois altura, peso, cintura e tipo de corpo. Com essas respostas ele monta o **Body Blueprint**, um retrato de onde você está, e o plano até a meta. Em vez de preencher telas de configuração, você conversa, e quem usa medicação recebe desde o início um plano diferente de quem não usa.\n\n**No dia a dia, ele lê tudo junto.** Refeições, peso, água, sono, passos, jejum, ciclo menstrual, humor e doses de GLP-1 ficam no mesmo app, então HAVI não olha só o prato, olha o dia inteiro. Numa semana em que o peso parou, por exemplo, ele percebe que a proteína ficou abaixo da meta por quatro dias seguidos, que em duas noites você dormiu menos de seis horas e que era a semana antes da menstruação, e aponta **qual dessas coisas mudar primeiro**. É a resposta do HAVIT ao critério 1, \"o que o coach lê\".\n\n**Dúvida? Pergunte na hora, até com foto.** Restaurante, platô, o que comer quando o estômago fica estranho no dia da dose: você pergunta no chat e pode **mandar uma foto**. Tire uma foto do cardápio ou da prateleira do mercado e pergunte \"qual destes é melhor?\". No plano grátis há um limite diário de mensagens; no HAVIT Premium o chat é ilimitado.\n\n**O dia termina com um balanço.** Às 22h chega o **resumo da noite** e você pode deixar um **compromisso** de uma linha para amanhã. Com o tempo, o app mostra quantos compromissos você cumpriu nos últimos 14 dias. Na prática, é um horário fixo por dia em que o coach fala primeiro (resumo e compromisso são HAVIT Premium).\n\n![Check-in diário: em poucos toques você conta que dia é hoje](/blog/havit/shot/feature-daily-check-in.webp)\n\nCom o **check-in diário** (HAVIT Premium) você registra disposição, sono, apetite e humor em poucos toques. Mesmo num dia que não saiu como planejado, fica registrado como foi o dia em vez de um espaço em branco.\n\n**O programa de 12 semanas define as ações.** São 12 etapas, cada uma com missões concretas como passos e proteína, e quem confirma a missão são os registros reais de refeições e passos, não um botão de \"fiz\". Nas missões de dias seguidos, a primeira falha é perdoada, na segunda dá para continuar com um Salvador de Sequência (item que protege a sequência) e, na terceira, a missão recomeça.\n\n### Criado por especialistas vindos da Juvis Diet\n\nO HAVIT foi criado por **especialistas vindos da Juvis Diet**, marca coreana especializada em acompanhamento de emagrecimento, em que profissionais acompanham de perto a alimentação e a rotina de cada cliente. A conversa inicial de HAVI e o programa de 12 semanas trazem a forma de trabalhar de quem ajudava pessoas a emagrecer e manter o peso antes de existir o app.\n\n![Composição corporal: tendência de gordura e massa magra, não só o peso](/blog/havit/shot/feature-body-insights.webp)\n\n- **Olha a composição do corpo, não só o peso.** O app estima a tendência de gordura e massa magra sem aparelho (grátis). Numa comparação interna com 70 pessoas, 92,9% das estimativas ficaram a até 5 pontos percentuais da medição do InBody; não é medição médica. Por isso a proteína está no centro das missões e do coaching.\n- **Uma mudança de cada vez.** Como num acompanhamento presencial, o coach não despeja uma lista de tarefas: aponta a próxima coisa a mudar.\n- **O dia ruim faz parte do processo.** Um dia perdido não encerra nada: a tolerância e os Salvadores trazem você de volta.\n\n### Quando o HAVIT não é a melhor escolha\n\nSe você quer **registrar refeições só com foto e de graça**, o HAVIT não serve: o registro por foto com IA é do HAVIT Premium. Se prefere **falar com nutricionista de verdade**, o Tecnonutri oferece isso; se quer **um programa com coaching feito por pessoas**, o Noom. No plano grátis, o chat com o coach tem limite diário, e o resumo da noite e o check-in diário não estão incluídos.\n\n**Para quem**: quem registra e não sabe o que mudar, quem sente o peso mexer com o sono e o ciclo, quem usa GLP-1 e quem quer um coach que enxergue todos os registros.\n\n## Appediet — assistente de IA para receitas e dúvidas de nutrição\n\n| | |\n| --- | --- |\n| App Store (Brasil) | **4,8 (13.796 avaliações)** |\n| Coach de IA | Assistente de saúde com IA que recomenda receitas e responde perguntas |\n| Grátis ou pago | Assinatura mensal ou anual, com período de teste |\n\n**O que faz bem.** Segundo a descrição oficial, o assistente de IA **recomenda receitas de acordo com a sua condição física e as suas necessidades de saúde**, responde perguntas sobre saúde e consulta em segundos quanto você já consumiu de cada nutriente no dia. O registro é rápido: foto ou código de barras, com uma base de mais de 1,5 milhão de itens e 108 nutrientes. Não tem anúncios.\n\n**Onde deixa a desejar.** A descrição apresenta o assistente como especialista em nutrição. Sono, ciclo menstrual e medicação não aparecem entre os dados que ele usa, e a descrição não diz se o assistente manda mensagens por conta própria.\n\n**Para quem**: quem quer registro rápido por foto e respostas na hora sobre o que comer.\n\n## Lifesum — registro com IA e uma nota semanal\n\n| | |\n| --- | --- |\n| App Store (Brasil) | **4,8 (14.232 avaliações)** |\n| Coach de IA | Registro com IA (foto, voz, texto) e Life Score semanal com recomendações |\n| Grátis ou pago | Grátis com opções Premium |\n\n**O que faz bem.** Você registra a refeição do jeito que preferir: **foto, voz, texto ou código de barras**. O **Life Score** semanal avalia o seu bem-estar a partir de alimentação, hidratação e nível de atividade e dá recomendações de nutrição. Sincroniza com o Apple Saúde (passos, peso, exercícios) e oferece planos alimentares e programas de jejum.\n\n**Onde deixa a desejar.** Na descrição oficial, a IA aparece no registro e nas recomendações, não como um chat em que você conversa com um coach. Ciclo menstrual e medicação não aparecem.\n\n**Para quem**: quem quer registrar com pouco esforço e receber um retorno semanal.\n\n## Cal AI — a foto vira registro\n\n| | |\n| --- | --- |\n| App Store (Brasil) | **4,9 (6.055 avaliações)** |\n| Coach de IA | Plano a partir de perguntas sobre seu estilo de vida + análise nutricional da foto |\n| Grátis ou pago | O resultado da análise por foto exige assinatura |\n\n**O que faz bem.** O funcionamento é simples: você responde algumas perguntas para montar o plano, **tira a foto do prato** e recebe a análise nutricional. Para quem trava na hora de registrar, é o caminho mais curto.\n\n**Onde deixa a desejar.** Reconhecer o prato não é o mesmo que orientar o que mudar. A descrição está em inglês, não fala em chat com coach nem em outros registros além da refeição, e o resultado da análise exige assinatura.\n\n**Para quem**: quem desiste de registrar porque dá trabalho.\n\n## Tecnonutri — o acompanhamento é de nutricionistas\n\n| | |\n| --- | --- |\n| App Store (Brasil) | **4,6 (26.022 avaliações)** |\n| Coach | Equipe de nutricionistas no chat, de segunda a sexta (pessoas) |\n| Grátis ou pago | Download grátis; a descrição oficial não detalha o que é pago |\n\n**O que faz bem.** Aqui quem responde é gente: você manda dúvidas sobre a dieta no **chat com a equipe de nutricionistas** e recebe orientação de segunda a sexta. Há também aulas ao vivo com especialistas, mais de 50 programas (low carb, jejum intermitente, mediterrânea e outros), cardápios feitos por nutricionistas e grupos da comunidade.\n\n**Onde deixa a desejar.** Não é um coach de IA, e o atendimento não é 24 horas. A descrição oficial não fala em ler sono, ciclo menstrual ou medicação.\n\n**Para quem**: quem confia mais em nutricionista do que em IA e gosta de seguir um cardápio pronto.\n\n## Noom — lições diárias e coaching feito por pessoas\n\n| | |\n| --- | --- |\n| App Store (Brasil) | 4,4 (520 avaliações) |\n| Coach | Coaching 1:1 opcional (pessoa) + lições diárias sobre comportamento |\n| Grátis ou pago | Planos por assinatura |\n\n![Prestar contas a uma pessoa é outro tipo de produto](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n**O que faz bem.** O centro é a **mudança de comportamento**: lições diárias sobre hábitos, registro de refeições com IA, contagem de passos, comunidades e coaching 1:1 opcional com uma pessoa.\n\n**Onde deixa a desejar.** A descrição na App Store brasileira está em inglês e cita planos e serviços pensados para os EUA, como acesso a medicamentos \"se elegível\". Vale confirmar o que está disponível no Brasil antes de assinar. Ciclo menstrual não aparece na descrição.\n\n**Para quem**: quem precisa prestar contas a alguém e está disposto a pagar por essa estrutura.\n\n## Assistentes gerais (ChatGPT, Gemini, Claude etc.)\n\n**O que fazem bem.** Explicar conceitos, montar cardápios e comparar opções no restaurante, tudo muito bem. Aceitam foto e, dependendo do serviço, lembram de conversas anteriores.\n\n**Onde deixam a desejar.** **Refeições, passos e sono não chegam sozinhos todo dia**, como num app de dieta. Eles respondem com base no que você digita ou cola; no dia em que você não conta nada, o coach também não sabe. Alguns serviços começaram a conectar dados de saúde, mas isso varia por país e recurso, então confira. E não servem para diagnóstico nem para definir dose de remédio.\n\n**Para quem**: quem quer tirar dúvidas na hora. Não é um coach que puxa conversa com base no seu dia.\n\n### E MyFitnessPal, Yazio e Fastic?\n\nSão muito usados no Brasil, mas a descrição oficial deles foca em contar calorias, jejum e receitas, não em um coach de IA que conversa com você. Por isso ficam no nosso comparativo de apps de dieta, não neste.\n\n## Comparação lado a lado\n\n| App | O que o coach faz | Registros que o coach vê | Foto | Fala primeiro? | Grátis ou pago | App Store |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | Conversa inicial → plano; lê os registros e sugere a ação de hoje | Refeições, sono, passos, ciclo, humor, GLP-1 e mais | Foto no chat (registro por foto com IA é Premium) | Resumo da noite às 22h (Premium) | Chat grátis com limite diário; ilimitado no Premium | EUA 4,7 (159) |\n| Appediet | Recomenda receitas e responde dúvidas de saúde | Condição física, nutrientes consumidos | Escaneamento por foto | Não consta na descrição | Assinatura | 4,8 (13.796) |\n| Lifesum | Registro com IA + Life Score semanal | Alimentação, água, atividade (Apple Saúde) | Foto, voz e texto | Life Score semanal | Grátis + Premium | 4,8 (14.232) |\n| Cal AI | Plano por perguntas + análise da foto | Foto da refeição, respostas iniciais | Foto (resultado exige assinatura) | Não consta na descrição | Análise por foto paga | 4,9 (6.055) |\n| Tecnonutri | Nutricionistas no chat (pessoas, seg. a sex.) | Diário de refeições, exercícios, água, peso | Não consta na descrição | Não consta na descrição | Download grátis | 4,6 (26.022) |\n| Noom | Lições diárias + coaching 1:1 opcional (pessoa) | Refeições, passos, peso | Registro de refeições com IA | Não consta na descrição | Assinatura | 4,4 (520) |\n| Assistentes gerais | Responde e monta planos | O que você digita ou cola | Aceita foto | Só se você configurar | Grátis + pago | — |\n\nDescrições oficiais na App Store do Brasil em 24 de outubro de 2026 (HAVIT: App Store dos EUA, porque ainda não há avaliações suficientes no Brasil). \"Não consta na descrição\" quer dizer que a descrição oficial não fala do assunto, não que o recurso não exista.\n\n## Como testar em 2 semanas\n\nA maioria dos apps tem plano grátis ou período de teste, então o jeito mais seguro é testar antes de decidir.\n\n1. **Na primeira semana, registre como sempre.** Não só as refeições: deixe sono e passos entrarem também.\n2. **Pergunte \"o que eu comi ontem?\" e \"como foi meu sono esta semana?\".** Fica claro na hora se o coach lê os seus registros.\n3. **Pergunte \"por que meu peso não mudou esta semana?\".** Veja se vem só conselho genérico (\"coma menos calorias\") ou se ele procura o motivo nos seus registros.\n4. **Registre também o dia que deu errado.** O que o coach diz depois de um dia ruim mostra se dá para usar o app por muito tempo.\n5. **Veja até onde vai o plano grátis.** Se o chat é grátis, quantas mensagens por dia, se a análise por foto é paga: muda de app para app.\n\n## Resumindo\n\nNa hora de escolher um coach de IA, \"qual IA é mais inteligente\" importa menos do que **o que o coach lê e o que ele faz com isso**.\n\nPara registrar por foto, Cal AI, Lifesum ou Appediet. Para uma nota semanal, Lifesum. Para falar com nutricionista, Tecnonutri. Para um programa com coaching humano, Noom. Se você registra tudo e não sabe o que mudar, precisa de um coach que leia refeições, sono, passos, ciclo menstrual e doses de GLP-1 juntos e diga uma ação para hoje. O HAVIT é esse coach em forma de IA, HAVI, criado por especialistas vindos da Juvis Diet.\n\n[Experimentar o HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "Fluxos de dados que o coach do HAVIT lê",
-          "value": "8",
-          "source": "Refeições, hidratação, treinos, sono, passos, ciclo, humor, GLP-1"
+          "label": "Análises em que registrar mais levou a perder mais peso",
+          "value": "74%",
+          "source": "Patel et al. 2021, Obesity (revisão sistemática de 39 estudos randomizados)"
         },
         {
-          "label": "O que um assistente geral não tem",
-          "value": "Fluxo ao vivo de refeições, sono e passos",
-          "source": "Memória e conexão de dados não são a mesma coisa"
+          "label": "Meta-análise de chatbots para atividade, alimentação e sono",
+          "value": "19 estudos — mais passos, frutas e verduras e sono, mas 74% de baixa qualidade",
+          "source": "Singh et al. 2023, npj Digital Medicine"
         },
         {
-          "label": "Tempo de teste que revela personalização com roteiro",
-          "value": "~2 semanas, com uma semana ruim",
-          "source": "Método de teste deste guia"
+          "label": "Nota do HAVIT na App Store (EUA)",
+          "value": "4,7 (159 avaliações)",
+          "source": "App Store, conferido em 24 de outubro de 2026"
         },
         {
-          "label": "Técnicas de mudança de comportamento na taxonomia padrão",
-          "value": "93",
-          "source": "Michie et al. 2013, Ann Behav Med"
+          "label": "Registros que HAVI lê juntos",
+          "value": "Refeições, sono, passos, ciclo menstrual, humor, GLP-1 e mais",
+          "source": "Recursos do app HAVIT"
         }
       ],
       "comparison_table": {
-        "title": "Comparação",
+        "title": "Comparação lado a lado",
         "headers": [
           "App",
-          "O que o coach lê",
+          "O que o coach faz",
+          "Registros que o coach vê",
+          "Foto",
           "Fala primeiro?",
-          "Composição corporal",
-          "Ciclo",
-          "GLP-1",
-          "Meditação e treinos"
+          "Grátis ou pago",
+          "App Store"
         ],
         "rows": [
           [
-            "Noom",
-            "Refeições, atividade, peso",
-            "O coach humano fala",
-            "Não",
-            "Não",
-            "Não",
-            "Só conteúdo"
+            "HAVIT",
+            "Conversa inicial → plano; lê os registros e sugere a ação de hoje",
+            "Refeições, sono, passos, ciclo, humor, GLP-1 e mais",
+            "Foto no chat (registro por foto com IA é Premium)",
+            "Resumo da noite às 22h (Premium)",
+            "Chat grátis com limite diário; ilimitado no Premium",
+            "EUA 4,7 (159)"
+          ],
+          [
+            "Appediet",
+            "Recomenda receitas e responde dúvidas de saúde",
+            "Condição física, nutrientes consumidos",
+            "Escaneamento por foto",
+            "Não consta na descrição",
+            "Assinatura",
+            "4,8 (13.796)"
+          ],
+          [
+            "Lifesum",
+            "Registro com IA + Life Score semanal",
+            "Alimentação, água, atividade (Apple Saúde)",
+            "Foto, voz e texto",
+            "Life Score semanal",
+            "Grátis + Premium",
+            "4,8 (14.232)"
+          ],
+          [
+            "Cal AI",
+            "Plano por perguntas + análise da foto",
+            "Foto da refeição, respostas iniciais",
+            "Foto (resultado exige assinatura)",
+            "Não consta na descrição",
+            "Análise por foto paga",
+            "4,9 (6.055)"
           ],
           [
             "Tecnonutri",
-            "Refeições e metas",
-            "Não",
-            "Não",
-            "Não",
-            "Não",
-            "Não"
+            "Nutricionistas no chat (pessoas, seg. a sex.)",
+            "Diário de refeições, exercícios, água, peso",
+            "Não consta na descrição",
+            "Não consta na descrição",
+            "Download grátis",
+            "4,6 (26.022)"
           ],
           [
-            "Apps de foto",
-            "A foto que você acabou de tirar",
-            "Não",
-            "Não",
-            "Não",
-            "Não",
-            "Não"
+            "Noom",
+            "Lições diárias + coaching 1:1 opcional (pessoa)",
+            "Refeições, passos, peso",
+            "Registro de refeições com IA",
+            "Não consta na descrição",
+            "Assinatura",
+            "4,4 (520)"
           ],
           [
             "Assistentes gerais",
-            "Só o que você cola",
-            "Só se agendar",
-            "Não",
-            "Não",
-            "Não",
-            "Não"
-          ],
-          [
-            "HAVIT",
-            "Os 8 registros",
-            "Sim",
-            "Estimada",
-            "Sim",
-            "Sim",
-            "Sim"
+            "Responde e monta planos",
+            "O que você digita ou cola",
+            "Aceita foto",
+            "Só se você configurar",
+            "Grátis + pago",
+            "—"
           ]
         ],
-        "caption": "Características de outubro de 2026."
+        "caption": "Descrições oficiais na App Store do Brasil em 24 de outubro de 2026 (HAVIT: App Store dos EUA). \"Não consta na descrição\" quer dizer que a descrição oficial não fala do assunto, não que o recurso não exista."
       },
       "faq": [
         {
-          "question": "Qual é o melhor app com coach de IA?",
-          "answer": "O que lê os seus próprios registros e não só as suas mensagens. Pergunte no período de teste o que você comeu ontem: se você tiver que colar a resposta, é uma janela de chat dentro de um registrador. Depois confira se ele devolve uma ação concreta em vez de um plano, e se se ajusta quando você tem uma semana ruim."
+          "question": "Qual é o melhor app com coach de IA para emagrecer?",
+          "answer": "Depende do que você procura. Se registra tudo e não sabe o que mudar, o HAVIT lê juntos refeições, sono, passos, ciclo menstrual e GLP-1. Para registrar por foto, Cal AI, Lifesum ou Appediet; para falar com nutricionista, Tecnonutri; para coaching feito por pessoas, Noom."
         },
         {
-          "question": "Qual a diferença de perguntar ao ChatGPT sobre a minha dieta?",
-          "answer": "Assistentes gerais já lembram entre conversas e podem falar com você num horário fixo se você configurar. O que continuam sem ter é um fluxo contínuo das refeições, do sono e dos passos de hoje, então a ligação entre quatro dias de pouca proteína, duas noites curtas e um peso parado tem que ser levantada por você."
+          "question": "O que HAVI, o coach de IA do HAVIT, faz?",
+          "answer": "No começo, conversa com você sobre objetivo, uso de GLP-1, efeitos colaterais, altura, peso, cintura e tipo de corpo e monta o Body Blueprint e o plano. Depois, lê todos os registros e sugere a ação de hoje; dá para mandar foto no chat. Às 22h chegam o resumo da noite e o compromisso do dia, com quantos você cumpriu nos últimos 14 dias (HAVIT Premium)."
         },
         {
-          "question": "O coach da Noom é IA ou pessoa?",
-          "answer": "Pessoa. O núcleo da Noom é um coach humano para quem você escreve, junto de um currículo de psicologia. Por isso ela fica na faixa de preço mais alta. Coaching com IA é mais barato e está disponível às duas da manhã, mas prestar contas a alguém é outro produto."
+          "question": "O coach de IA do HAVIT é grátis?",
+          "answer": "O chat com o coach é grátis, com limite diário de mensagens. No HAVIT Premium o chat é ilimitado e entram resumo da noite e compromisso, check-in diário, registro de refeição por foto com IA e análise de proteínas, carboidratos e gorduras. Registro de refeições, peso, sono, passos, ciclo menstrual e GLP-1 e a estimativa de composição corporal são grátis."
         },
         {
-          "question": "Apps que calculam caloria por foto são coaches de IA?",
-          "answer": "Fazem reconhecimento, não coaching. São muito bons transformando um prato em registro em segundos, o que resolve um problema real. Mas respondem \"o que era aquilo?\" e não \"o que eu deveria mudar?\". Se o seu travamento é velocidade, encaixam; se é não saber o próximo passo, não."
+          "question": "Qual a diferença entre o HAVIT e o Appediet ou o Lifesum?",
+          "answer": "Pela descrição oficial, o assistente do Appediet recomenda receitas e responde dúvidas de saúde, e o Lifesum usa IA no registro e dá um Life Score semanal. Os dois focam em alimentação. HAVI começa com uma conversa que inclui uso de GLP-1 e efeitos colaterais e lê sono, passos, ciclo menstrual e doses junto com as refeições para sugerir a ação do dia."
         },
         {
-          "question": "Como sei se a personalização de um app é real?",
-          "answer": "Registre uma semana ruim de propósito. Um sistema de coaching de verdade baixa a exigência, muda a meta ou pergunta o que aconteceu. Um com roteiro repete o mesmo incentivo animado. Leva cerca de duas semanas para perceber, por isso vale fazer dentro do período gratuito."
+          "question": "Qual a diferença entre perguntar ao ChatGPT e usar um app de dieta?",
+          "answer": "Assistentes gerais explicam e montam planos muito bem. A diferença está nos registros do dia a dia: o coach de um app de dieta lê na hora as refeições, os passos e o sono que já estão no app, enquanto o assistente geral responde com base no que você digita. No dia em que você não conta nada, ele também não sabe."
         },
         {
-          "question": "Um coach de IA substitui nutricionista ou psicólogo?",
-          "answer": "Não. Uma IA de saúde sensata recusa diagnosticar e não manda mudar uma dose prescrita, incluindo o HAVIT, que é um app de bem-estar e não um dispositivo médico. Diante de transtorno alimentar ou doença diagnosticada, procure um profissional."
+          "question": "Coach de IA ou coach humano: qual é melhor?",
+          "answer": "Depende do seu jeito. Numa meta-análise de 19 estudos, chatbots aumentaram passos, consumo de frutas e verduras e horas de sono, mas a maioria dos estudos era de baixa qualidade (Singh 2023). A IA responde a qualquer hora e custa menos; com uma pessoa, surge a sensação de prestar contas. Se você precisa dar satisfação a alguém, considere Tecnonutri ou Noom."
+        },
+        {
+          "question": "Um coach de IA substitui nutricionista ou médico?",
+          "answer": "Não. Uma boa IA de saúde não dá diagnóstico nem manda mudar a dose de um remédio prescrito. O HAVIT não é dispositivo médico, e a estimativa de composição corporal não é medição médica. Se há suspeita de transtorno alimentar, uma doença diagnosticada ou gravidez, procure um profissional primeiro."
+        },
+        {
+          "question": "Quem criou o HAVIT?",
+          "answer": "Especialistas vindos da Juvis Diet, marca coreana especializada em acompanhamento de emagrecimento. A forma de acompanhar de perto a alimentação e a rotina de cada pessoa foi levada para HAVI e o programa de 12 semanas, com foco na composição do corpo (gordura e massa magra) mais do que no peso. O desenvolvedor é a Havit Inc."
         }
       ],
       "references": [
         {
-          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
-          "source": "Annals of Behavioral Medicine, 2013",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+          "title": "Self-Monitoring via Digital Health in Weight Loss Interventions: A Systematic Review Among Adults with Overweight or Obesity (Patel, Wakayama & Bennett)",
+          "source": "Obesity, 2021 — 39 estudos randomizados; mais automonitoramento digital associado a mais perda de peso em 74% das análises; taxas de registro parecidas com e sem aconselhamento",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33624440/"
         },
         {
-          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
-          "source": "New England Journal of Medicine, 2002 (n=3.234)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
-        },
-        {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (tópico em atualização); adultos com IMC ≥30, entregue por clínico",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "Relatório de Hábitos GLP-1 2026 — análise interna da HAVIT de 1.090 usuários de GLP-1",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "Systematic review and meta-analysis of the effectiveness of chatbots on lifestyle behaviours (Singh et al.)",
+          "source": "npj Digital Medicine, 2023 — 19 estudos; chatbots aumentaram passos, consumo de frutas e verduras e duração do sono; 74% dos estudos de baixa qualidade",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37353578/"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-24"
     },
     "id": {
       "title": "Aplikasi Coach Kesehatan AI Terbaik 2026: Mana yang Benar-Benar Membaca Data Anda",
