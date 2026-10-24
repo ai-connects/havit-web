@@ -1085,123 +1085,138 @@
       "last_updated": "2026-10-12"
     },
     "de": {
-      "title": "Beste Apps zum Essen protokollieren 2026: nach Ihrem Abbruchmuster wählen",
-      "short_title": "Beste Ernährungstagebuch-Apps 2026",
-      "meta_description": "Yazio, MyFitnessPal, Lifesum und HAVIT einzeln geprüft. Die vier Arten, wie die Protokollgewohnheit stirbt — Suchsteuer, Wand aus Selbstgekochtem, Schamlücke, Abdriften — und welche App welche löst.",
-      "tldr": "Niemand hört auf zu protokollieren, weil die App ungenau war. Finden Sie zuerst Ihr Abbruchmuster: Suchsteuer, Wand aus Selbstgekochtem, Schamlücke oder Abdriften ins Sinnlose.",
-      "body_md": "Niemand hört mit dem Protokollieren auf, weil die App ungenau war. Man hört in **einem bestimmten Moment** auf: 21 Uhr, müde, vor einer Schüssel Selbstgekochtem mit sechs Zutaten, und entscheidet, dass es das nicht wert ist.\n\nDieser Leitfaden beginnt deshalb mit **den vier Arten, wie die Protokollgewohnheit stirbt**, und nimmt danach die Apps einzeln durch.\n\n![Was das Protokollieren beendet, ist Müdigkeit, nicht Ungenauigkeit](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## Die vier Arten, wie Protokollieren stirbt\n\n**1. Die Suchsteuer.** Jede Mahlzeit beginnt mit Tippen, geht über eine Liste fast identischer Treffer und endet beim Raten. Dreißig Sekunden, viermal am Tag.\n\n**2. Die Wand aus Selbstgekochtem.** Fertigprodukte gehen glatt rein. Dann kochen Sie, und aus einer Schüssel werden elf Suchvorgänge.\n\n**3. Die Schamlücke.** Der Tag lief schlecht, Sie wollen es nicht schwarz auf weiß sehen, Sie überspringen ihn. **Das ist der Tag, an dem die Gewohnheit reißt.**\n\n**4. Das Abdriften ins Sinnlose.** Fünf Wochen diszipliniert protokolliert, und die App gibt nur Zahlen zurück. Ab da fühlt es sich nach Buchhaltung an.\n\n## Yazio — deutsche Produkte sind drin\n\n| | |\n| --- | --- |\n| Herkunft | Deutschland |\n\n![Deutsche Supermarktprodukte stehen nicht in jeder Datenbank](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg)\n\n**Was sie gut macht.** Greift die **Suchsteuer** im deutschen Markt direkt an: findet Produkte, die US-Apps nicht kennen. Dazu Barcode, Rezepte und ein Fasten-Timer, der Entscheidungen reduziert.\n\n**Wo sie schwächelt.** Gegen die Schamlücke und das Abdriften hilft sie nicht — nach dem Eintrag folgt kein Coaching, das sich anpasst.\n\n**Für wen.** Für alle, die an der Suche nach deutschen Produkten hängenblieben.\n\n## MyFitnessPal — suchen und finden\n\n| | |\n| --- | --- |\n| Datenbank | Zweistellige Millionenzahl, großteils von Nutzern |\n\n**Was sie gut macht.** Die breiteste Abdeckung überhaupt: Ketten, unbekannte Marken, ausländische Produkte. Ausgereifter Barcode-Scanner.\n\n**Wo sie schwächelt.** **Suchen ist die zentrale Interaktion** — und Suchen ist die Steuer. Ein Produkt taucht vielfach mit verschiedenen Werten auf.\n\n**Für wen.** Für alle, die vor allem Fertigprodukte und Kettengastronomie essen.\n\n## Lifesum — damit Sie überhaupt wiederkommen\n\n**Was sie gut macht.** Gewohnheitsringe und ein Design, das zum Wiederöffnen einlädt. Gegen das Abdriften ins Sinnlose hilft das mehr, als es klingt.\n\n**Wo sie schwächelt.** Keine Körperzusammensetzung, kein Zyklus, kein adaptives Coaching.\n\n**Für wen.** Für alle, bei denen Abbruch das eigentliche Problem ist.\n\n## HAVIT — gegen alle vier gebaut\n\n| | |\n| --- | --- |\n| Anbieter | Havit Inc. |\n| Lebensmitteldatenbank | ~486.000 Einträge aus Behördendaten (432.418 USDA) |\n| Erfasst | Mahlzeiten, Trinkmenge, Training, Schlaf, Schritte, Zyklus, Stimmung, GLP-1 |\n\n![KI-Food-Scan: Teller fotografieren, Suche überspringen](/blog/havit/shot/feature-nutrition.webp)\n\n**Die Wand aus Selbstgekochtem** fällt mit dem **KI-Food-Scan**: Gericht fotografieren, geschätzte Nährwerte bekommen — ohne elf Zutaten zu suchen.\n\n**Die Suchsteuer** sinkt über die Herkunft. Die ~486.000 Einträge stammen aus **öffentlichen Lebensmittelbehörden**, nicht aus Nutzer-Uploads, man vergleicht also nicht neun Versionen desselben Joghurts.\n\n![Tägliches Check-in: So kommt ein schlechter Tag herein, ohne alles zu beenden](/blog/havit/shot/feature-daily-check-in.webp)\n\n**Die Schamlücke** deckt das **tägliche Check-in** ab. \"Heute war hart\" in wenigen Tipps zu sagen wiegt weniger, als einen Tag zu protokollieren, den man lieber vergessen würde — und der Faden reißt nicht.\n\n**Das Abdriften ins Sinnlose** ist der Grund für den **KI-Coach**: Er liest alle acht Protokolle und gibt **eine konkrete Handlung für heute** zurück statt einer Seite voller Zahlen.\n\nDazu: **Tagesmissionen**, **sechs geführte Meditationen**, **Trainingsvideos**, **Fasten**, **über 1.400 Artikel**, geschätzte Körperzusammensetzung, Serien, Abzeichen, Ränge und Team-Challenges. Entwickelt mit Fachleuten, die von Juvis Diet kommen.\n\n**Ehrlich gesagt**: Ist Ihr einziges Problem, deutsche Supermarktprodukte zu finden, ist Yazio im Vorteil. HAVIT greift die anderen drei an.\n\n**Für wen.** Für alle, die kochen; die an schlechten Tagen aufgehört haben zu protokollieren; die nach dem Eintrag etwas brauchen.\n\n## Vergleich\n\n| App | Deutsche Produkte | Foto-Erfassung | Nimmt einen schlechten Tag an? | Nach dem Eintrag | Körperzusammensetzung |\n| --- | --- | --- | --- | --- | --- |\n| Yazio | **Stark** | Begrenzt | Nein | Geführte Pläne | Nein |\n| MyFitnessPal | Mittel | Begrenzt | Nein | Nein | Nein |\n| Lifesum | Mittel | Begrenzt | Nein | Gewohnheitsringe | Nein |\n| **HAVIT** | Begrenzt | **Ja** | **Check-in** | **Eine Handlung am Tag** | **Geschätzt** |\n\nStand Oktober 2026.\n\n## Ein Zwei-Wochen-Test\n\n1. **Protokollieren Sie zuerst die schwierigste Mahlzeit** — keine Hähnchenbrust, sondern das gemischte selbst gekochte Gericht.\n2. **Protokollieren Sie dasselbe Gericht drei Tage später** und zählen Sie die Tipps. Sind es nicht deutlich weniger, hören Sie in Woche vier auf.\n3. **Haben Sie absichtlich einen schlechten Tag und protokollieren Sie ihn.** Schauen Sie, was die App macht.\n4. **Fragen Sie an Tag vierzehn, was sie Ihnen gesagt hat.** \"Meine Zahlen\" ist ein Kassenbuch. \"Was zu ändern ist\" ist ein Werkzeug.\n\n[HAVIT ausprobieren →](https://www.aihavit.com/)\n",
+      "title": "Ernährungstagebuch-Apps 2026: 6 Apps im Vergleich – Foto-Erfassung, Gratisumfang und KI-Coach",
+      "short_title": "Ernährungstagebuch-Apps 2026 im Vergleich",
+      "meta_description": "HAVIT, Yazio, Fddb, MyFitnessPal, Lifesum und fatsecret im Vergleich: Wer erfasst Mahlzeiten per Foto, was ist kostenlos, was kostet extra, und wie weit reichen Makros und Coaching? Stand: deutscher App Store, Oktober 2026.",
+      "tldr": "Beim Ernährungstagebuch zählt weniger, lange und genau zu protokollieren, als häufig und ohne Unterbrechung. Wählen Sie die App, die Ihren kritischen Moment entschärft: müde vom Suchen, blockiert vor Selbstgekochtem, ein Tag mit zu viel Essen oder nur noch Zahlen ohne Konsequenz. Ob Fotoerkennung oder Barcode-Scan kostenlos sind, unterscheidet sich je App (bei HAVIT ist der Foto-Scan Premium, bei MyFitnessPal der Barcode-Scan).",
+      "body_md": "Kaum jemand hört mit dem Ernährungstagebuch auf, weil die App ungenau war. Meistens passiert es in **einem bestimmten Moment**: abends, müde, vor einem selbst gekochten Gericht mit sechs Zutaten und dem Gedanken „Das suche ich jetzt nicht alles raus“. Oder an einem Tag, an dem man zu viel gegessen hat und die Zahl lieber nicht sehen will.\n\nDieser Ratgeber beginnt deshalb mit den vier Momenten, in denen das Protokollieren abreißt, und zeigt dann, mit **welcher Funktion** jede App dagegenhält und **ob diese Funktion kostenlos ist**. Verglichen haben wir sechs Apps, die in Deutschland zum Essen-Tracken verbreitet sind: Yazio, Fddb, MyFitnessPal, Lifesum, fatsecret und HAVIT. Bewertungen und Funktionen stammen aus den Beschreibungen im deutschen App Store (Stand 24. Oktober 2026). Preise nennen wir nicht, weil sie sich oft ändern.\n\nHAVIT ist die App des Teams, das diesen Artikel schreibt. Entwickelt wurde sie von **Fachleuten, die von Juvis kommen**, einer koreanischen Marke für betreutes Abnehmen. Deshalb kennzeichnen wir die Bezahlfunktionen von HAVIT als solche und nennen auch die Fälle, in denen HAVIT nicht passt.\n\n![Was das Protokollieren beendet, ist Müdigkeit, nicht Ungenauigkeit](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## Kurz: Welche App passt zu Ihnen?\n\n| Ihre Situation | Passende App | Warum |\n| --- | --- | --- |\n| Einfach protokollieren, ohne zu zahlen | Fddb · fatsecret | Fddb nennt sich kostenloser Kalorienzähler ohne Werbung; bei fatsecret beschränkt sich Premium laut Beschreibung auf Ernährungspläne, zusätzliche Mahlzeiten und Wasser-Tracking |\n| Mit einem Foto fertig sein | Yazio · Lifesum · Fddb · fatsecret · HAVIT (Premium) | Alle nennen eine Erkennung per Foto; nur bei HAVIT ist die Bezahlstufe klar angegeben |\n| Lieber sprechen als tippen | Lifesum | Erfassen per Sprachnachricht laut Beschreibung |\n| Intervallfasten und Tagebuch in einer App | Yazio · Fddb | Mehr als 20 Fastenpläne bzw. Fastenfenster wie 16:8 oder 18:6 |\n| Viele Fertigprodukte und Restaurantgerichte | MyFitnessPal | Laut Beschreibung über 20,5 Millionen Lebensmittel inklusive Restaurantgerichten |\n| Sie nehmen ein GLP-1-Medikament (z. B. Wegovy, Mounjaro) | **HAVIT** | Mahlzeiten, Dosis, Gewicht und geschätzte Körperzusammensetzung in einer App (alles kostenlos) |\n| Sie protokollieren, wissen aber nicht, was Sie ändern sollen | **HAVIT** | Der KI-Coach HAVI liest alle Einträge und sagt, was heute zu tun ist |\n\n## Vor der Wahl: die vier Momente, in denen das Protokollieren abreißt\n\nDas Ernährungstagebuch ist ein Grundwerkzeug von Abnehmprogrammen. Eine systematische Übersicht über 22 Studien fand **durchgehend einen Zusammenhang** zwischen Selbstbeobachtung und Gewichtsabnahme. Wegen methodischer Schwächen der Studien bewerteten die Autoren die Evidenz allerdings als **schwach** (Burke 2011). In einer Studie mit 142 Teilnehmenden eines sechsmonatigen Online-Abnehmprogramms sank die Zeit fürs Protokollieren von **durchschnittlich 23,2 Minuten pro Tag** im ersten Monat auf **14,6 Minuten** im sechsten. Wer mindestens 5 % abnahm, unterschied sich von den anderen nicht durch die aufgewendete Zeit, sondern dadurch, **wie oft am Tag** das Tagebuch geöffnet wurde (2,4- gegenüber 1,6-mal; Harvey 2019).\n\nHäufig und ohne Unterbrechung zählt also mehr als lange und penibel. Wählen Sie die App danach, wie gut sie die Momente entschärft, in denen Sie aufhören.\n\n**1. Wenn das Suchen ermüdet.** Bei jeder Mahlzeit tippen, dann aus fast gleichen Treffern auswählen. Worauf achten: häufige Mahlzeiten speichern (Lifesum „Quick-Tracking“ und Favoriten, Fddb eigene Lebensmittel und Listen, MyFitnessPal eigene Gerichte und Rezepte) und Barcode-Scanner. Achtung: Bei MyFitnessPal steht der Barcode-Scan laut deutscher Beschreibung unter Premium; Yazio, Fddb, Lifesum und fatsecret nennen ihn ohne diesen Hinweis.\n\n**2. Wenn Selbstgekochtes blockiert.** Fertigprodukte sind schnell erfasst, ein selbst gekochtes Gericht verlangt jede Zutat einzeln. Worauf achten: Fotoerkennung oder gespeicherte Rezepte. Ob die Fotoerkennung kostenlos ist, unterscheidet sich: Der **KI-Food-Scan von HAVIT gehört zu HAVIT Premium**. Yazio, Lifesum, Fddb und fatsecret nennen eine Fotoerkennung, geben in der Beschreibung aber nicht klar an, ob sie im Gratisumfang enthalten ist. Bei Cal AI steht ausdrücklich, dass die Ergebnisse ein Abo erfordern.\n\n**3. An Tagen, an denen Sie zu viel gegessen haben.** Man will die Zahl nicht sehen, lässt den Tag aus und dann auch den nächsten. Worauf achten: ob es einen leichten Weg gibt, den Tag festzuhalten, ohne jede Mahlzeit nachzutragen, und ob die App den Tag nicht nur als Misserfolg darstellt. Das **tägliche Check-in von HAVIT (Premium)** erfasst Befinden, Schlaf, Appetit und Stimmung mit wenigen Tipps. Bei MyFitnessPal und fatsecret gibt es Foren bzw. eine Community.\n\n**4. Wenn sich nur Zahlen ansammeln.** Nach einigen Wochen zeigt die App nur Summen, und der Sinn des Protokollierens verblasst. Worauf achten: eine Funktion, die Ihre Einträge liest und sagt, was als Nächstes zu tun ist. Bei HAVIT ist das der **KI-Coach HAVI** (kostenlos mit Tageslimit). Lifesum nennt Tipps und einen Life Score, MyFitnessPal personalisierte Ernährungserkenntnisse in Premium.\n\n## HAVIT – ein KI-Coach, der Ihr Protokoll liest\n\n| | |\n| --- | --- |\n| Anbieter | Havit Inc. |\n| Entwickelt von | Fachleuten, die von Juvis kommen (koreanische Marke für betreutes Abnehmen) |\n| App Store | US-Wert 4,7 (159 Bewertungen); im deutschen App Store noch zu wenige Bewertungen |\n| Kostenlos | Mahlzeiten erfassen (Suche, manuelle Eingabe) mit Kalorien pro Mahlzeit; Gewicht, Trinkmenge, Schlaf, Schritte, Fasten, Stimmung, Zyklus und GLP-1; Schätzung der Körperzusammensetzung; Chat mit dem KI-Coach (mit Tageslimit) |\n| HAVIT Premium | KI-Food-Scan, Kohlenhydrate, Eiweiß und Fett pro Mahlzeit und Tag, verbleibende Kalorien, tägliches Check-in, unbegrenzter Coach-Chat, Abendrückblick mit Vorsatz, Trainingsvideos, geführte Meditationen und Artikel |\n\nDie Aufteilung zwischen kostenlos und Premium entspricht der Standardeinstellung der App im Oktober 2026. Über Aktionen können einzelne Premium-Funktionen zeitweise kostenlos sein.\n\n![KI-Food-Scan (HAVIT Premium) – Kalorien und Nährwerte aus einem Foto geschätzt](/blog/havit/shot/feature-nutrition.webp)\n\n**Was kostenlos ist.** Sie suchen ein Lebensmittel oder geben es selbst ein und sehen die Kalorien pro Mahlzeit. Neben dem Essen erfassen Sie Gewicht, Trinkmenge, Schlaf, Schritte, Fasten, Stimmung, Zyklus und GLP-1-Medikation in derselben App, und HAVIT schätzt ohne Gerät, wie sich Fett und fettfreie Masse entwickeln (keine medizinische Messung). Die meisten Ernährungs-Apps schauen auf Essen und Gewicht; hier sehen Sie auf demselben Bildschirm, ob ein Stillstand eher mit Schlaf oder Zyklus zusammenhängt.\n\n**Was Premium freischaltet.** Gegen die Blockade vor Selbstgekochtem hilft der **KI-Food-Scan**: Foto machen, Schätzung von Kalorien und Nährwerten erhalten. Auch die Aufschlüsselung in **Kohlenhydrate, Eiweiß und Fett** pro Mahlzeit und Tag sowie die **verbleibenden Kalorien** gehören zu Premium. Wer Makronährstoffe kostenlos sehen will, ist bei Fddb oder fatsecret eventuell besser aufgehoben.\n\n### KI-Coach HAVI – sagt, was nach dem Eintrag kommt\n\n![KI-Coach – liest alle Einträge und gibt eine Handlung für heute zurück](/blog/havit/shot/feature-ai-coach.webp)\n\nWenn ein Ernährungstagebuch ein Ort für Summen ist, dann steht bei HAVIT der **KI-Coach HAVI** im Mittelpunkt.\n\n**Am Anfang steht ein Gespräch.** HAVI fragt nach Ihrem Ziel, ob Sie ein GLP-1-Medikament nehmen und welche Nebenwirkungen Sie haben, nach Größe, Gewicht und weiteren Körperdaten. Daraus entstehen ein **Body Blueprint**, der Ihren aktuellen Stand zusammenfasst, und ein Zielplan.\n\n**Im Alltag liest HAVI alles mit.** Nicht nur Mahlzeiten, sondern auch Schlaf, Schritte, Zyklus und GLP-1-Einnahme, und schlägt daraus **eine Handlung für heute** vor. Stimmen in einer Woche die Kalorien, das Gewicht bewegt sich aber nicht, schaut HAVI auf Schlaf und Schritte dieser Woche und benennt, wo Sie zuerst ansetzen können.\n\n**Fragen per Foto.** Was sich schwer erfassen lässt, etwa ein Gericht im Restaurant, können Sie HAVI **als Foto schicken** und nachfragen. Den Chat gibt es auch kostenlos, dann mit Tageslimit; unbegrenzt ist er mit HAVIT Premium.\n\n**Der Tag bekommt einen Abschluss.** Um 22 Uhr kommt ein **Abendrückblick** auf den Tag, und Sie können **einen Vorsatz in einem Satz** für morgen festhalten. Sie sehen auch, wie oft Sie Ihre Vorsätze in den letzten 14 Tagen eingehalten haben (HAVIT Premium).\n\n![Tägliches Check-in (HAVIT Premium) – damit auch ein schwieriger Tag im Protokoll landet](/blog/havit/shot/feature-daily-check-in.webp)\n\nMit dem **täglichen Check-in** (HAVIT Premium) halten Sie Befinden, Schlaf, Appetit und Stimmung fest, und HAVI weiß, was für ein Tag es ist, bevor das Gespräch beginnt. Auch an einem Tag mit zu viel Essen müssen Sie nicht jede Mahlzeit nachtragen, sondern halten den Tag mit wenigen Tipps fest.\n\n### Entwickelt von Fachleuten, die von Juvis kommen\n\nHAVIT wurde von **Fachleuten entwickelt, die von Juvis kommen**, einer koreanischen Marke, bei der Coaches Ernährung und Alltag ihrer Kundinnen und Kunden persönlich begleitet haben. Diese Methodik steckt im Coach und im 12-Wochen-Programm.\n\n- **Körperzusammensetzung vor Gewicht.** Deshalb ist die Schätzung der Körperzusammensetzung kostenlos, und Eiweiß und Krafttraining stehen im Zentrum des Coachings.\n- **Eine Sache nach der anderen ändern.** Das 12-Wochen-Programm hat 12 Etappen. Ob eine Mission erfüllt ist, entscheiden nicht Sie per Haken, sondern Ihre erfassten Daten zu Mahlzeiten und Schritten.\n- **Ein misslungener Tag gehört dazu.** Bei Missionen über mehrere Tage bleibt der Fortschritt erhalten, wenn Sie einmal aussetzen; beim zweiten Mal hilft ein Serienschutz weiter. Erst beim dritten Mal beginnt die Mission neu.\n\n### Wann HAVIT nicht die beste Wahl ist\n\nWenn Sie **Makronährstoffe kostenlos** sehen wollen, reicht die Gratisversion von HAVIT nicht (sie zeigt Kalorien pro Mahlzeit). Wenn Sie **Fotoerkennung ohne Abo** suchen, probieren Sie zuerst die Apps, die sie ohne Bezahlhinweis nennen, und prüfen Sie den Gratisumfang direkt in der App. Wer **viele deutsche Supermarktprodukte per Barcode** erfasst, ist mit Yazio oder dem in Deutschland entwickelten Fddb gut bedient. Für **Intervallfasten mit vielen Plänen** passt Yazio, für **Erfassen per Sprache** Lifesum.\n\n**Für wen**: Für alle, die protokollieren, aber nicht wissen, was sie ändern sollen; deren Gewicht mit Schlaf oder Zyklus zusammenhängt; die unter GLP-1 Mahlzeiten und Medikation gemeinsam erfassen möchten.\n\n## Yazio – Tagebuch, Fasten und Rezepte\n\n| | |\n| --- | --- |\n| Anbieter | YAZIO |\n| App Store (Deutschland) | **4,6 (447.175 Bewertungen)** |\n| Foto | Foto-Tracking laut Beschreibung (ob kostenlos, ist nicht angegeben) |\n| Kosten | Kostenlos + Yazio Pro (u. a. keine Werbung, Auswertung aller Nährstoffe inkl. Vitamine und Mineralstoffe, Körperwerte und -maße) |\n\n**Was sie gut macht.** Kalorienzähler, Barcode-Scanner, Makronährstoffe, Wasserzähler und automatische Aktivitätserfassung in einer App, dazu mehr als 20 Fastenpläne für Intervallfasten und über 3.000 Rezepte. Mahlzeiten lassen sich laut Beschreibung per Foto erkennen. Die meisten Bewertungen der Apps in diesem Vergleich.\n\n**Wo sie schwächelt.** Die detaillierte Nährstoffauswertung und die Erfassung von Körperwerten und -maßen gehören zu Pro. Ein Coach, der Ihre Einträge liest und daraus einen Vorschlag macht, wird in der Beschreibung nicht genannt.\n\n**Für wen**: Für alle, die Intervallfasten und Ernährungstagebuch verbinden wollen.\n\n## Fddb – kostenloser Kalorienzähler aus Deutschland\n\n| | |\n| --- | --- |\n| Anbieter | Food Database GmbH |\n| App Store (Deutschland) | 4,6 (17.453 Bewertungen) |\n| Foto | KI-Food-Scanner (ob kostenlos, ist nicht angegeben) |\n| Kosten | Kostenloser Kalorienzähler und Ernährungstagebuch ohne Werbung laut Beschreibung; In-App-Käufe |\n\n![Selbst gekochte Gerichte sind der härteste Test für jede App](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n**Was sie gut macht.** Laut Beschreibung sind Kalorienzähler und Ernährungstagebuch kostenlos und werbefrei, alle Lebensmitteldaten frei verfügbar. Dazu Barcode-Scanner, KI-Food-Scanner, Makro- und Mikronährstoffe, Nährstoffauswertung nach den Referenzwerten der DGE (Deutsche Gesellschaft für Ernährung), Intervallfasten mit Fenstern wie 16:8 oder 18:6 und mehr als 1.000 Rezepte. Für Menschen mit Diabetes interessant: Kohlenhydrat- und Broteinheiten sowie FPE werden berechnet. Entwickelt in Deutschland.\n\n**Wo sie schwächelt.** Welche Funktionen genau kostenpflichtig sind, geht aus der Beschreibung nicht hervor. Ein Coaching, das auf Ihre Einträge reagiert, ist nicht beschrieben.\n\n**Für wen**: Für alle, die ohne Abo detailliert protokollieren wollen.\n\n## MyFitnessPal – breite Datenbank, Barcode in Premium\n\n| | |\n| --- | --- |\n| Anbieter | MyFitnessPal, Inc. |\n| App Store (Deutschland) | 4,5 (80.211 Bewertungen) |\n| Foto | In der deutschen Beschreibung nicht genannt |\n| Kosten | Kostenlos + MyFitnessPal Premium (u. a. Barcode-Scan, Intervallfasten, individuelle Makroziele, keine Werbung) |\n\n**Was sie gut macht.** Laut Beschreibung mehr als **20,5 Millionen Lebensmittel**, auch Restaurantgerichte. Makronährstoffe, Wasser, Training und Schritte, eigene Gerichte und Rezepte, Verbindung mit über 40 Apps und Geräten und aktive Foren.\n\n**Wo sie schwächelt.** Barcode-Scan und individuelle Makroziele stehen in der deutschen Beschreibung unter Premium. Bei so vielen Einträgen dauert es, den passenden Treffer zu finden; speichern Sie häufige Mahlzeiten.\n\n**Für wen**: Für alle, die viele Fertigprodukte und Restaurantgerichte essen.\n\n## Lifesum – Foto, Sprache, Text oder Barcode\n\n| | |\n| --- | --- |\n| Anbieter | Lifesum AB |\n| App Store (Deutschland) | 4,5 (81.840 Bewertungen) |\n| Foto | Foto mit sofortigen Nährwertangaben laut Beschreibung (ob kostenlos, ist nicht angegeben) |\n| Kosten | Kostenlos mit eingeschränkten Funktionen + Premium |\n\n**Was sie gut macht.** Mahlzeiten lassen sich per Foto, Sprachnachricht, Text oder Barcode erfassen, häufige Einträge per Quick-Tracking und Favoriten. Dazu Makro-Tracker mit Lebensmittelbewertung, Habit-Tracker, Essenspläne mit Einkaufsliste und der Life Score, der Essgewohnheiten, Trinkmenge und Aktivität bewertet.\n\n**Wo sie schwächelt.** Laut Beschreibung ist die Gratisversion eingeschränkt; welche Funktionen genau zu Premium gehören, steht nicht dabei.\n\n**Für wen**: Für alle, die lieber sprechen oder fotografieren als suchen.\n\n## fatsecret – großer Gratisumfang\n\n| | |\n| --- | --- |\n| Anbieter | fatsecret |\n| App Store (Deutschland) | 4,7 (8.648 Bewertungen) |\n| Foto | Bilderkennung laut Beschreibung |\n| Kosten | Kostenlos + Premium (Ernährungspläne, sechs zusätzliche Mahlzeiten, Wasser-Tracking) |\n\n**Was sie gut macht.** Die Beschreibung sagt klar „fatsecret ist kostenlos“; als Premium-Vorteile werden nur Ernährungspläne, zusätzliche Mahlzeiten und Wasser-Tracking genannt. Ernährungs- und Trainingstagebuch, Barcode-Scanner, Bilderkennung, Gewichtsverlauf, Community und eine App für die Apple Watch sind im Funktionsumfang.\n\n**Wo sie schwächelt.** Ein KI-Coaching ist nicht beschrieben. Die deutsche Beschreibung wirkt stellenweise maschinell übersetzt.\n\n**Für wen**: Für alle, die ohne Abo einfach dranbleiben wollen.\n\n## Wie weit kann man der Foto-Erfassung trauen?\n\nDer Vorteil von Fotos ist das Tempo. Ob ein gemischtes Gericht überhaupt im Tagebuch landet, hängt oft weniger an der Genauigkeit als an der Zeit, die das Erfassen kostet.\n\nWas **man nicht sieht**, erkennt aber auch keine Kamera: das Öl in der Pfanne, die Sahne in der Soße, die Zutaten unter dem Belag. Nehmen Sie die Foto-Schätzung als Ausgangspunkt und korrigieren Sie, wenn die Portion deutlich abweicht oder das Gericht fettreich ist. Auch bei Cal AI, einer reinen Foto-App (deutscher App Store 4,7, 10.338 Bewertungen), steht in der Beschreibung, dass **die Ergebnisse des Food-Scans ein Abo erfordern**. Fotoerkennung ist in dieser Kategorie oft an eine Bezahlstufe gebunden; prüfen Sie den Gratisumfang vor dem Start.\n\n## Gegenüberstellung\n\n| App | App Store (DE) | Erfassen per Foto | Makronährstoffe | Coaching | Kosten |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | US 4,7 (159) | **KI-Food-Scan (Premium)** | Premium | KI-Coach HAVI (kostenlos mit Tageslimit) | Kostenlos + HAVIT Premium |\n| Yazio | 4,6 (447.175) | Foto-Tracking | Ja | Nicht beschrieben | Kostenlos + Pro |\n| Fddb | 4,6 (17.453) | KI-Food-Scanner | Ja, inkl. Mikronährstoffe | Nicht beschrieben | Kostenlos + In-App-Käufe |\n| MyFitnessPal | 4,5 (80.211) | Nicht genannt (Barcode in Premium) | Ja | Ernährungserkenntnisse (Premium) | Kostenlos + Premium |\n| Lifesum | 4,5 (81.840) | Foto, auch Sprache | Ja | Tipps, Life Score | Kostenlos eingeschränkt + Premium |\n| fatsecret | 4,7 (8.648) | Bilderkennung | Nährwerte | Nicht beschrieben | Kostenlos + Premium |\n\nStand: Beschreibungen im deutschen App Store, 24. Oktober 2026. Was dort nicht steht, haben wir als „nicht genannt“ oder „nicht beschrieben“ markiert; in der App kann es trotzdem vorhanden sein. Für HAVIT gibt es im deutschen App Store noch zu wenige Bewertungen, daher der US-Wert.\n\n## Der Zwei-Wochen-Test\n\n1. **Beginnen Sie mit der schwierigsten Mahlzeit.** Nicht mit dem Joghurt, sondern mit einem selbst gekochten Gericht aus mehreren Zutaten.\n2. **Tragen Sie dasselbe Gericht drei Tage später erneut ein** und zählen Sie, wie oft Sie tippen mussten.\n3. **Protokollieren Sie auch einen Tag mit zu viel Essen.** Achten Sie darauf, wie die App diesen Tag darstellt.\n4. **Fragen Sie sich am 14. Tag:** Hat mir die App nicht nur Zahlen gezeigt, sondern auch gesagt, **was ich als Nächstes ändern soll**?\n\nWie die Studie oben zeigt, wird Protokollieren mit der Zeit kürzer, und das ist normal (Harvey 2019). Die App, die Sie zwei Wochen lang jeden Tag geöffnet haben, ist die, die Sie behalten werden.\n\n## Fazit\n\nWählen Sie eine App danach, **in welchem Moment Sie aufhören**. Wer kostenlos einfach protokollieren will, ist bei Fddb oder fatsecret richtig; wer per Foto schnell sein will, bei Yazio, Lifesum, Fddb oder HAVIT Premium; wer Fasten mitprotokolliert, bei Yazio oder Fddb.\n\nWenn sich die Einträge sammeln, Sie aber nicht wissen, was Sie ändern sollen, brauchen Sie einen Coach, der das ganze Protokoll liest und den nächsten Schritt vorschlägt. HAVIT ist die App, in der Fachleute, die von Juvis kommen, diesen Coach als KI umgesetzt haben.\n\n[HAVIT ausprobieren →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Arten, wie die Protokollgewohnheit stirbt",
-          "value": "4",
-          "source": "Suchsteuer, Wand aus Selbstgekochtem, Schamlücke, Abdriften"
+          "label": "Wie oft am Tag protokolliert – mit vs. ohne ≥5 % Abnahme",
+          "value": "2,4- vs. 1,6-mal pro Tag",
+          "source": "Harvey et al. 2019, Obesity (sechsmonatiges Online-Abnehmprogramm, 142 Personen)"
         },
         {
-          "label": "Lebensmitteldatenbank von HAVIT",
-          "value": "~486.000 Einträge",
-          "source": "432.418 USDA + 41.218 MFDS (Korea) + 12.671 kuratiert"
+          "label": "Zeit fürs Protokollieren pro Tag",
+          "value": "Erster Monat 23,2 Min. → sechster Monat 14,6 Min.",
+          "source": "Harvey et al. 2019, Obesity"
         },
         {
-          "label": "Schwachstelle der Foto-Erfassung",
-          "value": "Die Portionsgröße",
-          "source": "Ein Modell wiegt nicht, was unter der obersten Schicht liegt"
+          "label": "Selbstbeobachtung und Gewichtsabnahme",
+          "value": "Durchgehender Zusammenhang (Evidenz schwach)",
+          "source": "Burke, Wang & Sevick 2011, J Am Diet Assoc (22 Studien)"
         },
         {
-          "label": "Testdauer, die Ihr Abbruchmuster zeigt",
-          "value": "2 Wochen, mit einem protokollierten schlechten Tag",
-          "source": "Test dieses Leitfadens"
+          "label": "Verglichene Ernährungstagebuch-Apps",
+          "value": "6",
+          "source": "Beschreibungen im deutschen App Store, 24. Oktober 2026"
         }
       ],
       "comparison_table": {
-        "title": "Vergleich",
+        "title": "Gegenüberstellung",
         "headers": [
           "App",
-          "Deutsche Produkte",
-          "Foto-Erfassung",
-          "Nimmt einen schlechten Tag an?",
-          "Nach dem Eintrag",
-          "Körperzusammensetzung"
+          "App Store (DE)",
+          "Erfassen per Foto",
+          "Makronährstoffe",
+          "Coaching",
+          "Kosten"
         ],
         "rows": [
           [
+            "HAVIT",
+            "US 4,7 (159)",
+            "KI-Food-Scan (Premium)",
+            "Premium",
+            "KI-Coach HAVI (kostenlos mit Tageslimit)",
+            "Kostenlos + HAVIT Premium"
+          ],
+          [
             "Yazio",
-            "Stark",
-            "Begrenzt",
-            "Nein",
-            "Geführte Pläne",
-            "Nein"
+            "4,6 (447.175)",
+            "Foto-Tracking",
+            "Ja",
+            "Nicht beschrieben",
+            "Kostenlos + Pro"
+          ],
+          [
+            "Fddb",
+            "4,6 (17.453)",
+            "KI-Food-Scanner",
+            "Ja, inkl. Mikronährstoffe",
+            "Nicht beschrieben",
+            "Kostenlos + In-App-Käufe"
           ],
           [
             "MyFitnessPal",
-            "Mittel",
-            "Begrenzt",
-            "Nein",
-            "Nein",
-            "Nein"
+            "4,5 (80.211)",
+            "Nicht genannt (Barcode in Premium)",
+            "Ja",
+            "Ernährungserkenntnisse (Premium)",
+            "Kostenlos + Premium"
           ],
           [
             "Lifesum",
-            "Mittel",
-            "Begrenzt",
-            "Nein",
-            "Gewohnheitsringe",
-            "Nein"
+            "4,5 (81.840)",
+            "Foto, auch Sprache",
+            "Ja",
+            "Tipps, Life Score",
+            "Kostenlos eingeschränkt + Premium"
           ],
           [
-            "HAVIT",
-            "Begrenzt",
-            "Ja",
-            "Check-in",
-            "Eine Handlung am Tag",
-            "Geschätzt"
+            "fatsecret",
+            "4,7 (8.648)",
+            "Bilderkennung",
+            "Nährwerte",
+            "Nicht beschrieben",
+            "Kostenlos + Premium"
           ]
         ],
-        "caption": "Stand Oktober 2026."
+        "caption": "Stand: Beschreibungen im deutschen App Store, 24. Oktober 2026. Nicht beschriebene Funktionen können in der App trotzdem vorhanden sein. HAVIT: US-Wert, da im deutschen App Store noch zu wenige Bewertungen."
       },
       "faq": [
         {
-          "question": "Welche App zum Essen protokollieren ist die beste?",
-          "answer": "Das hängt davon ab, wie Sie zuletzt aufgehört haben. Hat Sie das Suchen jeder Mahlzeit zermürbt, brauchen Sie eine Datenbank mit deutschen Produkten. War Selbstgekochtes die Hürde, brauchen Sie Foto-Erfassung. Haben Sie an schlechten Tagen aufgehört, brauchen Sie eine App, die einen Teil-Eintrag annimmt. Hat Ihnen nach Wochen niemand gesagt, was zu ändern ist, brauchen Sie Coaching."
+          "question": "Welche App eignet sich am besten als Ernährungstagebuch?",
+          "answer": "Das hängt davon ab, wo Sie hängen bleiben. Wer kostenlos einfach protokollieren will, ist bei Fddb oder fatsecret richtig; wer per Foto schnell sein will, bei Yazio, Lifesum, Fddb oder HAVIT Premium; wer Intervallfasten mitprotokolliert, bei Yazio oder Fddb. Wenn Sie protokollieren, aber nicht wissen, was Sie ändern sollen, probieren Sie den KI-Coach HAVI in HAVIT, der alle Einträge liest und eine Handlung für heute vorschlägt."
         },
         {
-          "question": "Wie protokolliere ich Selbstgekochtes, ohne aufzugeben?",
-          "answer": "Zwei Wege funktionieren: das fertige Gericht fotografieren und die Schätzung korrigieren, oder das Rezept einmal anlegen und als einen Eintrag wiederverwenden. Jedes Mal elf Zutaten zu suchen ist das, was die Gewohnheit beendet."
+          "question": "Was ist kostenlos?",
+          "answer": "Alle sechs Apps lassen sich kostenlos nutzen, aber der Umfang unterscheidet sich. Bei HAVIT sind Mahlzeiten (Suche, manuelle Eingabe) mit Kalorien pro Mahlzeit, Gewicht, Schlaf, Schritte, GLP-1 und weitere Einträge, die Schätzung der Körperzusammensetzung und der KI-Coach-Chat mit Tageslimit kostenlos; KI-Food-Scan, Makronährstoffe, verbleibende Kalorien und tägliches Check-in gehören zu HAVIT Premium. Fddb nennt Kalorienzähler und Tagebuch kostenlos und werbefrei. Bei fatsecret beschränkt sich Premium laut Beschreibung auf Ernährungspläne, zusätzliche Mahlzeiten und Wasser-Tracking. Bei MyFitnessPal steht der Barcode-Scan unter Premium."
         },
         {
-          "question": "Soll ich an Tagen protokollieren, an denen ich zu viel esse?",
-          "answer": "Gerade dann. Das sind die aussagekräftigen Tage, und sie zu überspringen ist der Moment, in dem die Gewohnheit reißt. Macht Ihre App einen schlechten Tag zur Bestrafung, wechseln Sie die App statt das Verhalten. Das tägliche Check-in von HAVIT nimmt \"heute war hart\" in wenigen Tipps an."
+          "question": "Welche Apps erfassen Mahlzeiten per Foto?",
+          "answer": "Laut deutschem App Store Yazio (Foto-Tracking), Lifesum (Foto, auch Sprachnachricht), Fddb (KI-Food-Scanner), fatsecret (Bilderkennung) und HAVIT (KI-Food-Scan, Premium). Ob die Fotoerkennung bei Yazio, Lifesum, Fddb und fatsecret kostenlos ist, geht aus den Beschreibungen nicht klar hervor. Bei der Foto-App Cal AI steht ausdrücklich, dass die Scan-Ergebnisse ein Abo erfordern. MyFitnessPal nennt in der deutschen Beschreibung keine Fotoerkennung."
         },
         {
-          "question": "Sind deutsche Supermarktprodukte enthalten?",
-          "answer": "Je nach App. Yazio ist hier als deutsche App im Vorteil und kennt Produkte, die US-Apps nicht haben. HAVIT stützt sich auf US- und koreanische Behördendaten und konkurriert bei deutschen Produkten nicht; die Stärke liegt darin, was nach dem Eintrag passiert."
+          "question": "Wie genau sind Kalorien aus einem Foto?",
+          "answer": "Nehmen Sie sie als Ausgangspunkt. Ein Foto zeigt weder das Öl in der Pfanne noch die Sahne in der Soße oder was unter dem Belag liegt. Korrigieren Sie, wenn die Portion deutlich abweicht oder das Gericht fettreich ist. Ein grober Eintrag ist trotzdem besser als gar keiner."
         },
         {
-          "question": "Kommt es auf die Größe der Datenbank an?",
-          "answer": "Weniger als auf die Herkunft. MyFitnessPal hat zweistellige Millionen an Einträgen, aber großteils von Nutzern — deshalb kommt ein Produkt als ein Dutzend fast identischer Einträge mit verschiedenen Werten zurück. Die ~486.000 von HAVIT stammen aus Behördendaten, man kann also zu jeder Zahl sagen, woher sie kommt."
+          "question": "Soll ich auch Tage mit zu viel Essen protokollieren?",
+          "answer": "Ja, wenigstens kurz. In einer sechsmonatigen Abnehmstudie unterschieden sich Teilnehmende mit mindestens 5 % Abnahme nicht durch die Zeit fürs Protokollieren, sondern dadurch, wie oft sie das Tagebuch am Tag öffneten (Harvey 2019). Wenn es zu viel ist, jede Mahlzeit einzutragen, reichen eine Notiz oder ein Foto. In HAVIT halten Sie Befinden, Appetit und Stimmung mit dem täglichen Check-in (Premium) in wenigen Tipps fest."
         },
         {
-          "question": "Wie lange dauert es, bis ich weiß, ob eine App zu mir passt?",
-          "answer": "Zwei Wochen. Protokollieren Sie am ersten Tag die schwierigste Mahlzeit, wiederholen Sie dasselbe Gericht drei Tage später und zählen Sie die Tipps, haben Sie absichtlich einen schlechten Tag und protokollieren ihn, und fragen Sie an Tag vierzehn, was die App Ihnen gesagt hat."
+          "question": "Was macht der KI-Coach in HAVIT?",
+          "answer": "Am Anfang fragt HAVI im Gespräch nach Ziel, GLP-1-Einnahme und Körperdaten und erstellt daraus einen Body Blueprint und einen Zielplan. Danach liest der Coach Mahlzeiten, Schlaf, Schritte, Zyklus und GLP-1-Einträge zusammen und schlägt eine Handlung für heute vor; Sie können auch Fotos schicken. Kostenlos gilt ein Tageslimit für den Chat; unbegrenzter Chat sowie der Abendrückblick um 22 Uhr mit einem Vorsatz für morgen gehören zu HAVIT Premium."
+        },
+        {
+          "question": "Wer steckt hinter HAVIT?",
+          "answer": "HAVIT wurde von Fachleuten entwickelt, die von Juvis kommen, einer koreanischen Marke, bei der Coaches Ernährung und Alltag ihrer Kundinnen und Kunden persönlich begleitet haben. Diese Methodik steckt im KI-Coach und im 12-Wochen-Programm, mit dem Fokus auf Körperzusammensetzung statt nur auf das Gewicht. Anbieter ist Havit Inc."
         }
       ],
       "references": [
         {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 – 22 Studien, 15 zur diätetischen Selbstüberwachung; Autoren bewerten Evidenzniveau als schwach",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+          "source": "Journal of the American Dietetic Association, 2011 – 22 Studien (15 zur Ernährungsbeobachtung); durchgehender Zusammenhang mit Gewichtsabnahme, Evidenzniveau schwach",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions – Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (Thema wird aktualisiert); Erwachsene mit BMI ≥30, klinisch durchgeführt",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026 – HAVIT interne Analyse von 1.090 GLP-1-Nutzern",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "Log Often, Lose More: Electronic Dietary Self-Monitoring for Weight Loss (Harvey, Krukowski, Priest & West)",
+          "source": "Obesity, 2019 – 24-wöchiges Online-Programm, n=142; 23,2 → 14,6 Min./Tag; mit ≥5 % Abnahme 2,4- vs. 1,6-mal Protokollieren pro Tag",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30801989/"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-24"
     },
     "fr": {
       "title": "Meilleures applis de suivi alimentaire 2026 : choisissez selon votre façon d'arrêter",
