@@ -78,7 +78,7 @@ tokens.mjs    threads <lang> | ig <lang> | check | refresh — 토큰은 .env �
 1. Threads 이용 사례 설정 → 리디렉션 콜백 URL `https://www.aihavit.com/`
 2. 앱 역할 → Instagram 테스터·Threads 테스터에 9개 계정 추가 → 각 계정에서 초대 수락
 3. `.env.example` → `.env`, 앱 ID·시크릿 입력, `aws login`
-4. 본인 터미널에서 `node tokens.mjs threads ko` … / `node tokens.mjs ig ko` … → `node tokens.mjs check`
+4. 본인 터미널에서 `node tokens.mjs th ko`(Threads 사용자 토큰 생성기 값) / `node tokens.mjs ig ko` … → `node tokens.mjs check`
 5. 50일마다 `node tokens.mjs refresh`(만료 60일)
 
 발행은 재실행해도 안전(이미 published 면 건너뜀), 긴급 중지가 켜져 있으면 아무것도 하지 않는다.

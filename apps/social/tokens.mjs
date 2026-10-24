@@ -1,5 +1,6 @@
 // 토큰 관리. 대표님이 **본인 터미널(Terminal 앱)** 에서 실행한다 — 토큰은 화면에 출력하지 않고 .env 에만 저장한다.
 //   node tokens.mjs threads <lang>   Threads 로그인 → 장기 토큰 저장 (브라우저 인가 후 주소창 URL 을 붙여넣기)
+//   node tokens.mjs th <lang>        앱 대시보드 Threads「사용자 토큰 생성기」에서 만든 토큰을 붙여넣어 저장(가장 간단)
 //   node tokens.mjs ig <lang>        앱 대시보드에서 생성한 Instagram 토큰을 붙여넣어 저장
 //   node tokens.mjs check            저장된 토큰이 어느 계정인지·만료일 확인(토큰 값은 안 보여줌)
 //   node tokens.mjs refresh          만료 전 일괄 갱신(60일 장기 토큰, 발급 24시간 뒤부터 가능)
@@ -28,7 +29,7 @@ const langs = () => config('channels').channels.instagram.langs;
 const [cmd, lang] = process.argv.slice(2);
 if (cmd === 'threads') {
   if (!process.env.THREADS_APP_ID || !process.env.THREADS_APP_SECRET) throw new Error('.env 에 THREADS_APP_ID / THREADS_APP_SECRET 먼저 넣기(앱 설정 → 기본 설정의 Threads 앱 ID·시크릿)');
-  const url = `https://threads.net/oauth/authorize?${new URLSearchParams({ client_id: process.env.THREADS_APP_ID, redirect_uri: REDIRECT, scope: 'threads_basic,threads_content_publish', response_type: 'code', state: lang })}`;
+  const url = `https://threads.net/oauth/authorize?${new URLSearchParams({ client_id: process.env.THREADS_APP_ID, redirect_uri: REDIRECT, scope: 'threads_basic,threads_content_publish,threads_manage_replies', response_type: 'code', state: lang })}`;
   console.log(`\n1) 브라우저에서 ${lang} 계정으로 Threads 에 로그인된 상태로 아래 주소를 여세요:\n\n${url}\n\n2) 허용 후 aihavit.com 으로 이동되면, 주소창의 전체 URL 을 복사해 붙여넣으세요.`);
   const back = await ask('\nURL: ');
   const code = new URL(back).searchParams.get('code')?.replace(/#_$/, '');
@@ -37,6 +38,11 @@ if (cmd === 'threads') {
   const me = await whoami('threads', t.access_token);
   setEnv({ [`THREADS_TOKEN_${envKey(lang)}`]: t.access_token, [`THREADS_TOKEN_${envKey(lang)}_EXPIRES`]: expiry(t.expires_in) });
   console.log(`✅ 저장: Threads ${lang} = @${me.username} (만료 ${expiry(t.expires_in)})`);
+} else if (cmd === 'th') {
+  const token = await ask(`${lang} Threads 토큰 붙여넣기(앱 대시보드 → 이용 사례 → Threads 맞춤 설정 → 설정 → 사용자 토큰 생성기): `);
+  const me = await whoami('threads', token);
+  setEnv({ [`THREADS_TOKEN_${envKey(lang)}`]: token, [`THREADS_TOKEN_${envKey(lang)}_EXPIRES`]: expiry(60 * 864e2) });
+  console.log(`✅ 저장: Threads ${lang} = @${me.username}`);
 } else if (cmd === 'ig') {
   const token = await ask(`${lang} Instagram 토큰 붙여넣기(앱 대시보드 → Instagram 로그인으로 API 설정 → 토큰 생성): `);
   const me = await whoami('instagram', token);
@@ -60,5 +66,5 @@ if (cmd === 'threads') {
     }
   }
 } else {
-  console.log('사용법: node tokens.mjs threads <lang> | ig <lang> | check | refresh');
+  console.log('사용법: node tokens.mjs th <lang> | ig <lang> | threads <lang> | check | refresh');
 }
