@@ -37,4 +37,5 @@ Return ONLY a JSON object (no prose, no code fence) with these keys:
 - "hashtags": array of strings without '#'
 - "evidence": array of {"value","source"} for every number you used from the SOURCE
 - "alt_text": string (Instagram only, otherwise "")
+- "image_brief": one English sentence describing the ideal photo for this post (concrete objects, setting, light). No text in the image, no medical procedures, no body comparisons; prefer food, objects, hands, places.
 - "card_text": the hook line printed on the image card (Threads card / Instagram cover idea). Max 40 characters for ko/ja/zh, max 60 for other languages. A complete sentence or phrase — never cut off.

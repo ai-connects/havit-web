@@ -108,11 +108,15 @@ const tier = (t, lang, [big, mid, small], [a, b]) => {
   return n <= a * k ? big : n <= b * k ? mid : small;
 };
 
+/** 초안에 정해진 사진(imagery.mjs): 라이브러리 URL 또는 AI 생성 파일. 없으면 null → 브랜드 디자인. */
+let CURRENT_DIR = '';
+const photoUrl = (d) => d.photo?.url || (d.photo?.path ? file(path.join(CURRENT_DIR, d.photo.path)) : null);
+
 function cover(d, s) {
-  const hero = heroUrl(d.slug);
+  const hero = photoUrl(d);
   // 주제와 맞는 사진이 없으면 사진 대신 브랜드 표지(라임 글로우 + 큰 HAVI) — 엉뚱한 사진보다 낫다.
   return page(d.lang, `<div class="s dark">
-  ${hero ? `<div class="hero" style="background-image:url('${hero}')"></div><div class="shade"></div>` : '<div class="glow" style="left:auto;right:-160px;bottom:-120px;width:900px;height:900px"></div>'}
+  ${hero ? `<img class="hero" src="${hero}" style="width:100%;height:100%;object-fit:cover"><div class="shade"></div><div style="position:absolute;left:0;right:0;top:0;height:260px;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,0))"></div>` : '<div class="glow" style="left:auto;right:-160px;bottom:-120px;width:900px;height:900px"></div>'}
   <img class="logo" src="${LOGO_W}">
   <div style="margin-top:auto;position:relative;padding-bottom:${hero ? 150 : 120}px;padding-right:${hero ? 250 : 340}px">
     <div class="bar"></div>
@@ -160,8 +164,23 @@ function cardText(d) {
 
 function card(d) {
   const head = cardText(d);
+  const photo = photoUrl(d);
   // 출처는 "저널, 연도" 꼴일 때만(글 제목이 들어오는 경우 제외)
   const src = (d.evidence || []).map((e) => e.source).find((x) => /,\s*(19|20)\d\d$/.test(x || ''));
+  if (photo) {
+    return page(d.lang, `<div class="s dark" style="padding:0">
+  <img src="${photo}" style="position:absolute;left:0;top:0;width:100%;height:62%;object-fit:cover">
+  <div style="position:absolute;left:0;right:0;top:0;height:260px;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,0))"></div>
+  <div style="position:absolute;left:0;right:0;top:52%;height:12%;background:linear-gradient(180deg,rgba(18,18,18,0),#121212)"></div>
+  <img class="logo" src="${LOGO_W}" style="filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))">
+  <div style="position:absolute;left:88px;right:300px;top:64%;bottom:${src ? 120 : 80}px;display:flex;flex-direction:column;justify-content:center">
+    <div class="bar" style="margin-bottom:28px"></div>
+    <h1 style="font-size:${tier(head, d.lang, [78, 68, 58], [24, 44])}px">${nl(head)}</h1>
+  </div>
+  ${src ? `<div class="src" style="color:#fff;bottom:56px">${esc(src)}</div>` : ''}
+  <img class="char" src="${CHAR.peek}" style="width:190px;bottom:48px">
+</div>`);
+  }
   return page(d.lang, `<div class="s dark">
   <div class="glow"></div><img class="logo" src="${LOGO_W}">
   <div style="margin:auto 0;position:relative;padding-bottom:120px">
@@ -187,6 +206,7 @@ function shoot(html, out) {
 const dirs = process.argv.slice(2).filter((p) => statSync(p).isDirectory()).map((p) => path.resolve(p));
 let n = 0, bad = 0;
 for (const dir of dirs) {
+  CURRENT_DIR = dir;
   for (const f of readdirSync(dir).filter((x) => x.endsWith('.json'))) {
     const p = path.join(dir, f);
     const d = readJson(p);

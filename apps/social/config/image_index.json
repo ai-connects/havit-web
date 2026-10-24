@@ -1,0 +1,4781 @@
+[
+ {
+  "id": 1,
+  "file": "art_0018.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0018.jpg",
+  "desc": "Amber supplement bottles (omega-3, vitamins, magnesium) on a kitchen counter",
+  "tags": [
+   "supplements",
+   "vitamins",
+   "omega-3",
+   "kitchen",
+   "bottles",
+   "nutrition"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Prominent product labels on bottles"
+ },
+ {
+  "id": 2,
+  "file": "art_0019.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0019.jpg",
+  "desc": "Minimal plate of rice, salmon and kiwi on a light table",
+  "tags": [
+   "salmon",
+   "rice",
+   "kiwi",
+   "minimal",
+   "meal",
+   "light meal"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 3,
+  "file": "art_0020.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0020.jpg",
+  "desc": "Overhead wooden table with chicken and roasted veggie plate, avocado, berries and milk",
+  "tags": [
+   "chicken",
+   "vegetables",
+   "balanced meal",
+   "avocado",
+   "berries",
+   "overhead"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 4,
+  "file": "art_0022.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0022.jpg",
+  "desc": "Woman covering her mouth looking nauseous at a dinner table with wine",
+  "tags": [
+   "nausea",
+   "dinner",
+   "discomfort",
+   "wine",
+   "woman",
+   "appetite"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Nausea/unpleasant scene"
+ },
+ {
+  "id": 5,
+  "file": "art_0032.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0032.jpg",
+  "desc": "Rustic grain bowl with sweet potato, berries and almonds by a window",
+  "tags": [
+   "grain bowl",
+   "sweet potato",
+   "berries",
+   "oats",
+   "breakfast",
+   "whole grains"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 6,
+  "file": "art_0033.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0033.jpg",
+  "desc": "Plate of grilled chicken and asparagus with a flexing muscular arm behind",
+  "tags": [
+   "chicken",
+   "asparagus",
+   "protein",
+   "muscle",
+   "kitchen"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Muscle-flexing body emphasis"
+ },
+ {
+  "id": 7,
+  "file": "art_0034.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0034.jpg",
+  "desc": "Plates of salmon, mackerel and avocado on a wooden table",
+  "tags": [
+   "salmon",
+   "mackerel",
+   "avocado",
+   "healthy fats",
+   "omega-3",
+   "fish"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 8,
+  "file": "art_0035.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0035.jpg",
+  "desc": "Farmers market stall full of fresh vegetables with a chalk sign",
+  "tags": [
+   "farmers market",
+   "vegetables",
+   "fresh produce",
+   "market",
+   "colorful",
+   "shopping"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Large readable chalkboard text"
+ },
+ {
+  "id": 9,
+  "file": "art_0036.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0036.jpg",
+  "desc": "Man pouring grains into a bowl beside a poster reading WHOLE GRAINS: COMBAT MUSCLE LOSS",
+  "tags": [
+   "whole grains",
+   "man",
+   "poster",
+   "muscle",
+   "kitchen"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Large text poster and chart"
+ },
+ {
+  "id": 10,
+  "file": "art_0037.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0037.jpg",
+  "desc": "Table spread of plant proteins: tofu, tempeh, edamame, lentils and grain bowl",
+  "tags": [
+   "plant protein",
+   "tofu",
+   "edamame",
+   "vegan",
+   "lentils",
+   "spread"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 11,
+  "file": "art_0038.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0038.jpg",
+  "desc": "Omega-3 softgels on a spoon with blueberries, soft bright light",
+  "tags": [
+   "omega-3",
+   "softgels",
+   "supplements",
+   "blueberries",
+   "spoon",
+   "minimal"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 12,
+  "file": "art_0040.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0040.jpg",
+  "desc": "Woman on a leather sofa eating dessert from a cup, cozy living room",
+  "tags": [
+   "dessert",
+   "snacking",
+   "sofa",
+   "woman",
+   "cravings",
+   "cozy"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 13,
+  "file": "art_0042.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0042.jpg",
+  "desc": "Wooden table spread of protein foods: eggs, salmon, beef, beans, nuts, tofu",
+  "tags": [
+   "protein",
+   "eggs",
+   "salmon",
+   "beans",
+   "nuts",
+   "spread"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 14,
+  "file": "art_0043.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0043.jpg",
+  "desc": "Friends sharing a meat-heavy meal around a home dining table",
+  "tags": [
+   "group meal",
+   "friends",
+   "dinner",
+   "meat",
+   "social eating",
+   "home"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 15,
+  "file": "art_0044.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0044.jpg",
+  "desc": "Busy family morning in a bright kitchen with parents and small kids",
+  "tags": [
+   "family",
+   "morning",
+   "kitchen",
+   "kids",
+   "busy",
+   "breakfast"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 16,
+  "file": "art_0045.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0045.jpg",
+  "desc": "Protein powder tub labeled POWER BUILD with a shake being poured",
+  "tags": [
+   "protein powder",
+   "whey",
+   "shake",
+   "supplement"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Brand product packaging"
+ },
+ {
+  "id": 17,
+  "file": "art_0046.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0046.jpg",
+  "desc": "Hand scooping a bowl of granola and grains on a table",
+  "tags": [
+   "granola",
+   "grains",
+   "bowl",
+   "breakfast",
+   "hands",
+   "whole grains"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 18,
+  "file": "art_0047.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0047.jpg",
+  "desc": "Fit woman with medal holding up oversized jeans on a mountain overlook",
+  "tags": [
+   "weight loss",
+   "jeans",
+   "before after",
+   "fitness",
+   "outdoor"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Before/after weight-loss staging"
+ },
+ {
+  "id": 19,
+  "file": "art_0048.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0048.jpg",
+  "desc": "Woman checking herself in a bedroom mirror, hand on face",
+  "tags": [
+   "mirror",
+   "body image",
+   "bedroom",
+   "woman",
+   "reflection",
+   "self check"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 20,
+  "file": "art_0053.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0053.jpg",
+  "desc": "Woman holding full belly after a big meal at a cluttered table with whey shaker",
+  "tags": [
+   "overeating",
+   "full",
+   "belly",
+   "dinner",
+   "table",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Branded whey shaker label visible"
+ },
+ {
+  "id": 21,
+  "file": "art_0054.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0054.jpg",
+  "desc": "Woman in gray tee holding her belly in an empty studio",
+  "tags": [
+   "belly",
+   "body",
+   "woman",
+   "studio",
+   "weight"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Body-focused weight framing"
+ },
+ {
+  "id": 22,
+  "file": "art_0055.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0055.jpg",
+  "desc": "Chocolate protein shake glass with dumbbells and shaker",
+  "tags": [
+   "protein shake",
+   "dumbbells",
+   "workout",
+   "drink",
+   "fitness",
+   "home gym"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 23,
+  "file": "art_0056.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0056.jpg",
+  "desc": "Exhausted man slumped in an armchair at night beside a laptop",
+  "tags": [
+   "fatigue",
+   "tired",
+   "night",
+   "stress",
+   "burnout",
+   "home"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 24,
+  "file": "art_0058.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0058.jpg",
+  "desc": "Shirtless muscular man flexing under a tree on a mountain",
+  "tags": [
+   "muscle",
+   "shirtless",
+   "bodybuilding",
+   "outdoor"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Shirtless muscle display"
+ },
+ {
+  "id": 25,
+  "file": "art_0059.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0059.jpg",
+  "desc": "Raw chicken cubes on a plate on a digital kitchen scale",
+  "tags": [
+   "chicken",
+   "kitchen scale",
+   "meal prep",
+   "portion",
+   "protein",
+   "weighing"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 26,
+  "file": "art_0061.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0061.jpg",
+  "desc": "Grilled chicken breast with salad and lemon on a white plate",
+  "tags": [
+   "chicken",
+   "grilled",
+   "salad",
+   "protein",
+   "lunch",
+   "plate"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 27,
+  "file": "art_0062.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0062.jpg",
+  "desc": "Empty white plate with a vintage stopwatch on a table",
+  "tags": [
+   "fasting",
+   "empty plate",
+   "time",
+   "stopwatch",
+   "minimal",
+   "intermittent fasting"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 28,
+  "file": "art_0063.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0063.jpg",
+  "desc": "Man eating quickly from a plate of chicken, salmon and eggs",
+  "tags": [
+   "eating",
+   "man",
+   "protein",
+   "salmon",
+   "eggs",
+   "meal"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 29,
+  "file": "art_0064.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0064.jpg",
+  "desc": "Man in a robe examining his face in a bathroom mirror",
+  "tags": [
+   "mirror",
+   "bathroom",
+   "skin",
+   "self check",
+   "man",
+   "morning"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 30,
+  "file": "art_0065.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0065.jpg",
+  "desc": "Bare feet standing on a bathroom scale",
+  "tags": [
+   "scale",
+   "weigh-in",
+   "feet",
+   "weight",
+   "bathroom",
+   "tracking"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 31,
+  "file": "art_0067.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0067.jpg",
+  "desc": "Man drinking from a labeled protein shake bottle in a gym",
+  "tags": [
+   "protein shake",
+   "gym",
+   "drink",
+   "workout",
+   "man"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Large text on shaker bottle"
+ },
+ {
+  "id": 32,
+  "file": "art_0070.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0070.jpg",
+  "desc": "Smiling woman eating a salad at a kitchen table",
+  "tags": [
+   "eating",
+   "salad",
+   "woman",
+   "happy",
+   "kitchen",
+   "healthy meal"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 33,
+  "file": "art_0071.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0071.jpg",
+  "desc": "Woman dozing on a sofa in a warm living room, bowl on table",
+  "tags": [
+   "nap",
+   "rest",
+   "sofa",
+   "tired",
+   "living room",
+   "afternoon"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 34,
+  "file": "art_0072.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0072.jpg",
+  "desc": "Bowls of boiled potatoes and roasted potatoes side by side",
+  "tags": [
+   "potatoes",
+   "comparison",
+   "carbs",
+   "cooking method",
+   "side dish",
+   "table"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 35,
+  "file": "art_0073.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0073.jpg",
+  "desc": "Close-up of a woman biting a glazed donut",
+  "tags": [
+   "donut",
+   "sweets",
+   "cravings",
+   "snack",
+   "sugar",
+   "eating"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 36,
+  "file": "art_0074.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0074.jpg",
+  "desc": "High-protein breakfast spread with eggs, salmon, tofu, yogurt and grains",
+  "tags": [
+   "breakfast",
+   "eggs",
+   "salmon",
+   "tofu",
+   "yogurt",
+   "protein"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 37,
+  "file": "art_0075.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0075.jpg",
+  "desc": "Bunch of colorful heirloom carrots and beets",
+  "tags": [
+   "carrots",
+   "beets",
+   "vegetables",
+   "colorful",
+   "produce",
+   "fresh"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 38,
+  "file": "art_0076.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0076.jpg",
+  "desc": "Chalkboard grocery list surrounded by groceries",
+  "tags": [
+   "grocery list",
+   "shopping",
+   "groceries",
+   "eggs",
+   "chicken",
+   "planning"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Large readable text on chalkboard"
+ },
+ {
+  "id": 39,
+  "file": "art_0077.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0077.jpg",
+  "desc": "Hand reaching for a fruit bowl next to chips, chocolate and soda",
+  "tags": [
+   "fruit",
+   "snack choice",
+   "chips",
+   "chocolate",
+   "healthy choice",
+   "hands"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 40,
+  "file": "art_0078.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0078.jpg",
+  "desc": "Glucose meter reading 125 with finger blood drop and lancet",
+  "tags": [
+   "blood sugar",
+   "glucose meter",
+   "finger prick",
+   "diabetes"
+  ],
+  "people": "hands",
+  "suitable": false,
+  "reason": "Finger prick blood/lancet"
+ },
+ {
+  "id": 41,
+  "file": "art_0079.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0079.jpg",
+  "desc": "Hand holding a glucose meter by a cereal bowl and juice",
+  "tags": [
+   "blood sugar",
+   "glucose meter",
+   "breakfast",
+   "cereal",
+   "juice",
+   "diabetes"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 42,
+  "file": "art_0080.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0080.jpg",
+  "desc": "Obese man on a sofa with exposed belly surrounded by chip bags",
+  "tags": [
+   "junk food",
+   "chips",
+   "sofa",
+   "overweight",
+   "snacking"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Brand-like packaging and body shaming"
+ },
+ {
+  "id": 43,
+  "file": "art_0082.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0082.jpg",
+  "desc": "Woman napping on a sofa under a blanket with a book",
+  "tags": [
+   "nap",
+   "rest",
+   "sofa",
+   "sleep",
+   "cozy",
+   "living room"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 44,
+  "file": "art_0083.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0083.jpg",
+  "desc": "Calm woman on a sofa holding her belly with a glass of juice",
+  "tags": [
+   "gut health",
+   "belly",
+   "relax",
+   "sofa",
+   "woman",
+   "juice"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 45,
+  "file": "art_0084.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0084.jpg",
+  "desc": "Minimal lineup of lettuce leaves, steak slices and rice",
+  "tags": [
+   "lettuce",
+   "steak",
+   "rice",
+   "minimal",
+   "portion",
+   "ingredients"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 46,
+  "file": "art_0085.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0085.jpg",
+  "desc": "Stressed woman using a lancet pen near pastries, meter reading 280",
+  "tags": [
+   "blood sugar",
+   "lancet",
+   "pastries",
+   "stress",
+   "diabetes"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Lancet/needle scene"
+ },
+ {
+  "id": 47,
+  "file": "art_0086.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0086.jpg",
+  "desc": "Worried older man reading a high glucose meter at home",
+  "tags": [
+   "blood sugar",
+   "glucose meter",
+   "worry",
+   "older man",
+   "diabetes",
+   "home"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 48,
+  "file": "art_0088.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0088.jpg",
+  "desc": "Person doing a side stretch in a bright living room",
+  "tags": [
+   "stretching",
+   "home workout",
+   "living room",
+   "exercise",
+   "mobility",
+   "morning"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 49,
+  "file": "art_0089.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0089.jpg",
+  "desc": "Large colorful salad bowl with chickpeas and veggies on a wooden table",
+  "tags": [
+   "salad",
+   "chickpeas",
+   "vegetables",
+   "lunch",
+   "colorful",
+   "healthy meal"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 50,
+  "file": "art_0090.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0090.jpg",
+  "desc": "Fit woman in sports bra holding a salad beside a weight chart",
+  "tags": [
+   "salad",
+   "fitness",
+   "abs",
+   "woman",
+   "kitchen"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Abs exposure and chart in frame"
+ },
+ {
+  "id": 51,
+  "file": "art_0091.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0091.jpg",
+  "desc": "Glass scale with large overlay text \"-1kg 7700kcal\"",
+  "tags": [
+   "scale",
+   "calories",
+   "weight loss",
+   "math"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Large text overlay"
+ },
+ {
+  "id": 52,
+  "file": "art_0092.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0092.jpg",
+  "desc": "Hands on a tablet showing a calorie tracking app with 1850 total calories",
+  "tags": [
+   "calorie tracking",
+   "tablet",
+   "app",
+   "nutrition"
+  ],
+  "people": "hands",
+  "suitable": false,
+  "reason": "Large on-screen text/chart"
+ },
+ {
+  "id": 53,
+  "file": "art_0093.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0093.jpg",
+  "desc": "Woman seated before a plate of rice, chicken and veggies with soup",
+  "tags": [
+   "meal",
+   "rice",
+   "chicken",
+   "soup",
+   "balanced meal",
+   "table"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 54,
+  "file": "art_0096.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0096.jpg",
+  "desc": "Smiling man in an apron in a home kitchen with pasta and olive oil",
+  "tags": [
+   "cooking",
+   "chef",
+   "kitchen",
+   "man",
+   "pasta",
+   "home cooking"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 55,
+  "file": "art_0097.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0097.jpg",
+  "desc": "Woman on a sofa clutching her stomach in pain",
+  "tags": [
+   "stomach ache",
+   "pain",
+   "bloating",
+   "discomfort",
+   "home",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 56,
+  "file": "art_0101.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0101.jpg",
+  "desc": "Hand holding a calculator above a salad plate",
+  "tags": [
+   "calculator",
+   "calorie math",
+   "salad",
+   "counting",
+   "meal",
+   "hands"
+  ],
+  "people": "hands",
+  "suitable": false,
+  "reason": "Large calculator digits/text"
+ },
+ {
+  "id": 57,
+  "file": "art_0102.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0102.jpg",
+  "desc": "Notebook page of handwritten BMR/TDEE calorie calculations",
+  "tags": [
+   "bmr",
+   "tdee",
+   "calories",
+   "notes",
+   "math"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Text and chart dominate"
+ },
+ {
+  "id": 58,
+  "file": "art_0103.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0103.jpg",
+  "desc": "Abundant salad bowl with eggs, chicken, avocado, beans and chickpeas",
+  "tags": [
+   "salad",
+   "eggs",
+   "avocado",
+   "beans",
+   "protein",
+   "bowl"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 59,
+  "file": "art_0105.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0105.jpg",
+  "desc": "Smiling woman eating a bowl by a sunny window with plants",
+  "tags": [
+   "eating",
+   "woman",
+   "happy",
+   "sunlight",
+   "bowl",
+   "home"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 60,
+  "file": "art_0107.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0107.jpg",
+  "desc": "Kitchen table with broccoli, raspberries, flaxseed and whole-grain bread",
+  "tags": [
+   "broccoli",
+   "raspberries",
+   "whole grain bread",
+   "fiber",
+   "flaxseed",
+   "kitchen"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 61,
+  "file": "art_0108.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0108.jpg",
+  "desc": "Probiotics jars on a table with fruit and yogurt",
+  "tags": [
+   "probiotics",
+   "supplements",
+   "gut health"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Prominent product labels"
+ },
+ {
+  "id": 62,
+  "file": "art_0109.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0109.jpg",
+  "desc": "Woman sitting on a sofa holding her stomach looking uncomfortable",
+  "tags": [
+   "stomach ache",
+   "bloating",
+   "discomfort",
+   "sofa",
+   "gut health",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 63,
+  "file": "art_0110.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0110.jpg",
+  "desc": "Oatmeal bowl topped with berries and apple slices, whole apple and water",
+  "tags": [
+   "oatmeal",
+   "berries",
+   "apple",
+   "breakfast",
+   "fiber",
+   "water"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 64,
+  "file": "art_0111.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0111.jpg",
+  "desc": "Close-up of a woman's waist in a crop top with hands on hips",
+  "tags": [
+   "waist",
+   "abdomen",
+   "body",
+   "crop top"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Midriff/body-focused shot"
+ },
+ {
+  "id": 65,
+  "file": "art_0112.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0112.jpg",
+  "desc": "Woman at a table holding her full belly surrounded by meals",
+  "tags": [
+   "full",
+   "overeating",
+   "belly",
+   "meal",
+   "table",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 66,
+  "file": "art_0113.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0113.jpg",
+  "desc": "Yogurt bowl with blueberries, strawberries and granola on marble",
+  "tags": [
+   "yogurt",
+   "berries",
+   "granola",
+   "breakfast",
+   "bowl",
+   "bright"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 67,
+  "file": "art_0115.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0115.jpg",
+  "desc": "Pile of mixed nuts on rustic wood",
+  "tags": [
+   "nuts",
+   "almonds",
+   "walnuts",
+   "cashews",
+   "snack",
+   "healthy fats"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 68,
+  "file": "art_0116.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0116.jpg",
+  "desc": "Plant-filled dining table with a grain and vegetable plate and water",
+  "tags": [
+   "grain bowl",
+   "vegetables",
+   "water",
+   "dining",
+   "plants",
+   "lunch"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 69,
+  "file": "art_0117.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0117.jpg",
+  "desc": "Sunny breakfast table with omelette, toast, juice, coffee and yogurt",
+  "tags": [
+   "breakfast",
+   "omelette",
+   "coffee",
+   "juice",
+   "morning",
+   "table"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 70,
+  "file": "art_0118.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0118.jpg",
+  "desc": "Grilled chicken with vegetables on a dark plate in a dim evening setting",
+  "tags": [
+   "chicken",
+   "dinner",
+   "evening",
+   "grilled",
+   "vegetables",
+   "cozy"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 71,
+  "file": "art_0122.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0122.jpg",
+  "desc": "Smiling woman eating a packed lunch at her desk with a laptop",
+  "tags": [
+   "lunch",
+   "desk",
+   "work",
+   "meal prep",
+   "happy",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 72,
+  "file": "art_0123.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0123.jpg",
+  "desc": "Clear containers of cut fruit stacked in a fridge",
+  "tags": [
+   "fruit",
+   "meal prep",
+   "fridge",
+   "containers",
+   "berries",
+   "storage"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 73,
+  "file": "art_0124.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0124.jpg",
+  "desc": "Steamer basket with fish, shrimp and grilled vegetables",
+  "tags": [
+   "steamed",
+   "fish",
+   "seafood",
+   "vegetables",
+   "cooking method",
+   "light meal"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 74,
+  "file": "art_0125.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0125.jpg",
+  "desc": "Avocado toast with berries, green smoothie and a kitchen timer",
+  "tags": [
+   "avocado toast",
+   "breakfast",
+   "smoothie",
+   "berries",
+   "timer",
+   "morning"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 75,
+  "file": "art_0126.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0126.jpg",
+  "desc": "Woman writing a meal plan at a table with a tablet and salad",
+  "tags": [
+   "meal planning",
+   "notes",
+   "tablet",
+   "woman",
+   "salad",
+   "planning"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 76,
+  "file": "art_0127.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0127.jpg",
+  "desc": "Glass of water beside a plate of sliced chicken breast",
+  "tags": [
+   "water",
+   "chicken breast",
+   "simple meal",
+   "protein",
+   "minimal",
+   "hydration"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 77,
+  "file": "art_0128.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0128.jpg",
+  "desc": "Woman eating slowly at a sunlit table with tea",
+  "tags": [
+   "mindful eating",
+   "woman",
+   "breakfast",
+   "sunlight",
+   "tea",
+   "slow eating"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 78,
+  "file": "art_0129.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0129.jpg",
+  "desc": "Cozy dinner table with grain bowls, salmon and chicken plates",
+  "tags": [
+   "dinner",
+   "salmon",
+   "chicken",
+   "grain bowl",
+   "spread",
+   "cozy"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 79,
+  "file": "art_0130.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0130.jpg",
+  "desc": "Hand forking vegetables and rice from a plate",
+  "tags": [
+   "eating",
+   "vegetables",
+   "rice",
+   "hands",
+   "meal",
+   "fork"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 80,
+  "file": "art_0133.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0133.jpg",
+  "desc": "Couple dining in an upscale restaurant with an open kitchen",
+  "tags": [
+   "restaurant",
+   "dining out",
+   "couple",
+   "dinner",
+   "date",
+   "evening"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 81,
+  "file": "art_0135.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0135.jpg",
+  "desc": "Man eating with chopsticks in a Japanese restaurant",
+  "tags": [
+   "chopsticks",
+   "japanese food",
+   "restaurant",
+   "man",
+   "dining out",
+   "eating"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 82,
+  "file": "art_0136.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0136.jpg",
+  "desc": "Cheeseburger, fries and cola close-up",
+  "tags": [
+   "burger",
+   "fries",
+   "soda",
+   "fast food",
+   "junk food",
+   "cravings"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 83,
+  "file": "art_0137.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0137.jpg",
+  "desc": "Iced latte, croissant and cappuccino at a cafe table",
+  "tags": [
+   "cafe",
+   "coffee",
+   "latte",
+   "croissant",
+   "pastry",
+   "morning"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 84,
+  "file": "art_0138.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0138.jpg",
+  "desc": "Buffet line with a plate of salmon, sushi and salad",
+  "tags": [
+   "buffet",
+   "salmon",
+   "sushi",
+   "dining out",
+   "plate",
+   "choices"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 85,
+  "file": "art_0140.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0140.jpg",
+  "desc": "Smiling woman eating salmon with wine at a festive dinner",
+  "tags": [
+   "dinner",
+   "salmon",
+   "wine",
+   "social",
+   "restaurant",
+   "happy"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 86,
+  "file": "art_0142.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0142.jpg",
+  "desc": "Woman eating alone at night at a table by a city window",
+  "tags": [
+   "late night eating",
+   "night",
+   "alone",
+   "city",
+   "dinner",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 87,
+  "file": "art_0143.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0143.jpg",
+  "desc": "Woman eating a small snack mindfully by a window",
+  "tags": [
+   "snack",
+   "mindful eating",
+   "woman",
+   "calm",
+   "home",
+   "morning"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 88,
+  "file": "art_0144.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0144.jpg",
+  "desc": "Chopsticks picking from a bowl of nuts and crackers with tea",
+  "tags": [
+   "snack",
+   "nuts",
+   "chopsticks",
+   "tea",
+   "crackers",
+   "hands"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 89,
+  "file": "art_0145.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0145.jpg",
+  "desc": "Woman on a tropical beach eating grapes with a coconut",
+  "tags": [
+   "beach",
+   "grapes",
+   "coconut",
+   "vacation",
+   "fruit",
+   "tropical"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 90,
+  "file": "art_0148.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0148.jpg",
+  "desc": "Woman in a sweater holding her stomach in a kitchen",
+  "tags": [
+   "stomach",
+   "bloating",
+   "discomfort",
+   "kitchen",
+   "gut health",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 91,
+  "file": "art_0150.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0150.jpg",
+  "desc": "Fruit bowl with apples, grapes and bananas on a dining table",
+  "tags": [
+   "fruit",
+   "apples",
+   "bananas",
+   "grapes",
+   "table",
+   "healthy snack"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 92,
+  "file": "art_0151.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0151.jpg",
+  "desc": "Large wooden crate of mixed nuts",
+  "tags": [
+   "nuts",
+   "bulk",
+   "walnuts",
+   "almonds",
+   "market",
+   "snack"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 93,
+  "file": "art_0152.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0152.jpg",
+  "desc": "Woman standing in a room holding her stomach with a pained look",
+  "tags": [
+   "stomach ache",
+   "pain",
+   "discomfort",
+   "woman",
+   "home",
+   "gut health"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 94,
+  "file": "art_0153.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0153.jpg",
+  "desc": "Hands holding a cup of chamomile tea in soft light",
+  "tags": [
+   "tea",
+   "chamomile",
+   "relax",
+   "calm",
+   "cozy",
+   "evening"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 95,
+  "file": "art_0154.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0154.jpg",
+  "desc": "Close-up of a person drinking a glass of water",
+  "tags": [
+   "water",
+   "hydration",
+   "drinking",
+   "glass",
+   "close-up",
+   "fresh"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 96,
+  "file": "art_0157.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0157.jpg",
+  "desc": "Woman brushing her teeth in a bright bathroom",
+  "tags": [
+   "toothbrush",
+   "bathroom",
+   "morning routine",
+   "hygiene",
+   "woman",
+   "night routine"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 97,
+  "file": "art_0158.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0158.jpg",
+  "desc": "Bored, gloomy woman resting her head on her hand at a busy restaurant table",
+  "tags": [
+   "low appetite",
+   "sad",
+   "restaurant",
+   "woman",
+   "boredom",
+   "mood"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 98,
+  "file": "art_0159.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0159.jpg",
+  "desc": "Overstuffed man leaning back with exposed belly at a messy restaurant table",
+  "tags": [
+   "overeating",
+   "full",
+   "restaurant",
+   "belly"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Exposed belly, body-shaming framing"
+ },
+ {
+  "id": 99,
+  "file": "art_0160.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0160.jpg",
+  "desc": "Notebook calendar with a red highlighted week and a pen",
+  "tags": [
+   "calendar",
+   "planning",
+   "schedule",
+   "goals",
+   "tracking",
+   "desk"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 100,
+  "file": "art_0161.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0161.jpg",
+  "desc": "Woman eating from an open fridge in a dark kitchen at night",
+  "tags": [
+   "late night snacking",
+   "fridge",
+   "night",
+   "cravings",
+   "kitchen",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 101,
+  "file": "art_0163.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0163.jpg",
+  "desc": "Woman stuffing her mouth with pasta in a crowded restaurant",
+  "tags": [
+   "binge eating",
+   "pasta",
+   "restaurant",
+   "overeating",
+   "woman",
+   "cravings"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 102,
+  "file": "art_0164.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0164.jpg",
+  "desc": "Stressed woman holding her head over noodles and takeout boxes",
+  "tags": [
+   "stress eating",
+   "takeout",
+   "noodles",
+   "stress",
+   "kitchen",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 103,
+  "file": "art_0165.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0165.jpg",
+  "desc": "Woman sipping tea in a cozy candlelit room by a night city window",
+  "tags": [
+   "tea",
+   "evening",
+   "relax",
+   "cozy",
+   "night",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 104,
+  "file": "art_0167.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0167.jpg",
+  "desc": "Stressed person in a hoodie eating a chocolate bar on a sofa",
+  "tags": [
+   "stress eating",
+   "chocolate",
+   "sofa",
+   "cravings",
+   "stress",
+   "hoodie"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 105,
+  "file": "art_0169.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0169.jpg",
+  "desc": "Man eating pizza late at night surrounded by takeout boxes",
+  "tags": [
+   "late night eating",
+   "pizza",
+   "takeout",
+   "junk food",
+   "night",
+   "man"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 106,
+  "file": "art_0172.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0172.jpg",
+  "desc": "Woman at a kitchen counter with a glass of water gazing out the window",
+  "tags": [
+   "water",
+   "kitchen",
+   "morning",
+   "calm",
+   "woman",
+   "hydration"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 107,
+  "file": "art_0173.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0173.jpg",
+  "desc": "Notebook titled My Weekly Diet Plan with vegetables around",
+  "tags": [
+   "diet plan",
+   "meal planning",
+   "vegetables",
+   "notebook"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Large handwritten title text"
+ },
+ {
+  "id": 108,
+  "file": "art_0174.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0174.jpg",
+  "desc": "Glass carafe of water next to a steaming cup of coffee",
+  "tags": [
+   "water",
+   "coffee",
+   "hydration",
+   "cafe",
+   "morning",
+   "drinks"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 109,
+  "file": "art_0175.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0175.jpg",
+  "desc": "Hand writing notes beside an alarm clock, apple and water",
+  "tags": [
+   "planning",
+   "notes",
+   "alarm clock",
+   "routine",
+   "morning",
+   "schedule"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 110,
+  "file": "art_0177.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0177.jpg",
+  "desc": "Woman on a sofa doubled over holding her stomach",
+  "tags": [
+   "stomach ache",
+   "pain",
+   "bloating",
+   "sofa",
+   "discomfort",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 111,
+  "file": "art_0179.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0179.jpg",
+  "desc": "Tired, glum young person in a headband sitting on a sofa",
+  "tags": [
+   "fatigue",
+   "tired",
+   "sad",
+   "low energy",
+   "sofa",
+   "mood"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 112,
+  "file": "art_0180.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0180.jpg",
+  "desc": "Salmon with asparagus, salad and mashed potatoes on a wooden table",
+  "tags": [
+   "salmon",
+   "asparagus",
+   "salad",
+   "dinner",
+   "healthy meal",
+   "table"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 113,
+  "file": "art_0181.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0181.jpg",
+  "desc": "Grilled chicken plate with avocado, salad and asparagus",
+  "tags": [
+   "chicken",
+   "avocado",
+   "salad",
+   "asparagus",
+   "lunch",
+   "protein"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 114,
+  "file": "art_0182.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0182.jpg",
+  "desc": "Row of labeled supplement bottles with citrus and berries",
+  "tags": [
+   "supplements",
+   "vitamins",
+   "multivitamin",
+   "citrus"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Prominent product labels"
+ },
+ {
+  "id": 115,
+  "file": "art_0183.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0183.jpg",
+  "desc": "Omega-3 fish oil bottle with softgels on a table",
+  "tags": [
+   "omega-3",
+   "fish oil",
+   "supplements"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Brand-like product label"
+ },
+ {
+  "id": 116,
+  "file": "art_0184.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0184.jpg",
+  "desc": "Vitamin D3 bottle with spilled softgels",
+  "tags": [
+   "vitamin d",
+   "supplements",
+   "softgels"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Brand-like product label"
+ },
+ {
+  "id": 117,
+  "file": "art_0185.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0185.jpg",
+  "desc": "Probiotics bottle on a wooden table with tea cup",
+  "tags": [
+   "probiotics",
+   "supplements",
+   "gut health"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Brand-like product label"
+ },
+ {
+  "id": 118,
+  "file": "art_0186.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0186.jpg",
+  "desc": "Diet pill jar labeled LEAN & FIT with a green apple",
+  "tags": [
+   "diet pills",
+   "supplements",
+   "apple"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Fake brand product label"
+ },
+ {
+  "id": 119,
+  "file": "art_0187.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0187.jpg",
+  "desc": "Bottle labeled FAT BURNER with woman jumping rope behind",
+  "tags": [
+   "fat burner",
+   "supplements",
+   "jump rope"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Fake brand product label"
+ },
+ {
+  "id": 120,
+  "file": "art_0188.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0188.jpg",
+  "desc": "Bottle labeled SATIETY with salad and a notebook",
+  "tags": [
+   "supplements",
+   "satiety",
+   "salad",
+   "notebook"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Fake brand product label and text"
+ },
+ {
+  "id": 121,
+  "file": "art_0189.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0189.jpg",
+  "desc": "Cutting board with spinach, tomatoes, olives and olive oil",
+  "tags": [
+   "spinach",
+   "tomatoes",
+   "olives",
+   "olive oil",
+   "mediterranean",
+   "ingredients"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 122,
+  "file": "art_0190.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0190.jpg",
+  "desc": "Periodic table tile for magnesium (Mg)",
+  "tags": [
+   "magnesium",
+   "mineral",
+   "periodic table",
+   "science"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Large text graphic"
+ },
+ {
+  "id": 123,
+  "file": "art_0191.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0191.jpg",
+  "desc": "Iron supplement jar on a kitchen table with greens",
+  "tags": [
+   "iron",
+   "supplements",
+   "greens"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Product label on jar"
+ },
+ {
+  "id": 124,
+  "file": "art_0194.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0194.jpg",
+  "desc": "Smiling middle-aged woman eating a Korean meal in a restaurant",
+  "tags": [
+   "korean food",
+   "eating",
+   "restaurant",
+   "happy",
+   "woman",
+   "meal"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 125,
+  "file": "art_0197.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0197.jpg",
+  "desc": "Woman on a park bench in autumn holding her knee in pain",
+  "tags": [
+   "knee pain",
+   "joint pain",
+   "autumn",
+   "park",
+   "walking",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 126,
+  "file": "art_0199.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0199.jpg",
+  "desc": "Man in an armchair with a bandaged foot and a cane",
+  "tags": [
+   "foot pain",
+   "injury",
+   "gout",
+   "armchair",
+   "recovery",
+   "man"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 127,
+  "file": "art_0200.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0200.jpg",
+  "desc": "Woman on a sofa holding her stomach in discomfort",
+  "tags": [
+   "stomach ache",
+   "bloating",
+   "discomfort",
+   "sofa",
+   "gut health",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 128,
+  "file": "IMG_PRO_008.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_PRO_008.jpg",
+  "desc": "Spread of protein foods: salmon, chicken, eggs, tofu and legumes",
+  "tags": [
+   "protein",
+   "salmon",
+   "chicken",
+   "eggs",
+   "tofu",
+   "spread"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 129,
+  "file": "IMG_CARB_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_003.jpg",
+  "desc": "Bowls of pasta and noodle soup on a wooden table",
+  "tags": [
+   "pasta",
+   "noodles",
+   "carbs",
+   "dinner",
+   "italian",
+   "bowls"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 130,
+  "file": "IMG_VEG_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_VEG_003.jpg",
+  "desc": "Bunch of colorful carrots and beets with a basket",
+  "tags": [
+   "carrots",
+   "beets",
+   "vegetables",
+   "colorful",
+   "produce",
+   "fresh"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 131,
+  "file": "IMG_CAT_DIET.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_DIET.jpg",
+  "desc": "Brunch table with salad, salmon, sweet potato, infused water and eggs",
+  "tags": [
+   "brunch",
+   "salad",
+   "salmon",
+   "sweet potato",
+   "infused water",
+   "spread"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 132,
+  "file": "IMG_VEG_005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_VEG_005.jpg",
+  "desc": "Wooden bowl of apples, pears and oranges by a window",
+  "tags": [
+   "fruit",
+   "apples",
+   "pears",
+   "oranges",
+   "bowl",
+   "healthy snack"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 133,
+  "file": "IMG_CARB_007.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_007.jpg",
+  "desc": "Pile of candy, chocolate and lollipops on sugar",
+  "tags": [
+   "candy",
+   "sweets",
+   "sugar",
+   "chocolate",
+   "lollipops",
+   "junk food"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 134,
+  "file": "IMG_FAT_005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_FAT_005.jpg",
+  "desc": "Healthy fats spread: avocado, olive oil, nuts, cheese and salmon",
+  "tags": [
+   "healthy fats",
+   "avocado",
+   "olive oil",
+   "nuts",
+   "cheese",
+   "salmon"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 135,
+  "file": "IMG_MEAL_006.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_006.jpg",
+  "desc": "Empty white plate with a vintage stopwatch",
+  "tags": [
+   "fasting",
+   "empty plate",
+   "time",
+   "stopwatch",
+   "minimal",
+   "intermittent fasting"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 136,
+  "file": "IMG_MEAL_007.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg",
+  "desc": "Salmon fillet with rice and asparagus on a white plate",
+  "tags": [
+   "salmon",
+   "rice",
+   "asparagus",
+   "dinner",
+   "simple meal",
+   "protein"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 137,
+  "file": "IMG_CARB_006.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_006.jpg",
+  "desc": "Glucose meter reading 125 with finger blood drop and lancet",
+  "tags": [
+   "blood sugar",
+   "glucose meter",
+   "finger prick",
+   "diabetes"
+  ],
+  "people": "hands",
+  "suitable": false,
+  "reason": "Finger prick blood/lancet"
+ },
+ {
+  "id": 138,
+  "file": "IMG_FAT_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_FAT_003.jpg",
+  "desc": "Mediterranean spread with olives, bread, olive oil and sea view",
+  "tags": [
+   "mediterranean",
+   "olives",
+   "olive oil",
+   "bread",
+   "sea",
+   "spread"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 139,
+  "file": "IMG_PRO_007.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_PRO_007.jpg",
+  "desc": "Protein tub labeled MUSCLE MAX PRO-GAIN with shaker in a gym",
+  "tags": [
+   "protein powder",
+   "gym",
+   "shaker",
+   "supplement"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Fake brand product packaging"
+ },
+ {
+  "id": 140,
+  "file": "IMG_CARB_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg",
+  "desc": "Bowls of white rice, brown rice and mixed grains",
+  "tags": [
+   "rice",
+   "brown rice",
+   "grains",
+   "carbs",
+   "comparison",
+   "whole grains"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 141,
+  "file": "IMG_PRO_004.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_PRO_004.jpg",
+  "desc": "Sliced medium-rare steak with asparagus and potatoes",
+  "tags": [
+   "steak",
+   "beef",
+   "asparagus",
+   "dinner",
+   "protein",
+   "red meat"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 142,
+  "file": "IMG_PRO_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_PRO_001.jpg",
+  "desc": "Grilled chicken breast with salad garnish on a white plate",
+  "tags": [
+   "chicken",
+   "grilled",
+   "protein",
+   "lunch",
+   "plate",
+   "simple meal"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 143,
+  "file": "IMG_PRO_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_PRO_003.jpg",
+  "desc": "Plated salmon and shrimp with vegetables and lemon",
+  "tags": [
+   "salmon",
+   "shrimp",
+   "seafood",
+   "dinner",
+   "vegetables",
+   "plated"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 144,
+  "file": "IMG_PRO_006.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_PRO_006.jpg",
+  "desc": "Milk jug, yogurt bowl and cheese on a rustic table",
+  "tags": [
+   "dairy",
+   "milk",
+   "yogurt",
+   "cheese",
+   "calcium",
+   "rustic"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 145,
+  "file": "IMG_CARB_008.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_008.jpg",
+  "desc": "Spread of whole grains, legumes, squash and breads in bowls",
+  "tags": [
+   "whole grains",
+   "legumes",
+   "quinoa",
+   "lentils",
+   "bread",
+   "fiber"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 146,
+  "file": "IMG_PRO_005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_PRO_005.jpg",
+  "desc": "Tofu dishes, edamame and skewers on a table",
+  "tags": [
+   "tofu",
+   "edamame",
+   "plant protein",
+   "asian food",
+   "skewers",
+   "vegan"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 147,
+  "file": "IMG_MEAL_004.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_004.jpg",
+  "desc": "Wooden bowl of fresh fruit, nuts and seeds",
+  "tags": [
+   "fruit",
+   "nuts",
+   "seeds",
+   "berries",
+   "healthy snack",
+   "bowl"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 148,
+  "file": "IMG_MEAL_005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_005.jpg",
+  "desc": "Takeout spread with pizza box, fried chicken and noodles",
+  "tags": [
+   "takeout",
+   "pizza",
+   "fried chicken",
+   "fast food"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Brand text on pizza box"
+ },
+ {
+  "id": 149,
+  "file": "art_0176.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0176.jpg",
+  "desc": "Smiling middle-aged woman power walking in a sunny park",
+  "tags": [
+   "walking",
+   "park",
+   "exercise",
+   "outdoor",
+   "woman",
+   "active"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 150,
+  "file": "IMG_NEAT_002.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_NEAT_002.jpg",
+  "desc": "Person in sneakers climbing outdoor stairs",
+  "tags": [
+   "stairs",
+   "walking",
+   "sneakers",
+   "commute",
+   "active",
+   "outdoor"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 151,
+  "file": "IMG_STR_006.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_STR_006.jpg",
+  "desc": "Empty modern gym with machines and city windows",
+  "tags": [
+   "gym",
+   "fitness",
+   "machines",
+   "workout",
+   "empty",
+   "indoor"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 152,
+  "file": "IMG_NEAT_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_NEAT_003.jpg",
+  "desc": "Person vacuuming a bright living room",
+  "tags": [
+   "cleaning",
+   "vacuum",
+   "chores",
+   "daily activity",
+   "home",
+   "neat"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 153,
+  "file": "IMG_NEAT_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_NEAT_001.jpg",
+  "desc": "Smartwatch on a wrist showing 10,250 steps",
+  "tags": [
+   "smartwatch",
+   "steps",
+   "tracking",
+   "wearable",
+   "walking",
+   "goal"
+  ],
+  "people": "hands",
+  "suitable": false,
+  "reason": "watch screen shows numbers/text"
+ },
+ {
+  "id": 154,
+  "file": "IMG_FLEX_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_FLEX_003.jpg",
+  "desc": "Man doing a deep seated straddle stretch on a mat by a window",
+  "tags": [
+   "stretching",
+   "flexibility",
+   "yoga mat",
+   "man",
+   "mobility",
+   "home"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 155,
+  "file": "IMG_CAT_EX.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_EX.jpg",
+  "desc": "Man in a sprint start position on a running track",
+  "tags": [
+   "running",
+   "sprint",
+   "track",
+   "athlete",
+   "start",
+   "exercise"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 156,
+  "file": "IMG_CARDIO_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARDIO_001.jpg",
+  "desc": "Woman walking on a tree-lined park path",
+  "tags": [
+   "walking",
+   "park",
+   "trees",
+   "outdoor",
+   "woman",
+   "spring"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 157,
+  "file": "IMG_CARDIO_006.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARDIO_006.jpg",
+  "desc": "Woman walking on a treadmill in a bright gym",
+  "tags": [
+   "treadmill",
+   "gym",
+   "walking",
+   "cardio",
+   "woman",
+   "fitness"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 158,
+  "file": "IMG_STR_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_STR_001.jpg",
+  "desc": "Woman doing lateral dumbbell raises in a gym",
+  "tags": [
+   "dumbbells",
+   "strength training",
+   "gym",
+   "woman",
+   "shoulders",
+   "workout"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 159,
+  "file": "IMG_STR_005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_STR_005.jpg",
+  "desc": "Woman doing a dumbbell lunge at home",
+  "tags": [
+   "lunge",
+   "dumbbells",
+   "home workout",
+   "woman",
+   "strength",
+   "legs"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 160,
+  "file": "IMG_STR_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_STR_003.jpg",
+  "desc": "Woman doing dumbbell lunges in a gym",
+  "tags": [
+   "lunge",
+   "dumbbells",
+   "gym",
+   "woman",
+   "strength",
+   "legs"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 161,
+  "file": "IMG_STR_004.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_STR_004.jpg",
+  "desc": "Man doing a forearm plank on a gym floor",
+  "tags": [
+   "plank",
+   "core",
+   "gym",
+   "man",
+   "bodyweight",
+   "workout"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 162,
+  "file": "IMG_STR_002.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_STR_002.jpg",
+  "desc": "Man doing a barbell bench press in a gym",
+  "tags": [
+   "bench press",
+   "barbell",
+   "strength training",
+   "gym",
+   "man",
+   "weights"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 163,
+  "file": "IMG_FLEX_005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_FLEX_005.jpg",
+  "desc": "Man wiping sweat with a towel in a gym",
+  "tags": [
+   "gym",
+   "sweat",
+   "towel",
+   "rest",
+   "man",
+   "workout"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 164,
+  "file": "IMG_FLEX_004.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_FLEX_004.jpg",
+  "desc": "Woman foam rolling on a mat at home",
+  "tags": [
+   "foam roller",
+   "recovery",
+   "stretching",
+   "home",
+   "woman",
+   "mobility"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 165,
+  "file": "IMG_CARDIO_004.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARDIO_004.jpg",
+  "desc": "Man swimming freestyle in an indoor pool",
+  "tags": [
+   "swimming",
+   "pool",
+   "cardio",
+   "man",
+   "exercise",
+   "water"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 166,
+  "file": "IMG_FLEX_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_FLEX_001.jpg",
+  "desc": "Woman in a yoga warrior pose on a beach at sunset",
+  "tags": [
+   "yoga",
+   "beach",
+   "sunset",
+   "woman",
+   "stretching",
+   "calm"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 167,
+  "file": "IMG_CARDIO_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARDIO_003.jpg",
+  "desc": "Cyclist riding a road bike on a riverside bike path",
+  "tags": [
+   "cycling",
+   "bike",
+   "riverside",
+   "outdoor",
+   "cardio",
+   "morning"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 168,
+  "file": "IMG_CARDIO_002.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARDIO_002.jpg",
+  "desc": "Group jogging along a park path at golden hour",
+  "tags": [
+   "running",
+   "jogging",
+   "group",
+   "park",
+   "sunset",
+   "outdoor"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 169,
+  "file": "art_0192.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0192.jpg",
+  "desc": "Plate of grilled chicken, asparagus, quinoa and salad with lemon water",
+  "tags": [
+   "chicken",
+   "asparagus",
+   "quinoa",
+   "salad",
+   "lunch",
+   "healthy meal"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 170,
+  "file": "art_0193.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0193.jpg",
+  "desc": "Colander of fresh spinach and broccoli on a table",
+  "tags": [
+   "spinach",
+   "broccoli",
+   "greens",
+   "vegetables",
+   "fresh",
+   "produce"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 171,
+  "file": "art_0195.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0195.jpg",
+  "desc": "Swimmer in an infinity pool at a palm-lined resort at sunset",
+  "tags": [
+   "swimming",
+   "pool",
+   "resort",
+   "sunset",
+   "vacation",
+   "cardio"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 172,
+  "file": "art_0196.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0196.jpg",
+  "desc": "Korean table setting with grilled fish, rice and banchan",
+  "tags": [
+   "korean food",
+   "fish",
+   "rice",
+   "banchan",
+   "traditional",
+   "meal"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 173,
+  "file": "art_0198.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0198.jpg",
+  "desc": "Smiling woman biting a red apple in an orchard",
+  "tags": [
+   "apple",
+   "fruit",
+   "snack",
+   "woman",
+   "happy",
+   "orchard"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 174,
+  "file": "IMG_SIT_008.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_SIT_008.jpg",
+  "desc": "Hands forming a heart shape on a bare belly",
+  "tags": [
+   "gut health",
+   "belly",
+   "self care",
+   "hands",
+   "soft light",
+   "digestion"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 175,
+  "file": "IMG_CAT_HEALTH.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_HEALTH.jpg",
+  "desc": "Doctor in a white coat with stethoscope holding a tablet in a clinic",
+  "tags": [
+   "doctor",
+   "clinic",
+   "medical",
+   "consultation",
+   "tablet",
+   "health check"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 176,
+  "file": "IMG_SIT_006.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_SIT_006.jpg",
+  "desc": "Woman with a cold holding a tissue, tea mug nearby",
+  "tags": [
+   "cold",
+   "sick",
+   "flu",
+   "tissue",
+   "tea",
+   "rest"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 177,
+  "file": "art_0094.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0094.jpg",
+  "desc": "Whisked creamy sauce in a glass bowl with fresh vegetables",
+  "tags": [
+   "sauce",
+   "dressing",
+   "cooking",
+   "whisk",
+   "vegetables",
+   "kitchen"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 178,
+  "file": "art_0131.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0131.jpg",
+  "desc": "Man drinking water while eating salmon at a cafe table",
+  "tags": [
+   "water",
+   "hydration",
+   "eating",
+   "salmon",
+   "man",
+   "cafe"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 179,
+  "file": "art_0146.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0146.jpg",
+  "desc": "Cafe counter with coffee, syrup bottle and whipped cream",
+  "tags": [
+   "cafe",
+   "coffee",
+   "syrup",
+   "whipped cream",
+   "sugar",
+   "barista"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 180,
+  "file": "art_0147.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0147.jpg",
+  "desc": "Mango smoothie and red iced drink on a wooden table",
+  "tags": [
+   "smoothie",
+   "juice",
+   "drinks",
+   "sugar",
+   "summer",
+   "beverages"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 181,
+  "file": "IMG_HYD_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_HYD_001.jpg",
+  "desc": "Glass of iced lemon water by a pool",
+  "tags": [
+   "lemon water",
+   "ice",
+   "hydration",
+   "pool",
+   "summer",
+   "refreshing"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 182,
+  "file": "IMG_CAT_HYD.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_HYD.jpg",
+  "desc": "Glass and carafe of water in soft light",
+  "tags": [
+   "water",
+   "hydration",
+   "carafe",
+   "glass",
+   "minimal",
+   "calm"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 183,
+  "file": "IMG_HYD_005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_HYD_005.jpg",
+  "desc": "Berry smoothie and green juice with fruit",
+  "tags": [
+   "smoothie",
+   "green juice",
+   "berries",
+   "fruit",
+   "drinks",
+   "breakfast"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 184,
+  "file": "IMG_HYD_008.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_HYD_008.jpg",
+  "desc": "Bottles labeled sparkling H2O, Classic Cola and a soda can",
+  "tags": [
+   "soda",
+   "cola",
+   "sparkling water",
+   "beverages"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Brand-like drink labels"
+ },
+ {
+  "id": 185,
+  "file": "IMG_HYD_002.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_HYD_002.jpg",
+  "desc": "Espresso being poured over iced coffee in a cafe",
+  "tags": [
+   "iced coffee",
+   "coffee",
+   "cafe",
+   "espresso",
+   "drink",
+   "morning"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 186,
+  "file": "art_0041.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0041.jpg",
+  "desc": "Hand placing a container labeled PROTEIN on a kitchen scale",
+  "tags": [
+   "protein powder",
+   "kitchen scale",
+   "measuring",
+   "supplement"
+  ],
+  "people": "hands",
+  "suitable": false,
+  "reason": "Large label text"
+ },
+ {
+  "id": 187,
+  "file": "art_0050.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0050.jpg",
+  "desc": "Older arm flexing a bicep",
+  "tags": [
+   "muscle",
+   "strength",
+   "arm",
+   "aging",
+   "flex"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 188,
+  "file": "art_0051.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0051.jpg",
+  "desc": "Raw chicken pieces in a measuring cup",
+  "tags": [
+   "chicken",
+   "measuring cup",
+   "meal prep",
+   "portion",
+   "raw",
+   "kitchen"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 189,
+  "file": "art_0060.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0060.jpg",
+  "desc": "Woman thinking over a meal plan with a tablet and notebook",
+  "tags": [
+   "meal planning",
+   "thinking",
+   "tablet",
+   "notes",
+   "woman",
+   "planning"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 190,
+  "file": "art_0066.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0066.jpg",
+  "desc": "Row of chocolate protein shakes in labeled shaker bottles",
+  "tags": [
+   "protein shake",
+   "shakers",
+   "meal prep",
+   "chocolate"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Brand labels on shakers"
+ },
+ {
+  "id": 191,
+  "file": "art_0069.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0069.jpg",
+  "desc": "Whiteboard titled PROTEIN SCHEDULE on a fridge",
+  "tags": [
+   "protein",
+   "schedule",
+   "meal plan"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Large text schedule"
+ },
+ {
+  "id": 192,
+  "file": "art_0087.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0087.jpg",
+  "desc": "Woman walking on a park path lined with trees and flowers",
+  "tags": [
+   "walking",
+   "park",
+   "spring",
+   "outdoor",
+   "woman",
+   "trees"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 193,
+  "file": "art_0114.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0114.jpg",
+  "desc": "Superfoods on a branded digital kitchen scale with oats and berries",
+  "tags": [
+   "kitchen scale",
+   "portion",
+   "grains",
+   "berries",
+   "weighing",
+   "meal prep"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Real brand logo on scale"
+ },
+ {
+  "id": 194,
+  "file": "art_0170.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0170.jpg",
+  "desc": "Hand opening a drawer full of packaged snacks",
+  "tags": [
+   "snacks",
+   "junk food",
+   "drawer",
+   "cravings"
+  ],
+  "people": "hands",
+  "suitable": false,
+  "reason": "Brand-like snack packaging"
+ },
+ {
+  "id": 195,
+  "file": "art_0178.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0178.jpg",
+  "desc": "Steaming bowl of pumpkin soup on a rustic table",
+  "tags": [
+   "soup",
+   "pumpkin",
+   "warm",
+   "comfort food",
+   "bowl",
+   "autumn"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 196,
+  "file": "IMG_CAT_LIFE.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_LIFE.jpg",
+  "desc": "Smiling woman walking on a busy city street",
+  "tags": [
+   "walking",
+   "city",
+   "commute",
+   "woman",
+   "happy",
+   "outdoor"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 197,
+  "file": "IMG_MIND_010.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_010.jpg",
+  "desc": "Hand ticking a checklist box with a pen",
+  "tags": [
+   "checklist",
+   "habit",
+   "planning",
+   "goals",
+   "pen",
+   "tracking"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 198,
+  "file": "IMG_NEAT_004.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_NEAT_004.jpg",
+  "desc": "Commuters walking through a busy station escalator",
+  "tags": [
+   "commute",
+   "walking",
+   "crowd",
+   "station",
+   "city",
+   "daily activity"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 199,
+  "file": "IMG_SIT_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_SIT_001.jpg",
+  "desc": "Busy open-plan office with people at desks",
+  "tags": [
+   "office",
+   "work",
+   "desk job",
+   "sedentary",
+   "workplace",
+   "busy"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 200,
+  "file": "art_0001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0001.jpg",
+  "desc": "GLP-1 injection pen with brand label on teal background",
+  "tags": [
+   "injection pen",
+   "glp-1",
+   "medication"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Injection device with brand label"
+ },
+ {
+  "id": 201,
+  "file": "art_0002.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0002.jpg",
+  "desc": "Labeled GLP-1 injection pens in a fridge door",
+  "tags": [
+   "injection pen",
+   "glp-1",
+   "fridge",
+   "medication"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Injection device with brand label"
+ },
+ {
+  "id": 202,
+  "file": "art_0003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0003.jpg",
+  "desc": "Hand pressing a blue ice pack on a bare belly",
+  "tags": [
+   "ice pack",
+   "belly",
+   "soothing",
+   "skin",
+   "relief",
+   "care"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 203,
+  "file": "art_0004.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0004.jpg",
+  "desc": "Woman injecting a pen into her abdomen",
+  "tags": [
+   "injection",
+   "glp-1",
+   "abdomen"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Injection scene"
+ },
+ {
+  "id": 204,
+  "file": "art_0005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0005.jpg",
+  "desc": "GLP-1 pen, vial, syringe and alcohol swabs on a tray",
+  "tags": [
+   "injection",
+   "syringe",
+   "glp-1",
+   "medication"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Needle/syringe scene"
+ },
+ {
+  "id": 205,
+  "file": "art_0006.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0006.jpg",
+  "desc": "Woman covering her mouth looking nauseous",
+  "tags": [
+   "nausea",
+   "discomfort",
+   "woman",
+   "side effects"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Nausea/unpleasant scene"
+ },
+ {
+  "id": 206,
+  "file": "art_0007.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0007.jpg",
+  "desc": "Toilet paper roll on a bathroom wall holder",
+  "tags": [
+   "toilet paper",
+   "bathroom",
+   "digestion",
+   "minimal",
+   "gut health",
+   "hygiene"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 207,
+  "file": "art_0008.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0008.jpg",
+  "desc": "Woman sitting on a bed holding her stomach in pain",
+  "tags": [
+   "stomach ache",
+   "pain",
+   "bedroom",
+   "discomfort",
+   "gut health",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 208,
+  "file": "art_0009.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0009.jpg",
+  "desc": "Dizzy man holding his head as a woman offers juice at a kitchen table",
+  "tags": [
+   "dizziness",
+   "low blood sugar",
+   "juice",
+   "care",
+   "kitchen",
+   "couple"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 209,
+  "file": "art_0010.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0010.jpg",
+  "desc": "Exhausted woman lying in bed with tired eyes",
+  "tags": [
+   "fatigue",
+   "tired",
+   "bed",
+   "insomnia",
+   "sleep",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 210,
+  "file": "art_0011.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0011.jpg",
+  "desc": "Woman holding her temples with a headache",
+  "tags": [
+   "headache",
+   "stress",
+   "pain",
+   "woman",
+   "tension",
+   "home"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 211,
+  "file": "art_0012.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0012.jpg",
+  "desc": "Person on a sofa holding their side/stomach",
+  "tags": [
+   "stomach ache",
+   "side pain",
+   "sofa",
+   "discomfort",
+   "gut health",
+   "home"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 212,
+  "file": "art_0013.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0013.jpg",
+  "desc": "Doctor demonstrating an injection pen to a patient",
+  "tags": [
+   "doctor",
+   "injection pen",
+   "clinic",
+   "consultation"
+  ],
+  "people": "group",
+  "suitable": false,
+  "reason": "Injection device/medical procedure"
+ },
+ {
+  "id": 213,
+  "file": "art_0014.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0014.jpg",
+  "desc": "Two May calendars with dates crossed out on a desk",
+  "tags": [
+   "calendar",
+   "tracking",
+   "schedule",
+   "streak"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Calendar text dominates"
+ },
+ {
+  "id": 214,
+  "file": "art_0015.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0015.jpg",
+  "desc": "Woman holding an injection pen looking at a wall clock",
+  "tags": [
+   "injection pen",
+   "clock",
+   "medication",
+   "timing"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Injection device"
+ },
+ {
+  "id": 215,
+  "file": "art_0016.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0016.jpg",
+  "desc": "Smartphone alarm showing 06:30 on a wooden desk",
+  "tags": [
+   "alarm",
+   "phone",
+   "morning",
+   "wake up",
+   "routine",
+   "sleep"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 216,
+  "file": "art_0017.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0017.jpg",
+  "desc": "Medicine vials on a table in a living room",
+  "tags": [
+   "vials",
+   "medication",
+   "medicine"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Injection vials/medical"
+ },
+ {
+  "id": 217,
+  "file": "art_0021.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0021.jpg",
+  "desc": "Breakfast bowl and orange juice next to injection pens on a tray",
+  "tags": [
+   "breakfast",
+   "bowl",
+   "injection pen",
+   "glp-1"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Injection pens in frame"
+ },
+ {
+  "id": 218,
+  "file": "art_0023.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0023.jpg",
+  "desc": "Worried woman at a kitchen table with a pill bottle and leaflet",
+  "tags": [
+   "medication",
+   "pills",
+   "worry",
+   "kitchen",
+   "woman",
+   "reading"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "pill bottle visible + distressed"
+ },
+ {
+  "id": 219,
+  "file": "art_0024.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0024.jpg",
+  "desc": "Hospital reception desk with staff and patients",
+  "tags": [
+   "hospital",
+   "reception",
+   "clinic",
+   "healthcare",
+   "staff",
+   "waiting"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 220,
+  "file": "art_0025.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0025.jpg",
+  "desc": "Man taking pills by a window on an airplane",
+  "tags": [
+   "travel",
+   "airplane",
+   "pills",
+   "medication",
+   "flight",
+   "man"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 221,
+  "file": "art_0026.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0026.jpg",
+  "desc": "Doctor holding an injection pen and raising a finger",
+  "tags": [
+   "doctor",
+   "injection pen",
+   "medication"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Injection device"
+ },
+ {
+  "id": 222,
+  "file": "art_0027.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0027.jpg",
+  "desc": "Doctor explaining an injection pen box to a patient",
+  "tags": [
+   "doctor",
+   "injection pen",
+   "consultation",
+   "clinic"
+  ],
+  "people": "group",
+  "suitable": false,
+  "reason": "Injection device/branded box"
+ },
+ {
+  "id": 223,
+  "file": "art_0028.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0028.jpg",
+  "desc": "Colorful crudite platter with dips",
+  "tags": [
+   "vegetables",
+   "crudites",
+   "dips",
+   "snack",
+   "colorful",
+   "platter"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 224,
+  "file": "art_0029.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0029.jpg",
+  "desc": "Close-up of a woman drinking a glass of water",
+  "tags": [
+   "water",
+   "hydration",
+   "drinking",
+   "glass",
+   "woman",
+   "fresh"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 225,
+  "file": "art_0030.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0030.jpg",
+  "desc": "Woman squatting with weights at home with an injection pen box on the floor",
+  "tags": [
+   "home workout",
+   "squat",
+   "weights",
+   "injection pen"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Injection pen box in frame"
+ },
+ {
+  "id": 226,
+  "file": "art_0031.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0031.jpg",
+  "desc": "Relaxed woman in an armchair with a hot drink in a plant-filled room",
+  "tags": [
+   "relax",
+   "tea",
+   "armchair",
+   "calm",
+   "cozy",
+   "self care"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 227,
+  "file": "IMG_MED_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MED_001.jpg",
+  "desc": "Two injection pens floating on a blue background",
+  "tags": [
+   "injection pen",
+   "glp-1",
+   "medication"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Injection device"
+ },
+ {
+  "id": 228,
+  "file": "IMG_MED_007.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MED_007.jpg",
+  "desc": "Branded injection pen box beside a digital clock showing 07:30",
+  "tags": [
+   "injection pen",
+   "clock",
+   "medication",
+   "timing"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Injection device with brand label"
+ },
+ {
+  "id": 229,
+  "file": "IMG_MED_009.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MED_009.jpg",
+  "desc": "Injection pens on a digital kitchen scale",
+  "tags": [
+   "injection pen",
+   "scale",
+   "medication"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Injection device"
+ },
+ {
+  "id": 230,
+  "file": "IMG_CAT_MED.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_MED.jpg",
+  "desc": "Doctor holding a pill bottle and injection pen in an office",
+  "tags": [
+   "doctor",
+   "injection pen",
+   "pills",
+   "clinic"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Injection device/medical"
+ },
+ {
+  "id": 231,
+  "file": "IMG_MED_005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MED_005.jpg",
+  "desc": "Toilet paper roll on a bathroom wall holder",
+  "tags": [
+   "toilet paper",
+   "bathroom",
+   "digestion",
+   "minimal",
+   "gut health",
+   "hygiene"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 232,
+  "file": "IMG_MED_002.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MED_002.jpg",
+  "desc": "Woman injecting a pen into her abdomen on a bed",
+  "tags": [
+   "injection",
+   "abdomen",
+   "glp-1"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Injection scene"
+ },
+ {
+  "id": 233,
+  "file": "art_0149.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0149.jpg",
+  "desc": "Woman eating nuts on a sunny balcony",
+  "tags": [
+   "nuts",
+   "snack",
+   "balcony",
+   "woman",
+   "relax",
+   "healthy snack"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 234,
+  "file": "art_0155.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0155.jpg",
+  "desc": "Assorted chocolates and truffles on a dark board",
+  "tags": [
+   "chocolate",
+   "sweets",
+   "dessert",
+   "truffles",
+   "cravings",
+   "sugar"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 235,
+  "file": "art_0162.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0162.jpg",
+  "desc": "Stressed woman in an office break room with junk food",
+  "tags": [
+   "stress eating",
+   "office",
+   "break room",
+   "junk food",
+   "work",
+   "stress"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 236,
+  "file": "art_0168.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0168.jpg",
+  "desc": "Woman eagerly biting into a donut",
+  "tags": [
+   "donut",
+   "cravings",
+   "sweets",
+   "binge",
+   "eating",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 237,
+  "file": "art_0171.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0171.jpg",
+  "desc": "Smiling man with a cookie raising a finger in a cafe",
+  "tags": [
+   "cookie",
+   "snack",
+   "cafe",
+   "man",
+   "smile",
+   "moderation"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 238,
+  "file": "IMG_MIND_004.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_004.jpg",
+  "desc": "Man holding his head in despair",
+  "tags": [
+   "stress",
+   "despair",
+   "frustration",
+   "man",
+   "mental health",
+   "home"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 239,
+  "file": "IMG_MIND_002.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg",
+  "desc": "Two runners high-fiving on a running track",
+  "tags": [
+   "running",
+   "high five",
+   "track",
+   "teamwork",
+   "motivation",
+   "workout"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 240,
+  "file": "IMG_MIND_007.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_007.jpg",
+  "desc": "Runner tying shoelaces on a track",
+  "tags": [
+   "running",
+   "shoes",
+   "track",
+   "prep",
+   "start",
+   "exercise"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 241,
+  "file": "IMG_CAT_MIND.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_MIND.jpg",
+  "desc": "Close-up portrait of a smiling woman in warm outdoor light",
+  "tags": [
+   "smile",
+   "portrait",
+   "happy",
+   "confidence",
+   "woman",
+   "outdoor"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 242,
+  "file": "IMG_MIND_009.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_009.jpg",
+  "desc": "Woman looking at her reflection in a full-length mirror at home",
+  "tags": [
+   "mirror",
+   "reflection",
+   "self image",
+   "woman",
+   "home",
+   "progress"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 243,
+  "file": "IMG_MIND_008.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_008.jpg",
+  "desc": "Cheering crowd lifting a gold trophy in a stadium with confetti",
+  "tags": [
+   "trophy",
+   "celebration",
+   "victory",
+   "crowd",
+   "stadium",
+   "achievement"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 244,
+  "file": "IMG_MIND_005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg",
+  "desc": "Person with an arm around a friend walking in a misty park",
+  "tags": [
+   "support",
+   "friendship",
+   "walking",
+   "park",
+   "comfort",
+   "autumn"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 245,
+  "file": "IMG_MIND_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_001.jpg",
+  "desc": "Arrows hitting the bullseye of an archery target",
+  "tags": [
+   "target",
+   "goal",
+   "bullseye",
+   "archery",
+   "focus",
+   "achievement"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 246,
+  "file": "IMG_MIND_006.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_006.jpg",
+  "desc": "Group of smiling children outdoors in a spring park",
+  "tags": [
+   "kids",
+   "children",
+   "happy",
+   "family",
+   "outdoor",
+   "spring"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 247,
+  "file": "IMG_MIND_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_003.jpg",
+  "desc": "Person meditating on a misty mountain overlook",
+  "tags": [
+   "meditation",
+   "mindfulness",
+   "mountain",
+   "calm",
+   "nature",
+   "stress relief"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 248,
+  "file": "art_0049.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0049.jpg",
+  "desc": "Man and woman resting and talking on a gym bench",
+  "tags": [
+   "gym",
+   "rest",
+   "conversation",
+   "workout",
+   "support",
+   "fitness"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 249,
+  "file": "IMG_CAT_PERSONAL.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_PERSONAL.jpg",
+  "desc": "Tailor fitting a man's suit in a workshop",
+  "tags": [
+   "suit",
+   "tailor",
+   "fitting",
+   "clothes",
+   "confidence",
+   "man"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 250,
+  "file": "IMG_SIT_007.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_SIT_007.jpg",
+  "desc": "Older couple jogging on an autumn park path",
+  "tags": [
+   "jogging",
+   "older adults",
+   "couple",
+   "park",
+   "autumn",
+   "active aging"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 251,
+  "file": "art_0052.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0052.jpg",
+  "desc": "Smiling woman cutting a steak at a lively restaurant",
+  "tags": [
+   "steak",
+   "restaurant",
+   "dining out",
+   "woman",
+   "happy",
+   "dinner"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 252,
+  "file": "art_0119.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0119.jpg",
+  "desc": "Table of grain bowls with chickpeas, avocado and vegetables",
+  "tags": [
+   "grain bowl",
+   "chickpeas",
+   "avocado",
+   "vegetables",
+   "lunch",
+   "meal prep"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 253,
+  "file": "art_0120.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0120.jpg",
+  "desc": "Woman with a backpack shopping in a convenience store aisle",
+  "tags": [
+   "convenience store",
+   "shopping",
+   "snacks",
+   "groceries",
+   "choices",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 254,
+  "file": "art_0121.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0121.jpg",
+  "desc": "Hands holding a restaurant menu titled The Botanica Kitchen",
+  "tags": [
+   "menu",
+   "restaurant",
+   "dining out"
+  ],
+  "people": "hands",
+  "suitable": false,
+  "reason": "Large readable menu text/logo"
+ },
+ {
+  "id": 255,
+  "file": "art_0132.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0132.jpg",
+  "desc": "Busy candlelit restaurant with steak and wine on the table",
+  "tags": [
+   "restaurant",
+   "dinner",
+   "steak",
+   "wine",
+   "dining out",
+   "evening"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 256,
+  "file": "art_0134.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0134.jpg",
+  "desc": "Chinese restaurant table with noodles beside a named menu card",
+  "tags": [
+   "chinese food",
+   "noodles",
+   "restaurant",
+   "menu"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Restaurant name text visible"
+ },
+ {
+  "id": 257,
+  "file": "art_0139.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0139.jpg",
+  "desc": "Friends toasting with wine at a long dinner table",
+  "tags": [
+   "friends",
+   "celebration",
+   "dinner",
+   "wine",
+   "social eating",
+   "party"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 258,
+  "file": "art_0141.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0141.jpg",
+  "desc": "Table covered with many Korean dishes",
+  "tags": [
+   "korean food",
+   "feast",
+   "banchan",
+   "spread",
+   "traditional",
+   "holiday"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 259,
+  "file": "IMG_CAT_SIT.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_SIT.jpg",
+  "desc": "Backpacker in an airport terminal looking at departure boards",
+  "tags": [
+   "travel",
+   "airport",
+   "backpacker",
+   "trip",
+   "departure",
+   "adventure"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 260,
+  "file": "IMG_SIT_005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_SIT_005.jpg",
+  "desc": "Collage of park scenes across seasons with walkers and cyclists",
+  "tags": [
+   "seasons",
+   "park",
+   "walking",
+   "cycling",
+   "outdoor",
+   "year round"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 261,
+  "file": "IMG_SIT_002.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_SIT_002.jpg",
+  "desc": "Asian family sharing a feast at a low table at home",
+  "tags": [
+   "family",
+   "feast",
+   "holiday",
+   "korean food",
+   "gathering",
+   "home"
+  ],
+  "people": "group",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 262,
+  "file": "IMG_MEAL_008.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg",
+  "desc": "Fine dining plates of scallops and pasta with wine",
+  "tags": [
+   "fine dining",
+   "scallops",
+   "pasta",
+   "wine",
+   "restaurant",
+   "dinner"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 263,
+  "file": "IMG_SIT_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_SIT_003.jpg",
+  "desc": "Suitcase standing by an airport window with a plane outside",
+  "tags": [
+   "travel",
+   "suitcase",
+   "airport",
+   "trip",
+   "vacation",
+   "departure"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 264,
+  "file": "IMG_SIT_004.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_SIT_004.jpg",
+  "desc": "Lavish dessert and party buffet table",
+  "tags": [
+   "buffet",
+   "party",
+   "desserts",
+   "celebration",
+   "feast",
+   "holiday"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 265,
+  "file": "art_0156.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0156.jpg",
+  "desc": "Person splashing water on their face at a bathroom sink at night",
+  "tags": [
+   "night routine",
+   "bathroom",
+   "face wash",
+   "refresh",
+   "self care",
+   "evening"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 266,
+  "file": "art_0166.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0166.jpg",
+  "desc": "Exhausted woman slumped in a chair by a window with hand on forehead",
+  "tags": [
+   "fatigue",
+   "tired",
+   "stress",
+   "headache",
+   "burnout",
+   "woman"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 267,
+  "file": "IMG_SLEEP_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_SLEEP_001.jpg",
+  "desc": "Person asleep in bed under a duvet with a bedside lamp",
+  "tags": [
+   "sleep",
+   "bedroom",
+   "bed",
+   "rest",
+   "night",
+   "lamp"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 268,
+  "file": "IMG_CAT_SLEEP.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_SLEEP.jpg",
+  "desc": "Person collapsed face-down on an unmade bed in clothes",
+  "tags": [
+   "exhaustion",
+   "bed",
+   "tired",
+   "sleep",
+   "bedroom",
+   "burnout"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 269,
+  "file": "art_0104.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0104.jpg",
+  "desc": "Hands photographing a salad with a phone app beside a written meal log",
+  "tags": [
+   "food logging",
+   "phone",
+   "salad",
+   "meal log",
+   "app"
+  ],
+  "people": "hands",
+  "suitable": false,
+  "reason": "Readable notebook text and app UI"
+ },
+ {
+  "id": 270,
+  "file": "art_0106.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0106.jpg",
+  "desc": "Hand writing in a journal beside a healthy grain bowl",
+  "tags": [
+   "journaling",
+   "food diary",
+   "grain bowl",
+   "notes",
+   "tracking",
+   "hands"
+  ],
+  "people": "hands",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 271,
+  "file": "IMG_TRACK_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_TRACK_001.jpg",
+  "desc": "Man checking his phone while sitting on a gym bench",
+  "tags": [
+   "phone",
+   "gym",
+   "tracking",
+   "workout",
+   "man",
+   "app"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 272,
+  "file": "IMG_WT_001.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_001.jpg",
+  "desc": "Bare feet on a digital bathroom scale",
+  "tags": [
+   "scale",
+   "weigh-in",
+   "feet",
+   "weight",
+   "tracking",
+   "bathroom"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 273,
+  "file": "IMG_CAT_TRACK.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_TRACK.jpg",
+  "desc": "Two runners chatting with holographic data overlays around them",
+  "tags": [
+   "running",
+   "wearables",
+   "data",
+   "couple",
+   "technology"
+  ],
+  "people": "group",
+  "suitable": false,
+  "reason": "Large HUD charts/graphics"
+ },
+ {
+  "id": 274,
+  "file": "IMG_WT_004.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_004.jpg",
+  "desc": "Person holding the handles of a body composition analyzer in a gym",
+  "tags": [
+   "body composition",
+   "inbody",
+   "analyzer",
+   "gym",
+   "measurement",
+   "health check"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 275,
+  "file": "IMG_TRACK_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_TRACK_003.jpg",
+  "desc": "Desk covered with bar charts and data printouts",
+  "tags": [
+   "charts",
+   "data",
+   "analysis",
+   "desk"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Charts dominate image"
+ },
+ {
+  "id": 276,
+  "file": "art_0039.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0039.jpg",
+  "desc": "B-complex vitamin diagram surrounded by foods",
+  "tags": [
+   "vitamin b",
+   "nutrition",
+   "infographic",
+   "foods"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Large text infographic"
+ },
+ {
+  "id": 277,
+  "file": "art_0057.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0057.jpg",
+  "desc": "Shirtless muscular man doing a barbell squat in a gym",
+  "tags": [
+   "squat",
+   "barbell",
+   "gym",
+   "strength training"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Shirtless muscle display"
+ },
+ {
+  "id": 278,
+  "file": "art_0068.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0068.jpg",
+  "desc": "Table of eggs, salmon, chicken, beans, nuts and yogurt",
+  "tags": [
+   "protein",
+   "eggs",
+   "salmon",
+   "chicken",
+   "beans",
+   "spread"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 279,
+  "file": "art_0081.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0081.jpg",
+  "desc": "Woman measuring her waist with a tape measure",
+  "tags": [
+   "waist",
+   "tape measure",
+   "weight loss",
+   "body"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Waist-measuring body focus"
+ },
+ {
+  "id": 280,
+  "file": "art_0095.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0095.jpg",
+  "desc": "Smiling woman eating breakfast at a kitchen table at 7am",
+  "tags": [
+   "breakfast",
+   "morning",
+   "woman",
+   "happy",
+   "kitchen",
+   "routine"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 281,
+  "file": "art_0098.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0098.jpg",
+  "desc": "Smiling woman checking her phone at a kitchen table with a snack",
+  "tags": [
+   "phone",
+   "app",
+   "kitchen",
+   "woman",
+   "snack",
+   "tracking"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 282,
+  "file": "art_0099.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0099.jpg",
+  "desc": "Woman preparing to deadlift a barbell in an industrial gym",
+  "tags": [
+   "deadlift",
+   "barbell",
+   "strength training",
+   "gym",
+   "woman",
+   "weights"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 283,
+  "file": "art_0100.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/articles/art_0100.jpg",
+  "desc": "Open food diary notebook with handwritten meals and an apple",
+  "tags": [
+   "food diary",
+   "journal",
+   "tracking",
+   "notes"
+  ],
+  "people": "none",
+  "suitable": false,
+  "reason": "Readable handwritten text dominates"
+ },
+ {
+  "id": 284,
+  "file": "IMG_WT_003.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_003.jpg",
+  "desc": "Hands resting on a belly in a blue shirt",
+  "tags": [
+   "belly",
+   "bloating",
+   "gut health",
+   "digestion",
+   "hands",
+   "close-up"
+  ],
+  "people": "person",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 285,
+  "file": "IMG_WT_002.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_002.jpg",
+  "desc": "Feather resting on a digital scale reading zero",
+  "tags": [
+   "scale",
+   "feather",
+   "light",
+   "weightless",
+   "minimal",
+   "metaphor"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 286,
+  "file": "IMG_CAT_WT.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CAT_WT.jpg",
+  "desc": "Woman in sports bra and leggings checking herself in a bathroom mirror",
+  "tags": [
+   "mirror",
+   "body check",
+   "activewear",
+   "bathroom"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Midriff body-check framing"
+ },
+ {
+  "id": 287,
+  "file": "IMG_WT_006.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_006.jpg",
+  "desc": "Orange flames on a black background",
+  "tags": [
+   "fire",
+   "flame",
+   "energy",
+   "burn",
+   "metabolism",
+   "dark"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ },
+ {
+  "id": 288,
+  "file": "IMG_WT_005.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_005.jpg",
+  "desc": "Woman in sports bra measuring her waist by a city window",
+  "tags": [
+   "waist",
+   "tape measure",
+   "weight loss",
+   "body"
+  ],
+  "people": "person",
+  "suitable": false,
+  "reason": "Waist-measuring body focus"
+ },
+ {
+  "id": 289,
+  "file": "IMG_WT_008.jpg",
+  "url": "https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_008.jpg",
+  "desc": "Blue metal yo-yo spinning on a string over autumn grass",
+  "tags": [
+   "yo-yo",
+   "yo-yo dieting",
+   "rebound",
+   "autumn",
+   "park",
+   "metaphor"
+  ],
+  "people": "none",
+  "suitable": true,
+  "reason": ""
+ }
+]
