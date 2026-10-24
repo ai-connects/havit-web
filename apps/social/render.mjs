@@ -55,10 +55,11 @@ const esc = (s) => String(s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<
 const nl = (s) => esc(s).replace(/\n+/g, '<br>');
 
 const FONT = {
-  ko: "'Poppins','Noto Sans KR',sans-serif",
-  ja: "'Poppins','Noto Sans JP',sans-serif",
-  'zh-tw': "'Poppins','Noto Sans TC',sans-serif",
-  zh: "'Poppins','Noto Sans SC',sans-serif",
+  // 웹폰트가 늦거나 실패하면(러너에서 Noto Sans JP 가 반복 실패, 2026-10-25) 설치된 Noto CJK(fonts-noto-cjk)로 그린다.
+  ko: "'Poppins','Noto Sans KR','Noto Sans CJK KR',sans-serif",
+  ja: "'Poppins','Noto Sans JP','Noto Sans CJK JP',sans-serif",
+  'zh-tw': "'Poppins','Noto Sans TC','Noto Sans CJK TC',sans-serif",
+  zh: "'Poppins','Noto Sans SC','Noto Sans CJK SC',sans-serif",
 };
 const fontOf = (lang) => FONT[lang] || "'Poppins','Noto Sans',sans-serif";
 const fit = (s, big, small, limit) => ([...String(s || '')].length > limit ? small : big);
@@ -102,7 +103,10 @@ window.addEventListener('load', async () => {
   // 그 언어 글자를 실제로 그릴 폰트가 로드됐는지(라틴 언어는 Poppins, CJK 는 각 Noto). 미로드면 대체 폰트(□·다른 모양)로 찍힌다.
   const SAMPLE = { ko: ['Noto Sans KR', '한글'], ja: ['Noto Sans JP', 'あア漢'], 'zh-tw': ['Noto Sans TC', '健康'], zh: ['Noto Sans SC', '健康'] };
   const [fam, txt] = SAMPLE[document.documentElement.lang] || ['Poppins', 'Abc'];
-  if (!document.fonts.check('900 40px "' + fam + '"', txt)) issues.push('폰트미로드:' + fam);
+  // 웹폰트가 안 들어와도 같은 글꼴의 설치본(Noto CJK)이 있으면 통과 — 폭이 기본 고정폭과 다르면 설치돼 있는 것.
+  const LOCAL = { ko: 'Noto Sans CJK KR', ja: 'Noto Sans CJK JP', 'zh-tw': 'Noto Sans CJK TC', zh: 'Noto Sans CJK SC' }[document.documentElement.lang];
+  const hasLocal = (f) => { const c = document.createElement('canvas').getContext('2d'); c.font = '40px "' + f + '", monospace'; const a = c.measureText(txt).width; c.font = '40px monospace'; return a !== c.measureText(txt).width; };
+  if (!document.fonts.check('900 40px "' + fam + '"', txt) && !(LOCAL && hasLocal(LOCAL))) issues.push('폰트미로드:' + fam);
   document.title = 'QA:' + JSON.stringify(issues);
 });
 </script></head><body>${inner}</body></html>`;
@@ -156,7 +160,7 @@ function cta(d, s) {
   <div style="margin:auto 0;padding-bottom:120px">
     <h1 style="font-size:${tier(s.title, d.lang, [104, 90, 78], [16, 26])}px">${nl(s.title)}</h1>
     ${s.body ? `<p style="font-size:46px;margin-top:32px">${nl(s.body)}</p>` : ''}
-    ${d.slug?.startsWith('art-') || d.slug?.startsWith('quiz-') ? badges(d.lang) + (TAGLINE[d.lang] ? `<p style="font-size:34px;margin-top:36px;opacity:.75">${TAGLINE[d.lang]}</p>` : '') : ''}
+    ${d.slug?.startsWith('art-') || d.slug?.startsWith('quiz-') ? badges(d.lang) + (TAGLINE[d.lang] ? `<p style="font-size:34px;margin-top:36px;opacity:.75;max-width:640px">${TAGLINE[d.lang]}</p>` : '') : ''}
   </div>
   <img class="char" src="${CHAR.dino}" style="width:260px">
 </div>`);
