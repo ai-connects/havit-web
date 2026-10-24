@@ -16,7 +16,7 @@ for (const dir of process.argv.slice(2).filter((p) => statSync(p, { throwIfNoEnt
   for (const f of readdirSync(dir).filter((x) => x.endsWith('.json'))) {
     const p = path.join(dir, f);
     const d = readJson(p);
-    if (d.decision?.status !== 'revise' || d.revision) continue;
+    if (d.decision?.status !== 'revise' || (d.revision || 0) >= 2) continue;
     const source = loadSource(d.slug, d.lang);
     const { system, user } = buildPrompt(d, source, d.link);
     const { lint: _l, review, decision, images, media, image_qa, approved, approved_by, ...prev } = d;
@@ -32,7 +32,7 @@ for (const dir of process.argv.slice(2).filter((p) => statSync(p, { throwIfNoEnt
     // 계획 필드(채널·언어·글·포맷·발행시각 등)와 사진은 그대로 둔다
     const draft = { ...fixed, ...Object.fromEntries(['date', 'channel', 'lang', 'slug', 'format', 'segment', 'publish_at', 'share', 'link', 'photo'].filter((k) => k in d).map((k) => [k, d[k]])) };
     const result = lint(draft, source);
-    writeFileSync(p, JSON.stringify({ ...draft, lint: result, approved: false, revision: 1, previous_review: review }, null, 2) + '\n');
+    writeFileSync(p, JSON.stringify({ ...draft, lint: result, approved: false, revision: (d.revision || 0) + 1, previous_review: review }, null, 2) + '\n');
     n++;
     console.log(`✏️  ${result.status} ${f}${result.errors.length ? ' — ' + result.errors.join('; ') : ''}`);
   }

@@ -11,7 +11,7 @@ Approve only if ALL of these hold:
 4. Language — reads as written by a native {lang} speaker for this channel: natural, correct register (e.g. Japanese です/ます, Korean 해요체, German/French informal 'du'/'tu'), no machine-translation artifacts, nothing rude, culturally off, or body-shaming.
 5. Images — text is fully visible (not cut off or overflowing), readable, matches the draft wording, and the photo/character is appropriate for the topic.
 6. Platform fit — no spammy hashtags, no engagement bait ("comment YES"; a genuine either/or or open question is fine), link placement fits the channel.
-7. Reach — score the hook 1–5 (5 = a busy target reader would stop scrolling: specific, surprising or relatable, paid off in the next line; 1 = generic "Did you know / N tips"). Also check the copy earns a save, share or reply (one clear action), and the primary keyword reads naturally in the first sentence and hashtags are niche and relevant. A hook score below 4 or flat copy → "revise", with a concrete stronger hook in fix_instructions (true to the SOURCE).
+7. Reach — score the hook 1–5 (5 = a busy target reader would stop scrolling: specific, surprising or relatable, paid off in the next line; 1 = generic "Did you know / N tips"). Also check the copy earns a save, share or reply (one clear action), and the primary keyword reads naturally in the first sentence and hashtags are niche and relevant. Only a hook score below 3 → "revise", with a concrete stronger hook in fix_instructions (true to the SOURCE). A hook of 3 with otherwise sound copy is approved.
 
 Return ONLY JSON:
 {"verdict": "approve" | "revise" | "human",
@@ -20,4 +20,4 @@ Return ONLY JSON:
  "issues": ["short, specific problems (empty if approve)"],
  "fix_instructions": "what the writer must change (for revise), else \"\""}
 
-Use "revise" for fixable writing problems. Use "human" when a judgment call about medical risk, cultural sensitivity, or brand reputation is needed, or when you are less than 0.85 confident.
+Use "revise" only for: a claim or number not supported by the SOURCE, a wrong citation, a medical-safety problem, language a native speaker would find wrong or awkward, text cut off in an image, or a hook below 3. Minor polish (empty alt_text, hashtag choice, a slightly flat line, wording preferences, tracking parameters) is NOT a reason to revise — approve and list it in issues. Use "human" when a judgment call about medical risk, cultural sensitivity, or brand reputation is needed, or when you are less than 0.85 confident.
