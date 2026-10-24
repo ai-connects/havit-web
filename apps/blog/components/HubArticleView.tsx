@@ -8,6 +8,7 @@ import { articleImage, hubSectionImage } from '@/lib/article-images';
 import { localizedCategory } from '@/lib/category-labels';
 import { CategoryIcon } from '@/components/CategoryIcon';
 import { toFullLang } from '@/lib/i18n';
+import { localizedBodyShot } from '@/lib/site';
 import { parseHubBody, type HubBlock } from '@/lib/hub-body';
 import { remarkRepairEmphasis, renderEmphasis } from '@/lib/emphasis';
 import { resolveBlogLink } from '@/lib/internal-links';
@@ -194,11 +195,13 @@ function Block({ block, lang, slug }: { block: HubBlock; lang: string; slug: str
        그대로 두고 contain 으로, 좁은 폭에 가운데 정렬해 넣는다. */
     case 'image': {
       const isShot = block.src.includes('/havit/shot/');
+      // 앱 화면은 글 언어의 화면으로 — 한국어 글에 영어 UI 가 보이지 않게.
+      const src = isShot ? localizedBodyShot(lang, block.src) : block.src;
       return (
         <figure className={isShot ? 'hub-shot' : 'hub-figure hub-figure--inline'}>
           <span className={isShot ? 'hub-shot__frame' : 'hub-figure__box'}>
             <Image
-              src={block.src}
+              src={src}
               alt={block.alt}
               fill
               sizes={isShot ? '(max-width: 860px) 70vw, 340px' : '(max-width: 860px) 100vw, 800px'}

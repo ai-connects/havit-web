@@ -1,7 +1,7 @@
 'use client';
 
 import { type LangKey, t, toShortLang } from '@/lib/i18n';
-import { asset, localizedShot } from '@/lib/site';
+import { asset, localizedShot, storeBadge } from '@/lib/site';
 import {
   PLAY_STORE_URL, appLinkFor, appStoreUrlFor, destinationOf, storeOf, trackGaEvent, useMobileOS,
 } from '@/lib/download-links';
@@ -80,13 +80,13 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
         <p className="install-cta__sub">{t(lang, 'installCtaSub')}</p>
         <div className="install-cta__badges">
           <a href={badgeHref('app_store', appStoreUrlFor(lang))} onClick={onBadgeClick('app_store')} target="_blank" rel="noopener" className="install-cta__badge" aria-label="App Store">
-            {/* 5~6KB 고정 크기 PNG 라 next/image 최적화 이득이 없다. */}
+            {/* 수 KB 고정 크기 배지라 next/image 최적화 이득이 없다. */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={asset('/badge-appstore.png')} alt="Download on the App Store" width={168} height={56} />
+            <img src={storeBadge(toShortLang(lang), 'app_store')} alt="Download on the App Store" width={168} height={56} />
           </a>
           <a href={badgeHref('google_play', PLAY_STORE_URL)} onClick={onBadgeClick('google_play')} target="_blank" rel="noopener" className="install-cta__badge" aria-label="Google Play">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={asset('/badge-googleplay.png')} alt="Get it on Google Play" width={189} height={56} />
+            <img src={storeBadge(toShortLang(lang), 'google_play')} alt="Get it on Google Play" width={189} height={56} />
           </a>
         </div>
       </div>
