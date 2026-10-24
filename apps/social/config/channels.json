@@ -1,56 +1,106 @@
 {
-  "_note": "채널×언어 규칙. 계정: IG·Threads 는 9개 언어별 계정(간체 zh 제외 — 대표 결정 10/24), LinkedIn 회사 en + 창업자 ko/en, Facebook en. IG·Threads 는 언어마다 매일 1건. 자동 발행은 AI 리뷰어 게이트(lib/gate.mjs).",
+  "_note": "채널×언어 규칙. 운영 = Instagram·Threads × 9개 언어(간체 제외), 언어마다 하루 2건(IG 1 + Threads 1). Facebook·LinkedIn 은 계정 개설 전이라 enabled:false. 발행 시각은 langs.*.post_hours(현지 시각, IANA tz). 자동 발행 게이트 = lib/gate.mjs.",
   "langs": {
     "ko": {
       "route": "ko",
       "disclaimer": "※ 일반 정보이며 의학적 조언을 대신하지 않아요. 섭식 문제나 질환이 있다면 전문가와 상담하세요.",
       "disclaimer_formal": "※ 일반 정보이며 의학적 조언을 대신하지 않습니다. 섭식 문제나 질환이 있다면 전문가와 상담하세요.",
-      "home": "https://www.aihavit.com/ko/"
+      "home": "https://www.aihavit.com/ko/",
+      "tz": "Asia/Seoul",
+      "post_hours": {
+        "instagram": 12,
+        "threads": 20
+      }
     },
     "ja": {
       "route": "ja",
       "disclaimer": "※一般的な情報であり、医療上のアドバイスに代わるものではありません。摂食の悩みや持病がある方は専門家にご相談ください。",
-      "home": "https://www.aihavit.com/ja/"
+      "home": "https://www.aihavit.com/ja/",
+      "tz": "Asia/Tokyo",
+      "post_hours": {
+        "instagram": 12,
+        "threads": 20
+      }
     },
     "en": {
       "route": "en",
       "disclaimer": "General info, not medical advice. If you're dealing with disordered eating or a health condition, talk to a professional.",
-      "home": "https://www.aihavit.com/"
+      "home": "https://www.aihavit.com/",
+      "tz": "America/New_York",
+      "post_hours": {
+        "instagram": 12,
+        "threads": 20
+      }
     },
     "zh-tw": {
       "route": "zh-tw",
       "home": "https://www.aihavit.com/zh-tw/",
-      "disclaimer": "※ 本文僅供一般資訊參考，不能取代醫療建議。若有飲食困擾或健康狀況，請諮詢專業人員。"
+      "disclaimer": "※ 本文僅供一般資訊參考，不能取代醫療建議。若有飲食困擾或健康狀況，請諮詢專業人員。",
+      "tz": "Asia/Taipei",
+      "post_hours": {
+        "instagram": 12,
+        "threads": 20
+      }
     },
     "zh": {
       "route": "zh",
       "home": "https://www.aihavit.com/zh-cn/",
-      "disclaimer": "※ 本文仅供一般信息参考，不能替代医疗建议。如有饮食困扰或健康问题，请咨询专业人士。"
+      "disclaimer": "※ 本文仅供一般信息参考，不能替代医疗建议。如有饮食困扰或健康问题，请咨询专业人士。",
+      "tz": "Asia/Shanghai",
+      "post_hours": {
+        "instagram": 12,
+        "threads": 20
+      }
     },
     "es": {
       "route": "es",
       "home": "https://www.aihavit.com/es/",
-      "disclaimer": "Información general, no es consejo médico. Si tienes problemas con la alimentación o una condición de salud, consulta a un profesional."
+      "disclaimer": "Información general, no es consejo médico. Si tienes problemas con la alimentación o una condición de salud, consulta a un profesional.",
+      "tz": "America/Mexico_City",
+      "post_hours": {
+        "instagram": 12,
+        "threads": 20
+      }
     },
     "pt-br": {
       "route": "pt-br",
       "home": "https://www.aihavit.com/pt/",
-      "disclaimer": "Informação geral, não é conselho médico. Se você tem dificuldades com a alimentação ou alguma condição de saúde, procure um profissional."
+      "disclaimer": "Informação geral, não é conselho médico. Se você tem dificuldades com a alimentação ou alguma condição de saúde, procure um profissional.",
+      "tz": "America/Sao_Paulo",
+      "post_hours": {
+        "instagram": 12,
+        "threads": 20
+      }
     },
     "id": {
       "route": "id",
       "home": "https://www.aihavit.com/id/",
-      "disclaimer": "Info umum, bukan nasihat medis. Jika kamu mengalami gangguan makan atau kondisi kesehatan tertentu, konsultasikan dengan tenaga profesional."
+      "disclaimer": "Info umum, bukan nasihat medis. Jika kamu mengalami gangguan makan atau kondisi kesehatan tertentu, konsultasikan dengan tenaga profesional.",
+      "tz": "Asia/Jakarta",
+      "post_hours": {
+        "instagram": 12,
+        "threads": 20
+      }
     },
     "de": {
       "route": "de",
       "home": "https://www.aihavit.com/de/",
-      "disclaimer": "Allgemeine Infos, keine ärztliche Beratung. Wenn du mit Essstörungen oder einer Erkrankung zu tun hast, sprich mit einer Fachperson."
+      "disclaimer": "Allgemeine Infos, keine ärztliche Beratung. Wenn du mit Essstörungen oder einer Erkrankung zu tun hast, sprich mit einer Fachperson.",
+      "tz": "Europe/Berlin",
+      "post_hours": {
+        "instagram": 12,
+        "threads": 20
+      }
     },
     "fr": {
       "route": "fr",
       "home": "https://www.aihavit.com/fr/",
-      "disclaimer": "Informations générales, pas un avis médical. Si tu fais face à des troubles alimentaires ou à un problème de santé, parles-en à un professionnel."
+      "disclaimer": "Informations générales, pas un avis médical. Si tu fais face à des troubles alimentaires ou à un problème de santé, parles-en à un professionnel.",
+      "tz": "Europe/Paris",
+      "post_hours": {
+        "instagram": 12,
+        "threads": 20
+      }
     }
   },
   "channels": {
@@ -81,7 +131,8 @@
         "myth_fact",
         "mini_steps",
         "havi_scene"
-      ]
+      ],
+      "enabled": true
     },
     "instagram": {
       "langs": [
@@ -113,7 +164,8 @@
         "one_stat_carousel",
         "checklist_carousel",
         "havi_scene_carousel"
-      ]
+      ],
+      "enabled": true
     },
     "facebook": {
       "langs": [
@@ -131,7 +183,8 @@
         "community_question",
         "checklist",
         "one_stat"
-      ]
+      ],
+      "enabled": false
     },
     "linkedin_company": {
       "langs": [
@@ -148,7 +201,8 @@
       "formats": [
         "workplace_insight",
         "evidence_brief"
-      ]
+      ],
+      "enabled": false
     },
     "linkedin_founder": {
       "langs": [
@@ -166,7 +220,8 @@
       "formats": [
         "building_in_public",
         "lesson_learned"
-      ]
+      ],
+      "enabled": false
     }
   },
   "segments": {
@@ -330,6 +385,15 @@
       "brûle-graisse",
       "avant/après",
       "avant après"
+    ]
+  },
+  "slack_feed": {
+    "_note": "발행된 글을 Slack 채널에 공유(대표 지시 10/24: 한국어·영어·일본어·프랑스어만). 웹훅 = Secrets SLACK_FEED_WEBHOOK_URL",
+    "langs": [
+      "ko",
+      "en",
+      "ja",
+      "fr"
     ]
   }
 }

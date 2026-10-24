@@ -1,0 +1,59 @@
+# 매일 23:00 KST: 다음 날(UTC) 하루치 SNS 초안 생성 → 검사 → 이미지 → AI 리뷰 → 사람 검토 이슈 → 요약
+name: social-daily
+on:
+  schedule:
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '생성할 날짜(YYYY-MM-DD, 비우면 내일)'
+        required: false
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: social-queue
+  cancel-in-progress: false
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    # 긴급 중지: 레포 Settings → Variables 에서 SOCIAL_PAUSED=true
+    if: ${{ vars.SOCIAL_PAUSED != 'true' }}
+    env:
+      SOCIAL_MEDIA_BUCKET: havit-prod-us-east
+      SOCIAL_MEDIA_PREFIX: image/sns
+      QUEUE_S3: s3://havit-prod-us-east/social-queue/
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      GH_TOKEN: ${{ github.token }}
+      CHROME_BIN: /usr/bin/google-chrome
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+        working-directory: apps/social
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: 큐 내려받기(S3 비공개 경로 — 공개 레포라 큐는 git 에 두지 않음)
+        working-directory: apps/social
+        run: aws s3 sync "$QUEUE_S3" queue/ --only-show-errors
+      - name: 하루치 생성
+        working-directory: apps/social
+        run: |
+          DATE="${{ inputs.date }}"; [ -z "$DATE" ] && DATE=$(date -u -d '+1 day' +%F)
+          node plan.mjs "$DATE"
+          node generate.mjs "queue/plan-$DATE.json" --date "$DATE"
+          node render.mjs "queue/$DATE"
+          node host.mjs "queue/$DATE"
+          node reviewer.mjs "queue/$DATE"
+          node escalate.mjs "queue/$DATE"
+          node digest.mjs "queue/$DATE"
+      - name: 큐 올리기
+        if: always()
+        working-directory: apps/social
+        run: aws s3 sync queue/ "$QUEUE_S3" --only-show-errors --exclude "*.html" 

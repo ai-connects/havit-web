@@ -1,0 +1,38 @@
+# 매주 월요일: Instagram·Threads 장기 토큰(60일) 갱신 → GitHub Secrets 덮어쓰기 (SOCIAL_SECRETS_PAT 필요)
+name: social-refresh-tokens
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      IG_TOKEN_KO: ${{ secrets.IG_TOKEN_KO }}
+      THREADS_TOKEN_KO: ${{ secrets.THREADS_TOKEN_KO }}
+      IG_TOKEN_JA: ${{ secrets.IG_TOKEN_JA }}
+      THREADS_TOKEN_JA: ${{ secrets.THREADS_TOKEN_JA }}
+      IG_TOKEN_EN: ${{ secrets.IG_TOKEN_EN }}
+      THREADS_TOKEN_EN: ${{ secrets.THREADS_TOKEN_EN }}
+      IG_TOKEN_ZH_TW: ${{ secrets.IG_TOKEN_ZH_TW }}
+      THREADS_TOKEN_ZH_TW: ${{ secrets.THREADS_TOKEN_ZH_TW }}
+      IG_TOKEN_ES: ${{ secrets.IG_TOKEN_ES }}
+      THREADS_TOKEN_ES: ${{ secrets.THREADS_TOKEN_ES }}
+      IG_TOKEN_PT_BR: ${{ secrets.IG_TOKEN_PT_BR }}
+      THREADS_TOKEN_PT_BR: ${{ secrets.THREADS_TOKEN_PT_BR }}
+      IG_TOKEN_ID: ${{ secrets.IG_TOKEN_ID }}
+      THREADS_TOKEN_ID: ${{ secrets.THREADS_TOKEN_ID }}
+      IG_TOKEN_DE: ${{ secrets.IG_TOKEN_DE }}
+      THREADS_TOKEN_DE: ${{ secrets.THREADS_TOKEN_DE }}
+      IG_TOKEN_FR: ${{ secrets.IG_TOKEN_FR }}
+      THREADS_TOKEN_FR: ${{ secrets.THREADS_TOKEN_FR }}
+      GH_TOKEN: ${{ secrets.SOCIAL_SECRETS_PAT }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node refresh_ci.mjs
+        working-directory: apps/social

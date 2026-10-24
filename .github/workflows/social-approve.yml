@@ -1,0 +1,52 @@
+# 사람 검토 이슈에 /approve · /reject 댓글 → 큐 반영 후 이슈 닫기 (레포 소유자·멤버 댓글만)
+name: social-approve
+on:
+  issue_comment:
+    types: [created]
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: social-queue
+  cancel-in-progress: false
+jobs:
+  apply:
+    if: >-
+      contains(github.event.issue.labels.*.name, 'social-review') &&
+      (startsWith(github.event.comment.body, '/approve') || startsWith(github.event.comment.body, '/reject')) &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+    runs-on: ubuntu-latest
+    env:
+      SOCIAL_MEDIA_BUCKET: havit-prod-us-east
+      SOCIAL_MEDIA_PREFIX: image/sns
+      QUEUE_S3: s3://havit-prod-us-east/social-queue/
+      GH_TOKEN: ${{ github.token }}
+      ISSUE_BODY: ${{ github.event.issue.body }}
+      COMMENT: ${{ github.event.comment.body }}
+      WHO: ${{ github.event.comment.user.login }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+        working-directory: apps/social
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: 큐 내려받기(S3 비공개 경로 — 공개 레포라 큐는 git 에 두지 않음)
+        working-directory: apps/social
+        run: aws s3 sync "$QUEUE_S3" queue/ --only-show-errors
+      - name: 반영
+        working-directory: apps/social
+        run: |
+          printf '%s' "$ISSUE_BODY" > /tmp/issue.md
+          case "$COMMENT" in /approve*) A=approve;; *) A=reject;; esac
+          node apply_review.mjs /tmp/issue.md "$A" "$WHO"
+          gh issue close ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY" --comment "$([ "$A" = approve ] && echo '✅ 승인 — 예정 시각에 발행됩니다' || echo '⛔ 반려 — 발행하지 않습니다')"
+      - name: 큐 올리기
+        if: always()
+        working-directory: apps/social
+        run: aws s3 sync queue/ "$QUEUE_S3" --only-show-errors --exclude "*.html" 
