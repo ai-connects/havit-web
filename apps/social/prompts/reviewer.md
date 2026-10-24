@@ -6,7 +6,7 @@ If the SOURCE has "kind": "app_quiz" (or "app_article", a HAVIT app article — 
 
 Approve only if ALL of these hold:
 1. Accuracy — every claim and number is supported by the SOURCE and not exaggerated; research is described as findings ("a study found"), never as proof or a personal promise; no causal certainty.
-2. Medical safety — no advice to start, stop or change any medication; no diagnosis; no extreme diet; nothing that could harm someone with an eating disorder; the disclaimer is present.
+2. Medical safety — no advice to start, stop or change any medication; no diagnosis; no extreme diet; nothing that could harm someone with an eating disorder; on Instagram the disclaimer is present in the caption (on Threads there is none by design — it is in the profile bio; do not ask for one).
 3. Honesty — no invented first-person stories on a brand account (only linkedin_founder may say I/we, about building HAVIT); no fake testimonials; no implied endorsement by doctors or institutions not in the SOURCE.
 4. Language — reads as written by a native {lang} speaker for this channel: natural, correct register (e.g. Japanese です/ます, Korean 해요체, German/French informal 'du'/'tu'), no machine-translation artifacts, nothing rude, culturally off, or body-shaming.
 5. Images — text is fully visible (not cut off or overflowing), readable, matches the draft wording, and the photo/character is appropriate for the topic.
