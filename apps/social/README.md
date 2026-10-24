@@ -67,6 +67,22 @@ npm test
 - 긴급 중지: `config/control.json` 의 `publishing_paused: true` → 모든 판정이 `paused`
 - 매일 `digest.mjs` 로 결과 요약. 자동 승인 → Buffer API 예약은 다음 단계에서 붙인다.
 
+## Meta 직접 발행 (Instagram·Threads)
+
+```
+publish.mjs   approved 초안 → 이미지 S3 공개 URL(JPEG) → Instagram 캐러셀 / Threads(카드 이미지 + 이어 답글 + 첫 답글 링크·면책)
+tokens.mjs    threads <lang> | ig <lang> | check | refresh — 토큰은 .env 에만, 화면 출력 없음
+```
+
+준비(한 번): Meta 앱 「HAVIT Social Publisher」(개발 모드 유지)
+1. Threads 이용 사례 설정 → 리디렉션 콜백 URL `https://www.aihavit.com/`
+2. 앱 역할 → Instagram 테스터·Threads 테스터에 9개 계정 추가 → 각 계정에서 초대 수락
+3. `.env.example` → `.env`, 앱 ID·시크릿 입력, `aws login`
+4. 본인 터미널에서 `node tokens.mjs threads ko` … / `node tokens.mjs ig ko` … → `node tokens.mjs check`
+5. 50일마다 `node tokens.mjs refresh`(만료 60일)
+
+발행은 재실행해도 안전(이미 published 면 건너뜀), 긴급 중지가 켜져 있으면 아무것도 하지 않는다.
+
 ## 미확정
 
 - Instagram 해시태그 상한(정책 변경 중) · Buffer 연결 · HAVI 캐릭터 고해상도 원본(현재 210px)

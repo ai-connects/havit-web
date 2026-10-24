@@ -1,5 +1,5 @@
 {
-  "_note": "채널×언어 규칙. 계정: IG·Threads 는 블로그 10개 언어별 계정(ko=havit_app), LinkedIn 회사 en + 창업자 ko/en, Facebook en. IG·Threads 는 언어마다 매일 1건. 모든 초안은 사람 승인 후 발행.",
+  "_note": "채널×언어 규칙. 계정: IG·Threads 는 9개 언어별 계정(간체 zh 제외 — 대표 결정 10/24), LinkedIn 회사 en + 창업자 ko/en, Facebook en. IG·Threads 는 언어마다 매일 1건. 자동 발행은 AI 리뷰어 게이트(lib/gate.mjs).",
   "langs": {
     "ko": {
       "route": "ko",
@@ -60,7 +60,6 @@
         "ja",
         "en",
         "zh-tw",
-        "zh",
         "es",
         "pt-br",
         "id",
@@ -90,7 +89,6 @@
         "ja",
         "en",
         "zh-tw",
-        "zh",
         "es",
         "pt-br",
         "id",
