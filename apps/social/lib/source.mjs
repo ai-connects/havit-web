@@ -10,6 +10,7 @@ const DATA_LANG = { ko: 'ko', ja: 'ja', en: 'en', zh: 'zh-CN', 'zh-tw': 'zh-TW',
 
 export function hasLang(slug, lang) {
   if (isQuiz(slug)) return Boolean(quiz(slug).langs[lang]);
+  if (isAppArticle(slug)) return Boolean(appArticle(slug).langs[lang]?.title);
   return Boolean(readJson(path.join(ARTICLES, `${slug}.json`)).langs[DATA_LANG[lang]]);
 }
 
@@ -27,18 +28,42 @@ const quiz = (id) => {
 };
 export const quizSlugs = () => config('quizzes').quizzes.map((q) => q.id);
 
+// 퀴즈의 원본 앱 아티클(config/app_articles.json, scripts/export_app_articles.sh) — slug 가 art- 로 시작. 퀴즈와 같은 주제의 콘텐츠 소스.
+export const isAppArticle = (slug) => /^art-\d+$/.test(slug);
+let APP_ARTICLES = null;
+const appArticle = (id) => {
+  APP_ARTICLES ||= new Map(config('app_articles').articles.map((a) => [a.id, a]));
+  const a = APP_ARTICLES.get(id);
+  if (!a) throw new Error(`앱 아티클에 없다: ${id}`);
+  return a;
+};
+function loadAppArticle(slug, lang) {
+  const L = appArticle(slug).langs[lang];
+  if (!L?.title) throw new Error(`${slug} 에 ${lang} 판이 없다`);
+  return {
+    slug, lang, category: appArticle(slug).category, kind: 'app_article',
+    title: L.title, summary: L.summary, science: L.science,
+    steps: (L.action?.items || []).map((i) => `${i.title}: ${i.description}`),
+    mission: L.mission, reference: L.reference,
+    key_stats: [], faq: [], h2: [],
+    url: `https://www.aihavit.com/blog/${config('channels').langs[lang].route}`,
+    _text: JSON.stringify(L),
+  };
+}
+
 // 약물 주제(GLP-1·오젬픽·마운자로 등)는 SNS 에 내지 않는다(대표 결정 2026-10-24: 승인 부담 0 + 의약품 광고 규제).
 // 블로그에는 남는다. 판정은 ko·en 판의 제목·요약(퀴즈는 전문).
 const DRUG_TOPIC = /glp-?1|semaglutide|tirzepatide|liraglutide|orforglipron|retatrutide|ozempic|wegovy|mounjaro|zepbound|saxenda|rybelsus|metformin|levothyroxine|rapamycin|세마글루타이드|터제파타이드|티르제파타이드|오젬픽|위고비|마운자로|젭바운드|삭센다|메트포르민|레보티록신|주사제|비만 ?주사|처방약/i;
 export function isDrugTopic(slug) {
   if (isQuiz(slug)) return ['ko', 'en'].some((l) => DRUG_TOPIC.test(Object.values(quiz(slug).langs[l] || {}).join(' ')));
+  if (isAppArticle(slug)) return ['ko', 'en'].some((l) => DRUG_TOPIC.test(`${appArticle(slug).langs[l]?.title} ${JSON.stringify(appArticle(slug).langs[l]?.summary)}`));
   const L = readJson(path.join(ARTICLES, `${slug}.json`)).langs;
   return ['ko', 'en'].some((l) => L[l] && DRUG_TOPIC.test(`${L[l].title} ${L[l].tldr || ''}`));
 }
 
 /** 발행물이 나온 원문 위치(사람 검토·Slack 링크용). */
 export const originLabel = (d) =>
-  isQuiz(d.slug) ? `앱 퀴즈 ${d.slug}` : `https://www.aihavit.com/blog/${d.lang}/${d.slug}`;
+  isQuiz(d.slug) ? `앱 퀴즈 ${d.slug}` : isAppArticle(d.slug) ? `앱 아티클 ${d.slug}` : `https://www.aihavit.com/blog/${d.lang}/${d.slug}`;
 
 function loadQuiz(slug, lang) {
   const q = quiz(slug);
@@ -69,6 +94,7 @@ export function verifiedSlugs() {
 
 export function loadSource(slug, lang) {
   if (isQuiz(slug)) return loadQuiz(slug, lang);
+  if (isAppArticle(slug)) return loadAppArticle(slug, lang);
   if (!verifiedSlugs().includes(slug)) {
     throw new Error(`검증되지 않은 글은 SNS 소스로 쓸 수 없다: ${slug} (config/sources.json)`);
   }
