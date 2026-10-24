@@ -965,147 +965,138 @@
       "last_updated": "2026-10-24"
     },
     "id": {
-      "title": "Aplikasi Pencatat Makanan Terbaik 2026: Pilih dari Cara Anda Berhenti Terakhir Kali",
-      "short_title": "Aplikasi Pencatat Makanan Terbaik 2026",
-      "meta_description": "HAVIT, FatSecret, MyFitnessPal, Cronometer, dan pencatat berbasis foto, dibahas satu per satu. Empat cara kebiasaan mencatat mati — pajak pencarian, tembok warteg, jurang rasa bersalah, hanyut karena sia-sia — dan aplikasi mana yang menutup tiap celah.",
-      "tldr": "Tidak ada yang berhenti mencatat karena aplikasinya tidak akurat. Di Indonesia penyebab utamanya adalah tembok warteg: satu piring campur berubah jadi enam pencarian. Diagnosis dulu cara Anda berhenti, baru pilih aplikasinya.",
-      "body_md": "Tidak ada yang berhenti mencatat makanan karena aplikasinya tidak akurat. Orang berhenti pada satu momen yang sangat spesifik — pukul sembilan malam, capek, memegang bungkusan nasi warteg berisi nasi, sayur, satu lauk, sambal, dan kerupuk, lalu memutuskan ini tidak sepadan dengan usahanya.\n\nJadi panduan ini mulai dari **empat cara kebiasaan mencatat itu mati**, baru kemudian membahas aplikasinya satu per satu. Dicek di Google Play dan situs resmi, Oktober 2026.\n\n![Yang mengakhiri pencatatan adalah kelelahan, bukan ketidakakuratan](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## Empat cara kebiasaan mencatat mati\n\n**1. Pajak pencarian.** Tiap makan dimulai dengan mengetik, lalu menggulir hasil yang nyaris sama, lalu menebak. Tiga puluh detik, empat kali sehari.\n\n**2. Tembok warteg.** Produk kemasan tercatat mulus. Lalu Anda makan di warung atau masak sendiri, dan satu piring berubah jadi enam pencarian terpisah. Ini hambatan nomor satu di Indonesia, bukan akurasi.\n\n**3. Jurang rasa bersalah.** Harinya berantakan, Anda tidak mau melihatnya tertulis, jadi Anda lewati — dan **hari itulah kebiasaannya putus.**\n\n**4. Hanyut karena terasa sia-sia.** Lima minggu mencatat dengan setia, dan aplikasinya hanya memantulkan angka kembali. Lama-lama terasa seperti pembukuan.\n\nRamadan mempertajam keempatnya sekaligus: jadwal makan bergeser, sahur dilakukan setengah sadar, dan menu berbuka sebagian besar adalah masakan rumah yang tidak ada di database mana pun.\n\n## HAVIT — dibangun untuk menyerang keempatnya\n\n| | |\n| --- | --- |\n| Pembuat | Havit Inc. |\n| Harga | Gratis · ada pembelian dalam aplikasi |\n| Database makanan | **±486.000 entri** — 432.418 USDA branded + 41.218 Korea MFDS + 12.671 hasil kurasi |\n| Yang dicatat | Makan, air, olahraga, tidur, langkah, siklus haid, suasana hati, obat GLP-1 |\n| Bahasa | 35 bahasa, termasuk Bahasa Indonesia |\n\n![AI Food Scan — foto piringnya, lewati pencarian](/blog/havit/shot/feature-nutrition.webp)\n\n**Tembok warteg** adalah masalah yang harus dijawab lebih dulu, dan jawabannya harus jujur: tidak ada aplikasi — HAVIT termasuk — yang punya database lengkap masakan rumahan dan warung Indonesia. Entri \"nasi campur, lauk telur balado, sayur nangka\" tidak ada di mana pun, karena porsinya berbeda di tiap warung.\n\nYang dilakukan HAVIT adalah menghindari pencarian sama sekali. **AI Food Scan** mengubah satu foto piring menjadi perkiraan kalori dan makro per komponen. Piring dengan enam komponen justru kasus terbaiknya — persis kasus di mana kolom pencarian kalah dan kamera menang.\n\n**Pajak pencarian** dipangkas lewat asal data. 486.000 entri HAVIT berasal dari **lembaga pangan publik** — 432.418 produk bermerek USDA dan 41.218 dari Korea MFDS, lembaga yang setara BPOM di Korea — bukan dari unggahan pengguna. Artinya Anda tidak perlu membandingkan sembilan versi nyaris identik dari yoghurt yang sama untuk menebak mana yang benar.\n\n![Check-in harian — cara hari yang buruk masuk tanpa mengakhiri apa pun](/blog/havit/shot/feature-daily-check-in.webp)\n\n**Jurang rasa bersalah** ditutup oleh **check-in harian**. Mengatakan \"hari ini berat\" dalam beberapa ketukan adalah tindakan yang jauh lebih ringan daripada mencatat hari yang ingin Anda lupakan, dan benangnya tetap tidak putus.\n\n**Hanyut karena sia-sia** adalah alasan **coach AI** itu ada. Ia membaca kedelapan catatan dan mengembalikan **satu tindakan konkret untuk hari ini**, bukan satu halaman angka.\n\nDi atas semua itu: **misi harian**, **enam meditasi terpandu**, **video olahraga**, fitur **puasa** yang cocok dipakai saat Ramadan maupun di luar itu, **lebih dari 1.400 artikel**, estimasi komposisi tubuh, rangkaian hari, lencana, peringkat, dan tantangan tim. Dikembangkan bersama para ahli dari Juvis Diet.\n\n**Cocok untuk:** orang yang makan di warung atau masak sendiri; orang yang berhenti mencatat pada hari-hari buruk; orang yang butuh sesuatu setelah catatan.\n\n## FatSecret — cari makanan Indonesia, biasanya ketemu\n\n| | |\n| --- | --- |\n| Harga | Paket gratis yang luas · Premium terpisah |\n| Google Play | 4,8 bintang · 548 rb ulasan · 50 jt+ unduhan |\n| Situs lokal | fatsecret.co.id, berbahasa Indonesia |\n\n**Yang dikerjakannya dengan baik.** Perlu diakui terus terang: **untuk pencarian makanan Indonesia, inilah yang paling lengkap di daftar ini.** Situs Indonesia sendiri, entri berbahasa Indonesia, dan paket gratis paling murah hati di kategori ini. Dicek Oktober 2026, \"sate ayam\" mengembalikan 960 hasil dan \"rendang\" 80 hasil.\n\n**Di mana ia gugur.** Mencari **adalah** interaksi utamanya — dan mencari adalah pajaknya. Entrinya berasal dari kontribusi anggota, jadi nilai untuk makanan yang sama bisa berjauhan: pada hari yang sama, \"Rendang\" generik tercatat sekitar 195 kkal per 100 g sementara satu entri bermerek tercatat 500 kkal per 100 g. Dan hidangan campur tetap buntu — \"nasi padang\" hanya mengembalikan satu entri. Tidak ada yang menangkap Anda pada hari yang buruk, dan tidak ada apa-apa setelah angkanya.\n\n**Cocok untuk:** orang yang betah mencari manual dan ingin tetap gratis.\n\n## MyFitnessPal — raja barcode\n\n| | |\n| --- | --- |\n| Harga | Gratis · langganan Premium |\n| Google Play | 4,8 bintang · 2,92 jt ulasan · 100 jt+ unduhan |\n| Database | 14 jt+ entri, didominasi kiriman pengguna |\n\n**Yang dikerjakannya dengan baik.** Cakupan produk kemasan terluas yang ada, dengan pemindai barcode paling matang. Untuk camilan dan minuman minimarket, ini yang paling sering langsung berhasil.\n\n**Di mana ia gugur.** Pajak pencariannya besar, dan satu produk muncul berkali-kali dengan nilai berbeda. Untuk masakan warung dan rumahan, cakupannya jauh lebih tipis daripada FatSecret — artinya tembok warteg tetap berdiri.\n\n**Cocok untuk:** orang yang pola makannya didominasi produk kemasan.\n\n## Cronometer — entri lebih sedikit, tapi lebih baik\n\n| | |\n| --- | --- |\n| Harga | Gratis · langganan Gold |\n| Google Play | 4,6 bintang · 59,1 rb ulasan · 5 jt+ unduhan |\n\n![Saat kedalaman gizi benar-benar penting](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n**Yang dikerjakannya dengan baik.** Entri terverifikasi dan terkurasi, dengan kedalaman mikronutrien yang sungguhan. Kalau angka Anda akan dibawa ke ahli gizi, ini pilihannya.\n\n**Di mana ia gugur.** Database lebih kecil dan entri manual lebih banyak — dan untuk makanan Indonesia kekosongannya terasa tajam. Warung di ujung gang Anda tidak ada di sana.\n\n**Cocok untuk:** orang yang butuh angka gizi yang bisa dipertanggungjawabkan.\n\n## Journable dan pencatat berbasis foto lainnya\n\n| | |\n| --- | --- |\n| Google Play | Journable 4,9 bintang · 121 rb ulasan · 1 jt+ unduhan |\n\n![Jalan terpendek dari piring ke catatan](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg)\n\n**Yang dikerjakannya dengan baik.** Kecepatan, dan itu langsung menjawab tembok warteg. Untuk hidangan campur dan masakan orang lain, merekalah yang menentukan satu makanan tercatat atau dilewati sama sekali.\n\n**Di mana ia gugur.** Model yang melihat foto tidak bisa melihat minyak yang terserap atau menimbang apa yang ada di bawah lapisan atas — baca angkanya sebagai titik tengah sebuah rentang. Dan setelah angka itu, sebagian besar berhenti: tidak ada yang menangkap hari buruk, tidak ada yang menjelaskan minggu yang mandek.\n\n**Cocok untuk:** orang yang berhenti mencatat karena terlalu lama.\n\n## Perbandingan berdampingan\n\n| Aplikasi | Database | Asal data | Makanan Indonesia | Catat lewat foto | Menerima hari buruk | Setelah catatan |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **±486 rb** | **Lembaga pangan publik** | Tidak lengkap, ditutup scan foto | **Ya** | **Check-in** | **Satu tindakan per hari** |\n| FatSecret | Sedang | Kiriman anggota | **Paling luas** | Terbatas | Tidak | Tidak |\n| MyFitnessPal | 14 jt+ | Kiriman pengguna | Tipis | Terbatas | Tidak | Tidak |\n| Cronometer | Lebih kecil | Terverifikasi, terkurasi | Sangat tipis | Terbatas | Tidak | Tidak |\n| Pencatat foto | Perkiraan model | Inferensi gambar | Lewat gambar | **Ya** | Tidak | Terbatas |\n\nKarakteristik aplikasi per Oktober 2026.\n\n## Uji dua minggu\n\n1. **Catat makanan tersulit Anda lebih dulu** — bukan dada ayam rebus, tapi bungkus nasi warteg lengkap dengan sambal dan kerupuk.\n2. **Catat makanan yang sama lagi tiga hari kemudian** dan hitung ketukannya. Kalau tidak jauh lebih sedikit, Anda akan berhenti di minggu keempat.\n3. **Sengaja jalani satu hari buruk dan catat apa adanya.** Perhatikan apa yang dilakukan aplikasinya. Spanduk merah mengajari Anda untuk berhenti mencatat tepat pada hari-hari yang paling penting.\n4. **Di hari keempat belas, tanyakan apa yang sudah ia sampaikan.** \"Angka saya\" berarti buku kas. \"Apa yang harus diubah\" berarti alat.\n\n[Coba HAVIT →](https://www.aihavit.com/)",
+      "title": "Rekomendasi Aplikasi Pencatat Makanan 2026: 6 Pilihan — Catat Lewat Foto, Batas Gratis, dan Coach AI",
+      "short_title": "Rekomendasi Aplikasi Pencatat Makanan 2026",
+      "meta_description": "HAVIT, Fita, FatSecret, MyFitnessPal, Yazio, dan Lifesum dibandingkan: bisa mencatat lewat foto atau tidak, fitur itu gratis atau berbayar, dan sejauh mana makro serta coach AI-nya. Berdasarkan App Store Indonesia, Oktober 2026.",
+      "tldr": "Dalam mencatat makanan, yang penting bukan lama dan sempurna, tapi sering dan tidak putus. Pilih aplikasi yang menolong di momen Anda biasanya berhenti: capek mencari, mentok di masakan rumah dan warung, hari makan berlebihan, atau angka yang cuma menumpuk. Cek juga apakah pencatatan lewat foto gratis atau berbayar — di HAVIT dan MyFitnessPal, fitur itu termasuk Premium.",
+      "body_md": "Jarang ada orang berhenti mencatat makanan karena \"aplikasinya tidak akurat\". Biasanya berhentinya di **satu momen tertentu**: pukul sembilan malam, capek, memegang bungkusan nasi warteg berisi nasi, sayur, satu lauk, sambal, dan kerupuk, lalu berpikir \"mencari semua ini satu per satu? Besok saja.\" Atau di hari ketika makan berlebihan dan Anda tidak ingin melihat angkanya.\n\nKarena itu panduan ini mulai dari empat momen saat kebiasaan mencatat biasanya putus, lalu memetakan **fitur apa di aplikasi mana yang menolong di momen itu — dan apakah fitur itu gratis atau berbayar**. Ada enam aplikasi yang kami bandingkan: satu aplikasi lokal (Fita), HAVIT, dan empat aplikasi global yang banyak dipakai di Indonesia (FatSecret, MyFitnessPal, Yazio, Lifesum). Rating dan fitur mengikuti deskripsi resmi di App Store Indonesia per 24 Oktober 2026. Harga sengaja tidak kami tulis karena sering berubah.\n\nHAVIT adalah aplikasi buatan tim kami — para ahli yang pernah bekerja di **Juvis Diet**, merek pendampingan diet asal Korea Selatan. Karena itu fitur berbayar HAVIT kami sebut berbayar, dan kami tulis juga kapan HAVIT tidak cocok untuk Anda.\n\n![Yang mengakhiri pencatatan adalah kelelahan, bukan ketidakakuratan](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## Rekomendasi singkat sesuai kebutuhan\n\n| Kalau Anda... | Aplikasi yang cocok | Alasannya |\n| --- | --- | --- |\n| Ingin mencatat rutin tanpa membayar | FatSecret · Fita | Deskripsi resmi FatSecret menyebut aplikasinya gratis, dan pengenalan gambar serta pemindai barcode ada di daftar fiturnya. Fita mencatat makanan dengan kalori makanan Indonesia |\n| Ingin cukup satu foto | Lifesum · HAVIT (Premium) · MyFitnessPal (Premium) | Ketiganya memperkirakan gizi dari foto makanan |\n| Lebih semangat kalau ada program dan komunitas | Fita | Program diet dan olahraga, komunitas yang dimoderasi pelatih bersertifikat |\n| Banyak makan produk kemasan | MyFitnessPal · Yazio · FatSecret | Database besar dan pemindai barcode (di MyFitnessPal, barcode termasuk Premium) |\n| Menjalankan puasa intermiten | Yazio | Pencatat puasa 16:8 dan 5:2 di aplikasi yang sama |\n| Sedang memakai obat GLP-1 (Wegovy, Ozempic, Mounjaro, dan sejenisnya) | **HAVIT** | Catatan makan, obat, berat, dan estimasi komposisi tubuh di satu aplikasi (semuanya gratis) |\n| Sudah mencatat tapi tidak tahu harus mengubah apa | **HAVIT** | Coach AI HAVI membaca semua catatan dan menyarankan langkah untuk hari ini |\n\n## Sebelum memilih — empat momen saat pencatatan putus\n\nMencatat makanan adalah alat dasar program penurunan berat. Tinjauan sistematis atas 22 studi menemukan pencatatan diri dan penurunan berat **secara konsisten berjalan bersama**, meski karena keterbatasan desain studinya, para penulis menilai tingkat buktinya **lemah** (Burke 2011). Studi lain mengikuti 142 peserta program penurunan berat online selama 6 bulan. Waktu yang dipakai untuk mencatat turun dari **rata-rata 23,2 menit per hari** di bulan pertama menjadi **14,6 menit** di bulan keenam. Yang membedakan peserta yang turun 5% atau lebih dari yang tidak bukan lamanya mencatat, melainkan **seberapa sering membuka catatan dalam sehari** (2,4 kali vs 1,6 kali) (Harvey 2019).\n\nArtinya, mencatat **sering dan tidak putus** lebih penting daripada mencatat lama dan sempurna. Jadi pilih aplikasi dari seberapa baik ia membantu Anda melewati momen-momen saat biasanya berhenti.\n\n**1. Capek mencari.** Setiap makan dimulai dengan mengetik, menggulir hasil yang mirip-mirip, lalu menebak. Yang perlu dilihat: makanan yang sering dimakan bisa disimpan dan dipanggil lagi (custom meals di Yazio, isi otomatis di FatSecret), dan pemindai barcode (FatSecret dan Yazio; di MyFitnessPal termasuk Premium).\n\n**2. Mentok di masakan rumah dan warung.** Produk kemasan mudah dicatat. Tapi sepiring nasi campur atau masakan rumah berarti mencari bahannya satu per satu. Yang perlu dilihat: pencatatan lewat foto, dan apakah fitur itu gratis. **AI Food Scan di HAVIT termasuk HAVIT Premium**, dan meal scan di MyFitnessPal juga fitur Premium. Pengenalan gambar FatSecret dan pencatatan foto Lifesum tidak ditandai sebagai fitur berbayar di deskripsi resminya. Fita menyebut kalori makanan Indonesia, tapi pencatatan lewat foto tidak disebut.\n\n**3. Hari ketika makan berlebihan.** Anda tidak mau melihat angkanya, jadi hari itu dilewati — lalu besoknya juga. Yang perlu dilihat: apakah ada cara ringan untuk mencatat kondisi hari itu tanpa angka, dan apakah aplikasi tidak menampilkan hari itu sekadar sebagai kegagalan. **Check-in harian di HAVIT (HAVIT Premium)** mencatat kondisi, tidur, nafsu makan, dan suasana hati dengan beberapa ketukan. Di Fita, ada komunitas tempat bertanya dan bercerita.\n\n**4. Angka cuma menumpuk.** Sudah berminggu-minggu mencatat, tapi aplikasi hanya menampilkan total. Lama-lama mencatat terasa seperti pembukuan. Yang perlu dilihat: apakah ada fitur yang membaca catatan Anda dan memberi tahu apa yang perlu dilakukan berikutnya. Contohnya **coach AI HAVI** di HAVIT (pengguna gratis dibatasi jumlah chat per hari), Life Score di Lifesum, analisis mendalam di Yazio Pro, dan program dengan bimbingan personal di Fita.\n\n## HAVIT — coach AI yang membaca catatan Anda\n\n| | |\n| --- | --- |\n| Pembuat | Havit Inc. |\n| Dibuat oleh | Para ahli yang pernah bekerja di Juvis Diet (merek pendampingan diet asal Korea Selatan) |\n| App Store | 4,7 (159 rating) di App Store AS — di App Store Indonesia baru ada 1 rating |\n| Gratis | Catat makanan (pencarian atau input manual) dengan kalori per waktu makan; catatan berat, air, tidur, langkah, puasa, suasana hati, siklus haid, dan GLP-1; estimasi komposisi tubuh; chat dengan coach AI (jumlah per hari dibatasi) |\n| HAVIT Premium | AI Food Scan; analisis karbohidrat, protein, dan lemak per waktu makan dan per hari; sisa kalori; check-in harian; chat coach tanpa batas; rekap malam dan janji harian; video olahraga, meditasi terpandu, dan artikel |\n\nPembagian gratis dan Premium mengikuti pengaturan bawaan aplikasi per Oktober 2026; lewat promosi, sebagian fitur Premium bisa saja dibuka gratis.\n\n![AI Food Scan (HAVIT Premium) — perkiraan kalori dan zat gizi dari foto](/blog/havit/shot/feature-nutrition.webp)\n\n**Yang gratis.** Makanan dicatat lewat pencarian atau input manual, dan kalori tiap waktu makan langsung terlihat. Selain makan, berat, air, tidur, langkah, puasa, suasana hati, siklus haid, dan obat GLP-1 juga dicatat di aplikasi yang sama, dan HAVIT memperkirakan tren lemak serta massa tanpa lemak tanpa alat apa pun (bukan pengukuran medis). Kebanyakan aplikasi pencatat makanan hanya melihat makan dan berat; di HAVIT, kalau berat berhenti turun karena kurang tidur atau siklus haid, hal itu terlihat di layar yang sama.\n\n**Yang terbuka di Premium.** Untuk momen mentok di masakan rumah dan warung, ada **AI Food Scan**: foto piringnya, lalu muncul perkiraan kalori dan zat gizi. Hasilnya perkiraan, bukan hasil timbang. **Analisis karbohidrat, protein, dan lemak** per waktu makan dan per hari serta **sisa kalori** juga termasuk Premium. Kalau Anda ingin analisis makro secara gratis, FatSecret di bawah mungkin lebih cocok.\n\n### Coach AI HAVI — memberi tahu apa yang dilakukan setelah mencatat\n\n![Coach AI HAVIT membaca seluruh catatan lalu mengembalikan satu tindakan konkret](/blog/havit/shot/feature-ai-coach.webp)\n\nKalau aplikasi pencatat makanan pada umumnya adalah tempat melihat total, pusat HAVIT adalah **coach AI HAVI**.\n\n**Dimulai dengan percakapan.** HAVI menanyakan target Anda, apakah Anda memakai GLP-1 dan ada efek samping, lalu data tubuh seperti tinggi dan berat. Dari jawaban itu HAVI menyusun **Body Blueprint** — gambaran kondisi tubuh Anda saat ini — beserta rencana target.\n\n**Setiap hari, HAVI membaca semua catatan.** Bukan hanya makan, tetapi juga tidur, langkah, siklus haid, dan obat GLP-1, lalu menyarankan **langkah untuk hari ini**. Misalnya di minggu ketika kalori sudah sesuai target tapi berat tidak bergerak, HAVI ikut melihat tidur dan langkah minggu itu, lalu menunjukkan apa yang sebaiknya diubah lebih dulu.\n\n**Bisa bertanya dengan foto.** Untuk yang sulit dicatat, seperti menu makan di luar, kirim **foto** ke chat lalu tanyakan. Pengguna gratis bisa chat, tapi jumlahnya per hari dibatasi; tanpa batas di HAVIT Premium.\n\n**Hari ditutup dengan rekap.** Pukul 10 malam datang **rekap malam** tentang hari itu, dan Anda bisa menulis **janji satu kalimat** untuk besok. Terlihat juga berapa kali janji itu ditepati dalam 14 hari terakhir (HAVIT Premium).\n\n![Check-in harian (HAVIT Premium) — supaya catatan tetap tersambung di hari makan berlebihan](/blog/havit/shot/feature-daily-check-in.webp)\n\nKalau Anda mengisi **check-in harian** (HAVIT Premium) — kondisi, tidur, nafsu makan, dan suasana hati — HAVI sudah tahu hari seperti apa yang Anda jalani saat mulai bicara. Di hari makan berlebihan pun, Anda tidak perlu membongkar setiap makanan; cukup beberapa ketukan untuk mencatat hari itu.\n\n### Dibuat oleh mantan tim Juvis Diet\n\nHAVIT dibuat oleh para ahli yang pernah bekerja di **Juvis Diet**, merek pendampingan diet asal Korea Selatan yang mengelola pola makan dan kebiasaan anggotanya lewat pendamping manusia. Cara kerja dari lapangan itu dibawa ke coach dan program 12 minggu:\n\n- **Susunan tubuh lebih penting daripada angka timbangan.** Karena itu estimasi komposisi tubuh dibuat gratis, dan protein serta latihan kekuatan ada di pusat coaching.\n- **Satu per satu.** Program 12 minggu dibagi menjadi 12 tahap, dan misinya dinilai dari data catatan — makan, langkah, dan sebagainya — bukan dari tombol \"sudah\" yang Anda tekan sendiri.\n- **Hari yang berantakan adalah bagian dari proses.** Untuk misi yang harus dijalankan beberapa hari berturut-turut, satu kali terlewat dimaafkan, kali kedua bisa disambung dengan Streak Saver (pelindung rangkaian hari), dan kali ketiga misi dimulai ulang.\n\n### Kapan HAVIT bukan pilihan terbaik\n\nKalau Anda ingin **analisis makro secara gratis**, versi gratis HAVIT tidak cukup (hanya sampai kalori per waktu makan). Kalau Anda ingin **mencatat lewat foto secara gratis**, coba dulu FatSecret atau Lifesum, yang di deskripsi resminya tidak menandai fitur itu berbayar. Kalau **program dan komunitas berbahasa Indonesia** yang membuat Anda bertahan, Fita lebih cocok. Kalau Anda banyak memindai **produk kemasan**, lihat MyFitnessPal atau Yazio, dan kalau Anda menjalankan **puasa intermiten** dengan jadwal tetap, Yazio memasukkannya ke aplikasi yang sama.\n\n**Cocok untuk:** orang yang rajin mencatat tapi tidak tahu apa yang harus diubah; orang yang beratnya terkait dengan tidur atau siklus haid; pengguna GLP-1 yang ingin mencatat makan dan obat di satu tempat.\n\n## Fita — aplikasi lokal dengan program dan komunitas\n\n| | |\n| --- | --- |\n| Pengembang | PT. FITA SEHAT NUSANTARA |\n| App Store (Indonesia) | 4,6 (523 rating) |\n| Foto | Pencatatan lewat foto tidak disebut di deskripsi resmi |\n| Gratis/berbayar | Gratis + langganan (Meal Plan, Exercise Plan, Exercise AI, Fita Premium, Fita Move, VIP Plan) |\n\n**Kelebihannya.** Satu-satunya aplikasi buatan Indonesia di daftar ini. Menurut deskripsi resminya, pencatatan makannya menampilkan kalori makanan favorit Anda di Indonesia, dan ada juga catatan air minum, olahraga, dan berat badan. Ada program diet dan olahraga — termasuk dari influencer — dengan bimbingan personal, ratusan artikel dan video, resep sehat yang \"#IndonesiaBanget\", serta komunitas yang dimoderasi pelatih berpengalaman dan bersertifikat. Langkah dan aktivitas bisa diambil dari Apple Health.\n\n**Kekurangannya.** Pencatatan lewat foto tidak disebut di deskripsi resminya. Fitur mana yang gratis dan mana yang masuk langganan juga tidak dirinci, jadi perlu dicek langsung di aplikasi.\n\n**Cocok untuk:** orang yang lebih semangat dengan program terarah dan komunitas berbahasa Indonesia.\n\n## FatSecret — cakupan gratisnya luas\n\n| | |\n| --- | --- |\n| Pengembang | Secret Industries Pty Ltd |\n| App Store (Indonesia) | 4,8 (6.901 rating) |\n| Foto | Pengenalan gambar makanan, hidangan, dan produk lewat kamera (deskripsi resmi) |\n| Gratis/berbayar | Gratis + Premium (rencana makan dari ahli gizi, perencanaan makan lanjutan, enam judul waktu makan tambahan, pencatat air) |\n\n**Kelebihannya.** Deskripsi resminya menyebut FatSecret gratis dan disesuaikan dengan makanan dan merek tiap negara; Bahasa Indonesia tercantum di daftar bahasanya. Pengenalan gambar, pemindai barcode, isi otomatis, catatan olahraga dan berat, laporan serta target kalori dan makro, dan komunitas ada di daftar fitur. Yang disebut sebagai fitur Premium adalah rencana makan, perencanaan makan lanjutan, judul waktu makan tambahan, dan pencatat air.\n\n**Kekurangannya.** Fitur coaching AI tidak disebut di deskripsi resminya. Seberapa lengkap hidangan warung atau masakan rumah Anda di databasenya sebaiknya dicoba sendiri dengan menu yang sering Anda makan.\n\n**Cocok untuk:** orang yang ingin rutin mencatat, termasuk makro, tanpa membayar.\n\n## MyFitnessPal — database makanan yang sangat besar\n\n| | |\n| --- | --- |\n| Pengembang | MyFitnessPal, Inc. |\n| App Store (Indonesia) | 4,9 (9.624 rating) |\n| Foto | Meal scan (Premium) |\n| Gratis/berbayar | Gratis + Premium (pemindai barcode, meal scan, pencatatan suara, target makro khusus) + Premium Plus (rencana makan) |\n\n**Kelebihannya.** Menurut deskripsi resminya, ada lebih dari **20,5 juta makanan**, termasuk menu restoran. Karbohidrat, lemak, dan protein bisa dilihat rinci, target protein, natrium, dan serat bisa diatur, dan langkah, kalori terbakar, serta berat bisa disinkronkan otomatis. Bahasa Indonesia tercantum di daftar bahasanya.\n\n**Kekurangannya.** Pemindai barcode dan meal scan termasuk Premium. Karena datanya sangat banyak, memilih entri yang tepat dari hasil pencarian bisa makan waktu — simpan makanan yang sering Anda makan supaya lebih cepat.\n\n**Cocok untuk:** orang yang sering makan produk kemasan atau menu restoran waralaba.\n\n## Yazio — pencatat makan dan puasa intermiten\n\n| | |\n| --- | --- |\n| Pengembang | YAZIO GmbH |\n| App Store (Indonesia) | 4,8 (680 rating) |\n| Foto | Nama aplikasinya \"AI Calorie Counter\", tapi pencatatan lewat foto tidak disebut di deskripsi resmi |\n| Gratis/berbayar | Gratis + Yazio Pro (analisis makanan mendalam, rencana makan khusus, catatan suasana hati dan gejala, sinkronisasi Fitbit/Garmin) |\n\n**Kelebihannya.** Lebih dari 4 juta item makanan yang bisa dicari, pemindai barcode, custom meals, dan pencatat puasa intermiten 16:8 atau 5:2 ada di satu aplikasi, ditambah resep dan pencatat air.\n\n**Kekurangannya.** Analisis mendalam dan rencana makan khusus adalah fitur Pro. Bahasa Indonesia tidak tercantum di daftar bahasa aplikasinya di App Store.\n\n**Cocok untuk:** orang yang ingin menggabungkan puasa intermiten dan pencatatan makan.\n\n## Lifesum — foto, suara, ketik, atau barcode\n\n| | |\n| --- | --- |\n| Pengembang | Lifesum AB |\n| App Store (Indonesia) | 4,8 (1.761 rating) |\n| Foto | Foto makanan untuk informasi gizi (deskripsi resmi) |\n| Gratis/berbayar | Gratis dengan fitur terbatas + Premium |\n\n**Kelebihannya.** Menurut deskripsi resminya, makanan bisa dicatat dengan memotret, berbicara, mengetik, atau memindai barcode. Ada penghitung kalori dan makro, penilaian makanan, rencana makan dengan daftar belanja, catatan ukuran tubuh, dan Life Score yang menilai kebiasaan makan, minum, dan aktivitas.\n\n**Kekurangannya.** Deskripsinya menyebut versi gratis punya fitur terbatas, tapi tidak merinci fitur mana yang masuk Premium. Bahasa Indonesia tidak tercantum di daftar bahasanya di App Store.\n\n**Cocok untuk:** orang yang ingin beberapa cara mencatat, termasuk foto, dalam satu aplikasi.\n\n## Pencatatan lewat foto, seberapa bisa dipercaya?\n\nKelebihan pencatatan lewat foto adalah kecepatan. Di depan sepiring nasi campur, yang menentukan **dicatat atau tidak** sering kali bukan akurasi, melainkan berapa lama waktunya.\n\nTapi foto tidak bisa melihat **yang tidak tampak**: minyak untuk menggoreng, santan dan bumbu yang larut di kuah, atau lauk yang tertutup nasi. Anggap angka dari foto sebagai titik awal, lalu koreksi sendiri kalau porsinya jauh berbeda atau makanannya berminyak. Aplikasi khusus pencatat foto Cal AI (4,9 dengan 2.290 rating di App Store Indonesia) menulis di deskripsi resminya bahwa **hasil analisis pemindaian makanan membutuhkan langganan**. Pencatatan lewat foto memang sering masuk fitur berbayar, jadi cek dulu cakupan gratisnya sebelum memakai.\n\n## Perbandingan berdampingan\n\n| Aplikasi | App Store (Indonesia) | Catat lewat foto | Makro | Coach AI | Gratis/berbayar |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | 4,7 (159, App Store AS) | **AI Food Scan (Premium)** | Premium | HAVI (gratis dibatasi per hari) | Gratis + HAVIT Premium |\n| Fita | 4,6 (523) | Tidak disebut | Tidak dirinci | Tidak disebut (ada program dengan bimbingan personal) | Gratis + langganan |\n| FatSecret | 4,8 (6.901) | Pengenalan gambar | Ada | Tidak disebut | Gratis + Premium |\n| MyFitnessPal | 4,9 (9.624) | Meal scan (Premium) | Ada | Tidak disebut | Gratis + Premium |\n| Yazio | 4,8 (680) | Tidak disebut | Ada | Tidak disebut | Gratis + Pro |\n| Lifesum | 4,8 (1.761) | Ada | Ada | Tidak disebut | Gratis terbatas + Premium |\n\nRating dan fitur berdasarkan deskripsi resmi di App Store Indonesia, 24 Oktober 2026. Fitur yang tidak ada di deskripsi resmi kami tulis \"tidak disebut\"; bisa jadi fitur itu tetap ada di aplikasinya.\n\n## Uji dua minggu — cara menemukan aplikasi yang cocok\n\n1. **Mulai dari makanan yang paling sulit dicatat.** Bukan dada ayam, tapi nasi campur atau masakan rumah dengan banyak bahan.\n2. **Catat menu yang sama lagi tiga hari kemudian**, dan hitung berapa kali Anda mengetuk layar.\n3. **Catat juga hari ketika makan berlebihan.** Perhatikan bagaimana aplikasi menampilkan hari itu.\n4. **Di hari ke-14, tanyakan:** apakah aplikasi ini memberi tahu **apa yang perlu diubah berikutnya**, bukan hanya angka?\n\nSeperti di studi tadi, waktu mencatat yang makin pendek seiring waktu itu wajar (Harvey 2019). Aplikasi yang tetap Anda buka setiap hari selama dua minggu, itulah yang akan Anda pakai lama.\n\n## Kesimpulan\n\nPilih aplikasi pencatat makanan dari **momen saat Anda biasanya berhenti**. Mencatat gratis: FatSecret atau Fita. Cepat lewat foto: Lifesum, HAVIT Premium, atau MyFitnessPal Premium. Program dan komunitas berbahasa Indonesia: Fita. Puasa intermiten: Yazio.\n\nKalau catatan terus menumpuk tapi Anda tidak tahu apa yang harus diubah, yang Anda butuhkan adalah coach yang membaca semua catatan itu dan memberi tahu langkah berikutnya. HAVIT adalah aplikasi tempat para ahli dari Juvis Diet membuat coach itu dalam bentuk AI.\n\n[Mulai dengan HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "Cara kebiasaan mencatat makanan mati",
-          "value": "4",
-          "source": "Pajak pencarian, tembok warteg, jurang rasa bersalah, hanyut karena sia-sia"
+          "label": "Frekuensi membuka catatan — turun ≥5% vs tidak",
+          "value": "2,4 vs 1,6 kali per hari",
+          "source": "Harvey dkk. 2019, Obesity (program penurunan berat online 6 bulan, 142 orang)"
         },
         {
-          "label": "Database makanan HAVIT",
-          "value": "±486.000 entri",
-          "source": "432.418 USDA branded + 41.218 Korea MFDS + 12.671 hasil kurasi"
+          "label": "Waktu mencatat per hari",
+          "value": "23,2 menit di bulan pertama → 14,6 menit di bulan keenam",
+          "source": "Harvey dkk. 2019, Obesity"
         },
         {
-          "label": "Hasil pencarian \"nasi padang\" di FatSecret Indonesia",
-          "value": "1 entri",
-          "source": "fatsecret.co.id, dicek Oktober 2026"
+          "label": "Hubungan pencatatan diri dan penurunan berat",
+          "value": "Konsisten berjalan bersama (tingkat bukti lemah)",
+          "source": "Burke, Wang & Sevick 2011, J Am Diet Assoc (tinjauan 22 studi)"
         },
         {
-          "label": "Lama uji yang menyingkap cara Anda berhenti",
-          "value": "2 minggu, termasuk satu hari buruk yang dicatat",
-          "source": "Uji dalam panduan ini"
+          "label": "Aplikasi pencatat makanan yang dibandingkan",
+          "value": "6",
+          "source": "Deskripsi resmi App Store Indonesia, 24 Oktober 2026"
         }
       ],
       "comparison_table": {
         "title": "Perbandingan berdampingan",
         "headers": [
           "Aplikasi",
-          "Database",
-          "Asal data",
-          "Makanan Indonesia",
+          "App Store (Indonesia)",
           "Catat lewat foto",
-          "Menerima hari buruk",
-          "Setelah catatan"
+          "Makro",
+          "Coach AI",
+          "Gratis/berbayar"
         ],
         "rows": [
           [
             "HAVIT",
-            "±486 rb",
-            "Lembaga pangan publik",
-            "Tidak lengkap, ditutup scan foto",
-            "Ya",
-            "Check-in",
-            "Satu tindakan per hari"
+            "4,7 (159, App Store AS)",
+            "AI Food Scan (Premium)",
+            "Premium",
+            "HAVI (gratis dibatasi per hari)",
+            "Gratis + HAVIT Premium"
+          ],
+          [
+            "Fita",
+            "4,6 (523)",
+            "Tidak disebut",
+            "Tidak dirinci",
+            "Tidak disebut (ada program dengan bimbingan personal)",
+            "Gratis + langganan"
           ],
           [
             "FatSecret",
-            "Sedang",
-            "Kiriman anggota",
-            "Paling luas",
-            "Terbatas",
-            "Tidak",
-            "Tidak"
+            "4,8 (6.901)",
+            "Pengenalan gambar",
+            "Ada",
+            "Tidak disebut",
+            "Gratis + Premium"
           ],
           [
             "MyFitnessPal",
-            "14 jt+",
-            "Kiriman pengguna",
-            "Tipis",
-            "Terbatas",
-            "Tidak",
-            "Tidak"
+            "4,9 (9.624)",
+            "Meal scan (Premium)",
+            "Ada",
+            "Tidak disebut",
+            "Gratis + Premium"
           ],
           [
-            "Cronometer",
-            "Lebih kecil",
-            "Terverifikasi, terkurasi",
-            "Sangat tipis",
-            "Terbatas",
-            "Tidak",
-            "Tidak"
+            "Yazio",
+            "4,8 (680)",
+            "Tidak disebut",
+            "Ada",
+            "Tidak disebut",
+            "Gratis + Pro"
           ],
           [
-            "Pencatat foto",
-            "Perkiraan model",
-            "Inferensi gambar",
-            "Lewat gambar",
-            "Ya",
-            "Tidak",
-            "Terbatas"
+            "Lifesum",
+            "4,8 (1.761)",
+            "Ada",
+            "Ada",
+            "Tidak disebut",
+            "Gratis terbatas + Premium"
           ]
         ],
-        "caption": "Karakteristik aplikasi per Oktober 2026."
+        "caption": "Berdasarkan deskripsi resmi di App Store Indonesia, 24 Oktober 2026. Fitur yang tidak disebut di deskripsi bisa saja tetap ada di aplikasinya."
       },
       "faq": [
         {
-          "question": "Aplikasi pencatat makanan terbaik di Indonesia tahun 2026 apa?",
-          "answer": "Tergantung cara Anda berhenti terakhir kali. Kalau yang membunuh kebiasaan Anda adalah mencari entri, pilih aplikasi dengan scan foto. Kalau Anda betah mencari manual dan ingin cakupan hidangan lokal terluas, FatSecret paling kuat. Kalau Anda berhenti karena merasa sia-sia, cari aplikasi yang mengubah catatan menjadi satu tindakan — itu yang dilakukan coach AI HAVIT."
+          "question": "Aplikasi pencatat makanan mana yang paling bagus?",
+          "answer": "Tergantung di momen mana Anda biasanya berhenti. Untuk mencatat gratis, FatSecret atau Fita. Untuk mencatat cepat lewat foto, Lifesum, HAVIT Premium, atau MyFitnessPal Premium. Kalau program dan komunitas berbahasa Indonesia yang membuat Anda bertahan, Fita. Kalau Anda sudah mencatat tapi tidak tahu harus mengubah apa, coba coach AI HAVI di HAVIT, yang membaca semua catatan dan menyarankan langkah untuk hari ini."
         },
         {
-          "question": "Bagaimana mencatat masakan rumahan dan menu warteg tanpa menyerah?",
-          "answer": "Berhentilah mencarinya sebagai satu entri, karena entri itu memang tidak ada — di aplikasi mana pun, HAVIT termasuk. Foto piringnya dan biarkan AI memecahnya per komponen, lalu perbaiki satu atau dua komponen yang jelas meleset. Catatan kasar yang selesai dalam sepuluh detik jauh lebih berharga daripada catatan sempurna yang tidak pernah Anda buat."
+          "question": "Apa saja yang bisa dipakai gratis?",
+          "answer": "Keenam aplikasi bisa dimulai gratis, tapi cakupannya berbeda. HAVIT gratis mencakup pencatatan makanan (pencarian atau input manual) dengan kalori per waktu makan, catatan berat, tidur, langkah, GLP-1, dan lainnya, estimasi komposisi tubuh, serta chat coach AI dengan batas harian; AI Food Scan, analisis makro, sisa kalori, dan check-in harian termasuk HAVIT Premium. Menurut deskripsi resminya, Premium FatSecret berisi rencana makan, perencanaan makan lanjutan, judul waktu makan tambahan, dan pencatat air, jadi cakupan gratisnya relatif luas. Di MyFitnessPal, pemindai barcode dan meal scan termasuk Premium."
         },
         {
-          "question": "Apakah pencatatan lewat foto akurat?",
-          "answer": "Bacalah sebagai titik tengah sebuah rentang. Model tidak bisa melihat minyak yang terserap atau menimbang apa yang ada di bawah lapisan atas, dan masakan Indonesia banyak yang digoreng dan bersantan — dua hal yang paling sering diremehkan. Tapi pembandingnya bukan timbangan dapur, melainkan hari kosong tanpa catatan sama sekali."
+          "question": "Aplikasi apa yang bisa mencatat makanan lewat foto?",
+          "answer": "Berdasarkan deskripsi resmi di App Store Indonesia: FatSecret (pengenalan gambar), Lifesum (foto makanan), HAVIT (AI Food Scan, Premium), dan MyFitnessPal (meal scan, Premium). Cal AI juga aplikasi pencatat foto, tetapi deskripsi resminya menyebut hasil pemindaian membutuhkan langganan. Fita dan Yazio tidak menyebut pencatatan lewat foto di deskripsinya."
         },
         {
-          "question": "Haruskah saya tetap mencatat pada hari ketika saya makan berlebihan?",
-          "answer": "Ya, dan itu justru hari yang paling penting. Hari yang dilewati adalah hari kebiasaan itu putus, bukan hari kalorinya meleset. Kalau mencatat hari buruk terasa terlalu berat, cari aplikasi yang menyediakan jalan yang lebih ringan — di HAVIT, check-in harian membiarkan Anda mengatakan \"hari ini berat\" dalam beberapa ketukan tanpa memutus rangkaian."
+          "question": "Seberapa akurat kalori dari foto?",
+          "answer": "Pakai sebagai titik awal. Foto tidak bisa melihat minyak untuk menggoreng, santan dan bumbu di kuah, atau lauk yang tertutup nasi. Kalau porsinya jauh berbeda atau makanannya berminyak, sebaiknya koreksi sendiri. Tetap saja, mencatat secara kasar lebih baik daripada tidak mencatat sama sekali."
         },
         {
-          "question": "Bagaimana mencatat selama Ramadan?",
-          "answer": "Geser jendelanya, jangan targetnya. Sahur dan berbuka adalah dua waktu makan yang nyata, jadi catat keduanya seperti biasa, dan perhatikan protein pada sahur karena itu yang paling menentukan rasa lapar sepanjang hari. Fitur puasa dan check-in harian HAVIT menaruh jendela makan, tidur, dan nafsu makan di tempat yang sama, sehingga perubahan pola selama sebulan itu terbaca sebagai konteks, bukan sebagai kegagalan."
+          "question": "Haruskah hari makan berlebihan juga dicatat?",
+          "answer": "Ya, walau singkat. Dalam studi penurunan berat 6 bulan, peserta yang turun 5% atau lebih bukan yang paling lama mencatat, melainkan yang lebih sering membuka catatannya setiap hari (Harvey 2019). Kalau terlalu berat mencatat semua makanan, cukup tinggalkan catatan singkat atau foto. Di HAVIT, check-in harian (Premium) mencatat kondisi, nafsu makan, dan suasana hati dengan beberapa ketukan."
         },
         {
-          "question": "Apakah ukuran database itu penting?",
-          "answer": "Lebih penting asalnya. Database raksasa yang didominasi kiriman pengguna membuat satu produk muncul dengan banyak nilai berbeda, dan pilihan entri Anda mengubah total harian. Database yang lebih kecil tapi berasal dari lembaga pangan publik bisa dipertanggungjawabkan. Untuk makanan Indonesia, keduanya tetap punya lubang yang sama — dan di situlah scan foto lebih menentukan daripada jumlah entri."
+          "question": "Apa yang dilakukan coach AI HAVIT?",
+          "answer": "Di awal, HAVI menanyakan target, pemakaian GLP-1, dan data tubuh lewat percakapan, lalu menyusun Body Blueprint dan rencana target. Setelah itu HAVI membaca catatan makan, tidur, langkah, siklus haid, dan GLP-1 bersama-sama, menyarankan langkah untuk hari ini, dan bisa ditanya dengan mengirim foto. Pengguna gratis dibatasi jumlah chat per hari; chat tanpa batas serta rekap malam pukul 10 dan janji satu kalimat termasuk HAVIT Premium."
+        },
+        {
+          "question": "Siapa yang membuat HAVIT?",
+          "answer": "HAVIT dibuat oleh para ahli yang pernah bekerja di Juvis Diet, merek pendampingan diet asal Korea Selatan yang mengelola pola makan dan kebiasaan anggotanya lewat pendamping manusia. Metode itu dibawa ke coach AI dan program 12 minggu, dengan fokus pada susunan tubuh — lemak dan massa tanpa lemak — lebih dari angka timbangan. Pengembangnya adalah Havit Inc."
         }
       ],
       "references": [
         {
-          "title": "Pencarian makanan FatSecret Indonesia",
-          "source": "fatsecret.co.id — hasil pencarian \"nasi padang\", \"gado gado\", \"rendang\", \"sate ayam\", dicek Oktober 2026",
-          "url": "https://www.fatsecret.co.id/kalori-gizi/"
-        },
-        {
-          "title": "Data Komposisi Pangan Indonesia (TKPI)",
-          "source": "Tabel Komposisi Pangan Indonesia 2017 — basis data gizi pangan Indonesia",
-          "url": "https://www.panganku.org/id-ID/beranda"
-        },
-        {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 studi, 15 di antaranya tentang pencatatan makan; penulis menilai tingkat buktinya lemah",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+          "source": "Journal of the American Dietetic Association, 2011 — 22 studi (15 tentang pencatatan makan); hubungan yang konsisten dengan penurunan berat, tingkat bukti lemah",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (topik sedang diperbarui); dewasa dengan IMT ≥30, dijalankan klinisi",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026 — analisis internal HAVIT atas 1.090 pengguna GLP-1",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "Log Often, Lose More: Electronic Dietary Self-Monitoring for Weight Loss (Harvey, Krukowski, Priest & West)",
+          "source": "Obesity, 2019 — program online 24 minggu, n=142; 23,2 → 14,6 menit/hari; peserta yang turun ≥5% membuka catatan 2,4 vs 1,6 kali/hari",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30801989/"
         }
       ],
-      "last_updated": "2026-10-12"
+      "last_updated": "2026-10-24"
     },
     "de": {
       "title": "Ernährungstagebuch-Apps 2026: 6 Apps im Vergleich – Foto-Erfassung, Gratisumfang und KI-Coach",
