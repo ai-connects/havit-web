@@ -36,8 +36,9 @@ jobs:
       - run: npm ci
         working-directory: apps/social
       # host.mjs 가 카드 PNG→JPEG 변환에 ImageMagick(convert)을 쓴다. 러너에 기본 설치가 아니라서 2026-10-25 첫 실행이 여기서 멈췄다.
-      - name: ImageMagick 설치
-        run: command -v convert || (sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick)
+      # 일본어 웹폰트가 러너에서 로딩 실패(2026-10-25 일본어 8건 반려) → 설치본 Noto CJK 를 대체로.
+      - name: ImageMagick·Noto CJK 설치
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick fonts-noto-cjk
       - uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}

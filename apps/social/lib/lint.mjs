@@ -36,7 +36,8 @@ export function lint(draft, source) {
   }
   for (const e of draft.evidence || []) {
     for (const n of numbers(e.value)) if (!allowed.has(n)) errors.push(`evidence 값이 원문에 없음: ${e.value}`);
-    if (!source.key_stats.some((k) => k.source === e.source) && !norm(source._text).includes(norm(e.source))) {
+    // 앱 퀴즈·아티클 해설의 숫자는 별도 출처 표기가 없다 — 숫자가 원문에 있는지(위)만 본다.
+    if (!source.kind?.startsWith('app_') && !source.key_stats.some((k) => k.source === e.source) && !norm(source._text).includes(norm(e.source))) {
       errors.push(`evidence 출처가 원문에 없음: ${e.source}`);
     }
   }
