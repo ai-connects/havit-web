@@ -10,115 +10,173 @@
   "primary_keyword_ko": "다이어트 습관 앱 추천 습관 기록 앱 비교 다이어트 루틴 앱",
   "langs": {
     "en": {
-      "title": "Best Habit Trackers for Weight Loss in 2026: Why Streaks Alone Fail",
-      "short_title": "Best Habit Trackers for Weight Loss 2026",
-      "meta_description": "HAVIT, Noom, WeightWatchers and generic habit apps, taken one at a time. Most implement two of the 93 catalogued behaviour-change techniques — which is why a perfect streak and no weight lost is this category's signature failure.",
-      "tldr": "A tick cannot distinguish 30g of protein from the intention to eat it. A habit tracker helps only if it tracks a specific behaviour, verifies it from data, and adjusts when you miss instead of resetting.",
-      "body_md": "A perfect 90-day streak and no weight lost is the signature failure of this category.\n\nWhat is missing is not motivation. It is that \"the thing\" was never specified well enough to matter, and nothing in the app noticed.\n\nThis guide takes the habit apps one at a time.\n\n![A tick cannot tell you whether the habit happened](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_010.jpg)\n\n## What a habit tracker has to do\n\nThe standard taxonomy of behaviour-change interventions catalogues **93 discrete techniques**. The ones that carry weight-loss results are specific: goal setting on *behaviour* rather than outcome, self-monitoring of that behaviour, feedback, action planning, and review when the plan fails.\n\nMost habit apps implement exactly two — self-monitoring and a streak.\n\n**The streak problem.** A streak's value is entirely in not breaking it, which means its value inverts the moment it breaks. Day 94 of a 93-day streak is the single most likely day to quit. Look for repair mechanics: rest days, a weekly target instead of a daily one, credit for a partial log.\n\n## HAVIT — verified from data, not from a tick box\n\n| | |\n| --- | --- |\n| Maker | Havit Inc. |\n| Habit verification | **From the log itself**, not a check box |\n| Tracks | Meals, hydration, workouts, sleep, steps, cycle, mood, GLP-1 |\n| Mechanics | Daily missions · streaks · badges · avatars · ranks · team challenges |\n| Price | Free · in-app purchases |\n\n![Daily missions — one specific action for today](/blog/havit/shot/feature-daily-missions.webp)\n\n**Verification is the whole difference.** An app that only knows a check box is trusting a self-report made at 11pm. HAVIT knows whether you actually logged 40g of protein. A tick cannot distinguish *30g of protein* from *the intention to eat it*.\n\n**Daily missions** are behaviour-change techniques in product form: one specific action, tied to data the app can actually see, **adjusted when you miss it**.\n\n![Daily check-in — a bad day enters the system without ending it](/blog/havit/shot/feature-daily-check-in.webp)\n\nThat last part is the design decision that matters. A missed protein target is not a broken streak — it is an **input**. The AI coach reads it alongside sleep, steps and cycle, and the next day's ask changes. The **daily check-in** is how a bad day enters the system without ending it.\n\nAround that sit **streaks, badges, avatars, ranks and team challenges**, plus **six guided-meditation tracks**, **workout video**, **fasting**, **1,400+ articles** and body-composition estimates. Built with experts from Juvis Diet, a Korean diet clinic.\n\n**Who it suits:** people whose ticks accumulated while their body did not change; people who deleted the app after one bad week.\n\n## Noom — curriculum and the weekly review\n\n| | |\n| --- | --- |\n| Price | Subscription |\n\n**What it does well.** A structured daily curriculum and **a human coach** who performs the weekly review — the technique almost every other app omits.\n\n**Where it falls down.** It runs on its schedule rather than yours, and sits in the highest price bracket here.\n\n**Who it suits:** people who want structure and a person checking in.\n\n## WeightWatchers — one number, decades of iteration\n\n| | |\n| --- | --- |\n| Price | Subscription |\n\n**What it does well.** Points reduce every food to one number, which is the most tested simplification in this field. Workshops add real accountability.\n\n**Where it falls down.** Self-reported like the others, and the abstraction hides detail some people need.\n\n**Who it suits:** people who want simplicity plus community.\n\n## Generic habit apps (Habitica, Streaks and similar)\n\n**What they do well.** Track anything at all — guitar practice, flossing, water. Maximum flexibility.\n\n**Where they fall down.** **No verification.** A tick knows only that you tapped it. And they are not connected to any health data, so nothing can cross-reference the habit against an outcome.\n\n**Who they suit:** people building ten unrelated habits.\n\n## Side by side\n\n| App | What it records | Verification | On a missed day | Read alongside |\n| --- | --- | --- | --- | --- |\n| **HAVIT** | **The behaviour and its data** | **The log itself** | **Target adjusts, week continues** | **All 8 logs** |\n| Noom | Meals, activity, weight | Self-report | Coach reviews | Meals, activity |\n| WeightWatchers | Points | Self-report | Weekly reset | Points, weight |\n| Generic habit apps | A check box | None | Streak resets | Nothing |\n\nApp characteristics as of October 2026.\n\n## Habits that actually move weight — pick two\n\n1. **Protein at the first meal.** It matters more on GLP-1 medication, where the lean-mass share of weight lost has been reported as high as 40–60% in some trials.\n2. **Log every day, badly if necessary.** Completeness beats accuracy.\n3. **A fixed sleep window.** The habit people skip because it is not about food.\n4. **Resistance training twice a week.**\n5. **One weekly review.** Look at the week and change **one** thing.\n\n## The bottom line\n\nA habit tracker helps with weight only if it tracks a **specific behaviour**, can **verify** it from data rather than a tick, and **adjusts** when you miss instead of resetting.\n\nJudge it on what it does on your worst day, not your best.\n\n[Try HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Best Habit Tracker Apps for Weight Loss in 2026: 8 Compared by What Happens When You Miss a Day",
+      "short_title": "8 Best Habit Tracker Apps for Weight Loss 2026",
+      "meta_description": "HAVIT, Noom, WeightWatchers, HealthyWage, Fabulous, Streaks, Habitify and Habitica compared: how each one decides you did the habit, what happens when you miss a day, what the AI coach does and what's free. US App Store, October 2026.",
+      "tldr": "Pick a weight-loss habit app on three things: does it give you specific actions, does it judge them from data or proof rather than a check box, and does it give you a way to keep going after a missed day? If you log but don't know what to change, choose an app whose coach reads all your logs and tells you what to do next.",
+      "body_md": "You filled in 90 days of check marks and the scale hasn't moved. If you've used a habit app, that probably sounds familiar.\n\nIt usually isn't a willpower problem. More often, **the habit was never specific enough to affect your weight, and the app had no way of telling whether it happened.** Ticking \"eat healthy\" records an intention. \"30 g of protein at breakfast\" either happened or it didn't.\n\nThis guide looks at eight apps people in the US use to build weight-loss habits: four weight-loss apps (HAVIT, Noom, WeightWatchers and HealthyWage) and four habit and routine apps (Fabulous, Streaks, Habitify and Habitica). Ratings and what's free come from each app's US App Store listing as of October 24, 2026. We left out prices because they change often.\n\nHAVIT is made by the team that wrote this guide — **experts who previously worked at Juvis Diet**, a Korean weight-management brand. So we spell out how we judged the apps first, and we also list the cases where HAVIT isn't the right pick.\n\n![A check mark alone can't tell you whether the habit happened](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_010.jpg)\n\n## Quick picks\n\n| If this sounds like you | Try | Why |\n| --- | --- | --- |\n| Your check marks pile up but your weight doesn't change | **HAVIT** | Judges habits from your meal and step logs, and reads sleep and your cycle alongside them |\n| One bad day makes you give up on the whole thing | **HAVIT** | Miss a multi-day mission once and your progress stays; the second miss can be covered by a Streak Saver |\n| You're on a GLP-1 medication | **HAVIT** | Doses, side effects, protein and estimated body composition in one app |\n| You keep going when a person is checking in | Noom | Daily lessons plus coaches, with optional 1:1 coaching |\n| You want one simple number to track | WeightWatchers | The Points system, plus a Vacation Mode for planned breaks |\n| You only move when money is on the line | HealthyWage | Bet on your own weight loss, verified by weigh-in videos |\n| Getting started is the hardest part | Fabulous | Guided morning and evening routines built one small step at a time |\n| You want habits ticked off automatically | Streaks · Habitify | Both can mark a habit done from Apple Health data |\n| A game keeps you more engaged than a chart | Habitica | Your habits power an RPG avatar, solo or with a party |\n\n## Before you choose: four questions\n\n**1. What does it ask you to do?** \"Lose weight\" is an outcome. Look for an app that breaks it into **behaviors** like \"7,000 steps\" or \"protein at every meal.\" A study that coded 30 commercial weight-loss apps against 20 behavioral strategies from an evidence-based weight-loss program (the Diabetes Prevention Program) found the apps included **only 18.8% of them on average.** Seven strategies appeared in no app at all — including **problem solving**, or what to do when the plan falls apart (Pagoto 2013, apps reviewed in 2012).\n\n**2. How does it decide you did it?** Some apps take your word for it (you tap a check box), some ask for proof (a photo or video), and some judge it from data you log or sync. Tapping is easy, but it often happens at 11 p.m. from memory.\n\n**3. What happens when you miss a day?** This is the most important question for this kind of app. Across seven experiments, showing people a broken streak led to **less engagement afterward** than showing an intact one — but the effect **was weaker when the broken streak could be repaired** (Silverman & Barasch 2023). And in a 12-week study of how habits form, **missing a single day did not materially affect habit formation** (Lally 2010). The missed day isn't the problem. Quitting the day after is.\n\n**4. Does it look at the things that actually move your weight?** Meals, sleep, steps and your menstrual cycle all affect each other. An app that only sees check marks has no way to explain a plateau.\n\n## HAVIT — an AI coach built by former Juvis Diet experts, with habits that survive a missed day\n\n| | |\n| --- | --- |\n| Developer | Havit Inc. |\n| Made by | Experts formerly with Juvis Diet, a Korean weight-management brand |\n| AI coach | HAVI — reads all your logs, suggests what to do today, and you can ask with a photo |\n| Free | Meal logging (search or manual entry) with calories per meal; weight, water, sleep, steps, fasting, mood, cycle and GLP-1 logs; body composition estimate; AI coach chat (daily limit) |\n| HAVIT Premium | Protein, carb and fat breakdown per meal and per day; calories remaining; AI food scan; unlimited coach chat; daily check-in; workout videos, guided meditation and articles; 2 Streak Savers every week |\n| App Store (US) | 4.7 (159 ratings) |\n| How habits are judged | From your logged data (steps sync from Apple Health or Health Connect) |\n| Missed days | Multi-day missions: first miss forgiven → second miss covered by a Streak Saver → third miss restarts |\n\nThe free/Premium split reflects the app's default settings in October 2026. Some Premium features may be opened for free during promotions.\n\n![Missions — one specific thing to do today](/blog/havit/shot/feature-daily-missions.webp)\n\n**Habits come as specific actions.** The 12-week program is split into 12 stages, and each stage has concrete missions such as a step count or a protein target. There's no mission that just says \"try hard.\"\n\n**It judges from your logs, not a check box.** You don't tap \"done.\" HAVIT works out whether you hit a mission from what you actually logged — meals and steps. Steps come in automatically from your phone's health app; meals you log yourself. So it isn't fully automatic verification, but at least \"I meant to eat well\" never gets a check mark.\n\n**It's built so a missed day doesn't sink you.** This is the research above, turned into rules:\n\n- On a **mission that runs several days in a row**, missing a day leaves your progress where it is and simply warns you that one more miss will reset it.\n- **Miss a second time** and you choose: use a Streak Saver (an item that protects a streak) to keep going, or start over.\n- **Three or more misses** and the mission restarts. The forgiveness has limits.\n- For your **daily login streak**, a Streak Saver is used automatically the day after a miss. Premium members get two new ones every week; free members use the savers they start with or earn in the app.\n\n### HAVI, the AI coach — reads your logs and tells you what to do today\n\nIf a habit app is a place to count \"did it / didn't,\" HAVIT is built around **HAVI, its AI coach.** HAVI doesn't just keep the tally for you; it looks at your logs and tells you what to do next.\n\n![HAVIT's AI coach reads every log and returns one concrete action](/blog/havit/shot/feature-ai-coach.webp)\n\n**You start with a conversation.** HAVI asks about your goal (lose weight, maintain, build healthy habits or gain muscle), whether you take a GLP-1 medication and how the side effects are, then your height, weight, waist and body shape. From your answers it builds a **Body Blueprint** — a snapshot of where your body is now — and a goal plan. You start with a plan built around your body, not a generic one.\n\n**Every day, it reads your whole log.** Meals, water, sleep, steps, fasting, cycle, mood and GLP-1 doses all live in one app, so HAVI looks at the day behind the check mark. Say you hit your step mission every day but your weight stalled this week: HAVI can see that protein was under target four days running and you slept less than six hours twice, and point to **the one thing to change first.** A habit tracker on its own can't see that.\n\n**Ask whenever you're stuck.** Eating out, a plateau, what to eat on a shot day — ask in the chat, or **send a photo** with your question. Free members have a daily chat limit; when it runs out you can continue with in-app coins or HAVIT Premium (unlimited chat).\n\n**Wrap up the day with a commitment.** At 10 p.m. you get an **evening recap** of your day and can write a **one-line commitment** for tomorrow. Over time you can see how many of your commitments from the last 14 days you actually kept. It's a small daily version of the review step most habit apps leave out (the recap and commitments are HAVIT Premium).\n\n![Daily check-in — a bad day gets logged instead of ending everything](/blog/havit/shot/feature-daily-check-in.webp)\n\nWith the **daily check-in** (HAVIT Premium), a few taps record how you feel, how you slept, your appetite and your mood, so HAVI knows what kind of day it is before asking anything of you. That's why a night of bad sleep doesn't get met with the usual demands.\n\nOther weight-loss apps have AI coaching too — MyFitnessPal and Noom both build AI into logging and guidance. What sets HAVIT apart is that **the coach reads your cycle, sleep and GLP-1 doses in the same app**, and that it's **wired into the mission and Streak Saver system** above.\n\n### Built by former Juvis Diet experts\n\nHAVIT was built by **experts who previously worked at Juvis Diet**, a Korean weight-management brand where staff manage clients' diets and daily routines in person. Before writing any software, they spent years helping real people lose weight and keep it off, and that approach shapes HAVI and the 12-week program.\n\n![Body insights — fat and lean mass trends, not just the scale](/blog/havit/shot/feature-body-insights.webp)\n\nHere's where it shows up in the app:\n\n- **Body composition over the scale.** Lose weight too fast and you lose muscle too, which makes regain more likely. So HAVIT estimates your fat and lean mass trends without any device (free; not a medical measurement) and puts protein and strength training at the center of missions and coaching.\n- **One change at a time.** Just as a person would when coaching you, missions narrow each stage down to a few concrete actions.\n- **Bad days are part of the plan.** A missed day doesn't end things; forgiveness and Streak Savers pull you back in.\n\n### When HAVIT isn't the best choice\n\nIf you want to track **habits unrelated to weight** — reading, studying, practicing an instrument — in the same place, Habitify, Streaks or Fabulous fits better. HAVIT's missions are set for weight management and you can't create your own. If you want **a person rather than an AI** checking in, look at Noom or WeightWatchers. If **money on the line** is what gets you moving, HealthyWage is a stronger push. And weekly Streak Savers, the evening recap and commitments, and the macro breakdown are all HAVIT Premium features.\n\n**Best for:** people who log but don't know what to change, people whose check marks pile up while their body stays the same, people who've deleted apps after one bad day, people whose weight is tangled up with sleep or their cycle, and people on GLP-1 medication.\n\n## Noom — daily lessons and coaches\n\n| | |\n| --- | --- |\n| App Store (US) | 4.7 (873,560 ratings) |\n| Free vs. paid | Subscription program (the listing does not detail a free tier) |\n| How habits are judged | Your own logs, with step tracking and AI food logging |\n\n**What it does well.** Daily lessons on habits and behavior change, coaches and community, and optional 1:1 coaching. The listing also mentions AI food logging, face and body scans, step tracking and rewards for showing up. A structured program that someone checks in on is the core of it.\n\n**Where it falls short.** It runs on a paid program. The listing doesn't describe what happens to your progress when you miss days.\n\n**Best for:** people who keep going when there's a set course and a person checking in.\n\n## WeightWatchers — one number, and a planned break\n\n| | |\n| --- | --- |\n| App Store (US) | **4.8 (2,365,559 ratings)** |\n| Free vs. paid | Membership |\n| How habits are judged | Your own logs (Points), with activity and sleep synced from Apple Health, Fitbit and others |\n\n**What it does well.** The **Points** system turns every food into one number, and the listing describes a **Weight Health Score** that pulls sleep, activity and nutrition into one view. It's also one of the few apps here with an explicit answer to the missed-day question: **Vacation Mode** lets you take a break from tracking on purpose. Live sessions with coaches, 1:1 dietitian support and a members' community add accountability.\n\n**Where it falls short.** Food logging is still self-reported. Points simplify things, but they also hide detail some people want.\n\n**Best for:** people who want a simple system with a community behind it.\n\n## HealthyWage — bet on your own weight loss\n\n| | |\n| --- | --- |\n| App Store (US) | 4.8 (17,867 ratings) |\n| Free vs. paid | Free app; you put up your own money to join a challenge |\n| How habits are judged | **Weigh-in verification videos** at the start and end |\n\n**What it does well.** You set a weight-loss goal, wager on it, and win money if you hit it. There are individual bets, team challenges and step challenges. Because you submit **weigh-in verification videos**, it's one of the few apps here that checks results with something stronger than a check box. If \"I don't want to lose my money\" is your strongest motivator, it works with that.\n\n**Where it falls short.** It judges the outcome — your weight at the end — not the daily habits that get you there. It won't help you figure out why a week went badly.\n\n**Best for:** people who need money on the line, and people who want a hard deadline to get started.\n\n## Fabulous — guided routines, one small step at a time\n\n| | |\n| --- | --- |\n| App Store (US) | 4.4 (89,351 ratings) |\n| Free vs. paid | Free to start; Premium for unlimited habits, coaching series and 1:1 coaching |\n| How habits are judged | You mark steps done |\n\n**What it does well.** It builds morning and evening routines step by step, with a daily coaching series, short workouts, breathing exercises and a gratitude journal. If \"work out\" feels like too much, a routine that starts with something tiny is easier to begin.\n\n**Where it falls short.** It isn't connected to meals or weight. For diet habits, it only knows whether you marked them done.\n\n**Best for:** people for whom starting is the hardest part, and people building a morning or evening routine.\n\n## Streaks — a to-do list that reads the Health app\n\n| | |\n| --- | --- |\n| App Store (US) | 4.8 (27,355 ratings) |\n| Free vs. paid | Paid app (one-time purchase) |\n| How habits are judged | Your tap, or **automatically from Apple Health** for linked tasks |\n\n**What it does well.** Track up to 24 tasks. Tasks linked to the Health app — like steps or water — **complete themselves** when the data comes in. You can set how often a task needs to be done instead of forcing every day, create \"negative\" tasks to break a bad habit, and share tasks with friends for accountability. An Apple Design Award winner with a strong Apple Watch app.\n\n**Where it falls short.** There's no meal logging or weight analysis, so it can't tell you why your weight stalled.\n\n**Best for:** iPhone users who want simple, automatic tracking for a handful of habits.\n\n## Habitify — a habit tracker that syncs with health apps\n\n| | |\n| --- | --- |\n| App Store (US) | 4.6 (7,145 ratings) |\n| Free vs. paid | Free + Habitify Plus / Pro |\n| How habits are judged | Your tap; **Pro syncs Apple Health, Google Health, Fitbit and others automatically** |\n\n**What it does well.** It's one of the few general habit apps that **logs walking, running and sleep from health-app data** (Pro). You can mark each habit done, skipped or missed, and pause anytime, so a sick day doesn't have to count as a failure.\n\n**Where it falls short.** Automatic syncing is a paid Pro feature. There's no meal logging or weight analysis.\n\n**Best for:** people with plenty of non-diet habits who also want data syncing.\n\n## Habitica — your habits as a role-playing game\n\n| | |\n| --- | --- |\n| App Store (US) | 4.3 (3,569 ratings) |\n| Free vs. paid | Free; optional subscription |\n| How habits are judged | You check tasks off |\n\n**What it does well.** Checking off real-life tasks earns your avatar gold, experience and gear. You can team up with friends in a party and join shared challenges, which adds accountability through the game.\n\n**Where it falls short.** Everything rests on your own check marks, and it has no link to health data, meals or weight.\n\n**Best for:** people who stick with things when they feel like a game.\n\n## Side-by-side comparison\n\n| App | What it is | How it judges | When you miss a day | What else it reads | Free vs. paid |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | AI coach + 12-week missions, from former Juvis Diet experts | **Your logged data** | **1st miss forgiven · 2nd Streak Saver · 3rd restart** | 9 logs incl. meals, sleep, steps, cycle | Free + Premium |\n| Noom | Lessons + coaches | Your own logs | Not stated in listing | Meals, steps, weight | Subscription |\n| WeightWatchers | Points + coaching | Your own logs | Vacation Mode | Food, activity, sleep (synced) | Membership |\n| HealthyWage | Weight-loss bet | **Weigh-in videos** | Only the end result counts | Weight, steps | Free app; you stake money |\n| Fabulous | Guided routines | You mark it done | Not stated in listing | None | Free + Premium |\n| Streaks | Habit to-do list | Tap / **Apple Health** | Choose how often, not necessarily daily | Health-app data for linked tasks | Paid app |\n| Habitify | General habit tracker | Tap / auto-sync (Pro) | Skip · pause | Steps, sleep (Pro) | Free + Plus/Pro |\n| Habitica | Gamified habits | You check it off | Not stated in listing | None | Free + optional subscription |\n\n## Turn a vague goal into something an app can check\n\nWhichever app you pick, rewriting your habits like this makes a difference. The test is: **could you look at it tonight and know for certain whether you did it?**\n\n| Vague goal | Specific action | How it gets checked |\n| --- | --- | --- |\n| Eat healthier | Two eggs or Greek yogurt at breakfast | Meal log |\n| Walk more | A 15-minute walk after lunch; 7,000 steps a day | Steps synced automatically |\n| Stop late-night snacking | Only water or tea after 9 p.m. | Time of your last meal log |\n| Drink more water | A glass of water with every meal | Water log |\n| Exercise | 20 minutes of strength training Tuesday and Friday evenings | Workout log |\n| Go to bed earlier | In bed before midnight | Sleep log |\n\nAdding **\"when and where\"** to the action helps even more. In the habit-formation study above, participants repeated the behavior in the same situation each day, such as \"after breakfast\" (Lally 2010).\n\n## What to do the day after your streak breaks\n\nWanting to quit when you see a broken streak is a normal reaction (Silverman & Barasch 2023). So decide in advance what you'll do:\n\n1. **Log just one thing today.** You don't need a perfect day, just a day that keeps the record going.\n2. **Write one line on why you missed.** A work dinner, a late night, the week before your period — if the reason repeats, that's the one thing to change next week.\n3. **Lower the bar for a while.** If 7,000 steps is too much this week, drop to 5,000 and the habit still continues.\n4. **Use the repair tools.** Streak Savers (HAVIT), skip and pause (Habitify), adjustable frequency (Streaks) and Vacation Mode (WeightWatchers) exist for exactly this moment.\n\n## Habits that actually move your weight — pick two of these five\n\nTry to start all five at once and you'll probably drop all five. Begin with the two that look easiest right now.\n\n1. **Protein at your first meal.** It matters even more on a GLP-1 medication: some trials have reported lean mass making up 40–60% of the weight lost (Neeland 2024).\n2. **Log every day, even roughly.** Self-monitoring has been consistently linked to weight loss, although the evidence is rated weak (Burke 2011). Fewer missed days beats perfect accuracy.\n3. **A consistent bedtime.** It gets skipped because it isn't about food.\n4. **Strength training twice a week.** The WHO recommends muscle-strengthening activity on two or more days a week for adults.\n5. **A weekly review.** Look back at the week and change **one** thing. This is the \"problem solving\" step that the apps in the study above most often left out.\n\nHow long it took a habit to become automatic ranged from **18 to 254 days**, with a median of 66 (Lally 2010). If it still feels hard after a 21-day challenge, that's normal.\n\n## The bottom line\n\nChoose a weight-loss habit app on three things: does it give you **specific actions**, does it judge them from **data or proof** rather than a check box, and does it give you **a way to keep going** after a missed day?\n\nThe right answer depends on what motivates you. If money gets you moving, try HealthyWage. If you want a simple system with a community, WeightWatchers. If starting is the hard part, Fabulous. If your check marks keep piling up while your body stays the same, you need a coach that reads your habits and your body's data together and tells you what to do next. HAVIT is that coach, built as an AI by former Juvis Diet experts.\n\n**Judge an app by what it does on your worst day, not your best.**\n\n[Try HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "Behaviour change techniques in the standard taxonomy",
-          "value": "93",
-          "source": "Michie et al. 2013, Ann Behav Med"
+          "label": "Evidence-based behavior strategies included in weight-loss apps",
+          "value": "18.8% of 20, on average",
+          "source": "Pagoto et al. 2013, Am J Prev Med (30 apps, reviewed in 2012)"
         },
         {
-          "label": "Techniques most habit apps actually implement",
-          "value": "2",
-          "source": "Self-monitoring and a streak"
+          "label": "Time for a habit to become automatic",
+          "value": "18–254 days (median 66)",
+          "source": "Lally et al. 2010, Eur J Soc Psychol"
         },
         {
-          "label": "Data streams HAVIT verifies habits against",
-          "value": "8",
-          "source": "Meals, hydration, workouts, sleep, steps, cycle, mood, GLP-1"
+          "label": "Engagement after seeing a broken streak",
+          "value": "Lower (less so when the streak can be repaired)",
+          "source": "Silverman & Barasch 2023, J Consum Res (7 studies)"
         },
         {
-          "label": "Lean-mass share of weight lost on GLP-1 therapy",
-          "value": "40–60% in some trials",
-          "source": "Neeland et al. 2024, Diabetes Obes Metab"
+          "label": "Logs HAVIT reads together",
+          "value": "9",
+          "source": "Meals, weight, water, sleep, steps, fasting, cycle, mood, GLP-1"
         }
       ],
       "comparison_table": {
-        "title": "Side by side",
+        "title": "Side-by-side comparison",
         "headers": [
           "App",
-          "What it records",
-          "Verification",
-          "On a missed day",
-          "Read alongside"
+          "What it is",
+          "How it judges",
+          "When you miss a day",
+          "What else it reads",
+          "Free vs. paid"
         ],
         "rows": [
           [
             "HAVIT",
-            "The behaviour and its data",
-            "The log itself",
-            "Target adjusts, week continues",
-            "All 8 logs"
+            "AI coach + 12-week missions, from former Juvis Diet experts",
+            "Your logged data",
+            "1st miss forgiven · 2nd Streak Saver · 3rd restart",
+            "9 logs incl. meals, sleep, steps, cycle",
+            "Free + Premium"
           ],
           [
             "Noom",
-            "Meals, activity, weight",
-            "Self-report",
-            "Coach reviews",
-            "Meals, activity"
+            "Lessons + coaches",
+            "Your own logs",
+            "Not stated in listing",
+            "Meals, steps, weight",
+            "Subscription"
           ],
           [
             "WeightWatchers",
-            "Points",
-            "Self-report",
-            "Weekly reset",
-            "Points, weight"
+            "Points + coaching",
+            "Your own logs",
+            "Vacation Mode",
+            "Food, activity, sleep (synced)",
+            "Membership"
           ],
           [
-            "Generic habit apps",
-            "A check box",
+            "HealthyWage",
+            "Weight-loss bet",
+            "Weigh-in videos",
+            "Only the end result counts",
+            "Weight, steps",
+            "Free app; you stake money"
+          ],
+          [
+            "Fabulous",
+            "Guided routines",
+            "You mark it done",
+            "Not stated in listing",
             "None",
-            "Streak resets",
-            "Nothing"
+            "Free + Premium"
+          ],
+          [
+            "Streaks",
+            "Habit to-do list",
+            "Tap / Apple Health",
+            "Choose how often, not necessarily daily",
+            "Health-app data for linked tasks",
+            "Paid app"
+          ],
+          [
+            "Habitify",
+            "General habit tracker",
+            "Tap / auto-sync (Pro)",
+            "Skip · pause",
+            "Steps, sleep (Pro)",
+            "Free + Plus/Pro"
+          ],
+          [
+            "Habitica",
+            "Gamified habits",
+            "You check it off",
+            "Not stated in listing",
+            "None",
+            "Free + optional subscription"
           ]
         ],
-        "caption": "App characteristics as of October 2026."
+        "caption": "Based on US App Store listings and each app's official description as of October 24, 2026. \"Not stated in listing\" means the listing doesn't describe it, not that the app has no such feature."
       },
       "faq": [
         {
-          "question": "What is the best habit tracker for weight loss?",
-          "answer": "One that tracks a specific behaviour rather than a vague intention, verifies it from your data rather than a tick box, and lowers the target when you miss instead of resetting a streak. Generic habit apps are better if you are building ten unrelated habits; they are worse here, because a tick cannot distinguish 30g of protein from the intention to eat it."
+          "question": "What is the best habit tracker app for weight loss?",
+          "answer": "It depends on what motivates you. If your check marks pile up but your weight doesn't move, HAVIT judges habits from your logs and reads sleep and your cycle too. If you need a person checking in, Noom; a simple points system with community, WeightWatchers; money on the line, HealthyWage; trouble getting started, Fabulous."
         },
         {
-          "question": "Why do I keep a perfect streak but lose no weight?",
-          "answer": "Usually because the habit was never specified well enough to matter. \"Eat better\" records your optimism; \"30g of protein at breakfast\" is either true or false at 9am. Most habit apps implement only two of the 93 catalogued behaviour-change techniques — self-monitoring and a streak — and the missing pieces, especially action planning and weekly review, are where weight loss lives."
+          "question": "What does HAVIT's AI coach do?",
+          "answer": "HAVI starts with a conversation about your goal, whether you take a GLP-1 medication and your body measurements, then builds a goal plan. After that it reads your meal, sleep, step, cycle and GLP-1 logs together and suggests what to change today; you can also ask with a photo. A 10 p.m. evening recap and one-line commitment (HAVIT Premium) help you look back. Free members have a daily chat limit."
         },
         {
-          "question": "Are streaks good or bad for weight loss?",
-          "answer": "Both. A streak's value is entirely in not breaking it, so that value inverts the moment it breaks — day 94 of a 93-day streak is the most likely day to quit. Look for repair mechanics: rest days, a weekly target instead of a daily one, and credit for a partially logged day."
+          "question": "Who makes HAVIT?",
+          "answer": "HAVIT is made by Havit Inc. and was built by experts who previously worked at Juvis Diet, a Korean weight-management brand where staff manage clients' diets and routines in person. That approach shapes the AI coach and the 12-week program, which focus on body composition and keeping weight off rather than the scale alone."
         },
         {
-          "question": "What is the difference between a generic habit app and a weight-loss one?",
-          "answer": "Verification. A generic app knows only that you tapped a box. A weight-loss app built on your logs knows whether 40g of protein was actually recorded. If you are building ten unrelated habits the generic one is better; if weight is the goal, verification is what makes the tracking mean anything."
+          "question": "Which habit apps for weight loss are free?",
+          "answer": "Most are free to start, but what's free varies. HAVIT's meal, weight, sleep and step logs and body composition estimate are free; macro breakdowns and the AI food scan are Premium. Habitify's automatic health syncing is Pro, Fabulous limits habits without Premium, Habitica is free with an optional subscription, and Streaks is a paid app. Noom and WeightWatchers run on paid programs."
         },
         {
-          "question": "Which habits actually move weight?",
-          "answer": "Pick two, not eight. Protein at the first meal, logging every day even badly, a fixed sleep window, resistance training twice a week, and one weekly review. The weekly review is the technique almost every app omits: look at the week and change one thing."
+          "question": "Why am I keeping my streak but not losing weight?",
+          "answer": "Often the habit isn't specific enough to affect your weight. \"Eat healthy\" records an intention; \"30 g of protein at breakfast\" either happened or it didn't. And an app that only sees check marks can't look at that week's sleep and meals to find the reason for a plateau."
         },
         {
-          "question": "Should I track weight as a daily habit?",
-          "answer": "Weight is an outcome, not a behaviour — it responds slowly, noisily, and to things you did last week. Putting it on a daily checklist scores you on something you cannot control that day. Track the behaviours daily and read weight as a weekly trend."
+          "question": "Are streaks good for weight loss?",
+          "answer": "They help while they last: an unbroken streak encouraged further engagement. The trouble comes when one breaks. Seeing a broken streak reduced engagement, and the effect was weaker when the streak could be repaired (Silverman & Barasch 2023). Choose an app with a way to repair or pause a streak."
+        },
+        {
+          "question": "Do I have to start over if I miss a day?",
+          "answer": "In a study of real-world habit formation, missing one day did not materially affect forming the habit (Lally 2010). In HAVIT, missing a multi-day mission once keeps your progress, a second miss can be covered with a Streak Saver, and three or more misses restart the mission."
+        },
+        {
+          "question": "What's the difference between a general habit app and a weight-loss app?",
+          "answer": "What else they look at. General habit apps (Streaks, Habitify, Habitica, Fabulous) let you build any habit but don't analyze meals or weight. Weight-loss apps show how your habits connect to your weight. If you have many non-diet habits, a general app fits; if weight is the goal, a weight-loss app does."
+        },
+        {
+          "question": "Which habits actually move your weight?",
+          "answer": "Protein at your first meal, logging every day even roughly, a consistent bedtime, strength training twice a week and a weekly review. Start with the two that look easiest. The weekly review is the \"problem solving\" strategy weight-loss apps most often left out (Pagoto 2013)."
+        },
+        {
+          "question": "How long does it take to build a habit?",
+          "answer": "In a study that followed people in daily life, habits took 18 to 254 days to become automatic, with a median of 66 (Lally 2010). If it still feels hard after a 21-day challenge, that's normal."
         }
       ],
       "references": [
         {
+          "title": "Evidence-based strategies in weight-loss mobile apps (Pagoto, Schneider, Jojic, DeBiasse & Mann)",
+          "source": "American Journal of Preventive Medicine, 2013 — 30 apps coded for 20 DPP-derived strategies; mean 18.83%, 7 strategies in no app",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24139770/"
+        },
+        {
+          "title": "On or Off Track: How (Broken) Streaks Affect Consumer Decisions (Silverman & Barasch)",
+          "source": "Journal of Consumer Research, 2023 — seven studies; effect attenuated when a broken streak can be repaired",
+          "url": "https://doi.org/10.1093/jcr/ucac029"
+        },
+        {
+          "title": "How are habits formed: modelling habit formation in the real world (Lally, van Jaarsveld, Potts & Wardle)",
+          "source": "European Journal of Social Psychology, 2010 — 18–254 days to automaticity plateau, median 66; missing one opportunity did not materially affect habit formation",
+          "url": "https://doi.org/10.1002/ejsp.674"
+        },
+        {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 studies, 15 on dietary self-monitoring; authors rate the evidence level weak",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 studies; authors rate the evidence level weak",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
-        },
-        {
-          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
-          "source": "Annals of Behavioral Medicine, 2013",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
-        },
-        {
-          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
-          "source": "New England Journal of Medicine, 2002 (n=3,234)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
         },
         {
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
@@ -126,22 +184,12 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (topic under update); adults with BMI ≥30, clinician-delivered",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "How are habits formed: modelling habit formation in the real world (Lally, van Jaarsveld, Potts & Wardle)",
-          "source": "European Journal of Social Psychology, 2010 — median 66 days to automaticity plateau",
-          "url": "https://doi.org/10.1002/ejsp.674"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026 — HAVIT internal analysis of 1,090 GLP-1 users",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "WHO guidelines on physical activity and sedentary behaviour",
+          "source": "World Health Organization, 2020 — adults: muscle-strengthening activities on 2 or more days a week",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-24"
     },
     "ko": {
       "title": "2026 다이어트 습관 앱 추천 8선 — 빠진 날 리셋되는 앱, 이어지는 앱",

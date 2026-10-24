@@ -10,142 +10,162 @@
   "primary_keyword_ko": "AI 다이어트 코치 앱 추천 2026 AI 코치 앱 비교",
   "langs": {
     "en": {
-      "title": "Best AI Health Coach Apps in 2026: Which Ones Actually Read Your Data",
-      "short_title": "Best AI Health Coach Apps 2026",
-      "meta_description": "HAVIT, Noom, Simple.Life, Cal AI and general assistants — each taken apart by what the coach actually reads, whether it speaks first, and what data it can never see. October 2026.",
-      "tldr": "A chat box answers what you knew to ask; a coach notices what you did not. What separates them is whether your logs reach the coach at all — test that in the trial, including one bad week.",
-      "body_md": "Almost every health app added an \"AI coach\" in the last two years. Most of them added a chat box. These are not the same thing.\n\nA chat box answers the questions you already knew to ask. A coach notices what you did not ask about. What separates them is not model quality — it is **whether your logs reach the coach at all.**\n\nThis guide takes the apps claiming AI coaching one at a time. Checked against store listings, October 2026.\n\n![A coach sees your day, not just your messages](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n## Three tests that separate a coach from a chatbot\n\n**1. Does it read your own data?** In the trial, ask it what you ate yesterday. If you have to paste the answer in, the coach is a chat window and the app is a tracker.\n\n**2. Does it give one action, or a plan?** A plan is what you already failed to follow. *Eat 30g of protein at breakfast* is either true or false at 9am, which makes it measurable.\n\n**3. Does it change when you change?** Deliberately log a bad week. A real coaching system lowers the ask or asks what happened. A scripted one repeats the same cheerful nudge.\n\n## HAVIT — eight streams of data, feeding one coach\n\n| | |\n| --- | --- |\n| Maker | Havit Inc. |\n| Price | Free · in-app purchases |\n| What the coach reads | Meals, hydration, workouts, sleep, steps, cycle, mood, GLP-1 |\n| Food database | ~486,000 entries from public food authorities |\n| Platforms | iOS · Android · 35 languages |\n\n![HAVIT's AI coach reads every log and returns one concrete action](/blog/havit/shot/feature-ai-coach.webp)\n\n**This is the whole difference.** HAVIT's coach does not read a chat log. It reads **eight streams of your own data** — not just meals, but sleep, steps, cycle and medication too.\n\nSo it can say: *protein has been under target four days running, you slept under six hours twice this week, and you are in the week before your period — these three are connected, and here is the one to fix first.* A general assistant cannot produce that sentence. It may remember you across conversations, but it has **no live feed of today's meals, sleep and steps**.\n\n### What comes back is one action, not a dashboard\n\n![Daily check-in — the coach asks what kind of day it is first](/blog/havit/shot/feature-daily-check-in.webp)\n\nThe **daily check-in** comes first: condition, sleep, appetite and mood in a few taps, so the coach knows what kind of day it is before it asks anything of you. It is also how a bad day enters the system without ending it.\n\nThen **daily missions** turn established behaviour-change techniques into one action for today. Miss it and that is an input, not a broken streak — the next day's ask changes.\n\n### The coach sees your body too\n\n![Body insights — fat and lean trends](/blog/havit/shot/feature-body-insights.webp)\n\nHAVIT estimates **fat and lean mass trends** with no hardware (internal comparison against InBody, n=70). On GLP-1 therapy, **dose, side effects and protein** are read by the same coach.\n\n### And everything else is in the same app\n\n**Six guided-meditation tracks**, **workout video**, **1,400+ articles**, **fasting**, plus streaks, badges, avatars, ranks and team challenges. Built with experts from Juvis Diet, a Korean diet clinic.\n\n**Who it suits:** people who log and still don't know what to change; people who want a coach that actually sees their data; people tired of running four apps.\n\n## Noom — the coach is a person, not an AI\n\n| | |\n| --- | --- |\n| Maker | Noom, Inc. |\n| Price | Subscription |\n\n![Human accountability is a different product](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n**What it does well.** **A human coach you can message at any time.** Not an AI pretending. Plus a psychology-based curriculum that decides what you read each day.\n\n**Where it falls down.** The highest price bracket here. Coaching scope is meals, activity and weight — cycle, medication and body composition are out.\n\n**Who it suits:** people who need to be accountable to a person and will pay for it.\n\n## Simple.Life — an always-on coach built on the eating window\n\n| | |\n| --- | --- |\n| Price | Subscription |\n| Coach | \"Avo\", fasting-led |\n\n**What it does well.** A clear eating window with a coach attached around the clock. Simple to follow.\n\n**Where it falls down.** BMI and fasting-pattern centric — **no body-composition estimate**, and a narrow slice of data for the coach to read.\n\n**Who it suits:** people for whom *when* they eat is the lever.\n\n## Cal AI and photo-first loggers\n\n**What they do well.** Turn a photo into a log in seconds. The AI is doing recognition, and it is good at it.\n\n**Where they fall down.** Recognition is not coaching. These apps answer \"what was that?\" — not \"what should I change?\" The figure they return is the midpoint of a range.\n\n**Who they suit:** people whose blocker is logging speed.\n\n## General assistants (ChatGPT, Claude, Gemini)\n\n**What they do well.** Explaining concepts and building plans on request, very well. They now remember across conversations and can message you on a schedule if you set one up.\n\n**Where they fall down.** **No continuous feed of today's meals, sleep and steps.** The 9pm message has to be one you configured, from data you pasted in. They also — correctly — decline to diagnose or to manage medication.\n\n**Who they suit:** people who want answers to questions. Not a coach that speaks first from your own data.\n\n## Side by side\n\n| App | What the coach reads | Speaks first | Body composition | Cycle | GLP-1 | Meditation & workouts |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **All 8 logs** | **Yes** | **Estimated** | **Yes** | **Yes** | **Yes** |\n| Noom | Meals, activity, weight | Human coach does | No | No | No | Content only |\n| Simple.Life | Fasting and meals | Yes | No | No | No | No |\n| Cal AI / photo loggers | The photo you just took | No | No | No | No | No |\n| General assistants | Only what you paste in | Only if scheduled | No | No | No | No |\n\nApp characteristics as of October 2026.\n\n## When not to buy one\n\n- **If you log nothing.** A data-driven coach is a function of your inputs. Build the logging habit first, then add coaching once you have about four weeks of data.\n- **If you need a human.** For disordered eating, a diagnosed condition, or a deadline-bound athletic goal, see a professional. A good health AI declines to diagnose and will not tell you to change a prescribed dose — HAVIT included.\n\n## The bottom line\n\n\"Which AI is smartest\" is the wrong question. All the serious ones are smart enough for this job.\n\nThe question is which one **sees your data, says one thing, and changes when you change.** Test that over two weeks, including one bad week, inside the free trial.\n\n[Try HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Best AI Health Coach Apps in 2026: 7 Compared by What the Coach Actually Reads",
+      "short_title": "7 Best AI Health Coach Apps 2026",
+      "meta_description": "HAVIT, Simple, MyFitnessPal, Cal AI, Noom, Fitbod and general AI assistants compared: what data the coach reads, whether it reaches out first, whether you can ask with a photo, and what's free. US App Store, October 2026.",
+      "tldr": "Choose an AI coach app by what the coach reads and what it does for you, not by how smart the AI is. A coach that sees only your food and one that also reads sleep, steps, your cycle and medication will answer the same question differently. In the trial, ask \"What did I eat yesterday?\" and check how much of the coach chat and photo analysis is free.",
+      "body_md": "Almost every weight-loss app now says it has an \"AI coach.\" Use a few of them and you'll find they do very different things. One works out the calories in a photo of your plate. One builds your workouts. One answers only when you ask.\n\nUnder the same label, one thing separates them: **how much of your own data the coach reads, and what it does with it.** Ask the same question of a coach that knows what you ate yesterday, how you slept last week and where your weight has been heading this month, and of one that doesn't, and you'll get different answers.\n\nThis guide looks at seven options people in the US use for AI coaching: HAVIT, Simple, MyFitnessPal and Cal AI; Noom, where coaches are people; Fitbod, an AI workout planner; and general-purpose assistants like ChatGPT. Ratings and features come from each app's US App Store listing as of October 24, 2026. We left out prices because they change often.\n\nHAVIT is made by the team that wrote this guide — **experts who previously worked at Juvis Diet**, a Korean weight-management brand. So we set out how to choose first, and we also list the cases where HAVIT isn't the right pick.\n\n![A coach should see your day, not just your messages](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_002.jpg)\n\n## Quick picks\n\n| If this sounds like you | Try | Why |\n| --- | --- | --- |\n| You log, but don't know what to change | **HAVIT** | HAVI reads your meal, sleep, step and cycle logs together and suggests what to do today |\n| You're on a GLP-1 medication | **HAVIT** | The first conversation asks about your medication and side effects, and the same coach reads your dose log |\n| You want to review your day and set an intention | **HAVIT** | 10 p.m. evening recap and a one-line commitment (HAVIT Premium) |\n| You want feedback on a photo of a menu or your groceries | Simple | Avo Vision gives guidance from a photo of a meal, menu or groceries |\n| You already count calories and macros | MyFitnessPal | An AI Coach built on your goals and logging history, inside a large food database |\n| You just want logging to take seconds | Cal AI | Snap a photo and get a nutrition breakdown (results need a subscription) |\n| You want a person, not an AI | Noom | Coaches and optional 1:1 coaching inside a paid program |\n| You don't know what to do at the gym | Fitbod | Workouts built around your equipment and adjusted as you train |\n| You only have the occasional question | General AI (ChatGPT, etc.) | Great at explaining and planning, but you have to supply your own data |\n\n## How to choose an AI coach — four questions\n\n**1. What does the coach read?** Start here. A coach that only sees your food can tell you lunch was salty, and not much more. To work out why your weight stalled this week, sleep, steps, your cycle and any medication need to be in the same place. During a trial, ask: \"What did I eat yesterday?\" and \"How did I sleep this week?\" If you have to tell it again, it isn't reading your logs.\n\nHow much there is to read matters too. In a systematic review of 39 trials on digital self-monitoring for weight loss, **more self-monitoring was linked to more weight lost in 74% of the cases analyzed** (Patel 2021). If your logs are thin, any coach will have little to say.\n\n**2. Does it give you an action for today, not just a plan?** \"Try to eat better\" isn't advice. Look for one thing you can clearly do or not do, like \"start dinner with your protein.\" And check whether the coach only answers when asked, or reaches out first with a report or a message.\n\n**3. Know how it differs from a human coach.** An AI coach answers at 2 a.m. and never gets tired of the same question. A human coach creates a relationship — you feel you owe them a reply. The evidence for AI is building: a meta-analysis of 19 trials of chatbots for activity, diet and sleep found they increased daily steps, fruit and vegetable intake and sleep time, though 74% of the trials were rated low quality (Singh 2023). And in the self-monitoring review above, programs with counseling and app-only programs had similar self-monitoring rates (Patel 2021). If you only move when you have to report to someone, a human coach fits. If time and cost are the issue, an AI coach does.\n\n**4. Does it know its limits?** A good health AI doesn't diagnose and won't tell you to change the dose of a prescribed medication. If you might have an eating disorder, have a diagnosed condition or are pregnant, see a professional before an app. Cal AI's own listing says it doesn't offer medical advice and that its recommendations should be treated as suggestions.\n\n## HAVIT — HAVI, the AI coach built by former Juvis Diet experts\n\n| | |\n| --- | --- |\n| Developer | Havit Inc. |\n| Made by | Experts formerly with Juvis Diet, a Korean weight-management brand |\n| AI coach | HAVI — starts with a conversation that builds your Body Blueprint and goal plan, reads all your logs, suggests what to do today, and takes photos in chat |\n| Free | Meal logging (search or manual entry) with calories per meal; weight, water, sleep, steps, fasting, mood, cycle and GLP-1 logs; body composition estimate; AI coach chat (daily limit) |\n| HAVIT Premium | Unlimited coach chat; evening recap and commitments; daily check-in; protein, carb and fat breakdown per meal and per day; calories remaining; AI food scan; workout videos, guided meditation and articles; 2 Streak Savers every week |\n| App Store (US) | 4.7 (159 ratings) |\n\nThe free/Premium split reflects the app's default settings in October 2026. Some Premium features may be opened for free during promotions.\n\n### HAVI, the AI coach — reads your logs and tells you what to do today\n\n![HAVIT's AI coach reads every log and returns one concrete action](/blog/havit/shot/feature-ai-coach.webp)\n\n**It starts with a conversation.** HAVI asks about your goal (lose weight, maintain, build healthy habits or gain muscle), whether you take a GLP-1 medication and how the side effects are, then your height, weight, waist and body shape. From your answers it builds a **Body Blueprint** — a snapshot of where your body is now — and a goal plan. Because you start by talking rather than filling in a settings screen, someone on medication and someone who isn't get different plans from day one.\n\n**Every day, it reads your whole log.** Meals, weight, water, sleep, steps, fasting, cycle, mood and GLP-1 doses all live in one app, so HAVI looks at the whole day behind your food. If your weight stalled this week, it can see that protein was under target four days running, that you slept less than six hours twice, and that it was the week before your period — and point to **the one thing to change first.** That's HAVIT's answer to question 1: what does the coach read?\n\n**Ask anytime, including with a photo.** Eating out, a plateau, what to eat when your stomach is upset on a shot day — ask in the chat, or **send a photo** with your question. Snap a menu or a convenience-store shelf and ask which option is better. Free members have a daily chat limit; HAVIT Premium is unlimited.\n\n**It wraps up your day.** At 10 p.m. you get an **evening recap** of your day and can write a **one-line commitment** for tomorrow. Over time you can see how many of your commitments from the last 14 days you kept. In effect, the coach has a set time each day when it comes to you first (the recap and commitments are HAVIT Premium).\n\n![Daily check-in — record what kind of day it is in a few taps](/blog/havit/shot/feature-daily-check-in.webp)\n\nWith the **daily check-in** (HAVIT Premium), you record how you feel, how you slept, your appetite and your mood in a few taps. Even on a day that went badly, you leave a note of what kind of day it was instead of a blank.\n\n**A 12-week program sets the actions.** Each of the 12 stages has concrete missions, such as a step count or a protein target, and they're judged from your actual meal and step logs, not a \"done\" button. On missions that run several days in a row, the first missed day is forgiven, the second can be covered with a Streak Saver (an item that protects a streak), and the third restarts the mission.\n\n### Built by former Juvis Diet experts\n\nHAVIT was built by **experts who previously worked at Juvis Diet**, a Korean weight-management brand where staff manage clients' diets and daily routines in person. HAVI's opening conversation and the 12-week program carry over how they helped real people lose weight and keep it off, long before there was an app.\n\n![Body insights — fat and lean mass trends, not just the scale](/blog/havit/shot/feature-body-insights.webp)\n\n- **Body composition over the scale.** HAVIT estimates your fat and lean mass trends without any device (free). In an internal comparison with 70 people, 92.9% of estimates fell within ±5 percentage points of an InBody body-composition analyzer reading; it isn't a medical measurement. That's why protein and strength training sit at the center of missions and coaching.\n- **One change at a time.** As a person coaching you would, HAVI points to the one thing to change now instead of handing you a long list.\n- **Bad days are part of the plan.** A missed day doesn't end things; forgiveness and Streak Savers pull you back in.\n\n### When HAVIT isn't the best choice\n\nIf you want **photo-based food logging for free**, HAVIT isn't it: the AI food scan is a HAVIT Premium feature. If you want **a person rather than an AI**, look at Noom. If you mainly want **help in the gym**, Fitbod goes much deeper on workouts. And on the free plan, coach chat has a daily limit, and the evening recap and daily check-in stay locked.\n\n**Best for:** people who log but don't know what to change, people whose weight is tangled up with sleep or their cycle, people on GLP-1 medication, and anyone who wants a coach that sees all their logs.\n\n## Simple — Avo, an AI coach that reads photos\n\n| | |\n| --- | --- |\n| App Store (US) | **4.7 (409,590 ratings)** |\n| AI coach | Avo — personalized advice and motivation; Avo Vision gives feedback on photos of meals, menus or groceries |\n| Free vs. paid | Subscription (the listing does not detail a free tier) |\n\n**What it does well.** Avo gives personalized advice and coaching, and **Avo Vision** lets you photograph your groceries, a menu or a meal for instant guidance and recipe ideas — no calorie math. A real-time **Success Score** shows how your choices are adding up, there are beginner-friendly workout plans, and a character called Blinky reacts to what you log to keep you coming back. It syncs with Apple Health and Apple Watch.\n\n**Where it falls short.** The listing describes food, water, activity and weight logging; it doesn't mention sleep, menstrual cycle or GLP-1 medication tracking, so it's unclear whether Avo reads those.\n\n**Best for:** people who want quick, friendly feedback without counting calories.\n\n## MyFitnessPal — an AI Coach on top of a big food database\n\n| | |\n| --- | --- |\n| App Store (US) | **4.7 (2,383,099 ratings)** |\n| AI coach | AI Coach — nutrition insights based on your goals, habits and logging history; answers questions about nutrition, macros and workouts |\n| Free vs. paid | Free + Premium / Premium Plus (barcode scan, meal scan and voice logging are Premium) |\n\n**What it does well.** The listing describes a food database of over 20.5 million items, including restaurant dishes, and an **AI Coach** that gives guidance based on your goals and logging history. You can also log how you feel on GLP-1 medication and set dose reminders, track workouts and steps, and connect more than 40 trackers and health apps.\n\n**Where it falls short.** The listing doesn't say which plan the AI Coach is on, whether it reaches out first, or whether it reads sleep or cycle data. Faster logging tools like meal scan are Premium.\n\n**Best for:** people who already count calories and macros and want AI guidance on top.\n\n## Cal AI — photo logging, not coaching\n\n| | |\n| --- | --- |\n| App Store (US) | **4.8 (372,229 ratings)** |\n| What the AI does | Builds a plan from lifestyle questions, then turns a meal photo into a nutrition breakdown |\n| Free vs. paid | Food-scan results require a subscription |\n\n**What it does well.** Answer a few lifestyle questions, snap a photo of your meal and get a nutrition breakdown. If the thing stopping you is how long logging takes, it's about as fast as it gets.\n\n**Where it falls short.** It recognizes food; it doesn't coach. It answers \"what was that?\" rather than \"what should I change?\" The listing doesn't describe a chat coach or any other data it reads.\n\n**Best for:** people whose main obstacle is logging speed.\n\n## Noom — coaches who are people\n\n| | |\n| --- | --- |\n| App Store (US) | 4.7 (873,560 ratings) |\n| Coach | Coaches and optional 1:1 coaching (people), plus clinicians on Noom Med |\n| Free vs. paid | Subscription program |\n\n![Having a person involved is what this app is about](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_005.jpg)\n\n**What it does well.** It's the main option on this list built around **human coaches**, with optional 1:1 coaching. Daily lessons on habits and behavior change, community, AI food logging, step tracking and face and body scans round it out. Noom Med adds online access to doctors for people who qualify for medication.\n\n**Where it falls short.** It's a paid program. The listing doesn't mention cycle tracking, and a person may not reply instantly.\n\n**Best for:** people who need to report to someone and are willing to pay for that.\n\n## Fitbod — an AI trainer for your workouts\n\n| | |\n| --- | --- |\n| App Store (US) | **4.8 (288,172 ratings)** |\n| AI coach | AI-generated workouts based on your level and equipment, adapting to your edits |\n| Free vs. paid | Subscription after a free trial |\n\n**What it does well.** It builds strength, cardio and mobility sessions around the equipment you have at the gym or at home, varies exercises over time, and **learns from your edits** to its suggestions. There are over 1,000 exercises with video, and you can email a trainer with questions.\n\n**Where it falls short.** It's a workout app. Food coaching is out of scope, so for weight loss you'll need a separate food app.\n\n**Best for:** gym beginners who don't know what to do, and people who handle food in another app.\n\n## General AI assistants (ChatGPT, Gemini, Claude and others)\n\n**What they do well.** Explaining concepts, building meal plans and comparing menu options — they're very good at these. You can upload a photo and ask about it, and some remember past conversations.\n\n**Where they fall short.** **Your meals, steps and sleep don't flow in every day** the way they do in a weight-loss app. They answer from what you paste in, so on a day you don't, the coach doesn't know. Some services have started connecting to health data, but it varies by country and feature, so check for yourself. And don't use them to diagnose or set medication doses.\n\n**Best for:** people who want to ask things as they come up. They won't check in on you first.\n\n## Side-by-side comparison\n\n| App | What the AI coach does | What it reads | Photos | Reaches out first | Free vs. paid | App Store (US) |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | Plan from an opening conversation → reads your logs and suggests today's action | Meals, sleep, steps, cycle, mood, GLP-1 and more | Photos in chat (AI food scan is Premium) | 10 p.m. evening recap (Premium) | Coach chat free (daily limit); unlimited with Premium | 4.7 (159) |\n| Simple | Avo advice and motivation, Success Score | Food, water, activity, weight | Avo Vision (meals, menus, groceries) | Daily motivation from Blinky | Subscription | 4.7 (409,590) |\n| MyFitnessPal | AI Coach insights and Q&A | Goals, habits, logging history | Meal scan (Premium) | Not stated in listing | Free + Premium | 4.7 (2,383,099) |\n| Cal AI | Photo → nutrition breakdown | The photo you take | Yes (subscription) | Not stated in listing | Subscription for scan results | 4.8 (372,229) |\n| Noom | Human coaches, optional 1:1 | Meals, steps, weight | AI food logging | Not stated in listing | Subscription | 4.7 (873,560) |\n| Fitbod | AI-generated workouts | Workout history, equipment | Not applicable | Not stated in listing | Subscription after trial | 4.8 (288,172) |\n| General AI | Answers questions, writes plans | What you type in | Photo upload | Only if you set it up | Free + paid | — |\n\nBased on US App Store listings as of October 24, 2026. \"Not stated in listing\" means we couldn't confirm it from the listing, not that the feature doesn't exist.\n\n## Test it over a two-week trial\n\nMost of these apps are free to start or have a trial, so testing before you commit is the surest way to choose.\n\n1. **Log normally for the first week.** Not just meals — let sleep and steps build up too.\n2. **Ask \"What did I eat yesterday?\" and \"How did I sleep this week?\"** You'll see right away whether it reads your logs.\n3. **Ask \"Why didn't my weight change this week?\"** See whether you get generic advice (\"cut calories\") or a reason found in your own logs.\n4. **Log a bad day honestly.** What the coach says after a day that went wrong tells you whether you'll stick with it.\n5. **Check what's free.** Whether coach chat is free, how many messages a day, whether photo analysis is paid — it differs by app.\n\n## The bottom line\n\nChoose an AI coach app by **what the coach reads and what it does for you**, not by which AI seems smartest.\n\nIf you want photo feedback and a friendly push, try Simple. If you already count calories, MyFitnessPal's AI Coach. If logging speed is the problem, Cal AI. If you need a person, Noom. If workouts are the question, Fitbod. If you log but don't know what to change, you need a coach that reads your meals, sleep, steps, cycle and GLP-1 doses together and gives you one thing to do today. HAVIT is that coach — HAVI, built by former Juvis Diet experts.\n\n[Try HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "Data streams HAVIT's coach reads",
-          "value": "8",
-          "source": "Meals, hydration, workouts, sleep, steps, cycle, mood, GLP-1"
+          "label": "Share of cases where more digital self-monitoring meant more weight lost",
+          "value": "74%",
+          "source": "Patel et al. 2021, Obesity (systematic review of 39 RCTs)"
         },
         {
-          "label": "What a general assistant has no feed of",
-          "value": "Today's meals, sleep and steps",
-          "source": "Memory is not a live data feed"
+          "label": "Chatbot trials for activity, diet and sleep",
+          "value": "19 — improved steps, fruit and vegetables and sleep; 74% rated low quality",
+          "source": "Singh et al. 2023, npj Digital Medicine"
         },
         {
-          "label": "Trial length that exposes scripted personalisation",
-          "value": "~2 weeks, including one bad week",
-          "source": "This guide's testing method"
+          "label": "HAVIT App Store rating (US)",
+          "value": "4.7 (159 ratings)",
+          "source": "App Store, checked October 24, 2026"
         },
         {
-          "label": "Behaviour change techniques in the standard taxonomy",
-          "value": "93",
-          "source": "Michie et al. 2013, Ann Behav Med"
+          "label": "What HAVI reads together",
+          "value": "Meals, sleep, steps, cycle, mood, GLP-1 and more",
+          "source": "HAVIT app features"
         }
       ],
       "comparison_table": {
-        "title": "Side by side",
+        "title": "Side-by-side comparison",
         "headers": [
           "App",
-          "What the coach reads",
-          "Speaks first",
-          "Body composition",
-          "Cycle",
-          "GLP-1",
-          "Meditation & workouts"
+          "What the AI coach does",
+          "What it reads",
+          "Photos",
+          "Reaches out first",
+          "Free vs. paid",
+          "App Store (US)"
         ],
         "rows": [
           [
             "HAVIT",
-            "All 8 logs",
-            "Yes",
-            "Estimated",
-            "Yes",
-            "Yes",
-            "Yes"
+            "Plan from an opening conversation → reads your logs and suggests today's action",
+            "Meals, sleep, steps, cycle, mood, GLP-1 and more",
+            "Photos in chat (AI food scan is Premium)",
+            "10 p.m. evening recap (Premium)",
+            "Coach chat free (daily limit); unlimited with Premium",
+            "4.7 (159)"
+          ],
+          [
+            "Simple",
+            "Avo advice and motivation, Success Score",
+            "Food, water, activity, weight",
+            "Avo Vision (meals, menus, groceries)",
+            "Daily motivation from Blinky",
+            "Subscription",
+            "4.7 (409,590)"
+          ],
+          [
+            "MyFitnessPal",
+            "AI Coach insights and Q&A",
+            "Goals, habits, logging history",
+            "Meal scan (Premium)",
+            "Not stated in listing",
+            "Free + Premium",
+            "4.7 (2,383,099)"
+          ],
+          [
+            "Cal AI",
+            "Photo → nutrition breakdown",
+            "The photo you take",
+            "Yes (subscription)",
+            "Not stated in listing",
+            "Subscription for scan results",
+            "4.8 (372,229)"
           ],
           [
             "Noom",
-            "Meals, activity, weight",
-            "Human coach does",
-            "No",
-            "No",
-            "No",
-            "Content only"
+            "Human coaches, optional 1:1",
+            "Meals, steps, weight",
+            "AI food logging",
+            "Not stated in listing",
+            "Subscription",
+            "4.7 (873,560)"
           ],
           [
-            "Simple.Life",
-            "Fasting and meals",
-            "Yes",
-            "No",
-            "No",
-            "No",
-            "No"
+            "Fitbod",
+            "AI-generated workouts",
+            "Workout history, equipment",
+            "Not applicable",
+            "Not stated in listing",
+            "Subscription after trial",
+            "4.8 (288,172)"
           ],
           [
-            "Cal AI / photo loggers",
-            "The photo you just took",
-            "No",
-            "No",
-            "No",
-            "No",
-            "No"
-          ],
-          [
-            "General assistants",
-            "Only what you paste in",
-            "Only if scheduled",
-            "No",
-            "No",
-            "No",
-            "No"
+            "General AI",
+            "Answers questions, writes plans",
+            "What you type in",
+            "Photo upload",
+            "Only if you set it up",
+            "Free + paid",
+            "—"
           ]
         ],
-        "caption": "App characteristics as of October 2026."
+        "caption": "Based on US App Store listings as of October 24, 2026. \"Not stated in listing\" means we couldn't confirm it from the listing, not that the feature doesn't exist."
       },
       "faq": [
         {
           "question": "What is the best AI health coach app in 2026?",
-          "answer": "The one that reads your own logged data rather than only your chat messages. Ask it in the trial what you ate yesterday — if you have to paste the answer in, it is a chat window inside a tracker. Then check that it returns one concrete action rather than a plan, and that it adjusts when you have a bad week."
+          "answer": "It depends on what you need. If you log but don't know what to change, HAVIT's coach reads your meal, sleep, step, cycle and GLP-1 logs together. For photo feedback and friendly motivation, Simple; for AI guidance on top of calorie counting, MyFitnessPal; for the fastest photo logging, Cal AI; for a human coach, Noom; for workouts, Fitbod."
+        },
+        {
+          "question": "What does HAVIT's AI coach HAVI do?",
+          "answer": "HAVI starts with a conversation about your goal, whether you take a GLP-1 medication and its side effects, and your height, weight, waist and body shape, then builds a Body Blueprint and goal plan. After that it reads all your logs and suggests what to do today, and you can ask with a photo. At 10 p.m. you get an evening recap and can write a one-line commitment, with a count of how many you kept in the last 14 days (HAVIT Premium)."
+        },
+        {
+          "question": "Is HAVIT's AI coach free?",
+          "answer": "Coach chat is free with a daily limit. HAVIT Premium makes chat unlimited and unlocks the evening recap and commitments, daily check-in, AI food scan and macro breakdowns. Meal, weight, sleep, step, cycle and GLP-1 logging and the body composition estimate are free."
+        },
+        {
+          "question": "How is HAVIT different from Simple's Avo?",
+          "answer": "Simple's listing describes Avo giving personalized advice and Avo Vision giving feedback on photos of meals, menus or groceries, alongside a Success Score and a motivating character. HAVI starts by asking about GLP-1 medication and side effects and reads sleep, cycle and dose logs alongside your meals. If you want quick, friendly photo feedback, Simple fits; if you want a coach that reads everything you log, HAVIT does."
+        },
+        {
+          "question": "How is HAVIT different from MyFitnessPal's AI Coach?",
+          "answer": "MyFitnessPal's AI Coach gives insights based on your goals, habits and logging history inside a very large food database, and the app lets you log GLP-1 symptoms and set dose reminders. HAVIT's coach also reads sleep and your menstrual cycle, and adds an evening recap with a daily commitment. If calorie and macro counting is your core habit, MyFitnessPal fits; if you want the coach to connect your whole day, HAVIT does."
         },
         {
           "question": "How is an AI coaching app different from asking ChatGPT about my diet?",
-          "answer": "General assistants now remember across conversations and can message you on a schedule. What they still do not have is a live feed of today's meals, sleep and steps, so the connection between four days of low protein, two short nights and a flat weight has to be one you spell out yourself. A coaching app reads those streams continuously and speaks first from them."
+          "answer": "General assistants like ChatGPT are good at explanations and plans. The difference is daily data. A weight-loss app's coach reads the meals, steps and sleep already in the app, while a general assistant answers from what you paste in. On a day you don't, it doesn't know."
         },
         {
-          "question": "Is Noom's coach a real person or an AI?",
-          "answer": "A real person. Noom's core offer is a human coach you can message, alongside a psychology curriculum. That is also why it sits in the highest price bracket in this category. AI coaching is cheaper and available at 2am, but accountability to a person is a different product."
+          "question": "Is an AI coach or a human coach better?",
+          "answer": "It depends on you. A meta-analysis of 19 chatbot trials found chatbots increased steps, fruit and vegetable intake and sleep time, though most trials were low quality (Singh 2023). AI answers anytime and costs less; a human coach creates a relationship you feel accountable to. If you need to report to someone, consider a human coach such as Noom."
         },
         {
-          "question": "Is Cal AI an AI coach?",
-          "answer": "It is AI recognition rather than AI coaching. Photo-first apps are good at turning a plate into a log in seconds, which solves a real problem. But recognition answers \"what was that?\" — not \"what should I change?\" If logging speed is your blocker they are an excellent fit; if the blocker is knowing what to do next, they are not."
+          "question": "Can an AI coach replace a dietitian or doctor?",
+          "answer": "No. A good health AI doesn't diagnose and won't tell you to change a prescribed dose. HAVIT isn't a medical device, and its body composition estimate isn't a medical measurement. If you might have an eating disorder, have a diagnosed condition or are pregnant, see a professional first."
         },
         {
-          "question": "How do I tell if an app's personalisation is real?",
-          "answer": "Deliberately log a bad week. A real coaching system lowers the ask, changes the target, or asks what happened. A scripted one repeats the same cheerful nudge. It takes about two weeks to detect, which is why it is worth doing inside the free trial."
-        },
-        {
-          "question": "Can an AI coach replace a dietitian or therapist?",
-          "answer": "No. A good health AI declines to diagnose and will not tell you to change a prescribed dose — HAVIT included, as a wellness app rather than a medical device. For disordered eating, a diagnosed condition, or a deadline-bound athletic goal, see a professional."
+          "question": "Who makes HAVIT?",
+          "answer": "HAVIT is made by Havit Inc. and was built by experts who previously worked at Juvis Diet, a Korean weight-management brand where staff manage clients' diets and routines in person. That approach carries into HAVI and the 12-week program, which focus on body composition, such as fat and lean mass, rather than the scale alone."
         }
       ],
       "references": [
         {
-          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
-          "source": "Annals of Behavioral Medicine, 2013",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
+          "title": "Self-Monitoring via Digital Health in Weight Loss Interventions: A Systematic Review Among Adults with Overweight or Obesity (Patel, Wakayama & Bennett)",
+          "source": "Obesity, 2021 — 39 RCTs; greater digital self-monitoring linked to weight loss in 74% of occurrences; counseling and standalone arms had similar self-monitoring rates",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33624440/"
         },
         {
-          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
-          "source": "New England Journal of Medicine, 2002 (n=3,234)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
-        },
-        {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (topic under update); adults with BMI ≥30, clinician-delivered",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026 — HAVIT internal analysis of 1,090 GLP-1 users",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "Systematic review and meta-analysis of the effectiveness of chatbots on lifestyle behaviours (Singh et al.)",
+          "source": "npj Digital Medicine, 2023 — 19 trials; chatbots increased steps, fruit and vegetable intake and sleep duration; 74% of trials rated low quality",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37353578/"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-24"
     },
     "ko": {
       "title": "2026 AI 다이어트 코치 앱 추천 7선 — 코치가 무엇을 읽는지로 고르기",
