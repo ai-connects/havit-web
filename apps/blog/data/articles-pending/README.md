@@ -19,16 +19,20 @@ npm run build        # 확인
 
 ## 지금 대기 중
 
+명상 시리즈 8편 (2026-10-24, `type: guide`). 허브 1 + 앱 명상 5개 카테고리(호흡·이완 / 수면 / 집중·아침 활력 / 자기연민·감사 / 식욕·갈망)에 맞춘 7편.
+
 | slug | 타겟 질의 | 언어 | h2 |
 | --- | --- | --- | --- |
-| `best-diet-apps` | 다이어트 앱 추천 / best diet app | en, ko | 7 |
-| `best-ai-health-coach-apps` | AI 코치 앱 추천 / best AI health coach app | en, ko | 7 |
-| `best-calorie-counter-apps` | 칼로리 계산 앱 추천 / best calorie counting app | en, ko | 7 |
-| `best-food-logging-apps` | 식단 기록 앱 추천 / best food logging app | en, ko | 7 |
-| `best-body-composition-apps` | 체성분 측정 앱 추천 / body composition app | en, ko | 7 |
-| `best-habit-tracker-weight-loss` | 다이어트 습관 앱 추천 / habit tracker for weight loss | en, ko | 8 |
+| `guided-meditation-weight-loss-healthy-habits-guide-2026` | 다이어트 명상 / guided meditation for weight loss | 10개 언어 | 7 |
+| `meditation-for-food-cravings-5-minute-practice-2026` | 식욕 갈망 명상 / meditation for food cravings | 10개 언어 | 7 |
+| `meditation-for-emotional-stress-eating-2026` | 감정적 폭식 명상 / meditation for emotional eating | 10개 언어 | 8 |
+| `body-scan-sleep-meditation-10-minute-guide-2026` | 수면 명상 바디스캔 / body scan meditation for sleep | 10개 언어 | 7 |
+| `breathing-relaxation-meditation-stress-anxiety-2026` | 스트레스 불안 호흡 명상 / relaxation meditation for stress and anxiety | 10개 언어 | 8 |
+| `morning-meditation-focus-energy-5-minute-2026` | 아침 명상 집중력 / morning meditation for focus and energy | 10개 언어 | 7 |
+| `self-compassion-meditation-weight-loss-motivation-2026` | 자기연민 명상 / self-compassion meditation | 10개 언어 | 7 |
+| `meditation-for-beginners-5-minutes-anywhere-2026` | 초보자 명상 5분 / meditation for beginners | 10개 언어 | 8 |
 
-전부 `type: comparison`, `layout: hub`.
+명상 시리즈 검토 포인트: 참고문헌은 PubMed 에서 받은 실재 논문만(DOI·제목·저널·연도 일치를 스크립트로 검증), 본문의 연도·저널은 참고문헌 것만 허용. 초록에 결과가 없는 논문은 설계·가설까지만 서술. HAVIT 섹션은 앱 코드로 확인한 사실(명상 5개 카테고리, 시작 시 카테고리 선택)만 — 가격·세션 수 없음. **앱 명상 음원의 출처(저작권) 확인 전에는 게시 보류 권장.**
 
 ## 검토할 때 볼 것
 
