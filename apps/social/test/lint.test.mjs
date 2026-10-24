@@ -60,3 +60,8 @@ test('중국어 번체 소스와 면책 위치', () => {
   const d = { ...e, link: l, posts: ['嘴饞的時候，先給自己5分鐘看看那股衝動。你最常想吃什麼？'], first_reply: l, hashtags: [], evidence: [] };
   assert.match(lint(d, s).errors.join(), /면책/);
 });
+
+test('한국어 브랜드 표기는 하비트(하빗은 FAIL)', () => {
+  const d = good(); d.posts = ['하빗 앱에서 5분 명상을 해봐요. 어떤 음식이 떠올랐나요?'];
+  assert.match(lint(d, src).errors.join(), /금지어: 하빗/);
+});
