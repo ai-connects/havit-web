@@ -3,7 +3,7 @@
 // 이미 발행한 초안(published 기록)은 건너뛴다(재실행 안전). 긴급 중지가 켜져 있으면 아무것도 하지 않는다.
 import { readdirSync, statSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { config, readJson } from './lib/source.mjs';
+import { config, originLabel, readJson } from './lib/source.mjs';
 import { igToken, publishInstagram, publishThreads, threadsToken } from './lib/meta.mjs';
 import { hostImages } from './lib/media.mjs';
 
@@ -24,7 +24,7 @@ async function shareToSlack(d, url, media) {
   const blocks = [
     { type: 'section', text: { type: 'mrkdwn', text: `*${d.channel === 'instagram' ? 'Instagram' : 'Threads'} · ${LANG_NAME[d.lang] || d.lang}* — <${url}|게시물 보기>\n${head}` } },
     ...(media?.[0] ? [{ type: 'image', image_url: media[0], alt_text: head || d.slug }] : []),
-    { type: 'context', elements: [{ type: 'mrkdwn', text: `원문 글: https://www.aihavit.com/blog/${d.lang}/${d.slug}` }] },
+    { type: 'context', elements: [{ type: 'mrkdwn', text: `원문: ${originLabel(d)}` }] },
   ];
   try { await fetch(hook, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ text: `${LANG_NAME[d.lang]} ${url}`, blocks }) }); }
   catch (e) { console.log(`Slack 공유 실패: ${e.message}`); }

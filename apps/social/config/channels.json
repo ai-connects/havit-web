@@ -224,7 +224,6 @@
         5
       ],
       "formats": [
-        "quiz_carousel",
         "steps_carousel",
         "versus_carousel",
         "recipe_carousel",
@@ -237,7 +236,11 @@
       "enabled": true,
       "extra_slots": [
         {
-          "hour_key": "instagram_2"
+          "hour_key": "instagram_2",
+          "source": "quiz",
+          "formats": [
+            "app_quiz_carousel"
+          ]
         }
       ]
     },

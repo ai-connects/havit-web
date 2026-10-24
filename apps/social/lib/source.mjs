@@ -9,17 +9,57 @@ const ARTICLES = path.resolve(ROOT, '../blog/data/articles');
 const DATA_LANG = { ko: 'ko', ja: 'ja', en: 'en', zh: 'zh-CN', 'zh-tw': 'zh-TW', es: 'es', 'pt-br': 'pt-BR', id: 'id', de: 'de', fr: 'fr' };
 
 export function hasLang(slug, lang) {
+  if (isQuiz(slug)) return Boolean(quiz(slug).langs[lang]);
   return Boolean(readJson(path.join(ARTICLES, `${slug}.json`)).langs[DATA_LANG[lang]]);
 }
 
 export const readJson = (p) => JSON.parse(readFileSync(p, 'utf8'));
 export const config = (name) => readJson(path.join(ROOT, 'config', `${name}.json`));
 
+// 앱 퀴즈 라이브러리(config/quizzes.json, scripts/export_quizzes.sh) — slug 가 quiz- 로 시작한다. 원문 그대로 쓴다.
+export const isQuiz = (slug) => slug.startsWith('quiz-');
+let QUIZZES = null;
+const quiz = (id) => {
+  QUIZZES ||= new Map(config('quizzes').quizzes.map((q) => [q.id, q]));
+  const q = QUIZZES.get(id);
+  if (!q) throw new Error(`퀴즈 라이브러리에 없다: ${id}`);
+  return q;
+};
+export const quizSlugs = () => config('quizzes').quizzes.map((q) => q.id);
+
+/** 발행물이 나온 원문 위치(사람 검토·Slack 링크용). */
+export const originLabel = (d) =>
+  isQuiz(d.slug) ? `앱 퀴즈 ${d.slug}` : `https://www.aihavit.com/blog/${d.lang}/${d.slug}`;
+
+function loadQuiz(slug, lang) {
+  const q = quiz(slug);
+  const L = q.langs[lang];
+  if (!L) throw new Error(`${slug} 에 ${lang} 판이 없다`);
+  return {
+    slug,
+    lang,
+    category: 'quiz',
+    kind: 'app_quiz',
+    title: L.title,
+    quiz_statement: L.quiz_text,
+    answer: q.answer, // O = 맞다, X = 틀리다
+    explanation: L.explanation,
+    reference: L.reference,
+    key_stats: [],
+    faq: [],
+    h2: [],
+    steps: [],
+    url: `https://www.aihavit.com/blog/${config('channels').langs[lang].route}`,
+    _text: [L.title, L.quiz_text, L.explanation, L.reference].join('\n'),
+  };
+}
+
 export function verifiedSlugs() {
   return config('sources').sources.map((s) => s.slug);
 }
 
 export function loadSource(slug, lang) {
+  if (isQuiz(slug)) return loadQuiz(slug, lang);
   if (!verifiedSlugs().includes(slug)) {
     throw new Error(`검증되지 않은 글은 SNS 소스로 쓸 수 없다: ${slug} (config/sources.json)`);
   }

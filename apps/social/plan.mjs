@@ -1,11 +1,11 @@
-// 하루치 발행 계획: 켜진 채널(enabled)×언어마다 1건. 글은 그 계정에서 가장 오래 안 쓴 검증 글, 포맷은 날짜로 돌린다.
+// 하루치 발행 계획: 켜진 채널(enabled)×언어×슬롯마다 1건. 퀴즈 슬롯(source: 'quiz')은 앱 퀴즈 라이브러리를 쓴다. 글은 그 계정에서 가장 오래 안 쓴 검증 글, 포맷은 날짜로 돌린다.
 //   node plan.mjs 2026-10-26            → queue/plan-2026-10-26.json (그날 하루)
 //   node plan.mjs 2026-10-26 7          → 그날부터 7일
 // 발행 시각(publish_at, UTC)은 config/channels.json 의 langs.*.tz / post_hours(현지 시각).
 import { existsSync, mkdirSync, readdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { config, hasLang, readJson, verifiedSlugs } from './lib/source.mjs';
+import { config, hasLang, quizSlugs, readJson, verifiedSlugs } from './lib/source.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const QUEUE = path.join(ROOT, 'queue');
@@ -65,7 +65,8 @@ for (let i = 0; i < Number(days); i++) {
     slots.forEach((slot, si) => {
       const formats = slot.formats || rule.formats;
       rule.langs.forEach((lang, li) => {
-        const pool = slugs.filter((s) => hasLang(s, lang));
+        // source: 'quiz' 슬롯은 앱 퀴즈 라이브러리에서, 나머지는 검증된 블로그 글에서 고른다.
+        const pool = (slot.source === 'quiz' ? quizSlugs() : slugs).filter((s) => hasLang(s, lang));
         // 가장 오래 안 쓴 글(안 쓴 글 우선). 같은 날 같은 언어의 IG·Threads 가 같은 글을 쓰지 않게 계정마다 시작점을 비튼다.
         const ranked = pool
           .map((s, j) => ({ s, used: lastUsed.get(`${channel}:${lang}:${s}`) || '', tie: (j + a * 7 + dayIndex(date)) % pool.length }))
