@@ -85,7 +85,7 @@
             "Not tested for sleep"
           ]
         ],
-        "caption": "Based on Howatson et al. 2012, Losso et al. 2018, Pigeon et al. 2010 and Burkhardt et al. 2001. Product sugar content varies by brand."
+        "caption": "Based on small published trials and food-composition data. Product sugar content varies by brand."
       },
       "faq": [
         {
@@ -217,7 +217,7 @@
             "-"
           ]
         ],
-        "caption": "출처: Howatson 외 2012, Losso 외 2018, Pigeon 외 2010, Burkhardt 외 2001. 두 방법을 직접 비교한 연구는 없습니다."
+        "caption": "소규모 임상시험과 식품 성분 분석 자료를 바탕으로 정리했습니다. 두 방법을 직접 비교한 연구는 없습니다."
       },
       "faq": [
         {
@@ -354,7 +354,7 @@
             "睡眠では未検証"
           ]
         ],
-        "caption": "Howatson et al. 2012、Losso et al. 2018、Pigeon et al. 2010、Burkhardt et al. 2001に基づく。糖質量はブランドにより異なります。"
+        "caption": "小規模な臨床試験と食品成分の分析データをもとに作成。糖質量はブランドにより異なります。"
       },
       "faq": [
         {
@@ -491,7 +491,7 @@
             "未在睡眠方面测试"
           ]
         ],
-        "caption": "依据Howatson等 2012、Losso等 2018、Pigeon等 2010及Burkhardt等 2001。产品含糖量因品牌而异。"
+        "caption": "依据已发表的小型试验和食物成分数据整理。产品含糖量因品牌而异。"
       },
       "faq": [
         {
@@ -628,7 +628,7 @@
             "未在睡眠方面測試"
           ]
         ],
-        "caption": "依據Howatson等 2012、Losso等 2018、Pigeon等 2010及Burkhardt等 2001。產品含糖量依品牌而異。"
+        "caption": "依據已發表的小型試驗與食物成分資料整理。產品含糖量依品牌而異。"
       },
       "faq": [
         {
@@ -767,7 +767,7 @@
             "No probadas para el sueño"
           ]
         ],
-        "caption": "Basado en Howatson et al. 2012, Losso et al. 2018, Pigeon et al. 2010 y Burkhardt et al. 2001. El azúcar varía según la marca."
+        "caption": "Basado en ensayos pequeños publicados y datos de composición de alimentos. El azúcar varía según la marca."
       },
       "faq": [
         {
@@ -905,7 +905,7 @@
             "Não testadas para sono"
           ]
         ],
-        "caption": "Baseado em Howatson et al. 2012, Losso et al. 2018, Pigeon et al. 2010 e Burkhardt et al. 2001. O açúcar varia conforme a marca."
+        "caption": "Baseado em pequenos estudos publicados e dados de composição de alimentos. O açúcar varia conforme a marca."
       },
       "faq": [
         {
@@ -1044,7 +1044,7 @@
             "Belum diuji untuk tidur"
           ]
         ],
-        "caption": "Berdasarkan Howatson dkk. 2012, Losso dkk. 2018, Pigeon dkk. 2010, dan Burkhardt dkk. 2001. Kandungan gula bervariasi menurut merek."
+        "caption": "Berdasarkan uji klinis kecil yang telah dipublikasikan dan data komposisi pangan. Kandungan gula bervariasi menurut merek."
       },
       "faq": [
         {
@@ -1183,7 +1183,7 @@
             "Non testées pour le sommeil"
           ]
         ],
-        "caption": "D'après Howatson et al. 2012, Losso et al. 2018, Pigeon et al. 2010 et Burkhardt et al. 2001. La teneur en sucre varie selon la marque."
+        "caption": "D'après de petits essais publiés et des données de composition des aliments. La teneur en sucre varie selon la marque."
       },
       "faq": [
         {
@@ -1322,7 +1322,7 @@
             "Nicht für Schlaf getestet"
           ]
         ],
-        "caption": "Basierend auf Howatson et al. 2012, Losso et al. 2018, Pigeon et al. 2010 und Burkhardt et al. 2001. Zuckergehalt variiert je nach Marke."
+        "caption": "Basierend auf kleinen veröffentlichten Studien und Daten zur Lebensmittelzusammensetzung. Zuckergehalt variiert je nach Marke."
       },
       "faq": [
         {
@@ -1385,7 +1385,7 @@
     }
   },
   "generated_at": "2026-05-24T12:10:00.310Z",
-  "updated_at": "2026-10-08T06:59:10.000Z",
+  "updated_at": "2026-10-24T03:37:37.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
