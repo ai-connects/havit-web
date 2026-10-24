@@ -40,6 +40,14 @@ const heroUrl = (slug) => {
 };
 
 const file = (p) => `file://${p}`;
+import { TAGLINE } from './lib/brand.mjs';
+const BADGES = path.resolve(ROOT, '../blog/public/badges');
+const BADGE_DIR = { 'zh-tw': 'zh-tw', 'pt-br': 'pt-br' };
+const badges = (lang) => {
+  const dir = path.join(BADGES, BADGE_DIR[lang] || lang);
+  const d = existsSync(dir) ? dir : path.join(BADGES, 'en');
+  return `<div style="display:flex;gap:24px;margin-top:48px"><img src="${file(path.join(d, 'app-store.svg'))}" style="height:96px"><img src="${file(path.join(d, 'google-play.png'))}" style="height:96px"></div>`;
+};
 const CHAR = { knight: file(path.join(WEB, 'cta/knight.webp')), dino: file(path.join(WEB, 'cta/dino.webp')), peek: file(path.join(WEB, 'cta/peek.webp')) };
 const LOGO_W = file(path.join(WEB, 'havit-logo-white.svg'));
 const LOGO = file(path.join(WEB, 'havit-logo.svg'));
@@ -148,6 +156,7 @@ function cta(d, s) {
   <div style="margin:auto 0;padding-bottom:120px">
     <h1 style="font-size:${tier(s.title, d.lang, [104, 90, 78], [16, 26])}px">${nl(s.title)}</h1>
     ${s.body ? `<p style="font-size:46px;margin-top:32px">${nl(s.body)}</p>` : ''}
+    ${d.slug?.startsWith('art-') || d.slug?.startsWith('quiz-') ? badges(d.lang) + (TAGLINE[d.lang] ? `<p style="font-size:34px;margin-top:36px;opacity:.75">${TAGLINE[d.lang]}</p>` : '') : ''}
   </div>
   <img class="char" src="${CHAR.dino}" style="width:260px">
 </div>`);
