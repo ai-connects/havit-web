@@ -850,123 +850,138 @@
       "last_updated": "2026-10-11"
     },
     "pt-BR": {
-      "title": "Melhores apps para registrar refeições em 2026: escolha pelo jeito como você largou",
-      "short_title": "Melhores apps para registrar refeições 2026",
-      "meta_description": "FatSecret, Tecnonutri, MyFitnessPal e HAVIT, um a um. As quatro formas como o hábito de registrar morre — o pedágio da busca, a parede da comida caseira, a brecha do constrangimento e a deriva — e qual app resolve cada uma.",
-      "tldr": "Ninguém para de registrar porque o app era impreciso. Diagnostique primeiro o seu jeito de largar: o pedágio da busca, a parede da comida caseira, a brecha do constrangimento ou a deriva para o inútil.",
-      "body_md": "Ninguém para de registrar refeições porque o app era impreciso. Para-se em **um momento específico**: nove da noite, cansado, diante de um prato caseiro com seis ingredientes, decidindo que não vale a pena.\n\nPor isso este guia começa pelas **quatro formas como o hábito de registrar morre** e só depois analisa os apps um a um.\n\n![O que acaba com o registro é o cansaço, não a imprecisão](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## As quatro formas como o registro morre\n\n**1. O pedágio da busca.** Toda refeição começa digitando, passa por uma lista de resultados quase idênticos e termina chutando. Trinta segundos, quatro vezes por dia.\n\n**2. A parede da comida caseira.** Industrializado entra fácil. Aí você cozinha, e um prato vira onze buscas.\n\n**3. A brecha do constrangimento.** O dia foi mal, você não quer ver aquilo escrito, você pula. **Esse é o dia em que o hábito quebra.**\n\n**4. A deriva para o inútil.** Cinco semanas registrando com disciplina e o app só devolve números. Começa a parecer contabilidade.\n\n## FatSecret — dá para ir longe sem pagar\n\n**O que faz bem.** A maior parte dos recursos funciona no plano gratuito: busca, código de barras, receitas, comunidade. Para quem o travamento era \"não quero assinar mais nada\", isso resolve.\n\n**Onde falha.** Não faz nada contra a brecha do constrangimento nem contra a deriva: depois do registro não há coaching que se ajuste.\n\n**Para quem.** Para quem quer consistência sem assinatura.\n\n## Tecnonutri — a comida brasileira aparece\n\n| | |\n| --- | --- |\n| Origem | Brasil |\n\n![Comida brasileira nem sempre está nas bases internacionais](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg)\n\n**O que faz bem.** Ataca o **pedágio da busca** no Brasil: encontra pratos e produtos que apps feitos para os Estados Unidos não reconhecem. É o que mais economiza tempo se você come comida daqui.\n\n**Onde falha.** O registro continua sendo buscar e digitar, então a parede da comida caseira segue de pé. Recursos completos são pagos.\n\n**Para quem.** Para quem travava procurando a comida do país.\n\n## MyFitnessPal — busque e você acha\n\n| | |\n| --- | --- |\n| Base de alimentos | Mais de 14 milhões, em boa parte de usuários |\n\n**O que faz bem.** A cobertura mais ampla que existe: redes, marcas pouco conhecidas, importados. Código de barras maduro.\n\n**Onde falha.** **Buscar é a interação central**, e buscar é o pedágio. Um produto aparece muitas vezes com valores diferentes.\n\n**Para quem.** Para quem come sobretudo industrializado e de rede.\n\n## HAVIT — feito para as quatro\n\n| | |\n| --- | --- |\n| Desenvolvedor | Havit Inc. |\n| Base de alimentos | ~486.000 entradas de órgãos públicos (432.418 do USDA) |\n| Registra | Refeições, hidratação, treinos, sono, passos, ciclo, humor, GLP-1 |\n\n![Scanner de comida com IA: fotografe o prato e pule a busca](/blog/havit/shot/feature-nutrition.webp)\n\n**A parede da comida caseira** cai com o **scanner de comida com IA**: fotografe o prato e receba uma estimativa de calorias e nutrientes, sem buscar onze ingredientes.\n\n**O pedágio da busca** diminui por procedência. As ~486.000 entradas vêm de **órgãos públicos de alimentação**, não de envios de usuários, então você não compara nove versões do mesmo iogurte para descobrir qual é a boa.\n\n![Check-in diário: é assim que um dia ruim entra sem encerrar tudo](/blog/havit/shot/feature-daily-check-in.webp)\n\n**A brecha do constrangimento** é coberta pelo **check-in diário**. Dizer \"hoje foi difícil\" em alguns toques pesa menos do que registrar um dia que você preferia esquecer, e mantém o fio sem romper.\n\n**A deriva para o inútil** é para o que existe o **coach de IA**: lê os oito registros e devolve **uma ação concreta para hoje** em vez de uma página de números.\n\nEm cima disso: **missões diárias**, **seis faixas de meditação guiada**, **vídeos de treino**, **jejum**, **mais de 1.400 artigos**, estimativa de composição corporal, sequências, medalhas, ranques e desafios em equipe. Criado com especialistas vindos da Juvis Diet, rede de clínicas de emagrecimento da Coreia.\n\n**Com honestidade**: se o seu único problema é achar produto brasileiro de mercado, o Tecnonutri reconhece melhor. O HAVIT ataca as outras três.\n\n**Para quem.** Para quem cozinha; para quem parou de registrar nos dias ruins; para quem precisa de algo depois do registro.\n\n## Comparação\n\n| App | Comida brasileira | Registro por foto | Aceita um dia ruim? | Depois do registro | Composição corporal |\n| --- | --- | --- | --- | --- | --- |\n| FatSecret | Média | Limitado | Não | Não | Não |\n| Tecnonutri | **Forte** | Limitado | Não | Orientação | Não |\n| MyFitnessPal | Média | Limitado | Não | Não | Não |\n| **HAVIT** | Limitada | **Sim** | **Check-in** | **Uma ação por dia** | **Estimada** |\n\nCaracterísticas de outubro de 2026.\n\n## Um teste de duas semanas\n\n1. **Registre primeiro a refeição mais difícil**, não um peito de frango: o prato caseiro com tudo misturado.\n2. **Registre o mesmo prato três dias depois** e conte os toques. Se não forem bem menos, você larga na quarta semana.\n3. **Tenha um dia ruim de propósito e registre.** Veja o que o app faz.\n4. **No dia catorze, pergunte o que ele te disse.** \"Meus números\" é livro-caixa. \"O que mudar\" é ferramenta.\n\n[Experimentar o HAVIT →](https://www.aihavit.com/)\n",
+      "title": "Apps para registrar refeições em 2026: 6 opções comparadas — foto, o que é grátis e coach de IA",
+      "short_title": "6 apps para registrar refeições em 2026",
+      "meta_description": "HAVIT, FatSecret, Tecnonutri, MyFitnessPal, Yazio e Lifesum comparados. Quais registram por foto, se esse recurso é grátis ou pago, e até onde vão macros e coach. Conforme a App Store do Brasil, outubro de 2026.",
+      "tldr": "No diário alimentar, importa mais registrar com frequência e sem interrupção do que registrar com perfeição. Escolha o app que alivia o momento em que você costuma largar: cansaço de buscar, comida caseira, dia de exagero ou números que só se acumulam. Reconhecimento por foto é grátis em uns e pago em outros (no HAVIT é Premium), então confira antes.",
+      "body_md": "Quase ninguém larga o diário alimentar porque o app era impreciso. A gente larga **num momento específico**: à noite, cansado, diante de um prato feito em casa com seis ingredientes, pensando \"não vou procurar tudo isso\", ou num dia de exagero em que não dá vontade de ver o número.\n\nPor isso este guia começa pelos quatro momentos em que o registro costuma parar e, para cada um, mostra **qual recurso de cada app ajuda — e se ele é grátis ou pago**. Comparamos seis apps de registro de refeições disponíveis na App Store brasileira: um brasileiro (Tecnonutri), quatro internacionais muito usados por aqui (FatSecret, MyFitnessPal, Yazio e Lifesum) e o HAVIT. Notas e recursos seguem a descrição oficial na App Store do Brasil em 24 de outubro de 2026. Não citamos preços porque eles mudam com frequência.\n\nO HAVIT é o app da equipe que escreveu este texto, formada por **especialistas vindos da Juvis Diet**, marca coreana de acompanhamento para emagrecimento. Por isso dizemos com todas as letras o que é pago no HAVIT e listamos também os casos em que ele não é a melhor escolha.\n\n![O que acaba com o registro é o cansaço, não a imprecisão](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## Resposta rápida: qual app para cada caso\n\n| Se você... | App | Por quê |\n| --- | --- | --- |\n| Quer registrar sem pagar nada | FatSecret | A descrição oficial diz que o app é gratuito; reconhecimento de imagem e leitor de código de barras estão na lista de recursos |\n| Quer resolver com uma foto | Lifesum · FatSecret · HAVIT (Premium) | Os três registram a refeição a partir de uma foto |\n| Quer cardápio pronto e conversa com nutricionista | Tecnonutri | Mais de 50 programas, cardápios de nutricionistas e chat com a equipe nutricional |\n| Come muito industrializado e de rede | MyFitnessPal | Mais de 20,5 milhões de alimentos, incluindo pratos de restaurante |\n| Quer juntar diário alimentar e jejum intermitente | Yazio | Contador de calorias e relógio de jejum grátis no mesmo app |\n| Usa GLP-1 (Wegovy, Ozempic, Mounjaro etc.) | **HAVIT** | Refeições, medicação, peso e estimativa de composição corporal no mesmo app (tudo grátis) |\n| Registra, mas não sabe o que mudar | **HAVIT** | O HAVI, coach de IA, lê todos os registros e diz o que fazer hoje |\n\n## Antes de escolher: os quatro momentos em que o registro para\n\nRegistrar o que se come é uma ferramenta básica de programas de emagrecimento. Uma revisão sistemática de 22 estudos encontrou uma **associação consistente** entre automonitoramento e perda de peso — mas, pelas limitações dos estudos, os autores classificaram o nível de evidência como **fraco** (Burke 2011). Num programa online de 6 meses com 142 participantes, o tempo gasto registrando caiu de **23,2 minutos por dia** no primeiro mês para **14,6 minutos** no sexto. E o que separou quem perdeu 5% ou mais do peso de quem não perdeu não foi o tempo gasto, e sim **quantas vezes por dia a pessoa abria o registro** (2,4 contra 1,6) (Harvey 2019).\n\nOu seja: mais do que registrar muito e com perfeição, vale registrar **com frequência e sem parar**. Escolha o app pelo quanto ele alivia o momento em que você costuma largar.\n\n**1. Quando cansa de buscar.** Toda refeição é digitar o nome e escolher entre resultados parecidos. O que procurar: salvar refeições e receitas para repetir (MyFitnessPal, Yazio e Lifesum citam isso na descrição) e leitor de código de barras. O leitor aparece na lista de recursos do FatSecret, no contador grátis do Yazio e no Lifesum; no MyFitnessPal, a descrição oficial coloca o leitor de código de barras no **Premium**.\n\n**2. Quando trava na comida caseira.** Industrializado entra fácil; o prato que você cozinhou exige ingrediente por ingrediente. O que procurar: reconhecimento por foto ou receitas salvas. A foto é grátis em uns e paga em outros: no HAVIT, o **scanner de comida com IA é Premium**. O reconhecimento de imagem do FatSecret não aparece entre os benefícios Premium da descrição oficial. O Lifesum registra por foto, voz, texto ou código de barras, mas a descrição não separa o que é grátis do que é pago.\n\n**3. No dia de exagero.** Dá vontade de pular para não ver o número, e no dia seguinte você pula de novo. O que procurar: um jeito leve de registrar como foi o dia sem ser só número, e um app que não trate esse dia apenas como fracasso. O **check-in diário do HAVIT (Premium)** registra disposição, sono, apetite e humor em poucos toques. O Tecnonutri tem grupos de comunidade para trocar experiências com quem segue a mesma dieta.\n\n**4. Quando os números só se acumulam.** Semanas de registro e o app só mostra totais; o motivo para continuar some. O que procurar: alguém que leia o registro e diga o que fazer em seguida. No HAVIT, é o **HAVI, o coach de IA** (no plano grátis, o chat tem limite diário). No Tecnonutri, é o chat com a equipe de nutricionistas, de segunda a sexta. O Lifesum dá um Life Score semanal com recomendações.\n\n## HAVIT — um coach de IA que lê o seu registro\n\n| | |\n| --- | --- |\n| Desenvolvedor | Havit Inc. |\n| Quem criou | Especialistas vindos da Juvis Diet, marca coreana de acompanhamento para emagrecimento |\n| App Store (EUA) | 4,7 (159 avaliações) — na loja brasileira ainda não há avaliações suficientes |\n| Grátis | Registro de refeições (busca ou digitação) com calorias por refeição; peso, água, sono, passos, jejum, humor, ciclo menstrual e GLP-1; estimativa de composição corporal; chat com o coach de IA (com limite diário) |\n| Premium | Scanner de comida com IA; carboidrato, proteína e gordura por refeição e por dia; calorias restantes; check-in diário; chat ilimitado; resumo da noite e compromisso; vídeos de treino, meditações guiadas e artigos |\n\n*Grátis e Premium conforme a configuração padrão do app em outubro de 2026; promoções podem liberar temporariamente alguns recursos do Premium.*\n\n![Scanner de comida com IA (Premium): uma foto e uma estimativa de calorias e nutrientes](/blog/havit/shot/feature-nutrition.webp)\n\n**O que vem de graça.** Você busca ou digita o alimento e vê as calorias de cada refeição. Além das refeições, peso, água, sono, passos, jejum, humor, ciclo menstrual e GLP-1 ficam no mesmo app, e a tendência de gordura e massa magra é estimada sem aparelho (não é medição médica). Enquanto um app de diário alimentar costuma olhar só comida e peso, aqui dá para ver na mesma tela quando o peso parou por causa do sono ou do ciclo.\n\n**O que o Premium libera.** O **scanner de comida com IA** resolve o momento da comida caseira: você tira a foto e recebe uma estimativa de calorias e nutrientes. A divisão em **carboidrato, proteína e gordura** por refeição e por dia e as **calorias restantes** também são Premium. Se você quer macros de graça, FatSecret, Yazio ou Tecnonutri podem servir melhor.\n\n### HAVI, o coach de IA — diz o que fazer depois de registrar\n\n![O coach de IA do HAVIT lê todos os registros e devolve uma ação para hoje](/blog/havit/shot/feature-ai-coach.webp)\n\nSe um app de diário alimentar é o lugar onde os totais aparecem, no HAVIT o centro é o **HAVI, o coach de IA**.\n\n**Primeiro, uma conversa.** O HAVI pergunta o seu objetivo, se você usa GLP-1 e se tem efeitos colaterais, além de altura, peso e outros dados do corpo, e com isso monta o seu **Body Blueprint** (o retrato do ponto de partida) e um plano para a meta.\n\n**No dia a dia, lê tudo junto.** Não só as refeições: sono, passos, ciclo e GLP-1 também entram, e ele sugere **uma ação para hoje**. Numa semana em que as calorias bateram e o peso não mexeu, por exemplo, ele olha o sono e os passos daquela semana e aponta o que mudar primeiro.\n\n**Dá para perguntar com foto.** Prato de restaurante e outras coisas difíceis de registrar você pode **mandar por foto** no chat e perguntar. O chat está no plano grátis, com limite diário; ilimitado é Premium.\n\n**E fecha o dia.** Às 22h chega o **resumo da noite**, e você pode deixar **um compromisso de uma linha** para amanhã. O app mostra quantas vezes você cumpriu nos últimos 14 dias (Premium).\n\n![Check-in diário (Premium): o dia de exagero também entra no registro](/blog/havit/shot/feature-daily-check-in.webp)\n\nCom o **check-in diário** (Premium) você registra disposição, sono, apetite e humor, e o HAVI já começa a conversa sabendo como está o seu dia. No dia de exagero, em vez de revisar refeição por refeição, alguns toques bastam para o dia não ficar em branco.\n\n### Feito por quem veio da Juvis Diet\n\nO HAVIT foi criado por **especialistas vindos da Juvis Diet**, uma marca coreana em que profissionais acompanham de perto a alimentação e a rotina de quem quer emagrecer. Esse método está no coach e no programa de 12 semanas:\n\n- **Olhar a composição do corpo, não só o peso.** Por isso a estimativa de composição é grátis e proteína e treino de força ficam no centro do coaching.\n- **Mudar uma coisa de cada vez.** O programa de 12 semanas tem 12 etapas, e a missão não é marcada por você: quem decide se foi cumprida são os seus registros de refeições e passos.\n- **O dia ruim faz parte.** Numa missão de dias seguidos, a primeira falha não zera o progresso; na segunda, dá para continuar com um Protetor de Sequência; na terceira, recomeça.\n\n### Quando o HAVIT não é a melhor escolha\n\nSe você quer **macros de graça**, o HAVIT grátis não basta (vai até as calorias por refeição). Se quer **foto sem pagar**, teste primeiro o FatSecret, cujo reconhecimento de imagem não aparece como recurso Premium. Se prefere **cardápio pronto e falar com nutricionista**, o Tecnonutri combina mais. E se você come muito industrializado e de rede, o MyFitnessPal tem a base maior.\n\n**Para quem**: quem registra mas não sabe o que mudar, quem tem o peso enroscado com sono ou ciclo, e quem usa GLP-1 e quer registrar refeições e medicação juntos.\n\n## FatSecret — muita coisa no plano grátis\n\n| | |\n| --- | --- |\n| Desenvolvedor | Secret Industries Pty Ltd |\n| App Store (Brasil) | 4,9 (22.504 avaliações) |\n| Foto | Reconhecimento de imagem — registra refeições com fotos da câmera (descrição oficial) |\n| Grátis ou pago | Grátis + Premium (planos nutricionais, plano alimentar avançado, 6 tipos extras de refeição, contador de água) |\n\n**O que faz bem.** A descrição oficial começa dizendo que \"o fatsecret é gratuito\" e lista no Premium só planos nutricionais, plano alimentar avançado, seis tipos extras de refeição e contador de água. Diário alimentar, reconhecimento de imagem, leitor de código de barras, diário de exercícios, controle de peso, relatórios e comunidade estão na lista de recursos. Integra com o app Saúde da Apple, Fitbit e Apple Watch.\n\n**Onde deixa a desejar.** Não tem coach que leia o registro e sugira o próximo passo. A descrição em português mistura termos de Portugal e do Brasil, então vale testar se encontra os pratos que você come.\n\n**Para quem**: quem quer manter o registro sem assinatura.\n\n## Tecnonutri — brasileiro, com programas e nutricionistas\n\n| | |\n| --- | --- |\n| Desenvolvedor | Vitat Serviços em Saúde Ltda. |\n| App Store (Brasil) | 4,6 (26.022 avaliações) |\n| Foto | Registro por foto não aparece na descrição oficial |\n| Grátis ou pago | Download grátis; a descrição não detalha o que é pago |\n\n![Comida brasileira nem sempre está nas bases internacionais](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_CARB_001.jpg)\n\n**O que faz bem.** É o único app brasileiro da lista. Tem mais de 50 programas (low carb, cetogênica, jejum intermitente, mediterrânea e outros), cardápios e receitas feitos por nutricionistas e lista de compras semanal. O diário alimentar mostra calorias por refeição e por dia, com fibras, carboidratos, proteínas e gorduras. Tem chat com a equipe de nutricionistas de segunda a sexta, aulas ao vivo e grupos de comunidade. Preencher o diário rende pontos no app da Vitat.\n\n**Onde deixa a desejar.** A descrição não cita registro por foto, então prato caseiro continua sendo buscar e digitar. Também não detalha quais recursos são pagos — confira no app.\n\n**Para quem**: quem quer seguir um cardápio pronto e tirar dúvida com nutricionista.\n\n## MyFitnessPal — a maior base de alimentos\n\n| | |\n| --- | --- |\n| Desenvolvedor | MyFitnessPal, Inc. |\n| App Store (Brasil) | 4,9 (98.852 avaliações) |\n| Foto | Registro por foto não aparece na descrição oficial |\n| Grátis ou pago | Grátis + Premium (leitor de código de barras, jejum intermitente, metas de macros personalizadas, sem anúncios) |\n\n**O que faz bem.** Segundo a descrição oficial, são **mais de 20,5 milhões de alimentos**, incluindo pratos de restaurante. Mostra a proporção de carboidrato, gordura e proteína, permite salvar refeições e receitas e conecta com mais de 40 apps e aparelhos. Tem fóruns de comunidade. É o app com mais avaliações na loja brasileira entre os desta lista.\n\n**Onde deixa a desejar.** Com tanta coisa na base, escolher o item certo na busca leva tempo; salvar o que você come sempre ajuda. Pela descrição oficial, o **leitor de código de barras é Premium**.\n\n**Para quem**: quem come muito industrializado, importado ou de rede.\n\n## Yazio — diário alimentar e jejum no mesmo app\n\n| | |\n| --- | --- |\n| Desenvolvedor | YAZIO GmbH |\n| App Store (Brasil) | 4,8 (70.625 avaliações) |\n| Foto | Fala em \"contador de calorias com IA\", mas não deixa claro se reconhece foto |\n| Grátis ou pago | Grátis + Yazio Pro (análise de nutrientes, vitaminas e minerais, planos alimentares, humor e sintomas, medidas corporais) |\n\n**O que faz bem.** O contador grátis traz mais de 4 milhões de alimentos, leitor de código de barras e registro de macronutrientes; o relógio de jejum também é grátis, com planos como 16:8 e 5:2. São mais de 2.900 receitas, com lista de compras. Dá para começar sem cadastro.\n\n**Onde deixa a desejar.** Análise de nutrientes, de vitaminas e minerais e os planos alimentares são do Pro.\n\n**Para quem**: quem quer juntar diário alimentar e jejum intermitente.\n\n## Lifesum — foto, voz, texto ou código de barras\n\n| | |\n| --- | --- |\n| Desenvolvedor | Lifesum AB |\n| App Store (Brasil) | 4,8 (14.232 avaliações) |\n| Foto | Sim — foto da refeição para informação nutricional (descrição oficial) |\n| Grátis ou pago | Grátis com opções Premium (a descrição não detalha a divisão) |\n\n**O que faz bem.** Registra a refeição do jeito que for mais fácil na hora: foto, voz, digitação, código de barras ou registro rápido. Tem contador de calorias e macros, avaliação dos alimentos, planos alimentares, jejum intermitente, água e um Life Score semanal com recomendações. Sincroniza com o app Saúde da Apple.\n\n**Onde deixa a desejar.** A descrição não diz quais desses recursos são grátis e quais são pagos — confira antes de se acostumar com a foto.\n\n**Para quem**: quem quer variar entre foto, voz e digitação conforme a refeição.\n\n## Registro por foto: até onde dá para confiar\n\nA vantagem da foto é a velocidade. Diante de um prato misturado, o que decide entre **registrar ou não** costuma ser o tempo, mais que a precisão.\n\nSó que a foto não mostra o que **não aparece**: o óleo do refogado, o tempero dissolvido no caldo, o que está embaixo do arroz e do feijão. Trate o valor da foto como ponto de partida e corrija à mão quando a porção fugir do normal ou o prato for gorduroso. O Cal AI, app internacional focado em foto (4,9 na App Store do Brasil, 6.055 avaliações), diz na própria descrição que **os resultados da análise por foto exigem assinatura**. Reconhecimento por foto costuma ser pago nesse tipo de app, então confira o que é grátis antes de começar.\n\n## Comparação rápida\n\n| App | App Store | Registro por foto | Macros | Coach | Grátis ou pago |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | 4,7 (159, EUA) | **Scanner com IA (Premium)** | Premium | HAVI (grátis com limite diário) | Grátis + Premium |\n| FatSecret | 4,9 (22.504) | Reconhecimento de imagem | Informação nutricional | Não | Grátis + Premium |\n| Tecnonutri | 4,6 (26.022) | Não aparece na descrição | Por refeição e por dia | Chat com nutricionistas | Download grátis |\n| MyFitnessPal | 4,9 (98.852) | Não aparece na descrição | Sim (metas personalizadas no Premium) | Não | Grátis + Premium |\n| Yazio | 4,8 (70.625) | Não está claro | Sim | Não | Grátis + Pro |\n| Lifesum | 4,8 (14.232) | Sim | Sim | Life Score semanal | Grátis + Premium |\n\nNotas e recursos conforme a descrição oficial na App Store do Brasil em 24/10/2026 (HAVIT: App Store dos EUA, porque a loja brasileira ainda não tem avaliações suficientes). Recursos que não aparecem na descrição podem existir no app.\n\n## Teste de duas semanas para achar o seu app\n\n1. **Comece pela refeição mais difícil.** Não o peito de frango: o prato caseiro com vários ingredientes.\n2. **Registre a mesma refeição de novo três dias depois** e conte quantos toques foram.\n3. **Registre também o dia de exagero** e veja como o app mostra esse dia.\n4. **No 14º dia, pergunte:** o app me disse **o que mudar**, e não só os meus números?\n\nComo no estudo citado acima, é normal o tempo de registro encolher com o tempo (Harvey 2019). O app que você abriu todos os dias durante duas semanas é o que vai ficar.\n\n## Resumindo\n\nEscolha o app de registro pelo **momento em que você costuma largar**. Para registrar sem pagar, FatSecret; para resolver com uma foto, Lifesum, FatSecret ou o Premium do HAVIT; para cardápio pronto e nutricionista, Tecnonutri; para industrializados, MyFitnessPal; para juntar com jejum, Yazio.\n\nSe o registro se acumula e você não sabe o que mudar, falta alguém que leia tudo e diga o próximo passo. O HAVIT é o app em que especialistas vindos da Juvis Diet transformaram esse acompanhamento num coach de IA.\n\n[Experimentar o HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Formas como o hábito de registrar morre",
-          "value": "4",
-          "source": "Pedágio da busca, parede da comida caseira, brecha do constrangimento, deriva"
+          "label": "Aberturas do registro por dia — quem perdeu 5% ou mais x quem não perdeu",
+          "value": "2,4 x 1,6 vezes por dia",
+          "source": "Harvey et al. 2019, Obesity (programa online de 6 meses, 142 pessoas)"
         },
         {
-          "label": "Base de alimentos do HAVIT",
-          "value": "~486.000 entradas",
-          "source": "432.418 USDA + 41.218 MFDS (Coreia) + 12.671 curadas"
+          "label": "Tempo diário gasto registrando",
+          "value": "23,2 min no 1º mês → 14,6 min no 6º mês",
+          "source": "Harvey et al. 2019, Obesity"
         },
         {
-          "label": "Entradas do MyFitnessPal",
-          "value": "Mais de 14 milhões",
-          "source": "Em boa parte enviadas por usuários"
+          "label": "Automonitoramento e perda de peso",
+          "value": "Associação consistente (nível de evidência fraco)",
+          "source": "Burke, Wang & Sevick 2011, J Am Diet Assoc (revisão de 22 estudos)"
         },
         {
-          "label": "Tempo de teste que revela o seu jeito de largar",
-          "value": "2 semanas, com um dia ruim registrado",
-          "source": "Teste deste guia"
+          "label": "Apps comparados",
+          "value": "6",
+          "source": "Descrição oficial na App Store do Brasil, 24/10/2026"
         }
       ],
       "comparison_table": {
-        "title": "Comparação",
+        "title": "Comparação rápida",
         "headers": [
           "App",
-          "Comida brasileira",
+          "App Store",
           "Registro por foto",
-          "Aceita um dia ruim?",
-          "Depois do registro",
-          "Composição corporal"
+          "Macros",
+          "Coach",
+          "Grátis ou pago"
         ],
         "rows": [
           [
+            "HAVIT",
+            "4,7 (159, EUA)",
+            "Scanner com IA (Premium)",
+            "Premium",
+            "HAVI (grátis com limite diário)",
+            "Grátis + Premium"
+          ],
+          [
             "FatSecret",
-            "Média",
-            "Limitado",
+            "4,9 (22.504)",
+            "Reconhecimento de imagem",
+            "Informação nutricional",
             "Não",
-            "Não",
-            "Não"
+            "Grátis + Premium"
           ],
           [
             "Tecnonutri",
-            "Forte",
-            "Limitado",
-            "Não",
-            "Orientação",
-            "Não"
+            "4,6 (26.022)",
+            "Não aparece na descrição",
+            "Por refeição e por dia",
+            "Chat com nutricionistas",
+            "Download grátis"
           ],
           [
             "MyFitnessPal",
-            "Média",
-            "Limitado",
+            "4,9 (98.852)",
+            "Não aparece na descrição",
+            "Sim (metas personalizadas no Premium)",
             "Não",
-            "Não",
-            "Não"
+            "Grátis + Premium"
           ],
           [
-            "HAVIT",
-            "Limitada",
+            "Yazio",
+            "4,8 (70.625)",
+            "Não está claro",
             "Sim",
-            "Check-in",
-            "Uma ação por dia",
-            "Estimada"
+            "Não",
+            "Grátis + Pro"
+          ],
+          [
+            "Lifesum",
+            "4,8 (14.232)",
+            "Sim",
+            "Sim",
+            "Life Score semanal",
+            "Grátis + Premium"
           ]
         ],
-        "caption": "Características de outubro de 2026."
+        "caption": "Conforme a descrição oficial na App Store do Brasil em 24/10/2026 (HAVIT: App Store dos EUA). Recursos que não aparecem na descrição podem existir no app."
       },
       "faq": [
         {
           "question": "Qual é o melhor app para registrar refeições?",
-          "answer": "Depende de como você largou da última vez. Se te esgotou buscar cada prato, você precisa de uma base que reconheça a comida brasileira. Se o bloqueio era a comida caseira, você precisa de registro por foto. Se você parava nos dias ruins, precisa de um app que aceite um registro parcial sem quebrar nada. Se registrou semanas e nada te disse o que mudar, precisa de coaching."
+          "answer": "Depende de onde você costuma parar. Para registrar sem pagar, FatSecret; para resolver com foto, Lifesum, FatSecret ou o Premium do HAVIT; para cardápio pronto e chat com nutricionista, Tecnonutri; para industrializados e redes, MyFitnessPal; para juntar com jejum, Yazio. Se você registra mas não sabe o que mudar, experimente o HAVI, o coach de IA do HAVIT, que lê todos os registros e sugere a ação de hoje."
         },
         {
-          "question": "Como registro comida caseira sem largar?",
-          "answer": "Duas coisas funcionam: fotografar o prato pronto e corrigir a estimativa, ou montar a receita uma vez e reutilizar como uma entrada só. Buscar onze ingredientes toda vez é o que acaba com o hábito; se um app te obriga a isso, ele não combina com o seu jeito de comer."
+          "question": "O que dá para fazer de graça?",
+          "answer": "Os seis dá para começar de graça, mas o alcance muda. No HAVIT, o grátis vai até registro de refeições (busca ou digitação) com calorias por refeição, registro de peso, sono, passos, GLP-1 e outros, estimativa de composição corporal e chat com o coach de IA com limite diário; scanner de comida com IA, macros, calorias restantes e check-in diário são Premium. No FatSecret, a descrição oficial põe no Premium só planos nutricionais, plano alimentar avançado, refeições extras e contador de água. No Yazio, contador de calorias, código de barras e relógio de jejum são grátis. No MyFitnessPal, o leitor de código de barras é Premium."
         },
         {
-          "question": "Devo registrar nos dias em que como demais?",
-          "answer": "Principalmente nesses. São os dias com mais informação e pulá-los é como o hábito quebra. Se o seu app transforma um dia ruim em punição, troque o app e não o comportamento. O check-in diário do HAVIT aceita \"hoje foi difícil\" em alguns toques para o fio não se romper."
+          "question": "Quais apps registram a refeição por foto?",
+          "answer": "Pela descrição oficial na App Store do Brasil: Lifesum (foto, voz, texto ou código de barras), FatSecret (reconhecimento de imagem) e HAVIT (scanner de comida com IA, Premium). O Cal AI também é focado em foto, mas a descrição avisa que os resultados exigem assinatura. Tecnonutri e MyFitnessPal não citam foto na descrição, e o Yazio fala em contador com IA sem deixar claro se reconhece foto."
         },
         {
-          "question": "Os produtos de mercado brasileiros aparecem?",
-          "answer": "Depende do app. Os pensados para o Brasil, como o Tecnonutri, reconhecem bem melhor o produto daqui. O HAVIT se apoia em dados públicos americanos e coreanos, então nesse ponto não compete; a força dele está no que acontece depois do registro."
+          "question": "As calorias calculadas pela foto são precisas?",
+          "answer": "Use como ponto de partida. A foto não mostra o óleo do refogado, o tempero do caldo ou o que está embaixo do arroz. Quando a porção fugir do normal ou o prato for gorduroso, corrija à mão. Ainda assim, registrar de forma aproximada é melhor do que pular."
         },
         {
-          "question": "O tamanho da base de dados importa?",
-          "answer": "Menos do que a procedência. O MyFitnessPal tem mais de 14 milhões de entradas, mas em boa parte enviadas por usuários, e por isso um mesmo produto volta como uma dúzia de entradas quase idênticas com valores diferentes. As ~486.000 do HAVIT vêm de órgãos públicos, então dá para dizer de onde saiu cada número."
+          "question": "Preciso registrar o dia em que comi demais?",
+          "answer": "Sim, nem que seja rapidinho. No estudo de 6 meses, quem perdeu 5% ou mais não gastava mais tempo registrando: abria o registro mais vezes por dia (Harvey 2019). Se não der para lançar tudo, uma nota ou uma foto já mantêm o hábito. No HAVIT, o check-in diário (Premium) registra disposição, apetite e humor em poucos toques."
         },
         {
-          "question": "Quanto tempo leva para saber se um app serve para mim?",
-          "answer": "Duas semanas. Registre no primeiro dia a refeição mais difícil, repita o mesmo prato três dias depois e conte os toques, tenha um dia ruim de propósito e registre, e no dia catorze pergunte o que o app te disse."
+          "question": "O que o coach de IA do HAVIT faz?",
+          "answer": "No começo, pergunta numa conversa o seu objetivo, se você usa GLP-1 e dados do corpo, e monta o Body Blueprint e um plano para a meta. Depois, lê refeições, sono, passos, ciclo e GLP-1 juntos e sugere a ação de hoje; também dá para perguntar mandando foto. No grátis, o chat tem limite diário; chat ilimitado e o resumo da noite (22h) com compromisso de uma linha são Premium."
+        },
+        {
+          "question": "Quem criou o HAVIT?",
+          "answer": "Especialistas vindos da Juvis Diet, marca coreana de acompanhamento para emagrecimento em que profissionais cuidam de perto da alimentação e da rotina dos clientes. Esse método foi levado para o coach de IA e o programa de 12 semanas, que olham a composição do corpo (gordura e massa magra), não só o peso. O desenvolvedor é a Havit Inc."
         }
       ],
       "references": [
         {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 estudos, 15 sobre automonitoramento dietético; autores classificam o nível de evidência como fraco",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+          "source": "Journal of the American Dietetic Association, 2011 — 22 estudos (15 sobre automonitoramento alimentar); associação consistente com perda de peso, nível de evidência fraco",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grau B",
-          "source": "U.S. Preventive Services Task Force, 2018 (tópico em atualização); adultos com IMC ≥30, entregue por clínico",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "Relatório de Hábitos GLP-1 2026 — análise interna HAVIT de 1.090 usuários de GLP-1",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "Log Often, Lose More: Electronic Dietary Self-Monitoring for Weight Loss (Harvey, Krukowski, Priest & West)",
+          "source": "Obesity, 2019 — programa online de 24 semanas, n=142; 23,2 → 14,6 min/dia; quem perdeu ≥5% abria o registro 2,4 x 1,6 vezes por dia",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30801989/"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-24"
     },
     "id": {
       "title": "Aplikasi Pencatat Makanan Terbaik 2026: Pilih dari Cara Anda Berhenti Terakhir Kali",
