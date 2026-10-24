@@ -6,6 +6,7 @@
 plan.mjs      계정(채널×언어)별 주당 빈도로 2주 계획 → queue/plan-<시작일>.json
 generate.mjs  계획 슬롯마다 Claude 로 초안 → 검사(실패 시 1회 재생성) → queue/<날짜>/*.json (approved:false)
 lint.mjs      사람이 고친 초안 재검사
+approve.mjs   검토 후 일괄 승인(PASS 만, --except/--only 로 제외·선택)
 render.mjs    초안 → 이미지(PNG 1080×1350): IG 는 슬라이드마다, 나머지는 카드 1장
 review_html.mjs  이미지 포함 검토 페이지
 ```
@@ -27,8 +28,8 @@ npm test
 
 | 채널 | 언어 | 주당 |
 |---|---|---|
-| Threads | ko · ja · en (언어별 계정) | 5 |
-| Instagram | ko · ja · en (언어별 계정) | 3 |
+| Threads | 블로그 10개 언어(ko·ja·en·zh-tw·zh·es·pt-br·id·de·fr) 언어별 계정 | 7(매일) |
+| Instagram | 같은 10개 언어별 계정 (ko = `havit_app`) | 7(매일) |
 | Facebook 페이지 | en | 3 |
 | LinkedIn 회사 페이지 | en | 2 |
 | LinkedIn 창업자 개인 | ko · en | 2 |
