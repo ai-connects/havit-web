@@ -10,137 +10,146 @@
   "primary_keyword_ko": "식단 기록 앱 추천 2026 사진 식단 기록 앱 무료 식단 기록 앱",
   "langs": {
     "en": {
-      "title": "Best Food Logging Apps in 2026: Pick by How You Quit Last Time",
+      "title": "Best Food Logging Apps in 2026: 7 Apps Compared on Photo Logging, Free Features and AI Coaching",
       "short_title": "Best Food Logging Apps 2026",
-      "meta_description": "HAVIT, MyFitnessPal, Cronometer, FatSecret and photo-first loggers, taken one at a time. Four ways a logging habit dies — the search tax, the homemade wall, the shame gap, the pointlessness drift — and which app fixes each.",
-      "tldr": "Nobody quits food logging because the app was inaccurate. Diagnose your failure mode first: the search tax, the homemade wall, the shame gap, or the pointlessness drift.",
-      "body_md": "Nobody quits food logging because the app was inaccurate. They quit at a specific moment — standing in a kitchen at 9pm, tired, facing a bowl of something homemade with six ingredients, deciding it is not worth it.\n\nSo this guide starts with **the four ways a logging habit dies**, then takes the apps one at a time. Checked against store listings, October 2026.\n\n![What ends logging is fatigue, not inaccuracy](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## The four ways logging dies\n\n**1. The search tax.** Every meal starts with typing, then scrolling near-identical results, then guessing. Thirty seconds, four times a day.\n\n**2. The homemade wall.** Packaged food logs fine. Then you cook, and one bowl becomes eleven lookups.\n\n**3. The shame gap.** The day goes badly, you do not want to see it written down, you skip — and **that is the day the habit breaks.**\n\n**4. The pointlessness drift.** Five weeks of faithful logging, and the app only reports numbers back. It starts to feel like bookkeeping.\n\n## HAVIT — built to attack all four\n\n| | |\n| --- | --- |\n| Maker | Havit Inc. |\n| Price | Free · in-app purchases |\n| Food database | **~486,000 entries** — 432,418 USDA branded + 41,218 Korea MFDS + 12,671 curated |\n| Tracks | Meals, hydration, workouts, sleep, steps, cycle, mood, GLP-1 |\n\n![AI Food Scan — photograph the plate, skip the search](/blog/havit/shot/feature-nutrition.webp)\n\n**The homemade wall** goes down with **AI Food Scan**. Photograph the dish and get an estimated calorie and nutrient breakdown — no searching eleven ingredients.\n\n**The search tax** is cut by provenance. HAVIT's 486,000 entries come from **public food authorities** — 432,418 USDA branded foods and more — rather than user uploads, so you are not comparing nine near-identical versions of the same yoghurt to work out which is right.\n\n![Daily check-in — how a bad day enters the system without ending it](/blog/havit/shot/feature-daily-check-in.webp)\n\n**The shame gap** is covered by the **daily check-in**. Saying \"today was hard\" in a few taps is a lighter action than logging a day you would rather forget, and it keeps the thread unbroken.\n\n**The pointlessness drift** is what the **AI coach** exists for. It reads all eight logs and returns **one concrete action for today** rather than a page of numbers.\n\nOn top: **daily missions**, **six guided-meditation tracks**, **workout video**, **fasting**, **1,400+ articles**, body-composition estimates, streaks, badges, ranks and team challenges. Built with experts from Juvis Diet, a Korean diet clinic.\n\n**Who it suits:** people who cook; people who have stopped logging on bad days; people who need something after the log.\n\n## MyFitnessPal — search and you will find it\n\n| | |\n| --- | --- |\n| Price | Free · Premium subscription |\n| Database | 14M+ entries, heavily user-submitted |\n\n**What it does well.** The widest coverage there is — chain restaurants, obscure brands, foreign products. Mature barcode scanning.\n\n**Where it falls down.** Searching *is* the core interaction, and searching is the tax. One product appears many times at different values.\n\n**Who it suits:** people who eat mostly packaged and restaurant food.\n\n## Cronometer — fewer entries, better ones\n\n| | |\n| --- | --- |\n| Price | Free · Gold subscription |\n\n![When the nutrient detail actually matters](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_004.jpg)\n\n**What it does well.** Verified, curated entries and real micronutrient depth.\n\n**Where it falls down.** Smaller database, more manual entry. Your local bakery is not in it.\n\n**Who it suits:** people who need defensible nutrient numbers.\n\n## FatSecret — the most generous free tier\n\n| | |\n| --- | --- |\n| Price | Generous free tier · Premium separate |\n\n**What it does well.** Most of the basics work without paying. Barcode, recipes, community.\n\n**Where it falls down.** Fewer trend and body-composition features than the coaching-led apps.\n\n**Who it suits:** people who want to log consistently without subscribing.\n\n## Cal AI and photo-first loggers\n\n![The shortest path from plate to log](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_PRO_004.jpg)\n\n**What they do well.** Speed. For mixed dishes and other people's cooking, they decide whether a meal gets logged at all.\n\n**Where they fall down.** A model cannot see absorbed oil or weigh what is under the top layer. Read the figure as the midpoint of a range.\n\n**Who they suit:** people who quit tracking because it was slow.\n\n## Side by side\n\n| App | Database | Provenance | Photo logging | Accepts a bad day | After the log | Body composition |\n| --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | **~486k** | **Public authorities** | **Yes** | **Check-in** | **One action a day** | **Estimated** |\n| MyFitnessPal | 14M+ | User-submitted | Limited | No | No | No |\n| Cronometer | Smaller | Verified, curated | Limited | No | No | No |\n| FatSecret | Moderate | User-submitted | Limited | No | No | No |\n| Cal AI / photo | Model estimate | Image inference | **Yes** | No | Limited | No |\n\nApp characteristics as of October 2026.\n\n## A two-week test\n\n1. **Log your hardest meal first** — not a chicken breast, the mixed home-cooked one.\n2. **Log the same meal again three days later** and count the taps. If it is not dramatically fewer, you will quit in week four.\n3. **Deliberately have a bad day and log it.** Watch what the app does. A red banner teaches you to stop logging on exactly the days that matter.\n4. **At day fourteen, ask what it told you.** \"My numbers\" is a ledger. \"What to change\" is a tool.\n\n[Try HAVIT →](https://www.aihavit.com/)\n",
+      "meta_description": "HAVIT, MyFitnessPal, Lose It!, Cronometer, FatSecret, MacroFactor and Cal AI compared: whether you can log with a photo, whether that's free or paid, and how far macros and AI coaching go. Based on US App Store listings, October 2026.",
+      "tldr": "With food logging, logging often and without breaks matters more than logging long and perfectly. Figure out where you usually stop — searching wears you out, home cooking stalls you, you skip a bad day, or the numbers lead nowhere — and pick the app that gets you past that moment. Photo logging sits behind a paid tier in most of these apps (FatSecret's listing is the exception), so check before you commit.",
+      "body_md": "People rarely quit food logging because the app was inaccurate. They quit at **a specific moment**: a tired evening in front of a home-cooked dinner with six ingredients, thinking \"I'm not looking all of that up,\" or the day after a big meal, when the last thing you want is to see the number.\n\nSo this guide starts with the four moments when logging usually stops, then looks at **which feature in each app helps with that moment — and whether it's free or paid.** We compared seven apps people in the US commonly use to log food: HAVIT, MyFitnessPal, Lose It!, Cronometer, FatSecret, MacroFactor and Cal AI. Ratings and features come from the official US App Store listings as of October 24, 2026. We left out prices because they change often.\n\nHAVIT is our app. It was built by our team, which includes people who worked at **Juvis Diet**, a Korean weight-management brand. So we label HAVIT's paid features as paid, and we list the cases where HAVIT isn't the right pick.\n\n![What ends a logging habit is fatigue, not inaccuracy](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n## Quick picks\n\n| If you want… | Try | Why |\n| --- | --- | --- |\n| To log for free, macros included | FatSecret · Cronometer | FatSecret's listing says the app is free and includes photo recognition; Cronometer tracks macros and micronutrients and scans barcodes for free |\n| To snap a photo and be done | Cal AI · Lose It! Premium · MyFitnessPal Premium · HAVIT Premium | All estimate calories from a photo, but each one puts it behind a subscription |\n| A very large food database | MyFitnessPal · Lose It! | 20.5 million+ foods / 56 million+ foods and recipes, per their listings |\n| Detailed nutrient numbers | Cronometer | 1.1 million+ verified foods, 95+ vitamins and minerals |\n| An app that adjusts your targets for you | MacroFactor | Recalculates calories and macros at a weekly check-in (paid app, free trial) |\n| Support from other people | Lose It! · FatSecret | Friends and support groups / a community and sharing with your own health professional |\n| To log alongside a GLP-1 | **HAVIT** · MyFitnessPal · Lose It! | All three log doses. HAVIT also keeps a free body-composition estimate and an AI coach in the same app |\n| To know what to change, not just what you ate | **HAVIT** | HAVI, the AI coach, reads all your logs and suggests one thing to do today |\n\n## Before you choose — four moments when logging stops\n\nFood logging is a basic tool of weight-loss programs. A systematic review of 22 studies found that self-monitoring and weight loss **consistently went together**, though the authors rated the level of evidence as **weak** because of how the studies were designed (Burke 2011). In a study of 142 people in a six-month online weight-loss program, the time spent logging fell from **an average of 23.2 minutes a day** in the first month to **14.6 minutes** by month six. What separated those who lost at least 5% from those who didn't wasn't time spent — it was **how many times a day they opened their log** (2.4 vs 1.6) (Harvey 2019).\n\nIn other words, logging **often and without breaks** matters more than logging long and perfectly. So pick an app by how well it gets you past the moment you usually stop.\n\n**1. When searching wears you out.** Every meal means typing a name and picking from a list of near-identical results. Look for: saved meals, recipes and custom foods you can log again (MyFitnessPal and MacroFactor describe these), and barcode scanning — free in Cronometer and FatSecret, Premium in MyFitnessPal and Lose It!.\n\n**2. When home cooking stalls you.** Packaged food is easy; a dish you made yourself means entering ingredients one by one. Look for: photo logging or recipes. Whether photo logging is free varies a lot. HAVIT's **AI Food Scan is HAVIT Premium**, MyFitnessPal's meal scan is Premium, Lose It!'s photo logging is Premium, Cronometer's photo and voice logging is Gold, and Cal AI says scan results require a subscription. FatSecret's listing includes image recognition and doesn't list it among its Premium features.\n\n**3. After a day you'd rather forget.** You skip logging because you don't want to see the number, then skip the next day too. Look for: a light way to record how the day went, and an app that doesn't treat the day as a failure. HAVIT's **daily check-in (HAVIT Premium)** lets you record energy, sleep, appetite and mood in a few taps. MacroFactor's listing says you'll never see warnings, red numbers or shaming when you go over your targets.\n\n**4. When the numbers just pile up.** After a few weeks, an app that only shows totals stops giving you a reason to log. Look for: something that reads your log and tells you what to do next. That's **HAVI, HAVIT's AI coach** (daily chat limit on the free plan), MyFitnessPal's AI Coach, Cronometer's Crono Coach (Gold), and MacroFactor's weekly check-in.\n\n## HAVIT — an AI coach that reads your log for you\n\n| | |\n| --- | --- |\n| Maker | Havit Inc. |\n| Built by | A team from Juvis Diet, a Korean weight-management brand |\n| App Store (US) | 4.7 (159 ratings) |\n| Free | Meal logging (search or manual entry) with calories per meal; weight, water, sleep, steps, fasting, mood, cycle and GLP-1 logs; body-composition estimate; AI coach chat (daily message limit) |\n| HAVIT Premium | AI Food Scan; carb, protein and fat breakdown per meal and per day; remaining calories; daily check-in; unlimited coach chat; evening recap and pledge; workout videos, guided meditation and articles |\n\n*Free and Premium features reflect the app's default settings as of October 2026; promotions sometimes open some Premium features for free.*\n\n![AI Food Scan (HAVIT Premium) — estimated calories and nutrients from a photo](/blog/havit/shot/feature-nutrition.webp)\n\n**What's free.** Search for a food or type it in, and you get calories for each meal. Beyond food, you can log weight, water, sleep, steps, fasting, mood, your cycle and GLP-1 doses in the same app, and see an estimate of where fat and lean mass are heading with no hardware (not a medical measurement). Most food-logging apps focus on food and weight; here, when your weight stalls because of short sleep or your cycle, you can see that on the same screen.\n\n**What Premium adds.** For the home-cooking moment, there's **AI Food Scan**: take a photo and get an estimate of calories and nutrients. The **carb, protein and fat breakdown** per meal and per day and **remaining calories** are Premium too. If you want macros for free, Cronometer or FatSecret below may suit you better.\n\n### HAVI, the AI coach — tells you what to do after you log\n\n![HAVIT's AI coach reads all your logs and comes back with one action for today](/blog/havit/shot/feature-ai-coach.webp)\n\nIf a typical food-logging app is a place to see totals, HAVIT is built around **HAVI, the AI coach**.\n\n**It starts with a conversation.** HAVI asks about your goal, whether you take a GLP-1 and how you're tolerating it, and basics like height and weight. From your answers it builds a **Body Blueprint** — a snapshot of where you're starting — and a goal plan.\n\n**Every day, it reads more than your meals.** HAVI looks at your sleep, steps, cycle and GLP-1 logs too, and suggests **one thing to do today**. Say you hit your calories all week and the scale didn't move: HAVI checks that week's sleep and steps and points to what to change first.\n\n**You can ask with a photo.** For things that are hard to log, like a restaurant dish, **send a photo** in chat and ask. Free accounts can chat with a daily limit; unlimited chat is HAVIT Premium.\n\n**It closes out the day.** At 10 p.m. you get an **evening recap** of your day and can leave a **one-line pledge** for tomorrow. The app shows how many pledges you kept over the last 14 days (HAVIT Premium).\n\n![Daily check-in (HAVIT Premium) — so a rough day doesn't end the habit](/blog/havit/shot/feature-daily-check-in.webp)\n\nWith the **daily check-in** (HAVIT Premium), you record energy, sleep, appetite and mood, so HAVI knows what kind of day it is before the conversation starts. After a day of overeating, you can note how it went in a few taps instead of going back over every meal.\n\n### Built by people from Juvis Diet\n\nHAVIT was built by **people who worked at Juvis Diet**, a Korean weight-management brand where staff coach clients on their eating and daily routines in person. That hands-on approach shaped both the coach and the 12-week program.\n\n- **Body composition over body weight.** That's why the body-composition estimate is free, and why protein and strength training sit at the center of the coaching.\n- **One change at a time.** The 12-week program has 12 stages, and missions are judged from your logged data, like meals and steps — you don't just tick a box.\n- **A bad day is part of the process.** On missions that run several days in a row, missing once keeps your progress, a second miss can be covered with a Saver (an item that protects a streak), and a third starts the mission over.\n\n### When HAVIT isn't the best choice\n\nIf you want **macros for free**, HAVIT's free plan won't be enough (it stops at calories per meal). If you want **free photo logging**, try FatSecret first — its listing doesn't put image recognition behind Premium. If you want a **huge database for packaged and restaurant food**, MyFitnessPal or Lose It! is the better fit, and for **detailed micronutrients**, Cronometer. If you'd rather have an app **adjust your calorie and macro targets** every week, look at MacroFactor.\n\n**Good for:** people who log but don't know what to change; people whose weight is tangled up with sleep or their cycle; people on a GLP-1 who want meals and doses in one place.\n\n## MyFitnessPal — the broad database, now with an AI Coach\n\n| | |\n| --- | --- |\n| Developer | MyFitnessPal, Inc. |\n| App Store (US) | 4.7 (2,383,099 ratings) |\n| Photo logging | Meal scan (Premium) |\n| Free or paid | Free + Premium · Premium Plus |\n\n**What it does well.** The listing cites **20.5 million+ foods**, restaurant dishes included, with a full macro breakdown and custom targets for protein, sodium, fiber and more. It has an AI Coach you can ask about nutrition, macros and workouts, GLP-1 dose and symptom logging with medication reminders, saved meals and recipes, a meal planner, and connections to 40+ trackers and apps.\n\n**Where it falls short.** Barcode scan, meal scan and voice logging are listed under **Premium**, along with customized macro goals and ad-free logging. With a database this large, picking the right entry from many similar results takes time; saving the foods you eat often helps.\n\n**Good for:** people who eat a lot of packaged and restaurant food and want broad coverage.\n\n## Lose It! — a calorie budget plus photo and voice logging (Premium)\n\n| | |\n| --- | --- |\n| Developer | FitNow, Inc. |\n| App Store (US) | 4.8 (782,187 ratings) |\n| Photo logging | Photo and AI voice logging (Premium) |\n| Free or paid | Free + Premium |\n\n**What it does well.** It sets a personalized daily calorie budget and weight-loss schedule from your profile. The listing cites **56 million+ foods and recipes**. The free tier covers calorie tracking, a weight-loss plan and community support (friends and support groups). There's also GLP-1 support for logging medication and seeing estimated levels alongside your eating.\n\n**Where it falls short.** Photo logging, AI voice logging, the barcode scanner, macro tracking, intermittent fasting and device syncs (including Withings scales) are all listed as **Premium** features. On the free tier, you're mostly counting calories.\n\n**Good for:** people who want a simple calorie budget and a community, and who are willing to pay for faster logging.\n\n## Cronometer — detailed nutrients, generous free basics\n\n| | |\n| --- | --- |\n| Developer | Cronometer Software Inc. |\n| App Store (US) | 4.8 (99,854 ratings) |\n| Photo logging | Photo and voice logging (Gold) |\n| Free or paid | Free + Cronometer Gold |\n\n![When the nutrient detail actually matters](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_004.jpg)\n\n**What it does well.** A curated database of **1.1 million+ verified foods**, with calories, macros and **95+ vitamins and minerals**. The listing says barcode scanning is free. It syncs with Apple Health and Apple Watch and connects to Fitbit, Garmin, Oura and Whoop, including sleep data.\n\n**Where it falls short.** Photo and voice logging, the fasting tracker, the recipe importer and Crono Coach are **Gold** features. If all you want is a quick calorie count, the level of detail can feel like more than you need.\n\n**Good for:** people who want trustworthy nutrient numbers, micronutrients included.\n\n## FatSecret — a broad free tier\n\n| | |\n| --- | --- |\n| Developer | Secret Industries Pty Ltd |\n| App Store (US) | 4.7 (15,389 ratings) |\n| Photo logging | Image recognition of foods, meals and products (listing) |\n| Free or paid | Free + Premium (meal plans, advanced meal planning, extra meal headings, water tracking) |\n\n**What it does well.** The listing opens with \"fatsecret is free\" and says the app is customized for US foods and brands. Its feature list includes image recognition, a barcode scanner, an exercise diary, a weight tracker, reports and goals for calories and macros, a community, and sharing your log with a health professional through fatsecret Professional. The Premium list is short: dietitian-made meal plans, advanced meal planning, six extra meal headings and water tracking.\n\n**Where it falls short.** There's no AI coaching in the listing. You get your numbers and a community, but working out what to change is up to you (or your health professional).\n\n**Good for:** people who want to log consistently without paying.\n\n## MacroFactor — targets that adjust every week\n\n| | |\n| --- | --- |\n| Developer | Stronger By Science Technologies LLC |\n| App Store (US) | 4.8 (23,492 ratings) |\n| Photo logging | Not in the listing |\n| Free or paid | Paid app with a 7-day free trial (no free tier) |\n\n**What it does well.** It estimates your energy expenditure and, based on what you log, adjusts calorie and macro targets at a **weekly check-in**. The listing says the algorithm works even if you didn't hit last week's targets, and that you'll never see warnings, red numbers or shaming when you go over. It has a verified food database, barcode scanning, a timeline-style log, plus habit and period tracking.\n\n**Where it falls short.** There's no free tier. The listing doesn't mention photo logging, so home-cooked dishes still need to be entered by hand.\n\n**Good for:** people who want their targets set by their own data and don't mind paying from the start.\n\n## Cal AI — photo-first logging\n\n| | |\n| --- | --- |\n| Developer | Viral Development LLC |\n| App Store (US) | 4.8 (372,383 ratings) |\n| Photo logging | Yes — the core of the app |\n| Free or paid | Food scan results require a subscription (listing) |\n\n![The shortest path from plate to log](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_PRO_004.jpg)\n\n**What it does well.** You answer some lifestyle questions to build a plan, then take a photo of your meal and get a nutrition breakdown. If searching is why you quit, the speed is the point.\n\n**Where it falls short.** The listing states in capitals that **food scan results require a subscription**. It also says it doesn't offer medical advice. The listing doesn't describe coaching or other health logs.\n\n**Good for:** people who quit before because logging was too slow, and who are fine paying for speed.\n\n## How far can you trust photo logging?\n\nPhoto logging wins on speed. For a mixed dish, the thing that decides **whether it gets logged at all** is often how long it takes, not how precise it is.\n\nBut a photo can't show **what you can't see**: the oil it was cooked in, the sauce soaked into the rice, what's hidden under the top layer. Treat a photo estimate as a starting point, and fix it by hand when the portion is unusual or the dish is oily. And check what's free before you rely on it: of the seven apps here, FatSecret is the only one whose listing doesn't put photo recognition behind a paid tier.\n\n## Side by side\n\n| App | App Store (US) | Photo logging | Macros | AI coaching | Free or paid |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | 4.7 (159) | **AI Food Scan (Premium)** | Premium | HAVI (daily limit on free) | Free + HAVIT Premium |\n| MyFitnessPal | 4.7 (2,383,099) | Meal scan (Premium) | Yes; custom goals Premium | AI Coach | Free + Premium |\n| Lose It! | 4.8 (782,187) | Photo + voice (Premium) | Premium | Not in the listing | Free + Premium |\n| Cronometer | 4.8 (99,854) | Photo + voice (Gold) | Yes, plus micronutrients | Crono Coach (Gold) | Free + Gold |\n| FatSecret | 4.7 (15,389) | Image recognition | Yes | Not in the listing | Free + Premium |\n| MacroFactor | 4.8 (23,492) | Not in the listing | Yes | Weekly algorithm check-in | Paid (free trial) |\n| Cal AI | 4.8 (372,383) | Yes (subscription) | Nutrition breakdown (subscription) | Not in the listing | Subscription |\n\nRatings and features are from the official US App Store listings as of October 24, 2026. \"Not in the listing\" means the official description doesn't mention it; the app may still have it.\n\n## A two-week test to find your app\n\n1. **Start with your hardest meal.** Not a chicken breast — a home-cooked dish with several ingredients.\n2. **Log the same meal again three days later** and count how many taps it took.\n3. **Log a day you overate, too.** Notice how the app shows that day.\n4. **On day 14, ask yourself:** did this app tell me **what to change next**, or just my numbers?\n\nAs the study above showed, the time you spend logging naturally shrinks (Harvey 2019). The app you opened every day for two weeks is the one you'll keep using.\n\n## The bottom line\n\nPick a food-logging app by **the moment you usually stop**. To log for free, start with FatSecret or Cronometer. For speed, the photo options are Cal AI, Lose It! Premium, MyFitnessPal Premium or HAVIT Premium. For a very large food database, MyFitnessPal or Lose It!. For targets that adjust themselves, MacroFactor.\n\nIf you're logging but don't know what to change, you need a coach that reads everything you log and tells you what to do next. HAVIT is the app where people from Juvis Diet built that coach with AI.\n\n[Get started with HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Ways a food-logging habit dies",
-          "value": "4",
-          "source": "Search tax, homemade wall, shame gap, pointlessness drift"
+          "label": "Times a day people opened their log — lost ≥5% vs didn't",
+          "value": "2.4 vs 1.6",
+          "source": "Harvey et al. 2019, Obesity (6-month online weight-loss program, n=142)"
         },
         {
-          "label": "HAVIT food database",
-          "value": "~486,000 entries",
-          "source": "432,418 USDA branded + 41,218 Korea MFDS + 12,671 curated"
+          "label": "Daily time spent logging",
+          "value": "23.2 min in month 1 → 14.6 min by month 6",
+          "source": "Harvey et al. 2019, Obesity"
         },
         {
-          "label": "MyFitnessPal food entries",
-          "value": "14M+",
-          "source": "Heavily user-submitted"
+          "label": "Self-monitoring and weight loss",
+          "value": "Consistent association (evidence level weak)",
+          "source": "Burke, Wang & Sevick 2011, J Am Diet Assoc (review of 22 studies)"
         },
         {
-          "label": "Trial length that reveals your failure mode",
-          "value": "2 weeks, including one logged bad day",
-          "source": "This guide's test"
+          "label": "Food-logging apps compared",
+          "value": "7",
+          "source": "Official US App Store listings, October 24, 2026"
         }
       ],
       "comparison_table": {
         "title": "Side by side",
         "headers": [
           "App",
-          "Database",
-          "Provenance",
+          "App Store (US)",
           "Photo logging",
-          "Accepts a bad day",
-          "After the log",
-          "Body composition"
+          "Macros",
+          "AI coaching",
+          "Free or paid"
         ],
         "rows": [
           [
             "HAVIT",
-            "~486k",
-            "Public authorities",
-            "Yes",
-            "Check-in",
-            "One action a day",
-            "Estimated"
+            "4.7 (159)",
+            "AI Food Scan (Premium)",
+            "Premium",
+            "HAVI (daily limit on free)",
+            "Free + HAVIT Premium"
           ],
           [
             "MyFitnessPal",
-            "14M+",
-            "User-submitted",
-            "Limited",
-            "No",
-            "No",
-            "No"
+            "4.7 (2,383,099)",
+            "Meal scan (Premium)",
+            "Yes; custom goals Premium",
+            "AI Coach",
+            "Free + Premium"
+          ],
+          [
+            "Lose It!",
+            "4.8 (782,187)",
+            "Photo + voice (Premium)",
+            "Premium",
+            "Not in the listing",
+            "Free + Premium"
           ],
           [
             "Cronometer",
-            "Smaller",
-            "Verified, curated",
-            "Limited",
-            "No",
-            "No",
-            "No"
+            "4.8 (99,854)",
+            "Photo + voice (Gold)",
+            "Yes, plus micronutrients",
+            "Crono Coach (Gold)",
+            "Free + Gold"
           ],
           [
             "FatSecret",
-            "Moderate",
-            "User-submitted",
-            "Limited",
-            "No",
-            "No",
-            "No"
+            "4.7 (15,389)",
+            "Image recognition",
+            "Yes",
+            "Not in the listing",
+            "Free + Premium"
           ],
           [
-            "Cal AI / photo",
-            "Model estimate",
-            "Image inference",
+            "MacroFactor",
+            "4.8 (23,492)",
+            "Not in the listing",
             "Yes",
-            "No",
-            "Limited",
-            "No"
+            "Weekly algorithm check-in",
+            "Paid (free trial)"
+          ],
+          [
+            "Cal AI",
+            "4.8 (372,383)",
+            "Yes (subscription)",
+            "Nutrition breakdown (subscription)",
+            "Not in the listing",
+            "Subscription"
           ]
         ],
-        "caption": "App characteristics as of October 2026."
+        "caption": "Official US App Store listings, October 24, 2026. Features not mentioned in a listing may still exist in the app."
       },
       "faq": [
         {
-          "question": "What is the best food logging app in 2026?",
-          "answer": "It depends on how you quit last time. If searching for every meal wore you down, provenance matters more than database size. If home-cooked food was the blocker, you need photo logging. If you stopped on the bad days, you need an app that accepts a partial log without breaking a streak. If you logged for weeks and nothing told you what to change, you need coaching rather than a ledger."
+          "question": "What's the best food logging app?",
+          "answer": "It depends on where you tend to stop. To log for free, try FatSecret or Cronometer; for photo logging, Cal AI, Lose It! Premium, MyFitnessPal Premium or HAVIT Premium; for a very large food database, MyFitnessPal or Lose It!; for targets that adjust each week, MacroFactor. If you log but don't know what to change, try HAVI, HAVIT's AI coach, which reads all your logs and suggests one thing to do today."
         },
         {
-          "question": "Is photo-based meal logging accurate?",
-          "answer": "It is fast, and it is an estimate. A model looking at a photograph cannot see absorbed oil, weigh what is under the top layer, or tell full-fat from reduced-fat. Read the figure as the midpoint of a range. Photograph before eating, from an angle that shows depth, and correct the obvious misses."
+          "question": "How much can I do for free?",
+          "answer": "Six of the seven apps can be used for free to some degree; MacroFactor has only a free trial. HAVIT's free plan covers meal logging (search or manual entry) with calories per meal, logs for weight, sleep, steps, GLP-1 and more, a body-composition estimate, and AI coach chat with a daily limit; AI Food Scan, macro breakdown, remaining calories and the daily check-in are HAVIT Premium. Cronometer's free tier includes macros, micronutrients and barcode scanning. FatSecret's Premium list is short (meal plans, extra meal headings, water tracking), so its free tier is broad."
         },
         {
-          "question": "How do I log home-cooked meals without giving up?",
-          "answer": "Two things work: photograph the finished dish and correct the estimate, or build the recipe once and reuse it as a single entry. Searching eleven ingredients every time is what ends the habit — if an app makes you do that, it is the wrong app for how you eat."
+          "question": "Which apps let me log food with a photo?",
+          "answer": "Per their US App Store listings: Cal AI (scan results require a subscription), Lose It! (Premium), MyFitnessPal meal scan (Premium), Cronometer (Gold), HAVIT AI Food Scan (Premium) and FatSecret (image recognition, not listed among its Premium features). MacroFactor's listing doesn't mention photo logging."
         },
         {
-          "question": "Should I log on days when I overeat?",
-          "answer": "Especially then. Those are the informative days, and skipping them is how the habit breaks. If your app makes a bad day feel like a punishment, change the app rather than the behaviour. HAVIT's daily check-in takes \"today was hard\" in a few taps so the thread stays unbroken."
+          "question": "Are photo calorie estimates accurate?",
+          "answer": "Use them as a starting point. A photo can't show the oil a dish was cooked in, sauce absorbed into rice, or what's hidden under the top layer. Adjust by hand when the portion is unusual or the dish is oily. Still, a rough entry beats skipping the meal entirely."
         },
         {
-          "question": "Does database size matter?",
-          "answer": "Less than provenance. MyFitnessPal has 14M+ entries but most are user-submitted, which is why one product can come back as a dozen near-identical entries at different values. HAVIT's ~486,000 come from public food authorities, so you can say where each number originated. Cronometer trades size for verification too."
+          "question": "Should I log the days I overeat?",
+          "answer": "Yes, even briefly. In a six-month weight-loss study, people who lost at least 5% didn't spend more time logging — they opened their log more often each day (Harvey 2019). If entering every meal feels like too much, a quick note or a photo is fine. In HAVIT, the daily check-in (Premium) lets you record energy, appetite and mood in a few taps."
         },
         {
-          "question": "Is a free food logging app enough?",
-          "answer": "For logging, usually. FatSecret has a generous free tier, MyFitnessPal and Cronometer both have free versions, and HAVIT is free to download with in-app purchases. Check where the paywall sits rather than the headline price — if the feature that solves your particular failure mode is behind it, the free tier is a trial."
+          "question": "What does HAVIT's AI coach do?",
+          "answer": "It starts by asking about your goal, whether you take a GLP-1 and basics like height and weight, then builds a Body Blueprint and a goal plan. After that, it reads your meals together with your sleep, steps, cycle and GLP-1 logs, suggests one thing to do today, and answers questions you send with a photo. Free accounts have a daily chat limit; unlimited chat and the 10 p.m. evening recap with a one-line pledge are HAVIT Premium."
+        },
+        {
+          "question": "Who makes HAVIT?",
+          "answer": "HAVIT is made by Havit Inc. and was built by people who worked at Juvis Diet, a Korean weight-management brand where staff coach clients in person. That approach went into the AI coach and the 12-week program, which focus on body composition — fat and lean mass — rather than weight alone."
         }
       ],
       "references": [
         {
           "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 studies, 15 on dietary self-monitoring; authors rate the evidence level weak",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+          "source": "Journal of the American Dietetic Association, 2011 — 22 studies (15 on dietary self-monitoring); consistent association with weight loss, level of evidence weak",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (topic under update); adults with BMI ≥30, clinician-delivered",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026 — HAVIT internal analysis of 1,090 GLP-1 users",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "Log Often, Lose More: Electronic Dietary Self-Monitoring for Weight Loss (Harvey, Krukowski, Priest & West)",
+          "source": "Obesity, 2019 — 24-week online program, n=142; 23.2 → 14.6 min/day; ≥5% losers logged in 2.4 vs 1.6 times/day",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30801989/"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-24"
     },
     "ko": {
       "title": "2026 식단 기록 앱 추천 7선 — 사진 기록·무료 범위·AI 코치 비교",

@@ -10,141 +10,136 @@
   "primary_keyword_ko": "체성분 앱 추천 2026 인바디 앱 체지방률 측정 체성분 체중계 갤럭시 워치 체성분",
   "langs": {
     "en": {
-      "title": "Best Body Composition Tracking Apps in 2026: The Accuracy Ladder",
+      "title": "Best Body Composition Apps in 2026: InBody, Smart Scales, Galaxy Watch and No-Hardware Estimates Compared",
       "short_title": "Best Body Composition Apps 2026",
-      "meta_description": "DEXA, InBody, smartwatch BIA, smart scales and HAVIT — taken one at a time. What measures and what estimates, why that distinction decides your choice, and whether anything is attached to the trend.",
-      "tldr": "DEXA and InBody measure; smart scales and apps estimate. An estimate that is consistently wrong still tracks change correctly — right for \"is this costing me muscle?\", wrong for \"what is my body fat percentage?\"",
-      "body_md": "If you need a number you can take to a clinician, stop reading and book a **DEXA scan**. No app is that.\n\nIf you want to know whether the weight you are losing is fat or muscle, **week over week**, a consumer tool is genuinely useful — provided you understand what it is doing.\n\nThis guide takes the methods and apps one at a time.\n\n![One number on a scale cannot tell you what you lost](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_004.jpg)\n\n## First — the accuracy ladder\n\n| Rung | Method | Measures or estimates | What moves the number |\n| --- | --- | --- | --- |\n| 1 | DEXA | **Measures** (reference standard) | Very little |\n| 2 | Multi-frequency BIA (InBody and similar) | **Measures** | Hydration, food, exercise, time of day |\n| 3 | Smart scale · smartwatch BIA | Measures (foot-to-foot / hand-to-hand) | Everything in rung 2, plus contact quality |\n| 4 | App estimate (survey or photo model) | **Estimates** | Input quality, model assumptions |\n\nRungs 1 and 2 measure. Rungs 3 and 4 **estimate**. That distinction is the whole article. An estimate that is consistently wrong in the same direction still tracks change correctly — right for \"is this diet costing me muscle?\", wrong for \"what is my body fat percentage?\"\n\n## Why composition instead of weight\n\nScale weight moves with water, glycogen, sodium and cycle. It matters most on **GLP-1 therapy** (Wegovy, Ozempic, Mounjaro, Zepbound): the lean-mass share of weight lost has been reported at **40–60%** in some trials and **15% or less** in others. A scale reports all of it as success. Lean mass is not identical to muscle — it also counts organs, bone and fluid — but either way the scale cannot show you which end you are on.\n\n## HAVIT — the trend, with something attached to it\n\n| | |\n| --- | --- |\n| Rung | 4 (survey-based AI estimate) |\n| Hardware | None |\n| Validation | Internal comparison against InBody, **n=70**, published |\n| Read alongside | Meals, hydration, workouts, sleep, steps, cycle, mood, GLP-1 |\n| Price | Free · in-app purchases |\n\n![Body insights — a trend, not a verdict](/blog/havit/shot/feature-body-insights.webp)\n\n**The number is not the point. What sits next to it is.**\n\nA smart scale gives you a figure and stops. HAVIT puts the composition trend next to **meals, protein, sleep, steps, cycle and medication**, and **the AI coach reads all of it together**. So a lean-mass trend drifting down can be answered the same day: more protein, more resistance work, or a slower rate of loss.\n\n![The AI coach turns the trend into one action](/blog/havit/shot/feature-ai-coach.webp)\n\nOn GLP-1 therapy, **dose, side effects and protein** are logged in the same app, so the lean-mass signal is never read in isolation.\n\nThe same app also carries **daily missions**, the **daily check-in**, **six guided-meditation tracks**, **workout video**, **fasting** and **1,400+ articles**. Built with experts from Juvis Diet, a Korean diet clinic.\n\n**Stated plainly:** this is rung 4. An estimate, not a measurement. But for watching a trend and changing what you do about it, it is enough — and connecting the trend to an action is something nothing else on this list does.\n\n**Who it suits:** people who want a weekly trend with no hardware, and want to know what to do about it.\n\n## InBody — the most widely available rung 2\n\n| | |\n| --- | --- |\n| Rung | 2 (multi-frequency BIA) |\n| Hardware | Dedicated device (gyms, clinics, some home units) |\n| App | Result history, syncs with Samsung Health |\n\n![Same conditions, or the comparison means nothing](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_005.jpg)\n\n**What it does well.** Segmental readings and wide availability. Excellent for establishing a baseline.\n\n**Where it falls down.** Readings move several points with hydration, food, exercise and time of day — **same-day repeats can disagree.** And you have to go to where the machine is, so it is not a daily-trend tool.\n\n**Who it suits:** people who want a solid baseline once or twice a month.\n\n## Smartwatch BIA (Samsung Galaxy Watch and similar)\n\n| | |\n| --- | --- |\n| Rung | 3 (hand-to-hand BIA) |\n\n**What it does well.** No trip to a machine. Measure from the wrist in under a minute, and sync with other health apps.\n\n**Where it falls down.** Hand-to-hand sampling under-reads the lower body, and results depend on a correct profile — Samsung's own guidance says to check your profile first if the result looks wrong.\n\n**Who it suits:** people who already wear the watch.\n\n## Smart scales — best value for a daily trend\n\n| | |\n| --- | --- |\n| Rung | 3 (foot-to-foot BIA) |\n\n**What they do well.** Step on and you are done. The best value on the ladder for trend data.\n\n**Where they fall down.** Foot-to-foot impedance under-samples the upper body, and readings shift with foot moisture. **Do not trust the absolute number.**\n\n**Who they suit:** people who will stand on it at the same time every day and read only the slope.\n\n## Side by side\n\n| Tool | Rung | Hardware | Daily trend | Connects to action | Read alongside |\n| --- | --- | --- | --- | --- | --- |\n| DEXA | 1 | Clinic | No | No | Nothing |\n| InBody | 2 | Dedicated device | Hard | No | Nothing |\n| Smartwatch BIA | 3 | Watch | Yes | No | Activity |\n| Smart scale | 3 | Scale | **Yes** | No | Nothing |\n| **HAVIT** | 4 | **None** | **Yes** | **AI coach connects it** | **All 8 logs** |\n\n## Reading your own numbers honestly\n\n- **Compare like with like.** One device, one time of day, one state.\n- **Use a four-week window.** Shorter and you are reading noise.\n- **Watch the pair, not the percentage.** Fat mass and lean mass moving in opposite directions is the signal.\n- **Let a real measurement anchor the trend.** An occasional InBody or DEXA, with an app filling the gaps, gets most of the value of both.\n- **If the number distresses you, stop using it.** Weekly is plenty.\n\n## The bottom line\n\nPick the rung that matches your question. \"What is my body fat percentage?\" is a rung 1 or 2 question. \"Is this diet costing me muscle?\" is a rung 3 or 4 question — and consumer tools answer it well enough to change what you do.\n\nMost people need the second one. The next fork is whether anything is attached to the trend.\n\n[Try HAVIT →](https://www.aihavit.com/)\n",
+      "meta_description": "HAVIT, InBody, Withings, RENPHO Health and Samsung Health compared. How DEXA differs from BIA (InBody, smart scales, watches) and from app estimates, what hardware you need, whether it sits next to your food log, and what's free. As of October 2026.",
+      "tldr": "Outside a DEXA scan, the body-fat numbers from InBody machines, smart scales and watches are all estimates calculated from electrical resistance. If you need an exact figure, get a DEXA scan or a professional analyzer; if you already own a scale or watch, use its app; if you have no device and want to see where fat and lean mass are heading and what to do about it, an app with a free estimate and an AI coach fits. Either way, follow the trend from the same device under the same conditions.",
+      "body_md": "You step on the InBody at your gym and your body-fat percentage is down 2 points from last month. The next morning, your smart scale at home says it went up. Is one of them broken?\n\nUsually neither. **Apart from a DEXA scan, every body-composition number most of us see is a calculated estimate.** InBody machines, smart scales and smartwatches send a weak electrical current through your body, measure the resistance (impedance), and plug that value — along with your height, weight, sex and age — into an equation that estimates fat and muscle. The method is called **bioelectrical impedance analysis (BIA)**. Every device uses its own equation and electrode placement, so two of them can disagree on the same day.\n\nThis guide lines up the ways to check body composition from most to least accurate, then goes through five apps people in the US commonly use, one at a time. Ratings and free/paid details come from the official US App Store listings as of October 24, 2026. We left out prices because they change often.\n\nHAVIT is our app. It was built by our team, which includes people who worked at **Juvis Diet**, a Korean weight-management brand. So we spell out what HAVIT's body-composition number is and isn't, with figures, and we list the cases where HAVIT isn't the right pick.\n\n![A single number on a scale can't tell you what you lost](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_004.jpg)\n\n## Quick picks\n\n| If you… | Try | Why |\n| --- | --- | --- |\n| Need an exact number for a doctor or a study | **A DEXA scan** | The reference test in body-composition research. No app replaces it |\n| Get InBody tests at a gym or clinic | InBody | InBody's own app: test history, result sheets, Apple Health sync |\n| Want a reading every morning from a smart scale | Withings · RENPHO Health | Each pairs with its own brand of body-composition scale |\n| Already wear a Galaxy Watch with an Android phone | Samsung Health | The watch's BIA sensor reads body composition at your wrist |\n| Have no device and want the trend plus what to do about it | **HAVIT** | Free no-hardware estimate + an AI coach that reads all your logs |\n| Are on a GLP-1 (Wegovy, Zepbound and others) | **HAVIT** | Doses, side effects, meals and the body-composition estimate in one app |\n\n## First — four ways to check body composition\n\nThey're ordered from most to least accurate. The further down the list, the more convenient — and the more things can push the number around.\n\n| Method | How it works | Typical devices and apps | What moves the number |\n| --- | --- | --- | --- |\n| 1. DEXA | Low-dose X-rays separate fat, lean tissue and bone. The reference test in research | Scanners at hospitals, research centers and some private clinics | Comparatively little |\n| 2. Professional BIA analyzer | **Estimates with BIA.** Electrodes at hands and feet, several frequencies | InBody machines at gyms and clinics | Hydration, food, exercise, time of day |\n| 3. Home BIA device | **Estimates with BIA.** Scales and watches | Withings and RENPHO scales, Galaxy Watch | Everything in 2, plus dry skin, posture and contact |\n| 4. App estimate, no hardware | A model estimates from what you enter | HAVIT | How accurate your inputs are, the model's assumptions |\n\n**Methods 2 and 3 are estimates too.** What the device actually measures is electrical resistance; your body-fat percentage is what comes out of the equation. That doesn't make them useless. Here's what the research shows:\n\n- **InBody vs DEXA**: In a study of 67 adults tested on two days, three InBody models gave almost the same result on repeat tests (standard error of measurement for body fat 0.77–0.99 percentage points). But all three consistently read **body fat lower and lean mass higher** than DEXA. The authors concluded InBody can stand in when DEXA isn't available, as long as you keep that bias in mind (McLester 2020).\n- **Smartwatch BIA vs DEXA**: In a 75-person study, the watch's lean-mass readings closely matched a research-grade 8-electrode BIA device but differed significantly from DEXA (a bias that could be corrected for). The watch was also less precise than DEXA on repeat measurements, so **you'd need more readings to be as sure about a change** (Bennett 2022).\n\nIn short, home devices are better at answering **\"which way is it moving on this device?\"** than **\"what exactly is my body-fat percentage?\"** — and even the direction only holds up when you look at several readings together, not one.\n\n## Why body composition, not just weight — especially on a GLP-1\n\nScale weight swings from day to day with water, glycogen, sodium and your menstrual cycle, and it can't tell you whether you lost fat or muscle.\n\nIf you're on a **GLP-1 medication (Wegovy, Ozempic, Mounjaro, Zepbound)**, that question matters more — but read both sides of the evidence. A review of the research found that the share of lost weight that was lean mass varied widely: **40–60% in some trials and about 15% or less in others.** And **lean mass isn't the same thing as muscle.** It also includes organs, bone, body fluids and the water inside fat tissue. Studies that looked at muscle directly with MRI found the losses were about what you'd expect given age, health and the amount of weight lost, though the authors added that older adults and people at risk of sarcopenia (age-related muscle loss) still need to be careful (Neeland 2024).\n\nSo on a GLP-1, it helps to watch **fat mass and lean mass separately**, and to check whether you kept up protein and strength training over the same weeks.\n\n## Before you choose — four questions\n\n**1. What do you actually want to know?** \"What's my body-fat percentage?\" needs DEXA or a professional analyzer. \"Is this diet taking off fat?\" can be answered by tracking the same device over time — or by a no-hardware estimate that shows the direction.\n\n**2. What device do you have?** Most body-composition apps are made for one brand of hardware. Withings needs a Withings scale, RENPHO Health needs a RENPHO scale, and body composition in Samsung Health needs a Galaxy Watch. If you have none of these, look at apps that estimate without hardware.\n\n**3. Can you test under the same conditions every time?** BIA is sensitive to conditions. Samsung tells Galaxy Watch users to measure in the morning before eating, after using the bathroom, before exercising or showering, and with the same fingers each time (Samsung support). Choose a device that fits a routine you'll really repeat.\n\n**4. What happens after the number?** A body-composition reading is an outcome. If your lean mass is dropping, deciding whether to change your protein, your strength training or your rate of loss means looking at what you ate and how you moved. Check whether the app just shows numbers or reads them next to your meals and activity.\n\n## HAVIT — a no-hardware estimate with an AI coach attached\n\n| | |\n| --- | --- |\n| Maker | Havit Inc. |\n| Built by | A team from Juvis Diet, a Korean weight-management brand |\n| Body composition | Estimated with no hardware (free). Not a medical measurement |\n| Accuracy | Internal comparison (n=70): 92.9% of estimates within ±5 percentage points of InBody |\n| AI coach | HAVI — reads all your logs and suggests one thing to do today; you can ask with a photo |\n| Free | Meal logging (search or manual entry) with calories per meal; weight, water, sleep, steps, fasting, mood, cycle and GLP-1 logs; body-composition estimate; AI coach chat (daily message limit) |\n| HAVIT Premium | Carb, protein and fat breakdown per meal and per day; remaining calories; AI Food Scan; unlimited coach chat; daily check-in; workout videos, guided meditation and articles |\n| App Store (US) | 4.7 (159 ratings) |\n\n*Free and Premium features reflect the app's default settings as of October 2026; promotions sometimes open some Premium features for free.*\n\n![Body insights — fat and lean mass as a trend, not a verdict](/blog/havit/shot/feature-body-insights.webp)\n\n**To be clear up front: HAVIT's body-composition number is an estimate, not a measurement.** It's method 4 above. No sensor reads your body fat, and the number isn't meant for diagnosis or treatment decisions. What we can do is put a figure on its accuracy. In an [internal comparison of 70 people](/en/havit-ai-body-composition-92percent-vs-inbody), HAVIT's estimate came **within ±5 percentage points of the same person's InBody result 92.9% of the time.** That's our own comparison, not an independent validation, and the reference was InBody rather than DEXA — weigh it with that in mind.\n\n**What it has going for it: no hardware, and it's free.** You can see which way fat and lean mass are heading without buying a scale or a watch.\n\n### HAVI, the AI coach — turns the trend into something to do today\n\nMost body-composition apps stop at a number and a chart. HAVIT is built around **HAVI, the AI coach**, which reads that number alongside everything else you log.\n\n![The AI coach reads the trend and comes back with one action for today](/blog/havit/shot/feature-ai-coach.webp)\n\n**It starts with a conversation.** HAVI asks about your goal, whether you take a GLP-1 and how you're tolerating it, and basics like height and weight. From your answers it builds a **Body Blueprint** — a snapshot of where you're starting — and a goal plan.\n\n**Every day, it reads the whole picture.** Meals, water, sleep, steps, fasting, cycle, mood and GLP-1 doses all live in one app, so HAVI sees the habits behind the trend, not just the trend. Say your weight is coming down but your lean-mass estimate is coming down with it. HAVI looks at whether you fell short of your protein target on several days that week or whether your steps dropped off, then suggests **the one thing to change first**.\n\n**Ask as things come up.** Eating on an injection day, a restaurant menu, a plateau — ask in chat, or **send a photo** with your question. Free accounts have a daily chat limit; HAVIT Premium is unlimited.\n\n**If you're on a GLP-1**, your doses, side effects and meals sit in the same app as the body-composition estimate, so when the lean-mass trend dips you can see what you ate and how that week went.\n\n### Built by people from Juvis Diet\n\nHAVIT was built by **people who worked at Juvis Diet**, a Korean weight-management brand where staff coach clients on their eating and daily routines in person. The principle they brought from that work: **pay attention to what your body is made of, not just what it weighs.** Lose weight too fast and muscle tends to go with it, which makes regaining easier. That's why HAVIT shows fat and lean-mass trends and puts protein and strength training at the center of its coaching and missions.\n\nThe 12-week program is split into 12 stages, each with concrete missions such as a step count or a protein target. Whether you completed a mission is judged from your logged data, like meals and steps — not from tapping a \"done\" button.\n\n### When HAVIT isn't the best choice\n\nIf you **need the exact body-fat number itself**, get a DEXA scan or a test on a professional analyzer. If you **already own a Withings or RENPHO scale and want its readings as they are**, use that brand's app. If you wear a Galaxy Watch with an Android phone, Samsung Health reads body composition at your wrist. And keep in mind that the macro breakdown, daily check-in and workout videos are HAVIT Premium features.\n\n**Good for:** people without a body-composition device who want to see which way fat and lean mass are moving; people who want to know what to change, not just the number; people on a GLP-1 who are worried about losing muscle.\n\n## InBody — the official app for InBody tests\n\n| | |\n| --- | --- |\n| Developer | InBody Co., Ltd. |\n| App Store (US) | 3.9 (1,904 ratings) |\n| Free or paid | Free |\n| Method | 2–3 (BIA on InBody devices) |\n\n![Results only compare when the conditions match](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_WT_005.jpg)\n\n**What it does well.** This is the official app from InBody, the maker of the analyzers you'll find in many gyms and clinics. The listing describes a dashboard of your recent InBody tests, result sheets with graphs and interpretations, body-composition history, blood-pressure tracking with InBody monitors, a food and exercise log, sleep tracking with the InBody BAND 2, and syncing steps and body-composition data to Apple Health. Research shows InBody analyzers give very consistent results on repeat tests (McLester 2020).\n\n**Where it falls short.** You need access to an InBody device, so most people can't follow a daily trend with it. InBody also reads body fat lower than DEXA, so don't mix its numbers with another device's. The listing itself notes that the app isn't intended for medical diagnosis or treatment.\n\n**Good for:** people who test on InBody machines at a gym or clinic and want the history in one place.\n\n## Withings — smart-scale readings inside a wider health dashboard\n\n| | |\n| --- | --- |\n| Developer | Withings |\n| App Store (US) | 4.6 (368,466 ratings) |\n| Free or paid | Free (body composition needs a Withings scale) + Withings+ subscription |\n| Method | 3 (scale BIA) |\n\n**What it does well.** The listing covers weight and body-composition monitoring alongside activity, sleep score, blood pressure, menstrual cycle and nutrition tracking, multiple profiles for a household, and shareable reports for your doctor. It connects to Apple Health, Strava and MyFitnessPal. The paid Withings+ tier adds AI-driven insights and coaching, a Health Improvement Score, and ECG review by a cardiologist.\n\n**Where it falls short.** Body composition requires a Withings scale. Scale BIA is still an estimate, so read the direction under consistent conditions rather than the exact figure. The listing mentions nutrition tracking and a MyFitnessPal connection but doesn't describe how food logging works in detail.\n\n**Good for:** people who own or plan to buy a Withings scale and want weight, sleep and heart data in one app.\n\n## RENPHO Health — a straightforward companion for RENPHO scales\n\n| | |\n| --- | --- |\n| Developer | Joicom Corporation |\n| App Store (US) | 4.7 (9,001 ratings) |\n| Free or paid | Free (needs a RENPHO scale) |\n| Method | 3 (scale BIA) |\n\n**What it does well.** According to the listing, it tracks BMI, body-fat percentage, body water, bone mass, basal metabolism, body age and muscle mass from RENPHO smart scales, turns them into charts and shareable reports, keeps separate profiles for family members, and syncs body fat, BMI and lean body mass to Apple Health. Step on the scale and you're done, which makes a same-time-every-morning routine easy.\n\n**Where it falls short.** It's a scale app first: the listing doesn't describe food logging or coaching. Like any scale BIA, it's best for the direction under the same conditions, not the exact number.\n\n**Good for:** people who want to weigh in every morning and watch the trend.\n\n## Samsung Health + Galaxy Watch — right from your wrist\n\n| | |\n| --- | --- |\n| Developer | Samsung Electronics Co., Ltd. |\n| App Store (US) | 4.7 (35,883 ratings) |\n| Free or paid | Free (body composition needs a Galaxy Watch with the BIA sensor) |\n| Method | 3 (watch BIA) |\n\n**What it does well.** While wearing the watch, you rest the middle and ring fingers of your other hand on the watch's two buttons, and within seconds you get body-fat percentage, body water and skeletal muscle mass (Samsung support). There's no machine to visit, and the readings sit next to your workout and sleep data. In one study, the watch's lean-mass readings closely matched research-grade BIA (Bennett 2022).\n\n**Where it falls short.** In the same study, the watch was less precise than DEXA on repeat measurements, so it takes several readings to trust a change. Samsung says not to measure if you're pregnant, on your period, or have an implanted electronic medical device such as a pacemaker, and notes that results may be less accurate for people under 20. **On iPhone:** the compatibility list in the US App Store listing ends at the Galaxy Watch3 and doesn't include the newer watches that measure body composition.\n\n**Good for:** Android users who already wear a Galaxy Watch with the BIA sensor.\n\n## Side by side\n\n| App | Method | Hardware needed | Daily trend | Read alongside your food log | Free or paid |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | No-hardware estimate (4) | **None** | Yes | **Yes (the AI coach reads them together)** | Estimate free + Premium |\n| InBody | InBody BIA (2–3) | InBody device | Depends on device access | Food and exercise log in the app | Free |\n| Withings | Scale BIA (3) | Withings scale | Yes | Nutrition tracking; connects to MyFitnessPal | Free + device; Withings+ |\n| RENPHO Health | Scale BIA (3) | RENPHO scale | Yes | Not in the listing | Free + device |\n| Samsung Health | Watch BIA (3) | Galaxy Watch with BIA sensor | Yes | Not in the US listing | Free + device |\n\n## How to read your own numbers\n\n- **Only compare a device with itself.** An InBody, a bathroom scale and a watch use different equations, so mixing their numbers shows you the gap between devices, not a change in your body.\n- **Measure under the same conditions.** Same state every time — for example, in the morning before eating, after the bathroom, before exercising or showering (Samsung support).\n- **Look at the run of readings, not a single one.** Home BIA is less precise than DEXA on repeat measurements, so one reading going up or down doesn't tell you much (Bennett 2022).\n- **Watch two numbers, not one percentage.** Fat mass falling while lean mass holds is a good sign. If both are falling together, it's time to check your protein and strength training.\n- **Reset your baseline now and then.** An occasional test on a professional analyzer, with a home device or an app estimate filling in between, gives you some of the accuracy of one and the convenience of the other.\n- **If the number stresses you out, check it less.** Body composition isn't something you need to look at every day.\n\n## The bottom line\n\nChoose a body-composition app by **what you want to know**. If you need an exact body-fat figure, go to DEXA or a professional analyzer. If you already own a device, its own app (Withings, RENPHO Health, Samsung Health) is the natural fit, and the InBody app keeps your gym or clinic tests in one place.\n\nIf you don't have a device and want to see where fat and lean mass are heading — and what to change because of it — HAVIT is an option. Its body-composition number is an estimate, not a medical measurement, but it's free, and HAVI, the AI coach, reads it alongside your meals, sleep, steps and GLP-1 logs to suggest what to do today.\n\n[Get started with HAVIT →](https://www.aihavit.com/)\n",
       "key_stats": [
         {
-          "label": "Rungs on the accuracy ladder",
-          "value": "4",
-          "source": "DEXA · multi-frequency BIA · scale/watch BIA · app estimate"
+          "label": "InBody repeat-test error (body-fat %)",
+          "value": "0.77–0.99 percentage points, but reads body fat lower than DEXA",
+          "source": "McLester et al. 2020, J Clin Densitom (67 adults)"
         },
         {
-          "label": "Rungs that measure rather than estimate",
-          "value": "2 of 4",
-          "source": "DEXA and InBody-class BIA"
+          "label": "Smartwatch BIA precision",
+          "value": "Lower than DEXA — tracking change takes repeat readings",
+          "source": "Bennett et al. 2022, Am J Clin Nutr (75 people)"
         },
         {
           "label": "Lean-mass share of weight lost on GLP-1 therapy",
-          "value": "40–60% in some trials, ≤15% in others",
+          "value": "40–60% in some trials, about 15% or less in others (lean mass ≠ muscle)",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
         },
         {
-          "label": "HAVIT internal validation",
-          "value": "n=70 against InBody",
-          "source": "Havit Inc., published"
+          "label": "HAVIT body-composition estimate vs InBody",
+          "value": "92.9% within ±5 percentage points (n=70, not a medical measurement)",
+          "source": "Havit Inc. internal comparison"
         }
       ],
       "comparison_table": {
         "title": "Side by side",
         "headers": [
-          "Tool",
-          "Rung",
-          "Hardware",
+          "App",
+          "Method",
+          "Hardware needed",
           "Daily trend",
-          "Connects to action",
-          "Read alongside"
+          "Read alongside your food log",
+          "Free or paid"
         ],
         "rows": [
           [
-            "DEXA",
-            "1",
-            "Clinic",
-            "No",
-            "No",
-            "Nothing"
+            "HAVIT",
+            "No-hardware estimate (4)",
+            "None",
+            "Yes",
+            "Yes (the AI coach reads them together)",
+            "Estimate free + Premium"
           ],
           [
             "InBody",
-            "2",
-            "Dedicated device",
-            "Hard",
-            "No",
-            "Nothing"
+            "InBody BIA (2–3)",
+            "InBody device",
+            "Depends on device access",
+            "Food and exercise log in the app",
+            "Free"
           ],
           [
-            "Smartwatch BIA",
-            "3",
-            "Watch",
+            "Withings",
+            "Scale BIA (3)",
+            "Withings scale",
             "Yes",
-            "No",
-            "Activity"
+            "Nutrition tracking; connects to MyFitnessPal",
+            "Free + device; Withings+"
           ],
           [
-            "Smart scale",
-            "3",
-            "Scale",
+            "RENPHO Health",
+            "Scale BIA (3)",
+            "RENPHO scale",
             "Yes",
-            "No",
-            "Nothing"
+            "Not in the listing",
+            "Free + device"
           ],
           [
-            "HAVIT",
-            "4",
-            "None",
+            "Samsung Health",
+            "Watch BIA (3)",
+            "Galaxy Watch with BIA sensor",
             "Yes",
-            "AI coach connects it",
-            "All 8 logs"
+            "Not in the US listing",
+            "Free + device"
           ]
         ],
-        "caption": "Rungs 1–2 measure, rungs 3–4 estimate. App characteristics as of October 2026."
+        "caption": "Based on official US App Store listings, October 24, 2026. Methods 2–3 (BIA) and 4 (no-hardware estimate) are all estimates; the reference test is DEXA."
       },
       "faq": [
         {
-          "question": "What is the best app for tracking body composition?",
-          "answer": "First decide which question you are asking. \"What is my body fat percentage?\" needs a measurement — DEXA, or an InBody-class multi-frequency BIA. \"Is this diet costing me muscle?\" is a trend question, and a smart scale or an app estimate answers it well enough to change what you do. Most people need the second, weekly, with an occasional real measurement to anchor it."
+          "question": "What's the best body composition app?",
+          "answer": "It depends on what you want to know and what device you have. For an exact body-fat percentage, get a DEXA scan or a professional analyzer. If you test on InBody machines, use the InBody app; with a Withings or RENPHO scale, use that brand's app; with a Galaxy Watch on Android, use Samsung Health. If you have no device and want to see which way fat and lean mass are moving and what to do about it, HAVIT offers a free estimate and an AI coach."
         },
         {
-          "question": "Can an app really estimate body fat percentage?",
-          "answer": "It produces an estimate, not a measurement. Survey and photo models infer from inputs rather than measuring tissue. The useful property is consistency: a figure wrong in the same direction every week still shows the direction of change. Treat the absolute number with suspicion and the slope with interest. HAVIT publishes an internal comparison against InBody (n=70)."
+          "question": "Does InBody measure body composition directly?",
+          "answer": "What it measures directly is your body's electrical resistance; body-fat percentage is estimated by feeding that value, plus height, weight and other details, into an equation (bioelectrical impedance analysis, or BIA). InBody analyzers are very consistent on repeat tests, but studies have found they read body fat lower and lean mass higher than DEXA (McLester 2020). That's why you shouldn't compare InBody numbers with another device's."
         },
         {
-          "question": "Why does my InBody reading change between sessions?",
-          "answer": "Bioelectrical impedance moves with hydration, recent food, recent exercise and time of day — same-day repeats can disagree by several points. That is not a broken machine. Standardise the conditions before comparing: same time, same state, same device."
+          "question": "Can an app estimate body-fat percentage without any hardware?",
+          "answer": "It can estimate it, not measure it. In an internal comparison of 70 people, HAVIT's estimate came within ±5 percentage points of the same person's InBody result 92.9% of the time. That's not an independent validation or a medical measurement, so use it to see which way fat and lean mass are moving rather than as an exact number."
         },
         {
-          "question": "Is Galaxy Watch body composition accurate?",
-          "answer": "It is hand-to-hand BIA, so it under-reads the lower body, and the result depends on a correct profile — Samsung's own guidance says to check your profile first if a reading looks wrong. Use it for a trend rather than as a baseline figure."
+          "question": "How accurate is Galaxy Watch body composition?",
+          "answer": "In one study, the watch's lean-mass readings closely matched research-grade BIA but differed from DEXA, and its repeat-measurement precision was lower than DEXA's, so it took several readings to confirm a change (Bennett 2022). Samsung recommends measuring in the morning before eating, after using the bathroom, before exercising or showering, with the same fingers each time, and says not to measure if you're pregnant, on your period, or have an implanted device such as a pacemaker."
         },
         {
-          "question": "Why track body composition instead of weight on Ozempic or Wegovy?",
-          "answer": "Because the lean-mass share of weight lost on GLP-1 therapy has been reported at 40–60% in some trials and 15% or less in others, and a scale reports all of it as success. Watch fat mass and lean mass as a pair rather than a single percentage, and keep protein and dose in the same view."
+          "question": "I'm on Wegovy or Zepbound. Why track body composition instead of weight?",
+          "answer": "Studies disagree widely on how much of the weight lost on GLP-1 medications is lean mass — 40–60% in some trials, about 15% or less in others. Lean mass also includes organs, bone and body fluids, so it isn't the same as muscle loss (Neeland 2024). Rather than relying on weight alone, watch which way fat mass and lean mass are each moving, and keep an eye on protein and strength training. HAVIT keeps the body-composition estimate in the same app as your doses, side effects and meals."
         },
         {
           "question": "How often should I measure?",
-          "answer": "Weekly is plenty, and four weeks is the shortest window that means anything. Daily measurement mostly reads noise and, for some people, feeds a fixation. If the number distresses you, stop using it."
+          "answer": "Using the same device under the same conditions matters more than a set schedule. Home BIA is less precise than DEXA, so a single rise or drop doesn't mean much — judge by the run of readings over time. If checking the number stresses you out, it's fine to measure less."
         }
       ],
       "references": [
         {
-          "title": "Misclassification of cardiometabolic health when using BMI categories (Tomiyama et al.)",
-          "source": "International Journal of Obesity, 2016",
-          "url": "https://www.nature.com/articles/ijo201617"
+          "title": "Reliability and Agreement of Various InBody Body Composition Analyzers as Compared to Dual-Energy X-Ray Absorptiometry in Healthy Men and Women (McLester, Nickerson, Kliszczewicz & McLester)",
+          "source": "Journal of Clinical Densitometry, 2020 — 67 adults; InBody230/720/770 highly reliable (BF% SEM 0.77–0.99%) but systematically underestimate BF% and overestimate FFM vs DXA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30472111/"
         },
         {
-          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
+          "title": "Next-generation smart watches to estimate whole-body composition using bioimpedance analysis: accuracy and precision in a diverse, multiethnic sample (Bennett et al.)",
+          "source": "American Journal of Clinical Nutrition, 2022 — 75 completers; watch FFM ≈ 8-electrode BIA, significant but correctable bias vs DXA; lower precision than DXA, more repeat measures needed to track change",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35883219/"
+        },
+        {
+          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland, Linge & Birkenfeld)",
           "source": "Diabetes, Obesity and Metabolism, 2024 — lean-mass share of weight lost ranges 40–60% in some trials, ≤15% in others; lean mass ≠ muscle",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grade B",
-          "source": "U.S. Preventive Services Task Force, 2018 (topic under update); adults with BMI ≥30, clinician-delivered",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
-        },
-        {
-          "title": "Waist circumference as a vital sign in clinical practice (Ross et al.)",
-          "source": "Nature Reviews Endocrinology, 2020",
-          "url": "https://www.nature.com/articles/s41574-019-0310-7"
-        },
-        {
-          "title": "GLP-1 Habit Report 2026 — HAVIT internal analysis of 1,090 GLP-1 users",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "How to measure your body composition with Galaxy Watch",
+          "source": "Samsung Electronics support — BIA sensor; measure in the morning before eating; do not measure if pregnant, menstruating or with implanted electronic medical devices; not for diagnosis",
+          "url": "https://www.samsung.com/uk/support/mobile-devices/measure-your-body-composition-with-the-galaxy-watch-series/"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-24"
     },
     "ko": {
       "title": "2026 체성분 앱 추천 6선 — 인바디·갤럭시 워치·체중계·장비 없는 추정, 무엇이 다른가",
