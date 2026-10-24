@@ -902,138 +902,186 @@
       "last_updated": "2026-10-11"
     },
     "pt-BR": {
-      "title": "Melhores apps de hábitos para emagrecer em 2026: por que sequências não bastam",
-      "short_title": "Melhores apps de hábitos 2026",
-      "meta_description": "Noom, Tecnonutri, apps genéricos e HAVIT, um a um. A maioria implementa duas das 93 técnicas de mudança de comportamento: por isso uma sequência perfeita sem emagrecer é a falha típica.",
-      "tldr": "Um visto não distingue 30 g de proteína da intenção de comê-los. Um rastreador de hábitos ajuda só se acompanha um comportamento específico, verifica pelos dados e se ajusta quando você falha.",
-      "body_md": "Uma sequência perfeita de 90 dias e nenhum quilo a menos: é a falha típica desta categoria.\n\nO que faltou não foi motivação. É que **\"a coisa\" nunca foi especificada o bastante para importar**, e nada no app percebeu.\n\nEste guia analisa os apps de hábitos um a um.\n\n![Um visto não diz se o hábito aconteceu](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_010.jpg)\n\n## O que um rastreador de hábitos precisa fazer\n\nA taxonomia padrão de intervenções de mudança de comportamento cataloga **93 técnicas**. As que produzem resultado em emagrecimento são específicas: definir meta sobre o **comportamento** e não sobre o resultado, registrar esse comportamento, dar retorno, planejar a ação e revisar quando o plano falha.\n\nA maioria dos apps de hábitos implementa exatamente duas: o autorregistro e a sequência.\n\n**O problema da sequência.** Todo o valor dela está em não quebrar, então esse valor se inverte no momento em que quebra. O dia 94 de uma sequência de 93 dias é o de maior chance de abandono. Procure mecanismos de reparo: dias de descanso, meta semanal em vez de diária, pontos por um registro parcial.\n\n## Noom — currículo e a revisão semanal\n\n| | |\n| --- | --- |\n| Desenvolvedor | Noom, Inc. |\n\n**O que faz bem.** Um currículo diário estruturado e **um coach humano** que faz a revisão semanal — a técnica que quase todos os outros apps omitem.\n\n**Onde falha.** Funciona no calendário dele, não no seu, e está na faixa de preço mais alta da categoria. A base continua sendo autorrelato.\n\n**Para quem.** Para quem quer estrutura e uma pessoa acompanhando.\n\n## Tecnonutri — orientação como hábito\n\n| | |\n| --- | --- |\n| Origem | Brasil |\n\n**O que faz bem.** Conteúdo e orientação acompanham o registro, o que dá uma cadência externa a quem nunca teve acompanhamento.\n\n**Onde falha.** O cumprimento é autorrelatado e o plano não se ajusta quando você falha: simplesmente fica sem marcar.\n\n**Para quem.** Para quem precisa ser orientado sobre o que fazer no dia.\n\n## Apps de hábitos genéricos (Habitica, Streaks e similares)\n\n**O que fazem bem.** Registram qualquer coisa: estudar violão, passar fio dental, beber água. Flexibilidade máxima.\n\n**Onde falham.** **Não verificam nada.** Um visto só sabe que você o apertou. E não estão ligados a dados de saúde, então nada cruza o hábito com o resultado.\n\n**Para quem.** Para quem constrói dez hábitos sem relação entre si.\n\n## HAVIT — verificado pelos dados, não por uma caixinha\n\n| | |\n| --- | --- |\n| Desenvolvedor | Havit Inc. |\n| Verificação do hábito | **Pelo próprio registro**, não por uma caixinha |\n| Registra | Refeições, hidratação, treinos, sono, passos, ciclo, humor, GLP-1 |\n| Mecânicas | Missões diárias · sequências · medalhas · avatares · ranques · desafios em equipe |\n\n![Missões diárias: uma ação concreta para hoje](/blog/havit/shot/feature-daily-missions.webp)\n\n**A verificação é toda a diferença.** Um app que só conhece uma caixinha está confiando num autorrelato feito às onze da noite. O HAVIT sabe se você registrou de fato 40 g de proteína. Um visto não distingue *30 g de proteína* da *intenção de comê-los*.\n\nAs **missões diárias** são técnicas de mudança de comportamento viradas produto: uma ação concreta, amarrada a dados que o app consegue ver, **e que se ajusta quando você falha**.\n\n![Check-in diário: é assim que um dia ruim entra sem encerrar tudo](/blog/havit/shot/feature-daily-check-in.webp)\n\nEssa última parte é a decisão de projeto que importa. Uma meta de proteína perdida não é sequência quebrada: é **um dado de entrada**. O coach de IA lê junto do sono, dos passos e do ciclo, e a exigência do dia seguinte muda. O **check-in diário** é o caminho pelo qual um dia ruim entra no sistema sem encerrá-lo.\n\nEm volta: **sequências, medalhas, avatares, ranques e desafios em equipe**, além de **seis faixas de meditação guiada**, **vídeos de treino**, **jejum**, **mais de 1.400 artigos** e estimativa de composição corporal. Criado com especialistas vindos da Juvis Diet, rede de clínicas de emagrecimento da Coreia.\n\n**Para quem.** Para quem acumulou vistos enquanto o corpo não mudava; para quem apagou o app depois de uma semana ruim.\n\n## Comparação\n\n| App | O que registra | Verificação | Se você falha um dia | Lido junto de |\n| --- | --- | --- | --- | --- |\n| Noom | Refeições, atividade, peso | Autorrelato | O coach revisa | Refeições, atividade |\n| Tecnonutri | Plano alimentar | Autorrelato | Fica sem marcar | Refeições |\n| Apps genéricos | Uma caixinha | Nenhuma | A sequência reinicia | Nada |\n| **HAVIT** | **O comportamento e seus dados** | **O próprio registro** | **A meta se ajusta** | **Os 8 registros** |\n\nCaracterísticas de outubro de 2026.\n\n## Hábitos que mexem no peso de verdade — escolha dois\n\n1. **Proteína na primeira refeição.** Pesa mais com GLP-1, em que a massa magra foi descrita como 40–60% do peso perdido em alguns ensaios.\n2. **Registre todo dia, mesmo mal.** Continuidade ganha de precisão.\n3. **Uma janela de sono fixa.** O hábito que as pessoas pulam porque não é sobre comida.\n4. **Força duas vezes por semana.**\n5. **Uma revisão semanal.** Olhe a semana e mude **uma** coisa.\n\n## Resumindo\n\nUm rastreador de hábitos ajuda no peso só se acompanha um **comportamento específico**, consegue **verificá-lo** pelos dados em vez de um visto, e **se ajusta** quando você falha em vez de reiniciar.\n\nJulgue pelo que ele faz no seu pior dia, não no melhor.\n\n[Experimentar o HAVIT →](https://www.aihavit.com/)\n",
+      "title": "8 apps de hábitos para emagrecer em 2026: qual zera tudo e qual deixa você continuar",
+      "short_title": "8 apps de hábitos para emagrecer (2026)",
+      "meta_description": "HAVIT, Noom, Tecnonutri, Fastic, Fabulous, Habitify, Habitica e Finch comparados: como cada app confirma o hábito, o que acontece quando você falha um dia, o que o coach de IA faz e o que é grátis. Outubro de 2026.",
+      "tldr": "Escolha um app de hábitos por três critérios: se ele transforma a meta em uma ação concreta, se confirma pelos dados ou por foto em vez de um simples visto, e se oferece um jeito de continuar depois de um dia perdido. Se você registra tudo e não sabe o que mudar, procure um coach que leia todos os registros e diga a próxima ação.",
+      "body_md": "Noventa dias de sequência perfeita no app de hábitos, e a balança não saiu do lugar. Quem já usou esse tipo de app conhece a cena.\n\nQuase nunca é falta de força de vontade. Na maioria das vezes, **o hábito não era concreto o bastante para mexer no peso, e o app não tinha como saber se ele aconteceu de fato**. Marcar \"comer melhor\" é registrar uma intenção. \"Proteína no café da manhã\" ou você fez, ou não fez.\n\nEste guia compara 8 apps que brasileiros usam para criar hábitos de emagrecimento: quatro de dieta (HAVIT, Noom, Tecnonutri e Fastic) e quatro de hábitos e rotina (Fabulous, Habitify, Habitica e Finch). Notas e o que é grátis ou pago seguem a descrição oficial na App Store do Brasil em 24 de outubro de 2026. Preços mudam com frequência, então ficaram de fora.\n\nO HAVIT é o app da equipe que escreveu este texto, criado por **especialistas vindos da Juvis Diet**, marca coreana especializada em acompanhamento de emagrecimento. Por isso deixamos os critérios claros logo no começo e também dizemos quando o HAVIT não é a melhor escolha para você.\n\n![Um visto não diz se o hábito aconteceu](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MIND_010.jpg)\n\n## Resposta rápida: qual app para cada caso\n\n| Se você... | App indicado | Por quê |\n| --- | --- | --- |\n| Acumula vistos e o peso não muda | **HAVIT** | Confirma as missões pelos registros de refeições e passos e cruza com sono e ciclo menstrual |\n| Larga tudo depois de um dia ruim | **HAVIT** | Na missão de dias seguidos, a primeira falha é perdoada e a segunda pode ser salva |\n| Usa GLP-1 com prescrição médica | **HAVIT** | Registra doses, efeitos colaterais, proteína e estimativa de composição corporal no mesmo app |\n| Quer cardápio pronto e conversa com nutricionista | Tecnonutri | Mais de 50 programas e chat com a equipe de nutricionistas de segunda a sexta |\n| Está começando pelo jejum intermitente | Fastic | Timer de jejum e uma pontuação diária de alimentação, atividade, água e sono |\n| Precisa de uma rotina guiada passo a passo | Fabulous | Metas que crescem aos poucos, começando pelo sono e chegando a um ritual matinal |\n| Quer hábitos registrados sozinhos pelos dados de saúde | Habitify | Conecta com Apple Saúde, Google Health, Fitbit e Strava (Pro) |\n| Só se anima se for um jogo | Habitica · Finch | RPG com equipe (Habitica) ou um bichinho virtual que cresce com o autocuidado (Finch) |\n| Registra tudo e não sabe o que mudar | **HAVIT** | O coach de IA lê todos os registros e diz qual ação fazer hoje |\n\n## Antes de escolher: 4 perguntas\n\n**1. O app transforma a meta em ação?** \"Emagrecer\" é resultado. Veja se o app quebra isso em **comportamentos**, como \"7.000 passos\" ou \"proteína em todas as refeições\". Uma análise de 30 apps comerciais de emagrecimento encontrou, em média, só **18,8% das 20 estratégias de comportamento** usadas no Diabetes Prevention Program, um programa de emagrecimento com base científica. Sete estratégias não apareciam em nenhum app, entre elas a de **resolução de problemas**: o que fazer quando o plano dá errado (Pagoto 2013, apps avaliados em 2012).\n\n**2. Como ele sabe que você fez?** Há apps em que você marca sozinho, apps que pedem foto e apps que conferem pelos dados registrados ou sincronizados. Marcar é fácil, mas costuma acontecer às 23h, de memória.\n\n**3. O que acontece quando você falha um dia?** É a pergunta mais importante desta categoria. Em sete experimentos, mostrar uma sequência quebrada **reduziu a disposição de continuar** em comparação com mostrar uma sequência intacta, e esse efeito **ficou menor quando dava para recuperar a sequência** (Silverman & Barasch 2023). Num estudo que acompanhou a formação de hábitos por 12 semanas, **perder um dia não atrapalhou de forma relevante** (Lally 2010). O problema não é o dia perdido, é desistir no dia seguinte.\n\n**4. Ele enxerga os registros ligados ao peso?** Refeições, sono, passos e ciclo menstrual influenciam uns aos outros. Um app que só vê o visto do hábito não tem como explicar por que o peso empacou.\n\n## HAVIT — coach de IA criado por especialistas da Juvis Diet, com hábitos que sobrevivem ao dia ruim\n\n| | |\n| --- | --- |\n| Desenvolvedor | Havit Inc. |\n| Quem criou | Especialistas vindos da Juvis Diet (marca coreana especializada em acompanhamento de emagrecimento) |\n| Coach de IA | HAVI — lê todos os seus registros e sugere a ação de hoje; aceita fotos no chat |\n| Grátis | Registro de refeições (busca ou digitação) com calorias por refeição; peso, água, sono, passos, jejum, humor, ciclo menstrual e GLP-1; estimativa de composição corporal; chat com o coach (limite diário de mensagens) |\n| HAVIT Premium | Proteínas, carboidratos e gorduras por refeição e por dia; calorias restantes; registro de refeição por foto com IA; chat ilimitado; check-in diário; vídeos de treino, meditações guiadas e artigos; 2 Salvadores de Sequência por semana; resumo da noite e compromisso do dia |\n| App Store (EUA) | 4,7 (159 avaliações) — no Brasil ainda não há avaliações suficientes |\n| Como confirma | Pelos dados registrados (passos sincronizados com o Apple Saúde ou o Health Connect) |\n| Se você falha | Missão de dias seguidos: 1ª falha perdoada → 2ª salva com Salvador de Sequência → 3ª recomeça |\n\nA divisão entre grátis e Premium segue a configuração padrão do app em outubro de 2026; promoções podem liberar alguns recursos Premium de graça.\n\n![Missões: uma ação concreta para hoje](/blog/havit/shot/feature-daily-missions.webp)\n\n**O hábito vem em forma de ação.** O programa de 12 semanas é dividido em 12 etapas, e cada etapa traz missões concretas, como passos e proteína. Não existe missão do tipo \"se esforçar mais\".\n\n**Quem confirma é o registro, não um botão.** Você não aperta \"fiz\". O app calcula se a missão foi cumprida a partir dos registros reais de refeições e passos. Os passos chegam sozinhos do app de saúde do celular; as refeições você registra. Não é uma verificação 100% automática, mas pelo menos a intenção de comer bem não vira um visto.\n\n**Um dia ruim não derruba tudo.** Esta parte segue de perto as pesquisas citadas acima.\n\n- Nas **missões de dias seguidos**, se você perde um dia, o progresso continua e o app só avisa: \"se faltar de novo, recomeça\".\n- Na **segunda falha**, você escolhe entre usar um Salvador de Sequência (item que protege a sequência) ou recomeçar.\n- A partir da **terceira**, a missão recomeça. A tolerância tem limite.\n- Na **sequência de dias de uso**, se você falha um dia, um Salvador é usado automaticamente no dia seguinte. No Premium chegam 2 novos por semana; no plano grátis, você usa os que ganhou ao começar ou dentro do app.\n\n### HAVI, o coach de IA — lê os seus registros e diz o que fazer hoje\n\nSe um app de hábitos é o lugar onde se conta \"fiz/não fiz\", o centro do HAVIT é **HAVI, o coach de IA**. Ele não conta vistos por você: olha os registros e diz qual é o próximo passo.\n\n![Coach de IA do HAVIT: lê todos os registros e devolve uma ação para hoje](/blog/havit/shot/feature-ai-coach.webp)\n\n**O plano começa numa conversa.** HAVI pergunta seu objetivo (perder peso, manter, criar hábitos saudáveis ou ganhar músculo), se você usa GLP-1 e quais efeitos colaterais sente, e depois altura, peso, cintura e tipo de corpo. Com essas respostas ele monta o seu **Body Blueprint**, um retrato do ponto de partida, e o plano até a meta. Você começa com um plano feito para o seu corpo, não com o de outra pessoa.\n\n**No dia a dia, ele lê tudo junto.** Refeições, água, sono, passos, jejum, ciclo menstrual, humor e doses de GLP-1 ficam no mesmo app, então HAVI não olha só para um hábito, olha para o dia por trás dele. Numa semana em que você bateu a meta de passos todos os dias e o peso parou, por exemplo, ele percebe que a proteína ficou abaixo da meta por quatro dias seguidos e que em duas noites você dormiu menos de seis horas, e aponta **qual dessas coisas mudar primeiro**. Um app de hábitos sozinho não enxerga isso.\n\n**Dúvida? Pergunte na hora, até com foto.** Restaurante, platô, o que comer no dia da dose: você pergunta no chat e pode **mandar uma foto**. No plano grátis há um limite diário de mensagens; acabou, dá para continuar com moedas ou com o HAVIT Premium (chat ilimitado).\n\n**O dia termina com um balanço.** Às 22h chega o **resumo da noite** e você pode deixar um **compromisso** de uma linha para amanhã. Com o tempo, o app mostra quantos compromissos você cumpriu nos últimos 14 dias. É a revisão que quase todo app de hábitos deixa de fora, feita em pequenas doses todo dia (resumo e compromisso são HAVIT Premium).\n\n![Check-in diário: um dia ruim entra no sistema sem encerrar tudo](/blog/havit/shot/feature-daily-check-in.webp)\n\nCom o **check-in diário** (HAVIT Premium) você registra disposição, sono, apetite e humor em poucos toques, e HAVI sabe que tipo de dia é antes de pedir qualquer coisa. Por isso, depois de uma noite mal dormida, a cobrança não é a mesma de sempre.\n\nOutros apps de dieta também falam em IA. O que muda no HAVIT é que **ciclo menstrual, sono e doses de GLP-1 são lidos no mesmo app**, e que o coach está ligado à estrutura de **missões e Salvadores de Sequência** descrita acima.\n\n### Criado por especialistas vindos da Juvis Diet\n\nO HAVIT foi criado por **especialistas vindos da Juvis Diet**, marca coreana especializada em acompanhamento de emagrecimento, em que profissionais acompanham de perto a alimentação e a rotina de cada cliente. A forma de trabalhar de quem ajudava pessoas a emagrecer e manter o peso, antes de existir o app, está no coach e no programa de 12 semanas.\n\n![Composição corporal: tendência de gordura e massa magra, não só o peso](/blog/havit/shot/feature-body-insights.webp)\n\nEsse método aparece no app de três formas:\n\n- **Olha a composição do corpo, não só o peso.** Emagrecer rápido demais leva músculo junto e facilita o efeito sanfona. Por isso o HAVIT estima a tendência de gordura e massa magra sem aparelho (grátis; não é medição médica) e coloca a proteína no centro das missões e do coaching.\n- **Uma mudança de cada vez.** Como num acompanhamento presencial, cada etapa se resume a poucas ações concretas.\n- **O dia ruim faz parte do processo.** Um dia perdido não encerra nada: a tolerância e os Salvadores trazem você de volta.\n\n### Quando o HAVIT não é a melhor escolha\n\nSe você quer cuidar de **hábitos que não têm a ver com peso** (leitura, estudo, inglês) no mesmo lugar, Habitify ou Fabulous servem melhor: as missões do HAVIT são feitas para controle de peso e não dá para criar as suas. Se quer **cardápio pronto e conversa com nutricionista**, o Tecnonutri oferece isso. E Salvadores semanais, resumo da noite com compromisso e análise de proteínas, carboidratos e gorduras são recursos do HAVIT Premium.\n\n**Para quem**: quem registra e não sabe o que mudar, quem acumula vistos e o corpo não muda, quem já apagou o app depois de uma semana ruim, quem sente o peso mexer com o sono e o ciclo, e quem usa GLP-1.\n\n## Noom — lições diárias de comportamento\n\n| | |\n| --- | --- |\n| App Store (Brasil) | 4,4 (520 avaliações) |\n| Grátis ou pago | Planos por assinatura; coaching 1:1 é opcional (descrição oficial) |\n| Como confirma | Registro feito por você (passos sincronizados) |\n\n**O que faz bem.** Lições diárias sobre hábitos e mudança de comportamento, registro de refeições com IA, contagem de passos, comunidades e coaching 1:1 opcional. A lógica é mudar o comportamento por trás da alimentação, não só contar calorias.\n\n**Onde deixa a desejar.** A descrição na App Store brasileira está em inglês e cita planos e serviços pensados para os EUA, como acesso a medicamentos \"se elegível\". Vale confirmar o que está disponível no Brasil antes de assinar. O número de avaliações por aqui também é pequeno. Regras para dias perdidos não aparecem na descrição.\n\n**Para quem**: quem quer aprender o porquê dos próprios hábitos com um programa estruturado.\n\n## Tecnonutri — programas prontos e nutricionistas no chat\n\n| | |\n| --- | --- |\n| App Store (Brasil) | **4,6 (26.022 avaliações)** |\n| Grátis ou pago | Download grátis; a descrição oficial não detalha o que é pago |\n| Como confirma | Registro feito por você |\n\n**O que faz bem.** Mais de 50 programas (low carb, jejum intermitente, mediterrânea e outros), cardápios e receitas criados por nutricionistas, **chat com a equipe de nutricionistas** de segunda a sexta, aulas ao vivo e grupos da comunidade. Preencher o diário alimentar, o de exercícios e o de água rende pontos (XP) com benefícios no app da Vitat, uma forma direta de premiar o hábito de registrar.\n\n**Onde deixa a desejar.** Quem confirma o hábito é você. A descrição oficial não fala em regras para dias perdidos, sono ou ciclo menstrual.\n\n**Para quem**: quem prefere seguir um cardápio pronto e tirar dúvidas com nutricionistas.\n\n## Fastic — o hábito começa pelo jejum\n\n| | |\n| --- | --- |\n| App Store (Brasil) | **4,9 (21.826 avaliações)** |\n| Grátis ou pago | Grátis + assinatura Fastic Plus |\n| Como confirma | Timer de jejum e registros; passos e Apple Saúde |\n\n**O que faz bem.** Timer de jejum intermitente, contador de água e passos, e uma **Pontuação Fastic** que acompanha alimentação, atividade, água e sono com recomendações personalizadas. No Plus entram desafios diários e semanais, companheiros de jejum e um plano diário personalizado. Bom para quem quer um hábito só, bem definido, para começar.\n\n**Onde deixa a desejar.** O centro é o jejum. A descrição oficial está em português de Portugal e não detalha o que acontece quando você falha um dia.\n\n**Para quem**: quem quer começar pelo jejum intermitente e precisa de desafios para manter o ritmo.\n\n## Fabulous — rotinas que crescem aos poucos\n\n| | |\n| --- | --- |\n| App Store (Brasil) | **4,7 (21.998 avaliações)** |\n| Grátis ou pago | Download grátis; assinatura mensal ou anual |\n| Como confirma | Você marca a rotina como feita |\n\n**O que faz bem.** Em vez de jogar dez hábitos de uma vez, o Fabulous começa pequeno, **dormindo melhor**, e vai somando metas até montar um ritual matinal completo. Traz treinos curtos, meditação, ioga e sessões guiadas criadas com pesquisadores.\n\n**Onde deixa a desejar.** Não liga os hábitos aos registros de refeição ou de peso. Saber se você fez depende do seu visto.\n\n**Para quem**: quem tem dificuldade de começar e quer uma rotina inteira guiada passo a passo.\n\n## Habitify — hábitos registrados pelos dados de saúde\n\n| | |\n| --- | --- |\n| App Store (Brasil) | 4,7 (2.227 avaliações) |\n| Grátis ou pago | Grátis + Habitify Plus / Pro |\n| Como confirma | Você marca; **no Pro, registro automático pelo Apple Saúde, Google Health/Fit, Fitbit e Strava** |\n\n**O que faz bem.** Entre os apps de hábitos genéricos, é um dos poucos que **registram caminhada, corrida e sono sozinhos** a partir dos dados de saúde (Pro). Cada hábito pode ser marcado como concluído, pulado ou perdido, e dá para **pausar** quando a vida muda, então uma semana doente não vira sequência quebrada.\n\n**Onde deixa a desejar.** O registro automático é do Pro, que é pago. Não há registro de refeições nem análise de peso.\n\n**Para quem**: quem tem muitos hábitos além da dieta e quer que os dados entrem sozinhos.\n\n## Habitica — seus hábitos viram um RPG\n\n| | |\n| --- | --- |\n| App Store (Brasil) | 4,5 (349 avaliações) |\n| Grátis ou pago | Grátis, com compras e assinatura opcionais |\n| Como confirma | Você marca |\n\n**O que faz bem.** Cada tarefa cumprida rende ouro, experiência e itens para o seu avatar. Em **grupos com amigos**, vocês enfrentam monstros juntos cumprindo tarefas, o que acrescenta uma cobrança a mais. Dá para usar tudo sem pagar.\n\n**Onde deixa a desejar.** A descrição é em inglês e não há ligação com dados de saúde. O jogo só sabe que você marcou.\n\n**Para quem**: quem só mantém um hábito se ele virar jogo, de preferência com amigos.\n\n## Finch — autocuidado com um bichinho virtual\n\n| | |\n| --- | --- |\n| App Store (Brasil) | 5,0 (2.341 avaliações) |\n| Grátis ou pago | Download grátis; a descrição oficial não detalha o que é pago |\n| Como confirma | Você marca |\n\n**O que faz bem.** Você cuida de um bichinho virtual cuidando de si: metas, registro de humor, diário e exercícios de respiração fazem o bichinho crescer. Deixa o autocuidado leve, sem cara de obrigação.\n\n**Onde deixa a desejar.** É um app de saúde mental e autocuidado, não de emagrecimento. A descrição é em inglês e não há registro de refeições ou peso.\n\n**Para quem**: quem quer começar pelo humor e pela rotina antes de mexer na dieta.\n\n## Comparação lado a lado\n\n| App | Perfil | Como confirma | Se você falha um dia | Registros ligados | Grátis ou pago |\n| --- | --- | --- | --- | --- | --- |\n| **HAVIT** | Coach de IA de especialistas da Juvis Diet + missões de 12 semanas | **Dados registrados** | **1ª perdoada · 2ª Salvador · 3ª recomeça** | Refeições, sono, passos, ciclo e mais (9 tipos) | Grátis + Premium |\n| Noom | Lições de comportamento + coaching opcional | Registro seu | Não consta na descrição | Refeições, passos, peso | Assinatura |\n| Tecnonutri | Programas prontos + nutricionistas no chat | Registro seu | Não consta na descrição | Refeições, exercícios, água, peso | Download grátis |\n| Fastic | Jejum + pontuação diária | Timer e registros | Não consta na descrição | Jejum, água, passos, sono | Grátis + Plus |\n| Fabulous | Rotinas guiadas | Visto | Não consta na descrição | Nenhum | Assinatura |\n| Habitify | App de hábitos genérico | Visto / automático (Pro) | Pular ou pausar | Passos e sono (Pro) | Grátis + Plus/Pro |\n| Habitica | RPG de hábitos | Visto | Não consta na descrição | Nenhum | Grátis |\n| Finch | Autocuidado com bichinho | Visto | Não consta na descrição | Humor | Download grátis |\n\n## Como transformar uma meta vaga em ação que o app consegue conferir\n\nSeja qual for o app, vale reescrever os hábitos assim. O teste é simples: **à noite, dá para saber na hora se você fez ou não?**\n\n| Meta vaga | Ação concreta | Como conferir |\n| --- | --- | --- |\n| Comer melhor | Dois ovos ou um iogurte natural no café da manhã | Registro de refeição |\n| Andar mais | 15 minutos de caminhada depois do almoço, 7.000 passos por dia | Passos sincronizados |\n| Parar de beliscar à noite | Depois das 21h, só água ou chá | Horário da última refeição |\n| Beber mais água | Um copo de água em cada refeição | Registro de água |\n| Fazer exercício | 20 minutos de musculação às terças e sextas | Registro de treino |\n| Dormir cedo | Deitar antes da meia-noite | Registro de sono |\n\nFica ainda melhor quando você amarra a ação a **\"quando e onde\"**. No estudo de formação de hábitos citado acima, os participantes repetiam o comportamento sempre na mesma situação, como \"depois do café da manhã\" (Lally 2010).\n\n## O que fazer no dia seguinte à sequência quebrada\n\nDá vontade de largar tudo quando a sequência quebra, e isso é uma reação comum (Silverman & Barasch 2023). Por isso é melhor decidir antes:\n\n1. **Registre uma coisa só hoje.** Não precisa ser um dia perfeito, só um dia em que o registro continua.\n2. **Escreva em uma linha por que falhou.** Happy hour, hora extra, semana antes da menstruação: se o motivo se repete, é isso que você muda na próxima semana.\n3. **Baixe a meta por uns dias.** Se 7.000 passos estão pesados nesta semana, 5.000 mantêm o hábito vivo.\n4. **Use a ferramenta de recuperação.** Salvador de Sequência (HAVIT), pular ou pausar (Habitify): elas existem para esse momento.\n\n## Hábitos que mexem no peso: escolha 2 de 5\n\nQuem tenta os cinco de uma vez costuma perder os cinco. Comece pelos dois que parecem mais fáceis agora.\n\n1. **Proteína na primeira refeição.** Ainda mais importante para quem usa GLP-1: em alguns estudos, a massa magra respondeu por 40% a 60% do peso perdido (Neeland 2024).\n2. **Registrar todo dia, mesmo mal feito.** O automonitoramento aparece ligado de forma consistente à perda de peso, embora os autores considerem o nível de evidência fraco (Burke 2011). Menos dias em branco vale mais que precisão.\n3. **Hora fixa para dormir.** É o hábito que mais se pula por não ter nada a ver com comida.\n4. **Musculação duas vezes por semana.** A OMS recomenda atividades de fortalecimento muscular em 2 ou mais dias por semana para adultos.\n5. **Uma revisão por semana.** Olhe a semana e mude **uma** coisa. É a \"resolução de problemas\" que os apps mais deixaram de fora no estudo citado lá em cima.\n\nAté o hábito ficar automático, os participantes levaram de **18 a 254 dias**, com mediana de 66 (Lally 2010). Se o desafio de 21 dias acabou e ainda está difícil, é normal.\n\n## Resumindo\n\nEscolha um app de hábitos para emagrecer por três critérios: se ele dá **ações concretas**, se **confirma pelos dados ou por foto** em vez de um simples visto, e se oferece **um jeito de continuar** depois de um dia perdido.\n\nA resposta muda com o que motiva você. Cardápio pronto e nutricionista: Tecnonutri. Começar pelo jejum: Fastic. Rotina guiada: Fabulous. Hábitos de todo tipo com dados automáticos: Habitify. Se os vistos se acumulam e o corpo não muda, o que falta é um coach que leia hábitos e registros juntos e diga qual é a próxima ação. O HAVIT é esse coach em forma de IA, criado por especialistas vindos da Juvis Diet.\n\n**Escolha pelo que o app faz no seu pior dia, não no melhor.**\n\n[Experimentar o HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
-          "label": "Técnicas de mudança de comportamento na taxonomia padrão",
-          "value": "93",
-          "source": "Michie et al. 2013, Ann Behav Med"
+          "label": "Estratégias de comportamento com base científica presentes nos apps de emagrecimento",
+          "value": "Média de 18,8% de 20",
+          "source": "Pagoto et al. 2013, Am J Prev Med (30 apps, avaliados em 2012)"
         },
         {
-          "label": "Técnicas que a maioria dos apps de hábitos implementa",
-          "value": "2",
-          "source": "Autorregistro e sequência"
+          "label": "Tempo até o hábito ficar automático",
+          "value": "18 a 254 dias (mediana de 66)",
+          "source": "Lally et al. 2010, Eur J Soc Psychol"
         },
         {
-          "label": "Registros com que o HAVIT verifica hábitos",
-          "value": "8",
-          "source": "Refeições, hidratação, treinos, sono, passos, ciclo, humor, GLP-1"
+          "label": "Disposição de continuar ao ver a sequência quebrada",
+          "value": "Cai (menos quando dá para recuperar)",
+          "source": "Silverman & Barasch 2023, J Consum Res (7 experimentos)"
         },
         {
-          "label": "Massa magra dentro do peso perdido com GLP-1",
-          "value": "40–60% em alguns ensaios",
-          "source": "Neeland et al. 2024, Diabetes Obes Metab"
+          "label": "Registros que o HAVIT lê juntos",
+          "value": "9 tipos",
+          "source": "Refeições, peso, água, sono, passos, jejum, humor, ciclo menstrual, GLP-1"
         }
       ],
       "comparison_table": {
-        "title": "Comparação",
+        "title": "Comparação lado a lado",
         "headers": [
           "App",
-          "O que registra",
-          "Verificação",
+          "Perfil",
+          "Como confirma",
           "Se você falha um dia",
-          "Lido junto de"
+          "Registros ligados",
+          "Grátis ou pago"
         ],
         "rows": [
           [
+            "HAVIT",
+            "Coach de IA de especialistas da Juvis Diet + missões de 12 semanas",
+            "Dados registrados",
+            "1ª perdoada · 2ª Salvador · 3ª recomeça",
+            "Refeições, sono, passos, ciclo e mais (9 tipos)",
+            "Grátis + Premium"
+          ],
+          [
             "Noom",
-            "Refeições, atividade, peso",
-            "Autorrelato",
-            "O coach revisa",
-            "Refeições, atividade"
+            "Lições de comportamento + coaching opcional",
+            "Registro seu",
+            "Não consta na descrição",
+            "Refeições, passos, peso",
+            "Assinatura"
           ],
           [
             "Tecnonutri",
-            "Plano alimentar",
-            "Autorrelato",
-            "Fica sem marcar",
-            "Refeições"
+            "Programas prontos + nutricionistas no chat",
+            "Registro seu",
+            "Não consta na descrição",
+            "Refeições, exercícios, água, peso",
+            "Download grátis"
           ],
           [
-            "Apps genéricos",
-            "Uma caixinha",
-            "Nenhuma",
-            "A sequência reinicia",
-            "Nada"
+            "Fastic",
+            "Jejum + pontuação diária",
+            "Timer e registros",
+            "Não consta na descrição",
+            "Jejum, água, passos, sono",
+            "Grátis + Plus"
           ],
           [
-            "HAVIT",
-            "O comportamento e seus dados",
-            "O próprio registro",
-            "A meta se ajusta",
-            "Os 8 registros"
+            "Fabulous",
+            "Rotinas guiadas",
+            "Visto",
+            "Não consta na descrição",
+            "Nenhum",
+            "Assinatura"
+          ],
+          [
+            "Habitify",
+            "App de hábitos genérico",
+            "Visto / automático (Pro)",
+            "Pular ou pausar",
+            "Passos e sono (Pro)",
+            "Grátis + Plus/Pro"
+          ],
+          [
+            "Habitica",
+            "RPG de hábitos",
+            "Visto",
+            "Não consta na descrição",
+            "Nenhum",
+            "Grátis"
+          ],
+          [
+            "Finch",
+            "Autocuidado com bichinho",
+            "Visto",
+            "Não consta na descrição",
+            "Humor",
+            "Download grátis"
           ]
         ],
-        "caption": "Características de outubro de 2026."
+        "caption": "Descrições oficiais na App Store do Brasil em 24 de outubro de 2026. \"Não consta na descrição\" quer dizer que a descrição oficial não fala do assunto, não que o recurso não exista."
       },
       "faq": [
         {
           "question": "Qual é o melhor app de hábitos para emagrecer?",
-          "answer": "O que acompanha um comportamento específico em vez de uma intenção vaga, verifica pelos seus dados em vez de uma caixinha, e baixa a meta quando você falha em vez de reiniciar uma sequência. Apps genéricos são melhores se você constrói dez hábitos sem relação; aqui são piores, porque um visto não distingue 30 g de proteína da intenção de comê-los."
+          "answer": "Depende do que motiva você. Se os vistos se acumulam e o peso não muda, o HAVIT confirma as missões pelos registros e cruza com sono e ciclo menstrual. Para cardápio pronto e nutricionista no chat, Tecnonutri; para começar pelo jejum, Fastic; para uma rotina guiada, Fabulous; para hábitos de todo tipo com dados automáticos, Habitify."
         },
         {
-          "question": "Mantenho a sequência perfeita mas não emagreço. Por quê?",
-          "answer": "Quase sempre porque o hábito nunca foi especificado o bastante. \"Comer melhor\" registra o seu otimismo; \"30 g de proteína no café da manhã\" é verdadeiro ou falso às nove. A maioria dos apps implementa só duas das 93 técnicas catalogadas — autorregistro e sequência — e o que falta, sobretudo planejar a ação e revisar a semana, é onde o emagrecimento acontece."
+          "question": "O que o coach de IA do HAVIT faz?",
+          "answer": "No começo, HAVI conversa com você sobre objetivo, uso de GLP-1, efeitos colaterais e medidas do corpo e monta o plano. Depois, lê juntos os registros de refeições, sono, passos, ciclo e GLP-1 e sugere a ação de hoje; dá para mandar foto no chat. Às 22h chegam o resumo da noite e o compromisso do dia (HAVIT Premium). No plano grátis, o chat tem limite diário."
         },
         {
-          "question": "Sequências são boas ou ruins?",
-          "answer": "As duas coisas. Todo o valor está em não quebrar, então ele se inverte assim que quebra: o dia 94 de uma sequência de 93 dias é o de maior abandono. Procure mecanismos de reparo: dias de descanso, meta semanal em vez de diária e pontos por um registro parcial."
+          "question": "Quem criou o HAVIT?",
+          "answer": "Especialistas vindos da Juvis Diet, marca coreana especializada em acompanhamento de emagrecimento. O método de acompanhar de perto a alimentação e a rotina de cada pessoa foi levado para o coach de IA e o programa de 12 semanas, com foco na composição do corpo e em manter o peso. O desenvolvedor é a Havit Inc."
         },
         {
-          "question": "Qual a diferença entre um app de hábitos genérico e um de emagrecimento?",
-          "answer": "A verificação. Um app genérico só sabe que você apertou uma caixinha. Um construído sobre os seus registros sabe se 40 g de proteína foram de fato anotados. Se a sua meta é o peso, essa verificação é o que faz o registro significar alguma coisa."
+          "question": "Dá para usar um app de hábitos para emagrecer de graça?",
+          "answer": "Todos os 8 apps podem ser baixados de graça, mas o alcance muda. No HAVIT, registro de refeições, peso, sono, passos e a estimativa de composição corporal são grátis; análise de proteínas, carboidratos e gorduras e registro por foto com IA são Premium. No Habitify, o registro automático pelos dados de saúde é do Pro. O Habitica pode ser usado inteiro sem pagar."
+        },
+        {
+          "question": "Minha sequência está perfeita, por que não emagreço?",
+          "answer": "Muitas vezes o hábito não é concreto o bastante para mexer no peso. \"Comer melhor\" registra uma intenção; \"proteína no café da manhã\" ou foi feito ou não foi. Além disso, um app que só vê vistos não enxerga o sono e as refeições da mesma semana, então não tem como achar o motivo do platô."
+        },
+        {
+          "question": "Sequência de dias ajuda a emagrecer?",
+          "answer": "Ajuda enquanto dura. Mostrar uma sequência intacta aumentou a disposição de continuar. O problema é quando ela quebra: ver a sequência quebrada reduziu essa disposição, e o efeito foi menor quando dava para recuperá-la (Silverman & Barasch 2023). Prefira apps com recuperação, como Salvadores ou opção de pular."
+        },
+        {
+          "question": "Se eu falhar um dia, preciso começar do zero?",
+          "answer": "No estudo de formação de hábitos, perder um dia não atrapalhou de forma relevante (Lally 2010). No HAVIT, a missão de dias seguidos mantém o progresso na primeira falha, deixa usar um Salvador de Sequência na segunda e recomeça a partir da terceira."
+        },
+        {
+          "question": "Qual a diferença entre um app de hábitos genérico e um app de dieta?",
+          "answer": "Os registros que ele enxerga. Apps genéricos (Fabulous, Habitify, Habitica, Finch) aceitam qualquer hábito, mas não analisam refeições nem peso. Apps de dieta mostram como o hábito se liga ao peso. Muitos hábitos fora da dieta: app genérico. Peso como meta: app de dieta."
         },
         {
           "question": "Quais hábitos mexem no peso de verdade?",
-          "answer": "Escolha dois, não oito. Proteína na primeira refeição, registrar todo dia mesmo mal, uma janela de sono fixa, força duas vezes por semana e uma revisão semanal. A revisão semanal é a técnica que quase todos os apps omitem: olhe a semana e mude uma coisa só."
+          "answer": "Escolha 2 de 5: proteína na primeira refeição, registrar todo dia mesmo mal feito, hora fixa para dormir, musculação duas vezes por semana e uma revisão semanal. A revisão semanal é a estratégia de resolução de problemas que os apps de emagrecimento mais deixaram de fora (Pagoto 2013)."
         },
         {
-          "question": "Devo registrar o peso como hábito diário?",
-          "answer": "Peso é resultado, não comportamento: responde devagar, com ruído, e a coisas que você fez na semana passada. Colocá-lo numa lista diária te pontua por algo que você não controla naquele dia. Registre os comportamentos todo dia e leia o peso como tendência semanal."
+          "question": "Quanto tempo leva para um hábito pegar?",
+          "answer": "Num estudo que acompanhou pessoas na vida real, o hábito levou de 18 a 254 dias para ficar automático, com mediana de 66 (Lally 2010). Se o desafio de 21 dias acabou e ainda está difícil, é normal."
         }
       ],
       "references": [
         {
-          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
-          "source": "Journal of the American Dietetic Association, 2011 — 22 estudos, 15 sobre automonitoramento dietético; autores classificam o nível de evidência como fraco",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+          "title": "Evidence-based strategies in weight-loss mobile apps (Pagoto, Schneider, Jojic, DeBiasse & Mann)",
+          "source": "American Journal of Preventive Medicine, 2013 — 30 apps avaliados em 20 estratégias derivadas do DPP; média de 18,83%, 7 estratégias ausentes em todos",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24139770/"
         },
         {
-          "title": "The behavior change technique taxonomy (v1) of 93 hierarchically clustered techniques (Michie et al.)",
-          "source": "Annals of Behavioral Medicine, 2013",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23512568/"
-        },
-        {
-          "title": "Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin — DPP (Knowler et al.)",
-          "source": "New England Journal of Medicine, 2002 (n=3.234)",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370926/"
-        },
-        {
-          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
-          "source": "Diabetes, Obesity and Metabolism, 2024 — parcela de massa magra do peso perdido varia de 40–60% em alguns ensaios, ≤15% em outros; massa magra ≠ músculo",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
-        },
-        {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grau B",
-          "source": "U.S. Preventive Services Task Force, 2018 (tópico em atualização); adultos com IMC ≥30, entregue por clínico",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+          "title": "On or Off Track: How (Broken) Streaks Affect Consumer Decisions (Silverman & Barasch)",
+          "source": "Journal of Consumer Research, 2023 — sete estudos; efeito menor quando a sequência quebrada pode ser recuperada",
+          "url": "https://doi.org/10.1093/jcr/ucac029"
         },
         {
           "title": "How are habits formed: modelling habit formation in the real world (Lally, van Jaarsveld, Potts & Wardle)",
-          "source": "European Journal of Social Psychology, 2010 — mediana de 66 dias para estabilização da automaticidade",
+          "source": "European Journal of Social Psychology, 2010 — 18 a 254 dias até a automaticidade estabilizar, mediana de 66; perder uma oportunidade não afetou de forma relevante",
           "url": "https://doi.org/10.1002/ejsp.674"
         },
         {
-          "title": "GLP-1 Habit Report 2026 — análise interna HAVIT de 1.090 usuários de GLP-1",
-          "source": "Havit Inc., 2026",
-          "url": "https://www.aihavit.com/blog/en/glp-1-habit-report"
+          "title": "Self-monitoring in weight loss: a systematic review of the literature (Burke, Wang & Sevick)",
+          "source": "Journal of the American Dietetic Association, 2011 — 22 estudos; os autores classificam o nível de evidência como fraco",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
+        },
+        {
+          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — massa magra de 40–60% do peso perdido em alguns ensaios, ≤15% em outros; massa magra ≠ músculo",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "title": "WHO guidelines on physical activity and sedentary behaviour",
+          "source": "Organização Mundial da Saúde, 2020 — adultos: fortalecimento muscular em 2 ou mais dias por semana",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
         }
       ],
-      "last_updated": "2026-10-11"
+      "last_updated": "2026-10-24"
     },
     "id": {
       "title": "Pelacak Kebiasaan Terbaik untuk Turun Berat Badan 2026: Kenapa Rangkaian Hari Saja Gagal",
