@@ -40,7 +40,8 @@ for (const [ch, label, where] of [
 
 for (const [name, q] of [
   ['ANTHROPIC_API_KEY', 'Anthropic API 키(console.anthropic.com → API Keys)'],
-  ['SLACK_WEBHOOK_URL', 'Slack Webhook URL(선택 — 매일 요약 받을 곳)'],
+  ['SLACK_WEBHOOK_URL', 'Slack Webhook URL(선택 — 매일 요약·검토 알림 받을 곳)'],
+  ['SLACK_FEED_WEBHOOK_URL', 'Slack Webhook URL(#havit-sns-feed — 한국어·영어·일본어·프랑스어 발행물 공유)'],
   ['SOCIAL_SECRETS_PAT', 'GitHub 토큰(토큰 자동 갱신용: github.com/settings/personal-access-tokens → ai-connects/havit-web, Secrets: Read and write)'],
 ]) {
   const v = await ask(`\n${q}${existing.has(name) ? ' [저장됨 — Enter]' : ''}: `);

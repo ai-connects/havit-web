@@ -18,6 +18,7 @@ jobs:
       SOCIAL_MEDIA_BUCKET: havit-prod-us-east
       SOCIAL_MEDIA_PREFIX: image/sns
       QUEUE_S3: s3://havit-prod-us-east/social-queue/
+      SLACK_FEED_WEBHOOK_URL: ${{ secrets.SLACK_FEED_WEBHOOK_URL }}
       IG_TOKEN_KO: ${{ secrets.IG_TOKEN_KO }}
       THREADS_TOKEN_KO: ${{ secrets.THREADS_TOKEN_KO }}
       IG_TOKEN_JA: ${{ secrets.IG_TOKEN_JA }}

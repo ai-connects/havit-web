@@ -386,5 +386,14 @@
       "avant/après",
       "avant après"
     ]
+  },
+  "slack_feed": {
+    "_note": "발행된 글을 Slack 채널에 공유(대표 지시 10/24: 한국어·영어·일본어·프랑스어만). 웹훅 = Secrets SLACK_FEED_WEBHOOK_URL",
+    "langs": [
+      "ko",
+      "en",
+      "ja",
+      "fr"
+    ]
   }
 }

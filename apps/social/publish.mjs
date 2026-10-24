@@ -15,6 +15,21 @@ const dirs = args.filter((a) => !a.startsWith('--') && a !== onlyLang && statSyn
 
 if (config('control').publishing_paused) { console.log('⏸ 긴급 중지 중(config/control.json) — 발행하지 않음'); process.exit(0); }
 
+const LANG_NAME = { ko: '한국어', en: '영어', ja: '일본어', fr: '프랑스어', de: '독일어', es: '스페인어', 'pt-br': '포르투갈어', id: '인도네시아어', 'zh-tw': '대만 번체' };
+/** 발행 직후 Slack 채널 공유(config.slack_feed.langs 만). 실패해도 발행은 성공으로 둔다. */
+async function shareToSlack(d, url, media) {
+  const hook = process.env.SLACK_FEED_WEBHOOK_URL;
+  if (!hook || !config('channels').slack_feed?.langs?.includes(d.lang)) return;
+  const head = (d.card_text || d.posts?.[0] || '').split('\n')[0].slice(0, 140);
+  const blocks = [
+    { type: 'section', text: { type: 'mrkdwn', text: `*${d.channel === 'instagram' ? 'Instagram' : 'Threads'} · ${LANG_NAME[d.lang] || d.lang}* — <${url}|게시물 보기>\n${head}` } },
+    ...(media?.[0] ? [{ type: 'image', image_url: media[0], alt_text: head || d.slug }] : []),
+    { type: 'context', elements: [{ type: 'mrkdwn', text: `원문 글: https://www.aihavit.com/blog/${d.lang}/${d.slug}` }] },
+  ];
+  try { await fetch(hook, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ text: `${LANG_NAME[d.lang]} ${url}`, blocks }) }); }
+  catch (e) { console.log(`Slack 공유 실패: ${e.message}`); }
+}
+
 let ok = 0, skip = 0, fail = 0;
 for (const dir of dirs) {
   for (const f of readdirSync(dir).filter((x) => x.endsWith('.json'))) {
@@ -34,6 +49,7 @@ for (const dir of dirs) {
       writeFileSync(p, JSON.stringify({ ...d, published: { ...res, at: new Date().toISOString(), media: urls } }, null, 2) + '\n');
       ok++;
       console.log(`✅ ${d.channel}/${d.lang} ${res.url}`);
+      await shareToSlack(d, res.url, urls);
     } catch (e) {
       writeFileSync(p, JSON.stringify({ ...d, publish_error: { message: String(e.message || e), at: new Date().toISOString() } }, null, 2) + '\n');
       fail++;
