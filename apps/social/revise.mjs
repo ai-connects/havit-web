@@ -3,7 +3,8 @@
 // 고친 초안은 review·decision 을 지워 render → host → reviewer 를 다시 거친다. 두 번째 revise 는 그날 발행하지 않는다(gate).
 import { readdirSync, statSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
-import { loadSource, readJson } from './lib/source.mjs';
+import { config, loadSource, readJson } from './lib/source.mjs';
+import { withTagline } from './lib/brand.mjs';
 import { buildPrompt } from './lib/prompt.mjs';
 import { lint } from './lib/lint.mjs';
 
@@ -30,7 +31,8 @@ for (const dir of process.argv.slice(2).filter((p) => statSync(p, { throwIfNoEnt
     let fixed;
     try { fixed = JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1)); } catch { console.log(`✏️  고쳐 쓰기 응답 파싱 실패(${msg.stop_reason}) — 건너뜀: ${f}`); continue; }
     // 계획 필드(채널·언어·글·포맷·발행시각 등)와 사진은 그대로 둔다
-    const draft = { ...fixed, ...Object.fromEntries(['date', 'channel', 'lang', 'slug', 'format', 'segment', 'publish_at', 'share', 'link', 'photo'].filter((k) => k in d).map((k) => [k, d[k]])) };
+    const draft0 = { ...fixed, ...Object.fromEntries(['date', 'channel', 'lang', 'slug', 'format', 'segment', 'publish_at', 'share', 'link', 'photo'].filter((k) => k in d).map((k) => [k, d[k]])) };
+    const draft = withTagline(draft0, config('channels').langs[d.lang].disclaimer);
     const result = lint(draft, source);
     writeFileSync(p, JSON.stringify({ ...draft, lint: result, approved: false, revision: (d.revision || 0) + 1, previous_review: review }, null, 2) + '\n');
     n++;

@@ -39,7 +39,7 @@ const FORMAT_HINT = {
 };
 
 // 앱 퀴즈·앱 아티클 공통: 블로그 글이 없으므로 가이드·글 안내 금지, 링크는 하비트 앱 소개 페이지.
-const APP_SOURCE_RULES = ' In "evidence", use as source the journal/organisation name exactly as written in the SOURCE reference (e.g. "American Journal of Clinical Nutrition"), never "HAVIT app article". There is no blog article: never mention a guide, article or "full guide"; the profile link / link goes to the HAVIT app, where there is a new quiz and tip every day.';
+const APP_SOURCE_RULES = ' In "evidence", use as source the journal/organisation name exactly as written in the SOURCE reference (e.g. "American Journal of Clinical Nutrition"), never "HAVIT app article". There is no blog article: never mention a guide, article or "full guide". The goal of every post is to get the reader to install the free HAVIT app. End with ONE clear, specific call to download it, tied to the topic (e.g. "Get the free HAVIT app and try today\'s mission", "Take a new quiz every day in the free HAVIT app"): Instagram → in the caption say the free app is at the link in bio; Threads → put the app link (given as url) in first_reply with one short line inviting them to download the free app. For carousels, the LAST slide is the download slide: title = a short invitation to get the free HAVIT app, body = what they get there (a new quiz and tip every day, logging and coaching for this topic) — the store badges are added automatically, do not write store names.';
 
 export function buildPrompt(entry, source, link) {
   const ch = config('channels');

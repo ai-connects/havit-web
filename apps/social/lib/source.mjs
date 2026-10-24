@@ -46,7 +46,7 @@ function loadAppArticle(slug, lang) {
     steps: (L.action?.items || []).map((i) => `${i.title}: ${i.description}`),
     mission: L.mission, reference: L.reference,
     key_stats: [], faq: [], h2: [],
-    url: 'https://www.aihavit.com/', // 블로그 글 없음 → 하비트 앱 소개(기기 언어로 이동)
+    url: 'https://app.aihavit.com/', // 블로그 글 없음 → 앱 다운로드(기기 OS 에 맞는 스토어로 보냄)
     _text: JSON.stringify(L),
   };
 }
@@ -83,7 +83,7 @@ function loadQuiz(slug, lang) {
     faq: [],
     h2: [],
     steps: [],
-    url: 'https://www.aihavit.com/', // 블로그 글 없음 → 하비트 앱 소개(기기 언어로 이동)
+    url: 'https://app.aihavit.com/', // 블로그 글 없음 → 앱 다운로드(기기 OS 에 맞는 스토어로 보냄)
     _text: [L.title, L.quiz_text, L.explanation, L.reference].join('\n'),
   };
 }
@@ -122,7 +122,13 @@ export function withUtm(url, { channel, lang, format }) {
   const u = new URL(url);
   u.searchParams.set('utm_source', channel);
   u.searchParams.set('utm_medium', 'social');
-  u.searchParams.set('utm_campaign', u.pathname.split('/').pop() || 'havit_app'); // 앱 소개(홈) 링크는 경로가 비어 있다
+  u.searchParams.set('utm_campaign', u.pathname.split('/').pop() || 'havit_app'); // 앱 링크는 경로가 비어 있다
+  if (u.hostname === 'app.aihavit.com') {
+    // 앱 설치 귀속(AppsFlyer) — 블로그 CTA(c=homepage, af_channel=blog)와 같은 방식
+    u.searchParams.set('c', 'sns');
+    u.searchParams.set('af_channel', channel);
+    u.searchParams.set('af_adset', `${lang}-${format}`);
+  }
   u.searchParams.set('utm_content', `${lang}-${format}`);
   return u.toString();
 }
