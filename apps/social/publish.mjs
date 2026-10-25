@@ -38,6 +38,8 @@ for (const dir of dirs) {
     if (!['instagram', 'threads'].includes(d.channel) || (onlyLang && d.lang !== onlyLang)) continue;
     if (!d.approved || d.published) { skip++; continue; }
     if (d.publish_at && Date.parse(d.publish_at) > Date.now()) { skip++; continue; } // 아직 현지 발행 시각 전
+    // 발행 시각에서 3시간 넘게 지난 글은 내지 않는다 — 토큰 만료 등으로 밀린 글이 복구 후 한꺼번에 몰려 나가는 것 방지(2026-10-25).
+    if (d.publish_at && Date.now() - Date.parse(d.publish_at) > 3 * 3600e3) { skip++; continue; }
     const token = d.channel === 'instagram' ? igToken(d.lang) : threadsToken(d.lang);
     if (!token) { console.log(`토큰 없음 ${d.channel}/${d.lang} — .env 확인`); skip++; continue; }
     if (dry) { console.log(`[dry] ${d.channel}/${d.lang} ${d.slug} 이미지 ${d.images?.length || 0}장`); continue; }
