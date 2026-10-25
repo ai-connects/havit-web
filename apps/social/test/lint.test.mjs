@@ -77,3 +77,10 @@ test('링크 공유 글: URL 이 본문·답글에 있으면 FAIL, 없으면 PAS
   const bad = { ...ok, first_reply: link };
   assert.match(lint(bad, src).errors.join(), /링크 공유/);
 });
+
+test('한국어 금지어는 낱말 앞쪽 경계로(정기적·주기적은 통과, 기적은 FAIL)', () => {
+  const ok = good(); ok.posts = ['정기적으로 체중을 재 보세요. 주기적으로 기록하면 좋아요. 어떤 시간이 편한가요?'];
+  assert.doesNotMatch(lint(ok, src).errors.join(), /금지어: 기적/);
+  const bad = good(); bad.posts = ['기적 같은 변화가 생겨요. 어떤 음식이 떠올랐나요?'];
+  assert.match(lint(bad, src).errors.join(), /금지어: 기적/);
+});
