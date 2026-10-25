@@ -48,7 +48,10 @@ export function lint(draft, source) {
     // 라틴 문자 언어는 단어 단위(es「cura」가「segura」에 걸리지 않게), CJK 는 부분 문자열.
     const hit = LATIN.has(draft.lang)
       ? new RegExp(`(^|[^\\p{L}])${w.toLowerCase().replace(/[.*+?^${}()|[\]\\/]/g, '\\$&')}([^\\p{L}]|$)`, 'u').test(lowered)
-      : lowered.includes(w.toLowerCase());
+      // 한국어는 앞에 한글이 붙은 경우 다른 낱말(「정기적」「주기적」 속 「기적」)이라 금지어가 아니다(2026-10-25 오탐).
+      : draft.lang === 'ko'
+        ? new RegExp(`(^|[^가-힣])${w.toLowerCase().replace(/[.*+?^${}()|[\]\\/]/g, '\\$&')}`, 'u').test(lowered)
+        : lowered.includes(w.toLowerCase());
     if (hit) errors.push(`금지어: ${w}`);
   }
 
