@@ -67,15 +67,27 @@ async function threadsPost(uid, token, params) {
   return (await call(TH, 'POST', `/${uid}/threads_publish`, { creation_id: c.id }, token)).id;
 }
 
+const PROFILE_LINK = { ko: '앱 링크는 프로필에 있어요', ja: 'アプリのリンクはプロフィールから', en: 'App link in bio', 'zh-tw': 'App 連結在個人簡介', zh: 'App 链接在个人简介', es: 'Enlace a la app en la bio', 'pt-br': 'Link do app na bio', id: 'Link aplikasi di bio', de: 'App-Link in der Bio', fr: "Lien de l'app dans la bio" };
+
 /** Threads: posts[0](카드 이미지 첨부 가능) → posts[1..] 를 이어 답글로 → first_reply(링크·면책)를 첫 포스트 답글로. */
-export async function publishThreads({ token, posts, imageUrl, linkUrl, firstReply }) {
+export async function publishThreads({ token, posts, imageUrl, linkUrl, firstReply, lang }) {
   const me = await whoami('threads', token);
   const head = await threadsPost(me.id, token, imageUrl
     ? { media_type: 'IMAGE', image_url: imageUrl, text: posts[0] }
     : { media_type: 'TEXT', text: posts[0], ...(linkUrl ? { link_attachment: linkUrl } : {}) });
   let prev = head;
   for (const p of posts.slice(1)) prev = await threadsPost(me.id, token, { media_type: 'TEXT', text: p, reply_to_id: prev });
-  if (firstReply) await threadsPost(me.id, token, { media_type: 'TEXT', text: firstReply, reply_to_id: head });
+  // 본문은 이미 올라갔다 — 첫 댓글이 실패해도 예외를 던지지 않는다(던지면 미발행으로 남아 다음 시각에 본문이 중복 발행됨, 2026-10-25).
+  if (firstReply) {
+    try { await threadsPost(me.id, token, { media_type: 'TEXT', text: firstReply, reply_to_id: head }); }
+    catch (e) {
+      // 「Invalid Link Attachment」(id·zh-tw 계정에서 발생) → 링크를 빼고 프로필 링크 안내로 재시도
+      const noLink = firstReply.replace(/\s*👉?\s*https?:\/\/\S+/g, '').trim();
+      console.log(`Threads 첫 댓글 실패 — 링크 빼고 재시도: ${String(e.message).slice(0, 100)}`);
+      try { if (noLink) await threadsPost(me.id, token, { media_type: 'TEXT', text: `${noLink}\n👉 ${PROFILE_LINK[lang] || PROFILE_LINK.en}`, reply_to_id: head }); }
+      catch (e2) { console.log(`Threads 첫 댓글 재시도도 실패: ${String(e2.message).slice(0, 100)}`); }
+    }
+  }
   const info = await call(TH, 'GET', `/${head}`, { fields: 'permalink' }, token);
   return { id: head, url: info.permalink };
 }
