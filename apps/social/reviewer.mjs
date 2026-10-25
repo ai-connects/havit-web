@@ -10,6 +10,8 @@ import { decide } from './lib/gate.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const SYSTEM = readFileSync(path.join(ROOT, 'prompts/reviewer.md'), 'utf8');
+// 전문가 패널(영양사·비만 전문의·체중감량 연구 교수) — 원문 충실도와 별개로 임상적 적절성을 본다(대표 지시 2026-10-25).
+const EXPERT = readFileSync(path.join(ROOT, 'prompts/expert.md'), 'utf8');
 const MODEL = process.env.SOCIAL_REVIEW_MODEL || 'claude-opus-5-5';
 const { default: Anthropic } = await import('@anthropic-ai/sdk');
 const client = new Anthropic();
@@ -40,6 +42,24 @@ for (const dir of dirs) {
       });
       const t = msg.content.map((c) => c.text || '').join('');
       try { review = JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1)); } catch { review = null; } // 파싱 실패 = 리뷰 없음 → 사람 검토
+      if (review && review.verdict !== 'human') {
+        const em = await client.messages.create({
+          model: MODEL,
+          max_tokens: 6000,
+          system: EXPERT.replaceAll('{lang}', d.lang).replaceAll('{channel}', d.channel),
+          messages: [{ role: 'user', content: `SOURCE:\n${JSON.stringify(source, null, 1)}\n\nDRAFT:\n${JSON.stringify(draft, null, 1)}` }],
+        });
+        const et = em.content.map((c) => c.text || '').join('');
+        let expert = null;
+        try { expert = JSON.parse(et.slice(et.indexOf('{'), et.lastIndexOf('}') + 1)); } catch { expert = { verdict: 'human', issues: ['전문가 패널 응답 파싱 실패'] }; }
+        review.expert = expert;
+        if (expert.verdict === 'revise' || expert.verdict === 'human') {
+          // 전문가 판정이 더 엄격하면 그걸 따른다(고쳐 쓰기 지시는 합친다)
+          if (expert.verdict === 'human' || review.verdict === 'approve') review.verdict = expert.verdict;
+          review.issues = [...(review.issues || []), ...(expert.issues || []).map((x) => `[전문가] ${x}`)];
+          review.fix_instructions = [review.fix_instructions, expert.fix_instructions].filter(Boolean).join('\n');
+        }
+      }
     }
     const decision = decide(d, review);
     const out = { ...d, review, decision, approved: decision.status === 'auto_approved', approved_by: decision.status === 'auto_approved' ? `ai-reviewer:${MODEL}` : null };
