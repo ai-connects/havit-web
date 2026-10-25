@@ -53,6 +53,10 @@ const LOGO_W = file(path.join(WEB, 'havit-logo-white.svg'));
 const LOGO = file(path.join(WEB, 'havit-logo.svg'));
 const esc = (s) => String(s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const nl = (s) => esc(s).replace(/\n+/g, '<br>');
+// 퀴즈 카드의 O·X 를 크고 녹색으로(대표 시안 피드백 2026-10-25). 다른 글자와 붙지 않은 대문자 O·X 만(「O일까」도 해당).
+const QUIZ = new Set(['app_quiz_carousel', 'app_quiz_post']);
+const oxify = (html) => html.replace(/(?<![A-Za-z0-9])([OX])(?![A-Za-z0-9])/g, '<span class="ox">$1</span>');
+const tx = (d, t) => (QUIZ.has(d.format) ? oxify(nl(t)) : nl(t));
 
 const FONT = {
   // 웹폰트가 늦거나 실패하면(러너에서 Noto Sans JP 가 반복 실패, 2026-10-25) 설치된 Noto CJK(fonts-noto-cjk)로 그린다.
@@ -71,6 +75,7 @@ function page(lang, inner) {
 *{box-sizing:border-box;margin:0}
 html,body{width:${W}px;height:${H}px;overflow:hidden}
 body{font-family:${fontOf(lang)};-webkit-font-smoothing:antialiased;line-break:strict;overflow-wrap:anywhere;word-break:${lang === 'ko' ? 'keep-all' : lang === 'ja' ? 'auto-phrase' : 'normal'}}
+.ox{color:#22C55E;font-weight:900;font-size:1.9em;line-height:.8;display:inline-block;vertical-align:-.12em;margin:0 .04em;text-shadow:0 0 .25em rgba(34,197,94,.35)}
 .s{position:relative;width:${W}px;height:${H}px;padding:96px 88px;display:flex;flex-direction:column}
 .dark{background:#121212;color:#fff}.light{background:#F6F6F1;color:#121212}.lime{background:#D4FF50;color:#121212}
 .logo{height:80px;width:auto;position:absolute;top:64px;left:88px}
@@ -132,8 +137,8 @@ function cover(d, s) {
   <img class="logo" src="${LOGO_W}">
   <div style="margin-top:auto;position:relative;padding-bottom:${hero ? 150 : 120}px;padding-right:${hero ? 250 : 340}px">
     <div class="bar"></div>
-    <h1 style="font-size:${tier(s.title, d.lang, [108, 92, 78], [16, 28])}px;color:#D4FF50">${nl(s.title)}</h1>
-    ${s.body ? `<p style="font-size:42px;margin-top:28px;opacity:.9">${nl(s.body)}</p>` : ''}
+    <h1 style="font-size:${tier(s.title, d.lang, [108, 92, 78], [16, 28])}px;color:#D4FF50">${tx(d, s.title)}</h1>
+    ${s.body ? `<p style="font-size:42px;margin-top:28px;opacity:.9">${tx(d, s.body)}</p>` : ''}
   </div>
   <img class="char" src="${CHAR.knight}" style="${hero ? '' : 'width:360px;right:64px;bottom:96px'}">
 </div>`);
@@ -146,8 +151,8 @@ function content(d, s, i, n) {
   <img class="logo" src="${LOGO}"><div class="num">${i + 1}/${n}</div>
   <div class="body">
     <div class="bar"></div>
-    <h1 style="font-size:${tier(s.title, d.lang, [84, 74, 64], [18, 30])}px">${nl(s.title)}</h1>
-    <p style="font-size:${tier(body, d.lang, [56, 50, 44], [70, 120])}px;margin-top:40px">${nl(body)}</p>
+    <h1 style="font-size:${tier(s.title, d.lang, [84, 74, 64], [18, 30])}px">${tx(d, s.title)}</h1>
+    <p style="font-size:${tier(body, d.lang, [56, 50, 44], [70, 120])}px;margin-top:40px">${tx(d, body)}</p>
   </div>
   ${src ? `<div class="src">${esc(src[1])}</div>` : ''}
   <img class="char" src="${CHAR.peek}" style="width:170px">
@@ -158,8 +163,8 @@ function cta(d, s) {
   return page(d.lang, `<div class="s lime">
   <img class="logo" src="${LOGO}">
   <div style="margin:auto 0;padding-bottom:120px">
-    <h1 style="font-size:${tier(s.title, d.lang, [104, 90, 78], [16, 26])}px">${nl(s.title)}</h1>
-    ${s.body ? `<p style="font-size:46px;margin-top:32px">${nl(s.body)}</p>` : ''}
+    <h1 style="font-size:${tier(s.title, d.lang, [104, 90, 78], [16, 26])}px">${tx(d, s.title)}</h1>
+    ${s.body ? `<p style="font-size:46px;margin-top:32px">${tx(d, s.body)}</p>` : ''}
     ${d.slug?.startsWith('art-') || d.slug?.startsWith('quiz-') ? badges(d.lang) + (TAGLINE[d.lang] ? `<p style="font-size:34px;margin-top:36px;opacity:.75;max-width:640px">${TAGLINE[d.lang]}</p>` : '') : ''}
   </div>
   <img class="char" src="${CHAR.dino}" style="width:260px">
@@ -188,7 +193,7 @@ function card(d) {
   <img class="logo" src="${LOGO_W}" style="filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))">
   <div style="position:absolute;left:88px;right:300px;top:64%;bottom:${src ? 120 : 80}px;display:flex;flex-direction:column;justify-content:center">
     <div class="bar" style="margin-bottom:28px"></div>
-    <h1 style="font-size:${tier(head, d.lang, [78, 68, 58], [24, 44])}px">${nl(head)}</h1>
+    <h1 style="font-size:${tier(head, d.lang, [78, 68, 58], [24, 44])}px">${tx(d, head)}</h1>
   </div>
   ${src ? `<div class="src" style="color:#fff;bottom:56px">${esc(src)}</div>` : ''}
   <img class="char" src="${CHAR.peek}" style="width:190px;bottom:48px">
@@ -198,7 +203,7 @@ function card(d) {
   <div class="glow"></div><img class="logo" src="${LOGO_W}">
   <div style="margin:auto 0;position:relative;padding-bottom:120px">
     <div class="bar"></div>
-    <h1 style="font-size:${tier(head, d.lang, [96, 84, 70], [28, 50])}px">${nl(head)}</h1>
+    <h1 style="font-size:${tier(head, d.lang, [96, 84, 70], [28, 50])}px">${tx(d, head)}</h1>
   </div>
   ${src ? `<div class="src" style="color:#fff">${esc(src)}</div>` : ''}
   <img class="char" src="${CHAR.peek}">
