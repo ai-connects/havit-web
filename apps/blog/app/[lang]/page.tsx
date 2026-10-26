@@ -16,6 +16,7 @@ import { BRAND_SAME_AS } from '@/lib/team';
 import { SITE } from '@/lib/site';
 import { homeMetaDescription } from '@/lib/meta-descriptions';
 import { APP_ALTERNATIVE_SLUGS, APP_PICK_SLUGS, appGuideLinks } from '@/lib/app-guides';
+import { INDEXABLE_ROBOTS } from '@/lib/seo';
 
 export const revalidate = 600;
 
@@ -162,7 +163,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     // SEO staging — index only priority langs first (PRIORITY_INDEX_LANGS).
     robots: isLangIndexable(lang)
-      ? { index: true, follow: true }
+      ? INDEXABLE_ROBOTS
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: {
       canonical: url,

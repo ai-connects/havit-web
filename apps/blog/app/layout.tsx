@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { METADATA_BASE, SITE, asset } from '@/lib/site';
+import { INDEXABLE_ROBOTS } from '@/lib/seo';
 
 export const metadata: Metadata = {
   metadataBase: METADATA_BASE,
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   applicationName: 'HAVIT',
   authors: [{ name: 'HAVIT Editorial' }],
   keywords: ['wellness', 'habits', 'nutrition', 'sleep', 'exercise', 'health', 'HAVIT'],
-  robots: { index: true, follow: true },
+  robots: INDEXABLE_ROBOTS,
   icons: {
     icon: [
       // SVG first for the browsers that take one; every file below is the same

@@ -9,6 +9,7 @@ import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { ALL_CATEGORIES, categorySlug } from '@/lib/categories';
 import { SITE } from '@/lib/site';
 import { articlesMetaDescription } from '@/lib/meta-descriptions';
+import { INDEXABLE_ROBOTS } from '@/lib/seo';
 
 export const dynamicParams = false;
 export const revalidate = 600;
@@ -58,7 +59,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     // SEO staging — index only priority langs first (PRIORITY_INDEX_LANGS).
     robots: isLangIndexable(lang)
-      ? { index: true, follow: true }
+      ? INDEXABLE_ROBOTS
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: {
       canonical: url,

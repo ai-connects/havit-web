@@ -190,6 +190,8 @@ export function renderSeoHead({ locale, dict, baseHtml, title, description, url,
       '@type': 'WebSite',
       '@id': `${SITE}/#website`,
       name: 'HAVIT',
+      // 검색 결과 사이트 이름 후보. 「하비트」는 한국 App Store 공식 앱 이름.
+      alternateName: ['하비트'],
       url: SITE,
       inLanguage: lang,
       publisher: { '@id': `${SITE}/#organization` },

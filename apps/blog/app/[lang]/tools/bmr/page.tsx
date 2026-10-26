@@ -7,6 +7,7 @@ import BmrCalculator from '@/components/tools/BmrCalculator';
 import { BMR_LABELS, type ToolLang, toToolLang } from '@/lib/tool-labels';
 import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
+import { INDEXABLE_ROBOTS } from '@/lib/seo';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: L.metaDescription ?? L.pageIntro,
     // SEO staging — index only priority langs first (PRIORITY_INDEX_LANGS).
     robots: isLangIndexable(params.lang)
-      ? { index: true, follow: true }
+      ? INDEXABLE_ROBOTS
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: {
       canonical: `${SITE}/${params.lang}/tools/bmr`,

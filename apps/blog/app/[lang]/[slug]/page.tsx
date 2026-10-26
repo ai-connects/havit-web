@@ -8,6 +8,7 @@ import { getArticleBySlug, resolveContent, getAllArticles, PRIMARY_LANGS, isLang
 import { articleImage } from '@/lib/article-images';
 import { toFullLang, toBcp47, toHreflangMap } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
+import { INDEXABLE_ROBOTS } from '@/lib/seo';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 type RouteLang = (typeof ROUTE_LANGS)[number];
@@ -110,7 +111,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: htmlTitle,
     description: htmlDescription,
     robots: indexable
-      ? { index: true, follow: true }
+      ? INDEXABLE_ROBOTS
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: {
       canonical: canonicalUrl,
