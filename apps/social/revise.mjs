@@ -7,10 +7,10 @@ import { config, loadSource, readJson } from './lib/source.mjs';
 import { withIntro, withTagline } from './lib/brand.mjs';
 import { buildPrompt } from './lib/prompt.mjs';
 import { lint } from './lib/lint.mjs';
+import { createClient } from './lib/llm.mjs';
 
 const MODEL = process.env.SOCIAL_MODEL || 'claude-sonnet-5-5';
-const { default: Anthropic } = await import('@anthropic-ai/sdk');
-const client = new Anthropic();
+const client = await createClient();
 
 let n = 0;
 for (const dir of process.argv.slice(2).filter((p) => statSync(p, { throwIfNoEntry: false })?.isDirectory())) {
@@ -31,7 +31,7 @@ for (const dir of process.argv.slice(2).filter((p) => statSync(p, { throwIfNoEnt
     let fixed;
     try { fixed = JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1)); } catch { console.log(`✏️  고쳐 쓰기 응답 파싱 실패(${msg.stop_reason}) — 건너뜀: ${f}`); continue; }
     // 계획 필드(채널·언어·글·포맷·발행시각 등)와 사진은 그대로 둔다
-    const draft0 = { ...fixed, ...Object.fromEntries(['date', 'channel', 'lang', 'slug', 'format', 'segment', 'publish_at', 'share', 'link', 'photo'].filter((k) => k in d).map((k) => [k, d[k]])) };
+    const draft0 = { ...fixed, ...Object.fromEntries(['date', 'channel', 'lang', 'slug', 'format', 'segment', 'publish_at', 'share', 'link', 'photo', 'theme', 'series_no'].filter((k) => k in d).map((k) => [k, d[k]])) };
     const draft = withIntro(withTagline(draft0, config('channels').langs[d.lang].disclaimer));
     const result = lint(draft, source);
     writeFileSync(p, JSON.stringify({ ...draft, lint: result, approved: false, revision: (d.revision || 0) + 1, previous_review: review }, null, 2) + '\n');

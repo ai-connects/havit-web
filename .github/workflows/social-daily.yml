@@ -24,6 +24,9 @@ jobs:
       SOCIAL_MEDIA_PREFIX: image/sns
       QUEUE_S3: s3://havit-prod-us-east/social-queue/
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      # 구독(Claude Code CLI)으로 청구 — 토큰 시크릿이 없으면 API 키로 돈다
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      SOCIAL_LLM: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' && 'cli' || 'api' }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       GH_TOKEN: ${{ github.token }}
@@ -33,6 +36,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Claude Code CLI 설치(구독 호출용)
+        run: npm i -g @anthropic-ai/claude-code@2.1.310
       - run: npm ci
         working-directory: apps/social
       # host.mjs 가 카드 PNG→JPEG 변환에 ImageMagick(convert)을 쓴다. 러너에 기본 설치가 아니라서 2026-10-25 첫 실행이 여기서 멈췄다.

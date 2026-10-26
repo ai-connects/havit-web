@@ -32,6 +32,11 @@ export function lint(draft, source) {
   // 1) 숫자: 같은 언어판 원문에 있는 숫자 + 1~10 + 2026 만
   // 상황 시리즈 회차 번호(EP.12)도 허용
   const allowed = new Set([...numbers(source._text), ...Array.from({ length: 10 }, (_, i) => String(i + 1)), '2026', ...(draft.series_no ? [String(draft.series_no)] : [])]);
+  // 12시간제 원문(9 p.m.)을 24시간제(21 h·21:00)로 옮긴 시각도 허용 — 시각 표기 자리에서만
+  const clockText = [all, ...(draft.evidence || []).map((e) => e.value)].join('\n');
+  for (const m of norm(clockText).matchAll(/(?<!\d)(\d{1,2})(?:\s?[–-]\s?(\d{1,2}))?\s?(?:h(?![a-zA-Z])|:\d{2})/g)) {
+    for (const n of [m[1], m[2]].filter(Boolean)) if (Number(n) >= 13 && Number(n) <= 23 && allowed.has(String(n - 12))) allowed.add(n);
+  }
   for (const n of numbers(stripTags(stripUrls(all)))) {
     if (!allowed.has(n)) errors.push(`원문에 없는 숫자: ${n}`);
   }

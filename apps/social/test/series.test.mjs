@@ -48,3 +48,12 @@ test('회차 번호(EP.12)는 원문에 없어도 숫자 검사 통과', () => {
   const d = { ...e, lang: 'ko', posts: [`${src.hook}\n\nEP.${e.series_no}`], first_reply: `https://app.aihavit.com/`, hashtags: [], slides: [] };
   assert.ok(!lint(d, src).errors.some((m) => m.includes(String(e.series_no))), lint(d, src).errors.join(';'));
 });
+
+test('12시간제 원문 시각을 24시간제로 옮긴 건 허용, 시각 자리가 아니면 막음', () => {
+  const src = { _text: 'Leave at 9 p.m., yogurt around 6 p.m.', kind: 'app_situation', key_stats: [] };
+  const base = { date: '2026-12-21', channel: 'threads', lang: 'fr', slug: 'sit-t06-late-dinner-overtime-night', hashtags: [], slides: [], first_reply: '' };
+  const ok = lint({ ...base, posts: ['Sortie à 21 h ? Yaourt vers 18–19 h.'] }, src).errors;
+  assert.ok(!ok.some((m) => m.includes('숫자')), ok.join(';'));
+  const bad = lint({ ...base, posts: ['Perds 21 kilos.'] }, src).errors;
+  assert.ok(bad.some((m) => m.includes('21')), bad.join(';'));
+});
