@@ -55,7 +55,14 @@ const esc = (s) => String(s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<
 const nl = (s) => esc(s).replace(/\n+/g, '<br>');
 // 퀴즈 카드의 O·X 를 크고 녹색으로(대표 시안 피드백 2026-10-25). 다른 글자와 붙지 않은 대문자 O·X 만(「O일까」도 해당).
 const QUIZ = new Set(['app_quiz_carousel', 'app_quiz_post']);
-const oxify = (html) => html.replace(/(?<![A-Za-z0-9])([OX])(?![A-Za-z0-9])/g, '<span class="ox">$1</span>');
+// 정답 표시 O/X 만 강조. 포르투갈어 관사 「O cérebro」처럼 뒤에 소문자 낱말이 오는 O 는 글자다(2026-10-26 pt-br 오렌더).
+// ① 「O ou X」「O/X」 같은 짝을 먼저 표시하고, ② 홀로 선 O/X(뒤가 끝·문장부호·이모지)를 표시한다.
+const OX_PAIR = /(?<![\p{Script=Latin}\p{N}])([OX])(\s*(?:\/|·|or|o|ou|oder|atau|または|还是|還是|또는)\s*)([OX])(?![\p{Script=Latin}\p{N}])/gu;
+const OX_ONE = /(?<![\p{Script=Latin}\p{N}\u0001])([OX])(?![\p{Script=Latin}\p{N}\u0002])(?!\s+\p{Ll})/gu;
+const oxify = (html) => html
+  .replace(OX_PAIR, '\u0001$1\u0002$2\u0001$3\u0002')
+  .replace(OX_ONE, '\u0001$1\u0002')
+  .replace(/\u0001([OX])\u0002/g, '<span class="ox">$1</span>');
 const tx = (d, t) => (QUIZ.has(d.format) ? oxify(nl(t)) : nl(t));
 
 const FONT = {
