@@ -3,7 +3,8 @@
 import { readFileSync } from 'node:fs';
 import { envKey, whoami } from './lib/meta.mjs';
 
-const { accounts } = JSON.parse(readFileSync(new URL('./config/accounts.json', import.meta.url), 'utf8'));
+const accounts = JSON.parse(readFileSync(new URL('./config/accounts.json', import.meta.url), 'utf8')).accounts
+  .filter((a) => a.channel === 'instagram' || a.channel === 'threads');
 const bad = [];
 for (const a of accounts) {
   const name = `${a.channel === 'threads' ? 'THREADS' : 'IG'}_TOKEN_${envKey(a.lang)}`;
