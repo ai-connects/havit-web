@@ -29,3 +29,9 @@ test('약물 주제는 SNS 계획에서 빠진다', async () => {
   assert.ok(!isDrugTopic('sparkling-water-bone-health-carbonation-calcium-myth-2026'));
   assert.ok(verifiedSlugs().filter((s) => !isDrugTopic(s)).length >= 50);
 });
+
+test('타깃 세그먼트에 약물(GLP-1 등) 대상이 없다', () => {
+  const { segments } = config('channels');
+  for (const [lang, list] of Object.entries(segments))
+    for (const s of list) assert.doesNotMatch(s, /glp-?1|ozempic|wegovy|mounjaro|semaglut|tirzepat|medica|medikament|médicament|약물|処方|藥|药/i, `${lang}: ${s}`);
+});
