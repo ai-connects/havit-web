@@ -30,7 +30,8 @@ export function lint(draft, source) {
   const all = postText(draft);
 
   // 1) 숫자: 같은 언어판 원문에 있는 숫자 + 1~10 + 2026 만
-  const allowed = new Set([...numbers(source._text), ...Array.from({ length: 10 }, (_, i) => String(i + 1)), '2026']);
+  // 상황 시리즈 회차 번호(EP.12)도 허용
+  const allowed = new Set([...numbers(source._text), ...Array.from({ length: 10 }, (_, i) => String(i + 1)), '2026', ...(draft.series_no ? [String(draft.series_no)] : [])]);
   for (const n of numbers(stripTags(stripUrls(all)))) {
     if (!allowed.has(n)) errors.push(`원문에 없는 숫자: ${n}`);
   }

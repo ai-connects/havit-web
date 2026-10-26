@@ -91,3 +91,17 @@ Instagram과 Threads는 캡션·대체 텍스트·해시태그를 검색에 쓴�
 - **약물(GLP-1 등) 주제는 SNS 에서 제외** — 별도 에이전트·별도 계획으로 따로 만든다.
 - 블로그 글은 현재 SNS 편성에 쓰지 않는다(블로그 링크 슬롯 없음).
 - 편성표: `config/calendar.json` (생성 `python3 scripts/build_calendar.py`). 데이터 갱신: `scripts/export_quizzes.sh`, `scripts/export_app_articles.sh`. 시작일 2026-10-25.
+
+## 상황별 시리즈 (2026-10-26 대표 결정 — 미리 만들어 편성대로 자동 발행)
+
+퀴즈 커리큘럼과 별도 슬롯. 원문 = `config/situations.json`(전문가 패널 노하우, ko·en). 기획 근거: 코치 채팅 180일 유저 메시지 키워드(체중 재기·간식·단식·정체기 순).
+
+| 시리즈 | 슬롯(현지) | 포맷 |
+|---|---|---|
+| 하비의 상황별 생존 가이드(`sit-`, 28편) | 월 07 IG+Threads · 수 16 Threads · 금 15 IG+Threads | `situation_playbook` · `situation_post` |
+| AI 잔소리가 필요할 때(`nag-`, 21편) | Threads 에피소드 추천 요일·시각 · IG 화·금 20 | `nag_post` · `nag_carousel` |
+
+- 편성표 `config/series_calendar.json` = `python3 scripts/build_series_calendar.py 2026-11-02 10`. 계획 `plan_series.mjs` → `plan-series-<date>.json`.
+- 미리 만들기: Actions `social-series-batch`(주 단위 병렬) → 승인분은 `social-publish` 가 시각에 발행. 미리 안 만든 날은 `social-daily` 가 전날 만든다.
+- 임상 검토 주제(간헐적 단식·폭식 다음 날 등 5편)는 `clinical_approved_by` 를 채우기 전엔 편성하지 않고, 들어와도 게이트가 사람 검토로 보낸다.
+- 잔소리 리스크 편(`risk`)은 매운맛 대사를 쓰지 않는다. 릴스는 영상 발행 미지원이라 제외.

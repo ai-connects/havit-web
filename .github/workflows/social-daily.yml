@@ -51,7 +51,11 @@ jobs:
         working-directory: apps/social
         run: |
           DATE="${{ inputs.date }}"; [ -z "$DATE" ] && DATE=$(date -u -d '+1 day' +%F)
+          echo "DATE=$DATE" >> "$GITHUB_ENV"
           node plan.mjs "$DATE"
+          # 상황별 시리즈(미리 만들지 않은 날만 — 이미 만든 초안은 generate 가 건너뜀)
+          node plan_series.mjs "$DATE"
+          [ -f "queue/plan-series-$DATE.json" ] && node generate.mjs "queue/plan-series-$DATE.json" --date "$DATE"
           node generate.mjs "queue/plan-$DATE.json" --date "$DATE"
           node imagery.mjs "queue/$DATE"
           node render.mjs "queue/$DATE"
@@ -72,4 +76,8 @@ jobs:
       - name: 큐 올리기
         if: always()
         working-directory: apps/social
-        run: aws s3 sync queue/ "$QUEUE_S3" --only-show-errors --exclude "*.html" 
+        # 이 실행이 만든 날짜 폴더·계획만 올린다(미리 만든 다른 날짜를 옛 사본으로 덮지 않게).
+        run: |
+          [ -n "$DATE" ] || exit 0
+          aws s3 sync "queue/$DATE/" "${QUEUE_S3}$DATE/" --only-show-errors --exclude "*.html"
+          for f in queue/plan-$DATE.json queue/plan-series-$DATE.json; do [ -f "$f" ] && aws s3 cp "$f" "${QUEUE_S3}$(basename "$f")" --only-show-errors; done; true 

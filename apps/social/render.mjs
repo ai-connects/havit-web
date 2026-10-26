@@ -172,7 +172,7 @@ function cta(d, s) {
   <div style="margin:auto 0;padding-bottom:120px">
     <h1 style="font-size:${tier(s.title, d.lang, [104, 90, 78], [16, 26])}px">${tx(d, s.title)}</h1>
     ${s.body ? `<p style="font-size:46px;margin-top:32px">${tx(d, s.body)}</p>` : ''}
-    ${d.slug?.startsWith('art-') || d.slug?.startsWith('quiz-') ? badges(d.lang) + (TAGLINE[d.lang] ? `<p style="font-size:34px;margin-top:36px;opacity:.75;max-width:640px">${TAGLINE[d.lang]}</p>` : '') : ''}
+    ${/^(art|quiz|sit|nag)-/.test(d.slug || '') ? badges(d.lang) + (TAGLINE[d.lang] ? `<p style="font-size:34px;margin-top:36px;opacity:.75;max-width:640px">${TAGLINE[d.lang]}</p>` : '') : ''}
   </div>
   <img class="char" src="${CHAR.dino}" style="width:260px">
 </div>`);

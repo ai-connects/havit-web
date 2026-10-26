@@ -1,0 +1,2777 @@
+{
+ "_note": "상황별 시리즈 원문 — 생존 가이드(sit-, 전문가 패널 노하우 T01~T30)·AI 잔소리(nag-, E01~E24). 기획: deliverables/sns_상황별시리즈_2026-10-26. 사실은 이 원문만 쓴다(ko·en, 숫자 동일). clinical_review 주제는 clinical_approved_by(검토자·날짜)를 채워야 편성된다.",
+ "items": [
+  {
+   "id": "sit-t16-daily-weigh-in",
+   "series": "survival",
+   "topic": "T16",
+   "category_ko": "측정·기록",
+   "priority": 1,
+   "clinical_review": false,
+   "caution": true,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "매일 체중 재기",
+     "hook": "체중은 하루 숫자 말고 7일 평균으로 보세요",
+     "hook_alternatives": [
+      "체중계 숫자는 오늘 하루 성적표가 아니에요",
+      "기상 직후, 화장실 다녀와서, 같은 옷으로 한 번"
+     ],
+     "scene": "아침, 그녀가 체중계에 올라간다. 어제보다 높은 숫자가 출근길 내내 머리를 떠나지 않는다.",
+     "mistake": "재는 시간과 옷이 매번 달라 숫자가 흔들리고, 하루 숫자 하나로 그날 기분과 식사를 정한다.",
+     "tips": [
+      "기상 직후, 화장실 다녀온 뒤, 같은 옷처럼 같은 조건으로 잰다.",
+      "체중계를 화장실 앞처럼 매일 지나가는 동선 위에 둔다.",
+      "하루 숫자 대신 7일 평균과 추세선을 본다.",
+      "숫자에 감정 대신 관찰로 반응하고, 기록만 하고 넘어간다."
+     ],
+     "reset": "",
+     "evidence": "규칙적인 자기 체중 측정은 감량·유지와 연관됐다(Zheng Y 등, 2015 체계적 고찰; Steinberg DM 등, 2015 RCT; Wing RR 등, 2006 NEJM).",
+     "safety_note": "재는 게 불안을 키운다면 빈도를 줄이거나 쉬어도 괜찮아요. 체중 강박이나 섭식장애 이력이 있다면 전문가와 상의하세요.",
+     "search_keyword": "몸무게 재는 시간",
+     "app_action": "체중 기록하고 추세 그래프 보기"
+    },
+    "en": {
+     "title": "Daily weigh-in",
+     "hook": "Look at your 7-day average, not today's number",
+     "hook_alternatives": [
+      "The scale isn't a report card for your day",
+      "Right after waking, after the bathroom, same clothes"
+     ],
+     "scene": "In the morning, she steps on the scale. A number higher than yesterday stays on her mind the whole commute.",
+     "mistake": "Weighing at different times and in different clothes so the number jumps around, then letting one day's number set the mood and meals.",
+     "tips": [
+      "Weigh in under the same conditions: right after waking, after using the bathroom, in the same clothes.",
+      "Keep the scale on a path you walk every day, like outside the bathroom.",
+      "Look at the 7-day average and trend line instead of a single day.",
+      "Respond to the number with observation, not emotion: log it and move on."
+     ],
+     "reset": "",
+     "evidence": "Regular self-weighing is linked to weight loss and maintenance (Zheng Y et al., 2015 systematic review; Steinberg DM et al., 2015 RCT; Wing RR et al., 2006 NEJM).",
+     "safety_note": "If weighing makes anxiety worse, it's okay to weigh less often or take a break. If you have a history of weight obsession or eating disorders, talk with a professional.",
+     "search_keyword": "best time to weigh yourself",
+     "app_action": "Log your weight and check the trend graph"
+    }
+   }
+  },
+  {
+   "id": "sit-t22-weight-loss-plateau-scale",
+   "series": "survival",
+   "topic": "T22",
+   "category_ko": "감정·멘탈",
+   "priority": 2,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "2~3주째 정체기",
+     "hook": "2~3주째 그대로라면 덜 먹기 전에 기록부터",
+     "hook_alternatives": [
+      "정체기는 실패가 아니라 감량이 진행됐다는 단계예요",
+      "정체기라고 덜 먹기부터 시작하지 마세요"
+     ],
+     "scene": "2~3주째 같은 숫자다. 그녀는 저녁 양을 확 줄여볼까 고민한다. 아이가 남긴 반찬 몇 숟가락은 기록에 없다.",
+     "mistake": "정체를 실패로 읽고 섭취를 급격히 더 줄인다.",
+     "tips": [
+      "감량할수록 몸이 쓰는 에너지도 줄어드는 게 정상이다. 실패가 아니라 단계다.",
+      "기록이 느슨해졌는지 1주일만 양 추정·간식·음료까지 꼼꼼히 확인한다.",
+      "허리둘레·옷 핏·체력 같은 체중 외 지표도 같이 본다.",
+      "근력운동과 단백질을 점검해 근육 유지를 돕는다.",
+      "섭취를 급격히 더 줄이지 않는다."
+     ],
+     "reset": "",
+     "evidence": "감량에 따라 에너지 소비가 줄고 몸이 적응한다(Rosenbaum M & Leibel RL, 2010; Hall KD 등, 2011 Lancet 모델링).",
+     "safety_note": "",
+     "search_keyword": "다이어트 정체기 뚫는법",
+     "app_action": "1주일 꼼꼼하게 식사 기록하기"
+    },
+    "en": {
+     "title": "2-3 week plateau",
+     "hook": "Stuck for 2-3 weeks? Track before you cut back",
+     "hook_alternatives": [
+      "A plateau isn't failure; it's a stage that shows progress",
+      "Don't start your plateau by eating less"
+     ],
+     "scene": "Same number for 2-3 weeks. She considers cutting dinner way back. The few spoonfuls of her kid's leftovers never made it into the log.",
+     "mistake": "Reading the plateau as failure and cutting intake sharply.",
+     "tips": [
+      "As you lose weight, the energy your body uses drops too. It's a stage, not failure.",
+      "For 1 week, check carefully whether logging has slipped: portion estimates, snacks, drinks.",
+      "Look at measures beyond weight, like waist size, how clothes fit, and fitness.",
+      "Check strength training and protein to help maintain muscle.",
+      "Don't cut intake sharply."
+     ],
+     "reset": "",
+     "evidence": "Energy expenditure drops and the body adapts as weight is lost (Rosenbaum M & Leibel RL, 2010; Hall KD et al., 2011 Lancet modeling).",
+     "safety_note": "",
+     "search_keyword": "how to break a weight loss plateau",
+     "app_action": "Log meals carefully for 1 week"
+    }
+   }
+  },
+  {
+   "id": "sit-t17-overnight-weight-gain-scale",
+   "series": "survival",
+   "topic": "T17",
+   "category_ko": "측정·기록",
+   "priority": 3,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "하룻밤 체중 증가 해석",
+     "hook": "밤사이 늘어난 체중, 대부분 살이 아니에요",
+     "hook_alternatives": [
+      "라면 먹은 다음 날 아침, 체중계가 올라갔다",
+      "아침 숫자 올랐다고 다음 끼니 줄이지 마세요"
+     ],
+     "scene": "월요일 아침, 체중계 숫자가 지난주보다 올라 있다. 그녀는 출근 준비를 하며 오늘 뭘 줄일지부터 계산한다.",
+     "mistake": "하룻밤 숫자를 살로 읽고, 다음 끼니를 줄여서 되돌리려 한다.",
+     "tips": [
+      "하루 변동의 대부분은 수분·염분·글리코겐·장 내용물이라는 걸 기억한다.",
+      "전날 짠 음식·탄수화물·음주·늦은 식사·생리 전 시기였는지 체크한다.",
+      "판단은 1~2주 평균 추세로 한다."
+     ],
+     "reset": "다음 끼니는 평소대로 먹는다.",
+     "evidence": "수분·글리코겐 변동의 생리학은 확립돼 있고, 하루 변동 폭은 개인차가 크다.",
+     "safety_note": "갑작스러운 부종이나 숨참이 함께 오면 진료를 받아 보세요.",
+     "search_keyword": "체중 하루 변동 정상",
+     "app_action": "체중 기록하고 주간 추세 확인하기"
+    },
+    "en": {
+     "title": "Overnight weight jump",
+     "hook": "Most of an overnight weight gain isn't fat",
+     "hook_alternatives": [
+      "The morning after instant noodles, the scale went up",
+      "Don't cut your next meal because the morning number rose"
+     ],
+     "scene": "Monday morning, the scale reads higher than last week. Getting ready for work, she's already planning what to cut today.",
+     "mistake": "Reading one night's number as fat, then trying to undo it by eating less at the next meal.",
+     "tips": [
+      "Remember that most day-to-day change is water, salt, glycogen, and gut contents.",
+      "Check whether yesterday had salty food, carbs, alcohol, a late meal, or falls in the premenstrual phase.",
+      "Judge by the 1-2 week average trend."
+     ],
+     "reset": "Eat your next meal as usual.",
+     "evidence": "The physiology of water and glycogen shifts is well established, and the size of daily swings varies a lot between people.",
+     "safety_note": "If sudden swelling or shortness of breath comes with it, get checked by a doctor.",
+     "search_keyword": "daily weight fluctuation normal",
+     "app_action": "Log your weight and check the weekly trend"
+    }
+   }
+  },
+  {
+   "id": "sit-t11-time-restricted-eating-first-meal",
+   "series": "survival",
+   "topic": "T11",
+   "category_ko": "식사 방식",
+   "priority": 4,
+   "clinical_review": true,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "간헐적 단식 제대로 하기",
+     "hook": "간헐적 단식, 몇 시간보다 첫 끼가 승부예요",
+     "hook_alternatives": [
+      "단식이 더 빠질까? 연구 답은 '비슷하다'예요",
+      "단식 시간 늘리기 경쟁, 그만해도 괜찮아요"
+     ],
+     "scene": "공복이 끝나는 순간, 그는 손에 잡히는 대로 첫 끼를 몰아서 먹는다. 다음 날은 공복 시간을 더 늘려 볼까 고민한다.",
+     "mistake": "공복 시간 늘리기에만 집중하고, 먹는 시간에는 무엇을 먹는지 신경 쓰지 않는다.",
+     "tips": [
+      "단식은 적게 먹는 방법 중 하나일 뿐, 먹는 시간 안에서 무엇을 먹느냐가 더 중요하다.",
+      "생활에 맞는 느슨한 식사 시간대부터 시작하고 무리해서 늘리지 않는다.",
+      "먹는 시간의 첫 끼는 단백질과 채소로 시작해 몰아먹기를 막는다.",
+      "공복 시간에도 물은 충분히 마신다.",
+      "어지러움이나 폭식 충동이 반복되면 중단하고 다른 방법을 택한다."
+     ],
+     "reset": "",
+     "evidence": "시간제한 식사는 같은 칼로리 제한과 비교해 추가 이점이 뚜렷하지 않았다(Liu D 등, 2022 NEJM; Lowe DA 등, 2020 TREAT; 격일 단식은 Trepanowski JF 등, 2017). 맞는 사람에게 하나의 도구다.",
+     "safety_note": "어지러움이나 폭식 충동이 반복되면 중단하세요. 당뇨 등 지병이 있거나 저혈당 위험이 있는 경우, 임신·수유 중, 18세 미만, 섭식장애 이력이 있다면 전문가와 상의하세요.",
+     "search_keyword": "간헐적 단식 방법",
+     "app_action": "첫 끼를 사진으로 식사 기록하기"
+    },
+    "en": {
+     "title": "Doing intermittent fasting right",
+     "hook": "With intermittent fasting, your first meal matters more than the hours",
+     "hook_alternatives": [
+      "Does fasting work better? Research says it's about the same",
+      "You can stop competing to fast longer"
+     ],
+     "scene": "The moment the fast ends, he grabs whatever is nearby and eats it all at once. Then he wonders about stretching the fast even longer tomorrow.",
+     "mistake": "Focusing only on lengthening the fast and not paying attention to what gets eaten during the eating window.",
+     "tips": [
+      "Fasting is just one way to eat less; what you eat in your eating window matters more.",
+      "Start with a loose eating window that fits your life, and don't push to extend it.",
+      "Open your eating window with protein and vegetables to avoid eating everything at once.",
+      "Drink plenty of water during fasting hours too.",
+      "If dizziness or urges to binge keep coming back, stop and choose another approach."
+     ],
+     "reset": "",
+     "evidence": "Time-restricted eating showed no clear added benefit over the same calorie restriction (Liu D et al., 2022 NEJM; Lowe DA et al., 2020 TREAT; for alternate-day fasting, Trepanowski JF et al., 2017). It's one tool for people it suits.",
+     "safety_note": "Stop if dizziness or urges to binge keep coming back. If you're being treated for diabetes or are at risk of low blood sugar, are pregnant or breastfeeding, are under 18, or have a history of eating disorders, talk with a professional.",
+     "search_keyword": "intermittent fasting how to",
+     "app_action": "Log your first meal with a meal photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t10-sleep-deprived-morning-appetite",
+   "series": "survival",
+   "topic": "T10",
+   "category_ko": "시간·생활패턴",
+   "priority": 5,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "잠 부족한 다음 날 식욕",
+     "hook": "잠 못 잔 날 식욕 폭발, 의지 문제 아니에요",
+     "hook_alternatives": [
+      "잠 못 잔 아침, 오후 내내 과자가 당긴다",
+      "잠 못 잔 날, 오후 늦은 커피는 내려놓기"
+     ],
+     "scene": "잠을 설치고 출근한 날, 오후부터 과자 생각뿐이다. 커피를 한 잔 더 마시고 싶어진다.",
+     "mistake": "평소보다 배고픈 걸 의지 탓으로 돌리고, 단 음료·과자와 오후 늦은 커피로 버틴다.",
+     "tips": [
+      "오늘은 평소보다 배고플 수 있는 날이라고 미리 알고 시작한다.",
+      "단 음료·과자 대신 단백질과 섬유가 있는 간식을 준비한다.",
+      "카페인은 오후 늦게는 피해서 오늘 밤 잠을 지킨다.",
+      "오늘 밤 잠자리에 드는 시간을 평소보다 앞당기는 것을 목표로 한다."
+     ],
+     "reset": "오늘 밤 일찍 잠자리에 드는 것으로 리셋한다.",
+     "evidence": "수면 부족은 식욕·섭취 증가와 일관되게 연관되고(Nedeltcheva AV 등, 2010), 잠을 늘린 사람들의 섭취가 줄었다는 연구가 있다(Tasali E 등, 2022 JAMA Intern Med).",
+     "safety_note": "필요한 수면 시간은 사람마다 달라요. 불면이 계속되면 의료진과 상담하세요.",
+     "search_keyword": "잠 부족 식욕",
+     "app_action": "코치 채팅으로 오늘 간식 계획 세우기"
+    },
+    "en": {
+     "title": "Appetite after a short night",
+     "hook": "Appetite spikes after a bad night aren't a willpower problem",
+     "hook_alternatives": [
+      "After a short night, craving chips all afternoon",
+      "After a bad night, put down the late-afternoon coffee"
+     ],
+     "scene": "After a restless night and a day at work, by afternoon all anyone can think about is snacks. One more coffee sounds good too.",
+     "mistake": "Blaming extra hunger on willpower, then getting by on sugary drinks, snacks, and late-afternoon coffee.",
+     "tips": [
+      "Start the day knowing you may be hungrier than usual.",
+      "Prep a snack with protein and fiber instead of sugary drinks or chips.",
+      "Skip caffeine late in the afternoon to protect tonight's sleep.",
+      "Aim to get to bed earlier than usual tonight."
+     ],
+     "reset": "Reset by getting to bed early tonight.",
+     "evidence": "Short sleep is consistently linked to more appetite and intake (Nedeltcheva AV et al., 2010), and a study found people who slept longer ate less (Tasali E et al., 2022 JAMA Intern Med).",
+     "safety_note": "How much sleep you need varies by person. If sleeplessness continues, talk with a healthcare provider.",
+     "search_keyword": "lack of sleep appetite",
+     "app_action": "Plan today's snacks with the coach in chat"
+    }
+   }
+  },
+  {
+   "id": "sit-t12-afternoon-snack-slump",
+   "series": "survival",
+   "topic": "T12",
+   "category_ko": "식사 방식",
+   "priority": 6,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "오후 3~4시 간식",
+     "hook": "오후 3시 단 게 당긴다면, 점심부터 보세요",
+     "hook_alternatives": [
+      "오후 3시 반, 탕비실 과자 앞에 서 있다",
+      "오후 간식은 참는 게 아니라 고르는 거예요"
+     ],
+     "scene": "오후 3시 반, 그녀는 어느새 탕비실 과자 앞에 서 있다. 단 게 당기는 게 매일 비슷한 시간이다.",
+     "mistake": "점심을 대충 때우고, 오후에 단 음료나 과자로 허기를 채운다.",
+     "tips": [
+      "점심에 단백질과 채소가 충분했는지 먼저 점검한다.",
+      "간식이 필요하면 요거트, 과일과 견과, 두유처럼 단백질이나 섬유가 있는 것으로 고른다.",
+      "물 한 잔 마시고 잠시 기다리며 진짜 배고픔인지 졸림·지루함인지 확인한다.",
+      "단 음료도 간식으로 치고 고른다."
+     ],
+     "reset": "내일 점심에 단백질과 채소를 챙긴다.",
+     "evidence": "단백질은 포만에 도움이 되고(Leidy HJ 등, 2015), 가당 음료는 체중 증가와 연관됐다(Malik VS 등, 2013 메타분석).",
+     "safety_note": "떨림·식은땀 같은 저혈당 증상은 간식 문제가 아니라 의료 상황이니 진료를 받으세요.",
+     "search_keyword": "단거 당길때",
+     "app_action": "점심을 사진으로 식사 기록하고 단백질 확인하기"
+    },
+    "en": {
+     "title": "3-4 p.m. snack slump",
+     "hook": "Craving sweets at 3 p.m.? Look at your lunch first",
+     "hook_alternatives": [
+      "Half past 3 p.m., standing in front of the break room snacks",
+      "Afternoon snacks aren't about resisting, they're about choosing"
+     ],
+     "scene": "At half past 3 p.m., she finds herself in front of the break room snacks again. The sweet craving shows up at about the same time every day.",
+     "mistake": "Grabbing a rushed lunch, then filling the afternoon gap with sugary drinks or cookies.",
+     "tips": [
+      "First check whether lunch had enough protein and vegetables.",
+      "If you need a snack, pick one with protein or fiber, like yogurt, fruit with nuts, or soy milk.",
+      "Drink a glass of water and wait a moment to see if it's real hunger or sleepiness or boredom.",
+      "Count sugary drinks as a snack when you choose."
+     ],
+     "reset": "Make sure tomorrow's lunch has protein and vegetables.",
+     "evidence": "Protein supports fullness (Leidy HJ et al., 2015), and sugary drinks are linked to weight gain (Malik VS et al., 2013 meta-analysis).",
+     "safety_note": "Shakiness or cold sweats can signal low blood sugar, which is a medical situation, not a snack question. Get checked.",
+     "search_keyword": "sugar cravings afternoon",
+     "app_action": "Log lunch with a meal photo and check the protein"
+    }
+   }
+  },
+  {
+   "id": "sit-t13-late-night-snack-craving",
+   "series": "survival",
+   "topic": "T13",
+   "category_ko": "식사 방식",
+   "priority": 7,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "밤 11시 야식 충동",
+     "hook": "밤 11시 야식 충동, 범인은 저녁일 때가 많아요",
+     "hook_alternatives": [
+      "밤 11시 냉장고 앞, 10분만 미뤄보기",
+      "'참으세요' 말고, 양치를 일찍 하세요"
+     ],
+     "scene": "밤 11시, 라면 물을 올리기 직전이다. 냉장고 문을 열었다 닫았다 한다.",
+     "mistake": "저녁을 너무 적게 먹고, 밤에 충동이 오면 주방이나 편의점으로 바로 간다.",
+     "tips": [
+      "저녁을 단백질 포함해 충분히 먹었는지 점검한다.",
+      "양치를 일찍 해서 오늘 식사가 끝났다는 신호를 만든다.",
+      "충동이 오면 10분 미루고, 그래도 먹고 싶으면 정한 양만 그릇에 담아 앉아서 먹는다.",
+      "씻기·스트레칭 같은 대체 루틴을 미리 정해 둔다."
+     ],
+     "reset": "다음 날 아침은 평소대로 먹는다.",
+     "evidence": "늦은 시간 섭취는 불리한 방향을 보였고(Vujović N 등, 2022), 대체 행동과 if-then 계획이 도움이 됐다(Gollwitzer & Sheeran, 2006). 양치 전략 자체의 근거는 약하다.",
+     "safety_note": "밤마다 먹는 것을 통제하기 어렵다면 전문가와 상담해 보세요.",
+     "search_keyword": "야식 땡길때",
+     "app_action": "먹었다면 사진으로 식사 기록하고 넘어가기"
+    },
+    "en": {
+     "title": "11 p.m. late-night snack urge",
+     "hook": "That 11 p.m. snack urge often traces back to dinner",
+     "hook_alternatives": [
+      "11 p.m. at the fridge: wait just 10 minutes",
+      "Instead of \"just resist,\" brush your teeth early"
+     ],
+     "scene": "It's 11 p.m., and the water for instant noodles is about to go on. The fridge door opens and closes.",
+     "mistake": "Eating too little at dinner, then heading straight to the kitchen or a store when the urge hits at night.",
+     "tips": [
+      "Check whether dinner was enough and included protein.",
+      "Brush your teeth early to signal that eating is done for the day.",
+      "When the urge comes, wait 10 minutes; if you still want it, put a set amount in a bowl and sit down to eat.",
+      "Decide on a replacement routine ahead of time, like washing up or stretching."
+     ],
+     "reset": "Eat your usual breakfast the next morning.",
+     "evidence": "Late eating leaned unfavorable (Vujović N et al., 2022), and replacement behaviors with if-then plans helped (Gollwitzer & Sheeran, 2006). Evidence for the tooth-brushing tactic itself is weak.",
+     "safety_note": "If eating at night feels hard to control most nights, consider talking with a professional.",
+     "search_keyword": "late night snack cravings",
+     "app_action": "If you ate, log it with a meal photo and move on"
+    }
+   }
+  },
+  {
+   "id": "sit-t23-stress-eating-commute-home",
+   "series": "survival",
+   "topic": "T23",
+   "category_ko": "감정·멘탈",
+   "priority": 8,
+   "clinical_review": false,
+   "caution": true,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "퇴근길 스트레스 먹기",
+     "hook": "퇴근길 편의점 앞, 배가 아니라 마음이 고플 때",
+     "hook_alternatives": [
+      "먹기 전 10초, 배고픈지 힘든지 물어보기",
+      "감정적으로 먹는 건 의지 부족이 아니에요"
+     ],
+     "scene": "힘든 하루를 보낸 퇴근길, 편의점 불빛 앞에서 발걸음이 멈춘다. 오늘은 배보다 마음이 더 고프다.",
+     "mistake": "몸이 배고픈지 확인하지 않고, 지친 마음을 달래려 손에 잡히는 대로 사서 걸으며 먹는다.",
+     "tips": [
+      "먹기 전 \"몸이 배고픈가, 마음이 힘든가\" 10초 체크한다.",
+      "통화·샤워·산책·음악처럼 감정별 대체 행동 목록을 미리 만든다.",
+      "먹기로 했다면 그릇에 담아 앉아서 맛을 느끼며 먹는다.",
+      "퇴근길 편의점 동선을 바꿔 충동에 덜 노출되게 한다."
+     ],
+     "reset": "",
+     "evidence": "스트레스는 고열량·보상성 음식 섭취를 늘리는 경향이 있고(Adam TC & Epel ES, 2007), 대체 행동과 if-then 계획이 도움이 됐다(Gollwitzer & Sheeran, 2006).",
+     "safety_note": "감정적으로 먹는 건 의지 부족이 아니에요. 우울하거나 불안한 기분이 계속되면 전문가와 상담하세요.",
+     "search_keyword": "스트레스 폭식",
+     "app_action": "코치 채팅에 오늘 기분 털어놓기"
+    },
+    "en": {
+     "title": "Stress eating on the way home",
+     "hook": "Outside the corner store after work, when it's your heart that's hungry",
+     "hook_alternatives": [
+      "10 seconds before eating, ask: hungry or just worn out?",
+      "Emotional eating isn't a lack of willpower"
+     ],
+     "scene": "After a hard day, on the way home, footsteps slow in front of a convenience store's lights. Tonight the heart is hungrier than the stomach.",
+     "mistake": "Not checking for physical hunger and grabbing whatever is at hand to soothe a tired mind, eating while walking.",
+     "tips": [
+      "Before eating, take a 10-second check: \"Is my body hungry, or is my mind struggling?\"",
+      "Make a list ahead of time of alternatives for each feeling, like a call, a shower, a walk, or music.",
+      "If you decide to eat, put it in a bowl, sit down, and taste it.",
+      "Change your route home to pass fewer stores and reduce exposure to urges."
+     ],
+     "reset": "",
+     "evidence": "Stress tends to increase intake of high-calorie, rewarding foods (Adam TC & Epel ES, 2007), and replacement behaviors with if-then plans helped (Gollwitzer & Sheeran, 2006).",
+     "safety_note": "Emotional eating isn't a lack of willpower. If low mood or anxiety keeps going, talk with a professional.",
+     "search_keyword": "stress eating",
+     "app_action": "Share how today felt in coach chat"
+    }
+   }
+  },
+  {
+   "id": "sit-t03-wedding-hotel-buffet",
+   "series": "survival",
+   "topic": "T03",
+   "category_ko": "사회생활·외식",
+   "priority": 9,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "결혼식·호텔 뷔페",
+     "hook": "뷔페에선 접시 들기 전에 한 바퀴부터",
+     "hook_alternatives": [
+      "뷔페는 먹고 싶은 것 2~3가지만 먼저 고르기",
+      "뷔페 본전 뽑기, 이제 안 해도 돼요"
+     ],
+     "scene": "결혼식 뷔페 입구, 다들 접시부터 집어 든다. 코너마다 다른 음식이 끝없이 이어진다.",
+     "mistake": "보이는 대로 담다 보니 첫 접시부터 가득 차고, 배부른지 확인할 틈 없이 다음 접시로 간다.",
+     "tips": [
+      "접시를 들기 전에 전체 코너를 한 바퀴 돌고 먹고 싶은 것 2~3가지를 고른다.",
+      "첫 접시는 샐러드·회·구운 단백질 위주로 채운다.",
+      "디저트는 한 접시에 조금씩 담기로 미리 정한다.",
+      "접시를 비우면 잠깐 대화하며 쉬고, 배부름을 확인한 뒤 다음 접시를 정한다."
+     ],
+     "reset": "다음 끼니는 평소대로 먹는다.",
+     "evidence": "선택지가 다양할수록 더 먹게 된다는 감각 특이적 포만 연구가 있다(Rolls BJ 연구군). 접시 순서 전략 자체의 근거는 약하다.",
+     "safety_note": "",
+     "search_keyword": "뷔페 다이어트",
+     "app_action": "뷔페 접시를 사진으로 식사 기록하기"
+    },
+    "en": {
+     "title": "Wedding or hotel buffet",
+     "hook": "At a buffet, take a lap before you pick up a plate",
+     "hook_alternatives": [
+      "At a buffet, choose just 2-3 things you really want first",
+      "You don't have to get your money's worth at a buffet"
+     ],
+     "scene": "At the entrance of a wedding buffet, everyone grabs a plate right away. Station after station of food stretches on.",
+     "mistake": "Piling on whatever looks good, so the first plate is already full, then heading for the next one without checking how full you are.",
+     "tips": [
+      "Before picking up a plate, walk one lap around all the stations and pick 2-3 things you really want.",
+      "Fill your first plate mostly with salad, sashimi, or grilled protein.",
+      "Decide ahead of time that dessert will be a little of each on one plate.",
+      "When your plate is empty, pause and chat, check how full you feel, then decide on the next plate."
+     ],
+     "reset": "Eat your next meal as usual.",
+     "evidence": "Research on sensory-specific satiety shows that more variety tends to lead to eating more (Rolls BJ group). Evidence for plate-order strategies themselves is weak.",
+     "safety_note": "",
+     "search_keyword": "buffet diet tips",
+     "app_action": "Log your buffet plates with a meal photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t21-day-after-overeating",
+   "series": "survival",
+   "topic": "T21",
+   "category_ko": "감정·멘탈",
+   "priority": 10,
+   "clinical_review": true,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "폭식한 다음 날",
+     "hook": "폭식 다음 날 복구, 평소 아침 한 끼부터",
+     "hook_alternatives": [
+      "많이 먹은 다음 날, 뭘 먼저 하면 될까",
+      "많이 먹은 다음 날 아침, 평소처럼 식탁에 앉기"
+     ],
+     "scene": "어젯밤 많이 먹은 다음 날 아침이다. 그녀는 오늘 하루를 어떻게 보내야 할지 막막하다.",
+     "mistake": "어제 일로 자신을 몰아세우고, 오늘 식사를 평소와 크게 다르게 바꿔 되돌리려 한다.",
+     "tips": [
+      "다음 날은 평소처럼 세 끼, 또는 평소 식사 패턴대로 먹는다.",
+      "무엇이 방아쇠였는지(배고픔·피로·감정·환경) 한 줄만 적는다.",
+      "자기비난 대신 \"누구나 그럴 수 있다\"는 말로 자신을 대한다.",
+      "물을 마시고 가볍게 걷는다. 벌이 아니라 기분 전환으로.",
+      "주 1회 이상 반복되거나 통제가 안 되는 느낌이면 전문가와 상담한다."
+     ],
+     "reset": "평소 아침 한 끼부터 하루 리듬으로 돌아온다.",
+     "evidence": "엄격한 제한과 폭식 사이의 연관이 보고됐고(Polivy J & Herman CP, 1985), 자기연민이 이후 과잉 섭취를 줄였다는 실험이 있다(Adams CE & Leary MR, 2007).",
+     "safety_note": "주 1회 이상 반복되거나 통제가 안 되는 느낌이면 정신건강의학과나 임상심리 전문가와 상담하세요.",
+     "search_keyword": "폭식 다음날",
+     "app_action": "코치 채팅에 오늘 기분과 방아쇠 한 줄 남기기"
+    },
+    "en": {
+     "title": "The day after overeating",
+     "hook": "Recovering the day after overeating starts with your usual breakfast",
+     "hook_alternatives": [
+      "The day after eating a lot, what should come first?",
+      "The morning after, sit down at the table like usual"
+     ],
+     "scene": "It's the morning after eating a lot last night. She has no idea how to get through today.",
+     "mistake": "Being hard on yourself about yesterday and trying to undo it by making today's meals very different from usual.",
+     "tips": [
+      "Eat three meals as usual the next day, or follow your normal eating pattern.",
+      "Write one line about what triggered it (hunger, tiredness, emotions, surroundings).",
+      "Instead of self-criticism, tell yourself \"this can happen to anyone.\"",
+      "Drink some water and take a light walk, as a mood shift, not a punishment.",
+      "If it happens 1 or more times a week or feels out of control, talk with a professional."
+     ],
+     "reset": "Get back into your daily rhythm starting with your usual breakfast.",
+     "evidence": "A link between strict restriction and binge eating has been reported (Polivy J & Herman CP, 1985), and an experiment found self-compassion reduced later overeating (Adams CE & Leary MR, 2007).",
+     "safety_note": "If it happens 1 or more times a week or feels out of control, talk with a mental health professional such as a psychiatrist or clinical psychologist.",
+     "search_keyword": "day after binge eating",
+     "app_action": "Leave one line about your mood and trigger in coach chat"
+    }
+   }
+  },
+  {
+   "id": "sit-t04-office-snacks-birthday-cake",
+   "series": "survival",
+   "topic": "T04",
+   "category_ko": "사회생활·외식",
+   "priority": 11,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "사무실 간식·생일 케이크",
+     "hook": "책상 위 과자, 서랍에 넣기만 해도 손이 덜 가요",
+     "hook_alternatives": [
+      "생일 케이크 돌 때, 고민 대신 한 조각 천천히",
+      "케이크는 거절보다 '한 조각 천천히'가 답"
+     ],
+     "scene": "사무실 책상 위에 누군가 나눠 준 과자가 쌓여 있다. 오후에는 동료 생일 케이크까지 돈다.",
+     "mistake": "과자를 눈앞에 두고 일하다 보니 배가 고프지 않아도 손이 간다.",
+     "tips": [
+      "간식은 책상 위 시야에서 치우고 서랍이나 탕비실에 둔다.",
+      "케이크는 먹을지 말지 대신 한 조각을 천천히 먹는 쪽으로 정한다.",
+      "\"지금은 배불러서 나중에 먹을게요\" 같은 문장을 미리 준비해 둔다.",
+      "출근 가방에 내가 고른 간식(견과류 소량·과일·요거트)을 넣어 두고 바꿔 먹는다."
+     ],
+     "reset": "",
+     "evidence": "음식이 눈에 보이고 가까울수록 더 먹는 경향이 여러 실험에서 보였고, 미리 정한 if-then 계획은 목표 달성에 도움이 됐다(Gollwitzer PM & Sheeran P, 2006 메타분석).",
+     "safety_note": "동료가 건넨 음식을 꼭 거절해야 한다는 뜻은 아니에요.",
+     "search_keyword": "회사 간식 다이어트",
+     "app_action": "먹은 간식을 사진으로 식사 기록하기"
+    },
+    "en": {
+     "title": "Office snacks and birthday cake",
+     "hook": "Just moving desk snacks into a drawer means fewer handfuls",
+     "hook_alternatives": [
+      "When birthday cake comes around, skip the debate and have one slow slice",
+      "With cake, one slow slice beats saying no"
+     ],
+     "scene": "Snacks from coworkers pile up on the desk. By afternoon, someone's birthday cake is making the rounds too.",
+     "mistake": "Working with snacks in plain sight, so hands reach for them even without hunger.",
+     "tips": [
+      "Move snacks off your desk and out of sight, into a drawer or the break room.",
+      "Instead of deciding whether to eat cake, decide to have one slice slowly.",
+      "Have a line ready, like \"I'm full right now, I'll have some later.\"",
+      "Pack snacks you chose yourself (a small handful of nuts, fruit, or yogurt) and swap them in."
+     ],
+     "reset": "",
+     "evidence": "Several experiments found people eat more when food is visible and close by, and planning if-then responses ahead helped people reach goals (Gollwitzer PM & Sheeran P, 2006 meta-analysis).",
+     "safety_note": "This doesn't mean you have to turn down food from coworkers.",
+     "search_keyword": "office snacks diet",
+     "app_action": "Log snacks you ate with a meal photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t02-fried-chicken-beer-night",
+   "series": "survival",
+   "topic": "T02",
+   "category_ko": "사회생활·외식",
+   "priority": 12,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "친구들과 치맥",
+     "hook": "치킨 박스 열리면, 먹을 만큼 내 접시에 먼저",
+     "hook_alternatives": [
+      "치맥 자리, 공용 박스에서 바로 집지 마세요",
+      "치맥 포기 말고 주문을 반반으로 바꾸세요"
+     ],
+     "scene": "금요일 저녁, 친구들과 치킨 박스 뚜껑이 열린다. 이야기하다 보면 손이 계속 박스로 간다.",
+     "mistake": "공용 박스에서 바로 집어 먹다 보니 얼마나 먹었는지 모른 채 끝난다.",
+     "tips": [
+      "주문할 때 구운 치킨이나 순살 반반처럼 덜 튀긴 메뉴를 섞는다.",
+      "먹을 만큼 내 접시에 먼저 덜어 두고, 공용 박스에서 바로 집지 않는다.",
+      "무·샐러드를 사이사이 먹어 먹는 속도를 늦춘다.",
+      "맥주는 큰 잔보다 작은 잔으로, 잔을 빨리 채우지 않는다."
+     ],
+     "reset": "다음 끼니는 평소대로 먹는다.",
+     "evidence": "여럿이 먹으면 더 먹는 경향(Herman·Roth·Polivy, 2003)과 알코올의 식욕 증가(Yeomans, 2010)가 보고됐고, 덜어 먹기·작은 용기는 포션 크기 연구(Rolls BJ 연구군)에 근거하지만 효과는 상황에 따라 다르다.",
+     "safety_note": "",
+     "search_keyword": "치킨 다이어트",
+     "app_action": "치맥 한 끼를 사진으로 식사 기록하기"
+    },
+    "en": {
+     "title": "Wings and beer with friends",
+     "hook": "When the wings box opens, fill your own plate first",
+     "hook_alternatives": [
+      "Don't eat straight from the shared box",
+      "Don't skip wing night, just switch up the order"
+     ],
+     "scene": "Friday night with friends, and the lid comes off the box of wings. The conversation flows and hands keep drifting back to the box.",
+     "mistake": "Eating straight from the shared box, so the night ends without any idea of how much was eaten.",
+     "tips": [
+      "When ordering, mix in less-fried options like grilled or half-and-half boneless.",
+      "Put what you plan to eat on your own plate first instead of eating from the shared box.",
+      "Eat pickled radish or salad in between bites to slow down.",
+      "Choose a small glass over a large one for beer, and don't refill it quickly."
+     ],
+     "reset": "Eat your next meal as usual.",
+     "evidence": "People tend to eat more in groups (Herman, Roth, Polivy, 2003) and alcohol raises appetite (Yeomans, 2010); plating and smaller containers draw on portion-size research (Rolls BJ group), though effects vary by situation.",
+     "safety_note": "",
+     "search_keyword": "fried chicken diet",
+     "app_action": "Log the wings night with a meal photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t24-monday-reset-after-weekend",
+   "series": "survival",
+   "topic": "T24",
+   "category_ko": "감정·멘탈",
+   "priority": 13,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "주말 뒤 월요일 리셋",
+     "hook": "주말 과식 뒤 월요일, 첫 끼가 리셋 버튼",
+     "hook_alternatives": [
+      "주말 이틀이 한 주를 다 뒤집진 못해요",
+      "월요일 아침, 주말 사진첩을 넘기며 한숨"
+     ],
+     "scene": "월요일 아침, 주말 사진첩을 넘기다 한숨이 나온다. 이번 주는 어차피 틀렸다는 생각이 든다.",
+     "mistake": "주말 한두 끼 때문에 한 주 전체를 포기하고, 어차피 틀렸다며 계속 이어서 먹는다.",
+     "tips": [
+      "한 끼나 하루가 전체를 망치지 않는다. 다음 끼니부터 평소 루틴으로 돌아온다.",
+      "월요일 첫 끼를 단백질과 채소로 먹어 리셋 신호로 쓴다.",
+      "주말 패턴 중 바꿀 것 딱 하나만 고른다.",
+      "주간 평균으로 보면 영향이 생각보다 작다는 걸 기록으로 확인한다."
+     ],
+     "reset": "월요일 첫 끼를 단백질과 채소로 시작한다.",
+     "evidence": "\"어차피 망쳤다\" 효과가 Polivy·Herman 계열 연구에서 보고됐고, 주말에 오르고 평일에 내려가는 체중 리듬이 관찰됐다(Orsama AL 등, 2014).",
+     "safety_note": "",
+     "search_keyword": "과식 후 복구",
+     "app_action": "월요일 첫 끼를 사진으로 식사 기록하기"
+    },
+    "en": {
+     "title": "Monday reset after the weekend",
+     "hook": "After a weekend of overeating, Monday's first meal is the reset button",
+     "hook_alternatives": [
+      "Two weekend days can't undo a whole week",
+      "Monday morning, sighing over weekend photos"
+     ],
+     "scene": "Monday morning, scrolling through weekend photos brings a sigh. The thought creeps in that this week is already shot.",
+     "mistake": "Writing off the whole week over a meal or two, and continuing to overeat because it's \"already ruined.\"",
+     "tips": [
+      "One meal or one day doesn't undo everything. Return to your usual routine from the next meal.",
+      "Make Monday's first meal protein and vegetables as a reset signal.",
+      "Pick just one weekend pattern to change.",
+      "Check your log to see that on a weekly average, the impact is smaller than it feels."
+     ],
+     "reset": "Start Monday's first meal with protein and vegetables.",
+     "evidence": "The \"what-the-hell\" effect has been reported in research from the Polivy and Herman line, and a weight rhythm of weekend rises and weekday drops has been observed (Orsama AL et al., 2014).",
+     "safety_note": "",
+     "search_keyword": "getting back on track after overeating",
+     "app_action": "Log Monday's first meal with a photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t01-bbq-work-dinner-drinks",
+   "series": "survival",
+   "topic": "T01",
+   "category_ko": "사회생활·외식",
+   "priority": 14,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "삼겹살 회식",
+     "hook": "삼겹살 불판 달궈질 때, 쌈채소부터 한 접시",
+     "hook_alternatives": [
+      "술잔 하나에 물잔 하나, 나란히 두기",
+      "회식 마무리 볶음밥, 반 공기에서 멈추기"
+     ],
+     "scene": "팀 회식 자리, 불판이 달궈지자 모두 고기부터 올린다. 고기 자리가 끝나면 노래방·호프로 2차가 이어진다.",
+     "mistake": "빈속에 술과 고기부터 시작하고, 마지막 볶음밥까지 한 공기를 다 채운다.",
+     "tips": [
+      "고기 굽기 시작 전에 쌈채소·버섯·양파부터 한 접시 먹고 시작한다.",
+      "술잔 옆에 물 한 잔을 두고, 술잔을 비우면 물잔도 비운다.",
+      "마지막 볶음밥·냉면은 반 공기로 나눠 먹거나 넘긴다.",
+      "2차에서는 첫 잔 이후 무알코올·탄산수로 바꾸고 안주는 마른안주·과일 쪽으로 고른다."
+     ],
+     "reset": "다음 날은 평소 아침을 평소대로 먹는다.",
+     "evidence": "알코올은 식욕과 섭취를 늘리는 경향이 있고(Yeomans MR, 2010 리뷰), 여럿이 먹을수록 더 먹는 경향이 보였다(Herman CP·Roth DA·Polivy J, 2003; Ruddock HK 등, 2019 메타분석).",
+     "safety_note": "적정 음주량은 사람마다 달라 일괄 기준을 두지 않아요. 술을 권하는 내용이 아니에요.",
+     "search_keyword": "회식 다이어트 메뉴",
+     "app_action": "회식 메뉴를 사진 한 장으로 식사 기록하기"
+    },
+    "en": {
+     "title": "Korean BBQ work dinner",
+     "hook": "When the grill heats up, start with a plate of greens",
+     "hook_alternatives": [
+      "One glass of water next to every drink",
+      "Stop the post-BBQ fried rice at half a bowl"
+     ],
+     "scene": "At a team dinner, the grill heats up and everyone reaches for the meat first. After that, the night moves on to a 2nd stop for karaoke or a bar.",
+     "mistake": "Starting on an empty stomach with drinks and meat, then finishing with a full bowl of fried rice.",
+     "tips": [
+      "Before the meat goes on, eat a plate of lettuce wraps, mushrooms, and onions.",
+      "Keep a glass of water next to your drink, and when you finish one, finish the other.",
+      "Split the final fried rice or cold noodles to half a bowl, or skip it.",
+      "At the 2nd stop, switch to alcohol-free drinks or sparkling water after your first glass, and pick dried snacks or fruit."
+     ],
+     "reset": "The next morning, eat your usual breakfast as you normally would.",
+     "evidence": "Alcohol tends to raise appetite and intake (Yeomans MR, 2010 review), and people tend to eat more in groups (Herman CP, Roth DA, Polivy J, 2003; Ruddock HK et al., 2019 meta-analysis).",
+     "safety_note": "How much alcohol is okay differs by person, so there is no one-size limit here. This is not encouragement to drink.",
+     "search_keyword": "work dinner diet tips",
+     "app_action": "Log the dinner with a single meal photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t29-december-year-end-parties",
+   "series": "survival",
+   "topic": "T29",
+   "category_ko": "계절·이벤트",
+   "priority": 15,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "12월 송년회 연속 주간",
+     "hook": "12월 송년회, 승부는 모임 없는 날에 나요",
+     "hook_alternatives": [
+      "송년회 다음 날 아침, 거르지 말고 평소대로",
+      "송년회마다 술 or 안주, 하나만 즐기기"
+     ],
+     "scene": "12월 달력에 송년회가 하나둘 들어차기 시작했다. 모임 사이사이 평범한 날들도 흐트러진다.",
+     "mistake": "모임 자리만 신경 쓰다가 모임 없는 날의 루틴까지 무너지고, 공복으로 모임에 간다.",
+     "tips": [
+      "달력에 송년회를 표시하고, 모임 없는 날은 평소 루틴을 지킨다.",
+      "모임 전 가벼운 단백질 간식으로 공복 과식을 막는다.",
+      "모임마다 \"이번엔 술 또는 안주 중 하나만 즐기기\" 같은 한 가지 규칙을 정한다."
+     ],
+     "reset": "다음 날 아침은 평소처럼 먹고, 걷기 약속을 하나 잡는다.",
+     "evidence": "연휴 시즌에 체중이 느는 경향이 보였고(Yanovski 등, 2000; Helander 등, 2016), 미리 정한 실행 의도가 도움이 됐다(Gollwitzer & Sheeran, 2006).",
+     "safety_note": "적정 음주량은 사람마다 달라 일괄 기준을 두지 않아요. 술을 권하는 내용이 아니에요.",
+     "search_keyword": "송년회 다이어트",
+     "app_action": "달력처럼 코치 채팅에 이번 달 모임 일정 공유하기"
+    },
+    "en": {
+     "title": "Back-to-back holiday parties in December",
+     "hook": "Holiday party season in December is won on the days without parties",
+     "hook_alternatives": [
+      "The morning after a party, don't skip breakfast; eat as usual",
+      "At each party, enjoy either the drinks or the snacks, not both"
+     ],
+     "scene": "The December calendar is starting to fill up with holiday parties. Even the ordinary days in between start to slip.",
+     "mistake": "Focusing only on the parties while the routine on party-free days falls apart, and showing up to parties on an empty stomach.",
+     "tips": [
+      "Mark parties on your calendar and keep your usual routine on days without them.",
+      "Have a light protein snack before a party to avoid overeating on an empty stomach.",
+      "Set one rule for each party, like \"this time, enjoy either the drinks or the snacks.\""
+     ],
+     "reset": "Eat your usual breakfast the next morning and plan one walk.",
+     "evidence": "Weight tends to rise during the holiday season (Yanovski et al., 2000; Helander et al., 2016), and planned implementation intentions helped (Gollwitzer & Sheeran, 2006).",
+     "safety_note": "How much alcohol is okay differs by person, so there is no one-size limit here. This is not encouragement to drink.",
+     "search_keyword": "holiday party diet tips",
+     "app_action": "Share this month's party schedule with the coach in chat"
+    }
+   }
+  },
+  {
+   "id": "sit-t09-weekend-late-brunch",
+   "series": "survival",
+   "topic": "T09",
+   "category_ko": "시간·생활패턴",
+   "priority": 16,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "주말 늦잠·브런치",
+     "hook": "주말 브런치에 달걀 하나, 오후 군것질이 달라져요",
+     "hook_alternatives": [
+      "토요일 늦게 일어나 브런치, 오후 내내 군것질",
+      "주말 늦잠, 평일과 크게 벌리지 마세요"
+     ],
+     "scene": "토요일 늦게 일어나 브런치로 첫 끼를 먹는다. 오후 내내 소파에서 군것질이 이어진다.",
+     "mistake": "늦게 일어나 단백질 없는 브런치를 먹고, 오후 내내 이것저것 집어 먹는다.",
+     "tips": [
+      "주말에도 기상 시간을 평일과 크게 벌어지지 않게 한다.",
+      "브런치가 첫 끼면 달걀·요거트 같은 단백질을 포함시킨다.",
+      "주말 중 하루는 산책이나 걸어서 장보기 같은 걷기 약속을 잡는다.",
+      "월요일 아침 체중이 조금 높아도 주간 평균으로 본다."
+     ],
+     "reset": "월요일은 평소 아침으로 시작한다.",
+     "evidence": "주말에 체중이 오르고 평일에 내려가는 주간 리듬이 관찰됐고(Orsama AL 등, 2014), 단백질은 포만에 도움이 된다(Leidy HJ 등, 2015 리뷰).",
+     "safety_note": "",
+     "search_keyword": "주말 다이어트",
+     "app_action": "브런치를 사진으로 식사 기록하기"
+    },
+    "en": {
+     "title": "Weekend sleep-in and brunch",
+     "hook": "Add an egg to weekend brunch and the afternoon snacking changes",
+     "hook_alternatives": [
+      "Up late on Saturday, brunch, then snacking all afternoon",
+      "Don't let weekend wake-up time drift far from weekdays"
+     ],
+     "scene": "Up late on Saturday, brunch is the first meal. Then the snacking on the couch goes on all afternoon.",
+     "mistake": "Waking late, having a brunch with no protein, then grazing all afternoon.",
+     "tips": [
+      "Keep your weekend wake-up time close to your weekday one.",
+      "If brunch is your first meal, include protein like eggs or yogurt.",
+      "Plan one walking outing on the weekend, like a stroll or walking to the store.",
+      "If Monday morning's weight is a bit higher, look at the weekly average."
+     ],
+     "reset": "Start Monday with your usual breakfast.",
+     "evidence": "A weekly rhythm of weight rising on weekends and dropping on weekdays has been observed (Orsama AL et al., 2014), and protein supports fullness (Leidy HJ et al., 2015 review).",
+     "safety_note": "",
+     "search_keyword": "weekend diet tips",
+     "app_action": "Log your brunch with a meal photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t05-food-delivery-app-order",
+   "series": "survival",
+   "topic": "T05",
+   "category_ko": "사회생활·외식",
+   "priority": 17,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "배달앱 메뉴 고르기",
+     "hook": "배고플 대로 배고플 때 배달앱 열지 마세요",
+     "hook_alternatives": [
+      "배달 오자마자 절반은 다른 그릇으로",
+      "배달 끊기보다 사이드 하나 바꾸기"
+     ],
+     "scene": "혼자 있는 저녁, 배고픔이 극에 달한 채 배달앱을 연다. 메뉴를 넘기다 보면 사이드까지 장바구니에 담긴다.",
+     "mistake": "너무 배고픈 상태에서 주문하고, 화면을 보며 온 양을 한 번에 다 먹는다.",
+     "tips": [
+      "배고픔이 극에 달하기 전에 메뉴를 미리 정해 두는 시간을 만든다.",
+      "사이드는 감자튀김 대신 샐러드나 국물 없는 반찬으로 바꾼다.",
+      "1인분보다 많이 오면 받자마자 절반을 다른 용기에 덜어 냉장 보관한다.",
+      "화면을 보며 먹지 않고 식탁에 앉아 먹는다."
+     ],
+     "reset": "남겨 둔 절반은 다음 끼니로 먹는다.",
+     "evidence": "초가공식품 위주 식단에서 더 많이 먹는 경향이 소규모 연구에서 보였고(Hall KD 등, 2019 Cell Metab), 딴 데 집중하며 먹으면 그때와 이후 섭취가 늘었다(Robinson E 등, 2013 메타분석).",
+     "safety_note": "",
+     "search_keyword": "배달 다이어트",
+     "app_action": "주문 전에 코치 채팅으로 메뉴 상의하기"
+    },
+    "en": {
+     "title": "Ordering on a delivery app",
+     "hook": "Don't open the delivery app when you're starving",
+     "hook_alternatives": [
+      "As soon as delivery arrives, move half to another container",
+      "Instead of quitting delivery, swap one side"
+     ],
+     "scene": "Alone for dinner, someone opens a delivery app at peak hunger. Scrolling the menu, sides end up in the cart too.",
+     "mistake": "Ordering while ravenous, then eating the whole order at once in front of a screen.",
+     "tips": [
+      "Set aside time to decide on your order before hunger peaks.",
+      "Swap fries for a salad or a non-soup side dish.",
+      "If more than 1 serving arrives, move half into another container and refrigerate it right away.",
+      "Eat at the table, not in front of a screen."
+     ],
+     "reset": "Have the saved half as your next meal.",
+     "evidence": "A small study found people tended to eat more on an ultra-processed diet (Hall KD et al., 2019 Cell Metab), and distracted eating raised intake both then and later (Robinson E et al., 2013 meta-analysis).",
+     "safety_note": "",
+     "search_keyword": "delivery food diet",
+     "app_action": "Ask the coach in chat before you order"
+    }
+   }
+  },
+  {
+   "id": "sit-t15-convenience-store-meal-combo",
+   "series": "survival",
+   "topic": "T15",
+   "category_ko": "식사 방식",
+   "priority": 18,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "편의점 한 끼",
+     "hook": "편의점 한 끼는 1+1+1: 주식·단백질·채소",
+     "hook_alternatives": [
+      "퇴근길 편의점, 삼각김밥 옆에 달걀 하나",
+      "컵라면 국물까지 다 마시는 습관 멈추기"
+     ],
+     "scene": "퇴근길 편의점, 삼각김밥 하나를 들고 계산대 앞에 섰다. 옆에는 컵라면과 단 음료도 있다.",
+     "mistake": "주식만 집어 들고, 컵라면 국물까지 다 마시고, 1회 제공량만 보고 다 먹는다.",
+     "tips": [
+      "주식 1(삼각김밥·샌드위치 등) + 단백질 1(달걀·두부·닭가슴살) + 채소/과일 1 공식으로 고른다.",
+      "컵라면은 국물을 다 마시지 않는다.",
+      "영양성분표에서 1회 제공량과 총 내용량이 같은지 확인한다.",
+      "음료는 물이나 무가당 차로 고른다."
+     ],
+     "reset": "",
+     "evidence": "단백질과 채소를 포함하는 구성 원칙은 영양학적 합의이고, 편의점 식사만 본 연구는 부족하다.",
+     "safety_note": "나트륨 제한이 필요한 질환이 있다면 의료진과 상의하세요.",
+     "search_keyword": "편의점 다이어트",
+     "app_action": "고른 조합을 사진으로 식사 기록하기"
+    },
+    "en": {
+     "title": "Convenience store meal",
+     "hook": "A convenience store meal is 1+1+1: a main, a protein, a vegetable",
+     "hook_alternatives": [
+      "Store run after work: grab an egg next to your rice ball",
+      "Stop drinking all the instant noodle broth"
+     ],
+     "scene": "On the way home, standing at a convenience store counter with just a rice ball. Instant noodles and sweet drinks sit nearby.",
+     "mistake": "Grabbing only a main, drinking all the noodle broth, and eating the whole pack after reading just the per-serving numbers.",
+     "tips": [
+      "Use the formula: main 1 (rice ball, sandwich) + protein 1 (egg, tofu, chicken breast) + vegetable/fruit 1.",
+      "Don't drink all the instant noodle broth.",
+      "On the nutrition label, check whether the serving size matches the total package.",
+      "Pick water or unsweetened tea to drink."
+     ],
+     "reset": "",
+     "evidence": "Including protein and vegetables is a nutrition consensus principle; research specific to convenience store meals is lacking.",
+     "safety_note": "If you have a condition that requires limiting sodium, check with your healthcare provider.",
+     "search_keyword": "convenience store healthy meal",
+     "app_action": "Log your combo with a meal photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t28-premenstrual-food-cravings",
+   "series": "survival",
+   "topic": "T28",
+   "category_ko": "계절·이벤트",
+   "priority": 19,
+   "clinical_review": false,
+   "caution": true,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "생리 전 식욕 폭발 주",
+     "hook": "생리 전 주의 체중, 판단은 다음 주로 미루기",
+     "hook_alternatives": [
+      "생리 전 주, 유난히 단 게 당기는 오후",
+      "생리 전 식욕, 달력에 미리 표시해 두면"
+     ],
+     "scene": "생리 전 주, 체중계 숫자도 식욕도 평소 같지 않다. 오후가 되면 유난히 단 게 당긴다.",
+     "mistake": "이 주의 체중 숫자로 그동안의 노력을 판단하고, 갑자기 당기는 단것 앞에서 대비가 없다.",
+     "tips": [
+      "주기 앱으로 이 시기를 미리 표시해 식욕이 늘 수 있는 주로 대비한다.",
+      "단것이 당기면 과일이나 다크초콜릿 소량처럼 미리 정한 선택지를 둔다.",
+      "체중 증가는 수분 영향일 수 있으니 이 주의 체중으로 판단하지 않는다.",
+      "수면과 가벼운 운동을 우선한다."
+     ],
+     "reset": "",
+     "evidence": "황체기에 섭취·식욕이 늘어난다는 연구가 있으나 일관성은 중간 이하다.",
+     "safety_note": "일상생활이 어려운 증상이나 불규칙한 주기가 있다면 산부인과 진료를 받아 보세요.",
+     "search_keyword": "생리 전 체중 증가",
+     "app_action": "체중 기록하고 주간 추세로 보기"
+    },
+    "en": {
+     "title": "Premenstrual cravings week",
+     "hook": "Premenstrual week weight? Save the verdict for next week",
+     "hook_alternatives": [
+      "Premenstrual week, an afternoon of unusual sugar cravings",
+      "Mark premenstrual cravings on your calendar ahead of time"
+     ],
+     "scene": "In the premenstrual week, neither the scale nor appetite feels normal. By afternoon, the sweet cravings are unusually strong.",
+     "mistake": "Judging all the recent effort by this week's weight, and having no plan when sudden sweet cravings hit.",
+     "tips": [
+      "Mark this phase ahead of time in a cycle app and prepare for a week when appetite may rise.",
+      "Keep pre-chosen options for sweet cravings, like fruit or a small piece of dark chocolate.",
+      "Weight gain may be water, so don't judge progress by this week's weight.",
+      "Prioritize sleep and light exercise."
+     ],
+     "reset": "",
+     "evidence": "Some studies show intake and appetite rise in the luteal phase, but consistency is moderate at best.",
+     "safety_note": "If symptoms make daily life hard or your cycle is irregular, see a gynecologist.",
+     "search_keyword": "weight gain before period",
+     "app_action": "Log your weight and view the weekly trend"
+    }
+   }
+  },
+  {
+   "id": "sit-t14-skipped-breakfast-first-meal",
+   "series": "survival",
+   "topic": "T14",
+   "category_ko": "식사 방식",
+   "priority": 20,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "아침 거르는 사람의 첫 끼",
+     "hook": "아침 꼭 먹어야 빠진다는 규칙은 없어요",
+     "hook_alternatives": [
+      "아침 거른 날 점심, 첫 숟가락이 갈림길",
+      "시럽 듬뿍 아침 커피, 그것도 한 끼예요"
+     ],
+     "scene": "아침을 거르고 출근한 날, 점심시간이 되자 허기가 몰려온다. 그녀는 크림과 시럽을 넣은 커피만 마셨다.",
+     "mistake": "아침 커피의 시럽·크림은 계산에서 빼고, 점심 첫 끼를 허겁지겁 많이 먹는다.",
+     "tips": [
+      "아침을 꼭 먹어야 한다는 규칙 대신 내 하루 허기 패턴을 기준으로 정한다.",
+      "아침을 건너뛰었다면 첫 끼를 단백질과 채소로 시작한다.",
+      "아침에 배고프면 그릭요거트·달걀·우유처럼 간단히 먹어도 좋다.",
+      "오전 커피에 시럽·크림을 많이 넣으면 그것도 한 끼로 본다."
+     ],
+     "reset": "",
+     "evidence": "아침 식사 자체는 감량에 유의한 이점이 없었다(Sievert K 등, 2019 BMJ 메타분석). 아침을 먹을지는 선택의 문제다.",
+     "safety_note": "당뇨 등 지병이 있다면 식사 패턴을 바꾸기 전에 의료진과 상의하세요.",
+     "search_keyword": "아침 안 먹는 다이어트",
+     "app_action": "첫 끼를 사진으로 식사 기록하기"
+    },
+    "en": {
+     "title": "First meal for breakfast skippers",
+     "hook": "There's no rule that you must eat breakfast to lose weight",
+     "hook_alternatives": [
+      "Skipped breakfast? Lunch's first bite is the turning point",
+      "A syrupy morning coffee counts as a meal too"
+     ],
+     "scene": "She skipped breakfast and went to work; by lunchtime, hunger hits hard. All she had was a coffee with cream and syrup.",
+     "mistake": "Not counting the syrup and cream in the morning coffee, then rushing through a big first meal at lunch.",
+     "tips": [
+      "Instead of a must-eat-breakfast rule, go by your own daily hunger pattern.",
+      "If you skipped breakfast, start your first meal with protein and vegetables.",
+      "If you're hungry in the morning, something simple like Greek yogurt, eggs, or milk is fine.",
+      "If your morning coffee has lots of syrup or cream, count it as a meal."
+     ],
+     "reset": "",
+     "evidence": "Eating breakfast itself showed no meaningful weight-loss benefit (Sievert K et al., 2019 BMJ meta-analysis). Whether to eat it is a personal choice.",
+     "safety_note": "If you're being treated for diabetes or a similar condition, check with your healthcare provider before changing your eating pattern.",
+     "search_keyword": "skipping breakfast weight loss",
+     "app_action": "Log your first meal with a meal photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t18-meal-photo-food-log",
+   "series": "survival",
+   "topic": "T18",
+   "category_ko": "측정·기록",
+   "priority": 21,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "사진 한 장 식단 기록",
+     "hook": "식단 기록은 정확함보다 빠짐없음이 먼저예요",
+     "hook_alternatives": [
+      "숟가락 들기 전, 사진 한 장부터",
+      "간식·음료 사진, 이제 빼먹지 마세요"
+     ],
+     "scene": "칼로리 계산이 귀찮아서 그는 식단 기록을 멈췄다. 간식과 음료는 처음부터 기록에 없었다.",
+     "mistake": "정확하게 계산하려다 지쳐 기록을 통째로 그만두고, 간식·음료는 빼먹는다.",
+     "tips": [
+      "먹기 전에 사진 한 장을 찍는다. 완벽한 계산보다 빠짐없이가 중요하다.",
+      "간식과 음료도 찍는다.",
+      "하루 끝에 1분 훑어보며 패턴 하나만 찾는다.",
+      "빠진 날이 있어도 다음 끼니부터 다시 찍는다."
+     ],
+     "reset": "빠진 끼니가 있어도 다음 끼니부터 다시 기록한다.",
+     "evidence": "식이 자기 모니터링은 감량과 일관되게 연관됐고(Burke LE 등, 2011 체계적 고찰), 기록을 자주 할수록 더 감량했다(Hollis JF 등, 2008).",
+     "safety_note": "기록이 강박처럼 느껴지면 방식을 바꿔도 괜찮아요. 섭식장애 이력이 있다면 기록 방식을 전문가와 상의하세요.",
+     "search_keyword": "식단 기록 방법",
+     "app_action": "사진 한 장으로 식사 기록하기"
+    },
+    "en": {
+     "title": "Photo food log",
+     "hook": "With food logging, consistency comes before precision",
+     "hook_alternatives": [
+      "Before the first bite, take one photo",
+      "Don't skip snack and drink photos anymore"
+     ],
+     "scene": "Counting calories got tedious, so he stopped logging meals. Snacks and drinks were never in the log to begin with.",
+     "mistake": "Burning out on precise counting and quitting entirely, while snacks and drinks get left out.",
+     "tips": [
+      "Take one photo before you eat. Not missing meals matters more than perfect counting.",
+      "Photograph snacks and drinks too.",
+      "At the end of the day, take 1 minute to scan and find just one pattern.",
+      "If you miss a day, start again from the next meal."
+     ],
+     "reset": "If you miss a meal, start logging again from the next one.",
+     "evidence": "Dietary self-monitoring is consistently linked to weight loss (Burke LE et al., 2011 systematic review), and logging more often went with more weight lost (Hollis JF et al., 2008).",
+     "safety_note": "If logging starts to feel obsessive, it's okay to change how you do it. If you have a history of eating disorders, talk with a professional about how to log.",
+     "search_keyword": "how to track food",
+     "app_action": "Log a meal with a single photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t19-daily-step-walking-tracker",
+   "series": "survival",
+   "topic": "T19",
+   "category_ko": "측정·기록",
+   "priority": 22,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "걸음·활동 기록 습관",
+     "hook": "걸음 목표는 남의 숫자 말고 지난주의 나",
+     "hook_alternatives": [
+      "점심 먹고 10분, 한 정거장 먼저 내리기",
+      "남이 정한 걸음 수 목표, 내려놓기"
+     ],
+     "scene": "남들 걸음 수를 보다가 그녀는 오늘 걷기를 포기했다. 비가 오는 날이면 아예 쉬는 날이 된다.",
+     "mistake": "남이 정한 숫자를 목표로 삼았다가 못 미치면 포기하고, 날씨가 나쁜 날의 대안이 없다.",
+     "tips": [
+      "목표는 남의 숫자가 아니라 내 지난주 평균보다 조금 더로 잡는다.",
+      "점심 후 10분, 한 정거장 먼저 내리기처럼 걷기를 기존 일과에 붙인다.",
+      "앱이나 워치로 자동 기록해 수고를 줄인다.",
+      "비 오는 날 대안(실내 계단·홈 워킹)을 미리 정해 둔다."
+     ],
+     "reset": "",
+     "evidence": "감량을 유지한 사람들은 높은 신체활동을 꾸준히 유지했고(Wing RR & Phelan S, 2005), 걸음 계수기 사용이 활동량을 늘렸다는 메타분석이 있다.",
+     "safety_note": "관절이나 심혈관 질환이 있다면 활동량을 늘리기 전에 의료진과 상의하세요.",
+     "search_keyword": "걷기 다이어트",
+     "app_action": "걸음 기록에서 지난주 평균과 비교하기"
+    },
+    "en": {
+     "title": "Step and activity tracking",
+     "hook": "Your step goal is last week's you, not someone else's number",
+     "hook_alternatives": [
+      "10 minutes after lunch, get off one stop early",
+      "Let go of step goals someone else set"
+     ],
+     "scene": "Scrolling through other people's step counts, she gave up on walking today. Rainy days become full rest days.",
+     "mistake": "Aiming for someone else's number, quitting when falling short, and having no backup plan for bad weather.",
+     "tips": [
+      "Set your goal as a little more than your own average last week, not someone else's number.",
+      "Attach walking to your routine, like 10 minutes after lunch or getting off one stop early.",
+      "Let an app or watch log it automatically to save effort.",
+      "Decide on a rainy-day backup ahead of time, like indoor stairs or walking at home."
+     ],
+     "reset": "",
+     "evidence": "People who kept weight off maintained high physical activity (Wing RR & Phelan S, 2005), and a meta-analysis found using step counters increased activity.",
+     "safety_note": "If you have joint or heart conditions, check with your healthcare provider before increasing activity.",
+     "search_keyword": "walking for weight loss",
+     "app_action": "Compare your steps with last week's average"
+    }
+   }
+  },
+  {
+   "id": "sit-t06-late-dinner-overtime-night",
+   "series": "survival",
+   "topic": "T06",
+   "category_ko": "시간·생활패턴",
+   "priority": 23,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "야근으로 늦어진 저녁",
+     "hook": "밤 9시 퇴근이 보이면, 6시에 요거트 하나",
+     "hook_alternatives": [
+      "늦은 저녁 먹고 바로 눕지 마세요",
+      "야근 날엔 저녁 전 간식이 과식을 막아요"
+     ],
+     "scene": "오늘도 야근이 확정됐다. 저녁은 밤 9~10시가 되어야 먹을 수 있을 것 같다.",
+     "mistake": "늦게까지 아무것도 안 먹다가 밤에 국·밥으로 배를 가득 채우고 바로 눕는다.",
+     "tips": [
+      "퇴근이 늦을 것 같으면 오후 6~7시 무렵 단백질 있는 작은 간식(우유·요거트·삶은 달걀 등)을 먹어 둔다.",
+      "늦은 저녁은 국·밥 위주보다 단백질과 채소 중심으로 가볍게 먹는다.",
+      "먹고 바로 눕지 않도록 씻기·정리를 식후에 배치한다."
+     ],
+     "reset": "다음 날 아침은 거르지 말고 평소대로 먹는다.",
+     "evidence": "늦은 시간 식사가 배고픔·에너지 소비에 불리한 방향을 보였고(Vujović N 등, 2022 Cell Metab), 점심을 늦게 먹은 군의 감량이 적었다는 관찰이 있다(Garaulet M 등, 2013).",
+     "safety_note": "속쓰림·역류 같은 증상이 있으면 의료진과 상담하세요.",
+     "search_keyword": "야근 저녁 다이어트",
+     "app_action": "늦은 저녁을 사진으로 식사 기록하기"
+    },
+    "en": {
+     "title": "Late dinner after working late",
+     "hook": "Leaving at 9 tonight? Have a yogurt at 6",
+     "hook_alternatives": [
+      "Don't lie down right after a late dinner",
+      "On late-work days, a snack before dinner prevents overeating"
+     ],
+     "scene": "Another late night at work is confirmed. Dinner won't happen until 9-10 p.m.",
+     "mistake": "Eating nothing until late, then filling up on soup and rice at night and lying down right away.",
+     "tips": [
+      "If you'll be leaving late, have a small protein snack (milk, yogurt, a boiled egg) around 6-7 p.m.",
+      "Keep a late dinner light, centered on protein and vegetables rather than soup and rice.",
+      "Schedule washing up and tidying for after the meal so you don't lie down right away."
+     ],
+     "reset": "Don't skip breakfast the next morning; eat as usual.",
+     "evidence": "Eating late leaned in an unfavorable direction for hunger and energy use (Vujović N et al., 2022 Cell Metab), and an observational study found later lunch eaters lost less weight (Garaulet M et al., 2013).",
+     "safety_note": "If you have heartburn or reflux symptoms, talk with a healthcare provider.",
+     "search_keyword": "late dinner diet",
+     "app_action": "Log your late dinner with a meal photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t30-cold-winter-indoor-walking",
+   "series": "survival",
+   "topic": "T30",
+   "category_ko": "계절·이벤트",
+   "priority": 24,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "추워서 덜 움직이는 겨울",
+     "hook": "추워서 안 나가는 날, 실내 걷기 메뉴를 미리",
+     "hook_alternatives": [
+      "국물 요리, 건더기만 먹고 국물은 남기기",
+      "겨울 활동량은 의지보다 '실내 대안'이 지켜요"
+     ],
+     "scene": "영하의 아침, 오늘 산책은 건너뛰고 싶다. 저녁에는 뜨끈한 국물 요리가 당긴다.",
+     "mistake": "추운 날은 대안 없이 그냥 쉬고, 탕 요리는 국물까지 다 먹는다.",
+     "tips": [
+      "계단·홈트·쇼핑몰 걷기 같은 실내 활동 메뉴를 미리 정한다.",
+      "국물·탕 요리는 건더기 위주로 먹고 국물은 남긴다.",
+      "해 있는 시간에 짧게라도 밖에 나간다.",
+      "활동 기록을 지난주의 나와 비교한다."
+     ],
+     "reset": "",
+     "evidence": "계절에 따라 체중과 활동량이 변하고 겨울~연말에 늘어난다는 관찰 연구가 많다.",
+     "safety_note": "한파에는 심혈관 질환이 있다면 야외 운동을 조심하세요.",
+     "search_keyword": "겨울 다이어트",
+     "app_action": "걸음 기록에서 지난주와 비교하기"
+    },
+    "en": {
+     "title": "Moving less in cold winter",
+     "hook": "On days too cold to go out, have an indoor walking plan ready",
+     "hook_alternatives": [
+      "With soups and stews, eat the solids and leave the broth",
+      "In winter, indoor backup plans protect your activity more than willpower"
+     ],
+     "scene": "A below-freezing morning, and today's walk feels skippable. By evening, a hot bowl of stew sounds perfect.",
+     "mistake": "Simply resting on cold days with no backup plan, and finishing every last bit of broth in stews.",
+     "tips": [
+      "Decide on an indoor activity menu ahead of time, like stairs, home workouts, or mall walking.",
+      "With soups and stews, focus on the solids and leave the broth.",
+      "Get outside while the sun is up, even briefly.",
+      "Compare your activity log with last week's you."
+     ],
+     "reset": "",
+     "evidence": "Many observational studies show weight and activity shift with the seasons, rising from winter through the year-end.",
+     "safety_note": "In extreme cold, take care with outdoor exercise if you have a heart or circulatory condition.",
+     "search_keyword": "winter weight loss tips",
+     "app_action": "Compare your steps with last week"
+    }
+   }
+  },
+  {
+   "id": "sit-t26-holiday-feast-family-table",
+   "series": "survival",
+   "topic": "T26",
+   "category_ko": "계절·이벤트",
+   "priority": 25,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "명절 3일 연휴",
+     "hook": "명절 상 위 음식, 집어 먹지 말고 접시에",
+     "hook_alternatives": [
+      "명절 포기 말고 식후 가족 산책 하나",
+      "전 부치는 냄새, 오며 가며 한 점씩"
+     ],
+     "scene": "명절 둘째 날, 상 위의 전이 줄지 않는다. 오며 가며 한 점씩 집다 보면 끼니와 간식의 경계가 사라진다.",
+     "mistake": "상 위에 계속 놓인 음식을 오며 가며 집어 먹고, 연휴 뒤 늘어난 숫자에 바로 놀란다.",
+     "tips": [
+      "하루 세 끼 리듬을 유지하고, 상 위에 계속 있는 음식은 접시에 덜어 먹는다.",
+      "전·튀김은 종류별로 한두 점 맛보고, 나물·생선·과일을 먼저 먹는다.",
+      "식후 가족 산책을 명절 루틴으로 제안한다.",
+      "떡·한과는 다과 시간에만 먹고, 오며 가며 집어 먹지 않는다."
+     ],
+     "reset": "연휴 후 체중은 수분 영향이 크니 며칠 평소 루틴으로 돌아온 뒤 판단한다.",
+     "evidence": "연휴 기간 체중이 늘고 이후 완전히 돌아오지 않는 경향이 보였다(Yanovski JA 등, 2000 NEJM; Helander EE 등, 2016 NEJM 서신).",
+     "safety_note": "가족이 차린 음식을 거절해야 한다는 뜻은 아니에요.",
+     "search_keyword": "명절 다이어트",
+     "app_action": "식후 가족 산책을 걸음 기록으로 남기기"
+    },
+    "en": {
+     "title": "3-day holiday feast",
+     "hook": "Holiday table food goes on a plate, not straight from the table",
+     "hook_alternatives": [
+      "Don't give up on the holiday, add one family walk after the meal",
+      "Holiday cooking smells, grabbing a bite every time you pass"
+     ],
+     "scene": "Day two of a family holiday, and the platters on the table never seem to shrink. Grabbing a bite every time you pass blurs the line between meals and snacks.",
+     "mistake": "Picking at food that stays on the table all day, then being startled by the number on the scale after the holiday.",
+     "tips": [
+      "Keep a three-meals-a-day rhythm, and put food that stays out on the table onto a plate.",
+      "Taste one or two pieces of each fried dish, and eat vegetables, fish, and fruit first.",
+      "Suggest an after-meal family walk as a holiday routine.",
+      "Have sweets and desserts only at dessert time, not while passing by."
+     ],
+     "reset": "Post-holiday weight is heavily affected by water, so judge it only after a few days back on your usual routine.",
+     "evidence": "Weight tends to rise over holidays and not fully come back down afterward (Yanovski JA et al., 2000 NEJM; Helander EE et al., 2016 NEJM letter).",
+     "safety_note": "This doesn't mean you have to turn down food your family made.",
+     "search_keyword": "holiday eating tips",
+     "app_action": "Log the family walk in your step tracker"
+    }
+   }
+  },
+  {
+   "id": "sit-t20-sunday-weekly-review-planner",
+   "series": "survival",
+   "topic": "T20",
+   "category_ko": "측정·기록",
+   "priority": 26,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "일요일 저녁 5분 돌아보기",
+     "hook": "일요일 밤 5분, 다음 주 위험한 날에 동그라미",
+     "hook_alternatives": [
+      "반성문 말고, 잘된 것 하나 걸림돌 하나",
+      "일요일 밤, 다음 주 달력을 펼친다"
+     ],
+     "scene": "일요일 밤, 다음 주 달력을 펼치니 회식과 야근이 보인다. 지난주를 떠올리면 아쉬운 것부터 생각난다.",
+     "mistake": "한 주를 반성문처럼 돌아보며 자책하고, 다음 주 계획 없이 월요일을 맞는다.",
+     "tips": [
+      "이번 주 잘된 것 하나, 걸림돌 하나를 적는다.",
+      "걸림돌에 대해 다음 주 if-then 계획을 하나 세운다(예: 회식이 있으면 채소부터).",
+      "체중은 주간 평균 추세만 본다.",
+      "다음 주 일정에서 회식·야근 같은 위험한 날을 미리 표시한다."
+     ],
+     "reset": "",
+     "evidence": "미리 정한 실행 의도가 목표 달성에 도움이 됐고(Gollwitzer & Sheeran, 2006), 목표 검토와 피드백은 자기 모니터링과 함께할 때 효과적인 행동변화 기법이다.",
+     "safety_note": "",
+     "search_keyword": "다이어트 계획 세우기",
+     "app_action": "코치 채팅으로 주간 돌아보기"
+    },
+    "en": {
+     "title": "5-minute Sunday evening review",
+     "hook": "5 minutes on Sunday night: circle next week's risky days",
+     "hook_alternatives": [
+      "Skip the self-critique: one win, one obstacle",
+      "Sunday night, opening next week's calendar"
+     ],
+     "scene": "On Sunday night, next week's calendar shows a work dinner and a late night. Thinking back on the week, the misses come to mind first.",
+     "mistake": "Reviewing the week like a confession, beating yourself up, and heading into Monday with no plan.",
+     "tips": [
+      "Write down one thing that went well this week and one obstacle.",
+      "Make one if-then plan for that obstacle next week (e.g., if there's a work dinner, start with vegetables).",
+      "Look only at the weekly average trend for weight.",
+      "Mark risky days like work dinners or late nights on next week's schedule ahead of time."
+     ],
+     "reset": "",
+     "evidence": "Planning implementation intentions helped people reach goals (Gollwitzer & Sheeran, 2006), and goal review with feedback is an effective behavior-change technique when combined with self-monitoring.",
+     "safety_note": "",
+     "search_keyword": "how to plan a diet week",
+     "app_action": "Do a weekly review with the coach in chat"
+    }
+   }
+  },
+  {
+   "id": "sit-t25-social-media-body-comparison",
+   "series": "survival",
+   "topic": "T25",
+   "category_ko": "감정·멘탈",
+   "priority": 27,
+   "clinical_review": false,
+   "caution": true,
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "SNS 바디 사진 비교",
+     "hook": "비교되는 바디 사진, 뮤트 한 번이면 피드가 바뀌어요",
+     "hook_alternatives": [
+      "목표를 몸매 말고 행동으로 바꿔 적기",
+      "자기 전 피드 스크롤, 남의 몸과 비교하는 밤"
+     ],
+     "scene": "자기 전 피드를 넘기다 괜히 기분이 가라앉는다. 남의 사진과 자신을 자꾸 비교하게 된다.",
+     "mistake": "비교를 부르는 계정을 계속 보면서, 목표를 외모 기준으로만 세운다.",
+     "tips": [
+      "비교를 부르는 계정은 뮤트하거나 숨긴다.",
+      "목표를 외모가 아닌 걷기·채소·수면 같은 행동으로 바꿔 적는다.",
+      "내 과거 기록과만 비교한다.",
+      "피드에 정보·회복 중심 계정을 의도적으로 늘린다."
+     ],
+     "reset": "",
+     "evidence": "이상화된 신체 이미지에 노출되면 신체 불만족이 높아진다는 실험·메타분석 근거가 많다.",
+     "safety_note": "내 몸에 대한 불만이 커서 일상이 힘들다면 전문가와 상담하세요.",
+     "search_keyword": "바디 비교 스트레스",
+     "app_action": "내 지난 기록과 이번 주 행동 기록 비교하기"
+    },
+    "en": {
+     "title": "Comparing yourself to body photos online",
+     "hook": "One mute can change how your feed feels about body photos",
+     "hook_alternatives": [
+      "Rewrite goals as actions, not appearance",
+      "Scrolling before bed, comparing yourself to others"
+     ],
+     "scene": "Scrolling the feed before bed, the mood sinks for no clear reason. Comparisons with other people's photos keep creeping in.",
+     "mistake": "Continuing to follow accounts that trigger comparison, and setting goals only around appearance.",
+     "tips": [
+      "Mute or hide accounts that trigger comparison.",
+      "Rewrite goals as actions like walking, vegetables, and sleep instead of appearance.",
+      "Compare only with your own past records.",
+      "Intentionally add accounts focused on information and recovery to your feed."
+     ],
+     "reset": "",
+     "evidence": "Many experiments and meta-analyses show exposure to idealized body images raises body dissatisfaction.",
+     "safety_note": "If unhappiness with your body is making daily life hard, talk with a professional.",
+     "search_keyword": "body comparison social media",
+     "app_action": "Compare this week's habits with your own past records"
+    }
+   }
+  },
+  {
+   "id": "sit-t07-night-shift-work-meals",
+   "series": "survival",
+   "topic": "T07",
+   "category_ko": "시간·생활패턴",
+   "priority": 28,
+   "clinical_review": false,
+   "caution": true,
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "교대근무 야간 주간",
+     "hook": "야간 근무 식욕 관리는 낮잠 환경부터",
+     "hook_alternatives": [
+      "새벽 야간 근무, 자판기 대신 미리 싸 온 간식",
+      "퇴근 후 잠들기 직전 과식, 가볍게 바꾸기"
+     ],
+     "scene": "야간 근무 주간, 새벽이 되자 자판기 불빛이 유난히 밝다. 퇴근하면 배가 고픈 채로 잠자리에 든다.",
+     "mistake": "새벽에 단 음료·과자로 버티고, 퇴근 후 잠들기 직전에 많이 먹는다.",
+     "tips": [
+      "메인 식사는 근무 시작 전에 하고, 근무 중에는 가벼운 간식 위주로 나눈다.",
+      "새벽 시간대 단 음료·과자 대신 미리 싸 온 간식을 둔다.",
+      "퇴근 후 잠들기 직전에는 과식하지 않고 가볍게 먹고 잔다.",
+      "낮잠 환경(암막·소음 차단)을 먼저 챙긴다. 잠이 식욕 관리의 출발점이다."
+     ],
+     "reset": "",
+     "evidence": "교대근무는 대사·체중 위험 증가와 연관됐다(Kecklund G & Axelsson J, 2016 BMJ 리뷰). 교대근무자 대상 식사 시간 중재 근거는 아직 제한적이다.",
+     "safety_note": "당뇨 등 지병이 있다면 식사 시간을 바꾸기 전에 의료진과 상의하세요.",
+     "search_keyword": "교대근무 다이어트",
+     "app_action": "근무 중 먹은 것을 사진으로 식사 기록하기"
+    },
+    "en": {
+     "title": "Night shift week",
+     "hook": "On night shifts, managing appetite starts with your daytime sleep setup",
+     "hook_alternatives": [
+      "On the overnight shift, pack snacks instead of hitting the vending machine",
+      "Swap the big meal right before bed for something light"
+     ],
+     "scene": "It's a week of night shifts, and in the early hours the vending machine glows extra bright. After the shift, bed comes on an empty stomach.",
+     "mistake": "Getting through the early hours on sugary drinks and chips, then eating a lot right before going to sleep.",
+     "tips": [
+      "Have your main meal before your shift, and keep to light snacks during the shift.",
+      "Keep snacks you packed ahead instead of sugary drinks and chips for the early hours.",
+      "After the shift, eat something light before sleeping instead of a big meal.",
+      "Set up your daytime sleep space first (blackout, noise blocking). Sleep is where appetite management starts."
+     ],
+     "reset": "",
+     "evidence": "Shift work is linked to higher metabolic and weight risks (Kecklund G & Axelsson J, 2016 BMJ review). Evidence on meal-timing changes for shift workers is still limited.",
+     "safety_note": "If you're being treated for diabetes or a similar condition, check with your healthcare provider before changing meal times.",
+     "search_keyword": "night shift diet",
+     "app_action": "Log what you eat during the shift with a meal photo"
+    }
+   }
+  },
+  {
+   "id": "sit-t08-business-trip-jet-lag",
+   "series": "survival",
+   "topic": "T08",
+   "category_ko": "시간·생활패턴",
+   "priority": 29,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "출장·여행 시차",
+     "hook": "기내식, 배고플 때만 드세요",
+     "hook_alternatives": [
+      "시차 적응 첫날, 낮에 걷고 현지 시간에 먹기",
+      "여행 중 목표는 감량이 아니라 유지"
+     ],
+     "scene": "비행기 안, 시간과 상관없이 기내식 카트가 다가온다. 도착하면 몸은 아직 출발지 시간에 머물러 있다.",
+     "mistake": "배가 고프지 않아도 주는 대로 먹고, 도착 후에는 몸 시간대로 아무 때나 먹는다.",
+     "tips": [
+      "도착지 식사 시간에 맞춰 먹기 시작하고, 기내식은 배고플 때만 먹는다.",
+      "공항과 기내에서 물을 자주 마신다.",
+      "낮에 밖에서 걸으며 햇빛을 본다. 걸음과 시차 적응을 같이 챙길 수 있다.",
+      "현지 음식은 즐기되 하루 한 끼는 단백질과 채소를 의식해서 고른다."
+     ],
+     "reset": "",
+     "evidence": "빛 노출과 식사 시간이 생체시계를 맞추는 기전 근거는 있지만, 체중 결과를 본 연구는 부족하다.",
+     "safety_note": "여행 중에는 감량보다 유지를 목표로 해도 충분해요.",
+     "search_keyword": "여행 다이어트",
+     "app_action": "현지에서 걸음 기록 확인하기"
+    },
+    "en": {
+     "title": "Business trip or travel jet lag",
+     "hook": "Eat the in-flight meal only if you're hungry",
+     "hook_alternatives": [
+      "On day one of jet lag, walk in daylight and eat on local time",
+      "On a trip, the goal is maintaining, not losing"
+     ],
+     "scene": "On the plane, the meal cart rolls up no matter what time it is. After landing, the body is still on home time.",
+     "mistake": "Eating whatever is served even when not hungry, then eating at random times on body-clock time after arrival.",
+     "tips": [
+      "Start eating on the destination's meal schedule, and have in-flight meals only when hungry.",
+      "Drink water often at the airport and on the plane.",
+      "Walk outside in daylight. It adds steps and helps with jet lag at the same time.",
+      "Enjoy the local food, but choose one meal a day with protein and vegetables in mind."
+     ],
+     "reset": "",
+     "evidence": "There is mechanistic evidence that light exposure and meal timing help reset the body clock, but studies on weight outcomes are lacking.",
+     "safety_note": "Aiming to maintain rather than lose during a trip is enough.",
+     "search_keyword": "travel diet tips",
+     "app_action": "Check your step log while traveling"
+    }
+   }
+  },
+  {
+   "id": "sit-t27-summer-resort-vacation",
+   "series": "survival",
+   "topic": "T27",
+   "category_ko": "계절·이벤트",
+   "priority": 30,
+   "clinical_review": false,
+   "caution": false,
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "여름휴가·호캉스",
+     "hook": "호캉스 목표는 감량 말고 즐기면서 유지",
+     "hook_alternatives": [
+      "리조트 조식 뷔페, 첫 접시는 단백질과 과일",
+      "칵테일 한 잔, 음료인 척 넘기지 않기"
+     ],
+     "scene": "체크인하자마자 조식 뷔페 시간부터 확인한다. 수영장 옆에는 칵테일과 주스가 끝없이 나온다.",
+     "mistake": "휴가 전후로 감량 압박을 느끼거나, 반대로 휴가 중 음료 칼로리를 아예 신경 쓰지 않는다.",
+     "tips": [
+      "휴가 목표를 감량이 아니라 유지하면서 즐기기로 정한다.",
+      "조식 뷔페는 단백질·과일 중심 한 접시로 시작한다.",
+      "수영·산책처럼 즐거운 활동으로 자연스럽게 움직인다.",
+      "칵테일·주스 같은 음료의 칼로리도 인지한다."
+     ],
+     "reset": "",
+     "evidence": "휴가 중 체중이 늘었다는 관찰 연구가 일부 있지만, 중재 근거는 부족하다.",
+     "safety_note": "휴가 전에 급하게 빼려는 계획은 권하지 않아요.",
+     "search_keyword": "호캉스 다이어트",
+     "app_action": "휴가 중 걸음 기록 확인하기"
+    },
+    "en": {
+     "title": "Summer resort vacation",
+     "hook": "On a resort getaway, aim to enjoy and maintain, not lose",
+     "hook_alternatives": [
+      "At the resort breakfast buffet, start with protein and fruit",
+      "Don't pretend a cocktail is just a drink"
+     ],
+     "scene": "Right after check-in, the first thing checked is breakfast buffet hours. By the pool, cocktails and juice keep coming.",
+     "mistake": "Feeling pressure to lose weight around the trip, or the opposite, ignoring drink calories entirely during the vacation.",
+     "tips": [
+      "Set your vacation goal as enjoying and maintaining, not losing.",
+      "Start the breakfast buffet with one plate centered on protein and fruit.",
+      "Move naturally through fun activities like swimming and walking.",
+      "Stay aware of the calories in drinks like cocktails and juice."
+     ],
+     "reset": "",
+     "evidence": "Some observational studies report weight gain during vacations, but intervention evidence is lacking.",
+     "safety_note": "Crash plans to lose weight fast before a trip aren't recommended.",
+     "search_keyword": "vacation diet tips",
+     "app_action": "Check your step log during the trip"
+    }
+   }
+  },
+  {
+   "id": "nag-e03-late-night-ramen-pot",
+   "series": "nag",
+   "episode": "E03",
+   "topic": "T13",
+   "priority": 1,
+   "clinical_review": false,
+   "risk": true,
+   "local_hour": 22,
+   "weekday": "tue",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "밤 11시 라면 물",
+     "hook": "밤 11시 7분. 냄비에 물 붓는 소리가 났어요",
+     "hook_alternatives": [
+      "그 물, 라면 물이죠? 하비가 끼어듭니다",
+      "라면이 당긴 진짜 이유는 저녁 접시에 있었어요"
+     ],
+     "scene": "화요일 밤 11시 7분, 부엌에서 냄비에 물을 붓고 가스레인지 손잡이에 손을 올린 순간.",
+     "user_line": "딱 하나만 끓일 거야. 저녁 샐러드였으니까 괜찮지 않아?",
+     "nag_gentle": "먹고 싶으면 먹어도 돼요. 10분만 미뤄 보고 그래도 먹고 싶으면, 그릇에 담아 앉아서 먹어요.",
+     "nag_spicy": "불 켜기 전에 양치부터 해 볼래요? 10분 뒤에도 생각나면 그때 다시 얘기해요.",
+     "tip": "저녁을 너무 적게 먹은 날 야식이 잘 당겨요. 양치를 일찍 해서 \"오늘 식사 끝\" 신호를 만들고, 그래도 먹을 거면 국물은 다 마시지 않아요.",
+     "ab_question": "오늘 저녁, 단백질 있었어요? A 있었다 / B 샐러드만 조금",
+     "safety_note": "매일 밤 멈추기 어렵다는 사연에는 전문가 상담을 안내해요.",
+     "search_keyword": "야식 라면 참는 법",
+     "app_action": "저녁 식사 사진 기록 → 다음 날 코치 채팅에서 저녁 단백질 확인"
+    },
+    "en": {
+     "title": "11 p.m. instant noodles",
+     "hook": "11:07 p.m. I heard water hitting the pot",
+     "hook_alternatives": [
+      "That water's for instant noodles, right? HAVI cuts in",
+      "The real reason you're craving noodles was on your dinner plate"
+     ],
+     "scene": "Tuesday, 11:07 p.m., filling a pot with water in the kitchen, hand already on the stove knob.",
+     "user_line": "Just one pack. Dinner was only a salad, so it's fine, right?",
+     "nag_gentle": "If you want it, you can have it. Wait 10 minutes first, and if you still want it, put it in a bowl and sit down to eat.",
+     "nag_spicy": "How about brushing your teeth before you turn on the stove? If you still want it in 10 minutes, we'll talk then.",
+     "tip": "Late-night cravings hit harder on days you ate too little at dinner. Brush your teeth early as a \"kitchen's closed\" signal, and if you do eat, don't drink all the broth.",
+     "ab_question": "Did dinner have protein today? A) yes / B) just a little salad",
+     "safety_note": "If someone says they can't stop eating every night, point them to a professional.",
+     "search_keyword": "late night ramen craving",
+     "app_action": "Log dinner with a photo → next day, check in the coach chat whether dinner had protein"
+    }
+   }
+  },
+  {
+   "id": "nag-e02-morning-weight-spike-scale",
+   "series": "nag",
+   "episode": "E02",
+   "topic": "T17",
+   "priority": 2,
+   "clinical_review": false,
+   "risk": true,
+   "local_hour": 7,
+   "weekday": "tue",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "하룻밤 새 늘어난 체중",
+     "hook": "\"어제보다 확 늘었는데 저 망한 거죠?\" — 하비 답장 왔어요",
+     "hook_alternatives": [
+      "어제 짬뽕, 오늘 아침 체중계에서 다시 만남",
+      "하룻밤 사이 늘어난 무게의 정체는 대부분 살이 아니에요"
+     ],
+     "scene": "화요일 아침 7시 5분, 어제 저녁 짬뽕 국물까지 다 먹고 체중계 숫자 앞에서 얼어붙음.",
+     "user_line": "어제보다 확 늘었는데… 저 망한 거죠?",
+     "nag_gentle": "놀랐죠. 그 숫자, 아마 대부분 물이에요. 어제 짠 음식 먹었는지만 떠올려 봐요.",
+     "nag_spicy": "굶어서 되돌리지 않아도 돼요. 아침은 평소대로 먹고, 판단은 1~2주 평균으로 해요.",
+     "tip": "하루 사이 변동은 대부분 수분·염분·글리코겐·장 내용물이에요. 전날 짠 음식·술·늦은 식사·생리 전 시기를 체크하고, 다음 끼니는 평소대로 먹어요. 판단은 1~2주 평균으로 해요.",
+     "ab_question": "어제 저녁에 해당되는 거? A 국물·짠 음식 / B 술·늦은 식사",
+     "safety_note": "체중 숫자는 이미지·영상에 노출하지 않고, 일괄 kg 수치는 쓰지 않아요.",
+     "search_keyword": "체중 갑자기 늘었을 때",
+     "app_action": "체중 기록(숫자 그대로) → 코치 채팅에 어제 식사 남기고 해석 물어보기"
+    },
+    "en": {
+     "title": "Overnight weight jump",
+     "hook": "\"I'm up so much since yesterday — did I ruin everything?\" HAVI replied",
+     "hook_alternatives": [
+      "Last night's salty takeout, meeting me again on the scale this morning",
+      "Most of that overnight weight isn't fat"
+     ],
+     "scene": "Tuesday, 7:05 a.m., frozen in front of the scale after finishing a big bowl of salty noodle soup last night.",
+     "user_line": "I'm way up from yesterday… did I just ruin everything?",
+     "nag_gentle": "That was a shock, huh. That number is probably mostly water. Just think back: did you eat something salty yesterday?",
+     "nag_spicy": "No need to skip meals to undo it. Have your usual breakfast, and judge by your 1–2 week average.",
+     "tip": "Day-to-day swings are mostly water, salt, glycogen, and what's still in your gut. Check for salty food, alcohol, a late dinner, or the days before your period, then eat your next meal as usual. Judge by your 1–2 week average.",
+     "ab_question": "Which one fits last night? A) soup or salty food / B) drinks or a late dinner",
+     "safety_note": "Never show the scale number in images or video, and don't use one-size-fits-all weight figures.",
+     "search_keyword": "sudden weight gain overnight",
+     "app_action": "Log your weight as is → tell the coach chat what you ate yesterday and ask what it means"
+    }
+   }
+  },
+  {
+   "id": "nag-e04-delivery-app-checkout-fries",
+   "series": "nag",
+   "episode": "E04",
+   "topic": "T05",
+   "priority": 3,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 21,
+   "weekday": "fri",
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "배달앱 결제 직전",
+     "hook": "결제 누르기 직전, 하비가 장바구니를 같이 봤어요",
+     "hook_alternatives": [
+      "장바구니 3개, 결제 버튼 위에서 멈춘 엄지",
+      "배달을 끊으라는 얘기 아니에요. 사이드 하나 얘기예요"
+     ],
+     "scene": "금요일 밤 9시 40분, 소파에서 떡볶이·튀김·감자튀김이 담긴 장바구니의 결제 버튼 위에 엄지를 올린 채.",
+     "user_line": "이번 주 고생했으니까. 사이드도 시켜야 세트지.",
+     "nag_gentle": "배달 시켜도 괜찮아요. 사이드 하나만 샐러드로 바꿔 볼래요?",
+     "nag_spicy": "감자튀김 빼고 샐러드 넣어요. 오면 절반은 바로 통에 덜어서 냉장고로요.",
+     "tip": "사이드는 튀김 대신 샐러드·반찬으로 바꾸고, 1인분 넘게 오면 받자마자 절반을 덜어 냉장 보관해요. 화면 보며 먹지 말고 식탁에서 먹어요.",
+     "ab_question": "배달 오면 당신은? A 받자마자 덜어 둠 / B 박스째 먹음",
+     "safety_note": "",
+     "search_keyword": "배달음식 다이어트",
+     "app_action": "받자마자 덜어 놓은 접시 기준으로 사진 식사 기록"
+    },
+    "en": {
+     "title": "Delivery app checkout",
+     "hook": "Right before you hit order, HAVI checked your cart with you",
+     "hook_alternatives": [
+      "Three items in the cart, thumb frozen over the order button",
+      "Not saying quit delivery. Just one side dish"
+     ],
+     "scene": "Friday, 9:40 p.m., on the couch with a cart full of spicy rice cakes, fried snacks, and fries, thumb hovering over \"Place order.\"",
+     "user_line": "I worked hard this week. And it's not a combo without the sides.",
+     "nag_gentle": "Ordering in is fine. Want to swap just one side for a salad?",
+     "nag_spicy": "Drop the fries, add a salad. When it arrives, move half into a container and into the fridge right away.",
+     "tip": "Swap fried sides for a salad or veggie side, and if it's more than 1 serving, split off half the moment it arrives and refrigerate it. Eat at the table, not in front of a screen.",
+     "ab_question": "When delivery arrives, you: A) portion it out right away / B) eat straight from the box",
+     "safety_note": "",
+     "search_keyword": "healthy food delivery order",
+     "app_action": "Photo-log your meal based on the plate you portioned out"
+    }
+   }
+  },
+  {
+   "id": "nag-e05-office-snack-basket",
+   "series": "nag",
+   "episode": "E05",
+   "topic": "T12",
+   "priority": 4,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 15,
+   "weekday": "wed",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "오후 3시 반 탕비실 과자",
+     "hook": "오후 3시 반, 탕비실 과자 바구니 앞에서 2분째",
+     "hook_alternatives": [
+      "그 손, 배고파서 간 거 맞아요? 하비가 물어봐요",
+      "오후 간식이 당기는 이유가 점심 접시에 있을 때가 많아요"
+     ],
+     "scene": "수요일 오후 3시 반, 회의 끝나고 졸리고 멍한 채 탕비실 과자 바구니 앞에 서 있음.",
+     "user_line": "머리가 안 돌아가. 과자 하나만 먹자.",
+     "nag_gentle": "간식 먹어도 돼요. 물 한 잔 마시고 잠깐 기다려도 배고프면, 그때 골라요.",
+     "nag_spicy": "과자 바구니 말고 물 한 잔 먼저요. 진짜 배고픔이면 요거트나 과일로 가요.",
+     "tip": "점심에 단백질·채소가 충분했는지 먼저 봐요. 간식이 필요하면 요거트·과일+견과처럼 단백질·섬유가 있는 걸로 고르고, 졸림·지루함인지는 물 한 잔으로 확인해요.",
+     "ab_question": "오후 3시 당신의 손은? A 과자 바구니 / B 물 한 잔 먼저",
+     "safety_note": "",
+     "search_keyword": "오후 간식 당길 때",
+     "app_action": "간식도 사진으로 식사 기록"
+    },
+    "en": {
+     "title": "3:30 p.m. office snacks",
+     "hook": "3:30 p.m., 2 minutes standing at the office snack bin",
+     "hook_alternatives": [
+      "Is your hand reaching because you're hungry? HAVI's asking",
+      "That afternoon snack craving often starts on your lunch plate"
+     ],
+     "scene": "Wednesday, 3:30 p.m., sleepy and foggy after a meeting, standing in front of the office snack bin.",
+     "user_line": "My brain's fried. Just one bag of chips.",
+     "nag_gentle": "A snack is fine. Drink a glass of water, wait a bit, and if you're still hungry, then choose.",
+     "nag_spicy": "Water before the snack bin. If it's real hunger, go for yogurt or fruit.",
+     "tip": "First check whether lunch had enough protein and veggies. If you need a snack, pick one with protein and fiber, like yogurt or fruit with nuts. A glass of water helps tell hunger from sleepiness or boredom.",
+     "ab_question": "At 3 p.m. your hand goes to: A) the snack bin / B) a glass of water first",
+     "safety_note": "",
+     "search_keyword": "afternoon snack cravings",
+     "app_action": "Log snacks with a photo too"
+    }
+   }
+  },
+  {
+   "id": "nag-e16-sleepless-morning-cream-bun",
+   "series": "nag",
+   "episode": "E16",
+   "topic": "T10",
+   "priority": 5,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 9,
+   "weekday": "wed",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "밤샌 다음 날 크림빵",
+     "hook": "잠 못 잔 날 유난히 배고픈 건 기분 탓이 아니에요",
+     "hook_alternatives": [
+      "새벽 3시에 잔 사람이 오전 10시에 보는 것",
+      "크림빵 집기 전에 하비가 어젯밤 얘기를 꺼냈어요"
+     ],
+     "scene": "수요일 오전 10시, 새벽 3시에 잠들고 출근해 카페 진열대의 크림빵에 눈이 감.",
+     "user_line": "잠을 못 잤더니 단 게 너무 당겨.",
+     "nag_gentle": "오늘은 평소보다 배고플 수 있는 날이에요. 그걸 알고만 있어도 달라요.",
+     "nag_spicy": "크림빵 대신 요거트나 달걀이요. 늦은 오후 커피는 쉬고, 오늘 밤은 일찍 자요.",
+     "tip": "잠이 부족하면 식욕이 늘기 쉬워요. 단백질·섬유 있는 간식을 준비하고, 오후 늦은 카페인은 피해서 오늘 밤 잠을 지켜요.",
+     "ab_question": "잠 못 잔 다음 날 당신은? A 단 게 당긴다 / B 별 차이 없다",
+     "safety_note": "",
+     "search_keyword": "잠 못 잔 날 식욕",
+     "app_action": "수면 기록 / 간식 사진 식사 기록"
+    },
+    "en": {
+     "title": "Short-sleep morning pastry",
+     "hook": "Feeling extra hungry after a bad night's sleep isn't just in your head",
+     "hook_alternatives": [
+      "What someone who fell asleep at 3 a.m. stares at by 10 a.m.",
+      "Before you grab that cream pastry, HAVI brought up last night"
+     ],
+     "scene": "Wednesday, 10 a.m., after falling asleep at 3 a.m., eyes locked on a cream-filled pastry at the café counter.",
+     "user_line": "I barely slept and I'm craving sugar like crazy.",
+     "nag_gentle": "Today might be a hungrier day than usual. Just knowing that makes a difference.",
+     "nag_spicy": "Yogurt or eggs instead of the pastry. Skip coffee late in the afternoon, and get to bed early tonight.",
+     "tip": "When you're short on sleep, appetite tends to go up. Have a snack with protein and fiber ready, and skip late-afternoon caffeine to protect tonight's sleep.",
+     "ab_question": "After a bad night's sleep, you: A) crave sweets / B) feel about the same",
+     "safety_note": "",
+     "search_keyword": "lack of sleep increases appetite",
+     "app_action": "Log your sleep / photo-log your snacks"
+    }
+   }
+  },
+  {
+   "id": "nag-e19-monday-commute-weekend-reset",
+   "series": "nag",
+   "episode": "E19",
+   "topic": "T24",
+   "priority": 6,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 8,
+   "weekday": "mon",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "월요일 리셋",
+     "hook": "\"주말에 다 무너졌어\" — 하비가 바로 반박했어요",
+     "hook_alternatives": [
+      "월요일 8시, 주말 기억이 슬라이드쇼로 재생 중",
+      "한 주를 무너뜨리는 건 주말이 아니라 '어차피' 한마디예요"
+     ],
+     "scene": "월요일 아침 8시 출근길, 주말에 먹은 치킨·술·브런치가 머릿속에서 슬라이드쇼처럼 재생 중.",
+     "user_line": "주말에 다 무너졌어. 어차피 이번 주도 글렀어.",
+     "nag_gentle": "주말 하루가 한 주를 결정하지 않아요. 오늘 첫 끼부터 평소대로 해요.",
+     "nag_spicy": "'어차피'는 금지어예요. 첫 끼 단백질이랑 채소로 시작하면 그게 리셋이에요.",
+     "tip": "한 끼·하루가 전체를 망치지 않아요. 월요일 첫 끼를 단백질+채소로 \"리셋 신호\"로 쓰고, 주말 패턴 중 바꿀 것 딱 하나만 골라요.",
+     "ab_question": "주말 다음 월요일, 당신은? A '어차피' 모드 / B 첫 끼부터 리셋",
+     "safety_note": "",
+     "search_keyword": "주말 폭식 후 월요일",
+     "app_action": "월요일 첫 끼 사진 식사 기록 / 체중은 주간 추세로 보기"
+    },
+    "en": {
+     "title": "Monday reset",
+     "hook": "\"I blew it all weekend\" — HAVI pushed back right away",
+     "hook_alternatives": [
+      "Monday, 8 a.m., the weekend replaying like a slideshow",
+      "What wrecks a week isn't the weekend, it's the words \"what's the point\""
+     ],
+     "scene": "Monday, 8 a.m., on the commute, the weekend's fried chicken, drinks, and brunch replaying like a slideshow.",
+     "user_line": "I blew it all weekend. What's the point this week anyway?",
+     "nag_gentle": "One weekend doesn't decide your whole week. Start your first meal today like normal.",
+     "nag_spicy": "\"What's the point\" is off-limits. Start your first meal with protein and veggies, and that's your reset.",
+     "tip": "One meal or one day doesn't ruin everything. Use Monday's first meal of protein and veggies as a \"reset signal,\" and pick just one weekend habit to change.",
+     "ab_question": "The Monday after the weekend, you're in: A) \"what's the point\" mode / B) reset-at-first-meal mode",
+     "safety_note": "",
+     "search_keyword": "getting back on track after weekend",
+     "app_action": "Photo-log Monday's first meal / view weight as a weekly trend"
+    }
+   }
+  },
+  {
+   "id": "nag-e09-office-party-second-round-drinks",
+   "series": "nag",
+   "episode": "E09",
+   "topic": "T01",
+   "priority": 7,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 18,
+   "weekday": "fri",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "회식 2차 권유",
+     "hook": "2차 가도 돼요. 하비가 조건 하나만 걸었어요",
+     "hook_alternatives": [
+      "금요일 10시 10분, 2차 가자며 팔이 잡혔어요",
+      "2차에서 바꿀 수 있는 건 잔 하나예요"
+     ],
+     "scene": "금요일 밤 10시 10분, 삼겹살 1차가 끝나고 \"2차 가야지\" 하며 팔이 잡힌 순간.",
+     "user_line": "분위기상 2차는 빠질 수가 없잖아.",
+     "nag_gentle": "2차 같이 가요. 첫 잔 다음부터는 탄산수로 바꿔 볼래요?",
+     "nag_spicy": "가는 건 OK. 잔 옆에 물잔 하나, 안주는 마른안주나 과일이요.",
+     "tip": "술잔마다 물 한 잔을 같이 둬요. 2차는 참석하되 첫 잔 이후 무알코올·탄산수로 바꾸고, 다음 날 굶지 말고 평소 아침을 먹어요.",
+     "ab_question": "회식 2차, 당신은? A 끝까지 달린다 / B 첫 잔 이후 탄산수",
+     "safety_note": "",
+     "search_keyword": "회식 다이어트",
+     "app_action": "물 기록 / 다음 날 아침 평소대로 식사 기록"
+    },
+    "en": {
+     "title": "Second round after work drinks",
+     "hook": "Go to round 2. HAVI has just one condition",
+     "hook_alternatives": [
+      "Friday, 10:10 p.m., someone grabs your arm for round two",
+      "At round 2, the one thing you can change is your glass"
+     ],
+     "scene": "Friday, 10:10 p.m., round 1 of the team dinner just ended and a coworker grabs your arm: \"Round 2, let's go.\"",
+     "user_line": "I can't really bail on round two with this crowd.",
+     "nag_gentle": "Go to round 2 with them. After the first drink, want to switch to sparkling water?",
+     "nag_spicy": "Going is fine. Keep a glass of water next to your drink, and pick nuts or fruit for snacks.",
+     "tip": "Keep a glass of water with every drink. Join round 2, but switch to alcohol-free or sparkling water after the first one. Don't skip meals the next day; have your usual breakfast.",
+     "ab_question": "At round two, you: A) go all in / B) sparkling water after the first drink",
+     "safety_note": "",
+     "search_keyword": "drinking on a diet",
+     "app_action": "Log water / log your usual breakfast the next morning"
+    }
+   }
+  },
+  {
+   "id": "nag-e06-convenience-store-cup-noodle",
+   "series": "nag",
+   "episode": "E06",
+   "topic": "T15",
+   "priority": 8,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 11,
+   "weekday": "thu",
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "편의점 점심 1+1+1",
+     "hook": "편의점 한 끼, 공식은 1+1+1이에요",
+     "hook_alternatives": [
+      "점심 12시 20분, 편의점에서 컵라면 하나 든 손",
+      "계산대 가기 전에 하비가 장바구니에 한 칸 더 넣었어요"
+     ],
+     "scene": "목요일 점심 12시 20분, 편의점 냉장고 앞에서 컵라면 하나만 손에 든 채.",
+     "user_line": "바쁘니까 오늘 점심은 컵라면 하나로 끝.",
+     "nag_gentle": "컵라면 좋아요. 옆에 단백질 하나, 채소나 과일 하나만 같이 담아요.",
+     "nag_spicy": "국물 다 마시기 금지예요. 계란 하나랑 과일 하나 들고 계산대로요.",
+     "tip": "주식 1 + 단백질 1(달걀·두부 등) + 채소나 과일 1로 조합해요. 컵라면 국물은 다 마시지 않고, 영양성분표에서 1회 제공량과 총 내용량을 같이 봐요.",
+     "ab_question": "편의점 점심, 당신은? A 컵라면 하나 / B 1+1+1 조합",
+     "safety_note": "",
+     "search_keyword": "편의점 다이어트 조합",
+     "app_action": "편의점 한 끼 사진 식사 기록"
+    },
+    "en": {
+     "title": "Convenience store lunch 1+1+1",
+     "hook": "A convenience store meal has a formula: 1+1+1",
+     "hook_alternatives": [
+      "12:20 p.m., at the convenience store with just a cup of noodles",
+      "Before checkout, HAVI added one more thing to your basket"
+     ],
+     "scene": "Thursday, 12:20 p.m., at the convenience store cooler holding a single cup of instant noodles.",
+     "user_line": "I'm slammed. Lunch is just this cup of noodles.",
+     "nag_gentle": "Cup noodles are fine. Just add one protein and one veggie or fruit.",
+     "nag_spicy": "Don't drink all the broth. Grab an egg and a piece of fruit, then head to checkout.",
+     "tip": "Build it as 1 main + 1 protein (eggs, tofu, etc.) + 1 veggie or fruit. Don't finish the noodle broth, and check both the serving size and the total package amount on the nutrition label.",
+     "ab_question": "Your convenience store lunch: A) just the noodles / B) the 1+1+1 combo",
+     "safety_note": "",
+     "search_keyword": "healthy convenience store lunch",
+     "app_action": "Photo-log your convenience store meal"
+    }
+   }
+  },
+  {
+   "id": "nag-e01-morning-bathroom-scale",
+   "series": "nag",
+   "episode": "E01",
+   "topic": "T16",
+   "priority": 9,
+   "clinical_review": false,
+   "risk": true,
+   "local_hour": 7,
+   "weekday": "mon",
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "체중계 피해 가는 아침",
+     "hook": "체중계를 피한 날이 더 신경 쓰이는 이유",
+     "hook_alternatives": [
+      "월요일 아침 7시 10분, 체중계를 발끝으로 피해 가는 중",
+      "…그 체중계, 하비가 봤어요"
+     ],
+     "scene": "월요일 아침 7시 10분, 화장실 앞 체중계를 발끝으로 피해 세면대로 가는 중.",
+     "user_line": "어젯밤 치킨 생각나서 오늘은 안 잴래.",
+     "nag_gentle": "안 재도 괜찮아요. 다만 재면 숫자는 성적표가 아니라 관찰 기록이에요.",
+     "nag_spicy": "올라가서 숫자만 남기고 바로 내려와요. 해석은 주말에 같이 해요.",
+     "tip": "같은 조건(기상 직후, 화장실 다녀온 뒤)으로 재고, 하루 숫자 대신 7일 평균을 봐요. 불안이 커지면 재는 횟수를 줄이거나 쉬어도 돼요.",
+     "ab_question": "체중계, 당신은? A 매일 아침 잰다 / B 무서워서 피한다",
+     "safety_note": "숫자 때문에 불안이 커지면 재는 횟수를 줄이거나 쉬어도 괜찮아요.",
+     "search_keyword": "체중계 스트레스",
+     "app_action": "체중 기록 → 체중 그래프에서 추세 보기"
+    },
+    "en": {
+     "title": "Dodging the scale",
+     "hook": "Why skipping the scale makes you think about it more",
+     "hook_alternatives": [
+      "Monday, 7:10 a.m., tiptoeing around the bathroom scale",
+      "…HAVI saw you dodge that scale"
+     ],
+     "scene": "Monday, 7:10 a.m., tiptoeing past the bathroom scale straight to the sink.",
+     "user_line": "Still thinking about last night's fried chicken, so I'm not weighing in today.",
+     "nag_gentle": "It's okay not to weigh in. But if you do, the number is an observation, not a grade.",
+     "nag_spicy": "Step on, log the number, step off. We'll make sense of it together this weekend.",
+     "tip": "Weigh in under the same conditions (right after waking, after the bathroom) and look at your 7-day average, not a single day. If it's making you anxious, weigh in less often or take a break.",
+     "ab_question": "You and the scale: A) every morning / B) avoiding it for now",
+     "safety_note": "If the number is making you anxious, it's fine to weigh in less often or take a break.",
+     "search_keyword": "scale anxiety",
+     "app_action": "Log your weight → check the trend on your weight graph"
+    }
+   }
+  },
+  {
+   "id": "nag-e07-commute-convenience-store-stress",
+   "series": "nag",
+   "episode": "E07",
+   "topic": "T23",
+   "priority": 10,
+   "clinical_review": false,
+   "risk": true,
+   "local_hour": 19,
+   "weekday": "tue",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "스트레스 받은 퇴근길",
+     "hook": "\"오늘은 그냥 먹을래\" — 하비가 10초만 달라고 했어요",
+     "hook_alternatives": [
+      "퇴근길 7시 20분, 편의점 불빛이 유난히 밝은 날",
+      "배가 고픈 게 아니라 하루가 고팠던 날"
+     ],
+     "scene": "화요일 저녁 7시 20분, 상사한테 한 소리 듣고 퇴근하는 길, 집 앞 편의점 불빛이 유난히 밝음.",
+     "user_line": "오늘은 그냥 먹을래. 아무것도 생각하기 싫어.",
+     "nag_gentle": "오늘 힘들었죠. 들어가기 전에 10초만요. 몸이 배고픈 건지, 마음이 힘든 건지.",
+     "nag_spicy": "먹어도 돼요. 대신 그릇에 담아서 앉아서, 맛을 느끼면서요.",
+     "tip": "먹기 전 10초 체크를 해요. 통화·샤워·산책·음악 같은 대체 행동 목록을 미리 만들고, 퇴근길 편의점 동선을 바꾸기만 해도 충동 노출이 줄어요.",
+     "ab_question": "힘든 날 당신의 회복법은? A 맛있는 거 먹기 / B 산책이나 샤워",
+     "safety_note": "우울·불안이 계속되면 전문가 상담을 받아 봐요.",
+     "search_keyword": "스트레스 폭식 멈추는 법",
+     "app_action": "코치 채팅에 \"오늘 힘들었어\"라고 말 걸기 / 한 정거장 돌아 걷고 걸음 확인"
+    },
+    "en": {
+     "title": "Stressful commute home",
+     "hook": "\"I'm just going to eat tonight\" — HAVI asked for 10 seconds",
+     "hook_alternatives": [
+      "7:20 p.m. on the way home, the convenience store lights look extra bright",
+      "Not hungry for food, just worn out from the day"
+     ],
+     "scene": "Tuesday, 7:20 p.m., heading home after getting chewed out by the boss, and the corner store lights look extra bright.",
+     "user_line": "I'm just going to eat tonight. I don't want to think about anything.",
+     "nag_gentle": "Rough day, huh. Before you go in, give me 10 seconds. Is your body hungry, or is your heart tired?",
+     "nag_spicy": "You can eat. Just put it in a bowl, sit down, and actually taste it.",
+     "tip": "Do a 10-second check before eating. Make a list of go-to alternatives ahead of time, like calling someone, a shower, a walk, or music. Even changing your route home past the store cuts down on impulse moments.",
+     "ab_question": "Your way to recover after a hard day: A) something tasty / B) a walk or a shower",
+     "safety_note": "If low mood or anxiety keeps going, talk to a professional.",
+     "search_keyword": "stress eating after work",
+     "app_action": "Tell the coach chat \"today was hard\" / walk one extra stop and check your steps"
+    }
+   }
+  },
+  {
+   "id": "nag-e08-subway-gym-bag-skip",
+   "series": "nag",
+   "episode": "E08",
+   "topic": "T19",
+   "priority": 11,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 18,
+   "weekday": "wed",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "운동 가기 싫은 퇴근길",
+     "hook": "\"오늘은 패스할까\" — 하비가 한 정거장만 협상했어요",
+     "hook_alternatives": [
+      "헬스 가방 메고 집 방향 지하철 탄 사람",
+      "운동을 안 간 날에도 할 수 있는 게 남아 있어요"
+     ],
+     "scene": "수요일 저녁 6시 40분, 헬스장 가방을 멘 채 집 방향 지하철 안.",
+     "user_line": "오늘은 너무 피곤해. 헬스 패스할까.",
+     "nag_gentle": "오늘 헬스장이 무리면, 한 정거장 먼저 내려서 걸어가는 걸로 해요.",
+     "nag_spicy": "가방 들었으면 반은 온 거예요. 오늘 못 가면 한 정거장 걷기라도 꼭이요.",
+     "tip": "목표는 남의 숫자가 아니라 \"지난주 내 평균보다 조금 더\"예요. 걷기를 기존 일과에 붙여요(한 정거장 먼저 내리기, 점심 후 10분).",
+     "ab_question": "운동 가기 싫은 날 당신은? A 그냥 집으로 / B 한 정거장이라도 걷기",
+     "safety_note": "",
+     "search_keyword": "운동 가기 싫을 때",
+     "app_action": "걸음 확인(지난주 평균과 비교)"
+    },
+    "en": {
+     "title": "Skipping the gym after work",
+     "hook": "\"Maybe I'll skip today\" — HAVI negotiated just one stop",
+     "hook_alternatives": [
+      "Gym bag on the shoulder, riding the train toward home",
+      "Even on a no-gym day, there's still something you can do"
+     ],
+     "scene": "Wednesday, 6:40 p.m., on the train headed home with a gym bag on the shoulder.",
+     "user_line": "I'm so tired today. Maybe I'll skip the gym.",
+     "nag_gentle": "If the gym is too much today, get off one stop early and walk the rest.",
+     "nag_spicy": "You packed the bag, so you're halfway there. If you can't make it, at least walk that one stop.",
+     "tip": "Your goal isn't someone else's number, it's \"a little more than my own average last week.\" Attach walking to things you already do (get off one stop early, 10 minutes after lunch).",
+     "ab_question": "On a no-gym day, you: A) head straight home / B) walk at least one stop",
+     "safety_note": "",
+     "search_keyword": "no motivation to work out",
+     "app_action": "Check your steps (compare with last week's average)"
+    }
+   }
+  },
+  {
+   "id": "nag-e10-korean-bbq-grill-lettuce",
+   "series": "nag",
+   "episode": "E10",
+   "topic": "T01",
+   "priority": 12,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 18,
+   "weekday": "thu",
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "삼겹살 첫 판 직전",
+     "hook": "불판 달궈지는 3분, 이 시간이 제일 중요해요",
+     "hook_alternatives": [
+      "고기 올리기 전에 하비가 쌈채소 바구니를 끌어왔어요",
+      "회식 순서만 바꿔도 마지막 볶음밥이 달라져요"
+     ],
+     "scene": "목요일 저녁 7시 반, 회식 자리에서 불판이 달궈지는 중이고 쌈채소 바구니는 테이블 구석에.",
+     "user_line": "고기 나오기 전에 배고파 죽겠다.",
+     "nag_gentle": "고기 기다리는 동안 쌈채소랑 버섯부터 한 접시 어때요?",
+     "nag_spicy": "첫 젓가락은 채소예요. 마지막 볶음밥은 반만 덜어요.",
+     "tip": "고기 굽기 전에 쌈채소·버섯·양파부터 한 접시 먹어요. 마무리 볶음밥·냉면은 반 공기로 나누거나 넘겨요.",
+     "ab_question": "고깃집 첫 젓가락은? A 고기 / B 쌈채소",
+     "safety_note": "",
+     "search_keyword": "고깃집 다이어트",
+     "app_action": "회식 사진 식사 기록"
+    },
+    "en": {
+     "title": "Before the first round on the grill",
+     "hook": "The 3 minutes while the grill heats up matter most",
+     "hook_alternatives": [
+      "Before the meat hits the grill, HAVI pulled the veggie basket closer",
+      "Change the order and the end-of-meal fried rice changes too"
+     ],
+     "scene": "Thursday, 7:30 p.m., at a team dinner at a tabletop grill place, the grill heating up and the lettuce basket pushed to the corner.",
+     "user_line": "I'm starving and the meat isn't even on yet.",
+     "nag_gentle": "While you wait for the meat, how about a plate of lettuce and mushrooms first?",
+     "nag_spicy": "First bite is veggies. For the fried rice at the end, take half.",
+     "tip": "Before the meat goes on, have a plate of lettuce, mushrooms, and onions. For the rice or noodles at the end, split a half portion or pass.",
+     "ab_question": "Your first bite at a BBQ place: A) meat / B) veggies",
+     "safety_note": "",
+     "search_keyword": "eating out at Korean BBQ on a diet",
+     "app_action": "Photo-log the team dinner"
+    }
+   }
+  },
+  {
+   "id": "nag-e11-fried-chicken-beer-box",
+   "series": "nag",
+   "episode": "E11",
+   "topic": "T02",
+   "priority": 13,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 17,
+   "weekday": "sat",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "치맥 공용 박스",
+     "hook": "치맥 자리, 하비가 접시 하나만 챙기라고 했어요",
+     "hook_alternatives": [
+      "치킨 박스가 가운데 있으면 손이 몇 번 가는지 세 봤어요?",
+      "치킨을 줄이는 게 아니라 박스와 거리 두기예요"
+     ],
+     "scene": "토요일 저녁 8시, 친구 집 테이블 가운데 치킨 두 마리 박스가 열려 있음.",
+     "user_line": "얘기하다 보면 손이 계속 박스로 가.",
+     "nag_gentle": "즐기는 자리니까 맘껏 웃어요. 내 접시에 덜어서 먹는 것만요.",
+     "nag_spicy": "박스에서 바로 집기 그만이요. 접시에 덜고, 사이사이 치킨무요.",
+     "tip": "한 마리는 구운 치킨처럼 덜 튀긴 메뉴로 섞어 주문해요. 내 접시에 덜어 두고 공용 박스에서 바로 집지 않고, 무·샐러드를 사이사이 먹어 속도를 늦춰요.",
+     "ab_question": "치맥 자리, 당신은? A 박스에서 바로 / B 내 접시에 덜어서",
+     "safety_note": "",
+     "search_keyword": "치킨 다이어트",
+     "app_action": "덜어 둔 접시로 사진 식사 기록"
+    },
+    "en": {
+     "title": "Wings and beer, shared box",
+     "hook": "Wings-and-beer night: HAVI just asked you to grab a plate",
+     "hook_alternatives": [
+      "Ever counted how many times your hand goes back to the shared box?",
+      "It's not about less chicken. It's about distance from the box"
+     ],
+     "scene": "Saturday, 8 p.m., at a friend's place with two boxes of fried chicken open in the middle of the table.",
+     "user_line": "Every time we talk, my hand drifts back to the box.",
+     "nag_gentle": "It's a fun night, so laugh all you want. Just put your share on your own plate.",
+     "nag_spicy": "Stop eating straight from the box. Plate it, and have some pickles or salad in between.",
+     "tip": "Order one of the boxes as a less-fried option like roasted chicken. Put your share on your own plate instead of grabbing from the shared box, and eat pickled radish or salad in between to slow down.",
+     "ab_question": "At wings night, you: A) eat from the box / B) use your own plate",
+     "safety_note": "",
+     "search_keyword": "fried chicken night diet tips",
+     "app_action": "Photo-log the plate you portioned out"
+    }
+   }
+  },
+  {
+   "id": "nag-e12-wedding-buffet-empty-plate",
+   "series": "nag",
+   "episode": "E12",
+   "topic": "T03",
+   "priority": 14,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 10,
+   "weekday": "sat",
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "결혼식 뷔페 입구",
+     "hook": "접시 채우기 전에 하비가 한 바퀴만 돌자고 했어요",
+     "hook_alternatives": [
+      "뷔페 입구에서 빈 접시 들고 1초 정지",
+      "뷔페는 본전 말고 순서예요"
+     ],
+     "scene": "토요일 낮 12시 반, 예식이 끝나고 빈 접시를 든 채 뷔페 입구에서 초밥 코너로 가기 직전.",
+     "user_line": "축의금 냈으니 본전은 뽑아야지.",
+     "nag_gentle": "축하하러 왔으니 맛있게 먹어요. 접시 들기 전에 한 바퀴만 돌아봐요.",
+     "nag_spicy": "접시부터 들지 마요. 한 바퀴 돌고, 먹고 싶은 것 2~3개만 골라요.",
+     "tip": "전체 코너를 먼저 돌고 먹고 싶은 것 2~3가지를 골라요. 첫 접시는 샐러드·회·구운 단백질 위주로 하고, 접시를 비우면 대화하며 쉬면서 배부름을 확인해요.",
+     "ab_question": "뷔페에서 당신은? A 일단 담고 본다 / B 한 바퀴 먼저",
+     "safety_note": "",
+     "search_keyword": "뷔페 다이어트",
+     "app_action": "첫 접시 사진 식사 기록"
+    },
+    "en": {
+     "title": "Wedding buffet entrance",
+     "hook": "Before filling your plate, HAVI asked for one lap first",
+     "hook_alternatives": [
+      "Frozen for a second at the buffet entrance, empty plate in hand",
+      "At a buffet, it's not about getting your money's worth. It's about the order"
+     ],
+     "scene": "Saturday, 12:30 p.m., the ceremony's over and you're at the buffet entrance with an empty plate, about to rush to the sushi station.",
+     "user_line": "I brought a gift, so I'm getting my money's worth.",
+     "nag_gentle": "You came to celebrate, so enjoy the food. Before grabbing a plate, take one lap around.",
+     "nag_spicy": "Don't grab a plate yet. Take a lap, then pick just 2–3 things you really want.",
+     "tip": "Walk the whole buffet first and pick 2–3 things you really want. Make the first plate mostly salad, fish, or grilled protein, and once it's empty, chat and rest a bit to check how full you are.",
+     "ab_question": "At a buffet, you: A) load up first / B) take a lap first",
+     "safety_note": "",
+     "search_keyword": "buffet eating strategy",
+     "app_action": "Photo-log your first plate"
+    }
+   }
+  },
+  {
+   "id": "nag-e13-fasting-coworker-bread-offer",
+   "series": "nag",
+   "episode": "E13",
+   "topic": "T11",
+   "priority": 15,
+   "clinical_review": true,
+   "risk": true,
+   "local_hour": 10,
+   "weekday": "tue",
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "단식 중 동료의 빵",
+     "hook": "단식 중에 빵 받았을 때, 하비 답은 의외였어요",
+     "hook_alternatives": [
+      "오전 10시 반, 동료 손에 들린 빵 한 봉지",
+      "단식보다 중요한 게 첫 끼에 있어요"
+     ],
+     "scene": "화요일 오전 10시 반, 아침을 거르고 시간제한 식사 중인데 동료가 \"빵 하나 드세요\" 하며 봉지를 내밂.",
+     "user_line": "지금 먹으면 단식 깨지는 건데… 받아야 하나.",
+     "nag_gentle": "받아 둬도 돼요. 먹는 시간이 되면 첫 끼는 단백질이랑 채소부터 시작해요.",
+     "nag_spicy": "지금은 물 한 잔이요. 어지럽거나 힘들면 무리하지 말고 먹어도 돼요.",
+     "tip": "단식은 적게 먹는 방법 중 하나일 뿐, 먹는 시간에 무엇을 먹느냐가 더 중요해요. 공복에도 물은 충분히 마시고, 어지러움·폭식 충동이 반복되면 중단하고 다른 방법을 찾아요.",
+     "ab_question": "동료가 빵을 건네면? A 받아 두고 나중에 / B 지금 같이 먹는다",
+     "safety_note": "당뇨 등 약을 먹거나 임신·수유 중이면 단식 전에 전문가와 상의해요.",
+     "search_keyword": "간헐적 단식 중 배고플 때",
+     "app_action": "단식 기록 / 첫 끼 사진 식사 기록"
+    },
+    "en": {
+     "title": "Fasting, coworker offers bread",
+     "hook": "When a coworker offered bread mid-fast, HAVI's answer was surprising",
+     "hook_alternatives": [
+      "10:30 a.m., a coworker holding out a bag of pastries",
+      "What matters more than the fast is your first meal"
+     ],
+     "scene": "Tuesday, 10:30 a.m., skipping breakfast on a time-restricted eating schedule when a coworker holds out a pastry: \"Want one?\"",
+     "user_line": "If I eat now I'll break my fast… should I take it?",
+     "nag_gentle": "It's fine to take it and save it. When your eating window opens, start your first meal with protein and veggies.",
+     "nag_spicy": "For now, a glass of water. If you feel dizzy or unwell, don't push it. It's okay to eat.",
+     "tip": "Fasting is just one way to eat less; what you eat during your eating window matters more. Drink plenty of water while fasting, and if dizziness or urges to binge keep coming back, stop and try a different approach.",
+     "ab_question": "When a coworker offers a pastry, you: A) save it for later / B) eat it with them now",
+     "safety_note": "If you have a condition such as diabetes, or are pregnant or breastfeeding, talk to a professional before fasting.",
+     "search_keyword": "intermittent fasting hunger",
+     "app_action": "Log your fast / photo-log your first meal"
+    }
+   }
+  },
+  {
+   "id": "nag-e14-post-fast-convenience-store-meal",
+   "series": "nag",
+   "episode": "E14",
+   "topic": "T11",
+   "priority": 16,
+   "clinical_review": true,
+   "risk": true,
+   "local_hour": 11,
+   "weekday": "thu",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "단식 끝난 첫 끼",
+     "hook": "단식 끝난 첫 끼, 하비가 순서만 정해 줬어요",
+     "hook_alternatives": [
+      "공복이 끝난 12시 정각, 머릿속 장바구니가 꽉 찼어요",
+      "단식이 무너지는 건 공복보다 첫 끼에서예요"
+     ],
+     "scene": "목요일 낮 12시 정각, 공복 시간이 끝난 순간 편의점 앞에서 빵·라면·과자가 머릿속에 한꺼번에 떠오름.",
+     "user_line": "드디어 끝났다. 다 먹고 싶어.",
+     "nag_gentle": "수고했어요. 첫 끼는 단백질이랑 채소부터 천천히 시작해요.",
+     "nag_spicy": "한꺼번에 다 사지 말고, 첫 접시만 고르고 앉아서 먹어요.",
+     "tip": "먹는 시간의 첫 끼는 단백질+채소로 시작해 몰아먹기를 막아요. 편의점이면 주식 1 + 단백질 1 + 채소 1로 골라요.",
+     "ab_question": "단식 끝난 첫 끼, 당신은? A 먹고 싶던 거 전부 / B 단백질·채소부터",
+     "safety_note": "당뇨 등 약을 먹거나 임신·수유 중이면 단식 전에 전문가와 상의해요.",
+     "search_keyword": "단식 후 첫 끼 메뉴",
+     "app_action": "단식 기록 종료 → 첫 끼 사진 식사 기록"
+    },
+    "en": {
+     "title": "First meal after a fast",
+     "hook": "First meal after your fast: HAVI just set the order",
+     "hook_alternatives": [
+      "Noon on the dot, fast over, and your mental shopping cart is overflowing",
+      "Fasts usually fall apart at the first meal, not during the fast"
+     ],
+     "scene": "Thursday, 12 p.m. on the dot, the fast just ended and you're outside a convenience store picturing pastries, noodles, and chips all at once.",
+     "user_line": "Finally done. I want to eat everything.",
+     "nag_gentle": "Nice work. Start your first meal slowly, with protein and veggies.",
+     "nag_spicy": "Don't buy everything at once. Pick just your first plate and sit down to eat it.",
+     "tip": "Start your first meal of the eating window with protein and veggies to head off overeating. At a convenience store, go with 1 main + 1 protein + 1 veggie.",
+     "ab_question": "Your first meal after a fast: A) everything I was craving / B) protein and veggies first",
+     "safety_note": "If you have a condition such as diabetes, or are pregnant or breastfeeding, talk to a professional before fasting.",
+     "search_keyword": "what to eat after fasting",
+     "app_action": "End your fast log → photo-log your first meal"
+    }
+   }
+  },
+  {
+   "id": "nag-e15-weight-plateau-late-night-search",
+   "series": "nag",
+   "episode": "E15",
+   "topic": "T22",
+   "priority": 17,
+   "clinical_review": false,
+   "risk": true,
+   "local_hour": 21,
+   "weekday": "sun",
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "정체기 3주차",
+     "hook": "\"더 굶어야 하나\" 치려던 순간 하비가 말렸어요",
+     "hook_alternatives": [
+      "3주째 같은 숫자, 밤 10시에 검색창 여는 중",
+      "정체기는 실패가 아니라 단계라는 근거가 있어요"
+     ],
+     "scene": "일요일 밤 10시, 침대에서 \"정체기 뚫는 법\"을 검색 중이고 체중 그래프는 3주째 수평.",
+     "user_line": "3주째 그대로야. 더 줄여야 하나.",
+     "nag_gentle": "여기까지 온 거예요. 줄이기 전에 기록부터 일주일만 꼼꼼히 봐요.",
+     "nag_spicy": "더 굶는 건 답이 아니에요. 이번 주는 간식·음료까지 다 찍어 봐요.",
+     "tip": "감량할수록 필요한 에너지도 줄어드는 게 정상이에요. 기록이 느슨해졌는지 1주일만 꼼꼼히 확인하고, 허리둘레·옷 핏·체력도 같이 봐요. 섭취를 급격히 더 줄이지 않아요.",
+     "ab_question": "정체기에 당신은? A 더 줄여 본다 / B 기록부터 점검",
+     "safety_note": "섭취를 더 줄이라는 메시지로 읽히지 않게, 칼로리·감량 속도 수치는 쓰지 않아요.",
+     "search_keyword": "다이어트 정체기 극복",
+     "app_action": "체중 그래프 추세 / 1주일 사진 식사 기록 / 코치 채팅에 정체기 상담"
+    },
+    "en": {
+     "title": "Weight plateau, week 3",
+     "hook": "Just as you were about to search \"should I eat even less,\" HAVI stepped in",
+     "hook_alternatives": [
+      "Same number for 3 weeks, opening the search bar at 10 p.m.",
+      "There's evidence a plateau is a stage, not a failure"
+     ],
+     "scene": "Sunday, 10 p.m., in bed searching \"how to break a weight loss plateau,\" weight graph flat for 3 weeks.",
+     "user_line": "Same number for 3 weeks. Should I cut back even more?",
+     "nag_gentle": "Look how far you've come. Before cutting anything, take a careful look at your logs for just one week.",
+     "nag_spicy": "Eating less isn't the answer. This week, snap everything, snacks and drinks included.",
+     "tip": "As you lose weight, your body needs less energy, and that's normal. Spend 1 week checking whether your logging got loose, and look at your waist, how clothes fit, and your energy too. Don't sharply cut back further.",
+     "ab_question": "On a plateau, you: A) cut back more / B) check my logs first",
+     "safety_note": "Make sure this never reads as \"eat even less\"; no calorie or weight-loss-rate numbers.",
+     "search_keyword": "weight loss plateau",
+     "app_action": "Check your weight graph trend / photo-log meals for a week / talk through the plateau in the coach chat"
+    }
+   }
+  },
+  {
+   "id": "nag-e17-pms-chocolate-aisle",
+   "series": "nag",
+   "episode": "E17",
+   "topic": "T28",
+   "priority": 18,
+   "clinical_review": false,
+   "risk": true,
+   "local_hour": 20,
+   "weekday": "thu",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "생리 전 주 초콜릿",
+     "hook": "\"이번 주 왜 이래\" — 하비가 달력부터 보자고 했어요",
+     "hook_alternatives": [
+      "생리 전 주, 초콜릿 코너에서 발이 안 떨어질 때",
+      "이번 주 체중은 이번 주에 판단하지 않아요"
+     ],
+     "scene": "목요일 밤 9시, 생리 전 주에 편의점 초콜릿 코너 앞에서 발이 안 떨어지고, 이번 주 체중도 올라 있음.",
+     "user_line": "이번 주 왜 이래. 체중도 오르고 단 것만 생각나.",
+     "nag_gentle": "이번 주는 원래 식욕이 늘 수 있어요. 미리 정한 작은 초콜릿 하나면 충분해요.",
+     "nag_spicy": "큰 봉지 말고 작은 거 하나요. 체중은 다음 주에 같이 봐요.",
+     "tip": "주기 앱에 이 시기를 표시해 미리 대비해요. 단것이 당기면 과일·다크초콜릿 소량처럼 정해 둔 선택지를 고르고, 이 주의 체중 증가는 수분 영향일 수 있으니 판단하지 않아요.",
+     "ab_question": "생리 전 주 당신은? A 단 게 당긴다 / B 짠 게 당긴다",
+     "safety_note": "일상이 힘들 만큼 증상이 심하면 산부인과 상담을 받아 봐요.",
+     "search_keyword": "생리 전 식욕 폭발",
+     "app_action": "체중 기록(판단 없이 기록만) / 간식 사진 식사 기록"
+    },
+    "en": {
+     "title": "PMS week chocolate aisle",
+     "hook": "\"What is going on this week?\" HAVI suggested checking the calendar first",
+     "hook_alternatives": [
+      "The week before your period, stuck in the chocolate aisle",
+      "This week's weight doesn't get judged this week"
+     ],
+     "scene": "Thursday, 9 p.m., the week before your period, stuck in front of the chocolate aisle at the convenience store, and the scale is up this week too.",
+     "user_line": "What's going on this week? My weight's up and all I want is sweets.",
+     "nag_gentle": "Appetite can naturally go up this week. One small chocolate you picked in advance is plenty.",
+     "nag_spicy": "One small one, not the big bag. We'll look at your weight together next week.",
+     "tip": "Mark this time in your cycle app so you can plan ahead. When sweets call, go with a choice you set in advance, like fruit or a little dark chocolate. Weight gain this week may be water, so don't judge it.",
+     "ab_question": "The week before your period, you crave: A) sweet / B) salty",
+     "safety_note": "If symptoms are bad enough to disrupt daily life, see a gynecologist.",
+     "search_keyword": "PMS cravings",
+     "app_action": "Log your weight (just record it, no judging) / photo-log snacks"
+    }
+   }
+  },
+  {
+   "id": "nag-e18-sunday-brunch-waffle-menu",
+   "series": "nag",
+   "episode": "E18",
+   "topic": "T09",
+   "priority": 19,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 10,
+   "weekday": "sun",
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "일요일 늦잠 브런치",
+     "hook": "와플 시키려는데 하비가 한 줄 추가했어요",
+     "hook_alternatives": [
+      "일요일 오전 11시, 브런치 메뉴판 펼치는 중",
+      "주말 오후 군것질은 브런치 접시에서 시작돼요"
+     ],
+     "scene": "일요일 오전 11시, 늦잠 자고 간 브런치 카페에서 와플·팬케이크 메뉴판을 펼침.",
+     "user_line": "주말이니까 와플 하나 먹자.",
+     "nag_gentle": "와플 좋아요. 달걀이나 요거트 같은 단백질 하나만 같이 시켜요.",
+     "nag_spicy": "단백질 없는 브런치는 오후 과자 예약이에요. 달걀 추가요.",
+     "tip": "주말에도 기상 시간을 평일과 크게 벌리지 않아요. 브런치가 첫 끼면 단백질을 넣어 오후 군것질을 줄이고, 주말 하루는 걷기 약속을 잡아요.",
+     "ab_question": "주말 브런치, 당신은? A 와플·팬케이크 / B 달걀 들어간 메뉴",
+     "safety_note": "",
+     "search_keyword": "주말 다이어트 브런치",
+     "app_action": "브런치 사진 식사 기록 / 걸음"
+    },
+    "en": {
+     "title": "Sunday sleep-in brunch",
+     "hook": "Just as you ordered waffles, HAVI added one line",
+     "hook_alternatives": [
+      "Sunday, 11 a.m., opening the brunch menu",
+      "Weekend afternoon snacking starts on your brunch plate"
+     ],
+     "scene": "Sunday, 11 a.m., after sleeping in, opening the menu at a brunch café full of waffles and pancakes.",
+     "user_line": "It's the weekend. Waffles it is.",
+     "nag_gentle": "Waffles sound great. Just add one protein, like eggs or yogurt.",
+     "nag_spicy": "Brunch with no protein is a reservation for afternoon snacking. Add eggs.",
+     "tip": "Keep your weekend wake-up time close to your weekday one. If brunch is your first meal, add protein to cut down on afternoon snacking, and plan a walk on one weekend day.",
+     "ab_question": "Your weekend brunch: A) waffles or pancakes / B) something with eggs",
+     "safety_note": "",
+     "search_keyword": "healthy weekend brunch",
+     "app_action": "Photo-log brunch / check your steps"
+    }
+   }
+  },
+  {
+   "id": "nag-e20-morning-after-overeating-breakfast",
+   "series": "nag",
+   "episode": "E20",
+   "topic": "T21",
+   "priority": 20,
+   "clinical_review": true,
+   "risk": true,
+   "local_hour": 9,
+   "weekday": "sun",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "많이 먹은 다음 날 아침",
+     "hook": "\"오늘은 안 먹을래\" — 하비는 이번엔 잔소리 대신 이렇게 말했어요",
+     "hook_alternatives": [
+      "어젯밤 많이 먹고, 오늘 아침 굶기로 결심한 사람",
+      "다음 날 굶으면 오히려 반복된다는 연구 흐름이 있어요"
+     ],
+     "scene": "일요일 오전 9시, 어젯밤 많이 먹고 일어나 식탁 앞에서 오늘 하루를 어떻게 보낼지 생각 중.",
+     "user_line": "오늘은 아무것도 안 먹어야지.",
+     "nag_gentle": "누구나 그럴 수 있어요. 오늘은 평소처럼 아침 먹는 게 제일 좋은 복구예요.",
+     "nag_spicy": "어제는 어제예요. 오늘 할 일은 평소 아침 하나랑, 원인 한 줄 적기예요.",
+     "tip": "다음 날은 평소 패턴대로 먹어요. 방아쇠(배고픔·피로·감정·환경)를 한 줄만 적고, 자주 반복되거나 통제가 안 되는 느낌이면 전문가와 상담해요.",
+     "ab_question": "많이 먹은 다음 날, 도움이 되는 건? A 평소대로 아침 / B 하비와 어제 얘기",
+     "safety_note": "이런 일이 자주 반복된다면 정신건강의학과나 임상심리 전문가와 이야기해 봐요.",
+     "search_keyword": "폭식 다음 날",
+     "app_action": "평소 아침 사진 식사 기록 / 코치 채팅에 \"어제 이랬어\" 말하기"
+    },
+    "en": {
+     "title": "Morning after overeating",
+     "hook": "\"I'm not eating today\" — this time, HAVI said this instead of nagging",
+     "hook_alternatives": [
+      "Ate a lot last night, decided this morning to eat nothing today",
+      "Research suggests skipping meals the next day tends to keep the cycle going"
+     ],
+     "scene": "Sunday, 9 a.m., at the kitchen table after eating a lot last night, figuring out how to handle today.",
+     "user_line": "I'm not eating anything today.",
+     "nag_gentle": "It happens to everyone. Having your usual breakfast is the best way to recover today.",
+     "nag_spicy": "Yesterday was yesterday. Today's job: your usual breakfast, and one line about what set it off.",
+     "tip": "Eat your usual pattern the next day. Write down just one trigger (hunger, tiredness, feelings, surroundings), and if it happens often or feels out of control, talk to a professional.",
+     "ab_question": "The day after eating a lot, what helps more? A) a normal breakfast / B) talking it through with HAVI",
+     "safety_note": "If this keeps happening, talk to a psychiatrist or clinical psychologist.",
+     "search_keyword": "what to do after overeating",
+     "app_action": "Photo-log your usual breakfast / tell the coach chat what happened yesterday"
+    }
+   }
+  },
+  {
+   "id": "nag-e21-late-night-phone-feed-scroll",
+   "series": "nag",
+   "episode": "E21",
+   "topic": "T25",
+   "priority": 21,
+   "clinical_review": false,
+   "risk": true,
+   "local_hour": 23,
+   "weekday": "tue",
+   "cta": "send",
+   "langs": {
+    "ko": {
+     "title": "새벽 바디 사진 스크롤",
+     "hook": "스크롤 멈추라고, 하비가 뮤트 버튼부터 알려 줬어요",
+     "hook_alternatives": [
+      "새벽 1시, 남의 몸 사진을 한참째 넘기는 손",
+      "비교는 과거의 나랑만 하기로 해요"
+     ],
+     "scene": "화요일 새벽 1시, 불 끈 침대에서 SNS 피드를 계속 넘기는 중.",
+     "user_line": "다들 저렇게 사는데 나만 왜 이럴까.",
+     "nag_gentle": "그 피드가 마음을 무겁게 하면 뮤트해도 돼요. 비교는 지난달 나랑만 해요.",
+     "nag_spicy": "오늘 목표를 몸 말고 행동으로 바꿔 적어요. 걷기, 채소, 잠.",
+     "tip": "비교를 부르는 계정은 뮤트·숨기기 해요. 목표를 외모가 아닌 행동(걷기·채소·수면)으로 바꿔 적고, 내 과거 기록과만 비교해요.",
+     "ab_question": "비교가 될 때 당신은? A 계속 본다 / B 뮤트한다",
+     "safety_note": "이미지에 몸 사진·비포애프터·체형 평가를 쓰지 않아요.",
+     "search_keyword": "SNS 비교 다이어트 스트레스",
+     "app_action": "수면 기록 / 걸음 지난주와 비교"
+    },
+    "en": {
+     "title": "Late-night feed scrolling",
+     "hook": "To stop the scroll, HAVI pointed to the mute button first",
+     "hook_alternatives": [
+      "1 a.m., thumb flicking through other people's body pics",
+      "Let's only compare ourselves to our past selves"
+     ],
+     "scene": "Tuesday, 1 a.m., lights off in bed, scrolling a social feed on the phone.",
+     "user_line": "Everyone else has it together. Why can't I?",
+     "nag_gentle": "If that feed is weighing on you, it's okay to mute it. Only compare yourself to you last month.",
+     "nag_spicy": "Rewrite today's goal around actions, not your body. Walk, veggies, sleep.",
+     "tip": "Mute or hide accounts that set off comparison. Rewrite your goals around actions (walking, veggies, sleep) instead of looks, and only compare against your own past logs.",
+     "ab_question": "When comparison kicks in, you: A) keep scrolling / B) hit mute",
+     "safety_note": "No body photos, before-and-afters, or body judgments in the visuals.",
+     "search_keyword": "social media comparison body image",
+     "app_action": "Log your sleep / compare steps with last week"
+    }
+   }
+  },
+  {
+   "id": "nag-e22-late-night-overtime-soup-restaurant",
+   "series": "nag",
+   "episode": "E22",
+   "topic": "T06",
+   "priority": 22,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 18,
+   "weekday": "thu",
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "야근 후 첫 끼",
+     "hook": "야근 끝, 국밥 앞에서 하비가 내일 오후 6시 얘기를 했어요",
+     "hook_alternatives": [
+      "밤 9시 반, 오늘 첫 저녁을 고르는 사람",
+      "늦은 저녁을 바꾸는 건 저녁이 아니라 오후 6시예요"
+     ],
+     "scene": "목요일 밤 9시 반, 야근 끝나고 6시 이후 아무것도 못 먹은 채 국밥집 간판 앞.",
+     "user_line": "배고파 죽겠다. 아무거나 많이 먹고 싶어.",
+     "nag_gentle": "늦게까지 고생했어요. 오늘은 단백질이랑 채소 중심으로 가볍게 먹어요.",
+     "nag_spicy": "먹고 바로 눕기 금지예요. 씻고 정리하고 누워요. 다음 야근 날엔 6시에 우유 하나요.",
+     "tip": "퇴근이 늦을 것 같으면 오후 6~7시 무렵 우유·요거트·삶은 달걀 같은 작은 간식을 먹어 둬요. 늦은 저녁은 단백질+채소로 가볍게 먹고, 바로 눕지 않게 씻기를 식후에 해요.",
+     "ab_question": "야근하는 날 당신은? A 퇴근까지 버틴다 / B 6시쯤 간식",
+     "safety_note": "",
+     "search_keyword": "야근 저녁 메뉴",
+     "app_action": "늦은 저녁 사진 식사 기록"
+    },
+    "en": {
+     "title": "First meal after overtime",
+     "hook": "Done with overtime, HAVI brought up 6 p.m. tomorrow",
+     "hook_alternatives": [
+      "9:30 p.m., picking out today's first real dinner",
+      "Fixing a late dinner starts at 6 p.m., not at dinner"
+     ],
+     "scene": "Thursday, 9:30 p.m., finally off work after overtime with nothing eaten since 6, standing outside a late-night diner.",
+     "user_line": "I'm starving. I want to eat a ton of anything.",
+     "nag_gentle": "You worked late, nice job hanging in there. Tonight, keep it light with protein and veggies.",
+     "nag_spicy": "No lying down right after eating. Wash up, tidy up, then bed. Next late night, a milk at 6.",
+     "tip": "If you know you'll get off late, have a small snack around 6–7 p.m., like milk, yogurt, or a boiled egg. Keep a late dinner light with protein and veggies, and wash up after eating so you don't lie down right away.",
+     "ab_question": "On a late-work day, you: A) hold out until I'm off / B) snack around 6",
+     "safety_note": "",
+     "search_keyword": "late dinner after work",
+     "app_action": "Photo-log your late dinner"
+    }
+   }
+  },
+  {
+   "id": "nag-e23-rainy-day-low-steps-umbrella",
+   "series": "nag",
+   "episode": "E23",
+   "topic": "T19",
+   "priority": 23,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 19,
+   "weekday": "tue",
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "비 오는 날 걸음",
+     "hook": "\"비 와서 못 걸었어\" — 하비가 실내 메뉴를 꺼냈어요",
+     "hook_alternatives": [
+      "비 오는 화요일 밤 8시, 걸음 숫자가 유난히 조용해요",
+      "비 오는 날 걷는 법은 비 오기 전에 정해 둬요"
+     ],
+     "scene": "화요일 밤 8시, 비 때문에 하루 종일 실내에 있었고 걸음 기록이 평소보다 한참 낮음.",
+     "user_line": "비 와서 오늘은 못 걸었어.",
+     "nag_gentle": "비 오는 날은 그럴 수 있어요. 계단 몇 층이나 집 안 걷기로 조금만 채워요.",
+     "nag_spicy": "우산 핑계는 오늘까지만요. 다음 비 오는 날 메뉴, 지금 하나 정해요.",
+     "tip": "비 오는 날 대안(실내 계단·홈 워킹·쇼핑몰 걷기)을 미리 정해 둬요. 목표는 지난주 내 평균보다 조금 더예요.",
+     "ab_question": "비 오는 날 당신의 걷기는? A 쉬는 날 / B 실내에서 조금이라도",
+     "safety_note": "",
+     "search_keyword": "비 오는 날 실내 운동",
+     "app_action": "걸음 확인"
+    },
+    "en": {
+     "title": "Rainy day, low steps",
+     "hook": "\"It rained, so I couldn't walk\" — HAVI pulled out the indoor menu",
+     "hook_alternatives": [
+      "Rainy Tuesday, 8 p.m., your step count is unusually quiet",
+      "Decide how you'll walk on rainy days before it rains"
+     ],
+     "scene": "Tuesday, 8 p.m., stuck indoors all day because of rain, step count way lower than usual.",
+     "user_line": "It rained, so no walking today.",
+     "nag_gentle": "Rainy days happen. Fill in a little with a few flights of stairs or walking around at home.",
+     "nag_spicy": "The umbrella excuse ends today. Pick one rainy-day option right now for next time.",
+     "tip": "Plan rainy-day options ahead of time (indoor stairs, walking at home, walking at the mall). The goal is a little more than your own average last week.",
+     "ab_question": "Your rainy-day walking: A) rest day / B) a little indoors",
+     "safety_note": "",
+     "search_keyword": "indoor walking rainy day",
+     "app_action": "Check your steps"
+    }
+   }
+  },
+  {
+   "id": "nag-e24-sunday-night-weekly-calendar",
+   "series": "nag",
+   "episode": "E24",
+   "topic": "T20",
+   "priority": 24,
+   "clinical_review": false,
+   "risk": false,
+   "local_hour": 20,
+   "weekday": "sun",
+   "cta": "save",
+   "langs": {
+    "ko": {
+     "title": "일요일 밤 다음 주 계획",
+     "hook": "하비가 일요일 밤에 5분만 달라고 했어요",
+     "hook_alternatives": [
+      "일요일 밤 9시, 다음 주 달력에 회식이 두 개",
+      "반성문 말고 다음 주 계획 한 줄"
+     ],
+     "scene": "일요일 밤 9시, 소파에서 본 다음 주 달력에 회식 2개와 야근 1개가 이미 잡혀 있음.",
+     "user_line": "다음 주도 회식에 야근이네. 벌써 막막해.",
+     "nag_gentle": "이번 주 잘된 거 하나만 말해 줘요. 걸림돌은 하나만 같이 봐요.",
+     "nag_spicy": "반성 말고 계획이요. '회식 있으면 → 채소부터' 한 줄 적고 자요.",
+     "tip": "잘된 것 1개, 걸림돌 1개를 적어요. 걸림돌엔 \"~이면 → ~한다\" 계획 1개를 세우고, 다음 주 위험한 날(회식·야근)을 미리 표시해요.",
+     "ab_question": "일요일 밤 당신은? A 이번 주 반성 / B 다음 주 계획 한 줄",
+     "safety_note": "",
+     "search_keyword": "다이어트 주간 계획",
+     "app_action": "코치 채팅에 \"이번 주 돌아보기\" / 체중 주간 추세 보기"
+    },
+    "en": {
+     "title": "Sunday night weekly plan",
+     "hook": "HAVI asked for just 5 minutes on Sunday night",
+     "hook_alternatives": [
+      "Sunday, 9 p.m., two team dinners already on next week's calendar",
+      "Skip the self-criticism, write one line for next week"
+     ],
+     "scene": "Sunday, 9 p.m., on the couch, next week's calendar already has 2 team dinners and 1 late night at work.",
+     "user_line": "Team dinners and overtime again next week. I'm already overwhelmed.",
+     "nag_gentle": "Tell me one thing that went well this week. Then let's look at just one obstacle together.",
+     "nag_spicy": "Plan, not regret. Write one line: \"If there's a team dinner → veggies first,\" then go to bed.",
+     "tip": "Write down 1 thing that went well and 1 obstacle. For the obstacle, make one \"if ___, then I'll ___\" plan, and mark next week's tricky days (team dinners, late nights) ahead of time.",
+     "ab_question": "Sunday night, you: A) review what went wrong / B) write one line for next week",
+     "safety_note": "",
+     "search_keyword": "weekly diet planning",
+     "app_action": "Do a \"weekly check-in\" in the coach chat / view your weekly weight trend"
+    }
+   }
+  }
+ ]
+}
