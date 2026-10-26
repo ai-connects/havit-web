@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
+import { INDEXABLE_ROBOTS } from '@/lib/seo';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 type RouteLang = (typeof ROUTE_LANGS)[number];
@@ -110,7 +111,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: PAGE_INTRO[lang],
     // SEO staging — index only priority langs first (PRIORITY_INDEX_LANGS).
     robots: isLangIndexable(params.lang)
-      ? { index: true, follow: true }
+      ? INDEXABLE_ROBOTS
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     alternates: {
       canonical: `${SITE}/${lang}/tools`,

@@ -153,3 +153,15 @@ export function buildCategoryMeta(categoryName: string, lang: LangKey, page: num
     robots: { index: true, follow: true },
   };
 }
+
+/**
+ * 색인 대상 페이지 robots. 검색 결과에 큰 썸네일(모바일 노출 ~70%)·긴 설명·동영상 미리보기를
+ * 허용한다 — 기본값은 표준 크기 썸네일만 쓰게 될 수 있어 CTR 이 낮아진다.
+ */
+export const INDEXABLE_ROBOTS = {
+  index: true,
+  follow: true,
+  'max-image-preview': 'large',
+  'max-snippet': -1,
+  'max-video-preview': -1,
+} as const;
