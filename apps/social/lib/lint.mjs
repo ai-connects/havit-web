@@ -15,6 +15,13 @@ export function numbers(text) {
 
 const stripUrls = (s) => norm(s).replace(/https?:\/\/\S+/g, ' ');
 const stripTags = (s) => s.replace(/#[^\s#]+/g, ' ');
+// 장면 시각(13h·18h30·11:40 pm·밤 11시)·응급번호·미성년 안내는 근거 수치가 아니다. "16h de jeûne"·"8시간" 같은 기간은 남긴다.
+const stripScene = (s) => s
+  .replace(/(?<![\d.,])\d{1,2}\s?h(?:\s?\d{2})?(?![\p{L}\d])(?!\s*(?:de\b|d['’]))/gu, ' ')
+  .replace(/(?<![\d.,])\d{1,2}:\d{2}(?:\s?[ap]\.?m\.?)?/gi, ' ').replace(/(?<![\d.,])\d{1,2}\s?[ap]\.?m\b\.?/gi, ' ')
+  .replace(/\d{1,2}\s?시(?!간)(?:\s?\d{1,2}\s?분)?/g, ' ')
+  .replace(/le 15 ou le 112|\b(?:911|112|119)\b/g, ' ')
+  .replace(/moins de 18 ans|under 18|18세 미만/gi, ' ');
 
 function postText(d) {
   return [d.card_text || '', ...(d.posts || []), ...(d.slides || []).flatMap((s) => [s.title, s.body]), d.first_reply || '', d.alt_text || ''].join('\n');
@@ -31,7 +38,7 @@ export function lint(draft, source) {
 
   // 1) 숫자: 같은 언어판 원문에 있는 숫자 + 1~10 + 2026 만
   const allowed = new Set([...numbers(source._text), ...Array.from({ length: 10 }, (_, i) => String(i + 1)), '2026']);
-  for (const n of numbers(stripTags(stripUrls(all)))) {
+  for (const n of numbers(stripScene(stripTags(stripUrls(all))))) {
     if (!allowed.has(n)) errors.push(`원문에 없는 숫자: ${n}`);
   }
   for (const e of draft.evidence || []) {

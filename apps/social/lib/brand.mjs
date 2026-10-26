@@ -14,10 +14,17 @@ export const TAGLINE = {
 };
 
 /** 초안의 마지막 게시물 끝에 키 카피를 한 번만 붙인다(면책 문구가 끝에 있으면 그 위에). */
+// 모델이 키 카피를 살짝 바꿔 써도(「d'anciens membres de Juvis Diet」) 정본과 두 줄이 되지 않게: 쥬비스를 말하는 짧은 줄은 키 카피로 보고 지운다.
+const JUVIS = /juvis|쥬비스|ジュビス/i;
+const dropTaglineLike = (text, line, keep) => text.split('\n')
+  .filter((l) => l.trim() === keep || !(JUVIS.test(l) && l.trim().length <= line.length + 40))
+  .join('\n');
+
 export function withTagline(draft, disclaimer) {
   const line = TAGLINE[draft.lang];
   if (!line || !Array.isArray(draft.posts) || !draft.posts.length) return draft;
-  const posts = [...draft.posts];
+  const posts = draft.posts.map((x) => dropTaglineLike(x, line));
+  const first_reply = draft.first_reply ? dropTaglineLike(draft.first_reply, line, INTRO[draft.lang]).replace(/\n{3,}/g, '\n\n').trim() : draft.first_reply;
   const i = posts.length - 1;
   let body = posts[i].split(line).join('').replace(/\n{3,}/g, '\n\n').trimEnd();
   const at = disclaimer ? body.lastIndexOf(disclaimer) : -1;
@@ -25,7 +32,7 @@ export function withTagline(draft, disclaimer) {
     ? `${body.slice(0, at).trimEnd()}\n\n${line}\n\n${body.slice(at)}`
     : `${body}\n\n${line}`;
   posts[i] = body;
-  return { ...draft, posts };
+  return { ...draft, posts, ...(draft.first_reply !== undefined && { first_reply }) };
 }
 
 // 첫 댓글의 서비스 소개 한 줄(대표 지시 2026-10-25) — 홈 히어로 설명(havit-connects-ai-body-composition)을 줄인 것.
