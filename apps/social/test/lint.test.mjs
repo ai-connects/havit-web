@@ -92,3 +92,10 @@ test('장면 시각·응급번호·미성년 안내는 숫자 검사에서 빼�
     ['fr', 'moins de 18 ans'], ['en', "It's 11:40 pm"], ['en', '3 pm snack'], ['ko', '밤 11시, 야식 대신']]) assert.deepEqual(nums(l, t), [], t);
   for (const [l, t] of [['fr', '16h de jeûne'], ['fr', "20h d'activité"], ['fr', '25 ans'], ['en', '30% more'], ['ko', '13시간 단식']]) assert.ok(nums(l, t).length, t);
 });
+
+test('before and after 는 신체 전후 비교만 금지, 시간 표현은 허용', async () => {
+  const { lint } = await import('../lib/lint.mjs');
+  const ban = (t) => lint({ channel: 'threads', lang: 'en', posts: [t] }, { _text: '' }).errors.filter((e) => e.includes('금지어'));
+  for (const t of ['Plan short walks before and after meetings today', 'Have water before and after your bath']) assert.deepEqual(ban(t), [], t);
+  for (const t of ['My before and after', 'before and after photos', 'See her before-and-after', 'before/after pics']) assert.ok(ban(t).length, t);
+});
