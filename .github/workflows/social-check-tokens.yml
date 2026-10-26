@@ -1,0 +1,38 @@
+# 매일 13:00 UTC(22:00 KST, 데일리 생성 1시간 전): 18개 계정 토큰 점검 → 끊긴 계정 Slack DM
+name: social-check-tokens
+on:
+  schedule:
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      IG_TOKEN_KO: ${{ secrets.IG_TOKEN_KO }}
+      THREADS_TOKEN_KO: ${{ secrets.THREADS_TOKEN_KO }}
+      IG_TOKEN_JA: ${{ secrets.IG_TOKEN_JA }}
+      THREADS_TOKEN_JA: ${{ secrets.THREADS_TOKEN_JA }}
+      IG_TOKEN_EN: ${{ secrets.IG_TOKEN_EN }}
+      THREADS_TOKEN_EN: ${{ secrets.THREADS_TOKEN_EN }}
+      IG_TOKEN_ZH_TW: ${{ secrets.IG_TOKEN_ZH_TW }}
+      THREADS_TOKEN_ZH_TW: ${{ secrets.THREADS_TOKEN_ZH_TW }}
+      IG_TOKEN_ES: ${{ secrets.IG_TOKEN_ES }}
+      THREADS_TOKEN_ES: ${{ secrets.THREADS_TOKEN_ES }}
+      IG_TOKEN_PT_BR: ${{ secrets.IG_TOKEN_PT_BR }}
+      THREADS_TOKEN_PT_BR: ${{ secrets.THREADS_TOKEN_PT_BR }}
+      IG_TOKEN_ID: ${{ secrets.IG_TOKEN_ID }}
+      THREADS_TOKEN_ID: ${{ secrets.THREADS_TOKEN_ID }}
+      IG_TOKEN_DE: ${{ secrets.IG_TOKEN_DE }}
+      THREADS_TOKEN_DE: ${{ secrets.THREADS_TOKEN_DE }}
+      IG_TOKEN_FR: ${{ secrets.IG_TOKEN_FR }}
+      THREADS_TOKEN_FR: ${{ secrets.THREADS_TOKEN_FR }}
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node check_tokens.mjs
+        working-directory: apps/social
