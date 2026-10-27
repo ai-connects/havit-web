@@ -306,7 +306,8 @@ const chrome = (args, opts) => {
 function shoot(html, out) {
   const tmp = out.replace(/\.png$/, '.html');
   writeFileSync(tmp, html);
-  const base = ['--headless=new', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=1', `--window-size=${W},${H}`, '--virtual-time-budget=8000'];
+  // 디스크 캐시 상한 — 없으면 수천 장 렌더하는 동안 ~/Library/Caches/Google/Chrome-headless 가 9.5GB 까지 불어 디스크가 찼다(2026-10-27)
+  const base = ['--headless=new', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=1', `--window-size=${W},${H}`, '--virtual-time-budget=8000', '--disk-cache-size=268435456'];
   const dom = chrome([...base, '--dump-dom', file(tmp)], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
   chrome([...base, `--screenshot=${out}`, file(tmp)], { stdio: 'ignore' });
   if (!existsSync(out)) throw new Error(`렌더 실패: ${out}`);
