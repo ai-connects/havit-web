@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
@@ -19,6 +20,7 @@ import MedicalArticleJsonLd from './MedicalArticleJsonLd';
 import FaqJsonLd from './FaqJsonLd';
 import BreadcrumbJsonLd from './BreadcrumbJsonLd';
 import InstallCTA from './InstallCTA';
+import MidArticleCTA from './MidArticleCTA';
 import AboutHavit from './AboutHavit';
 import SocialFollow from './SocialFollow';
 
@@ -378,6 +380,8 @@ export default function HubArticleView({ article, content, shortLang, fallback }
   const hero = articleImage(article.slug, article.category);
 
   // 표·카드가 이미 있는 섹션은 충분히 시각적이라 사진을 넣지 않는다.
+  const midCtaAfter = body.sections.length >= 3 ? Math.floor(body.sections.length / 2) - 1 : -1;
+
   const needsFigure = (s: { blocks: HubBlock[] }) =>
     !s.blocks.some((b) => b.type === 'table' || b.type === 'cards' || b.type === 'steps');
 
@@ -460,7 +464,8 @@ export default function HubArticleView({ article, content, shortLang, fallback }
       )}
 
       {body.sections.map((s, si) => (
-        <section key={s.id} className="hub-section">
+        <Fragment key={s.id}>
+        <section className="hub-section">
           <p className="eyebrow hub-section__n">{String(si + 1).padStart(2, '0')}</p>
           <h2 id={s.id} className="hub-h2">
             {renderEmphasis(s.title)}
@@ -494,6 +499,17 @@ export default function HubArticleView({ article, content, shortLang, fallback }
               ) : null;
             })()}
         </section>
+        {/* 읽는 도중 한 번 — 섹션이 3개 이상인 글의 가운데 섹션 뒤. 맨 끝 블록까지 내려가는 독자가 적다(MidArticleCTA 주석). */}
+        {si === midCtaAfter && (
+          <MidArticleCTA
+            lang={langKey}
+            shortLang={shortLang}
+            articleId={article.article_id}
+            slug={article.slug}
+            category={article.category}
+          />
+        )}
+        </Fragment>
       ))}
 
       {/* 짝이 되는 섹션이 없을 때만 독립 섹션으로. 있으면 위에서 이미 그렸다. */}

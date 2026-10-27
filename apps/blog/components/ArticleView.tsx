@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
@@ -8,6 +9,8 @@ import { articleImage } from '@/lib/article-images';
 import { localizedCategory } from '@/lib/category-labels';
 import { CategoryIcon } from '@/components/CategoryIcon';
 import InstallCTA from './InstallCTA';
+import MidArticleCTA from './MidArticleCTA';
+import { splitAtMiddleH2 } from '@/lib/split-body';
 import { toFullLang } from '@/lib/i18n';
 // BLOG_AUTHORITY v1.0.0 (PRD §7.3) — 3 신규 import (기존 import 무변경)
 import ArticleAuthorBlock from './ArticleAuthorBlock';
@@ -47,6 +50,7 @@ function label(key: string, shortLang: string): string {
 
 export default function ArticleView({ article, content, shortLang, fallback }: Props) {
   const langKey = toFullLang(shortLang === 'zh' ? 'zh-cn' : shortLang);
+  const bodyParts = splitAtMiddleH2(content.body_md);
   const references = Array.isArray(content.references) ? content.references : null;
   // SEO — topic-similar links (native-content only), spread so no article is an
   // orphan (lib/related-articles.ts). Reachability from related pages is a direct lever against
@@ -124,22 +128,37 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
             remarkRepairEmphasis: CJK 구두점 뒤에서 닫히는 `**`/`*` 복구(lib/emphasis.ts).
             a: 블로그 내부 링크만 현재 언어·basePath 로 바로잡고, 없는 글이면 링크를 걷는다.
             일반 <a> 라 basePath 를 직접 붙인 href 를 쓴다. 외부 링크는 종전 그대로. */}
-        <ReactMarkdown
-          remarkPlugins={[[remarkGfm, { singleTilde: false }], remarkRepairEmphasis]}
-          components={{
-            a: ({ href, children, node: _node, ...rest }) => {
-              const r = resolveBlogLink(href, shortLang, article.slug);
-              if (r.kind === 'dead') return <>{children}</>;
-              return (
-                <a {...rest} href={r.kind === 'internal' ? r.href : href}>
-                  {children}
-                </a>
-              );
-            },
-          }}
-        >
-          {content.body_md}
-        </ReactMarkdown>
+        {/* 가운데 H2 앞에서 본문을 둘로 나눠 그 사이에 설치 블록을 넣는다(MidArticleCTA 주석). H2 가 3개 미만이면 나누지 않는다. */}
+        {bodyParts.map((part, pi) => (
+          <Fragment key={pi}>
+            {pi === 1 && (
+              <MidArticleCTA
+                lang={langKey}
+                shortLang={shortLang}
+                articleId={article.article_id}
+                slug={article.slug}
+                category={article.category}
+              />
+            )}
+          <ReactMarkdown
+            key={pi}
+            remarkPlugins={[[remarkGfm, { singleTilde: false }], remarkRepairEmphasis]}
+            components={{
+              a: ({ href, children, node: _node, ...rest }) => {
+                const r = resolveBlogLink(href, shortLang, article.slug);
+                if (r.kind === 'dead') return <>{children}</>;
+                return (
+                  <a {...rest} href={r.kind === 'internal' ? r.href : href}>
+                    {children}
+                  </a>
+                );
+              },
+            }}
+          >
+            {part}
+          </ReactMarkdown>
+          </Fragment>
+        ))}
       </div>
 
 
