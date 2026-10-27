@@ -109,6 +109,12 @@ p{font-weight:500;line-height:1.5;letter-spacing:-.01em;text-wrap:pretty}
 // 렌더 품질 자동 검사: 글자가 캔버스 밖으로 넘치거나, 캐릭터와 겹치거나, 폰트·이미지가 안 불러와졌는지. 결과는 <title> 로 내보낸다.
 window.addEventListener('load', async () => {
   await document.fonts.ready;
+  // 라틴 문자 제목: 가장 긴 낱말이 상자보다 넓으면 브라우저가 하이픈 없이 낱말 중간에서 자른다(2026-10-27 de 「Willensproble／m」) → 들어갈 때까지 글자를 줄인다
+  if (!/^(ko|ja|zh)/.test(document.documentElement.lang)) for (const h of document.querySelectorAll('h1')) {
+    h.style.overflowWrap = 'normal';
+    let fs = parseFloat(getComputedStyle(h).fontSize);
+    while (h.scrollWidth > h.clientWidth + 1 && fs > 44) { fs -= 4; h.style.fontSize = fs + 'px'; }
+  }
   const issues = [];
   const W = ${W}, H = ${H}, M = 40;
   const char = document.querySelector('.char')?.getBoundingClientRect();
@@ -187,7 +193,7 @@ function content(d, s, i, n) {
   <img class="logo" src="${LOGO}"><div class="num">${i + 1}/${n}</div>
   <div class="body">
     <div class="bar"></div>
-    <h1 style="font-size:${tier(s.title, d.lang, [84, 74, 64], [18, 30])}px">${tx(d, s.title)}</h1>
+    <h1 style="font-size:${lineFit(s.title, d.lang, tier(s.title, d.lang, [84, 74, 64], [18, 30]), 1080 - 176)}px">${tx(d, s.title)}</h1>
     <p style="font-size:${bodySize(body, d.lang)}px;margin-top:40px">${tx(d, body)}</p>
   </div>
   ${src ? `<div class="src">${esc(src[1])}</div>` : ''}
@@ -199,7 +205,7 @@ function cta(d, s) {
   return page(d.lang, `<div class="s lime">
   <img class="logo" src="${LOGO}">
   <div style="margin:auto 0;padding-bottom:120px">
-    <h1 style="font-size:${tier(s.title, d.lang, [104, 90, 78], [16, 26])}px">${tx(d, s.title)}</h1>
+    <h1 style="font-size:${lineFit(s.title, d.lang, tier(s.title, d.lang, [104, 90, 78], [16, 26]), 1080 - 176)}px">${tx(d, s.title)}</h1>
     ${s.body ? `<p style="font-size:46px;margin-top:32px">${tx(d, s.body)}</p>` : ''}
     ${/^(art|quiz|sit|nag)-/.test(d.slug || '') ? badges(d.lang) + (TAGLINE[d.lang] ? `<p style="font-size:34px;margin-top:36px;opacity:.75;max-width:640px">${TAGLINE[d.lang]}</p>` : '') : ''}
   </div>
@@ -263,7 +269,8 @@ function card(d) {
   const head = cardText(d);
   const photo = photoUrl(d);
   // 출처는 "저널, 연도" 꼴일 때만(글 제목이 들어오는 경우 제외)
-  const src = (d.evidence || []).map((e) => e.source).find((x) => /,\s*(19|20)\d\d$/.test(x || ''));
+  // 카드 제목이 그 연구 결론이 아닐 때는 출처를 달지 않는다(card_source:false — 2026-10-27 id 리뷰: 제목 밑 인용이 과장)
+  const src = d.card_source === false ? null : (d.evidence || []).map((e) => e.source).find((x) => /,\s*(19|20)\d\d$/.test(x || ''));
   if (photo) {
     return page(d.lang, `<div class="s dark" style="padding:0">
   <img src="${photo}" style="position:absolute;left:0;top:0;width:100%;height:62%;object-fit:cover">
