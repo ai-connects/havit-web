@@ -316,6 +316,7 @@ for (const dir of dirs) {
     const d = readJson(p);
     if (d.share === 'link') continue; // 블로그 링크 미리보기로 발행 — 카드 이미지 없음
     if (process.argv.includes('--pending') && d.decision) continue; // 이미 판정된 초안은 다시 그리지 않음(고쳐 쓴 초안만)
+    if (process.env.RENDER_ONLY && !new RegExp(process.env.RENDER_ONLY).test(f)) continue; // 렌더러 수정 뒤 해당 초안만 다시 그릴 때
     const outDir = path.join(dir, 'img', f.replace(/\.json$/, ''));
     mkdirSync(outDir, { recursive: true });
     const pages = d.slides?.length
