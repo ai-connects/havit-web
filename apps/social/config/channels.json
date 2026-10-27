@@ -42,16 +42,16 @@
       "route": "en",
       "disclaimer": "General info, not medical advice. If you're dealing with disordered eating or a health condition, talk to a professional.",
       "home": "https://www.aihavit.com/",
-      "tz": "America/New_York",
+      "tz": "America/Los_Angeles",
       "post_hours": {
-        "instagram": 9,
+        "instagram": 8,
         "instagram_2": 12,
-        "instagram_3": 18,
-        "instagram_4": 21,
-        "threads": 8,
-        "threads_2": 13,
-        "threads_3": 19,
-        "threads_4": 22
+        "instagram_3": 17,
+        "instagram_4": 20,
+        "threads": 7,
+        "threads_2": 12,
+        "threads_3": 18,
+        "threads_4": 21
       },
       "brand_tag": "HAVITapp",
       "swipe": "Swipe →"
@@ -181,7 +181,7 @@
       },
       "brand_tag": "HAVITapp",
       "swipe": "Fais défiler →",
-      "style": "Quiz question: write « Vrai ou faux ? », never « O ou X ? » (French readers do not use O/X). Give the answer as « Vrai » or « Faux » (you may add (O)/(X) right after it, to match the image). Ask replies with « Vrai ou faux ? Dis-le en commentaire 👇 ». Quiz verbs: « faire un quiz » / « répondre au quiz », never « prendre un quiz ». Write the brand line only once; it is added automatically at the end, so do not write your own « coach minceur IA … Juvis Diet » line."
+      "style": "Quiz question: write « Vrai ou faux ? », never « O ou X ? » (French readers do not use O/X). Give the answer as « Vrai » or « Faux » only — never add « O », « X », « (O) » or « (X) » anywhere. Ask replies with « Vrai ou faux ? Dis-le en commentaire 👇 ». Quiz verbs: « faire un quiz » / « répondre au quiz », never « prendre un quiz ». Write the brand line only once; it is added automatically at the end, so do not write your own « coach minceur IA … Juvis Diet » line."
     }
   },
   "channels": {
@@ -424,7 +424,7 @@
       "detox",
       "miracle",
       "before/after",
-      "before and after",
+      "before-and-after",
       "doctor-approved"
     ],
     "zh-tw": [

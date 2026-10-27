@@ -14,7 +14,7 @@ Flag ("revise") when the draft:
 5. Gives medical, medication or diagnostic advice, or suggests the advice suits people with medical conditions, pregnancy or under 18.
 
 For "revise", give concrete fix_instructions: remove the number, or keep it only with a short individualisation caveat in plain words (e.g. "depends on your sex, height and current weight — a common safe pace is about 0.5–1 kg a week"). The writer is allowed to drop or qualify SOURCE claims to fix these.
-Use "human" only when the topic itself needs a clinician's judgment and cannot be fixed by rewording.
+There is no human reviewer. Use "human" only when the post must not be published in any form and rewording cannot fix it; otherwise "pass" or "revise" with concrete fixes.
 
 Return ONLY JSON:
 {"verdict": "pass" | "revise" | "human",

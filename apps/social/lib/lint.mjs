@@ -71,6 +71,10 @@ export function lint(draft, source) {
         : lowered.includes(w.toLowerCase());
     if (hit) errors.push(`금지어: ${w}`);
   }
+  // 「before and after」는 신체 전후 비교일 때만 금지. 「before and after meetings」 같은 시간 표현은 허용(2026-10-26 오탐).
+  if (draft.lang === 'en' && /\b(?:(?:my|your|her|his|their|our)\s+before\s+and\s+after\b|before\s+and\s+after\s+(?:photos?|pics?|pictures?|shots?|transformations?|results?|bod(?:y|ies)|weight)\b)/i.test(lowered)) {
+    errors.push('금지어: before and after (전후 비교)');
+  }
 
   // 3) 면책 문구 위치
   const disclaimers = [lang.disclaimer, lang.disclaimer_formal].filter(Boolean);

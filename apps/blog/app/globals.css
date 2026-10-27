@@ -1746,6 +1746,74 @@
 /* 설치 CTA — components/InstallCTA.tsx (inline)
    마케팅 사이트 final-cta 와 같은 구성: 플랫 브랜드 라임 + 실제 스토어 배지 +
    앱 화면. 종전 그라디언트 + 이모지 버튼은 스토어 배포로 읽히지 않았다. */
+/* 본문 중간 설치 블록(MidArticleCTA) — 하단 install-cta 보다 가볍게: 옅은 라임 판 + 기능 화면 1장 + 검정 버튼.
+   읽는 흐름을 끊지 않도록 본문 폭 안에서 한 줄 높이(화면 최대 168px)로 둔다. */
+.mid-cta {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+  margin: 40px 0;
+  padding: 20px 24px;
+  border-radius: 20px;
+  background: var(--hv-tint-pale);
+  border: 1px solid var(--hv-tint-lime);
+}
+.mid-cta__shot img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 168px;
+  max-width: 132px;
+  object-fit: contain;
+}
+.mid-cta__eyebrow {
+  margin: 0 0 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--hv-grey-80);
+}
+.mid-cta__title {
+  margin: 0 0 6px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--hv-black);
+}
+.mid-cta__sub {
+  margin: 0 0 14px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--hv-grey-80);
+}
+.mid-cta__btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: #121212;
+  color: var(--hv-primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+.mid-cta__btn:hover {
+  background: #000;
+}
+@media (max-width: 640px) {
+  .mid-cta {
+    gap: 14px;
+    padding: 16px;
+  }
+  .mid-cta__shot img {
+    max-height: 132px;
+    max-width: 96px;
+  }
+  .mid-cta__title {
+    font-size: 17px;
+  }
+}
+
 .install-cta {
   position: relative;
   display: grid;
@@ -1898,7 +1966,7 @@
   align-items: center;
   justify-content: center;
   min-height: 46px;
-  min-width: 207px; /* 영어판 "Continue in the App" 폭 — 짧은 언어(ko·ja 등)도 이보다 작아지지 않는다 */
+  min-width: 207px; /* 영어판 버튼 문구 폭(예전 "Continue in the App") — 짧은 언어(ko·ja 등)도 이보다 작아지지 않는다 */
   max-width: 100%;
   padding: 12px 16px;
   border-radius: 999px;
