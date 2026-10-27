@@ -190,7 +190,8 @@ const bubbleText = (t) => String(t || '').trim()
 
 function bubble(d, s, role, faded) {
   const t = role === 'scene' ? s.body : bubbleText(s.body);
-  const size = faded ? 36 : tier(t, d.lang, [50, 44, 38], [60, 110]);
+  const k = ['ko', 'ja', 'zh-tw', 'zh'].includes(d.lang) ? 0.55 : 1;
+  const size = faded ? 36 : len(t) > 200 * k ? (len(t) > 320 * k ? 30 : 34) : tier(t, d.lang, [50, 44, 38], [60, 110]);
   const fade = faded ? 'opacity:.38;' : '';
   // 직전 말풍선은 세 줄까지만(긴 팁이 다음 장을 덮지 않게)
   const clamp = faded ? 'display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;' : '';
@@ -209,11 +210,13 @@ function bubble(d, s, role, faded) {
 
 function chat(d, slides, i, n) {
   const s = slides[i];
-  const prev = i >= 2 && CHAT_ROLE[i - 1] ? bubble(d, slides[i - 1], CHAT_ROLE[i - 1], true) : '';
+  // 지금 말풍선이 길면(긴 팁·안전 안내) 직전 말풍선을 빼서 자리를 준다
+  const long = len(bubbleText(s.body)) > (['ko', 'ja', 'zh-tw', 'zh'].includes(d.lang) ? 90 : 160);
+  const prev = i >= 2 && CHAT_ROLE[i - 1] && !long ? bubble(d, slides[i - 1], CHAT_ROLE[i - 1], true) : '';
   return page(d.lang, `<div class="s light">
   <img class="logo" src="${LOGO}"><div class="num">${i + 1}/${n}</div>
   <div style="position:absolute;left:88px;right:88px;top:200px;text-align:center"><span style="font:700 30px Poppins;letter-spacing:.02em;background:#121212;color:#D4FF50;border-radius:999px;padding:12px 30px;display:inline-block">${esc(s.title)}</span></div>
-  <div class="body" style="top:300px;bottom:110px;justify-content:center;gap:34px">
+  <div class="body" style="top:300px;bottom:90px;justify-content:center;gap:34px">
     ${prev}
     ${bubble(d, s, CHAT_ROLE[i], false)}
   </div>
