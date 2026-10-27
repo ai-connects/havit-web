@@ -115,6 +115,13 @@ window.addEventListener('load', async () => {
     let fs = parseFloat(getComputedStyle(h).fontSize);
     while (h.scrollWidth > h.clientWidth + 1 && fs > 44) { fs -= 4; h.style.fontSize = fs + 'px'; }
   }
+  // 마지막 장(CTA)은 글을 세로 가운데 둔다 — 문구가 길면 위로 자라 로고를 덮는다(2026-10-28 fr·de·pt-br·id) → 로고 아래로 내려올 때까지 제목·본문을 줄인다
+  const lg = document.querySelector('.logo');
+  if (lg) {
+    const txt = [...document.querySelectorAll('h1,p')];
+    for (let n = 0; n < 16 && txt.some((el) => el.getBoundingClientRect().width && el.getBoundingClientRect().top < lg.getBoundingClientRect().bottom + 16); n++)
+      for (const el of txt) el.style.fontSize = Math.max(28, parseFloat(getComputedStyle(el).fontSize) * 0.94) + 'px';
+  }
   const issues = [];
   const W = ${W}, H = ${H}, M = 40;
   const char = document.querySelector('.char')?.getBoundingClientRect();
