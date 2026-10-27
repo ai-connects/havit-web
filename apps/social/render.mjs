@@ -49,6 +49,8 @@ const badges = (lang) => {
   return `<div style="display:flex;gap:24px;margin-top:48px"><img src="${file(path.join(d, 'app-store.svg'))}" style="height:96px"><img src="${file(path.join(d, 'google-play.png'))}" style="height:96px"></div>`;
 };
 const CHAR = { knight: file(path.join(WEB, 'cta/knight.webp')), dino: file(path.join(WEB, 'cta/dino.webp')), peek: file(path.join(WEB, 'cta/peek.webp')) };
+// 채팅 말풍선의 하비 코치 = 웹사이트 「Havi 선택」 화면의 기본 코치(따뜻하고 세심한 멘토) 얼굴 — web/public/assets/feat_coaching_ko.png 에서 잘라 둔 것
+const COACH = file(path.join(ROOT, 'assets/coach-havi.jpg'));
 const LOGO_W = file(path.join(WEB, 'havit-logo-white.svg'));
 const LOGO = file(path.join(WEB, 'havit-logo.svg'));
 const esc = (s) => String(s || '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -178,6 +180,46 @@ function cta(d, s) {
 </div>`);
 }
 
+// AI 잔소리 캐러셀(nag_carousel)은 채팅 화면처럼 — 포맷 안내의 슬라이드 순서가 곧 화자다.
+// 1 그 순간(상황 칩) · 2 속마음(나, 오른쪽) · 3 하비의 답 · 4 진짜 팁 · 5 한 번 더(하비, 왼쪽). 직전 말풍선을 흐리게 이어 붙여 대화가 이어지는 느낌을 준다.
+const CHAT_ROLE = { 1: 'scene', 2: 'me', 3: 'havi', 4: 'tip', 5: 'havi' };
+const bubbleText = (t) => String(t || '').trim()
+  .replace(/^💬\s*/u, '')
+  .replace(/^(나|me|you|moi|toi|HAVI|하비)\s*[:：]\s*/iu, '')
+  .replace(/^["“«「『]\s*([\s\S]*?)\s*["”»」』]$/u, '$1');
+
+function bubble(d, s, role, faded) {
+  const t = role === 'scene' ? s.body : bubbleText(s.body);
+  const size = faded ? 36 : tier(t, d.lang, [50, 44, 38], [60, 110]);
+  const fade = faded ? 'opacity:.38;' : '';
+  // 직전 말풍선은 세 줄까지만(긴 팁이 다음 장을 덮지 않게)
+  const clamp = faded ? 'display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;' : '';
+  if (role === 'scene') {
+    return `<div style="${fade}align-self:center;max-width:860px;text-align:center"><p style="font-size:${faded ? 30 : 38}px;color:#6b6b66;background:#E6E6DF;border-radius:28px;padding:18px 34px;display:inline-block">${tx(d, t)}</p></div>`;
+  }
+  if (role === 'me') {
+    return `<div style="${fade}align-self:flex-end;max-width:780px;display:flex;justify-content:flex-end"><p style="font-size:${size}px;background:#121212;color:#fff;border-radius:44px 44px 12px 44px;padding:32px 40px"><span style="${clamp}">${tx(d, t)}</span></p></div>`;
+  }
+  const tip = role === 'tip';
+  return `<div style="${fade}display:flex;gap:22px;align-items:flex-end;max-width:860px">
+    <div style="flex:none;width:92px;height:92px;border-radius:50%;background:#EADBC4;overflow:hidden;box-shadow:0 0 0 4px #fff"><img src="${COACH}" style="width:100%;height:100%;object-fit:cover"></div>
+    <div><div style="font:800 26px Poppins;margin:0 0 10px 6px;opacity:.6">HAVI</div>
+    <p style="width:fit-content;font-size:${size}px;background:${tip ? '#fff' : '#D4FF50'};${tip ? 'border:4px solid #D4FF50;' : ''}color:#121212;border-radius:44px 44px 44px 12px;padding:32px 40px"><span style="${clamp}">${tx(d, t)}</span></p></div></div>`;
+}
+
+function chat(d, slides, i, n) {
+  const s = slides[i];
+  const prev = i >= 2 && CHAT_ROLE[i - 1] ? bubble(d, slides[i - 1], CHAT_ROLE[i - 1], true) : '';
+  return page(d.lang, `<div class="s light">
+  <img class="logo" src="${LOGO}"><div class="num">${i + 1}/${n}</div>
+  <div style="position:absolute;left:88px;right:88px;top:200px;text-align:center"><span style="font:700 30px Poppins;letter-spacing:.02em;background:#121212;color:#D4FF50;border-radius:999px;padding:12px 30px;display:inline-block">${esc(s.title)}</span></div>
+  <div class="body" style="top:300px;bottom:110px;justify-content:center;gap:34px">
+    ${prev}
+    ${bubble(d, s, CHAT_ROLE[i], false)}
+  </div>
+</div>`);
+}
+
 /** 카드 문구: 생성기가 쓴 card_text(짧은 후킹) → 없으면 첫 문장(70자 이내) → 그래도 길면 글 제목. 문장 중간에서 자르지 않는다. */
 function cardText(d) {
   if (d.card_text) return d.card_text;
@@ -240,7 +282,8 @@ for (const dir of dirs) {
     const outDir = path.join(dir, 'img', f.replace(/\.json$/, ''));
     mkdirSync(outDir, { recursive: true });
     const pages = d.slides?.length
-      ? d.slides.map((s, i, a) => (i === 0 ? cover(d, s) : i === a.length - 1 ? cta(d, s) : content(d, s, i, a.length)))
+      ? d.slides.map((s, i, a) => (i === 0 ? cover(d, s) : i === a.length - 1 ? cta(d, s)
+        : d.format === 'nag_carousel' && CHAT_ROLE[i] && a.length === 8 ? chat(d, a, i, a.length) : content(d, s, i, a.length)))
       : [card(d)];
     const issues = [];
     d.images = pages.map((html, i) => {
