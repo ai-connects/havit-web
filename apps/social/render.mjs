@@ -112,9 +112,11 @@ window.addEventListener('load', async () => {
   const issues = [];
   const W = ${W}, H = ${H}, M = 40;
   const char = document.querySelector('.char')?.getBoundingClientRect();
+  const logo = document.querySelector('.logo')?.getBoundingClientRect();
   for (const el of document.querySelectorAll('h1,p,.src')) {
     const r = el.getBoundingClientRect();
     if (!r.width) continue;
+    if (logo && r.top < logo.bottom && r.bottom > logo.top && r.left < logo.right && r.right > logo.left) issues.push('로고겹침:' + el.textContent.slice(0, 20));
     if (r.right > W - M || r.bottom > H - M || r.left < M - 1 || r.top < 0) issues.push('넘침:' + el.tagName + ':' + el.textContent.slice(0, 20));
     if (el.scrollWidth > el.clientWidth + 2) issues.push('가로넘침:' + el.textContent.slice(0, 20));
     if (char && !el.classList.contains('src') && r.right > char.left + 10 && r.bottom > char.top + 10 && r.left < char.right && r.top < char.bottom) issues.push('캐릭터겹침:' + el.textContent.slice(0, 20));
@@ -172,6 +174,12 @@ function cover(d, s) {
 </div>`);
 }
 
+// 체크리스트 + 안전 안내 + 출처가 한 장에 들어가면 300자를 넘는다 — 3단계 크기로는 넘쳐 제목이 로고를 덮었다(2026-10-27 id 8장)
+const bodySize = (t, lang) => {
+  const k = ['ko', 'ja', 'zh-tw', 'zh'].includes(lang) ? 0.55 : 1;
+  return len(t) > 320 * k ? 34 : len(t) > 220 * k ? 38 : tier(t, lang, [56, 50, 44], [70, 120]);
+};
+
 function content(d, s, i, n) {
   const src = (s.body || '').match(/\(([^()]*\b(19|20)\d\d)\)\s*$/);
   const body = src ? s.body.slice(0, src.index).trim() : s.body;
@@ -180,7 +188,7 @@ function content(d, s, i, n) {
   <div class="body">
     <div class="bar"></div>
     <h1 style="font-size:${tier(s.title, d.lang, [84, 74, 64], [18, 30])}px">${tx(d, s.title)}</h1>
-    <p style="font-size:${tier(body, d.lang, [56, 50, 44], [70, 120])}px;margin-top:40px">${tx(d, body)}</p>
+    <p style="font-size:${bodySize(body, d.lang)}px;margin-top:40px">${tx(d, body)}</p>
   </div>
   ${src ? `<div class="src">${esc(src[1])}</div>` : ''}
   <img class="char" src="${CHAR.peek}" style="width:170px">
