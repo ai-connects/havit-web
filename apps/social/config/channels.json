@@ -181,7 +181,7 @@
       },
       "brand_tag": "HAVITapp",
       "swipe": "Fais défiler →",
-      "style": "Quiz question: write « Vrai ou faux ? », never « O ou X ? » (French readers do not use O/X). Give the answer as « Vrai » or « Faux » (you may add (O)/(X) right after it, to match the image). Ask replies with « Vrai ou faux ? Dis-le en commentaire 👇 ». Quiz verbs: « faire un quiz » / « répondre au quiz », never « prendre un quiz ». Write the brand line only once; it is added automatically at the end, so do not write your own « coach minceur IA … Juvis Diet » line."
+      "style": "Quiz question: write « Vrai ou faux ? », never « O ou X ? » (French readers do not use O/X). Give the answer as « Vrai » or « Faux » only — never add « O », « X », « (O) » or « (X) » anywhere. Ask replies with « Vrai ou faux ? Dis-le en commentaire 👇 ». Quiz verbs: « faire un quiz » / « répondre au quiz », never « prendre un quiz ». Write the brand line only once; it is added automatically at the end, so do not write your own « coach minceur IA … Juvis Diet » line."
     }
   },
   "channels": {
@@ -424,7 +424,7 @@
       "detox",
       "miracle",
       "before/after",
-      "before and after",
+      "before-and-after",
       "doctor-approved"
     ],
     "zh-tw": [
