@@ -1,5 +1,5 @@
 """상황별 시리즈 편성표(config/series_calendar.json) 생성 — config/situations.json 을 날짜·채널·현지 시각에 배치.
-생존 가이드(sit-): 월 07시 · 수 16시 · 금 15시, 매번 IG+Threads(채널별 주 3건 — 대표 결정 2026-10-28). 첫 4주·시즌 회차는 FIXED, 나머지는 우선순위 순.
+생존 가이드(sit-): 월 07시 · 금 15시, 매번 IG+Threads(채널별 주 2건 — 대표 결정 2026-10-28). 첫 회차들·시즌 회차는 FIXED, 나머지는 우선순위 순.
 AI 잔소리(nag-): Threads 월~금(에피소드 추천 요일·시각) · Instagram 화·금 20시(Threads 에 3일 이상 먼저 나간 편을 캐러셀로).
 임상 검토 대상(clinical_review)은 clinical_approved_by 가 채워지기 전엔 편성하지 않는다. 약물 주제는 plan_series.mjs 가 막는다.
 같은 계정의 기존 슬롯(channels.json post_hours)과 같은 시각이면 한 시간씩 민다. 실행: python3 scripts/build_series_calendar.py [시작 월요일] [주 수]
@@ -9,7 +9,7 @@ from datetime import date, timedelta
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 START = date.fromisoformat(sys.argv[1] if len(sys.argv) > 1 else '2026-11-02')
-WEEKS = int(sys.argv[2]) if len(sys.argv) > 2 else 10
+WEEKS = int(sys.argv[2]) if len(sys.argv) > 2 else 14
 assert START.weekday() == 0, '시작일은 월요일'
 
 items = json.loads((ROOT / 'config/situations.json').read_text())['items']
@@ -19,11 +19,11 @@ by_topic = {x['topic']: x for x in ready if x['series'] == 'survival'}
 post_hours = json.loads((ROOT / 'config/channels.json').read_text())['langs']['ko']['post_hours']  # 전 언어 같은 현지 시각
 taken = {ch: {h for k, h in post_hours.items() if k.split('_')[0] == ch} for ch in ('instagram', 'threads')}
 
-# 첫 4주(04_hooks 4주 편성) + 시즌(12월 회식·송년회·연말 연휴)
-FIXED = {'2026-11-02': 'T16', '2026-11-04': 'T12', '2026-11-06': 'T23', '2026-11-09': 'T17', '2026-11-11': 'T04', '2026-11-13': 'T02',
-         '2026-11-16': 'T22', '2026-11-18': 'T13', '2026-11-20': 'T03', '2026-11-23': 'T10', '2026-11-27': 'T09',
-         '2026-12-04': 'T01', '2026-12-09': 'T29', '2026-12-18': 'T26'}
-SLOTS = {0: (7, ['instagram', 'threads']), 2: (16, ['instagram', 'threads']), 4: (15, ['instagram', 'threads'])}
+# 첫 회차들(04_hooks 순서 유지, 월·금으로 재배치) + 시즌(12월 회식·송년회·연말 연휴)
+FIXED = {'2026-11-02': 'T16', '2026-11-06': 'T12', '2026-11-09': 'T23', '2026-11-13': 'T17', '2026-11-16': 'T04', '2026-11-20': 'T02',
+         '2026-11-23': 'T22', '2026-11-27': 'T13', '2026-11-30': 'T03', '2026-12-04': 'T01', '2026-12-07': 'T29', '2026-12-11': 'T10',
+         '2026-12-14': 'T09', '2026-12-18': 'T26'}
+SLOTS = {0: (7, ['instagram', 'threads']), 4: (15, ['instagram', 'threads'])}
 FORMAT = {('survival', 'instagram'): 'situation_playbook', ('survival', 'threads'): 'situation_post',
           ('nag', 'instagram'): 'nag_carousel', ('nag', 'threads'): 'nag_post'}
 

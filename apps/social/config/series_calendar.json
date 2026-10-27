@@ -1,7 +1,7 @@
 {
  "_note": "상황별 시리즈 편성표 — scripts/build_series_calendar.py 로 생성(손으로 고치지 말 것). hour = 현지 시각(9개 언어 공통). 임상 검토 주제는 승인 전 미편성.",
  "start": "2026-11-02",
- "weeks": 10,
+ "weeks": 14,
  "held_for_clinical_review": [
   "sit-t11-time-restricted-eating-first-meal",
   "sit-t21-day-after-overeating",
@@ -73,24 +73,6 @@
    "format": "nag_post"
   },
   {
-   "date": "2026-11-04",
-   "channel": "instagram",
-   "hour": 16,
-   "slug": "sit-t12-afternoon-snack-slump",
-   "series": "survival",
-   "series_no": 2,
-   "format": "situation_playbook"
-  },
-  {
-   "date": "2026-11-04",
-   "channel": "threads",
-   "hour": 16,
-   "slug": "sit-t12-afternoon-snack-slump",
-   "series": "survival",
-   "series_no": 2,
-   "format": "situation_post"
-  },
-  {
    "date": "2026-11-05",
    "channel": "threads",
    "hour": 11,
@@ -103,18 +85,18 @@
    "date": "2026-11-06",
    "channel": "instagram",
    "hour": 15,
-   "slug": "sit-t23-stress-eating-commute-home",
+   "slug": "sit-t12-afternoon-snack-slump",
    "series": "survival",
-   "series_no": 3,
+   "series_no": 2,
    "format": "situation_playbook"
   },
   {
    "date": "2026-11-06",
    "channel": "threads",
    "hour": 15,
-   "slug": "sit-t23-stress-eating-commute-home",
+   "slug": "sit-t12-afternoon-snack-slump",
    "series": "survival",
-   "series_no": 3,
+   "series_no": 2,
    "format": "situation_post"
   },
   {
@@ -157,18 +139,18 @@
    "date": "2026-11-09",
    "channel": "instagram",
    "hour": 7,
-   "slug": "sit-t17-overnight-weight-gain-scale",
+   "slug": "sit-t23-stress-eating-commute-home",
    "series": "survival",
-   "series_no": 4,
+   "series_no": 3,
    "format": "situation_playbook"
   },
   {
    "date": "2026-11-09",
    "channel": "threads",
    "hour": 7,
-   "slug": "sit-t17-overnight-weight-gain-scale",
+   "slug": "sit-t23-stress-eating-commute-home",
    "series": "survival",
-   "series_no": 4,
+   "series_no": 3,
    "format": "situation_post"
   },
   {
@@ -199,24 +181,6 @@
    "format": "nag_post"
   },
   {
-   "date": "2026-11-11",
-   "channel": "instagram",
-   "hour": 16,
-   "slug": "sit-t04-office-snacks-birthday-cake",
-   "series": "survival",
-   "series_no": 5,
-   "format": "situation_playbook"
-  },
-  {
-   "date": "2026-11-11",
-   "channel": "threads",
-   "hour": 16,
-   "slug": "sit-t04-office-snacks-birthday-cake",
-   "series": "survival",
-   "series_no": 5,
-   "format": "situation_post"
-  },
-  {
    "date": "2026-11-12",
    "channel": "threads",
    "hour": 18,
@@ -229,18 +193,18 @@
    "date": "2026-11-13",
    "channel": "instagram",
    "hour": 15,
-   "slug": "sit-t02-fried-chicken-beer-night",
+   "slug": "sit-t17-overnight-weight-gain-scale",
    "series": "survival",
-   "series_no": 6,
+   "series_no": 4,
    "format": "situation_playbook"
   },
   {
    "date": "2026-11-13",
    "channel": "threads",
    "hour": 15,
-   "slug": "sit-t02-fried-chicken-beer-night",
+   "slug": "sit-t17-overnight-weight-gain-scale",
    "series": "survival",
-   "series_no": 6,
+   "series_no": 4,
    "format": "situation_post"
   },
   {
@@ -283,18 +247,18 @@
    "date": "2026-11-16",
    "channel": "instagram",
    "hour": 7,
-   "slug": "sit-t22-weight-loss-plateau-scale",
+   "slug": "sit-t04-office-snacks-birthday-cake",
    "series": "survival",
-   "series_no": 7,
+   "series_no": 5,
    "format": "situation_playbook"
   },
   {
    "date": "2026-11-16",
    "channel": "threads",
    "hour": 7,
-   "slug": "sit-t22-weight-loss-plateau-scale",
+   "slug": "sit-t04-office-snacks-birthday-cake",
    "series": "survival",
-   "series_no": 7,
+   "series_no": 5,
    "format": "situation_post"
   },
   {
@@ -314,24 +278,6 @@
    "series": "nag",
    "series_no": 15,
    "format": "nag_post"
-  },
-  {
-   "date": "2026-11-18",
-   "channel": "instagram",
-   "hour": 16,
-   "slug": "sit-t13-late-night-snack-craving",
-   "series": "survival",
-   "series_no": 8,
-   "format": "situation_playbook"
-  },
-  {
-   "date": "2026-11-18",
-   "channel": "threads",
-   "hour": 16,
-   "slug": "sit-t13-late-night-snack-craving",
-   "series": "survival",
-   "series_no": 8,
-   "format": "situation_post"
   },
   {
    "date": "2026-11-18",
@@ -355,18 +301,18 @@
    "date": "2026-11-20",
    "channel": "instagram",
    "hour": 15,
-   "slug": "sit-t03-wedding-hotel-buffet",
+   "slug": "sit-t02-fried-chicken-beer-night",
    "series": "survival",
-   "series_no": 9,
+   "series_no": 6,
    "format": "situation_playbook"
   },
   {
    "date": "2026-11-20",
    "channel": "threads",
    "hour": 15,
-   "slug": "sit-t03-wedding-hotel-buffet",
+   "slug": "sit-t02-fried-chicken-beer-night",
    "series": "survival",
-   "series_no": 9,
+   "series_no": 6,
    "format": "situation_post"
   },
   {
@@ -391,18 +337,18 @@
    "date": "2026-11-23",
    "channel": "instagram",
    "hour": 7,
-   "slug": "sit-t10-sleep-deprived-morning-appetite",
+   "slug": "sit-t22-weight-loss-plateau-scale",
    "series": "survival",
-   "series_no": 10,
+   "series_no": 7,
    "format": "situation_playbook"
   },
   {
    "date": "2026-11-23",
    "channel": "threads",
    "hour": 7,
-   "slug": "sit-t10-sleep-deprived-morning-appetite",
+   "slug": "sit-t22-weight-loss-plateau-scale",
    "series": "survival",
-   "series_no": 10,
+   "series_no": 7,
    "format": "situation_post"
   },
   {
@@ -424,24 +370,6 @@
    "format": "nag_post"
   },
   {
-   "date": "2026-11-25",
-   "channel": "instagram",
-   "hour": 16,
-   "slug": "sit-t24-monday-reset-after-weekend",
-   "series": "survival",
-   "series_no": 11,
-   "format": "situation_playbook"
-  },
-  {
-   "date": "2026-11-25",
-   "channel": "threads",
-   "hour": 16,
-   "slug": "sit-t24-monday-reset-after-weekend",
-   "series": "survival",
-   "series_no": 11,
-   "format": "situation_post"
-  },
-  {
    "date": "2026-11-26",
    "channel": "threads",
    "hour": 18,
@@ -454,36 +382,36 @@
    "date": "2026-11-27",
    "channel": "instagram",
    "hour": 15,
-   "slug": "sit-t09-weekend-late-brunch",
+   "slug": "sit-t13-late-night-snack-craving",
    "series": "survival",
-   "series_no": 12,
+   "series_no": 8,
    "format": "situation_playbook"
   },
   {
    "date": "2026-11-27",
    "channel": "threads",
    "hour": 15,
-   "slug": "sit-t09-weekend-late-brunch",
+   "slug": "sit-t13-late-night-snack-craving",
    "series": "survival",
-   "series_no": 12,
+   "series_no": 8,
    "format": "situation_post"
   },
   {
    "date": "2026-11-30",
    "channel": "instagram",
    "hour": 7,
-   "slug": "sit-t05-food-delivery-app-order",
+   "slug": "sit-t03-wedding-hotel-buffet",
    "series": "survival",
-   "series_no": 13,
+   "series_no": 9,
    "format": "situation_playbook"
   },
   {
    "date": "2026-11-30",
    "channel": "threads",
    "hour": 7,
-   "slug": "sit-t05-food-delivery-app-order",
+   "slug": "sit-t03-wedding-hotel-buffet",
    "series": "survival",
-   "series_no": 13,
+   "series_no": 9,
    "format": "situation_post"
   },
   {
@@ -505,30 +433,12 @@
    "format": "nag_post"
   },
   {
-   "date": "2026-12-02",
-   "channel": "instagram",
-   "hour": 16,
-   "slug": "sit-t15-convenience-store-meal-combo",
-   "series": "survival",
-   "series_no": 14,
-   "format": "situation_playbook"
-  },
-  {
-   "date": "2026-12-02",
-   "channel": "threads",
-   "hour": 16,
-   "slug": "sit-t15-convenience-store-meal-combo",
-   "series": "survival",
-   "series_no": 14,
-   "format": "situation_post"
-  },
-  {
    "date": "2026-12-04",
    "channel": "instagram",
    "hour": 15,
    "slug": "sit-t01-bbq-work-dinner-drinks",
    "series": "survival",
-   "series_no": 15,
+   "series_no": 10,
    "format": "situation_playbook"
   },
   {
@@ -537,25 +447,25 @@
    "hour": 15,
    "slug": "sit-t01-bbq-work-dinner-drinks",
    "series": "survival",
-   "series_no": 15,
+   "series_no": 10,
    "format": "situation_post"
   },
   {
    "date": "2026-12-07",
    "channel": "instagram",
    "hour": 7,
-   "slug": "sit-t28-premenstrual-food-cravings",
+   "slug": "sit-t29-december-year-end-parties",
    "series": "survival",
-   "series_no": 16,
+   "series_no": 11,
    "format": "situation_playbook"
   },
   {
    "date": "2026-12-07",
    "channel": "threads",
    "hour": 7,
-   "slug": "sit-t28-premenstrual-food-cravings",
+   "slug": "sit-t29-december-year-end-parties",
    "series": "survival",
-   "series_no": 16,
+   "series_no": 11,
    "format": "situation_post"
   },
   {
@@ -568,75 +478,39 @@
    "format": "nag_carousel"
   },
   {
-   "date": "2026-12-09",
-   "channel": "instagram",
-   "hour": 16,
-   "slug": "sit-t29-december-year-end-parties",
-   "series": "survival",
-   "series_no": 17,
-   "format": "situation_playbook"
-  },
-  {
-   "date": "2026-12-09",
-   "channel": "threads",
-   "hour": 16,
-   "slug": "sit-t29-december-year-end-parties",
-   "series": "survival",
-   "series_no": 17,
-   "format": "situation_post"
-  },
-  {
    "date": "2026-12-11",
    "channel": "instagram",
    "hour": 15,
-   "slug": "sit-t14-skipped-breakfast-first-meal",
+   "slug": "sit-t10-sleep-deprived-morning-appetite",
    "series": "survival",
-   "series_no": 18,
+   "series_no": 12,
    "format": "situation_playbook"
   },
   {
    "date": "2026-12-11",
    "channel": "threads",
    "hour": 15,
-   "slug": "sit-t14-skipped-breakfast-first-meal",
+   "slug": "sit-t10-sleep-deprived-morning-appetite",
    "series": "survival",
-   "series_no": 18,
+   "series_no": 12,
    "format": "situation_post"
   },
   {
    "date": "2026-12-14",
    "channel": "instagram",
    "hour": 7,
-   "slug": "sit-t18-meal-photo-food-log",
+   "slug": "sit-t09-weekend-late-brunch",
    "series": "survival",
-   "series_no": 19,
+   "series_no": 13,
    "format": "situation_playbook"
   },
   {
    "date": "2026-12-14",
    "channel": "threads",
    "hour": 7,
-   "slug": "sit-t18-meal-photo-food-log",
+   "slug": "sit-t09-weekend-late-brunch",
    "series": "survival",
-   "series_no": 19,
-   "format": "situation_post"
-  },
-  {
-   "date": "2026-12-16",
-   "channel": "instagram",
-   "hour": 16,
-   "slug": "sit-t19-daily-step-walking-tracker",
-   "series": "survival",
-   "series_no": 20,
-   "format": "situation_playbook"
-  },
-  {
-   "date": "2026-12-16",
-   "channel": "threads",
-   "hour": 16,
-   "slug": "sit-t19-daily-step-walking-tracker",
-   "series": "survival",
-   "series_no": 20,
+   "series_no": 13,
    "format": "situation_post"
   },
   {
@@ -645,7 +519,7 @@
    "hour": 15,
    "slug": "sit-t26-holiday-feast-family-table",
    "series": "survival",
-   "series_no": 21,
+   "series_no": 14,
    "format": "situation_playbook"
   },
   {
@@ -654,130 +528,256 @@
    "hour": 15,
    "slug": "sit-t26-holiday-feast-family-table",
    "series": "survival",
-   "series_no": 21,
+   "series_no": 14,
    "format": "situation_post"
   },
   {
    "date": "2026-12-21",
    "channel": "instagram",
    "hour": 7,
-   "slug": "sit-t06-late-dinner-overtime-night",
+   "slug": "sit-t24-monday-reset-after-weekend",
    "series": "survival",
-   "series_no": 22,
+   "series_no": 15,
    "format": "situation_playbook"
   },
   {
    "date": "2026-12-21",
    "channel": "threads",
    "hour": 7,
-   "slug": "sit-t06-late-dinner-overtime-night",
+   "slug": "sit-t24-monday-reset-after-weekend",
    "series": "survival",
-   "series_no": 22,
-   "format": "situation_post"
-  },
-  {
-   "date": "2026-12-23",
-   "channel": "instagram",
-   "hour": 16,
-   "slug": "sit-t30-cold-winter-indoor-walking",
-   "series": "survival",
-   "series_no": 23,
-   "format": "situation_playbook"
-  },
-  {
-   "date": "2026-12-23",
-   "channel": "threads",
-   "hour": 16,
-   "slug": "sit-t30-cold-winter-indoor-walking",
-   "series": "survival",
-   "series_no": 23,
+   "series_no": 15,
    "format": "situation_post"
   },
   {
    "date": "2026-12-25",
    "channel": "instagram",
    "hour": 15,
-   "slug": "sit-t20-sunday-weekly-review-planner",
+   "slug": "sit-t05-food-delivery-app-order",
    "series": "survival",
-   "series_no": 24,
+   "series_no": 16,
    "format": "situation_playbook"
   },
   {
    "date": "2026-12-25",
    "channel": "threads",
    "hour": 15,
-   "slug": "sit-t20-sunday-weekly-review-planner",
+   "slug": "sit-t05-food-delivery-app-order",
    "series": "survival",
-   "series_no": 24,
+   "series_no": 16,
    "format": "situation_post"
   },
   {
    "date": "2026-12-28",
    "channel": "instagram",
    "hour": 7,
-   "slug": "sit-t25-social-media-body-comparison",
+   "slug": "sit-t15-convenience-store-meal-combo",
    "series": "survival",
-   "series_no": 25,
+   "series_no": 17,
    "format": "situation_playbook"
   },
   {
    "date": "2026-12-28",
    "channel": "threads",
    "hour": 7,
-   "slug": "sit-t25-social-media-body-comparison",
+   "slug": "sit-t15-convenience-store-meal-combo",
    "series": "survival",
-   "series_no": 25,
-   "format": "situation_post"
-  },
-  {
-   "date": "2026-12-30",
-   "channel": "instagram",
-   "hour": 16,
-   "slug": "sit-t07-night-shift-work-meals",
-   "series": "survival",
-   "series_no": 26,
-   "format": "situation_playbook"
-  },
-  {
-   "date": "2026-12-30",
-   "channel": "threads",
-   "hour": 16,
-   "slug": "sit-t07-night-shift-work-meals",
-   "series": "survival",
-   "series_no": 26,
+   "series_no": 17,
    "format": "situation_post"
   },
   {
    "date": "2027-01-01",
    "channel": "instagram",
    "hour": 15,
-   "slug": "sit-t08-business-trip-jet-lag",
+   "slug": "sit-t28-premenstrual-food-cravings",
    "series": "survival",
-   "series_no": 27,
+   "series_no": 18,
    "format": "situation_playbook"
   },
   {
    "date": "2027-01-01",
    "channel": "threads",
    "hour": 15,
-   "slug": "sit-t08-business-trip-jet-lag",
+   "slug": "sit-t28-premenstrual-food-cravings",
    "series": "survival",
-   "series_no": 27,
+   "series_no": 18,
    "format": "situation_post"
   },
   {
    "date": "2027-01-04",
    "channel": "instagram",
    "hour": 7,
+   "slug": "sit-t14-skipped-breakfast-first-meal",
+   "series": "survival",
+   "series_no": 19,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2027-01-04",
+   "channel": "threads",
+   "hour": 7,
+   "slug": "sit-t14-skipped-breakfast-first-meal",
+   "series": "survival",
+   "series_no": 19,
+   "format": "situation_post"
+  },
+  {
+   "date": "2027-01-08",
+   "channel": "instagram",
+   "hour": 15,
+   "slug": "sit-t18-meal-photo-food-log",
+   "series": "survival",
+   "series_no": 20,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2027-01-08",
+   "channel": "threads",
+   "hour": 15,
+   "slug": "sit-t18-meal-photo-food-log",
+   "series": "survival",
+   "series_no": 20,
+   "format": "situation_post"
+  },
+  {
+   "date": "2027-01-11",
+   "channel": "instagram",
+   "hour": 7,
+   "slug": "sit-t19-daily-step-walking-tracker",
+   "series": "survival",
+   "series_no": 21,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2027-01-11",
+   "channel": "threads",
+   "hour": 7,
+   "slug": "sit-t19-daily-step-walking-tracker",
+   "series": "survival",
+   "series_no": 21,
+   "format": "situation_post"
+  },
+  {
+   "date": "2027-01-15",
+   "channel": "instagram",
+   "hour": 15,
+   "slug": "sit-t06-late-dinner-overtime-night",
+   "series": "survival",
+   "series_no": 22,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2027-01-15",
+   "channel": "threads",
+   "hour": 15,
+   "slug": "sit-t06-late-dinner-overtime-night",
+   "series": "survival",
+   "series_no": 22,
+   "format": "situation_post"
+  },
+  {
+   "date": "2027-01-18",
+   "channel": "instagram",
+   "hour": 7,
+   "slug": "sit-t30-cold-winter-indoor-walking",
+   "series": "survival",
+   "series_no": 23,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2027-01-18",
+   "channel": "threads",
+   "hour": 7,
+   "slug": "sit-t30-cold-winter-indoor-walking",
+   "series": "survival",
+   "series_no": 23,
+   "format": "situation_post"
+  },
+  {
+   "date": "2027-01-22",
+   "channel": "instagram",
+   "hour": 15,
+   "slug": "sit-t20-sunday-weekly-review-planner",
+   "series": "survival",
+   "series_no": 24,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2027-01-22",
+   "channel": "threads",
+   "hour": 15,
+   "slug": "sit-t20-sunday-weekly-review-planner",
+   "series": "survival",
+   "series_no": 24,
+   "format": "situation_post"
+  },
+  {
+   "date": "2027-01-25",
+   "channel": "instagram",
+   "hour": 7,
+   "slug": "sit-t25-social-media-body-comparison",
+   "series": "survival",
+   "series_no": 25,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2027-01-25",
+   "channel": "threads",
+   "hour": 7,
+   "slug": "sit-t25-social-media-body-comparison",
+   "series": "survival",
+   "series_no": 25,
+   "format": "situation_post"
+  },
+  {
+   "date": "2027-01-29",
+   "channel": "instagram",
+   "hour": 15,
+   "slug": "sit-t07-night-shift-work-meals",
+   "series": "survival",
+   "series_no": 26,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2027-01-29",
+   "channel": "threads",
+   "hour": 15,
+   "slug": "sit-t07-night-shift-work-meals",
+   "series": "survival",
+   "series_no": 26,
+   "format": "situation_post"
+  },
+  {
+   "date": "2027-02-01",
+   "channel": "instagram",
+   "hour": 7,
+   "slug": "sit-t08-business-trip-jet-lag",
+   "series": "survival",
+   "series_no": 27,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2027-02-01",
+   "channel": "threads",
+   "hour": 7,
+   "slug": "sit-t08-business-trip-jet-lag",
+   "series": "survival",
+   "series_no": 27,
+   "format": "situation_post"
+  },
+  {
+   "date": "2027-02-05",
+   "channel": "instagram",
+   "hour": 15,
    "slug": "sit-t27-summer-resort-vacation",
    "series": "survival",
    "series_no": 28,
    "format": "situation_playbook"
   },
   {
-   "date": "2027-01-04",
+   "date": "2027-02-05",
    "channel": "threads",
-   "hour": 7,
+   "hour": 15,
    "slug": "sit-t27-summer-resort-vacation",
    "series": "survival",
    "series_no": 28,
