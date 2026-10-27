@@ -57,3 +57,14 @@ test('12시간제 원문 시각을 24시간제로 옮긴 건 허용, 시각 자�
   const bad = lint({ ...base, posts: ['Perds 21 kilos.'] }, src).errors;
   assert.ok(bad.some((m) => m.includes('21')), bad.join(';'));
 });
+
+test('독일어 「15 Uhr」·인도네시아어 「21.40」 장면 시각은 허용, 단위 붙은 수치는 막음', () => {
+  const src = { _text: 'A small snack helps.', kind: 'app_situation', key_stats: [] };
+  const base = { date: '2026-11-04', channel: 'threads', hashtags: [], slides: [], first_reply: '', slug: 'sit-t12-afternoon-snack-slump' };
+  const de = lint({ ...base, lang: 'de', posts: ['Heißhunger um 15 Uhr? Dienstag, 20.30 Uhr.'] }, src).errors;
+  assert.ok(!de.some((m) => m.includes('숫자')), de.join(';'));
+  const id = lint({ ...base, lang: 'id', posts: ['Jumat, 21.40, jempol di tombol pesan.'] }, src).errors;
+  assert.ok(!id.some((m) => m.includes('숫자')), id.join(';'));
+  const bad = lint({ ...base, lang: 'id', posts: ['Turun 12.50 kg dalam sebulan.'] }, src).errors;
+  assert.ok(bad.some((m) => m.includes('12.50')), bad.join(';'));
+});
