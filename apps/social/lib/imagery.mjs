@@ -17,10 +17,13 @@ const GEN_RULES = 'Natural editorial photograph, soft daylight, realistic, calm 
 const words = (t) => new Set((t || '').toLowerCase().match(/[a-z]{3,}/g) || []);
 
 /** 키워드 겹침으로 후보 15장(최근 쓴 사진 제외). */
+// 체중계 표시창(숫자)이 보이는 사진 — 「체중 숫자를 이미지에 보이지 말 것」 안전 기준으로 리뷰 반려가 반복됐다(2026-10-27)
+const BLOCKED = new Set(['art_0065.jpg', 'IMG_WT_001.jpg']);
+
 export function candidates(brief, slug, recent = new Set()) {
   const q = words(`${brief} ${slug.replace(/-/g, ' ')}`);
   return INDEX
-    .filter((x) => !recent.has(x.file))
+    .filter((x) => !recent.has(x.file) && !BLOCKED.has(x.file))
     .map((x) => ({ x, score: [...words(`${x.desc} ${x.tags.join(' ')}`)].filter((w) => q.has(w)).length }))
     .sort((a, b) => b.score - a.score)
     .slice(0, 15)
