@@ -264,7 +264,7 @@ function card(d) {
   <img class="logo" src="${LOGO_W}" style="filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))">
   <div style="position:absolute;left:88px;right:300px;top:64%;bottom:${src ? 120 : 80}px;display:flex;flex-direction:column;justify-content:center">
     <div class="bar" style="margin-bottom:28px"></div>
-    <h1 style="font-size:${tier(head, d.lang, [78, 68, 58], [24, 44])}px">${tx(d, head)}</h1>
+    <h1 style="font-size:${lineFit(head, d.lang, tier(head, d.lang, [78, 68, 58], [24, 44]), 1080 - 88 - 300)}px">${tx(d, head)}</h1>
   </div>
   ${src ? `<div class="src" style="color:#fff;bottom:56px">${esc(src)}</div>` : ''}
   <img class="char" src="${CHAR.peek}" style="width:190px;bottom:48px">
@@ -274,7 +274,7 @@ function card(d) {
   <div class="glow"></div><img class="logo" src="${LOGO_W}">
   <div style="margin:auto 0;position:relative;padding-bottom:120px">
     <div class="bar"></div>
-    <h1 style="font-size:${tier(head, d.lang, [96, 84, 70], [28, 50])}px">${tx(d, head)}</h1>
+    <h1 style="font-size:${lineFit(head, d.lang, tier(head, d.lang, [96, 84, 70], [28, 50]), 1080 - 176)}px">${tx(d, head)}</h1>
   </div>
   ${src ? `<div class="src" style="color:#fff">${esc(src)}</div>` : ''}
   <img class="char" src="${CHAR.peek}">
