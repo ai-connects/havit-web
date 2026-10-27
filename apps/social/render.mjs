@@ -116,11 +116,17 @@ window.addEventListener('load', async () => {
   for (const img of document.images) if (!img.complete || !img.naturalWidth) issues.push('이미지실패:' + img.src.split('/').pop());
   // 그 언어 글자를 실제로 그릴 폰트가 로드됐는지(라틴 언어는 Poppins, CJK 는 각 Noto). 미로드면 대체 폰트(□·다른 모양)로 찍힌다.
   const SAMPLE = { ko: ['Noto Sans KR', '한글'], ja: ['Noto Sans JP', 'あア漢'], 'zh-tw': ['Noto Sans TC', '健康'], zh: ['Noto Sans SC', '健康'] };
-  const [fam, txt] = SAMPLE[document.documentElement.lang] || ['Poppins', 'Abc'];
+  const [fam, sample] = SAMPLE[document.documentElement.lang] || ['Poppins', 'Abc'];
+  // CJK 웹폰트는 글자 범위별로 쪼개 받아서, 페이지에 없는 글자(「한글」)는 영영 로드되지 않는다 — 검사는 이 장에 실제로 찍힌 글자로
+  const own = (document.body.innerText.match(/[\p{Script=Hangul}\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/gu) || []).slice(0, 30).join('');
+  const txt = fam === 'Poppins' ? sample : own || sample;
+  // 이 장의 글자 조각을 실제로 받아 둔 뒤 검사(늦게 오는 조각을 미로드로 오판하지 않게)
+  await Promise.all(['500', '700', '900'].map((w) => document.fonts.load(w + ' 40px "' + fam + '"', txt).catch(() => null)));
   // 웹폰트가 안 들어와도 같은 글꼴의 설치본(Noto CJK)이 있으면 통과 — 폭이 기본 고정폭과 다르면 설치돼 있는 것.
   const LOCAL = { ko: 'Noto Sans CJK KR', ja: 'Noto Sans CJK JP', 'zh-tw': 'Noto Sans CJK TC', zh: 'Noto Sans CJK SC' }[document.documentElement.lang];
   const hasLocal = (f) => { const c = document.createElement('canvas').getContext('2d'); c.font = '40px "' + f + '", monospace'; const a = c.measureText(txt).width; c.font = '40px monospace'; return a !== c.measureText(txt).width; };
-  if (!document.fonts.check('900 40px "' + fam + '"', txt) && !(LOCAL && hasLocal(LOCAL))) issues.push('폰트미로드:' + fam);
+  // 채팅 장처럼 굵은 제목이 없는 장은 900 굵기를 아예 안 불러온다 — 쓴 굵기 중 하나라도 로드됐으면 통과
+  if (!['500', '700', '900'].some((w) => document.fonts.check(w + ' 40px "' + fam + '"', txt)) && !(LOCAL && hasLocal(LOCAL))) issues.push('폰트미로드:' + fam);
   document.title = 'QA:' + JSON.stringify(issues);
 });
 </script></head><body>${inner}</body></html>`;
