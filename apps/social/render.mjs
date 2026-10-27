@@ -65,7 +65,13 @@ const oxify = (html) => html
   .replace(OX_PAIR, '\u0001$1\u0002$2\u0001$3\u0002')
   .replace(OX_ONE, '\u0001$1\u0002')
   .replace(/\u0001([OX])\u0002/g, '<span class="ox">$1</span>');
-const tx = (d, t) => (QUIZ.has(d.format) ? oxify(nl(t)) : nl(t));
+// 프랑스어 「? ! : ;」 앞과 « » 안쪽 공백은 줄이 갈리면 안 된다(2026-10-27 리뷰: 표지 둘째 줄이 「?」로 시작) → 좁은 줄바꿈 없는 공백
+const NNBSP = ' ';
+const frTypo = (t) => String(t || '').replace(/[  ]+([?!:;»])/g, `${NNBSP}$1`).replace(/«[  ]+/g, `«${NNBSP}`);
+const tx = (d, t) => {
+  const s = d.lang === 'fr' ? frTypo(t) : t;
+  return QUIZ.has(d.format) ? oxify(nl(s)) : nl(s);
+};
 
 const FONT = {
   // 웹폰트가 늦거나 실패하면(러너에서 Noto Sans JP 가 반복 실패, 2026-10-25) 설치된 Noto CJK(fonts-noto-cjk)로 그린다.
@@ -140,6 +146,13 @@ const tier = (t, lang, [big, mid, small], [a, b]) => {
   return n <= a * k ? big : n <= b * k ? mid : small;
 };
 
+/** CJK 제목을 생성기가 줄을 나눠 쓴 경우, 가장 긴 줄이 한 줄에 들어가는 크기까지 줄인다 — 넘치면 낱말 중간에서 갈린다(2026-10-27 ja 「デリバリーアプ／リ」). */
+const lineFit = (t, lang, size, width) => {
+  if (!['ko', 'ja', 'zh-tw', 'zh'].includes(lang) || !String(t || '').includes('\n')) return size;
+  const em = Math.max(...String(t).split('\n').map((l) => [...l].reduce((a, c) => a + (/[\u0000-ɏ]/.test(c) ? 0.6 : 1), 0)));
+  return Math.max(56, Math.min(size, Math.floor(width / (em * 1.02))));
+};
+
 /** 초안에 정해진 사진(imagery.mjs): 라이브러리 URL 또는 AI 생성 파일. 없으면 null → 브랜드 디자인. */
 let CURRENT_DIR = '';
 const photoUrl = (d) => d.photo?.url || (d.photo?.path ? file(path.join(CURRENT_DIR, d.photo.path)) : null);
@@ -152,7 +165,7 @@ function cover(d, s) {
   <img class="logo" src="${LOGO_W}">
   <div style="margin-top:auto;position:relative;padding-bottom:${hero ? 150 : 120}px;padding-right:${hero ? 250 : 340}px">
     <div class="bar"></div>
-    <h1 style="font-size:${tier(s.title, d.lang, [108, 92, 78], [16, 28])}px;color:#D4FF50">${tx(d, s.title)}</h1>
+    <h1 style="font-size:${lineFit(s.title, d.lang, tier(s.title, d.lang, [108, 92, 78], [16, 28]), 1080 - 176 - (hero ? 250 : 340))}px;color:#D4FF50">${tx(d, s.title)}</h1>
     ${s.body ? `<p style="font-size:42px;margin-top:28px;opacity:.9">${tx(d, s.body)}</p>` : ''}
   </div>
   <img class="char" src="${CHAR.knight}" style="${hero ? '' : 'width:360px;right:64px;bottom:96px'}">
@@ -268,12 +281,19 @@ function card(d) {
 </div>`);
 }
 
+// 헤드리스 Chrome 이 가끔 끝나지 않고 멈춘다(2026-10-27 로컬에서 1시간 47분 정지) — 시간 제한을 두고 한 번 더 시도
+const chrome = (args, opts) => {
+  for (let t = 0; ; t++) {
+    try { return execFileSync(CHROME, args, { ...opts, timeout: 60000, killSignal: 'SIGKILL' }); } catch (e) { if (t >= 2) throw e; }
+  }
+};
+
 function shoot(html, out) {
   const tmp = out.replace(/\.png$/, '.html');
   writeFileSync(tmp, html);
-  const base = [CHROME, '--headless=new', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=1', `--window-size=${W},${H}`, '--virtual-time-budget=8000'];
-  const dom = execFileSync(base[0], [...base.slice(1), '--dump-dom', file(tmp)], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
-  execFileSync(base[0], [...base.slice(1), `--screenshot=${out}`, file(tmp)], { stdio: 'ignore' });
+  const base = ['--headless=new', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=1', `--window-size=${W},${H}`, '--virtual-time-budget=8000'];
+  const dom = chrome([...base, '--dump-dom', file(tmp)], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
+  chrome([...base, `--screenshot=${out}`, file(tmp)], { stdio: 'ignore' });
   if (!existsSync(out)) throw new Error(`렌더 실패: ${out}`);
   const m = dom.match(/<title>QA:(.*?)<\/title>/s);
   return m ? JSON.parse(m[1].replace(/&quot;/g, '"').replace(/&amp;/g, '&')) : ['QA 결과 없음'];
