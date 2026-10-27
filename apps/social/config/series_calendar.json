@@ -74,6 +74,15 @@
   },
   {
    "date": "2026-11-04",
+   "channel": "instagram",
+   "hour": 16,
+   "slug": "sit-t12-afternoon-snack-slump",
+   "series": "survival",
+   "series_no": 2,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2026-11-04",
    "channel": "threads",
    "hour": 16,
    "slug": "sit-t12-afternoon-snack-slump",
@@ -191,6 +200,15 @@
   },
   {
    "date": "2026-11-11",
+   "channel": "instagram",
+   "hour": 16,
+   "slug": "sit-t04-office-snacks-birthday-cake",
+   "series": "survival",
+   "series_no": 5,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2026-11-11",
    "channel": "threads",
    "hour": 16,
    "slug": "sit-t04-office-snacks-birthday-cake",
@@ -299,6 +317,15 @@
   },
   {
    "date": "2026-11-18",
+   "channel": "instagram",
+   "hour": 16,
+   "slug": "sit-t13-late-night-snack-craving",
+   "series": "survival",
+   "series_no": 8,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2026-11-18",
    "channel": "threads",
    "hour": 16,
    "slug": "sit-t13-late-night-snack-craving",
@@ -398,6 +425,15 @@
   },
   {
    "date": "2026-11-25",
+   "channel": "instagram",
+   "hour": 16,
+   "slug": "sit-t24-monday-reset-after-weekend",
+   "series": "survival",
+   "series_no": 11,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2026-11-25",
    "channel": "threads",
    "hour": 16,
    "slug": "sit-t24-monday-reset-after-weekend",
@@ -470,6 +506,15 @@
   },
   {
    "date": "2026-12-02",
+   "channel": "instagram",
+   "hour": 16,
+   "slug": "sit-t15-convenience-store-meal-combo",
+   "series": "survival",
+   "series_no": 14,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2026-12-02",
    "channel": "threads",
    "hour": 16,
    "slug": "sit-t15-convenience-store-meal-combo",
@@ -524,6 +569,15 @@
   },
   {
    "date": "2026-12-09",
+   "channel": "instagram",
+   "hour": 16,
+   "slug": "sit-t29-december-year-end-parties",
+   "series": "survival",
+   "series_no": 17,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2026-12-09",
    "channel": "threads",
    "hour": 16,
    "slug": "sit-t29-december-year-end-parties",
@@ -566,6 +620,15 @@
    "series": "survival",
    "series_no": 19,
    "format": "situation_post"
+  },
+  {
+   "date": "2026-12-16",
+   "channel": "instagram",
+   "hour": 16,
+   "slug": "sit-t19-daily-step-walking-tracker",
+   "series": "survival",
+   "series_no": 20,
+   "format": "situation_playbook"
   },
   {
    "date": "2026-12-16",
@@ -614,6 +677,15 @@
   },
   {
    "date": "2026-12-23",
+   "channel": "instagram",
+   "hour": 16,
+   "slug": "sit-t30-cold-winter-indoor-walking",
+   "series": "survival",
+   "series_no": 23,
+   "format": "situation_playbook"
+  },
+  {
+   "date": "2026-12-23",
    "channel": "threads",
    "hour": 16,
    "slug": "sit-t30-cold-winter-indoor-walking",
@@ -656,6 +728,15 @@
    "series": "survival",
    "series_no": 25,
    "format": "situation_post"
+  },
+  {
+   "date": "2026-12-30",
+   "channel": "instagram",
+   "hour": 16,
+   "slug": "sit-t07-night-shift-work-meals",
+   "series": "survival",
+   "series_no": 26,
+   "format": "situation_playbook"
   },
   {
    "date": "2026-12-30",
