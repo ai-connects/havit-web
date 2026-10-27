@@ -45,7 +45,7 @@ const FORMAT_HINT = {
 // 상황별 시리즈 이름·하비 첫 줄(언어마다 고정 — 시리즈로 알아보게).
 const SERIES = {
   app_situation: { ko: '하비의 상황별 생존 가이드', en: "HAVI's Survival Guide", ja: 'HAVIのシーン別サバイバルガイド', 'zh-tw': 'HAVI 情境生存指南', es: 'Guía de supervivencia de HAVI', 'pt-br': 'Guia de sobrevivência HAVI', id: 'Panduan Bertahan ala HAVI', de: 'HAVIs Überlebensguide', fr: 'Le guide de survie de HAVI' },
-  app_nag: { ko: 'AI 잔소리가 필요할 때', en: 'When you need a little AI nagging', ja: 'AIのおせっかいが必要なとき', 'zh-tw': '需要 AI 碎碎念的時候', es: 'Cuando necesitas un empujoncito de la IA', 'pt-br': 'Quando você precisa de um puxão de orelha da IA', id: 'Saat kamu butuh omelan AI', de: 'Dein KI-Schubs', fr: "Quand tu as besoin qu'une IA te secoue un peu" },
+  app_nag: { ko: 'AI 잔소리가 필요할 때', en: 'When you need a little AI nagging', ja: 'AIのおせっかいが必要なとき', 'zh-tw': '需要 AI 碎碎念的時候', es: 'Cuando necesitas un empujoncito de la IA', 'pt-br': 'Quando você precisa de um puxão de orelha da IA', id: 'Saat kamu butuh omelan AI', de: 'Serie „Dein KI-Schubs“ ·', fr: "Quand tu as besoin qu'une IA te secoue un peu" },
 };
 const SERIES_NOTE = ' Names: the app is "HAVIT"; "HAVI" is only the coach character — never write "HAVI app". Write grammatical, natural sentences a native speaker would post.';
 const NAG_OPENER = { ko: '잠깐, 하비예요.', en: "Hold on, it's HAVI.", ja: 'ちょっと待って、HAVIです。', 'zh-tw': '等一下，我是 HAVI。', es: 'Espera, soy HAVI.', 'pt-br': 'Pera aí, aqui é HAVI.', id: 'Tunggu dulu, ini HAVI.', de: 'Moment mal, hier ist HAVI.', fr: "Attends, c'est HAVI." };
