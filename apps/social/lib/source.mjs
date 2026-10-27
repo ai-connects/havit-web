@@ -55,9 +55,17 @@ function loadAppArticle(slug, lang) {
 // 상황별 시리즈(config/situations.json) — 「하비의 상황별 생존 가이드」(sit-) · 「AI 잔소리가 필요할 때」(nag-).
 // 원문은 전문가 패널 노하우(ko·en 두 판). ko 외 언어는 en 판을 원문으로 그 언어 원어민처럼 쓴다(숫자는 두 판이 같다).
 export const isSituation = (slug) => /^(sit|nag)-/.test(slug);
+// 자동 보충(series_refill.mjs)이 기획한 주제·편성은 레포가 아니라 큐(S3 social-queue/series/)에 쌓인다 — 설정과 합쳐 읽는다.
+const AUTO = path.join(ROOT, 'queue', 'series');
+const autoJson = (name) => { try { return readJson(path.join(AUTO, `${name}.json`)); } catch { return null; } };
+export const situationItems = () => [...config('situations').items, ...(autoJson('auto_situations')?.items || [])];
+export const seriesCalendar = () => {
+  const c = config('series_calendar');
+  return { ...c, entries: [...c.entries, ...(autoJson('auto_calendar')?.entries || [])] };
+};
 let SITUATIONS = null;
 export const situation = (id) => {
-  SITUATIONS ||= new Map(config('situations').items.map((x) => [x.id, x]));
+  SITUATIONS ||= new Map(situationItems().map((x) => [x.id, x]));
   const s = SITUATIONS.get(id);
   if (!s) throw new Error(`상황 시리즈에 없다: ${id}`);
   return s;
