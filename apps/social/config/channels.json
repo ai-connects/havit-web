@@ -42,16 +42,16 @@
       "route": "en",
       "disclaimer": "General info, not medical advice. If you're dealing with disordered eating or a health condition, talk to a professional.",
       "home": "https://www.aihavit.com/",
-      "tz": "America/New_York",
+      "tz": "America/Los_Angeles",
       "post_hours": {
-        "instagram": 9,
+        "instagram": 8,
         "instagram_2": 12,
-        "instagram_3": 18,
-        "instagram_4": 21,
-        "threads": 8,
-        "threads_2": 13,
-        "threads_3": 19,
-        "threads_4": 22
+        "instagram_3": 17,
+        "instagram_4": 20,
+        "threads": 7,
+        "threads_2": 12,
+        "threads_3": 18,
+        "threads_4": 21
       },
       "brand_tag": "HAVITapp",
       "swipe": "Swipe →"
