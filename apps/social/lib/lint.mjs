@@ -15,6 +15,13 @@ export function numbers(text) {
 
 const stripUrls = (s) => norm(s).replace(/https?:\/\/\S+/g, ' ');
 const stripTags = (s) => s.replace(/#[^\s#]+/g, ' ');
+// 장면 시각(13h·18h30·11:40 pm·밤 11시)·응급번호·미성년 안내는 근거 수치가 아니다. "16h de jeûne"·"8시간" 같은 기간은 남긴다.
+const stripScene = (s) => s
+  .replace(/(?<![\d.,])\d{1,2}\s?h(?:\s?\d{2})?(?![\p{L}\d])(?!\s*(?:de\b|d['’]))/gu, ' ')
+  .replace(/(?<![\d.,])\d{1,2}:\d{2}(?:\s?[ap]\.?m\.?)?/gi, ' ').replace(/(?<![\d.,])\d{1,2}\s?[ap]\.?m\b\.?/gi, ' ')
+  .replace(/\d{1,2}\s?시(?!간)(?:\s?\d{1,2}\s?분)?/g, ' ')
+  .replace(/le 15 ou le 112|\b(?:911|112|119)\b/g, ' ')
+  .replace(/moins de 18 ans|under 18|18세 미만/gi, ' ');
 
 function postText(d) {
   return [d.card_text || '', ...(d.posts || []), ...(d.slides || []).flatMap((s) => [s.title, s.body]), d.first_reply || '', d.alt_text || ''].join('\n');
@@ -33,11 +40,12 @@ export function lint(draft, source) {
   // 상황 시리즈 회차 번호(EP.12)도 허용
   const allowed = new Set([...numbers(source._text), ...Array.from({ length: 10 }, (_, i) => String(i + 1)), '2026', ...(draft.series_no ? [String(draft.series_no)] : [])]);
   // 12시간제 원문(9 p.m.)을 24시간제(21 h·21:00)로 옮긴 시각도 허용 — 시각 표기 자리에서만
+  const pm = new Set([...norm(source._text).matchAll(/(?<!\d)(\d{1,2})(?::\d{2})?(?:\s?[–-]\s?(\d{1,2})(?::\d{2})?)?\s?p\.?\s?m\b/gi)].flatMap((m) => [m[1], m[2]].filter(Boolean)));
   const clockText = [all, ...(draft.evidence || []).map((e) => e.value)].join('\n');
   for (const m of norm(clockText).matchAll(/(?<!\d)(\d{1,2})(?:\s?[–-]\s?(\d{1,2}))?\s?(?:h(?![a-zA-Z])|:\d{2})/g)) {
-    for (const n of [m[1], m[2]].filter(Boolean)) if (Number(n) >= 13 && Number(n) <= 23 && allowed.has(String(n - 12))) allowed.add(n);
+    for (const n of [m[1], m[2]].filter(Boolean)) if (Number(n) >= 13 && Number(n) <= 23 && pm.has(String(n - 12))) allowed.add(n);
   }
-  for (const n of numbers(stripTags(stripUrls(all)))) {
+  for (const n of numbers(stripScene(stripTags(stripUrls(all))))) {
     if (!allowed.has(n)) errors.push(`원문에 없는 숫자: ${n}`);
   }
   for (const e of draft.evidence || []) {

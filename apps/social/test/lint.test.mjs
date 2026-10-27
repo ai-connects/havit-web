@@ -84,3 +84,11 @@ test('한국어 금지어는 낱말 앞쪽 경계로(정기적·주기적은 통
   const bad = good(); bad.posts = ['기적 같은 변화가 생겨요. 어떤 음식이 떠올랐나요?'];
   assert.match(lint(bad, src).errors.join(), /금지어: 기적/);
 });
+
+test('장면 시각·응급번호·미성년 안내는 숫자 검사에서 빼고, 기간·수치 주장은 잡는다', async () => {
+  const { lint } = await import('../lib/lint.mjs');
+  const nums = (lang, t) => lint({ channel: 'threads', lang, posts: [t] }, { _text: '' }).errors.filter((e) => e.includes('숫자'));
+  for (const [l, t] of [['fr', '18h30, tu fermes ton ordi'], ['fr', 'Il est 16 h, tu'], ['fr', 'Ce rappel à 13 h 05'], ['fr', 'appelle le 15 ou le 112'],
+    ['fr', 'moins de 18 ans'], ['en', "It's 11:40 pm"], ['en', '3 pm snack'], ['ko', '밤 11시, 야식 대신']]) assert.deepEqual(nums(l, t), [], t);
+  for (const [l, t] of [['fr', '16h de jeûne'], ['fr', "20h d'activité"], ['fr', '25 ans'], ['en', '30% more'], ['ko', '13시간 단식']]) assert.ok(nums(l, t).length, t);
+});

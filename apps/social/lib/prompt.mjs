@@ -66,7 +66,7 @@ export function buildPrompt(entry, source, link) {
       : `"${disclaimer}" — place: ${ch.channels[entry.channel].disclaimer}`,
     channel: entry.channel,
     format: entry.format,
-    channel_rules: `${rule}\nFormat guidance: ${(FORMAT_HINT[entry.format] || '').replace(/\{series\}/g, SERIES[source.kind]?.[entry.lang] || '').replace(/\{opener\}/g, NAG_OPENER[entry.lang] || '').replace(/\{n\}/g, String(entry.series_no || ''))}${SERIES[source.kind] ? SERIES_NOTE : ''}${source.kind?.startsWith('app_') ? APP_SOURCE_RULES : ''}`,
+    channel_rules: `${rule}\nFormat guidance: ${(FORMAT_HINT[entry.format] || '').replace(/\{series\}/g, SERIES[source.kind]?.[entry.lang] || '').replace(/\{opener\}/g, NAG_OPENER[entry.lang] || '').replace(/\{n\}/g, String(entry.series_no || ''))}${SERIES[source.kind] ? SERIES_NOTE : ''}${source.kind?.startsWith('app_') ? APP_SOURCE_RULES : ''}${lang.style ? `\nLanguage notes (${entry.lang}): ${lang.style}` : ''}`,
     segment: entry.segment,
     brand_tag: `#${lang.brand_tag || 'HAVIT'}`,
     swipe: `"${lang.swipe || 'Swipe →'}"`,
