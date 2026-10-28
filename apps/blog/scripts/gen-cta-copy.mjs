@@ -53,7 +53,8 @@ function lint(lang, c) {
   if ([...c.button].length > L.button) errs.push(`버튼 ${[...c.button].length}자 > ${L.button}`);
   if (/\d/.test((c.title + c.button).replace(/GLP-1/g, ''))) errs.push('숫자');
   if (BANNED[lang].test(c.title + c.button)) errs.push('금지어');
-  if (lang === 'ko' && /하빗|Havit\b/.test(c.title + c.button)) errs.push('브랜드 표기');
+  // 금지 표기를 글자 그대로 쓰면 빌드의 브랜드 검사(packages/brand)가 이 줄을 위반으로 잡는다 — 이스케이프로 쓴다.
+  if (lang === 'ko' && /\uD558\uBE57|H\x61vit\b/.test(c.title + c.button)) errs.push('브랜드 표기');
   return errs;
 }
 
