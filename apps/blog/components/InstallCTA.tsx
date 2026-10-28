@@ -5,10 +5,13 @@ import { asset, localizedShot, storeBadge } from '@/lib/site';
 import {
   PLAY_STORE_URL, appLinkFor, appStoreUrlFor, destinationOf, storeOf, trackGaEvent, useMobileOS,
 } from '@/lib/download-links';
+import { contextualCta } from '@/lib/cta-copy';
 
 interface Props {
   lang: LangKey;
   articleId: string;
+  /** 맞춤 문구 조회용(lib/cta-copy.ts) — inline 블록 제목에만 쓴다. */
+  slug?: string;
   variant?: 'inline' | 'sticky';
 }
 
@@ -16,7 +19,7 @@ interface Props {
  * PRD §16.2 — Button.primary 정량 spec.
  * inline: 화면당 1개. sticky: mobile only (md:hidden), 화면당 1개. 합계 ≤ 2.
  */
-export default function InstallCTA({ lang, articleId, variant = 'inline' }: Props) {
+export default function InstallCTA({ lang, articleId, slug, variant = 'inline' }: Props) {
   const os = useMobileOS();
   const context = { lang, article_id: articleId };
 
@@ -53,12 +56,13 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
   }
 
   const placement = 'blog_article';
+  const ctx = slug ? contextualCta(slug, toShortLang(lang)) : null;
   // app.aihavit.com 은 누른 배지가 아니라 기기 OS 로 스토어를 고른다. 배지가 기기와 다르면(Android 에서 App Store 배지)
   // 직링크로 보내 누른 스토어가 열리게 한다 — 그 기기에선 어차피 설치할 수 없어 귀속할 것도 없다.
   const badgeHref = (store: 'app_store' | 'google_play', directUrl: string) =>
     os && storeOf(os) === store ? appLinkFor(os, placement) : directUrl;
   const onBadgeClick = (store: 'app_store' | 'google_play') => () =>
-    trackGaEvent('store_badge_click', { ...context, store, link_location: placement });
+    trackGaEvent('store_badge_click', { ...context, store, link_location: placement, cta_variant: ctx ? 'contextual' : 'default' });
 
   return (
     /* 아티클 하단 전환 블록.
@@ -76,7 +80,7 @@ export default function InstallCTA({ lang, articleId, variant = 'inline' }: Prop
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={asset('/havit-logo.svg')} alt="HAVIT" width={264} height={163} />
         </span>
-        <p className="install-cta__title">{t(lang, 'installCta')}</p>
+        <p className="install-cta__title">{ctx?.title ?? t(lang, 'installCta')}</p>
         <p className="install-cta__sub">{t(lang, 'installCtaSub')}</p>
         <div className="install-cta__badges">
           <a href={badgeHref('app_store', appStoreUrlFor(lang))} onClick={onBadgeClick('app_store')} target="_blank" rel="noopener" className="install-cta__badge" aria-label="App Store">
