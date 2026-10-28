@@ -546,7 +546,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
       <SocialFollow shortLang={shortLang} />
 
       <div className="hub-cta">
-        <InstallCTA lang={langKey} articleId={article.article_id} variant="inline" />
+        <InstallCTA lang={langKey} articleId={article.article_id} slug={article.slug} variant="inline" />
       </div>
 
 

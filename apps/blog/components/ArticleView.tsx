@@ -235,7 +235,7 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
       <AboutHavit shortLang={shortLang} />
 
       <div className="mt-12">
-        <InstallCTA lang={langKey} articleId={article.article_id} variant="inline" />
+        <InstallCTA lang={langKey} articleId={article.article_id} slug={article.slug} variant="inline" />
       </div>
 
       <SocialFollow shortLang={shortLang} />
