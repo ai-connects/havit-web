@@ -9,6 +9,7 @@ import { buildPrompt } from './lib/prompt.mjs';
 import { lint } from './lib/lint.mjs';
 import { withIntro, withTagline } from './lib/brand.mjs';
 import { config } from './lib/source.mjs';
+import { createClient } from './lib/llm.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const args = process.argv.slice(2);
@@ -22,8 +23,7 @@ const entries = plan.entries.filter((e) => !onlyDate || e.date === onlyDate);
 
 let client = null;
 if (!dry) {
-  const { default: Anthropic } = await import('@anthropic-ai/sdk');
-  client = new Anthropic();
+  client = await createClient();
 }
 
 function parseJson(text) {

@@ -49,14 +49,17 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
+      # 어제·오늘·내일 폴더만 오간다 — 큐 전체를 올리면 그사이 미리 만든 초안(social-series-batch)을 옛 사본으로 덮을 수 있다.
       - name: 큐 내려받기(S3 비공개 경로 — 공개 레포라 큐는 git 에 두지 않음)
         working-directory: apps/social
-        run: aws s3 sync "$QUEUE_S3" queue/ --only-show-errors
+        run: |
+          echo "DAYS=$(date -u -d '-1 day' +%F) $(date -u +%F) $(date -u -d '+1 day' +%F)" >> "$GITHUB_ENV"
+          for d in $(date -u -d '-1 day' +%F) $(date -u +%F) $(date -u -d '+1 day' +%F); do aws s3 sync "${QUEUE_S3}$d/" "queue/$d/" --only-show-errors; done
       - name: 발행
         working-directory: apps/social
         run: |
-          for d in $(date -u -d '-1 day' +%F) $(date -u +%F) $(date -u -d '+1 day' +%F); do [ -d "queue/$d" ] && node publish.mjs "queue/$d" || true; done
+          for d in $DAYS; do [ -d "queue/$d" ] && node publish.mjs "queue/$d" || true; done
       - name: 큐 올리기
         if: always()
         working-directory: apps/social
-        run: aws s3 sync queue/ "$QUEUE_S3" --only-show-errors --exclude "*.html" 
+        run: for d in $DAYS; do [ -d "queue/$d" ] && aws s3 sync "queue/$d/" "${QUEUE_S3}$d/" --only-show-errors --exclude "*.html"; done; true 

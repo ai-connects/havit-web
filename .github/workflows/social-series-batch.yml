@@ -1,0 +1,122 @@
+# 상황별 시리즈(생존 가이드·AI 잔소리) 미리 만들기: config/series_calendar.json 의 날짜 범위를 주 단위로 나눠 9개 언어 초안을 한꺼번에 생성 → 검사 → 이미지 → AI 리뷰.
+# 승인된 초안은 social-publish 가 편성표의 현지 시각에 발행한다. 수동 실행 전용.
+name: social-series-batch
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: '첫 주 시작일(YYYY-MM-DD)'
+        required: true
+        default: '2026-11-02'
+      weeks:
+        description: '몇 주치'
+        required: true
+        default: '10'
+permissions:
+  contents: read
+  issues: write
+jobs:
+  weeks:
+    runs-on: ubuntu-latest
+    outputs:
+      list: ${{ steps.w.outputs.list }}
+    steps:
+      - id: w
+        run: |
+          L=$(for i in $(seq 0 $(( ${{ inputs.weeks }} - 1 ))); do date -u -d "${{ inputs.start }} +$((i*7)) day" +%F; done | jq -R . | jq -sc .)
+          echo "list=$L" >> "$GITHUB_OUTPUT"
+  week:
+    needs: weeks
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    if: ${{ vars.SOCIAL_PAUSED != 'true' }}
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        week: ${{ fromJson(needs.weeks.outputs.list) }}
+    # 주마다 다른 그룹 — 매일 생성·매시 발행(social-queue)을 막지 않는다. 날짜 폴더가 겹치지 않으니 서로 덮지 않는다.
+    concurrency:
+      group: social-series-${{ matrix.week }}
+      cancel-in-progress: false
+    env:
+      SOCIAL_MEDIA_BUCKET: havit-prod-us-east
+      SOCIAL_MEDIA_PREFIX: image/sns
+      QUEUE_S3: s3://havit-prod-us-east/social-queue/
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      # 구독(Claude Code CLI)으로 청구 — 토큰 시크릿이 없으면 API 키로 돈다
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      SOCIAL_LLM: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' && 'cli' || 'api' }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GH_TOKEN: ${{ github.token }}
+      CHROME_BIN: /usr/bin/google-chrome
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Claude Code CLI 설치(구독 호출용)
+        run: npm i -g @anthropic-ai/claude-code@2.1.310
+      - run: npm ci
+        working-directory: apps/social
+      - name: ImageMagick·Noto CJK 설치
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick fonts-noto-cjk
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: 큐 내려받기(사진 14일 중복 회피에 지난 초안이 필요)
+        working-directory: apps/social
+        run: aws s3 sync "$QUEUE_S3" queue/ --only-show-errors --exclude "*/img/*"
+      - name: 한 주 생성
+        working-directory: apps/social
+        run: |
+          DAYS=$(for i in 0 1 2 3 4 5 6; do date -u -d "${{ matrix.week }} +$i day" +%F; done | tr '\n' ' ')
+          echo "DAYS=$DAYS" >> "$GITHUB_ENV"
+          for D in $DAYS; do
+            node plan_series.mjs "$D"
+            [ -f "queue/plan-series-$D.json" ] || continue
+            node generate.mjs "queue/plan-series-$D.json" --date "$D"
+            node imagery.mjs "queue/$D"
+            node render.mjs "queue/$D" --pending
+            node host.mjs "queue/$D"
+            node reviewer.mjs "queue/$D"
+            for r in 1 2; do
+              node revise.mjs "queue/$D"
+              node render.mjs "queue/$D" --pending
+              node host.mjs "queue/$D"
+              node reviewer.mjs "queue/$D"
+            done
+            node escalate.mjs "queue/$D"
+          done
+      - name: 큐 올리기(이 주 날짜 폴더·계획만)
+        if: always()
+        working-directory: apps/social
+        run: |
+          for D in $DAYS; do
+            [ -d "queue/$D" ] && aws s3 sync "queue/$D/" "${QUEUE_S3}$D/" --only-show-errors --exclude "*.html"
+            [ -f "queue/plan-series-$D.json" ] && aws s3 cp "queue/plan-series-$D.json" "${QUEUE_S3}plan-series-$D.json" --only-show-errors
+          done; true
+  summary:
+    needs: [weeks, week]
+    if: always()
+    runs-on: ubuntu-latest
+    env:
+      QUEUE_S3: s3://havit-prod-us-east/social-queue/
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: 요약(Slack)
+        working-directory: apps/social
+        run: |
+          aws s3 sync "$QUEUE_S3" queue/ --only-show-errors --exclude "*" --include "*/*-sit-*.json" --include "*/*-nag-*.json"
+          node series_digest.mjs queue

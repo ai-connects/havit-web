@@ -9,6 +9,7 @@ const ARTICLES = path.resolve(ROOT, '../blog/data/articles');
 const DATA_LANG = { ko: 'ko', ja: 'ja', en: 'en', zh: 'zh-CN', 'zh-tw': 'zh-TW', es: 'es', 'pt-br': 'pt-BR', id: 'id', de: 'de', fr: 'fr' };
 
 export function hasLang(slug, lang) {
+  if (isSituation(slug)) return Boolean(situation(slug).langs[lang === 'ko' ? 'ko' : 'en']?.title);
   if (isQuiz(slug)) return Boolean(quiz(slug).langs[lang]);
   if (isAppArticle(slug)) return Boolean(appArticle(slug).langs[lang]?.title);
   return Boolean(readJson(path.join(ARTICLES, `${slug}.json`)).langs[DATA_LANG[lang]]);
@@ -51,10 +52,46 @@ function loadAppArticle(slug, lang) {
   };
 }
 
+// 상황별 시리즈(config/situations.json) — 「하비의 상황별 생존 가이드」(sit-) · 「AI 잔소리가 필요할 때」(nag-).
+// 원문은 전문가 패널 노하우(ko·en 두 판). ko 외 언어는 en 판을 원문으로 그 언어 원어민처럼 쓴다(숫자는 두 판이 같다).
+export const isSituation = (slug) => /^(sit|nag)-/.test(slug);
+// 자동 보충(series_refill.mjs)이 기획한 주제·편성은 레포가 아니라 큐(S3 social-queue/series/)에 쌓인다 — 설정과 합쳐 읽는다.
+const AUTO = path.join(ROOT, 'queue', 'series');
+const autoJson = (name) => { try { return readJson(path.join(AUTO, `${name}.json`)); } catch { return null; } };
+export const situationItems = () => [...config('situations').items, ...(autoJson('auto_situations')?.items || [])];
+export const seriesCalendar = () => {
+  const c = config('series_calendar');
+  return { ...c, entries: [...c.entries, ...(autoJson('auto_calendar')?.entries || [])] };
+};
+let SITUATIONS = null;
+export const situation = (id) => {
+  SITUATIONS ||= new Map(situationItems().map((x) => [x.id, x]));
+  const s = SITUATIONS.get(id);
+  if (!s) throw new Error(`상황 시리즈에 없다: ${id}`);
+  return s;
+};
+function loadSituation(slug, lang) {
+  const s = situation(slug);
+  const L = s.langs[lang === 'ko' ? 'ko' : 'en'];
+  if (!L?.title) throw new Error(`${slug} 에 원문이 없다`);
+  const { title, tips, tip, ...rest } = L;
+  return {
+    slug, lang, category: s.series, kind: s.series === 'nag' ? 'app_nag' : 'app_situation',
+    title, ...rest,
+    steps: tips || (tip ? [tip] : []),
+    cta: s.cta,
+    ...(s.series === 'nag' ? { spicy_allowed: !s.risk } : {}),
+    key_stats: [], faq: [], h2: [],
+    url: 'https://app.aihavit.com/', // 블로그 글 없음 → 앱 다운로드
+    _text: JSON.stringify(s.langs),
+  };
+}
+
 // 약물 주제(GLP-1·오젬픽·마운자로 등)는 SNS 에 내지 않는다(대표 결정 2026-10-24: 승인 부담 0 + 의약품 광고 규제).
 // 블로그에는 남는다. 판정은 ko·en 판의 제목·요약(퀴즈는 전문).
 const DRUG_TOPIC = /glp-?1|semaglutide|tirzepatide|liraglutide|orforglipron|retatrutide|ozempic|wegovy|mounjaro|zepbound|saxenda|rybelsus|metformin|levothyroxine|rapamycin|세마글루타이드|터제파타이드|티르제파타이드|오젬픽|위고비|마운자로|젭바운드|삭센다|메트포르민|레보티록신|주사제|비만 ?주사|처방약/i;
 export function isDrugTopic(slug) {
+  if (isSituation(slug)) return DRUG_TOPIC.test(JSON.stringify(situation(slug).langs));
   if (isQuiz(slug)) return ['ko', 'en'].some((l) => DRUG_TOPIC.test(Object.values(quiz(slug).langs[l] || {}).join(' ')));
   if (isAppArticle(slug)) return ['ko', 'en'].some((l) => DRUG_TOPIC.test(`${appArticle(slug).langs[l]?.title} ${JSON.stringify(appArticle(slug).langs[l]?.summary)}`));
   const L = readJson(path.join(ARTICLES, `${slug}.json`)).langs;
@@ -63,7 +100,7 @@ export function isDrugTopic(slug) {
 
 /** 발행물이 나온 원문 위치(사람 검토·Slack 링크용). */
 export const originLabel = (d) =>
-  isQuiz(d.slug) ? `앱 퀴즈 ${d.slug}` : isAppArticle(d.slug) ? `앱 아티클 ${d.slug}` : `https://www.aihavit.com/blog/${d.lang}/${d.slug}`;
+  isSituation(d.slug) ? `상황 시리즈 ${d.slug}(config/situations.json)` : isQuiz(d.slug) ? `앱 퀴즈 ${d.slug}` : isAppArticle(d.slug) ? `앱 아티클 ${d.slug}` : `https://www.aihavit.com/blog/${d.lang}/${d.slug}`;
 
 function loadQuiz(slug, lang) {
   const q = quiz(slug);
@@ -93,6 +130,7 @@ export function verifiedSlugs() {
 }
 
 export function loadSource(slug, lang) {
+  if (isSituation(slug)) return loadSituation(slug, lang);
   if (isQuiz(slug)) return loadQuiz(slug, lang);
   if (isAppArticle(slug)) return loadAppArticle(slug, lang);
   if (!verifiedSlugs().includes(slug)) {

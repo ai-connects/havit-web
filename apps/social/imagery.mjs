@@ -5,9 +5,9 @@ import { existsSync, mkdirSync, readdirSync, statSync, writeFileSync } from 'nod
 import path from 'node:path';
 import { readJson } from './lib/source.mjs';
 import { choose, generate } from './lib/imagery.mjs';
+import { createClient } from './lib/llm.mjs';
 
-const { default: Anthropic } = await import('@anthropic-ai/sdk');
-const client = new Anthropic();
+const client = await createClient();
 
 /** 최근 14일 같은 계정이 쓴 라이브러리 사진. */
 function recentFiles(queueRoot, channel, lang, date) {

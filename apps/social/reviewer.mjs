@@ -7,14 +7,14 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadSource, readJson } from './lib/source.mjs';
 import { decide } from './lib/gate.mjs';
+import { createClient } from './lib/llm.mjs';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const SYSTEM = readFileSync(path.join(ROOT, 'prompts/reviewer.md'), 'utf8');
 // 전문가 패널(영양사·비만 전문의·체중감량 연구 교수) — 원문 충실도와 별개로 임상적 적절성을 본다(대표 지시 2026-10-25).
 const EXPERT = readFileSync(path.join(ROOT, 'prompts/expert.md'), 'utf8');
 const MODEL = process.env.SOCIAL_REVIEW_MODEL || 'claude-opus-5-5';
-const { default: Anthropic } = await import('@anthropic-ai/sdk');
-const client = new Anthropic();
+const client = await createClient();
 
 const dirs = process.argv.slice(2).filter((p) => !p.startsWith('--')).filter((p) => statSync(p, { throwIfNoEntry: false })?.isDirectory());
 const tally = {};

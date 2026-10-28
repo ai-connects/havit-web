@@ -1,6 +1,6 @@
 // 자동 발행 게이트: 기계 검사 + AI 리뷰어 판정 + 차단 규칙. 사람 검토 단계는 없다.
 // 예외 규칙은 AI 판단에 맡기지 않고 여기서 코드로 고정한다.
-import { config } from './source.mjs';
+import { config, isSituation, situation } from './source.mjs';
 
 // SNS 는 GLP-1 등 약물 주제를 다루지 않는다 → 약 이름이 나오면 그날은 내지 않는다(사람 대기 없음).
 // 「인슐린 저항성」「약 복용 중이면 의료진과 상담」 같은 생리·안전 문구는 막지 않는다(2026-10-27 오탐: 오늘 32건 보류).
@@ -23,6 +23,8 @@ export function mustEscalate(draft, today = new Date().toISOString().slice(0, 10
   const reasons = [];
   const text = [...(draft.posts || []), ...(draft.slides || []).flatMap((s) => [s.title, s.body]), draft.first_reply || ''].join('\n');
   if (DRUG.test(text)) reasons.push('약물(GLP-1 등) 언급 — SNS 제외 주제');
+  // 임상 검토 대상 주제(간헐적 단식·폭식 다음 날 등)는 원문 임상 승인 전엔 편성하지 않는다 — 들어와도 내지 않는다.
+  if (isSituation(draft.slug || '') && situation(draft.slug).clinical_review && !situation(draft.slug).clinical_approved_by) reasons.push('임상 검토 필요 주제(미승인)');
   const acc = (accounts || config('accounts').accounts).find((x) => x.channel === draft.channel && x.lang === draft.lang);
   if (!acc?.handle) reasons.push('계정 미등록(config/accounts.json)');
   const start = accountStart(draft.channel, draft.lang, accounts);

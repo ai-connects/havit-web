@@ -1,0 +1,61 @@
+# 상황별 시리즈 자동 보충(대표 결정 2026-10-28): 미리 만든 편성이 4주 안에 끝나면 새 주제를 기획·검수해 편성에 붙이고,
+# 그 주들을 social-series-batch 로 9개 언어 생성·렌더·리뷰한다. 통과분은 social-publish 가 예약 시각에 낸다(사람 검토 없음).
+# 주제·편성은 레포가 아니라 S3 social-queue/series/ 에 쌓인다(lib/source.mjs 가 설정과 합쳐 읽는다).
+name: social-series-refill
+on:
+  schedule:
+    - cron: '0 1 * * 1' # 매주 월요일 10:00 KST
+  workflow_dispatch:
+    inputs:
+      today:
+        description: '기준일(비우면 오늘)'
+        required: false
+      weeks:
+        description: '한 번에 붙일 주 수'
+        required: false
+        default: '4'
+permissions:
+  contents: read
+  actions: write
+concurrency:
+  group: social-series-refill
+  cancel-in-progress: false
+jobs:
+  refill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    if: ${{ vars.SOCIAL_PAUSED != 'true' }}
+    env:
+      QUEUE_S3: s3://havit-prod-us-east/social-queue/
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      SOCIAL_LLM: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' && 'cli' || 'api' }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Claude Code CLI 설치(구독 호출용)
+        run: npm i -g @anthropic-ai/claude-code@2.1.310
+      - run: npm ci
+        working-directory: apps/social
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: 이전 자동 기획 내려받기
+        working-directory: apps/social
+        run: aws s3 sync "${QUEUE_S3}series/" queue/series/ --only-show-errors
+      - name: 재고 확인 → 새 주제 기획·검수 → 편성
+        id: refill
+        working-directory: apps/social
+        run: node series_refill.mjs ${{ inputs.today && format('--today {0}', inputs.today) || '' }} --weeks ${{ inputs.weeks || '4' }}
+      - name: 자동 기획 올리기
+        if: steps.refill.outputs.start
+        working-directory: apps/social
+        run: aws s3 sync queue/series/ "${QUEUE_S3}series/" --only-show-errors
+      - name: 붙인 주 생성(social-series-batch)
+        if: steps.refill.outputs.start
+        run: gh workflow run social-series-batch.yml -f start=${{ steps.refill.outputs.start }} -f weeks=${{ steps.refill.outputs.weeks }} --ref ${{ github.ref_name }}
