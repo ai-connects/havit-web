@@ -367,8 +367,9 @@ function renderLangMenu(html, locale, page) {
  * dev 에선 /src/assets/images/<name>.webp, 빌드 후엔 /assets/<name>-<hash>.webp 라 둘 다 받는다.
  * 그 언어 파일이 없으면 원래 이미지를 그대로 둔다.
  */
+// 히어로 폰(hero-phone)은 뺐다 — 언어판(체크인 카드)이 감량 앱 첫 화면으로 약해서, 예전 칼로리 흐름 화면(영어 1장)으로 되돌림.
 const LOCALIZED_IMAGES = [
-  'hero-phone', 'feature-ai-coach', 'feature-nutrition', 'feature-daily-missions',
+  'feature-ai-coach', 'feature-nutrition', 'feature-daily-missions',
   'feature-body-insights', 'feature-daily-check-in', 'feature-track-everything', 'feature-running-coach',
 ]
 const L10N_DIR = resolve(HERE, '../public/l10n')
