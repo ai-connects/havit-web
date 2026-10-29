@@ -1,6 +1,6 @@
 {
  "_note": "글별 맞춤 설치 문구 실험. 언어별 GSC 클릭 상위 200개 글(2026-09-29~10-26)을 순위 번갈아 test/control 로 나눔. test 만 data/cta-copy.json 문구, control 은 기본 문구. 비교 = 시작일 전후 start_free_click ÷ GSC 클릭(그룹별).",
- "started": null,
+ "started": "2026-10-28",
  "groups": {
   "ko": {
    "test": [
