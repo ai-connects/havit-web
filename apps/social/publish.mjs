@@ -50,7 +50,7 @@ for (const dir of dirs) {
         : await publishThreads({ token, posts: d.posts, imageUrl: d.share === 'link' ? null : urls[0], linkUrl: d.share === 'link' ? d.link : null, firstReply: d.first_reply, lang: d.lang });
       writeFileSync(p, JSON.stringify({ ...d, published: { ...res, at: new Date().toISOString(), media: urls } }, null, 2) + '\n');
       ok++;
-      console.log(`✅ ${d.channel}/${d.lang} ${res.url}`);
+      console.log(`✅ ${d.channel}/${d.lang} ${res.url}${res.recovered ? ' (이미 올라가 있던 게시물 — 다시 올리지 않음)' : ''}`);
       await shareToSlack(d, res.url, urls);
     } catch (e) {
       writeFileSync(p, JSON.stringify({ ...d, publish_error: { message: String(e.message || e), at: new Date().toISOString() } }, null, 2) + '\n');

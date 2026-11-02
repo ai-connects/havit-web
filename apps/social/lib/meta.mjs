@@ -35,10 +35,27 @@ export async function whoami(channel, token) {
     : call(IG, 'GET', '/me', { fields: 'user_id,username' }, token);
 }
 
+// 같은 글이 이미 계정에 올라가 있는지(캡션 앞부분 + 최근 시각). 중복 발행 차단용.
+// 2026-10-28~11-02: media_publish 가 「Application request limit reached」(code 4)·「Media ID is not available」(9007) 를 돌려줘도
+// 실제로는 게시돼 있었다 → 미발행으로 남아 매시 재시도 → 같은 글이 계정마다 최대 3번(IG 44건 × 3).
+const capHead = (t) => String(t || '').replace(/\s+/g, ' ').trim().slice(0, 80);
+export const sameCaption = (a, b) => capHead(a).length >= 10 && capHead(a) === capHead(b);
+async function findRecentIg(uid, token, caption, hours = 12) {
+  const { data = [] } = await call(IG, 'GET', `/${uid}/media`, { fields: 'id,caption,permalink,timestamp', limit: '10' }, token);
+  return data.find((m) => sameCaption(m.caption, caption) && Date.now() - Date.parse(m.timestamp) < hours * 3600e3) || null;
+}
+async function findRecentThreads(uid, token, text, hours = 12) {
+  const { data = [] } = await call(TH, 'GET', `/${uid}/threads`, { fields: 'id,text,permalink,timestamp', limit: '15' }, token);
+  return data.find((m) => sameCaption(m.text, text) && Date.now() - Date.parse(m.timestamp) < hours * 3600e3) || null;
+}
+
 /** Instagram 캐러셀(이미지 2~10장) 또는 단일 이미지. imageUrls 는 공개 JPEG URL. */
 export async function publishInstagram({ token, imageUrls, caption, firstComment }) {
   const me = await whoami('instagram', token);
   const uid = me.user_id || me.id;
+  // 이전 시도가 오류를 받았지만 실제로는 올라간 경우 — 다시 올리지 않고 그 게시물을 발행 기록으로 쓴다
+  const already = await findRecentIg(uid, token, caption);
+  if (already) return { id: already.id, url: already.permalink, recovered: true };
   let creation;
   if (imageUrls.length === 1) {
     creation = (await call(IG, 'POST', `/${uid}/media`, { image_url: imageUrls[0], caption }, token)).id;
@@ -51,7 +68,15 @@ export async function publishInstagram({ token, imageUrls, caption, firstComment
     creation = (await call(IG, 'POST', `/${uid}/media`, { media_type: 'CAROUSEL', children: children.join(','), caption }, token)).id;
   }
   await waitReady(IG, creation, token);
-  const pub = await call(IG, 'POST', `/${uid}/media_publish`, { creation_id: creation }, token);
+  let pub;
+  try { pub = await call(IG, 'POST', `/${uid}/media_publish`, { creation_id: creation }, token); }
+  catch (e) {
+    // 오류여도 게시됐을 수 있다 — 잠시 뒤 계정에서 확인되면 성공으로 둔다(재시도하면 중복)
+    await sleep(15000);
+    const hit = await findRecentIg(uid, token, caption, 1).catch(() => null);
+    if (!hit) throw e;
+    return { id: hit.id, url: hit.permalink, recovered: true };
+  }
   // 브랜드 첫 댓글(참여 유도 + 앱 안내). 실패해도 게시물은 이미 올라갔으니 발행 성공으로 둔다.
   if (firstComment) {
     try { await call(IG, 'POST', `/${pub.id}/comments`, { message: firstComment }, token); }
@@ -72,9 +97,19 @@ const PROFILE_LINK = { ko: '앱 링크는 프로필에 있어요', ja: 'アプ�
 /** Threads: posts[0](카드 이미지 첨부 가능) → posts[1..] 를 이어 답글로 → first_reply(링크·면책)를 첫 포스트 답글로. */
 export async function publishThreads({ token, posts, imageUrl, linkUrl, firstReply, lang }) {
   const me = await whoami('threads', token);
-  const head = await threadsPost(me.id, token, imageUrl
-    ? { media_type: 'IMAGE', image_url: imageUrl, text: posts[0] }
-    : { media_type: 'TEXT', text: posts[0], ...(linkUrl ? { link_attachment: linkUrl } : {}) });
+  const already = await findRecentThreads(me.id, token, posts[0]);
+  if (already) return { id: already.id, url: already.permalink, recovered: true };
+  let head;
+  try {
+    head = await threadsPost(me.id, token, imageUrl
+      ? { media_type: 'IMAGE', image_url: imageUrl, text: posts[0] }
+      : { media_type: 'TEXT', text: posts[0], ...(linkUrl ? { link_attachment: linkUrl } : {}) });
+  } catch (e) {
+    await sleep(15000);
+    const hit = await findRecentThreads(me.id, token, posts[0], 1).catch(() => null);
+    if (!hit) throw e;
+    return { id: hit.id, url: hit.permalink, recovered: true };
+  }
   let prev = head;
   for (const p of posts.slice(1)) prev = await threadsPost(me.id, token, { media_type: 'TEXT', text: p, reply_to_id: prev });
   // 본문은 이미 올라갔다 — 첫 댓글이 실패해도 예외를 던지지 않는다(던지면 미발행으로 남아 다음 시각에 본문이 중복 발행됨, 2026-10-25).
