@@ -19,8 +19,8 @@ async function call(base, method, path, params, token) {
 }
 
 // 컨테이너가 FINISHED 가 될 때까지 기다린다(이미지 처리). 문서 권장: 게시 전 상태 확인.
-async function waitReady(base, id, token, fields = 'status_code') {
-  for (let i = 0; i < 20; i++) {
+async function waitReady(base, id, token, fields = 'status_code', tries = 20) {
+  for (let i = 0; i < tries; i++) {
     const s = await call(base, 'GET', `/${id}`, { fields }, token);
     if (s.status_code === 'FINISHED' || s.status === 'FINISHED') return;
     if (s.status_code === 'ERROR' || s.status === 'ERROR') throw new Error(`컨테이너 오류 ${id}: ${JSON.stringify(s)}`);
@@ -81,6 +81,26 @@ export async function publishInstagram({ token, imageUrls, caption, firstComment
   if (firstComment) {
     try { await call(IG, 'POST', `/${pub.id}/comments`, { message: firstComment }, token); }
     catch (e) { console.log(`IG 첫 댓글 실패: ${String(e.message).slice(0, 120)}`); }
+  }
+  const info = await call(IG, 'GET', `/${pub.id}`, { fields: 'permalink' }, token);
+  return { id: pub.id, url: info.permalink };
+}
+
+/** Instagram 릴스 1건. videoUrl 은 Instagram 서버가 내려받을 수 있는 공개 MP4 URL. 영상 처리가 길어 최대 10분 기다린다. */
+export async function publishInstagramReel({ token, videoUrl, caption }) {
+  const me = await whoami('instagram', token);
+  const uid = me.user_id || me.id;
+  const already = await findRecentIg(uid, token, caption);
+  if (already) return { id: already.id, url: already.permalink, recovered: true };
+  const creation = (await call(IG, 'POST', `/${uid}/media`, { media_type: 'REELS', video_url: videoUrl, caption, share_to_feed: 'true' }, token)).id;
+  await waitReady(IG, creation, token, 'status_code', 200);
+  let pub;
+  try { pub = await call(IG, 'POST', `/${uid}/media_publish`, { creation_id: creation }, token); }
+  catch (e) {
+    await sleep(15000);
+    const hit = await findRecentIg(uid, token, caption, 1).catch(() => null);
+    if (!hit) throw e;
+    return { id: hit.id, url: hit.permalink, recovered: true };
   }
   const info = await call(IG, 'GET', `/${pub.id}`, { fields: 'permalink' }, token);
   return { id: pub.id, url: info.permalink };

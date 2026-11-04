@@ -1,0 +1,48 @@
+# 수동 실행 전용: 지정한 영상 1건을 Instagram 릴스로 올린다. 입력값은 env 로만 넘긴다(스크립트에 직접 넣지 않음).
+name: social-post-reel
+on:
+  workflow_dispatch:
+    inputs:
+      lang:
+        description: 계정 언어
+        required: true
+        type: choice
+        options: [ko, ja]
+      video_url:
+        description: 공개 MP4 주소(https)
+        required: true
+        type: string
+      caption:
+        description: 캡션
+        required: true
+        type: string
+      dry_run:
+        description: 계정 확인만 하고 게시하지 않음
+        required: true
+        type: boolean
+        default: true
+permissions:
+  contents: read
+concurrency:
+  group: social-post-reel
+  cancel-in-progress: false
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    # 긴급 중지: 레포 Settings → Variables 에서 SOCIAL_PAUSED=true
+    if: ${{ vars.SOCIAL_PAUSED != 'true' }}
+    env:
+      REEL_LANG: ${{ inputs.lang }}
+      REEL_VIDEO_URL: ${{ inputs.video_url }}
+      REEL_CAPTION: ${{ inputs.caption }}
+      REEL_DRY_RUN: ${{ inputs.dry_run }}
+      IG_TOKEN_KO: ${{ secrets.IG_TOKEN_KO }}
+      IG_TOKEN_JA: ${{ secrets.IG_TOKEN_JA }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 릴스 게시
+        working-directory: apps/social
+        run: node post_reel.mjs
