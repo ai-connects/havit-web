@@ -20,6 +20,7 @@ import {
   localesFor,
   translatedLocales,
 } from './i18n-html.js'
+import { videoSitemapEntries } from './video-pages.js'
 
 const SITE = 'https://www.aihavit.com'
 
@@ -117,8 +118,10 @@ function buildSitemap() {
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
-    '        xmlns:xhtml="http://www.w3.org/1999/xhtml">',
+    '        xmlns:xhtml="http://www.w3.org/1999/xhtml"',
+    '        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">',
     ...localeUrls,
+    ...videoSitemapEntries(),
     ...pageUrls,
     ...documentUrls,
     '</urlset>',
