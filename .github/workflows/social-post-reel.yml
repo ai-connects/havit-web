@@ -7,7 +7,7 @@ on:
         description: 계정 언어
         required: true
         type: choice
-        options: [ko, ja, en]
+        options: [ko, ja, en, zh-tw, es, pt-br, id, de, fr]
       video_url:
         description: 공개 MP4 주소(https)
         required: true
@@ -39,6 +39,12 @@ jobs:
       IG_TOKEN_KO: ${{ secrets.IG_TOKEN_KO }}
       IG_TOKEN_JA: ${{ secrets.IG_TOKEN_JA }}
       IG_TOKEN_EN: ${{ secrets.IG_TOKEN_EN }}
+      IG_TOKEN_ZH_TW: ${{ secrets.IG_TOKEN_ZH_TW }}
+      IG_TOKEN_ES: ${{ secrets.IG_TOKEN_ES }}
+      IG_TOKEN_PT_BR: ${{ secrets.IG_TOKEN_PT_BR }}
+      IG_TOKEN_ID: ${{ secrets.IG_TOKEN_ID }}
+      IG_TOKEN_DE: ${{ secrets.IG_TOKEN_DE }}
+      IG_TOKEN_FR: ${{ secrets.IG_TOKEN_FR }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
