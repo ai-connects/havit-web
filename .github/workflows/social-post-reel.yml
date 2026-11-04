@@ -7,7 +7,7 @@ on:
         description: 계정 언어
         required: true
         type: choice
-        options: [ko, ja]
+        options: [ko, ja, en]
       video_url:
         description: 공개 MP4 주소(https)
         required: true
@@ -38,6 +38,7 @@ jobs:
       REEL_DRY_RUN: ${{ inputs.dry_run }}
       IG_TOKEN_KO: ${{ secrets.IG_TOKEN_KO }}
       IG_TOKEN_JA: ${{ secrets.IG_TOKEN_JA }}
+      IG_TOKEN_EN: ${{ secrets.IG_TOKEN_EN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
