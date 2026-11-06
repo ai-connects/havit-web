@@ -33,3 +33,7 @@ next-env.d.ts
 # data backup
 data/seed-articles.ts.bak
 *.bak
+
+# apps/static-site 빌드가 정적 내보내기 동안만 static-export/app 에서 복사해 넣는 경로
+/app/[[]lang]/page/
+/app/[[]lang]/search-index.json/

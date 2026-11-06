@@ -97,4 +97,7 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+// STATIC_EXPORT=1 (apps/static-site 의 정적 빌드) 일 때만 정적 내보내기 설정으로 바꾼다.
+// 이 변수가 없는 Vercel 빌드는 위 객체를 그대로 쓴다.
+module.exports =
+  process.env.STATIC_EXPORT === '1' ? require('./next.config.static.js')(nextConfig) : nextConfig;

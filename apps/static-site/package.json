@@ -1,0 +1,20 @@
+{
+  "name": "havit-static-site",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "www.aihavit.com (홈 + /blog) 를 S3 + CloudFront 로 내보내는 정적 빌드. Vercel 빌드와 무관하다.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:assemble": "node scripts/build.mjs --skip-app-builds",
+    "build:edge": "node scripts/build.mjs --edge-only",
+    "test:edge": "node scripts/test-edge.mjs",
+    "serve": "node scripts/local-edge.mjs",
+    "verify": "node scripts/verify.mjs",
+    "deploy": "node scripts/deploy.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "sharp": "0.35.5"
+  }
+}
