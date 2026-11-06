@@ -2,10 +2,10 @@
  * Single article 생성 테스트 — 8-Phase 전체 검증.
  *
  * 실행:
- *   1. .env.local에 ANTHROPIC_API_KEY 저장
+ *   1. Claude 구독 로그인(claude) 확인 — API 키 불필요
  *   2. npx tsx scripts/test-single.ts
  *
- * 약 5분, ~$1 비용. 결과: data/articles/{slug}.json
+ * 약 5분, 구독 사용량. 결과: data/articles/{slug}.json
  */
 
 import { promises as fs } from 'fs';
@@ -24,7 +24,7 @@ async function loadEnv(): Promise<void> {
     }
     console.log('✓ .env.local loaded');
   } catch {
-    console.error('✗ .env.local not found. Create it with: ANTHROPIC_API_KEY=sk-ant-...');
+    console.error('✗ .env.local not found. Create it (empty file is fine; subscription login is used)');
     process.exit(1);
   }
 }
@@ -32,8 +32,8 @@ async function loadEnv(): Promise<void> {
 async function main(): Promise<void> {
   await loadEnv();
 
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.error('✗ ANTHROPIC_API_KEY not set in .env.local');
+  if (process.env.BLOG_LLM === 'api' && !process.env.ANTHROPIC_API_KEY) {
+    console.error('✗ BLOG_LLM=api 인데 ANTHROPIC_API_KEY 가 .env.local 에 없다');
     process.exit(1);
   }
 

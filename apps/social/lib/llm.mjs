@@ -1,12 +1,16 @@
-// Claude 호출 클라이언트. 기본은 구독(Claude Code CLI `claude -p`), SOCIAL_LLM=api 면 API 키(@anthropic-ai/sdk).
+// Claude 호출 클라이언트. 구독(Claude Code CLI `claude -p`)만 쓴다. SOCIAL_LLM=api 를 명시했을 때만 API 키(@anthropic-ai/sdk).
+// CI 에서 CLAUDE_CODE_OAUTH_TOKEN 이 없으면 API 로 우회하지 않고 즉시 실패한다.
 // 구독 경로는 ANTHROPIC_API_KEY 를 지운 채 CLI 를 띄워 claude.ai 로그인(로컬) 또는 CLAUDE_CODE_OAUTH_TOKEN(CI)으로 청구된다.
 // messages.create({ model, system, messages }) 의 단일 user 메시지(텍스트·이미지)만 지원 — 이 앱이 쓰는 모양 그대로.
 import { spawn } from 'node:child_process';
 
 export async function createClient() {
-  if ((process.env.SOCIAL_LLM || 'cli') === 'api') {
+  if (process.env.SOCIAL_LLM === 'api') {
     const { default: Anthropic } = await import('@anthropic-ai/sdk');
     return new Anthropic();
+  }
+  if ((process.env.CI || process.env.GITHUB_ACTIONS) && !process.env.CLAUDE_CODE_OAUTH_TOKEN) {
+    throw new Error('CLAUDE_CODE_OAUTH_TOKEN 이 없다 — 구독 전용이라 API 키로 대신 호출하지 않는다. 레포 시크릿을 확인하라.');
   }
   return { messages: { create: cliCreate } };
 }

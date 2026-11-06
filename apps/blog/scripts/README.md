@@ -7,7 +7,7 @@ batch-2에서 검증된 자연스러움 강화판 8-Phase 시스템 자동화.
 ```
 scripts/
 ├── types.ts              # 공유 타입
-├── anthropic-client.ts   # Claude API wrapper (재시도, 캐시)
+├── anthropic-client.ts   # Claude 호출 wrapper (구독 claude -p 기본, 재시도)
 ├── pipeline.ts           # 8-Phase 자동 실행 (한 article × 5 언어)
 ├── queue.ts              # 1,200 article 큐 매니저
 ├── discover-topics.ts    # content-discoverer 자동 (1,200 seed 발굴)
@@ -18,9 +18,7 @@ scripts/
 
 ### 1. 환경 변수 (`.env.local`)
 
-```bash
-ANTHROPIC_API_KEY=sk-ant-...
-```
+기본은 Claude 구독(`claude` 로그인) — 키 불필요. API 키는 `BLOG_LLM=api` 로 명시했을 때만 `ANTHROPIC_API_KEY` 를 읽는다.
 
 ### 2. 1,200 topic seed 발굴 (1회만)
 

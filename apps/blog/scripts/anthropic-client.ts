@@ -1,10 +1,12 @@
 /**
- * Anthropic Claude API 호출 wrapper.
- * - claude-opus-4-7 (1M context) 사용
- * - prompt caching 활용 (시스템 프롬프트 재사용)
- * - rate limit 처리 (지수 백오프)
+ * Claude 호출 wrapper. 기본은 구독(Claude Code CLI `claude -p`) — API 키로 청구하지 않는다.
+ * - 자식 프로세스 env 에서 ANTHROPIC_API_KEY 를 제거(남아 있으면 CLI 가 API 키로 청구).
+ * - BLOG_LLM=api 를 명시했을 때만 SDK(ANTHROPIC_API_KEY) 사용 — 옵트인.
+ * - CLI 는 max_tokens·temperature·cache_control 을 받지 않아 구독 경로에선 무시한다. effort 는 --effort 로 전달.
+ * - 재시도(지수 백오프) 유지.
  */
 
+import { spawn } from 'node:child_process';
 import Anthropic from '@anthropic-ai/sdk';
 
 const MODEL = 'claude-opus-4-5'; // 가용 모델 — opus 4.7이 아직 API에 없으면 fallback
@@ -40,6 +42,7 @@ export interface CompletionOptions {
 
 export async function complete(opts: CompletionOptions): Promise<string> {
   const { system, user, maxTokens = MAX_TOKENS, temperature = 0.7, cacheSystem = true, model = MODEL, effort } = opts;
+  if (process.env.BLOG_LLM !== 'api') return completeViaCli({ system, user, model, effort });
   const effortParam = effort ? ({ output_config: { effort } } as Record<string, unknown>) : {};
   const c = getClient();
 
@@ -110,6 +113,50 @@ export async function complete(opts: CompletionOptions): Promise<string> {
   }
 
   throw new Error('Anthropic API: max retries exceeded');
+}
+
+const CLI_TIMEOUT_MS = 10 * 60 * 1000;
+
+async function completeViaCli(o: { system?: string; user: string; model: string; effort?: string }): Promise<string> {
+  if ((process.env.CI || process.env.GITHUB_ACTIONS) && !process.env.CLAUDE_CODE_OAUTH_TOKEN) {
+    throw new Error('CLAUDE_CODE_OAUTH_TOKEN 이 없다 — 구독 전용이라 API 키로 대신 호출하지 않는다.');
+  }
+  const args = ['-p', '--model', o.model, '--output-format', 'json', '--tools', '', '--strict-mcp-config',
+    '--no-session-persistence', '--setting-sources', 'project'];
+  if (o.effort) args.push('--effort', o.effort);
+  if (o.system) args.push('--system-prompt', o.system);
+  const env = { ...process.env };
+  delete env.ANTHROPIC_API_KEY;
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await runCli(args, env, o.user);
+    } catch (err) {
+      if (attempt >= MAX_RETRIES - 1) throw err;
+      const delay = BASE_DELAY_MS * Math.pow(2, attempt);
+      console.warn(`[claude-cli] retry ${attempt + 1}/${MAX_RETRIES} after ${delay}ms: ${(err as Error).message}`);
+      await sleep(delay);
+    }
+  }
+}
+
+function runCli(args: string[], env: NodeJS.ProcessEnv, input: string): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const p = spawn(process.env.CLAUDE_BIN || 'claude', args, { env, stdio: ['pipe', 'pipe', 'pipe'] });
+    let out = '';
+    let err = '';
+    const timer = setTimeout(() => { p.kill('SIGTERM'); reject(new Error('claude-cli 시간 초과')); }, CLI_TIMEOUT_MS);
+    p.stdout.on('data', (b) => { out += b; });
+    p.stderr.on('data', (b) => { err += b; });
+    p.on('error', (e) => { clearTimeout(timer); reject(e); });
+    p.on('close', (code) => {
+      clearTimeout(timer);
+      let r: { is_error?: boolean; result?: string } | null = null;
+      try { r = JSON.parse(out); } catch { /* fallthrough */ }
+      if (!r || r.is_error) return reject(new Error(`claude-cli 실패(${code}): ${(r?.result || err || out).slice(0, 300)}`));
+      resolve(r.result || '');
+    });
+    p.stdin.end(input);
+  });
 }
 
 export function extractJsonBlock(text: string): string {

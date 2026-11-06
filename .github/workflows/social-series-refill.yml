@@ -27,9 +27,7 @@ jobs:
     if: ${{ vars.SOCIAL_PAUSED != 'true' }}
     env:
       QUEUE_S3: s3://havit-prod-us-east/social-queue/
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-      SOCIAL_LLM: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' && 'cli' || 'api' }}
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
