@@ -1,0 +1,243 @@
+# www.aihavit.com 정적 사이트 — S3(비공개, OAC) + CloudFront + CloudFront Function + KeyValueStore + ACM.
+# 적용하지 않은 초안이다. us-east-1 에 한 스택으로 만든다(CloudFront 용 ACM 인증서는 us-east-1 이어야 한다).
+#
+#   aws cloudformation deploy --region us-east-1 --stack-name havit-www-static \
+#     --template-file apps/static-site/infra/cloudfront.yml --capabilities CAPABILITY_NAMED_IAM \
+#     --parameter-overrides GitHubOidcProviderArn=arn:aws:iam::<계정>:oidc-provider/token.actions.githubusercontent.com
+#
+# 인증서는 DNS 검증이라 스택이 "CREATE_IN_PROGRESS" 에서 기다린다 — 콘솔(ACM)에 뜨는 CNAME 3개를
+# Squarespace DNS 에 넣으면 진행된다. 함수 코드·KVS 내용은 배포 워크플로가 채운다(여기는 자리만).
+# 캐시 동작·헤더 정책은 apps/static-site/scripts/rules.mjs 의 BEHAVIORS · responseHeaderPolicies 와 같아야 한다
+# (scripts/test-edge.mjs 가 헤더 값을 대조한다).
+AWSTemplateFormatVersion: '2010-09-09'
+Description: www.aihavit.com static site (S3 + CloudFront)
+
+Parameters:
+  GitHubOidcProviderArn:
+    Type: String
+    Description: 계정에 이미 있는 GitHub OIDC 공급자 ARN (없으면 IAM 에서 token.actions.githubusercontent.com 공급자를 먼저 만든다)
+  GitHubRepo:
+    Type: String
+    Default: ai-connects/havit-web
+
+Resources:
+  SiteBucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: !Sub havit-www-static-${AWS::AccountId}
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      OwnershipControls:
+        Rules: [{ ObjectOwnership: BucketOwnerEnforced }]
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault: { SSEAlgorithm: AES256 }
+      VersioningConfiguration: { Status: Enabled }
+      LifecycleConfiguration:
+        Rules:
+          - Id: expire-old-versions
+            Status: Enabled
+            NoncurrentVersionExpiration: { NoncurrentDays: 14 }
+
+  SiteBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref SiteBucket
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Sid: CloudFrontOAC
+            Effect: Allow
+            Principal: { Service: cloudfront.amazonaws.com }
+            Action: s3:GetObject
+            Resource: !Sub ${SiteBucket.Arn}/*
+            Condition:
+              StringEquals:
+                AWS:SourceArn: !Sub arn:aws:cloudfront::${AWS::AccountId}:distribution/${Distribution}
+
+  OAC:
+    Type: AWS::CloudFront::OriginAccessControl
+    Properties:
+      OriginAccessControlConfig:
+        Name: havit-www-static
+        OriginAccessControlOriginType: s3
+        SigningBehavior: always
+        SigningProtocol: sigv4
+
+  Certificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName: www.aihavit.com
+      SubjectAlternativeNames: [blog.aihavit.com, aihavit.com]
+      ValidationMethod: DNS
+
+  RedirectStore:
+    Type: AWS::CloudFront::KeyValueStore
+    Properties:
+      Name: havit-www-redirects
+      Comment: merged blog slugs (m:<from> -> <to>), filled by deploy workflow
+
+  ViewerRequestFunction:
+    Type: AWS::CloudFront::Function
+    Properties:
+      Name: havit-www-viewer-request
+      AutoPublish: true
+      FunctionConfig:
+        Comment: routing + redirects (code is replaced by the deploy workflow)
+        Runtime: cloudfront-js-2.0
+        KeyValueStoreAssociations:
+          - KeyValueStoreARN: !GetAtt RedirectStore.Arn
+      FunctionCode: |
+        async function handler(event) { return event.request; }
+
+  CachePolicy:
+    Type: AWS::CloudFront::CachePolicy
+    Properties:
+      CachePolicyConfig:
+        Name: havit-www-static
+        Comment: TTL from object Cache-Control (s-maxage for HTML, immutable for hashed assets)
+        MinTTL: 0
+        DefaultTTL: 86400
+        MaxTTL: 31536000
+        ParametersInCacheKeyAndForwardedToOrigin:
+          EnableAcceptEncodingGzip: true
+          EnableAcceptEncodingBrotli: true
+          CookiesConfig: { CookieBehavior: none }
+          HeadersConfig: { HeaderBehavior: none }
+          QueryStringsConfig: { QueryStringBehavior: none }
+
+  # 홈: Vercel 플랫폼이 붙이던 HSTS 만(apps/web/vercel.json 의 Cache-Control 은 S3 객체 메타데이터로).
+  WebHeaders:
+    Type: AWS::CloudFront::ResponseHeadersPolicy
+    Properties:
+      ResponseHeadersPolicyConfig:
+        Name: havit-www-web
+        SecurityHeadersConfig:
+          StrictTransportSecurity: { AccessControlMaxAgeSec: 63072000, IncludeSubdomains: false, Preload: false, Override: true }
+
+  # 블로그: apps/blog/vercel.json 의 `/(.*)` 보안 헤더 + HSTS.
+  BlogHeaders:
+    Type: AWS::CloudFront::ResponseHeadersPolicy
+    Properties:
+      ResponseHeadersPolicyConfig:
+        Name: havit-www-blog
+        SecurityHeadersConfig:
+          StrictTransportSecurity: { AccessControlMaxAgeSec: 63072000, IncludeSubdomains: false, Preload: false, Override: true }
+          ContentTypeOptions: { Override: true }
+          FrameOptions: { FrameOption: SAMEORIGIN, Override: true }
+          ReferrerPolicy: { ReferrerPolicy: strict-origin-when-cross-origin, Override: true }
+
+  Distribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Enabled: true
+        Comment: www.aihavit.com static (home + /blog)
+        Aliases: [www.aihavit.com, blog.aihavit.com, aihavit.com]
+        HttpVersion: http2and3
+        IPV6Enabled: true
+        PriceClass: PriceClass_200 # 한국·일본·동남아 포함, 남미·호주 제외
+        ViewerCertificate:
+          AcmCertificateArn: !Ref Certificate
+          SslSupportMethod: sni-only
+          MinimumProtocolVersion: TLSv1.2_2021
+        Origins:
+          - Id: s3
+            DomainName: !GetAtt SiteBucket.RegionalDomainName
+            OriginAccessControlId: !GetAtt OAC.Id
+            S3OriginConfig: { OriginAccessIdentity: '' }
+        # 없는 키는 OAC 에서 403 으로 온다 → 블로그 404 페이지를 404 로.
+        CustomErrorResponses:
+          - { ErrorCode: 403, ResponseCode: 404, ResponsePagePath: /blog/404.html, ErrorCachingMinTTL: 60 }
+          - { ErrorCode: 404, ResponseCode: 404, ResponsePagePath: /blog/404.html, ErrorCachingMinTTL: 60 }
+        DefaultCacheBehavior:
+          TargetOriginId: s3
+          ViewerProtocolPolicy: redirect-to-https
+          Compress: true
+          AllowedMethods: [GET, HEAD]
+          CachePolicyId: !Ref CachePolicy
+          ResponseHeadersPolicyId: !Ref WebHeaders
+          FunctionAssociations:
+            - { EventType: viewer-request, FunctionARN: !GetAtt ViewerRequestFunction.FunctionMetadata.FunctionARN }
+        # 해시된 정적 파일·이미지는 함수를 거치지 않는다(무료 호출 한도 절약).
+        CacheBehaviors:
+          - PathPattern: /assets/*
+            TargetOriginId: s3
+            ViewerProtocolPolicy: redirect-to-https
+            Compress: true
+            CachePolicyId: !Ref CachePolicy
+            ResponseHeadersPolicyId: !Ref WebHeaders
+          - PathPattern: /blog/_next/static/*
+            TargetOriginId: s3
+            ViewerProtocolPolicy: redirect-to-https
+            Compress: true
+            CachePolicyId: !Ref CachePolicy
+            ResponseHeadersPolicyId: !Ref BlogHeaders
+          - PathPattern: /blog/_img/*
+            TargetOriginId: s3
+            ViewerProtocolPolicy: redirect-to-https
+            Compress: false
+            CachePolicyId: !Ref CachePolicy
+            ResponseHeadersPolicyId: !Ref BlogHeaders
+          - PathPattern: /blog/*
+            TargetOriginId: s3
+            ViewerProtocolPolicy: redirect-to-https
+            Compress: true
+            CachePolicyId: !Ref CachePolicy
+            ResponseHeadersPolicyId: !Ref BlogHeaders
+            FunctionAssociations:
+              - { EventType: viewer-request, FunctionARN: !GetAtt ViewerRequestFunction.FunctionMetadata.FunctionARN }
+
+  # GitHub Actions(static-aws 워크플로, main 브랜치)만 맡을 수 있는 배포 역할.
+  DeployRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: havit-www-static-deploy
+      MaxSessionDuration: 3600
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal: { Federated: !Ref GitHubOidcProviderArn }
+            Action: sts:AssumeRoleWithWebIdentity
+            Condition:
+              StringEquals:
+                token.actions.githubusercontent.com:aud: sts.amazonaws.com
+                token.actions.githubusercontent.com:sub: !Sub repo:${GitHubRepo}:ref:refs/heads/main
+      Policies:
+        - PolicyName: deploy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action: [s3:ListBucket]
+                Resource: !GetAtt SiteBucket.Arn
+              - Effect: Allow
+                Action: [s3:PutObject, s3:DeleteObject, s3:GetObject]
+                Resource: !Sub ${SiteBucket.Arn}/*
+              - Effect: Allow
+                Action: [cloudfront:CreateInvalidation, cloudfront:GetInvalidation]
+                Resource: !Sub arn:aws:cloudfront::${AWS::AccountId}:distribution/${Distribution}
+              - Effect: Allow
+                Action: [cloudfront:DescribeFunction, cloudfront:GetFunction, cloudfront:UpdateFunction, cloudfront:PublishFunction, cloudfront:TestFunction]
+                Resource: !GetAtt ViewerRequestFunction.FunctionARN
+              - Effect: Allow
+                Action: [cloudfront-keyvaluestore:DescribeKeyValueStore, cloudfront-keyvaluestore:ListKeys, cloudfront-keyvaluestore:UpdateKeys, cloudfront:DescribeKeyValueStore]
+                Resource: !GetAtt RedirectStore.Arn
+              - Effect: Allow
+                Action: [cloudformation:DescribeStacks]
+                Resource: !Ref AWS::StackId
+
+Outputs:
+  Bucket: { Value: !Ref SiteBucket }
+  DistributionId: { Value: !Ref Distribution }
+  DistributionDomain: { Value: !GetAtt Distribution.DomainName, Description: www/blog CNAME 대상 }
+  FunctionName: { Value: havit-www-viewer-request }
+  KvsArn: { Value: !GetAtt RedirectStore.Arn }
+  KvsId: { Value: !GetAtt RedirectStore.Id }
+  DeployRoleArn: { Value: !GetAtt DeployRole.Arn, Description: GitHub 시크릿 AWS_DEPLOY_ROLE_ARN }
+  CertificateArn: { Value: !Ref Certificate }

@@ -1,0 +1,65 @@
+# www.aihavit.com (홈 + /blog) 정적 빌드 → S3 + CloudFront.
+#
+# 수동 실행만(workflow_dispatch) — 전환 전까지 Actions 분을 쓰지 않는다.
+# AWS_DEPLOY_ROLE_ARN 시크릿이 없으면 빌드·엣지 대조만 하고 배포는 건너뛴다.
+# 역할·인프라: apps/static-site/infra/cloudfront.yml, 절차: docs/static-aws-migration.md
+name: static-aws
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '배포 명령만 출력(AWS 에 쓰지 않음)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  id-token: write # GitHub OIDC → IAM 역할
+
+concurrency:
+  group: static-aws
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      HAS_ROLE: ${{ secrets.AWS_DEPLOY_ROLE_ARN != '' }}
+      STACK: havit-www-static
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install
+        run: |
+          npm ci --prefix apps/web --no-audit --no-fund
+          npm ci --prefix apps/blog --no-audit --no-fund
+          npm ci --prefix apps/static-site --no-audit --no-fund
+      - name: Cache images (originals + encoded variants)
+        uses: actions/cache@v4
+        with:
+          path: apps/static-site/.cache
+          key: static-img-v1-${{ hashFiles('apps/blog/lib/article-images.ts', 'apps/blog/data/**/*.json') }}
+          restore-keys: static-img-v1-
+      - name: Build
+        working-directory: apps/static-site
+        run: node scripts/build.mjs
+      - name: Edge function ↔ middleware.js / next.config.js parity
+        working-directory: apps/static-site
+        run: node scripts/test-edge.mjs
+      - name: AWS credentials (OIDC)
+        if: env.HAS_ROLE == 'true'
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: us-east-1
+      - name: Deploy (S3 sync · KVS · function · invalidation)
+        if: env.HAS_ROLE == 'true'
+        working-directory: apps/static-site
+        run: node scripts/deploy.mjs --stack "$STACK" ${{ inputs.dry_run && '--dry-run' || '' }}
+      - name: Skipped deploy
+        if: env.HAS_ROLE != 'true'
+        run: echo "AWS_DEPLOY_ROLE_ARN 시크릿이 없어 배포를 건너뛴다(빌드·대조만)."
