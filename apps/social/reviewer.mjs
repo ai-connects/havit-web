@@ -1,6 +1,6 @@
 // AI 리뷰어: 큐 초안(글 + 렌더 이미지)을 판정하고 자동 발행 게이트를 적용한다.
 //   node reviewer.mjs queue/2026-11-02 [queue/...]
-// 환경 변수: ANTHROPIC_API_KEY, SOCIAL_REVIEW_MODEL (기본 claude-opus-5-5 — 생성 모델보다 강한 모델로 검수)
+// 환경 변수: SOCIAL_REVIEW_MODEL (기본 claude-opus-5-5 — 생성 모델보다 강한 모델로 검수)
 // 결과: 초안 JSON 에 review·decision 기록. decision.status = auto_approved 일 때만 approved:true.
 import { readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
