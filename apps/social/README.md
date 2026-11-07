@@ -21,7 +21,7 @@ API 키 없이 돌릴 때(에이전트·사람이 초안을 쓰는 경우): `dum
 cd apps/social
 npm install
 node plan.mjs 2026-10-26 2
-ANTHROPIC_API_KEY=... node generate.mjs queue/plan-2026-10-26.json --date 2026-10-26
+node generate.mjs queue/plan-2026-10-26.json --date 2026-10-26
 node generate.mjs queue/plan-2026-10-26.json --dry   # 프롬프트만 확인
 npm test
 ```

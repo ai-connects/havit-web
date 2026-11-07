@@ -1,7 +1,7 @@
 // 초안마다 사진을 정한다(render 전에 실행). 라이브러리에서 맞는 사진 → 없으면 AI 생성. 같은 계정에서 14일 안에 쓴 사진은 피한다.
 // 같은 날 같은 채널·주제의 다른 언어 판이 이미 사진을 정했으면 그대로 쓴다 — 번역만 다른 글이라 언어마다 고르고 생성하면 비용만 9배(2026-10-29).
 //   node imagery.mjs queue/2026-11-02
-// 환경 변수: ANTHROPIC_API_KEY(선택용), GEMINI_API_KEY(생성용)
+// 환경 변수: GEMINI_API_KEY(생성용)
 import { existsSync, mkdirSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { readJson } from './lib/source.mjs';

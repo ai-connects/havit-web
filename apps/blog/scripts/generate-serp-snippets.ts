@@ -21,8 +21,8 @@
  * Idempotent: entries that already have short_title are never touched.
  *
  * Usage:
- *   ANTHROPIC_API_KEY=... npx tsx scripts/generate-serp-snippets.ts --dry-run [--lang es] [--limit 30]
- *   ANTHROPIC_API_KEY=... npx tsx scripts/generate-serp-snippets.ts --write
+ *   npx tsx scripts/generate-serp-snippets.ts --dry-run [--lang es] [--limit 30]
+ *   npx tsx scripts/generate-serp-snippets.ts --write
  */
 
 import { promises as fs } from 'fs';

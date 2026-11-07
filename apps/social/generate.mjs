@@ -1,6 +1,6 @@
 // 계획의 슬롯을 Claude 로 초안 생성 → 자동 검사 → queue/<date>/ 에 저장(사람 승인 대기).
 //   node generate.mjs queue/plan-2026-10-26.json [--date 2026-10-26] [--dry]
-// 환경 변수: ANTHROPIC_API_KEY (필수, --dry 제외), SOCIAL_MODEL (기본 claude-sonnet-5-5)
+// 환경 변수: 구독 로그인(로컬) 또는 CLAUDE_CODE_OAUTH_TOKEN(CI) (--dry 제외), SOCIAL_MODEL (기본 claude-sonnet-5-5)
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
