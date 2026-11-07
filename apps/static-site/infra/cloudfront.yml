@@ -19,6 +19,9 @@ Parameters:
   GitHubRepo:
     Type: String
     Default: ai-connects/havit-web
+  HostedZoneId:
+    Type: String
+    Default: Z09176801AFW7ZVN92WRY # aihavit.com
 
 Resources:
   SiteBucket:
@@ -74,6 +77,11 @@ Resources:
       DomainName: www.aihavit.com
       SubjectAlternativeNames: [blog.aihavit.com, aihavit.com]
       ValidationMethod: DNS
+      # aihavit.com DNS 는 2026-11-07 부터 Route 53 — 검증 CNAME 을 스택이 직접 넣는다.
+      DomainValidationOptions:
+        - { DomainName: www.aihavit.com, HostedZoneId: !Ref HostedZoneId }
+        - { DomainName: blog.aihavit.com, HostedZoneId: !Ref HostedZoneId }
+        - { DomainName: aihavit.com, HostedZoneId: !Ref HostedZoneId }
 
   RedirectStore:
     Type: AWS::CloudFront::KeyValueStore

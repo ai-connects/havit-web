@@ -90,7 +90,11 @@ async function strayTarget(path) {
   const parts = (m[2] || '').split('/').filter(Boolean);
   if (parts.length === 0) return has(D.blogOnly, lang) ? `/blog/${lang}` : null;
   if (parts[0] === 'index.html' || parts[0] === 'affiliate') return null;
-  if (parts.length === 1) return `/blog/${lang}/${(await merged(parts[0])) || parts[0]}`;
+  // CloudFront 런타임은 함수 인자·템플릿 안의 await 를 못 읽는다(SyntaxError) — 먼저 변수에 받는다.
+  if (parts.length === 1) {
+    const to = await merged(parts[0]);
+    return `/blog/${lang}/${to || parts[0]}`;
+  }
   if (parts.length === 2 && (parts[0] === 'tools' || parts[0] === 'category')) return `/blog/${lang}/${parts.join('/')}`;
   return null;
 }
@@ -174,7 +178,10 @@ async function handler(event) {
   const path = req.uri;
   const search = qs(req.querystring);
 
-  if (host === D.legacyHost) return go(308, await legacy(path, search));
+  if (host === D.legacyHost) {
+    const loc = await legacy(path, search);
+    return go(308, loc);
+  }
   if (host === D.apexHost) return go(308, WWW + path + search);
 
   // 2. vercel.json redirects
