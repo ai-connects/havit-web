@@ -143,6 +143,8 @@ export function uploadRules() {
     const cc = h.headers.find((x) => x.key === 'Cache-Control')
     if (cc) rules.push({ glob: 'blog/' + glob(h.source), cacheControl: cc.value })
   }
+  // 옛 브라우저용 WebP 가 avif 규칙에 같이 걸려 image/avif 로 나가던 것을 막는다(11/9 발견) — webp 를 먼저.
+  rules.push({ glob: 'blog/_img/*.webp', contentType: 'image/webp', cacheControl: 'public, max-age=2678400' })
   rules.push({ glob: 'blog/_img/*', contentType: 'image/avif', cacheControl: 'public, max-age=2678400' })
   for (const h of web.headers) {
     const cc = h.headers.find((x) => x.key === 'Cache-Control')
