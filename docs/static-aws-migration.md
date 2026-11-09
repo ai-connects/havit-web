@@ -14,7 +14,7 @@
 | 병합 slug 160개 | CloudFront KeyValueStore(`m:<옛 slug>` → 새 slug). 함수에 넣으면 약 17 KB 라 한도를 넘는다 |
 | 헤더 | 응답 헤더 정책 2개(홈: HSTS / 블로그: HSTS + nosniff + SAMEORIGIN + Referrer-Policy). Cache-Control 은 S3 객체 메타데이터 |
 | 인프라 | `apps/static-site/infra/cloudfront.yml` (S3 · OAC · 배포 · 함수 · KVS · 헤더 정책 · 캐시 정책 · ACM · 배포 역할) — 아직 적용 안 함 |
-| 배포 | GitHub Actions `static-aws` (수동 실행만, OIDC 역할. `AWS_DEPLOY_ROLE_ARN` 시크릿이 없으면 빌드만) |
+| 배포 | GitHub Actions `static-aws` (main 머지 때 자동 — apps/web·blog·static-site 가 바뀐 경우 — 와 수동 실행, OIDC 역할. `AWS_DEPLOY_ROLE_ARN` 시크릿이 없으면 빌드만) |
 | 대조 | `scripts/test-edge.mjs`(함수 ↔ middleware.js · next.config.js, 1.7만 건) · `scripts/local-edge.mjs` + `scripts/verify.mjs`(운영과 비교) |
 
 함수가 하는 일(지금 Vercel 의 처리 순서 그대로): 옛 호스트 `blog.aihavit.com`·apex `aihavit.com` → www 308 → `apps/web/vercel.json` 리다이렉트 308 →
@@ -59,7 +59,7 @@
 
 ## 4. 운영 중 바뀌는 것
 
-- 글 발행 = 재배포: 글을 main 에 머지한 뒤 Actions `static-aws` 수동 실행(업로드 → KVS → 함수 → 삭제 → `/*` 무효화). ISR(600초)·`/api/revalidate` 웹훅은 없어진다. IndexNow 는 필요하면 배포 뒤 `apps/web/scripts/indexnow.mjs`.
+- 글 발행 = 재배포: 글을 main 에 머지하면 Actions `static-aws` 가 자동 실행(업로드 → KVS → 함수 → 삭제 → `/*` 무효화). ISR(600초)·`/api/revalidate` 웹훅은 없어진다. IndexNow 는 필요하면 배포 뒤 `apps/web/scripts/indexnow.mjs`.
 - HTML 캐시: 브라우저는 지금처럼 매번 확인(`max-age=0`), CloudFront 는 하루(`s-maxage=86400`), 배포 때 무효화. 해시 파일은 1년 immutable(지금과 같음).
 - 블로그 홈 `?page=N` → 정적 `/blog/<lang>/page/<N>`(canonical 은 지금처럼 `/blog/<lang>`). `?q=` 검색은 브라우저에서 색인 JSON 으로(결과에 사진 없음 — UI 검수 필요). 블로그 안 링크는 전체 페이지 이동.
 - 없는 주소의 404 본문은 블로그 404 페이지 하나(CloudFront 오류 페이지는 배포당 하나). 상태코드는 같다.
