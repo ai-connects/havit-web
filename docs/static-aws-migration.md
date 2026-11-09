@@ -59,7 +59,7 @@
 
 ## 4. 운영 중 바뀌는 것
 
-- 글 발행 = 재배포: 글을 main 에 머지하면 Actions `static-aws` 가 자동 실행(업로드 → KVS → 함수 → 삭제 → `/*` 무효화). ISR(600초)·`/api/revalidate` 웹훅은 없어진다. IndexNow 는 필요하면 배포 뒤 `apps/web/scripts/indexnow.mjs`.
+- 글 발행 = 재배포: 글을 main 에 머지하면 Actions `static-aws` 가 자동 실행(업로드 → KVS → 함수 → 삭제 → `/*` 무효화). ISR(600초)·`/api/revalidate` 웹훅은 없어진다. IndexNow 는 push 배포 때 바뀐 글 주소만 자동 전송(`apps/static-site/scripts/indexnow-changed.mjs`). 이전·대량 수정 같은 큰 변경 때만 손으로 전체 제출: `node apps/web/scripts/indexnow.mjs`.
 - HTML 캐시: 브라우저는 지금처럼 매번 확인(`max-age=0`), CloudFront 는 하루(`s-maxage=86400`), 배포 때 무효화. 해시 파일은 1년 immutable(지금과 같음).
 - 블로그 홈 `?page=N` → 정적 `/blog/<lang>/page/<N>`(canonical 은 지금처럼 `/blog/<lang>`). `?q=` 검색은 브라우저에서 색인 JSON 으로(결과에 사진 없음 — UI 검수 필요). 블로그 안 링크는 전체 페이지 이동.
 - 없는 주소의 404 본문은 블로그 404 페이지 하나(CloudFront 오류 페이지는 배포당 하나). 상태코드는 같다.
