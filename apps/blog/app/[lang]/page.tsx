@@ -17,6 +17,13 @@ import { SITE } from '@/lib/site';
 import { homeMetaDescription } from '@/lib/meta-descriptions';
 import { APP_ALTERNATIVE_SLUGS, APP_PICK_SLUGS, appGuideLinks } from '@/lib/app-guides';
 import { INDEXABLE_ROBOTS } from '@/lib/seo';
+import StaticSearch from '@/components/StaticSearch';
+import { STATIC_SEARCH_PARAMS } from '@/lib/static-export/search-params';
+
+// 정적 내보내기(STATIC_EXPORT=1, 정적 호스팅 이전용)에서는 요청마다 렌더하지 못하므로
+// searchParams 를 읽지 않는다. 쪽 번호는 /<lang>/page/<n> 정적 페이지로, 검색(?q=)은
+// StaticSearch 가 브라우저에서 처리한다. Vercel 빌드에서는 아무것도 바뀌지 않는다.
+const STATIC_EXPORT = process.env.STATIC_EXPORT === '1';
 
 export const revalidate = 600;
 
@@ -191,7 +198,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const PAGE_SIZE = 12;
 
-export default function BlogIndexPage({ params, searchParams }: Props) {
+export default function BlogIndexPage({ params, searchParams: requestSearchParams }: Props) {
+  // 정적 판의 /<lang>/page/<n> 이 넘긴 값(STATIC_SEARCH_PARAMS 에 등록된 객체)만 쓴다.
+  const searchParams: Props['searchParams'] =
+    STATIC_EXPORT && !STATIC_SEARCH_PARAMS.has(requestSearchParams) ? {} : requestSearchParams;
   if (!ROUTE_LANGS.includes(params.lang as RouteLang)) notFound();
   const shortLang = params.lang;
   const lang = toFullLang(shortLang === 'zh-tw' ? 'zh-tw' : shortLang === 'zh' ? 'zh-cn' : shortLang);
@@ -232,6 +242,7 @@ export default function BlogIndexPage({ params, searchParams }: Props) {
     const params = new URLSearchParams();
     if (query) params.set('q', query);
     if (category) params.set('cat', category);
+    if (STATIC_EXPORT && !query && !category) return p > 1 ? `${basePath}/page/${p}` : basePath;
     if (p > 1) params.set('page', String(p));
     const qs = params.toString();
     return qs ? `${basePath}?${qs}` : basePath;
@@ -341,7 +352,7 @@ export default function BlogIndexPage({ params, searchParams }: Props) {
               </h1>
               <p className="blog-featured__tldr">{HERO_TAGLINE[shortLang as RouteLang]}</p>
 
-              <form method="get" action={basePath}>
+              <form method="get" action={STATIC_EXPORT ? `/blog${basePath}` : basePath}>
                 <div className="relative">
                   <input
                     type="search"
@@ -396,6 +407,7 @@ export default function BlogIndexPage({ params, searchParams }: Props) {
             </nav>
 
             <div className="blog-list__main">
+              {STATIC_EXPORT && <StaticSearch lang={shortLang} />}
               <h2 className="text-heading-2 mb-8">{heading}</h2>
 
               {listItems.length === 0 ? (
