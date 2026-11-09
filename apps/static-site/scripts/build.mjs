@@ -129,10 +129,28 @@ async function original(key) {
 
 // AVIF: Vercel 의 AVIF 와 바이트를 맞춘 설정. WebP: Vercel(=next/image) 의 WebP 와 바이트가 같다(q75).
 const ENCODINGS = [['avif', { quality: 50, effort: 6, chromaSubsampling: '4:2:0' }], ['webp', { quality: 75 }]]
+// 씨앗(IMG_SEED_DIR): 지난 배포가 S3 에 올린 blog/_img/ 를 받아 둔 폴더. 같은 <키>/<폭>.<형식> 이 있으면
+// 다시 인코딩하지 않고 그대로 쓴다 — GitHub 캐시(7일 미사용 시 삭제)가 없어도 첫 빌드가 40분+ 걸리지 않게.
+// ENCODINGS 를 바꾸면 씨앗이 옛 설정의 결과이므로 IMG_SEED_DIR 을 비우고(워크플로 seed 단계 끄기) 한 번 다시 만든다.
+const SEED = process.env.IMG_SEED_DIR || ''
+let seeded = 0
 const queue = [...wanted.entries()]
 async function worker() {
   for (let item = queue.shift(); item; item = queue.shift()) {
     const [key, widths] = item
+    if (SEED) {
+      const files = [...widths].flatMap((w) => ENCODINGS.map(([ext]) => [w, ext]))
+      if (files.every(([w, ext]) => existsSync(join(SEED, key, `${w}.${ext}`)))) {
+        for (const [w, ext] of files) {
+          const out = join(DIST, 'blog/_img', key, `${w}.${ext}`)
+          mkdirSync(dirname(out), { recursive: true })
+          cpSync(join(SEED, key, `${w}.${ext}`), out)
+          made++
+          seeded++
+        }
+        continue
+      }
+    }
     const src = await original(key)
     const meta = await sharp(src).metadata()
     for (const w of widths) {
@@ -152,7 +170,7 @@ async function worker() {
   }
 }
 await Promise.all(Array.from({ length: 6 }, worker))
-log(`images: wrote ${made} files`)
+log(`images: wrote ${made} files (${seeded} from seed)`)
 
 wantedCount = wanted.size
 }
