@@ -88,3 +88,9 @@ CloudFront 정액제 Free(월 100만 요청·100 GB)는 요청 수가 모자라 
 - GSC Sitemaps: `/sitemap.xml`, `/blog/sitemap.xml` "성공", 발견 URL 수 유지. 실적(노출·클릭) 주 단위, Core Web Vitals.
 - Naver 서치어드바이저: 수집 현황·수집 오류, 사이트맵 상태. Yeti 가 막히지 않는지(robots.txt 는 지금과 바이트 동일).
 - CloudFront 콘솔: 4xx·5xx 비율, 함수 실행 오류(`FunctionExecutionErrors`)·`FunctionThrottles` 0. 필요하면 CloudWatch 경보.
+
+## 배포 시간·실패 (2026-11-09)
+- 캐시 없는 이미지 인코딩(원본 약 400개 → 파일 약 6,000개, AVIF effort 6)은 GitHub 러너에서 40분+ 걸린다. 첫 자동 배포 두 번이 45분 제한으로 취소됐다.
+- 지금: 잡 150분·Build 130분 제한, 이미지 캐시는 실패해도 저장, 캐시가 없으면 S3 `blog/_img/` 를 씨앗(`IMG_SEED_DIR`)으로 받아 새 이미지만 인코딩(로컬 실측: 캐시 없이 146초, 6,024개 전부 씨앗).
+- 인코딩 설정(build.mjs `ENCODINGS`)을 바꿀 때는 씨앗이 옛 결과이므로 seed 단계를 한 번 끄고 다시 만든다.
+- 실패·취소되면 Actions 요약에 남기고, 저장소 시크릿 `SLACK_DEPLOY_WEBHOOK` 이 있으면 Slack 으로도 보낸다.
