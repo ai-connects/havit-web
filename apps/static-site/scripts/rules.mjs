@@ -155,6 +155,12 @@ export function uploadRules() {
     { glob: '*.xml', contentType: 'application/xml; charset=utf-8', cacheControl: HTML_CC },
     { glob: 'blog/api/health', contentType: 'application/json', cacheControl: HTML_CC },
     { glob: '*.json', contentType: 'application/json', cacheControl: HTML_CC },
+    // 블로그의 진짜 텍스트 파일(llms·robots·IndexNow 키)은 text/plain, 나머지 blog/*.txt 는 Next RSC 페이로드 —
+    // next/link 는 content-type 이 text/x-component 가 아니면 소프트 이동을 포기한다.
+    { glob: 'blog/llms.txt', contentType: 'text/plain; charset=utf-8', cacheControl: HTML_CC },
+    { glob: 'blog/robots.txt', contentType: 'text/plain; charset=utf-8', cacheControl: HTML_CC },
+    { glob: 'blog/81b971200b7d6aa96b465a75821c1b02.txt', contentType: 'text/plain; charset=utf-8', cacheControl: HTML_CC },
+    { glob: 'blog/*.txt', contentType: 'text/x-component', cacheControl: HTML_CC },
     { glob: '*.txt', contentType: 'text/plain; charset=utf-8', cacheControl: HTML_CC },
     { glob: '*', cacheControl: HTML_CC },
   )

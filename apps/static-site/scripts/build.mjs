@@ -70,17 +70,14 @@ rmSync(DIST, { recursive: true, force: true })
 cpSync(join(WEB, 'dist'), DIST, { recursive: true })
 cpSync(join(BLOG, 'out'), join(DIST, 'blog'), { recursive: true })
 
-// RSC 페이로드(.txt)는 지운다 — 정적 판에서는 next/link 가 평범한 <a> 라 쓰이지 않는다
-// (업로드 1.1만 개·약 1 GB 절약). 같은 이름의 .html 이 있는 .txt 만 지운다
-// (llms.txt · IndexNow 키 같은 진짜 텍스트 파일은 남는다).
-let rscRemoved = 0
+// RSC 페이로드(<경로>.txt)는 남긴다. 2026-11-09 운영 실측: 지웠더니 next/link 프리페치·이동이
+// 매번 404(CloudFront 4xx 비율 약 20%)였다. 링크는 페이지 전체 로드로 동작은 했지만 요청·지연이 늘었다.
+// deploy.mjs 가 .txt 를 text/x-component + HTML 과 같은 캐시로 올린다.
+let rscKept = 0
 for (const f of walk(join(DIST, 'blog'))) {
-  if (f.endsWith('.txt') && existsSync(f.slice(0, -4) + '.html')) {
-    rmSync(f)
-    rscRemoved++
-  }
+  if (f.endsWith('.txt') && existsSync(f.slice(0, -4) + '.html')) rscKept++
 }
-log(`removed ${rscRemoved} RSC .txt payloads`)
+log(`kept ${rscKept} RSC .txt payloads`)
 
 // ── 3. 이미지: HTML 이 가리키는 /blog/_img/<호스트>/<경로>/<폭>.avif 만 만든다 ──
 // 지금 Vercel 이미지 최적화가 AVIF 지원 브라우저(대부분)에 주는 파일과 바이트가 거의 같게 맞췄다
