@@ -50,22 +50,26 @@ jobs:
           npm ci --prefix apps/blog --no-audit --no-fund
           npm ci --prefix apps/static-site --no-audit --no-fund
       # 복원과 저장을 나눈다 — 빌드가 실패·취소돼도 그때까지 인코딩한 이미지를 저장해 다음 실행이 이어서 한다.
+      # 키는 실행마다 새로(run_id) — 캐시 키는 덮어쓸 수 없어서, 고정 키면 반쯤 찬 캐시가 굳는다. 복원은 접두어로 가장 최근 것.
       - name: Restore image cache (originals + encoded variants)
         id: imgcache
         uses: actions/cache/restore@v4
         with:
           path: apps/static-site/.cache
-          key: static-img-v1-${{ hashFiles('apps/blog/lib/article-images.ts', 'apps/blog/data/**/*.json') }}
-          restore-keys: static-img-v1-
-      # 캐시가 없으면 지난 배포가 S3 에 올린 이미지를 씨앗으로 받는다(build.mjs IMG_SEED_DIR). 다시 인코딩하는 건 새 이미지뿐.
+          key: static-img-v2-${{ github.run_id }}
+          restore-keys: |
+            static-img-v2-
+            static-img-v1-
+      # 캐시와 상관없이 늘 지난 배포가 S3 에 올린 이미지를 씨앗으로 받는다(build.mjs IMG_SEED_DIR). 다시 인코딩하는 건 새 이미지뿐.
+      # (11/9: 취소된 실행이 반쯤 찬 캐시를 정확한 키로 저장 → 다음 실행이 '캐시 있음'으로 씨앗을 건너뛰고 다시 인코딩했다)
       - name: AWS credentials for image seed (OIDC)
-        if: env.HAS_ROLE == 'true' && steps.imgcache.outputs.cache-hit != 'true'
+        if: env.HAS_ROLE == 'true'
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
           aws-region: us-east-1
       - name: Seed images from S3
-        if: env.HAS_ROLE == 'true' && steps.imgcache.outputs.cache-hit != 'true'
+        if: env.HAS_ROLE == 'true'
         run: |
           BUCKET=$(aws cloudformation describe-stacks --stack-name "$STACK" --query "Stacks[0].Outputs[?OutputKey=='Bucket'].OutputValue" --output text)
           mkdir -p "$RUNNER_TEMP/img-seed"
@@ -78,12 +82,12 @@ jobs:
         working-directory: apps/static-site
         run: node scripts/build.mjs
       - name: Save image cache
-        if: always() && steps.imgcache.outputs.cache-hit != 'true'
+        if: always()
         continue-on-error: true # 씨앗으로 다 채우면 .cache 가 비어 있을 수 있다
         uses: actions/cache/save@v4
         with:
           path: apps/static-site/.cache
-          key: static-img-v1-${{ hashFiles('apps/blog/lib/article-images.ts', 'apps/blog/data/**/*.json') }}
+          key: static-img-v2-${{ github.run_id }}
       - name: Edge function ↔ middleware.js / next.config.js parity
         working-directory: apps/static-site
         run: node scripts/test-edge.mjs
