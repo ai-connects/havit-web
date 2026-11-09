@@ -32,7 +32,8 @@ concurrency:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # 캐시 없는 첫 빌드는 이미지 인코딩(원본 약 400개 → 변환 약 3,000개)만 40분+ 걸린다(11/9 실측, 45분 제한에 걸려 취소).
+    timeout-minutes: 150
     env:
       HAS_ROLE: ${{ secrets.AWS_DEPLOY_ROLE_ARN != '' }}
       STACK: havit-www-static
@@ -48,15 +49,25 @@ jobs:
           npm ci --prefix apps/web --no-audit --no-fund
           npm ci --prefix apps/blog --no-audit --no-fund
           npm ci --prefix apps/static-site --no-audit --no-fund
-      - name: Cache images (originals + encoded variants)
-        uses: actions/cache@v4
+      # 복원과 저장을 나눈다 — 빌드가 실패·취소돼도 그때까지 인코딩한 이미지를 저장해 다음 실행이 이어서 한다.
+      - name: Restore image cache (originals + encoded variants)
+        id: imgcache
+        uses: actions/cache/restore@v4
         with:
           path: apps/static-site/.cache
           key: static-img-v1-${{ hashFiles('apps/blog/lib/article-images.ts', 'apps/blog/data/**/*.json') }}
           restore-keys: static-img-v1-
       - name: Build
+        # 잡 제한(150분)보다 먼저 끊어서 아래 캐시 저장 단계가 반드시 돌게 한다.
+        timeout-minutes: 130
         working-directory: apps/static-site
         run: node scripts/build.mjs
+      - name: Save image cache
+        if: always() && steps.imgcache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: apps/static-site/.cache
+          key: static-img-v1-${{ hashFiles('apps/blog/lib/article-images.ts', 'apps/blog/data/**/*.json') }}
       - name: Edge function ↔ middleware.js / next.config.js parity
         working-directory: apps/static-site
         run: node scripts/test-edge.mjs
