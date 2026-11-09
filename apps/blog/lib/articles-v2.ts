@@ -379,11 +379,16 @@ export interface ArticleListItem {
   native: boolean;
 }
 
+/**
+ * 그 언어 원고가 있는 글만 돌려준다. 정적 사이트(S3)는 폴백 페이지를 만들지 않아서(generateStaticParams 가
+ * native 만 생성) 목록·분류·페이지 넘김에 폴백 글을 넣으면 404 링크가 된다(11/9 전수 점검: 28개 주소,
+ * 영어·독일어만 있는 GLP-1 가이드 5편). 버셀 때는 요청 시 영어 폴백(noindex)으로 렌더됐다.
+ */
 export function listArticlesForLang(shortLang: string, limit?: number): ArticleListItem[] {
   const items: ArticleListItem[] = [];
   for (const a of loadAll()) {
     const r = resolveContent(a, shortLang);
-    if (!r) continue;
+    if (!r || r.fallback) continue;
     items.push({
       slug: a.slug,
       category: a.category,
@@ -393,7 +398,7 @@ export function listArticlesForLang(shortLang: string, limit?: number): ArticleL
       title: r.content.title,
       tldr: r.content.tldr,
       meta_description: r.content.meta_description,
-      native: r.fallback !== true,
+      native: true, // 폴백은 위에서 뺐다 — 필드는 호출부 호환용
     });
     if (limit && items.length >= limit) break;
   }
