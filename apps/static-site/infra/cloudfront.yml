@@ -19,6 +19,10 @@ Parameters:
   GitHubRepo:
     Type: String
     Default: ai-connects/havit-web
+  GitHubRepoImmutable:
+    Type: String
+    Default: ai-connects@182477845/havit-web@1247932950
+    Description: GitHub OIDC immutable subject 접두어(gh api repos/<repo>/actions/oidc/customization/sub 의 sub_claim_prefix 에서 'repo:' 뒤)
   HostedZoneId:
     Type: String
     Default: Z09176801AFW7ZVN92WRY # aihavit.com
@@ -215,7 +219,11 @@ Resources:
             Condition:
               StringEquals:
                 token.actions.githubusercontent.com:aud: sts.amazonaws.com
-                token.actions.githubusercontent.com:sub: !Sub repo:${GitHubRepo}:ref:refs/heads/main
+                # 이 저장소는 GitHub 'immutable subject'(소유자·저장소 숫자 ID 포함)를 쓴다 — 두 형식을 다 허용.
+                # (11/9 첫 배포가 옛 형식만 허용해서 AssumeRoleWithWebIdentity 거부됨)
+                token.actions.githubusercontent.com:sub:
+                  - !Sub repo:${GitHubRepo}:ref:refs/heads/main
+                  - !Sub repo:${GitHubRepoImmutable}:ref:refs/heads/main
       Policies:
         - PolicyName: deploy
           PolicyDocument:
