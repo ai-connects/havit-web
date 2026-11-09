@@ -95,7 +95,7 @@ async function strayTarget(path) {
     const to = await merged(parts[0]);
     return `/blog/${lang}/${to || parts[0]}`;
   }
-  if (parts.length === 2 && (parts[0] === 'tools' || parts[0] === 'category')) return `/blog/${lang}/${parts.join('/')}`;
+  if (parts.length === 2 && (parts[0] === 'tools' || parts[0] === 'category' || parts[0] === 'page')) return `/blog/${lang}/${parts.join('/')}`;
   return null;
 }
 

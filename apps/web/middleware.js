@@ -173,14 +173,16 @@ const AFFILIATE_SERVED = new Set(AFFILIATE_LOCALES)
  * 그 두 갈래는 건드리지 않는다.
  *
  * 여러 단계 경로는 블로그에 실제로 그 깊이가 있는 최상위 세그먼트
- * (`tools/<도구>`, `category/<슬러그>`)만 옮기고, 나머지는 원래대로 404 에
+ * (`tools/<도구>`, `category/<슬러그>`, `page/<n>`)만 옮기고, 나머지는 원래대로 404 에
  * 둔다 — 블로그에서도 404 일 URL 을 301 로 세탁할 이유가 없다.
  *
  * 목적지는 슬래시 없는 정본이라 블로그 쪽 슬래시 정규화를 한 번 더 타지 않는다
  * (1홉). 쿼리스트링은 그대로 넘긴다.
  */
 const HOME_UNDER_LOCALE = new Set(['index.html', 'affiliate'])
-const BLOG_NESTED = new Set(['tools', 'category'])
+// page = 블로그 목록 2쪽 이후(/blog/<lang>/page/<n>, 정적 판). 블로그 RSC 페이로드에 basePath 없는
+// 주소(/zh-tw/page/3)가 들어 있어 구글이 주워 가고 404 로 쌓였다(GSC 404 898건, 2026-11).
+const BLOG_NESTED = new Set(['tools', 'category', 'page'])
 /** 홈에 같은 이름의 로케일이 없는 블로그 언어 — 이 셋은 `/en` 자체도 블로그 홈. */
 const BLOG_ONLY_LANGS = new Set(['en', 'zh', 'pt-br'])
 
