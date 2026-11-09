@@ -20,7 +20,7 @@ const merged = JSON.parse(readFileSync(join(ROOT, 'apps/blog/lib/merged-redirect
 const paths = [
   '/', '/blog', '/blog/', '/affiliate/', '/affiliate', '/ko/affiliate/', '/ru/affiliate/', '/zh-cn/affiliate/', '/pt/affiliate/',
   '/en', '/en/', '/zh', '/zh/', '/pt-br', '/pt-br/', '/ko', '/ko/', '/ja/', '/ko/x', '/ko/index.html', '/ko/affiliate',
-  '/ja/tools/bmr', '/de/category/sleep-recovery', '/en/a/b/c', '/es/tools', `/fr/${merged[0].from}`, `/zh-tw/${merged[5].from}`,
+  '/ja/tools/bmr', '/de/category/sleep-recovery', '/zh-tw/page/3', '/en/page/2', '/ko/page/2/x', '/en/a/b/c', '/es/tools', `/fr/${merged[0].from}`, `/zh-tw/${merged[5].from}`,
   '/id/some-article-2026', '/ru/x', '/zz', '/privacy.html', '/blog/ko', '/blog/ko/x',
 ]
 const queries = ['', '?lang=ko', '?lang=EN', '?lang=zh-Hant', '?lang=pt-BR', '?lang=xx', '?a=1&b=2', '?lang=ja&x=1']
