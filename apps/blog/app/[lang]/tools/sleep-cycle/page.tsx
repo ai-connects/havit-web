@@ -5,6 +5,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SleepCycleCalculator from '@/components/tools/SleepCycleCalculator';
 import { SLEEP_CYCLE_LABELS, type ToolLang, toToolLang } from '@/lib/tool-labels';
+import { TOOL_SEO } from '@/lib/tool-seo';
+import ToolSeoSections from '@/components/tools/ToolSeoSections';
 import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
 import { INDEXABLE_ROBOTS } from '@/lib/seo';
@@ -17,9 +19,10 @@ export function generateStaticParams() { return ROUTE_LANGS.map((lang) => ({ lan
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ROUTE_LANGS.includes(params.lang as ToolLang)) return { title: 'Not Found' };
   const L = SLEEP_CYCLE_LABELS[toToolLang(params.lang)];
+  const S = TOOL_SEO['sleep-cycle'][toToolLang(params.lang)];
   return {
-    title: `${L.metaTitle ?? L.pageTitle} — HAVIT`,
-    description: L.metaDescription ?? L.pageIntro,
+    title: `${L.metaTitle ?? S.metaTitle ?? L.pageTitle} — HAVIT`,
+    description: L.metaDescription ?? S.metaDescription ?? L.pageIntro,
     // SEO staging — index only priority langs first (PRIORITY_INDEX_LANGS).
     robots: isLangIndexable(params.lang)
       ? INDEXABLE_ROBOTS
@@ -29,8 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: toHreflangMap(Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}/tools/sleep-cycle`]))),
     },
     openGraph: {
-      title: L.metaTitle ?? L.pageTitle,
-      description: L.metaDescription ?? L.pageIntro,
+      title: L.metaTitle ?? S.metaTitle ?? L.pageTitle,
+      description: L.metaDescription ?? S.metaDescription ?? L.pageIntro,
       type: 'website',
       url: `${SITE}/${params.lang}/tools/sleep-cycle`,
       siteName: 'HAVIT Blog',
@@ -39,8 +42,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary_large_image',
-      title: L.metaTitle ?? L.pageTitle,
-      description: L.metaDescription ?? L.pageIntro,
+      title: L.metaTitle ?? S.metaTitle ?? L.pageTitle,
+      description: L.metaDescription ?? S.metaDescription ?? L.pageIntro,
       images: [`${SITE}/og-card.png`],
     },
   };
@@ -51,6 +54,7 @@ export default function SleepCyclePage({ params }: Props) {
   const lang = toToolLang(params.lang);
   const fullLang = toFullLang(lang === 'zh-tw' ? 'zh-tw' : lang === 'zh' ? 'zh-cn' : lang);
   const L = SLEEP_CYCLE_LABELS[lang];
+  const S = TOOL_SEO['sleep-cycle'][lang];
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -65,17 +69,7 @@ export default function SleepCyclePage({ params }: Props) {
           <h2 className="text-2xl font-bold mb-3">{L.aboutHeader}</h2>
           <p className="text-gray-700 leading-relaxed">{L.aboutBody}</p>
         </section>
-        {L.faq && L.faq.length > 0 && (
-          <section className="mt-10">
-            <h2 className="text-2xl font-bold mb-3">{L.faqHeader}</h2>
-            {L.faq.map((f) => (
-              <div key={f.q} className="mb-4">
-                <h3 className="text-lg font-semibold mb-1">{f.q}</h3>
-                <p className="text-gray-700 leading-relaxed">{f.a}</p>
-              </div>
-            ))}
-          </section>
-        )}
+        <ToolSeoSections slug="sleep-cycle" routeLang={params.lang} name={L.pageTitle} description={L.metaDescription ?? S.metaDescription ?? L.pageIntro} faqHeader={L.faqHeader ?? S.faqHeader} faq={L.faq ?? S.faq} />
       </main>
       <Footer lang={fullLang} />
     </div>
