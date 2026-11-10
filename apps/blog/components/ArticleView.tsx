@@ -9,7 +9,12 @@ import { articleImage } from '@/lib/article-images';
 import { localizedCategory } from '@/lib/category-labels';
 import { CategoryIcon } from '@/components/CategoryIcon';
 import InstallCTA from './InstallCTA';
-import MidArticleCTA from './MidArticleCTA';
+import ArticleHavitCta from './ArticleHavitCta';
+import ArticleCalcCard from './ArticleCalcCard';
+import HavitToolSection from './tools/HavitToolSection';
+import { ARTICLE_CTA } from '@/lib/article-cta';
+import { TOOL_CTA } from '@/lib/tool-cta';
+import { toToolLang } from '@/lib/tool-labels';
 import { splitAtMiddleH2 } from '@/lib/split-body';
 import { toFullLang } from '@/lib/i18n';
 // BLOG_AUTHORITY v1.0.0 (PRD §7.3) — 3 신규 import (기존 import 무변경)
@@ -132,7 +137,7 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
         {bodyParts.map((part, pi) => (
           <Fragment key={pi}>
             {pi === 1 && (
-              <MidArticleCTA
+              <ArticleHavitCta
                 lang={langKey}
                 shortLang={shortLang}
                 articleId={article.article_id}
@@ -161,6 +166,8 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
         ))}
       </div>
 
+      {/* 글 주제와 이어지는 계산기(있을 때만) — 계산기 페이지가 다시 앱 진단으로 이어진다. */}
+      <ArticleCalcCard shortLang={shortLang} slug={article.slug} primaryKeywordEn={article.primary_keyword_en} />
 
       {content.key_stats && content.key_stats.length > 0 && (
         <section className="mt-12">
@@ -232,11 +239,23 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
           대체로 버려지므로 <article> 안에서 한 번은 브랜드를 말해야 한다. */}
 
       {/* 무엇인지 먼저 말하고, 그 다음 설치를 권한다. */}
-      <AboutHavit shortLang={shortLang} />
-
-      <div className="mt-12">
-        <InstallCTA lang={langKey} articleId={article.article_id} slug={article.slug} variant="inline" />
-      </div>
+      {/* 진단 → 정량 처방 → 코칭 → 올인원 절(계산기 페이지와 같은 컴포넌트). 문구가 없는 언어는 종전 회사 소개 + 설치 블록. */}
+      {ARTICLE_CTA[toToolLang(shortLang)] && TOOL_CTA[toToolLang(shortLang)] ? (
+        <HavitToolSection
+          lang={toToolLang(shortLang)}
+          intro={ARTICLE_CTA[toToolLang(shortLang)]!.sectionIntro}
+          placement="blog_end_section"
+          stacked
+          extra={{ lang: langKey, article_id: article.article_id }}
+        />
+      ) : (
+        <>
+          <AboutHavit shortLang={shortLang} />
+          <div className="mt-12">
+            <InstallCTA lang={langKey} articleId={article.article_id} slug={article.slug} variant="inline" />
+          </div>
+        </>
+      )}
 
       <SocialFollow shortLang={shortLang} />
 
