@@ -5,6 +5,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BmrCalculator from '@/components/tools/BmrCalculator';
 import { BMR_LABELS, type ToolLang, toToolLang } from '@/lib/tool-labels';
+import { TOOL_SEO } from '@/lib/tool-seo';
+import ToolSeoSections from '@/components/tools/ToolSeoSections';
 import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
 import { INDEXABLE_ROBOTS } from '@/lib/seo';
@@ -22,9 +24,10 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ROUTE_LANGS.includes(params.lang as ToolLang)) return { title: 'Not Found' };
   const L = BMR_LABELS[toToolLang(params.lang)];
+  const S = TOOL_SEO['bmr'][toToolLang(params.lang)];
   return {
-    title: `${L.metaTitle ?? L.pageTitle} — HAVIT`,
-    description: L.metaDescription ?? L.pageIntro,
+    title: `${L.metaTitle ?? S.metaTitle ?? L.pageTitle} — HAVIT`,
+    description: L.metaDescription ?? S.metaDescription ?? L.pageIntro,
     // SEO staging — index only priority langs first (PRIORITY_INDEX_LANGS).
     robots: isLangIndexable(params.lang)
       ? INDEXABLE_ROBOTS
@@ -34,8 +37,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: toHreflangMap(Object.fromEntries(ROUTE_LANGS.filter(isLangIndexable).map((l) => [l, `${SITE}/${l}/tools/bmr`]))),
     },
     openGraph: {
-      title: L.metaTitle ?? L.pageTitle,
-      description: L.metaDescription ?? L.pageIntro,
+      title: L.metaTitle ?? S.metaTitle ?? L.pageTitle,
+      description: L.metaDescription ?? S.metaDescription ?? L.pageIntro,
       type: 'website',
       url: `${SITE}/${params.lang}/tools/bmr`,
       siteName: 'HAVIT Blog',
@@ -44,8 +47,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary_large_image',
-      title: L.metaTitle ?? L.pageTitle,
-      description: L.metaDescription ?? L.pageIntro,
+      title: L.metaTitle ?? S.metaTitle ?? L.pageTitle,
+      description: L.metaDescription ?? S.metaDescription ?? L.pageIntro,
       images: [`${SITE}/og-card.png`],
     },
   };
@@ -56,6 +59,7 @@ export default function BmrPage({ params }: Props) {
   const lang = toToolLang(params.lang);
   const fullLang = toFullLang(lang === 'zh-tw' ? 'zh-tw' : lang === 'zh' ? 'zh-cn' : lang);
   const L = BMR_LABELS[lang];
+  const S = TOOL_SEO['bmr'][lang];
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -81,6 +85,7 @@ export default function BmrPage({ params }: Props) {
           <h2 className="text-2xl font-bold mb-3">{L.formulaHeader}</h2>
           <pre className="p-4 rounded-xl bg-gray-50 border border-gray-200 text-sm whitespace-pre-wrap font-mono leading-relaxed">{L.formulaBody}</pre>
         </section>
+        <ToolSeoSections slug="bmr" routeLang={params.lang} name={L.pageTitle} description={L.metaDescription ?? S.metaDescription ?? L.pageIntro} faqHeader={S.faqHeader} faq={S.faq} />
       </main>
       <Footer lang={fullLang} />
     </div>
