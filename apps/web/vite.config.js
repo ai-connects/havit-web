@@ -2,6 +2,7 @@ import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import i18nHtml from './plugins/i18n-html.js'
+import videoPages from './plugins/video-pages.js'
 import sitemap from './plugins/sitemap.js'
 
 // Single-source multilingual site. index.html is the English original; the
@@ -23,7 +24,7 @@ import sitemap from './plugins/sitemap.js'
 const ROOT = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
-  plugins: [i18nHtml(), sitemap()],
+  plugins: [i18nHtml(), videoPages(), sitemap()],
   build: {
     rollupOptions: {
       input: {
