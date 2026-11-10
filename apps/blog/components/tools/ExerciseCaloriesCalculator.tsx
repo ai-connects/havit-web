@@ -39,7 +39,7 @@ export default function ExerciseCaloriesCalculator({ labels: L, lang }: { labels
             <div className="text-3xl md:text-4xl font-bold text-primary-700">{kcal.toLocaleString()} <span className="text-base font-normal text-gray-500">kcal</span></div>
             <p className="text-xs text-gray-600 mt-2 leading-relaxed">{L.helpResult}</p>
           </div>
-          <AppCtaBanner lang={lang} />
+          <AppCtaBanner lang={lang} tool="exercise-calories" />
         </>
       )}
     </div>

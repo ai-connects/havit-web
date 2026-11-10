@@ -39,7 +39,7 @@ export default function ProteinCalculator({ labels: L, lang }: { labels: Protein
               <div className="text-3xl md:text-4xl font-bold text-primary-700">{r.perMeal} <span className="text-base font-normal text-gray-500">g</span></div>
             </div>
           </div>
-          <AppCtaBanner lang={lang} />
+          <AppCtaBanner lang={lang} tool="protein" />
         </>
       )}
     </div>
