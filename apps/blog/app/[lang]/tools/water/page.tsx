@@ -7,6 +7,7 @@ import WaterCalculator from '@/components/tools/WaterCalculator';
 import { WATER_LABELS, type ToolLang, toToolLang } from '@/lib/tool-labels';
 import { TOOL_SEO } from '@/lib/tool-seo';
 import ToolSeoSections from '@/components/tools/ToolSeoSections';
+import HavitToolSection from '@/components/tools/HavitToolSection';
 import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
 import { INDEXABLE_ROBOTS } from '@/lib/seo';
@@ -69,6 +70,7 @@ export default function WaterPage({ params }: Props) {
           <h2 className="text-2xl font-bold mb-3">{L.aboutHeader}</h2>
           <p className="text-gray-700 leading-relaxed">{L.aboutBody}</p>
         </section>
+        <HavitToolSection lang={lang} tool="water" />
         <ToolSeoSections slug="water" routeLang={params.lang} name={L.pageTitle} description={L.metaDescription ?? S.metaDescription ?? L.pageIntro} faqHeader={S.faqHeader} faq={S.faq} />
       </main>
       <Footer lang={fullLang} />

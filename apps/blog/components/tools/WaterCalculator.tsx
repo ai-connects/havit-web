@@ -40,7 +40,7 @@ export default function WaterCalculator({ labels: L, lang }: { labels: WaterLabe
             <p className="text-sm text-gray-700 mt-2">≈ {Math.round(ml / 250)} {L.cupsLabel}</p>
             <p className="text-xs text-gray-500 mt-1.5">{L.help}</p>
           </div>
-          <AppCtaBanner lang={lang} />
+          <AppCtaBanner lang={lang} tool="water" />
         </>
       )}
     </div>

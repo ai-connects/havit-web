@@ -54,7 +54,7 @@ export default function CaffeineCalculator({ labels: L, lang }: { labels: Caffei
             <div className="text-4xl md:text-5xl font-bold text-primary-700">{result}</div>
             <p className="text-xs text-gray-600 mt-2">{L.helpResult}</p>
           </div>
-          <AppCtaBanner lang={lang} />
+          <AppCtaBanner lang={lang} tool="caffeine" />
         </>
       )}
     </div>

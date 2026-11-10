@@ -7,6 +7,7 @@ import BmrCalculator from '@/components/tools/BmrCalculator';
 import { BMR_LABELS, type ToolLang, toToolLang } from '@/lib/tool-labels';
 import { TOOL_SEO } from '@/lib/tool-seo';
 import ToolSeoSections from '@/components/tools/ToolSeoSections';
+import HavitToolSection from '@/components/tools/HavitToolSection';
 import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
 import { INDEXABLE_ROBOTS } from '@/lib/seo';
@@ -85,6 +86,7 @@ export default function BmrPage({ params }: Props) {
           <h2 className="text-2xl font-bold mb-3">{L.formulaHeader}</h2>
           <pre className="p-4 rounded-xl bg-gray-50 border border-gray-200 text-sm whitespace-pre-wrap font-mono leading-relaxed">{L.formulaBody}</pre>
         </section>
+        <HavitToolSection lang={lang} tool="bmr" />
         <ToolSeoSections slug="bmr" routeLang={params.lang} name={L.pageTitle} description={L.metaDescription ?? S.metaDescription ?? L.pageIntro} faqHeader={S.faqHeader} faq={S.faq} />
       </main>
       <Footer lang={fullLang} />

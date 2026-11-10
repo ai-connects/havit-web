@@ -46,7 +46,7 @@ export default function SleepCycleCalculator({ labels: L, lang }: { labels: Slee
             </div>
             <p className="mt-3 text-xs text-gray-500">{L.helpRow}</p>
           </div>
-          <AppCtaBanner lang={lang} />
+          <AppCtaBanner lang={lang} tool="sleep-cycle" />
         </>
       )}
     </div>

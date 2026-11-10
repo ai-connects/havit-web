@@ -138,7 +138,7 @@ export default function BmrCalculator({ labels, lang }: Props) {
           </div>
         </div>
       )}
-      {result && <AppCtaBanner lang={lang} />}
+      {result && <AppCtaBanner lang={lang} tool="bmr" />}
     </div>
   );
 }
