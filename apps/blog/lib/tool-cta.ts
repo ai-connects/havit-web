@@ -1322,42 +1322,42 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
     }
   },
   "de": {
-    "bannerTitle": "Der Rechner kennt den Durchschnitt. HAVIT kennt deinen Körper.",
+    "bannerTitle": "Der Rechner kennt den Durchschnitt. HAVIT kennt Ihren Körper.",
     "banner": {
       "bmr": {
-        "limit": "Diese Formel berücksichtigt nur Größe, Gewicht und Alter. Doch bei gleichem Gewicht verändert mehr Muskelmasse deinen Grundumsatz.",
+        "limit": "Diese Formel berücksichtigt nur Größe, Gewicht und Alter. Doch bei gleichem Gewicht verändert mehr Muskelmasse Ihren Grundumsatz.",
         "havit": "HAVIT schätzt per KI-Körperanalyse zuerst Muskeln, Körperfett und viszerales Fett und legt daraus klare Tagesziele für Kalorienaufnahme und -verbrauch fest."
       },
       "protein": {
-        "limit": "Dieser Rechner berücksichtigt nur Gewicht und Ziel. Wie viel du wirklich brauchst, hängt von deiner Muskelmasse und deinem Abnehmtempo ab.",
-        "havit": "HAVIT legt anhand deiner Körperanalyse Tagesziele für Protein, Kohlenhydrate, Fett und Ballaststoffe in Gramm fest und zeigt dir, wie viel davon deine per Foto erfasste Mahlzeit schon abdeckt."
+        "limit": "Dieser Rechner berücksichtigt nur Gewicht und Ziel. Wie viel Sie wirklich brauchen, hängt von Ihrer Muskelmasse und Ihrem Abnehmtempo ab.",
+        "havit": "HAVIT legt anhand Ihrer Körperanalyse Tagesziele für Protein, Kohlenhydrate, Fett und Ballaststoffe in Gramm fest und zeigt Ihnen, wie viel davon Ihre per Foto erfasste Mahlzeit schon abdeckt."
       },
       "water": {
-        "limit": "Dieser Rechner gilt nur für heute. Ändert sich dein Gewicht, ändert sich auch dein Bedarf.",
-        "havit": "HAVIT legt dein Trinkziel anhand der Analyse fest und passt es jede Woche an dein Gewicht an, zusammen mit 10 weiteren Tageszielen wie Schritten und Schlaf."
+        "limit": "Dieser Rechner gilt nur für heute. Ändert sich Ihr Gewicht, ändert sich auch Ihr Bedarf.",
+        "havit": "HAVIT legt Ihr Trinkziel anhand der Analyse fest und passt es jede Woche an Ihr Gewicht an, zusammen mit 10 weiteren Tageszielen wie Schritten und Schlaf."
       },
       "caffeine": {
         "limit": "Die Halbwertszeit unterscheidet sich von Mensch zu Mensch um mehr als das Doppelte. Der Durchschnitt von 5 Stunden ist nur ein Ausgangspunkt.",
-        "havit": "HAVIT legt dein Schlafziel fest. KI-Coach HAVI liest deine Schlafdaten zusammen mit Kaffee und Mahlzeiten des Tages und sagt dir, was du gezielt anpassen kannst."
+        "havit": "HAVIT legt Ihr Schlafziel fest. KI-Coach HAVI liest Ihre Schlafdaten zusammen mit Kaffee und Mahlzeiten des Tages und sagt Ihnen, was Sie gezielt anpassen können."
       },
       "sleep-cycle": {
-        "limit": "Dieser Rechner nennt dir nur die Uhrzeit zum Einschlafen. Fürs Abnehmen zählt mehr, wie lange du tatsächlich schläfst.",
-        "havit": "HAVIT legt anhand der Analyse dein Schlafziel fest, liest deine Schlafdaten zusammen mit Ernährung und Gewichtsverlauf und gibt dir eine konkrete Aufgabe für heute."
+        "limit": "Dieser Rechner nennt Ihnen nur die Uhrzeit zum Einschlafen. Fürs Abnehmen zählt mehr, wie lange Sie tatsächlich schlafen.",
+        "havit": "HAVIT legt anhand der Analyse Ihr Schlafziel fest, liest Ihre Schlafdaten zusammen mit Ernährung und Gewichtsverlauf und gibt Ihnen eine konkrete Aufgabe für heute."
       },
       "exercise-calories": {
-        "limit": "Verbrannte Kalorien sind erst aussagekräftig, wenn du sie mit den aufgenommenen vergleichst.",
-        "havit": "HAVIT legt anhand der Analyse Tagesziele für Kalorienverbrauch, Schritte und Kalorienaufnahme fest und zeigt dir täglich, ob deine Trainings- und Schrittdaten das Ziel erreichen."
+        "limit": "Verbrannte Kalorien sind erst aussagekräftig, wenn Sie sie mit den aufgenommenen vergleichen.",
+        "havit": "HAVIT legt anhand der Analyse Tagesziele für Kalorienverbrauch, Schritte und Kalorienaufnahme fest und zeigt Ihnen täglich, ob Ihre Trainings- und Schrittdaten das Ziel erreichen."
       }
     },
     "bannerButton": "Gratis Körperanalyse starten",
     "sectionKicker": "HAVIT ist der KI-Abnehmcoach von Experten von Juvis Diet, einer der führenden Abnehmkliniken Koreas",
     "sectionTitle": "Analysieren, klare Zahlen setzen, täglich coachen",
-    "sectionIntro": "Rechner nutzen für alle dieselbe Durchschnittsformel. HAVIT analysiert zuerst deinen Körper, legt daraus konkrete Tagesziele fest und setzt sie 12 Wochen lang mit dir um.",
+    "sectionIntro": "Rechner nutzen für alle dieselbe Durchschnittsformel. HAVIT analysiert zuerst Ihren Körper, legt daraus konkrete Tagesziele fest und setzt sie 12 Wochen lang mit Ihnen um.",
     "steps": [
       {
         "label": "Schritt 1",
         "title": "KI-Körperanalyse ohne Geräte",
-        "body": "Größe, Gewicht, Alter und ein paar Fragen zu deinem Alltag reichen, um deine Körperzusammensetzung zu schätzen. In unserer eigenen Studie (70 Personen) lag die Genauigkeit im Vergleich zu InBody-Messwerten bei 92,9 %.",
+        "body": "Größe, Gewicht, Alter und ein paar Fragen zu Ihrem Alltag reichen, um Ihre Körperzusammensetzung zu schätzen. In unserer eigenen Studie (70 Personen) lag die Genauigkeit im Vergleich zu InBody-Messwerten bei 92,9 %.",
         "items": [
           "HAVIT-Score & Grundumsatz",
           "Muskel-Fett-Analyse & Körpertyp",
@@ -1375,7 +1375,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       {
         "label": "Schritt 2",
         "title": "11 Tagesziele in klaren Zahlen",
-        "body": "Aus deiner Analyse ergeben sich präzise Zahlen für jeden Tag. Jede Woche werden die Ziele an deine Gewichtsentwicklung angepasst.",
+        "body": "Aus Ihrer Analyse ergeben sich präzise Zahlen für jeden Tag. Jede Woche werden die Ziele an Ihre Gewichtsentwicklung angepasst.",
         "items": [
           "Kalorienaufnahme, Protein, Kohlenhydrate, Fett & Ballaststoffe",
           "Kalorienverbrauch & Schritte",
@@ -1392,11 +1392,11 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       {
         "label": "Schritt 3",
         "title": "Tägliche Umsetzung mit KI-Coaching",
-        "body": "Ein Plan wirkt nur, wenn du ihn umsetzt. Deshalb ist das Erfassen einfach und der nächste Schritt immer klar.",
+        "body": "Ein Plan wirkt nur, wenn Sie ihn umsetzen. Deshalb ist das Erfassen einfach und der nächste Schritt immer klar.",
         "items": [
           "Mahlzeiten mit einem Foto erfassen",
-          "KI-Coach HAVI liest deine Daten und schlägt dir eine Aufgabe für heute vor",
-          "Persönliche Empfehlungen in 126+ Kategorien auf Basis deiner Analyse",
+          "KI-Coach HAVI liest Ihre Daten und schlägt Ihnen eine Aufgabe für heute vor",
+          "Persönliche Empfehlungen in 126+ Kategorien auf Basis Ihrer Analyse",
           "Nicht nur Ernährung, auch Mindset: CBT-basiertes Coaching"
         ],
         "shots": [
@@ -1413,7 +1413,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       {
         "label": "All-in-one",
         "title": "Alles in einer App",
-        "body": "Schluss mit dem Wechseln zwischen Apps. Erst wenn alle Daten zu deinem Körper an einem Ort sind, erkennt der KI-Coach die Zusammenhänge.",
+        "body": "Schluss mit dem Wechseln zwischen Apps. Erst wenn alle Daten zu Ihrem Körper an einem Ort sind, erkennt der KI-Coach die Zusammenhänge.",
         "items": [
           "Mahlzeiten, Wasser, Training & Schritte",
           "Verlauf von Schlaf, Gewicht & Körperzusammensetzung",
@@ -1459,27 +1459,27 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
     "bannerShot": {
       "bmr": {
         "file": "feature-body-insights.webp",
-        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt deinen Körper."
+        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt Ihren Körper."
       },
       "protein": {
         "file": "feature-nutrition.webp",
-        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt deinen Körper."
+        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt Ihren Körper."
       },
       "water": {
         "file": "feature-track-everything.webp",
-        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt deinen Körper."
+        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt Ihren Körper."
       },
       "caffeine": {
         "file": "feature-ai-coach.webp",
-        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt deinen Körper."
+        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt Ihren Körper."
       },
       "sleep-cycle": {
         "file": "feature-ai-coach.webp",
-        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt deinen Körper."
+        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt Ihren Körper."
       },
       "exercise-calories": {
         "file": "feature-daily-missions.webp",
-        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt deinen Körper."
+        "alt": "HAVIT — Der Rechner kennt den Durchschnitt. HAVIT kennt Ihren Körper."
       }
     }
   },
