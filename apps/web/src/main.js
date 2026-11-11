@@ -272,27 +272,10 @@ if (casesWrap) {
   if (deviceStore) document.querySelectorAll(`a[data-store="${deviceStore}"]`).forEach(toAppLink)
 }
 
-// 모바일 하단 고정 CTA — 히어로가 화면 위로 빠지면 나타나고, 최종 CTA 가 화면에 들어오면 숨긴다.
-// (CSS 에서 640px 이하에서만 display:block 이라 데스크톱은 계산만 돌고 보이지 않는다.)
+// 모바일 하단 고정 CTA — 첫 화면부터 끝까지 항상 띄운다(대표 지시 2026-11-11, 예전엔 히어로를 지나야 나타나고 최종 CTA 근처에서 숨었다).
+// CSS 가 640px 이하에서만 보이게 하므로 데스크톱은 그대로다. 항상 떠 있어서 푸터 아래 여백은 style.css 의 .footer 가 확보한다.
 const stickyCta = document.querySelector('.sticky-cta')
-const heroEl = document.querySelector('.hero')
-const finalCtaEl = document.querySelector('.final-cta')
-if (stickyCta && heroEl && finalCtaEl) {
-  let ticking = false
-  const syncSticky = () => {
-    ticking = false
-    const pastHero = heroEl.getBoundingClientRect().bottom < 0
-    const beforeFinal = finalCtaEl.getBoundingClientRect().top > window.innerHeight
-    stickyCta.classList.toggle('is-visible', pastHero && beforeFinal)
-  }
-  window.addEventListener('scroll', () => {
-    if (!ticking) {
-      ticking = true
-      requestAnimationFrame(syncSticky)
-    }
-  }, { passive: true })
-  syncSticky()
-}
+if (stickyCta) stickyCta.classList.add('is-visible')
 
 // ChatGPT 광고 유입 전환 신호(OpenAI 픽셀). 캠페인 랜딩이 홈페이지라, 랜딩 방문과 다운로드 버튼 클릭을 보낸다.
 // 유입 판정 = 이번 탭에서 oppref(OpenAI 클릭 ID) 또는 utm_source=chatgpt/openai 로 들어온 적이 있음.
