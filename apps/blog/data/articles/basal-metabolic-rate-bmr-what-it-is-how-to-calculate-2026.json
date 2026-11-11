@@ -1,0 +1,1784 @@
+{
+  "article_id": "BLOG_BASAL_METABOLIC_RATE_BMR_WHAT_IT_IS_HOW_TO_CALCULATE_2026",
+  "slug": "basal-metabolic-rate-bmr-what-it-is-how-to-calculate-2026",
+  "category": "Weight & Metabolism",
+  "category_emoji": "⚖️",
+  "type": "guide",
+  "reading_time_min": 8,
+  "primary_keyword_en": "basal metabolic rate",
+  "primary_keyword_ko": "기초대사량",
+  "langs": {
+    "en": {
+      "title": "Basal Metabolic Rate (BMR): What It Is and How to Calculate",
+      "short_title": "Basal Metabolic Rate: How to Calculate It",
+      "short_description": "What basal metabolic rate is, the Mifflin-St Jeor formula with worked examples, how accurate BMR calculators are, and what really changes your number.",
+      "meta_description": "Basal metabolic rate explained: what BMR is, how to calculate it with the Mifflin-St Jeor formula, how accurate calculators are, and what changes your number.",
+      "tldr": "Basal metabolic rate (BMR) is the energy your body burns at complete rest just to keep you alive, and it is the largest part of your daily calorie needs. Mifflin-St Jeor is one of the equations most commonly used in clinical practice. For men it is 10 × weight (kg) + 6.25 × height (cm) − 5 × age (y) + 5; for women, the same terms − 161. In a systematic review, Mifflin-St Jeor predicted resting metabolic rate within 10% of the measured value in more people than other common equations. Treat the result as an estimate, not an exact figure.",
+      "body_md": "## What basal metabolic rate actually measures\n\nBasal metabolic rate (BMR) is the energy your body uses to stay alive when you are fully at rest. That covers breathing, pumping blood, keeping your brain and organs working and maintaining body temperature. It does not include walking, training or digesting meals.\n\nYou will also see the terms resting metabolic rate (RMR) and resting energy expenditure (REE). All three describe closely related measurements of energy use at rest, and this guide treats them together. Researchers estimate resting expenditure, like the other parts of daily energy use, with variations of a method called indirect calorimetry. The Mifflin-St Jeor equation covered below, for example, was built to predict REE.\n\nBMR matters because it is the biggest block in your energy budget. Total daily energy expenditure is mainly made up of resting energy expenditure, physical activity energy expenditure and the thermic effect of food. Of the three, resting expenditure is the major component.\n\n## How to calculate BMR with the Mifflin-St Jeor equation\n\nA systematic review identified Mifflin-St Jeor as one of the four prediction equations most commonly used in clinical practice. It was derived from 498 healthy adults aged 19 to 78. Of those, 264 were normal weight and 234 had obesity, and every participant had REE measured by indirect calorimetry.\n\nThe simplified versions are:\n\n- **Men:** BMR = 10 × weight (kg) + 6.25 × height (cm) − 5 × age (years) + 5\n- **Women:** BMR = 10 × weight (kg) + 6.25 × height (cm) − 5 × age (years) − 161\n\nThe result is in kcal per day. In the original data, weight, height, age and sex together explained 71% of the variation in measured REE (R² = 0.71).\n\n### Worked examples\n\nA hypothetical woman who weighs 70 kg, is 165 cm tall and is 40 years old:\n\n10 × 70 + 6.25 × 165 − 5 × 40 − 161 = 700 + 1,031.25 − 200 − 161 = about 1,370 kcal/day.\n\nA hypothetical man who weighs 80 kg, is 180 cm tall and is 35 years old:\n\n10 × 80 + 6.25 × 180 − 5 × 35 + 5 = 800 + 1,125 − 175 + 5 = 1,755 kcal/day.\n\nThe formula has two useful features. First, the gap between men and women of identical size and age is a fixed 166 kcal (5 − (−161) = 166). This matches the sex term in the full version of the equation. Second, each extra year of age subtracts 5 kcal. With weight and height unchanged, ten years lowers the estimate by 50 kcal (5 × 10).\n\n### If you know your fat-free mass\n\nThe same study also tested simpler predictors. Fat-free mass (FFM) was the best single predictor of REE (R² = 0.64). The equation was REE = 19.7 × FFM (kg) + 413. Body weight alone did less well (REE = 15.1 × weight + 371, R² = 0.56). The full equation using weight, height, age and sex was the strongest of the three.\n\n## Other BMR formulas: Harris-Benedict, WHO and Ten Haaf\n\nMifflin-St Jeor is not the only option. Which formula suits you best depends partly on who you are.\n\n### Harris-Benedict\n\nThe Harris-Benedict equations date from 1919. Against the measured values in the Mifflin study, they overestimated REE by 5%. A systematic review compared the four equations most used in clinical practice: Harris-Benedict, Mifflin-St Jeor, Owen and WHO/FAO/UNU. Mifflin-St Jeor was the most reliable. It predicted RMR within 10% of the measured value in more nonobese and obese individuals than any other equation, and it had the narrowest error range. The review also found that older adults and US-residing ethnic minorities were underrepresented in the studies used to build and test these equations.\n\n### Severe obesity: WHO and Harris-Benedict\n\nThe picture changes at very high body weights. A systematic review included 40 studies in adults with BMIs between 40.0 and 62.4, and pooled 20 of them in a meta-analysis. In that group, the WHO (weight) equation and Harris-Benedict were the most accurate and precise. Their average bias was −12.44 kcal/day for WHO and −18.9 kcal/day for Harris-Benedict. The other equations tested, including Mifflin, tended to underestimate BMR.\n\n### Athletes and the Ten Haaf equation\n\nA meta-analysis pooled 29 studies with 1,430 athletes and 100 different prediction equations. The Ten-Haaf equation was the most precise. It predicted 80.2% of participants within ±10% of measured RMR, while the other equations analysed for precision ranged from 40.7% to 63.7%. Its average predictions also did not differ significantly from measured values. Four other equations, including Harris-Benedict, shared that result, but Ten-Haaf was the only one of the five with no heterogeneity between studies (I² = 0%). In the same athlete data, Mifflin-St Jeor significantly underestimated or overestimated RMR. The exact Ten Haaf coefficients are not reproduced here. The practical takeaway is that a formula built on the general population can be off for very muscular, highly trained people.\n\nFor a side-by-side look at how these methods compare, see our guide on [metabolic rate calculation accuracy](/en/metabolic-rate-calculation-accuracy-comparison-2026).\n\n## How accurate is a BMR calculator?\n\nIn the reviews above, a prediction counted as a hit if it landed within 10% of measured RMR. That sounds tight, but it is a wide band in calories. For the 1,370 kcal example above, ±10% is ±137 kcal (1,370 × 0.10). That puts the true value anywhere from about 1,233 to 1,507 kcal/day (1,370 − 137 and 1,370 + 137) and still counts as a good prediction.\n\nEven the best equations miss some people by more than that. The systematic review that favoured Mifflin-St Jeor still described noteworthy errors when it is applied to individuals. Prediction is hard because resting metabolism varies from person to person even at the same size.\n\nMore data helps, but only up to a point. A recent study of 454 healthy adults tested machine-learning models with up to 94 predictors. The best model explained 76.8% of RMR variance. Fat-free mass, body weight and, interestingly, mean outdoor temperature were among the most useful predictors. Blood markers added a little. Gut microbiota and fecal short-chain fatty acids added nothing. Even this model left roughly 23% of the variation unexplained (100 − 76.8 = 23.2%).\n\nMedical conditions widen the error further. In 900 patients with cirrhosis, predicted REE ranged from 501 kcal/day below to 548 kcal/day above the measured value. The authors concluded that REE should be measured directly in that group.\n\nSimilar gaps show up in other conditions, and the direction of the error is not always the same. In 34 patients with pulmonary hypertension, every estimation method tested underestimated energy needs by about 255 kcal. In 71 survivors of chronic stroke, 8 of 9 equations predicted an RMR between 9% and 18% higher than the measured value.\n\n## What is a normal BMR?\n\nNo single number counts as \"normal\". BMR scales with body size and composition, so a tall, muscular man and a petite woman can both be perfectly healthy with very different values. The worked examples above (about 1,370 and 1,755 kcal/day) show how wide the spread is for ordinary body sizes.\n\nA rough sanity check is energy per kilogram. In the cirrhosis study, 282 healthy controls averaged 20.8 ± 2.6 kcal per kg of body weight per day. For a 70 kg person, that gives about 1,456 kcal/day (70 × 20.8). Treat this only as a ballpark. The ± 2.6 shows real spread between people.\n\nIf your calculated BMR seems far from expectations, check your inputs first. The equation expects weight in kilograms and height in centimetres.\n\n## From BMR to TDEE: how many calories you need per day\n\nBMR is not your daily calorie target. Total daily energy expenditure (TDEE) adds the energy you spend moving and the energy used to digest food on top of your resting burn.\n\nTurning a BMR into a daily figure therefore means adding an estimate of your activity, which brings its own uncertainty on top of the BMR formula. Our article on [activity level tiers and nutrition scaling](/en/activity-level-tier-nutrition-scaling-2026) covers how to estimate that part realistically.\n\nAge matters less than many people assume. A large analysis of total daily expenditure, measured by doubly labelled water in people aged 8 days to 95 years, adjusted for fat-free mass. On that basis, expenditure stayed stable in adulthood from 20 to 60 years, even during pregnancy, and declined only in older adults. A review of energy expenditure across the life course explains such changes as being at least partly due to shifts in body composition, the mass and metabolic rates of organs and tissues, and levels of physical activity.\n\n## What raises or lowers your BMR\n\n### Fat-free mass\n\nLean tissue is the main driver. In a study of 40 adults, fat-free mass and fat mass together explained 83% of the variability in RMR. Adding detailed organ and muscle measurements did not improve the prediction. This is why two people with the same weight but different muscle mass can have noticeably different BMRs, and why FFM-based equations work well when body composition is measured accurately.\n\n### Dieting and metabolic adaptation\n\nCutting calories lowers resting expenditure, partly because you lose tissue and partly through adaptation. In a controlled study, 32 nonobese men ate 50% below their energy needs for 3 weeks. They lost 6.0 kg, and their REE fell by 266 kcal/day. Adaptive thermogenesis, the drop not explained by lost fat-free mass, was 108 kcal/day. Changes in the composition of fat-free mass explained 36 kcal of that, leaving 72 kcal/day of \"true\" adaptation.\n\n### Environment\n\nIn the machine-learning prediction study, mean outdoor temperature was one of the key predictors of RMR. Fat-free mass and body weight were the other key predictors in the same model.\n\n## When a measured BMR is worth it\n\nA metabolic assessment (sometimes sold as a BMR test) uses indirect calorimetry to measure your actual energy use at rest. The systematic review on prediction equations concluded that estimation errors would be eliminated by valid indirect calorimetry using an evidence-based protocol to minimise measurement error. Clinical judgement decides when an estimate is good enough.\n\nFor most healthy adults aiming for gradual weight change, a calculated BMR is a reasonable starting point. Use it to set an initial intake. Then let your weight trend over several weeks tell you whether to adjust, since the scale reflects your true energy balance better than any formula. A wearable or phone can help log weight and activity consistently.\n\nMeasurement makes more sense when estimates are known to perform poorly. That includes very high BMIs, high training loads and medical conditions that alter metabolism. It also makes sense if your intake and weight change keep failing to line up with the numbers. In those situations, the decision about clinical testing belongs with whoever is managing your care.",
+      "key_stats": [
+        {
+          "label": "Variance in resting energy expenditure explained by the Mifflin-St Jeor equation",
+          "value": "R² = 0.71",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Harris-Benedict overestimate of measured REE in the Mifflin study",
+          "value": "5%",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Athletes predicted within ±10% of measured RMR by the Ten-Haaf equation",
+          "value": "80.2%",
+          "source": "E19: systematic review and meta-analysis of RMR equations in athletes"
+        },
+        {
+          "label": "RMR variability explained by fat-free mass plus fat mass",
+          "value": "83%",
+          "source": "E10: study of RMR and fat-free mass composition in 40 adults"
+        },
+        {
+          "label": "Drop in REE after 3 weeks eating 50% below energy needs",
+          "value": "−266 kcal/day",
+          "source": "E9: controlled caloric restriction and refeeding study in 32 nonobese men"
+        }
+      ],
+      "faq": [
+        {
+          "question": "How do I calculate my basal metabolic rate?",
+          "answer": "Use the Mifflin-St Jeor equation. For men: 10 × weight (kg) + 6.25 × height (cm) − 5 × age (years) + 5. For women: the same terms − 161. For example, a 70 kg, 165 cm, 40-year-old woman gets 700 + 1,031.25 − 200 − 161 = about 1,370 kcal/day."
+        },
+        {
+          "question": "What is a normal basal metabolic rate?",
+          "answer": "There is no single normal value, because BMR scales with body size and lean mass. As a rough check, healthy adults in one study averaged 20.8 ± 2.6 kcal per kg of body weight per day. For a 70 kg person, that works out to about 1,456 kcal/day (70 × 20.8)."
+        },
+        {
+          "question": "What is the Ten Haaf formula?",
+          "answer": "Ten Haaf is a resting metabolic rate equation that performed best in athletes. In a meta-analysis of 29 studies with 1,430 athletes, it predicted 80.2% of participants within ±10% of measured RMR. The other equations analysed ranged from 40.7% to 63.7%."
+        },
+        {
+          "question": "What is the difference between BMR and TDEE?",
+          "answer": "BMR is the energy you burn at complete rest. TDEE (total daily energy expenditure) adds physical activity and the thermic effect of food on top of it. Getting from BMR to TDEE means adding a separate estimate of how active you are."
+        },
+        {
+          "question": "Are free online BMR calculators accurate?",
+          "answer": "They give a reasonable starting estimate, but not an exact figure. Mifflin-St Jeor predicted RMR within 10% of the measured value in more people than other common equations, but noteworthy errors remain for individuals. Accuracy drops further in some groups, such as people with severe obesity, athletes and people with certain medical conditions."
+        },
+        {
+          "question": "Does dieting lower your BMR?",
+          "answer": "Yes, somewhat. In a controlled study, men eating 50% below their energy needs for 3 weeks saw REE fall by 266 kcal/day. Of that drop, 72 kcal/day was true adaptation beyond tissue loss."
+        }
+      ],
+      "comparison_table": {
+        "title": "Common BMR / RMR equations and what the evidence says",
+        "headers": [
+          "Equation",
+          "Inputs",
+          "Formula or key finding",
+          "Where it performed best"
+        ],
+        "rows": [
+          [
+            "Mifflin-St Jeor (men)",
+            "Weight, height, age",
+            "10 × kg + 6.25 × cm − 5 × age + 5",
+            "General adults: most often within 10% of measured RMR among four common equations"
+          ],
+          [
+            "Mifflin-St Jeor (women)",
+            "Weight, height, age",
+            "10 × kg + 6.25 × cm − 5 × age − 161",
+            "General adults, nonobese and obese"
+          ],
+          [
+            "Mifflin fat-free mass version",
+            "Fat-free mass",
+            "19.7 × FFM (kg) + 413 (R² = 0.64)",
+            "When body composition is known"
+          ],
+          [
+            "Mifflin weight-only version",
+            "Weight",
+            "15.1 × kg + 371 (R² = 0.56)",
+            "Quick estimate; less predictive than the full equation"
+          ],
+          [
+            "Harris-Benedict (1919)",
+            "See original publication",
+            "Overestimated measured REE by 5% in the Mifflin data",
+            "Severe obesity: bias −18.9 kcal/day"
+          ],
+          [
+            "WHO (weight)",
+            "Weight-based; full inputs in original publication",
+            "Bias −12.44 kcal/day in severe obesity",
+            "Adults with BMI 40.0 to 62.4"
+          ],
+          [
+            "Ten-Haaf",
+            "See original publication",
+            "80.2% of athletes within ±10% of measured RMR; I² = 0%",
+            "Trained athletes"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "A new predictive equation for resting energy expenditure in healthy individuals.",
+          "source": "The American journal of clinical nutrition, 1990",
+          "url": "https://doi.org/10.1093/ajcn/51.2.241"
+        },
+        {
+          "title": "Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review.",
+          "source": "Journal of the American Dietetic Association, 2005",
+          "url": "https://doi.org/10.1016/j.jada.2005.02.005"
+        },
+        {
+          "title": "Accuracy of Resting Metabolic Rate Prediction Equations in Athletes: A Systematic Review with Meta-analysis.",
+          "source": "Sports medicine (Auckland, N.Z.), 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01896-z"
+        },
+        {
+          "title": "Adequacy of basal metabolic rate prediction equations in individuals with severe obesity: A systematic review and meta-analysis.",
+          "source": "Obesity reviews : an official journal of the International Association for the Study of Obesity, 2024",
+          "url": "https://doi.org/10.1111/obr.13739"
+        },
+        {
+          "title": "Predicting resting metabolic rate in healthy adults: a comparative analysis using the enable cohort.",
+          "source": "American journal of physiology. Endocrinology and metabolism, 2026",
+          "url": "https://doi.org/10.1152/ajpendo.00375.2025"
+        },
+        {
+          "title": "Predicted estimates of resting energy expenditure have limited clinical utility in patients with cirrhosis.",
+          "source": "Journal of hepatology, 2022",
+          "url": "https://doi.org/10.1016/j.jhep.2022.01.005"
+        },
+        {
+          "title": "Estimating Resting Energy Expenditure by Different Methods as Compared With Indirect Calorimetry for Patients With Pulmonary Hypertension.",
+          "source": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition, 2018",
+          "url": "https://doi.org/10.1177/0884533617727731"
+        },
+        {
+          "title": "Predictive Equations Overestimate Resting Metabolic Rate in Survivors of Chronic Stroke.",
+          "source": "Archives of physical medicine and rehabilitation, 2022",
+          "url": "https://doi.org/10.1016/j.apmr.2022.01.155"
+        },
+        {
+          "title": "Relationship between resting metabolic rate and the composition of the fat-free mass.",
+          "source": "Metabolism: clinical and experimental, 1997",
+          "url": "https://doi.org/10.1016/s0026-0495(97)90222-5"
+        },
+        {
+          "title": "Metabolic adaptation to caloric restriction and subsequent refeeding: the Minnesota Starvation Experiment revisited.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.109173"
+        },
+        {
+          "title": "Daily energy expenditure through the human life course.",
+          "source": "Science (New York, N.Y.), 2021",
+          "url": "https://doi.org/10.1126/science.abe5017"
+        },
+        {
+          "title": "Energy Expenditure in Humans: Principles, Methods, and Changes Throughout the Life Course.",
+          "source": "Annual review of nutrition, 2024",
+          "url": "https://doi.org/10.1146/annurev-nutr-062122-031443"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "ko": {
+      "title": "기초대사량 계산기: 공식, 계산법, 정확도 총정리",
+      "short_title": "기초대사량 계산법 총정리",
+      "short_description": "기초대사량이 무엇인지, Mifflin-St Jeor 공식과 계산 예시, 기초대사량 계산기의 정확도, 그리고 수치를 실제로 바꾸는 요인을 정리했습니다.",
+      "meta_description": "기초대사량 계산기로 내 BMR 구하는 법. 기초대사량의 의미, Mifflin-St Jeor 공식 계산 예시, 계산기의 정확도, 수치를 바꾸는 요인까지 한 번에 정리했습니다.",
+      "tldr": "기초대사량(BMR)은 완전히 쉬고 있을 때 생명 유지에만 쓰이는 에너지로, 하루 필요 열량에서 가장 큰 비중을 차지합니다. Mifflin-St Jeor 공식은 임상에서 가장 흔히 쓰이는 공식 중 하나입니다. 남성은 10 × 체중(kg) + 6.25 × 키(cm) − 5 × 나이(세) + 5, 여성은 같은 항에 − 161을 적용합니다. 한 체계적 문헌고찰에서 Mifflin-St Jeor 공식은 다른 흔한 공식보다 더 많은 사람의 안정시 대사량을 실측값의 10% 이내로 예측했습니다. 결과는 정확한 수치가 아닌 추정치로 받아들이세요.",
+      "body_md": "## 기초대사량이 실제로 측정하는 것\n\n기초대사량(BMR)은 완전히 쉬고 있을 때 생명을 유지하는 데 쓰이는 에너지입니다. 숨 쉬기, 혈액 순환, 뇌와 장기의 활동, 체온 유지가 여기에 포함됩니다. 걷기나 운동, 식사 후 소화에 드는 에너지는 포함되지 않습니다.\n\n안정시 대사량(RMR), 안정시 에너지 소비량(REE)이라는 용어도 자주 보게 됩니다. 세 가지 모두 쉬는 동안의 에너지 소비를 나타내는 밀접한 측정값이어서 이 글에서는 함께 다룹니다. 연구자들은 하루 에너지 소비의 다른 구성 요소와 마찬가지로 안정시 소비량도 간접 열량 측정법이라는 방법을 변형해 추정합니다. 예를 들어 아래에서 소개할 Mifflin-St Jeor 공식도 REE를 예측하기 위해 만들어졌습니다.\n\n기초대사량이 중요한 이유는 에너지 예산에서 가장 큰 덩어리이기 때문입니다. 하루 총 에너지 소비량은 주로 안정시 에너지 소비량, 신체 활동 에너지 소비량, 식사성 열 발생으로 이루어집니다. 이 셋 가운데 가장 큰 비중을 차지하는 것이 안정시 소비량입니다.\n\n## Mifflin-St Jeor 공식으로 기초대사량 계산하는 법\n\n한 체계적 문헌고찰에서는 Mifflin-St Jeor 공식을 임상에서 가장 흔히 쓰이는 4가지 예측 공식 중 하나로 꼽았습니다. 이 공식은 19~78세 건강한 성인 498명의 데이터로 만들어졌습니다. 그중 264명은 정상 체중, 234명은 비만이었고, 모든 참가자의 REE를 간접 열량 측정법으로 측정했습니다.\n\n간소화한 공식은 다음과 같습니다.\n\n- **남성:** 기초대사량 = 10 × 체중(kg) + 6.25 × 키(cm) − 5 × 나이(세) + 5\n- **여성:** 기초대사량 = 10 × 체중(kg) + 6.25 × 키(cm) − 5 × 나이(세) − 161\n\n결과의 단위는 하루 kcal입니다. 원래 데이터에서 체중, 키, 나이, 성별을 합치면 측정된 REE 변동의 71%를 설명했습니다(R² = 0.71).\n\n### 계산 예시\n\n체중 70kg, 키 165cm, 40세인 가상의 여성이라면 다음과 같습니다.\n\n10 × 70 + 6.25 × 165 − 5 × 40 − 161 = 700 + 1,031.25 − 200 − 161 = 하루 약 1,370kcal\n\n체중 80kg, 키 180cm, 35세인 가상의 남성이라면 다음과 같습니다.\n\n10 × 80 + 6.25 × 180 − 5 × 35 + 5 = 800 + 1,125 − 175 + 5 = 하루 1,755kcal\n\n이 공식에는 알아 두면 좋은 특징이 두 가지 있습니다. 첫째, 체격과 나이가 같은 남녀의 차이는 항상 166kcal로 고정됩니다(5 − (−161) = 166). 이는 공식 원형의 성별 항과 일치합니다. 둘째, 나이가 한 살 늘 때마다 5kcal씩 줄어듭니다. 체중과 키가 그대로라면 10년이 지나면 추정치가 50kcal 낮아집니다(5 × 10).\n\n### 제지방량을 알고 있다면\n\n같은 연구에서는 더 단순한 예측 변수도 검증했습니다. 제지방량(FFM)이 REE를 가장 잘 예측하는 단일 변수였습니다(R² = 0.64). 공식은 REE = 19.7 × 제지방량(kg) + 413입니다. 체중만 쓴 경우는 예측력이 더 낮았습니다(REE = 15.1 × 체중 + 371, R² = 0.56). 세 가지 중에서는 체중, 키, 나이, 성별을 모두 쓰는 전체 공식이 가장 우수했습니다.\n\n## 다른 기초대사량 공식: 해리스-베네딕트, WHO, Ten Haaf\n\nMifflin-St Jeor 공식만 있는 것은 아닙니다. 어떤 공식이 가장 잘 맞는지는 어떤 사람인지에 따라서도 달라집니다.\n\n### 해리스-베네딕트 공식\n\n해리스-베네딕트(Harris-Benedict) 공식은 1919년에 나왔습니다. Mifflin 연구의 실측값과 비교하면 REE를 5% 과대평가했습니다. 한 체계적 문헌고찰은 임상에서 가장 많이 쓰이는 4가지 공식, 즉 해리스-베네딕트, Mifflin-St Jeor, Owen, WHO/FAO/UNU 공식을 비교했습니다. 가장 신뢰할 만한 것은 Mifflin-St Jeor 공식이었습니다. 비만이 아닌 사람과 비만인 사람 모두에서 다른 어떤 공식보다 많은 사람의 RMR을 실측값의 10% 이내로 예측했고, 오차 범위도 가장 좁았습니다. 이 고찰에서는 공식을 만들고 검증한 연구에 노인과 미국 거주 소수 인종이 충분히 포함되지 않았다는 점도 지적했습니다.\n\n### 고도비만: WHO 공식과 해리스-베네딕트 공식\n\n체중이 매우 높으면 양상이 달라집니다. 한 체계적 문헌고찰은 BMI 40.0~62.4인 성인을 대상으로 한 연구 40편을 포함했고, 그중 20편을 메타분석으로 통합했습니다. 이 집단에서는 WHO(체중) 공식과 해리스-베네딕트 공식이 가장 정확하고 정밀했습니다. 평균 편향은 WHO 공식이 하루 −12.44kcal, 해리스-베네딕트 공식이 하루 −18.9kcal였습니다. Mifflin 공식을 포함해 검증한 나머지 공식은 기초대사량을 과소평가하는 경향이 있었습니다.\n\n### 운동선수와 Ten Haaf 공식\n\n한 메타분석은 운동선수 1,430명이 참여한 연구 29편과 예측 공식 100개를 통합했습니다. 가장 정밀한 것은 Ten-Haaf 공식이었습니다. 참가자의 80.2%를 실측 RMR의 ±10% 이내로 예측했고, 정밀도를 분석한 다른 공식은 40.7~63.7%였습니다. 평균 예측값도 실측값과 유의한 차이가 없었습니다. 해리스-베네딕트를 포함한 다른 4개 공식도 같은 결과를 보였지만, 연구 간 이질성이 전혀 없었던(I² = 0%) 것은 5개 중 Ten-Haaf 공식뿐이었습니다. 같은 운동선수 데이터에서 Mifflin-St Jeor 공식은 RMR을 유의하게 과소평가하거나 과대평가했습니다. Ten Haaf 공식의 정확한 계수는 여기서 소개하지 않습니다. 실용적인 결론은 일반 인구를 바탕으로 만든 공식이 근육량이 매우 많고 고도로 훈련된 사람에게는 빗나갈 수 있다는 점입니다.\n\n이 방법들을 나란히 비교한 내용은 [대사량 계산 정확도 비교](/ko/metabolic-rate-calculation-accuracy-comparison-2026) 가이드에서 확인할 수 있습니다.\n\n## 기초대사량 계산기는 얼마나 정확할까?\n\n앞의 고찰들에서는 예측값이 실측 RMR의 10% 이내에 들어오면 적중으로 봤습니다. 꽤 엄격해 보이지만 칼로리로 따지면 폭이 넓습니다. 앞의 1,370kcal 예시라면 ±10%는 ±137kcal입니다(1,370 × 0.10). 실제 값이 하루 약 1,233kcal에서 1,507kcal 사이(1,370 − 137, 1,370 + 137) 어디에 있어도 좋은 예측으로 간주되는 셈입니다.\n\n가장 좋은 공식도 일부 사람에게는 이보다 더 크게 빗나갑니다. Mifflin-St Jeor 공식을 지지한 체계적 문헌고찰도 개인에게 적용할 때는 무시할 수 없는 오차가 있다고 밝혔습니다. 체격이 같아도 안정시 대사는 사람마다 다르기 때문에 예측이 어렵습니다.\n\n데이터가 많을수록 도움이 되지만 한계가 있습니다. 건강한 성인 454명을 대상으로 한 최근 연구에서는 최대 94개 예측 변수를 쓰는 머신러닝 모델을 검증했습니다. 가장 좋은 모델은 RMR 변동의 76.8%를 설명했습니다. 제지방량, 체중, 그리고 흥미롭게도 평균 외기 온도가 가장 유용한 예측 변수에 속했습니다. 혈액 지표는 약간 도움이 됐습니다. 장내 미생물과 대변 내 단쇄지방산은 전혀 도움이 되지 않았습니다. 이 모델로도 변동의 약 23%는 설명되지 않았습니다(100 − 76.8 = 23.2%).\n\n질환이 있으면 오차는 더 커집니다. 간경변 환자 900명에게서 예측 REE는 실측값보다 하루 501kcal 낮은 값부터 548kcal 높은 값까지 분포했습니다. 연구진은 이 환자군에서는 REE를 직접 측정해야 한다고 결론지었습니다.\n\n다른 질환에서도 비슷한 차이가 나타나며, 오차의 방향이 늘 같지는 않습니다. 폐고혈압 환자 34명에서는 검증한 모든 추정 방법이 에너지 필요량을 약 255kcal 과소평가했습니다. 만성기 뇌졸중 생존자 71명에서는 9개 공식 중 8개가 실측값보다 9~18% 높은 RMR을 예측했습니다.\n\n## 정상 기초대사량은 얼마일까?\n\n'정상'이라고 할 단 하나의 숫자는 없습니다. 기초대사량은 체격과 체성분에 따라 달라지므로, 키 크고 근육질인 남성과 체구가 작은 여성은 값이 크게 달라도 둘 다 충분히 건강할 수 있습니다. 앞의 계산 예시(하루 약 1,370kcal와 1,755kcal)만 봐도 평범한 체격 사이에서 차이가 얼마나 큰지 알 수 있습니다.\n\n대략적인 점검 기준은 체중 1kg당 에너지입니다. 간경변 연구에서 건강한 대조군 282명은 평균 체중 1kg당 하루 20.8 ± 2.6kcal였습니다. 체중 70kg이라면 하루 약 1,456kcal가 됩니다(70 × 20.8). 이는 어림값으로만 받아들이세요. ± 2.6은 사람마다 실제 차이가 있다는 뜻입니다.\n\n계산한 기초대사량이 예상과 많이 다르다면 먼저 입력값을 확인하세요. 공식은 체중을 kg, 키를 cm 단위로 넣도록 되어 있습니다.\n\n## 기초대사량에서 TDEE로: 하루에 필요한 칼로리\n\n기초대사량이 곧 하루 섭취 목표는 아닙니다. 하루 총 에너지 소비량(TDEE)은 쉬는 동안의 소비에 움직이는 데 쓰는 에너지와 음식을 소화하는 데 쓰는 에너지를 더한 값입니다.\n\n따라서 기초대사량을 하루 수치로 바꾸려면 활동량 추정치를 더해야 하고, 여기에는 기초대사량 공식과는 별개의 불확실성이 따릅니다. 이 부분을 현실적으로 추정하는 방법은 [활동 수준 단계와 영양 조정](/ko/activity-level-tier-nutrition-scaling-2026) 글에서 다룹니다.\n\n나이의 영향은 많은 사람이 생각하는 것보다 작습니다. 생후 8일부터 95세까지를 대상으로 이중표지수법으로 하루 총 소비량을 측정한 대규모 분석은 제지방량을 보정해 비교했습니다. 그 기준으로 보면 20~60세 성인기에는 임신 중에도 소비량이 안정적으로 유지됐고, 노년기에 들어서야 감소했습니다. 생애 주기별 에너지 소비를 다룬 한 리뷰는 이런 변화가 적어도 부분적으로는 체성분의 변화, 장기와 조직의 질량 및 대사율, 신체 활동 수준의 변화 때문이라고 설명합니다.\n\n## 기초대사량을 높이거나 낮추는 요인\n\n### 제지방량\n\n가장 큰 요인은 제지방 조직입니다. 성인 40명을 대상으로 한 연구에서 제지방량과 체지방량을 합치면 RMR 변동의 83%를 설명했습니다. 장기와 근육을 자세히 측정한 값을 추가해도 예측은 나아지지 않았습니다. 체중이 같아도 근육량이 다르면 기초대사량이 눈에 띄게 차이 나는 이유, 그리고 체성분을 정확히 측정했을 때 제지방량 기반 공식이 잘 맞는 이유가 여기에 있습니다.\n\n### 다이어트와 대사 적응\n\n열량을 줄이면 안정시 소비량이 줄어드는데, 조직이 빠지는 탓도 있고 적응 때문이기도 합니다. 한 통제 연구에서 비만이 아닌 남성 32명이 3주 동안 에너지 필요량보다 50% 적게 먹었습니다. 이들은 체중이 6.0kg 줄었고 REE는 하루 266kcal 감소했습니다. 제지방량 감소로 설명되지 않는 감소분인 적응성 열 발생은 하루 108kcal였습니다. 그중 36kcal는 제지방량 구성의 변화로 설명됐고, 남은 하루 72kcal가 '진짜' 적응이었습니다.\n\n### 환경\n\n앞의 머신러닝 예측 연구에서 평균 외기 온도는 RMR의 핵심 예측 변수 중 하나였습니다. 같은 모델에서 다른 핵심 예측 변수는 제지방량과 체중이었습니다.\n\n## 기초대사량을 직접 측정할 가치가 있을 때\n\n대사 평가(기초대사량 검사라는 이름으로 제공되기도 합니다)는 간접 열량 측정법으로 쉬는 동안의 실제 에너지 소비를 측정합니다. 예측 공식에 관한 체계적 문헌고찰은 측정 오차를 최소화하는 근거 기반 프로토콜에 따라 타당한 간접 열량 측정을 하면 추정 오차가 사라질 것이라고 결론지었습니다. 추정치로 충분한지는 임상적 판단으로 결정합니다.\n\n천천히 체중을 바꾸려는 대부분의 건강한 성인에게는 계산한 기초대사량이 합리적인 출발점입니다. 이를 바탕으로 처음 섭취량을 정하세요. 그다음에는 몇 주간의 체중 추세를 보고 조정할지 판단하세요. 어떤 공식보다 체중계가 실제 에너지 균형을 더 잘 보여 주기 때문입니다. 웨어러블 기기나 휴대전화를 활용하면 체중과 활동량을 꾸준히 기록하는 데 도움이 됩니다.\n\n추정치가 잘 맞지 않는 것으로 알려진 경우에는 측정이 더 합리적입니다. 매우 높은 BMI, 많은 훈련량, 대사에 영향을 주는 질환이 이에 해당합니다. 섭취량과 체중 변화가 계산과 계속 맞지 않을 때도 마찬가지입니다. 이런 경우 임상 검사를 받을지는 담당 의료진이 판단할 일입니다.",
+      "key_stats": [
+        {
+          "label": "Mifflin-St Jeor 공식이 설명하는 안정시 에너지 소비량의 변동",
+          "value": "R² = 0.71",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Mifflin 연구에서 해리스-베네딕트 공식의 실측 REE 과대평가 정도",
+          "value": "5%",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Ten-Haaf 공식이 실측 RMR의 ±10% 이내로 예측한 운동선수 비율",
+          "value": "80.2%",
+          "source": "E19: systematic review and meta-analysis of RMR equations in athletes"
+        },
+        {
+          "label": "제지방량과 체지방량이 함께 설명하는 RMR 변동",
+          "value": "83%",
+          "source": "E10: study of RMR and fat-free mass composition in 40 adults"
+        },
+        {
+          "label": "에너지 필요량보다 50% 적게 3주간 섭취한 뒤의 REE 감소",
+          "value": "하루 −266kcal",
+          "source": "E9: controlled caloric restriction and refeeding study in 32 nonobese men"
+        }
+      ],
+      "faq": [
+        {
+          "question": "기초대사량은 어떻게 계산하나요?",
+          "answer": "Mifflin-St Jeor 공식을 사용하세요. 남성은 10 × 체중(kg) + 6.25 × 키(cm) − 5 × 나이(세) + 5, 여성은 같은 항에 − 161을 적용합니다. 예를 들어 체중 70kg, 키 165cm, 40세 여성이라면 700 + 1,031.25 − 200 − 161 = 하루 약 1,370kcal입니다."
+        },
+        {
+          "question": "정상 기초대사량은 얼마인가요?",
+          "answer": "기초대사량은 체격과 제지방량에 따라 달라지기 때문에 정해진 정상값은 없습니다. 대략적인 기준으로, 한 연구에서 건강한 성인은 평균 체중 1kg당 하루 20.8 ± 2.6kcal였습니다. 체중 70kg이라면 하루 약 1,456kcal(70 × 20.8)입니다."
+        },
+        {
+          "question": "Ten Haaf 공식이란 무엇인가요?",
+          "answer": "Ten Haaf 공식은 운동선수에게서 가장 좋은 성적을 보인 안정시 대사량 공식입니다. 운동선수 1,430명이 참여한 연구 29편의 메타분석에서 참가자의 80.2%를 실측 RMR의 ±10% 이내로 예측했습니다. 분석한 다른 공식은 40.7~63.7%였습니다."
+        },
+        {
+          "question": "기초대사량과 TDEE는 어떻게 다른가요?",
+          "answer": "기초대사량은 완전히 쉬는 상태에서 소비하는 에너지입니다. TDEE(하루 총 에너지 소비량)는 여기에 신체 활동과 식사성 열 발생을 더한 값입니다. 기초대사량에서 TDEE를 구하려면 활동량을 따로 추정해 더해야 합니다."
+        },
+        {
+          "question": "무료 온라인 기초대사량 계산기는 정확한가요?",
+          "answer": "출발점으로 삼기에는 적당한 추정치지만 정확한 수치는 아닙니다. Mifflin-St Jeor 공식은 다른 흔한 공식보다 더 많은 사람의 RMR을 실측값의 10% 이내로 예측했지만, 개인에게는 무시할 수 없는 오차가 남습니다. 고도비만인 사람, 운동선수, 특정 질환이 있는 사람 등에서는 정확도가 더 떨어집니다."
+        },
+        {
+          "question": "다이어트를 하면 기초대사량이 떨어지나요?",
+          "answer": "네, 어느 정도 떨어집니다. 한 통제 연구에서 에너지 필요량보다 50% 적게 3주간 먹은 남성들은 REE가 하루 266kcal 감소했습니다. 그중 하루 72kcal는 조직 감소를 넘어선 진짜 적응이었습니다."
+        }
+      ],
+      "comparison_table": {
+        "title": "주요 BMR/RMR 공식과 연구 결과 비교",
+        "headers": [
+          "공식",
+          "입력값",
+          "공식 또는 핵심 결과",
+          "가장 잘 맞은 대상"
+        ],
+        "rows": [
+          [
+            "Mifflin-St Jeor(남성)",
+            "체중, 키, 나이",
+            "10 × kg + 6.25 × cm − 5 × 나이 + 5",
+            "일반 성인: 흔한 4가지 공식 중 실측 RMR의 10% 이내 예측이 가장 많음"
+          ],
+          [
+            "Mifflin-St Jeor(여성)",
+            "체중, 키, 나이",
+            "10 × kg + 6.25 × cm − 5 × 나이 − 161",
+            "일반 성인(비만이 아닌 사람과 비만인 사람)"
+          ],
+          [
+            "Mifflin 제지방량 버전",
+            "제지방량",
+            "19.7 × 제지방량(kg) + 413 (R² = 0.64)",
+            "체성분을 알고 있을 때"
+          ],
+          [
+            "Mifflin 체중 단독 버전",
+            "체중",
+            "15.1 × kg + 371 (R² = 0.56)",
+            "빠른 추정용, 전체 공식보다 예측력이 낮음"
+          ],
+          [
+            "해리스-베네딕트(1919)",
+            "원 논문 참조",
+            "Mifflin 데이터에서 실측 REE를 5% 과대평가",
+            "고도비만: 편향 하루 −18.9kcal"
+          ],
+          [
+            "WHO(체중)",
+            "체중 기반, 전체 입력값은 원 논문 참조",
+            "고도비만에서 편향 하루 −12.44kcal",
+            "BMI 40.0~62.4 성인"
+          ],
+          [
+            "Ten-Haaf",
+            "원 논문 참조",
+            "운동선수의 80.2%를 실측 RMR ±10% 이내로 예측, I² = 0%",
+            "훈련된 운동선수"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "A new predictive equation for resting energy expenditure in healthy individuals.",
+          "source": "The American journal of clinical nutrition, 1990",
+          "url": "https://doi.org/10.1093/ajcn/51.2.241"
+        },
+        {
+          "title": "Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review.",
+          "source": "Journal of the American Dietetic Association, 2005",
+          "url": "https://doi.org/10.1016/j.jada.2005.02.005"
+        },
+        {
+          "title": "Accuracy of Resting Metabolic Rate Prediction Equations in Athletes: A Systematic Review with Meta-analysis.",
+          "source": "Sports medicine (Auckland, N.Z.), 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01896-z"
+        },
+        {
+          "title": "Adequacy of basal metabolic rate prediction equations in individuals with severe obesity: A systematic review and meta-analysis.",
+          "source": "Obesity reviews : an official journal of the International Association for the Study of Obesity, 2024",
+          "url": "https://doi.org/10.1111/obr.13739"
+        },
+        {
+          "title": "Predicting resting metabolic rate in healthy adults: a comparative analysis using the enable cohort.",
+          "source": "American journal of physiology. Endocrinology and metabolism, 2026",
+          "url": "https://doi.org/10.1152/ajpendo.00375.2025"
+        },
+        {
+          "title": "Predicted estimates of resting energy expenditure have limited clinical utility in patients with cirrhosis.",
+          "source": "Journal of hepatology, 2022",
+          "url": "https://doi.org/10.1016/j.jhep.2022.01.005"
+        },
+        {
+          "title": "Estimating Resting Energy Expenditure by Different Methods as Compared With Indirect Calorimetry for Patients With Pulmonary Hypertension.",
+          "source": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition, 2018",
+          "url": "https://doi.org/10.1177/0884533617727731"
+        },
+        {
+          "title": "Predictive Equations Overestimate Resting Metabolic Rate in Survivors of Chronic Stroke.",
+          "source": "Archives of physical medicine and rehabilitation, 2022",
+          "url": "https://doi.org/10.1016/j.apmr.2022.01.155"
+        },
+        {
+          "title": "Relationship between resting metabolic rate and the composition of the fat-free mass.",
+          "source": "Metabolism: clinical and experimental, 1997",
+          "url": "https://doi.org/10.1016/s0026-0495(97)90222-5"
+        },
+        {
+          "title": "Metabolic adaptation to caloric restriction and subsequent refeeding: the Minnesota Starvation Experiment revisited.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.109173"
+        },
+        {
+          "title": "Daily energy expenditure through the human life course.",
+          "source": "Science (New York, N.Y.), 2021",
+          "url": "https://doi.org/10.1126/science.abe5017"
+        },
+        {
+          "title": "Energy Expenditure in Humans: Principles, Methods, and Changes Throughout the Life Course.",
+          "source": "Annual review of nutrition, 2024",
+          "url": "https://doi.org/10.1146/annurev-nutr-062122-031443"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "ja": {
+      "title": "基礎代謝量の計算方法｜計算式・目安・計算ツールの精度",
+      "short_title": "基礎代謝量の計算方法と計算式",
+      "short_description": "基礎代謝量とは何か、Mifflin-St Jeor式の計算例、基礎代謝の計算ツールはどこまで正確か、そして数値を実際に左右する要因を解説します。",
+      "meta_description": "基礎代謝量の計算方法をわかりやすく解説。基礎代謝とは何か、Mifflin-St Jeor式での計算例、計算ツールの精度、基礎代謝を上げる・下げる要因までまとめました。",
+      "tldr": "基礎代謝量（BMR）は、完全に安静にしている状態で生命を維持するためだけに消費されるエネルギーで、1日に必要なエネルギーのなかで最も大きな部分を占めます。Mifflin-St Jeor式は臨床で最もよく使われている推定式の一つです。男性は10 × 体重（kg）+ 6.25 × 身長（cm）− 5 × 年齢（歳）+ 5、女性は同じ項に − 161を用います。あるシステマティックレビューでは、Mifflin-St Jeor式はほかの一般的な式よりも多くの人で、安静時代謝量を実測値の10%以内で予測しました。結果は正確な値ではなく、あくまで推定値として扱いましょう。",
+      "body_md": "## 基礎代謝量が実際に表しているもの\n\n基礎代謝量（BMR）とは、完全に安静にしているときに生命を維持するために使われるエネルギーのことです。呼吸、血液の循環、脳や臓器の働き、体温の維持がこれにあたります。歩くこと、トレーニング、食事の消化に使われるエネルギーは含まれません。\n\n安静時代謝量（RMR）や安静時エネルギー消費量（REE）という言葉もよく目にします。いずれも安静時のエネルギー消費を表す密接に関連した指標なので、この記事ではまとめて扱います。研究では、1日のエネルギー消費のほかの要素と同様に、安静時の消費量も間接熱量測定法と呼ばれる方法のバリエーションで推定します。たとえば、後で紹介するMifflin-St Jeor式も、REEを予測するために作られたものです。\n\n基礎代謝量が重要なのは、エネルギー収支のなかで最も大きな部分を占めるからです。1日の総エネルギー消費量は、主に安静時エネルギー消費量、身体活動によるエネルギー消費量、食事誘発性熱産生で構成されています。この3つのうち、最も大きいのが安静時の消費量です。\n\n## Mifflin-St Jeor式で基礎代謝量を計算する方法\n\nあるシステマティックレビューでは、Mifflin-St Jeor式を臨床で最もよく使われている4つの推定式の一つに挙げています。この式は、19〜78歳の健康な成人498人のデータから導かれました。そのうち264人が標準体重、234人が肥満で、全員のREEを間接熱量測定法で測定しています。\n\n簡略版の計算式は次のとおりです。\n\n- **男性：** 基礎代謝量 = 10 × 体重（kg）+ 6.25 × 身長（cm）− 5 × 年齢（歳）+ 5\n- **女性：** 基礎代謝量 = 10 × 体重（kg）+ 6.25 × 身長（cm）− 5 × 年齢（歳）− 161\n\n結果の単位は1日あたりのkcalです。元のデータでは、体重、身長、年齢、性別を合わせると、実測REEのばらつきの71%を説明できました（R² = 0.71）。\n\n### 計算例\n\n体重70kg、身長165cm、40歳の架空の女性の場合：\n\n10 × 70 + 6.25 × 165 − 5 × 40 − 161 = 700 + 1,031.25 − 200 − 161 = 1日約1,370kcal\n\n体重80kg、身長180cm、35歳の架空の男性の場合：\n\n10 × 80 + 6.25 × 180 − 5 × 35 + 5 = 800 + 1,125 − 175 + 5 = 1日1,755kcal\n\nこの式には知っておくと便利な特徴が2つあります。1つ目は、体格と年齢が同じ男女の差が常に166kcalで一定であることです（5 − (−161) = 166）。これは、完全版の式に含まれる性別の項と一致します。2つ目は、年齢が1歳上がるごとに5kcal下がることです。体重と身長が変わらなければ、10年で推定値は50kcal低くなります（5 × 10）。\n\n### 除脂肪量がわかっている場合\n\n同じ研究では、よりシンプルな予測因子も検証されています。単独の予測因子としてREEを最もよく予測したのは除脂肪量（FFM）でした（R² = 0.64）。式はREE = 19.7 × 除脂肪量（kg）+ 413です。体重だけを使った場合は予測力が劣りました（REE = 15.1 × 体重 + 371、R² = 0.56）。3つのなかでは、体重、身長、年齢、性別を使う完全版の式が最も優れていました。\n\n## ほかの基礎代謝の計算式：ハリス・ベネディクト式、WHO式、Ten Haaf式\n\n選択肢はMifflin-St Jeor式だけではありません。どの式が最も合うかは、その人の特性によっても変わります。\n\n### ハリス・ベネディクト式\n\nハリス・ベネディクト（Harris-Benedict）式は1919年に作られました。Mifflinの研究の実測値と比べると、REEを5%過大に見積もっていました。あるシステマティックレビューでは、臨床で最もよく使われる4つの式、つまりハリス・ベネディクト式、Mifflin-St Jeor式、Owen式、WHO/FAO/UNU式を比較しました。最も信頼性が高かったのはMifflin-St Jeor式です。肥満でない人と肥満の人のいずれでも、ほかのどの式よりも多くの人でRMRを実測値の10%以内で予測し、誤差の幅も最も狭くなりました。このレビューでは、これらの式の作成や検証に使われた研究で、高齢者と米国在住の少数民族が十分に含まれていなかったことも指摘されています。\n\n### 高度肥満：WHO式とハリス・ベネディクト式\n\n体重が非常に重い場合は、状況が変わります。あるシステマティックレビューでは、BMI 40.0〜62.4の成人を対象とした40件の研究を取り上げ、そのうち20件をメタ解析で統合しました。この集団では、WHO（体重）式とハリス・ベネディクト式が最も正確で精度も高い結果でした。平均バイアスはWHO式が1日−12.44kcal、ハリス・ベネディクト式が1日−18.9kcalです。Mifflin式を含むほかの検証された式は、基礎代謝量を過小に見積もる傾向がありました。\n\n### アスリートとTen Haaf式\n\nあるメタ解析では、アスリート1,430人を対象とした29件の研究と、100種類の推定式を統合しました。最も精度が高かったのはTen-Haaf式です。参加者の80.2%を実測RMRの±10%以内で予測し、精度を分析したほかの式は40.7〜63.7%でした。平均予測値も実測値と有意な差がありませんでした。ハリス・ベネディクト式を含むほかの4つの式も同じ結果でしたが、研究間の異質性がまったくなかった（I² = 0%）のは5つのうちTen-Haaf式だけでした。同じアスリートのデータで、Mifflin-St Jeor式はRMRを有意に過小または過大に見積もっていました。Ten Haaf式の具体的な係数はここでは紹介しません。実践的なポイントは、一般の人を基に作られた式は、筋肉量が非常に多く高度にトレーニングを積んだ人では外れることがある、という点です。\n\nこれらの方法を並べて比較した内容は、[代謝量の計算精度の比較](/ja/metabolic-rate-calculation-accuracy-comparison-2026)のガイドをご覧ください。\n\n## 基礎代謝の計算ツールはどのくらい正確？\n\n先に紹介したレビューでは、予測値が実測RMRの10%以内に入れば「的中」とみなしていました。厳しい基準に聞こえますが、カロリーに換算するとかなり幅があります。先ほどの1,370kcalの例なら、±10%は±137kcalです（1,370 × 0.10）。つまり、実際の値が1日約1,233〜1,507kcal（1,370 − 137と1,370 + 137）のどこにあっても、よい予測と判断されることになります。\n\n最も優れた式でも、一部の人ではこれ以上に外れます。Mifflin-St Jeor式を支持したシステマティックレビューでも、個人に当てはめた場合には無視できない誤差があると述べています。体格が同じでも安静時の代謝には個人差があるため、予測は難しいのです。\n\nデータを増やすと精度は上がりますが、限界があります。健康な成人454人を対象とした最近の研究では、最大94個の予測因子を使う機械学習モデルを検証しました。最も優れたモデルでRMRのばらつきの76.8%を説明できました。除脂肪量、体重、そして興味深いことに平均外気温が、特に有用な予測因子に含まれていました。血液マーカーはわずかに精度を高めました。腸内細菌叢と便中の短鎖脂肪酸は、まったく役に立ちませんでした。このモデルでも、ばらつきの約23%は説明できないまま残りました（100 − 76.8 = 23.2%）。\n\n病気があると、誤差はさらに大きくなります。肝硬変の患者900人では、予測REEが実測値より1日501kcal低い値から548kcal高い値までばらつきました。研究者らは、この患者群ではREEを直接測定すべきだと結論づけています。\n\nほかの病気でも同じような差が見られ、誤差の方向は常に同じとは限りません。肺高血圧症の患者34人では、検証したすべての推定方法がエネルギー必要量を約255kcal過小に見積もりました。慢性期の脳卒中経験者71人では、9つの式のうち8つが、実測値より9〜18%高いRMRを予測しました。\n\n## 基礎代謝量の目安は？\n\n「正常」といえる数値は一つではありません。基礎代謝量は体格と体組成に応じて変わるため、背が高く筋肉質な男性と小柄な女性では、値が大きく違っても、どちらもまったく健康ということがあります。先ほどの計算例（1日約1,370kcalと1,755kcal）からも、ごく一般的な体格の間でもこれだけ差が出ることがわかります。\n\n大まかな確認には、体重1kgあたりのエネルギーが目安になります。肝硬変の研究では、健康な対照群282人の平均は体重1kgあたり1日20.8 ± 2.6kcalでした。体重70kgの人なら、1日約1,456kcalです（70 × 20.8）。これはあくまでおおよその目安と考えてください。± 2.6は、人によって実際にばらつきがあることを示しています。\n\n計算した基礎代謝量が予想と大きく違う場合は、まず入力した値を確認しましょう。この式は、体重をkg、身長をcmで入力する前提です。\n\n## 基礎代謝量からTDEEへ：1日に必要なカロリー\n\n基礎代謝量は、1日の摂取カロリーの目標ではありません。1日の総エネルギー消費量（TDEE）は、安静時の消費に、体を動かすためのエネルギーと食べ物を消化するためのエネルギーを加えたものです。\n\nそのため、基礎代謝量を1日の数値に換算するには活動量の推定値を加える必要があり、そこには基礎代謝の計算式とは別の不確かさが加わります。この部分を現実的に見積もる方法は、[活動レベルの区分と栄養の調整](/ja/activity-level-tier-nutrition-scaling-2026)の記事で解説しています。\n\n年齢の影響は、多くの人が思っているほど大きくありません。生後8日から95歳までを対象に、二重標識水法で1日の総消費量を測定した大規模な分析では、除脂肪量で調整して比較しました。その基準で見ると、20〜60歳の成人期には妊娠中も含めて消費量は安定しており、低下したのは高齢期に入ってからでした。生涯にわたるエネルギー消費を扱ったレビューでは、こうした変化は少なくとも部分的に、体組成の変化、臓器や組織の質量と代謝率、身体活動量の変化によるものだと説明されています。\n\n## 基礎代謝量を上げる要因・下げる要因\n\n### 除脂肪量\n\n最も大きな要因は除脂肪組織です。成人40人を対象とした研究では、除脂肪量と脂肪量を合わせるとRMRのばらつきの83%を説明できました。臓器や筋肉の詳細な測定値を加えても、予測は改善しませんでした。体重が同じでも筋肉量が違うと基礎代謝量にはっきり差が出るのも、体組成を正確に測定できれば除脂肪量に基づく式がよく当てはまるのも、このためです。\n\n### ダイエットと代謝適応\n\nカロリーを減らすと安静時の消費量は下がります。組織が減ることも一因ですが、適応による部分もあります。ある対照試験では、肥満でない男性32人が3週間、エネルギー必要量より50%少なく食べました。体重は6.0kg減り、REEは1日266kcal低下しました。除脂肪量の減少では説明できない低下分である適応性熱産生は、1日108kcalでした。そのうち36kcalは除脂肪量の組成の変化で説明でき、残りの1日72kcalが「真の」適応でした。\n\n### 環境\n\n先の機械学習による予測研究では、平均外気温がRMRの主要な予測因子の一つでした。同じモデルで、ほかの主要な予測因子は除脂肪量と体重でした。\n\n## 基礎代謝量を実測する価値があるとき\n\n代謝測定（基礎代謝測定として提供されていることもあります）では、間接熱量測定法で安静時の実際のエネルギー消費を測ります。推定式に関するシステマティックレビューは、測定誤差を最小限に抑えるエビデンスに基づいたプロトコルで妥当な間接熱量測定を行えば、推定による誤差はなくなると結論づけています。推定値で十分かどうかは、臨床的な判断で決まります。\n\nゆるやかな体重変化を目指す健康な成人の多くにとって、計算した基礎代謝量は妥当な出発点です。これを基に、最初の摂取量を決めましょう。その後は数週間の体重の推移を見て、調整が必要かどうかを判断してください。どんな計算式よりも、体重計のほうが実際のエネルギー収支をよく反映するからです。ウェアラブル端末やスマートフォンを使えば、体重や活動量を継続して記録しやすくなります。\n\n推定値が当てはまりにくいことがわかっている場合は、実測のほうが理にかなっています。BMIが非常に高い場合、トレーニング量が多い場合、代謝に影響する病気がある場合などです。また、摂取量と体重の変化が計算と何度も合わない場合も同様です。こうした状況で臨床検査を受けるかどうかは、治療やケアを担当している医療者が判断することです。",
+      "key_stats": [
+        {
+          "label": "Mifflin-St Jeor式で説明できる安静時エネルギー消費量のばらつき",
+          "value": "R² = 0.71",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Mifflinの研究でハリス・ベネディクト式が実測REEを過大に見積もった割合",
+          "value": "5%",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Ten-Haaf式で実測RMRの±10%以内に予測されたアスリートの割合",
+          "value": "80.2%",
+          "source": "E19: systematic review and meta-analysis of RMR equations in athletes"
+        },
+        {
+          "label": "除脂肪量と脂肪量で説明できるRMRのばらつき",
+          "value": "83%",
+          "source": "E10: study of RMR and fat-free mass composition in 40 adults"
+        },
+        {
+          "label": "エネルギー必要量より50%少ない食事を3週間続けた後のREEの低下",
+          "value": "1日−266kcal",
+          "source": "E9: controlled caloric restriction and refeeding study in 32 nonobese men"
+        }
+      ],
+      "faq": [
+        {
+          "question": "基礎代謝量はどうやって計算しますか？",
+          "answer": "Mifflin-St Jeor式を使います。男性は10 × 体重（kg）+ 6.25 × 身長（cm）− 5 × 年齢（歳）+ 5、女性は同じ項に − 161を用います。たとえば体重70kg、身長165cm、40歳の女性なら、700 + 1,031.25 − 200 − 161 = 1日約1,370kcalです。"
+        },
+        {
+          "question": "基礎代謝量の正常値はどのくらいですか？",
+          "answer": "基礎代謝量は体格や除脂肪量に応じて変わるため、決まった正常値はありません。大まかな目安として、ある研究では健康な成人の平均は体重1kgあたり1日20.8 ± 2.6kcalでした。体重70kgの人なら、1日約1,456kcal（70 × 20.8）になります。"
+        },
+        {
+          "question": "Ten Haaf式とは何ですか？",
+          "answer": "Ten Haaf式は、アスリートで最も優れた結果を示した安静時代謝量の推定式です。アスリート1,430人を対象とした29件の研究のメタ解析で、参加者の80.2%を実測RMRの±10%以内で予測しました。分析されたほかの式は40.7〜63.7%でした。"
+        },
+        {
+          "question": "基礎代謝量とTDEEの違いは何ですか？",
+          "answer": "基礎代謝量は、完全に安静にしている状態で消費するエネルギーです。TDEE（1日の総エネルギー消費量）は、そこに身体活動と食事誘発性熱産生を加えたものです。基礎代謝量からTDEEを求めるには、活動量を別に推定して加える必要があります。"
+        },
+        {
+          "question": "無料の基礎代謝計算ツールは正確ですか？",
+          "answer": "出発点としては妥当な推定値ですが、正確な数値ではありません。Mifflin-St Jeor式は、ほかの一般的な式よりも多くの人でRMRを実測値の10%以内で予測しましたが、個人では無視できない誤差が残ります。高度肥満の人、アスリート、特定の病気がある人などでは、精度がさらに下がります。"
+        },
+        {
+          "question": "ダイエットで基礎代謝量は下がりますか？",
+          "answer": "はい、ある程度下がります。ある対照試験では、エネルギー必要量より50%少なく3週間食べた男性のREEが1日266kcal低下しました。そのうち1日72kcalは、組織の減少では説明できない真の適応によるものでした。"
+        }
+      ],
+      "comparison_table": {
+        "title": "主なBMR／RMR推定式とエビデンスの比較",
+        "headers": [
+          "推定式",
+          "入力項目",
+          "計算式または主な結果",
+          "最も当てはまった対象"
+        ],
+        "rows": [
+          [
+            "Mifflin-St Jeor式（男性）",
+            "体重、身長、年齢",
+            "10 × kg + 6.25 × cm − 5 × 年齢 + 5",
+            "一般成人：一般的な4つの式のなかで、実測RMRの10%以内に入る割合が最も高い"
+          ],
+          [
+            "Mifflin-St Jeor式（女性）",
+            "体重、身長、年齢",
+            "10 × kg + 6.25 × cm − 5 × 年齢 − 161",
+            "一般成人（肥満でない人と肥満の人）"
+          ],
+          [
+            "Mifflin式 除脂肪量版",
+            "除脂肪量",
+            "19.7 × 除脂肪量（kg）+ 413（R² = 0.64）",
+            "体組成がわかっている場合"
+          ],
+          [
+            "Mifflin式 体重のみ版",
+            "体重",
+            "15.1 × kg + 371（R² = 0.56）",
+            "簡易的な推定。完全版の式より予測力は低い"
+          ],
+          [
+            "ハリス・ベネディクト式（1919年）",
+            "原著論文を参照",
+            "Mifflinのデータで実測REEを5%過大に見積もり",
+            "高度肥満：バイアス1日−18.9kcal"
+          ],
+          [
+            "WHO式（体重）",
+            "体重ベース。全入力項目は原著論文を参照",
+            "高度肥満でバイアス1日−12.44kcal",
+            "BMI 40.0〜62.4の成人"
+          ],
+          [
+            "Ten-Haaf式",
+            "原著論文を参照",
+            "アスリートの80.2%を実測RMRの±10%以内で予測。I² = 0%",
+            "トレーニングを積んだアスリート"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "A new predictive equation for resting energy expenditure in healthy individuals.",
+          "source": "The American journal of clinical nutrition, 1990",
+          "url": "https://doi.org/10.1093/ajcn/51.2.241"
+        },
+        {
+          "title": "Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review.",
+          "source": "Journal of the American Dietetic Association, 2005",
+          "url": "https://doi.org/10.1016/j.jada.2005.02.005"
+        },
+        {
+          "title": "Accuracy of Resting Metabolic Rate Prediction Equations in Athletes: A Systematic Review with Meta-analysis.",
+          "source": "Sports medicine (Auckland, N.Z.), 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01896-z"
+        },
+        {
+          "title": "Adequacy of basal metabolic rate prediction equations in individuals with severe obesity: A systematic review and meta-analysis.",
+          "source": "Obesity reviews : an official journal of the International Association for the Study of Obesity, 2024",
+          "url": "https://doi.org/10.1111/obr.13739"
+        },
+        {
+          "title": "Predicting resting metabolic rate in healthy adults: a comparative analysis using the enable cohort.",
+          "source": "American journal of physiology. Endocrinology and metabolism, 2026",
+          "url": "https://doi.org/10.1152/ajpendo.00375.2025"
+        },
+        {
+          "title": "Predicted estimates of resting energy expenditure have limited clinical utility in patients with cirrhosis.",
+          "source": "Journal of hepatology, 2022",
+          "url": "https://doi.org/10.1016/j.jhep.2022.01.005"
+        },
+        {
+          "title": "Estimating Resting Energy Expenditure by Different Methods as Compared With Indirect Calorimetry for Patients With Pulmonary Hypertension.",
+          "source": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition, 2018",
+          "url": "https://doi.org/10.1177/0884533617727731"
+        },
+        {
+          "title": "Predictive Equations Overestimate Resting Metabolic Rate in Survivors of Chronic Stroke.",
+          "source": "Archives of physical medicine and rehabilitation, 2022",
+          "url": "https://doi.org/10.1016/j.apmr.2022.01.155"
+        },
+        {
+          "title": "Relationship between resting metabolic rate and the composition of the fat-free mass.",
+          "source": "Metabolism: clinical and experimental, 1997",
+          "url": "https://doi.org/10.1016/s0026-0495(97)90222-5"
+        },
+        {
+          "title": "Metabolic adaptation to caloric restriction and subsequent refeeding: the Minnesota Starvation Experiment revisited.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.109173"
+        },
+        {
+          "title": "Daily energy expenditure through the human life course.",
+          "source": "Science (New York, N.Y.), 2021",
+          "url": "https://doi.org/10.1126/science.abe5017"
+        },
+        {
+          "title": "Energy Expenditure in Humans: Principles, Methods, and Changes Throughout the Life Course.",
+          "source": "Annual review of nutrition, 2024",
+          "url": "https://doi.org/10.1146/annurev-nutr-062122-031443"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "zh-CN": {
+      "title": "基础代谢率怎么算？计算公式、正常值与准确度",
+      "short_title": "基础代谢率怎么算",
+      "short_description": "基础代谢率是什么，Mifflin-St Jeor公式及计算示例，基础代谢计算器到底准不准，以及真正会改变基础代谢的因素。",
+      "meta_description": "基础代谢率怎么算？详解基础代谢是什么、如何用Mifflin-St Jeor公式计算、基础代谢计算器的准确度，以及哪些因素会改变你的基础代谢。",
+      "tldr": "基础代谢率（BMR）是身体在完全静止状态下仅为维持生命所消耗的能量，也是每日热量需求中占比最大的部分。Mifflin-St Jeor公式是临床上最常用的公式之一。男性为10 × 体重（kg）+ 6.25 × 身高（cm）− 5 × 年龄（岁）+ 5；女性为相同各项 − 161。一项系统综述显示，与其他常用公式相比，Mifflin-St Jeor公式能让更多人的静息代谢率预测值落在实测值的10%以内。计算结果应视为估算值，而非精确数字。",
+      "body_md": "## 基础代谢率到底衡量的是什么\n\n基础代谢率（BMR）是身体在完全静止时维持生命所消耗的能量，包括呼吸、心脏泵血、维持大脑和各器官运转以及保持体温。走路、运动和消化食物所消耗的能量都不算在内。\n\n你还会看到静息代谢率（RMR）和静息能量消耗（REE）这两个说法。三者都是描述静息状态下能量消耗的密切相关的指标，本文将它们放在一起讨论。研究人员估算静息消耗时，和估算每日能量消耗的其他部分一样，采用的是一种叫作间接测热法的方法及其各种变体。例如，下文介绍的Mifflin-St Jeor公式，就是为预测REE而建立的。\n\n基础代谢之所以重要，是因为它在能量收支中占比最大。每日总能量消耗主要由静息能量消耗、身体活动能量消耗和食物热效应三部分构成，其中静息消耗是最主要的部分。\n\n## 如何用Mifflin-St Jeor公式计算基础代谢\n\n一项系统综述将Mifflin-St Jeor公式列为临床上最常用的四个预测公式之一。该公式基于498名19至78岁的健康成年人建立，其中264人体重正常，234人患有肥胖，所有参与者都通过间接测热法测量了REE。\n\n简化版公式如下：\n\n- **男性：** 基础代谢 = 10 × 体重（kg）+ 6.25 × 身高（cm）− 5 × 年龄（岁）+ 5\n- **女性：** 基础代谢 = 10 × 体重（kg）+ 6.25 × 身高（cm）− 5 × 年龄（岁）− 161\n\n结果的单位是千卡/天（kcal/天）。在原始数据中，体重、身高、年龄和性别合起来可以解释实测REE变异的71%（R² = 0.71）。\n\n### 计算示例\n\n假设一位女性体重70 kg、身高165 cm、40岁：\n\n10 × 70 + 6.25 × 165 − 5 × 40 − 161 = 700 + 1,031.25 − 200 − 161 = 约1,370 kcal/天\n\n假设一位男性体重80 kg、身高180 cm、35岁：\n\n10 × 80 + 6.25 × 180 − 5 × 35 + 5 = 800 + 1,125 − 175 + 5 = 1,755 kcal/天\n\n这个公式有两个值得了解的特点。第一，体型和年龄完全相同的男女，结果始终相差166 kcal（5 − (−161) = 166），这与完整版公式中的性别项一致。第二，年龄每增加一岁，结果减少5 kcal。在体重和身高不变的情况下，十年后估算值会降低50 kcal（5 × 10）。\n\n### 如果你知道自己的去脂体重\n\n同一项研究还检验了更简单的预测指标。去脂体重（FFM）是预测REE效果最好的单一指标（R² = 0.64），公式为REE = 19.7 × 去脂体重（kg）+ 413。只用体重时效果较差（REE = 15.1 × 体重 + 371，R² = 0.56）。三者之中，同时使用体重、身高、年龄和性别的完整公式效果最好。\n\n## 其他基础代谢公式：Harris-Benedict、WHO和Ten Haaf\n\nMifflin-St Jeor并不是唯一的选择。哪个公式最适合你，在一定程度上取决于你属于哪类人群。\n\n### Harris-Benedict公式\n\nHarris-Benedict公式诞生于1919年。与Mifflin研究中的实测值相比，它将REE高估了5%。一项系统综述比较了临床上最常用的四个公式：Harris-Benedict、Mifflin-St Jeor、Owen和WHO/FAO/UNU。结果显示Mifflin-St Jeor最可靠：无论在非肥胖人群还是肥胖人群中，它将RMR预测在实测值10%以内的人数都多于其他任何公式，误差范围也最窄。该综述还指出，在用于建立和验证这些公式的研究中，老年人和在美国居住的少数族裔代表性不足。\n\n### 重度肥胖：WHO公式和Harris-Benedict公式\n\n体重很高时，情况就不同了。一项系统综述纳入了40项针对BMI在40.0至62.4之间成年人的研究，并对其中20项进行了荟萃分析。在这一人群中，WHO（体重）公式和Harris-Benedict公式最准确、最精确，平均偏差分别为−12.44 kcal/天和−18.9 kcal/天。包括Mifflin在内的其他受检公式，往往会低估基础代谢。\n\n### 运动员与Ten Haaf公式\n\n一项荟萃分析汇总了29项研究，涉及1,430名运动员和100个不同的预测公式。其中Ten-Haaf公式精确度最高：它将80.2%的参与者预测在实测RMR的±10%以内，而纳入精确度分析的其他公式仅为40.7%至63.7%。它的平均预测值与实测值也没有显著差异。包括Harris-Benedict在内的另外四个公式同样如此，但在这五个公式中，只有Ten-Haaf公式的研究间异质性为零（I² = 0%）。在同一批运动员数据中，Mifflin-St Jeor公式则显著低估或高估了RMR。本文不列出Ten Haaf公式的具体系数。实际意义在于：基于普通人群建立的公式，用在肌肉量很大、训练水平很高的人身上可能会有偏差。\n\n想并排比较这些方法，可以参阅我们的[代谢率计算准确度对比](/zh/metabolic-rate-calculation-accuracy-comparison-2026)指南。\n\n## 基础代谢计算器准不准？\n\n在上述综述中，预测值只要落在实测RMR的10%以内就算“命中”。这听起来很严格，但换算成热量，范围其实很宽。以上文1,370 kcal的例子来说，±10%就是±137 kcal（1,370 × 0.10）。也就是说，真实值在约1,233至1,507 kcal/天（1,370 − 137和1,370 + 137）之间的任何位置，都仍算是好的预测。\n\n即使是最好的公式，对一些人的误差也会超过这个范围。那项推荐Mifflin-St Jeor公式的系统综述也指出，把它用在个人身上时仍存在不容忽视的误差。即使体型相同，每个人的静息代谢也不一样，因此预测并不容易。\n\n数据越多越有帮助，但作用有限。最近一项针对454名健康成年人的研究，测试了使用多达94个预测指标的机器学习模型。最好的模型可以解释RMR变异的76.8%。去脂体重、体重，以及有意思的是平均室外温度，都属于最有用的预测指标。血液指标的帮助很小，肠道菌群和粪便短链脂肪酸则毫无帮助。即使是这个模型，仍有约23%的变异无法解释（100 − 76.8 = 23.2%）。\n\n患有疾病时，误差会进一步扩大。在900名肝硬化患者中，预测REE比实测值低501 kcal/天到高548 kcal/天不等。研究作者得出结论：这类人群应直接测量REE。\n\n其他疾病中也存在类似的偏差，而且误差方向并不总是一致。在34名肺动脉高压患者中，所有受检的估算方法都将能量需求低估了约255 kcal。在71名慢性期脑卒中幸存者中，9个公式中有8个预测的RMR比实测值高出9%至18%。\n\n## 基础代谢正常值是多少？\n\n并不存在一个统一的“正常”数值。基础代谢随体型和身体成分而变化，所以一位高大健壮的男性和一位娇小的女性，数值可能相差很大，但都完全健康。上文的计算示例（约1,370和1,755 kcal/天）就说明，即使是普通体型，差距也相当大。\n\n粗略核对时，可以看每公斤体重对应的能量。在那项肝硬化研究中，282名健康对照者平均每天每公斤体重消耗20.8 ± 2.6 kcal。对一个70 kg的人来说，大约是1,456 kcal/天（70 × 20.8）。这只能当作一个大致参考，± 2.6说明人与人之间确实存在差异。\n\n如果算出来的基础代谢和预期相差很大，先检查输入的数据。公式要求体重以千克、身高以厘米为单位。\n\n## 从基础代谢到TDEE：每天需要多少热量\n\n基础代谢并不是你每天的热量摄入目标。每日总能量消耗（TDEE）是在静息消耗的基础上，再加上活动消耗的能量和消化食物所用的能量。\n\n因此，要把基础代谢换算成每日数值，就需要加上对活动量的估算，而这又会在基础代谢公式之外带来额外的不确定性。关于如何更现实地估算这一部分，可以参阅我们的[活动水平分级与营养调整](/zh/activity-level-tier-nutrition-scaling-2026)一文。\n\n年龄的影响比很多人想象的要小。一项大型分析用双标水法测量了8天大至95岁人群的每日总消耗，并按去脂体重进行了校正。在此基础上，20至60岁的成年期消耗一直保持稳定，即使在孕期也是如此，直到老年才开始下降。一篇关于全生命周期能量消耗的综述认为，这些变化至少部分源于身体成分、器官和组织的质量与代谢率以及身体活动水平的改变。\n\n## 哪些因素会提高或降低基础代谢\n\n### 去脂体重\n\n瘦体组织是最主要的影响因素。在一项针对40名成年人的研究中，去脂体重和脂肪量合起来可以解释RMR变异的83%。加入对器官和肌肉的详细测量后，预测效果并没有提升。这就是为什么两个体重相同但肌肉量不同的人，基础代谢可能差别明显，也是为什么在准确测量身体成分的前提下，基于去脂体重的公式效果很好。\n\n### 节食与代谢适应\n\n减少热量摄入会降低静息消耗，一部分是因为身体组织减少，另一部分是因为代谢适应。在一项对照研究中，32名非肥胖男性连续3周的摄入量比能量需求低50%。他们体重下降了6.0 kg，REE每天减少了266 kcal。其中无法用去脂体重减少来解释的部分，即适应性产热，为每天108 kcal。这当中有36 kcal可以用去脂体重成分的变化来解释，剩下每天72 kcal才是“真正的”代谢适应。\n\n### 环境\n\n在上述机器学习预测研究中，平均室外温度是RMR的关键预测指标之一。同一模型中，其他关键预测指标是去脂体重和体重。\n\n## 什么情况下值得实测基础代谢\n\n代谢评估（有时以基础代谢检测的名义提供）使用间接测热法，测量你静息时的实际能量消耗。那项关于预测公式的系统综述认为，按照能将测量误差降至最低的循证方案进行有效的间接测热，就能消除估算误差。至于估算值是否够用，要由临床判断来决定。\n\n对大多数希望逐步改变体重的健康成年人来说，计算出的基础代谢是一个合理的起点。可以先用它来确定初始摄入量，再根据几周内的体重变化趋势判断是否需要调整，因为体重秤比任何公式都更能反映你真实的能量平衡。可穿戴设备或手机可以帮助你持续记录体重和活动量。\n\n在已知估算效果较差的情况下，实测更有意义，包括BMI很高、训练负荷大，以及患有影响代谢的疾病。如果你的摄入量和体重变化一直和计算结果对不上，实测也有必要。在这些情况下，是否进行临床检测，应由负责你诊疗的医生或医疗团队决定。",
+      "key_stats": [
+        {
+          "label": "Mifflin-St Jeor公式可解释的静息能量消耗变异",
+          "value": "R² = 0.71",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Mifflin研究中Harris-Benedict公式对实测REE的高估幅度",
+          "value": "5%",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Ten-Haaf公式预测在实测RMR±10%以内的运动员比例",
+          "value": "80.2%",
+          "source": "E19: systematic review and meta-analysis of RMR equations in athletes"
+        },
+        {
+          "label": "去脂体重加脂肪量可解释的RMR变异",
+          "value": "83%",
+          "source": "E10: study of RMR and fat-free mass composition in 40 adults"
+        },
+        {
+          "label": "连续3周摄入比能量需求低50%后的REE降幅",
+          "value": "−266 kcal/天",
+          "source": "E9: controlled caloric restriction and refeeding study in 32 nonobese men"
+        }
+      ],
+      "faq": [
+        {
+          "question": "基础代谢率怎么计算？",
+          "answer": "可以用Mifflin-St Jeor公式。男性：10 × 体重（kg）+ 6.25 × 身高（cm）− 5 × 年龄（岁）+ 5；女性：相同各项 − 161。例如一位体重70 kg、身高165 cm、40岁的女性，结果为700 + 1,031.25 − 200 − 161 = 约1,370 kcal/天。"
+        },
+        {
+          "question": "基础代谢正常值是多少？",
+          "answer": "没有统一的正常值，因为基础代谢随体型和瘦体重而变化。粗略参考：一项研究中健康成年人平均每天每公斤体重消耗20.8 ± 2.6 kcal。对一个70 kg的人来说，大约是1,456 kcal/天（70 × 20.8）。"
+        },
+        {
+          "question": "Ten Haaf公式是什么？",
+          "answer": "Ten Haaf是一个在运动员中表现最好的静息代谢率公式。在一项汇总29项研究、1,430名运动员的荟萃分析中，它将80.2%的参与者预测在实测RMR的±10%以内，而纳入分析的其他公式为40.7%至63.7%。"
+        },
+        {
+          "question": "基础代谢和TDEE有什么区别？",
+          "answer": "基础代谢是完全静止时消耗的能量。TDEE（每日总能量消耗）是在此基础上再加上身体活动和食物热效应。从基础代谢算到TDEE，需要另外估算你的活动量并加进去。"
+        },
+        {
+          "question": "网上免费的基础代谢计算器准吗？",
+          "answer": "可以作为一个合理的初始估算，但不是精确数字。与其他常用公式相比，Mifflin-St Jeor公式能让更多人的RMR预测值落在实测值的10%以内，但对个人而言仍存在不容忽视的误差。在部分人群中准确度会更低，例如重度肥胖者、运动员和患有某些疾病的人。"
+        },
+        {
+          "question": "节食会降低基础代谢吗？",
+          "answer": "会，有一定程度的降低。在一项对照研究中，男性连续3周摄入比能量需求低50%后，REE每天下降了266 kcal。其中每天72 kcal属于组织减少之外的真正代谢适应。"
+        }
+      ],
+      "comparison_table": {
+        "title": "常用BMR/RMR公式及研究证据对比",
+        "headers": [
+          "公式",
+          "所需数据",
+          "公式或主要发现",
+          "表现最好的人群"
+        ],
+        "rows": [
+          [
+            "Mifflin-St Jeor（男性）",
+            "体重、身高、年龄",
+            "10 × kg + 6.25 × cm − 5 × 年龄 + 5",
+            "普通成年人：在四个常用公式中，预测在实测RMR 10%以内的比例最高"
+          ],
+          [
+            "Mifflin-St Jeor（女性）",
+            "体重、身高、年龄",
+            "10 × kg + 6.25 × cm − 5 × 年龄 − 161",
+            "普通成年人，非肥胖和肥胖人群"
+          ],
+          [
+            "Mifflin去脂体重版",
+            "去脂体重",
+            "19.7 × 去脂体重（kg）+ 413（R² = 0.64）",
+            "已知身体成分时"
+          ],
+          [
+            "Mifflin仅体重版",
+            "体重",
+            "15.1 × kg + 371（R² = 0.56）",
+            "快速估算；预测力不如完整公式"
+          ],
+          [
+            "Harris-Benedict（1919年）",
+            "见原始文献",
+            "在Mifflin数据中高估实测REE 5%",
+            "重度肥胖：偏差−18.9 kcal/天"
+          ],
+          [
+            "WHO（体重）",
+            "基于体重；完整参数见原始文献",
+            "重度肥胖人群中偏差−12.44 kcal/天",
+            "BMI 40.0至62.4的成年人"
+          ],
+          [
+            "Ten-Haaf",
+            "见原始文献",
+            "80.2%的运动员预测在实测RMR±10%以内；I² = 0%",
+            "训练有素的运动员"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "A new predictive equation for resting energy expenditure in healthy individuals.",
+          "source": "The American journal of clinical nutrition, 1990",
+          "url": "https://doi.org/10.1093/ajcn/51.2.241"
+        },
+        {
+          "title": "Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review.",
+          "source": "Journal of the American Dietetic Association, 2005",
+          "url": "https://doi.org/10.1016/j.jada.2005.02.005"
+        },
+        {
+          "title": "Accuracy of Resting Metabolic Rate Prediction Equations in Athletes: A Systematic Review with Meta-analysis.",
+          "source": "Sports medicine (Auckland, N.Z.), 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01896-z"
+        },
+        {
+          "title": "Adequacy of basal metabolic rate prediction equations in individuals with severe obesity: A systematic review and meta-analysis.",
+          "source": "Obesity reviews : an official journal of the International Association for the Study of Obesity, 2024",
+          "url": "https://doi.org/10.1111/obr.13739"
+        },
+        {
+          "title": "Predicting resting metabolic rate in healthy adults: a comparative analysis using the enable cohort.",
+          "source": "American journal of physiology. Endocrinology and metabolism, 2026",
+          "url": "https://doi.org/10.1152/ajpendo.00375.2025"
+        },
+        {
+          "title": "Predicted estimates of resting energy expenditure have limited clinical utility in patients with cirrhosis.",
+          "source": "Journal of hepatology, 2022",
+          "url": "https://doi.org/10.1016/j.jhep.2022.01.005"
+        },
+        {
+          "title": "Estimating Resting Energy Expenditure by Different Methods as Compared With Indirect Calorimetry for Patients With Pulmonary Hypertension.",
+          "source": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition, 2018",
+          "url": "https://doi.org/10.1177/0884533617727731"
+        },
+        {
+          "title": "Predictive Equations Overestimate Resting Metabolic Rate in Survivors of Chronic Stroke.",
+          "source": "Archives of physical medicine and rehabilitation, 2022",
+          "url": "https://doi.org/10.1016/j.apmr.2022.01.155"
+        },
+        {
+          "title": "Relationship between resting metabolic rate and the composition of the fat-free mass.",
+          "source": "Metabolism: clinical and experimental, 1997",
+          "url": "https://doi.org/10.1016/s0026-0495(97)90222-5"
+        },
+        {
+          "title": "Metabolic adaptation to caloric restriction and subsequent refeeding: the Minnesota Starvation Experiment revisited.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.109173"
+        },
+        {
+          "title": "Daily energy expenditure through the human life course.",
+          "source": "Science (New York, N.Y.), 2021",
+          "url": "https://doi.org/10.1126/science.abe5017"
+        },
+        {
+          "title": "Energy Expenditure in Humans: Principles, Methods, and Changes Throughout the Life Course.",
+          "source": "Annual review of nutrition, 2024",
+          "url": "https://doi.org/10.1146/annurev-nutr-062122-031443"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "zh-TW": {
+      "title": "基礎代謝率BMR是什麼？計算公式與準確度",
+      "short_title": "基礎代謝率怎麼算",
+      "short_description": "基礎代謝率是什麼？本文說明 Mifflin-St Jeor 公式與實際計算範例、BMR 計算機有多準，以及真正會影響數值的因素。",
+      "meta_description": "基礎代謝率BMR是什麼、怎麼算？用 Mifflin-St Jeor 公式一步步計算，並說明BMR計算機的準確度，以及哪些因素會讓基礎代謝率升高或下降。",
+      "tldr": "基礎代謝率（BMR）是身體在完全休息時、單純維持生命所消耗的能量，也是每日熱量需求中最大的一塊。Mifflin-St Jeor 是臨床上最常用的公式之一：男性為 10 × 體重（公斤）+ 6.25 × 身高（公分）− 5 × 年齡（歲）+ 5；女性則是相同項目再 − 161。一篇系統性回顧發現，與其他常見公式相比，Mifflin-St Jeor 能讓更多人的預測值落在實測靜止代謝率的 10% 以內。計算結果請當作估計值，而非精確數字。",
+      "body_md": "## 基礎代謝率到底在測什麼\n\n基礎代謝率（BMR）是身體在完全休息狀態下維持生命所需的能量，包括呼吸、心臟輸送血液、讓大腦與各器官正常運作，以及維持體溫。走路、運動和消化食物所消耗的能量則不包含在內。\n\n你也會看到靜止代謝率（RMR）和靜止能量消耗（REE）這兩個名詞。三者描述的都是休息時能量消耗的相近測量值，本文會一併討論。研究人員估算靜止能量消耗時，就像估算每日能量消耗的其他部分一樣，使用的是間接測熱法及其各種變化版本。例如下文介紹的 Mifflin-St Jeor 公式，當初就是為了預測 REE 而建立的。\n\nBMR 之所以重要，是因為它是能量收支中最大的一塊。每日總能量消耗主要由靜止能量消耗、身體活動能量消耗和食物熱效應組成，其中靜止能量消耗占了最主要的部分。\n\n## 用 Mifflin-St Jeor 公式計算基礎代謝率\n\n一篇系統性回顧指出，Mifflin-St Jeor 是臨床上最常使用的四種預測公式之一。這個公式是根據 498 名 19 至 78 歲的健康成人推導而來，其中 264 人體重正常、234 人有肥胖，每位受試者都以間接測熱法實際測量過 REE。\n\n簡化版公式如下：\n\n- **男性：** BMR = 10 × 體重（公斤）+ 6.25 × 身高（公分）− 5 × 年齡（歲）+ 5\n- **女性：** BMR = 10 × 體重（公斤）+ 6.25 × 身高（公分）− 5 × 年齡（歲）− 161\n\n計算結果的單位是每日大卡。在原始資料中，體重、身高、年齡與性別合計可以解釋實測 REE 變異的 71%（R² = 0.71）。\n\n### 實際計算範例\n\n假設一位女性體重 70 公斤、身高 165 公分、40 歲：\n\n10 × 70 + 6.25 × 165 − 5 × 40 − 161 = 700 + 1,031.25 − 200 − 161 = 約 1,370 大卡/天。\n\n假設一位男性體重 80 公斤、身高 180 公分、35 歲：\n\n10 × 80 + 6.25 × 180 − 5 × 35 + 5 = 800 + 1,125 − 175 + 5 = 1,755 大卡/天。\n\n這個公式有兩個實用的特點。第一，身材與年齡相同的男女，估算值固定相差 166 大卡（5 −（−161）= 166），這和完整版公式中的性別項一致。第二，年齡每多一歲就少 5 大卡；在體重和身高不變的情況下，十年會讓估算值降低 50 大卡（5 × 10）。\n\n### 如果你知道自己的去脂體重\n\n同一項研究也測試了較簡單的預測方式。去脂體重（FFM）是 REE 最好的單一預測因子（R² = 0.64），公式為 REE = 19.7 × FFM（公斤）+ 413。只用體重的效果較差（REE = 15.1 × 體重 + 371，R² = 0.56）。三者之中，結合體重、身高、年齡與性別的完整公式預測力最強。\n\n## 其他 BMR 公式：Harris-Benedict、WHO 與 Ten Haaf\n\nMifflin-St Jeor 並不是唯一的選擇。哪個公式最適合你，有一部分取決於你屬於哪一類族群。\n\n### Harris-Benedict\n\nHarris-Benedict 公式最早發表於 1919 年。和 Mifflin 研究中的實測值相比，它高估了 REE 達 5%。一篇系統性回顧比較了臨床上最常用的四種公式：Harris-Benedict、Mifflin-St Jeor、Owen 和 WHO/FAO/UNU，結果以 Mifflin-St Jeor 最可靠。無論在非肥胖或肥胖族群中，它讓預測值落在實測 RMR 10% 以內的人數都多於其他公式，誤差範圍也最窄。這篇回顧也發現，用來建立和驗證這些公式的研究中，年長者和居住在美國的少數族裔人數偏少。\n\n### 重度肥胖：WHO 與 Harris-Benedict\n\n體重非常高時，情況就不一樣了。一篇系統性回顧納入 40 項針對 BMI 介於 40.0 到 62.4 成人的研究，並將其中 20 項進行統合分析。在這個族群中，WHO（體重版）公式和 Harris-Benedict 最準確也最精確，平均偏差分別為 WHO −12.44 大卡/天、Harris-Benedict −18.9 大卡/天。其他受測公式，包括 Mifflin，則傾向低估 BMR。\n\n### 運動員與 Ten Haaf 公式\n\n一項統合分析彙整了 29 項研究、1,430 名運動員和 100 種不同的預測公式，其中 Ten-Haaf 公式最精確。它能讓 80.2% 的受試者預測值落在實測 RMR 的 ±10% 以內，而其他納入精確度分析的公式只有 40.7% 到 63.7%。它的平均預測值與實測值也沒有顯著差異。另有四個公式（包括 Harris-Benedict）同樣達到這個結果，但在這五個公式中，只有 Ten-Haaf 的研究間沒有異質性（I² = 0%）。在同一批運動員資料中，Mifflin-St Jeor 則明顯低估或高估了 RMR。本文不列出 Ten Haaf 的確切係數。實務上的重點是：以一般大眾為基礎建立的公式，用在肌肉量很高、訓練量很大的人身上可能會有落差。\n\n想看這些方法的並列比較，可以參考我們的[代謝率計算準確度比較](/zh-tw/metabolic-rate-calculation-accuracy-comparison-2026)。\n\n## 基礎代謝率計算機準不準？\n\n在上述回顧中，預測值只要落在實測 RMR 的 10% 以內就算「命中」。聽起來很精準，但換算成熱量其實是很寬的範圍。以上面 1,370 大卡的例子來說，±10% 就是 ±137 大卡（1,370 × 0.10），也就是說，真實數值落在約 1,233 到 1,507 大卡/天之間（1,370 − 137 與 1,370 + 137），都還算是良好的預測。\n\n即使是最好的公式，對某些人的誤差還是會超出這個範圍。那篇推薦 Mifflin-St Jeor 的系統性回顧也提到，套用在個人身上時仍有不可忽視的誤差。預測之所以困難，是因為就算體型相同，每個人的靜止代謝還是有差異。\n\n更多資料有幫助，但效果有限。近期一項針對 454 名健康成人的研究，測試了使用多達 94 個預測因子的機器學習模型。表現最好的模型可以解釋 76.8% 的 RMR 變異。最有用的預測因子包括去脂體重、體重，還有出乎意料的平均戶外氣溫。血液指標的幫助很小，腸道菌相和糞便短鏈脂肪酸則完全沒有幫助。即使是這個模型，仍有約 23% 的變異無法解釋（100 − 76.8 = 23.2%）。\n\n疾病會讓誤差更大。在 900 名肝硬化患者中，預測 REE 和實測值的差距從低估 501 大卡/天到高估 548 大卡/天都有。研究作者的結論是，這類患者應該直接測量 REE。\n\n其他疾病也有類似的落差，而且誤差方向不一定相同。在 34 名肺高壓患者中，所有受測的估算方法都低估了約 255 大卡的能量需求。在 71 名慢性中風存活者中，9 個公式裡有 8 個預測的 RMR 比實測值高出 9% 到 18%。\n\n## 基礎代謝率多少算正常？\n\n沒有單一數字可以代表「正常」。BMR 會隨體型和身體組成而變，所以一位高大、肌肉發達的男性和一位嬌小的女性，數值可能差很多，卻都完全健康。上面的計算範例（約 1,370 和 1,755 大卡/天）就顯示，即使是一般體型，差距也相當大。\n\n粗略的檢查方式是看每公斤體重的能量消耗。在那項肝硬化研究中，282 名健康對照組平均每公斤體重每天消耗 20.8 ± 2.6 大卡。以 70 公斤的人來說，大約是 1,456 大卡/天（70 × 20.8）。這只能當作大概的參考，± 2.6 代表人與人之間確實有差異。\n\n如果算出來的 BMR 和預期差很多，先檢查輸入的數值。這個公式使用的單位是體重公斤、身高公分。\n\n## 從 BMR 到 TDEE：一天需要多少熱量\n\nBMR 並不是你每天該吃的熱量目標。每日總能量消耗（TDEE）是在靜止消耗之外，再加上活動所消耗的能量和消化食物所用的能量。\n\n因此，要把 BMR 換算成每日熱量，就必須再加上活動量的估計，而這部分本身也有不確定性，會疊加在 BMR 公式的誤差之上。我們的[活動量等級與營養需求調整](/zh-tw/activity-level-tier-nutrition-scaling-2026)一文，說明了如何更實際地估算這一部分。\n\n年齡的影響其實沒有很多人想像的那麼大。一項大型分析以雙標記水法測量了 8 天大到 95 歲民眾的每日總能量消耗，並以去脂體重做校正。在這個基礎上，成年後 20 到 60 歲之間的能量消耗維持穩定，懷孕期間也是如此，直到年長後才下降。一篇探討人生各階段能量消耗的回顧指出，這些變化至少有一部分來自身體組成的改變、器官與組織的質量和代謝速率變化，以及身體活動量的不同。\n\n## 哪些因素會讓基礎代謝率升高或下降\n\n### 去脂體重\n\n瘦體組織是最主要的影響因素。一項針對 40 名成人的研究發現，去脂體重加上脂肪量，可以解釋 83% 的 RMR 變異；再加入詳細的器官和肌肉測量，預測也沒有更準。這就是為什麼兩個體重相同、但肌肉量不同的人，BMR 可能明顯不同，也說明了在身體組成測量準確時，以 FFM 為基礎的公式效果不錯。\n\n### 節食與代謝適應\n\n減少熱量攝取會降低靜止能量消耗，一部分是因為組織流失，一部分則來自代謝適應。在一項對照研究中，32 名非肥胖男性連續 3 週攝取比能量需求少 50% 的熱量。他們減輕了 6.0 公斤，REE 每天下降 266 大卡。適應性產熱，也就是無法用去脂體重流失解釋的下降幅度，為每天 108 大卡。其中 36 大卡可由去脂體重組成的改變解釋，剩下每天 72 大卡才是「真正」的適應。\n\n### 環境\n\n在前述機器學習預測研究中，平均戶外氣溫是 RMR 的關鍵預測因子之一。同一個模型中的其他關鍵預測因子則是去脂體重和體重。\n\n## 什麼時候值得實際測量 BMR\n\n代謝評估（有時以「BMR 檢測」的名義提供）是用間接測熱法，測量你休息時實際的能量消耗。探討預測公式的系統性回顧認為，只要採用有效的間接測熱法，並依照實證為基礎、能減少測量誤差的流程，就能消除估算誤差。至於什麼時候估計值就已足夠，則由臨床判斷決定。\n\n對大多數想慢慢調整體重的健康成人來說，計算出的 BMR 是合理的起點。可以先用它來設定初始攝取量，再觀察幾週的體重趨勢，決定是否需要調整，因為體重計比任何公式都更能反映你真正的能量收支。穿戴裝置或手機可以幫助你持續記錄體重和活動量。\n\n當估算方式已知表現不佳時，實際測量就比較有意義，包括 BMI 非常高、訓練量很大，以及患有會改變代謝的疾病。如果你的飲食攝取和體重變化一直和計算結果對不上，也值得考慮測量。在這些情況下，是否要做臨床檢測，應由負責照護你的醫療人員決定。",
+      "key_stats": [
+        {
+          "label": "Mifflin-St Jeor 公式可解釋的靜止能量消耗變異",
+          "value": "R² = 0.71",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "在 Mifflin 研究中，Harris-Benedict 高估實測 REE 的幅度",
+          "value": "5%",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Ten-Haaf 公式預測值落在實測 RMR ±10% 以內的運動員比例",
+          "value": "80.2%",
+          "source": "E19: systematic review and meta-analysis of RMR equations in athletes"
+        },
+        {
+          "label": "去脂體重加脂肪量可解釋的 RMR 變異",
+          "value": "83%",
+          "source": "E10: study of RMR and fat-free mass composition in 40 adults"
+        },
+        {
+          "label": "連續 3 週攝取比能量需求少 50% 熱量後的 REE 下降幅度",
+          "value": "−266 大卡/天",
+          "source": "E9: controlled caloric restriction and refeeding study in 32 nonobese men"
+        }
+      ],
+      "faq": [
+        {
+          "question": "基礎代謝率怎麼算？",
+          "answer": "可以使用 Mifflin-St Jeor 公式。男性：10 × 體重（公斤）+ 6.25 × 身高（公分）− 5 × 年齡（歲）+ 5。女性：相同項目再 − 161。例如一位 70 公斤、165 公分、40 歲的女性：700 + 1,031.25 − 200 − 161 = 約 1,370 大卡/天。"
+        },
+        {
+          "question": "基礎代謝率多少算正常？",
+          "answer": "沒有單一的正常值，因為 BMR 會隨體型和瘦體組織量而變。粗略來看，一項研究中的健康成人平均每公斤體重每天消耗 20.8 ± 2.6 大卡。以 70 公斤的人來說，大約是 1,456 大卡/天（70 × 20.8）。"
+        },
+        {
+          "question": "Ten Haaf 公式是什麼？",
+          "answer": "Ten Haaf 是一種靜止代謝率公式，在運動員族群中表現最好。在一項納入 29 項研究、1,430 名運動員的統合分析中，它讓 80.2% 的受試者預測值落在實測 RMR 的 ±10% 以內，其他納入分析的公式則介於 40.7% 到 63.7%。"
+        },
+        {
+          "question": "BMR 和 TDEE 有什麼不同？",
+          "answer": "BMR 是完全休息時消耗的能量。TDEE（每日總能量消耗）則是在此之上，再加上身體活動和食物熱效應。要從 BMR 算出 TDEE，需要另外估計你的活動量。"
+        },
+        {
+          "question": "網路上免費的基礎代謝率計算機準嗎？",
+          "answer": "可以提供合理的初步估計，但不是精確數字。與其他常見公式相比，Mifflin-St Jeor 能讓更多人的預測值落在實測 RMR 的 10% 以內，但套用在個人身上仍有不可忽視的誤差。在某些族群中準確度會更低，例如重度肥胖者、運動員和患有特定疾病的人。"
+        },
+        {
+          "question": "節食會降低基礎代謝率嗎？",
+          "answer": "會，但幅度有限。在一項對照研究中，男性連續 3 週攝取比能量需求少 50% 的熱量後，REE 每天下降 266 大卡。其中每天 72 大卡是組織流失以外的真正代謝適應。"
+        }
+      ],
+      "comparison_table": {
+        "title": "常見 BMR／RMR 公式與研究證據",
+        "headers": [
+          "公式",
+          "所需資料",
+          "公式或主要發現",
+          "表現最好的族群"
+        ],
+        "rows": [
+          [
+            "Mifflin-St Jeor（男性）",
+            "體重、身高、年齡",
+            "10 × 公斤 + 6.25 × 公分 − 5 × 年齡 + 5",
+            "一般成人：在四種常見公式中，最常落在實測 RMR 10% 以內"
+          ],
+          [
+            "Mifflin-St Jeor（女性）",
+            "體重、身高、年齡",
+            "10 × 公斤 + 6.25 × 公分 − 5 × 年齡 − 161",
+            "一般成人，包括非肥胖與肥胖者"
+          ],
+          [
+            "Mifflin 去脂體重版",
+            "去脂體重",
+            "19.7 × FFM（公斤）+ 413（R² = 0.64）",
+            "已知身體組成時"
+          ],
+          [
+            "Mifflin 僅體重版",
+            "體重",
+            "15.1 × 公斤 + 371（R² = 0.56）",
+            "快速估算；預測力不如完整公式"
+          ],
+          [
+            "Harris-Benedict（1919）",
+            "請見原始文獻",
+            "在 Mifflin 資料中高估實測 REE 達 5%",
+            "重度肥胖：偏差 −18.9 大卡/天"
+          ],
+          [
+            "WHO（體重版）",
+            "以體重為主；完整資料見原始文獻",
+            "重度肥胖者偏差 −12.44 大卡/天",
+            "BMI 40.0 到 62.4 的成人"
+          ],
+          [
+            "Ten-Haaf",
+            "請見原始文獻",
+            "80.2% 的運動員落在實測 RMR ±10% 以內；I² = 0%",
+            "受過訓練的運動員"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "A new predictive equation for resting energy expenditure in healthy individuals.",
+          "source": "The American journal of clinical nutrition, 1990",
+          "url": "https://doi.org/10.1093/ajcn/51.2.241"
+        },
+        {
+          "title": "Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review.",
+          "source": "Journal of the American Dietetic Association, 2005",
+          "url": "https://doi.org/10.1016/j.jada.2005.02.005"
+        },
+        {
+          "title": "Accuracy of Resting Metabolic Rate Prediction Equations in Athletes: A Systematic Review with Meta-analysis.",
+          "source": "Sports medicine (Auckland, N.Z.), 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01896-z"
+        },
+        {
+          "title": "Adequacy of basal metabolic rate prediction equations in individuals with severe obesity: A systematic review and meta-analysis.",
+          "source": "Obesity reviews : an official journal of the International Association for the Study of Obesity, 2024",
+          "url": "https://doi.org/10.1111/obr.13739"
+        },
+        {
+          "title": "Predicting resting metabolic rate in healthy adults: a comparative analysis using the enable cohort.",
+          "source": "American journal of physiology. Endocrinology and metabolism, 2026",
+          "url": "https://doi.org/10.1152/ajpendo.00375.2025"
+        },
+        {
+          "title": "Predicted estimates of resting energy expenditure have limited clinical utility in patients with cirrhosis.",
+          "source": "Journal of hepatology, 2022",
+          "url": "https://doi.org/10.1016/j.jhep.2022.01.005"
+        },
+        {
+          "title": "Estimating Resting Energy Expenditure by Different Methods as Compared With Indirect Calorimetry for Patients With Pulmonary Hypertension.",
+          "source": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition, 2018",
+          "url": "https://doi.org/10.1177/0884533617727731"
+        },
+        {
+          "title": "Predictive Equations Overestimate Resting Metabolic Rate in Survivors of Chronic Stroke.",
+          "source": "Archives of physical medicine and rehabilitation, 2022",
+          "url": "https://doi.org/10.1016/j.apmr.2022.01.155"
+        },
+        {
+          "title": "Relationship between resting metabolic rate and the composition of the fat-free mass.",
+          "source": "Metabolism: clinical and experimental, 1997",
+          "url": "https://doi.org/10.1016/s0026-0495(97)90222-5"
+        },
+        {
+          "title": "Metabolic adaptation to caloric restriction and subsequent refeeding: the Minnesota Starvation Experiment revisited.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.109173"
+        },
+        {
+          "title": "Daily energy expenditure through the human life course.",
+          "source": "Science (New York, N.Y.), 2021",
+          "url": "https://doi.org/10.1126/science.abe5017"
+        },
+        {
+          "title": "Energy Expenditure in Humans: Principles, Methods, and Changes Throughout the Life Course.",
+          "source": "Annual review of nutrition, 2024",
+          "url": "https://doi.org/10.1146/annurev-nutr-062122-031443"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "es": {
+      "title": "Tasa metabólica basal (TMB): qué es y cómo calcularla",
+      "short_title": "Tasa metabólica basal: cómo calcularla",
+      "short_description": "Qué es la tasa metabólica basal, la fórmula de Mifflin-St Jeor con ejemplos resueltos, qué tan precisas son las calculadoras de TMB y qué cambia realmente tu cifra.",
+      "meta_description": "Tasa metabólica basal: qué es la TMB, cómo calcularla con la fórmula de Mifflin-St Jeor, qué tan precisas son las calculadoras y qué hace que cambie.",
+      "tldr": "La tasa metabólica basal (TMB) es la energía que tu cuerpo quema en reposo absoluto solo para mantenerte con vida, y es la mayor parte de tus necesidades diarias de calorías. Mifflin-St Jeor es una de las ecuaciones más utilizadas en la práctica clínica. Para hombres: 10 × peso (kg) + 6,25 × altura (cm) − 5 × edad (años) + 5; para mujeres, los mismos términos − 161. En una revisión sistemática, Mifflin-St Jeor predijo la tasa metabólica en reposo con un margen del 10 % respecto al valor medido en más personas que otras ecuaciones habituales. Toma el resultado como una estimación, no como una cifra exacta.",
+      "body_md": "## Qué mide realmente la tasa metabólica basal\n\nLa tasa metabólica basal (TMB) es la energía que tu cuerpo usa para mantenerse con vida cuando estás en reposo total. Incluye respirar, bombear sangre, mantener en funcionamiento el cerebro y los órganos, y conservar la temperatura corporal. No incluye caminar, entrenar ni digerir las comidas.\n\nTambién verás los términos tasa metabólica en reposo (TMR) y gasto energético en reposo (GER). Los tres describen mediciones muy relacionadas del gasto de energía en reposo, y en esta guía los tratamos en conjunto. Los investigadores estiman el gasto en reposo, igual que los demás componentes del gasto energético diario, con variantes de un método llamado calorimetría indirecta. La ecuación de Mifflin-St Jeor que verás más abajo, por ejemplo, se diseñó para predecir el GER.\n\nLa TMB importa porque es el bloque más grande de tu presupuesto energético. El gasto energético total diario se compone principalmente del gasto energético en reposo, el gasto por actividad física y el efecto térmico de los alimentos. De los tres, el gasto en reposo es el componente principal.\n\n## Cómo calcular la TMB con la ecuación de Mifflin-St Jeor\n\nUna revisión sistemática identificó a Mifflin-St Jeor como una de las cuatro ecuaciones de predicción más utilizadas en la práctica clínica. Se obtuvo a partir de 498 adultos sanos de entre 19 y 78 años. De ellos, 264 tenían peso normal y 234 tenían obesidad, y a todos se les midió el GER mediante calorimetría indirecta.\n\nLas versiones simplificadas son:\n\n- **Hombres:** TMB = 10 × peso (kg) + 6,25 × altura (cm) − 5 × edad (años) + 5\n- **Mujeres:** TMB = 10 × peso (kg) + 6,25 × altura (cm) − 5 × edad (años) − 161\n\nEl resultado se expresa en kcal al día. En los datos originales, el peso, la altura, la edad y el sexo juntos explicaban el 71 % de la variación del GER medido (R² = 0,71).\n\n### Ejemplos resueltos\n\nUna mujer hipotética que pesa 70 kg, mide 165 cm y tiene 40 años:\n\n10 × 70 + 6,25 × 165 − 5 × 40 − 161 = 700 + 1031,25 − 200 − 161 = unas 1370 kcal/día.\n\nUn hombre hipotético que pesa 80 kg, mide 180 cm y tiene 35 años:\n\n10 × 80 + 6,25 × 180 − 5 × 35 + 5 = 800 + 1125 − 175 + 5 = 1755 kcal/día.\n\nLa fórmula tiene dos rasgos útiles. Primero, la diferencia entre un hombre y una mujer con el mismo tamaño y la misma edad es siempre de 166 kcal (5 − (−161) = 166), lo que coincide con el término de sexo de la versión completa de la ecuación. Segundo, cada año adicional resta 5 kcal. Con el mismo peso y la misma altura, diez años reducen la estimación en 50 kcal (5 × 10).\n\n### Si conoces tu masa libre de grasa\n\nEl mismo estudio también evaluó predictores más sencillos. La masa libre de grasa (MLG) fue el mejor predictor individual del GER (R² = 0,64), con la ecuación GER = 19,7 × MLG (kg) + 413. El peso corporal por sí solo funcionó peor (GER = 15,1 × peso + 371, R² = 0,56). La ecuación completa, con peso, altura, edad y sexo, fue la más sólida de las tres.\n\n## Otras fórmulas de TMB: Harris-Benedict, OMS y Ten Haaf\n\nMifflin-St Jeor no es la única opción. La fórmula que mejor te funciona depende en parte de tu perfil.\n\n### Harris-Benedict\n\nLas ecuaciones de Harris-Benedict datan de 1919. Frente a los valores medidos en el estudio de Mifflin, sobrestimaron el GER en un 5 %. Una revisión sistemática comparó las cuatro ecuaciones más usadas en la práctica clínica: Harris-Benedict, Mifflin-St Jeor, Owen y OMS/FAO/UNU. Mifflin-St Jeor resultó la más fiable: predijo la TMR con un margen del 10 % respecto al valor medido en más personas, con y sin obesidad, que cualquier otra ecuación, y tuvo el rango de error más estrecho. La revisión también observó que los adultos mayores y las minorías étnicas residentes en Estados Unidos estaban poco representados en los estudios usados para construir y validar estas ecuaciones.\n\n### Obesidad grave: OMS y Harris-Benedict\n\nEl panorama cambia con pesos corporales muy altos. Una revisión sistemática incluyó 40 estudios en adultos con un IMC de entre 40,0 y 62,4, y combinó 20 de ellos en un metaanálisis. En ese grupo, la ecuación de la OMS (basada en el peso) y la de Harris-Benedict fueron las más exactas y precisas. Su sesgo medio fue de −12,44 kcal/día para la OMS y de −18,9 kcal/día para Harris-Benedict. Las demás ecuaciones evaluadas, incluida la de Mifflin, tendieron a subestimar la TMB.\n\n### Deportistas y la ecuación de Ten Haaf\n\nUn metaanálisis reunió 29 estudios con 1430 deportistas y 100 ecuaciones de predicción distintas. La ecuación de Ten-Haaf fue la más precisa: predijo al 80,2 % de los participantes con un margen de ±10 % respecto a la TMR medida, mientras que las demás ecuaciones analizadas en cuanto a precisión oscilaron entre el 40,7 % y el 63,7 %. Además, sus predicciones medias no difirieron significativamente de los valores medidos. Otras cuatro ecuaciones, entre ellas Harris-Benedict, compartieron ese resultado, pero Ten-Haaf fue la única de las cinco sin heterogeneidad entre estudios (I² = 0 %). En los mismos datos de deportistas, Mifflin-St Jeor subestimó o sobrestimó significativamente la TMR. Aquí no reproducimos los coeficientes exactos de Ten Haaf. La conclusión práctica es que una fórmula creada a partir de la población general puede fallar en personas muy musculosas y con mucho entrenamiento.\n\nSi quieres ver estos métodos comparados lado a lado, consulta nuestra guía sobre la [precisión del cálculo de la tasa metabólica](/es/metabolic-rate-calculation-accuracy-comparison-2026).\n\n## ¿Qué tan precisa es una calculadora de TMB?\n\nEn las revisiones anteriores, una predicción se consideraba acertada si quedaba dentro del 10 % de la TMR medida. Parece un margen estrecho, pero en calorías es una franja amplia. Para el ejemplo de 1370 kcal, ±10 % equivale a ±137 kcal (1370 × 0,10). Eso sitúa el valor real en cualquier punto entre unas 1233 y 1507 kcal/día (1370 − 137 y 1370 + 137), y aun así cuenta como una buena predicción.\n\nIncluso las mejores ecuaciones fallan por más que eso en algunas personas. La revisión sistemática que favoreció a Mifflin-St Jeor describió de todos modos errores notables al aplicarla a individuos. Predecir es difícil porque el metabolismo en reposo varía de una persona a otra, incluso con el mismo tamaño corporal.\n\nMás datos ayudan, pero solo hasta cierto punto. Un estudio reciente con 454 adultos sanos probó modelos de aprendizaje automático con hasta 94 predictores. El mejor modelo explicó el 76,8 % de la varianza de la TMR. La masa libre de grasa, el peso corporal y, curiosamente, la temperatura exterior media figuraron entre los predictores más útiles. Los marcadores sanguíneos aportaron poco, y la microbiota intestinal y los ácidos grasos de cadena corta en heces no aportaron nada. Incluso este modelo dejó sin explicar alrededor del 23 % de la variación (100 − 76,8 = 23,2 %).\n\nLas enfermedades amplían todavía más el error. En 900 pacientes con cirrosis, el GER predicho osciló entre 501 kcal/día por debajo y 548 kcal/día por encima del valor medido. Los autores concluyeron que en ese grupo el GER debería medirse directamente.\n\nEn otras enfermedades aparecen brechas parecidas, y el error no siempre va en la misma dirección. En 34 pacientes con hipertensión pulmonar, todos los métodos de estimación evaluados subestimaron las necesidades energéticas en unas 255 kcal. En 71 supervivientes de ictus crónico, 8 de 9 ecuaciones predijeron una TMR entre un 9 % y un 18 % más alta que la medida.\n\n## ¿Cuál es una TMB normal?\n\nNo existe una única cifra «normal». La TMB varía según el tamaño y la composición corporal, así que un hombre alto y musculoso y una mujer menuda pueden estar perfectamente sanos con valores muy distintos. Los ejemplos anteriores (unas 1370 y 1755 kcal/día) muestran lo amplia que es la diferencia incluso con tamaños corporales comunes.\n\nUna comprobación aproximada es la energía por kilo. En el estudio sobre cirrosis, 282 controles sanos promediaron 20,8 ± 2,6 kcal por kilo de peso corporal al día. Para una persona de 70 kg, eso da unas 1456 kcal/día (70 × 20,8). Tómalo solo como una referencia general: el ± 2,6 refleja una variación real entre personas.\n\nSi tu TMB calculada parece muy alejada de lo esperado, revisa primero los datos que introdujiste. La ecuación usa el peso en kilos y la altura en centímetros.\n\n## De la TMB al GET: cuántas calorías necesitas al día\n\nLa TMB no es tu objetivo diario de calorías. El gasto energético total diario (GET, o TDEE por sus siglas en inglés) suma a tu gasto en reposo la energía que usas para moverte y la que empleas en digerir los alimentos.\n\nPor eso, pasar de la TMB a una cifra diaria implica añadir una estimación de tu actividad, que trae su propia incertidumbre además de la de la fórmula de TMB. Nuestro artículo sobre [niveles de actividad y ajuste nutricional](/es/activity-level-tier-nutrition-scaling-2026) explica cómo estimar esa parte de forma realista.\n\nLa edad influye menos de lo que mucha gente cree. Un gran análisis del gasto total diario, medido con agua doblemente marcada en personas de 8 días a 95 años, ajustó los resultados según la masa libre de grasa. Sobre esa base, el gasto se mantuvo estable en la edad adulta, de los 20 a los 60 años, incluso durante el embarazo, y solo disminuyó en los adultos mayores. Una revisión sobre el gasto energético a lo largo de la vida atribuye estos cambios, al menos en parte, a variaciones en la composición corporal, en la masa y la tasa metabólica de órganos y tejidos, y en el nivel de actividad física.\n\n## Qué sube o baja tu TMB\n\n### Masa libre de grasa\n\nEl tejido magro es el factor principal. En un estudio con 40 adultos, la masa libre de grasa y la masa grasa juntas explicaron el 83 % de la variabilidad de la TMR. Añadir mediciones detalladas de órganos y músculos no mejoró la predicción. Por eso dos personas con el mismo peso pero distinta masa muscular pueden tener una TMB notablemente diferente, y por eso las ecuaciones basadas en la MLG funcionan bien cuando la composición corporal se mide con precisión.\n\n### Dietas y adaptación metabólica\n\nReducir calorías disminuye el gasto en reposo, en parte porque pierdes tejido y en parte por adaptación. En un estudio controlado, 32 hombres sin obesidad comieron un 50 % por debajo de sus necesidades energéticas durante 3 semanas. Perdieron 6,0 kg y su GER bajó 266 kcal/día. La termogénesis adaptativa, es decir, la caída que no se explica por la pérdida de masa libre de grasa, fue de 108 kcal/día. Los cambios en la composición de la masa libre de grasa explicaron 36 kcal de esa cifra, lo que dejó 72 kcal/día de adaptación «real».\n\n### Entorno\n\nEn el estudio de predicción con aprendizaje automático, la temperatura exterior media fue uno de los predictores clave de la TMR. Los otros predictores clave de ese mismo modelo fueron la masa libre de grasa y el peso corporal.\n\n## Cuándo vale la pena medir la TMB\n\nUna evaluación metabólica (a veces ofrecida como «prueba de TMB») usa calorimetría indirecta para medir tu gasto real de energía en reposo. La revisión sistemática sobre ecuaciones de predicción concluyó que los errores de estimación se eliminarían con una calorimetría indirecta válida que siga un protocolo basado en la evidencia para reducir al mínimo el error de medición. El criterio clínico decide cuándo una estimación es suficiente.\n\nPara la mayoría de los adultos sanos que buscan un cambio de peso gradual, una TMB calculada es un punto de partida razonable. Úsala para fijar una ingesta inicial. Después, deja que la tendencia de tu peso durante varias semanas te indique si debes ajustar, porque la báscula refleja tu balance energético real mejor que cualquier fórmula. Un dispositivo ponible o el teléfono pueden ayudarte a registrar el peso y la actividad de forma constante.\n\nMedirla tiene más sentido cuando se sabe que las estimaciones funcionan mal: con un IMC muy alto, con cargas de entrenamiento elevadas y con enfermedades que alteran el metabolismo. También tiene sentido si tu ingesta y tus cambios de peso no terminan de cuadrar con los números. En esas situaciones, la decisión sobre una prueba clínica corresponde a quien lleva tu atención médica.",
+      "key_stats": [
+        {
+          "label": "Varianza del gasto energético en reposo explicada por la ecuación de Mifflin-St Jeor",
+          "value": "R² = 0,71",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Sobrestimación del GER medido por Harris-Benedict en el estudio de Mifflin",
+          "value": "5 %",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Deportistas predichos con un margen de ±10 % de la TMR medida por la ecuación de Ten-Haaf",
+          "value": "80,2 %",
+          "source": "E19: systematic review and meta-analysis of RMR equations in athletes"
+        },
+        {
+          "label": "Variabilidad de la TMR explicada por la masa libre de grasa más la masa grasa",
+          "value": "83 %",
+          "source": "E10: study of RMR and fat-free mass composition in 40 adults"
+        },
+        {
+          "label": "Caída del GER tras 3 semanas comiendo un 50 % por debajo de las necesidades energéticas",
+          "value": "−266 kcal/día",
+          "source": "E9: controlled caloric restriction and refeeding study in 32 nonobese men"
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Cómo calculo mi tasa metabólica basal?",
+          "answer": "Usa la ecuación de Mifflin-St Jeor. Para hombres: 10 × peso (kg) + 6,25 × altura (cm) − 5 × edad (años) + 5. Para mujeres: los mismos términos − 161. Por ejemplo, una mujer de 70 kg, 165 cm y 40 años obtiene 700 + 1031,25 − 200 − 161 = unas 1370 kcal/día."
+        },
+        {
+          "question": "¿Cuál es una tasa metabólica basal normal?",
+          "answer": "No hay un único valor normal, porque la TMB varía según el tamaño corporal y la masa magra. Como referencia aproximada, los adultos sanos de un estudio promediaron 20,8 ± 2,6 kcal por kilo de peso corporal al día. Para una persona de 70 kg, eso equivale a unas 1456 kcal/día (70 × 20,8)."
+        },
+        {
+          "question": "¿Qué es la fórmula de Ten Haaf?",
+          "answer": "Ten Haaf es una ecuación de tasa metabólica en reposo que dio los mejores resultados en deportistas. En un metaanálisis de 29 estudios con 1430 deportistas, predijo al 80,2 % de los participantes con un margen de ±10 % respecto a la TMR medida. Las demás ecuaciones analizadas oscilaron entre el 40,7 % y el 63,7 %."
+        },
+        {
+          "question": "¿Cuál es la diferencia entre la TMB y el GET (TDEE)?",
+          "answer": "La TMB es la energía que quemas en reposo absoluto. El GET o TDEE (gasto energético total diario) le suma la actividad física y el efecto térmico de los alimentos. Para pasar de la TMB al GET hay que añadir una estimación aparte de lo activo que eres."
+        },
+        {
+          "question": "¿Son precisas las calculadoras de TMB gratuitas en internet?",
+          "answer": "Dan una estimación inicial razonable, pero no una cifra exacta. Mifflin-St Jeor predijo la TMR con un margen del 10 % respecto al valor medido en más personas que otras ecuaciones habituales, pero siguen existiendo errores notables a nivel individual. La precisión baja aún más en algunos grupos, como las personas con obesidad grave, los deportistas y quienes tienen ciertas enfermedades."
+        },
+        {
+          "question": "¿Hacer dieta baja la TMB?",
+          "answer": "Sí, en cierta medida. En un estudio controlado, hombres que comieron un 50 % por debajo de sus necesidades energéticas durante 3 semanas vieron caer su GER en 266 kcal/día. De esa caída, 72 kcal/día correspondieron a adaptación real, más allá de la pérdida de tejido."
+        }
+      ],
+      "comparison_table": {
+        "title": "Ecuaciones habituales de TMB/TMR y lo que dice la evidencia",
+        "headers": [
+          "Ecuación",
+          "Datos necesarios",
+          "Fórmula o hallazgo clave",
+          "Dónde funcionó mejor"
+        ],
+        "rows": [
+          [
+            "Mifflin-St Jeor (hombres)",
+            "Peso, altura, edad",
+            "10 × kg + 6,25 × cm − 5 × edad + 5",
+            "Adultos en general: la que más a menudo quedó dentro del 10 % de la TMR medida entre cuatro ecuaciones habituales"
+          ],
+          [
+            "Mifflin-St Jeor (mujeres)",
+            "Peso, altura, edad",
+            "10 × kg + 6,25 × cm − 5 × edad − 161",
+            "Adultos en general, con y sin obesidad"
+          ],
+          [
+            "Versión de Mifflin con masa libre de grasa",
+            "Masa libre de grasa",
+            "19,7 × MLG (kg) + 413 (R² = 0,64)",
+            "Cuando se conoce la composición corporal"
+          ],
+          [
+            "Versión de Mifflin solo con peso",
+            "Peso",
+            "15,1 × kg + 371 (R² = 0,56)",
+            "Estimación rápida; menos predictiva que la ecuación completa"
+          ],
+          [
+            "Harris-Benedict (1919)",
+            "Ver publicación original",
+            "Sobrestimó el GER medido en un 5 % en los datos de Mifflin",
+            "Obesidad grave: sesgo de −18,9 kcal/día"
+          ],
+          [
+            "OMS (peso)",
+            "Basada en el peso; datos completos en la publicación original",
+            "Sesgo de −12,44 kcal/día en obesidad grave",
+            "Adultos con IMC de 40,0 a 62,4"
+          ],
+          [
+            "Ten-Haaf",
+            "Ver publicación original",
+            "80,2 % de los deportistas dentro de ±10 % de la TMR medida; I² = 0 %",
+            "Deportistas entrenados"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "A new predictive equation for resting energy expenditure in healthy individuals.",
+          "source": "The American journal of clinical nutrition, 1990",
+          "url": "https://doi.org/10.1093/ajcn/51.2.241"
+        },
+        {
+          "title": "Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review.",
+          "source": "Journal of the American Dietetic Association, 2005",
+          "url": "https://doi.org/10.1016/j.jada.2005.02.005"
+        },
+        {
+          "title": "Accuracy of Resting Metabolic Rate Prediction Equations in Athletes: A Systematic Review with Meta-analysis.",
+          "source": "Sports medicine (Auckland, N.Z.), 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01896-z"
+        },
+        {
+          "title": "Adequacy of basal metabolic rate prediction equations in individuals with severe obesity: A systematic review and meta-analysis.",
+          "source": "Obesity reviews : an official journal of the International Association for the Study of Obesity, 2024",
+          "url": "https://doi.org/10.1111/obr.13739"
+        },
+        {
+          "title": "Predicting resting metabolic rate in healthy adults: a comparative analysis using the enable cohort.",
+          "source": "American journal of physiology. Endocrinology and metabolism, 2026",
+          "url": "https://doi.org/10.1152/ajpendo.00375.2025"
+        },
+        {
+          "title": "Predicted estimates of resting energy expenditure have limited clinical utility in patients with cirrhosis.",
+          "source": "Journal of hepatology, 2022",
+          "url": "https://doi.org/10.1016/j.jhep.2022.01.005"
+        },
+        {
+          "title": "Estimating Resting Energy Expenditure by Different Methods as Compared With Indirect Calorimetry for Patients With Pulmonary Hypertension.",
+          "source": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition, 2018",
+          "url": "https://doi.org/10.1177/0884533617727731"
+        },
+        {
+          "title": "Predictive Equations Overestimate Resting Metabolic Rate in Survivors of Chronic Stroke.",
+          "source": "Archives of physical medicine and rehabilitation, 2022",
+          "url": "https://doi.org/10.1016/j.apmr.2022.01.155"
+        },
+        {
+          "title": "Relationship between resting metabolic rate and the composition of the fat-free mass.",
+          "source": "Metabolism: clinical and experimental, 1997",
+          "url": "https://doi.org/10.1016/s0026-0495(97)90222-5"
+        },
+        {
+          "title": "Metabolic adaptation to caloric restriction and subsequent refeeding: the Minnesota Starvation Experiment revisited.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.109173"
+        },
+        {
+          "title": "Daily energy expenditure through the human life course.",
+          "source": "Science (New York, N.Y.), 2021",
+          "url": "https://doi.org/10.1126/science.abe5017"
+        },
+        {
+          "title": "Energy Expenditure in Humans: Principles, Methods, and Changes Throughout the Life Course.",
+          "source": "Annual review of nutrition, 2024",
+          "url": "https://doi.org/10.1146/annurev-nutr-062122-031443"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "pt-BR": {
+      "title": "Taxa metabólica basal (TMB): o que é e como calcular",
+      "short_title": "Taxa metabólica basal: como calcular",
+      "short_description": "O que é a taxa metabólica basal, a fórmula de Mifflin-St Jeor com exemplos de cálculo, quão precisas são as calculadoras de TMB e o que realmente muda o seu resultado.",
+      "meta_description": "Taxa metabólica basal: o que é a TMB, como calcular com a fórmula de Mifflin-St Jeor, quão precisas são as calculadoras e o que muda o seu resultado.",
+      "tldr": "A taxa metabólica basal (TMB) é a energia que o corpo gasta em repouso absoluto só para manter você vivo, e é a maior parte da sua necessidade diária de calorias. Mifflin-St Jeor é uma das equações mais usadas na prática clínica. Para homens: 10 × peso (kg) + 6,25 × altura (cm) − 5 × idade (anos) + 5; para mulheres, os mesmos termos − 161. Em uma revisão sistemática, a Mifflin-St Jeor previu a taxa metabólica de repouso com margem de 10% em relação ao valor medido em mais pessoas do que outras equações comuns. Encare o resultado como uma estimativa, não como um número exato.",
+      "body_md": "## O que a taxa metabólica basal mede de fato\n\nA taxa metabólica basal (TMB) é a energia que o seu corpo usa para se manter vivo quando você está em repouso total. Isso inclui respirar, bombear sangue, manter o cérebro e os órgãos funcionando e conservar a temperatura corporal. Não entram nessa conta caminhar, treinar ou digerir as refeições.\n\nVocê também vai encontrar os termos taxa metabólica de repouso (TMR) e gasto energético de repouso (GER). Os três descrevem medidas muito próximas do gasto de energia em repouso, e este guia trata deles em conjunto. Os pesquisadores estimam o gasto em repouso, assim como os outros componentes do gasto energético diário, com variações de um método chamado calorimetria indireta. A equação de Mifflin-St Jeor, apresentada mais abaixo, por exemplo, foi criada para prever o GER.\n\nA TMB importa porque é a maior fatia do seu orçamento de energia. O gasto energético total diário é formado principalmente pelo gasto energético de repouso, pelo gasto com atividade física e pelo efeito térmico dos alimentos. Dos três, o gasto em repouso é o componente principal.\n\n## Como calcular a TMB com a equação de Mifflin-St Jeor\n\nUma revisão sistemática apontou a Mifflin-St Jeor como uma das quatro equações de predição mais usadas na prática clínica. Ela foi desenvolvida a partir de 498 adultos saudáveis de 19 a 78 anos. Desses, 264 tinham peso normal e 234 tinham obesidade, e todos tiveram o GER medido por calorimetria indireta.\n\nAs versões simplificadas são:\n\n- **Homens:** TMB = 10 × peso (kg) + 6,25 × altura (cm) − 5 × idade (anos) + 5\n- **Mulheres:** TMB = 10 × peso (kg) + 6,25 × altura (cm) − 5 × idade (anos) − 161\n\nO resultado é dado em kcal por dia. Nos dados originais, peso, altura, idade e sexo juntos explicaram 71% da variação do GER medido (R² = 0,71).\n\n### Exemplos de cálculo\n\nUma mulher hipotética que pesa 70 kg, tem 1,65 m (165 cm) e 40 anos:\n\n10 × 70 + 6,25 × 165 − 5 × 40 − 161 = 700 + 1.031,25 − 200 − 161 = cerca de 1.370 kcal/dia.\n\nUm homem hipotético que pesa 80 kg, tem 1,80 m (180 cm) e 35 anos:\n\n10 × 80 + 6,25 × 180 − 5 × 35 + 5 = 800 + 1.125 − 175 + 5 = 1.755 kcal/dia.\n\nA fórmula tem duas características úteis. Primeiro, a diferença entre homens e mulheres com o mesmo tamanho e a mesma idade é sempre de 166 kcal (5 − (−161) = 166), o que corresponde ao termo de sexo da versão completa da equação. Segundo, cada ano a mais de idade tira 5 kcal. Com peso e altura iguais, dez anos reduzem a estimativa em 50 kcal (5 × 10).\n\n### Se você sabe a sua massa livre de gordura\n\nO mesmo estudo também testou preditores mais simples. A massa livre de gordura (MLG) foi o melhor preditor isolado do GER (R² = 0,64), com a equação GER = 19,7 × MLG (kg) + 413. O peso corporal sozinho teve desempenho pior (GER = 15,1 × peso + 371, R² = 0,56). A equação completa, com peso, altura, idade e sexo, foi a mais robusta das três.\n\n## Outras fórmulas de TMB: Harris-Benedict, OMS e Ten Haaf\n\nA Mifflin-St Jeor não é a única opção. Qual fórmula funciona melhor para você depende, em parte, do seu perfil.\n\n### Harris-Benedict\n\nAs equações de Harris-Benedict são de 1919. Em comparação com os valores medidos no estudo de Mifflin, elas superestimaram o GER em 5%. Uma revisão sistemática comparou as quatro equações mais usadas na prática clínica: Harris-Benedict, Mifflin-St Jeor, Owen e OMS/FAO/UNU. A Mifflin-St Jeor foi a mais confiável: previu a TMR com margem de 10% em relação ao valor medido em mais pessoas, com e sem obesidade, do que qualquer outra equação, e teve a menor faixa de erro. A revisão também constatou que idosos e minorias étnicas residentes nos Estados Unidos estavam pouco representados nos estudos usados para criar e testar essas equações.\n\n### Obesidade grave: OMS e Harris-Benedict\n\nO cenário muda com pesos corporais muito altos. Uma revisão sistemática incluiu 40 estudos com adultos com IMC entre 40,0 e 62,4 e reuniu 20 deles em uma meta-análise. Nesse grupo, a equação da OMS (baseada no peso) e a de Harris-Benedict foram as mais exatas e precisas. O viés médio foi de −12,44 kcal/dia para a OMS e de −18,9 kcal/dia para a Harris-Benedict. As outras equações testadas, incluindo a de Mifflin, tenderam a subestimar a TMB.\n\n### Atletas e a equação de Ten Haaf\n\nUma meta-análise reuniu 29 estudos com 1.430 atletas e 100 equações de predição diferentes. A equação de Ten-Haaf foi a mais precisa: previu 80,2% dos participantes com margem de ±10% em relação à TMR medida, enquanto as outras equações analisadas quanto à precisão variaram de 40,7% a 63,7%. Além disso, suas previsões médias não diferiram significativamente dos valores medidos. Outras quatro equações, incluindo a Harris-Benedict, tiveram o mesmo resultado, mas a Ten-Haaf foi a única das cinco sem heterogeneidade entre os estudos (I² = 0%). Nos mesmos dados de atletas, a Mifflin-St Jeor subestimou ou superestimou significativamente a TMR. Os coeficientes exatos da Ten Haaf não são reproduzidos aqui. A lição prática é que uma fórmula construída com base na população geral pode errar em pessoas muito musculosas e altamente treinadas.\n\nPara ver esses métodos comparados lado a lado, confira nosso guia sobre a [precisão do cálculo da taxa metabólica](/pt-br/metabolic-rate-calculation-accuracy-comparison-2026).\n\n## As calculadoras de TMB são precisas?\n\nNas revisões acima, uma previsão era considerada um acerto se ficasse dentro de 10% da TMR medida. Parece uma margem apertada, mas em calorias é uma faixa larga. No exemplo de 1.370 kcal, ±10% equivale a ±137 kcal (1.370 × 0,10). Ou seja, o valor real pode estar em qualquer ponto entre cerca de 1.233 e 1.507 kcal/dia (1.370 − 137 e 1.370 + 137), e ainda assim conta como uma boa previsão.\n\nMesmo as melhores equações erram por mais do que isso em algumas pessoas. A revisão sistemática que favoreceu a Mifflin-St Jeor também descreveu erros relevantes quando ela é aplicada a indivíduos. Prever é difícil porque o metabolismo de repouso varia de pessoa para pessoa, mesmo com o mesmo tamanho corporal.\n\nMais dados ajudam, mas só até certo ponto. Um estudo recente com 454 adultos saudáveis testou modelos de aprendizado de máquina com até 94 preditores. O melhor modelo explicou 76,8% da variância da TMR. Massa livre de gordura, peso corporal e, curiosamente, a temperatura externa média estiveram entre os preditores mais úteis. Marcadores sanguíneos acrescentaram pouco. Microbiota intestinal e ácidos graxos de cadeia curta nas fezes não acrescentaram nada. Mesmo esse modelo deixou sem explicação cerca de 23% da variação (100 − 76,8 = 23,2%).\n\nDoenças aumentam ainda mais o erro. Em 900 pacientes com cirrose, o GER previsto variou de 501 kcal/dia abaixo a 548 kcal/dia acima do valor medido. Os autores concluíram que, nesse grupo, o GER deve ser medido diretamente.\n\nDiferenças semelhantes aparecem em outras condições, e o erro nem sempre vai na mesma direção. Em 34 pacientes com hipertensão pulmonar, todos os métodos de estimativa testados subestimaram a necessidade de energia em cerca de 255 kcal. Em 71 sobreviventes de AVC crônico, 8 de 9 equações previram uma TMR de 9% a 18% acima do valor medido.\n\n## Qual é a TMB normal?\n\nNão existe um número único considerado “normal”. A TMB acompanha o tamanho e a composição do corpo, então um homem alto e musculoso e uma mulher pequena podem ser perfeitamente saudáveis com valores muito diferentes. Os exemplos de cálculo acima (cerca de 1.370 e 1.755 kcal/dia) mostram como a diferença é grande mesmo entre tamanhos corporais comuns.\n\nUma checagem aproximada é a energia por quilo. No estudo sobre cirrose, 282 controles saudáveis tiveram média de 20,8 ± 2,6 kcal por kg de peso corporal por dia. Para uma pessoa de 70 kg, isso dá cerca de 1.456 kcal/dia (70 × 20,8). Use isso só como referência geral: o ± 2,6 mostra que existe variação real entre as pessoas.\n\nSe a sua TMB calculada parecer muito longe do esperado, confira primeiro os dados que você inseriu. A equação usa o peso em quilos e a altura em centímetros.\n\n## Da TMB ao GET: de quantas calorias você precisa por dia\n\nA TMB não é a sua meta diária de calorias. O gasto energético total diário (GET, ou TDEE na sigla em inglês) soma ao gasto em repouso a energia que você gasta se movimentando e a energia usada para digerir os alimentos.\n\nPor isso, transformar a TMB em um número diário exige acrescentar uma estimativa da sua atividade, que traz sua própria incerteza além da incerteza da fórmula de TMB. Nosso artigo sobre [níveis de atividade e ajuste nutricional](/pt-br/activity-level-tier-nutrition-scaling-2026) explica como estimar essa parte de forma realista.\n\nA idade pesa menos do que muita gente imagina. Uma grande análise do gasto total diário, medido por água duplamente marcada em pessoas de 8 dias a 95 anos de idade, fez o ajuste pela massa livre de gordura. Nessa base, o gasto se manteve estável na vida adulta, dos 20 aos 60 anos, inclusive durante a gravidez, e só caiu nos idosos. Uma revisão sobre o gasto energético ao longo da vida explica essas mudanças como resultado, ao menos em parte, de alterações na composição corporal, na massa e na taxa metabólica de órgãos e tecidos e no nível de atividade física.\n\n## O que aumenta ou diminui a sua TMB\n\n### Massa livre de gordura\n\nO tecido magro é o principal fator. Em um estudo com 40 adultos, a massa livre de gordura e a massa gorda juntas explicaram 83% da variabilidade da TMR. Acrescentar medidas detalhadas de órgãos e músculos não melhorou a previsão. É por isso que duas pessoas com o mesmo peso, mas com massa muscular diferente, podem ter TMBs bem diferentes, e é por isso que as equações baseadas na MLG funcionam bem quando a composição corporal é medida com precisão.\n\n### Dieta e adaptação metabólica\n\nCortar calorias reduz o gasto em repouso, em parte porque você perde tecido e em parte por adaptação. Em um estudo controlado, 32 homens sem obesidade comeram 50% abaixo da necessidade energética durante 3 semanas. Eles perderam 6,0 kg, e o GER caiu 266 kcal/dia. A termogênese adaptativa, ou seja, a queda que não se explica pela perda de massa livre de gordura, foi de 108 kcal/dia. Mudanças na composição da massa livre de gordura explicaram 36 kcal desse total, restando 72 kcal/dia de adaptação “verdadeira”.\n\n### Ambiente\n\nNo estudo de predição com aprendizado de máquina, a temperatura externa média foi um dos principais preditores da TMR. Os outros preditores principais nesse mesmo modelo foram a massa livre de gordura e o peso corporal.\n\n## Quando vale a pena medir a TMB\n\nUma avaliação metabólica (às vezes oferecida como “exame de TMB”) usa calorimetria indireta para medir o seu gasto real de energia em repouso. A revisão sistemática sobre equações de predição concluiu que os erros de estimativa seriam eliminados por uma calorimetria indireta válida, feita com um protocolo baseado em evidências para minimizar o erro de medição. O julgamento clínico define quando uma estimativa já é suficiente.\n\nPara a maioria dos adultos saudáveis que buscam uma mudança de peso gradual, a TMB calculada é um ponto de partida razoável. Use o resultado para definir uma ingestão inicial. Depois, deixe a tendência do seu peso ao longo de várias semanas mostrar se é preciso ajustar, já que a balança reflete o seu balanço energético real melhor do que qualquer fórmula. Um dispositivo vestível ou o celular podem ajudar a registrar peso e atividade com regularidade.\n\nA medição faz mais sentido quando se sabe que as estimativas têm desempenho ruim. Isso inclui IMC muito alto, carga de treino elevada e doenças que alteram o metabolismo. Também faz sentido se a sua ingestão e a sua variação de peso insistem em não bater com os números. Nessas situações, a decisão sobre um exame clínico cabe a quem acompanha o seu tratamento.",
+      "key_stats": [
+        {
+          "label": "Variância do gasto energético de repouso explicada pela equação de Mifflin-St Jeor",
+          "value": "R² = 0,71",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Superestimação do GER medido pela Harris-Benedict no estudo de Mifflin",
+          "value": "5%",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Atletas com previsão dentro de ±10% da TMR medida pela equação de Ten-Haaf",
+          "value": "80,2%",
+          "source": "E19: systematic review and meta-analysis of RMR equations in athletes"
+        },
+        {
+          "label": "Variabilidade da TMR explicada pela massa livre de gordura somada à massa gorda",
+          "value": "83%",
+          "source": "E10: study of RMR and fat-free mass composition in 40 adults"
+        },
+        {
+          "label": "Queda do GER após 3 semanas comendo 50% abaixo da necessidade energética",
+          "value": "−266 kcal/dia",
+          "source": "E9: controlled caloric restriction and refeeding study in 32 nonobese men"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Como calcular minha taxa metabólica basal?",
+          "answer": "Use a equação de Mifflin-St Jeor. Para homens: 10 × peso (kg) + 6,25 × altura (cm) − 5 × idade (anos) + 5. Para mulheres: os mesmos termos − 161. Por exemplo, uma mulher de 70 kg, 165 cm e 40 anos chega a 700 + 1.031,25 − 200 − 161 = cerca de 1.370 kcal/dia."
+        },
+        {
+          "question": "Qual é a taxa metabólica basal normal?",
+          "answer": "Não existe um valor normal único, porque a TMB acompanha o tamanho corporal e a massa magra. Como referência aproximada, adultos saudáveis de um estudo tiveram média de 20,8 ± 2,6 kcal por kg de peso corporal por dia. Para uma pessoa de 70 kg, isso dá cerca de 1.456 kcal/dia (70 × 20,8)."
+        },
+        {
+          "question": "O que é a fórmula de Ten Haaf?",
+          "answer": "Ten Haaf é uma equação de taxa metabólica de repouso que teve o melhor desempenho em atletas. Em uma meta-análise de 29 estudos com 1.430 atletas, ela previu 80,2% dos participantes com margem de ±10% em relação à TMR medida. As outras equações analisadas variaram de 40,7% a 63,7%."
+        },
+        {
+          "question": "Qual a diferença entre TMB e GET (TDEE)?",
+          "answer": "A TMB é a energia que você gasta em repouso absoluto. O GET ou TDEE (gasto energético total diário) soma a ela a atividade física e o efeito térmico dos alimentos. Para ir da TMB ao GET, é preciso acrescentar uma estimativa separada de quão ativo você é."
+        },
+        {
+          "question": "As calculadoras de TMB gratuitas da internet são precisas?",
+          "answer": "Elas dão uma estimativa inicial razoável, mas não um número exato. A Mifflin-St Jeor previu a TMR com margem de 10% em relação ao valor medido em mais pessoas do que outras equações comuns, mas ainda há erros relevantes no nível individual. A precisão cai ainda mais em alguns grupos, como pessoas com obesidade grave, atletas e pessoas com determinadas doenças."
+        },
+        {
+          "question": "Fazer dieta diminui a TMB?",
+          "answer": "Sim, em certa medida. Em um estudo controlado, homens que comeram 50% abaixo da necessidade energética durante 3 semanas tiveram queda de 266 kcal/dia no GER. Dessa queda, 72 kcal/dia corresponderam a adaptação verdadeira, além da perda de tecido."
+        }
+      ],
+      "comparison_table": {
+        "title": "Equações comuns de TMB/TMR e o que dizem as evidências",
+        "headers": [
+          "Equação",
+          "Dados necessários",
+          "Fórmula ou principal achado",
+          "Onde teve melhor desempenho"
+        ],
+        "rows": [
+          [
+            "Mifflin-St Jeor (homens)",
+            "Peso, altura, idade",
+            "10 × kg + 6,25 × cm − 5 × idade + 5",
+            "Adultos em geral: a que mais vezes ficou dentro de 10% da TMR medida entre quatro equações comuns"
+          ],
+          [
+            "Mifflin-St Jeor (mulheres)",
+            "Peso, altura, idade",
+            "10 × kg + 6,25 × cm − 5 × idade − 161",
+            "Adultos em geral, com e sem obesidade"
+          ],
+          [
+            "Versão de Mifflin com massa livre de gordura",
+            "Massa livre de gordura",
+            "19,7 × MLG (kg) + 413 (R² = 0,64)",
+            "Quando a composição corporal é conhecida"
+          ],
+          [
+            "Versão de Mifflin só com peso",
+            "Peso",
+            "15,1 × kg + 371 (R² = 0,56)",
+            "Estimativa rápida; menos preditiva que a equação completa"
+          ],
+          [
+            "Harris-Benedict (1919)",
+            "Ver publicação original",
+            "Superestimou o GER medido em 5% nos dados de Mifflin",
+            "Obesidade grave: viés de −18,9 kcal/dia"
+          ],
+          [
+            "OMS (peso)",
+            "Baseada no peso; dados completos na publicação original",
+            "Viés de −12,44 kcal/dia na obesidade grave",
+            "Adultos com IMC de 40,0 a 62,4"
+          ],
+          [
+            "Ten-Haaf",
+            "Ver publicação original",
+            "80,2% dos atletas dentro de ±10% da TMR medida; I² = 0%",
+            "Atletas treinados"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "A new predictive equation for resting energy expenditure in healthy individuals.",
+          "source": "The American journal of clinical nutrition, 1990",
+          "url": "https://doi.org/10.1093/ajcn/51.2.241"
+        },
+        {
+          "title": "Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review.",
+          "source": "Journal of the American Dietetic Association, 2005",
+          "url": "https://doi.org/10.1016/j.jada.2005.02.005"
+        },
+        {
+          "title": "Accuracy of Resting Metabolic Rate Prediction Equations in Athletes: A Systematic Review with Meta-analysis.",
+          "source": "Sports medicine (Auckland, N.Z.), 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01896-z"
+        },
+        {
+          "title": "Adequacy of basal metabolic rate prediction equations in individuals with severe obesity: A systematic review and meta-analysis.",
+          "source": "Obesity reviews : an official journal of the International Association for the Study of Obesity, 2024",
+          "url": "https://doi.org/10.1111/obr.13739"
+        },
+        {
+          "title": "Predicting resting metabolic rate in healthy adults: a comparative analysis using the enable cohort.",
+          "source": "American journal of physiology. Endocrinology and metabolism, 2026",
+          "url": "https://doi.org/10.1152/ajpendo.00375.2025"
+        },
+        {
+          "title": "Predicted estimates of resting energy expenditure have limited clinical utility in patients with cirrhosis.",
+          "source": "Journal of hepatology, 2022",
+          "url": "https://doi.org/10.1016/j.jhep.2022.01.005"
+        },
+        {
+          "title": "Estimating Resting Energy Expenditure by Different Methods as Compared With Indirect Calorimetry for Patients With Pulmonary Hypertension.",
+          "source": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition, 2018",
+          "url": "https://doi.org/10.1177/0884533617727731"
+        },
+        {
+          "title": "Predictive Equations Overestimate Resting Metabolic Rate in Survivors of Chronic Stroke.",
+          "source": "Archives of physical medicine and rehabilitation, 2022",
+          "url": "https://doi.org/10.1016/j.apmr.2022.01.155"
+        },
+        {
+          "title": "Relationship between resting metabolic rate and the composition of the fat-free mass.",
+          "source": "Metabolism: clinical and experimental, 1997",
+          "url": "https://doi.org/10.1016/s0026-0495(97)90222-5"
+        },
+        {
+          "title": "Metabolic adaptation to caloric restriction and subsequent refeeding: the Minnesota Starvation Experiment revisited.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.109173"
+        },
+        {
+          "title": "Daily energy expenditure through the human life course.",
+          "source": "Science (New York, N.Y.), 2021",
+          "url": "https://doi.org/10.1126/science.abe5017"
+        },
+        {
+          "title": "Energy Expenditure in Humans: Principles, Methods, and Changes Throughout the Life Course.",
+          "source": "Annual review of nutrition, 2024",
+          "url": "https://doi.org/10.1146/annurev-nutr-062122-031443"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "id": {
+      "title": "Menghitung BMR dan TDEE: Rumus, Kalkulator, Akurasi",
+      "short_title": "Cara Menghitung BMR dan TDEE",
+      "short_description": "Apa itu laju metabolisme basal (BMR), rumus Mifflin-St Jeor beserta contoh perhitungannya, seberapa akurat kalkulator BMR, dan apa yang benar-benar mengubah angka Anda.",
+      "meta_description": "Panduan kalkulator BMR dan TDEE: apa itu BMR, cara menghitungnya dengan rumus Mifflin-St Jeor, seberapa akurat hasilnya, dan apa yang memengaruhinya.",
+      "tldr": "Laju metabolisme basal (BMR) adalah energi yang dibakar tubuh saat benar-benar beristirahat, sekadar untuk menjaga Anda tetap hidup. BMR merupakan bagian terbesar dari kebutuhan kalori harian Anda. Mifflin-St Jeor adalah salah satu persamaan yang paling sering dipakai dalam praktik klinis. Untuk pria rumusnya 10 × berat badan (kg) + 6,25 × tinggi badan (cm) − 5 × usia (tahun) + 5. Untuk wanita, komponennya sama, lalu dikurangi 161. Dalam sebuah tinjauan sistematis, Mifflin-St Jeor memprediksi laju metabolisme istirahat dalam rentang 10% dari nilai terukur pada lebih banyak orang dibandingkan persamaan umum lainnya. Anggap hasilnya sebagai perkiraan, bukan angka pasti.",
+      "body_md": "## Apa sebenarnya yang diukur oleh laju metabolisme basal\n\nLaju metabolisme basal (BMR) adalah energi yang digunakan tubuh untuk tetap hidup saat Anda benar-benar beristirahat. Energi ini dipakai untuk bernapas, memompa darah, menjaga otak dan organ tetap bekerja, serta mempertahankan suhu tubuh. Aktivitas seperti berjalan, berolahraga, atau mencerna makanan tidak termasuk di dalamnya.\n\nAnda juga akan menemukan istilah laju metabolisme istirahat (RMR) dan pengeluaran energi istirahat (REE). Ketiganya menggambarkan pengukuran penggunaan energi saat istirahat yang saling berkaitan erat, sehingga panduan ini membahasnya bersama-sama. Para peneliti memperkirakan pengeluaran energi saat istirahat, sama seperti komponen lain dari penggunaan energi harian, dengan berbagai variasi metode yang disebut kalorimetri tidak langsung. Persamaan Mifflin-St Jeor yang dibahas di bawah, misalnya, disusun untuk memprediksi REE.\n\nBMR penting karena merupakan porsi terbesar dalam anggaran energi Anda. Pengeluaran energi harian total terutama terdiri atas pengeluaran energi istirahat, pengeluaran energi untuk aktivitas fisik, dan efek termis makanan. Dari ketiganya, pengeluaran energi istirahat adalah komponen utama.\n\n## Cara menghitung BMR dengan rumus Mifflin-St Jeor\n\nSebuah tinjauan sistematis menyebut Mifflin-St Jeor sebagai salah satu dari empat persamaan prediksi yang paling sering dipakai dalam praktik klinis. Persamaan ini dikembangkan dari data 498 orang dewasa sehat berusia 19 hingga 78 tahun. Dari jumlah tersebut, 264 orang memiliki berat badan normal dan 234 orang mengalami obesitas. REE setiap peserta diukur dengan kalorimetri tidak langsung.\n\nVersi sederhananya adalah:\n\n- **Pria:** BMR = 10 × berat badan (kg) + 6,25 × tinggi badan (cm) − 5 × usia (tahun) + 5\n- **Wanita:** BMR = 10 × berat badan (kg) + 6,25 × tinggi badan (cm) − 5 × usia (tahun) − 161\n\nHasilnya dinyatakan dalam kkal per hari. Dalam data aslinya, berat badan, tinggi badan, usia, dan jenis kelamin bersama-sama menjelaskan 71% variasi REE yang terukur (R² = 0,71).\n\n### Contoh perhitungan\n\nSeorang wanita hipotetis dengan berat 70 kg, tinggi 165 cm, dan usia 40 tahun:\n\n10 × 70 + 6,25 × 165 − 5 × 40 − 161 = 700 + 1.031,25 − 200 − 161 = sekitar 1.370 kkal/hari.\n\nSeorang pria hipotetis dengan berat 80 kg, tinggi 180 cm, dan usia 35 tahun:\n\n10 × 80 + 6,25 × 180 − 5 × 35 + 5 = 800 + 1.125 − 175 + 5 = 1.755 kkal/hari.\n\nRumus ini punya dua ciri yang berguna. Pertama, selisih antara pria dan wanita dengan ukuran tubuh dan usia yang sama selalu tetap, yaitu 166 kkal (5 − (−161) = 166). Angka ini sesuai dengan komponen jenis kelamin pada versi lengkap persamaan tersebut. Kedua, setiap pertambahan satu tahun usia mengurangi 5 kkal. Jika berat dan tinggi badan tidak berubah, bertambahnya usia sepuluh tahun menurunkan estimasi sebesar 50 kkal (5 × 10).\n\n### Jika Anda mengetahui massa bebas lemak\n\nStudi yang sama juga menguji prediktor yang lebih sederhana. Massa bebas lemak (FFM) merupakan prediktor tunggal REE terbaik (R² = 0,64), dengan persamaan REE = 19,7 × FFM (kg) + 413. Berat badan saja hasilnya kurang baik (REE = 15,1 × berat badan + 371, R² = 0,56). Persamaan lengkap yang memakai berat badan, tinggi badan, usia, dan jenis kelamin tetap yang paling kuat di antara ketiganya.\n\n## Rumus BMR lainnya: Harris-Benedict, WHO, dan Ten Haaf\n\nMifflin-St Jeor bukan satu-satunya pilihan. Rumus mana yang paling cocok untuk Anda sebagian bergantung pada kondisi Anda.\n\n### Harris-Benedict\n\nPersamaan Harris-Benedict berasal dari tahun 1919. Jika dibandingkan dengan nilai terukur dalam studi Mifflin, persamaan ini melebihkan REE sebesar 5%. Sebuah tinjauan sistematis membandingkan empat persamaan yang paling banyak dipakai dalam praktik klinis: Harris-Benedict, Mifflin-St Jeor, Owen, dan WHO/FAO/UNU. Mifflin-St Jeor terbukti paling andal. Persamaan ini memprediksi RMR dalam rentang 10% dari nilai terukur pada lebih banyak individu, baik yang tidak obesitas maupun yang obesitas, dibandingkan persamaan lain, dan rentang kesalahannya paling sempit. Tinjauan tersebut juga menemukan bahwa lansia dan kelompok etnis minoritas yang tinggal di AS kurang terwakili dalam studi yang dipakai untuk menyusun dan menguji persamaan-persamaan ini.\n\n### Obesitas berat: WHO dan Harris-Benedict\n\nGambarannya berubah pada berat badan yang sangat tinggi. Sebuah tinjauan sistematis mencakup 40 studi pada orang dewasa dengan IMT antara 40,0 dan 62,4, dan menggabungkan 20 di antaranya dalam meta-analisis. Pada kelompok ini, persamaan WHO (berbasis berat badan) dan Harris-Benedict adalah yang paling akurat dan presisi. Bias rata-ratanya −12,44 kkal/hari untuk WHO dan −18,9 kkal/hari untuk Harris-Benedict. Persamaan lain yang diuji, termasuk Mifflin, cenderung memperkirakan BMR terlalu rendah.\n\n### Atlet dan persamaan Ten Haaf\n\nSebuah meta-analisis menggabungkan 29 studi dengan 1.430 atlet dan 100 persamaan prediksi yang berbeda. Persamaan Ten-Haaf adalah yang paling presisi. Persamaan ini memprediksi 80,2% peserta dalam rentang ±10% dari RMR terukur, sedangkan persamaan lain yang dianalisis presisinya berkisar antara 40,7% dan 63,7%. Prediksi rata-ratanya juga tidak berbeda secara signifikan dari nilai terukur. Empat persamaan lain, termasuk Harris-Benedict, menunjukkan hasil serupa, tetapi Ten-Haaf satu-satunya dari kelima persamaan tersebut yang tidak memiliki heterogenitas antarstudi (I² = 0%). Pada data atlet yang sama, Mifflin-St Jeor secara signifikan memperkirakan RMR terlalu rendah atau terlalu tinggi. Koefisien persis persamaan Ten Haaf tidak dicantumkan di sini. Pelajaran praktisnya: rumus yang disusun berdasarkan populasi umum bisa meleset untuk orang yang sangat berotot dan terlatih.\n\nUntuk perbandingan berbagai metode ini secara berdampingan, baca panduan kami tentang [akurasi perhitungan laju metabolisme](/id/metabolic-rate-calculation-accuracy-comparison-2026).\n\n## Seberapa akurat kalkulator BMR?\n\nDalam tinjauan-tinjauan di atas, sebuah prediksi dianggap tepat jika berada dalam rentang 10% dari RMR terukur. Kedengarannya ketat, tetapi dalam hitungan kalori rentang ini cukup lebar. Untuk contoh 1.370 kkal di atas, ±10% berarti ±137 kkal (1.370 × 0,10). Artinya, nilai sebenarnya bisa berada di mana saja antara sekitar 1.233 dan 1.507 kkal/hari (1.370 − 137 dan 1.370 + 137), dan prediksi tersebut tetap dianggap baik.\n\nBahkan persamaan terbaik pun meleset lebih jauh dari itu pada sebagian orang. Tinjauan sistematis yang mengunggulkan Mifflin-St Jeor tetap mencatat adanya kesalahan yang cukup berarti ketika persamaan ini diterapkan pada individu. Prediksi sulit dilakukan karena metabolisme istirahat bervariasi dari orang ke orang, bahkan pada ukuran tubuh yang sama.\n\nData yang lebih banyak memang membantu, tetapi hanya sampai batas tertentu. Sebuah studi terbaru pada 454 orang dewasa sehat menguji model *machine learning* dengan hingga 94 prediktor. Model terbaik menjelaskan 76,8% variasi RMR. Massa bebas lemak, berat badan, dan, menariknya, suhu luar ruangan rata-rata termasuk prediktor yang paling berguna. Penanda darah hanya sedikit menambah akurasi. Mikrobiota usus dan asam lemak rantai pendek dalam feses tidak menambah apa pun. Bahkan model ini masih menyisakan sekitar 23% variasi yang tidak terjelaskan (100 − 76,8 = 23,2%).\n\nKondisi medis membuat kesalahan makin lebar. Pada 900 pasien sirosis, REE hasil prediksi berkisar dari 501 kkal/hari di bawah hingga 548 kkal/hari di atas nilai terukur. Para peneliti menyimpulkan bahwa REE pada kelompok ini sebaiknya diukur secara langsung.\n\nSelisih serupa juga muncul pada kondisi lain, dan arah kesalahannya tidak selalu sama. Pada 34 pasien hipertensi pulmonal, semua metode estimasi yang diuji memperkirakan kebutuhan energi terlalu rendah sekitar 255 kkal. Pada 71 penyintas stroke kronis, 8 dari 9 persamaan memprediksi RMR 9% hingga 18% lebih tinggi daripada nilai terukur.\n\n## Berapa BMR yang normal?\n\nTidak ada satu angka pun yang bisa disebut \"normal\". BMR bergantung pada ukuran dan komposisi tubuh, sehingga pria tinggi yang berotot dan wanita bertubuh mungil bisa sama-sama sehat walaupun nilainya sangat berbeda. Contoh perhitungan di atas (sekitar 1.370 dan 1.755 kkal/hari) menunjukkan betapa lebarnya rentang ini bahkan untuk ukuran tubuh yang biasa.\n\nCara kasar untuk mengecek hasil Anda adalah melihat energi per kilogram berat badan. Dalam studi sirosis tadi, 282 orang sehat sebagai kelompok kontrol rata-rata membakar 20,8 ± 2,6 kkal per kg berat badan per hari. Untuk orang dengan berat 70 kg, angka ini setara dengan sekitar 1.456 kkal/hari (70 × 20,8). Anggap angka ini hanya sebagai perkiraan kasar. Nilai ± 2,6 menunjukkan adanya variasi nyata antarindividu.\n\nJika BMR hasil hitungan Anda tampak jauh dari perkiraan, periksa dulu angka yang Anda masukkan. Persamaan ini memakai berat badan dalam kilogram dan tinggi badan dalam sentimeter.\n\n## Dari BMR ke TDEE: berapa kalori yang Anda butuhkan per hari\n\nBMR bukanlah target kalori harian Anda. Pengeluaran energi harian total (TDEE) menambahkan energi yang Anda keluarkan untuk bergerak dan energi untuk mencerna makanan di atas pembakaran saat istirahat.\n\nKarena itu, untuk mengubah BMR menjadi angka harian, Anda perlu menambahkan perkiraan tingkat aktivitas, yang membawa ketidakpastiannya sendiri di samping ketidakpastian rumus BMR. Artikel kami tentang [tingkat aktivitas dan penyesuaian nutrisi](/id/activity-level-tier-nutrition-scaling-2026) membahas cara memperkirakan bagian ini secara realistis.\n\nPengaruh usia ternyata lebih kecil daripada yang dibayangkan banyak orang. Sebuah analisis besar tentang pengeluaran energi harian total, yang diukur dengan metode air berlabel ganda (*doubly labelled water*) pada orang berusia 8 hari hingga 95 tahun, melakukan penyesuaian terhadap massa bebas lemak. Dengan dasar itu, pengeluaran energi tetap stabil selama masa dewasa dari usia 20 hingga 60 tahun, bahkan selama kehamilan, dan baru menurun pada lansia. Sebuah tinjauan tentang pengeluaran energi sepanjang hidup menjelaskan bahwa perubahan semacam itu setidaknya sebagian disebabkan oleh pergeseran komposisi tubuh, massa dan laju metabolisme organ serta jaringan, dan tingkat aktivitas fisik.\n\n## Hal yang menaikkan atau menurunkan BMR\n\n### Massa bebas lemak\n\nJaringan tanpa lemak adalah pendorong utamanya. Dalam sebuah studi pada 40 orang dewasa, massa bebas lemak dan massa lemak bersama-sama menjelaskan 83% variasi RMR. Menambahkan pengukuran organ dan otot yang terperinci tidak meningkatkan akurasi prediksi. Inilah sebabnya dua orang dengan berat badan sama tetapi massa otot berbeda bisa memiliki BMR yang cukup berbeda, dan mengapa persamaan berbasis FFM bekerja baik bila komposisi tubuh diukur dengan akurat.\n\n### Diet dan adaptasi metabolik\n\nMengurangi kalori akan menurunkan pengeluaran energi saat istirahat, sebagian karena Anda kehilangan jaringan tubuh dan sebagian lagi karena adaptasi. Dalam sebuah studi terkontrol, 32 pria tanpa obesitas makan 50% di bawah kebutuhan energinya selama 3 minggu. Berat badan mereka turun 6,0 kg, dan REE mereka turun 266 kkal/hari. Termogenesis adaptif, yaitu penurunan yang tidak dapat dijelaskan oleh hilangnya massa bebas lemak, mencapai 108 kkal/hari. Perubahan komposisi massa bebas lemak menjelaskan 36 kkal dari angka itu, sehingga tersisa 72 kkal/hari sebagai adaptasi yang \"sesungguhnya\".\n\n### Lingkungan\n\nDalam studi prediksi berbasis *machine learning* tadi, suhu luar ruangan rata-rata termasuk salah satu prediktor utama RMR. Prediktor utama lainnya dalam model yang sama adalah massa bebas lemak dan berat badan.\n\n## Kapan pengukuran BMR langsung layak dilakukan\n\nPemeriksaan metabolik (kadang dipasarkan sebagai tes BMR) memakai kalorimetri tidak langsung untuk mengukur penggunaan energi Anda yang sebenarnya saat istirahat. Tinjauan sistematis tentang persamaan prediksi menyimpulkan bahwa kesalahan estimasi dapat dihilangkan dengan kalorimetri tidak langsung yang valid, menggunakan protokol berbasis bukti untuk meminimalkan kesalahan pengukuran. Penilaian klinislah yang menentukan kapan sebuah estimasi sudah cukup memadai.\n\nBagi sebagian besar orang dewasa sehat yang ingin mengubah berat badan secara bertahap, BMR hasil hitungan adalah titik awal yang masuk akal. Gunakan angka itu untuk menentukan asupan awal. Setelah itu, biarkan tren berat badan Anda selama beberapa minggu yang menentukan perlu tidaknya penyesuaian, karena timbangan mencerminkan keseimbangan energi Anda yang sebenarnya lebih baik daripada rumus mana pun. Perangkat *wearable* atau ponsel dapat membantu mencatat berat badan dan aktivitas secara konsisten.\n\nPengukuran langsung lebih masuk akal jika estimasi diketahui kurang akurat. Ini mencakup IMT yang sangat tinggi, beban latihan yang berat, dan kondisi medis yang mengubah metabolisme. Pengukuran juga layak dipertimbangkan jika asupan dan perubahan berat badan Anda terus-menerus tidak sesuai dengan angka hitungan. Dalam situasi seperti itu, keputusan untuk menjalani tes klinis sebaiknya diambil bersama tenaga kesehatan yang menangani Anda.",
+      "key_stats": [
+        {
+          "label": "Variasi pengeluaran energi istirahat yang dijelaskan oleh persamaan Mifflin-St Jeor",
+          "value": "R² = 0,71",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Selisih lebih Harris-Benedict terhadap REE terukur dalam studi Mifflin",
+          "value": "5%",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Atlet yang diprediksi dalam rentang ±10% dari RMR terukur oleh persamaan Ten-Haaf",
+          "value": "80,2%",
+          "source": "E19: systematic review and meta-analysis of RMR equations in athletes"
+        },
+        {
+          "label": "Variasi RMR yang dijelaskan oleh massa bebas lemak ditambah massa lemak",
+          "value": "83%",
+          "source": "E10: study of RMR and fat-free mass composition in 40 adults"
+        },
+        {
+          "label": "Penurunan REE setelah 3 minggu makan 50% di bawah kebutuhan energi",
+          "value": "−266 kkal/hari",
+          "source": "E9: controlled caloric restriction and refeeding study in 32 nonobese men"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Bagaimana cara menghitung BMR?",
+          "answer": "Gunakan persamaan Mifflin-St Jeor. Untuk pria: 10 × berat badan (kg) + 6,25 × tinggi badan (cm) − 5 × usia (tahun) + 5. Untuk wanita: komponen yang sama, lalu dikurangi 161. Contohnya, wanita berusia 40 tahun dengan berat 70 kg dan tinggi 165 cm mendapat 700 + 1.031,25 − 200 − 161 = sekitar 1.370 kkal/hari."
+        },
+        {
+          "question": "Berapa BMR yang normal?",
+          "answer": "Tidak ada satu nilai normal, karena BMR bergantung pada ukuran tubuh dan massa tanpa lemak. Sebagai patokan kasar, orang dewasa sehat dalam satu studi rata-rata membakar 20,8 ± 2,6 kkal per kg berat badan per hari. Untuk orang dengan berat 70 kg, hasilnya sekitar 1.456 kkal/hari (70 × 20,8)."
+        },
+        {
+          "question": "Apa itu rumus Ten Haaf?",
+          "answer": "Ten Haaf adalah persamaan laju metabolisme istirahat yang memberikan hasil terbaik pada atlet. Dalam meta-analisis terhadap 29 studi dengan 1.430 atlet, persamaan ini memprediksi 80,2% peserta dalam rentang ±10% dari RMR terukur. Persamaan lain yang dianalisis berkisar antara 40,7% dan 63,7%."
+        },
+        {
+          "question": "Apa bedanya BMR dan TDEE?",
+          "answer": "BMR adalah energi yang Anda bakar saat benar-benar beristirahat. TDEE (pengeluaran energi harian total) menambahkan aktivitas fisik dan efek termis makanan di atas BMR. Untuk menghitung TDEE dari BMR, Anda perlu menambahkan perkiraan terpisah tentang seberapa aktif Anda."
+        },
+        {
+          "question": "Apakah kalkulator BMR online gratis akurat?",
+          "answer": "Kalkulator ini memberikan perkiraan awal yang masuk akal, tetapi bukan angka pasti. Mifflin-St Jeor memprediksi RMR dalam rentang 10% dari nilai terukur pada lebih banyak orang dibandingkan persamaan umum lainnya, tetapi kesalahan yang cukup berarti tetap bisa terjadi pada individu. Akurasinya makin menurun pada kelompok tertentu, seperti orang dengan obesitas berat, atlet, dan orang dengan kondisi medis tertentu."
+        },
+        {
+          "question": "Apakah diet menurunkan BMR?",
+          "answer": "Ya, sampai batas tertentu. Dalam sebuah studi terkontrol, pria yang makan 50% di bawah kebutuhan energinya selama 3 minggu mengalami penurunan REE sebesar 266 kkal/hari. Dari penurunan tersebut, 72 kkal/hari merupakan adaptasi sesungguhnya di luar hilangnya jaringan tubuh."
+        }
+      ],
+      "comparison_table": {
+        "title": "Persamaan BMR/RMR yang umum dan temuan riset tentangnya",
+        "headers": [
+          "Persamaan",
+          "Data yang dibutuhkan",
+          "Rumus atau temuan utama",
+          "Paling baik untuk"
+        ],
+        "rows": [
+          [
+            "Mifflin-St Jeor (pria)",
+            "Berat badan, tinggi badan, usia",
+            "10 × kg + 6,25 × cm − 5 × usia + 5",
+            "Orang dewasa umum: paling sering berada dalam rentang 10% dari RMR terukur di antara empat persamaan umum"
+          ],
+          [
+            "Mifflin-St Jeor (wanita)",
+            "Berat badan, tinggi badan, usia",
+            "10 × kg + 6,25 × cm − 5 × usia − 161",
+            "Orang dewasa umum, tanpa obesitas maupun dengan obesitas"
+          ],
+          [
+            "Mifflin versi massa bebas lemak",
+            "Massa bebas lemak",
+            "19,7 × FFM (kg) + 413 (R² = 0,64)",
+            "Jika komposisi tubuh diketahui"
+          ],
+          [
+            "Mifflin versi berat badan saja",
+            "Berat badan",
+            "15,1 × kg + 371 (R² = 0,56)",
+            "Estimasi cepat; kurang prediktif dibandingkan persamaan lengkap"
+          ],
+          [
+            "Harris-Benedict (1919)",
+            "Lihat publikasi asli",
+            "Melebihkan REE terukur sebesar 5% dalam data Mifflin",
+            "Obesitas berat: bias −18,9 kkal/hari"
+          ],
+          [
+            "WHO (berat badan)",
+            "Berbasis berat badan; data lengkap di publikasi asli",
+            "Bias −12,44 kkal/hari pada obesitas berat",
+            "Orang dewasa dengan IMT 40,0 hingga 62,4"
+          ],
+          [
+            "Ten-Haaf",
+            "Lihat publikasi asli",
+            "80,2% atlet dalam rentang ±10% dari RMR terukur; I² = 0%",
+            "Atlet terlatih"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "A new predictive equation for resting energy expenditure in healthy individuals.",
+          "source": "The American journal of clinical nutrition, 1990",
+          "url": "https://doi.org/10.1093/ajcn/51.2.241"
+        },
+        {
+          "title": "Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review.",
+          "source": "Journal of the American Dietetic Association, 2005",
+          "url": "https://doi.org/10.1016/j.jada.2005.02.005"
+        },
+        {
+          "title": "Accuracy of Resting Metabolic Rate Prediction Equations in Athletes: A Systematic Review with Meta-analysis.",
+          "source": "Sports medicine (Auckland, N.Z.), 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01896-z"
+        },
+        {
+          "title": "Adequacy of basal metabolic rate prediction equations in individuals with severe obesity: A systematic review and meta-analysis.",
+          "source": "Obesity reviews : an official journal of the International Association for the Study of Obesity, 2024",
+          "url": "https://doi.org/10.1111/obr.13739"
+        },
+        {
+          "title": "Predicting resting metabolic rate in healthy adults: a comparative analysis using the enable cohort.",
+          "source": "American journal of physiology. Endocrinology and metabolism, 2026",
+          "url": "https://doi.org/10.1152/ajpendo.00375.2025"
+        },
+        {
+          "title": "Predicted estimates of resting energy expenditure have limited clinical utility in patients with cirrhosis.",
+          "source": "Journal of hepatology, 2022",
+          "url": "https://doi.org/10.1016/j.jhep.2022.01.005"
+        },
+        {
+          "title": "Estimating Resting Energy Expenditure by Different Methods as Compared With Indirect Calorimetry for Patients With Pulmonary Hypertension.",
+          "source": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition, 2018",
+          "url": "https://doi.org/10.1177/0884533617727731"
+        },
+        {
+          "title": "Predictive Equations Overestimate Resting Metabolic Rate in Survivors of Chronic Stroke.",
+          "source": "Archives of physical medicine and rehabilitation, 2022",
+          "url": "https://doi.org/10.1016/j.apmr.2022.01.155"
+        },
+        {
+          "title": "Relationship between resting metabolic rate and the composition of the fat-free mass.",
+          "source": "Metabolism: clinical and experimental, 1997",
+          "url": "https://doi.org/10.1016/s0026-0495(97)90222-5"
+        },
+        {
+          "title": "Metabolic adaptation to caloric restriction and subsequent refeeding: the Minnesota Starvation Experiment revisited.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.109173"
+        },
+        {
+          "title": "Daily energy expenditure through the human life course.",
+          "source": "Science (New York, N.Y.), 2021",
+          "url": "https://doi.org/10.1126/science.abe5017"
+        },
+        {
+          "title": "Energy Expenditure in Humans: Principles, Methods, and Changes Throughout the Life Course.",
+          "source": "Annual review of nutrition, 2024",
+          "url": "https://doi.org/10.1146/annurev-nutr-062122-031443"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "fr": {
+      "title": "Calcul du métabolisme de base : formules et précision",
+      "short_title": "Calculer son métabolisme de base",
+      "short_description": "Ce qu'est le métabolisme de base, la formule de Mifflin-St Jeor avec des exemples chiffrés, la fiabilité des calculateurs et ce qui fait réellement varier votre résultat.",
+      "meta_description": "Calcul du métabolisme de base : définition, formule de Mifflin-St Jeor avec exemples, fiabilité des calculateurs et facteurs qui font varier votre métabolisme.",
+      "tldr": "Le métabolisme de base (BMR en anglais) correspond à l'énergie que votre corps dépense au repos complet, simplement pour vous maintenir en vie. C'est la plus grande part de vos besoins caloriques quotidiens. La formule de Mifflin-St Jeor fait partie des équations les plus utilisées en pratique clinique. Pour les hommes : 10 × poids (kg) + 6,25 × taille (cm) − 5 × âge (ans) + 5 ; pour les femmes, les mêmes termes − 161. Dans une revue systématique, Mifflin-St Jeor a prédit le métabolisme de repos à 10 % près de la valeur mesurée chez davantage de personnes que les autres équations courantes. Considérez le résultat comme une estimation, pas comme un chiffre exact.",
+      "body_md": "## Ce que mesure réellement le métabolisme de base\n\nLe métabolisme de base (en anglais basal metabolic rate, BMR) est l'énergie que votre corps utilise pour rester en vie lorsque vous êtes totalement au repos. Il couvre la respiration, la circulation sanguine, le fonctionnement du cerveau et des organes, ainsi que le maintien de la température corporelle. Il n'inclut ni la marche, ni l'entraînement, ni la digestion des repas.\n\nVous croiserez aussi les termes de métabolisme de repos (RMR) et de dépense énergétique de repos (REE). Ces trois notions désignent des mesures très proches de la dépense d'énergie au repos, et ce guide les traite ensemble. Les chercheurs estiment la dépense de repos, comme les autres composantes de la dépense énergétique quotidienne, à l'aide de variantes d'une méthode appelée calorimétrie indirecte. L'équation de Mifflin-St Jeor présentée plus bas a par exemple été conçue pour prédire la REE.\n\nLe métabolisme de base compte, car il représente le plus gros poste de votre budget énergétique. La dépense énergétique totale quotidienne se compose principalement de la dépense énergétique de repos, de la dépense liée à l'activité physique et de la thermogenèse alimentaire. Des trois, la dépense de repos est la composante majeure.\n\n## Calculer son métabolisme de base avec la formule de Mifflin-St Jeor\n\nUne revue systématique a identifié Mifflin-St Jeor comme l'une des quatre équations de prédiction les plus utilisées en pratique clinique. Elle a été établie à partir de 498 adultes en bonne santé âgés de 19 à 78 ans. Parmi eux, 264 avaient un poids normal et 234 souffraient d'obésité ; la REE de chaque participant a été mesurée par calorimétrie indirecte.\n\nLes versions simplifiées sont les suivantes :\n\n- **Hommes :** BMR = 10 × poids (kg) + 6,25 × taille (cm) − 5 × âge (ans) + 5\n- **Femmes :** BMR = 10 × poids (kg) + 6,25 × taille (cm) − 5 × âge (ans) − 161\n\nLe résultat s'exprime en kcal par jour. Dans les données d'origine, le poids, la taille, l'âge et le sexe expliquaient ensemble 71 % de la variation de la REE mesurée (R² = 0,71).\n\n### Exemples de calcul\n\nUne femme fictive pèse 70 kg, mesure 165 cm et a 40 ans :\n\n10 × 70 + 6,25 × 165 − 5 × 40 − 161 = 700 + 1 031,25 − 200 − 161 = environ 1 370 kcal/jour.\n\nUn homme fictif pèse 80 kg, mesure 180 cm et a 35 ans :\n\n10 × 80 + 6,25 × 180 − 5 × 35 + 5 = 800 + 1 125 − 175 + 5 = 1 755 kcal/jour.\n\nLa formule présente deux particularités utiles. D'abord, l'écart entre un homme et une femme de même gabarit et de même âge est toujours de 166 kcal (5 − (−161) = 166). Cela correspond au terme lié au sexe dans la version complète de l'équation. Ensuite, chaque année supplémentaire retire 5 kcal. À poids et taille constants, dix ans font baisser l'estimation de 50 kcal (5 × 10).\n\n### Si vous connaissez votre masse maigre\n\nLa même étude a également testé des prédicteurs plus simples. La masse maigre (fat-free mass, FFM) était le meilleur prédicteur unique de la REE (R² = 0,64), avec l'équation REE = 19,7 × FFM (kg) + 413. Le poids seul donnait de moins bons résultats (REE = 15,1 × poids + 371, R² = 0,56). L'équation complète, fondée sur le poids, la taille, l'âge et le sexe, restait la plus performante des trois.\n\n## Autres formules du métabolisme de base : Harris-Benedict, OMS et Ten Haaf\n\nMifflin-St Jeor n'est pas la seule option. La formule la plus adaptée dépend en partie de votre profil.\n\n### Harris-Benedict\n\nLes équations de Harris-Benedict datent de 1919. Par rapport aux valeurs mesurées dans l'étude de Mifflin, elles surestimaient la REE de 5 %. Une revue systématique a comparé les quatre équations les plus utilisées en pratique clinique : Harris-Benedict, Mifflin-St Jeor, Owen et OMS/FAO/UNU. Mifflin-St Jeor s'est révélée la plus fiable. Elle a prédit le RMR à 10 % près de la valeur mesurée chez davantage de personnes, obèses comme non obèses, que toute autre équation, avec la marge d'erreur la plus étroite. La revue a aussi constaté que les personnes âgées et les minorités ethniques résidant aux États-Unis étaient sous-représentées dans les études ayant servi à élaborer et à tester ces équations.\n\n### Obésité sévère : OMS et Harris-Benedict\n\nLa situation change pour les poids très élevés. Une revue systématique a inclus 40 études menées chez des adultes dont l'IMC se situait entre 40,0 et 62,4, et en a regroupé 20 dans une méta-analyse. Dans ce groupe, l'équation de l'OMS (basée sur le poids) et celle de Harris-Benedict étaient les plus exactes et les plus précises. Leur biais moyen était de −12,44 kcal/jour pour l'OMS et de −18,9 kcal/jour pour Harris-Benedict. Les autres équations testées, dont celle de Mifflin, avaient tendance à sous-estimer le métabolisme de base.\n\n### Sportifs et équation de Ten Haaf\n\nUne méta-analyse a regroupé 29 études portant sur 1 430 sportifs et 100 équations de prédiction différentes. L'équation de Ten-Haaf était la plus précise. Elle a prédit le RMR mesuré à ±10 % près chez 80,2 % des participants, contre 40,7 % à 63,7 % pour les autres équations analysées sous l'angle de la précision. Ses prédictions moyennes ne différaient pas non plus significativement des valeurs mesurées. Quatre autres équations, dont Harris-Benedict, partageaient ce résultat, mais Ten-Haaf était la seule des cinq sans hétérogénéité entre les études (I² = 0 %). Dans ces mêmes données, Mifflin-St Jeor sous-estimait ou surestimait significativement le RMR. Les coefficients exacts de l'équation de Ten Haaf ne sont pas reproduits ici. À retenir en pratique : une formule construite sur la population générale peut se tromper chez les personnes très musclées et très entraînées.\n\nPour comparer ces méthodes côte à côte, consultez notre guide sur la [précision du calcul du métabolisme](/fr/metabolic-rate-calculation-accuracy-comparison-2026).\n\n## Un calculateur de métabolisme de base est-il fiable ?\n\nDans les revues citées plus haut, une prédiction était jugée réussie si elle tombait à 10 % près du RMR mesuré. Cela paraît serré, mais en calories, la fourchette est large. Pour l'exemple de 1 370 kcal ci-dessus, ±10 % représentent ±137 kcal (1 370 × 0,10). La valeur réelle peut donc se situer n'importe où entre environ 1 233 et 1 507 kcal/jour (1 370 − 137 et 1 370 + 137), et la prédiction reste considérée comme bonne.\n\nMême les meilleures équations se trompent davantage chez certaines personnes. La revue systématique qui plaçait Mifflin-St Jeor en tête faisait elle-même état d'erreurs notables lorsqu'on l'applique à des individus. La prédiction est difficile, car le métabolisme de repos varie d'une personne à l'autre, même à gabarit égal.\n\nDavantage de données aide, mais jusqu'à un certain point seulement. Une étude récente menée chez 454 adultes en bonne santé a testé des modèles d'apprentissage automatique intégrant jusqu'à 94 prédicteurs. Le meilleur modèle expliquait 76,8 % de la variance du RMR. La masse maigre, le poids et, fait intéressant, la température extérieure moyenne figuraient parmi les prédicteurs les plus utiles. Les marqueurs sanguins apportaient un léger gain. Le microbiote intestinal et les acides gras à chaîne courte fécaux n'apportaient rien. Même ce modèle laissait environ 23 % de la variation inexpliquée (100 − 76,8 = 23,2 %).\n\nLes maladies accentuent encore l'erreur. Chez 900 patients atteints de cirrhose, la REE prédite allait de 501 kcal/jour en dessous à 548 kcal/jour au-dessus de la valeur mesurée. Les auteurs ont conclu que, dans ce groupe, la REE devait être mesurée directement.\n\nDes écarts similaires s'observent dans d'autres pathologies, et l'erreur ne va pas toujours dans le même sens. Chez 34 patients atteints d'hypertension pulmonaire, toutes les méthodes d'estimation testées sous-estimaient les besoins énergétiques d'environ 255 kcal. Chez 71 survivants d'un AVC chronique, 8 équations sur 9 prédisaient un RMR supérieur de 9 % à 18 % à la valeur mesurée.\n\n## Quel est un métabolisme de base normal ?\n\nAucun chiffre unique ne peut être qualifié de « normal ». Le métabolisme de base dépend de la taille et de la composition corporelle : un homme grand et musclé et une femme menue peuvent être en parfaite santé avec des valeurs très différentes. Les exemples de calcul ci-dessus (environ 1 370 et 1 755 kcal/jour) montrent l'ampleur de l'écart pour des gabarits ordinaires.\n\nPour vérifier grossièrement un résultat, on peut raisonner en énergie par kilo. Dans l'étude sur la cirrhose, 282 témoins en bonne santé dépensaient en moyenne 20,8 ± 2,6 kcal par kg de poids corporel et par jour. Pour une personne de 70 kg, cela donne environ 1 456 kcal/jour (70 × 20,8). Ne voyez là qu'un ordre de grandeur : le ± 2,6 traduit de réelles différences entre les individus.\n\nSi votre métabolisme de base calculé vous semble très éloigné de vos attentes, vérifiez d'abord vos données. L'équation attend le poids en kilogrammes et la taille en centimètres.\n\n## Du métabolisme de base à la dépense totale : combien de calories par jour ?\n\nLe métabolisme de base n'est pas votre objectif calorique quotidien. La dépense énergétique totale quotidienne (TDEE en anglais) ajoute à la dépense de repos l'énergie consacrée au mouvement et celle utilisée pour digérer les aliments.\n\nPasser du métabolisme de base à un chiffre quotidien suppose donc d'ajouter une estimation de votre activité, qui comporte sa propre incertitude en plus de celle de la formule. Notre article sur les [niveaux d'activité et l'ajustement nutritionnel](/fr/activity-level-tier-nutrition-scaling-2026) explique comment estimer cette part de façon réaliste.\n\nL'âge pèse moins lourd qu'on ne le croit souvent. Une vaste analyse de la dépense totale quotidienne, mesurée par la méthode de l'eau doublement marquée chez des personnes âgées de 8 jours à 95 ans, a tenu compte de la masse maigre. Sur cette base, la dépense restait stable à l'âge adulte, de 20 à 60 ans, y compris pendant la grossesse, et ne diminuait que chez les personnes âgées. Une revue consacrée à la dépense énergétique au fil de la vie explique ces évolutions, au moins en partie, par des changements de composition corporelle, de masse et de métabolisme des organes et des tissus, ainsi que de niveau d'activité physique.\n\n## Ce qui augmente ou diminue votre métabolisme de base\n\n### Masse maigre\n\nLes tissus maigres en sont le principal moteur. Dans une étude menée chez 40 adultes, la masse maigre et la masse grasse expliquaient ensemble 83 % de la variabilité du RMR. L'ajout de mesures détaillées des organes et des muscles n'améliorait pas la prédiction. C'est pourquoi deux personnes de même poids mais de masse musculaire différente peuvent avoir un métabolisme de base sensiblement différent, et pourquoi les équations fondées sur la masse maigre fonctionnent bien lorsque la composition corporelle est mesurée avec précision.\n\n### Régimes et adaptation métabolique\n\nRéduire les calories fait baisser la dépense de repos, en partie parce que vous perdez des tissus et en partie par adaptation. Dans une étude contrôlée, 32 hommes non obèses ont mangé 50 % en dessous de leurs besoins énergétiques pendant 3 semaines. Ils ont perdu 6,0 kg et leur REE a diminué de 266 kcal/jour. La thermogenèse adaptative, c'est-à-dire la baisse non expliquée par la perte de masse maigre, atteignait 108 kcal/jour. Les modifications de la composition de la masse maigre en expliquaient 36 kcal, laissant 72 kcal/jour d'adaptation « réelle ».\n\n### Environnement\n\nDans l'étude de prédiction par apprentissage automatique, la température extérieure moyenne faisait partie des principaux prédicteurs du RMR. Les autres prédicteurs clés de ce même modèle étaient la masse maigre et le poids.\n\n## Quand une mesure du métabolisme de base vaut la peine\n\nUn bilan métabolique (parfois proposé sous le nom de bilan du métabolisme de base) utilise la calorimétrie indirecte pour mesurer votre dépense réelle au repos. La revue systématique sur les équations de prédiction a conclu que les erreurs d'estimation seraient éliminées par une calorimétrie indirecte valide, appliquant un protocole fondé sur les preuves pour réduire au minimum l'erreur de mesure. C'est le jugement clinique qui détermine quand une estimation suffit.\n\nPour la plupart des adultes en bonne santé qui visent une évolution progressive de leur poids, un métabolisme de base calculé constitue un point de départ raisonnable. Servez-vous-en pour fixer un apport initial. Laissez ensuite l'évolution de votre poids sur plusieurs semaines vous indiquer s'il faut ajuster, car la balance reflète mieux votre bilan énergétique réel que n'importe quelle formule. Un objet connecté ou un téléphone peut aider à noter régulièrement votre poids et votre activité.\n\nUne mesure se justifie davantage lorsque les estimations sont connues pour être peu fiables : IMC très élevé, charges d'entraînement importantes ou maladies qui modifient le métabolisme. Elle a aussi du sens si vos apports et l'évolution de votre poids ne concordent jamais avec les chiffres. Dans ces situations, la décision de réaliser un examen clinique revient à la personne qui assure votre suivi médical.",
+      "key_stats": [
+        {
+          "label": "Part de la variance de la dépense énergétique de repos expliquée par l'équation de Mifflin-St Jeor",
+          "value": "R² = 0,71",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Surestimation de la REE mesurée par Harris-Benedict dans l'étude de Mifflin",
+          "value": "5 %",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Sportifs dont le RMR a été prédit à ±10 % près par l'équation de Ten-Haaf",
+          "value": "80,2 %",
+          "source": "E19: systematic review and meta-analysis of RMR equations in athletes"
+        },
+        {
+          "label": "Variabilité du RMR expliquée par la masse maigre et la masse grasse",
+          "value": "83 %",
+          "source": "E10: study of RMR and fat-free mass composition in 40 adults"
+        },
+        {
+          "label": "Baisse de la REE après 3 semaines à 50 % en dessous des besoins énergétiques",
+          "value": "−266 kcal/jour",
+          "source": "E9: controlled caloric restriction and refeeding study in 32 nonobese men"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Comment calculer son métabolisme de base ?",
+          "answer": "Utilisez l'équation de Mifflin-St Jeor. Pour les hommes : 10 × poids (kg) + 6,25 × taille (cm) − 5 × âge (ans) + 5. Pour les femmes : les mêmes termes − 161. Par exemple, une femme de 40 ans pesant 70 kg et mesurant 165 cm obtient 700 + 1 031,25 − 200 − 161 = environ 1 370 kcal/jour."
+        },
+        {
+          "question": "Quel est un métabolisme de base normal ?",
+          "answer": "Il n'existe pas de valeur normale unique, car le métabolisme de base dépend de la taille et de la masse maigre. À titre indicatif, des adultes en bonne santé dépensaient en moyenne, dans une étude, 20,8 ± 2,6 kcal par kg de poids corporel et par jour. Pour une personne de 70 kg, cela représente environ 1 456 kcal/jour (70 × 20,8)."
+        },
+        {
+          "question": "Qu'est-ce que la formule de Ten Haaf ?",
+          "answer": "Ten Haaf est une équation du métabolisme de repos qui s'est montrée la plus performante chez les sportifs. Dans une méta-analyse de 29 études portant sur 1 430 sportifs, elle a prédit le RMR mesuré à ±10 % près chez 80,2 % des participants. Les autres équations analysées se situaient entre 40,7 % et 63,7 %."
+        },
+        {
+          "question": "Quelle est la différence entre métabolisme de base et TDEE ?",
+          "answer": "Le métabolisme de base correspond à l'énergie dépensée au repos complet. La TDEE (dépense énergétique totale quotidienne) y ajoute l'activité physique et la thermogenèse alimentaire. Pour passer de l'un à l'autre, il faut ajouter une estimation distincte de votre niveau d'activité."
+        },
+        {
+          "question": "Les calculateurs gratuits de métabolisme de base en ligne sont-ils fiables ?",
+          "answer": "Ils donnent une estimation de départ raisonnable, mais pas un chiffre exact. Mifflin-St Jeor a prédit le RMR à 10 % près de la valeur mesurée chez davantage de personnes que les autres équations courantes, mais des erreurs notables persistent à l'échelle individuelle. La précision baisse encore dans certains groupes, comme les personnes souffrant d'obésité sévère, les sportifs et les personnes atteintes de certaines maladies."
+        },
+        {
+          "question": "Un régime fait-il baisser le métabolisme de base ?",
+          "answer": "Oui, dans une certaine mesure. Dans une étude contrôlée, chez des hommes mangeant 50 % en dessous de leurs besoins énergétiques pendant 3 semaines, la REE a diminué de 266 kcal/jour. Sur cette baisse, 72 kcal/jour correspondaient à une adaptation réelle, au-delà de la perte de tissus."
+        }
+      ],
+      "comparison_table": {
+        "title": "Les principales équations du métabolisme de base et de repos, et ce que disent les études",
+        "headers": [
+          "Équation",
+          "Données requises",
+          "Formule ou résultat clé",
+          "Contexte où elle est la plus performante"
+        ],
+        "rows": [
+          [
+            "Mifflin-St Jeor (hommes)",
+            "Poids, taille, âge",
+            "10 × kg + 6,25 × cm − 5 × âge + 5",
+            "Adultes en général : le plus souvent à 10 % près du RMR mesuré parmi quatre équations courantes"
+          ],
+          [
+            "Mifflin-St Jeor (femmes)",
+            "Poids, taille, âge",
+            "10 × kg + 6,25 × cm − 5 × âge − 161",
+            "Adultes en général, obèses et non obèses"
+          ],
+          [
+            "Version Mifflin fondée sur la masse maigre",
+            "Masse maigre",
+            "19,7 × FFM (kg) + 413 (R² = 0,64)",
+            "Lorsque la composition corporelle est connue"
+          ],
+          [
+            "Version Mifflin fondée sur le poids seul",
+            "Poids",
+            "15,1 × kg + 371 (R² = 0,56)",
+            "Estimation rapide ; moins prédictive que l'équation complète"
+          ],
+          [
+            "Harris-Benedict (1919)",
+            "Voir la publication d'origine",
+            "A surestimé la REE mesurée de 5 % dans les données de Mifflin",
+            "Obésité sévère : biais de −18,9 kcal/jour"
+          ],
+          [
+            "OMS (poids)",
+            "Fondée sur le poids ; données complètes dans la publication d'origine",
+            "Biais de −12,44 kcal/jour en cas d'obésité sévère",
+            "Adultes avec un IMC de 40,0 à 62,4"
+          ],
+          [
+            "Ten-Haaf",
+            "Voir la publication d'origine",
+            "80,2 % des sportifs à ±10 % près du RMR mesuré ; I² = 0 %",
+            "Sportifs entraînés"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "A new predictive equation for resting energy expenditure in healthy individuals.",
+          "source": "The American journal of clinical nutrition, 1990",
+          "url": "https://doi.org/10.1093/ajcn/51.2.241"
+        },
+        {
+          "title": "Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review.",
+          "source": "Journal of the American Dietetic Association, 2005",
+          "url": "https://doi.org/10.1016/j.jada.2005.02.005"
+        },
+        {
+          "title": "Accuracy of Resting Metabolic Rate Prediction Equations in Athletes: A Systematic Review with Meta-analysis.",
+          "source": "Sports medicine (Auckland, N.Z.), 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01896-z"
+        },
+        {
+          "title": "Adequacy of basal metabolic rate prediction equations in individuals with severe obesity: A systematic review and meta-analysis.",
+          "source": "Obesity reviews : an official journal of the International Association for the Study of Obesity, 2024",
+          "url": "https://doi.org/10.1111/obr.13739"
+        },
+        {
+          "title": "Predicting resting metabolic rate in healthy adults: a comparative analysis using the enable cohort.",
+          "source": "American journal of physiology. Endocrinology and metabolism, 2026",
+          "url": "https://doi.org/10.1152/ajpendo.00375.2025"
+        },
+        {
+          "title": "Predicted estimates of resting energy expenditure have limited clinical utility in patients with cirrhosis.",
+          "source": "Journal of hepatology, 2022",
+          "url": "https://doi.org/10.1016/j.jhep.2022.01.005"
+        },
+        {
+          "title": "Estimating Resting Energy Expenditure by Different Methods as Compared With Indirect Calorimetry for Patients With Pulmonary Hypertension.",
+          "source": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition, 2018",
+          "url": "https://doi.org/10.1177/0884533617727731"
+        },
+        {
+          "title": "Predictive Equations Overestimate Resting Metabolic Rate in Survivors of Chronic Stroke.",
+          "source": "Archives of physical medicine and rehabilitation, 2022",
+          "url": "https://doi.org/10.1016/j.apmr.2022.01.155"
+        },
+        {
+          "title": "Relationship between resting metabolic rate and the composition of the fat-free mass.",
+          "source": "Metabolism: clinical and experimental, 1997",
+          "url": "https://doi.org/10.1016/s0026-0495(97)90222-5"
+        },
+        {
+          "title": "Metabolic adaptation to caloric restriction and subsequent refeeding: the Minnesota Starvation Experiment revisited.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.109173"
+        },
+        {
+          "title": "Daily energy expenditure through the human life course.",
+          "source": "Science (New York, N.Y.), 2021",
+          "url": "https://doi.org/10.1126/science.abe5017"
+        },
+        {
+          "title": "Energy Expenditure in Humans: Principles, Methods, and Changes Throughout the Life Course.",
+          "source": "Annual review of nutrition, 2024",
+          "url": "https://doi.org/10.1146/annurev-nutr-062122-031443"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "de": {
+      "title": "Grundumsatz berechnen: Mifflin-St-Jeor und Ten-Haaf-Formel",
+      "short_title": "Grundumsatz berechnen: So geht's",
+      "short_description": "Was der Grundumsatz ist, die Mifflin-St-Jeor-Formel mit Rechenbeispielen, wie genau Grundumsatz-Rechner sind und was Ihren Wert tatsächlich verändert.",
+      "meta_description": "Grundumsatz berechnen: Mifflin-St-Jeor-Formel mit Beispielen, Ten-Haaf-Formel für Sportler, Genauigkeit von Rechnern und was Ihren Grundumsatz verändert.",
+      "tldr": "Der Grundumsatz (BMR) ist die Energie, die Ihr Körper in völliger Ruhe verbraucht, nur um Sie am Leben zu erhalten. Er ist der größte Anteil Ihres täglichen Kalorienbedarfs. Die Mifflin-St-Jeor-Formel gehört zu den in der klinischen Praxis am häufigsten verwendeten Gleichungen. Für Männer lautet sie 10 × Gewicht (kg) + 6,25 × Größe (cm) − 5 × Alter (Jahre) + 5, für Frauen gelten dieselben Terme − 161. In einer systematischen Übersichtsarbeit sagte Mifflin-St Jeor den Ruheumsatz bei mehr Menschen auf 10 % genau voraus als andere gängige Gleichungen. Betrachten Sie das Ergebnis als Schätzung, nicht als exakten Wert.",
+      "body_md": "## Was der Grundumsatz tatsächlich misst\n\nDer Grundumsatz (englisch Basal Metabolic Rate, BMR) ist die Energie, die Ihr Körper in völliger Ruhe braucht, um am Leben zu bleiben. Dazu gehören Atmung, das Pumpen des Blutes, die Arbeit von Gehirn und Organen sowie die Aufrechterhaltung der Körpertemperatur. Gehen, Training oder die Verdauung von Mahlzeiten sind darin nicht enthalten.\n\nHäufig begegnen Ihnen auch die Begriffe Ruheumsatz (Resting Metabolic Rate, RMR) und Ruheenergieumsatz (Resting Energy Expenditure, REE). Alle drei beschreiben eng verwandte Messungen des Energieverbrauchs in Ruhe; dieser Ratgeber behandelt sie gemeinsam. Forschende bestimmen den Ruheumsatz, ebenso wie die anderen Komponenten des täglichen Energieverbrauchs, mit Varianten einer Methode namens indirekte Kalorimetrie. Die weiter unten vorgestellte Mifflin-St-Jeor-Gleichung wurde zum Beispiel entwickelt, um den REE vorherzusagen.\n\nDer Grundumsatz ist deshalb so wichtig, weil er den größten Posten in Ihrer Energiebilanz darstellt. Der tägliche Gesamtenergieumsatz setzt sich vor allem aus dem Ruheenergieumsatz, dem Energieverbrauch durch körperliche Aktivität und der nahrungsinduzierten Thermogenese zusammen. Von diesen dreien ist der Ruheumsatz die Hauptkomponente.\n\n## So berechnen Sie den Grundumsatz mit der Mifflin-St-Jeor-Formel\n\nEine systematische Übersichtsarbeit zählt Mifflin-St Jeor zu den vier Vorhersagegleichungen, die in der klinischen Praxis am häufigsten eingesetzt werden. Die Formel wurde anhand von 498 gesunden Erwachsenen im Alter von 19 bis 78 Jahren entwickelt. Davon waren 264 normalgewichtig und 234 hatten Adipositas; bei allen Teilnehmenden wurde der REE per indirekter Kalorimetrie gemessen.\n\nDie vereinfachten Versionen lauten:\n\n- **Männer:** BMR = 10 × Gewicht (kg) + 6,25 × Größe (cm) − 5 × Alter (Jahre) + 5\n- **Frauen:** BMR = 10 × Gewicht (kg) + 6,25 × Größe (cm) − 5 × Alter (Jahre) − 161\n\nDas Ergebnis wird in kcal pro Tag angegeben. In den Originaldaten erklärten Gewicht, Größe, Alter und Geschlecht zusammen 71 % der Schwankungen im gemessenen REE (R² = 0,71).\n\n### Rechenbeispiele\n\nEine fiktive Frau wiegt 70 kg, ist 165 cm groß und 40 Jahre alt:\n\n10 × 70 + 6,25 × 165 − 5 × 40 − 161 = 700 + 1.031,25 − 200 − 161 = rund 1.370 kcal/Tag.\n\nEin fiktiver Mann wiegt 80 kg, ist 180 cm groß und 35 Jahre alt:\n\n10 × 80 + 6,25 × 180 − 5 × 35 + 5 = 800 + 1.125 − 175 + 5 = 1.755 kcal/Tag.\n\nDie Formel hat zwei nützliche Eigenschaften. Erstens beträgt der Unterschied zwischen Männern und Frauen mit gleicher Statur und gleichem Alter immer genau 166 kcal (5 − (−161) = 166). Das entspricht dem Geschlechtsterm in der vollständigen Version der Gleichung. Zweitens zieht jedes zusätzliche Lebensjahr 5 kcal ab. Bei unverändertem Gewicht und gleicher Größe senken zehn Jahre die Schätzung also um 50 kcal (5 × 10).\n\n### Wenn Sie Ihre fettfreie Masse kennen\n\nIn derselben Studie wurden auch einfachere Prädiktoren getestet. Die fettfreie Masse (FFM) war der beste Einzelprädiktor des REE (R² = 0,64). Die Gleichung lautete REE = 19,7 × FFM (kg) + 413. Das Körpergewicht allein schnitt schlechter ab (REE = 15,1 × Gewicht + 371, R² = 0,56). Am stärksten von den dreien war die vollständige Gleichung mit Gewicht, Größe, Alter und Geschlecht.\n\n## Weitere Formeln für den Grundumsatz: Harris-Benedict, WHO und Ten Haaf\n\nMifflin-St Jeor ist nicht die einzige Option. Welche Formel am besten zu Ihnen passt, hängt teilweise davon ab, zu welcher Gruppe Sie gehören.\n\n### Harris-Benedict\n\nDie Harris-Benedict-Gleichungen stammen aus dem Jahr 1919. Gemessen an den Werten der Mifflin-Studie überschätzten sie den REE um 5 %. Eine systematische Übersichtsarbeit verglich die vier in der klinischen Praxis am häufigsten verwendeten Gleichungen: Harris-Benedict, Mifflin-St Jeor, Owen und WHO/FAO/UNU. Mifflin-St Jeor erwies sich als die zuverlässigste. Sie sagte den RMR bei mehr nicht adipösen und adipösen Personen auf 10 % genau voraus als jede andere Gleichung und hatte die geringste Fehlerspanne. Die Übersichtsarbeit stellte außerdem fest, dass ältere Erwachsene und in den USA lebende ethnische Minderheiten in den Studien, mit denen diese Gleichungen entwickelt und überprüft wurden, unterrepräsentiert waren.\n\n### Starke Adipositas: WHO und Harris-Benedict\n\nBei sehr hohem Körpergewicht sieht das Bild anders aus. Eine systematische Übersichtsarbeit schloss 40 Studien mit Erwachsenen mit einem BMI zwischen 40,0 und 62,4 ein und fasste 20 davon in einer Metaanalyse zusammen. In dieser Gruppe waren die WHO-Gleichung (Gewicht) und Harris-Benedict am genauesten und präzisesten. Ihre mittlere Abweichung betrug −12,44 kcal/Tag für WHO und −18,9 kcal/Tag für Harris-Benedict. Die übrigen getesteten Gleichungen, darunter Mifflin, neigten dazu, den Grundumsatz zu unterschätzen.\n\n### Sportler und die Ten-Haaf-Formel\n\nEine Metaanalyse fasste 29 Studien mit 1.430 Sportlerinnen und Sportlern sowie 100 verschiedenen Vorhersagegleichungen zusammen. Die Ten-Haaf-Gleichung war am präzisesten. Sie sagte bei 80,2 % der Teilnehmenden den gemessenen RMR auf ±10 % genau voraus, während die übrigen auf Präzision untersuchten Gleichungen zwischen 40,7 % und 63,7 % lagen. Auch ihre durchschnittlichen Vorhersagen unterschieden sich nicht signifikant von den Messwerten. Vier weitere Gleichungen, darunter Harris-Benedict, erzielten dieses Ergebnis ebenfalls, doch Ten-Haaf war die einzige der fünf ohne Heterogenität zwischen den Studien (I² = 0 %). In denselben Sportlerdaten unter- oder überschätzte Mifflin-St Jeor den RMR signifikant. Die genauen Koeffizienten der Ten-Haaf-Formel werden hier nicht wiedergegeben. Die praktische Erkenntnis: Eine Formel, die an der Allgemeinbevölkerung entwickelt wurde, kann bei sehr muskulösen, hochtrainierten Menschen danebenliegen.\n\nEinen direkten Vergleich dieser Methoden finden Sie in unserem Ratgeber zur [Genauigkeit der Stoffwechselberechnung](/de/metabolic-rate-calculation-accuracy-comparison-2026).\n\n## Wie genau ist ein Grundumsatz-Rechner?\n\nIn den oben genannten Übersichtsarbeiten galt eine Vorhersage als Treffer, wenn sie höchstens 10 % vom gemessenen RMR abwich. Das klingt eng, ist in Kalorien aber eine breite Spanne. Beim Beispiel von 1.370 kcal entsprechen ±10 % genau ±137 kcal (1.370 × 0,10). Der tatsächliche Wert kann also irgendwo zwischen etwa 1.233 und 1.507 kcal/Tag liegen (1.370 − 137 und 1.370 + 137), und die Vorhersage gilt trotzdem als gut.\n\nSelbst die besten Gleichungen verfehlen manche Menschen um mehr als das. Auch die Übersichtsarbeit, die Mifflin-St Jeor favorisierte, beschrieb nennenswerte Fehler bei der Anwendung auf Einzelpersonen. Die Vorhersage ist schwierig, weil der Ruheumsatz selbst bei gleicher Statur von Mensch zu Mensch schwankt.\n\nMehr Daten helfen, aber nur bis zu einem gewissen Punkt. Eine aktuelle Studie mit 454 gesunden Erwachsenen testete Machine-Learning-Modelle mit bis zu 94 Prädiktoren. Das beste Modell erklärte 76,8 % der Varianz im RMR. Fettfreie Masse, Körpergewicht und – interessanterweise – die mittlere Außentemperatur gehörten zu den nützlichsten Prädiktoren. Blutwerte trugen nur wenig bei, Darmmikrobiota und kurzkettige Fettsäuren im Stuhl gar nichts. Selbst dieses Modell ließ rund 23 % der Schwankungen unerklärt (100 − 76,8 = 23,2 %).\n\nErkrankungen vergrößern den Fehler zusätzlich. Bei 900 Patientinnen und Patienten mit Leberzirrhose lag der vorhergesagte REE zwischen 501 kcal/Tag unter und 548 kcal/Tag über dem gemessenen Wert. Die Autoren folgerten, dass der REE in dieser Gruppe direkt gemessen werden sollte.\n\nÄhnliche Abweichungen zeigen sich auch bei anderen Erkrankungen, und die Richtung des Fehlers ist nicht immer gleich. Bei 34 Personen mit pulmonaler Hypertonie unterschätzten alle getesteten Schätzverfahren den Energiebedarf um etwa 255 kcal. Bei 71 Menschen nach einem chronischen Schlaganfall sagten 8 von 9 Gleichungen einen RMR voraus, der 9 % bis 18 % über dem Messwert lag.\n\n## Was ist ein normaler Grundumsatz?\n\nEinen einzelnen „normalen“ Wert gibt es nicht. Der Grundumsatz hängt von Körpergröße und Körperzusammensetzung ab. Ein großer, muskulöser Mann und eine zierliche Frau können daher beide völlig gesund sein und trotzdem sehr unterschiedliche Werte haben. Die Rechenbeispiele oben (rund 1.370 und 1.755 kcal/Tag) zeigen, wie groß die Spanne schon bei gewöhnlichen Körpermaßen ist.\n\nFür eine grobe Plausibilitätsprüfung eignet sich der Energieverbrauch pro Kilogramm. In der Zirrhose-Studie verbrauchten 282 gesunde Kontrollpersonen im Mittel 20,8 ± 2,6 kcal pro kg Körpergewicht und Tag. Für einen Menschen mit 70 kg ergibt das etwa 1.456 kcal/Tag (70 × 20,8). Verstehen Sie das nur als Richtwert. Die ± 2,6 zeigen, dass es echte Unterschiede zwischen Menschen gibt.\n\nWenn Ihr berechneter Grundumsatz weit von Ihren Erwartungen abweicht, prüfen Sie zuerst Ihre Eingaben. Die Gleichung erwartet das Gewicht in Kilogramm und die Größe in Zentimetern.\n\n## Vom Grundumsatz zum Gesamtumsatz: Wie viele Kalorien Sie täglich brauchen\n\nDer Grundumsatz ist nicht Ihr tägliches Kalorienziel. Der Gesamtenergieumsatz (Total Daily Energy Expenditure, TDEE) addiert zum Verbrauch in Ruhe die Energie, die Sie für Bewegung und für die Verdauung aufwenden.\n\nUm aus dem Grundumsatz einen Tageswert zu machen, müssen Sie also eine Schätzung Ihrer Aktivität hinzufügen – und die bringt zusätzlich zur Grundumsatzformel eigene Unsicherheiten mit. Unser Artikel zu [Aktivitätsstufen und Nährstoffanpassung](/de/activity-level-tier-nutrition-scaling-2026) erklärt, wie Sie diesen Teil realistisch einschätzen.\n\nDas Alter spielt eine geringere Rolle, als viele annehmen. Eine große Analyse des täglichen Gesamtenergieumsatzes, gemessen mit doppelt markiertem Wasser bei Menschen im Alter von 8 Tagen bis 95 Jahren, berücksichtigte die fettfreie Masse. Auf dieser Grundlage blieb der Energieumsatz im Erwachsenenalter zwischen 20 und 60 Jahren stabil, selbst während der Schwangerschaft, und sank erst bei älteren Erwachsenen. Eine Übersichtsarbeit zum Energieumsatz über die Lebensspanne erklärt solche Veränderungen zumindest teilweise mit Verschiebungen in der Körperzusammensetzung, in Masse und Stoffwechselrate von Organen und Geweben sowie im Ausmaß körperlicher Aktivität.\n\n## Was Ihren Grundumsatz erhöht oder senkt\n\n### Fettfreie Masse\n\nMagergewebe ist der wichtigste Faktor. In einer Studie mit 40 Erwachsenen erklärten fettfreie Masse und Fettmasse zusammen 83 % der Variabilität im RMR. Detaillierte Messungen von Organen und Muskeln verbesserten die Vorhersage nicht. Deshalb können zwei Menschen mit gleichem Gewicht, aber unterschiedlicher Muskelmasse einen spürbar unterschiedlichen Grundumsatz haben – und deshalb funktionieren FFM-basierte Gleichungen gut, wenn die Körperzusammensetzung genau gemessen wird.\n\n### Diäten und metabolische Anpassung\n\nWer Kalorien reduziert, senkt seinen Ruheumsatz – teils durch den Verlust von Gewebe, teils durch Anpassung. In einer kontrollierten Studie aßen 32 nicht adipöse Männer 3 Wochen lang 50 % weniger, als sie an Energie benötigten. Sie verloren 6,0 kg, und ihr REE sank um 266 kcal/Tag. Die adaptive Thermogenese – der Rückgang, der sich nicht durch den Verlust fettfreier Masse erklären ließ – betrug 108 kcal/Tag. Veränderungen in der Zusammensetzung der fettfreien Masse erklärten davon 36 kcal, sodass 72 kcal/Tag „echte“ Anpassung übrig blieben.\n\n### Umwelt\n\nIn der Machine-Learning-Studie war die mittlere Außentemperatur einer der wichtigsten Prädiktoren des RMR. Die anderen zentralen Prädiktoren im selben Modell waren fettfreie Masse und Körpergewicht.\n\n## Wann sich eine Messung des Grundumsatzes lohnt\n\nBei einer Stoffwechselanalyse (manchmal als Grundumsatz-Test angeboten) wird Ihr tatsächlicher Energieverbrauch in Ruhe mittels indirekter Kalorimetrie gemessen. Die systematische Übersichtsarbeit zu Vorhersagegleichungen kam zu dem Schluss, dass sich Schätzfehler durch eine valide indirekte Kalorimetrie mit einem evidenzbasierten Protokoll zur Minimierung von Messfehlern ausschließen ließen. Wann eine Schätzung ausreicht, ist eine Frage der klinischen Beurteilung.\n\nFür die meisten gesunden Erwachsenen, die ihr Gewicht schrittweise verändern möchten, ist ein berechneter Grundumsatz ein sinnvoller Ausgangspunkt. Legen Sie damit eine erste Kalorienzufuhr fest. Ob Sie nachjustieren sollten, zeigt Ihnen dann der Gewichtsverlauf über mehrere Wochen – die Waage spiegelt Ihre tatsächliche Energiebilanz besser wider als jede Formel. Ein Wearable oder Smartphone kann helfen, Gewicht und Aktivität konsequent zu erfassen.\n\nEine Messung ist vor allem dann sinnvoll, wenn Schätzungen bekanntermaßen schlecht abschneiden. Dazu gehören ein sehr hoher BMI, hohe Trainingsbelastungen und Erkrankungen, die den Stoffwechsel verändern. Auch wenn Ihre Kalorienzufuhr und Ihre Gewichtsentwicklung immer wieder nicht zu den Zahlen passen, kann sie sich lohnen. In diesen Fällen sollte die Entscheidung über eine klinische Untersuchung bei denjenigen liegen, die Sie medizinisch betreuen.",
+      "key_stats": [
+        {
+          "label": "Durch die Mifflin-St-Jeor-Gleichung erklärte Varianz des Ruheenergieumsatzes",
+          "value": "R² = 0,71",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Überschätzung des gemessenen REE durch Harris-Benedict in der Mifflin-Studie",
+          "value": "5 %",
+          "source": "E1: REE equation derivation study in 498 healthy adults"
+        },
+        {
+          "label": "Sportler, deren RMR die Ten-Haaf-Gleichung auf ±10 % genau vorhersagte",
+          "value": "80,2 %",
+          "source": "E19: systematic review and meta-analysis of RMR equations in athletes"
+        },
+        {
+          "label": "Durch fettfreie Masse plus Fettmasse erklärte Variabilität des RMR",
+          "value": "83 %",
+          "source": "E10: study of RMR and fat-free mass composition in 40 adults"
+        },
+        {
+          "label": "Rückgang des REE nach 3 Wochen mit 50 % weniger als dem Energiebedarf",
+          "value": "−266 kcal/Tag",
+          "source": "E9: controlled caloric restriction and refeeding study in 32 nonobese men"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Wie berechne ich meinen Grundumsatz?",
+          "answer": "Verwenden Sie die Mifflin-St-Jeor-Gleichung. Für Männer: 10 × Gewicht (kg) + 6,25 × Größe (cm) − 5 × Alter (Jahre) + 5. Für Frauen: dieselben Terme − 161. Eine 40-jährige Frau mit 70 kg und 165 cm kommt zum Beispiel auf 700 + 1.031,25 − 200 − 161 = rund 1.370 kcal/Tag."
+        },
+        {
+          "question": "Was ist ein normaler Grundumsatz?",
+          "answer": "Einen einzigen Normalwert gibt es nicht, weil der Grundumsatz von Körpergröße und Magermasse abhängt. Als grobe Orientierung: Gesunde Erwachsene verbrauchten in einer Studie im Mittel 20,8 ± 2,6 kcal pro kg Körpergewicht und Tag. Bei 70 kg entspricht das etwa 1.456 kcal/Tag (70 × 20,8)."
+        },
+        {
+          "question": "Was ist die Ten-Haaf-Formel?",
+          "answer": "Die Ten-Haaf-Formel ist eine Gleichung für den Ruheumsatz, die bei Sportlern am besten abschnitt. In einer Metaanalyse von 29 Studien mit 1.430 Sportlerinnen und Sportlern sagte sie bei 80,2 % der Teilnehmenden den gemessenen RMR auf ±10 % genau voraus. Die übrigen untersuchten Gleichungen lagen zwischen 40,7 % und 63,7 %."
+        },
+        {
+          "question": "Was ist der Unterschied zwischen Grundumsatz und TDEE?",
+          "answer": "Der Grundumsatz ist die Energie, die Sie in völliger Ruhe verbrauchen. Der TDEE (täglicher Gesamtenergieumsatz) addiert körperliche Aktivität und die nahrungsinduzierte Thermogenese hinzu. Um vom Grundumsatz zum TDEE zu kommen, brauchen Sie also eine separate Schätzung Ihrer Aktivität."
+        },
+        {
+          "question": "Sind kostenlose Grundumsatz-Rechner im Internet genau?",
+          "answer": "Sie liefern eine brauchbare erste Schätzung, aber keinen exakten Wert. Mifflin-St Jeor sagte den RMR bei mehr Menschen auf 10 % genau voraus als andere gängige Gleichungen, doch bei Einzelpersonen bleiben nennenswerte Fehler. In manchen Gruppen sinkt die Genauigkeit weiter, etwa bei starker Adipositas, bei Sportlern und bei bestimmten Erkrankungen."
+        },
+        {
+          "question": "Senkt eine Diät den Grundumsatz?",
+          "answer": "Ja, in gewissem Maß. In einer kontrollierten Studie sank bei Männern, die 3 Wochen lang 50 % unter ihrem Energiebedarf aßen, der REE um 266 kcal/Tag. Davon waren 72 kcal/Tag echte Anpassung, die über den Gewebeverlust hinausging."
+        }
+      ],
+      "comparison_table": {
+        "title": "Gängige Formeln für Grund- und Ruheumsatz und was die Studienlage sagt",
+        "headers": [
+          "Gleichung",
+          "Eingabewerte",
+          "Formel oder zentrales Ergebnis",
+          "Wo sie am besten abschnitt"
+        ],
+        "rows": [
+          [
+            "Mifflin-St Jeor (Männer)",
+            "Gewicht, Größe, Alter",
+            "10 × kg + 6,25 × cm − 5 × Alter + 5",
+            "Erwachsene allgemein: unter vier gängigen Gleichungen am häufigsten innerhalb von 10 % des gemessenen RMR"
+          ],
+          [
+            "Mifflin-St Jeor (Frauen)",
+            "Gewicht, Größe, Alter",
+            "10 × kg + 6,25 × cm − 5 × Alter − 161",
+            "Erwachsene allgemein, nicht adipös und adipös"
+          ],
+          [
+            "Mifflin-Version mit fettfreier Masse",
+            "Fettfreie Masse",
+            "19,7 × FFM (kg) + 413 (R² = 0,64)",
+            "Wenn die Körperzusammensetzung bekannt ist"
+          ],
+          [
+            "Mifflin-Version nur mit Gewicht",
+            "Gewicht",
+            "15,1 × kg + 371 (R² = 0,56)",
+            "Schnelle Schätzung; weniger aussagekräftig als die vollständige Gleichung"
+          ],
+          [
+            "Harris-Benedict (1919)",
+            "Siehe Originalpublikation",
+            "Überschätzte den gemessenen REE in den Mifflin-Daten um 5 %",
+            "Starke Adipositas: Abweichung −18,9 kcal/Tag"
+          ],
+          [
+            "WHO (Gewicht)",
+            "Gewichtsbasiert; vollständige Eingabewerte in der Originalpublikation",
+            "Abweichung −12,44 kcal/Tag bei starker Adipositas",
+            "Erwachsene mit BMI 40,0 bis 62,4"
+          ],
+          [
+            "Ten-Haaf",
+            "Siehe Originalpublikation",
+            "80,2 % der Sportler innerhalb von ±10 % des gemessenen RMR; I² = 0 %",
+            "Trainierte Sportler"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "A new predictive equation for resting energy expenditure in healthy individuals.",
+          "source": "The American journal of clinical nutrition, 1990",
+          "url": "https://doi.org/10.1093/ajcn/51.2.241"
+        },
+        {
+          "title": "Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review.",
+          "source": "Journal of the American Dietetic Association, 2005",
+          "url": "https://doi.org/10.1016/j.jada.2005.02.005"
+        },
+        {
+          "title": "Accuracy of Resting Metabolic Rate Prediction Equations in Athletes: A Systematic Review with Meta-analysis.",
+          "source": "Sports medicine (Auckland, N.Z.), 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01896-z"
+        },
+        {
+          "title": "Adequacy of basal metabolic rate prediction equations in individuals with severe obesity: A systematic review and meta-analysis.",
+          "source": "Obesity reviews : an official journal of the International Association for the Study of Obesity, 2024",
+          "url": "https://doi.org/10.1111/obr.13739"
+        },
+        {
+          "title": "Predicting resting metabolic rate in healthy adults: a comparative analysis using the enable cohort.",
+          "source": "American journal of physiology. Endocrinology and metabolism, 2026",
+          "url": "https://doi.org/10.1152/ajpendo.00375.2025"
+        },
+        {
+          "title": "Predicted estimates of resting energy expenditure have limited clinical utility in patients with cirrhosis.",
+          "source": "Journal of hepatology, 2022",
+          "url": "https://doi.org/10.1016/j.jhep.2022.01.005"
+        },
+        {
+          "title": "Estimating Resting Energy Expenditure by Different Methods as Compared With Indirect Calorimetry for Patients With Pulmonary Hypertension.",
+          "source": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition, 2018",
+          "url": "https://doi.org/10.1177/0884533617727731"
+        },
+        {
+          "title": "Predictive Equations Overestimate Resting Metabolic Rate in Survivors of Chronic Stroke.",
+          "source": "Archives of physical medicine and rehabilitation, 2022",
+          "url": "https://doi.org/10.1016/j.apmr.2022.01.155"
+        },
+        {
+          "title": "Relationship between resting metabolic rate and the composition of the fat-free mass.",
+          "source": "Metabolism: clinical and experimental, 1997",
+          "url": "https://doi.org/10.1016/s0026-0495(97)90222-5"
+        },
+        {
+          "title": "Metabolic adaptation to caloric restriction and subsequent refeeding: the Minnesota Starvation Experiment revisited.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.109173"
+        },
+        {
+          "title": "Daily energy expenditure through the human life course.",
+          "source": "Science (New York, N.Y.), 2021",
+          "url": "https://doi.org/10.1126/science.abe5017"
+        },
+        {
+          "title": "Energy Expenditure in Humans: Principles, Methods, and Changes Throughout the Life Course.",
+          "source": "Annual review of nutrition, 2024",
+          "url": "https://doi.org/10.1146/annurev-nutr-062122-031443"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    }
+  },
+  "generated_at": "2026-11-11T02:28:48.000Z",
+  "updated_at": "2026-11-11T02:28:48.000Z"
+}

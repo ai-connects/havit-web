@@ -2,7 +2,7 @@
   "_generator": "scripts/build-article-images.ts",
   "_source": "data/article-image-catalog.csv (HAVIT app article library, 289 distinct photos)",
   "_note": "slug → S3 filename. Base URL is resolved in lib/article-images.ts by filename prefix.",
-  "count": 1116,
+  "count": 1126,
   "map": {
     "30-day-habit-challenge-failure-rate-better-approach-2026": "art_0066.jpg",
     "accountability-partner-selection-optimal-traits-2026": "art_0149.jpg",
@@ -1119,6 +1119,16 @@
     "meditation-for-emotional-stress-eating-2026": "art_0168.jpg",
     "meditation-for-food-cravings-5-minute-practice-2026": "art_0154.jpg",
     "morning-meditation-focus-energy-5-minute-2026": "IMG_MIND_010.jpg",
-    "self-compassion-meditation-weight-loss-motivation-2026": "IMG_MIND_006.jpg"
+    "self-compassion-meditation-weight-loss-motivation-2026": "IMG_MIND_006.jpg",
+    "basal-metabolic-rate-bmr-what-it-is-how-to-calculate-2026": "IMG_WT_006.jpg",
+    "morning-blood-pressure-high-causes-morning-surge-2026": "IMG_SIT_008.jpg",
+    "normal-sleeping-heart-rate-what-is-normal-at-night-2026": "IMG_FLEX_005.jpg",
+    "cholecystokinin-cck-hormone-appetite-digestion-2026": "art_0039.jpg",
+    "retatrutide-what-is-it-how-it-works-2026": "art_0001.jpg",
+    "flow-state-what-it-is-how-to-get-into-flow-2026": "IMG_MIND_006.jpg",
+    "oral-wegovy-semaglutide-pill-how-it-works-2026": "art_0002.jpg",
+    "steps-to-calories-burned-how-many-calories-per-step-2026": "IMG_NEAT_001.jpg",
+    "creatine-dosage-how-much-per-day-loading-phase-2026": "IMG_VEG_003.jpg",
+    "sleeping-2-hours-what-happens-vs-all-nighter-2026": "IMG_SLEEP_001.jpg"
   }
 }
