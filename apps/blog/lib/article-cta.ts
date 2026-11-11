@@ -1,6 +1,6 @@
 /**
  * 아티클 → 하비트 전환 문구(글 중간 블록·계산기 카드·글 끝 절 도입).
- * 계산기 페이지(lib/tool-cta.ts)와 같은 메시지 — 평균 정보 → 진단 → 정량 처방 → 코칭.
+ * 계산기 페이지(lib/tool-cta.ts)와 같은 메시지 — 평균 정보 → 분석 → 숫자 목표 → 코칭.
  * 근거는 앱 화면 문구·홈페이지 키 카피에서만. 언어가 없으면 기존 MidArticleCTA·AboutHavit 를 쓴다.
  */
 import type { ToolLang } from './tool-labels';
@@ -74,19 +74,19 @@ export const ARTICLE_CTA: Partial<Record<ToolLang, ArticleCta>> = {
     "focus": {
       "nutrition": {
         "limit": "글 속 권장량은 평균값이에요. 내게 맞는 양은 체중·근육량·목표에 따라 달라요.",
-        "havit": "하비트는 AI 체성분 진단 결과로 단백질·탄수화물·지방·식이섬유 하루 목표를 g 단위로 처방하고, 사진 한 장으로 기록한 식사가 목표를 얼마나 채웠는지 보여 줘요."
+        "havit": "하비트는 AI 체성분 분석 결과로 단백질·탄수화물·지방·식이섬유 하루 목표를 g 단위로 정해 드리고, 사진 한 장으로 기록한 식사가 목표를 얼마나 채웠는지 보여 줘요."
       },
       "exercise": {
         "limit": "운동 효과는 먹은 것과 같이 볼 때 제대로 보여요.",
-        "havit": "하비트는 진단 결과로 걸음 수·소모 칼로리 목표와 섭취 칼로리 목표를 함께 처방하고, 운동·러닝 기록이 목표를 채웠는지 매일 보여 줘요."
+        "havit": "하비트는 분석 결과로 걸음 수·소모 칼로리 목표와 섭취 칼로리 목표를 함께 정해 드리고, 운동·러닝 기록이 목표를 채웠는지 매일 보여 줘요."
       },
       "weight": {
         "limit": "체중계 숫자만으로는 지방이 빠졌는지 근육이 빠졌는지 알 수 없어요.",
-        "havit": "하비트는 장비 없이 체지방·근육·내장지방을 추정하고, 그 결과로 칼로리와 영양 목표를 숫자로 처방해 매주 내 체중 변화에 맞춰 다시 맞춰요."
+        "havit": "하비트는 장비 없이 체지방·근육·내장지방을 추정하고, 그 결과로 칼로리와 영양 목표를 숫자로 정해 매주 내 체중 변화에 맞춰 다시 맞춰요."
       },
       "sleep": {
         "limit": "권장 수면 시간은 평균이에요. 잠이 식욕과 체중에 미치는 영향은 사람마다 달라요.",
-        "havit": "하비트는 수면 목표 시간을 처방하고, 수면 기록을 식사·체중 흐름과 함께 읽어 AI 코치 HAVI가 오늘 할 일 하나를 알려 줘요."
+        "havit": "하비트는 수면 목표 시간을 정해 드리고, 수면 기록을 식사·체중 흐름과 함께 읽어 AI 코치 HAVI가 오늘 할 일 하나를 알려 줘요."
       },
       "mind": {
         "limit": "의지력만으로 버티는 다이어트는 오래가기 어려워요.",
@@ -94,15 +94,15 @@ export const ARTICLE_CTA: Partial<Record<ToolLang, ArticleCta>> = {
       },
       "habits": {
         "limit": "좋은 습관도 숫자로 재지 않으면 흐지부지되기 쉬워요.",
-        "havit": "하비트는 진단 결과로 11가지 하루 목표를 숫자로 정하고, 데일리 미션과 챌린지로 매일 지킬 수 있게 만들어요."
+        "havit": "하비트는 분석 결과로 11가지 하루 목표를 숫자로 정하고, 데일리 미션과 챌린지로 매일 지킬 수 있게 만들어요."
       },
       "glp1": {
         "limit": "GLP-1로 체중이 빠질 때 근육도 함께 빠질 수 있어요.",
         "havit": "하비트는 투약 기록·알림과 함께 추정 체성분 추이를 보여 주고, 근육을 지키는 단백질 목표와 식사를 매일 코칭해요."
       }
     },
-    "midButton": "무료 체성분 진단 받기",
-    "sectionIntro": "글은 누구에게나 같은 평균을 말합니다. 하비트는 내 몸을 먼저 진단하고, 그 결과로 하루 목표를 숫자로 정해 12주 동안 함께 실행합니다.",
+    "midButton": "무료 체성분 분석 받기",
+    "sectionIntro": "글은 누구에게나 같은 평균을 말합니다. 하비트는 내 몸을 먼저 분석하고, 그 결과로 하루 목표를 숫자로 정해 12주 동안 함께 실행합니다.",
     "calcTitle": "이 글 내용을 내 숫자로 확인해 보세요",
     "calcBody": "{tool}에 내 정보를 넣으면 바로 계산돼요. 무료예요.",
     "calcButton": "바로 계산하기"
@@ -150,19 +150,19 @@ export const ARTICLE_CTA: Partial<Record<ToolLang, ArticleCta>> = {
     "focus": {
       "nutrition": {
         "limit": "記事の推奨量は平均値です。あなたに合う量は、体重・筋肉量・目標によって変わります。",
-        "havit": "HAVITはAI体組成診断の結果から、たんぱく質・炭水化物・脂質・食物繊維の1日の目標をg単位で処方。写真1枚で記録した食事が、目標をどれだけ満たしたかを表示します。"
+        "havit": "HAVITはAI体組成分析の結果から、たんぱく質・炭水化物・脂質・食物繊維の1日の目標をg単位で設定。写真1枚で記録した食事が、目標をどれだけ満たしたかを表示します。"
       },
       "exercise": {
         "limit": "運動の効果は、食べたものと合わせて見ることで正しく見えてきます。",
-        "havit": "HAVITは診断結果から、歩数・消費カロリーの目標と摂取カロリーの目標をあわせて処方。運動・ランニングの記録が目標を満たしたかを毎日表示します。"
+        "havit": "HAVITは分析結果から、歩数・消費カロリーの目標と摂取カロリーの目標をあわせて設定。運動・ランニングの記録が目標を満たしたかを毎日表示します。"
       },
       "weight": {
         "limit": "体重計の数字だけでは、落ちたのが脂肪か筋肉かはわかりません。",
-        "havit": "HAVITは機器なしで体脂肪・筋肉・内臓脂肪を推定し、その結果からカロリーと栄養の目標を数字で処方。毎週の体重変化に合わせて見直します。"
+        "havit": "HAVITは機器なしで体脂肪・筋肉・内臓脂肪を推定し、その結果からカロリーと栄養の目標を数字で設定。毎週の体重変化に合わせて見直します。"
       },
       "sleep": {
         "limit": "推奨される睡眠時間は平均値です。睡眠が食欲や体重に与える影響は人によって異なります。",
-        "havit": "HAVITは睡眠の目標時間を処方し、睡眠の記録を食事・体重の推移とあわせて読み取ります。AIコーチHAVIが、今日やることを1つお伝えします。"
+        "havit": "HAVITは睡眠の目標時間を設定し、睡眠の記録を食事・体重の推移とあわせて読み取ります。AIコーチHAVIが、今日やることを1つお伝えします。"
       },
       "mind": {
         "limit": "意志の力だけに頼るダイエットは、長続きしにくいものです。",
@@ -170,15 +170,15 @@ export const ARTICLE_CTA: Partial<Record<ToolLang, ArticleCta>> = {
       },
       "habits": {
         "limit": "良い習慣も、数字で測らなければうやむやになりがちです。",
-        "havit": "HAVITは診断結果から11の1日の目標を数字で設定し、デイリーミッションとチャレンジで毎日続けられるようにします。"
+        "havit": "HAVITは分析結果から11の1日の目標を数字で設定し、デイリーミッションとチャレンジで毎日続けられるようにします。"
       },
       "glp1": {
         "limit": "GLP-1で体重が減るとき、筋肉も一緒に減ることがあります。",
         "havit": "HAVITは投与の記録・リマインダーとあわせて推定体組成の推移を表示し、筋肉を守るたんぱく質の目標と食事を毎日コーチングします。"
       }
     },
-    "midButton": "無料で体組成を診断",
-    "sectionIntro": "記事は誰にでも同じ平均値を伝えます。HAVITはまずあなたの体を診断し、その結果から1日の目標を数字で決めて、12週間一緒に実行します。",
+    "midButton": "無料で体組成を分析",
+    "sectionIntro": "記事は誰にでも同じ平均値を伝えます。HAVITはまずあなたの体を分析し、その結果から1日の目標を数字で決めて、12週間一緒に実行します。",
     "calcTitle": "この記事の内容を、あなたの数字で確かめましょう",
     "calcBody": "{tool}にあなたの情報を入力すると、すぐに計算できます。無料です。",
     "calcButton": "今すぐ計算する"
@@ -264,19 +264,19 @@ export const ARTICLE_CTA: Partial<Record<ToolLang, ArticleCta>> = {
     "focus": {
       "nutrition": {
         "limit": "Las cantidades recomendadas en el artículo son promedios. Lo que te conviene a ti depende de tu peso, tu masa muscular y tu meta.",
-        "havit": "Con tu diagnóstico de composición corporal con IA, HAVIT te receta metas diarias de proteína, carbohidratos, grasa y fibra en gramos (g). Con solo una foto registras tu comida y ves cuánto de tus metas cubriste."
+        "havit": "Con tu análisis de composición corporal con IA, HAVIT te marca metas diarias de proteína, carbohidratos, grasa y fibra en gramos (g). Con solo una foto registras tu comida y ves cuánto de tus metas cubriste."
       },
       "exercise": {
         "limit": "El efecto del ejercicio se ve de verdad cuando lo miras junto con lo que comes.",
-        "havit": "Con tu diagnóstico, HAVIT te receta metas de pasos y calorías quemadas junto con tu meta de calorías consumidas. Cada día te muestra si tus registros de ejercicio y carrera cumplieron la meta."
+        "havit": "Con tu análisis, HAVIT te marca metas de pasos y calorías quemadas junto con tu meta de calorías consumidas. Cada día te muestra si tus registros de ejercicio y carrera cumplieron la meta."
       },
       "weight": {
         "limit": "El número de la báscula no te dice si perdiste grasa o músculo.",
-        "havit": "Sin ningún equipo, HAVIT estima tu grasa corporal, tu músculo y tu grasa visceral. Con ese resultado te receta metas de calorías y nutrientes en números, y cada semana las ajusta según cómo cambia tu peso."
+        "havit": "Sin ningún equipo, HAVIT estima tu grasa corporal, tu músculo y tu grasa visceral. Con ese resultado te marca metas de calorías y nutrientes en números, y cada semana las ajusta según cómo cambia tu peso."
       },
       "sleep": {
         "limit": "Las horas de sueño recomendadas son un promedio. El efecto del sueño en el apetito y el peso cambia de una persona a otra.",
-        "havit": "HAVIT te receta una meta de horas de sueño y lee tus registros de sueño junto con tu alimentación y tu peso. Así HAVI, tu coach de IA, te dice una sola cosa que hacer hoy."
+        "havit": "HAVIT te marca una meta de horas de sueño y lee tus registros de sueño junto con tu alimentación y tu peso. Así HAVI, tu coach de IA, te dice una sola cosa que hacer hoy."
       },
       "mind": {
         "limit": "Una dieta que depende solo de la fuerza de voluntad es difícil de sostener.",
@@ -284,15 +284,15 @@ export const ARTICLE_CTA: Partial<Record<ToolLang, ArticleCta>> = {
       },
       "habits": {
         "limit": "Si no los mides con números, hasta los buenos hábitos se diluyen fácilmente.",
-        "havit": "Con tu diagnóstico, HAVIT fija 11 metas diarias en números y, con misiones diarias y retos, te ayuda a cumplirlas cada día."
+        "havit": "Con tu análisis, HAVIT fija 11 metas diarias en números y, con misiones diarias y retos, te ayuda a cumplirlas cada día."
       },
       "glp1": {
         "limit": "Cuando bajas de peso con GLP-1, también puedes perder músculo.",
         "havit": "HAVIT te muestra la tendencia estimada de tu composición corporal junto con el registro y los recordatorios de tu medicación. Cada día te guía con una meta de proteína y con tus comidas para que conserves tu músculo."
       }
     },
-    "midButton": "Diagnóstico corporal gratis",
-    "sectionIntro": "Los artículos les dan a todos el mismo promedio. HAVIT primero diagnostica tu cuerpo, con ese resultado fija tus metas diarias en números y te acompaña a cumplirlas durante 12 semanas.",
+    "midButton": "Análisis corporal gratis",
+    "sectionIntro": "Los artículos les dan a todos el mismo promedio. HAVIT primero analiza tu cuerpo, con ese resultado fija tus metas diarias en números y te acompaña a cumplirlas durante 12 semanas.",
     "calcTitle": "Revisa lo que dice este artículo con tus propios números",
     "calcBody": "Ingresa tus datos en {tool} y obtén el resultado al instante. Es gratis.",
     "calcButton": "Calcular ahora"
@@ -302,11 +302,11 @@ export const ARTICLE_CTA: Partial<Record<ToolLang, ArticleCta>> = {
     "focus": {
       "nutrition": {
         "limit": "As quantidades recomendadas no texto são médias. A quantidade certa para você depende do seu peso, da sua massa muscular e do seu objetivo.",
-        "havit": "O HAVIT usa o resultado do diagnóstico de composição corporal por IA para prescrever metas diárias de proteína, carboidrato, gordura e fibra em gramas, e mostra quanto da meta cada refeição registrada com uma foto já cobriu."
+        "havit": "O HAVIT usa o resultado da análise de composição corporal por IA para definir metas diárias de proteína, carboidrato, gordura e fibra em gramas, e mostra quanto da meta cada refeição registrada com uma foto já cobriu."
       },
       "exercise": {
         "limit": "O efeito do exercício só aparece de verdade quando você olha junto com o que comeu.",
-        "havit": "Com base no diagnóstico, o HAVIT prescreve metas de passos e de calorias gastas junto com a meta de calorias ingeridas, e mostra todo dia se seus treinos e corridas bateram a meta."
+        "havit": "Com base na análise, o HAVIT define metas de passos e de calorias gastas junto com a meta de calorias ingeridas, e mostra todo dia se seus treinos e corridas bateram a meta."
       },
       "weight": {
         "limit": "Só o número da balança não mostra se você perdeu gordura ou músculo.",
@@ -322,15 +322,15 @@ export const ARTICLE_CTA: Partial<Record<ToolLang, ArticleCta>> = {
       },
       "habits": {
         "limit": "Até bons hábitos se perdem quando não são medidos em números.",
-        "havit": "O HAVIT define 11 metas diárias em números a partir do diagnóstico e usa missões diárias e desafios para você conseguir cumpri-las todos os dias."
+        "havit": "O HAVIT define 11 metas diárias em números a partir da análise e usa missões diárias e desafios para você conseguir cumpri-las todos os dias."
       },
       "glp1": {
         "limit": "Quando o peso cai com GLP-1, a massa muscular também pode diminuir.",
         "havit": "O HAVIT mostra a evolução estimada da sua composição corporal junto com o registro e os lembretes das doses, e orienta todo dia sua meta de proteína e suas refeições para preservar a massa muscular."
       }
     },
-    "midButton": "Fazer diagnóstico grátis",
-    "sectionIntro": "Os textos falam da mesma média para todo mundo. O HAVIT primeiro diagnostica o seu corpo, define metas diárias em números com base no resultado e coloca tudo em prática com você por 12 semanas.",
+    "midButton": "Fazer análise grátis",
+    "sectionIntro": "Os textos falam da mesma média para todo mundo. O HAVIT primeiro analisa o seu corpo, define metas diárias em números com base no resultado e coloca tudo em prática com você por 12 semanas.",
     "calcTitle": "Confira o que este texto diz com os seus números",
     "calcBody": "Insira seus dados em {tool} e veja o cálculo na hora. É grátis.",
     "calcButton": "Calcular agora"
@@ -416,11 +416,11 @@ export const ARTICLE_CTA: Partial<Record<ToolLang, ArticleCta>> = {
     "focus": {
       "nutrition": {
         "limit": "Les apports recommandés dans l'article sont des moyennes. La bonne quantité pour vous dépend de votre poids, de votre masse musculaire et de votre objectif.",
-        "havit": "À partir du diagnostic de composition corporelle par IA, HAVIT vous prescrit des objectifs quotidiens de protéines, glucides, lipides et fibres en grammes, puis vous montre dans quelle mesure chaque repas enregistré en une photo les atteint."
+        "havit": "À partir de l'analyse de composition corporelle par IA, HAVIT vous fixe des objectifs quotidiens de protéines, glucides, lipides et fibres en grammes, puis vous montre dans quelle mesure chaque repas enregistré en une photo les atteint."
       },
       "exercise": {
         "limit": "L'effet de l'exercice se mesure vraiment quand on le met en regard de ce que l'on mange.",
-        "havit": "À partir du diagnostic, HAVIT vous prescrit à la fois des objectifs de pas, de calories brûlées et de calories consommées, puis vous montre chaque jour si vos séances d'exercice et de course les ont atteints."
+        "havit": "À partir de l'analyse, HAVIT vous fixe à la fois des objectifs de pas, de calories brûlées et de calories consommées, puis vous montre chaque jour si vos séances d'exercice et de course les ont atteints."
       },
       "weight": {
         "limit": "Le chiffre de la balance ne dit pas si vous avez perdu de la graisse ou du muscle.",
@@ -428,7 +428,7 @@ export const ARTICLE_CTA: Partial<Record<ToolLang, ArticleCta>> = {
       },
       "sleep": {
         "limit": "La durée de sommeil recommandée est une moyenne. L'effet du sommeil sur l'appétit et le poids varie d'une personne à l'autre.",
-        "havit": "HAVIT vous prescrit un objectif de durée de sommeil et lit vos nuits avec l'évolution de vos repas et de votre poids. HAVI, votre coach IA, vous indique ensuite une seule chose à faire aujourd'hui."
+        "havit": "HAVIT vous fixe un objectif de durée de sommeil et lit vos nuits avec l'évolution de vos repas et de votre poids. HAVI, votre coach IA, vous indique ensuite une seule chose à faire aujourd'hui."
       },
       "mind": {
         "limit": "Un régime qui ne tient qu'à la volonté a du mal à durer.",
@@ -436,15 +436,15 @@ export const ARTICLE_CTA: Partial<Record<ToolLang, ArticleCta>> = {
       },
       "habits": {
         "limit": "Même les bonnes habitudes s'essoufflent vite quand on ne les mesure pas.",
-        "havit": "À partir du diagnostic, HAVIT fixe 11 objectifs quotidiens chiffrés et vous aide à les tenir chaque jour avec des missions quotidiennes et des défis."
+        "havit": "À partir de l'analyse, HAVIT fixe 11 objectifs quotidiens chiffrés et vous aide à les tenir chaque jour avec des missions quotidiennes et des défis."
       },
       "glp1": {
         "limit": "Quand on perd du poids sous GLP-1, on peut aussi perdre du muscle.",
         "havit": "HAVIT associe le suivi des prises et des rappels à l'évolution estimée de votre composition corporelle, et vous coache chaque jour sur votre objectif de protéines et vos repas pour préserver votre muscle."
       }
     },
-    "midButton": "Diagnostic corporel gratuit",
-    "sectionIntro": "Un article donne la même moyenne à tout le monde. HAVIT diagnostique d'abord votre corps, en tire des objectifs quotidiens chiffrés, puis les met en pratique avec vous pendant 12 semaines.",
+    "midButton": "Analyse corporelle gratuite",
+    "sectionIntro": "Un article donne la même moyenne à tout le monde. HAVIT analyse d'abord votre corps, en tire des objectifs quotidiens chiffrés, puis les met en pratique avec vous pendant 12 semaines.",
     "calcTitle": "Vérifiez cet article avec vos propres chiffres",
     "calcBody": "Entrez vos informations dans {tool} et obtenez le résultat tout de suite. C'est gratuit.",
     "calcButton": "Calculer maintenant"

@@ -4,7 +4,7 @@ import { ARTICLE_CTA, articleTool } from '@/lib/article-cta';
 
 const NAMES = { bmr: BMR_LABELS, protein: PROTEIN_LABELS, water: WATER_LABELS, caffeine: CAFFEINE_LABELS, 'sleep-cycle': SLEEP_CYCLE_LABELS, 'exercise-calories': EXERCISE_CAL_LABELS } as const;
 
-/** 글 주제와 이어지는 계산기로 보내는 카드. 계산기 페이지가 다시 앱 진단으로 이어진다. */
+/** 글 주제와 이어지는 계산기로 보내는 카드. 계산기 페이지가 다시 앱 분석으로 이어진다. */
 export default function ArticleCalcCard({ shortLang, slug, primaryKeywordEn }: { shortLang: string; slug: string; primaryKeywordEn?: string }) {
   const tl = toToolLang(shortLang);
   const a = ARTICLE_CTA[tl];

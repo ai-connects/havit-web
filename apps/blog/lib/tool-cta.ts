@@ -1,5 +1,5 @@
 /**
- * 계산기 → 하비트 전환 문구. 결과 아래 배너(계산기별)와 페이지 하단 '진단 → 정량 처방 → 매일 코칭' 절.
+ * 계산기 → 하비트 전환 문구. 결과 아래 배너(계산기별)와 페이지 하단 '분석 → 숫자 목표 → 매일 코칭' 절.
  * 근거는 앱 화면 문구(havit-wellness-app intl_ko_KR.arb: 전체 건강 분석·신체 설계도·6단계 습관 분석·
  * 핵심 정량적 목표·value_proposition)와 홈페이지 키 카피에서만 가져온다. 체성분은 '추정'.
  * 언어가 없으면 배너는 기존 APP_CTA, 하단 절은 숨김. ko 외 언어는 '쥬비스' 대신 'Juvis Diet, 한국의 대표적인
@@ -26,38 +26,38 @@ export interface ToolCta {
 
 export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
   "ko": {
-    "bannerTitle": "계산기는 평균, 하비트는 내 몸에 맞춘 처방",
+    "bannerTitle": "계산기는 평균, 하비트는 내 몸에 맞춘 목표",
     "banner": {
       "bmr": {
         "limit": "이 공식은 키·몸무게·나이만 봐요. 같은 체중이어도 근육이 많으면 기초대사량이 달라집니다.",
-        "havit": "하비트는 AI 체성분 진단으로 근육·체지방·내장지방을 먼저 추정하고, 그 결과로 하루 섭취 칼로리와 소모 칼로리 목표를 숫자로 처방해요."
+        "havit": "하비트는 AI 체성분 분석으로 근육·체지방·내장지방을 먼저 추정하고, 그 결과로 하루 섭취 칼로리와 소모 칼로리 목표를 숫자로 정해 드려요."
       },
       "protein": {
         "limit": "이 계산기는 체중과 목표만 봐요. 실제 필요한 양은 근육량과 감량 속도에 따라 달라집니다.",
-        "havit": "하비트는 체성분 진단 결과로 단백질·탄수화물·지방·식이섬유 하루 목표를 g 단위로 처방하고, 사진 한 장으로 기록한 식사가 목표를 얼마나 채웠는지 보여 줘요."
+        "havit": "하비트는 체성분 분석 결과로 단백질·탄수화물·지방·식이섬유 하루 목표를 g 단위로 정해 드리고, 사진 한 장으로 기록한 식사가 목표를 얼마나 채웠는지 보여 줘요."
       },
       "water": {
         "limit": "이 계산기는 오늘 하루 기준이에요. 체중이 바뀌면 필요한 양도 바뀝니다.",
-        "havit": "하비트는 진단 결과로 수분 목표를 처방하고 매주 내 체중에 맞춰 다시 맞춰요. 걸음·수면 등 다른 10가지 하루 목표와 함께 관리해요."
+        "havit": "하비트는 분석 결과로 수분 목표를 정해 드리고 매주 내 체중에 맞춰 다시 맞춰요. 걸음·수면 등 다른 10가지 하루 목표와 함께 관리해요."
       },
       "caffeine": {
         "limit": "반감기는 사람마다 2배 이상 차이 나요. 평균 5시간은 출발점일 뿐이에요.",
-        "havit": "하비트는 수면 목표 시간을 처방하고, 수면 기록과 그날의 커피·식사 기록을 함께 읽어 AI 코치 HAVI가 내게 맞는 조정을 알려 줘요."
+        "havit": "하비트는 수면 목표 시간을 정해 드리고, 수면 기록과 그날의 커피·식사 기록을 함께 읽어 AI 코치 HAVI가 내게 맞는 조정을 알려 줘요."
       },
       "sleep-cycle": {
         "limit": "이 계산기는 잠드는 시각만 알려 줘요. 실제로 얼마나 잤는지가 체중 관리에 더 중요해요.",
-        "havit": "하비트는 진단 결과로 수면 목표 시간을 처방하고, 수면 기록을 식사·체중 흐름과 함께 읽어 오늘 할 일 하나를 알려 줘요."
+        "havit": "하비트는 분석 결과로 수면 목표 시간을 정해 드리고, 수면 기록을 식사·체중 흐름과 함께 읽어 오늘 할 일 하나를 알려 줘요."
       },
       "exercise-calories": {
         "limit": "태운 칼로리는 먹은 칼로리와 같이 볼 때 의미가 있어요.",
-        "havit": "하비트는 진단 결과로 하루 소모 칼로리·걸음 수 목표와 섭취 칼로리 목표를 함께 처방하고, 운동·걸음 기록이 목표를 채웠는지 매일 보여 줘요."
+        "havit": "하비트는 분석 결과로 하루 소모 칼로리·걸음 수 목표와 섭취 칼로리 목표를 함께 정해 드리고, 운동·걸음 기록이 목표를 채웠는지 매일 보여 줘요."
       }
     },
-    "bannerButton": "무료 체성분 진단 받기",
+    "bannerButton": "무료 체성분 분석 받기",
     "bannerShot": {
       "bmr": {
         "file": "feature-body-insights.webp",
-        "alt": "하비트 체성분 진단 화면"
+        "alt": "하비트 체성분 분석 화면"
       },
       "protein": {
         "file": "feature-nutrition.webp",
@@ -81,17 +81,17 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       }
     },
     "sectionKicker": "쥬비스 출신이 만든 AI 다이어트, 하비트",
-    "sectionTitle": "진단하고, 숫자로 처방하고, 매일 코칭합니다",
-    "sectionIntro": "계산기는 누구에게나 같은 평균 공식을 씁니다. 하비트는 내 몸을 먼저 진단하고, 그 결과로 하루 목표를 숫자로 정해 12주 동안 함께 실행합니다.",
+    "sectionTitle": "분석하고, 숫자로 목표를 정하고, 매일 코칭합니다",
+    "sectionIntro": "계산기는 누구에게나 같은 평균 공식을 씁니다. 하비트는 내 몸을 먼저 분석하고, 그 결과로 하루 목표를 숫자로 정해 12주 동안 함께 실행합니다.",
     "steps": [
       {
         "label": "1단계",
-        "title": "장비 없이 AI 체성분 진단",
+        "title": "장비 없이 AI 체성분 분석",
         "body": "키·몸무게·나이와 생활습관 질문만으로 체성분을 추정해요. 자체 연구(70명)에서 InBody 측정값 대비 추정 정확도 92.9%였어요.",
         "shots": [
           {
             "file": "feature-body-insights.webp",
-            "alt": "하비트 앱 골격근-지방 분석·BMI 진단 화면"
+            "alt": "하비트 앱 골격근-지방·BMI 분석 화면"
           }
         ],
         "items": [
@@ -104,8 +104,8 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       },
       {
         "label": "2단계",
-        "title": "11가지 하루 목표를 숫자로 처방",
-        "body": "진단 결과로 매일 지킬 목표를 정확한 숫자로 정해요. 목표는 매주 내 체중 변화에 맞춰 다시 조정돼요.",
+        "title": "11가지 하루 목표를 숫자로 설정",
+        "body": "분석 결과로 매일 지킬 목표를 정확한 숫자로 정해요. 목표는 매주 내 체중 변화에 맞춰 다시 조정돼요.",
         "shots": [
           {
             "file": "home-targets.webp",
@@ -122,7 +122,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       {
         "label": "3단계",
         "title": "매일 실행과 AI 코칭",
-        "body": "처방은 지켜야 의미가 있어요. 기록은 쉽게, 다음 행동은 분명하게 만들어요.",
+        "body": "목표는 지켜야 의미가 있어요. 기록은 쉽게, 다음 행동은 분명하게 만들어요.",
         "shots": [
           {
             "file": "feature-nutrition.webp",
@@ -136,7 +136,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
         "items": [
           "식사는 사진 한 장으로 기록",
           "AI 코치 HAVI가 기록을 읽고 오늘 할 일 하나 제안",
-          "진단 결과 기반 126개 이상 카테고리의 맞춤 처방",
+          "분석 결과 기반 126개 이상 카테고리의 맞춤 가이드",
           "식단뿐 아니라 마음가짐까지, CBT 기반 코칭"
         ]
       },
@@ -184,7 +184,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       }
     ],
     "proofNote": "2026년 6~8월, 1주차·12주차 InBody 결과가 있는 78명(하비트 41명·대조군 37명) 분석. 비맹검 연구.",
-    "sectionButton": "무료로 내 진단 시작하기",
+    "sectionButton": "무료로 내 분석 시작하기",
     "disclaimer": "하비트는 의료기기가 아닌 웰니스 앱이며, 체성분 결과는 추정치예요."
   },
   "en": {
@@ -217,7 +217,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
     },
     "bannerButton": "Get my free body analysis",
     "sectionKicker": "An AI weight-loss coach built by experts from Juvis Diet, one of Korea's leading weight-loss clinics",
-    "sectionTitle": "Assess. Prescribe in numbers. Coach every day.",
+    "sectionTitle": "Analyze. Set targets in numbers. Coach every day.",
     "sectionIntro": "Calculators apply the same average formula to everyone. HAVIT assesses your body first, turns the results into daily targets in real numbers, and works through them with you for 12 weeks.",
     "steps": [
       {
@@ -240,7 +240,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       },
       {
         "label": "Step 2",
-        "title": "11 daily targets, prescribed in numbers",
+        "title": "11 daily targets, set in numbers",
         "body": "Your results set exact numbers for what to hit each day. Targets are readjusted every week based on how your weight changes.",
         "items": [
           "Calorie intake, protein, carbs, fat, and fiber",
@@ -251,7 +251,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
         "shots": [
           {
             "file": "home-targets.webp",
-            "alt": "HAVIT — 11 daily targets, prescribed in numbers"
+            "alt": "HAVIT — 11 daily targets, set in numbers"
           }
         ]
       },
@@ -350,41 +350,41 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
     }
   },
   "ja": {
-    "bannerTitle": "計算機は平均値、HAVITはあなたの体に合わせた処方",
+    "bannerTitle": "計算機は平均値、HAVITはあなたの体に合わせた目標設定",
     "banner": {
       "bmr": {
         "limit": "この計算式は身長・体重・年齢しか見ていません。同じ体重でも、筋肉が多いかどうかで基礎代謝は変わります。",
-        "havit": "HAVITはAI体組成診断で筋肉・体脂肪・内臓脂肪をまず推定し、その結果から1日の摂取カロリーと消費カロリーの目標を数字で処方します。"
+        "havit": "HAVITはAI体組成分析で筋肉・体脂肪・内臓脂肪をまず推定し、その結果から1日の摂取カロリーと消費カロリーの目標を数字で設定します。"
       },
       "protein": {
         "limit": "この計算機は体重と目標しか見ていません。本当に必要な量は、筋肉量や減量ペースによって変わります。",
-        "havit": "HAVITは体組成診断の結果から、たんぱく質・炭水化物・脂質・食物繊維の1日の目標をg単位で処方。写真1枚で記録した食事が目標をどれだけ満たしたかもひと目でわかります。"
+        "havit": "HAVITは体組成分析の結果から、たんぱく質・炭水化物・脂質・食物繊維の1日の目標をg単位で設定。写真1枚で記録した食事が目標をどれだけ満たしたかもひと目でわかります。"
       },
       "water": {
         "limit": "この計算機は今日1日分の目安です。体重が変われば、必要な量も変わります。",
-        "havit": "HAVITは診断結果から水分の目標を処方し、毎週あなたの体重に合わせて見直します。歩数・睡眠など、ほかの10の1日目標とまとめて管理できます。"
+        "havit": "HAVITは分析結果から水分の目標を設定し、毎週あなたの体重に合わせて見直します。歩数・睡眠など、ほかの10の1日目標とまとめて管理できます。"
       },
       "caffeine": {
         "limit": "カフェインの半減期は人によって2倍以上の差があります。平均5時間はあくまで目安です。",
-        "havit": "HAVITは睡眠時間の目標を処方。睡眠記録とその日のコーヒー・食事の記録をあわせて読み取り、AIコーチHAVIがあなたに合った調整を提案します。"
+        "havit": "HAVITは睡眠時間の目標を設定。睡眠記録とその日のコーヒー・食事の記録をあわせて読み取り、AIコーチHAVIがあなたに合った調整を提案します。"
       },
       "sleep-cycle": {
         "limit": "この計算機がわかるのは寝る時刻だけ。体重管理には、実際にどれだけ眠れたかのほうが大切です。",
-        "havit": "HAVITは診断結果から睡眠時間の目標を処方し、睡眠記録を食事や体重の推移とあわせて読み取って、今日やることをひとつ提案します。"
+        "havit": "HAVITは分析結果から睡眠時間の目標を設定し、睡眠記録を食事や体重の推移とあわせて読み取って、今日やることをひとつ提案します。"
       },
       "exercise-calories": {
         "limit": "消費カロリーは、摂取カロリーとセットで見てこそ意味があります。",
-        "havit": "HAVITは診断結果から、1日の消費カロリー・歩数の目標と摂取カロリーの目標をまとめて処方。運動や歩数の記録が目標に届いたかを毎日お知らせします。"
+        "havit": "HAVITは分析結果から、1日の消費カロリー・歩数の目標と摂取カロリーの目標をまとめて設定。運動や歩数の記録が目標に届いたかを毎日お知らせします。"
       }
     },
-    "bannerButton": "無料で体組成を診断",
+    "bannerButton": "無料で体組成を分析",
     "sectionKicker": "韓国有数のダイエットクリニック「Juvis Diet」の専門家が開発したAIダイエットコーチ、HAVIT",
-    "sectionTitle": "診断して、数字で処方して、毎日コーチング",
-    "sectionIntro": "計算機は誰にでも同じ平均の計算式を使います。HAVITはまずあなたの体を診断し、その結果から1日の目標を数字で決めて、12週間いっしょに実践します。",
+    "sectionTitle": "分析して、数字で目標を決めて、毎日コーチング",
+    "sectionIntro": "計算機は誰にでも同じ平均の計算式を使います。HAVITはまずあなたの体を分析し、その結果から1日の目標を数字で決めて、12週間いっしょに実践します。",
     "steps": [
       {
         "label": "STEP 1",
-        "title": "機器なしでAI体組成診断",
+        "title": "機器なしでAI体組成分析",
         "body": "身長・体重・年齢と生活習慣の質問だけで体組成を推定します。自社研究（70名）では、InBody測定値に対する推定精度は92.9%でした。",
         "items": [
           "HAVITスコア・基礎代謝率",
@@ -396,14 +396,14 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
         "shots": [
           {
             "file": "feature-body-insights.webp",
-            "alt": "HAVIT — 機器なしでAI体組成診断"
+            "alt": "HAVIT — 機器なしでAI体組成分析"
           }
         ]
       },
       {
         "label": "STEP 2",
-        "title": "11の1日目標を数字で処方",
-        "body": "診断結果をもとに、毎日守る目標を具体的な数字で設定。目標は毎週、あなたの体重の変化に合わせて見直されます。",
+        "title": "11の1日目標を数字で設定",
+        "body": "分析結果をもとに、毎日守る目標を具体的な数字で設定。目標は毎週、あなたの体重の変化に合わせて見直されます。",
         "items": [
           "摂取カロリー・たんぱく質・炭水化物・脂質・食物繊維",
           "消費カロリー・歩数",
@@ -413,18 +413,18 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
         "shots": [
           {
             "file": "home-targets.webp",
-            "alt": "HAVIT — 11の1日目標を数字で処方"
+            "alt": "HAVIT — 11の1日目標を数字で設定"
           }
         ]
       },
       {
         "label": "STEP 3",
         "title": "毎日の実践とAIコーチング",
-        "body": "処方は続けてこそ意味があります。記録はかんたんに、次の行動ははっきりと。",
+        "body": "目標は続けてこそ意味があります。記録はかんたんに、次の行動ははっきりと。",
         "items": [
           "食事は写真1枚で記録",
           "AIコーチHAVIが記録を読み取り、今日やることをひとつ提案",
-          "診断結果にもとづく126+カテゴリーのパーソナル処方",
+          "分析結果にもとづく126+カテゴリーのパーソナル提案",
           "食事だけでなく気持ちの面まで、CBTベースのコーチング"
         ],
         "shots": [
@@ -482,32 +482,32 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       }
     ],
     "proofNote": "2026年6〜8月、1週目・12週目のInBody結果がある78名（HAVIT 41名・対照群 37名）を分析。非盲検試験。",
-    "sectionButton": "無料で診断をはじめる",
+    "sectionButton": "無料で分析をはじめる",
     "disclaimer": "HAVITは医療機器ではなくウェルネスアプリです。体組成の結果は推定値です。",
     "bannerShot": {
       "bmr": {
         "file": "feature-body-insights.webp",
-        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた処方"
+        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた目標設定"
       },
       "protein": {
         "file": "feature-nutrition.webp",
-        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた処方"
+        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた目標設定"
       },
       "water": {
         "file": "feature-track-everything.webp",
-        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた処方"
+        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた目標設定"
       },
       "caffeine": {
         "file": "feature-ai-coach.webp",
-        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた処方"
+        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた目標設定"
       },
       "sleep-cycle": {
         "file": "feature-ai-coach.webp",
-        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた処方"
+        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた目標設定"
       },
       "exercise-calories": {
         "file": "feature-daily-missions.webp",
-        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた処方"
+        "alt": "HAVIT — 計算機は平均値、HAVITはあなたの体に合わせた目標設定"
       }
     }
   },
@@ -674,7 +674,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
     }
   },
   "zh-tw": {
-    "bannerTitle": "計算機給你平均值，HAVIT 給你專屬處方",
+    "bannerTitle": "計算機給你平均值，HAVIT 給你專屬方案",
     "banner": {
       "bmr": {
         "limit": "這個公式只看身高、體重和年齡。就算體重相同，肌肉量不同，基礎代謝率也會不一樣。",
@@ -703,7 +703,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
     },
     "bannerButton": "免費體組成分析",
     "sectionKicker": "HAVIT：由韓國領先減重機構之一 Juvis Diet 的專家打造的 AI 減重教練",
-    "sectionTitle": "先分析，再用數字開處方，每天陪你執行",
+    "sectionTitle": "先分析，再用數字訂目標，每天陪你執行",
     "sectionIntro": "計算機對每個人都套用同一套平均公式。HAVIT 先分析你的身體，再依結果用數字訂出每日目標，12 週陪你一起執行。",
     "steps": [
       {
@@ -744,11 +744,11 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       {
         "label": "第 3 步",
         "title": "每日執行 × AI 教練",
-        "body": "處方要做到才有意義。我們讓記錄變簡單，讓下一步變清楚。",
+        "body": "目標要做到才有意義。我們讓記錄變簡單，讓下一步變清楚。",
         "items": [
           "拍一張照片就能記錄餐點",
           "AI 教練 HAVI 解讀你的紀錄，建議今天該做的一件事",
-          "依分析結果，提供 126+ 個類別的個人化處方",
+          "依分析結果，提供 126+ 個類別的個人化方案",
           "不只飲食，連心態也一起照顧：以 CBT 為基礎的教練指導"
         ],
         "shots": [
@@ -811,27 +811,27 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
     "bannerShot": {
       "bmr": {
         "file": "feature-body-insights.webp",
-        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬處方"
+        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬方案"
       },
       "protein": {
         "file": "feature-nutrition.webp",
-        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬處方"
+        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬方案"
       },
       "water": {
         "file": "feature-track-everything.webp",
-        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬處方"
+        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬方案"
       },
       "caffeine": {
         "file": "feature-ai-coach.webp",
-        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬處方"
+        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬方案"
       },
       "sleep-cycle": {
         "file": "feature-ai-coach.webp",
-        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬處方"
+        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬方案"
       },
       "exercise-calories": {
         "file": "feature-daily-missions.webp",
-        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬處方"
+        "alt": "HAVIT — 計算機給你平均值，HAVIT 給你專屬方案"
       }
     }
   },
@@ -840,15 +840,15 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
     "banner": {
       "bmr": {
         "limit": "Esta fórmula solo usa estatura, peso y edad. Dos personas con el mismo peso pueden tener metabolismos basales distintos si una tiene más músculo.",
-        "havit": "HAVIT primero estima tu músculo, grasa corporal y grasa visceral con un diagnóstico de composición corporal con IA. Con ese resultado te fija metas diarias exactas de calorías consumidas y quemadas."
+        "havit": "HAVIT primero estima tu músculo, grasa corporal y grasa visceral con un análisis de composición corporal con IA. Con ese resultado te fija metas diarias exactas de calorías consumidas y quemadas."
       },
       "protein": {
         "limit": "Esta calculadora solo considera tu peso y tu meta. Lo que realmente necesitas depende de tu masa muscular y del ritmo al que bajas de peso.",
-        "havit": "HAVIT usa tu diagnóstico de composición corporal para fijarte metas diarias en gramos de proteína, carbohidratos, grasa y fibra. Registras cada comida con una sola foto y ves cuánto de tu meta llevas cubierto."
+        "havit": "HAVIT usa tu análisis de composición corporal para fijarte metas diarias en gramos de proteína, carbohidratos, grasa y fibra. Registras cada comida con una sola foto y ves cuánto de tu meta llevas cubierto."
       },
       "water": {
         "limit": "Esta calculadora sirve solo para hoy. Cuando cambia tu peso, también cambia lo que necesitas.",
-        "havit": "HAVIT te fija una meta de hidratación según tu diagnóstico y la ajusta cada semana a tu peso. La gestionas junto con otras 10 metas diarias, como pasos y sueño."
+        "havit": "HAVIT te fija una meta de hidratación según tu análisis y la ajusta cada semana a tu peso. La gestionas junto con otras 10 metas diarias, como pasos y sueño."
       },
       "caffeine": {
         "limit": "La vida media de la cafeína puede variar más del doble de una persona a otra. Las 5 horas promedio son solo un punto de partida.",
@@ -856,21 +856,21 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       },
       "sleep-cycle": {
         "limit": "Esta calculadora solo te dice a qué hora dormirte. Para controlar tu peso importa más cuánto duermes de verdad.",
-        "havit": "HAVIT te fija una meta de horas de sueño según tu diagnóstico. Lee tu registro de sueño junto con tus comidas y la evolución de tu peso, y te propone una sola acción para hoy."
+        "havit": "HAVIT te fija una meta de horas de sueño según tu análisis. Lee tu registro de sueño junto con tus comidas y la evolución de tu peso, y te propone una sola acción para hoy."
       },
       "exercise-calories": {
         "limit": "Las calorías que quemas cobran sentido cuando las comparas con las que comes.",
-        "havit": "HAVIT te fija, según tu diagnóstico, metas diarias de calorías quemadas, pasos y calorías consumidas. Cada día ves si tu ejercicio y tus pasos alcanzaron la meta."
+        "havit": "HAVIT te fija, según tu análisis, metas diarias de calorías quemadas, pasos y calorías consumidas. Cada día ves si tu ejercicio y tus pasos alcanzaron la meta."
       }
     },
-    "bannerButton": "Diagnóstico corporal gratis",
+    "bannerButton": "Análisis corporal gratis",
     "sectionKicker": "HAVIT, el coach de pérdida de peso con IA creado por expertos de Juvis Diet, una de las clínicas de pérdida de peso líderes de Corea",
-    "sectionTitle": "Diagnostica, receta metas exactas y te acompaña cada día",
-    "sectionIntro": "Una calculadora le aplica a todo el mundo la misma fórmula promedio. HAVIT primero diagnostica tu cuerpo, con ese resultado fija tus metas diarias en cifras exactas y te acompaña a cumplirlas durante 12 semanas.",
+    "sectionTitle": "Analiza, marca metas exactas y te acompaña cada día",
+    "sectionIntro": "Una calculadora le aplica a todo el mundo la misma fórmula promedio. HAVIT primero analiza tu cuerpo, con ese resultado fija tus metas diarias en cifras exactas y te acompaña a cumplirlas durante 12 semanas.",
     "steps": [
       {
         "label": "Paso 1",
-        "title": "Diagnóstico de composición corporal con IA, sin equipos",
+        "title": "Análisis de composición corporal con IA, sin equipos",
         "body": "Estima tu composición corporal con tu estatura, peso, edad y unas preguntas sobre tus hábitos. En un estudio propio (70 personas), la precisión de la estimación fue del 92.9% frente a las mediciones de InBody.",
         "items": [
           "Puntaje HAVIT y tasa metabólica basal",
@@ -882,14 +882,14 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
         "shots": [
           {
             "file": "feature-body-insights.webp",
-            "alt": "HAVIT — Diagnóstico de composición corporal con IA, sin equipos"
+            "alt": "HAVIT — Análisis de composición corporal con IA, sin equipos"
           }
         ]
       },
       {
         "label": "Paso 2",
         "title": "11 metas diarias en cifras exactas",
-        "body": "Tu diagnóstico define las metas que cumplirás cada día, con números precisos. Cada semana se ajustan según cómo cambia tu peso.",
+        "body": "Tu análisis define las metas que cumplirás cada día, con números precisos. Cada semana se ajustan según cómo cambia tu peso.",
         "items": [
           "Calorías consumidas, proteína, carbohidratos, grasa y fibra",
           "Calorías quemadas y pasos",
@@ -910,7 +910,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
         "items": [
           "Registra tus comidas con una sola foto",
           "HAVI, tu coach con IA, lee tus registros y te propone una acción para hoy",
-          "Recomendaciones personalizadas en 126+ categorías según tu diagnóstico",
+          "Recomendaciones personalizadas en 126+ categorías según tu análisis",
           "Coaching basado en TCC (CBT): no solo tu alimentación, también tu mentalidad"
         ],
         "shots": [
@@ -968,7 +968,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       }
     ],
     "proofNote": "Junio–agosto de 2026. Análisis de 78 personas con resultados de InBody en la semana 1 y la semana 12 (41 HAVIT, 37 grupo control). Estudio no ciego.",
-    "sectionButton": "Haz tu diagnóstico gratis",
+    "sectionButton": "Haz tu análisis gratis",
     "disclaimer": "HAVIT es una app de bienestar, no un dispositivo médico. Los resultados de composición corporal son estimaciones.",
     "bannerShot": {
       "bmr": {
@@ -1002,15 +1002,15 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
     "banner": {
       "bmr": {
         "limit": "Esta fórmula considera só altura, peso e idade. Com o mesmo peso, quem tem mais músculo tem outro metabolismo basal.",
-        "havit": "O HAVIT estima primeiro seus músculos, gordura corporal e gordura visceral com um diagnóstico de composição corporal por IA. Com esse resultado, prescreve em números suas metas diárias de calorias consumidas e gastas."
+        "havit": "O HAVIT estima primeiro seus músculos, gordura corporal e gordura visceral com uma análise de composição corporal por IA. Com esse resultado, define em números suas metas diárias de calorias consumidas e gastas."
       },
       "protein": {
         "limit": "Esta calculadora considera só seu peso e sua meta. A quantidade de que você precisa de verdade depende da sua massa muscular e do ritmo de perda de peso.",
-        "havit": "O HAVIT usa seu diagnóstico de composição corporal para prescrever metas diárias de proteína, carboidratos, gorduras e fibras, em gramas. E mostra quanto de cada meta suas refeições já cobriram. Para registrar, basta uma foto."
+        "havit": "O HAVIT usa sua análise de composição corporal para definir metas diárias de proteína, carboidratos, gorduras e fibras, em gramas. E mostra quanto de cada meta suas refeições já cobriram. Para registrar, basta uma foto."
       },
       "water": {
         "limit": "Esta calculadora vale só para hoje. Quando o seu peso muda, a quantidade de água também muda.",
-        "havit": "O HAVIT prescreve sua meta de água a partir do diagnóstico e a ajusta toda semana conforme o seu peso. Ela fica junto com outras 10 metas diárias, como passos e sono."
+        "havit": "O HAVIT define sua meta de água a partir da análise e a ajusta toda semana conforme o seu peso. Ela fica junto com outras 10 metas diárias, como passos e sono."
       },
       "caffeine": {
         "limit": "A meia-vida da cafeína pode variar mais que o dobro de uma pessoa para outra. A média de 5 horas é só um ponto de partida.",
@@ -1018,21 +1018,21 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       },
       "sleep-cycle": {
         "limit": "Esta calculadora só diz a hora de dormir. Para controlar o peso, o que mais importa é quanto você realmente dormiu.",
-        "havit": "O HAVIT prescreve sua meta de horas de sono a partir do diagnóstico. Depois analisa seus registros de sono junto com suas refeições e a evolução do seu peso, e indica uma única ação para hoje."
+        "havit": "O HAVIT define sua meta de horas de sono a partir da análise. Depois analisa seus registros de sono junto com suas refeições e a evolução do seu peso, e indica uma única ação para hoje."
       },
       "exercise-calories": {
         "limit": "As calorias gastas só fazem sentido quando comparadas com as calorias consumidas.",
-        "havit": "O HAVIT usa seu diagnóstico para prescrever juntas as metas diárias de calorias gastas, passos e calorias consumidas. Todo dia, mostra se seus treinos e passos bateram a meta."
+        "havit": "O HAVIT usa sua análise para definir juntas as metas diárias de calorias gastas, passos e calorias consumidas. Todo dia, mostra se seus treinos e passos bateram a meta."
       }
     },
-    "bannerButton": "Fazer diagnóstico grátis",
+    "bannerButton": "Fazer análise grátis",
     "sectionKicker": "HAVIT: coach de emagrecimento com IA criado por especialistas da Juvis Diet, uma das principais clínicas de emagrecimento da Coreia",
-    "sectionTitle": "Diagnóstico, prescrição em números e coaching diário",
-    "sectionIntro": "Calculadoras aplicam a mesma fórmula média para todo mundo. O HAVIT primeiro diagnostica o seu corpo, define suas metas diárias em números a partir do resultado e acompanha você por 12 semanas.",
+    "sectionTitle": "Análise, metas em números e coaching diário",
+    "sectionIntro": "Calculadoras aplicam a mesma fórmula média para todo mundo. O HAVIT primeiro analisa o seu corpo, define suas metas diárias em números a partir do resultado e acompanha você por 12 semanas.",
     "steps": [
       {
         "label": "Etapa 1",
-        "title": "Diagnóstico de composição corporal por IA, sem aparelhos",
+        "title": "Análise de composição corporal por IA, sem aparelhos",
         "body": "Estimamos sua composição corporal só com altura, peso, idade e algumas perguntas sobre seus hábitos. Em estudo próprio (70 pessoas), a precisão da estimativa foi de 92.9% em relação às medições do InBody.",
         "items": [
           "Pontuação HAVIT e taxa metabólica basal",
@@ -1044,14 +1044,14 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
         "shots": [
           {
             "file": "feature-body-insights.webp",
-            "alt": "HAVIT — Diagnóstico de composição corporal por IA, sem aparelhos"
+            "alt": "HAVIT — Análise de composição corporal por IA, sem aparelhos"
           }
         ]
       },
       {
         "label": "Etapa 2",
-        "title": "11 metas diárias prescritas em números",
-        "body": "A partir do diagnóstico, definimos números exatos para você seguir todo dia. Toda semana, as metas são reajustadas conforme a evolução do seu peso.",
+        "title": "11 metas diárias definidas em números",
+        "body": "A partir da análise, definimos números exatos para você seguir todo dia. Toda semana, as metas são reajustadas conforme a evolução do seu peso.",
         "items": [
           "Calorias consumidas, proteínas, carboidratos, gorduras e fibras",
           "Calorias gastas e passos",
@@ -1061,18 +1061,18 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
         "shots": [
           {
             "file": "home-targets.webp",
-            "alt": "HAVIT — 11 metas diárias prescritas em números"
+            "alt": "HAVIT — 11 metas diárias definidas em números"
           }
         ]
       },
       {
         "label": "Etapa 3",
         "title": "Ação diária com coaching por IA",
-        "body": "Uma prescrição só funciona se for seguida. Por isso, registrar é fácil e o próximo passo fica sempre claro.",
+        "body": "Uma meta só funciona se for seguida. Por isso, registrar é fácil e o próximo passo fica sempre claro.",
         "items": [
           "Registre refeições com uma foto",
           "A HAVI, sua coach de IA, analisa seus registros e sugere uma ação para hoje",
-          "Prescrições personalizadas em 126+ categorias, com base no seu diagnóstico",
+          "Planos personalizados em 126+ categorias, com base na sua análise",
           "CBT-based coaching: não só para a dieta, mas também para o mindset"
         ],
         "shots": [
@@ -1130,7 +1130,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       }
     ],
     "proofNote": "Análise de 78 pessoas (41 HAVIT, 37 grupo controle) com resultados de InBody na semana 1 e na semana 12, de junho a agosto de 2026. Estudo não cego.",
-    "sectionButton": "Começar diagnóstico grátis",
+    "sectionButton": "Começar análise grátis",
     "disclaimer": "O HAVIT é um app de bem-estar, não um dispositivo médico. Os resultados de composição corporal são estimativas.",
     "bannerShot": {
       "bmr": {
@@ -1488,15 +1488,15 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
     "banner": {
       "bmr": {
         "limit": "Cette formule ne tient compte que de la taille, du poids et de l'âge. À poids égal, plus de muscle change votre métabolisme de base.",
-        "havit": "HAVIT estime d'abord vos muscles, votre masse grasse et votre graisse viscérale grâce à un diagnostic IA de composition corporelle, puis fixe en chiffres vos objectifs quotidiens de calories consommées et dépensées."
+        "havit": "HAVIT estime d'abord vos muscles, votre masse grasse et votre graisse viscérale grâce à une analyse IA de composition corporelle, puis fixe en chiffres vos objectifs quotidiens de calories consommées et dépensées."
       },
       "protein": {
         "limit": "Ce calculateur ne regarde que votre poids et votre objectif. Vos vrais besoins dépendent de votre masse musculaire et de votre rythme de perte de poids.",
-        "havit": "HAVIT fixe au gramme près vos objectifs quotidiens de protéines, glucides, lipides et fibres d'après votre diagnostic, et vous montre ce que chaque repas, enregistré en une photo, couvre de vos objectifs."
+        "havit": "HAVIT fixe au gramme près vos objectifs quotidiens de protéines, glucides, lipides et fibres d'après votre analyse, et vous montre ce que chaque repas, enregistré en une photo, couvre de vos objectifs."
       },
       "water": {
         "limit": "Ce calculateur se base sur aujourd'hui. Quand votre poids change, vos besoins changent aussi.",
-        "havit": "HAVIT fixe votre objectif d'hydratation d'après votre diagnostic et le réajuste chaque semaine selon votre poids. Il le suit avec 10 autres objectifs quotidiens, comme les pas et le sommeil."
+        "havit": "HAVIT fixe votre objectif d'hydratation d'après votre analyse et le réajuste chaque semaine selon votre poids. Il le suit avec 10 autres objectifs quotidiens, comme les pas et le sommeil."
       },
       "caffeine": {
         "limit": "La demi-vie de la caféine varie de plus du simple au double d'une personne à l'autre. La moyenne de 5 heures n'est qu'un point de départ.",
@@ -1504,21 +1504,21 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       },
       "sleep-cycle": {
         "limit": "Ce calculateur vous donne seulement l'heure du coucher. Pour gérer votre poids, c'est surtout la durée réelle de sommeil qui compte.",
-        "havit": "HAVIT fixe votre objectif de sommeil d'après votre diagnostic, croise vos nuits avec vos repas et l'évolution de votre poids, et vous propose une seule action pour aujourd'hui."
+        "havit": "HAVIT fixe votre objectif de sommeil d'après votre analyse, croise vos nuits avec vos repas et l'évolution de votre poids, et vous propose une seule action pour aujourd'hui."
       },
       "exercise-calories": {
         "limit": "Les calories brûlées n'ont de sens que si on les compare aux calories consommées.",
-        "havit": "HAVIT fixe ensemble vos objectifs de calories dépensées, de pas et de calories consommées d'après votre diagnostic, et vous montre chaque jour si votre activité et vos pas les atteignent."
+        "havit": "HAVIT fixe ensemble vos objectifs de calories dépensées, de pas et de calories consommées d'après votre analyse, et vous montre chaque jour si votre activité et vos pas les atteignent."
       }
     },
-    "bannerButton": "Diagnostic corporel gratuit",
+    "bannerButton": "Analyse corporelle gratuite",
     "sectionKicker": "HAVIT, le coach minceur IA conçu par les experts de Juvis Diet, l'une des principales cliniques minceur de Corée",
-    "sectionTitle": "Diagnostiquer, prescrire en chiffres, coacher chaque jour",
-    "sectionIntro": "Un calculateur applique la même formule moyenne à tout le monde. HAVIT diagnostique d'abord votre corps, en tire des objectifs quotidiens chiffrés et vous accompagne pendant 12 semaines pour les atteindre.",
+    "sectionTitle": "Analyser, fixer des objectifs chiffrés, coacher chaque jour",
+    "sectionIntro": "Un calculateur applique la même formule moyenne à tout le monde. HAVIT analyse d'abord votre corps, en tire des objectifs quotidiens chiffrés et vous accompagne pendant 12 semaines pour les atteindre.",
     "steps": [
       {
         "label": "Étape 1",
-        "title": "Diagnostic IA de composition corporelle, sans appareil",
+        "title": "Analyse IA de composition corporelle, sans appareil",
         "body": "Quelques questions sur votre taille, votre poids, votre âge et votre mode de vie suffisent pour estimer votre composition corporelle. Dans notre étude interne (70 personnes), l'estimation était précise à 92.9% par rapport aux mesures InBody.",
         "items": [
           "Score HAVIT et métabolisme de base",
@@ -1530,14 +1530,14 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
         "shots": [
           {
             "file": "feature-body-insights.webp",
-            "alt": "HAVIT — Diagnostic IA de composition corporelle, sans appareil"
+            "alt": "HAVIT — Analyse IA de composition corporelle, sans appareil"
           }
         ]
       },
       {
         "label": "Étape 2",
         "title": "11 objectifs quotidiens, en chiffres",
-        "body": "Votre diagnostic définit des objectifs précis à tenir chaque jour. Ils sont réajustés chaque semaine selon l'évolution de votre poids.",
+        "body": "Votre analyse définit des objectifs précis à tenir chaque jour. Ils sont réajustés chaque semaine selon l'évolution de votre poids.",
         "items": [
           "Calories consommées, protéines, glucides, lipides, fibres",
           "Calories dépensées, nombre de pas",
@@ -1554,11 +1554,11 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       {
         "label": "Étape 3",
         "title": "Passer à l'action, avec un coaching IA quotidien",
-        "body": "Une prescription n'a de valeur que si on la suit. Le suivi devient simple, et la prochaine étape évidente.",
+        "body": "Un objectif n'a de valeur que si on le suit. Le suivi devient simple, et la prochaine étape évidente.",
         "items": [
           "Vos repas enregistrés en une seule photo",
           "HAVI, votre coach IA, lit vos données et vous propose une action pour aujourd'hui",
-          "Des recommandations sur mesure dans 126+ catégories, basées sur votre diagnostic",
+          "Des recommandations sur mesure dans 126+ catégories, basées sur votre analyse",
           "Un coaching basé sur la CBT, pour l'alimentation comme pour le mental"
         ],
         "shots": [
@@ -1616,7 +1616,7 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
       }
     ],
     "proofNote": "Juin–août 2026 : analyse de 78 personnes (41 HAVIT, 37 groupe témoin) disposant de résultats InBody en semaine 1 et en semaine 12. Étude non aveugle.",
-    "sectionButton": "Mon diagnostic gratuit",
+    "sectionButton": "Mon analyse gratuite",
     "disclaimer": "HAVIT est une app de bien-être, pas un dispositif médical. Les résultats de composition corporelle sont des estimations.",
     "bannerShot": {
       "bmr": {

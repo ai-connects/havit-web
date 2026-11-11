@@ -12,7 +12,7 @@ const PLACEMENT = 'blog_mid';
 
 interface Props { lang: LangKey; shortLang: string; articleId: string; slug: string; category?: string }
 
-/** 글 중간 설치 블록 — 진단·정량 처방 메시지. 문구가 없는 언어는 기존 MidArticleCTA. */
+/** 글 중간 설치 블록 — 분석·숫자 목표 메시지. 문구가 없는 언어는 기존 MidArticleCTA. */
 export default function ArticleHavitCta(props: Props) {
   const { lang, shortLang, articleId, slug, category } = props;
   const os = useMobileOS();
