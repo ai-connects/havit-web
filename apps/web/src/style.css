@@ -1555,6 +1555,13 @@ a {
   color: var(--white-60);
   padding: 64px 0;
 }
+/* 모바일 하단 고정 CTA(캐릭터 포함 약 130px)가 항상 떠 있으므로(main.js) 푸터 맨 아래 글이 가리지 않게 비워 둔다.
+   위 .footer 기본값보다 뒤에 둬야 이긴다. */
+@media (max-width: 640px) {
+  .footer {
+    padding-bottom: calc(150px + env(safe-area-inset-bottom));
+  }
+}
 /* No filter here either. The 2.1 mark is a bare wordmark on a transparent
    surround, so the dark footer gets its own asset (havit-logo-white.svg, the
    same paths with the wordmark filled white) instead of a filter — the
