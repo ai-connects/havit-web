@@ -172,6 +172,21 @@ async function legacy(path, search) {
   return `${WWW}/blog${path}${search}`;
 }
 
+// W2AC 광고 링크(/open, /open/<target>) — 앱 미설치자에게 보이는 랜딩. 리디렉트하지 않고 언어판 파일로
+// 리라이트만 한다(광고 심사는 최종 URL 이 200 실제 페이지여야 통과). 언어: ?lang → hv_lang 쿠키 → Accept-Language → 영어.
+// 파일은 apps/web/plugins/i18n-html.js LANDING_PAGES 가 찍는다. 문서: docs/w2ac-open-link.md
+function openLanding(req) {
+  const q = req.querystring && req.querystring.lang;
+  let l = q ? toLocale(String(q.multiValue ? q.multiValue[0].value : q.value).toLowerCase()) : null;
+  const c = req.cookies && req.cookies.hv_lang;
+  if (!l && c) l = toLocale(c.value.toLowerCase());
+  if (!l) {
+    const al = req.headers['accept-language'];
+    l = pickLocale(al ? al.value : '');
+  }
+  return !l || l === D.def ? '/open/index.html' : `/_open/${l}.html`;
+}
+
 async function handler(event) {
   const req = event.request;
   const host = req.headers.host ? req.headers.host.value.toLowerCase() : '';
@@ -214,6 +229,11 @@ async function handler(event) {
     else if (last.indexOf('.') === -1 && !has(D.extensionless, path)) req.uri = `${path}.html`;
     return req;
   }
+  if (path === '/open' || path.startsWith('/open/')) {
+    req.uri = openLanding(req);
+    return req;
+  }
+  if (has(D.extensionless, path)) return req;
   if (path.endsWith('/')) req.uri = `${path}index.html`;
   else if (path.slice(path.lastIndexOf('/') + 1).indexOf('.') === -1) req.uri = `${path}/index.html`;
   return req;

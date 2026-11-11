@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.aiconnects.havitWellness",
+      "sha256_cert_fingerprints": [
+        "A6:09:01:05:9B:F8:9E:72:27:BA:99:07:8A:D2:04:98:02:38:EF:F3:64:AF:10:2F:20:45:5D:55:7C:61:F4:BD"
+      ]
+    }
+  }
+]

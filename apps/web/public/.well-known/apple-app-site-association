@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["92YBP87N46.com.aiconnects.havit-wellness"],
+        "components": [
+          { "/": "/open", "comment": "W2AC 광고 링크 루트" },
+          { "/": "/open/", "comment": "W2AC 광고 링크 루트(슬래시)" },
+          { "/": "/open/*", "comment": "W2AC 광고 링크 /open/<target>" }
+        ]
+      }
+    ]
+  }
+}

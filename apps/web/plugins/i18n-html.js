@@ -181,6 +181,32 @@ export const I18N_PAGES = [
 const HOME_PAGE = I18N_PAGES[0]
 
 /**
+ * 광고 랜딩(색인 안 함). I18N_PAGES 와 달리 hreflang·사이트맵·언어 메뉴·푸터 링크를 넣지 않고
+ * 홈과 같은 키로 본문·<title>·description 만 바꾼다. 경로는 하나(/open, /open/<target>)이고
+ * 언어는 엣지 함수가 고른다: 영어 = 번들 그대로(open/index.html), 나머지 = `_open/<locale>.html`.
+ * 파일 위치를 바꾸면 apps/static-site/edge/viewer-request.src.js 의 openLanding() 도 같이 바꿀 것.
+ */
+export const LANDING_PAGES = [
+  { bundle: 'open/index.html', file: (l) => `_open/${l}.html`, titleKey: '__title', descKey: '__description' },
+]
+
+export function renderLanding(baseHtml, locale, page) {
+  const meta = LOCALE_META[locale]
+  const dict = locale === DEFAULT_LOCALE ? {} : loadDict(locale)
+  let { html, missing } = locale === DEFAULT_LOCALE ? { html: baseHtml, missing: 0 } : translateBody(baseHtml, dict)
+  html = html.replace(/<html\b[^>]*>/i, `<html lang="${meta.htmlLang}"${meta.dir ? ` dir="${meta.dir}"` : ''}>`)
+  if (dict[page.titleKey]) html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${dict[page.titleKey]}</title>`)
+  if (dict[page.descKey]) {
+    html = html.replace(
+      /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
+      `<meta name="description" content="${dict[page.descKey]}" />`,
+    )
+  }
+  html = html.replace(/<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i, `<meta property="og:image" content="${ogImageUrl(locale)}" />`)
+  return { html, missing }
+}
+
+/**
  * 이 페이지를 실제로 찍을 로케일.
  *
  * 홈은 로케일 사전이 있으면 전부 찍는다. 홈이 아닌 페이지는 **그 페이지의 문구가
@@ -469,6 +495,21 @@ export default function i18nHtml() {
           // 쓰려면 앞뒤를 떼고 index.html 을 붙인다.
           const fileName = `${page.path(locale).replace(/^\/|\/$/g, '')}/index.html`
           this.emitFile({ type: 'asset', fileName, source: html })
+        }
+      }
+      for (const page of LANDING_PAGES) {
+        const entry = bundle[page.bundle]
+        if (!entry) {
+          this.warn(`[i18n] ${page.bundle} 이 번들에 없다 — vite.config.js 의 input 을 확인할 것`)
+          continue
+        }
+        const base = typeof entry.source === 'string' ? entry.source : entry.source.toString()
+        for (const locale of translatedLocales()) {
+          if (locale === DEFAULT_LOCALE) continue
+          const { html, missing } = renderLanding(base, locale, page)
+          // 영어로 남은 문구가 섞인 언어판을 내보내지 않는다(영어 대체 금지).
+          if (missing) this.error(`[i18n] ${locale} ${page.bundle}: ${missing} keys missing from src/i18n/${locale}.json`)
+          this.emitFile({ type: 'asset', fileName: page.file(locale), source: html })
         }
       }
     },
