@@ -14,7 +14,7 @@ Google Ads 디맨드젠(웹 → 앱) 최종 URL. 앱이 깔린 기기는 OS 가 
 
 - iOS: `apple-app-site-association` 의 `components` 가 `/open`, `/open/`, `/open/*` 만 받는다. 다른 경로는 앱으로 넘어가지 않는다.
 - Android: `assetlinks.json` 은 도메인 검증만 한다. 어떤 경로를 열지는 앱 매니페스트의 intent-filter(`pathPrefix="/open"`)가 정한다(앱 쪽 작업).
-- 언어: CloudFront 함수가 `?lang` → `hv_lang` 쿠키 → `Accept-Language` → 영어 순으로 골라 `/_open/<locale>.html` 로 리라이트한다. 리디렉트가 아니고 주소창은 `/open/...` 그대로다. 언어판은 빌드가 `apps/web/src/i18n/<locale>.json` 의 홈 히어로 키로 34개 언어 전부를 찍고, 키가 하나라도 없으면 빌드가 실패한다(영어 대체 없음).
+- 언어: CloudFront 함수가 `?lang` → `hv_lang` 쿠키 → `Accept-Language` → 영어 순으로 골라 `/_open/<locale>.html` 로 리라이트한다. 리디렉트가 아니고 주소창은 `/open/...` 그대로다. 언어판은 빌드가 `apps/web/src/i18n/<locale>.json` 의 홈 키로 34개 언어 전부를 찍고, 키가 하나라도 없으면 빌드가 실패한다(영어 대체 없음).
 - 색인: `<meta name="robots" content="noindex">` 만 단다(홈과 같은 문구). robots.txt 로는 막지 않는다 — AdsBot 이 읽어야 한다. 사이트맵·hreflang 에도 넣지 않는다.
 
 ## 귀속(스토어 배지)
@@ -30,7 +30,7 @@ Google Ads 디맨드젠(웹 → 앱) 최종 URL. 앱이 깔린 기기는 OS 가 
 |---|---|
 | `apps/web/public/.well-known/assetlinks.json` | Android, `com.aiconnects.havitWellness`, SHA-256 `A6:09:…:F4:BD`(prod.aihavit.org·havit.onelink.me 와 같음) |
 | `apps/web/public/.well-known/apple-app-site-association` | iOS, `92YBP87N46.com.aiconnects.havit-wellness`, 확장자 없음 |
-| `apps/web/open/index.html` | 랜딩(영어 원본). 문구는 홈 히어로 키만 쓴다 |
+| `apps/web/open/index.html` | 랜딩(영어 원본). 홈 본문(아티클·블로그 제외: 히어로·기능·임상·후기·비교·근거·FAQ·최종 스토어 버튼)과 같은 마크업·키, 모바일 하단 고정 설치 버튼. 상단 메뉴·블로그 링크 없음 |
 | `apps/web/plugins/i18n-html.js` `LANDING_PAGES` | 언어판 `_open/<locale>.html` 생성 |
 | `apps/static-site/edge/viewer-request.src.js` `openLanding()` | `/open*` 리라이트, `.well-known` 확장자 없는 파일 통과 |
 | `apps/static-site/scripts/rules.mjs` | `.well-known/*` 업로드 `Content-Type: application/json` |

@@ -203,7 +203,8 @@ export function renderLanding(baseHtml, locale, page) {
     )
   }
   html = html.replace(/<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i, `<meta property="og:image" content="${ogImageUrl(locale)}" />`)
-  return { html, missing }
+  // 기능 카드 앱 화면을 홈 언어판과 같은 이미지로.
+  return { html: localizeImages(html, locale), missing }
 }
 
 /**
