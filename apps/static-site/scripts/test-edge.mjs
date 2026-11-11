@@ -106,5 +106,23 @@ for (const [k, v] of Object.entries(pol.blog)) {
   if (!yml.includes(val)) fails.push({ test: 'headers-policy', k, v })
 }
 
+// ── 5. W2AC /open 랜딩 · 앱 링크 확인 파일: 리디렉트 없이 리라이트(docs/w2ac-open-link.md) ──
+const openCases = [
+  ['/.well-known/apple-app-site-association', {}, '', '/.well-known/apple-app-site-association'],
+  ['/.well-known/assetlinks.json', {}, '', '/.well-known/assetlinks.json'],
+  ['/open', {}, '', '/open/index.html'],
+  ['/open/', {}, 'en-US', '/open/index.html'],
+  ['/open/premium', { campaign: { value: 'x' }, gclid: { value: 'abc' } }, 'ko-KR,ko;q=0.9', '/_open/ko.html'],
+  ['/open/a/b', {}, 'zh-Hant-TW', '/_open/zh-tw.html'],
+  ['/open/premium', { lang: { value: 'ja' } }, 'ko-KR', '/_open/ja.html'],
+  ['/open', {}, 'nn-NO', '/_open/nb.html'],
+]
+for (const [uri, querystring, al, want] of openCases) {
+  checked++
+  const headers = { host: { value: 'www.aihavit.com' }, ...(al ? { 'accept-language': { value: al } } : {}) }
+  const r = await edge.handler({ request: { uri, querystring, headers, cookies: {} } })
+  if (r.statusCode || r.uri !== want) fails.push({ test: 'w2ac-open', uri, al, want, got: r.statusCode ?? r.uri })
+}
+
 console.log(JSON.stringify({ checked, failed: fails.length, sample: fails.slice(0, 8) }, null, 1))
 process.exit(fails.length ? 1 : 0)

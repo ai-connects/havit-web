@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- W2AC(웹 → 앱) 광고 링크 www.aihavit.com/open, /open/<target> 의 웹 쪽.
+         앱이 깔린 기기는 OS 가 이 URL 을 앱으로 연다(public/.well-known 의 assetlinks.json ·
+         apple-app-site-association). 여기 오는 건 앱이 없는 사람뿐이라, 홈 히어로와 같은 문구 +
+         스토어 배지만 둔다. Google 광고 심사가 최종 URL 을 「실제 내용이 있는 페이지」로 봐야
+         하므로 자동 이동(스크립트·meta refresh)을 넣지 말 것 — app.aihavit.com 리디렉터가
+         「대상 페이지 불일치」로 거절된 이유다.
+         언어: 빌드가 src/i18n/<locale>.json 의 홈 키로 /_open/<locale>.html 을 찍고, 엣지 함수가
+         ?lang → hv_lang 쿠키 → Accept-Language 순으로 골라 리라이트한다(리디렉트 아님, 200).
+         문서: docs/w2ac-open-link.md -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <!-- 광고 랜딩 전용이라 색인하지 않는다(홈과 같은 문구라 중복 문서). robots.txt 로는 막지 않는다 — AdsBot 이 읽어야 한다. -->
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>HAVIT — AI Weight Loss Coach | Everything in One App</title>
+    <meta
+      name="description"
+      content="HAVI reads your meals, weight, body composition and sleep, then tells you one thing to do today. 4× more likely to lose 5%+ in a 12-week study."
+    />
+    <meta property="og:site_name" content="HAVIT" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.aihavit.com/og/en.png" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4NEXM0LNTK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() { dataLayer.push(arguments) }
+      gtag('js', new Date())
+      gtag('config', 'G-4NEXM0LNTK')
+      addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[data-store]')
+        if (a) gtag('event', 'store_badge_click', { store: a.getAttribute('data-store'), link_location: 'w2ac_open' })
+      })
+    </script>
+    <style>
+      .open-hero { padding: 24px 0 56px; }
+      .open-hero .hero__inner > * { min-width: 0; }
+      .open-hero .hero__copy { max-width: 100%; }
+      .open-hero .hero__badges { align-items: center; }
+      .open-hero .hero__badge.is-device { order: -1; }
+      .open-hero .hero__badge.is-device img { height: 56px; }
+      .open-hero .hero__badges.has-device .hero__badge:not(.is-device) { opacity: 0.55; }
+      .open-legal { display: flex; gap: 16px; justify-content: center; padding: 24px 16px 40px; }
+      .open-legal a { color: inherit; opacity: 0.6; }
+      @media (max-width: 640px) {
+        .open-hero .hero__inner { grid-template-columns: 1fr; }
+        .open-hero .hero__visual { max-width: 260px; margin: 0 auto; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="nav__inner">
+        <a href="/" class="nav__logo">
+          <img src="/havit-logo.svg" alt="HAVIT" width="264" height="163" />
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero open-hero">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <div class="rating">
+              <img decoding="async" width="85" height="160" class="rating__leaf rating__leaf--left" src="/src/assets/images/icon-laurel-left.webp" alt="" />
+              <div class="rating__body">
+                <div class="rating__stars">
+                  <span class="star-icon" aria-hidden="true"></span>
+                  <span class="star-icon" aria-hidden="true"></span>
+                  <span class="star-icon" aria-hidden="true"></span>
+                  <span class="star-icon" aria-hidden="true"></span>
+                  <span class="star-icon" aria-hidden="true"></span>
+                </div>
+                <div data-i18n="4-8" class="rating__score text-title-xlarge">4.8</div>
+                <div data-i18n="average-rating" class="rating__label text-body-small">Average Rating</div>
+              </div>
+              <img decoding="async" width="85" height="160" class="rating__leaf rating__leaf--right" src="/src/assets/images/icon-laurel-right.webp" alt="" />
+            </div>
+
+            <h1 data-i18n="hero-headline" class="hero__headline">
+              Your AI weight loss coach.<br />
+              <span class="hero__headline-underline">Everything in one app.</span>
+            </h1>
+
+            <div class="hero__copy">
+              <p data-i18n="havit-connects-ai-body-composition" class="text-paragraph">
+                Log a meal in seconds. HAVI reads your weight, body composition,
+                sleep, and GLP-1 trends together, then tells you the one thing to
+                do today. In a 12-week clinical study, HAVIT users were 4&times;
+                more likely to lose 5%+ of their body weight.
+              </p>
+              <p data-i18n="works-with-or-without-glp" class="text-body-small hero__disclaimer">
+                Clinical study with Eulji University, measured on InBody &mdash; not
+                self-reported. Built by Juvis Diet alumni. Works with or without GLP-1.
+              </p>
+            </div>
+
+            <div class="hero__badges">
+              <a data-store="app_store" href="https://apps.apple.com/us/app/havit-glp-1-weight-loss-coach/id6755166023" class="hero__badge" target="_blank" rel="noopener">
+                <img decoding="async" width="306" height="112" src="/src/assets/images/badge-appstore.webp" alt="Download on the App Store" />
+              </a>
+              <a data-store="google_play" href="https://play.google.com/store/apps/details?id=com.aiconnects.havitWellness" class="hero__badge" target="_blank" rel="noopener">
+                <img decoding="async" width="306" height="112" src="/src/assets/images/badge-googleplay.webp" alt="Get it on Google Play" />
+              </a>
+            </div>
+            <p data-i18n="free-to-download-in-app" class="text-body-small hero__disclaimer">Free to download. In-app purchases may apply.</p>
+          </div>
+
+          <div class="hero__visual">
+            <div class="hero__glow"></div>
+            <img fetchpriority="high" decoding="async" width="671" height="1280" class="hero__phone" src="/src/assets/images/hero-phone.webp" alt="HAVIT app preview" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="open-legal text-body-small">
+      <a data-i18n="privacy" href="/privacy.html">Privacy</a>
+      <a data-i18n="terms" href="/terms.html">Terms</a>
+    </footer>
+
+    <!-- 스토어 배지. 자동 이동은 없다 — 누를 때만 간다.
+         - 기기와 같은 스토어 배지(iOS → App Store, Android → Google Play)를 앞에 크게 두고, 그 배지만
+           app.aihavit.com(홈 배지와 같은 귀속 경로: 받은 광고 파라미터 → OneLink pid·c)으로 보낸다.
+           FORWARD_KEYS 는 src/main.js 와 같다.
+         - 그 밖(PC·기기와 다른 스토어)은 스토어 직링크. Google Play 는 referrer 에 utm·클릭 ID 를 실어
+           Play Install Referrer 로 귀속이 이어지게 한다.
+         - c: ?campaign= 이 있으면 그 값, 없으면 w2ac_open. utm_campaign 이 있으면 c 를 붙이지 않는다
+           (app.aihavit.com 이 c 를 utm_campaign 보다 먼저 써서 광고 캠페인 이름이 사라진다).
+         - /open/<target> 의 <target> 은 deep_link_value 로 넘겨 설치 후 첫 실행(지연 딥링크)에 쓸 수 있게 한다. -->
+    <script>
+      (function () {
+        var APP_LINK = 'https://app.aihavit.com/'
+        var FORWARD_KEYS = [
+          'utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'keyword',
+          'gclid', 'gbraid', 'wbraid', 'fbclid', 'ttclid', 'twclid', 'sccid', 'irclickid', 'oppref',
+          'af_c_id', 'af_adset_id', 'af_ad_id',
+        ]
+        var landing = new URLSearchParams(location.search)
+        var q = new URLSearchParams()
+        FORWARD_KEYS.forEach(function (k) { if (landing.has(k)) q.set(k, landing.get(k)) })
+        if (!q.has('utm_campaign')) q.set('c', landing.get('campaign') || 'w2ac_open')
+        var target = location.pathname.replace(/^\/open\/?/, '').replace(/\/+$/, '')
+        if (target) q.set('deep_link_value', target)
+        if (document.documentElement.lang) q.set('hl', document.documentElement.lang)
+        q.set('af_adset', 'w2ac_open')
+
+        var ua = navigator.userAgent
+        var isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+        var device = isIOS ? 'app_store' : /Android/i.test(ua) ? 'google_play' : null
+
+        // Play 직링크: Install Referrer 로 넘길 값(utm_* · Google 클릭 ID).
+        var ref = new URLSearchParams()
+        ;['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'gclid', 'gbraid', 'wbraid'].forEach(function (k) {
+          if (landing.has(k)) ref.set(k, landing.get(k))
+        })
+        if (!ref.has('utm_campaign') && landing.has('campaign')) ref.set('utm_campaign', landing.get('campaign'))
+        if (!ref.has('utm_source') && (ref.has('gclid') || ref.has('gbraid') || ref.has('wbraid'))) {
+          ref.set('utm_source', 'google')
+          ref.set('utm_medium', 'cpc')
+        }
+        var play = document.querySelector('a[data-store="google_play"]')
+        if (play && ref.toString()) play.setAttribute('href', play.getAttribute('href') + '&referrer=' + encodeURIComponent(ref.toString()))
+
+        if (device) {
+          var a = document.querySelector('a[data-store="' + device + '"]')
+          if (a) {
+            a.setAttribute('href', APP_LINK + '?' + q.toString())
+            a.classList.add('is-device')
+            a.parentNode.classList.add('has-device')
+          }
+        }
+      })()
+    </script>
+  </body>
+</html>

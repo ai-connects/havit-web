@@ -101,6 +101,23 @@ jobs:
         if: env.HAS_ROLE == 'true'
         working-directory: apps/static-site
         run: node scripts/deploy.mjs --stack "$STACK" ${{ inputs.dry_run && '--dry-run' || '' }}
+      # 앱 링크 확인 파일(W2AC /open) — Apple·Google 은 application/json 만 받는다. 업로드는 위 Deploy 가
+      # scripts/rules.mjs 규칙(aws s3 sync --content-type application/json)으로 하고, 여기서 S3 메타데이터를 확인한다.
+      # 다르면 aws s3 cp --content-type 으로 바로잡는다(무효화는 Deploy 의 /* 가 이미 했다). 문서: docs/w2ac-open-link.md
+      - name: App link files content-type (.well-known)
+        if: env.HAS_ROLE == 'true' && !inputs.dry_run
+        run: |
+          BUCKET=$(aws cloudformation describe-stacks --stack-name "$STACK" --query "Stacks[0].Outputs[?OutputKey=='Bucket'].OutputValue" --output text)
+          for f in apple-app-site-association assetlinks.json; do
+            CT=$(aws s3api head-object --bucket "$BUCKET" --key ".well-known/$f" --query ContentType --output text)
+            echo ".well-known/$f: $CT"
+            if [ "$CT" != "application/json" ]; then
+              aws s3 cp "apps/static-site/dist/.well-known/$f" "s3://$BUCKET/.well-known/$f" \
+                --content-type application/json --cache-control 'public, max-age=0, s-maxage=86400, must-revalidate' --metadata-directive REPLACE
+              DIST=$(aws cloudformation describe-stacks --stack-name "$STACK" --query "Stacks[0].Outputs[?OutputKey=='DistributionId'].OutputValue" --output text)
+              aws cloudfront create-invalidation --distribution-id "$DIST" --paths "/.well-known/*" > /dev/null
+            fi
+          done
       - name: IndexNow (바뀐 글만 Bing·네이버에 알림)
         if: env.HAS_ROLE == 'true' && github.event_name == 'push'
         working-directory: apps/static-site

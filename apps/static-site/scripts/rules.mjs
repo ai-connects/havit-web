@@ -123,7 +123,8 @@ export async function buildEdge() {
     blogAlias: obj(/const BLOG_ALIAS = \{([^}]+)\}/),
     blogLangs: list(/BLOG_LOCALES = new Set\(\[([^\]]+)\]\)/),
     blogOnly: list(/BLOG_ONLY_LANGS = new Set\(\[([^\]]+)\]\)/),
-    extensionless: ['/blog/api/health'],
+    // 확장자 없는 진짜 파일 — 함수가 `<경로>/index.html`(블로그는 `.html`)을 붙이지 않는다.
+    extensionless: ['/blog/api/health', '/.well-known/apple-app-site-association'],
   }
   if (locales.length !== 34 || data.blogLangs.length !== 10) throw new Error('로케일 목록을 못 읽었다')
   const kvs = merged.map((r) => ({ Key: `m:${r.from}`, Value: r.to }))
@@ -153,6 +154,10 @@ export function uploadRules() {
     rules.push({ glob: glob(h.source), cacheControl: value, ...(h.source === '/sitemap.xml' ? { contentType: 'application/xml' } : {}) })
   }
   rules.push(
+    // 앱 링크 확인 파일(W2AC /open). Apple·Google 은 application/json · 200 · 리디렉트 없음만 받는다.
+    // apple-app-site-association 은 확장자가 없어 이 규칙이 없으면 S3 가 binary/octet-stream 으로 둔다.
+    { glob: '.well-known/apple-app-site-association', contentType: 'application/json', cacheControl: HTML_CC },
+    { glob: '.well-known/*.json', contentType: 'application/json', cacheControl: HTML_CC },
     { glob: '*.html', contentType: 'text/html; charset=utf-8', cacheControl: HTML_CC },
     { glob: '*.xml', contentType: 'application/xml; charset=utf-8', cacheControl: HTML_CC },
     { glob: 'blog/api/health', contentType: 'application/json', cacheControl: HTML_CC },
