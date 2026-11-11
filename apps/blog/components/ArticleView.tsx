@@ -166,7 +166,7 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
         ))}
       </div>
 
-      {/* 글 주제와 이어지는 계산기(있을 때만) — 계산기 페이지가 다시 앱 진단으로 이어진다. */}
+      {/* 글 주제와 이어지는 계산기(있을 때만) — 계산기 페이지가 다시 앱 분석으로 이어진다. */}
       <ArticleCalcCard shortLang={shortLang} slug={article.slug} primaryKeywordEn={article.primary_keyword_en} />
 
       {content.key_stats && content.key_stats.length > 0 && (
@@ -239,7 +239,7 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
           대체로 버려지므로 <article> 안에서 한 번은 브랜드를 말해야 한다. */}
 
       {/* 무엇인지 먼저 말하고, 그 다음 설치를 권한다. */}
-      {/* 진단 → 정량 처방 → 코칭 → 올인원 절(계산기 페이지와 같은 컴포넌트). 문구가 없는 언어는 종전 회사 소개 + 설치 블록. */}
+      {/* 분석 → 숫자 목표 → 코칭 → 올인원 절(계산기 페이지와 같은 컴포넌트). 문구가 없는 언어는 종전 회사 소개 + 설치 블록. */}
       {ARTICLE_CTA[toToolLang(shortLang)] && TOOL_CTA[toToolLang(shortLang)] ? (
         <HavitToolSection
           lang={toToolLang(shortLang)}
