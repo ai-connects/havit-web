@@ -38,8 +38,8 @@ const TOOL_RULES: [ToolSlug, RegExp][] = [
   ['water', /\bhydrat|water[- ]intake|drink(ing)?[- ]water|dehydrat/],
   ['sleep-cycle', /sleep[- ]cycle|bedtime|wake[- ]?up[- ]time|sleep[- ]schedule|rem[- ]sleep|deep[- ]sleep/],
   ['bmr', /\bbmr\b|tdee|basal[- ]metabolic|metabolic[- ]rate|calorie[- ]deficit|maintenance[- ]calorie/],
-  ['body-fat', /body[- ]fat[- ](percent|calculator|measure|estimat)|measur\w* body[- ]fat|navy[- ]method|skinfold|caliper/],
-  ['bmi', /\bbmi\b|body[- ]mass[- ]index|waist[- ]to[- ](height|hip)|healthy[- ]weight[- ]range/],
+  ['body-fat', /body[- ]fat[- ]percent|fat[- ]percentage|body[- ]composition[- ](trend|tracking|changes)|track\w* body[- ]composition|skinfold|caliper|navy[- ]method/],
+  ['bmi', /\bbmi\b|body[- ]mass[- ]index|waist[- ]to[- ](height|hip)|visceral[- ]fat|belly[- ]fat|healthy[- ]weight[- ]range|ideal[- ]weight/],
   ['exercise-calories', /calories?[- ]burn|calorie[- ]expenditure|walking[- ]calorie/],
 ];
 export function articleTool(slug: string, primaryKeywordEn?: string): ToolSlug | null {
