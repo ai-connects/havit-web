@@ -7,6 +7,7 @@
  */
 import type { ToolLang } from './tool-labels';
 import type { ToolSlug } from './tool-seo';
+import { NEW_TOOL_BANNER } from './tool-bmi-bodyfat';
 
 export interface ToolCta {
   bannerTitle: string;
@@ -24,7 +25,13 @@ export interface ToolCta {
   disclaimer: string;
 }
 
-export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
+type OldSlug = Exclude<ToolSlug, 'bmi' | 'body-fat'>;
+type BaseCta = Omit<ToolCta, 'banner' | 'bannerShot'> & {
+  banner: Record<OldSlug, { limit: string; havit: string }>;
+  bannerShot?: Partial<Record<OldSlug, { file: string; alt: string }>>;
+};
+
+const BASE_CTA: Partial<Record<ToolLang, BaseCta>> = {
   "ko": {
     "bannerTitle": "계산기는 평균, 하비트는 내 몸에 맞춘 처방",
     "banner": {
@@ -1646,3 +1653,15 @@ export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = {
     }
   }
 };
+
+/** 기존 6개 계산기 문구 + BMI·체지방률(문구는 lib/tool-bmi-bodyfat.ts). 배너 이미지는 BMR 과 같은 체성분 진단 화면. */
+export const TOOL_CTA: Partial<Record<ToolLang, ToolCta>> = Object.fromEntries(
+  (Object.entries(BASE_CTA) as [ToolLang, BaseCta][]).map(([lang, c]) => {
+    const shot = c.bannerShot?.bmr;
+    return [lang, {
+      ...c,
+      banner: { ...c.banner, ...NEW_TOOL_BANNER[lang] },
+      bannerShot: shot ? { ...c.bannerShot, bmi: shot, 'body-fat': shot } : c.bannerShot,
+    }];
+  }),
+);

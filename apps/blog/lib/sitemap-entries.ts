@@ -52,7 +52,7 @@ export function sitemapEntries(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     });
-    for (const tool of ['bmr', 'protein', 'water', 'caffeine', 'sleep-cycle', 'exercise-calories']) {
+    for (const tool of ['bmr', 'protein', 'water', 'caffeine', 'sleep-cycle', 'exercise-calories', 'bmi', 'body-fat']) {
       entries.push({
         url: `${SITE}/${lang}/tools/${tool}`,
           changeFrequency: 'monthly',

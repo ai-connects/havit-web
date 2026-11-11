@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 import { toFullLang, toHreflangMap } from '@/lib/i18n';
 import { SITE } from '@/lib/site';
 import { INDEXABLE_ROBOTS } from '@/lib/seo';
+import { NEW_TOOL_INDEX } from '@/lib/tool-bmi-bodyfat';
 
 const ROUTE_LANGS = ['ko', 'en', 'ja', 'zh', 'zh-tw', 'es', 'pt-br', 'id', 'de', 'fr'] as const;
 type RouteLang = (typeof ROUTE_LANGS)[number];
@@ -66,6 +67,10 @@ interface Tool {
   ready: boolean;
 }
 
+function mapTitle(slug: 'bmi' | 'body-fat', k: 'title' | 'desc'): Record<RouteLang, string> {
+  return Object.fromEntries(ROUTE_LANGS.map((l) => [l, NEW_TOOL_INDEX[slug][l][k]])) as Record<RouteLang, string>;
+}
+
 const TOOLS: Tool[] = [
   {
     slug: 'bmr',
@@ -101,6 +106,8 @@ const TOOLS: Tool[] = [
   { slug: 'caffeine', emoji: '☕', ready: true, title: { ko: '카페인 한계', en: 'Caffeine Limit', ja: 'カフェイン限界', zh: '咖啡因极限', 'zh-tw': '咖啡因極限', es: 'Límite de Cafeína', 'pt-br': 'Limite de Cafeína', id: 'Batas Kafein', de: 'Koffein-Limit', fr: 'Limite de Caféine' }, desc: { ko: '반감기 시뮬레이션으로 수면 안 방해 마지막 시간.', en: 'Half-life simulation: last cup before bedtime.', ja: '半減期シミュレーションで就寝前の最終杯。', zh: '半衰期模拟,睡前最后一杯的时间。', 'zh-tw': '半衰期模擬,睡前最後一杯的時間。', es: 'Simulación de vida media: última taza antes de dormir.', 'pt-br': 'Simulação de meia-vida: última xícara antes de dormir.', id: 'Simulasi waktu paruh: cangkir terakhir sebelum tidur.', de: 'Halbwertszeit-Simulation: letzte Tasse vor dem Schlaf.', fr: 'Simulation de demi-vie : dernière tasse avant le coucher.' } },
   { slug: 'sleep-cycle', emoji: '😴', ready: true, title: { ko: '수면 사이클', en: 'Sleep Cycle', ja: '睡眠サイクル', zh: '睡眠周期', 'zh-tw': '睡眠週期', es: 'Ciclo de Sueño', 'pt-br': 'Ciclo do Sono', id: 'Siklus Tidur', de: 'Schlafzyklus', fr: 'Cycle de Sommeil' }, desc: { ko: '6:30에 일어나려면 몇 시에 자야?', en: 'To wake at 6:30, what time to sleep?', ja: '6:30に起きるには何時に寝る?', zh: '6:30 起床该几点睡?', 'zh-tw': '6:30 起床該幾點睡?', es: '¿A qué hora dormir para despertar a las 6:30?', 'pt-br': 'Para acordar às 6:30, a que horas dormir?', id: 'Untuk bangun jam 6:30, kapan harus tidur?', de: 'Um 6:30 aufwachen — wann ins Bett?', fr: 'Pour se réveiller à 6h30, à quelle heure se coucher ?' } },
   { slug: 'exercise-calories', emoji: '💪', ready: true, title: { ko: '운동 칼로리 소모', en: 'Exercise Calorie Burn', ja: '運動カロリー消費', zh: '运动卡路里消耗', 'zh-tw': '運動卡路里消耗', es: 'Calorías por Ejercicio', 'pt-br': 'Calorias por Exercício', id: 'Kalori per Olahraga', de: 'Sport-Kalorienverbrauch', fr: 'Calories par Exercice' }, desc: { ko: 'METs 기반 운동별 정확한 칼로리.', en: 'METs-based accurate burn by activity.', ja: 'MET基準で運動別の正確なカロリー。', zh: '基于MET的运动卡路里精确计算。', 'zh-tw': '基於MET的運動卡路里精確計算。', es: 'Quema precisa por actividad basada en METs.', 'pt-br': 'Queima precisa por atividade baseada em METs.', id: 'Pembakaran akurat per aktivitas berdasarkan MET.', de: 'Genauer Kalorienverbrauch nach Aktivität basierend auf METs.', fr: 'Dépense précise par activité basée sur les METs.' } },
+  { slug: 'bmi', emoji: '⚖️', ready: true, title: mapTitle('bmi', 'title'), desc: mapTitle('bmi', 'desc') },
+  { slug: 'body-fat', emoji: '📏', ready: true, title: mapTitle('body-fat', 'title'), desc: mapTitle('body-fat', 'desc') },
 ];
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

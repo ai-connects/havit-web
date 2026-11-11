@@ -8,8 +8,9 @@
  * tool-labels 에 metaTitle·faq 가 이미 있으면 그쪽이 우선한다.
  */
 import type { ToolLang } from './tool-labels';
+import { NEW_TOOL_SEO } from './tool-bmi-bodyfat';
 
-export type ToolSlug = 'bmr' | 'protein' | 'water' | 'caffeine' | 'sleep-cycle' | 'exercise-calories';
+export type ToolSlug = 'bmr' | 'protein' | 'water' | 'caffeine' | 'sleep-cycle' | 'exercise-calories' | 'bmi' | 'body-fat';
 export interface ToolSeo {
   metaTitle?: string;
   metaDescription?: string;
@@ -17,7 +18,7 @@ export interface ToolSeo {
   faq?: { q: string; a: string }[];
 }
 
-export const TOOL_SEO: Record<ToolSlug, Record<ToolLang, ToolSeo>> = {
+const BASE_SEO: Record<Exclude<ToolSlug, 'bmi' | 'body-fat'>, Record<ToolLang, ToolSeo>> = {
   "bmr": {
     "ko": {
       "metaTitle": "TDEE 계산기: BMR·하루 소비 칼로리 한번에",
@@ -1580,3 +1581,5 @@ export const TOOL_SEO: Record<ToolSlug, Record<ToolLang, ToolSeo>> = {
     }
   }
 };
+
+export const TOOL_SEO: Record<ToolSlug, Record<ToolLang, ToolSeo>> = { ...BASE_SEO, ...NEW_TOOL_SEO };
