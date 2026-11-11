@@ -46,6 +46,7 @@
       .open-hero .hero__inner > * { min-width: 0; }
       .open-hero .hero__copy { max-width: 100%; }
       .open-hero .hero__badges { align-items: center; }
+      .open-hero .hero__actions { margin: 12px 0 8px; }
       .open-hero .hero__badge.is-device { order: -1; }
       .open-hero .hero__badge.is-device img { height: 56px; }
       .open-hero .hero__badges.has-device .hero__badge:not(.is-device) { opacity: 0.55; }
@@ -117,6 +118,10 @@
               <a data-store="google_play" data-placement="hero" href="https://play.google.com/store/apps/details?id=com.aiconnects.havitWellness" class="hero__badge" target="_blank" rel="noopener">
                 <img decoding="async" width="306" height="112" src="/src/assets/images/badge-googleplay.webp" alt="Get it on Google Play" />
               </a>
+            </div>
+            <!-- 홈 히어로와 같은 Start Free 버튼(같은 키·모양). 링크는 아래 스크립트가 배지와 같은 app.aihavit.com 링크로 바꾼다. -->
+            <div class="hero__actions">
+              <a data-i18n="start-free" data-install="hero" data-placement="hero_start_free" href="https://app.aihavit.com/" class="btn btn--primary btn--hero">Start Free</a>
             </div>
             <p data-i18n="free-to-download-in-app" class="text-body-small hero__disclaimer">Free to download. In-app purchases may apply.</p>
           </div>
@@ -971,12 +976,11 @@
             a.parentNode.classList.add('has-device')
           })
         }
-        // 하단 고정 버튼 = 기기 배지와 같은 링크. 기기를 못 가리면(PC 등) app.aihavit.com 이 OS 를 보고 고른다(PC 는 QR).
-        var sticky = document.querySelector('a[data-install="sticky"]')
-        if (sticky) {
-          sticky.setAttribute('href', appLink)
-          sticky.setAttribute('data-store', device || 'app_link')
-        }
+        // 히어로 Start Free·하단 고정 버튼 = 기기 배지와 같은 링크. 기기를 못 가리면(PC 등) app.aihavit.com 이 OS 를 보고 고른다(PC 는 QR).
+        document.querySelectorAll('a[data-install]').forEach(function (a) {
+          a.setAttribute('href', appLink)
+          a.setAttribute('data-store', device || 'app_link')
+        })
       })()
 
       // FAQ 접기·펼치기(한 번에 하나), 임상 사례 카드 좌우 버튼, 하단 고정 버튼 표시 — src/main.js 의 같은 부분을 옮긴 것.
