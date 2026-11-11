@@ -144,3 +144,37 @@ export function exerciseCalories(type: ExerciseType, durationMin: number, weight
   const mets = EXERCISE_METS[type];
   return Math.round((mets * 3.5 * weightKg * durationMin) / 200);
 }
+
+/* ─── BMI + waist-to-height ratio ─── */
+export function bmi(weightKg: number, heightCm: number): number {
+  const m = heightCm / 100;
+  return weightKg / (m * m);
+}
+/** Waist-to-height ratio (Ashwell): waist ÷ height, same unit. */
+export function whtr(waistCm: number, heightCm: number): number {
+  return waistCm / heightCm;
+}
+/** Index of the category: number of cutoffs the BMI has reached (cuts ascending, lower bound inclusive). */
+export function bmiCategoryIndex(value: number, cuts: number[]): number {
+  return cuts.filter((c) => value >= c).length;
+}
+
+/* ─── Body fat — U.S. Navy circumference method (Hodgdon & Beckett 1984), lengths in cm ─── */
+export function navyBodyFat(p: { sex: Sex; heightCm: number; neckCm: number; waistCm: number; hipCm?: number }): number | null {
+  const { sex, heightCm, neckCm, waistCm } = p;
+  if (!(heightCm > 0 && neckCm > 0 && waistCm > 0)) return null;
+  if (sex === 'male') {
+    const d = waistCm - neckCm;
+    if (d <= 0) return null;
+    return 495 / (1.0324 - 0.19077 * Math.log10(d) + 0.15456 * Math.log10(heightCm)) - 450;
+  }
+  const hip = p.hipCm ?? 0;
+  const d = waistCm + hip - neckCm;
+  if (!(hip > 0) || d <= 0) return null;
+  return 495 / (1.29579 - 0.35004 * Math.log10(d) + 0.221 * Math.log10(heightCm)) - 450;
+}
+/** ACE body fat ranges. Upper bounds (exclusive) of the first four categories; the fifth is the rest. */
+export const ACE_CUTS: Record<Sex, number[]> = {
+  male: [6, 14, 18, 25],
+  female: [14, 21, 25, 32],
+};
