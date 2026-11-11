@@ -58,6 +58,8 @@
       .open-legal { display: flex; gap: 16px; justify-content: center; }
       .open-legal a { color: inherit; opacity: 0.6; }
       @media (max-width: 640px) {
+        /* 하단 고정 버튼(캐릭터 포함 약 130px)이 항상 떠 있으므로 푸터가 가리지 않게 비워 둔다. */
+        .open-footer { padding-bottom: calc(150px + env(safe-area-inset-bottom)); }
         .open-hero .hero__inner { grid-template-columns: 1fr; }
         .open-hero .hero__visual { max-width: 260px; margin: 0 auto; }
       }
@@ -119,9 +121,9 @@
                 <img decoding="async" width="306" height="112" src="/src/assets/images/badge-googleplay.webp" alt="Get it on Google Play" />
               </a>
             </div>
-            <!-- 홈 히어로와 같은 Start Free 버튼(같은 키·모양). 링크는 아래 스크립트가 배지와 같은 app.aihavit.com 링크로 바꾼다. -->
+            <!-- 홈 히어로와 같은 Start Free 버튼(같은 키·모양). 검정 바탕·라임 글씨는 style.css 의 .btn--primary[data-cta='start-free'] 가 입히므로 data-cta 를 빼지 말 것. 링크는 아래 스크립트가 배지와 같은 app.aihavit.com 링크로 바꾼다. -->
             <div class="hero__actions">
-              <a data-i18n="start-free" data-install="hero" data-placement="hero_start_free" href="https://app.aihavit.com/" class="btn btn--primary btn--hero">Start Free</a>
+              <a data-i18n="start-free" data-cta="start-free" data-install="hero" data-placement="hero_start_free" href="https://app.aihavit.com/" class="btn btn--primary btn--hero">Start Free</a>
             </div>
             <p data-i18n="free-to-download-in-app" class="text-body-small hero__disclaimer">Free to download. In-app purchases may apply.</p>
           </div>
@@ -900,13 +902,13 @@
       </section>
     </main>
 
-    <!-- 모바일 하단 고정 설치 버튼 — 히어로를 지나고 최종 스토어 버튼에 닿기 전까지만 보인다(아래 스크립트). 링크는 기기 배지와 같은 app.aihavit.com 경로. -->
+    <!-- 모바일 하단 고정 설치 버튼 — 모바일에서 첫 화면부터 항상 보인다(아래 스크립트가 is-visible 을 켬). 링크는 기기 배지와 같은 app.aihavit.com 경로. -->
     <div class="sticky-cta">
       <!-- Figma 영상/이미지 리소스 882-24264: 캐릭터는 링크 밖 형제로 둔다(data-i18n 이 링크 안쪽을 통째로 바꾼다). -->
       <div class="cta-pill">
         <img class="cta-pill__char cta-pill__char--knight" src="/cta/knight.webp" alt="" width="67" height="70" aria-hidden="true" />
         <img class="cta-pill__char cta-pill__char--dino" src="/cta/dino.webp" alt="" width="70" height="70" aria-hidden="true" />
-        <a data-i18n="start-free" data-install="sticky" data-placement="sticky" href="https://app.aihavit.com/" class="btn btn--primary sticky-cta__btn">Start Free</a>
+        <a data-i18n="start-free" data-cta="start-free" data-install="sticky" data-placement="sticky" href="https://app.aihavit.com/" class="btn btn--primary sticky-cta__btn">Start Free</a>
         <img class="cta-pill__char cta-pill__char--peek" src="/cta/peek.webp" alt="" width="63" height="60" aria-hidden="true" />
       </div>
     </div>
@@ -1029,22 +1031,9 @@
           update()
         }
 
+        // 모바일 하단 고정 버튼은 첫 화면부터 끝까지 항상 띄운다(대표 지시 2026-11-11). 데스크톱은 style.css 가 숨긴다.
         var stickyCta = document.querySelector('.sticky-cta')
-        var heroEl = document.querySelector('.hero')
-        var finalCtaEl = document.querySelector('.final-cta')
-        if (stickyCta && heroEl && finalCtaEl) {
-          var ticking = false
-          var sync = function () {
-            ticking = false
-            var pastHero = heroEl.getBoundingClientRect().bottom < 0
-            var beforeFinal = finalCtaEl.getBoundingClientRect().top > window.innerHeight
-            stickyCta.classList.toggle('is-visible', pastHero && beforeFinal)
-          }
-          window.addEventListener('scroll', function () {
-            if (!ticking) { ticking = true; requestAnimationFrame(sync) }
-          }, { passive: true })
-          sync()
-        }
+        if (stickyCta) stickyCta.classList.add('is-visible')
       })()
     </script>
   </body>
