@@ -13,7 +13,7 @@ export default function AppCtaBanner({ lang, tool }: { lang: ToolLang; tool: Too
   const old = APP_CTA[lang];
   const os = useMobileOS();
   return (
-    <div className="mt-6 p-5 rounded-2xl border-2 border-primary-500 bg-primary-50 flex gap-4 items-center">
+    <div className="mt-6 p-5 rounded-2xl border-2 border-gray-900 bg-primary-50 flex gap-4 items-center">
       <div className="flex-1 min-w-0">
       <div className="font-bold text-base mb-1.5">{c ? c.bannerTitle : old.title}</div>
       {c ? (
@@ -29,7 +29,7 @@ export default function AppCtaBanner({ lang, tool }: { lang: ToolLang; tool: Too
         onClick={() => trackGaEvent('start_free_click', { link_location: PLACEMENT, destination: destinationOf(os), tool })}
         target="_blank"
         rel="noopener"
-        className="inline-block px-5 py-2.5 rounded-xl bg-primary-500 hover:bg-primary-600 text-gray-900 font-semibold text-sm transition-colors">
+        className="inline-block px-5 py-2.5 rounded-xl bg-gray-900 hover:bg-black text-white font-semibold text-sm transition-colors">
         {c ? c.bannerButton : old.button}
       </a>
       </div>

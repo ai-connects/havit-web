@@ -21,7 +21,7 @@ export default function HavitToolSection({ lang, tool, intro, placement = 'blog_
           <li key={s.label} className={`p-5 rounded-xl bg-white border border-gray-200 ${(stacked || s.shots.length > 2) ? '' : 'md:flex md:gap-5 md:items-center'}`}>
             <div className="flex-1 min-w-0">
             <div className="flex items-baseline gap-2 mb-1.5">
-              <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-primary-500 text-gray-900 whitespace-nowrap shrink-0">{s.label}</span>
+              <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-gray-900 text-white whitespace-nowrap shrink-0">{s.label}</span>
               <span className="font-bold text-lg">{s.title}</span>
             </div>
             <p className="text-sm text-gray-700 leading-relaxed mb-2.5">{s.body}</p>
@@ -57,7 +57,7 @@ export default function HavitToolSection({ lang, tool, intro, placement = 'blog_
         onClick={() => trackGaEvent('start_free_click', { link_location: placement, destination: destinationOf(os), tool, ...extra })}
         target="_blank"
         rel="noopener"
-        className="inline-block px-6 py-3 rounded-xl bg-primary-500 hover:bg-primary-600 text-gray-900 font-semibold transition-colors">
+        className="inline-block px-6 py-3 rounded-xl bg-gray-900 hover:bg-black text-white font-semibold transition-colors">
         {c.sectionButton}
       </a>
       <p className="text-xs text-gray-500 mt-3">{c.disclaimer}</p>

@@ -23,7 +23,7 @@ export default function ArticleHavitCta(props: Props) {
   const focus = articleFocus(slug, category);
   const f = a.focus[focus];
   return (
-    <aside className="not-prose my-10 p-5 md:p-6 rounded-2xl border-2 border-primary-500 bg-primary-50 flex gap-5 items-center" aria-label="HAVIT">
+    <aside className="not-prose my-10 p-5 md:p-6 rounded-2xl border-2 border-gray-900 bg-primary-50 flex gap-5 items-center" aria-label="HAVIT">
       <div className="flex-1 min-w-0">
         <p className="text-xs font-semibold text-gray-500 mb-1">{c.sectionKicker}</p>
         <p className="font-bold text-lg mb-2 leading-snug">{a.midTitle}</p>
@@ -34,7 +34,7 @@ export default function ArticleHavitCta(props: Props) {
           onClick={() => trackGaEvent('start_free_click', { lang, article_id: articleId, link_location: PLACEMENT, destination: destinationOf(os), feature: focus, cta_variant: 'value_prop' })}
           target="_blank"
           rel="noopener"
-          className="inline-block px-5 py-2.5 rounded-xl bg-primary-500 hover:bg-primary-600 text-gray-900 font-semibold text-sm transition-colors no-underline">
+          className="inline-block px-5 py-2.5 rounded-xl bg-gray-900 hover:bg-black text-white font-semibold text-sm transition-colors no-underline">
           {a.midButton}
         </a>
       </div>
