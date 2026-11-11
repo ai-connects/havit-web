@@ -1,0 +1,1674 @@
+{
+  "article_id": "BLOG_CHOLECYSTOKININ_CCK_HORMONE_APPETITE_DIGESTION_2026",
+  "slug": "cholecystokinin-cck-hormone-appetite-digestion-2026",
+  "category": "Weight & Metabolism",
+  "category_emoji": "⚖️",
+  "type": "science",
+  "reading_time_min": 6,
+  "primary_keyword_en": "cholecystokinin (CCK)",
+  "primary_keyword_ko": "콜레시스토키닌(CCK)",
+  "langs": {
+    "en": {
+      "title": "Cholecystokinin (CCK): The Hormone of Fullness and Digestion",
+      "short_title": "Cholecystokinin (CCK) Explained",
+      "short_description": "What the CCK hormone is, what triggers it, how it controls digestion and fullness, and what human studies show about appetite.",
+      "meta_description": "Cholecystokinin (CCK) is a gut hormone that drives digestion and signals fullness. Learn what triggers it, what it does, and what human studies show on appetite.",
+      "tldr": "Cholecystokinin (CCK) is a peptide hormone released in the small intestine, mainly in response to dietary fat and protein. It makes the gallbladder contract, stimulates pancreatic enzymes, slows stomach emptying and sends a fullness signal to the brain through the vagus nerve. In human infusion studies, extra CCK-like peptide cut meal size, while blocking CCK receptors raised hunger in some trials but not in others.",
+      "body_md": "## What is the CCK hormone?\n\nCholecystokinin (CCK) is a peptide hormone released by endocrine cells of the upper small intestine. After you eat, it does two main jobs: it switches on digestion and it helps tell the brain that you have eaten enough. If you searched for \"cck hormona\" or \"hormona cck\", that is the short answer. CCK is a gut hormone for digestion and satiety.\n\nThe hormone was discovered in 1928 because of its ability to make the gallbladder contract. Later research showed that it has many functions in both the digestive tract and the brain.\n\nTogether with secretin and gastrin, CCK forms what endocrinologists call the classical gut hormone triad. It is also a messenger inside nerve cells. CCK is the most abundant neuropeptide in the human brain, so it is far more than a digestive chemical.\n\nFor a wider view of how CCK works alongside GLP-1, PYY and ghrelin, see our overview of [gut hormones and appetite regulation](/en/gut-hormones-appetite-regulation-glp1-pyy-cck-2026).\n\n## Where CCK is made and what triggers it\n\nSpecialised cells in the intestinal lining, called I-cells, release CCK. The main triggers are dietary fat and protein. When digested lipid and protein reach these cells, receptors on their surface, including GPR40 and the calcium-sensing receptor, prompt them to release the hormone.\n\nNot every fat has the same effect. In a randomized crossover study of 12 healthy men, researchers gave four meals on separate days: carrots alone, or carrots with one of three different lipids. Only olive oil stimulated CCK release. Carrots alone and carrots with tributyrin, a fat made of short-chain fatty acids, raised none of the measured hormones. The authors concluded that oleic acid from olive oil appears to be fully responsible for the CCK response.\n\nThe same study gave an interesting detail. A test oil that delivered medium-chain fatty acids raised GLP-1 about as much as olive oil did, yet it did not raise CCK. The two satiety hormones are separate signals and can respond to the same meal in different ways.\n\n## CCK and digestion: gallbladder, pancreas and stomach\n\n### The gallbladder\n\nCCK is the major regulator of gallbladder contraction. In one study, gallbladder volume decreased maximally to 12 ± 4% after oral food, while plasma CCK levels and pancreatic enzyme output increased 6- to 8-fold. When the researchers blocked CCK receptors with the drug loxiglumide, gallbladder contraction after food was completely abolished. Gallbladder contraction, together with CCK-driven relaxation of the sphincter of Oddi, regulates the flow of bile into the intestine.\n\n### The pancreas\n\nCCK also stimulates digestive enzymes from the pancreas, but here it shares control with the nervous system. In the same study, blocking CCK reduced post-meal enzyme secretion by 30%, while blocking the cholinergic nerve signal with atropine essentially stopped it. The authors described the pancreas as crucially dependent on a cholinergic background, with CCK modulating the response.\n\nThese effects are not just lab artefacts of high doses. In a study of 7 healthy people, infusing CCK to plasma levels similar to those after a meal raised trypsin secretion from 0.5 to 1.4 KU per 15 minutes. Bilirubin output, a marker of bile delivery, rose from 1.6 to 30.3 µmol per 15 minutes. The authors concluded that physiological concentrations of CCK stimulate pancreatic enzyme secretion and gallbladder contraction.\n\n### The stomach\n\nCCK controls how fast nutrients reach the small intestine by inhibiting both food intake and gastric emptying. It slows the stomach through a vagal nerve pathway acting on the upper stomach and the pylorus, the valve at the stomach's exit. Slowing gastric emptying regulates the flow of partly digested food into the duodenum.\n\nReview evidence also suggests a role beyond digestion. Dietary fats, by raising CCK, reduced intestinal inflammation in the research discussed in one review. This points to a hormone that coordinates eating and digestion as one process.\n\n## How CCK helps you feel full\n\nCCK's main route to the brain is the vagus nerve. Vagal afferent neurons, the sensory fibres that carry messages from the gut to the brainstem, are a primary target of CCK. They combine CCK's signal with other hormones. Leptin, the hormone released from fat tissue, strengthens CCK's effects on these neurons, while ghrelin, the hunger hormone, weakens them.\n\nCCK induces satiety by acting through CCK-1 receptors in specialised regions of the hindbrain. It also suppresses appetite-stimulating peptides in the hypothalamus and prevents ghrelin from stimulating certain neurons. Human brain imaging shows that ingested fatty acids activate the brainstem, hypothalamus and motor cortex. A CCK-1 receptor blocker inhibits that activation.\n\n### What infusion studies show\n\nEarly human experiments tested this by infusing CCK or a closely related peptide before a meal. In one double-blind study, 12 women and 12 men received ceruletide, a peptide structurally related to CCK, and were then offered as much scrambled eggs with ham, bread and tea as they wanted. At the higher dose, they ate 16.8% less than with saline (3725 kJ versus 4340 kJ) and reported less hunger. The lower dose cut intake by only 6.6%, with no significant changes in the other measures.\n\nThe effect came with a trade-off. At the higher dose, participants also had longer reaction times and weaker psychomotor performance. A larger dose of a CCK-like signal reduces eating, but it does not act only on appetite.\n\n## What happens when CCK is blocked\n\nIf CCK is a real fullness signal, blocking its receptor should make people eat more. The human results here are mixed.\n\nIn randomized, double-blind, placebo-controlled crossover studies in healthy men, loxiglumide produced a slight (7%) increase in food intake that was not statistically significant. It did produce a modest (10%) and significant increase in calorie intake. Participants felt more hunger and delayed fullness than during saline infusion. The authors read this as further evidence that CCK is an endogenous satiety signal.\n\nA study in 7 lean and 7 obese women found no such effect. Food intake of a carbohydrate-rich meal was 359 ± 39 g with loxiglumide and 333 ± 31 g with saline, which was not a significant difference. Satiety scores did not change either.\n\nThe two studies used different participants and protocols, so they cannot be compared directly. Taken together, they suggest CCK is one fullness signal among several rather than a single master switch.\n\n## CCK, body weight and digestive conditions\n\nIf CCK reduces meal size, why doesn't it simply prevent weight gain? Part of the answer may lie in the nerve that carries its message. The responses of vagal afferent neurons to CCK are attenuated in obesity. Researchers have proposed that this resistance to CCK may contribute to altered regulation of food intake.\n\nReviewers have suggested that understanding how CCK regulates appetite pathways may lead to strategies for obesity and bulimia. That remains a research goal.\n\nCCK also appears in digestive disorders. Secretion of CCK is impaired in celiac disease and bulimia nervosa, based on the limited data available. In functional dyspepsia, a common condition with meal-related upper-abdominal symptoms, intravenous CCK has been observed to reproduce symptoms. That effect could be blocked by atropine and by loxiglumide. One review suggests that an altered response to CCK may contribute to the gastric dysfunction seen in some patients.\n\n## Can you measure CCK levels?\n\nPeople often look for a \"normal\" CCK value. Accurate CCK assays have been difficult to develop, and knowledge about CCK secretion in disease is limited as a result.\n\nResearch studies give a sense of scale. In the study of 7 healthy people, fasting plasma CCK was 2.0 ± 0.2 pmol/l. After a standardized test meal, it rose to levels between 4.6 ± 0.6 and 7.3 ± 1.0 pmol/l. Those figures come from one small group measured with one specific assay, so they should not be used to judge an individual result.\n\nIn clinical medicine, CCK is used mostly as a test substance rather than measured. Stimulation with external CCK has proved useful in diagnostic tests of gallbladder and pancreatic diseases, as well as medullary thyroid carcinoma.\n\n## Practical takeaways for appetite\n\nYou cannot dial CCK up directly, but you can eat in ways that use the system as designed.\n\n- **Include protein and some fat in meals.** These are the nutrients that trigger CCK release from intestinal I-cells.\n- **Consider fat type.** In the 12-man study, olive oil was the only lipid tested that raised CCK.\n- **Eat at a pace that lets signals arrive.** CCK works within a meal by slowing stomach emptying and signalling fullness through the vagus nerve.\n- **Don't rely on one hormone.** Blocking CCK raised calorie intake in one trial and had no effect in another, so other signals clearly matter too.\n\nIf you want a food-level view of which meals keep hunger quiet longest, our [satiety index ranking](/en/satiety-index-foods-hunger-control-ranking-2026) is a useful companion to the hormone story told here.",
+      "key_stats": [
+        {
+          "label": "Year CCK was discovered (via gallbladder contraction)",
+          "value": "1928",
+          "source": "Review: Cholecystokinin (CCK biology and appetite)"
+        },
+        {
+          "label": "Plasma CCK, fasting vs after a test meal (7 healthy people)",
+          "value": "2.0 pmol/l rising to 4.6–7.3 pmol/l",
+          "source": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man"
+        },
+        {
+          "label": "Gallbladder volume after oral food",
+          "value": "Decreased maximally to 12 ± 4%",
+          "source": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man"
+        },
+        {
+          "label": "Meal intake reduction with higher-dose ceruletide (CCK-like peptide)",
+          "value": "16.8% (3725 vs 4340 kJ)",
+          "source": "Ceruletide decreases food intake in non-obese man"
+        },
+        {
+          "label": "Calorie intake increase when CCK-A receptors were blocked",
+          "value": "10%",
+          "source": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans"
+        }
+      ],
+      "faq": [
+        {
+          "question": "What does the CCK hormone do?",
+          "answer": "Cholecystokinin makes the gallbladder contract, stimulates pancreatic digestive enzymes and slows stomach emptying. It also signals fullness to the brain through the vagus nerve. Its effects on eating and stomach emptying help control the delivery of nutrients to the small intestine."
+        },
+        {
+          "question": "Where is cholecystokinin produced?",
+          "answer": "CCK is released by endocrine cells of the upper small intestine. These intestinal cells are known as I-cells. It also acts as a transmitter in nerve cells and is the most abundant neuropeptide in the human brain."
+        },
+        {
+          "question": "What foods increase CCK?",
+          "answer": "Dietary fat and protein are the main triggers for CCK release. In a study of 12 healthy men, olive oil raised CCK, while carrots alone and a short-chain fat called tributyrin did not."
+        },
+        {
+          "question": "Does CCK help with weight loss?",
+          "answer": "Infusing CCK-like peptides reduced how much people ate at a test meal in laboratory studies, for example by 16.8% at the higher ceruletide dose. Vagal responses to CCK, however, are attenuated in obesity. Reviewers have suggested that understanding how CCK regulates appetite may lead to future strategies for obesity."
+        },
+        {
+          "question": "What is a normal CCK level?",
+          "answer": "Accurate CCK assays have been hard to develop, so knowledge about CCK secretion in disease is limited. In one small study, fasting plasma CCK was 2.0 pmol/l and rose to between 4.6 and 7.3 pmol/l after a test meal."
+        },
+        {
+          "question": "Is CCK the same as GLP-1?",
+          "answer": "No. Both are gut hormones linked to fullness, but they are separate signals. In one study, an oil delivering medium-chain fatty acids raised GLP-1 about as much as olive oil did but did not raise CCK."
+        }
+      ],
+      "comparison_table": {
+        "title": "Key human studies on CCK, digestion and food intake",
+        "headers": [
+          "Study",
+          "Participants",
+          "What was tested",
+          "Main finding"
+        ],
+        "rows": [
+          [
+            "Ceruletide infusion trial",
+            "12 women, 12 men, non-obese",
+            "Ceruletide (CCK-like peptide) infusion before a free-choice meal",
+            "Higher dose: 16.8% less eaten (3725 vs 4340 kJ), less hunger, slower reaction times; lower dose: 6.6% less, no significant changes"
+          ],
+          [
+            "Loxiglumide crossover studies in men",
+            "Healthy men",
+            "CCK-A receptor blocker loxiglumide vs saline",
+            "Food intake +7% (not significant), calorie intake +10% (significant), more hunger, delayed fullness"
+          ],
+          [
+            "Loxiglumide study in lean and obese women",
+            "7 lean and 7 obese women",
+            "Loxiglumide vs saline before a carbohydrate-rich meal",
+            "No significant change: 359 ± 39 g vs 333 ± 31 g eaten"
+          ],
+          [
+            "Dietary lipid crossover study",
+            "12 healthy men",
+            "Carrot meals with different lipids",
+            "Only olive oil raised CCK; carrots alone and tributyrin raised no measured hormones"
+          ],
+          [
+            "CCK infusion at meal-level concentrations",
+            "7 healthy people",
+            "Test meal and CCK infusion",
+            "Fasting CCK 2.0 pmol/l, post-meal 4.6–7.3 pmol/l; meal-level CCK raised trypsin and bile output"
+          ],
+          [
+            "Gallbladder and pancreas blockade study",
+            "Human volunteers",
+            "CCK blockade vs cholinergic blockade after food",
+            "Gallbladder fell to 12 ± 4% of volume; CCK blockade abolished contraction and cut enzyme secretion by 30%"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2007",
+          "url": "https://doi.org/10.1097/MED.0b013e3280122850"
+        },
+        {
+          "title": "Cholecystokinin",
+          "source": "Best practice & research. Clinical endocrinology & metabolism, 2004",
+          "url": "https://doi.org/10.1016/j.beem.2004.07.002"
+        },
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2012",
+          "url": "https://doi.org/10.1097/MED.0b013e32834eb77d"
+        },
+        {
+          "title": "Role of cholecystokinin in the regulation of gastrointestinal motility.",
+          "source": "The Journal of nutrition, 1994",
+          "url": "https://doi.org/10.1093/jn/124.suppl_8.1334S"
+        },
+        {
+          "title": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man.",
+          "source": "Life sciences, 1985",
+          "url": "https://doi.org/10.1016/0024-3205(85)90638-1"
+        },
+        {
+          "title": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man.",
+          "source": "European journal of clinical investigation, 1992",
+          "url": "https://doi.org/10.1111/j.1365-2362.1992.tb01453.x"
+        },
+        {
+          "title": "The 2-monoacylglycerol moiety of dietary fat appears to be responsible for the fat-induced release of GLP-1 in humans.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.106799"
+        },
+        {
+          "title": "Ceruletide decreases food intake in non-obese man.",
+          "source": "Peptides, 1982",
+          "url": "https://doi.org/10.1016/0196-9781(82)90158-9"
+        },
+        {
+          "title": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans.",
+          "source": "American journal of physiology. Regulatory, integrative and comparative physiology, 2001",
+          "url": "https://doi.org/10.1152/ajpregu.2001.280.4.R1149"
+        },
+        {
+          "title": "Satiety effects of the type A CCK receptor antagonist loxiglumide in lean and obese women.",
+          "source": "Biological psychiatry, 1995",
+          "url": "https://doi.org/10.1016/0006-3223(94)00136-Q"
+        },
+        {
+          "title": "Cholecystokinin hyperresponsiveness in functional dyspepsia.",
+          "source": "World journal of gastroenterology, 2006",
+          "url": "https://doi.org/10.3748/wjg.v12.i17.2688"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "ko": {
+      "title": "콜레시스토키닌(CCK) 호르몬: 포만감과 소화의 핵심",
+      "short_title": "CCK 호르몬 쉽게 알아보기",
+      "short_description": "CCK 호르몬이 무엇인지, 무엇이 분비를 일으키는지, 소화와 포만감을 어떻게 조절하는지, 식욕에 관한 인체 연구 결과까지 정리합니다.",
+      "meta_description": "CCK 호르몬(콜레시스토키닌)은 소화를 돕고 포만감 신호를 보내는 장 호르몬입니다. 분비를 유도하는 음식과 기능, 식욕에 관한 인체 연구 결과를 알아봅니다.",
+      "tldr": "콜레시스토키닌(CCK)은 주로 음식 속 지방과 단백질에 반응해 소장에서 분비되는 펩타이드 호르몬입니다. 담낭을 수축시키고 췌장 효소 분비를 촉진하며, 위 배출을 늦추고 미주신경을 통해 뇌에 포만감 신호를 보냅니다. 인체 주입 연구에서 CCK 유사 펩타이드를 추가로 투여하자 식사량이 줄었고, CCK 수용체를 차단하자 일부 연구에서는 배고픔이 커졌지만 다른 연구에서는 그렇지 않았습니다.",
+      "body_md": "## CCK 호르몬이란 무엇인가요?\n\n콜레시스토키닌(CCK)은 소장 윗부분의 내분비세포에서 분비되는 펩타이드 호르몬입니다. 식사를 하고 나면 CCK는 크게 두 가지 일을 합니다. 소화를 시작시키고, 충분히 먹었다는 사실을 뇌에 알리는 데 힘을 보탭니다. 'CCK 호르몬'이나 '콜레시스토키닌 기능'을 검색해 이 글을 찾으셨다면 이것이 짧은 답입니다. CCK는 소화와 포만감을 담당하는 장 호르몬입니다.\n\n이 호르몬은 1928년, 담낭을 수축시키는 능력 덕분에 발견되었습니다. 이후 연구를 통해 소화관과 뇌 양쪽에서 다양한 기능을 한다는 사실이 밝혀졌습니다.\n\nCCK는 세크레틴, 가스트린과 함께 내분비학자들이 고전적인 장 호르몬 3인방이라고 부르는 그룹을 이룹니다. 또한 신경세포 안에서 신호를 전달하는 물질이기도 합니다. CCK는 사람의 뇌에 가장 많이 존재하는 신경펩타이드이므로, 단순한 소화 물질을 훨씬 넘어서는 존재입니다.\n\nCCK가 GLP-1, PYY, 그렐린과 어떻게 함께 작용하는지 더 넓게 알고 싶다면 [장 호르몬과 식욕 조절](/ko/gut-hormones-appetite-regulation-glp1-pyy-cck-2026) 개요를 참고하세요.\n\n## CCK는 어디에서 만들어지고 무엇이 분비를 일으킬까요?\n\nCCK를 분비하는 것은 장 점막에 있는 I세포라는 특수한 세포입니다. 주된 자극은 음식 속 지방과 단백질입니다. 소화된 지질과 단백질이 이 세포에 닿으면, GPR40과 칼슘 감지 수용체를 비롯한 세포 표면의 수용체가 호르몬 분비를 이끌어냅니다.\n\n모든 지방이 같은 효과를 내는 것은 아닙니다. 건강한 남성 12명을 대상으로 한 무작위 교차 연구에서 연구진은 서로 다른 날에 네 가지 식사를 제공했습니다. 당근만 먹는 식사, 그리고 당근에 세 가지 지질 중 하나를 곁들인 식사였습니다. 이 가운데 CCK 분비를 자극한 것은 올리브유뿐이었습니다. 당근만 먹었을 때와 단쇄지방산으로 이루어진 지방인 트리부티린을 곁들였을 때는 측정한 호르몬 중 어느 것도 오르지 않았습니다. 연구진은 올리브유의 올레산이 CCK 반응을 전적으로 일으키는 것으로 보인다고 결론지었습니다.\n\n같은 연구에서 흥미로운 결과도 나왔습니다. 중쇄지방산을 전달하는 시험용 오일은 GLP-1을 올리브유와 비슷한 수준으로 높였지만 CCK는 높이지 않았습니다. 두 포만 호르몬은 서로 별개의 신호이며, 같은 식사에도 다르게 반응할 수 있다는 뜻입니다.\n\n## CCK와 소화: 담낭, 췌장, 위\n\n### 담낭\n\nCCK는 담낭 수축을 조절하는 가장 중요한 호르몬입니다. 한 연구에서 음식을 먹은 뒤 담낭 부피는 최대 12 ± 4%까지 줄었고, 혈장 CCK 농도와 췌장 효소 분비량은 6~8배 증가했습니다. 연구진이 록시글루마이드라는 약물로 CCK 수용체를 차단하자 식후 담낭 수축이 완전히 사라졌습니다. 담낭 수축은 CCK가 일으키는 오디 괄약근 이완과 함께 장으로 흘러드는 담즙의 양을 조절합니다.\n\n### 췌장\n\nCCK는 췌장의 소화 효소 분비도 자극하지만, 이 과정은 신경계와 함께 조절합니다. 같은 연구에서 CCK를 차단하자 식후 효소 분비가 30% 줄었고, 아트로핀으로 콜린성 신경 신호를 차단하자 효소 분비가 사실상 멈췄습니다. 연구진은 췌장이 콜린성 신경의 바탕 작용에 결정적으로 의존하며, CCK는 그 반응을 조절하는 역할을 한다고 설명했습니다.\n\n이런 효과는 고용량에서만 나타나는 실험실의 착시가 아닙니다. 건강한 사람 7명을 대상으로 한 연구에서 혈장 CCK 농도가 식후와 비슷한 수준이 되도록 주입하자 트립신 분비가 15분당 0.5 KU에서 1.4 KU로 늘었습니다. 담즙 전달의 지표인 빌리루빈 배출량은 15분당 1.6 µmol에서 30.3 µmol로 증가했습니다. 연구진은 생리적인 농도의 CCK가 췌장 효소 분비와 담낭 수축을 자극한다고 결론지었습니다.\n\n### 위\n\nCCK는 음식 섭취와 위 배출을 모두 억제해 영양소가 소장에 도달하는 속도를 조절합니다. 위의 윗부분과 위 출구의 밸브인 유문에 작용하는 미주신경 경로를 통해 위의 움직임을 늦춥니다. 위 배출이 느려지면 일부 소화된 음식이 십이지장으로 넘어가는 흐름이 조절됩니다.\n\n문헌 고찰 연구에서는 소화를 넘어서는 역할도 제시됩니다. 한 리뷰에서 다룬 연구에서는 음식 속 지방이 CCK를 높여 장의 염증을 줄였습니다. CCK가 먹는 일과 소화를 하나의 과정으로 조율하는 호르몬이라는 점을 보여주는 대목입니다.\n\n## CCK는 어떻게 포만감을 느끼게 할까요?\n\nCCK가 뇌로 신호를 보내는 주요 통로는 미주신경입니다. 장에서 뇌간으로 메시지를 전달하는 감각섬유인 미주신경 구심성 뉴런이 CCK의 주요 표적입니다. 이 뉴런은 CCK의 신호를 다른 호르몬의 신호와 통합합니다. 지방 조직에서 분비되는 렙틴은 이 뉴런에 대한 CCK의 효과를 강화하고, 배고픔 호르몬인 그렐린은 그 효과를 약화시킵니다.\n\nCCK는 후뇌의 특정 영역에 있는 CCK-1 수용체를 통해 포만감을 일으킵니다. 또한 시상하부에서 식욕을 자극하는 펩타이드를 억제하고, 그렐린이 특정 뉴런을 자극하지 못하게 막습니다. 사람의 뇌 영상 연구에서는 섭취한 지방산이 뇌간, 시상하부, 운동 피질을 활성화하는 것으로 나타났습니다. CCK-1 수용체 차단제는 이 활성화를 억제합니다.\n\n### 주입 연구가 보여주는 것\n\n초기 인체 실험에서는 식사 전에 CCK나 이와 밀접한 펩타이드를 주입해 이를 확인했습니다. 한 이중맹검 연구에서 여성 12명과 남성 12명이 CCK와 구조가 비슷한 펩타이드인 세룰레타이드를 투여받은 뒤, 햄을 곁들인 스크램블드에그와 빵, 차를 원하는 만큼 먹었습니다. 고용량에서는 식염수를 투여했을 때보다 16.8% 적게 먹었고(3725 kJ 대 4340 kJ), 배고픔도 덜 느꼈습니다. 저용량에서는 섭취량이 6.6% 줄어드는 데 그쳤고, 다른 측정 항목에는 유의한 변화가 없었습니다.\n\n이 효과에는 대가가 따랐습니다. 고용량에서는 참가자들의 반응 시간이 길어지고 정신운동 수행 능력도 떨어졌습니다. CCK 유사 신호를 많이 주면 덜 먹게 되지만, 그 작용이 식욕에만 국한되지는 않는다는 뜻입니다.\n\n## CCK를 차단하면 어떻게 될까요?\n\nCCK가 실제 포만 신호라면 그 수용체를 차단했을 때 더 많이 먹어야 합니다. 이에 관한 인체 연구 결과는 엇갈립니다.\n\n건강한 남성을 대상으로 한 무작위 이중맹검 위약 대조 교차 연구에서 록시글루마이드는 음식 섭취량을 약간(7%) 늘렸지만 통계적으로 유의하지는 않았습니다. 반면 칼로리 섭취량은 소폭(10%) 그리고 유의하게 늘었습니다. 참가자들은 식염수를 주입했을 때보다 배고픔을 더 느꼈고 포만감은 늦게 찾아왔습니다. 연구진은 이를 CCK가 체내의 포만 신호라는 추가 근거로 해석했습니다.\n\n마른 여성 7명과 비만 여성 7명을 대상으로 한 연구에서는 이런 효과가 나타나지 않았습니다. 탄수화물이 풍부한 식사의 섭취량은 록시글루마이드 투여 시 359 ± 39 g, 식염수 투여 시 333 ± 31 g으로 유의한 차이가 없었습니다. 포만감 점수도 변하지 않았습니다.\n\n두 연구는 참가자와 실험 방법이 달라 직접 비교할 수는 없습니다. 다만 함께 놓고 보면 CCK는 하나의 절대적인 스위치라기보다 여러 포만 신호 가운데 하나라는 점을 시사합니다.\n\n## CCK와 체중, 그리고 소화기 질환\n\nCCK가 식사량을 줄인다면 왜 체중 증가를 간단히 막지 못할까요? 그 답의 일부는 CCK의 메시지를 전달하는 신경에 있을 수 있습니다. 비만에서는 CCK에 대한 미주신경 구심성 뉴런의 반응이 약해집니다. 연구자들은 이러한 CCK 저항성이 음식 섭취 조절의 변화에 영향을 줄 수 있다고 제안했습니다.\n\n리뷰 저자들은 CCK가 식욕 경로를 어떻게 조절하는지 이해하면 비만과 폭식증에 대한 전략으로 이어질 수 있다고 말합니다. 이는 아직 연구 목표로 남아 있습니다.\n\nCCK는 소화기 질환에서도 등장합니다. 제한된 자료에 따르면 셀리악병과 신경성 폭식증에서는 CCK 분비가 저하되어 있습니다. 식사와 관련된 상복부 증상이 나타나는 흔한 질환인 기능성 소화불량에서는 정맥으로 CCK를 투여하면 증상이 재현되는 것이 관찰되었습니다. 이 효과는 아트로핀과 록시글루마이드로 차단할 수 있었습니다. 한 리뷰는 CCK에 대한 반응 변화가 일부 환자에게서 보이는 위 기능 이상에 영향을 줄 수 있다고 봅니다.\n\n## CCK 수치는 측정할 수 있을까요?\n\nCCK의 '정상' 수치를 찾는 분이 많습니다. 하지만 정확한 CCK 측정법은 개발하기 어려웠고, 그 때문에 질환에서의 CCK 분비에 관한 지식도 제한적입니다.\n\n연구 결과를 보면 대략적인 규모를 알 수 있습니다. 건강한 사람 7명을 대상으로 한 연구에서 공복 혈장 CCK는 2.0 ± 0.2 pmol/l이었습니다. 표준화된 시험식을 먹은 뒤에는 4.6 ± 0.6~7.3 ± 1.0 pmol/l까지 올라갔습니다. 이 수치는 한 가지 특정 측정법으로 소규모 집단을 측정한 결과이므로 개인의 검사 결과를 판단하는 기준으로 삼아서는 안 됩니다.\n\n임상 의학에서 CCK는 주로 측정 대상이 아니라 검사용 물질로 쓰입니다. 외부에서 CCK를 투여해 자극하는 방법은 담낭 및 췌장 질환, 그리고 갑상선 수질암의 진단 검사에 유용한 것으로 확인되었습니다.\n\n## 식욕 관리를 위한 실천 포인트\n\nCCK를 직접 끌어올릴 수는 없지만, 이 시스템이 원래 설계된 대로 작동하도록 식사할 수는 있습니다.\n\n- **식사에 단백질과 약간의 지방을 포함하세요.** 장의 I세포에서 CCK 분비를 일으키는 영양소가 바로 이 두 가지입니다.\n- **지방의 종류를 고려하세요.** 남성 12명을 대상으로 한 연구에서 시험한 지질 가운데 CCK를 높인 것은 올리브유뿐이었습니다.\n- **신호가 도착할 수 있는 속도로 드세요.** CCK는 식사 도중에 위 배출을 늦추고 미주신경을 통해 포만감을 알리며 작용합니다.\n- **호르몬 하나에만 기대지 마세요.** CCK를 차단했을 때 한 연구에서는 칼로리 섭취가 늘었지만 다른 연구에서는 효과가 없었습니다. 다른 신호들도 분명히 중요하다는 뜻입니다.\n\n어떤 식사가 배고픔을 가장 오래 잠재우는지 음식 단위로 알고 싶다면, 여기서 다룬 호르몬 이야기와 함께 [포만 지수 순위](/ko/satiety-index-foods-hunger-control-ranking-2026)를 참고해 보세요.",
+      "key_stats": [
+        {
+          "label": "CCK가 발견된 해(담낭 수축 작용을 통해)",
+          "value": "1928년",
+          "source": "Review: Cholecystokinin (CCK biology and appetite)"
+        },
+        {
+          "label": "공복 시와 시험식 후의 혈장 CCK(건강한 사람 7명)",
+          "value": "2.0 pmol/l에서 4.6~7.3 pmol/l로 상승",
+          "source": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man"
+        },
+        {
+          "label": "음식 섭취 후 담낭 부피",
+          "value": "최대 12 ± 4%까지 감소",
+          "source": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man"
+        },
+        {
+          "label": "고용량 세룰레타이드(CCK 유사 펩타이드) 투여 시 식사량 감소",
+          "value": "16.8%(3725 kJ 대 4340 kJ)",
+          "source": "Ceruletide decreases food intake in non-obese man"
+        },
+        {
+          "label": "CCK-A 수용체 차단 시 칼로리 섭취 증가",
+          "value": "10%",
+          "source": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans"
+        }
+      ],
+      "faq": [
+        {
+          "question": "CCK 호르몬은 어떤 일을 하나요?",
+          "answer": "콜레시스토키닌은 담낭을 수축시키고, 췌장의 소화 효소 분비를 자극하며, 위 배출을 늦춥니다. 또한 미주신경을 통해 뇌에 포만감 신호를 보냅니다. 음식 섭취와 위 배출에 미치는 이러한 작용은 영양소가 소장으로 전달되는 과정을 조절하는 데 도움이 됩니다."
+        },
+        {
+          "question": "콜레시스토키닌은 어디에서 만들어지나요?",
+          "answer": "CCK는 소장 윗부분의 내분비세포에서 분비됩니다. 이 장 세포를 I세포라고 부릅니다. CCK는 신경세포에서 신호 전달 물질로도 작용하며, 사람의 뇌에 가장 많이 존재하는 신경펩타이드입니다."
+        },
+        {
+          "question": "CCK를 늘리는 음식은 무엇인가요?",
+          "answer": "CCK 분비를 일으키는 주된 요인은 음식 속 지방과 단백질입니다. 건강한 남성 12명을 대상으로 한 연구에서 올리브유는 CCK를 높였지만, 당근만 먹었을 때와 단쇄 지방인 트리부티린은 CCK를 높이지 않았습니다."
+        },
+        {
+          "question": "CCK가 체중 감량에 도움이 되나요?",
+          "answer": "실험실 연구에서 CCK 유사 펩타이드를 주입하자 시험식에서 먹는 양이 줄었습니다. 예를 들어 고용량 세룰레타이드에서는 16.8% 감소했습니다. 그러나 비만에서는 CCK에 대한 미주신경의 반응이 약해집니다. 리뷰 저자들은 CCK가 식욕을 조절하는 방식을 이해하면 앞으로 비만에 대한 전략으로 이어질 수 있다고 제안했습니다."
+        },
+        {
+          "question": "CCK 정상 수치는 얼마인가요?",
+          "answer": "정확한 CCK 측정법은 개발하기 어려웠기 때문에 질환에서의 CCK 분비에 관한 지식은 제한적입니다. 한 소규모 연구에서는 공복 혈장 CCK가 2.0 pmol/l였고, 시험식 후 4.6~7.3 pmol/l로 올라갔습니다."
+        },
+        {
+          "question": "CCK와 GLP-1은 같은 호르몬인가요?",
+          "answer": "아닙니다. 둘 다 포만감과 관련된 장 호르몬이지만 서로 별개의 신호입니다. 한 연구에서 중쇄지방산을 전달하는 오일은 GLP-1을 올리브유와 비슷한 수준으로 높였지만 CCK는 높이지 않았습니다."
+        }
+      ],
+      "comparison_table": {
+        "title": "CCK와 소화, 음식 섭취에 관한 주요 인체 연구",
+        "headers": [
+          "연구",
+          "참가자",
+          "시험 내용",
+          "주요 결과"
+        ],
+        "rows": [
+          [
+            "세룰레타이드 주입 연구",
+            "비만이 아닌 여성 12명, 남성 12명",
+            "자유 선택 식사 전 세룰레타이드(CCK 유사 펩타이드) 주입",
+            "고용량: 섭취량 16.8% 감소(3725 kJ 대 4340 kJ), 배고픔 감소, 반응 시간 지연 / 저용량: 6.6% 감소, 유의한 변화 없음"
+          ],
+          [
+            "남성 대상 록시글루마이드 교차 연구",
+            "건강한 남성",
+            "CCK-A 수용체 차단제 록시글루마이드 대 식염수",
+            "음식 섭취량 7% 증가(유의하지 않음), 칼로리 섭취 10% 증가(유의함), 배고픔 증가, 포만감 지연"
+          ],
+          [
+            "마른 여성과 비만 여성 대상 록시글루마이드 연구",
+            "마른 여성 7명, 비만 여성 7명",
+            "탄수화물이 풍부한 식사 전 록시글루마이드 대 식염수",
+            "유의한 변화 없음: 섭취량 359 ± 39 g 대 333 ± 31 g"
+          ],
+          [
+            "식이 지질 교차 연구",
+            "건강한 남성 12명",
+            "서로 다른 지질을 곁들인 당근 식사",
+            "CCK를 높인 것은 올리브유뿐, 당근 단독과 트리부티린은 측정한 호르몬을 전혀 높이지 않음"
+          ],
+          [
+            "식후 수준 농도의 CCK 주입 연구",
+            "건강한 사람 7명",
+            "시험식과 CCK 주입",
+            "공복 CCK 2.0 pmol/l, 식후 4.6~7.3 pmol/l / 식후 수준의 CCK가 트립신과 담즙 배출량을 높임"
+          ],
+          [
+            "담낭·췌장 차단 연구",
+            "인체 자원자",
+            "식후 CCK 차단 대 콜린성 차단",
+            "담낭 부피 12 ± 4%까지 감소 / CCK 차단 시 수축이 사라지고 효소 분비 30% 감소"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2007",
+          "url": "https://doi.org/10.1097/MED.0b013e3280122850"
+        },
+        {
+          "title": "Cholecystokinin",
+          "source": "Best practice & research. Clinical endocrinology & metabolism, 2004",
+          "url": "https://doi.org/10.1016/j.beem.2004.07.002"
+        },
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2012",
+          "url": "https://doi.org/10.1097/MED.0b013e32834eb77d"
+        },
+        {
+          "title": "Role of cholecystokinin in the regulation of gastrointestinal motility.",
+          "source": "The Journal of nutrition, 1994",
+          "url": "https://doi.org/10.1093/jn/124.suppl_8.1334S"
+        },
+        {
+          "title": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man.",
+          "source": "Life sciences, 1985",
+          "url": "https://doi.org/10.1016/0024-3205(85)90638-1"
+        },
+        {
+          "title": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man.",
+          "source": "European journal of clinical investigation, 1992",
+          "url": "https://doi.org/10.1111/j.1365-2362.1992.tb01453.x"
+        },
+        {
+          "title": "The 2-monoacylglycerol moiety of dietary fat appears to be responsible for the fat-induced release of GLP-1 in humans.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.106799"
+        },
+        {
+          "title": "Ceruletide decreases food intake in non-obese man.",
+          "source": "Peptides, 1982",
+          "url": "https://doi.org/10.1016/0196-9781(82)90158-9"
+        },
+        {
+          "title": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans.",
+          "source": "American journal of physiology. Regulatory, integrative and comparative physiology, 2001",
+          "url": "https://doi.org/10.1152/ajpregu.2001.280.4.R1149"
+        },
+        {
+          "title": "Satiety effects of the type A CCK receptor antagonist loxiglumide in lean and obese women.",
+          "source": "Biological psychiatry, 1995",
+          "url": "https://doi.org/10.1016/0006-3223(94)00136-Q"
+        },
+        {
+          "title": "Cholecystokinin hyperresponsiveness in functional dyspepsia.",
+          "source": "World journal of gastroenterology, 2006",
+          "url": "https://doi.org/10.3748/wjg.v12.i17.2688"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "ja": {
+      "title": "コレシストキニン（CCK）とは？満腹感と消化を担うホルモン",
+      "short_title": "CCK（コレシストキニン）の基本",
+      "short_description": "CCKホルモンとは何か、何が分泌のきっかけになるのか、消化と満腹感をどう調節するのか、食欲に関するヒト研究で何がわかっているのかを解説します。",
+      "meta_description": "コレシストキニン（CCK）は消化を進め、満腹感を伝える消化管ホルモンです。分泌を促す食べ物や働き、食欲に関するヒト研究の結果をわかりやすく解説します。",
+      "tldr": "コレシストキニン（CCK）は、主に食事中の脂肪とたんぱく質に反応して小腸から分泌されるペプチドホルモンです。胆嚢を収縮させ、膵臓の消化酵素の分泌を促し、胃の排出を遅らせ、迷走神経を介して脳に満腹のシグナルを送ります。ヒトへの投与試験では、CCK類似ペプチドを追加すると食事量が減りました。一方、CCK受容体を遮断すると空腹感が強まった試験もあれば、変化がなかった試験もあります。",
+      "body_md": "## CCKホルモンとは？\n\nコレシストキニン（CCK）は、小腸上部の内分泌細胞から分泌されるペプチドホルモンです。食事をすると、CCKは大きく2つの役割を果たします。消化のスイッチを入れること、そして「もう十分に食べた」と脳に伝える手助けをすることです。「CCK ホルモン」や「コレシストキニン 働き」で検索した方への短い答えはこれです。CCKは消化と満腹感にかかわる消化管ホルモンです。\n\nこのホルモンは1928年、胆嚢を収縮させる働きをきっかけに発見されました。その後の研究で、消化管と脳の両方でさまざまな機能を持つことが明らかになっています。\n\nCCKは、セクレチン、ガストリンとともに、内分泌学で古典的な消化管ホルモンの三本柱と呼ばれるグループを構成しています。また、神経細胞の中で情報を伝える物質でもあります。CCKはヒトの脳内で最も多い神経ペプチドであり、単なる消化のための物質をはるかに超えた存在です。\n\nCCKがGLP-1、PYY、グレリンとどのように連携しているのか、より広い視点で知りたい方は、[消化管ホルモンと食欲調節](/ja/gut-hormones-appetite-regulation-glp1-pyy-cck-2026)の解説もご覧ください。\n\n## CCKはどこでつくられ、何が分泌のきっかけになる？\n\nCCKを分泌するのは、腸の粘膜にあるI細胞と呼ばれる特殊な細胞です。主なきっかけは、食事中の脂肪とたんぱく質です。消化された脂質やたんぱく質がこの細胞に届くと、GPR40やカルシウム感知受容体などの細胞表面の受容体が働き、ホルモンの分泌が促されます。\n\nただし、すべての脂肪が同じ効果を持つわけではありません。健康な男性12人を対象としたランダム化クロスオーバー試験では、別々の日に4種類の食事が与えられました。にんじんのみ、またはにんじんに3種類の脂質のいずれかを加えた食事です。CCKの分泌を促したのはオリーブオイルだけでした。にんじんのみの場合と、短鎖脂肪酸からなる脂肪であるトリブチリンを加えた場合は、測定したホルモンはいずれも上昇しませんでした。研究者らは、オリーブオイルに含まれるオレイン酸がCCKの反応をすべて担っているようだと結論づけています。\n\n同じ試験では、興味深い結果も得られています。中鎖脂肪酸を供給する試験用オイルは、オリーブオイルとほぼ同程度にGLP-1を上昇させましたが、CCKは上昇させませんでした。2つの満腹ホルモンはそれぞれ独立したシグナルであり、同じ食事に対して異なる反応を示すことがあるのです。\n\n## CCKと消化：胆嚢・膵臓・胃\n\n### 胆嚢\n\nCCKは胆嚢の収縮を調節する最も重要なホルモンです。ある研究では、食事をとった後、胆嚢の容積は最大で12 ± 4%まで縮小し、血漿CCK濃度と膵酵素の分泌量は6～8倍に増加しました。研究者らがロキシグルミドという薬剤でCCK受容体を遮断すると、食後の胆嚢収縮は完全に消失しました。胆嚢の収縮は、CCKによるオッディ括約筋の弛緩とあわせて、腸へ流れ込む胆汁の量を調節しています。\n\n### 膵臓\n\nCCKは膵臓からの消化酵素の分泌も促しますが、ここでは神経系と役割を分け合っています。同じ研究で、CCKを遮断すると食後の酵素分泌は30%減少し、アトロピンでコリン作動性の神経シグナルを遮断すると酵素分泌はほぼ止まりました。研究者らは、膵臓はコリン作動性神経の土台に決定的に依存しており、CCKはその反応を調整していると説明しています。\n\nこうした効果は、高用量を用いた実験だけで見られる現象ではありません。健康な7人を対象とした研究では、血漿CCK濃度が食後と同程度になるように投与したところ、トリプシンの分泌量は15分あたり0.5 KUから1.4 KUに増えました。胆汁排出の指標であるビリルビンの排出量は、15分あたり1.6 µmolから30.3 µmolに増加しました。研究者らは、生理的な濃度のCCKが膵酵素の分泌と胆嚢の収縮を促すと結論づけています。\n\n### 胃\n\nCCKは食物の摂取と胃の排出の両方を抑えることで、栄養素が小腸に届く速さを調節しています。胃の上部と、胃の出口にある弁である幽門に作用する迷走神経の経路を通じて、胃の動きを遅らせます。胃の排出が遅くなることで、部分的に消化された食べ物が十二指腸へ送られる流れが調節されます。\n\n総説では、消化以外の役割も示唆されています。ある総説で取り上げられた研究では、食事中の脂肪がCCKを高めることで、腸の炎症が抑えられました。CCKが「食べること」と「消化すること」をひとつのプロセスとしてまとめるホルモンであることがうかがえます。\n\n## CCKが満腹感をもたらすしくみ\n\nCCKが脳に情報を届ける主なルートは迷走神経です。腸から脳幹へ情報を運ぶ感覚線維である迷走神経求心性ニューロンが、CCKの主な標的です。このニューロンは、CCKのシグナルをほかのホルモンのシグナルと統合しています。脂肪組織から分泌されるレプチンは、このニューロンに対するCCKの作用を強め、空腹ホルモンであるグレリンはその作用を弱めます。\n\nCCKは、後脳の特定の領域にあるCCK-1受容体を介して満腹感を引き起こします。さらに、視床下部で食欲を高めるペプチドを抑え、グレリンが特定のニューロンを刺激するのを妨げます。ヒトの脳画像研究では、摂取した脂肪酸が脳幹、視床下部、運動野を活性化することが示されています。CCK-1受容体の遮断薬は、この活性化を抑えます。\n\n### 投与試験からわかること\n\n初期のヒト試験では、食事の前にCCKやそれに近いペプチドを投与して、この働きを確かめました。ある二重盲検試験では、女性12人と男性12人が、CCKと構造の似たペプチドであるセルレチドの投与を受けた後、ハム入りのスクランブルエッグ、パン、紅茶を好きなだけ食べました。高用量では、生理食塩水のときより摂取量が16.8%少なく（3725 kJ対4340 kJ）、空腹感も弱まりました。低用量では摂取量の減少は6.6%にとどまり、ほかの指標にも有意な変化はありませんでした。\n\nこの効果には代償もありました。高用量では、参加者の反応時間が長くなり、精神運動機能も低下しました。CCK類似のシグナルを多く与えると食べる量は減りますが、その作用は食欲だけにとどまらないということです。\n\n## CCKを遮断するとどうなる？\n\nCCKが本当に満腹のシグナルなら、その受容体を遮断すれば食べる量は増えるはずです。しかし、ヒトでの結果は一致していません。\n\n健康な男性を対象としたランダム化二重盲検プラセボ対照クロスオーバー試験では、ロキシグルミドによって食物摂取量がわずかに（7%）増えましたが、統計的に有意ではありませんでした。一方、エネルギー摂取量は小幅（10%）ながら有意に増加しました。参加者は、生理食塩水を投与したときより空腹感が強く、満腹感が遅れて現れました。研究者らは、これをCCKが体内の満腹シグナルであることのさらなる証拠と解釈しています。\n\n一方、やせ型の女性7人と肥満の女性7人を対象とした研究では、そのような効果は見られませんでした。炭水化物の多い食事の摂取量は、ロキシグルミド投与時が359 ± 39 g、生理食塩水投与時が333 ± 31 gで、有意な差はありませんでした。満腹感のスコアも変わりませんでした。\n\n2つの研究は参加者も方法も異なるため、直接比較することはできません。ただ、あわせて考えると、CCKは唯一の「主スイッチ」ではなく、複数ある満腹シグナルのひとつだといえそうです。\n\n## CCKと体重、消化器の病気\n\nCCKが食事量を減らすのなら、なぜ体重増加を簡単に防げないのでしょうか。その答えの一部は、CCKのメッセージを運ぶ神経にあるのかもしれません。肥満では、CCKに対する迷走神経求心性ニューロンの反応が弱まっています。研究者らは、このCCKへの抵抗性が食物摂取の調節の変化に関与している可能性を指摘しています。\n\n総説の著者らは、CCKが食欲の経路をどう調節しているかを理解することが、肥満や過食症への対策につながる可能性があると述べています。ただし、これはまだ研究上の目標です。\n\nCCKは消化器の病気にもかかわっています。限られたデータによると、セリアック病と神経性過食症ではCCKの分泌が低下しています。食事に関連して上腹部の症状が出るよくある病気である機能性ディスペプシアでは、CCKを静脈内に投与すると症状が再現されることが観察されています。この作用は、アトロピンとロキシグルミドで遮断できました。ある総説では、CCKに対する反応の変化が、一部の患者に見られる胃の機能異常に関与している可能性があるとしています。\n\n## CCKの値は測定できる？\n\nCCKの「正常値」を知りたい方は少なくありません。しかし、正確なCCKの測定法は開発が難しく、そのため病気におけるCCK分泌についての知見も限られています。\n\n研究データからは、おおよその目安がわかります。健康な7人を対象とした研究では、空腹時の血漿CCKは2.0 ± 0.2 pmol/lでした。標準化された試験食をとった後は、4.6 ± 0.6～7.3 ± 1.0 pmol/lの範囲まで上昇しました。これらの数値は、ある特定の測定法で少人数のグループを測定した結果なので、個人の検査結果を判断する基準にはしないでください。\n\n臨床の現場では、CCKは測定する対象というより、主に検査用の物質として使われています。外からCCKを投与して刺激する方法は、胆嚢や膵臓の病気、甲状腺髄様がんの診断検査に役立つことが示されています。\n\n## 食欲と上手に付き合うためのポイント\n\nCCKを直接増やすことはできませんが、このしくみが本来の形で働くような食べ方をすることはできます。\n\n- **食事にたんぱく質と適度な脂肪を取り入れる。** 腸のI細胞からCCKの分泌を促すのは、これらの栄養素です。\n- **脂肪の種類を意識する。** 男性12人を対象とした試験で、検討された脂質のうちCCKを上昇させたのはオリーブオイルだけでした。\n- **シグナルが届くペースで食べる。** CCKは食事の最中に、胃の排出を遅らせ、迷走神経を介して満腹感を伝えることで働きます。\n- **ひとつのホルモンだけに頼らない。** CCKを遮断すると、ある試験ではエネルギー摂取量が増えましたが、別の試験では影響がありませんでした。ほかのシグナルも明らかに重要だということです。\n\nどんな食事が空腹感を最も長く抑えてくれるのかを食品レベルで知りたい方は、ここで紹介したホルモンの話とあわせて[満腹指数ランキング](/ja/satiety-index-foods-hunger-control-ranking-2026)も参考にしてください。",
+      "key_stats": [
+        {
+          "label": "CCKが発見された年（胆嚢収縮作用による）",
+          "value": "1928年",
+          "source": "Review: Cholecystokinin (CCK biology and appetite)"
+        },
+        {
+          "label": "空腹時と試験食後の血漿CCK（健康な7人）",
+          "value": "2.0 pmol/lから4.6～7.3 pmol/lに上昇",
+          "source": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man"
+        },
+        {
+          "label": "食事後の胆嚢容積",
+          "value": "最大で12 ± 4%まで縮小",
+          "source": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man"
+        },
+        {
+          "label": "高用量セルレチド（CCK類似ペプチド）による食事摂取量の減少",
+          "value": "16.8%（3725 kJ対4340 kJ）",
+          "source": "Ceruletide decreases food intake in non-obese man"
+        },
+        {
+          "label": "CCK-A受容体を遮断したときのエネルギー摂取量の増加",
+          "value": "10%",
+          "source": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans"
+        }
+      ],
+      "faq": [
+        {
+          "question": "CCKホルモンにはどんな働きがありますか？",
+          "answer": "コレシストキニンは、胆嚢を収縮させ、膵臓の消化酵素の分泌を促し、胃の排出を遅らせます。また、迷走神経を介して脳に満腹のシグナルを送ります。食べることと胃の排出に対するこうした作用が、栄養素が小腸に届く流れの調節に役立っています。"
+        },
+        {
+          "question": "コレシストキニンはどこでつくられますか？",
+          "answer": "CCKは小腸上部の内分泌細胞から分泌されます。この腸の細胞はI細胞と呼ばれています。CCKは神経細胞で情報を伝える物質としても働き、ヒトの脳内で最も多い神経ペプチドです。"
+        },
+        {
+          "question": "CCKを増やす食べ物は？",
+          "answer": "CCKの分泌を促す主な要因は、食事中の脂肪とたんぱく質です。健康な男性12人を対象とした試験では、オリーブオイルはCCKを上昇させましたが、にんじんのみの場合と、短鎖脂肪の一種であるトリブチリンでは上昇しませんでした。"
+        },
+        {
+          "question": "CCKはダイエットに役立ちますか？",
+          "answer": "実験室での研究では、CCK類似ペプチドを投与すると試験食での摂取量が減りました。たとえば高用量のセルレチドでは16.8%減少しています。ただし、肥満ではCCKに対する迷走神経の反応が弱まっています。総説の著者らは、CCKが食欲をどう調節するかを理解することが、将来の肥満対策につながる可能性があると述べています。"
+        },
+        {
+          "question": "CCKの正常値はどのくらいですか？",
+          "answer": "正確なCCKの測定法は開発が難しかったため、病気におけるCCK分泌についての知見は限られています。ある小規模な研究では、空腹時の血漿CCKは2.0 pmol/lで、試験食の後には4.6～7.3 pmol/lに上昇しました。"
+        },
+        {
+          "question": "CCKとGLP-1は同じものですか？",
+          "answer": "いいえ。どちらも満腹感にかかわる消化管ホルモンですが、別々のシグナルです。ある研究では、中鎖脂肪酸を供給するオイルがオリーブオイルとほぼ同程度にGLP-1を上昇させましたが、CCKは上昇させませんでした。"
+        }
+      ],
+      "comparison_table": {
+        "title": "CCK・消化・食物摂取に関する主なヒト研究",
+        "headers": [
+          "研究",
+          "参加者",
+          "検討内容",
+          "主な結果"
+        ],
+        "rows": [
+          [
+            "セルレチド投与試験",
+            "肥満でない女性12人、男性12人",
+            "自由摂取の食事前にセルレチド（CCK類似ペプチド）を投与",
+            "高用量：摂取量16.8%減（3725 kJ対4340 kJ）、空腹感の低下、反応時間の遅延。低用量：6.6%減、有意な変化なし"
+          ],
+          [
+            "男性を対象としたロキシグルミドのクロスオーバー試験",
+            "健康な男性",
+            "CCK-A受容体遮断薬ロキシグルミド対生理食塩水",
+            "食物摂取量7%増（有意差なし）、エネルギー摂取量10%増（有意差あり）、空腹感の増加、満腹感の遅れ"
+          ],
+          [
+            "やせ型・肥満女性を対象としたロキシグルミド研究",
+            "やせ型の女性7人、肥満の女性7人",
+            "炭水化物の多い食事の前にロキシグルミド対生理食塩水",
+            "有意な変化なし：摂取量359 ± 39 g対333 ± 31 g"
+          ],
+          [
+            "食事性脂質のクロスオーバー試験",
+            "健康な男性12人",
+            "異なる脂質を加えたにんじんの食事",
+            "CCKを上昇させたのはオリーブオイルのみ。にんじんのみとトリブチリンは測定したホルモンをいずれも上昇させず"
+          ],
+          [
+            "食後レベルの濃度でのCCK投与研究",
+            "健康な7人",
+            "試験食とCCK投与",
+            "空腹時CCK 2.0 pmol/l、食後4.6～7.3 pmol/l。食後レベルのCCKでトリプシンと胆汁の排出量が増加"
+          ],
+          [
+            "胆嚢・膵臓の遮断研究",
+            "ヒトのボランティア",
+            "食後のCCK遮断対コリン作動性遮断",
+            "胆嚢は容積の12 ± 4%まで縮小。CCK遮断で収縮が消失し、酵素分泌が30%減少"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2007",
+          "url": "https://doi.org/10.1097/MED.0b013e3280122850"
+        },
+        {
+          "title": "Cholecystokinin",
+          "source": "Best practice & research. Clinical endocrinology & metabolism, 2004",
+          "url": "https://doi.org/10.1016/j.beem.2004.07.002"
+        },
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2012",
+          "url": "https://doi.org/10.1097/MED.0b013e32834eb77d"
+        },
+        {
+          "title": "Role of cholecystokinin in the regulation of gastrointestinal motility.",
+          "source": "The Journal of nutrition, 1994",
+          "url": "https://doi.org/10.1093/jn/124.suppl_8.1334S"
+        },
+        {
+          "title": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man.",
+          "source": "Life sciences, 1985",
+          "url": "https://doi.org/10.1016/0024-3205(85)90638-1"
+        },
+        {
+          "title": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man.",
+          "source": "European journal of clinical investigation, 1992",
+          "url": "https://doi.org/10.1111/j.1365-2362.1992.tb01453.x"
+        },
+        {
+          "title": "The 2-monoacylglycerol moiety of dietary fat appears to be responsible for the fat-induced release of GLP-1 in humans.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.106799"
+        },
+        {
+          "title": "Ceruletide decreases food intake in non-obese man.",
+          "source": "Peptides, 1982",
+          "url": "https://doi.org/10.1016/0196-9781(82)90158-9"
+        },
+        {
+          "title": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans.",
+          "source": "American journal of physiology. Regulatory, integrative and comparative physiology, 2001",
+          "url": "https://doi.org/10.1152/ajpregu.2001.280.4.R1149"
+        },
+        {
+          "title": "Satiety effects of the type A CCK receptor antagonist loxiglumide in lean and obese women.",
+          "source": "Biological psychiatry, 1995",
+          "url": "https://doi.org/10.1016/0006-3223(94)00136-Q"
+        },
+        {
+          "title": "Cholecystokinin hyperresponsiveness in functional dyspepsia.",
+          "source": "World journal of gastroenterology, 2006",
+          "url": "https://doi.org/10.3748/wjg.v12.i17.2688"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "zh-CN": {
+      "title": "胆囊收缩素（CCK）是什么？饱腹感与消化激素",
+      "short_title": "一文读懂胆囊收缩素（CCK）",
+      "short_description": "CCK激素是什么、哪些因素促使它分泌、它如何调控消化和饱腹感，以及人体研究对食欲有哪些发现。",
+      "meta_description": "胆囊收缩素（CCK）是一种推动消化、传递饱腹信号的肠道激素。了解哪些食物促进CCK分泌、它有什么作用，以及人体研究对食欲的发现。",
+      "tldr": "胆囊收缩素（CCK）是一种肽类激素，主要在膳食脂肪和蛋白质的刺激下由小肠分泌。它能使胆囊收缩、刺激胰酶分泌、减慢胃排空，并通过迷走神经向大脑发送饱腹信号。在人体输注研究中，额外给予CCK类似肽可减少进食量；而阻断CCK受体后，有些试验中饥饿感增加，有些试验中则没有。",
+      "body_md": "## CCK激素是什么？\n\n胆囊收缩素（CCK）是一种由小肠上段内分泌细胞分泌的肽类激素。进食后，它主要承担两项任务：启动消化，并帮助告诉大脑“已经吃够了”。如果你搜索的是“CCK激素”或“胆囊收缩素的作用”，简短的答案就是：CCK是一种负责消化和饱腹感的肠道激素。\n\n这种激素于1928年被发现，起因正是它能让胆囊收缩。后来的研究表明，它在消化道和大脑中都具有多种功能。\n\nCCK与促胰液素、促胃液素一起，构成了内分泌学家所说的经典肠道激素“三剑客”。它还是神经细胞内部的信使分子。CCK是人脑中含量最丰富的神经肽，因此它远不只是一种消化物质。\n\n想更全面地了解CCK如何与GLP-1、PYY和胃饥饿素协同作用，可以阅读我们关于[肠道激素与食欲调节](/zh/gut-hormones-appetite-regulation-glp1-pyy-cck-2026)的综述。\n\n## CCK在哪里产生？什么会促使它分泌？\n\n分泌CCK的是肠黏膜中一类特化的细胞，称为I细胞。主要的触发因素是膳食脂肪和蛋白质。当消化后的脂质和蛋白质到达这些细胞时，细胞表面的受体（包括GPR40和钙敏感受体）会促使它们释放这种激素。\n\n并非所有脂肪的效果都一样。在一项纳入12名健康男性的随机交叉研究中，研究人员在不同的日子提供了四种餐食：单纯的胡萝卜，或胡萝卜搭配三种不同脂质中的一种。只有橄榄油刺激了CCK分泌。单吃胡萝卜，以及胡萝卜搭配三丁酸甘油酯（一种由短链脂肪酸构成的脂肪）时，所测的激素都没有升高。作者得出结论：橄榄油中的油酸似乎完全决定了CCK反应。\n\n同一项研究还有一个有意思的细节。一种提供中链脂肪酸的试验用油，使GLP-1升高的幅度与橄榄油相当，却没有升高CCK。这两种饱腹激素是相互独立的信号，对同一餐可能有不同的反应。\n\n## CCK与消化：胆囊、胰腺和胃\n\n### 胆囊\n\nCCK是调控胆囊收缩最主要的激素。在一项研究中，经口进食后胆囊容积最多缩小至12 ± 4%，血浆CCK水平和胰酶分泌量则增加了6～8倍。研究人员用药物氯谷胺阻断CCK受体后，餐后胆囊收缩完全消失。胆囊收缩与CCK引起的Oddi括约肌松弛共同调节胆汁流入肠道。\n\n### 胰腺\n\nCCK也会刺激胰腺分泌消化酶，但在这方面它与神经系统共同发挥调控作用。在同一项研究中，阻断CCK使餐后酶分泌减少了30%，而用阿托品阻断胆碱能神经信号后，酶分泌基本停止。作者认为，胰腺高度依赖胆碱能神经提供的基础作用，CCK则对这一反应起调节作用。\n\n这些效应并不只是高剂量实验下的假象。在一项纳入7名健康人的研究中，将CCK输注至与餐后相近的血浆水平后，胰蛋白酶分泌量从每15分钟0.5 KU升至1.4 KU。作为胆汁排出指标的胆红素排出量，则从每15分钟1.6 µmol升至30.3 µmol。作者得出结论：生理浓度的CCK即可刺激胰酶分泌和胆囊收缩。\n\n### 胃\n\nCCK通过同时抑制进食和胃排空，控制营养物质到达小肠的速度。它通过作用于胃上部和幽门（胃出口处的“阀门”）的迷走神经通路来减慢胃的活动。胃排空减慢，可以调节部分消化的食物进入十二指肠的节奏。\n\n综述证据还提示它在消化之外也有作用。在一篇综述讨论的研究中，膳食脂肪通过升高CCK减轻了肠道炎症。这说明CCK是一种把进食和消化当作同一过程来协调的激素。\n\n## CCK如何让你感到饱\n\nCCK通往大脑的主要途径是迷走神经。迷走神经传入神经元是把信息从肠道传递到脑干的感觉纤维，也是CCK的主要作用对象。这些神经元会把CCK的信号与其他激素的信号整合起来。脂肪组织分泌的瘦素会增强CCK对这些神经元的作用，而“饥饿激素”胃饥饿素则会削弱这种作用。\n\nCCK通过后脑特定区域的CCK-1受体诱发饱腹感。它还会抑制下丘脑中促进食欲的肽类物质，并阻止胃饥饿素刺激某些神经元。人类脑成像研究显示，摄入的脂肪酸会激活脑干、下丘脑和运动皮层，而CCK-1受体阻断剂能抑制这种激活。\n\n### 输注研究的发现\n\n早期的人体实验通过在餐前输注CCK或与其密切相关的肽来验证这一点。在一项双盲研究中，12名女性和12名男性接受了雨蛙素（一种结构与CCK相似的肽）输注，随后可以随意享用炒鸡蛋配火腿、面包和茶。高剂量时，他们的进食量比输注生理盐水时少16.8%（3725 kJ对4340 kJ），饥饿感也有所减轻。低剂量时进食量仅减少6.6%，其他指标没有显著变化。\n\n这种效果也有代价。高剂量时，受试者的反应时间延长，精神运动表现变差。较大剂量的CCK类似信号可以减少进食，但它的作用并不只局限于食欲。\n\n## 阻断CCK会怎样？\n\n如果CCK真的是饱腹信号，那么阻断它的受体就应该让人吃得更多。但这方面的人体研究结果并不一致。\n\n在针对健康男性的随机、双盲、安慰剂对照交叉研究中，氯谷胺使食物摄入量略有增加（7%），但没有统计学意义；不过，它确实使热量摄入出现了小幅（10%）且显著的增加。与输注生理盐水时相比，受试者饥饿感更强，饱腹感出现得更晚。作者认为，这进一步证明CCK是一种内源性饱腹信号。\n\n而一项纳入7名偏瘦女性和7名肥胖女性的研究没有发现这种效果。对于一顿富含碳水化合物的餐食，使用氯谷胺时进食量为359 ± 39 g，使用生理盐水时为333 ± 31 g，差异不显著。饱腹感评分也没有变化。\n\n这两项研究的受试者和方案不同，无法直接比较。但综合来看，CCK更像是多种饱腹信号中的一种，而不是单一的“总开关”。\n\n## CCK、体重与消化系统疾病\n\n既然CCK能减少每餐的进食量，为什么它不能直接防止体重增加？部分答案可能在于传递它信息的那条神经。在肥胖状态下，迷走神经传入神经元对CCK的反应会减弱。研究人员提出，这种对CCK的抵抗可能与进食调节的改变有关。\n\n综述作者认为，弄清CCK如何调控食欲通路，可能为肥胖和贪食症带来新的应对策略。不过，这仍是一个研究目标。\n\nCCK在消化系统疾病中也有体现。根据现有的有限数据，乳糜泻和神经性贪食症患者的CCK分泌受损。功能性消化不良是一种常见病，表现为与进餐相关的上腹部症状；研究观察到，静脉注射CCK可以再现这些症状，而这种效应可被阿托品和氯谷胺阻断。一篇综述认为，对CCK的反应改变可能与部分患者的胃功能紊乱有关。\n\n## CCK水平可以检测吗？\n\n很多人想知道CCK的“正常值”是多少。然而，准确的CCK检测方法一直难以开发，因此人们对疾病状态下CCK分泌的了解也很有限。\n\n研究数据可以提供一个大致的参考范围。在那项纳入7名健康人的研究中，空腹血浆CCK为2.0 ± 0.2 pmol/l；进食标准化试验餐后，升至4.6 ± 0.6～7.3 ± 1.0 pmol/l。这些数据来自一个小样本人群，并使用了特定的检测方法，因此不应拿来判断个人的检测结果。\n\n在临床医学中，CCK主要作为检测用的试剂，而不是检测对象。用外源性CCK进行刺激，已被证实可用于胆囊和胰腺疾病以及甲状腺髓样癌的诊断检查。\n\n## 管理食欲的实用要点\n\n你无法直接调高CCK，但可以通过合理的吃法，让这套系统按设计的方式运转。\n\n- **每餐搭配蛋白质和适量脂肪。** 正是这些营养素触发肠道I细胞分泌CCK。\n- **留意脂肪的种类。** 在那项12名男性参与的研究中，橄榄油是所测脂质中唯一能升高CCK的。\n- **控制进食节奏，让信号来得及传到大脑。** CCK在进餐过程中发挥作用，通过减慢胃排空、经迷走神经传递饱腹信号。\n- **不要只指望一种激素。** 阻断CCK在一项试验中增加了热量摄入，在另一项试验中却没有效果，可见其他信号同样重要。\n\n如果你想从食物层面了解哪些餐食最能长时间压住饥饿感，我们的[饱腹指数排行](/zh/satiety-index-foods-hunger-control-ranking-2026)可以和本文的激素知识搭配阅读。",
+      "key_stats": [
+        {
+          "label": "CCK被发现的年份（通过胆囊收缩作用）",
+          "value": "1928年",
+          "source": "Review: Cholecystokinin (CCK biology and appetite)"
+        },
+        {
+          "label": "空腹与试验餐后的血浆CCK（7名健康人）",
+          "value": "由2.0 pmol/l升至4.6～7.3 pmol/l",
+          "source": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man"
+        },
+        {
+          "label": "经口进食后的胆囊容积",
+          "value": "最多缩小至12 ± 4%",
+          "source": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man"
+        },
+        {
+          "label": "高剂量雨蛙素（CCK类似肽）使进食量减少",
+          "value": "16.8%（3725 kJ对4340 kJ）",
+          "source": "Ceruletide decreases food intake in non-obese man"
+        },
+        {
+          "label": "阻断CCK-A受体后热量摄入的增加",
+          "value": "10%",
+          "source": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans"
+        }
+      ],
+      "faq": [
+        {
+          "question": "CCK激素有什么作用？",
+          "answer": "胆囊收缩素能使胆囊收缩、刺激胰腺分泌消化酶并减慢胃排空。它还通过迷走神经向大脑传递饱腹信号。它对进食和胃排空的作用，有助于控制营养物质进入小肠的节奏。"
+        },
+        {
+          "question": "胆囊收缩素是在哪里产生的？",
+          "answer": "CCK由小肠上段的内分泌细胞分泌，这类肠道细胞被称为I细胞。它还在神经细胞中作为递质发挥作用，是人脑中含量最丰富的神经肽。"
+        },
+        {
+          "question": "哪些食物能促进CCK分泌？",
+          "answer": "膳食脂肪和蛋白质是促使CCK分泌的主要因素。在一项纳入12名健康男性的研究中，橄榄油升高了CCK，而单吃胡萝卜以及一种名为三丁酸甘油酯的短链脂肪则没有。"
+        },
+        {
+          "question": "CCK有助于减肥吗？",
+          "answer": "在实验室研究中，输注CCK类似肽可减少人们在试验餐中的进食量，例如高剂量雨蛙素使进食量减少了16.8%。但在肥胖状态下，迷走神经对CCK的反应会减弱。综述作者认为，弄清CCK如何调节食欲，未来可能为肥胖带来新的应对策略。"
+        },
+        {
+          "question": "CCK的正常水平是多少？",
+          "answer": "准确的CCK检测方法一直难以开发，因此人们对疾病状态下CCK分泌的了解有限。在一项小型研究中，空腹血浆CCK为2.0 pmol/l，进食试验餐后升至4.6～7.3 pmol/l。"
+        },
+        {
+          "question": "CCK和GLP-1是一回事吗？",
+          "answer": "不是。两者都是与饱腹感相关的肠道激素，但属于不同的信号。在一项研究中，一种提供中链脂肪酸的油使GLP-1升高的幅度与橄榄油相当，却没有升高CCK。"
+        }
+      ],
+      "comparison_table": {
+        "title": "关于CCK、消化与进食的主要人体研究",
+        "headers": [
+          "研究",
+          "受试者",
+          "研究内容",
+          "主要发现"
+        ],
+        "rows": [
+          [
+            "雨蛙素输注试验",
+            "非肥胖者，女性12名、男性12名",
+            "自由进食前输注雨蛙素（CCK类似肽）",
+            "高剂量：进食量减少16.8%（3725 kJ对4340 kJ），饥饿感降低，反应时间变慢；低剂量：减少6.6%，无显著变化"
+          ],
+          [
+            "男性氯谷胺交叉研究",
+            "健康男性",
+            "CCK-A受体阻断剂氯谷胺对比生理盐水",
+            "食物摄入量增加7%（不显著），热量摄入增加10%（显著），饥饿感增强，饱腹感延迟"
+          ],
+          [
+            "偏瘦与肥胖女性氯谷胺研究",
+            "偏瘦女性7名、肥胖女性7名",
+            "富含碳水化合物的餐前使用氯谷胺对比生理盐水",
+            "无显著变化：进食量359 ± 39 g对333 ± 31 g"
+          ],
+          [
+            "膳食脂质交叉研究",
+            "健康男性12名",
+            "搭配不同脂质的胡萝卜餐",
+            "只有橄榄油升高了CCK；单吃胡萝卜和三丁酸甘油酯均未升高所测激素"
+          ],
+          [
+            "餐后水平浓度的CCK输注研究",
+            "健康人7名",
+            "试验餐与CCK输注",
+            "空腹CCK 2.0 pmol/l，餐后4.6～7.3 pmol/l；餐后水平的CCK提高了胰蛋白酶和胆汁排出量"
+          ],
+          [
+            "胆囊与胰腺阻断研究",
+            "人体志愿者",
+            "进食后CCK阻断对比胆碱能阻断",
+            "胆囊缩小至容积的12 ± 4%；阻断CCK后收缩消失，酶分泌减少30%"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2007",
+          "url": "https://doi.org/10.1097/MED.0b013e3280122850"
+        },
+        {
+          "title": "Cholecystokinin",
+          "source": "Best practice & research. Clinical endocrinology & metabolism, 2004",
+          "url": "https://doi.org/10.1016/j.beem.2004.07.002"
+        },
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2012",
+          "url": "https://doi.org/10.1097/MED.0b013e32834eb77d"
+        },
+        {
+          "title": "Role of cholecystokinin in the regulation of gastrointestinal motility.",
+          "source": "The Journal of nutrition, 1994",
+          "url": "https://doi.org/10.1093/jn/124.suppl_8.1334S"
+        },
+        {
+          "title": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man.",
+          "source": "Life sciences, 1985",
+          "url": "https://doi.org/10.1016/0024-3205(85)90638-1"
+        },
+        {
+          "title": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man.",
+          "source": "European journal of clinical investigation, 1992",
+          "url": "https://doi.org/10.1111/j.1365-2362.1992.tb01453.x"
+        },
+        {
+          "title": "The 2-monoacylglycerol moiety of dietary fat appears to be responsible for the fat-induced release of GLP-1 in humans.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.106799"
+        },
+        {
+          "title": "Ceruletide decreases food intake in non-obese man.",
+          "source": "Peptides, 1982",
+          "url": "https://doi.org/10.1016/0196-9781(82)90158-9"
+        },
+        {
+          "title": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans.",
+          "source": "American journal of physiology. Regulatory, integrative and comparative physiology, 2001",
+          "url": "https://doi.org/10.1152/ajpregu.2001.280.4.R1149"
+        },
+        {
+          "title": "Satiety effects of the type A CCK receptor antagonist loxiglumide in lean and obese women.",
+          "source": "Biological psychiatry, 1995",
+          "url": "https://doi.org/10.1016/0006-3223(94)00136-Q"
+        },
+        {
+          "title": "Cholecystokinin hyperresponsiveness in functional dyspepsia.",
+          "source": "World journal of gastroenterology, 2006",
+          "url": "https://doi.org/10.3748/wjg.v12.i17.2688"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "zh-TW": {
+      "title": "膽囊收縮素（CCK）是什麼？飽足感與消化荷爾蒙",
+      "short_title": "膽囊收縮素（CCK）完整解析",
+      "short_description": "CCK荷爾蒙是什麼、哪些因素會刺激分泌、如何掌控消化與飽足感，以及人體研究對食慾的發現。",
+      "meta_description": "膽囊收縮素（CCK）是推動消化、傳遞飽足訊號的腸道荷爾蒙。帶你了解CCK的分泌原因、作用，以及人體研究對食慾的發現。",
+      "tldr": "膽囊收縮素（CCK）是一種由小腸釋放的胜肽荷爾蒙，主要在吃進脂肪與蛋白質後分泌。它會讓膽囊收縮、刺激胰臟分泌酵素、減緩胃排空，並透過迷走神經向大腦傳遞飽足訊號。人體輸注研究發現，額外補充類CCK胜肽會減少每餐食量；阻斷CCK受體則在部分試驗中讓飢餓感增加，在其他試驗中則沒有。",
+      "body_md": "## CCK荷爾蒙是什麼？\n\n膽囊收縮素（cholecystokinin，CCK）是一種胜肽荷爾蒙，由小腸上段的內分泌細胞釋放。進食後，它主要負責兩件事：啟動消化，並幫忙告訴大腦你已經吃夠了。如果你搜尋的是「CCK荷爾蒙」或「膽囊收縮素是什麼」，簡單的答案就是：CCK是一種負責消化與飽足感的腸道荷爾蒙。\n\n這種荷爾蒙在1928年被發現，當時是因為它能讓膽囊收縮。後來的研究則顯示，它在消化道與大腦中都有許多功能。\n\nCCK與胰泌素（secretin）、胃泌素（gastrin）共同組成內分泌學家所說的經典腸道荷爾蒙三巨頭。它同時也是神經細胞內的傳訊物質。CCK是人腦中含量最豐富的神經胜肽，因此它遠遠不只是一種消化用的化學物質。\n\n想更全面了解CCK如何與GLP-1、PYY及飢餓素一起運作，可以參考我們的[腸道荷爾蒙與食慾調節](/zh-tw/gut-hormones-appetite-regulation-glp1-pyy-cck-2026)總覽。\n\n## CCK在哪裡製造？什麼會刺激分泌？\n\n腸道內壁有一種稱為I細胞的特化細胞，負責釋放CCK。主要的刺激來源是飲食中的脂肪與蛋白質。當消化後的脂質與蛋白質抵達這些細胞時，細胞表面的受體（包括GPR40與鈣敏感受體）會促使它們釋放這種荷爾蒙。\n\n並不是所有脂肪效果都一樣。在一項針對12名健康男性的隨機交叉研究中，研究人員在不同日子提供四種餐點：單吃胡蘿蔔，或胡蘿蔔搭配三種不同脂質中的一種。只有橄欖油刺激了CCK釋放。單吃胡蘿蔔，以及胡蘿蔔搭配三丁酸甘油酯（一種由短鏈脂肪酸組成的脂肪），都沒有讓任何測得的荷爾蒙上升。作者的結論是，橄欖油中的油酸似乎是CCK反應的全部來源。\n\n同一項研究還有一個有趣的細節。一種提供中鏈脂肪酸的測試油，讓GLP-1上升的幅度與橄欖油差不多，卻沒有讓CCK上升。這兩種飽足荷爾蒙是各自獨立的訊號，對同一餐可能有不同的反應。\n\n## CCK與消化：膽囊、胰臟與胃\n\n### 膽囊\n\nCCK是膽囊收縮的主要調控者。在一項研究中，經口進食後膽囊體積最多縮小到12 ± 4%，同時血漿CCK濃度與胰臟酵素分泌量增加了6至8倍。當研究人員用藥物loxiglumide阻斷CCK受體時，進食後的膽囊收縮完全消失。膽囊收縮加上CCK促使奧迪括約肌放鬆，共同調節膽汁流入腸道。\n\n### 胰臟\n\nCCK也會刺激胰臟分泌消化酵素，但在這部分，它與神經系統共同掌控。在同一項研究中，阻斷CCK讓餐後酵素分泌減少30%，而用阿托平（atropine）阻斷膽鹼性神經訊號，則幾乎讓分泌完全停止。作者形容胰臟高度仰賴膽鹼性的背景作用，而CCK負責調節反應。\n\n這些效果並不只是實驗室高劑量下的假象。在一項7名健康受試者的研究中，將CCK輸注到與餐後相近的血漿濃度，讓胰蛋白酶分泌從每15分鐘0.5 KU增加到1.4 KU。膽紅素排出量（膽汁輸送的指標）則從每15分鐘1.6 µmol升到30.3 µmol。作者的結論是，生理濃度的CCK就能刺激胰臟酵素分泌與膽囊收縮。\n\n### 胃\n\nCCK會同時抑制進食與胃排空，藉此控制營養素抵達小腸的速度。它透過作用於胃上部與幽門（胃出口的閥門）的迷走神經路徑，讓胃的運作變慢。減緩胃排空，可以調節部分消化的食物流入十二指腸。\n\n回顧文獻的證據也指出，它的角色不只在消化。在一篇回顧所討論的研究中，飲食中的脂肪透過提升CCK，減少了腸道發炎。這顯示CCK是一種把進食與消化當成同一個過程來協調的荷爾蒙。\n\n## CCK如何讓你有飽足感\n\nCCK通往大腦的主要路徑是迷走神經。迷走神經傳入神經元，也就是把訊息從腸道帶到腦幹的感覺纖維，是CCK的主要作用對象。這些神經元會把CCK的訊號與其他荷爾蒙整合。由脂肪組織分泌的瘦素會增強CCK對這些神經元的作用，而被稱為飢餓荷爾蒙的飢餓素則會削弱它。\n\nCCK透過後腦特定區域的CCK-1受體引發飽足感。它也會抑制下視丘中刺激食慾的胜肽，並阻止飢餓素刺激某些神經元。人體腦部造影顯示，吃進的脂肪酸會活化腦幹、下視丘與運動皮質，而CCK-1受體阻斷劑會抑制這種活化。\n\n### 輸注研究的發現\n\n早期的人體實驗是在餐前輸注CCK或結構相近的胜肽來檢驗這一點。在一項雙盲研究中，12名女性與12名男性接受ceruletide（一種結構與CCK相關的胜肽）輸注，之後可以隨意享用炒蛋配火腿、麵包和茶。在較高劑量下，他們比輸注生理食鹽水時少吃了16.8%（3725 kJ對4340 kJ），也表示比較不餓。較低劑量只讓攝取量減少6.6%，其他指標也沒有顯著變化。\n\n這個效果也有代價。在較高劑量下，受試者的反應時間變長，精神運動表現也變差。較大劑量的類CCK訊號雖然能減少進食，但作用並不只限於食慾。\n\n## 阻斷CCK會發生什麼事？\n\n如果CCK真的是飽足訊號，那麼阻斷它的受體應該會讓人吃得更多。不過這方面的人體研究結果並不一致。\n\n在針對健康男性的隨機、雙盲、安慰劑對照交叉研究中，loxiglumide讓食物攝取量小幅增加7%，但未達統計顯著。不過它讓熱量攝取適度增加10%，而且差異顯著。與輸注生理食鹽水時相比，受試者感覺更餓，飽足感也來得較晚。作者認為，這進一步證明CCK是人體內源性的飽足訊號。\n\n一項針對7名體型精瘦與7名肥胖女性的研究則沒有發現這種效果。吃一份富含碳水化合物的餐點時，使用loxiglumide的進食量為359 ± 39 g，生理食鹽水則為333 ± 31 g，差異不顯著。飽足感分數也沒有改變。\n\n這兩項研究的受試者與實驗設計不同，無法直接比較。綜合來看，CCK比較像是眾多飽足訊號之一，而不是單一的總開關。\n\n## CCK、體重與消化疾病\n\n如果CCK能減少每餐的食量，為什麼它不能直接防止體重增加？部分答案可能在於傳遞訊息的神經。肥胖時，迷走神經傳入神經元對CCK的反應會減弱。研究人員推測，這種對CCK的阻抗，可能是食物攝取調節改變的原因之一。\n\n回顧文章的作者認為，了解CCK如何調節食慾路徑，可能有助於發展肥胖與暴食症的對策。不過這仍是研究目標。\n\nCCK也和消化疾病有關。根據目前有限的資料，乳糜瀉與心因性暴食症患者的CCK分泌會受損。功能性消化不良是一種常見、與用餐相關的上腹部症狀疾病，研究觀察到靜脈注射CCK會重現這些症狀，而阿托平與loxiglumide都能阻斷這個效果。一篇回顧指出，對CCK的反應改變，可能是部分患者胃功能異常的原因之一。\n\n## CCK濃度可以檢測嗎？\n\n很多人會想知道CCK的「正常值」。準確的CCK檢測方法一直很難開發，因此目前對疾病狀態下CCK分泌的了解也很有限。\n\n研究數據可以提供大致的參考範圍。在那項7名健康受試者的研究中，空腹血漿CCK為2.0 ± 0.2 pmol/l；吃完標準化測試餐後，上升到4.6 ± 0.6至7.3 ± 1.0 pmol/l之間。這些數字來自單一小型族群，並使用特定的檢測方法，不應拿來判斷個人的檢驗結果。\n\n在臨床醫學上，CCK大多是當作測試用物質，而不是拿來測量的指標。以外源性CCK進行刺激，已證實對膽囊與胰臟疾病以及甲狀腺髓質癌的診斷檢查有幫助。\n\n## 調控食慾的實用重點\n\n你無法直接把CCK調高，但可以用順應這套系統設計的方式來吃。\n\n- **每餐包含蛋白質和一些脂肪。** 這些營養素正是刺激腸道I細胞釋放CCK的來源。\n- **留意脂肪種類。** 在那項12名男性的研究中，橄欖油是測試的脂質中唯一讓CCK上升的。\n- **放慢進食速度，讓訊號有時間抵達。** CCK在用餐期間發揮作用，會減緩胃排空並透過迷走神經傳遞飽足訊號。\n- **不要只依賴單一荷爾蒙。** 阻斷CCK在一項試驗中讓熱量攝取增加，在另一項試驗中卻沒有影響，可見其他訊號顯然也很重要。\n\n如果你想從食物層面了解哪些餐點最能長時間壓住飢餓感，我們的[飽足指數排行](/zh-tw/satiety-index-foods-hunger-control-ranking-2026)很適合搭配本文的荷爾蒙介紹一起閱讀。",
+      "key_stats": [
+        {
+          "label": "CCK被發現的年份（因能讓膽囊收縮而發現）",
+          "value": "1928年",
+          "source": "Review: Cholecystokinin (CCK biology and appetite)"
+        },
+        {
+          "label": "血漿CCK：空腹與測試餐後（7名健康受試者）",
+          "value": "由2.0 pmol/l升至4.6–7.3 pmol/l",
+          "source": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man"
+        },
+        {
+          "label": "經口進食後的膽囊體積",
+          "value": "最多縮小到12 ± 4%",
+          "source": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man"
+        },
+        {
+          "label": "較高劑量ceruletide（類CCK胜肽）減少的進食量",
+          "value": "16.8%（3725 kJ對4340 kJ）",
+          "source": "Ceruletide decreases food intake in non-obese man"
+        },
+        {
+          "label": "阻斷CCK-A受體後增加的熱量攝取",
+          "value": "10%",
+          "source": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans"
+        }
+      ],
+      "faq": [
+        {
+          "question": "CCK荷爾蒙有什麼作用？",
+          "answer": "膽囊收縮素會讓膽囊收縮、刺激胰臟分泌消化酵素，並減緩胃排空。它也會透過迷走神經向大腦傳遞飽足訊號。它對進食與胃排空的作用，有助於控制營養素送達小腸的速度。"
+        },
+        {
+          "question": "膽囊收縮素是在哪裡製造的？",
+          "answer": "CCK由小腸上段的內分泌細胞釋放，這些腸道細胞稱為I細胞。它也是神經細胞中的傳導物質，而且是人腦中含量最豐富的神經胜肽。"
+        },
+        {
+          "question": "哪些食物會增加CCK？",
+          "answer": "飲食中的脂肪與蛋白質是刺激CCK釋放的主要來源。在一項12名健康男性的研究中，橄欖油讓CCK上升，而單吃胡蘿蔔與一種名為三丁酸甘油酯的短鏈脂肪則沒有。"
+        },
+        {
+          "question": "CCK能幫助減重嗎？",
+          "answer": "在實驗室研究中，輸注類CCK胜肽會減少測試餐的進食量，例如較高劑量的ceruletide讓進食量減少16.8%。不過，肥胖時迷走神經對CCK的反應會減弱。回顧文章作者認為，了解CCK如何調節食慾，未來可能有助於發展肥胖的對策。"
+        },
+        {
+          "question": "CCK的正常值是多少？",
+          "answer": "準確的CCK檢測方法一直很難開發，因此對疾病狀態下CCK分泌的了解有限。在一項小型研究中，空腹血漿CCK為2.0 pmol/l，吃完測試餐後上升到4.6至7.3 pmol/l之間。"
+        },
+        {
+          "question": "CCK和GLP-1一樣嗎？",
+          "answer": "不一樣。兩者都是與飽足感有關的腸道荷爾蒙，但它們是各自獨立的訊號。在一項研究中，一種提供中鏈脂肪酸的油讓GLP-1上升的幅度與橄欖油差不多，卻沒有讓CCK上升。"
+        }
+      ],
+      "comparison_table": {
+        "title": "CCK、消化與食物攝取的重要人體研究",
+        "headers": [
+          "研究",
+          "受試者",
+          "測試內容",
+          "主要發現"
+        ],
+        "rows": [
+          [
+            "Ceruletide輸注試驗",
+            "12名女性、12名男性，非肥胖",
+            "餐前輸注ceruletide（類CCK胜肽），再自由進食",
+            "較高劑量：少吃16.8%（3725 kJ對4340 kJ），較不餓，反應時間變慢；較低劑量：少吃6.6%，無顯著變化"
+          ],
+          [
+            "男性loxiglumide交叉研究",
+            "健康男性",
+            "CCK-A受體阻斷劑loxiglumide對照生理食鹽水",
+            "食物攝取+7%（不顯著），熱量攝取+10%（顯著），較餓，飽足感延遲"
+          ],
+          [
+            "精瘦與肥胖女性loxiglumide研究",
+            "7名精瘦女性與7名肥胖女性",
+            "在富含碳水化合物的餐點前使用loxiglumide對照生理食鹽水",
+            "無顯著變化：進食量359 ± 39 g對333 ± 31 g"
+          ],
+          [
+            "飲食脂質交叉研究",
+            "12名健康男性",
+            "胡蘿蔔餐搭配不同脂質",
+            "只有橄欖油讓CCK上升；單吃胡蘿蔔與三丁酸甘油酯皆未讓任何測得的荷爾蒙上升"
+          ],
+          [
+            "相當於餐後濃度的CCK輸注",
+            "7名健康受試者",
+            "測試餐與CCK輸注",
+            "空腹CCK 2.0 pmol/l，餐後4.6–7.3 pmol/l；餐後濃度的CCK提高胰蛋白酶與膽汁排出量"
+          ],
+          [
+            "膽囊與胰臟阻斷研究",
+            "人體志願者",
+            "進食後阻斷CCK對照阻斷膽鹼性神經",
+            "膽囊縮小至體積的12 ± 4%；阻斷CCK使收縮消失，酵素分泌減少30%"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2007",
+          "url": "https://doi.org/10.1097/MED.0b013e3280122850"
+        },
+        {
+          "title": "Cholecystokinin",
+          "source": "Best practice & research. Clinical endocrinology & metabolism, 2004",
+          "url": "https://doi.org/10.1016/j.beem.2004.07.002"
+        },
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2012",
+          "url": "https://doi.org/10.1097/MED.0b013e32834eb77d"
+        },
+        {
+          "title": "Role of cholecystokinin in the regulation of gastrointestinal motility.",
+          "source": "The Journal of nutrition, 1994",
+          "url": "https://doi.org/10.1093/jn/124.suppl_8.1334S"
+        },
+        {
+          "title": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man.",
+          "source": "Life sciences, 1985",
+          "url": "https://doi.org/10.1016/0024-3205(85)90638-1"
+        },
+        {
+          "title": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man.",
+          "source": "European journal of clinical investigation, 1992",
+          "url": "https://doi.org/10.1111/j.1365-2362.1992.tb01453.x"
+        },
+        {
+          "title": "The 2-monoacylglycerol moiety of dietary fat appears to be responsible for the fat-induced release of GLP-1 in humans.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.106799"
+        },
+        {
+          "title": "Ceruletide decreases food intake in non-obese man.",
+          "source": "Peptides, 1982",
+          "url": "https://doi.org/10.1016/0196-9781(82)90158-9"
+        },
+        {
+          "title": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans.",
+          "source": "American journal of physiology. Regulatory, integrative and comparative physiology, 2001",
+          "url": "https://doi.org/10.1152/ajpregu.2001.280.4.R1149"
+        },
+        {
+          "title": "Satiety effects of the type A CCK receptor antagonist loxiglumide in lean and obese women.",
+          "source": "Biological psychiatry, 1995",
+          "url": "https://doi.org/10.1016/0006-3223(94)00136-Q"
+        },
+        {
+          "title": "Cholecystokinin hyperresponsiveness in functional dyspepsia.",
+          "source": "World journal of gastroenterology, 2006",
+          "url": "https://doi.org/10.3748/wjg.v12.i17.2688"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "es": {
+      "title": "Hormona CCK (colecistoquinina): saciedad y digestión",
+      "short_title": "La hormona CCK, explicada",
+      "short_description": "Qué es la hormona CCK, qué la activa, cómo controla la digestión y la saciedad y qué muestran los estudios en humanos sobre el apetito.",
+      "meta_description": "La CCK es una hormona intestinal que activa la digestión y avisa de la saciedad. Descubre qué la estimula, qué hace y qué dicen los estudios sobre el apetito.",
+      "tldr": "La colecistoquinina (CCK) es una hormona peptídica que se libera en el intestino delgado, sobre todo en respuesta a la grasa y la proteína de la dieta. Hace que la vesícula biliar se contraiga, estimula las enzimas del páncreas, ralentiza el vaciamiento del estómago y envía una señal de saciedad al cerebro a través del nervio vago. En estudios de infusión en humanos, un aporte extra de un péptido similar a la CCK redujo el tamaño de la comida, mientras que bloquear los receptores de CCK aumentó el hambre en algunos ensayos, pero no en otros.",
+      "body_md": "## ¿Qué es la hormona CCK?\n\nLa colecistoquinina (CCK) es una hormona peptídica que liberan células endocrinas de la parte alta del intestino delgado. Después de comer cumple dos funciones principales: pone en marcha la digestión y ayuda a decirle al cerebro que ya has comido suficiente. Si has buscado «cck hormona» o «hormona cck», esa es la respuesta corta: la CCK es una hormona intestinal de la digestión y la saciedad.\n\nSe descubrió en 1928 por su capacidad de hacer que la vesícula biliar se contrajera. Investigaciones posteriores mostraron que tiene muchas funciones, tanto en el tubo digestivo como en el cerebro.\n\nJunto con la secretina y la gastrina, la CCK forma lo que los endocrinólogos llaman la tríada clásica de hormonas intestinales. Además, actúa como mensajero dentro de las células nerviosas. Es el neuropéptido más abundante del cerebro humano, así que es mucho más que una simple sustancia digestiva.\n\nPara tener una visión más amplia de cómo actúa la CCK junto al GLP-1, el PYY y la grelina, consulta nuestra guía sobre [hormonas intestinales y regulación del apetito](/es/gut-hormones-appetite-regulation-glp1-pyy-cck-2026).\n\n## Dónde se produce la CCK y qué la activa\n\nLa CCK la liberan unas células especializadas del revestimiento intestinal llamadas células I. Sus principales desencadenantes son la grasa y la proteína de la dieta. Cuando los lípidos y las proteínas ya digeridos llegan a estas células, ciertos receptores de su superficie, como GPR40 y el receptor sensor de calcio, las impulsan a liberar la hormona.\n\nNo todas las grasas tienen el mismo efecto. En un estudio cruzado y aleatorizado con 12 hombres sanos, los investigadores ofrecieron cuatro comidas en días distintos: zanahorias solas o zanahorias con uno de tres lípidos diferentes. Solo el aceite de oliva estimuló la liberación de CCK. Ni las zanahorias solas ni las zanahorias con tributirina, una grasa formada por ácidos grasos de cadena corta, elevaron ninguna de las hormonas medidas. Los autores concluyeron que el ácido oleico del aceite de oliva parece ser el responsable total de la respuesta de CCK.\n\nEl mismo estudio aportó un detalle interesante. Un aceite de prueba que aportaba ácidos grasos de cadena media elevó el GLP-1 más o menos tanto como el aceite de oliva, pero no aumentó la CCK. Estas dos hormonas de la saciedad son señales independientes y pueden responder de forma distinta a una misma comida.\n\n## CCK y digestión: vesícula, páncreas y estómago\n\n### La vesícula biliar\n\nLa CCK es el principal regulador de la contracción de la vesícula biliar. En un estudio, tras ingerir alimento por vía oral el volumen de la vesícula se redujo como máximo hasta el 12 ± 4 %, mientras que la CCK plasmática y la secreción de enzimas pancreáticas se multiplicaron por 6 a 8. Cuando los investigadores bloquearon los receptores de CCK con el fármaco loxiglumida, la contracción de la vesícula tras la comida desapareció por completo. La contracción vesicular, junto con la relajación del esfínter de Oddi que provoca la CCK, regula el paso de la bilis al intestino.\n\n### El páncreas\n\nLa CCK también estimula las enzimas digestivas del páncreas, aunque aquí comparte el control con el sistema nervioso. En ese mismo estudio, bloquear la CCK redujo un 30 % la secreción de enzimas después de comer, mientras que bloquear la señal nerviosa colinérgica con atropina prácticamente la detuvo. Los autores describieron el páncreas como un órgano que depende de forma crucial de un fondo colinérgico, sobre el que la CCK modula la respuesta.\n\nEstos efectos no son simples artefactos de laboratorio por usar dosis altas. En un estudio con 7 personas sanas, infundir CCK hasta niveles plasmáticos similares a los que hay tras una comida elevó la secreción de tripsina de 0,5 a 1,4 KU cada 15 minutos. La excreción de bilirrubina, un marcador del aporte de bilis, pasó de 1,6 a 30,3 µmol cada 15 minutos. Los autores concluyeron que las concentraciones fisiológicas de CCK estimulan la secreción de enzimas pancreáticas y la contracción de la vesícula.\n\n### El estómago\n\nLa CCK controla la velocidad a la que los nutrientes llegan al intestino delgado inhibiendo tanto la ingesta como el vaciamiento gástrico. Ralentiza el estómago a través de una vía del nervio vago que actúa sobre la parte superior del estómago y el píloro, la válvula de salida gástrica. Frenar el vaciamiento gástrico regula el paso de los alimentos parcialmente digeridos al duodeno.\n\nLas revisiones apuntan además a un papel que va más allá de la digestión. En la investigación analizada en una revisión, las grasas de la dieta, al elevar la CCK, redujeron la inflamación intestinal. Todo indica que es una hormona que coordina comer y digerir como un único proceso.\n\n## Cómo te ayuda la CCK a sentirte lleno\n\nLa principal vía de la CCK hacia el cerebro es el nervio vago. Las neuronas aferentes vagales, las fibras sensitivas que llevan mensajes del intestino al tronco encefálico, son uno de sus objetivos principales. Estas neuronas integran la señal de la CCK con la de otras hormonas. La leptina, la hormona que libera el tejido adiposo, potencia los efectos de la CCK sobre ellas, mientras que la grelina, la hormona del hambre, los debilita.\n\nLa CCK induce saciedad actuando sobre receptores CCK-1 de regiones especializadas del rombencéfalo. También frena los péptidos que estimulan el apetito en el hipotálamo e impide que la grelina estimule ciertas neuronas. Las imágenes cerebrales en humanos muestran que los ácidos grasos ingeridos activan el tronco encefálico, el hipotálamo y la corteza motora, y que un bloqueador del receptor CCK-1 inhibe esa activación.\n\n### Lo que muestran los estudios de infusión\n\nLos primeros experimentos en humanos lo comprobaron infundiendo CCK o un péptido muy parecido antes de una comida. En un estudio doble ciego, 12 mujeres y 12 hombres recibieron ceruletida, un péptido de estructura similar a la CCK, y después se les ofreció todo lo que quisieran de huevos revueltos con jamón, pan y té. Con la dosis más alta comieron un 16,8 % menos que con suero salino (3725 kJ frente a 4340 kJ) y dijeron tener menos hambre. La dosis baja redujo la ingesta solo un 6,6 %, sin cambios significativos en las demás mediciones.\n\nEl efecto tuvo un precio. Con la dosis alta, los participantes también mostraron tiempos de reacción más largos y peor rendimiento psicomotor. Una dosis mayor de una señal similar a la CCK reduce lo que se come, pero no actúa solo sobre el apetito.\n\n## ¿Qué pasa cuando se bloquea la CCK?\n\nSi la CCK es una auténtica señal de saciedad, bloquear su receptor debería hacer que se coma más. Aquí los resultados en humanos son dispares.\n\nEn estudios cruzados, aleatorizados, doble ciego y controlados con placebo en hombres sanos, la loxiglumida produjo un ligero aumento de la ingesta de alimentos (7 %) que no fue estadísticamente significativo. Sí provocó un aumento moderado (10 %) y significativo de la ingesta de calorías. Los participantes sintieron más hambre y tardaron más en sentirse llenos que con la infusión de suero salino. Los autores lo interpretaron como una prueba más de que la CCK es una señal de saciedad endógena.\n\nUn estudio con 7 mujeres delgadas y 7 mujeres con obesidad no encontró ese efecto. La ingesta de una comida rica en carbohidratos fue de 359 ± 39 g con loxiglumida y de 333 ± 31 g con suero salino, una diferencia no significativa. Las puntuaciones de saciedad tampoco cambiaron.\n\nLos dos estudios usaron participantes y protocolos distintos, así que no pueden compararse directamente. En conjunto, sugieren que la CCK es una señal de saciedad entre varias, no un interruptor maestro único.\n\n## CCK, peso corporal y trastornos digestivos\n\nSi la CCK reduce el tamaño de las comidas, ¿por qué no evita sin más el aumento de peso? Parte de la respuesta podría estar en el nervio que transmite su mensaje. En la obesidad, la respuesta de las neuronas aferentes vagales a la CCK está atenuada. Los investigadores han propuesto que esta resistencia a la CCK podría contribuir a alterar la regulación de la ingesta.\n\nAlgunos revisores han sugerido que entender cómo regula la CCK las vías del apetito podría dar lugar a estrategias frente a la obesidad y la bulimia. Por ahora sigue siendo un objetivo de investigación.\n\nLa CCK también aparece en trastornos digestivos. Según los escasos datos disponibles, su secreción está alterada en la enfermedad celíaca y en la bulimia nerviosa. En la dispepsia funcional, un trastorno frecuente con síntomas en la parte alta del abdomen relacionados con las comidas, se ha observado que la CCK intravenosa reproduce los síntomas. Ese efecto se pudo bloquear con atropina y con loxiglumida. Una revisión sugiere que una respuesta alterada a la CCK podría contribuir a la disfunción gástrica de algunos pacientes.\n\n## ¿Se pueden medir los niveles de CCK?\n\nMucha gente busca un valor «normal» de CCK. Desarrollar análisis precisos de CCK ha resultado difícil y, en consecuencia, se sabe poco sobre su secreción en la enfermedad.\n\nLos estudios de investigación dan una idea de la escala. En el estudio con 7 personas sanas, la CCK plasmática en ayunas era de 2,0 ± 0,2 pmol/l. Tras una comida de prueba estandarizada subió hasta valores de entre 4,6 ± 0,6 y 7,3 ± 1,0 pmol/l. Estas cifras proceden de un grupo pequeño medido con un análisis concreto, así que no deben usarse para valorar un resultado individual.\n\nEn la práctica clínica, la CCK se usa sobre todo como sustancia de prueba más que como algo que se mide. La estimulación con CCK externa ha demostrado ser útil en pruebas diagnósticas de enfermedades de la vesícula biliar y del páncreas, así como del carcinoma medular de tiroides.\n\n## Claves prácticas para el apetito\n\nNo puedes subir la CCK a voluntad, pero sí comer de forma que el sistema funcione como está diseñado.\n\n- **Incluye proteína y algo de grasa en tus comidas.** Son los nutrientes que activan la liberación de CCK en las células I del intestino.\n- **Ten en cuenta el tipo de grasa.** En el estudio con 12 hombres, el aceite de oliva fue el único lípido probado que elevó la CCK.\n- **Come a un ritmo que deje llegar las señales.** La CCK actúa durante la comida ralentizando el vaciamiento del estómago y enviando la señal de saciedad por el nervio vago.\n- **No confíes en una sola hormona.** Bloquear la CCK aumentó la ingesta de calorías en un ensayo y no tuvo efecto en otro, así que está claro que otras señales también cuentan.\n\nSi quieres ver a nivel de alimentos qué comidas mantienen el hambre a raya durante más tiempo, nuestro [ranking del índice de saciedad](/es/satiety-index-foods-hunger-control-ranking-2026) es un buen complemento a la historia hormonal que te contamos aquí.",
+      "key_stats": [
+        {
+          "label": "Año del descubrimiento de la CCK (por la contracción de la vesícula)",
+          "value": "1928",
+          "source": "Review: Cholecystokinin (CCK biology and appetite)"
+        },
+        {
+          "label": "CCK plasmática en ayunas frente a tras una comida de prueba (7 personas sanas)",
+          "value": "De 2,0 pmol/l a 4,6–7,3 pmol/l",
+          "source": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man"
+        },
+        {
+          "label": "Volumen de la vesícula tras ingerir alimento",
+          "value": "Reducción máxima hasta el 12 ± 4 %",
+          "source": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man"
+        },
+        {
+          "label": "Reducción de la ingesta con la dosis alta de ceruletida (péptido similar a la CCK)",
+          "value": "16,8 % (3725 frente a 4340 kJ)",
+          "source": "Ceruletide decreases food intake in non-obese man"
+        },
+        {
+          "label": "Aumento de la ingesta de calorías al bloquear los receptores CCK-A",
+          "value": "10 %",
+          "source": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans"
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Qué hace la hormona CCK?",
+          "answer": "La colecistoquinina hace que la vesícula biliar se contraiga, estimula las enzimas digestivas del páncreas y ralentiza el vaciamiento del estómago. Además, envía una señal de saciedad al cerebro a través del nervio vago. Sus efectos sobre la ingesta y el vaciamiento gástrico ayudan a controlar la llegada de nutrientes al intestino delgado."
+        },
+        {
+          "question": "¿Dónde se produce la colecistoquinina?",
+          "answer": "La CCK la liberan células endocrinas de la parte alta del intestino delgado, conocidas como células I. También actúa como transmisor en las células nerviosas y es el neuropéptido más abundante del cerebro humano."
+        },
+        {
+          "question": "¿Qué alimentos aumentan la CCK?",
+          "answer": "La grasa y la proteína de la dieta son los principales desencadenantes de la liberación de CCK. En un estudio con 12 hombres sanos, el aceite de oliva elevó la CCK, mientras que las zanahorias solas y una grasa de cadena corta llamada tributirina no lo hicieron."
+        },
+        {
+          "question": "¿La CCK ayuda a adelgazar?",
+          "answer": "En estudios de laboratorio, la infusión de péptidos similares a la CCK redujo lo que la gente comía en una comida de prueba, por ejemplo un 16,8 % con la dosis alta de ceruletida. Sin embargo, la respuesta vagal a la CCK está atenuada en la obesidad. Algunos revisores han sugerido que entender cómo regula la CCK el apetito podría dar lugar a futuras estrategias frente a la obesidad."
+        },
+        {
+          "question": "¿Cuál es el nivel normal de CCK?",
+          "answer": "Ha sido difícil desarrollar análisis precisos de CCK, por lo que se sabe poco sobre su secreción en la enfermedad. En un estudio pequeño, la CCK plasmática en ayunas era de 2,0 pmol/l y subió a entre 4,6 y 7,3 pmol/l después de una comida de prueba."
+        },
+        {
+          "question": "¿La CCK es lo mismo que el GLP-1?",
+          "answer": "No. Ambas son hormonas intestinales relacionadas con la saciedad, pero son señales independientes. En un estudio, un aceite que aportaba ácidos grasos de cadena media elevó el GLP-1 más o menos tanto como el aceite de oliva, pero no aumentó la CCK."
+        }
+      ],
+      "comparison_table": {
+        "title": "Principales estudios en humanos sobre CCK, digestión e ingesta",
+        "headers": [
+          "Estudio",
+          "Participantes",
+          "Qué se probó",
+          "Resultado principal"
+        ],
+        "rows": [
+          [
+            "Ensayo de infusión de ceruletida",
+            "12 mujeres y 12 hombres sin obesidad",
+            "Infusión de ceruletida (péptido similar a la CCK) antes de una comida a libre elección",
+            "Dosis alta: 16,8 % menos ingesta (3725 frente a 4340 kJ), menos hambre, reacciones más lentas; dosis baja: 6,6 % menos, sin cambios significativos"
+          ],
+          [
+            "Estudios cruzados con loxiglumida en hombres",
+            "Hombres sanos",
+            "Bloqueador del receptor CCK-A loxiglumida frente a suero salino",
+            "Ingesta de alimentos +7 % (no significativo), ingesta de calorías +10 % (significativo), más hambre, saciedad retrasada"
+          ],
+          [
+            "Estudio con loxiglumida en mujeres delgadas y con obesidad",
+            "7 mujeres delgadas y 7 con obesidad",
+            "Loxiglumida frente a suero salino antes de una comida rica en carbohidratos",
+            "Sin cambio significativo: 359 ± 39 g frente a 333 ± 31 g ingeridos"
+          ],
+          [
+            "Estudio cruzado sobre lípidos de la dieta",
+            "12 hombres sanos",
+            "Comidas de zanahoria con distintos lípidos",
+            "Solo el aceite de oliva elevó la CCK; ni las zanahorias solas ni la tributirina elevaron ninguna hormona medida"
+          ],
+          [
+            "Infusión de CCK a concentraciones de comida",
+            "7 personas sanas",
+            "Comida de prueba e infusión de CCK",
+            "CCK en ayunas 2,0 pmol/l, tras comer 4,6–7,3 pmol/l; la CCK a niveles de comida aumentó la tripsina y la excreción de bilis"
+          ],
+          [
+            "Estudio de bloqueo de vesícula y páncreas",
+            "Voluntarios humanos",
+            "Bloqueo de la CCK frente a bloqueo colinérgico tras comer",
+            "La vesícula bajó al 12 ± 4 % de su volumen; el bloqueo de la CCK anuló la contracción y redujo un 30 % la secreción de enzimas"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2007",
+          "url": "https://doi.org/10.1097/MED.0b013e3280122850"
+        },
+        {
+          "title": "Cholecystokinin",
+          "source": "Best practice & research. Clinical endocrinology & metabolism, 2004",
+          "url": "https://doi.org/10.1016/j.beem.2004.07.002"
+        },
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2012",
+          "url": "https://doi.org/10.1097/MED.0b013e32834eb77d"
+        },
+        {
+          "title": "Role of cholecystokinin in the regulation of gastrointestinal motility.",
+          "source": "The Journal of nutrition, 1994",
+          "url": "https://doi.org/10.1093/jn/124.suppl_8.1334S"
+        },
+        {
+          "title": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man.",
+          "source": "Life sciences, 1985",
+          "url": "https://doi.org/10.1016/0024-3205(85)90638-1"
+        },
+        {
+          "title": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man.",
+          "source": "European journal of clinical investigation, 1992",
+          "url": "https://doi.org/10.1111/j.1365-2362.1992.tb01453.x"
+        },
+        {
+          "title": "The 2-monoacylglycerol moiety of dietary fat appears to be responsible for the fat-induced release of GLP-1 in humans.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.106799"
+        },
+        {
+          "title": "Ceruletide decreases food intake in non-obese man.",
+          "source": "Peptides, 1982",
+          "url": "https://doi.org/10.1016/0196-9781(82)90158-9"
+        },
+        {
+          "title": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans.",
+          "source": "American journal of physiology. Regulatory, integrative and comparative physiology, 2001",
+          "url": "https://doi.org/10.1152/ajpregu.2001.280.4.R1149"
+        },
+        {
+          "title": "Satiety effects of the type A CCK receptor antagonist loxiglumide in lean and obese women.",
+          "source": "Biological psychiatry, 1995",
+          "url": "https://doi.org/10.1016/0006-3223(94)00136-Q"
+        },
+        {
+          "title": "Cholecystokinin hyperresponsiveness in functional dyspepsia.",
+          "source": "World journal of gastroenterology, 2006",
+          "url": "https://doi.org/10.3748/wjg.v12.i17.2688"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "pt-BR": {
+      "title": "Colecistocinina (CCK): o hormônio da saciedade e digestão",
+      "short_title": "Colecistocinina (CCK): o que é",
+      "short_description": "O que é o hormônio CCK, o que estimula sua liberação, como ele controla a digestão e a saciedade e o que os estudos em humanos mostram sobre o apetite.",
+      "meta_description": "A colecistocinina (CCK) é um hormônio intestinal que ativa a digestão e sinaliza saciedade. Saiba o que a estimula, o que ela faz e o que os estudos mostram.",
+      "tldr": "A colecistocinina (CCK) é um hormônio peptídico liberado no intestino delgado, principalmente em resposta à gordura e à proteína da dieta. Ela faz a vesícula biliar se contrair, estimula as enzimas do pâncreas, desacelera o esvaziamento do estômago e envia um sinal de saciedade ao cérebro pelo nervo vago. Em estudos de infusão em humanos, uma dose extra de um peptídeo semelhante à CCK reduziu o tamanho da refeição, enquanto o bloqueio dos receptores de CCK aumentou a fome em alguns ensaios, mas não em outros.",
+      "body_md": "## O que é o hormônio CCK?\n\nA colecistocinina (CCK) é um hormônio peptídico liberado por células endócrinas da parte superior do intestino delgado. Depois que você come, ela tem duas funções principais: liga a digestão e ajuda a avisar o cérebro de que você já comeu o suficiente. Se você pesquisou “hormônio CCK” ou “o que é colecistocinina”, a resposta curta é esta: a CCK é um hormônio intestinal ligado à digestão e à saciedade.\n\nO hormônio foi descoberto em 1928 por sua capacidade de fazer a vesícula biliar se contrair. Pesquisas posteriores mostraram que ele tem várias funções, tanto no trato digestivo quanto no cérebro.\n\nJunto com a secretina e a gastrina, a CCK forma o que os endocrinologistas chamam de tríade clássica dos hormônios intestinais. Ela também atua como mensageira dentro das células nervosas. A CCK é o neuropeptídeo mais abundante do cérebro humano, ou seja, é muito mais do que uma substância digestiva.\n\nPara ter uma visão mais ampla de como a CCK atua junto com o GLP-1, o PYY e a grelina, veja nosso panorama sobre [hormônios intestinais e regulação do apetite](/pt-br/gut-hormones-appetite-regulation-glp1-pyy-cck-2026).\n\n## Onde a CCK é produzida e o que a estimula\n\nCélulas especializadas do revestimento intestinal, chamadas células I, liberam a CCK. Os principais estímulos são a gordura e a proteína da dieta. Quando lipídios e proteínas já digeridos chegam a essas células, receptores na superfície delas, como o GPR40 e o receptor sensor de cálcio, fazem com que liberem o hormônio.\n\nNem toda gordura tem o mesmo efeito. Em um estudo randomizado cruzado com 12 homens saudáveis, os pesquisadores ofereceram quatro refeições em dias diferentes: cenoura pura ou cenoura com um de três lipídios diferentes. Apenas o azeite de oliva estimulou a liberação de CCK. A cenoura pura e a cenoura com tributirina, uma gordura formada por ácidos graxos de cadeia curta, não elevaram nenhum dos hormônios medidos. Os autores concluíram que o ácido oleico do azeite parece ser totalmente responsável pela resposta da CCK.\n\nO mesmo estudo trouxe um detalhe interessante. Um óleo de teste que fornecia ácidos graxos de cadeia média elevou o GLP-1 mais ou menos tanto quanto o azeite, mas não aumentou a CCK. Esses dois hormônios da saciedade são sinais separados e podem reagir de formas diferentes à mesma refeição.\n\n## CCK e digestão: vesícula, pâncreas e estômago\n\n### A vesícula biliar\n\nA CCK é a principal reguladora da contração da vesícula biliar. Em um estudo, depois da ingestão de alimento por via oral, o volume da vesícula diminuiu, no máximo, para 12 ± 4%, enquanto os níveis plasmáticos de CCK e a produção de enzimas pancreáticas aumentaram de 6 a 8 vezes. Quando os pesquisadores bloquearam os receptores de CCK com o medicamento loxiglumida, a contração da vesícula após a refeição foi completamente abolida. A contração da vesícula, junto com o relaxamento do esfíncter de Oddi provocado pela CCK, regula o fluxo de bile para o intestino.\n\n### O pâncreas\n\nA CCK também estimula as enzimas digestivas do pâncreas, mas aqui ela divide o controle com o sistema nervoso. No mesmo estudo, bloquear a CCK reduziu em 30% a secreção de enzimas após a refeição, enquanto bloquear o sinal nervoso colinérgico com atropina praticamente a interrompeu. Os autores descreveram o pâncreas como crucialmente dependente de um fundo colinérgico, com a CCK modulando a resposta.\n\nEsses efeitos não são apenas artefatos de laboratório causados por doses altas. Em um estudo com 7 pessoas saudáveis, a infusão de CCK até níveis plasmáticos semelhantes aos de depois de uma refeição elevou a secreção de tripsina de 0,5 para 1,4 KU a cada 15 minutos. A eliminação de bilirrubina, um marcador da liberação de bile, subiu de 1,6 para 30,3 µmol a cada 15 minutos. Os autores concluíram que concentrações fisiológicas de CCK estimulam a secreção de enzimas pancreáticas e a contração da vesícula.\n\n### O estômago\n\nA CCK controla a velocidade com que os nutrientes chegam ao intestino delgado ao inibir tanto a ingestão de alimentos quanto o esvaziamento gástrico. Ela desacelera o estômago por meio de uma via do nervo vago que atua na parte superior do estômago e no piloro, a válvula de saída do estômago. Desacelerar o esvaziamento gástrico regula o fluxo de alimento parcialmente digerido para o duodeno.\n\nEvidências de revisões também sugerem um papel que vai além da digestão. Nas pesquisas discutidas em uma revisão, as gorduras da dieta, ao elevar a CCK, reduziram a inflamação intestinal. Isso indica um hormônio que coordena comer e digerir como um único processo.\n\n## Como a CCK ajuda você a se sentir saciado\n\nO principal caminho da CCK até o cérebro é o nervo vago. Os neurônios aferentes vagais, fibras sensoriais que levam mensagens do intestino ao tronco cerebral, são um dos principais alvos da CCK. Eles combinam o sinal da CCK com o de outros hormônios. A leptina, hormônio liberado pelo tecido adiposo, reforça os efeitos da CCK sobre esses neurônios, enquanto a grelina, o hormônio da fome, os enfraquece.\n\nA CCK induz saciedade ao agir sobre receptores CCK-1 em regiões especializadas do rombencéfalo. Ela também suprime peptídeos estimuladores do apetite no hipotálamo e impede que a grelina estimule determinados neurônios. Exames de imagem do cérebro humano mostram que ácidos graxos ingeridos ativam o tronco cerebral, o hipotálamo e o córtex motor, e que um bloqueador do receptor CCK-1 inibe essa ativação.\n\n### O que os estudos de infusão mostram\n\nOs primeiros experimentos em humanos testaram isso com a infusão de CCK ou de um peptídeo muito parecido antes de uma refeição. Em um estudo duplo-cego, 12 mulheres e 12 homens receberam ceruletida, um peptídeo com estrutura semelhante à da CCK, e depois puderam comer à vontade ovos mexidos com presunto, pão e chá. Na dose mais alta, eles comeram 16,8% menos do que com soro fisiológico (3.725 kJ contra 4.340 kJ) e relataram menos fome. A dose mais baixa reduziu a ingestão em apenas 6,6%, sem mudanças significativas nas outras medidas.\n\nO efeito teve um custo. Na dose mais alta, os participantes também tiveram tempo de reação mais longo e pior desempenho psicomotor. Uma dose maior de um sinal semelhante à CCK reduz a quantidade ingerida, mas não age só sobre o apetite.\n\n## O que acontece quando a CCK é bloqueada\n\nSe a CCK é mesmo um sinal de saciedade, bloquear seu receptor deveria fazer as pessoas comerem mais. Aqui, os resultados em humanos são mistos.\n\nEm estudos cruzados randomizados, duplo-cegos e controlados por placebo com homens saudáveis, a loxiglumida provocou um leve aumento (7%) na ingestão de alimentos, sem significância estatística. Ela provocou, porém, um aumento moderado (10%) e significativo na ingestão de calorias. Os participantes sentiram mais fome e demoraram mais a se sentir saciados do que durante a infusão de soro fisiológico. Os autores interpretaram isso como mais uma evidência de que a CCK é um sinal de saciedade endógeno.\n\nUm estudo com 7 mulheres magras e 7 mulheres com obesidade não encontrou esse efeito. A ingestão de uma refeição rica em carboidratos foi de 359 ± 39 g com loxiglumida e de 333 ± 31 g com soro fisiológico, uma diferença não significativa. As notas de saciedade também não mudaram.\n\nOs dois estudos usaram participantes e protocolos diferentes, então não podem ser comparados diretamente. Em conjunto, sugerem que a CCK é um sinal de saciedade entre vários, e não um interruptor central único.\n\n## CCK, peso corporal e doenças digestivas\n\nSe a CCK reduz o tamanho das refeições, por que ela simplesmente não impede o ganho de peso? Parte da resposta pode estar no nervo que transmite sua mensagem. Na obesidade, a resposta dos neurônios aferentes vagais à CCK fica atenuada. Pesquisadores propõem que essa resistência à CCK pode contribuir para uma regulação alterada da ingestão de alimentos.\n\nAutores de revisões sugerem que entender como a CCK regula as vias do apetite pode levar a estratégias contra a obesidade e a bulimia. Isso ainda é um objetivo de pesquisa.\n\nA CCK também aparece em doenças digestivas. Com base nos poucos dados disponíveis, a secreção de CCK está prejudicada na doença celíaca e na bulimia nervosa. Na dispepsia funcional, condição comum com sintomas na parte superior do abdome relacionados às refeições, observou-se que a CCK intravenosa reproduz os sintomas. Esse efeito pôde ser bloqueado pela atropina e pela loxiglumida. Uma revisão sugere que uma resposta alterada à CCK pode contribuir para a disfunção gástrica observada em alguns pacientes.\n\n## Dá para medir os níveis de CCK?\n\nMuita gente procura um valor “normal” de CCK. Tem sido difícil desenvolver exames precisos de CCK e, por isso, o conhecimento sobre sua secreção em doenças é limitado.\n\nOs estudos científicos dão uma noção de escala. No estudo com 7 pessoas saudáveis, a CCK plasmática em jejum era de 2,0 ± 0,2 pmol/l. Depois de uma refeição-teste padronizada, subiu para valores entre 4,6 ± 0,6 e 7,3 ± 1,0 pmol/l. Esses números vêm de um único grupo pequeno, medido com um método específico, e não devem ser usados para avaliar um resultado individual.\n\nNa prática clínica, a CCK é usada principalmente como substância de teste, e não como algo a ser medido. A estimulação com CCK externa se mostrou útil em exames diagnósticos de doenças da vesícula biliar e do pâncreas, além do carcinoma medular de tireoide.\n\n## Dicas práticas para o apetite\n\nVocê não consegue aumentar a CCK diretamente, mas pode comer de um jeito que aproveite o sistema como ele foi feito para funcionar.\n\n- **Inclua proteína e um pouco de gordura nas refeições.** São esses os nutrientes que estimulam a liberação de CCK pelas células I do intestino.\n- **Pense no tipo de gordura.** No estudo com 12 homens, o azeite de oliva foi o único lipídio testado que elevou a CCK.\n- **Coma num ritmo que dê tempo para os sinais chegarem.** A CCK age durante a refeição, desacelerando o esvaziamento do estômago e sinalizando saciedade pelo nervo vago.\n- **Não dependa de um único hormônio.** Bloquear a CCK aumentou a ingestão de calorias em um ensaio e não teve efeito em outro, então outros sinais claramente também importam.\n\nSe você quer saber, no nível dos alimentos, quais refeições seguram a fome por mais tempo, nosso [ranking do índice de saciedade](/pt-br/satiety-index-foods-hunger-control-ranking-2026) é um ótimo complemento à história hormonal contada aqui.",
+      "key_stats": [
+        {
+          "label": "Ano da descoberta da CCK (pela contração da vesícula)",
+          "value": "1928",
+          "source": "Review: Cholecystokinin (CCK biology and appetite)"
+        },
+        {
+          "label": "CCK plasmática em jejum vs. após refeição-teste (7 pessoas saudáveis)",
+          "value": "De 2,0 pmol/l para 4,6–7,3 pmol/l",
+          "source": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man"
+        },
+        {
+          "label": "Volume da vesícula após ingestão de alimento",
+          "value": "Redução máxima para 12 ± 4%",
+          "source": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man"
+        },
+        {
+          "label": "Redução da ingestão com a dose mais alta de ceruletida (peptídeo semelhante à CCK)",
+          "value": "16,8% (3.725 vs. 4.340 kJ)",
+          "source": "Ceruletide decreases food intake in non-obese man"
+        },
+        {
+          "label": "Aumento da ingestão de calorias com bloqueio dos receptores CCK-A",
+          "value": "10%",
+          "source": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans"
+        }
+      ],
+      "faq": [
+        {
+          "question": "O que o hormônio CCK faz?",
+          "answer": "A colecistocinina faz a vesícula biliar se contrair, estimula as enzimas digestivas do pâncreas e desacelera o esvaziamento do estômago. Ela também sinaliza saciedade ao cérebro pelo nervo vago. Seus efeitos sobre a ingestão e o esvaziamento gástrico ajudam a controlar a chegada de nutrientes ao intestino delgado."
+        },
+        {
+          "question": "Onde a colecistocinina é produzida?",
+          "answer": "A CCK é liberada por células endócrinas da parte superior do intestino delgado, conhecidas como células I. Ela também atua como transmissora nas células nervosas e é o neuropeptídeo mais abundante do cérebro humano."
+        },
+        {
+          "question": "Quais alimentos aumentam a CCK?",
+          "answer": "A gordura e a proteína da dieta são os principais estímulos para a liberação de CCK. Em um estudo com 12 homens saudáveis, o azeite de oliva elevou a CCK, enquanto a cenoura pura e uma gordura de cadeia curta chamada tributirina não."
+        },
+        {
+          "question": "A CCK ajuda a emagrecer?",
+          "answer": "Em estudos de laboratório, a infusão de peptídeos semelhantes à CCK reduziu o quanto as pessoas comeram numa refeição-teste, por exemplo em 16,8% com a dose mais alta de ceruletida. Na obesidade, porém, as respostas vagais à CCK ficam atenuadas. Autores de revisões sugerem que entender como a CCK regula o apetite pode levar a futuras estratégias contra a obesidade."
+        },
+        {
+          "question": "Qual é o nível normal de CCK?",
+          "answer": "Tem sido difícil desenvolver exames precisos de CCK, por isso o conhecimento sobre sua secreção em doenças é limitado. Em um estudo pequeno, a CCK plasmática em jejum era de 2,0 pmol/l e subiu para entre 4,6 e 7,3 pmol/l após uma refeição-teste."
+        },
+        {
+          "question": "A CCK é a mesma coisa que o GLP-1?",
+          "answer": "Não. Os dois são hormônios intestinais ligados à saciedade, mas são sinais separados. Em um estudo, um óleo que fornecia ácidos graxos de cadeia média elevou o GLP-1 mais ou menos tanto quanto o azeite de oliva, mas não aumentou a CCK."
+        }
+      ],
+      "comparison_table": {
+        "title": "Principais estudos em humanos sobre CCK, digestão e ingestão alimentar",
+        "headers": [
+          "Estudo",
+          "Participantes",
+          "O que foi testado",
+          "Principal resultado"
+        ],
+        "rows": [
+          [
+            "Ensaio de infusão de ceruletida",
+            "12 mulheres e 12 homens sem obesidade",
+            "Infusão de ceruletida (peptídeo semelhante à CCK) antes de uma refeição à vontade",
+            "Dose alta: 16,8% menos ingestão (3.725 vs. 4.340 kJ), menos fome, reações mais lentas; dose baixa: 6,6% menos, sem mudanças significativas"
+          ],
+          [
+            "Estudos cruzados com loxiglumida em homens",
+            "Homens saudáveis",
+            "Bloqueador do receptor CCK-A loxiglumida vs. soro fisiológico",
+            "Ingestão de alimentos +7% (não significativo), ingestão de calorias +10% (significativo), mais fome, saciedade mais tardia"
+          ],
+          [
+            "Estudo com loxiglumida em mulheres magras e com obesidade",
+            "7 mulheres magras e 7 com obesidade",
+            "Loxiglumida vs. soro fisiológico antes de uma refeição rica em carboidratos",
+            "Sem mudança significativa: 359 ± 39 g vs. 333 ± 31 g ingeridos"
+          ],
+          [
+            "Estudo cruzado com lipídios da dieta",
+            "12 homens saudáveis",
+            "Refeições de cenoura com diferentes lipídios",
+            "Só o azeite de oliva elevou a CCK; cenoura pura e tributirina não elevaram nenhum hormônio medido"
+          ],
+          [
+            "Infusão de CCK em concentrações de refeição",
+            "7 pessoas saudáveis",
+            "Refeição-teste e infusão de CCK",
+            "CCK em jejum 2,0 pmol/l, após a refeição 4,6–7,3 pmol/l; CCK em nível de refeição aumentou a tripsina e a eliminação de bile"
+          ],
+          [
+            "Estudo de bloqueio da vesícula e do pâncreas",
+            "Voluntários humanos",
+            "Bloqueio da CCK vs. bloqueio colinérgico após a refeição",
+            "A vesícula caiu para 12 ± 4% do volume; o bloqueio da CCK aboliu a contração e reduziu a secreção de enzimas em 30%"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2007",
+          "url": "https://doi.org/10.1097/MED.0b013e3280122850"
+        },
+        {
+          "title": "Cholecystokinin",
+          "source": "Best practice & research. Clinical endocrinology & metabolism, 2004",
+          "url": "https://doi.org/10.1016/j.beem.2004.07.002"
+        },
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2012",
+          "url": "https://doi.org/10.1097/MED.0b013e32834eb77d"
+        },
+        {
+          "title": "Role of cholecystokinin in the regulation of gastrointestinal motility.",
+          "source": "The Journal of nutrition, 1994",
+          "url": "https://doi.org/10.1093/jn/124.suppl_8.1334S"
+        },
+        {
+          "title": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man.",
+          "source": "Life sciences, 1985",
+          "url": "https://doi.org/10.1016/0024-3205(85)90638-1"
+        },
+        {
+          "title": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man.",
+          "source": "European journal of clinical investigation, 1992",
+          "url": "https://doi.org/10.1111/j.1365-2362.1992.tb01453.x"
+        },
+        {
+          "title": "The 2-monoacylglycerol moiety of dietary fat appears to be responsible for the fat-induced release of GLP-1 in humans.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.106799"
+        },
+        {
+          "title": "Ceruletide decreases food intake in non-obese man.",
+          "source": "Peptides, 1982",
+          "url": "https://doi.org/10.1016/0196-9781(82)90158-9"
+        },
+        {
+          "title": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans.",
+          "source": "American journal of physiology. Regulatory, integrative and comparative physiology, 2001",
+          "url": "https://doi.org/10.1152/ajpregu.2001.280.4.R1149"
+        },
+        {
+          "title": "Satiety effects of the type A CCK receptor antagonist loxiglumide in lean and obese women.",
+          "source": "Biological psychiatry, 1995",
+          "url": "https://doi.org/10.1016/0006-3223(94)00136-Q"
+        },
+        {
+          "title": "Cholecystokinin hyperresponsiveness in functional dyspepsia.",
+          "source": "World journal of gastroenterology, 2006",
+          "url": "https://doi.org/10.3748/wjg.v12.i17.2688"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "id": {
+      "title": "Hormon CCK (Kolesistokinin): Fungsi dan Rasa Kenyang",
+      "short_title": "Mengenal Hormon CCK (Kolesistokinin)",
+      "short_description": "Apa itu hormon CCK, apa pemicunya, bagaimana ia mengatur pencernaan dan rasa kenyang, serta temuan studi pada manusia soal nafsu makan.",
+      "meta_description": "Hormon CCK (kolesistokinin) adalah hormon usus yang menggerakkan pencernaan dan memberi sinyal kenyang. Kenali pemicu, fungsi, dan temuan studi soal nafsu makan.",
+      "tldr": "Kolesistokinin (CCK) adalah hormon peptida yang dilepaskan di usus halus, terutama sebagai respons terhadap lemak dan protein dari makanan. Hormon ini membuat kantong empedu berkontraksi, merangsang enzim pankreas, memperlambat pengosongan lambung, dan mengirim sinyal kenyang ke otak melalui saraf vagus. Dalam studi infus pada manusia, tambahan peptida mirip CCK mengurangi porsi makan. Pemblokiran reseptor CCK meningkatkan rasa lapar di sebagian uji klinis, tetapi tidak di uji lainnya.",
+      "body_md": "## Apa itu hormon CCK?\n\nKolesistokinin (CCK) adalah hormon peptida yang dilepaskan oleh sel-sel endokrin di bagian atas usus halus. Setelah Anda makan, hormon ini menjalankan dua tugas utama. Pertama, ia menyalakan proses pencernaan. Kedua, ia membantu memberi tahu otak bahwa Anda sudah cukup makan. Jika Anda mencari \"hormon CCK\" atau \"fungsi kolesistokinin\", itulah jawaban singkatnya: CCK adalah hormon usus untuk pencernaan dan rasa kenyang.\n\nHormon ini ditemukan pada 1928 karena kemampuannya membuat kantong empedu berkontraksi. Penelitian selanjutnya menunjukkan bahwa CCK memiliki banyak fungsi, baik di saluran cerna maupun di otak.\n\nBersama sekretin dan gastrin, CCK membentuk apa yang oleh para ahli endokrinologi disebut trias klasik hormon usus. CCK juga berperan sebagai pembawa pesan di dalam sel saraf. CCK adalah neuropeptida paling melimpah di otak manusia, jadi perannya jauh melampaui sekadar zat kimia pencernaan.\n\nUntuk gambaran lebih luas tentang cara CCK bekerja bersama GLP-1, PYY, dan ghrelin, baca ulasan kami tentang [hormon usus dan pengaturan nafsu makan](/id/gut-hormones-appetite-regulation-glp1-pyy-cck-2026).\n\n## Tempat CCK diproduksi dan apa pemicunya\n\nSel khusus di lapisan usus yang disebut sel-I melepaskan CCK. Pemicu utamanya adalah lemak dan protein dari makanan. Lemak dan protein yang sudah dicerna akhirnya mencapai sel-sel ini. Reseptor di permukaannya, termasuk GPR40 dan reseptor pengindra kalsium (calcium-sensing receptor), lalu mendorong sel melepaskan hormon tersebut.\n\nTidak semua lemak memberi efek yang sama. Dalam studi crossover acak pada 12 pria sehat, peneliti memberikan empat jenis makanan pada hari yang berbeda. Isinya wortel saja, atau wortel dengan salah satu dari tiga jenis lipid. Hanya minyak zaitun yang merangsang pelepasan CCK. Wortel saja tidak menaikkan satu pun hormon yang diukur. Hal yang sama berlaku untuk wortel dengan tributirin, lemak yang tersusun dari asam lemak rantai pendek. Para peneliti menyimpulkan bahwa asam oleat dari minyak zaitun tampaknya sepenuhnya bertanggung jawab atas respons CCK.\n\nStudi yang sama juga memberi temuan menarik. Minyak uji yang mengandung asam lemak rantai sedang menaikkan GLP-1 kurang lebih setara dengan minyak zaitun, tetapi tidak menaikkan CCK. Kedua hormon kenyang ini merupakan sinyal yang terpisah. Keduanya bisa merespons makanan yang sama dengan cara berbeda.\n\n## CCK dan pencernaan: kantong empedu, pankreas, dan lambung\n\n### Kantong empedu\n\nCCK adalah pengatur utama kontraksi kantong empedu. Dalam satu studi, volume kantong empedu menyusut maksimal hingga 12 ± 4% setelah makanan dikonsumsi lewat mulut. Pada saat yang sama, kadar CCK plasma dan keluaran enzim pankreas meningkat 6 hingga 8 kali lipat. Peneliti kemudian memblokir reseptor CCK dengan obat loxiglumide. Hasilnya, kontraksi kantong empedu setelah makan hilang sepenuhnya. Kontraksi kantong empedu bekerja bersama relaksasi sfingter Oddi yang dipicu CCK. Keduanya mengatur aliran empedu ke usus.\n\n### Pankreas\n\nCCK juga merangsang pengeluaran enzim pencernaan dari pankreas. Namun, di sini kendalinya dibagi dengan sistem saraf. Dalam studi yang sama, pemblokiran CCK mengurangi sekresi enzim setelah makan sebesar 30%. Sebaliknya, pemblokiran sinyal saraf kolinergik dengan atropin praktis menghentikannya. Para peneliti menggambarkan pankreas sangat bergantung pada latar kolinergik, dengan CCK berperan memodulasi responsnya.\n\nEfek-efek ini bukan sekadar artefak laboratorium akibat dosis tinggi. Sebuah studi melibatkan 7 orang sehat yang menerima infus CCK hingga kadar plasmanya setara dengan kadar setelah makan. Infus ini menaikkan sekresi tripsin dari 0,5 menjadi 1,4 KU per 15 menit. Keluaran bilirubin, penanda pengiriman empedu, naik dari 1,6 menjadi 30,3 µmol per 15 menit. Para peneliti menyimpulkan bahwa CCK dalam konsentrasi fisiologis merangsang sekresi enzim pankreas dan kontraksi kantong empedu.\n\n### Lambung\n\nCCK mengatur seberapa cepat nutrisi mencapai usus halus. Caranya dengan menghambat asupan makanan sekaligus pengosongan lambung. CCK memperlambat lambung melalui jalur saraf vagus. Jalur ini bekerja pada lambung bagian atas dan pilorus, yaitu katup di pintu keluar lambung. Melambatnya pengosongan lambung mengatur aliran makanan yang sebagian sudah tercerna ke duodenum.\n\nBukti dari tinjauan ilmiah juga mengisyaratkan peran di luar pencernaan. Satu tinjauan membahas penelitian di mana lemak makanan mengurangi peradangan usus melalui peningkatan CCK. Ini menunjukkan bahwa CCK mengoordinasikan makan dan mencerna sebagai satu kesatuan proses.\n\n## Cara CCK membantu Anda merasa kenyang\n\nJalur utama CCK menuju otak adalah saraf vagus. Neuron aferen vagus merupakan target utama CCK. Neuron ini adalah serabut sensorik yang membawa pesan dari usus ke batang otak. Neuron ini memadukan sinyal CCK dengan hormon lain. Leptin, hormon yang dilepaskan jaringan lemak, memperkuat efek CCK pada neuron tersebut. Sebaliknya, ghrelin, si hormon lapar, melemahkannya.\n\nCCK memicu rasa kenyang dengan bekerja melalui reseptor CCK-1 di area khusus otak belakang (hindbrain). CCK juga menekan peptida perangsang nafsu makan di hipotalamus. Selain itu, ia mencegah ghrelin merangsang neuron tertentu. Pencitraan otak pada manusia menunjukkan bahwa asam lemak yang dikonsumsi mengaktifkan batang otak, hipotalamus, dan korteks motorik. Penghambat reseptor CCK-1 menghambat aktivasi tersebut.\n\n### Temuan studi infus\n\nEksperimen awal pada manusia menguji hal ini dengan menginfuskan CCK atau peptida yang sangat mirip sebelum makan. Dalam satu studi tersamar ganda, 12 perempuan dan 12 laki-laki menerima ceruletide, peptida yang strukturnya mirip CCK. Setelah itu, mereka dipersilakan makan telur orak-arik dengan ham, roti, dan teh sebanyak yang mereka mau. Pada dosis lebih tinggi, mereka makan 16,8% lebih sedikit dibandingkan saat diberi larutan salin (3.725 kJ vs 4.340 kJ). Mereka juga melaporkan rasa lapar yang lebih rendah. Dosis lebih rendah hanya mengurangi asupan sebesar 6,6%, tanpa perubahan signifikan pada ukuran lainnya.\n\nEfek ini datang dengan konsekuensi. Pada dosis lebih tinggi, waktu reaksi peserta juga lebih lambat dan performa psikomotornya lebih lemah. Dosis besar sinyal mirip CCK memang mengurangi makan, tetapi efeknya tidak hanya pada nafsu makan.\n\n## Apa yang terjadi jika CCK diblokir\n\nJika CCK memang sinyal kenyang yang nyata, memblokir reseptornya seharusnya membuat orang makan lebih banyak. Hasil studi pada manusia di sini beragam.\n\nBeberapa studi crossover meneliti loxiglumide pada pria sehat. Studinya acak, tersamar ganda, dan terkontrol plasebo. Loxiglumide menghasilkan sedikit peningkatan asupan makanan (7%) yang tidak signifikan secara statistik. Namun, obat ini menghasilkan peningkatan asupan kalori yang moderat (10%) dan signifikan. Peserta merasa lebih lapar dibandingkan saat infus salin, dan rasa kenyangnya datang lebih lambat. Para peneliti memaknai hasil ini sebagai bukti tambahan bahwa CCK adalah sinyal kenyang alami tubuh (endogen).\n\nStudi pada 7 perempuan bertubuh ramping dan 7 perempuan dengan obesitas tidak menemukan efek serupa. Peserta diberi makanan kaya karbohidrat. Dengan loxiglumide, mereka makan 359 ± 39 g. Dengan salin, mereka makan 333 ± 31 g. Selisih ini tidak signifikan. Skor rasa kenyang juga tidak berubah.\n\nKedua studi melibatkan peserta dan protokol yang berbeda, sehingga tidak bisa dibandingkan secara langsung. Bila dilihat bersama, keduanya mengisyaratkan bahwa CCK adalah salah satu dari beberapa sinyal kenyang. CCK bukanlah satu-satunya saklar utama.\n\n## CCK, berat badan, dan gangguan pencernaan\n\nJika CCK mengurangi porsi makan, mengapa hormon ini tidak serta-merta mencegah kenaikan berat badan? Sebagian jawabannya mungkin terletak pada saraf yang membawa pesannya. Respons neuron aferen vagus terhadap CCK melemah pada obesitas. Para peneliti mengajukan bahwa resistansi terhadap CCK ini mungkin turut mengganggu pengaturan asupan makanan.\n\nPara penulis tinjauan memperkirakan bahwa memahami cara CCK mengatur jalur nafsu makan dapat membuka jalan bagi strategi menangani obesitas dan bulimia. Hal itu masih menjadi tujuan penelitian.\n\nCCK juga berkaitan dengan gangguan pencernaan. Data yang tersedia masih terbatas. Berdasarkan data tersebut, sekresi CCK terganggu pada penyakit seliak dan bulimia nervosa. Hal lain terlihat pada dispepsia fungsional, kondisi umum dengan keluhan di perut bagian atas yang berhubungan dengan makan. Pada kondisi ini, CCK yang diberikan lewat infus intravena diketahui dapat memunculkan kembali gejala. Efek itu bisa diblokir dengan atropin dan dengan loxiglumide. Satu tinjauan menyebut bahwa respons yang berubah terhadap CCK mungkin ikut berperan. Perubahan ini bisa jadi turut menyebabkan gangguan fungsi lambung pada sebagian pasien.\n\n## Bisakah kadar CCK diukur?\n\nBanyak orang mencari nilai CCK yang \"normal\". Metode pemeriksaan (assay) CCK yang akurat sulit dikembangkan. Akibatnya, pengetahuan tentang sekresi CCK pada berbagai penyakit masih terbatas.\n\nStudi penelitian memberi gambaran skalanya. Dalam studi pada 7 orang sehat, kadar CCK plasma saat puasa adalah 2,0 ± 0,2 pmol/l. Setelah makanan uji standar, kadarnya naik ke kisaran 4,6 ± 0,6 hingga 7,3 ± 1,0 pmol/l. Angka-angka tersebut berasal dari satu kelompok kecil yang diukur dengan satu metode tertentu. Karena itu, angka ini tidak boleh dipakai untuk menilai hasil pemeriksaan perorangan.\n\nDalam praktik klinis, CCK lebih sering dipakai sebagai zat uji ketimbang diukur. Stimulasi dengan CCK dari luar tubuh terbukti berguna dalam tes diagnostik penyakit kantong empedu dan pankreas. Hal yang sama berlaku untuk karsinoma tiroid meduler.\n\n## Tips praktis seputar nafsu makan\n\nAnda tidak bisa menaikkan CCK secara langsung. Namun, Anda bisa makan dengan cara yang memanfaatkan sistem ini sebagaimana mestinya.\n\n- **Sertakan protein dan sedikit lemak dalam menu makan.** Kedua nutrisi inilah yang memicu pelepasan CCK dari sel-I usus.\n- **Perhatikan jenis lemak.** Dalam studi pada 12 pria, minyak zaitun adalah satu-satunya lipid yang diuji yang menaikkan CCK.\n- **Makan dengan tempo yang memberi waktu bagi sinyal untuk tiba.** CCK bekerja selama makan berlangsung. Ia memperlambat pengosongan lambung dan memberi sinyal kenyang melalui saraf vagus.\n- **Jangan bergantung pada satu hormon saja.** Pemblokiran CCK menaikkan asupan kalori di satu uji klinis, tetapi tidak berpengaruh di uji lainnya. Jadi, jelas sinyal lain juga penting.\n\nIngin melihat dari sisi makanan, yaitu menu apa yang paling lama meredam rasa lapar? [Peringkat indeks kekenyangan](/id/satiety-index-foods-hunger-control-ranking-2026) kami bisa menjadi pelengkap pembahasan hormon ini.",
+      "key_stats": [
+        {
+          "label": "Tahun CCK ditemukan (lewat kontraksi kantong empedu)",
+          "value": "1928",
+          "source": "Review: Cholecystokinin (CCK biology and appetite)"
+        },
+        {
+          "label": "CCK plasma saat puasa vs setelah makanan uji (7 orang sehat)",
+          "value": "2,0 pmol/l naik menjadi 4,6–7,3 pmol/l",
+          "source": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man"
+        },
+        {
+          "label": "Volume kantong empedu setelah makan",
+          "value": "Menyusut maksimal hingga 12 ± 4%",
+          "source": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man"
+        },
+        {
+          "label": "Penurunan asupan makan dengan ceruletide dosis lebih tinggi (peptida mirip CCK)",
+          "value": "16,8% (3.725 vs 4.340 kJ)",
+          "source": "Ceruletide decreases food intake in non-obese man"
+        },
+        {
+          "label": "Kenaikan asupan kalori saat reseptor CCK-A diblokir",
+          "value": "10%",
+          "source": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Apa fungsi hormon CCK?",
+          "answer": "Kolesistokinin membuat kantong empedu berkontraksi, merangsang enzim pencernaan pankreas, dan memperlambat pengosongan lambung. Hormon ini juga memberi sinyal kenyang ke otak melalui saraf vagus. Efeknya pada makan dan pengosongan lambung membantu mengatur pasokan nutrisi ke usus halus."
+        },
+        {
+          "question": "Di mana kolesistokinin diproduksi?",
+          "answer": "CCK dilepaskan oleh sel-sel endokrin di bagian atas usus halus. Sel usus ini dikenal sebagai sel-I. CCK juga berperan sebagai penghantar di sel saraf dan merupakan neuropeptida paling melimpah di otak manusia."
+        },
+        {
+          "question": "Makanan apa yang meningkatkan CCK?",
+          "answer": "Lemak dan protein dari makanan adalah pemicu utama pelepasan CCK. Dalam studi pada 12 pria sehat, minyak zaitun menaikkan CCK. Wortel saja dan lemak rantai pendek bernama tributirin tidak menaikkannya."
+        },
+        {
+          "question": "Apakah CCK membantu menurunkan berat badan?",
+          "answer": "Dalam studi laboratorium, infus peptida mirip CCK mengurangi jumlah makanan yang dimakan saat makanan uji. Contohnya, asupan turun 16,8% pada ceruletide dosis lebih tinggi. Namun, respons saraf vagus terhadap CCK melemah pada obesitas. Para penulis tinjauan menyebut bahwa memahami cara CCK mengatur nafsu makan dapat membuka jalan bagi strategi obesitas di masa depan."
+        },
+        {
+          "question": "Berapa kadar CCK yang normal?",
+          "answer": "Metode pemeriksaan CCK yang akurat sulit dikembangkan, sehingga pengetahuan tentang sekresi CCK pada penyakit masih terbatas. Dalam satu studi kecil, kadar CCK plasma saat puasa adalah 2,0 pmol/l. Setelah makanan uji, kadarnya naik ke kisaran 4,6 hingga 7,3 pmol/l."
+        },
+        {
+          "question": "Apakah CCK sama dengan GLP-1?",
+          "answer": "Tidak. Keduanya adalah hormon usus yang terkait dengan rasa kenyang, tetapi merupakan sinyal yang terpisah. Dalam satu studi, minyak yang mengandung asam lemak rantai sedang menaikkan GLP-1 kurang lebih setara dengan minyak zaitun. Namun, minyak ini tidak menaikkan CCK."
+        }
+      ],
+      "comparison_table": {
+        "title": "Studi utama pada manusia tentang CCK, pencernaan, dan asupan makan",
+        "headers": [
+          "Studi",
+          "Peserta",
+          "Yang diuji",
+          "Temuan utama"
+        ],
+        "rows": [
+          [
+            "Uji infus ceruletide",
+            "12 perempuan, 12 laki-laki, tidak obesitas",
+            "Infus ceruletide (peptida mirip CCK) sebelum makan bebas pilih",
+            "Dosis lebih tinggi: makan 16,8% lebih sedikit (3.725 vs 4.340 kJ), rasa lapar berkurang, waktu reaksi lebih lambat; dosis lebih rendah: 6,6% lebih sedikit, tanpa perubahan signifikan"
+          ],
+          [
+            "Studi crossover loxiglumide pada pria",
+            "Pria sehat",
+            "Penghambat reseptor CCK-A loxiglumide vs salin",
+            "Asupan makanan +7% (tidak signifikan), asupan kalori +10% (signifikan), lebih lapar, rasa kenyang tertunda"
+          ],
+          [
+            "Studi loxiglumide pada perempuan ramping dan obesitas",
+            "7 perempuan ramping dan 7 perempuan obesitas",
+            "Loxiglumide vs salin sebelum makanan kaya karbohidrat",
+            "Tidak ada perubahan signifikan: 359 ± 39 g vs 333 ± 31 g dimakan"
+          ],
+          [
+            "Studi crossover lipid makanan",
+            "12 pria sehat",
+            "Menu wortel dengan berbagai jenis lipid",
+            "Hanya minyak zaitun yang menaikkan CCK; wortel saja dan tributirin tidak menaikkan hormon apa pun yang diukur"
+          ],
+          [
+            "Infus CCK pada konsentrasi setara setelah makan",
+            "7 orang sehat",
+            "Makanan uji dan infus CCK",
+            "CCK puasa 2,0 pmol/l, setelah makan 4,6–7,3 pmol/l; CCK setara kadar setelah makan menaikkan tripsin dan keluaran empedu"
+          ],
+          [
+            "Studi pemblokiran kantong empedu dan pankreas",
+            "Relawan manusia",
+            "Pemblokiran CCK vs pemblokiran kolinergik setelah makan",
+            "Kantong empedu menyusut hingga 12 ± 4% dari volumenya; pemblokiran CCK menghilangkan kontraksi dan memangkas sekresi enzim sebesar 30%"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2007",
+          "url": "https://doi.org/10.1097/MED.0b013e3280122850"
+        },
+        {
+          "title": "Cholecystokinin",
+          "source": "Best practice & research. Clinical endocrinology & metabolism, 2004",
+          "url": "https://doi.org/10.1016/j.beem.2004.07.002"
+        },
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2012",
+          "url": "https://doi.org/10.1097/MED.0b013e32834eb77d"
+        },
+        {
+          "title": "Role of cholecystokinin in the regulation of gastrointestinal motility.",
+          "source": "The Journal of nutrition, 1994",
+          "url": "https://doi.org/10.1093/jn/124.suppl_8.1334S"
+        },
+        {
+          "title": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man.",
+          "source": "Life sciences, 1985",
+          "url": "https://doi.org/10.1016/0024-3205(85)90638-1"
+        },
+        {
+          "title": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man.",
+          "source": "European journal of clinical investigation, 1992",
+          "url": "https://doi.org/10.1111/j.1365-2362.1992.tb01453.x"
+        },
+        {
+          "title": "The 2-monoacylglycerol moiety of dietary fat appears to be responsible for the fat-induced release of GLP-1 in humans.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.106799"
+        },
+        {
+          "title": "Ceruletide decreases food intake in non-obese man.",
+          "source": "Peptides, 1982",
+          "url": "https://doi.org/10.1016/0196-9781(82)90158-9"
+        },
+        {
+          "title": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans.",
+          "source": "American journal of physiology. Regulatory, integrative and comparative physiology, 2001",
+          "url": "https://doi.org/10.1152/ajpregu.2001.280.4.R1149"
+        },
+        {
+          "title": "Satiety effects of the type A CCK receptor antagonist loxiglumide in lean and obese women.",
+          "source": "Biological psychiatry, 1995",
+          "url": "https://doi.org/10.1016/0006-3223(94)00136-Q"
+        },
+        {
+          "title": "Cholecystokinin hyperresponsiveness in functional dyspepsia.",
+          "source": "World journal of gastroenterology, 2006",
+          "url": "https://doi.org/10.3748/wjg.v12.i17.2688"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "fr": {
+      "title": "Cholécystokinine (CCK) : rôle de l'hormone de satiété",
+      "short_title": "La cholécystokinine (CCK) expliquée",
+      "short_description": "Ce qu'est l'hormone CCK, ce qui la déclenche, comment elle contrôle la digestion et la satiété, et ce que montrent les études chez l'humain sur l'appétit.",
+      "meta_description": "La cholécystokinine (CCK) est une hormone intestinale qui pilote la digestion et signale la satiété. Déclencheurs, rôle et données des études sur l'appétit.",
+      "tldr": "La cholécystokinine (CCK) est une hormone peptidique libérée dans l'intestin grêle, surtout en réponse aux graisses et aux protéines alimentaires. Elle fait se contracter la vésicule biliaire, stimule les enzymes pancréatiques et ralentit la vidange de l'estomac. Elle envoie aussi au cerveau un signal de satiété par le nerf vague. Dans les études de perfusion chez l'humain, un apport supplémentaire de peptide apparenté à la CCK a réduit la taille des repas. Le blocage des récepteurs de la CCK a augmenté la faim dans certains essais, mais pas dans d'autres.",
+      "body_md": "## Qu'est-ce que l'hormone CCK ?\n\nLa cholécystokinine (CCK) est une hormone peptidique libérée par des cellules endocrines de la partie haute de l'intestin grêle. Après un repas, elle remplit deux missions principales. Elle met en route la digestion et contribue à signaler au cerveau que vous avez assez mangé. Si vous avez cherché « hormone CCK » ou « cholécystokinine rôle », voici la réponse courte : la CCK est une hormone intestinale de la digestion et de la satiété.\n\nCette hormone a été découverte en 1928 grâce à sa capacité à faire se contracter la vésicule biliaire. Les recherches ultérieures ont montré qu'elle remplit de nombreuses fonctions, à la fois dans le tube digestif et dans le cerveau.\n\nAvec la sécrétine et la gastrine, la CCK forme ce que les endocrinologues appellent la triade classique des hormones intestinales. Elle sert aussi de messager à l'intérieur des cellules nerveuses. La CCK est le neuropeptide le plus abondant du cerveau humain. Elle est donc bien plus qu'une simple molécule digestive.\n\nPour une vue d'ensemble de l'action de la CCK aux côtés du GLP-1, du PYY et de la ghréline, consultez notre dossier sur [les hormones intestinales et la régulation de l'appétit](/fr/gut-hormones-appetite-regulation-glp1-pyy-cck-2026).\n\n## Où la CCK est produite et ce qui la déclenche\n\nCe sont des cellules spécialisées de la muqueuse intestinale, appelées cellules I, qui libèrent la CCK. Ses principaux déclencheurs sont les graisses et les protéines alimentaires. Les lipides et protéines digérés finissent par atteindre ces cellules. Des récepteurs situés à leur surface, dont le GPR40 et le récepteur sensible au calcium, les incitent alors à libérer l'hormone.\n\nToutes les graisses n'ont pas le même effet. Une étude croisée randomisée a porté sur 12 hommes en bonne santé. Les chercheurs leur ont servi quatre repas à des jours différents : des carottes seules, ou des carottes associées à l'un de trois lipides différents. Seule l'huile d'olive a stimulé la libération de CCK. Les carottes seules n'ont fait augmenter aucune des hormones mesurées. Il en va de même pour les carottes accompagnées de tributyrine, une graisse composée d'acides gras à chaîne courte. Les auteurs ont conclu que l'acide oléique de l'huile d'olive semble entièrement responsable de la réponse de la CCK.\n\nLa même étude apporte un détail intéressant. Une huile test apportant des acides gras à chaîne moyenne a augmenté le GLP-1 à peu près autant que l'huile d'olive, sans faire monter la CCK. Ces deux hormones de satiété sont donc des signaux distincts. Elles peuvent réagir différemment à un même repas.\n\n## CCK et digestion : vésicule biliaire, pancréas et estomac\n\n### La vésicule biliaire\n\nLa CCK est le principal régulateur de la contraction de la vésicule biliaire. Dans une étude, le volume de la vésicule a diminué au maximum jusqu'à 12 ± 4 % après une prise alimentaire par voie orale. Dans le même temps, le taux plasmatique de CCK et la production d'enzymes pancréatiques ont été multipliés par 6 à 8. Les chercheurs ont ensuite bloqué les récepteurs de la CCK avec un médicament, le loxiglumide. La contraction de la vésicule après le repas a alors été totalement abolie. La contraction de la vésicule agit de concert avec le relâchement du sphincter d'Oddi induit par la CCK. Ensemble, ils régulent l'écoulement de la bile dans l'intestin.\n\n### Le pancréas\n\nLa CCK stimule aussi la sécrétion d'enzymes digestives par le pancréas. Ici, elle partage toutefois le contrôle avec le système nerveux. Dans la même étude, le blocage de la CCK a réduit de 30 % la sécrétion enzymatique après le repas. Le blocage du signal nerveux cholinergique par l'atropine l'a en revanche pratiquement stoppée. Les auteurs ont décrit le pancréas comme dépendant de manière cruciale d'un fond cholinergique, la CCK venant moduler la réponse.\n\nCes effets ne sont pas de simples artefacts de laboratoire liés à de fortes doses. Une étude a porté sur 7 personnes en bonne santé. Elles ont reçu une perfusion de CCK jusqu'à des taux plasmatiques proches de ceux observés après un repas. La sécrétion de trypsine est alors passée de 0,5 à 1,4 KU par 15 minutes. La production de bilirubine, marqueur de l'apport de bile, est passée de 1,6 à 30,3 µmol par 15 minutes. Les auteurs ont conclu que des concentrations physiologiques de CCK stimulent la sécrétion d'enzymes pancréatiques et la contraction de la vésicule biliaire.\n\n### L'estomac\n\nLa CCK contrôle la vitesse à laquelle les nutriments atteignent l'intestin grêle. Pour cela, elle freine à la fois la prise alimentaire et la vidange gastrique. Elle ralentit l'estomac par une voie nerveuse vagale. Cette voie agit sur la partie haute de l'estomac et sur le pylore, la valve située à la sortie de l'estomac. Ce ralentissement de la vidange gastrique régule le passage des aliments partiellement digérés vers le duodénum.\n\nDes travaux de synthèse suggèrent aussi un rôle qui dépasse la digestion. Une revue a examiné plusieurs travaux de recherche. Dans ceux-ci, les graisses alimentaires ont réduit l'inflammation intestinale en augmentant la CCK. Cela évoque une hormone qui coordonne l'alimentation et la digestion comme un seul et même processus.\n\n## Comment la CCK vous aide à vous sentir rassasié\n\nLa principale voie d'accès de la CCK au cerveau est le nerf vague. Les neurones afférents vagaux sont une cible majeure de la CCK. Ce sont les fibres sensitives qui transmettent les messages de l'intestin vers le tronc cérébral. Ils intègrent le signal de la CCK à celui d'autres hormones. La leptine, hormone sécrétée par le tissu adipeux, renforce les effets de la CCK sur ces neurones. La ghréline, l'hormone de la faim, les affaiblit au contraire.\n\nLa CCK induit la satiété en agissant sur les récepteurs CCK-1 de régions spécialisées du rhombencéphale. Elle freine aussi les peptides stimulant l'appétit dans l'hypothalamus. Par ailleurs, elle empêche la ghréline de stimuler certains neurones. L'imagerie cérébrale chez l'humain montre que les acides gras ingérés activent le tronc cérébral, l'hypothalamus et le cortex moteur. Un bloqueur des récepteurs CCK-1 inhibe cette activation.\n\n### Ce que montrent les études de perfusion\n\nLes premières expériences chez l'humain ont testé cette hypothèse en perfusant de la CCK ou un peptide très proche avant un repas. Dans une étude en double aveugle, 12 femmes et 12 hommes ont reçu de la céruléine, un peptide structurellement apparenté à la CCK. On leur a ensuite proposé à volonté des œufs brouillés au jambon, du pain et du thé. À la dose la plus élevée, ils ont mangé 16,8 % de moins qu'avec du sérum physiologique (3 725 kJ contre 4 340 kJ). Ils ont aussi déclaré avoir moins faim. La dose plus faible n'a réduit les apports que de 6,6 %, sans changement significatif des autres mesures.\n\nCet effet avait une contrepartie. À la dose la plus élevée, les temps de réaction des participants s'allongeaient aussi, et leurs performances psychomotrices baissaient. Une dose plus forte d'un signal apparenté à la CCK réduit donc la prise alimentaire, mais elle n'agit pas que sur l'appétit.\n\n## Que se passe-t-il quand la CCK est bloquée ?\n\nSi la CCK est un véritable signal de satiété, bloquer son récepteur devrait pousser à manger davantage. Chez l'humain, les résultats sont contrastés.\n\nDes études croisées ont évalué le loxiglumide chez des hommes en bonne santé. Ces études étaient randomisées, en double aveugle et contrôlées contre placebo. Le loxiglumide a entraîné une légère hausse de la prise alimentaire (7 %), non significative sur le plan statistique. Il a en revanche provoqué une hausse modérée (10 %) et significative de l'apport calorique. Les participants ressentaient plus de faim qu'avec la perfusion de sérum physiologique, et la satiété arrivait plus tard. Les auteurs y ont vu une preuve supplémentaire que la CCK est un signal de satiété endogène.\n\nUne étude menée chez 7 femmes minces et 7 femmes obèses n'a pas retrouvé cet effet. Les participantes ont reçu un repas riche en glucides. Avec le loxiglumide, elles en ont mangé 359 ± 39 g. Avec le sérum physiologique, elles en ont mangé 333 ± 31 g. Cet écart n'était pas significatif. Les scores de satiété n'ont pas changé non plus.\n\nCes deux études portaient sur des participants et des protocoles différents, elles ne peuvent donc pas être comparées directement. Prises ensemble, elles suggèrent que la CCK est un signal de satiété parmi d'autres. Elle n'est pas un interrupteur principal unique.\n\n## CCK, poids et troubles digestifs\n\nSi la CCK réduit la taille des repas, pourquoi n'empêche-t-elle pas tout simplement la prise de poids ? Une partie de la réponse se trouve peut-être dans le nerf qui transmet son message. En cas d'obésité, les neurones afférents vagaux répondent moins à la CCK. Des chercheurs ont avancé que cette résistance à la CCK pourrait contribuer à une régulation altérée de la prise alimentaire.\n\nDes auteurs de revues ont suggéré que mieux comprendre la façon dont la CCK régule les voies de l'appétit pourrait déboucher sur des stratégies contre l'obésité et la boulimie. Cela reste un objectif de recherche.\n\nLa CCK intervient aussi dans certains troubles digestifs. Les données disponibles restent limitées. D'après elles, la sécrétion de CCK est altérée dans la maladie cœliaque et la boulimie nerveuse. Un autre exemple est la dyspepsie fonctionnelle, un trouble fréquent marqué par des symptômes du haut de l'abdomen liés aux repas. Dans ce trouble, on a observé que la CCK administrée par voie intraveineuse reproduisait les symptômes. Cet effet pouvait être bloqué par l'atropine et par le loxiglumide. Selon une revue, une réponse altérée à la CCK pourrait jouer un rôle. Elle pourrait contribuer aux troubles du fonctionnement gastrique observés chez certains patients.\n\n## Peut-on mesurer le taux de CCK ?\n\nBeaucoup de personnes cherchent une valeur « normale » de CCK. Il s'est toutefois avéré difficile de mettre au point des dosages fiables de la CCK. Les connaissances sur la sécrétion de CCK dans les maladies restent donc limitées.\n\nLes études de recherche donnent un ordre de grandeur. Dans l'étude portant sur 7 personnes en bonne santé, la CCK plasmatique à jeun était de 2,0 ± 0,2 pmol/l. Après un repas test standardisé, elle atteignait des valeurs comprises entre 4,6 ± 0,6 et 7,3 ± 1,0 pmol/l. Ces chiffres proviennent d'un petit groupe mesuré avec un dosage précis. Ils ne doivent donc pas servir à interpréter un résultat individuel.\n\nEn médecine clinique, la CCK est surtout utilisée comme substance de test plutôt que dosée. La stimulation par de la CCK administrée de l'extérieur s'est révélée utile dans des tests diagnostiques. C'est le cas pour les maladies de la vésicule biliaire et du pancréas, ainsi que pour le carcinome médullaire de la thyroïde.\n\n## Ce qu'il faut retenir pour l'appétit\n\nVous ne pouvez pas augmenter directement votre CCK. Vous pouvez en revanche manger d'une manière qui permet au système de fonctionner comme prévu.\n\n- **Incluez des protéines et un peu de matières grasses à vos repas.** Ce sont ces nutriments qui déclenchent la libération de CCK par les cellules I de l'intestin.\n- **Pensez au type de graisse.** Dans l'étude portant sur 12 hommes, l'huile d'olive était le seul lipide testé à faire monter la CCK.\n- **Mangez à un rythme qui laisse aux signaux le temps d'arriver.** La CCK agit pendant le repas. Elle ralentit la vidange de l'estomac et signale la satiété par le nerf vague.\n- **Ne misez pas sur une seule hormone.** Bloquer la CCK a augmenté l'apport calorique dans un essai et n'a eu aucun effet dans un autre. D'autres signaux comptent donc clairement aussi.\n\nQuels repas calment la faim le plus longtemps ? Notre [classement de l'indice de satiété](/fr/satiety-index-foods-hunger-control-ranking-2026) complète utilement l'approche hormonale présentée ici.",
+      "key_stats": [
+        {
+          "label": "Année de découverte de la CCK (via la contraction de la vésicule biliaire)",
+          "value": "1928",
+          "source": "Review: Cholecystokinin (CCK biology and appetite)"
+        },
+        {
+          "label": "CCK plasmatique à jeun vs après un repas test (7 personnes en bonne santé)",
+          "value": "2,0 pmol/l, puis 4,6–7,3 pmol/l",
+          "source": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man"
+        },
+        {
+          "label": "Volume de la vésicule biliaire après une prise alimentaire orale",
+          "value": "Diminution maximale jusqu'à 12 ± 4 %",
+          "source": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man"
+        },
+        {
+          "label": "Baisse de la prise alimentaire avec la céruléine à dose élevée (peptide apparenté à la CCK)",
+          "value": "16,8 % (3 725 vs 4 340 kJ)",
+          "source": "Ceruletide decreases food intake in non-obese man"
+        },
+        {
+          "label": "Hausse de l'apport calorique lors du blocage des récepteurs CCK-A",
+          "value": "10 %",
+          "source": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans"
+        }
+      ],
+      "faq": [
+        {
+          "question": "À quoi sert l'hormone CCK ?",
+          "answer": "La cholécystokinine fait se contracter la vésicule biliaire, stimule les enzymes digestives du pancréas et ralentit la vidange de l'estomac. Elle signale aussi la satiété au cerveau par le nerf vague. Ses effets sur la prise alimentaire et la vidange gastrique aident à contrôler l'arrivée des nutriments dans l'intestin grêle."
+        },
+        {
+          "question": "Où la cholécystokinine est-elle produite ?",
+          "answer": "La CCK est libérée par des cellules endocrines de la partie haute de l'intestin grêle. Ces cellules intestinales sont appelées cellules I. Elle agit aussi comme neurotransmetteur dans les cellules nerveuses et constitue le neuropeptide le plus abondant du cerveau humain."
+        },
+        {
+          "question": "Quels aliments augmentent la CCK ?",
+          "answer": "Les graisses et les protéines alimentaires sont les principaux déclencheurs de la libération de CCK. Dans une étude portant sur 12 hommes en bonne santé, l'huile d'olive a fait monter la CCK. Les carottes seules et une graisse à chaîne courte, la tributyrine, n'ont eu aucun effet."
+        },
+        {
+          "question": "La CCK aide-t-elle à perdre du poids ?",
+          "answer": "En laboratoire, la perfusion de peptides apparentés à la CCK a réduit la quantité mangée lors d'un repas test. La baisse atteignait par exemple 16,8 % avec la dose la plus élevée de céruléine. En cas d'obésité, les réponses vagales à la CCK sont toutefois atténuées. Des auteurs de revues ont suggéré que mieux comprendre la régulation de l'appétit par la CCK pourrait déboucher sur de futures stratégies contre l'obésité."
+        },
+        {
+          "question": "Quel est le taux normal de CCK ?",
+          "answer": "Il a été difficile de mettre au point des dosages fiables de la CCK, si bien que les connaissances sur sa sécrétion dans les maladies restent limitées. Dans une petite étude, la CCK plasmatique à jeun était de 2,0 pmol/l. Elle montait entre 4,6 et 7,3 pmol/l après un repas test."
+        },
+        {
+          "question": "La CCK est-elle la même chose que le GLP-1 ?",
+          "answer": "Non. Ce sont deux hormones intestinales liées à la satiété, mais il s'agit de signaux distincts. Dans une étude, une huile apportant des acides gras à chaîne moyenne a augmenté le GLP-1 à peu près autant que l'huile d'olive. Elle n'a pourtant pas fait monter la CCK."
+        }
+      ],
+      "comparison_table": {
+        "title": "Principales études chez l'humain sur la CCK, la digestion et la prise alimentaire",
+        "headers": [
+          "Étude",
+          "Participants",
+          "Ce qui a été testé",
+          "Résultat principal"
+        ],
+        "rows": [
+          [
+            "Essai de perfusion de céruléine",
+            "12 femmes, 12 hommes, non obèses",
+            "Perfusion de céruléine (peptide apparenté à la CCK) avant un repas à volonté",
+            "Dose élevée : 16,8 % de moins consommé (3 725 vs 4 340 kJ), moins de faim, temps de réaction plus lents ; dose faible : 6,6 % de moins, pas de changement significatif"
+          ],
+          [
+            "Études croisées sur le loxiglumide chez l'homme",
+            "Hommes en bonne santé",
+            "Loxiglumide (bloqueur des récepteurs CCK-A) vs sérum physiologique",
+            "Prise alimentaire +7 % (non significatif), apport calorique +10 % (significatif), plus de faim, satiété retardée"
+          ],
+          [
+            "Étude sur le loxiglumide chez des femmes minces et obèses",
+            "7 femmes minces et 7 femmes obèses",
+            "Loxiglumide vs sérum physiologique avant un repas riche en glucides",
+            "Pas de changement significatif : 359 ± 39 g vs 333 ± 31 g consommés"
+          ],
+          [
+            "Étude croisée sur les lipides alimentaires",
+            "12 hommes en bonne santé",
+            "Repas de carottes avec différents lipides",
+            "Seule l'huile d'olive a fait monter la CCK ; les carottes seules et la tributyrine n'ont fait augmenter aucune hormone mesurée"
+          ],
+          [
+            "Perfusion de CCK à des concentrations post-prandiales",
+            "7 personnes en bonne santé",
+            "Repas test et perfusion de CCK",
+            "CCK à jeun 2,0 pmol/l, après le repas 4,6–7,3 pmol/l ; une CCK au niveau post-prandial a augmenté la trypsine et la production de bile"
+          ],
+          [
+            "Étude de blocage de la vésicule biliaire et du pancréas",
+            "Volontaires humains",
+            "Blocage de la CCK vs blocage cholinergique après le repas",
+            "Vésicule réduite à 12 ± 4 % de son volume ; le blocage de la CCK a aboli la contraction et réduit la sécrétion enzymatique de 30 %"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2007",
+          "url": "https://doi.org/10.1097/MED.0b013e3280122850"
+        },
+        {
+          "title": "Cholecystokinin",
+          "source": "Best practice & research. Clinical endocrinology & metabolism, 2004",
+          "url": "https://doi.org/10.1016/j.beem.2004.07.002"
+        },
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2012",
+          "url": "https://doi.org/10.1097/MED.0b013e32834eb77d"
+        },
+        {
+          "title": "Role of cholecystokinin in the regulation of gastrointestinal motility.",
+          "source": "The Journal of nutrition, 1994",
+          "url": "https://doi.org/10.1093/jn/124.suppl_8.1334S"
+        },
+        {
+          "title": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man.",
+          "source": "Life sciences, 1985",
+          "url": "https://doi.org/10.1016/0024-3205(85)90638-1"
+        },
+        {
+          "title": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man.",
+          "source": "European journal of clinical investigation, 1992",
+          "url": "https://doi.org/10.1111/j.1365-2362.1992.tb01453.x"
+        },
+        {
+          "title": "The 2-monoacylglycerol moiety of dietary fat appears to be responsible for the fat-induced release of GLP-1 in humans.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.106799"
+        },
+        {
+          "title": "Ceruletide decreases food intake in non-obese man.",
+          "source": "Peptides, 1982",
+          "url": "https://doi.org/10.1016/0196-9781(82)90158-9"
+        },
+        {
+          "title": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans.",
+          "source": "American journal of physiology. Regulatory, integrative and comparative physiology, 2001",
+          "url": "https://doi.org/10.1152/ajpregu.2001.280.4.R1149"
+        },
+        {
+          "title": "Satiety effects of the type A CCK receptor antagonist loxiglumide in lean and obese women.",
+          "source": "Biological psychiatry, 1995",
+          "url": "https://doi.org/10.1016/0006-3223(94)00136-Q"
+        },
+        {
+          "title": "Cholecystokinin hyperresponsiveness in functional dyspepsia.",
+          "source": "World journal of gastroenterology, 2006",
+          "url": "https://doi.org/10.3748/wjg.v12.i17.2688"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "de": {
+      "title": "Cholecystokinin (CCK): Wirkung des Sättigungshormons",
+      "short_title": "Cholecystokinin (CCK) einfach erklärt",
+      "short_description": "Was das Hormon CCK ist, was es auslöst, wie es Verdauung und Sättigung steuert und was Studien am Menschen zum Appetit zeigen.",
+      "meta_description": "Cholecystokinin (CCK) ist ein Darmhormon, das die Verdauung steuert und Sättigung signalisiert. Was es auslöst, wie es wirkt und was Studien zum Appetit zeigen.",
+      "tldr": "Cholecystokinin (CCK) ist ein Peptidhormon, das im Dünndarm ausgeschüttet wird, vor allem als Reaktion auf Nahrungsfett und Eiweiß. Es lässt die Gallenblase kontrahieren, regt die Bauchspeicheldrüsenenzyme an und verlangsamt die Magenentleerung. Zudem sendet es über den Vagusnerv ein Sättigungssignal an das Gehirn. In Infusionsstudien am Menschen verringerte zusätzliches CCK-ähnliches Peptid die Essensmenge. Die Blockade der CCK-Rezeptoren steigerte den Hunger in einigen Studien, in anderen dagegen nicht.",
+      "body_md": "## Was ist das Hormon CCK?\n\nCholecystokinin (CCK) ist ein Peptidhormon, das von endokrinen Zellen des oberen Dünndarms ausgeschüttet wird. Nach dem Essen erfüllt es zwei Hauptaufgaben. Es setzt die Verdauung in Gang und hilft, dem Gehirn mitzuteilen, dass Sie genug gegessen haben. Wer nach „CCK Hormon“ oder „Cholecystokinin Wirkung“ sucht, findet hier die Kurzantwort: CCK ist ein Darmhormon für Verdauung und Sättigung.\n\nEntdeckt wurde das Hormon 1928, weil es die Gallenblase zur Kontraktion bringt. Spätere Forschung zeigte, dass es zahlreiche Funktionen sowohl im Verdauungstrakt als auch im Gehirn erfüllt.\n\nZusammen mit Sekretin und Gastrin bildet CCK das, was Endokrinologen die klassische Trias der Darmhormone nennen. Zugleich dient es als Botenstoff in Nervenzellen. CCK ist das häufigste Neuropeptid im menschlichen Gehirn und damit weit mehr als nur ein Verdauungsstoff.\n\nWie CCK mit GLP-1, PYY und Ghrelin zusammenwirkt, lesen Sie in unserem Überblick über [Darmhormone und Appetitregulation](/de/gut-hormones-appetite-regulation-glp1-pyy-cck-2026).\n\n## Wo CCK gebildet wird und was die Ausschüttung auslöst\n\nCCK wird von spezialisierten Zellen der Darmschleimhaut ausgeschüttet, den sogenannten I-Zellen. Die wichtigsten Auslöser sind Nahrungsfett und Eiweiß. Verdaute Fette und Proteine gelangen zu diesen Zellen. Dort veranlassen Rezeptoren auf ihrer Oberfläche die Zellen, das Hormon freizusetzen, darunter GPR40 und der calciumsensitive Rezeptor.\n\nNicht jedes Fett wirkt gleich. In einer randomisierten Crossover-Studie mit 12 gesunden Männern erhielten die Teilnehmer an verschiedenen Tagen vier Mahlzeiten. Es gab entweder nur Karotten oder Karotten mit einem von drei verschiedenen Fetten. Nur Olivenöl regte die CCK-Ausschüttung an. Karotten allein hoben keines der gemessenen Hormone an. Dasselbe galt für Karotten mit Tributyrin, einem Fett aus kurzkettigen Fettsäuren. Die Autoren folgerten, dass offenbar allein die Ölsäure aus dem Olivenöl für die CCK-Antwort verantwortlich ist.\n\nDieselbe Studie lieferte ein interessantes Detail. Ein Testöl mit mittelkettigen Fettsäuren erhöhte GLP-1 etwa so stark wie Olivenöl, nicht aber CCK. Die beiden Sättigungshormone sind also getrennte Signale. Sie können auf dieselbe Mahlzeit unterschiedlich reagieren.\n\n## CCK und Verdauung: Gallenblase, Bauchspeicheldrüse und Magen\n\n### Die Gallenblase\n\nCCK ist der wichtigste Regulator der Gallenblasenkontraktion. In einer Studie verkleinerte sich das Gallenblasenvolumen nach oraler Nahrungsaufnahme auf maximal 12 ± 4 %. Gleichzeitig stiegen der CCK-Plasmaspiegel und die Enzymabgabe der Bauchspeicheldrüse um das 6- bis 8-Fache. Anschließend blockierten die Forschenden die CCK-Rezeptoren mit dem Wirkstoff Loxiglumid. Daraufhin blieb die Kontraktion der Gallenblase nach dem Essen vollständig aus. Die Kontraktion der Gallenblase wirkt zusammen mit der CCK-vermittelten Erschlaffung des Sphinkter Oddi. Gemeinsam regeln sie den Gallefluss in den Darm.\n\n### Die Bauchspeicheldrüse\n\nCCK regt auch die Ausschüttung von Verdauungsenzymen aus der Bauchspeicheldrüse an. Hier teilt es sich die Steuerung allerdings mit dem Nervensystem. In derselben Studie senkte die CCK-Blockade die Enzymsekretion nach dem Essen um 30 %. Die Blockade des cholinergen Nervensignals mit Atropin brachte sie dagegen praktisch zum Erliegen. Die Autoren beschrieben die Bauchspeicheldrüse als entscheidend abhängig von einem cholinergen Hintergrund, wobei CCK die Antwort moduliert.\n\nDiese Effekte sind keine bloßen Laborartefakte hoher Dosen. In einer Studie erhielten 7 gesunde Personen eine CCK-Infusion bis zu Plasmaspiegeln, wie sie nach einer Mahlzeit auftreten. Dadurch stieg die Trypsinsekretion von 0,5 auf 1,4 KU pro 15 Minuten. Die Bilirubinabgabe, ein Marker für den Gallefluss, stieg von 1,6 auf 30,3 µmol pro 15 Minuten. Die Autoren folgerten, dass CCK in physiologischen Konzentrationen die Enzymsekretion der Bauchspeicheldrüse und die Gallenblasenkontraktion anregt.\n\n### Der Magen\n\nCCK steuert, wie schnell Nährstoffe den Dünndarm erreichen. Dazu hemmt es sowohl die Nahrungsaufnahme als auch die Magenentleerung. Es bremst den Magen über einen Vagusnerv-Weg. Dieser wirkt auf den oberen Magen und auf den Pylorus, den Schließmuskel am Magenausgang. Die verlangsamte Magenentleerung regelt den Fluss des teilweise verdauten Speisebreis in den Zwölffingerdarm.\n\nÜbersichtsarbeiten deuten zudem auf eine Rolle jenseits der Verdauung hin. In den Studien, die eine Übersichtsarbeit auswertete, verringerten Nahrungsfette über einen CCK-Anstieg Entzündungen im Darm. Das spricht für ein Hormon, das Essen und Verdauen als einen einzigen Prozess koordiniert.\n\n## Wie CCK für Sättigung sorgt\n\nDer wichtigste Weg von CCK ins Gehirn führt über den Vagusnerv. Vagale afferente Neuronen sind ein Hauptziel von CCK. Es handelt sich um sensorische Fasern, die Botschaften vom Darm zum Hirnstamm leiten. Sie verrechnen das CCK-Signal mit anderen Hormonen. Leptin, das Hormon aus dem Fettgewebe, verstärkt die Wirkung von CCK auf diese Neuronen. Ghrelin, das Hungerhormon, schwächt sie dagegen ab.\n\nCCK löst Sättigung aus, indem es über CCK-1-Rezeptoren in spezialisierten Regionen des Rautenhirns wirkt. Außerdem unterdrückt es appetitanregende Peptide im Hypothalamus. Zudem verhindert es, dass Ghrelin bestimmte Neuronen stimuliert. Bildgebende Untersuchungen am Menschen zeigen, dass aufgenommene Fettsäuren den Hirnstamm, den Hypothalamus und den motorischen Kortex aktivieren. Ein CCK-1-Rezeptorblocker hemmt diese Aktivierung.\n\n### Was Infusionsstudien zeigen\n\nFrühe Experimente am Menschen prüften dies, indem sie vor einer Mahlzeit CCK oder ein eng verwandtes Peptid infundierten. In einer Doppelblindstudie erhielten 12 Frauen und 12 Männer Ceruletid, ein strukturell mit CCK verwandtes Peptid. Anschließend durften sie so viel Rührei mit Schinken, Brot und Tee essen, wie sie wollten. Unter der höheren Dosis aßen sie 16,8 % weniger als mit Kochsalzlösung (3725 kJ gegenüber 4340 kJ). Zudem gaben sie weniger Hunger an. Die niedrigere Dosis senkte die Aufnahme nur um 6,6 %, ohne signifikante Veränderungen bei den übrigen Messgrößen.\n\nDer Effekt hatte allerdings seinen Preis. Unter der höheren Dosis verlängerten sich bei den Teilnehmenden auch die Reaktionszeiten, und die psychomotorische Leistung ließ nach. Eine höhere Dosis eines CCK-ähnlichen Signals verringert also die Essensmenge, wirkt aber nicht nur auf den Appetit.\n\n## Was passiert, wenn CCK blockiert wird?\n\nWenn CCK tatsächlich ein Sättigungssignal ist, müsste die Blockade seines Rezeptors dazu führen, dass Menschen mehr essen. Die Ergebnisse am Menschen fallen hier gemischt aus.\n\nMehrere Crossover-Studien untersuchten Loxiglumid bei gesunden Männern. Die Studien waren randomisiert, doppelblind und placebokontrolliert. Loxiglumid führte zu einem leichten Anstieg der Nahrungsaufnahme (7 %), der statistisch nicht signifikant war. Die Kalorienaufnahme stieg dagegen moderat (10 %) und signifikant. Die Teilnehmer verspürten mehr Hunger als unter der Kochsalzinfusion, und das Sättigungsgefühl setzte später ein. Die Autoren werteten dies als weiteren Beleg dafür, dass CCK ein körpereigenes Sättigungssignal ist.\n\nEine Studie mit 7 schlanken und 7 adipösen Frauen fand keinen solchen Effekt. Die Teilnehmerinnen erhielten eine kohlenhydratreiche Mahlzeit. Mit Loxiglumid aßen sie 359 ± 39 g, mit Kochsalzlösung 333 ± 31 g. Der Unterschied war nicht signifikant. Auch die Sättigungswerte veränderten sich nicht.\n\nDie beiden Studien arbeiteten mit unterschiedlichen Teilnehmenden und Protokollen und lassen sich daher nicht direkt vergleichen. Zusammengenommen sprechen sie dafür, dass CCK ein Sättigungssignal unter mehreren ist. Ein alleiniger Hauptschalter ist es nicht.\n\n## CCK, Körpergewicht und Verdauungserkrankungen\n\nWenn CCK die Mahlzeitengröße verringert, warum verhindert es dann nicht einfach eine Gewichtszunahme? Ein Teil der Antwort könnte im Nerv liegen, der seine Botschaft überträgt. Bei Adipositas sprechen vagale afferente Neuronen schwächer auf CCK an. Forschende vermuten, dass diese CCK-Resistenz zu einer veränderten Regulation der Nahrungsaufnahme beitragen könnte.\n\nAutoren von Übersichtsarbeiten halten es für möglich, dass ein besseres Verständnis der CCK-gesteuerten Appetitwege zu Strategien gegen Adipositas und Bulimie führt. Das bleibt bislang ein Forschungsziel.\n\nAuch bei Verdauungserkrankungen spielt CCK eine Rolle. Die verfügbaren Daten sind begrenzt. Ihnen zufolge ist die CCK-Sekretion bei Zöliakie und Bulimia nervosa beeinträchtigt. Ein weiteres Beispiel ist die funktionelle Dyspepsie. Dabei handelt es sich um eine häufige Erkrankung mit mahlzeitenabhängigen Beschwerden im Oberbauch. Hier löste intravenös verabreichtes CCK die Symptome nachweislich erneut aus. Dieser Effekt ließ sich mit Atropin und mit Loxiglumid blockieren. Eine Übersichtsarbeit vermutet, dass eine veränderte Reaktion auf CCK beteiligt sein könnte. Sie könnte zu den Magenfunktionsstörungen beitragen, die manche Patienten zeigen.\n\n## Lässt sich der CCK-Spiegel messen?\n\nViele suchen nach einem „normalen“ CCK-Wert. Zuverlässige CCK-Messverfahren zu entwickeln, hat sich jedoch als schwierig erwiesen. Daher ist das Wissen über die CCK-Sekretion bei Erkrankungen begrenzt.\n\nForschungsstudien vermitteln eine Vorstellung von den Größenordnungen. In der Studie mit 7 gesunden Personen lag das Plasma-CCK nüchtern bei 2,0 ± 0,2 pmol/l. Nach einer standardisierten Testmahlzeit stieg es auf Werte zwischen 4,6 ± 0,6 und 7,3 ± 1,0 pmol/l. Diese Zahlen stammen aus einer kleinen Gruppe, die mit einem bestimmten Messverfahren untersucht wurde. Zur Beurteilung eines individuellen Befunds sollten sie deshalb nicht herangezogen werden.\n\nIn der klinischen Medizin dient CCK überwiegend als Testsubstanz und wird seltener selbst gemessen. Die Stimulation mit von außen zugeführtem CCK hat sich in diagnostischen Tests bewährt. Das gilt für Erkrankungen der Gallenblase und der Bauchspeicheldrüse sowie für das medulläre Schilddrüsenkarzinom.\n\n## Was das für Ihren Appetit bedeutet\n\nDirekt hochregeln lässt sich CCK nicht. Sie können aber so essen, dass das System wie vorgesehen arbeiten kann.\n\n- **Bauen Sie Eiweiß und etwas Fett in Ihre Mahlzeiten ein.** Genau diese Nährstoffe lösen die CCK-Ausschüttung aus den I-Zellen des Darms aus.\n- **Achten Sie auf die Fettart.** In der Studie mit 12 Männern war Olivenöl das einzige getestete Fett, das CCK anhob.\n- **Essen Sie in einem Tempo, das den Signalen Zeit lässt.** CCK wirkt noch während der Mahlzeit. Es verlangsamt die Magenentleerung und meldet über den Vagusnerv Sättigung.\n- **Verlassen Sie sich nicht auf ein einzelnes Hormon.** Die CCK-Blockade erhöhte in einer Studie die Kalorienaufnahme, in einer anderen zeigte sie keine Wirkung. Andere Signale spielen also eindeutig ebenfalls eine Rolle.\n\nWelche Lebensmittel halten den Hunger am längsten in Schach? Unser [Ranking zum Sättigungsindex](/de/satiety-index-foods-hunger-control-ranking-2026) ergänzt den hier beschriebenen Blick auf die Hormone sinnvoll.",
+      "key_stats": [
+        {
+          "label": "Jahr der Entdeckung von CCK (über die Gallenblasenkontraktion)",
+          "value": "1928",
+          "source": "Review: Cholecystokinin (CCK biology and appetite)"
+        },
+        {
+          "label": "Plasma-CCK nüchtern vs. nach einer Testmahlzeit (7 gesunde Personen)",
+          "value": "2,0 pmol/l, Anstieg auf 4,6–7,3 pmol/l",
+          "source": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man"
+        },
+        {
+          "label": "Gallenblasenvolumen nach oraler Nahrungsaufnahme",
+          "value": "Maximale Abnahme auf 12 ± 4 %",
+          "source": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man"
+        },
+        {
+          "label": "Geringere Essensmenge unter höher dosiertem Ceruletid (CCK-ähnliches Peptid)",
+          "value": "16,8 % (3725 vs. 4340 kJ)",
+          "source": "Ceruletide decreases food intake in non-obese man"
+        },
+        {
+          "label": "Anstieg der Kalorienaufnahme bei Blockade der CCK-A-Rezeptoren",
+          "value": "10 %",
+          "source": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Was bewirkt das Hormon CCK?",
+          "answer": "Cholecystokinin lässt die Gallenblase kontrahieren, regt die Verdauungsenzyme der Bauchspeicheldrüse an und verlangsamt die Magenentleerung. Außerdem signalisiert es dem Gehirn über den Vagusnerv Sättigung. Seine Wirkung auf Nahrungsaufnahme und Magenentleerung hilft, die Zufuhr von Nährstoffen in den Dünndarm zu steuern."
+        },
+        {
+          "question": "Wo wird Cholecystokinin gebildet?",
+          "answer": "CCK wird von endokrinen Zellen des oberen Dünndarms ausgeschüttet. Diese Darmzellen werden I-Zellen genannt. CCK wirkt außerdem als Botenstoff in Nervenzellen und ist das häufigste Neuropeptid im menschlichen Gehirn."
+        },
+        {
+          "question": "Welche Lebensmittel erhöhen CCK?",
+          "answer": "Nahrungsfett und Eiweiß sind die wichtigsten Auslöser der CCK-Ausschüttung. In einer Studie mit 12 gesunden Männern hob Olivenöl den CCK-Spiegel an. Karotten allein und das kurzkettige Fett Tributyrin taten dies nicht."
+        },
+        {
+          "question": "Hilft CCK beim Abnehmen?",
+          "answer": "In Laborstudien verringerte die Infusion CCK-ähnlicher Peptide die Menge, die Menschen bei einer Testmahlzeit aßen. Unter der höheren Ceruletid-Dosis waren es zum Beispiel 16,8 % weniger. Bei Adipositas sprechen die Vagusnerven jedoch schwächer auf CCK an. Autoren von Übersichtsarbeiten halten es für möglich, dass ein besseres Verständnis der Appetitsteuerung durch CCK künftig zu Strategien gegen Adipositas führt."
+        },
+        {
+          "question": "Was ist ein normaler CCK-Wert?",
+          "answer": "Zuverlässige CCK-Messverfahren sind schwer zu entwickeln, daher ist das Wissen über die CCK-Sekretion bei Erkrankungen begrenzt. In einer kleinen Studie lag das Plasma-CCK nüchtern bei 2,0 pmol/l. Nach einer Testmahlzeit stieg es auf 4,6 bis 7,3 pmol/l."
+        },
+        {
+          "question": "Ist CCK dasselbe wie GLP-1?",
+          "answer": "Nein. Beide sind Darmhormone, die mit Sättigung zusammenhängen, aber es sind getrennte Signale. In einer Studie erhöhte ein Öl mit mittelkettigen Fettsäuren GLP-1 etwa so stark wie Olivenöl. CCK stieg dabei jedoch nicht an."
+        }
+      ],
+      "comparison_table": {
+        "title": "Wichtige Studien am Menschen zu CCK, Verdauung und Nahrungsaufnahme",
+        "headers": [
+          "Studie",
+          "Teilnehmende",
+          "Untersucht wurde",
+          "Wichtigstes Ergebnis"
+        ],
+        "rows": [
+          [
+            "Ceruletid-Infusionsstudie",
+            "12 Frauen, 12 Männer, nicht adipös",
+            "Ceruletid-Infusion (CCK-ähnliches Peptid) vor einer frei wählbaren Mahlzeit",
+            "Höhere Dosis: 16,8 % weniger gegessen (3725 vs. 4340 kJ), weniger Hunger, längere Reaktionszeiten; niedrigere Dosis: 6,6 % weniger, keine signifikanten Veränderungen"
+          ],
+          [
+            "Loxiglumid-Crossover-Studien bei Männern",
+            "Gesunde Männer",
+            "CCK-A-Rezeptorblocker Loxiglumid vs. Kochsalzlösung",
+            "Nahrungsaufnahme +7 % (nicht signifikant), Kalorienaufnahme +10 % (signifikant), mehr Hunger, verzögerte Sättigung"
+          ],
+          [
+            "Loxiglumid-Studie bei schlanken und adipösen Frauen",
+            "7 schlanke und 7 adipöse Frauen",
+            "Loxiglumid vs. Kochsalzlösung vor einer kohlenhydratreichen Mahlzeit",
+            "Keine signifikante Veränderung: 359 ± 39 g vs. 333 ± 31 g gegessen"
+          ],
+          [
+            "Crossover-Studie zu Nahrungsfetten",
+            "12 gesunde Männer",
+            "Karottenmahlzeiten mit unterschiedlichen Fetten",
+            "Nur Olivenöl hob CCK an; Karotten allein und Tributyrin hoben keines der gemessenen Hormone an"
+          ],
+          [
+            "CCK-Infusion in mahlzeitentypischen Konzentrationen",
+            "7 gesunde Personen",
+            "Testmahlzeit und CCK-Infusion",
+            "CCK nüchtern 2,0 pmol/l, nach der Mahlzeit 4,6–7,3 pmol/l; CCK auf Mahlzeitenniveau steigerte Trypsin- und Galleabgabe"
+          ],
+          [
+            "Blockadestudie zu Gallenblase und Bauchspeicheldrüse",
+            "Freiwillige Probanden",
+            "CCK-Blockade vs. cholinerge Blockade nach dem Essen",
+            "Gallenblase verkleinerte sich auf 12 ± 4 % ihres Volumens; CCK-Blockade hob die Kontraktion auf und senkte die Enzymsekretion um 30 %"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2007",
+          "url": "https://doi.org/10.1097/MED.0b013e3280122850"
+        },
+        {
+          "title": "Cholecystokinin",
+          "source": "Best practice & research. Clinical endocrinology & metabolism, 2004",
+          "url": "https://doi.org/10.1016/j.beem.2004.07.002"
+        },
+        {
+          "title": "Cholecystokinin.",
+          "source": "Current opinion in endocrinology, diabetes, and obesity, 2012",
+          "url": "https://doi.org/10.1097/MED.0b013e32834eb77d"
+        },
+        {
+          "title": "Role of cholecystokinin in the regulation of gastrointestinal motility.",
+          "source": "The Journal of nutrition, 1994",
+          "url": "https://doi.org/10.1093/jn/124.suppl_8.1334S"
+        },
+        {
+          "title": "Physiological plasma concentrations of cholecystokinin stimulate pancreatic enzyme secretion and gallbladder contraction in man.",
+          "source": "Life sciences, 1985",
+          "url": "https://doi.org/10.1016/0024-3205(85)90638-1"
+        },
+        {
+          "title": "Postprandial control of gallbladder contraction and exocrine pancreatic secretion in man.",
+          "source": "European journal of clinical investigation, 1992",
+          "url": "https://doi.org/10.1111/j.1365-2362.1992.tb01453.x"
+        },
+        {
+          "title": "The 2-monoacylglycerol moiety of dietary fat appears to be responsible for the fat-induced release of GLP-1 in humans.",
+          "source": "The American journal of clinical nutrition, 2015",
+          "url": "https://doi.org/10.3945/ajcn.115.106799"
+        },
+        {
+          "title": "Ceruletide decreases food intake in non-obese man.",
+          "source": "Peptides, 1982",
+          "url": "https://doi.org/10.1016/0196-9781(82)90158-9"
+        },
+        {
+          "title": "Loxiglumide, a CCK-A receptor antagonist, stimulates calorie intake and hunger feelings in humans.",
+          "source": "American journal of physiology. Regulatory, integrative and comparative physiology, 2001",
+          "url": "https://doi.org/10.1152/ajpregu.2001.280.4.R1149"
+        },
+        {
+          "title": "Satiety effects of the type A CCK receptor antagonist loxiglumide in lean and obese women.",
+          "source": "Biological psychiatry, 1995",
+          "url": "https://doi.org/10.1016/0006-3223(94)00136-Q"
+        },
+        {
+          "title": "Cholecystokinin hyperresponsiveness in functional dyspepsia.",
+          "source": "World journal of gastroenterology, 2006",
+          "url": "https://doi.org/10.3748/wjg.v12.i17.2688"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    }
+  },
+  "generated_at": "2026-11-11T02:28:48.000Z",
+  "updated_at": "2026-11-11T02:28:48.000Z"
+}

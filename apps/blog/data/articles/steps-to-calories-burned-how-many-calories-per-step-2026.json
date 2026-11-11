@@ -1,0 +1,1564 @@
+{
+  "article_id": "BLOG_STEPS_TO_CALORIES_BURNED_HOW_MANY_CALORIES_PER_STEP_2026",
+  "slug": "steps-to-calories-burned-how-many-calories-per-step-2026",
+  "category": "Exercise & Activity",
+  "category_emoji": "💪",
+  "type": "guide",
+  "reading_time_min": 7,
+  "primary_keyword_en": "calories burned by steps",
+  "primary_keyword_ko": "걸음 수 칼로리",
+  "langs": {
+    "en": {
+      "title": "Calories Burned by Steps: What 15,000 Steps Burns",
+      "short_title": "Calories Burned by 15,000 Steps",
+      "short_description": "How to estimate the calories burned by steps, including 15,000 steps, from body weight, distance and the factors that change the result.",
+      "meta_description": "Calories burned by steps depend on body weight and distance. See the formula, what 15,000 steps burns per kg, and why trackers often get it wrong.",
+      "tldr": "Using a guideline conversion of about 1,575 steps per km (3,150 steps per 2 km), 15,000 steps covers roughly 9.5 km (15,000 ÷ 1,575). Multiplying that distance by a field-measured walking cost of 0.96 kcal per kg per km gives about 9.1 kcal per kilogram of body weight (9.52 × 0.96 ≈ 9.14). Multiply that figure by your weight in kilograms for a personal estimate. Speed, hills, uneven ground and carried weight push the real number up or down.",
+      "body_md": "## The short answer: calories burned by 15,000 steps\n\nCombining two published figures, walking 15,000 steps works out to roughly **9.1 kcal for every kilogram you weigh** (15,000 ÷ 1,575 ≈ 9.52 km, then 9.52 × 0.96 ≈ 9.14). To get your own number, multiply 9.1 by your body weight in kilograms.\n\nThe calculation has three parts:\n\n- **Distance:** 15,000 steps is about 9.5 km (15,000 ÷ 1,575 steps per km), using a step-to-distance conversion from a walking recommendation.\n- **Energy per distance:** walking outdoors cost about 0.96 kcal per kilogram per kilometre.\n- **Result:** 9.52 km × 0.96 ≈ 9.14 kcal per kg.\n\nThe number is a sensible starting estimate, not a precise reading. The rest of this guide shows where it comes from, how to adjust it for your own stride and routes, and why your watch may show something quite different.\n\n## Where the per-step numbers come from\n\nTwo things determine calories burned by steps: how far each step carries you, and how much energy each kilometre of walking costs your body.\n\n### Energy per kilometre\n\nA field study measured habitual commuting pedestrians (10 men and 10 women, middle-aged) during their real walk to work around Greater Stockholm, rather than on a treadmill. Their energy expenditure amounted to **0.96 kcal · kg⁻¹ · km⁻¹**. Men and women had similar absolute energy demands for a given distance.\n\nThese commuters walked briskly, at average speeds of 5.7 km/h for men and 5.9 km/h for women. That pace corresponded to about 46% of maximal oxygen uptake and MET values of 6.2 and 6.5. The researchers place this in the lower part of the moderate relative intensity range.\n\n### Steps per kilometre\n\nA cross-sectional study of 226 Chinese young adults with a mean age of 21.7 measured walking over ground. It translated activity guidelines into walking targets: 30 minutes at 105 steps per minute, which equals **3,150 steps or 2 km**.\n\nDividing gives a working ratio: 3,150 ÷ 2 = **1,575 steps per km**, or an average step length of about 0.63 m (1,000 m ÷ 1,575). This ratio is a conversion built into a walking recommendation, not a direct measurement of anyone's stride, so treat it as a default to replace with your own figure.\n\nYour own ratio may differ. The same study found that, at the same walking speed, women took more steps per minute than men. Shorter steps mean more steps per kilometre.\n\n## How to calculate calories for any step count\n\nThe method works for any step total.\n\n1. **Convert steps to distance:** km = steps ÷ 1,575 (or use your own steps-per-km figure).\n2. **Convert distance to energy:** kcal = km × 0.96 × body weight in kg.\n\nPut together, the shortcut is **kcal ≈ steps × 0.00061 × body weight (kg)**, because 0.96 ÷ 1,575 ≈ 0.00061.\n\nA few reference points:\n\n- **1,000 steps:** 0.635 km × 0.96 ≈ 0.61 kcal per kg\n- **10,000 steps:** 6.35 km × 0.96 ≈ 6.1 kcal per kg\n- **15,000 steps:** 9.52 km × 0.96 ≈ 9.1 kcal per kg\n\n### Personalise the stride figure\n\nThe biggest easy improvement is replacing 1,575 with your own number. Walk a route of known length at your normal pace and note the step count. Divide steps by kilometres. If you take fewer steps per kilometre than 1,575, the same step count covers more distance, so the formula gives a higher estimate. If you take more steps per kilometre, it gives a lower one.\n\nBecause the energy figure is expressed per kilogram, the estimate scales directly with body weight in the formula.\n\n## Why your real number may be higher or lower\n\nThe 0.96 figure describes brisk commuting on city routes. Several factors shift it.\n\n### Speed\n\nA study combining experiments with a minimal walking model found that the energy cost of walking per distance is highly sensitive to speed. For running, the cost per distance stays nearly constant across speeds. For walking it does not, so a slow amble and a fast stride over the same 15,000 steps will not cost the same.\n\n### Uneven ground\n\nA study of 10 healthy adults walking on synthetic uneven terrain at four speeds between 0.8 and 1.4 m/s found that net metabolic rate rose roughly with the square of terrain bumpiness and with speed cubed. Trails, cobbles and broken pavement all add cost compared with smooth ground.\n\n### Treadmill versus outdoors\n\nIn the Stockholm commuter study, walking in the field demanded about 30% more energy per km than level treadmill walking. The study's summary does not give a separate treadmill value, so treat 0.96 as an outdoor figure and expect a level treadmill walk of the same length to come in lower.\n\n### Load, hills and body mass\n\nA review of soldier load carriage found that the energy cost of walking with backpack loads rises with the weight carried, body mass, walking speed and grade. Terrain type also matters. Where the load sits matters too: each kilogram added to the foot increased energy expenditure by 7% to 10%, compared with 4% per kilogram on the thigh. Heavy shoes, a loaded backpack or a hilly route all raise the per-step cost.\n\n### Total versus active calories\n\nThe study reports 0.96 kcal per kg per km as energy expenditure during walking, without stating in its summary whether resting energy was subtracted. Keep that in mind when comparing the formula with a device readout. If your screen shows more than one calorie number for the same walk, [this explainer on active versus total calories](/en/active-calories-vs-total-calories-burned-tracking-2026) covers the difference.\n\n## How long 15,000 steps takes, and how hard it is\n\nTime depends on cadence, the number of steps per minute.\n\n- At **100 steps per minute:** 15,000 ÷ 100 = 150 minutes\n- At **105 steps per minute:** 15,000 ÷ 105 ≈ 143 minutes\n\nSo 15,000 steps is roughly two and a half hours of walking, whether in one block or across a day.\n\nCadence also gives a rough idea of intensity. A study of pregnant women notes that 100 steps per minute is the established marker of the moderate-intensity threshold of 3 METs in non-pregnant people. The study found the 3 MET cut-off held in pregnancy too. In the Chinese young adults study, the cut-points were 105 steps per minute for 3 METs and 130 steps per minute for 6 METs.\n\nIn practice, steps taken at a brisk, purposeful pace cost more per minute than slow pottering steps. Brisk walking also fits more distance, and more calories, into the same amount of time.\n\n## What your watch or phone reports\n\nIt is tempting to read the calorie number straight off a wearable. The research suggests caution.\n\n- A systematic review of 65 articles on wrist-worn trackers found that, for energy expenditure, the mean absolute percentage error was **above 30% for all brands**. The review concluded that none of the tested devices measured energy expenditure accurately.\n- A lab study tested seven wrist-worn devices against indirect calorimetry in 60 volunteers. **No device achieved an energy expenditure error below 20 percent.** Errors were highest for walking.\n\nStep counts hold up better. The same review found that the Fitbit Charge models showed good accuracy for step counts. A reasonable approach is to trust the step count more than the calorie figure. If you want a second estimate, run the steps through the distance-and-weight formula above. The [wearable calorie accuracy guide](/en/wearable-calorie-burn-accuracy-overestimation-2026) goes into why the calorie estimates drift.\n\n## Is 15,000 steps worth it beyond calories?\n\nCalories are only part of the story. Several large meta-analyses link daily steps with health outcomes, and 15,000 steps sits above the ranges where most of the measured benefit appears.\n\n- A meta-analysis of 15 international cohorts (47,471 adults) found progressively lower mortality risk with more steps. The risk levelled off at around 6,000–8,000 steps per day in adults aged 60 and older, and 8,000–10,000 in those younger than 60.\n- A dose-response meta-analysis found that, compared with 2,000 steps per day, 7,000 steps per day was associated with a 47% lower risk of all-cause mortality.\n\nThese are observational associations, and the curves flatten at higher counts. Going from 10,000 to 15,000 steps is a reasonable way to raise energy expenditure. The data do not suggest it is necessary for the mortality benefits seen at more moderate counts. For background on where the popular target came from, see [the origin of the 10,000-steps goal](/en/walking-10000-steps-origin-health-benefits-2026).\n\n## Using step calories for weight management\n\nA few practical points follow from the evidence.\n\n**Use the estimate as a range, not a ledger.** Speed, terrain, load and stride all move the true figure. Treat 9.1 kcal per kg for 15,000 steps as a midpoint for brisk outdoor walking. Expect less on a flat treadmill and more on hilly or rough routes.\n\n**Walking volume adds up over time.** In the Stockholm study, regular walking commutes produced a total weekly energy expenditure of about 1,570 kcal for men and 1,040 kcal for women. Over the year, participants made about 385 trips covering about 800 km. Steady, repeated walking can account for a meaningful share of weekly energy use.\n\n**Build up gradually.** Jumping from a low daily count to 15,000 steps adds a lot of time on your feet. Raising the count in steps lets you notice how your appetite, energy and joints respond.\n\n**Do not let the calorie number drive eating decisions on its own.** Wrist-worn calorie estimates carry large errors. Watching trends in weight and waist measurements over weeks gives a more reliable signal than a single day's readout.\n\nThe simplest summary: count your steps with a device, convert them to distance using your own stride, and multiply by 0.96 and your body weight. That gives a reasonable estimate of calories burned by steps that you can check against your own results.",
+      "key_stats": [
+        {
+          "label": "Energy cost of outdoor walking",
+          "value": "0.96 kcal per kg per km",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Field walking vs level treadmill",
+          "value": "About 30% more energy per km outdoors",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Steps in 30 minutes at 105 steps/min",
+          "value": "3,150 steps or 2 km",
+          "source": "Cross-sectional study of Chinese young adults"
+        },
+        {
+          "label": "Wrist tracker calorie error",
+          "value": "Mean absolute percentage error above 30% for all brands",
+          "source": "Systematic review of wrist-worn activity trackers"
+        },
+        {
+          "label": "Best wrist-worn calorie accuracy in lab test",
+          "value": "No device below 20% error",
+          "source": "Lab validation of seven wrist-worn devices"
+        }
+      ],
+      "faq": [
+        {
+          "question": "How many calories do 15,000 steps burn?",
+          "answer": "About 9.1 kcal per kilogram of body weight for brisk outdoor walking, by calculation. Multiply 9.1 by your weight in kg. The figure comes from 15,000 ÷ 1,575 ≈ 9.52 km, multiplied by a measured cost of 0.96 kcal per kg per km (9.52 × 0.96 ≈ 9.14)."
+        },
+        {
+          "question": "How many calories does one step burn?",
+          "answer": "Roughly 0.00061 kcal per kilogram of body weight, which is 0.96 kcal per kg per km divided by about 1,575 steps per km. Per 1,000 steps that is about 0.61 kcal per kg. Faster speeds, hills, uneven ground and carried loads raise the energy cost of walking."
+        },
+        {
+          "question": "How far is 15,000 steps?",
+          "answer": "Roughly 9.5 km (15,000 ÷ 1,575), using a walking recommendation that equates 3,150 steps with 2 km. That conversion is not a measured stride, and your distance depends on your own step length. At the same speed, women in that study took more steps per minute than men."
+        },
+        {
+          "question": "How long does it take to walk 15,000 steps?",
+          "answer": "About 150 minutes at 100 steps per minute, or about 143 minutes at 105 steps per minute. Brisker cadences shorten the time. A cadence of around 100 steps per minute is commonly used as the threshold for moderate intensity."
+        },
+        {
+          "question": "Are smartwatch calorie counts for walking accurate?",
+          "answer": "Not very. A systematic review found energy expenditure errors above 30% for all wrist-tracker brands. In a lab study, no device reached an error below 20 percent, and errors were highest during walking. Step counts tend to be more reliable than the calorie figure."
+        },
+        {
+          "question": "Do I burn more calories walking outside than on a treadmill?",
+          "answer": "Usually yes. In a field study of commuters, walking outdoors demanded about 30% more energy per km than level treadmill walking. Uneven terrain, hills and carried loads add further cost."
+        }
+      ],
+      "comparison_table": {
+        "title": "Estimated calories burned by steps (brisk outdoor walking)",
+        "headers": [
+          "Daily steps",
+          "Approx. distance (steps ÷ 1,575)",
+          "kcal per kg body weight (km × 0.96)",
+          "Context"
+        ],
+        "rows": [
+          [
+            "3,150",
+            "2.0 km",
+            "1.92",
+            "30 minutes at 105 steps/min"
+          ],
+          [
+            "6,000",
+            "3.81 km",
+            "3.66",
+            "Daily transport-steps recommendation from a commuter study"
+          ],
+          [
+            "7,000",
+            "4.44 km",
+            "4.27",
+            "Linked with 47% lower all-cause mortality vs 2,000 steps/day"
+          ],
+          [
+            "10,000",
+            "6.35 km",
+            "6.10",
+            "The widely promoted daily target"
+          ],
+          [
+            "15,000",
+            "9.52 km",
+            "9.14",
+            "About 143 minutes at 105 steps/min"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Perspectives on exercise intensity, volume, step characteristics and health outcomes in walking for transport.",
+          "source": "Frontiers in public health, 2022",
+          "url": "https://doi.org/10.3389/fpubh.2022.911863"
+        },
+        {
+          "title": "Step rate-determined walking intensity and walking recommendation in Chinese young adults: a cross-sectional study.",
+          "source": "BMJ open, 2013",
+          "url": "https://doi.org/10.1136/bmjopen-2012-001801"
+        },
+        {
+          "title": "The energy cost of walking is sensitive to speed but not gravity; for running, it's the other way around: model and experiment.",
+          "source": "The Journal of experimental biology, 2026",
+          "url": "https://doi.org/10.1242/jeb.250582"
+        },
+        {
+          "title": "The energetic cost of human walking as a function of uneven terrain amplitude.",
+          "source": "The Journal of experimental biology, 2025",
+          "url": "https://doi.org/10.1242/jeb.249840"
+        },
+        {
+          "title": "Soldier load carriage: historical, physiological, biomechanical, and medical aspects.",
+          "source": "Military medicine, 2004",
+          "url": "https://doi.org/10.7205/milmed.169.1.45"
+        },
+        {
+          "title": "Walking Cadence during Moderate-Intensity Physical Activity in Pregnant Women.",
+          "source": "International journal of environmental research and public health, 2021",
+          "url": "https://doi.org/10.3390/ijerph18126593"
+        },
+        {
+          "title": "Accuracy and Acceptability of Wrist-Wearable Activity-Tracking Devices: Systematic Review of the Literature.",
+          "source": "Journal of medical Internet research, 2022",
+          "url": "https://doi.org/10.2196/30791"
+        },
+        {
+          "title": "Accuracy in Wrist-Worn, Sensor-Based Measurements of Heart Rate and Energy Expenditure in a Diverse Cohort.",
+          "source": "Journal of personalized medicine, 2017",
+          "url": "https://doi.org/10.3390/jpm7020003"
+        },
+        {
+          "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts.",
+          "source": "The Lancet. Public health, 2022",
+          "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+        },
+        {
+          "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis.",
+          "source": "The Lancet. Public health, 2025",
+          "url": "https://doi.org/10.1016/S2468-2667(25)00164-1"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "ko": {
+      "title": "걸음 수 칼로리 계산법: 15,000보 걸으면 몇 kcal?",
+      "short_title": "15,000보 소모 칼로리",
+      "short_description": "걸음 수로 소모 칼로리를 추정하는 방법을 정리했습니다. 15,000보를 기준으로 체중, 거리, 결과를 바꾸는 요인을 함께 설명합니다.",
+      "meta_description": "걸음 수 칼로리는 체중과 거리에 따라 달라집니다. 계산 공식, 15,000보 걸으면 체중 1kg당 소모되는 칼로리, 스마트워치 수치가 자주 틀리는 이유를 확인하세요.",
+      "tldr": "걷기 권장 기준의 환산값인 1km당 약 1,575보(2km당 3,150보)를 적용하면 15,000보는 약 9.5km입니다(15,000 ÷ 1,575). 이 거리에 현장에서 측정한 걷기 에너지 비용인 1km당 체중 1kg당 0.96kcal를 곱하면 체중 1kg당 약 9.1kcal가 나옵니다(9.52 × 0.96 ≈ 9.14). 여기에 자신의 체중(kg)을 곱하면 개인별 추정치가 됩니다. 속도, 언덕, 고르지 않은 지면, 짊어진 무게에 따라 실제 수치는 올라가거나 내려갑니다.",
+      "body_md": "## 핵심 정리: 15,000보로 소모되는 칼로리\n\n발표된 두 가지 수치를 조합하면 15,000보를 걸었을 때 소모되는 열량은 **체중 1kg당 약 9.1kcal**입니다(15,000 ÷ 1,575 ≈ 9.52km, 이어서 9.52 × 0.96 ≈ 9.14). 내 수치를 알고 싶다면 9.1에 자신의 체중(kg)을 곱하면 됩니다.\n\n계산은 세 단계로 이뤄집니다.\n\n- **거리:** 15,000보는 약 9.5km입니다(15,000 ÷ 1km당 1,575보). 걷기 권장 기준에 쓰인 걸음 수-거리 환산값을 적용했습니다.\n- **거리당 에너지:** 야외 걷기에 드는 에너지는 1km당 체중 1kg당 약 0.96kcal였습니다.\n- **결과:** 9.52km × 0.96 ≈ 체중 1kg당 9.14kcal입니다.\n\n이 숫자는 출발점으로 삼기 좋은 추정치일 뿐, 정밀한 측정값은 아닙니다. 아래에서는 이 숫자의 근거, 자신의 보폭과 걷는 경로에 맞게 조정하는 방법, 그리고 스마트워치가 전혀 다른 숫자를 보여줄 수 있는 이유를 차례로 살펴봅니다.\n\n## 걸음당 수치는 어디서 나왔을까\n\n걸음 수로 소모되는 칼로리는 두 가지로 결정됩니다. 한 걸음에 얼마나 나아가는지, 그리고 1km를 걸을 때 몸이 에너지를 얼마나 쓰는지입니다.\n\n### 1km당 에너지\n\n한 현장 연구는 평소 걸어서 출근하는 중년 보행자(남성 10명, 여성 10명)를 러닝머신이 아닌 스톡홀름 광역권의 실제 출근길에서 측정했습니다. 이들의 에너지 소비량은 **0.96kcal · kg⁻¹ · km⁻¹**이었습니다. 같은 거리를 걸을 때 남녀의 절대 에너지 요구량은 비슷했습니다.\n\n이 출퇴근자들은 평균 시속 남성 5.7km, 여성 5.9km로 빠르게 걸었습니다. 이 속도는 최대 산소 섭취량의 약 46%, MET 값으로는 6.2와 6.5에 해당했습니다. 연구진은 이를 중강도 상대 강도 범위 중 낮은 쪽으로 분류했습니다.\n\n### 1km당 걸음 수\n\n평균 연령 21.7세의 중국 청년 226명을 대상으로 한 단면 연구는 평지 걷기를 측정했습니다. 이 연구는 신체활동 지침을 걷기 목표로 환산해, 분당 105보로 30분 걷기를 **3,150보 또는 2km**로 제시했습니다.\n\n나누어 보면 실용적인 비율이 나옵니다. 3,150 ÷ 2 = **1km당 1,575보**이고, 평균 보폭으로는 약 0.63m입니다(1,000m ÷ 1,575). 이 비율은 걷기 권장 기준에 들어 있는 환산값이지 누군가의 보폭을 직접 잰 값이 아닙니다. 기본값으로 쓰되, 자신의 수치로 바꿔 넣는 것이 좋습니다.\n\n내 비율은 다를 수 있습니다. 같은 연구에서 같은 속도로 걸을 때 여성이 남성보다 분당 걸음 수가 더 많았습니다. 보폭이 짧을수록 1km당 걸음 수는 늘어납니다.\n\n## 어떤 걸음 수든 칼로리 계산하는 법\n\n이 방법은 걸음 수가 얼마든 똑같이 적용할 수 있습니다.\n\n1. **걸음 수를 거리로 환산:** km = 걸음 수 ÷ 1,575 (또는 자신의 1km당 걸음 수)\n2. **거리를 에너지로 환산:** kcal = km × 0.96 × 체중(kg)\n\n둘을 합치면 간단식은 **kcal ≈ 걸음 수 × 0.00061 × 체중(kg)**입니다. 0.96 ÷ 1,575 ≈ 0.00061이기 때문입니다.\n\n몇 가지 기준값은 다음과 같습니다.\n\n- **1,000보:** 0.635km × 0.96 ≈ 체중 1kg당 0.61kcal\n- **10,000보:** 6.35km × 0.96 ≈ 체중 1kg당 6.1kcal\n- **15,000보:** 9.52km × 0.96 ≈ 체중 1kg당 9.1kcal\n\n### 내 보폭에 맞추기\n\n가장 손쉬우면서 효과가 큰 개선은 1,575를 자신의 수치로 바꾸는 것입니다. 거리를 알고 있는 경로를 평소 속도로 걸으면서 걸음 수를 기록해 보세요. 걸음 수를 km로 나누면 됩니다. 1km당 걸음 수가 1,575보다 적다면 같은 걸음 수로 더 먼 거리를 걷는 셈이므로 공식의 추정치가 높아집니다. 1km당 걸음 수가 더 많다면 추정치는 낮아집니다.\n\n에너지 수치가 체중 1kg당 값이므로, 이 공식에서 추정치는 체중에 정비례합니다.\n\n## 실제 수치가 더 높거나 낮을 수 있는 이유\n\n0.96이라는 값은 도심 경로를 빠르게 걷는 출퇴근을 기준으로 합니다. 여러 요인이 이 값을 바꿉니다.\n\n### 속도\n\n실험과 최소 보행 모델을 결합한 연구에 따르면, 걷기의 거리당 에너지 비용은 속도에 매우 민감합니다. 달리기는 속도가 달라도 거리당 비용이 거의 일정하지만 걷기는 그렇지 않습니다. 그래서 같은 15,000보라도 느긋하게 거닐 때와 성큼성큼 빠르게 걸을 때의 소모량은 같지 않습니다.\n\n### 고르지 않은 지면\n\n건강한 성인 10명이 인공 요철 지형을 초속 0.8~1.4m의 네 가지 속도로 걸은 연구에서, 순 대사율은 대략 지면 요철 정도의 제곱, 그리고 속도의 세제곱에 비례해 증가했습니다. 산길, 돌 포장길, 깨진 보도는 모두 평탄한 길보다 에너지를 더 많이 씁니다.\n\n### 러닝머신과 야외 걷기\n\n스톡홀름 출퇴근자 연구에서 현장 걷기는 평지 러닝머신 걷기보다 1km당 약 30% 더 많은 에너지가 들었습니다. 연구 요약에는 러닝머신 수치가 따로 나와 있지 않으므로, 0.96은 야외 수치로 보고 같은 거리의 평지 러닝머신 걷기는 이보다 낮게 나온다고 생각하는 것이 좋습니다.\n\n### 짐, 언덕, 체중\n\n군인의 짐 운반에 관한 리뷰에 따르면, 배낭을 메고 걷는 에너지 비용은 운반하는 무게, 체중, 걷는 속도, 경사도에 따라 늘어납니다. 지형의 종류도 영향을 줍니다. 무게가 실리는 위치도 중요합니다. 발에 1kg을 더할 때마다 에너지 소비가 7~10% 늘어난 반면, 허벅지에는 1kg당 4%였습니다. 무거운 신발, 짐이 든 배낭, 언덕이 많은 경로는 모두 걸음당 소모량을 높입니다.\n\n### 총 칼로리와 활동 칼로리\n\n이 연구는 1km당 체중 1kg당 0.96kcal를 걷는 동안의 에너지 소비량으로 보고했으며, 요약에서는 안정 시 에너지를 뺀 값인지 밝히지 않았습니다. 공식을 기기 수치와 비교할 때 이 점을 염두에 두세요. 같은 걷기에 대해 화면에 칼로리 수치가 두 개 이상 표시된다면 [활동 칼로리와 총 칼로리의 차이를 다룬 글](/ko/active-calories-vs-total-calories-burned-tracking-2026)을 참고하세요.\n\n## 15,000보는 얼마나 걸리고, 얼마나 힘들까\n\n걸리는 시간은 케이던스, 즉 분당 걸음 수에 따라 달라집니다.\n\n- **분당 100보**일 때: 15,000 ÷ 100 = 150분\n- **분당 105보**일 때: 15,000 ÷ 105 ≈ 143분\n\n한 번에 걷든 하루에 나눠 걷든, 15,000보는 대략 두 시간 반 정도의 걷기입니다.\n\n케이던스로 운동 강도도 대략 가늠할 수 있습니다. 임신부를 대상으로 한 연구는 분당 100보가 임신하지 않은 사람에서 중강도 기준인 3METs를 나타내는 확립된 지표라고 설명합니다. 이 연구에서는 임신 중에도 3MET 기준이 유효했습니다. 중국 청년 연구에서는 3METs의 기준이 분당 105보, 6METs의 기준이 분당 130보였습니다.\n\n실제로 목적을 갖고 빠르게 걷는 걸음은 느릿느릿 걷는 걸음보다 분당 소모량이 큽니다. 빠르게 걸으면 같은 시간 동안 더 먼 거리를 걷게 되어 칼로리도 더 많이 씁니다.\n\n## 스마트워치나 휴대폰 수치는 믿을 만할까\n\n웨어러블에 뜬 칼로리 숫자를 그대로 믿고 싶어지지만, 연구 결과는 신중하라고 말합니다.\n\n- 손목형 트래커에 관한 논문 65편을 분석한 체계적 문헌고찰에서 에너지 소비량의 평균 절대 백분율 오차는 **모든 브랜드에서 30%를 넘었습니다**. 연구진은 시험한 기기 중 어느 것도 에너지 소비량을 정확하게 측정하지 못한다고 결론 내렸습니다.\n- 한 실험실 연구는 자원자 60명을 대상으로 손목형 기기 7종을 간접 열량 측정법과 비교했습니다. **에너지 소비량 오차가 20% 미만인 기기는 하나도 없었습니다.** 오차는 걷기에서 가장 컸습니다.\n\n걸음 수는 그보다 정확합니다. 같은 문헌고찰에서 Fitbit Charge 모델들은 걸음 수에서 좋은 정확도를 보였습니다. 칼로리 수치보다 걸음 수를 더 믿는 것이 합리적입니다. 다른 추정치가 필요하다면 걸음 수를 위의 거리·체중 공식에 넣어 보세요. 칼로리 추정치가 왜 어긋나는지는 [웨어러블 칼로리 정확도 가이드](/ko/wearable-calorie-burn-accuracy-overestimation-2026)에서 자세히 다룹니다.\n\n## 칼로리 말고도 15,000보를 걸을 가치가 있을까\n\n칼로리는 이야기의 일부일 뿐입니다. 여러 대규모 메타분석이 하루 걸음 수와 건강 결과의 연관성을 보여 주었으며, 15,000보는 측정된 이점 대부분이 나타나는 범위보다 위에 있습니다.\n\n- 15개 국제 코호트(성인 47,471명)를 분석한 메타분석에서는 걸음 수가 많을수록 사망 위험이 점점 낮아졌습니다. 위험 감소는 60세 이상에서는 하루 약 6,000~8,000보, 60세 미만에서는 8,000~10,000보 수준에서 더는 크게 줄지 않았습니다.\n- 용량-반응 메타분석에서는 하루 2,000보와 비교해 하루 7,000보가 전체 원인 사망 위험 47% 감소와 관련이 있었습니다.\n\n이는 관찰 연구에서 나온 연관성이며, 걸음 수가 많아질수록 곡선은 완만해집니다. 10,000보에서 15,000보로 늘리는 것은 에너지 소비를 높이는 합리적인 방법입니다. 다만 데이터상으로는 더 적당한 걸음 수에서 나타나는 사망률 이점을 얻기 위해 꼭 그만큼 걸어야 하는 것은 아닙니다. 이 인기 있는 목표가 어디서 시작됐는지 궁금하다면 [만보 걷기 목표의 유래](/ko/walking-10000-steps-origin-health-benefits-2026)를 참고하세요.\n\n## 체중 관리에 걸음 칼로리 활용하기\n\n근거를 바탕으로 몇 가지 실용적인 원칙을 정리하면 다음과 같습니다.\n\n**추정치는 정확한 장부가 아니라 범위로 보세요.** 속도, 지형, 짐, 보폭이 모두 실제 수치를 움직입니다. 15,000보에 체중 1kg당 9.1kcal는 야외에서 빠르게 걸을 때의 중간값으로 생각하세요. 평지 러닝머신에서는 이보다 적고, 언덕이나 거친 길에서는 더 많다고 보면 됩니다.\n\n**걷기량은 시간이 지나며 쌓입니다.** 스톡홀름 연구에서 꾸준히 걸어서 출퇴근한 결과, 주간 총 에너지 소비량은 남성 약 1,570kcal, 여성 약 1,040kcal였습니다. 1년 동안 참가자들은 약 385회 이동하며 약 800km를 걸었습니다. 꾸준하고 반복적인 걷기는 주간 에너지 소비에서 의미 있는 몫을 차지할 수 있습니다.\n\n**조금씩 늘려 가세요.** 하루 걸음 수가 적다가 갑자기 15,000보로 늘리면 서 있는 시간이 크게 늘어납니다. 단계적으로 늘리면 식욕, 컨디션, 관절이 어떻게 반응하는지 살필 수 있습니다.\n\n**칼로리 숫자 하나만으로 식사를 정하지 마세요.** 손목형 기기의 칼로리 추정치는 오차가 큽니다. 하루치 수치보다 몇 주에 걸친 체중과 허리둘레의 변화 추세가 더 믿을 만한 신호입니다.\n\n가장 간단히 정리하면 이렇습니다. 기기로 걸음 수를 세고, 자신의 보폭으로 거리를 환산한 뒤, 0.96과 체중을 곱하세요. 그러면 자신의 실제 결과와 비교해 볼 수 있는, 걸음 수 칼로리의 합리적인 추정치를 얻을 수 있습니다.",
+      "key_stats": [
+        {
+          "label": "야외 걷기의 에너지 비용",
+          "value": "1km당 체중 1kg당 0.96kcal",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "현장 걷기 vs 평지 러닝머신",
+          "value": "야외에서 1km당 에너지 약 30% 더 소모",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "분당 105보로 30분 걸을 때 걸음 수",
+          "value": "3,150보 또는 2km",
+          "source": "Cross-sectional study of Chinese young adults"
+        },
+        {
+          "label": "손목형 트래커의 칼로리 오차",
+          "value": "모든 브랜드에서 평균 절대 백분율 오차 30% 초과",
+          "source": "Systematic review of wrist-worn activity trackers"
+        },
+        {
+          "label": "실험실 시험에서 손목형 기기의 최고 칼로리 정확도",
+          "value": "오차 20% 미만인 기기 없음",
+          "source": "Lab validation of seven wrist-worn devices"
+        }
+      ],
+      "faq": [
+        {
+          "question": "15,000보를 걸으면 칼로리가 얼마나 소모되나요?",
+          "answer": "계산상 야외에서 빠르게 걸을 때 체중 1kg당 약 9.1kcal입니다. 9.1에 자신의 체중(kg)을 곱하세요. 15,000 ÷ 1,575 ≈ 9.52km에 측정된 에너지 비용인 1km당 체중 1kg당 0.96kcal를 곱한 값입니다(9.52 × 0.96 ≈ 9.14)."
+        },
+        {
+          "question": "한 걸음에 칼로리가 얼마나 소모되나요?",
+          "answer": "체중 1kg당 약 0.00061kcal입니다. 1km당 체중 1kg당 0.96kcal를 1km당 약 1,575보로 나눈 값입니다. 1,000보로 치면 체중 1kg당 약 0.61kcal입니다. 속도가 빠르거나 언덕, 고르지 않은 지면, 짊어진 짐이 있으면 걷기의 에너지 비용이 올라갑니다."
+        },
+        {
+          "question": "15,000보는 몇 km인가요?",
+          "answer": "약 9.5km입니다(15,000 ÷ 1,575). 3,150보를 2km로 환산하는 걷기 권장 기준을 적용한 값입니다. 이 환산값은 실제로 잰 보폭이 아니며, 실제 거리는 자신의 보폭에 따라 달라집니다. 해당 연구에서는 같은 속도일 때 여성이 남성보다 분당 걸음 수가 더 많았습니다."
+        },
+        {
+          "question": "15,000보를 걷는 데 시간이 얼마나 걸리나요?",
+          "answer": "분당 100보로 걸으면 약 150분, 분당 105보로 걸으면 약 143분입니다. 케이던스가 빠를수록 시간이 줄어듭니다. 분당 약 100보는 흔히 중강도의 기준으로 쓰입니다."
+        },
+        {
+          "question": "스마트워치의 걷기 칼로리는 정확한가요?",
+          "answer": "그다지 정확하지 않습니다. 한 체계적 문헌고찰에서 모든 손목형 트래커 브랜드의 에너지 소비량 오차가 30%를 넘었습니다. 실험실 연구에서는 오차가 20% 미만인 기기가 하나도 없었고, 오차는 걷기에서 가장 컸습니다. 칼로리 수치보다 걸음 수가 더 믿을 만한 경향이 있습니다."
+        },
+        {
+          "question": "러닝머신보다 야외에서 걸을 때 칼로리가 더 소모되나요?",
+          "answer": "대체로 그렇습니다. 출퇴근자를 대상으로 한 현장 연구에서 야외 걷기는 평지 러닝머신 걷기보다 1km당 약 30% 더 많은 에너지가 들었습니다. 고르지 않은 지형, 언덕, 짊어진 짐은 소모량을 더 늘립니다."
+        }
+      ],
+      "comparison_table": {
+        "title": "걸음 수별 예상 소모 칼로리(야외에서 빠르게 걸을 때)",
+        "headers": [
+          "하루 걸음 수",
+          "대략적인 거리(걸음 수 ÷ 1,575)",
+          "체중 1kg당 kcal(km × 0.96)",
+          "참고"
+        ],
+        "rows": [
+          [
+            "3,150",
+            "2.0km",
+            "1.92",
+            "분당 105보로 30분"
+          ],
+          [
+            "6,000",
+            "3.81km",
+            "3.66",
+            "출퇴근자 연구에서 제시한 하루 이동 걸음 수 권장량"
+          ],
+          [
+            "7,000",
+            "4.44km",
+            "4.27",
+            "하루 2,000보 대비 전체 원인 사망 위험 47% 감소와 관련"
+          ],
+          [
+            "10,000",
+            "6.35km",
+            "6.10",
+            "널리 알려진 하루 목표"
+          ],
+          [
+            "15,000",
+            "9.52km",
+            "9.14",
+            "분당 105보로 약 143분"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Perspectives on exercise intensity, volume, step characteristics and health outcomes in walking for transport.",
+          "source": "Frontiers in public health, 2022",
+          "url": "https://doi.org/10.3389/fpubh.2022.911863"
+        },
+        {
+          "title": "Step rate-determined walking intensity and walking recommendation in Chinese young adults: a cross-sectional study.",
+          "source": "BMJ open, 2013",
+          "url": "https://doi.org/10.1136/bmjopen-2012-001801"
+        },
+        {
+          "title": "The energy cost of walking is sensitive to speed but not gravity; for running, it's the other way around: model and experiment.",
+          "source": "The Journal of experimental biology, 2026",
+          "url": "https://doi.org/10.1242/jeb.250582"
+        },
+        {
+          "title": "The energetic cost of human walking as a function of uneven terrain amplitude.",
+          "source": "The Journal of experimental biology, 2025",
+          "url": "https://doi.org/10.1242/jeb.249840"
+        },
+        {
+          "title": "Soldier load carriage: historical, physiological, biomechanical, and medical aspects.",
+          "source": "Military medicine, 2004",
+          "url": "https://doi.org/10.7205/milmed.169.1.45"
+        },
+        {
+          "title": "Walking Cadence during Moderate-Intensity Physical Activity in Pregnant Women.",
+          "source": "International journal of environmental research and public health, 2021",
+          "url": "https://doi.org/10.3390/ijerph18126593"
+        },
+        {
+          "title": "Accuracy and Acceptability of Wrist-Wearable Activity-Tracking Devices: Systematic Review of the Literature.",
+          "source": "Journal of medical Internet research, 2022",
+          "url": "https://doi.org/10.2196/30791"
+        },
+        {
+          "title": "Accuracy in Wrist-Worn, Sensor-Based Measurements of Heart Rate and Energy Expenditure in a Diverse Cohort.",
+          "source": "Journal of personalized medicine, 2017",
+          "url": "https://doi.org/10.3390/jpm7020003"
+        },
+        {
+          "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts.",
+          "source": "The Lancet. Public health, 2022",
+          "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+        },
+        {
+          "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis.",
+          "source": "The Lancet. Public health, 2025",
+          "url": "https://doi.org/10.1016/S2468-2667(25)00164-1"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "ja": {
+      "title": "15000歩の消費カロリーは？体重別の計算方法",
+      "short_title": "15000歩の消費カロリー",
+      "short_description": "歩数から消費カロリーを見積もる方法を解説します。15000歩を例に、体重と距離による計算と、結果を左右する要因を紹介します。",
+      "meta_description": "15000歩の消費カロリーは体重と距離で決まります。計算式、15000歩で体重1kgあたり何kcal消費するか、スマートウォッチの数値がずれやすい理由を解説します。",
+      "tldr": "ウォーキング推奨基準の換算値である1kmあたり約1,575歩（2kmで3,150歩）を使うと、15,000歩は約9.5km（15,000 ÷ 1,575）になります。この距離に、実際の歩行で測定されたエネルギー消費量「1kmあたり体重1kgにつき0.96kcal」を掛けると、体重1kgあたり約9.1kcalです（9.52 × 0.96 ≈ 9.14）。この数値に自分の体重（kg）を掛ければ、個人の目安がわかります。歩く速さ、坂道、でこぼこした路面、荷物の重さによって、実際の数値は上下します。",
+      "body_md": "## 結論：15,000歩で消費するカロリー\n\n公表されている2つの数値を組み合わせると、15,000歩歩いたときの消費カロリーは**体重1kgあたり約9.1kcal**になります（15,000 ÷ 1,575 ≈ 9.52km、9.52 × 0.96 ≈ 9.14）。自分の数値を出すには、9.1に体重（kg）を掛けてください。\n\n計算は3つの要素でできています。\n\n- **距離：** 15,000歩は約9.5kmです（15,000 ÷ 1kmあたり1,575歩）。ウォーキングの推奨基準で使われている歩数と距離の換算値を用いています。\n- **距離あたりのエネルギー：** 屋外でのウォーキングでは、1kmあたり体重1kgにつき約0.96kcalを消費していました。\n- **結果：** 9.52km × 0.96 ≈ 体重1kgあたり9.14kcalです。\n\nこの数値は出発点として妥当な目安であり、正確な測定値ではありません。以下では、この数値の根拠、自分の歩幅や歩くコースに合わせた調整方法、そしてスマートウォッチがまったく違う数値を示すことがある理由を順に解説します。\n\n## 1歩あたりの数値の根拠\n\n歩数による消費カロリーを決めるのは2つの要素です。1歩でどれだけ進むか、そして1km歩くのに体がどれだけエネルギーを使うかです。\n\n### 1kmあたりのエネルギー\n\nある実地研究では、日常的に徒歩で通勤している中年の歩行者（男性10人、女性10人）を、トレッドミルではなくストックホルム都市圏の実際の通勤路で測定しました。エネルギー消費量は**0.96kcal · kg⁻¹ · km⁻¹**でした。同じ距離を歩く場合、男女の絶対的なエネルギー必要量は同程度でした。\n\nこの通勤者たちは、男性が平均時速5.7km、女性が平均時速5.9kmと、きびきびしたペースで歩いていました。このペースは最大酸素摂取量の約46%、METs値では6.2と6.5に相当します。研究チームは、これを相対的な中強度の範囲の低いほうに位置づけています。\n\n### 1kmあたりの歩数\n\n平均年齢21.7歳の中国の若年成人226人を対象にした横断研究では、平地での歩行を測定しました。この研究は身体活動ガイドラインを歩行目標に換算し、1分間105歩で30分歩くことを**3,150歩または2km**としています。\n\n割り算をすると使いやすい比率が得られます。3,150 ÷ 2 = **1kmあたり1,575歩**で、平均歩幅にすると約0.63m（1,000m ÷ 1,575）です。この比率はウォーキング推奨基準に組み込まれた換算値であり、誰かの歩幅を直接測ったものではありません。初期値として使い、自分の数値に置き換えるのがおすすめです。\n\n自分の比率は異なるかもしれません。同じ研究では、同じ速さで歩いたとき、女性のほうが男性より1分あたりの歩数が多くなっていました。歩幅が短いほど、1kmあたりの歩数は増えます。\n\n## どんな歩数でも使えるカロリー計算方法\n\nこの方法は、歩数がいくつでも使えます。\n\n1. **歩数を距離に換算：** km = 歩数 ÷ 1,575（または自分の1kmあたりの歩数）\n2. **距離をエネルギーに換算：** kcal = km × 0.96 × 体重（kg）\n\n2つをまとめると、簡易式は**kcal ≈ 歩数 × 0.00061 × 体重（kg）**になります。0.96 ÷ 1,575 ≈ 0.00061だからです。\n\nいくつかの目安は次のとおりです。\n\n- **1,000歩：** 0.635km × 0.96 ≈ 体重1kgあたり0.61kcal\n- **10,000歩：** 6.35km × 0.96 ≈ 体重1kgあたり6.1kcal\n- **15,000歩：** 9.52km × 0.96 ≈ 体重1kgあたり9.1kcal\n\n### 歩幅を自分用に調整する\n\nいちばん手軽で効果の大きい改善は、1,575を自分の数値に置き換えることです。距離のわかっているコースをいつものペースで歩き、歩数を記録しましょう。歩数をkmで割れば求められます。1kmあたりの歩数が1,575より少なければ、同じ歩数でもより長い距離を歩いていることになるため、計算式の推定値は高くなります。1kmあたりの歩数が多ければ、推定値は低くなります。\n\nエネルギーの数値は体重1kgあたりで表されているため、この計算式では推定値が体重に正比例します。\n\n## 実際の数値が高くなる、または低くなる理由\n\n0.96という数値は、都市部のコースをきびきびと歩く通勤を前提にしています。いくつかの要因でこの値は変わります。\n\n### 速さ\n\n実験とシンプルな歩行モデルを組み合わせた研究によると、ウォーキングの距離あたりのエネルギーコストは速さに大きく左右されます。ランニングでは速さが変わっても距離あたりのコストはほぼ一定ですが、ウォーキングではそうなりません。同じ15,000歩でも、のんびり歩くのと大股で速く歩くのとでは消費量が同じにはならないのです。\n\n### でこぼこした路面\n\n健康な成人10人が、人工的に作ったでこぼこの路面を秒速0.8〜1.4mの4段階の速さで歩いた研究では、正味の代謝率はおおむね路面の凹凸の大きさの2乗、そして速さの3乗に比例して上昇しました。山道、石畳、傷んだ歩道は、いずれも平らな道より多くのエネルギーを使います。\n\n### トレッドミルと屋外\n\nストックホルムの通勤者研究では、屋外での歩行は平らなトレッドミルでの歩行に比べ、1kmあたり約30%多くのエネルギーを必要としました。研究の要旨にはトレッドミル単独の数値は示されていないため、0.96は屋外の数値と考え、同じ距離を平らなトレッドミルで歩く場合はこれより低くなると見込んでおきましょう。\n\n### 荷物、坂道、体重\n\n兵士の荷物運搬に関するレビューでは、リュックを背負って歩くときのエネルギーコストは、運ぶ重さ、体重、歩く速さ、勾配によって増えることが示されています。地形の種類も影響します。重さがかかる位置も重要で、足に1kg加えるごとにエネルギー消費は7〜10%増えたのに対し、太ももでは1kgあたり4%でした。重い靴、荷物の入ったリュック、坂の多いコースは、いずれも1歩あたりの消費を増やします。\n\n### 総消費カロリーと活動カロリー\n\nこの研究は、1kmあたり体重1kgにつき0.96kcalを歩行中のエネルギー消費量として報告していますが、要旨では安静時のエネルギーを差し引いた値かどうかを明記していません。計算式をデバイスの表示と比べるときは、この点を念頭に置いてください。同じウォーキングに対して画面に複数のカロリー数値が表示される場合は、[活動カロリーと総消費カロリーの違いを解説した記事](/ja/active-calories-vs-total-calories-burned-tracking-2026)をご覧ください。\n\n## 15,000歩にかかる時間と運動強度\n\nかかる時間はケイデンス、つまり1分あたりの歩数で決まります。\n\n- **1分間100歩**の場合：15,000 ÷ 100 = 150分\n- **1分間105歩**の場合：15,000 ÷ 105 ≈ 143分\n\nまとめて歩いても1日の中で分けて歩いても、15,000歩はおよそ2時間半のウォーキングになります。\n\nケイデンスからは運動強度の大まかな目安もわかります。妊婦を対象にしたある研究は、1分間100歩が、妊娠していない人における中強度の基準である3METsの確立された指標だと述べています。この研究では、妊娠中も3METsの基準が当てはまることがわかりました。中国の若年成人の研究では、3METsの基準が1分間105歩、6METsの基準が1分間130歩でした。\n\n実際には、目的を持ってきびきび歩く1歩は、ゆっくりぶらぶら歩く1歩より1分あたりの消費が大きくなります。速く歩けば同じ時間でより長い距離を歩けるため、消費カロリーも増えます。\n\n## スマートウォッチやスマホの数値は正確？\n\nウェアラブル端末に表示されるカロリーをそのまま信じたくなりますが、研究結果は慎重になるべきだと示しています。\n\n- 手首装着型トラッカーに関する65本の論文をまとめたシステマティックレビューでは、エネルギー消費量の平均絶対誤差率は**すべてのブランドで30%を超えていました**。レビューは、検証したどのデバイスもエネルギー消費量を正確に測定できていないと結論づけています。\n- ある実験室研究では、ボランティア60人を対象に手首装着型デバイス7機種を間接熱量測定と比較しました。**エネルギー消費量の誤差が20%を下回ったデバイスはひとつもありませんでした。** 誤差はウォーキングで最も大きくなりました。\n\n歩数のほうが精度は高めです。同じレビューでは、Fitbit Chargeシリーズが歩数について良好な精度を示しました。カロリー表示よりも歩数を信頼するのが妥当な考え方です。別の目安がほしい場合は、歩数を上で紹介した距離と体重の計算式に当てはめてみてください。カロリーの推定値がずれる理由は、[ウェアラブルのカロリー精度ガイド](/ja/wearable-calorie-burn-accuracy-overestimation-2026)で詳しく解説しています。\n\n## カロリー以外にも15,000歩を歩く価値はある？\n\nカロリーは話の一部にすぎません。いくつかの大規模なメタ解析で1日の歩数と健康アウトカムの関連が示されており、15,000歩は、測定された効果の大半が現れる範囲を上回っています。\n\n- 15の国際コホート（成人47,471人）を対象にしたメタ解析では、歩数が多いほど死亡リスクが段階的に低くなりました。リスクの低下は、60歳以上では1日約6,000〜8,000歩、60歳未満では8,000〜10,000歩で頭打ちになりました。\n- 用量反応メタ解析では、1日2,000歩と比べ、1日7,000歩は全死因死亡リスクが47%低いことと関連していました。\n\nこれらは観察研究による関連であり、歩数が多くなるほど曲線は平らになります。10,000歩から15,000歩に増やすことは、エネルギー消費を増やす方法として理にかなっています。ただし、より控えめな歩数で見られる死亡率低下の効果を得るために、そこまで歩く必要があるとはデータは示していません。この人気の目標がどこから生まれたのかについては、[「1日1万歩」目標の由来](/ja/walking-10000-steps-origin-health-benefits-2026)をご覧ください。\n\n## 歩数カロリーを体重管理に生かすには\n\nエビデンスから、いくつかの実践的なポイントが導かれます。\n\n**推定値は帳簿ではなく幅として捉えましょう。** 速さ、地形、荷物、歩幅のすべてが実際の数値を動かします。15,000歩で体重1kgあたり9.1kcalという値は、屋外をきびきび歩いた場合の中間値と考えてください。平らなトレッドミルではこれより少なく、坂道や荒れた道ではこれより多くなると見込んでおきましょう。\n\n**歩く量は時間とともに積み重なります。** ストックホルムの研究では、日常的な徒歩通勤による1週間の総エネルギー消費量は、男性で約1,570kcal、女性で約1,040kcalでした。1年間で参加者は約385回の移動で約800kmを歩いています。継続的で繰り返しのウォーキングは、1週間のエネルギー消費のかなりの部分を占めうるのです。\n\n**少しずつ増やしましょう。** 1日の歩数が少ない状態からいきなり15,000歩に増やすと、立って動く時間が大幅に増えます。段階的に増やせば、食欲や体調、関節がどう反応するかを確かめられます。\n\n**カロリーの数値だけで食事を決めないようにしましょう。** 手首装着型デバイスのカロリー推定値には大きな誤差があります。1日分の表示よりも、数週間にわたる体重やウエスト周囲径の推移を見るほうが、信頼できる指標になります。\n\nいちばんシンプルにまとめると、デバイスで歩数を数え、自分の歩幅で距離に換算し、0.96と体重を掛けることです。そうすれば、自分の実際の結果と照らし合わせられる、歩数による消費カロリーの妥当な目安が得られます。",
+      "key_stats": [
+        {
+          "label": "屋外ウォーキングのエネルギーコスト",
+          "value": "1kmあたり体重1kgにつき0.96kcal",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "屋外歩行と平らなトレッドミルの比較",
+          "value": "屋外は1kmあたり約30%多くエネルギーを消費",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "1分間105歩で30分歩いたときの歩数",
+          "value": "3,150歩または2km",
+          "source": "Cross-sectional study of Chinese young adults"
+        },
+        {
+          "label": "手首装着型トラッカーのカロリー誤差",
+          "value": "すべてのブランドで平均絶対誤差率30%超",
+          "source": "Systematic review of wrist-worn activity trackers"
+        },
+        {
+          "label": "実験室試験での手首装着型デバイスの最高カロリー精度",
+          "value": "誤差20%未満のデバイスはなし",
+          "source": "Lab validation of seven wrist-worn devices"
+        }
+      ],
+      "faq": [
+        {
+          "question": "15000歩で何カロリー消費しますか？",
+          "answer": "計算上、屋外をきびきび歩いた場合で体重1kgあたり約9.1kcalです。9.1に体重（kg）を掛けてください。15,000 ÷ 1,575 ≈ 9.52kmに、測定されたエネルギーコストである1kmあたり体重1kgにつき0.96kcalを掛けた値です（9.52 × 0.96 ≈ 9.14）。"
+        },
+        {
+          "question": "1歩あたりの消費カロリーはどれくらいですか？",
+          "answer": "体重1kgあたり約0.00061kcalです。1kmあたり体重1kgにつき0.96kcalを、1kmあたり約1,575歩で割った値です。1,000歩あたりにすると体重1kgにつき約0.61kcalになります。速く歩く、坂道、でこぼこした路面、荷物を持つといった条件では、ウォーキングのエネルギーコストが上がります。"
+        },
+        {
+          "question": "15000歩は何kmですか？",
+          "answer": "約9.5kmです（15,000 ÷ 1,575）。3,150歩を2kmとするウォーキング推奨基準を用いています。この換算値は実測した歩幅ではなく、実際の距離は自分の歩幅によって変わります。その研究では、同じ速さのとき女性のほうが男性より1分あたりの歩数が多くなっていました。"
+        },
+        {
+          "question": "15000歩歩くのにどれくらい時間がかかりますか？",
+          "answer": "1分間100歩なら約150分、1分間105歩なら約143分です。ケイデンスが速いほど時間は短くなります。1分間約100歩は、中強度の基準としてよく用いられています。"
+        },
+        {
+          "question": "スマートウォッチのウォーキングの消費カロリーは正確ですか？",
+          "answer": "あまり正確ではありません。システマティックレビューでは、すべての手首装着型トラッカーのブランドでエネルギー消費量の誤差が30%を超えていました。実験室研究では誤差が20%を下回ったデバイスはなく、誤差はウォーキング中に最も大きくなりました。カロリー表示よりも歩数のほうが信頼しやすい傾向があります。"
+        },
+        {
+          "question": "トレッドミルより屋外で歩くほうがカロリーを消費しますか？",
+          "answer": "多くの場合はそうです。通勤者を対象にした実地研究では、屋外での歩行は平らなトレッドミルでの歩行より1kmあたり約30%多くのエネルギーを必要としました。でこぼこした地形、坂道、荷物はさらに消費を増やします。"
+        }
+      ],
+      "comparison_table": {
+        "title": "歩数別の推定消費カロリー（屋外をきびきび歩いた場合）",
+        "headers": [
+          "1日の歩数",
+          "おおよその距離（歩数 ÷ 1,575）",
+          "体重1kgあたりのkcal（km × 0.96）",
+          "補足"
+        ],
+        "rows": [
+          [
+            "3,150",
+            "2.0km",
+            "1.92",
+            "1分間105歩で30分"
+          ],
+          [
+            "6,000",
+            "3.81km",
+            "3.66",
+            "通勤者研究による1日の移動歩数の推奨値"
+          ],
+          [
+            "7,000",
+            "4.44km",
+            "4.27",
+            "1日2,000歩と比べて全死因死亡リスクが47%低いことと関連"
+          ],
+          [
+            "10,000",
+            "6.35km",
+            "6.10",
+            "広く推奨されている1日の目標"
+          ],
+          [
+            "15,000",
+            "9.52km",
+            "9.14",
+            "1分間105歩で約143分"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Perspectives on exercise intensity, volume, step characteristics and health outcomes in walking for transport.",
+          "source": "Frontiers in public health, 2022",
+          "url": "https://doi.org/10.3389/fpubh.2022.911863"
+        },
+        {
+          "title": "Step rate-determined walking intensity and walking recommendation in Chinese young adults: a cross-sectional study.",
+          "source": "BMJ open, 2013",
+          "url": "https://doi.org/10.1136/bmjopen-2012-001801"
+        },
+        {
+          "title": "The energy cost of walking is sensitive to speed but not gravity; for running, it's the other way around: model and experiment.",
+          "source": "The Journal of experimental biology, 2026",
+          "url": "https://doi.org/10.1242/jeb.250582"
+        },
+        {
+          "title": "The energetic cost of human walking as a function of uneven terrain amplitude.",
+          "source": "The Journal of experimental biology, 2025",
+          "url": "https://doi.org/10.1242/jeb.249840"
+        },
+        {
+          "title": "Soldier load carriage: historical, physiological, biomechanical, and medical aspects.",
+          "source": "Military medicine, 2004",
+          "url": "https://doi.org/10.7205/milmed.169.1.45"
+        },
+        {
+          "title": "Walking Cadence during Moderate-Intensity Physical Activity in Pregnant Women.",
+          "source": "International journal of environmental research and public health, 2021",
+          "url": "https://doi.org/10.3390/ijerph18126593"
+        },
+        {
+          "title": "Accuracy and Acceptability of Wrist-Wearable Activity-Tracking Devices: Systematic Review of the Literature.",
+          "source": "Journal of medical Internet research, 2022",
+          "url": "https://doi.org/10.2196/30791"
+        },
+        {
+          "title": "Accuracy in Wrist-Worn, Sensor-Based Measurements of Heart Rate and Energy Expenditure in a Diverse Cohort.",
+          "source": "Journal of personalized medicine, 2017",
+          "url": "https://doi.org/10.3390/jpm7020003"
+        },
+        {
+          "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts.",
+          "source": "The Lancet. Public health, 2022",
+          "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+        },
+        {
+          "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis.",
+          "source": "The Lancet. Public health, 2025",
+          "url": "https://doi.org/10.1016/S2468-2667(25)00164-1"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "zh-CN": {
+      "title": "走15000步消耗多少卡路里？计算公式详解",
+      "short_title": "走15000步消耗多少热量",
+      "short_description": "教你根据体重和距离估算走路步数消耗的热量，以15000步为例，并说明哪些因素会改变结果。",
+      "meta_description": "走路消耗多少卡路里取决于体重和距离。看懂计算公式，了解走15000步每公斤体重消耗多少千卡，以及运动手环为什么常常算不准。",
+      "tldr": "按照步行建议中常用的换算值，每公里约1575步（2公里3150步），15000步约为9.5公里（15000 ÷ 1575）。再乘以实地测得的步行能耗，即每公斤体重每公里0.96千卡，得出每公斤体重约9.1千卡（9.52 × 0.96 ≈ 9.14）。用这个数乘以你的体重（公斤），就是你个人的估算值。步速、坡道、不平的路面和负重都会让实际数值偏高或偏低。",
+      "body_md": "## 直接看结论：走15000步消耗多少热量\n\n把两项已发表的数据结合起来，走15000步大约消耗**每公斤体重9.1千卡**（15000 ÷ 1575 ≈ 9.52公里，再算9.52 × 0.96 ≈ 9.14）。想知道自己的数值，用9.1乘以体重（公斤）即可。\n\n计算分为三步：\n\n- **距离：** 15000步约为9.5公里（15000 ÷ 每公里1575步），采用的是一项步行建议中的步数与距离换算值。\n- **每公里能耗：** 户外步行每公里约消耗每公斤体重0.96千卡。\n- **结果：** 9.52公里 × 0.96 ≈ 每公斤体重9.14千卡。\n\n这个数字是比较合理的起点估算，并非精确读数。下文会说明它从何而来、如何根据自己的步幅和路线进行调整，以及为什么你的手表显示的数字可能相差很大。\n\n## 每一步的数据从哪里来\n\n走路消耗的热量取决于两件事：每一步能走多远，以及每走1公里身体要消耗多少能量。\n\n### 每公里的能耗\n\n一项实地研究在大斯德哥尔摩地区测量了习惯步行通勤的中年人（男性10人、女性10人），测量是在他们真实的上班路上进行，而不是在跑步机上。他们的能量消耗为**0.96 kcal · kg⁻¹ · km⁻¹**。走同样的距离，男性和女性的绝对能量需求相近。\n\n这些通勤者走得比较快，男性平均时速5.7公里，女性平均时速5.9公里。这一步速约相当于最大摄氧量的46%，MET值分别为6.2和6.5。研究人员将其归入相对中等强度范围的偏低区间。\n\n### 每公里的步数\n\n一项横断面研究以226名中国青年为对象，平均年龄21.7岁，测量了他们在地面上的步行情况。研究把身体活动指南换算成步行目标：以每分钟105步的步频走30分钟，相当于**3150步或2公里**。\n\n相除就得到一个实用比例：3150 ÷ 2 = **每公里1575步**，相当于平均步幅约0.63米（1000米 ÷ 1575）。这个比例是步行建议里内置的换算值，并非直接测量某个人的步幅，因此可以先当作默认值，再换成你自己的数据。\n\n你的比例可能有所不同。同一项研究发现，在相同步速下，女性每分钟的步数比男性多。步幅越短，每公里的步数就越多。\n\n## 任意步数都能用的热量计算方法\n\n这个方法适用于任何步数。\n\n1. **步数换算成距离：** 公里 = 步数 ÷ 1575（或用你自己的每公里步数）\n2. **距离换算成能量：** 千卡 = 公里 × 0.96 × 体重（公斤）\n\n两步合并，简便公式就是**千卡 ≈ 步数 × 0.00061 × 体重（公斤）**，因为0.96 ÷ 1575 ≈ 0.00061。\n\n几个参考值：\n\n- **1000步：** 0.635公里 × 0.96 ≈ 每公斤体重0.61千卡\n- **10000步：** 6.35公里 × 0.96 ≈ 每公斤体重6.1千卡\n- **15000步：** 9.52公里 × 0.96 ≈ 每公斤体重9.1千卡\n\n### 换成自己的步幅\n\n最简单、提升最大的改进，就是把1575换成你自己的数字。用平时的速度走一段已知长度的路线，记下步数，再用步数除以公里数即可。如果你每公里的步数少于1575，同样的步数就能走更远，公式算出的估算值会更高；如果每公里步数更多，估算值就会更低。\n\n由于能耗数据是按每公斤体重计算的，在这个公式里，估算值与体重成正比。\n\n## 为什么你的实际数值可能偏高或偏低\n\n0.96这个数值描述的是在城市路线上快步通勤的情况。有几个因素会让它发生变化。\n\n### 步速\n\n一项将实验与简化步行模型相结合的研究发现，步行每单位距离的能耗对速度非常敏感。跑步时，不同速度下每单位距离的能耗几乎不变；步行则不然。所以同样是15000步，慢悠悠地溜达和大步快走，消耗并不相同。\n\n### 不平的路面\n\n一项研究让10名健康成年人以0.8至1.4米/秒之间的四种速度在人造不平路面上行走，发现净代谢率大致随路面起伏程度的平方以及速度的立方而上升。山路、石板路和破损的人行道，都比平整路面消耗更多能量。\n\n### 跑步机与户外\n\n在斯德哥尔摩通勤者研究中，户外步行每公里所需的能量比在水平跑步机上步行多约30%。该研究摘要没有单独给出跑步机数值，因此可以把0.96看作户外数据，并预期在水平跑步机上走同样的距离，消耗会更低。\n\n### 负重、坡道和体重\n\n一篇关于士兵负重行军的综述发现，背着背包步行的能耗会随负重、体重、步速和坡度的增加而上升，地形类型也有影响。负重的位置同样重要：脚上每增加1公斤，能量消耗增加7%至10%，而大腿上每公斤只增加4%。沉重的鞋子、装满东西的背包或多坡的路线，都会提高每一步的消耗。\n\n### 总热量与活动热量\n\n该研究报告的每公斤体重每公里0.96千卡是步行期间的能量消耗，但摘要中没有说明是否扣除了静息能量消耗。把公式结果与设备读数对比时要注意这一点。如果同一次步行在屏幕上显示了不止一个热量数字，可以参考[这篇关于活动热量与总热量区别的文章](/zh/active-calories-vs-total-calories-burned-tracking-2026)。\n\n## 走15000步要多久，强度有多大\n\n所需时间取决于步频，也就是每分钟的步数。\n\n- **每分钟100步：** 15000 ÷ 100 = 150分钟\n- **每分钟105步：** 15000 ÷ 105 ≈ 143分钟\n\n所以，无论一次走完还是分散在一天里，15000步大约相当于两个半小时的步行。\n\n步频还能粗略反映运动强度。一项针对孕妇的研究指出，在非孕人群中，每分钟100步是中等强度阈值3 METs的公认指标；研究发现，这一3 METs的界值在孕期同样适用。在中国青年研究中，3 METs的界值为每分钟105步，6 METs的界值为每分钟130步。\n\n实际上，有目的地快步走，每分钟的消耗比慢吞吞地闲逛要大。快走还能在同样的时间里走更远，消耗更多热量。\n\n## 手表或手机显示的数字准吗\n\n人们很容易直接相信可穿戴设备上显示的热量数字，但研究提示我们要谨慎。\n\n- 一篇纳入65篇文章、针对腕戴式运动追踪器的系统综述发现，在能量消耗方面，**所有品牌的平均绝对百分比误差都超过30%**。综述的结论是，所测试的设备没有一款能准确测量能量消耗。\n- 一项实验室研究以60名志愿者为对象，将7款腕戴设备与间接测热法进行对比。**没有一款设备的能量消耗误差低于20%。** 误差在步行时最大。\n\n步数则可靠得多。同一篇综述发现，Fitbit Charge系列在步数方面准确度良好。比较合理的做法是：相信步数多于相信热量数字。如果想要另一个估算值，可以把步数代入上面的距离与体重公式。至于热量估算为什么会出现偏差，[可穿戴设备热量准确度指南](/zh/wearable-calorie-burn-accuracy-overestimation-2026)有更详细的解释。\n\n## 除了热量，走15000步值得吗\n\n热量只是其中一方面。多项大型荟萃分析发现每日步数与健康结局相关，而15000步已经高于大部分可测量益处出现的区间。\n\n- 一项纳入15个国际队列（47471名成年人）的荟萃分析发现，步数越多，死亡风险越低。在60岁及以上人群中，风险在每天约6000至8000步时趋于平稳；在60岁以下人群中，这一数字为8000至10000步。\n- 一项剂量反应荟萃分析发现，与每天2000步相比，每天7000步与全因死亡风险降低47%相关。\n\n这些都是观察性研究得出的关联，而且步数越高，曲线越平缓。从10000步增加到15000步，是提高能量消耗的合理方式；但数据并不表明，要获得较适中步数下的死亡率益处，必须走到这么多。想了解这个热门目标的由来，可以阅读[日行一万步目标的起源](/zh/walking-10000-steps-origin-health-benefits-2026)。\n\n## 用步数热量来管理体重\n\n根据现有证据，可以总结出几条实用建议。\n\n**把估算值当作范围，而不是精确账本。** 步速、地形、负重和步幅都会改变真实数值。把15000步每公斤体重9.1千卡看作户外快走的中间值即可：在平坦的跑步机上会少一些，在多坡或崎岖的路线上会多一些。\n\n**步行量会随时间不断累积。** 在斯德哥尔摩研究中，规律的步行通勤使男性每周总能量消耗约1570千卡，女性约1040千卡。一年下来，参与者约出行385次，共走了约800公里。坚持不懈、反复进行的步行，能占到每周能量消耗中相当可观的一部分。\n\n**循序渐进地增加。** 从每天很少的步数一下子跳到15000步，意味着站立和行走的时间大幅增加。逐步提高步数，可以让你留意食欲、精力和关节的反应。\n\n**不要只凭热量数字决定吃多少。** 腕戴设备的热量估算误差很大。观察数周内体重和腰围的变化趋势，比看某一天的读数更可靠。\n\n最简单的总结：用设备记录步数，按自己的步幅换算成距离，再乘以0.96和你的体重。这样就能得到一个合理的步行热量估算值，并可以用自己的实际变化来检验。",
+      "key_stats": [
+        {
+          "label": "户外步行的能耗",
+          "value": "每公斤体重每公里0.96千卡",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "户外步行与水平跑步机对比",
+          "value": "户外每公里多消耗约30%的能量",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "以每分钟105步走30分钟的步数",
+          "value": "3150步或2公里",
+          "source": "Cross-sectional study of Chinese young adults"
+        },
+        {
+          "label": "腕戴追踪器的热量误差",
+          "value": "所有品牌的平均绝对百分比误差均超过30%",
+          "source": "Systematic review of wrist-worn activity trackers"
+        },
+        {
+          "label": "实验室测试中腕戴设备的最佳热量准确度",
+          "value": "没有一款设备误差低于20%",
+          "source": "Lab validation of seven wrist-worn devices"
+        }
+      ],
+      "faq": [
+        {
+          "question": "走15000步消耗多少卡路里？",
+          "answer": "按计算，户外快走约为每公斤体重9.1千卡。用9.1乘以你的体重（公斤）即可。这个数字来自15000 ÷ 1575 ≈ 9.52公里，再乘以实测能耗每公斤体重每公里0.96千卡（9.52 × 0.96 ≈ 9.14）。"
+        },
+        {
+          "question": "走一步消耗多少热量？",
+          "answer": "约为每公斤体重0.00061千卡，即每公斤体重每公里0.96千卡除以每公里约1575步。每1000步约为每公斤体重0.61千卡。步速更快、坡道、不平的路面和负重都会提高步行能耗。"
+        },
+        {
+          "question": "15000步是多少公里？",
+          "answer": "约9.5公里（15000 ÷ 1575），采用的是把3150步等同于2公里的步行建议。这一换算值并非实测步幅，你实际走的距离取决于自己的步幅。在那项研究中，相同步速下女性每分钟的步数比男性多。"
+        },
+        {
+          "question": "走15000步需要多长时间？",
+          "answer": "以每分钟100步计约150分钟，以每分钟105步计约143分钟。步频越快，用时越短。每分钟约100步常被用作中等强度的阈值。"
+        },
+        {
+          "question": "智能手表算的走路热量准吗？",
+          "answer": "不太准。一篇系统综述发现，所有腕戴追踪器品牌的能量消耗误差都超过30%。在一项实验室研究中，没有一款设备的误差低于20%，而且步行时误差最大。步数通常比热量数字更可靠。"
+        },
+        {
+          "question": "在户外走路比在跑步机上消耗更多热量吗？",
+          "answer": "通常是的。在一项针对通勤者的实地研究中，户外步行每公里所需的能量比在水平跑步机上步行多约30%。不平的地形、坡道和负重会进一步增加消耗。"
+        }
+      ],
+      "comparison_table": {
+        "title": "不同步数的估算热量消耗（户外快走）",
+        "headers": [
+          "每日步数",
+          "大致距离（步数 ÷ 1575）",
+          "每公斤体重千卡数（公里 × 0.96）",
+          "说明"
+        ],
+        "rows": [
+          [
+            "3150",
+            "2.0公里",
+            "1.92",
+            "以每分钟105步走30分钟"
+          ],
+          [
+            "6000",
+            "3.81公里",
+            "3.66",
+            "一项通勤者研究提出的每日出行步数建议"
+          ],
+          [
+            "7000",
+            "4.44公里",
+            "4.27",
+            "与每天2000步相比，全因死亡风险降低47%相关"
+          ],
+          [
+            "10000",
+            "6.35公里",
+            "6.10",
+            "广为推广的每日目标"
+          ],
+          [
+            "15000",
+            "9.52公里",
+            "9.14",
+            "以每分钟105步约走143分钟"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Perspectives on exercise intensity, volume, step characteristics and health outcomes in walking for transport.",
+          "source": "Frontiers in public health, 2022",
+          "url": "https://doi.org/10.3389/fpubh.2022.911863"
+        },
+        {
+          "title": "Step rate-determined walking intensity and walking recommendation in Chinese young adults: a cross-sectional study.",
+          "source": "BMJ open, 2013",
+          "url": "https://doi.org/10.1136/bmjopen-2012-001801"
+        },
+        {
+          "title": "The energy cost of walking is sensitive to speed but not gravity; for running, it's the other way around: model and experiment.",
+          "source": "The Journal of experimental biology, 2026",
+          "url": "https://doi.org/10.1242/jeb.250582"
+        },
+        {
+          "title": "The energetic cost of human walking as a function of uneven terrain amplitude.",
+          "source": "The Journal of experimental biology, 2025",
+          "url": "https://doi.org/10.1242/jeb.249840"
+        },
+        {
+          "title": "Soldier load carriage: historical, physiological, biomechanical, and medical aspects.",
+          "source": "Military medicine, 2004",
+          "url": "https://doi.org/10.7205/milmed.169.1.45"
+        },
+        {
+          "title": "Walking Cadence during Moderate-Intensity Physical Activity in Pregnant Women.",
+          "source": "International journal of environmental research and public health, 2021",
+          "url": "https://doi.org/10.3390/ijerph18126593"
+        },
+        {
+          "title": "Accuracy and Acceptability of Wrist-Wearable Activity-Tracking Devices: Systematic Review of the Literature.",
+          "source": "Journal of medical Internet research, 2022",
+          "url": "https://doi.org/10.2196/30791"
+        },
+        {
+          "title": "Accuracy in Wrist-Worn, Sensor-Based Measurements of Heart Rate and Energy Expenditure in a Diverse Cohort.",
+          "source": "Journal of personalized medicine, 2017",
+          "url": "https://doi.org/10.3390/jpm7020003"
+        },
+        {
+          "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts.",
+          "source": "The Lancet. Public health, 2022",
+          "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+        },
+        {
+          "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis.",
+          "source": "The Lancet. Public health, 2025",
+          "url": "https://doi.org/10.1016/S2468-2667(25)00164-1"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "zh-TW": {
+      "title": "走15000步消耗多少熱量？步數卡路里怎麼算",
+      "short_title": "走15,000步消耗多少熱量",
+      "short_description": "如何用體重和距離估算走路步數消耗的熱量，以15,000步為例，並說明哪些因素會改變結果。",
+      "meta_description": "走路消耗多少卡路里，取決於體重和距離。看懂計算公式、走15,000步每公斤消耗多少熱量，以及運動手錶為什麼常常算不準。",
+      "tldr": "依照步行建議中每公里約1,575步（2公里約3,150步）的換算，15,000步大約是9.5公里（15,000 ÷ 1,575）。把這段距離乘以實地測得的步行耗能，也就是每公斤體重每公里0.96大卡，約等於每公斤體重9.1大卡（9.52 × 0.96 ≈ 9.14）。再乘以你的體重（公斤），就能得到個人化的估算值。速度、坡度、不平的地面和負重，都會讓實際數字變高或變低。",
+      "body_md": "## 簡單回答：走15,000步消耗多少熱量\n\n綜合兩項已發表的數據，走15,000步大約是**每公斤體重消耗9.1大卡**（15,000 ÷ 1,575 ≈ 9.52公里，再算9.52 × 0.96 ≈ 9.14）。想知道自己的數字，把9.1乘以你的體重（公斤）就可以了。\n\n這個計算分成三個部分：\n\n- **距離：** 15,000步約為9.5公里（15,000 ÷ 每公里1,575步），步數換算距離的比例來自一項步行建議。\n- **每公里耗能：** 戶外步行每公斤體重每公里約消耗0.96大卡。\n- **結果：** 9.52公里 × 0.96 ≈ 每公斤9.14大卡。\n\n這個數字適合當作估算的起點，並不是精準的讀數。接下來會說明它的來源、怎麼依照自己的步幅和路線調整，以及為什麼你的手錶顯示的數字可能差很多。\n\n## 每一步的熱量數字從哪裡來\n\n走路消耗多少熱量取決於兩件事：每一步能讓你前進多遠，以及每走一公里身體要付出多少能量。\n\n### 每公里耗能\n\n一項實地研究測量了大斯德哥爾摩地區習慣步行通勤的人（中年男女各10人），記錄的是他們真實走路上班的過程，而不是在跑步機上走。他們的能量消耗為**0.96 kcal · kg⁻¹ · km⁻¹**。走同樣的距離，男性和女性的絕對能量需求相近。\n\n這些通勤者走得很快，男性平均時速5.7公里，女性5.9公里。這樣的速度約相當於最大攝氧量的46%，MET值分別為6.2和6.5。研究人員將其歸在中等相對強度範圍中偏低的區段。\n\n### 每公里步數\n\n一項橫斷面研究測量了226名中國年輕成人（平均年齡21.7歲）在地面上的步行。研究把身體活動指引換算成步行目標：以每分鐘105步走30分鐘，等於**3,150步或2公里**。\n\n相除就能得到一個實用比例：3,150 ÷ 2 = **每公里1,575步**，也就是平均步長約0.63公尺（1,000公尺 ÷ 1,575）。這個比例是步行建議裡內建的換算值，並不是直接測量任何人的步幅，所以請把它當作預設值，之後再換成你自己的數字。\n\n你自己的比例可能不一樣。同一項研究發現，在相同步行速度下，女性每分鐘的步數比男性多。步伐越小，每公里的步數就越多。\n\n## 任何步數的熱量怎麼算\n\n這個方法適用於任何步數。\n\n1. **步數換算距離：** 公里 = 步數 ÷ 1,575（或使用你自己的每公里步數）。\n2. **距離換算熱量：** 大卡 = 公里 × 0.96 × 體重（公斤）。\n\n合併起來的簡便公式是**大卡 ≈ 步數 × 0.00061 × 體重（公斤）**，因為0.96 ÷ 1,575 ≈ 0.00061。\n\n幾個參考點：\n\n- **1,000步：** 0.635公里 × 0.96 ≈ 每公斤0.61大卡\n- **10,000步：** 6.35公里 × 0.96 ≈ 每公斤6.1大卡\n- **15,000步：** 9.52公里 × 0.96 ≈ 每公斤9.1大卡\n\n### 換上自己的步幅數字\n\n最容易的改進方式，就是把1,575換成你自己的數字。用平常的速度走一段已知長度的路線，記下步數，再把步數除以公里數。如果你每公里的步數少於1,575，同樣的步數能走得更遠，公式算出的估計值就會比較高；如果每公里步數比較多，估計值就會比較低。\n\n由於熱量數字是以每公斤來表示，公式中的估計值會直接隨體重等比例變化。\n\n## 為什麼實際數字可能偏高或偏低\n\n0.96這個數字描述的是在城市路線上快走通勤。有幾個因素會讓它改變。\n\n### 速度\n\n一項結合實驗與簡化步行模型的研究發現，步行每單位距離的能量消耗對速度非常敏感。跑步時，每單位距離的消耗在不同速度下幾乎不變；走路則不是這樣，所以同樣走15,000步，慢慢散步和大步快走的消耗並不相同。\n\n### 不平的地面\n\n一項研究讓10名健康成人以0.8到1.4 m/s之間的四種速度，在人工不平地面上行走，發現淨代謝率大約隨地面起伏程度的平方以及速度的三次方上升。比起平整的地面，登山步道、石板路和破損的人行道都會增加消耗。\n\n### 跑步機與戶外\n\n在斯德哥爾摩通勤研究中，實地步行每公里所需的能量比在平地跑步機上行走多約30%。研究摘要沒有另外提供跑步機的數值，因此請把0.96當作戶外的數字，並預期在平地跑步機上走同樣距離，消耗會比較低。\n\n### 負重、坡度與體重\n\n一篇關於士兵負重行軍的回顧發現，背著背包步行的能量消耗會隨負重、體重、步行速度和坡度增加。地形類型也有影響。負重的位置同樣重要：腳上每增加1公斤，能量消耗增加7%至10%，大腿上每公斤則增加4%。厚重的鞋子、裝滿東西的背包或上上下下的路線，都會提高每一步的消耗。\n\n### 總熱量與活動熱量\n\n研究報告的每公斤每公里0.96大卡是步行期間的能量消耗，摘要中並沒有說明是否扣除了靜止時的能量消耗。拿公式和裝置讀數比較時，要記得這一點。如果同一次步行在螢幕上顯示不只一個熱量數字，[這篇活動熱量與總熱量的說明](/zh-tw/active-calories-vs-total-calories-burned-tracking-2026)解釋了兩者的差別。\n\n## 走15,000步要多久？有多累？\n\n所需時間取決於步頻，也就是每分鐘走幾步。\n\n- 每分鐘**100步：** 15,000 ÷ 100 = 150分鐘\n- 每分鐘**105步：** 15,000 ÷ 105 ≈ 143分鐘\n\n所以15,000步大約是兩個半小時的步行，不論是一次走完，還是分散在一整天裡。\n\n步頻也能大略反映強度。一項針對孕婦的研究指出，對未懷孕的人來說，每分鐘100步是公認代表中等強度門檻（3 METs）的指標。該研究發現，3 MET的門檻在懷孕期間同樣成立。在中國年輕成人研究中，3 METs的切點是每分鐘105步，6 METs則是每分鐘130步。\n\n實際上，用輕快、有目的的步伐走路，每分鐘的消耗會比慢吞吞閒晃來得多。快走也能在同樣的時間內走更遠，消耗更多熱量。\n\n## 手錶或手機顯示的數字準嗎\n\n直接看穿戴裝置上的熱量數字很方便，但研究建議要保持謹慎。\n\n- 一篇涵蓋65篇文獻、針對腕戴式追蹤器的系統性回顧發現，在能量消耗方面，**所有品牌的平均絕對百分比誤差都超過30%**。這篇回顧的結論是，受測裝置沒有一款能準確測量能量消耗。\n- 一項實驗室研究以間接熱量測定法為基準，在60名受試者身上測試七款腕戴式裝置。**沒有任何一款裝置的能量消耗誤差低於20%。**走路時的誤差最大。\n\n步數就比較可靠。同一篇回顧發現，Fitbit Charge系列的步數準確度不錯。合理的做法是相信步數多過熱量數字。如果想要另一個估算值，可以把步數套進上面的距離與體重公式。[穿戴裝置熱量準確度指南](/zh-tw/wearable-calorie-burn-accuracy-overestimation-2026)深入說明了熱量估算為什麼會出現偏差。\n\n## 除了熱量，走15,000步值得嗎？\n\n熱量只是其中一部分。幾項大型統合分析把每日步數和健康結果連結起來，而15,000步已經高於大多數已測得益處出現的範圍。\n\n- 一項整合15個國際世代研究（47,471名成人）的統合分析發現，步數越多，死亡風險逐步降低。60歲以上成人的風險在每天約6,000至8,000步時趨於平穩，未滿60歲的人則是在8,000至10,000步。\n- 一項劑量反應統合分析發現，和每天2,000步相比，每天7,000步與全因死亡風險降低47%有關。\n\n這些是觀察性的關聯，而且步數越高，曲線越平緩。從10,000步增加到15,000步，是提高能量消耗的合理方式，但數據並沒有顯示，要得到在較適中步數就已出現的死亡率益處，非得走到這麼多不可。想了解這個熱門目標的由來，可以參考[一萬步目標的起源](/zh-tw/walking-10000-steps-origin-health-benefits-2026)。\n\n## 用走路消耗的熱量來管理體重\n\n從這些證據可以整理出幾個實用重點。\n\n**把估算值當作範圍，而不是記帳本。** 速度、地形、負重和步幅都會影響真實數字。把15,000步每公斤9.1大卡當作戶外快走的中間值。在平坦的跑步機上預期會少一些，在多坡或崎嶇的路線上則會多一些。\n\n**步行量會隨時間累積。** 在斯德哥爾摩研究中，規律步行通勤每週的總能量消耗，男性約1,570大卡，女性約1,040大卡。一年下來，參與者大約走了385趟，累計約800公里。穩定、反覆的步行，可以占每週能量消耗中相當可觀的一部分。\n\n**循序漸進地增加。** 從每天很少的步數一下跳到15,000步，會大幅增加站立和走路的時間。逐步提高步數，能讓你觀察食慾、體力和關節的反應。\n\n**別只靠熱量數字決定怎麼吃。** 腕戴裝置的熱量估算誤差很大。觀察幾週內體重和腰圍的變化趨勢，比單日的讀數更可靠。\n\n最簡單的總結：用裝置記錄步數，依照自己的步幅換算成距離，再乘以0.96和你的體重。這樣就能得到合理的走路熱量估算值，也能拿來和自己的實際結果對照。",
+      "key_stats": [
+        {
+          "label": "戶外步行的能量消耗",
+          "value": "每公斤每公里0.96大卡",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "實地步行與平地跑步機比較",
+          "value": "戶外每公里多消耗約30%能量",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "以每分鐘105步走30分鐘的步數",
+          "value": "3,150步或2公里",
+          "source": "Cross-sectional study of Chinese young adults"
+        },
+        {
+          "label": "腕戴式追蹤器的熱量誤差",
+          "value": "所有品牌的平均絕對百分比誤差都超過30%",
+          "source": "Systematic review of wrist-worn activity trackers"
+        },
+        {
+          "label": "實驗室測試中腕戴裝置的最佳熱量準確度",
+          "value": "沒有任何裝置誤差低於20%",
+          "source": "Lab validation of seven wrist-worn devices"
+        }
+      ],
+      "faq": [
+        {
+          "question": "走15,000步消耗多少熱量？",
+          "answer": "依計算，戶外快走大約是每公斤體重9.1大卡。把9.1乘以你的體重（公斤）即可。這個數字來自15,000 ÷ 1,575 ≈ 9.52公里，再乘以實測的每公斤每公里0.96大卡（9.52 × 0.96 ≈ 9.14）。"
+        },
+        {
+          "question": "走一步消耗多少熱量？",
+          "answer": "大約每公斤體重0.00061大卡，也就是每公斤每公里0.96大卡除以每公里約1,575步。換算成每1,000步，約為每公斤0.61大卡。速度較快、上坡、不平的地面和負重，都會提高走路的能量消耗。"
+        },
+        {
+          "question": "15,000步是幾公里？",
+          "answer": "大約9.5公里（15,000 ÷ 1,575），根據的是一項把3,150步等同於2公里的步行建議。這個換算並不是實測的步幅，你實際走的距離取決於自己的步長。在相同速度下，該研究中的女性每分鐘步數比男性多。"
+        },
+        {
+          "question": "走15,000步要多久？",
+          "answer": "以每分鐘100步計算約150分鐘，以每分鐘105步計算約143分鐘。步頻越快，花的時間越短。每分鐘約100步的步頻，常被當作中等強度的門檻。"
+        },
+        {
+          "question": "智慧手錶計算走路消耗的熱量準嗎？",
+          "answer": "不太準。一篇系統性回顧發現，所有腕戴式追蹤器品牌的能量消耗誤差都超過30%。在一項實驗室研究中，沒有任何裝置的誤差低於20%，而且走路時的誤差最大。步數通常比熱量數字可靠。"
+        },
+        {
+          "question": "在戶外走路比在跑步機上消耗更多熱量嗎？",
+          "answer": "通常是的。在一項通勤者的實地研究中，戶外步行每公里所需的能量比平地跑步機多約30%。不平的地形、坡度和負重還會再增加消耗。"
+        }
+      ],
+      "comparison_table": {
+        "title": "步數消耗熱量估算（戶外快走）",
+        "headers": [
+          "每日步數",
+          "約略距離（步數 ÷ 1,575）",
+          "每公斤體重大卡（公里 × 0.96）",
+          "說明"
+        ],
+        "rows": [
+          [
+            "3,150",
+            "2.0公里",
+            "1.92",
+            "以每分鐘105步走30分鐘"
+          ],
+          [
+            "6,000",
+            "3.81公里",
+            "3.66",
+            "一項通勤研究建議的每日交通步數"
+          ],
+          [
+            "7,000",
+            "4.44公里",
+            "4.27",
+            "與每天2,000步相比，全因死亡風險降低47%"
+          ],
+          [
+            "10,000",
+            "6.35公里",
+            "6.10",
+            "廣為推廣的每日目標"
+          ],
+          [
+            "15,000",
+            "9.52公里",
+            "9.14",
+            "以每分鐘105步約需143分鐘"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Perspectives on exercise intensity, volume, step characteristics and health outcomes in walking for transport.",
+          "source": "Frontiers in public health, 2022",
+          "url": "https://doi.org/10.3389/fpubh.2022.911863"
+        },
+        {
+          "title": "Step rate-determined walking intensity and walking recommendation in Chinese young adults: a cross-sectional study.",
+          "source": "BMJ open, 2013",
+          "url": "https://doi.org/10.1136/bmjopen-2012-001801"
+        },
+        {
+          "title": "The energy cost of walking is sensitive to speed but not gravity; for running, it's the other way around: model and experiment.",
+          "source": "The Journal of experimental biology, 2026",
+          "url": "https://doi.org/10.1242/jeb.250582"
+        },
+        {
+          "title": "The energetic cost of human walking as a function of uneven terrain amplitude.",
+          "source": "The Journal of experimental biology, 2025",
+          "url": "https://doi.org/10.1242/jeb.249840"
+        },
+        {
+          "title": "Soldier load carriage: historical, physiological, biomechanical, and medical aspects.",
+          "source": "Military medicine, 2004",
+          "url": "https://doi.org/10.7205/milmed.169.1.45"
+        },
+        {
+          "title": "Walking Cadence during Moderate-Intensity Physical Activity in Pregnant Women.",
+          "source": "International journal of environmental research and public health, 2021",
+          "url": "https://doi.org/10.3390/ijerph18126593"
+        },
+        {
+          "title": "Accuracy and Acceptability of Wrist-Wearable Activity-Tracking Devices: Systematic Review of the Literature.",
+          "source": "Journal of medical Internet research, 2022",
+          "url": "https://doi.org/10.2196/30791"
+        },
+        {
+          "title": "Accuracy in Wrist-Worn, Sensor-Based Measurements of Heart Rate and Energy Expenditure in a Diverse Cohort.",
+          "source": "Journal of personalized medicine, 2017",
+          "url": "https://doi.org/10.3390/jpm7020003"
+        },
+        {
+          "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts.",
+          "source": "The Lancet. Public health, 2022",
+          "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+        },
+        {
+          "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis.",
+          "source": "The Lancet. Public health, 2025",
+          "url": "https://doi.org/10.1016/S2468-2667(25)00164-1"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "es": {
+      "title": "Calorías quemadas por pasos: cuánto queman 15.000 pasos",
+      "short_title": "Calorías que quemas con 15.000 pasos",
+      "short_description": "Cómo calcular las calorías que quemas al caminar, incluidos 15.000 pasos, a partir de tu peso, la distancia y los factores que cambian el resultado.",
+      "meta_description": "Las calorías quemadas por pasos dependen de tu peso y la distancia. Mira la fórmula, cuánto queman 15.000 pasos por kg y por qué los relojes suelen fallar.",
+      "tldr": "Con una conversión de referencia de unos 1.575 pasos por km (3.150 pasos por 2 km), 15.000 pasos equivalen a unos 9,5 km (15.000 ÷ 1.575). Si multiplicas esa distancia por un gasto de la marcha medido en condiciones reales de 0,96 kcal por kg y por km, obtienes unas 9,1 kcal por kilogramo de peso corporal (9,52 × 0,96 ≈ 9,14). Multiplica esa cifra por tu peso en kilogramos para tener una estimación personal. La velocidad, las cuestas, el terreno irregular y el peso que cargas hacen que la cifra real suba o baje.",
+      "body_md": "## La respuesta corta: cuántas calorías queman 15.000 pasos\n\nSi combinas dos cifras publicadas, caminar 15.000 pasos supone aproximadamente **9,1 kcal por cada kilogramo de peso** (15.000 ÷ 1.575 ≈ 9,52 km; luego, 9,52 × 0,96 ≈ 9,14). Para obtener tu propio dato, multiplica 9,1 por tu peso en kilogramos.\n\nEl cálculo tiene tres partes:\n\n- **Distancia:** 15.000 pasos son unos 9,5 km (15.000 ÷ 1.575 pasos por km), según una conversión de pasos a distancia tomada de una recomendación de actividad.\n- **Energía por distancia:** caminar al aire libre costó unas 0,96 kcal por kilogramo y por kilómetro.\n- **Resultado:** 9,52 km × 0,96 ≈ 9,14 kcal por kg.\n\nEs una estimación de partida razonable, no una medición precisa. En el resto de esta guía verás de dónde sale, cómo ajustarla a tu zancada y tus recorridos, y por qué tu reloj puede mostrar algo bastante distinto.\n\n## De dónde salen las cifras por paso\n\nLas calorías que quemas al caminar dependen de dos cosas: cuánto avanzas con cada paso y cuánta energía le cuesta a tu cuerpo cada kilómetro.\n\n### Energía por kilómetro\n\nUn estudio de campo midió a peatones que iban habitualmente a pie al trabajo (10 hombres y 10 mujeres de mediana edad) durante su trayecto real por el área metropolitana de Estocolmo, y no en una cinta. Su gasto energético fue de **0,96 kcal · kg⁻¹ · km⁻¹**. Hombres y mujeres tuvieron demandas energéticas absolutas similares para una misma distancia.\n\nEstas personas caminaban a paso ligero, con velocidades medias de 5,7 km/h en los hombres y 5,9 km/h en las mujeres. Ese ritmo correspondía a cerca del 46 % del consumo máximo de oxígeno y a valores MET de 6,2 y 6,5. Los investigadores lo sitúan en la parte baja del rango de intensidad relativa moderada.\n\n### Pasos por kilómetro\n\nUn estudio transversal con 226 adultos jóvenes chinos, con una edad media de 21,7 años, midió la marcha sobre el suelo. Tradujo las recomendaciones de actividad física en objetivos de pasos: 30 minutos a 105 pasos por minuto, lo que equivale a **3.150 pasos o 2 km**.\n\nAl dividir se obtiene una proporción práctica: 3.150 ÷ 2 = **1.575 pasos por km**, es decir, una longitud media de paso de unos 0,63 m (1.000 m ÷ 1.575). Esta proporción es una conversión incluida en una recomendación de actividad, no una medición directa de la zancada de nadie, así que úsala como valor por defecto y sustitúyela por tu propia cifra.\n\nTu proporción puede ser distinta. El mismo estudio observó que, a igual velocidad, las mujeres daban más pasos por minuto que los hombres. Pasos más cortos significan más pasos por kilómetro.\n\n## Cómo calcular las calorías de cualquier número de pasos\n\nEl método sirve para cualquier total de pasos.\n\n1. **Convierte pasos en distancia:** km = pasos ÷ 1.575 (o usa tu propia cifra de pasos por km).\n2. **Convierte distancia en energía:** kcal = km × 0,96 × peso corporal en kg.\n\nSi lo juntas todo, el atajo es **kcal ≈ pasos × 0,00061 × peso corporal (kg)**, porque 0,96 ÷ 1.575 ≈ 0,00061.\n\nAlgunas referencias:\n\n- **1.000 pasos:** 0,635 km × 0,96 ≈ 0,61 kcal por kg\n- **10.000 pasos:** 6,35 km × 0,96 ≈ 6,1 kcal por kg\n- **15.000 pasos:** 9,52 km × 0,96 ≈ 9,1 kcal por kg\n\n### Personaliza el dato de la zancada\n\nLa mejora más sencilla es reemplazar 1.575 por tu propio número. Recorre a tu ritmo habitual un trayecto de longitud conocida y anota los pasos. Divide los pasos entre los kilómetros. Si das menos de 1.575 pasos por kilómetro, el mismo número de pasos cubre más distancia y la fórmula da una estimación más alta. Si das más pasos por kilómetro, la estimación será más baja.\n\nComo la cifra de energía se expresa por kilogramo, en la fórmula la estimación aumenta de forma directamente proporcional al peso corporal.\n\n## Por qué tu cifra real puede ser mayor o menor\n\nEl valor de 0,96 describe un trayecto a paso ligero por rutas urbanas. Varios factores lo modifican.\n\n### Velocidad\n\nUn estudio que combinó experimentos con un modelo simplificado de la marcha encontró que el gasto energético de caminar por unidad de distancia es muy sensible a la velocidad. Al correr, el gasto por distancia se mantiene casi constante sea cual sea la velocidad. Al caminar no ocurre lo mismo, de modo que un paseo lento y una marcha rápida no cuestan lo mismo en los mismos 15.000 pasos.\n\n### Terreno irregular\n\nUn estudio con 10 adultos sanos que caminaron sobre un terreno irregular artificial a cuatro velocidades de entre 0,8 y 1,4 m/s observó que la tasa metabólica neta aumentaba aproximadamente con el cuadrado de la irregularidad del terreno y con el cubo de la velocidad. Los senderos, los adoquines y las aceras en mal estado suman gasto frente a una superficie lisa.\n\n### Cinta frente a aire libre\n\nEn el estudio de Estocolmo, caminar en condiciones reales exigió alrededor de un 30 % más de energía por km que caminar en una cinta sin inclinación. El resumen del estudio no ofrece un valor aparte para la cinta, así que considera 0,96 una cifra para exteriores y espera que una caminata de la misma longitud en cinta plana dé un resultado menor.\n\n### Carga, cuestas y masa corporal\n\nUna revisión sobre el transporte de carga en soldados encontró que el gasto energético de caminar con mochila aumenta con el peso transportado, la masa corporal, la velocidad y la pendiente. El tipo de terreno también influye. Y dónde va la carga importa: cada kilogramo añadido en el pie aumentó el gasto energético entre un 7 % y un 10 %, frente a un 4 % por kilogramo en el muslo. Un calzado pesado, una mochila cargada o una ruta con cuestas elevan el coste de cada paso.\n\n### Calorías totales frente a calorías activas\n\nEl estudio informa 0,96 kcal por kg y por km como gasto energético durante la marcha, sin aclarar en su resumen si se restó la energía en reposo. Tenlo en cuenta al comparar la fórmula con lo que marca un dispositivo. Si tu pantalla muestra más de una cifra de calorías para la misma caminata, [esta explicación sobre calorías activas y totales](/es/active-calories-vs-total-calories-burned-tracking-2026) aclara la diferencia.\n\n## Cuánto se tarda en dar 15.000 pasos y qué esfuerzo supone\n\nEl tiempo depende de la cadencia, es decir, del número de pasos por minuto.\n\n- A **100 pasos por minuto:** 15.000 ÷ 100 = 150 minutos\n- A **105 pasos por minuto:** 15.000 ÷ 105 ≈ 143 minutos\n\nAsí que 15.000 pasos son unas dos horas y media de caminata, ya sea de una vez o repartidas a lo largo del día.\n\nLa cadencia también da una idea aproximada de la intensidad. Un estudio con embarazadas señala que 100 pasos por minuto es el marcador establecido del umbral de intensidad moderada de 3 MET en personas no embarazadas. El estudio comprobó que ese umbral de 3 MET también se mantenía durante el embarazo. En el estudio con adultos jóvenes chinos, los puntos de corte fueron 105 pasos por minuto para 3 MET y 130 pasos por minuto para 6 MET.\n\nEn la práctica, los pasos dados a un ritmo ágil y con decisión cuestan más por minuto que los pasos lentos de quien deambula sin prisa. Caminar rápido también te permite cubrir más distancia, y quemar más calorías, en el mismo tiempo.\n\n## Lo que te dice tu reloj o tu móvil\n\nEs tentador fiarse sin más de la cifra de calorías que muestra un dispositivo. La investigación aconseja prudencia.\n\n- Una revisión sistemática de 65 artículos sobre pulseras y relojes de actividad encontró que, en gasto energético, el error porcentual absoluto medio era **superior al 30 % en todas las marcas**. La revisión concluyó que ninguno de los dispositivos evaluados medía con precisión el gasto energético.\n- Un estudio de laboratorio comparó siete dispositivos de muñeca con la calorimetría indirecta en 60 voluntarios. **Ningún dispositivo logró un error en el gasto energético inferior al 20 %.** Los errores fueron mayores al caminar.\n\nEl recuento de pasos resiste mejor. La misma revisión encontró que los modelos Fitbit Charge mostraban buena precisión al contar pasos. Lo razonable es confiar más en los pasos que en las calorías. Si quieres una segunda estimación, aplica la fórmula de distancia y peso de arriba a tus pasos. La [guía sobre la precisión de las calorías en los wearables](/es/wearable-calorie-burn-accuracy-overestimation-2026) explica por qué se desvían estas estimaciones.\n\n## ¿Vale la pena dar 15.000 pasos más allá de las calorías?\n\nLas calorías son solo una parte. Varios metaanálisis amplios relacionan los pasos diarios con la salud, y 15.000 pasos queda por encima de los rangos en los que aparece la mayor parte del beneficio medido.\n\n- Un metaanálisis de 15 cohortes internacionales (47.471 adultos) encontró un riesgo de mortalidad cada vez menor a medida que aumentaban los pasos. El riesgo se estabilizaba en torno a 6.000–8.000 pasos al día en adultos de 60 años o más, y en 8.000–10.000 en los menores de 60.\n- Un metaanálisis de dosis-respuesta halló que, frente a 2.000 pasos diarios, 7.000 pasos al día se asociaban con un riesgo de mortalidad por cualquier causa un 47 % menor.\n\nSon asociaciones observacionales, y las curvas se aplanan con recuentos altos. Pasar de 10.000 a 15.000 pasos es una forma razonable de aumentar el gasto energético, pero los datos no indican que sea necesario para obtener los beneficios en mortalidad que se observan con cifras más moderadas. Si quieres saber de dónde viene el objetivo popular, consulta [el origen de la meta de los 10.000 pasos](/es/walking-10000-steps-origin-health-benefits-2026).\n\n## Cómo usar las calorías de los pasos para controlar el peso\n\nDe la evidencia se desprenden algunas ideas prácticas.\n\n**Usa la estimación como un rango, no como una contabilidad exacta.** La velocidad, el terreno, la carga y la zancada mueven la cifra real. Toma las 9,1 kcal por kg de 15.000 pasos como un punto medio para caminar a paso ligero al aire libre. Espera menos en una cinta plana y más en rutas con cuestas o accidentadas.\n\n**El volumen de caminata se acumula con el tiempo.** En el estudio de Estocolmo, ir caminando al trabajo con regularidad supuso un gasto energético semanal total de unas 1.570 kcal en los hombres y 1.040 kcal en las mujeres. A lo largo del año, los participantes hicieron unos 385 trayectos que sumaron unos 800 km. Caminar de forma constante y repetida puede representar una parte importante del gasto energético semanal.\n\n**Aumenta poco a poco.** Saltar de pocos pasos diarios a 15.000 supone muchas más horas de pie. Subir la cifra por etapas te permite notar cómo responden tu apetito, tu energía y tus articulaciones.\n\n**No dejes que la cifra de calorías decida por sí sola lo que comes.** Las estimaciones de calorías de los dispositivos de muñeca tienen errores grandes. Seguir la tendencia de tu peso y tu perímetro de cintura a lo largo de varias semanas da una señal más fiable que la lectura de un solo día.\n\nEn resumen: cuenta tus pasos con un dispositivo, conviértelos en distancia con tu propia zancada y multiplica por 0,96 y por tu peso corporal. Así obtienes una estimación razonable de las calorías que quemas al caminar, que puedes contrastar con tus propios resultados.",
+      "key_stats": [
+        {
+          "label": "Gasto energético de caminar al aire libre",
+          "value": "0,96 kcal por kg y por km",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Caminar en exterior frente a cinta plana",
+          "value": "Alrededor de un 30 % más de energía por km al aire libre",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Pasos en 30 minutos a 105 pasos/min",
+          "value": "3.150 pasos o 2 km",
+          "source": "Cross-sectional study of Chinese young adults"
+        },
+        {
+          "label": "Error en calorías de las pulseras de actividad",
+          "value": "Error porcentual absoluto medio superior al 30 % en todas las marcas",
+          "source": "Systematic review of wrist-worn activity trackers"
+        },
+        {
+          "label": "Mejor precisión en calorías en una prueba de laboratorio",
+          "value": "Ningún dispositivo con un error inferior al 20 %",
+          "source": "Lab validation of seven wrist-worn devices"
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Cuántas calorías queman 15.000 pasos?",
+          "answer": "Según el cálculo, unas 9,1 kcal por kilogramo de peso corporal caminando a paso ligero al aire libre. Multiplica 9,1 por tu peso en kg. La cifra sale de 15.000 ÷ 1.575 ≈ 9,52 km, multiplicado por un gasto medido de 0,96 kcal por kg y por km (9,52 × 0,96 ≈ 9,14)."
+        },
+        {
+          "question": "¿Cuántas calorías quema un paso?",
+          "answer": "Aproximadamente 0,00061 kcal por kilogramo de peso corporal, que resulta de dividir 0,96 kcal por kg y por km entre unos 1.575 pasos por km. Cada 1.000 pasos son unas 0,61 kcal por kg. Una mayor velocidad, las cuestas, el terreno irregular y la carga aumentan el gasto energético de caminar."
+        },
+        {
+          "question": "¿Cuántos kilómetros son 15.000 pasos?",
+          "answer": "Unos 9,5 km (15.000 ÷ 1.575), según una recomendación de actividad que equipara 3.150 pasos con 2 km. Esa conversión no es una zancada medida, y tu distancia depende de la longitud de tu paso. A la misma velocidad, las mujeres de ese estudio daban más pasos por minuto que los hombres."
+        },
+        {
+          "question": "¿Cuánto se tarda en caminar 15.000 pasos?",
+          "answer": "Unos 150 minutos a 100 pasos por minuto, o unos 143 minutos a 105 pasos por minuto. Una cadencia más rápida acorta el tiempo. Una cadencia de unos 100 pasos por minuto se usa habitualmente como umbral de intensidad moderada."
+        },
+        {
+          "question": "¿Son precisas las calorías que calcula el reloj inteligente al caminar?",
+          "answer": "No mucho. Una revisión sistemática encontró errores en el gasto energético superiores al 30 % en todas las marcas de dispositivos de muñeca. En un estudio de laboratorio, ningún dispositivo logró un error inferior al 20 %, y los errores fueron mayores al caminar. El recuento de pasos suele ser más fiable que la cifra de calorías."
+        },
+        {
+          "question": "¿Se queman más calorías caminando al aire libre que en la cinta?",
+          "answer": "Normalmente sí. En un estudio de campo con personas que iban caminando al trabajo, caminar al aire libre exigió alrededor de un 30 % más de energía por km que hacerlo en una cinta plana. El terreno irregular, las cuestas y la carga aumentan aún más el gasto."
+        }
+      ],
+      "comparison_table": {
+        "title": "Calorías estimadas según los pasos (caminata ligera al aire libre)",
+        "headers": [
+          "Pasos diarios",
+          "Distancia aprox. (pasos ÷ 1.575)",
+          "kcal por kg de peso (km × 0,96)",
+          "Contexto"
+        ],
+        "rows": [
+          [
+            "3.150",
+            "2,0 km",
+            "1,92",
+            "30 minutos a 105 pasos/min"
+          ],
+          [
+            "6.000",
+            "3,81 km",
+            "3,66",
+            "Recomendación diaria de pasos de desplazamiento de un estudio con trabajadores que van a pie"
+          ],
+          [
+            "7.000",
+            "4,44 km",
+            "4,27",
+            "Asociado con un 47 % menos de mortalidad por cualquier causa frente a 2.000 pasos/día"
+          ],
+          [
+            "10.000",
+            "6,35 km",
+            "6,10",
+            "El objetivo diario más difundido"
+          ],
+          [
+            "15.000",
+            "9,52 km",
+            "9,14",
+            "Unos 143 minutos a 105 pasos/min"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Perspectives on exercise intensity, volume, step characteristics and health outcomes in walking for transport.",
+          "source": "Frontiers in public health, 2022",
+          "url": "https://doi.org/10.3389/fpubh.2022.911863"
+        },
+        {
+          "title": "Step rate-determined walking intensity and walking recommendation in Chinese young adults: a cross-sectional study.",
+          "source": "BMJ open, 2013",
+          "url": "https://doi.org/10.1136/bmjopen-2012-001801"
+        },
+        {
+          "title": "The energy cost of walking is sensitive to speed but not gravity; for running, it's the other way around: model and experiment.",
+          "source": "The Journal of experimental biology, 2026",
+          "url": "https://doi.org/10.1242/jeb.250582"
+        },
+        {
+          "title": "The energetic cost of human walking as a function of uneven terrain amplitude.",
+          "source": "The Journal of experimental biology, 2025",
+          "url": "https://doi.org/10.1242/jeb.249840"
+        },
+        {
+          "title": "Soldier load carriage: historical, physiological, biomechanical, and medical aspects.",
+          "source": "Military medicine, 2004",
+          "url": "https://doi.org/10.7205/milmed.169.1.45"
+        },
+        {
+          "title": "Walking Cadence during Moderate-Intensity Physical Activity in Pregnant Women.",
+          "source": "International journal of environmental research and public health, 2021",
+          "url": "https://doi.org/10.3390/ijerph18126593"
+        },
+        {
+          "title": "Accuracy and Acceptability of Wrist-Wearable Activity-Tracking Devices: Systematic Review of the Literature.",
+          "source": "Journal of medical Internet research, 2022",
+          "url": "https://doi.org/10.2196/30791"
+        },
+        {
+          "title": "Accuracy in Wrist-Worn, Sensor-Based Measurements of Heart Rate and Energy Expenditure in a Diverse Cohort.",
+          "source": "Journal of personalized medicine, 2017",
+          "url": "https://doi.org/10.3390/jpm7020003"
+        },
+        {
+          "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts.",
+          "source": "The Lancet. Public health, 2022",
+          "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+        },
+        {
+          "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis.",
+          "source": "The Lancet. Public health, 2025",
+          "url": "https://doi.org/10.1016/S2468-2667(25)00164-1"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "pt-BR": {
+      "title": "Quantas calorias 15 mil passos gastam? Veja o cálculo",
+      "short_title": "Calorias gastas em 15 mil passos",
+      "short_description": "Como estimar as calorias gastas por passos, incluindo 15 mil passos, a partir do peso, da distância e dos fatores que mudam o resultado.",
+      "meta_description": "As calorias gastas por passos dependem do peso e da distância. Veja a fórmula, quanto 15 mil passos gastam por kg e por que o relógio costuma errar a conta.",
+      "tldr": "Usando uma conversão de referência de cerca de 1.575 passos por km (3.150 passos a cada 2 km), 15.000 passos equivalem a aproximadamente 9,5 km (15.000 ÷ 1.575). Multiplicando essa distância pelo gasto da caminhada medido em campo, de 0,96 kcal por kg por km, chega-se a cerca de 9,1 kcal por quilo de peso corporal (9,52 × 0,96 ≈ 9,14). Multiplique esse valor pelo seu peso em quilos para ter uma estimativa pessoal. Velocidade, subidas, terreno irregular e peso carregado fazem o número real subir ou descer.",
+      "body_md": "## Resposta rápida: quantas calorias 15 mil passos gastam\n\nCombinando dois dados publicados, caminhar 15.000 passos dá aproximadamente **9,1 kcal para cada quilo do seu peso** (15.000 ÷ 1.575 ≈ 9,52 km; depois, 9,52 × 0,96 ≈ 9,14). Para chegar ao seu número, multiplique 9,1 pelo seu peso em quilos.\n\nO cálculo tem três partes:\n\n- **Distância:** 15.000 passos são cerca de 9,5 km (15.000 ÷ 1.575 passos por km), usando uma conversão de passos em distância tirada de uma recomendação de caminhada.\n- **Energia por distância:** caminhar ao ar livre custou cerca de 0,96 kcal por quilo por quilômetro.\n- **Resultado:** 9,52 km × 0,96 ≈ 9,14 kcal por kg.\n\nEsse número é uma boa estimativa inicial, não uma medida precisa. O restante deste guia mostra de onde ele vem, como ajustá-lo à sua passada e aos seus trajetos e por que seu relógio pode mostrar algo bem diferente.\n\n## De onde vêm os números por passo\n\nDuas coisas determinam as calorias gastas por passos: quanto cada passo leva você adiante e quanta energia cada quilômetro de caminhada custa ao corpo.\n\n### Energia por quilômetro\n\nUm estudo de campo avaliou pessoas que costumavam ir a pé para o trabalho (10 homens e 10 mulheres de meia-idade) durante o trajeto real na região metropolitana de Estocolmo, e não em uma esteira. O gasto energético foi de **0,96 kcal · kg⁻¹ · km⁻¹**. Homens e mulheres tiveram demandas energéticas absolutas parecidas para a mesma distância.\n\nEsses trabalhadores caminhavam em ritmo acelerado, com velocidade média de 5,7 km/h entre os homens e 5,9 km/h entre as mulheres. Esse ritmo correspondia a cerca de 46% do consumo máximo de oxigênio e a valores de MET de 6,2 e 6,5. Os pesquisadores situam essa intensidade na parte mais baixa da faixa de intensidade relativa moderada.\n\n### Passos por quilômetro\n\nUm estudo transversal com 226 jovens adultos chineses, com idade média de 21,7 anos, avaliou a caminhada no chão. Ele traduziu as diretrizes de atividade física em metas de caminhada: 30 minutos a 105 passos por minuto, o que equivale a **3.150 passos ou 2 km**.\n\nDividindo, chega-se a uma proporção prática: 3.150 ÷ 2 = **1.575 passos por km**, ou um comprimento médio de passo de cerca de 0,63 m (1.000 m ÷ 1.575). Essa proporção é uma conversão embutida em uma recomendação de caminhada, não uma medição direta da passada de alguém, então use-a como valor padrão e troque pelo seu próprio número.\n\nSua proporção pode ser diferente. O mesmo estudo mostrou que, na mesma velocidade, as mulheres davam mais passos por minuto do que os homens. Passos mais curtos significam mais passos por quilômetro.\n\n## Como calcular as calorias de qualquer número de passos\n\nO método funciona para qualquer total de passos.\n\n1. **Converta passos em distância:** km = passos ÷ 1.575 (ou use o seu próprio número de passos por km).\n2. **Converta distância em energia:** kcal = km × 0,96 × peso corporal em kg.\n\nJuntando tudo, o atalho é **kcal ≈ passos × 0,00061 × peso corporal (kg)**, porque 0,96 ÷ 1.575 ≈ 0,00061.\n\nAlguns pontos de referência:\n\n- **1.000 passos:** 0,635 km × 0,96 ≈ 0,61 kcal por kg\n- **10.000 passos:** 6,35 km × 0,96 ≈ 6,1 kcal por kg\n- **15.000 passos:** 9,52 km × 0,96 ≈ 9,1 kcal por kg\n\n### Personalize o valor da passada\n\nO ajuste mais fácil e que mais faz diferença é trocar 1.575 pelo seu próprio número. Percorra no seu ritmo normal um trajeto de distância conhecida e anote a contagem de passos. Divida os passos pelos quilômetros. Se você dá menos de 1.575 passos por quilômetro, a mesma quantidade de passos cobre uma distância maior, e a fórmula dá uma estimativa mais alta. Se dá mais passos por quilômetro, a estimativa fica mais baixa.\n\nComo o valor de energia é expresso por quilo, na fórmula a estimativa aumenta na mesma proporção do peso corporal.\n\n## Por que o seu número real pode ser maior ou menor\n\nO valor de 0,96 descreve uma caminhada acelerada até o trabalho em trajetos urbanos. Vários fatores mudam esse número.\n\n### Velocidade\n\nUm estudo que combinou experimentos com um modelo simplificado de caminhada descobriu que o gasto energético da caminhada por distância é muito sensível à velocidade. Na corrida, o gasto por distância fica praticamente constante em diferentes velocidades. Na caminhada, não, então um passeio lento e uma caminhada rápida nos mesmos 15.000 passos não têm o mesmo custo.\n\n### Terreno irregular\n\nUm estudo com 10 adultos saudáveis caminhando em terreno irregular artificial, em quatro velocidades entre 0,8 e 1,4 m/s, mostrou que a taxa metabólica líquida aumentava aproximadamente com o quadrado da irregularidade do terreno e com o cubo da velocidade. Trilhas, paralelepípedos e calçadas esburacadas aumentam o gasto em comparação com um piso liso.\n\n### Esteira ou ao ar livre\n\nNo estudo de Estocolmo, caminhar em condições reais exigiu cerca de 30% mais energia por km do que caminhar em esteira sem inclinação. O resumo do estudo não traz um valor separado para a esteira, então considere 0,96 um número para caminhadas ao ar livre e espere que uma caminhada da mesma distância na esteira plana gaste menos.\n\n### Carga, subidas e massa corporal\n\nUma revisão sobre transporte de carga por soldados mostrou que o gasto energético de caminhar com mochila aumenta com o peso carregado, a massa corporal, a velocidade e a inclinação. O tipo de terreno também conta. E o lugar onde fica a carga faz diferença: cada quilo adicionado ao pé aumentou o gasto energético de 7% a 10%, contra 4% por quilo na coxa. Tênis pesado, mochila cheia ou um trajeto com subidas elevam o custo de cada passo.\n\n### Calorias totais ou calorias ativas\n\nO estudo informa 0,96 kcal por kg por km como gasto energético durante a caminhada, sem dizer no resumo se a energia de repouso foi descontada. Leve isso em conta ao comparar a fórmula com o que aparece no aparelho. Se a tela mostra mais de um número de calorias para a mesma caminhada, [este texto sobre calorias ativas e totais](/pt-br/active-calories-vs-total-calories-burned-tracking-2026) explica a diferença.\n\n## Quanto tempo levam 15 mil passos e qual é o esforço\n\nO tempo depende da cadência, ou seja, do número de passos por minuto.\n\n- A **100 passos por minuto:** 15.000 ÷ 100 = 150 minutos\n- A **105 passos por minuto:** 15.000 ÷ 105 ≈ 143 minutos\n\nOu seja, 15.000 passos equivalem a cerca de duas horas e meia de caminhada, seja de uma vez só ou ao longo do dia.\n\nA cadência também dá uma ideia aproximada da intensidade. Um estudo com gestantes observa que 100 passos por minuto é o marcador estabelecido do limiar de intensidade moderada, de 3 METs, em pessoas não gestantes. O estudo constatou que o corte de 3 METs também valia na gravidez. No estudo com jovens adultos chineses, os pontos de corte foram 105 passos por minuto para 3 METs e 130 passos por minuto para 6 METs.\n\nNa prática, passos dados em ritmo acelerado e com propósito gastam mais por minuto do que passos lentos, de quem está só dando uma voltinha. Caminhar rápido também permite cobrir mais distância, e gastar mais calorias, no mesmo tempo.\n\n## O que o seu relógio ou celular mostra\n\nDá vontade de confiar direto no número de calorias do aparelho. As pesquisas recomendam cautela.\n\n- Uma revisão sistemática de 65 artigos sobre pulseiras e relógios de atividade mostrou que, no gasto energético, o erro percentual absoluto médio foi **superior a 30% em todas as marcas**. A revisão concluiu que nenhum dos aparelhos avaliados media o gasto energético com precisão.\n- Um estudo de laboratório comparou sete dispositivos de pulso com a calorimetria indireta em 60 voluntários. **Nenhum aparelho teve erro de gasto energético abaixo de 20%.** Os erros foram maiores durante a caminhada.\n\nA contagem de passos se sai melhor. A mesma revisão mostrou que os modelos Fitbit Charge tiveram boa precisão na contagem de passos. Uma abordagem sensata é confiar mais nos passos do que nas calorias. Se quiser uma segunda estimativa, aplique a fórmula de distância e peso acima aos seus passos. O [guia sobre a precisão das calorias em dispositivos vestíveis](/pt-br/wearable-calorie-burn-accuracy-overestimation-2026) explica por que essas estimativas se desviam.\n\n## Vale a pena andar 15 mil passos além das calorias?\n\nAs calorias são só parte da história. Várias metanálises grandes associam os passos diários a desfechos de saúde, e 15.000 passos fica acima das faixas em que aparece a maior parte do benefício medido.\n\n- Uma metanálise de 15 coortes internacionais (47.471 adultos) encontrou risco de mortalidade progressivamente menor com mais passos. O risco se estabilizava por volta de 6.000–8.000 passos por dia em adultos com 60 anos ou mais e de 8.000–10.000 nos menores de 60.\n- Uma metanálise de dose-resposta mostrou que, em comparação com 2.000 passos por dia, 7.000 passos por dia estavam associados a um risco 47% menor de mortalidade por todas as causas.\n\nSão associações observacionais, e as curvas se achatam nas contagens mais altas. Passar de 10.000 para 15.000 passos é uma forma razoável de aumentar o gasto energético. Os dados não indicam que isso seja necessário para obter os benefícios em mortalidade vistos com contagens mais moderadas. Para entender de onde veio a meta popular, veja [a origem da meta de 10 mil passos](/pt-br/walking-10000-steps-origin-health-benefits-2026).\n\n## Como usar as calorias dos passos no controle do peso\n\nAlgumas orientações práticas decorrem das evidências.\n\n**Use a estimativa como uma faixa, não como uma conta exata.** Velocidade, terreno, carga e passada mudam o número real. Considere as 9,1 kcal por kg dos 15.000 passos como um valor intermediário para caminhada acelerada ao ar livre. Espere menos em uma esteira plana e mais em trajetos com subidas ou irregulares.\n\n**O volume de caminhada se acumula com o tempo.** No estudo de Estocolmo, ir a pé para o trabalho regularmente gerou um gasto energético semanal total de cerca de 1.570 kcal entre os homens e 1.040 kcal entre as mulheres. Ao longo do ano, os participantes fizeram cerca de 385 trajetos, somando aproximadamente 800 km. Caminhar de forma constante e repetida pode responder por uma parcela importante do gasto energético semanal.\n\n**Aumente aos poucos.** Pular de uma contagem diária baixa para 15.000 passos significa muito mais tempo em pé. Subir a contagem por etapas permite perceber como seu apetite, sua disposição e suas articulações respondem.\n\n**Não deixe que o número de calorias decida sozinho o que você come.** As estimativas de calorias dos dispositivos de pulso têm erros grandes. Acompanhar a tendência do peso e da circunferência da cintura ao longo de semanas dá um sinal mais confiável do que a leitura de um único dia.\n\nResumindo: conte seus passos com um aparelho, converta em distância usando a sua própria passada e multiplique por 0,96 e pelo seu peso corporal. Assim você tem uma estimativa razoável das calorias gastas por passos, que pode comparar com os seus próprios resultados.",
+      "key_stats": [
+        {
+          "label": "Gasto energético da caminhada ao ar livre",
+          "value": "0,96 kcal por kg por km",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Caminhada ao ar livre vs. esteira plana",
+          "value": "Cerca de 30% mais energia por km ao ar livre",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Passos em 30 minutos a 105 passos/min",
+          "value": "3.150 passos ou 2 km",
+          "source": "Cross-sectional study of Chinese young adults"
+        },
+        {
+          "label": "Erro de calorias das pulseiras de atividade",
+          "value": "Erro percentual absoluto médio acima de 30% em todas as marcas",
+          "source": "Systematic review of wrist-worn activity trackers"
+        },
+        {
+          "label": "Melhor precisão de calorias em teste de laboratório",
+          "value": "Nenhum aparelho com erro abaixo de 20%",
+          "source": "Lab validation of seven wrist-worn devices"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Quantas calorias 15 mil passos gastam?",
+          "answer": "Pelo cálculo, cerca de 9,1 kcal por quilo de peso corporal em uma caminhada acelerada ao ar livre. Multiplique 9,1 pelo seu peso em kg. O valor vem de 15.000 ÷ 1.575 ≈ 9,52 km, multiplicado por um gasto medido de 0,96 kcal por kg por km (9,52 × 0,96 ≈ 9,14)."
+        },
+        {
+          "question": "Quantas calorias um passo gasta?",
+          "answer": "Aproximadamente 0,00061 kcal por quilo de peso corporal, que é 0,96 kcal por kg por km dividido por cerca de 1.575 passos por km. A cada 1.000 passos, isso dá cerca de 0,61 kcal por kg. Velocidades maiores, subidas, terreno irregular e carga aumentam o gasto energético da caminhada."
+        },
+        {
+          "question": "Quantos km são 15 mil passos?",
+          "answer": "Cerca de 9,5 km (15.000 ÷ 1.575), com base em uma recomendação de caminhada que equipara 3.150 passos a 2 km. Essa conversão não é uma passada medida, e a sua distância depende do comprimento do seu passo. Na mesma velocidade, as mulheres desse estudo davam mais passos por minuto do que os homens."
+        },
+        {
+          "question": "Quanto tempo leva para andar 15 mil passos?",
+          "answer": "Cerca de 150 minutos a 100 passos por minuto, ou cerca de 143 minutos a 105 passos por minuto. Cadências mais rápidas encurtam o tempo. Uma cadência de cerca de 100 passos por minuto é comumente usada como limiar da intensidade moderada."
+        },
+        {
+          "question": "As calorias da caminhada no smartwatch são precisas?",
+          "answer": "Não muito. Uma revisão sistemática encontrou erros de gasto energético acima de 30% em todas as marcas de dispositivos de pulso. Em um estudo de laboratório, nenhum aparelho teve erro abaixo de 20%, e os erros foram maiores durante a caminhada. A contagem de passos costuma ser mais confiável do que o número de calorias."
+        },
+        {
+          "question": "Caminhar ao ar livre gasta mais calorias do que na esteira?",
+          "answer": "Geralmente sim. Em um estudo de campo com pessoas que iam a pé para o trabalho, caminhar ao ar livre exigiu cerca de 30% mais energia por km do que caminhar em esteira plana. Terreno irregular, subidas e carga aumentam ainda mais o gasto."
+        }
+      ],
+      "comparison_table": {
+        "title": "Estimativa de calorias gastas por passos (caminhada acelerada ao ar livre)",
+        "headers": [
+          "Passos por dia",
+          "Distância aprox. (passos ÷ 1.575)",
+          "kcal por kg de peso (km × 0,96)",
+          "Contexto"
+        ],
+        "rows": [
+          [
+            "3.150",
+            "2,0 km",
+            "1,92",
+            "30 minutos a 105 passos/min"
+          ],
+          [
+            "6.000",
+            "3,81 km",
+            "3,66",
+            "Recomendação diária de passos em deslocamentos, de um estudo com pessoas que vão a pé ao trabalho"
+          ],
+          [
+            "7.000",
+            "4,44 km",
+            "4,27",
+            "Associado a mortalidade por todas as causas 47% menor vs. 2.000 passos/dia"
+          ],
+          [
+            "10.000",
+            "6,35 km",
+            "6,10",
+            "A meta diária mais divulgada"
+          ],
+          [
+            "15.000",
+            "9,52 km",
+            "9,14",
+            "Cerca de 143 minutos a 105 passos/min"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Perspectives on exercise intensity, volume, step characteristics and health outcomes in walking for transport.",
+          "source": "Frontiers in public health, 2022",
+          "url": "https://doi.org/10.3389/fpubh.2022.911863"
+        },
+        {
+          "title": "Step rate-determined walking intensity and walking recommendation in Chinese young adults: a cross-sectional study.",
+          "source": "BMJ open, 2013",
+          "url": "https://doi.org/10.1136/bmjopen-2012-001801"
+        },
+        {
+          "title": "The energy cost of walking is sensitive to speed but not gravity; for running, it's the other way around: model and experiment.",
+          "source": "The Journal of experimental biology, 2026",
+          "url": "https://doi.org/10.1242/jeb.250582"
+        },
+        {
+          "title": "The energetic cost of human walking as a function of uneven terrain amplitude.",
+          "source": "The Journal of experimental biology, 2025",
+          "url": "https://doi.org/10.1242/jeb.249840"
+        },
+        {
+          "title": "Soldier load carriage: historical, physiological, biomechanical, and medical aspects.",
+          "source": "Military medicine, 2004",
+          "url": "https://doi.org/10.7205/milmed.169.1.45"
+        },
+        {
+          "title": "Walking Cadence during Moderate-Intensity Physical Activity in Pregnant Women.",
+          "source": "International journal of environmental research and public health, 2021",
+          "url": "https://doi.org/10.3390/ijerph18126593"
+        },
+        {
+          "title": "Accuracy and Acceptability of Wrist-Wearable Activity-Tracking Devices: Systematic Review of the Literature.",
+          "source": "Journal of medical Internet research, 2022",
+          "url": "https://doi.org/10.2196/30791"
+        },
+        {
+          "title": "Accuracy in Wrist-Worn, Sensor-Based Measurements of Heart Rate and Energy Expenditure in a Diverse Cohort.",
+          "source": "Journal of personalized medicine, 2017",
+          "url": "https://doi.org/10.3390/jpm7020003"
+        },
+        {
+          "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts.",
+          "source": "The Lancet. Public health, 2022",
+          "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+        },
+        {
+          "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis.",
+          "source": "The Lancet. Public health, 2025",
+          "url": "https://doi.org/10.1016/S2468-2667(25)00164-1"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "id": {
+      "title": "15.000 Langkah Berapa Kalori? Cara Hitung Kalori Langkah",
+      "short_title": "Kalori yang Terbakar dari 15.000 Langkah",
+      "short_description": "Cara memperkirakan kalori yang terbakar dari langkah, termasuk 15.000 langkah, berdasarkan berat badan, jarak, dan faktor yang memengaruhi hasilnya.",
+      "meta_description": "15.000 langkah berapa kalori? Kalori yang terbakar dari jalan kaki bergantung pada berat badan dan jarak. Simak rumusnya, hasil per kg, dan mengapa smartwatch sering keliru.",
+      "tldr": "Dengan konversi dari sebuah pedoman, yaitu sekitar 1.575 langkah per km (3.150 langkah per 2 km), 15.000 langkah setara dengan jarak sekitar 9,5 km (15.000 ÷ 1.575). Jarak itu dikalikan dengan biaya energi jalan kaki hasil pengukuran lapangan, yaitu 0,96 kkal per kg per km. Hasilnya sekitar 9,1 kkal per kilogram berat badan (9,52 × 0,96 ≈ 9,14). Kalikan angka tersebut dengan berat badan Anda dalam kilogram untuk mendapatkan perkiraan pribadi. Kecepatan, tanjakan, permukaan yang tidak rata, dan beban yang dibawa bisa menaikkan atau menurunkan angka sebenarnya.",
+      "body_md": "## Jawaban singkat: kalori yang terbakar dari 15.000 langkah\n\nJika dua angka yang telah dipublikasikan digabungkan, berjalan 15.000 langkah membakar sekitar **9,1 kkal untuk setiap kilogram berat badan Anda** (15.000 ÷ 1.575 ≈ 9,52 km, lalu 9,52 × 0,96 ≈ 9,14). Untuk mendapatkan angka pribadi Anda, kalikan 9,1 dengan berat badan Anda dalam kilogram.\n\nPerhitungannya terdiri dari tiga bagian:\n\n- **Jarak:** 15.000 langkah kira-kira setara dengan 9,5 km (15.000 ÷ 1.575 langkah per km). Angka ini memakai konversi langkah ke jarak dari sebuah rekomendasi jalan kaki.\n- **Energi per jarak:** berjalan di luar ruangan membutuhkan sekitar 0,96 kkal per kilogram per kilometer.\n- **Hasil:** 9,52 km × 0,96 ≈ 9,14 kkal per kg.\n\nAngka ini adalah titik awal perkiraan yang masuk akal, bukan hasil pengukuran yang presisi. Bagian berikut menjelaskan asal angka tersebut dan cara menyesuaikannya dengan panjang langkah serta rute Anda sendiri. Anda juga akan mengetahui mengapa jam tangan Anda bisa menunjukkan angka yang cukup berbeda.\n\n## Dari mana angka per langkah ini berasal\n\nAda dua hal yang menentukan jumlah kalori yang terbakar dari langkah. Yang pertama adalah seberapa jauh setiap langkah membawa Anda. Yang kedua adalah berapa banyak energi yang dibutuhkan tubuh untuk setiap kilometer berjalan.\n\n### Energi per kilometer\n\nSebuah studi lapangan mengukur para komuter yang terbiasa berjalan kaki (10 pria dan 10 wanita, usia paruh baya). Pengukuran dilakukan saat mereka benar-benar berjalan ke tempat kerja di wilayah Greater Stockholm, bukan di atas treadmill. Pengeluaran energi mereka mencapai **0,96 kkal · kg⁻¹ · km⁻¹**. Untuk jarak yang sama, kebutuhan energi absolut pria dan wanita serupa.\n\nPara komuter ini berjalan dengan cepat. Kecepatan rata-rata mereka adalah 5,7 km/jam untuk pria dan 5,9 km/jam untuk wanita. Kecepatan tersebut setara dengan sekitar 46% dari ambilan oksigen maksimal dan nilai MET 6,2 serta 6,5. Para peneliti menempatkannya di bagian bawah rentang intensitas relatif sedang.\n\n### Langkah per kilometer\n\nSebuah studi potong lintang mengukur aktivitas berjalan di permukaan tanah pada 226 dewasa muda di Tiongkok dengan usia rata-rata 21,7 tahun. Studi ini menerjemahkan pedoman aktivitas fisik menjadi target jalan kaki, yaitu 30 menit dengan 105 langkah per menit. Target itu setara dengan **3.150 langkah atau 2 km**.\n\nDari pembagian itu didapat rasio kerja: 3.150 ÷ 2 = **1.575 langkah per km**. Artinya, panjang langkah rata-rata sekitar 0,63 m (1.000 m ÷ 1.575). Rasio ini adalah konversi yang tertanam dalam sebuah rekomendasi jalan kaki, bukan pengukuran langsung panjang langkah seseorang. Karena itu, anggaplah angka ini sebagai nilai bawaan yang sebaiknya Anda ganti dengan angka Anda sendiri.\n\nRasio Anda bisa berbeda. Studi yang sama menemukan bahwa pada kecepatan berjalan yang sama, wanita mengambil lebih banyak langkah per menit dibanding pria. Langkah yang lebih pendek berarti lebih banyak langkah per kilometer.\n\n## Cara menghitung kalori untuk jumlah langkah berapa pun\n\nMetode ini bisa dipakai untuk total langkah berapa pun.\n\n1. **Ubah langkah menjadi jarak:** km = langkah ÷ 1.575 (atau gunakan angka langkah per km milik Anda sendiri).\n2. **Ubah jarak menjadi energi:** kkal = km × 0,96 × berat badan dalam kg.\n\nJika digabungkan, rumus singkatnya adalah **kkal ≈ langkah × 0,00061 × berat badan (kg)**, karena 0,96 ÷ 1.575 ≈ 0,00061.\n\nBeberapa titik acuan:\n\n- **1.000 langkah:** 0,635 km × 0,96 ≈ 0,61 kkal per kg\n- **10.000 langkah:** 6,35 km × 0,96 ≈ 6,1 kkal per kg\n- **15.000 langkah:** 9,52 km × 0,96 ≈ 9,1 kkal per kg\n\n### Sesuaikan angka panjang langkah Anda\n\nCara termudah untuk mendapatkan hasil yang jauh lebih akurat adalah mengganti angka 1.575 dengan angka Anda sendiri. Caranya:\n\n1. Berjalanlah di rute yang panjangnya sudah diketahui dengan kecepatan normal Anda.\n2. Catat jumlah langkahnya.\n3. Bagi jumlah langkah dengan jumlah kilometer.\n\nJika Anda mengambil kurang dari 1.575 langkah per kilometer, jumlah langkah yang sama menempuh jarak lebih jauh. Akibatnya, rumus memberikan perkiraan yang lebih tinggi. Jika Anda mengambil lebih banyak langkah per kilometer, perkiraannya menjadi lebih rendah.\n\nKarena angka energinya dinyatakan per kilogram, perkiraan dalam rumus ini naik sebanding dengan berat badan.\n\n## Mengapa angka sebenarnya bisa lebih tinggi atau lebih rendah\n\nAngka 0,96 menggambarkan jalan cepat para komuter di rute perkotaan. Ada beberapa faktor yang bisa menggesernya.\n\n### Kecepatan\n\nSebuah studi menggabungkan eksperimen dengan model jalan kaki minimal. Hasilnya, biaya energi berjalan per jarak ternyata sangat sensitif terhadap kecepatan. Pada lari, biaya per jarak hampir konstan di berbagai kecepatan. Pada jalan kaki tidak demikian. Jadi, berjalan santai dan berjalan cepat sejauh 15.000 langkah yang sama tidak akan menghabiskan energi yang sama.\n\n### Permukaan tidak rata\n\nSebuah studi melibatkan 10 orang dewasa sehat yang berjalan di medan tidak rata buatan. Mereka berjalan pada empat kecepatan antara 0,8 dan 1,4 m/detik. Laju metabolisme bersih mereka meningkat kira-kira sebanding dengan kuadrat tingkat ketidakrataan medan dan dengan pangkat tiga kecepatan. Dibanding permukaan yang mulus, jalur alam, jalan berbatu, dan trotoar rusak semuanya menambah biaya energi.\n\n### Treadmill vs luar ruangan\n\nDalam studi komuter Stockholm, berjalan di lapangan membutuhkan sekitar 30% lebih banyak energi per km dibanding berjalan di treadmill datar. Ringkasan studi tidak mencantumkan nilai tersendiri untuk treadmill. Karena itu, anggaplah 0,96 sebagai angka untuk luar ruangan. Berjalan sejauh yang sama di treadmill datar kemungkinan menghasilkan angka yang lebih rendah.\n\n### Beban, tanjakan, dan massa tubuh\n\nSebuah tinjauan tentang tentara yang membawa beban menemukan hal berikut. Biaya energi berjalan dengan ransel meningkat seiring berat beban, massa tubuh, kecepatan berjalan, dan kemiringan jalan. Jenis medan juga berpengaruh.\n\nLetak beban pun penting. Setiap kilogram yang ditambahkan di kaki meningkatkan pengeluaran energi sebesar 7% hingga 10%. Sebagai perbandingan, beban di paha hanya menambah 4% per kilogram. Sepatu yang berat, ransel yang penuh, atau rute yang berbukit semuanya menaikkan biaya energi per langkah.\n\n### Kalori total vs kalori aktif\n\nStudi tersebut melaporkan 0,96 kkal per kg per km sebagai pengeluaran energi selama berjalan. Namun, ringkasannya tidak menyebutkan apakah energi saat istirahat sudah dikurangi. Ingat hal ini saat membandingkan hasil rumus dengan angka di perangkat Anda. Layar Anda mungkin menampilkan lebih dari satu angka kalori untuk jalan kaki yang sama. Jika demikian, [penjelasan tentang kalori aktif vs kalori total ini](/id/active-calories-vs-total-calories-burned-tracking-2026) membahas perbedaannya.\n\n## Berapa lama waktu untuk 15.000 langkah, dan seberapa berat intensitasnya\n\nWaktu yang dibutuhkan bergantung pada kadens, yaitu jumlah langkah per menit.\n\n- Pada **100 langkah per menit:** 15.000 ÷ 100 = 150 menit\n- Pada **105 langkah per menit:** 15.000 ÷ 105 ≈ 143 menit\n\nJadi, 15.000 langkah kira-kira setara dengan dua setengah jam berjalan kaki. Langkah itu bisa dilakukan sekaligus atau dicicil sepanjang hari.\n\nKadens juga memberi gambaran kasar tentang intensitas. Sebuah studi pada ibu hamil mencatat bahwa 100 langkah per menit adalah penanda yang sudah mapan untuk ambang intensitas sedang. Ambang ini setara dengan 3 MET pada orang yang tidak hamil. Studi tersebut menemukan bahwa ambang 3 MET juga berlaku selama kehamilan. Dalam studi dewasa muda di Tiongkok, ambangnya adalah 105 langkah per menit untuk 3 MET dan 130 langkah per menit untuk 6 MET.\n\nDalam praktiknya, langkah yang cepat dan bertujuan menghabiskan lebih banyak energi per menit dibanding langkah santai yang lambat. Dengan jalan cepat, Anda juga menempuh jarak lebih jauh dan membakar lebih banyak kalori dalam waktu yang sama.\n\n## Yang dilaporkan jam tangan atau ponsel Anda\n\nMembaca angka kalori langsung dari perangkat wearable memang menggoda. Namun, penelitian menyarankan untuk berhati-hati.\n\n- Sebuah tinjauan sistematis menganalisis 65 artikel tentang pelacak aktivitas di pergelangan tangan. Untuk pengeluaran energi, rata-rata persentase kesalahan absolutnya **di atas 30% untuk semua merek**. Tinjauan ini menyimpulkan bahwa tidak satu pun perangkat yang diuji mengukur pengeluaran energi secara akurat.\n- Sebuah studi laboratorium menguji tujuh perangkat pergelangan tangan pada 60 sukarelawan. Hasilnya dibandingkan dengan kalorimetri tidak langsung. **Tidak ada perangkat yang mencapai tingkat kesalahan pengeluaran energi di bawah 20 persen.** Kesalahan tertinggi terjadi saat berjalan.\n\nJumlah langkah lebih bisa diandalkan. Tinjauan yang sama menemukan bahwa model Fitbit Charge menunjukkan akurasi yang baik untuk jumlah langkah. Jadi, sebaiknya Anda lebih memercayai jumlah langkah daripada angka kalori. Jika ingin perkiraan pembanding, masukkan jumlah langkah Anda ke rumus jarak dan berat badan di atas. [Panduan akurasi kalori wearable](/id/wearable-calorie-burn-accuracy-overestimation-2026) membahas mengapa perkiraan kalori bisa meleset.\n\n## Apakah 15.000 langkah bermanfaat selain untuk membakar kalori?\n\nKalori hanyalah sebagian dari cerita. Beberapa meta-analisis besar mengaitkan jumlah langkah harian dengan berbagai hasil kesehatan. Angka 15.000 langkah berada di atas rentang tempat sebagian besar manfaat yang terukur muncul.\n\n- Sebuah meta-analisis terhadap 15 kohort internasional (47.471 orang dewasa) menemukan bahwa risiko kematian makin rendah seiring bertambahnya langkah. Penurunan risiko itu mulai mendatar di sekitar 6.000–8.000 langkah per hari pada orang dewasa berusia 60 tahun ke atas. Pada mereka yang berusia di bawah 60 tahun, titik datarnya ada di 8.000–10.000 langkah.\n- Sebuah meta-analisis dosis-respons membandingkan 7.000 dengan 2.000 langkah per hari. Hasilnya, 7.000 langkah per hari dikaitkan dengan risiko kematian akibat semua penyebab yang 47% lebih rendah.\n\nTemuan ini adalah hubungan observasional, dan kurvanya mendatar pada jumlah langkah yang lebih tinggi. Menaikkan target dari 10.000 ke 15.000 langkah adalah cara yang wajar untuk meningkatkan pengeluaran energi. Namun, data tidak menunjukkan bahwa hal itu diperlukan untuk mendapatkan manfaat terhadap risiko kematian. Manfaat tersebut sudah terlihat pada jumlah langkah yang lebih moderat. Untuk mengetahui asal-usul target populer ini, baca [asal-usul target 10.000 langkah](/id/walking-10000-steps-origin-health-benefits-2026).\n\n## Memanfaatkan kalori dari langkah untuk mengelola berat badan\n\nBerikut beberapa poin praktis berdasarkan bukti yang ada.\n\n**Gunakan perkiraan sebagai rentang, bukan catatan pasti.** Kecepatan, medan, beban, dan panjang langkah semuanya menggeser angka sebenarnya. Anggaplah 9,1 kkal per kg untuk 15.000 langkah sebagai nilai tengah untuk jalan cepat di luar ruangan. Di treadmill datar, angkanya kemungkinan lebih rendah. Di rute berbukit atau kasar, angkanya kemungkinan lebih tinggi.\n\n**Volume jalan kaki terakumulasi seiring waktu.** Dalam studi Stockholm, berjalan kaki rutin saat komuter menghasilkan total pengeluaran energi mingguan sekitar 1.570 kkal pada pria dan 1.040 kkal pada wanita. Dalam setahun, para peserta melakukan sekitar 385 perjalanan dengan total jarak sekitar 800 km. Jalan kaki yang rutin dan berulang bisa menyumbang porsi yang berarti dari penggunaan energi mingguan.\n\n**Tingkatkan secara bertahap.** Melonjak dari jumlah langkah harian yang rendah langsung ke 15.000 langkah berarti menambah banyak waktu berdiri dan berjalan. Dengan menaikkan jumlah langkah secara bertahap, Anda bisa memperhatikan respons nafsu makan, tingkat energi, dan sendi Anda.\n\n**Jangan jadikan angka kalori satu-satunya dasar keputusan makan.** Perkiraan kalori dari perangkat pergelangan tangan memiliki kesalahan yang besar. Memantau tren berat badan dan lingkar pinggang selama beberapa minggu memberi sinyal yang lebih andal daripada angka dari satu hari saja.\n\nRingkasnya, hitung langkah Anda dengan perangkat, lalu ubah menjadi jarak menggunakan panjang langkah Anda sendiri. Setelah itu, kalikan dengan 0,96 dan berat badan Anda. Hasilnya adalah perkiraan yang masuk akal tentang kalori yang terbakar dari langkah, yang bisa Anda cocokkan dengan hasil yang Anda alami sendiri.",
+      "key_stats": [
+        {
+          "label": "Biaya energi jalan kaki di luar ruangan",
+          "value": "0,96 kkal per kg per km",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Jalan di lapangan vs treadmill datar",
+          "value": "Sekitar 30% lebih banyak energi per km di luar ruangan",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Langkah dalam 30 menit dengan 105 langkah/menit",
+          "value": "3.150 langkah atau 2 km",
+          "source": "Cross-sectional study of Chinese young adults"
+        },
+        {
+          "label": "Kesalahan kalori pelacak pergelangan tangan",
+          "value": "Rata-rata persentase kesalahan absolut di atas 30% untuk semua merek",
+          "source": "Systematic review of wrist-worn activity trackers"
+        },
+        {
+          "label": "Akurasi kalori terbaik perangkat pergelangan tangan dalam uji laboratorium",
+          "value": "Tidak ada perangkat dengan kesalahan di bawah 20%",
+          "source": "Lab validation of seven wrist-worn devices"
+        }
+      ],
+      "faq": [
+        {
+          "question": "15.000 langkah membakar berapa kalori?",
+          "answer": "Berdasarkan perhitungan, sekitar 9,1 kkal per kilogram berat badan untuk jalan cepat di luar ruangan. Kalikan 9,1 dengan berat badan Anda dalam kg. Angka ini berasal dari 15.000 ÷ 1.575 ≈ 9,52 km, dikalikan dengan biaya energi terukur sebesar 0,96 kkal per kg per km (9,52 × 0,96 ≈ 9,14)."
+        },
+        {
+          "question": "Satu langkah membakar berapa kalori?",
+          "answer": "Sekitar 0,00061 kkal per kilogram berat badan. Angka ini didapat dari 0,96 kkal per kg per km dibagi sekitar 1.575 langkah per km. Untuk setiap 1.000 langkah, hasilnya sekitar 0,61 kkal per kg. Kecepatan yang lebih tinggi, tanjakan, permukaan tidak rata, dan beban yang dibawa menaikkan biaya energi berjalan."
+        },
+        {
+          "question": "15.000 langkah berapa km?",
+          "answer": "Sekitar 9,5 km (15.000 ÷ 1.575). Angka ini memakai rekomendasi jalan kaki yang menyamakan 3.150 langkah dengan 2 km. Konversi itu bukan hasil pengukuran panjang langkah, sehingga jarak Anda bergantung pada panjang langkah Anda sendiri. Pada kecepatan yang sama, wanita dalam studi tersebut mengambil lebih banyak langkah per menit dibanding pria."
+        },
+        {
+          "question": "Berapa lama waktu yang dibutuhkan untuk berjalan 15.000 langkah?",
+          "answer": "Sekitar 150 menit pada 100 langkah per menit, atau sekitar 143 menit pada 105 langkah per menit. Kadens yang lebih cepat mempersingkat waktunya. Kadens sekitar 100 langkah per menit umum dipakai sebagai ambang intensitas sedang."
+        },
+        {
+          "question": "Apakah hitungan kalori smartwatch untuk jalan kaki akurat?",
+          "answer": "Kurang akurat. Sebuah tinjauan sistematis menemukan kesalahan pengeluaran energi di atas 30% untuk semua merek pelacak pergelangan tangan. Dalam sebuah studi laboratorium, tidak ada perangkat dengan kesalahan di bawah 20 persen, dan kesalahan tertinggi terjadi saat berjalan. Jumlah langkah cenderung lebih andal daripada angka kalori."
+        },
+        {
+          "question": "Apakah berjalan di luar ruangan membakar lebih banyak kalori daripada di treadmill?",
+          "answer": "Biasanya ya. Dalam studi lapangan pada para komuter, berjalan di luar ruangan membutuhkan sekitar 30% lebih banyak energi per km dibanding berjalan di treadmill datar. Medan tidak rata, tanjakan, dan beban yang dibawa menambah biaya energi lebih lanjut."
+        }
+      ],
+      "comparison_table": {
+        "title": "Perkiraan kalori yang terbakar dari langkah (jalan cepat di luar ruangan)",
+        "headers": [
+          "Langkah harian",
+          "Perkiraan jarak (langkah ÷ 1.575)",
+          "kkal per kg berat badan (km × 0,96)",
+          "Konteks"
+        ],
+        "rows": [
+          [
+            "3.150",
+            "2,0 km",
+            "1,92",
+            "30 menit dengan 105 langkah/menit"
+          ],
+          [
+            "6.000",
+            "3,81 km",
+            "3,66",
+            "Rekomendasi langkah harian untuk transportasi dari studi komuter"
+          ],
+          [
+            "7.000",
+            "4,44 km",
+            "4,27",
+            "Dikaitkan dengan risiko kematian akibat semua penyebab 47% lebih rendah vs 2.000 langkah/hari"
+          ],
+          [
+            "10.000",
+            "6,35 km",
+            "6,10",
+            "Target harian yang paling banyak dipromosikan"
+          ],
+          [
+            "15.000",
+            "9,52 km",
+            "9,14",
+            "Sekitar 143 menit dengan 105 langkah/menit"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Perspectives on exercise intensity, volume, step characteristics and health outcomes in walking for transport.",
+          "source": "Frontiers in public health, 2022",
+          "url": "https://doi.org/10.3389/fpubh.2022.911863"
+        },
+        {
+          "title": "Step rate-determined walking intensity and walking recommendation in Chinese young adults: a cross-sectional study.",
+          "source": "BMJ open, 2013",
+          "url": "https://doi.org/10.1136/bmjopen-2012-001801"
+        },
+        {
+          "title": "The energy cost of walking is sensitive to speed but not gravity; for running, it's the other way around: model and experiment.",
+          "source": "The Journal of experimental biology, 2026",
+          "url": "https://doi.org/10.1242/jeb.250582"
+        },
+        {
+          "title": "The energetic cost of human walking as a function of uneven terrain amplitude.",
+          "source": "The Journal of experimental biology, 2025",
+          "url": "https://doi.org/10.1242/jeb.249840"
+        },
+        {
+          "title": "Soldier load carriage: historical, physiological, biomechanical, and medical aspects.",
+          "source": "Military medicine, 2004",
+          "url": "https://doi.org/10.7205/milmed.169.1.45"
+        },
+        {
+          "title": "Walking Cadence during Moderate-Intensity Physical Activity in Pregnant Women.",
+          "source": "International journal of environmental research and public health, 2021",
+          "url": "https://doi.org/10.3390/ijerph18126593"
+        },
+        {
+          "title": "Accuracy and Acceptability of Wrist-Wearable Activity-Tracking Devices: Systematic Review of the Literature.",
+          "source": "Journal of medical Internet research, 2022",
+          "url": "https://doi.org/10.2196/30791"
+        },
+        {
+          "title": "Accuracy in Wrist-Worn, Sensor-Based Measurements of Heart Rate and Energy Expenditure in a Diverse Cohort.",
+          "source": "Journal of personalized medicine, 2017",
+          "url": "https://doi.org/10.3390/jpm7020003"
+        },
+        {
+          "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts.",
+          "source": "The Lancet. Public health, 2022",
+          "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+        },
+        {
+          "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis.",
+          "source": "The Lancet. Public health, 2025",
+          "url": "https://doi.org/10.1016/S2468-2667(25)00164-1"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "fr": {
+      "title": "Calories brûlées par pas : combien pour 15 000 pas ?",
+      "short_title": "Calories brûlées avec 15 000 pas",
+      "short_description": "Comment estimer les calories brûlées en marchant, pour 15 000 pas ou tout autre total, à partir du poids et de la distance. Découvrez aussi les facteurs qui font varier le résultat.",
+      "meta_description": "15 000 pas, combien de calories ? Tout dépend du poids et de la distance. Voici la formule, le résultat par kg et les raisons pour lesquelles les montres connectées se trompent souvent.",
+      "tldr": "Une recommandation de marche retient environ 1 575 pas par km (3 150 pas pour 2 km). Sur cette base, 15 000 pas représentent environ 9,5 km (15 000 ÷ 1 575). On multiplie ensuite cette distance par la dépense énergétique de la marche mesurée sur le terrain, soit 0,96 kcal par kg et par km. On obtient environ 9,1 kcal par kilo de poids corporel (9,52 × 0,96 ≈ 9,14). Multipliez ce chiffre par votre poids en kilos pour obtenir une estimation personnelle. La vitesse, les côtes, un sol irrégulier et une charge portée font varier le chiffre réel à la hausse ou à la baisse.",
+      "body_md": "## La réponse courte : les calories brûlées avec 15 000 pas\n\nEn combinant deux données publiées, marcher 15 000 pas représente environ **9,1 kcal pour chaque kilo de votre poids**. Le calcul : 15 000 ÷ 1 575 ≈ 9,52 km, puis 9,52 × 0,96 ≈ 9,14. Pour obtenir votre propre chiffre, multipliez 9,1 par votre poids en kilos.\n\nLe calcul se fait en trois étapes :\n\n- **Distance :** 15 000 pas correspondent à environ 9,5 km (15 000 ÷ 1 575 pas par km). La conversion des pas en distance provient d'une recommandation de marche.\n- **Énergie par distance :** la marche en extérieur coûtait environ 0,96 kcal par kilo et par kilomètre.\n- **Résultat :** 9,52 km × 0,96 ≈ 9,14 kcal par kg.\n\nCe chiffre est un bon point de départ, pas une mesure précise. La suite de ce guide explique d'où il vient et comment l'ajuster à votre foulée et à vos parcours. Vous verrez aussi pourquoi votre montre peut afficher un résultat bien différent.\n\n## D'où viennent les chiffres par pas\n\nDeux éléments déterminent les calories brûlées en marchant. Le premier est la distance parcourue à chaque pas. Le second est l'énergie que votre corps dépense pour chaque kilomètre de marche.\n\n### L'énergie par kilomètre\n\nUne étude de terrain a suivi 20 personnes d'âge moyen qui se rendent habituellement au travail à pied (10 hommes et 10 femmes). Les mesures ont été faites sur leur trajet réel dans l'agglomération de Stockholm, et non sur un tapis de marche. Leur dépense énergétique atteignait **0,96 kcal · kg⁻¹ · km⁻¹**. Pour une même distance, hommes et femmes avaient des besoins énergétiques absolus similaires.\n\nCes marcheurs avançaient d'un bon pas. Les hommes marchaient en moyenne à 5,7 km/h et les femmes à 5,9 km/h. Cette allure correspondait à environ 46 % de la consommation maximale d'oxygène et à des valeurs MET de 6,2 et 6,5. Les chercheurs la situent dans la partie basse de la plage d'intensité relative modérée.\n\n### Le nombre de pas par kilomètre\n\nUne étude transversale a mesuré la marche au sol chez 226 jeunes adultes chinois âgés de 21,7 ans en moyenne. Elle a traduit les recommandations d'activité physique en objectifs de marche. L'objectif retenu était de 30 minutes à 105 pas par minute, soit **3 150 pas ou 2 km**.\n\nUne simple division donne un ratio de travail : 3 150 ÷ 2 = **1 575 pas par km**. Cela correspond à une longueur de pas moyenne d'environ 0,63 m (1 000 m ÷ 1 575). Ce ratio est une conversion intégrée à une recommandation de marche. Il ne s'agit pas d'une mesure directe de la foulée d'une personne. Considérez-le donc comme une valeur par défaut, à remplacer par votre propre chiffre.\n\nVotre ratio peut être différent. La même étude a montré qu'à vitesse égale, les femmes faisaient plus de pas par minute que les hommes. Des pas plus courts signifient davantage de pas par kilomètre.\n\n## Comment calculer les calories pour n'importe quel nombre de pas\n\nLa méthode fonctionne quel que soit le nombre de pas.\n\n1. **Convertir les pas en distance :** km = pas ÷ 1 575 (ou votre propre nombre de pas par km).\n2. **Convertir la distance en énergie :** kcal = km × 0,96 × poids en kg.\n\nEn combinant les deux, on obtient un raccourci : **kcal ≈ pas × 0,00061 × poids (kg)**, car 0,96 ÷ 1 575 ≈ 0,00061.\n\nQuelques repères :\n\n- **1 000 pas :** 0,635 km × 0,96 ≈ 0,61 kcal par kg\n- **10 000 pas :** 6,35 km × 0,96 ≈ 6,1 kcal par kg\n- **15 000 pas :** 9,52 km × 0,96 ≈ 9,1 kcal par kg\n\n### Personnaliser la longueur de pas\n\nLe moyen le plus simple d'affiner l'estimation est de remplacer 1 575 par votre propre chiffre. Voici comment procéder :\n\n1. Parcourez un trajet de longueur connue à votre allure habituelle.\n2. Notez le nombre de pas.\n3. Divisez ce nombre de pas par le nombre de kilomètres.\n\nSi vous faites moins de 1 575 pas par kilomètre, le même nombre de pas couvre une plus grande distance. La formule donne alors une estimation plus élevée. Si vous faites plus de pas par kilomètre, l'estimation est plus basse.\n\nComme la valeur énergétique est exprimée par kilo, l'estimation augmente proportionnellement au poids dans la formule.\n\n## Pourquoi votre chiffre réel peut être plus élevé ou plus bas\n\nLa valeur de 0,96 correspond à une marche rapide sur des trajets urbains. Plusieurs facteurs la modifient.\n\n### La vitesse\n\nUne étude a combiné des expériences avec un modèle de marche minimal. Elle a montré que la dépense énergétique de la marche par distance est très sensible à la vitesse. En course à pied, le coût par distance reste presque constant d'une vitesse à l'autre. Ce n'est pas le cas à la marche. Une flânerie tranquille et une marche rapide ne coûtent donc pas la même énergie pour les mêmes 15 000 pas.\n\n### Un sol irrégulier\n\nUne étude a suivi 10 adultes en bonne santé marchant sur un terrain irrégulier artificiel. Ils marchaient à quatre vitesses comprises entre 0,8 et 1,4 m/s. Leur taux métabolique net augmentait environ avec le carré des irrégularités du terrain. Il augmentait aussi environ avec le cube de la vitesse. Les sentiers, les pavés et les trottoirs abîmés augmentent tous la dépense par rapport à un sol lisse.\n\n### Tapis de marche ou extérieur\n\nDans l'étude de Stockholm, la marche sur le terrain demandait environ 30 % d'énergie en plus par km que la marche sur tapis à plat. Le résumé de l'étude ne donne pas de valeur distincte pour le tapis. Considérez donc 0,96 comme une valeur pour l'extérieur. Sur tapis à plat, une marche de même longueur devrait donner un chiffre plus bas.\n\n### Charge, côtes et masse corporelle\n\nUne revue a étudié le port de charge chez les soldats. Selon elle, la dépense énergétique de la marche avec un sac à dos augmente avec le poids porté, la masse corporelle, la vitesse de marche et la pente. Le type de terrain compte aussi.\n\nL'emplacement de la charge joue également un rôle. Chaque kilo ajouté au pied augmentait la dépense énergétique de 7 à 10 %. Au niveau de la cuisse, l'augmentation n'était que de 4 % par kilo. Des chaussures lourdes, un sac chargé ou un parcours vallonné augmentent tous le coût de chaque pas.\n\n### Calories totales ou calories actives\n\nL'étude indique 0,96 kcal par kg et par km comme dépense énergétique pendant la marche. Son résumé ne précise toutefois pas si la dépense de repos a été soustraite. Gardez-le à l'esprit lorsque vous comparez la formule avec l'affichage de votre appareil. Votre écran affiche peut-être plusieurs chiffres de calories pour une même marche. Dans ce cas, [cet article sur les calories actives et les calories totales](/fr/active-calories-vs-total-calories-burned-tracking-2026) explique la différence.\n\n## Combien de temps prennent 15 000 pas, et quelle intensité représentent-ils ?\n\nLa durée dépend de la cadence, c'est-à-dire du nombre de pas par minute.\n\n- À **100 pas par minute :** 15 000 ÷ 100 = 150 minutes\n- À **105 pas par minute :** 15 000 ÷ 105 ≈ 143 minutes\n\n15 000 pas représentent donc environ deux heures et demie de marche. C'est vrai en une seule fois comme répartis sur la journée.\n\nLa cadence donne aussi une idée approximative de l'intensité. Une étude menée chez des femmes enceintes rappelle un repère établi. Chez les personnes non enceintes, 100 pas par minute marquent le seuil d'intensité modérée de 3 MET. Selon l'étude, ce seuil de 3 MET restait valable pendant la grossesse. Dans l'étude sur les jeunes adultes chinois, les seuils étaient de 105 pas par minute pour 3 MET et de 130 pas par minute pour 6 MET.\n\nEn pratique, des pas rapides et décidés coûtent plus d'énergie par minute que des pas lents et nonchalants. La marche rapide permet aussi de couvrir plus de distance, et de brûler plus de calories, dans le même temps.\n\n## Ce qu'affichent votre montre ou votre téléphone\n\nIl est tentant de se fier directement au chiffre de calories de votre objet connecté. Les études invitent pourtant à la prudence.\n\n- Une revue systématique a analysé 65 articles sur les trackers portés au poignet. Pour la dépense énergétique, l'erreur absolue moyenne en pourcentage était **supérieure à 30 % pour toutes les marques**. Selon la revue, aucun des appareils testés ne mesurait la dépense énergétique avec précision.\n- Une étude en laboratoire a testé sept appareils portés au poignet chez 60 volontaires. Les résultats ont été comparés à la calorimétrie indirecte. **Aucun appareil n'a atteint une erreur inférieure à 20 % pour la dépense énergétique.** Les erreurs étaient les plus importantes pendant la marche.\n\nLe comptage des pas est plus fiable. La même revue a montré que les modèles Fitbit Charge comptaient les pas avec une bonne précision. Il est donc raisonnable de vous fier davantage au nombre de pas qu'au chiffre de calories. Pour une seconde estimation, appliquez vos pas à la formule distance et poids présentée plus haut. Le [guide sur la précision des calories des objets connectés](/fr/wearable-calorie-burn-accuracy-overestimation-2026) explique pourquoi ces estimations dérivent.\n\n## 15 000 pas, ça vaut le coup au-delà des calories ?\n\nLes calories ne sont qu'une partie de l'histoire. Plusieurs grandes méta-analyses associent le nombre de pas quotidiens à des effets sur la santé. Or 15 000 pas se situent au-dessus des plages où apparaît l'essentiel du bénéfice mesuré.\n\n- Une méta-analyse de 15 cohortes internationales portant sur 47 471 adultes a observé un risque de mortalité de plus en plus faible à mesure que le nombre de pas augmentait. Chez les 60 ans et plus, la baisse du risque se stabilisait autour de 6 000 à 8 000 pas par jour. Chez les moins de 60 ans, elle se stabilisait vers 8 000 à 10 000 pas.\n- Une méta-analyse dose-réponse a comparé 7 000 et 2 000 pas par jour. 7 000 pas quotidiens étaient associés à un risque de mortalité toutes causes confondues inférieur de 47 %.\n\nIl s'agit d'associations observationnelles, et les courbes s'aplatissent au-delà d'un certain nombre de pas. Passer de 10 000 à 15 000 pas est une façon raisonnable d'augmenter sa dépense énergétique. Les données ne suggèrent pas pour autant que ce soit nécessaire pour obtenir les bénéfices sur la mortalité. Ces bénéfices apparaissent déjà à des niveaux plus modérés. Pour savoir d'où vient cet objectif si populaire, consultez [l'origine de l'objectif des 10 000 pas](/fr/walking-10000-steps-origin-health-benefits-2026).\n\n## Utiliser les calories de la marche pour gérer son poids\n\nLes données disponibles permettent de dégager quelques conseils pratiques.\n\n**Utilisez l'estimation comme une fourchette, pas comme une comptabilité.** La vitesse, le terrain, la charge et la foulée font tous varier le chiffre réel. Considérez 9,1 kcal par kg pour 15 000 pas comme une valeur médiane pour une marche rapide en extérieur. Le chiffre sera plus bas sur un tapis à plat. Il sera plus élevé sur un parcours vallonné ou accidenté.\n\n**Le volume de marche s'additionne avec le temps.** Dans l'étude de Stockholm, les trajets réguliers à pied entraînaient une dépense énergétique hebdomadaire totale d'environ 1 570 kcal chez les hommes et 1 040 kcal chez les femmes. Sur l'année, les participants ont effectué environ 385 trajets, pour environ 800 km au total. Une marche régulière et répétée peut donc représenter une part significative de la dépense énergétique hebdomadaire.\n\n**Progressez graduellement.** Passer d'un faible nombre de pas quotidiens à 15 000 pas ajoute beaucoup de temps passé debout et en marche. Augmenter le nombre de pas par paliers vous permet d'observer la réaction de votre appétit, de votre énergie et de vos articulations.\n\n**Ne laissez pas le chiffre de calories guider seul vos choix alimentaires.** Les estimations de calories des appareils portés au poignet comportent de grosses erreurs. Suivre l'évolution de votre poids et de votre tour de taille sur plusieurs semaines est plus fiable que l'affichage d'une seule journée.\n\nEn résumé : comptez vos pas avec un appareil et convertissez-les en distance à partir de votre propre foulée. Multipliez ensuite ce résultat par 0,96 et par votre poids. Vous obtenez ainsi une estimation raisonnable des calories brûlées en marchant, que vous pouvez confronter à vos propres résultats.",
+      "key_stats": [
+        {
+          "label": "Dépense énergétique de la marche en extérieur",
+          "value": "0,96 kcal par kg et par km",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Marche sur le terrain vs tapis à plat",
+          "value": "Environ 30 % d'énergie en plus par km en extérieur",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Pas en 30 minutes à 105 pas/min",
+          "value": "3 150 pas ou 2 km",
+          "source": "Cross-sectional study of Chinese young adults"
+        },
+        {
+          "label": "Erreur des trackers de poignet sur les calories",
+          "value": "Erreur absolue moyenne en pourcentage supérieure à 30 % pour toutes les marques",
+          "source": "Systematic review of wrist-worn activity trackers"
+        },
+        {
+          "label": "Meilleure précision des appareils de poignet sur les calories en laboratoire",
+          "value": "Aucun appareil sous 20 % d'erreur",
+          "source": "Lab validation of seven wrist-worn devices"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Combien de calories brûle-t-on avec 15 000 pas ?",
+          "answer": "Par calcul, environ 9,1 kcal par kilo de poids corporel pour une marche rapide en extérieur. Multipliez 9,1 par votre poids en kg. Ce chiffre vient de 15 000 ÷ 1 575 ≈ 9,52 km. Cette distance est multipliée par une dépense mesurée de 0,96 kcal par kg et par km (9,52 × 0,96 ≈ 9,14)."
+        },
+        {
+          "question": "Combien de calories brûle un pas ?",
+          "answer": "Environ 0,00061 kcal par kilo de poids corporel. On obtient ce chiffre en divisant 0,96 kcal par kg et par km par environ 1 575 pas par km. Pour 1 000 pas, cela fait environ 0,61 kcal par kg. Une vitesse plus élevée, les côtes, un sol irrégulier et une charge portée augmentent la dépense énergétique de la marche."
+        },
+        {
+          "question": "15 000 pas, ça fait combien de km ?",
+          "answer": "Environ 9,5 km (15 000 ÷ 1 575). Ce chiffre s'appuie sur une recommandation de marche qui assimile 3 150 pas à 2 km. Cette conversion n'est pas une mesure de foulée, et votre distance dépend de votre propre longueur de pas. À vitesse égale, les femmes de cette étude faisaient plus de pas par minute que les hommes."
+        },
+        {
+          "question": "Combien de temps faut-il pour faire 15 000 pas ?",
+          "answer": "Environ 150 minutes à 100 pas par minute, ou environ 143 minutes à 105 pas par minute. Une cadence plus soutenue réduit la durée. Une cadence d'environ 100 pas par minute sert couramment de seuil d'intensité modérée."
+        },
+        {
+          "question": "Les calories affichées par les montres connectées pendant la marche sont-elles fiables ?",
+          "answer": "Pas vraiment. Une revue systématique a relevé des erreurs de dépense énergétique supérieures à 30 % pour toutes les marques de trackers de poignet. Dans une étude en laboratoire, aucun appareil n'est descendu sous 20 % d'erreur, et les erreurs étaient maximales pendant la marche. Le nombre de pas est généralement plus fiable que le chiffre de calories."
+        },
+        {
+          "question": "Brûle-t-on plus de calories en marchant dehors que sur un tapis ?",
+          "answer": "En général, oui. Dans une étude de terrain menée auprès de personnes allant au travail à pied, la marche en extérieur demandait environ 30 % d'énergie en plus par km que la marche sur tapis à plat. Un terrain irrégulier, les côtes et une charge portée augmentent encore la dépense."
+        }
+      ],
+      "comparison_table": {
+        "title": "Estimation des calories brûlées selon le nombre de pas (marche rapide en extérieur)",
+        "headers": [
+          "Pas par jour",
+          "Distance approx. (pas ÷ 1 575)",
+          "kcal par kg de poids (km × 0,96)",
+          "Contexte"
+        ],
+        "rows": [
+          [
+            "3 150",
+            "2,0 km",
+            "1,92",
+            "30 minutes à 105 pas/min"
+          ],
+          [
+            "6 000",
+            "3,81 km",
+            "3,66",
+            "Recommandation quotidienne de pas pour les déplacements, issue d'une étude sur les trajets domicile-travail"
+          ],
+          [
+            "7 000",
+            "4,44 km",
+            "4,27",
+            "Associé à un risque de mortalité toutes causes inférieur de 47 % vs 2 000 pas/jour"
+          ],
+          [
+            "10 000",
+            "6,35 km",
+            "6,10",
+            "L'objectif quotidien le plus répandu"
+          ],
+          [
+            "15 000",
+            "9,52 km",
+            "9,14",
+            "Environ 143 minutes à 105 pas/min"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Perspectives on exercise intensity, volume, step characteristics and health outcomes in walking for transport.",
+          "source": "Frontiers in public health, 2022",
+          "url": "https://doi.org/10.3389/fpubh.2022.911863"
+        },
+        {
+          "title": "Step rate-determined walking intensity and walking recommendation in Chinese young adults: a cross-sectional study.",
+          "source": "BMJ open, 2013",
+          "url": "https://doi.org/10.1136/bmjopen-2012-001801"
+        },
+        {
+          "title": "The energy cost of walking is sensitive to speed but not gravity; for running, it's the other way around: model and experiment.",
+          "source": "The Journal of experimental biology, 2026",
+          "url": "https://doi.org/10.1242/jeb.250582"
+        },
+        {
+          "title": "The energetic cost of human walking as a function of uneven terrain amplitude.",
+          "source": "The Journal of experimental biology, 2025",
+          "url": "https://doi.org/10.1242/jeb.249840"
+        },
+        {
+          "title": "Soldier load carriage: historical, physiological, biomechanical, and medical aspects.",
+          "source": "Military medicine, 2004",
+          "url": "https://doi.org/10.7205/milmed.169.1.45"
+        },
+        {
+          "title": "Walking Cadence during Moderate-Intensity Physical Activity in Pregnant Women.",
+          "source": "International journal of environmental research and public health, 2021",
+          "url": "https://doi.org/10.3390/ijerph18126593"
+        },
+        {
+          "title": "Accuracy and Acceptability of Wrist-Wearable Activity-Tracking Devices: Systematic Review of the Literature.",
+          "source": "Journal of medical Internet research, 2022",
+          "url": "https://doi.org/10.2196/30791"
+        },
+        {
+          "title": "Accuracy in Wrist-Worn, Sensor-Based Measurements of Heart Rate and Energy Expenditure in a Diverse Cohort.",
+          "source": "Journal of personalized medicine, 2017",
+          "url": "https://doi.org/10.3390/jpm7020003"
+        },
+        {
+          "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts.",
+          "source": "The Lancet. Public health, 2022",
+          "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+        },
+        {
+          "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis.",
+          "source": "The Lancet. Public health, 2025",
+          "url": "https://doi.org/10.1016/S2468-2667(25)00164-1"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "de": {
+      "title": "Kalorienverbrauch Schritte: Was 15.000 Schritte verbrennen",
+      "short_title": "Kalorienverbrauch bei 15.000 Schritten",
+      "short_description": "So schätzen Sie den Kalorienverbrauch durch Schritte, etwa bei 15.000 Schritten. Die Rechnung nutzt Körpergewicht und Strecke und zeigt, welche Faktoren das Ergebnis verändern.",
+      "meta_description": "Wie viele Kalorien verbrennen 15.000 Schritte? Das hängt von Gewicht und Strecke ab. Hier finden Sie Formel und Wert pro kg und erfahren, warum Fitnesstracker oft danebenliegen.",
+      "tldr": "Eine Gehempfehlung rechnet mit etwa 1.575 Schritten pro km (3.150 Schritte pro 2 km). Demnach entsprechen 15.000 Schritte rund 9,5 km (15.000 ÷ 1.575). Diese Strecke multipliziert man mit dem im Feld gemessenen Energieaufwand beim Gehen von 0,96 kcal pro kg und km. So ergeben sich etwa 9,1 kcal pro Kilogramm Körpergewicht (9,52 × 0,96 ≈ 9,14). Multiplizieren Sie diesen Wert mit Ihrem Gewicht in Kilogramm, um Ihren persönlichen Wert zu schätzen. Tempo, Steigungen, unebener Untergrund und getragenes Gewicht verschieben den tatsächlichen Wert nach oben oder unten.",
+      "body_md": "## Die kurze Antwort: So viele Kalorien verbrennen 15.000 Schritte\n\nKombiniert man zwei veröffentlichte Werte, verbrauchen 15.000 Schritte rund **9,1 kcal pro Kilogramm Körpergewicht**. Die Rechnung: 15.000 ÷ 1.575 ≈ 9,52 km, dann 9,52 × 0,96 ≈ 9,14. Für Ihren persönlichen Wert multiplizieren Sie 9,1 mit Ihrem Körpergewicht in Kilogramm.\n\nDie Rechnung besteht aus drei Teilen:\n\n- **Strecke:** 15.000 Schritte entsprechen etwa 9,5 km (15.000 ÷ 1.575 Schritte pro km). Die Umrechnung von Schritten in Strecke stammt aus einer Gehempfehlung.\n- **Energie pro Strecke:** Gehen im Freien kostete etwa 0,96 kcal pro Kilogramm und Kilometer.\n- **Ergebnis:** 9,52 km × 0,96 ≈ 9,14 kcal pro kg.\n\nDer Wert ist ein sinnvoller Ausgangspunkt, aber keine exakte Messung. Im Folgenden erfahren Sie, woher er stammt und wie Sie ihn an Ihre eigene Schrittlänge und Ihre Wege anpassen. Außerdem lesen Sie, warum Ihre Uhr womöglich einen ganz anderen Wert anzeigt.\n\n## Woher die Werte pro Schritt stammen\n\nZwei Faktoren bestimmen, wie viele Kalorien Sie mit Ihren Schritten verbrennen. Der erste ist, wie weit Sie jeder Schritt bringt. Der zweite ist, wie viel Energie Ihr Körper für jeden gegangenen Kilometer aufwendet.\n\n### Energie pro Kilometer\n\nEine Feldstudie untersuchte 20 Menschen mittleren Alters, die regelmäßig zu Fuß zur Arbeit gehen (10 Männer und 10 Frauen). Gemessen wurde auf ihrem tatsächlichen Arbeitsweg im Großraum Stockholm und nicht auf dem Laufband. Ihr Energieverbrauch lag bei **0,96 kcal · kg⁻¹ · km⁻¹**. Für eine bestimmte Strecke hatten Männer und Frauen einen ähnlichen absoluten Energiebedarf.\n\nDie Pendlerinnen und Pendler gingen zügig. Die Männer kamen im Schnitt auf 5,7 km/h, die Frauen auf 5,9 km/h. Dieses Tempo entsprach etwa 46 % der maximalen Sauerstoffaufnahme und MET-Werten von 6,2 bzw. 6,5. Die Forschenden ordnen das im unteren Bereich der moderaten relativen Intensität ein.\n\n### Schritte pro Kilometer\n\nEine Querschnittsstudie untersuchte das Gehen auf festem Boden bei 226 jungen Erwachsenen aus China mit einem Durchschnittsalter von 21,7 Jahren. Sie übersetzte Bewegungsempfehlungen in Gehziele. Das Ziel lautete 30 Minuten mit 105 Schritten pro Minute, also **3.150 Schritte oder 2 km**.\n\nDaraus ergibt sich ein Arbeitswert von 3.150 ÷ 2 = **1.575 Schritte pro km**. Das entspricht einer durchschnittlichen Schrittlänge von etwa 0,63 m (1.000 m ÷ 1.575). Dieses Verhältnis ist eine Umrechnung, die in eine Gehempfehlung eingebaut ist. Es ist keine direkte Messung der Schrittlänge eines Menschen. Betrachten Sie es daher als Standardwert, den Sie durch Ihren eigenen Wert ersetzen sollten.\n\nIhr eigenes Verhältnis kann abweichen. Dieselbe Studie ergab, dass Frauen bei gleichem Gehtempo mehr Schritte pro Minute machten als Männer. Kürzere Schritte bedeuten mehr Schritte pro Kilometer.\n\n## So berechnen Sie die Kalorien für jede Schrittzahl\n\nDie Methode funktioniert für jede beliebige Schrittzahl.\n\n1. **Schritte in Strecke umrechnen:** km = Schritte ÷ 1.575 (oder Ihr eigener Wert für Schritte pro km).\n2. **Strecke in Energie umrechnen:** kcal = km × 0,96 × Körpergewicht in kg.\n\nZusammengefasst lautet die Faustformel **kcal ≈ Schritte × 0,00061 × Körpergewicht (kg)**, denn 0,96 ÷ 1.575 ≈ 0,00061.\n\nEinige Richtwerte:\n\n- **1.000 Schritte:** 0,635 km × 0,96 ≈ 0,61 kcal pro kg\n- **10.000 Schritte:** 6,35 km × 0,96 ≈ 6,1 kcal pro kg\n- **15.000 Schritte:** 9,52 km × 0,96 ≈ 9,1 kcal pro kg\n\n### Die Schrittlänge persönlich anpassen\n\nAm einfachsten verbessern Sie die Schätzung, wenn Sie 1.575 durch Ihren eigenen Wert ersetzen. So gehen Sie vor:\n\n1. Gehen Sie eine Strecke bekannter Länge in Ihrem normalen Tempo.\n2. Notieren Sie die Schrittzahl.\n3. Teilen Sie die Schritte durch die Kilometer.\n\nMachen Sie weniger als 1.575 Schritte pro Kilometer, legen Sie mit derselben Schrittzahl mehr Strecke zurück. Die Formel liefert dann einen höheren Schätzwert. Machen Sie mehr Schritte pro Kilometer, fällt die Schätzung niedriger aus.\n\nDa der Energiewert pro Kilogramm angegeben ist, wächst die Schätzung in der Formel direkt mit dem Körpergewicht.\n\n## Warum Ihr tatsächlicher Wert höher oder niedriger sein kann\n\nDer Wert von 0,96 beschreibt zügiges Pendeln auf städtischen Wegen. Mehrere Faktoren verschieben ihn.\n\n### Tempo\n\nEine Studie kombinierte Experimente mit einem minimalen Gehmodell. Sie zeigte, dass der Energieaufwand beim Gehen pro Strecke stark vom Tempo abhängt. Beim Laufen bleibt der Aufwand pro Strecke über verschiedene Geschwindigkeiten hinweg nahezu konstant. Beim Gehen ist das nicht so. Gemächliches Schlendern und zügiges Gehen kosten daher bei denselben 15.000 Schritten nicht gleich viel Energie.\n\n### Unebener Untergrund\n\nEine Studie untersuchte 10 gesunde Erwachsene auf künstlich unebenem Gelände bei vier Geschwindigkeiten zwischen 0,8 und 1,4 m/s. Die Netto-Stoffwechselrate stieg dabei ungefähr mit dem Quadrat der Geländeunebenheit. Mit der Geschwindigkeit stieg sie ungefähr in der dritten Potenz. Wanderwege, Kopfsteinpflaster und beschädigte Gehwege erhöhen den Aufwand im Vergleich zu glattem Untergrund.\n\n### Laufband oder draußen\n\nIn der Stockholmer Pendlerstudie erforderte das Gehen im Freien etwa 30 % mehr Energie pro km als das Gehen auf dem ebenen Laufband. Die Zusammenfassung der Studie nennt keinen eigenen Laufbandwert. Betrachten Sie 0,96 daher als Wert für draußen. Bei einer gleich langen Strecke auf dem ebenen Laufband sollten Sie mit einem niedrigeren Verbrauch rechnen.\n\n### Gepäck, Steigungen und Körpermasse\n\nEine Übersichtsarbeit hat untersucht, wie Soldaten Lasten tragen. Demnach steigt der Energieaufwand beim Gehen mit Rucksack mit dem getragenen Gewicht, der Körpermasse, dem Gehtempo und der Steigung. Auch die Art des Geländes spielt eine Rolle.\n\nEbenso wichtig ist, wo die Last sitzt. Jedes zusätzliche Kilogramm am Fuß erhöhte den Energieverbrauch um 7 bis 10 %. Am Oberschenkel waren es dagegen 4 % pro Kilogramm. Schwere Schuhe, ein voll bepackter Rucksack und eine hügelige Strecke erhöhen allesamt den Aufwand pro Schritt.\n\n### Gesamt- oder Aktivkalorien\n\nDie Studie gibt 0,96 kcal pro kg und km als Energieverbrauch während des Gehens an. Ihre Zusammenfassung sagt jedoch nicht, ob der Ruheumsatz abgezogen wurde. Denken Sie daran, wenn Sie die Formel mit der Anzeige Ihres Geräts vergleichen. Vielleicht zeigt Ihr Display für denselben Spaziergang mehr als einen Kalorienwert an. Den Unterschied erklärt [dieser Beitrag zu Aktivkalorien und Gesamtkalorien](/de/active-calories-vs-total-calories-burned-tracking-2026).\n\n## Wie lange 15.000 Schritte dauern und wie anstrengend sie sind\n\nDie Dauer hängt von der Schrittfrequenz ab, also von der Zahl der Schritte pro Minute.\n\n- Bei **100 Schritten pro Minute:** 15.000 ÷ 100 = 150 Minuten\n- Bei **105 Schritten pro Minute:** 15.000 ÷ 105 ≈ 143 Minuten\n\n15.000 Schritte bedeuten also rund zweieinhalb Stunden Gehen. Das gilt am Stück ebenso wie über den Tag verteilt.\n\nDie Schrittfrequenz gibt auch einen groben Hinweis auf die Intensität. Eine Studie mit Schwangeren weist auf einen etablierten Richtwert hin. Bei Nicht-Schwangeren markieren 100 Schritte pro Minute die Schwelle zur moderaten Intensität von 3 MET. Laut der Studie gilt diese 3-MET-Grenze auch in der Schwangerschaft. In der Studie mit jungen Erwachsenen aus China lagen die Grenzwerte bei 105 Schritten pro Minute für 3 MET und bei 130 Schritten pro Minute für 6 MET.\n\nIn der Praxis kosten zügige, zielstrebige Schritte pro Minute mehr Energie als langsames Umherschlendern. Wer zügig geht, schafft außerdem in derselben Zeit mehr Strecke und verbrennt mehr Kalorien.\n\n## Was Ihre Uhr oder Ihr Smartphone anzeigt\n\nEs ist verlockend, die Kalorienzahl einfach vom Wearable abzulesen. Die Forschung mahnt jedoch zur Vorsicht.\n\n- Ein systematischer Review wertete 65 Artikel zu Fitnesstrackern am Handgelenk aus. Beim Energieverbrauch lag der mittlere absolute prozentuale Fehler **bei allen Marken über 30 %**. Der Review kam zu dem Schluss, dass keines der getesteten Geräte den Energieverbrauch genau maß.\n- Eine Laborstudie prüfte sieben Handgelenkgeräte bei 60 Freiwilligen. Als Vergleich diente die indirekte Kalorimetrie. **Kein Gerät erreichte beim Energieverbrauch einen Fehler unter 20 Prozent.** Am größten waren die Fehler beim Gehen.\n\nBei der Schrittzählung schneiden die Geräte besser ab. Laut demselben Review zählten die Fitbit-Charge-Modelle Schritte mit guter Genauigkeit. Vertrauen Sie daher eher der Schrittzahl als dem Kalorienwert. Für eine zweite Schätzung können Sie die Schritte in die Formel aus Strecke und Körpergewicht oben einsetzen. Warum die Kalorienschätzungen abweichen, erklärt der [Ratgeber zur Kaloriengenauigkeit von Wearables](/de/wearable-calorie-burn-accuracy-overestimation-2026).\n\n## Lohnen sich 15.000 Schritte auch jenseits der Kalorien?\n\nKalorien sind nur ein Teil des Bildes. Mehrere große Metaanalysen bringen die tägliche Schrittzahl mit gesundheitlichen Endpunkten in Verbindung. 15.000 Schritte liegen dabei oberhalb der Bereiche, in denen der Großteil des gemessenen Nutzens auftritt.\n\n- Eine Metaanalyse von 15 internationalen Kohorten mit 47.471 Erwachsenen fand ein stetig sinkendes Sterberisiko mit steigender Schrittzahl. Bei Erwachsenen ab 60 Jahren flachte die Kurve bei etwa 6.000–8.000 Schritten pro Tag ab. Bei Menschen unter 60 Jahren geschah das bei 8.000–10.000 Schritten.\n- Eine Dosis-Wirkungs-Metaanalyse verglich 7.000 mit 2.000 Schritten pro Tag. 7.000 Schritte täglich waren mit einem um 47 % geringeren Risiko für die Gesamtsterblichkeit verbunden.\n\nDabei handelt es sich um Zusammenhänge aus Beobachtungsstudien. Außerdem flachen die Kurven bei höheren Schrittzahlen ab. Der Schritt von 10.000 auf 15.000 Schritte ist ein vernünftiger Weg, den Energieverbrauch zu steigern. Die Daten deuten aber nicht darauf hin, dass er für den geringeren Sterberisiko-Effekt nötig ist. Dieser zeigt sich bereits bei moderateren Schrittzahlen. Woher das populäre Ziel stammt, lesen Sie im Beitrag [zum Ursprung des 10.000-Schritte-Ziels](/de/walking-10000-steps-origin-health-benefits-2026).\n\n## Schrittkalorien beim Abnehmen und Gewichthalten nutzen\n\nAus der Studienlage ergeben sich einige praktische Punkte.\n\n**Verstehen Sie die Schätzung als Spanne, nicht als exakte Buchführung.** Tempo, Gelände, Gepäck und Schrittlänge verschieben den tatsächlichen Wert. Betrachten Sie 9,1 kcal pro kg für 15.000 Schritte als Mittelwert für zügiges Gehen im Freien. Auf dem flachen Laufband ist mit weniger zu rechnen. Auf hügeligen oder holprigen Wegen ist mit mehr zu rechnen.\n\n**Gehen summiert sich mit der Zeit.** In der Stockholmer Studie verbrauchten die Teilnehmenden durch regelmäßiges Pendeln zu Fuß insgesamt etwa 1.570 kcal pro Woche (Männer) bzw. 1.040 kcal (Frauen). Über das Jahr legten sie etwa 385 Wege mit insgesamt rund 800 km zurück. Regelmäßiges Gehen kann also einen spürbaren Anteil des wöchentlichen Energieverbrauchs ausmachen.\n\n**Steigern Sie sich allmählich.** Wer von einer niedrigen Tagesschrittzahl direkt auf 15.000 Schritte springt, ist plötzlich sehr viel länger auf den Beinen. Erhöhen Sie die Zahl lieber stufenweise. So können Sie beobachten, wie Appetit, Energie und Gelenke reagieren.\n\n**Lassen Sie Ihre Essensentscheidungen nicht allein von der Kalorienzahl bestimmen.** Kalorienschätzungen von Handgelenkgeräten sind mit großen Fehlern behaftet. Verlässlicher ist es, Gewicht und Taillenumfang über mehrere Wochen zu verfolgen. Das sagt mehr aus als die Anzeige eines einzelnen Tages.\n\nKurz zusammengefasst: Zählen Sie Ihre Schritte mit einem Gerät und rechnen Sie sie mit Ihrer eigenen Schrittlänge in Strecke um. Multiplizieren Sie diese dann mit 0,96 und Ihrem Körpergewicht. So erhalten Sie eine vernünftige Schätzung Ihres Kalorienverbrauchs durch Schritte, die Sie mit Ihren eigenen Ergebnissen abgleichen können.",
+      "key_stats": [
+        {
+          "label": "Energieaufwand beim Gehen im Freien",
+          "value": "0,96 kcal pro kg und km",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Gehen im Freien vs. ebenes Laufband",
+          "value": "Draußen etwa 30 % mehr Energie pro km",
+          "source": "Field study of walking commuters"
+        },
+        {
+          "label": "Schritte in 30 Minuten bei 105 Schritten/Min.",
+          "value": "3.150 Schritte oder 2 km",
+          "source": "Cross-sectional study of Chinese young adults"
+        },
+        {
+          "label": "Kalorienfehler von Handgelenk-Trackern",
+          "value": "Mittlerer absoluter prozentualer Fehler bei allen Marken über 30 %",
+          "source": "Systematic review of wrist-worn activity trackers"
+        },
+        {
+          "label": "Beste Kaloriengenauigkeit von Handgelenkgeräten im Labortest",
+          "value": "Kein Gerät mit weniger als 20 % Fehler",
+          "source": "Lab validation of seven wrist-worn devices"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Wie viele Kalorien verbrennen 15.000 Schritte?",
+          "answer": "Rechnerisch etwa 9,1 kcal pro Kilogramm Körpergewicht bei zügigem Gehen im Freien. Multiplizieren Sie 9,1 mit Ihrem Gewicht in kg. Der Wert ergibt sich aus 15.000 ÷ 1.575 ≈ 9,52 km. Diese Strecke wird mit einem gemessenen Aufwand von 0,96 kcal pro kg und km multipliziert (9,52 × 0,96 ≈ 9,14)."
+        },
+        {
+          "question": "Wie viele Kalorien verbraucht ein Schritt?",
+          "answer": "Etwa 0,00061 kcal pro Kilogramm Körpergewicht. Das sind 0,96 kcal pro kg und km, geteilt durch rund 1.575 Schritte pro km. Pro 1.000 Schritte ergibt das etwa 0,61 kcal pro kg. Höheres Tempo, Steigungen, unebener Untergrund und getragene Lasten erhöhen den Energieaufwand beim Gehen."
+        },
+        {
+          "question": "Wie viele Kilometer sind 15.000 Schritte?",
+          "answer": "Rund 9,5 km (15.000 ÷ 1.575). Grundlage ist eine Gehempfehlung, die 3.150 Schritte mit 2 km gleichsetzt. Diese Umrechnung ist keine gemessene Schrittlänge. Ihre tatsächliche Strecke hängt von Ihrer eigenen Schrittlänge ab. Bei gleichem Tempo machten Frauen in dieser Studie mehr Schritte pro Minute als Männer."
+        },
+        {
+          "question": "Wie lange braucht man für 15.000 Schritte?",
+          "answer": "Etwa 150 Minuten bei 100 Schritten pro Minute oder etwa 143 Minuten bei 105 Schritten pro Minute. Mit höherer Schrittfrequenz geht es schneller. Eine Frequenz von rund 100 Schritten pro Minute gilt häufig als Schwelle zur moderaten Intensität."
+        },
+        {
+          "question": "Sind die Kalorienangaben von Smartwatches beim Gehen genau?",
+          "answer": "Eher nicht. Ein systematischer Review fand bei allen Marken von Handgelenk-Trackern Fehler beim Energieverbrauch von über 30 %. In einer Laborstudie erreichte kein Gerät einen Fehler unter 20 Prozent, und beim Gehen waren die Fehler am größten. Die Schrittzahl ist in der Regel zuverlässiger als der Kalorienwert."
+        },
+        {
+          "question": "Verbrenne ich beim Gehen draußen mehr Kalorien als auf dem Laufband?",
+          "answer": "In der Regel ja. In einer Feldstudie mit Pendlern erforderte das Gehen im Freien etwa 30 % mehr Energie pro km als das Gehen auf dem ebenen Laufband. Unebenes Gelände, Steigungen und getragene Lasten erhöhen den Aufwand zusätzlich."
+        }
+      ],
+      "comparison_table": {
+        "title": "Geschätzter Kalorienverbrauch durch Schritte (zügiges Gehen im Freien)",
+        "headers": [
+          "Schritte pro Tag",
+          "Ungefähre Strecke (Schritte ÷ 1.575)",
+          "kcal pro kg Körpergewicht (km × 0,96)",
+          "Einordnung"
+        ],
+        "rows": [
+          [
+            "3.150",
+            "2,0 km",
+            "1,92",
+            "30 Minuten bei 105 Schritten/Min."
+          ],
+          [
+            "6.000",
+            "3,81 km",
+            "3,66",
+            "Tägliche Empfehlung für Alltagswege zu Fuß aus einer Pendlerstudie"
+          ],
+          [
+            "7.000",
+            "4,44 km",
+            "4,27",
+            "Verbunden mit 47 % geringerer Gesamtsterblichkeit vs. 2.000 Schritte/Tag"
+          ],
+          [
+            "10.000",
+            "6,35 km",
+            "6,10",
+            "Das weithin propagierte Tagesziel"
+          ],
+          [
+            "15.000",
+            "9,52 km",
+            "9,14",
+            "Etwa 143 Minuten bei 105 Schritten/Min."
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Perspectives on exercise intensity, volume, step characteristics and health outcomes in walking for transport.",
+          "source": "Frontiers in public health, 2022",
+          "url": "https://doi.org/10.3389/fpubh.2022.911863"
+        },
+        {
+          "title": "Step rate-determined walking intensity and walking recommendation in Chinese young adults: a cross-sectional study.",
+          "source": "BMJ open, 2013",
+          "url": "https://doi.org/10.1136/bmjopen-2012-001801"
+        },
+        {
+          "title": "The energy cost of walking is sensitive to speed but not gravity; for running, it's the other way around: model and experiment.",
+          "source": "The Journal of experimental biology, 2026",
+          "url": "https://doi.org/10.1242/jeb.250582"
+        },
+        {
+          "title": "The energetic cost of human walking as a function of uneven terrain amplitude.",
+          "source": "The Journal of experimental biology, 2025",
+          "url": "https://doi.org/10.1242/jeb.249840"
+        },
+        {
+          "title": "Soldier load carriage: historical, physiological, biomechanical, and medical aspects.",
+          "source": "Military medicine, 2004",
+          "url": "https://doi.org/10.7205/milmed.169.1.45"
+        },
+        {
+          "title": "Walking Cadence during Moderate-Intensity Physical Activity in Pregnant Women.",
+          "source": "International journal of environmental research and public health, 2021",
+          "url": "https://doi.org/10.3390/ijerph18126593"
+        },
+        {
+          "title": "Accuracy and Acceptability of Wrist-Wearable Activity-Tracking Devices: Systematic Review of the Literature.",
+          "source": "Journal of medical Internet research, 2022",
+          "url": "https://doi.org/10.2196/30791"
+        },
+        {
+          "title": "Accuracy in Wrist-Worn, Sensor-Based Measurements of Heart Rate and Energy Expenditure in a Diverse Cohort.",
+          "source": "Journal of personalized medicine, 2017",
+          "url": "https://doi.org/10.3390/jpm7020003"
+        },
+        {
+          "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts.",
+          "source": "The Lancet. Public health, 2022",
+          "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+        },
+        {
+          "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis.",
+          "source": "The Lancet. Public health, 2025",
+          "url": "https://doi.org/10.1016/S2468-2667(25)00164-1"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    }
+  },
+  "generated_at": "2026-11-11T02:28:48.000Z",
+  "updated_at": "2026-11-11T02:28:48.000Z"
+}

@@ -1,0 +1,1874 @@
+{
+  "article_id": "BLOG_RETATRUTIDE_WHAT_IS_IT_HOW_IT_WORKS_2026",
+  "slug": "retatrutide-what-is-it-how-it-works-2026",
+  "category": "Medication Guide",
+  "category_emoji": "💊",
+  "type": "guide",
+  "reading_time_min": 7,
+  "primary_keyword_en": "retatrutide",
+  "primary_keyword_ko": "레타트루타이드",
+  "langs": {
+    "en": {
+      "title": "Retatrutide: What It Is and How It Works",
+      "short_title": "What Is Retatrutide?",
+      "short_description": "What retatrutide is, how its three-receptor action works, and what phase 2 and phase 3 trials found on weight, blood sugar and safety.",
+      "meta_description": "Retatrutide is an investigational weekly triple agonist (GIP, GLP-1, glucagon). See how it works, what trials found on weight and diabetes, and side effects.",
+      "tldr": "Retatrutide is an investigational once-weekly injection that activates three hormone receptors at once: GIP, GLP-1 and glucagon. In a 48-week phase 2 obesity trial, the 12 mg dose produced a mean weight change of -24.2% versus -2.1% with placebo. A phase 3 trial in type 2 diabetes lowered HbA1c by up to 1.94% over 40 weeks. It is still under clinical development, and its most common side effects are gastrointestinal.",
+      "body_md": "## What is retatrutide?\n\nRetatrutide is an investigational medicine being developed for obesity and type 2 diabetes. It is given as a once-weekly injection under the skin. Its development code is LY3437943.\n\nChemically, retatrutide is a lipidated 39-residue peptide. That means it is a single molecule that activates three hormone receptors at the same time:\n\n- the glucose-dependent insulinotropic polypeptide (GIP) receptor\n- the glucagon-like peptide-1 (GLP-1) receptor\n- the glucagon receptor\n\nThis is why it is called a triple agonist. For context, semaglutide is a GLP-1 receptor agonist and tirzepatide is a dual GLP-1/GIP receptor agonist. Retatrutide keeps both of those signals and adds glucagon.\n\nIf you searched simply for retatrutide, or for retatrutide adalah, the short answer is this: an experimental weekly injection that targets three gut and pancreatic hormone pathways to reduce body weight and blood sugar. It is not yet an established treatment. A review covering evidence through 11 September 2026 reports that five phase 3 trials have announced positive primary outcomes, but only one of them had a full peer-reviewed report at that point.\n\n## How retatrutide works on three receptors\n\nEach receptor contributes something different. Researchers are still working out how much each one matters in people, so it helps to separate what was shown in animals from what was measured in human trials.\n\n### GLP-1 and GIP: eating less\n\nIn the discovery work in obese mice, weight loss came partly from GIP- and GLP-1-receptor-driven reductions in calorie intake. Human data point the same way. In a phase 2 analysis of 275 adults with type 2 diabetes, people taking retatrutide 4 mg or more reported greater reductions in overall appetite, hunger and prospective food consumption at week 24 than those on placebo.\n\nAt the 8 and 12 mg doses, participants also reported less perceived hunger and less disinhibition, which is the tendency to overeat in situations such as stress. Those changes were linked to weight loss, though the correlations were modest (r = 0.28 for perceived hunger and r = 0.36 for disinhibition).\n\n### Glucagon: spending more energy\n\nGlucagon is well known as insulin's counterpart in glucose control, and it has hyperglycaemic effects, which sounds like the opposite of what a diabetes drug should do. In mice, however, adding glucagon-receptor activity increased energy expenditure on top of the reduced calorie intake, and this augmented weight loss. Retatrutide's design pairs glucagon receptor engagement with incretin activity so that glucose-lowering efficacy is maintained.\n\nA review of glucagon biology notes that the rise in energy expenditure has been shown at least in animal models, and that the pathways affected by long-term glucagon receptor activation in humans, along with its potential risks, remain to be delineated.\n\n### Receptor balance\n\nIn laboratory testing, retatrutide showed balanced activity at the glucagon and GLP-1 receptors but more activity at the GIP receptor. A pharmacodynamics review of anti-obesity drugs argues that efficacy and tolerability cannot be inferred from receptor identity alone. They emerge from relative receptor potency, exposure, tissue access and mechanism-linked adverse effects.\n\n### Why it is taken once a week\n\nRetatrutide has a mean half-life of approximately 6 days, and its pharmacokinetics were dose proportional in early trials. That long half-life is what supports once-weekly dosing. In a phase 1 single-dose study, a reduction in body weight persisted up to day 43 after one injection.\n\n## How much weight loss did trials show?\n\nThe most detailed published weight data come from a phase 2, double-blind, placebo-controlled trial funded by Eli Lilly. It enrolled 338 adults with a BMI of 30 or higher, or a BMI of 27 to less than 30 plus at least one weight-related condition. Participants received weekly retatrutide at 1, 4, 8 or 12 mg, or placebo, for 48 weeks.\n\nMean weight change at 48 weeks:\n\n- 1 mg: -8.7%\n- 4 mg (combined groups): -17.1%\n- 8 mg (combined groups): -22.8%\n- 12 mg: -24.2%\n- placebo: -2.1%\n\nSubtracting the placebo effect gives a simple placebo-adjusted figure for the top dose: 24.2 − 2.1 = 22.1 percentage points. That matches the 22.1% placebo-subtracted weight loss for retatrutide reported in a review of antiobesity medications.\n\nThe proportion of people reaching common weight-loss thresholds is just as telling. With 12 mg, 100% lost at least 5% of body weight, 93% lost at least 10%, and 83% lost at least 15%. In the placebo group, the same figures were 27%, 9% and 2%.\n\n### Early phase 3 numbers\n\nThe large phase 3 obesity trials have so far been reported as sponsor topline disclosures, not full journal papers. In those disclosures, mean weight reductions of 28.3% at 80 weeks (TRIUMPH-1) and 28.7% at 68 weeks (TRIUMPH-4) were reported using an efficacy estimand. TRIUMPH-1 also reported a treatment-regimen estimate of 25.0%.\n\nThe difference between those two figures matters. The critical review of phase 3 evidence cautions that interpreting these results requires attention to estimands, population differences, treatment discontinuation and selection into trial extensions. Both values remain provisional until the full trial reports are published.\n\n## Retatrutide in type 2 diabetes\n\nAccording to the critical review of phase 3 evidence, TRANSCEND-T2D-1 is the only phase 3 trial with a full peer-reviewed report. It ran for 40 weeks at 48 sites in the USA, Mexico and India and included 537 adults whose type 2 diabetes was not controlled by diet and exercise alone. At baseline, mean age was 48.8 years, mean HbA1c was 7.9%, and mean BMI was 35.8 kg/m2.\n\nParticipants received retatrutide 4 mg, 9 mg or 12 mg, or placebo, once a week. Results for HbA1c (the main measure of average blood sugar):\n\n- 4 mg: -1.69%\n- 9 mg: -1.86%\n- 12 mg: -1.94%\n- placebo: -0.81%\n\nBody weight also fell: -11.5% with 4 mg, -13.9% with 9 mg and -15.3% with 12 mg, compared with -2.6% on placebo. These figures sit below the phase 2 obesity results, though the two trials differed in population, length and doses, so they are not directly comparable.\n\nNo severe hypoglycaemia was reported. Most participants, 91%, completed the treatment period on the study drug.\n\n## Effects beyond the scale: liver fat and body composition\n\n### Liver fat\n\nA substudy of the phase 2 obesity trial looked at 98 participants with metabolic dysfunction-associated steatotic liver disease (MASLD) and at least 10% liver fat. After 24 weeks, the mean relative change in liver fat was -42.9% with 1 mg, -57.0% with 4 mg, -81.4% with 8 mg and -82.4% with 12 mg, versus +0.3% with placebo.\n\nNormal liver fat, defined as under 5%, was reached by 79% of people on 8 mg and 86% on 12 mg, and by 0% on placebo. These liver fat reductions were significantly related to changes in body weight, abdominal fat and metabolic measures associated with improved insulin sensitivity.\n\n### Fat mass versus total weight\n\nA falling number on the scale does not say how much of the loss is fat. One review notes that the quality of weight loss beyond BMI reduction warrants further investigation. A body-composition substudy in adults with type 2 diabetes used DXA scans to measure fat mass directly. Over 36 weeks, total fat mass fell by 26.1% with retatrutide 8 mg (pooled) and 23.2% with 12 mg, compared with 4.5% with placebo and 2.6% with dulaglutide.\n\nLean mass is the other side of that picture. The critical review of phase 3 evidence lists the functional consequences of lean-mass loss as one of the issues that still requires further evaluation.\n\n## Side effects and tolerability\n\nIn the phase 2 obesity trial, the most common adverse events were gastrointestinal. They were dose-related, mostly mild to moderate, and partly reduced when treatment started at 2 mg rather than 4 mg. An overview of retatrutide trials names nausea, vomiting, constipation and diarrhoea as the main gastrointestinal events, reported more often at the highest doses and likely linked to rapid dose escalation and higher starting doses.\n\nHeart rate rose in a dose-dependent way, peaked at 24 weeks and declined after that. In the phase 3 diabetes trial, gastrointestinal events were generally mild to moderate and subsided over time. Discontinuations due to adverse events were 2-5% with retatrutide and 0% with placebo.\n\nThe critical review also flags dysaesthesia and heart-rate changes as areas that need more evaluation. For a fuller breakdown, see our guide to [retatrutide side effects](/en/retatrutide-side-effects).\n\n## How retatrutide compares with semaglutide and tirzepatide\n\nA review of double-blind, randomised trials summarised placebo-subtracted weight loss in adults after 48 to 72 weeks as up to 10.8% for semaglutide, 17.8% for tirzepatide and 22.1% for retatrutide.\n\nThose figures come from separate trials with different populations, durations and designs, so they are not a direct head-to-head comparison. The critical review of phase 3 evidence notes that comparative effectiveness and long-term outcomes remain essential to defining where retatrutide fits.\n\nThe same antiobesity review reported hepatic fat reductions on MRI, placebo-subtracted, of 41% for semaglutide, 47% for tirzepatide and 81% for retatrutide. Again, these are cross-trial comparisons. For a closer look at how the three receptor strategies differ, see our [GLP-1 vs retatrutide triple agonist comparison](/en/glp1-retatrutide-triple-agonist-comparison-2026).\n\n## Where retatrutide stands now\n\nRetatrutide remains under clinical development. The TRIUMPH programme consists of four phase 3, randomised, double-blind trials comparing weekly retatrutide with placebo, alongside healthy diet and physical activity, in over 5800 participants. They cover:\n\n- weight management in adults with obesity (TRIUMPH-1 and TRIUMPH-2)\n- obstructive sleep apnoea and knee osteoarthritis, studied within those weight trials\n- weight management in people with cardiovascular disease (TRIUMPH-3)\n- knee osteoarthritis as a stand-alone trial (TRIUMPH-4)\n\nThe main outcomes are percent change in body weight, change in the Apnea-Hypopnea Index for sleep apnoea, and knee pain scores for osteoarthritis.\n\nAcross the published phase 2 trials, weekly doses ranged from 0.5 mg (in the type 2 diabetes trial) to 12 mg, often reached by stepping up from a lower starting dose. These are research doses, not a dosing schedule for personal use. The critical review of phase 3 evidence describes regulatory review as essential to defining retatrutide's therapeutic role.",
+      "key_stats": [
+        {
+          "label": "Mean weight change at 48 weeks, 12 mg (phase 2)",
+          "value": "-24.2% vs -2.1% placebo",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "People on 12 mg losing at least 15% of body weight",
+          "value": "83%",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "HbA1c change at 40 weeks, 12 mg (phase 3, type 2 diabetes)",
+          "value": "-1.94% vs -0.81% placebo",
+          "source": "TRANSCEND-T2D-1 phase 3 trial"
+        },
+        {
+          "label": "Relative liver fat change at 24 weeks, 12 mg",
+          "value": "-82.4%",
+          "source": "Phase 2a MASLD substudy"
+        },
+        {
+          "label": "Mean half-life supporting weekly dosing",
+          "value": "Approximately 6 days",
+          "source": "Review of phase 1 and 2 trials"
+        }
+      ],
+      "faq": [
+        {
+          "question": "What is retatrutide?",
+          "answer": "Retatrutide is an investigational once-weekly injection that activates three hormone receptors: GIP, GLP-1 and glucagon. It is a lipidated 39-residue peptide, also known by the code LY3437943, and is being developed for obesity and type 2 diabetes."
+        },
+        {
+          "question": "Is retatrutide approved?",
+          "answer": "Retatrutide is still under clinical development. A review covering evidence through 11 September 2026 notes that only TRANSCEND-T2D-1 had a full peer-reviewed phase 3 report, while the obesity trials were available as sponsor topline disclosures, and that regulatory review remains essential."
+        },
+        {
+          "question": "How much weight do people lose on retatrutide?",
+          "answer": "In the 48-week phase 2 obesity trial, mean weight change was -24.2% with 12 mg and -22.8% with 8 mg, compared with -2.1% with placebo. Topline phase 3 data reported 28.3% at 80 weeks in TRIUMPH-1, a figure that remains provisional until fully published."
+        },
+        {
+          "question": "How often is retatrutide taken?",
+          "answer": "In trials it was given once a week as an injection under the skin. Its mean half-life of approximately 6 days supports once-weekly dosing."
+        },
+        {
+          "question": "How is retatrutide different from semaglutide and tirzepatide?",
+          "answer": "Semaglutide is a GLP-1 receptor agonist and tirzepatide is a dual GLP-1/GIP receptor agonist. Retatrutide adds the glucagon receptor. A review listed placebo-subtracted weight loss of up to 10.8%, 17.8% and 22.1% for semaglutide, tirzepatide and retatrutide, though these come from separate trials, not head-to-head comparisons."
+        },
+        {
+          "question": "What are the most common side effects of retatrutide?",
+          "answer": "Gastrointestinal effects were most common, mainly nausea, vomiting, constipation and diarrhoea according to an overview of the trials. In the phase 2 obesity trial they were dose-related, mostly mild to moderate, and partly reduced by starting at 2 mg rather than 4 mg. Heart rate rose in a dose-dependent way, peaked at 24 weeks and declined afterwards."
+        }
+      ],
+      "comparison_table": {
+        "title": "Key retatrutide trials at a glance",
+        "headers": [
+          "Trial",
+          "Population",
+          "Duration",
+          "Weekly doses studied",
+          "Headline result"
+        ],
+        "rows": [
+          [
+            "Phase 2 obesity trial",
+            "338 adults with BMI 30 or higher, or 27 to under 30 with a weight-related condition",
+            "48 weeks",
+            "1, 4, 8, 12 mg",
+            "Weight -24.2% with 12 mg vs -2.1% with placebo"
+          ],
+          [
+            "Phase 2a MASLD substudy",
+            "98 adults with at least 10% liver fat",
+            "24 weeks (liver fat endpoint)",
+            "1, 4, 8, 12 mg",
+            "Liver fat -82.4% with 12 mg vs +0.3% with placebo"
+          ],
+          [
+            "Phase 2 body composition substudy",
+            "Adults with type 2 diabetes, aged 18 to 75",
+            "36 weeks",
+            "0.5, 4, 8, 12 mg",
+            "Total fat mass reduced 26.1% with 8 mg vs 4.5% with placebo"
+          ],
+          [
+            "TRANSCEND-T2D-1, phase 3",
+            "537 adults with type 2 diabetes on diet and exercise alone",
+            "40 weeks",
+            "4, 9, 12 mg",
+            "HbA1c -1.94% and weight -15.3% with 12 mg"
+          ],
+          [
+            "TRIUMPH-1, phase 3 topline (as summarised in a critical review)",
+            "Adults with obesity",
+            "80 weeks",
+            "Not detailed in topline summary",
+            "Weight -28.3% (efficacy estimand), 25.0% (treatment-regimen); provisional"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+          "source": "The New England journal of medicine, 2023",
+          "url": "https://doi.org/10.1056/NEJMoa2301972"
+        },
+        {
+          "title": "Retatrutide-A Game Changer in Obesity Pharmacotherapy.",
+          "source": "Biomolecules, 2025",
+          "url": "https://doi.org/10.3390/biom15060796"
+        },
+        {
+          "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+          "source": "Lancet (London, England), 2026",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00967-0"
+        },
+        {
+          "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial.",
+          "source": "The lancet. Diabetes & endocrinology, 2025",
+          "url": "https://doi.org/10.1016/S2213-8587(25)00092-0"
+        },
+        {
+          "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.",
+          "source": "Nature medicine, 2024",
+          "url": "https://doi.org/10.1038/s41591-024-03018-2"
+        },
+        {
+          "title": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+          "source": "Diabetes, obesity & metabolism, 2026",
+          "url": "https://doi.org/10.1111/dom.70209"
+        },
+        {
+          "title": "What is the pipeline for future medications for obesity?",
+          "source": "International journal of obesity (2005), 2025",
+          "url": "https://doi.org/10.1038/s41366-024-01473-y"
+        },
+        {
+          "title": "Appetite, eating attitudes, and eating behaviours during treatment with retatrutide in adults with type 2 diabetes: Results of a phase 2 study.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70097"
+        },
+        {
+          "title": "Retatrutide in type 2 diabetes mellitus and obesity: an overview.",
+          "source": "Expert review of clinical pharmacology, 2026",
+          "url": "https://doi.org/10.1080/17512433.2026.2642415"
+        },
+        {
+          "title": "Shared mechanistic pathways of glucagon signalling: Unlocking its potential for treating obesity, metabolic dysfunction-associated steatotic liver disease, and other cardio-kidney-metabolic conditions.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70148"
+        },
+        {
+          "title": "Antiobesity medications in adult and pediatric obesity and metabolic dysfunction-associated steatotic liver disease.",
+          "source": "Pharmacological reviews, 2025",
+          "url": "https://doi.org/10.1016/j.pharmr.2025.100058"
+        },
+        {
+          "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept.",
+          "source": "Cell metabolism, 2022",
+          "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+        },
+        {
+          "title": "Retatrutide as a Unimolecular GIP/GLP-1/Glucagon Receptor Tri-Agonist: Molecular Design, Pharmaceutical Development and Critical Interpretation of Emerging Phase 3 Evidence.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101277"
+        },
+        {
+          "title": "The First Triple Agonist for Antiobesity: Retatrutide.",
+          "source": "Cardiology in review, 2026",
+          "url": "https://doi.org/10.1097/CRD.0000000000000793"
+        },
+        {
+          "title": "Progress in Anti-Obesity Drug Development: A Pharmacodynamics Perspective.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101281"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "ko": {
+      "title": "레타트루타이드란? 작용 원리, 효과, 부작용 총정리",
+      "short_title": "레타트루타이드란?",
+      "short_description": "레타트루타이드가 무엇인지, 세 가지 수용체에 작용하는 원리, 그리고 2상·3상 시험에서 확인된 체중, 혈당, 안전성 결과를 정리합니다.",
+      "meta_description": "레타트루타이드는 GIP, GLP-1, 글루카곤에 동시에 작용하는 주 1회 삼중 작용제로 아직 개발 중입니다. 작용 원리와 체중·당뇨 임상 결과, 부작용을 알아봅니다.",
+      "tldr": "레타트루타이드는 임상시험 단계의 주 1회 주사제로, GIP, GLP-1, 글루카곤 세 가지 호르몬 수용체를 동시에 활성화합니다. 48주간 진행된 비만 2상 시험에서 12mg 용량군의 평균 체중 변화는 -24.2%로, 위약군의 -2.1%보다 컸습니다. 제2형 당뇨병 3상 시험에서는 40주 동안 당화혈색소(HbA1c)를 최대 1.94% 낮췄습니다. 아직 임상 개발 중인 약물이며, 가장 흔한 부작용은 위장관 증상입니다.",
+      "body_md": "## 레타트루타이드란 무엇인가요?\n\n레타트루타이드는 비만과 제2형 당뇨병 치료를 목표로 개발 중인 임상시험 단계의 약물입니다. 일주일에 한 번 피하 주사로 투여합니다. 개발 코드는 LY3437943입니다.\n\n화학적으로 레타트루타이드는 지질화된 39개 잔기 펩타이드입니다. 하나의 분자가 세 가지 호르몬 수용체를 동시에 활성화한다는 뜻입니다.\n\n- 포도당 의존성 인슐린 분비 촉진 폴리펩타이드(GIP) 수용체\n- 글루카곤 유사 펩타이드-1(GLP-1) 수용체\n- 글루카곤 수용체\n\n그래서 삼중 작용제라고 부릅니다. 참고로 세마글루타이드는 GLP-1 수용체 작용제이고, 터제파타이드는 GLP-1/GIP 이중 수용체 작용제입니다. 레타트루타이드는 이 두 신호를 모두 유지하면서 글루카곤을 더한 약물입니다.\n\n'레타트루타이드란' 또는 '레타트루타이드 뜻'을 검색하셨다면 간단히 이렇게 정리할 수 있습니다. 장과 췌장의 세 가지 호르몬 경로를 겨냥해 체중과 혈당을 낮추는, 주 1회 맞는 실험 단계의 주사제입니다. 아직 확립된 치료법은 아닙니다. 2026년 9월 11일까지의 근거를 다룬 한 리뷰에 따르면 3상 시험 5건이 1차 평가변수에서 긍정적인 결과를 발표했지만, 그 시점에 동료 심사를 거친 전체 보고서가 나온 것은 그중 1건뿐이었습니다.\n\n## 세 가지 수용체에 작용하는 원리\n\n수용체마다 맡는 역할이 다릅니다. 사람에게서 각 수용체가 얼마나 중요한지는 아직 연구 중이므로, 동물에서 확인된 내용과 사람 대상 임상시험에서 측정된 내용을 구분해서 보는 것이 좋습니다.\n\n### GLP-1과 GIP: 덜 먹게 하는 작용\n\n비만 생쥐를 대상으로 한 초기 개발 연구에서 체중 감소의 일부는 GIP 수용체와 GLP-1 수용체를 통해 섭취 칼로리가 줄어든 데서 나왔습니다. 사람 데이터도 같은 방향을 가리킵니다. 제2형 당뇨병 성인 275명을 대상으로 한 2상 분석에서, 레타트루타이드를 4mg 이상 투여한 사람들은 24주 차에 위약군보다 전반적인 식욕, 배고픔, 예상 섭취량이 더 많이 줄었다고 보고했습니다.\n\n8mg과 12mg 용량에서는 체감 배고픔과 탈억제도 줄었다고 보고됐습니다. 탈억제란 스트레스 같은 상황에서 과식하는 경향을 말합니다. 이러한 변화는 체중 감소와 관련이 있었지만 상관관계는 크지 않았습니다(체감 배고픔 r = 0.28, 탈억제 r = 0.36).\n\n### 글루카곤: 에너지 소비를 늘리는 작용\n\n글루카곤은 혈당 조절에서 인슐린과 반대 역할을 하는 호르몬으로 잘 알려져 있고, 혈당을 높이는 작용이 있습니다. 당뇨병 치료제에 어울리지 않는 것처럼 들릴 수 있습니다. 그런데 생쥐에서는 글루카곤 수용체 작용을 더하자 섭취 칼로리 감소에 더해 에너지 소비가 늘었고, 이것이 체중 감소를 더 키웠습니다. 레타트루타이드는 글루카곤 수용체 작용을 인크레틴 작용과 함께 묶어 혈당 강하 효과가 유지되도록 설계됐습니다.\n\n글루카곤 생물학을 다룬 한 리뷰는 에너지 소비 증가가 적어도 동물 모델에서는 확인됐다고 설명합니다. 다만 사람에서 글루카곤 수용체를 장기간 활성화했을 때 영향을 받는 경로와 잠재적 위험은 아직 밝혀져야 할 부분으로 남아 있습니다.\n\n### 수용체 간 균형\n\n실험실 검사에서 레타트루타이드는 글루카곤 수용체와 GLP-1 수용체에는 균형 잡힌 활성을 보였지만, GIP 수용체에는 더 강한 활성을 보였습니다. 항비만 약물의 약력학을 다룬 한 리뷰는 어떤 수용체에 작용하는지만으로는 효과와 내약성을 짐작할 수 없다고 지적합니다. 효과와 내약성은 수용체별 상대적 효력, 노출 정도, 조직 도달, 작용 기전과 연결된 부작용에 따라 결정된다는 것입니다.\n\n### 주 1회 투여하는 이유\n\n레타트루타이드의 평균 반감기는 약 6일이며, 초기 시험에서 약동학은 용량에 비례했습니다. 이처럼 긴 반감기 덕분에 주 1회 투여가 가능합니다. 1상 단회 투여 연구에서는 한 번 주사한 뒤 체중 감소가 43일째까지 이어졌습니다.\n\n## 임상시험에서 체중은 얼마나 줄었나요?\n\n가장 자세히 공개된 체중 데이터는 일라이 릴리가 지원한 이중맹검, 위약 대조 2상 시험에서 나왔습니다. 이 시험에는 BMI 30 이상이거나, BMI 27 이상 30 미만이면서 체중 관련 질환이 하나 이상 있는 성인 338명이 참여했습니다. 참가자들은 48주 동안 매주 레타트루타이드 1mg, 4mg, 8mg, 12mg 또는 위약을 투여받았습니다.\n\n48주 차 평균 체중 변화는 다음과 같습니다.\n\n- 1mg: -8.7%\n- 4mg(통합군): -17.1%\n- 8mg(통합군): -22.8%\n- 12mg: -24.2%\n- 위약: -2.1%\n\n위약 효과를 빼면 최고 용량의 위약 보정 수치를 간단히 구할 수 있습니다. 24.2 − 2.1 = 22.1%포인트입니다. 이는 항비만 약물에 관한 한 리뷰에서 보고한 레타트루타이드의 위약 대비 체중 감소 22.1%와 일치합니다.\n\n흔히 쓰는 체중 감소 기준에 도달한 사람의 비율도 눈여겨볼 만합니다. 12mg 용량군에서는 100%가 체중의 5% 이상, 93%가 10% 이상, 83%가 15% 이상 감량했습니다. 위약군에서는 같은 수치가 각각 27%, 9%, 2%였습니다.\n\n### 초기 3상 결과\n\n대규모 비만 3상 시험은 지금까지 학술지 논문이 아니라 제약사의 주요 결과(톱라인) 발표 형태로만 공개됐습니다. 이 발표에서는 효능 추정 대상(efficacy estimand)을 기준으로 80주 차 평균 체중 감소율 28.3%(TRIUMPH-1), 68주 차 28.7%(TRIUMPH-4)가 보고됐습니다. TRIUMPH-1에서는 치료 레지멘 추정치 25.0%도 함께 보고됐습니다.\n\n이 두 수치의 차이는 중요합니다. 3상 근거를 비판적으로 검토한 리뷰는 이 결과를 해석할 때 추정 대상, 시험 대상군의 차이, 치료 중단, 연장 시험에 누가 참여했는지를 주의 깊게 봐야 한다고 경고합니다. 두 수치 모두 전체 시험 보고서가 발표될 때까지는 잠정적인 값입니다.\n\n## 제2형 당뇨병에서의 레타트루타이드\n\n3상 근거를 비판적으로 검토한 리뷰에 따르면, 동료 심사를 거친 전체 보고서가 나온 3상 시험은 TRANSCEND-T2D-1뿐입니다. 이 시험은 미국, 멕시코, 인도의 48개 기관에서 40주 동안 진행됐으며, 식이요법과 운동만으로 조절되지 않는 제2형 당뇨병 성인 537명이 참여했습니다. 시작 시점의 평균 나이는 48.8세, 평균 당화혈색소는 7.9%, 평균 BMI는 35.8kg/m2였습니다.\n\n참가자들은 레타트루타이드 4mg, 9mg, 12mg 또는 위약을 주 1회 투여받았습니다. 평균 혈당을 보여주는 주요 지표인 당화혈색소(HbA1c) 결과는 다음과 같습니다.\n\n- 4mg: -1.69%\n- 9mg: -1.86%\n- 12mg: -1.94%\n- 위약: -0.81%\n\n체중도 줄었습니다. 4mg은 -11.5%, 9mg은 -13.9%, 12mg은 -15.3%였고, 위약은 -2.6%였습니다. 이 수치는 비만 2상 시험 결과보다 낮지만, 두 시험은 대상군, 기간, 용량이 서로 달라 직접 비교할 수는 없습니다.\n\n중증 저혈당은 보고되지 않았습니다. 참가자 대부분인 91%가 시험약을 유지하며 치료 기간을 마쳤습니다.\n\n## 체중 너머의 효과: 간 지방과 체성분\n\n### 간 지방\n\n비만 2상 시험의 하위 연구에서는 대사이상 관련 지방간질환(MASLD)이 있고 간 지방이 10% 이상인 참가자 98명을 살펴봤습니다. 24주 후 간 지방의 평균 상대 변화는 1mg -42.9%, 4mg -57.0%, 8mg -81.4%, 12mg -82.4%였고, 위약은 +0.3%였습니다.\n\n5% 미만으로 정의한 정상 간 지방 수준에 도달한 비율은 8mg 79%, 12mg 86%였고, 위약은 0%였습니다. 이러한 간 지방 감소는 체중, 복부 지방, 그리고 인슐린 감수성 개선과 관련된 대사 지표의 변화와 유의하게 연관돼 있었습니다.\n\n### 지방량과 전체 체중\n\n체중계 숫자가 줄었다고 해서 그중 얼마가 지방인지 알 수 있는 것은 아닙니다. 한 리뷰는 BMI 감소를 넘어 체중 감소의 질을 더 연구할 필요가 있다고 지적합니다. 제2형 당뇨병 성인을 대상으로 한 체성분 하위 연구에서는 DXA 검사로 지방량을 직접 측정했습니다. 36주 동안 전체 지방량은 레타트루타이드 8mg(통합)에서 26.1%, 12mg에서 23.2% 줄었고, 위약은 4.5%, 둘라글루타이드는 2.6% 줄었습니다.\n\n그 반대편에는 제지방량이 있습니다. 3상 근거를 비판적으로 검토한 리뷰는 제지방량 감소가 신체 기능에 미치는 영향을 추가 평가가 필요한 과제 중 하나로 꼽습니다.\n\n## 부작용과 내약성\n\n비만 2상 시험에서 가장 흔한 이상반응은 위장관 증상이었습니다. 용량과 관련이 있었고 대부분 경증에서 중등도였으며, 4mg 대신 2mg으로 치료를 시작했을 때 일부 줄었습니다. 레타트루타이드 시험을 개관한 자료는 주요 위장관 이상반응으로 메스꺼움, 구토, 변비, 설사를 꼽습니다. 이들 증상은 최고 용량에서 더 자주 보고됐고, 빠른 증량과 높은 시작 용량과 관련이 있을 가능성이 높습니다.\n\n심박수는 용량에 비례해 올라갔고, 24주에 최고치를 찍은 뒤 낮아졌습니다. 당뇨병 3상 시험에서 위장관 이상반응은 대체로 경증에서 중등도였고 시간이 지나면서 가라앉았습니다. 이상반응으로 인한 투여 중단은 레타트루타이드군 2~5%, 위약군 0%였습니다.\n\n비판적 리뷰는 감각 이상(dysaesthesia)과 심박수 변화도 추가 평가가 필요한 부분으로 지적합니다. 더 자세한 내용은 [레타트루타이드 부작용](/ko/retatrutide-side-effects) 가이드를 참고하세요.\n\n## 세마글루타이드, 터제파타이드와 비교하면?\n\n이중맹검 무작위 시험들을 정리한 한 리뷰에 따르면, 48~72주 후 성인의 위약 대비 체중 감소는 세마글루타이드 최대 10.8%, 터제파타이드 17.8%, 레타트루타이드 22.1%였습니다.\n\n이 수치들은 대상군, 기간, 설계가 서로 다른 별개의 시험에서 나온 것이므로 직접 맞대결 비교가 아닙니다. 3상 근거를 비판적으로 검토한 리뷰는 레타트루타이드가 어디에 자리매김할지 정하려면 비교 효과와 장기 결과가 반드시 필요하다고 설명합니다.\n\n같은 항비만 리뷰는 MRI로 측정한 위약 대비 간 지방 감소율을 세마글루타이드 41%, 터제파타이드 47%, 레타트루타이드 81%로 보고했습니다. 이 역시 서로 다른 시험 간의 비교입니다. 세 가지 수용체 전략이 어떻게 다른지 더 알고 싶다면 [GLP-1과 레타트루타이드 삼중 작용제 비교](/ko/glp1-retatrutide-triple-agonist-comparison-2026)를 참고하세요.\n\n## 레타트루타이드는 지금 어디까지 왔나요?\n\n레타트루타이드는 여전히 임상 개발 단계에 있습니다. TRIUMPH 프로그램은 건강한 식단과 신체 활동을 병행하면서 주 1회 레타트루타이드와 위약을 비교하는 무작위 이중맹검 3상 시험 4건으로 구성되며, 참가자는 5,800명이 넘습니다. 다루는 영역은 다음과 같습니다.\n\n- 비만 성인의 체중 관리(TRIUMPH-1, TRIUMPH-2)\n- 폐쇄성 수면무호흡증과 무릎 골관절염(위 체중 시험 안에서 연구)\n- 심혈관 질환이 있는 사람의 체중 관리(TRIUMPH-3)\n- 단독 시험으로 진행되는 무릎 골관절염(TRIUMPH-4)\n\n주요 평가변수는 체중 변화율, 수면무호흡증의 무호흡-저호흡 지수(AHI) 변화, 골관절염의 무릎 통증 점수입니다.\n\n공개된 2상 시험 전체에서 주간 용량은 0.5mg(제2형 당뇨병 시험)부터 12mg까지였으며, 대개 낮은 시작 용량에서 단계적으로 올려 도달했습니다. 이는 연구용 용량일 뿐 개인이 사용할 투여 일정이 아닙니다. 3상 근거를 비판적으로 검토한 리뷰는 레타트루타이드의 치료적 역할을 정하려면 규제 당국의 심사가 반드시 필요하다고 설명합니다.",
+      "key_stats": [
+        {
+          "label": "48주 차 평균 체중 변화, 12mg(2상)",
+          "value": "-24.2%(위약 -2.1%)",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "12mg 투여군 중 체중 15% 이상 감량한 비율",
+          "value": "83%",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "40주 차 당화혈색소 변화, 12mg(3상, 제2형 당뇨병)",
+          "value": "-1.94%(위약 -0.81%)",
+          "source": "TRANSCEND-T2D-1 phase 3 trial"
+        },
+        {
+          "label": "24주 차 간 지방 상대 변화, 12mg",
+          "value": "-82.4%",
+          "source": "Phase 2a MASLD substudy"
+        },
+        {
+          "label": "주 1회 투여를 뒷받침하는 평균 반감기",
+          "value": "약 6일",
+          "source": "Review of phase 1 and 2 trials"
+        }
+      ],
+      "faq": [
+        {
+          "question": "레타트루타이드란 무엇인가요?",
+          "answer": "레타트루타이드는 GIP, GLP-1, 글루카곤 세 가지 호르몬 수용체를 활성화하는, 임상시험 단계의 주 1회 주사제입니다. 지질화된 39개 잔기 펩타이드로 개발 코드 LY3437943으로도 불리며, 비만과 제2형 당뇨병 치료제로 개발되고 있습니다."
+        },
+        {
+          "question": "레타트루타이드는 승인됐나요?",
+          "answer": "레타트루타이드는 아직 임상 개발 중입니다. 2026년 9월 11일까지의 근거를 다룬 한 리뷰는 동료 심사를 거친 전체 3상 보고서가 나온 것은 TRANSCEND-T2D-1뿐이고 비만 시험은 제약사의 톱라인 발표로만 공개됐다고 밝히며, 규제 당국의 심사가 여전히 반드시 필요하다고 설명합니다."
+        },
+        {
+          "question": "레타트루타이드로 체중이 얼마나 줄어드나요?",
+          "answer": "48주 비만 2상 시험에서 평균 체중 변화는 12mg -24.2%, 8mg -22.8%였고, 위약은 -2.1%였습니다. 3상 톱라인 데이터에서는 TRIUMPH-1의 80주 차 감소율이 28.3%로 보고됐지만, 이 수치는 전체 결과가 발표될 때까지 잠정치입니다."
+        },
+        {
+          "question": "레타트루타이드는 얼마나 자주 투여하나요?",
+          "answer": "임상시험에서는 일주일에 한 번 피하 주사로 투여했습니다. 평균 반감기가 약 6일이어서 주 1회 투여가 가능합니다."
+        },
+        {
+          "question": "레타트루타이드는 세마글루타이드, 터제파타이드와 무엇이 다른가요?",
+          "answer": "세마글루타이드는 GLP-1 수용체 작용제이고, 터제파타이드는 GLP-1/GIP 이중 수용체 작용제입니다. 레타트루타이드는 여기에 글루카곤 수용체를 더했습니다. 한 리뷰는 위약 대비 체중 감소를 세마글루타이드 최대 10.8%, 터제파타이드 17.8%, 레타트루타이드 22.1%로 정리했지만, 이는 별개의 시험에서 나온 수치로 직접 비교 결과가 아닙니다."
+        },
+        {
+          "question": "레타트루타이드의 가장 흔한 부작용은 무엇인가요?",
+          "answer": "시험들을 개관한 자료에 따르면 위장관 증상이 가장 흔했고, 주로 메스꺼움, 구토, 변비, 설사였습니다. 비만 2상 시험에서 이들 증상은 용량과 관련이 있었고 대부분 경증에서 중등도였으며, 4mg 대신 2mg으로 시작했을 때 일부 줄었습니다. 심박수는 용량에 비례해 올라갔고 24주에 최고치를 찍은 뒤 낮아졌습니다."
+        }
+      ],
+      "comparison_table": {
+        "title": "레타트루타이드 주요 임상시험 한눈에 보기",
+        "headers": [
+          "시험",
+          "대상",
+          "기간",
+          "연구된 주간 용량",
+          "주요 결과"
+        ],
+        "rows": [
+          [
+            "비만 2상 시험",
+            "BMI 30 이상, 또는 BMI 27 이상 30 미만이면서 체중 관련 질환이 있는 성인 338명",
+            "48주",
+            "1, 4, 8, 12mg",
+            "12mg 체중 -24.2%, 위약 -2.1%"
+          ],
+          [
+            "2a상 MASLD 하위 연구",
+            "간 지방 10% 이상인 성인 98명",
+            "24주(간 지방 평가변수)",
+            "1, 4, 8, 12mg",
+            "12mg 간 지방 -82.4%, 위약 +0.3%"
+          ],
+          [
+            "2상 체성분 하위 연구",
+            "18~75세 제2형 당뇨병 성인",
+            "36주",
+            "0.5, 4, 8, 12mg",
+            "8mg 전체 지방량 26.1% 감소, 위약 4.5% 감소"
+          ],
+          [
+            "TRANSCEND-T2D-1, 3상",
+            "식이요법과 운동만 하는 제2형 당뇨병 성인 537명",
+            "40주",
+            "4, 9, 12mg",
+            "12mg 당화혈색소 -1.94%, 체중 -15.3%"
+          ],
+          [
+            "TRIUMPH-1, 3상 톱라인(비판적 리뷰 요약 기준)",
+            "비만 성인",
+            "80주",
+            "톱라인 요약에 명시되지 않음",
+            "체중 -28.3%(효능 추정 대상), 25.0%(치료 레지멘), 잠정치"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+          "source": "The New England journal of medicine, 2023",
+          "url": "https://doi.org/10.1056/NEJMoa2301972"
+        },
+        {
+          "title": "Retatrutide-A Game Changer in Obesity Pharmacotherapy.",
+          "source": "Biomolecules, 2025",
+          "url": "https://doi.org/10.3390/biom15060796"
+        },
+        {
+          "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+          "source": "Lancet (London, England), 2026",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00967-0"
+        },
+        {
+          "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial.",
+          "source": "The lancet. Diabetes & endocrinology, 2025",
+          "url": "https://doi.org/10.1016/S2213-8587(25)00092-0"
+        },
+        {
+          "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.",
+          "source": "Nature medicine, 2024",
+          "url": "https://doi.org/10.1038/s41591-024-03018-2"
+        },
+        {
+          "title": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+          "source": "Diabetes, obesity & metabolism, 2026",
+          "url": "https://doi.org/10.1111/dom.70209"
+        },
+        {
+          "title": "What is the pipeline for future medications for obesity?",
+          "source": "International journal of obesity (2005), 2025",
+          "url": "https://doi.org/10.1038/s41366-024-01473-y"
+        },
+        {
+          "title": "Appetite, eating attitudes, and eating behaviours during treatment with retatrutide in adults with type 2 diabetes: Results of a phase 2 study.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70097"
+        },
+        {
+          "title": "Retatrutide in type 2 diabetes mellitus and obesity: an overview.",
+          "source": "Expert review of clinical pharmacology, 2026",
+          "url": "https://doi.org/10.1080/17512433.2026.2642415"
+        },
+        {
+          "title": "Shared mechanistic pathways of glucagon signalling: Unlocking its potential for treating obesity, metabolic dysfunction-associated steatotic liver disease, and other cardio-kidney-metabolic conditions.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70148"
+        },
+        {
+          "title": "Antiobesity medications in adult and pediatric obesity and metabolic dysfunction-associated steatotic liver disease.",
+          "source": "Pharmacological reviews, 2025",
+          "url": "https://doi.org/10.1016/j.pharmr.2025.100058"
+        },
+        {
+          "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept.",
+          "source": "Cell metabolism, 2022",
+          "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+        },
+        {
+          "title": "Retatrutide as a Unimolecular GIP/GLP-1/Glucagon Receptor Tri-Agonist: Molecular Design, Pharmaceutical Development and Critical Interpretation of Emerging Phase 3 Evidence.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101277"
+        },
+        {
+          "title": "The First Triple Agonist for Antiobesity: Retatrutide.",
+          "source": "Cardiology in review, 2026",
+          "url": "https://doi.org/10.1097/CRD.0000000000000793"
+        },
+        {
+          "title": "Progress in Anti-Obesity Drug Development: A Pharmacodynamics Perspective.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101281"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "ja": {
+      "title": "レタトルチドとは？作用機序・効果・副作用を解説",
+      "short_title": "レタトルチドとは？",
+      "short_description": "レタトルチドとはどんな薬か、3つの受容体に働く仕組み、第2相・第3相試験で示された体重、血糖、安全性の結果をまとめました。",
+      "meta_description": "レタトルチドはGIP・GLP-1・グルカゴンに作用する週1回投与の三重作動薬で、現在も開発中です。作用機序、肥満・糖尿病の臨床試験結果、副作用を解説します。",
+      "tldr": "レタトルチドは、GIP、GLP-1、グルカゴンという3つのホルモン受容体を同時に活性化する、開発中の週1回注射薬です。48週間の肥満を対象とした第2相試験では、12mg群の平均体重変化が-24.2%で、プラセボ群は-2.1%でした。2型糖尿病を対象とした第3相試験では、40週間でHbA1cを最大1.94%低下させました。現在も臨床開発の段階にあり、主な副作用は消化器症状です。",
+      "body_md": "## レタトルチドとは？\n\nレタトルチドは、肥満症と2型糖尿病の治療薬として開発が進められている治験薬です。週1回、皮下注射で投与します。開発コードはLY3437943です。\n\n化学的には、脂質修飾を受けた39残基のペプチドです。つまり、1つの分子で3つのホルモン受容体を同時に活性化します。\n\n- グルコース依存性インスリン分泌刺激ポリペプチド（GIP）受容体\n- グルカゴン様ペプチド-1（GLP-1）受容体\n- グルカゴン受容体\n\nこのため「三重作動薬（トリプルアゴニスト）」と呼ばれます。参考までに、セマグルチドはGLP-1受容体作動薬、チルゼパチドはGLP-1/GIP受容体の二重作動薬です。レタトルチドはこの2つのシグナルをどちらも残したうえで、グルカゴンを加えています。\n\n「レタトルチドとは」と検索した方に向けて短くまとめると、腸と膵臓に関わる3つのホルモン経路に働きかけて体重と血糖を下げる、週1回投与の開発中の注射薬です。まだ確立された治療法ではありません。2026年9月11日までのエビデンスをまとめたレビューによると、第3相試験5件が主要評価項目で良好な結果を発表していますが、その時点で査読付きの完全な報告が出ていたのは1件だけでした。\n\n## 3つの受容体に働く仕組み\n\nそれぞれの受容体は異なる役割を担っています。ヒトでそれぞれがどの程度重要なのかはまだ研究途上のため、動物で示されたことと、ヒトの臨床試験で測定されたことを分けて見ることが大切です。\n\n### GLP-1とGIP：食べる量を減らす\n\n肥満マウスを用いた創薬段階の研究では、体重減少の一部は、GIP受容体とGLP-1受容体を介した摂取カロリーの減少によるものでした。ヒトのデータも同じ方向を示しています。2型糖尿病の成人275人を対象とした第2相試験の解析では、レタトルチドを4mg以上投与された人は、24週時点でプラセボ群に比べて全体的な食欲、空腹感、予想される食事量がより大きく減ったと報告しました。\n\n8mgと12mgでは、自覚的な空腹感と脱抑制も減ったと報告されました。脱抑制とは、ストレスなどの場面で食べ過ぎてしまう傾向のことです。これらの変化は体重減少と関連していましたが、相関はそれほど強くありませんでした（自覚的な空腹感はr = 0.28、脱抑制はr = 0.36）。\n\n### グルカゴン：エネルギー消費を増やす\n\nグルカゴンは血糖調節においてインスリンと対になるホルモンとしてよく知られており、血糖を上げる作用があります。糖尿病の薬としては逆効果のように聞こえるかもしれません。しかしマウスでは、グルカゴン受容体への作用を加えることで、摂取カロリーの減少に加えてエネルギー消費が増え、体重減少がさらに大きくなりました。レタトルチドは、グルカゴン受容体への作用とインクレチン作用を組み合わせることで、血糖を下げる効果が保たれるように設計されています。\n\nグルカゴンの生物学に関するレビューでは、エネルギー消費の増加は少なくとも動物モデルでは示されているとしています。一方で、ヒトでグルカゴン受容体を長期間活性化した場合に影響を受ける経路や、その潜在的なリスクについては、まだ解明が必要だとされています。\n\n### 受容体のバランス\n\n実験室での検討では、レタトルチドはグルカゴン受容体とGLP-1受容体にはバランスのとれた活性を示し、GIP受容体にはより強い活性を示しました。抗肥満薬の薬力学に関するレビューは、どの受容体に作用するかだけでは有効性や忍容性は推測できないと指摘しています。それらは、受容体ごとの相対的な効力、曝露量、組織への到達、作用機序に関連した副作用によって決まるという考え方です。\n\n### 週1回の投与でよい理由\n\nレタトルチドの平均半減期は約6日で、初期の試験では薬物動態が用量に比例していました。この長い半減期が、週1回投与を可能にしています。第1相の単回投与試験では、1回の注射後、体重減少が43日目まで続きました。\n\n## 臨床試験で体重はどれくらい減った？\n\n最も詳しく公表されている体重データは、イーライリリーが資金提供した第2相の二重盲検プラセボ対照試験によるものです。BMI 30以上、またはBMI 27以上30未満で体重に関連する疾患を1つ以上もつ成人338人が参加しました。参加者は48週間、毎週レタトルチド1mg、4mg、8mg、12mgのいずれか、またはプラセボを投与されました。\n\n48週時点の平均体重変化は次のとおりです。\n\n- 1mg：-8.7%\n- 4mg（統合群）：-17.1%\n- 8mg（統合群）：-22.8%\n- 12mg：-24.2%\n- プラセボ：-2.1%\n\nプラセボの効果を差し引くと、最高用量のプラセボ補正値は簡単に求められます。24.2 − 2.1 = 22.1ポイントです。これは、抗肥満薬に関するレビューで報告されたレタトルチドのプラセボ差し引き後の体重減少22.1%と一致します。\n\nよく使われる減量の目安に達した人の割合も注目に値します。12mg群では、100%が体重の5%以上、93%が10%以上、83%が15%以上減量しました。プラセボ群では、同じ数値がそれぞれ27%、9%、2%でした。\n\n### 第3相試験の初期データ\n\n大規模な肥満の第3相試験は、これまでのところ学術誌の論文ではなく、製薬企業によるトップライン発表として公表されています。この発表では、有効性エスティマンド（efficacy estimand）に基づき、80週時点で平均28.3%（TRIUMPH-1）、68週時点で28.7%（TRIUMPH-4）の体重減少が報告されました。TRIUMPH-1では、治療方針エスティマンドによる推定値25.0%も報告されています。\n\nこの2つの数値の違いは重要です。第3相のエビデンスを批判的に検討したレビューは、これらの結果を解釈する際には、エスティマンド、対象集団の違い、治療中止、延長試験への参加者の選ばれ方に注意が必要だと警告しています。どちらの数値も、試験の完全な報告が公表されるまでは暫定的なものです。\n\n## 2型糖尿病でのレタトルチド\n\n第3相のエビデンスを批判的に検討したレビューによると、査読付きの完全な報告がある第3相試験はTRANSCEND-T2D-1だけです。この試験は米国、メキシコ、インドの48施設で40週間行われ、食事療法と運動療法だけでは血糖がコントロールできない2型糖尿病の成人537人が参加しました。開始時点の平均年齢は48.8歳、平均HbA1cは7.9%、平均BMIは35.8kg/m2でした。\n\n参加者はレタトルチド4mg、9mg、12mgのいずれか、またはプラセボを週1回投与されました。平均的な血糖値を示す主要な指標であるHbA1cの結果は次のとおりです。\n\n- 4mg：-1.69%\n- 9mg：-1.86%\n- 12mg：-1.94%\n- プラセボ：-0.81%\n\n体重も減少しました。4mgで-11.5%、9mgで-13.9%、12mgで-15.3%、プラセボでは-2.6%でした。これらの数値は肥満の第2相試験の結果より小さいものの、2つの試験は対象集団、期間、用量が異なるため、直接比較はできません。\n\n重症低血糖は報告されませんでした。参加者の大半にあたる91%が、試験薬を継続したまま治療期間を終えました。\n\n## 体重以外への効果：肝臓の脂肪と体組成\n\n### 肝臓の脂肪\n\n肥満の第2相試験のサブ解析では、代謝機能障害関連脂肪性肝疾患（MASLD）があり、肝脂肪が10%以上の参加者98人を調べました。24週後の肝脂肪の平均相対変化は、1mgで-42.9%、4mgで-57.0%、8mgで-81.4%、12mgで-82.4%で、プラセボでは+0.3%でした。\n\n5%未満と定義した正常な肝脂肪量に達したのは、8mgで79%、12mgで86%、プラセボでは0%でした。こうした肝脂肪の減少は、体重、腹部の脂肪、インスリン感受性の改善に関連する代謝指標の変化と有意に関連していました。\n\n### 脂肪量と体重全体\n\n体重計の数字が減っても、そのうちどれだけが脂肪なのかはわかりません。あるレビューは、BMIの低下だけでなく、体重減少の「質」についてさらに研究が必要だと指摘しています。2型糖尿病の成人を対象とした体組成のサブ解析では、DXA検査で脂肪量を直接測定しました。36週間で、総脂肪量はレタトルチド8mg（統合）で26.1%、12mgで23.2%減少し、プラセボでは4.5%、デュラグルチドでは2.6%の減少でした。\n\nその裏側にあるのが除脂肪量です。第3相のエビデンスを批判的に検討したレビューは、除脂肪量の減少が身体機能に及ぼす影響を、今後さらに評価が必要な課題の1つに挙げています。\n\n## 副作用と忍容性\n\n肥満の第2相試験で最も多かった有害事象は消化器症状でした。用量に関連しており、ほとんどが軽度から中等度で、4mgではなく2mgから治療を始めると一部軽減しました。レタトルチドの試験を概観した資料では、主な消化器系の有害事象として吐き気、嘔吐、便秘、下痢が挙げられています。これらは最高用量でより多く報告されており、急速な増量や高い開始用量と関連している可能性が高いとされています。\n\n心拍数は用量依存的に上昇し、24週で最大となった後、低下しました。糖尿病の第3相試験では、消化器系の有害事象はおおむね軽度から中等度で、時間とともに治まりました。有害事象による投与中止は、レタトルチド群で2〜5%、プラセボ群で0%でした。\n\n批判的レビューは、異常感覚（dysaesthesia）と心拍数の変化についても、さらなる評価が必要な点として挙げています。詳しくは[レタトルチドの副作用](/ja/retatrutide-side-effects)のガイドをご覧ください。\n\n## セマグルチド、チルゼパチドとの比較\n\n二重盲検ランダム化試験をまとめたレビューでは、48〜72週後の成人におけるプラセボ差し引き後の体重減少は、セマグルチドで最大10.8%、チルゼパチドで17.8%、レタトルチドで22.1%でした。\n\nこれらは対象集団、期間、デザインが異なる別々の試験から得られた数値であり、直接の比較試験（ヘッド・トゥ・ヘッド）ではありません。第3相のエビデンスを批判的に検討したレビューは、レタトルチドの位置づけを決めるには、比較有効性と長期的な転帰が欠かせないとしています。\n\n同じ抗肥満薬のレビューでは、MRIで測定したプラセボ差し引き後の肝脂肪の減少が、セマグルチドで41%、チルゼパチドで47%、レタトルチドで81%と報告されています。これも試験をまたいだ比較です。3つの受容体戦略の違いについては、[GLP-1とレタトルチド（三重作動薬）の比較](/ja/glp1-retatrutide-triple-agonist-comparison-2026)で詳しく解説しています。\n\n## レタトルチドの現在の状況\n\nレタトルチドは現在も臨床開発の段階にあります。TRIUMPHプログラムは、健康的な食事と身体活動を併用しながら、週1回のレタトルチドとプラセボを比較するランダム化二重盲検の第3相試験4件で構成され、5,800人以上が参加しています。対象は次のとおりです。\n\n- 肥満の成人の体重管理（TRIUMPH-1、TRIUMPH-2）\n- 閉塞性睡眠時無呼吸と膝の変形性関節症（上記の体重試験の中で検討）\n- 心血管疾患のある人の体重管理（TRIUMPH-3）\n- 単独の試験としての膝の変形性関節症（TRIUMPH-4）\n\n主な評価項目は、体重の変化率、睡眠時無呼吸の無呼吸低呼吸指数（AHI）の変化、変形性関節症の膝の痛みのスコアです。\n\n公表された第2相試験全体で、週1回の用量は0.5mg（2型糖尿病の試験）から12mgまでで、多くは低い開始用量から段階的に増やして到達していました。これらはあくまで研究用の用量であり、個人で使うための投与スケジュールではありません。第3相のエビデンスを批判的に検討したレビューは、レタトルチドの治療上の役割を定めるには規制当局による審査が不可欠だとしています。",
+      "key_stats": [
+        {
+          "label": "48週時点の平均体重変化、12mg（第2相）",
+          "value": "-24.2%（プラセボ -2.1%）",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "12mg群で体重を15%以上減らした人の割合",
+          "value": "83%",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "40週時点のHbA1c変化、12mg（第3相、2型糖尿病）",
+          "value": "-1.94%（プラセボ -0.81%）",
+          "source": "TRANSCEND-T2D-1 phase 3 trial"
+        },
+        {
+          "label": "24週時点の肝脂肪の相対変化、12mg",
+          "value": "-82.4%",
+          "source": "Phase 2a MASLD substudy"
+        },
+        {
+          "label": "週1回投与を支える平均半減期",
+          "value": "約6日",
+          "source": "Review of phase 1 and 2 trials"
+        }
+      ],
+      "faq": [
+        {
+          "question": "レタトルチドとは何ですか？",
+          "answer": "レタトルチドは、GIP、GLP-1、グルカゴンの3つのホルモン受容体を活性化する、開発中の週1回注射薬です。脂質修飾を受けた39残基のペプチドで、開発コードLY3437943とも呼ばれ、肥満症と2型糖尿病の治療薬として開発が進められています。"
+        },
+        {
+          "question": "レタトルチドは承認されていますか？",
+          "answer": "レタトルチドは現在も臨床開発中です。2026年9月11日までのエビデンスをまとめたレビューでは、査読付きの完全な第3相報告があるのはTRANSCEND-T2D-1だけで、肥満の試験は製薬企業のトップライン発表のみであるとし、規制当局による審査が引き続き不可欠だとしています。"
+        },
+        {
+          "question": "レタトルチドで体重はどれくらい減りますか？",
+          "answer": "48週間の肥満の第2相試験では、平均体重変化は12mgで-24.2%、8mgで-22.8%、プラセボでは-2.1%でした。第3相のトップラインデータでは、TRIUMPH-1で80週時点に28.3%と報告されていますが、完全な結果が公表されるまでは暫定的な数値です。"
+        },
+        {
+          "question": "レタトルチドはどのくらいの頻度で投与しますか？",
+          "answer": "臨床試験では週1回、皮下注射で投与されました。平均半減期が約6日であることが、週1回投与を可能にしています。"
+        },
+        {
+          "question": "レタトルチドはセマグルチドやチルゼパチドと何が違いますか？",
+          "answer": "セマグルチドはGLP-1受容体作動薬、チルゼパチドはGLP-1/GIP受容体の二重作動薬です。レタトルチドはそこにグルカゴン受容体を加えています。あるレビューでは、プラセボ差し引き後の体重減少をセマグルチドで最大10.8%、チルゼパチドで17.8%、レタトルチドで22.1%としていますが、これらは別々の試験の数値であり、直接比較したものではありません。"
+        },
+        {
+          "question": "レタトルチドの主な副作用は何ですか？",
+          "answer": "試験を概観した資料によると、最も多いのは消化器症状で、主に吐き気、嘔吐、便秘、下痢です。肥満の第2相試験では、これらは用量に関連し、ほとんどが軽度から中等度で、4mgではなく2mgから始めると一部軽減しました。心拍数は用量依存的に上昇し、24週で最大となった後、低下しました。"
+        }
+      ],
+      "comparison_table": {
+        "title": "レタトルチドの主な臨床試験一覧",
+        "headers": [
+          "試験",
+          "対象",
+          "期間",
+          "検討された週1回用量",
+          "主な結果"
+        ],
+        "rows": [
+          [
+            "肥満の第2相試験",
+            "BMI 30以上、またはBMI 27以上30未満で体重関連疾患のある成人338人",
+            "48週",
+            "1、4、8、12mg",
+            "12mgで体重-24.2%、プラセボ-2.1%"
+          ],
+          [
+            "第2a相 MASLDサブ解析",
+            "肝脂肪10%以上の成人98人",
+            "24週（肝脂肪の評価項目）",
+            "1、4、8、12mg",
+            "12mgで肝脂肪-82.4%、プラセボ+0.3%"
+          ],
+          [
+            "第2相 体組成サブ解析",
+            "18〜75歳の2型糖尿病の成人",
+            "36週",
+            "0.5、4、8、12mg",
+            "8mgで総脂肪量26.1%減少、プラセボ4.5%減少"
+          ],
+          [
+            "TRANSCEND-T2D-1、第3相",
+            "食事療法と運動療法のみの2型糖尿病の成人537人",
+            "40週",
+            "4、9、12mg",
+            "12mgでHbA1c -1.94%、体重-15.3%"
+          ],
+          [
+            "TRIUMPH-1、第3相トップライン（批判的レビューの要約による）",
+            "肥満の成人",
+            "80週",
+            "トップライン要約では詳細不明",
+            "体重-28.3%（有効性エスティマンド）、25.0%（治療方針）、暫定値"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+          "source": "The New England journal of medicine, 2023",
+          "url": "https://doi.org/10.1056/NEJMoa2301972"
+        },
+        {
+          "title": "Retatrutide-A Game Changer in Obesity Pharmacotherapy.",
+          "source": "Biomolecules, 2025",
+          "url": "https://doi.org/10.3390/biom15060796"
+        },
+        {
+          "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+          "source": "Lancet (London, England), 2026",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00967-0"
+        },
+        {
+          "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial.",
+          "source": "The lancet. Diabetes & endocrinology, 2025",
+          "url": "https://doi.org/10.1016/S2213-8587(25)00092-0"
+        },
+        {
+          "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.",
+          "source": "Nature medicine, 2024",
+          "url": "https://doi.org/10.1038/s41591-024-03018-2"
+        },
+        {
+          "title": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+          "source": "Diabetes, obesity & metabolism, 2026",
+          "url": "https://doi.org/10.1111/dom.70209"
+        },
+        {
+          "title": "What is the pipeline for future medications for obesity?",
+          "source": "International journal of obesity (2005), 2025",
+          "url": "https://doi.org/10.1038/s41366-024-01473-y"
+        },
+        {
+          "title": "Appetite, eating attitudes, and eating behaviours during treatment with retatrutide in adults with type 2 diabetes: Results of a phase 2 study.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70097"
+        },
+        {
+          "title": "Retatrutide in type 2 diabetes mellitus and obesity: an overview.",
+          "source": "Expert review of clinical pharmacology, 2026",
+          "url": "https://doi.org/10.1080/17512433.2026.2642415"
+        },
+        {
+          "title": "Shared mechanistic pathways of glucagon signalling: Unlocking its potential for treating obesity, metabolic dysfunction-associated steatotic liver disease, and other cardio-kidney-metabolic conditions.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70148"
+        },
+        {
+          "title": "Antiobesity medications in adult and pediatric obesity and metabolic dysfunction-associated steatotic liver disease.",
+          "source": "Pharmacological reviews, 2025",
+          "url": "https://doi.org/10.1016/j.pharmr.2025.100058"
+        },
+        {
+          "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept.",
+          "source": "Cell metabolism, 2022",
+          "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+        },
+        {
+          "title": "Retatrutide as a Unimolecular GIP/GLP-1/Glucagon Receptor Tri-Agonist: Molecular Design, Pharmaceutical Development and Critical Interpretation of Emerging Phase 3 Evidence.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101277"
+        },
+        {
+          "title": "The First Triple Agonist for Antiobesity: Retatrutide.",
+          "source": "Cardiology in review, 2026",
+          "url": "https://doi.org/10.1097/CRD.0000000000000793"
+        },
+        {
+          "title": "Progress in Anti-Obesity Drug Development: A Pharmacodynamics Perspective.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101281"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "zh-CN": {
+      "title": "瑞他鲁肽是什么？作用机制、减重效果与副作用",
+      "short_title": "瑞他鲁肽是什么？",
+      "short_description": "瑞他鲁肽是什么药，三受体作用机制如何起效，以及2期、3期临床试验在体重、血糖和安全性方面的结果。",
+      "meta_description": "瑞他鲁肽是一种在研的每周一次GIP/GLP-1/胰高血糖素三重激动剂。了解其作用机制、减重和糖尿病临床试验结果以及副作用。",
+      "tldr": "瑞他鲁肽是一种在研的每周一次注射药物，可同时激活GIP、GLP-1和胰高血糖素三种激素受体。在一项为期48周的肥胖2期试验中，12 mg剂量组的平均体重变化为-24.2%，安慰剂组为-2.1%。一项2型糖尿病3期试验显示，40周内糖化血红蛋白（HbA1c）最多降低1.94%。该药仍处于临床开发阶段，最常见的副作用为胃肠道反应。",
+      "body_md": "## 瑞他鲁肽是什么？\n\n瑞他鲁肽是一种正在研发中的药物，目标适应证为肥胖和2型糖尿病。用法为每周一次皮下注射。其研发代号为LY3437943。\n\n从化学结构上看，瑞他鲁肽是一种经脂化修饰的39个氨基酸残基肽。也就是说，它是单个分子，却能同时激活三种激素受体：\n\n- 葡萄糖依赖性促胰岛素多肽（GIP）受体\n- 胰高血糖素样肽-1（GLP-1）受体\n- 胰高血糖素受体\n\n这就是它被称为“三重激动剂”的原因。作为参照，司美格鲁肽是GLP-1受体激动剂，替尔泊肽是GLP-1/GIP双受体激动剂。瑞他鲁肽保留了这两种信号，又加上了胰高血糖素。\n\n如果你搜索的是“瑞他鲁肽是什么”，简单来说：它是一种处于试验阶段的每周注射药物，通过作用于肠道和胰腺相关的三条激素通路来降低体重和血糖。它目前还不是成熟的治疗手段。一篇纳入截至2026年9月11日证据的综述指出，已有5项3期试验公布了主要终点的阳性结果，但截至当时，其中只有1项发表了经同行评审的完整报告。\n\n## 瑞他鲁肽如何作用于三种受体\n\n每种受体的贡献各不相同。研究人员仍在弄清每种受体在人体中到底有多重要，因此最好把动物实验中显示的结果和人体临床试验中实际测得的数据分开来看。\n\n### GLP-1和GIP：让人吃得更少\n\n在以肥胖小鼠为对象的早期研发工作中，体重下降部分来自GIP受体和GLP-1受体介导的热量摄入减少。人体数据也指向同一方向。在一项纳入275名2型糖尿病成人的2期分析中，使用4 mg及以上剂量瑞他鲁肽的人在第24周报告的总体食欲、饥饿感和预期进食量的下降幅度均大于安慰剂组。\n\n在8 mg和12 mg剂量下，参与者还报告主观饥饿感和去抑制降低。去抑制指在压力等情境下暴饮暴食的倾向。这些变化与体重下降相关，但相关性不算强（主观饥饿感r = 0.28，去抑制r = 0.36）。\n\n### 胰高血糖素：增加能量消耗\n\n胰高血糖素是众所周知的在血糖调节中与胰岛素作用相反的激素，具有升高血糖的作用，听起来似乎和降糖药的目标背道而驰。然而在小鼠中，加入胰高血糖素受体活性后，除了热量摄入减少之外，能量消耗也增加了，从而进一步放大了减重效果。瑞他鲁肽的设计将胰高血糖素受体作用与肠促胰素作用结合在一起，以保持降糖效果。\n\n一篇关于胰高血糖素生物学的综述指出，能量消耗增加至少已在动物模型中得到证实；而在人体中，长期激活胰高血糖素受体会影响哪些通路、存在哪些潜在风险，仍有待阐明。\n\n### 受体之间的平衡\n\n在实验室检测中，瑞他鲁肽对胰高血糖素受体和GLP-1受体的活性较为均衡，但对GIP受体的活性更强。一篇关于抗肥胖药物药效学的综述认为，仅凭作用于哪种受体，无法推断药物的疗效和耐受性。疗效和耐受性取决于各受体的相对效力、药物暴露量、组织可及性以及与作用机制相关的不良反应。\n\n### 为什么每周只需打一次\n\n瑞他鲁肽的平均半衰期约为6天，在早期试验中其药代动力学呈剂量比例关系。正是这么长的半衰期支持了每周一次给药。在一项1期单次给药研究中，注射一次后体重下降一直持续到第43天。\n\n## 临床试验中体重减了多少？\n\n目前公开最详细的体重数据来自一项由礼来资助的2期双盲、安慰剂对照试验。试验纳入了338名成人，BMI为30及以上，或BMI为27至不足30且至少伴有一种体重相关疾病。参与者每周接受瑞他鲁肽1 mg、4 mg、8 mg、12 mg或安慰剂，持续48周。\n\n第48周平均体重变化：\n\n- 1 mg：-8.7%\n- 4 mg（合并组）：-17.1%\n- 8 mg（合并组）：-22.8%\n- 12 mg：-24.2%\n- 安慰剂：-2.1%\n\n减去安慰剂效应，就能简单算出最高剂量经安慰剂校正后的数值：24.2 − 2.1 = 22.1个百分点。这与一篇抗肥胖药物综述中报告的瑞他鲁肽扣除安慰剂后体重下降22.1%相吻合。\n\n达到常用减重阈值的人群比例同样很能说明问题。12 mg组中，100%的人体重下降至少5%，93%下降至少10%，83%下降至少15%。安慰剂组对应的数字分别为27%、9%和2%。\n\n### 3期试验的早期数据\n\n大型肥胖3期试验目前仅以申办方顶线数据的形式公布，尚未发表完整的期刊论文。在这些公告中，按疗效估计目标（efficacy estimand）计算，第80周平均体重下降28.3%（TRIUMPH-1），第68周下降28.7%（TRIUMPH-4）。TRIUMPH-1还报告了按治疗策略估计目标计算的25.0%。\n\n这两个数字之间的差异很重要。一篇对3期证据进行批判性评价的综述提醒，解读这些结果时需要关注估计目标、人群差异、停药情况以及延长试验的入组选择。在完整试验报告发表之前，这两个数值都只是暂定结果。\n\n## 瑞他鲁肽用于2型糖尿病\n\n根据这篇对3期证据进行批判性评价的综述，TRANSCEND-T2D-1是唯一发表了经同行评审完整报告的3期试验。该试验在美国、墨西哥和印度的48个中心进行，为期40周，纳入了537名仅靠饮食和运动无法控制血糖的2型糖尿病成人。基线时平均年龄为48.8岁，平均HbA1c为7.9%，平均BMI为35.8 kg/m2。\n\n参与者每周一次接受瑞他鲁肽4 mg、9 mg、12 mg或安慰剂。糖化血红蛋白（HbA1c，反映平均血糖水平的主要指标）结果如下：\n\n- 4 mg：-1.69%\n- 9 mg：-1.86%\n- 12 mg：-1.94%\n- 安慰剂：-0.81%\n\n体重同样下降：4 mg组-11.5%，9 mg组-13.9%，12 mg组-15.3%，安慰剂组为-2.6%。这些数字低于肥胖2期试验的结果，但两项试验的人群、时长和剂量都不同，因此不能直接比较。\n\n未报告严重低血糖。绝大多数参与者（91%）在持续使用研究药物的情况下完成了治疗期。\n\n## 体重之外的影响：肝脏脂肪与身体成分\n\n### 肝脏脂肪\n\n肥胖2期试验的一项子研究观察了98名患有代谢功能障碍相关脂肪性肝病（MASLD）且肝脏脂肪含量至少为10%的参与者。24周后，肝脏脂肪的平均相对变化为：1 mg组-42.9%，4 mg组-57.0%，8 mg组-81.4%，12 mg组-82.4%，安慰剂组为+0.3%。\n\n肝脏脂肪恢复正常（定义为低于5%）的比例，8 mg组为79%，12 mg组为86%，安慰剂组为0%。这些肝脏脂肪的下降与体重、腹部脂肪以及与胰岛素敏感性改善相关的代谢指标变化显著相关。\n\n### 脂肪量与总体重\n\n体重秤上的数字下降，并不能说明其中有多少是脂肪。一篇综述指出，除BMI下降之外，减重的“质量”还需要进一步研究。一项针对2型糖尿病成人的身体成分子研究使用DXA扫描直接测量脂肪量。36周内，瑞他鲁肽8 mg（合并）组总脂肪量减少26.1%，12 mg组减少23.2%，安慰剂组减少4.5%，度拉糖肽组减少2.6%。\n\n这个问题的另一面是瘦体重。对3期证据进行批判性评价的综述将瘦体重减少对身体功能的影响列为仍需进一步评估的问题之一。\n\n## 副作用与耐受性\n\n在肥胖2期试验中，最常见的不良事件是胃肠道反应。这些反应与剂量相关，大多为轻至中度，而且起始剂量从4 mg改为2 mg后有所减轻。一篇瑞他鲁肽试验综述列出的主要胃肠道不良事件为恶心、呕吐、便秘和腹泻，在最高剂量下报告更为频繁，很可能与快速加量和较高的起始剂量有关。\n\n心率呈剂量依赖性升高，在第24周达到峰值，之后逐渐下降。在糖尿病3期试验中，胃肠道不良事件总体为轻至中度，并随时间推移逐渐减轻。因不良事件停药的比例，瑞他鲁肽组为2%~5%，安慰剂组为0%。\n\n这篇批判性综述还指出，感觉迟钝（dysaesthesia）和心率变化也需要进一步评估。更详细的内容，请参阅我们的[瑞他鲁肽副作用](/zh/retatrutide-side-effects)指南。\n\n## 瑞他鲁肽与司美格鲁肽、替尔泊肽相比如何？\n\n一篇纳入双盲随机试验的综述总结，成人在用药48至72周后，扣除安慰剂后的体重下降幅度为：司美格鲁肽最高10.8%，替尔泊肽17.8%，瑞他鲁肽22.1%。\n\n这些数字来自人群、时长和设计各不相同的独立试验，并非直接的头对头比较。对3期证据进行批判性评价的综述指出，要确定瑞他鲁肽的定位，比较疗效和长期结局数据必不可少。\n\n同一篇抗肥胖药物综述还报告了经MRI测量、扣除安慰剂后的肝脏脂肪下降幅度：司美格鲁肽41%，替尔泊肽47%，瑞他鲁肽81%。同样，这些属于跨试验比较。想进一步了解三种受体策略的区别，请参阅我们的[GLP-1与瑞他鲁肽三重激动剂对比](/zh/glp1-retatrutide-triple-agonist-comparison-2026)。\n\n## 瑞他鲁肽目前进展到哪一步？\n\n瑞他鲁肽仍处于临床开发阶段。TRIUMPH项目由4项随机、双盲3期试验组成，在健康饮食和体育锻炼的基础上，比较每周一次瑞他鲁肽与安慰剂的效果，参与者超过5800人。研究涵盖：\n\n- 肥胖成人的体重管理（TRIUMPH-1和TRIUMPH-2）\n- 阻塞性睡眠呼吸暂停和膝骨关节炎（在上述体重试验中开展研究）\n- 心血管疾病患者的体重管理（TRIUMPH-3）\n- 作为独立试验的膝骨关节炎研究（TRIUMPH-4）\n\n主要终点包括体重变化百分比、睡眠呼吸暂停的呼吸暂停低通气指数（AHI）变化，以及骨关节炎的膝关节疼痛评分。\n\n在已发表的各项2期试验中，每周剂量范围为0.5 mg（2型糖尿病试验）至12 mg，通常从较低的起始剂量逐步加量达到。这些只是研究剂量，并不是供个人使用的用药方案。对3期证据进行批判性评价的综述指出，要确定瑞他鲁肽的治疗地位，监管审评必不可少。",
+      "key_stats": [
+        {
+          "label": "第48周平均体重变化，12 mg（2期）",
+          "value": "-24.2%（安慰剂-2.1%）",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "12 mg组体重下降至少15%的人群比例",
+          "value": "83%",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "第40周HbA1c变化，12 mg（3期，2型糖尿病）",
+          "value": "-1.94%（安慰剂-0.81%）",
+          "source": "TRANSCEND-T2D-1 phase 3 trial"
+        },
+        {
+          "label": "第24周肝脏脂肪相对变化，12 mg",
+          "value": "-82.4%",
+          "source": "Phase 2a MASLD substudy"
+        },
+        {
+          "label": "支持每周一次给药的平均半衰期",
+          "value": "约6天",
+          "source": "Review of phase 1 and 2 trials"
+        }
+      ],
+      "faq": [
+        {
+          "question": "瑞他鲁肽是什么？",
+          "answer": "瑞他鲁肽是一种在研的每周一次注射药物，可激活GIP、GLP-1和胰高血糖素三种激素受体。它是一种经脂化修饰的39个氨基酸残基肽，研发代号为LY3437943，正在开发用于治疗肥胖和2型糖尿病。"
+        },
+        {
+          "question": "瑞他鲁肽获批了吗？",
+          "answer": "瑞他鲁肽仍处于临床开发阶段。一篇纳入截至2026年9月11日证据的综述指出，只有TRANSCEND-T2D-1发表了经同行评审的完整3期报告，肥胖试验仅有申办方公布的顶线数据，监管审评仍然必不可少。"
+        },
+        {
+          "question": "用瑞他鲁肽能减重多少？",
+          "answer": "在为期48周的肥胖2期试验中，12 mg组平均体重变化为-24.2%，8 mg组为-22.8%，安慰剂组为-2.1%。3期顶线数据显示，TRIUMPH-1第80周体重下降28.3%，但在完整结果发表之前该数字仍为暂定值。"
+        },
+        {
+          "question": "瑞他鲁肽多久用一次？",
+          "answer": "在临床试验中，它以每周一次皮下注射的方式给药。其平均半衰期约为6天，支持每周一次给药。"
+        },
+        {
+          "question": "瑞他鲁肽和司美格鲁肽、替尔泊肽有什么区别？",
+          "answer": "司美格鲁肽是GLP-1受体激动剂，替尔泊肽是GLP-1/GIP双受体激动剂，瑞他鲁肽则在此基础上增加了胰高血糖素受体。一篇综述列出的扣除安慰剂后体重下降幅度为：司美格鲁肽最高10.8%，替尔泊肽17.8%，瑞他鲁肽22.1%，但这些数据来自独立试验，并非头对头比较。"
+        },
+        {
+          "question": "瑞他鲁肽最常见的副作用有哪些？",
+          "answer": "根据一篇试验综述，胃肠道反应最常见，主要为恶心、呕吐、便秘和腹泻。在肥胖2期试验中，这些反应与剂量相关，大多为轻至中度，起始剂量从4 mg改为2 mg后有所减轻。心率呈剂量依赖性升高，在第24周达到峰值，之后逐渐下降。"
+        }
+      ],
+      "comparison_table": {
+        "title": "瑞他鲁肽关键临床试验一览",
+        "headers": [
+          "试验",
+          "人群",
+          "时长",
+          "研究的每周剂量",
+          "主要结果"
+        ],
+        "rows": [
+          [
+            "肥胖2期试验",
+            "338名成人，BMI 30及以上，或BMI 27至不足30且伴有体重相关疾病",
+            "48周",
+            "1、4、8、12 mg",
+            "12 mg组体重-24.2%，安慰剂组-2.1%"
+          ],
+          [
+            "2a期MASLD子研究",
+            "98名肝脏脂肪至少10%的成人",
+            "24周（肝脏脂肪终点）",
+            "1、4、8、12 mg",
+            "12 mg组肝脏脂肪-82.4%，安慰剂组+0.3%"
+          ],
+          [
+            "2期身体成分子研究",
+            "18至75岁的2型糖尿病成人",
+            "36周",
+            "0.5、4、8、12 mg",
+            "8 mg组总脂肪量减少26.1%，安慰剂组减少4.5%"
+          ],
+          [
+            "TRANSCEND-T2D-1，3期",
+            "537名仅靠饮食和运动控制的2型糖尿病成人",
+            "40周",
+            "4、9、12 mg",
+            "12 mg组HbA1c -1.94%，体重-15.3%"
+          ],
+          [
+            "TRIUMPH-1，3期顶线数据（据一篇批判性综述总结）",
+            "肥胖成人",
+            "80周",
+            "顶线摘要中未详细说明",
+            "体重-28.3%（疗效估计目标），25.0%（治疗策略）；暂定结果"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+          "source": "The New England journal of medicine, 2023",
+          "url": "https://doi.org/10.1056/NEJMoa2301972"
+        },
+        {
+          "title": "Retatrutide-A Game Changer in Obesity Pharmacotherapy.",
+          "source": "Biomolecules, 2025",
+          "url": "https://doi.org/10.3390/biom15060796"
+        },
+        {
+          "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+          "source": "Lancet (London, England), 2026",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00967-0"
+        },
+        {
+          "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial.",
+          "source": "The lancet. Diabetes & endocrinology, 2025",
+          "url": "https://doi.org/10.1016/S2213-8587(25)00092-0"
+        },
+        {
+          "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.",
+          "source": "Nature medicine, 2024",
+          "url": "https://doi.org/10.1038/s41591-024-03018-2"
+        },
+        {
+          "title": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+          "source": "Diabetes, obesity & metabolism, 2026",
+          "url": "https://doi.org/10.1111/dom.70209"
+        },
+        {
+          "title": "What is the pipeline for future medications for obesity?",
+          "source": "International journal of obesity (2005), 2025",
+          "url": "https://doi.org/10.1038/s41366-024-01473-y"
+        },
+        {
+          "title": "Appetite, eating attitudes, and eating behaviours during treatment with retatrutide in adults with type 2 diabetes: Results of a phase 2 study.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70097"
+        },
+        {
+          "title": "Retatrutide in type 2 diabetes mellitus and obesity: an overview.",
+          "source": "Expert review of clinical pharmacology, 2026",
+          "url": "https://doi.org/10.1080/17512433.2026.2642415"
+        },
+        {
+          "title": "Shared mechanistic pathways of glucagon signalling: Unlocking its potential for treating obesity, metabolic dysfunction-associated steatotic liver disease, and other cardio-kidney-metabolic conditions.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70148"
+        },
+        {
+          "title": "Antiobesity medications in adult and pediatric obesity and metabolic dysfunction-associated steatotic liver disease.",
+          "source": "Pharmacological reviews, 2025",
+          "url": "https://doi.org/10.1016/j.pharmr.2025.100058"
+        },
+        {
+          "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept.",
+          "source": "Cell metabolism, 2022",
+          "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+        },
+        {
+          "title": "Retatrutide as a Unimolecular GIP/GLP-1/Glucagon Receptor Tri-Agonist: Molecular Design, Pharmaceutical Development and Critical Interpretation of Emerging Phase 3 Evidence.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101277"
+        },
+        {
+          "title": "The First Triple Agonist for Antiobesity: Retatrutide.",
+          "source": "Cardiology in review, 2026",
+          "url": "https://doi.org/10.1097/CRD.0000000000000793"
+        },
+        {
+          "title": "Progress in Anti-Obesity Drug Development: A Pharmacodynamics Perspective.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101281"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "zh-TW": {
+      "title": "瑞塔魯肽Retatrutide是什麼？作用機轉與臨床試驗",
+      "short_title": "瑞塔魯肽是什麼？",
+      "short_description": "瑞塔魯肽是什麼、三重受體如何作用，以及第二期與第三期試驗在體重、血糖與安全性上的發現。",
+      "meta_description": "瑞塔魯肽（retatrutide）是研發中的每週一次三重激動劑，作用於GIP、GLP-1與升糖素受體。一次看懂作用機轉、減重與糖尿病試驗結果及副作用。",
+      "tldr": "瑞塔魯肽（retatrutide）是一款仍在研發中的每週一次注射藥物，能同時活化三種荷爾蒙受體：GIP、GLP-1與升糖素。在一項為期48週的第二期肥胖試驗中，12 mg劑量組的平均體重變化為-24.2%，安慰劑組為-2.1%。一項第2型糖尿病第三期試驗顯示，40週內糖化血色素最多下降1.94%。它目前仍在臨床研發階段，最常見的副作用是腸胃道症狀。",
+      "body_md": "## 瑞塔魯肽是什麼？\n\n瑞塔魯肽（retatrutide）是一款仍在研發中的藥物，目標是治療肥胖與第2型糖尿病。用法是每週一次皮下注射，研發代號為LY3437943。\n\n從化學結構來看，瑞塔魯肽是一種經脂質化修飾、由39個胺基酸殘基組成的胜肽。也就是說，它是單一分子，卻能同時活化三種荷爾蒙受體：\n\n- 葡萄糖依賴性胰島素促泌多肽（GIP）受體\n- 類升糖素胜肽-1（GLP-1）受體\n- 升糖素受體\n\n因此它被稱為「三重激動劑」。對照來看，司美格魯肽是GLP-1受體激動劑，替爾泊肽則是GLP-1/GIP雙重受體激動劑。瑞塔魯肽保留了這兩種訊號，再加上升糖素。\n\n如果你只是想知道retatrutide是什麼，簡單來說：它是一種實驗中的每週注射藥物，鎖定三條腸道與胰臟荷爾蒙路徑，用來降低體重和血糖。它目前還不是既定的治療方式。一篇涵蓋至2026年9月11日證據的回顧指出，已有五項第三期試驗宣布主要結果呈正向，但當時只有其中一項發表了經同儕審查的完整報告。\n\n## 瑞塔魯肽如何作用在三種受體\n\n每種受體各有不同貢獻。研究人員仍在釐清每一種受體在人體中的重要程度，因此最好把動物實驗的發現和人體試驗實際測得的結果分開來看。\n\n### GLP-1與GIP：吃得比較少\n\n在肥胖小鼠的早期研發研究中，體重下降有一部分來自GIP與GLP-1受體所帶動的熱量攝取減少。人體數據也指向相同方向。一項針對275名第2型糖尿病成人的第二期分析顯示，使用4 mg以上劑量的人在第24週時，整體食慾、飢餓感與預期進食量的下降幅度都比安慰劑組大。\n\n在8 mg與12 mg劑量下，受試者也表示飢餓感較低，「去抑制」的程度也較低。所謂去抑制，是指在壓力等情境下容易吃過量的傾向。這些變化與體重下降有關，不過相關性並不強（飢餓感r = 0.28，去抑制r = 0.36）。\n\n### 升糖素：消耗更多能量\n\n升糖素在血糖調控中是大家熟知的胰島素「對手」，具有升高血糖的作用，聽起來正好和糖尿病藥物該做的事相反。然而在小鼠身上，加入升糖素受體活性後，除了熱量攝取減少，能量消耗也跟著增加，進一步放大了減重效果。瑞塔魯肽的設計是讓升糖素受體作用與腸泌素活性搭配，藉此維持降血糖的效果。\n\n一篇升糖素生物學回顧指出，能量消耗增加至少已在動物模型中獲得證實；至於人體長期活化升糖素受體會影響哪些路徑、可能帶來哪些風險，目前仍有待釐清。\n\n### 受體之間的平衡\n\n在實驗室測試中，瑞塔魯肽對升糖素受體與GLP-1受體的活性相當，但對GIP受體的活性較高。一篇減重藥物藥效學回顧認為，不能只看藥物作用在哪些受體，就推斷它的療效與耐受性。這些表現取決於各受體的相對效力、藥物暴露量、組織可及性，以及與作用機轉相關的不良反應。\n\n### 為什麼一週打一次就好\n\n瑞塔魯肽的平均半衰期約為6天，早期試驗中其藥物動力學與劑量成正比。正因為半衰期長，才能支持每週給藥一次。在一項第一期單次給藥研究中，只注射一次，體重下降的效果就持續到第43天。\n\n## 試驗中的減重效果有多少？\n\n目前已發表、最詳細的體重數據，來自一項由禮來（Eli Lilly）資助的第二期雙盲、安慰劑對照試驗。試驗共納入338名成人，條件是BMI 30以上，或BMI 27至未滿30且至少合併一種與體重相關的疾病。受試者每週接受1、4、8或12 mg瑞塔魯肽或安慰劑，為期48週。\n\n第48週的平均體重變化：\n\n- 1 mg：-8.7%\n- 4 mg（合併組別）：-17.1%\n- 8 mg（合併組別）：-22.8%\n- 12 mg：-24.2%\n- 安慰劑：-2.1%\n\n扣除安慰劑效果，就能算出最高劑量經安慰劑校正後的數字：24.2 − 2.1 = 22.1個百分點。這和一篇減重藥物回顧所報告、瑞塔魯肽扣除安慰劑後減重22.1%的結果一致。\n\n達到常見減重門檻的人數比例同樣很有參考價值。在12 mg組中，100%的人至少減掉5%體重，93%至少減掉10%，83%至少減掉15%。安慰劑組相對應的比例則分別是27%、9%和2%。\n\n### 第三期初步數據\n\n大型第三期肥胖試驗目前只以藥廠公布的頂線結果（topline）呈現，還沒有完整的期刊論文。根據這些公布內容，以療效估計目標（efficacy estimand）計算，第80週平均體重下降28.3%（TRIUMPH-1），第68週下降28.7%（TRIUMPH-4）。TRIUMPH-1另外也報告了以治療策略估計目標計算的結果，為25.0%。\n\n這兩個數字之間的差異很重要。一篇第三期證據的批判性回顧提醒，解讀這些結果時必須留意估計目標、族群差異、停藥情形，以及哪些人被選入試驗延伸期。在完整試驗報告發表之前，這兩個數值都只能視為暫定。\n\n## 瑞塔魯肽用於第2型糖尿病\n\n根據這篇第三期證據批判性回顧，TRANSCEND-T2D-1是唯一有完整同儕審查報告的第三期試驗。試驗為期40週，在美國、墨西哥與印度共48個試驗中心進行，納入537名僅靠飲食與運動無法控制血糖的第2型糖尿病成人。基準時受試者平均年齡48.8歲、平均糖化血色素7.9%、平均BMI 35.8 kg/m²。\n\n受試者每週接受一次4 mg、9 mg或12 mg瑞塔魯肽或安慰劑。糖化血色素（HbA1c，反映平均血糖的主要指標）的結果如下：\n\n- 4 mg：-1.69%\n- 9 mg：-1.86%\n- 12 mg：-1.94%\n- 安慰劑：-0.81%\n\n體重也跟著下降：4 mg組-11.5%、9 mg組-13.9%、12 mg組-15.3%，安慰劑組則為-2.6%。這些數字低於第二期肥胖試驗的結果，不過兩項試驗在族群、時長與劑量上都不同，無法直接比較。\n\n試驗中沒有出現嚴重低血糖的報告。大多數受試者（91%）持續使用試驗藥物，完成了整個治療期。\n\n## 體重以外的影響：肝臟脂肪與身體組成\n\n### 肝臟脂肪\n\n第二期肥胖試驗的一項子研究，觀察了98名患有代謝功能障礙相關脂肪性肝病（MASLD）、且肝臟脂肪至少10%的受試者。24週後，肝臟脂肪的平均相對變化為：1 mg組-42.9%、4 mg組-57.0%、8 mg組-81.4%、12 mg組-82.4%，安慰劑組則是+0.3%。\n\n肝臟脂肪恢復正常（定義為低於5%）的比例，8 mg組為79%、12 mg組為86%，安慰劑組為0%。這些肝臟脂肪的減少，與體重、腹部脂肪，以及和胰島素敏感性改善有關的代謝指標變化之間，都有顯著關聯。\n\n### 脂肪量與總體重\n\n體重計上的數字變小，並不代表減掉的都是脂肪。有回顧指出，BMI下降以外的「減重品質」值得進一步研究。一項針對第2型糖尿病成人的身體組成子研究，使用DXA掃描直接測量脂肪量。36週內，瑞塔魯肽8 mg（合併）組的總脂肪量下降26.1%、12 mg組下降23.2%，安慰劑組為4.5%，杜拉魯肽組為2.6%。\n\n瘦體組織則是另一個面向。第三期證據批判性回顧將瘦體組織流失對身體功能造成的影響，列為仍需進一步評估的議題之一。\n\n## 副作用與耐受性\n\n在第二期肥胖試驗中，最常見的不良事件是腸胃道症狀。這些症狀與劑量有關，大多為輕度到中度，若從2 mg而不是4 mg開始治療，可以減少一部分。一篇瑞塔魯肽試驗總覽指出，主要的腸胃道事件包括噁心、嘔吐、便祕和腹瀉，在最高劑量時較常出現，可能和劑量調升太快及起始劑量較高有關。\n\n心跳速率會隨劑量增加而上升，在第24週達到高峰，之後逐漸下降。在第三期糖尿病試驗中，腸胃道事件一般為輕度到中度，並會隨時間緩解。因不良事件而停藥的比例，瑞塔魯肽組為2-5%，安慰劑組為0%。\n\n批判性回顧也點出，感覺異常與心跳變化是需要更多評估的面向。更完整的整理，請參考我們的[瑞塔魯肽副作用](/zh-tw/retatrutide-side-effects)指南。\n\n## 瑞塔魯肽與司美格魯肽、替爾泊肽的比較\n\n一篇雙盲隨機試驗回顧整理了成人在48至72週後、扣除安慰劑的減重幅度：司美格魯肽最多10.8%、替爾泊肽17.8%、瑞塔魯肽22.1%。\n\n這些數字來自不同的試驗，族群、時長與設計都不一樣，因此並不是直接的正面對比。第三期證據批判性回顧指出，比較療效與長期結果，是界定瑞塔魯肽定位的關鍵。\n\n同一篇減重藥物回顧也報告了以MRI測量、扣除安慰劑後的肝臟脂肪減少幅度：司美格魯肽41%、替爾泊肽47%、瑞塔魯肽81%。同樣地，這些也是跨試驗比較。想進一步了解三種受體策略的差異，可以參考我們的[GLP-1與瑞塔魯肽三重激動劑比較](/zh-tw/glp1-retatrutide-triple-agonist-comparison-2026)。\n\n## 瑞塔魯肽目前的進展\n\n瑞塔魯肽仍在臨床研發中。TRIUMPH計畫包含四項第三期隨機雙盲試驗，在搭配健康飲食與身體活動的前提下，比較每週一次瑞塔魯肽與安慰劑，受試者總數超過5,800人。涵蓋的範圍包括：\n\n- 成人肥胖的體重管理（TRIUMPH-1與TRIUMPH-2）\n- 阻塞型睡眠呼吸中止症與膝關節退化性關節炎，在上述體重試驗中一併研究\n- 心血管疾病患者的體重管理（TRIUMPH-3）\n- 膝關節退化性關節炎的獨立試驗（TRIUMPH-4）\n\n主要結果指標為體重變化百分比、睡眠呼吸中止症的呼吸中止低通氣指數（AHI）變化，以及退化性關節炎的膝蓋疼痛分數。\n\n在已發表的第二期試驗中，每週劑量從0.5 mg（第2型糖尿病試驗）到12 mg不等，通常是從較低的起始劑量逐步調升。這些是研究用劑量，並不是個人使用的給藥方案。第三期證據批判性回顧指出，法規審查對於界定瑞塔魯肽的治療角色不可或缺。",
+      "key_stats": [
+        {
+          "label": "第48週平均體重變化，12 mg（第二期）",
+          "value": "-24.2%（安慰劑-2.1%）",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "12 mg組體重減少至少15%的比例",
+          "value": "83%",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "第40週糖化血色素變化，12 mg（第三期，第2型糖尿病）",
+          "value": "-1.94%（安慰劑-0.81%）",
+          "source": "TRANSCEND-T2D-1 phase 3 trial"
+        },
+        {
+          "label": "第24週肝臟脂肪相對變化，12 mg",
+          "value": "-82.4%",
+          "source": "Phase 2a MASLD substudy"
+        },
+        {
+          "label": "支持每週給藥的平均半衰期",
+          "value": "約6天",
+          "source": "Review of phase 1 and 2 trials"
+        }
+      ],
+      "faq": [
+        {
+          "question": "瑞塔魯肽是什麼？",
+          "answer": "瑞塔魯肽（retatrutide）是一款研發中的每週一次注射藥物，能活化三種荷爾蒙受體：GIP、GLP-1與升糖素。它是經脂質化修飾、由39個胺基酸殘基組成的胜肽，研發代號為LY3437943，目前正針對肥胖與第2型糖尿病進行開發。"
+        },
+        {
+          "question": "瑞塔魯肽核准上市了嗎？",
+          "answer": "瑞塔魯肽仍在臨床研發中。一篇涵蓋至2026年9月11日證據的回顧指出，只有TRANSCEND-T2D-1有經同儕審查的完整第三期報告，肥胖試驗則只有藥廠公布的頂線結果，而法規審查仍是不可或缺的一步。"
+        },
+        {
+          "question": "使用瑞塔魯肽可以減掉多少體重？",
+          "answer": "在為期48週的第二期肥胖試驗中，12 mg組平均體重變化為-24.2%，8 mg組為-22.8%，安慰劑組為-2.1%。第三期頂線數據顯示，TRIUMPH-1在第80週減重28.3%，但在完整發表前，這個數字仍屬暫定。"
+        },
+        {
+          "question": "瑞塔魯肽多久使用一次？",
+          "answer": "在試驗中，它是每週一次皮下注射。約6天的平均半衰期，支持每週給藥一次。"
+        },
+        {
+          "question": "瑞塔魯肽和司美格魯肽、替爾泊肽有什麼不同？",
+          "answer": "司美格魯肽是GLP-1受體激動劑，替爾泊肽是GLP-1/GIP雙重受體激動劑，瑞塔魯肽則再加上升糖素受體。一篇回顧列出三者扣除安慰劑後的減重幅度，司美格魯肽最多10.8%、替爾泊肽17.8%、瑞塔魯肽22.1%，不過這些數字來自不同試驗，並非正面對比。"
+        },
+        {
+          "question": "瑞塔魯肽最常見的副作用有哪些？",
+          "answer": "最常見的是腸胃道症狀，根據一篇試驗總覽，主要是噁心、嘔吐、便祕和腹瀉。在第二期肥胖試驗中，這些症狀與劑量有關，大多為輕度到中度，從2 mg而不是4 mg開始可以減少一部分。心跳速率會隨劑量增加而上升，在第24週達到高峰，之後下降。"
+        }
+      ],
+      "comparison_table": {
+        "title": "瑞塔魯肽重要試驗一覽",
+        "headers": [
+          "試驗",
+          "受試族群",
+          "時長",
+          "研究的每週劑量",
+          "主要結果"
+        ],
+        "rows": [
+          [
+            "第二期肥胖試驗",
+            "338名BMI 30以上，或BMI 27至未滿30且合併體重相關疾病的成人",
+            "48週",
+            "1、4、8、12 mg",
+            "12 mg組體重-24.2%，安慰劑組-2.1%"
+          ],
+          [
+            "第二期a MASLD子研究",
+            "98名肝臟脂肪至少10%的成人",
+            "24週（肝臟脂肪指標）",
+            "1、4、8、12 mg",
+            "12 mg組肝臟脂肪-82.4%，安慰劑組+0.3%"
+          ],
+          [
+            "第二期身體組成子研究",
+            "18至75歲的第2型糖尿病成人",
+            "36週",
+            "0.5、4、8、12 mg",
+            "8 mg組總脂肪量減少26.1%，安慰劑組4.5%"
+          ],
+          [
+            "TRANSCEND-T2D-1，第三期",
+            "537名僅靠飲食與運動控制的第2型糖尿病成人",
+            "40週",
+            "4、9、12 mg",
+            "12 mg組糖化血色素-1.94%、體重-15.3%"
+          ],
+          [
+            "TRIUMPH-1，第三期頂線結果（依批判性回顧整理）",
+            "肥胖成人",
+            "80週",
+            "頂線摘要未詳列",
+            "體重-28.3%（療效估計目標）、25.0%（治療策略估計目標）；暫定"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+          "source": "The New England journal of medicine, 2023",
+          "url": "https://doi.org/10.1056/NEJMoa2301972"
+        },
+        {
+          "title": "Retatrutide-A Game Changer in Obesity Pharmacotherapy.",
+          "source": "Biomolecules, 2025",
+          "url": "https://doi.org/10.3390/biom15060796"
+        },
+        {
+          "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+          "source": "Lancet (London, England), 2026",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00967-0"
+        },
+        {
+          "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial.",
+          "source": "The lancet. Diabetes & endocrinology, 2025",
+          "url": "https://doi.org/10.1016/S2213-8587(25)00092-0"
+        },
+        {
+          "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.",
+          "source": "Nature medicine, 2024",
+          "url": "https://doi.org/10.1038/s41591-024-03018-2"
+        },
+        {
+          "title": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+          "source": "Diabetes, obesity & metabolism, 2026",
+          "url": "https://doi.org/10.1111/dom.70209"
+        },
+        {
+          "title": "What is the pipeline for future medications for obesity?",
+          "source": "International journal of obesity (2005), 2025",
+          "url": "https://doi.org/10.1038/s41366-024-01473-y"
+        },
+        {
+          "title": "Appetite, eating attitudes, and eating behaviours during treatment with retatrutide in adults with type 2 diabetes: Results of a phase 2 study.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70097"
+        },
+        {
+          "title": "Retatrutide in type 2 diabetes mellitus and obesity: an overview.",
+          "source": "Expert review of clinical pharmacology, 2026",
+          "url": "https://doi.org/10.1080/17512433.2026.2642415"
+        },
+        {
+          "title": "Shared mechanistic pathways of glucagon signalling: Unlocking its potential for treating obesity, metabolic dysfunction-associated steatotic liver disease, and other cardio-kidney-metabolic conditions.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70148"
+        },
+        {
+          "title": "Antiobesity medications in adult and pediatric obesity and metabolic dysfunction-associated steatotic liver disease.",
+          "source": "Pharmacological reviews, 2025",
+          "url": "https://doi.org/10.1016/j.pharmr.2025.100058"
+        },
+        {
+          "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept.",
+          "source": "Cell metabolism, 2022",
+          "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+        },
+        {
+          "title": "Retatrutide as a Unimolecular GIP/GLP-1/Glucagon Receptor Tri-Agonist: Molecular Design, Pharmaceutical Development and Critical Interpretation of Emerging Phase 3 Evidence.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101277"
+        },
+        {
+          "title": "The First Triple Agonist for Antiobesity: Retatrutide.",
+          "source": "Cardiology in review, 2026",
+          "url": "https://doi.org/10.1097/CRD.0000000000000793"
+        },
+        {
+          "title": "Progress in Anti-Obesity Drug Development: A Pharmacodynamics Perspective.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101281"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "es": {
+      "title": "Retatrutide: qué es y cómo funciona",
+      "short_title": "¿Qué es el retatrutide?",
+      "short_description": "Qué es el retatrutide, cómo actúa sobre tres receptores y qué hallaron los ensayos de fase 2 y fase 3 sobre peso, glucemia y seguridad.",
+      "meta_description": "Retatrutide es un triple agonista semanal en investigación (GIP, GLP-1 y glucagón). Cómo funciona, resultados en peso y diabetes, y efectos secundarios.",
+      "tldr": "El retatrutide es una inyección semanal en investigación que activa a la vez tres receptores hormonales: GIP, GLP-1 y glucagón. En un ensayo de fase 2 sobre obesidad de 48 semanas, la dosis de 12 mg logró un cambio medio de peso del -24,2 %, frente al -2,1 % con placebo. Un ensayo de fase 3 en diabetes tipo 2 redujo la HbA1c hasta un 1,94 % en 40 semanas. Sigue en desarrollo clínico y sus efectos secundarios más frecuentes son gastrointestinales.",
+      "body_md": "## ¿Qué es el retatrutide?\n\nEl retatrutide (retatrutida) es un medicamento en investigación que se está desarrollando para la obesidad y la diabetes tipo 2. Se administra con una inyección subcutánea una vez por semana. Su código de desarrollo es LY3437943.\n\nDesde el punto de vista químico, el retatrutide es un péptido lipidado de 39 residuos. Es decir, se trata de una sola molécula que activa tres receptores hormonales al mismo tiempo:\n\n- el receptor del polipéptido insulinotrópico dependiente de glucosa (GIP)\n- el receptor del péptido similar al glucagón tipo 1 (GLP-1)\n- el receptor del glucagón\n\nPor eso se le llama triple agonista. Para ponerlo en contexto, la semaglutida es un agonista del receptor de GLP-1 y la tirzepatida es un agonista dual de los receptores de GLP-1 y GIP. El retatrutide conserva ambas señales y añade la del glucagón.\n\nSi solo buscabas qué es el retatrutide, la respuesta corta es esta: una inyección semanal experimental que actúa sobre tres vías hormonales del intestino y el páncreas para reducir el peso corporal y el azúcar en sangre. Todavía no es un tratamiento establecido. Una revisión que abarca la evidencia hasta el 11 de septiembre de 2026 indica que cinco ensayos de fase 3 han anunciado resultados primarios positivos, pero en ese momento solo uno de ellos contaba con un informe completo revisado por pares.\n\n## Cómo actúa el retatrutide sobre tres receptores\n\nCada receptor aporta algo distinto. Los investigadores todavía están determinando cuánto pesa cada uno en las personas, así que conviene separar lo que se vio en animales de lo que se midió en ensayos con humanos.\n\n### GLP-1 y GIP: comer menos\n\nEn los estudios iniciales con ratones obesos, la pérdida de peso se debió en parte a una menor ingesta de calorías impulsada por los receptores de GIP y GLP-1. Los datos en humanos apuntan en la misma dirección. En un análisis de fase 2 con 275 adultos con diabetes tipo 2, quienes recibieron 4 mg o más de retatrutide refirieron en la semana 24 mayores reducciones del apetito general, del hambre y del consumo previsto de alimentos que quienes recibieron placebo.\n\nCon las dosis de 8 y 12 mg, los participantes también refirieron menos hambre percibida y menos desinhibición, que es la tendencia a comer de más en situaciones como el estrés. Estos cambios se asociaron con la pérdida de peso, aunque las correlaciones fueron modestas (r = 0,28 para el hambre percibida y r = 0,36 para la desinhibición).\n\n### Glucagón: gastar más energía\n\nEl glucagón es conocido como la contraparte de la insulina en el control de la glucosa y tiene efectos hiperglucemiantes, lo que suena justo a lo contrario de lo que debería hacer un fármaco para la diabetes. Sin embargo, en ratones, añadir actividad sobre el receptor del glucagón aumentó el gasto energético, además de reducir la ingesta calórica, y eso potenció la pérdida de peso. El diseño del retatrutide combina la acción sobre el receptor del glucagón con la actividad incretínica para mantener su eficacia hipoglucemiante.\n\nUna revisión sobre la biología del glucagón señala que el aumento del gasto energético se ha demostrado al menos en modelos animales, y que aún falta precisar qué vías se ven afectadas por la activación prolongada del receptor del glucagón en humanos, así como sus posibles riesgos.\n\n### El equilibrio entre receptores\n\nEn pruebas de laboratorio, el retatrutide mostró una actividad equilibrada sobre los receptores de glucagón y GLP-1, pero mayor sobre el receptor de GIP. Una revisión de farmacodinámica de los fármacos contra la obesidad sostiene que la eficacia y la tolerabilidad no pueden deducirse solo de qué receptores activa un fármaco. Dependen de la potencia relativa sobre cada receptor, la exposición, el acceso a los tejidos y los efectos adversos ligados al mecanismo.\n\n### Por qué se administra una vez por semana\n\nEl retatrutide tiene una vida media promedio de aproximadamente 6 días, y en los primeros ensayos su farmacocinética fue proporcional a la dosis. Esa vida media larga es lo que permite la administración semanal. En un estudio de fase 1 con dosis única, la reducción del peso corporal se mantuvo hasta el día 43 tras una sola inyección.\n\n## ¿Cuánto peso se perdió en los ensayos?\n\nLos datos de peso publicados más detallados proceden de un ensayo de fase 2, doble ciego y controlado con placebo, financiado por Eli Lilly. Incluyó a 338 adultos con un IMC de 30 o más, o con un IMC de 27 a menos de 30 y al menos una afección relacionada con el peso. Los participantes recibieron retatrutide semanal en dosis de 1, 4, 8 o 12 mg, o placebo, durante 48 semanas.\n\nCambio medio de peso a las 48 semanas:\n\n- 1 mg: -8,7 %\n- 4 mg (grupos combinados): -17,1 %\n- 8 mg (grupos combinados): -22,8 %\n- 12 mg: -24,2 %\n- placebo: -2,1 %\n\nSi se resta el efecto placebo, se obtiene una cifra ajustada sencilla para la dosis más alta: 24,2 − 2,1 = 22,1 puntos porcentuales. Coincide con la pérdida de peso del 22,1 % descontado el placebo que una revisión de medicamentos contra la obesidad atribuye al retatrutide.\n\nLa proporción de personas que alcanzaron los umbrales habituales de pérdida de peso es igual de reveladora. Con 12 mg, el 100 % perdió al menos un 5 % de su peso corporal, el 93 % al menos un 10 % y el 83 % al menos un 15 %. En el grupo placebo, esas cifras fueron del 27 %, el 9 % y el 2 %.\n\n### Primeras cifras de fase 3\n\nHasta ahora, los grandes ensayos de fase 3 sobre obesidad se han dado a conocer como comunicados de resultados principales del patrocinador, no como artículos completos en revistas. En esos comunicados se informaron reducciones medias de peso del 28,3 % a las 80 semanas (TRIUMPH-1) y del 28,7 % a las 68 semanas (TRIUMPH-4) con un estimando de eficacia. TRIUMPH-1 también informó una estimación del 25,0 % con el estimando de régimen de tratamiento.\n\nLa diferencia entre ambas cifras importa. La revisión crítica de la evidencia de fase 3 advierte que interpretar estos resultados exige prestar atención a los estimandos, las diferencias entre poblaciones, la interrupción del tratamiento y la selección de participantes en las extensiones de los ensayos. Ambos valores siguen siendo provisionales hasta que se publiquen los informes completos.\n\n## El retatrutide en la diabetes tipo 2\n\nSegún la revisión crítica de la evidencia de fase 3, TRANSCEND-T2D-1 es el único ensayo de fase 3 con un informe completo revisado por pares. Duró 40 semanas, se realizó en 48 centros de Estados Unidos, México e India e incluyó a 537 adultos con diabetes tipo 2 no controlada solo con dieta y ejercicio. Al inicio, la edad media era de 48,8 años, la HbA1c media del 7,9 % y el IMC medio de 35,8 kg/m².\n\nLos participantes recibieron retatrutide 4 mg, 9 mg o 12 mg, o placebo, una vez por semana. Resultados de la HbA1c (la principal medida del azúcar en sangre promedio):\n\n- 4 mg: -1,69 %\n- 9 mg: -1,86 %\n- 12 mg: -1,94 %\n- placebo: -0,81 %\n\nEl peso corporal también bajó: -11,5 % con 4 mg, -13,9 % con 9 mg y -15,3 % con 12 mg, frente a -2,6 % con placebo. Estas cifras quedan por debajo de los resultados de fase 2 en obesidad, aunque ambos ensayos diferían en población, duración y dosis, así que no son directamente comparables.\n\nNo se notificaron hipoglucemias graves. La mayoría de los participantes, el 91 %, completó el periodo de tratamiento con el fármaco del estudio.\n\n## Más allá de la báscula: grasa hepática y composición corporal\n\n### Grasa hepática\n\nUn subestudio del ensayo de fase 2 en obesidad analizó a 98 participantes con enfermedad hepática esteatósica asociada a disfunción metabólica (MASLD) y al menos un 10 % de grasa en el hígado. Tras 24 semanas, el cambio relativo medio de la grasa hepática fue del -42,9 % con 1 mg, -57,0 % con 4 mg, -81,4 % con 8 mg y -82,4 % con 12 mg, frente a +0,3 % con placebo.\n\nAlcanzaron una grasa hepática normal, definida como inferior al 5 %, el 79 % de las personas con 8 mg y el 86 % con 12 mg, y el 0 % con placebo. Estas reducciones de la grasa hepática se relacionaron de forma significativa con los cambios en el peso corporal, la grasa abdominal y los parámetros metabólicos asociados a una mejor sensibilidad a la insulina.\n\n### Masa grasa frente a peso total\n\nQue baje el número de la báscula no indica cuánto de lo perdido es grasa. Una revisión señala que la calidad de la pérdida de peso, más allá de la reducción del IMC, merece más investigación. Un subestudio de composición corporal en adultos con diabetes tipo 2 utilizó densitometría DXA para medir directamente la masa grasa. En 36 semanas, la masa grasa total se redujo un 26,1 % con retatrutide 8 mg (agrupado) y un 23,2 % con 12 mg, frente a un 4,5 % con placebo y un 2,6 % con dulaglutida.\n\nLa masa magra es la otra cara de la moneda. La revisión crítica de la evidencia de fase 3 incluye las consecuencias funcionales de la pérdida de masa magra entre las cuestiones que aún requieren más evaluación.\n\n## Efectos secundarios y tolerabilidad\n\nEn el ensayo de fase 2 en obesidad, los eventos adversos más frecuentes fueron gastrointestinales. Dependían de la dosis, fueron en su mayoría leves o moderados y se redujeron en parte cuando el tratamiento se iniciaba con 2 mg en lugar de 4 mg. Una revisión general de los ensayos con retatrutide menciona náuseas, vómitos, estreñimiento y diarrea como los principales eventos gastrointestinales, más frecuentes con las dosis más altas y probablemente vinculados a un aumento rápido de la dosis y a dosis iniciales más altas.\n\nLa frecuencia cardiaca aumentó de forma dependiente de la dosis, alcanzó su máximo en la semana 24 y luego descendió. En el ensayo de fase 3 en diabetes, los eventos gastrointestinales fueron en general leves o moderados y disminuyeron con el tiempo. Los abandonos por eventos adversos fueron del 2-5 % con retatrutide y del 0 % con placebo.\n\nLa revisión crítica también señala la disestesia y los cambios en la frecuencia cardiaca como aspectos que necesitan más evaluación. Para un análisis más completo, consulta nuestra guía sobre los [efectos secundarios del retatrutide](/es/retatrutide-side-effects).\n\n## Retatrutide frente a semaglutida y tirzepatida\n\nUna revisión de ensayos aleatorizados y doble ciego resumió la pérdida de peso descontado el placebo en adultos tras 48 a 72 semanas: hasta un 10,8 % con semaglutida, un 17,8 % con tirzepatida y un 22,1 % con retatrutide.\n\nEstas cifras proceden de ensayos distintos, con poblaciones, duraciones y diseños diferentes, así que no son una comparación directa. La revisión crítica de la evidencia de fase 3 señala que la efectividad comparativa y los resultados a largo plazo siguen siendo esenciales para definir el lugar del retatrutide.\n\nLa misma revisión sobre fármacos contra la obesidad informó reducciones de la grasa hepática medidas por resonancia magnética, descontado el placebo, del 41 % con semaglutida, el 47 % con tirzepatida y el 81 % con retatrutide. De nuevo, se trata de comparaciones entre ensayos. Para ver con más detalle en qué se diferencian las tres estrategias de receptores, consulta nuestra [comparativa entre los GLP-1 y el triple agonista retatrutide](/es/glp1-retatrutide-triple-agonist-comparison-2026).\n\n## En qué punto está el retatrutide\n\nEl retatrutide sigue en desarrollo clínico. El programa TRIUMPH consta de cuatro ensayos de fase 3, aleatorizados y doble ciego, que comparan retatrutide semanal con placebo, junto con una dieta saludable y actividad física, en más de 5800 participantes. Abarcan:\n\n- el control del peso en adultos con obesidad (TRIUMPH-1 y TRIUMPH-2)\n- la apnea obstructiva del sueño y la artrosis de rodilla, estudiadas dentro de esos ensayos de peso\n- el control del peso en personas con enfermedad cardiovascular (TRIUMPH-3)\n- la artrosis de rodilla como ensayo independiente (TRIUMPH-4)\n\nLos criterios de valoración principales son el cambio porcentual del peso corporal, el cambio en el índice de apnea-hipopnea en la apnea del sueño y las puntuaciones de dolor de rodilla en la artrosis.\n\nEn los ensayos de fase 2 publicados, las dosis semanales fueron de 0,5 mg (en el ensayo de diabetes tipo 2) a 12 mg, y a menudo se alcanzaron subiendo de forma escalonada desde una dosis inicial más baja. Son dosis de investigación, no una pauta de uso personal. La revisión crítica de la evidencia de fase 3 describe la evaluación regulatoria como esencial para definir el papel terapéutico del retatrutide.",
+      "key_stats": [
+        {
+          "label": "Cambio medio de peso a las 48 semanas, 12 mg (fase 2)",
+          "value": "-24,2 % frente a -2,1 % con placebo",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "Personas con 12 mg que perdieron al menos un 15 % de su peso",
+          "value": "83 %",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "Cambio de HbA1c a las 40 semanas, 12 mg (fase 3, diabetes tipo 2)",
+          "value": "-1,94 % frente a -0,81 % con placebo",
+          "source": "TRANSCEND-T2D-1 phase 3 trial"
+        },
+        {
+          "label": "Cambio relativo de la grasa hepática a las 24 semanas, 12 mg",
+          "value": "-82,4 %",
+          "source": "Phase 2a MASLD substudy"
+        },
+        {
+          "label": "Vida media promedio que permite la dosis semanal",
+          "value": "Aproximadamente 6 días",
+          "source": "Review of phase 1 and 2 trials"
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Qué es el retatrutide?",
+          "answer": "El retatrutide es una inyección semanal en investigación que activa tres receptores hormonales: GIP, GLP-1 y glucagón. Es un péptido lipidado de 39 residuos, también conocido por el código LY3437943, y se está desarrollando para la obesidad y la diabetes tipo 2."
+        },
+        {
+          "question": "¿Está aprobado el retatrutide?",
+          "answer": "El retatrutide sigue en desarrollo clínico. Una revisión que abarca la evidencia hasta el 11 de septiembre de 2026 señala que solo TRANSCEND-T2D-1 contaba con un informe completo de fase 3 revisado por pares, mientras que los ensayos de obesidad solo estaban disponibles como comunicados de resultados principales del patrocinador, y que la evaluación regulatoria sigue siendo esencial."
+        },
+        {
+          "question": "¿Cuánto peso se pierde con retatrutide?",
+          "answer": "En el ensayo de fase 2 en obesidad de 48 semanas, el cambio medio de peso fue del -24,2 % con 12 mg y del -22,8 % con 8 mg, frente al -2,1 % con placebo. Los resultados principales de fase 3 informaron un 28,3 % a las 80 semanas en TRIUMPH-1, una cifra que sigue siendo provisional hasta su publicación completa."
+        },
+        {
+          "question": "¿Con qué frecuencia se administra el retatrutide?",
+          "answer": "En los ensayos se administró una vez por semana mediante inyección subcutánea. Su vida media promedio de aproximadamente 6 días permite la dosis semanal."
+        },
+        {
+          "question": "¿En qué se diferencia el retatrutide de la semaglutida y la tirzepatida?",
+          "answer": "La semaglutida es un agonista del receptor de GLP-1 y la tirzepatida, un agonista dual de los receptores de GLP-1 y GIP. El retatrutide suma el receptor del glucagón. Una revisión recogió pérdidas de peso descontado el placebo de hasta un 10,8 %, un 17,8 % y un 22,1 % para semaglutida, tirzepatida y retatrutide, aunque proceden de ensayos distintos y no de comparaciones directas."
+        },
+        {
+          "question": "¿Cuáles son los efectos secundarios más frecuentes del retatrutide?",
+          "answer": "Los efectos gastrointestinales fueron los más frecuentes, sobre todo náuseas, vómitos, estreñimiento y diarrea, según una revisión general de los ensayos. En el ensayo de fase 2 en obesidad dependían de la dosis, fueron en su mayoría leves o moderados y se redujeron en parte al empezar con 2 mg en lugar de 4 mg. La frecuencia cardiaca aumentó de forma dependiente de la dosis, alcanzó su máximo en la semana 24 y después descendió."
+        }
+      ],
+      "comparison_table": {
+        "title": "Principales ensayos con retatrutide de un vistazo",
+        "headers": [
+          "Ensayo",
+          "Población",
+          "Duración",
+          "Dosis semanales estudiadas",
+          "Resultado principal"
+        ],
+        "rows": [
+          [
+            "Ensayo de fase 2 en obesidad",
+            "338 adultos con IMC de 30 o más, o de 27 a menos de 30 con una afección relacionada con el peso",
+            "48 semanas",
+            "1, 4, 8 y 12 mg",
+            "Peso -24,2 % con 12 mg frente a -2,1 % con placebo"
+          ],
+          [
+            "Subestudio de fase 2a en MASLD",
+            "98 adultos con al menos un 10 % de grasa hepática",
+            "24 semanas (criterio de grasa hepática)",
+            "1, 4, 8 y 12 mg",
+            "Grasa hepática -82,4 % con 12 mg frente a +0,3 % con placebo"
+          ],
+          [
+            "Subestudio de composición corporal de fase 2",
+            "Adultos con diabetes tipo 2, de 18 a 75 años",
+            "36 semanas",
+            "0,5, 4, 8 y 12 mg",
+            "Masa grasa total reducida un 26,1 % con 8 mg frente a un 4,5 % con placebo"
+          ],
+          [
+            "TRANSCEND-T2D-1, fase 3",
+            "537 adultos con diabetes tipo 2 tratados solo con dieta y ejercicio",
+            "40 semanas",
+            "4, 9 y 12 mg",
+            "HbA1c -1,94 % y peso -15,3 % con 12 mg"
+          ],
+          [
+            "TRIUMPH-1, resultados principales de fase 3 (según una revisión crítica)",
+            "Adultos con obesidad",
+            "80 semanas",
+            "No detallado en el resumen de resultados principales",
+            "Peso -28,3 % (estimando de eficacia), 25,0 % (régimen de tratamiento); provisional"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+          "source": "The New England journal of medicine, 2023",
+          "url": "https://doi.org/10.1056/NEJMoa2301972"
+        },
+        {
+          "title": "Retatrutide-A Game Changer in Obesity Pharmacotherapy.",
+          "source": "Biomolecules, 2025",
+          "url": "https://doi.org/10.3390/biom15060796"
+        },
+        {
+          "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+          "source": "Lancet (London, England), 2026",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00967-0"
+        },
+        {
+          "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial.",
+          "source": "The lancet. Diabetes & endocrinology, 2025",
+          "url": "https://doi.org/10.1016/S2213-8587(25)00092-0"
+        },
+        {
+          "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.",
+          "source": "Nature medicine, 2024",
+          "url": "https://doi.org/10.1038/s41591-024-03018-2"
+        },
+        {
+          "title": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+          "source": "Diabetes, obesity & metabolism, 2026",
+          "url": "https://doi.org/10.1111/dom.70209"
+        },
+        {
+          "title": "What is the pipeline for future medications for obesity?",
+          "source": "International journal of obesity (2005), 2025",
+          "url": "https://doi.org/10.1038/s41366-024-01473-y"
+        },
+        {
+          "title": "Appetite, eating attitudes, and eating behaviours during treatment with retatrutide in adults with type 2 diabetes: Results of a phase 2 study.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70097"
+        },
+        {
+          "title": "Retatrutide in type 2 diabetes mellitus and obesity: an overview.",
+          "source": "Expert review of clinical pharmacology, 2026",
+          "url": "https://doi.org/10.1080/17512433.2026.2642415"
+        },
+        {
+          "title": "Shared mechanistic pathways of glucagon signalling: Unlocking its potential for treating obesity, metabolic dysfunction-associated steatotic liver disease, and other cardio-kidney-metabolic conditions.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70148"
+        },
+        {
+          "title": "Antiobesity medications in adult and pediatric obesity and metabolic dysfunction-associated steatotic liver disease.",
+          "source": "Pharmacological reviews, 2025",
+          "url": "https://doi.org/10.1016/j.pharmr.2025.100058"
+        },
+        {
+          "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept.",
+          "source": "Cell metabolism, 2022",
+          "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+        },
+        {
+          "title": "Retatrutide as a Unimolecular GIP/GLP-1/Glucagon Receptor Tri-Agonist: Molecular Design, Pharmaceutical Development and Critical Interpretation of Emerging Phase 3 Evidence.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101277"
+        },
+        {
+          "title": "The First Triple Agonist for Antiobesity: Retatrutide.",
+          "source": "Cardiology in review, 2026",
+          "url": "https://doi.org/10.1097/CRD.0000000000000793"
+        },
+        {
+          "title": "Progress in Anti-Obesity Drug Development: A Pharmacodynamics Perspective.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101281"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "pt-BR": {
+      "title": "Retatrutida: o que é e como funciona",
+      "short_title": "O que é a retatrutida?",
+      "short_description": "O que é a retatrutida, como funciona sua ação em três receptores e o que os estudos de fase 2 e fase 3 mostraram sobre peso, glicemia e segurança.",
+      "meta_description": "Retatrutida é um triplo agonista semanal em estudo (GIP, GLP-1 e glucagon). Veja como funciona, resultados em peso e diabetes e efeitos colaterais.",
+      "tldr": "A retatrutida é uma injeção semanal em fase de pesquisa que ativa três receptores hormonais ao mesmo tempo: GIP, GLP-1 e glucagon. Em um estudo de fase 2 sobre obesidade com duração de 48 semanas, a dose de 12 mg levou a uma variação média de peso de -24,2%, contra -2,1% com placebo. Um estudo de fase 3 em diabetes tipo 2 reduziu a HbA1c em até 1,94% em 40 semanas. O medicamento ainda está em desenvolvimento clínico, e seus efeitos colaterais mais comuns são gastrointestinais.",
+      "body_md": "## O que é a retatrutida?\n\nA retatrutida (retatrutide, em inglês) é um medicamento em fase de pesquisa que está sendo desenvolvido para obesidade e diabetes tipo 2. Ela é aplicada por injeção subcutânea uma vez por semana. Seu código de desenvolvimento é LY3437943.\n\nDo ponto de vista químico, a retatrutida é um peptídeo lipidado de 39 resíduos. Ou seja, é uma única molécula que ativa três receptores hormonais ao mesmo tempo:\n\n- o receptor do polipeptídeo insulinotrópico dependente de glicose (GIP)\n- o receptor do peptídeo semelhante ao glucagon 1 (GLP-1)\n- o receptor de glucagon\n\nPor isso ela é chamada de triplo agonista. Para comparar, a semaglutida é um agonista do receptor de GLP-1 e a tirzepatida é um agonista duplo dos receptores de GLP-1 e GIP. A retatrutida mantém esses dois sinais e acrescenta o do glucagon.\n\nSe você só queria saber o que é a retatrutida, a resposta curta é esta: uma injeção semanal experimental que atua em três vias hormonais do intestino e do pâncreas para reduzir o peso corporal e o açúcar no sangue. Ela ainda não é um tratamento estabelecido. Uma revisão que cobre as evidências até 11 de setembro de 2026 relata que cinco estudos de fase 3 anunciaram resultados primários positivos, mas, naquele momento, apenas um deles tinha um relatório completo revisado por pares.\n\n## Como a retatrutida age em três receptores\n\nCada receptor contribui de um jeito diferente. Os pesquisadores ainda estão descobrindo o quanto cada um importa em pessoas, por isso vale separar o que foi visto em animais do que foi medido em estudos com humanos.\n\n### GLP-1 e GIP: comer menos\n\nNos estudos iniciais com camundongos obesos, a perda de peso veio em parte da redução da ingestão de calorias promovida pelos receptores de GIP e GLP-1. Os dados em humanos apontam na mesma direção. Em uma análise de fase 2 com 275 adultos com diabetes tipo 2, quem usou retatrutida 4 mg ou mais relatou, na semana 24, reduções maiores no apetite geral, na fome e no consumo alimentar previsto do que quem recebeu placebo.\n\nCom as doses de 8 e 12 mg, os participantes também relataram menos fome percebida e menos desinibição, que é a tendência a comer demais em situações como o estresse. Essas mudanças estiveram ligadas à perda de peso, embora as correlações tenham sido modestas (r = 0,28 para fome percebida e r = 0,36 para desinibição).\n\n### Glucagon: gastar mais energia\n\nO glucagon é conhecido como a contraparte da insulina no controle da glicose e tem efeito hiperglicemiante, o que parece justamente o oposto do que um remédio para diabetes deveria fazer. Em camundongos, porém, somar a atividade no receptor de glucagon aumentou o gasto energético, além da redução na ingestão calórica, e isso potencializou a perda de peso. O desenho da retatrutida combina a ação no receptor de glucagon com a atividade incretínica para que a eficácia na redução da glicose seja mantida.\n\nUma revisão sobre a biologia do glucagon observa que o aumento do gasto energético foi demonstrado pelo menos em modelos animais, e que ainda falta definir quais vias são afetadas pela ativação prolongada do receptor de glucagon em humanos, assim como seus possíveis riscos.\n\n### Equilíbrio entre receptores\n\nEm testes de laboratório, a retatrutida mostrou atividade equilibrada nos receptores de glucagon e GLP-1, mas maior atividade no receptor de GIP. Uma revisão de farmacodinâmica dos medicamentos contra obesidade defende que eficácia e tolerabilidade não podem ser deduzidas apenas de quais receptores o remédio ativa. Elas resultam da potência relativa em cada receptor, da exposição, do acesso aos tecidos e dos efeitos adversos ligados ao mecanismo.\n\n### Por que a aplicação é semanal\n\nA retatrutida tem meia-vida média de aproximadamente 6 dias, e sua farmacocinética foi proporcional à dose nos primeiros estudos. É essa meia-vida longa que permite a aplicação uma vez por semana. Em um estudo de fase 1 com dose única, a redução do peso corporal persistiu até o dia 43 após uma só injeção.\n\n## Quanto peso os estudos mostraram?\n\nOs dados de peso publicados mais detalhados vêm de um estudo de fase 2, duplo-cego e controlado por placebo, financiado pela Eli Lilly. Ele incluiu 338 adultos com IMC de 30 ou mais, ou IMC de 27 a menos de 30 com pelo menos uma condição relacionada ao peso. Os participantes receberam retatrutida semanal nas doses de 1, 4, 8 ou 12 mg, ou placebo, por 48 semanas.\n\nVariação média de peso em 48 semanas:\n\n- 1 mg: -8,7%\n- 4 mg (grupos combinados): -17,1%\n- 8 mg (grupos combinados): -22,8%\n- 12 mg: -24,2%\n- placebo: -2,1%\n\nDescontando o efeito placebo, chega-se a um número ajustado simples para a dose mais alta: 24,2 − 2,1 = 22,1 pontos percentuais. Isso bate com a perda de peso de 22,1% descontado o placebo atribuída à retatrutida em uma revisão de medicamentos contra obesidade.\n\nA proporção de pessoas que atingiram as metas usuais de perda de peso é igualmente reveladora. Com 12 mg, 100% perderam pelo menos 5% do peso corporal, 93% perderam pelo menos 10% e 83% perderam pelo menos 15%. No grupo placebo, esses números foram 27%, 9% e 2%.\n\n### Primeiros números da fase 3\n\nOs grandes estudos de fase 3 sobre obesidade foram divulgados até agora como comunicados de resultados principais (topline) do patrocinador, e não como artigos completos em revistas científicas. Nesses comunicados, foram relatadas reduções médias de peso de 28,3% em 80 semanas (TRIUMPH-1) e de 28,7% em 68 semanas (TRIUMPH-4), usando um estimando de eficácia. O TRIUMPH-1 também relatou uma estimativa de 25,0% pelo estimando de regime de tratamento.\n\nA diferença entre esses dois números importa. A revisão crítica das evidências de fase 3 alerta que interpretar esses resultados exige atenção aos estimandos, às diferenças entre populações, à interrupção do tratamento e à seleção de participantes para as extensões dos estudos. Os dois valores continuam provisórios até a publicação dos relatórios completos.\n\n## Retatrutida no diabetes tipo 2\n\nSegundo a revisão crítica das evidências de fase 3, o TRANSCEND-T2D-1 é o único estudo de fase 3 com relatório completo revisado por pares. Ele durou 40 semanas, foi conduzido em 48 centros nos Estados Unidos, no México e na Índia e incluiu 537 adultos com diabetes tipo 2 não controlado apenas com dieta e exercício. No início, a idade média era de 48,8 anos, a HbA1c média era de 7,9% e o IMC médio, de 35,8 kg/m².\n\nOs participantes receberam retatrutida 4 mg, 9 mg ou 12 mg, ou placebo, uma vez por semana. Resultados da HbA1c (a principal medida da glicemia média):\n\n- 4 mg: -1,69%\n- 9 mg: -1,86%\n- 12 mg: -1,94%\n- placebo: -0,81%\n\nO peso corporal também caiu: -11,5% com 4 mg, -13,9% com 9 mg e -15,3% com 12 mg, contra -2,6% com placebo. Esses números ficam abaixo dos resultados de fase 2 em obesidade, mas os dois estudos diferiam em população, duração e doses, então não são diretamente comparáveis.\n\nNão houve relato de hipoglicemia grave. A maioria dos participantes, 91%, completou o período de tratamento usando o medicamento do estudo.\n\n## Além da balança: gordura no fígado e composição corporal\n\n### Gordura no fígado\n\nUm subestudo do estudo de fase 2 em obesidade avaliou 98 participantes com doença hepática esteatótica associada à disfunção metabólica (MASLD) e pelo menos 10% de gordura no fígado. Após 24 semanas, a variação relativa média da gordura hepática foi de -42,9% com 1 mg, -57,0% com 4 mg, -81,4% com 8 mg e -82,4% com 12 mg, contra +0,3% com placebo.\n\nA gordura hepática normal, definida como abaixo de 5%, foi alcançada por 79% das pessoas com 8 mg e 86% com 12 mg, e por 0% com placebo. Essas reduções da gordura no fígado tiveram relação significativa com as mudanças no peso corporal, na gordura abdominal e em parâmetros metabólicos associados à melhora da sensibilidade à insulina.\n\n### Massa gorda versus peso total\n\nUm número menor na balança não diz quanto da perda é gordura. Uma revisão observa que a qualidade da perda de peso, além da redução do IMC, merece mais investigação. Um subestudo de composição corporal em adultos com diabetes tipo 2 usou exames de DXA para medir diretamente a massa gorda. Em 36 semanas, a massa gorda total caiu 26,1% com retatrutida 8 mg (dados agrupados) e 23,2% com 12 mg, contra 4,5% com placebo e 2,6% com dulaglutida.\n\nA massa magra é o outro lado dessa história. A revisão crítica das evidências de fase 3 lista as consequências funcionais da perda de massa magra entre as questões que ainda precisam de mais avaliação.\n\n## Efeitos colaterais e tolerabilidade\n\nNo estudo de fase 2 em obesidade, os eventos adversos mais comuns foram gastrointestinais. Eles dependeram da dose, foram em sua maioria leves a moderados e diminuíram em parte quando o tratamento começou com 2 mg em vez de 4 mg. Uma visão geral dos estudos com retatrutida aponta náusea, vômito, prisão de ventre e diarreia como os principais eventos gastrointestinais, mais frequentes nas doses mais altas e provavelmente ligados ao aumento rápido da dose e a doses iniciais mais altas.\n\nA frequência cardíaca subiu de forma dependente da dose, atingiu o pico na semana 24 e caiu depois disso. No estudo de fase 3 em diabetes, os eventos gastrointestinais foram em geral leves a moderados e diminuíram com o tempo. As interrupções por eventos adversos foram de 2-5% com retatrutida e de 0% com placebo.\n\nA revisão crítica também aponta a disestesia e as alterações da frequência cardíaca como pontos que precisam de mais avaliação. Para um panorama mais completo, veja nosso guia sobre os [efeitos colaterais da retatrutida](/pt-br/retatrutide-side-effects).\n\n## Retatrutida, semaglutida e tirzepatida: como se comparam\n\nUma revisão de estudos randomizados e duplo-cegos resumiu a perda de peso descontado o placebo em adultos após 48 a 72 semanas: até 10,8% com semaglutida, 17,8% com tirzepatida e 22,1% com retatrutida.\n\nEsses números vêm de estudos separados, com populações, durações e desenhos diferentes, então não são uma comparação direta. A revisão crítica das evidências de fase 3 observa que a efetividade comparativa e os desfechos de longo prazo continuam essenciais para definir o lugar da retatrutida.\n\nA mesma revisão sobre medicamentos contra obesidade relatou reduções da gordura hepática na ressonância magnética, descontado o placebo, de 41% com semaglutida, 47% com tirzepatida e 81% com retatrutida. De novo, são comparações entre estudos diferentes. Para entender melhor como as três estratégias de receptores se diferenciam, veja nossa [comparação entre GLP-1 e o triplo agonista retatrutida](/pt-br/glp1-retatrutide-triple-agonist-comparison-2026).\n\n## Em que ponto está a retatrutida\n\nA retatrutida continua em desenvolvimento clínico. O programa TRIUMPH reúne quatro estudos de fase 3, randomizados e duplo-cegos, que comparam a retatrutida semanal com placebo, junto com alimentação saudável e atividade física, em mais de 5.800 participantes. Eles abrangem:\n\n- controle de peso em adultos com obesidade (TRIUMPH-1 e TRIUMPH-2)\n- apneia obstrutiva do sono e artrose de joelho, estudadas dentro desses estudos de peso\n- controle de peso em pessoas com doença cardiovascular (TRIUMPH-3)\n- artrose de joelho em um estudo independente (TRIUMPH-4)\n\nOs desfechos principais são a variação percentual do peso corporal, a mudança no índice de apneia-hipopneia na apneia do sono e os escores de dor no joelho na artrose.\n\nNos estudos de fase 2 publicados, as doses semanais variaram de 0,5 mg (no estudo de diabetes tipo 2) a 12 mg, muitas vezes alcançadas com aumentos graduais a partir de uma dose inicial menor. São doses de pesquisa, não um esquema de uso pessoal. A revisão crítica das evidências de fase 3 descreve a avaliação regulatória como essencial para definir o papel terapêutico da retatrutida.",
+      "key_stats": [
+        {
+          "label": "Variação média de peso em 48 semanas, 12 mg (fase 2)",
+          "value": "-24,2% vs. -2,1% com placebo",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "Pessoas com 12 mg que perderam pelo menos 15% do peso",
+          "value": "83%",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "Variação da HbA1c em 40 semanas, 12 mg (fase 3, diabetes tipo 2)",
+          "value": "-1,94% vs. -0,81% com placebo",
+          "source": "TRANSCEND-T2D-1 phase 3 trial"
+        },
+        {
+          "label": "Variação relativa da gordura no fígado em 24 semanas, 12 mg",
+          "value": "-82,4%",
+          "source": "Phase 2a MASLD substudy"
+        },
+        {
+          "label": "Meia-vida média que permite a dose semanal",
+          "value": "Aproximadamente 6 dias",
+          "source": "Review of phase 1 and 2 trials"
+        }
+      ],
+      "faq": [
+        {
+          "question": "O que é a retatrutida?",
+          "answer": "A retatrutida é uma injeção semanal em fase de pesquisa que ativa três receptores hormonais: GIP, GLP-1 e glucagon. É um peptídeo lipidado de 39 resíduos, também conhecido pelo código LY3437943, e está sendo desenvolvida para obesidade e diabetes tipo 2."
+        },
+        {
+          "question": "A retatrutida já foi aprovada?",
+          "answer": "A retatrutida ainda está em desenvolvimento clínico. Uma revisão que cobre as evidências até 11 de setembro de 2026 observa que apenas o TRANSCEND-T2D-1 tinha um relatório completo de fase 3 revisado por pares, enquanto os estudos de obesidade estavam disponíveis apenas como comunicados de resultados principais do patrocinador, e que a avaliação regulatória continua sendo essencial."
+        },
+        {
+          "question": "Quanto peso se perde com a retatrutida?",
+          "answer": "No estudo de fase 2 em obesidade, de 48 semanas, a variação média de peso foi de -24,2% com 12 mg e de -22,8% com 8 mg, contra -2,1% com placebo. Os resultados principais de fase 3 relataram 28,3% em 80 semanas no TRIUMPH-1, um número que continua provisório até a publicação completa."
+        },
+        {
+          "question": "Com que frequência a retatrutida é usada?",
+          "answer": "Nos estudos, ela foi aplicada uma vez por semana, por injeção subcutânea. Sua meia-vida média de aproximadamente 6 dias permite a aplicação semanal."
+        },
+        {
+          "question": "Qual a diferença entre retatrutida, semaglutida e tirzepatida?",
+          "answer": "A semaglutida é um agonista do receptor de GLP-1 e a tirzepatida é um agonista duplo dos receptores de GLP-1 e GIP. A retatrutida acrescenta o receptor de glucagon. Uma revisão listou perdas de peso descontado o placebo de até 10,8%, 17,8% e 22,1% para semaglutida, tirzepatida e retatrutida, mas esses dados vêm de estudos separados, e não de comparações diretas."
+        },
+        {
+          "question": "Quais são os efeitos colaterais mais comuns da retatrutida?",
+          "answer": "Os efeitos gastrointestinais foram os mais comuns, principalmente náusea, vômito, prisão de ventre e diarreia, segundo uma visão geral dos estudos. No estudo de fase 2 em obesidade, eles dependeram da dose, foram em sua maioria leves a moderados e diminuíram em parte quando o tratamento começou com 2 mg em vez de 4 mg. A frequência cardíaca subiu de forma dependente da dose, atingiu o pico na semana 24 e caiu depois."
+        }
+      ],
+      "comparison_table": {
+        "title": "Principais estudos da retatrutida em resumo",
+        "headers": [
+          "Estudo",
+          "População",
+          "Duração",
+          "Doses semanais estudadas",
+          "Resultado principal"
+        ],
+        "rows": [
+          [
+            "Estudo de fase 2 em obesidade",
+            "338 adultos com IMC de 30 ou mais, ou de 27 a menos de 30 com uma condição relacionada ao peso",
+            "48 semanas",
+            "1, 4, 8 e 12 mg",
+            "Peso -24,2% com 12 mg vs. -2,1% com placebo"
+          ],
+          [
+            "Subestudo de fase 2a em MASLD",
+            "98 adultos com pelo menos 10% de gordura no fígado",
+            "24 semanas (desfecho de gordura hepática)",
+            "1, 4, 8 e 12 mg",
+            "Gordura hepática -82,4% com 12 mg vs. +0,3% com placebo"
+          ],
+          [
+            "Subestudo de composição corporal de fase 2",
+            "Adultos com diabetes tipo 2, de 18 a 75 anos",
+            "36 semanas",
+            "0,5, 4, 8 e 12 mg",
+            "Massa gorda total reduzida em 26,1% com 8 mg vs. 4,5% com placebo"
+          ],
+          [
+            "TRANSCEND-T2D-1, fase 3",
+            "537 adultos com diabetes tipo 2 tratados apenas com dieta e exercício",
+            "40 semanas",
+            "4, 9 e 12 mg",
+            "HbA1c -1,94% e peso -15,3% com 12 mg"
+          ],
+          [
+            "TRIUMPH-1, resultados principais de fase 3 (conforme resumidos em uma revisão crítica)",
+            "Adultos com obesidade",
+            "80 semanas",
+            "Não detalhadas no resumo dos resultados principais",
+            "Peso -28,3% (estimando de eficácia), 25,0% (regime de tratamento); provisório"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+          "source": "The New England journal of medicine, 2023",
+          "url": "https://doi.org/10.1056/NEJMoa2301972"
+        },
+        {
+          "title": "Retatrutide-A Game Changer in Obesity Pharmacotherapy.",
+          "source": "Biomolecules, 2025",
+          "url": "https://doi.org/10.3390/biom15060796"
+        },
+        {
+          "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+          "source": "Lancet (London, England), 2026",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00967-0"
+        },
+        {
+          "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial.",
+          "source": "The lancet. Diabetes & endocrinology, 2025",
+          "url": "https://doi.org/10.1016/S2213-8587(25)00092-0"
+        },
+        {
+          "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.",
+          "source": "Nature medicine, 2024",
+          "url": "https://doi.org/10.1038/s41591-024-03018-2"
+        },
+        {
+          "title": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+          "source": "Diabetes, obesity & metabolism, 2026",
+          "url": "https://doi.org/10.1111/dom.70209"
+        },
+        {
+          "title": "What is the pipeline for future medications for obesity?",
+          "source": "International journal of obesity (2005), 2025",
+          "url": "https://doi.org/10.1038/s41366-024-01473-y"
+        },
+        {
+          "title": "Appetite, eating attitudes, and eating behaviours during treatment with retatrutide in adults with type 2 diabetes: Results of a phase 2 study.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70097"
+        },
+        {
+          "title": "Retatrutide in type 2 diabetes mellitus and obesity: an overview.",
+          "source": "Expert review of clinical pharmacology, 2026",
+          "url": "https://doi.org/10.1080/17512433.2026.2642415"
+        },
+        {
+          "title": "Shared mechanistic pathways of glucagon signalling: Unlocking its potential for treating obesity, metabolic dysfunction-associated steatotic liver disease, and other cardio-kidney-metabolic conditions.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70148"
+        },
+        {
+          "title": "Antiobesity medications in adult and pediatric obesity and metabolic dysfunction-associated steatotic liver disease.",
+          "source": "Pharmacological reviews, 2025",
+          "url": "https://doi.org/10.1016/j.pharmr.2025.100058"
+        },
+        {
+          "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept.",
+          "source": "Cell metabolism, 2022",
+          "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+        },
+        {
+          "title": "Retatrutide as a Unimolecular GIP/GLP-1/Glucagon Receptor Tri-Agonist: Molecular Design, Pharmaceutical Development and Critical Interpretation of Emerging Phase 3 Evidence.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101277"
+        },
+        {
+          "title": "The First Triple Agonist for Antiobesity: Retatrutide.",
+          "source": "Cardiology in review, 2026",
+          "url": "https://doi.org/10.1097/CRD.0000000000000793"
+        },
+        {
+          "title": "Progress in Anti-Obesity Drug Development: A Pharmacodynamics Perspective.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101281"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "id": {
+      "title": "Retatrutide Adalah: Cara Kerja, Hasil Uji, Efek Samping",
+      "short_title": "Retatrutide Adalah Apa?",
+      "short_description": "Mengenal retatrutide, cara kerjanya pada tiga reseptor, serta hasil uji fase 2 dan fase 3 terkait berat badan, gula darah, dan keamanan.",
+      "meta_description": "Retatrutide adalah obat suntik mingguan dalam tahap penelitian yang bekerja pada GIP, GLP-1, dan glukagon. Simak cara kerja, hasil uji klinis, dan efek sampingnya.",
+      "tldr": "Retatrutide adalah obat suntik seminggu sekali yang masih dalam tahap penelitian. Obat ini mengaktifkan tiga reseptor hormon sekaligus, yaitu GIP, GLP-1, dan glukagon. Dalam uji fase 2 obesitas selama 48 minggu, dosis 12 mg menghasilkan perubahan berat badan rata-rata -24,2%, sedangkan plasebo -2,1%. Uji fase 3 pada diabetes tipe 2 menurunkan HbA1c hingga 1,94% selama 40 minggu. Retatrutide masih dalam pengembangan klinis. Efek samping yang paling sering muncul berupa gangguan saluran cerna.",
+      "body_md": "## Apa itu retatrutide?\n\nRetatrutide adalah obat dalam tahap penelitian (investigasional) yang sedang dikembangkan untuk obesitas dan diabetes tipe 2. Obat ini diberikan melalui suntikan di bawah kulit seminggu sekali. Kode pengembangannya adalah LY3437943.\n\nSecara kimia, retatrutide merupakan peptida 39 residu yang mengalami lipidasi. Artinya, retatrutide adalah satu molekul yang mengaktifkan tiga reseptor hormon sekaligus:\n\n- reseptor glucose-dependent insulinotropic polypeptide (GIP)\n- reseptor glucagon-like peptide-1 (GLP-1)\n- reseptor glukagon\n\nKarena itulah retatrutide disebut agonis rangkap tiga (*triple agonist*). Sebagai perbandingan, semaglutide adalah agonis reseptor GLP-1 dan tirzepatide adalah agonis ganda reseptor GLP-1/GIP. Retatrutide mempertahankan kedua sinyal tersebut lalu menambahkan glukagon.\n\nJika Anda mencari “retatrutide adalah”, jawaban singkatnya begini: retatrutide adalah suntikan mingguan eksperimental yang menargetkan tiga jalur hormon usus dan pankreas untuk menurunkan berat badan dan gula darah. Obat ini belum menjadi terapi yang mapan. Sebuah tinjauan mencakup bukti hingga 11 September 2026. Tinjauan itu melaporkan bahwa lima uji klinis fase 3 telah mengumumkan hasil utama yang positif. Namun, saat itu baru satu di antaranya yang memiliki laporan lengkap yang telah ditelaah sejawat (*peer-reviewed*).\n\n## Cara kerja retatrutide pada tiga reseptor\n\nSetiap reseptor memberi kontribusi yang berbeda. Para peneliti masih mempelajari seberapa besar peran masing-masing reseptor pada manusia. Karena itu, temuan pada hewan perlu dipisahkan dari hasil yang diukur dalam uji klinis pada manusia.\n\n### GLP-1 dan GIP: makan lebih sedikit\n\nPenelitian awal dilakukan pada tikus obesitas. Di sana, penurunan berat badan sebagian berasal dari berkurangnya asupan kalori yang dipicu oleh reseptor GIP dan GLP-1. Data pada manusia menunjukkan arah yang sama. Sebuah analisis fase 2 melibatkan 275 orang dewasa dengan diabetes tipe 2. Pada minggu ke-24, peserta yang mendapat retatrutide 4 mg atau lebih melaporkan penurunan yang lebih besar dibandingkan kelompok plasebo dalam hal nafsu makan secara keseluruhan, rasa lapar, dan perkiraan jumlah makanan yang akan dikonsumsi.\n\nPada dosis 8 dan 12 mg, peserta juga melaporkan rasa lapar yang lebih rendah. Mereka juga mengalami disinhibisi yang lebih rendah, yaitu kecenderungan makan berlebihan dalam situasi tertentu seperti saat stres. Perubahan ini berkaitan dengan penurunan berat badan, meski korelasinya tidak terlalu kuat (r = 0,28 untuk rasa lapar yang dirasakan dan r = 0,36 untuk disinhibisi).\n\n### Glukagon: membakar lebih banyak energi\n\nGlukagon dikenal sebagai lawan insulin dalam pengaturan glukosa. Hormon ini memiliki efek hiperglikemik, yang terdengar bertolak belakang dengan tujuan obat diabetes. Namun, pada tikus, penambahan aktivitas reseptor glukagon meningkatkan pengeluaran energi, di samping berkurangnya asupan kalori. Hasilnya, penurunan berat badan menjadi lebih besar. Desain retatrutide memadukan aktivasi reseptor glukagon dengan aktivitas inkretin. Dengan begitu, efektivitas penurunan glukosa tetap terjaga.\n\nSebuah tinjauan tentang biologi glukagon mencatat bahwa peningkatan pengeluaran energi setidaknya sudah terbukti pada model hewan. Namun, jalur yang dipengaruhi aktivasi reseptor glukagon jangka panjang pada manusia, beserta potensi risikonya, masih perlu diuraikan.\n\n### Keseimbangan reseptor\n\nDalam pengujian laboratorium, aktivitas retatrutide pada reseptor glukagon dan GLP-1 seimbang. Aktivitasnya pada reseptor GIP lebih tinggi. Sebuah tinjauan farmakodinamika obat antiobesitas berpendapat bahwa efektivitas dan tolerabilitas tidak dapat disimpulkan hanya dari jenis reseptor yang disasar. Keduanya bergantung pada potensi relatif terhadap tiap reseptor, paparan obat, akses ke jaringan, dan efek samping yang terkait mekanisme kerja.\n\n### Mengapa cukup seminggu sekali\n\nWaktu paruh rata-rata retatrutide sekitar 6 hari. Dalam uji klinis awal, farmakokinetiknya proporsional terhadap dosis. Waktu paruh yang panjang inilah yang memungkinkan pemberian seminggu sekali. Dalam studi fase 1 dosis tunggal, penurunan berat badan masih bertahan hingga hari ke-43 setelah satu kali suntikan.\n\n## Seberapa besar penurunan berat badan dalam uji klinis?\n\nData berat badan terpublikasi yang paling rinci berasal dari uji klinis fase 2 yang didanai Eli Lilly. Uji ini bersifat tersamar ganda dan terkontrol plasebo. Pesertanya 338 orang dewasa dengan IMT 30 atau lebih, atau IMT 27 hingga kurang dari 30 yang disertai setidaknya satu kondisi terkait berat badan. Selama 48 minggu, peserta mendapat retatrutide mingguan dengan dosis 1, 4, 8, atau 12 mg, atau plasebo.\n\nPerubahan berat badan rata-rata pada minggu ke-48:\n\n- 1 mg: -8,7%\n- 4 mg (gabungan kelompok): -17,1%\n- 8 mg (gabungan kelompok): -22,8%\n- 12 mg: -24,2%\n- plasebo: -2,1%\n\nJika efek plasebo dikurangkan, diperoleh angka sederhana yang disesuaikan plasebo untuk dosis tertinggi: 24,2 − 2,1 = 22,1 poin persentase. Angka ini sesuai dengan penurunan berat badan setelah dikurangi plasebo sebesar 22,1% untuk retatrutide. Angka tersebut dilaporkan dalam sebuah tinjauan obat antiobesitas.\n\nProporsi peserta yang mencapai ambang penurunan berat badan yang umum dipakai juga sama pentingnya. Dengan dosis 12 mg, 100% peserta kehilangan setidaknya 5% berat badan. Sebanyak 93% kehilangan setidaknya 10%, dan 83% kehilangan setidaknya 15%. Pada kelompok plasebo, angkanya masing-masing 27%, 9%, dan 2%.\n\n### Angka awal fase 3\n\nUji fase 3 obesitas berskala besar sejauh ini baru dilaporkan sebagai pengumuman hasil utama (*topline*) dari sponsor, bukan sebagai artikel jurnal lengkap. Dengan estimand efikasi, pengumuman tersebut melaporkan penurunan berat badan rata-rata sebesar 28,3% pada minggu ke-80 (TRIUMPH-1). Penurunan pada minggu ke-68 (TRIUMPH-4) sebesar 28,7%. TRIUMPH-1 juga melaporkan estimasi regimen pengobatan sebesar 25,0%.\n\nPerbedaan kedua angka itu penting. Tinjauan kritis atas bukti fase 3 mengingatkan bahwa penafsiran hasil ini perlu memperhatikan beberapa hal. Hal-hal tersebut meliputi estimand, perbedaan populasi, penghentian pengobatan, dan seleksi peserta ke dalam perpanjangan uji. Kedua nilai tersebut masih bersifat sementara hingga laporan lengkap uji dipublikasikan.\n\n## Retatrutide pada diabetes tipe 2\n\nMenurut tinjauan kritis atas bukti fase 3, TRANSCEND-T2D-1 adalah satu-satunya uji fase 3 yang memiliki laporan lengkap yang telah ditelaah sejawat. Uji ini berlangsung selama 40 minggu di 48 lokasi di Amerika Serikat, Meksiko, dan India. Pesertanya 537 orang dewasa dengan diabetes tipe 2 yang tidak terkendali hanya dengan diet dan olahraga. Pada awal penelitian, usia rata-rata peserta 48,8 tahun. HbA1c rata-rata 7,9%, dan IMT rata-rata 35,8 kg/m2.\n\nPeserta mendapat retatrutide 4 mg, 9 mg, atau 12 mg, atau plasebo, seminggu sekali. Hasil untuk HbA1c (ukuran utama rata-rata gula darah):\n\n- 4 mg: -1,69%\n- 9 mg: -1,86%\n- 12 mg: -1,94%\n- plasebo: -0,81%\n\nBerat badan juga turun, yaitu -11,5% dengan 4 mg, -13,9% dengan 9 mg, dan -15,3% dengan 12 mg. Sebagai pembanding, penurunan dengan plasebo -2,6%. Angka ini lebih rendah daripada hasil fase 2 pada obesitas. Namun, kedua uji berbeda dalam populasi, durasi, dan dosis, sehingga tidak bisa dibandingkan secara langsung.\n\nTidak ada laporan hipoglikemia berat. Sebagian besar peserta, yakni 91%, menyelesaikan masa pengobatan dengan tetap menggunakan obat studi.\n\n## Efek di luar angka timbangan: lemak hati dan komposisi tubuh\n\n### Lemak hati\n\nSebuah substudi dari uji fase 2 obesitas meneliti 98 peserta dengan penyakit hati steatotik terkait disfungsi metabolik (MASLD) dan kadar lemak hati minimal 10%. Setelah 24 minggu, perubahan relatif rata-rata lemak hati adalah -42,9% dengan 1 mg dan -57,0% dengan 4 mg. Dengan 8 mg, perubahannya -81,4%, dan dengan 12 mg -82,4%. Sebagai pembanding, perubahan dengan plasebo +0,3%.\n\nKadar lemak hati normal didefinisikan sebagai di bawah 5%. Kadar ini dicapai oleh 79% peserta dengan dosis 8 mg dan 86% peserta dengan dosis 12 mg. Pada kelompok plasebo, angkanya 0%. Penurunan lemak hati ini berhubungan signifikan dengan perubahan berat badan dan lemak perut. Penurunan ini juga berhubungan dengan parameter metabolik yang terkait perbaikan sensitivitas insulin.\n\n### Massa lemak vs berat badan total\n\nAngka timbangan yang turun tidak menunjukkan seberapa banyak bagian yang hilang berupa lemak. Sebuah tinjauan mencatat bahwa kualitas penurunan berat badan, di luar penurunan IMT, perlu diteliti lebih lanjut. Sebuah substudi komposisi tubuh pada orang dewasa dengan diabetes tipe 2 menggunakan pemindaian DXA untuk mengukur massa lemak secara langsung. Selama 36 minggu, massa lemak total turun 26,1% dengan retatrutide 8 mg (gabungan) dan 23,2% dengan 12 mg. Pada plasebo, penurunannya 4,5%, dan pada dulaglutide 2,6%.\n\nMassa tanpa lemak (*lean mass*) adalah sisi lain dari gambaran tersebut. Tinjauan kritis atas bukti fase 3 menyebut dampak fungsional dari hilangnya massa tanpa lemak sebagai salah satu isu yang masih perlu dievaluasi lebih lanjut.\n\n## Efek samping dan tolerabilitas\n\nDalam uji fase 2 obesitas, efek samping yang paling sering adalah gangguan saluran cerna. Efek ini bergantung pada dosis dan sebagian besar ringan hingga sedang. Efek ini juga sebagian berkurang bila pengobatan dimulai dari 2 mg, bukan 4 mg. Sebuah ulasan uji klinis retatrutide menyebut mual, muntah, sembelit, dan diare sebagai efek saluran cerna utama. Efek-efek ini lebih sering dilaporkan pada dosis tertinggi. Kemungkinan, efek ini terkait dengan peningkatan dosis yang cepat dan dosis awal yang lebih tinggi.\n\nDenyut jantung meningkat seiring kenaikan dosis, mencapai puncak pada minggu ke-24, lalu menurun. Dalam uji fase 3 pada diabetes, efek saluran cerna umumnya ringan hingga sedang dan mereda seiring waktu. Penghentian obat akibat efek samping terjadi pada 2–5% peserta yang mendapat retatrutide dan 0% pada kelompok plasebo.\n\nTinjauan kritis juga menyoroti disestesia dan perubahan denyut jantung sebagai area yang memerlukan evaluasi lebih lanjut. Untuk penjelasan lebih lengkap, baca panduan kami tentang [efek samping retatrutide](/id/retatrutide-side-effects).\n\n## Perbandingan retatrutide dengan semaglutide dan tirzepatide\n\nSebuah tinjauan atas uji acak tersamar ganda merangkum penurunan berat badan setelah dikurangi plasebo pada orang dewasa. Setelah 48 hingga 72 minggu, penurunannya hingga 10,8% untuk semaglutide, 17,8% untuk tirzepatide, dan 22,1% untuk retatrutide.\n\nAngka-angka tersebut berasal dari uji yang terpisah dengan populasi, durasi, dan desain yang berbeda. Jadi, angka ini bukan perbandingan langsung (*head-to-head*). Tinjauan kritis atas bukti fase 3 mencatat bahwa data efektivitas komparatif dan hasil jangka panjang tetap penting untuk menentukan posisi retatrutide.\n\nTinjauan antiobesitas yang sama juga melaporkan penurunan lemak hati pada pemeriksaan MRI setelah dikurangi plasebo. Hasilnya 41% untuk semaglutide, 47% untuk tirzepatide, dan 81% untuk retatrutide. Sekali lagi, ini adalah perbandingan lintas uji. Untuk melihat lebih dekat perbedaan ketiga strategi reseptor ini, baca [perbandingan GLP-1 dan agonis rangkap tiga retatrutide](/id/glp1-retatrutide-triple-agonist-comparison-2026).\n\n## Status retatrutide saat ini\n\nRetatrutide masih dalam tahap pengembangan klinis. Program TRIUMPH terdiri dari empat uji fase 3 acak tersamar ganda dengan lebih dari 5.800 peserta. Uji-uji ini membandingkan retatrutide mingguan dengan plasebo, disertai pola makan sehat dan aktivitas fisik. Cakupannya meliputi:\n\n- manajemen berat badan pada orang dewasa dengan obesitas (TRIUMPH-1 dan TRIUMPH-2)\n- apnea tidur obstruktif dan osteoartritis lutut, yang diteliti dalam uji berat badan tersebut\n- manajemen berat badan pada orang dengan penyakit kardiovaskular (TRIUMPH-3)\n- osteoartritis lutut sebagai uji tersendiri (TRIUMPH-4)\n\nHasil utama yang diukur adalah persentase perubahan berat badan. Untuk apnea tidur, yang diukur adalah perubahan Apnea-Hypopnea Index. Untuk osteoartritis, yang diukur adalah skor nyeri lutut.\n\nDalam uji fase 2 yang telah dipublikasikan, dosis mingguan berkisar dari 0,5 mg (pada uji diabetes tipe 2) hingga 12 mg. Dosis tersebut sering dicapai dengan menaikkan dosis secara bertahap dari dosis awal yang lebih rendah. Ini adalah dosis penelitian, bukan jadwal dosis untuk penggunaan pribadi. Tinjauan kritis atas bukti fase 3 menyebut tinjauan regulator sebagai langkah penting untuk menentukan peran terapeutik retatrutide.",
+      "key_stats": [
+        {
+          "label": "Perubahan berat badan rata-rata pada minggu ke-48, 12 mg (fase 2)",
+          "value": "-24,2% vs -2,1% plasebo",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "Peserta dengan dosis 12 mg yang kehilangan minimal 15% berat badan",
+          "value": "83%",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "Perubahan HbA1c pada minggu ke-40, 12 mg (fase 3, diabetes tipe 2)",
+          "value": "-1,94% vs -0,81% plasebo",
+          "source": "TRANSCEND-T2D-1 phase 3 trial"
+        },
+        {
+          "label": "Perubahan relatif lemak hati pada minggu ke-24, 12 mg",
+          "value": "-82,4%",
+          "source": "Phase 2a MASLD substudy"
+        },
+        {
+          "label": "Waktu paruh rata-rata yang mendukung dosis mingguan",
+          "value": "Sekitar 6 hari",
+          "source": "Review of phase 1 and 2 trials"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Retatrutide adalah obat apa?",
+          "answer": "Retatrutide adalah obat suntik seminggu sekali yang masih dalam tahap penelitian. Obat ini mengaktifkan tiga reseptor hormon, yaitu GIP, GLP-1, dan glukagon. Secara kimia, retatrutide merupakan peptida 39 residu yang mengalami lipidasi dan juga dikenal dengan kode LY3437943. Obat ini sedang dikembangkan untuk obesitas dan diabetes tipe 2."
+        },
+        {
+          "question": "Apakah retatrutide sudah disetujui?",
+          "answer": "Retatrutide masih dalam tahap pengembangan klinis. Sebuah tinjauan mencakup bukti hingga 11 September 2026. Menurut tinjauan itu, baru TRANSCEND-T2D-1 yang memiliki laporan fase 3 lengkap yang telah ditelaah sejawat. Uji obesitas baru tersedia dalam bentuk pengumuman hasil utama (topline) dari sponsor. Tinjauan tersebut juga menyebut tinjauan regulator tetap penting."
+        },
+        {
+          "question": "Berapa banyak berat badan yang turun dengan retatrutide?",
+          "answer": "Dalam uji fase 2 obesitas selama 48 minggu, perubahan berat badan rata-rata adalah -24,2% dengan 12 mg dan -22,8% dengan 8 mg. Sebagai pembanding, perubahan dengan plasebo -2,1%. Data topline fase 3 melaporkan penurunan 28,3% pada minggu ke-80 di TRIUMPH-1. Angka ini masih bersifat sementara hingga dipublikasikan secara lengkap."
+        },
+        {
+          "question": "Seberapa sering retatrutide digunakan?",
+          "answer": "Dalam uji klinis, retatrutide diberikan seminggu sekali melalui suntikan di bawah kulit. Waktu paruh rata-ratanya sekitar 6 hari, sehingga mendukung pemberian seminggu sekali."
+        },
+        {
+          "question": "Apa bedanya retatrutide dengan semaglutide dan tirzepatide?",
+          "answer": "Semaglutide adalah agonis reseptor GLP-1, sedangkan tirzepatide adalah agonis ganda reseptor GLP-1/GIP. Retatrutide menambahkan reseptor glukagon. Sebuah tinjauan mencatat penurunan berat badan setelah dikurangi plasebo hingga 10,8% untuk semaglutide, 17,8% untuk tirzepatide, dan 22,1% untuk retatrutide. Namun, angka ini berasal dari uji yang terpisah, bukan perbandingan langsung."
+        },
+        {
+          "question": "Apa efek samping retatrutide yang paling sering?",
+          "answer": "Efek saluran cerna paling sering terjadi. Menurut ulasan uji klinis, efek utamanya adalah mual, muntah, sembelit, dan diare. Dalam uji fase 2 obesitas, efek ini bergantung pada dosis dan sebagian besar ringan hingga sedang. Efek ini juga sebagian berkurang bila pengobatan dimulai dari 2 mg, bukan 4 mg. Denyut jantung meningkat seiring kenaikan dosis, mencapai puncak pada minggu ke-24, lalu menurun."
+        }
+      ],
+      "comparison_table": {
+        "title": "Ringkasan uji klinis utama retatrutide",
+        "headers": [
+          "Uji klinis",
+          "Populasi",
+          "Durasi",
+          "Dosis mingguan yang diteliti",
+          "Hasil utama"
+        ],
+        "rows": [
+          [
+            "Uji fase 2 obesitas",
+            "338 orang dewasa dengan IMT 30 atau lebih, atau 27 hingga kurang dari 30 disertai kondisi terkait berat badan",
+            "48 minggu",
+            "1, 4, 8, 12 mg",
+            "Berat badan -24,2% dengan 12 mg vs -2,1% dengan plasebo"
+          ],
+          [
+            "Substudi MASLD fase 2a",
+            "98 orang dewasa dengan lemak hati minimal 10%",
+            "24 minggu (titik akhir lemak hati)",
+            "1, 4, 8, 12 mg",
+            "Lemak hati -82,4% dengan 12 mg vs +0,3% dengan plasebo"
+          ],
+          [
+            "Substudi komposisi tubuh fase 2",
+            "Orang dewasa dengan diabetes tipe 2, usia 18–75 tahun",
+            "36 minggu",
+            "0,5, 4, 8, 12 mg",
+            "Massa lemak total turun 26,1% dengan 8 mg vs 4,5% dengan plasebo"
+          ],
+          [
+            "TRANSCEND-T2D-1, fase 3",
+            "537 orang dewasa dengan diabetes tipe 2 yang hanya menjalani diet dan olahraga",
+            "40 minggu",
+            "4, 9, 12 mg",
+            "HbA1c -1,94% dan berat badan -15,3% dengan 12 mg"
+          ],
+          [
+            "TRIUMPH-1, hasil utama (topline) fase 3 (seperti dirangkum dalam tinjauan kritis)",
+            "Orang dewasa dengan obesitas",
+            "80 minggu",
+            "Tidak dirinci dalam ringkasan topline",
+            "Berat badan -28,3% (estimand efikasi), 25,0% (regimen pengobatan); masih sementara"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+          "source": "The New England journal of medicine, 2023",
+          "url": "https://doi.org/10.1056/NEJMoa2301972"
+        },
+        {
+          "title": "Retatrutide-A Game Changer in Obesity Pharmacotherapy.",
+          "source": "Biomolecules, 2025",
+          "url": "https://doi.org/10.3390/biom15060796"
+        },
+        {
+          "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+          "source": "Lancet (London, England), 2026",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00967-0"
+        },
+        {
+          "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial.",
+          "source": "The lancet. Diabetes & endocrinology, 2025",
+          "url": "https://doi.org/10.1016/S2213-8587(25)00092-0"
+        },
+        {
+          "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.",
+          "source": "Nature medicine, 2024",
+          "url": "https://doi.org/10.1038/s41591-024-03018-2"
+        },
+        {
+          "title": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+          "source": "Diabetes, obesity & metabolism, 2026",
+          "url": "https://doi.org/10.1111/dom.70209"
+        },
+        {
+          "title": "What is the pipeline for future medications for obesity?",
+          "source": "International journal of obesity (2005), 2025",
+          "url": "https://doi.org/10.1038/s41366-024-01473-y"
+        },
+        {
+          "title": "Appetite, eating attitudes, and eating behaviours during treatment with retatrutide in adults with type 2 diabetes: Results of a phase 2 study.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70097"
+        },
+        {
+          "title": "Retatrutide in type 2 diabetes mellitus and obesity: an overview.",
+          "source": "Expert review of clinical pharmacology, 2026",
+          "url": "https://doi.org/10.1080/17512433.2026.2642415"
+        },
+        {
+          "title": "Shared mechanistic pathways of glucagon signalling: Unlocking its potential for treating obesity, metabolic dysfunction-associated steatotic liver disease, and other cardio-kidney-metabolic conditions.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70148"
+        },
+        {
+          "title": "Antiobesity medications in adult and pediatric obesity and metabolic dysfunction-associated steatotic liver disease.",
+          "source": "Pharmacological reviews, 2025",
+          "url": "https://doi.org/10.1016/j.pharmr.2025.100058"
+        },
+        {
+          "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept.",
+          "source": "Cell metabolism, 2022",
+          "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+        },
+        {
+          "title": "Retatrutide as a Unimolecular GIP/GLP-1/Glucagon Receptor Tri-Agonist: Molecular Design, Pharmaceutical Development and Critical Interpretation of Emerging Phase 3 Evidence.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101277"
+        },
+        {
+          "title": "The First Triple Agonist for Antiobesity: Retatrutide.",
+          "source": "Cardiology in review, 2026",
+          "url": "https://doi.org/10.1097/CRD.0000000000000793"
+        },
+        {
+          "title": "Progress in Anti-Obesity Drug Development: A Pharmacodynamics Perspective.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101281"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "fr": {
+      "title": "Rétatrutide : qu'est-ce que c'est et comment ça agit ?",
+      "short_title": "Qu'est-ce que le rétatrutide ?",
+      "short_description": "Ce qu'est le rétatrutide, comment fonctionne son action sur trois récepteurs et ce que montrent les essais de phase 2 et 3 sur le poids, la glycémie et la sécurité.",
+      "meta_description": "Le rétatrutide est un triple agoniste expérimental hebdomadaire (GIP, GLP-1, glucagon). Mode d'action, résultats des essais sur le poids et le diabète, effets indésirables.",
+      "tldr": "Le rétatrutide est un médicament expérimental injecté une fois par semaine. Il active simultanément trois récepteurs hormonaux : GIP, GLP-1 et glucagon. Dans un essai de phase 2 de 48 semaines sur l'obésité, la dose de 12 mg a entraîné une variation moyenne du poids de -24,2 %, contre -2,1 % sous placebo. Un essai de phase 3 dans le diabète de type 2 a réduit l'HbA1c jusqu'à 1,94 % en 40 semaines. Le rétatrutide est toujours en développement clinique. Ses effets indésirables les plus fréquents sont digestifs.",
+      "body_md": "## Qu'est-ce que le rétatrutide ?\n\nLe rétatrutide est un médicament expérimental en cours de développement contre l'obésité et le diabète de type 2. Il s'administre par injection sous-cutanée une fois par semaine. Son nom de code de développement est LY3437943.\n\nSur le plan chimique, le rétatrutide est un peptide lipidé de 39 résidus. Autrement dit, il s'agit d'une seule molécule qui active simultanément trois récepteurs hormonaux :\n\n- le récepteur du polypeptide insulinotrope dépendant du glucose (GIP)\n- le récepteur du glucagon-like peptide-1 (GLP-1)\n- le récepteur du glucagon\n\nC'est pourquoi on parle de triple agoniste. Pour situer les choses, le sémaglutide est un agoniste du récepteur du GLP-1. Le tirzépatide est un double agoniste des récepteurs du GLP-1 et du GIP. Le rétatrutide conserve ces deux signaux et y ajoute le glucagon.\n\nSi vous vous demandez simplement ce qu'est le rétatrutide, la réponse courte est la suivante. Il s'agit d'une injection hebdomadaire expérimentale qui cible trois voies hormonales de l'intestin et du pancréas pour réduire le poids et la glycémie. Ce n'est pas encore un traitement établi. Une revue a analysé les données disponibles jusqu'au 11 septembre 2026. Selon elle, cinq essais de phase 3 ont annoncé des résultats positifs sur leur critère principal. À cette date, un seul d'entre eux avait cependant fait l'objet d'une publication complète évaluée par les pairs.\n\n## Comment le rétatrutide agit sur trois récepteurs\n\nChaque récepteur apporte une contribution différente. Les chercheurs tentent encore de déterminer le poids de chacun chez l'humain. Il est donc utile de distinguer ce qui a été montré chez l'animal de ce qui a été mesuré dans les essais chez l'humain.\n\n### GLP-1 et GIP : manger moins\n\nDans les travaux initiaux menés sur des souris obèses, la perte de poids provenait en partie d'une baisse de l'apport calorique. Cette baisse passait par les récepteurs du GIP et du GLP-1. Les données chez l'humain vont dans le même sens. Une analyse de phase 2 portait sur 275 adultes atteints de diabète de type 2. À la semaine 24, les participants sous rétatrutide à 4 mg ou plus ont rapporté des baisses plus importantes que sous placebo. Ces baisses concernaient l'appétit global, la faim et la quantité de nourriture qu'ils pensaient consommer.\n\nAux doses de 8 et 12 mg, les participants ont aussi déclaré moins de faim ressentie. Ils ont également signalé moins de désinhibition, c'est-à-dire la tendance à trop manger dans certaines situations, comme le stress. Ces changements étaient liés à la perte de poids. Les corrélations restaient toutefois modestes (r = 0,28 pour la faim ressentie et r = 0,36 pour la désinhibition).\n\n### Glucagon : dépenser plus d'énergie\n\nLe glucagon est bien connu comme le pendant de l'insuline dans la régulation du glucose. Il a des effets hyperglycémiants, ce qui semble à l'opposé de ce que l'on attend d'un médicament du diabète. Chez la souris, l'ajout d'une activité sur le récepteur du glucagon a pourtant augmenté la dépense énergétique. Cet effet venait s'ajouter à la baisse de l'apport calorique et a amplifié la perte de poids. Le rétatrutide est conçu pour associer l'activation du récepteur du glucagon à une activité incrétine. L'objectif est de préserver l'efficacité sur la baisse de la glycémie.\n\nUne revue consacrée à la biologie du glucagon souligne que la hausse de la dépense énergétique a été démontrée, au moins dans des modèles animaux. Il reste en revanche à préciser deux points chez l'humain. Il s'agit des voies touchées par une activation prolongée du récepteur du glucagon et des risques potentiels qui y sont associés.\n\n### L'équilibre entre récepteurs\n\nLors des tests en laboratoire, le rétatrutide a montré une activité équilibrée sur les récepteurs du glucagon et du GLP-1. Son activité était plus marquée sur le récepteur du GIP. Une revue de pharmacodynamie des médicaments anti-obésité estime que l'efficacité et la tolérance ne peuvent pas se déduire uniquement des récepteurs ciblés. Elles résultent de plusieurs facteurs : la puissance relative sur chaque récepteur, l'exposition, l'accès aux tissus et les effets indésirables liés au mécanisme d'action.\n\n### Pourquoi une injection par semaine\n\nLe rétatrutide a une demi-vie moyenne d'environ 6 jours. Dans les premiers essais, sa pharmacocinétique était proportionnelle à la dose. C'est cette longue demi-vie qui permet une administration hebdomadaire. Dans une étude de phase 1 à dose unique, la baisse du poids s'est maintenue jusqu'au 43e jour après une seule injection.\n\n## Quelle perte de poids dans les essais ?\n\nLes données de poids publiées les plus détaillées proviennent d'un essai de phase 2 en double aveugle contre placebo, financé par Eli Lilly. Il a inclus 338 adultes ayant un IMC de 30 ou plus. Il a aussi inclus des adultes ayant un IMC de 27 à moins de 30 avec au moins une pathologie liée au poids. Les participants ont reçu chaque semaine du rétatrutide à 1, 4, 8 ou 12 mg, ou un placebo, pendant 48 semaines.\n\nVariation moyenne du poids à 48 semaines :\n\n- 1 mg : -8,7 %\n- 4 mg (groupes combinés) : -17,1 %\n- 8 mg (groupes combinés) : -22,8 %\n- 12 mg : -24,2 %\n- placebo : -2,1 %\n\nEn retranchant l'effet placebo, on obtient un chiffre simple corrigé du placebo pour la dose la plus élevée : 24,2 − 2,1 = 22,1 points de pourcentage. Ce chiffre correspond à la perte de poids de 22,1 % après soustraction du placebo. Une revue des médicaments anti-obésité rapporte ce même chiffre pour le rétatrutide.\n\nLa proportion de personnes atteignant les seuils de perte de poids habituels est tout aussi parlante. Sous 12 mg, 100 % ont perdu au moins 5 % de leur poids. Ils étaient 93 % à perdre au moins 10 % et 83 % à perdre au moins 15 %. Dans le groupe placebo, ces chiffres étaient respectivement de 27 %, 9 % et 2 %.\n\n### Premiers chiffres de phase 3\n\nLes grands essais de phase 3 sur l'obésité n'ont pour l'instant fait l'objet que de communiqués de résultats principaux (topline) du promoteur. Aucun article complet n'a encore été publié dans une revue. Ces communiqués rapportent, selon un estimand d'efficacité, une perte de poids moyenne de 28,3 % à 80 semaines (TRIUMPH-1). Ils font état de 28,7 % à 68 semaines (TRIUMPH-4). TRIUMPH-1 a également rapporté une estimation de 25,0 % selon l'estimand du régime de traitement.\n\nL'écart entre ces deux chiffres compte. La revue critique des données de phase 3 appelle à la prudence dans l'interprétation de ces résultats. Il faut tenir compte des estimands, des différences de population, des arrêts de traitement et de la sélection des participants dans les extensions d'essai. Ces deux valeurs restent provisoires jusqu'à la publication des rapports complets.\n\n## Le rétatrutide dans le diabète de type 2\n\nSelon la revue critique des données de phase 3, TRANSCEND-T2D-1 est le seul essai de phase 3 ayant fait l'objet d'une publication complète évaluée par les pairs. Il a duré 40 semaines et s'est déroulé dans 48 centres aux États-Unis, au Mexique et en Inde. Il a inclus 537 adultes dont le diabète de type 2 n'était pas contrôlé par l'alimentation et l'activité physique seules. Au départ, l'âge moyen était de 48,8 ans. L'HbA1c moyenne était de 7,9 % et l'IMC moyen de 35,8 kg/m2.\n\nLes participants ont reçu du rétatrutide à 4 mg, 9 mg ou 12 mg, ou un placebo, une fois par semaine. Résultats sur l'HbA1c (principal indicateur de la glycémie moyenne) :\n\n- 4 mg : -1,69 %\n- 9 mg : -1,86 %\n- 12 mg : -1,94 %\n- placebo : -0,81 %\n\nLe poids a lui aussi baissé : -11,5 % sous 4 mg, -13,9 % sous 9 mg et -15,3 % sous 12 mg. Sous placebo, la baisse était de -2,6 %. Ces chiffres sont inférieurs aux résultats de phase 2 sur l'obésité. Les deux essais différaient toutefois par la population, la durée et les doses, et ne sont donc pas directement comparables.\n\nAucune hypoglycémie sévère n'a été signalée. La plupart des participants, soit 91 %, ont terminé la période de traitement sous médicament à l'étude.\n\n## Au-delà de la balance : graisse du foie et composition corporelle\n\n### Graisse du foie\n\nUne sous-étude de l'essai de phase 2 sur l'obésité a porté sur 98 participants. Ils étaient atteints de stéatose hépatique associée à une dysfonction métabolique (MASLD) et avaient au moins 10 % de graisse dans le foie. Après 24 semaines, la variation relative moyenne de la graisse hépatique était de -42,9 % sous 1 mg et de -57,0 % sous 4 mg. Elle atteignait -81,4 % sous 8 mg et -82,4 % sous 12 mg. Sous placebo, elle était de +0,3 %.\n\nUn taux de graisse hépatique normal est défini comme inférieur à 5 %. Il a été atteint par 79 % des participants sous 8 mg et 86 % sous 12 mg, contre 0 % sous placebo. Ces baisses de la graisse du foie étaient significativement liées aux variations du poids et de la graisse abdominale. Elles étaient aussi liées à des paramètres métaboliques associés à une meilleure sensibilité à l'insuline.\n\n### Masse grasse ou poids total ?\n\nUn chiffre qui baisse sur la balance ne dit pas quelle part de la perte correspond à de la graisse. Une revue souligne que la qualité de la perte de poids, au-delà de la baisse de l'IMC, mérite d'être étudiée plus avant. Une sous-étude sur la composition corporelle chez des adultes atteints de diabète de type 2 a mesuré directement la masse grasse par DXA. En 36 semaines, la masse grasse totale a diminué de 26,1 % sous rétatrutide 8 mg (données regroupées) et de 23,2 % sous 12 mg. La baisse était de 4,5 % sous placebo et de 2,6 % sous dulaglutide.\n\nLa masse maigre constitue l'autre versant de ce tableau. La revue critique des données de phase 3 cite les conséquences fonctionnelles de la perte de masse maigre parmi les questions qui doivent encore être évaluées.\n\n## Effets indésirables et tolérance\n\nDans l'essai de phase 2 sur l'obésité, les effets indésirables les plus fréquents étaient digestifs. Ils dépendaient de la dose et étaient le plus souvent légers à modérés. Ils diminuaient en partie lorsque le traitement débutait à 2 mg plutôt qu'à 4 mg. Une synthèse des essais sur le rétatrutide cite les nausées, les vomissements, la constipation et la diarrhée comme principaux troubles digestifs. Ils étaient plus souvent rapportés aux doses les plus élevées. Ils sont probablement liés à une augmentation rapide des doses et à des doses de départ plus élevées.\n\nLa fréquence cardiaque a augmenté de façon dose-dépendante. Elle a atteint un pic à 24 semaines, puis a diminué. Dans l'essai de phase 3 sur le diabète, les troubles digestifs étaient généralement légers à modérés et s'atténuaient avec le temps. Les arrêts de traitement pour effets indésirables ont concerné 2 à 5 % des participants sous rétatrutide, contre 0 % sous placebo.\n\nLa revue critique signale également la dysesthésie et les variations de la fréquence cardiaque comme des points à évaluer davantage. Pour un tour d'horizon plus complet, consultez notre guide sur les [effets secondaires du rétatrutide](/fr/retatrutide-side-effects).\n\n## Rétatrutide, sémaglutide et tirzépatide : la comparaison\n\nUne revue d'essais randomisés en double aveugle a résumé la perte de poids corrigée du placebo chez l'adulte après 48 à 72 semaines. Elle atteignait jusqu'à 10,8 % pour le sémaglutide, 17,8 % pour le tirzépatide et 22,1 % pour le rétatrutide.\n\nCes chiffres proviennent d'essais distincts, avec des populations, des durées et des protocoles différents. Il ne s'agit donc pas d'une comparaison directe. La revue critique des données de phase 3 souligne que l'efficacité comparative et les résultats à long terme restent essentiels pour définir la place du rétatrutide.\n\nLa même revue sur les médicaments anti-obésité a rapporté des baisses de la graisse hépatique à l'IRM, corrigées du placebo. Elles étaient de 41 % pour le sémaglutide, 47 % pour le tirzépatide et 81 % pour le rétatrutide. Là encore, il s'agit de comparaisons entre essais. Pour voir de plus près en quoi les trois stratégies de ciblage des récepteurs diffèrent, consultez notre [comparatif GLP-1 et triple agoniste rétatrutide](/fr/glp1-retatrutide-triple-agonist-comparison-2026).\n\n## Où en est le rétatrutide aujourd'hui ?\n\nLe rétatrutide est toujours en développement clinique. Le programme TRIUMPH comprend quatre essais de phase 3 randomisés, en double aveugle, portant sur plus de 5 800 participants. Ces essais comparent le rétatrutide hebdomadaire à un placebo, associés dans les deux cas à une alimentation saine et à une activité physique. Ils portent sur :\n\n- la gestion du poids chez l'adulte obèse (TRIUMPH-1 et TRIUMPH-2)\n- l'apnée obstructive du sommeil et l'arthrose du genou, étudiées au sein de ces essais sur le poids\n- la gestion du poids chez les personnes atteintes de maladie cardiovasculaire (TRIUMPH-3)\n- l'arthrose du genou, dans un essai dédié (TRIUMPH-4)\n\nLe principal critère d'évaluation est la variation du poids en pourcentage. Pour l'apnée du sommeil, on mesure la variation de l'index d'apnées-hypopnées. Pour l'arthrose, on mesure les scores de douleur au genou.\n\nDans les essais de phase 2 publiés, les doses hebdomadaires allaient de 0,5 mg (dans l'essai sur le diabète de type 2) à 12 mg. Ces doses étaient souvent atteintes par paliers à partir d'une dose de départ plus faible. Il s'agit de doses de recherche, et non d'un schéma posologique à usage personnel. La revue critique des données de phase 3 considère l'évaluation par les autorités réglementaires comme essentielle pour définir le rôle thérapeutique du rétatrutide.",
+      "key_stats": [
+        {
+          "label": "Variation moyenne du poids à 48 semaines, 12 mg (phase 2)",
+          "value": "-24,2 % contre -2,1 % sous placebo",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "Personnes sous 12 mg ayant perdu au moins 15 % de leur poids",
+          "value": "83 %",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "Variation de l'HbA1c à 40 semaines, 12 mg (phase 3, diabète de type 2)",
+          "value": "-1,94 % contre -0,81 % sous placebo",
+          "source": "TRANSCEND-T2D-1 phase 3 trial"
+        },
+        {
+          "label": "Variation relative de la graisse hépatique à 24 semaines, 12 mg",
+          "value": "-82,4 %",
+          "source": "Phase 2a MASLD substudy"
+        },
+        {
+          "label": "Demi-vie moyenne permettant une administration hebdomadaire",
+          "value": "Environ 6 jours",
+          "source": "Review of phase 1 and 2 trials"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Qu'est-ce que le rétatrutide ?",
+          "answer": "Le rétatrutide est un médicament expérimental injecté une fois par semaine. Il active trois récepteurs hormonaux : GIP, GLP-1 et glucagon. C'est un peptide lipidé de 39 résidus, également connu sous le code LY3437943. Il est développé contre l'obésité et le diabète de type 2."
+        },
+        {
+          "question": "Le rétatrutide est-il autorisé ?",
+          "answer": "Le rétatrutide est toujours en développement clinique. Une revue a analysé les données disponibles jusqu'au 11 septembre 2026. Selon elle, seul TRANSCEND-T2D-1 avait fait l'objet d'une publication complète de phase 3 évaluée par les pairs. Les essais sur l'obésité n'étaient disponibles que sous forme de communiqués de résultats principaux du promoteur. La revue souligne aussi que l'évaluation réglementaire reste essentielle."
+        },
+        {
+          "question": "Combien de poids perd-on avec le rétatrutide ?",
+          "answer": "Dans l'essai de phase 2 de 48 semaines sur l'obésité, la variation moyenne du poids était de -24,2 % sous 12 mg et de -22,8 % sous 8 mg. Sous placebo, elle était de -2,1 %. Les résultats principaux de phase 3 font état de 28,3 % à 80 semaines dans TRIUMPH-1. Ce chiffre reste provisoire jusqu'à sa publication complète."
+        },
+        {
+          "question": "À quelle fréquence le rétatrutide est-il administré ?",
+          "answer": "Dans les essais, il était administré une fois par semaine par injection sous-cutanée. Sa demi-vie moyenne d'environ 6 jours permet cette administration hebdomadaire."
+        },
+        {
+          "question": "En quoi le rétatrutide diffère-t-il du sémaglutide et du tirzépatide ?",
+          "answer": "Le sémaglutide est un agoniste du récepteur du GLP-1 et le tirzépatide un double agoniste des récepteurs du GLP-1 et du GIP. Le rétatrutide y ajoute le récepteur du glucagon. Une revue a rapporté une perte de poids corrigée du placebo allant jusqu'à 10,8 % pour le sémaglutide, 17,8 % pour le tirzépatide et 22,1 % pour le rétatrutide. Ces chiffres proviennent toutefois d'essais distincts et non de comparaisons directes."
+        },
+        {
+          "question": "Quels sont les effets secondaires les plus fréquents du rétatrutide ?",
+          "answer": "Les effets digestifs étaient les plus fréquents. Selon une synthèse des essais, il s'agit surtout de nausées, de vomissements, de constipation et de diarrhée. Dans l'essai de phase 2 sur l'obésité, ils dépendaient de la dose et étaient le plus souvent légers à modérés. Ils diminuaient en partie lorsque le traitement débutait à 2 mg plutôt qu'à 4 mg. La fréquence cardiaque a augmenté de façon dose-dépendante, avec un pic à 24 semaines, puis a diminué."
+        }
+      ],
+      "comparison_table": {
+        "title": "Les principaux essais sur le rétatrutide en un coup d'œil",
+        "headers": [
+          "Essai",
+          "Population",
+          "Durée",
+          "Doses hebdomadaires étudiées",
+          "Résultat principal"
+        ],
+        "rows": [
+          [
+            "Essai de phase 2 sur l'obésité",
+            "338 adultes avec un IMC de 30 ou plus, ou de 27 à moins de 30 avec une pathologie liée au poids",
+            "48 semaines",
+            "1, 4, 8, 12 mg",
+            "Poids -24,2 % sous 12 mg contre -2,1 % sous placebo"
+          ],
+          [
+            "Sous-étude MASLD de phase 2a",
+            "98 adultes avec au moins 10 % de graisse hépatique",
+            "24 semaines (critère graisse hépatique)",
+            "1, 4, 8, 12 mg",
+            "Graisse hépatique -82,4 % sous 12 mg contre +0,3 % sous placebo"
+          ],
+          [
+            "Sous-étude de phase 2 sur la composition corporelle",
+            "Adultes atteints de diabète de type 2, âgés de 18 à 75 ans",
+            "36 semaines",
+            "0,5, 4, 8, 12 mg",
+            "Masse grasse totale réduite de 26,1 % sous 8 mg contre 4,5 % sous placebo"
+          ],
+          [
+            "TRANSCEND-T2D-1, phase 3",
+            "537 adultes atteints de diabète de type 2 traités par alimentation et activité physique seules",
+            "40 semaines",
+            "4, 9, 12 mg",
+            "HbA1c -1,94 % et poids -15,3 % sous 12 mg"
+          ],
+          [
+            "TRIUMPH-1, résultats principaux de phase 3 (tels que résumés dans une revue critique)",
+            "Adultes obèses",
+            "80 semaines",
+            "Non précisées dans le résumé des résultats principaux",
+            "Poids -28,3 % (estimand d'efficacité), 25,0 % (régime de traitement) ; provisoire"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+          "source": "The New England journal of medicine, 2023",
+          "url": "https://doi.org/10.1056/NEJMoa2301972"
+        },
+        {
+          "title": "Retatrutide-A Game Changer in Obesity Pharmacotherapy.",
+          "source": "Biomolecules, 2025",
+          "url": "https://doi.org/10.3390/biom15060796"
+        },
+        {
+          "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+          "source": "Lancet (London, England), 2026",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00967-0"
+        },
+        {
+          "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial.",
+          "source": "The lancet. Diabetes & endocrinology, 2025",
+          "url": "https://doi.org/10.1016/S2213-8587(25)00092-0"
+        },
+        {
+          "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.",
+          "source": "Nature medicine, 2024",
+          "url": "https://doi.org/10.1038/s41591-024-03018-2"
+        },
+        {
+          "title": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+          "source": "Diabetes, obesity & metabolism, 2026",
+          "url": "https://doi.org/10.1111/dom.70209"
+        },
+        {
+          "title": "What is the pipeline for future medications for obesity?",
+          "source": "International journal of obesity (2005), 2025",
+          "url": "https://doi.org/10.1038/s41366-024-01473-y"
+        },
+        {
+          "title": "Appetite, eating attitudes, and eating behaviours during treatment with retatrutide in adults with type 2 diabetes: Results of a phase 2 study.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70097"
+        },
+        {
+          "title": "Retatrutide in type 2 diabetes mellitus and obesity: an overview.",
+          "source": "Expert review of clinical pharmacology, 2026",
+          "url": "https://doi.org/10.1080/17512433.2026.2642415"
+        },
+        {
+          "title": "Shared mechanistic pathways of glucagon signalling: Unlocking its potential for treating obesity, metabolic dysfunction-associated steatotic liver disease, and other cardio-kidney-metabolic conditions.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70148"
+        },
+        {
+          "title": "Antiobesity medications in adult and pediatric obesity and metabolic dysfunction-associated steatotic liver disease.",
+          "source": "Pharmacological reviews, 2025",
+          "url": "https://doi.org/10.1016/j.pharmr.2025.100058"
+        },
+        {
+          "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept.",
+          "source": "Cell metabolism, 2022",
+          "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+        },
+        {
+          "title": "Retatrutide as a Unimolecular GIP/GLP-1/Glucagon Receptor Tri-Agonist: Molecular Design, Pharmaceutical Development and Critical Interpretation of Emerging Phase 3 Evidence.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101277"
+        },
+        {
+          "title": "The First Triple Agonist for Antiobesity: Retatrutide.",
+          "source": "Cardiology in review, 2026",
+          "url": "https://doi.org/10.1097/CRD.0000000000000793"
+        },
+        {
+          "title": "Progress in Anti-Obesity Drug Development: A Pharmacodynamics Perspective.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101281"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "de": {
+      "title": "Retatrutid: Was ist das und wie wirkt es?",
+      "short_title": "Was ist Retatrutid?",
+      "short_description": "Was Retatrutid ist, wie die Wirkung über drei Rezeptoren funktioniert und was Phase-2- und Phase-3-Studien zu Gewicht, Blutzucker und Sicherheit zeigen.",
+      "meta_description": "Retatrutid ist ein experimenteller Dreifachagonist (GIP, GLP-1, Glukagon) zur wöchentlichen Injektion. Wirkweise, Studiendaten zu Gewicht und Diabetes, Nebenwirkungen.",
+      "tldr": "Retatrutid ist ein noch in der Erprobung befindliches Medikament, das einmal wöchentlich gespritzt wird. Es aktiviert drei Hormonrezeptoren gleichzeitig: GIP, GLP-1 und Glukagon. In einer 48-wöchigen Phase-2-Studie zu Adipositas veränderte sich das Gewicht unter 12 mg im Mittel um −24,2 %, unter Placebo um −2,1 %. Eine Phase-3-Studie bei Typ-2-Diabetes senkte den HbA1c-Wert innerhalb von 40 Wochen um bis zu 1,94 %. Retatrutid befindet sich weiterhin in der klinischen Entwicklung. Die häufigsten Nebenwirkungen betreffen den Magen-Darm-Trakt.",
+      "body_md": "## Was ist Retatrutid?\n\nRetatrutid ist ein Prüfpräparat, das gegen Adipositas und Typ-2-Diabetes entwickelt wird. Es wird einmal pro Woche unter die Haut gespritzt. Der Entwicklungscode lautet LY3437943.\n\nChemisch betrachtet ist Retatrutid ein lipidiertes Peptid aus 39 Aminosäureresten. Es handelt sich also um ein einziges Molekül, das gleichzeitig drei Hormonrezeptoren aktiviert:\n\n- den Rezeptor für das glukoseabhängige insulinotrope Polypeptid (GIP)\n- den Rezeptor für das Glucagon-like Peptide-1 (GLP-1)\n- den Glukagonrezeptor\n\nDeshalb spricht man von einem Dreifachagonisten (Triple-Agonist). Zum Vergleich: Semaglutid ist ein GLP-1-Rezeptoragonist, Tirzepatid ein dualer GLP-1/GIP-Rezeptoragonist. Retatrutid behält beide Signalwege bei und nutzt zusätzlich Glukagon.\n\nSie fragen sich, was Retatrutid eigentlich ist? Kurz gesagt handelt es sich um eine experimentelle Wochenspritze. Sie greift an drei Hormonsignalwegen aus Darm und Bauchspeicheldrüse an, um Körpergewicht und Blutzucker zu senken. Eine etablierte Therapie ist Retatrutid bislang nicht. Eine Übersichtsarbeit hat die Evidenz bis zum 11. September 2026 ausgewertet. Demnach haben fünf Phase-3-Studien positive primäre Endpunkte gemeldet. Zu diesem Zeitpunkt lag jedoch nur für eine davon ein vollständiger, begutachteter (peer-reviewed) Bericht vor.\n\n## So wirkt Retatrutid an drei Rezeptoren\n\nJeder Rezeptor trägt auf eigene Weise zur Wirkung bei. Wie stark jeder einzelne beim Menschen ins Gewicht fällt, wird noch erforscht. Deshalb sollte man klar trennen, was sich im Tierversuch gezeigt hat und was in Studien am Menschen gemessen wurde.\n\n### GLP-1 und GIP: weniger essen\n\nIn den ersten Untersuchungen an adipösen Mäusen beruhte die Gewichtsabnahme zum Teil auf einer verringerten Kalorienaufnahme, die über die GIP- und GLP-1-Rezeptoren vermittelt wurde. Daten vom Menschen weisen in dieselbe Richtung. Eine Phase-2-Auswertung umfasste 275 Erwachsene mit Typ-2-Diabetes. Teilnehmende mit 4 mg Retatrutid oder mehr berichteten in Woche 24 über einen stärkeren Rückgang als die Placebogruppe. Das betraf den Appetit insgesamt, das Hungergefühl und die erwartete Essmenge.\n\nUnter 8 und 12 mg gaben die Teilnehmenden zudem ein geringeres wahrgenommenes Hungergefühl an. Auch die Enthemmung nahm ab, also die Neigung, etwa unter Stress zu viel zu essen. Diese Veränderungen hingen mit der Gewichtsabnahme zusammen. Die Korrelationen waren allerdings eher schwach (r = 0,28 für das wahrgenommene Hungergefühl und r = 0,36 für die Enthemmung).\n\n### Glukagon: mehr Energie verbrauchen\n\nGlukagon ist vor allem als Gegenspieler des Insulins bei der Blutzuckerregulation bekannt. Es wirkt hyperglykämisch, was zunächst wie das Gegenteil dessen klingt, was ein Diabetesmedikament leisten soll. Bei Mäusen steigerte die zusätzliche Aktivierung des Glukagonrezeptors jedoch den Energieverbrauch. Dieser Effekt kam zur verringerten Kalorienaufnahme hinzu und verstärkte so die Gewichtsabnahme. Retatrutid ist so konzipiert, dass die Aktivierung des Glukagonrezeptors mit einer Inkretinwirkung kombiniert wird. Dadurch bleibt die blutzuckersenkende Wirkung erhalten.\n\nEine Übersichtsarbeit zur Biologie des Glukagons hält fest, dass der höhere Energieverbrauch zumindest in Tiermodellen belegt ist. Welche Signalwege eine langfristige Aktivierung des Glukagonrezeptors beim Menschen beeinflusst und welche Risiken damit verbunden sein könnten, muss jedoch noch geklärt werden.\n\n### Das Gleichgewicht der Rezeptoren\n\nIn Labortests wirkte Retatrutid am Glukagon- und am GLP-1-Rezeptor ausgewogen, am GIP-Rezeptor dagegen stärker. Eine Übersichtsarbeit zur Pharmakodynamik von Medikamenten gegen Adipositas argumentiert, dass sich Wirksamkeit und Verträglichkeit nicht allein aus den Zielrezeptoren ableiten lassen. Sie ergeben sich vielmehr aus mehreren Faktoren: der relativen Wirkstärke an den einzelnen Rezeptoren, der Exposition, dem Zugang zu den Geweben und den mechanismusbedingten Nebenwirkungen.\n\n### Warum eine Spritze pro Woche genügt\n\nRetatrutid hat eine mittlere Halbwertszeit von etwa 6 Tagen. In frühen Studien verhielt sich die Pharmakokinetik dosisproportional. Diese lange Halbwertszeit ermöglicht die Gabe einmal pro Woche. In einer Phase-1-Studie mit Einmalgabe hielt die Abnahme des Körpergewichts nach einer einzigen Injektion bis Tag 43 an.\n\n## Wie viel Gewicht verloren die Teilnehmenden in Studien?\n\nDie ausführlichsten veröffentlichten Gewichtsdaten stammen aus einer doppelblinden, placebokontrollierten Phase-2-Studie, die von Eli Lilly finanziert wurde. Sie umfasste 338 Erwachsene mit einem BMI von 30 oder mehr. Aufgenommen wurden auch Personen mit einem BMI von 27 bis unter 30, sofern mindestens eine gewichtsbedingte Begleiterkrankung vorlag. Die Teilnehmenden erhielten 48 Wochen lang wöchentlich 1, 4, 8 oder 12 mg Retatrutid oder Placebo.\n\nMittlere Gewichtsveränderung nach 48 Wochen:\n\n- 1 mg: −8,7 %\n- 4 mg (Gruppen zusammengefasst): −17,1 %\n- 8 mg (Gruppen zusammengefasst): −22,8 %\n- 12 mg: −24,2 %\n- Placebo: −2,1 %\n\nZieht man den Placeboeffekt ab, ergibt sich für die höchste Dosis ein einfacher placebobereinigter Wert: 24,2 − 2,1 = 22,1 Prozentpunkte. Das entspricht dem placebobereinigten Gewichtsverlust von 22,1 % für Retatrutid. Diesen Wert nennt eine Übersichtsarbeit zu Medikamenten gegen Adipositas.\n\nEbenso aussagekräftig ist der Anteil der Teilnehmenden, die gängige Schwellenwerte beim Abnehmen erreichten. Unter 12 mg verloren 100 % mindestens 5 % ihres Körpergewichts. 93 % verloren mindestens 10 % und 83 % mindestens 15 %. In der Placebogruppe lagen die entsprechenden Werte bei 27 %, 9 % und 2 %.\n\n### Erste Zahlen aus Phase 3\n\nZu den großen Phase-3-Studien zu Adipositas liegen bislang nur Topline-Mitteilungen des Sponsors vor, keine vollständigen Fachartikel. Diese Mitteilungen berichten mit dem Wirksamkeits-Estimand von einer mittleren Gewichtsabnahme um 28,3 % nach 80 Wochen (TRIUMPH-1). Nach 68 Wochen (TRIUMPH-4) waren es 28,7 %. Für TRIUMPH-1 wurde außerdem ein Treatment-Regimen-Schätzwert von 25,0 % angegeben.\n\nDer Unterschied zwischen diesen beiden Werten ist wichtig. Die kritische Übersichtsarbeit zur Phase-3-Evidenz mahnt zur Vorsicht bei der Interpretation. Zu beachten sind die gewählten Estimands, Unterschiede zwischen den Studienpopulationen, Therapieabbrüche und die Auswahl der Teilnehmenden für Studienverlängerungen. Beide Werte gelten als vorläufig, bis die vollständigen Studienberichte veröffentlicht sind.\n\n## Retatrutid bei Typ-2-Diabetes\n\nLaut der kritischen Übersichtsarbeit zur Phase-3-Evidenz ist TRANSCEND-T2D-1 die einzige Phase-3-Studie mit einem vollständigen, begutachteten Bericht. Sie lief 40 Wochen lang an 48 Zentren in den USA, Mexiko und Indien. Teilgenommen haben 537 Erwachsene, deren Typ-2-Diabetes sich mit Ernährung und Bewegung allein nicht ausreichend einstellen ließ. Zu Studienbeginn lag das Durchschnittsalter bei 48,8 Jahren. Der mittlere HbA1c-Wert betrug 7,9 %, der mittlere BMI 35,8 kg/m2.\n\nDie Teilnehmenden erhielten einmal pro Woche 4 mg, 9 mg oder 12 mg Retatrutid oder Placebo. Ergebnisse für den HbA1c-Wert (das wichtigste Maß für den durchschnittlichen Blutzucker):\n\n- 4 mg: −1,69 %\n- 9 mg: −1,86 %\n- 12 mg: −1,94 %\n- Placebo: −0,81 %\n\nAuch das Körpergewicht sank: um −11,5 % unter 4 mg, um −13,9 % unter 9 mg und um −15,3 % unter 12 mg. Unter Placebo waren es −2,6 %. Diese Werte liegen unter den Ergebnissen der Phase-2-Studie zu Adipositas. Die beiden Studien unterschieden sich jedoch in Population, Dauer und Dosierung und sind daher nicht direkt vergleichbar.\n\nSchwere Unterzuckerungen (Hypoglykämien) wurden nicht berichtet. Die meisten Teilnehmenden, nämlich 91 %, schlossen den Behandlungszeitraum mit dem Studienmedikament ab.\n\n## Mehr als die Zahl auf der Waage: Leberfett und Körperzusammensetzung\n\n### Leberfett\n\nEine Teilstudie der Phase-2-Studie zu Adipositas untersuchte 98 Teilnehmende mit metabolisch dysfunktionsassoziierter steatotischer Lebererkrankung (MASLD) und einem Leberfettanteil von mindestens 10 %. Nach 24 Wochen veränderte sich das Leberfett relativ im Mittel um −42,9 % unter 1 mg und um −57,0 % unter 4 mg. Unter 8 mg waren es −81,4 %, unter 12 mg −82,4 %. Unter Placebo stieg es um +0,3 %.\n\nEin normaler Leberfettanteil ist als Wert unter 5 % definiert. Diesen erreichten 79 % der Teilnehmenden unter 8 mg und 86 % unter 12 mg, unter Placebo dagegen 0 %. Der Rückgang des Leberfetts hing signifikant mit Veränderungen von Körpergewicht und Bauchfett zusammen. Er hing außerdem mit Stoffwechselwerten zusammen, die mit einer verbesserten Insulinempfindlichkeit in Verbindung stehen.\n\n### Fettmasse oder Gesamtgewicht?\n\nEine sinkende Zahl auf der Waage verrät nicht, wie viel davon tatsächlich Fett ist. Eine Übersichtsarbeit weist darauf hin, dass die Qualität der Gewichtsabnahme über die BMI-Senkung hinaus weiter untersucht werden muss. Eine Teilstudie zur Körperzusammensetzung bei Erwachsenen mit Typ-2-Diabetes maß die Fettmasse mittels DXA-Scan direkt. Über 36 Wochen sank die Gesamtfettmasse unter 8 mg Retatrutid (gepoolt) um 26,1 % und unter 12 mg um 23,2 %. Unter Placebo betrug der Rückgang 4,5 %, unter Dulaglutid 2,6 %.\n\nDie Magermasse ist die andere Seite dieses Bildes. Die kritische Übersichtsarbeit zur Phase-3-Evidenz nennt die funktionellen Folgen eines Verlusts an Magermasse als einen der Punkte, die noch weiter untersucht werden müssen.\n\n## Nebenwirkungen und Verträglichkeit\n\nIn der Phase-2-Studie zu Adipositas betrafen die häufigsten unerwünschten Ereignisse den Magen-Darm-Trakt. Sie waren dosisabhängig und überwiegend leicht bis mittelschwer. Sie ließen sich teilweise verringern, wenn die Behandlung mit 2 mg statt mit 4 mg begonnen wurde. Ein Überblick über die Retatrutid-Studien nennt Übelkeit, Erbrechen, Verstopfung und Durchfall als wichtigste Magen-Darm-Beschwerden. Sie traten bei den höchsten Dosen häufiger auf. Wahrscheinlich hängen sie mit einer raschen Dosissteigerung und höheren Anfangsdosen zusammen.\n\nDie Herzfrequenz stieg dosisabhängig an, erreichte in Woche 24 ihren Höhepunkt und ging danach wieder zurück. In der Phase-3-Studie zu Diabetes waren die Magen-Darm-Beschwerden meist leicht bis mittelschwer und klangen im Verlauf ab. Wegen unerwünschter Ereignisse brachen 2–5 % der Teilnehmenden unter Retatrutid die Behandlung ab, unter Placebo 0 %.\n\nDie kritische Übersichtsarbeit nennt außerdem Dysästhesien und Veränderungen der Herzfrequenz als Bereiche, die genauer untersucht werden müssen. Eine ausführlichere Übersicht finden Sie in unserem Ratgeber zu den [Nebenwirkungen von Retatrutid](/de/retatrutide-side-effects).\n\n## Retatrutid im Vergleich mit Semaglutid und Tirzepatid\n\nEine Übersichtsarbeit zu doppelblinden, randomisierten Studien fasste den placebobereinigten Gewichtsverlust bei Erwachsenen nach 48 bis 72 Wochen zusammen. Er betrug bis zu 10,8 % für Semaglutid, 17,8 % für Tirzepatid und 22,1 % für Retatrutid.\n\nDiese Werte stammen aus getrennten Studien mit unterschiedlichen Populationen, Laufzeiten und Designs. Sie sind daher kein direkter Head-to-Head-Vergleich. Die kritische Übersichtsarbeit zur Phase-3-Evidenz hält fest, dass Daten zur vergleichenden Wirksamkeit und zu Langzeitergebnissen entscheidend bleiben, um den Stellenwert von Retatrutid zu bestimmen.\n\nDieselbe Übersichtsarbeit zu Medikamenten gegen Adipositas berichtete außerdem über die placebobereinigte Abnahme des Leberfetts im MRT. Sie betrug 41 % für Semaglutid, 47 % für Tirzepatid und 81 % für Retatrutid. Auch hier handelt es sich um studienübergreifende Vergleiche. Wie sich die drei Rezeptorstrategien genauer unterscheiden, lesen Sie in unserem [Vergleich von GLP-1 und dem Dreifachagonisten Retatrutid](/de/glp1-retatrutide-triple-agonist-comparison-2026).\n\n## Wo Retatrutid heute steht\n\nRetatrutid befindet sich weiterhin in der klinischen Entwicklung. Das TRIUMPH-Programm umfasst vier randomisierte, doppelblinde Phase-3-Studien mit über 5800 Teilnehmenden. Darin wird wöchentliches Retatrutid mit Placebo verglichen, jeweils ergänzt durch gesunde Ernährung und körperliche Aktivität. Untersucht werden:\n\n- Gewichtsmanagement bei Erwachsenen mit Adipositas (TRIUMPH-1 und TRIUMPH-2)\n- obstruktive Schlafapnoe und Kniearthrose, die innerhalb dieser Gewichtsstudien untersucht werden\n- Gewichtsmanagement bei Menschen mit Herz-Kreislauf-Erkrankungen (TRIUMPH-3)\n- Kniearthrose als eigenständige Studie (TRIUMPH-4)\n\nDer wichtigste Endpunkt ist die prozentuale Veränderung des Körpergewichts. Bei Schlafapnoe wird die Veränderung des Apnoe-Hypopnoe-Index gemessen, bei Arthrose werden Knieschmerz-Scores erhoben.\n\nIn den veröffentlichten Phase-2-Studien reichten die Wochendosen von 0,5 mg (in der Studie zu Typ-2-Diabetes) bis 12 mg. Diese Dosen wurden oft durch schrittweise Steigerung von einer niedrigeren Anfangsdosis erreicht. Es handelt sich um Studiendosen, nicht um ein Dosierschema für die eigene Anwendung. Die kritische Übersichtsarbeit zur Phase-3-Evidenz bezeichnet die behördliche Prüfung als entscheidend, um den therapeutischen Stellenwert von Retatrutid festzulegen.",
+      "key_stats": [
+        {
+          "label": "Mittlere Gewichtsveränderung nach 48 Wochen, 12 mg (Phase 2)",
+          "value": "−24,2 % vs. −2,1 % unter Placebo",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "Anteil unter 12 mg mit mindestens 15 % Gewichtsverlust",
+          "value": "83 %",
+          "source": "Phase 2 obesity trial"
+        },
+        {
+          "label": "HbA1c-Veränderung nach 40 Wochen, 12 mg (Phase 3, Typ-2-Diabetes)",
+          "value": "−1,94 % vs. −0,81 % unter Placebo",
+          "source": "TRANSCEND-T2D-1 phase 3 trial"
+        },
+        {
+          "label": "Relative Veränderung des Leberfetts nach 24 Wochen, 12 mg",
+          "value": "−82,4 %",
+          "source": "Phase 2a MASLD substudy"
+        },
+        {
+          "label": "Mittlere Halbwertszeit, die die wöchentliche Gabe ermöglicht",
+          "value": "Etwa 6 Tage",
+          "source": "Review of phase 1 and 2 trials"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Was ist Retatrutid?",
+          "answer": "Retatrutid ist ein Prüfpräparat, das einmal wöchentlich gespritzt wird. Es aktiviert drei Hormonrezeptoren: GIP, GLP-1 und Glukagon. Chemisch ist es ein lipidiertes Peptid aus 39 Aminosäureresten, das auch unter dem Code LY3437943 bekannt ist. Es wird gegen Adipositas und Typ-2-Diabetes entwickelt."
+        },
+        {
+          "question": "Ist Retatrutid zugelassen?",
+          "answer": "Retatrutid befindet sich noch in der klinischen Entwicklung. Eine Übersichtsarbeit hat die Evidenz bis zum 11. September 2026 ausgewertet. Demnach lag nur für TRANSCEND-T2D-1 ein vollständiger, begutachteter Phase-3-Bericht vor. Die Studien zu Adipositas waren nur als Topline-Mitteilungen des Sponsors verfügbar. Die behördliche Prüfung bleibt laut der Übersichtsarbeit entscheidend."
+        },
+        {
+          "question": "Wie viel Gewicht verliert man mit Retatrutid?",
+          "answer": "In der 48-wöchigen Phase-2-Studie zu Adipositas veränderte sich das Gewicht unter 12 mg im Mittel um −24,2 % und unter 8 mg um −22,8 %. Unter Placebo waren es −2,1 %. Topline-Daten aus Phase 3 nannten für TRIUMPH-1 einen Gewichtsverlust von 28,3 % nach 80 Wochen. Dieser Wert gilt als vorläufig, bis die Studie vollständig veröffentlicht ist."
+        },
+        {
+          "question": "Wie oft wird Retatrutid angewendet?",
+          "answer": "In den Studien wurde Retatrutid einmal pro Woche unter die Haut gespritzt. Die mittlere Halbwertszeit von etwa 6 Tagen ermöglicht die wöchentliche Gabe."
+        },
+        {
+          "question": "Worin unterscheidet sich Retatrutid von Semaglutid und Tirzepatid?",
+          "answer": "Semaglutid ist ein GLP-1-Rezeptoragonist, Tirzepatid ein dualer GLP-1/GIP-Rezeptoragonist. Retatrutid aktiviert zusätzlich den Glukagonrezeptor. Eine Übersichtsarbeit nennt einen placebobereinigten Gewichtsverlust von bis zu 10,8 % für Semaglutid, 17,8 % für Tirzepatid und 22,1 % für Retatrutid. Diese Werte stammen jedoch aus getrennten Studien und nicht aus direkten Vergleichsstudien."
+        },
+        {
+          "question": "Welche Nebenwirkungen hat Retatrutid am häufigsten?",
+          "answer": "Am häufigsten waren Magen-Darm-Beschwerden. Laut einem Überblick über die Studien sind das vor allem Übelkeit, Erbrechen, Verstopfung und Durchfall. In der Phase-2-Studie zu Adipositas waren sie dosisabhängig und überwiegend leicht bis mittelschwer. Sie ließen sich teilweise verringern, wenn mit 2 mg statt 4 mg begonnen wurde. Die Herzfrequenz stieg dosisabhängig an, erreichte in Woche 24 ihren Höhepunkt und ging danach zurück."
+        }
+      ],
+      "comparison_table": {
+        "title": "Die wichtigsten Retatrutid-Studien im Überblick",
+        "headers": [
+          "Studie",
+          "Population",
+          "Dauer",
+          "Untersuchte Wochendosen",
+          "Zentrales Ergebnis"
+        ],
+        "rows": [
+          [
+            "Phase-2-Studie zu Adipositas",
+            "338 Erwachsene mit BMI 30 oder mehr oder 27 bis unter 30 mit gewichtsbedingter Begleiterkrankung",
+            "48 Wochen",
+            "1, 4, 8, 12 mg",
+            "Gewicht −24,2 % unter 12 mg vs. −2,1 % unter Placebo"
+          ],
+          [
+            "Phase-2a-Teilstudie zu MASLD",
+            "98 Erwachsene mit mindestens 10 % Leberfett",
+            "24 Wochen (Endpunkt Leberfett)",
+            "1, 4, 8, 12 mg",
+            "Leberfett −82,4 % unter 12 mg vs. +0,3 % unter Placebo"
+          ],
+          [
+            "Phase-2-Teilstudie zur Körperzusammensetzung",
+            "Erwachsene mit Typ-2-Diabetes im Alter von 18 bis 75 Jahren",
+            "36 Wochen",
+            "0,5, 4, 8, 12 mg",
+            "Gesamtfettmasse um 26,1 % reduziert unter 8 mg vs. 4,5 % unter Placebo"
+          ],
+          [
+            "TRANSCEND-T2D-1, Phase 3",
+            "537 Erwachsene mit Typ-2-Diabetes, behandelt nur mit Ernährung und Bewegung",
+            "40 Wochen",
+            "4, 9, 12 mg",
+            "HbA1c −1,94 % und Gewicht −15,3 % unter 12 mg"
+          ],
+          [
+            "TRIUMPH-1, Phase-3-Topline-Daten (zusammengefasst in einer kritischen Übersichtsarbeit)",
+            "Erwachsene mit Adipositas",
+            "80 Wochen",
+            "In der Topline-Zusammenfassung nicht angegeben",
+            "Gewicht −28,3 % (Wirksamkeits-Estimand), 25,0 % (Treatment-Regimen); vorläufig"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+          "source": "The New England journal of medicine, 2023",
+          "url": "https://doi.org/10.1056/NEJMoa2301972"
+        },
+        {
+          "title": "Retatrutide-A Game Changer in Obesity Pharmacotherapy.",
+          "source": "Biomolecules, 2025",
+          "url": "https://doi.org/10.3390/biom15060796"
+        },
+        {
+          "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial.",
+          "source": "Lancet (London, England), 2026",
+          "url": "https://doi.org/10.1016/S0140-6736(26)00967-0"
+        },
+        {
+          "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial.",
+          "source": "The lancet. Diabetes & endocrinology, 2025",
+          "url": "https://doi.org/10.1016/S2213-8587(25)00092-0"
+        },
+        {
+          "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.",
+          "source": "Nature medicine, 2024",
+          "url": "https://doi.org/10.1038/s41591-024-03018-2"
+        },
+        {
+          "title": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+          "source": "Diabetes, obesity & metabolism, 2026",
+          "url": "https://doi.org/10.1111/dom.70209"
+        },
+        {
+          "title": "What is the pipeline for future medications for obesity?",
+          "source": "International journal of obesity (2005), 2025",
+          "url": "https://doi.org/10.1038/s41366-024-01473-y"
+        },
+        {
+          "title": "Appetite, eating attitudes, and eating behaviours during treatment with retatrutide in adults with type 2 diabetes: Results of a phase 2 study.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70097"
+        },
+        {
+          "title": "Retatrutide in type 2 diabetes mellitus and obesity: an overview.",
+          "source": "Expert review of clinical pharmacology, 2026",
+          "url": "https://doi.org/10.1080/17512433.2026.2642415"
+        },
+        {
+          "title": "Shared mechanistic pathways of glucagon signalling: Unlocking its potential for treating obesity, metabolic dysfunction-associated steatotic liver disease, and other cardio-kidney-metabolic conditions.",
+          "source": "Diabetes, obesity & metabolism, 2025",
+          "url": "https://doi.org/10.1111/dom.70148"
+        },
+        {
+          "title": "Antiobesity medications in adult and pediatric obesity and metabolic dysfunction-associated steatotic liver disease.",
+          "source": "Pharmacological reviews, 2025",
+          "url": "https://doi.org/10.1016/j.pharmr.2025.100058"
+        },
+        {
+          "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept.",
+          "source": "Cell metabolism, 2022",
+          "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+        },
+        {
+          "title": "Retatrutide as a Unimolecular GIP/GLP-1/Glucagon Receptor Tri-Agonist: Molecular Design, Pharmaceutical Development and Critical Interpretation of Emerging Phase 3 Evidence.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101277"
+        },
+        {
+          "title": "The First Triple Agonist for Antiobesity: Retatrutide.",
+          "source": "Cardiology in review, 2026",
+          "url": "https://doi.org/10.1097/CRD.0000000000000793"
+        },
+        {
+          "title": "Progress in Anti-Obesity Drug Development: A Pharmacodynamics Perspective.",
+          "source": "Pharmaceutics, 2026",
+          "url": "https://doi.org/10.3390/pharmaceutics18101281"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    }
+  },
+  "generated_at": "2026-11-11T02:28:48.000Z",
+  "updated_at": "2026-11-11T02:28:48.000Z"
+}

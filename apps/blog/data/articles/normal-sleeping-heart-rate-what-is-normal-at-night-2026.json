@@ -1,0 +1,1504 @@
+{
+  "article_id": "BLOG_NORMAL_SLEEPING_HEART_RATE_WHAT_IS_NORMAL_AT_NIGHT_2026",
+  "slug": "normal-sleeping-heart-rate-what-is-normal-at-night-2026",
+  "category": "Sleep & Recovery",
+  "category_emoji": "😴",
+  "type": "guide",
+  "reading_time_min": 7,
+  "primary_keyword_en": "sleeping heart rate",
+  "primary_keyword_ko": "수면 중 심박수",
+  "langs": {
+    "en": {
+      "title": "Sleeping Heart Rate: What Is Normal at Night?",
+      "short_title": "Normal Sleeping Heart Rate",
+      "short_description": "Typical night-time heart rate values, the 10% dip rule, sleep-stage swings and what raises bpm, explained with research.",
+      "meta_description": "What is a normal sleeping heart rate? See typical night values, how to calculate your night/day dip, why bpm varies in sleep, and what pushes it up.",
+      "tldr": "A normal sleeping heart rate is lower than your daytime resting rate. In one study of healthy adults, the average nocturnal resting heart rate was 63.6 ± 9.2 bpm on alcohol-free nights, and individual values varied widely. Researchers classify a night/day ratio of 0.9 or less as heart rate dipping, which means the night average is at least 10% lower than the day average. In patients being treated or evaluated for high blood pressure, a heart rate that did not dip at night was linked to a higher risk of cardiovascular events.",
+      "body_md": "## What is a normal sleeping heart rate?\n\nA normal sleeping heart rate is one that drops below your daytime resting rate and stays lower for most of the night. No single number fits everyone. Age, fitness, genetics, medication and the previous evening all shift the baseline. What the research does agree on is the direction of change: in healthy people, cardiovascular output falls and the nervous system shifts toward parasympathetic (vagal) control across nocturnal sleep.\n\nFor a concrete anchor, a smartwatch study of 40 healthy adults (63% women, mean age 30.5 years) recorded an average nocturnal resting heart rate of 63.6 ± 9.2 bpm on alcohol-free baseline nights. The ± 9.2 figure describes the spread around that average. In plain terms, many healthy people in that group sat well above or below the average, so a reading a few beats away from 63.6 bpm says little on its own.\n\nThe night average is also not the same as the night minimum. In one analysis of people with cardiovascular disease or risk factors, the minimum heart rate during stable non-REM sleep was 56 ± 4 bpm in those whose diastolic blood pressure dipped normally at night and 59 ± 4 bpm in those whose diastolic blood pressure did not dip.\n\nRather than chasing an ideal number, ask two questions:\n\n- Is my sleeping heart rate clearly lower than my daytime heart rate?\n- Is it stable across nights, or drifting upward?\n\n## How much should heart rate drop at night?\n\nResearchers usually describe the nightly drop with a simple ratio:\n\n**Night/day ratio = average sleeping heart rate ÷ average awake heart rate**\n\nStudies in people with high blood pressure and kidney disease have used these categories:\n\n- **Dipper:** ratio of 0.9 or less. Because 1 − 0.9 = 0.1, this means your night average is at least 10% below your day average.\n- **Non-dipper:** ratio above 0.9 and up to 1.0. The night average is less than 10% below the day average, and at a ratio of exactly 1.0 it does not fall at all.\n- **Riser:** ratio above 1.0. The night average is higher than the day average.\n\nMuch of the evidence on why this matters comes from these categories. We cover the cardiovascular side in more depth in our guide to the [nocturnal heart rate dip](/en/nocturnal-heart-rate-dip-cardiovascular-health-2026).\n\nTo apply the ratio at home, you need comparable averages. Many watches and rings report both a sleeping heart rate and a daytime resting heart rate, but devices define these windows differently. Using the same device, worn the same way, over several nights gives a fairer comparison than a one-off reading.\n\n## Why your heart rate varies during sleep\n\nHeart rate is not flat overnight. It moves with the sleep stages, and that movement is normal.\n\n### Non-REM sleep: the slowest phase\n\nDuring non-REM sleep, the interval between beats lengthens, which means a slower heart rate. In a study of 66 healthy young adults recorded during daytime naps, non-REM sleep showed longer beat-to-beat intervals and higher high-frequency heart rate variability (a marker of vagal activity) than REM sleep or wakefulness. The authors noted that these shifts were similar to those seen during nocturnal sleep.\n\n### REM sleep: a faster phase\n\nIn REM sleep, beat-to-beat intervals are shorter than in non-REM sleep, so the heart beats faster. In the same nap study, the ratio of low- to high-frequency heart rate variability was lower during non-REM than during REM and wake.\n\n### Brief arousals\n\nEven inside non-REM sleep, the brain cycles through short arousal-related events that do not necessarily wake you. A polysomnography study of 10 healthy adults (mean age 28.1 years) found these phases were linked to a higher low-frequency and lower high-frequency heart rate component. The authors describe these arousal swings as accompanied by transient changes in heart rate and muscle tone, and conclude that fluctuations in arousal level influence cardiac autonomic activity.\n\nThis is why a wearable graph shows spikes and dips through the night. A few short peaks are expected. What matters more is the overall level and whether the night stays below your daytime baseline.\n\nHeart rate variability (HRV) is the beat-to-beat variation behind these patterns. If that is what you are tracking, our article on [HRV as a sleep quality predictor](/en/heart-rate-variability-sleep-quality-predictor-2026) explains how to read it.\n\n## Sleeping heart rate in women\n\nMany searches ask specifically about women's heart rate at night. The research summarised here does not offer a separate, validated normal sleeping heart rate for women, so the same approach applies. Compare your night average to your own day average and watch your trend.\n\nThere are some sex differences worth knowing about:\n\n- **Alcohol hits harder.** In a dataset of 20,968 people, one drink above someone's personal average, compared with one below, was linked with a nocturnal resting heart rate increase of 2.8 bpm in women versus 2.4 bpm in men. HRV fell by 3.8 ms in women and 3.3 ms in men.\n- **Night-to-night variability changes differently with age.** In more than 21,000 wearable users, the day-to-day fluctuation of sleep HRV showed a U-shaped pattern in women, declining through midlife and rising after about 50 years. In men it rose after about 40 years.\n\nNeither finding means women should expect a generally higher or lower sleeping heart rate. They do suggest that alcohol can move a woman's overnight numbers more, and that variability is best read with age in mind.\n\n## What pushes nighttime heart rate up\n\n### Alcohol\n\nIn the 40-person smartwatch study, three evenings of moderate drinking (40 g per day for women, 60 g per day for men) raised nocturnal resting heart rate from 63.6 to 66.6 bpm, an increase of 3.0 bpm (66.6 − 63.6). It returned close to baseline afterward, at 64.9 bpm. Sleep architecture measured by the watch did not change significantly, yet participants rated their sleep as worse.\n\nThe larger real-world dataset, covering 5,109,185 person-days, found dose-dependent rises in nocturnal resting heart rate and drops in HRV, with stronger effects in younger adults. Three habits reduced the disruption: drinking earlier in the day, getting longer sleep afterward and reducing activity.\n\n### Short, irregular sleep and low activity\n\nAcross more than 21,000 users, larger night-to-night swings in HRV were linked with more alcohol, less physical activity, and shorter, less consistent sleep. That is an HRV measure rather than heart rate itself, but it points to the same everyday factors.\n\n### Mood and sleep disturbance\n\nIn a mobile health study of 461 people with recurrent major depression, a higher night resting heart rate measured by a wrist-worn device was linked to later depression severity, with sleep disturbance acting as a mediator. Anxiety worsened sleep disturbance but had no direct effect on night resting heart rate. This does not make heart rate a diagnostic tool, but a sustained upward drift can be one signal that sleep and mood deserve attention.\n\n## When a high or non-dipping night rate matters\n\nOne high night usually reflects something ordinary, such as an evening drink or a restless night. A repeated pattern is different. Evidence linking nighttime heart rate to health outcomes comes mainly from people who already have, or are at risk of, cardiovascular or kidney disease:\n\n- In 457 patients being treated or evaluated for high blood pressure and followed for an average of 72 ± 26 months, non-dipping heart rate (night/day ratio above 0.90) predicted cardiovascular events with a hazard ratio of 2.37. The authors summarised this as a 2.4 times higher risk, independent of blood pressure dipping. Higher sleep heart rate was associated with risk in univariate analysis, while awake heart rate was not.\n- In hypertensive patients with chronic kidney disease, heart rate non-dippers (hazard ratio 2.58) and risers (hazard ratio 3.95) were more likely to reach a combined kidney endpoint. That study found no predictive value for mortality or cardiovascular events.\n- In people with cardiovascular disease or risk factors, every 1 bpm higher during stable non-REM sleep was associated with an approximately 4.4% higher probability of blood pressure non-dipping. The authors suggest heart rate dipping could serve as a screener to identify who may benefit from 24-hour ambulatory blood pressure monitoring.\n\nFor resting heart rate in general (not specifically during sleep), a meta-analysis of 46 studies found that each 10 bpm increase carried a relative risk of 1.09 for all-cause mortality and 1.08 for cardiovascular mortality. People with a resting heart rate above 80 bpm had a relative risk of 1.45 for all-cause mortality compared with the lowest category.\n\nThese are associations from observational research. They tell you a raised or flat nighttime heart rate is worth noticing, not that it causes disease.\n\n## How to read your own sleeping heart rate\n\n- **Average several nights.** For HRV variability, at least five of seven nights were needed to reliably match a full week's estimate. That finding is about HRV, but the logic of not judging from a single night applies to heart rate too.\n- **Compare like with like.** Use the same device and the same metric (night average or night minimum) each time.\n- **Calculate your ratio.** Divide your typical sleeping average by your typical daytime average. A result of 0.9 or below is what studies classify as heart rate dipping.\n- **Tag your evenings.** Note alcohol and how late you drank, plus any unusually short or irregular nights, so you can see what moves your numbers.\n- **Look for a pattern, not a single night.** A sleeping average that repeatedly fails to fall at least 10% below your daytime average matches the non-dipping pattern the studies describe.\n\nIf that pattern persists over weeks, it is a reasonable thing to raise with a clinician.",
+      "key_stats": [
+        {
+          "label": "Average nocturnal resting heart rate, healthy adults on alcohol-free nights",
+          "value": "63.6 ± 9.2 bpm",
+          "source": "E15"
+        },
+        {
+          "label": "Night/day heart rate ratio defining heart rate dippers",
+          "value": "≤ 0.9",
+          "source": "E4"
+        },
+        {
+          "label": "Higher risk of cardiovascular events with heart rate non-dipping in hypertensive patients",
+          "value": "2.4 times",
+          "source": "E6"
+        },
+        {
+          "label": "Rise in nocturnal resting heart rate with one drink above personal average vs one below (women / men)",
+          "value": "2.8 bpm / 2.4 bpm",
+          "source": "E16"
+        },
+        {
+          "label": "Relative risk of all-cause mortality per 10 bpm higher resting heart rate",
+          "value": "1.09",
+          "source": "E19"
+        }
+      ],
+      "faq": [
+        {
+          "question": "What is a normal heart rate while sleeping?",
+          "answer": "It should be lower than your daytime resting rate. In a smartwatch study of 40 healthy adults, the average nocturnal resting heart rate was 63.6 ± 9.2 bpm on alcohol-free nights, which shows how much healthy values vary between people. Your own trend matters more than any single number."
+        },
+        {
+          "question": "How much lower should my heart rate be at night than during the day?",
+          "answer": "Studies classify a night/day ratio of 0.9 or less as heart rate dipping. Since 1 − 0.9 = 0.1, that means the night average is at least 10% below the day average. A ratio above 1.0 means the night rate is higher than the day rate."
+        },
+        {
+          "question": "Is sleeping heart rate different for women?",
+          "answer": "There is no separate validated normal range for women in the research summarised here. One large dataset found that drinking one drink above your personal average, compared with one below, was linked to a nocturnal resting heart rate 2.8 bpm higher in women versus 2.4 bpm in men, so alcohol may show up more strongly in women's overnight numbers."
+        },
+        {
+          "question": "Why does my heart rate go up and down during sleep?",
+          "answer": "Heart rate follows sleep stages. Beat-to-beat intervals are longer in non-REM sleep than in REM sleep or wakefulness, so the heart beats more slowly then. Within non-REM sleep, brief arousal-related events bring transient changes in heart rate. Short spikes on a wearable graph are expected."
+        },
+        {
+          "question": "Does alcohol raise sleeping heart rate?",
+          "answer": "Yes. In one study, moderate drinking raised nocturnal resting heart rate from 63.6 to 66.6 bpm, an increase of 3.0 bpm (66.6 − 63.6), with a return toward baseline afterward. A large real-world dataset found the effect was dose-dependent and smaller when people drank earlier in the day."
+        },
+        {
+          "question": "Is a high sleeping heart rate dangerous?",
+          "answer": "One high night usually is not a concern. In patients being treated or evaluated for high blood pressure, a heart rate that did not dip at night was linked to a 2.4 times higher risk of cardiovascular events. These are associations, so a repeated pattern is worth noticing rather than a cause for alarm."
+        }
+      ],
+      "comparison_table": {
+        "title": "Nighttime heart rate dipping patterns",
+        "headers": [
+          "Pattern",
+          "Night/day heart rate ratio",
+          "What it means",
+          "What studies found"
+        ],
+        "rows": [
+          [
+            "Dipper",
+            "0.9 or less",
+            "Night average at least 10% below day average (1 − 0.9 = 0.1)",
+            "Defined as heart rate dippers in the kidney disease study"
+          ],
+          [
+            "Non-dipper",
+            "Above 0.9 up to 1.0",
+            "Night average less than 10% below day average, or no lower at a ratio of 1.0",
+            "Hazard ratio 2.58 for a combined kidney endpoint in hypertensive patients with chronic kidney disease"
+          ],
+          [
+            "Riser",
+            "Above 1.0",
+            "Night average higher than day average",
+            "Hazard ratio 3.95 for a combined kidney endpoint in hypertensive patients with chronic kidney disease"
+          ],
+          [
+            "Any non-dipping (ratio above 0.90)",
+            "Above 0.90",
+            "Night drop smaller than 10%, risers included",
+            "Hazard ratio 2.37 for cardiovascular events in 457 hypertensive patients"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cardiopulmonary coupling-calculated sleep stability and nocturnal heart rate kinetics as a potential indicator for cardiovascular health: a relationship with blood pressure dipping.",
+          "source": "Frontiers in sleep, 2024",
+          "url": "https://doi.org/10.3389/frsle.2024.1230958"
+        },
+        {
+          "title": "Nocturnal heart rate rising is a risk factor for poor renal outcomes in patients with chronic kidney disease and hypertension.",
+          "source": "Journal of clinical hypertension (Greenwich, Conn.), 2022",
+          "url": "https://doi.org/10.1111/jch.14428"
+        },
+        {
+          "title": "Nocturnal nondipping of heart rate predicts cardiovascular events in hypertensive patients.",
+          "source": "Journal of hypertension, 2009",
+          "url": "https://doi.org/10.1097/HJH.0b013e328330a938"
+        },
+        {
+          "title": "Heart rate variability during daytime naps in healthy adults: Autonomic profile and short-term reliability.",
+          "source": "Psychophysiology, 2016",
+          "url": "https://doi.org/10.1111/psyp.12595"
+        },
+        {
+          "title": "The impact of cyclic alternating pattern on heart rate variability during sleep in healthy young adults.",
+          "source": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology, 2000",
+          "url": "https://doi.org/10.1016/s1388-2457(99)00212-6"
+        },
+        {
+          "title": "The Impact of Alcohol on Sleep Physiology: A Prospective Observational Study on Nocturnal Resting Heart Rate Using Smartwatch Technology.",
+          "source": "Nutrients, 2025",
+          "url": "https://doi.org/10.3390/nu17091470"
+        },
+        {
+          "title": "Real-world effects of alcohol on heart rate, sleep, and physical activity by age and sex.",
+          "source": "PLOS digital health, 2026",
+          "url": "https://doi.org/10.1371/journal.pdig.0001284"
+        },
+        {
+          "title": "Heart rate variability coefficient of variation during sleep as a digital biomarker that reflects behavior and varies by age and sex.",
+          "source": "American journal of physiology. Heart and circulatory physiology, 2026",
+          "url": "https://doi.org/10.1152/ajpheart.00738.2025"
+        },
+        {
+          "title": "Exploring the dynamic relationships between nocturnal heart rate, sleep disruptions, anxiety levels, and depression severity over time in recurrent major depressive disorder.",
+          "source": "Journal of affective disorders, 2025",
+          "url": "https://doi.org/10.1016/j.jad.2025.02.010"
+        },
+        {
+          "title": "Resting heart rate and all-cause and cardiovascular mortality in the general population: a meta-analysis.",
+          "source": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 2016",
+          "url": "https://doi.org/10.1503/cmaj.150535"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "ko": {
+      "title": "수면 중 심박수 정상 범위, 밤에는 얼마가 정상일까",
+      "short_title": "수면 중 정상 심박수",
+      "short_description": "밤에 흔히 나타나는 심박수 수치, 10% 감소 기준, 수면 단계별 변화, 심박수를 높이는 요인을 연구 결과로 정리했습니다.",
+      "meta_description": "수면 중 심박수 정상 범위는? 자는 동안 일반적인 심박수, 밤/낮 심박수 감소율 계산법, 잘 때 심박수가 변하는 이유와 높아지는 원인을 정리했습니다.",
+      "tldr": "정상적인 수면 중 심박수는 낮의 안정 시 심박수보다 낮습니다. 건강한 성인을 대상으로 한 연구에서 술을 마시지 않은 밤의 평균 야간 안정 시 심박수는 63.6 ± 9.2 bpm이었고, 개인차가 컸습니다. 연구자들은 밤/낮 비율이 0.9 이하인 경우를 심박수 하강(디핑)으로 분류하는데, 이는 밤 평균이 낮 평균보다 10% 이상 낮다는 뜻입니다. 고혈압으로 치료나 검사를 받는 환자에서는 밤에 심박수가 떨어지지 않는 경우 심혈관 사건 위험이 더 높았습니다.",
+      "body_md": "## 수면 중 정상 심박수는 얼마일까요?\n\n정상적인 수면 중 심박수란 낮의 안정 시 심박수보다 떨어지고, 밤 동안 대부분 낮은 상태를 유지하는 심박수를 말합니다. 모든 사람에게 들어맞는 하나의 숫자는 없습니다. 나이, 체력, 유전, 복용 중인 약, 전날 저녁의 생활이 모두 기준선을 움직입니다. 다만 연구들이 공통적으로 말하는 것은 변화의 방향입니다. 건강한 사람은 밤잠을 자는 동안 심혈관 출력이 줄고, 신경계가 부교감신경(미주신경) 우위로 바뀝니다.\n\n구체적인 기준점을 하나 들어 보겠습니다. 건강한 성인 40명(여성 63%, 평균 나이 30.5세)을 대상으로 한 스마트워치 연구에서는 술을 마시지 않은 기준 밤의 평균 야간 안정 시 심박수가 63.6 ± 9.2 bpm이었습니다. 여기서 ± 9.2는 평균을 중심으로 값이 얼마나 퍼져 있는지를 나타냅니다. 쉽게 말해 이 집단의 건강한 사람 중 상당수가 평균보다 꽤 높거나 낮았다는 뜻이므로, 63.6 bpm에서 몇 회 벗어난 수치만으로는 알 수 있는 것이 많지 않습니다.\n\n밤 평균은 밤 최저치와도 다릅니다. 심혈관 질환이 있거나 위험 요인을 가진 사람들을 분석한 연구에서, 안정적인 비렘수면 중 최저 심박수는 밤에 이완기 혈압이 정상적으로 떨어진 사람에서 56 ± 4 bpm, 떨어지지 않은 사람에서 59 ± 4 bpm이었습니다.\n\n이상적인 숫자를 좇기보다는 다음 두 가지를 확인해 보세요.\n\n- 수면 중 심박수가 낮 심박수보다 확실히 낮은가?\n- 여러 밤에 걸쳐 안정적인가, 아니면 점점 올라가고 있는가?\n\n## 밤에는 심박수가 얼마나 떨어져야 할까요?\n\n연구자들은 보통 밤사이 심박수 감소를 간단한 비율로 나타냅니다.\n\n**밤/낮 비율 = 수면 중 평균 심박수 ÷ 깨어 있을 때 평균 심박수**\n\n고혈압과 신장 질환 환자를 대상으로 한 연구에서는 다음과 같은 분류를 사용했습니다.\n\n- **디퍼(dipper):** 비율 0.9 이하. 1 − 0.9 = 0.1이므로, 밤 평균이 낮 평균보다 10% 이상 낮다는 뜻입니다.\n- **논디퍼(non-dipper):** 비율 0.9 초과 1.0 이하. 밤 평균의 감소 폭이 낮 평균 대비 10% 미만이며, 비율이 정확히 1.0이면 전혀 떨어지지 않은 것입니다.\n- **라이저(riser):** 비율 1.0 초과. 밤 평균이 낮 평균보다 높습니다.\n\n이 지표가 왜 중요한지에 대한 근거의 상당수가 이 분류에서 나옵니다. 심혈관 건강과의 관계는 [야간 심박수 하강](/ko/nocturnal-heart-rate-dip-cardiovascular-health-2026) 가이드에서 더 자세히 다룹니다.\n\n집에서 이 비율을 적용하려면 비교 가능한 평균값이 필요합니다. 많은 스마트워치와 스마트링이 수면 중 심박수와 낮 안정 시 심박수를 모두 보여 주지만, 기기마다 측정 구간을 정의하는 방식이 다릅니다. 한 번 측정한 값보다는 같은 기기를 같은 방식으로 착용해 여러 밤 동안 기록한 값을 비교하는 편이 더 공정합니다.\n\n## 잠자는 동안 심박수가 오르내리는 이유\n\n밤사이 심박수는 일정하지 않습니다. 수면 단계에 따라 움직이며, 이런 변화는 정상입니다.\n\n### 비렘수면: 가장 느린 단계\n\n비렘수면 동안에는 심장 박동 사이의 간격이 길어지는데, 이는 심박수가 느려진다는 뜻입니다. 건강한 젊은 성인 66명의 낮잠을 기록한 연구에서, 비렘수면은 렘수면이나 깨어 있는 상태보다 박동 간 간격이 길고 고주파 심박변이도(미주신경 활동의 지표)가 높았습니다. 연구진은 이런 변화가 밤잠에서 관찰되는 것과 비슷하다고 밝혔습니다.\n\n### 렘수면: 더 빠른 단계\n\n렘수면에서는 박동 간 간격이 비렘수면보다 짧아 심장이 더 빨리 뜁니다. 같은 낮잠 연구에서 심박변이도의 저주파 대 고주파 비율은 렘수면이나 각성 상태보다 비렘수면에서 낮았습니다.\n\n### 짧은 각성\n\n비렘수면 안에서도 뇌는 반드시 잠을 깨우지는 않는 짧은 각성 관련 사건을 반복합니다. 건강한 성인 10명(평균 나이 28.1세)을 대상으로 한 수면다원검사 연구에서는 이런 구간이 심박수의 저주파 성분 증가, 고주파 성분 감소와 관련이 있었습니다. 연구진은 이런 각성 변동에 심박수와 근긴장도의 일시적인 변화가 동반된다고 설명하며, 각성 수준의 변동이 심장 자율신경 활동에 영향을 준다고 결론 내렸습니다.\n\n웨어러블 그래프에서 밤새 심박수가 튀었다 내려가는 모습이 보이는 이유가 여기에 있습니다. 짧은 피크 몇 개는 충분히 예상할 수 있는 일입니다. 더 중요한 것은 전체적인 수준, 그리고 밤 동안 낮 기준선보다 낮게 유지되는지입니다.\n\n심박변이도(HRV)는 이런 패턴 뒤에 있는 박동 간 변화를 말합니다. HRV를 추적하고 있다면 [수면의 질을 예측하는 지표, HRV](/ko/heart-rate-variability-sleep-quality-predictor-2026) 글에서 읽는 법을 확인해 보세요.\n\n## 여성의 수면 중 심박수\n\n여성의 밤 심박수를 따로 궁금해하는 분이 많습니다. 여기서 정리한 연구들은 여성만을 위한 별도의 검증된 수면 중 정상 심박수를 제시하지 않으므로, 같은 방법을 적용하면 됩니다. 자신의 밤 평균을 자신의 낮 평균과 비교하고 추세를 지켜보세요.\n\n알아 둘 만한 성별 차이도 있습니다.\n\n- **알코올의 영향이 더 큽니다.** 20,968명의 데이터에서 개인 평균보다 한 잔 더 마셨을 때는 한 잔 덜 마셨을 때와 비교해 야간 안정 시 심박수가 여성은 2.8 bpm, 남성은 2.4 bpm 높았습니다. HRV는 여성에서 3.8 ms, 남성에서 3.3 ms 떨어졌습니다.\n- **밤마다의 변동성이 나이에 따라 다르게 변합니다.** 웨어러블 사용자 2만 1,000명 이상을 분석한 결과, 수면 HRV의 일간 변동은 여성에서 U자형을 보여 중년기까지 줄어들다가 약 50세 이후 다시 커졌습니다. 남성은 약 40세 이후 커졌습니다.\n\n두 결과 모두 여성의 수면 중 심박수가 전반적으로 더 높거나 낮다는 뜻은 아닙니다. 다만 알코올이 여성의 밤 수치를 더 크게 움직일 수 있고, 변동성은 나이를 고려해 해석하는 것이 좋다는 점을 시사합니다.\n\n## 밤 심박수를 높이는 요인\n\n### 알코올\n\n40명을 대상으로 한 스마트워치 연구에서 사흘 저녁 동안 적당량의 음주(여성 하루 40 g, 남성 하루 60 g)를 하자 야간 안정 시 심박수가 63.6 bpm에서 66.6 bpm으로 3.0 bpm(66.6 − 63.6) 올랐습니다. 이후에는 64.9 bpm으로 기준치 가까이 돌아왔습니다. 시계로 측정한 수면 구조에는 유의한 변화가 없었지만, 참가자들은 자신의 수면을 더 나쁘게 평가했습니다.\n\n5,109,185인일(person-day)을 포함한 더 큰 실제 데이터에서는 음주량에 비례해 야간 안정 시 심박수가 오르고 HRV가 떨어졌으며, 젊은 성인에서 영향이 더 컸습니다. 영향을 줄여 준 습관은 세 가지였습니다. 하루 중 더 이른 시간에 마시기, 마신 뒤 더 오래 자기, 활동량 줄이기입니다.\n\n### 짧고 불규칙한 수면, 적은 활동량\n\n2만 1,000명 이상의 사용자에서 밤마다 HRV가 크게 흔들리는 것은 더 많은 음주, 더 적은 신체 활동, 더 짧고 일정하지 않은 수면과 관련이 있었습니다. 심박수 자체가 아닌 HRV 지표이지만, 같은 일상적 요인을 가리킵니다.\n\n### 기분과 수면 장애\n\n재발성 주요우울장애 환자 461명을 대상으로 한 모바일 헬스 연구에서, 손목형 기기로 측정한 밤 안정 시 심박수가 높을수록 이후 우울증 중증도가 높았으며, 수면 장애가 그 사이를 매개했습니다. 불안은 수면 장애를 악화시켰지만 밤 안정 시 심박수에는 직접적인 영향이 없었습니다. 그렇다고 심박수가 진단 도구가 되는 것은 아니지만, 지속적으로 오르는 추세는 수면과 기분을 살펴볼 필요가 있다는 신호 중 하나일 수 있습니다.\n\n## 밤 심박수가 높거나 떨어지지 않을 때\n\n하룻밤 심박수가 높았다면 대개 저녁에 마신 술이나 뒤척인 밤처럼 평범한 이유 때문입니다. 반복되는 패턴은 이야기가 다릅니다. 밤 심박수와 건강 결과를 연결하는 근거는 주로 이미 심혈관 질환이나 신장 질환이 있거나 그 위험이 있는 사람들에게서 나왔습니다.\n\n- 고혈압으로 치료 또는 검사를 받으며 평균 72 ± 26개월 추적 관찰된 환자 457명에서, 심박수 논디핑(밤/낮 비율 0.90 초과)은 위험비 2.37로 심혈관 사건을 예측했습니다. 연구진은 이를 혈압 하강 여부와 무관하게 위험이 2.4배 높은 것으로 요약했습니다. 단변량 분석에서 수면 중 심박수가 높을수록 위험과 관련이 있었지만, 깨어 있을 때의 심박수는 그렇지 않았습니다.\n- 만성 신장 질환이 있는 고혈압 환자에서는 심박수 논디퍼(위험비 2.58)와 라이저(위험비 3.95)가 복합 신장 평가변수에 도달할 가능성이 더 높았습니다. 이 연구에서 사망률이나 심혈관 사건에 대한 예측력은 확인되지 않았습니다.\n- 심혈관 질환이 있거나 위험 요인을 가진 사람에서는 안정적인 비렘수면 중 심박수가 1 bpm 높을 때마다 혈압 논디핑 확률이 약 4.4% 높았습니다. 연구진은 심박수 하강 여부가 24시간 활동 혈압 측정이 도움이 될 수 있는 사람을 가려내는 선별 도구가 될 수 있다고 제안합니다.\n\n수면 중으로 한정하지 않은 안정 시 심박수 전반에 대해서는, 46개 연구를 분석한 메타분석에서 10 bpm 증가할 때마다 전체 사망의 상대위험도가 1.09, 심혈관 사망의 상대위험도가 1.08이었습니다. 안정 시 심박수가 80 bpm을 넘는 사람은 가장 낮은 범주에 비해 전체 사망의 상대위험도가 1.45였습니다.\n\n이 결과들은 관찰 연구에서 나온 연관성입니다. 밤 심박수가 높거나 잘 떨어지지 않는다면 눈여겨볼 만하다는 뜻이지, 그것이 질병을 일으킨다는 뜻은 아닙니다.\n\n## 내 수면 중 심박수 읽는 법\n\n- **여러 밤의 평균을 보세요.** HRV 변동성의 경우, 일주일 전체 추정치와 믿을 만하게 일치하려면 7일 중 최소 5일 밤의 데이터가 필요했습니다. HRV에 관한 결과이지만, 하룻밤만으로 판단하지 않는다는 원칙은 심박수에도 똑같이 적용됩니다.\n- **같은 조건끼리 비교하세요.** 매번 같은 기기, 같은 지표(밤 평균 또는 밤 최저치)를 사용하세요.\n- **비율을 계산해 보세요.** 평소 수면 중 평균을 평소 낮 평균으로 나눕니다. 0.9 이하라면 연구에서 심박수 디핑으로 분류하는 범위입니다.\n- **저녁 습관을 기록하세요.** 술을 마셨는지, 얼마나 늦게 마셨는지, 유난히 짧거나 불규칙한 밤이었는지 적어 두면 무엇이 수치를 움직이는지 알 수 있습니다.\n- **하룻밤이 아닌 패턴을 보세요.** 수면 중 평균이 낮 평균보다 10% 이상 떨어지지 않는 일이 반복된다면 연구에서 설명하는 논디핑 패턴에 해당합니다.\n\n이런 패턴이 몇 주 동안 이어진다면 의료진과 상의해 볼 만합니다.",
+      "key_stats": [
+        {
+          "label": "건강한 성인의 금주한 밤 평균 야간 안정 시 심박수",
+          "value": "63.6 ± 9.2 bpm",
+          "source": "E15"
+        },
+        {
+          "label": "심박수 디퍼를 정의하는 밤/낮 심박수 비율",
+          "value": "≤ 0.9",
+          "source": "E4"
+        },
+        {
+          "label": "고혈압 환자에서 심박수 논디핑 시 심혈관 사건 위험 증가",
+          "value": "2.4배",
+          "source": "E6"
+        },
+        {
+          "label": "개인 평균보다 한 잔 더 vs 한 잔 덜 마셨을 때 야간 안정 시 심박수 상승(여성 / 남성)",
+          "value": "2.8 bpm / 2.4 bpm",
+          "source": "E16"
+        },
+        {
+          "label": "안정 시 심박수 10 bpm 증가당 전체 사망 상대위험도",
+          "value": "1.09",
+          "source": "E19"
+        }
+      ],
+      "faq": [
+        {
+          "question": "잘 때 정상 심박수는 얼마인가요?",
+          "answer": "낮의 안정 시 심박수보다 낮아야 합니다. 건강한 성인 40명을 대상으로 한 스마트워치 연구에서 술을 마시지 않은 밤의 평균 야간 안정 시 심박수는 63.6 ± 9.2 bpm이었는데, 이는 건강한 사람들 사이에서도 수치 차이가 크다는 것을 보여 줍니다. 하나의 숫자보다 자신의 추세가 더 중요합니다."
+        },
+        {
+          "question": "밤 심박수는 낮보다 얼마나 낮아야 하나요?",
+          "answer": "연구에서는 밤/낮 비율 0.9 이하를 심박수 하강(디핑)으로 분류합니다. 1 − 0.9 = 0.1이므로 밤 평균이 낮 평균보다 10% 이상 낮다는 뜻입니다. 비율이 1.0을 넘으면 밤 심박수가 낮보다 높다는 의미입니다."
+        },
+        {
+          "question": "여성은 수면 중 심박수가 다른가요?",
+          "answer": "여기서 정리한 연구에는 여성만을 위한 별도의 검증된 정상 범위가 없습니다. 한 대규모 데이터에서는 개인 평균보다 한 잔 더 마셨을 때가 한 잔 덜 마셨을 때보다 야간 안정 시 심박수가 여성은 2.8 bpm, 남성은 2.4 bpm 높았습니다. 따라서 알코올의 영향이 여성의 밤 수치에 더 강하게 나타날 수 있습니다."
+        },
+        {
+          "question": "잘 때 심박수가 오르락내리락하는 이유는 무엇인가요?",
+          "answer": "심박수는 수면 단계를 따라 움직입니다. 비렘수면에서는 렘수면이나 깨어 있을 때보다 박동 간 간격이 길어 심장이 더 천천히 뜁니다. 비렘수면 안에서도 짧은 각성 관련 사건이 일시적인 심박수 변화를 일으킵니다. 웨어러블 그래프에 짧은 피크가 보이는 것은 예상할 수 있는 일입니다."
+        },
+        {
+          "question": "술을 마시면 수면 중 심박수가 올라가나요?",
+          "answer": "네. 한 연구에서 적당량의 음주로 야간 안정 시 심박수가 63.6 bpm에서 66.6 bpm으로 3.0 bpm(66.6 − 63.6) 올랐고, 이후 기준치 쪽으로 돌아왔습니다. 대규모 실제 데이터에서는 이 영향이 음주량에 비례했고, 하루 중 더 이른 시간에 마셨을 때 더 작았습니다."
+        },
+        {
+          "question": "수면 중 심박수가 높으면 위험한가요?",
+          "answer": "하룻밤 높았던 것은 보통 걱정할 일이 아닙니다. 고혈압으로 치료나 검사를 받는 환자에서 밤에 심박수가 떨어지지 않는 경우 심혈관 사건 위험이 2.4배 높았습니다. 이는 연관성이므로, 반복되는 패턴은 불안해할 이유라기보다 눈여겨볼 만한 신호로 받아들이면 됩니다."
+        }
+      ],
+      "comparison_table": {
+        "title": "야간 심박수 하강 패턴",
+        "headers": [
+          "패턴",
+          "밤/낮 심박수 비율",
+          "의미",
+          "연구 결과"
+        ],
+        "rows": [
+          [
+            "디퍼",
+            "0.9 이하",
+            "밤 평균이 낮 평균보다 10% 이상 낮음(1 − 0.9 = 0.1)",
+            "신장 질환 연구에서 심박수 디퍼로 정의"
+          ],
+          [
+            "논디퍼",
+            "0.9 초과 1.0 이하",
+            "밤 평균의 감소 폭이 낮 평균 대비 10% 미만이거나, 비율 1.0에서는 낮아지지 않음",
+            "만성 신장 질환이 있는 고혈압 환자에서 복합 신장 평가변수 위험비 2.58"
+          ],
+          [
+            "라이저",
+            "1.0 초과",
+            "밤 평균이 낮 평균보다 높음",
+            "만성 신장 질환이 있는 고혈압 환자에서 복합 신장 평가변수 위험비 3.95"
+          ],
+          [
+            "모든 논디핑(비율 0.90 초과)",
+            "0.90 초과",
+            "밤 감소 폭이 10%보다 작음, 라이저 포함",
+            "고혈압 환자 457명에서 심혈관 사건 위험비 2.37"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cardiopulmonary coupling-calculated sleep stability and nocturnal heart rate kinetics as a potential indicator for cardiovascular health: a relationship with blood pressure dipping.",
+          "source": "Frontiers in sleep, 2024",
+          "url": "https://doi.org/10.3389/frsle.2024.1230958"
+        },
+        {
+          "title": "Nocturnal heart rate rising is a risk factor for poor renal outcomes in patients with chronic kidney disease and hypertension.",
+          "source": "Journal of clinical hypertension (Greenwich, Conn.), 2022",
+          "url": "https://doi.org/10.1111/jch.14428"
+        },
+        {
+          "title": "Nocturnal nondipping of heart rate predicts cardiovascular events in hypertensive patients.",
+          "source": "Journal of hypertension, 2009",
+          "url": "https://doi.org/10.1097/HJH.0b013e328330a938"
+        },
+        {
+          "title": "Heart rate variability during daytime naps in healthy adults: Autonomic profile and short-term reliability.",
+          "source": "Psychophysiology, 2016",
+          "url": "https://doi.org/10.1111/psyp.12595"
+        },
+        {
+          "title": "The impact of cyclic alternating pattern on heart rate variability during sleep in healthy young adults.",
+          "source": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology, 2000",
+          "url": "https://doi.org/10.1016/s1388-2457(99)00212-6"
+        },
+        {
+          "title": "The Impact of Alcohol on Sleep Physiology: A Prospective Observational Study on Nocturnal Resting Heart Rate Using Smartwatch Technology.",
+          "source": "Nutrients, 2025",
+          "url": "https://doi.org/10.3390/nu17091470"
+        },
+        {
+          "title": "Real-world effects of alcohol on heart rate, sleep, and physical activity by age and sex.",
+          "source": "PLOS digital health, 2026",
+          "url": "https://doi.org/10.1371/journal.pdig.0001284"
+        },
+        {
+          "title": "Heart rate variability coefficient of variation during sleep as a digital biomarker that reflects behavior and varies by age and sex.",
+          "source": "American journal of physiology. Heart and circulatory physiology, 2026",
+          "url": "https://doi.org/10.1152/ajpheart.00738.2025"
+        },
+        {
+          "title": "Exploring the dynamic relationships between nocturnal heart rate, sleep disruptions, anxiety levels, and depression severity over time in recurrent major depressive disorder.",
+          "source": "Journal of affective disorders, 2025",
+          "url": "https://doi.org/10.1016/j.jad.2025.02.010"
+        },
+        {
+          "title": "Resting heart rate and all-cause and cardiovascular mortality in the general population: a meta-analysis.",
+          "source": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 2016",
+          "url": "https://doi.org/10.1503/cmaj.150535"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "ja": {
+      "title": "睡眠中の心拍数の正常値は？夜の平均と下がり方の目安",
+      "short_title": "睡眠中の心拍数の正常値",
+      "short_description": "夜間の心拍数の一般的な値、10%低下の目安、睡眠段階による変動、心拍数を上げる要因を研究データで解説します。",
+      "meta_description": "睡眠中の心拍数の正常値は？寝ている時の心拍数の目安、夜と昼の心拍数の低下率の計算方法、睡眠中に心拍数が変動する理由と上がる原因を研究に基づいて解説します。",
+      "tldr": "正常な睡眠中の心拍数は、日中の安静時心拍数より低くなります。健康な成人を対象とした研究では、飲酒しなかった夜の夜間安静時心拍数の平均は63.6 ± 9.2 bpmで、個人差が大きいことがわかりました。研究者は夜/昼の比が0.9以下の場合を心拍数のディッピング（夜間低下）と分類しており、これは夜の平均が昼の平均より10%以上低いことを意味します。高血圧の治療や評価を受けている患者では、夜に心拍数が下がらない場合、心血管イベントのリスクが高いことが示されています。",
+      "body_md": "## 睡眠中の心拍数の正常値はどれくらい？\n\n正常な睡眠中の心拍数とは、日中の安静時心拍数より下がり、夜の大半を通じて低い状態が続くものです。誰にでも当てはまる1つの数値はありません。年齢、体力、遺伝、服用している薬、前日の夜の過ごし方などによって、基準値は変わります。ただし研究で一致しているのは変化の方向です。健康な人では、夜間の睡眠中に心血管系の出力が低下し、神経系は副交感神経（迷走神経）が優位な状態へと移ります。\n\n具体的な目安として、健康な成人40人（女性63%、平均年齢30.5歳）を対象としたスマートウォッチの研究があります。飲酒をしなかった基準となる夜の夜間安静時心拍数の平均は63.6 ± 9.2 bpmでした。± 9.2という数字は、平均値を中心としたばらつきの大きさを示しています。わかりやすく言えば、このグループの健康な人の多くが平均よりかなり高かったり低かったりしたということです。そのため、63.6 bpmから数拍ずれた数値だけでは、ほとんど何もわかりません。\n\nまた、夜の平均値と夜の最低値は同じではありません。心血管疾患がある人やリスク因子をもつ人を分析した研究では、安定したノンレム睡眠中の最低心拍数は、夜間に拡張期血圧が正常に下がった人で56 ± 4 bpm、下がらなかった人で59 ± 4 bpmでした。\n\n理想の数値を追いかけるよりも、次の2点を確認しましょう。\n\n- 睡眠中の心拍数は、日中の心拍数よりはっきり低いか？\n- 複数の夜で安定しているか、それとも少しずつ上がっていないか？\n\n## 夜はどれくらい心拍数が下がるべき？\n\n研究者は通常、夜間の心拍数の低下をシンプルな比で表します。\n\n**夜/昼の比 = 睡眠中の平均心拍数 ÷ 覚醒時の平均心拍数**\n\n高血圧や腎臓病の患者を対象とした研究では、次の分類が使われています。\n\n- **ディッパー（dipper）：** 比が0.9以下。1 − 0.9 = 0.1なので、夜の平均が昼の平均より10%以上低いことを意味します。\n- **ノンディッパー（non-dipper）：** 比が0.9超1.0以下。夜の平均の低下幅が昼の平均の10%未満で、比がちょうど1.0の場合はまったく下がっていません。\n- **ライザー（riser）：** 比が1.0超。夜の平均が昼の平均より高い状態です。\n\nこの指標がなぜ重要なのかを示すエビデンスの多くは、これらの分類にもとづいています。心血管への影響については、[夜間の心拍数低下](/ja/nocturnal-heart-rate-dip-cardiovascular-health-2026)のガイドで詳しく解説しています。\n\n自宅でこの比を使うには、比較できる平均値が必要です。多くのスマートウォッチやスマートリングは睡眠中の心拍数と日中の安静時心拍数の両方を表示しますが、計測する時間帯の定義はデバイスによって異なります。1回だけの数値より、同じデバイスを同じ方法で装着し、複数の夜にわたって記録したほうが公平に比較できます。\n\n## 睡眠中に心拍数が変動する理由\n\n夜間の心拍数は一定ではありません。睡眠段階に合わせて変化し、それは正常なことです。\n\n### ノンレム睡眠：もっとも遅い段階\n\nノンレム睡眠中は心拍と心拍の間隔が長くなり、心拍数が遅くなります。健康な若年成人66人の昼寝中を記録した研究では、ノンレム睡眠はレム睡眠や覚醒時と比べて拍動間隔が長く、高周波の心拍変動（迷走神経活動の指標）が高くなっていました。著者らは、こうした変化は夜間の睡眠で見られるものと似ていると述べています。\n\n### レム睡眠：速くなる段階\n\nレム睡眠では拍動間隔がノンレム睡眠より短くなり、心臓はより速く拍動します。同じ昼寝の研究では、心拍変動の低周波と高周波の比は、レム睡眠や覚醒時よりもノンレム睡眠で低くなっていました。\n\n### 短い覚醒反応\n\nノンレム睡眠の中でも、脳は必ずしも目覚めにはつながらない短い覚醒関連の現象を繰り返しています。健康な成人10人（平均年齢28.1歳）を対象とした終夜睡眠ポリグラフ検査の研究では、こうした時間帯は心拍数の低周波成分の増加と高周波成分の低下に関連していました。著者らは、これらの覚醒の揺らぎには心拍数と筋緊張の一時的な変化がともなうと説明し、覚醒レベルの変動が心臓の自律神経活動に影響を与えると結論づけています。\n\nウェアラブルのグラフで夜通し心拍数が上下して見えるのはこのためです。短いピークがいくつかあるのは想定内です。より大切なのは全体的な水準と、夜のあいだ日中の基準値より低い状態が保たれているかどうかです。\n\n心拍変動（HRV）は、こうしたパターンの背景にある拍動ごとのばらつきです。HRVを記録している方は、[睡眠の質を予測する指標としてのHRV](/ja/heart-rate-variability-sleep-quality-predictor-2026)の記事で読み方を確認してください。\n\n## 女性の睡眠中の心拍数\n\n女性の夜間の心拍数について調べる方は少なくありません。ここで紹介する研究では、女性専用の検証された睡眠中の正常心拍数は示されていないため、同じ考え方を当てはめます。自分の夜の平均を自分の昼の平均と比べ、その推移を見ていきましょう。\n\n知っておきたい男女差もあります。\n\n- **アルコールの影響がより大きい。** 20,968人のデータでは、個人の平均より1杯多く飲んだ場合は1杯少なかった場合と比べて、夜間安静時心拍数が女性で2.8 bpm、男性で2.4 bpm上昇しました。HRVは女性で3.8 ms、男性で3.3 ms低下しました。\n- **夜ごとの変動性は年齢によって変わり方が異なる。** 2万1,000人以上のウェアラブル利用者では、睡眠中のHRVの日々の変動は女性でU字型を示し、中年期まで小さくなったあと、およそ50歳以降に大きくなりました。男性ではおよそ40歳以降に大きくなりました。\n\nどちらの結果も、女性の睡眠中の心拍数が全体的に高い、あるいは低いという意味ではありません。ただ、アルコールが女性の夜間の数値をより大きく動かす可能性があること、そして変動性は年齢を考慮して読むのがよいことを示唆しています。\n\n## 夜間の心拍数を上げる要因\n\n### アルコール\n\n40人を対象としたスマートウォッチの研究では、3晩続けて適量の飲酒（女性は1日40 g、男性は1日60 g）をしたところ、夜間安静時心拍数は63.6 bpmから66.6 bpmへと3.0 bpm（66.6 − 63.6）上昇しました。その後は64.9 bpmと、基準値近くまで戻りました。ウォッチで測定した睡眠構造に有意な変化はありませんでしたが、参加者は睡眠の質を悪く評価していました。\n\n5,109,185人日を対象としたより大規模な実生活データでは、飲酒量に応じて夜間安静時心拍数が上昇し、HRVが低下しており、その影響は若い成人ほど強く見られました。影響を和らげた習慣は3つあります。1日の早い時間に飲むこと、飲んだあとに長めに眠ること、活動量を減らすことです。\n\n### 短く不規則な睡眠と少ない活動量\n\n2万1,000人以上の利用者では、夜ごとのHRVの大きな揺れが、飲酒量の多さ、身体活動の少なさ、短く一定しない睡眠と関連していました。これは心拍数そのものではなくHRVの指標ですが、同じ日常的な要因を指し示しています。\n\n### 気分と睡眠障害\n\n再発性の大うつ病を抱える461人を対象としたモバイルヘルス研究では、手首装着型デバイスで測定した夜間安静時心拍数が高いほど、その後のうつ病の重症度が高く、睡眠障害がその間を媒介していました。不安は睡眠障害を悪化させましたが、夜間安静時心拍数への直接的な影響はありませんでした。心拍数が診断ツールになるわけではありませんが、持続的な上昇傾向は、睡眠と気分に目を向けるべきサインの1つになり得ます。\n\n## 夜の心拍数が高い、下がらない場合に注意したいこと\n\n1晩だけ心拍数が高かった場合は、夜の飲酒や寝つきの悪さなど、よくある理由によることがほとんどです。繰り返されるパターンは別です。夜間の心拍数と健康上のアウトカムを結びつけるエビデンスは、主に心血管疾患や腎臓病がある人、またはそのリスクがある人から得られています。\n\n- 高血圧の治療または評価を受け、平均72 ± 26カ月追跡された患者457人では、心拍数のノンディッピング（夜/昼の比が0.90超）がハザード比2.37で心血管イベントを予測しました。著者らはこれを、血圧のディッピングとは独立して2.4倍リスクが高いとまとめています。単変量解析では睡眠中の心拍数の高さがリスクと関連していましたが、覚醒時の心拍数は関連していませんでした。\n- 慢性腎臓病をともなう高血圧患者では、心拍数のノンディッパー（ハザード比2.58）とライザー（ハザード比3.95）が、腎臓の複合エンドポイントに達しやすいという結果でした。この研究では、死亡率や心血管イベントに対する予測力は認められませんでした。\n- 心血管疾患がある人やリスク因子をもつ人では、安定したノンレム睡眠中の心拍数が1 bpm高いごとに、血圧のノンディッピングの確率がおよそ4.4%高くなっていました。著者らは、心拍数のディッピングが、24時間自由行動下血圧測定が役立つ可能性のある人を見つけるスクリーニングとして使えるのではないかと提案しています。\n\n睡眠中に限らない安静時心拍数全般については、46件の研究をまとめたメタ解析で、10 bpm上昇するごとに全死亡の相対リスクが1.09、心血管死亡の相対リスクが1.08でした。安静時心拍数が80 bpmを超える人では、もっとも低いカテゴリーと比べて全死亡の相対リスクが1.45でした。\n\nこれらは観察研究から得られた関連性です。夜間の心拍数が高い、または下がらない場合は気にかける価値があるということであり、それが病気を引き起こすという意味ではありません。\n\n## 自分の睡眠中の心拍数の読み方\n\n- **数晩の平均を見る。** HRVの変動性については、1週間全体の推定値と確実に一致させるには、7晩のうち少なくとも5晩のデータが必要でした。これはHRVに関する結果ですが、1晩だけで判断しないという考え方は心拍数にも当てはまります。\n- **同じ条件で比べる。** 毎回同じデバイスと同じ指標（夜の平均値または夜の最低値）を使いましょう。\n- **比を計算する。** ふだんの睡眠中の平均を、ふだんの日中の平均で割ります。0.9以下であれば、研究で心拍数のディッピングと分類される範囲です。\n- **夜の過ごし方を記録する。** 飲酒の有無とどれくらい遅くまで飲んだか、いつもより極端に短い夜や不規則な夜がなかったかをメモしておくと、何が数値を動かしているのかが見えてきます。\n- **1晩ではなくパターンを見る。** 睡眠中の平均が日中の平均より10%以上下がらない状態が繰り返される場合、研究で示されているノンディッピングのパターンに当てはまります。\n\nそのパターンが数週間続くようであれば、医師に相談してみるのが妥当です。",
+      "key_stats": [
+        {
+          "label": "健康な成人の飲酒しなかった夜の夜間安静時心拍数の平均",
+          "value": "63.6 ± 9.2 bpm",
+          "source": "E15"
+        },
+        {
+          "label": "心拍数ディッパーを定義する夜/昼の心拍数の比",
+          "value": "≤ 0.9",
+          "source": "E4"
+        },
+        {
+          "label": "高血圧患者における心拍数ノンディッピングでの心血管イベントリスクの上昇",
+          "value": "2.4倍",
+          "source": "E6"
+        },
+        {
+          "label": "個人の平均より1杯多い場合と1杯少ない場合の夜間安静時心拍数の上昇（女性 / 男性）",
+          "value": "2.8 bpm / 2.4 bpm",
+          "source": "E16"
+        },
+        {
+          "label": "安静時心拍数10 bpm上昇あたりの全死亡の相対リスク",
+          "value": "1.09",
+          "source": "E19"
+        }
+      ],
+      "faq": [
+        {
+          "question": "寝ている時の心拍数の正常値はどれくらいですか？",
+          "answer": "日中の安静時心拍数より低いことが目安です。健康な成人40人を対象としたスマートウォッチの研究では、飲酒しなかった夜の夜間安静時心拍数の平均は63.6 ± 9.2 bpmで、健康な人でも数値に大きな個人差があることがわかります。1つの数値よりも、自分自身の推移のほうが重要です。"
+        },
+        {
+          "question": "夜の心拍数は昼よりどれくらい低いのが普通ですか？",
+          "answer": "研究では、夜/昼の比が0.9以下の場合を心拍数のディッピングと分類しています。1 − 0.9 = 0.1なので、夜の平均が昼の平均より10%以上低いことを意味します。比が1.0を超える場合は、夜の心拍数が昼より高いということです。"
+        },
+        {
+          "question": "女性は睡眠中の心拍数が違いますか？",
+          "answer": "ここで紹介した研究には、女性専用の検証された正常範囲はありません。ある大規模データでは、個人の平均より1杯多く飲んだ場合は1杯少なかった場合と比べて、夜間安静時心拍数が女性で2.8 bpm、男性で2.4 bpm高くなっていました。そのため、アルコールの影響は女性の夜間の数値により強く表れる可能性があります。"
+        },
+        {
+          "question": "睡眠中に心拍数が上がったり下がったりするのはなぜですか？",
+          "answer": "心拍数は睡眠段階に合わせて変化します。ノンレム睡眠ではレム睡眠や覚醒時より拍動間隔が長いため、心拍がゆっくりになります。ノンレム睡眠の中でも、短い覚醒関連の現象によって心拍数が一時的に変化します。ウェアラブルのグラフに短いピークが見られるのは想定内です。"
+        },
+        {
+          "question": "お酒を飲むと睡眠中の心拍数は上がりますか？",
+          "answer": "はい。ある研究では、適量の飲酒によって夜間安静時心拍数が63.6 bpmから66.6 bpmへと3.0 bpm（66.6 − 63.6）上昇し、その後は基準値に近づきました。大規模な実生活データでは、この影響は飲酒量に応じて大きくなり、1日の早い時間に飲んだ場合は小さくなっていました。"
+        },
+        {
+          "question": "睡眠中の心拍数が高いのは危険ですか？",
+          "answer": "1晩だけ高い場合は、通常心配いりません。高血圧の治療や評価を受けている患者では、夜に心拍数が下がらない場合、心血管イベントのリスクが2.4倍高くなっていました。これは関連性を示すものなので、繰り返されるパターンは過度に心配するものではなく、気にかけておくべきサインと考えましょう。"
+        }
+      ],
+      "comparison_table": {
+        "title": "夜間の心拍数低下のパターン",
+        "headers": [
+          "パターン",
+          "夜/昼の心拍数の比",
+          "意味",
+          "研究でわかったこと"
+        ],
+        "rows": [
+          [
+            "ディッパー",
+            "0.9以下",
+            "夜の平均が昼の平均より10%以上低い（1 − 0.9 = 0.1）",
+            "腎臓病の研究で心拍数ディッパーと定義"
+          ],
+          [
+            "ノンディッパー",
+            "0.9超1.0以下",
+            "夜の平均の低下幅が昼の平均の10%未満、または比1.0で低下なし",
+            "慢性腎臓病をともなう高血圧患者で腎臓の複合エンドポイントのハザード比2.58"
+          ],
+          [
+            "ライザー",
+            "1.0超",
+            "夜の平均が昼の平均より高い",
+            "慢性腎臓病をともなう高血圧患者で腎臓の複合エンドポイントのハザード比3.95"
+          ],
+          [
+            "ノンディッピング全体（比0.90超）",
+            "0.90超",
+            "夜の低下が10%未満（ライザーを含む）",
+            "高血圧患者457人で心血管イベントのハザード比2.37"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cardiopulmonary coupling-calculated sleep stability and nocturnal heart rate kinetics as a potential indicator for cardiovascular health: a relationship with blood pressure dipping.",
+          "source": "Frontiers in sleep, 2024",
+          "url": "https://doi.org/10.3389/frsle.2024.1230958"
+        },
+        {
+          "title": "Nocturnal heart rate rising is a risk factor for poor renal outcomes in patients with chronic kidney disease and hypertension.",
+          "source": "Journal of clinical hypertension (Greenwich, Conn.), 2022",
+          "url": "https://doi.org/10.1111/jch.14428"
+        },
+        {
+          "title": "Nocturnal nondipping of heart rate predicts cardiovascular events in hypertensive patients.",
+          "source": "Journal of hypertension, 2009",
+          "url": "https://doi.org/10.1097/HJH.0b013e328330a938"
+        },
+        {
+          "title": "Heart rate variability during daytime naps in healthy adults: Autonomic profile and short-term reliability.",
+          "source": "Psychophysiology, 2016",
+          "url": "https://doi.org/10.1111/psyp.12595"
+        },
+        {
+          "title": "The impact of cyclic alternating pattern on heart rate variability during sleep in healthy young adults.",
+          "source": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology, 2000",
+          "url": "https://doi.org/10.1016/s1388-2457(99)00212-6"
+        },
+        {
+          "title": "The Impact of Alcohol on Sleep Physiology: A Prospective Observational Study on Nocturnal Resting Heart Rate Using Smartwatch Technology.",
+          "source": "Nutrients, 2025",
+          "url": "https://doi.org/10.3390/nu17091470"
+        },
+        {
+          "title": "Real-world effects of alcohol on heart rate, sleep, and physical activity by age and sex.",
+          "source": "PLOS digital health, 2026",
+          "url": "https://doi.org/10.1371/journal.pdig.0001284"
+        },
+        {
+          "title": "Heart rate variability coefficient of variation during sleep as a digital biomarker that reflects behavior and varies by age and sex.",
+          "source": "American journal of physiology. Heart and circulatory physiology, 2026",
+          "url": "https://doi.org/10.1152/ajpheart.00738.2025"
+        },
+        {
+          "title": "Exploring the dynamic relationships between nocturnal heart rate, sleep disruptions, anxiety levels, and depression severity over time in recurrent major depressive disorder.",
+          "source": "Journal of affective disorders, 2025",
+          "url": "https://doi.org/10.1016/j.jad.2025.02.010"
+        },
+        {
+          "title": "Resting heart rate and all-cause and cardiovascular mortality in the general population: a meta-analysis.",
+          "source": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 2016",
+          "url": "https://doi.org/10.1503/cmaj.150535"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "zh-CN": {
+      "title": "睡眠心率多少正常？夜间心率正常范围与下降幅度",
+      "short_title": "睡眠心率正常值",
+      "short_description": "结合研究解读夜间心率的常见数值、10%下降原则、睡眠阶段带来的波动，以及让心率升高的因素。",
+      "meta_description": "睡眠心率多少正常？了解睡觉时心率的常见数值、夜间与白天心率下降比例的计算方法、睡眠中心率波动的原因，以及哪些因素会让夜间心率升高。",
+      "tldr": "正常的睡眠心率应低于白天的静息心率。一项针对健康成年人的研究发现，在不饮酒的夜晚，夜间静息心率平均为63.6 ± 9.2 bpm，个体差异很大。研究人员将夜/昼比值不超过0.9定义为心率“杓型下降”，即夜间平均心率比白天平均心率至少低10%。在正接受高血压治疗或评估的患者中，夜间心率不下降与更高的心血管事件风险相关。",
+      "body_md": "## 睡眠时心率多少算正常？\n\n正常的睡眠心率，是指心率降到白天静息心率以下，并在夜里大部分时间保持较低水平。没有一个数字适用于所有人。年龄、体能、遗传、用药以及前一晚的状态，都会改变基线。研究一致认可的是变化的方向：健康人在夜间睡眠过程中，心血管输出下降，神经系统转向以副交感神经（迷走神经）调控为主。\n\n举一个具体的参考值：一项针对40名健康成年人（女性占63%，平均年龄30.5岁）的智能手表研究显示，在不饮酒的基线夜晚，夜间静息心率平均为63.6 ± 9.2 bpm。其中± 9.2表示数值围绕平均值的分散程度。通俗地说，这组健康人中有不少人明显高于或低于平均值，所以单看一个与63.6 bpm相差几次的读数，说明不了太多问题。\n\n夜间平均心率也不等于夜间最低心率。一项针对患有心血管疾病或存在相关危险因素人群的分析发现，在稳定的非快速眼动睡眠期间，夜间舒张压正常下降者的最低心率为56 ± 4 bpm，舒张压未下降者为59 ± 4 bpm。\n\n与其追求一个理想数字，不如问自己两个问题：\n\n- 我的睡眠心率是否明显低于白天心率？\n- 它在多个夜晚之间是否稳定，还是在逐渐上升？\n\n## 夜间心率应该下降多少？\n\n研究人员通常用一个简单的比值来描述夜间心率的下降：\n\n**夜/昼比值 = 睡眠时平均心率 ÷ 清醒时平均心率**\n\n针对高血压和肾病患者的研究采用了以下分类：\n\n- **杓型（dipper）：** 比值不超过0.9。由于1 − 0.9 = 0.1，这意味着夜间平均心率比白天平均心率至少低10%。\n- **非杓型（non-dipper）：** 比值大于0.9且不超过1.0。夜间平均心率比白天低不到10%，比值恰好为1.0时则完全没有下降。\n- **反杓型（riser）：** 比值大于1.0。夜间平均心率高于白天平均心率。\n\n关于这一指标为何重要的证据，大多来自这些分类。我们在[夜间心率下降](/zh/nocturnal-heart-rate-dip-cardiovascular-health-2026)指南中更深入地介绍了它与心血管健康的关系。\n\n想在家中使用这个比值，需要具有可比性的平均值。许多手表和戒指都会同时显示睡眠心率和白天静息心率，但不同设备对时间窗口的定义各不相同。用同一台设备、以相同方式佩戴、连续记录多个夜晚，比单次读数的对比更公平。\n\n## 睡眠中心率为什么会波动\n\n夜间心率并不是一条平线。它会随睡眠阶段变化，这种变化是正常的。\n\n### 非快速眼动睡眠：心率最慢的阶段\n\n在非快速眼动睡眠期间，心跳之间的间隔变长，也就是心率变慢。一项记录66名健康年轻人白天小睡的研究发现，与快速眼动睡眠或清醒状态相比，非快速眼动睡眠的心搏间期更长，高频心率变异性（迷走神经活动的指标）更高。作者指出，这些变化与夜间睡眠中观察到的情况相似。\n\n### 快速眼动睡眠：心率较快的阶段\n\n在快速眼动睡眠中，心搏间期比非快速眼动睡眠短，因此心跳更快。在同一项小睡研究中，心率变异性的低频与高频比值在非快速眼动睡眠中低于快速眼动睡眠和清醒状态。\n\n### 短暂觉醒\n\n即使在非快速眼动睡眠中，大脑也会反复出现一些与觉醒相关的短暂事件，但不一定会让你醒来。一项针对10名健康成年人（平均年龄28.1岁）的多导睡眠监测研究发现，这些阶段与心率低频成分升高、高频成分降低有关。作者描述，这些觉醒波动伴随着心率和肌张力的短暂变化，并得出结论：觉醒水平的波动会影响心脏自主神经活动。\n\n这就是可穿戴设备的曲线图上整夜都有起伏的原因。出现几个短暂的峰值属于预期范围。更重要的是整体水平，以及夜间心率是否一直低于白天基线。\n\n心率变异性（HRV）是这些模式背后的逐搏变化。如果你在追踪HRV，可以阅读我们关于[HRV预测睡眠质量](/zh/heart-rate-variability-sleep-quality-predictor-2026)的文章，了解如何解读。\n\n## 女性的睡眠心率\n\n很多人会专门搜索女性夜间心率的问题。本文梳理的研究并没有给出单独的、经过验证的女性正常睡眠心率，所以同样的方法依然适用：把自己的夜间平均值与自己的白天平均值作比较，并关注变化趋势。\n\n有一些性别差异值得了解：\n\n- **酒精影响更大。** 在一个包含20,968人的数据集中，比个人平均饮酒量多喝一杯与少喝一杯相比，女性的夜间静息心率升高2.8 bpm，男性升高2.4 bpm。HRV在女性中下降3.8 ms，在男性中下降3.3 ms。\n- **夜间变异度随年龄的变化方式不同。** 在超过21,000名可穿戴设备用户中，女性睡眠HRV的日间波动呈U形，在中年期逐渐减小，大约50岁后又上升；男性则在大约40岁后上升。\n\n这两项发现都不意味着女性的睡眠心率总体上更高或更低。但它们提示，酒精可能会让女性的夜间数据变化更大，而解读变异度时最好把年龄考虑进去。\n\n## 哪些因素会让夜间心率升高\n\n### 酒精\n\n在那项40人的智能手表研究中，连续三个晚上适量饮酒（女性每天40 g，男性每天60 g）后，夜间静息心率从63.6 bpm升至66.6 bpm，升高了3.0 bpm（66.6 − 63.6）。之后回落到接近基线的64.9 bpm。手表测得的睡眠结构没有显著变化，但参与者自评睡眠变差了。\n\n一个覆盖5,109,185人日的更大规模真实世界数据集发现，夜间静息心率随饮酒量呈剂量依赖性升高，HRV随之下降，且对年轻人的影响更明显。有三个习惯能减轻这种干扰：在一天中更早的时间饮酒、饮酒后睡得更久、减少活动量。\n\n### 睡眠短且不规律、活动量少\n\n在超过21,000名用户中，HRV的夜间波动越大，与饮酒更多、身体活动更少、睡眠更短且更不规律相关。这是HRV指标而非心率本身，但指向的是同样的日常因素。\n\n### 情绪与睡眠障碍\n\n一项针对461名复发性重度抑郁症患者的移动健康研究发现，用腕戴设备测得的夜间静息心率越高，后续抑郁严重程度越高，而睡眠障碍在其中起中介作用。焦虑会加重睡眠障碍，但对夜间静息心率没有直接影响。这并不意味着心率可以作为诊断工具，但如果心率持续上升，可能是需要关注睡眠和情绪的信号之一。\n\n## 夜间心率偏高或不下降意味着什么\n\n某一晚心率偏高，通常是一些平常的原因，比如晚上喝了酒或睡得不安稳。反复出现的模式则不同。将夜间心率与健康结局联系起来的证据，主要来自已经患有或有风险患上心血管疾病或肾病的人群：\n\n- 在457名正接受高血压治疗或评估、平均随访72 ± 26个月的患者中，心率非杓型（夜/昼比值大于0.90）可预测心血管事件，风险比为2.37。作者将其概括为风险高出2.4倍，且独立于血压是否下降。在单因素分析中，睡眠心率越高与风险相关，而清醒时心率则无关。\n- 在合并慢性肾病的高血压患者中，心率非杓型者（风险比2.58）和反杓型者（风险比3.95）更容易达到复合肾脏终点。该研究未发现其对死亡率或心血管事件有预测价值。\n- 在患有心血管疾病或存在相关危险因素的人群中，稳定的非快速眼动睡眠期间心率每高1 bpm，血压非杓型的概率约高4.4%。作者认为，心率下降情况可作为一种筛查手段，用来找出可能从24小时动态血压监测中获益的人。\n\n对于一般的静息心率（并非专指睡眠期间），一项纳入46项研究的荟萃分析发现，心率每升高10 bpm，全因死亡的相对风险为1.09，心血管死亡的相对风险为1.08。静息心率高于80 bpm的人，与最低组相比，全因死亡的相对风险为1.45。\n\n这些都是观察性研究得出的关联。它们说明夜间心率偏高或不下降值得留意，而不是说它会导致疾病。\n\n## 如何解读自己的睡眠心率\n\n- **取多个夜晚的平均值。** 就HRV变异度而言，至少需要七晚中的五晚数据，才能可靠地与整周估计值吻合。这一发现针对的是HRV，但不凭单晚下结论的思路同样适用于心率。\n- **在相同条件下比较。** 每次都使用同一台设备和同一个指标（夜间平均值或夜间最低值）。\n- **计算你的比值。** 用平时的睡眠平均心率除以平时的白天平均心率。结果不超过0.9，就属于研究中定义的心率杓型下降。\n- **记录晚间情况。** 记下是否饮酒、喝到多晚，以及是否有睡得特别短或特别不规律的夜晚，这样就能看出是什么在影响你的数据。\n- **看模式，而不是单晚。** 如果睡眠平均心率反复没能比白天平均值低至少10%，就符合研究中描述的非杓型模式。\n\n如果这种模式持续数周，可以考虑向医生咨询。",
+      "key_stats": [
+        {
+          "label": "健康成年人在不饮酒夜晚的平均夜间静息心率",
+          "value": "63.6 ± 9.2 bpm",
+          "source": "E15"
+        },
+        {
+          "label": "定义心率杓型的夜/昼心率比值",
+          "value": "≤ 0.9",
+          "source": "E4"
+        },
+        {
+          "label": "高血压患者心率非杓型时心血管事件风险升高",
+          "value": "2.4倍",
+          "source": "E6"
+        },
+        {
+          "label": "比个人平均多喝一杯与少喝一杯相比，夜间静息心率升高（女性 / 男性）",
+          "value": "2.8 bpm / 2.4 bpm",
+          "source": "E16"
+        },
+        {
+          "label": "静息心率每升高10 bpm的全因死亡相对风险",
+          "value": "1.09",
+          "source": "E19"
+        }
+      ],
+      "faq": [
+        {
+          "question": "睡觉时心率多少是正常的？",
+          "answer": "应低于白天的静息心率。在一项针对40名健康成年人的智能手表研究中，不饮酒夜晚的平均夜间静息心率为63.6 ± 9.2 bpm，这说明健康人之间的数值差异很大。与任何单个数字相比，你自己的变化趋势更重要。"
+        },
+        {
+          "question": "夜间心率应该比白天低多少？",
+          "answer": "研究将夜/昼比值不超过0.9定义为心率杓型下降。由于1 − 0.9 = 0.1，这意味着夜间平均心率比白天至少低10%。比值大于1.0则表示夜间心率高于白天。"
+        },
+        {
+          "question": "女性的睡眠心率有什么不同吗？",
+          "answer": "本文梳理的研究中没有单独经过验证的女性正常范围。一个大型数据集发现，比个人平均饮酒量多喝一杯与少喝一杯相比，女性的夜间静息心率高2.8 bpm，男性高2.4 bpm，因此酒精在女性夜间数据中可能体现得更明显。"
+        },
+        {
+          "question": "为什么睡觉时心率忽高忽低？",
+          "answer": "心率会随睡眠阶段变化。非快速眼动睡眠的心搏间期比快速眼动睡眠或清醒时更长，所以这时心跳更慢。在非快速眼动睡眠中，与觉醒相关的短暂事件也会带来心率的一过性变化。可穿戴设备曲线图上出现短暂峰值属于正常现象。"
+        },
+        {
+          "question": "喝酒会让睡眠心率升高吗？",
+          "answer": "会。一项研究中，适量饮酒使夜间静息心率从63.6 bpm升至66.6 bpm，升高了3.0 bpm（66.6 − 63.6），之后逐渐回落到基线附近。一个大型真实世界数据集发现，这种影响具有剂量依赖性，而且在一天中较早时间饮酒时影响更小。"
+        },
+        {
+          "question": "睡眠心率高危险吗？",
+          "answer": "某一晚偏高通常不必担心。在正接受高血压治疗或评估的患者中，夜间心率不下降与心血管事件风险高出2.4倍相关。这些都是关联性结果，所以反复出现的模式值得留意，但无需惊慌。"
+        }
+      ],
+      "comparison_table": {
+        "title": "夜间心率下降模式",
+        "headers": [
+          "模式",
+          "夜/昼心率比值",
+          "含义",
+          "研究发现"
+        ],
+        "rows": [
+          [
+            "杓型",
+            "不超过0.9",
+            "夜间平均心率比白天至少低10%（1 − 0.9 = 0.1）",
+            "在肾病研究中被定义为心率杓型"
+          ],
+          [
+            "非杓型",
+            "大于0.9且不超过1.0",
+            "夜间平均心率比白天低不到10%，比值为1.0时则没有下降",
+            "合并慢性肾病的高血压患者中，复合肾脏终点风险比为2.58"
+          ],
+          [
+            "反杓型",
+            "大于1.0",
+            "夜间平均心率高于白天",
+            "合并慢性肾病的高血压患者中，复合肾脏终点风险比为3.95"
+          ],
+          [
+            "所有非杓型（比值大于0.90）",
+            "大于0.90",
+            "夜间下降不足10%，包括反杓型",
+            "457名高血压患者中，心血管事件风险比为2.37"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cardiopulmonary coupling-calculated sleep stability and nocturnal heart rate kinetics as a potential indicator for cardiovascular health: a relationship with blood pressure dipping.",
+          "source": "Frontiers in sleep, 2024",
+          "url": "https://doi.org/10.3389/frsle.2024.1230958"
+        },
+        {
+          "title": "Nocturnal heart rate rising is a risk factor for poor renal outcomes in patients with chronic kidney disease and hypertension.",
+          "source": "Journal of clinical hypertension (Greenwich, Conn.), 2022",
+          "url": "https://doi.org/10.1111/jch.14428"
+        },
+        {
+          "title": "Nocturnal nondipping of heart rate predicts cardiovascular events in hypertensive patients.",
+          "source": "Journal of hypertension, 2009",
+          "url": "https://doi.org/10.1097/HJH.0b013e328330a938"
+        },
+        {
+          "title": "Heart rate variability during daytime naps in healthy adults: Autonomic profile and short-term reliability.",
+          "source": "Psychophysiology, 2016",
+          "url": "https://doi.org/10.1111/psyp.12595"
+        },
+        {
+          "title": "The impact of cyclic alternating pattern on heart rate variability during sleep in healthy young adults.",
+          "source": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology, 2000",
+          "url": "https://doi.org/10.1016/s1388-2457(99)00212-6"
+        },
+        {
+          "title": "The Impact of Alcohol on Sleep Physiology: A Prospective Observational Study on Nocturnal Resting Heart Rate Using Smartwatch Technology.",
+          "source": "Nutrients, 2025",
+          "url": "https://doi.org/10.3390/nu17091470"
+        },
+        {
+          "title": "Real-world effects of alcohol on heart rate, sleep, and physical activity by age and sex.",
+          "source": "PLOS digital health, 2026",
+          "url": "https://doi.org/10.1371/journal.pdig.0001284"
+        },
+        {
+          "title": "Heart rate variability coefficient of variation during sleep as a digital biomarker that reflects behavior and varies by age and sex.",
+          "source": "American journal of physiology. Heart and circulatory physiology, 2026",
+          "url": "https://doi.org/10.1152/ajpheart.00738.2025"
+        },
+        {
+          "title": "Exploring the dynamic relationships between nocturnal heart rate, sleep disruptions, anxiety levels, and depression severity over time in recurrent major depressive disorder.",
+          "source": "Journal of affective disorders, 2025",
+          "url": "https://doi.org/10.1016/j.jad.2025.02.010"
+        },
+        {
+          "title": "Resting heart rate and all-cause and cardiovascular mortality in the general population: a meta-analysis.",
+          "source": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 2016",
+          "url": "https://doi.org/10.1503/cmaj.150535"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "zh-TW": {
+      "title": "睡覺心跳多少正常？夜間心率正常值與下降比例",
+      "short_title": "正常睡眠心率",
+      "short_description": "整理研究中的夜間心率常見數值、10%下降原則、睡眠階段的心跳起伏，以及哪些因素會讓心率升高。",
+      "meta_description": "睡覺心跳多少正常？一次看懂夜間心率常見數值、如何計算夜/日心率下降比例、睡眠中心跳為何起伏，以及哪些因素會讓心率升高。",
+      "tldr": "正常的睡眠心率會比白天的靜止心率低。一項針對健康成人的研究發現，在沒有喝酒的夜晚，平均夜間靜止心率為63.6 ± 9.2 bpm，而且個人之間的數值差異很大。研究人員把夜/日心率比值0.9以下歸類為心率下降型，代表夜間平均值至少比白天平均值低10%。在正在接受高血壓治療或評估的患者中，夜間心率沒有下降，與較高的心血管事件風險有關。",
+      "body_md": "## 睡覺時心跳多少才算正常？\n\n正常的睡眠心率，會降到比白天靜止心率更低，而且在夜晚大部分的時間都維持在較低水準。沒有一個數字適用於所有人，年齡、體能、遺傳、藥物以及前一晚的狀況，都會改變基準值。研究一致認同的是變化的方向：健康的人在夜間睡眠中，心血管輸出會下降，神經系統也會轉向由副交感神經（迷走神經）主導。\n\n舉個具體的參考：一項以智慧手錶追蹤40名健康成人（女性占63%，平均年齡30.5歲）的研究，在不喝酒的基準夜晚，記錄到的平均夜間靜止心率為63.6 ± 9.2 bpm。± 9.2代表數值在平均值周圍的分布範圍。簡單來說，這群健康受試者中有不少人明顯高於或低於平均值，所以讀數跟63.6 bpm差個幾下，本身並說明不了什麼。\n\n夜間平均值也不等於夜間最低值。一項針對心血管疾病患者或具危險因子者的分析發現，在穩定的非快速動眼期睡眠中，夜間舒張壓正常下降者的最低心率為56 ± 4 bpm，舒張壓沒有下降者則為59 ± 4 bpm。\n\n與其追求一個理想數字，不如問自己兩個問題：\n\n- 我的睡眠心率是否明顯低於白天心率？\n- 每晚的數值是否穩定，還是慢慢往上飄？\n\n## 夜間心率應該下降多少？\n\n研究人員通常用一個簡單的比值來描述夜間的下降幅度：\n\n**夜/日比值 = 睡眠平均心率 ÷ 清醒平均心率**\n\n針對高血壓與腎臟病患者的研究，採用以下分類：\n\n- **下降型（dipper）：** 比值0.9以下。因為1 − 0.9 = 0.1，代表夜間平均值至少比白天平均值低10%。\n- **非下降型（non-dipper）：** 比值高於0.9、最高到1.0。夜間平均值比白天平均值低不到10%，比值剛好為1.0時則完全沒有下降。\n- **上升型（riser）：** 比值高於1.0。夜間平均值高於白天平均值。\n\n關於這件事為什麼重要，大部分證據都來自上述分類。心血管方面的細節，可以參考我們的[夜間心率下降](/zh-tw/nocturnal-heart-rate-dip-cardiovascular-health-2026)指南。\n\n想在家套用這個比值，需要可以互相比較的平均值。許多智慧手錶和智慧戒指會同時提供睡眠心率與白天靜止心率，但各裝置對這些時段的定義不同。使用同一台裝置、以相同方式配戴，並連續觀察幾個晚上，會比單次讀數更公平。\n\n## 睡眠中的心率為什麼會起伏？\n\n心率在夜裡並不是一條平線，它會隨著睡眠階段變動，這是正常現象。\n\n### 非快速動眼期：心跳最慢的階段\n\n在非快速動眼期睡眠中，心跳之間的間隔會拉長，也就是心率變慢。一項記錄66名健康年輕成人白天小睡的研究發現，與快速動眼期或清醒時相比，非快速動眼期的心跳間隔較長，高頻心率變異度（迷走神經活性的指標）也較高。作者指出，這些變化與夜間睡眠時觀察到的情形相似。\n\n### 快速動眼期：心跳較快的階段\n\n在快速動眼期，心跳間隔比非快速動眼期短，所以心跳較快。同一項小睡研究中，低頻與高頻心率變異度的比值，在非快速動眼期低於快速動眼期與清醒時。\n\n### 短暫覺醒\n\n即使在非快速動眼期，大腦也會循環經歷短暫的覺醒相關事件，而且不一定會讓你醒來。一項以多項睡眠生理檢查記錄10名健康成人（平均年齡28.1歲）的研究發現，這些階段與心率的低頻成分較高、高頻成分較低有關。作者描述，這類覺醒波動會伴隨心率與肌肉張力的短暫變化，並得出結論：覺醒程度的起伏會影響心臟的自律神經活動。\n\n這也是為什麼穿戴裝置的圖表會顯示整夜忽高忽低。出現幾個短暫的高峰是意料中的事，更重要的是整體水準，以及整晚是否維持在白天基準值以下。\n\n心率變異度（HRV）就是這些模式背後的逐拍變化。如果你追蹤的正是這個指標，可以參考[以HRV預測睡眠品質](/zh-tw/heart-rate-variability-sleep-quality-predictor-2026)一文，了解該如何解讀。\n\n## 女性的睡眠心率\n\n很多人會特別搜尋女性的夜間心率。本文整理的研究並未提供經過驗證、專屬女性的正常睡眠心率，因此方法相同：拿自己的夜間平均值和白天平均值比較，並觀察趨勢。\n\n有些性別差異值得了解：\n\n- **酒精影響更大。** 在一份涵蓋20,968人的資料中，比個人平均多喝一杯，與比平均少喝一杯相比，女性的夜間靜止心率上升2.8 bpm，男性為2.4 bpm。HRV則是女性下降3.8 ms，男性下降3.3 ms。\n- **每晚之間的變異隨年齡變化的方式不同。** 在超過21,000名穿戴裝置使用者中，女性睡眠HRV的每日波動呈U型，在中年期間下降，約50歲後回升；男性則在約40歲後上升。\n\n這兩項發現都不代表女性的睡眠心率普遍比較高或比較低，但確實顯示酒精可能讓女性的夜間數值變動更大，而變異度最好把年齡考慮進去再解讀。\n\n## 哪些因素會讓夜間心率升高\n\n### 酒精\n\n在那項40人的智慧手錶研究中，連續三個晚上適量飲酒（女性每天40公克、男性每天60公克），讓夜間靜止心率從63.6升到66.6 bpm，增加了3.0 bpm（66.6 − 63.6）。之後回到接近基準值，為64.9 bpm。手錶測得的睡眠結構沒有顯著改變，但受試者自評睡眠變差了。\n\n規模更大、涵蓋5,109,185人日的真實世界資料發現，夜間靜止心率會隨飲酒量增加而上升，HRV則隨之下降，而且年輕成人受到的影響更明顯。有三個習慣可以減少干擾：在一天中較早的時間喝、喝完後睡久一點，以及減少活動量。\n\n### 睡眠短又不規律、活動量低\n\n在超過21,000名使用者中，HRV每晚之間的波動越大，與飲酒較多、身體活動較少，以及睡眠較短、較不規律有關。這是HRV指標而不是心率本身，但指向的是相同的日常因素。\n\n### 情緒與睡眠困擾\n\n一項針對461名復發性重度憂鬱症患者的行動健康研究發現，手腕穿戴裝置測得的夜間靜止心率較高，與之後的憂鬱嚴重程度有關，而睡眠困擾在其中扮演中介角色。焦慮會加重睡眠困擾，但對夜間靜止心率沒有直接影響。這並不表示心率可以當作診斷工具，不過心率持續往上飄，可能是提醒你該留意睡眠與情緒的訊號之一。\n\n## 夜間心率偏高或沒有下降，什麼時候值得注意？\n\n單一晚心率偏高，通常只是反映一些平常的事，例如晚上喝了酒，或是睡得不安穩。反覆出現的模式就不一樣了。將夜間心率與健康結果連結起來的證據，主要來自已經罹患或有風險罹患心血管或腎臟疾病的人：\n\n- 在457名正在接受高血壓治療或評估、平均追蹤72 ± 26個月的患者中，心率非下降型（夜/日比值高於0.90）可預測心血管事件，風險比為2.37。作者將其概括為風險高出2.4倍，且與血壓是否下降無關。在單變量分析中，較高的睡眠心率與風險有關，清醒心率則無關。\n- 在合併慢性腎臟病的高血壓患者中，心率非下降型（風險比2.58）與上升型（風險比3.95）較容易達到綜合腎臟終點。該研究發現，這些分類對死亡率或心血管事件沒有預測價值。\n- 在心血管疾病患者或具危險因子者中，穩定非快速動眼期睡眠時的心率每高1 bpm，血壓呈非下降型的機率約高4.4%。作者認為，心率下降情形可以作為篩檢工具，找出哪些人可能適合接受24小時動態血壓監測。\n\n就一般的靜止心率而言（不限於睡眠時），一項納入46項研究的統合分析發現，心率每增加10 bpm，全因死亡的相對風險為1.09，心血管死亡為1.08。靜止心率高於80 bpm的人，與最低組別相比，全因死亡的相對風險為1.45。\n\n以上都是觀察性研究得出的關聯性。它們說明夜間心率偏高或沒有下降值得留意，而不是說它會導致疾病。\n\n## 如何解讀自己的睡眠心率\n\n- **取好幾晚的平均。** 以HRV的變異度來說，七個晚上中至少需要五晚，才能可靠地吻合一整週的估計值。這項發現雖然是針對HRV，但不要只憑一晚下判斷的道理，同樣適用於心率。\n- **在相同條件下比較。** 每次都使用同一台裝置與同一項指標（夜間平均值或夜間最低值）。\n- **算出你的比值。** 把平常的睡眠平均心率除以平常的白天平均心率。結果在0.9以下，就是研究中歸類為心率下降型的情況。\n- **替每個晚上做標記。** 記下有沒有喝酒、喝到多晚，以及任何睡得特別短或特別不規律的夜晚，就能看出是什麼在影響你的數值。\n- **看整體模式，而不是單一晚。** 如果睡眠平均值一再無法比白天平均值低至少10%，就符合研究所描述的非下降模式。\n\n如果這種模式持續好幾週，就值得找醫師討論。",
+      "key_stats": [
+        {
+          "label": "健康成人在不喝酒夜晚的平均夜間靜止心率",
+          "value": "63.6 ± 9.2 bpm",
+          "source": "E15"
+        },
+        {
+          "label": "定義為心率下降型的夜/日心率比值",
+          "value": "≤ 0.9",
+          "source": "E4"
+        },
+        {
+          "label": "高血壓患者心率夜間不下降時，心血管事件風險的倍數",
+          "value": "2.4倍",
+          "source": "E6"
+        },
+        {
+          "label": "比個人平均多喝一杯相對於少喝一杯，夜間靜止心率的上升幅度（女性／男性）",
+          "value": "2.8 bpm／2.4 bpm",
+          "source": "E16"
+        },
+        {
+          "label": "靜止心率每高10 bpm，全因死亡的相對風險",
+          "value": "1.09",
+          "source": "E19"
+        }
+      ],
+      "faq": [
+        {
+          "question": "睡覺時心跳多少算正常？",
+          "answer": "睡眠心率應該比白天的靜止心率低。一項以智慧手錶追蹤40名健康成人的研究發現，在沒有喝酒的夜晚，平均夜間靜止心率為63.6 ± 9.2 bpm，可見健康的人之間數值差異很大。比起任何單一數字，你自己的趨勢更重要。"
+        },
+        {
+          "question": "夜間心率應該比白天低多少？",
+          "answer": "研究把夜/日比值0.9以下歸類為心率下降型。因為1 − 0.9 = 0.1，代表夜間平均值至少比白天平均值低10%。比值高於1.0，則表示夜間心率比白天還高。"
+        },
+        {
+          "question": "女性的睡眠心率會不一樣嗎？",
+          "answer": "本文整理的研究中，並沒有經過驗證、專屬女性的正常範圍。一份大型資料發現，比個人平均多喝一杯，與比平均少喝一杯相比，女性的夜間靜止心率高出2.8 bpm，男性則是2.4 bpm，所以酒精在女性夜間數值上可能反映得更明顯。"
+        },
+        {
+          "question": "為什麼睡覺時心跳會忽快忽慢？",
+          "answer": "心率會隨著睡眠階段變化。非快速動眼期的心跳間隔比快速動眼期或清醒時長，所以這時心跳較慢。在非快速動眼期中，短暫的覺醒相關事件也會帶來心率的短暫變化。穿戴裝置圖表上出現短暫高峰是正常的。"
+        },
+        {
+          "question": "喝酒會讓睡眠心率升高嗎？",
+          "answer": "會。一項研究中，適量飲酒讓夜間靜止心率從63.6升到66.6 bpm，增加3.0 bpm（66.6 − 63.6），之後再回到接近基準值。一份大型真實世界資料發現，這種影響與飲酒量有關，而且在一天中較早喝酒時影響較小。"
+        },
+        {
+          "question": "睡覺時心跳太快危險嗎？",
+          "answer": "單一晚心率偏高通常不需要擔心。在正在接受高血壓治療或評估的患者中，夜間心率沒有下降與心血管事件風險高出2.4倍有關。這些都是關聯性，所以反覆出現的模式值得留意，但不必因此驚慌。"
+        }
+      ],
+      "comparison_table": {
+        "title": "夜間心率下降模式",
+        "headers": [
+          "類型",
+          "夜/日心率比值",
+          "代表意義",
+          "研究發現"
+        ],
+        "rows": [
+          [
+            "下降型（dipper）",
+            "0.9以下",
+            "夜間平均值比白天平均值低至少10%（1 − 0.9 = 0.1）",
+            "在腎臟病研究中被定義為心率下降型"
+          ],
+          [
+            "非下降型（non-dipper）",
+            "高於0.9、最高到1.0",
+            "夜間平均值比白天平均值低不到10%，比值為1.0時則完全沒有更低",
+            "在合併慢性腎臟病的高血壓患者中，綜合腎臟終點的風險比為2.58"
+          ],
+          [
+            "上升型（riser）",
+            "高於1.0",
+            "夜間平均值高於白天平均值",
+            "在合併慢性腎臟病的高血壓患者中，綜合腎臟終點的風險比為3.95"
+          ],
+          [
+            "所有非下降型（比值高於0.90）",
+            "高於0.90",
+            "夜間下降幅度小於10%，包含上升型",
+            "在457名高血壓患者中，心血管事件的風險比為2.37"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cardiopulmonary coupling-calculated sleep stability and nocturnal heart rate kinetics as a potential indicator for cardiovascular health: a relationship with blood pressure dipping.",
+          "source": "Frontiers in sleep, 2024",
+          "url": "https://doi.org/10.3389/frsle.2024.1230958"
+        },
+        {
+          "title": "Nocturnal heart rate rising is a risk factor for poor renal outcomes in patients with chronic kidney disease and hypertension.",
+          "source": "Journal of clinical hypertension (Greenwich, Conn.), 2022",
+          "url": "https://doi.org/10.1111/jch.14428"
+        },
+        {
+          "title": "Nocturnal nondipping of heart rate predicts cardiovascular events in hypertensive patients.",
+          "source": "Journal of hypertension, 2009",
+          "url": "https://doi.org/10.1097/HJH.0b013e328330a938"
+        },
+        {
+          "title": "Heart rate variability during daytime naps in healthy adults: Autonomic profile and short-term reliability.",
+          "source": "Psychophysiology, 2016",
+          "url": "https://doi.org/10.1111/psyp.12595"
+        },
+        {
+          "title": "The impact of cyclic alternating pattern on heart rate variability during sleep in healthy young adults.",
+          "source": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology, 2000",
+          "url": "https://doi.org/10.1016/s1388-2457(99)00212-6"
+        },
+        {
+          "title": "The Impact of Alcohol on Sleep Physiology: A Prospective Observational Study on Nocturnal Resting Heart Rate Using Smartwatch Technology.",
+          "source": "Nutrients, 2025",
+          "url": "https://doi.org/10.3390/nu17091470"
+        },
+        {
+          "title": "Real-world effects of alcohol on heart rate, sleep, and physical activity by age and sex.",
+          "source": "PLOS digital health, 2026",
+          "url": "https://doi.org/10.1371/journal.pdig.0001284"
+        },
+        {
+          "title": "Heart rate variability coefficient of variation during sleep as a digital biomarker that reflects behavior and varies by age and sex.",
+          "source": "American journal of physiology. Heart and circulatory physiology, 2026",
+          "url": "https://doi.org/10.1152/ajpheart.00738.2025"
+        },
+        {
+          "title": "Exploring the dynamic relationships between nocturnal heart rate, sleep disruptions, anxiety levels, and depression severity over time in recurrent major depressive disorder.",
+          "source": "Journal of affective disorders, 2025",
+          "url": "https://doi.org/10.1016/j.jad.2025.02.010"
+        },
+        {
+          "title": "Resting heart rate and all-cause and cardiovascular mortality in the general population: a meta-analysis.",
+          "source": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 2016",
+          "url": "https://doi.org/10.1503/cmaj.150535"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "es": {
+      "title": "Frecuencia cardíaca al dormir: ¿cuál es la normal?",
+      "short_title": "Frecuencia cardíaca normal al dormir",
+      "short_description": "Valores típicos de pulso nocturno, la regla del descenso del 10 %, los cambios según la fase del sueño y qué eleva las pulsaciones, según la investigación.",
+      "meta_description": "¿Cuál es la frecuencia cardíaca normal al dormir? Conoce los valores nocturnos típicos, cómo calcular tu descenso noche/día, por qué varía y qué la eleva.",
+      "tldr": "La frecuencia cardíaca normal durante el sueño es más baja que tu frecuencia en reposo durante el día. En un estudio con adultos sanos, la frecuencia cardíaca media en reposo nocturna fue de 63,6 ± 9,2 lpm en noches sin alcohol, y los valores individuales variaron mucho. Los investigadores consideran que hay descenso de la frecuencia cardíaca cuando la relación noche/día es de 0,9 o menos, es decir, cuando la media nocturna es al menos un 10 % inferior a la diurna. En pacientes en tratamiento o en estudio por presión arterial alta, una frecuencia cardíaca que no descendía por la noche se asoció con un mayor riesgo de eventos cardiovasculares.",
+      "body_md": "## ¿Cuál es la frecuencia cardíaca normal al dormir?\n\nUna frecuencia cardíaca normal durante el sueño es la que baja por debajo de tu frecuencia en reposo diurna y se mantiene más baja la mayor parte de la noche. No existe un número único que sirva para todo el mundo. La edad, la forma física, la genética, la medicación y lo que hiciste la noche anterior modifican el punto de partida. En lo que sí coincide la investigación es en la dirección del cambio: en las personas sanas, la actividad cardiovascular disminuye y el sistema nervioso se desplaza hacia el control parasimpático (vagal) a lo largo del sueño nocturno.\n\nComo referencia concreta, un estudio con reloj inteligente en 40 adultos sanos (63 % mujeres, edad media de 30,5 años) registró una frecuencia cardíaca media en reposo nocturna de 63,6 ± 9,2 lpm en noches basales sin alcohol. La cifra de ± 9,2 describe la dispersión en torno a esa media. Dicho de forma sencilla: muchas personas sanas de ese grupo estaban bastante por encima o por debajo de la media, así que una lectura que se aleje unos pocos latidos de 63,6 lpm dice poco por sí sola.\n\nLa media nocturna tampoco es lo mismo que el mínimo nocturno. En un análisis de personas con enfermedad cardiovascular o factores de riesgo, la frecuencia cardíaca mínima durante el sueño no REM estable fue de 56 ± 4 lpm en quienes tenían un descenso nocturno normal de la presión arterial diastólica y de 59 ± 4 lpm en quienes no lo tenían.\n\nEn lugar de perseguir un número ideal, hazte dos preguntas:\n\n- ¿Mi frecuencia cardíaca durante el sueño es claramente más baja que la de durante el día?\n- ¿Se mantiene estable de una noche a otra o va subiendo poco a poco?\n\n## ¿Cuánto debería bajar la frecuencia cardíaca por la noche?\n\nLos investigadores suelen describir el descenso nocturno con una relación sencilla:\n\n**Relación noche/día = frecuencia cardíaca media durante el sueño ÷ frecuencia cardíaca media en vigilia**\n\nLos estudios en personas con presión arterial alta y enfermedad renal han utilizado estas categorías:\n\n- **Patrón descendente (dipper):** relación de 0,9 o menos. Como 1 − 0,9 = 0,1, significa que tu media nocturna es al menos un 10 % inferior a tu media diurna.\n- **Patrón no descendente (non-dipper):** relación superior a 0,9 y de hasta 1,0. La media nocturna es menos de un 10 % inferior a la diurna y, con una relación de exactamente 1,0, no baja nada.\n- **Patrón ascendente (riser):** relación superior a 1,0. La media nocturna es más alta que la diurna.\n\nGran parte de la evidencia sobre por qué esto importa procede de estas categorías. Explicamos el aspecto cardiovascular con más detalle en nuestra guía sobre el [descenso nocturno de la frecuencia cardíaca](/es/nocturnal-heart-rate-dip-cardiovascular-health-2026).\n\nPara aplicar esta relación en casa necesitas medias comparables. Muchos relojes y anillos inteligentes muestran tanto la frecuencia cardíaca durante el sueño como la frecuencia en reposo diurna, pero cada dispositivo define esos periodos de forma distinta. Usar el mismo dispositivo, llevado de la misma manera, durante varias noches permite una comparación más justa que una lectura aislada.\n\n## Por qué tu frecuencia cardíaca varía mientras duermes\n\nLa frecuencia cardíaca no es una línea plana durante la noche. Cambia según las fases del sueño, y ese movimiento es normal.\n\n### Sueño no REM: la fase más lenta\n\nDurante el sueño no REM, el intervalo entre latidos se alarga, lo que significa una frecuencia cardíaca más lenta. En un estudio con 66 adultos jóvenes sanos registrados durante siestas diurnas, el sueño no REM mostró intervalos entre latidos más largos y una variabilidad de la frecuencia cardíaca de alta frecuencia más elevada (un marcador de la actividad vagal) que el sueño REM o la vigilia. Los autores señalaron que estos cambios eran similares a los observados durante el sueño nocturno.\n\n### Sueño REM: una fase más rápida\n\nEn el sueño REM, los intervalos entre latidos son más cortos que en el sueño no REM, así que el corazón late más deprisa. En el mismo estudio de siestas, la relación entre la variabilidad de la frecuencia cardíaca de baja y de alta frecuencia fue menor durante el sueño no REM que durante el REM y la vigilia.\n\n### Microdespertares\n\nIncluso dentro del sueño no REM, el cerebro pasa por breves episodios relacionados con el despertar que no necesariamente llegan a despertarte. Un estudio de polisomnografía con 10 adultos sanos (edad media de 28,1 años) observó que estas fases se asociaban con un componente de baja frecuencia más alto y un componente de alta frecuencia más bajo de la frecuencia cardíaca. Los autores describen que estas oscilaciones del nivel de alerta van acompañadas de cambios transitorios en la frecuencia cardíaca y el tono muscular, y concluyen que las fluctuaciones del nivel de alerta influyen en la actividad autonómica cardíaca.\n\nPor eso la gráfica de tu dispositivo muestra subidas y bajadas a lo largo de la noche. Es esperable ver algunos picos breves. Lo que más importa es el nivel general y si la noche se mantiene por debajo de tu referencia diurna.\n\nLa variabilidad de la frecuencia cardíaca (VFC o HRV) es la variación latido a latido que hay detrás de estos patrones. Si es lo que estás siguiendo, nuestro artículo sobre la [VFC como predictor de la calidad del sueño](/es/heart-rate-variability-sleep-quality-predictor-2026) explica cómo interpretarla.\n\n## La frecuencia cardíaca de las mujeres al dormir\n\nMuchas búsquedas preguntan específicamente por la frecuencia cardíaca nocturna de las mujeres. La investigación resumida aquí no ofrece una frecuencia cardíaca normal durante el sueño, validada y específica para mujeres, así que el enfoque es el mismo: compara tu media nocturna con tu propia media diurna y observa tu tendencia.\n\nHay algunas diferencias entre sexos que conviene conocer:\n\n- **El alcohol afecta más.** En un conjunto de datos de 20.968 personas, tomar una bebida por encima del promedio personal, en comparación con una por debajo, se asoció con un aumento de la frecuencia cardíaca en reposo nocturna de 2,8 lpm en las mujeres frente a 2,4 lpm en los hombres. La VFC bajó 3,8 ms en las mujeres y 3,3 ms en los hombres.\n- **La variabilidad entre noches cambia de forma distinta con la edad.** En más de 21.000 usuarios de dispositivos portátiles, la fluctuación diaria de la VFC durante el sueño mostró un patrón en forma de U en las mujeres: disminuía durante la mediana edad y aumentaba a partir de los 50 años aproximadamente. En los hombres aumentaba a partir de los 40 años aproximadamente.\n\nNinguno de estos hallazgos significa que las mujeres deban esperar una frecuencia cardíaca durante el sueño generalmente más alta o más baja. Lo que sí sugieren es que el alcohol puede alterar más las cifras nocturnas de una mujer y que la variabilidad se interpreta mejor teniendo en cuenta la edad.\n\n## Qué eleva la frecuencia cardíaca por la noche\n\n### Alcohol\n\nEn el estudio con reloj inteligente de 40 personas, tres noches de consumo moderado (40 g al día en mujeres y 60 g al día en hombres) elevaron la frecuencia cardíaca en reposo nocturna de 63,6 a 66,6 lpm, un aumento de 3,0 lpm (66,6 − 63,6). Después volvió a valores cercanos al basal, de 64,9 lpm. La arquitectura del sueño medida por el reloj no cambió de forma significativa, pero los participantes valoraron su sueño como peor.\n\nUn conjunto de datos reales más amplio, con 5.109.185 días-persona, encontró aumentos de la frecuencia cardíaca en reposo nocturna y descensos de la VFC dependientes de la dosis, con efectos más marcados en los adultos jóvenes. Tres hábitos redujeron la alteración: beber más temprano en el día, dormir más tiempo después y reducir la actividad.\n\n### Sueño corto e irregular y poca actividad\n\nEn más de 21.000 usuarios, las mayores oscilaciones de la VFC de una noche a otra se asociaron con más alcohol, menos actividad física y un sueño más corto y menos regular. Se trata de una medida de VFC y no de la frecuencia cardíaca en sí, pero apunta a los mismos factores cotidianos.\n\n### Estado de ánimo y alteraciones del sueño\n\nEn un estudio de salud móvil con 461 personas con depresión mayor recurrente, una frecuencia cardíaca en reposo nocturna más alta, medida con un dispositivo de muñeca, se asoció con una mayor gravedad posterior de la depresión, con las alteraciones del sueño como mediadoras. La ansiedad empeoraba las alteraciones del sueño, pero no tenía un efecto directo sobre la frecuencia cardíaca en reposo nocturna. Esto no convierte la frecuencia cardíaca en una herramienta de diagnóstico, pero un aumento sostenido puede ser una señal de que el sueño y el estado de ánimo merecen atención.\n\n## Cuándo importa una frecuencia nocturna alta o que no desciende\n\nUna noche con la frecuencia alta suele reflejar algo corriente, como una copa por la noche o haber dormido inquieto. Un patrón que se repite es otra cosa. La evidencia que relaciona la frecuencia cardíaca nocturna con la salud procede sobre todo de personas que ya tienen enfermedad cardiovascular o renal, o que están en riesgo de tenerla:\n\n- En 457 pacientes en tratamiento o en estudio por presión arterial alta, con un seguimiento medio de 72 ± 26 meses, la frecuencia cardíaca no descendente (relación noche/día superior a 0,90) predijo eventos cardiovasculares con un hazard ratio de 2,37. Los autores lo resumieron como un riesgo 2,4 veces mayor, independiente del descenso de la presión arterial. En el análisis univariante, una frecuencia cardíaca más alta durante el sueño se asoció con el riesgo, mientras que la frecuencia en vigilia no.\n- En pacientes hipertensos con enfermedad renal crónica, quienes tenían un patrón no descendente de la frecuencia cardíaca (hazard ratio de 2,58) y ascendente (hazard ratio de 3,95) tuvieron más probabilidades de alcanzar una variable renal combinada. Ese estudio no encontró valor predictivo para la mortalidad ni para los eventos cardiovasculares.\n- En personas con enfermedad cardiovascular o factores de riesgo, cada latido por minuto más durante el sueño no REM estable se asoció con una probabilidad aproximadamente un 4,4 % mayor de que la presión arterial no descendiera. Los autores sugieren que el descenso de la frecuencia cardíaca podría servir como cribado para identificar a quién puede beneficiar una monitorización ambulatoria de la presión arterial de 24 horas.\n\nEn cuanto a la frecuencia cardíaca en reposo en general (no específicamente durante el sueño), un metaanálisis de 46 estudios encontró que cada aumento de 10 lpm conllevaba un riesgo relativo de 1,09 para la mortalidad por todas las causas y de 1,08 para la mortalidad cardiovascular. Las personas con una frecuencia cardíaca en reposo superior a 80 lpm tenían un riesgo relativo de 1,45 para la mortalidad por todas las causas en comparación con la categoría más baja.\n\nSon asociaciones procedentes de estudios observacionales. Indican que una frecuencia cardíaca nocturna elevada o plana merece atención, no que cause enfermedad.\n\n## Cómo interpretar tu propia frecuencia cardíaca al dormir\n\n- **Promedia varias noches.** En el caso de la variabilidad de la VFC, se necesitaron al menos cinco de siete noches para igualar de forma fiable la estimación de una semana completa. Este hallazgo se refiere a la VFC, pero la lógica de no juzgar por una sola noche también se aplica a la frecuencia cardíaca.\n- **Compara lo comparable.** Usa siempre el mismo dispositivo y la misma métrica (media nocturna o mínimo nocturno).\n- **Calcula tu relación.** Divide tu media habitual durante el sueño entre tu media habitual durante el día. Un resultado de 0,9 o menos es lo que los estudios clasifican como descenso de la frecuencia cardíaca.\n- **Anota tus noches.** Apunta si tomaste alcohol y a qué hora, además de cualquier noche especialmente corta o irregular, para ver qué mueve tus cifras.\n- **Busca un patrón, no una sola noche.** Una media durante el sueño que una y otra vez no baja al menos un 10 % por debajo de tu media diurna coincide con el patrón no descendente que describen los estudios.\n\nSi ese patrón se mantiene durante semanas, es razonable comentarlo con un profesional sanitario.",
+      "key_stats": [
+        {
+          "label": "Frecuencia cardíaca media en reposo nocturna en adultos sanos, noches sin alcohol",
+          "value": "63,6 ± 9,2 lpm",
+          "source": "E15"
+        },
+        {
+          "label": "Relación noche/día de la frecuencia cardíaca que define el patrón descendente",
+          "value": "≤ 0,9",
+          "source": "E4"
+        },
+        {
+          "label": "Mayor riesgo de eventos cardiovasculares con frecuencia cardíaca no descendente en pacientes hipertensos",
+          "value": "2,4 veces",
+          "source": "E6"
+        },
+        {
+          "label": "Aumento de la frecuencia cardíaca en reposo nocturna con una bebida por encima del promedio personal frente a una por debajo (mujeres / hombres)",
+          "value": "2,8 lpm / 2,4 lpm",
+          "source": "E16"
+        },
+        {
+          "label": "Riesgo relativo de mortalidad por todas las causas por cada 10 lpm más de frecuencia cardíaca en reposo",
+          "value": "1,09",
+          "source": "E19"
+        }
+      ],
+      "faq": [
+        {
+          "question": "¿Cuál es la frecuencia cardíaca normal mientras duermes?",
+          "answer": "Debería ser más baja que tu frecuencia en reposo durante el día. En un estudio con reloj inteligente en 40 adultos sanos, la frecuencia cardíaca media en reposo nocturna fue de 63,6 ± 9,2 lpm en noches sin alcohol, lo que muestra cuánto varían los valores sanos de una persona a otra. Tu propia tendencia importa más que cualquier número aislado."
+        },
+        {
+          "question": "¿Cuánto más baja debería ser mi frecuencia cardíaca por la noche que durante el día?",
+          "answer": "Los estudios clasifican una relación noche/día de 0,9 o menos como descenso de la frecuencia cardíaca. Como 1 − 0,9 = 0,1, significa que la media nocturna es al menos un 10 % inferior a la diurna. Una relación superior a 1,0 indica que la frecuencia nocturna es más alta que la diurna."
+        },
+        {
+          "question": "¿La frecuencia cardíaca al dormir es diferente en las mujeres?",
+          "answer": "En la investigación resumida aquí no hay un rango normal validado específico para mujeres. Un gran conjunto de datos encontró que tomar una bebida por encima de tu promedio personal, en comparación con una por debajo, se asoció con una frecuencia cardíaca en reposo nocturna 2,8 lpm más alta en las mujeres frente a 2,4 lpm en los hombres, así que el alcohol puede notarse más en las cifras nocturnas de las mujeres."
+        },
+        {
+          "question": "¿Por qué mi frecuencia cardíaca sube y baja mientras duermo?",
+          "answer": "La frecuencia cardíaca sigue las fases del sueño. Los intervalos entre latidos son más largos en el sueño no REM que en el REM o en la vigilia, así que en esa fase el corazón late más despacio. Dentro del sueño no REM, breves episodios relacionados con el despertar producen cambios transitorios en la frecuencia cardíaca. Es esperable ver picos cortos en la gráfica de tu dispositivo."
+        },
+        {
+          "question": "¿El alcohol aumenta la frecuencia cardíaca al dormir?",
+          "answer": "Sí. En un estudio, el consumo moderado elevó la frecuencia cardíaca en reposo nocturna de 63,6 a 66,6 lpm, un aumento de 3,0 lpm (66,6 − 63,6), con una vuelta hacia los valores basales después. Un gran conjunto de datos reales encontró que el efecto dependía de la dosis y era menor cuando se bebía más temprano en el día."
+        },
+        {
+          "question": "¿Es peligrosa una frecuencia cardíaca alta al dormir?",
+          "answer": "Una noche con la frecuencia alta no suele ser motivo de preocupación. En pacientes en tratamiento o en estudio por presión arterial alta, una frecuencia cardíaca que no descendía por la noche se asoció con un riesgo 2,4 veces mayor de eventos cardiovasculares. Son asociaciones, así que un patrón repetido merece atención, pero no es motivo de alarma."
+        }
+      ],
+      "comparison_table": {
+        "title": "Patrones de descenso nocturno de la frecuencia cardíaca",
+        "headers": [
+          "Patrón",
+          "Relación noche/día de la frecuencia cardíaca",
+          "Qué significa",
+          "Qué encontraron los estudios"
+        ],
+        "rows": [
+          [
+            "Descendente (dipper)",
+            "0,9 o menos",
+            "Media nocturna al menos un 10 % inferior a la diurna (1 − 0,9 = 0,1)",
+            "Definido como patrón descendente de la frecuencia cardíaca en el estudio sobre enfermedad renal"
+          ],
+          [
+            "No descendente (non-dipper)",
+            "Superior a 0,9 y hasta 1,0",
+            "Media nocturna menos de un 10 % inferior a la diurna, o no más baja con una relación de 1,0",
+            "Hazard ratio de 2,58 para una variable renal combinada en pacientes hipertensos con enfermedad renal crónica"
+          ],
+          [
+            "Ascendente (riser)",
+            "Superior a 1,0",
+            "Media nocturna más alta que la diurna",
+            "Hazard ratio de 3,95 para una variable renal combinada en pacientes hipertensos con enfermedad renal crónica"
+          ],
+          [
+            "Cualquier patrón no descendente (relación superior a 0,90)",
+            "Superior a 0,90",
+            "Descenso nocturno inferior al 10 %, incluidos los ascendentes",
+            "Hazard ratio de 2,37 para eventos cardiovasculares en 457 pacientes hipertensos"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cardiopulmonary coupling-calculated sleep stability and nocturnal heart rate kinetics as a potential indicator for cardiovascular health: a relationship with blood pressure dipping.",
+          "source": "Frontiers in sleep, 2024",
+          "url": "https://doi.org/10.3389/frsle.2024.1230958"
+        },
+        {
+          "title": "Nocturnal heart rate rising is a risk factor for poor renal outcomes in patients with chronic kidney disease and hypertension.",
+          "source": "Journal of clinical hypertension (Greenwich, Conn.), 2022",
+          "url": "https://doi.org/10.1111/jch.14428"
+        },
+        {
+          "title": "Nocturnal nondipping of heart rate predicts cardiovascular events in hypertensive patients.",
+          "source": "Journal of hypertension, 2009",
+          "url": "https://doi.org/10.1097/HJH.0b013e328330a938"
+        },
+        {
+          "title": "Heart rate variability during daytime naps in healthy adults: Autonomic profile and short-term reliability.",
+          "source": "Psychophysiology, 2016",
+          "url": "https://doi.org/10.1111/psyp.12595"
+        },
+        {
+          "title": "The impact of cyclic alternating pattern on heart rate variability during sleep in healthy young adults.",
+          "source": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology, 2000",
+          "url": "https://doi.org/10.1016/s1388-2457(99)00212-6"
+        },
+        {
+          "title": "The Impact of Alcohol on Sleep Physiology: A Prospective Observational Study on Nocturnal Resting Heart Rate Using Smartwatch Technology.",
+          "source": "Nutrients, 2025",
+          "url": "https://doi.org/10.3390/nu17091470"
+        },
+        {
+          "title": "Real-world effects of alcohol on heart rate, sleep, and physical activity by age and sex.",
+          "source": "PLOS digital health, 2026",
+          "url": "https://doi.org/10.1371/journal.pdig.0001284"
+        },
+        {
+          "title": "Heart rate variability coefficient of variation during sleep as a digital biomarker that reflects behavior and varies by age and sex.",
+          "source": "American journal of physiology. Heart and circulatory physiology, 2026",
+          "url": "https://doi.org/10.1152/ajpheart.00738.2025"
+        },
+        {
+          "title": "Exploring the dynamic relationships between nocturnal heart rate, sleep disruptions, anxiety levels, and depression severity over time in recurrent major depressive disorder.",
+          "source": "Journal of affective disorders, 2025",
+          "url": "https://doi.org/10.1016/j.jad.2025.02.010"
+        },
+        {
+          "title": "Resting heart rate and all-cause and cardiovascular mortality in the general population: a meta-analysis.",
+          "source": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 2016",
+          "url": "https://doi.org/10.1503/cmaj.150535"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "pt-BR": {
+      "title": "Frequência cardíaca dormindo: qual é o normal?",
+      "short_title": "Frequência cardíaca normal no sono",
+      "short_description": "Valores típicos de batimentos à noite, a regra da queda de 10%, as oscilações nas fases do sono e o que aumenta os bpm, segundo as pesquisas.",
+      "meta_description": "Qual é a frequência cardíaca normal dormindo? Veja os valores noturnos típicos, como calcular sua queda noite/dia, por que os bpm variam e o que os aumenta.",
+      "tldr": "A frequência cardíaca normal durante o sono é mais baixa do que a sua frequência de repouso durante o dia. Em um estudo com adultos saudáveis, a frequência cardíaca média de repouso noturna foi de 63,6 ± 9,2 bpm em noites sem álcool, e os valores individuais variaram bastante. Os pesquisadores classificam uma razão noite/dia de 0,9 ou menos como queda da frequência cardíaca, o que significa que a média noturna é pelo menos 10% menor que a média diurna. Em pacientes em tratamento ou avaliação para pressão alta, uma frequência cardíaca que não caía à noite esteve ligada a um risco maior de eventos cardiovasculares.",
+      "body_md": "## Qual é a frequência cardíaca normal dormindo?\n\nUma frequência cardíaca normal durante o sono é aquela que fica abaixo da sua frequência de repouso diurna e se mantém mais baixa durante a maior parte da noite. Não existe um número único que sirva para todo mundo. Idade, condicionamento físico, genética, medicamentos e o que aconteceu na noite anterior alteram o ponto de partida. O que as pesquisas confirmam é a direção da mudança: em pessoas saudáveis, a atividade cardiovascular diminui e o sistema nervoso passa a ser dominado pelo controle parassimpático (vagal) ao longo do sono noturno.\n\nComo referência concreta, um estudo com smartwatch em 40 adultos saudáveis (63% mulheres, idade média de 30,5 anos) registrou uma frequência cardíaca média de repouso noturna de 63,6 ± 9,2 bpm em noites de referência sem álcool. O valor de ± 9,2 descreve a dispersão em torno dessa média. Em outras palavras, muitas pessoas saudáveis desse grupo ficaram bem acima ou bem abaixo da média, então uma leitura a poucos batimentos de distância de 63,6 bpm diz pouco por si só.\n\nA média noturna também não é a mesma coisa que o mínimo noturno. Em uma análise com pessoas com doença cardiovascular ou fatores de risco, a frequência cardíaca mínima durante o sono não REM estável foi de 56 ± 4 bpm em quem tinha queda noturna normal da pressão diastólica e de 59 ± 4 bpm em quem não tinha essa queda.\n\nEm vez de buscar um número ideal, faça duas perguntas a si mesmo:\n\n- Minha frequência cardíaca durante o sono é claramente mais baixa do que durante o dia?\n- Ela se mantém estável de uma noite para outra ou está subindo aos poucos?\n\n## Quanto a frequência cardíaca deve cair à noite?\n\nOs pesquisadores costumam descrever a queda noturna com uma razão simples:\n\n**Razão noite/dia = frequência cardíaca média durante o sono ÷ frequência cardíaca média acordado**\n\nEstudos com pessoas com pressão alta e doença renal usaram estas categorias:\n\n- **Com queda (dipper):** razão de 0,9 ou menos. Como 1 − 0,9 = 0,1, isso significa que sua média noturna é pelo menos 10% menor que sua média diurna.\n- **Sem queda (non-dipper):** razão acima de 0,9 e até 1,0. A média noturna é menos de 10% menor que a média diurna e, com uma razão de exatamente 1,0, ela não cai nada.\n- **Ascendente (riser):** razão acima de 1,0. A média noturna é mais alta que a média diurna.\n\nGrande parte das evidências sobre por que isso importa vem dessas categorias. Explicamos o lado cardiovascular com mais profundidade no nosso guia sobre a [queda noturna da frequência cardíaca](/pt-br/nocturnal-heart-rate-dip-cardiovascular-health-2026).\n\nPara aplicar essa razão em casa, você precisa de médias comparáveis. Muitos relógios e anéis inteligentes mostram tanto a frequência cardíaca durante o sono quanto a frequência de repouso diurna, mas cada aparelho define esses períodos de um jeito. Usar o mesmo aparelho, do mesmo jeito, ao longo de várias noites permite uma comparação mais justa do que uma leitura isolada.\n\n## Por que sua frequência cardíaca varia durante o sono\n\nA frequência cardíaca não é uma linha reta durante a noite. Ela muda conforme as fases do sono, e essa oscilação é normal.\n\n### Sono não REM: a fase mais lenta\n\nDurante o sono não REM, o intervalo entre os batimentos fica mais longo, o que significa uma frequência cardíaca mais lenta. Em um estudo com 66 adultos jovens saudáveis registrados durante cochilos diurnos, o sono não REM apresentou intervalos entre batimentos mais longos e maior variabilidade da frequência cardíaca de alta frequência (um marcador da atividade vagal) do que o sono REM ou a vigília. Os autores observaram que essas mudanças eram parecidas com as vistas durante o sono noturno.\n\n### Sono REM: uma fase mais rápida\n\nNo sono REM, os intervalos entre batimentos são mais curtos do que no sono não REM, então o coração bate mais rápido. No mesmo estudo com cochilos, a razão entre a variabilidade da frequência cardíaca de baixa e de alta frequência foi menor durante o sono não REM do que durante o REM e a vigília.\n\n### Microdespertares\n\nMesmo dentro do sono não REM, o cérebro passa por breves eventos ligados ao despertar que não necessariamente acordam você. Um estudo de polissonografia com 10 adultos saudáveis (idade média de 28,1 anos) mostrou que essas fases estavam ligadas a um componente de baixa frequência mais alto e a um componente de alta frequência mais baixo da frequência cardíaca. Os autores descrevem essas oscilações do nível de alerta como acompanhadas de mudanças transitórias na frequência cardíaca e no tônus muscular, e concluem que as flutuações do nível de alerta influenciam a atividade autonômica cardíaca.\n\nÉ por isso que o gráfico do seu wearable mostra picos e quedas ao longo da noite. Alguns picos curtos são esperados. O que importa mais é o nível geral e se a noite se mantém abaixo da sua referência diurna.\n\nA variabilidade da frequência cardíaca (VFC, ou HRV) é a variação batimento a batimento por trás desses padrões. Se é isso que você está acompanhando, nosso artigo sobre a [VFC como indicador da qualidade do sono](/pt-br/heart-rate-variability-sleep-quality-predictor-2026) explica como interpretá-la.\n\n## Frequência cardíaca das mulheres durante o sono\n\nMuitas buscas perguntam especificamente sobre a frequência cardíaca das mulheres à noite. As pesquisas resumidas aqui não oferecem uma frequência cardíaca normal durante o sono validada e específica para mulheres, então a abordagem é a mesma: compare sua média noturna com a sua própria média diurna e acompanhe sua tendência.\n\nHá algumas diferenças entre os sexos que vale a pena conhecer:\n\n- **O álcool pesa mais.** Em um conjunto de dados com 20.968 pessoas, uma dose acima da média pessoal, em comparação com uma dose abaixo, esteve ligada a um aumento da frequência cardíaca de repouso noturna de 2,8 bpm nas mulheres contra 2,4 bpm nos homens. A VFC caiu 3,8 ms nas mulheres e 3,3 ms nos homens.\n- **A variação entre as noites muda de forma diferente com a idade.** Em mais de 21.000 usuários de wearables, a flutuação diária da VFC durante o sono mostrou um padrão em U nas mulheres, diminuindo ao longo da meia-idade e aumentando depois dos 50 anos, aproximadamente. Nos homens, ela aumentou depois dos 40 anos, aproximadamente.\n\nNenhum desses achados significa que as mulheres devam esperar uma frequência cardíaca durante o sono geralmente mais alta ou mais baixa. Eles sugerem, sim, que o álcool pode mexer mais com os números noturnos de uma mulher e que a variabilidade deve ser interpretada levando a idade em conta.\n\n## O que faz a frequência cardíaca noturna subir\n\n### Álcool\n\nNo estudo com smartwatch de 40 pessoas, três noites de consumo moderado (40 g por dia para mulheres e 60 g por dia para homens) elevaram a frequência cardíaca de repouso noturna de 63,6 para 66,6 bpm, um aumento de 3,0 bpm (66,6 − 63,6). Depois, ela voltou para perto da referência, a 64,9 bpm. A arquitetura do sono medida pelo relógio não mudou de forma significativa, mas os participantes avaliaram o próprio sono como pior.\n\nO conjunto maior de dados do mundo real, com 5.109.185 pessoas-dia, encontrou aumentos dependentes da dose na frequência cardíaca de repouso noturna e quedas na VFC, com efeitos mais fortes em adultos mais jovens. Três hábitos reduziram o impacto: beber mais cedo ao longo do dia, dormir por mais tempo depois e reduzir a atividade.\n\n### Sono curto e irregular e pouca atividade\n\nEm mais de 21.000 usuários, oscilações maiores da VFC de uma noite para outra estiveram ligadas a mais álcool, menos atividade física e sono mais curto e menos regular. Trata-se de uma medida de VFC, e não da frequência cardíaca em si, mas ela aponta para os mesmos fatores do dia a dia.\n\n### Humor e distúrbios do sono\n\nEm um estudo de saúde móvel com 461 pessoas com depressão maior recorrente, uma frequência cardíaca de repouso noturna mais alta, medida por um dispositivo de pulso, esteve ligada a uma depressão mais grave depois, com os distúrbios do sono atuando como mediadores. A ansiedade piorava os distúrbios do sono, mas não tinha efeito direto sobre a frequência cardíaca de repouso noturna. Isso não transforma a frequência cardíaca em uma ferramenta de diagnóstico, mas uma subida persistente pode ser um sinal de que o sono e o humor merecem atenção.\n\n## Quando uma frequência noturna alta ou sem queda merece atenção\n\nUma noite com frequência alta geralmente reflete algo comum, como uma bebida à noite ou uma noite agitada. Um padrão que se repete é outra história. As evidências que ligam a frequência cardíaca noturna a desfechos de saúde vêm principalmente de pessoas que já têm doença cardiovascular ou renal, ou que estão em risco de ter:\n\n- Em 457 pacientes em tratamento ou avaliação para pressão alta, acompanhados por uma média de 72 ± 26 meses, a frequência cardíaca sem queda (razão noite/dia acima de 0,90) previu eventos cardiovasculares com uma razão de risco (hazard ratio) de 2,37. Os autores resumiram isso como um risco 2,4 vezes maior, independentemente da queda da pressão arterial. Na análise univariada, uma frequência cardíaca mais alta durante o sono esteve associada ao risco, enquanto a frequência acordado não.\n- Em pacientes hipertensos com doença renal crônica, os que tinham frequência cardíaca sem queda (razão de risco de 2,58) e ascendente (razão de risco de 3,95) tiveram mais probabilidade de atingir um desfecho renal combinado. Esse estudo não encontrou valor preditivo para mortalidade nem para eventos cardiovasculares.\n- Em pessoas com doença cardiovascular ou fatores de risco, cada 1 bpm a mais durante o sono não REM estável esteve associado a uma probabilidade cerca de 4,4% maior de a pressão arterial não cair à noite. Os autores sugerem que a queda da frequência cardíaca poderia servir como triagem para identificar quem pode se beneficiar de uma MAPA (monitorização ambulatorial da pressão arterial) de 24 horas.\n\nQuanto à frequência cardíaca de repouso em geral (não especificamente durante o sono), uma metanálise de 46 estudos mostrou que cada aumento de 10 bpm representava um risco relativo de 1,09 para mortalidade por todas as causas e de 1,08 para mortalidade cardiovascular. Pessoas com frequência cardíaca de repouso acima de 80 bpm tinham um risco relativo de 1,45 para mortalidade por todas as causas em comparação com a categoria mais baixa.\n\nEssas são associações de estudos observacionais. Elas mostram que uma frequência cardíaca noturna elevada ou sem queda merece atenção, e não que ela cause doenças.\n\n## Como interpretar a sua própria frequência cardíaca durante o sono\n\n- **Tire a média de várias noites.** No caso da variabilidade da VFC, foram necessárias pelo menos cinco de sete noites para corresponder de forma confiável à estimativa de uma semana inteira. Esse achado se refere à VFC, mas a lógica de não julgar por uma única noite vale também para a frequência cardíaca.\n- **Compare coisas equivalentes.** Use sempre o mesmo aparelho e a mesma métrica (média noturna ou mínimo noturno).\n- **Calcule sua razão.** Divida sua média habitual durante o sono pela sua média habitual durante o dia. Um resultado de 0,9 ou menos é o que os estudos classificam como queda da frequência cardíaca.\n- **Anote suas noites.** Registre se bebeu álcool e até que horas, além de qualquer noite muito curta ou irregular, para ver o que mexe com seus números.\n- **Procure um padrão, não uma noite isolada.** Uma média durante o sono que repetidamente não fica pelo menos 10% abaixo da sua média diurna corresponde ao padrão sem queda descrito nos estudos.\n\nSe esse padrão persistir por semanas, vale a pena conversar com um médico.",
+      "key_stats": [
+        {
+          "label": "Frequência cardíaca média de repouso noturna em adultos saudáveis, noites sem álcool",
+          "value": "63,6 ± 9,2 bpm",
+          "source": "E15"
+        },
+        {
+          "label": "Razão noite/dia da frequência cardíaca que define o padrão com queda",
+          "value": "≤ 0,9",
+          "source": "E4"
+        },
+        {
+          "label": "Risco maior de eventos cardiovasculares com frequência cardíaca sem queda em pacientes hipertensos",
+          "value": "2,4 vezes",
+          "source": "E6"
+        },
+        {
+          "label": "Aumento da frequência cardíaca de repouso noturna com uma dose acima da média pessoal vs. uma abaixo (mulheres / homens)",
+          "value": "2,8 bpm / 2,4 bpm",
+          "source": "E16"
+        },
+        {
+          "label": "Risco relativo de mortalidade por todas as causas a cada 10 bpm a mais de frequência cardíaca de repouso",
+          "value": "1,09",
+          "source": "E19"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Qual é a frequência cardíaca normal dormindo?",
+          "answer": "Ela deve ser mais baixa do que a sua frequência de repouso durante o dia. Em um estudo com smartwatch em 40 adultos saudáveis, a frequência cardíaca média de repouso noturna foi de 63,6 ± 9,2 bpm em noites sem álcool, o que mostra o quanto os valores saudáveis variam entre as pessoas. Sua própria tendência importa mais do que qualquer número isolado."
+        },
+        {
+          "question": "Quanto minha frequência cardíaca deve ser mais baixa à noite do que durante o dia?",
+          "answer": "Os estudos classificam uma razão noite/dia de 0,9 ou menos como queda da frequência cardíaca. Como 1 − 0,9 = 0,1, isso significa que a média noturna é pelo menos 10% menor que a média diurna. Uma razão acima de 1,0 significa que a frequência noturna é mais alta que a diurna."
+        },
+        {
+          "question": "A frequência cardíaca durante o sono é diferente nas mulheres?",
+          "answer": "Não há uma faixa normal validada específica para mulheres nas pesquisas resumidas aqui. Um grande conjunto de dados mostrou que tomar uma dose acima da sua média pessoal, em comparação com uma abaixo, esteve ligado a uma frequência cardíaca de repouso noturna 2,8 bpm mais alta nas mulheres contra 2,4 bpm nos homens, então o álcool pode aparecer com mais força nos números noturnos das mulheres."
+        },
+        {
+          "question": "Por que minha frequência cardíaca sobe e desce durante o sono?",
+          "answer": "A frequência cardíaca acompanha as fases do sono. Os intervalos entre batimentos são mais longos no sono não REM do que no sono REM ou na vigília, então o coração bate mais devagar nessa fase. Dentro do sono não REM, breves eventos ligados ao despertar provocam mudanças transitórias na frequência cardíaca. Picos curtos no gráfico do wearable são esperados."
+        },
+        {
+          "question": "O álcool aumenta a frequência cardíaca durante o sono?",
+          "answer": "Sim. Em um estudo, o consumo moderado elevou a frequência cardíaca de repouso noturna de 63,6 para 66,6 bpm, um aumento de 3,0 bpm (66,6 − 63,6), com retorno para perto da referência depois. Um grande conjunto de dados do mundo real mostrou que o efeito dependia da dose e era menor quando as pessoas bebiam mais cedo ao longo do dia."
+        },
+        {
+          "question": "Frequência cardíaca alta dormindo é perigosa?",
+          "answer": "Uma noite com frequência alta geralmente não é motivo de preocupação. Em pacientes em tratamento ou avaliação para pressão alta, uma frequência cardíaca que não caía à noite esteve ligada a um risco 2,4 vezes maior de eventos cardiovasculares. São associações, então um padrão repetido merece atenção, mas não é motivo para alarme."
+        }
+      ],
+      "comparison_table": {
+        "title": "Padrões de queda noturna da frequência cardíaca",
+        "headers": [
+          "Padrão",
+          "Razão noite/dia da frequência cardíaca",
+          "O que significa",
+          "O que os estudos encontraram"
+        ],
+        "rows": [
+          [
+            "Com queda (dipper)",
+            "0,9 ou menos",
+            "Média noturna pelo menos 10% menor que a média diurna (1 − 0,9 = 0,1)",
+            "Definido como padrão com queda da frequência cardíaca no estudo sobre doença renal"
+          ],
+          [
+            "Sem queda (non-dipper)",
+            "Acima de 0,9 e até 1,0",
+            "Média noturna menos de 10% menor que a média diurna, ou não mais baixa com razão de 1,0",
+            "Razão de risco de 2,58 para um desfecho renal combinado em pacientes hipertensos com doença renal crônica"
+          ],
+          [
+            "Ascendente (riser)",
+            "Acima de 1,0",
+            "Média noturna mais alta que a média diurna",
+            "Razão de risco de 3,95 para um desfecho renal combinado em pacientes hipertensos com doença renal crônica"
+          ],
+          [
+            "Qualquer padrão sem queda (razão acima de 0,90)",
+            "Acima de 0,90",
+            "Queda noturna menor que 10%, incluindo os ascendentes",
+            "Razão de risco de 2,37 para eventos cardiovasculares em 457 pacientes hipertensos"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cardiopulmonary coupling-calculated sleep stability and nocturnal heart rate kinetics as a potential indicator for cardiovascular health: a relationship with blood pressure dipping.",
+          "source": "Frontiers in sleep, 2024",
+          "url": "https://doi.org/10.3389/frsle.2024.1230958"
+        },
+        {
+          "title": "Nocturnal heart rate rising is a risk factor for poor renal outcomes in patients with chronic kidney disease and hypertension.",
+          "source": "Journal of clinical hypertension (Greenwich, Conn.), 2022",
+          "url": "https://doi.org/10.1111/jch.14428"
+        },
+        {
+          "title": "Nocturnal nondipping of heart rate predicts cardiovascular events in hypertensive patients.",
+          "source": "Journal of hypertension, 2009",
+          "url": "https://doi.org/10.1097/HJH.0b013e328330a938"
+        },
+        {
+          "title": "Heart rate variability during daytime naps in healthy adults: Autonomic profile and short-term reliability.",
+          "source": "Psychophysiology, 2016",
+          "url": "https://doi.org/10.1111/psyp.12595"
+        },
+        {
+          "title": "The impact of cyclic alternating pattern on heart rate variability during sleep in healthy young adults.",
+          "source": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology, 2000",
+          "url": "https://doi.org/10.1016/s1388-2457(99)00212-6"
+        },
+        {
+          "title": "The Impact of Alcohol on Sleep Physiology: A Prospective Observational Study on Nocturnal Resting Heart Rate Using Smartwatch Technology.",
+          "source": "Nutrients, 2025",
+          "url": "https://doi.org/10.3390/nu17091470"
+        },
+        {
+          "title": "Real-world effects of alcohol on heart rate, sleep, and physical activity by age and sex.",
+          "source": "PLOS digital health, 2026",
+          "url": "https://doi.org/10.1371/journal.pdig.0001284"
+        },
+        {
+          "title": "Heart rate variability coefficient of variation during sleep as a digital biomarker that reflects behavior and varies by age and sex.",
+          "source": "American journal of physiology. Heart and circulatory physiology, 2026",
+          "url": "https://doi.org/10.1152/ajpheart.00738.2025"
+        },
+        {
+          "title": "Exploring the dynamic relationships between nocturnal heart rate, sleep disruptions, anxiety levels, and depression severity over time in recurrent major depressive disorder.",
+          "source": "Journal of affective disorders, 2025",
+          "url": "https://doi.org/10.1016/j.jad.2025.02.010"
+        },
+        {
+          "title": "Resting heart rate and all-cause and cardiovascular mortality in the general population: a meta-analysis.",
+          "source": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 2016",
+          "url": "https://doi.org/10.1503/cmaj.150535"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "id": {
+      "title": "Detak Jantung Normal Saat Tidur: Berapa Angkanya?",
+      "short_title": "Detak Jantung Normal Saat Tidur",
+      "short_description": "Nilai detak jantung yang umum di malam hari, aturan penurunan 10%, naik-turunnya sesuai tahap tidur, dan pemicu bpm naik, berdasarkan penelitian.",
+      "meta_description": "Berapa detak jantung normal saat tidur? Simak nilai khas di malam hari, cara menghitung rasio malam/siang, alasan bpm berubah saat tidur, dan pemicunya naik.",
+      "tldr": "Detak jantung normal saat tidur lebih rendah daripada detak jantung istirahat Anda di siang hari. Dalam satu studi pada orang dewasa sehat, rata-rata detak jantung istirahat malam adalah 63,6 ± 9,2 bpm pada malam tanpa alkohol, dan nilainya sangat bervariasi antarindividu. Peneliti menggolongkan rasio malam/siang 0,9 atau kurang sebagai penurunan detak jantung (dipping), artinya rata-rata malam setidaknya 10% lebih rendah daripada rata-rata siang. Pada pasien yang sedang dirawat atau dievaluasi karena tekanan darah tinggi, detak jantung yang tidak turun di malam hari dikaitkan dengan risiko kejadian kardiovaskular yang lebih tinggi.",
+      "body_md": "## Berapa detak jantung normal saat tidur?\n\nDetak jantung saat tidur yang normal adalah detak jantung yang turun di bawah detak jantung istirahat Anda di siang hari dan tetap lebih rendah hampir sepanjang malam. Tidak ada satu angka yang cocok untuk semua orang. Usia, kebugaran, genetika, obat-obatan, dan apa yang terjadi pada malam sebelumnya semuanya menggeser nilai dasar. Yang disepakati penelitian adalah arah perubahannya: pada orang sehat, kerja kardiovaskular menurun dan sistem saraf beralih ke kendali parasimpatis (vagal) selama tidur malam.\n\nSebagai patokan konkret, sebuah studi smartwatch pada 40 orang dewasa sehat (63% perempuan, usia rata-rata 30,5 tahun) mencatat rata-rata detak jantung istirahat malam sebesar 63,6 ± 9,2 bpm pada malam-malam dasar tanpa alkohol. Angka ± 9,2 menggambarkan sebaran di sekitar rata-rata tersebut. Sederhananya, banyak orang sehat dalam kelompok itu memiliki nilai yang jauh di atas atau di bawah rata-rata, sehingga angka yang selisih beberapa denyut dari 63,6 bpm tidak banyak berarti jika dilihat sendiri.\n\nRata-rata malam juga tidak sama dengan nilai terendah malam. Dalam satu analisis pada orang dengan penyakit kardiovaskular atau faktor risikonya, detak jantung minimum selama tidur non-REM yang stabil adalah 56 ± 4 bpm pada mereka yang tekanan darah diastoliknya turun normal di malam hari, dan 59 ± 4 bpm pada mereka yang tekanan darah diastoliknya tidak turun.\n\nDaripada mengejar angka ideal, ajukan dua pertanyaan ini:\n\n- Apakah detak jantung saya saat tidur jelas lebih rendah daripada detak jantung saya di siang hari?\n- Apakah angkanya stabil dari malam ke malam, atau perlahan merangkak naik?\n\n## Seberapa banyak detak jantung seharusnya turun di malam hari?\n\nPeneliti biasanya menggambarkan penurunan di malam hari dengan rasio sederhana:\n\n**Rasio malam/siang = rata-rata detak jantung saat tidur ÷ rata-rata detak jantung saat terjaga**\n\nStudi pada orang dengan tekanan darah tinggi dan penyakit ginjal menggunakan kategori berikut:\n\n- **Dipper:** rasio 0,9 atau kurang. Karena 1 − 0,9 = 0,1, artinya rata-rata malam Anda setidaknya 10% di bawah rata-rata siang.\n- **Non-dipper:** rasio di atas 0,9 hingga 1,0. Rata-rata malam kurang dari 10% di bawah rata-rata siang, dan pada rasio tepat 1,0 tidak turun sama sekali.\n- **Riser:** rasio di atas 1,0. Rata-rata malam lebih tinggi daripada rata-rata siang.\n\nSebagian besar bukti tentang mengapa hal ini penting berasal dari kategori-kategori tersebut. Kami membahas sisi kardiovaskularnya lebih mendalam dalam panduan tentang [penurunan detak jantung di malam hari](/id/nocturnal-heart-rate-dip-cardiovascular-health-2026).\n\nUntuk menerapkan rasio ini di rumah, Anda memerlukan rata-rata yang sebanding. Banyak jam tangan dan cincin pintar menampilkan detak jantung saat tidur sekaligus detak jantung istirahat di siang hari, tetapi tiap perangkat mendefinisikan rentang waktu tersebut secara berbeda. Menggunakan perangkat yang sama, dipakai dengan cara yang sama, selama beberapa malam memberikan perbandingan yang lebih adil daripada satu kali pembacaan.\n\n## Mengapa detak jantung naik-turun saat tidur\n\nDetak jantung tidak datar sepanjang malam. Ia bergerak mengikuti tahapan tidur, dan pergerakan itu normal.\n\n### Tidur non-REM: fase paling lambat\n\nSelama tidur non-REM, jarak antardenyut memanjang, artinya detak jantung melambat. Dalam sebuah studi pada 66 orang dewasa muda sehat yang direkam saat tidur siang, tidur non-REM menunjukkan interval antardenyut yang lebih panjang dan variabilitas detak jantung frekuensi tinggi (penanda aktivitas vagal) yang lebih tinggi dibandingkan tidur REM atau saat terjaga. Para penulis mencatat bahwa perubahan ini mirip dengan yang terlihat saat tidur malam.\n\n### Tidur REM: fase lebih cepat\n\nPada tidur REM, interval antardenyut lebih pendek daripada saat tidur non-REM, sehingga jantung berdetak lebih cepat. Dalam studi tidur siang yang sama, rasio variabilitas detak jantung frekuensi rendah terhadap frekuensi tinggi lebih rendah selama tidur non-REM dibandingkan saat REM dan terjaga.\n\n### Terjaga sesaat (arousal)\n\nBahkan di dalam tidur non-REM, otak melewati siklus peristiwa singkat terkait arousal yang tidak selalu membuat Anda terbangun. Sebuah studi polisomnografi pada 10 orang dewasa sehat (usia rata-rata 28,1 tahun) menemukan bahwa fase-fase ini berkaitan dengan komponen detak jantung frekuensi rendah yang lebih tinggi dan frekuensi tinggi yang lebih rendah. Para penulis menggambarkan naik-turunnya arousal ini disertai perubahan sementara pada detak jantung dan tonus otot, lalu menyimpulkan bahwa fluktuasi tingkat arousal memengaruhi aktivitas otonom jantung.\n\nInilah sebabnya grafik di perangkat wearable menunjukkan lonjakan dan penurunan sepanjang malam. Beberapa puncak singkat adalah hal yang wajar. Yang lebih penting adalah level keseluruhannya dan apakah detak jantung malam tetap berada di bawah nilai dasar siang hari Anda.\n\nVariabilitas detak jantung (HRV) adalah variasi antardenyut yang mendasari pola-pola ini. Jika itu yang Anda pantau, artikel kami tentang [HRV sebagai prediktor kualitas tidur](/id/heart-rate-variability-sleep-quality-predictor-2026) menjelaskan cara membacanya.\n\n## Detak jantung saat tidur pada perempuan\n\nBanyak pencarian secara khusus menanyakan detak jantung perempuan di malam hari. Penelitian yang dirangkum di sini tidak menyediakan nilai normal detak jantung saat tidur yang terpisah dan tervalidasi untuk perempuan, jadi pendekatannya sama: bandingkan rata-rata malam dengan rata-rata siang Anda sendiri dan pantau trennya.\n\nAda beberapa perbedaan antara perempuan dan laki-laki yang perlu diketahui:\n\n- **Dampak alkohol lebih besar.** Dalam kumpulan data 20.968 orang, satu gelas minuman di atas rata-rata pribadi seseorang, dibandingkan satu gelas di bawahnya, dikaitkan dengan kenaikan detak jantung istirahat malam sebesar 2,8 bpm pada perempuan dibandingkan 2,4 bpm pada laki-laki. HRV turun 3,8 ms pada perempuan dan 3,3 ms pada laki-laki.\n- **Variabilitas dari malam ke malam berubah secara berbeda seiring usia.** Pada lebih dari 21.000 pengguna wearable, fluktuasi harian HRV saat tidur menunjukkan pola berbentuk U pada perempuan: menurun hingga usia paruh baya dan meningkat setelah sekitar usia 50 tahun. Pada laki-laki, fluktuasinya meningkat setelah sekitar usia 40 tahun.\n\nTidak satu pun temuan ini berarti perempuan perlu mengharapkan detak jantung saat tidur yang secara umum lebih tinggi atau lebih rendah. Namun, temuan tersebut menunjukkan bahwa alkohol dapat menggeser angka malam hari pada perempuan lebih besar, dan bahwa variabilitas sebaiknya dibaca dengan mempertimbangkan usia.\n\n## Faktor yang membuat detak jantung malam naik\n\n### Alkohol\n\nDalam studi smartwatch pada 40 orang tadi, tiga malam minum alkohol dalam jumlah sedang (40 g per hari untuk perempuan, 60 g per hari untuk laki-laki) menaikkan detak jantung istirahat malam dari 63,6 menjadi 66,6 bpm, atau naik 3,0 bpm (66,6 − 63,6). Angkanya kemudian kembali mendekati nilai dasar, yaitu 64,9 bpm. Arsitektur tidur yang diukur jam tangan tidak berubah secara signifikan, tetapi peserta menilai tidur mereka lebih buruk.\n\nKumpulan data dunia nyata yang lebih besar, mencakup 5.109.185 hari-orang, menemukan kenaikan detak jantung istirahat malam dan penurunan HRV yang bergantung pada dosis, dengan efek lebih kuat pada orang dewasa muda. Tiga kebiasaan mengurangi gangguan tersebut: minum lebih awal di siang hari, tidur lebih lama sesudahnya, dan mengurangi aktivitas.\n\n### Tidur pendek dan tidak teratur, serta kurang aktivitas\n\nPada lebih dari 21.000 pengguna, ayunan HRV dari malam ke malam yang lebih besar dikaitkan dengan konsumsi alkohol yang lebih banyak, aktivitas fisik yang lebih sedikit, serta tidur yang lebih pendek dan kurang konsisten. Itu adalah ukuran HRV, bukan detak jantung itu sendiri, tetapi mengarah pada faktor sehari-hari yang sama.\n\n### Suasana hati dan gangguan tidur\n\nDalam sebuah studi kesehatan seluler (mobile health) pada 461 orang dengan depresi mayor berulang, detak jantung istirahat malam yang lebih tinggi, diukur dengan perangkat di pergelangan tangan, dikaitkan dengan tingkat keparahan depresi di kemudian hari, dengan gangguan tidur sebagai perantara (mediator). Kecemasan memperburuk gangguan tidur, tetapi tidak berpengaruh langsung pada detak jantung istirahat malam. Ini tidak menjadikan detak jantung sebagai alat diagnosis, tetapi kenaikan yang terus-menerus bisa menjadi salah satu sinyal bahwa tidur dan suasana hati Anda perlu diperhatikan.\n\n## Kapan detak jantung malam yang tinggi atau tidak turun perlu diwaspadai\n\nSatu malam dengan angka tinggi biasanya mencerminkan hal biasa, seperti minum alkohol di malam hari atau tidur yang gelisah. Pola yang berulang lain ceritanya. Bukti yang mengaitkan detak jantung malam dengan dampak kesehatan sebagian besar berasal dari orang yang sudah memiliki, atau berisiko mengalami, penyakit kardiovaskular atau ginjal:\n\n- Pada 457 pasien yang sedang dirawat atau dievaluasi karena tekanan darah tinggi dan dipantau rata-rata selama 72 ± 26 bulan, detak jantung non-dipping (rasio malam/siang di atas 0,90) memprediksi kejadian kardiovaskular dengan hazard ratio 2,37. Para penulis merangkumnya sebagai risiko 2,4 kali lebih tinggi, terlepas dari penurunan tekanan darah. Detak jantung saat tidur yang lebih tinggi dikaitkan dengan risiko dalam analisis univariat, sedangkan detak jantung saat terjaga tidak.\n- Pada pasien hipertensi dengan penyakit ginjal kronis, kelompok non-dipper detak jantung (hazard ratio 2,58) dan riser (hazard ratio 3,95) lebih mungkin mencapai titik akhir (endpoint) ginjal gabungan. Studi tersebut tidak menemukan nilai prediktif untuk kematian atau kejadian kardiovaskular.\n- Pada orang dengan penyakit kardiovaskular atau faktor risikonya, setiap 1 bpm lebih tinggi selama tidur non-REM yang stabil dikaitkan dengan probabilitas sekitar 4,4% lebih tinggi untuk tekanan darah non-dipping. Para penulis menyarankan bahwa penurunan detak jantung dapat berfungsi sebagai alat skrining untuk mengidentifikasi siapa yang mungkin mendapat manfaat dari pemantauan tekanan darah rawat jalan 24 jam (ambulatory blood pressure monitoring).\n\nUntuk detak jantung istirahat secara umum (bukan khusus saat tidur), sebuah meta-analisis dari 46 studi menemukan bahwa setiap kenaikan 10 bpm membawa risiko relatif 1,09 untuk kematian akibat semua sebab dan 1,08 untuk kematian kardiovaskular. Orang dengan detak jantung istirahat di atas 80 bpm memiliki risiko relatif 1,45 untuk kematian akibat semua sebab dibandingkan kategori terendah.\n\nIni adalah asosiasi dari penelitian observasional. Temuan ini menunjukkan bahwa detak jantung malam yang tinggi atau datar layak diperhatikan, bukan bahwa hal tersebut menyebabkan penyakit.\n\n## Cara membaca detak jantung tidur Anda sendiri\n\n- **Rata-ratakan beberapa malam.** Untuk variabilitas HRV, dibutuhkan setidaknya lima dari tujuh malam agar hasilnya andal menyamai estimasi satu minggu penuh. Temuan itu tentang HRV, tetapi logika untuk tidak menilai dari satu malam juga berlaku untuk detak jantung.\n- **Bandingkan yang sebanding.** Gunakan perangkat yang sama dan metrik yang sama (rata-rata malam atau minimum malam) setiap kali.\n- **Hitung rasio Anda.** Bagi rata-rata detak jantung tidur Anda yang biasa dengan rata-rata detak jantung siang hari yang biasa. Hasil 0,9 atau kurang adalah yang digolongkan studi sebagai penurunan detak jantung (dipping).\n- **Beri catatan pada malam-malam Anda.** Catat konsumsi alkohol dan seberapa larut Anda minum, serta malam yang luar biasa pendek atau tidak teratur, agar Anda bisa melihat apa yang menggeser angka Anda.\n- **Cari pola, bukan satu malam.** Rata-rata detak jantung tidur yang berulang kali tidak turun setidaknya 10% di bawah rata-rata siang hari sesuai dengan pola non-dipping yang dijelaskan dalam studi.\n\nJika pola tersebut bertahan selama berminggu-minggu, wajar untuk membicarakannya dengan dokter.",
+      "key_stats": [
+        {
+          "label": "Rata-rata detak jantung istirahat malam, orang dewasa sehat pada malam tanpa alkohol",
+          "value": "63,6 ± 9,2 bpm",
+          "source": "E15"
+        },
+        {
+          "label": "Rasio detak jantung malam/siang yang mendefinisikan dipper",
+          "value": "≤ 0,9",
+          "source": "E4"
+        },
+        {
+          "label": "Peningkatan risiko kejadian kardiovaskular dengan detak jantung non-dipping pada pasien hipertensi",
+          "value": "2,4 kali",
+          "source": "E6"
+        },
+        {
+          "label": "Kenaikan detak jantung istirahat malam dengan satu gelas di atas rata-rata pribadi vs satu di bawahnya (perempuan / laki-laki)",
+          "value": "2,8 bpm / 2,4 bpm",
+          "source": "E16"
+        },
+        {
+          "label": "Risiko relatif kematian akibat semua sebab per 10 bpm detak jantung istirahat lebih tinggi",
+          "value": "1,09",
+          "source": "E19"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Berapa detak jantung normal saat tidur?",
+          "answer": "Detak jantung saat tidur seharusnya lebih rendah daripada detak jantung istirahat Anda di siang hari. Dalam studi smartwatch pada 40 orang dewasa sehat, rata-rata detak jantung istirahat malam adalah 63,6 ± 9,2 bpm pada malam tanpa alkohol, yang menunjukkan betapa bervariasinya nilai sehat antarindividu. Tren Anda sendiri lebih penting daripada satu angka tertentu."
+        },
+        {
+          "question": "Seberapa rendah detak jantung saya di malam hari dibandingkan siang hari?",
+          "answer": "Studi menggolongkan rasio malam/siang 0,9 atau kurang sebagai penurunan detak jantung (dipping). Karena 1 − 0,9 = 0,1, artinya rata-rata malam setidaknya 10% di bawah rata-rata siang. Rasio di atas 1,0 berarti detak jantung malam lebih tinggi daripada siang."
+        },
+        {
+          "question": "Apakah detak jantung saat tidur berbeda pada perempuan?",
+          "answer": "Dalam penelitian yang dirangkum di sini, tidak ada rentang normal terpisah yang tervalidasi untuk perempuan. Satu kumpulan data besar menemukan bahwa minum satu gelas di atas rata-rata pribadi, dibandingkan satu gelas di bawahnya, dikaitkan dengan detak jantung istirahat malam 2,8 bpm lebih tinggi pada perempuan dibandingkan 2,4 bpm pada laki-laki, sehingga efek alkohol mungkin tampak lebih kuat pada angka malam hari perempuan."
+        },
+        {
+          "question": "Mengapa detak jantung saya naik-turun saat tidur?",
+          "answer": "Detak jantung mengikuti tahapan tidur. Interval antardenyut lebih panjang saat tidur non-REM dibandingkan tidur REM atau saat terjaga, sehingga jantung berdetak lebih lambat pada fase itu. Di dalam tidur non-REM, peristiwa singkat terkait arousal membawa perubahan sementara pada detak jantung. Lonjakan singkat pada grafik perangkat wearable adalah hal yang wajar."
+        },
+        {
+          "question": "Apakah alkohol menaikkan detak jantung saat tidur?",
+          "answer": "Ya. Dalam satu studi, minum alkohol dalam jumlah sedang menaikkan detak jantung istirahat malam dari 63,6 menjadi 66,6 bpm, atau naik 3,0 bpm (66,6 − 63,6), lalu kembali mendekati nilai dasar sesudahnya. Kumpulan data dunia nyata yang besar menemukan efeknya bergantung pada dosis dan lebih kecil ketika orang minum lebih awal di siang hari."
+        },
+        {
+          "question": "Apakah detak jantung tinggi saat tidur berbahaya?",
+          "answer": "Satu malam dengan angka tinggi biasanya tidak perlu dikhawatirkan. Pada pasien yang sedang dirawat atau dievaluasi karena tekanan darah tinggi, detak jantung yang tidak turun di malam hari dikaitkan dengan risiko kejadian kardiovaskular 2,4 kali lebih tinggi. Ini adalah asosiasi, jadi pola yang berulang layak diperhatikan, bukan alasan untuk panik."
+        }
+      ],
+      "comparison_table": {
+        "title": "Pola penurunan detak jantung di malam hari",
+        "headers": [
+          "Pola",
+          "Rasio detak jantung malam/siang",
+          "Artinya",
+          "Temuan studi"
+        ],
+        "rows": [
+          [
+            "Dipper",
+            "0,9 atau kurang",
+            "Rata-rata malam setidaknya 10% di bawah rata-rata siang (1 − 0,9 = 0,1)",
+            "Didefinisikan sebagai dipper detak jantung dalam studi penyakit ginjal"
+          ],
+          [
+            "Non-dipper",
+            "Di atas 0,9 hingga 1,0",
+            "Rata-rata malam kurang dari 10% di bawah rata-rata siang, atau tidak lebih rendah pada rasio 1,0",
+            "Hazard ratio 2,58 untuk titik akhir ginjal gabungan pada pasien hipertensi dengan penyakit ginjal kronis"
+          ],
+          [
+            "Riser",
+            "Di atas 1,0",
+            "Rata-rata malam lebih tinggi daripada rata-rata siang",
+            "Hazard ratio 3,95 untuk titik akhir ginjal gabungan pada pasien hipertensi dengan penyakit ginjal kronis"
+          ],
+          [
+            "Semua non-dipping (rasio di atas 0,90)",
+            "Di atas 0,90",
+            "Penurunan malam kurang dari 10%, termasuk riser",
+            "Hazard ratio 2,37 untuk kejadian kardiovaskular pada 457 pasien hipertensi"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cardiopulmonary coupling-calculated sleep stability and nocturnal heart rate kinetics as a potential indicator for cardiovascular health: a relationship with blood pressure dipping.",
+          "source": "Frontiers in sleep, 2024",
+          "url": "https://doi.org/10.3389/frsle.2024.1230958"
+        },
+        {
+          "title": "Nocturnal heart rate rising is a risk factor for poor renal outcomes in patients with chronic kidney disease and hypertension.",
+          "source": "Journal of clinical hypertension (Greenwich, Conn.), 2022",
+          "url": "https://doi.org/10.1111/jch.14428"
+        },
+        {
+          "title": "Nocturnal nondipping of heart rate predicts cardiovascular events in hypertensive patients.",
+          "source": "Journal of hypertension, 2009",
+          "url": "https://doi.org/10.1097/HJH.0b013e328330a938"
+        },
+        {
+          "title": "Heart rate variability during daytime naps in healthy adults: Autonomic profile and short-term reliability.",
+          "source": "Psychophysiology, 2016",
+          "url": "https://doi.org/10.1111/psyp.12595"
+        },
+        {
+          "title": "The impact of cyclic alternating pattern on heart rate variability during sleep in healthy young adults.",
+          "source": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology, 2000",
+          "url": "https://doi.org/10.1016/s1388-2457(99)00212-6"
+        },
+        {
+          "title": "The Impact of Alcohol on Sleep Physiology: A Prospective Observational Study on Nocturnal Resting Heart Rate Using Smartwatch Technology.",
+          "source": "Nutrients, 2025",
+          "url": "https://doi.org/10.3390/nu17091470"
+        },
+        {
+          "title": "Real-world effects of alcohol on heart rate, sleep, and physical activity by age and sex.",
+          "source": "PLOS digital health, 2026",
+          "url": "https://doi.org/10.1371/journal.pdig.0001284"
+        },
+        {
+          "title": "Heart rate variability coefficient of variation during sleep as a digital biomarker that reflects behavior and varies by age and sex.",
+          "source": "American journal of physiology. Heart and circulatory physiology, 2026",
+          "url": "https://doi.org/10.1152/ajpheart.00738.2025"
+        },
+        {
+          "title": "Exploring the dynamic relationships between nocturnal heart rate, sleep disruptions, anxiety levels, and depression severity over time in recurrent major depressive disorder.",
+          "source": "Journal of affective disorders, 2025",
+          "url": "https://doi.org/10.1016/j.jad.2025.02.010"
+        },
+        {
+          "title": "Resting heart rate and all-cause and cardiovascular mortality in the general population: a meta-analysis.",
+          "source": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 2016",
+          "url": "https://doi.org/10.1503/cmaj.150535"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "fr": {
+      "title": "Fréquence cardiaque la nuit : quelle valeur est normale ?",
+      "short_title": "Fréquence cardiaque normale la nuit",
+      "short_description": "Valeurs typiques de la fréquence cardiaque nocturne, règle de la baisse de 10 %, variations selon les stades de sommeil et facteurs qui font grimper les bpm.",
+      "meta_description": "Quelle fréquence cardiaque la nuit est normale ? Valeurs typiques pendant le sommeil, calcul du ratio nuit/jour, variations des bpm et ce qui les fait monter.",
+      "tldr": "Une fréquence cardiaque normale pendant le sommeil est inférieure à votre fréquence cardiaque de repos en journée. Dans une étude menée chez des adultes en bonne santé, la fréquence cardiaque de repos nocturne moyenne était de 63,6 ± 9,2 bpm lors des nuits sans alcool, avec de fortes différences d'une personne à l'autre. Les chercheurs qualifient de « dipping » (baisse nocturne) un ratio nuit/jour inférieur ou égal à 0,9 : la moyenne nocturne est alors au moins 10 % plus basse que la moyenne diurne. Chez des patients traités ou évalués pour une hypertension, une fréquence cardiaque qui ne baissait pas la nuit était associée à un risque accru d'événements cardiovasculaires.",
+      "body_md": "## Quelle est la fréquence cardiaque normale pendant le sommeil ?\n\nUne fréquence cardiaque de sommeil normale descend sous votre fréquence cardiaque de repos diurne et reste plus basse pendant la majeure partie de la nuit. Il n'existe pas de chiffre unique valable pour tout le monde. L'âge, la condition physique, la génétique, les médicaments et la soirée précédente modifient tous la valeur de référence. Les études s'accordent en revanche sur le sens du changement : chez les personnes en bonne santé, l'activité cardiovasculaire diminue et le système nerveux bascule vers un contrôle parasympathique (vagal) au cours du sommeil nocturne.\n\nPour fixer un repère concret, une étude par montre connectée menée auprès de 40 adultes en bonne santé (63 % de femmes, âge moyen 30,5 ans) a relevé une fréquence cardiaque de repos nocturne moyenne de 63,6 ± 9,2 bpm lors de nuits de référence sans alcool. La valeur ± 9,2 décrit la dispersion autour de cette moyenne. Concrètement, de nombreuses personnes en bonne santé de ce groupe se situaient nettement au-dessus ou en dessous de la moyenne : une mesure qui s'écarte de quelques battements de 63,6 bpm ne veut donc pas dire grand-chose à elle seule.\n\nLa moyenne nocturne n'est pas non plus le minimum nocturne. Dans une analyse portant sur des personnes atteintes de maladie cardiovasculaire ou présentant des facteurs de risque, la fréquence cardiaque minimale en sommeil non paradoxal (non-REM) stable était de 56 ± 4 bpm chez celles dont la pression artérielle diastolique baissait normalement la nuit, et de 59 ± 4 bpm chez celles dont elle ne baissait pas.\n\nPlutôt que de courir après un chiffre idéal, posez-vous deux questions :\n\n- Ma fréquence cardiaque pendant le sommeil est-elle nettement plus basse que ma fréquence cardiaque en journée ?\n- Reste-t-elle stable d'une nuit à l'autre, ou a-t-elle tendance à augmenter ?\n\n## De combien la fréquence cardiaque doit-elle baisser la nuit ?\n\nLes chercheurs décrivent généralement la baisse nocturne à l'aide d'un ratio simple :\n\n**Ratio nuit/jour = fréquence cardiaque moyenne pendant le sommeil ÷ fréquence cardiaque moyenne à l'éveil**\n\nDes études menées chez des personnes souffrant d'hypertension et de maladie rénale ont utilisé ces catégories :\n\n- **Dipper :** ratio inférieur ou égal à 0,9. Comme 1 − 0,9 = 0,1, votre moyenne nocturne est au moins 10 % inférieure à votre moyenne diurne.\n- **Non-dipper :** ratio supérieur à 0,9 et jusqu'à 1,0. La moyenne nocturne est inférieure de moins de 10 % à la moyenne diurne, et à un ratio d'exactement 1,0, elle ne baisse pas du tout.\n- **Riser :** ratio supérieur à 1,0. La moyenne nocturne est plus élevée que la moyenne diurne.\n\nUne grande partie des données expliquant pourquoi c'est important repose sur ces catégories. Nous détaillons le volet cardiovasculaire dans notre guide sur la [baisse nocturne de la fréquence cardiaque](/fr/nocturnal-heart-rate-dip-cardiovascular-health-2026).\n\nPour appliquer ce ratio chez vous, il vous faut des moyennes comparables. De nombreuses montres et bagues connectées affichent à la fois une fréquence cardiaque de sommeil et une fréquence cardiaque de repos diurne, mais chaque appareil définit ces plages horaires à sa façon. Utiliser le même appareil, porté de la même manière, sur plusieurs nuits donne une comparaison plus juste qu'une mesure isolée.\n\n## Pourquoi votre rythme cardiaque varie pendant le sommeil\n\nLa fréquence cardiaque n'est pas plate au cours de la nuit. Elle évolue avec les stades de sommeil, et ces variations sont normales.\n\n### Sommeil non paradoxal : la phase la plus lente\n\nPendant le sommeil non paradoxal (non-REM), l'intervalle entre deux battements s'allonge, ce qui correspond à un cœur plus lent. Dans une étude portant sur 66 jeunes adultes en bonne santé enregistrés pendant une sieste, le sommeil non-REM présentait des intervalles entre battements plus longs et une variabilité de la fréquence cardiaque haute fréquence (un marqueur de l'activité vagale) plus élevée que le sommeil paradoxal (REM) ou l'éveil. Les auteurs ont souligné que ces changements étaient similaires à ceux observés pendant le sommeil nocturne.\n\n### Sommeil paradoxal : une phase plus rapide\n\nEn sommeil paradoxal, les intervalles entre battements sont plus courts qu'en sommeil non-REM : le cœur bat donc plus vite. Dans la même étude sur la sieste, le rapport entre variabilité basse fréquence et haute fréquence était plus faible en sommeil non-REM qu'en sommeil paradoxal et à l'éveil.\n\n### Les micro-éveils\n\nMême au sein du sommeil non-REM, le cerveau traverse de brefs épisodes liés à l'éveil (« arousals ») qui ne vous réveillent pas forcément. Une étude polysomnographique portant sur 10 adultes en bonne santé (âge moyen 28,1 ans) a montré que ces phases étaient associées à une composante basse fréquence plus élevée et à une composante haute fréquence plus faible de la fréquence cardiaque. Les auteurs décrivent ces fluctuations comme accompagnées de changements transitoires de la fréquence cardiaque et du tonus musculaire, et concluent que les variations du niveau d'éveil influencent l'activité autonome cardiaque.\n\nC'est pourquoi la courbe d'un objet connecté montre des pics et des creux tout au long de la nuit. Quelques pics brefs sont attendus. Ce qui compte davantage, c'est le niveau global et le fait que la nuit reste en dessous de votre valeur de référence diurne.\n\nLa variabilité de la fréquence cardiaque (VFC, ou HRV en anglais) correspond à la variation d'un battement à l'autre qui sous-tend ces schémas. Si c'est ce que vous suivez, notre article sur [la VFC comme indicateur de la qualité du sommeil](/fr/heart-rate-variability-sleep-quality-predictor-2026) explique comment l'interpréter.\n\n## Fréquence cardiaque la nuit chez la femme\n\nDe nombreuses recherches portent spécifiquement sur la fréquence cardiaque nocturne des femmes. Les travaux résumés ici ne proposent pas de valeur normale distincte et validée pour les femmes ; la même approche s'applique donc : comparez votre moyenne nocturne à votre propre moyenne diurne et suivez votre tendance.\n\nCertaines différences entre les sexes méritent toutefois d'être connues :\n\n- **L'alcool pèse davantage.** Dans un ensemble de données portant sur 20 968 personnes, un verre de plus que sa moyenne personnelle, comparé à un verre de moins, était associé à une hausse de la fréquence cardiaque de repos nocturne de 2,8 bpm chez les femmes contre 2,4 bpm chez les hommes. La VFC baissait de 3,8 ms chez les femmes et de 3,3 ms chez les hommes.\n- **La variabilité d'une nuit à l'autre évolue différemment avec l'âge.** Chez plus de 21 000 utilisateurs d'objets connectés, la fluctuation quotidienne de la VFC nocturne suivait une courbe en U chez les femmes : elle diminuait jusqu'au milieu de la vie, puis augmentait après environ 50 ans. Chez les hommes, elle augmentait après environ 40 ans.\n\nAucun de ces résultats ne signifie que les femmes doivent s'attendre à une fréquence cardiaque de sommeil globalement plus élevée ou plus basse. Ils suggèrent en revanche que l'alcool peut davantage modifier les chiffres nocturnes des femmes, et que la variabilité s'interprète mieux en tenant compte de l'âge.\n\n## Ce qui fait monter la fréquence cardiaque la nuit\n\n### L'alcool\n\nDans l'étude par montre connectée menée auprès de 40 personnes, trois soirées de consommation modérée (40 g par jour pour les femmes, 60 g par jour pour les hommes) ont fait passer la fréquence cardiaque de repos nocturne de 63,6 à 66,6 bpm, soit une hausse de 3,0 bpm (66,6 − 63,6). Elle est ensuite revenue près de sa valeur de référence, à 64,9 bpm. L'architecture du sommeil mesurée par la montre n'a pas changé de façon significative, mais les participants ont jugé leur sommeil moins bon.\n\nL'ensemble de données en conditions réelles, plus vaste, couvrant 5 109 185 jours-personnes, a mis en évidence une hausse de la fréquence cardiaque de repos nocturne et une baisse de la VFC proportionnelles à la dose, avec des effets plus marqués chez les jeunes adultes. Trois habitudes atténuaient la perturbation : boire plus tôt dans la journée, dormir plus longtemps ensuite et réduire son activité.\n\n### Sommeil court ou irrégulier et manque d'activité\n\nChez plus de 21 000 utilisateurs, de plus fortes variations de la VFC d'une nuit à l'autre étaient associées à davantage d'alcool, à moins d'activité physique et à un sommeil plus court et moins régulier. Il s'agit d'une mesure de VFC et non de la fréquence cardiaque elle-même, mais elle renvoie aux mêmes facteurs du quotidien.\n\n### Humeur et troubles du sommeil\n\nDans une étude de santé mobile portant sur 461 personnes souffrant de dépression majeure récurrente, une fréquence cardiaque de repos nocturne plus élevée, mesurée par un appareil porté au poignet, était associée à une sévérité ultérieure de la dépression, les troubles du sommeil jouant un rôle de médiateur. L'anxiété aggravait les troubles du sommeil mais n'avait pas d'effet direct sur la fréquence cardiaque de repos nocturne. Cela ne fait pas de la fréquence cardiaque un outil de diagnostic, mais une hausse durable peut être un signal indiquant que le sommeil et l'humeur méritent votre attention.\n\n## Quand une fréquence nocturne élevée ou sans baisse doit alerter\n\nUne nuit isolée avec une fréquence élevée s'explique généralement par quelque chose de banal, comme un verre en soirée ou une nuit agitée. Un schéma répété, c'est différent. Les données reliant la fréquence cardiaque nocturne à l'état de santé proviennent principalement de personnes déjà atteintes, ou à risque, de maladie cardiovasculaire ou rénale :\n\n- Chez 457 patients traités ou évalués pour une hypertension et suivis en moyenne 72 ± 26 mois, l'absence de baisse de la fréquence cardiaque (ratio nuit/jour supérieur à 0,90) prédisait les événements cardiovasculaires avec un hazard ratio de 2,37. Les auteurs l'ont résumé comme un risque 2,4 fois plus élevé, indépendamment de la baisse de la pression artérielle. Une fréquence cardiaque de sommeil plus élevée était associée au risque en analyse univariée, contrairement à la fréquence cardiaque à l'éveil.\n- Chez des patients hypertendus atteints de maladie rénale chronique, les non-dippers (hazard ratio 2,58) et les risers (hazard ratio 3,95) de fréquence cardiaque atteignaient plus souvent un critère d'évaluation rénal combiné. Cette étude n'a trouvé aucune valeur prédictive pour la mortalité ni pour les événements cardiovasculaires.\n- Chez des personnes atteintes de maladie cardiovasculaire ou présentant des facteurs de risque, chaque battement par minute supplémentaire en sommeil non-REM stable était associé à une probabilité supérieure d'environ 4,4 % d'absence de baisse nocturne de la pression artérielle. Les auteurs suggèrent que la baisse de la fréquence cardiaque pourrait servir d'outil de dépistage pour repérer les personnes susceptibles de bénéficier d'une mesure ambulatoire de la pression artérielle sur 24 heures (MAPA).\n\nPour la fréquence cardiaque de repos en général (et non spécifiquement pendant le sommeil), une méta-analyse de 46 études a montré que chaque hausse de 10 bpm s'accompagnait d'un risque relatif de 1,09 pour la mortalité toutes causes et de 1,08 pour la mortalité cardiovasculaire. Les personnes dont la fréquence cardiaque de repos dépassait 80 bpm présentaient un risque relatif de 1,45 pour la mortalité toutes causes par rapport à la catégorie la plus basse.\n\nIl s'agit d'associations issues d'études observationnelles. Elles indiquent qu'une fréquence cardiaque nocturne élevée ou qui ne baisse pas mérite d'être remarquée, et non qu'elle cause une maladie.\n\n## Comment interpréter votre propre fréquence cardiaque nocturne\n\n- **Faites la moyenne sur plusieurs nuits.** Pour la variabilité de la VFC, il fallait au moins cinq nuits sur sept pour retrouver de façon fiable l'estimation d'une semaine complète. Ce résultat concerne la VFC, mais la logique consistant à ne pas juger sur une seule nuit vaut aussi pour la fréquence cardiaque.\n- **Comparez ce qui est comparable.** Utilisez à chaque fois le même appareil et la même mesure (moyenne nocturne ou minimum nocturne).\n- **Calculez votre ratio.** Divisez votre moyenne habituelle pendant le sommeil par votre moyenne habituelle en journée. Un résultat inférieur ou égal à 0,9 correspond à ce que les études classent comme une baisse (dipping) de la fréquence cardiaque.\n- **Annotez vos soirées.** Notez votre consommation d'alcool et l'heure à laquelle vous avez bu, ainsi que les nuits inhabituellement courtes ou irrégulières, pour voir ce qui fait bouger vos chiffres.\n- **Cherchez une tendance, pas une nuit isolée.** Une moyenne de sommeil qui, de façon répétée, ne descend pas d'au moins 10 % sous votre moyenne diurne correspond au profil « non-dipper » décrit dans les études.\n\nSi ce schéma persiste pendant plusieurs semaines, il est raisonnable d'en parler à un médecin.",
+      "key_stats": [
+        {
+          "label": "Fréquence cardiaque de repos nocturne moyenne, adultes en bonne santé, nuits sans alcool",
+          "value": "63,6 ± 9,2 bpm",
+          "source": "E15"
+        },
+        {
+          "label": "Ratio nuit/jour de la fréquence cardiaque définissant les dippers",
+          "value": "≤ 0,9",
+          "source": "E4"
+        },
+        {
+          "label": "Risque accru d'événements cardiovasculaires en l'absence de baisse nocturne de la fréquence cardiaque chez les hypertendus",
+          "value": "2,4 fois",
+          "source": "E6"
+        },
+        {
+          "label": "Hausse de la fréquence cardiaque de repos nocturne avec un verre au-dessus vs en dessous de sa moyenne personnelle (femmes / hommes)",
+          "value": "2,8 bpm / 2,4 bpm",
+          "source": "E16"
+        },
+        {
+          "label": "Risque relatif de mortalité toutes causes par tranche de 10 bpm de fréquence cardiaque de repos en plus",
+          "value": "1,09",
+          "source": "E19"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Quelle est la fréquence cardiaque normale pendant le sommeil ?",
+          "answer": "Elle doit être inférieure à votre fréquence cardiaque de repos en journée. Dans une étude par montre connectée menée auprès de 40 adultes en bonne santé, la fréquence cardiaque de repos nocturne moyenne était de 63,6 ± 9,2 bpm lors des nuits sans alcool, ce qui montre à quel point les valeurs saines varient d'une personne à l'autre. Votre propre tendance compte davantage qu'un chiffre isolé."
+        },
+        {
+          "question": "De combien ma fréquence cardiaque doit-elle être plus basse la nuit que le jour ?",
+          "answer": "Les études qualifient de baisse (dipping) un ratio nuit/jour inférieur ou égal à 0,9. Comme 1 − 0,9 = 0,1, la moyenne nocturne est alors au moins 10 % inférieure à la moyenne diurne. Un ratio supérieur à 1,0 signifie que la fréquence nocturne est plus élevée que la fréquence diurne."
+        },
+        {
+          "question": "La fréquence cardiaque la nuit est-elle différente chez la femme ?",
+          "answer": "Les travaux résumés ici ne proposent pas de plage normale distincte et validée pour les femmes. Un vaste ensemble de données a montré qu'un verre au-dessus de sa moyenne personnelle, comparé à un verre en dessous, était associé à une fréquence cardiaque de repos nocturne plus élevée de 2,8 bpm chez les femmes contre 2,4 bpm chez les hommes : l'alcool pourrait donc se refléter plus nettement dans les chiffres nocturnes des femmes."
+        },
+        {
+          "question": "Pourquoi mon rythme cardiaque monte et descend-il pendant le sommeil ?",
+          "answer": "La fréquence cardiaque suit les stades de sommeil. Les intervalles entre battements sont plus longs en sommeil non-REM qu'en sommeil paradoxal ou à l'éveil : le cœur bat donc plus lentement pendant cette phase. Au sein du sommeil non-REM, de brefs épisodes liés à l'éveil entraînent des variations transitoires de la fréquence cardiaque. Des pics brefs sur la courbe d'un objet connecté sont attendus."
+        },
+        {
+          "question": "L'alcool augmente-t-il la fréquence cardiaque pendant le sommeil ?",
+          "answer": "Oui. Dans une étude, une consommation modérée a fait passer la fréquence cardiaque de repos nocturne de 63,6 à 66,6 bpm, soit une hausse de 3,0 bpm (66,6 − 63,6), avant un retour vers la valeur de référence. Un vaste ensemble de données en conditions réelles a montré que l'effet était proportionnel à la dose et plus faible lorsque les personnes buvaient plus tôt dans la journée."
+        },
+        {
+          "question": "Une fréquence cardiaque élevée pendant le sommeil est-elle dangereuse ?",
+          "answer": "Une nuit isolée avec une fréquence élevée n'est généralement pas inquiétante. Chez des patients traités ou évalués pour une hypertension, une fréquence cardiaque qui ne baissait pas la nuit était associée à un risque d'événements cardiovasculaires 2,4 fois plus élevé. Il s'agit d'associations : un schéma répété mérite donc votre attention, sans être une raison de s'alarmer."
+        }
+      ],
+      "comparison_table": {
+        "title": "Profils de baisse nocturne de la fréquence cardiaque",
+        "headers": [
+          "Profil",
+          "Ratio nuit/jour de la fréquence cardiaque",
+          "Signification",
+          "Résultats des études"
+        ],
+        "rows": [
+          [
+            "Dipper",
+            "0,9 ou moins",
+            "Moyenne nocturne au moins 10 % sous la moyenne diurne (1 − 0,9 = 0,1)",
+            "Défini comme dipper de fréquence cardiaque dans l'étude sur la maladie rénale"
+          ],
+          [
+            "Non-dipper",
+            "Supérieur à 0,9 jusqu'à 1,0",
+            "Moyenne nocturne inférieure de moins de 10 % à la moyenne diurne, ou pas plus basse à un ratio de 1,0",
+            "Hazard ratio de 2,58 pour un critère rénal combiné chez des hypertendus atteints de maladie rénale chronique"
+          ],
+          [
+            "Riser",
+            "Supérieur à 1,0",
+            "Moyenne nocturne plus élevée que la moyenne diurne",
+            "Hazard ratio de 3,95 pour un critère rénal combiné chez des hypertendus atteints de maladie rénale chronique"
+          ],
+          [
+            "Toute absence de baisse (ratio supérieur à 0,90)",
+            "Supérieur à 0,90",
+            "Baisse nocturne inférieure à 10 %, risers compris",
+            "Hazard ratio de 2,37 pour les événements cardiovasculaires chez 457 patients hypertendus"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cardiopulmonary coupling-calculated sleep stability and nocturnal heart rate kinetics as a potential indicator for cardiovascular health: a relationship with blood pressure dipping.",
+          "source": "Frontiers in sleep, 2024",
+          "url": "https://doi.org/10.3389/frsle.2024.1230958"
+        },
+        {
+          "title": "Nocturnal heart rate rising is a risk factor for poor renal outcomes in patients with chronic kidney disease and hypertension.",
+          "source": "Journal of clinical hypertension (Greenwich, Conn.), 2022",
+          "url": "https://doi.org/10.1111/jch.14428"
+        },
+        {
+          "title": "Nocturnal nondipping of heart rate predicts cardiovascular events in hypertensive patients.",
+          "source": "Journal of hypertension, 2009",
+          "url": "https://doi.org/10.1097/HJH.0b013e328330a938"
+        },
+        {
+          "title": "Heart rate variability during daytime naps in healthy adults: Autonomic profile and short-term reliability.",
+          "source": "Psychophysiology, 2016",
+          "url": "https://doi.org/10.1111/psyp.12595"
+        },
+        {
+          "title": "The impact of cyclic alternating pattern on heart rate variability during sleep in healthy young adults.",
+          "source": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology, 2000",
+          "url": "https://doi.org/10.1016/s1388-2457(99)00212-6"
+        },
+        {
+          "title": "The Impact of Alcohol on Sleep Physiology: A Prospective Observational Study on Nocturnal Resting Heart Rate Using Smartwatch Technology.",
+          "source": "Nutrients, 2025",
+          "url": "https://doi.org/10.3390/nu17091470"
+        },
+        {
+          "title": "Real-world effects of alcohol on heart rate, sleep, and physical activity by age and sex.",
+          "source": "PLOS digital health, 2026",
+          "url": "https://doi.org/10.1371/journal.pdig.0001284"
+        },
+        {
+          "title": "Heart rate variability coefficient of variation during sleep as a digital biomarker that reflects behavior and varies by age and sex.",
+          "source": "American journal of physiology. Heart and circulatory physiology, 2026",
+          "url": "https://doi.org/10.1152/ajpheart.00738.2025"
+        },
+        {
+          "title": "Exploring the dynamic relationships between nocturnal heart rate, sleep disruptions, anxiety levels, and depression severity over time in recurrent major depressive disorder.",
+          "source": "Journal of affective disorders, 2025",
+          "url": "https://doi.org/10.1016/j.jad.2025.02.010"
+        },
+        {
+          "title": "Resting heart rate and all-cause and cardiovascular mortality in the general population: a meta-analysis.",
+          "source": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 2016",
+          "url": "https://doi.org/10.1503/cmaj.150535"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    },
+    "de": {
+      "title": "Herzfrequenz im Schlaf: Welche Werte sind normal?",
+      "short_title": "Normale Herzfrequenz im Schlaf",
+      "short_description": "Typische nächtliche Herzfrequenzwerte, die 10-%-Absenkungsregel, Schwankungen je nach Schlafphase und was den Puls erhöht – wissenschaftlich erklärt.",
+      "meta_description": "Welche Herzfrequenz im Schlaf ist normal? Typische Nachtwerte, wie Sie Ihre Nacht-Tag-Absenkung berechnen, warum der Puls im Schlaf schwankt und was ihn erhöht.",
+      "tldr": "Eine normale Herzfrequenz im Schlaf liegt unter Ihrem Ruhepuls am Tag. In einer Studie mit gesunden Erwachsenen betrug die durchschnittliche nächtliche Ruheherzfrequenz in alkoholfreien Nächten 63,6 ± 9,2 bpm, wobei die individuellen Werte stark schwankten. Forschende bezeichnen ein Nacht-Tag-Verhältnis von 0,9 oder weniger als Herzfrequenz-Dipping: Der Nachtdurchschnitt liegt dann mindestens 10 % unter dem Tagesdurchschnitt. Bei Patientinnen und Patienten, die wegen Bluthochdrucks behandelt oder untersucht wurden, war eine Herzfrequenz ohne nächtliche Absenkung mit einem höheren Risiko für kardiovaskuläre Ereignisse verbunden.",
+      "body_md": "## Welche Herzfrequenz im Schlaf ist normal?\n\nNormal ist eine Herzfrequenz im Schlaf, die unter Ihren Ruhepuls am Tag sinkt und den größten Teil der Nacht niedriger bleibt. Einen einzigen Wert, der für alle passt, gibt es nicht. Alter, Fitness, Genetik, Medikamente und der vorangegangene Abend verschieben den Ausgangswert. Einig ist sich die Forschung über die Richtung der Veränderung: Bei gesunden Menschen nimmt die Herz-Kreislauf-Leistung während des Nachtschlafs ab, und das Nervensystem verschiebt sich in Richtung parasympathischer (vagaler) Steuerung.\n\nAls konkreter Anhaltspunkt: Eine Smartwatch-Studie mit 40 gesunden Erwachsenen (63 % Frauen, Durchschnittsalter 30,5 Jahre) ermittelte in alkoholfreien Ausgangsnächten eine durchschnittliche nächtliche Ruheherzfrequenz von 63,6 ± 9,2 bpm (Schlägen pro Minute). Die Angabe ± 9,2 beschreibt die Streuung um diesen Mittelwert. Einfach gesagt: Viele gesunde Menschen in dieser Gruppe lagen deutlich über oder unter dem Durchschnitt. Ein Wert, der ein paar Schläge von 63,6 bpm abweicht, sagt für sich genommen also wenig aus.\n\nDer Nachtdurchschnitt ist zudem nicht dasselbe wie das nächtliche Minimum. In einer Analyse bei Menschen mit Herz-Kreislauf-Erkrankungen oder entsprechenden Risikofaktoren lag die minimale Herzfrequenz im stabilen Non-REM-Schlaf bei 56 ± 4 bpm, wenn der diastolische Blutdruck nachts normal absank, und bei 59 ± 4 bpm, wenn er nicht absank.\n\nStatt einem Idealwert hinterherzujagen, sollten Sie sich zwei Fragen stellen:\n\n- Ist meine Herzfrequenz im Schlaf deutlich niedriger als tagsüber?\n- Bleibt sie von Nacht zu Nacht stabil, oder steigt sie allmählich an?\n\n## Wie stark sollte die Herzfrequenz nachts sinken?\n\nForschende beschreiben die nächtliche Absenkung meist mit einem einfachen Verhältnis:\n\n**Nacht-Tag-Verhältnis = durchschnittliche Herzfrequenz im Schlaf ÷ durchschnittliche Herzfrequenz im Wachzustand**\n\nStudien bei Menschen mit Bluthochdruck und Nierenerkrankungen nutzen folgende Kategorien:\n\n- **Dipper:** Verhältnis von 0,9 oder weniger. Da 1 − 0,9 = 0,1 ist, liegt Ihr Nachtdurchschnitt mindestens 10 % unter Ihrem Tagesdurchschnitt.\n- **Non-Dipper:** Verhältnis über 0,9 bis einschließlich 1,0. Der Nachtdurchschnitt liegt weniger als 10 % unter dem Tagesdurchschnitt; bei einem Verhältnis von genau 1,0 sinkt er überhaupt nicht.\n- **Riser:** Verhältnis über 1,0. Der Nachtdurchschnitt liegt höher als der Tagesdurchschnitt.\n\nEin Großteil der Belege dafür, warum das wichtig ist, stammt aus diesen Kategorien. Die kardiovaskuläre Seite behandeln wir ausführlicher in unserem Ratgeber zur [nächtlichen Herzfrequenzabsenkung](/de/nocturnal-heart-rate-dip-cardiovascular-health-2026).\n\nUm das Verhältnis zu Hause anzuwenden, brauchen Sie vergleichbare Durchschnittswerte. Viele Uhren und Ringe zeigen sowohl eine Schlafherzfrequenz als auch einen Ruhepuls am Tag an, doch die Geräte definieren diese Zeitfenster unterschiedlich. Wenn Sie dasselbe Gerät über mehrere Nächte auf dieselbe Weise tragen, erhalten Sie einen faireren Vergleich als mit einer einmaligen Messung.\n\n## Warum die Herzfrequenz im Schlaf schwankt\n\nDie Herzfrequenz verläuft über Nacht nicht gleichförmig. Sie verändert sich mit den Schlafphasen – und das ist normal.\n\n### Non-REM-Schlaf: die langsamste Phase\n\nIm Non-REM-Schlaf verlängert sich der Abstand zwischen den Herzschlägen, die Herzfrequenz wird also langsamer. In einer Studie mit 66 gesunden jungen Erwachsenen, die während eines Tagschlafs aufgezeichnet wurden, zeigte der Non-REM-Schlaf längere Schlag-zu-Schlag-Intervalle und eine höhere hochfrequente Herzratenvariabilität (ein Marker für vagale Aktivität) als der REM-Schlaf oder der Wachzustand. Die Autoren merkten an, dass diese Veränderungen denen im Nachtschlaf ähnelten.\n\n### REM-Schlaf: eine schnellere Phase\n\nIm REM-Schlaf sind die Schlag-zu-Schlag-Intervalle kürzer als im Non-REM-Schlaf, das Herz schlägt also schneller. In derselben Tagschlaf-Studie war das Verhältnis von nieder- zu hochfrequenter Herzratenvariabilität im Non-REM-Schlaf niedriger als im REM-Schlaf und im Wachzustand.\n\n### Kurze Weckreaktionen (Arousals)\n\nAuch innerhalb des Non-REM-Schlafs durchläuft das Gehirn kurze, Arousal-bezogene Ereignisse, die Sie nicht unbedingt aufwecken. Eine Polysomnographie-Studie mit 10 gesunden Erwachsenen (Durchschnittsalter 28,1 Jahre) fand, dass diese Phasen mit einem höheren niederfrequenten und einem niedrigeren hochfrequenten Anteil der Herzfrequenz verbunden waren. Die Autoren beschreiben, dass diese Arousal-Schwankungen mit vorübergehenden Veränderungen von Herzfrequenz und Muskeltonus einhergehen, und folgern, dass Schwankungen des Wachheitsniveaus die autonome Herzaktivität beeinflussen.\n\nDeshalb zeigt die Kurve eines Wearables über Nacht Spitzen und Täler. Einige kurze Ausschläge sind zu erwarten. Wichtiger sind das Gesamtniveau und die Frage, ob die Nacht unter Ihrem Ausgangswert am Tag bleibt.\n\nDie Herzratenvariabilität (HRV) ist die Schlag-zu-Schlag-Schwankung hinter diesen Mustern. Wenn Sie genau diese Größe verfolgen, erklärt unser Artikel zur [HRV als Prädiktor der Schlafqualität](/de/heart-rate-variability-sleep-quality-predictor-2026), wie Sie sie lesen.\n\n## Herzfrequenz im Schlaf bei Frauen\n\nViele Suchanfragen beziehen sich gezielt auf die nächtliche Herzfrequenz von Frauen. Die hier zusammengefasste Forschung liefert keinen eigenen, validierten Normalwert der Schlafherzfrequenz für Frauen. Es gilt daher derselbe Ansatz: Vergleichen Sie Ihren Nachtdurchschnitt mit Ihrem eigenen Tagesdurchschnitt und beobachten Sie Ihren Verlauf.\n\nEinige Geschlechtsunterschiede sind dennoch wissenswert:\n\n- **Alkohol wirkt stärker.** In einem Datensatz mit 20.968 Personen war ein Getränk über dem persönlichen Durchschnitt im Vergleich zu einem Getränk darunter mit einem Anstieg der nächtlichen Ruheherzfrequenz um 2,8 bpm bei Frauen und 2,4 bpm bei Männern verbunden. Die HRV sank bei Frauen um 3,8 ms und bei Männern um 3,3 ms.\n- **Die Schwankung von Nacht zu Nacht verändert sich mit dem Alter unterschiedlich.** Bei mehr als 21.000 Wearable-Nutzern zeigte die tägliche Schwankung der Schlaf-HRV bei Frauen ein U-förmiges Muster: Sie nahm bis zur Lebensmitte ab und stieg ab etwa 50 Jahren wieder an. Bei Männern stieg sie ab etwa 40 Jahren an.\n\nKeiner der beiden Befunde bedeutet, dass Frauen grundsätzlich mit einer höheren oder niedrigeren Herzfrequenz im Schlaf rechnen müssen. Sie deuten aber darauf hin, dass Alkohol die nächtlichen Werte von Frauen stärker verschieben kann und dass die Variabilität am besten mit Blick auf das Alter interpretiert wird.\n\n## Was die Herzfrequenz in der Nacht erhöht\n\n### Alkohol\n\nIn der Smartwatch-Studie mit 40 Personen erhöhten drei Abende mit moderatem Alkoholkonsum (40 g pro Tag bei Frauen, 60 g pro Tag bei Männern) die nächtliche Ruheherzfrequenz von 63,6 auf 66,6 bpm – ein Anstieg um 3,0 bpm (66,6 − 63,6). Danach kehrte sie mit 64,9 bpm annähernd zum Ausgangswert zurück. Die von der Uhr gemessene Schlafarchitektur veränderte sich nicht signifikant, die Teilnehmenden bewerteten ihren Schlaf jedoch als schlechter.\n\nDer größere Praxisdatensatz mit 5.109.185 Personentagen zeigte dosisabhängige Anstiege der nächtlichen Ruheherzfrequenz und Rückgänge der HRV, mit stärkeren Effekten bei jüngeren Erwachsenen. Drei Gewohnheiten verringerten die Störung: früher am Tag zu trinken, danach länger zu schlafen und die Aktivität zu reduzieren.\n\n### Kurzer, unregelmäßiger Schlaf und wenig Bewegung\n\nBei mehr als 21.000 Nutzern waren größere Schwankungen der HRV von Nacht zu Nacht mit mehr Alkohol, weniger körperlicher Aktivität sowie kürzerem und weniger regelmäßigem Schlaf verbunden. Das ist ein HRV-Maß und nicht die Herzfrequenz selbst, weist aber auf dieselben Alltagsfaktoren hin.\n\n### Stimmung und Schlafstörungen\n\nIn einer Mobile-Health-Studie mit 461 Menschen mit rezidivierender Major Depression war eine höhere, per Handgelenksgerät gemessene nächtliche Ruheherzfrequenz mit einem späteren Schweregrad der Depression verbunden, wobei Schlafstörungen als Mediator wirkten. Angst verschlechterte die Schlafstörungen, hatte aber keinen direkten Effekt auf die nächtliche Ruheherzfrequenz. Das macht die Herzfrequenz nicht zu einem Diagnoseinstrument. Ein anhaltender Anstieg kann jedoch ein Signal dafür sein, dass Schlaf und Stimmung Aufmerksamkeit verdienen.\n\n## Wann ein hoher oder nicht absinkender Nachtpuls relevant ist\n\nEine einzelne Nacht mit hohen Werten hat meist einen alltäglichen Grund, etwa ein Glas am Abend oder eine unruhige Nacht. Ein wiederkehrendes Muster ist etwas anderes. Die Belege, die die nächtliche Herzfrequenz mit gesundheitlichen Folgen verknüpfen, stammen vor allem von Menschen, die bereits eine Herz-Kreislauf- oder Nierenerkrankung haben oder ein Risiko dafür tragen:\n\n- Bei 457 Patientinnen und Patienten, die wegen Bluthochdrucks behandelt oder untersucht und durchschnittlich 72 ± 26 Monate beobachtet wurden, sagte eine nicht absinkende Herzfrequenz (Nacht-Tag-Verhältnis über 0,90) kardiovaskuläre Ereignisse mit einer Hazard Ratio von 2,37 voraus. Die Autoren fassten dies als 2,4-fach höheres Risiko zusammen, unabhängig von der nächtlichen Blutdruckabsenkung. Eine höhere Herzfrequenz im Schlaf war in der univariaten Analyse mit dem Risiko verbunden, die Herzfrequenz im Wachzustand nicht.\n- Bei Bluthochdruckpatienten mit chronischer Nierenerkrankung erreichten Herzfrequenz-Non-Dipper (Hazard Ratio 2,58) und Riser (Hazard Ratio 3,95) häufiger einen kombinierten renalen Endpunkt. Für Sterblichkeit oder kardiovaskuläre Ereignisse fand diese Studie keinen Vorhersagewert.\n- Bei Menschen mit Herz-Kreislauf-Erkrankungen oder Risikofaktoren war jeder Schlag pro Minute mehr im stabilen Non-REM-Schlaf mit einer um etwa 4,4 % höheren Wahrscheinlichkeit für fehlende Blutdruckabsenkung verbunden. Die Autoren schlagen vor, die Herzfrequenzabsenkung als Screening zu nutzen, um zu erkennen, wer von einer 24-Stunden-Langzeitblutdruckmessung profitieren könnte.\n\nFür den Ruhepuls allgemein (nicht speziell im Schlaf) ergab eine Metaanalyse von 46 Studien, dass jeder Anstieg um 10 bpm mit einem relativen Risiko von 1,09 für die Gesamtsterblichkeit und 1,08 für die kardiovaskuläre Sterblichkeit einherging. Menschen mit einem Ruhepuls über 80 bpm hatten im Vergleich zur niedrigsten Kategorie ein relatives Risiko von 1,45 für die Gesamtsterblichkeit.\n\nEs handelt sich um Zusammenhänge aus Beobachtungsstudien. Sie zeigen, dass eine erhöhte oder flache nächtliche Herzfrequenz Beachtung verdient – nicht, dass sie Krankheiten verursacht.\n\n## So interpretieren Sie Ihre eigene Herzfrequenz im Schlaf\n\n- **Mitteln Sie mehrere Nächte.** Für die HRV-Variabilität waren mindestens fünf von sieben Nächten nötig, um zuverlässig dem Wert einer ganzen Woche zu entsprechen. Dieser Befund betrifft die HRV, doch der Grundsatz, nicht nach einer einzelnen Nacht zu urteilen, gilt auch für die Herzfrequenz.\n- **Vergleichen Sie Gleiches mit Gleichem.** Nutzen Sie jedes Mal dasselbe Gerät und denselben Messwert (Nachtdurchschnitt oder Nachtminimum).\n- **Berechnen Sie Ihr Verhältnis.** Teilen Sie Ihren typischen Schlafdurchschnitt durch Ihren typischen Tagesdurchschnitt. Ein Ergebnis von 0,9 oder darunter gilt in Studien als Herzfrequenz-Dipping.\n- **Notieren Sie Ihre Abende.** Halten Sie fest, ob und wie spät Sie Alkohol getrunken haben, sowie ungewöhnlich kurze oder unregelmäßige Nächte. So erkennen Sie, was Ihre Werte beeinflusst.\n- **Achten Sie auf Muster, nicht auf einzelne Nächte.** Ein Schlafdurchschnitt, der wiederholt nicht mindestens 10 % unter Ihren Tagesdurchschnitt sinkt, entspricht dem in den Studien beschriebenen Non-Dipping-Muster.\n\nHält dieses Muster über Wochen an, ist es sinnvoll, es bei Ihrer Ärztin oder Ihrem Arzt anzusprechen.",
+      "key_stats": [
+        {
+          "label": "Durchschnittliche nächtliche Ruheherzfrequenz gesunder Erwachsener in alkoholfreien Nächten",
+          "value": "63,6 ± 9,2 bpm",
+          "source": "E15"
+        },
+        {
+          "label": "Nacht-Tag-Verhältnis der Herzfrequenz, das Dipper definiert",
+          "value": "≤ 0,9",
+          "source": "E4"
+        },
+        {
+          "label": "Höheres Risiko für kardiovaskuläre Ereignisse bei fehlender Herzfrequenzabsenkung bei Bluthochdruckpatienten",
+          "value": "2,4-fach",
+          "source": "E6"
+        },
+        {
+          "label": "Anstieg der nächtlichen Ruheherzfrequenz bei einem Getränk über vs. unter dem persönlichen Durchschnitt (Frauen / Männer)",
+          "value": "2,8 bpm / 2,4 bpm",
+          "source": "E16"
+        },
+        {
+          "label": "Relatives Risiko der Gesamtsterblichkeit pro 10 bpm höherem Ruhepuls",
+          "value": "1,09",
+          "source": "E19"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Welche Herzfrequenz ist im Schlaf normal?",
+          "answer": "Sie sollte niedriger sein als Ihr Ruhepuls am Tag. In einer Smartwatch-Studie mit 40 gesunden Erwachsenen lag die durchschnittliche nächtliche Ruheherzfrequenz in alkoholfreien Nächten bei 63,6 ± 9,2 bpm – ein Hinweis darauf, wie stark gesunde Werte zwischen Menschen variieren. Ihr eigener Verlauf ist wichtiger als jede Einzelzahl."
+        },
+        {
+          "question": "Um wie viel niedriger sollte meine Herzfrequenz nachts als tagsüber sein?",
+          "answer": "Studien werten ein Nacht-Tag-Verhältnis von 0,9 oder weniger als Herzfrequenz-Dipping. Da 1 − 0,9 = 0,1 ist, liegt der Nachtdurchschnitt dann mindestens 10 % unter dem Tagesdurchschnitt. Ein Verhältnis über 1,0 bedeutet, dass die Herzfrequenz nachts höher ist als tagsüber."
+        },
+        {
+          "question": "Ist die Herzfrequenz im Schlaf bei Frauen anders?",
+          "answer": "In der hier zusammengefassten Forschung gibt es keinen eigenen, validierten Normalbereich für Frauen. Ein großer Datensatz zeigte, dass ein Getränk über dem persönlichen Durchschnitt im Vergleich zu einem darunter bei Frauen mit einer um 2,8 bpm höheren nächtlichen Ruheherzfrequenz verbunden war, bei Männern mit 2,4 bpm. Alkohol kann sich also in den nächtlichen Werten von Frauen stärker zeigen."
+        },
+        {
+          "question": "Warum steigt und fällt meine Herzfrequenz im Schlaf?",
+          "answer": "Die Herzfrequenz folgt den Schlafphasen. Die Schlag-zu-Schlag-Intervalle sind im Non-REM-Schlaf länger als im REM-Schlaf oder im Wachzustand, das Herz schlägt dann also langsamer. Innerhalb des Non-REM-Schlafs bringen kurze, Arousal-bezogene Ereignisse vorübergehende Veränderungen der Herzfrequenz mit sich. Kurze Spitzen in der Kurve eines Wearables sind zu erwarten."
+        },
+        {
+          "question": "Erhöht Alkohol die Herzfrequenz im Schlaf?",
+          "answer": "Ja. In einer Studie erhöhte moderater Alkoholkonsum die nächtliche Ruheherzfrequenz von 63,6 auf 66,6 bpm – ein Anstieg um 3,0 bpm (66,6 − 63,6) –, danach näherte sie sich wieder dem Ausgangswert. Ein großer Praxisdatensatz zeigte, dass der Effekt dosisabhängig war und geringer ausfiel, wenn früher am Tag getrunken wurde."
+        },
+        {
+          "question": "Ist eine hohe Herzfrequenz im Schlaf gefährlich?",
+          "answer": "Eine einzelne Nacht mit hohen Werten ist meist kein Grund zur Sorge. Bei Patientinnen und Patienten, die wegen Bluthochdrucks behandelt oder untersucht wurden, war eine nachts nicht absinkende Herzfrequenz mit einem 2,4-fach höheren Risiko für kardiovaskuläre Ereignisse verbunden. Es handelt sich um Zusammenhänge – ein wiederkehrendes Muster verdient also Aufmerksamkeit, ist aber kein Grund zur Panik."
+        }
+      ],
+      "comparison_table": {
+        "title": "Muster der nächtlichen Herzfrequenzabsenkung",
+        "headers": [
+          "Muster",
+          "Nacht-Tag-Verhältnis der Herzfrequenz",
+          "Bedeutung",
+          "Ergebnisse der Studien"
+        ],
+        "rows": [
+          [
+            "Dipper",
+            "0,9 oder weniger",
+            "Nachtdurchschnitt mindestens 10 % unter dem Tagesdurchschnitt (1 − 0,9 = 0,1)",
+            "In der Nierenstudie als Herzfrequenz-Dipper definiert"
+          ],
+          [
+            "Non-Dipper",
+            "Über 0,9 bis 1,0",
+            "Nachtdurchschnitt weniger als 10 % unter dem Tagesdurchschnitt bzw. bei einem Verhältnis von 1,0 nicht niedriger",
+            "Hazard Ratio 2,58 für einen kombinierten renalen Endpunkt bei Bluthochdruckpatienten mit chronischer Nierenerkrankung"
+          ],
+          [
+            "Riser",
+            "Über 1,0",
+            "Nachtdurchschnitt höher als Tagesdurchschnitt",
+            "Hazard Ratio 3,95 für einen kombinierten renalen Endpunkt bei Bluthochdruckpatienten mit chronischer Nierenerkrankung"
+          ],
+          [
+            "Jede fehlende Absenkung (Verhältnis über 0,90)",
+            "Über 0,90",
+            "Nächtlicher Abfall kleiner als 10 %, Riser eingeschlossen",
+            "Hazard Ratio 2,37 für kardiovaskuläre Ereignisse bei 457 Bluthochdruckpatienten"
+          ]
+        ]
+      },
+      "references": [
+        {
+          "title": "Cardiopulmonary coupling-calculated sleep stability and nocturnal heart rate kinetics as a potential indicator for cardiovascular health: a relationship with blood pressure dipping.",
+          "source": "Frontiers in sleep, 2024",
+          "url": "https://doi.org/10.3389/frsle.2024.1230958"
+        },
+        {
+          "title": "Nocturnal heart rate rising is a risk factor for poor renal outcomes in patients with chronic kidney disease and hypertension.",
+          "source": "Journal of clinical hypertension (Greenwich, Conn.), 2022",
+          "url": "https://doi.org/10.1111/jch.14428"
+        },
+        {
+          "title": "Nocturnal nondipping of heart rate predicts cardiovascular events in hypertensive patients.",
+          "source": "Journal of hypertension, 2009",
+          "url": "https://doi.org/10.1097/HJH.0b013e328330a938"
+        },
+        {
+          "title": "Heart rate variability during daytime naps in healthy adults: Autonomic profile and short-term reliability.",
+          "source": "Psychophysiology, 2016",
+          "url": "https://doi.org/10.1111/psyp.12595"
+        },
+        {
+          "title": "The impact of cyclic alternating pattern on heart rate variability during sleep in healthy young adults.",
+          "source": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology, 2000",
+          "url": "https://doi.org/10.1016/s1388-2457(99)00212-6"
+        },
+        {
+          "title": "The Impact of Alcohol on Sleep Physiology: A Prospective Observational Study on Nocturnal Resting Heart Rate Using Smartwatch Technology.",
+          "source": "Nutrients, 2025",
+          "url": "https://doi.org/10.3390/nu17091470"
+        },
+        {
+          "title": "Real-world effects of alcohol on heart rate, sleep, and physical activity by age and sex.",
+          "source": "PLOS digital health, 2026",
+          "url": "https://doi.org/10.1371/journal.pdig.0001284"
+        },
+        {
+          "title": "Heart rate variability coefficient of variation during sleep as a digital biomarker that reflects behavior and varies by age and sex.",
+          "source": "American journal of physiology. Heart and circulatory physiology, 2026",
+          "url": "https://doi.org/10.1152/ajpheart.00738.2025"
+        },
+        {
+          "title": "Exploring the dynamic relationships between nocturnal heart rate, sleep disruptions, anxiety levels, and depression severity over time in recurrent major depressive disorder.",
+          "source": "Journal of affective disorders, 2025",
+          "url": "https://doi.org/10.1016/j.jad.2025.02.010"
+        },
+        {
+          "title": "Resting heart rate and all-cause and cardiovascular mortality in the general population: a meta-analysis.",
+          "source": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne, 2016",
+          "url": "https://doi.org/10.1503/cmaj.150535"
+        }
+      ],
+      "last_updated": "2026-11-11"
+    }
+  },
+  "generated_at": "2026-11-11T02:28:48.000Z",
+  "updated_at": "2026-11-11T02:28:48.000Z"
+}
