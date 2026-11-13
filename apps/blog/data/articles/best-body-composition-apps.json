@@ -30,11 +30,6 @@
           "label": "Lean-mass share of weight lost on GLP-1 therapy",
           "value": "40–60% in some trials, about 15% or less in others (lean mass ≠ muscle)",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
-        },
-        {
-          "label": "HAVIT body-composition estimate vs InBody",
-          "value": "92.9% within ±5 percentage points (n=70, not a medical measurement)",
-          "source": "Havit Inc. internal comparison"
         }
       ],
       "comparison_table": {
@@ -102,7 +97,7 @@
         },
         {
           "question": "Can an app estimate body-fat percentage without any hardware?",
-          "answer": "It can estimate it, not measure it. In an internal comparison of 70 people, HAVIT's estimate came within ±5 percentage points of the same person's InBody result 92.9% of the time. That's not an independent validation or a medical measurement, so use it to see which way fat and lean mass are moving rather than as an exact number."
+          "answer": "It can estimate it, not measure it. HAVIT's body composition figures are estimates, not InBody, DEXA or medical measurements, so use them to see which way fat and lean mass are moving rather than as an exact number."
         },
         {
           "question": "How accurate is Galaxy Watch body composition?",
@@ -162,11 +157,6 @@
           "label": "GLP-1 감량분 중 제지방 비율",
           "value": "연구에 따라 40~60% 또는 약 15% 이하 (제지방 ≠ 근육)",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
-        },
-        {
-          "label": "하비트 체성분 추정 vs 인바디",
-          "value": "±5%p 이내 92.9% (70명, 의료 측정 아님)",
-          "source": "Havit Inc. 내부 비교"
         }
       ],
       "comparison_table": {
@@ -242,7 +232,7 @@
         },
         {
           "question": "앱이 장비 없이 체지방률을 알 수 있나요?",
-          "answer": "측정은 아니고 추정입니다. 하비트의 체성분 추정은 70명 내부 비교에서 같은 사람의 인바디 결과와 ±5%p 이내였던 경우가 92.9%였습니다. 외부 검증이 아니고 의료 측정도 아니므로, 정확한 숫자보다 지방·제지방이 어느 쪽으로 움직이는지 보는 용도로 쓰세요."
+          "answer": "측정은 아니고 추정입니다. 하비트의 체성분은 인바디·DEXA 측정값이 아닌 추정치이고 의료 측정도 아니므로, 정확한 숫자보다 지방·제지방이 어느 쪽으로 움직이는지 보는 용도로 쓰세요."
         },
         {
           "question": "갤럭시 워치 체성분은 정확한가요?",
@@ -302,11 +292,6 @@
           "label": "GLP-1で減った体重のうち除脂肪の割合",
           "value": "研究により40〜60%、または約15%以下（除脂肪≠筋肉）",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
-        },
-        {
-          "label": "HAVITの体組成推定 vs InBody",
-          "value": "±5ポイント以内が92.9%（70人、医療用の測定ではない）",
-          "source": "Havit Inc. 社内比較"
         }
       ],
       "comparison_table": {
@@ -390,7 +375,7 @@
         },
         {
           "question": "機器なしで体脂肪率が分かるアプリはありますか？",
-          "answer": "測定ではなく推定になります。HAVITの体組成推定は、70人の社内比較で同じ人のInBodyの結果との差が±5ポイント以内だった人が92.9%でした。外部機関による検証ではなく、医療用の測定でもないので、正確な数字よりも脂肪・除脂肪がどちらに動いているかを見る用途で使ってください。"
+          "answer": "測定ではなく推定になります。HAVITの体組成はInBodyやDEXAによる測定値ではなく推定値で、医療用の測定でもないので、正確な数字よりも脂肪・除脂肪がどちらに動いているかを見る用途で使ってください。"
         },
         {
           "question": "スマートウォッチの体組成はどのくらい正確ですか？",
@@ -450,11 +435,6 @@
           "label": "GLP-1 类药物减重中去脂体重的占比",
           "value": "因研究而异：40–60% 或约15%以下（去脂体重≠肌肉）",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
-        },
-        {
-          "label": "HAVIT 体成分推算 vs InBody",
-          "value": "±5个百分点以内占92.9%（70人，非医学测量）",
-          "source": "Havit Inc. 内部对照"
         }
       ],
       "comparison_table": {
@@ -530,7 +510,7 @@
         },
         {
           "question": "App 不用设备也能知道体脂率吗？",
-          "answer": "那是推算，不是测量。在70人的内部对照中，HAVIT 的体成分推算值与同一个人的 InBody 结果相差±5个百分点以内的占92.9%。这不是外部验证，也不是医学测量，所以请用它看脂肪和去脂体重往哪个方向走，而不是当作精确数字。"
+          "answer": "那是推算，不是测量。HAVIT 的体成分是推算值，不是 InBody 或 DEXA 的实测，也不是医学测量，所以请用它看脂肪和去脂体重往哪个方向走，而不是当作精确数字。"
         },
         {
           "question": "体脂秤、智能手表测的体脂准吗？",
@@ -590,11 +570,6 @@
           "label": "GLP-1 減掉的體重中去脂體重的比例",
           "value": "依研究為 40～60% 或約 15% 以下（去脂體重 ≠ 肌肉）",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
-        },
-        {
-          "label": "HAVIT 體組成推估 vs InBody",
-          "value": "±5 個百分點以內 92.9%（70 人，非醫療量測）",
-          "source": "Havit Inc. 內部比對"
         }
       ],
       "comparison_table": {
@@ -670,7 +645,7 @@
         },
         {
           "question": "不用儀器，App 真的能知道體脂率嗎？",
-          "answer": "那是推估，不是量測。HAVIT 的體組成推估在 70 人的內部比對中，和同一個人的 InBody 結果相差在 ±5 個百分點以內的比例是 92.9%。這不是外部驗證，也不是醫療量測，請拿來看脂肪和去脂體重往哪個方向走，而不是看精確的數字。"
+          "answer": "那是推估，不是量測。HAVIT 的體組成是推估值，不是 InBody 或 DEXA 的量測結果，也不是醫療量測，請拿來看脂肪和去脂體重往哪個方向走，而不是看精確的數字。"
         },
         {
           "question": "家裡的體脂計數字為什麼每天差很多？",
@@ -730,11 +705,6 @@
           "label": "Masa magra dentro del peso perdido con GLP-1",
           "value": "40–60 % o ≤15 % según el estudio (masa magra ≠ músculo)",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
-        },
-        {
-          "label": "Estimación de HAVIT frente a InBody",
-          "value": "92,9 % a ±5 puntos (70 personas, no es medición médica)",
-          "source": "Comparación interna de Havit Inc."
         }
       ],
       "comparison_table": {
@@ -810,7 +780,7 @@
         },
         {
           "question": "¿Puede una app saber mi porcentaje de grasa sin ningún aparato?",
-          "answer": "No lo mide: lo estima. En una comparación interna con 70 personas, la estimación de HAVIT quedó a ±5 puntos del resultado de InBody de la misma persona en el 92,9 % de los casos. No es una validación externa ni una medición médica, así que úsala para ver hacia dónde se mueven la grasa y la masa magra, no para conocer la cifra exacta."
+          "answer": "No lo mide: lo estima. Las cifras de HAVIT son estimaciones, no una medición de InBody o DEXA ni una medición médica, así que úsalas para ver hacia dónde se mueven la grasa y la masa magra, no para conocer la cifra exacta."
         },
         {
           "question": "¿Es fiable la composición corporal del Galaxy Watch?",
@@ -870,11 +840,6 @@
           "label": "Massa magra dentro do peso perdido com GLP-1",
           "value": "40–60% em alguns estudos, 15% ou menos em outros (massa magra ≠ músculo)",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
-        },
-        {
-          "label": "Estimativa do HAVIT x InBody",
-          "value": "Até ±5 p.p. em 92,9% dos casos (70 pessoas, não é medição médica)",
-          "source": "Havit Inc., comparação interna"
         }
       ],
       "comparison_table": {
@@ -942,7 +907,7 @@
         },
         {
           "question": "Um app consegue saber meu percentual de gordura sem aparelho?",
-          "answer": "Não mede: estima. Numa comparação interna com 70 pessoas, a estimativa do HAVIT ficou a até ±5 pontos percentuais do InBody da mesma pessoa em 92,9% dos casos. Não é validação externa nem medição médica; use para ver para que lado vão a gordura e a massa magra, não para cravar um número."
+          "answer": "Não mede: estima. Os valores do HAVIT são estimativas, não medição por InBody ou DEXA nem medição médica; use para ver para que lado vão a gordura e a massa magra, não para cravar um número."
         },
         {
           "question": "A composição corporal do Galaxy Watch é precisa?",
@@ -1002,11 +967,6 @@
           "label": "Porsi massa tanpa lemak dari berat yang hilang dengan GLP-1",
           "value": "40–60% atau sekitar ≤15%, tergantung studi (massa tanpa lemak ≠ otot)",
           "source": "Neeland dkk. 2024, Diabetes Obes Metab"
-        },
-        {
-          "label": "Estimasi komposisi tubuh HAVIT vs InBody",
-          "value": "92,9% dalam ±5 poin persen (70 orang, bukan pengukuran medis)",
-          "source": "Perbandingan internal Havit Inc."
         }
       ],
       "comparison_table": {
@@ -1074,7 +1034,7 @@
         },
         {
           "question": "Bisakah aplikasi mengetahui persen lemak tubuh tanpa alat?",
-          "answer": "Bisa memperkirakan, bukan mengukur. Dalam perbandingan internal dengan 70 orang, estimasi komposisi tubuh HAVIT berada dalam ±5 poin persen dari hasil InBody orang yang sama pada 92,9% kasus. Ini bukan validasi lembaga luar dan bukan pengukuran medis, jadi pakailah untuk melihat ke mana lemak dan massa tanpa lemak bergerak, bukan untuk angka pastinya."
+          "answer": "Bisa memperkirakan, bukan mengukur. Komposisi tubuh di HAVIT adalah estimasi, bukan hasil InBody atau DEXA dan bukan pengukuran medis, jadi pakailah untuk melihat ke mana lemak dan massa tanpa lemak bergerak, bukan untuk angka pastinya."
         },
         {
           "question": "Seberapa akurat komposisi tubuh dari Galaxy Watch?",
@@ -1134,11 +1094,6 @@
           "label": "Anteil fettfreier Masse am Gewichtsverlust unter GLP-1",
           "value": "Je nach Studie 40–60 % oder etwa 15 % und weniger (fettfreie Masse ≠ Muskulatur)",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
-        },
-        {
-          "label": "HAVIT-Schätzung im Vergleich zu InBody",
-          "value": "92,9 % innerhalb von ±5 Prozentpunkten (70 Personen, keine medizinische Messung)",
-          "source": "Interner Vergleich, Havit Inc."
         }
       ],
       "comparison_table": {
@@ -1214,7 +1169,7 @@
         },
         {
           "question": "Kann eine App den Körperfettanteil ohne Gerät bestimmen?",
-          "answer": "Sie misst ihn nicht, sie schätzt ihn. Die Schätzung von HAVIT lag in einem internen Vergleich mit 70 Personen in 92,9 % der Fälle innerhalb von ±5 Prozentpunkten des InBody-Werts derselben Person. Das ist keine externe Validierung und keine medizinische Messung; nutzen Sie die Werte, um die Richtung von Fett und fettfreier Masse zu verfolgen."
+          "answer": "Sie misst ihn nicht, sie schätzt ihn. Die Werte von HAVIT sind Schätzungen – keine InBody- oder DEXA-Messung und keine medizinische Messung; nutzen Sie sie, um die Richtung von Fett und fettfreier Masse zu verfolgen."
         },
         {
           "question": "Wie genau sind Körperfettwaagen und Smartwatches?",
@@ -1274,11 +1229,6 @@
           "label": "Part de masse maigre dans le poids perdu sous GLP-1",
           "value": "40 à 60 % ou 15 % et moins selon les études (masse maigre ≠ muscle)",
           "source": "Neeland et al. 2024, Diabetes Obes Metab"
-        },
-        {
-          "label": "Estimation HAVIT face à l'InBody",
-          "value": "±5 points ou moins dans 92,9 % des cas (70 personnes, pas une mesure médicale)",
-          "source": "Havit Inc., comparaison interne"
         }
       ],
       "comparison_table": {
@@ -1354,7 +1304,7 @@
         },
         {
           "question": "Une appli peut-elle connaître mon taux de masse grasse sans appareil ?",
-          "answer": "Elle peut l'estimer, pas le mesurer. Dans une comparaison interne sur 70 personnes, l'estimation de HAVIT était à ±5 points ou moins du résultat InBody de la même personne dans 92,9 % des cas. Ce n'est ni une validation externe ni une mesure médicale : servez-vous-en pour voir dans quelle direction vont la masse grasse et la masse maigre, plutôt que pour la valeur exacte."
+          "answer": "Elle peut l'estimer, pas le mesurer. Les valeurs de HAVIT sont des estimations, ni une mesure InBody ou DEXA, ni une mesure médicale : servez-vous-en pour voir dans quelle direction vont la masse grasse et la masse maigre, plutôt que pour la valeur exacte."
         },
         {
           "question": "La composition corporelle de la Galaxy Watch est-elle précise ?",

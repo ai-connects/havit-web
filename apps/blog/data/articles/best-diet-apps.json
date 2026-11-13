@@ -19,7 +19,7 @@
       "key_stats": [
         {
           "label": "HAVIT App Store rating (US)",
-          "value": "4.7 (159 ratings)",
+          "value": "4.7 (171 ratings)",
           "source": "App Store (US), checked October 2026"
         },
         {
@@ -344,7 +344,7 @@
         },
         {
           "label": "HAVIT App Store 評価",
-          "value": "4.7（159件の評価）",
+          "value": "4.7（171件の評価）",
           "source": "App Store（米国）、2026年10月確認（日本のストアはまだ評価が少ないため米国の値）"
         },
         {
@@ -419,7 +419,7 @@
         },
         {
           "question": "体組成まで分かるアプリはありますか？",
-          "answer": "消費者向けアプリで体組成を扱うものは限られます。HAVITは機器なしで体脂肪・除脂肪の推移を推定します。社内比較研究（n=70）では、体脂肪率の推定値がInBodyの測定値と±5ポイント以内に収まった人が92.9%でした。推定値であって測定値ではないので、週単位の推移として読んでください。"
+          "answer": "消費者向けアプリで体組成を扱うものは限られます。HAVITは機器なしで体脂肪・除脂肪の推移を推定します。推定値であってInBodyやDEXAの測定値ではないので、週単位の推移として読んでください。"
         },
         {
           "question": "ウゴービやゼップバウンドを使っています。どのアプリがいいですか？",
@@ -431,7 +431,7 @@
         },
         {
           "question": "ダイエットアプリの人気1位はどれですか？",
-          "answer": "公式な順位はありませんが、この記事で比較した4アプリのうち、App Store（日本）の評価件数がいちばん多いのはあすけん（4.4・147,784件、2026年10月確認）です。評価点だけならカロミルとMyFitnessPalが4.5、HAVITが4.7（米国ストア・159件）ですが、件数の差が大きいので、点数より「自分の目的に合うか」で選ぶほうが確実です。"
+          "answer": "公式な順位はありませんが、この記事で比較した4アプリのうち、App Store（日本）の評価件数がいちばん多いのはあすけん（4.4・147,784件、2026年10月確認）です。評価点だけならカロミルとMyFitnessPalが4.5、HAVITが4.7（米国ストア・171件）ですが、件数の差が大きいので、点数より「自分の目的に合うか」で選ぶほうが確実です。"
         },
         {
           "question": "AIを使ったダイエットアプリでおすすめは？",
@@ -611,7 +611,7 @@
       "key_stats": [
         {
           "label": "HAVIT（App Store 美國）",
-          "value": "4.7 · 159 則評分",
+          "value": "4.7 · 171 則評分",
           "source": "App Store 美國，2026 年 10 月查核 — App Store 台灣評分數未滿 20 則，以美國為準"
         },
         {
@@ -780,7 +780,7 @@
       "key_stats": [
         {
           "label": "Valoración de HAVIT en App Store (EE. UU.)",
-          "value": "4,7 (159 valoraciones)",
+          "value": "4,7 (171 valoraciones)",
           "source": "App Store (EE. UU.), octubre de 2026; en España y México todavía no hay valoraciones suficientes"
         },
         {
@@ -925,7 +925,7 @@
       "key_stats": [
         {
           "label": "Avaliação do HAVIT na App Store (EUA)",
-          "value": "4,7 (159 avaliações)",
+          "value": "4,7 (171 avaliações)",
           "source": "App Store (EUA), conferido em outubro de 2026; na loja brasileira ainda não há avaliações suficientes"
         },
         {
@@ -1213,7 +1213,7 @@
       "key_stats": [
         {
           "label": "HAVIT im App Store (USA)",
-          "value": "4,7 (159 Bewertungen)",
+          "value": "4,7 (171 Bewertungen)",
           "source": "App Store USA, 24. Oktober 2026; in Deutschland noch keine Bewertungen"
         },
         {
@@ -1348,7 +1348,7 @@
       "key_stats": [
         {
           "label": "Note de HAVIT sur l'App Store",
-          "value": "4,7/5 (159 notes, App Store américain)",
+          "value": "4,7/5 (171 notes, App Store américain)",
           "source": "App Store (US), consulté en octobre 2026 ; pas encore de notes sur l'App Store France"
         },
         {
@@ -1492,7 +1492,7 @@
         },
         {
           "title": "HAVIT : Coach Minceur, Calories — fiche App Store France",
-          "source": "Apple App Store (FR), Havit Incorporated, consulté en octobre 2026 — téléchargement gratuit, achats intégrés ; pas encore de notes en France (4,7/5 sur 159 notes sur l'App Store américain)",
+          "source": "Apple App Store (FR), Havit Incorporated, consulté en octobre 2026 — téléchargement gratuit, achats intégrés ; pas encore de notes en France (4,7/5 sur 171 notes sur l'App Store américain)",
           "url": "https://apps.apple.com/fr/app/id6755166023"
         },
         {

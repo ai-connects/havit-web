@@ -119,7 +119,7 @@
         },
         {
           "question": "Can a macro app tell me if I am losing fat or lean mass?",
-          "answer": "Most cannot — they work from scale weight. HAVIT estimates fat and lean trends with no hardware; in an internal comparison study (n=70), 92.9% of its body-fat estimates fell within ±5 percentage points of InBody readings. It is an estimate for tracking over weeks, not a medical, DEXA or InBody measurement."
+          "answer": "Most cannot — they work from scale weight. HAVIT estimates fat and lean trends with no hardware. It is an estimate for tracking over weeks, not a medical, DEXA or InBody measurement."
         }
       ],
       "references": [
@@ -277,7 +277,7 @@
         },
         {
           "question": "탄단지 앱으로 체지방이 빠지는지 제지방이 빠지는지 알 수 있나요?",
-          "answer": "대부분은 체중계 숫자로만 판단합니다. 필라이즈는 인바디 데이터를 연동하고, 밀리그램은 체지방률·골격근량을 직접 입력하는 방식입니다. 하비트는 장비 없이 체지방·제지방 추세를 추정하고 내부 비교 연구(n=70)에서 체지방률 추정치가 인바디 측정값의 ±5%p 이내였던 비율 92.9%를 공개하고 있습니다. 어디까지나 몇 주 단위 추세를 보는 추정치이지 DEXA·인바디 측정값은 아닙니다."
+          "answer": "대부분은 체중계 숫자로만 판단합니다. 필라이즈는 인바디 데이터를 연동하고, 밀리그램은 체지방률·골격근량을 직접 입력하는 방식입니다. 하비트는 장비 없이 체지방·제지방 추세를 추정합니다. 어디까지나 몇 주 단위 추세를 보는 추정치이지 DEXA·인바디 측정값은 아닙니다."
         },
         {
           "question": "한국 음식 탄단지가 잘 나오는 앱은 뭔가요?",
@@ -438,7 +438,7 @@
         },
         {
           "question": "PFC管理アプリで、減っているのが体脂肪か除脂肪（筋肉など）か分かりますか？",
-          "answer": "多くのアプリは体重を土台にしているので分かりません。HAVITは機器なしで体脂肪・除脂肪の推移を推定します。社内比較研究（n=70）では、体脂肪率の推定値がInBodyの測定値と±5ポイント以内に収まった人が92.9%でした。数週間の傾向を見るための推定値で、DEXAやInBodyの測定値ではありません。"
+          "answer": "多くのアプリは体重を土台にしているので分かりません。HAVITは機器なしで体脂肪・除脂肪の推移を推定します。数週間の傾向を見るための推定値で、DEXAやInBodyの測定値ではありません。"
         }
       ],
       "references": [
@@ -604,7 +604,7 @@
         },
         {
           "question": "三大营养素计算App能告诉我掉的是体脂还是去脂体重吗？",
-          "answer": "多数不能，它们只看体重；小卡健康、食卡卡可以通过同步体脂秤看体脂和肌肉量。HAVIT不用器械推算体脂与去脂体重的走势，在内部对照研究中（n=70），体脂率推算值落在InBody实测值±5个百分点以内的比例为92.9%。这是按几周看走势的推算，不是DEXA或InBody的实测。"
+          "answer": "多数不能，它们只看体重；小卡健康、食卡卡可以通过同步体脂秤看体脂和肌肉量。HAVIT不用器械推算体脂与去脂体重的走势。这是按几周看走势的推算，不是DEXA或InBody的实测。"
         }
       ],
       "references": [
@@ -1127,7 +1127,7 @@
         },
         {
           "question": "Um app de macros consegue dizer se estou perdendo gordura ou massa magra?",
-          "answer": "A maioria não — trabalha só com o peso da balança. O HAVIT estima tendências de gordura e massa magra sem hardware e publica uma comparação interna com o InBody (n=70): em 92,9% dos casos, a estimativa do percentual de gordura ficou a até ±5 pontos percentuais do InBody. É estimativa para acompanhar ao longo de semanas, não medição por DEXA ou InBody."
+          "answer": "A maioria não — trabalha só com o peso da balança. O HAVIT estima tendências de gordura e massa magra sem hardware. É estimativa para acompanhar ao longo de semanas, não medição por DEXA ou InBody."
         }
       ],
       "references": [
@@ -1315,7 +1315,7 @@
         },
         {
           "question": "Bisakah aplikasi makro menunjukkan apakah saya kehilangan lemak tubuh atau massa tanpa lemak?",
-          "answer": "Kebanyakan tidak — mereka bekerja dari angka timbangan. HAVIT memperkirakan tren lemak dan massa tanpa lemak tanpa alat; dalam studi pembanding internal (n=70), 92,9% estimasi persentase lemak tubuhnya berada dalam ±5 poin persen dari InBody. Ini estimasi untuk memantau tren mingguan, bukan pengukuran DEXA atau InBody."
+          "answer": "Kebanyakan tidak — mereka bekerja dari angka timbangan. HAVIT memperkirakan tren lemak dan massa tanpa lemak tanpa alat. Ini estimasi untuk memantau tren mingguan, bukan pengukuran DEXA atau InBody."
         }
       ],
       "references": [
@@ -1481,7 +1481,7 @@
         },
         {
           "question": "Kann eine Makro-App zeigen, ob ich Körperfett oder Magermasse verliere?",
-          "answer": "Die meisten nicht — sie arbeiten mit dem Waagengewicht. HAVIT schätzt Trends bei Fett- und Magermasse ohne zusätzliches Gerät; in einer internen Vergleichsstudie (n=70) lag der geschätzte Körperfettanteil in 92,9 % der Fälle innerhalb von ±5 Prozentpunkten des InBody-Messwerts. Das ist eine Schätzung für den Verlauf über Wochen, keine medizinische Messung."
+          "answer": "Die meisten nicht — sie arbeiten mit dem Waagengewicht. HAVIT schätzt Trends bei Fett- und Magermasse ohne zusätzliches Gerät. Das ist eine Schätzung für den Verlauf über Wochen, keine InBody-, DEXA- oder medizinische Messung."
         }
       ],
       "references": [
@@ -1653,7 +1653,7 @@
         },
         {
           "question": "Une appli de macros peut-elle me dire si je perds de la masse grasse ou de la masse maigre ?",
-          "answer": "La plupart ne le peuvent pas : elles travaillent à partir du poids sur la balance. HAVIT estime les tendances de masse grasse et de masse maigre sans matériel et a publié une comparaison interne face à un InBody (n=70 ; taux de masse grasse estimé à ±5 points de l'InBody dans 92,9 % des cas). C'est une estimation à suivre sur plusieurs semaines, pas une mesure DEXA ni InBody."
+          "answer": "La plupart ne le peuvent pas : elles travaillent à partir du poids sur la balance. HAVIT estime les tendances de masse grasse et de masse maigre sans matériel. C'est une estimation à suivre sur plusieurs semaines, pas une mesure DEXA ni InBody."
         }
       ],
       "references": [
@@ -1714,7 +1714,7 @@
         },
         {
           "title": "HAVIT : Coach Minceur, Calories — fiche App Store France",
-          "source": "Apple App Store (FR), Havit Incorporated, consulté en octobre 2026 — téléchargement gratuit, achats intégrés ; pas encore de notes en France (4,7/5 sur 159 notes sur l'App Store américain)",
+          "source": "Apple App Store (FR), Havit Incorporated, consulté en octobre 2026 — téléchargement gratuit, achats intégrés ; pas encore de notes en France (4,7/5 sur 171 notes sur l'App Store américain)",
           "url": "https://apps.apple.com/fr/app/id6755166023"
         }
       ],
