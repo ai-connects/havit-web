@@ -35,7 +35,7 @@ function countUp(el, instant) {
 onceVisible([...document.querySelectorAll('.study__value')], countUp, 0.6)
 
 // ② 막대 차오름 — 임상 비교 막대, 사례 카드 막대, 비교표 행.
-const fillTargets = [...document.querySelectorAll('.study__bars, .case-card, .compare2__table')]
+const fillTargets = [...document.querySelectorAll('.case-card, .compare2__table')]
 fillTargets.forEach((el) => el.classList.add('is-armed'))
 onceVisible(fillTargets, (el) => el.classList.add('is-in'), 0.3)
 
@@ -89,3 +89,4 @@ if (wrap && !reduce) {
     btn.setAttribute('aria-pressed', String(paused)); btn.setAttribute('aria-label', paused ? 'Play' : 'Pause')
   })
 }
+
