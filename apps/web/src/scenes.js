@@ -71,13 +71,15 @@ scenes.forEach((scene) => {
   setActive(0)
 
   // 화면 진입 시 한 번: 제목·소개·단계가 차례로 떠오르고 폰이 올라온다.
-  new IntersectionObserver((es, io) => es.forEach((e) => { if (e.isIntersecting) { scene.classList.add('is-in'); io.disconnect() } }), { threshold: 0, rootMargin: '0px 0px -35% 0px' }).observe(scene)
+  new IntersectionObserver((es, io) => es.forEach((e) => { if (e.isIntersecting) { scene.classList.add('is-in'); io.disconnect() } }), { threshold: 0, rootMargin: mqMobile.matches ? '0px 0px -5% 0px' : '0px 0px -35% 0px' }).observe(scene)
 
   // ---------- 데스크톱: 스크롤 고정 ----------
   let auto = null, idleT = 0
   const geom = () => {
-    const top = scene.getBoundingClientRect().top + window.scrollY
-    const dist = scene.offsetHeight - window.innerHeight
+    const sticky = scene.querySelector('.scene__sticky')
+    const off = parseFloat(getComputedStyle(sticky).top) || 0 // 모바일은 헤더 아래(64px)에 고정
+    const top = scene.getBoundingClientRect().top + window.scrollY - off
+    const dist = scene.offsetHeight - sticky.offsetHeight
     return { top, dist }
   }
   const pinned = () => !reduce

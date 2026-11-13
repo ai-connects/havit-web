@@ -3737,9 +3737,10 @@ a {
 
 @media (max-width: 960px) {
   /* 모바일도 화면 고정: 스크롤 양으로 단계가 넘어가고, 멈추면 자동으로 넘어간다 */
-  .scene { --ph: clamp(280px, calc(100svh - 440px), 460px); height: calc(100svh + var(--steps) * 60svh); }
-  .scene__sticky { height: 100svh; padding-top: 64px; align-items: flex-start; }
-  .scene__grid { grid-template-columns: 1fr; gap: 12px; padding-top: 12px; }
+  .scene { --ph: clamp(280px, calc(100svh - 430px), 460px); }
+  .scene { height: calc(100svh - 64px + var(--steps) * 60svh); }
+  .scene__sticky { top: 64px; height: calc(100svh - 64px); padding-top: 0; align-items: flex-start; }
+  .scene__grid { grid-template-columns: 1fr; gap: 12px; padding-top: 20px; }
   .scene__lead { display: none; }
   .scene--flip .scene__copy { order: 0; justify-self: stretch; }
   .scene__copy { max-width: none; display: contents; }
@@ -3772,7 +3773,7 @@ a {
 }
 
 /* 히어로 코치 말풍선: 얼굴을 가리지 않게 — 위 말풍선은 머리 위 빈 공간, 아래 말풍선은 몸통 쪽 */
-.hero__visual--coaches { min-height: 700px; }
+@media (min-width: 961px) { .hero__visual--coaches { min-height: 700px; } }
 .hero__coaches { max-width: 470px; }
 .coach-bubble--top { top: 0; right: -6%; }
 .coach-bubble--bottom { bottom: 10%; left: -8%; }
@@ -3815,3 +3816,12 @@ a {
 .shot__c--bar { border-radius: 99px; }
 .shot__scan b { position: absolute; left: 0; right: 0; height: 3px; background: #d4ff50; box-shadow: 0 0 18px 6px rgba(212, 255, 80, 0.45); opacity: 0; }
 .shot__p--pill { border-radius: 99px; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35); }
+
+@media (max-width: 960px) {
+  .pillars > .container { padding-bottom: 8px; }
+  .scene .scene__copy > *, .scene .scene__stage { transform: translateY(12px); transition-duration: 0.5s; }
+}
+@media (max-width: 960px) {
+  .hero__visual--coaches { margin-top: 104px; }
+  .coach-bubble--top { top: -100px; right: 0; }
+}
