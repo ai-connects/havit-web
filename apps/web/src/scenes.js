@@ -1,13 +1,13 @@
 // 4꼭지 씬 (2026-11, Figma 섹션 ⑧).
 // 데스크톱: 씬 높이 = 100vh + 단계 수 × STEP_VH. 안쪽이 화면에 고정되고 스크롤 양으로 단계가 넘어간다.
-//   스크롤을 멈추면(IDLE_MS) 남은 거리를 일정한 속도로 자동 스크롤해 다음 단계로 넘긴다 — 진행 바가 그대로 시계가 된다.
+//   스크롤을 멈추면(IDLE_MS) 페이지는 그대로 두고 진행 바가 STEP_MS 동안 차오른 뒤 다음 단계로 넘어간다.
 //   휠·터치·키보드 입력이 들어오면 자동 넘김은 바로 멈추고 사용자 스크롤을 따른다.
 // 모바일(≤960px)·모션 줄이기: 고정 없이 탭 + 시간 자동 넘김(모바일만).
 import { playShot, stopShot } from './shots.js'
 const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 const mqMobile = window.matchMedia('(max-width: 960px)')
 const STEP_MS = 4200 // 한 단계를 자동으로 넘기는 시간
-const IDLE_MS = 1600 // 스크롤을 멈춘 뒤 자동 넘김을 시작하기까지
+const IDLE_MS = 500 // 스크롤을 멈춘 뒤 자동 넘김을 시작하기까지
 const scenes = [...document.querySelectorAll('[data-scene]')]
 
 function countUp(el) {
@@ -73,7 +73,7 @@ scenes.forEach((scene) => {
   // 화면 진입 시 한 번: 제목·소개·단계가 차례로 떠오르고 폰이 올라온다.
   new IntersectionObserver((es, io) => es.forEach((e) => { if (e.isIntersecting) { scene.classList.add('is-in'); io.disconnect() } }), { threshold: 0, rootMargin: mqMobile.matches ? '0px 0px -5% 0px' : '0px 0px -35% 0px' }).observe(scene)
 
-  // ---------- 데스크톱: 스크롤 고정 ----------
+  // ---------- 스크롤 고정 + 시간 자동 넘김 ----------
   let auto = null, idleT = 0
   const geom = () => {
     const sticky = scene.querySelector('.scene__sticky')
@@ -84,22 +84,17 @@ scenes.forEach((scene) => {
   }
   const pinned = () => !reduce
   const progress = () => { const { top, dist } = geom(); return Math.max(0, Math.min(1, (window.scrollY - top) / dist)) * K }
-  // 모바일: 자동 넘김이 페이지를 스크롤하지 않는다(iOS 에서 관성 스크롤과 부딪혀 화면이 흔들림).
-  //   멈춰 있으면 시간으로 단계만 넘기고, 사용자가 더 내리면 스크롤 위치가 앞서면 그쪽을 따른다.
+  // 자동 넘김은 페이지를 스크롤하지 않는다(PC·모바일 공통, iOS 관성 스크롤과 부딪혀 흔들림 방지).
+  //   멈춰 있으면 시간으로 게이지를 채우고 단계만 넘기고, 사용자가 더 내리면 스크롤 위치가 앞서면 그쪽을 따른다.
   let mStep = -1, lastP = 0
   const onScroll = () => {
     if (!pinned()) return
     const p = progress()
     const i = Math.min(K - 1, Math.floor(p))
-    if (mqMobile.matches) {
-      if (mStep < 0 || i > mStep || p < lastP - 0.01) mStep = i
-      lastP = p
-      setActive(mStep)
-      if (mStep === i) setBar(Math.min(1, p - i))
-    } else {
-      setActive(i)
-      setBar(Math.min(1, p - i))
-    }
+    if (mStep < 0 || i > mStep || p < lastP - 0.01) mStep = i
+    lastP = p
+    setActive(mStep)
+    if (mStep === i) setBar(Math.min(1, p - i))
     scheduleAuto()
   }
   const stopAuto = () => { if (auto) { cancelAnimationFrame(auto.raf); auto = null } }
@@ -110,34 +105,16 @@ scenes.forEach((scene) => {
   }
   const startAuto = () => {
     if (!pinned() || document.hidden) return
-    const { top, dist } = geom()
     const p = progress()
-    if (mqMobile.matches) {
-      if (p <= 0.001 || p >= K - 0.001 || mStep >= K - 1) return
-      const t0 = performance.now()
-      auto = { raf: 0 }
-      const tick = (now) => {
-        if (!auto) return
-        const f = (now - t0) / STEP_MS
-        if (f >= 1) { mStep = Math.min(K - 1, mStep + 1); setActive(mStep); setBar(0); auto = null; scheduleAuto(); return }
-        setBar(f)
-        auto.raf = requestAnimationFrame(tick)
-      }
-      auto.raf = requestAnimationFrame(tick)
-      return
-    }
-    if (p <= 0.001 || p >= K - 0.02) return // 고정 구간 밖이거나 마지막 단계 끝
-    const target = Math.min(K - 0.02, Math.floor(p) + 1 + (Math.floor(p) + 1 >= K ? -0.02 : 0.001))
-    const from = window.scrollY, to = top + (target / K) * dist
-    const dur = Math.max(300, (target - p) * STEP_MS)
+    if (p <= 0.001 || p >= K - 0.001 || mStep >= K - 1) return // 고정 구간 밖이거나 마지막 단계
     const t0 = performance.now()
     auto = { raf: 0 }
     const tick = (now) => {
       if (!auto) return
-      const e = Math.min(1, (now - t0) / dur)
-      window.scrollTo(0, from + (to - from) * e)
-      if (e < 1) auto.raf = requestAnimationFrame(tick)
-      else { auto = null; scheduleAuto() }
+      const f = (now - t0) / STEP_MS
+      if (f >= 1) { mStep = Math.min(K - 1, mStep + 1); setActive(mStep); setBar(0); auto = null; scheduleAuto(); return }
+      setBar(f)
+      auto.raf = requestAnimationFrame(tick)
     }
     auto.raf = requestAnimationFrame(tick)
   }
@@ -147,14 +124,9 @@ scenes.forEach((scene) => {
   window.addEventListener('resize', () => { if (!mqMobile.matches) onScroll() }) // iOS 주소창이 접힐 때마다 오는 resize 는 무시
   document.addEventListener('visibilitychange', () => { if (document.hidden) stopAuto() })
 
-  // 단계 클릭: 데스크톱은 그 단계 위치로 스크롤, 모바일은 바로 전환.
+  // 단계 클릭: 바로 그 단계로 전환(페이지는 스크롤하지 않음).
   steps.forEach((el, i) => el.querySelector('button').addEventListener('click', () => {
-    if (pinned() && mqMobile.matches) { stopAuto(); mStep = i; setActive(i); setBar(0); scheduleAuto(); return }
-    if (pinned()) {
-      stopAuto()
-      const { top, dist } = geom()
-      window.scrollTo({ top: top + ((i + 0.02) / K) * dist, behavior: 'smooth' })
-    } else { setActive(i); mobileRestart(true) }
+    if (pinned()) { stopAuto(); mStep = i; setActive(i); setBar(0); scheduleAuto() } else { setActive(i); mobileRestart(true) }
   }))
 
   // ---------- 모바일: 시간 자동 넘김 + 스와이프 ----------
