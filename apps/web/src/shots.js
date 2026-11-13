@@ -82,19 +82,25 @@ export async function playShot(el) {
   if (reduce) return
   const img = el.querySelector('img')
   if (!img) return
+  // 덮개가 깔리기 전에 완성된 원본이 먼저 보였다가 가려지는 깜빡임을 막는다
+  el.classList.add('is-wait')
+  if (!img.complete) await new Promise((r) => img.addEventListener('load', r, { once: true }))
+  await img.decode?.().catch(() => {})
   const src = img.currentSrc || img.src
   const dir = src.slice(0, src.lastIndexOf('/') + 1)
   const spec = (await load(dir))[el.dataset.code]
-  if (!spec || !el.classList.contains('is-active')) return
+  if (!spec || !el.classList.contains('is-active')) { el.classList.remove('is-wait'); return }
   const layer = document.createElement('div')
   layer.className = 'shot__fx'
   el.append(layer)
   const list = []
   build(layer, spec, src, null, list, document.documentElement.dir === 'rtl')
+  el.classList.remove('is-wait')
   anims.set(el, { layer, list })
   Promise.all(list.map((a) => a.finished)).then(() => { if (anims.get(el)?.layer === layer) stopShot(el) }).catch(() => {})
 }
 export function stopShot(el) {
+  el.classList.remove('is-wait')
   const s = anims.get(el)
   if (!s) return
   s.list.forEach((a) => a.cancel())

@@ -3838,3 +3838,7 @@ a {
 
 /* 섹션 패널 전환 — 값은 panels.js 가 스크롤에 맞춰 직접 넣는다 */
 .panel > .container { will-change: transform; }
+/* 이미지: 받아서 디코딩된 뒤 부드럽게 (images.js) */
+img.img-fade { opacity: 0; transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1); }
+img.img-fade.is-loaded { opacity: 1; }
+.shot.is-wait > img { opacity: 0; }

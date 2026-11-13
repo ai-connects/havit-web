@@ -1,6 +1,7 @@
 import './scenes.js'
 import './motion.js'
 import './panels.js'
+import './images.js'
 const prefersReducedMotion = window.matchMedia(
   '(prefers-reduced-motion: reduce)'
 ).matches
