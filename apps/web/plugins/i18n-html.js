@@ -425,6 +425,22 @@ function localizeSocial(html, locale) {
     .replace(/(data-social="threads" href=")[^"]*"/g, `$1https://www.threads.com/@${h}"`)
 }
 
+/**
+ * 홈 개편(2026-11) 에셋 — 기능 섹션 앱 화면은 그 언어 앱 UI 로, 히어로 코치 사진은
+ * 아시아 언어면 동양인 세트(asian), 나머지는 다인종 세트(multi)로 바꾼다.
+ * 화면은 public/home/flow/<locale>/<code>.webp, 없는 언어는 영어 그대로.
+ */
+const HOME_DIR = resolve(HERE, '../public/home')
+const ASIAN_COACH_LOCALES = new Set(['ko', 'ja', 'zh-cn', 'zh-tw', 'vi', 'th', 'id', 'ms'])
+export function localizeHomeAssets(html, locale) {
+  let out = html
+  if (locale !== DEFAULT_LOCALE && existsSync(resolve(HOME_DIR, 'flow', locale))) {
+    out = out.replace(/\/home\/flow\/en\//g, `/home/flow/${locale}/`)
+  }
+  if (ASIAN_COACH_LOCALES.has(locale)) out = out.replace(/\/home\/coach\/multi\//g, '/home/coach/asian/')
+  return out
+}
+
 export function renderLocale(baseHtml, locale, page = HOME_PAGE) {
   const dict = locale === DEFAULT_LOCALE ? {} : loadDict(locale)
   const { html, missing } = locale === DEFAULT_LOCALE
@@ -432,7 +448,7 @@ export function renderLocale(baseHtml, locale, page = HOME_PAGE) {
     : translateBody(baseHtml, dict)
   const withHead = renderLangMenu(translateHead(html, locale, dict, baseHtml, page), locale, page)
   const out = localizeBlogLinks(injectFooterArticles(localizeArticleCards(withHead, locale), locale), locale)
-  return { html: localizeSocial(localizeImages(out, locale), locale), missing }
+  return { html: localizeHomeAssets(localizeSocial(localizeImages(out, locale), locale), locale), missing }
 }
 
 export default function i18nHtml() {

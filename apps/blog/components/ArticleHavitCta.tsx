@@ -5,7 +5,7 @@ import { toToolLang } from '@/lib/tool-labels';
 import { TOOL_CTA } from '@/lib/tool-cta';
 import { ARTICLE_CTA, FOCUS_SHOT, articleFocus } from '@/lib/article-cta';
 import { localizedShot } from '@/lib/site';
-import { appLinkFor, destinationOf, trackGaEvent, useMobileOS } from '@/lib/download-links';
+import { learnMoreHref, learnMoreLabel, trackGaEvent } from '@/lib/download-links';
 import MidArticleCTA from './MidArticleCTA';
 
 const PLACEMENT = 'blog_mid';
@@ -15,7 +15,6 @@ interface Props { lang: LangKey; shortLang: string; articleId: string; slug: str
 /** 글 중간 설치 블록 — 분석·숫자 목표 메시지. 문구가 없는 언어는 기존 MidArticleCTA. */
 export default function ArticleHavitCta(props: Props) {
   const { lang, shortLang, articleId, slug, category } = props;
-  const os = useMobileOS();
   const tl = toToolLang(shortLang);
   const a = ARTICLE_CTA[tl];
   const c = TOOL_CTA[tl];
@@ -30,12 +29,10 @@ export default function ArticleHavitCta(props: Props) {
         <p className="text-sm text-gray-600 mb-1.5 leading-relaxed">{f.limit}</p>
         <p className="text-sm text-gray-900 font-medium mb-4 leading-relaxed">{f.havit}</p>
         <a
-          href={appLinkFor(os, PLACEMENT)}
-          onClick={() => trackGaEvent('start_free_click', { lang, article_id: articleId, link_location: PLACEMENT, destination: destinationOf(os), feature: focus, cta_variant: 'value_prop' })}
-          target="_blank"
-          rel="noopener"
+          href={learnMoreHref(shortLang, PLACEMENT)}
+          onClick={() => trackGaEvent('learn_more_click', { lang, article_id: articleId, link_location: PLACEMENT, destination: 'homepage', feature: focus, cta_variant: 'value_prop' })}
           className="inline-block px-5 py-2.5 rounded-xl bg-gray-900 hover:bg-black text-white font-semibold text-sm transition-colors no-underline">
-          {a.midButton}
+          {learnMoreLabel(shortLang)}
         </a>
       </div>
       {/* eslint-disable-next-line @next/next/no-img-element */}

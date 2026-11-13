@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { type LangKey, toShortLang, t, INDEXABLE_ROUTE_LANGS } from '@/lib/i18n';
 import { asset, mainSiteHome } from '@/lib/site';
-import { appLinkFor, destinationOf, trackGaEvent, useMobileOS } from '@/lib/download-links';
+import { learnMoreHref, learnMoreLabel, trackGaEvent } from '@/lib/download-links';
 
 // 블로그가 실제 서빙하는 10개 언어의 native 이름 lookup (현재 언어 이름 표시용).
 const TOGGLE_LANGS: { route: string; native: string }[] = [
@@ -32,11 +32,6 @@ function currentNative(shortLang: string): string {
 }
 
 
-const LABEL_START_FREE: Record<string, string> = {
-  en: 'Start Free', ko: '무료로 시작', ja: '無料で始める', zh: '免费开始', 'zh-tw': '免費開始',
-  es: 'Empezar gratis', 'pt-br': 'Começar grátis', id: 'Mulai gratis', de: 'Kostenlos starten',
-  fr: 'Commencer',
-};
 
 interface Props {
   lang: LangKey;
@@ -50,7 +45,6 @@ export default function Header({ lang, currentSlug, currentCategorySlug, availab
   const [open, setOpen] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const os = useMobileOS();
 
   // Marketing-site nav behaviour: the bar is transparent over the top of the
   // page and gains its border + shadow only once content scrolls under it.
@@ -74,9 +68,9 @@ export default function Header({ lang, currentSlug, currentCategorySlug, availab
   const switcherLangs = availableRoutes
     ? VISIBLE_LANGS.filter((l) => l.route === shortLang || availableRoutes.includes(l.route))
     : VISIBLE_LANGS;
-  const startFree = LABEL_START_FREE[shortLang] ?? LABEL_START_FREE.en;
+  const startFree = learnMoreLabel(shortLang);
   const onStartFreeClick = (placement: string) => () =>
-    trackGaEvent('start_free_click', { link_location: placement, destination: destinationOf(os) });
+    trackGaEvent('learn_more_click', { link_location: placement, destination: 'homepage' });
 
   return (
     <header className={`nav ${scrolled ? 'is-scrolled' : ''}`}>
@@ -147,7 +141,7 @@ export default function Header({ lang, currentSlug, currentCategorySlug, availab
             )}
           </div>
 
-          <a href={appLinkFor(os, 'blog_nav')} onClick={onStartFreeClick('blog_nav')} className="btn btn--primary btn--sm hidden md:inline-flex">
+          <a href={learnMoreHref(shortLang, 'blog_nav')} onClick={onStartFreeClick('blog_nav')} className="btn btn--primary btn--sm hidden md:inline-flex">
             {startFree}
           </a>
 
@@ -173,7 +167,7 @@ export default function Header({ lang, currentSlug, currentCategorySlug, availab
           <Link href={`/${shortLang}/articles`} className="py-1">Articles</Link>
           <Link href={`/${shortLang}/tools`} className="py-1">Tools</Link>
           <a href="https://app.aihavit.com/" target="_blank" rel="noopener" className="py-1">App</a>
-          <a href={appLinkFor(os, 'blog_nav_menu')} onClick={onStartFreeClick('blog_nav_menu')} className="btn btn--primary btn--sm self-start mt-1">
+          <a href={learnMoreHref(shortLang, 'blog_nav_menu')} onClick={onStartFreeClick('blog_nav_menu')} className="btn btn--primary btn--sm self-start mt-1">
             {startFree}
           </a>
         </div>
