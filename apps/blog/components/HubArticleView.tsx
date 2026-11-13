@@ -10,6 +10,7 @@ import { localizedCategory } from '@/lib/category-labels';
 import { CategoryIcon } from '@/components/CategoryIcon';
 import { toFullLang } from '@/lib/i18n';
 import { localizedBodyShot } from '@/lib/site';
+import flowDims from '@/data/havit-flow-dims.json';
 import { parseHubBody, type HubBlock } from '@/lib/hub-body';
 import { remarkRepairEmphasis, renderEmphasis } from '@/lib/emphasis';
 import { resolveBlogLink } from '@/lib/internal-links';
@@ -200,13 +201,17 @@ function Block({ block, lang, slug }: { block: HubBlock; lang: string; slug: str
       // `/havit/flow/` = 앱 작동 흐름 패널(단계·화면 묶음·라벨을 한 장에 그린 세로로 긴 그림).
       // 잘리면 단계가 끊기므로 본문 폭 전체에 원래 비율 그대로 넣는다.
       if (block.src.includes('/havit/flow/')) {
+        // 패널마다 세로 길이가 달라(2,400~3,800px) 실제 크기를 넣어야 로딩 전 자리가
+        // 맞고 본문이 밀리지 않는다. 표는 public/havit/flow 의 파일에서 뽑은 것.
+        const [fw, fh] =
+          (flowDims as Record<string, number[]>)[block.src.slice(block.src.indexOf('/havit/flow/'))] ?? [1440, 2400];
         return (
           <figure className="hub-flow">
             <Image
               src={block.src}
               alt={block.alt}
-              width={1440}
-              height={2400}
+              width={fw}
+              height={fh}
               sizes="(max-width: 860px) 100vw, 800px"
               loading="lazy"
               style={{ width: '100%', height: 'auto' }}
