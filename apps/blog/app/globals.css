@@ -1443,6 +1443,10 @@
   .hub-shot__frame { width: 78%; }
 }
 
+/* 앱 작동 흐름 패널(/havit/flow/) — 세로로 긴 한 장 그림. 자르지 않고 본문 폭 전체에 원래 비율로. */
+.hub-flow { margin: 28px 0; }
+.hub-flow img { display: block; border-radius: 24px; }
+
 /* 열 이름 없는 2열 스펙표 — 앱 한눈 정보. 왼쪽을 라벨로 세운다. */
 .hub-table--spec td:first-child {
   width: 34%;

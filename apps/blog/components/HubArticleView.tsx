@@ -197,6 +197,24 @@ function Block({ block, lang, slug }: { block: HubBlock; lang: string; slug: str
        4:3 cover 로 넣으면 가운데 띠만 남고 위아래가 잘린다. 그래서 세로 비율을
        그대로 두고 contain 으로, 좁은 폭에 가운데 정렬해 넣는다. */
     case 'image': {
+      // `/havit/flow/` = 앱 작동 흐름 패널(단계·화면 묶음·라벨을 한 장에 그린 세로로 긴 그림).
+      // 잘리면 단계가 끊기므로 본문 폭 전체에 원래 비율 그대로 넣는다.
+      if (block.src.includes('/havit/flow/')) {
+        return (
+          <figure className="hub-flow">
+            <Image
+              src={block.src}
+              alt={block.alt}
+              width={1440}
+              height={2400}
+              sizes="(max-width: 860px) 100vw, 800px"
+              loading="lazy"
+              style={{ width: '100%', height: 'auto' }}
+            />
+            {block.alt && <figcaption className="hub-figcaption">{block.alt}</figcaption>}
+          </figure>
+        );
+      }
       const isShot = block.src.includes('/havit/shot/');
       // 앱 화면은 글 언어의 화면으로 — 한국어 글에 영어 UI 가 보이지 않게.
       const src = isShot ? localizedBodyShot(lang, block.src) : block.src;
