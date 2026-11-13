@@ -14,17 +14,17 @@ if (!reduce && panels.length) {
     panels.forEach((s) => {
       const top = s.getBoundingClientRect().top
       // 섹션 위 끝이 화면 아래(100%)에서 화면 40% 지점까지 오는 동안 0→1
-      const p = ease(Math.max(0, Math.min(1, (vh - top) / (vh * 0.6))))
+      const p = ease(Math.max(0, Math.min(1, (vh - top) / (vh * (mq.matches ? 0.75 : 0.6)))))
       const v = p.toFixed(3)
       if (s.dataset.p === v) return
       s.dataset.p = v
       // iOS Safari 는 clip-path 안의 CSS 변수 변화를 다시 그리지 않을 때가 있어 값을 직접 넣는다.
       const q = 1 - p, mob = mq.matches
-      const inset = (q * (mob ? 5 : 6)).toFixed(2), r = (q * (mob ? 36 : 72)).toFixed(1)
+      const inset = (q * (mob ? 7 : 6)).toFixed(2), r = (q * (mob ? 44 : 72)).toFixed(1)
       s.style.clipPath = p > 0.999 ? '' : `inset(0 ${inset}% round ${r}px)`
       s.style.webkitClipPath = s.style.clipPath
       const c = s.querySelector(':scope > .container')
-      if (c) c.style.transform = p > 0.999 ? '' : `translate3d(0, ${(q * (mob ? 56 : 80)).toFixed(1)}px, 0)`
+      if (c) c.style.transform = p > 0.999 ? '' : `translate3d(0, ${(q * (mob ? 72 : 80)).toFixed(1)}px, 0)`
     })
   }
   const req = () => { if (!raf) raf = requestAnimationFrame(update) }

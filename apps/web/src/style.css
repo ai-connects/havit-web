@@ -3837,3 +3837,8 @@ a {
 img.img-fade { opacity: 0; transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1); }
 img.img-fade.is-loaded { opacity: 1; }
 .shot.is-wait > img { opacity: 0; }
+
+/* 4꼭지 스냅 지점(scenes.js) — 세게 스크롤해도 단계마다 멈춤 */
+@media (max-width: 960px) { html { scroll-snap-type: y proximity; } } /* PC 는 scenes.js 휠 처리 */
+.scene__snap { position: absolute; left: 0; width: 1px; height: 1px; pointer-events: none; scroll-snap-align: start; scroll-snap-stop: always; }
+@media (prefers-reduced-motion: reduce) { html { scroll-snap-type: none; } }

@@ -8,7 +8,7 @@ const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 const mqMobile = window.matchMedia('(max-width: 960px)')
 const STEP_MS = 4200 // 한 단계를 자동으로 넘기는 시간
 const IDLE_MS = 500 // 스크롤을 멈춘 뒤 자동 넘김을 시작하기까지
-const DWELL_MS = 650 // 스크롤로 단계가 바뀔 때 한 단계에 머무는 최소 시간
+const DWELL_MS = 450 // 스크롤로 단계가 바뀔 때 한 단계에 머무는 최소 시간
 const scenes = [...document.querySelectorAll('[data-scene]')]
 
 function countUp(el) {
@@ -127,6 +127,44 @@ scenes.forEach((scene) => {
     }
     auto.raf = requestAnimationFrame(tick)
   }
+  // 스냅 지점: 단계마다 하나 + 꼭지 끝 하나. 세게 튕겨도 브라우저가 단계마다 멈춘다(scroll-snap-stop: always).
+  //   proximity 라 멀리서 끌어당기지 않고, 꼭지 밖 스크롤은 그대로 자유롭다.
+  const snaps = Array.from({ length: K + 1 }, () => { const m = document.createElement('i'); m.className = 'scene__snap'; m.setAttribute('aria-hidden', 'true'); scene.append(m); return m })
+  const placeSnaps = () => {
+    if (!pinned()) { snaps.forEach((m) => (m.style.display = 'none')); return }
+    const sticky = scene.querySelector('.scene__sticky')
+    const off = parseFloat(getComputedStyle(sticky).top) || 0
+    const dist = scene.offsetHeight - sticky.offsetHeight
+    snaps.forEach((m, i) => {
+      m.style.display = ''
+      m.style.top = (i < K ? ((i + 0.02) / K) * dist : scene.offsetHeight) + 'px'
+      m.style.scrollMarginTop = off + 'px'
+    })
+  }
+  placeSnaps()
+  window.addEventListener('resize', placeSnaps)
+  // PC 휠: 꼭지 안에서는 휠 한 번(관성 포함 한 동작)에 한 단계. 첫·끝 단계에서 바깥 방향이면 그대로 스크롤해 빠져나간다.
+  let wLock = 0, wLast = 0, wEaten = false, wOutside = false
+  const stepPos = (t) => { const { top, dist } = geom(); return top + ((t + 0.02) / K) * dist }
+  const jump = (t) => { stopAuto(); mStep = t; window.scrollTo({ top: stepPos(t), behavior: 'instant' }); setActive(t); setBar(0); scheduleAuto() }
+  window.addEventListener('wheel', (e) => {
+    if (!pinned() || mqMobile.matches || Math.abs(e.deltaY) < 1) return
+    const now = performance.now(), sameGesture = now - wLast < 200
+    wLast = now
+    const sticky = scene.querySelector('.scene__sticky')
+    const r = scene.getBoundingClientRect(), off = parseFloat(getComputedStyle(sticky).top) || 0
+    const inside = r.top <= off + 2 && r.bottom >= off + sticky.offsetHeight - 2
+    if (!inside) { if (!sameGesture) wOutside = true; wEaten = false; return }
+    const dir = Math.sign(e.deltaY)
+    if (sameGesture && wOutside) { // 바깥에서 시작한 동작이 꼭지로 밀려 들어옴 → 입구 단계에 세운다
+      e.preventDefault(); wOutside = false; wEaten = true; wLock = now + 600; jump(dir > 0 ? 0 : K - 1); return
+    }
+    if (!sameGesture) { wOutside = false; wEaten = false }
+    if (wEaten || now < wLock) { e.preventDefault(); return }
+    const t = active + dir
+    if (t < 0 || t >= K) return // 꼭지 밖으로
+    e.preventDefault(); wEaten = true; wLock = now + 650; jump(t)
+  }, { passive: false })
   const userInput = () => { stopAuto(); clearTimeout(idleT); if (pinned()) scheduleAuto() }
   ;['wheel', 'touchstart', 'keydown', 'mousedown'].forEach((ev) => window.addEventListener(ev, userInput, { passive: true }))
   window.addEventListener('scroll', onScroll, { passive: true })
