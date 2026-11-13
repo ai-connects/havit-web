@@ -8,6 +8,7 @@ const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 const mqMobile = window.matchMedia('(max-width: 960px)')
 const STEP_MS = 4200 // 한 단계를 자동으로 넘기는 시간
 const IDLE_MS = 500 // 스크롤을 멈춘 뒤 자동 넘김을 시작하기까지
+const DWELL_MS = 650 // 스크롤로 단계가 바뀔 때 한 단계에 머무는 최소 시간
 const scenes = [...document.querySelectorAll('[data-scene]')]
 
 function countUp(el) {
@@ -87,14 +88,22 @@ scenes.forEach((scene) => {
   // 자동 넘김은 페이지를 스크롤하지 않는다(PC·모바일 공통, iOS 관성 스크롤과 부딪혀 흔들림 방지).
   //   멈춰 있으면 시간으로 게이지를 채우고 단계만 넘기고, 사용자가 더 내리면 스크롤 위치가 앞서면 그쪽을 따른다.
   let mStep = -1, lastP = 0
+  // 빠르게 스크롤해도 앱 화면이 한 번에 여러 장 건너뛰지 않게: 한 단계씩, 단계마다 최소 DWELL_MS 머문다.
+  let dwellT = 0
+  const goTo = (target) => {
+    if (active < 0) { setActive(target); return }
+    if (dwellT || target === active) return
+    setActive(active + Math.sign(target - active)); setBar(0)
+    dwellT = setTimeout(() => { dwellT = 0; goTo(mStep) }, DWELL_MS)
+  }
   const onScroll = () => {
     if (!pinned()) return
     const p = progress()
     const i = Math.min(K - 1, Math.floor(p))
     if (mStep < 0 || i > mStep || p < lastP - 0.01) mStep = i
     lastP = p
-    setActive(mStep)
-    if (mStep === i) setBar(Math.min(1, p - i))
+    goTo(mStep)
+    if (active === i) setBar(Math.min(1, p - i))
     scheduleAuto()
   }
   const stopAuto = () => { if (auto) { cancelAnimationFrame(auto.raf); auto = null } }
@@ -106,7 +115,7 @@ scenes.forEach((scene) => {
   const startAuto = () => {
     if (!pinned() || document.hidden) return
     const p = progress()
-    if (p <= 0.001 || p >= K - 0.001 || mStep >= K - 1) return // 고정 구간 밖이거나 마지막 단계
+    if (p <= 0.001 || p >= K - 0.001 || mStep >= K - 1 || active !== mStep) { if (active !== mStep) scheduleAuto(); return } // 고정 구간 밖·마지막 단계·아직 따라가는 중
     const t0 = performance.now()
     auto = { raf: 0 }
     const tick = (now) => {
