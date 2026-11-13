@@ -3,6 +3,7 @@
 //   스크롤을 멈추면(IDLE_MS) 남은 거리를 일정한 속도로 자동 스크롤해 다음 단계로 넘긴다 — 진행 바가 그대로 시계가 된다.
 //   휠·터치·키보드 입력이 들어오면 자동 넘김은 바로 멈추고 사용자 스크롤을 따른다.
 // 모바일(≤960px)·모션 줄이기: 고정 없이 탭 + 시간 자동 넘김(모바일만).
+import { playShot, stopShot } from './shots.js'
 const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 const mqMobile = window.matchMedia('(max-width: 960px)')
 const STEP_MS = 4200 // 한 단계를 자동으로 넘기는 시간
@@ -36,19 +37,8 @@ scenes.forEach((scene) => {
   let active = -1
 
   let inView = false
-  // 앱 화면: 문단은 단어(한·중·일은 글자 묶음) 단위로 쪼개 하나씩 나타나게 한다.
-  scene.querySelectorAll('.a-type').forEach((p) => {
-    if (p.dataset.split) return; p.dataset.split = '1'
-    const cjk = /[\u3040-\u30ff\u3400-\u9fff]/.test(p.textContent)
-    const parts = cjk ? p.textContent.match(/.{1,3}/gsu) : p.textContent.split(/(\s+)/)
-    p.textContent = ''
-    let k = 0
-    parts.forEach((w) => { if (/^\s+$/.test(w)) { p.append(w); return } const s = document.createElement('span'); s.className = 'w'; s.style.setProperty('--wi', k++); s.textContent = w; p.append(s) })
-    const d = getComputedStyle(p.closest('[style*="--d"]') || p).getPropertyValue('--d'); if (d) p.style.setProperty('--td', d)
-  })
   const playAnim = () => imgs.forEach((el, n) => {
-    el.classList.remove('is-play')
-    if (inView && n === active) { void el.offsetWidth; el.classList.add('is-play'); el.querySelectorAll('.a-count').forEach(countUp) }
+    if (inView && n === active) playShot(el); else stopShot(el)
   })
   new IntersectionObserver(([e]) => { const was = inView; inView = e.isIntersecting; if (inView && !was) playAnim() }, { threshold: 0, rootMargin: '-40% 0px -40% 0px' }).observe(scene)
   const setActive = (i) => {
