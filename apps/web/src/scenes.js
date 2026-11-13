@@ -36,7 +36,20 @@ scenes.forEach((scene) => {
   let active = -1
 
   let inView = false
-  const playAnim = () => anims.forEach((el, n) => { el.classList.remove('is-active'); if (inView && n === active) { void el.offsetWidth; el.classList.add('is-active') } })
+  // 앱 화면: 문단은 단어(한·중·일은 글자 묶음) 단위로 쪼개 하나씩 나타나게 한다.
+  scene.querySelectorAll('.a-type').forEach((p) => {
+    if (p.dataset.split) return; p.dataset.split = '1'
+    const cjk = /[\u3040-\u30ff\u3400-\u9fff]/.test(p.textContent)
+    const parts = cjk ? p.textContent.match(/.{1,3}/gsu) : p.textContent.split(/(\s+)/)
+    p.textContent = ''
+    let k = 0
+    parts.forEach((w) => { if (/^\s+$/.test(w)) { p.append(w); return } const s = document.createElement('span'); s.className = 'w'; s.style.setProperty('--wi', k++); s.textContent = w; p.append(s) })
+    const d = getComputedStyle(p.closest('[style*="--d"]') || p).getPropertyValue('--d'); if (d) p.style.setProperty('--td', d)
+  })
+  const playAnim = () => imgs.forEach((el, n) => {
+    el.classList.remove('is-play')
+    if (inView && n === active) { void el.offsetWidth; el.classList.add('is-play'); el.querySelectorAll('.a-count').forEach(countUp) }
+  })
   new IntersectionObserver(([e]) => { const was = inView; inView = e.isIntersecting; if (inView && !was) playAnim() }, { threshold: 0, rootMargin: '-40% 0px -40% 0px' }).observe(scene)
   const setActive = (i) => {
     if (i === active) return
