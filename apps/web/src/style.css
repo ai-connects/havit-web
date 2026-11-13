@@ -3835,3 +3835,10 @@ a {
 .reveal--kids.is-visible > * { animation: reveal-in 0.65s cubic-bezier(0.16, 1, 0.3, 1) calc(var(--rd, 0ms) + var(--ci, 0) * 90ms) both; }
 @media (prefers-reduced-motion: reduce) { .reveal--kids > * { opacity: 1; transform: none; animation: none !important; } }
 @media (prefers-reduced-motion: reduce) { .reveal, .reveal.is-visible { opacity: 1; transform: none; animation: none !important; } }
+
+/* 섹션 패널 전환 — --p: 0(들어오기 전) → 1(제자리). panels.js 가 스크롤에 맞춰 갱신 */
+.panel { --p: 1; --pi: 6%; --pr: 72px; clip-path: inset(0 calc((1 - var(--p)) * var(--pi)) round calc((1 - var(--p)) * var(--pr))); }
+.panel > .container { transform: translateY(calc((1 - var(--p)) * 80px)); will-change: transform; }
+@media (max-width: 960px) { .panel { --pi: 4%; --pr: 40px; } .panel > .container { transform: translateY(calc((1 - var(--p)) * 48px)); } }
+@media (prefers-reduced-motion: reduce) { .panel { clip-path: none; } .panel > .container { transform: none; } }
+.panel--done { clip-path: none; } .panel--done > .container { transform: none; }
