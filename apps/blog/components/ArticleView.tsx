@@ -6,6 +6,7 @@ import remarkGfm from 'remark-gfm';
 import type { ArticleV2, ArticleV2LangContent } from '@/lib/articles-v2';
 import { getRelatedForLang, articleDates } from '@/lib/articles-v2';
 import { articleImage } from '@/lib/article-images';
+import flowDims from '@/data/havit-flow-dims.json';
 import { localizedCategory } from '@/lib/category-labels';
 import { CategoryIcon } from '@/components/CategoryIcon';
 import InstallCTA from './InstallCTA';
@@ -149,6 +150,27 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
             key={pi}
             remarkPlugins={[[remarkGfm, { singleTilde: false }], remarkRepairEmphasis]}
             components={{
+              // 하비트 기능 흐름 패널(/havit/flow/) — 원본이 1440px·200~300KB 라 next/image 로
+              // 줄이고 실제 크기로 자리를 잡는다. <p> 안에 들어가므로 figure 대신 span.
+              img: ({ src, alt, node: _node, ...rest }) => {
+                const s = typeof src === 'string' ? src : '';
+                const k = s.indexOf('/havit/flow/');
+                if (k < 0) return <img src={s} alt={alt ?? ''} {...rest} />;
+                const [fw, fh] = (flowDims as Record<string, number[]>)[s.slice(k)] ?? [1440, 2400];
+                return (
+                  <span className="hub-flow" style={{ display: 'block' }}>
+                    <Image
+                      src={s}
+                      alt={alt ?? ''}
+                      width={fw}
+                      height={fh}
+                      sizes="(max-width: 860px) 100vw, 800px"
+                      loading="lazy"
+                      style={{ width: '100%', height: 'auto' }}
+                    />
+                  </span>
+                );
+              },
               a: ({ href, children, node: _node, ...rest }) => {
                 const r = resolveBlogLink(href, shortLang, article.slug);
                 if (r.kind === 'dead') return <>{children}</>;
