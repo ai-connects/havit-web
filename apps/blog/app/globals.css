@@ -1753,7 +1753,8 @@
   grid-template-columns: auto 1fr;
   gap: 20px;
   align-items: center;
-  margin: 40px 0;
+  /* 좌우 auto — hub 글은 `.hub > *` 의 800px 단 가운데 정렬을 따라야 한다(0 이면 왼쪽에 붙는다). */
+  margin: 40px auto;
   padding: 20px 24px;
   border-radius: 20px;
   background: var(--hv-tint-pale);
