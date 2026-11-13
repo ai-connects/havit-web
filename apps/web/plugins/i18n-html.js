@@ -435,7 +435,7 @@ const ASIAN_COACH_LOCALES = new Set(['ko', 'ja', 'zh-cn', 'zh-tw', 'vi', 'th', '
 export function localizeHomeAssets(html, locale) {
   let out = html
   if (locale !== DEFAULT_LOCALE && existsSync(resolve(HOME_DIR, 'flow', locale))) {
-    out = out.replace(/\/home\/flow\/en\//g, `/home/flow/${locale}/`)
+    out = out.replace(/\/home\/(flow|flow2x)\/en\//g, (m, d) => `/home/${d}/${locale}/`)
   }
   if (ASIAN_COACH_LOCALES.has(locale)) out = out.replace(/\/home\/coach\/multi\//g, '/home/coach/asian/')
   return out
