@@ -87,10 +87,10 @@ export function trackGaEvent(name: string, params: Record<string, unknown>): voi
 /**
  * 블로그 CTA → 홈페이지(2026-11 대표 결정). 앱스토어 페이지는 쥬비스 출신·임상·4꼭지 같은 하비트의 가치를
  * 다 담지 못하니, 블로그 독자는 먼저 그 언어 홈으로 보내 이해시킨 뒤 홈에서 설치하게 한다.
- * utm 으로 버튼 위치를 남기고, 홈의 「How it works」로 바로 내린다.
+ * utm 으로 버튼 위치를 남긴다. 앵커 없이 히어로부터 보여 준다(대표 지시 11/13).
  */
 export function learnMoreHref(shortLang: string, placement: string): string {
-  return `${mainSiteHome(shortLang)}?utm_source=blog&utm_medium=cta&utm_campaign=${encodeURIComponent(placement)}#how`;
+  return `${mainSiteHome(shortLang)}?utm_source=blog&utm_medium=cta&utm_campaign=${encodeURIComponent(placement)}`;
 }
 export const LEARN_MORE_LABEL: Record<string, string> = {
   en: 'Learn more about HAVIT', ko: '하비트 자세히 보기', ja: 'HAVITについて詳しく見る', zh: '了解 HAVIT', 'zh-tw': '了解 HAVIT',
