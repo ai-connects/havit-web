@@ -28,12 +28,16 @@ function countUp(el) {
 scenes.forEach((scene) => {
   const steps = [...scene.querySelectorAll('.scene__step')]
   const imgs = [...scene.querySelectorAll('.scene__img')]
+  const anims = [...scene.querySelectorAll('.scene__anim')]
   const fxs = [...scene.querySelectorAll('.scene__fx')]
   const dots = [...scene.querySelectorAll('.scene__dots span')]
   const cap = scene.querySelector('.scene__cap')
   const K = steps.length
   let active = -1
 
+  let inView = false
+  const playAnim = () => anims.forEach((el, n) => { el.classList.remove('is-active'); if (inView && n === active) { void el.offsetWidth; el.classList.add('is-active') } })
+  new IntersectionObserver(([e]) => { const was = inView; inView = e.isIntersecting; if (inView && !was) playAnim() }, { threshold: 0, rootMargin: '-40% 0px -40% 0px' }).observe(scene)
   const setActive = (i) => {
     if (i === active) return
     const prev = active
@@ -42,6 +46,7 @@ scenes.forEach((scene) => {
     steps.forEach((el, n) => { el.classList.toggle('is-active', n === i); el.classList.toggle('is-done', n < i) })
     imgs.forEach((el, n) => { el.classList.toggle('is-active', n === i); el.classList.toggle('is-past', n < i) })
     dots.forEach((el, n) => el.classList.toggle('is-active', n === i))
+    playAnim()
     fxs.forEach((el, n) => {
       const on = n === i
       el.classList.toggle('is-active', on)
@@ -50,7 +55,15 @@ scenes.forEach((scene) => {
     if (cap) cap.innerHTML = steps[i].querySelector('.scene__txt').innerHTML
     scene.dataset.dir = prev < 0 || i > prev ? 'next' : 'prev'
   }
-  const setBar = (frac) => { const b = steps[active]?.querySelector('.scene__bar > i'); if (b) b.style.transform = `scaleX(${frac.toFixed(4)})` }
+  let barTarget = 0, barShown = 0, barRaf = 0, barStep = -1
+  const paintBar = () => {
+    if (barStep !== active) { barStep = active; barShown = Math.min(barShown, barTarget, 0.02) }
+    barShown += (barTarget - barShown) * (reduce ? 1 : 0.14)
+    if (Math.abs(barTarget - barShown) < 0.0005) barShown = barTarget
+    const b = steps[active]?.querySelector('.scene__bar > i'); if (b) b.style.transform = `scaleX(${barShown.toFixed(4)})`
+    barRaf = barShown !== barTarget ? requestAnimationFrame(paintBar) : 0
+  }
+  const setBar = (frac) => { barTarget = Math.max(0, Math.min(1, frac)); if (!barRaf) barRaf = requestAnimationFrame(paintBar) }
   setActive(0)
 
   // 화면 진입 시 한 번: 제목·소개·단계가 차례로 떠오르고 폰이 올라온다.
