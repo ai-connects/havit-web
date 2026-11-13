@@ -210,10 +210,24 @@ export function computeNeighbors(articles: ArticleV2[]): Map<string, Neighbor[]>
  *      남은 소스 한 곳에 꽂는다(소스 쪽 후보 목록에 있어야 함 — 관련성 유지).
  *   C) 남은 칸: 소스의 후보(DISCOVERY_DEPTH) 중 인링크 적은 순 → 유사도 순.
  */
+/**
+ * 색인 보강 입력(data/index-boost.json, scripts/build-index-boost.py).
+ * boost = Search Console 노출 0 글(미색인 후보), strong = 노출 상위 글.
+ */
+export interface IndexBoost {
+  boost: Set<string>;
+  strong: Set<string>;
+}
+/** 노출 0 글 하나가 노출 상위 글에서 받으려는 링크 수. */
+const BOOST_LINKS_PER_TARGET = 2;
+/** 노출 상위 글 하나가 노출 0 글에 내주는 최대 칸 수(나머지는 관련성·분산 몫). */
+const BOOST_SLOTS_PER_SOURCE = 2;
+
 export function assignRelated(
   neighbors: Map<string, Neighbor[]>,
   native: Set<string>,
   limit: number,
+  indexBoost?: IndexBoost,
 ): Map<string, string[]> {
   const sources = [...native].filter((s) => neighbors.has(s)).sort();
   const cand = new Map<string, Neighbor[]>();
@@ -247,6 +261,36 @@ export function assignRelated(
       if (!candSim.get(s)!.has(t)) continue;
       take(s, t);
       break;
+    }
+  }
+
+  // B2) 색인 보강 — 노출 0 글을 주제가 가까운 노출 상위 글의 빈칸에 건다.
+  // 인링크 수가 같아도 자주 크롤되는 글에서 오는 링크가 크롤·색인 우선순위를 더 올린다.
+  // 조건은 C 와 같다: 소스의 유사도 후보 DISCOVERY_DEPTH 안에 있어야 한다(엉뚱한 링크 금지).
+  if (indexBoost && indexBoost.boost.size && indexBoost.strong.size) {
+    const given = new Map<string, number>();
+    const got = new Map<string, number>();
+    const targets = sources.filter((t) => indexBoost.boost.has(t));
+    for (let round = 0; round < BOOST_LINKS_PER_TARGET; round++) {
+      for (const t of targets) {
+        if ((got.get(t) ?? 0) > round) continue;
+        let best: Neighbor | null = null;
+        for (const n of cand.get(t)!) {
+          const s = n.slug;
+          if (!indexBoost.strong.has(s)) continue;
+          const p = picks.get(s);
+          if (!p || p.length >= limit || p.includes(t)) continue;
+          if ((given.get(s) ?? 0) >= BOOST_SLOTS_PER_SOURCE) continue;
+          const depth = cand.get(s)!.findIndex((m) => m.slug === t);
+          if (depth < 0 || depth >= DISCOVERY_DEPTH) continue;
+          best = n;
+          break; // cand 는 유사도 내림차순 — 첫 통과가 가장 가까운 소스
+        }
+        if (!best) continue;
+        take(best.slug, t);
+        given.set(best.slug, (given.get(best.slug) ?? 0) + 1);
+        got.set(t, (got.get(t) ?? 0) + 1);
+      }
     }
   }
 
