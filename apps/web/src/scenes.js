@@ -84,12 +84,22 @@ scenes.forEach((scene) => {
   }
   const pinned = () => !reduce
   const progress = () => { const { top, dist } = geom(); return Math.max(0, Math.min(1, (window.scrollY - top) / dist)) * K }
+  // 모바일: 자동 넘김이 페이지를 스크롤하지 않는다(iOS 에서 관성 스크롤과 부딪혀 화면이 흔들림).
+  //   멈춰 있으면 시간으로 단계만 넘기고, 사용자가 더 내리면 스크롤 위치가 앞서면 그쪽을 따른다.
+  let mStep = -1, lastP = 0
   const onScroll = () => {
     if (!pinned()) return
     const p = progress()
     const i = Math.min(K - 1, Math.floor(p))
-    setActive(i)
-    setBar(Math.min(1, p - i))
+    if (mqMobile.matches) {
+      if (mStep < 0 || i > mStep || p < lastP - 0.01) mStep = i
+      lastP = p
+      setActive(mStep)
+      if (mStep === i) setBar(Math.min(1, p - i))
+    } else {
+      setActive(i)
+      setBar(Math.min(1, p - i))
+    }
     scheduleAuto()
   }
   const stopAuto = () => { if (auto) { cancelAnimationFrame(auto.raf); auto = null } }
@@ -102,6 +112,20 @@ scenes.forEach((scene) => {
     if (!pinned() || document.hidden) return
     const { top, dist } = geom()
     const p = progress()
+    if (mqMobile.matches) {
+      if (p <= 0.001 || p >= K - 0.001 || mStep >= K - 1) return
+      const t0 = performance.now()
+      auto = { raf: 0 }
+      const tick = (now) => {
+        if (!auto) return
+        const f = (now - t0) / STEP_MS
+        if (f >= 1) { mStep = Math.min(K - 1, mStep + 1); setActive(mStep); setBar(0); auto = null; scheduleAuto(); return }
+        setBar(f)
+        auto.raf = requestAnimationFrame(tick)
+      }
+      auto.raf = requestAnimationFrame(tick)
+      return
+    }
     if (p <= 0.001 || p >= K - 0.02) return // 고정 구간 밖이거나 마지막 단계 끝
     const target = Math.min(K - 0.02, Math.floor(p) + 1 + (Math.floor(p) + 1 >= K ? -0.02 : 0.001))
     const from = window.scrollY, to = top + (target / K) * dist
@@ -120,11 +144,12 @@ scenes.forEach((scene) => {
   const userInput = () => { stopAuto(); clearTimeout(idleT); if (pinned()) scheduleAuto() }
   ;['wheel', 'touchstart', 'keydown', 'mousedown'].forEach((ev) => window.addEventListener(ev, userInput, { passive: true }))
   window.addEventListener('scroll', onScroll, { passive: true })
-  window.addEventListener('resize', onScroll)
+  window.addEventListener('resize', () => { if (!mqMobile.matches) onScroll() }) // iOS 주소창이 접힐 때마다 오는 resize 는 무시
   document.addEventListener('visibilitychange', () => { if (document.hidden) stopAuto() })
 
   // 단계 클릭: 데스크톱은 그 단계 위치로 스크롤, 모바일은 바로 전환.
   steps.forEach((el, i) => el.querySelector('button').addEventListener('click', () => {
+    if (pinned() && mqMobile.matches) { stopAuto(); mStep = i; setActive(i); setBar(0); scheduleAuto(); return }
     if (pinned()) {
       stopAuto()
       const { top, dist } = geom()
@@ -157,7 +182,7 @@ scenes.forEach((scene) => {
     const dir = (dx < 0) !== rtl ? 1 : -1
     if (pinned()) {
       const i = Math.max(0, Math.min(K - 1, active + dir)); stopAuto()
-      const { top, dist } = geom(); window.scrollTo({ top: top + ((i + 0.02) / K) * dist, behavior: 'smooth' }); return
+      mStep = i; setActive(i); setBar(0); scheduleAuto(); return
     }
     setActive((active + dir + K) % K); mobileRestart(true)
   }, { passive: true })
