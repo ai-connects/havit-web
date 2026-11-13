@@ -3645,3 +3645,42 @@ a {
 @media (prefers-reduced-motion: reduce) {
   .study__bars span::after, .case-card__track span, .compare2__row, .compare2__havit::before, .coach-bubble { transition: none !important; transform: none !important; opacity: 1 !important; }
 }
+
+/* ===== 4꼭지 스토리 (폰 고정 스크롤 / 모바일 가로 넘김) — 2단계 프로토타입 ===== */
+.story { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; margin-top: 32px; }
+.story__tabs { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; }
+.story__tab { border: 0; cursor: pointer; font: inherit; font-size: 14px; font-weight: 600; letter-spacing: -0.2px; padding: 9px 16px; border-radius: 999px; background: var(--color-white); color: #555; transition: background 0.25s, color 0.25s; }
+.story__tab.is-active { background: var(--color-black); color: var(--color-primary); }
+.story__list { list-style: none; margin: 0; padding: 0 0 22vh; }
+.story__item { min-height: 34vh; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 0 0 0 22px; border-left: 3px solid rgba(0, 0, 0, 0.08); opacity: 0.32; transition: opacity 0.35s ease, border-color 0.35s ease; }
+.story__item.is-active { opacity: 1; border-left-color: #c6f03c; }
+.story__item b { font-size: 24px; font-weight: 600; line-height: 1.2; letter-spacing: -0.5px; }
+.story__item > span { font-size: 17px; line-height: 1.45; letter-spacing: -0.2px; color: var(--color-grey-80); }
+.story__group { margin: 0 0 18px; font-size: 13px; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; color: var(--color-grey-60); }
+.story__gsub { text-transform: none; letter-spacing: -0.2px; font-weight: 500; color: #1d8fd1; margin-left: 6px; }
+.story__mimg { display: none; }
+.story__stage { position: sticky; top: 14vh; height: 72vh; max-height: 640px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.story__glow { position: absolute; width: 90%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(212, 255, 80, 0.55) 0%, rgba(158, 231, 255, 0.22) 55%, transparent 72%); }
+.story__phone { position: relative; height: 88%; aspect-ratio: 354 / 720; }
+.story__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; transform: translateY(10px) scale(0.985); transition: opacity 0.35s ease, transform 0.45s cubic-bezier(0.16, 1, 0.3, 1); }
+.story__img.is-active { opacity: 1; transform: none; }
+.story__dots { position: relative; display: flex; gap: 6px; margin-top: 18px; }
+.story__dots span { width: 6px; height: 6px; border-radius: 3px; background: rgba(0, 0, 0, 0.18); transition: width 0.3s, background 0.3s; }
+.story__dots span.is-active { width: 22px; background: var(--color-black); }
+.story__more { display: inline-flex; align-items: center; gap: 6px; margin-top: 8px; padding: 13px 22px; border-radius: 999px; background: var(--color-black); color: var(--color-primary); font-size: 15px; font-weight: 600; letter-spacing: -0.2px; }
+.pillar .pillar__chips { display: none; }
+@media (max-width: 960px) {
+  .story { grid-template-columns: 1fr; gap: 16px; }
+  .story__stage { display: none; }
+  .story__tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px; }
+  .story__tabs::-webkit-scrollbar { display: none; }
+  .story__tab { white-space: nowrap; }
+  .story__list { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px 16px 8px; margin: 0 -16px; scrollbar-width: none; }
+  .story__list::-webkit-scrollbar { display: none; }
+  .story__item { flex: 0 0 78%; min-height: 0; scroll-snap-align: center; opacity: 1; border-left: 0; padding: 0; text-align: center; align-items: center; }
+  .story__mimg { display: block; width: 100%; max-width: 230px; height: auto; margin: 0 auto 12px; }
+  .story__item b { font-size: 17px; }
+  .story__item > span { font-size: 14px; }
+  .story__group { margin: 0 0 10px; font-size: 11px; }
+  .story__item:not(:has(.story__group))::before { content: ''; display: block; height: 26px; }
+}

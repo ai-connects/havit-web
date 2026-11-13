@@ -89,3 +89,43 @@ if (wrap && !reduce) {
     btn.setAttribute('aria-pressed', String(paused)); btn.setAttribute('aria-label', paused ? 'Play' : 'Pause')
   })
 }
+
+// ⑤ 4꼭지 스토리 — 데스크톱: 왼쪽 항목이 화면 가운데 오면 오른쪽 고정 폰 화면이 그 화면으로 바뀐다.
+// 모바일: 항목이 가로 스와이프 카드가 되고, 위 알약 탭이 지금 보이는 그룹을 따라간다.
+document.querySelectorAll('[data-story]').forEach((story) => {
+  const items = [...story.querySelectorAll('.story__item')]
+  const imgs = [...story.querySelectorAll('.story__img')]
+  const dots = [...story.querySelectorAll('.story__dots span')]
+  const tabs = [...story.querySelectorAll('.story__tab')]
+  const list = story.querySelector('.story__list')
+  const starts = tabs.map((t) => Number(t.dataset.goto))
+  const setActive = (i) => {
+    items.forEach((el, n) => el.classList.toggle('is-active', n === i))
+    imgs.forEach((el, n) => el.classList.toggle('is-active', n === i))
+    dots.forEach((el, n) => el.classList.toggle('is-active', n === i))
+    let g = 0; starts.forEach((s, n) => { if (i >= s) g = n })
+    tabs.forEach((el, n) => el.classList.toggle('is-active', n === g))
+  }
+  setActive(0)
+  const mobile = () => window.matchMedia('(max-width: 960px)').matches
+  const io = new IntersectionObserver((entries) => {
+    if (mobile()) return
+    entries.forEach((e) => { if (e.isIntersecting) setActive(Number(e.target.dataset.i)) })
+  }, { rootMargin: '-45% 0px -45% 0px' })
+  items.forEach((el) => io.observe(el))
+  list.addEventListener('scroll', () => {
+    if (!mobile()) return
+    const w = items[0].getBoundingClientRect().width + 12
+    setActive(Math.min(items.length - 1, Math.round(Math.abs(list.scrollLeft) / w)))
+  }, { passive: true })
+  tabs.forEach((t) => t.addEventListener('click', () => {
+    const i = Number(t.dataset.goto)
+    if (mobile()) {
+      const w = items[0].getBoundingClientRect().width + 12
+      const rtl = getComputedStyle(list).direction === 'rtl'
+      list.scrollTo({ left: (rtl ? -1 : 1) * i * w, behavior: reduce ? 'auto' : 'smooth' })
+    } else {
+      items[i].scrollIntoView({ block: 'center', behavior: reduce ? 'auto' : 'smooth' })
+    }
+  }))
+})
