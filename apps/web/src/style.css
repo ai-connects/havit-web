@@ -3825,3 +3825,13 @@ a {
   .hero__visual--coaches { margin-top: 104px; }
   .coach-bubble--top { top: -100px; right: 0; }
 }
+
+/* 순차 등장 v2 — 지연은 --rd(같이 들어온 묶음 안 순서), 묶음 안 줄은 --ci */
+.reveal { transform: translateY(22px); }
+.reveal.is-visible { animation: reveal-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) var(--rd, 0ms) both; }
+.reveal--kids.reveal { opacity: 1; transform: none; }
+.reveal--kids.reveal.is-visible { animation: none; }
+.reveal--kids > * { opacity: 0; transform: translateY(18px); }
+.reveal--kids.is-visible > * { animation: reveal-in 0.65s cubic-bezier(0.16, 1, 0.3, 1) calc(var(--rd, 0ms) + var(--ci, 0) * 90ms) both; }
+@media (prefers-reduced-motion: reduce) { .reveal--kids > * { opacity: 1; transform: none; animation: none !important; } }
+@media (prefers-reduced-motion: reduce) { .reveal, .reveal.is-visible { opacity: 1; transform: none; animation: none !important; } }

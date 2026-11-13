@@ -9,27 +9,33 @@ const prefersReducedMotion = window.matchMedia(
 // using a page-wide index — a global index could assign a lower-on-the-page
 // element a shorter delay than a higher one in the same intersection batch,
 // making it visibly appear first when scrolling fast.
-const revealEls = document.querySelectorAll('.reveal')
+// 히어로는 첫 화면이라 불러오자마자 위에서부터 차례로 등장시킨다.
+document.querySelectorAll('.hero__content > *').forEach((el, i) => {
+  el.classList.add('reveal', 'is-visible')
+  el.style.setProperty('--rd', `${60 + i * 80}ms`)
+})
+document.querySelectorAll('.hero__visual').forEach((el) => { el.classList.add('reveal', 'is-visible'); el.style.setProperty('--rd', '180ms') })
+// 묶음(섹션 제목 등) 안의 줄도 하나씩
+document.querySelectorAll('.section-heading.reveal').forEach((el) => {
+  el.classList.add('reveal--kids')
+  ;[...el.children].forEach((c, i) => c.style.setProperty('--ci', i))
+})
+const revealEls = document.querySelectorAll('.reveal:not(.is-visible)')
 if (prefersReducedMotion) {
   revealEls.forEach((el) => el.classList.add('is-visible'))
 } else {
-  const siblingIndex = new Map()
-  revealEls.forEach((el) => {
-    const parent = el.parentElement
-    const idx = siblingIndex.get(parent) || 0
-    el.style.transitionDelay = `${Math.min(idx, 3) * 90}ms`
-    siblingIndex.set(parent, idx + 1)
-  })
+  // 같은 순간 화면에 들어온 요소들은 위→아래, 왼→오른쪽 순서로 0.1초씩 이어서 등장.
   const io = new IntersectionObserver(
     (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible')
-          io.unobserve(entry.target)
-        }
+      const ins = entries.filter((e) => e.isIntersecting)
+      ins.sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top || a.boundingClientRect.left - b.boundingClientRect.left)
+      ins.forEach((entry, i) => {
+        entry.target.style.setProperty('--rd', `${Math.min(i, 6) * 100}ms`)
+        entry.target.classList.add('is-visible')
+        io.unobserve(entry.target)
       })
     },
-    { threshold: 0.15, rootMargin: '0px 0px -60px 0px' }
+    { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
   )
   revealEls.forEach((el) => io.observe(el))
 }

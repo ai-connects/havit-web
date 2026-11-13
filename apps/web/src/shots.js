@@ -39,41 +39,41 @@ function build(host, items, src, base, list, rtlDoc) {
       const c = cover(it.c, it.r, base)
       const p = piece(src, it.r, base)
       host.append(c, p)
-      add(c, [{ opacity: 1 }, { opacity: 0 }], { duration: 1, delay: t + 600 })
-      if (it.k === 'up') add(p, [{ opacity: 0, transform: 'translateY(14px)' }, { opacity: 1, transform: 'none' }], { duration: 600 })
-      else add(p, [{ opacity: 0, transform: 'scale(0.6)' }, { opacity: 1, transform: 'none' }], { duration: 650, easing: SPRING })
+      add(c, [{ opacity: 1 }, { opacity: 0 }], { duration: 1, delay: t + 420 })
+      if (it.k === 'up') add(p, [{ opacity: 0, transform: 'translateY(14px)' }, { opacity: 1, transform: 'none' }], { duration: 420 })
+      else add(p, [{ opacity: 0, transform: 'scale(0.6)' }, { opacity: 1, transform: 'none' }], { duration: 460, easing: SPRING })
       if (it.kids) build(p, it.kids, src, it.r, list, rtlDoc)
     } else if (it.k === 'lines') {
       it.L.forEach((ln, n) => {
         const c = cover(ln[4] || it.c, ln.slice(0, 4), base)
         host.append(c)
         c.style.transformOrigin = rtlDoc ? 'left' : 'right'
-        list.push(c.animate([{ transform: 'scaleX(1)' }, { transform: 'scaleX(0)' }], { duration: 380, delay: t + n * 110, fill: 'both', easing: 'cubic-bezier(0.45, 0, 0.25, 1)' }))
+        list.push(c.animate([{ transform: 'scaleX(1)' }, { transform: 'scaleX(0)' }], { duration: 260, delay: t + n * 70, fill: 'both', easing: 'cubic-bezier(0.45, 0, 0.25, 1)' }))
       })
     } else if (it.k === 'bar') {
       const c = cover(it.c, it.r, base, 'shot__c--bar')
       host.append(c)
       c.style.transformOrigin = it.rtl ? 'left' : 'right'
-      add(c, [{ transform: 'scaleX(1)' }, { transform: 'scaleX(0)' }], { duration: 1100 })
+      add(c, [{ transform: 'scaleX(1)' }, { transform: 'scaleX(0)' }], { duration: 750 })
     } else if (it.k === 'wipe' || it.k === 'rise') {
       const c = cover(it.c, it.r, base)
       host.append(c)
-      if (it.k === 'wipe') { c.style.transformOrigin = rtlDoc ? 'left' : 'right'; add(c, [{ transform: 'scaleX(1)' }, { transform: 'scaleX(0)' }], { duration: 1500, easing: 'cubic-bezier(0.45, 0, 0.25, 1)' }) }
-      else { c.style.transformOrigin = 'top'; add(c, [{ transform: 'scaleY(1)' }, { transform: 'scaleY(0)' }], { duration: 1100 }) }
+      if (it.k === 'wipe') { c.style.transformOrigin = rtlDoc ? 'left' : 'right'; add(c, [{ transform: 'scaleX(1)' }, { transform: 'scaleX(0)' }], { duration: 1000, easing: 'cubic-bezier(0.45, 0, 0.25, 1)' }) }
+      else { c.style.transformOrigin = 'top'; add(c, [{ transform: 'scaleY(1)' }, { transform: 'scaleY(0)' }], { duration: 750 }) }
     } else if (it.k === 'pulse' || it.k === 'pulses') {
       // 원본 조각을 살짝 키웠다 돌려놓는 강조 — 가리는 덮개가 없어 사진 위에서도 이음새가 없다
       ;(it.T || [it.r]).forEach((r, n) => {
         const p = piece(src, r, base)
         p.classList.add('shot__p--pill')
         host.append(p)
-        list.push(p.animate([{ transform: 'scale(1)', opacity: 0 }, { transform: 'scale(1.1)', opacity: 1, offset: 0.35 }, { transform: 'scale(1)', opacity: 1, offset: 0.85 }, { transform: 'scale(1)', opacity: 0 }], { duration: 760, delay: t + n * 180, easing: E }))
+        list.push(p.animate([{ transform: 'scale(1)', opacity: 0 }, { transform: 'scale(1.1)', opacity: 1, offset: 0.35 }, { transform: 'scale(1)', opacity: 1, offset: 0.85 }, { transform: 'scale(1)', opacity: 0 }], { duration: 560, delay: t + n * 120, easing: E }))
       })
     } else if (it.k === 'scan') {
       const s = document.createElement('i')
       s.className = 'shot__scan'
       rect(s, it.r, base)
       host.append(s)
-      add(s.appendChild(document.createElement('b')), [{ top: '0%', opacity: 0 }, { opacity: 1, offset: 0.15 }, { opacity: 1, offset: 0.85 }, { top: '100%', opacity: 0 }], { duration: 1500, easing: 'cubic-bezier(0.45, 0, 0.25, 1)', fill: 'none' })
+      add(s.appendChild(document.createElement('b')), [{ top: '0%', opacity: 0 }, { opacity: 1, offset: 0.15 }, { opacity: 1, offset: 0.85 }, { top: '100%', opacity: 0 }], { duration: 1000, easing: 'cubic-bezier(0.45, 0, 0.25, 1)', fill: 'none' })
     }
   })
 }

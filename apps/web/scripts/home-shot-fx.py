@@ -16,11 +16,11 @@ SPEC={
  '05-8':[('up',R(17.5,24.5)),('up',R(25.5,59.5)),('up',R(60,97),[('wipe',R(67,84.5,10,90))])],
  '05-10':[('auto',R(16.5,97.5),None,{'chart':('rise',49)})],
  '06-1':[('auto',R(15,88.8))],
- '07-2':[('pop',R(24.4,40.4,33,67),None,{'ring':1}),('auto',R(41,87))]+[('pulse',[c-3.4,67.3,6.8,3.6],None,{'round':1,'at':1.3+n*.16}) for n,c in enumerate((16.1,27.6,39,50.3,61.6,72.9))],
+ '07-2':[('pop',R(24.4,40.4,33,67),None,{'ring':1}),('auto',R(41,87))]+[('pulse',[c-3.4,67.3,6.8,3.6],None,{'round':1,'at':.8+n*.1}) for n,c in enumerate((16.1,27.6,39,50.3,61.6,72.9))],
  '07-3':[('auto',R(15,80.5))],
  '07-7':[('auto',R(16.5,92.5))],
 }
-ADV={'tags':0,'up':.14,'pop':.22,'bar':.12,'wipe':.55,'rise':.45,'scan':.9,'pulse':.2}
+ADV={'tags':0,'up':.09,'pop':.14,'bar':.08,'wipe':.35,'rise':.3,'scan':.6,'pulse':.12}
 def quant(px):
     k=px[:,0]*65536+px[:,1]*256+px[:,2]
     u,c=np.unique(k,return_counts=True); m=u[c.argmax()]; return '#%06x'%m, np.array([m>>16,(m>>8)&255,m&255])
@@ -123,15 +123,15 @@ def compile_one(a,items,t0,parent=None):
             o['c']=(GBG if k=='up' and not opt.get('ring') else ring(a,r)[0]) if k in('up','pop') else quant(a[box(a,r)[1]:box(a,r)[3],box(a,r)[0]:box(a,r)[2]].reshape(-1,3))[0]
         adv=ADV.get(k,.2)
         if k=='lines':
-            c,L=lines(a,r); o['c']=c; o['L']=L; adv=.1+len(L)*.11
+            c,L=lines(a,r); o['c']=c; o['L']=L; adv=.06+len(L)*.07
         if k=='bars':
             for n,b in enumerate(bars(a,parent['r'])):
                 out.append({'k':'bar','t':round(st+n*.12,2),**b})
             t=st+.15; continue
         if k=='tags':
-            o['k']='pulses'; o['T']=tags(a,r); adv=.2+len(o['T'])*.18
+            o['k']='pulses'; o['T']=tags(a,r); adv=.15+len(o['T'])*.12
         if kids:
-            o['kids'],kt=compile_one(a,kids,st+.3,o); adv=max(adv,kt-st)
+            o['kids'],kt=compile_one(a,kids,st+.18,o); adv=max(adv,kt-st)
         out.append(o)
         if 'at' not in opt: t=st+adv
     return out,t
@@ -143,13 +143,13 @@ for loc in sorted(os.listdir(root)):
     for code,items in SPEC.items():
         a=np.asarray(Image.open(f'{d}/{code}.webp').convert('RGB')).astype(int)
         global GBG; GBG=quant(a[int(a.shape[0]*.1):int(a.shape[0]*.95),60:-60].reshape(-1,3))[0]
-        res[code],_=compile_one(a,items,.15)
+        res[code],_=compile_one(a,items,.05)
         def tmax(v): return max([x['t'] for x in v]+[tmax(x['kids']) for x in v if x.get('kids')])
         def scale(v,f):
             for x in v:
                 x['t']=round(x['t']*f,2)
                 if x.get('kids'): scale(x['kids'],f)
         m=tmax(res[code])
-        if m>3.0: scale(res[code],3.0/m)
+        if m>1.8: scale(res[code],1.8/m)
     json.dump(res,open(f'{d}/fx.json','w'),separators=(',',':'))
 print('ok')
