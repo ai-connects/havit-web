@@ -49,6 +49,7 @@ scenes.forEach((scene) => {
     steps.forEach((el, n) => { el.classList.toggle('is-active', n === i); el.classList.toggle('is-done', n < i) })
     imgs.forEach((el, n) => { el.classList.toggle('is-active', n === i); el.classList.toggle('is-past', n < i) })
     dots.forEach((el, n) => el.classList.toggle('is-active', n === i))
+    if (mqMobile.matches) { const ul = steps[i].parentElement, li = steps[i]; ul.scrollTo({ left: li.offsetLeft - (ul.clientWidth - li.offsetWidth) / 2, behavior: 'smooth' }) }
     playAnim()
     fxs.forEach((el, n) => {
       const on = n === i
@@ -79,7 +80,7 @@ scenes.forEach((scene) => {
     const dist = scene.offsetHeight - window.innerHeight
     return { top, dist }
   }
-  const pinned = () => !mqMobile.matches && !reduce
+  const pinned = () => !reduce
   const progress = () => { const { top, dist } = geom(); return Math.max(0, Math.min(1, (window.scrollY - top) / dist)) * K }
   const onScroll = () => {
     if (!pinned()) return
@@ -148,11 +149,14 @@ scenes.forEach((scene) => {
   const stage = scene.querySelector('.scene__stage')
   stage.addEventListener('touchstart', (e) => { sx = e.touches[0].clientX }, { passive: true })
   stage.addEventListener('touchend', (e) => {
-    if (pinned()) return
     const dx = e.changedTouches[0].clientX - sx
     if (Math.abs(dx) < 40) return
     const rtl = getComputedStyle(stage).direction === 'rtl'
     const dir = (dx < 0) !== rtl ? 1 : -1
+    if (pinned()) {
+      const i = Math.max(0, Math.min(K - 1, active + dir)); stopAuto()
+      const { top, dist } = geom(); window.scrollTo({ top: top + ((i + 0.02) / K) * dist, behavior: 'smooth' }); return
+    }
     setActive((active + dir + K) % K); mobileRestart(true)
   }, { passive: true })
   onScroll()

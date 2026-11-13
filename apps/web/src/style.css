@@ -3736,13 +3736,15 @@ a {
 [dir='rtl'] .scene__bar > i { transform-origin: right; }
 
 @media (max-width: 960px) {
-  .scene { height: auto; padding: 56px 0 48px; --ph: 440px; }
-  .scene__sticky { position: static; height: auto; display: block; overflow: visible; }
-  .scene__grid { grid-template-columns: 1fr; gap: 20px; }
+  /* 모바일도 화면 고정: 스크롤 양으로 단계가 넘어가고, 멈추면 자동으로 넘어간다 */
+  .scene { --ph: clamp(280px, calc(100svh - 440px), 460px); height: calc(100svh + var(--steps) * 60svh); }
+  .scene__sticky { height: 100svh; padding-top: 64px; align-items: flex-start; }
+  .scene__grid { grid-template-columns: 1fr; gap: 12px; padding-top: 12px; }
+  .scene__lead { display: none; }
   .scene--flip .scene__copy { order: 0; justify-self: stretch; }
   .scene__copy { max-width: none; display: contents; }
-  .scene__eyebrow { order: 1; } .scene__head { order: 2; font-size: 28px; letter-spacing: -0.8px; margin-top: -8px; }
-  .scene__lead { order: 3; font-size: 15px; margin-top: -6px; }
+  .scene__eyebrow { order: 1; font-size: 12px; } .scene__head { order: 2; font-size: 24px; letter-spacing: -0.8px; margin-top: -6px; }
+
   .scene__steps { order: 4; flex-direction: row; gap: 6px; margin: 4px -16px 0; padding: 0 16px; overflow-x: auto; scrollbar-width: none; }
   .scene__steps::-webkit-scrollbar { display: none; }
   .scene__btn { padding: 8px 14px !important; border-radius: 999px; background: #fff; gap: 0; align-items: center; }
@@ -3756,8 +3758,8 @@ a {
   .scene__dots { top: calc(var(--ph) + 18px); }
   .scene__dots span.is-active { width: 28px; }
   .scene__fx { display: none; }
-  .scene__cap { order: 6; display: block; margin: 8px 0 0; }
-  .scene__cap b { display: block; font-size: 18px; font-weight: 600; color: #0b0b0b; }
+  .scene__cap { order: 6; display: block; margin: 0; }
+  .scene__cap b { display: block; font-size: 17px; font-weight: 600; color: #0b0b0b; }
   .scene__cap .scene__more { display: block; opacity: 1; }
   .scene__cap .scene__more > span { font-size: 14px; line-height: 1.5; color: #4a4a4a; padding-top: 4px; overflow: visible; }
   .scene__cap .scene__bar { margin-top: 12px; }
