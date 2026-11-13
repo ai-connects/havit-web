@@ -3,7 +3,7 @@
 import featureData from '@/data/havit-features.json';
 import { type LangKey, t } from '@/lib/i18n';
 import { asset, localizedShot } from '@/lib/site';
-import { appLinkFor, destinationOf, trackGaEvent, useMobileOS } from '@/lib/download-links';
+import { learnMoreHref, learnMoreLabel, trackGaEvent } from '@/lib/download-links';
 import { contextualCta } from '@/lib/cta-copy';
 
 /**
@@ -55,7 +55,6 @@ interface Props {
 }
 
 export default function MidArticleCTA({ lang, shortLang, articleId, slug, category }: Props) {
-  const os = useMobileOS();
   const f = featureFor(slug, category);
   const copy = COPY[shortLang] ?? COPY.en;
   // 실험 대상 글이면 글 주제에 맞춘 제목·버튼(lib/cta-copy.ts), 아니면 홈 기능 제목·「무료로 시작」.
@@ -73,13 +72,13 @@ export default function MidArticleCTA({ lang, shortLang, articleId, slug, catego
         <p className="mid-cta__title">{ctx?.title ?? copy[f.title_key]}</p>
         <p className="mid-cta__sub">{t(lang, 'installCtaSub')}</p>
         <a
-          href={appLinkFor(os, placement)}
-          onClick={() => trackGaEvent('start_free_click', {
-            lang, article_id: articleId, link_location: placement, destination: destinationOf(os), feature: f.eyebrow_key, cta_variant: ctx ? 'contextual' : 'default',
+          href={learnMoreHref(shortLang, placement)}
+          onClick={() => trackGaEvent('learn_more_click', {
+            lang, article_id: articleId, link_location: placement, destination: 'homepage', feature: f.eyebrow_key, cta_variant: ctx ? 'contextual' : 'default',
           })}
           className="mid-cta__btn"
         >
-          {ctx?.button ?? t(lang, 'installCta')}
+          {learnMoreLabel(shortLang)}
         </a>
       </div>
     </aside>

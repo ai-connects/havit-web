@@ -3,7 +3,7 @@
 import { type LangKey, t, toShortLang } from '@/lib/i18n';
 import { asset, localizedShot, storeBadge } from '@/lib/site';
 import {
-  PLAY_STORE_URL, appLinkFor, appStoreUrlFor, destinationOf, storeOf, trackGaEvent, useMobileOS,
+  PLAY_STORE_URL, appLinkFor, appStoreUrlFor, learnMoreHref, learnMoreLabel, storeOf, trackGaEvent, useMobileOS,
 } from '@/lib/download-links';
 import { contextualCta } from '@/lib/cta-copy';
 
@@ -39,13 +39,13 @@ export default function InstallCTA({ lang, articleId, slug, variant = 'inline' }
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="cta-pill__char cta-pill__char--dino" src={asset('/cta/dino.webp')} alt="" width={70} height={70} aria-hidden />
             <a
-              href={appLinkFor(os, placement)}
-              onClick={() => trackGaEvent('start_free_click', {
-                ...context, link_location: placement, destination: destinationOf(os),
+              href={learnMoreHref(toShortLang(lang), placement)}
+              onClick={() => trackGaEvent('learn_more_click', {
+                ...context, link_location: placement, destination: 'homepage',
               })}
               className="sticky-cta-btn"
             >
-              {t(lang, 'installCta')}
+              {learnMoreLabel(toShortLang(lang))}
             </a>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="cta-pill__char cta-pill__char--peek" src={asset('/cta/peek.webp')} alt="" width={63} height={60} aria-hidden />
@@ -82,6 +82,13 @@ export default function InstallCTA({ lang, articleId, slug, variant = 'inline' }
         </span>
         <p className="install-cta__title">{ctx?.title ?? t(lang, 'installCta')}</p>
         <p className="install-cta__sub">{t(lang, 'installCtaSub')}</p>
+        <a
+          href={learnMoreHref(toShortLang(lang), placement)}
+          onClick={() => trackGaEvent('learn_more_click', { ...context, link_location: placement, destination: 'homepage' })}
+          className="install-cta__learn"
+        >
+          {learnMoreLabel(toShortLang(lang))}
+        </a>
         <div className="install-cta__badges">
           <a href={badgeHref('app_store', appStoreUrlFor(lang))} onClick={onBadgeClick('app_store')} target="_blank" rel="noopener" className="install-cta__badge" aria-label="App Store">
             {/* 수 KB 고정 크기 배지라 next/image 최적화 이득이 없다. */}
