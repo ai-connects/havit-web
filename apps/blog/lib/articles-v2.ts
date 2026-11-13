@@ -15,7 +15,8 @@ import { readdirSync, readFileSync, statSync } from 'fs';
 import path from 'path';
 import { INDEXABLE_ROUTE_LANGS } from './i18n';
 import mergedRedirects from './merged-redirects.json';
-import { assignRelated, computeNeighbors, type Neighbor } from './related-articles';
+import { assignRelated, computeNeighbors, type IndexBoost, type Neighbor } from './related-articles';
+import indexBoostData from '../data/index-boost.json';
 
 /**
  * 중복 통합으로 301(next.config redirects)이 걸린 슬러그.
@@ -318,6 +319,14 @@ export interface RelatedArticleLink {
   category_emoji?: string;
 }
 
+/** 색인 보강 입력(노출 0 글·노출 상위 글) — scripts/build-index-boost.py 가 생성. */
+function indexBoostFor(shortLang: string): IndexBoost | undefined {
+  const l = (indexBoostData as { langs: Record<string, { boost: string[]; strong: string[] }> }).langs[
+    shortLang.toLowerCase()
+  ];
+  return l ? { boost: new Set(l.boost), strong: new Set(l.strong) } : undefined;
+}
+
 /** 언어(데이터 키)별 관련글 배정 캐시. limit 별로 따로 둔다. */
 const _relatedPlans = new Map<string, Map<string, string[]>>();
 
@@ -342,7 +351,7 @@ export function getRelatedForLang(
       const r = resolveContent(a, shortLang);
       if (r && !r.fallback) native.add(a.slug);
     }
-    plan = assignRelated(relatedNeighbors(), native, limit);
+    plan = assignRelated(relatedNeighbors(), native, limit, indexBoostFor(shortLang));
     _relatedPlans.set(key, plan);
   }
   // 이 언어 원고가 없는 글(폴백 페이지)은 배정 대상이 아니므로 유사도 상위만 쓴다.
