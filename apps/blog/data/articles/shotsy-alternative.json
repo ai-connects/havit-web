@@ -1194,7 +1194,7 @@
           ],
           [
             "価格",
-            "無料コア+プレミアム(約$49.99/年)",
+            "無料コア+プレミアム(約7,500円/年)",
             "無料+オプションコーチ"
           ]
         ],
@@ -1215,7 +1215,7 @@
         },
         {
           "question": "Shotsyは無料ですか?",
-          "answer": "Shotsyの核機能は無料で、一部の高度機能はプレミアムサブスクリプション(一般的に年間約$49.99)の背後にあります。サブスクライブ前にApp StoreまたはGoogle Playで現在の価格を確認してください。"
+          "answer": "Shotsyの核機能は無料で、一部の高度機能はプレミアムサブスクリプション(一般的に年間約7,500円)の背後にあります。サブスクライブ前にApp StoreまたはGoogle Playで現在の価格を確認してください。"
         },
         {
           "question": "ShotsyにはAIコーチがありますか?",
@@ -1272,7 +1272,7 @@
           "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
         }
       ],
-      "last_updated": "2026-07-02",
+      "last_updated": "2026-11-16",
       "short_title": "GLP-1ユーザー向けShotsy代替:2026年版正直な比較"
     },
     "zh-TW": {
@@ -1417,5 +1417,6 @@
       "short_title": "Shotsy 替代方案:GLP-1 使用者的誠實比較(2026)"
     }
   },
-  "generated_at": "2026-08-14T00:00:00.000Z"
+  "generated_at": "2026-08-14T00:00:00.000Z",
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }
