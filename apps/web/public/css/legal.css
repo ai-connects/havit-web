@@ -391,3 +391,18 @@ nav.scrolled {
     padding: 40px 0 64px;
   }
 }
+
+/* 언어 전환 줄 — 개인정보·이용약관·추천 프로그램 약관(en·ko·ja·zh-tw) 맨 위 */
+.legal-lang {
+  margin: 0 0 16px;
+  font-size: 14px;
+  color: var(--color-grey-60);
+}
+
+.legal-lang a {
+  color: var(--color-grey-80);
+}
+
+.legal-lang strong {
+  color: var(--color-black);
+}

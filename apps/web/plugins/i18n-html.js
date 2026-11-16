@@ -441,6 +441,22 @@ export function localizeHomeAssets(html, locale) {
   return out
 }
 
+/**
+ * 법무 문서 링크를 그 언어 번역본으로 보낸다. 번역본이 없는 문서·언어는 영어 그대로.
+ * 개인정보·이용약관·추천 프로그램 약관 = ko·ja·zh-tw, 환불·EULA = ko.
+ */
+const LEGAL_LOCALIZED = {
+  privacy: ['ko', 'ja', 'zh-tw'],
+  terms: ['ko', 'ja', 'zh-tw'],
+  'referral-terms': ['ko', 'ja', 'zh-tw'],
+  refund: ['ko'],
+  eula: ['ko'],
+}
+export function localizeLegal(html, locale) {
+  return html.replace(/href="\/(privacy|terms|referral-terms|refund|eula)\.html"/g, (m, doc) =>
+    (LEGAL_LOCALIZED[doc].includes(locale) ? `href="/${doc}-${locale}.html"` : m))
+}
+
 export function renderLocale(baseHtml, locale, page = HOME_PAGE) {
   const dict = locale === DEFAULT_LOCALE ? {} : loadDict(locale)
   const { html, missing } = locale === DEFAULT_LOCALE
@@ -448,7 +464,7 @@ export function renderLocale(baseHtml, locale, page = HOME_PAGE) {
     : translateBody(baseHtml, dict)
   const withHead = renderLangMenu(translateHead(html, locale, dict, baseHtml, page), locale, page)
   const out = localizeBlogLinks(injectFooterArticles(localizeArticleCards(withHead, locale), locale), locale)
-  return { html: localizeHomeAssets(localizeSocial(localizeImages(out, locale), locale), locale), missing }
+  return { html: localizeLegal(localizeHomeAssets(localizeSocial(localizeImages(out, locale), locale), locale), locale), missing }
 }
 
 export default function i18nHtml() {

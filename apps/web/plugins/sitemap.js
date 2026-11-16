@@ -28,8 +28,18 @@ const SITE = 'https://www.aihavit.com'
  * changes — that is the whole point of them not tracking the build date.
  */
 const DOCUMENTS = [
-  { path: '/privacy.html', lastmod: '2026-05-24' },
-  { path: '/terms.html', lastmod: '2026-06-19' },
+  { path: '/privacy.html', lastmod: '2026-11-16' },
+  { path: '/terms.html', lastmod: '2026-11-16' },
+  { path: '/referral-terms.html', lastmod: '2026-11-16' },
+  { path: '/privacy-ko.html', lastmod: '2026-11-16' },
+  { path: '/privacy-ja.html', lastmod: '2026-11-16' },
+  { path: '/privacy-zh-tw.html', lastmod: '2026-11-16' },
+  { path: '/terms-ko.html', lastmod: '2026-11-16' },
+  { path: '/terms-ja.html', lastmod: '2026-11-16' },
+  { path: '/terms-zh-tw.html', lastmod: '2026-11-16' },
+  { path: '/referral-terms-ko.html', lastmod: '2026-11-16' },
+  { path: '/referral-terms-ja.html', lastmod: '2026-11-16' },
+  { path: '/referral-terms-zh-tw.html', lastmod: '2026-11-16' },
   { path: '/refund.html', lastmod: '2026-06-19' },
   { path: '/refund-ko.html', lastmod: '2026-06-19' },
   { path: '/eula.html', lastmod: '2026-06-19' },
