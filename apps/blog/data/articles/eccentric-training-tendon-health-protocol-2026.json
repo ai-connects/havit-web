@@ -1342,7 +1342,7 @@
             "Rotatorenmanschetten-Tendinopathie",
             "Seitenliegende Außenrotation",
             "3x15 Wdh., 1x täglich",
-            "1-2 lb Schritte wöchentlich hinzufügen"
+            "ca. 0,5–0,9 kg Schritte wöchentlich hinzufügen"
           ]
         ],
         "caption": "Beispielparameter in Anlehnung an veröffentlichte Protokolle; individuelle Programme variieren. Alle Übungen mit langsamer, kontrollierter exzentrischer Phase."
@@ -1434,7 +1434,7 @@
           "url": "https://doi.org/10.1016/S0140-6736(10)61160-9"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Entraînement excentrique pour la santé des tendons : le protocole fondé sur les preuves pour la tendinopathie",
@@ -1597,7 +1597,7 @@
     }
   },
   "generated_at": "2026-05-24T15:58:57.485Z",
-  "updated_at": "2026-10-08T01:43:26.000Z",
+  "updated_at": "2026-11-16T00:00:00.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1

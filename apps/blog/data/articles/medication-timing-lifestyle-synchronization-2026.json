@@ -1281,7 +1281,7 @@
       "faq": [
         {
           "question": "Kann ich meinen GLP-1-Injektionstag ohne Rücksprache mit meinem Arzt ändern?",
-          "answer": "Die Fachinformationen geben klare Regeln vor: Bei Semaglutid (Ozempic, Wegovy) darf der Wochentag gewechselt werden, wenn zwischen zwei Dosen mindestens 2 Tage (48 Stunden) liegen; bei Tirzepatid (Mounjaro, Zepbound) mindestens 3 Tage (72 Stunden). Prüfen Sie die Anleitung Ihres Präparats und informieren Sie vor dem Wechsel Ihre Ärztin, Ihren Arzt oder die Apotheke – besonders, wenn Sie auch Insulin oder andere Diabetesmedikamente nutzen."
+          "answer": "Die Fachinformationen geben klare Regeln vor: Bei Semaglutid (Ozempic, Wegovy) darf der Wochentag gewechselt werden, wenn zwischen zwei Dosen mindestens 2 Tage (48 Stunden) liegen; bei Tirzepatid (Mounjaro) mindestens 3 Tage (72 Stunden). Prüfen Sie die Anleitung Ihres Präparats und informieren Sie vor dem Wechsel Ihre Ärztin, Ihren Arzt oder die Apotheke – besonders, wenn Sie auch Insulin oder andere Diabetesmedikamente nutzen."
         },
         {
           "question": "Was ist, wenn mein Arbeitsplan unvorhersehbar ist?",
@@ -1350,7 +1350,7 @@
           "url": "https://doi.org/10.1016/j.molmed.2016.03.004"
         }
       ],
-      "last_updated": "2025-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Synchroniser vos médicaments avec votre vie : comment aligner votre traitement GLP-1 avec vos repas et votre activité physique",
@@ -1504,7 +1504,7 @@
     }
   },
   "generated_at": "2026-05-24T09:57:11.961Z",
-  "updated_at": "2026-10-08T07:47:00.000Z",
+  "updated_at": "2026-11-16T00:00:00.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1

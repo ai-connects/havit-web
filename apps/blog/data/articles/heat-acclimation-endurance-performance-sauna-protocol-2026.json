@@ -326,13 +326,13 @@
           ],
           [
             "ドライサウナ温度",
-            "77〜85℃（170〜185°F）",
-            "77〜85℃（170〜185°F）"
+            "77〜85℃",
+            "77〜85℃"
           ],
           [
             "スチームサウナ温度",
-            "54〜66℃（130〜150°F）",
-            "54〜66℃（130〜150°F）"
+            "54〜66℃",
+            "54〜66℃"
           ],
           [
             "タイミング",
@@ -404,7 +404,7 @@
           "url": "https://doi.org/10.1007/s00421-025-05942-8"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "zh-CN": {
       "title": "热适应提升耐力表现：桑拿训练如何在不增加跑量的情况下提高成绩",
@@ -1126,13 +1126,13 @@
           ],
           [
             "Trockensauna-Temperatur",
-            "170-185°F (77-85°C)",
-            "170-185°F (77-85°C)"
+            "77-85°C",
+            "77-85°C"
           ],
           [
             "Dampfbad-Temperatur",
-            "130-150°F (54-66°C)",
-            "130-150°F (54-66°C)"
+            "54-66°C",
+            "54-66°C"
           ],
           [
             "Timing",
@@ -1204,7 +1204,7 @@
           "url": "https://doi.org/10.1007/s00421-025-05942-8"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Acclimatation à la chaleur pour l'endurance : Comment les séances de sauna améliorent les performances sans kilomètres supplémentaires",
@@ -1345,5 +1345,6 @@
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

@@ -1212,7 +1212,7 @@
           [
             "Pistazien",
             "1,4",
-            "1 oz (28g)",
+            "28g",
             "Enthält ergänzende Fette"
           ]
         ],
@@ -1270,7 +1270,7 @@
           "url": "https://doi.org/10.1167/iovs.10-5664"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Préservation de la vision après 50 ans : Guide scientifique pour prévenir la dégénérescence maculaire",
@@ -1419,5 +1419,6 @@
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

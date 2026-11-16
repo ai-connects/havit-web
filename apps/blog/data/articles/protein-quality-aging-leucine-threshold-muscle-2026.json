@@ -1392,13 +1392,13 @@
           ],
           [
             "Hähnchenbrust",
-            "4 oz (113g)",
+            "113 g",
             "2,2g",
             "1,2 Portionen"
           ],
           [
             "Rindersteak",
-            "4 oz (113g)",
+            "113 g",
             "2,0g",
             "1,3 Portionen"
           ],
@@ -1422,7 +1422,7 @@
           ],
           [
             "Lachs",
-            "4 oz (113g)",
+            "113 g",
             "1,9g",
             "1,4 Portionen"
           ],
@@ -1508,7 +1508,7 @@
           "url": "https://doi.org/10.3945/ajcn.114.084053"
         }
       ],
-      "last_updated": "2026-10-07"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Pourquoi vos besoins en protéines changent après 50 ans : Le seuil de leucine dont vos muscles ont réellement besoin",
@@ -1679,7 +1679,7 @@
     }
   },
   "generated_at": "2026-05-24T16:30:03.098Z",
-  "updated_at": "2026-10-24T03:36:06.000Z",
+  "updated_at": "2026-11-16T00:00:00.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1

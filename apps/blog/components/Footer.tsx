@@ -196,6 +196,15 @@ function shortLabel(title: string): string {
   return `${out.trimEnd()}…`;
 }
 
+/**
+ * 개인정보·이용약관·추천 프로그램 약관은 ko·ja·zh-tw 번역본이 있다(www.aihavit.com/<doc>-<lang>.html).
+ * 그 밖의 언어는 영어 원문으로 보낸다.
+ */
+const LEGAL_TRANSLATED_LANGS = new Set(['ko', 'ja', 'zh-tw']);
+function legalHref(doc: 'privacy' | 'terms' | 'referral-terms', shortLang: string): string {
+  return LEGAL_TRANSLATED_LANGS.has(shortLang) ? `${MAIN_SITE}/${doc}-${shortLang}.html` : `${MAIN_SITE}/${doc}.html`;
+}
+
 export default function Footer({ lang }: { lang: LangKey }) {
   const shortLang = toShortLang(lang);
   const i18n = pickFooterI18n(shortLang);
@@ -283,8 +292,9 @@ export default function Footer({ lang }: { lang: LangKey }) {
           </div>
           <div className="hv-footer__col">
             <p className="eyebrow">LEGAL</p>
-            <a href={`${MAIN_SITE}/privacy.html`}>Privacy</a>
-            <a href={`${MAIN_SITE}/terms.html`}>Terms</a>
+            <a href={legalHref('privacy', shortLang)}>Privacy</a>
+            <a href={legalHref('terms', shortLang)}>Terms</a>
+            <a href={legalHref('referral-terms', shortLang)}>Referral Program Terms</a>
             <a href={`${MAIN_SITE}/eula.html`}>EULA</a>
             <a href={`${MAIN_SITE}/refund.html`}>Refund Policy</a>
           </div>

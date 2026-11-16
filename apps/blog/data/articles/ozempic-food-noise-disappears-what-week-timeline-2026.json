@@ -1213,7 +1213,7 @@
         },
         {
           "question": "Reduzieren alle GLP-1-Medikamente Food Noise gleichermaßen?",
-          "answer": "Frühe Vergleichsdaten legen nahe, dass Semaglutid (Ozempic/Wegovy) und Tirzepatid (Mounjaro/Zepbound) ähnliche Food-Noise-Reduktion erzeugen. Ältere GLP-1-Medikamente wie Liraglutid scheinen für diesen spezifischen Effekt weniger wirksam zu sein, möglicherweise aufgrund geringerer Gehirnpenetration."
+          "answer": "Frühe Vergleichsdaten legen nahe, dass Semaglutid (Ozempic/Wegovy) und Tirzepatid (Mounjaro) ähnliche Food-Noise-Reduktion erzeugen. Ältere GLP-1-Medikamente wie Liraglutid scheinen für diesen spezifischen Effekt weniger wirksam zu sein, möglicherweise aufgrund geringerer Gehirnpenetration."
         }
       ],
       "references": [
@@ -1238,12 +1238,13 @@
           "url": "https://doi.org/10.1016/s1053-8119(09)71559-9"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     }
   },
   "generated_at": "2026-05-25T11:08:16.887Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

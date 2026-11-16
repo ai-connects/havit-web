@@ -357,7 +357,7 @@
         },
         {
           "question": "間欠プロトコルでの最適なフィセチン用量は？",
-          "answer": "ヒト試験では体重1kgあたり20mgが使用されました。体重70kg（154ポンド）の人で約1,400mgに相当します。この用量を2日連続で摂取し、残りの月は繰り返しません。脂肪を含む食事と一緒に摂取すると吸収が大幅に改善します。"
+          "answer": "ヒト試験では体重1kgあたり20mgが使用されました。体重70kgの人で約1,400mgに相当します。この用量を2日連続で摂取し、残りの月は繰り返しません。脂肪を含む食事と一緒に摂取すると吸収が大幅に改善します。"
         },
         {
           "question": "セノリティクス効果にはフィセチンとケルセチンどちらが良いですか？",
@@ -402,7 +402,7 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42176146/"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "zh-CN": {
       "title": "抗衰老神药的正确打开方式：2025年非瑟酮和槲皮素的间歇性高剂量方案为何颠覆了传统认知",
@@ -1170,7 +1170,7 @@
         },
         {
           "question": "Was ist die optimale Fisetin-Dosis für das intermittierende Protokoll?",
-          "answer": "Humanstudien verwendeten 20mg/kg Körpergewicht, was etwa 1.400mg für eine 70kg (154lb) schwere Person entspricht. Diese Dosis wird an zwei aufeinanderfolgenden Tagen eingenommen und dann für den Rest des Monats nicht wiederholt. Die Einnahme mit fetthaltiger Nahrung verbessert die Absorption erheblich."
+          "answer": "Humanstudien verwendeten 20mg/kg Körpergewicht, was etwa 1.400mg für eine 70kg schwere Person entspricht. Diese Dosis wird an zwei aufeinanderfolgenden Tagen eingenommen und dann für den Rest des Monats nicht wiederholt. Die Einnahme mit fetthaltiger Nahrung verbessert die Absorption erheblich."
         },
         {
           "question": "Ist Fisetin oder Quercetin besser für senolytische Effekte?",
@@ -1215,7 +1215,7 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42176146/"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Dosage des sénolytiques enfin élucidé : pourquoi les protocoles à base de fisétine et quercétine ont tout changé en 2025",
@@ -1358,5 +1358,6 @@
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }
