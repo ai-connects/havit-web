@@ -1137,35 +1137,35 @@
             "Dexcom, Libre",
             "Apple, Garmin",
             "Metabolisches Bewertungssystem",
-            "$199"
+            "ca. 183 €"
           ],
           [
             "Veri",
             "Libre 3",
             "Apple, Fitbit",
             "Mahlzeiten-Foto-Protokollierung",
-            "$149"
+            "ca. 137 €"
           ],
           [
             "Nutrisense",
             "Dexcom, Libre",
             "Apple, Garmin, Samsung",
             "Ernährungsberater-Konsultationen inklusive",
-            "$225"
+            "ca. 207 €"
           ],
           [
             "January AI",
             "Libre 3, G7",
             "Nur Apple Health",
             "KI-Spitzen-Vorhersage",
-            "$99"
+            "ca. 91 €"
           ],
           [
             "Supersapiens",
             "Libre 3",
             "Garmin, Wahoo",
             "Fokus auf sportliche Leistung",
-            "$179"
+            "ca. 165 €"
           ]
         ],
         "caption": "Preise und Funktionen Stand Mai 2026; die meisten Plattformen erfordern separaten CGM-Kauf oder Rezept"
@@ -1222,7 +1222,7 @@
           "url": "https://doi.org/10.1007/s40279-024-02166-2"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Suivi nutritionnel portable et MCG : un flux de travail pratique pour intégrer la glycémie à votre montre connectée",

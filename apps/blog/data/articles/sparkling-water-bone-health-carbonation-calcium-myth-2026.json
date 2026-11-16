@@ -1513,7 +1513,7 @@
           ],
           [
             "Cola (normal/Diät)",
-            "Ja (44mg P/12oz)",
+            "Ja (44mg P/ca. 355 ml)",
             "0mg",
             "Verbunden mit niedrigerer BMD bei Frauen (täglicher Konsum)",
             "Begrenzen (keine festgelegte Schwelle)"
@@ -1605,11 +1605,11 @@
           "url": "https://doi.org/10.1097/00042737-200209000-00010"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     }
   },
   "generated_at": "2026-05-24T11:59:57.717Z",
-  "updated_at": "2026-10-24T03:37:25.000Z",
+  "updated_at": "2026-11-16T00:00:00.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1

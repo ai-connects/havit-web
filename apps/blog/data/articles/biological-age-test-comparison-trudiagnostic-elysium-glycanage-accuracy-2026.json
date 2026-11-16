@@ -1197,7 +1197,7 @@
         },
         {
           "label": "Marktgröße für kommerzielle biologische Alterstests (2025)",
-          "value": "$847 million",
+          "value": "ca. 780 Mio. €",
           "source": "Branchenanalyse zitiert in Nature Aging 2024"
         }
       ],
@@ -1212,9 +1212,9 @@
         "rows": [
           [
             "Preis (Einzeltest)",
-            "$499",
-            "$299",
-            "$289"
+            "ca. 460 €",
+            "ca. 275 €",
+            "ca. 265 €"
           ],
           [
             "Methodik",
@@ -1311,7 +1311,7 @@
           "url": "https://doi.org/10.1177/15598276251395532"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Précision des tests d'âge biologique : TruDiagnostic vs Elysium vs GlycanAge comparés (2026)",

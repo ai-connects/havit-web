@@ -1239,7 +1239,7 @@
             "+2,8g"
           ],
           [
-            "Brezeln (1 oz)",
+            "Brezeln (ca. 28 g)",
             "0,9",
             "Apfel + Mandelbutter",
             "5,8",
@@ -1319,7 +1319,7 @@
           "url": "https://doi.org/10.1016/j.jada.2010.10.008"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Suivi de l'apport en fibres : Comment atteindre réellement 30 g par jour sans se compliquer la vie",
@@ -1471,7 +1471,7 @@
     }
   },
   "generated_at": "2026-05-24T06:56:48.564Z",
-  "updated_at": "2026-10-10T04:04:25.000Z",
+  "updated_at": "2026-11-16T00:00:00.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1

@@ -1285,8 +1285,8 @@
           ],
           [
             "Kosteneffizienz",
-            "$20-50 für komplettes Set",
-            "$500+ für grundlegendes Heimstudio",
+            "ca. 18–46 € für komplettes Set",
+            "ca. 460+ € für grundlegendes Heimstudio",
             "Bänder"
           ]
         ],
@@ -1348,7 +1348,7 @@
           "url": "https://doi.org/10.1177/1941738120929305"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Entraînement avec bandes de résistance pour le gain de force : comment les bandes se comparent aux poids libres en 2026",
@@ -1507,5 +1507,6 @@
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

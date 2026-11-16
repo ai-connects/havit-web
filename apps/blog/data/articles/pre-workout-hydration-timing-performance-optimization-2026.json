@@ -1302,7 +1302,7 @@
         },
         {
           "question": "Wie viel sollte eine 68kg schwere Person vor dem Training trinken?",
-          "answer": "Eine 68kg schwere Person sollte vier Stunden vor dem Training 340-476mL (ungefähr 11-16 oz) trinken. Zwei Stunden vorher 204-340mL (7-11 oz). Beginnen Sie am unteren Ende, wenn Sie zu Toilettengängen neigen, und passen Sie basierend auf Bedingungen und persönlicher Reaktion an."
+          "answer": "Eine 68kg schwere Person sollte vier Stunden vor dem Training 340-476mL trinken. Zwei Stunden vorher 204-340mL. Beginnen Sie am unteren Ende, wenn Sie zu Toilettengängen neigen, und passen Sie basierend auf Bedingungen und persönlicher Reaktion an."
         }
       ],
       "references": [
@@ -1332,7 +1332,7 @@
           "url": "https://doi.org/10.1016/j.scispo.2021.07.011"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     }
   },
   "generated_at": "2026-05-24T12:10:06.728Z",

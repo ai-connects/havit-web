@@ -1126,13 +1126,13 @@
           ],
           [
             "Trockensauna-Temperatur",
-            "170-185°F (77-85°C)",
-            "170-185°F (77-85°C)"
+            "77-85°C",
+            "77-85°C"
           ],
           [
             "Dampfbad-Temperatur",
-            "130-150°F (54-66°C)",
-            "130-150°F (54-66°C)"
+            "54-66°C",
+            "54-66°C"
           ],
           [
             "Timing",
@@ -1204,7 +1204,7 @@
           "url": "https://doi.org/10.1007/s00421-025-05942-8"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Acclimatation à la chaleur pour l'endurance : Comment les séances de sauna améliorent les performances sans kilomètres supplémentaires",

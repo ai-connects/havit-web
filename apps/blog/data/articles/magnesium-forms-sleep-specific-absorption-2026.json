@@ -1390,8 +1390,8 @@
           ],
           [
             "Monatliche Kosten (typisch)",
-            "$12-18",
-            "$40-60"
+            "ca. 11-17 €",
+            "ca. 37-55 €"
           ],
           [
             "Kapseln pro Tag",
@@ -1478,7 +1478,7 @@
           "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Glycinate vs Thréonate de Magnésium pour le Sommeil : Quelle Forme Traverse Réellement la Barrière Hémato-Encéphalique ?",
@@ -1646,7 +1646,7 @@
     }
   },
   "generated_at": "2026-05-24T14:25:30.333Z",
-  "updated_at": "2026-10-24T03:37:32.000Z",
+  "updated_at": "2026-11-16T00:00:00.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1

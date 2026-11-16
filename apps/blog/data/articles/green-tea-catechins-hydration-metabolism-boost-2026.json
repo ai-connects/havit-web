@@ -1176,7 +1176,7 @@
         },
         {
           "question": "Was ist die beste Wassertemperatur zum Aufbrühen von Grüntee?",
-          "answer": "70-80°C (158-176°F) extrahiert maximale Catechine bei minimaler Degradation. Wenn Sie kein Thermometer haben, kochen Sie Wasser und lassen Sie es 4-5 Minuten abkühlen, bevor Sie es über die Teeblätter gießen."
+          "answer": "70-80°C extrahiert maximale Catechine bei minimaler Degradation. Wenn Sie kein Thermometer haben, kochen Sie Wasser und lassen Sie es 4-5 Minuten abkühlen, bevor Sie es über die Teeblätter gießen."
         },
         {
           "question": "Wie lange sollte ich Grüntee für maximales EGCG ziehen lassen?",
@@ -1221,7 +1221,7 @@
           "url": "https://doi.org/10.1123/ijsnem.2017-0237"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Catéchines du thé vert : la science de l'infusion pour une meilleure hydratation et un meilleur métabolisme",

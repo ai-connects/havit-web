@@ -1085,7 +1085,7 @@
         },
         {
           "question": "Beeinflussen Energy-Drinks den Schlaf anders als Kaffee?",
-          "answer": "Das Koffein selbst wirkt identisch, unabhängig von der Quelle. Energy-Drinks enthalten jedoch oft zusätzliche Stimulanzien wie Taurin und Guarana (das mehr Koffein enthält), was die Gesamtstimulanzien-Belastung schwerer berechenbar macht. Ein 16oz Energy-Drink könnte 150-300mg Koffein plus Verbindungen enthalten, die die Wachheit über verschiedene Wege beeinflussen."
+          "answer": "Das Koffein selbst wirkt identisch, unabhängig von der Quelle. Energy-Drinks enthalten jedoch oft zusätzliche Stimulanzien wie Taurin und Guarana (das mehr Koffein enthält), was die Gesamtstimulanzien-Belastung schwerer berechenbar macht. Ein ca. 0,47-L-Energy-Drink könnte 150-300mg Koffein plus Verbindungen enthalten, die die Wachheit über verschiedene Wege beeinflussen."
         },
         {
           "question": "Sollten Kinder und Jugendliche unterschiedliche Koffein-Grenzregeln befolgen?",
@@ -1114,7 +1114,7 @@
           "url": "https://doi.org/10.1016/j.sleep.2019.11.368"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Votre heure limite de caféine est inscrite dans votre ADN : Guide du gène CYP1A2",
@@ -1245,5 +1245,6 @@
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

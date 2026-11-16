@@ -327,7 +327,7 @@
             "0,5, 1,0 oder 2,0 mg wöchentlich"
           ],
           [
-            "Zepbound / Mounjaro (Tirzepatid)",
+            "Mounjaro (Tirzepatid)",
             "2,5 mg wöchentlich für 4 Wochen",
             "→ 5 mg, dann +2,5 mg alle ≥4 Wochen",
             "5–15 mg wöchentlich"
@@ -416,7 +416,7 @@
           "url": "https://www.biospace.com/press-releases/novo-nordisk-a-s-the-european-commission-approves-more-effective-dose-of-injectable-wegovy-for-adults-with-obesity-clinical-study-showed-people-lost-about-21-of-their-body-weight-on-average"
         }
       ],
-      "last_updated": "2026-07-06"
+      "last_updated": "2026-11-16"
     },
     "zh-CN": {
       "title": "GLP-1 剂量记录：记录毫克数与剂量递增计划",
@@ -1028,5 +1028,6 @@
       "last_updated": "2026-07-06"
     }
   },
-  "generated_at": "2026-08-14T00:00:00.000Z"
+  "generated_at": "2026-08-14T00:00:00.000Z",
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }
