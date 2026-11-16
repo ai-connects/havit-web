@@ -276,7 +276,7 @@
         },
         {
           "label": "成人の平均日次体重変動",
-          "value": "約1.1kg（2.4ポンド）",
+          "value": "約1.1kg",
           "source": "International Journal of Obesity, 2024"
         },
         {
@@ -291,7 +291,7 @@
         },
         {
           "label": "ホルモン周期による体重変動幅",
-          "value": "1.5〜4kg（3-8ポンド）",
+          "value": "1.5〜4kg",
           "source": "Obesity Science & Practice, 2025"
         }
       ],
@@ -387,7 +387,7 @@
           "url": "https://doi.org/10.15760/etd.3312"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "zh-CN": {
       "title": "体重周趋势 vs 每日波动：真正有效的7日滚动平均法",
@@ -1286,5 +1286,6 @@
   "iterations": {
     "naturalness_pass": 3,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

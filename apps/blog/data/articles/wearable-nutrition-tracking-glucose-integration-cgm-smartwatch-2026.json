@@ -325,35 +325,35 @@
             "Dexcom、Libre",
             "Apple、Garmin",
             "代謝スコアリングシステム",
-            "$199"
+            "約30,000円"
           ],
           [
             "Veri",
             "Libre 3",
             "Apple、Fitbit",
             "食事写真ログ機能",
-            "$149"
+            "約22,000円"
           ],
           [
             "Nutrisense",
             "Dexcom、Libre",
             "Apple、Garmin、Samsung",
             "管理栄養士相談付き",
-            "$225"
+            "約34,000円"
           ],
           [
             "January AI",
             "Libre 3、G7",
             "Apple Healthのみ",
             "AIスパイク予測",
-            "$99"
+            "約15,000円"
           ],
           [
             "Supersapiens",
             "Libre 3",
             "Garmin、Wahoo",
             "アスリート向けパフォーマンス特化",
-            "$179"
+            "約27,000円"
           ]
         ],
         "caption": "2026年5月時点の価格と機能。ほとんどのプラットフォームでCGMの別途購入または処方箋が必要"
@@ -410,7 +410,7 @@
           "url": "https://doi.org/10.1007/s40279-024-02166-2"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "zh-CN": {
       "title": "智能手表+动态血糖仪：非糖尿病人群的代谢优化实操指南",
@@ -1365,5 +1365,6 @@
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }
