@@ -1116,7 +1116,7 @@
       },
       "faq": [
         {
-          "question": "Wie weit sind 20 Fuß genau?",
+          "question": "Wie weit sind ca. 6 Meter genau?",
           "answer": "Etwa 6 Meter, oder ungefähr die Länge eines Standard-Autos und der Hälfte. Wenn Sie nicht genau 6 Meter erreichen können, funktioniert alles über 6 Meter gut. Aus einem Fenster auf entfernte Gebäude oder Bäume zu schauen ist ideal. Das Ziel ist es, die Fokussierungsmuskeln zu entspannen, die sich bei Naharbeit am Bildschirm verkrampfen."
         },
         {
@@ -1166,7 +1166,7 @@
           "url": "https://doi.org/10.1167/iovs.05-1654"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "La règle 20-20-20 s'améliore : pourquoi ajouter un entraînement au clignement réduit la fatigue oculaire de 70 %",
@@ -1303,5 +1303,6 @@
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

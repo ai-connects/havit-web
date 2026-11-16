@@ -1228,7 +1228,7 @@
         },
         {
           "question": "Was ist die beste Koffeindosis für die Fettverbrennung?",
-          "answer": "Die International Society of Sports Nutrition empfiehlt 3-6 mg pro Kilogramm Körpergewicht, typischerweise etwa 60 Minuten vor dem Training. Für eine Person mit 70 kg (154 lb) sind das 210-420 mg – etwa zwei starke Tassen Kaffee. Für die Fettoxidation fand eine Metaanalyse von 2020, dass Dosen über etwa 3 mg/kg für einen signifikanten Effekt nötig waren."
+          "answer": "Die International Society of Sports Nutrition empfiehlt 3-6 mg pro Kilogramm Körpergewicht, typischerweise etwa 60 Minuten vor dem Training. Für eine Person mit 70 kg sind das 210-420 mg – etwa zwei starke Tassen Kaffee. Für die Fettoxidation fand eine Metaanalyse von 2020, dass Dosen über etwa 3 mg/kg für einen signifikanten Effekt nötig waren."
         },
         {
           "question": "Wie lange sollte ich auf Koffein verzichten, um die Toleranz zurückzusetzen?",
@@ -1293,7 +1293,7 @@
           "url": "https://doi.org/10.1007/s00213-004-2000-x"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Caféine, combustion des graisses et piège de la tolérance : pourquoi votre café cesse de fonctionner",
@@ -1441,7 +1441,7 @@
     }
   },
   "generated_at": "2026-05-24T08:05:31.264Z",
-  "updated_at": "2026-10-08T01:58:05.000Z",
+  "updated_at": "2026-11-16T00:00:00.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1

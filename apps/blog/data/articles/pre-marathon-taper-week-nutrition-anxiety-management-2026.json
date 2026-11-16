@@ -1163,7 +1163,7 @@
       "faq": [
         {
           "question": "Sollte ich während der Taper-Woche einen Testlauf machen, um sicherzustellen, dass ich keine Fitness verloren habe?",
-          "answer": "Widerstehen Sie dem Drang. Kurze Shakeout-Läufe von 2-4 Meilen in leichtem Tempo sind in Ordnung, aber das Testen Ihrer Fitness macht den Zweck des Taperings zunichte. Ihre Muskeln brauchen diese Erholungszeit. Vertrauen Sie darauf, dass Fitness nicht in einer Woche verschwindet – es dauert 10-14 Tage völliger Inaktivität, bevor ein messbarer Rückgang beginnt."
+          "answer": "Widerstehen Sie dem Drang. Kurze Shakeout-Läufe von ca. 3-6 km in leichtem Tempo sind in Ordnung, aber das Testen Ihrer Fitness macht den Zweck des Taperings zunichte. Ihre Muskeln brauchen diese Erholungszeit. Vertrauen Sie darauf, dass Fitness nicht in einer Woche verschwindet – es dauert 10-14 Tage völliger Inaktivität, bevor ein messbarer Rückgang beginnt."
         },
         {
           "question": "Woher weiß ich, ob ich während der Loading-Phase genug Kohlenhydrate esse?",
@@ -1211,12 +1211,13 @@
           "source": "International Journal of Sport Nutrition and Exercise Metabolism, 2024"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     }
   },
   "generated_at": "2026-05-24T10:51:56.900Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

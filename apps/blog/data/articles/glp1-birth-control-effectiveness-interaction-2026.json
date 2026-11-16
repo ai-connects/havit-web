@@ -1277,7 +1277,7 @@
           "answer": "Die Standardempfehlung gilt: Wenn Sie sich innerhalb von 2-4 Stunden nach Einnahme Ihrer Pille erbrechen, betrachten Sie sie als möglicherweise nicht aufgenommen. Nehmen Sie wenn möglich eine weitere Pille aus einer Ersatzpackung und verwenden Sie zusätzliche Verhütung (wie Kondome) für die nächsten 7 Tage. Da Semaglutid die Aufnahme bereits verzögert, gehen Sie beim Zeitfenster auf Nummer sicher."
         },
         {
-          "question": "Gelten diese Aufnahmebedenken auch für Tirzepatid (Mounjaro/Zepbound)?",
+          "question": "Gelten diese Aufnahmebedenken auch für Tirzepatid (Mounjaro)?",
           "answer": "Ja. Tirzepatid verzögert ebenfalls die Magenentleerung erheblich durch ähnliche GLP-1-Rezeptor-Mechanismen. Die spezifischen Aufnahmedaten für orale Kontrazeptiva mit Tirzepatid entwickeln sich noch, aber die gleichen Vorsichtsmaßnahmen sind vernünftig anzuwenden."
         },
         {
@@ -1310,7 +1310,7 @@
           "url": "https://doi.org/10.1054/ebog.2001.0286"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Le sémaglutide affecte-t-il la pilule contraceptive ? Ce que révèlent les données d'absorption",
@@ -1462,5 +1462,6 @@
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

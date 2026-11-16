@@ -1108,7 +1108,7 @@
         },
         {
           "label": "Natürliche Muskelaufbaurate",
-          "value": "0.5-1 lb/Monat für Männer, 0.25-0.5 lb/Monat für Frauen",
+          "value": "ca. 0,23–0,45 kg/Monat für Männer, ca. 0,11–0,23 kg/Monat für Frauen",
           "source": "Obesity Reviews, 2024"
         }
       ],
@@ -1133,7 +1133,7 @@
             "Maßbandmessungen",
             "Umfangsveränderungen an Schlüsselstellen",
             "Hoch (85% Korrelation)",
-            "$3-10",
+            "ca. 3–9 €",
             "Fettverteilung, Muskelwachstum"
           ],
           [
@@ -1147,14 +1147,14 @@
             "Tägliches Wiegen",
             "Gesamtmasse (nicht Zusammensetzung)",
             "Niedrig für Zusammensetzung",
-            "$20-50",
+            "ca. 18–46 €",
             "Nur langfristige Trenddaten"
           ],
           [
             "Consumer-Smart-Waagen",
             "Geschätzter Körperfettanteil %",
             "Niedrig-mittel (±5%)",
-            "$50-200",
+            "ca. 46–184 €",
             "Grobe Schätzungen, Motivation"
           ]
         ],
@@ -1212,7 +1212,7 @@
           "url": "https://doi.org/10.1016/j.jocd.2009.06.002"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Comment suivre les changements de composition corporelle à domicile sans équipement coûteux",
@@ -1355,5 +1355,6 @@
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

@@ -1018,7 +1018,7 @@
         },
         {
           "label": "Ideale Wassertemperatur",
-          "value": "14-15°C (57-59°F)",
+          "value": "14-15°C",
           "source": "European Journal of Applied Physiology, 2025"
         },
         {
@@ -1125,7 +1125,7 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/41895170/"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Routine matinale de douche froide : Le protocole noradrénaline qui fonctionne vraiment",
@@ -1256,5 +1256,6 @@
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

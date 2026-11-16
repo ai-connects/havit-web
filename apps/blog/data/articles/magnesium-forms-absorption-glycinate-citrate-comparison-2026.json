@@ -1282,49 +1282,49 @@
           [
             "Glycinat",
             "80-90%",
-            "$0,15-0,30",
+            "ca. 0,14-0,28 €",
             "Schlaf, Angst, Muskelverspannungen",
             "Höhere Kosten"
           ],
           [
             "Citrat",
             "65-75%",
-            "$0,05-0,10",
+            "ca. 0,05-0,09 €",
             "Verstopfung, Nierensteine, allgemeine Auffüllung",
             "Kann lockeren Stuhl verursachen"
           ],
           [
             "Threonat",
             "50-60%",
-            "$0,40-0,60",
+            "ca. 0,37-0,55 €",
             "Kognitive Funktion, Gehirngesundheit",
             "Niedriges elementares Mg, teuer"
           ],
           [
             "Malat",
             "60-70%",
-            "$0,12-0,20",
+            "ca. 0,11-0,18 €",
             "Müdigkeit, Fibromyalgie, Sporterholung",
             "Begrenzte Forschung"
           ],
           [
             "Taurat",
             "55-65%",
-            "$0,15-0,25",
+            "ca. 0,14-0,23 €",
             "Herzgesundheit, Blutdruck",
             "Begrenzte Forschung"
           ],
           [
             "Chlorid",
             "45-55%",
-            "$0,08-0,15",
+            "ca. 0,07-0,14 €",
             "Topische Anwendung, allgemeine Auffüllung",
             "Starker Geschmack"
           ],
           [
             "Oxid",
             "4-10%",
-            "$0,02-0,05",
+            "ca. 0,02-0,05 €",
             "Nur als Antazidum",
             "Schlechte Absorption, Magen-Darm-Beschwerden"
           ]
@@ -1388,7 +1388,7 @@
           "url": "https://doi.org/10.60079/abim.v1i3.207"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     },
     "fr": {
       "title": "Formes de magnésium comparées : Pourquoi le glycinate surpasse le citrate pour le sommeil (mais pas toujours)",
@@ -1550,5 +1550,6 @@
   "iterations": {
     "naturalness_pass": 2,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

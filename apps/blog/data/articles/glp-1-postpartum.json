@@ -339,7 +339,7 @@
             "US-Wegovy-Fachinformation 8.2 (2026); EU-Fachinformation 4.6"
           ],
           [
-            "Stillen – Tirzepatid (Mounjaro, Zepbound)",
+            "Stillen – Tirzepatid (Mounjaro)",
             "Keine Daten zu Kind/Milchversorgung; klinische Leitlinien raten zum Vermeiden",
             "MotherToBaby / LactMed"
           ],
@@ -366,7 +366,7 @@
           "answer": "Die US-Fachinformation von Wegovy rät vom Stillen unter Wegovy-Tabletten ab; für die Injektion (Ozempic, Wegovy) gibt es keine Daten beim Menschen, daher werden Nutzen und Risiken im Einzelfall abgewogen. Die EU-Fachinformation sagt, dass Semaglutid in der Stillzeit nicht angewendet werden soll. Einige kleine Studien fanden wenig Medikament in der Milch, aber diese aufkommenden Daten sind keine Zulassung. Regulierungsbehörden bleiben vorsichtig, daher ist dies eine Entscheidung, die nur Ihre Gynäkologin/Ihr Gynäkologe mit Ihnen treffen sollte."
         },
         {
-          "question": "Was ist mit Mounjaro oder Zepbound während des Stillens?",
+          "question": "Was ist mit Mounjaro während des Stillens?",
           "answer": "Die Tirzepatid-Zulassung enthält keine pauschale 'nicht empfohlen'-Aussage, aber es gibt keine Daten zu Auswirkungen auf das gestillte Kind oder die Milchproduktion, und seriöse Quellen sagen, dass die meisten klinischen Leitlinien empfehlen, GLP-1 während des Stillens zu vermeiden. Vertrauen Sie Ihrer Ärztin/Ihrem Arzt."
         },
         {
@@ -447,7 +447,7 @@
           "url": "https://www.ema.europa.eu/en/documents/product-information/wegovy-epar-product-information_en.pdf"
         }
       ],
-      "last_updated": "2026-07-06"
+      "last_updated": "2026-11-16"
     },
     "zh-CN": {
       "title": "产后使用 GLP-1：哺乳安全与体重管理（2026）",
@@ -1104,5 +1104,6 @@
       "last_updated": "2026-07-06"
     }
   },
-  "generated_at": "2026-08-14T00:00:00.000Z"
+  "generated_at": "2026-08-14T00:00:00.000Z",
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }

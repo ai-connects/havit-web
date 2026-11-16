@@ -1403,7 +1403,7 @@
           ],
           [
             "Kabeljau",
-            "3 Unzen",
+            "ca. 85 g",
             "99",
             "66%"
           ],
@@ -1421,7 +1421,7 @@
           ],
           [
             "Garnelen",
-            "3 Unzen",
+            "ca. 85 g",
             "35",
             "23%"
           ],
@@ -1503,12 +1503,13 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/37513495/"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-16"
     }
   },
   "generated_at": "2026-05-24T11:54:48.368Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-16T00:00:00.000Z"
 }
