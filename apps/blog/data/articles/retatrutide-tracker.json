@@ -88,7 +88,9 @@
       "references": [
         {
           "text": "Jastreboff AM, et al. *Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial.* New England Journal of Medicine, 2023. nejm.org",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+          "title": "Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial",
+          "source": "New England Journal of Medicine, 2023"
         },
         {
           "text": "ClinicalTrials.gov (NIH) — *TRIUMPH-1: A Study of Retatrutide in Participants With Obesity or Overweight* (NCT05929066), Phase 3. clinicaltrials.gov",
@@ -114,7 +116,7 @@
           "text": "All statements verified against the cited NEJM/Nature Medicine publications, ClinicalTrials.gov, and Eli Lilly materials as of July 2026. Retatrutide's regulatory status is changing — re-verify before relying on any timeline, and re-review at least every 6 months or when Phase 3 results publish or an approval is announced.*"
         }
       ],
-      "last_updated": "2026-07-02"
+      "last_updated": "2026-11-17"
     },
     "ko": {
       "title": "레타트루타이드 기록: 무엇이고 무엇을 기록할까 (2026)",
@@ -195,7 +197,9 @@
       "references": [
         {
           "text": "Jastreboff AM 외. *Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial.* New England Journal of Medicine, 2023. nejm.org",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+          "title": "Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial",
+          "source": "New England Journal of Medicine, 2023"
         },
         {
           "text": "ClinicalTrials.gov(NIH) — *TRIUMPH-1: A Study of Retatrutide in Participants With Obesity or Overweight* (NCT05929066), 3상. clinicaltrials.gov",
@@ -395,33 +399,29 @@
       ],
       "references": [
         {
-          "title": "Jastreboff AM, et al. Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial. New England Journal of Medicine, 2023.",
-          "source": "nejm.org",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          "text": "Jastreboff AM, et al. *Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial.* New England Journal of Medicine, 2023. nejm.org",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+          "title": "Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial",
+          "source": "New England Journal of Medicine, 2023"
         },
         {
-          "title": "ClinicalTrials.gov (NIH) — TRIUMPH-1: A Study of Retatrutide in Participants With Obesity or Overweight (NCT05929066), Phase 3.",
-          "source": "clinicaltrials.gov",
+          "text": "ClinicalTrials.gov (NIH) — *TRIUMPH-1: A Study of Retatrutide in Participants With Obesity or Overweight* (NCT05929066), Phase 3. clinicaltrials.gov",
           "url": "https://clinicaltrials.gov/study/NCT05929066"
         },
         {
-          "title": "Eli Lilly and Company — What to know about retatrutide (investigational status).",
-          "source": "lilly.com",
+          "text": "Eli Lilly and Company — *What to know about retatrutide* (investigational status). lilly.com",
           "url": "https://www.lilly.com/news/stories/what-to-know-about-retatrutide"
         },
         {
-          "title": "Eli Lilly and Company (investor) — Retatrutide demonstrated significant reductions in A1C and weight in first Phase 3 trial for type 2 diabetes.",
-          "source": "investor.lilly.com",
+          "text": "Eli Lilly and Company (investor) — *Retatrutide demonstrated significant reductions in A1C and weight in first Phase 3 trial for type 2 diabetes.* investor.lilly.com",
           "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-demonstrated-significant"
         },
         {
-          "title": "AJMC — Retatrutide Achieves Up to 30.3% Average Weight Loss in Phase 3 TRIUMPH-1 Trial (2026 topline).",
-          "source": "ajmc.com",
+          "text": "AJMC — *Retatrutide Achieves Up to 30.3% Average Weight Loss in Phase 3 TRIUMPH-1 Trial* (2026 topline). ajmc.com",
           "url": "https://www.ajmc.com/view/retatrutide-achieves-up-to-30-3-average-weight-loss-in-phase-3-triumph-1-trial"
         },
         {
-          "title": "Sanyal AJ, et al. Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial. Nature Medicine, 2024.",
-          "source": "nature.com",
+          "text": "Sanyal AJ, et al. *Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial.* Nature Medicine, 2024. nature.com",
           "url": "https://www.nature.com/articles/s41591-024-03018-2"
         },
         {
@@ -430,7 +430,7 @@
           "url": ""
         }
       ],
-      "last_updated": "2026-11-16"
+      "last_updated": "2026-11-17"
     },
     "zh-CN": {
       "title": "Retatrutide 追踪：它是什么以及要记录什么（2026）",
@@ -513,7 +513,9 @@
       "references": [
         {
           "text": "Jastreboff AM, et al. *Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial.* New England Journal of Medicine, 2023. nejm.org",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+          "title": "Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial",
+          "source": "New England Journal of Medicine, 2023"
         },
         {
           "text": "ClinicalTrials.gov (NIH) — *TRIUMPH-1: A Study of Retatrutide in Participants With Obesity or Overweight* (NCT05929066), Phase 3. clinicaltrials.gov",
@@ -630,7 +632,9 @@
       "references": [
         {
           "text": "Jastreboff AM, et al. *Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial.* New England Journal of Medicine, 2023. nejm.org",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+          "title": "Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial",
+          "source": "New England Journal of Medicine, 2023"
         },
         {
           "text": "ClinicalTrials.gov (NIH) — *TRIUMPH-1: A Study of Retatrutide in Participants With Obesity or Overweight* (NCT05929066), Phase 3. clinicaltrials.gov",
@@ -739,7 +743,9 @@
       "references": [
         {
           "text": "Jastreboff AM, et al. *Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial.* New England Journal of Medicine, 2023. nejm.org",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+          "title": "Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial",
+          "source": "New England Journal of Medicine, 2023"
         },
         {
           "text": "ClinicalTrials.gov (NIH) — *TRIUMPH-1: A Study of Retatrutide in Participants With Obesity or Overweight* (NCT05929066), Phase 3. clinicaltrials.gov",
@@ -852,7 +858,9 @@
       "references": [
         {
           "text": "Jastreboff AM, et al. *Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial.* New England Journal of Medicine, 2023. nejm.org",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+          "title": "Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial",
+          "source": "New England Journal of Medicine, 2023"
         },
         {
           "text": "ClinicalTrials.gov (NIH) — *TRIUMPH-1: A Study of Retatrutide in Participants With Obesity or Overweight* (NCT05929066), Phase 3. clinicaltrials.gov",
@@ -969,7 +977,9 @@
       "references": [
         {
           "text": "Jastreboff AM, et al. *Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial.* New England Journal of Medicine, 2023. nejm.org",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+          "title": "Triple–Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial",
+          "source": "New England Journal of Medicine, 2023"
         },
         {
           "text": "ClinicalTrials.gov (NIH) — *TRIUMPH-1: A Study of Retatrutide in Participants With Obesity or Overweight* (NCT05929066), Phase 3. clinicaltrials.gov",
