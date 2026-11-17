@@ -88,6 +88,10 @@
     "to": "chronic-sinusitis-biofilm-disruption-saline-protocol-2026"
   },
   {
+    "from": "chronotype-meal-timing-metabolism-personalization-2026",
+    "to": "chronotype-based-meal-timing-weight-loss-2026"
+  },
+  {
     "from": "chronotype-meal-timing-optimization-owl-lark-2026",
     "to": "chronotype-based-meal-timing-weight-loss-2026"
   },
@@ -396,6 +400,10 @@
     "to": "night-shift-meal-timing-metabolic-protection-2026"
   },
   {
+    "from": "nmn-nr-nad-precursor-efficacy-human-trial-update-2026",
+    "to": "nad-precursor-supplements-nmn-nr-comparison-2026"
+  },
+  {
     "from": "non-exercise-activity-thermogenesis-neat-optimization-2026",
     "to": "neat-non-exercise-activity-thermogenesis-increase-2026"
   },
@@ -596,6 +604,14 @@
     "to": "temporal-landmarks-fresh-start-effect-motivation-2026"
   },
   {
+    "from": "thermic-effect-food-protein-fat-carbs-comparison-2026",
+    "to": "diet-induced-thermogenesis-protein-thermic-effect-2026"
+  },
+  {
+    "from": "thermic-effect-food-protein-metabolism-boost-2026",
+    "to": "diet-induced-thermogenesis-protein-thermic-effect-2026"
+  },
+  {
     "from": "thyroid-function-metabolism-natural-support-2026",
     "to": "thyroid-function-metabolism-natural-support-strategies-2026"
   },
@@ -622,6 +638,10 @@
   {
     "from": "values-clarification-exercise-motivation-alignment-2026",
     "to": "values-clarification-motivation-alignment-2026"
+  },
+  {
+    "from": "visceral-fat-reduction-specific-strategies-2026",
+    "to": "visceral-fat-reduction-targeted-strategies-2026"
   },
   {
     "from": "visceral-fat-reduction-targeted-strategies-evidence-2026",
