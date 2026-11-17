@@ -109,7 +109,7 @@
         },
         {
           "question": "Which diet app tracks body composition instead of just weight?",
-          "answer": "A few now do. Noom lists body scans and WeightWatchers an AI Body Scanner for muscle and body-fat changes. HAVIT estimates fat and lean mass trends from your own inputs with no camera or hardware and publishes an internal comparison against InBody (n=70). Simple.Life works from weight and BMI. Treat any of these as a trend over weeks, not a verified measurement."
+          "answer": "A few now do. Noom lists body scans and WeightWatchers an AI Body Scanner for muscle and body-fat changes. HAVIT estimates fat and lean mass trends from your own inputs with no camera or hardware. Simple.Life works from weight and BMI. Treat any of these as a trend over weeks, not a verified measurement."
         },
         {
           "question": "What is the best diet app if I am on Ozempic, Wegovy or Mounjaro?",
@@ -161,7 +161,7 @@
           "url": "https://help.simple.life/en/articles/13968839-glp-1-companion"
         }
       ],
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-17"
     },
     "ko": {
       "title": "2026 다이어트 앱 추천 — 앱별로 뜯어보고 고르는 법",
@@ -321,9 +321,34 @@
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
           "source": "Diabetes, Obesity and Metabolism, 2024 — lean-mass share of weight lost ranges 40–60% in some trials, ≤15% in others; lean mass ≠ muscle",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "title": "Noom Weight Loss, Food Tracker (App Store)",
+          "source": "1M+ food items; body scans; Noom Med GLP-1 access if eligible; GLP-1 Companion Program; optional 1:1 coaching. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/noom-weight-loss-food-tracker/id634598719"
+        },
+        {
+          "title": "WeightWatchers Program (App Store)",
+          "source": "GLP-1 Success Program; Weight Watchers Med+; AI Body Scanner. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/weightwatchers-program/id331308914"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; GLP-1 dose logging and reminders; Premium: barcode scan, meal scan, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "Subscription plans with Simple",
+          "source": "Simple help center — free version vs Premium, Avo reply limits",
+          "url": "https://help.simple.life/en/articles/10221447-subscription-plans-with-simple"
+        },
+        {
+          "title": "GLP-1 Companion",
+          "source": "Simple help center — in testing for a limited number of iOS users",
+          "url": "https://help.simple.life/en/articles/13968839-glp-1-companion"
         }
       ],
-      "last_updated": "2026-10-16"
+      "last_updated": "2026-11-17"
     },
     "ja": {
       "title": "ダイエットアプリおすすめ比較｜あすけん・カロミル・HAVIT",
@@ -419,7 +444,7 @@
         },
         {
           "question": "体組成まで分かるアプリはありますか？",
-          "answer": "一般向けアプリで体組成を扱うものは限られます。HAVITは機器を使わずに体脂肪・除脂肪量の推移を推定します。社内で行った小規模な比較（n=70）では、体脂肪率の推定値がInBodyの測定値と±5ポイント以内に収まった人が92.9%でしたが、精度には個人差があります。推定値であって測定値ではないため、週単位の推移の目安として見てください。"
+          "answer": "一般向けアプリで体組成を扱うものは限られます。HAVITは機器を使わずに体脂肪・除脂肪量の推移を推定します。カメラや専用機器は不要で、入力した情報から推定します。InBodyなどの測定値との比較や、その人数は示していません。推定値であって測定値ではないため、週単位の推移の目安として見てください。"
         },
         {
           "question": "ウゴービやゼップバウンドを使っています。どのアプリがいいですか？",
@@ -448,9 +473,34 @@
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
           "source": "Diabetes, Obesity and Metabolism, 2024：除脂肪量の失われた割合は一部の試験で40〜60%、他では≤15%の範囲;除脂肪量≠筋肉",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "title": "Noom Weight Loss, Food Tracker (App Store)",
+          "source": "1M+ food items; body scans; Noom Med GLP-1 access if eligible; GLP-1 Companion Program; optional 1:1 coaching. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/noom-weight-loss-food-tracker/id634598719"
+        },
+        {
+          "title": "WeightWatchers Program (App Store)",
+          "source": "GLP-1 Success Program; Weight Watchers Med+; AI Body Scanner. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/weightwatchers-program/id331308914"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; GLP-1 dose logging and reminders; Premium: barcode scan, meal scan, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "Subscription plans with Simple",
+          "source": "Simple help center — free version vs Premium, Avo reply limits",
+          "url": "https://help.simple.life/en/articles/10221447-subscription-plans-with-simple"
+        },
+        {
+          "title": "GLP-1 Companion",
+          "source": "Simple help center — in testing for a limited number of iOS users",
+          "url": "https://help.simple.life/en/articles/13968839-glp-1-companion"
         }
       ],
-      "last_updated": "2026-11-16"
+      "last_updated": "2026-11-17"
     },
     "zh-CN": {
       "title": "2026减肥App推荐 — 一个一个拆开看，再决定装哪个",
@@ -598,9 +648,34 @@
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
           "source": "Diabetes, Obesity and Metabolism, 2024 — 部分试验中去脂体重占减重量的40–60%，另一些试验≤15%；去脂体重≠肌肉",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "title": "Noom Weight Loss, Food Tracker (App Store)",
+          "source": "1M+ food items; body scans; Noom Med GLP-1 access if eligible; GLP-1 Companion Program; optional 1:1 coaching. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/noom-weight-loss-food-tracker/id634598719"
+        },
+        {
+          "title": "WeightWatchers Program (App Store)",
+          "source": "GLP-1 Success Program; Weight Watchers Med+; AI Body Scanner. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/weightwatchers-program/id331308914"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; GLP-1 dose logging and reminders; Premium: barcode scan, meal scan, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "Subscription plans with Simple",
+          "source": "Simple help center — free version vs Premium, Avo reply limits",
+          "url": "https://help.simple.life/en/articles/10221447-subscription-plans-with-simple"
+        },
+        {
+          "title": "GLP-1 Companion",
+          "source": "Simple help center — in testing for a limited number of iOS users",
+          "url": "https://help.simple.life/en/articles/13968839-glp-1-companion"
         }
       ],
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-17"
     },
     "zh-TW": {
       "title": "2026 減重 App 推薦（台灣）— 一款一款拆開來看",
@@ -767,9 +842,34 @@
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
           "source": "Diabetes, Obesity and Metabolism, 2024 — 減重中瘦體組織所佔比例在部分試驗為 40–60%，其他試驗 ≤15%；瘦體組織 ≠ 肌肉",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "title": "Noom Weight Loss, Food Tracker (App Store)",
+          "source": "1M+ food items; body scans; Noom Med GLP-1 access if eligible; GLP-1 Companion Program; optional 1:1 coaching. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/noom-weight-loss-food-tracker/id634598719"
+        },
+        {
+          "title": "WeightWatchers Program (App Store)",
+          "source": "GLP-1 Success Program; Weight Watchers Med+; AI Body Scanner. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/weightwatchers-program/id331308914"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; GLP-1 dose logging and reminders; Premium: barcode scan, meal scan, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "Subscription plans with Simple",
+          "source": "Simple help center — free version vs Premium, Avo reply limits",
+          "url": "https://help.simple.life/en/articles/10221447-subscription-plans-with-simple"
+        },
+        {
+          "title": "GLP-1 Companion",
+          "source": "Simple help center — in testing for a limited number of iOS users",
+          "url": "https://help.simple.life/en/articles/13968839-glp-1-companion"
         }
       ],
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Mejores apps para adelgazar en 2026: analizadas una por una",
@@ -911,9 +1011,34 @@
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
           "source": "Diabetes, Obesity and Metabolism, 2024 — proporción de masa magra del peso perdido varía 40–60% en algunos ensayos, ≤15% en otros; masa magra ≠ músculo",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "title": "Noom Weight Loss, Food Tracker (App Store)",
+          "source": "1M+ food items; body scans; Noom Med GLP-1 access if eligible; GLP-1 Companion Program; optional 1:1 coaching. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/noom-weight-loss-food-tracker/id634598719"
+        },
+        {
+          "title": "WeightWatchers Program (App Store)",
+          "source": "GLP-1 Success Program; Weight Watchers Med+; AI Body Scanner. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/weightwatchers-program/id331308914"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; GLP-1 dose logging and reminders; Premium: barcode scan, meal scan, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "Subscription plans with Simple",
+          "source": "Simple help center — free version vs Premium, Avo reply limits",
+          "url": "https://help.simple.life/en/articles/10221447-subscription-plans-with-simple"
+        },
+        {
+          "title": "GLP-1 Companion",
+          "source": "Simple help center — in testing for a limited number of iOS users",
+          "url": "https://help.simple.life/en/articles/13968839-glp-1-companion"
         }
       ],
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-17",
       "short_description": "Noom, Fitia, MyFitnessPal, Yazio, Lifesum y HAVIT: base de alimentos, comida de España y Latinoamérica, ciclo, composición corporal y GLP-1, una por una."
     },
     "pt-BR": {
@@ -1051,9 +1176,34 @@
           "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grau B",
           "source": "U.S. Preventive Services Task Force, 2018 (tópico em atualização); adultos com IMC ≥30, prestado por médico",
           "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+        },
+        {
+          "title": "Noom Weight Loss, Food Tracker (App Store)",
+          "source": "1M+ food items; body scans; Noom Med GLP-1 access if eligible; GLP-1 Companion Program; optional 1:1 coaching. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/noom-weight-loss-food-tracker/id634598719"
+        },
+        {
+          "title": "WeightWatchers Program (App Store)",
+          "source": "GLP-1 Success Program; Weight Watchers Med+; AI Body Scanner. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/weightwatchers-program/id331308914"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; GLP-1 dose logging and reminders; Premium: barcode scan, meal scan, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "Subscription plans with Simple",
+          "source": "Simple help center — free version vs Premium, Avo reply limits",
+          "url": "https://help.simple.life/en/articles/10221447-subscription-plans-with-simple"
+        },
+        {
+          "title": "GLP-1 Companion",
+          "source": "Simple help center — in testing for a limited number of iOS users",
+          "url": "https://help.simple.life/en/articles/13968839-glp-1-companion"
         }
       ],
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-17"
     },
     "id": {
       "title": "Aplikasi Diet Terbaik 2026: Dibedah Satu per Satu untuk Pengguna Indonesia",
@@ -1200,9 +1350,34 @@
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland dkk.)",
           "source": "Diabetes, Obesity and Metabolism, 2024 — porsi massa tanpa lemak dari berat yang hilang berkisar 40–60% pada sebagian uji, ≤15% pada uji lain; massa tanpa lemak ≠ otot",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "title": "Noom Weight Loss, Food Tracker (App Store)",
+          "source": "1M+ food items; body scans; Noom Med GLP-1 access if eligible; GLP-1 Companion Program; optional 1:1 coaching. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/noom-weight-loss-food-tracker/id634598719"
+        },
+        {
+          "title": "WeightWatchers Program (App Store)",
+          "source": "GLP-1 Success Program; Weight Watchers Med+; AI Body Scanner. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/weightwatchers-program/id331308914"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; GLP-1 dose logging and reminders; Premium: barcode scan, meal scan, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "Subscription plans with Simple",
+          "source": "Simple help center — free version vs Premium, Avo reply limits",
+          "url": "https://help.simple.life/en/articles/10221447-subscription-plans-with-simple"
+        },
+        {
+          "title": "GLP-1 Companion",
+          "source": "Simple help center — in testing for a limited number of iOS users",
+          "url": "https://help.simple.life/en/articles/13968839-glp-1-companion"
         }
       ],
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-17"
     },
     "de": {
       "title": "Beste Abnehm-Apps 2026: jede App einzeln geprüft",
@@ -1334,9 +1509,34 @@
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
           "source": "Diabetes, Obesity and Metabolism, 2024 — Anteil der fettfreien Masse am Gewichtsverlust reicht von 40–60% in einigen Studien, ≤15% in anderen; fettfreie Masse ≠ Muskel",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "title": "Noom Weight Loss, Food Tracker (App Store)",
+          "source": "1M+ food items; body scans; Noom Med GLP-1 access if eligible; GLP-1 Companion Program; optional 1:1 coaching. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/noom-weight-loss-food-tracker/id634598719"
+        },
+        {
+          "title": "WeightWatchers Program (App Store)",
+          "source": "GLP-1 Success Program; Weight Watchers Med+; AI Body Scanner. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/weightwatchers-program/id331308914"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; GLP-1 dose logging and reminders; Premium: barcode scan, meal scan, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "Subscription plans with Simple",
+          "source": "Simple help center — free version vs Premium, Avo reply limits",
+          "url": "https://help.simple.life/en/articles/10221447-subscription-plans-with-simple"
+        },
+        {
+          "title": "GLP-1 Companion",
+          "source": "Simple help center — in testing for a limited number of iOS users",
+          "url": "https://help.simple.life/en/articles/13968839-glp-1-companion"
         }
       ],
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-17",
       "short_description": "Yazio, Noom, MyFitnessPal, Lifesum und HAVIT geprüft: Was kostenlos ist, wer deutsche Produkte kennt, wer Zyklus und GLP-1 einbezieht, drei Fragen vorab."
     },
     "fr": {
@@ -1514,11 +1714,36 @@
           "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
           "source": "Diabetes, Obesity and Metabolism, 2024 — la part de masse maigre dans le poids perdu va de 40 à 60 % dans certains essais et reste ≤15 % dans d'autres ; masse maigre n'est pas synonyme de muscle",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "title": "Noom Weight Loss, Food Tracker (App Store)",
+          "source": "1M+ food items; body scans; Noom Med GLP-1 access if eligible; GLP-1 Companion Program; optional 1:1 coaching. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/noom-weight-loss-food-tracker/id634598719"
+        },
+        {
+          "title": "WeightWatchers Program (App Store)",
+          "source": "GLP-1 Success Program; Weight Watchers Med+; AI Body Scanner. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/weightwatchers-program/id331308914"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; GLP-1 dose logging and reminders; Premium: barcode scan, meal scan, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "Subscription plans with Simple",
+          "source": "Simple help center — free version vs Premium, Avo reply limits",
+          "url": "https://help.simple.life/en/articles/10221447-subscription-plans-with-simple"
+        },
+        {
+          "title": "GLP-1 Companion",
+          "source": "Simple help center — in testing for a limited number of iOS users",
+          "url": "https://help.simple.life/en/articles/13968839-glp-1-companion"
         }
       ],
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-17"
     }
   },
   "generated_at": "2026-10-11T00:00:00.000Z",
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }
