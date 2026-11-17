@@ -113,33 +113,7 @@
           "answer": "Yes. Sleeping 2+ hours later on weekends creates 'social jet lag' that shifts your nadir later. When Monday arrives, your alarm now hits closer to your shifted nadir, causing worse grogginess. Keeping weekend wake times within 1 hour of weekday times preserves rhythm stability."
         }
       ],
-      "references": [
-        {
-          "title": "Temperature Nadir Timing and Sleep Inertia Severity in Healthy Adults",
-          "source": "Journal of Biological Rhythms, Vol. 40, Issue 2, 2025",
-          "url": "https://doi.org/10.1007/s41105-025-00587-8"
-        },
-        {
-          "title": "Optimizing Wake Time Based on Circadian Temperature Phase: A Randomized Controlled Trial",
-          "source": "Chronobiology International, Vol. 41, Issue 8, 2024",
-          "url": "https://doi.org/10.1080/07420528.2024.2312806"
-        },
-        {
-          "title": "Wearable Temperature Monitoring for Circadian Phase Estimation: Validation Study",
-          "source": "Sleep, Vol. 48, Issue 3, 2025",
-          "url": "https://doi.org/10.1055/s-0044-1800785"
-        },
-        {
-          "title": "Shift Work and Circadian Temperature Rhythm Adaptation",
-          "source": "Journal of Biological Rhythms, Vol. 39, Issue 6, 2024",
-          "url": "https://doi.org/10.1201/b17253-19"
-        },
-        {
-          "title": "Light Exposure Timing and Morning Alertness: Mechanisms and Applications",
-          "source": "Sleep Medicine Reviews, Vol. 73, 2024",
-          "url": "https://doi.org/10.5353/th_b5662649"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ko": {
@@ -240,28 +214,7 @@
           "answer": "스마트 알람은 수면 단계 기반이라 체온 나디르와는 다른 접근입니다. 둘을 병행하면 시너지가 있지만, 스마트 알람만으로는 나디르 최적화 효과의 약 60% 정도만 얻을 수 있어요."
         }
       ],
-      "references": [
-        {
-          "title": "Temperature Nadir Timing and Post-Sleep Cognitive Performance: An 8-Week Randomized Trial",
-          "source": "Journal of Biological Rhythms, 2025",
-          "url": "https://doi.org/10.1016/b978-0-323-90918-1.00016-2"
-        },
-        {
-          "title": "Optimizing Wake Time Based on Core Body Temperature Rhythms",
-          "source": "Chronobiology International, 2024",
-          "url": "https://doi.org/10.3109/07420528.2014.926911"
-        },
-        {
-          "title": "Sleep Inertia and Morning Light Exposure: A Mechanistic Review",
-          "source": "Sleep Medicine Reviews, 2024",
-          "url": "https://doi.org/10.1053/smrv.2000.0098"
-        },
-        {
-          "title": "Wearable Temperature Sensors for Circadian Rhythm Assessment: Validation Study",
-          "source": "Journal of Sleep Research, 2024",
-          "url": "https://doi.org/10.1016/j.sleep.2023.11.186"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ja": {
@@ -368,33 +321,7 @@
           "answer": "はい。週末に2時間以上遅く寝ると「社会的時差ボケ」が生じ、ナディアが後ろにずれます。月曜日になると、アラームがずれたナディアにより近い時間に鳴るため、だるさが悪化します。週末の起床時刻を平日の1時間以内に保つことで、リズムの安定性が維持されます。"
         }
       ],
-      "references": [
-        {
-          "title": "Temperature Nadir Timing and Sleep Inertia Severity in Healthy Adults",
-          "source": "Journal of Biological Rhythms, Vol. 40, Issue 2, 2025",
-          "url": "https://doi.org/10.1007/s41105-025-00587-8"
-        },
-        {
-          "title": "Optimizing Wake Time Based on Circadian Temperature Phase: A Randomized Controlled Trial",
-          "source": "Chronobiology International, Vol. 41, Issue 8, 2024",
-          "url": "https://doi.org/10.1080/07420528.2024.2312806"
-        },
-        {
-          "title": "Wearable Temperature Monitoring for Circadian Phase Estimation: Validation Study",
-          "source": "Sleep, Vol. 48, Issue 3, 2025",
-          "url": "https://doi.org/10.1055/s-0044-1800785"
-        },
-        {
-          "title": "Shift Work and Circadian Temperature Rhythm Adaptation",
-          "source": "Journal of Biological Rhythms, Vol. 39, Issue 6, 2024",
-          "url": "https://doi.org/10.1201/b17253-19"
-        },
-        {
-          "title": "Light Exposure Timing and Morning Alertness: Mechanisms and Applications",
-          "source": "Sleep Medicine Reviews, Vol. 73, 2024",
-          "url": "https://doi.org/10.5353/th_b5662649"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "zh-CN": {
@@ -501,33 +428,7 @@
           "answer": "会的。周末晚起2小时以上会造成「社交时差」，使你的谷值后移。到了周一，你的闹钟就更接近后移的谷值，导致更严重的起床困难。将周末起床时间控制在工作日的1小时以内，有助于保持节律稳定。"
         }
       ],
-      "references": [
-        {
-          "title": "Temperature Nadir Timing and Sleep Inertia Severity in Healthy Adults",
-          "source": "Journal of Biological Rhythms, Vol. 40, Issue 2, 2025",
-          "url": "https://doi.org/10.1007/s41105-025-00587-8"
-        },
-        {
-          "title": "Optimizing Wake Time Based on Circadian Temperature Phase: A Randomized Controlled Trial",
-          "source": "Chronobiology International, Vol. 41, Issue 8, 2024",
-          "url": "https://doi.org/10.1080/07420528.2024.2312806"
-        },
-        {
-          "title": "Wearable Temperature Monitoring for Circadian Phase Estimation: Validation Study",
-          "source": "Sleep, Vol. 48, Issue 3, 2025",
-          "url": "https://doi.org/10.1055/s-0044-1800785"
-        },
-        {
-          "title": "Shift Work and Circadian Temperature Rhythm Adaptation",
-          "source": "Journal of Biological Rhythms, Vol. 39, Issue 6, 2024",
-          "url": "https://doi.org/10.1201/b17253-19"
-        },
-        {
-          "title": "Light Exposure Timing and Morning Alertness: Mechanisms and Applications",
-          "source": "Sleep Medicine Reviews, Vol. 73, 2024",
-          "url": "https://doi.org/10.5353/th_b5662649"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "zh-TW": {
@@ -634,33 +535,7 @@
           "answer": "會。週末晚睡2小時以上會造成「社交時差」，讓你的谷底延後。到了週一，你的鬧鐘就會更接近延後的谷底，造成更嚴重的昏沉感。週末起床時間與平日保持在1小時內，能維持節律穩定。"
         }
       ],
-      "references": [
-        {
-          "title": "Temperature Nadir Timing and Sleep Inertia Severity in Healthy Adults",
-          "source": "Journal of Biological Rhythms, Vol. 40, Issue 2, 2025",
-          "url": "https://doi.org/10.1007/s41105-025-00587-8"
-        },
-        {
-          "title": "Optimizing Wake Time Based on Circadian Temperature Phase: A Randomized Controlled Trial",
-          "source": "Chronobiology International, Vol. 41, Issue 8, 2024",
-          "url": "https://doi.org/10.1080/07420528.2024.2312806"
-        },
-        {
-          "title": "Wearable Temperature Monitoring for Circadian Phase Estimation: Validation Study",
-          "source": "Sleep, Vol. 48, Issue 3, 2025",
-          "url": "https://doi.org/10.1055/s-0044-1800785"
-        },
-        {
-          "title": "Shift Work and Circadian Temperature Rhythm Adaptation",
-          "source": "Journal of Biological Rhythms, Vol. 39, Issue 6, 2024",
-          "url": "https://doi.org/10.1201/b17253-19"
-        },
-        {
-          "title": "Light Exposure Timing and Morning Alertness: Mechanisms and Applications",
-          "source": "Sleep Medicine Reviews, Vol. 73, 2024",
-          "url": "https://doi.org/10.5353/th_b5662649"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "es": {
@@ -769,33 +644,7 @@
           "answer": "Sí. Dormir 2+ horas más tarde los fines de semana crea 'jet lag social' que desplaza tu nadir más tarde. Cuando llega el lunes, tu alarma ahora golpea más cerca de tu nadir desplazado, causando peor aturdimiento. Mantener las horas de despertar del fin de semana dentro de 1 hora de las de días laborables preserva la estabilidad del ritmo."
         }
       ],
-      "references": [
-        {
-          "title": "Temperature Nadir Timing and Sleep Inertia Severity in Healthy Adults",
-          "source": "Journal of Biological Rhythms, Vol. 40, Issue 2, 2025",
-          "url": "https://doi.org/10.1007/s41105-025-00587-8"
-        },
-        {
-          "title": "Optimizing Wake Time Based on Circadian Temperature Phase: A Randomized Controlled Trial",
-          "source": "Chronobiology International, Vol. 41, Issue 8, 2024",
-          "url": "https://doi.org/10.1080/07420528.2024.2312806"
-        },
-        {
-          "title": "Wearable Temperature Monitoring for Circadian Phase Estimation: Validation Study",
-          "source": "Sleep, Vol. 48, Issue 3, 2025",
-          "url": "https://doi.org/10.1055/s-0044-1800785"
-        },
-        {
-          "title": "Shift Work and Circadian Temperature Rhythm Adaptation",
-          "source": "Journal of Biological Rhythms, Vol. 39, Issue 6, 2024",
-          "url": "https://doi.org/10.1201/b17253-19"
-        },
-        {
-          "title": "Light Exposure Timing and Morning Alertness: Mechanisms and Applications",
-          "source": "Sleep Medicine Reviews, Vol. 73, 2024",
-          "url": "https://doi.org/10.5353/th_b5662649"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "pt-BR": {
@@ -904,33 +753,7 @@
           "answer": "Sim. Dormir 2+ horas mais tarde nos fins de semana cria 'jet lag social' que desloca seu nadir para mais tarde. Quando segunda-feira chega, seu alarme agora atinge mais perto do seu nadir deslocado, causando pior sonolência. Manter horários de despertar de fim de semana dentro de 1 hora dos horários de dias de semana preserva a estabilidade do ritmo."
         }
       ],
-      "references": [
-        {
-          "title": "Temperature Nadir Timing and Sleep Inertia Severity in Healthy Adults",
-          "source": "Journal of Biological Rhythms, Vol. 40, Issue 2, 2025",
-          "url": "https://doi.org/10.1007/s41105-025-00587-8"
-        },
-        {
-          "title": "Optimizing Wake Time Based on Circadian Temperature Phase: A Randomized Controlled Trial",
-          "source": "Chronobiology International, Vol. 41, Issue 8, 2024",
-          "url": "https://doi.org/10.1080/07420528.2024.2312806"
-        },
-        {
-          "title": "Wearable Temperature Monitoring for Circadian Phase Estimation: Validation Study",
-          "source": "Sleep, Vol. 48, Issue 3, 2025",
-          "url": "https://doi.org/10.1055/s-0044-1800785"
-        },
-        {
-          "title": "Shift Work and Circadian Temperature Rhythm Adaptation",
-          "source": "Journal of Biological Rhythms, Vol. 39, Issue 6, 2024",
-          "url": "https://doi.org/10.1201/b17253-19"
-        },
-        {
-          "title": "Light Exposure Timing and Morning Alertness: Mechanisms and Applications",
-          "source": "Sleep Medicine Reviews, Vol. 73, 2024",
-          "url": "https://doi.org/10.5353/th_b5662649"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "id": {
@@ -1039,33 +862,7 @@
           "answer": "Ya. Tidur 2+ jam lebih lambat di akhir pekan menciptakan 'jet lag sosial' yang menggeser nadir Anda lebih lambat. Ketika Senin tiba, alarm Anda sekarang mengenai lebih dekat ke nadir yang bergeser, menyebabkan rasa pusing yang lebih buruk. Menjaga waktu bangun akhir pekan dalam 1 jam dari waktu hari kerja menjaga stabilitas ritme."
         }
       ],
-      "references": [
-        {
-          "title": "Temperature Nadir Timing and Sleep Inertia Severity in Healthy Adults",
-          "source": "Journal of Biological Rhythms, Vol. 40, Issue 2, 2025",
-          "url": "https://doi.org/10.1007/s41105-025-00587-8"
-        },
-        {
-          "title": "Optimizing Wake Time Based on Circadian Temperature Phase: A Randomized Controlled Trial",
-          "source": "Chronobiology International, Vol. 41, Issue 8, 2024",
-          "url": "https://doi.org/10.1080/07420528.2024.2312806"
-        },
-        {
-          "title": "Wearable Temperature Monitoring for Circadian Phase Estimation: Validation Study",
-          "source": "Sleep, Vol. 48, Issue 3, 2025",
-          "url": "https://doi.org/10.1055/s-0044-1800785"
-        },
-        {
-          "title": "Shift Work and Circadian Temperature Rhythm Adaptation",
-          "source": "Journal of Biological Rhythms, Vol. 39, Issue 6, 2024",
-          "url": "https://doi.org/10.1201/b17253-19"
-        },
-        {
-          "title": "Light Exposure Timing and Morning Alertness: Mechanisms and Applications",
-          "source": "Sleep Medicine Reviews, Vol. 73, 2024",
-          "url": "https://doi.org/10.5353/th_b5662649"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "de": {
@@ -1174,33 +971,7 @@
           "answer": "Ja. 2+ Stunden später am Wochenende schlafen erzeugt 'sozialen Jetlag', der Ihren Tiefpunkt später verschiebt. Wenn Montag kommt, trifft Ihr Wecker jetzt näher an Ihren verschobenen Tiefpunkt, was schlimmere Benommenheit verursacht. Wochenend-Aufwachzeiten innerhalb 1 Stunde der Wochentags-Zeiten zu halten, bewahrt Rhythmusstabilität."
         }
       ],
-      "references": [
-        {
-          "title": "Temperature Nadir Timing and Sleep Inertia Severity in Healthy Adults",
-          "source": "Journal of Biological Rhythms, Vol. 40, Issue 2, 2025",
-          "url": "https://doi.org/10.1007/s41105-025-00587-8"
-        },
-        {
-          "title": "Optimizing Wake Time Based on Circadian Temperature Phase: A Randomized Controlled Trial",
-          "source": "Chronobiology International, Vol. 41, Issue 8, 2024",
-          "url": "https://doi.org/10.1080/07420528.2024.2312806"
-        },
-        {
-          "title": "Wearable Temperature Monitoring for Circadian Phase Estimation: Validation Study",
-          "source": "Sleep, Vol. 48, Issue 3, 2025",
-          "url": "https://doi.org/10.1055/s-0044-1800785"
-        },
-        {
-          "title": "Shift Work and Circadian Temperature Rhythm Adaptation",
-          "source": "Journal of Biological Rhythms, Vol. 39, Issue 6, 2024",
-          "url": "https://doi.org/10.1201/b17253-19"
-        },
-        {
-          "title": "Light Exposure Timing and Morning Alertness: Mechanisms and Applications",
-          "source": "Sleep Medicine Reviews, Vol. 73, 2024",
-          "url": "https://doi.org/10.5353/th_b5662649"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-11-16"
     },
     "fr": {
@@ -1309,33 +1080,7 @@
           "answer": "Oui. Dormir 2+ heures plus tard le week-end crée un « décalage horaire social » qui déplace votre nadir plus tard. Quand lundi arrive, votre alarme touche maintenant plus près de votre nadir décalé, causant une somnolence pire. Garder les heures de réveil du week-end dans l'heure des heures de semaine préserve la stabilité du rythme."
         }
       ],
-      "references": [
-        {
-          "title": "Temperature Nadir Timing and Sleep Inertia Severity in Healthy Adults",
-          "source": "Journal of Biological Rhythms, Vol. 40, Issue 2, 2025",
-          "url": "https://doi.org/10.1007/s41105-025-00587-8"
-        },
-        {
-          "title": "Optimizing Wake Time Based on Circadian Temperature Phase: A Randomized Controlled Trial",
-          "source": "Chronobiology International, Vol. 41, Issue 8, 2024",
-          "url": "https://doi.org/10.1080/07420528.2024.2312806"
-        },
-        {
-          "title": "Wearable Temperature Monitoring for Circadian Phase Estimation: Validation Study",
-          "source": "Sleep, Vol. 48, Issue 3, 2025",
-          "url": "https://doi.org/10.1055/s-0044-1800785"
-        },
-        {
-          "title": "Shift Work and Circadian Temperature Rhythm Adaptation",
-          "source": "Journal of Biological Rhythms, Vol. 39, Issue 6, 2024",
-          "url": "https://doi.org/10.1201/b17253-19"
-        },
-        {
-          "title": "Light Exposure Timing and Morning Alertness: Mechanisms and Applications",
-          "source": "Sleep Medicine Reviews, Vol. 73, 2024",
-          "url": "https://doi.org/10.5353/th_b5662649"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     }
   },

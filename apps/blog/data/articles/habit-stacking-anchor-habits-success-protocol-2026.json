@@ -113,27 +113,7 @@
           "answer": "Research shows habits under 2 minutes have nearly double the 90-day retention rate of longer habits. Start with the smallest possible version—one pushup, one sentence of journaling, one minute of meditation. The goal initially is consistency, not impact. Duration can increase once the behavior is automatic."
         }
       ],
-      "references": [
-        {
-          "title": "Habit Chaining and Behavioral Sequence Formation: A Large-Scale Analysis",
-          "source": "Behavioral Science & Policy, 2024"
-        },
-        {
-          "title": "Routine Formation and Automaticity: New Findings on Habit Development Timelines",
-          "source": "European Journal of Social Psychology, 2025",
-          "url": "https://doi.org/10.31234/osf.io/xatzp_v1"
-        },
-        {
-          "title": "The Role of Implementation Intentions in Habit Stacking Success",
-          "source": "Journal of Experimental Psychology: Applied, 2024",
-          "url": "https://doi.org/10.1177/17470218221147024"
-        },
-        {
-          "title": "Morning vs. Evening Habit Formation: Chronotype and Consistency Effects",
-          "source": "Health Psychology Review, 2025",
-          "url": "https://doi.org/10.1111/jan.14530/v1/review2"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ko": {
@@ -226,23 +206,9 @@
       ],
       "references": [
         {
-          "title": "Habit chaining and behavioral persistence: A 66-day longitudinal study",
-          "source": "Behavioral Science & Policy, 2024"
-        },
-        {
-          "title": "Automaticity in daily routines: Prevalence and predictors of habitual behavior",
-          "source": "European Journal of Social Psychology, 2025",
-          "url": "https://doi.org/10.1007/978-3-319-97529-0_21"
-        },
-        {
           "title": "How are habits formed: Modelling habit formation in the real world",
           "source": "Phillippa Lally et al., European Journal of Social Psychology, 2010",
           "url": "https://doi.org/10.1002/ejsp.674"
-        },
-        {
-          "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
-          "source": "James Clear, Avery Publishing, 2018",
-          "url": "https://doi.org/10.55277/researchhub.zydieqe9.1"
         }
       ],
       "last_updated": "2026-05-23"
@@ -351,27 +317,7 @@
           "answer": "研究によると、2分以内の習慣は、より長い習慣と比べて90日後の定着率がほぼ2倍です。可能な限り小さいバージョンから始めてください—腕立て伏せ1回、日記1文、瞑想1分。最初の目標は影響ではなく一貫性です。行動が自動化されてから時間を増やせます。"
         }
       ],
-      "references": [
-        {
-          "title": "Habit Chaining and Behavioral Sequence Formation: A Large-Scale Analysis",
-          "source": "Behavioral Science & Policy, 2024"
-        },
-        {
-          "title": "Routine Formation and Automaticity: New Findings on Habit Development Timelines",
-          "source": "European Journal of Social Psychology, 2025",
-          "url": "https://doi.org/10.31234/osf.io/xatzp_v1"
-        },
-        {
-          "title": "The Role of Implementation Intentions in Habit Stacking Success",
-          "source": "Journal of Experimental Psychology: Applied, 2024",
-          "url": "https://doi.org/10.1177/17470218221147024"
-        },
-        {
-          "title": "Morning vs. Evening Habit Formation: Chronotype and Consistency Effects",
-          "source": "Health Psychology Review, 2025",
-          "url": "https://doi.org/10.1111/jan.14530/v1/review2"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "zh-CN": {
@@ -478,27 +424,7 @@
           "answer": "研究显示2分钟以内的习惯，90天留存率几乎是更长习惯的两倍。从最小版本开始——一个俯卧撑、一句日记、一分钟冥想。初期目标是稳定性，不是效果。等行为自动化后再增加时长。"
         }
       ],
-      "references": [
-        {
-          "title": "Habit Chaining and Behavioral Sequence Formation: A Large-Scale Analysis",
-          "source": "Behavioral Science & Policy, 2024"
-        },
-        {
-          "title": "Routine Formation and Automaticity: New Findings on Habit Development Timelines",
-          "source": "European Journal of Social Psychology, 2025",
-          "url": "https://doi.org/10.31234/osf.io/xatzp_v1"
-        },
-        {
-          "title": "The Role of Implementation Intentions in Habit Stacking Success",
-          "source": "Journal of Experimental Psychology: Applied, 2024",
-          "url": "https://doi.org/10.1177/17470218221147024"
-        },
-        {
-          "title": "Morning vs. Evening Habit Formation: Chronotype and Consistency Effects",
-          "source": "Health Psychology Review, 2025",
-          "url": "https://doi.org/10.1111/jan.14530/v1/review1"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "zh-TW": {
@@ -605,27 +531,7 @@
           "answer": "研究顯示 2 分鐘以內的習慣，90 天維持率幾乎是較長習慣的兩倍。從最小可能的版本開始——一個伏地挺身、寫一句日記、一分鐘冥想。初期目標是一致性，不是影響力。等行為自動化後再增加時間長度。"
         }
       ],
-      "references": [
-        {
-          "title": "Habit Chaining and Behavioral Sequence Formation: A Large-Scale Analysis",
-          "source": "Behavioral Science & Policy, 2024"
-        },
-        {
-          "title": "Routine Formation and Automaticity: New Findings on Habit Development Timelines",
-          "source": "European Journal of Social Psychology, 2025",
-          "url": "https://doi.org/10.31234/osf.io/xatzp_v1"
-        },
-        {
-          "title": "The Role of Implementation Intentions in Habit Stacking Success",
-          "source": "Journal of Experimental Psychology: Applied, 2024",
-          "url": "https://doi.org/10.1177/17470218221147024"
-        },
-        {
-          "title": "Morning vs. Evening Habit Formation: Chronotype and Consistency Effects",
-          "source": "Health Psychology Review, 2025",
-          "url": "https://doi.org/10.1111/jan.14530/v1/review2"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "es": {
@@ -734,27 +640,7 @@
           "answer": "La investigación muestra que los hábitos de menos de 2 minutos tienen casi el doble de tasa de retención a 90 días que los hábitos más largos. Empieza con la versión más pequeña posible—una flexión, una frase de diario, un minuto de meditación. El objetivo inicial es consistencia, no impacto. La duración puede aumentar una vez que el comportamiento sea automático."
         }
       ],
-      "references": [
-        {
-          "title": "Habit Chaining and Behavioral Sequence Formation: A Large-Scale Analysis",
-          "source": "Behavioral Science & Policy, 2024"
-        },
-        {
-          "title": "Routine Formation and Automaticity: New Findings on Habit Development Timelines",
-          "source": "European Journal of Social Psychology, 2025",
-          "url": "https://doi.org/10.31234/osf.io/xatzp_v1"
-        },
-        {
-          "title": "The Role of Implementation Intentions in Habit Stacking Success",
-          "source": "Journal of Experimental Psychology: Applied, 2024",
-          "url": "https://doi.org/10.1177/17470218221147024"
-        },
-        {
-          "title": "Morning vs. Evening Habit Formation: Chronotype and Consistency Effects",
-          "source": "Health Psychology Review, 2025",
-          "url": "https://doi.org/10.1111/jan.14530/v1/review2"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "pt-BR": {
@@ -863,27 +749,7 @@
           "answer": "Pesquisas mostram que hábitos com menos de 2 minutos têm quase o dobro da taxa de retenção de 90 dias de hábitos mais longos. Comece com a menor versão possível—uma flexão, uma frase de diário, um minuto de meditação. O objetivo inicialmente é consistência, não impacto. A duração pode aumentar uma vez que o comportamento seja automático."
         }
       ],
-      "references": [
-        {
-          "title": "Habit Chaining and Behavioral Sequence Formation: A Large-Scale Analysis",
-          "source": "Behavioral Science & Policy, 2024"
-        },
-        {
-          "title": "Routine Formation and Automaticity: New Findings on Habit Development Timelines",
-          "source": "European Journal of Social Psychology, 2025",
-          "url": "https://doi.org/10.31234/osf.io/xatzp_v1"
-        },
-        {
-          "title": "The Role of Implementation Intentions in Habit Stacking Success",
-          "source": "Journal of Experimental Psychology: Applied, 2024",
-          "url": "https://doi.org/10.1177/17470218221147024"
-        },
-        {
-          "title": "Morning vs. Evening Habit Formation: Chronotype and Consistency Effects",
-          "source": "Health Psychology Review, 2025",
-          "url": "https://doi.org/10.1111/jan.14530/v1/review2"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "id": {
@@ -992,27 +858,7 @@
           "answer": "Penelitian menunjukkan kebiasaan di bawah 2 menit memiliki tingkat retensi 90 hari hampir dua kali lipat dari kebiasaan yang lebih lama. Mulai dengan versi terkecil yang mungkin—satu push-up, satu kalimat journaling, satu menit meditasi. Tujuan awalnya adalah konsistensi, bukan dampak. Durasi dapat meningkat setelah perilaku otomatis."
         }
       ],
-      "references": [
-        {
-          "title": "Habit Chaining and Behavioral Sequence Formation: A Large-Scale Analysis",
-          "source": "Behavioral Science & Policy, 2024"
-        },
-        {
-          "title": "Routine Formation and Automaticity: New Findings on Habit Development Timelines",
-          "source": "European Journal of Social Psychology, 2025",
-          "url": "https://doi.org/10.31234/osf.io/xatzp_v1"
-        },
-        {
-          "title": "The Role of Implementation Intentions in Habit Stacking Success",
-          "source": "Journal of Experimental Psychology: Applied, 2024",
-          "url": "https://doi.org/10.1177/17470218221147024"
-        },
-        {
-          "title": "Morning vs. Evening Habit Formation: Chronotype and Consistency Effects",
-          "source": "Health Psychology Review, 2025",
-          "url": "https://doi.org/10.1111/jan.14530/v1/review2"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "de": {
@@ -1121,27 +967,7 @@
           "answer": "Forschung zeigt, dass Gewohnheiten unter 2 Minuten fast die doppelte 90-Tage-Beibehaltungsrate längerer Gewohnheiten haben. Beginnen Sie mit der kleinstmöglichen Version – eine Liegestütze, ein Satz Journaling, eine Minute Meditation. Das Ziel ist anfangs Konsistenz, nicht Wirkung. Die Dauer kann zunehmen, sobald das Verhalten automatisch ist."
         }
       ],
-      "references": [
-        {
-          "title": "Habit Chaining and Behavioral Sequence Formation: A Large-Scale Analysis",
-          "source": "Behavioral Science & Policy, 2024"
-        },
-        {
-          "title": "Routine Formation and Automaticity: New Findings on Habit Development Timelines",
-          "source": "European Journal of Social Psychology, 2025",
-          "url": "https://doi.org/10.31234/osf.io/xatzp_v1"
-        },
-        {
-          "title": "The Role of Implementation Intentions in Habit Stacking Success",
-          "source": "Journal of Experimental Psychology: Applied, 2024",
-          "url": "https://doi.org/10.1177/17470218221147024"
-        },
-        {
-          "title": "Morning vs. Evening Habit Formation: Chronotype and Consistency Effects",
-          "source": "Health Psychology Review, 2025",
-          "url": "https://doi.org/10.1111/jan.14530/v1/review2"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "fr": {
@@ -1250,27 +1076,7 @@
           "answer": "La recherche montre que les habitudes de moins de 2 minutes ont presque le double du taux de rétention à 90 jours des habitudes plus longues. Commencez par la plus petite version possible—une pompe, une phrase de journalisation, une minute de méditation. L'objectif initialement est la cohérence, pas l'impact. La durée peut augmenter une fois que le comportement est automatique."
         }
       ],
-      "references": [
-        {
-          "title": "Habit Chaining and Behavioral Sequence Formation: A Large-Scale Analysis",
-          "source": "Behavioral Science & Policy, 2024"
-        },
-        {
-          "title": "Routine Formation and Automaticity: New Findings on Habit Development Timelines",
-          "source": "European Journal of Social Psychology, 2025",
-          "url": "https://doi.org/10.31234/osf.io/xatzp_v1"
-        },
-        {
-          "title": "The Role of Implementation Intentions in Habit Stacking Success",
-          "source": "Journal of Experimental Psychology: Applied, 2024",
-          "url": "https://doi.org/10.1177/17470218221147024"
-        },
-        {
-          "title": "Morning vs. Evening Habit Formation: Chronotype and Consistency Effects",
-          "source": "Health Psychology Review, 2025",
-          "url": "https://doi.org/10.1111/jan.14530/v1/review2"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     }
   },

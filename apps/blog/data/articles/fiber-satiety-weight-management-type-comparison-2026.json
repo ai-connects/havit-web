@@ -123,28 +123,7 @@
           "answer": "Cooking can actually enhance soluble fiber's benefits by breaking down cell walls and increasing gel-forming capacity. However, overcooking vegetables reduces their volume and chewing requirements, diminishing mechanical satiety. Light cooking or steaming preserves both benefits."
         }
       ],
-      "references": [
-        {
-          "title": "Viscous Fiber and Satiety Hormone Responses: Mechanisms and Clinical Implications",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1093/ajcn/55.2.571s"
-        },
-        {
-          "title": "Comparative Effects of Soluble and Insoluble Dietary Fiber on Appetite Regulation",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.1134/s036211972002005x"
-        },
-        {
-          "title": "Beta-glucan Viscosity and Subsequent Meal Energy Intake: A Dose-Response Analysis",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1039/d5fo00353a/v1/review2"
-        },
-        {
-          "title": "Short-Chain Fatty Acids and the Second Meal Effect: 24-Hour Appetite Tracking Study",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.26226/morressier.5b1a467d3b823805c63bffa9"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ko": {
@@ -251,21 +230,6 @@
         }
       ],
       "references": [
-        {
-          "title": "Fiber Satiety Mechanisms: Viscosity and Gastric Emptying Effects on Appetite Regulation",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.3945/ajcn.115.129064"
-        },
-        {
-          "title": "Comparative Effects of Soluble and Insoluble Fiber on Satiety and Energy Intake",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.1016/j.appet.2018.05.201"
-        },
-        {
-          "title": "Dietary Fiber Intake and Weight Management: A Systematic Review and Meta-Analysis",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1093/ajcn/nqab357"
-        },
         {
           "title": "한국인 영양소 섭취기준 - 식이섬유",
           "source": "한국영양학회, 2020"
@@ -386,28 +350,7 @@
           "answer": "加熱調理は実際に水溶性食物繊維の効果を高めることがあります。細胞壁を分解し、ゲル形成能力を増加させるためです。ただし、野菜を加熱しすぎるとボリュームと咀嚼の必要性が減り、物理的な満腹感が低下します。軽い加熱や蒸し調理なら、両方のメリットを保てます。"
         }
       ],
-      "references": [
-        {
-          "title": "Viscous Fiber and Satiety Hormone Responses: Mechanisms and Clinical Implications",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1093/ajcn/55.2.571s"
-        },
-        {
-          "title": "Comparative Effects of Soluble and Insoluble Dietary Fiber on Appetite Regulation",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.1134/s036211972002005x"
-        },
-        {
-          "title": "Beta-glucan Viscosity and Subsequent Meal Energy Intake: A Dose-Response Analysis",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1039/d5fo00353a/v1/review2"
-        },
-        {
-          "title": "Short-Chain Fatty Acids and the Second Meal Effect: 24-Hour Appetite Tracking Study",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.26226/morressier.5b1a467d3b823805c63bffa9"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "zh-CN": {
@@ -523,28 +466,7 @@
           "answer": "烹饪实际上可以增强可溶性纤维的效果，因为它能分解细胞壁、增加凝胶形成能力。但蔬菜煮得太烂会减少体积和咀嚼需求，削弱物理饱腹感。轻微烹饪或蒸煮能兼顾两种好处。"
         }
       ],
-      "references": [
-        {
-          "title": "Viscous Fiber and Satiety Hormone Responses: Mechanisms and Clinical Implications",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1093/ajcn/55.2.571s"
-        },
-        {
-          "title": "Comparative Effects of Soluble and Insoluble Dietary Fiber on Appetite Regulation",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.1134/s036211972002005x"
-        },
-        {
-          "title": "Beta-glucan Viscosity and Subsequent Meal Energy Intake: A Dose-Response Analysis",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1039/d5fo00353a/v1/review2"
-        },
-        {
-          "title": "Short-Chain Fatty Acids and the Second Meal Effect: 24-Hour Appetite Tracking Study",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.26226/morressier.5b1a467d3b823805c63bffa9"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "zh-TW": {
@@ -660,28 +582,7 @@
           "answer": "烹調其實可以增強水溶性纖維的效益，因為它能分解細胞壁並增加凝膠形成能力。但蔬菜煮過頭會減少體積和咀嚼需求，降低物理性飽足感。輕微烹調或蒸煮能同時保留兩種好處。"
         }
       ],
-      "references": [
-        {
-          "title": "Viscous Fiber and Satiety Hormone Responses: Mechanisms and Clinical Implications",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1093/ajcn/55.2.571s"
-        },
-        {
-          "title": "Comparative Effects of Soluble and Insoluble Dietary Fiber on Appetite Regulation",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.1134/s036211972002005x"
-        },
-        {
-          "title": "Beta-glucan Viscosity and Subsequent Meal Energy Intake: A Dose-Response Analysis",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1039/d5fo00353a/v1/review2"
-        },
-        {
-          "title": "Short-Chain Fatty Acids and the Second Meal Effect: 24-Hour Appetite Tracking Study",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.26226/morressier.5b1a467d3b823805c63bffa9"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "es": {
@@ -799,28 +700,7 @@
           "answer": "Cocinar puede realmente mejorar los beneficios de la fibra soluble al romper las paredes celulares y aumentar la capacidad de formar gel. Sin embargo, cocinar demasiado las verduras reduce su volumen y requisitos de masticación, disminuyendo la saciedad mecánica. Cocinar ligeramente o al vapor preserva ambos beneficios."
         }
       ],
-      "references": [
-        {
-          "title": "Viscous Fiber and Satiety Hormone Responses: Mechanisms and Clinical Implications",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1093/ajcn/55.2.571s"
-        },
-        {
-          "title": "Comparative Effects of Soluble and Insoluble Dietary Fiber on Appetite Regulation",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.1134/s036211972002005x"
-        },
-        {
-          "title": "Beta-glucan Viscosity and Subsequent Meal Energy Intake: A Dose-Response Analysis",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1039/d5fo00353a/v1/review2"
-        },
-        {
-          "title": "Short-Chain Fatty Acids and the Second Meal Effect: 24-Hour Appetite Tracking Study",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.26226/morressier.5b1a467d3b823805c63bffa9"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "pt-BR": {
@@ -938,28 +818,7 @@
           "answer": "Cozinhar pode realmente aumentar os benefícios da fibra solúvel ao quebrar paredes celulares e aumentar a capacidade de formação de gel. No entanto, cozinhar demais os vegetais reduz seu volume e requisitos de mastigação, diminuindo a saciedade mecânica. Cozimento leve ou no vapor preserva ambos os benefícios."
         }
       ],
-      "references": [
-        {
-          "title": "Viscous Fiber and Satiety Hormone Responses: Mechanisms and Clinical Implications",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1093/ajcn/55.2.571s"
-        },
-        {
-          "title": "Comparative Effects of Soluble and Insoluble Dietary Fiber on Appetite Regulation",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.1134/s036211972002005x"
-        },
-        {
-          "title": "Beta-glucan Viscosity and Subsequent Meal Energy Intake: A Dose-Response Analysis",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1039/d5fo00353a/v1/review2"
-        },
-        {
-          "title": "Short-Chain Fatty Acids and the Second Meal Effect: 24-Hour Appetite Tracking Study",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.26226/morressier.5b1a467d3b823805c63bffa9"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "id": {
@@ -1077,28 +936,7 @@
           "answer": "Memasak sebenarnya dapat meningkatkan manfaat serat larut dengan memecah dinding sel dan meningkatkan kapasitas pembentukan gel. Namun, memasak sayuran terlalu lama mengurangi volume dan persyaratan mengunyah mereka, mengurangi rasa kenyang mekanis. Memasak ringan atau mengukus mempertahankan kedua manfaat."
         }
       ],
-      "references": [
-        {
-          "title": "Viscous Fiber and Satiety Hormone Responses: Mechanisms and Clinical Implications",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1093/ajcn/55.2.571s"
-        },
-        {
-          "title": "Comparative Effects of Soluble and Insoluble Dietary Fiber on Appetite Regulation",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.1134/s036211972002005x"
-        },
-        {
-          "title": "Beta-glucan Viscosity and Subsequent Meal Energy Intake: A Dose-Response Analysis",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1039/d5fo00353a/v1/review2"
-        },
-        {
-          "title": "Short-Chain Fatty Acids and the Second Meal Effect: 24-Hour Appetite Tracking Study",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.26226/morressier.5b1a467d3b823805c63bffa9"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "de": {
@@ -1216,28 +1054,7 @@
           "answer": "Kochen kann tatsächlich die Vorteile löslicher Ballaststoffe verbessern, indem es Zellwände aufbricht und die gelbildende Kapazität erhöht. Allerdings reduziert Überkochen von Gemüse deren Volumen und Kauanforderungen, was die mechanische Sättigung vermindert. Leichtes Kochen oder Dämpfen bewahrt beide Vorteile."
         }
       ],
-      "references": [
-        {
-          "title": "Viscous Fiber and Satiety Hormone Responses: Mechanisms and Clinical Implications",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1093/ajcn/55.2.571s"
-        },
-        {
-          "title": "Comparative Effects of Soluble and Insoluble Dietary Fiber on Appetite Regulation",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.1134/s036211972002005x"
-        },
-        {
-          "title": "Beta-glucan Viscosity and Subsequent Meal Energy Intake: A Dose-Response Analysis",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1039/d5fo00353a/v1/review2"
-        },
-        {
-          "title": "Short-Chain Fatty Acids and the Second Meal Effect: 24-Hour Appetite Tracking Study",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.26226/morressier.5b1a467d3b823805c63bffa9"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-11-16"
     },
     "fr": {
@@ -1355,28 +1172,7 @@
           "answer": "La cuisson peut en fait améliorer les avantages des fibres solubles en décomposant les parois cellulaires et en augmentant la capacité de formation de gel. Cependant, une cuisson excessive des légumes réduit leur volume et leurs exigences de mastication, diminuant la satiété mécanique. Une cuisson légère ou à la vapeur préserve les deux avantages."
         }
       ],
-      "references": [
-        {
-          "title": "Viscous Fiber and Satiety Hormone Responses: Mechanisms and Clinical Implications",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1093/ajcn/55.2.571s"
-        },
-        {
-          "title": "Comparative Effects of Soluble and Insoluble Dietary Fiber on Appetite Regulation",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.1134/s036211972002005x"
-        },
-        {
-          "title": "Beta-glucan Viscosity and Subsequent Meal Energy Intake: A Dose-Response Analysis",
-          "source": "American Journal of Clinical Nutrition, 2025",
-          "url": "https://doi.org/10.1039/d5fo00353a/v1/review2"
-        },
-        {
-          "title": "Short-Chain Fatty Acids and the Second Meal Effect: 24-Hour Appetite Tracking Study",
-          "source": "Appetite, 2024",
-          "url": "https://doi.org/10.26226/morressier.5b1a467d3b823805c63bffa9"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     }
   },
