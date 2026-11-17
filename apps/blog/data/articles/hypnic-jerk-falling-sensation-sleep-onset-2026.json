@@ -19,7 +19,7 @@
         {
           "label": "How sleep medicine classifies hypnic jerks",
           "value": "Benign sleep–wake transition phenomenon",
-          "source": "Cuellar et al., Sleep Medicine Clinics 2015"
+          "source": "Sleep Medicine Clinics 2021 (Fragmentary Hypnic Myoclonus and Other Isolated Motor Phenomena of Sleep)"
         },
         {
           "label": "Caffeine (400 mg) still disrupted sleep when taken",
@@ -116,11 +116,6 @@
       ],
       "references": [
         {
-          "title": "Hypnic Jerks: A Scoping Literature Review",
-          "source": "Sleep Medicine Clinics, 2015",
-          "url": "https://doi.org/10.1016/j.jsmc.2015.05.010"
-        },
-        {
           "title": "Hypnic jerks: neurophysiological characterization of a new motor pattern",
           "source": "Sleep Medicine, 2014",
           "url": "https://doi.org/10.1016/j.sleep.2014.01.024"
@@ -151,7 +146,7 @@
           "url": "https://doi.org/10.1016/j.smrv.2019.04.008"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "ko": {
       "title": "잠들 때 떨어지는 느낌, 입면경련의 과학적 원인과 예방법 총정리",
@@ -163,7 +158,7 @@
         {
           "label": "수면의학에서의 분류",
           "value": "수면-각성 전환기의 양성 현상",
-          "source": "Cuellar et al., Sleep Medicine Clinics 2015"
+          "source": "Fragmentary Hypnic Myoclonus and Other Isolated Motor Phenomena of Sleep, Sleep Medicine Clinics 2021"
         },
         {
           "label": "카페인 400mg이 여전히 수면을 방해한 섭취 시점",
@@ -254,11 +249,6 @@
       ],
       "references": [
         {
-          "title": "Hypnic Jerks: A Scoping Literature Review",
-          "source": "Sleep Medicine Clinics, 2015",
-          "url": "https://doi.org/10.1016/j.jsmc.2015.05.010"
-        },
-        {
           "title": "Hypnic jerks: neurophysiological characterization of a new motor pattern",
           "source": "Sleep Medicine, 2014",
           "url": "https://doi.org/10.1016/j.sleep.2014.01.024"
@@ -289,7 +279,7 @@
           "url": "https://doi.org/10.1016/j.smrv.2019.04.008"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "ja": {
       "title": "寝落ち寸前に体がビクッとなる現象の正体｜入眠時ぴくつきの原因と対策",
@@ -300,7 +290,7 @@
         {
           "label": "睡眠医学における入眠時ぴくつきの位置づけ",
           "value": "睡眠・覚醒移行期の良性現象",
-          "source": "Cuellar et al., Sleep Medicine Clinics 2015"
+          "source": "Sleep Medicine Clinics 2021（孤発性の睡眠関連運動現象のレビュー）"
         },
         {
           "label": "カフェイン400mgがなお睡眠を妨げた摂取タイミング",
@@ -397,11 +387,6 @@
       ],
       "references": [
         {
-          "title": "Hypnic Jerks: A Scoping Literature Review",
-          "source": "Sleep Medicine Clinics, 2015",
-          "url": "https://doi.org/10.1016/j.jsmc.2015.05.010"
-        },
-        {
           "title": "Hypnic jerks: neurophysiological characterization of a new motor pattern",
           "source": "Sleep Medicine, 2014",
           "url": "https://doi.org/10.1016/j.sleep.2014.01.024"
@@ -432,7 +417,7 @@
           "url": "https://doi.org/10.1016/j.smrv.2019.04.008"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "zh-CN": {
       "title": "快睡着时身体突然抖一下？入睡抽动的真相与科学应对方法",
@@ -443,7 +428,7 @@
         {
           "label": "睡眠医学对入睡抽动的归类",
           "value": "睡眠—觉醒转换期的良性现象",
-          "source": "Cuellar et al., Sleep Medicine Clinics 2015"
+          "source": "Sleep Medicine Clinics 2021（睡眠孤立性运动现象综述）"
         },
         {
           "label": "400毫克咖啡因仍会干扰睡眠的摄入时间",
@@ -540,11 +525,6 @@
       ],
       "references": [
         {
-          "title": "Hypnic Jerks: A Scoping Literature Review",
-          "source": "Sleep Medicine Clinics, 2015",
-          "url": "https://doi.org/10.1016/j.jsmc.2015.05.010"
-        },
-        {
           "title": "Hypnic jerks: neurophysiological characterization of a new motor pattern",
           "source": "Sleep Medicine, 2014",
           "url": "https://doi.org/10.1016/j.sleep.2014.01.024"
@@ -575,7 +555,7 @@
           "url": "https://doi.org/10.1016/j.smrv.2019.04.008"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "zh-TW": {
       "title": "快睡著時身體突然抖一下？入睡抽動的原因與科學實證的改善方法",
@@ -586,7 +566,7 @@
         {
           "label": "睡眠醫學對入睡抽動的歸類",
           "value": "睡眠—清醒轉換期的良性現象",
-          "source": "Cuellar et al., Sleep Medicine Clinics 2015"
+          "source": "Sleep Medicine Clinics 2021（睡眠孤立性運動現象回顧）"
         },
         {
           "label": "400毫克咖啡因仍會干擾睡眠的攝取時間",
@@ -683,11 +663,6 @@
       ],
       "references": [
         {
-          "title": "Hypnic Jerks: A Scoping Literature Review",
-          "source": "Sleep Medicine Clinics, 2015",
-          "url": "https://doi.org/10.1016/j.jsmc.2015.05.010"
-        },
-        {
           "title": "Hypnic jerks: neurophysiological characterization of a new motor pattern",
           "source": "Sleep Medicine, 2014",
           "url": "https://doi.org/10.1016/j.sleep.2014.01.024"
@@ -718,7 +693,7 @@
           "url": "https://doi.org/10.1016/j.smrv.2019.04.008"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Por qué tu cuerpo da un salto justo cuando te estás quedando dormido (y cómo evitarlo)",
@@ -731,7 +706,7 @@
         {
           "label": "Cómo clasifica la medicina del sueño las sacudidas hípnicas",
           "value": "Fenómeno benigno de la transición vigilia-sueño",
-          "source": "Cuellar et al., Sleep Medicine Clinics 2015"
+          "source": "Revisión de Sleep Medicine Clinics 2021 sobre fenómenos motores aislados del sueño"
         },
         {
           "label": "La cafeína (400 mg) aún alteró el sueño tomada",
@@ -828,11 +803,6 @@
       ],
       "references": [
         {
-          "title": "Hypnic Jerks: A Scoping Literature Review",
-          "source": "Sleep Medicine Clinics, 2015",
-          "url": "https://doi.org/10.1016/j.jsmc.2015.05.010"
-        },
-        {
           "title": "Hypnic jerks: neurophysiological characterization of a new motor pattern",
           "source": "Sleep Medicine, 2014",
           "url": "https://doi.org/10.1016/j.sleep.2014.01.024"
@@ -863,7 +833,7 @@
           "url": "https://doi.org/10.1016/j.smrv.2019.04.008"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "pt-BR": {
       "title": "Por Que Seu Corpo Treme ao Adormecer (E Como Evitar Isso)",
@@ -876,7 +846,7 @@
         {
           "label": "Como a medicina do sono classifica as mioclonias hípnicas",
           "value": "Fenômeno benigno da transição vigília-sono",
-          "source": "Cuellar et al., Sleep Medicine Clinics 2015"
+          "source": "Revisão de fenômenos motores isolados do sono, Sleep Medicine Clinics 2021"
         },
         {
           "label": "A cafeína (400 mg) ainda atrapalhou o sono quando tomada",
@@ -973,11 +943,6 @@
       ],
       "references": [
         {
-          "title": "Hypnic Jerks: A Scoping Literature Review",
-          "source": "Sleep Medicine Clinics, 2015",
-          "url": "https://doi.org/10.1016/j.jsmc.2015.05.010"
-        },
-        {
           "title": "Hypnic jerks: neurophysiological characterization of a new motor pattern",
           "source": "Sleep Medicine, 2014",
           "url": "https://doi.org/10.1016/j.sleep.2014.01.024"
@@ -1008,7 +973,7 @@
           "url": "https://doi.org/10.1016/j.smrv.2019.04.008"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "id": {
       "title": "Mengapa Tubuh Anda Tersentak Saat Akan Tertidur (Dan Cara Menghentikannya)",
@@ -1021,7 +986,7 @@
         {
           "label": "Klasifikasi hypnic jerk dalam kedokteran tidur",
           "value": "Fenomena jinak masa transisi terjaga-tidur",
-          "source": "Cuellar et al., Sleep Medicine Clinics 2015"
+          "source": "Tinjauan Sleep Medicine Clinics 2021 tentang fenomena motorik terisolasi saat tidur"
         },
         {
           "label": "Kafein (400 mg) masih mengganggu tidur bila dikonsumsi",
@@ -1118,11 +1083,6 @@
       ],
       "references": [
         {
-          "title": "Hypnic Jerks: A Scoping Literature Review",
-          "source": "Sleep Medicine Clinics, 2015",
-          "url": "https://doi.org/10.1016/j.jsmc.2015.05.010"
-        },
-        {
           "title": "Hypnic jerks: neurophysiological characterization of a new motor pattern",
           "source": "Sleep Medicine, 2014",
           "url": "https://doi.org/10.1016/j.sleep.2014.01.024"
@@ -1153,7 +1113,7 @@
           "url": "https://doi.org/10.1016/j.smrv.2019.04.008"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "de": {
       "title": "Warum Ihr Körper beim Einschlafen zuckt (und wie Sie es verhindern können)",
@@ -1166,7 +1126,7 @@
         {
           "label": "Einordnung von Einschlafzuckungen in der Schlafmedizin",
           "value": "Harmloses Phänomen des Schlaf-Wach-Übergangs",
-          "source": "Cuellar et al., Sleep Medicine Clinics 2015"
+          "source": "Übersichtsarbeit zu Fragmentary Hypnic Myoclonus und anderen isolierten motorischen Phänomenen des Schlafs, Sleep Medicine Clinics 2021"
         },
         {
           "label": "Koffein (400 mg) störte den Schlaf noch bei Einnahme",
@@ -1263,11 +1223,6 @@
       ],
       "references": [
         {
-          "title": "Hypnic Jerks: A Scoping Literature Review",
-          "source": "Sleep Medicine Clinics, 2015",
-          "url": "https://doi.org/10.1016/j.jsmc.2015.05.010"
-        },
-        {
           "title": "Hypnic jerks: neurophysiological characterization of a new motor pattern",
           "source": "Sleep Medicine, 2014",
           "url": "https://doi.org/10.1016/j.sleep.2014.01.024"
@@ -1298,7 +1253,7 @@
           "url": "https://doi.org/10.1016/j.smrv.2019.04.008"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "fr": {
       "title": "Pourquoi votre corps sursaute au moment de vous endormir (et comment l'arrêter)",
@@ -1311,7 +1266,7 @@
         {
           "label": "Classement des secousses hypniques en médecine du sommeil",
           "value": "Phénomène bénin de la transition veille-sommeil",
-          "source": "Cuellar et al., Sleep Medicine Clinics 2015"
+          "source": "Revue Sleep Medicine Clinics 2021 sur les phénomènes moteurs isolés du sommeil"
         },
         {
           "label": "La caféine (400 mg) perturbait encore le sommeil prise",
@@ -1408,11 +1363,6 @@
       ],
       "references": [
         {
-          "title": "Hypnic Jerks: A Scoping Literature Review",
-          "source": "Sleep Medicine Clinics, 2015",
-          "url": "https://doi.org/10.1016/j.jsmc.2015.05.010"
-        },
-        {
           "title": "Hypnic jerks: neurophysiological characterization of a new motor pattern",
           "source": "Sleep Medicine, 2014",
           "url": "https://doi.org/10.1016/j.sleep.2014.01.024"
@@ -1443,11 +1393,11 @@
           "url": "https://doi.org/10.1016/j.smrv.2019.04.008"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     }
   },
   "generated_at": "2026-05-24T14:29:33.388Z",
-  "updated_at": "2026-10-07T23:33:44.000Z",
+  "updated_at": "2026-11-17T00:00:00.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
