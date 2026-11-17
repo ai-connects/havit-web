@@ -96,15 +96,21 @@
       "references": [
         {
           "text": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP-1). *New England Journal of Medicine*, 2021.",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183",
+          "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+          "source": "2021"
         },
         {
           "text": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1). *New England Journal of Medicine*, 2022.",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2206038"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2206038",
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "2022"
         },
         {
           "text": "Neeland IJ, et al. Changes in lean body mass with GLP-1-based therapies. *Diabetes, Obesity and Metabolism*, 2024.",
-          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728"
+          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
+          "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
+          "source": "2024"
         },
         {
           "text": "National Institute for Health and Care Excellence (NICE) — Identifying and assessing overweight, obesity and central adiposity (waist-to-height ratio).",
@@ -211,15 +217,21 @@
       "references": [
         {
           "text": "Wilding JPH 외. STEP-1: 과체중·비만 성인의 주 1회 세마글루타이드. *New England Journal of Medicine*, 2021.",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183",
+          "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+          "source": "2021"
         },
         {
           "text": "Jastreboff AM 외. SURMOUNT-1: 비만 치료를 위한 주 1회 티르제파타이드. *New England Journal of Medicine*, 2022.",
-          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2206038"
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2206038",
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "2022"
         },
         {
           "text": "Neeland IJ 외. GLP-1 기반 치료와 제지방량 변화. *Diabetes, Obesity and Metabolism*, 2024.",
-          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728"
+          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
+          "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
+          "source": "2024"
         },
         {
           "text": "NICE — 과체중·비만·복부 비만 평가(허리-키 비율).",
@@ -433,18 +445,18 @@
       ],
       "references": [
         {
-          "title": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP-1). *New England Journal of Medicine*, 2021.",
-          "source": "New England Journal of Medicine",
+          "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+          "source": "New England Journal of Medicine, 2021",
           "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183"
         },
         {
-          "title": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1). *New England Journal of Medicine*, 2022.",
-          "source": "New England Journal of Medicine",
+          "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+          "source": "New England Journal of Medicine, 2022",
           "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2206038"
         },
         {
-          "title": "Neeland IJ, et al. Changes in lean body mass with GLP-1-based therapies. *Diabetes, Obesity and Metabolism*, 2024.",
-          "source": "Diabetes, Obesity and Metabolism",
+          "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies",
+          "source": "Diabetes, Obesity and Metabolism, 2024",
           "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728"
         },
         {
