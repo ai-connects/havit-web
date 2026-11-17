@@ -561,7 +561,7 @@
         },
         {
           "label": "最佳臥室溫度",
-          "value": "18-19°C（64-67°F）",
+          "value": "18-19°C",
           "source": "Journal of Sleep Research 2024"
         },
         {
@@ -633,7 +633,7 @@
         },
         {
           "question": "深層睡眠的最佳臥室溫度是多少？",
-          "answer": "研究指出 18-19°C（64-67°F）是第一週期慢波睡眠的最佳溫度。超過 20°C 會讓核心體溫維持在高點，平均延遲深層睡眠啟動 14 分鐘，並降低整體品質。"
+          "answer": "研究指出 18-19°C 是第一週期慢波睡眠的最佳溫度。超過 20°C 會讓核心體溫維持在高點，平均延遲深層睡眠啟動 14 分鐘，並降低整體品質。"
         },
         {
           "question": "褪黑激素補充劑能改善第一週期睡眠品質嗎？",
@@ -670,7 +670,7 @@
           "url": "https://doi.org/10.1111/j.1530-0277.2010.01417.x"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Protege tu primer ciclo de sueño: por qué esos 90 minutos iniciales son los más importantes",
@@ -1358,5 +1358,5 @@
     "naturalness_pass": 1,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

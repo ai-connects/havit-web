@@ -528,7 +528,7 @@
         },
         {
           "label": "成人平均每日體重波動",
-          "value": "1.1 公斤（約 2.4 磅）",
+          "value": "1.1 公斤",
           "source": "International Journal of Obesity, 2024"
         },
         {
@@ -543,7 +543,7 @@
         },
         {
           "label": "荷爾蒙週期體重波動範圍",
-          "value": "1.5-3.5 公斤（約 3-8 磅）",
+          "value": "1.5-3.5 公斤",
           "source": "Obesity Science & Practice, 2025"
         }
       ],
@@ -639,7 +639,7 @@
           "url": "https://doi.org/10.15760/etd.3312"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Tendencia Semanal de Peso vs Fluctuación Diaria: El Método de Media Móvil Que Realmente Funciona",
@@ -1287,5 +1287,5 @@
     "naturalness_pass": 3,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

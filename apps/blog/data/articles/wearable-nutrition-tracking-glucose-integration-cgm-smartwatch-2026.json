@@ -593,35 +593,35 @@
             "Dexcom, Libre",
             "Apple, Garmin",
             "代謝評分系統",
-            "$199"
+            "約新台幣6,400元"
           ],
           [
             "Veri",
             "Libre 3",
             "Apple, Fitbit",
             "餐點照片記錄",
-            "$149"
+            "約新台幣4,800元"
           ],
           [
             "Nutrisense",
             "Dexcom, Libre",
             "Apple, Garmin, Samsung",
             "含營養師諮詢",
-            "$225"
+            "約新台幣7,200元"
           ],
           [
             "January AI",
             "Libre 3, G7",
             "僅限 Apple Health",
             "AI 飆升預測",
-            "$99"
+            "約新台幣3,200元"
           ],
           [
             "Supersapiens",
             "Libre 3",
             "Garmin, Wahoo",
             "運動表現導向",
-            "$179"
+            "約新台幣5,700元"
           ]
         ],
         "caption": "價格與功能截至 2026 年 5 月；大多數平台需另購 CGM 或處方"
@@ -678,7 +678,7 @@
           "url": "https://doi.org/10.1007/s40279-024-02166-2"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Monitoreo Continuo de Glucosa y Smartwatch: Guía Práctica para Integrar CGM con tu Reloj Inteligente",
@@ -1366,5 +1366,5 @@
     "naturalness_pass": 1,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

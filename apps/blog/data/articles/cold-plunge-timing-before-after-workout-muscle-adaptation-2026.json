@@ -569,7 +569,7 @@
         },
         {
           "question": "冷水溫度對干擾效應有影響嗎？",
-          "answer": "大多數顯示肌肉增長受抑制的研究使用10-15°C（50-59°F）的水溫，浸泡10-15分鐘。較溫暖的水溫或較短的時間可能會減少干擾，但具體的閾值尚未確立。"
+          "answer": "大多數顯示肌肉增長受抑制的研究使用10-15°C的水溫，浸泡10-15分鐘。較溫暖的水溫或較短的時間可能會減少干擾，但具體的閾值尚未確立。"
         },
         {
           "question": "訓練後還可以沖冷水澡嗎？",
@@ -614,7 +614,7 @@
           "url": "https://doi.org/10.1007/s004210050065"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Baños de hielo después de entrenar: Por qué esos 10 minutos post-pesas podrían estar saboteando tus ganancias",
@@ -1250,5 +1250,5 @@
     "naturalness_pass": 1,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

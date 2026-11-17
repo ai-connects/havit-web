@@ -689,7 +689,7 @@
           "answer": "標準建議適用：如果在服藥後 2-4 小時內嘔吐，應視為藥物可能未完全吸收。如果可能的話，從備用藥盒再吃一顆，並在接下來 7 天使用額外的避孕措施（如保險套）。考慮到 semaglutide 本身就會延遲吸收，在時間窗口的判斷上寧可謹慎一點。"
         },
         {
-          "question": "這些吸收疑慮也適用於 tirzepatide（Mounjaro/Zepbound）嗎？",
+          "question": "這些吸收疑慮也適用於 tirzepatide（猛健樂）嗎？",
           "answer": "是的。Tirzepatide 透過類似的 GLP-1 受體機制也會顯著延遲胃排空。目前關於 tirzepatide 與口服避孕藥的具體吸收數據仍在累積中，但採取相同的預防措施是合理的。"
         },
         {
@@ -722,7 +722,7 @@
           "url": "https://doi.org/10.1016/s0029-7844(02)01939-7"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "¿La Semaglutida Afecta la Eficacia de las Pastillas Anticonceptivas? Lo Que Revelan los Datos de Absorción",
@@ -1463,5 +1463,5 @@
     "naturalness_pass": 1,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }
