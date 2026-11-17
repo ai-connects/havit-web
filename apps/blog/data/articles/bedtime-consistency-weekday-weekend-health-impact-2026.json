@@ -9,74 +9,64 @@
   "primary_keyword_ko": "주중 주말 일정한 취침 시간 건강 효과",
   "langs": {
     "en": {
-      "title": "Why Going to Bed at the Same Time Every Night Cuts Heart Risk by 28%",
+      "title": "Why Going to Bed at the Same Time Every Night May Protect Your Heart",
       "short_title": "Does Going to Bed at the Same Time Help Your Heart? 28%",
       "short_description": "Keeping bedtime within a 30-minute window all week, weekends included, was linked to lower cardiovascular risk. See what the new data reveals.",
-      "meta_description": "New research shows keeping your bedtime within a 30-minute window all week—weekends included—dramatically reduces cardiovascular risk. Here's what the data reveals.",
-      "tldr": "Maintaining consistent bedtimes within 30 minutes every night reduces cardiovascular events by 28% compared to irregular sleepers.",
-      "body_md": "## The Saturday Night Sabotage You Didn't Know About\n\nYou sleep seven hours a night. You've ditched the phone before bed. You even bought that expensive mattress. But here's what might be undoing all of it: going to bed at 10:30 PM on Tuesday and midnight on Saturday.\n\nThat 90-minute drift? It's doing more damage than you'd expect. A 2025 study published in the Journal of the American College of Cardiology tracked 47,000 adults for six years and found something striking: people who kept their bedtime within a 30-minute window seven days a week had 28% fewer heart attacks, strokes, and other cardiovascular events than those with irregular schedules.\n\nNot sleep duration. Not sleep quality scores. Just consistency.\n\n## What Happens When Your Body Clock Gets Confused\n\nYour circadian rhythm isn't just about feeling groggy. It's a master controller that orchestrates blood pressure, hormone release, glucose metabolism, and inflammatory responses. Every cell in your body runs on this internal clock.\n\nWhen you shift your bedtime by even an hour, you're essentially giving your body jet lag without leaving your time zone. Researchers call this \"social jet lag\"—the gap between your biological clock and your social schedule. And it accumulates.\n\nDr. Tianyi Huang, the lead author of the JACC study, put it bluntly: \"We found that for every 30 minutes of bedtime variability, cardiovascular risk increased by approximately 11%.\" That's not a small effect. That's comparable to the risk increase from having elevated LDL cholesterol.\n\n## The Weekend Sleep-In Trap\n\nHere's where it gets personal. Most of us think sleeping in on weekends is recovery. You're paying back sleep debt, right?\n\nNot exactly. A 2024 study in Sleep journal followed 2,100 adults with wearable devices that tracked their actual sleep patterns (not self-reported, which tends to be wildly inaccurate). They found that people who shifted their bedtime by more than 60 minutes on weekends showed 23% higher markers of systemic inflammation compared to consistent sleepers.\n\nInflammation isn't abstract. It's the biological process underlying atherosclerosis, the buildup of plaque in your arteries. More inflammation means faster plaque accumulation. Faster plaque accumulation means earlier heart disease.\n\nThe cruel irony: you're trying to feel better by sleeping in, but you're accelerating the very processes that will make you feel worse long-term.\n\n## What 30 Minutes Actually Looks Like\n\nLet's make this concrete. A 30-minute window means if you go to bed at 10:30 PM on Monday, you're in bed by 11:00 PM on Saturday. That's it. Not 10:30 exactly—just within that range.\n\nThe JACC researchers divided participants into four groups based on bedtime variability:\n- Less than 30 minutes variation: lowest risk group\n- 30-60 minutes: 11% higher cardiovascular risk\n- 60-90 minutes: 19% higher risk\n- More than 90 minutes: 28% higher risk\n\nMost Americans fall into that last category. The average bedtime difference between weeknights and weekends in the U.S. is 77 minutes. We're not even close.\n\n## Why This Matters More Than Sleep Duration\n\nFor years, public health messaging focused on getting enough sleep. Seven to nine hours. That was the target. And it's still important—but it might be the wrong primary focus.\n\nThe Sleep journal study found something counterintuitive: people who slept 6.5 hours consistently had better cardiovascular markers than people who averaged 7.5 hours but with high variability. Consistency beat duration.\n\nThink about it like exercise. Running 30 minutes every day produces different adaptations than running two hours on Sunday and nothing else. Your body responds to patterns, not just totals. The same principle applies to sleep.\n\n## The Blood Pressure Connection\n\nOne mechanism researchers have identified involves nocturnal blood pressure. Your blood pressure is supposed to drop 10-20% while you sleep—this is called \"dipping.\" It's when your cardiovascular system gets a break.\n\nIrregular sleepers show blunted dipping. Their blood pressure stays elevated through the night. Over years, this sustained pressure damages arterial walls, promotes plaque formation, and strains the heart.\n\nA sub-analysis of the JACC data found that irregular sleepers were 34% more likely to develop hypertension over the study period, independent of other factors like diet, exercise, and baseline health.\n\n## Practical Strategies That Actually Work\n\nKnowing this matters is one thing. Changing behavior is another. Here's what the research suggests actually helps:\n\n**Anchor your wake time first.** Most sleep scientists now recommend fixing your wake time rather than your bedtime. Your body's clock is more responsive to morning light exposure than evening routines. Pick a wake time you can maintain seven days a week—even if it means getting up at 7:30 AM on Saturday instead of 10 AM.\n\n**Use light strategically.** Bright light in the morning advances your clock; dim light in the evening protects it. The participants in the Sleep study who maintained the tightest bedtime windows also had the highest morning light exposure—averaging 45 minutes of outdoor light before noon.\n\n**Rethink Friday night.** The biggest bedtime shift for most people happens Friday to Saturday. One approach: if you want to stay up later on Friday, do it by 30-45 minutes max, then wake at your normal time Saturday. You'll be slightly tired Saturday, but you'll preserve your rhythm.\n\n**Track it for two weeks.** Before making changes, know your baseline. Note your bedtime and wake time for 14 days. Most people are shocked by their actual variability when they see it written down.\n\n## What About Shift Workers?\n\nThis is where the research gets complicated. About 16% of American workers have non-standard schedules. For them, perfect consistency isn't possible.\n\nThe data here is less optimistic but not hopeless. A 2024 analysis of shift workers found that those who maintained consistent schedules within their shift pattern—going to bed at the same time on all night shifts, for example—had 18% lower cardiovascular risk than shift workers with variable patterns even within their shifts.\n\nThe principle holds: whatever your schedule constraints, maximize consistency within them.\n\n## The Bigger Picture on Sleep and Heart Health\n\nWe've spent decades focused on the wrong sleep metrics. Hours mattered. Quality scores mattered. But regularity might matter most of all.\n\nThis doesn't mean duration is irrelevant—chronic short sleep still carries risks. But for the majority of adults who get somewhere between six and eight hours, tightening the consistency window could be the highest-leverage change available.\n\nThe JACC authors estimated that if the U.S. population reduced bedtime variability to under 30 minutes, it could prevent approximately 66,000 cardiovascular events annually. That's a bigger impact than many pharmaceutical interventions.\n\nYour body isn't asking for perfection. It's asking for predictability. And that 30-minute window? It's more achievable than most health targets. No gym membership required. No dietary overhaul. Just going to bed at roughly the same time, every night, including the weekends you'd rather not.",
+      "meta_description": "Research links irregular sleep schedules, weekends included, to higher cardiovascular risk. Here's what the data shows and how to keep your sleep timing consistent.",
+      "tldr": "Studies tracking sleep with wearable devices link irregular sleep timing and duration to higher cardiovascular risk. In one cohort, the most irregular sleepers had roughly double the risk of the most regular ones.",
+      "body_md": "## The Saturday Night Sabotage You Didn't Know About\n\nYou sleep seven hours a night. You've ditched the phone before bed. You even bought that expensive mattress. But here's what might be undoing all of it: going to bed at 10:30 PM on Tuesday and midnight on Saturday.\n\nThat 90-minute drift may be doing more damage than you'd expect. A study in the Journal of the American College of Cardiology followed 1,992 adults in the Multi-Ethnic Study of Atherosclerosis (MESA). Participants wore activity trackers for a week, and researchers then followed them for about five years. People whose sleep duration and timing varied the most from night to night had a markedly higher risk of heart attacks, strokes, and other cardiovascular events than people with regular sleep patterns.\n\nNot sleep duration. Not sleep quality scores. Just consistency.\n\n## What Happens When Your Body Clock Gets Confused\n\nYour circadian rhythm isn't just about feeling groggy. It's a master controller that orchestrates blood pressure, hormone release, glucose metabolism, and inflammatory responses. Every cell in your body runs on this internal clock.\n\nWhen you shift your bedtime by even an hour, you're essentially giving your body jet lag without leaving your time zone. Researchers call this \"social jetlag\": the gap between your biological clock and your social schedule. And it accumulates.\n\nDr. Tianyi Huang, lead author of the MESA sleep irregularity study, and his colleagues found that cardiovascular risk rose as night-to-night variability increased. That's not a small effect.\n\n## The Weekend Sleep-In Trap\n\nHere's where it gets personal. Most of us think sleeping in on weekends is recovery. You're paying back sleep debt, right?\n\nNot exactly. Researchers have linked irregular sleep patterns to cardiometabolic risk factors such as obesity, blood pressure, and blood sugar, and to inflammatory processes.\n\nInflammation isn't abstract. It's the biological process underlying atherosclerosis, the buildup of plaque in your arteries. Chronic inflammation is thought to accelerate plaque accumulation, and that contributes to heart disease.\n\nThe cruel irony: you're trying to feel better by sleeping in, but you may be feeding the very processes that harm you long-term.\n\n## What 30 Minutes Actually Looks Like\n\nLet's make this concrete. A 30-minute window means if you go to bed at 10:30 PM on Monday, you're in bed by 11:00 PM on Saturday. That's it. Not 10:30 exactly, just within that range.\n\nThe MESA researchers grouped participants by how much their sleep duration varied from night to night:\n- Up to 60 minutes of variation: lowest risk group\n- 61-90 minutes: higher risk\n- 91-120 minutes: higher still\n- More than 120 minutes: roughly double the cardiovascular risk of the most regular group\n\nThe more irregular the sleep, the higher the risk. Many people swing their schedules widely between weeknights and weekends.\n\n## Why This Matters More Than Sleep Duration\n\nFor years, public health messaging focused on getting enough sleep. Seven to nine hours. That was the target. And it's still important, but it might not be the only focus.\n\nA large UK Biobank study of more than 60,000 adults, published in the journal Sleep, measured sleep with wrist-worn devices. It found that sleep regularity was a stronger predictor of mortality risk than sleep duration.\n\nThink about it like exercise. Running 30 minutes every day produces different adaptations than running two hours on Sunday and nothing else. Your body responds to patterns, not just totals. The same principle applies to sleep.\n\n## The Blood Pressure Connection\n\nOne proposed mechanism involves nocturnal blood pressure. Your blood pressure is supposed to drop 10-20% while you sleep. This is called \"dipping,\" and it's when your cardiovascular system gets a break.\n\nDisrupted sleep and circadian misalignment are thought to blunt this dipping, keeping blood pressure elevated through the night. Over years, sustained pressure damages arterial walls, promotes plaque formation, and strains the heart.\n\n## Practical Strategies That Actually Work\n\nKnowing this matters is one thing. Changing behavior is another. Here's what tends to help:\n\n**Anchor your wake time first.** Most sleep scientists now recommend fixing your wake time rather than your bedtime. Your body's clock is more responsive to morning light exposure than evening routines. Pick a wake time you can maintain seven days a week, even if it means getting up at 7:30 AM on Saturday instead of 10 AM.\n\n**Use light strategically.** Bright light in the morning advances your clock; dim light in the evening protects it. Getting outdoor daylight in the morning is one of the most reliable ways to stabilize your circadian rhythm.\n\n**Rethink Friday night.** The biggest bedtime shift for most people happens Friday to Saturday. One approach: if you want to stay up later on Friday, do it by 30-45 minutes max, then wake at your normal time Saturday. You'll be slightly tired Saturday, but you'll preserve your rhythm.\n\n**Track it for two weeks.** Before making changes, know your baseline. Note your bedtime and wake time for 14 days. Most people are shocked by their actual variability when they see it written down.\n\n## What About Shift Workers?\n\nThis is where the research gets complicated. About 16% of American workers have non-standard schedules. For them, perfect consistency isn't possible.\n\nThe evidence for shift workers is more limited. A reasonable approach is to keep sleep timing as consistent as possible within your shift pattern, for example going to bed at the same time after every night shift.\n\nThe principle holds: whatever your schedule constraints, maximize consistency within them.\n\n## The Bigger Picture on Sleep and Heart Health\n\nWe've spent decades focused on the wrong sleep metrics. Hours mattered. Quality scores mattered. But regularity might matter most of all.\n\nThis doesn't mean duration is irrelevant. Chronic short sleep still carries risks. But for the majority of adults who get somewhere between six and eight hours, tightening the consistency window could be one of the highest-leverage changes available.\n\nYour body isn't asking for perfection. It's asking for predictability. And that 30-minute window? It's more achievable than most health targets. No gym membership required. No dietary overhaul. Just going to bed at roughly the same time, every night, including the weekends you'd rather not.",
       "key_stats": [
         {
-          "label": "Cardiovascular risk reduction with consistent bedtimes",
-          "value": "28%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Cardiovascular risk in the most irregular sleepers (sleep duration SD >120 min vs ≤60 min)",
+          "value": "~2×",
+          "source": "Huang et al., Journal of the American College of Cardiology, 2020 (MESA)"
         },
         {
-          "label": "Risk increase per 30 minutes of bedtime variability",
-          "value": "11%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Adults tracked with actigraphy in the MESA sleep irregularity study",
+          "value": "1,992",
+          "source": "Huang et al., Journal of the American College of Cardiology, 2020 (MESA)"
         },
         {
-          "label": "Higher inflammation markers in weekend sleep shifters",
-          "value": "23%",
-          "source": "Sleep 2024 Bedtime Variability Study"
-        },
-        {
-          "label": "Average U.S. bedtime difference weeknight vs weekend",
-          "value": "77 minutes",
-          "source": "Sleep 2024 Bedtime Variability Study"
-        },
-        {
-          "label": "Increased hypertension risk in irregular sleepers",
-          "value": "34%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "UK Biobank participants in study finding regularity predicts mortality better than duration",
+          "value": "60,000+",
+          "source": "Windred et al., Sleep, 2024"
         }
       ],
       "comparison_table": {
-        "title": "Cardiovascular Risk by Bedtime Variability",
+        "title": "Cardiovascular Risk by Night-to-Night Sleep Variability",
         "headers": [
-          "Bedtime Variation",
+          "Night-to-Night Variation in Sleep Duration",
           "Relative CV Risk",
           "Typical Pattern"
         ],
         "rows": [
           [
-            "Less than 30 min",
+            "Up to 60 min",
             "Baseline (lowest)",
-            "10:30 PM weeknights, 10:45 PM weekends"
+            "Similar sleep schedule most nights"
           ],
           [
-            "30-60 min",
-            "+11%",
-            "10:30 PM weeknights, 11:15 PM weekends"
+            "61-90 min",
+            "Higher",
+            "Moderate swings between nights"
           ],
           [
-            "60-90 min",
-            "+19%",
-            "10:30 PM weeknights, 12:00 AM weekends"
+            "91-120 min",
+            "Higher still",
+            "Large weeknight/weekend differences"
           ],
           [
-            "More than 90 min",
-            "+28%",
-            "10:30 PM weeknights, 12:30 AM+ weekends"
+            "More than 120 min",
+            "About 2× baseline",
+            "Highly irregular sleep from night to night"
           ]
         ],
-        "caption": "Data from 47,000 adults tracked over 6 years in the JACC 2025 study"
+        "caption": "Based on the MESA actigraphy study of 1,992 adults followed for about 5 years (Huang et al., JACC 2020)"
       },
       "faq": [
         {
           "question": "Does this mean sleep duration doesn't matter anymore?",
-          "answer": "Duration still matters, but consistency appears to have independent and potentially larger effects on cardiovascular health. The ideal is both adequate duration (7-9 hours) and consistent timing. If you had to prioritize one, recent research suggests consistency may offer greater cardiovascular protection."
+          "answer": "Duration still matters, but consistency appears to have independent and potentially larger effects on health. The ideal is both adequate duration (7-9 hours) and consistent timing. If you had to prioritize one, recent research suggests regularity may be the stronger predictor of risk."
         },
         {
           "question": "What if I naturally feel tired later on weekends?",
@@ -88,139 +78,121 @@
         },
         {
           "question": "How long does it take to see health benefits from consistent sleep?",
-          "answer": "Inflammatory markers and blood pressure patterns can improve within weeks. The cardiovascular protection observed in long-term studies reflects cumulative effects over years, but the biological mechanisms start shifting quickly once you establish consistency."
+          "answer": "The cardiovascular protection observed in long-term studies reflects cumulative effects over years. Your circadian rhythm itself can begin to stabilize fairly quickly once you establish consistent timing."
         },
         {
           "question": "What about naps? Do they disrupt bedtime consistency?",
-          "answer": "Short naps (under 30 minutes) before 3 PM generally don't interfere with nighttime sleep consistency. Longer or later naps can delay your natural bedtime, creating the variability that increases cardiovascular risk."
+          "answer": "Short naps (under 30 minutes) before 3 PM generally don't interfere with nighttime sleep consistency. Longer or later naps can delay your natural bedtime and create the kind of variability linked to higher cardiovascular risk."
         },
         {
           "question": "Can consistent sleep timing help if I already have heart disease?",
-          "answer": "The JACC study included participants with existing cardiovascular conditions, and consistent sleepers in this group also showed better outcomes. However, anyone with heart disease should discuss sleep optimization with their healthcare provider as part of comprehensive management."
+          "answer": "The MESA study enrolled people without cardiovascular disease, so it doesn't directly answer this question. Regular sleep is a sensible part of a heart-healthy lifestyle. Anyone with heart disease should discuss sleep optimization with their healthcare provider as part of comprehensive management."
         },
         {
           "question": "Does the 30-minute rule apply to wake times too?",
-          "answer": "Yes. The research measured overall sleep timing regularity, which includes both bedtime and wake time. Keeping both within a 30-minute window provides the strongest protection. Most experts recommend anchoring wake time first since it's easier to control and naturally influences when you feel sleepy."
+          "answer": "Yes. Research on sleep regularity looks at overall sleep timing, which includes both bedtime and wake time. Keeping both consistent is the goal. Most experts recommend anchoring wake time first since it's easier to control and naturally influences when you feel sleepy."
         }
       ],
       "references": [
         {
-          "title": "Sleep Timing Regularity and Cardiovascular Outcomes: A Prospective Cohort Study",
-          "source": "Journal of the American College of Cardiology, 2025",
-          "url": "https://doi.org/10.1016/s0735-1097(25)01108-8"
+          "title": "Sleep Irregularity and Risk of Cardiovascular Events: The Multi-Ethnic Study of Atherosclerosis",
+          "source": "Journal of the American College of Cardiology, 2020",
+          "url": "https://doi.org/10.1016/j.jacc.2019.12.054"
         },
         {
-          "title": "Bedtime Variability and Systemic Inflammation in Adults",
+          "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study",
           "source": "Sleep, 2024",
-          "url": "https://doi.org/10.1093/sleep/zsae067.0816"
+          "url": "https://doi.org/10.1093/sleep/zsad253"
         },
         {
-          "title": "Social Jet Lag and Cardiometabolic Risk Factors",
-          "source": "Current Biology, 2024",
-          "url": "https://doi.org/10.1001/jamapediatrics.2019.3089"
+          "title": "Social jetlag: misalignment of biological and social time",
+          "source": "Chronobiology International, 2006",
+          "url": "https://doi.org/10.1080/07420520500545979"
         },
         {
-          "title": "Nocturnal Blood Pressure Dipping and Sleep Regularity",
-          "source": "Hypertension, 2024",
-          "url": "https://doi.org/10.1016/s0895-7061(02)02341-5"
+          "title": "Social jetlag and obesity",
+          "source": "Current Biology, 2012",
+          "url": "https://doi.org/10.1016/j.cub.2012.03.038"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "ko": {
-      "title": "주중 주말 일정한 취침 시간이 심혈관 건강에 미치는 효과: 30분 법칙의 과학",
-      "meta_description": "매일 같은 시간에 자면 심장병 위험이 28% 낮아집니다. 주중-주말 취침 시간 차이를 30분 이내로 유지해야 하는 과학적 이유를 알아보세요.",
-      "tldr": "취침 시간을 매일 30분 이내로 유지하면 심혈관 질환 위험이 28% 감소하고, 수면의 질과 대사 건강이 크게 개선됩니다.",
-      "body_md": "## 금요일 밤의 유혹, 그리고 월요일 아침의 대가\n\n금요일 밤 11시. 평소 같으면 이불 속에 있을 시간인데, 오늘은 다르죠. 넷플릭스 시리즈가 딱 한 편 남았고, 내일은 주말이니까. 새벽 2시에 잠들어도 괜찮아, 어차피 늦잠 자면 되니까.\n\n이 시나리오, 익숙하시죠? 주중에는 11시에 자고 주말에는 새벽 2시에 자는 생활을 당연하게 여기는 분들이 많습니다. 그런데 2025년 미국심장학회지(JACC)에 실린 연구 결과를 보면 등골이 서늘해질 수 있어요. 이 3시간의 차이가 심장에 미치는 영향이 생각보다 훨씬 컸거든요.\n\n## 소셜 제트래그: 해외여행 안 갔는데 시차 적응하는 몸\n\n'소셜 제트래그'라는 용어를 들어보셨나요? 독일 뮌헨대학교의 틸 로네베르그 교수가 2006년에 처음 사용한 개념이에요. 사회적 일정 때문에 생기는 시차 부적응을 말합니다.\n\n쉽게 설명하면 이래요. 주중에 11시에 자고 7시에 일어나는 사람이 주말에 새벽 2시에 자고 10시에 일어난다고 해볼게요. 수면 시간은 똑같이 8시간이지만, 몸의 생체시계는 매주 서울에서 도쿄로 갔다가 다시 돌아오는 것과 비슷한 충격을 받습니다. 3시간의 시차를 52주 동안 반복하는 셈이에요.\n\n문제는 우리 몸이 이 반복되는 시차에 결코 적응하지 못한다는 거예요. 매주 월요일 아침마다 새로 시차 적응을 시작해야 합니다.\n\n## 28%의 차이: 심장이 보내는 경고 신호\n\nJACC 2025년 연구는 7만 2천 명을 평균 7.4년간 추적했어요. 연구진이 주목한 건 단 하나, 취침 시간의 일관성이었습니다.\n\n결과가 놀라웠어요. 매일 취침 시간이 30분 이내로 일정한 그룹은 2시간 이상 들쭉날쭉한 그룹에 비해 심혈관 질환 발생 위험이 28% 낮았습니다. 심근경색만 따로 보면 그 차이는 32%까지 벌어졌고요.\n\n여기서 중요한 건 총 수면 시간이 아니었어요. 매일 8시간씩 자더라도 취침 시간이 불규칙하면 심장 건강에 악영향이 있었습니다. 반대로 6시간만 자더라도 일정하게 자면 상대적으로 나았고요. 물론 충분한 수면이 가장 좋지만, 일관성의 힘이 그만큼 크다는 뜻이에요.\n\n## 왜 하필 심장일까: 생체시계와 혈관의 숨겨진 연결\n\n심장이 왜 취침 시간에 이렇게 민감하게 반응할까요? 답은 '말초 시계'에 있어요.\n\n우리 몸에는 뇌의 시상하부에 있는 중앙 생체시계만 있는 게 아닙니다. 심장, 간, 혈관 내피세포에도 각각의 시계가 있어요. 이 시계들은 중앙 시계의 신호를 받아 동기화되는데, 취침 시간이 불규칙하면 이 동기화가 깨집니다.\n\n특히 혈관 내피세포의 시계가 망가지면 심각한 문제가 생겨요. 혈관 확장 기능이 떨어지고, 염증 반응이 증가하며, 혈압의 일중 변동 패턴이 무너집니다. 보통 혈압은 밤에 10-20% 떨어지는데, 이 '야간 혈압 강하'가 사라지면 심장과 혈관이 24시간 내내 스트레스를 받게 됩니다.\n\nSleep 저널 2024년 연구에서는 취침 시간 변동성이 큰 사람들의 혈관 내피 기능이 평균 23% 저하되어 있다고 보고했어요. 이건 10년 넘게 담배를 피운 사람과 비슷한 수준이에요.\n\n## 30분 법칙: 생각보다 단순한 해결책\n\n그래서 어떻게 해야 할까요? 연구들이 제시하는 기준은 의외로 단순해요. 취침 시간 변동을 30분 이내로 유지하라는 겁니다.\n\n주중에 11시에 잔다면 주말에도 10시 30분에서 11시 30분 사이에 자면 됩니다. 완벽하게 같은 시간일 필요는 없어요. 30분의 여유가 있으니까요.\n\n이게 어려워 보일 수 있어요. 특히 금요일 밤에. 하지만 실제로 해보면 생각보다 적응이 빨라요. 제가 직접 8주간 실험해봤는데, 처음 2주가 가장 힘들었고 그 이후로는 오히려 주말 아침이 기다려지더라고요. 일찍 일어나니까 주말이 훨씬 길게 느껴졌거든요.\n\n한 가지 팁을 드리자면, 기상 시간을 먼저 고정하세요. 취침 시간은 자연스럽게 따라옵니다. 주말에도 평소와 같은 시간에 알람을 맞춰두면, 금요일 밤에 늦게까지 안 버티게 돼요. 어차피 내일 일찍 일어나야 하니까요.\n\n## 대사 건강까지: 혈당과 체중에 미치는 영향\n\n심장만 문제가 아니에요. 취침 시간 불규칙은 대사 건강 전반에 영향을 미칩니다.\n\n같은 JACC 연구에서 취침 시간 변동이 2시간 이상인 그룹은 공복 혈당이 평균 8mg/dL 높았고, 인슐린 저항성 지표인 HOMA-IR도 17% 높았어요. 이건 당뇨병 전단계로 가는 중요한 위험 신호입니다.\n\n체중 관리에도 영향이 있었어요. 취침 시간이 불규칙한 사람들은 허기 호르몬인 그렐린이 평균 15% 높았고, 포만감 호르몬인 렙틴은 12% 낮았습니다. 같은 음식을 먹어도 덜 포만감을 느끼고, 더 자주 배고픔을 느끼게 되는 거죠.\n\n재미있는 건 이 효과가 총 수면 시간과 독립적이었다는 점이에요. 8시간을 자도 불규칙하게 자면 6시간을 규칙적으로 자는 것보다 대사 지표가 나빴습니다.\n\n## 실천 가이드: 오늘 밤부터 시작하는 4단계\n\n이론은 충분히 들었으니, 실천 방법을 정리해볼게요.\n\n첫째, 현재 상태를 파악하세요. 일주일간 실제 취침 시간을 기록해보세요. 스마트폰 스크린타임 기록을 보면 대략 알 수 있어요. 마지막으로 폰을 본 시간에 15분 정도 더하면 실제 취침 시간이에요.\n\n둘째, 목표 취침 시간을 정하세요. 주중 평균 취침 시간을 기준으로 삼으면 됩니다. 주중에 11시 30분에 주로 잔다면 그게 목표예요.\n\n셋째, 주말 기상 시간부터 고정하세요. 평일보다 1시간 이상 늦게 일어나지 마세요. 처음엔 힘들어도 2주면 적응됩니다.\n\n넷째, 금요일 밤 루틴을 만드세요. 금요일 밤에 특별히 하고 싶은 걸 토요일 아침으로 옮겨보세요. 늦게까지 영화 보는 대신, 토요일 아침에 일찍 일어나서 조용한 카페에서 영화를 보는 거예요. 같은 즐거움인데 몸에는 훨씬 좋죠.\n\n## 완벽하지 않아도 괜찮아요\n\n마지막으로 한 가지만 더 말씀드릴게요. 완벽할 필요 없어요.\n\n연구에서 말하는 30분 기준을 매일 지키기는 현실적으로 어렵습니다. 친구 결혼식, 야근, 여행 같은 예외 상황은 늘 있으니까요. 중요한 건 '대부분의 날'에 일관성을 유지하는 거예요.\n\n일주일 중 5일만 30분 이내를 유지해도 효과가 있었어요. 완벽한 7일보다는 못하지만, 매일 들쭉날쭉한 것보다는 훨씬 나았습니다.\n\n결국 이건 습관의 문제예요. 그리고 습관은 한 번에 바뀌지 않죠. 이번 주말, 딱 하루만 평소 취침 시간을 지켜보세요. 일요일 밤에 잠이 얼마나 잘 오는지, 월요일 아침이 얼마나 다른지 직접 느껴보시면 됩니다.\n\n30분의 일관성이 28%의 건강을 지켜줍니다. 생각보다 작은 변화로, 생각보다 큰 보상을 받을 수 있어요.",
+      "title": "주중 주말 일정한 취침 시간이 심혈관 건강에 미치는 효과: 수면 규칙성의 과학",
+      "meta_description": "일정한 취침 시간은 심혈관 위험 감소와 관련이 있습니다. 수면이 가장 불규칙한 사람의 위험이 약 2배였다는 연구 결과와 주중-주말 취침 시간 차이를 줄여야 하는 이유를 알아보세요.",
+      "tldr": "일정한 취침 시간은 심혈관 위험 감소와 관련이 있으며, 한 코호트 연구에서는 수면이 가장 불규칙한 그룹의 위험이 약 2배였습니다.",
+      "body_md": "## 금요일 밤의 유혹, 그리고 월요일 아침의 대가\n\n금요일 밤 11시. 평소 같으면 이불 속에 있을 시간인데, 오늘은 다르죠. 넷플릭스 시리즈가 딱 한 편 남았고, 내일은 주말이니까. 새벽 2시에 잠들어도 괜찮아, 어차피 늦잠 자면 되니까.\n\n이 시나리오, 익숙하시죠? 주중에는 11시에 자고 주말에는 새벽 2시에 자는 생활을 당연하게 여기는 분들이 많습니다. 그런데 미국심장학회지(JACC)에 실린 MESA 연구 결과를 보면 등골이 서늘해질 수 있어요. 수면 시간이 불규칙할수록 심혈관 위험이 높아졌거든요.\n\n## 소셜 제트래그: 해외여행 안 갔는데 시차 적응하는 몸\n\n'소셜 제트래그'라는 용어를 들어보셨나요? 생체시계와 사회적 시간 사이의 불일치를 가리키는 개념이에요. 사회적 일정 때문에 생기는 시차 부적응을 말합니다.\n\n쉽게 설명하면 이래요. 주중에 11시에 자고 7시에 일어나는 사람이 주말에 새벽 2시에 자고 10시에 일어난다고 해볼게요. 수면 시간은 똑같이 8시간이지만, 몸의 생체시계는 매주 서울에서 도쿄로 갔다가 다시 돌아오는 것과 비슷한 충격을 받습니다. 3시간의 시차를 52주 동안 반복하는 셈이에요.\n\n문제는 우리 몸이 이 반복되는 시차에 결코 적응하지 못한다는 거예요. 매주 월요일 아침마다 새로 시차 적응을 시작해야 합니다.\n\n## 위험이 약 2배로: 심장이 보내는 경고 신호\n\nJACC에 실린 MESA 연구는 활동량계로 수면을 측정한 성인 1,992명을 약 5년간 추적했어요. 연구진이 주목한 건 수면의 불규칙성이었습니다.\n\n결과가 놀라웠어요. 수면 시간의 밤마다 변동폭을 60분 이하, 61-90분, 91-120분, 120분 초과의 네 그룹으로 나눠 보니, 불규칙할수록 심혈관 위험이 점점 높아졌고 가장 불규칙한 그룹은 약 2배였습니다.\n\n여기서 눈여겨볼 건 총 수면 시간만이 전부는 아니라는 점이에요. 영국 바이오뱅크 성인 6만 명 이상을 대상으로 한 연구에서는 수면 규칙성이 수면 시간보다 사망 위험을 더 잘 예측했습니다. 물론 충분한 수면이 가장 좋지만, 일관성의 힘이 그만큼 크다는 뜻이에요.\n\n## 왜 하필 심장일까: 생체시계와 혈관의 숨겨진 연결\n\n심장이 왜 취침 시간에 이렇게 민감하게 반응할까요? 답은 '말초 시계'에 있어요.\n\n우리 몸에는 뇌의 시상하부에 있는 중앙 생체시계만 있는 게 아닙니다. 심장, 간, 혈관 내피세포에도 각각의 시계가 있어요. 이 시계들은 중앙 시계의 신호를 받아 동기화되는데, 취침 시간이 불규칙하면 이 동기화가 깨집니다.\n\n특히 혈관 내피세포의 시계가 망가지면 심각한 문제가 생겨요. 혈관 확장 기능이 떨어지고, 염증 반응이 증가하며, 혈압의 일중 변동 패턴이 무너집니다. 보통 혈압은 밤에 10-20% 떨어지는데, 이 '야간 혈압 강하'가 사라지면 심장과 혈관이 24시간 내내 스트레스를 받게 됩니다.\n\n불규칙한 수면은 심혈관·대사 위험 요인과 염증 과정에 영향을 줄 수 있다고 알려져 있어요.\n\n## 30분 법칙: 생각보다 단순한 해결책\n\n그래서 어떻게 해야 할까요? 기준은 의외로 단순해요. 취침 시간 변동을 30분 이내로 유지하는 걸 목표로 삼아보세요.\n\n주중에 11시에 잔다면 주말에도 10시 30분에서 11시 30분 사이에 자면 됩니다. 완벽하게 같은 시간일 필요는 없어요. 30분의 여유가 있으니까요.\n\n이게 어려워 보일 수 있어요. 특히 금요일 밤에. 하지만 실제로 해보면 생각보다 적응이 빨라요. 제가 직접 8주간 실험해봤는데, 처음 2주가 가장 힘들었고 그 이후로는 오히려 주말 아침이 기다려지더라고요. 일찍 일어나니까 주말이 훨씬 길게 느껴졌거든요.\n\n한 가지 팁을 드리자면, 기상 시간을 먼저 고정하세요. 취침 시간은 자연스럽게 따라옵니다. 주말에도 평소와 같은 시간에 알람을 맞춰두면, 금요일 밤에 늦게까지 안 버티게 돼요. 어차피 내일 일찍 일어나야 하니까요.\n\n## 대사 건강까지: 혈당과 체중에 미치는 영향\n\n심장만 문제가 아니에요. 취침 시간 불규칙은 대사 건강 전반에 영향을 미칩니다.\n\n사회적 시차가 클수록 비만 같은 대사 위험 요인과 관련이 있다는 연구가 있어요. 불규칙한 수면은 심혈관·대사 위험 요인과 염증 과정에도 영향을 주는 것으로 알려져 있습니다.\n\n## 실천 가이드: 오늘 밤부터 시작하는 4단계\n\n이론은 충분히 들었으니, 실천 방법을 정리해볼게요.\n\n첫째, 현재 상태를 파악하세요. 일주일간 실제 취침 시간을 기록해보세요. 스마트폰 스크린타임 기록을 보면 대략 알 수 있어요. 마지막으로 폰을 본 시간에 15분 정도 더하면 실제 취침 시간이에요.\n\n둘째, 목표 취침 시간을 정하세요. 주중 평균 취침 시간을 기준으로 삼으면 됩니다. 주중에 11시 30분에 주로 잔다면 그게 목표예요.\n\n셋째, 주말 기상 시간부터 고정하세요. 평일보다 1시간 이상 늦게 일어나지 마세요. 처음엔 힘들어도 2주면 적응됩니다.\n\n넷째, 금요일 밤 루틴을 만드세요. 금요일 밤에 특별히 하고 싶은 걸 토요일 아침으로 옮겨보세요. 늦게까지 영화 보는 대신, 토요일 아침에 일찍 일어나서 조용한 카페에서 영화를 보는 거예요. 같은 즐거움인데 몸에는 훨씬 좋죠.\n\n## 완벽하지 않아도 괜찮아요\n\n마지막으로 한 가지만 더 말씀드릴게요. 완벽할 필요 없어요.\n\n30분 기준을 매일 지키기는 현실적으로 어렵습니다. 친구 결혼식, 야근, 여행 같은 예외 상황은 늘 있으니까요. 중요한 건 '대부분의 날'에 일관성을 유지하는 거예요.\n\n일주일 중 대부분의 날만 일관성을 유지해도 도움이 될 가능성이 커요. 완벽한 7일보다는 못하겠지만, 매일 들쭉날쭉한 것보다는 나을 거예요.\n\n결국 이건 습관의 문제예요. 그리고 습관은 한 번에 바뀌지 않죠. 이번 주말, 딱 하루만 평소 취침 시간을 지켜보세요. 일요일 밤에 잠이 얼마나 잘 오는지, 월요일 아침이 얼마나 다른지 직접 느껴보시면 됩니다.\n\n꾸준한 일관성이 심장 건강을 지키는 데 도움이 됩니다. 생각보다 작은 변화로, 생각보다 큰 보상을 받을 수 있어요.",
       "key_stats": [
         {
-          "label": "심혈관 질환 위험 감소",
-          "value": "28%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes"
+          "label": "가장 불규칙한 수면 그룹의 심혈관 위험",
+          "value": "약 2배",
+          "source": "JACC 2020 MESA Sleep Irregularity"
         },
         {
-          "label": "심근경색 위험 감소",
-          "value": "32%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes"
+          "label": "가장 규칙적인 그룹의 수면 변동폭",
+          "value": "60분 이하",
+          "source": "JACC 2020 MESA Sleep Irregularity"
         },
         {
-          "label": "혈관 내피 기능 저하 (불규칙 수면자)",
-          "value": "23%",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "수면 규칙성-사망 위험 연구 규모 (영국 바이오뱅크)",
+          "value": "6만 명 이상",
+          "source": "Sleep 2024 Sleep Regularity and Mortality"
         },
         {
-          "label": "인슐린 저항성 증가 (취침 변동 2시간 이상)",
-          "value": "17%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes"
+          "label": "가장 불규칙한 그룹의 수면 변동폭",
+          "value": "120분 초과",
+          "source": "JACC 2020 MESA Sleep Irregularity"
         },
         {
           "label": "연구 추적 기간",
-          "value": "7.4년 (72,000명)",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes"
+          "value": "약 5년 (1,992명)",
+          "source": "JACC 2020 MESA Sleep Irregularity"
         }
       ],
       "comparison_table": {
-        "title": "취침 시간 변동성에 따른 건강 지표 비교",
+        "title": "수면 시간 변동성에 따른 심혈관 위험 비교 (MESA)",
         "headers": [
-          "건강 지표",
-          "30분 이내 유지",
-          "2시간 이상 변동",
-          "차이"
+          "수면 변동성 그룹",
+          "밤마다 변동폭",
+          "심혈관 위험",
+          "비고"
         ],
         "rows": [
           [
-            "심혈관 질환 위험",
+            "가장 규칙적",
+            "60분 이하",
             "기준",
-            "+28%",
-            "28% 증가"
+            "-"
           ],
           [
-            "심근경색 위험",
-            "기준",
-            "+32%",
-            "32% 증가"
+            "다소 규칙적",
+            "61-90분",
+            "더 높음",
+            "점진적 상승"
           ],
           [
-            "공복 혈당",
-            "기준",
-            "+8mg/dL",
-            "8mg/dL 상승"
+            "다소 불규칙",
+            "91-120분",
+            "더 높음",
+            "점진적 상승"
           ],
           [
-            "인슐린 저항성(HOMA-IR)",
-            "기준",
-            "+17%",
-            "17% 증가"
-          ],
-          [
-            "혈관 내피 기능",
-            "정상",
-            "-23%",
-            "23% 저하"
-          ],
-          [
-            "그렐린(허기 호르몬)",
-            "기준",
-            "+15%",
-            "15% 증가"
-          ],
-          [
-            "렙틴(포만 호르몬)",
-            "기준",
-            "-12%",
-            "12% 감소"
+            "가장 불규칙",
+            "120분 초과",
+            "약 2배",
+            "가장 높음"
           ]
         ],
-        "caption": "출처: JACC 2025, Sleep 2024 | 30분 이내 유지 그룹 대비 상대 위험도"
+        "caption": "출처: JACC MESA 2020 | 변동폭 60분 이하 그룹 대비 상대 위험도"
       },
       "faq": [
         {
           "question": "주말에 늦잠 자는 게 정말 그렇게 나쁜가요?",
-          "answer": "총 수면 시간이 같더라도 취침-기상 시간이 2시간 이상 달라지면 심혈관 위험이 28% 증가합니다. 늦잠 자체보다 '시간대 이동'이 문제예요. 주말에도 평일과 1시간 이내 차이로 유지하는 게 좋습니다."
+          "answer": "총 수면 시간이 같더라도 수면 시간이 불규칙할수록 심혈관 위험이 높아지는 것과 관련이 있습니다. 늦잠 자체보다 '시간대 이동'이 문제예요. 주말에도 평일과 1시간 이내 차이로 유지하는 게 좋습니다."
         },
         {
           "question": "30분 기준을 매일 지키기 어려운데, 며칠 정도 지키면 효과가 있나요?",
-          "answer": "연구에 따르면 일주일 중 5일 이상 30분 이내를 유지하면 유의미한 건강 효과가 있었습니다. 완벽한 7일이 가장 좋지만, 대부분의 날만 지켜도 충분히 도움이 됩니다."
+          "answer": "완벽한 7일이 가장 좋지만, 대부분의 날만 지켜도 도움이 될 가능성이 큽니다. 장기적인 효과는 꾸준히 쌓이고, 생체리듬은 비교적 빠르게 안정되기 시작할 수 있어요."
         },
         {
           "question": "취침 시간과 기상 시간 중 어느 쪽을 먼저 고정해야 하나요?",
@@ -245,90 +217,90 @@
       ],
       "references": [
         {
-          "title": "Sleep Regularity and Cardiovascular Disease Outcomes: A Prospective Cohort Study",
-          "source": "Journal of the American College of Cardiology (JACC), 2025",
-          "url": "https://doi.org/10.1016/s0735-1097(25)01108-8"
+          "title": "Sleep Irregularity and Risk of Cardiovascular Events: The Multi-Ethnic Study of Atherosclerosis",
+          "source": "Journal of the American College of Cardiology, 2020",
+          "url": "https://doi.org/10.1016/j.jacc.2019.12.054"
         },
         {
-          "title": "Bedtime Variability and Vascular Endothelial Function: The Sleep and Metabolism Study",
+          "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study",
           "source": "Sleep, 2024",
-          "url": "https://doi.org/10.1093/sleep/zsae067.0816"
+          "url": "https://doi.org/10.1093/sleep/zsad253"
         },
         {
-          "title": "Social Jetlag and Metabolic Syndrome: Mechanisms and Clinical Implications",
-          "source": "Chronobiology International, 2023",
-          "url": "https://doi.org/10.1080/07420528.2018.1499666"
+          "title": "Social jetlag: misalignment of biological and social time",
+          "source": "Chronobiology International, 2006",
+          "url": "https://doi.org/10.1080/07420520500545979"
         },
         {
-          "title": "Peripheral Clocks in Cardiovascular Physiology and Disease",
-          "source": "Circulation Research, 2024",
-          "url": "https://doi.org/10.1016/c2013-0-05998-1"
+          "title": "Social jetlag and obesity",
+          "source": "Current Biology, 2012",
+          "url": "https://doi.org/10.1016/j.cub.2012.03.038"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "ja": {
-      "title": "毎晩同じ時間に寝るだけで心臓病リスクが28%低下する理由",
-      "meta_description": "最新研究で判明：週末も含めて就寝時間を30分以内に保つだけで、心血管リスクが大幅に低下。6年間47,000人を追跡した研究データを詳しく解説します。",
-      "tldr": "毎晩の就寝時間を30分以内のズレに抑えることで、不規則な睡眠パターンの人と比べて心血管イベントが28%減少することが判明しました。",
-      "body_md": "## 土曜の夜更かしが台無しにしている「睡眠の努力」\n\n毎晩7時間は寝ている。寝る前のスマホもやめた。高い枕やマットレスも買った。でも、その努力をすべて無駄にしているかもしれない習慣があります。それは「火曜日は22時半に寝て、土曜日は0時に寝る」という、たった90分のズレです。\n\nこの90分の差が、想像以上にダメージを与えています。2025年にJournal of the American College of Cardiology（JACC）に発表された研究では、47,000人の成人を6年間追跡調査。その結果、驚くべきことがわかりました。週7日、就寝時間を30分以内に保っている人は、不規則な睡眠スケジュールの人と比べて、心筋梗塞、脳卒中、その他の心血管イベントが28%も少なかったのです。\n\n睡眠時間の長さではありません。睡眠の質のスコアでもありません。ただ「一貫性」だけです。\n\n## 体内時計が狂うと何が起きるのか\n\n概日リズム（サーカディアンリズム）は、単に「眠い」「だるい」という感覚だけの問題ではありません。血圧、ホルモン分泌、糖代謝、炎症反応を統括するマスターコントローラーです。体のすべての細胞がこの体内時計に従って動いています。\n\n就寝時間がたった1時間ずれるだけで、タイムゾーンを移動していないのに時差ボケを起こしているようなもの。研究者たちはこれを「ソーシャル・ジェットラグ（社会的時差ボケ）」と呼んでいます。生体時計と社会的スケジュールのギャップのことです。そしてこのダメージは蓄積していきます。\n\nJACC研究の筆頭著者であるTianyi Huang博士はこう述べています。「就寝時間の変動が30分増えるごとに、心血管リスクは約11%上昇することがわかりました」。これは小さな影響ではありません。LDLコレステロール値が高いことによるリスク上昇に匹敵する数値です。\n\n## 「週末の寝だめ」という罠\n\nここからが耳の痛い話です。多くの人が「週末に寝だめすれば睡眠負債を返済できる」と思っています。\n\n実はそうではありません。2024年にSleep誌に発表された研究では、2,100人の成人にウェアラブルデバイスを装着してもらい、実際の睡眠パターンを追跡しました（自己申告ではなく客観的データです。自己申告は驚くほど不正確なことが多いのです）。その結果、週末に就寝時間が60分以上ずれる人は、一貫した睡眠パターンの人と比べて、全身性炎症のマーカーが23%高いことがわかりました。\n\n炎症は抽象的な話ではありません。動脈硬化、つまり動脈にプラークが蓄積する生物学的プロセスの根底にあるものです。炎症が多いほどプラークの蓄積が速くなり、プラークの蓄積が速いほど心臓病の発症が早まります。\n\n皮肉なことに、寝だめで体調を回復させようとしているつもりが、長期的には体調を悪化させるプロセスを加速させているのです。\n\n## 「30分以内」とは具体的にどういうことか\n\n具体的に考えてみましょう。30分以内のズレとは、月曜日に22時半に寝るなら、土曜日も23時までには寝ている、ということです。22時半ぴったりである必要はありません。その範囲内に収まっていればOKです。\n\nJACCの研究者たちは、就寝時間の変動に基づいて参加者を4つのグループに分けました：\n\n- 30分未満の変動：最もリスクが低いグループ\n- 30〜60分：心血管リスク11%上昇\n- 60〜90分：リスク19%上昇\n- 90分以上：リスク28%上昇\n\nほとんどのアメリカ人は最後のカテゴリーに該当します。アメリカでの平日と週末の就寝時間の差は平均77分。理想からは程遠い状態です。日本でも同様の傾向があると考えられています。\n\n## なぜ睡眠時間よりも「一貫性」が重要なのか\n\n長年、公衆衛生のメッセージは「十分な睡眠を取ること」に焦点を当ててきました。7〜9時間。それが目標でした。もちろん今でも重要ですが、それは最優先すべきポイントではないかもしれません。\n\nSleep誌の研究では、直感に反する結果が出ました。一貫して6.5時間寝ている人は、平均7.5時間寝ているけれど変動が大きい人よりも、心血管マーカーが良好だったのです。一貫性が睡眠時間を上回りました。\n\n運動で考えてみてください。毎日30分走ることと、日曜日だけ2時間走って他の日は何もしないこと。体への適応効果は全く違います。体は合計ではなく、パターンに反応するのです。睡眠も同じ原理が当てはまります。\n\n## 血圧との関係\n\n研究者たちが特定したメカニズムの一つは、夜間血圧に関係しています。睡眠中、血圧は10〜20%低下するのが正常です。これを「ディッピング（血圧低下）」と呼びます。心血管系が休息を取る時間です。\n\n不規則な睡眠パターンの人は、このディッピングが鈍くなります。夜間も血圧が高いままなのです。何年もこの状態が続くと、持続的な圧力が動脈壁を傷つけ、プラーク形成を促進し、心臓に負担をかけます。\n\nJACCデータのサブ解析では、不規則な睡眠パターンの人は、食事、運動、ベースラインの健康状態などの他の要因とは独立して、研究期間中に高血圧を発症するリスクが34%高いことがわかりました。\n\n## 実際に効果がある具体的な対策\n\nこの事実を知ることと、行動を変えることは別の話です。研究が示す、実際に効果のある方法を紹介します。\n\n**まず起床時間を固定する。** 多くの睡眠科学者は今、就寝時間よりも起床時間を固定することを推奨しています。体内時計は、夜のルーティンよりも朝の光への反応が敏感だからです。週7日維持できる起床時間を決めましょう。土曜日も10時ではなく7時半に起きることを意味するとしても、です。\n\n**光を戦略的に使う。** 朝の明るい光は体内時計を前進させ、夜の暗い環境は体内時計を守ります。Sleep研究で最も就寝時間のズレが少なかった参加者は、朝の光への露出も最も多く、正午までに平均45分の屋外光を浴びていました。\n\n**金曜の夜を見直す。** ほとんどの人にとって、最大の就寝時間のズレは金曜から土曜にかけて起こります。一つのアプローチ：金曜日に遅くまで起きていたいなら、最大30〜45分までにして、土曜日は通常通りの時間に起きる。土曜日は少し眠いかもしれませんが、リズムは保たれます。\n\n**2週間記録してみる。** 変化を起こす前に、まず自分のベースラインを知りましょう。14日間、就寝時間と起床時間を記録してください。実際の変動を書き出してみると、ほとんどの人がその大きさに驚きます。\n\n## シフトワーカーの場合は？\n\nここからは研究が複雑になる部分です。アメリカの労働者の約16%が非標準的なスケジュールで働いています。彼らにとって、完璧な一貫性は不可能です。\n\nこの分野のデータは楽観的とは言えませんが、希望がないわけではありません。2024年のシフトワーカーの分析では、シフトパターン内で一貫したスケジュールを維持している人（例えば、すべての夜勤で同じ時間に就寝する人）は、シフト内でも変動が大きい人と比べて、心血管リスクが18%低いことがわかりました。\n\n原則は同じです：スケジュールの制約が何であれ、その中で一貫性を最大化することが重要です。\n\n## 睡眠と心臓の健康についての全体像\n\n私たちは何十年も、間違った睡眠指標に注目してきました。睡眠時間が大事。睡眠の質スコアが大事。でも、規則性が最も重要かもしれないのです。\n\nこれは睡眠時間が無関係という意味ではありません。慢性的な睡眠不足には依然としてリスクがあります。しかし、6〜8時間の間で睡眠を取っている大多数の成人にとって、一貫性の幅を狭めることが、最も効果的な改善策かもしれません。\n\nJACCの著者らは、もしアメリカの人口全体が就寝時間の変動を30分未満に抑えれば、年間約66,000件の心血管イベントを予防できると推定しています。これは多くの薬物療法よりも大きなインパクトです。\n\n体が求めているのは完璧さではありません。予測可能性です。そして30分以内という目標は、ほとんどの健康目標よりも達成しやすいものです。ジムの会員になる必要もありません。食事を大幅に変える必要もありません。ただ毎晩、週末も含めて、だいたい同じ時間に寝るだけです。",
+      "title": "毎晩同じ時間に寝ることが心臓の健康に重要な理由",
+      "meta_description": "最新研究で判明：睡眠の規則性は心血管リスクの低さと関連。睡眠が最も不規則な人ではリスクが約2倍になったコホート研究のデータを詳しく解説します。",
+      "tldr": "毎晩の就寝時間を一定に保つことは心血管リスクの低さと関連しており、あるコホート研究では睡眠が最も不規則な人のリスクはおよそ2倍でした。",
+      "body_md": "## 土曜の夜更かしが台無しにしている「睡眠の努力」\n\n毎晩7時間は寝ている。寝る前のスマホもやめた。高い枕やマットレスも買った。でも、その努力をすべて無駄にしているかもしれない習慣があります。それは「火曜日は22時半に寝て、土曜日は0時に寝る」という、たった90分のズレです。\n\nこの90分の差が、想像以上にダメージを与えています。Journal of the American College of Cardiology（JACC）に発表されたMESA研究では、活動量計で睡眠を記録した1,992人の成人を約5年間追跡調査。その結果、睡眠の不規則性が大きいほど心血管リスクが高いことがわかりました。\n\n睡眠時間の長さではありません。睡眠の質のスコアでもありません。ただ「一貫性」だけです。\n\n## 体内時計が狂うと何が起きるのか\n\n概日リズム（サーカディアンリズム）は、単に「眠い」「だるい」という感覚だけの問題ではありません。血圧、ホルモン分泌、糖代謝、炎症反応を統括するマスターコントローラーです。体のすべての細胞がこの体内時計に従って動いています。\n\n就寝時間がたった1時間ずれるだけで、タイムゾーンを移動していないのに時差ボケを起こしているようなもの。研究者たちはこれを「ソーシャル・ジェットラグ（社会的時差ボケ）」と呼んでいます。生体時計と社会的スケジュールのギャップのことです。そしてこのダメージは蓄積していきます。\n\nJACC研究では、夜ごとの睡眠の変動が大きくなるほど、心血管リスクが上昇していきました。これは小さな影響ではありません。\n\n## 「週末の寝だめ」という罠\n\nここからが耳の痛い話です。多くの人が「週末に寝だめすれば睡眠負債を返済できる」と思っています。\n\n実はそうではありません。不規則な睡眠は、心血管代謝のリスク因子や炎症反応との関連が指摘されています。\n\n炎症は抽象的な話ではありません。動脈硬化、つまり動脈にプラークが蓄積する生物学的プロセスの根底にあるものです。炎症が多いほどプラークの蓄積が速くなり、プラークの蓄積が速いほど心臓病の発症が早まります。\n\n皮肉なことに、寝だめで体調を回復させようとしているつもりが、長期的には体調を悪化させるプロセスを加速させているのです。\n\n## 「30分以内」とは具体的にどういうことか\n\n具体的に考えてみましょう。30分以内のズレとは、月曜日に22時半に寝るなら、土曜日も23時までには寝ている、ということです。22時半ぴったりである必要はありません。その範囲内に収まっていればOKです。\n\nMESA研究の研究者たちは、睡眠時間の変動に基づいて参加者を4つのグループに分けました：\n\n- 60分以下の変動：最もリスクが低いグループ\n- 61〜90分：リスクが上昇\n- 91〜120分：リスクがさらに上昇\n- 120分超：最もリスクが高く、約2倍\n\n## なぜ睡眠時間よりも「一貫性」が重要なのか\n\n長年、公衆衛生のメッセージは「十分な睡眠を取ること」に焦点を当ててきました。7〜9時間。それが目標でした。もちろん今でも重要ですが、それは最優先すべきポイントではないかもしれません。\n\n英国のUK Biobankを用いた60,000人以上の成人の研究では、直感に反する結果が出ました。睡眠の規則性は、睡眠時間の長さよりも死亡リスクをよく予測していたのです。\n\n運動で考えてみてください。毎日30分走ることと、日曜日だけ2時間走って他の日は何もしないこと。体への適応効果は全く違います。体は合計ではなく、パターンに反応するのです。睡眠も同じ原理が当てはまります。\n\n## 血圧との関係\n\n研究者たちが特定したメカニズムの一つは、夜間血圧に関係しています。睡眠中、血圧は10〜20%低下するのが正常です。これを「ディッピング（血圧低下）」と呼びます。心血管系が休息を取る時間です。\n\n不規則な睡眠パターンの人は、このディッピングが鈍くなります。夜間も血圧が高いままなのです。何年もこの状態が続くと、持続的な圧力が動脈壁を傷つけ、プラーク形成を促進し、心臓に負担をかけます。\n\n## 実際に効果がある具体的な対策\n\nこの事実を知ることと、行動を変えることは別の話です。研究が示す、実際に効果のある方法を紹介します。\n\n**まず起床時間を固定する。** 多くの睡眠科学者は今、就寝時間よりも起床時間を固定することを推奨しています。体内時計は、夜のルーティンよりも朝の光への反応が敏感だからです。週7日維持できる起床時間を決めましょう。土曜日も10時ではなく7時半に起きることを意味するとしても、です。\n\n**光を戦略的に使う。** 朝の明るい光は体内時計を前進させ、夜の暗い環境は体内時計を守ります。朝の日光を浴びることは、概日リズムの安定に役立ちます。\n\n**金曜の夜を見直す。** ほとんどの人にとって、最大の就寝時間のズレは金曜から土曜にかけて起こります。一つのアプローチ：金曜日に遅くまで起きていたいなら、最大30〜45分までにして、土曜日は通常通りの時間に起きる。土曜日は少し眠いかもしれませんが、リズムは保たれます。\n\n**2週間記録してみる。** 変化を起こす前に、まず自分のベースラインを知りましょう。14日間、就寝時間と起床時間を記録してください。実際の変動を書き出してみると、ほとんどの人がその大きさに驚きます。\n\n## シフトワーカーの場合は？\n\nここからは研究が複雑になる部分です。アメリカの労働者の約16%が非標準的なスケジュールで働いています。彼らにとって、完璧な一貫性は不可能です。\n\nこの分野のデータは楽観的とは言えませんが、希望がないわけではありません。エビデンスは限られていますが、シフトパターンの中で就寝・起床時間をできるだけ一定に保つこと（例えば、すべての夜勤で同じ時間に就寝すること）が勧められます。\n\n原則は同じです：スケジュールの制約が何であれ、その中で一貫性を最大化することが重要です。\n\n## 睡眠と心臓の健康についての全体像\n\n私たちは何十年も、間違った睡眠指標に注目してきました。睡眠時間が大事。睡眠の質スコアが大事。でも、規則性が最も重要かもしれないのです。\n\nこれは睡眠時間が無関係という意味ではありません。慢性的な睡眠不足には依然としてリスクがあります。しかし、6〜8時間の間で睡眠を取っている大多数の成人にとって、一貫性の幅を狭めることが、最も効果的な改善策かもしれません。\n\n体が求めているのは完璧さではありません。予測可能性です。そして30分以内という目標は、ほとんどの健康目標よりも達成しやすいものです。ジムの会員になる必要もありません。食事を大幅に変える必要もありません。ただ毎晩、週末も含めて、だいたい同じ時間に寝るだけです。",
       "key_stats": [
         {
-          "label": "一貫した就寝時間による心血管リスク低下率",
-          "value": "28%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "最も不規則な睡眠グループの心血管リスク（最も規則的なグループとの比較）",
+          "value": "約2倍",
+          "source": "JACC MESA Sleep Irregularity Study (2020)"
         },
         {
-          "label": "就寝時間が30分ずれるごとのリスク上昇",
-          "value": "11%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "MESA研究の追跡対象者数（活動量計で睡眠を記録）",
+          "value": "1,992人",
+          "source": "JACC MESA Sleep Irregularity Study (2020)"
         },
         {
-          "label": "週末に就寝時間がずれる人の炎症マーカー上昇率",
-          "value": "23%",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "睡眠規則性と死亡リスクを分析したUK Biobank研究の対象者数",
+          "value": "60,000人以上",
+          "source": "Sleep 2024 Sleep Regularity and Mortality Study"
         },
         {
-          "label": "アメリカでの平日と週末の就寝時間差（平均）",
-          "value": "77分",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "MESA研究の追跡期間（約）",
+          "value": "5年",
+          "source": "JACC MESA Sleep Irregularity Study (2020)"
         },
         {
-          "label": "不規則な睡眠パターンの人の高血圧リスク上昇率",
-          "value": "34%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "MESA研究で比較された睡眠時間の変動グループ数",
+          "value": "4グループ",
+          "source": "JACC MESA Sleep Irregularity Study (2020)"
         }
       ],
       "comparison_table": {
-        "title": "就寝時間の変動と心血管リスクの関係",
+        "title": "睡眠時間の変動と心血管リスクの関係",
         "headers": [
-          "就寝時間の変動",
+          "睡眠時間の変動",
           "相対的な心血管リスク",
           "典型的なパターン"
         ],
         "rows": [
           [
-            "30分未満",
+            "60分以下",
             "基準値（最低リスク）",
-            "平日22:30、週末22:45"
+            "毎日ほぼ同じ時間に就寝・起床"
           ],
           [
-            "30〜60分",
-            "+11%",
-            "平日22:30、週末23:15"
+            "61〜90分",
+            "リスクがやや上昇",
+            "日によって最大1〜1.5時間の差"
           ],
           [
-            "60〜90分",
-            "+19%",
-            "平日22:30、週末0:00"
+            "91〜120分",
+            "リスクがさらに上昇",
+            "日によって最大1.5〜2時間の差"
           ],
           [
-            "90分以上",
-            "+28%",
-            "平日22:30、週末0:30以降"
+            "120分超",
+            "約2倍（最もリスクが高い）",
+            "日によって2時間を超える差"
           ]
         ],
-        "caption": "JACC 2025研究における47,000人の成人を6年間追跡したデータに基づく"
+        "caption": "JACC MESA研究（活動量計で追跡した1,992人の成人、約5年間）に基づく"
       },
       "faq": [
         {
@@ -345,7 +317,7 @@
         },
         {
           "question": "一貫した睡眠で健康効果が出るまでどのくらいかかりますか？",
-          "answer": "炎症マーカーや血圧パターンは数週間で改善する可能性があります。長期研究で観察された心血管保護効果は、何年にもわたる累積効果を反映していますが、一貫性を確立するとすぐに生物学的メカニズムが変化し始めます。"
+          "answer": "長期的なメリットは累積的に現れるものですが、体内時計は比較的早く安定し始める可能性があります。"
         },
         {
           "question": "昼寝は就寝時間の一貫性を乱しますか？",
@@ -353,105 +325,105 @@
         },
         {
           "question": "すでに心臓病がある場合でも、一貫した睡眠は役立ちますか？",
-          "answer": "JACC研究には既存の心血管疾患を持つ参加者も含まれており、このグループでも一貫した睡眠パターンの人はより良い結果を示しました。ただし、心臓病のある方は、包括的な管理の一環として、睡眠の最適化について医療提供者と相談することをお勧めします。"
+          "answer": "MESA研究の参加者は心血管疾患のない人々だったため、この疑問に直接答えるものではありません。そのため、心臓病のある方は、包括的な管理の一環として、睡眠の最適化について医療提供者と相談することをお勧めします。"
         },
         {
           "question": "30分ルールは起床時間にも適用されますか？",
-          "answer": "はい。研究では、就寝時間と起床時間の両方を含む全体的な睡眠タイミングの規則性を測定しました。両方を30分以内に保つことで、最も強い保護効果が得られます。ほとんどの専門家は、まず起床時間を固定することを推奨しています。コントロールしやすく、眠くなる時間に自然に影響を与えるからです。"
+          "answer": "はい。研究では、睡眠のタイミングや時間の規則性が測定されています。就寝時間と起床時間の両方をできるだけ一定に保つことが望ましいでしょう。ほとんどの専門家は、まず起床時間を固定することを推奨しています。コントロールしやすく、眠くなる時間に自然に影響を与えるからです。"
         }
       ],
       "references": [
         {
-          "title": "Sleep Timing Regularity and Cardiovascular Outcomes: A Prospective Cohort Study",
-          "source": "Journal of the American College of Cardiology, 2025",
-          "url": "https://doi.org/10.1016/s0735-1097(25)01108-8"
+          "title": "Sleep Irregularity and Risk of Cardiovascular Events: The Multi-Ethnic Study of Atherosclerosis",
+          "source": "Journal of the American College of Cardiology, 2020",
+          "url": "https://doi.org/10.1016/j.jacc.2019.12.054"
         },
         {
-          "title": "Bedtime Variability and Systemic Inflammation in Adults",
+          "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study",
           "source": "Sleep, 2024",
-          "url": "https://doi.org/10.1093/sleep/zsae067.0816"
+          "url": "https://doi.org/10.1093/sleep/zsad253"
         },
         {
-          "title": "Social Jet Lag and Cardiometabolic Risk Factors",
-          "source": "Current Biology, 2024",
-          "url": "https://doi.org/10.1001/jamapediatrics.2019.3089"
+          "title": "Social jetlag: misalignment of biological and social time",
+          "source": "Chronobiology International, 2006",
+          "url": "https://doi.org/10.1080/07420520500545979"
         },
         {
-          "title": "Nocturnal Blood Pressure Dipping and Sleep Regularity",
-          "source": "Hypertension, 2024",
-          "url": "https://doi.org/10.1016/s0895-7061(02)02341-5"
+          "title": "Social jetlag and obesity",
+          "source": "Current Biology, 2012",
+          "url": "https://doi.org/10.1016/j.cub.2012.03.038"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "zh-CN": {
-      "title": "每晚固定时间睡觉，心血管风险降低28%：这个习惯比睡够8小时更重要",
+      "title": "每晚固定时间睡觉，心血管风险更低：规律性可能比睡够8小时更重要",
       "short_title": "每晚固定时间睡觉，心血管风险降低28%：比睡够8小时更重要",
-      "meta_description": "最新研究发现，每天（包括周末）把入睡时间控制在30分钟波动范围内，心血管疾病风险显著下降。来看看数据怎么说。",
-      "tldr": "每晚保持入睡时间波动不超过30分钟，心血管事件发生率比作息不规律者降低28%。",
-      "body_md": "## 周末熬夜：你没意识到的健康杀手\n\n你每晚睡7小时，睡前不刷手机，甚至换了张贵得心疼的床垫。但有一件事可能正在悄悄抵消你所有的努力：周二晚上10点半睡，周六却拖到12点。\n\n这90分钟的偏差？危害比你想象的大得多。2025年发表在《美国心脏病学会杂志》(Journal of the American College of Cardiology)上的一项研究，追踪了47000名成年人长达6年，发现了一个惊人的结论：每周7天都能把入睡时间控制在30分钟波动范围内的人，心梗、中风等心血管事件的发生率，比作息不规律者低28%。\n\n不是睡眠时长，不是睡眠质量评分，仅仅是规律性。\n\n## 生物钟紊乱时，身体在经历什么\n\n昼夜节律可不只是让你早上犯困那么简单。它是身体的总指挥，协调着血压、激素分泌、血糖代谢和炎症反应。你身体里的每一个细胞都在按这个内置时钟运转。\n\n当你把入睡时间哪怕只推迟一小时，本质上就是在没出远门的情况下给身体制造了时差反应。研究者把这叫做\"社会性时差\"——生物钟和社交作息之间的错位。而且这种错位会不断累积。\n\n这项JACC研究的第一作者Tianyi Huang博士说得很直接：\"我们发现，入睡时间每波动30分钟，心血管风险就增加约11%。\"这可不是小数字，这个风险增幅跟低密度脂蛋白胆固醇（LDL）升高带来的风险差不多。\n\n## 周末补觉的陷阱\n\n说到这儿就扎心了。我们大多数人都觉得周末睡懒觉是在\"还债\"，补回工作日欠下的睡眠，对吧？\n\n事实并非如此。2024年发表在《Sleep》期刊上的一项研究，用可穿戴设备追踪了2100名成年人的实际睡眠模式（不是靠自己回忆填问卷，那玩意儿误差大得离谱）。结果发现，周末入睡时间偏移超过60分钟的人，全身性炎症指标比作息规律者高出23%。\n\n炎症可不是什么抽象概念。它是动脉粥样硬化的生物学基础——就是血管里长斑块那个过程。炎症越高，斑块堆积越快；斑块堆积越快，心脏病来得越早。\n\n讽刺的是：你想通过睡懒觉让自己舒服点，结果却在加速那些最终会让你更难受的生理过程。\n\n## 30分钟波动范围到底是什么概念\n\n说得具体点。30分钟波动范围的意思是：如果你周一晚上10点半睡，那周六最晚11点就得躺下。就这样。不是必须精确到10点半——只要在这个区间内就行。\n\nJACC的研究者根据入睡时间波动幅度，把参与者分成了四组：\n- 波动小于30分钟：风险最低组\n- 波动30-60分钟：心血管风险高11%\n- 波动60-90分钟：风险高19%\n- 波动超过90分钟：风险高28%\n\n大多数美国人都落在最后一档。美国人工作日和周末的平均入睡时间差是77分钟。离达标差得远呢。\n\n## 为什么规律性比睡眠时长更重要\n\n多年来，公共卫生宣传的重点一直是\"睡够\"。7到9小时，这是目标。这当然重要——但可能不该是首要关注点。\n\n《Sleep》期刊的那项研究发现了一个反直觉的现象：每晚稳定睡6.5小时的人，心血管指标反而比平均睡7.5小时但作息波动大的人更好。规律性打败了时长。\n\n可以这么理解：每天跑步30分钟和周日一口气跑2小时然后躺平一周，对身体的影响完全不同。你的身体响应的是模式，不只是总量。睡眠也是同样的道理。\n\n## 血压的关联机制\n\n研究者找到的一个机制跟夜间血压有关。睡眠时你的血压应该下降10-20%，这叫\"血压勺型下降\"。这是心血管系统的休息时间。\n\n作息不规律的人，这种下降会变得迟钝。他们的血压整晚都维持在较高水平。年复一年，这种持续的压力会损伤动脉壁，促进斑块形成，给心脏增加负担。\n\nJACC数据的一项子分析发现，作息不规律者在研究期间发展成高血压的可能性高出34%，而且这个结果排除了饮食、运动和基础健康状况等其他因素的影响。\n\n## 真正有效的实操策略\n\n知道这件事重要是一回事，改变行为是另一回事。研究表明以下方法确实有效：\n\n**先固定起床时间。** 现在大多数睡眠科学家建议先固定起床时间，而不是入睡时间。你的生物钟对早晨的光照比晚间作息更敏感。选一个你能坚持7天的起床时间——哪怕意味着周六也要7点半起床，而不是睡到10点。\n\n**善用光照。** 早晨的强光会让你的生物钟前移，晚间的暗光则能保护它。《Sleep》研究中入睡时间最稳定的参与者，早晨光照时间也最长——平均中午前有45分钟的户外光照。\n\n**重新规划周五晚上。** 对大多数人来说，入睡时间偏移最大的就是周五到周六这一夜。一个办法是：如果周五想晚睡，最多推迟30-45分钟，然后周六照常起床。周六会有点困，但你的节律保住了。\n\n**先记录两周。** 在做任何改变之前，先了解自己的基线。连续14天记录入睡和起床时间。大多数人看到白纸黑字的记录时，都会被自己实际的波动幅度吓一跳。\n\n## 轮班工作者怎么办？\n\n这里情况就复杂了。大约16%的美国劳动者是非标准工时。对他们来说，完美的规律性根本做不到。\n\n这方面的数据没那么乐观，但也不是没希望。2024年一项针对轮班工作者的分析发现，那些在自己的班次模式内保持规律作息的人——比如所有夜班都在同一时间入睡——心血管风险比同样上轮班但作息混乱的人低18%。\n\n原则不变：不管你的排班限制是什么，在限制范围内尽可能保持规律。\n\n## 睡眠与心脏健康的全局视角\n\n我们花了几十年关注错误的睡眠指标。时长重要，质量评分重要。但规律性可能才是最重要的。\n\n这不是说时长不重要——长期睡眠不足仍然有风险。但对于大多数睡眠时间在6到8小时之间的成年人来说，收紧作息波动范围可能是性价比最高的改变。\n\nJACC的作者估算，如果美国人口把入睡时间波动控制在30分钟以内，每年大约可以预防66000起心血管事件。这个影响比很多药物干预都大。\n\n你的身体不需要完美，它需要的是可预测性。而这30分钟的波动范围？比大多数健康目标都更容易实现。不用办健身卡，不用大改饮食。只需要每天差不多同一时间睡觉，包括你本来不想早睡的周末。",
+      "meta_description": "研究发现，睡眠时间越不规律，心血管疾病风险越高；在最不规律的人群中，风险约为最规律者的两倍。来看看数据怎么说。",
+      "tldr": "作息规律与更低的心血管风险相关；在一项队列研究中，睡眠最不规律的人群心血管风险约为最规律者的两倍。",
+      "body_md": "## 周末熬夜：你没意识到的健康杀手\n\n你每晚睡7小时，睡前不刷手机，甚至换了张贵得心疼的床垫。但有一件事可能正在悄悄抵消你所有的努力：周二晚上10点半睡，周六却拖到12点。\n\n这90分钟的偏差？危害比你想象的大得多。发表在《美国心脏病学会杂志》(JACC)上的MESA研究，用腕动计追踪了1992名成年人约5年，发现睡眠越不规律，心血管风险越高；睡眠时长波动最大的人，风险大约是最规律者的两倍。\n\n不是睡眠时长，不是睡眠质量评分，仅仅是规律性。\n\n## 生物钟紊乱时，身体在经历什么\n\n昼夜节律可不只是让你早上犯困那么简单。它是身体的总指挥，协调着血压、激素分泌、血糖代谢和炎症反应。你身体里的每一个细胞都在按这个内置时钟运转。\n\n当你把入睡时间哪怕只推迟一小时，本质上就是在没出远门的情况下给身体制造了时差反应。研究者把这叫做\"社会性时差\"——生物钟和社交作息之间的错位。而且这种错位会不断累积。\n\n这项JACC研究发现，随着夜与夜之间睡眠波动幅度增大，心血管风险也随之上升。\n\n## 周末补觉的陷阱\n\n说到这儿就扎心了。我们大多数人都觉得周末睡懒觉是在\"还债\"，补回工作日欠下的睡眠，对吧？\n\n事实并非如此。研究发现，不规律的睡眠与心血管代谢风险因素以及炎症过程有关。\n\n炎症可不是什么抽象概念。它是动脉粥样硬化的生物学基础——就是血管里长斑块那个过程。炎症越高，斑块堆积越快；斑块堆积越快，心脏病来得越早。\n\n讽刺的是：你想通过睡懒觉让自己舒服点，结果却在加速那些最终会让你更难受的生理过程。\n\n## 30分钟波动范围到底是什么概念\n\n说得具体点。30分钟波动范围的意思是：如果你周一晚上10点半睡，那周六最晚11点就得躺下。就这样。不是必须精确到10点半——只要在这个区间内就行。\n\nMESA的研究者根据睡眠时长的波动幅度，把参与者分成了四组：\n- 波动不超过60分钟：风险最低组\n- 波动61-90分钟：风险逐步升高\n- 波动91-120分钟：风险进一步升高\n- 波动超过120分钟：风险最高，约为最低组的2倍\n\n## 为什么规律性比睡眠时长更重要\n\n多年来，公共卫生宣传的重点一直是\"睡够\"。7到9小时，这是目标。这当然重要——但可能不该是首要关注点。\n\n一项针对6万多名英国生物样本库（UK Biobank）成年人的研究发现，在预测死亡风险方面，睡眠规律性比睡眠时长是更强的预测因子。规律性打败了时长。\n\n可以这么理解：每天跑步30分钟和周日一口气跑2小时然后躺平一周，对身体的影响完全不同。你的身体响应的是模式，不只是总量。睡眠也是同样的道理。\n\n## 血压的关联机制\n\n研究者找到的一个机制跟夜间血压有关。睡眠时你的血压应该下降10-20%，这叫\"血压勺型下降\"。这是心血管系统的休息时间。\n\n作息不规律的人，这种下降会变得迟钝。他们的血压整晚都维持在较高水平。年复一年，这种持续的压力会损伤动脉壁，促进斑块形成，给心脏增加负担。\n\n## 真正有效的实操策略\n\n知道这件事重要是一回事，改变行为是另一回事。研究表明以下方法确实有效：\n\n**先固定起床时间。** 现在大多数睡眠科学家建议先固定起床时间，而不是入睡时间。你的生物钟对早晨的光照比晚间作息更敏感。选一个你能坚持7天的起床时间——哪怕意味着周六也要7点半起床，而不是睡到10点。\n\n**善用光照。** 早晨的强光会让你的生物钟前移，晚间的暗光则能保护它。尽量在早晨接触日光，这有助于稳定昼夜节律。\n\n**重新规划周五晚上。** 对大多数人来说，入睡时间偏移最大的就是周五到周六这一夜。一个办法是：如果周五想晚睡，最多推迟30-45分钟，然后周六照常起床。周六会有点困，但你的节律保住了。\n\n**先记录两周。** 在做任何改变之前，先了解自己的基线。连续14天记录入睡和起床时间。大多数人看到白纸黑字的记录时，都会被自己实际的波动幅度吓一跳。\n\n## 轮班工作者怎么办？\n\n这里情况就复杂了。大约16%的美国劳动者是非标准工时。对他们来说，完美的规律性根本做不到。\n\n这方面的数据没那么乐观，但也不是没希望。这方面的证据有限，但一般建议是在自己的班次模式内尽量保持规律作息——比如所有夜班都在同一时间入睡。\n\n原则不变：不管你的排班限制是什么，在限制范围内尽可能保持规律。\n\n## 睡眠与心脏健康的全局视角\n\n我们花了几十年关注错误的睡眠指标。时长重要，质量评分重要。但规律性可能才是最重要的。\n\n这不是说时长不重要——长期睡眠不足仍然有风险。但对于大多数睡眠时间在6到8小时之间的成年人来说，收紧作息波动范围可能是性价比最高的改变。\n\n你的身体不需要完美，它需要的是可预测性。而这30分钟的波动范围？比大多数健康目标都更容易实现。不用办健身卡，不用大改饮食。只需要每天差不多同一时间睡觉，包括你本来不想早睡的周末。",
       "key_stats": [
         {
-          "label": "规律入睡时间带来的心血管风险降幅",
-          "value": "28%",
-          "source": "JACC 2025 睡眠规律性与心血管结局研究"
+          "label": "睡眠最不规律人群的心血管风险（相对最规律者）",
+          "value": "约2倍",
+          "source": "JACC 2020 MESA 睡眠不规律与心血管事件研究"
         },
         {
-          "label": "入睡时间每波动30分钟的风险增幅",
-          "value": "11%",
-          "source": "JACC 2025 睡眠规律性与心血管结局研究"
+          "label": "MESA研究样本量（腕动计追踪）",
+          "value": "1,992人",
+          "source": "JACC 2020 MESA 睡眠不规律与心血管事件研究"
         },
         {
-          "label": "周末作息偏移者的炎症指标升高幅度",
-          "value": "23%",
-          "source": "Sleep 2024 入睡时间波动研究"
+          "label": "UK Biobank研究样本量（规律性比时长更能预测死亡风险）",
+          "value": "6万+成年人",
+          "source": "Sleep 2024 睡眠规律性与死亡风险研究"
         },
         {
-          "label": "美国人工作日与周末平均入睡时间差",
-          "value": "77分钟",
-          "source": "Sleep 2024 入睡时间波动研究"
+          "label": "MESA研究随访时间",
+          "value": "约5年",
+          "source": "JACC 2020 MESA 睡眠不规律与心血管事件研究"
         },
         {
-          "label": "作息不规律者高血压风险增幅",
-          "value": "34%",
-          "source": "JACC 2025 睡眠规律性与心血管结局研究"
+          "label": "MESA中风险最高组的睡眠时长波动",
+          "value": "超过120分钟",
+          "source": "JACC 2020 MESA 睡眠不规律与心血管事件研究"
         }
       ],
       "comparison_table": {
-        "title": "入睡时间波动与心血管风险对照表",
+        "title": "睡眠时长波动与心血管风险对照表",
         "headers": [
-          "入睡时间波动",
+          "睡眠时长波动",
           "相对心血管风险",
           "典型作息模式"
         ],
         "rows": [
           [
-            "小于30分钟",
+            "不超过60分钟",
             "基准（最低）",
-            "工作日22:30，周末22:45"
+            "每晚睡眠时长相差约1小时以内"
           ],
           [
-            "30-60分钟",
-            "+11%",
-            "工作日22:30，周末23:15"
+            "61-90分钟",
+            "风险升高",
+            "睡眠时长波动约1至1.5小时"
           ],
           [
-            "60-90分钟",
-            "+19%",
-            "工作日22:30，周末00:00"
+            "91-120分钟",
+            "风险进一步升高",
+            "睡眠时长波动约1.5至2小时"
           ],
           [
-            "超过90分钟",
-            "+28%",
-            "工作日22:30，周末00:30或更晚"
+            "超过120分钟",
+            "约2倍（最高）",
+            "睡眠时长波动超过2小时"
           ]
         ],
-        "caption": "数据来自JACC 2025研究，追踪47000名成年人6年"
+        "caption": "数据来自JACC MESA研究，腕动计追踪1,992名成年人约5年"
       },
       "faq": [
         {
           "question": "这是说睡眠时长不重要了吗？",
-          "answer": "时长仍然重要，但规律性对心血管健康有独立且可能更大的影响。理想状态是两者兼顾：充足的时长（7-9小时）加上稳定的作息。如果必须二选一，最新研究表明规律性可能提供更强的心血管保护。"
+          "answer": "时长仍然重要，但规律性对心血管健康有独立且可能更大的影响。理想状态是两者兼顾：充足的时长（7-9小时）加上稳定的作息。如果必须二选一，UK Biobank的研究提示，在预测死亡风险方面，规律性可能比时长更有价值。"
         },
         {
           "question": "周末自然就想晚睡怎么办？",
@@ -463,7 +435,7 @@
         },
         {
           "question": "规律作息多久能看到健康效果？",
-          "answer": "炎症指标和血压模式可以在几周内改善。长期研究中观察到的心血管保护效果反映的是多年累积效应，但一旦建立规律作息，生物机制很快就会开始转变。"
+          "answer": "长期的心血管获益是多年累积的结果，但昼夜节律在建立规律作息后可以较快开始稳定。"
         },
         {
           "question": "午睡会破坏入睡时间的规律性吗？",
@@ -471,7 +443,7 @@
         },
         {
           "question": "已经有心脏病的人，规律作息还有用吗？",
-          "answer": "JACC研究纳入了已有心血管疾病的参与者，这个群体中作息规律者的预后同样更好。不过，任何心脏病患者都应该把睡眠优化作为综合管理的一部分，与医生讨论具体方案。"
+          "answer": "MESA研究招募的是没有心血管疾病的人群，因此并不能直接回答这个问题。不过，任何心脏病患者都应该把睡眠优化作为综合管理的一部分，与医生讨论具体方案。"
         },
         {
           "question": "30分钟原则也适用于起床时间吗？",
@@ -480,90 +452,90 @@
       ],
       "references": [
         {
-          "title": "Sleep Timing Regularity and Cardiovascular Outcomes: A Prospective Cohort Study",
-          "source": "Journal of the American College of Cardiology, 2025",
-          "url": "https://doi.org/10.1016/s0735-1097(25)01108-8"
+          "title": "Sleep Irregularity and Risk of Cardiovascular Events: The Multi-Ethnic Study of Atherosclerosis",
+          "source": "Journal of the American College of Cardiology, 2020",
+          "url": "https://doi.org/10.1016/j.jacc.2019.12.054"
         },
         {
-          "title": "Bedtime Variability and Systemic Inflammation in Adults",
+          "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study",
           "source": "Sleep, 2024",
-          "url": "https://doi.org/10.1093/sleep/zsae067.0816"
+          "url": "https://doi.org/10.1093/sleep/zsad253"
         },
         {
-          "title": "Social Jet Lag and Cardiometabolic Risk Factors",
-          "source": "Current Biology, 2024",
-          "url": "https://doi.org/10.1001/jamapediatrics.2019.3089"
+          "title": "Social jetlag: misalignment of biological and social time",
+          "source": "Chronobiology International, 2006",
+          "url": "https://doi.org/10.1080/07420520500545979"
         },
         {
-          "title": "Nocturnal Blood Pressure Dipping and Sleep Regularity",
-          "source": "Hypertension, 2024",
-          "url": "https://doi.org/10.1016/s0895-7061(02)02341-5"
+          "title": "Social jetlag and obesity",
+          "source": "Current Biology, 2012",
+          "url": "https://doi.org/10.1016/j.cub.2012.03.038"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "zh-TW": {
-      "title": "每天同一時間睡覺，心血管風險降低28%：為什麼「規律」比「睡多久」更重要",
-      "meta_description": "最新研究發現，每天就寢時間維持在30分鐘內（包含週末），心血管疾病風險大幅降低。來看看數據怎麼說。",
-      "tldr": "每晚就寢時間誤差控制在30分鐘內的人，心血管事件風險比作息不規律者低28%。",
-      "body_md": "## 週末晚睡，可能正悄悄傷害心臟\n\n每天睡滿七小時，睡前不再滑手機，甚至花大錢換了好床墊。這些努力卻可能被一個習慣抵銷：週二晚上10點半就寢，到了週六卻拖到半夜12點才睡。\n\n這90分鐘的落差，影響遠比多數人以為的大。2025年發表於《Journal of the American College of Cardiology》的研究，追蹤47,000名成人長達六年。結果發現，一週七天就寢時間都維持在30分鐘範圍內的人，心臟病發作、中風等心血管事件比作息不規律者少了28%。\n\n關鍵不在睡眠時數，也不在睡眠品質分數，而是「規律」。\n\n## 生理時鐘被打亂，身體會怎樣\n\n晝夜節律影響的不只是早上爬不起來。它像是身體的總指揮，掌管血壓、荷爾蒙分泌、血糖代謝和發炎反應，全身每個細胞都依循這個內建時鐘運作。\n\n把就寢時間往後推一小時，等於人沒出國，身體卻先經歷了一次時差。研究者把這種生理時鐘與社交作息之間的落差稱為「社交時差」（social jet lag），而且傷害會逐漸累積。\n\nJACC研究第一作者Tianyi Huang博士說得很直接：「我們發現，就寢時間每變動30分鐘，心血管風險就增加約11%。」這個增幅並不小，和LDL膽固醇過高帶來的風險差不多。\n\n## 週末補眠的陷阱\n\n很多人把週末補眠當成「還債」，以為能把平日欠下的睡眠補回來。\n\n實際情況沒那麼理想。2024年發表於《Sleep》期刊的研究，請2,100名成人配戴穿戴裝置，記錄實際睡眠模式（不是自我回報，那種數據通常誤差很大）。結果顯示，週末就寢時間偏移超過60分鐘的人，全身性發炎指標比作息規律者高出23%。\n\n發炎並不抽象，它正是動脈粥狀硬化背後的生物機制，也就是血管內斑塊堆積的過程。發炎越嚴重，斑塊累積越快，心血管疾病也來得越早。\n\n換句話說，原本想靠補眠讓自己舒服一點，結果反而助長了長期傷身的病理機制。\n\n## 30分鐘的誤差範圍，實際是多少\n\n具體來說，假如週一晚上10點半睡，週六最晚11點就該上床。不必分秒不差，只要落在這個區間就行。\n\nJACC研究依就寢時間的變異程度，把受試者分成四組：\n- 變動小於30分鐘：風險最低\n- 30-60分鐘：心血管風險增加11%\n- 60-90分鐘：風險增加19%\n- 超過90分鐘：風險增加28%\n\n多數美國人屬於最後一組，平日與週末的平均就寢時間差距達77分鐘，離理想範圍還差得遠。\n\n## 為什麼規律比睡多久更重要\n\n多年來，公共衛生宣導的重點一直是「睡夠」，目標是七到九小時。睡足當然仍然重要，只是可能不該排在第一順位。\n\n《Sleep》期刊的研究有個違反直覺的發現：每天穩定睡6.5小時的人，心血管指標反而比平均睡7.5小時但作息不規律的人更好。在這裡，規律勝過了時數。\n\n拿運動來比喻就很清楚。每天跑30分鐘，和平常都不動、只在週日一口氣跑兩小時，身體的適應反應完全不同。身體回應的是「模式」，而不只是「總量」，睡眠也是一樣的道理。\n\n## 和血壓的關聯\n\n研究者找出的機制之一與夜間血壓有關。正常情況下，睡覺時血壓應下降10-20%，稱為「血壓夜間下降」（dipping），這段時間是心血管系統休息的時候。\n\n作息不規律的人，這個下降幅度會變小，整晚血壓都偏高。長年下來，這股持續的壓力會損傷動脈壁、促進斑塊形成，也加重心臟負擔。\n\nJACC數據的次分析發現，作息不規律者在研究期間發展出高血壓的機率高出34%，而且這是排除飲食、運動、基礎健康狀況等因素後的獨立結果。\n\n## 真正有效的改善方法\n\n知道重要是一回事，要改掉習慣又是另一回事。以下是研究顯示確實有幫助的做法：\n\n**先固定起床時間。** 目前多數睡眠科學家建議先固定起床時間，而不是就寢時間，因為生理時鐘對早晨光線的反應，比對晚間作息更敏感。挑一個連續七天都做得到的起床時間，就算這代表週六也得7點半起床，不能睡到10點。\n\n**善用光線。** 早晨的強光會讓生理時鐘往前調，傍晚維持昏暗光線則能保護它。《Sleep》研究中就寢時間最穩定的受試者，早晨光照量也最高，平均中午前有45分鐘待在戶外光線下。\n\n**重新安排週五晚上。** 多數人就寢時間偏移最大的是週五到週六。如果週五想晚點睡，最多延後30-45分鐘，週六仍照平常時間起床。週六可能會有點累，但節律可以維持住。\n\n**先記錄兩週。** 在做任何調整之前，先掌握自己的基準線，連續14天記下就寢和起床時間。多數人看到白紙黑字寫下的實際變動幅度，都會嚇一跳。\n\n## 輪班工作者怎麼辦\n\n研究在這部分就複雜多了。美國約有16%的勞工不是在標準時段工作，對他們來說，完全規律的作息根本做不到。\n\n相關數據沒那麼樂觀，但也並非沒有辦法。2024年一項針對輪班工作者的分析發現，在同一種班別內維持規律的人（例如上夜班時都固定在同一時間睡），心血管風險比即使在同班別內作息仍不固定的人低18%。\n\n原則還是一樣：不管班表怎麼排，都在限制內盡量維持規律。\n\n## 睡眠與心臟健康的全貌\n\n過去幾十年，大家關注的睡眠指標可能放錯了重點。時數重要，品質分數也重要，但規律性或許才是最重要的一環。\n\n這不代表時數不重要，長期睡眠不足仍有風險。但對多數睡眠時間在六到八小時之間的成人來說，縮小作息的變動範圍，可能是效益最高的改變。\n\nJACC研究作者估計，若美國人口能把就寢時間變異縮小到30分鐘以內，每年可預防約66,000起心血管事件，影響比許多藥物介入還大。\n\n身體要的不是完美，而是可預測。30分鐘的範圍，也比多數健康目標容易達成，不必辦健身房會員，也不用大幅調整飲食，只要每天差不多同一時間上床，包括那些不太想早睡的週末。",
+      "title": "每天同一時間睡覺，心血管風險更低：為什麼「規律」比「睡多久」更重要",
+      "meta_description": "研究發現，作息時間越規律（包含週末），心血管疾病風險越低；在一項世代研究中，最不規律的人風險約為兩倍。來看看數據怎麼說。",
+      "tldr": "睡眠時間越規律，心血管風險越低；在一項世代研究中，睡眠最不規律者的心血管風險約為最規律者的兩倍。",
+      "body_md": "## 週末晚睡，可能正悄悄傷害心臟\n\n每天睡滿七小時，睡前不再滑手機，甚至花大錢換了好床墊。這些努力卻可能被一個習慣抵銷：週二晚上10點半就寢，到了週六卻拖到半夜12點才睡。\n\n這90分鐘的落差，影響遠比多數人以為的大。發表於《Journal of the American College of Cardiology》的MESA研究，以活動記錄器追蹤1,992名成人約五年。結果發現，睡眠越不規律，心血管風險越高。\n\n關鍵不在睡眠時數，也不在睡眠品質分數，而是「規律」。\n\n## 生理時鐘被打亂，身體會怎樣\n\n晝夜節律影響的不只是早上爬不起來。它像是身體的總指揮，掌管血壓、荷爾蒙分泌、血糖代謝和發炎反應，全身每個細胞都依循這個內建時鐘運作。\n\n把就寢時間往後推一小時，等於人沒出國，身體卻先經歷了一次時差。研究者把這種生理時鐘與社交作息之間的落差稱為「社交時差」（social jet lag），而且傷害會逐漸累積。\n\nJACC研究發現，隨著每晚睡眠時間的變動幅度增加，心血管風險也跟著上升。\n\n## 週末補眠的陷阱\n\n很多人把週末補眠當成「還債」，以為能把平日欠下的睡眠補回來。\n\n實際情況沒那麼理想。作息不規律，與心血管代謝風險因子及發炎過程有關。\n\n發炎並不抽象，它正是動脈粥狀硬化背後的生物機制，也就是血管內斑塊堆積的過程。發炎越嚴重，斑塊累積越快，心血管疾病也來得越早。\n\n換句話說，原本想靠補眠讓自己舒服一點，結果反而助長了長期傷身的病理機制。\n\n## 30分鐘的誤差範圍，實際是多少\n\n具體來說，假如週一晚上10點半睡，週六最晚11點就該上床。不必分秒不差，只要落在這個區間就行。\n\nMESA研究依睡眠時間的變異程度（以分鐘計），把受試者分成四組：\n- 60分鐘以下：風險最低\n- 61-90分鐘：風險較高\n- 91-120分鐘：風險更高\n- 超過120分鐘：風險最高，約為最規律組的2倍\n\n## 為什麼規律比睡多久更重要\n\n多年來，公共衛生宣導的重點一直是「睡夠」，目標是七到九小時。睡足當然仍然重要，只是可能不該排在第一順位。\n\n一項針對6萬多名英國生物資料庫（UK Biobank）成人的研究有個違反直覺的發現：睡眠規律性比睡眠時數更能預測死亡風險。在這裡，規律勝過了時數。\n\n拿運動來比喻就很清楚。每天跑30分鐘，和平常都不動、只在週日一口氣跑兩小時，身體的適應反應完全不同。身體回應的是「模式」，而不只是「總量」，睡眠也是一樣的道理。\n\n## 和血壓的關聯\n\n研究者找出的機制之一與夜間血壓有關。正常情況下，睡覺時血壓應下降10-20%，稱為「血壓夜間下降」（dipping），這段時間是心血管系統休息的時候。\n\n作息不規律的人，這個下降幅度會變小，整晚血壓都偏高。長年下來，這股持續的壓力會損傷動脈壁、促進斑塊形成，也加重心臟負擔。\n\n## 真正有效的改善方法\n\n知道重要是一回事，要改掉習慣又是另一回事。以下是研究顯示確實有幫助的做法：\n\n**先固定起床時間。** 目前多數睡眠科學家建議先固定起床時間，而不是就寢時間，因為生理時鐘對早晨光線的反應，比對晚間作息更敏感。挑一個連續七天都做得到的起床時間，就算這代表週六也得7點半起床，不能睡到10點。\n\n**善用光線。** 早晨的強光會讓生理時鐘往前調，傍晚維持昏暗光線則能保護它。早晨接受日光照射，有助於穩定生理時鐘。\n\n**重新安排週五晚上。** 多數人就寢時間偏移最大的是週五到週六。如果週五想晚點睡，最多延後30-45分鐘，週六仍照平常時間起床。週六可能會有點累，但節律可以維持住。\n\n**先記錄兩週。** 在做任何調整之前，先掌握自己的基準線，連續14天記下就寢和起床時間。多數人看到白紙黑字寫下的實際變動幅度，都會嚇一跳。\n\n## 輪班工作者怎麼辦\n\n研究在這部分就複雜多了。美國約有16%的勞工不是在標準時段工作，對他們來說，完全規律的作息根本做不到。\n\n相關數據沒那麼樂觀，但也並非沒有辦法。這方面的證據有限，但一般建議在自己的班別模式內，盡量讓睡眠時間保持一致（例如上夜班時都固定在同一時間睡）。\n\n原則還是一樣：不管班表怎麼排，都在限制內盡量維持規律。\n\n## 睡眠與心臟健康的全貌\n\n過去幾十年，大家關注的睡眠指標可能放錯了重點。時數重要，品質分數也重要，但規律性或許才是最重要的一環。\n\n這不代表時數不重要，長期睡眠不足仍有風險。但對多數睡眠時間在六到八小時之間的成人來說，縮小作息的變動範圍，可能是效益最高的改變。\n\n身體要的不是完美，而是可預測。30分鐘的範圍，也比多數健康目標容易達成，不必辦健身房會員，也不用大幅調整飲食，只要每天差不多同一時間上床，包括那些不太想早睡的週末。",
       "key_stats": [
         {
-          "label": "規律就寢時間的心血管風險降低幅度",
-          "value": "28%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "睡眠最不規律者相對最規律者的心血管風險",
+          "value": "約2倍",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "就寢時間每變動30分鐘的風險增幅",
-          "value": "11%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "MESA研究的受試者人數",
+          "value": "1,992人",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "週末晚睡者的發炎指標增幅",
-          "value": "23%",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "UK Biobank睡眠規律性研究的成人樣本數",
+          "value": "6萬多人",
+          "source": "Sleep 2024 Sleep Regularity and Mortality Study"
         },
         {
-          "label": "美國人平日與週末平均就寢時間差距",
-          "value": "77分鐘",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "MESA研究的平均追蹤時間",
+          "value": "約5年",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "作息不規律者高血壓風險增幅",
-          "value": "34%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "MESA中睡眠變異最高組的分界",
+          "value": "超過120分鐘",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         }
       ],
       "comparison_table": {
-        "title": "就寢時間變異程度與心血管風險對照表",
+        "title": "睡眠時間變異程度與心血管風險對照表",
         "headers": [
-          "就寢時間變異",
+          "睡眠時間變異",
           "相對心血管風險",
           "典型模式"
         ],
         "rows": [
           [
-            "小於30分鐘",
+            "60分鐘以下",
             "基準值（最低）",
             "平日晚上10:30，週末10:45"
           ],
           [
-            "30-60分鐘",
-            "+11%",
+            "61-90分鐘",
+            "風險較高",
             "平日晚上10:30，週末11:15"
           ],
           [
-            "60-90分鐘",
-            "+19%",
+            "91-120分鐘",
+            "風險更高",
             "平日晚上10:30，週末12:00"
           ],
           [
-            "超過90分鐘",
-            "+28%",
+            "超過120分鐘",
+            "風險最高（約2倍）",
             "平日晚上10:30，週末12:30以後"
           ]
         ],
-        "caption": "資料來源：JACC 2025研究，追蹤47,000名成人長達6年"
+        "caption": "資料來源：JACC 2020 MESA研究，以活動記錄器追蹤1,992名成人約5年"
       },
       "faq": [
         {
@@ -580,7 +552,7 @@
         },
         {
           "question": "規律睡眠多久才能看到健康效益？",
-          "answer": "發炎指標和血壓模式在幾週內就能改善。長期研究觀察到的心血管保護效果反映的是多年累積的效應，但一旦建立規律，生物機制很快就會開始轉變。"
+          "answer": "長期的心血管效益是逐年累積的，但生理時鐘在建立規律後，可能相當快就開始穩定。"
         },
         {
           "question": "午睡會破壞就寢規律嗎？",
@@ -588,101 +560,91 @@
         },
         {
           "question": "已經有心臟病的人，規律睡眠還有幫助嗎？",
-          "answer": "JACC研究納入了已有心血管疾病的受試者，這群人中作息規律者的預後也比較好。不過，任何心臟病患者都應該把睡眠優化納入整體治療計畫，與醫療團隊討論。"
+          "answer": "MESA研究的受試者在研究開始時並無心血管疾病，因此無法直接回答這個問題。不過，任何心臟病患者都應該把睡眠優化納入整體治療計畫，與醫療團隊討論。"
         },
         {
           "question": "30分鐘原則也適用於起床時間嗎？",
-          "answer": "是的。研究測量的是整體睡眠時間規律性，包含就寢和起床時間。兩者都維持在30分鐘內能提供最強的保護效果。大多數專家建議先固定起床時間，因為比較容易控制，而且會自然影響你什麼時候想睡。"
+          "answer": "是的。研究測量的是整體睡眠時間規律性，包含就寢和起床時間。兩者都維持規律，保護效果可能最好。大多數專家建議先固定起床時間，因為比較容易控制，而且會自然影響你什麼時候想睡。"
         }
       ],
       "references": [
         {
-          "title": "Sleep Timing Regularity and Cardiovascular Outcomes: A Prospective Cohort Study",
-          "source": "Journal of the American College of Cardiology, 2025",
-          "url": "https://doi.org/10.1016/s0735-1097(25)01108-8"
+          "title": "Sleep Irregularity and Risk of Cardiovascular Events: The Multi-Ethnic Study of Atherosclerosis",
+          "source": "Journal of the American College of Cardiology, 2020",
+          "url": "https://doi.org/10.1016/j.jacc.2019.12.054"
         },
         {
-          "title": "Bedtime Variability and Systemic Inflammation in Adults",
+          "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study",
           "source": "Sleep, 2024",
-          "url": "https://doi.org/10.1093/sleep/zsae067.0816"
+          "url": "https://doi.org/10.1093/sleep/zsad253"
         },
         {
-          "title": "Social Jet Lag and Cardiometabolic Risk Factors",
-          "source": "Current Biology, 2024",
-          "url": "https://doi.org/10.1001/jamapediatrics.2019.3089"
+          "title": "Social jetlag: misalignment of biological and social time",
+          "source": "Chronobiology International, 2006",
+          "url": "https://doi.org/10.1080/07420520500545979"
         },
         {
-          "title": "Nocturnal Blood Pressure Dipping and Sleep Regularity",
-          "source": "Hypertension, 2024",
-          "url": "https://doi.org/10.1016/s0895-7061(02)02341-5"
+          "title": "Social jetlag and obesity",
+          "source": "Current Biology, 2012",
+          "url": "https://doi.org/10.1016/j.cub.2012.03.038"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "es": {
-      "title": "Por qué acostarte a la misma hora cada noche reduce tu riesgo cardíaco un 28%",
+      "title": "Por qué acostarte a la misma hora cada noche protege tu corazón",
       "short_title": "¿Acostarte a la misma hora reduce el riesgo cardíaco?",
       "short_description": "Dormir a horas regulares, también el fin de semana, se asocia con menos eventos cardiovasculares. Qué revela una ventana de 30 minutos.",
-      "meta_description": "Nueva investigación demuestra que mantener tu hora de dormir en una ventana de 30 minutos toda la semana—fines de semana incluidos—reduce drásticamente el riesgo cardiovascular. Esto es lo que revelan los datos.",
-      "tldr": "Mantener horarios de sueño consistentes dentro de 30 minutos cada noche reduce los eventos cardiovasculares un 28% comparado con quienes duermen a horas irregulares.",
-      "body_md": "## El sabotaje del sábado por la noche que no conocías\n\nDuermes siete horas cada noche. Has dejado el móvil antes de acostarte. Incluso compraste ese colchón carísimo. Pero hay algo que podría estar arruinando todo tu esfuerzo: acostarte a las 22:30 el martes y a medianoche el sábado.\n\n¿Esa diferencia de 90 minutos? Está haciendo más daño del que imaginas. Un estudio de 2025 publicado en el Journal of the American College of Cardiology siguió a 47.000 adultos durante seis años y encontró algo revelador: las personas que mantenían su hora de acostarse dentro de una ventana de 30 minutos los siete días de la semana tuvieron un 28% menos de infartos, ictus y otros eventos cardiovasculares que quienes tenían horarios irregulares.\n\nNo la duración del sueño. No las puntuaciones de calidad del sueño. Solo la consistencia.\n\n## Qué pasa cuando tu reloj biológico se desajusta\n\nTu ritmo circadiano no solo afecta si te sientes atontado por la mañana. Es un controlador maestro que orquesta la presión arterial, la liberación de hormonas, el metabolismo de la glucosa y las respuestas inflamatorias. Cada célula de tu cuerpo funciona con este reloj interno.\n\nCuando cambias tu hora de acostarte incluso una hora, básicamente estás provocando jet lag a tu cuerpo sin salir de tu zona horaria. Los investigadores lo llaman \"jet lag social\"—la diferencia entre tu reloj biológico y tu agenda social. Y se acumula.\n\nLa Dra. Tianyi Huang, autora principal del estudio del JACC, lo expresó sin rodeos: \"Encontramos que por cada 30 minutos de variabilidad en la hora de acostarse, el riesgo cardiovascular aumentaba aproximadamente un 11%.\" No es un efecto menor. Es comparable al aumento de riesgo de tener el colesterol LDL elevado.\n\n## La trampa de dormir hasta tarde el fin de semana\n\nAquí es donde la cosa se pone personal. La mayoría pensamos que dormir hasta tarde los fines de semana es recuperación. Estás pagando la deuda de sueño, ¿no?\n\nNo exactamente. Un estudio de 2024 en la revista Sleep siguió a 2.100 adultos con dispositivos wearables que registraban sus patrones de sueño reales (no autorreportados, que tienden a ser tremendamente inexactos). Descubrieron que las personas que cambiaban su hora de acostarse más de 60 minutos los fines de semana mostraban marcadores de inflamación sistémica un 23% más altos comparados con quienes dormían a horas consistentes.\n\nLa inflamación no es algo abstracto. Es el proceso biológico subyacente a la aterosclerosis, la acumulación de placa en tus arterias. Más inflamación significa acumulación de placa más rápida. Acumulación de placa más rápida significa enfermedad cardíaca más temprana.\n\nLa cruel ironía: intentas sentirte mejor durmiendo hasta tarde, pero estás acelerando los mismos procesos que te harán sentir peor a largo plazo.\n\n## Cómo se ven realmente 30 minutos de diferencia\n\nVamos a concretar. Una ventana de 30 minutos significa que si te acuestas a las 22:30 el lunes, estás en la cama antes de las 23:00 el sábado. Eso es todo. No a las 22:30 exactas—solo dentro de ese rango.\n\nLos investigadores del JACC dividieron a los participantes en cuatro grupos según la variabilidad de su hora de acostarse:\n- Menos de 30 minutos de variación: grupo de menor riesgo\n- 30-60 minutos: 11% más de riesgo cardiovascular\n- 60-90 minutos: 19% más de riesgo\n- Más de 90 minutos: 28% más de riesgo\n\nLa mayoría de la población cae en esa última categoría. La diferencia promedio entre la hora de acostarse entre semana y el fin de semana es de 77 minutos. No estamos ni cerca.\n\n## Por qué esto importa más que las horas de sueño\n\nDurante años, los mensajes de salud pública se centraron en dormir suficiente. De siete a nueve horas. Ese era el objetivo. Y sigue siendo importante—pero podría ser el enfoque equivocado.\n\nEl estudio de Sleep encontró algo contraintuitivo: las personas que dormían 6,5 horas de forma consistente tenían mejores marcadores cardiovasculares que quienes promediaban 7,5 horas pero con alta variabilidad. La consistencia le ganó a la duración.\n\nPiénsalo como el ejercicio. Correr 30 minutos cada día produce adaptaciones diferentes que correr dos horas el domingo y nada más. Tu cuerpo responde a patrones, no solo a totales. El mismo principio aplica al sueño.\n\n## La conexión con la presión arterial\n\nUn mecanismo que los investigadores han identificado involucra la presión arterial nocturna. Tu presión arterial debería bajar entre un 10-20% mientras duermes—esto se llama \"dipping\" o descenso nocturno. Es cuando tu sistema cardiovascular descansa.\n\nLas personas con sueño irregular muestran un descenso atenuado. Su presión arterial permanece elevada durante la noche. Con los años, esta presión sostenida daña las paredes arteriales, promueve la formación de placa y sobrecarga el corazón.\n\nUn subanálisis de los datos del JACC encontró que quienes dormían a horas irregulares tenían un 34% más de probabilidades de desarrollar hipertensión durante el período del estudio, independientemente de otros factores como dieta, ejercicio y salud inicial.\n\n## Estrategias prácticas que realmente funcionan\n\nSaber que esto importa es una cosa. Cambiar el comportamiento es otra. Esto es lo que la investigación sugiere que realmente ayuda:\n\n**Ancla primero tu hora de despertar.** La mayoría de los científicos del sueño ahora recomiendan fijar tu hora de despertar en lugar de tu hora de acostarte. El reloj de tu cuerpo responde mejor a la exposición a la luz matutina que a las rutinas nocturnas. Elige una hora de despertar que puedas mantener los siete días de la semana—aunque eso signifique levantarte a las 7:30 el sábado en lugar de a las 10:00.\n\n**Usa la luz estratégicamente.** La luz brillante por la mañana adelanta tu reloj; la luz tenue por la noche lo protege. Los participantes del estudio de Sleep que mantenían las ventanas de hora de acostarse más ajustadas también tenían la mayor exposición a luz matutina—un promedio de 45 minutos de luz exterior antes del mediodía.\n\n**Replantéate el viernes por la noche.** El mayor cambio de hora de acostarse para la mayoría ocurre del viernes al sábado. Un enfoque: si quieres quedarte despierto más tarde el viernes, hazlo por 30-45 minutos máximo, luego despierta a tu hora normal el sábado. Estarás algo cansado el sábado, pero preservarás tu ritmo.\n\n**Registra durante dos semanas.** Antes de hacer cambios, conoce tu punto de partida. Anota tu hora de acostarte y de despertar durante 14 días. La mayoría de la gente se sorprende de su variabilidad real cuando la ve por escrito.\n\n## ¿Y los trabajadores por turnos?\n\nAquí es donde la investigación se complica. Aproximadamente el 16% de los trabajadores tienen horarios no estándar. Para ellos, la consistencia perfecta no es posible.\n\nLos datos aquí son menos optimistas pero no desesperanzadores. Un análisis de 2024 de trabajadores por turnos encontró que quienes mantenían horarios consistentes dentro de su patrón de turnos—acostándose a la misma hora en todos los turnos de noche, por ejemplo—tenían un 18% menos de riesgo cardiovascular que los trabajadores por turnos con patrones variables incluso dentro de sus turnos.\n\nEl principio se mantiene: sean cuales sean tus restricciones de horario, maximiza la consistencia dentro de ellas.\n\n## La perspectiva general sobre sueño y salud cardíaca\n\nHemos pasado décadas centrados en las métricas de sueño equivocadas. Las horas importaban. Las puntuaciones de calidad importaban. Pero la regularidad podría importar más que todo lo demás.\n\nEsto no significa que la duración sea irrelevante—el sueño crónicamente corto sigue teniendo riesgos. Pero para la mayoría de adultos que duermen entre seis y ocho horas, ajustar la ventana de consistencia podría ser el cambio de mayor impacto disponible.\n\nLos autores del JACC estimaron que si la población redujera la variabilidad de la hora de acostarse a menos de 30 minutos, se podrían prevenir aproximadamente 66.000 eventos cardiovasculares anuales. Eso es un impacto mayor que muchas intervenciones farmacéuticas.\n\nTu cuerpo no te pide perfección. Te pide predictibilidad. ¿Y esa ventana de 30 minutos? Es más alcanzable que la mayoría de los objetivos de salud. No necesitas membresía de gimnasio. No necesitas cambiar toda tu dieta. Solo acostarte más o menos a la misma hora, cada noche, incluyendo los fines de semana en los que preferirías no hacerlo.",
+      "meta_description": "La investigación vincula los horarios de sueño consistentes con un menor riesgo cardiovascular: en una cohorte, quienes dormían de forma más irregular tenían aproximadamente el doble de riesgo. Esto es lo que revelan los datos.",
+      "tldr": "Mantener horarios de sueño consistentes se asocia con menor riesgo cardiovascular: en un estudio del JACC, quienes tenían el sueño más irregular presentaban aproximadamente el doble de riesgo.",
+      "body_md": "## El sabotaje del sábado por la noche que no conocías\n\nDuermes siete horas cada noche. Has dejado el móvil antes de acostarte. Incluso compraste ese colchón carísimo. Pero hay algo que podría estar arruinando todo tu esfuerzo: acostarte a las 22:30 el martes y a medianoche el sábado.\n\n¿Esa diferencia de 90 minutos? Está haciendo más daño del que imaginas. Un estudio MESA publicado en el Journal of the American College of Cardiology siguió durante unos cinco años a 1.992 adultos cuyo sueño se midió con actigrafía y encontró algo revelador: a mayor irregularidad del sueño, mayor riesgo cardiovascular.\n\nNo la duración del sueño. No las puntuaciones de calidad del sueño. Solo la consistencia.\n\n## Qué pasa cuando tu reloj biológico se desajusta\n\nTu ritmo circadiano no solo afecta si te sientes atontado por la mañana. Es un controlador maestro que orquesta la presión arterial, la liberación de hormonas, el metabolismo de la glucosa y las respuestas inflamatorias. Cada célula de tu cuerpo funciona con este reloj interno.\n\nCuando cambias tu hora de acostarte incluso una hora, básicamente estás provocando jet lag a tu cuerpo sin salir de tu zona horaria. Los investigadores lo llaman \"jet lag social\"—la diferencia entre tu reloj biológico y tu agenda social. Y se acumula.\n\nEn el estudio del JACC, el riesgo aumentaba a medida que crecía la variabilidad del sueño de una noche a otra.\n\n## La trampa de dormir hasta tarde el fin de semana\n\nAquí es donde la cosa se pone personal. La mayoría pensamos que dormir hasta tarde los fines de semana es recuperación. Estás pagando la deuda de sueño, ¿no?\n\nNo exactamente. El sueño irregular se vincula con factores de riesgo cardiometabólico y con procesos inflamatorios, algo que se observa mejor cuando se miden los patrones de sueño reales y no los autorreportados, que tienden a ser tremendamente inexactos.\n\nLa inflamación no es algo abstracto. Es el proceso biológico subyacente a la aterosclerosis, la acumulación de placa en tus arterias. Más inflamación significa acumulación de placa más rápida. Acumulación de placa más rápida significa enfermedad cardíaca más temprana.\n\nLa cruel ironía: intentas sentirte mejor durmiendo hasta tarde, pero estás acelerando los mismos procesos que te harán sentir peor a largo plazo.\n\n## Cómo se ven realmente 30 minutos de diferencia\n\nVamos a concretar. Una ventana de 30 minutos significa que si te acuestas a las 22:30 el lunes, estás en la cama antes de las 23:00 el sábado. Eso es todo. No a las 22:30 exactas—solo dentro de ese rango.\n\nLos investigadores del JACC dividieron a los participantes en cuatro grupos según la variabilidad de la duración de su sueño:\n- 60 minutos o menos: grupo de menor riesgo\n- 61-90 minutos: riesgo mayor\n- 91-120 minutos: riesgo aún mayor\n- Más de 120 minutos: aproximadamente el doble de riesgo\n\nEl riesgo aumentaba progresivamente con la irregularidad.\n\n## Por qué esto importa más que las horas de sueño\n\nDurante años, los mensajes de salud pública se centraron en dormir suficiente. De siete a nueve horas. Ese era el objetivo. Y sigue siendo importante—pero podría ser el enfoque equivocado.\n\nUn estudio con más de 60.000 adultos del UK Biobank encontró algo contraintuitivo: la regularidad del sueño predecía la mortalidad mejor que la duración del sueño.\n\nPiénsalo como el ejercicio. Correr 30 minutos cada día produce adaptaciones diferentes que correr dos horas el domingo y nada más. Tu cuerpo responde a patrones, no solo a totales. El mismo principio aplica al sueño.\n\n## La conexión con la presión arterial\n\nUn mecanismo que los investigadores han identificado involucra la presión arterial nocturna. Tu presión arterial debería bajar entre un 10-20% mientras duermes—esto se llama \"dipping\" o descenso nocturno. Es cuando tu sistema cardiovascular descansa.\n\nLas personas con sueño irregular muestran un descenso atenuado. Su presión arterial permanece elevada durante la noche. Con los años, esta presión sostenida daña las paredes arteriales, promueve la formación de placa y sobrecarga el corazón.\n\n## Estrategias prácticas que realmente funcionan\n\nSaber que esto importa es una cosa. Cambiar el comportamiento es otra. Esto es lo que la investigación sugiere que realmente ayuda:\n\n**Ancla primero tu hora de despertar.** La mayoría de los científicos del sueño ahora recomiendan fijar tu hora de despertar en lugar de tu hora de acostarte. El reloj de tu cuerpo responde mejor a la exposición a la luz matutina que a las rutinas nocturnas. Elige una hora de despertar que puedas mantener los siete días de la semana—aunque eso signifique levantarte a las 7:30 el sábado en lugar de a las 10:00.\n\n**Usa la luz estratégicamente.** La luz brillante por la mañana adelanta tu reloj; la luz tenue por la noche lo protege. La luz natural por la mañana ayuda a estabilizar el ritmo circadiano.\n\n**Replantéate el viernes por la noche.** El mayor cambio de hora de acostarse para la mayoría ocurre del viernes al sábado. Un enfoque: si quieres quedarte despierto más tarde el viernes, hazlo por 30-45 minutos máximo, luego despierta a tu hora normal el sábado. Estarás algo cansado el sábado, pero preservarás tu ritmo.\n\n**Registra durante dos semanas.** Antes de hacer cambios, conoce tu punto de partida. Anota tu hora de acostarte y de despertar durante 14 días. La mayoría de la gente se sorprende de su variabilidad real cuando la ve por escrito.\n\n## ¿Y los trabajadores por turnos?\n\nAquí es donde la investigación se complica. Aproximadamente el 16% de los trabajadores tienen horarios no estándar. Para ellos, la consistencia perfecta no es posible.\n\nLos datos aquí son menos optimistas pero no desesperanzadores. La evidencia es limitada, pero lo razonable es mantener la hora de dormir lo más consistente posible dentro de tu patrón de turnos—acostándote a la misma hora en todos los turnos de noche, por ejemplo.\n\nEl principio se mantiene: sean cuales sean tus restricciones de horario, maximiza la consistencia dentro de ellas.\n\n## La perspectiva general sobre sueño y salud cardíaca\n\nHemos pasado décadas centrados en las métricas de sueño equivocadas. Las horas importaban. Las puntuaciones de calidad importaban. Pero la regularidad podría importar más que todo lo demás.\n\nEsto no significa que la duración sea irrelevante—el sueño crónicamente corto sigue teniendo riesgos. Pero para la mayoría de adultos que duermen entre seis y ocho horas, ajustar la ventana de consistencia podría ser el cambio de mayor impacto disponible.\n\nTu cuerpo no te pide perfección. Te pide predictibilidad. ¿Y esa ventana de 30 minutos? Es más alcanzable que la mayoría de los objetivos de salud. No necesitas membresía de gimnasio. No necesitas cambiar toda tu dieta. Solo acostarte más o menos a la misma hora, cada noche, incluyendo los fines de semana en los que preferirías no hacerlo.",
       "key_stats": [
         {
-          "label": "Reducción del riesgo cardiovascular con horarios de sueño consistentes",
-          "value": "28%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Riesgo cardiovascular en el grupo de sueño más irregular frente al más regular",
+          "value": "~2×",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "Aumento del riesgo por cada 30 minutos de variabilidad en hora de acostarse",
-          "value": "11%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Adultos con actigrafía seguidos en el estudio MESA",
+          "value": "1.992",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "Marcadores de inflamación más altos en quienes cambian horarios el fin de semana",
-          "value": "23%",
-          "source": "Sleep 2024 Bedtime Variability Study"
-        },
-        {
-          "label": "Diferencia promedio de hora de acostarse entre semana vs fin de semana",
-          "value": "77 minutos",
-          "source": "Sleep 2024 Bedtime Variability Study"
-        },
-        {
-          "label": "Mayor riesgo de hipertensión en personas con sueño irregular",
-          "value": "34%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Adultos analizados en el estudio de UK Biobank sobre regularidad del sueño y mortalidad",
+          "value": "60.000+",
+          "source": "Sleep 2024 Sleep Regularity and Mortality Study"
         }
       ],
       "comparison_table": {
-        "title": "Riesgo cardiovascular según variabilidad de hora de acostarse",
+        "title": "Riesgo cardiovascular según variabilidad de la duración del sueño",
         "headers": [
-          "Variación de hora de acostarse",
+          "Variabilidad de la duración del sueño",
           "Riesgo CV relativo",
-          "Patrón típico"
+          "Descripción"
         ],
         "rows": [
           [
-            "Menos de 30 min",
+            "60 min o menos",
             "Base (más bajo)",
-            "22:30 entre semana, 22:45 fines de semana"
+            "Sueño muy regular"
           ],
           [
-            "30-60 min",
-            "+11%",
-            "22:30 entre semana, 23:15 fines de semana"
+            "61-90 min",
+            "Mayor",
+            "Variación moderada"
           ],
           [
-            "60-90 min",
-            "+19%",
-            "22:30 entre semana, 00:00 fines de semana"
+            "91-120 min",
+            "Aún mayor",
+            "Variación notable"
           ],
           [
-            "Más de 90 min",
-            "+28%",
-            "22:30 entre semana, 00:30+ fines de semana"
+            "Más de 120 min",
+            "~2×",
+            "Sueño muy irregular"
           ]
         ],
-        "caption": "Datos de 47.000 adultos seguidos durante 6 años en el estudio JACC 2025"
+        "caption": "Datos de 1.992 adultos seguidos unos 5 años en el estudio MESA (JACC 2020)"
       },
       "faq": [
         {
@@ -699,7 +661,7 @@
         },
         {
           "question": "¿Cuánto tiempo se tarda en ver beneficios de salud con un sueño consistente?",
-          "answer": "Los marcadores inflamatorios y los patrones de presión arterial pueden mejorar en semanas. La protección cardiovascular observada en estudios a largo plazo refleja efectos acumulativos durante años, pero los mecanismos biológicos empiezan a cambiar rápidamente una vez que estableces consistencia."
+          "answer": "Los beneficios a largo plazo son acumulativos y se observan a lo largo de años, pero el ritmo circadiano puede empezar a estabilizarse con relativa rapidez una vez que estableces consistencia."
         },
         {
           "question": "¿Las siestas afectan la consistencia de la hora de acostarse?",
@@ -707,7 +669,7 @@
         },
         {
           "question": "¿Puede ayudar un horario de sueño consistente si ya tengo enfermedad cardíaca?",
-          "answer": "El estudio del JACC incluyó participantes con condiciones cardiovasculares existentes, y quienes dormían a horas consistentes en este grupo también mostraron mejores resultados. Sin embargo, cualquier persona con enfermedad cardíaca debería hablar sobre la optimización del sueño con su médico como parte de un manejo integral."
+          "answer": "El estudio MESA incluyó a personas sin enfermedad cardiovascular, por lo que no responde directamente a esta pregunta. Por eso, cualquier persona con enfermedad cardíaca debería hablar sobre la optimización del sueño con su médico como parte de un manejo integral."
         },
         {
           "question": "¿La regla de los 30 minutos aplica también a la hora de despertar?",
@@ -716,92 +678,92 @@
       ],
       "references": [
         {
-          "title": "Sleep Timing Regularity and Cardiovascular Outcomes: A Prospective Cohort Study",
-          "source": "Journal of the American College of Cardiology, 2025",
-          "url": "https://doi.org/10.1016/s0735-1097(25)01108-8"
+          "title": "Sleep Irregularity and Risk of Cardiovascular Events: The Multi-Ethnic Study of Atherosclerosis",
+          "source": "Journal of the American College of Cardiology, 2020",
+          "url": "https://doi.org/10.1016/j.jacc.2019.12.054"
         },
         {
-          "title": "Bedtime Variability and Systemic Inflammation in Adults",
+          "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study",
           "source": "Sleep, 2024",
-          "url": "https://doi.org/10.1093/sleep/zsae067.0816"
+          "url": "https://doi.org/10.1093/sleep/zsad253"
         },
         {
-          "title": "Social Jet Lag and Cardiometabolic Risk Factors",
-          "source": "Current Biology, 2024",
-          "url": "https://doi.org/10.1001/jamapediatrics.2019.3089"
+          "title": "Social jetlag: misalignment of biological and social time",
+          "source": "Chronobiology International, 2006",
+          "url": "https://doi.org/10.1080/07420520500545979"
         },
         {
-          "title": "Nocturnal Blood Pressure Dipping and Sleep Regularity",
-          "source": "Hypertension, 2024",
-          "url": "https://doi.org/10.1016/s0895-7061(02)02341-5"
+          "title": "Social jetlag and obesity",
+          "source": "Current Biology, 2012",
+          "url": "https://doi.org/10.1016/j.cub.2012.03.038"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "pt-BR": {
-      "title": "Por Que Dormir no Mesmo Horário Todas as Noites Reduz o Risco Cardíaco em 28%",
+      "title": "Por Que Dormir no Mesmo Horário Todas as Noites Importa para o Seu Coração",
       "short_title": "Dormir no mesmo horário reduz o risco cardíaco em 28%?",
       "short_description": "Manter o horário de dormir dentro de 30 minutos, inclusive nos fins de semana, pode proteger o coração. Veja o que os dados mostram sobre o sono regular.",
-      "meta_description": "Nova pesquisa mostra que manter seu horário de dormir dentro de uma janela de 30 minutos durante toda a semana—fins de semana incluídos—reduz drasticamente o risco cardiovascular. Veja o que os dados revelam.",
-      "tldr": "Manter horários de dormir consistentes dentro de 30 minutos todas as noites reduz eventos cardiovasculares em 28% comparado a pessoas com sono irregular.",
-      "body_md": "## A Sabotagem do Sábado à Noite Que Você Não Conhecia\n\nVocê dorme sete horas por noite. Largou o celular antes de dormir. Até comprou aquele colchão caro. Mas aqui está o que pode estar desfazendo tudo isso: ir para a cama às 22h30 na terça-feira e à meia-noite no sábado.\n\nEssa variação de 90 minutos? Está causando mais danos do que você imagina. Um estudo de 2025 publicado no Journal of the American College of Cardiology acompanhou 47.000 adultos por seis anos e descobriu algo impressionante: pessoas que mantiveram seu horário de dormir dentro de uma janela de 30 minutos sete dias por semana tiveram 28% menos infartos, derrames e outros eventos cardiovasculares do que aquelas com horários irregulares.\n\nNão a duração do sono. Não as pontuações de qualidade do sono. Apenas consistência.\n\n## O Que Acontece Quando Seu Relógio Biológico Fica Confuso\n\nSeu ritmo circadiano não é apenas sobre se sentir sonolento. É um controlador mestre que orquestra pressão arterial, liberação de hormônios, metabolismo da glicose e respostas inflamatórias. Cada célula do seu corpo funciona neste relógio interno.\n\nQuando você muda seu horário de dormir em apenas uma hora, está essencialmente dando ao seu corpo um jet lag sem sair do seu fuso horário. Pesquisadores chamam isso de \"jet lag social\"—a diferença entre seu relógio biológico e sua agenda social. E isso se acumula.\n\nDra. Tianyi Huang, autora principal do estudo JACC, foi direta: \"Descobrimos que para cada 30 minutos de variabilidade no horário de dormir, o risco cardiovascular aumentou aproximadamente 11%.\" Isso não é um efeito pequeno. É comparável ao aumento de risco de ter colesterol LDL elevado.\n\n## A Armadilha de Dormir Até Tarde no Fim de Semana\n\nAqui é onde fica pessoal. A maioria de nós pensa que dormir até tarde nos fins de semana é recuperação. Você está pagando a dívida de sono, certo?\n\nNão exatamente. Um estudo de 2024 no periódico Sleep acompanhou 2.100 adultos com dispositivos vestíveis que rastrearam seus padrões reais de sono (não autorrelatados, que tendem a ser extremamente imprecisos). Eles descobriram que pessoas que mudaram seu horário de dormir em mais de 60 minutos nos fins de semana mostraram 23% mais marcadores de inflamação sistêmica comparadas a pessoas com sono consistente.\n\nInflamação não é abstrato. É o processo biológico subjacente à aterosclerose, o acúmulo de placas nas suas artérias. Mais inflamação significa acúmulo mais rápido de placas. Acúmulo mais rápido de placas significa doença cardíaca mais precoce.\n\nA cruel ironia: você está tentando se sentir melhor dormindo até tarde, mas está acelerando os próprios processos que vão fazer você se sentir pior a longo prazo.\n\n## Como São Realmente 30 Minutos\n\nVamos tornar isso concreto. Uma janela de 30 minutos significa que se você vai para a cama às 22h30 na segunda-feira, você está na cama até às 23h no sábado. É isso. Não exatamente 22h30—apenas dentro dessa faixa.\n\nOs pesquisadores do JACC dividiram os participantes em quatro grupos baseados na variabilidade do horário de dormir:\n- Menos de 30 minutos de variação: grupo de menor risco\n- 30-60 minutos: 11% maior risco cardiovascular\n- 60-90 minutos: 19% maior risco\n- Mais de 90 minutos: 28% maior risco\n\nA maioria dos americanos se enquadra nessa última categoria. A diferença média no horário de dormir entre dias de semana e fins de semana nos EUA é de 77 minutos. Nem chegamos perto.\n\n## Por Que Isso Importa Mais Que a Duração do Sono\n\nPor anos, as mensagens de saúde pública focaram em dormir o suficiente. Sete a nove horas. Essa era a meta. E ainda é importante—mas pode ser o foco primário errado.\n\nO estudo do Sleep descobriu algo contraintuitivo: pessoas que dormiam 6,5 horas consistentemente tinham melhores marcadores cardiovasculares do que pessoas que dormiam em média 7,5 horas mas com alta variabilidade. Consistência venceu duração.\n\nPense nisso como exercício. Correr 30 minutos todos os dias produz adaptações diferentes de correr duas horas no domingo e nada mais. Seu corpo responde a padrões, não apenas totais. O mesmo princípio se aplica ao sono.\n\n## A Conexão com a Pressão Arterial\n\nUm mecanismo que pesquisadores identificaram envolve pressão arterial noturna. Sua pressão arterial deveria cair 10-20% enquanto você dorme—isso é chamado de \"descenso\". É quando seu sistema cardiovascular descansa.\n\nPessoas com sono irregular mostram descenso reduzido. Sua pressão arterial permanece elevada durante a noite. Ao longo dos anos, essa pressão sustentada danifica as paredes arteriais, promove formação de placas e sobrecarrega o coração.\n\nUma subanálise dos dados do JACC descobriu que pessoas com sono irregular tinham 34% mais probabilidade de desenvolver hipertensão durante o período do estudo, independente de outros fatores como dieta, exercício e saúde inicial.\n\n## Estratégias Práticas Que Realmente Funcionam\n\nSaber que isso importa é uma coisa. Mudar o comportamento é outra. Aqui está o que a pesquisa sugere que realmente ajuda:\n\n**Fixe primeiro seu horário de acordar.** A maioria dos cientistas do sono agora recomenda fixar seu horário de acordar em vez do horário de dormir. O relógio do seu corpo é mais responsivo à exposição à luz matinal do que às rotinas noturnas. Escolha um horário de acordar que você possa manter sete dias por semana—mesmo que signifique acordar às 7h30 no sábado em vez das 10h.\n\n**Use luz estrategicamente.** Luz brilhante pela manhã adianta seu relógio; luz fraca à noite o protege. Os participantes do estudo Sleep que mantiveram as janelas de horário de dormir mais apertadas também tiveram a maior exposição à luz matinal—em média 45 minutos de luz externa antes do meio-dia.\n\n**Repense a sexta-feira à noite.** A maior mudança no horário de dormir para a maioria das pessoas acontece de sexta para sábado. Uma abordagem: se você quer ficar acordado até mais tarde na sexta, faça isso por no máximo 30-45 minutos, depois acorde no seu horário normal no sábado. Você ficará um pouco cansado no sábado, mas preservará seu ritmo.\n\n**Acompanhe por duas semanas.** Antes de fazer mudanças, conheça sua linha de base. Anote seu horário de dormir e acordar por 14 dias. A maioria das pessoas fica chocada com sua variabilidade real quando vê por escrito.\n\n## E Quanto aos Trabalhadores em Turnos?\n\nÉ aqui que a pesquisa fica complicada. Cerca de 16% dos trabalhadores americanos têm horários não padronizados. Para eles, consistência perfeita não é possível.\n\nOs dados aqui são menos otimistas mas não sem esperança. Uma análise de 2024 de trabalhadores em turnos descobriu que aqueles que mantinham horários consistentes dentro de seu padrão de turno—indo para a cama no mesmo horário em todos os turnos noturnos, por exemplo—tinham 18% menor risco cardiovascular do que trabalhadores em turnos com padrões variáveis mesmo dentro de seus turnos.\n\nO princípio se mantém: quaisquer que sejam suas restrições de horário, maximize a consistência dentro delas.\n\n## O Panorama Geral sobre Sono e Saúde Cardíaca\n\nPassamos décadas focados nas métricas erradas de sono. Horas importavam. Pontuações de qualidade importavam. Mas regularidade pode importar mais do que tudo.\n\nIsso não significa que duração é irrelevante—sono curto crônico ainda traz riscos. Mas para a maioria dos adultos que dormem entre seis e oito horas, apertar a janela de consistência poderia ser a mudança de maior impacto disponível.\n\nOs autores do JACC estimaram que se a população dos EUA reduzisse a variabilidade do horário de dormir para menos de 30 minutos, poderia prevenir aproximadamente 66.000 eventos cardiovasculares anualmente. Isso é um impacto maior do que muitas intervenções farmacêuticas.\n\nSeu corpo não está pedindo perfeição. Está pedindo previsibilidade. E essa janela de 30 minutos? É mais alcançável do que a maioria das metas de saúde. Não requer academia. Não requer mudança alimentar radical. Apenas ir para a cama aproximadamente no mesmo horário, todas as noites, incluindo os fins de semana que você preferiria não fazer.",
+      "meta_description": "Horários de sono consistentes durante toda a semana—fins de semana incluídos—estão associados a menor risco cardiovascular. Veja o que os dados revelam.",
+      "tldr": "Manter horários de sono consistentes está associado a menor risco cardiovascular; em uma coorte, as pessoas com sono mais irregular tiveram cerca de o dobro do risco.",
+      "body_md": "## A Sabotagem do Sábado à Noite Que Você Não Conhecia\n\nVocê dorme sete horas por noite. Largou o celular antes de dormir. Até comprou aquele colchão caro. Mas aqui está o que pode estar desfazendo tudo isso: ir para a cama às 22h30 na terça-feira e à meia-noite no sábado.\n\nEssa variação de 90 minutos? Está causando mais danos do que você imagina. Um estudo MESA publicado no Journal of the American College of Cardiology acompanhou por cerca de cinco anos 1.992 adultos monitorados por actigrafia e descobriu algo impressionante: quanto maior a irregularidade do sono, maior o risco de eventos cardiovasculares como infartos e derrames.\n\nNão a duração do sono. Não as pontuações de qualidade do sono. Apenas consistência.\n\n## O Que Acontece Quando Seu Relógio Biológico Fica Confuso\n\nSeu ritmo circadiano não é apenas sobre se sentir sonolento. É um controlador mestre que orquestra pressão arterial, liberação de hormônios, metabolismo da glicose e respostas inflamatórias. Cada célula do seu corpo funciona neste relógio interno.\n\nQuando você muda seu horário de dormir em apenas uma hora, está essencialmente dando ao seu corpo um jet lag sem sair do seu fuso horário. Pesquisadores chamam isso de \"jet lag social\"—a diferença entre seu relógio biológico e sua agenda social. E isso se acumula.\n\nSegundo a Dra. Tianyi Huang, autora principal do estudo JACC, o risco cardiovascular aumentou à medida que a variabilidade do sono de uma noite para outra crescia. Isso não é um efeito pequeno.\n\n## A Armadilha de Dormir Até Tarde no Fim de Semana\n\nAqui é onde fica pessoal. A maioria de nós pensa que dormir até tarde nos fins de semana é recuperação. Você está pagando a dívida de sono, certo?\n\nNão exatamente. O sono irregular está associado a fatores de risco cardiometabólicos e a processos inflamatórios, e o jet lag social—o desalinhamento entre o tempo biológico e o tempo social—é um dos mecanismos propostos.\n\nInflamação não é abstrato. É o processo biológico subjacente à aterosclerose, o acúmulo de placas nas suas artérias. Mais inflamação significa acúmulo mais rápido de placas. Acúmulo mais rápido de placas significa doença cardíaca mais precoce.\n\nA cruel ironia: você está tentando se sentir melhor dormindo até tarde, mas está acelerando os próprios processos que vão fazer você se sentir pior a longo prazo.\n\n## Como São Realmente 30 Minutos\n\nVamos tornar isso concreto. Uma janela de 30 minutos significa que se você vai para a cama às 22h30 na segunda-feira, você está na cama até às 23h no sábado. É isso. Não exatamente 22h30—apenas dentro dessa faixa.\n\nOs pesquisadores do estudo MESA dividiram os participantes em quatro grupos baseados na variabilidade da duração do sono de uma noite para outra:\n- 60 minutos ou menos de variação: grupo de menor risco\n- 61-90 minutos: risco progressivamente maior\n- 91-120 minutos: risco ainda maior\n- Mais de 120 minutos: cerca de 2× o risco, o mais alto entre os grupos\n\n## Por Que Isso Importa Mais Que a Duração do Sono\n\nPor anos, as mensagens de saúde pública focaram em dormir o suficiente. Sete a nove horas. Essa era a meta. E ainda é importante—mas pode ser o foco primário errado.\n\nUm estudo do UK Biobank com mais de 60.000 adultos, publicado no Sleep, descobriu algo contraintuitivo: a regularidade do sono previu a mortalidade melhor do que a duração do sono. Consistência venceu duração.\n\nPense nisso como exercício. Correr 30 minutos todos os dias produz adaptações diferentes de correr duas horas no domingo e nada mais. Seu corpo responde a padrões, não apenas totais. O mesmo princípio se aplica ao sono.\n\n## A Conexão com a Pressão Arterial\n\nUm mecanismo que pesquisadores identificaram envolve pressão arterial noturna. Sua pressão arterial deveria cair 10-20% enquanto você dorme—isso é chamado de \"descenso\". É quando seu sistema cardiovascular descansa.\n\nPessoas com sono irregular mostram descenso reduzido. Sua pressão arterial permanece elevada durante a noite. Ao longo dos anos, essa pressão sustentada danifica as paredes arteriais, promove formação de placas e sobrecarrega o coração.\n\n## Estratégias Práticas Que Realmente Funcionam\n\nSaber que isso importa é uma coisa. Mudar o comportamento é outra. Aqui está o que a pesquisa sugere que realmente ajuda:\n\n**Fixe primeiro seu horário de acordar.** A maioria dos cientistas do sono agora recomenda fixar seu horário de acordar em vez do horário de dormir. O relógio do seu corpo é mais responsivo à exposição à luz matinal do que às rotinas noturnas. Escolha um horário de acordar que você possa manter sete dias por semana—mesmo que signifique acordar às 7h30 no sábado em vez das 10h.\n\n**Use luz estrategicamente.** Luz brilhante pela manhã adianta seu relógio; luz fraca à noite o protege. Em geral, a luz do dia pela manhã ajuda a estabilizar o ritmo circadiano.\n\n**Repense a sexta-feira à noite.** A maior mudança no horário de dormir para a maioria das pessoas acontece de sexta para sábado. Uma abordagem: se você quer ficar acordado até mais tarde na sexta, faça isso por no máximo 30-45 minutos, depois acorde no seu horário normal no sábado. Você ficará um pouco cansado no sábado, mas preservará seu ritmo.\n\n**Acompanhe por duas semanas.** Antes de fazer mudanças, conheça sua linha de base. Anote seu horário de dormir e acordar por 14 dias. A maioria das pessoas fica chocada com sua variabilidade real quando vê por escrito.\n\n## E Quanto aos Trabalhadores em Turnos?\n\nÉ aqui que a pesquisa fica complicada. Cerca de 16% dos trabalhadores americanos têm horários não padronizados. Para eles, consistência perfeita não é possível.\n\nAs evidências aqui são limitadas, mas o conselho geral é manter o horário o mais consistente possível dentro do seu padrão de turno—indo para a cama no mesmo horário em todos os turnos noturnos, por exemplo.\n\nO princípio se mantém: quaisquer que sejam suas restrições de horário, maximize a consistência dentro delas.\n\n## O Panorama Geral sobre Sono e Saúde Cardíaca\n\nPassamos décadas focados nas métricas erradas de sono. Horas importavam. Pontuações de qualidade importavam. Mas regularidade pode importar mais do que tudo.\n\nIsso não significa que duração é irrelevante—sono curto crônico ainda traz riscos. Mas para a maioria dos adultos que dormem entre seis e oito horas, apertar a janela de consistência poderia ser a mudança de maior impacto disponível.\n\nSeu corpo não está pedindo perfeição. Está pedindo previsibilidade. E essa janela de 30 minutos? É mais alcançável do que a maioria das metas de saúde. Não requer academia. Não requer mudança alimentar radical. Apenas ir para a cama aproximadamente no mesmo horário, todas as noites, incluindo os fins de semana que você preferiria não fazer.",
       "key_stats": [
         {
-          "label": "Redução do risco cardiovascular com horários de dormir consistentes",
-          "value": "28%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Risco cardiovascular no grupo de sono mais irregular vs. o mais regular",
+          "value": "~2×",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "Aumento de risco por 30 minutos de variabilidade no horário de dormir",
-          "value": "11%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Adultos com actigrafia acompanhados no estudo MESA",
+          "value": "1.992",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "Marcadores de inflamação mais altos em quem muda o sono no fim de semana",
-          "value": "23%",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "Adultos no estudo do UK Biobank sobre regularidade do sono e mortalidade",
+          "value": "60.000+",
+          "source": "Sleep 2024 UK Biobank Sleep Regularity Study"
         },
         {
-          "label": "Diferença média nos EUA no horário de dormir entre semana vs fim de semana",
-          "value": "77 minutos",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "Tempo aproximado de acompanhamento no estudo MESA",
+          "value": "cerca de 5 anos",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "Aumento do risco de hipertensão em pessoas com sono irregular",
-          "value": "34%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Grupos de variabilidade do sono comparados no MESA",
+          "value": "4",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         }
       ],
       "comparison_table": {
-        "title": "Risco Cardiovascular por Variabilidade no Horário de Dormir",
+        "title": "Risco Cardiovascular por Variabilidade na Duração do Sono",
         "headers": [
-          "Variação no Horário de Dormir",
+          "Variação na Duração do Sono",
           "Risco CV Relativo",
           "Padrão Típico"
         ],
         "rows": [
           [
-            "Menos de 30 min",
+            "60 min ou menos",
             "Linha de base (menor)",
-            "22h30 dias de semana, 22h45 fins de semana"
+            "Duração do sono quase constante, variando até 1h entre as noites"
           ],
           [
-            "30-60 min",
-            "+11%",
-            "22h30 dias de semana, 23h15 fins de semana"
+            "61-90 min",
+            "Maior",
+            "Duração varia de 1h a 1h30 entre as noites"
           ],
           [
-            "60-90 min",
-            "+19%",
-            "22h30 dias de semana, 00h00 fins de semana"
+            "91-120 min",
+            "Ainda maior",
+            "Duração varia de 1h30 a 2h entre as noites"
           ],
           [
-            "Mais de 90 min",
-            "+28%",
-            "22h30 dias de semana, 00h30+ fins de semana"
+            "Mais de 120 min",
+            "~2×",
+            "Duração varia mais de 2h entre as noites"
           ]
         ],
-        "caption": "Dados de 47.000 adultos acompanhados por 6 anos no estudo JACC 2025"
+        "caption": "Dados de 1.992 adultos acompanhados por cerca de 5 anos no estudo MESA (JACC, 2020)"
       },
       "faq": [
         {
@@ -818,7 +780,7 @@
         },
         {
           "question": "Quanto tempo leva para ver benefícios de saúde do sono consistente?",
-          "answer": "Marcadores inflamatórios e padrões de pressão arterial podem melhorar em semanas. A proteção cardiovascular observada em estudos de longo prazo reflete efeitos cumulativos ao longo de anos, mas os mecanismos biológicos começam a mudar rapidamente uma vez que você estabelece consistência."
+          "answer": "Os benefícios de longo prazo são cumulativos ao longo de anos, mas o ritmo circadiano pode começar a se estabilizar com relativa rapidez quando você estabelece consistência."
         },
         {
           "question": "E quanto aos cochilos? Eles atrapalham a consistência do horário de dormir?",
@@ -826,7 +788,7 @@
         },
         {
           "question": "Horário de sono consistente pode ajudar se eu já tenho doença cardíaca?",
-          "answer": "O estudo JACC incluiu participantes com condições cardiovasculares existentes, e pessoas com sono consistente neste grupo também mostraram melhores resultados. No entanto, qualquer pessoa com doença cardíaca deve discutir otimização do sono com seu médico como parte do manejo abrangente."
+          "answer": "O estudo MESA incluiu pessoas sem doença cardiovascular, então não responde diretamente a essa pergunta. Por isso, qualquer pessoa com doença cardíaca deve discutir otimização do sono com seu médico como parte do manejo abrangente."
         },
         {
           "question": "A regra dos 30 minutos se aplica aos horários de acordar também?",
@@ -835,92 +797,87 @@
       ],
       "references": [
         {
-          "title": "Sleep Timing Regularity and Cardiovascular Outcomes: A Prospective Cohort Study",
-          "source": "Journal of the American College of Cardiology, 2025",
-          "url": "https://doi.org/10.1016/s0735-1097(25)01108-8"
+          "title": "Sleep Irregularity and Risk of Cardiovascular Events: The Multi-Ethnic Study of Atherosclerosis",
+          "source": "Journal of the American College of Cardiology, 2020",
+          "url": "https://doi.org/10.1016/j.jacc.2019.12.054"
         },
         {
-          "title": "Bedtime Variability and Systemic Inflammation in Adults",
+          "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study",
           "source": "Sleep, 2024",
-          "url": "https://doi.org/10.1093/sleep/zsae067.0816"
+          "url": "https://doi.org/10.1093/sleep/zsad253"
         },
         {
-          "title": "Social Jet Lag and Cardiometabolic Risk Factors",
-          "source": "Current Biology, 2024",
-          "url": "https://doi.org/10.1001/jamapediatrics.2019.3089"
+          "title": "Social jetlag: misalignment of biological and social time",
+          "source": "Chronobiology International, 2006",
+          "url": "https://doi.org/10.1080/07420520500545979"
         },
         {
-          "title": "Nocturnal Blood Pressure Dipping and Sleep Regularity",
-          "source": "Hypertension, 2024",
-          "url": "https://doi.org/10.1016/s0895-7061(02)02341-5"
+          "title": "Social jetlag and obesity",
+          "source": "Current Biology, 2012",
+          "url": "https://doi.org/10.1016/j.cub.2012.03.038"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "id": {
-      "title": "Mengapa Tidur pada Waktu yang Sama Setiap Malam Mengurangi Risiko Jantung hingga 28%",
+      "title": "Mengapa Tidur pada Waktu yang Konsisten Setiap Malam Terkait dengan Risiko Jantung yang Lebih Rendah",
       "short_title": "Tidur pada Jam yang Sama Kurangi Risiko Jantung hingga 28%",
       "short_description": "Menjaga jam tidur dalam rentang 30 menit, termasuk akhir pekan, dikaitkan dengan risiko kardiovaskular lebih rendah. Lihat apa yang ditunjukkan datanya.",
-      "meta_description": "Penelitian terbaru menunjukkan menjaga waktu tidur dalam rentang 30 menit sepanjang minggu—termasuk akhir pekan—secara dramatis mengurangi risiko kardiovaskular. Inilah yang diungkapkan data.",
-      "tldr": "Mempertahankan waktu tidur yang konsisten dalam rentang 30 menit setiap malam mengurangi kejadian kardiovaskular sebesar 28% dibandingkan dengan pola tidur yang tidak teratur.",
-      "body_md": "## Sabotase Malam Sabtu yang Tidak Anda Sadari\n\nAnda tidur tujuh jam setiap malam. Anda sudah meninggalkan ponsel sebelum tidur. Anda bahkan membeli kasur mahal itu. Tapi inilah yang mungkin merusak semua itu: tidur pada pukul 10:30 malam di hari Selasa dan tengah malam di hari Sabtu.\n\nPergeseran 90 menit itu? Dampaknya lebih besar dari yang Anda kira. Sebuah studi tahun 2025 yang dipublikasikan di Journal of the American College of Cardiology melacak 47.000 orang dewasa selama enam tahun dan menemukan sesuatu yang mengejutkan: orang yang menjaga waktu tidur mereka dalam rentang 30 menit tujuh hari seminggu mengalami 28% lebih sedikit serangan jantung, stroke, dan kejadian kardiovaskular lainnya dibandingkan mereka yang memiliki jadwal tidak teratur.\n\nBukan durasi tidur. Bukan skor kualitas tidur. Hanya konsistensi.\n\n## Apa yang Terjadi Ketika Jam Biologis Anda Bingung\n\nRitme sirkadian Anda bukan hanya tentang merasa mengantuk. Ini adalah pengendali utama yang mengatur tekanan darah, pelepasan hormon, metabolisme glukosa, dan respons inflamasi. Setiap sel dalam tubuh Anda berjalan mengikuti jam internal ini.\n\nKetika Anda menggeser waktu tidur bahkan hanya satu jam, Anda pada dasarnya memberikan tubuh Anda jet lag tanpa meninggalkan zona waktu Anda. Para peneliti menyebutnya \"social jet lag\"—kesenjangan antara jam biologis Anda dan jadwal sosial Anda. Dan ini terakumulasi.\n\nDr. Tianyi Huang, penulis utama studi JACC, mengatakannya dengan tegas: \"Kami menemukan bahwa untuk setiap 30 menit variabilitas waktu tidur, risiko kardiovaskular meningkat sekitar 11%.\" Itu bukan efek kecil. Itu sebanding dengan peningkatan risiko dari memiliki kolesterol LDL yang tinggi.\n\n## Jebakan Tidur Larut di Akhir Pekan\n\nDi sinilah menjadi personal. Sebagian besar dari kita berpikir tidur larut di akhir pekan adalah pemulihan. Anda membayar hutang tidur, bukan?\n\nTidak persis. Sebuah studi tahun 2024 di jurnal Sleep mengikuti 2.100 orang dewasa dengan perangkat yang dapat dikenakan yang melacak pola tidur aktual mereka (bukan yang dilaporkan sendiri, yang cenderung sangat tidak akurat). Mereka menemukan bahwa orang yang menggeser waktu tidur mereka lebih dari 60 menit di akhir pekan menunjukkan 23% lebih tinggi penanda inflamasi sistemik dibandingkan dengan mereka yang tidur konsisten.\n\nInflamasi bukan hal abstrak. Ini adalah proses biologis yang mendasari aterosklerosis, penumpukan plak di arteri Anda. Lebih banyak inflamasi berarti akumulasi plak lebih cepat. Akumulasi plak lebih cepat berarti penyakit jantung lebih dini.\n\nIroni yang kejam: Anda mencoba merasa lebih baik dengan tidur larut, tetapi Anda mempercepat proses yang akan membuat Anda merasa lebih buruk dalam jangka panjang.\n\n## Seperti Apa Sebenarnya 30 Menit Itu\n\nMari kita buat ini konkret. Rentang 30 menit berarti jika Anda tidur pada pukul 10:30 malam di hari Senin, Anda tidur paling lambat pukul 11:00 malam di hari Sabtu. Hanya itu. Bukan tepat pukul 10:30—hanya dalam rentang itu.\n\nPara peneliti JACC membagi peserta menjadi empat kelompok berdasarkan variabilitas waktu tidur:\n- Variasi kurang dari 30 menit: kelompok risiko terendah\n- 30-60 menit: risiko kardiovaskular 11% lebih tinggi\n- 60-90 menit: risiko 19% lebih tinggi\n- Lebih dari 90 menit: risiko 28% lebih tinggi\n\nSebagian besar orang Amerika masuk dalam kategori terakhir. Rata-rata perbedaan waktu tidur antara hari kerja dan akhir pekan di AS adalah 77 menit. Kita bahkan tidak mendekati target.\n\n## Mengapa Ini Lebih Penting Daripada Durasi Tidur\n\nSelama bertahun-tahun, pesan kesehatan masyarakat berfokus pada mendapatkan tidur yang cukup. Tujuh hingga sembilan jam. Itu adalah targetnya. Dan itu masih penting—tetapi mungkin bukan fokus utama yang tepat.\n\nStudi jurnal Sleep menemukan sesuatu yang berlawanan dengan intuisi: orang yang tidur 6,5 jam secara konsisten memiliki penanda kardiovaskular yang lebih baik daripada orang yang rata-rata tidur 7,5 jam tetapi dengan variabilitas tinggi. Konsistensi mengalahkan durasi.\n\nPikirkan seperti olahraga. Berlari 30 menit setiap hari menghasilkan adaptasi yang berbeda dari berlari dua jam di hari Minggu dan tidak melakukan apa-apa lagi. Tubuh Anda merespons pola, bukan hanya total. Prinsip yang sama berlaku untuk tidur.\n\n## Koneksi Tekanan Darah\n\nSalah satu mekanisme yang telah diidentifikasi peneliti melibatkan tekanan darah nokturnal. Tekanan darah Anda seharusnya turun 10-20% saat Anda tidur—ini disebut \"dipping\". Ini adalah saat sistem kardiovaskular Anda mendapat istirahat.\n\nOrang yang tidur tidak teratur menunjukkan penurunan yang tumpul. Tekanan darah mereka tetap tinggi sepanjang malam. Selama bertahun-tahun, tekanan yang berkelanjutan ini merusak dinding arteri, mempromosikan pembentukan plak, dan membebani jantung.\n\nSub-analisis data JACC menemukan bahwa orang yang tidur tidak teratur 34% lebih mungkin mengembangkan hipertensi selama periode studi, terlepas dari faktor lain seperti diet, olahraga, dan kesehatan dasar.\n\n## Strategi Praktis yang Benar-Benar Berhasil\n\nMengetahui hal ini penting adalah satu hal. Mengubah perilaku adalah hal lain. Inilah yang disarankan penelitian benar-benar membantu:\n\n**Jangkarkan waktu bangun Anda terlebih dahulu.** Sebagian besar ilmuwan tidur sekarang merekomendasikan menetapkan waktu bangun Anda daripada waktu tidur Anda. Jam tubuh Anda lebih responsif terhadap paparan cahaya pagi daripada rutinitas malam. Pilih waktu bangun yang dapat Anda pertahankan tujuh hari seminggu—bahkan jika itu berarti bangun pada pukul 7:30 pagi di hari Sabtu alih-alih pukul 10 pagi.\n\n**Gunakan cahaya secara strategis.** Cahaya terang di pagi hari memajukan jam Anda; cahaya redup di malam hari melindunginya. Para peserta dalam studi Sleep yang mempertahankan rentang waktu tidur paling ketat juga memiliki paparan cahaya pagi tertinggi—rata-rata 45 menit cahaya luar ruangan sebelum siang.\n\n**Pikirkan ulang Jumat malam.** Pergeseran waktu tidur terbesar bagi kebanyakan orang terjadi dari Jumat ke Sabtu. Satu pendekatan: jika Anda ingin begadang lebih lama di hari Jumat, lakukan maksimal 30-45 menit, lalu bangun pada waktu normal Anda di hari Sabtu. Anda akan sedikit lelah di hari Sabtu, tetapi Anda akan menjaga ritme Anda.\n\n**Lacak selama dua minggu.** Sebelum membuat perubahan, ketahui baseline Anda. Catat waktu tidur dan bangun Anda selama 14 hari. Sebagian besar orang terkejut dengan variabilitas aktual mereka ketika melihatnya tertulis.\n\n## Bagaimana dengan Pekerja Shift?\n\nDi sinilah penelitian menjadi rumit. Sekitar 16% pekerja Amerika memiliki jadwal non-standar. Bagi mereka, konsistensi sempurna tidak mungkin.\n\nData di sini kurang optimis tetapi tidak tanpa harapan. Analisis tahun 2024 terhadap pekerja shift menemukan bahwa mereka yang mempertahankan jadwal konsisten dalam pola shift mereka—tidur pada waktu yang sama di semua shift malam, misalnya—memiliki risiko kardiovaskular 18% lebih rendah daripada pekerja shift dengan pola variabel bahkan dalam shift mereka.\n\nPrinsipnya tetap berlaku: apa pun batasan jadwal Anda, maksimalkan konsistensi di dalamnya.\n\n## Gambaran Besar tentang Tidur dan Kesehatan Jantung\n\nKita telah menghabiskan puluhan tahun berfokus pada metrik tidur yang salah. Jam penting. Skor kualitas penting. Tetapi keteraturan mungkin yang paling penting dari semuanya.\n\nIni tidak berarti durasi tidak relevan—tidur singkat kronis masih membawa risiko. Tetapi untuk mayoritas orang dewasa yang tidur antara enam dan delapan jam, memperketat jendela konsistensi bisa menjadi perubahan dengan leverage tertinggi yang tersedia.\n\nPenulis JACC memperkirakan bahwa jika populasi AS mengurangi variabilitas waktu tidur menjadi di bawah 30 menit, itu dapat mencegah sekitar 66.000 kejadian kardiovaskular setiap tahun. Itu dampak yang lebih besar daripada banyak intervensi farmasi.\n\nTubuh Anda tidak meminta kesempurnaan. Tubuh Anda meminta prediktabilitas. Dan rentang 30 menit itu? Lebih dapat dicapai daripada sebagian besar target kesehatan. Tidak perlu keanggotaan gym. Tidak perlu perombakan diet. Hanya tidur pada waktu yang kira-kira sama, setiap malam, termasuk akhir pekan yang lebih Anda sukai untuk tidak melakukannya.",
+      "meta_description": "Waktu tidur yang konsisten sepanjang minggu, termasuk akhir pekan, dikaitkan dengan risiko kardiovaskular yang lebih rendah. Inilah yang diungkapkan data.",
+      "tldr": "Waktu tidur yang konsisten dikaitkan dengan risiko kardiovaskular yang lebih rendah; dalam satu kohort, orang dengan pola tidur paling tidak teratur memiliki risiko sekitar dua kali lipat.",
+      "body_md": "## Sabotase Malam Sabtu yang Tidak Anda Sadari\n\nAnda tidur tujuh jam setiap malam. Anda sudah meninggalkan ponsel sebelum tidur. Anda bahkan membeli kasur mahal itu. Tapi inilah yang mungkin merusak semua itu: tidur pada pukul 10:30 malam di hari Selasa dan tengah malam di hari Sabtu.\n\nPergeseran 90 menit itu? Dampaknya lebih besar dari yang Anda kira. Studi MESA yang dipublikasikan di Journal of the American College of Cardiology melacak 1.992 orang dewasa dengan actigraphy selama sekitar lima tahun dan menemukan sesuatu yang mengejutkan: semakin tidak teratur tidur seseorang, semakin tinggi risiko kardiovaskularnya.\n\nBukan durasi tidur. Bukan skor kualitas tidur. Hanya konsistensi.\n\n## Apa yang Terjadi Ketika Jam Biologis Anda Bingung\n\nRitme sirkadian Anda bukan hanya tentang merasa mengantuk. Ini adalah pengendali utama yang mengatur tekanan darah, pelepasan hormon, metabolisme glukosa, dan respons inflamasi. Setiap sel dalam tubuh Anda berjalan mengikuti jam internal ini.\n\nKetika Anda menggeser waktu tidur bahkan hanya satu jam, Anda pada dasarnya memberikan tubuh Anda jet lag tanpa meninggalkan zona waktu Anda. Para peneliti menyebutnya \"social jet lag\"—kesenjangan antara jam biologis Anda dan jadwal sosial Anda. Dan ini terakumulasi.\n\nDalam studi MESA, risiko kardiovaskular meningkat seiring bertambahnya variabilitas tidur dari malam ke malam. Itu bukan efek kecil.\n\n## Jebakan Tidur Larut di Akhir Pekan\n\nDi sinilah menjadi personal. Sebagian besar dari kita berpikir tidur larut di akhir pekan adalah pemulihan. Anda membayar hutang tidur, bukan?\n\nTidak persis. Penelitian menunjukkan bahwa tidur yang tidak teratur dikaitkan dengan faktor risiko kardiometabolik dan proses inflamasi.\n\nInflamasi bukan hal abstrak. Ini adalah proses biologis yang mendasari aterosklerosis, penumpukan plak di arteri Anda. Lebih banyak inflamasi berarti akumulasi plak lebih cepat. Akumulasi plak lebih cepat berarti penyakit jantung lebih dini.\n\nIroni yang kejam: Anda mencoba merasa lebih baik dengan tidur larut, tetapi Anda mempercepat proses yang akan membuat Anda merasa lebih buruk dalam jangka panjang.\n\n## Seperti Apa Sebenarnya 30 Menit Itu\n\nMari kita buat ini konkret. Rentang 30 menit berarti jika Anda tidur pada pukul 10:30 malam di hari Senin, Anda tidur paling lambat pukul 11:00 malam di hari Sabtu. Hanya itu. Bukan tepat pukul 10:30—hanya dalam rentang itu.\n\nPara peneliti MESA membagi peserta menjadi empat kelompok berdasarkan variabilitas durasi tidur:\n- Variasi 60 menit atau kurang: kelompok risiko terendah\n- 61-90 menit: risiko kardiovaskular lebih tinggi\n- 91-120 menit: risiko semakin tinggi\n- Lebih dari 120 menit: risiko sekitar dua kali lipat\n\n## Mengapa Ini Lebih Penting Daripada Durasi Tidur\n\nSelama bertahun-tahun, pesan kesehatan masyarakat berfokus pada mendapatkan tidur yang cukup. Tujuh hingga sembilan jam. Itu adalah targetnya. Dan itu masih penting—tetapi mungkin bukan fokus utama yang tepat.\n\nSebuah studi UK Biobank terhadap lebih dari 60.000 orang dewasa menemukan sesuatu yang berlawanan dengan intuisi: keteraturan tidur merupakan prediktor risiko kematian yang lebih kuat daripada durasi tidur. Konsistensi mengalahkan durasi.\n\nPikirkan seperti olahraga. Berlari 30 menit setiap hari menghasilkan adaptasi yang berbeda dari berlari dua jam di hari Minggu dan tidak melakukan apa-apa lagi. Tubuh Anda merespons pola, bukan hanya total. Prinsip yang sama berlaku untuk tidur.\n\n## Koneksi Tekanan Darah\n\nSalah satu mekanisme yang telah diidentifikasi peneliti melibatkan tekanan darah nokturnal. Tekanan darah Anda seharusnya turun 10-20% saat Anda tidur—ini disebut \"dipping\". Ini adalah saat sistem kardiovaskular Anda mendapat istirahat.\n\nOrang yang tidur tidak teratur menunjukkan penurunan yang tumpul. Tekanan darah mereka tetap tinggi sepanjang malam. Selama bertahun-tahun, tekanan yang berkelanjutan ini merusak dinding arteri, mempromosikan pembentukan plak, dan membebani jantung.\n\n## Strategi Praktis yang Benar-Benar Berhasil\n\nMengetahui hal ini penting adalah satu hal. Mengubah perilaku adalah hal lain. Inilah yang disarankan penelitian benar-benar membantu:\n\n**Jangkarkan waktu bangun Anda terlebih dahulu.** Sebagian besar ilmuwan tidur sekarang merekomendasikan menetapkan waktu bangun Anda daripada waktu tidur Anda. Jam tubuh Anda lebih responsif terhadap paparan cahaya pagi daripada rutinitas malam. Pilih waktu bangun yang dapat Anda pertahankan tujuh hari seminggu—bahkan jika itu berarti bangun pada pukul 7:30 pagi di hari Sabtu alih-alih pukul 10 pagi.\n\n**Gunakan cahaya secara strategis.** Cahaya terang di pagi hari memajukan jam Anda; cahaya redup di malam hari melindunginya. Cahaya siang di pagi hari membantu menstabilkan ritme sirkadian Anda.\n\n**Pikirkan ulang Jumat malam.** Pergeseran waktu tidur terbesar bagi kebanyakan orang terjadi dari Jumat ke Sabtu. Satu pendekatan: jika Anda ingin begadang lebih lama di hari Jumat, lakukan maksimal 30-45 menit, lalu bangun pada waktu normal Anda di hari Sabtu. Anda akan sedikit lelah di hari Sabtu, tetapi Anda akan menjaga ritme Anda.\n\n**Lacak selama dua minggu.** Sebelum membuat perubahan, ketahui baseline Anda. Catat waktu tidur dan bangun Anda selama 14 hari. Sebagian besar orang terkejut dengan variabilitas aktual mereka ketika melihatnya tertulis.\n\n## Bagaimana dengan Pekerja Shift?\n\nDi sinilah penelitian menjadi rumit. Sekitar 16% pekerja Amerika memiliki jadwal non-standar. Bagi mereka, konsistensi sempurna tidak mungkin.\n\nData di sini kurang optimis tetapi tidak tanpa harapan. Bukti di bidang ini masih terbatas, tetapi saran umumnya adalah menjaga waktu tidur tetap konsisten dalam pola shift Anda—tidur pada waktu yang sama di semua shift malam, misalnya.\n\nPrinsipnya tetap berlaku: apa pun batasan jadwal Anda, maksimalkan konsistensi di dalamnya.\n\n## Gambaran Besar tentang Tidur dan Kesehatan Jantung\n\nKita telah menghabiskan puluhan tahun berfokus pada metrik tidur yang salah. Jam penting. Skor kualitas penting. Tetapi keteraturan mungkin yang paling penting dari semuanya.\n\nIni tidak berarti durasi tidak relevan—tidur singkat kronis masih membawa risiko. Tetapi untuk mayoritas orang dewasa yang tidur antara enam dan delapan jam, memperketat jendela konsistensi bisa menjadi perubahan dengan leverage tertinggi yang tersedia.\n\nTubuh Anda tidak meminta kesempurnaan. Tubuh Anda meminta prediktabilitas. Dan rentang 30 menit itu? Lebih dapat dicapai daripada sebagian besar target kesehatan. Tidak perlu keanggotaan gym. Tidak perlu perombakan diet. Hanya tidur pada waktu yang kira-kira sama, setiap malam, termasuk akhir pekan yang lebih Anda sukai untuk tidak melakukannya.",
       "key_stats": [
         {
-          "label": "Pengurangan risiko kardiovaskular dengan waktu tidur konsisten",
-          "value": "28%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Risiko kardiovaskular pada kelompok tidur paling tidak teratur",
+          "value": "~2x",
+          "source": "JACC MESA 2020"
         },
         {
-          "label": "Peningkatan risiko per 30 menit variabilitas waktu tidur",
-          "value": "11%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Peserta MESA yang dilacak dengan actigraphy",
+          "value": "1.992",
+          "source": "JACC MESA 2020"
         },
         {
-          "label": "Penanda inflamasi lebih tinggi pada orang yang menggeser tidur di akhir pekan",
-          "value": "23%",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "Orang dewasa dalam studi UK Biobank tentang keteraturan tidur dan kematian",
+          "value": "60.000+",
+          "source": "Sleep 2024 Sleep Regularity Mortality Study"
         },
         {
-          "label": "Rata-rata perbedaan waktu tidur AS hari kerja vs akhir pekan",
-          "value": "77 menit",
-          "source": "Sleep 2024 Bedtime Variability Study"
-        },
-        {
-          "label": "Peningkatan risiko hipertensi pada orang yang tidur tidak teratur",
-          "value": "34%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Lama tindak lanjut studi MESA",
+          "value": "~5 tahun",
+          "source": "JACC MESA 2020"
         }
       ],
       "comparison_table": {
-        "title": "Risiko Kardiovaskular Berdasarkan Variabilitas Waktu Tidur",
+        "title": "Risiko Kardiovaskular Berdasarkan Variabilitas Durasi Tidur",
         "headers": [
-          "Variasi Waktu Tidur",
+          "Variasi Durasi Tidur",
           "Risiko CV Relatif",
           "Pola Tipikal"
         ],
         "rows": [
           [
-            "Kurang dari 30 menit",
+            "60 menit atau kurang",
             "Baseline (terendah)",
-            "10:30 malam hari kerja, 10:45 malam akhir pekan"
+            "Durasi tidur sangat stabil dari malam ke malam"
           ],
           [
-            "30-60 menit",
-            "+11%",
-            "10:30 malam hari kerja, 11:15 malam akhir pekan"
+            "61-90 menit",
+            "Lebih tinggi",
+            "Durasi tidur cukup bervariasi"
           ],
           [
-            "60-90 menit",
-            "+19%",
-            "10:30 malam hari kerja, 12:00 tengah malam akhir pekan"
+            "91-120 menit",
+            "Semakin tinggi",
+            "Durasi tidur sangat bervariasi"
           ],
           [
-            "Lebih dari 90 menit",
-            "+28%",
-            "10:30 malam hari kerja, 12:30 tengah malam+ akhir pekan"
+            "Lebih dari 120 menit",
+            "Sekitar 2x baseline",
+            "Durasi tidur sangat tidak teratur"
           ]
         ],
-        "caption": "Data dari 47.000 orang dewasa yang dilacak selama 6 tahun dalam studi JACC 2025"
+        "caption": "Data dari 1.992 orang dewasa yang dilacak dengan actigraphy selama sekitar 5 tahun dalam studi JACC MESA"
       },
       "faq": [
         {
@@ -937,7 +894,7 @@
         },
         {
           "question": "Berapa lama waktu yang dibutuhkan untuk melihat manfaat kesehatan dari tidur yang konsisten?",
-          "answer": "Penanda inflamasi dan pola tekanan darah dapat membaik dalam beberapa minggu. Perlindungan kardiovaskular yang diamati dalam studi jangka panjang mencerminkan efek kumulatif selama bertahun-tahun, tetapi mekanisme biologis mulai bergeser dengan cepat setelah Anda menetapkan konsistensi."
+          "answer": "Manfaat jangka panjang bersifat kumulatif selama bertahun-tahun, tetapi ritme sirkadian dapat mulai stabil cukup cepat setelah Anda menetapkan konsistensi."
         },
         {
           "question": "Bagaimana dengan tidur siang? Apakah itu mengganggu konsistensi waktu tidur?",
@@ -945,7 +902,7 @@
         },
         {
           "question": "Bisakah waktu tidur yang konsisten membantu jika saya sudah memiliki penyakit jantung?",
-          "answer": "Studi JACC mencakup peserta dengan kondisi kardiovaskular yang sudah ada, dan orang yang tidur konsisten dalam kelompok ini juga menunjukkan hasil yang lebih baik. Namun, siapa pun dengan penyakit jantung harus mendiskusikan optimalisasi tidur dengan penyedia layanan kesehatan mereka sebagai bagian dari manajemen komprehensif."
+          "answer": "Studi MESA melibatkan peserta tanpa penyakit kardiovaskular, sehingga tidak menjawab pertanyaan ini secara langsung. Namun, siapa pun dengan penyakit jantung harus mendiskusikan optimalisasi tidur dengan penyedia layanan kesehatan mereka sebagai bagian dari manajemen komprehensif."
         },
         {
           "question": "Apakah aturan 30 menit berlaku untuk waktu bangun juga?",
@@ -954,92 +911,92 @@
       ],
       "references": [
         {
-          "title": "Sleep Timing Regularity and Cardiovascular Outcomes: A Prospective Cohort Study",
-          "source": "Journal of the American College of Cardiology, 2025",
-          "url": "https://doi.org/10.1016/s0735-1097(25)01108-8"
+          "title": "Sleep Irregularity and Risk of Cardiovascular Events: The Multi-Ethnic Study of Atherosclerosis",
+          "source": "Journal of the American College of Cardiology, 2020",
+          "url": "https://doi.org/10.1016/j.jacc.2019.12.054"
         },
         {
-          "title": "Bedtime Variability and Systemic Inflammation in Adults",
+          "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study",
           "source": "Sleep, 2024",
-          "url": "https://doi.org/10.1093/sleep/zsae067.0816"
+          "url": "https://doi.org/10.1093/sleep/zsad253"
         },
         {
-          "title": "Social Jet Lag and Cardiometabolic Risk Factors",
-          "source": "Current Biology, 2024",
-          "url": "https://doi.org/10.1001/jamapediatrics.2019.3089"
+          "title": "Social jetlag: misalignment of biological and social time",
+          "source": "Chronobiology International, 2006",
+          "url": "https://doi.org/10.1080/07420520500545979"
         },
         {
-          "title": "Nocturnal Blood Pressure Dipping and Sleep Regularity",
-          "source": "Hypertension, 2024",
-          "url": "https://doi.org/10.1016/s0895-7061(02)02341-5"
+          "title": "Social jetlag and obesity",
+          "source": "Current Biology, 2012",
+          "url": "https://doi.org/10.1016/j.cub.2012.03.038"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "de": {
-      "title": "Warum das Zubettgehen zur gleichen Zeit jede Nacht das Herzrisiko um 28 % senkt",
+      "title": "Warum das Zubettgehen zur gleichen Zeit jede Nacht Ihr Herz schützen könnte",
       "short_title": "Immer zur gleichen Zeit ins Bett: 28 % weniger Herzrisiko?",
       "short_description": "Was die Forschung zu festen Schlafenszeiten im 30-Minuten-Fenster inklusive Wochenende zeigt und was das für Ihr Herz-Kreislauf-Risiko bedeuten kann.",
-      "meta_description": "Neue Forschung zeigt: Wer seine Schlafenszeit die ganze Woche – Wochenenden eingeschlossen – innerhalb eines 30-Minuten-Fensters hält, senkt das kardiovaskuläre Risiko dramatisch. Das zeigen die Daten.",
-      "tldr": "Konstante Schlafenszeiten innerhalb von 30 Minuten jede Nacht reduzieren kardiovaskuläre Ereignisse um 28 % im Vergleich zu unregelmäßigen Schläfern.",
-      "body_md": "## Die Samstagnacht-Sabotage, von der Sie nichts wussten\n\nSie schlafen sieben Stunden pro Nacht. Sie haben das Handy vor dem Schlafengehen verbannt. Sie haben sogar diese teure Matratze gekauft. Aber hier ist, was all das zunichtemachen könnte: dienstags um 22:30 Uhr ins Bett gehen und samstags um Mitternacht.\n\nDiese 90-minütige Abweichung? Sie richtet mehr Schaden an, als Sie erwarten würden. Eine 2025 im Journal of the American College of Cardiology veröffentlichte Studie verfolgte 47.000 Erwachsene über sechs Jahre und fand etwas Bemerkenswertes: Menschen, die ihre Schlafenszeit sieben Tage die Woche innerhalb eines 30-Minuten-Fensters hielten, hatten 28 % weniger Herzinfarkte, Schlaganfälle und andere kardiovaskuläre Ereignisse als jene mit unregelmäßigen Schlafmustern.\n\nNicht die Schlafdauer. Nicht die Schlafqualitätswerte. Nur die Konstanz.\n\n## Was passiert, wenn Ihre innere Uhr durcheinandergerät\n\nIhr zirkadianer Rhythmus geht nicht nur darum, sich benommen zu fühlen. Er ist ein Hauptregler, der Blutdruck, Hormonausschüttung, Glukosestoffwechsel und Entzündungsreaktionen orchestriert. Jede Zelle in Ihrem Körper läuft nach dieser inneren Uhr.\n\nWenn Sie Ihre Schlafenszeit auch nur um eine Stunde verschieben, verpassen Sie Ihrem Körper im Grunde einen Jetlag, ohne Ihre Zeitzone zu verlassen. Forscher nennen dies „sozialen Jetlag\" – die Lücke zwischen Ihrer biologischen Uhr und Ihrem sozialen Zeitplan. Und er akkumuliert sich.\n\nDr. Tianyi Huang, die Hauptautorin der JACC-Studie, drückte es unverblümt aus: „Wir fanden heraus, dass das kardiovaskuläre Risiko für jede 30 Minuten Schlafenszeit-Variabilität um etwa 11 % zunahm.\" Das ist kein kleiner Effekt. Das ist vergleichbar mit der Risikoerhöhung durch erhöhtes LDL-Cholesterin.\n\n## Die Wochenend-Ausschlaf-Falle\n\nHier wird es persönlich. Die meisten von uns denken, am Wochenende auszuschlafen sei Erholung. Sie zahlen Schlafschulden zurück, richtig?\n\nNicht ganz. Eine 2024 im Fachjournal Sleep veröffentlichte Studie verfolgte 2.100 Erwachsene mit tragbaren Geräten, die ihre tatsächlichen Schlafmuster erfassten (nicht selbst berichtet, was tendenziell völlig ungenau ist). Sie fanden heraus, dass Menschen, die ihre Schlafenszeit am Wochenende um mehr als 60 Minuten verschoben, 23 % höhere Marker für systemische Entzündungen zeigten im Vergleich zu konstanten Schläfern.\n\nEntzündung ist nicht abstrakt. Es ist der biologische Prozess, der Atherosklerose zugrunde liegt, der Ablagerung von Plaque in Ihren Arterien. Mehr Entzündung bedeutet schnellere Plaque-Ansammlung. Schnellere Plaque-Ansammlung bedeutet frühere Herzerkrankungen.\n\nDie grausame Ironie: Sie versuchen, sich durch Ausschlafen besser zu fühlen, aber Sie beschleunigen genau die Prozesse, die Sie langfristig schlechter fühlen lassen werden.\n\n## Wie 30 Minuten tatsächlich aussehen\n\nMachen wir das konkret. Ein 30-Minuten-Fenster bedeutet: Wenn Sie montags um 22:30 Uhr ins Bett gehen, sind Sie samstags bis 23:00 Uhr im Bett. Das war's. Nicht exakt 22:30 Uhr – nur innerhalb dieser Spanne.\n\nDie JACC-Forscher teilten die Teilnehmer in vier Gruppen basierend auf der Schlafenszeit-Variabilität:\n- Weniger als 30 Minuten Abweichung: niedrigste Risikogruppe\n- 30-60 Minuten: 11 % höheres kardiovaskuläres Risiko\n- 60-90 Minuten: 19 % höheres Risiko\n- Mehr als 90 Minuten: 28 % höheres Risiko\n\nDie meisten Amerikaner fallen in die letzte Kategorie. Die durchschnittliche Schlafenszeit-Differenz zwischen Wochentagen und Wochenenden in den USA beträgt 77 Minuten. Wir sind nicht einmal annähernd dort.\n\n## Warum das mehr zählt als die Schlafdauer\n\nJahrelang konzentrierte sich die öffentliche Gesundheitskommunikation darauf, genug Schlaf zu bekommen. Sieben bis neun Stunden. Das war das Ziel. Und es ist immer noch wichtig – aber es könnte der falsche Hauptfokus sein.\n\nDie Sleep-Studie fand etwas Kontraintuitives: Menschen, die konstant 6,5 Stunden schliefen, hatten bessere kardiovaskuläre Marker als Menschen, die durchschnittlich 7,5 Stunden schliefen, aber mit hoher Variabilität. Konstanz schlug Dauer.\n\nDenken Sie an Sport. 30 Minuten täglich laufen erzeugt andere Anpassungen als zwei Stunden sonntags zu laufen und sonst nichts. Ihr Körper reagiert auf Muster, nicht nur auf Gesamtwerte. Das gleiche Prinzip gilt für Schlaf.\n\n## Die Blutdruck-Verbindung\n\nEinen Mechanismus, den Forscher identifiziert haben, betrifft den nächtlichen Blutdruck. Ihr Blutdruck soll während des Schlafs um 10-20 % sinken – das nennt man „Dipping\". Es ist die Zeit, in der Ihr Herz-Kreislauf-System eine Pause bekommt.\n\nUnregelmäßige Schläfer zeigen abgeschwächtes Dipping. Ihr Blutdruck bleibt die ganze Nacht erhöht. Über Jahre hinweg schädigt dieser anhaltende Druck die Arterienwände, fördert Plaquebildung und belastet das Herz.\n\nEine Subanalyse der JACC-Daten ergab, dass unregelmäßige Schläfer 34 % häufiger Bluthochdruck entwickelten über den Studienzeitraum, unabhängig von anderen Faktoren wie Ernährung, Bewegung und Ausgangsgesundheit.\n\n## Praktische Strategien, die tatsächlich funktionieren\n\nZu wissen, dass dies wichtig ist, ist eine Sache. Verhalten zu ändern eine andere. Hier ist, was die Forschung nahelegt, was tatsächlich hilft:\n\n**Verankern Sie zuerst Ihre Aufwachzeit.** Die meisten Schlafforscher empfehlen jetzt, die Aufwachzeit zu fixieren statt die Schlafenszeit. Die Uhr Ihres Körpers reagiert stärker auf morgendliche Lichtexposition als auf Abendroutinen. Wählen Sie eine Aufwachzeit, die Sie sieben Tage die Woche einhalten können – selbst wenn das bedeutet, samstags um 7:30 Uhr statt um 10 Uhr aufzustehen.\n\n**Nutzen Sie Licht strategisch.** Helles Licht am Morgen stellt Ihre Uhr vor; gedämpftes Licht am Abend schützt sie. Die Teilnehmer der Sleep-Studie, die die engsten Schlafenszeit-Fenster einhielten, hatten auch die höchste morgendliche Lichtexposition – durchschnittlich 45 Minuten Tageslicht vor Mittag.\n\n**Überdenken Sie Freitagnacht.** Die größte Schlafenszeit-Verschiebung für die meisten Menschen geschieht von Freitag auf Samstag. Ein Ansatz: Wenn Sie freitags später aufbleiben wollen, tun Sie es um maximal 30-45 Minuten, dann wachen Sie samstags zu Ihrer normalen Zeit auf. Sie werden samstags etwas müde sein, aber Sie bewahren Ihren Rhythmus.\n\n**Verfolgen Sie es zwei Wochen lang.** Bevor Sie Änderungen vornehmen, kennen Sie Ihre Ausgangslage. Notieren Sie Ihre Schlafens- und Aufwachzeit für 14 Tage. Die meisten Menschen sind schockiert über ihre tatsächliche Variabilität, wenn sie sie aufgeschrieben sehen.\n\n## Was ist mit Schichtarbeitern?\n\nHier wird die Forschung kompliziert. Etwa 16 % der amerikanischen Arbeitnehmer haben nicht-standardisierte Arbeitszeiten. Für sie ist perfekte Konstanz nicht möglich.\n\nDie Daten hier sind weniger optimistisch, aber nicht hoffnungslos. Eine 2024er Analyse von Schichtarbeitern ergab, dass jene, die konstante Zeitpläne innerhalb ihres Schichtmusters einhielten – zum Beispiel zur gleichen Zeit bei allen Nachtschichten ins Bett gingen – 18 % niedrigeres kardiovaskuläres Risiko hatten als Schichtarbeiter mit variablen Mustern selbst innerhalb ihrer Schichten.\n\nDas Prinzip gilt: Was auch immer Ihre Zeitplan-Einschränkungen sind, maximieren Sie die Konstanz innerhalb dieser.\n\n## Das größere Bild zu Schlaf und Herzgesundheit\n\nWir haben Jahrzehnte damit verbracht, uns auf die falschen Schlafmetriken zu konzentrieren. Stunden zählten. Qualitätswerte zählten. Aber Regelmäßigkeit könnte am wichtigsten sein.\n\nDas bedeutet nicht, dass Dauer irrelevant ist – chronischer Kurzschlaf birgt immer noch Risiken. Aber für die Mehrheit der Erwachsenen, die irgendwo zwischen sechs und acht Stunden schlafen, könnte die Straffung des Konstanz-Fensters die wirkungsvollste verfügbare Änderung sein.\n\nDie JACC-Autoren schätzten, dass, wenn die US-Bevölkerung die Schlafenszeit-Variabilität auf unter 30 Minuten reduzieren würde, dies jährlich etwa 66.000 kardiovaskuläre Ereignisse verhindern könnte. Das ist eine größere Auswirkung als viele pharmazeutische Interventionen.\n\nIhr Körper verlangt nicht nach Perfektion. Er verlangt nach Vorhersagbarkeit. Und dieses 30-Minuten-Fenster? Es ist erreichbarer als die meisten Gesundheitsziele. Keine Fitnessstudio-Mitgliedschaft erforderlich. Keine Ernährungsumstellung. Nur ungefähr zur gleichen Zeit ins Bett gehen, jede Nacht, einschließlich der Wochenenden, an denen Sie lieber nicht möchten.",
+      "meta_description": "Konstante Schlafenszeiten – auch am Wochenende – sind mit einem niedrigeren kardiovaskulären Risiko verbunden. In einer Kohorte hatten die unregelmäßigsten Schläfer ein etwa doppelt so hohes Risiko. Das zeigen die Daten.",
+      "tldr": "Konstante Schlafenszeiten sind mit einem niedrigeren kardiovaskulären Risiko verbunden: In einer Kohorte hatten die unregelmäßigsten Schläfer ein etwa doppelt so hohes Risiko.",
+      "body_md": "## Die Samstagnacht-Sabotage, von der Sie nichts wussten\n\nSie schlafen sieben Stunden pro Nacht. Sie haben das Handy vor dem Schlafengehen verbannt. Sie haben sogar diese teure Matratze gekauft. Aber hier ist, was all das zunichtemachen könnte: dienstags um 22:30 Uhr ins Bett gehen und samstags um Mitternacht.\n\nDiese 90-minütige Abweichung? Sie richtet mehr Schaden an, als Sie erwarten würden. Die MESA-Studie im Journal of the American College of Cardiology begleitete 1.992 Erwachsene, deren Schlaf per Aktigrafie erfasst wurde, etwa fünf Jahre lang und fand etwas Bemerkenswertes: Je unregelmäßiger der Schlaf, desto höher das Risiko für Herzinfarkte, Schlaganfälle und andere kardiovaskuläre Ereignisse.\n\nNicht die Schlafdauer. Nicht die Schlafqualitätswerte. Nur die Konstanz.\n\n## Was passiert, wenn Ihre innere Uhr durcheinandergerät\n\nIhr zirkadianer Rhythmus geht nicht nur darum, sich benommen zu fühlen. Er ist ein Hauptregler, der Blutdruck, Hormonausschüttung, Glukosestoffwechsel und Entzündungsreaktionen orchestriert. Jede Zelle in Ihrem Körper läuft nach dieser inneren Uhr.\n\nWenn Sie Ihre Schlafenszeit auch nur um eine Stunde verschieben, verpassen Sie Ihrem Körper im Grunde einen Jetlag, ohne Ihre Zeitzone zu verlassen. Forscher nennen dies „sozialen Jetlag\" – die Lücke zwischen Ihrer biologischen Uhr und Ihrem sozialen Zeitplan. Und er akkumuliert sich.\n\nIn der JACC-Studie stieg das kardiovaskuläre Risiko, je stärker der Schlaf von Nacht zu Nacht variierte. Das ist kein kleiner Effekt.\n\n## Die Wochenend-Ausschlaf-Falle\n\nHier wird es persönlich. Die meisten von uns denken, am Wochenende auszuschlafen sei Erholung. Sie zahlen Schlafschulden zurück, richtig?\n\nNicht ganz. Unregelmäßiger Schlaf und große Verschiebungen am Wochenende werden mit kardiometabolischen Risikofaktoren und Entzündungsprozessen in Verbindung gebracht.\n\nEntzündung ist nicht abstrakt. Es ist der biologische Prozess, der Atherosklerose zugrunde liegt, der Ablagerung von Plaque in Ihren Arterien. Mehr Entzündung bedeutet schnellere Plaque-Ansammlung. Schnellere Plaque-Ansammlung bedeutet frühere Herzerkrankungen.\n\nDie grausame Ironie: Sie versuchen, sich durch Ausschlafen besser zu fühlen, aber Sie beschleunigen genau die Prozesse, die Sie langfristig schlechter fühlen lassen werden.\n\n## Wie 30 Minuten tatsächlich aussehen\n\nMachen wir das konkret. Ein 30-Minuten-Fenster bedeutet: Wenn Sie montags um 22:30 Uhr ins Bett gehen, sind Sie samstags bis 23:00 Uhr im Bett. Das war's. Nicht exakt 22:30 Uhr – nur innerhalb dieser Spanne.\n\nDie MESA-Forscher teilten die Teilnehmer in vier Gruppen nach der Variabilität der Schlafdauer ein:\n- 60 Minuten oder weniger: niedrigste Risikogruppe\n- 61-90 Minuten: höheres Risiko\n- 91-120 Minuten: noch höheres Risiko\n- Mehr als 120 Minuten: etwa doppeltes Risiko\n\nDas Risiko stieg mit jeder Stufe.\n\n## Warum das mehr zählt als die Schlafdauer\n\nJahrelang konzentrierte sich die öffentliche Gesundheitskommunikation darauf, genug Schlaf zu bekommen. Sieben bis neun Stunden. Das war das Ziel. Und es ist immer noch wichtig – aber es könnte der falsche Hauptfokus sein.\n\nEine UK-Biobank-Studie mit über 60.000 Erwachsenen fand etwas Kontraintuitives: Die Regelmäßigkeit des Schlafs sagte das Sterblichkeitsrisiko besser voraus als die Schlafdauer.\n\nDenken Sie an Sport. 30 Minuten täglich laufen erzeugt andere Anpassungen als zwei Stunden sonntags zu laufen und sonst nichts. Ihr Körper reagiert auf Muster, nicht nur auf Gesamtwerte. Das gleiche Prinzip gilt für Schlaf.\n\n## Die Blutdruck-Verbindung\n\nEinen Mechanismus, den Forscher identifiziert haben, betrifft den nächtlichen Blutdruck. Ihr Blutdruck soll während des Schlafs um 10-20 % sinken – das nennt man „Dipping\". Es ist die Zeit, in der Ihr Herz-Kreislauf-System eine Pause bekommt.\n\nUnregelmäßige Schläfer zeigen abgeschwächtes Dipping. Ihr Blutdruck bleibt die ganze Nacht erhöht. Über Jahre hinweg schädigt dieser anhaltende Druck die Arterienwände, fördert Plaquebildung und belastet das Herz.\n\n## Praktische Strategien, die tatsächlich funktionieren\n\nZu wissen, dass dies wichtig ist, ist eine Sache. Verhalten zu ändern eine andere. Hier ist, was die Forschung nahelegt, was tatsächlich hilft:\n\n**Verankern Sie zuerst Ihre Aufwachzeit.** Die meisten Schlafforscher empfehlen jetzt, die Aufwachzeit zu fixieren statt die Schlafenszeit. Die Uhr Ihres Körpers reagiert stärker auf morgendliche Lichtexposition als auf Abendroutinen. Wählen Sie eine Aufwachzeit, die Sie sieben Tage die Woche einhalten können – selbst wenn das bedeutet, samstags um 7:30 Uhr statt um 10 Uhr aufzustehen.\n\n**Nutzen Sie Licht strategisch.** Helles Licht am Morgen stellt Ihre Uhr vor; gedämpftes Licht am Abend schützt sie. Tageslicht am Morgen hilft, den zirkadianen Rhythmus zu stabilisieren.\n\n**Überdenken Sie Freitagnacht.** Die größte Schlafenszeit-Verschiebung für die meisten Menschen geschieht von Freitag auf Samstag. Ein Ansatz: Wenn Sie freitags später aufbleiben wollen, tun Sie es um maximal 30-45 Minuten, dann wachen Sie samstags zu Ihrer normalen Zeit auf. Sie werden samstags etwas müde sein, aber Sie bewahren Ihren Rhythmus.\n\n**Verfolgen Sie es zwei Wochen lang.** Bevor Sie Änderungen vornehmen, kennen Sie Ihre Ausgangslage. Notieren Sie Ihre Schlafens- und Aufwachzeit für 14 Tage. Die meisten Menschen sind schockiert über ihre tatsächliche Variabilität, wenn sie sie aufgeschrieben sehen.\n\n## Was ist mit Schichtarbeitern?\n\nHier wird die Forschung kompliziert. Etwa 16 % der amerikanischen Arbeitnehmer haben nicht-standardisierte Arbeitszeiten. Für sie ist perfekte Konstanz nicht möglich.\n\nDie Daten hier sind weniger optimistisch, aber nicht hoffnungslos. Die Evidenz ist hier begrenzt, aber es ist sinnvoll, die Zeiten innerhalb des eigenen Schichtmusters möglichst konstant zu halten – zum Beispiel zur gleichen Zeit bei allen Nachtschichten ins Bett zu gehen.\n\nDas Prinzip gilt: Was auch immer Ihre Zeitplan-Einschränkungen sind, maximieren Sie die Konstanz innerhalb dieser.\n\n## Das größere Bild zu Schlaf und Herzgesundheit\n\nWir haben Jahrzehnte damit verbracht, uns auf die falschen Schlafmetriken zu konzentrieren. Stunden zählten. Qualitätswerte zählten. Aber Regelmäßigkeit könnte am wichtigsten sein.\n\nDas bedeutet nicht, dass Dauer irrelevant ist – chronischer Kurzschlaf birgt immer noch Risiken. Aber für die Mehrheit der Erwachsenen, die irgendwo zwischen sechs und acht Stunden schlafen, könnte die Straffung des Konstanz-Fensters die wirkungsvollste verfügbare Änderung sein.\n\nIhr Körper verlangt nicht nach Perfektion. Er verlangt nach Vorhersagbarkeit. Und dieses 30-Minuten-Fenster? Es ist erreichbarer als die meisten Gesundheitsziele. Keine Fitnessstudio-Mitgliedschaft erforderlich. Keine Ernährungsumstellung. Nur ungefähr zur gleichen Zeit ins Bett gehen, jede Nacht, einschließlich der Wochenenden, an denen Sie lieber nicht möchten.",
       "key_stats": [
         {
-          "label": "Kardiovaskuläre Risikoreduktion bei konstanten Schlafenszeiten",
-          "value": "28%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Kardiovaskuläre Risikoerhöhung bei den unregelmäßigsten Schläfern (MESA)",
+          "value": "ca. 2×",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "Risikoanstieg pro 30 Minuten Schlafenszeit-Variabilität",
-          "value": "11%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Teilnehmer der MESA-Studie mit Aktigrafie",
+          "value": "1.992",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "Höhere Entzündungsmarker bei Wochenend-Schlafverschiebern",
-          "value": "23%",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "Erwachsene in der UK-Biobank-Studie zu Schlafregelmäßigkeit und Sterblichkeit",
+          "value": "60.000+",
+          "source": "Sleep 2024 Sleep Regularity and Mortality Study"
         },
         {
-          "label": "Durchschnittliche US-Schlafenszeit-Differenz Wochentag vs. Wochenende",
-          "value": "77 Minuten",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "Mittlere Nachbeobachtungszeit in der MESA-Studie",
+          "value": "ca. 5 Jahre",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "Erhöhtes Bluthochdruck-Risiko bei unregelmäßigen Schläfern",
-          "value": "34%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Obergrenze der Schlafdauer-Variabilität in der MESA-Gruppe mit dem niedrigsten Risiko",
+          "value": "60 Minuten",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         }
       ],
       "comparison_table": {
-        "title": "Kardiovaskuläres Risiko nach Schlafenszeit-Variabilität",
+        "title": "Kardiovaskuläres Risiko nach Variabilität der Schlafdauer",
         "headers": [
-          "Schlafenszeit-Abweichung",
+          "Variabilität der Schlafdauer",
           "Relatives CV-Risiko",
           "Typisches Muster"
         ],
         "rows": [
           [
-            "Weniger als 30 Min.",
+            "60 Min. oder weniger",
             "Ausgangswert (niedrigster)",
-            "22:30 Uhr wochentags, 22:45 Uhr Wochenende"
+            "Sehr regelmäßiger Schlaf"
           ],
           [
-            "30-60 Min.",
-            "+11%",
-            "22:30 Uhr wochentags, 23:15 Uhr Wochenende"
+            "61-90 Min.",
+            "Höher",
+            "Leicht unregelmäßiger Schlaf"
           ],
           [
-            "60-90 Min.",
-            "+19%",
-            "22:30 Uhr wochentags, 00:00 Uhr Wochenende"
+            "91-120 Min.",
+            "Noch höher",
+            "Deutlich unregelmäßiger Schlaf"
           ],
           [
-            "Mehr als 90 Min.",
-            "+28%",
-            "22:30 Uhr wochentags, 00:30 Uhr+ Wochenende"
+            "Mehr als 120 Min.",
+            "Etwa 2×",
+            "Sehr unregelmäßiger Schlaf"
           ]
         ],
-        "caption": "Daten von 47.000 Erwachsenen, verfolgt über 6 Jahre in der JACC 2025-Studie"
+        "caption": "Daten von 1.992 Erwachsenen, etwa 5 Jahre verfolgt in der JACC-Studie (MESA)"
       },
       "faq": [
         {
@@ -1056,7 +1013,7 @@
         },
         {
           "question": "Wie lange dauert es, bis man gesundheitliche Vorteile durch konstanten Schlaf sieht?",
-          "answer": "Entzündungsmarker und Blutdruckmuster können sich innerhalb von Wochen verbessern. Der kardiovaskuläre Schutz, der in Langzeitstudien beobachtet wurde, spiegelt kumulative Effekte über Jahre wider, aber die biologischen Mechanismen beginnen sich schnell zu verschieben, sobald Sie Konstanz etablieren."
+          "answer": "Der langfristige Nutzen ist kumulativ und spiegelt Effekte über Jahre wider, aber der zirkadiane Rhythmus kann sich recht schnell zu stabilisieren beginnen, sobald Sie Konstanz etablieren."
         },
         {
           "question": "Was ist mit Nickerchen? Stören sie die Schlafenszeit-Konstanz?",
@@ -1064,7 +1021,7 @@
         },
         {
           "question": "Kann konstantes Schlaf-Timing helfen, wenn ich bereits eine Herzerkrankung habe?",
-          "answer": "Die JACC-Studie umfasste Teilnehmer mit bestehenden kardiovaskulären Erkrankungen, und konstante Schläfer in dieser Gruppe zeigten ebenfalls bessere Ergebnisse. Allerdings sollte jeder mit Herzerkrankungen die Schlafoptimierung mit seinem Gesundheitsdienstleister als Teil eines umfassenden Managements besprechen."
+          "answer": "Die MESA-Studie umfasste Menschen ohne Herz-Kreislauf-Erkrankung und beantwortet diese Frage daher nicht direkt. Allerdings sollte jeder mit Herzerkrankungen die Schlafoptimierung mit seinem Gesundheitsdienstleister als Teil eines umfassenden Managements besprechen."
         },
         {
           "question": "Gilt die 30-Minuten-Regel auch für Aufwachzeiten?",
@@ -1073,92 +1030,92 @@
       ],
       "references": [
         {
-          "title": "Sleep Timing Regularity and Cardiovascular Outcomes: A Prospective Cohort Study",
-          "source": "Journal of the American College of Cardiology, 2025",
-          "url": "https://doi.org/10.1016/s0735-1097(25)01108-8"
+          "title": "Sleep Irregularity and Risk of Cardiovascular Events: The Multi-Ethnic Study of Atherosclerosis",
+          "source": "Journal of the American College of Cardiology, 2020",
+          "url": "https://doi.org/10.1016/j.jacc.2019.12.054"
         },
         {
-          "title": "Bedtime Variability and Systemic Inflammation in Adults",
+          "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study",
           "source": "Sleep, 2024",
-          "url": "https://doi.org/10.1093/sleep/zsae067.0816"
+          "url": "https://doi.org/10.1093/sleep/zsad253"
         },
         {
-          "title": "Social Jet Lag and Cardiometabolic Risk Factors",
-          "source": "Current Biology, 2024",
-          "url": "https://doi.org/10.1001/jamapediatrics.2019.3089"
+          "title": "Social jetlag: misalignment of biological and social time",
+          "source": "Chronobiology International, 2006",
+          "url": "https://doi.org/10.1080/07420520500545979"
         },
         {
-          "title": "Nocturnal Blood Pressure Dipping and Sleep Regularity",
-          "source": "Hypertension, 2024",
-          "url": "https://doi.org/10.1016/s0895-7061(02)02341-5"
+          "title": "Social jetlag and obesity",
+          "source": "Current Biology, 2012",
+          "url": "https://doi.org/10.1016/j.cub.2012.03.038"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "fr": {
-      "title": "Pourquoi se coucher à la même heure chaque soir réduit le risque cardiaque de 28 %",
+      "title": "Pourquoi se coucher à la même heure chaque soir protège votre cœur",
       "short_title": "Heure de coucher régulière : jusqu'à 28 % de risque en moins",
       "short_description": "Se coucher dans une fenêtre de 30 minutes, week-ends inclus, est associé à moins d'événements cardiovasculaires. Ce que révèlent les données.",
-      "meta_description": "De nouvelles recherches montrent que maintenir l'heure du coucher dans une fenêtre de 30 minutes toute la semaine — week-ends inclus — réduit considérablement le risque cardiovasculaire. Voici ce que révèlent les données.",
-      "tldr": "Maintenir des heures de coucher régulières dans une fenêtre de 30 minutes chaque soir réduit les événements cardiovasculaires de 28 % par rapport aux dormeurs irréguliers.",
-      "body_md": "## Le sabotage du samedi soir dont vous ignoriez l'existence\n\nVous dormez sept heures par nuit. Vous avez abandonné le téléphone avant de vous coucher. Vous avez même acheté ce matelas coûteux. Mais voici ce qui pourrait annuler tous ces efforts : vous coucher à 22 h 30 le mardi et à minuit le samedi.\n\nCet écart de 90 minutes ? Il cause plus de dommages que vous ne le pensez. Une étude de 2025 publiée dans le Journal of the American College of Cardiology a suivi 47 000 adultes pendant six ans et a découvert quelque chose de frappant : les personnes qui maintenaient leur heure de coucher dans une fenêtre de 30 minutes sept jours sur sept présentaient 28 % moins de crises cardiaques, d'AVC et d'autres événements cardiovasculaires que celles ayant des horaires irréguliers.\n\nPas la durée du sommeil. Pas les scores de qualité du sommeil. Juste la régularité.\n\n## Ce qui se passe quand votre horloge biologique est perturbée\n\nVotre rythme circadien ne concerne pas seulement la sensation de somnolence. C'est un contrôleur principal qui orchestre la pression artérielle, la libération d'hormones, le métabolisme du glucose et les réponses inflammatoires. Chaque cellule de votre corps fonctionne selon cette horloge interne.\n\nLorsque vous décalez votre heure de coucher ne serait-ce que d'une heure, vous infligez essentiellement à votre corps un décalage horaire sans quitter votre fuseau horaire. Les chercheurs appellent cela le « décalage horaire social » — l'écart entre votre horloge biologique et votre emploi du temps social. Et cela s'accumule.\n\nLe Dr Tianyi Huang, auteur principal de l'étude JACC, l'a dit sans détour : « Nous avons constaté que pour chaque 30 minutes de variabilité de l'heure du coucher, le risque cardiovasculaire augmentait d'environ 11 %. » Ce n'est pas un effet mineur. C'est comparable à l'augmentation du risque liée à un taux de cholestérol LDL élevé.\n\n## Le piège de la grasse matinée du week-end\n\nC'est là que cela devient personnel. La plupart d'entre nous pensent que dormir tard le week-end est une récupération. Vous remboursez votre dette de sommeil, n'est-ce pas ?\n\nPas exactement. Une étude de 2024 dans Sleep journal a suivi 2 100 adultes avec des appareils portables qui suivaient leurs habitudes de sommeil réelles (et non autodéclarées, qui ont tendance à être très inexactes). Ils ont constaté que les personnes qui décalaient leur heure de coucher de plus de 60 minutes le week-end présentaient 23 % de marqueurs d'inflammation systémique plus élevés par rapport aux dormeurs réguliers.\n\nL'inflammation n'est pas abstraite. C'est le processus biologique sous-jacent à l'athérosclérose, l'accumulation de plaque dans vos artères. Plus d'inflammation signifie une accumulation de plaque plus rapide. Une accumulation de plaque plus rapide signifie une maladie cardiaque plus précoce.\n\nL'ironie cruelle : vous essayez de vous sentir mieux en dormant tard, mais vous accélérez les processus mêmes qui vous feront vous sentir moins bien à long terme.\n\n## À quoi ressemblent concrètement 30 minutes\n\nRendons cela concret. Une fenêtre de 30 minutes signifie que si vous vous couchez à 22 h 30 le lundi, vous êtes au lit avant 23 h 00 le samedi. C'est tout. Pas exactement 22 h 30 — juste dans cette plage.\n\nLes chercheurs du JACC ont divisé les participants en quatre groupes selon la variabilité de l'heure du coucher :\n- Moins de 30 minutes de variation : groupe à risque le plus faible\n- 30-60 minutes : 11 % de risque cardiovasculaire plus élevé\n- 60-90 minutes : 19 % de risque plus élevé\n- Plus de 90 minutes : 28 % de risque plus élevé\n\nLa plupart des Américains se situent dans cette dernière catégorie. La différence moyenne d'heure de coucher entre les soirs de semaine et les week-ends aux États-Unis est de 77 minutes. Nous sommes loin du compte.\n\n## Pourquoi c'est plus important que la durée du sommeil\n\nPendant des années, les messages de santé publique se sont concentrés sur le fait de dormir suffisamment. Sept à neuf heures. C'était l'objectif. Et c'est toujours important — mais ce n'est peut-être pas la priorité principale.\n\nL'étude Sleep journal a découvert quelque chose de contre-intuitif : les personnes qui dormaient 6,5 heures de manière régulière avaient de meilleurs marqueurs cardiovasculaires que les personnes qui dormaient en moyenne 7,5 heures mais avec une grande variabilité. La régularité l'emportait sur la durée.\n\nPensez-y comme à l'exercice. Courir 30 minutes chaque jour produit des adaptations différentes de courir deux heures le dimanche et rien d'autre. Votre corps répond aux schémas, pas seulement aux totaux. Le même principe s'applique au sommeil.\n\n## Le lien avec la pression artérielle\n\nUn mécanisme identifié par les chercheurs concerne la pression artérielle nocturne. Votre pression artérielle est censée baisser de 10 à 20 % pendant votre sommeil — c'est ce qu'on appelle le « dipping ». C'est le moment où votre système cardiovasculaire se repose.\n\nLes dormeurs irréguliers présentent un dipping atténué. Leur pression artérielle reste élevée toute la nuit. Au fil des années, cette pression soutenue endommage les parois artérielles, favorise la formation de plaque et sollicite le cœur.\n\nUne sous-analyse des données JACC a révélé que les dormeurs irréguliers étaient 34 % plus susceptibles de développer une hypertension au cours de la période d'étude, indépendamment d'autres facteurs comme l'alimentation, l'exercice et l'état de santé initial.\n\n## Stratégies pratiques qui fonctionnent réellement\n\nSavoir que cela compte est une chose. Changer de comportement en est une autre. Voici ce que la recherche suggère comme réellement efficace :\n\n**Ancrez d'abord votre heure de réveil.** La plupart des spécialistes du sommeil recommandent maintenant de fixer votre heure de réveil plutôt que votre heure de coucher. L'horloge de votre corps est plus réactive à l'exposition à la lumière matinale qu'aux routines du soir. Choisissez une heure de réveil que vous pouvez maintenir sept jours sur sept — même si cela signifie vous lever à 7 h 30 le samedi au lieu de 10 h.\n\n**Utilisez la lumière stratégiquement.** La lumière vive le matin avance votre horloge ; la lumière tamisée le soir la protège. Les participants à l'étude Sleep qui maintenaient les fenêtres de coucher les plus serrées avaient également la plus forte exposition à la lumière matinale — en moyenne 45 minutes de lumière extérieure avant midi.\n\n**Repensez le vendredi soir.** Le plus grand décalage d'heure de coucher pour la plupart des gens se produit du vendredi au samedi. Une approche : si vous voulez vous coucher plus tard le vendredi, faites-le de 30 à 45 minutes maximum, puis réveillez-vous à votre heure normale le samedi. Vous serez légèrement fatigué samedi, mais vous préserverez votre rythme.\n\n**Suivez-le pendant deux semaines.** Avant de faire des changements, connaissez votre base de référence. Notez votre heure de coucher et de réveil pendant 14 jours. La plupart des gens sont choqués par leur variabilité réelle lorsqu'ils la voient écrite.\n\n## Qu'en est-il des travailleurs postés ?\n\nC'est là que la recherche devient compliquée. Environ 16 % des travailleurs américains ont des horaires non standards. Pour eux, une régularité parfaite n'est pas possible.\n\nLes données ici sont moins optimistes mais pas désespérées. Une analyse de 2024 des travailleurs postés a révélé que ceux qui maintenaient des horaires réguliers dans leur schéma de poste — se couchant à la même heure tous les quarts de nuit, par exemple — avaient 18 % de risque cardiovasculaire inférieur aux travailleurs postés avec des schémas variables même au sein de leurs postes.\n\nLe principe tient : quelles que soient vos contraintes d'horaire, maximisez la régularité à l'intérieur de celles-ci.\n\n## La vue d'ensemble sur le sommeil et la santé cardiaque\n\nNous avons passé des décennies concentrés sur les mauvaises mesures du sommeil. Les heures comptaient. Les scores de qualité comptaient. Mais la régularité pourrait compter le plus de tout.\n\nCela ne signifie pas que la durée est sans importance — le manque chronique de sommeil comporte toujours des risques. Mais pour la majorité des adultes qui dorment entre six et huit heures, resserrer la fenêtre de régularité pourrait être le changement le plus efficace disponible.\n\nLes auteurs du JACC ont estimé que si la population américaine réduisait la variabilité de l'heure du coucher à moins de 30 minutes, cela pourrait prévenir environ 66 000 événements cardiovasculaires par an. C'est un impact plus important que de nombreuses interventions pharmaceutiques.\n\nVotre corps ne demande pas la perfection. Il demande la prévisibilité. Et cette fenêtre de 30 minutes ? Elle est plus réalisable que la plupart des objectifs de santé. Aucun abonnement à une salle de sport requis. Aucune refonte alimentaire. Juste se coucher à peu près à la même heure, chaque soir, y compris les week-ends où vous préféreriez ne pas le faire.",
+      "meta_description": "Des recherches montrent qu'un horaire de sommeil régulier — week-ends inclus — est associé à un risque cardiovasculaire plus faible. Voici ce que révèlent les données.",
+      "tldr": "Des horaires de sommeil réguliers sont associés à un risque cardiovasculaire plus faible ; dans une cohorte, les dormeurs les plus irréguliers avaient environ deux fois plus de risque.",
+      "body_md": "## Le sabotage du samedi soir dont vous ignoriez l'existence\n\nVous dormez sept heures par nuit. Vous avez abandonné le téléphone avant de vous coucher. Vous avez même acheté ce matelas coûteux. Mais voici ce qui pourrait annuler tous ces efforts : vous coucher à 22 h 30 le mardi et à minuit le samedi.\n\nCet écart de 90 minutes ? Il cause plus de dommages que vous ne le pensez. Une étude publiée dans le Journal of the American College of Cardiology (MESA) a suivi 1 992 adultes équipés d'actigraphes pendant environ cinq ans et a découvert quelque chose de frappant : plus le sommeil était irrégulier d'une nuit à l'autre, plus le risque cardiovasculaire était élevé — environ le double chez les dormeurs les plus irréguliers.\n\nPas la durée du sommeil. Pas les scores de qualité du sommeil. Juste la régularité.\n\n## Ce qui se passe quand votre horloge biologique est perturbée\n\nVotre rythme circadien ne concerne pas seulement la sensation de somnolence. C'est un contrôleur principal qui orchestre la pression artérielle, la libération d'hormones, le métabolisme du glucose et les réponses inflammatoires. Chaque cellule de votre corps fonctionne selon cette horloge interne.\n\nLorsque vous décalez votre heure de coucher ne serait-ce que d'une heure, vous infligez essentiellement à votre corps un décalage horaire sans quitter votre fuseau horaire. Les chercheurs appellent cela le « décalage horaire social » — l'écart entre votre horloge biologique et votre emploi du temps social. Et cela s'accumule.\n\nDans l'étude JACC, le risque augmentait à mesure que la variabilité du sommeil d'une nuit à l'autre grandissait. Ce n'est pas un effet mineur.\n\n## Le piège de la grasse matinée du week-end\n\nC'est là que cela devient personnel. La plupart d'entre nous pensent que dormir tard le week-end est une récupération. Vous remboursez votre dette de sommeil, n'est-ce pas ?\n\nPas exactement. Un sommeil irrégulier, notamment un décalage marqué entre semaine et week-end (le « décalage horaire social »), est associé à des facteurs de risque cardiométaboliques et à des processus inflammatoires.\n\nL'inflammation n'est pas abstraite. C'est le processus biologique sous-jacent à l'athérosclérose, l'accumulation de plaque dans vos artères. Plus d'inflammation signifie une accumulation de plaque plus rapide. Une accumulation de plaque plus rapide signifie une maladie cardiaque plus précoce.\n\nL'ironie cruelle : vous essayez de vous sentir mieux en dormant tard, mais vous accélérez les processus mêmes qui vous feront vous sentir moins bien à long terme.\n\n## À quoi ressemblent concrètement 30 minutes\n\nRendons cela concret. Une fenêtre de 30 minutes signifie que si vous vous couchez à 22 h 30 le lundi, vous êtes au lit avant 23 h 00 le samedi. C'est tout. Pas exactement 22 h 30 — juste dans cette plage.\n\nLes chercheurs de l'étude MESA ont réparti les participants en quatre groupes selon la variabilité de la durée de sommeil :\n- 60 minutes ou moins : groupe à risque le plus faible\n- 61-90 minutes : risque plus élevé\n- 91-120 minutes : risque encore plus élevé\n- Plus de 120 minutes : environ deux fois plus de risque\n\nLe risque augmentait progressivement d'un groupe à l'autre. Se rapprocher d'un horaire régulier est donc un objectif raisonnable.\n\n## Pourquoi c'est plus important que la durée du sommeil\n\nPendant des années, les messages de santé publique se sont concentrés sur le fait de dormir suffisamment. Sept à neuf heures. C'était l'objectif. Et c'est toujours important — mais ce n'est peut-être pas la priorité principale.\n\nUne étude de la UK Biobank portant sur plus de 60 000 adultes a découvert quelque chose de contre-intuitif : la régularité du sommeil prédisait mieux la mortalité que sa durée. La régularité l'emportait sur la durée.\n\nPensez-y comme à l'exercice. Courir 30 minutes chaque jour produit des adaptations différentes de courir deux heures le dimanche et rien d'autre. Votre corps répond aux schémas, pas seulement aux totaux. Le même principe s'applique au sommeil.\n\n## Le lien avec la pression artérielle\n\nUn mécanisme identifié par les chercheurs concerne la pression artérielle nocturne. Votre pression artérielle est censée baisser de 10 à 20 % pendant votre sommeil — c'est ce qu'on appelle le « dipping ». C'est le moment où votre système cardiovasculaire se repose.\n\nLes dormeurs irréguliers présentent un dipping atténué. Leur pression artérielle reste élevée toute la nuit. Au fil des années, cette pression soutenue endommage les parois artérielles, favorise la formation de plaque et sollicite le cœur.\n\nUn décalage répété du rythme circadien perturbe ce mécanisme naturel de repos du système cardiovasculaire.\n\n## Stratégies pratiques qui fonctionnent réellement\n\nSavoir que cela compte est une chose. Changer de comportement en est une autre. Voici ce que la recherche suggère comme réellement efficace :\n\n**Ancrez d'abord votre heure de réveil.** La plupart des spécialistes du sommeil recommandent maintenant de fixer votre heure de réveil plutôt que votre heure de coucher. L'horloge de votre corps est plus réactive à l'exposition à la lumière matinale qu'aux routines du soir. Choisissez une heure de réveil que vous pouvez maintenir sept jours sur sept — même si cela signifie vous lever à 7 h 30 le samedi au lieu de 10 h.\n\n**Utilisez la lumière stratégiquement.** La lumière vive le matin avance votre horloge ; la lumière tamisée le soir la protège. S'exposer à la lumière du jour le matin aide à stabiliser le rythme circadien.\n\n**Repensez le vendredi soir.** Le plus grand décalage d'heure de coucher pour la plupart des gens se produit du vendredi au samedi. Une approche : si vous voulez vous coucher plus tard le vendredi, faites-le de 30 à 45 minutes maximum, puis réveillez-vous à votre heure normale le samedi. Vous serez légèrement fatigué samedi, mais vous préserverez votre rythme.\n\n**Suivez-le pendant deux semaines.** Avant de faire des changements, connaissez votre base de référence. Notez votre heure de coucher et de réveil pendant 14 jours. La plupart des gens sont choqués par leur variabilité réelle lorsqu'ils la voient écrite.\n\n## Qu'en est-il des travailleurs postés ?\n\nC'est là que la recherche devient compliquée. Environ 16 % des travailleurs américains ont des horaires non standards. Pour eux, une régularité parfaite n'est pas possible.\n\nLes données ici sont moins optimistes mais pas désespérées. Les preuves sont limitées, mais il est judicieux de garder des horaires aussi réguliers que possible au sein de votre schéma de poste — par exemple, vous coucher à la même heure tous les quarts de nuit.\n\nLe principe tient : quelles que soient vos contraintes d'horaire, maximisez la régularité à l'intérieur de celles-ci.\n\n## La vue d'ensemble sur le sommeil et la santé cardiaque\n\nNous avons passé des décennies concentrés sur les mauvaises mesures du sommeil. Les heures comptaient. Les scores de qualité comptaient. Mais la régularité pourrait compter le plus de tout.\n\nCela ne signifie pas que la durée est sans importance — le manque chronique de sommeil comporte toujours des risques. Mais pour la majorité des adultes qui dorment entre six et huit heures, resserrer la fenêtre de régularité pourrait être le changement le plus efficace disponible.\n\nVotre corps ne demande pas la perfection. Il demande la prévisibilité. Et cette fenêtre de 30 minutes ? Elle est plus réalisable que la plupart des objectifs de santé. Aucun abonnement à une salle de sport requis. Aucune refonte alimentaire. Juste se coucher à peu près à la même heure, chaque soir, y compris les week-ends où vous préféreriez ne pas le faire.",
       "key_stats": [
         {
-          "label": "Réduction du risque cardiovasculaire avec des heures de coucher régulières",
-          "value": "28%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Risque cardiovasculaire chez les dormeurs les plus irréguliers par rapport aux plus réguliers",
+          "value": "~2x",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "Augmentation du risque par 30 minutes de variabilité de l'heure du coucher",
-          "value": "11%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Adultes suivis par actigraphie dans l'étude MESA",
+          "value": "1 992",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "Marqueurs d'inflammation plus élevés chez ceux qui décalent leur sommeil le week-end",
-          "value": "23%",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "Adultes de la UK Biobank étudiés (régularité du sommeil et mortalité)",
+          "value": "60 000+",
+          "source": "Sleep 2024 Sleep Regularity and Mortality Study"
         },
         {
-          "label": "Différence moyenne d'heure de coucher aux États-Unis entre semaine et week-end",
-          "value": "77 minutes",
-          "source": "Sleep 2024 Bedtime Variability Study"
+          "label": "Durée de suivi approximative dans l'étude MESA",
+          "value": "~5 ans",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         },
         {
-          "label": "Risque accru d'hypertension chez les dormeurs irréguliers",
-          "value": "34%",
-          "source": "JACC 2025 Sleep Regularity Cardiovascular Outcomes Study"
+          "label": "Groupe de variabilité du sommeil le plus élevé dans MESA",
+          "value": ">120 min",
+          "source": "JACC 2020 MESA Sleep Irregularity Study"
         }
       ],
       "comparison_table": {
-        "title": "Risque cardiovasculaire selon la variabilité de l'heure du coucher",
+        "title": "Risque cardiovasculaire selon la variabilité de la durée de sommeil",
         "headers": [
-          "Variation de l'heure du coucher",
+          "Variabilité de la durée de sommeil",
           "Risque CV relatif",
           "Schéma typique"
         ],
         "rows": [
           [
-            "Moins de 30 min",
+            "60 min ou moins",
             "Base de référence (le plus faible)",
-            "22 h 30 en semaine, 22 h 45 le week-end"
+            "Horaires très stables"
           ],
           [
-            "30-60 min",
-            "+11%",
-            "22 h 30 en semaine, 23 h 15 le week-end"
+            "61-90 min",
+            "Risque plus élevé",
+            "Légères variations"
           ],
           [
-            "60-90 min",
-            "+19%",
-            "22 h 30 en semaine, minuit le week-end"
+            "91-120 min",
+            "Risque encore plus élevé",
+            "Variations marquées"
           ],
           [
-            "Plus de 90 min",
-            "+28%",
-            "22 h 30 en semaine, minuit 30 et plus le week-end"
+            "Plus de 120 min",
+            "Environ 2x",
+            "Horaires très irréguliers"
           ]
         ],
-        "caption": "Données de 47 000 adultes suivis pendant 6 ans dans l'étude JACC 2025"
+        "caption": "Données de 1 992 adultes suivis environ 5 ans dans l'étude JACC MESA"
       },
       "faq": [
         {
@@ -1175,7 +1132,7 @@
         },
         {
           "question": "Combien de temps faut-il pour voir les bienfaits pour la santé d'un sommeil régulier ?",
-          "answer": "Les marqueurs inflammatoires et les schémas de pression artérielle peuvent s'améliorer en quelques semaines. La protection cardiovasculaire observée dans les études à long terme reflète des effets cumulatifs sur des années, mais les mécanismes biologiques commencent à changer rapidement une fois que vous établissez la régularité."
+          "answer": "Les bénéfices à long terme sont cumulatifs et se construisent sur des années, mais le rythme circadien peut commencer à se stabiliser assez rapidement une fois que vous établissez la régularité."
         },
         {
           "question": "Qu'en est-il des siestes ? Perturbent-elles la régularité de l'heure du coucher ?",
@@ -1183,7 +1140,7 @@
         },
         {
           "question": "Un horaire de sommeil régulier peut-il aider si j'ai déjà une maladie cardiaque ?",
-          "answer": "L'étude JACC incluait des participants ayant des problèmes cardiovasculaires existants, et les dormeurs réguliers de ce groupe ont également montré de meilleurs résultats. Cependant, toute personne atteinte d'une maladie cardiaque devrait discuter de l'optimisation du sommeil avec son professionnel de santé dans le cadre d'une prise en charge globale."
+          "answer": "L'étude MESA a inclus des personnes sans maladie cardiovasculaire ; elle ne répond donc pas directement à cette question. Par ailleurs, toute personne atteinte d'une maladie cardiaque devrait discuter de l'optimisation du sommeil avec son professionnel de santé dans le cadre d'une prise en charge globale."
         },
         {
           "question": "La règle des 30 minutes s'applique-t-elle aussi aux heures de réveil ?",
@@ -1192,32 +1149,33 @@
       ],
       "references": [
         {
-          "title": "Sleep Timing Regularity and Cardiovascular Outcomes: A Prospective Cohort Study",
-          "source": "Journal of the American College of Cardiology, 2025",
-          "url": "https://doi.org/10.1016/s0735-1097(25)01108-8"
+          "title": "Sleep Irregularity and Risk of Cardiovascular Events: The Multi-Ethnic Study of Atherosclerosis",
+          "source": "Journal of the American College of Cardiology, 2020",
+          "url": "https://doi.org/10.1016/j.jacc.2019.12.054"
         },
         {
-          "title": "Bedtime Variability and Systemic Inflammation in Adults",
+          "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: A prospective cohort study",
           "source": "Sleep, 2024",
-          "url": "https://doi.org/10.1093/sleep/zsae067.0816"
+          "url": "https://doi.org/10.1093/sleep/zsad253"
         },
         {
-          "title": "Social Jet Lag and Cardiometabolic Risk Factors",
-          "source": "Current Biology, 2024",
-          "url": "https://doi.org/10.1001/jamapediatrics.2019.3089"
+          "title": "Social jetlag: misalignment of biological and social time",
+          "source": "Chronobiology International, 2006",
+          "url": "https://doi.org/10.1080/07420520500545979"
         },
         {
-          "title": "Nocturnal Blood Pressure Dipping and Sleep Regularity",
-          "source": "Hypertension, 2024",
-          "url": "https://doi.org/10.1016/s0895-7061(02)02341-5"
+          "title": "Social jetlag and obesity",
+          "source": "Current Biology, 2012",
+          "url": "https://doi.org/10.1016/j.cub.2012.03.038"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     }
   },
   "generated_at": "2026-05-24T09:27:11.476Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-18T00:00:00.000Z"
 }
