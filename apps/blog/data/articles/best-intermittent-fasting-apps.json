@@ -738,7 +738,7 @@
           "answer": "在 TREAT 和 Liu 這兩項隨機試驗裡，單靠時段並沒有帶來顯著的額外減重。12 週的 TREAT 試驗中，16:8 時段沒有勝過一天正常三餐；12 個月的試驗裡，在限制熱量之外再加上時段，也沒有顯著多減。它幫助的是覺得「劃時段」比較容易執行的人。"
         },
         {
-          "question": "在用 Wegovy 或 Zepbound／Mounjaro 這類 GLP-1 時可以斷食嗎？",
+          "question": "在用 Wegovy 或猛健樂（Mounjaro）這類 GLP-1 時可以斷食嗎？",
           "answer": "請和開立處方的醫師一起決定，特別是同時使用胰島素或其他降血糖藥物的人。GLP-1 常讓食慾變低，三餐自然拉開，比較大的風險通常是蛋白質吃不夠；如果出現嘔吐或腹瀉，先補充水分，不要硬撐斷食。把 GLP-1 用藥和飲食記在同一款 App 裡，這件事才看得見。"
         },
         {
@@ -792,7 +792,7 @@
           "url": "https://apps.apple.com/tw/app/id1523007967"
         }
       ],
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Mejores apps de ayuno intermitente en 2026: más allá del temporizador",
@@ -1618,5 +1618,5 @@
     }
   },
   "generated_at": "2026-10-16T00:00:00.000Z",
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

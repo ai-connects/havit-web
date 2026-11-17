@@ -593,7 +593,7 @@
         },
         {
           "question": "所有 GLP-1 藥物減少食物噪音的效果都一樣嗎？",
-          "answer": "早期比較數據顯示，semaglutide（Ozempic/Wegovy）和 tirzepatide（Mounjaro/Zepbound）產生的食物噪音減少效果相似。較舊的 GLP-1 藥物如 liraglutide 在這個特定效果上似乎較不有效，可能是因為穿透大腦的程度較低。"
+          "answer": "早期比較數據顯示，semaglutide（Ozempic/Wegovy）和 tirzepatide（猛健樂）產生的食物噪音減少效果相似。較舊的 GLP-1 藥物如 liraglutide 在這個特定效果上似乎較不有效，可能是因為穿透大腦的程度較低。"
         }
       ],
       "references": [
@@ -618,7 +618,7 @@
           "url": "https://doi.org/10.1016/s1053-8119(09)71559-9"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "¿En qué semana desaparece el ruido mental por la comida con Ozempic? La línea temporal neurobiológica explicada",
@@ -1246,5 +1246,5 @@
     "naturalness_pass": 1,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

@@ -576,7 +576,7 @@
         },
         {
           "question": "2 個月原則適用於所有 GLP-1 藥物嗎？",
-          "answer": "不是。不同的 GLP-1 受體促效劑有不同的半衰期。Liraglutide（Saxenda）清除較快，建議的清除期較短。Tirzepatide（Mounjaro/Zepbound）的半衰期與 semaglutide 相似。請務必查看您所用藥物的特定指引。"
+          "answer": "不是。不同的 GLP-1 受體促效劑有不同的半衰期。Liraglutide（Saxenda）清除較快，建議的清除期較短。Tirzepatide（猛健樂）的半衰期與 semaglutide 相似。請務必查看您所用藥物的特定指引。"
         },
         {
           "question": "如何在清除期間預防體重回升？",
@@ -614,7 +614,7 @@
           "url": "https://doi.org/10.1097/ogx.0000000000001543"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Ozempic y planificación del embarazo: Guía completa de tiempos de eliminación para 2026",
@@ -1237,5 +1237,5 @@
     "naturalness_pass": 1,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

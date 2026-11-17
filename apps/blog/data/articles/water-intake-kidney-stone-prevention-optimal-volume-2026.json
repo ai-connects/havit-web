@@ -708,7 +708,7 @@
         },
         {
           "question": "「每天八杯水」對預防結石夠嗎？",
-          "answer": "八杯 8 盎司的水約 1.9 公升——通常不足以達到指引為結石患者建議的每天 2.5 公升尿量。把它當作一般健康的最低量，而不是預防結石的目標。"
+          "answer": "八杯約 240 毫升的水約 1.9 公升——通常不足以達到指引為結石患者建議的每天 2.5 公升尿量。把它當作一般健康的最低量，而不是預防結石的目標。"
         },
         {
           "question": "水溫會影響腎結石預防效果嗎？",
@@ -752,7 +752,7 @@
           "url": "https://doi.org/10.1016/j.eururo.2009.03.031"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "¿Cuánta agua necesitas realmente para prevenir cálculos renales? El mito de los 2.5L vs. la ciencia actual",
@@ -1511,7 +1511,7 @@
     }
   },
   "generated_at": "2026-05-24T12:06:19.944Z",
-  "updated_at": "2026-10-08T06:59:23.000Z",
+  "updated_at": "2026-11-17T00:00:00.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1

@@ -240,7 +240,7 @@
             "每週注射約 4〜5 週後"
           ],
           [
-            "tirzepatide（猛健樂·Zepbound）",
+            "tirzepatide（猛健樂）",
             "約 5 天",
             "數天內",
             "每週注射數週內"
@@ -249,7 +249,7 @@
       },
       "faq": [],
       "references": [],
-      "last_updated": "2026-07-06"
+      "last_updated": "2026-11-17"
     },
     "de": {
       "title": "GLP-1-Plotter: Medikamentenspiegel & Gewichtsverlauf im Zeitverlauf grafisch darstellen",
@@ -842,5 +842,5 @@
     }
   },
   "generated_at": "2026-08-14T00:00:00.000Z",
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

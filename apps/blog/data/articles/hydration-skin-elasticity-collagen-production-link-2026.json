@@ -609,7 +609,7 @@
           [
             "成本",
             "幾乎免費",
-            "每件產品 $500-$6000+ 不等"
+            "每件產品約新台幣16,000元至192,000元以上不等"
           ],
           [
             "最適合用於",
@@ -674,7 +674,7 @@
           "url": "https://doi.org/10.1111/srt.13709"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Por qué tu piel necesita agua desde dentro: La conexión entre hidratación y colágeno",
@@ -1366,5 +1366,6 @@
   "iterations": {
     "naturalness_pass": 3,
     "reviewer_pass": 1
-  }
+  },
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

@@ -626,7 +626,7 @@
         },
         {
           "question": "間歇性療程的最佳 fisetin 劑量是多少？",
-          "answer": "人體試驗使用每公斤體重 20mg，相當於 70 公斤（154 磅）的人約 1,400mg。連續兩天服用，然後整個月不再服用。與含脂肪的食物一起服用可顯著提高吸收率。"
+          "answer": "人體試驗使用每公斤體重 20mg，相當於 70 公斤的人約 1,400mg。連續兩天服用，然後整個月不再服用。與含脂肪的食物一起服用可顯著提高吸收率。"
         },
         {
           "question": "Fisetin 還是 quercetin 的 senolytic 效果比較好？",
@@ -671,7 +671,7 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42176146/"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Dosificación Senolítica Descifrada: Por Qué los Protocolos de Fisetina y Quercetina lo Cambiaron Todo en 2025",
@@ -1359,5 +1359,5 @@
     "naturalness_pass": 1,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

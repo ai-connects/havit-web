@@ -535,7 +535,7 @@
         },
         {
           "label": "美國人自 1980 年以來平均體重增加",
-          "value": "約 14 公斤（30 磅）",
+          "value": "約 14 公斤",
           "source": "CDC National Health Statistics 2024"
         },
         {
@@ -545,7 +545,7 @@
         },
         {
           "label": "典型的體重防禦範圍",
-          "value": "5-7 公斤（10-15 磅）",
+          "value": "5-7 公斤",
           "source": "Nature Reviews Neuroscience 2024"
         }
       ],
@@ -642,7 +642,7 @@
           "url": "https://doi.org/10.4135/9781412963862.n417"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Teoría del Punto de Ajuste vs. Punto de Equilibrio: Lo Que la Ciencia Realmente Dice Sobre Tu Peso en 2026",
@@ -1294,5 +1294,5 @@
     "naturalness_pass": 1,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

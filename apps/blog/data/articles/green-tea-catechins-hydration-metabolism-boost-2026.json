@@ -632,7 +632,7 @@
         },
         {
           "question": "沖泡綠茶的最佳水溫是多少？",
-          "answer": "70-80°C（158-176°F）能萃取最多兒茶素，同時將降解降到最低。如果沒有溫度計，把水煮沸後靜置 4-5 分鐘再沖泡即可。"
+          "answer": "70-80°C 能萃取最多兒茶素，同時將降解降到最低。如果沒有溫度計，把水煮沸後靜置 4-5 分鐘再沖泡即可。"
         },
         {
           "question": "綠茶要泡多久才能萃取最多 EGCG？",
@@ -677,7 +677,7 @@
           "url": "https://doi.org/10.1123/ijsnem.2017-0237"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Catequinas del Té Verde: La Ciencia de Prepararlo para Mejor Hidratación y Metabolismo",
@@ -1365,5 +1365,5 @@
     "naturalness_pass": 1,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

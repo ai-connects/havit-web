@@ -639,7 +639,7 @@
         },
         {
           "question": "使用GLP-1藥物時需要多少蛋白質來預防掉髮？",
-          "answer": "研究建議每公斤體重每日1.2-1.5克蛋白質。對於68公斤（150磅）的人來說，大約是每日82-102克。優先選擇在食慾降低時較容易耐受的高蛋白食物。"
+          "answer": "研究建議每公斤體重每日1.2-1.5克蛋白質。對於68公斤的人來說，大約是每日82-102克。優先選擇在食慾降低時較容易耐受的高蛋白食物。"
         },
         {
           "question": "生物素補充品對semaglutide相關掉髮有幫助嗎？",
@@ -680,7 +680,7 @@
           "url": "https://doi.org/10.1016/j.jaad.2024.07.1335"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "¿Por qué se me cae el pelo con semaglutida? La conexión con la proteína que nadie menciona",
@@ -1398,5 +1398,5 @@
     "naturalness_pass": 1,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-16T00:00:00.000Z"
+  "updated_at": "2026-11-17T00:00:00.000Z"
 }

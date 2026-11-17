@@ -658,7 +658,7 @@
         },
         {
           "question": "怎麼知道面板標示的照度是否準確？",
-          "answer": "在實際使用距離用太陽能功率計（20–50 美元）測量，並和廠商宣稱的數值比較。差距可能相當大。信譽良好廠商提供的第三方檢測燈板，規格較可靠。"
+          "answer": "在實際使用距離用太陽能功率計（約新台幣640–1,600元）測量，並和廠商宣稱的數值比較。差距可能相當大。信譽良好廠商提供的第三方檢測燈板，規格較可靠。"
         },
         {
           "question": "該買紅光/近紅外複合面板，還是分開買？",
@@ -718,7 +718,7 @@
           "url": "https://doi.org/10.1089/pho.2013.3616"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-17"
     },
     "es": {
       "title": "Cómo elegir tu panel de luz roja: longitud de onda, irradiancia y protocolos de dosificación que realmente funcionan",
@@ -1442,7 +1442,7 @@
     }
   },
   "generated_at": "2026-05-25T12:02:18.503Z",
-  "updated_at": "2026-11-16T00:00:00.000Z",
+  "updated_at": "2026-11-17T00:00:00.000Z",
   "iterations": {
     "naturalness_pass": 1,
     "reviewer_pass": 1
