@@ -143,7 +143,7 @@
         },
         {
           "question": "Which app tracks body composition as well as calories?",
-          "answer": "Very few. Most calorie apps work from scale weight alone. HAVIT estimates fat and lean mass trends from your own inputs with no hardware, and publishes an internal comparison against InBody (n=70). It is an estimate, useful as a trend over weeks rather than as a single verified number."
+          "answer": "Very few. Most calorie apps work from scale weight alone. HAVIT estimates fat and lean mass trends from your own inputs with no hardware. It is an estimate, not an InBody or DEXA measurement, and is useful as a trend over weeks rather than as a single verified number."
         },
         {
           "question": "Why am I under my calorie target but not losing weight?",
@@ -197,7 +197,7 @@
           "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
         }
       ],
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-17"
     },
     "ko": {
       "title": "2026 칼로리 계산 앱 추천 — 무료로 되는 것과 유료 기능까지 앱별 비교",
@@ -356,18 +356,43 @@
         },
         {
           "title": "MyFitnessPal Premium",
-          "source": "MyFitnessPal 공식 — 무료·Premium 기능 비교표, 2026년 10월 확인",
+          "source": "MyFitnessPal, official — free vs Premium feature table, checked October 2026",
           "url": "https://www.myfitnesspal.com/premium"
+        },
+        {
+          "title": "Cronometer — free features",
+          "source": "Cronometer, official blog (2022 post, checked October 2026)",
+          "url": "https://cronometer.com/blog/free-features/"
+        },
+        {
+          "title": "Lose It! – Calorie Counter (App Store)",
+          "source": "Free basic vs Premium feature lists, checked October 2026",
+          "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; Premium: barcode scan, meal scan & voice logging, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "MacroFactor — Macro Tracker (App Store)",
+          "source": "No free subscription tier; 7-day trial; micronutrient breakdowns; period tracker. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471"
+        },
+        {
+          "title": "How does Yazio Pro support my goals?",
+          "source": "YAZIO help center — Pro: all fasting plans, AI food tracking, detailed nutrition, ad-free. Checked October 2026",
+          "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals"
+        },
+        {
+          "title": "Cal AI - Calorie Tracker (App Store)",
+          "source": "\"Food scanning analysis results require a subscription.\" Checked October 2026",
+          "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
         },
         {
           "title": "Cronometer: Calorie Counter (App Store 한국)",
           "source": "\"Scan barcodes for free\"; Cronometer Gold 항목(Photo & Voice Logging, Fasting Tracker, Recipe Importer, Ad-free), 2026년 10월 확인",
           "url": "https://apps.apple.com/kr/app/id1145935738"
-        },
-        {
-          "title": "Cronometer — free features",
-          "source": "Cronometer 공식 블로그(2022년 8월 글) — 바코드 스캐너 무료, 탄단지·미량영양소 목표 설정 가능, 2026년 10월 확인",
-          "url": "https://cronometer.com/blog/free-features/"
         },
         {
           "title": "밀리그램 공식 홈페이지",
@@ -380,7 +405,7 @@
           "url": "https://apps.apple.com/kr/app/id347184248"
         }
       ],
-      "last_updated": "2026-10-16"
+      "last_updated": "2026-11-17"
     },
     "ja": {
       "title": "カロリー計算アプリおすすめ11選【2026年】無料の範囲を比較",
@@ -628,9 +653,44 @@
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
         },
         {
-          "title": "GLP-1ベース療法による除脂肪量の変化と緩和戦略（Neeland et al.）",
-          "source": "Diabetes, Obesity and Metabolism, 2024—失われた体重の除脂肪量シェアは一部の試験では40–60%、他では≤15%;除脂肪量≠筋肉",
+          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — lean-mass share of weight lost ranges 40–60% in some trials, ≤15% in others; lean mass ≠ muscle",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
+        },
+        {
+          "title": "MyFitnessPal Premium",
+          "source": "MyFitnessPal, official — free vs Premium feature table, checked October 2026",
+          "url": "https://www.myfitnesspal.com/premium"
+        },
+        {
+          "title": "Cronometer — free features",
+          "source": "Cronometer, official blog (2022 post, checked October 2026)",
+          "url": "https://cronometer.com/blog/free-features/"
+        },
+        {
+          "title": "Lose It! – Calorie Counter (App Store)",
+          "source": "Free basic vs Premium feature lists, checked October 2026",
+          "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; Premium: barcode scan, meal scan & voice logging, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "MacroFactor — Macro Tracker (App Store)",
+          "source": "No free subscription tier; 7-day trial; micronutrient breakdowns; period tracker. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471"
+        },
+        {
+          "title": "How does Yazio Pro support my goals?",
+          "source": "YAZIO help center — Pro: all fasting plans, AI food tracking, detailed nutrition, ad-free. Checked October 2026",
+          "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals"
+        },
+        {
+          "title": "Cal AI - Calorie Tracker (App Store)",
+          "source": "\"Food scanning analysis results require a subscription.\" Checked October 2026",
+          "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
         },
         {
           "title": "あすけん（App Store 日本）",
@@ -648,7 +708,7 @@
           "url": "https://www.myfitnesspal.com/ja/premium"
         }
       ],
-      "last_updated": "2026-11-16"
+      "last_updated": "2026-11-17"
     },
     "zh-CN": {
       "title": "2026热量计算App推荐（含免费功能对比）— 比起准，先挑能一直记下去的那个",
@@ -804,16 +864,51 @@
           "title": "fatsecret卡路里计算器（中国区 App Store）",
           "source": "“fatsecret是100％免费的”与高级版特有功能，2026年10月核验",
           "url": "https://apps.apple.com/cn/app/id347184248"
+        },
+        {
+          "title": "MyFitnessPal Premium",
+          "source": "MyFitnessPal, official — free vs Premium feature table, checked October 2026",
+          "url": "https://www.myfitnesspal.com/premium"
+        },
+        {
+          "title": "Cronometer — free features",
+          "source": "Cronometer, official blog (2022 post, checked October 2026)",
+          "url": "https://cronometer.com/blog/free-features/"
+        },
+        {
+          "title": "Lose It! – Calorie Counter (App Store)",
+          "source": "Free basic vs Premium feature lists, checked October 2026",
+          "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; Premium: barcode scan, meal scan & voice logging, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "MacroFactor — Macro Tracker (App Store)",
+          "source": "No free subscription tier; 7-day trial; micronutrient breakdowns; period tracker. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471"
+        },
+        {
+          "title": "How does Yazio Pro support my goals?",
+          "source": "YAZIO help center — Pro: all fasting plans, AI food tracking, detailed nutrition, ad-free. Checked October 2026",
+          "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals"
+        },
+        {
+          "title": "Cal AI - Calorie Tracker (App Store)",
+          "source": "\"Food scanning analysis results require a subscription.\" Checked October 2026",
+          "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
         }
       ],
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-17"
     },
     "zh-TW": {
       "title": "熱量計算 App 推薦｜6 款免費版功能比較與台灣外食",
       "short_title": "熱量計算 App 推薦：免費版比較",
       "meta_description": "HAVIT、MyFitnessPal、fatsecret、Cofit、Appediet、Cronometer 六款比較：免費版能用到哪裡、資料出處、台灣超商與外食品項、體組成與 GLP-1 紀錄，下載前先對照。",
       "tldr": "熱量數字本來就是近似值，與其找最準的 App，不如找能讓你每天用同一種方式記下去的那一款。資料庫要看出處，不是比筆數。三餐靠超商和自助餐的人，在地品項最重要。最後再看數字後面有沒有人告訴你該改哪一件事。各款免費版能做到的範圍差很多，下載前先對照。",
-      "body_md": "挑熱量 App 時，大多數人先問「哪一款最準」，接著問「有沒有免費的」。第一個問題其實沒有答案。第二個問題，這篇會一款一款整理免費版能用到哪裡。\n\n包裝上的熱量是**依成分計算出來的**，不是把那包食物實際燃燒測出來的。資料庫裡的每一筆，是某個人輸入的。一份有多少，是你目測的。每日消耗熱量，則是公式推出來的估計值。在台灣還得再加一層變數：自助餐一次夾十樣菜，手搖飲可以點半糖少冰加珍珠，同一碗滷肉飯，每一攤的肥瘦比例也不一樣。\n\n所以挑選標準要換。既然絕對值本來就是近似，真正重要的是**一致性**。同一種食物每次都用同一種方式記，就算數字本身有偏差，**趨勢仍然是對的**。\n\n這篇把在台灣下載得到的熱量記錄 App 逐一拆開來看，評分取自 **App Store 台灣**，2026 年 10 月查核。\n\n先說清楚，HAVIT 是撰寫這篇文章的我們自己開發的 App。因此評選標準，還有 HAVIT 不適合你的情況，都會一併寫在文中。\n\n![記錄比的是撐多久，不是有多準](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_TRACK_001.jpg)\n\n## 挑熱量 App 之前，先看這三件事\n\n**1. 記一餐要花幾秒。** 大部分人每天吃的就是那幾樣輪流換。能把「星期二的早餐」一鍵叫回來的 App，最後會贏過每天逼你重新搜尋、但稍微準一點的 App，因為幾個月後你還在用它。\n\n**2. 資料從哪裡來。** 重點不是資料庫多大，而是**出處**。使用者上傳的比例高，同一項商品往往會出現好幾筆互相矛盾的數值。經過驗證的資料筆數較少，但至少知道是誰在負責。\n\n**3. 數字後面有沒有下一步。** 自我記錄和減重之間一直有正向關聯，不過整理 22 項研究的作者也指出，證據等級並不高（Burke 2011）。只記不解讀，久了就跟記帳差不多。要看的是它會不會讀懂這些數字，再告訴你**該改哪一件事**。\n\n今天就可以先做一件事：回想你這週最常吃的三樣東西，下載 App 後先試試看，記這三樣各要花多久。\n\n## HAVIT：飲食、營養、熱量之外，也把睡眠和體組成放在一起看\n\n**HAVIT 是由韓國代表性減重診所之一「Juvis Diet」出身的專家打造的 AI 減重教練 App。** 除了飲食、營養和熱量，體組成、睡眠、運動，甚至心情，都可以在同一個 App 裡管理。過去在診所裡，由專人一對一陪會員走過「分析身體、用數字設定目標、每天教練指導」這套流程，HAVIT 把它搬進了 App。\n\n**關於研究數據。** HAVIT 曾與乙支大學合作進行一項為期 12 週、公司內部參與的小規模研究。體重減少 5% 以上的比例，HAVIT 使用組為 **31.7%**，對照組為 8.1%（約 **3.9 倍**）；體脂率下降的比例，使用組為 **83%**，對照組為 49%。這是一項非盲性研究，期間為 2026 年 6～8 月，分析對象是第 1 週與第 12 週都有 InBody 數據的 78 人（HAVIT 組 41 人、對照組 37 人），HAVIT 也參與了研究。這些數字不能當成效果的證明，也不保證每個人都會有相同結果，實際情況因人而異。\n\n| | |\n| --- | --- |\n| 開發商 | Havit Inc. |\n| 打造團隊 | 來自 Juvis Diet（韓國代表性減重診所之一）的專家 |\n| 研究 | 公司內部參與的小規模研究（與乙支大學合作，12 週，78 人，非盲性） |\n| 免費 | 飲食紀錄（搜尋、手動輸入）與每餐熱量；體重、喝水、睡眠、步數、斷食、心情、生理期、GLP-1 紀錄；體組成推估；與 AI 教練聊天（每天有次數上限） |\n| HAVIT Premium | 每餐與全天三大營養素分析、剩餘熱量、AI 食物掃描、無限次聊天、每日報到、運動影片、引導式冥想、健康文章、每週 2 個保護卡（守住連續紀錄的道具）、晚間回顧與一句話目標 |\n| App Store | 4.7（美國 171 則、韓國 282 則評分，2026 年 11 月查詢） |\n| 支援平台 | iOS、Android |\n\n免費與 Premium 的功能範圍，以 2026 年 10 月 App 的預設設定為準。活動期間，部分 Premium 功能可能會開放免費使用。\n\n### 1. AI 體組成推估：不用儀器，用數字追蹤到目標體重\n\n![AI 體組成分析：① 分析 → ② 用數字設定目標 → ③ 管理目標體重](/blog/havit/flow/zh-tw/havit-1-analysis.webp)\n\n輸入身高、體重，再回答幾個關於體型和生活習慣的問題，就能推估骨骼肌量和體脂肪量，並依肌肉與脂肪的比例判斷你的體型類型（免費）。光看體重計，分不出少掉的是脂肪還是肌肉。要注意這裡是推估值，不是 InBody 或 DEXA 的實測數據。\n\n如果你正在使用 GLP-1 類藥物，例如週纖達（Wegovy，semaglutide 司美格魯肽）或猛健樂（Mounjaro，tirzepatide 替爾泊肽），這一點更值得留意。研究整理指出，減掉的體重中，除脂體重所占比例在部分試驗高達 **40～60%**，在另一些試驗則在 **15% 以下**（Neeland 2024）。\n\n依照推估結果，HAVIT 會幫你訂出 **每天 10 項目標**：不低於基礎代謝的攝取熱量、蛋白質、碳水化合物、脂肪、膳食纖維、消耗熱量、步數，以及睡眠、喝水和量體重。在紀錄畫面上，每餐的熱量和營養素達成多少，一眼就看得到（每餐與全天三大營養素分析為 HAVIT Premium 功能）。\n\n### 2. AI 教練與 12 週計畫：每天的紀錄都有一對一回饋\n\n![AI 教練 1:1 指導，以及依方案安排的 12 週課程與健康日常](/blog/havit/flow/zh-tw/havit-2-coach.webp)\n\n每次記錄完，AI 教練 HAVI 會告訴你今天離目標還差多少、缺了哪些營養，並建議下一餐可以補什麼。算完數字之後還有下一步，這是它和一般熱量計算 App 不同的地方。\n\n**一開始先用對話擬定計畫。** HAVI 會問你的目標、有沒有在使用 GLP-1、有沒有副作用，以及身高、體重等身體資訊，再依你的回答整理出目前身體狀態的 **身體藍圖（Body Blueprint）** 和目標計畫。\n\n**每天看的不只有熱量。** 一般熱量 App 只看你吃了什麼。HAVI 會把飲食紀錄和體重、喝水、睡眠、步數、斷食、生理期、心情、GLP-1 紀錄放在一起看，再用 1 分鐘的報到和你一起規劃今天（每日報到為 HAVIT Premium 功能）。舉例來說，熱量明明都在目標內，可是只要前一晚沒睡飽，隔天零食就變多，HAVI 會先點出這個關聯，而不是直接叫你再少吃一點。\n\n**可以拍照發問。** 在便利商店拿不定主意的兩樣商品，或是外食的菜單，拍下來傳過去，就能問 HAVI 哪一個比較適合。免費會員每天的聊天次數有上限，HAVIT Premium 則不限次數。每天晚上 10 點會收到整理當天狀況的 **晚間回顧**，也能替明天留下一句 **一句話目標**（HAVIT Premium）。\n\n在 Juvis Diet 直接陪伴會員的經驗讓我們發現，比起把熱量抓得剛剛好，能長期記錄下去更重要，所以 HAVIT 把重心放在讓人持續的機制上。\n\n- **12 週計畫。** 12 個階段各有任務，是否達成不是靠自己回報，而是依飲食、步數等實際紀錄來判定。\n- **漏掉一天也接得上。** 需要連續幾天的任務，漏掉第 1 次會通融，第 2 次可以用保護卡接上，第 3 次才要重新開始。HAVIT Premium 每週送 2 個保護卡。\n\n### 3. 紀錄與健康內容：GLP-1、飲食、睡眠，到運動、冥想和文章\n\n![每筆紀錄都有 AI 教練分析，再透過運動、冥想和文章學習並實踐](/blog/havit/flow/zh-tw/havit-3-records.webp)\n\n**每餐熱量免費就能看。** 搜尋食物或手動輸入，熱量會一餐一餐累積起來。拍一張照片就能推估菜色、熱量和營養素的 **AI 食物掃描**，則是 HAVIT Premium 功能。\n\n**AI 食物掃描同樣是推估值。** 照片看不出用了多少油和醬汁。把它當成避免漏記的工具就好，尤其是家常菜一桌好幾道的時候。如果油量或飯量和平常不一樣，記得手動修正。\n\n睡眠、喝水、斷食、生理期和 GLP-1 紀錄都是免費的。每一項記完，HAVI 都會給回饋。睡眠不只看時數，也看你上床時間穩不穩定；喝水會看哪個時段喝得不夠。生理期可以連同症狀一起記錄，收到配合週期的教練建議。\n\nGLP-1 可以設定施打排程和提醒，並和體重變化放在一起對照。\n\n跑步可以即時記錄距離、時間和配速，鎖定畫面上也看得到。\n\n同一個 App 裡還有分類整理好的運動影片，以及 **6 種引導式冥想**（呼吸放鬆、助眠、舒緩壓力與焦慮、面對食慾與嘴饞、專注力、感恩）（HAVIT Premium）。嘴饞是來自情緒而不是肚子餓的時候，也可以拿來用。\n\n### 4. 像玩遊戲一樣養成習慣\n\n![紀錄變成獎勵和競賽：連續紀錄、步數、金幣 → 挑戰、排行榜、角色](/blog/havit/flow/zh-tw/havit-4-game.webp)\n\n記錄步數、飲食和睡眠可以累積金幣，透過挑戰和排行榜跟朋友比一比，也能用金幣幫角色換裝。就算身邊沒人鼓勵，每一筆紀錄都能馬上換到獎勵，會讓人想每天打開 App。\n\n- **用遊戲感撐下去。** 有連續紀錄、依步數發放的金幣、挑戰與徽章，還有排行榜。\n\n### HAVIT 不適合你的情況\n\n**不付費也想掃條碼**的話，fatsecret 比較適合。想免費使用 AI 食物掃描和三大營養素分析，HAVIT 可能也不是首選，這兩項都屬於 HAVIT Premium。要用驗證過的資料追蹤**維生素和礦物質**，Cronometer 看得更深。重視台灣在地品項和真人營養師，就選 Cofit。\n\n**適合誰**：有在記熱量但不知道該改什麼的人、體重變化和睡眠、壓力、生理週期糾纏在一起的人、不想同時開好幾款 App 的人，以及正在使用 GLP-1 的人。\n\n## MyFitnessPal：條碼與進口食品查得最廣\n\n| | |\n| --- | --- |\n| 開發商 | MyFitnessPal, Inc. |\n| 評分 | 4.7 · 23,842 則評分（App Store 台灣） |\n| 價格 | 免費下載 · Premium 另計 |\n\n**優點。** 在台灣評分數最多的國際熱量 App。進口包裝食品、連鎖速食、健身補給品幾乎都查得到，商店說明寫的是可追蹤超過 1,400 萬種食物。\n\n**缺點。** 這麼大的量來自使用者上傳，所以**同一項商品常有好幾筆不同數值**，選到哪一筆，當天總和就跟著變。台式小吃和超商鮮食，要看有沒有人剛好建過。條碼掃描和拍照記錄（Meal Scan）屬於 Premium。記錄完之後，它不太會告訴你下一步。\n\n**適合誰**：常吃進口包裝食品、願意為條碼掃描付費，而且能自己判斷該選哪一筆資料的人。\n\n## fatsecret 卡路里計算器：不付費也能用很久\n\n| | |\n| --- | --- |\n| 開發商 | fatsecret |\n| 評分 | 4.7 · 8,856 則評分（App Store 台灣） |\n| 價格 | 免費版相當完整 · Premium 另計 |\n\n**優點。** 不花錢就能完成大部分基本記錄，條碼、食譜、社群都有。也會計算每日消耗熱量、整理每週攝取，喜歡看數據的人會滿意。\n\n**缺點。** 資料同樣以使用者上傳為主。趨勢分析、體組成、教練功能都比較薄弱。\n\n**適合誰**：不想付費，只想老老實實把吃的東西記下來的人。\n\n## Cofit 我的專屬營養師：台灣外食品項最齊全\n\n| | |\n| --- | --- |\n| 開發商 | Cofit Healthcare Inc.（群健科技） |\n| 評分 | **4.8** · 8,529 則評分（App Store 台灣） |\n| 價格 | 免費下載 · App 內購買 |\n\n![三餐來自超商和自助餐的人，需要的是在地資料](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n**優點。** 商店說明寫明資料庫收錄「上萬筆食物營養資訊」，而且**特別涵蓋便利商店與外食餐廳**。要記超商鮮食和外食，它是目前台灣品項最齊的一款。照片上傳後會有**真人營養師**回覆，身體數值可追蹤十項以上，也能匯入 InBody 報告。\n\n**缺點。** 完整的營養師服務採課程制，價位在這份名單中偏高。每餐都要拍照上傳，記錄流程比較重。生理週期、GLP-1 用藥、冥想與恢復都不在服務範圍內。\n\n**適合誰**：三餐以超商和外食為主，而且願意為真人回饋付費的人。\n\n## AI 卡路里計算器（Appediet）：營養素欄位最多\n\n| | |\n| --- | --- |\n| 開發商 | Appediet Information PTE. LTD |\n| 評分 | **4.8** · 7,083 則評分（App Store 台灣） |\n| 價格 | 免費下載 · App 內購買 |\n\n**優點。** 拍照辨識加上條碼，商店說明標示收錄超過 150 萬筆食物與 **108 項營養素**，包含維生素與礦物質。有繁體中文介面，內建的 AI 助理會檢查當天攝取。\n\n**缺點。** 商店頁面沒有針對台灣或華人飲食提出任何覆蓋說明，使用者評論也反映中式品項偏少。功能只聚焦在飲食這一塊。\n\n**適合誰**：主要吃包裝食品，想看更多營養素欄位的人。\n\n## Cronometer：微量營養素看得最深\n\n| | |\n| --- | --- |\n| 開發商 | Cronometer Software Inc |\n| 價格 | 免費下載 · Gold 另計 |\n| 資料 | 驗證・精選 |\n\n**優點。** 維生素與礦物質追蹤得最紮實。需要留意營養素缺乏、執行臨床飲食或限制性飲食的人，很難找到替代品。它也是這份名單裡最願意把資料品質攤開來說明的一款。\n\n**缺點。** 堅持驗證，資料庫就小，手動輸入的機會比較多。台灣在地食物很少，巷口麵包店的菠蘿麵包大概查不到。在台灣的使用者也不多。\n\n**適合誰**：真的需要微量營養素數字的人。\n\n## 免費版能用到哪裡\n\n「免費」在每一款 App 代表的範圍都不同。下表依各 App 在 App Store 台灣的商店說明與官方說明頁，整理哪些功能在免費版、哪些只在付費方案，以 2026 年 10 月為準。價格變動頻繁，這裡不列。\n\n| App | 免費 | 僅付費方案 |\n| --- | --- | --- |\n| **HAVIT** | 餐食記錄與每餐熱量；體重、喝水、睡眠、步數、斷食、心情、生理週期、GLP-1 記錄；體組成推估；AI 教練聊天（每日訊息有上限） | 三大營養素分析、剩餘熱量、AI 食物掃描、無限教練聊天、每日報到、運動影片・冥想・文章（HAVIT Premium） |\n| MyFitnessPal | 飲食與體重記錄、運動記錄 | 條碼掃描與餐點掃描、語音記錄、自訂三大營養素目標、間歇性斷食、去廣告記錄（Premium） |\n| fatsecret | 食物日記、條碼掃描、運動日記、體重追蹤、報告 | 飲食計畫、額外 6 種自訂餐點、飲水目標（進階版） |\n| Cofit | 免費下載；商店說明未逐項標示免費範圍 | 部分進階功能需 App 內訂閱；營養師小班與一對一課程另至官網報名 |\n| AI 卡路里計算器（Appediet） | 免費下載；商店說明未標示免費可用範圍 | 訂閱後可無限使用全部功能（Premium） |\n| Cronometer | 飲食記錄、微量營養素、條碼掃描、可自訂三大與微量營養素目標 | 拍照與語音記錄、斷食追蹤、食譜匯入、去廣告、Crono Coach（Gold） |\n\n想免費掃條碼，Cronometer 和 fatsecret 都可以；想免費自訂三大營養素目標，可以看 Cronometer。習慣拍照記錄的人，付費前先確認這個功能是不是放在付費方案裡，HAVIT 的 AI 食物掃描也屬於 Premium。\n\n## 六款功能總整理\n\n下表把資料出處、台灣外食品項、拍照記錄和體組成放在一起比較，評分與功能以 2026 年 10 月的 App Store 台灣為準。\n\n| App | 資料出處 | 台灣外食品項 | 拍照記錄 | 微量營養素 | 體組成 | 生理週期 | GLP-1 | AI 教練 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | — | — | AI 食物掃描（Premium） | 三大營養素分析（Premium） | 推估趨勢（免費） | 有（免費） | 有（免費） | HAVI，讀取所有紀錄（免費版每日訊息有上限） |\n| Cofit | 自建，含便利商店與外食餐廳 | 最齊 | 有，並由營養師查看 | 部分 | 可匯入 InBody 報告 | 無 | 無 | AI 辨識 ＋ 真人營養師 |\n| MyFitnessPal | 以使用者上傳為主 | 普通 | Premium（Meal Scan） | 部分 | 無 | 無 | 基本記錄 | 有限 |\n| fatsecret | 以使用者上傳為主 | 普通 | 有（影像辨識，是否免費說法不一） | 部分 | 無 | 無 | 無 | 無 |\n| AI 卡路里計算器（Appediet） | 自建 ＋ 條碼 | 偏少 | 有 | 108 項 | 無 | 無 | 無 | 飲食助理 |\n| Cronometer | 驗證・精選 | 少 | Gold | 最深 | 無 | 無 | 無 | 無 |\n\n*App 特性以 2026 年 10 月為準，評分取自 App Store 台灣。「—」表示本文未比較的項目。方案與功能經常調整，付費前請先確認商店頁面。HAVIT 的免費與 Premium 範圍以 2026 年 10 月 App 預設設定為準，促銷期間部分 Premium 功能可能免費開放。*\n\n## 記得下去的記錄方法\n\n![一碗飯每個人盛的量都不一樣](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n- **每次用同一種方式記。** 每天早餐店那份鮪魚蛋餅，就固定選同一筆資料，不要每次重挑。\n- **只秤熱量密度高的食物。** 油、堅果、花生醬這類抹醬、乾的穀物，體積小卻塞了最多熱量。\n- **看一週，不看一天。** 單日總和會被水分、鹽分、生理週期影響。\n- **先把蛋白質吃夠。** 熱量算不準的時候，穩住結果的往往是蛋白質目標。\n- **手搖飲照實記。** 半糖、加珍珠、換燕麥奶都要記進去，不然停滯時會找不到原因。\n- **不求完美，只求每天有記。** 隨手記下的一餐，勝過一整天空白。\n\n## 最後怎麼選\n\n別用準確度挑，用**一致性**挑。最適合你的熱量 App，是**能讓你十秒內把星期二晚餐記進去的那一款**。\n\n再來看數字後面有沒有下一步。如果記錄沒有變成**今天能做的一件事**，它就只是一本帳簿。今晚不妨先挑一款下載，把明天的早餐記下來試試看。\n\n[開始使用 HAVIT →](https://www.aihavit.com/)",
+      "body_md": "挑熱量 App 時，大多數人先問「哪一款最準」，接著問「有沒有免費的」。第一個問題其實沒有答案。第二個問題，這篇會一款一款整理免費版能用到哪裡。\n\n包裝上的熱量是**依成分計算出來的**，不是把那包食物實際燃燒測出來的。資料庫裡的每一筆，是某個人輸入的。一份有多少，是你目測的。每日消耗熱量，則是公式推出來的估計值。在台灣還得再加一層變數：自助餐一次夾十樣菜，手搖飲可以點半糖少冰加珍珠，同一碗滷肉飯，每一攤的肥瘦比例也不一樣。\n\n所以挑選標準要換。既然絕對值本來就是近似，真正重要的是**一致性**。同一種食物每次都用同一種方式記，就算數字本身有偏差，**趨勢仍然是對的**。\n\n這篇把在台灣下載得到的熱量記錄 App 逐一拆開來看，評分取自 **App Store 台灣**，2026 年 10 月查核。\n\n先說清楚，HAVIT 是撰寫這篇文章的我們自己開發的 App。因此評選標準，還有 HAVIT 不適合你的情況，都會一併寫在文中。\n\n![記錄比的是撐多久，不是有多準](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_TRACK_001.jpg)\n\n## 挑熱量 App 之前，先看這三件事\n\n**1. 記一餐要花幾秒。** 大部分人每天吃的就是那幾樣輪流換。能把「星期二的早餐」一鍵叫回來的 App，最後會贏過每天逼你重新搜尋、但稍微準一點的 App，因為幾個月後你還在用它。\n\n**2. 資料從哪裡來。** 重點不是資料庫多大，而是**出處**。使用者上傳的比例高，同一項商品往往會出現好幾筆互相矛盾的數值。經過驗證的資料筆數較少，但至少知道是誰在負責。\n\n**3. 數字後面有沒有下一步。** 自我記錄和減重之間一直有正向關聯，不過整理 22 項研究的作者也指出，證據等級並不高（Burke 2011）。只記不解讀，久了就跟記帳差不多。要看的是它會不會讀懂這些數字，再告訴你**該改哪一件事**。\n\n今天就可以先做一件事：回想你這週最常吃的三樣東西，下載 App 後先試試看，記這三樣各要花多久。\n\n## HAVIT：飲食、營養、熱量之外，也把睡眠和體組成放在一起看\n\n**HAVIT 是由韓國代表性減重診所之一「Juvis Diet」出身的專家打造的 AI 減重教練 App。** 除了飲食、營養和熱量，體組成、睡眠、運動，甚至心情，都可以在同一個 App 裡管理。過去在診所裡，由專人一對一陪會員走過「分析身體、用數字設定目標、每天教練指導」這套流程，HAVIT 把它搬進了 App。\n\n**關於研究數據。** HAVIT 曾與乙支大學合作進行一項為期 12 週、公司內部參與的小規模研究。體重減少 5% 以上的比例，HAVIT 使用組為 **31.7%**，對照組為 8.1%（約 **3.9 倍**）；體脂率下降的比例，使用組為 **83%**，對照組為 49%。這是一項非盲性研究，期間為 2026 年 6～8 月，分析對象是第 1 週與第 12 週都有 InBody 數據的 78 人（HAVIT 組 41 人、對照組 37 人），HAVIT 也參與了研究。這些數字不能當成效果的證明，也不保證每個人都會有相同結果，實際情況因人而異。\n\n| | |\n| --- | --- |\n| 開發商 | Havit Inc. |\n| 打造團隊 | 來自 Juvis Diet（韓國代表性減重診所之一）的專家 |\n| 研究 | 公司內部參與的小規模研究（與乙支大學合作，12 週，78 人，非盲性） |\n| 免費 | 飲食紀錄（搜尋、手動輸入）與每餐熱量；體重、喝水、睡眠、步數、斷食、心情、生理期、GLP-1 紀錄；體組成推估；與 AI 教練聊天（每天有次數上限） |\n| HAVIT Premium | 每餐與全天三大營養素分析、剩餘熱量、AI 食物掃描、無限次聊天、每日報到、運動影片、引導式冥想、健康文章、每週 2 個保護卡（守住連續紀錄的道具）、晚間回顧與一句話目標 |\n| App Store | 4.7（美國 171 則、韓國 282 則評分，2026 年 11 月查詢） |\n| 支援平台 | iOS、Android |\n\n免費與 Premium 的功能範圍，以 2026 年 10 月 App 的預設設定為準。活動期間，部分 Premium 功能可能會開放免費使用。\n\n### 1. AI 體組成推估：不用儀器，用數字追蹤到目標體重\n\n![AI 體組成分析：① 分析 → ② 用數字設定目標 → ③ 管理目標體重](/blog/havit/flow/zh-tw/havit-1-analysis.webp)\n\n輸入身高、體重，再回答幾個關於體型和生活習慣的問題，就能推估骨骼肌量和體脂肪量，並依肌肉與脂肪的比例判斷你的體型類型（免費）。光看體重計，分不出少掉的是脂肪還是肌肉。要注意這裡是推估值，不是 InBody 或 DEXA 的實測數據。\n\n如果你正在使用 GLP-1 類藥物，例如週纖達（Wegovy，semaglutide 司美格魯肽）或猛健樂（Mounjaro，tirzepatide 替爾泊肽），這一點更值得留意。研究整理指出，減掉的體重中，除脂體重所占比例在部分試驗高達 **40～60%**，在另一些試驗則在 **15% 以下**（Neeland 2024）。\n\n依照推估結果，HAVIT 會幫你訂出 **每天 10 項目標**：不低於基礎代謝的攝取熱量、蛋白質、碳水化合物、脂肪、膳食纖維、消耗熱量、步數，以及睡眠、喝水和量體重。在紀錄畫面上，每餐的熱量和營養素達成多少，一眼就看得到（每餐與全天三大營養素分析為 HAVIT Premium 功能）。\n\n### 2. AI 教練與 12 週計畫：每天的紀錄都有一對一回饋\n\n![AI 教練 1:1 指導，以及依方案安排的 12 週課程與健康日常](/blog/havit/flow/zh-tw/havit-2-coach.webp)\n\n每次記錄完，AI 教練 HAVI 會告訴你今天離目標還差多少、缺了哪些營養，並建議下一餐可以補什麼。算完數字之後還有下一步，這是它和一般熱量計算 App 不同的地方。\n\n**一開始先用對話擬定計畫。** HAVI 會問你的目標、有沒有在使用 GLP-1、有沒有副作用，以及身高、體重等身體資訊，再依你的回答整理出目前身體狀態的 **身體藍圖（Body Blueprint）** 和目標計畫。\n\n**每天看的不只有熱量。** 一般熱量 App 只看你吃了什麼。HAVI 會把飲食紀錄和體重、喝水、睡眠、步數、斷食、生理期、心情、GLP-1 紀錄放在一起看，再用 1 分鐘的報到和你一起規劃今天（每日報到為 HAVIT Premium 功能）。舉例來說，熱量明明都在目標內，可是只要前一晚沒睡飽，隔天零食就變多，HAVI 會先點出這個關聯，而不是直接叫你再少吃一點。\n\n**可以拍照發問。** 在便利商店拿不定主意的兩樣商品，或是外食的菜單，拍下來傳過去，就能問 HAVI 哪一個比較適合。免費會員每天的聊天次數有上限，HAVIT Premium 則不限次數。每天晚上 10 點會收到整理當天狀況的 **晚間回顧**，也能替明天留下一句 **一句話目標**（HAVIT Premium）。\n\n在 Juvis Diet 直接陪伴會員的經驗讓我們發現，比起把熱量抓得剛剛好，能長期記錄下去更重要，所以 HAVIT 把重心放在讓人持續的機制上。\n\n- **12 週計畫。** 12 個階段各有任務，是否達成不是靠自己回報，而是依飲食、步數等實際紀錄來判定。\n- **漏掉一天也接得上。** 需要連續幾天的任務，漏掉第 1 次會通融，第 2 次可以用保護卡接上，第 3 次才要重新開始。HAVIT Premium 每週送 2 個保護卡。\n\n### 3. 紀錄與健康內容：GLP-1、飲食、睡眠，到運動、冥想和文章\n\n![每筆紀錄都有 AI 教練分析，再透過運動、冥想和文章學習並實踐](/blog/havit/flow/zh-tw/havit-3-records.webp)\n\n**每餐熱量免費就能看。** 搜尋食物或手動輸入，熱量會一餐一餐累積起來。拍一張照片就能推估菜色、熱量和營養素的 **AI 食物掃描**，則是 HAVIT Premium 功能。\n\n**AI 食物掃描同樣是推估值。** 照片看不出用了多少油和醬汁。把它當成避免漏記的工具就好，尤其是家常菜一桌好幾道的時候。如果油量或飯量和平常不一樣，記得手動修正。\n\n睡眠、喝水、斷食、生理期和 GLP-1 紀錄都是免費的。每一項記完，HAVI 都會給回饋。睡眠不只看時數，也看你上床時間穩不穩定；喝水會看哪個時段喝得不夠。生理期可以連同症狀一起記錄，收到配合週期的教練建議。\n\nGLP-1 可以設定施打排程和提醒，並和體重變化放在一起對照。\n\n跑步可以即時記錄距離、時間和配速，鎖定畫面上也看得到。\n\n同一個 App 裡還有分類整理好的運動影片，以及 **6 種引導式冥想**（呼吸放鬆、助眠、舒緩壓力與焦慮、面對食慾與嘴饞、專注力、感恩）（HAVIT Premium）。嘴饞是來自情緒而不是肚子餓的時候，也可以拿來用。\n\n### 4. 像玩遊戲一樣養成習慣\n\n![紀錄變成獎勵和競賽：連續紀錄、步數、金幣 → 挑戰、排行榜、角色](/blog/havit/flow/zh-tw/havit-4-game.webp)\n\n記錄步數、飲食和睡眠可以累積金幣，透過挑戰和排行榜跟朋友比一比，也能用金幣幫角色換裝。就算身邊沒人鼓勵，每一筆紀錄都能馬上換到獎勵，會讓人想每天打開 App。\n\n- **用遊戲感撐下去。** 有連續紀錄、依步數發放的金幣、挑戰與徽章，還有排行榜。\n\n### HAVIT 不適合你的情況\n\n**不付費也想掃條碼**的話，fatsecret 比較適合。想免費使用 AI 食物掃描和三大營養素分析，HAVIT 可能也不是首選，這兩項都屬於 HAVIT Premium。要用驗證過的資料追蹤**維生素和礦物質**，Cronometer 看得更深。重視台灣在地品項和真人營養師，就選 Cofit。\n\n**適合誰**：有在記熱量但不知道該改什麼的人、體重變化和睡眠、壓力、生理週期糾纏在一起的人、不想同時開好幾款 App 的人，以及正在使用 GLP-1 的人。\n\n## MyFitnessPal：條碼與進口食品查得最廣\n\n| | |\n| --- | --- |\n| 開發商 | MyFitnessPal, Inc. |\n| 評分 | 4.7 · 23,842 則評分（App Store 台灣） |\n| 價格 | 免費下載 · Premium 另計 |\n\n**優點。** 在台灣評分數最多的國際熱量 App。進口包裝食品、連鎖速食、健身補給品幾乎都查得到，商店說明寫的是收錄超過 2,050 萬種食物。\n\n**缺點。** 這麼大的量來自使用者上傳，所以**同一項商品常有好幾筆不同數值**，選到哪一筆，當天總和就跟著變。台式小吃和超商鮮食，要看有沒有人剛好建過。條碼掃描和拍照記錄（Meal Scan）屬於 Premium。記錄完之後，它不太會告訴你下一步。\n\n**適合誰**：常吃進口包裝食品、願意為條碼掃描付費，而且能自己判斷該選哪一筆資料的人。\n\n## fatsecret 卡路里計算器：不付費也能用很久\n\n| | |\n| --- | --- |\n| 開發商 | fatsecret |\n| 評分 | 4.7 · 8,856 則評分（App Store 台灣） |\n| 價格 | 免費版相當完整 · Premium 另計 |\n\n**優點。** 不花錢就能完成大部分基本記錄，條碼、食譜、社群都有。也會計算每日消耗熱量、整理每週攝取，喜歡看數據的人會滿意。\n\n**缺點。** 資料同樣以使用者上傳為主。趨勢分析、體組成、教練功能都比較薄弱。\n\n**適合誰**：不想付費，只想老老實實把吃的東西記下來的人。\n\n## Cofit 我的專屬營養師：台灣外食品項最齊全\n\n| | |\n| --- | --- |\n| 開發商 | Cofit Healthcare Inc.（群健科技） |\n| 評分 | **4.8** · 8,529 則評分（App Store 台灣） |\n| 價格 | 免費下載 · App 內購買 |\n\n![三餐來自超商和自助餐的人，需要的是在地資料](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_008.jpg)\n\n**優點。** 商店說明寫明資料庫收錄「上萬筆食物營養資訊」，而且**特別涵蓋便利商店與外食餐廳**。要記超商鮮食和外食，它是目前台灣品項最齊的一款。照片上傳後會有**真人營養師**回覆，身體數值可追蹤十項以上，也能匯入 InBody 報告。\n\n**缺點。** 完整的營養師服務採課程制，價位在這份名單中偏高。每餐都要拍照上傳，記錄流程比較重。生理週期、GLP-1 用藥、冥想與恢復都不在服務範圍內。\n\n**適合誰**：三餐以超商和外食為主，而且願意為真人回饋付費的人。\n\n## AI 卡路里計算器（Appediet）：營養素欄位最多\n\n| | |\n| --- | --- |\n| 開發商 | Appediet Information PTE. LTD |\n| 評分 | **4.8** · 7,083 則評分（App Store 台灣） |\n| 價格 | 免費下載 · App 內購買 |\n\n**優點。** 拍照辨識加上條碼，商店說明標示收錄超過 150 萬筆食物與 **108 項營養素**，包含維生素與礦物質。有繁體中文介面，內建的 AI 助理會檢查當天攝取。\n\n**缺點。** 商店頁面沒有針對台灣或華人飲食提出任何覆蓋說明，使用者評論也反映中式品項偏少。功能只聚焦在飲食這一塊。\n\n**適合誰**：主要吃包裝食品，想看更多營養素欄位的人。\n\n## Cronometer：微量營養素看得最深\n\n| | |\n| --- | --- |\n| 開發商 | Cronometer Software Inc |\n| 價格 | 免費下載 · Gold 另計 |\n| 資料 | 驗證・精選 |\n\n**優點。** 維生素與礦物質追蹤得最紮實。需要留意營養素缺乏、執行臨床飲食或限制性飲食的人，很難找到替代品。它也是這份名單裡最願意把資料品質攤開來說明的一款。\n\n**缺點。** 堅持驗證，資料庫就小，手動輸入的機會比較多。台灣在地食物很少，巷口麵包店的菠蘿麵包大概查不到。在台灣的使用者也不多。\n\n**適合誰**：真的需要微量營養素數字的人。\n\n## 免費版能用到哪裡\n\n「免費」在每一款 App 代表的範圍都不同。下表依各 App 在 App Store 台灣的商店說明與官方說明頁，整理哪些功能在免費版、哪些只在付費方案，以 2026 年 10 月為準。價格變動頻繁，這裡不列。\n\n| App | 免費 | 僅付費方案 |\n| --- | --- | --- |\n| **HAVIT** | 餐食記錄與每餐熱量；體重、喝水、睡眠、步數、斷食、心情、生理週期、GLP-1 記錄；體組成推估；AI 教練聊天（每日訊息有上限） | 三大營養素分析、剩餘熱量、AI 食物掃描、無限教練聊天、每日報到、運動影片・冥想・文章（HAVIT Premium） |\n| MyFitnessPal | 飲食與體重記錄、運動記錄 | 條碼掃描與餐點掃描、語音記錄、自訂三大營養素目標、間歇性斷食、去廣告記錄（Premium） |\n| fatsecret | 食物日記、條碼掃描、運動日記、體重追蹤、報告 | 飲食計畫、額外 6 種自訂餐點、飲水目標（進階版） |\n| Cofit | 免費下載；商店說明未逐項標示免費範圍 | 部分進階功能需 App 內訂閱；營養師小班與一對一課程另至官網報名 |\n| AI 卡路里計算器（Appediet） | 免費下載；商店說明未標示免費可用範圍 | 訂閱後可無限使用全部功能（Premium） |\n| Cronometer | 飲食記錄、微量營養素、條碼掃描、可自訂三大與微量營養素目標 | 拍照與語音記錄、斷食追蹤、食譜匯入、去廣告、Crono Coach（Gold） |\n\n想免費掃條碼，Cronometer 和 fatsecret 都可以；想免費自訂三大營養素目標，可以看 Cronometer。習慣拍照記錄的人，付費前先確認這個功能是不是放在付費方案裡，HAVIT 的 AI 食物掃描也屬於 Premium。\n\n## 六款功能總整理\n\n下表把資料出處、台灣外食品項、拍照記錄和體組成放在一起比較，評分與功能以 2026 年 10 月的 App Store 台灣為準。\n\n| App | 資料出處 | 台灣外食品項 | 拍照記錄 | 微量營養素 | 體組成 | 生理週期 | GLP-1 | AI 教練 |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **HAVIT** | — | — | AI 食物掃描（Premium） | 三大營養素分析（Premium） | 推估趨勢（免費） | 有（免費） | 有（免費） | HAVI，讀取所有紀錄（免費版每日訊息有上限） |\n| Cofit | 自建，含便利商店與外食餐廳 | 最齊 | 有，並由營養師查看 | 部分 | 可匯入 InBody 報告 | 無 | 無 | AI 辨識 ＋ 真人營養師 |\n| MyFitnessPal | 以使用者上傳為主 | 普通 | Premium（Meal Scan） | 部分 | 無 | 無 | 基本記錄 | 有限 |\n| fatsecret | 以使用者上傳為主 | 普通 | 有（影像辨識，是否免費說法不一） | 部分 | 無 | 無 | 無 | 無 |\n| AI 卡路里計算器（Appediet） | 自建 ＋ 條碼 | 偏少 | 有 | 108 項 | 無 | 無 | 無 | 飲食助理 |\n| Cronometer | 驗證・精選 | 少 | Gold | 最深 | 無 | 無 | 無 | 無 |\n\n*App 特性以 2026 年 10 月為準，評分取自 App Store 台灣。「—」表示本文未比較的項目。方案與功能經常調整，付費前請先確認商店頁面。HAVIT 的免費與 Premium 範圍以 2026 年 10 月 App 預設設定為準，促銷期間部分 Premium 功能可能免費開放。*\n\n## 記得下去的記錄方法\n\n![一碗飯每個人盛的量都不一樣](https://havit-prod-us-east.s3.us-east-1.amazonaws.com/image/actions/image/IMG_MEAL_007.jpg)\n\n- **每次用同一種方式記。** 每天早餐店那份鮪魚蛋餅，就固定選同一筆資料，不要每次重挑。\n- **只秤熱量密度高的食物。** 油、堅果、花生醬這類抹醬、乾的穀物，體積小卻塞了最多熱量。\n- **看一週，不看一天。** 單日總和會被水分、鹽分、生理週期影響。\n- **先把蛋白質吃夠。** 熱量算不準的時候，穩住結果的往往是蛋白質目標。\n- **手搖飲照實記。** 半糖、加珍珠、換燕麥奶都要記進去，不然停滯時會找不到原因。\n- **不求完美，只求每天有記。** 隨手記下的一餐，勝過一整天空白。\n\n## 最後怎麼選\n\n別用準確度挑，用**一致性**挑。最適合你的熱量 App，是**能讓你十秒內把星期二晚餐記進去的那一款**。\n\n再來看數字後面有沒有下一步。如果記錄沒有變成**今天能做的一件事**，它就只是一本帳簿。今晚不妨先挑一款下載，把明天的早餐記下來試試看。\n\n[開始使用 HAVIT →](https://www.aihavit.com/)",
       "key_stats": [
         {
           "label": "HAVIT（App Store 美國）",
@@ -994,6 +1089,31 @@
           "title": "Cronometer — free features",
           "source": "Cronometer 官方部落格（2022 年文章，2026 年 10 月查核） — 條碼掃描與可自訂目標屬於免費功能",
           "url": "https://cronometer.com/blog/free-features/"
+        },
+        {
+          "title": "Lose It! – Calorie Counter (App Store)",
+          "source": "Free basic vs Premium feature lists, checked October 2026",
+          "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; Premium: barcode scan, meal scan & voice logging, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "MacroFactor — Macro Tracker (App Store)",
+          "source": "No free subscription tier; 7-day trial; micronutrient breakdowns; period tracker. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471"
+        },
+        {
+          "title": "How does Yazio Pro support my goals?",
+          "source": "YAZIO help center — Pro: all fasting plans, AI food tracking, detailed nutrition, ad-free. Checked October 2026",
+          "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals"
+        },
+        {
+          "title": "Cal AI - Calorie Tracker (App Store)",
+          "source": "\"Food scanning analysis results require a subscription.\" Checked October 2026",
+          "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
         }
       ],
       "last_updated": "2026-11-17"
@@ -1111,7 +1231,7 @@
         },
         {
           "question": "¿Hay alguna app que también mida la composición corporal?",
-          "answer": "Muy pocas. La mayoría trabaja solo con el peso de la báscula. HAVIT estima tendencias de grasa y masa magra a partir de tus propios datos, sin comprar nada, y publica una comparación interna frente a InBody (n=70). Sirve como tendencia a lo largo de semanas, no como medición verificada."
+          "answer": "Muy pocas. La mayoría trabaja solo con el peso de la báscula. HAVIT estima tendencias de grasa y masa magra a partir de tus propios datos, sin comprar ningún hardware. Es una estimación, no una medición de InBody ni de DEXA, y sirve como tendencia a lo largo de semanas."
         },
         {
           "question": "Estoy por debajo de mi objetivo de calorías y no bajo de peso. ¿Por qué?",
@@ -1129,14 +1249,49 @@
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3268700/"
         },
         {
-          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grado B",
-          "source": "U.S. Preventive Services Task Force, 2018 (tema en actualización); adultos con IMC ≥30, entregado por clínicos",
-          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
+          "title": "Changes in lean body mass with GLP-1-based therapies and mitigation strategies (Neeland et al.)",
+          "source": "Diabetes, Obesity and Metabolism, 2024 — lean-mass share of weight lost ranges 40–60% in some trials, ≤15% in others; lean mass ≠ muscle",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38937282/"
         },
         {
           "title": "MyFitnessPal Premium",
           "source": "MyFitnessPal, oficial — tabla de funciones gratis frente a Premium, consultado en octubre de 2026",
           "url": "https://www.myfitnesspal.com/premium"
+        },
+        {
+          "title": "Cronometer — free features",
+          "source": "Cronometer, official blog (2022 post, checked October 2026)",
+          "url": "https://cronometer.com/blog/free-features/"
+        },
+        {
+          "title": "Lose It! – Calorie Counter (App Store)",
+          "source": "Free basic vs Premium feature lists, checked October 2026",
+          "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; Premium: barcode scan, meal scan & voice logging, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "MacroFactor — Macro Tracker (App Store)",
+          "source": "No free subscription tier; 7-day trial; micronutrient breakdowns; period tracker. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471"
+        },
+        {
+          "title": "How does Yazio Pro support my goals?",
+          "source": "YAZIO help center — Pro: all fasting plans, AI food tracking, detailed nutrition, ad-free. Checked October 2026",
+          "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals"
+        },
+        {
+          "title": "Cal AI - Calorie Tracker (App Store)",
+          "source": "\"Food scanning analysis results require a subscription.\" Checked October 2026",
+          "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
+        },
+        {
+          "title": "Weight loss to prevent obesity-related morbidity and mortality in adults: behavioral interventions — Grado B",
+          "source": "U.S. Preventive Services Task Force, 2018 (tema en actualización); adultos con IMC ≥30, entregado por clínicos",
+          "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions"
         },
         {
           "title": "What's the Difference Between Fitia Free and Premium?",
@@ -1154,7 +1309,7 @@
           "url": "https://help.lifesum.com/en/article/what-do-i-get-when-i-buy-premium-1vzq8pz/"
         }
       ],
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-17",
       "short_description": "MyFitnessPal, Fitia, Yazio, Lifesum y HAVIT: qué da gratis cada una y dónde corta, cuál reconoce mejor la comida en español y 3 criterios para elegir."
     },
     "pt-BR": {
@@ -1270,7 +1425,7 @@
         },
         {
           "question": "Tem algum app que também acompanha composição corporal?",
-          "answer": "Muito poucos. A maioria trabalha só com o peso da balança. O HAVIT estima tendências de gordura e massa magra a partir dos seus próprios dados, sem comprar nada, e publica uma comparação interna com o InBody (n=70). Serve como tendência ao longo de semanas, não como medição verificada."
+          "answer": "Muito poucos. A maioria trabalha só com o peso da balança. O HAVIT estima tendências de gordura e massa magra a partir dos dados que você informa, sem nenhum aparelho. É uma estimativa, não uma medição de InBody ou DEXA, e serve como tendência ao longo de semanas."
         },
         {
           "question": "Estou abaixo da meta de calorias e não emagreço. Por quê?",
@@ -1311,9 +1466,39 @@
           "title": "Yazio: Contador de Calorias (App Store Brasil)",
           "source": "Recursos gratuitos e PRO, conferido em outubro de 2026",
           "url": "https://apps.apple.com/br/app/yazio-contador-de-calorias/id946099227"
+        },
+        {
+          "title": "Cronometer — free features",
+          "source": "Cronometer, official blog (2022 post, checked October 2026)",
+          "url": "https://cronometer.com/blog/free-features/"
+        },
+        {
+          "title": "Lose It! – Calorie Counter (App Store)",
+          "source": "Free basic vs Premium feature lists, checked October 2026",
+          "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; Premium: barcode scan, meal scan & voice logging, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "MacroFactor — Macro Tracker (App Store)",
+          "source": "No free subscription tier; 7-day trial; micronutrient breakdowns; period tracker. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471"
+        },
+        {
+          "title": "How does Yazio Pro support my goals?",
+          "source": "YAZIO help center — Pro: all fasting plans, AI food tracking, detailed nutrition, ad-free. Checked October 2026",
+          "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals"
+        },
+        {
+          "title": "Cal AI - Calorie Tracker (App Store)",
+          "source": "\"Food scanning analysis results require a subscription.\" Checked October 2026",
+          "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
         }
       ],
-      "last_updated": "2026-10-24"
+      "last_updated": "2026-11-17"
     },
     "id": {
       "title": "Aplikasi Penghitung Kalori Gratis Terbaik 2026: Apa yang Gratis, Dibedah untuk Makanan Indonesia",
@@ -1512,9 +1697,34 @@
           "title": "Journable: AI Calorie Counter (App Store Indonesia)",
           "source": "Uji coba gratis; langganan diperlukan setelahnya untuk terus mencatat, dicek Oktober 2026",
           "url": "https://apps.apple.com/id/app/journable-ai-calorie-counter/id6477719720"
+        },
+        {
+          "title": "Lose It! – Calorie Counter (App Store)",
+          "source": "Free basic vs Premium feature lists, checked October 2026",
+          "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; Premium: barcode scan, meal scan & voice logging, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "MacroFactor — Macro Tracker (App Store)",
+          "source": "No free subscription tier; 7-day trial; micronutrient breakdowns; period tracker. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471"
+        },
+        {
+          "title": "How does Yazio Pro support my goals?",
+          "source": "YAZIO help center — Pro: all fasting plans, AI food tracking, detailed nutrition, ad-free. Checked October 2026",
+          "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals"
+        },
+        {
+          "title": "Cal AI - Calorie Tracker (App Store)",
+          "source": "\"Food scanning analysis results require a subscription.\" Checked October 2026",
+          "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
         }
       ],
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-17",
       "short_description": "Aplikasi penghitung kalori gratis dibandingkan: FatSecret, MyFitnessPal, Cronometer, YAZIO, Lose It!, HAVIT—mana yang gratis, berbayar, paham nasi campur."
     },
     "de": {
@@ -1630,7 +1840,7 @@
         },
         {
           "question": "Gibt es Apps, die auch die Körperzusammensetzung erfassen?",
-          "answer": "Sehr wenige. Die meisten arbeiten nur mit dem Waagengewicht. HAVIT schätzt Trends bei Fett- und Magermasse aus Ihren eigenen Eingaben ohne zusätzliches Gerät (kostenlos); in einer internen Vergleichsstudie (n=70) lag der geschätzte Körperfettanteil in 92,9 % der Fälle innerhalb von ±5 Prozentpunkten des InBody-Messwerts. Das taugt als Trend über Wochen, nicht als medizinische Messung."
+          "answer": "Sehr wenige. Die meisten arbeiten nur mit dem Waagengewicht. HAVIT schätzt Trends bei Fett- und Magermasse aus Ihren eigenen Eingaben ohne zusätzliches Gerät (kostenlos); das ist eine Schätzung, keine InBody- oder DEXA-Messung. Das taugt als Trend über Wochen, nicht als medizinische Messung."
         },
         {
           "question": "Ich bleibe unter meinem Kalorienziel und nehme trotzdem nicht ab. Warum?",
@@ -1686,9 +1896,44 @@
           "title": "Oviva Direkt für Adipositas",
           "source": "Oviva, offiziell — ärztliche Verordnung, Kostenübernahme durch die Krankenkasse, Start-BMI 30–40; abgerufen Oktober 2026",
           "url": "https://oviva.com/de/de/direkt-adipositas/"
+        },
+        {
+          "title": "MyFitnessPal Premium",
+          "source": "MyFitnessPal, official — free vs Premium feature table, checked October 2026",
+          "url": "https://www.myfitnesspal.com/premium"
+        },
+        {
+          "title": "Cronometer — free features",
+          "source": "Cronometer, official blog (2022 post, checked October 2026)",
+          "url": "https://cronometer.com/blog/free-features/"
+        },
+        {
+          "title": "Lose It! – Calorie Counter (App Store)",
+          "source": "Free basic vs Premium feature lists, checked October 2026",
+          "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; Premium: barcode scan, meal scan & voice logging, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "MacroFactor — Macro Tracker (App Store)",
+          "source": "No free subscription tier; 7-day trial; micronutrient breakdowns; period tracker. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471"
+        },
+        {
+          "title": "How does Yazio Pro support my goals?",
+          "source": "YAZIO help center — Pro: all fasting plans, AI food tracking, detailed nutrition, ad-free. Checked October 2026",
+          "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals"
+        },
+        {
+          "title": "Cal AI - Calorie Tracker (App Store)",
+          "source": "\"Food scanning analysis results require a subscription.\" Checked October 2026",
+          "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
         }
       ],
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-17",
       "short_description": "Yazio, MyFitnessPal, Lifesum, Oviva, HAVIT: Was kostenlos ist (Barcode, Foto-Scan, Ziele), woher die Daten stammen und warum Konsistenz mehr zählt."
     },
     "fr": {
@@ -1828,7 +2073,7 @@
         },
         {
           "question": "Existe-t-il des applis qui suivent aussi la composition corporelle ?",
-          "answer": "Peu de compteurs le font. HAVIT estime les tendances de masse grasse et de masse maigre sans matériel, à partir du poids, des mensurations et du profil, avec une comparaison interne publiée face à un InBody (n=70). C'est une estimation, pas une mesure par impédancemétrie."
+          "answer": "Peu de compteurs le font. HAVIT estime les tendances de masse grasse et de masse maigre sans matériel, à partir des informations que vous saisissez. C'est une estimation, pas une mesure InBody ou DEXA : elle sert de tendance sur plusieurs semaines."
         },
         {
           "question": "Je reste sous mon objectif calorique et je ne perds pas. Pourquoi ?",
@@ -1900,9 +2145,44 @@
           "title": "Open Food Facts - scan produit — fiche App Store France",
           "source": "Apple App Store (FR), Open Food Facts, consulté en octobre 2026 — projet à but non lucratif, données ouvertes",
           "url": "https://apps.apple.com/fr/app/id588797948"
+        },
+        {
+          "title": "MyFitnessPal Premium",
+          "source": "MyFitnessPal, official — free vs Premium feature table, checked October 2026",
+          "url": "https://www.myfitnesspal.com/premium"
+        },
+        {
+          "title": "Cronometer — free features",
+          "source": "Cronometer, official blog (2022 post, checked October 2026)",
+          "url": "https://cronometer.com/blog/free-features/"
+        },
+        {
+          "title": "Lose It! – Calorie Counter (App Store)",
+          "source": "Free basic vs Premium feature lists, checked October 2026",
+          "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+        },
+        {
+          "title": "MyFitnessPal: Calorie Counter (App Store)",
+          "source": "20.5M+ foods; Premium: barcode scan, meal scan & voice logging, custom macro goals. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+        },
+        {
+          "title": "MacroFactor — Macro Tracker (App Store)",
+          "source": "No free subscription tier; 7-day trial; micronutrient breakdowns; period tracker. Checked October 2026",
+          "url": "https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471"
+        },
+        {
+          "title": "How does Yazio Pro support my goals?",
+          "source": "YAZIO help center — Pro: all fasting plans, AI food tracking, detailed nutrition, ad-free. Checked October 2026",
+          "url": "https://help.yazio.com/hc/en-us/articles/208847005-How-does-Yazio-Pro-support-my-goals"
+        },
+        {
+          "title": "Cal AI - Calorie Tracker (App Store)",
+          "source": "\"Food scanning analysis results require a subscription.\" Checked October 2026",
+          "url": "https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616"
         }
       ],
-      "last_updated": "2026-10-24",
+      "last_updated": "2026-11-17",
       "short_description": "Open Food Facts, Yazio, MyFitnessPal, Foodvisor, Le Secret du Poids, FatSecret, HAVIT : limites du gratuit et laquelle connaît les produits français."
     }
   },
