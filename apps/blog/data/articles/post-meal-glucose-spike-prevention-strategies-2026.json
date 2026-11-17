@@ -120,7 +120,7 @@
         },
         {
           "question": "Is there a minimum walk duration that still helps?",
-          "answer": "Studies show benefits starting at just 2-3 minutes of walking, with increasing returns up to about 15 minutes. A 10-minute walk captures most of the benefit. Beyond 15 minutes, additional glucose-lowering effects plateau for that specific meal."
+          "answer": "There's no well-established minimum. Even short bouts of light walking after eating appear to help, and in one trial a 10-minute walk after each meal was enough to lower post-meal glucose. Any movement after a meal is better than none."
         },
         {
           "question": "Do these strategies reduce the total calories absorbed from a meal?",
@@ -184,24 +184,19 @@
           "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
         },
         {
-          "title": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
-          "source": "Asia Pacific Journal of Clinical Nutrition, 2015",
-          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13"
-        },
-        {
           "title": "Vinegar ingestion at mealtime reduced fasting blood glucose concentrations in healthy adults at risk for type 2 diabetes",
           "source": "Journal of Functional Foods, 2013",
           "url": "https://doi.org/10.1016/j.jff.2013.08.003"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "ko": {
       "title": "식후 혈당 스파이크 예방 전략: 먹는 순서와 타이밍만 바꿔도 달라진다",
       "short_title": "혈당 스파이크 예방: 먹는 순서와 타이밍만 바꿔도 달라진다",
       "meta_description": "식후 혈당 급등을 막는 실전 전략. 채소 먼저 먹기, 식초 활용, 식후 걷기 타이밍까지 실제 연구를 바탕으로 정리했습니다.",
       "tldr": "먹는 순서(채소·단백질 먼저, 탄수화물은 마지막), 식사와 함께 식초, 식후 10분 걷기는 각각 식후 혈당을 낮추는 근거가 있습니다. 탄수화물을 마지막에 먹은 연구에서는 혈당 반응이 53% 낮았어요.",
-      "body_md": "## 점심 먹고 1시간 뒤, 왜 이렇게 졸릴까?\n\n회의실 불이 꺼지면 눈꺼풀이 천근만근. 점심으로 김치찌개에 밥 한 공기 뚝딱했는데, 오후 2시쯤 되면 정신이 몽롱해집니다. 커피를 마셔도 소용없어요. 이럴 때 흔히 지목되는 게 '혈당 스파이크'입니다.\n\n혈당 스파이크는 식후에 혈당이 빠르게 치솟았다가 다시 내려오는 현상이에요. 오르내림의 폭은 당뇨가 없는 사람 사이에서도 사람마다, 음식마다 크게 다릅니다. 이런 큰 변동이 반복되면 대사 건강에 좋지 않다는 우려가 있어, 식후 혈당을 완만하게 만드는 방법이 많이 연구돼 왔어요.\n\n그런데 말이죠. 같은 음식을 먹어도 혈당 반응은 먹는 방법에 따라 달라집니다. 2형 당뇨 성인 16명을 대상으로 한 교차 연구(Shukla 등, 2017)에서는 같은 식사라도 탄수화물을 마지막에 먹었을 때 처음에 먹었을 때보다 식후 혈당 반응이 53%, 혈당 최고치가 54% 낮았어요. 약을 먹은 것도 아니고, 음식 양을 줄인 것도 아닌데 말이에요.\n\n## 채소를 가장 먼저 입에 넣으세요\n\n식이섬유가 풍부한 채소를 먼저 먹으면 위장에서 일종의 '완충재' 역할을 합니다. 이후에 들어오는 탄수화물이 천천히 소화되면서 혈당이 완만하게 올라가요.\n\n일본 연구도 같은 방향을 가리킵니다. 2형 당뇨 환자를 대상으로 한 연구들(Imai 등, 2014)에서 채소를 탄수화물보다 먼저 먹었을 때 반대 순서보다 식후 혈당과 인슐린이 유의하게 낮았고, 이 식사법을 2.5년 동안 이어간 환자들에서 혈당 조절 개선이 관찰됐어요.\n\n실천법은 간단합니다. 식당에서 반찬이 나오면 나물류부터 집어 드세요. 집에서는 식사를 시작할 때 오이나 당근 스틱 같은 채소를 먼저 꼭꼭 씹어 먹는 것도 좋아요.\n\n## 단백질로 속도 조절하기\n\n채소 다음은 단백질 차례입니다. 고기, 생선, 두부, 계란 같은 단백질 식품은 소화되는 데 시간이 걸리고, 탄수화물보다 먼저 먹으면 위에서 음식이 내려가는 속도를 늦추는 데 도움이 돼요. 앞서 소개한 Shukla 연구의 '탄수화물은 마지막에' 순서도 바로 채소와 단백질을 먼저 먹는 방식이었습니다.\n\n예를 들어 김치찌개라면 두부와 고기 건더기를 먼저, 그다음 김치와 나물, 밥은 마지막에 먹는 식이에요. 처음엔 어색해도 몇 번 해보면 금방 익숙해집니다.\n\n## 식전 식초 한 스푼의 과학\n\n식초가 혈당 관리에 좋다는 얘기, 한 번쯤 들어보셨을 거예요. 2017년 임상시험 메타분석(Shishehbor 등)에 따르면 식사와 함께 식초를 섭취하면 대조군보다 식후 혈당과 인슐린 반응이 유의하게 낮았습니다. 식초의 아세트산이 위 배출을 늦추고 탄수화물 소화를 더디게 하는 것으로 보여요.\n\n미국 애리조나 주립대학교의 Carol Johnston 교수 연구팀도 이 주제를 오래 연구해 왔어요. 인슐린 저항성이나 2형 당뇨가 있는 사람에게 고탄수화물 식사 전 식초를 마시게 하자 식후 인슐린 민감도가 좋아졌고(Johnston 등, 2004), 식사 때 식초를 꾸준히 섭취한 당뇨 고위험 성인에서는 공복 혈당이 낮아졌습니다(Johnston 등, 2013). 연구에서는 보통 1~2 테이블스푼 정도를 식사 직전이나 식사 중에 섭취했어요.\n\n다만 주의할 점이 있어요. 식초를 원액으로 마시면 식도와 치아 에나멜이 손상될 수 있습니다. 반드시 물에 충분히 희석하세요. 샐러드 드레싱이나 나물 무침에 식초를 넣는 것도 방법입니다. 혈당 강하제를 복용 중이라면 담당 의료진과 먼저 상의하세요.\n\n## 식후 걷기, 타이밍이 핵심이다\n\n\"밥 먹고 바로 움직이면 체한다\"는 말, 사실 반만 맞습니다. 격렬한 운동은 부담이 될 수 있지만, 가벼운 걷기는 혈당을 낮추는 데 도움이 돼요.\n\n2형 당뇨 환자를 대상으로 한 무작위 교차 연구(Reynolds 등, 2016)에서는 매 식사 후 10분씩 걸었을 때 하루 한 번 30분 걸었을 때보다 식후 혈당이 전체적으로 약 12% 낮았고, 탄수화물을 가장 많이 먹은 저녁 식사 후에는 약 22% 낮았어요. 같은 운동량이라도 '식후'로 타이밍을 맞추는 게 중요하다는 뜻입니다.\n\n왜 그럴까요? 근육이 수축하면 인슐린의 도움이 덜해도 포도당을 세포 안으로 끌어들일 수 있어요. 식후 혈당이 올라가는 시점에 근육을 움직이면, 들어오는 포도당을 바로 써버리는 셈이죠.\n\n실천 팁 하나 드릴게요. 점심 먹고 커피 사러 1층 편의점까지 걸어가세요. 왕복 10분이면 충분합니다. 엘리베이터 대신 계단을 이용하면 더 좋고요.\n\n## 밥을 식혀서 먹으면 달라지는 것들\n\n같은 쌀밥이라도 조리 후 처리에 따라 혈당 반응이 달라질 수 있습니다. 밥을 지은 뒤 식히면 전분 일부가 '저항성 전분'으로 바뀌어요. 이 전분은 소장에서 잘 소화되지 않고 대장까지 내려가 장내 미생물의 먹이가 됩니다.\n\n인도네시아 연구팀의 2015년 연구(Sonia 등)에서는 지은 밥을 4°C에서 24시간 냉장한 뒤 다시 데우자 저항성 전분이 100g당 0.64g에서 1.65g으로 늘었고, 건강한 성인 15명의 혈당 반응도 갓 지은 밥보다 유의하게 낮았어요(곡선 아래 면적 125 vs 152). 효과가 극적이진 않지만, 남은 밥을 냉장했다가 데워 먹는 것도 작은 도움이 될 수 있습니다.\n\n## 수면과 스트레스라는 숨은 변수\n\n똑같이 먹어도 어떤 날은 혈당이 치솟고, 어떤 날은 안정적이에요. 수면과 스트레스가 인슐린 민감도에 영향을 미치기 때문입니다.\n\n건강한 성인 9명을 대상으로 한 연구(Donga 등, 2010)에서는 단 하룻밤 4시간 정도만 잤는데도 인슐린 민감도가 떨어져, 혈당을 일정하게 유지하는 데 필요한 포도당 주입량이 약 25% 줄었어요. 시카고 대학교 연구(Broussard 등, 2012)에서도 4일간 하루 4.5시간만 잤더니 전신 인슐린 민감도가 유의하게 떨어졌습니다.\n\n스트레스도 마찬가지입니다. 코르티솔이 분비되면 간에서 포도당 방출이 촉진되고, 근육의 포도당 흡수는 억제돼요. 중요한 발표를 앞두고 긴장한 상태에서 밥을 먹으면 혈당이 더 오를 수 있는 이유죠.\n\n해결책은 뻔하지만 어렵습니다. 충분히 자고, 식사 전에 잠깐 숨을 고르세요. 이것만 해도 혈당 관리의 기본 토대가 마련됩니다.\n\n## 여러 방법을 조합하면 어떨까\n\n지금까지 소개한 방법들은 하나씩만 적용해도 효과가 있어요. 그렇다면 조합하면 어떨까요?\n\n아직 이 방법들을 한꺼번에 조합한 효과를 직접 측정한 연구는 없습니다. 그래서 '몇 % 줄어든다'고 말할 수는 없어요.\n\n다만 각 방법이 작용하는 지점이 다릅니다. 먹는 순서와 식초는 음식이 위에서 내려가고 소화되는 속도를, 식후 걷기는 근육이 포도당을 쓰는 양을 바꾸죠. 그래서 서로 겹치기보다 보완할 가능성이 높다고 보는 게 합리적입니다.\n\n## 오늘 저녁부터 시작할 수 있는 것\n\n혈당 스파이크 예방은 거창한 게 아닙니다. 오늘 저녁 식사 때 반찬부터 집어 드세요. 고기나 생선을 그다음에 먹고, 밥은 마지막에. 식사 후에는 동네를 10분만 걸어도 됩니다.\n\n완벽하게 하려고 하면 하루도 못 갑니다. 할 수 있는 날, 할 수 있는 방법부터 꾸준히 해보세요.\n\n결국 혈당 관리는 '무엇을 먹느냐'만큼 '어떻게 먹느냐'가 중요합니다. 같은 재료, 같은 양이라도 순서와 타이밍을 바꾸면 몸이 받아들이는 방식이 달라지니까요. 특별한 식단이나 값비싼 보조제 없이도, 일상의 작은 습관으로 혈당 롤러코스터를 완만하게 만들 수 있습니다.",
+      "body_md": "## 점심 먹고 1시간 뒤, 왜 이렇게 졸릴까?\n\n회의실 불이 꺼지면 눈꺼풀이 천근만근. 점심으로 김치찌개에 밥 한 공기 뚝딱했는데, 오후 2시쯤 되면 정신이 몽롱해집니다. 커피를 마셔도 소용없어요. 이럴 때 흔히 지목되는 게 '혈당 스파이크'입니다.\n\n혈당 스파이크는 식후에 혈당이 빠르게 치솟았다가 다시 내려오는 현상이에요. 오르내림의 폭은 당뇨가 없는 사람 사이에서도 사람마다, 음식마다 크게 다릅니다. 이런 큰 변동이 반복되면 대사 건강에 좋지 않다는 우려가 있어, 식후 혈당을 완만하게 만드는 방법이 많이 연구돼 왔어요.\n\n그런데 말이죠. 같은 음식을 먹어도 혈당 반응은 먹는 방법에 따라 달라집니다. 2형 당뇨 성인 16명을 대상으로 한 교차 연구(Shukla 등, 2017)에서는 같은 식사라도 탄수화물을 마지막에 먹었을 때 처음에 먹었을 때보다 식후 혈당 반응이 53%, 혈당 최고치가 54% 낮았어요. 약을 먹은 것도 아니고, 음식 양을 줄인 것도 아닌데 말이에요.\n\n## 채소를 가장 먼저 입에 넣으세요\n\n식이섬유가 풍부한 채소를 먼저 먹으면 위장에서 일종의 '완충재' 역할을 합니다. 이후에 들어오는 탄수화물이 천천히 소화되면서 혈당이 완만하게 올라가요.\n\n일본 연구도 같은 방향을 가리킵니다. 2형 당뇨 환자를 대상으로 한 연구들(Imai 등, 2014)에서 채소를 탄수화물보다 먼저 먹었을 때 반대 순서보다 식후 혈당과 인슐린이 유의하게 낮았고, 이 식사법을 2.5년 동안 이어간 환자들에서 혈당 조절 개선이 관찰됐어요.\n\n실천법은 간단합니다. 식당에서 반찬이 나오면 나물류부터 집어 드세요. 집에서는 식사를 시작할 때 오이나 당근 스틱 같은 채소를 먼저 꼭꼭 씹어 먹는 것도 좋아요.\n\n## 단백질로 속도 조절하기\n\n채소 다음은 단백질 차례입니다. 고기, 생선, 두부, 계란 같은 단백질 식품은 소화되는 데 시간이 걸리고, 탄수화물보다 먼저 먹으면 위에서 음식이 내려가는 속도를 늦추는 데 도움이 돼요. 앞서 소개한 Shukla 연구의 '탄수화물은 마지막에' 순서도 바로 채소와 단백질을 먼저 먹는 방식이었습니다.\n\n예를 들어 김치찌개라면 두부와 고기 건더기를 먼저, 그다음 김치와 나물, 밥은 마지막에 먹는 식이에요. 처음엔 어색해도 몇 번 해보면 금방 익숙해집니다.\n\n## 식전 식초 한 스푼의 과학\n\n식초가 혈당 관리에 좋다는 얘기, 한 번쯤 들어보셨을 거예요. 2017년 임상시험 메타분석(Shishehbor 등)에 따르면 식사와 함께 식초를 섭취하면 대조군보다 식후 혈당과 인슐린 반응이 유의하게 낮았습니다. 식초의 아세트산이 위 배출을 늦추고 탄수화물 소화를 더디게 하는 것으로 보여요.\n\n미국 애리조나 주립대학교의 Carol Johnston 교수 연구팀도 이 주제를 오래 연구해 왔어요. 인슐린 저항성이나 2형 당뇨가 있는 사람에게 고탄수화물 식사 전 식초를 마시게 하자 식후 인슐린 민감도가 좋아졌고(Johnston 등, 2004), 식사 때 식초를 꾸준히 섭취한 당뇨 고위험 성인에서는 공복 혈당이 낮아졌습니다(Johnston 등, 2013). 연구에서는 보통 1~2 테이블스푼 정도를 식사 직전이나 식사 중에 섭취했어요.\n\n다만 주의할 점이 있어요. 식초를 원액으로 마시면 식도와 치아 에나멜이 손상될 수 있습니다. 반드시 물에 충분히 희석하세요. 샐러드 드레싱이나 나물 무침에 식초를 넣는 것도 방법입니다. 혈당 강하제를 복용 중이라면 담당 의료진과 먼저 상의하세요.\n\n## 식후 걷기, 타이밍이 핵심이다\n\n\"밥 먹고 바로 움직이면 체한다\"는 말, 사실 반만 맞습니다. 격렬한 운동은 부담이 될 수 있지만, 가벼운 걷기는 혈당을 낮추는 데 도움이 돼요.\n\n2형 당뇨 환자를 대상으로 한 무작위 교차 연구(Reynolds 등, 2016)에서는 매 식사 후 10분씩 걸었을 때 하루 한 번 30분 걸었을 때보다 식후 혈당이 전체적으로 약 12% 낮았고, 탄수화물을 가장 많이 먹은 저녁 식사 후에는 약 22% 낮았어요. 같은 운동량이라도 '식후'로 타이밍을 맞추는 게 중요하다는 뜻입니다.\n\n왜 그럴까요? 근육이 수축하면 인슐린의 도움이 덜해도 포도당을 세포 안으로 끌어들일 수 있어요. 식후 혈당이 올라가는 시점에 근육을 움직이면, 들어오는 포도당을 바로 써버리는 셈이죠.\n\n실천 팁 하나 드릴게요. 점심 먹고 커피 사러 1층 편의점까지 걸어가세요. 왕복 10분이면 충분합니다. 엘리베이터 대신 계단을 이용하면 더 좋고요.\n\n## 수면과 스트레스라는 숨은 변수\n\n똑같이 먹어도 어떤 날은 혈당이 치솟고, 어떤 날은 안정적이에요. 수면과 스트레스가 인슐린 민감도에 영향을 미치기 때문입니다.\n\n건강한 성인 9명을 대상으로 한 연구(Donga 등, 2010)에서는 단 하룻밤 4시간 정도만 잤는데도 인슐린 민감도가 떨어져, 혈당을 일정하게 유지하는 데 필요한 포도당 주입량이 약 25% 줄었어요. 시카고 대학교 연구(Broussard 등, 2012)에서도 4일간 하루 4.5시간만 잤더니 전신 인슐린 민감도가 유의하게 떨어졌습니다.\n\n스트레스도 마찬가지입니다. 코르티솔이 분비되면 간에서 포도당 방출이 촉진되고, 근육의 포도당 흡수는 억제돼요. 중요한 발표를 앞두고 긴장한 상태에서 밥을 먹으면 혈당이 더 오를 수 있는 이유죠.\n\n해결책은 뻔하지만 어렵습니다. 충분히 자고, 식사 전에 잠깐 숨을 고르세요. 이것만 해도 혈당 관리의 기본 토대가 마련됩니다.\n\n## 여러 방법을 조합하면 어떨까\n\n지금까지 소개한 방법들은 하나씩만 적용해도 효과가 있어요. 그렇다면 조합하면 어떨까요?\n\n아직 이 방법들을 한꺼번에 조합한 효과를 직접 측정한 연구는 없습니다. 그래서 '몇 % 줄어든다'고 말할 수는 없어요.\n\n다만 각 방법이 작용하는 지점이 다릅니다. 먹는 순서와 식초는 음식이 위에서 내려가고 소화되는 속도를, 식후 걷기는 근육이 포도당을 쓰는 양을 바꾸죠. 그래서 서로 겹치기보다 보완할 가능성이 높다고 보는 게 합리적입니다.\n\n## 오늘 저녁부터 시작할 수 있는 것\n\n혈당 스파이크 예방은 거창한 게 아닙니다. 오늘 저녁 식사 때 반찬부터 집어 드세요. 고기나 생선을 그다음에 먹고, 밥은 마지막에. 식사 후에는 동네를 10분만 걸어도 됩니다.\n\n완벽하게 하려고 하면 하루도 못 갑니다. 할 수 있는 날, 할 수 있는 방법부터 꾸준히 해보세요.\n\n결국 혈당 관리는 '무엇을 먹느냐'만큼 '어떻게 먹느냐'가 중요합니다. 같은 재료, 같은 양이라도 순서와 타이밍을 바꾸면 몸이 받아들이는 방식이 달라지니까요. 특별한 식단이나 값비싼 보조제 없이도, 일상의 작은 습관으로 혈당 롤러코스터를 완만하게 만들 수 있습니다.",
       "key_stats": [
         {
           "label": "탄수화물을 마지막에 먹을 때 식후 혈당 반응",
@@ -217,11 +212,6 @@
           "label": "매 식사 후 10분 걷기 vs 하루 1회 30분",
           "value": "식후 혈당 약 12% 감소 (저녁 후 22%)",
           "source": "Reynolds et al., Diabetologia 2016"
-        },
-        {
-          "label": "냉장 후 데운 밥의 저항성 전분",
-          "value": "100g당 0.64g → 1.65g",
-          "source": "Sonia et al., Asia Pac J Clin Nutr 2015"
         },
         {
           "label": "하룻밤 4시간 수면 후 인슐린 민감도",
@@ -257,19 +247,13 @@
             "근육의 포도당 사용"
           ],
           [
-            "냉장 후 데운 밥",
-            "혈당 반응 소폭 감소",
-            "보통",
-            "저항성 전분 형성"
-          ],
-          [
             "여러 방법 조합",
             "직접 검증된 연구 없음",
             "보통",
             "서로 다른 메커니즘 보완"
           ]
         ],
-        "caption": "효과는 서로 다른 연구·대상(상당수는 2형 당뇨)에서 나온 것이라 수치를 직접 비교할 수 없습니다. 출처: Shukla 2017, Shishehbor 2017, Reynolds 2016, Sonia 2015"
+        "caption": "효과는 서로 다른 연구·대상(상당수는 2형 당뇨)에서 나온 것이라 수치를 직접 비교할 수 없습니다. 출처: Shukla 2017, Shishehbor 2017, Reynolds 2016"
       },
       "faq": [
         {
@@ -358,17 +342,12 @@
           "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
         },
         {
-          "title": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
-          "source": "Asia Pacific Journal of Clinical Nutrition, 2015",
-          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13"
-        },
-        {
           "title": "Vinegar ingestion at mealtime reduced fasting blood glucose concentrations in healthy adults at risk for type 2 diabetes",
           "source": "Journal of Functional Foods, 2013",
           "url": "https://doi.org/10.1016/j.jff.2013.08.003"
         }
       ],
-      "last_updated": "2025-01-23"
+      "last_updated": "2026-11-18"
     },
     "ja": {
       "title": "食後の血糖値スパイクを防ぐ7つの方法｜2026年最新エビデンスに基づく実践ガイド",
@@ -480,7 +459,7 @@
         },
         {
           "question": "効果が出る最短の散歩時間はどのくらいですか？",
-          "answer": "研究では、わずか2〜3分の散歩から効果が見られ、約15分まで効果が増加します。10分の散歩で効果の大部分が得られます。15分を超えると、その食事に対する追加の血糖値低下効果は頭打ちになります。"
+          "answer": "確立された最短時間はありません。食後の軽い短時間の散歩でも効果が期待でき、ある試験では毎食後に10分歩くことで食後の血糖値が低下しました。"
         },
         {
           "question": "これらの方法で食事から吸収されるカロリーは減りますか？",
@@ -544,17 +523,12 @@
           "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
         },
         {
-          "title": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
-          "source": "Asia Pacific Journal of Clinical Nutrition, 2015",
-          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13"
-        },
-        {
           "title": "Vinegar ingestion at mealtime reduced fasting blood glucose concentrations in healthy adults at risk for type 2 diabetes",
           "source": "Journal of Functional Foods, 2013",
           "url": "https://doi.org/10.1016/j.jff.2013.08.003"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "zh-CN": {
       "title": "餐后血糖飙升怎么办？2026年7个真正有效的控糖技巧",
@@ -666,7 +640,7 @@
         },
         {
           "question": "最少走多久才有效果？",
-          "answer": "研究显示走2-3分钟就开始有好处，效果随时长增加，到15分钟左右达到峰值。走10分钟能获得大部分好处。超过15分钟后，对那顿饭的额外降糖效果就不明显了。"
+          "answer": "目前没有公认的最低时长。饭后短时间的轻度步行似乎就有帮助，在一项试验中，每餐后走10分钟就降低了餐后血糖。"
         },
         {
           "question": "这些方法会减少一顿饭吸收的总热量吗？",
@@ -730,17 +704,12 @@
           "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
         },
         {
-          "title": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
-          "source": "Asia Pacific Journal of Clinical Nutrition, 2015",
-          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13"
-        },
-        {
           "title": "Vinegar ingestion at mealtime reduced fasting blood glucose concentrations in healthy adults at risk for type 2 diabetes",
           "source": "Journal of Functional Foods, 2013",
           "url": "https://doi.org/10.1016/j.jff.2013.08.003"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "zh-TW": {
       "title": "飯後血糖飆升怎麼辦？2026年7個真正有效的預防策略",
@@ -853,7 +822,7 @@
         },
         {
           "question": "散步最少要走多久才有效？",
-          "answer": "研究顯示從2-3分鐘的散步就開始有效果，效益隨時間增加，大約到15分鐘達到最佳。10分鐘散步可獲得大部分好處。超過15分鐘後，對該餐的額外降血糖效果就趨於平緩了。"
+          "answer": "目前沒有公認的最低時間。飯後短時間的輕度散步似乎就有幫助，在一項試驗中，每餐後走 10 分鐘就降低了餐後血糖。"
         },
         {
           "question": "這些策略會減少一餐吸收的總熱量嗎？",
@@ -917,17 +886,12 @@
           "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
         },
         {
-          "title": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
-          "source": "Asia Pacific Journal of Clinical Nutrition, 2015",
-          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13"
-        },
-        {
           "title": "Vinegar ingestion at mealtime reduced fasting blood glucose concentrations in healthy adults at risk for type 2 diabetes",
           "source": "Journal of Functional Foods, 2013",
           "url": "https://doi.org/10.1016/j.jff.2013.08.003"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "es": {
       "title": "Cómo Evitar los Picos de Azúcar Después de Comer: 7 Estrategias que Realmente Funcionan en 2026",
@@ -1041,7 +1005,7 @@
         },
         {
           "question": "¿Hay una duración mínima de caminata que aún ayude?",
-          "answer": "Los estudios muestran beneficios empezando con solo 2-3 minutos de caminata, con retornos crecientes hasta unos 15 minutos. Una caminata de 10 minutos captura la mayor parte del beneficio. Más allá de 15 minutos, los efectos adicionales de reducción de glucosa se estabilizan para esa comida específica."
+          "answer": "No hay un mínimo bien establecido. Las caminatas breves y ligeras después de comer parecen ayudar, y en un ensayo caminar 10 minutos después de cada comida redujo la glucosa posprandial. Una caminata corta es un buen punto de partida."
         },
         {
           "question": "¿Estas estrategias reducen el total de calorías absorbidas de una comida?",
@@ -1105,17 +1069,12 @@
           "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
         },
         {
-          "title": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
-          "source": "Asia Pacific Journal of Clinical Nutrition, 2015",
-          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13"
-        },
-        {
           "title": "Vinegar ingestion at mealtime reduced fasting blood glucose concentrations in healthy adults at risk for type 2 diabetes",
           "source": "Journal of Functional Foods, 2013",
           "url": "https://doi.org/10.1016/j.jff.2013.08.003"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "pt-BR": {
       "title": "Prevenção de Picos de Glicose Pós-Refeição: 7 Estratégias Que Realmente Funcionam em 2026",
@@ -1229,7 +1188,7 @@
         },
         {
           "question": "Existe uma duração mínima de caminhada que ainda ajuda?",
-          "answer": "Estudos mostram benefícios começando com apenas 2-3 minutos de caminhada, com retornos crescentes até cerca de 15 minutos. Uma caminhada de 10 minutos captura a maior parte do benefício. Além de 15 minutos, os efeitos adicionais de redução de glicose se estabilizam para aquela refeição específica."
+          "answer": "Não há um mínimo bem estabelecido. Caminhadas leves e curtas depois de comer parecem ajudar, e em um ensaio uma caminhada de 10 minutos após cada refeição reduziu a glicose pós-refeição."
         },
         {
           "question": "Essas estratégias reduzem as calorias totais absorvidas de uma refeição?",
@@ -1293,17 +1252,12 @@
           "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
         },
         {
-          "title": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
-          "source": "Asia Pacific Journal of Clinical Nutrition, 2015",
-          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13"
-        },
-        {
           "title": "Vinegar ingestion at mealtime reduced fasting blood glucose concentrations in healthy adults at risk for type 2 diabetes",
           "source": "Journal of Functional Foods, 2013",
           "url": "https://doi.org/10.1016/j.jff.2013.08.003"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "id": {
       "title": "Pencegahan Lonjakan Gula Darah Setelah Makan: 7 Strategi yang Benar-Benar Efektif di 2026",
@@ -1417,7 +1371,7 @@
         },
         {
           "question": "Apakah ada durasi jalan kaki minimum yang masih membantu?",
-          "answer": "Studi menunjukkan manfaat mulai dari hanya 2-3 menit berjalan, dengan pengembalian yang meningkat hingga sekitar 15 menit. Jalan kaki 10 menit menangkap sebagian besar manfaatnya. Lebih dari 15 menit, efek penurunan glukosa tambahan mencapai dataran tinggi untuk makanan spesifik itu."
+          "answer": "Belum ada batas minimum yang mapan. Jalan ringan dalam waktu singkat setelah makan tampaknya membantu, dan dalam satu uji, jalan 10 menit setelah setiap makan menurunkan gula darah setelah makan."
         },
         {
           "question": "Apakah strategi ini mengurangi total kalori yang diserap dari makanan?",
@@ -1481,17 +1435,12 @@
           "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
         },
         {
-          "title": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
-          "source": "Asia Pacific Journal of Clinical Nutrition, 2015",
-          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13"
-        },
-        {
           "title": "Vinegar ingestion at mealtime reduced fasting blood glucose concentrations in healthy adults at risk for type 2 diabetes",
           "source": "Journal of Functional Foods, 2013",
           "url": "https://doi.org/10.1016/j.jff.2013.08.003"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "de": {
       "title": "Blutzuckerspitzen nach dem Essen verhindern: 7 Strategien, die 2026 wirklich funktionieren",
@@ -1605,7 +1554,7 @@
         },
         {
           "question": "Gibt es eine minimale Spaziergangsdauer, die noch hilft?",
-          "answer": "Studien zeigen Vorteile ab nur 2-3 Minuten Gehen, mit zunehmenden Erträgen bis etwa 15 Minuten. Ein 10-minütiger Spaziergang erfasst den größten Teil des Nutzens. Über 15 Minuten hinaus erreichen zusätzliche glukosesenkende Effekte für diese spezifische Mahlzeit ein Plateau."
+          "answer": "Eine fest belegte Mindestdauer gibt es nicht. Kurze Spaziergänge in leichtem Tempo nach dem Essen scheinen zu helfen; in einer Studie senkte ein 10-minütiger Spaziergang nach jeder Mahlzeit den Blutzucker nach dem Essen."
         },
         {
           "question": "Reduzieren diese Strategien die Gesamtkalorien, die aus einer Mahlzeit aufgenommen werden?",
@@ -1669,17 +1618,12 @@
           "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
         },
         {
-          "title": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
-          "source": "Asia Pacific Journal of Clinical Nutrition, 2015",
-          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13"
-        },
-        {
           "title": "Vinegar ingestion at mealtime reduced fasting blood glucose concentrations in healthy adults at risk for type 2 diabetes",
           "source": "Journal of Functional Foods, 2013",
           "url": "https://doi.org/10.1016/j.jff.2013.08.003"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     },
     "fr": {
       "title": "Prévention des pics de glycémie après les repas : 7 stratégies qui fonctionnent vraiment en 2026",
@@ -1793,7 +1737,7 @@
         },
         {
           "question": "Y a-t-il une durée minimale de marche qui aide encore ?",
-          "answer": "Les études montrent des bénéfices dès 2 à 3 minutes de marche, avec des rendements croissants jusqu'à environ 15 minutes. Une marche de 10 minutes capture la plupart du bénéfice. Au-delà de 15 minutes, les effets hypoglycémiants supplémentaires plafonnent pour ce repas spécifique."
+          "answer": "Il n'existe pas de durée minimale bien établie. De courtes marches tranquilles après le repas semblent aider, et dans un essai, une marche de 10 minutes après chaque repas a abaissé la glycémie post-prandiale."
         },
         {
           "question": "Ces stratégies réduisent-elles les calories totales absorbées d'un repas ?",
@@ -1857,21 +1801,16 @@
           "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
         },
         {
-          "title": "Effect of cooling of cooked white rice on resistant starch content and glycemic response",
-          "source": "Asia Pacific Journal of Clinical Nutrition, 2015",
-          "url": "https://doi.org/10.6133/apjcn.2015.24.4.13"
-        },
-        {
           "title": "Vinegar ingestion at mealtime reduced fasting blood glucose concentrations in healthy adults at risk for type 2 diabetes",
           "source": "Journal of Functional Foods, 2013",
           "url": "https://doi.org/10.1016/j.jff.2013.08.003"
         }
       ],
-      "last_updated": "2026-05-23"
+      "last_updated": "2026-11-18"
     }
   },
   "generated_at": "2026-05-24T08:38:40.656Z",
-  "updated_at": "2026-10-08T02:30:34.000Z",
+  "updated_at": "2026-11-18T00:00:00.000Z",
   "iterations": {
     "naturalness_pass": 2,
     "reviewer_pass": 1
