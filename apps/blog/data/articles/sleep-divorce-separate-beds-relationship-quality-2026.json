@@ -119,33 +119,7 @@
           "answer": "Not when chosen for sleep reasons. However, if you're separating beds because you can't stand being near your partner, that indicates deeper relationship issues that separate sleeping won't solve. Be honest about whether this is truly about sleep or an avoidance strategy."
         }
       ],
-      "references": [
-        {
-          "title": "Longitudinal Effects of Sleep Arrangements on Couple Relationship Quality",
-          "source": "Sleep Health, 2024",
-          "url": "https://doi.org/10.1016/j.sleep.2025.107354"
-        },
-        {
-          "title": "Sleep Incompatibility and Relationship Satisfaction: A Three-Year Follow-Up Study",
-          "source": "Journal of Family Psychology, 2025",
-          "url": "https://doi.org/10.1037/fam0001345.supp"
-        },
-        {
-          "title": "Sharing the Covers: Sleep and Couples' Relationships",
-          "source": "Dr. Wendy Troxel, RAND Corporation",
-          "url": "https://doi.org/10.1016/j.sleh.2024.01.009"
-        },
-        {
-          "title": "Americans and Their Sleep: 2024 Survey Results",
-          "source": "American Academy of Sleep Medicine, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42161356/"
-        },
-        {
-          "title": "Sleep Deprivation and Emotional Reactivity in Intimate Relationships",
-          "source": "UC Berkeley Sleep and Neuroimaging Laboratory",
-          "url": "https://doi.org/10.1093/sleep/33.6.1305"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ko": {
@@ -246,27 +220,7 @@
           "answer": "맞아요. 실제로는 '수면 독립' 또는 '각방 수면'이라는 표현을 선호하는 전문가도 많습니다. 이혼이 아니라 더 나은 관계를 위한 선택이니까요."
         }
       ],
-      "references": [
-        {
-          "title": "Couple Sleep Arrangements and Relationship Outcomes: A Longitudinal Study",
-          "source": "Sleep Health, 2024",
-          "url": "https://doi.org/10.1016/j.sleep.2025.107354"
-        },
-        {
-          "title": "Daily Sleep Quality and Romantic Relationship Functioning",
-          "source": "Journal of Family Psychology, 2025",
-          "url": "https://doi.org/10.1037/fam0001328.supp"
-        },
-        {
-          "title": "Sleep in America Poll: Couples and Sleep",
-          "source": "National Sleep Foundation, 2024",
-          "url": "https://doi.org/10.1093/sleep/zsae067.0270"
-        },
-        {
-          "title": "Sleep Incompatibility in Romantic Partnerships",
-          "source": "American Academy of Sleep Medicine, 2024"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ja": {
@@ -380,26 +334,6 @@
         }
       ],
       "references": [
-        {
-          "title": "Longitudinal Effects of Sleep Arrangements on Couple Relationship Quality（睡眠形態がカップルの関係の質に与える縦断的影響）",
-          "source": "Sleep Health, 2024",
-          "url": "https://doi.org/10.4234/jjoffamilysociology.13.2_87"
-        },
-        {
-          "title": "Sleep Incompatibility and Relationship Satisfaction: A Three-Year Follow-Up Study（睡眠の不適合と関係満足度：3年間の追跡調査）",
-          "source": "Journal of Family Psychology, 2025",
-          "url": "https://doi.org/10.1539/sangyoeisei.b8002"
-        },
-        {
-          "title": "Sharing the Covers: Sleep and Couples' Relationships（布団を分かち合う：睡眠とカップルの関係）",
-          "source": "Dr. Wendy Troxel, RAND Corporation",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42176392/"
-        },
-        {
-          "title": "Americans and Their Sleep: 2024 Survey Results（アメリカ人と睡眠：2024年調査結果）",
-          "source": "American Academy of Sleep Medicine, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42161356/"
-        },
         {
           "title": "Sleep Deprivation and Emotional Reactivity in Intimate Relationships（睡眠不足と親密な関係における感情的反応性）",
           "source": "UC Berkeley Sleep and Neuroimaging Laboratory"
@@ -517,33 +451,7 @@
           "answer": "如果是因为睡眠原因，不是。但如果你分床是因为受不了待在伴侣身边，那说明有更深层的感情问题，分开睡解决不了。诚实地问自己：这真的是关于睡眠，还是睡眠只是借口？"
         }
       ],
-      "references": [
-        {
-          "title": "Longitudinal Effects of Sleep Arrangements on Couple Relationship Quality",
-          "source": "Sleep Health, 2024",
-          "url": "https://doi.org/10.1016/j.sleep.2025.107354"
-        },
-        {
-          "title": "Sleep Incompatibility and Relationship Satisfaction: A Three-Year Follow-Up Study",
-          "source": "Journal of Family Psychology, 2025",
-          "url": "https://doi.org/10.1037/fam0001345.supp"
-        },
-        {
-          "title": "Sharing the Covers: Sleep and Couples' Relationships",
-          "source": "Dr. Wendy Troxel, RAND Corporation",
-          "url": "https://doi.org/10.1016/j.sleh.2024.01.009"
-        },
-        {
-          "title": "Americans and Their Sleep: 2024 Survey Results",
-          "source": "American Academy of Sleep Medicine, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42161356/"
-        },
-        {
-          "title": "Sleep Deprivation and Emotional Reactivity in Intimate Relationships",
-          "source": "UC Berkeley Sleep and Neuroimaging Laboratory",
-          "url": "https://doi.org/10.1093/sleep/33.6.1305"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "zh-TW": {
@@ -656,33 +564,7 @@
           "answer": "如果是因為睡眠原因，不代表。但如果你分房睡是因為受不了待在伴侶身邊，那代表有更深層的關係問題，分房睡解決不了。誠實面對這到底是真的因為睡眠，還是在逃避問題。"
         }
       ],
-      "references": [
-        {
-          "title": "Longitudinal Effects of Sleep Arrangements on Couple Relationship Quality",
-          "source": "Sleep Health, 2024",
-          "url": "https://doi.org/10.1016/j.sleep.2025.107354"
-        },
-        {
-          "title": "Sleep Incompatibility and Relationship Satisfaction: A Three-Year Follow-Up Study",
-          "source": "Journal of Family Psychology, 2025",
-          "url": "https://doi.org/10.1037/fam0001345.supp"
-        },
-        {
-          "title": "Sharing the Covers: Sleep and Couples' Relationships",
-          "source": "Dr. Wendy Troxel, RAND Corporation",
-          "url": "https://doi.org/10.1016/j.sleh.2024.01.009"
-        },
-        {
-          "title": "Americans and Their Sleep: 2024 Survey Results",
-          "source": "American Academy of Sleep Medicine, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42161356/"
-        },
-        {
-          "title": "Sleep Deprivation and Emotional Reactivity in Intimate Relationships",
-          "source": "UC Berkeley Sleep and Neuroimaging Laboratory",
-          "url": "https://doi.org/10.1093/sleep/33.6.1305"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "es": {
@@ -796,33 +678,7 @@
           "answer": "No cuando se elige por razones de sueño. Sin embargo, si estás separando camas porque no soportas estar cerca de tu pareja, eso indica problemas más profundos que dormir separados no resolverá. Sé honesto sobre si esto es realmente por el sueño o una estrategia de evasión."
         }
       ],
-      "references": [
-        {
-          "title": "Longitudinal Effects of Sleep Arrangements on Couple Relationship Quality",
-          "source": "Sleep Health, 2024",
-          "url": "https://doi.org/10.1016/j.sleep.2025.107354"
-        },
-        {
-          "title": "Sleep Incompatibility and Relationship Satisfaction: A Three-Year Follow-Up Study",
-          "source": "Journal of Family Psychology, 2025",
-          "url": "https://doi.org/10.1037/fam0001345.supp"
-        },
-        {
-          "title": "Sharing the Covers: Sleep and Couples' Relationships",
-          "source": "Dr. Wendy Troxel, RAND Corporation",
-          "url": "https://doi.org/10.1016/j.sleh.2024.01.009"
-        },
-        {
-          "title": "Americans and Their Sleep: 2024 Survey Results",
-          "source": "American Academy of Sleep Medicine, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42161356/"
-        },
-        {
-          "title": "Sleep Deprivation and Emotional Reactivity in Intimate Relationships",
-          "source": "UC Berkeley Sleep and Neuroimaging Laboratory",
-          "url": "https://doi.org/10.1093/sleep/33.6.1305"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "pt-BR": {
@@ -937,33 +793,7 @@
           "answer": "Não quando escolhido por razões de sono. No entanto, se você está separando camas porque não suporta estar perto do seu parceiro, isso indica problemas mais profundos no relacionamento que dormir separado não resolverá. Seja honesto sobre se isso é realmente sobre sono ou uma estratégia de evitação."
         }
       ],
-      "references": [
-        {
-          "title": "Longitudinal Effects of Sleep Arrangements on Couple Relationship Quality",
-          "source": "Sleep Health, 2024",
-          "url": "https://doi.org/10.1016/j.sleep.2025.107354"
-        },
-        {
-          "title": "Sleep Incompatibility and Relationship Satisfaction: A Three-Year Follow-Up Study",
-          "source": "Journal of Family Psychology, 2025",
-          "url": "https://doi.org/10.1037/fam0001345.supp"
-        },
-        {
-          "title": "Sharing the Covers: Sleep and Couples' Relationships",
-          "source": "Dr. Wendy Troxel, RAND Corporation",
-          "url": "https://doi.org/10.1016/j.sleh.2024.01.009"
-        },
-        {
-          "title": "Americans and Their Sleep: 2024 Survey Results",
-          "source": "American Academy of Sleep Medicine, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42161356/"
-        },
-        {
-          "title": "Sleep Deprivation and Emotional Reactivity in Intimate Relationships",
-          "source": "UC Berkeley Sleep and Neuroimaging Laboratory",
-          "url": "https://doi.org/10.1093/sleep/33.6.1305"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "id": {
@@ -1078,33 +908,7 @@
           "answer": "Tidak ketika dipilih karena alasan tidur. Namun, jika Anda memisahkan ranjang karena Anda tidak tahan berada di dekat pasangan Anda, itu menunjukkan masalah hubungan yang lebih dalam yang tidak akan diselesaikan dengan tidur terpisah. Jujurlah tentang apakah ini benar-benar tentang tidur atau strategi penghindaran."
         }
       ],
-      "references": [
-        {
-          "title": "Longitudinal Effects of Sleep Arrangements on Couple Relationship Quality",
-          "source": "Sleep Health, 2024",
-          "url": "https://doi.org/10.1016/j.sleep.2025.107354"
-        },
-        {
-          "title": "Sleep Incompatibility and Relationship Satisfaction: A Three-Year Follow-Up Study",
-          "source": "Journal of Family Psychology, 2025",
-          "url": "https://doi.org/10.1037/fam0001345.supp"
-        },
-        {
-          "title": "Sharing the Covers: Sleep and Couples' Relationships",
-          "source": "Dr. Wendy Troxel, RAND Corporation",
-          "url": "https://doi.org/10.1016/j.sleh.2024.01.009"
-        },
-        {
-          "title": "Americans and Their Sleep: 2024 Survey Results",
-          "source": "American Academy of Sleep Medicine, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42161356/"
-        },
-        {
-          "title": "Sleep Deprivation and Emotional Reactivity in Intimate Relationships",
-          "source": "UC Berkeley Sleep and Neuroimaging Laboratory",
-          "url": "https://doi.org/10.1093/sleep/33.6.1305"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "fr": {
@@ -1219,33 +1023,7 @@
           "answer": "Pas lorsqu'il est choisi pour des raisons de sommeil. Cependant, si vous séparez les lits parce que vous ne supportez pas d'être près de votre partenaire, cela indique des problèmes relationnels plus profonds que le sommeil séparé ne résoudra pas. Soyez honnête sur le fait qu'il s'agit vraiment de sommeil ou d'une stratégie d'évitement."
         }
       ],
-      "references": [
-        {
-          "title": "Longitudinal Effects of Sleep Arrangements on Couple Relationship Quality",
-          "source": "Sleep Health, 2024",
-          "url": "https://doi.org/10.1016/j.sleep.2025.107354"
-        },
-        {
-          "title": "Sleep Incompatibility and Relationship Satisfaction: A Three-Year Follow-Up Study",
-          "source": "Journal of Family Psychology, 2025",
-          "url": "https://doi.org/10.1037/fam0001345.supp"
-        },
-        {
-          "title": "Sharing the Covers: Sleep and Couples' Relationships",
-          "source": "Dr. Wendy Troxel, RAND Corporation",
-          "url": "https://doi.org/10.1016/j.sleh.2024.01.009"
-        },
-        {
-          "title": "Americans and Their Sleep: 2024 Survey Results",
-          "source": "American Academy of Sleep Medicine, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42161356/"
-        },
-        {
-          "title": "Sleep Deprivation and Emotional Reactivity in Intimate Relationships",
-          "source": "UC Berkeley Sleep and Neuroimaging Laboratory",
-          "url": "https://doi.org/10.1093/sleep/33.6.1305"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "de": {
@@ -1359,33 +1137,7 @@
           "answer": "Nicht, wenn es aus Schlafgründen gewählt wird. Wenn Sie jedoch Betten trennen, weil Sie es nicht ertragen können, in der Nähe Ihres Partners zu sein, deutet das auf tiefere Beziehungsprobleme hin, die getrenntes Schlafen nicht lösen wird. Seien Sie ehrlich darüber, ob es wirklich um Schlaf geht oder eine Vermeidungsstrategie ist."
         }
       ],
-      "references": [
-        {
-          "title": "Longitudinal Effects of Sleep Arrangements on Couple Relationship Quality",
-          "source": "Sleep Health, 2024",
-          "url": "https://doi.org/10.1016/j.sleep.2025.107354"
-        },
-        {
-          "title": "Sleep Incompatibility and Relationship Satisfaction: A Three-Year Follow-Up Study",
-          "source": "Journal of Family Psychology, 2025",
-          "url": "https://doi.org/10.1037/fam0001345.supp"
-        },
-        {
-          "title": "Sharing the Covers: Sleep and Couples' Relationships",
-          "source": "Dr. Wendy Troxel, RAND Corporation",
-          "url": "https://doi.org/10.1016/j.sleh.2024.01.009"
-        },
-        {
-          "title": "Americans and Their Sleep: 2024 Survey Results",
-          "source": "American Academy of Sleep Medicine, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42161356/"
-        },
-        {
-          "title": "Sleep Deprivation and Emotional Reactivity in Intimate Relationships",
-          "source": "UC Berkeley Sleep and Neuroimaging Laboratory",
-          "url": "https://doi.org/10.1093/sleep/33.6.1305"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     }
   },

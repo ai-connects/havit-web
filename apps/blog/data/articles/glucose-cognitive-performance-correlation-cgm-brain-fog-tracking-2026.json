@@ -113,28 +113,7 @@
           "answer": "Many people see changes within days of adjusting meal composition or timing. The glucose response to a modified meal is immediate—you can compare today's lunch response to yesterday's. Broader improvements in metabolic flexibility from lifestyle changes take weeks to months."
         }
       ],
-      "references": [
-        {
-          "title": "Postprandial Glucose Variability and Cognitive Performance in Non-Diabetic Adults",
-          "source": "Neurology, 2024",
-          "url": "https://doi.org/10.2139/ssrn.5914902"
-        },
-        {
-          "title": "PREDICT Study: Glycemic Variability and Real-World Cognitive Function",
-          "source": "PREDICT Cognitive Sub-Study, Nature Medicine, 2025",
-          "url": "https://doi.org/10.7554/elife.108521.1.sa1"
-        },
-        {
-          "title": "Reactive Hypoglycemia and Daytime Cognitive Symptoms: A CGM-Based Analysis",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.1016/j.diabres.2026.113188"
-        },
-        {
-          "title": "Post-Meal Walking and Glycemic Response: Meta-Analysis of Intervention Studies",
-          "source": "Sports Medicine, 2024",
-          "url": "https://doi.org/10.1249/01.mss.0000764588.48114.29"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ko": {
@@ -236,28 +215,7 @@
           "answer": "네, 특히 식후 가벼운 운동이 효과적이에요. 점심 후 10분만 걸어도 혈당 스파이크가 25% 줄어듭니다. 근육이 포도당을 직접 흡수해서 인슐린 과분비를 막아주기 때문이에요. 격렬한 운동보다 식후 산책이 혈당 안정에는 더 효과적입니다."
         }
       ],
-      "references": [
-        {
-          "title": "Glucose Variability and Cognitive Function in Non-Diabetic Adults: A 14-Day CGM Study",
-          "source": "Neurology, 2024",
-          "url": "https://doi.org/10.1016/j.intell.2015.12.006"
-        },
-        {
-          "title": "PREDICT Study: Individual Glycemic Responses and Cognitive Performance Sub-Analysis",
-          "source": "Nature Medicine, 2025",
-          "url": "https://doi.org/10.2196/59308"
-        },
-        {
-          "title": "Dietary Interventions for Reactive Hypoglycemia: Effects on Glycemic Variability and Cognitive Symptoms",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.36171/jamd20.23.3.2"
-        },
-        {
-          "title": "Postprandial Glucose Patterns and Brain Function: A Systematic Review",
-          "source": "Frontiers in Neuroscience, 2024",
-          "url": "https://doi.org/10.3389/fnins.2021.685031"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ja": {
@@ -363,26 +321,7 @@
           "answer": "多くの人は食事内容やタイミングを調整して数日以内に変化を感じます。変更した食事への血糖反応は即座に現れます—今日の昼食の反応を昨日と比較できます。ライフスタイルの変化による代謝の柔軟性の広範な改善には、数週間から数ヶ月かかります。"
         }
       ],
-      "references": [
-        {
-          "title": "Postprandial Glucose Variability and Cognitive Performance in Non-Diabetic Adults（非糖尿病成人における食後血糖変動と認知パフォーマンス）",
-          "source": "Neurology, 2024",
-          "url": "https://doi.org/10.3143/geriatrics.38.388"
-        },
-        {
-          "title": "PREDICT Study: Glycemic Variability and Real-World Cognitive Function（PREDICT研究：血糖変動と実世界での認知機能）",
-          "source": "PREDICT Cognitive Sub-Study, Nature Medicine, 2025"
-        },
-        {
-          "title": "Reactive Hypoglycemia and Daytime Cognitive Symptoms: A CGM-Based Analysis（反応性低血糖と日中の認知症状：CGMベースの分析）",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.4992/pacjpa.88.0_2b-064-pm"
-        },
-        {
-          "title": "Post-Meal Walking and Glycemic Response: Meta-Analysis of Intervention Studies（食後ウォーキングと血糖反応：介入研究のメタ分析）",
-          "source": "Sports Medicine, 2024"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "zh-CN": {
@@ -492,16 +431,6 @@
         {
           "title": "非糖尿病成人餐后血糖波动与认知表现",
           "source": "Neurology, 2024"
-        },
-        {
-          "title": "PREDICT研究：血糖波动与真实世界认知功能",
-          "source": "PREDICT认知子研究, Nature Medicine, 2025",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42184479/"
-        },
-        {
-          "title": "反应性低血糖与日间认知症状：基于CGM的分析",
-          "source": "Diabetes Care, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42179761/"
         },
         {
           "title": "餐后步行与血糖反应：干预研究荟萃分析",
@@ -619,16 +548,6 @@
           "source": "Neurology, 2024"
         },
         {
-          "title": "PREDICT 研究：血糖變異性與真實世界認知功能",
-          "source": "PREDICT 認知子研究, Nature Medicine, 2025",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42184479/"
-        },
-        {
-          "title": "反應性低血糖與日間認知症狀：基於 CGM 的分析",
-          "source": "Diabetes Care, 2024",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42179761/"
-        },
-        {
           "title": "餐後散步與血糖反應：介入研究的統合分析",
           "source": "Sports Medicine, 2024"
         }
@@ -740,28 +659,7 @@
           "answer": "Muchas personas ven cambios en días de ajustar la composición o el horario de las comidas. La respuesta glucémica a una comida modificada es inmediata—puedes comparar la respuesta del almuerzo de hoy con la de ayer. Mejoras más amplias en flexibilidad metabólica por cambios de estilo de vida toman semanas a meses."
         }
       ],
-      "references": [
-        {
-          "title": "Postprandial Glucose Variability and Cognitive Performance in Non-Diabetic Adults",
-          "source": "Neurology, 2024",
-          "url": "https://doi.org/10.2139/ssrn.5914902"
-        },
-        {
-          "title": "PREDICT Study: Glycemic Variability and Real-World Cognitive Function",
-          "source": "PREDICT Cognitive Sub-Study, Nature Medicine, 2025",
-          "url": "https://doi.org/10.7554/elife.108521.1.sa1"
-        },
-        {
-          "title": "Reactive Hypoglycemia and Daytime Cognitive Symptoms: A CGM-Based Analysis",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.1016/j.diabres.2026.113188"
-        },
-        {
-          "title": "Post-Meal Walking and Glycemic Response: Meta-Analysis of Intervention Studies",
-          "source": "Sports Medicine, 2024",
-          "url": "https://doi.org/10.1249/01.mss.0000764588.48114.29"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "pt-BR": {
@@ -869,28 +767,7 @@
           "answer": "Muitas pessoas veem mudanças dentro de dias ao ajustar composição ou tempo de refeição. A resposta de glicose a uma refeição modificada é imediata—você pode comparar a resposta do almoço de hoje com a de ontem. Melhorias mais amplas na flexibilidade metabólica de mudanças de estilo de vida levam semanas a meses."
         }
       ],
-      "references": [
-        {
-          "title": "Postprandial Glucose Variability and Cognitive Performance in Non-Diabetic Adults",
-          "source": "Neurology, 2024",
-          "url": "https://doi.org/10.2139/ssrn.5914902"
-        },
-        {
-          "title": "PREDICT Study: Glycemic Variability and Real-World Cognitive Function",
-          "source": "PREDICT Cognitive Sub-Study, Nature Medicine, 2025",
-          "url": "https://doi.org/10.7554/elife.108521.1.sa1"
-        },
-        {
-          "title": "Reactive Hypoglycemia and Daytime Cognitive Symptoms: A CGM-Based Analysis",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.1016/j.diabres.2026.113188"
-        },
-        {
-          "title": "Post-Meal Walking and Glycemic Response: Meta-Analysis of Intervention Studies",
-          "source": "Sports Medicine, 2024",
-          "url": "https://doi.org/10.1249/01.mss.0000764588.48114.29"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "id": {
@@ -998,28 +875,7 @@
           "answer": "Banyak orang melihat perubahan dalam beberapa hari setelah menyesuaikan komposisi atau waktu makan. Respons glukosa terhadap makanan yang dimodifikasi bersifat langsung—Anda dapat membandingkan respons makan siang hari ini dengan kemarin. Perbaikan yang lebih luas dalam fleksibilitas metabolik dari perubahan gaya hidup memerlukan minggu hingga bulan."
         }
       ],
-      "references": [
-        {
-          "title": "Postprandial Glucose Variability and Cognitive Performance in Non-Diabetic Adults",
-          "source": "Neurology, 2024",
-          "url": "https://doi.org/10.2139/ssrn.5914902"
-        },
-        {
-          "title": "PREDICT Study: Glycemic Variability and Real-World Cognitive Function",
-          "source": "PREDICT Cognitive Sub-Study, Nature Medicine, 2025",
-          "url": "https://doi.org/10.7554/elife.108521.1.sa1"
-        },
-        {
-          "title": "Reactive Hypoglycemia and Daytime Cognitive Symptoms: A CGM-Based Analysis",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.1016/j.diabres.2026.113188"
-        },
-        {
-          "title": "Post-Meal Walking and Glycemic Response: Meta-Analysis of Intervention Studies",
-          "source": "Sports Medicine, 2024",
-          "url": "https://doi.org/10.1249/01.mss.0000764588.48114.29"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "de": {
@@ -1127,28 +983,7 @@
           "answer": "Viele Menschen sehen innerhalb von Tagen nach Anpassung der Mahlzeitenzusammensetzung oder des Timings Veränderungen. Die Glukosereaktion auf eine modifizierte Mahlzeit ist sofort – Sie können die heutige Mittagsreaktion mit der gestrigen vergleichen. Breitere Verbesserungen der metabolischen Flexibilität durch Lebensstiländerungen dauern Wochen bis Monate."
         }
       ],
-      "references": [
-        {
-          "title": "Postprandial Glucose Variability and Cognitive Performance in Non-Diabetic Adults",
-          "source": "Neurology, 2024",
-          "url": "https://doi.org/10.2139/ssrn.5914902"
-        },
-        {
-          "title": "PREDICT Study: Glycemic Variability and Real-World Cognitive Function",
-          "source": "PREDICT Cognitive Sub-Study, Nature Medicine, 2025",
-          "url": "https://doi.org/10.7554/elife.108521.1.sa1"
-        },
-        {
-          "title": "Reactive Hypoglycemia and Daytime Cognitive Symptoms: A CGM-Based Analysis",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.1016/j.diabres.2026.113188"
-        },
-        {
-          "title": "Post-Meal Walking and Glycemic Response: Meta-Analysis of Intervention Studies",
-          "source": "Sports Medicine, 2024",
-          "url": "https://doi.org/10.1249/01.mss.0000764588.48114.29"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "fr": {
@@ -1256,28 +1091,7 @@
           "answer": "Beaucoup de gens voient des changements en quelques jours après avoir ajusté la composition ou le moment des repas. La réponse glycémique à un repas modifié est immédiate—vous pouvez comparer la réponse du déjeuner d'aujourd'hui à celle d'hier. Les améliorations plus larges de la flexibilité métabolique grâce aux changements de mode de vie prennent des semaines à des mois."
         }
       ],
-      "references": [
-        {
-          "title": "Postprandial Glucose Variability and Cognitive Performance in Non-Diabetic Adults",
-          "source": "Neurology, 2024",
-          "url": "https://doi.org/10.2139/ssrn.5914902"
-        },
-        {
-          "title": "PREDICT Study: Glycemic Variability and Real-World Cognitive Function",
-          "source": "PREDICT Cognitive Sub-Study, Nature Medicine, 2025",
-          "url": "https://doi.org/10.7554/elife.108521.1.sa1"
-        },
-        {
-          "title": "Reactive Hypoglycemia and Daytime Cognitive Symptoms: A CGM-Based Analysis",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.1016/j.diabres.2026.113188"
-        },
-        {
-          "title": "Post-Meal Walking and Glycemic Response: Meta-Analysis of Intervention Studies",
-          "source": "Sports Medicine, 2024",
-          "url": "https://doi.org/10.1249/01.mss.0000764588.48114.29"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     }
   },

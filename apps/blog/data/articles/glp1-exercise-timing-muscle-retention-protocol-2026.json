@@ -112,28 +112,7 @@
           "answer": "The principles apply across semaglutide, tirzepatide, and other GLP-1 agonists, though individual response varies. Tirzepatide's dual action may create slightly different appetite patterns. Track your personal cycle and adjust the timing window accordingly."
         }
       ],
-      "references": [
-        {
-          "title": "Exercise Timing and Body Composition Outcomes in GLP-1 Receptor Agonist Users: A Randomized Controlled Trial",
-          "source": "Obesity, 2025",
-          "url": "https://doi.org/10.1370/afm.23.s1.7435"
-        },
-        {
-          "title": "Semaglutide and Lean Mass: Predictors of Body Composition Change During Treatment",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.64898/2026.04.11.26350687"
-        },
-        {
-          "title": "Resistance Training Strategies During Pharmacological Weight Loss: A Systematic Review",
-          "source": "Journal of Strength and Conditioning Research, 2024",
-          "url": "https://doi.org/10.1097/01.jsc.0000395689.60551.c2"
-        },
-        {
-          "title": "Sleep Restriction and Muscle Protein Synthesis in Humans",
-          "source": "Journal of Clinical Endocrinology & Metabolism, 2023",
-          "url": "https://doi.org/10.1210/jc.84.6.1979"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ko": {
@@ -240,28 +219,7 @@
           "answer": "약 중단 후에는 타이밍 제약이 사라지므로 일반적인 운동 원칙을 따르면 됩니다. 다만 약 중단 직후 2-3개월은 체중 반등 위험이 높으니, 오히려 운동 빈도를 유지하거나 늘리는 게 좋아요."
         }
       ],
-      "references": [
-        {
-          "title": "GLP-1 Receptor Agonists and Exercise Interaction: Timing Strategies for Lean Mass Preservation",
-          "source": "Obesity, 2025",
-          "url": "https://doi.org/10.31219/osf.io/jcq7y_v1"
-        },
-        {
-          "title": "Body Composition Changes During Semaglutide Treatment: A 52-Week Analysis",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.1111/dom.16162/v1/decision1"
-        },
-        {
-          "title": "Protein Requirements During Pharmacological Weight Loss: Systematic Review",
-          "source": "American Journal of Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.3945/ajcn.116.136879"
-        },
-        {
-          "title": "Resistance Training Intensity and Frequency in Caloric Deficit States",
-          "source": "Journal of Strength and Conditioning Research, 2024",
-          "url": "https://doi.org/10.1519/00124278-200405000-00022"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ja": {
@@ -367,28 +325,7 @@
           "answer": "原則はセマグルチド、チルゼパチド、その他のGLP-1アゴニスト全体に適用されますが、個人の反応は異なります。チルゼパチドのデュアルアクションは、わずかに異なる食欲パターンを生み出す可能性があります。個人のサイクルを追跡し、それに応じてタイミングウィンドウを調整してください。"
         }
       ],
-      "references": [
-        {
-          "title": "Exercise Timing and Body Composition Outcomes in GLP-1 Receptor Agonist Users: A Randomized Controlled Trial",
-          "source": "Obesity, 2025",
-          "url": "https://doi.org/10.1370/afm.23.s1.7435"
-        },
-        {
-          "title": "Semaglutide and Lean Mass: Predictors of Body Composition Change During Treatment",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.64898/2026.04.11.26350687"
-        },
-        {
-          "title": "Resistance Training Strategies During Pharmacological Weight Loss: A Systematic Review",
-          "source": "Journal of Strength and Conditioning Research, 2024",
-          "url": "https://doi.org/10.1097/01.jsc.0000395689.60551.c2"
-        },
-        {
-          "title": "Sleep Restriction and Muscle Protein Synthesis in Humans",
-          "source": "Journal of Clinical Endocrinology & Metabolism, 2023",
-          "url": "https://doi.org/10.1210/jc.81.10.3469"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "zh-CN": {
@@ -495,11 +432,6 @@
         }
       ],
       "references": [
-        {
-          "title": "GLP-1受体激动剂用户的运动时机与身体成分结果：一项随机对照试验",
-          "source": "Obesity, 2025",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42184419/"
-        },
         {
           "title": "司美格鲁肽与瘦体重：治疗期间身体成分变化的预测因素",
           "source": "Diabetes Care, 2024"
@@ -618,28 +550,7 @@
           "answer": "這些原則適用於 semaglutide、tirzepatide 和其他 GLP-1 促效劑，但個人反應會有差異。Tirzepatide 的雙重作用機制可能產生略微不同的食慾模式。追蹤你個人的週期並據此調整時機窗口。"
         }
       ],
-      "references": [
-        {
-          "title": "Exercise Timing and Body Composition Outcomes in GLP-1 Receptor Agonist Users: A Randomized Controlled Trial",
-          "source": "Obesity, 2025",
-          "url": "https://doi.org/10.1370/afm.23.s1.7435"
-        },
-        {
-          "title": "Semaglutide and Lean Mass: Predictors of Body Composition Change During Treatment",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.64898/2026.04.11.26350687"
-        },
-        {
-          "title": "Resistance Training Strategies During Pharmacological Weight Loss: A Systematic Review",
-          "source": "Journal of Strength and Conditioning Research, 2024",
-          "url": "https://doi.org/10.1097/01.jsc.0000395689.60551.c2"
-        },
-        {
-          "title": "Sleep Restriction and Muscle Protein Synthesis in Humans",
-          "source": "Journal of Clinical Endocrinology & Metabolism, 2023",
-          "url": "https://doi.org/10.1210/jc.81.10.3469"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "es": {
@@ -747,28 +658,7 @@
           "answer": "Los principios aplican a semaglutida, tirzepatida y otros agonistas de GLP-1, aunque la respuesta individual varía. La acción dual de tirzepatida puede crear patrones de apetito ligeramente diferentes. Registra tu ciclo personal y ajusta la ventana de timing según corresponda."
         }
       ],
-      "references": [
-        {
-          "title": "Exercise Timing and Body Composition Outcomes in GLP-1 Receptor Agonist Users: A Randomized Controlled Trial",
-          "source": "Obesity, 2025",
-          "url": "https://doi.org/10.1370/afm.23.s1.7435"
-        },
-        {
-          "title": "Semaglutide and Lean Mass: Predictors of Body Composition Change During Treatment",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.64898/2026.04.11.26350687"
-        },
-        {
-          "title": "Resistance Training Strategies During Pharmacological Weight Loss: A Systematic Review",
-          "source": "Journal of Strength and Conditioning Research, 2024",
-          "url": "https://doi.org/10.1097/01.jsc.0000395689.60551.c2"
-        },
-        {
-          "title": "Sleep Restriction and Muscle Protein Synthesis in Humans",
-          "source": "Journal of Clinical Endocrinology & Metabolism, 2023",
-          "url": "https://doi.org/10.1210/jc.84.6.1979"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "pt-BR": {
@@ -876,28 +766,7 @@
           "answer": "Os princípios se aplicam através de semaglutida, tirzepatida e outros agonistas GLP-1, embora a resposta individual varie. A ação dupla da tirzepatida pode criar padrões de apetite ligeiramente diferentes. Rastreie seu ciclo pessoal e ajuste a janela de timing de acordo."
         }
       ],
-      "references": [
-        {
-          "title": "Exercise Timing and Body Composition Outcomes in GLP-1 Receptor Agonist Users: A Randomized Controlled Trial",
-          "source": "Obesity, 2025",
-          "url": "https://doi.org/10.1370/afm.23.s1.7435"
-        },
-        {
-          "title": "Semaglutide and Lean Mass: Predictors of Body Composition Change During Treatment",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.64898/2026.04.11.26350687"
-        },
-        {
-          "title": "Resistance Training Strategies During Pharmacological Weight Loss: A Systematic Review",
-          "source": "Journal of Strength and Conditioning Research, 2024",
-          "url": "https://doi.org/10.1097/01.jsc.0000395689.60551.c2"
-        },
-        {
-          "title": "Sleep Restriction and Muscle Protein Synthesis in Humans",
-          "source": "Journal of Clinical Endocrinology & Metabolism, 2023",
-          "url": "https://doi.org/10.1210/jc.84.6.1979"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "id": {
@@ -1005,28 +874,7 @@
           "answer": "Prinsipnya berlaku di seluruh semaglutide, tirzepatide, dan agonis GLP-1 lainnya, meskipun respons individu bervariasi. Aksi ganda tirzepatide mungkin menciptakan pola nafsu makan yang sedikit berbeda. Lacak siklus pribadi Anda dan sesuaikan jendela waktu sesuai."
         }
       ],
-      "references": [
-        {
-          "title": "Exercise Timing and Body Composition Outcomes in GLP-1 Receptor Agonist Users: A Randomized Controlled Trial",
-          "source": "Obesity, 2025",
-          "url": "https://doi.org/10.1370/afm.23.s1.7435"
-        },
-        {
-          "title": "Semaglutide and Lean Mass: Predictors of Body Composition Change During Treatment",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.64898/2026.04.11.26350687"
-        },
-        {
-          "title": "Resistance Training Strategies During Pharmacological Weight Loss: A Systematic Review",
-          "source": "Journal of Strength and Conditioning Research, 2024",
-          "url": "https://doi.org/10.1097/01.jsc.0000395689.60551.c2"
-        },
-        {
-          "title": "Sleep Restriction and Muscle Protein Synthesis in Humans",
-          "source": "Journal of Clinical Endocrinology & Metabolism, 2023",
-          "url": "https://doi.org/10.1210/jc.84.6.1979"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "de": {
@@ -1134,28 +982,7 @@
           "answer": "Die Prinzipien gelten für Semaglutid, Tirzepatid und andere GLP-1-Agonisten, obwohl die individuelle Reaktion variiert. Die duale Wirkung von Tirzepatid kann leicht unterschiedliche Appetitmuster erzeugen. Verfolgen Sie Ihren persönlichen Zyklus und passen Sie das Timing-Fenster entsprechend an."
         }
       ],
-      "references": [
-        {
-          "title": "Exercise Timing and Body Composition Outcomes in GLP-1 Receptor Agonist Users: A Randomized Controlled Trial",
-          "source": "Obesity, 2025",
-          "url": "https://doi.org/10.1370/afm.23.s1.7435"
-        },
-        {
-          "title": "Semaglutide and Lean Mass: Predictors of Body Composition Change During Treatment",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.64898/2026.04.11.26350687"
-        },
-        {
-          "title": "Resistance Training Strategies During Pharmacological Weight Loss: A Systematic Review",
-          "source": "Journal of Strength and Conditioning Research, 2024",
-          "url": "https://doi.org/10.1097/01.jsc.0000395689.60551.c2"
-        },
-        {
-          "title": "Sleep Restriction and Muscle Protein Synthesis in Humans",
-          "source": "Journal of Clinical Endocrinology & Metabolism, 2023",
-          "url": "https://doi.org/10.1210/jc.84.6.1979"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "fr": {
@@ -1263,28 +1090,7 @@
           "answer": "Les principes s'appliquent au semaglutide, tirzepatide et autres agonistes GLP-1, bien que la réponse individuelle varie. L'action double du tirzepatide peut créer des schémas d'appétit légèrement différents. Suivez votre cycle personnel et ajustez la fenêtre de timing en conséquence."
         }
       ],
-      "references": [
-        {
-          "title": "Exercise Timing and Body Composition Outcomes in GLP-1 Receptor Agonist Users: A Randomized Controlled Trial",
-          "source": "Obesity, 2025",
-          "url": "https://doi.org/10.1370/afm.23.s1.7435"
-        },
-        {
-          "title": "Semaglutide and Lean Mass: Predictors of Body Composition Change During Treatment",
-          "source": "Diabetes Care, 2024",
-          "url": "https://doi.org/10.64898/2026.04.11.26350687"
-        },
-        {
-          "title": "Resistance Training Strategies During Pharmacological Weight Loss: A Systematic Review",
-          "source": "Journal of Strength and Conditioning Research, 2024",
-          "url": "https://doi.org/10.1097/01.jsc.0000395689.60551.c2"
-        },
-        {
-          "title": "Sleep Restriction and Muscle Protein Synthesis in Humans",
-          "source": "Journal of Clinical Endocrinology & Metabolism, 2023",
-          "url": "https://doi.org/10.1210/jc.84.6.1979"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     }
   },

@@ -112,26 +112,7 @@
           "answer": "Yes. Higher-risk groups include: anyone taking diuretics or blood pressure medications, people with kidney disease, those with eating disorder history, athletes or heavy sweaters, people over 65 (kidneys regulate electrolytes less efficiently), and anyone with baseline electrolyte abnormalities. These individuals should only fast under medical supervision."
         }
       ],
-      "references": [
-        {
-          "title": "Electrolyte Disturbances in Prolonged Voluntary Fasting: A Prospective Cohort Analysis",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.18535/jmscr/v7i9.136"
-        },
-        {
-          "title": "Safety and Metabolic Outcomes of Supplemented vs. Unsupplemented Extended Water Fasting",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        },
-        {
-          "title": "Refeeding Syndrome Prevention in Outpatient Fasting Protocols",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.1016/j.clnesp.2024.07.418"
-        },
-        {
-          "title": "Cardiac Complications of Extended Fasting: A Case Series Review",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ko": {
@@ -237,28 +218,7 @@
           "answer": "케토 플루는 보통 24~48시간에 나타나고 두통, 피로감이 주 증상입니다. 48시간 이후에도 심해지거나 심계항진, 근육 경련이 동반되면 전해질 불균형을 의심하세요."
         }
       ],
-      "references": [
-        {
-          "title": "Electrolyte Imbalances During Prolonged Water-Only Fasting: A Prospective Cohort Study",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.1186/s12893-025-03449-9"
-        },
-        {
-          "title": "Safety Considerations and Mineral Supplementation in Extended Fasting Protocols",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025",
-          "url": "https://doi.org/10.1016/j.jand.2014.06.094"
-        },
-        {
-          "title": "Refeeding Syndrome: Prevention and Management Guidelines",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.1054/clnu.2002.0586"
-        },
-        {
-          "title": "Hyponatremia in Fasting States: Clinical Presentation and Early Detection",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/20301688/"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "ja": {
@@ -364,24 +324,7 @@
           "answer": "はい。リスクの高いグループには以下が含まれます：利尿薬や降圧薬を服用している人、腎臓病のある人、摂食障害の既往歴がある人、アスリートや汗をかきやすい人、65歳以上の人（腎臓の電解質調節機能が低下）、そしてベースラインで電解質異常がある人。これらの人は医療監督下でのみ断食を行うべきです。"
         }
       ],
-      "references": [
-        {
-          "title": "Electrolyte Disturbances in Prolonged Voluntary Fasting: A Prospective Cohort Analysis（長期自発的断食における電解質異常：前向きコホート分析）",
-          "source": "Clinical Nutrition, 2024"
-        },
-        {
-          "title": "Safety and Metabolic Outcomes of Supplemented vs. Unsupplemented Extended Water Fasting（サプリメント摂取の有無による長期水断食の安全性と代謝アウトカム）",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        },
-        {
-          "title": "Refeeding Syndrome Prevention in Outpatient Fasting Protocols（外来断食プロトコルにおけるリフィーディング症候群の予防）",
-          "source": "Clinical Nutrition, 2024"
-        },
-        {
-          "title": "Cardiac Complications of Extended Fasting: A Case Series Review（長期断食の心臓合併症：症例シリーズレビュー）",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "zh-CN": {
@@ -487,26 +430,7 @@
           "answer": "高风险人群包括：服用利尿剂或降压药的人、肾脏疾病患者、有进食障碍史的人、运动员或大量出汗者、65岁以上人群（肾脏调节电解质的效率降低）、以及任何基线电解质异常的人。这些人只应在医疗监督下进行断食。"
         }
       ],
-      "references": [
-        {
-          "title": "Electrolyte Disturbances in Prolonged Voluntary Fasting: A Prospective Cohort Analysis",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.18535/jmscr/v7i9.136"
-        },
-        {
-          "title": "Safety and Metabolic Outcomes of Supplemented vs. Unsupplemented Extended Water Fasting",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        },
-        {
-          "title": "Refeeding Syndrome Prevention in Outpatient Fasting Protocols",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.1016/j.clnesp.2024.07.418"
-        },
-        {
-          "title": "Cardiac Complications of Extended Fasting: A Case Series Review",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "zh-TW": {
@@ -612,26 +536,7 @@
           "answer": "高風險族群包括：服用利尿劑或降血壓藥者、腎臟病患者、有飲食障礙病史者、運動員或大量流汗者、65 歲以上長者（腎臟調節電解質效率下降）、以及原本電解質就異常者。這些人應在醫療監督下才進行斷食。"
         }
       ],
-      "references": [
-        {
-          "title": "Electrolyte Disturbances in Prolonged Voluntary Fasting: A Prospective Cohort Analysis",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.18535/jmscr/v7i9.136"
-        },
-        {
-          "title": "Safety and Metabolic Outcomes of Supplemented vs. Unsupplemented Extended Water Fasting",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        },
-        {
-          "title": "Refeeding Syndrome Prevention in Outpatient Fasting Protocols",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.1016/j.clnesp.2024.07.418"
-        },
-        {
-          "title": "Cardiac Complications of Extended Fasting: A Case Series Review",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "es": {
@@ -739,26 +644,7 @@
           "answer": "Sí. Los grupos de mayor riesgo incluyen: cualquier persona que tome diuréticos o medicamentos para la presión arterial, personas con enfermedad renal, aquellos con historial de trastornos alimentarios, atletas o personas que sudan mucho, personas mayores de 65 años (los riñones regulan los electrolitos menos eficientemente), y cualquier persona con anomalías electrolíticas de base. Estas personas solo deberían ayunar bajo supervisión médica."
         }
       ],
-      "references": [
-        {
-          "title": "Electrolyte Disturbances in Prolonged Voluntary Fasting: A Prospective Cohort Analysis",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.18535/jmscr/v7i9.136"
-        },
-        {
-          "title": "Safety and Metabolic Outcomes of Supplemented vs. Unsupplemented Extended Water Fasting",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        },
-        {
-          "title": "Refeeding Syndrome Prevention in Outpatient Fasting Protocols",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.1016/j.clnesp.2024.07.418"
-        },
-        {
-          "title": "Cardiac Complications of Extended Fasting: A Case Series Review",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "pt-BR": {
@@ -866,26 +752,7 @@
           "answer": "Sim. Grupos de maior risco incluem: qualquer pessoa tomando diuréticos ou medicamentos para pressão arterial, pessoas com doença renal, aqueles com histórico de transtorno alimentar, atletas ou pessoas que suam muito, pessoas acima de 65 anos (os rins regulam eletrólitos de forma menos eficiente), e qualquer pessoa com anormalidades eletrolíticas de linha de base. Esses indivíduos devem jejuar apenas sob supervisão médica."
         }
       ],
-      "references": [
-        {
-          "title": "Electrolyte Disturbances in Prolonged Voluntary Fasting: A Prospective Cohort Analysis",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.18535/jmscr/v7i9.136"
-        },
-        {
-          "title": "Safety and Metabolic Outcomes of Supplemented vs. Unsupplemented Extended Water Fasting",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        },
-        {
-          "title": "Refeeding Syndrome Prevention in Outpatient Fasting Protocols",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.1016/j.clnesp.2024.07.418"
-        },
-        {
-          "title": "Cardiac Complications of Extended Fasting: A Case Series Review",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "id": {
@@ -992,26 +859,7 @@
           "answer": "Ya. Kelompok berisiko lebih tinggi termasuk: siapa pun yang minum diuretik atau obat tekanan darah, orang dengan penyakit ginjal, mereka yang memiliki riwayat gangguan makan, atlet atau orang yang banyak berkeringat, orang di atas 65 tahun (ginjal mengatur elektrolit kurang efisien), dan siapa pun dengan kelainan elektrolit dasar. Individu ini hanya boleh berpuasa di bawah pengawasan medis."
         }
       ],
-      "references": [
-        {
-          "title": "Electrolyte Disturbances in Prolonged Voluntary Fasting: A Prospective Cohort Analysis",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.18535/jmscr/v7i9.136"
-        },
-        {
-          "title": "Safety and Metabolic Outcomes of Supplemented vs. Unsupplemented Extended Water Fasting",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        },
-        {
-          "title": "Refeeding Syndrome Prevention in Outpatient Fasting Protocols",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.1016/j.clnesp.2024.07.418"
-        },
-        {
-          "title": "Cardiac Complications of Extended Fasting: A Case Series Review",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "fr": {
@@ -1119,26 +967,7 @@
           "answer": "Oui. Les groupes à risque plus élevé incluent : toute personne prenant des diurétiques ou des médicaments pour la pression artérielle, les personnes atteintes de maladie rénale, celles ayant des antécédents de troubles alimentaires, les athlètes ou les personnes qui transpirent beaucoup, les personnes de plus de 65 ans (les reins régulent les électrolytes moins efficacement), et toute personne ayant des anomalies électrolytiques de base. Ces personnes ne devraient jeûner que sous supervision médicale."
         }
       ],
-      "references": [
-        {
-          "title": "Electrolyte Disturbances in Prolonged Voluntary Fasting: A Prospective Cohort Analysis",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.18535/jmscr/v7i9.136"
-        },
-        {
-          "title": "Safety and Metabolic Outcomes of Supplemented vs. Unsupplemented Extended Water Fasting",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        },
-        {
-          "title": "Refeeding Syndrome Prevention in Outpatient Fasting Protocols",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.1016/j.clnesp.2024.07.418"
-        },
-        {
-          "title": "Cardiac Complications of Extended Fasting: A Case Series Review",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-05-23"
     },
     "de": {
@@ -1246,26 +1075,7 @@
           "answer": "Ja. Risikogruppen umfassen: alle, die Diuretika oder Blutdruckmedikamente einnehmen, Menschen mit Nierenerkrankungen, Menschen mit Essstörungsgeschichte, Sportler oder starke Schwitzer, Menschen über 65 (Nieren regulieren Elektrolyte weniger effizient) und alle mit Elektrolytanomalien zu Beginn. Diese Personen sollten nur unter medizinischer Aufsicht fasten."
         }
       ],
-      "references": [
-        {
-          "title": "Electrolyte Disturbances in Prolonged Voluntary Fasting: A Prospective Cohort Analysis",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.18535/jmscr/v7i9.136"
-        },
-        {
-          "title": "Safety and Metabolic Outcomes of Supplemented vs. Unsupplemented Extended Water Fasting",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        },
-        {
-          "title": "Refeeding Syndrome Prevention in Outpatient Fasting Protocols",
-          "source": "Clinical Nutrition, 2024",
-          "url": "https://doi.org/10.1016/j.clnesp.2024.07.418"
-        },
-        {
-          "title": "Cardiac Complications of Extended Fasting: A Case Series Review",
-          "source": "Journal of the Academy of Nutrition and Dietetics, 2025"
-        }
-      ],
+      "references": [],
       "last_updated": "2026-11-16"
     }
   },
