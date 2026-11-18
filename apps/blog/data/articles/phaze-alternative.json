@@ -132,13 +132,13 @@
           "url": "https://www.ajmc.com/view/glp-1-ra-adherence-shows-drop-off-after-1-year"
         },
         {
-          "text": "Neeland et al. *Lean mass loss with GLP-1 therapy, Diabetes, Obesity and Metabolism* (2024).",
+          "text": "Neeland et al. *Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies.* Diabetes, Obesity and Metabolism (2024).",
           "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
           "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
           "source": "2024"
         }
       ],
-      "last_updated": "2026-07-06",
+      "last_updated": "2026-11-18",
       "short_title": "Phaze Alternative for GLP-1 Users: An Honest 2026 Comparison"
     },
     "ko": {
@@ -264,13 +264,13 @@
           "url": "https://www.ajmc.com/view/glp-1-ra-adherence-shows-drop-off-after-1-year"
         },
         {
-          "text": "Neeland 외. *Diabetes, Obesity and Metabolism* (2024).",
+          "text": "Neeland et al. *Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies.* Diabetes, Obesity and Metabolism (2024).",
           "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
           "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
           "source": "2024"
         }
       ],
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-18",
       "short_title": "Phaze 대안 앱｜GLP-1 다이어트 주사 기록, 솔직 비교 2026"
     },
     "zh-CN": {
@@ -397,13 +397,13 @@
           "url": "https://www.ajmc.com/view/glp-1-ra-adherence-shows-drop-off-after-1-year"
         },
         {
-          "text": "Neeland等。*GLP-1治疗的瘦体重损失,Diabetes, Obesity and Metabolism* (2024)。",
+          "text": "Neeland et al. *Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies.* Diabetes, Obesity and Metabolism (2024).",
           "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
           "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
           "source": "2024"
         }
       ],
-      "last_updated": "2026-07-06"
+      "last_updated": "2026-11-18"
     },
     "es": {
       "title": "Alternativa a Phaze para usuarios de GLP-1: Comparación honesta 2026 — HAVIT vs Phaze",
@@ -529,13 +529,13 @@
           "url": "https://www.ajmc.com/view/glp-1-ra-adherence-shows-drop-off-after-1-year"
         },
         {
-          "text": "Neeland et al. *Lean mass loss with GLP-1 therapy, Diabetes, Obesity and Metabolism* (2024).",
+          "text": "Neeland et al. *Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies.* Diabetes, Obesity and Metabolism (2024).",
           "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
           "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
           "source": "2024"
         }
       ],
-      "last_updated": "2026-07-06"
+      "last_updated": "2026-11-18"
     },
     "pt-BR": {
       "title": "Alternativa ao Phaze para Usuários de GLP-1: Uma Comparação Honesta em 2026 — HAVIT vs Phaze",
@@ -660,13 +660,13 @@
           "url": "https://www.ajmc.com/view/glp-1-ra-adherence-shows-drop-off-after-1-year"
         },
         {
-          "text": "Neeland et al. *Lean mass loss with GLP-1 therapy, Diabetes, Obesity and Metabolism* (2024).",
+          "text": "Neeland et al. *Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies.* Diabetes, Obesity and Metabolism (2024).",
           "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
           "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
           "source": "2024"
         }
       ],
-      "last_updated": "2026-07-06",
+      "last_updated": "2026-11-18",
       "short_title": "Alternativa ao Phaze para Usuários de GLP-1: Uma Comparação Honesta em 2026"
     },
     "id": {
@@ -777,32 +777,29 @@
       ],
       "references": [
         {
-          "title": "Phaze. *The Most Complete GLP-1 Tracker.*",
-          "source": "Phaze",
+          "text": "Phaze. *The Most Complete GLP-1 Tracker.*",
           "url": "https://phaze.fit/"
         },
         {
-          "title": "Phaze. *GLP-1 Medication Tracker — Doses, Sides & Progress.*",
-          "source": "Phaze",
+          "text": "Phaze. *GLP-1 Medication Tracker — Doses, Sides & Progress.*",
           "url": "https://phaze.fit/peptides"
         },
         {
-          "title": "Phaze — App Store.",
-          "source": "App Store",
+          "text": "Phaze — App Store.",
           "url": "https://apps.apple.com/us/app/phaze-glp-1-tracker/id6758974954"
         },
         {
-          "title": "AJMC. *GLP-1 RA Adherence Shows Drop-Off After 1 Year.*",
-          "source": "AJMC",
+          "text": "AJMC. *GLP-1 RA Adherence Shows Drop-Off After 1 Year.*",
           "url": "https://www.ajmc.com/view/glp-1-ra-adherence-shows-drop-off-after-1-year"
         },
         {
-          "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies",
-          "source": "Diabetes, Obesity and Metabolism, 2024",
-          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728"
+          "text": "Neeland et al. *Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies.* Diabetes, Obesity and Metabolism (2024).",
+          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
+          "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
+          "source": "2024"
         }
       ],
-      "last_updated": "2026-07-06"
+      "last_updated": "2026-11-18"
     },
     "de": {
       "title": "Phaze-Alternative für GLP-1-Anwender: Ein ehrlicher Vergleich 2026 — HAVIT vs. Phaze",
@@ -912,32 +909,29 @@
       ],
       "references": [
         {
-          "title": "Phaze. *The Most Complete GLP-1 Tracker.*",
-          "source": "Phaze",
+          "text": "Phaze. *The Most Complete GLP-1 Tracker.*",
           "url": "https://phaze.fit/"
         },
         {
-          "title": "Phaze. *GLP-1 Medication Tracker — Doses, Sides & Progress.*",
-          "source": "Phaze",
+          "text": "Phaze. *GLP-1 Medication Tracker — Doses, Sides & Progress.*",
           "url": "https://phaze.fit/peptides"
         },
         {
-          "title": "Phaze — App Store.",
-          "source": "Apple App Store",
+          "text": "Phaze — App Store.",
           "url": "https://apps.apple.com/us/app/phaze-glp-1-tracker/id6758974954"
         },
         {
-          "title": "AJMC. *GLP-1 RA Adherence Shows Drop-Off After 1 Year.*",
-          "source": "AJMC",
+          "text": "AJMC. *GLP-1 RA Adherence Shows Drop-Off After 1 Year.*",
           "url": "https://www.ajmc.com/view/glp-1-ra-adherence-shows-drop-off-after-1-year"
         },
         {
-          "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies",
-          "source": "Diabetes, Obesity and Metabolism, 2024",
-          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728"
+          "text": "Neeland et al. *Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies.* Diabetes, Obesity and Metabolism (2024).",
+          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
+          "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
+          "source": "2024"
         }
       ],
-      "last_updated": "2026-11-16"
+      "last_updated": "2026-11-18"
     },
     "fr": {
       "title": "Alternative à Phaze pour utilisateurs de GLP-1 : Comparaison honnête 2026 — HAVIT vs Phaze",
@@ -1047,32 +1041,29 @@
       ],
       "references": [
         {
-          "title": "Phaze. *The Most Complete GLP-1 Tracker.*",
-          "source": "Phaze",
+          "text": "Phaze. *The Most Complete GLP-1 Tracker.*",
           "url": "https://phaze.fit/"
         },
         {
-          "title": "Phaze. *GLP-1 Medication Tracker — Doses, Sides & Progress.*",
-          "source": "Phaze",
+          "text": "Phaze. *GLP-1 Medication Tracker — Doses, Sides & Progress.*",
           "url": "https://phaze.fit/peptides"
         },
         {
-          "title": "Phaze — App Store.",
-          "source": "App Store",
+          "text": "Phaze — App Store.",
           "url": "https://apps.apple.com/us/app/phaze-glp-1-tracker/id6758974954"
         },
         {
-          "title": "AJMC. *GLP-1 RA Adherence Shows Drop-Off After 1 Year.*",
-          "source": "AJMC",
+          "text": "AJMC. *GLP-1 RA Adherence Shows Drop-Off After 1 Year.*",
           "url": "https://www.ajmc.com/view/glp-1-ra-adherence-shows-drop-off-after-1-year"
         },
         {
-          "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies",
-          "source": "Diabetes, Obesity and Metabolism, 2024",
-          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728"
+          "text": "Neeland et al. *Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies.* Diabetes, Obesity and Metabolism (2024).",
+          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
+          "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
+          "source": "2024"
         }
       ],
-      "last_updated": "2026-07-06"
+      "last_updated": "2026-11-18"
     },
     "ja": {
       "title": "GLP-1ユーザー向けPhazeの代替アプリ:2026年版正直な比較 — HAVIT vs Phaze",
@@ -1182,32 +1173,29 @@
       ],
       "references": [
         {
-          "title": "Phaze. *The Most Complete GLP-1 Tracker.*",
-          "source": "Phaze",
+          "text": "Phaze. *The Most Complete GLP-1 Tracker.*",
           "url": "https://phaze.fit/"
         },
         {
-          "title": "Phaze. *GLP-1 Medication Tracker — Doses, Sides & Progress.*",
-          "source": "Phaze",
+          "text": "Phaze. *GLP-1 Medication Tracker — Doses, Sides & Progress.*",
           "url": "https://phaze.fit/peptides"
         },
         {
-          "title": "Phaze — App Store.",
-          "source": "App Store",
+          "text": "Phaze — App Store.",
           "url": "https://apps.apple.com/us/app/phaze-glp-1-tracker/id6758974954"
         },
         {
-          "title": "AJMC. *GLP-1 RA Adherence Shows Drop-Off After 1 Year.*",
-          "source": "AJMC",
+          "text": "AJMC. *GLP-1 RA Adherence Shows Drop-Off After 1 Year.*",
           "url": "https://www.ajmc.com/view/glp-1-ra-adherence-shows-drop-off-after-1-year"
         },
         {
-          "title": "Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies",
-          "source": "Diabetes, Obesity and Metabolism, 2024",
-          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728"
+          "text": "Neeland et al. *Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies.* Diabetes, Obesity and Metabolism (2024).",
+          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
+          "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
+          "source": "2024"
         }
       ],
-      "last_updated": "2026-07-06"
+      "last_updated": "2026-11-18"
     },
     "zh-TW": {
       "title": "Phaze 替代方案給 GLP-1 使用者:誠實的 2026 年比較 — HAVIT vs Phaze",
@@ -1332,16 +1320,16 @@
           "url": "https://www.ajmc.com/view/glp-1-ra-adherence-shows-drop-off-after-1-year"
         },
         {
-          "text": "Neeland et al. *Lean mass loss with GLP-1 therapy, Diabetes, Obesity and Metabolism* (2024).",
+          "text": "Neeland et al. *Changes in lean body mass with glucagon-like peptide-1-based therapies and mitigation strategies.* Diabetes, Obesity and Metabolism (2024).",
           "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
           "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
           "source": "2024"
         }
       ],
-      "last_updated": "2026-11-17",
+      "last_updated": "2026-11-18",
       "short_title": "Phaze 替代方案給 GLP-1 使用者:誠實的 2026 年比較"
     }
   },
   "generated_at": "2026-08-14T00:00:00.000Z",
-  "updated_at": "2026-11-17T00:00:00.000Z"
+  "updated_at": "2026-11-18T00:00:00.000Z"
 }
