@@ -301,7 +301,26 @@
         ]
       },
       "faq": [],
-      "references": [],
+      "references": [
+        {
+          "text": "Burke LE, Wang J, Sevick MA. *Self-Monitoring in Weight Loss: A Systematic Review of the Literature.* J Am Diet Assoc 2011;111(1):92-102.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/",
+          "title": "Self-monitoring in weight loss: a systematic review of the literature.",
+          "source": "2011"
+        },
+        {
+          "text": "Lally P, van Jaarsveld CHM, Potts HWW, Wardle J. *How are habits formed: Modelling habit formation in the real world.* Eur J Soc Psychol 2010;40:998-1009.",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.674",
+          "title": "How are habits formed: Modelling habit formation in the real world",
+          "source": "2010"
+        },
+        {
+          "text": "Neeland IJ, et al. *Changes in lean body mass with GLP-1-based therapies.* Diabetes, Obesity and Metabolism 2024.",
+          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
+          "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
+          "source": "2024"
+        }
+      ],
       "last_updated": "2026-07-02"
     },
     "zh-TW": {
@@ -360,7 +379,26 @@
         ]
       },
       "faq": [],
-      "references": [],
+      "references": [
+        {
+          "text": "Burke LE, Wang J, Sevick MA. *Self-Monitoring in Weight Loss: A Systematic Review of the Literature.* J Am Diet Assoc 2011;111(1):92-102.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21185970/",
+          "title": "Self-monitoring in weight loss: a systematic review of the literature.",
+          "source": "2011"
+        },
+        {
+          "text": "Lally P, van Jaarsveld CHM, Potts HWW, Wardle J. *How are habits formed: Modelling habit formation in the real world.* Eur J Soc Psychol 2010;40:998-1009.",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.674",
+          "title": "How are habits formed: Modelling habit formation in the real world",
+          "source": "2010"
+        },
+        {
+          "text": "Neeland IJ, et al. *Changes in lean body mass with GLP-1-based therapies.* Diabetes, Obesity and Metabolism 2024.",
+          "url": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728",
+          "title": "Changes in lean body mass with glucagon‐like peptide ‐1‐based therapies and mitigation strategies",
+          "source": "2024"
+        }
+      ],
       "last_updated": "2026-07-05"
     },
     "de": {
