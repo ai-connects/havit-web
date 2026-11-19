@@ -5,7 +5,7 @@
     <!-- W2AC(웹 → 앱) 광고 링크 www.aihavit.com/open, /open/<target> 의 웹 쪽.
          앱이 깔린 기기는 OS 가 이 URL 을 앱으로 연다(public/.well-known 의 assetlinks.json ·
          apple-app-site-association). 여기 오는 건 앱이 없는 사람뿐이라, 홈 본문(아티클·블로그 섹션 제외)을
-         같은 키로 옮기고 스토어 배지(히어로·맨 아래·모바일 하단 고정)만 둔다. 상단 메뉴·블로그 등 이탈 링크는 넣지 않는다. Google 광고 심사가 최종 URL 을 「실제 내용이 있는 페이지」로 봐야
+         같은 키로 옮기고(2026-11-19 홈 리뉴얼에 맞춰 다시 옮김 — 홈 index.html 을 바꾸면 여기도 같이) 스토어 배지(히어로·맨 아래·모바일 하단 고정)만 둔다. 상단 메뉴·블로그 등 이탈 링크는 넣지 않는다. Google 광고 심사가 최종 URL 을 「실제 내용이 있는 페이지」로 봐야
          하므로 자동 이동(스크립트·meta refresh)을 넣지 말 것 — app.aihavit.com 리디렉터가
          「대상 페이지 불일치」로 거절된 이유다.
          언어: 빌드가 src/i18n/<locale>.json 의 홈 키로 /_open/<locale>.html 을 찍고, 엣지 함수가
@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="/home/coach/multi/group.webp" fetchpriority="high" />
     <link rel="stylesheet" href="/src/style.css" />
     <title>HAVIT — AI Weight Loss Coach | Everything in One App</title>
     <meta
@@ -42,16 +43,10 @@
       })
     </script>
     <style>
-      .open-hero { padding: 24px 0 56px; }
-      .open-hero .hero__inner > * { min-width: 0; }
-      .open-hero .hero__copy { max-width: 100%; }
-      .open-hero .hero__badges { align-items: center; }
-      .open-hero .hero__actions { margin: 12px 0 8px; }
-      .open-hero .hero__badge.is-device { order: -1; }
-      .open-hero .hero__badge.is-device img { height: 56px; }
-      .open-hero .hero__badges.has-device .hero__badge:not(.is-device) { opacity: 0.55; }
-      .final-cta__badges { align-items: center; }
-      .final-cta__badge.is-device { order: -1; }
+      /* 기기와 같은 스토어 배지를 앞에 크게, 다른 배지는 흐리게(아래 open.js 가 is-device·has-device 를 붙인다). */
+      .hero__badges, .final-cta__badges { align-items: center; }
+      .hero__badge.is-device, .final-cta__badge.is-device { order: -1; }
+      .hero__badges.has-device .hero__badge:not(.is-device),
       .final-cta__badges.has-device .final-cta__badge:not(.is-device) { opacity: 0.55; }
       .open-footer { text-align: center; padding: 24px 16px 96px; }
       .open-footer p { opacity: 0.6; margin: 8px auto; max-width: 560px; }
@@ -60,8 +55,6 @@
       @media (max-width: 640px) {
         /* 하단 고정 버튼(캐릭터 포함 약 130px)이 항상 떠 있으므로 푸터가 가리지 않게 비워 둔다. */
         .open-footer { padding-bottom: calc(150px + env(safe-area-inset-bottom)); }
-        .open-hero .hero__inner { grid-template-columns: 1fr; }
-        .open-hero .hero__visual { max-width: 260px; margin: 0 auto; }
       }
     </style>
   </head>
@@ -76,11 +69,12 @@
     </header>
 
     <main>
-      <section class="hero open-hero">
+      <!-- HERO -->
+      <section class="hero">
         <div class="container hero__inner">
           <div class="hero__content">
-            <div class="rating">
-              <img decoding="async" width="85" height="160" class="rating__leaf rating__leaf--left" src="/src/assets/images/icon-laurel-left.webp" alt="" />
+            <div class="rating reveal">
+              <img loading="lazy" decoding="async" width="85" height="160" class="rating__leaf rating__leaf--left" src="/src/assets/images/icon-laurel-left.webp" alt="" />
               <div class="rating__body">
                 <div class="rating__stars">
                   <span class="star-icon" aria-hidden="true"></span>
@@ -89,16 +83,13 @@
                   <span class="star-icon" aria-hidden="true"></span>
                   <span class="star-icon" aria-hidden="true"></span>
                 </div>
-                <div data-i18n="4-8" class="rating__score text-title-xlarge">4.8</div>
+                <div data-i18n="home2-rating" class="rating__score text-title-xlarge">4.8</div>
                 <div data-i18n="average-rating" class="rating__label text-body-small">Average Rating</div>
               </div>
-              <img decoding="async" width="85" height="160" class="rating__leaf rating__leaf--right" src="/src/assets/images/icon-laurel-right.webp" alt="" />
+              <img loading="lazy" decoding="async" width="85" height="160" class="rating__leaf rating__leaf--right" src="/src/assets/images/icon-laurel-right.webp" alt="" />
             </div>
 
-            <h1 data-i18n="hero-headline" class="hero__headline">
-              Your AI weight loss coach.<br />
-              <span class="hero__headline-underline">Everything in one app.</span>
-            </h1>
+            <h1 data-i18n="home2-hero-headline" class="hero__headline">A weight loss clinic's method.<br /> <span class="hero__headline-underline">Now your AI coach.</span></h1>
 
             <div class="hero__copy">
               <p data-i18n="havit-connects-ai-body-composition" class="text-paragraph">
@@ -114,232 +105,79 @@
             </div>
 
             <div class="hero__badges">
-              <a data-store="app_store" data-placement="hero" href="https://apps.apple.com/us/app/havit-glp-1-weight-loss-coach/id6755166023" class="hero__badge" target="_blank" rel="noopener">
+              <a data-store="app_store" data-placement="hero_badge" href="https://apps.apple.com/us/app/havit-glp-1-weight-loss-coach/id6755166023" class="hero__badge" target="_blank" rel="noopener">
                 <img decoding="async" width="306" height="112" src="/src/assets/images/badge-appstore.webp" alt="Download on the App Store" />
               </a>
-              <a data-store="google_play" data-placement="hero" href="https://play.google.com/store/apps/details?id=com.aiconnects.havitWellness" class="hero__badge" target="_blank" rel="noopener">
+              <a data-store="google_play" data-placement="hero_badge" href="https://play.google.com/store/apps/details?id=com.aiconnects.havitWellness" class="hero__badge" target="_blank" rel="noopener">
                 <img decoding="async" width="306" height="112" src="/src/assets/images/badge-googleplay.webp" alt="Get it on Google Play" />
               </a>
             </div>
-            <!-- 홈 히어로와 같은 Start Free 버튼(같은 키·모양). 검정 바탕·라임 글씨는 style.css 의 .btn--primary[data-cta='start-free'] 가 입히므로 data-cta 를 빼지 말 것. 링크는 아래 스크립트가 배지와 같은 app.aihavit.com 링크로 바꾼다. -->
+
             <div class="hero__actions">
               <a data-i18n="start-free" data-cta="start-free" data-install="hero" data-placement="hero_start_free" href="https://app.aihavit.com/" class="btn btn--primary btn--hero">Start Free</a>
+              <a data-i18n="see-how-it-works" href="#how" class="btn btn--ghost">
+                See how it works
+                <span class="btn__arrow" aria-hidden="true"></span>
+              </a>
             </div>
-            <p data-i18n="free-to-download-in-app" class="text-body-small hero__disclaimer">Free to download. In-app purchases may apply.</p>
+
+            <div class="coach-strip reveal">
+              <div class="coach-strip__avatars"><img decoding="async" width="46" height="46" src="/home/coach/multi/warm.webp" alt="" /><img decoding="async" width="46" height="46" src="/home/coach/multi/tough.webp" alt="" /><img decoding="async" width="46" height="46" src="/home/coach/multi/friendly.webp" alt="" /><img decoding="async" width="46" height="46" src="/home/coach/multi/scientific.webp" alt="" /><img decoding="async" width="46" height="46" src="/home/coach/multi/minimalistic.webp" alt="" /><img decoding="async" width="46" height="46" src="/home/coach/multi/high_energy.webp" alt="" /></div>
+              <div class="coach-strip__text">
+                <p data-i18n="home2-coach-strip-title" class="coach-strip__title">Pick your AI coach — 6 coaching styles</p>
+                <p data-i18n="home2-coach-strip-sub" class="coach-strip__sub">Warm, tough, friendly, scientific, minimal or high-energy.</p>
+              </div>
+            </div>
           </div>
 
-          <div class="hero__visual">
+          <div class="hero__visual hero__visual--coaches">
             <div class="hero__glow"></div>
-            <img fetchpriority="high" decoding="async" width="671" height="1280" class="hero__phone" src="/src/assets/images/hero-phone.webp" alt="HAVIT app preview" />
+            <img fetchpriority="high" decoding="async" width="958" height="1200" class="hero__coaches" src="/home/coach/multi/group.webp" alt="HAVIT AI coaches" />
+            <div class="coach-bubble coach-bubble--top">
+              <img decoding="async" width="44" height="44" src="/home/coach/multi/scientific.webp" alt="" />
+              <div>
+                <p data-i18n="home2-bubble-1-who" class="coach-bubble__who">SCIENTIFIC COACH · AI · WEEK 6 CHECK</p>
+                <p data-i18n="home2-bubble-1-msg" class="coach-bubble__msg">−9.3 lb in 6 weeks. Body fat 31.2% → 29.6%, muscle held steady. Keep protein at 110 g a day.</p>
+              </div>
+            </div>
+            <div class="coach-bubble coach-bubble--bottom">
+              <img decoding="async" width="44" height="44" src="/home/coach/multi/warm.webp" alt="" />
+              <div>
+                <p data-i18n="home2-bubble-2-who" class="coach-bubble__who">WARM COACH · AI · TODAY</p>
+                <p data-i18n="home2-bubble-2-msg" class="coach-bubble__msg">1,420 / 1,500 kcal, protein 96 g. You're on pace for −0.9 lb this week.</p>
+              </div>
+            </div>
+            <p data-i18n="home2-bubble-note" class="coach-bubble__note">Illustrative example</p>
           </div>
         </div>
       </section>
 
-      <!-- 아래 섹션은 홈(index.html)의 같은 마크업·같은 i18n 키를 옮긴 것(아티클·블로그 섹션만 뺐다). 홈 문구를 바꾸면 여기도 같이 바꿀 것.
-           순서: 기능 → 임상 결과 → 후기 → 비교 → 근거 → FAQ → 최종 스토어 버튼. reveal 애니메이션은 main.js 를 안 싣는 페이지라 뺐다. -->
-      <!-- EVERYTHING IN ONE APP -->
-      <section class="feature-grid" id="features">
-        <div class="container">
-          <div class="section-heading">
-            <h2 data-i18n="everything-in-one-app" class="text-heading-2">
-              Everything <span class="underline">HAVI reads</span>
-            </h2>
-            <p data-i18n="havit-turns-scattered-health-information" class="text-paragraph section-heading__desc">
-              HAVIT turns scattered health information into one daily
-              routine, with guidance designed to help you understand and act
-              on what matters.
-            </p>
-          </div>
-
-          <div class="feature-grid__rows">
-            <div class="feature-grid__row">
-              <article class="feature-card feature-card--pale">
-                <div class="feature-card__text">
-                  <p data-i18n="ai-coach" class="eyebrow">AI COACH</p>
-                  <h3 data-i18n="know-what-to-do-today" class="text-title-large">A coach that reads your day.</h3>
-                  <p data-i18n="get-personalized-recommendations-meal-feedback" class="text-body-medium">
-                    HAVI looks at what you ate, how you moved, and how you're
-                    trending, then gives you one clear next step. Ask anything,
-                    anytime—meals, plateaus, cravings.
-                  </p>
-                </div>
-                <div class="feature-card__image-frame">
-                  <img loading="lazy" decoding="async" width="1012" height="1379"
-                    class="feature-card__image"
-                    src="/src/assets/images/feature-ai-coach.webp"
-                    alt="AI coach recommendation screen"
-                  />
-                </div>
-              </article>
-
-              <article class="feature-card feature-card--blue">
-                <div class="feature-card__text">
-                  <p data-i18n="nutrition" class="eyebrow">NUTRITION</p>
-                  <h3 data-i18n="log-meals-in-seconds" class="text-title-large">Log meals in seconds.</h3>
-                  <p data-i18n="use-a-photo-to-receive" class="text-body-medium">
-                    Use a photo to receive an estimated calorie and nutrient
-                    breakdown.
-                  </p>
-                </div>
-                <div class="feature-card__image-frame">
-                  <img loading="lazy" decoding="async" width="954" height="1812"
-                    class="feature-card__image"
-                    src="/src/assets/images/feature-nutrition.webp"
-                    alt="Meal logging screen"
-                  />
-                </div>
-              </article>
-            </div>
-
-            <!-- AI 운동·러닝 코치 (Figma 「Screenshot 2.0」 홈페이지 · AI 러닝 코치 페이지, 언어별 화면은 public/l10n). 세로로 긴 그림이라 가로 카드로 둔다. -->
-            <div class="feature-grid__row feature-grid__row--wide">
-              <article class="feature-card feature-card--blue feature-card--horizontal feature-card--running">
-                <div class="feature-card__text">
-                  <p data-i18n="running-coach" class="eyebrow">WORKOUT &amp; RUNNING</p>
-                  <h3 data-i18n="from-home-workouts-to-your-next-run" class="text-title-large">From home workouts to your next run.</h3>
-                  <p data-i18n="running-coach-desc" class="text-body-medium">
-                    Follow guided home workouts, then take it outside. On runs,
-                    HAVI coaches your pace by voice in real time and tracks
-                    distance, time, and calories for you.
-                  </p>
-                </div>
-                <div class="feature-card__image-frame">
-                  <img loading="lazy" decoding="async" width="906" height="1430"
-                    class="feature-card__image"
-                    src="/src/assets/images/feature-running-coach.webp"
-                    alt="Home workout video and running coach screens"
-                  />
-                </div>
-              </article>
-            </div>
-
-            <div class="feature-grid__row">
-              <article class="feature-card feature-card--sky">
-                <div class="feature-card__text">
-                  <p data-i18n="daily-missions" class="eyebrow">DAILY MISSIONS</p>
-                  <h3 data-i18n="build-habits-you-can-repeat" class="text-title-large">
-                    Build habits you can repeat.
-                  </h3>
-                  <p data-i18n="turn-healthy-intentions-into-small" class="text-body-medium">
-                    Turn healthy intentions into small, achievable actions
-                    with missions, streaks, and visible progress.
-                  </p>
-                </div>
-                <div class="feature-card__image-frame">
-                  <img loading="lazy" decoding="async" width="947" height="2368"
-                    class="feature-card__image"
-                    src="/src/assets/images/feature-daily-missions.webp"
-                    alt="Daily missions screen"
-                  />
-                </div>
-              </article>
-
-              <article class="feature-card feature-card--lime">
-                <div class="feature-card__text">
-                  <p data-i18n="body-insights" class="eyebrow">BODY INSIGHTS</p>
-                  <h3 data-i18n="see-more-than-weight" class="text-title-large">See more than weight.</h3>
-                  <p data-i18n="follow-estimated-body-composition-and" class="text-body-medium">
-                    Follow estimated body composition and wellness trends over
-                    time.
-                  </p>
-                </div>
-                <div class="feature-card__image-frame">
-                  <img loading="lazy" decoding="async" width="721" height="1265"
-                    class="feature-card__image"
-                    src="/src/assets/images/feature-body-insights.webp"
-                    alt="Body composition analysis screen"
-                  />
-                </div>
-              </article>
-            </div>
-
-            <div class="feature-grid__row">
-              <article class="feature-card feature-card--pale">
-                <div class="feature-card__text">
-                  <p data-i18n="daily-check-in" class="eyebrow">DAILY CHECK-IN</p>
-                  <h3 data-i18n="tell-havi-how-today-feels" class="text-title-large">Tell HAVI how today feels.</h3>
-                  <p data-i18n="condition-sleep-appetite-mood" class="text-body-medium">
-                    Condition, sleep, appetite, and mood in a few taps. HAVI
-                    folds it into today's coaching and gives you one focus —
-                    what it is, and why it's the right call today.
-                  </p>
-                </div>
-                <div class="feature-card__image-frame">
-                  <img loading="lazy" decoding="async" width="739" height="853"
-                    class="feature-card__image"
-                    src="/src/assets/images/feature-daily-check-in.webp"
-                    alt="Daily check-in screen"
-                  />
-                </div>
-              </article>
-
-              <article class="feature-card feature-card--sky">
-                <div class="feature-card__text">
-                  <p data-i18n="mind-and-recovery" class="eyebrow">MIND &amp; RECOVERY</p>
-                  <h3 data-i18n="for-the-days-willpower-runs-out" class="text-title-large">For the days willpower runs out.</h3>
-                  <p data-i18n="guided-meditation-for-craving" class="text-body-medium">
-                    Guided meditation for cravings, sleep, calm, focus,
-                    breathing, and gratitude — alongside workout videos and
-                    1,400+ articles in Discovery.
-                  </p>
-                </div>
-                <div class="feature-card__image-frame">
-                  <img loading="lazy" decoding="async" width="424" height="424"
-                    class="feature-card__image"
-                    src="/src/assets/images/feature-mind-recovery.webp"
-                    alt="Guided meditation session"
-                  />
-                </div>
-              </article>
-            </div>
-
-            <div class="feature-grid__row feature-grid__row--wide">
-              <article class="feature-card feature-card--grey feature-card--horizontal">
-                <div class="feature-card__text">
-                  <p data-i18n="track-everything" class="eyebrow">TRACK EVERYTHING</p>
-                  <h3 data-i18n="from-water-to-glp-1" class="text-title-large">From water to GLP-1</h3>
-                  <p data-i18n="meals-hydration-workouts-sleep-steps" class="text-body-medium">
-                    Meals, hydration, workouts, sleep, steps, cycle, mood,
-                    and GLP-1—plus a daily check-in, guided meditation, and
-                    workout videos. One app, so nothing needs a separate one.
-                  </p>
-                </div>
-                <div class="feature-card__image-frame">
-                  <img loading="lazy" decoding="async" width="998" height="940"
-                    class="feature-card__image"
-                    src="/src/assets/images/feature-track-everything.webp"
-                    alt="Water and GLP-1 tracking screen"
-                  />
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <!-- CLINICAL RESULTS — 을지대 12주 임상 (9/8 제출본 · 분석집단 N=78). 숫자는 IR 덱과 같은 값만 쓴다. -->
       <section class="study" id="study">
         <div class="container">
-          <div class="section-heading section-heading--dark">
+          <div class="section-heading section-heading--dark reveal">
             <p data-i18n="study-eyebrow" class="eyebrow eyebrow--light">CLINICAL RESULTS · EULJI UNIVERSITY</p>
             <h2 data-i18n="study-headline" class="text-heading-2">Clinically tested for 12 weeks.<br /> Measured on InBody.</h2>
             <p data-i18n="study-desc" class="text-paragraph section-heading__desc">In a 12-week clinical study with Eulji University, HAVIT users were compared with a control group. Every result comes from InBody measurements, not self-reported weight.</p>
           </div>
           <div class="study__stats">
-            <div class="study__stat">
+            <div class="study__stat reveal">
               <p data-i18n="study-stat-1-value" class="study__value">4×</p>
               <p data-i18n="study-stat-1-label" class="study__label">more likely to lose 5%+ of body weight</p>
+              <div class="study__bars" aria-hidden="true"><span style="--v:31.7"></span><span style="--v:8.1"></span></div>
               <p data-i18n="study-stat-1-compare" class="study__compare">32% of HAVIT users vs 8% of the control group</p>
             </div>
-            <div class="study__stat">
+            <div class="study__stat reveal">
               <p data-i18n="study-stat-2-value" class="study__value">83%</p>
               <p data-i18n="study-stat-2-label" class="study__label">of HAVIT users lowered their body fat percentage</p>
+              <div class="study__bars" aria-hidden="true"><span style="--v:83"></span><span style="--v:49"></span></div>
               <p data-i18n="study-stat-2-compare" class="study__compare">vs 49% of the control group</p>
             </div>
           </div>
           <!-- 임상 참여자 감량 사례 (체중 감량 4.9kg 이상, kg 순) — 전원 공개 동의(2026-09-30). 닉네임은 첫 글자 + ** 마스킹. 값은 인바디 W1·W12. -->
           <h3 data-i18n="cases-sub" class="study__cases-title text-title-large">Biggest results from the study</h3>
-          <div class="cases-wrap at-start">
+          <div class="cases-wrap at-start reveal">
             <button type="button" class="cases__nav cases__nav--prev" data-dir="-1" aria-label="Previous"></button>
             <button type="button" class="cases__nav cases__nav--next" data-dir="1" aria-label="Next"></button>
           <div class="cases">
@@ -525,10 +363,156 @@
         </div>
       </section>
 
+      <!-- HOW IT WORKS -->
+      <section class="how" id="how">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p data-i18n="home2-how-eyebrow" class="eyebrow">HOW IT WORKS</p>
+            <h2 data-i18n="home2-how-headline" class="text-heading-2">The clinic method, in three steps</h2>
+            <p data-i18n="home2-how-desc" class="text-paragraph section-heading__desc">Juvis Diet coached members with one flow: analyze the body, set goals in numbers, coach every day. HAVIT puts that same flow on your phone.</p>
+          </div>
+          <div class="how__steps">
+            <article class="how__step how__step--01 reveal">
+              <div class="how__top"><span class="how__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2.5"/><path d="M12 8v6M8 10.5l4 1.5 4-1.5M10 21l2-7 2 7"/><path d="M3 7V4a1 1 0 0 1 1-1h3M21 7V4a1 1 0 0 0-1-1h-3M3 17v3a1 1 0 0 0 1 1h3M21 17v3a1 1 0 0 1-1 1h-3"/></svg></span><span class="how__badge">STEP 01</span></div>
+              <h3 data-i18n="home2-how-01-title" class="how__title">Analyze</h3>
+              <p data-i18n="home2-how-01-desc" class="how__desc">Answer a few questions about your build and habits. HAVIT estimates your muscle mass, body fat and body type — no body-composition scale (like InBody) or DEXA scan needed.</p>
+              <a class="how__link" href="#pillar-1"><span data-i18n="home2-how-01-link">See the analysis</span> ↓</a>
+            </article>
+            <article class="how__step how__step--02 reveal">
+              <div class="how__top"><span class="how__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/><path d="M17 7l3-3M18 4h2v2"/></svg></span><span class="how__badge">STEP 02</span></div>
+              <h3 data-i18n="home2-how-02-title" class="how__title">Set your numbers</h3>
+              <p data-i18n="home2-how-02-desc" class="how__desc">Your results become 10 daily goals in numbers: calories, protein, carbs, fat, fiber, calories burned, steps, sleep, water and weigh-ins.</p>
+              <a class="how__link" href="#pillar-1"><span data-i18n="home2-how-02-link">See the goals</span> ↓</a>
+            </article>
+            <article class="how__step how__step--03 reveal">
+              <div class="how__top"><span class="how__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M8.5 12.5l2.2 2.2 4.8-4.8"/></svg></span><span class="how__badge">STEP 03</span></div>
+              <h3 data-i18n="home2-how-03-title" class="how__title">Get coached daily</h3>
+              <p data-i18n="home2-how-03-desc" class="how__desc">Every time you log a meal, a walk or a night's sleep, HAVI tells you where you stand and what to do next — and guides you through a 12-week curriculum.</p>
+              <a class="how__link" href="#pillar-2"><span data-i18n="home2-how-03-link">Meet the coach</span> ↓</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES: 4 pillars with real app screens -->
+      <section class="pillars" id="features">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 data-i18n="everything-in-one-app" class="text-heading-2">
+              Everything <span class="underline">HAVI reads</span>
+            </h2>
+            <p data-i18n="havit-turns-scattered-health-information" class="text-paragraph section-heading__desc">
+              HAVIT turns scattered health information into one daily
+              routine, with guidance designed to help you understand and act
+              on what matters.
+            </p>
+          </div>
+        </div>
+      <article class="scene scene--1" id="pillar-1" data-scene style="--steps:3">
+        <div class="scene__sticky">
+          <div class="container scene__grid">
+            <div class="scene__copy">
+              <p data-i18n="home2-p1-eyebrow" class="scene__eyebrow">01 · BODY ANALYSIS</p>
+              <h3 data-i18n="home2-p1-head" class="scene__head">Body composition: the first step to goals that fit you</h3>
+              <p data-i18n="home3-p1-lead" class="scene__lead">No body-composition scale (like InBody) or DEXA scan needed — a few questions estimate what the scale can’t show.</p>
+              <ol class="scene__steps"><li class="scene__step" data-i="0"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>01</em></span><span class="scene__txt"><b data-i18n="home3-p1-s1-t">Analyze</b><span class="scene__more"><span data-i18n="home3-p1-s1-d">Skeletal muscle, body fat and body type, estimated from your answers.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li><li class="scene__step" data-i="1"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>02</em></span><span class="scene__txt"><b data-i18n="home3-p1-s2-t">Set your numbers</b><span class="scene__more"><span data-i18n="home3-p1-s2-d">Your BMR and healthy weight range become 10 daily goals.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li><li class="scene__step" data-i="2"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>03</em></span><span class="scene__txt"><b data-i18n="home3-p1-s3-t">Track to goal weight</b><span class="scene__more"><span data-i18n="home3-p1-s3-d">A week-by-week timeline, with every weigh-in charted.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li></ol>
+              <p class="scene__cap" aria-live="polite"></p>
+            </div>
+            <div class="scene__stage">
+              <div class="scene__floor" aria-hidden="true"></div>
+              <div class="scene__phone"><div class="scene__img shot" data-i="0" data-code="01-5"><img src="/home/flow2x/en/01-5.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div><div class="scene__img shot" data-i="1" data-code="01-3"><img src="/home/flow2x/en/01-3.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div><div class="scene__img shot" data-i="2" data-code="03-1"><img src="/home/flow2x/en/03-1.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div></div>
+              <div class="scene__fx" data-i="0"><div class="fx fx--card fx--l" style="--y:20"><span data-i18n="home3-p1-s1-fx1-l" class="fx__l">Skeletal muscle</span><b data-i18n="home3-p1-s1-fx1-v" class="fx__v">55.3 lb</b><i class="fx__bar" style="--v:0.55"><i></i></i><span data-i18n="home3-p1-s1-fx1-s" class="fx__s">Average range</span></div><div class="fx fx--card fx--r" style="--y:66"><span data-i18n="home3-p1-s1-fx2-l" class="fx__l">Body fat</span><b data-i18n="home3-p1-s1-fx2-v" class="fx__v">55.8 lb</b><i class="fx__bar" style="--v:0.8"><i></i></i><span data-i18n="home3-p1-s1-fx2-s" class="fx__s">Above average</span></div></div><div class="scene__fx" data-i="1"><div class="fx fx--card fx--r" style="--y:16"><span data-i18n="home3-p1-s2-fx1-l" class="fx__l">Daily goals</span><b data-i18n="home3-p1-s2-fx1-v" class="fx__v">10 goals</b><i class="fx__bar" style="--v:1"><i></i></i><span data-i18n="home3-p1-s2-fx1-s" class="fx__s">Calories · protein · steps · sleep</span></div><div class="fx fx--card fx--l" style="--y:47"><span data-i18n="home3-p1-s2-fx2-l" class="fx__l">BMR</span><b data-i18n="home3-p1-s2-fx2-v" class="fx__v">1,390 kcal</b><i class="fx__bar" style="--v:0.62"><i></i></i><span data-i18n="home3-p1-s2-fx2-s" class="fx__s">Your daily calorie floor</span></div></div><div class="scene__fx" data-i="2"><div class="fx fx--card fx--r" style="--y:22"><span data-i18n="home3-p1-s3-fx1-l" class="fx__l">Goal weight</span><b data-i18n="home3-p1-s3-fx1-v" class="fx__v">127.9 lb</b><i class="fx__bar" style="--v:0.3"><i></i></i><span data-i18n="home3-p1-s3-fx1-s" class="fx__s">From 159.4 lb</span></div><div class="fx fx--card fx--l" style="--y:66"><span data-i18n="home3-p1-s3-fx2-l" class="fx__l">Next milestone</span><b data-i18n="home3-p1-s3-fx2-v" class="fx__v">143.3 lb</b><i class="fx__bar" style="--v:0.5"><i></i></i><span data-i18n="home3-p1-s3-fx2-s" class="fx__s">Step by step</span></div></div>
+              <div class="scene__dots" aria-hidden="true"><span data-i="0"></span><span data-i="1"></span><span data-i="2"></span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="scene scene--2 scene--flip" id="pillar-2" data-scene style="--steps:3">
+        <div class="scene__sticky">
+          <div class="container scene__grid">
+            <div class="scene__copy">
+              <p data-i18n="home2-p2-eyebrow" class="scene__eyebrow">02 · AI COACH + 12-WEEK PROGRAM</p>
+              <h3 data-i18n="home2-p2-head" class="scene__head">An AI coach that answers every log, 1:1</h3>
+              <p data-i18n="home3-p2-lead" class="scene__lead">Built on Juvis Diet’s clinic method: a reply to every meal, a 1-minute morning check-in and a 12-week plan.</p>
+              <ol class="scene__steps"><li class="scene__step" data-i="0"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>01</em></span><span class="scene__txt"><b data-i18n="home3-p2-s1-t">Morning check-in</b><span class="scene__more"><span data-i18n="home3-p2-s1-d">Review yesterday and plan today in a minute.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li><li class="scene__step" data-i="1"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>02</em></span><span class="scene__txt"><b data-i18n="home3-p2-s2-t">Meal comments</b><span class="scene__more"><span data-i18n="home3-p2-s2-d">Where you stand, what’s missing, what to add next.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li><li class="scene__step" data-i="2"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>03</em></span><span class="scene__txt"><b data-i18n="home3-p2-s3-t">12-week program</b><span class="scene__more"><span data-i18n="home3-p2-s3-d">A weekly theme and a daily routine, checked off as you log.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li></ol>
+              <p class="scene__cap" aria-live="polite"></p>
+            </div>
+            <div class="scene__stage">
+              <div class="scene__floor" aria-hidden="true"></div>
+              <div class="scene__phone"><div class="scene__img shot" data-i="0" data-code="04-2"><img src="/home/flow2x/en/04-2.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div><div class="scene__img shot" data-i="1" data-code="05-4"><img src="/home/flow2x/en/05-4.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div><div class="scene__img shot" data-i="2" data-code="04-6"><img src="/home/flow2x/en/04-6.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div></div>
+              <div class="scene__fx" data-i="0"><div class="fx fx--chip fx--l" style="--y:20"><span data-i18n="home3-p2-s1-fx1-v">1-minute check-in</span></div><div class="fx fx--bubble fx--r" style="--y:76"><span data-i18n="home3-p2-s1-fx2-l" class="fx__l">HAVI · AI COACH</span><span data-i18n="home3-p2-s1-fx2-v" class="fx__msg">2 snacks after 9 PM last week. Let’s finish dinner before 8 tonight.</span></div></div><div class="scene__fx" data-i="1"><div class="fx fx--chip fx--l" style="--y:17"><span data-i18n="home3-p2-s2-fx1-v">Lunch logged · 620 kcal</span></div><div class="fx fx--bubble fx--r" style="--y:76"><span data-i18n="home3-p2-s2-fx2-l" class="fx__l">HAVI · AI COACH</span><span data-i18n="home3-p2-s2-fx2-v" class="fx__msg">Protein is at 64% of today’s goal. Add tofu or eggs at dinner to close the gap.</span></div></div><div class="scene__fx" data-i="2"><div class="fx fx--card fx--r" style="--y:19"><span data-i18n="home3-p2-s3-fx1-l" class="fx__l">Program</span><b data-i18n="home3-p2-s3-fx1-v" class="fx__v">Week 3 of 12</b><i class="fx__bar" style="--v:0.25"><i></i></i><span data-i18n="home3-p2-s3-fx1-s" class="fx__s">This week: protein first</span></div><div class="fx fx--chip fx--l" style="--y:72"><span data-i18n="home3-p2-s3-fx2-v">Routine checked automatically</span></div></div>
+              <div class="scene__dots" aria-hidden="true"><span data-i="0"></span><span data-i="1"></span><span data-i="2"></span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="scene scene--3" id="pillar-3" data-scene style="--steps:4">
+        <div class="scene__sticky">
+          <div class="container scene__grid">
+            <div class="scene__copy">
+              <p data-i18n="home2-p3-eyebrow" class="scene__eyebrow">03 · TRACKING + HEALTH CONTENT</p>
+              <h3 data-i18n="home2-p3-head" class="scene__head">From meals to GLP-1, every log becomes coaching</h3>
+              <p data-i18n="home3-p3-lead" class="scene__lead">One photo logs a meal. Weight, sleep, water, fasting, cycle, running and GLP-1 live in the same app.</p>
+              <ol class="scene__steps"><li class="scene__step" data-i="0"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>01</em></span><span class="scene__txt"><b data-i18n="home3-p3-s1-t">Photo meal log</b><span class="scene__more"><span data-i18n="home3-p3-s1-d">Snap a photo — calories and nutrients are estimated.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li><li class="scene__step" data-i="1"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>02</em></span><span class="scene__txt"><b data-i18n="home3-p3-s2-t">GLP-1 & weight</b><span class="scene__more"><span data-i18n="home3-p3-s2-d">Dose schedule, reminders and weight change side by side.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li><li class="scene__step" data-i="2"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>03</em></span><span class="scene__txt"><b data-i18n="home3-p3-s3-t">Sleep, water, fasting, cycle</b><span class="scene__more"><span data-i18n="home3-p3-s3-d">Coaching on every log, not just food.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li><li class="scene__step" data-i="3"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>04</em></span><span class="scene__txt"><b data-i18n="home3-p3-s4-t">Workouts, meditation, articles</b><span class="scene__more"><span data-i18n="home3-p3-s4-d">Learn it, then put it into practice.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li></ol>
+              <p class="scene__cap" aria-live="polite"></p>
+            </div>
+            <div class="scene__stage">
+              <div class="scene__floor" aria-hidden="true"></div>
+              <div class="scene__phone"><div class="scene__img shot" data-i="0" data-code="05-2"><img src="/home/flow2x/en/05-2.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div><div class="scene__img shot" data-i="1" data-code="05-8"><img src="/home/flow2x/en/05-8.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div><div class="scene__img shot" data-i="2" data-code="05-10"><img src="/home/flow2x/en/05-10.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div><div class="scene__img shot" data-i="3" data-code="06-1"><img src="/home/flow2x/en/06-1.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div></div>
+              <div class="scene__fx" data-i="0"><div class="fx fx--chip fx--l" style="--y:22"><span data-i18n="home3-p3-s1-fx2-v">Photo → nutrients in seconds</span></div><div class="fx fx--card fx--r" style="--y:53"><span data-i18n="home3-p3-s1-fx1-l" class="fx__l">Protein</span><b data-i18n="home3-p3-s1-fx1-v" class="fx__v">28 g</b><i class="fx__bar" style="--v:0.64"><i></i></i><span data-i18n="home3-p3-s1-fx1-s" class="fx__s">64% of today’s goal</span></div></div><div class="scene__fx" data-i="1"><div class="fx fx--chip fx--l" style="--y:20"><span data-i18n="home3-p3-s2-fx1-v">Dose reminder · Mounjaro</span></div><div class="fx fx--card fx--r" style="--y:63"><span data-i18n="home3-p3-s2-fx2-l" class="fx__l">Weight</span><b data-i18n="home3-p3-s2-fx2-v" class="fx__v">129.6 lb</b><i class="fx__bar" style="--v:0.6"><i></i></i><span data-i18n="home3-p3-s2-fx2-s" class="fx__s">Logged with your dose</span></div></div><div class="scene__fx" data-i="2"><div class="fx fx--card fx--r" style="--y:19"><span data-i18n="home3-p3-s3-fx1-l" class="fx__l">Sleep</span><b data-i18n="home3-p3-s3-fx1-v" class="fx__v">23:00 – 08:30</b><i class="fx__bar" style="--v:0.8"><i></i></i><span data-i18n="home3-p3-s3-fx1-s" class="fx__s">Bedtime consistency</span></div><div class="fx fx--chip fx--l" style="--y:72"><span data-i18n="home3-p3-s3-fx2-v">Water · fasting · cycle too</span></div></div><div class="scene__fx" data-i="3"><div class="fx fx--card fx--r" style="--y:22"><span data-i18n="home3-p3-s4-fx1-l" class="fx__l">This week</span><b data-i18n="home3-p3-s4-fx1-v" class="fx__v">1 hr 30 min</b><i class="fx__bar" style="--v:0.5"><i></i></i><span data-i18n="home3-p3-s4-fx1-s" class="fx__s">Home workouts</span></div><div class="fx fx--chip fx--l" style="--y:70"><span data-i18n="home3-p3-s4-fx2-v">1,400+ health articles</span></div></div>
+              <div class="scene__dots" aria-hidden="true"><span data-i="0"></span><span data-i="1"></span><span data-i="2"></span><span data-i="3"></span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="scene scene--4 scene--flip" id="pillar-4" data-scene style="--steps:3">
+        <div class="scene__sticky">
+          <div class="container scene__grid">
+            <div class="scene__copy">
+              <p data-i18n="home2-p4-eyebrow" class="scene__eyebrow">04 · HABITS THAT FEEL LIKE A GAME</p>
+              <h3 data-i18n="home2-p4-head" class="scene__head">Habits designed to keep you coming back</h3>
+              <p data-i18n="home3-p4-lead" class="scene__lead">Consistency beats a perfect day. Every log turns into an instant reward.</p>
+              <ol class="scene__steps"><li class="scene__step" data-i="0"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>01</em></span><span class="scene__txt"><b data-i18n="home3-p4-s1-t">Streaks</b><span class="scene__more"><span data-i18n="home3-p4-s1-d">Keep your log going — one day at a time.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li><li class="scene__step" data-i="1"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>02</em></span><span class="scene__txt"><b data-i18n="home3-p4-s2-t">Steps into coins</b><span class="scene__more"><span data-i18n="home3-p4-s2-d">Walk more, earn more, spend on your character.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li><li class="scene__step" data-i="2"><button type="button" class="scene__btn"><span class="scene__num" aria-hidden="true"><em>03</em></span><span class="scene__txt"><b data-i18n="home3-p4-s3-t">Challenges & ranking</b><span class="scene__more"><span data-i18n="home3-p4-s3-d">Badges for finished missions, tiers with friends.</span><i class="scene__bar" aria-hidden="true"><i></i></i></span></span></button></li></ol>
+              <p class="scene__cap" aria-live="polite"></p>
+            </div>
+            <div class="scene__stage">
+              <div class="scene__floor" aria-hidden="true"></div>
+              <div class="scene__phone"><div class="scene__img shot" data-i="0" data-code="07-2"><img src="/home/flow2x/en/07-2.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div><div class="scene__img shot" data-i="1" data-code="07-3"><img src="/home/flow2x/en/07-3.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div><div class="scene__img shot" data-i="2" data-code="07-7"><img src="/home/flow2x/en/07-7.webp" alt="" width="704" height="1424" loading="lazy" decoding="async" /></div></div>
+              <div class="scene__fx" data-i="0"><div class="fx fx--card fx--l" style="--y:22"><span data-i18n="home3-p4-s1-fx1-l" class="fx__l">Streak</span><b data-i18n="home3-p4-s1-fx1-v" class="fx__v">25 days</b><i class="fx__bar" style="--v:0.83"><i></i></i><span data-i18n="home3-p4-s1-fx1-s" class="fx__s">Logged every day</span></div><div class="fx fx--chip fx--r" style="--y:72"><span data-i18n="home3-p4-s1-fx2-v">Savers protect missed days</span></div></div><div class="scene__fx" data-i="1"><div class="fx fx--chip fx--l" style="--y:24"><span data-i18n="home3-p4-s2-fx2-v">5,000 steps today</span></div><div class="fx fx--card fx--r" style="--y:66"><span data-i18n="home3-p4-s2-fx1-l" class="fx__l">Today</span><b data-i18n="home3-p4-s2-fx1-v" class="fx__v">+3 coins</b><i class="fx__bar" style="--v:0.6"><i></i></i><span data-i18n="home3-p4-s2-fx1-s" class="fx__s">5,000 steps reached</span></div></div><div class="scene__fx" data-i="2"><div class="fx fx--card fx--l" style="--y:22"><span data-i18n="home3-p4-s3-fx1-l" class="fx__l">Your tier</span><b data-i18n="home3-p4-s3-fx1-v" class="fx__v">Gold II</b><i class="fx__bar" style="--v:0.7"><i></i></i><span data-i18n="home3-p4-s3-fx1-s" class="fx__s">6th in your league</span></div><div class="fx fx--chip fx--r" style="--y:72"><span data-i18n="home3-p4-s3-fx2-v">Badges for finished missions</span></div></div>
+              <div class="scene__dots" aria-hidden="true"><span data-i="0"></span><span data-i="1"></span><span data-i="2"></span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+      </section>
+
+      <section class="compare2" id="compare">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 data-i18n="not-just-another-tracker" class="text-heading-2">Not just another tracker.</h2>
+            <p data-i18n="havit-connects-what-you-log" class="text-paragraph section-heading__desc">
+              HAVIT connects what you log with what you do next. That means
+              fewer disconnected numbers and more useful daily direction.
+            </p>
+          </div>
+          <div class="compare2__table reveal" role="table">
+            <div class="compare2__row compare2__row--head" role="row"><span role="columnheader"></span><span data-i18n="home2-cmp-col-tracker" role="columnheader">A CALORIE TRACKER</span><span data-i18n="home2-cmp-col-havit" class="compare2__havit" role="columnheader">HAVIT</span></div>
+            <div class="compare2__row" role="row"><span data-i18n="home2-cmp-1-label" class="compare2__label" role="rowheader">Where it starts</span><span data-i18n="home2-cmp-1-tracker" class="compare2__tracker" role="cell">Height, weight and a calorie budget</span><span data-i18n="home2-cmp-1-havit" class="compare2__havit" role="cell">Estimated muscle, fat and body type from a short questionnaire</span></div>
+            <div class="compare2__row" role="row"><span data-i18n="home2-cmp-2-label" class="compare2__label" role="rowheader">Your goals</span><span data-i18n="home2-cmp-2-tracker" class="compare2__tracker" role="cell">A calorie number, sometimes macros</span><span data-i18n="home2-cmp-2-havit" class="compare2__havit" role="cell">10 daily goals, from calories and protein to sleep, water and steps</span></div>
+            <div class="compare2__row" role="row"><span data-i18n="home2-cmp-3-label" class="compare2__label" role="rowheader">After you log a meal</span><span data-i18n="home2-cmp-3-tracker" class="compare2__tracker" role="cell">A running total</span><span data-i18n="home2-cmp-3-havit" class="compare2__havit" role="cell">A comment from your AI coach and what to add next</span></div>
+            <div class="compare2__row" role="row"><span data-i18n="home2-cmp-4-label" class="compare2__label" role="rowheader">What it looks at</span><span data-i18n="home2-cmp-4-tracker" class="compare2__tracker" role="cell">What you ate</span><span data-i18n="home2-cmp-4-havit" class="compare2__havit" role="cell">Meals plus weight, sleep, water, steps, fasting, cycle and mood</span></div>
+            <div class="compare2__row" role="row"><span data-i18n="home2-cmp-5-label" class="compare2__label" role="rowheader">The plan</span><span data-i18n="home2-cmp-5-tracker" class="compare2__tracker" role="cell">Open-ended logging</span><span data-i18n="home2-cmp-5-havit" class="compare2__havit" role="cell">A 12-week curriculum with missions checked against your real logs</span></div>
+            <div class="compare2__row" role="row"><span data-i18n="home2-cmp-6-label" class="compare2__label" role="rowheader">When you miss a day</span><span data-i18n="home2-cmp-6-tracker" class="compare2__tracker" role="cell">You start over on your own</span><span data-i18n="home2-cmp-6-havit" class="compare2__havit" role="cell">Your first miss is forgiven, and savers protect your streak</span></div>
+            <div class="compare2__row" role="row"><span data-i18n="home2-cmp-7-label" class="compare2__label" role="rowheader">Why you come back</span><span data-i18n="home2-cmp-7-tracker" class="compare2__tracker" role="cell">Reminders</span><span data-i18n="home2-cmp-7-havit" class="compare2__havit" role="cell">Streaks, step coins, challenges, ranking and characters</span></div>
+            <div class="compare2__row" role="row"><span data-i18n="home2-cmp-8-label" class="compare2__label" role="rowheader">Evidence</span><span data-i18n="home2-cmp-8-tracker" class="compare2__tracker" role="cell">—</span><span data-i18n="home2-cmp-8-havit" class="compare2__havit" role="cell">A 12-week study with Eulji University (non-blinded; results vary)</span></div>
+          </div>
+        </div>
+      </section>
+
       <!-- USER STORIES -->
       <section class="stories" id="stories">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading reveal">
             <h2 data-i18n="user-stories" class="text-heading-2">User Stories</h2>
             <p data-i18n="feedback-from-havit-beta-participants" class="text-body-medium section-heading__desc">
               Reviews from HAVIT users. Individual experiences and results
@@ -537,7 +521,7 @@
           </div>
 
           <!-- 대표 후기 — bluespring(EU-018). 사진·후기 공개 동의 완료(대표 확인). 원문 ko, 그 외 언어는 번역 표기. 수치는 인바디 W1→W12. -->
-          <article class="story-feature">
+          <article class="story-feature reveal">
             <div class="story-feature__media">
               <img loading="lazy" decoding="async" width="1200" height="800" src="/src/assets/images/story-bluespring-before-after.webp" alt="Before and after photos of b**, a HAVIT clinical study participant" />
             </div>
@@ -568,7 +552,7 @@
           </article>
 
           <div class="stories__grid">
-            <article class="story-card">
+            <article class="story-card reveal">
               <div class="story-card__stars">
                 <span class="star-icon" aria-hidden="true"></span>
                 <span class="star-icon" aria-hidden="true"></span>
@@ -585,7 +569,7 @@
                 <p data-i18n="beta-participant" class="text-body-small">Beta Participant</p>
               </div>
             </article>
-            <article class="story-card">
+            <article class="story-card reveal">
               <div class="story-card__stars">
                 <span class="star-icon" aria-hidden="true"></span>
                 <span class="star-icon" aria-hidden="true"></span>
@@ -602,7 +586,7 @@
                 <p data-i18n="beta-participant" class="text-body-small">Beta Participant</p>
               </div>
             </article>
-            <article class="story-card">
+            <article class="story-card reveal">
               <div class="story-card__stars">
                 <span class="star-icon" aria-hidden="true"></span>
                 <span class="star-icon" aria-hidden="true"></span>
@@ -623,112 +607,10 @@
         </div>
       </section>
 
-      <!-- COMPARISON -->
-      <section class="comparison">
-        <div class="container comparison__inner">
-          <div class="comparison__text">
-            <h2 data-i18n="not-just-another-tracker" class="text-heading-2">Not just another tracker.</h2>
-            <p data-i18n="havit-connects-what-you-log" class="text-paragraph">
-              HAVIT connects what you log with what you do next. That means
-              fewer disconnected numbers and more useful daily direction.
-            </p>
-          </div>
-
-          <div class="comparison__table">
-            <div class="comparison__col comparison__col--label">
-              <div data-i18n="capability" class="comparison__col-head text-title-small">CAPABILITY</div>
-              <div data-i18n="calories-and-meals" class="comparison__row">Calories and meals</div>
-              <div data-i18n="body-composition-estimates" class="comparison__row">Body composition estimates</div>
-              <div data-i18n="personalized-daily-coaching" class="comparison__row">Personalized daily coaching</div>
-              <div data-i18n="glp-1-lifestyle-support" class="comparison__row">GLP-1 lifestyle support</div>
-              <div data-i18n="habit-building-missions" class="comparison__row">Habit-building missions</div>
-            </div>
-            <div class="comparison__col comparison__col--havit">
-              <div data-i18n="havit" class="comparison__col-head text-title-small">HAVIT</div>
-              <div class="comparison__row"><span class="check check--on"><span class="check__icon"></span></span></div>
-              <div class="comparison__row"><span class="check check--on"><span class="check__icon"></span></span></div>
-              <div class="comparison__row"><span class="check check--on"><span class="check__icon"></span></span></div>
-              <div class="comparison__row"><span class="check check--on"><span class="check__icon"></span></span></div>
-              <div class="comparison__row"><span class="check check--on"><span class="check__icon"></span></span></div>
-            </div>
-            <div class="comparison__col comparison__col--basic">
-              <div data-i18n="basic-tracker" class="comparison__col-head text-title-small">BASIC TRACKER</div>
-              <div class="comparison__row"><span class="check check--muted"><span class="check__icon"></span></span></div>
-              <div class="comparison__row"><span class="check"></span></div>
-              <div class="comparison__row"><span class="check"></span></div>
-              <div class="comparison__row"><span class="check"></span></div>
-              <div class="comparison__row"><span class="check"></span></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- EXPERTISE -->
-      <section class="expertise">
-        <div class="container expertise__inner">
-          <div class="expertise__text">
-            <h2 data-i18n="powered-by-ai-grounded-in" class="text-heading-2">
-              Powered by AI, grounded in real evidence.
-            </h2>
-            <p data-i18n="havit-combines-ai-coaching-evidence" class="text-paragraph">
-              HAVIT combines AI coaching, evidence-based behavior-change
-              techniques, and real-world weight-management expertise to help you make better decisions every day.
-            </p>
-            <p data-i18n="havit-is-a-wellness-app" class="text-body-small">
-              HAVIT is a wellness app, not a medical device. Body
-              composition results are estimates and are not equivalent to
-              clinical measurements.
-            </p>
-          </div>
-
-          <div class="expertise__list">
-            <div class="expertise__item">
-              <span class="expertise__icon">🎯</span>
-              <div>
-                <h4 data-i18n="92-9-estimated-accuracy" class="text-heading-4">
-                  92.9% agreement with InBody
-                </h4>
-                <p data-i18n="in-an-internal-study-with" class="text-body-medium">
-                  In HAVIT's own internal study (n=70), our
-                  body composition model reached 92.9% estimated accuracy
-                  against InBody readings.
-                </p>
-              </div>
-            </div>
-            <div class="expertise__item">
-              <span class="expertise__icon">🎮</span>
-              <div>
-                <h4 data-i18n="behavior-based-daily-actions" class="text-heading-4">
-                  Behavior-based daily actions
-                </h4>
-                <p data-i18n="daily-missions-translate-established-behavior" class="text-body-medium">
-                  Daily missions translate established behavior-change
-                  techniques (BITs) into small, repeatable actions for
-                  everyday routines.
-                </p>
-              </div>
-            </div>
-            <div class="expertise__item">
-              <span class="expertise__icon">👨‍⚕️</span>
-              <div>
-                <h4 data-i18n="weight-management-expertise" class="text-heading-4">
-                  Weight-management expertise
-                </h4>
-                <p data-i18n="our-program-draws-on-the" class="text-body-medium">
-                  Our program draws on the experience of professionals
-                  formerly at Juvis Diet, one of Korea's leading metabolic
-                  clinics.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- FAQ -->
       <section class="faq" id="faq">
         <div class="container">
-          <div class="section-heading">
+          <div class="section-heading reveal">
             <h2 data-i18n="faq" class="text-heading-2">FAQ</h2>
             <p data-i18n="still-need-help-contact-help" class="text-body-medium section-heading__desc">
               Still need help? Contact
@@ -737,9 +619,9 @@
           </div>
 
           <div class="faq__list">
-            <div class="faq__item">
+            <div class="faq__item reveal">
               <button class="faq__trigger" aria-expanded="true">
-                <span data-i18n="does-havit-work-without-glp" class="text-title-medium">Does HAVIT work without GLP-1 medication?</span>
+                <span data-i18n="home2-faq-1-q" class="text-title-medium">Is HAVIT free?</span>
                 <span class="faq__chevron">
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -748,18 +630,13 @@
               </button>
               <div class="faq__panel is-open">
                 <div class="faq__panel-inner">
-                  <p data-i18n="yes-havit-is-designed-for" class="text-body-medium">
-                    Yes. HAVIT is designed for anyone building healthier
-                    weight-management habits. GLP-1 logging and lifestyle
-                    support are optional features for people who use those
-                    medications under a healthcare professional’s care.
-                  </p>
+                  <p data-i18n="home2-faq-1-a" class="text-body-medium">Yes. Meal logging with calories per meal, tracking for weight, water, sleep, steps, fasting, mood, cycle and GLP-1, the body composition estimate, and chat with the AI coach (daily message limit) are free. HAVIT Premium adds macro analysis, AI food scan, unlimited chat, daily check-ins, workout videos, guided meditations, articles, savers and the evening recap.</p>
                 </div>
               </div>
             </div>
-            <div class="faq__item">
+            <div class="faq__item reveal">
               <button class="faq__trigger" aria-expanded="false">
-                <span data-i18n="how-does-the-ai-coach" class="text-title-medium">How does the AI Coach work?</span>
+                <span data-i18n="home2-faq-2-q" class="text-title-medium">Do I need a smart scale or a body composition test?</span>
                 <span class="faq__chevron">
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -768,19 +645,13 @@
               </button>
               <div class="faq__panel">
                 <div class="faq__panel-inner">
-                  <p data-i18n="the-ai-coach-uses-the" class="text-body-medium">
-                    The AI Coach uses the goals, preferences, logs, and
-                    progress you provide to offer personalized wellness
-                    guidance. It does not diagnose conditions, prescribe
-                    medication, or replace a qualified healthcare
-                    professional.
-                  </p>
+                  <p data-i18n="home2-faq-2-a" class="text-body-medium">No. HAVIT estimates your muscle and fat mass from your height, weight and a few questions about your build and habits. It is an estimate, not a device measurement.</p>
                 </div>
               </div>
             </div>
-            <div class="faq__item">
+            <div class="faq__item reveal">
               <button class="faq__trigger" aria-expanded="false">
-                <span data-i18n="are-body-composition-results-medical" class="text-title-medium">Are body composition results medical measurements?</span>
+                <span data-i18n="home2-faq-3-q" class="text-title-medium">Do I need to be on a GLP-1 medication?</span>
                 <span class="faq__chevron">
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -789,18 +660,13 @@
               </button>
               <div class="faq__panel">
                 <div class="faq__panel-inner">
-                  <p data-i18n="no-havit-provides-statistical-estimates" class="text-body-medium">
-                    No. HAVIT provides statistical estimates for wellness
-                    tracking. They are not equivalent to measurements from a
-                    medical device or a clinical assessment, and individual
-                    results can vary.
-                  </p>
+                  <p data-i18n="home2-faq-3-a" class="text-body-medium">No. GLP-1 tracking is optional. If you use one, you can set a dosing schedule and reminders and see them next to your weight changes. If you don't, everything else works the same.</p>
                 </div>
               </div>
             </div>
-            <div class="faq__item">
+            <div class="faq__item reveal">
               <button class="faq__trigger" aria-expanded="false">
-                <span data-i18n="what-can-i-track" class="text-title-medium">What can I track?</span>
+                <span data-i18n="home2-faq-4-q" class="text-title-medium">How is HAVIT different from a calorie counter?</span>
                 <span class="faq__chevron">
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -809,18 +675,13 @@
               </button>
               <div class="faq__panel">
                 <div class="faq__panel-inner">
-                  <p data-i18n="you-can-track-meals-calories" class="text-body-medium">
-                    You can track meals, calories and nutrients, weight and
-                    estimated body trends, activity, hydration, sleep,
-                    habits, and an optional GLP-1 medication routine.
-                    Available integrations can vary by device and region.
-                  </p>
+                  <p data-i18n="home2-faq-4-a" class="text-body-medium">A calorie counter gives you a total. HAVIT starts with a body analysis, sets 10 daily goals, and your AI coach comments on each log and suggests what to add at your next meal.</p>
                 </div>
               </div>
             </div>
-            <div class="faq__item">
+            <div class="faq__item reveal">
               <button class="faq__trigger" aria-expanded="false">
-                <span data-i18n="can-havit-tell-me-how" class="text-title-medium">Can HAVIT tell me how to use my medication?</span>
+                <span data-i18n="home2-faq-5-q" class="text-title-medium">How does the AI coach work?</span>
                 <span class="faq__chevron">
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -829,19 +690,13 @@
               </button>
               <div class="faq__panel">
                 <div class="faq__panel-inner">
-                  <p data-i18n="no-medication-decisions-including-starting" class="text-body-medium">
-                    No. Medication decisions—including starting, stopping,
-                    changing dose, and managing side effects—must be
-                    discussed with a qualified healthcare professional. HAVIT
-                    only provides lifestyle information and personal logging
-                    tools.
-                  </p>
+                  <p data-i18n="home2-faq-5-a" class="text-body-medium">The AI coach uses the goals, preferences, logs and progress you provide to offer personalized wellness guidance. It does not diagnose conditions, prescribe medication, or replace a qualified healthcare professional.</p>
                 </div>
               </div>
             </div>
-            <div class="faq__item">
+            <div class="faq__item reveal">
               <button class="faq__trigger" aria-expanded="false">
-                <span data-i18n="how-is-my-health-data" class="text-title-medium">How is my health data handled?</span>
+                <span data-i18n="home2-faq-6-q" class="text-title-medium">What did the Eulji University study find?</span>
                 <span class="faq__chevron">
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -850,12 +705,67 @@
               </button>
               <div class="faq__panel">
                 <div class="faq__panel-inner">
-                  <p data-i18n="havit-handles-personal-data-according" class="text-body-medium">
-                    HAVIT handles personal data according to its Privacy
-                    Policy. Review the policy before signing up for details
-                    about collection, storage, sharing, retention, and
-                    deletion requests.
-                  </p>
+                  <p data-i18n="home2-faq-6-a" class="text-body-medium">In a 12-week study with Eulji University (June to August 2026), 31.7% of the HAVIT group lost 5% or more of their body weight, versus 8.1% of the control group. 83% versus 49% lowered their body fat percentage. The analysis covered 78 people. It was non-blinded, HAVIT was involved, and results vary by individual.</p>
+                </div>
+              </div>
+            </div>
+            <div class="faq__item reveal">
+              <button class="faq__trigger" aria-expanded="false">
+                <span data-i18n="home2-faq-7-q" class="text-title-medium">What happens if I miss a day?</span>
+                <span class="faq__chevron">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq__panel">
+                <div class="faq__panel-inner">
+                  <p data-i18n="home2-faq-7-a" class="text-body-medium">For missions that run several days in a row, your first miss is forgiven and a saver covers the second. The third resets the mission. HAVIT Premium gives you 2 savers every week.</p>
+                </div>
+              </div>
+            </div>
+            <div class="faq__item reveal">
+              <button class="faq__trigger" aria-expanded="false">
+                <span data-i18n="home2-faq-8-q" class="text-title-medium">Can HAVIT tell me how to use my medication?</span>
+                <span class="faq__chevron">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq__panel">
+                <div class="faq__panel-inner">
+                  <p data-i18n="home2-faq-8-a" class="text-body-medium">No. Medication decisions—including starting, stopping, changing dose, and managing side effects—must be discussed with a qualified healthcare professional. HAVIT only provides lifestyle information and personal logging tools.</p>
+                </div>
+              </div>
+            </div>
+            <div class="faq__item reveal">
+              <button class="faq__trigger" aria-expanded="false">
+                <span data-i18n="home2-faq-9-q" class="text-title-medium">How is my health data handled?</span>
+                <span class="faq__chevron">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq__panel">
+                <div class="faq__panel-inner">
+                  <p data-i18n="home2-faq-9-a" class="text-body-medium">HAVIT handles personal data according to its Privacy Policy. Review the policy before signing up for details about collection, storage, sharing, retention, and deletion requests.</p>
+                </div>
+              </div>
+            </div>
+            <div class="faq__item reveal">
+              <button class="faq__trigger" aria-expanded="false">
+                <span data-i18n="home2-faq-10-q" class="text-title-medium">Which phones does it work on?</span>
+                <span class="faq__chevron">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq__panel">
+                <div class="faq__panel-inner">
+                  <p data-i18n="home2-faq-10-a" class="text-body-medium">iOS and Android.</p>
                 </div>
               </div>
             </div>
@@ -865,7 +775,7 @@
 
       <!-- FINAL CTA -->
       <section class="final-cta" id="download">
-        <div class="container">
+        <div class="container reveal">
           <h2 data-i18n="ready-for-smarter-weight-loss" class="text-heading-2">
             Ready for Smarter Weight Loss?
           </h2>
@@ -902,7 +812,7 @@
       </section>
     </main>
 
-    <!-- 모바일 하단 고정 설치 버튼 — 모바일에서 첫 화면부터 항상 보인다(아래 스크립트가 is-visible 을 켬). 링크는 기기 배지와 같은 app.aihavit.com 경로. -->
+    <!-- 모바일 하단 고정 CTA — 모바일에서 첫 화면부터 항상 보인다(open.js). 링크는 기기 배지와 같은 app.aihavit.com 경로. -->
     <div class="sticky-cta">
       <!-- Figma 영상/이미지 리소스 882-24264: 캐릭터는 링크 밖 형제로 둔다(data-i18n 이 링크 안쪽을 통째로 바꾼다). -->
       <div class="cta-pill">
@@ -925,116 +835,6 @@
       <p data-i18n="2026-havit-inc-all-rights">© 2026 Havit Inc. All Rights Reserved.</p>
     </footer>
 
-    <!-- 스토어 배지. 자동 이동은 없다 — 누를 때만 간다.
-         - 기기와 같은 스토어 배지(iOS → App Store, Android → Google Play)를 앞에 크게 두고, 그 배지만
-           app.aihavit.com(홈 배지와 같은 귀속 경로: 받은 광고 파라미터 → OneLink pid·c)으로 보낸다.
-           FORWARD_KEYS 는 src/main.js 와 같다.
-         - 그 밖(PC·기기와 다른 스토어)은 스토어 직링크. Google Play 는 referrer 에 utm·클릭 ID 를 실어
-           Play Install Referrer 로 귀속이 이어지게 한다.
-         - c: ?campaign= 이 있으면 그 값, 없으면 w2ac_open. utm_campaign 이 있으면 c 를 붙이지 않는다
-           (app.aihavit.com 이 c 를 utm_campaign 보다 먼저 써서 광고 캠페인 이름이 사라진다).
-         - /open/<target> 의 <target> 은 deep_link_value 로 넘겨 설치 후 첫 실행(지연 딥링크)에 쓸 수 있게 한다. -->
-    <script>
-      (function () {
-        var APP_LINK = 'https://app.aihavit.com/'
-        var FORWARD_KEYS = [
-          'utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'keyword',
-          'gclid', 'gbraid', 'wbraid', 'fbclid', 'ttclid', 'twclid', 'sccid', 'irclickid', 'oppref',
-          'af_c_id', 'af_adset_id', 'af_ad_id',
-        ]
-        var landing = new URLSearchParams(location.search)
-        var q = new URLSearchParams()
-        FORWARD_KEYS.forEach(function (k) { if (landing.has(k)) q.set(k, landing.get(k)) })
-        if (!q.has('utm_campaign')) q.set('c', landing.get('campaign') || 'w2ac_open')
-        var target = location.pathname.replace(/^\/open\/?/, '').replace(/\/+$/, '')
-        if (target) q.set('deep_link_value', target)
-        if (document.documentElement.lang) q.set('hl', document.documentElement.lang)
-        q.set('af_adset', 'w2ac_open')
-
-        var ua = navigator.userAgent
-        var isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
-        var device = isIOS ? 'app_store' : /Android/i.test(ua) ? 'google_play' : null
-
-        // Play 직링크: Install Referrer 로 넘길 값(utm_* · Google 클릭 ID).
-        var ref = new URLSearchParams()
-        ;['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'gclid', 'gbraid', 'wbraid'].forEach(function (k) {
-          if (landing.has(k)) ref.set(k, landing.get(k))
-        })
-        if (!ref.has('utm_campaign') && landing.has('campaign')) ref.set('utm_campaign', landing.get('campaign'))
-        if (!ref.has('utm_source') && (ref.has('gclid') || ref.has('gbraid') || ref.has('wbraid'))) {
-          ref.set('utm_source', 'google')
-          ref.set('utm_medium', 'cpc')
-        }
-        // 배지는 히어로·최종 스토어 버튼 두 곳에 있다 — 둘 다 같은 규칙으로 바꾼다.
-        document.querySelectorAll('a[data-store="google_play"]').forEach(function (play) {
-          if (ref.toString()) play.setAttribute('href', play.getAttribute('href') + '&referrer=' + encodeURIComponent(ref.toString()))
-        })
-
-        var appLink = APP_LINK + '?' + q.toString()
-        if (device) {
-          document.querySelectorAll('a[data-store="' + device + '"]').forEach(function (a) {
-            a.setAttribute('href', appLink)
-            a.classList.add('is-device')
-            a.parentNode.classList.add('has-device')
-          })
-        }
-        // 히어로 Start Free·하단 고정 버튼 = 기기 배지와 같은 링크. 기기를 못 가리면(PC 등) app.aihavit.com 이 OS 를 보고 고른다(PC 는 QR).
-        document.querySelectorAll('a[data-install]').forEach(function (a) {
-          a.setAttribute('href', appLink)
-          a.setAttribute('data-store', device || 'app_link')
-        })
-      })()
-
-      // FAQ 접기·펼치기(한 번에 하나), 임상 사례 카드 좌우 버튼, 하단 고정 버튼 표시 — src/main.js 의 같은 부분을 옮긴 것.
-      // main.js 를 통째로 싣지 않는 건 그 파일이 Start Free 링크에 c=homepage 를 붙이고 상단 메뉴를 다루기 때문이다.
-      ;(function () {
-        var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-        var faqItems = document.querySelectorAll('.faq__item')
-        faqItems.forEach(function (item) {
-          var trigger = item.querySelector('.faq__trigger')
-          var panel = item.querySelector('.faq__panel')
-          trigger.addEventListener('click', function () {
-            var isOpen = trigger.getAttribute('aria-expanded') === 'true'
-            faqItems.forEach(function (o) {
-              o.querySelector('.faq__trigger').setAttribute('aria-expanded', 'false')
-              o.querySelector('.faq__panel').classList.remove('is-open')
-            })
-            if (!isOpen) {
-              trigger.setAttribute('aria-expanded', 'true')
-              panel.classList.add('is-open')
-            }
-          })
-        })
-
-        var casesWrap = document.querySelector('.cases-wrap')
-        if (casesWrap) {
-          var track = casesWrap.querySelector('.cases')
-          var rtl = getComputedStyle(track).direction === 'rtl'
-          var step = function () {
-            var card = track.querySelector('.case-card')
-            return card ? (card.getBoundingClientRect().width + 16) * 2 : 500
-          }
-          var update = function () {
-            var max = track.scrollWidth - track.clientWidth
-            var x = Math.abs(track.scrollLeft)
-            casesWrap.classList.toggle('at-start', x <= 4)
-            casesWrap.classList.toggle('at-end', x >= max - 4)
-          }
-          casesWrap.querySelectorAll('.cases__nav').forEach(function (btn) {
-            btn.addEventListener('click', function () {
-              var dir = Number(btn.dataset.dir) * (rtl ? -1 : 1)
-              track.scrollBy({ left: dir * step(), behavior: reduce ? 'auto' : 'smooth' })
-            })
-          })
-          track.addEventListener('scroll', update, { passive: true })
-          window.addEventListener('resize', update)
-          update()
-        }
-
-        // 모바일 하단 고정 버튼은 첫 화면부터 끝까지 항상 띄운다(대표 지시 2026-11-11). 데스크톱은 style.css 가 숨긴다.
-        var stickyCta = document.querySelector('.sticky-cta')
-        if (stickyCta) stickyCta.classList.add('is-visible')
-      })()
-    </script>
+    <script type="module" src="/src/open.js"></script>
   </body>
 </html>
