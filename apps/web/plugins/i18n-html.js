@@ -203,8 +203,9 @@ export function renderLanding(baseHtml, locale, page) {
     )
   }
   html = html.replace(/<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i, `<meta property="og:image" content="${ogImageUrl(locale)}" />`)
-  // 기능 카드 앱 화면을 홈 언어판과 같은 이미지로.
-  return { html: localizeImages(html, locale), missing }
+  // 홈 언어판과 같은 이미지로: 배지 등 번역 이미지 + 4꼭지 앱 화면(그 언어 앱 UI)·히어로 코치 사진(아시아 언어 = asian 세트).
+  // localizeHomeAssets 를 빼먹으면 /open 언어판에 영어 앱 화면이 나간다(2026-11-19 일본 광고 전 발견).
+  return { html: localizeHomeAssets(localizeImages(html, locale), locale), missing }
 }
 
 /**
