@@ -37,9 +37,13 @@
       function gtag() { dataLayer.push(arguments) }
       gtag('js', new Date())
       gtag('config', 'G-4NEXM0LNTK')
+      // 디맨드젠 맞춤 목표(웹 전환)가 store_badge_click·start_free_click 둘 다 쓴다. 홈(index.html)과 같은 이벤트 이름으로 보낸다.
       addEventListener('click', function (e) {
-        var a = e.target.closest && e.target.closest('a[data-store]')
-        if (a) gtag('event', 'store_badge_click', { store: a.getAttribute('data-store'), link_location: 'w2ac_open', placement: a.getAttribute('data-placement') || 'hero' })
+        var a = e.target.closest && e.target.closest('a[data-store], a[data-cta="start-free"]')
+        if (!a) return
+        var placement = a.getAttribute('data-placement') || 'hero'
+        if (a.hasAttribute('data-store')) gtag('event', 'store_badge_click', { store: a.getAttribute('data-store'), link_location: 'w2ac_open', placement: placement })
+        else gtag('event', 'start_free_click', { link_location: 'w2ac_open', placement: placement, destination: a.getAttribute('data-destination') || 'web' })
       })
     </script>
     <style>
