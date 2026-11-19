@@ -8,6 +8,7 @@ const mqMobile = window.matchMedia('(max-width: 960px)')
 const STEP_MS = 4200 // 한 단계를 자동으로 넘기는 시간
 const DWELL_MS = 450 // 스크롤로 단계가 바뀔 때 한 단계에 머무는 최소 시간
 const scenes = [...document.querySelectorAll('[data-scene]')]
+const ctls = [] // 꼭지별 조작 손잡이(PC 휠 공통 처리용)
 
 function countUp(el) {
   const text = el.dataset.final || el.textContent
@@ -113,24 +114,13 @@ scenes.forEach((scene) => {
   window.addEventListener('resize', placeSnaps)
   const stepPos = (t) => { const { top, dist } = geom(); return top + ((t + 0.02) / K) * dist }
   const jump = (t) => { clearTimeout(dwellT); dwellT = 0; mStep = t; window.scrollTo({ top: stepPos(t), behavior: 'instant' }); setActive(t) }
-  // PC 휠: 한 동작(관성 포함, 이벤트 간격 GAP_MS 이내) = 한 단계. 단계 전환 뒤 LOCK_MS 동안은 다음 단계로 안 넘어간다.
-  const GAP_MS = 220, LOCK_MS = 750
-  let wLock = 0, wLast = 0, wEaten = false, wOutside = false
-  window.addEventListener('wheel', (e) => {
-    if (!pinned() || Math.abs(e.deltaY) < 1) return
-    const now = performance.now(), sameGesture = now - wLast < GAP_MS
-    wLast = now
-    if (!isInside()) { if (!sameGesture) wOutside = true; wEaten = false; return }
-    const dir = Math.sign(e.deltaY)
-    if (sameGesture && wOutside) { // 바깥에서 시작한 동작이 꼭지로 밀려 들어옴 → 입구 단계에 세운다
-      e.preventDefault(); wOutside = false; wEaten = true; wLock = now + LOCK_MS; jump(dir > 0 ? 0 : K - 1); return
-    }
-    if (!sameGesture) { wOutside = false; wEaten = false }
-    if (wEaten || now < wLock) { e.preventDefault(); return }
-    const t = active + dir
-    if (t < 0 || t >= K) return // 꼭지 밖으로
-    e.preventDefault(); wEaten = true; wLock = now + LOCK_MS; jump(t)
-  }, { passive: false })
+  // PC 휠은 아래 공통 처리(wheelNav)가 맡는다 — 꼭지 사이·꼭지 밖 이동까지 한 곳에서 판단해야 해서.
+  ctls.push({
+    scene, K, geom, isInside,
+    get active() { return active },
+    jump,
+    set: (t) => { clearTimeout(dwellT); dwellT = 0; mStep = t; setActive(t) },
+  })
   // 모바일 세로 스와이프: 손가락 한 번 = 한 단계. 꼭지 안에서는 페이지가 끌려가지 않게 막고, 손을 뗄 때 넘긴다.
   let tY = 0, tX = 0, tAxis = '', tOut = false, tLock = 0
   window.addEventListener('touchstart', (e) => { const p = e.touches[0]; tY = p.clientY; tX = p.clientX; tAxis = ''; tOut = !isInside() }, { passive: true })
@@ -190,3 +180,79 @@ scenes.forEach((scene) => {
   }, { passive: true })
   onScroll()
 })
+
+// ---------- PC 휠: 스크롤 한 번 = 한 칸 (2026-11-19 대표 지시) ----------
+// - 꼭지 안: 한 번에 한 단계. 앞 단계 연출이 끝나길 기다리지 않는다(잠금 STEP_LOCK_MS 만, 그 사이 들어온 스크롤은 줄 세워 바로 이어 넘김).
+// - 꼭지 끝 단계에서 한 번 더 = 다음 섹션 맨 위로 바로 이동(예전엔 고정 구간 70vh 를 빈 스크롤로 더 내려야 했다).
+//   첫 단계에서 위로 = 앞 섹션으로 바로 이동. 꼭지 바로 앞·뒤에서 꼭지 쪽으로 스크롤하면 꼭지 입구 단계로 바로 들어간다.
+// - "한 번"의 판정: 트랙패드·매직마우스는 손을 뗀 뒤에도 관성 이벤트가 1~2초 이어진다. 이벤트 간격(GAP_MS)이 벌어지거나,
+//   관성으로 줄어들던 세기가 다시 크게 커지면(새로 쓸어 올림) 새 동작으로 본다. 예전엔 관성이 이어지는 동안 새 스크롤을 전부 무시해서
+//   "여러 번 스크롤해도 안 넘어가는" 문제가 있었다.
+const GAP_MS = 160, STEP_LOCK_MS = 260
+let wLast = 0, wPeak = 0, wValley = 0, wFalling = false, wUsed = false
+let lockUntil = 0, lockT = 0, animRaf = 0, queued = 0
+const wheelIntent = (e, now) => {
+  const abs = Math.abs(e.deltaY) * (e.deltaMode === 1 ? 33 : e.deltaMode === 2 ? 600 : 1)
+  const gap = now - wLast
+  wLast = now
+  const fresh = gap > GAP_MS || (wFalling && abs >= wValley * 1.8 && abs - wValley >= 6)
+  if (fresh) { wPeak = wValley = abs; wFalling = false; wUsed = false; return true }
+  if (!wFalling) { if (abs >= wPeak) wPeak = wValley = abs; else { wFalling = true; wValley = abs } }
+  else wValley = Math.min(wValley, abs)
+  return false
+}
+const ease = (p) => (p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2)
+const animTo = (y, done) => {
+  y = Math.max(0, Math.min(y, document.documentElement.scrollHeight - window.innerHeight))
+  const y0 = window.scrollY, dy = y - y0, t0 = performance.now(), dur = Math.min(720, 420 + Math.abs(dy) * 0.2)
+  const f = (now) => {
+    const p = Math.min(1, (now - t0) / dur)
+    window.scrollTo({ top: y0 + dy * ease(p), behavior: 'instant' })
+    if (p < 1) { animRaf = requestAnimationFrame(f); return }
+    animRaf = 0
+    done?.()
+    lock(120)
+  }
+  animRaf = requestAnimationFrame(f)
+}
+const lock = (ms) => {
+  lockUntil = performance.now() + ms
+  clearTimeout(lockT)
+  lockT = setTimeout(() => { if (queued) { const d = queued; queued = 0; const act = decide(d); if (act) act() } }, ms)
+}
+// 이 방향 스크롤 한 번에 할 일. null = 브라우저 기본 스크롤에 맡김.
+const decide = (dir) => {
+  const vh = window.innerHeight
+  for (const c of ctls) {
+    if (!c.isInside()) continue
+    const t = c.active + dir
+    if (t >= 0 && t < c.K) return () => { c.jump(t); lock(STEP_LOCK_MS) }
+    const { top, dist, sh } = c.geom()
+    if (dir > 0) return () => animTo(top + c.scene.offsetHeight) // 다음 섹션 맨 위
+    const prev = c.scene.previousElementSibling
+    const prevTop = prev ? prev.getBoundingClientRect().top + window.scrollY : 0
+    const nextC = ctls.find((o) => o.scene === prev)
+    return () => animTo(Math.max(prevTop, top - sh), nextC ? () => nextC.set(nextC.K - 1) : null) // 앞 섹션(길면 그 마지막 화면)
+  }
+  for (const c of ctls) { // 꼭지 바로 앞·뒤
+    const r = c.scene.getBoundingClientRect(), { top, dist, off } = c.geom()
+    if (dir > 0 && r.top > off + 2 && r.top < vh * 0.6) return () => animTo(top, () => c.set(0))
+    if (dir < 0 && r.bottom < vh - 2 && r.bottom > vh * 0.4) return () => animTo(top + dist, () => c.set(c.K - 1))
+  }
+  return null
+}
+const wheelOn = () => !reduce && !mqMobile.matches
+window.addEventListener('wheel', (e) => {
+  if (!wheelOn() || e.ctrlKey || Math.abs(e.deltaY) < Math.abs(e.deltaX)) return
+  const now = performance.now(), fresh = wheelIntent(e, now), dir = Math.sign(e.deltaY)
+  if (!dir) return
+  if (animRaf) { e.preventDefault(); if (fresh) queued = dir; return } // 이동 중 스크롤 = 도착 뒤 한 칸 더
+  const act = decide(dir)
+  if (!act) return
+  e.preventDefault()
+  if (!fresh && wUsed) return // 이미 한 칸 넘긴 동작의 관성
+  wUsed = true
+  if (now < lockUntil) { queued = dir; return }
+  queued = 0
+  act()
+}, { passive: false })
