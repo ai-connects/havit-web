@@ -6,9 +6,35 @@ const mergedRedirects = require('./lib/merged-redirects.json');
 const BASE_PATH = '/blog';
 const SITE = `https://www.aihavit.com${BASE_PATH}`;
 
+// 빌드 ID 를 코드 내용에서 만든다(2026-11-19). 기본값은 빌드마다 무작위라 모든 페이지 HTML·RSC 파일에 박혀,
+// 글 하나만 바뀐 배포도 1만여 파일이 전부 '바뀐 것'이 됐다 → CloudFront 를 바뀐 파일만 무효화할 수 없었다
+// (apps/static-site/scripts/invalidation.mjs). 글 데이터(data/)·정적 파일(public/)은 빼고 코드·설정만 해시한다 —
+// 코드가 같으면 클라이언트 청크도 같으므로 같은 ID 가 맞다. git 이 없으면 기본(무작위)으로 둔다.
+function codeBuildId() {
+  try {
+    const { execSync } = require('node:child_process');
+    const crypto = require('node:crypto');
+    const fs = require('node:fs');
+    const path = require('node:path');
+    const files = execSync('git ls-files -z', { cwd: __dirname, encoding: 'utf8' })
+      .split('\0').filter((f) => f && !f.startsWith('data/') && !f.startsWith('public/')).sort();
+    const h = crypto.createHash('sha256');
+    for (const f of files) {
+      const full = path.join(__dirname, f);
+      if (!fs.existsSync(full)) continue;
+      h.update(f).update('\0').update(fs.readFileSync(full)).update('\0');
+    }
+    for (const k of Object.keys(process.env).filter((k) => k.startsWith('NEXT_PUBLIC_') || k === 'STATIC_EXPORT').sort()) h.update(`${k}=${process.env[k]}\0`);
+    return 'c' + h.digest('hex').slice(0, 20);
+  } catch {
+    return null;
+  }
+}
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  generateBuildId: async () => codeBuildId(),
   // 블로그를 www.aihavit.com/blog 아래로 마운트한다. www 프로젝트가 이 경로를
   // 이 배포로 rewrite(프록시)하므로 사용자에게는 www 한 호스트만 보인다.
   // _next 정적 자산도 함께 /blog 아래로 내려가 www 쪽 경로와 충돌하지 않는다.

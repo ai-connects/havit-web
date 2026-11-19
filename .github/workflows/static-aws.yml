@@ -20,6 +20,10 @@ on:
         description: '배포 명령만 출력(AWS 에 쓰지 않음)'
         type: boolean
         default: false
+      full_invalidation:
+        description: '캐시 전체 무효화(/*) — 캐시 헤더·Content-Type 규칙만 바꿔 내용은 같은 배포 등'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -90,7 +94,7 @@ jobs:
           key: static-img-v2-${{ github.run_id }}
       - name: Edge function ↔ middleware.js / next.config.js parity
         working-directory: apps/static-site
-        run: node scripts/test-edge.mjs
+        run: node scripts/test-edge.mjs && node scripts/test-invalidation.mjs
       - name: AWS credentials (OIDC)
         if: env.HAS_ROLE == 'true'
         uses: aws-actions/configure-aws-credentials@v4
@@ -100,10 +104,13 @@ jobs:
       - name: Deploy (S3 sync · KVS · function · invalidation)
         if: env.HAS_ROLE == 'true'
         working-directory: apps/static-site
+        # 무효화는 바뀐 파일만(scripts/invalidation.mjs). 상한(기본 150개)을 넘거나 엣지 함수가 바뀌면 /*.
+        env:
+          FULL_INVALIDATION: ${{ inputs.full_invalidation && '1' || '' }}
         run: node scripts/deploy.mjs --stack "$STACK" ${{ inputs.dry_run && '--dry-run' || '' }}
       # 앱 링크 확인 파일(W2AC /open) — Apple·Google 은 application/json 만 받는다. 업로드는 위 Deploy 가
       # scripts/rules.mjs 규칙(aws s3 sync --content-type application/json)으로 하고, 여기서 S3 메타데이터를 확인한다.
-      # 다르면 aws s3 cp --content-type 으로 바로잡는다(무효화는 Deploy 의 /* 가 이미 했다). 문서: docs/w2ac-open-link.md
+      # 다르면 aws s3 cp --content-type 으로 바로잡는다(바로잡은 뒤 이 단계가 /.well-known/* 를 따로 무효화한다). 문서: docs/w2ac-open-link.md
       - name: App link files content-type (.well-known)
         if: env.HAS_ROLE == 'true' && !inputs.dry_run
         run: |
