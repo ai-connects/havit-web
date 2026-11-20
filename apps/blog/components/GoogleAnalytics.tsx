@@ -1,6 +1,8 @@
 /**
  * Google Analytics 4 — cross-domain tracking enabled.
  *
+ * 동의 모드 v2: EEA·영국·스위스는 기본 거부(region 규칙), 그 밖은 허용. 저장된 동의는 CookieConsent 와 같은 키.
+ *
  * 환경 변수: NEXT_PUBLIC_GA_ID (예: G-XXXXXXXXXX)
  *   값이 없으면 렌더링 안 함 (개발 환경 안전).
  *
@@ -32,6 +34,9 @@ export default function GoogleAnalytics() {
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
+          gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied', region: ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'], wait_for_update: 500 });
+          gtag('consent', 'default', { ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted', analytics_storage: 'granted' });
+          try { if (localStorage.getItem('cookie_consent_v2') === 'granted') gtag('consent', 'update', { ad_storage: 'granted', ad_user_data: 'granted', ad_personalization: 'granted', analytics_storage: 'granted' }); } catch (e) {}
           gtag('js', new Date());
           gtag('config', '${GA_ID}', {
             page_path: window.location.pathname,
