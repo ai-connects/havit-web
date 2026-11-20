@@ -26,7 +26,13 @@ export default function CookieConsent({ lang }: { lang: LangKey }) {
   function consent(value: 'granted' | 'denied') {
     localStorage.setItem('cookie_consent_v2', value);
     setOpen(false);
-    console.log('[mock] GA4 cookie_consent', { value });
+    const v = value === 'granted' ? 'granted' : 'denied';
+    (window as unknown as { gtag?: (...a: unknown[]) => void }).gtag?.('consent', 'update', {
+      ad_storage: v,
+      ad_user_data: v,
+      ad_personalization: v,
+      analytics_storage: v,
+    });
   }
 
   if (!open) return null;
