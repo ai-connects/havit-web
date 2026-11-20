@@ -32,7 +32,7 @@ const EDGE_ONLY = process.argv.includes('--edge-only')
 // 11/7 전환 뒤 블로그 페이지에 GA4 태그가 없어 GA 블로그 방문이 0 으로 떨어졌다(11/9 발견).
 // 버셀 aihavit-blog 의 production env 전체: NEXT_PUBLIC_GA_ID, NEXT_PUBLIC_BLOG_AUTHORITY_FULL(코드에서 안 읽음).
 // havit-website 는 env 없음. 값은 페이지 HTML 에 그대로 나가는 공개 ID 라 여기 적는다(밖에서 주면 그 값이 이긴다).
-const PUBLIC_ENV = { NEXT_PUBLIC_GA_ID: 'G-4NEXM0LNTK' }
+const PUBLIC_ENV = { NEXT_PUBLIC_GA_ID: 'G-4NEXM0LNTK', NEXT_PUBLIC_META_PIXEL_ID: '1621011252762843' }
 for (const [k, v] of Object.entries(PUBLIC_ENV)) process.env[k] ??= v
 
 const t0 = Date.now()

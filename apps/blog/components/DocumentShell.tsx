@@ -1,5 +1,6 @@
 import CookieConsent from '@/components/CookieConsent';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import MetaPixel from '@/components/MetaPixel';
 
 /** <html>/<body> 골격. app/layout.tsx 주석 참조 — 언어별 lang 을 넣으려고 루트에서 내렸다. */
 export default function DocumentShell({ lang, children }: { lang: string; children: React.ReactNode }) {
@@ -13,6 +14,7 @@ export default function DocumentShell({ lang, children }: { lang: string; childr
       </head>
       <body>
         <GoogleAnalytics />
+        <MetaPixel />
         {children}
         <CookieConsent lang="en_us" />
       </body>
