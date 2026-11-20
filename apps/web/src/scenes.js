@@ -99,19 +99,7 @@ scenes.forEach((scene) => {
     mStep = Math.min(K - 1, Math.floor(progress()))
     goTo(mStep)
   }
-  // 스냅 지점: 단계마다 하나 + 꼭지 끝 하나(모바일 관성 스크롤이 꼭지 입구에서 멈추게).
-  const snaps = Array.from({ length: K + 1 }, () => { const m = document.createElement('i'); m.className = 'scene__snap'; m.setAttribute('aria-hidden', 'true'); scene.append(m); return m })
-  const placeSnaps = () => {
-    if (!pinned()) { snaps.forEach((m) => (m.style.display = 'none')); return }
-    const { dist, off } = geom()
-    snaps.forEach((m, i) => {
-      m.style.display = ''
-      m.style.top = (i < K ? ((i + 0.02) / K) * dist : scene.offsetHeight) + 'px'
-      m.style.scrollMarginTop = off + 'px'
-    })
-  }
-  placeSnaps()
-  window.addEventListener('resize', placeSnaps)
+  // 모바일 CSS 스크롤 스냅은 쓰지 않는다 — iOS Safari 에서 손을 떼면 스냅 지점으로 되돌아가 아래로 안 내려가는 문제(11/20). 단계 넘김은 아래 터치 처리가 맡는다.
   const stepPos = (t) => { const { top, dist } = geom(); return top + ((t + 0.02) / K) * dist }
   const jump = (t) => { clearTimeout(dwellT); dwellT = 0; mStep = t; window.scrollTo({ top: stepPos(t), behavior: 'instant' }); setActive(t) }
   // PC 휠은 아래 공통 처리(wheelNav)가 맡는다 — 꼭지 사이·꼭지 밖 이동까지 한 곳에서 판단해야 해서.
