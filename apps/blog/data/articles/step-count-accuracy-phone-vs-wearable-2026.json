@@ -1040,109 +1040,109 @@
       "last_updated": "2026-11-17"
     },
     "de": {
-      "title": "Smartphone vs. Wearable beim Schrittzählen: Welches Gerät liegt 2026 wirklich richtig?",
-      "short_title": "Schrittzähler: Smartphone oder Wearable genauer?",
+      "title": "Schrittzähler: Zählt das Handy oder die Fitnessuhr genauer?",
+      "short_title": "Handy oder Fitnessuhr?",
       "short_description": "Handgelenk-Wearables liegen bei der Schrittgenauigkeit 3–12 % vor dem Smartphone. Was die Studien zeigen und wo das Handy am besten sitzt.",
-      "meta_description": "Neue Validierungsstudien zeigen überraschende Genauigkeitsunterschiede zwischen Smartphone- und Wearable-Schrittzählern. Sehen Sie die Daten, welches Gerät Ihre Schritte am besten erfasst.",
-      "tldr": "Wearables zählen in kontrollierten Tests gut, weichen im Alltag aber ab; das Smartphone funktioniert am besten in der Vordertasche; die Platzierung zählt mehr als der Preis.",
-      "body_md": "## Als ich 10.000 Schritte ging (oder etwa nicht?)\n\nWer nach einem langen Spaziergang auf das Handy schaut, sieht vielleicht 9.847 Schritte. Die Uhr zeigt dann womöglich 10.312, und das Fitnessarmband einer Freundin behauptet 10.089. Derselbe Spaziergang. Dieselben Beine. Drei verschiedene Zahlen.\n\nDas ist nicht nur nervig – es ist wichtig. Schrittzahlen beeinflussen alles von Versicherungsrabatten bis hin zu klinischen Rehabilitationsprotokollen. Wenn ein Herz-Reha-Programm Ihnen sagt, Sie sollen täglich 6.000 Schritte erreichen, welchem Gerät sollten Sie vertrauen?\n\nForscher stellen sich dieselbe Frage. Und die Antworten aus einem Jahrzehnt Validierungsstudien sind recht klar.\n\n## Wo Ihr Gerät sitzt, verändert alles\n\nDer größte Faktor für die Genauigkeit beim Schrittzählen ist nicht die Marke oder der Preis. Es ist die Platzierung.\n\nValidierungsstudien zeigen insgesamt, dass am Rumpf getragene Geräte in der Regel genauer zählen als am Handgelenk getragene, während lose getragene Smartphones weniger konsistent sind.\n\nWarum eine solche Spanne? Ihre Hüfte bewegt sich mit jedem Schritt in einem vorhersehbaren Bogen – eine saubere Schwingung pro Schritt. Ihr Handgelenk schwingt, rotiert und kratzt gelegentlich Ihre Nase. Gesäßtaschen erfahren verzögerte Bewegungsübertragung durch Kleidung und Körpergewebe.\n\nVordere Hosentaschen schnitten überraschend gut ab; in einer kleinen Laufbandstudie waren Smartphone-Apps in der Tasche etwa so genau wie mehrere Wearables. Das Telefon sitzt näher an Ihrem Massenschwerpunkt und erfasst dieses hüftähnliche Bewegungsmuster. Wenn Sie nur mit dem Handy tracken, hilft diese einzige Gewohnheitsänderung – Vordertasche statt Gesäßtasche – wahrscheinlich, Zählfehler zu verringern.\n\n## Das Algorithmen-Wettrüsten\n\nRohe Beschleunigungsdaten bedeuten ohne Software zur Interpretation nichts. Und hier unterscheiden sich die Hersteller dramatisch.\n\nSmartphone-Hersteller verwenden proprietäre Algorithmen, die die Schrittfrequenz analysieren und Autovibrationen, Tippbewegungen und das herausfiltern, was Sie tun, wenn Sie in Meetings nervös mit dem Bein wippen.\n\nDie Plattformen gehen unterschiedliche Kompromisse ein, sodass Telefone sich uneinig sein können, besonders während sitzender Phasen.\n\nWearable-Hersteller stehen vor anderen Einschränkungen. Fitbit- und Garmin-Geräte müssen Genauigkeit gegen Akkulaufzeit abwägen – anspruchsvollere Algorithmen verbrauchen schneller Energie. Garmins neuere Forerunner-Modelle lassen Nutzer zwischen „Ganztags\"-Modus (leichtere Verarbeitung) und „Aktivitäts\"-Modus (intensivere Verarbeitung) wählen.\n\nDie Uhr an Ihrem Handgelenk trifft jede Stunde Tausende winziger Entscheidungen. Ist dieser Armschwung ein Schritt oder eine Geste? Sind Sie gerade Treppen gestiegen oder haben die Hand gehoben? Diese Entscheidungen summieren sich.\n\n## Genauigkeit in der Praxis: Labor vs. Ihr tatsächliches Leben\n\nLaborstudien verwenden Laufbänder, kontrollierte Geschwindigkeiten und forschungsgerechte Videoverifizierung. Ihr Leben umfasst Einkaufswagen, Kinderwagen, unebene Gehwege und diesen unbeholfenen Shuffle-Gang, den Sie machen, wenn Sie zu spät dran sind.\n\nDie Laborgenauigkeit überträgt sich nicht vollständig auf den Alltag: Fitbits zählten im Labor tendenziell zu wenig und im Alltag zu viel.\n\nEinkaufen stellt eine besondere Herausforderung dar. Das Schieben eines Wagens immobilisiert Ihre Arme und eliminiert den Schwung, auf den Handgelenk-Beschleunigungssensoren angewiesen sind. Handgelenk-Geräte können beim wagengestützten Gehen deutlich unterzählen. Telefone in Taschen behielten ihre übliche Genauigkeit – Ihre Hüften kümmern sich nicht darum, was Ihre Hände tun.\n\nGehgeschwindigkeit spielt ebenfalls eine Rolle. Bei langsamem Tempo haben die meisten Geräte Schwierigkeiten. Die Schrittsignatur wird mehrdeutig und vermischt sich mit Schlurfen, Gewichtsverlagerungen im Stehen und langsamen Browsing-Bewegungen. Die Genauigkeit sinkt bei diesen Geschwindigkeiten. Bei zügigem Tempo funktionieren Geräte in der Regel gut – schnelles Gehen erzeugt unverwechselbare Beschleunigungsmuster.\n\n## Die überraschende Wahrheit über günstige Fitnessbänder\n\nSie könnten annehmen, teure Geräte zählen besser. Die Daten sagen etwas anderes.\n\nSystematische Übersichtsarbeiten zeigen, dass viele handelsübliche Wearables Schritte im Labor recht genau messen; der Preis ist dabei kein verlässlicher Maßstab.\n\nFirmware-Updates können verändern, wie ein Gerät Bewegungen interpretiert. Hersteller verfeinern ihre Algorithmen kontinuierlich, daher lohnt es sich, Geräte aktuell zu halten.\n\nDie Lektion: Ein günstiges Band mit aktueller Software kann mit einer teuren Uhr durchaus mithalten. Überprüfen Sie Ihre Geräteeinstellungen. Diese Update-Benachrichtigung, die Sie ignoriert haben, könnte sich lohnen.\n\n## Wenn Smartphones tatsächlich Wearables schlagen\n\nHandgelenk-Geräte zählen im Alltag oft gut, aber Telefone erringen spezifische Siege.\n\nBei Oberkörper-Aktivitäten – Kisten tragen, Rasenmäher schieben, bestimmte Fitnessübungen – erzeugen Handgelenk-Beschleunigungssensoren Fehlalarme. Ihre Arme bewegen sich, ohne dass sich Ihre Füße bewegen. Telefone in Taschen bleiben von Armbewegungen unbeeinflusst und wahren die Schrittzahl-Integrität bei diesen Aktivitäten.\n\nSchwimmen und Wasseraktivitäten schaffen einen weiteren Telefon-Vorteil (vorausgesetzt wasserdichte Hüllen). Am Handgelenk getragene Geräte interpretieren Armbewegungen oft fälschlicherweise als Schritte. Manche addieren Phantomschritte während des Schwimmens. Telefone, sicher am Beckenrand oder in wasserdichten Beuteln aufbewahrt, zeichnen null auf – was korrekt ist.\n\nFür Menschen mit unregelmäßigem Gang aufgrund von Verletzungen, neurologischen Erkrankungen oder Gehhilfen wird das Bild kompliziert. Handgelenk-Geräte, die auf typische Gehmuster trainiert sind, könnten atypische Schritte als Rauschen ablehnen. Telefone mit ihrer einfacheren schwellenwertbasierten Erkennung funktionieren manchmal besser bei asymmetrischen oder ungewöhnlichen Gangarten. Die Forschung hier bleibt begrenzt, aber frühe Studien legen nahe, dass die Gerätewahl für diese Bevölkerungsgruppen personalisiert werden sollte.\n\n## Multi-Geräte-Fusion: Das Beste aus beiden Welten\n\nSowohl ein Telefon als auch eine Uhr zu tragen, schafft eine Gelegenheit, die die meisten Menschen verschwenden. Jedes Gerät zählt unabhängig, und die meisten Gesundheitsplattformen wählen einfach eine Quelle.\n\nApple Health und Google Fit bieten jetzt Datenfusions-Optionen, die Eingaben intelligent kombinieren. Wenn Ihre Uhr Schritte erkennt, Ihr Telefon aber nicht (Armbewegung ohne Gehen), kann das System gegenchecken und Fehlalarme ablehnen. Wenn Ihr Telefon Schritte erkennt, Ihre Uhr aber nicht (Wagen schieben), kann das System die Zählung des Telefons akzeptieren.\n\nDas Kombinieren von Quellen kann prinzipiell die blinden Flecken einzelner Geräte ausgleichen. Der Haken ist die Setup-Komplexität – Sie müssen die richtigen Berechtigungen aktivieren und den Fusionsmodus in Ihren Gesundheits-App-Einstellungen auswählen. Die meisten Nutzer finden diese Optionen nie.\n\nWenn Sie ohnehin beide Geräte tragen, könnten fünf Minuten in Ihren Einstellungen Ihre Schrittzählung verbessern. Kein zusätzlicher Kauf erforderlich.\n\n## Was tatsächlich für Ihre Gesundheit zählt\n\nHier ist die unbequeme Wahrheit: Die Genauigkeitsunterschiede, die wir besprochen haben, beeinflussen wahrscheinlich nicht Ihre Gesundheitsergebnisse.\n\nEine Meta-Analyse von 15 Kohorten fand, dass mehr tägliche Schritte mit zunehmend niedrigerer Sterblichkeit einhergehen, mit einem Plateau bei etwa 6.000-8.000 Schritten (ab 60 Jahren) bzw. 8.000-10.000 Schritten (unter 60 Jahren) pro Tag. Kleine Zählabweichungen Ihres Geräts ändern an diesem Gesamtbild wenig. Das Signal, das zählt, ist die Trendrichtung, nicht die Dezimalpräzision.\n\nWo Genauigkeit wichtig ist: klinische Einstellungen, Forschungsteilnahme und Versicherungsverifizierung. Wenn Ihre Schrittzahl Ihren Prämienrabatt oder Ihren Herz-Reha-Fortschritt bestimmt, wird die Gerätewahl folgenreich. Für alle anderen zählt Konsistenz mehr als Genauigkeit. Wählen Sie ein Gerät, bleiben Sie dabei und verfolgen Sie Ihre Trends.\n\nDer beste Schrittzähler ist der, den Sie tatsächlich tragen werden.\n\n## Ihre Wahl treffen in 2026\n\nWenn Sie maximale Genauigkeit wollen und nichts dagegen haben, etwas am Handgelenk zu tragen, zählen moderne Fitness-Uhren und -Bänder unter normalen Bedingungen in der Regel gut. Halten Sie die Firmware aktuell. Verwenden Sie den Aktivitätsmodus während gezieltem Training.\n\nWenn Sie nur mit dem Telefon tracken möchten, verpflichten Sie sich zur Vordertaschen-Platzierung. Das ist nah genug für praktische Zwecke. Vermeiden Sie Gesäßtaschen und Taschen.\n\nWenn Sie bereits beides tragen, aktivieren Sie die Datenfusion in Ihren Gesundheitsplattform-Einstellungen. Sie können die blinden Flecken einzelner Geräte ausgleichen, ohne etwas Neues zu kaufen.\n\nUnd wenn Sie einen Einkaufswagen schieben, ein Kleinkind tragen oder irgendetwas tun, das Ihre Arme immobilisiert? Ihr Telefon gewinnt diese Runde, ohne Frage.",
+      "meta_description": "Handy in der Hosentasche oder Fitnessuhr: Was Studien über die Genauigkeit beim Schrittzählen zeigen und worauf es im Alltag ankommt.",
+      "tldr": "Fitnessuhren zählen im Labor meist recht genau, im Alltag weichen sie stärker ab. Das Handy zählt am zuverlässigsten in der vorderen Hosentasche. Wo ein Gerät getragen wird, wirkt sich stärker aus als sein Preis.",
+      "body_md": "## Drei Geräte, drei Schrittzahlen\n\nNach dem Sonntagsspaziergang zeigt das Handy 9.847 Schritte an. Die Uhr meldet 10.312, das Fitnessarmband der Freundin 10.089. Gleiche Strecke, gleiche Beine.\n\nÄrgerlich ist das allemal. Es hat auch praktische Folgen, denn Schrittzahlen fließen in die Bonusprogramme mancher Krankenkassen ein und spielen in Reha-Plänen eine Rolle. Soll jemand in der Herz-Reha täglich 6.000 Schritte schaffen, möchte er sich auf die Anzeige verlassen können.\n\nSeit gut einem Jahrzehnt prüfen Forschende in Validierungsstudien, wie nah Smartphones und Wearables an der tatsächlichen Schrittzahl liegen.\n\n## Der Tragort entscheidet\n\nWie genau ein Gerät zählt, hängt vor allem davon ab, wo es sitzt. Marke und Preis treten dahinter zurück. Geräte am Rumpf zählen in Studien insgesamt meist genauer als solche am Handgelenk, lose mitgeführte Smartphones liefern weniger einheitliche Werte.\n\nDer Grund liegt in der Bewegung selbst. Die Hüfte beschreibt bei jedem Schritt einen gleichmäßigen Bogen, also eine saubere Schwingung pro Schritt. Das Handgelenk schwingt dagegen mit, dreht sich und greift zwischendurch nach der Kaffeetasse. In der Gesäßtasche kommt die Bewegung nur verzögert an, weil Stoff und Körpergewebe sie abfedern.\n\nErstaunlich gut schnitt die vordere Hosentasche ab. In einer kleinen Laufbandstudie waren Smartphone-Apps dort etwa so genau wie mehrere Wearables. Das Telefon sitzt näher am Körperschwerpunkt und erfasst so ein ähnliches Bewegungsmuster wie an der Hüfte. Wer nur mit dem Handy zählt, kann Zählfehler deshalb wahrscheinlich schon verringern, indem er es vorn statt hinten einsteckt.\n\n## Was die Software aus den Rohdaten macht\n\nEin Beschleunigungssensor liefert zunächst nur Messwerte. Schritte werden daraus erst durch die Software, und an dieser Stelle gehen die Hersteller sehr unterschiedliche Wege.\n\nSmartphone-Hersteller setzen eigene Algorithmen ein, die die Schrittfrequenz auswerten. Sie sollen etwa Erschütterungen bei der Autofahrt oder das nervöse Fußwippen in der Besprechung herausfiltern. Ob iPhone oder Samsung-Handy, jede Plattform geht dabei eigene Kompromisse ein. Gerade in Sitzphasen kommen zwei Telefone deshalb oft zu unterschiedlichen Ergebnissen.\n\nBei Wearables spielt zusätzlich der Akku mit. Fitbit und Garmin müssen Genauigkeit gegen Laufzeit abwägen, denn aufwendigere Algorithmen verbrauchen mehr Strom. Bei neueren Garmin-Forerunner-Modellen lässt sich deshalb zwischen einem Ganztagsmodus mit leichterer Verarbeitung und einem Aktivitätsmodus mit intensiverer Verarbeitung wählen.\n\nDie Uhr am Handgelenk trifft jede Stunde Tausende winziger Entscheidungen. War das ein Schritt oder nur eine Geste? Aus vielen solchen Urteilen setzt sich am Abend die Tageszahl zusammen.\n\n## Labor und Alltag sind zweierlei\n\nIm Labor gehen Testpersonen auf dem Laufband, in festem Tempo und zur Kontrolle gefilmt. Draußen warten Kopfsteinpflaster und der hastige Trippelschritt, wenn die S-Bahn schon einfährt.\n\nWas im Labor funktioniert, gilt draußen deshalb nicht automatisch. Fitbit-Geräte etwa zählten im Labor eher zu wenig, im Alltag eher zu viel.\n\nBeim Einkaufen zeigt sich das besonders deutlich. Wer den Wagen durch den Supermarkt schiebt, hält die Arme still, und genau dieser Armschwung fehlt den Sensoren am Handgelenk. Sie können hier deutlich zu wenig zählen. Das Handy in der Hosentasche zählte so zuverlässig wie sonst auch, weil sich die Hüfte unabhängig von den Händen bewegt.\n\nAuch das Tempo wirkt sich aus. Bei langsamem Gehen tun sich die meisten Geräte schwer, denn die Schritte heben sich kaum noch vom Schlurfen oder vom Hin und Her beim Bummeln durch die Läden ab. Die Genauigkeit sinkt dann spürbar. Zügiges Gehen erzeugt dagegen eindeutige Beschleunigungsmuster, die Zählung klappt in der Regel gut.\n\n## Günstige Fitnessbänder im Vergleich\n\nTeurer gleich genauer? So einfach ist es nicht. Systematische Übersichtsarbeiten kommen zu dem Ergebnis, dass viele handelsübliche Wearables Schritte im Labor recht genau erfassen. Am Preis lässt sich die Genauigkeit nicht zuverlässig ablesen.\n\nFirmware-Updates können verändern, wie ein Gerät Bewegungen deutet, da die Hersteller ihre Algorithmen laufend überarbeiten. Ein günstiges Armband mit aktueller Software kann daher durchaus mit einer teuren Uhr mithalten. Die seit Wochen aufgeschobene Update-Meldung einzuspielen, ist also keine schlechte Idee.\n\n## Wo das Handy im Vorteil sein kann\n\nIm Alltag zählen Geräte am Handgelenk oft ordentlich. In einigen Situationen schneidet das Telefon nach den bisherigen Daten trotzdem besser ab.\n\nEtwa wenn vor allem der Oberkörper arbeitet, beim Kistenschleppen im Keller oder bei manchen Kraftübungen. Die Arme bewegen sich, die Füße stehen still, und der Sensor am Handgelenk meldet trotzdem Schritte. Das Handy in der Tasche bekommt davon nichts mit.\n\nÄhnlich im Schwimmbad. Uhren deuten Armzüge mitunter als Schritte, manche verbuchen beim Schwimmen regelrechte Phantomschritte. Ein Handy im Spind oder in einer wasserdichten Hülle am Beckenrand zeigt null an, und das stimmt dann auch.\n\nUnübersichtlicher wird es bei einem unregelmäßigen Gangbild, etwa nach einer Verletzung oder beim Gehen mit Rollator. Auch neurologische Erkrankungen können die Schritte verändern. Handgelenkgeräte, die auf typische Gehmuster trainiert sind, verwerfen untypische Schritte womöglich als Störsignal. Telefone arbeiten mit einer einfacheren, schwellenwertbasierten Erkennung und erfassen asymmetrische oder ungewöhnliche Gangarten manchmal besser. Die Forschung dazu ist noch dünn. Erste Studien sprechen dafür, das Gerät in solchen Fällen individuell auszuwählen.\n\n## Handy und Uhr gemeinsam nutzen\n\nWer Telefon und Uhr trägt, verschenkt häufig Potenzial. Beide zählen unabhängig voneinander, und die meisten Gesundheitsplattformen übernehmen schlicht eine der beiden Quellen.\n\nApple Health und Google Fit bieten inzwischen Möglichkeiten, die Daten zu kombinieren. Erkennt die Uhr Schritte, das Handy aber nicht, weil sich nur der Arm bewegt hat, kann das System die Werte abgleichen und Fehlzählungen verwerfen. Beim Schieben des Einkaufswagens ist es umgekehrt, dann kann es die Zahl des Handys übernehmen.\n\nGrundsätzlich lassen sich so die blinden Flecken einzelner Geräte ausgleichen. Dafür braucht es allerdings die passenden Berechtigungen und die richtige Einstellung in der Gesundheits-App, und die finden die meisten Nutzer nie. Mit fünf Minuten in den Einstellungen ist es meist getan, ein neues Gerät braucht man dafür nicht.\n\n## Was für die Gesundheit wirklich zählt\n\nDie beschriebenen Unterschiede in der Genauigkeit wirken sich vermutlich kaum darauf aus, wie gesund jemand ist.\n\nEine Metaanalyse von 15 Kohorten fand, dass mehr tägliche Schritte mit einer zunehmend niedrigeren Sterblichkeit einhergehen. Ab etwa 6.000 bis 8.000 Schritten am Tag (ab 60 Jahren) beziehungsweise 8.000 bis 10.000 Schritten (unter 60 Jahren) flachte dieser Zusammenhang ab. Ein paar Schritte mehr oder weniger auf dem Display ändern an diesem Gesamtbild wenig. Aussagekräftig ist vor allem die Entwicklung über Wochen. Die Leitlinien der WHO zur körperlichen Aktivität geben ihre Empfehlungen übrigens in Minuten pro Woche an und nennen gar keine Schrittzahl.\n\nPräzise Zahlen braucht es vor allem in Klinik und Forschung und überall dort, wo Schritte nachgewiesen werden. Hängt ein Kassenbonus oder der Fortschritt in der Herz-Reha daran, spielt die Wahl des Geräts eine größere Rolle. Im Alltag ist Beständigkeit wichtiger als Genauigkeit. Wer bei einem Gerät bleibt und den Verlauf beobachtet, erfährt mehr als jemand, der ständig wechselt. Und der beste Schrittzähler ist ohnehin der, den man tatsächlich trägt.\n\n## Welches Gerät zu wem passt\n\nWer möglichst genau zählen möchte und gern etwas am Handgelenk trägt, ist mit aktuellen Fitnessuhren und -armbändern unter normalen Bedingungen meist gut bedient. Hilfreich sind eine aktuelle Firmware und der Aktivitätsmodus beim gezielten Training.\n\nWer nur mit dem Handy zählt, steckt es am besten in die vordere Hosentasche. Für den Alltag ist das genau genug. Gesäßtasche und Handtasche eignen sich weniger.\n\nSind beide Geräte ohnehin im Einsatz, bietet sich die Datenkombination in der Gesundheits-App an.\n\nMit dem Einkaufswagen im Supermarkt oder dem Kleinkind auf dem Arm liegt das Handy in der Hosentasche meist vorn.",
       "key_stats": [
         {
-          "label": "Tägliche Schritte, ab denen die Sterblichkeit abflacht (ab 60 Jahren)",
-          "value": "6.000-8.000",
+          "label": "Tägliche Schritte, ab denen der Rückgang der Sterblichkeit abflacht (ab 60 Jahren)",
+          "value": "6.000–8.000",
           "source": "The Lancet Public Health, 2022"
         },
         {
-          "label": "Tägliche Schritte, ab denen die Sterblichkeit abflacht (unter 60 Jahren)",
-          "value": "8.000-10.000",
+          "label": "Tägliche Schritte, ab denen der Rückgang der Sterblichkeit abflacht (unter 60 Jahren)",
+          "value": "8.000–10.000",
           "source": "The Lancet Public Health, 2022"
         },
         {
-          "label": "Einfluss der Platzierung",
-          "value": "Rumpf meist genauer als Handgelenk",
+          "label": "Einfluss des Tragorts",
+          "value": "Am Rumpf meist genauer als am Handgelenk",
           "source": "JMIR mHealth and uHealth, 2018"
         },
         {
           "label": "Fehlermuster bei Fitbit-Geräten",
-          "value": "Labor: Unterzählung, Alltag: Überzählung",
+          "value": "Labor: zu wenig gezählt, Alltag: zu viel gezählt",
           "source": "JMIR mHealth and uHealth, 2018"
         },
         {
-          "label": "Smartphone-Apps vs. Wearables (Laufbandstudie)",
-          "value": "Vergleichbar genau",
+          "label": "Smartphone-Apps im Vergleich zu Wearables (Laufbandstudie)",
+          "value": "Ähnlich genau",
           "source": "JAMA, 2015"
         }
       ],
       "comparison_table": {
-        "title": "Schrittzähl-Genauigkeit nach Gerätetyp und Platzierung",
+        "title": "Genauigkeit beim Schrittzählen nach Gerät und Tragort",
         "headers": [
-          "Gerät/Platzierung",
-          "Kontrollierte Genauigkeit",
-          "Alltagsgenauigkeit",
-          "Bester Anwendungsfall"
+          "Gerät/Tragort",
+          "Genauigkeit unter Laborbedingungen",
+          "Genauigkeit im Alltag",
+          "Geeignet für"
         ],
         "rows": [
           [
-            "Handgelenk-Wearable (Aktivitätsmodus)",
+            "Wearable am Handgelenk (Aktivitätsmodus)",
             "Gut",
-            "Mäßig bis gut",
-            "Allgemeines tägliches Tracking"
+            "Mittel bis gut",
+            "Tägliches Zählen allgemein"
           ],
           [
-            "Handgelenk-Wearable (Ganztags-Modus)",
-            "Mäßig bis gut",
-            "Mäßig",
-            "Nutzer mit Akku-Priorität"
+            "Wearable am Handgelenk (Ganztagsmodus)",
+            "Mittel bis gut",
+            "Mittel",
+            "Wer Wert auf lange Akkulaufzeit legt"
           ],
           [
-            "Telefon (Vordertasche)",
+            "Handy (vordere Hosentasche)",
             "Gut",
-            "Mäßig bis gut",
-            "Nur-Telefon-Tracker"
+            "Mittel bis gut",
+            "Wer nur mit dem Handy zählt"
           ],
           [
-            "Telefon (Gesäßtasche)",
-            "Mäßig",
-            "Mäßig bis schwach",
-            "Nicht empfohlen"
+            "Handy (Gesäßtasche)",
+            "Mittel",
+            "Mittel bis schwach",
+            "Weniger geeignet"
           ],
           [
-            "Telefon + Uhr Fusion",
+            "Handy und Uhr kombiniert",
             "Potenziell sehr gut",
             "Gut",
-            "Maximale Genauigkeitssuchende"
+            "Wer möglichst genau zählen möchte"
           ]
         ],
-        "caption": "Qualitative Einschätzung basierend auf veröffentlichter Validierungsforschung"
+        "caption": "Qualitative Einschätzung auf Grundlage veröffentlichter Validierungsstudien"
       },
       "faq": [
         {
-          "question": "Warum zeigt mein Telefon andere Schritte als meine Fitness-Uhr?",
-          "answer": "Beschleunigungssensor-Platzierung und Algorithmus-Unterschiede verursachen die Lücke. Ihr Handgelenk bewegt sich anders als Ihre Hüfte, und jedes Gerät verwendet proprietäre Software zur Interpretation von Bewegungsdaten. Unterschiede zwischen Geräten sind normal und zu erwarten."
+          "question": "Warum zeigt mein Handy andere Schritte an als meine Fitnessuhr?",
+          "answer": "Das liegt am Tragort des Sensors und an der Software. Das Handgelenk bewegt sich anders als die Hüfte, und jeder Hersteller deutet die Bewegungsdaten mit eigenen Algorithmen. Abweichungen zwischen zwei Geräten sind daher normal."
         },
         {
-          "question": "In welcher Tasche sollte ich mein Telefon für genaues Schrittzählen aufbewahren?",
-          "answer": "Die vordere Hosentasche funktioniert gut. Gesäßtaschen schneiden schlechter ab, weil Bewegung weniger direkt durch Kleidung und Körpergewebe übertragen wird. Taschen und Handtaschen schneiden noch schlechter ab aufgrund unabhängiger Schwingbewegung."
+          "question": "In welcher Tasche zählt das Handy am genauesten?",
+          "answer": "In der vorderen Hosentasche. In der Gesäßtasche kommt die Bewegung durch Stoff und Körpergewebe weniger direkt an. In Hand- oder Umhängetaschen schneidet das Handy noch schlechter ab, weil die Tasche eigenständig mitschwingt."
         },
         {
-          "question": "Zählen teure Fitness-Tracker Schritte genauer als günstige?",
-          "answer": "Der Preis ist kein verlässlicher Maßstab für die Genauigkeit. Firmware-Updates können verändern, wie ein Gerät Bewegungen interpretiert – halten Sie Ihr Gerät aktuell."
+          "question": "Zählen teure Fitness-Tracker genauer als günstige?",
+          "answer": "Am Preis lässt sich die Genauigkeit nicht zuverlässig ablesen. Firmware-Updates können verändern, wie ein Gerät Bewegungen deutet, deshalb sollte die Software aktuell sein."
         },
         {
-          "question": "Warum scheint meine Schrittzahl falsch, wenn ich einen Einkaufswagen schiebe?",
-          "answer": "Am Handgelenk getragene Geräte sind auf Armschwung angewiesen, um Schritte zu erkennen. Wenn Ihre Hände einen Wagen greifen, verschwindet dieser Schwung, was zu deutlichen Unterzählungen führen kann. Telefone in Taschen behalten die Genauigkeit, da sie Hüftbewegung statt dessen erfassen."
+          "question": "Warum stimmt die Schrittzahl nicht, wenn ich einen Einkaufswagen schiebe?",
+          "answer": "Geräte am Handgelenk erkennen Schritte vor allem am Armschwung. Halten die Hände den Wagen fest, fällt dieser Schwung weg, und es werden womöglich deutlich zu wenige Schritte gezählt. Ein Handy in der Hosentasche erfasst die Bewegung der Hüfte und zählt weiter wie gewohnt."
         },
         {
-          "question": "Kann ich meine Telefon- und Uhr-Daten für bessere Genauigkeit kombinieren?",
-          "answer": "Ja. Apple Health und Google Fit bieten Datenfusions-Optionen, die beide Geräte gegenprüfen, Fehlalarme ablehnen und Schritte erfassen, die eines der Geräte verpassen könnte. Dies kann prinzipiell die blinden Flecken einzelner Geräte ausgleichen, erfordert aber das Aktivieren spezifischer Einstellungen in Ihrer Gesundheits-App."
+          "question": "Kann ich die Daten von Handy und Uhr kombinieren?",
+          "answer": "Ja. Apple Health und Google Fit bieten Möglichkeiten, die Werte beider Geräte abzugleichen, Fehlzählungen zu verwerfen und Schritte zu ergänzen, die ein Gerät verpasst hat. So lassen sich die Schwächen einzelner Geräte grundsätzlich ausgleichen. Dazu müssen in der Gesundheits-App allerdings bestimmte Einstellungen aktiviert werden."
         },
         {
-          "question": "Bei welcher Gehgeschwindigkeit werden Schrittzähler ungenau?",
-          "answer": "Bei langsamem Tempo haben die meisten Geräte Schwierigkeiten, Schritte von Schlurfen oder Stehbewegungen zu unterscheiden. Die Genauigkeit sinkt bei langsamen Geschwindigkeiten. Bei zügigem Tempo funktionieren Geräte in der Regel gut, weil schnelles Gehen unverwechselbare Beschleunigungsmuster erzeugt."
+          "question": "Ab welchem Gehtempo werden Schrittzähler ungenau?",
+          "answer": "Bei langsamem Gehen können die meisten Geräte Schritte schlecht von Schlurfen oder Bewegungen im Stehen unterscheiden, die Genauigkeit sinkt. Bei zügigem Tempo zählen sie in der Regel gut, weil schnelles Gehen eindeutige Beschleunigungsmuster erzeugt."
         },
         {
-          "question": "Ist Schrittzähl-Genauigkeit wirklich wichtig für Gesundheitsvorteile?",
-          "answer": "Mehr tägliche Schritte gehen mit niedrigerer Sterblichkeit einher, mit einem Plateau bei etwa 6.000-8.000 Schritten (ab 60 Jahren) bzw. 8.000-10.000 Schritten (unter 60 Jahren) – kleine Zählfehler ändern daran wenig. Genauigkeit wird hauptsächlich wichtig für klinische Protokolle, Forschung oder Versicherungsverifizierung."
+          "question": "Spielt die Genauigkeit für die Gesundheit überhaupt eine Rolle?",
+          "answer": "Mehr tägliche Schritte gehen mit einer niedrigeren Sterblichkeit einher. Der Zusammenhang flacht bei etwa 6.000 bis 8.000 Schritten (ab 60 Jahren) beziehungsweise 8.000 bis 10.000 Schritten (unter 60 Jahren) ab. Kleine Zählfehler ändern daran wenig. Wichtig wird die Genauigkeit vor allem in Klinik, Forschung oder wenn Schritte etwa für ein Bonusprogramm nachgewiesen werden."
         }
       ],
       "references": [
@@ -1165,9 +1165,14 @@
           "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts",
           "source": "The Lancet Public Health, 2022",
           "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+        },
+        {
+          "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+          "source": "British Journal of Sports Medicine, 2020",
+          "url": "https://doi.org/10.1136/bjsports-2020-102955"
         }
       ],
-      "last_updated": "2026-11-17"
+      "last_updated": "2026-11-21"
     },
     "fr": {
       "title": "Téléphone vs. Appareil Portable : Lequel Compte Vraiment Vos Pas en 2026 ?",
@@ -1305,5 +1310,5 @@
     "naturalness_pass": 1,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-18T00:00:00.000Z"
+  "updated_at": "2026-11-21T00:00:00.000Z"
 }
