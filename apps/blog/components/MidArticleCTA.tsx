@@ -65,7 +65,7 @@ export default function MidArticleCTA({ lang, shortLang, articleId, slug, catego
       <span className="mid-cta__shot" aria-hidden>
         {/* 홈과 같은 언어판 앱 화면. 수십 KB 라 next/image 최적화 이득이 작고, 비율이 기능마다 달라 원본 크기를 쓴다. */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={'localized' in f && f.localized ? localizedShot(shortLang, f.image) : asset(f.image)} alt="" width={f.width} height={f.height} loading="lazy" />
+        <img src={'localized' in f && f.localized ? localizedShot(shortLang, f.image) : asset(f.image)} alt={`HAVIT · ${copy[f.eyebrow_key]}`} width={f.width} height={f.height} loading="lazy" />
       </span>
       <div className="mid-cta__text">
         <p className="mid-cta__eyebrow">HAVIT · {copy[f.eyebrow_key]}</p>

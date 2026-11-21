@@ -36,7 +36,7 @@ export default function ArticleHavitCta(props: Props) {
         </a>
       </div>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={localizedShot(shortLang, `/havit/${FOCUS_SHOT[focus]}`)} alt="" loading="lazy" className="hidden md:block h-48 w-auto rounded-xl shrink-0" />
+      <img src={localizedShot(shortLang, `/havit/${FOCUS_SHOT[focus]}`)} alt="HAVIT" loading="lazy" className="hidden md:block h-48 w-auto rounded-xl shrink-0" />
     </aside>
   );
 }

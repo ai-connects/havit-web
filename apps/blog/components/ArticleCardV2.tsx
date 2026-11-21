@@ -30,7 +30,7 @@ export default function ArticleCardV2({ item, shortLang, featured = false, prior
       <Link href={href} className="article-card__media" tabIndex={-1} aria-hidden>
         <Image
           src={src}
-          alt=""
+          alt={item.title}
           fill
           sizes={featured ? '(max-width: 768px) 100vw, 640px' : '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px'}
           priority={priority}

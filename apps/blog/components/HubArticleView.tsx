@@ -447,7 +447,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
         <figure className="hub-hero">
           <Image
             src={hero}
-            alt=""
+            alt={content.title}
             fill
             sizes="(max-width: 860px) 100vw, 800px"
             priority
@@ -512,7 +512,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
                 <figure className="hub-figure">
                   <Image
                     src={src}
-                    alt=""
+                    alt={s.title.replace(/\*+/g, '')}
                     fill
                     sizes="(max-width: 860px) 100vw, 800px"
                     loading="lazy"
@@ -620,7 +620,7 @@ export default function HubArticleView({ article, content, shortLang, fallback }
                 >
                   <Image
                     src={articleImage(r.slug, r.category)}
-                    alt=""
+                    alt={r.title}
                     fill
                     sizes="(max-width: 960px) 100vw, 330px"
                     className="object-cover"

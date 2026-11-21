@@ -81,7 +81,7 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
         <figure className="post__hero">
           <Image
             src={articleImage(article.slug, article.category)}
-            alt=""
+            alt={content.title}
             fill
             sizes="(max-width: 760px) 100vw, 680px"
             priority
@@ -318,7 +318,7 @@ export default function ArticleView({ article, content, shortLang, fallback }: P
                 <Link href={`/${shortLang}/${r.slug}`} className="article-card__media" tabIndex={-1} aria-hidden>
                   <Image
                     src={articleImage(r.slug, r.category)}
-                    alt=""
+                    alt={r.title}
                     fill
                     sizes="(max-width: 960px) 100vw, 330px"
                     className="object-cover"

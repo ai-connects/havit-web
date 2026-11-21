@@ -430,7 +430,7 @@ export default function BlogIndexPage({ params, searchParams: requestSearchParam
                       <div className="post-list__media">
                         <Image
                           src={articleImage(item.slug, item.category)}
-                          alt=""
+                          alt={item.title}
                           fill
                           sizes="140px"
                           loading={i < 3 ? 'eager' : 'lazy'}
