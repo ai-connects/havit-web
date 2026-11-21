@@ -65,7 +65,16 @@ export function categoryMetadata(params: { lang: string; slug: string }, page: n
   const titles = listArticlesForLang(lang)
     .filter((i) => i.native && i.category === value)
     .map((i) => i.title);
-  const description = categoryMetaDescription(lang, name, titles);
+  // 2쪽 이후는 그 쪽에 실린 글 제목으로 설명을 만든다 — 1쪽과 같은 설명이 쪽마다 반복되지 않게.
+  // (글 수는 전체 그대로 두고, 앞에 보여 줄 제목 3개만 그 쪽 글로 바꾼다.)
+  let sample = titles;
+  if (page > 1) {
+    const pageTitles = categoryItems(lang, value)
+      .slice((page - 1) * CATEGORY_PAGE_SIZE, page * CATEGORY_PAGE_SIZE)
+      .map((i) => i.title);
+    sample = [...pageTitles, ...titles.filter((t) => !pageTitles.includes(t))].slice(0, titles.length);
+  }
+  const description = categoryMetaDescription(lang, page > 1 ? `${name} · ${LABEL_PAGE[lang](page)}` : name, sample);
   const url = `${SITE}${pagePath(lang, params.slug, page)}`;
   const image = articleImage('', value);
   return {
