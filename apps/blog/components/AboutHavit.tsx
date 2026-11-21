@@ -208,7 +208,7 @@ function FeatureStrip({ shortLang }: { shortLang: string }) {
             <span className="about-havit__shot">
               <Image
                 src={f.localized ? localizedShot(shortLang, f.image) : asset(f.image)}
-                alt=""
+                alt={`HAVIT · ${copy[f.title_key]}`}
                 aria-hidden
                 width={f.width}
                 height={f.height}

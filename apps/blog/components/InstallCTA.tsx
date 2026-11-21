@@ -103,7 +103,7 @@ export default function InstallCTA({ lang, articleId, slug, variant = 'inline' }
       </div>
       <div className="install-cta__shot" aria-hidden>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={localizedShot(toShortLang(lang), '/app-preview.webp')} alt="" width={330} height={670} loading="lazy" />
+        <img src={localizedShot(toShortLang(lang), '/app-preview.webp')} alt="HAVIT" width={330} height={670} loading="lazy" />
       </div>
     </div>
   );
