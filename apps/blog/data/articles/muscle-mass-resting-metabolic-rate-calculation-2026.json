@@ -9,12 +9,12 @@
   "primary_keyword_ko": "근육량 기초대사량 계산 RMR",
   "langs": {
     "en": {
-      "title": "Muscle Mass and Resting Metabolic Rate Calculation: What Each Pound Actually Burns in 2026",
-      "short_title": "How Many Calories Does a Pound of Muscle Burn at Rest?",
+      "title": "Muscle Mass and Resting Metabolic Rate: Calories per Pound",
+      "short_title": "Calories Muscle Burns at Rest",
       "short_description": "The real number is far below the popular 50-calorie myth. See the per-pound math and why building muscle is still a smart metabolic move.",
-      "meta_description": "Discover accurate formulas for calculating how muscle mass affects your resting metabolic rate. Real numbers, realistic expectations, and the science behind RMR.",
-      "tldr": "Each pound of muscle burns roughly 6-7 calories daily at rest—not the 50 calories myth—but the cumulative effect still makes building muscle one of the smartest metabolic investments.",
-      "body_md": "## The 50-Calorie Myth That Won't Die\n\nYou've probably heard it: \"Each pound of muscle burns 50 calories a day at rest!\" Plenty of people believe it for years. The math seems perfect—gain 10 pounds of muscle, burn an extra 500 calories daily, eat pizza guilt-free forever. Except it's wildly wrong.\n\nThe actual number? Roughly 6 calories per pound per day. That's it. Widely used tissue-specific estimates, published in the American Journal of Clinical Nutrition (Wang et al., 2010), put resting skeletal muscle at about 13 kcal per kilogram per day, which is roughly 6 kcal per pound. Not exactly pizza territory.\n\nBut here's what makes this interesting: the story doesn't end there.\n\n## How RMR Actually Works (The Quick Version)\n\nYour resting metabolic rate is what your body burns doing absolutely nothing. Lying in bed. Staring at the ceiling. Just existing. For most people, this accounts for 60-75% of total daily calorie expenditure.\n\nThe classic Mifflin-St Jeor equation estimates RMR like this:\n\n**Men:** (10 × weight in kg) + (6.25 × height in cm) - (5 × age) + 5\n\n**Women:** (10 × weight in kg) + (6.25 × height in cm) - (5 × age) - 161\n\nA 180-pound, 5'10\" man at age 35 gets roughly 1,760 calories. Useful as a starting point, but these formulas treat all weight the same. They don't distinguish between someone carrying 140 pounds of lean mass versus 120 pounds.\n\nThat's where body composition enters the picture.\n\n## The Real Calorie Cost of Muscle Tissue\n\nDifferent tissues burn energy at wildly different rates. Your brain—about 3 pounds—consumes roughly 20% of your resting calories. Your liver, another metabolic powerhouse, burns around 300 calories daily despite weighing only 3-4 pounds.\n\nMuscle is actually pretty efficient. It doesn't demand much fuel when you're sitting still. The tissue-specific metabolic rates reported by Wang and colleagues in the American Journal of Clinical Nutrition (2010), converted to pounds, look like this:\n\n- Skeletal muscle: ~6 kcal/lb/day\n- Adipose tissue (fat): 2 kcal/lb/day\n- Liver: 91 kcal/lb/day\n- Brain: 109 kcal/lb/day\n- Heart: 200 kcal/lb/day\n\nSo yes, muscle burns more than fat. About three times more. But neither tissue is particularly metabolically expensive compared to your organs.\n\n## Calculating Your Muscle-Adjusted RMR\n\nWant a more accurate picture? Here's a practical approach using the Cunningham equation, which factors in lean body mass directly:\n\n**RMR = 500 + (22 × lean body mass in kg)**\n\nLet's run the numbers for two people who both weigh 180 pounds:\n\n**Person A:** 25% body fat → 135 lbs lean mass (61.2 kg)\n- RMR = 500 + (22 × 61.2) = 1,846 calories\n\n**Person B:** 15% body fat → 153 lbs lean mass (69.4 kg)\n- RMR = 500 + (22 × 69.4) = 2,027 calories\n\nThat's a 181-calorie daily difference. Same scale weight. Completely different metabolic situations. Over a year, Person B burns roughly 66,000 more calories at rest—equivalent to about 19 pounds of fat.\n\nSuddenly the muscle advantage looks more interesting.\n\n## Why the \"Small\" Per-Pound Number Still Matters\n\nHere's where people get confused. They hear \"6 calories per pound\" and think building muscle is pointless for metabolism. They're missing the cumulative math.\n\nConsider someone who gains 15 pounds of muscle over three years of consistent training. That's realistic for a dedicated natural lifter. At 6.5 calories per pound:\n\n- Daily RMR increase: ~98 calories\n- Weekly: 686 calories\n- Monthly: 2,940 calories\n- Yearly: 35,770 calories\n\nThat's roughly 10 pounds of fat-equivalent energy burned annually, just existing. And this doesn't count the calories burned during workouts, the elevated post-exercise oxygen consumption, or the improved insulin sensitivity that comes with more muscle.\n\nSome researchers have also suggested that muscle in actively training individuals may be slightly more metabolically active than sedentary muscle, though this effect is not well quantified.\n\n## The Formulas That Actually Work\n\nIf you know your body fat percentage (even a rough estimate), these equations give better predictions than weight-only formulas:\n\n**Katch-McArdle:**\nRMR = 370 + (21.6 × lean mass in kg)\n\n**Cunningham:**\nRMR = 500 + (22 × lean mass in kg)\n\nSome prediction equations also add a smaller term for fat mass, acknowledging that fat tissue does contribute to RMR—just far less than lean mass.\n\nLean-mass-based equations tend to be more accurate than Mifflin-St Jeor for people at the extremes—either very lean or carrying significant extra weight.\n\n## What Happens When You Lose Muscle\n\nThe flip side deserves attention. Aggressive dieting without resistance training typically costs people 20-30% of their weight loss as lean mass. Someone who loses 40 pounds through diet alone might shed 8-12 pounds of muscle.\n\nUsing our 6.5 calorie figure, that's 52-78 fewer calories burned daily. Doesn't sound catastrophic until you realize this is permanent unless they rebuild that muscle. And the metabolic adaptation from dieting often goes beyond just the tissue loss.\n\nThe MATADOR study (International Journal of Obesity, 2018) compared continuous dieting with intermittent dieting in men with obesity, alternating two weeks of restriction with two-week diet breaks. The intermittent group lost more weight and more fat mass, with similar losses of fat-free mass, and showed less of the adaptive drop in resting metabolism than continuous dieters.\n\n## Age, Hormones, and the Muscle-RMR Connection\n\nAfter 30, most people lose 3-8% of muscle mass per decade without intervention. By 60, sedentary adults have often lost 15-20 pounds of muscle compared to their peak.\n\nRun those numbers: 15 pounds × 6.5 calories = 97.5 fewer calories burned daily. That's 35,588 calories annually—roughly 10 pounds of fat. This partially explains the \"inevitable\" weight gain of middle age. It's not inevitable. It's physics meeting inactivity.\n\nResistance training reverses this trajectory. A review in Current Sports Medicine Reports (Westcott, 2012) noted that about 10 weeks of resistance training can add roughly 1.4 kg (about 3 pounds) of lean weight and raise resting metabolic rate by around 7%.\n\n## Practical Takeaways for Your Metabolism\n\nForget the 50-calorie myth. The real number is closer to 6-7 calories per pound of muscle per day. But don't dismiss it—the cumulative effect over months and years is substantial.\n\nIf you want to estimate your RMR more accurately, get a rough body fat percentage and use the Cunningham or Katch-McArdle equations. They'll beat standard weight-based formulas, especially if you're particularly lean or carrying extra fat.\n\nBuilding muscle won't let you eat unlimited pizza. What it will do is give you a slightly larger metabolic buffer, better body composition, improved insulin sensitivity, and protection against age-related decline. The calorie math is a bonus, not the main event.\n\nThe real question isn't whether muscle burns enough calories to matter. It's whether you're doing anything to preserve and build the muscle you have.",
+      "meta_description": "How much does muscle raise resting metabolic rate? About 6 kcal per pound (13 kcal/kg) a day. See the formulas, worked examples and realistic expectations.",
+      "tldr": "At rest, a pound of muscle burns roughly 6 to 7 calories a day (about 13 kcal per kg), not the often-quoted 50. The per-pound figure is small, but over months and years it adds up, which is why building and keeping muscle still matters for metabolism.",
+      "body_md": "## The 50-Calorie Myth That Won't Die\n\nA claim still circulates in gyms and on social media: each pound of muscle burns 50 calories a day at rest. If that were true, gaining 10 pounds (4.5 kg) of muscle would burn an extra 500 calories daily. It isn't true.\n\nThe real figure is roughly 6 calories per pound per day. Widely used tissue-specific estimates published in the American Journal of Clinical Nutrition (Wang et al., 2010) put resting skeletal muscle at about 13 kcal per kilogram per day, which works out to roughly 6 kcal per pound.\n\nThat smaller number is only part of the picture, though.\n\n## How RMR Works in Brief\n\nResting metabolic rate (RMR) is the energy your body uses while doing nothing at all, lying still and awake. For most people it makes up 60 to 75% of total daily calorie expenditure.\n\nThe Mifflin-St Jeor equation is the standard way to estimate it:\n\n**Men:** (10 × weight in kg) + (6.25 × height in cm) − (5 × age) + 5\n\n**Women:** (10 × weight in kg) + (6.25 × height in cm) − (5 × age) − 161\n\nA 35-year-old man who weighs 180 lb (82 kg) and stands 5'10\" (178 cm) comes out at roughly 1,760 calories. That is a reasonable starting point. The limitation is that the formula treats all body weight the same, so it cannot tell apart someone carrying 140 lb (64 kg) of lean mass from someone carrying 120 lb (54 kg).\n\nBody composition fills that gap.\n\n## The Real Calorie Cost of Muscle Tissue\n\nTissues burn energy at very different rates. The brain weighs about 3 lb (1.4 kg) yet uses roughly 20% of resting calories. The liver, at 3 to 4 lb (1.4 to 1.8 kg), burns around 300 calories a day.\n\nMuscle, by comparison, needs little fuel when you are sitting still. Here are the tissue-specific rates reported by Wang and colleagues (2010), shown per pound with the per-kilogram values in parentheses:\n\n- Skeletal muscle: ~6 kcal/lb/day (13 kcal/kg)\n- Adipose tissue (fat): 2 kcal/lb/day (4.5 kcal/kg)\n- Liver: 91 kcal/lb/day (200 kcal/kg)\n- Brain: 109 kcal/lb/day (240 kcal/kg)\n- Heart: 200 kcal/lb/day (440 kcal/kg)\n\nMuscle does burn about three times as much as fat. Neither comes close to the organs.\n\n## Calculating Your Muscle-Adjusted RMR\n\nThe Cunningham equation uses lean body mass directly, which makes it more useful once you have a body fat estimate:\n\n**RMR = 500 + (22 × lean body mass in kg)**\n\nTake two people who both weigh 180 lb (81.6 kg).\n\n**Person A:** 25% body fat, so 135 lb (61.2 kg) of lean mass\n- RMR = 500 + (22 × 61.2) = 1,846 calories\n\n**Person B:** 15% body fat, so 153 lb (69.4 kg) of lean mass\n- RMR = 500 + (22 × 69.4) = 2,027 calories\n\nThe gap is 181 calories a day at the same scale weight. Over a year, Person B burns roughly 66,000 more calories at rest, about the energy in 19 lb (8.6 kg) of body fat.\n\n## Why the Small Per-Pound Number Still Matters\n\nHearing \"6 calories per pound,\" many people conclude that muscle does nothing for metabolism. That misses how the numbers accumulate.\n\nPicture someone who gains 15 lb (6.8 kg) of muscle over three years of steady training, a realistic result for a committed lifter without drugs. At 6.5 calories per pound:\n\n- Daily RMR increase: ~98 calories\n- Weekly: 686 calories\n- Monthly: 2,940 calories\n- Yearly: 35,770 calories\n\nThat is roughly 10 lb (4.5 kg) of fat-equivalent energy each year, burned at rest. It also leaves out the calories spent during workouts, the raised oxygen consumption after exercise, and the better insulin sensitivity associated with having more muscle.\n\nSome researchers have suggested that muscle in people who train regularly may be slightly more metabolically active than muscle in sedentary people, though the size of this effect is not well established.\n\n## Formulas Worth Using\n\nIf you know your body fat percentage, even roughly, these equations predict RMR better than weight-only formulas:\n\n**Katch-McArdle:**\nRMR = 370 + (21.6 × lean mass in kg)\n\n**Cunningham:**\nRMR = 500 + (22 × lean mass in kg)\n\nSome prediction equations add a smaller term for fat mass, since fat does contribute to RMR, only much less than lean tissue.\n\nLean-mass equations tend to outperform Mifflin-St Jeor at the extremes, in people who are very lean and in people carrying a lot of extra weight. A practical step is to get a rough body fat reading (a tape-measure method works) and run both equations to see where your number lands.\n\n## What Happens When You Lose Muscle\n\nThe reverse also holds. When people diet hard without resistance training, lean mass typically accounts for 20 to 30% of the weight they lose. Someone who drops 40 lb (18 kg) through diet alone might lose 8 to 12 lb (3.6 to 5.4 kg) of muscle.\n\nAt 6.5 calories per pound, that means 52 to 78 fewer calories burned each day. The figure looks minor, but it persists unless the muscle is rebuilt, and the metabolic slowdown that follows dieting often goes beyond the tissue loss itself.\n\nThe MATADOR study (International Journal of Obesity, 2018) compared continuous dieting with intermittent dieting in men with obesity, alternating two weeks of restriction with two-week diet breaks. The intermittent group lost more weight and more fat mass, with similar losses of fat-free mass, and showed less of the adaptive drop in resting metabolism than the continuous group.\n\n## Age, Hormones and the Muscle-RMR Link\n\nAfter 30, most people lose 3 to 8% of their muscle mass per decade if they do nothing to counter it. By 60, sedentary adults have often lost 15 to 20 lb (6.8 to 9 kg) of muscle compared with their peak.\n\nFifteen pounds at 6.5 calories each is 97.5 fewer calories a day, or about 35,588 a year. That is roughly 10 lb (4.5 kg) of fat and helps explain part of the weight gain many people see in midlife. It isn't fixed fate. Much of it comes down to less muscle and less movement.\n\nResistance training can change that direction. A review in Current Sports Medicine Reports (Westcott, 2012) noted that about 10 weeks of resistance training can add roughly 1.4 kg (about 3 lb) of lean weight and raise resting metabolic rate by around 7%.\n\n## Practical Takeaways for Your Metabolism\n\nThe working number is about 6 to 7 calories per pound of muscle per day (around 13 kcal per kg). Small on its own, meaningful over years.\n\nFor a better RMR estimate, pair a rough body fat percentage with the Cunningham or Katch-McArdle equation. Both beat weight-only formulas, especially if you are very lean or carrying extra fat.\n\nMuscle won't cancel out unlimited pizza. It gives you a modestly larger metabolic buffer and better body composition, and it is associated with improved insulin sensitivity and a slower age-related decline in strength. The calorie math is a side benefit.\n\nWhat matters most is whether you are doing something, two or three strength sessions a week for instance, to keep and build the muscle you already have.",
       "key_stats": [
         {
           "label": "Calories burned per pound of muscle daily",
@@ -23,7 +23,7 @@
         },
         {
           "label": "Calories burned per pound of fat daily",
-          "value": "2 kcal",
+          "value": "2 kcal (4.5 kcal/kg)",
           "source": "American Journal of Clinical Nutrition 2010 (Wang et al.)"
         },
         {
@@ -41,72 +41,72 @@
         "title": "Metabolic Rate of Different Body Tissues",
         "headers": [
           "Tissue Type",
-          "Calories per Pound per Day",
+          "Calories per lb (per kg) per Day",
           "Typical Adult Weight",
           "Daily Calorie Contribution"
         ],
         "rows": [
           [
             "Brain",
-            "109 kcal",
-            "3 lbs",
+            "109 kcal (240 kcal/kg)",
+            "3 lb (1.4 kg)",
             "327 kcal"
           ],
           [
             "Liver",
-            "91 kcal",
-            "3.5 lbs",
+            "91 kcal (200 kcal/kg)",
+            "3.5 lb (1.6 kg)",
             "319 kcal"
           ],
           [
             "Heart",
-            "200 kcal",
-            "0.7 lbs",
+            "200 kcal (440 kcal/kg)",
+            "0.7 lb (0.3 kg)",
             "140 kcal"
           ],
           [
             "Skeletal Muscle",
-            "6-7 kcal",
-            "60-80 lbs",
+            "6-7 kcal (13 kcal/kg)",
+            "60-80 lb (27-36 kg)",
             "390-560 kcal"
           ],
           [
             "Adipose Tissue (Fat)",
-            "2 kcal",
-            "20-50 lbs",
+            "2 kcal (4.5 kcal/kg)",
+            "20-50 lb (9-23 kg)",
             "40-100 kcal"
           ]
         ],
-        "caption": "While muscle has a lower per-pound metabolic rate than organs, its larger total mass makes it a significant contributor to RMR. Per-pound values converted from tissue-specific rates in Wang et al., American Journal of Clinical Nutrition 2010."
+        "caption": "Muscle burns less per pound than the organs, but its much larger total mass makes it a meaningful contributor to RMR. Values based on tissue-specific rates in Wang et al., American Journal of Clinical Nutrition 2010."
       },
       "faq": [
         {
           "question": "Does muscle really burn 50 calories per pound at rest?",
-          "answer": "No, this is a persistent myth. Current research shows muscle tissue burns approximately 6-7 calories per pound per day at rest. The 50-calorie figure has no scientific basis and likely originated from misinterpreted or exaggerated fitness marketing."
+          "answer": "No. Research puts resting muscle at roughly 6 to 7 calories per pound per day (about 13 kcal per kg). The 50-calorie figure has no scientific basis and most likely comes from exaggerated fitness marketing."
         },
         {
           "question": "Which RMR formula is most accurate for people who strength train?",
-          "answer": "The Cunningham equation (RMR = 500 + 22 × lean mass in kg) or Katch-McArdle formula work best for people who know their body composition. These account for lean mass directly rather than treating all weight equally."
+          "answer": "If you know your body composition, the Cunningham equation (RMR = 500 + 22 × lean mass in kg) or the Katch-McArdle formula tends to work best. Both use lean mass directly instead of treating all body weight the same."
         },
         {
           "question": "How much will gaining 10 pounds of muscle increase my metabolism?",
-          "answer": "Approximately 60-70 calories per day at rest. While this seems modest, it adds up to roughly 22,000-25,000 extra calories burned annually—equivalent to about 6-7 pounds of fat."
+          "answer": "About 60 to 70 calories a day at rest for 10 lb (4.5 kg) of muscle. Over a year that comes to roughly 22,000 to 25,000 extra calories, the energy in about 6 to 7 lb (around 3 kg) of fat."
         },
         {
           "question": "Why does metabolism slow down with age?",
-          "answer": "Much of the decline comes from losing muscle mass—typically 3-8% per decade after 30 in sedentary individuals. Resistance training can largely prevent or reverse this loss, maintaining metabolic rate into older age."
+          "answer": "A large share of the decline is linked to losing muscle, typically 3 to 8% per decade after 30 in people who don't train. Resistance training can slow and partly reverse this loss, which helps keep resting metabolic rate higher later in life."
         },
         {
           "question": "Does muscle burn more calories during exercise than at rest?",
-          "answer": "Yes, dramatically more. The 6-7 calories per pound figure applies only to resting conditions. During intense exercise, muscle tissue can burn 10-15 times more energy. Post-workout, elevated oxygen consumption continues burning extra calories for hours."
+          "answer": "Yes, far more. The 6 to 7 calories per pound figure applies only at rest. During intense exercise, muscle can burn 10 to 15 times more energy, and raised oxygen consumption afterward keeps burning extra calories for hours."
         },
         {
           "question": "Is it better to focus on cardio or weight training for metabolism?",
-          "answer": "Weight training has longer-lasting metabolic benefits because it builds or preserves muscle tissue. Cardio burns more calories during the activity itself but doesn't contribute to resting metabolic rate the way added muscle does."
+          "answer": "Weight training has longer-lasting effects on resting metabolism because it builds or preserves muscle. Cardio burns more calories during the session itself but doesn't raise resting metabolic rate the way added muscle does. Many people combine both."
         },
         {
           "question": "How can I estimate my lean body mass without expensive testing?",
-          "answer": "Navy body fat calculations using waist and neck measurements provide reasonable estimates. Alternatively, visual body fat percentage charts can give you a ballpark figure. Even a rough estimate improves RMR calculations compared to weight-only formulas."
+          "answer": "The US Navy body fat method, which uses waist and neck measurements, gives a reasonable estimate. Visual body fat charts offer a rougher ballpark. Even an approximate figure improves RMR calculations compared with weight-only formulas."
         }
       ],
       "references": [
@@ -126,7 +126,7 @@
           "url": "https://doi.org/10.1249/JSR.0b013e31825dabb8"
         }
       ],
-      "last_updated": "2026-11-17"
+      "last_updated": "2026-11-21"
     },
     "ko": {
       "title": "근육 1kg 늘리면 기초대사량 얼마나 오를까",
@@ -1194,5 +1194,5 @@
     "naturalness_pass": 3,
     "reviewer_pass": 1
   },
-  "updated_at": "2026-11-20T00:00:00.000Z"
+  "updated_at": "2026-11-21T00:00:00.000Z"
 }

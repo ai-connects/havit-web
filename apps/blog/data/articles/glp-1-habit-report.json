@@ -10,12 +10,12 @@
   "primary_keyword_ko": "GLP-1 습관 리포트",
   "langs": {
     "en": {
-      "title": "The GLP-1 Habit Report 2026: What 1,090 Users Reveal About Routines",
-      "meta_description": "Original HAVIT data from 1,090 GLP-1 users: which habits they track, how their consistency compares, and the protein-vs-fiber gap that matters most.",
-      "tldr": "Across 1,090 self-identified GLP-1 users on HAVIT, people on GLP-1 medications track wellness habits *more consistently* than the general user base — and they log meals, water, and weight most. But one gap stands out: they get plenty of protein per meal and far too little fiber, which maps directly onto the most common GLP-1 complaint, constipation.",
-      "body_md": "## Why we ran this report\n\nMost GLP-1 content online repeats the same drug-label facts. We wanted to answer a different question with real behavior data: **what do people actually *do* on GLP-1 — which routines do they build, and where do they slip?** The answers come from how HAVIT users log their journey, aggregated and de-identified.\n\n## Finding 1 — GLP-1 users build stronger habits than average\n\nUsing HAVIT's habit scores (a proprietary 0–10 scale per wellness dimension), the GLP-1 cohort out-scores the overall user base on almost every dimension.\n\n**What it means:** starting a GLP-1 medication tends to coincide with a broader behavior reset — not just taking a shot, but eating, moving, and hydrating more deliberately. (Association, not proof of cause; motivated users may both start GLP-1 and log more.) The practical takeaway: the medication works best as the *anchor* of a routine, not a replacement for one.\n\n## Finding 2 — What GLP-1 users track most\n\nAmong the 735 GLP-1 users with active tracking streaks, this is where their attention goes (share of tracked habit-days):\n\n| Rank | Habit tracked | Share |\n|---|---|---|\n| 1 | Meals | 34% |\n| 2 | Water | 21% |\n| 3 | Weight | 19% |\n| 4 | Activity | 13% |\n| 5 | Sleep | 8% |\n| 6 | Fasting | 5% |\n\n**What it means:** food and hydration dominate — which fits the GLP-1 experience of reduced appetite, where *every* bite and every glass counts. Weight is third: users watch the trend, not just the scale number. If you're starting out, these top three (meals, water, weight) are the highest-leverage things to log.\n\n## Finding 3 — The protein-is-fine, fiber-is-missing gap\n\nThis is the most actionable finding. Looking at logged nutrition (n=334 users, 1,441 logged days):\n\n| Metric | Logged average | Reference |\n|---|---|---|\n| Protein per meal | 25.3 g | ~25–40 g target ✅ near floor |\n| Fiber per meal | 4.0 g | far below target ⚠️ |\n| Logged days hitting 25 g fiber | ~4% | 25–35 g/day recommended |\n\n**What it means:** GLP-1 users have clearly absorbed the \"protein first\" message — per-meal protein sits near the recommended floor. But fiber is neglected (roughly a 6:1 protein-to-fiber ratio in logged meals), and only about 1 in 25 logged days reached a basic fiber target. That matters because **low fiber is a direct driver of the #1 GLP-1 side effect: constipation.** *(Caveat: logged intake understates total intake since users average ~2 logged meals/day — but the protein-vs-fiber imbalance holds regardless of under-logging.)*\n\n**Fix it:** pair your protein with high-fiber foods every meal — chia, beans, berries, oats, leafy greens, psyllium — and track fiber, not just protein. See our [GLP-1 diet & 7-day meal plan](/en/glp-1-diet-7-day-meal-plan) and [best food tracker for GLP-1](/en/best-food-tracker-for-glp-1).\n\n## Takeaways if you're on a GLP-1\n\n1. **Anchor a routine, don't rely on the drug alone** — the users doing best track consistently across food, water, and weight.\n2. **Log the top three:** meals, water, weight. They're where GLP-1 users focus and where the leverage is.\n3. **Close the fiber gap** — you've likely got protein handled; fiber is the miss that fuels constipation.\n4. **Watch the weight *trend*, not the daily number.**\n\n## Methodology\n\nAggregated, de-identified data from HAVIT platform users who self-identified as GLP-1 users (cohort n=1,090; sub-samples noted per finding), extracted 2026-07. Habit scores are HAVIT's proprietary 0–10 per-dimension index. This is observational data (association, not causation); the platform user base is currently weighted toward Korea, though the behavioral patterns generalize. Weight-loss *outcomes* are intentionally excluded here — longitudinal weight logging was too sparse to report responsibly (see our clinical program for outcome data).\n\n## Why HAVIT — Medication + Behavior Change, in One App\n\nGLP-1 medications can meaningfully reduce weight — but the number on the scale is only part of the story. The lean-mass share of the weight lost on GLP-1 therapy has ranged from 40–60% in some trials to 15% or less in others — and lean mass counts organs, bone and fluid, not only muscle ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), and results tend to fade once the medication stops unless new habits take their place. That's why leading guidance treats medication as one part of care, not the whole: the U.S. Preventive Services Task Force recommends that adults with obesity be offered intensive, multicomponent behavioral interventions ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT is built for exactly this moment — one app that unites medication tracking, body composition, nutrition and protein, daily habit-building, and an AI coach that adapts to you. Across our own 1,090 GLP-1 users, the most consistent trackers built the strongest habits ([see the GLP-1 habit report](/en/glp-1-habit-report)).\n\nManage the medicine and the muscle — together. [Start with HAVIT →](https://www.aihavit.com)",
+      "title": "GLP-1 Habit Report 2026: Routines of 1,090 App Users",
+      "meta_description": "GLP-1 habit data from 1,090 HAVIT users: which habits they track, how consistent they are, and why fiber lags far behind protein in their logged meals.",
+      "tldr": "Among 1,090 self-identified GLP-1 users on HAVIT, people taking GLP-1 medications tracked wellness habits more consistently than the general user base. Meals, water and weight were the habits they logged most. One gap stood out: protein per meal looked reasonable, but fiber was low, and low fiber is associated with constipation, the most commonly reported GLP-1 complaint.",
+      "body_md": "## Why we ran this report\n\nMost GLP-1 content online repeats the same drug-label facts. We wanted to look at behavior instead: what people on a GLP-1 actually do day to day, which routines they build and where those routines slip. The answers come from how HAVIT users log their progress, aggregated and de-identified.\n\n## Finding 1: GLP-1 users score higher on habits than average\n\nHAVIT scores each wellness dimension on a proprietary 0–10 scale. On almost every dimension, the GLP-1 cohort scored higher than the overall user base (see the table below).\n\nStarting a GLP-1 medication often seems to coincide with a broader behavior reset. People eat, move and drink water more deliberately, not just take a weekly shot. This is an association, not proof of cause, since motivated users may be more likely both to start a GLP-1 and to log more. Still, the pattern suggests the medication fits best as the anchor of a routine rather than a substitute for one.\n\n## Finding 2: What GLP-1 users track most\n\nAmong the 735 GLP-1 users with active tracking streaks, attention was distributed like this (share of tracked habit-days):\n\n| Rank | Habit tracked | Share |\n|---|---|---|\n| 1 | Meals | 34% |\n| 2 | Water | 21% |\n| 3 | Weight | 19% |\n| 4 | Activity | 13% |\n| 5 | Sleep | 8% |\n| 6 | Fasting | 5% |\n\nFood and hydration dominate. That fits the reduced appetite many people describe on GLP-1 medications, when each meal and each glass of water carries more weight. Weight comes third, which suggests users follow the trend over time rather than fixating on a single reading. If you are just starting out, meals, water and weight are a sensible first set of things to log.\n\n## Finding 3: Protein looks fine, fiber is missing\n\nThis is the most practical result. We looked at logged nutrition from 334 users across 1,441 logged days.\n\n| Metric | Logged average | Reference |\n|---|---|---|\n| Protein per meal | 25.3 g | ~25–40 g common target ✅ near the low end |\n| Fiber per meal | 4.0 g | well below common targets ⚠️ |\n| Logged days reaching 25 g fiber | ~4% | 25–35 g/day commonly recommended (US guidance) |\n\nGLP-1 users seem to have taken the \"protein first\" message on board, since per-meal protein sits near the lower end of the usual target. Fiber is another story. Logged meals showed roughly a 6:1 protein-to-fiber ratio, and only about 1 in 25 logged days reached a basic fiber target. Low fiber intake is associated with constipation, which is the most commonly reported GLP-1 side effect.\n\nOne caveat: users logged about 2 meals a day on average, so logged intake understates what they actually ate. The imbalance between protein and fiber holds even allowing for that.\n\nA simple adjustment is to add a high-fiber food to each protein-based meal. Chia, beans, berries, oats, leafy greens and psyllium are easy options, and it helps to track fiber alongside protein. Our [GLP-1 diet & 7-day meal plan](/en/glp-1-diet-7-day-meal-plan) and [best food tracker for GLP-1](/en/best-food-tracker-for-glp-1) go into more detail.\n\n## What this means if you're on a GLP-1\n\nThe users with the strongest habit scores tracked consistently across food, water and weight, rather than relying on the medication alone. Those three habits are where GLP-1 users put most of their attention, and they are a reasonable place to start.\n\nIf you already watch your protein, fiber is the likelier gap, and closing it may help with constipation. For weight, look at the trend across weeks instead of reacting to each day's number.\n\n## Methodology\n\nThe data are aggregated and de-identified, from HAVIT platform users who self-identified as GLP-1 users (cohort n=1,090; sub-samples are noted with each finding), extracted in July 2026. Habit scores use HAVIT's proprietary 0–10 per-dimension index. The data are observational and show associations, not causation. The platform's user base is currently weighted toward Korea, so patterns may differ in other populations. Weight-loss outcomes are deliberately left out: longitudinal weight logging was too sparse to report responsibly (outcome data come from our clinical program).\n\n## Why HAVIT — Medication + Behavior Change, in One App\n\nGLP-1 medications can meaningfully reduce weight — but the number on the scale is only part of the story. The lean-mass share of the weight lost on GLP-1 therapy has ranged from 40–60% in some trials to 15% or less in others — and lean mass counts organs, bone and fluid, not only muscle ([Neeland et al., *Diabetes, Obesity and Metabolism*, 2024](https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.15728)), and results tend to fade once the medication stops unless new habits take their place. That's why leading guidance treats medication as one part of care, not the whole: the U.S. Preventive Services Task Force recommends that adults with obesity be offered intensive, multicomponent behavioral interventions ([USPSTF, Grade B](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/obesity-in-adults-interventions)).\n\nHAVIT is built for exactly this moment — one app that unites medication tracking, body composition, nutrition and protein, daily habit-building, and an AI coach that adapts to you. Across our own 1,090 GLP-1 users, the most consistent trackers built the strongest habits ([see the GLP-1 habit report](/en/glp-1-habit-report)).\n\nManage the medicine and the muscle — together. [Start with HAVIT →](https://www.aihavit.com)",
       "comparison_table": {
-        "title": "Finding 1 — GLP-1 users build stronger habits than average",
+        "title": "Finding 1: GLP-1 users score higher on habits than average",
         "headers": [
           "Habit dimension",
           "GLP-1 users (n=899)",
@@ -58,35 +58,35 @@
       "faq": [
         {
           "question": "Is this a clinical study?",
-          "answer": "No. It's an aggregated analysis of real-world app behavior, not a controlled trial. It shows patterns, not proof of cause."
+          "answer": "No. It is an aggregated analysis of real-world app behavior, not a controlled trial. It shows patterns, not cause and effect."
         },
         {
           "question": "How many people are in the report?",
-          "answer": "1,090 self-identified GLP-1 users, with sub-samples of 899 (habit scores), 735 (tracking), and 334 (nutrition) depending on the metric."
+          "answer": "1,090 self-identified GLP-1 users. Depending on the metric, sub-samples were 899 (habit scores), 735 (tracking) and 334 (nutrition)."
         },
         {
-          "question": "Does GLP-1 cause better habits?",
-          "answer": "We can't say that. GLP-1 users score higher on habits, but motivated people may both start the medication and track more. It's an association."
+          "question": "Does taking a GLP-1 lead to better habits?",
+          "answer": "The data can't show that. GLP-1 users scored higher on habits, but motivated people may be more likely both to start the medication and to track more. It is an association."
         },
         {
           "question": "Why focus on fiber?",
-          "answer": "Because low fiber is a leading cause of the most common GLP-1 side effect (constipation), and our data shows users under-log it while hitting protein."
+          "answer": "Low fiber intake is associated with constipation, the most commonly reported GLP-1 side effect, and our data show users logged far less fiber than protein."
         },
         {
           "question": "How much protein and fiber should I get on a GLP-1?",
-          "answer": "Roughly 25–40 g protein per meal and 25–35 g fiber per day are common targets — confirm with your clinician/dietitian."
+          "answer": "Roughly 25–40 g of protein per meal and 25–35 g of fiber per day are common targets in US guidance. Your clinician or dietitian can confirm what suits you."
         },
         {
           "question": "Is my data used for this?",
-          "answer": "Only in aggregated, de-identified form. No individual is identifiable."
+          "answer": "Only in aggregated, de-identified form. No individual can be identified."
         },
         {
           "question": "Where's the weight-loss data?",
-          "answer": "Excluded on purpose — our consistent longitudinal weight sample was too small to report honestly. We report only what the data can support."
+          "answer": "It was left out on purpose. Our consistent longitudinal weight sample was too small to report honestly, so we report only what the data can support."
         },
         {
           "question": "Can I cite this report?",
-          "answer": "Yes — please cite \"HAVIT GLP-1 Habit Report 2026\" and link back to this page."
+          "answer": "Yes. Please cite \"HAVIT GLP-1 Habit Report 2026\" and link back to this page."
         }
       ],
       "references": [
@@ -109,7 +109,7 @@
           "url": "https://www.aihavit.com"
         }
       ],
-      "last_updated": "2026-08-14"
+      "last_updated": "2026-11-21"
     },
     "ko": {
       "title": "GLP-1(위고비·마운자로) 습관 리포트 2026｜사용자 1,090명 데이터",
@@ -978,5 +978,6 @@
       "last_updated": "2026-08-14"
     }
   },
-  "generated_at": "2026-08-14T00:00:00.000Z"
+  "generated_at": "2026-08-14T00:00:00.000Z",
+  "updated_at": "2026-11-21T00:00:00.000Z"
 }
