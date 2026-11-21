@@ -222,11 +222,11 @@ export default function Footer({ lang }: { lang: LangKey }) {
               {/* 마케팅 사이트와 같은 뱃지 에셋. next/image 를 쓰지 않는 이유는
                   5~6KB 짜리 고정 크기 PNG 라 최적화 이득이 없어서다. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={storeBadge(shortLang, 'app_store')} alt="Download on the App Store" width={168} height={56} />
+              <img src={storeBadge(shortLang, 'app_store')} alt="Download on the App Store" width={168} height={56} loading="lazy" decoding="async" />
             </a>
             <a href={`${mainSiteHome(shortLang)}#download`} className="hv-final-cta__badge" aria-label="Google Play">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={storeBadge(shortLang, 'google_play')} alt="Get it on Google Play" width={189} height={56} />
+              <img src={storeBadge(shortLang, 'google_play')} alt="Get it on Google Play" width={189} height={56} loading="lazy" decoding="async" />
             </a>
           </div>
           <p className="hv-final-cta__disclaimer">{cta.note}</p>
@@ -245,6 +245,8 @@ export default function Footer({ lang }: { lang: LangKey }) {
           alt="HAVIT"
           width={264}
           height={163}
+          loading="lazy"
+          decoding="async"
           style={{ height: 38, width: 'auto' }}
         />
         <p className="text-body-small" style={{ color: 'rgba(255,255,255,0.6)' }}>

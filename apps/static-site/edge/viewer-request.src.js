@@ -148,6 +148,11 @@ async function middleware(path, search, langParam, cookie, acceptLanguage) {
 
 // ── apps/blog/next.config.js redirects (basePath /blog) ──
 async function blogRedirect(path) {
+  // 언어 세그먼트 대소문자(/blog/EN, /blog/pt-BR, /blog/zh-TW/...) → 소문자 정본. 정본은 전부 소문자다.
+  const lc = /^\/blog\/([^/]+)(\/.*)?$/.exec(path);
+  if (lc && lc[1] !== lc[1].toLowerCase() && D.blogLangs.indexOf(lc[1].toLowerCase()) !== -1) {
+    return `/blog/${lc[1].toLowerCase()}${lc[2] || ''}`;
+  }
   for (let i = 0; i < D.junk.length; i++) {
     const m = new RegExp(D.junk[i][0], 'i').exec(path);
     if (m) return D.junk[i][1].replace(/\$(\d)/g, (_, n) => m[n]);

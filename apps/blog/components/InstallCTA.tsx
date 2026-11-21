@@ -35,9 +35,9 @@ export default function InstallCTA({ lang, articleId, slug, variant = 'inline' }
         <div className="md:hidden sticky-cta-bar">
           <div className="cta-pill">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="cta-pill__char cta-pill__char--knight" src={asset('/cta/knight.webp')} alt="" width={67} height={70} aria-hidden />
+            <img className="cta-pill__char cta-pill__char--knight" src={asset('/cta/knight.webp')} alt="" width={67} height={70} loading="lazy" decoding="async" aria-hidden />
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="cta-pill__char cta-pill__char--dino" src={asset('/cta/dino.webp')} alt="" width={70} height={70} aria-hidden />
+            <img className="cta-pill__char cta-pill__char--dino" src={asset('/cta/dino.webp')} alt="" width={70} height={70} loading="lazy" decoding="async" aria-hidden />
             <a
               href={learnMoreHref(toShortLang(lang), placement)}
               onClick={() => trackGaEvent('learn_more_click', {
@@ -48,7 +48,7 @@ export default function InstallCTA({ lang, articleId, slug, variant = 'inline' }
               {learnMoreLabel(toShortLang(lang))}
             </a>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="cta-pill__char cta-pill__char--peek" src={asset('/cta/peek.webp')} alt="" width={63} height={60} aria-hidden />
+            <img className="cta-pill__char cta-pill__char--peek" src={asset('/cta/peek.webp')} alt="" width={63} height={60} loading="lazy" decoding="async" aria-hidden />
           </div>
         </div>
       </>
@@ -78,7 +78,7 @@ export default function InstallCTA({ lang, articleId, slug, variant = 'inline' }
             이메일 헤더(apps/web/public/email)와 같은 흰 칩을 깔아 분리한다. */}
         <span className="install-cta__brand">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={asset('/havit-logo.svg')} alt="HAVIT" width={264} height={163} />
+          <img src={asset('/havit-logo.svg')} alt="HAVIT" width={264} height={163} loading="lazy" decoding="async" />
         </span>
         <p className="install-cta__title">{ctx?.title ?? t(lang, 'installCta')}</p>
         <p className="install-cta__sub">{t(lang, 'installCtaSub')}</p>
@@ -93,11 +93,11 @@ export default function InstallCTA({ lang, articleId, slug, variant = 'inline' }
           <a href={badgeHref('app_store', appStoreUrlFor(lang))} onClick={onBadgeClick('app_store')} target="_blank" rel="noopener" className="install-cta__badge" aria-label="App Store">
             {/* 수 KB 고정 크기 배지라 next/image 최적화 이득이 없다. */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={storeBadge(toShortLang(lang), 'app_store')} alt="Download on the App Store" width={168} height={56} />
+            <img src={storeBadge(toShortLang(lang), 'app_store')} alt="Download on the App Store" width={168} height={56} loading="lazy" decoding="async" />
           </a>
           <a href={badgeHref('google_play', PLAY_STORE_URL)} onClick={onBadgeClick('google_play')} target="_blank" rel="noopener" className="install-cta__badge" aria-label="Google Play">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={storeBadge(toShortLang(lang), 'google_play')} alt="Get it on Google Play" width={189} height={56} />
+            <img src={storeBadge(toShortLang(lang), 'google_play')} alt="Get it on Google Play" width={189} height={56} loading="lazy" decoding="async" />
           </a>
         </div>
       </div>
