@@ -41,7 +41,7 @@ export function CategoryIcon({
       {/* next/image 를 쓰지 않는다 — 24px SVG 는 최적화할 여지가 없고,
           /_next/image 를 거치면 오히려 요청이 하나 늘어난다. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={url} alt="" width={CATEGORY_ICON_BOX} height={CATEGORY_ICON_BOX}
+      <img src={url} alt="" width={CATEGORY_ICON_BOX} height={CATEGORY_ICON_BOX} loading="lazy" decoding="async"
            style={{ width: 'auto', height: 'auto', maxWidth: '100%', maxHeight: '100%' }} />
     </span>
   );

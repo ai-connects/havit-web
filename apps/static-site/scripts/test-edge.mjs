@@ -13,6 +13,14 @@ const fails = []
 let checked = 0
 const eq = (a, b) => JSON.stringify(a) === JSON.stringify(b)
 
+// ── 0. 언어 세그먼트 대문자 → 소문자 308 (엣지 전용 규칙) ──
+for (const [p, want] of [['/blog/EN', '/blog/en'], ['/blog/pt-BR', '/blog/pt-br'], ['/blog/zh-TW/x-2026', '/blog/zh-tw/x-2026'], ['/blog/Ja/category/sleep-recovery', '/blog/ja/category/sleep-recovery'], ['/blog/XX', null], ['/blog/en', null]]) {
+  const r = await edge.handler({ request: { uri: p, querystring: {}, headers: { host: { value: 'www.aihavit.com' } }, cookies: {} } })
+  const got = r.statusCode ? r.headers.location.value : null
+  checked++
+  if (want ? !(r.statusCode === 308 && got === `https://www.aihavit.com${want}`) && got !== want : r.statusCode) fails.push({ test: 'lang-case', p, want, got, status: r.statusCode })
+}
+
 // ── 1·2. middleware ──
 const { loadMiddleware } = await import(join(ROOT, 'apps/web/scripts/load-middleware.mjs'))
 const mw = await loadMiddleware()

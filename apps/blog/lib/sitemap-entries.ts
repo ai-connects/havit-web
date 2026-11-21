@@ -26,6 +26,11 @@ function langAlternates(pathFor: (lang: string) => string): Record<string, strin
   return out;
 }
 
+/** 페이지가 x-default 없이 언어만 넘기는 경우(홈·도구)와 같은 입력. */
+function sameLangs(pathFor: (lang: string) => string): Record<string, string> {
+  return Object.fromEntries(INDEXABLE_LANGS.map((l) => [l, pathFor(l)]));
+}
+
 export function sitemapEntries(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
   const articles = getAllArticles();
@@ -46,17 +51,21 @@ export function sitemapEntries(): MetadataRoute.Sitemap {
       lastModified: newestAll,
       changeFrequency: 'daily',
       priority: lang === 'en' ? 1.0 : 0.9,
+      // 페이지 <head> 의 hreflang 과 같은 입력(app/[lang]/page.tsx) — 사이트맵에만 빠져 있었다.
+      alternates: { languages: sameLangs((l) => `${SITE}/${l}`) },
     });
     entries.push({
       url: `${SITE}/${lang}/tools`,
       changeFrequency: 'monthly',
       priority: 0.8,
+      alternates: { languages: sameLangs((l) => `${SITE}/${l}/tools`) },
     });
     for (const tool of ['bmr', 'protein', 'water', 'caffeine', 'sleep-cycle', 'exercise-calories', 'bmi', 'body-fat']) {
       entries.push({
         url: `${SITE}/${lang}/tools/${tool}`,
-          changeFrequency: 'monthly',
+        changeFrequency: 'monthly',
         priority: 0.8,
+        alternates: { languages: sameLangs((l) => `${SITE}/${l}/tools/${tool}`) },
       });
     }
   }

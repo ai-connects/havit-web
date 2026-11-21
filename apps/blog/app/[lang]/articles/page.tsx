@@ -11,6 +11,8 @@ import { SITE } from '@/lib/site';
 import { articlesMetaDescription } from '@/lib/meta-descriptions';
 import { INDEXABLE_ROBOTS } from '@/lib/seo';
 
+const OG_IMAGE_URL = `${SITE}/og-card.png`; // 블로그 홈과 같은 카드
+
 export const dynamicParams = false;
 export const revalidate = 600;
 
@@ -70,7 +72,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         'x-default': `${SITE}/en/articles`,
       }),
     },
-    openGraph: { title, description, type: 'website', siteName: 'HAVIT Blog', url, locale: lang },
+    openGraph: {
+      title, description, type: 'website', siteName: 'HAVIT Blog', url, locale: lang,
+      images: [{ url: OG_IMAGE_URL, width: 1200, height: 630, alt: 'HAVIT Blog' }],
+    },
+    twitter: { card: 'summary_large_image', title, description, images: [OG_IMAGE_URL] },
   };
 }
 
@@ -92,8 +98,32 @@ export default function AllArticlesPage({ params }: Props) {
     .map((c) => ({ ...c, items: byCategory.get(c.value) ?? [] }))
     .filter((s) => s.items.length > 0);
 
+  const pageUrl = `${SITE}${basePath}/articles`;
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'CollectionPage',
+        '@id': pageUrl,
+        url: pageUrl,
+        name: TITLE[shortLang as RouteLang],
+        inLanguage: shortLang,
+        isPartOf: { '@id': `${SITE}/#website` },
+        numberOfItems: items.length,
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'HAVIT Blog', item: `${SITE}${basePath}` },
+          { '@type': 'ListItem', position: 2, name: TITLE[shortLang as RouteLang], item: pageUrl },
+        ],
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header lang={lang} />
       <main className="flex-1">
         <section className="hv-container pt-10 md:pt-14 pb-6">

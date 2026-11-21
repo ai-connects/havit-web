@@ -146,9 +146,29 @@ export default function ToolsIndexPage({ params }: Props) {
   if (!ROUTE_LANGS.includes(params.lang as RouteLang)) notFound();
   const lang = params.lang as RouteLang;
   const fullLang = toFullLang(lang === 'zh-tw' ? 'zh-tw' : lang === 'zh' ? 'zh-cn' : lang);
+  const pageUrl = `${SITE}/${lang}/tools`;
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': pageUrl,
+    url: pageUrl,
+    name: PAGE_TITLE[lang],
+    description: PAGE_INTRO[lang],
+    inLanguage: lang,
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: TOOLS.filter((t) => t.ready).map((t, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: t.title[lang],
+        url: `${pageUrl}/${t.slug}`,
+      })),
+    },
+  };
 
   return (
     <div className="min-h-screen flex flex-col">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Header lang={fullLang} />
       <main className="flex-1 mx-auto max-w-5xl w-full px-4 md:px-6 py-8 md:py-12">
         <header className="mb-8 md:mb-10">
