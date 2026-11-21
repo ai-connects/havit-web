@@ -948,115 +948,115 @@
       "last_updated": "2026-11-17"
     },
     "de": {
-      "title": "Schlafphasen-Tracking mit Wearables: Was 70-80% Genauigkeit wirklich für Ihre Daten bedeutet",
-      "short_title": "Wie genau ist Schlaftracking? Wearables im Check",
+      "title": "Schlafphasen-Tracking: Wie genau sind Wearables?",
+      "short_title": "Wie genau ist Schlaftracking?",
       "short_description": "Wearables erkennen Schlafphasen zu 70-80% richtig. Wo Tracker verlässlich sind, wo nicht und wie Sie Ihre Schlafberichte sinnvoll lesen.",
-      "meta_description": "Die Schlafphasen-Daten Ihres Trackers sind zu 70-80% genau im Vergleich zu Labortests. Erfahren Sie, wo Wearables glänzen, wo sie versagen und wie Sie Ihre nächtlichen Berichte richtig interpretieren.",
-      "tldr": "Wearables erkennen Schlafphasen mit 70-80% Genauigkeit – gut genug für Trends, nicht präzise genug für Schlussfolgerungen aus einzelnen Nächten.",
-      "body_md": "## Ihre Uhr sagt, Sie hatten 47 Minuten Tiefschlaf. Sollten Sie das glauben?\n\nLetzten Dienstag zeigte mir mein Garmin 52 Minuten Tiefschlaf an. Mittwoch: 1 Stunde 43 Minuten. Gleiche Schlafenszeit, gleiche Raumtemperatur, gleiche Abendroutine. Hat mein Gehirn innerhalb von 24 Stunden wirklich dreimal so viel Slow-Wave-Aktivität produziert?\n\nWahrscheinlich nicht.\n\nWer die Forschung zum Schlafphasen-Tracking mit Wearables durchforstet, sieht diese bunten Schlafdiagramme jeden Morgen oft mit anderen Augen. Die Kurzfassung: Ihr Tracker lügt Sie nicht an, aber er sagt Ihnen auch nicht die ganze Wahrheit.\n\n## Wie Schlaflabore Ihre Schlafphasen tatsächlich messen\n\nPolysomnographie – der Goldstandard – verwendet etwa 22 Sensoren, die an Ihrem Körper befestigt werden. Elektroden auf Ihrer Kopfhaut messen Gehirnwellen. Sensoren in der Nähe Ihrer Augen erfassen schnelle Augenbewegungen. Andere überwachen Muskelspannung, Atmung, Herzrhythmus und Beinbewegungen.\n\nEin geschulter Techniker überprüft dann die Daten in 30-Sekunden-Abschnitten und klassifiziert jede „Epoche\" als Wach, N1 (leicht), N2 (leicht), N3 (tief) oder REM. Eine Nacht erzeugt etwa 960 dieser 30-Sekunden-Segmente. Der Techniker trifft 960 einzelne Beurteilungen.\n\nIhr Wearable am Handgelenk hat einen optischen Herzfrequenzsensor und ein Beschleunigungsmesser. Das war's. Es versucht, das zu rekonstruieren, was 22 Sensoren und ein menschlicher Experte bestimmen, und nutzt dabei nur zwei Datenströme.\n\n## Die 70-80% Genauigkeit: Was sie tatsächlich misst\n\nEine Validierungsstudie aus 2021 in Sleep verglich sieben Consumer-Schlaftracker mit Polysomnographie bei 34 gesunden jungen Erwachsenen. Schlaf und Wachsein wurden gut erkannt, die Leistung bei den Schlafphasen schwankte jedoch. In der Literatur werden für die Phasenklassifizierung meist Genauigkeiten von etwa 70-80% der 30-Sekunden-Epochen berichtet.\n\nDas klingt ordentlich, bis man es anders betrachtet. Wenn Sie 7,5 Stunden schlafen, trifft Ihr Tracker etwa 900 Phasenklassifizierungen. Bei 75% Genauigkeit sind ungefähr 225 davon falsch.\n\nAber hier wird es interessant: Die Fehler sind nicht zufällig.\n\n## Wo Wearables richtig liegen (und völlig danebenliegen)\n\nDie Forschung zeigt ein konsistentes Muster. Wearables können REM-Schlaf oft recht ordentlich erkennen. Ihre Herzfrequenzvariabilität während des REM-Schlafs hat eine charakteristische Signatur, die optische Sensoren zuverlässig erfassen.\n\nTiefschlaf-Erkennung? Deutlich wackeliger. Schätzungen der Tiefschlafdauer in einer einzelnen Nacht können in beide Richtungen erheblich danebenliegen.\n\nLeichtschlaf wird am schlechtesten behandelt. N1- und N2-Phasen verschwimmen in Wearable-Algorithmen. Die meisten Geräte versuchen nicht einmal, sie zu unterscheiden, und werfen alles in einen generischen „Leichtschlaf\"-Topf, der als Sammelkategorie für „nicht tief, nicht REM, nicht wach\" dient.\n\nDas Problem der Wach-Erkennung ist besonders frustrierend. Kurze Aufwachphasen werden oft komplett nicht registriert. Sie wachen vielleicht sechsmal während der Nacht auf, aber Ihr Tracker zeigt einen durchgehenden Schlafblock.\n\n## Warum die Herzfrequenz allein nicht die ganze Geschichte erzählen kann\n\nIhr Gehirn durchläuft Schlafphasen in etwa 90-Minuten-Mustern. Während des Tiefschlafs fällt Ihre Herzfrequenz auf den niedrigsten Punkt, und die Herzfrequenzvariabilität steigt. Während des REM-Schlafs wird Ihre Herzfrequenz variabler und leicht erhöht.\n\nWearables nutzen diese kardialen Signaturen, kombiniert mit Bewegungsdaten, um Ihre aktuelle Phase zu erraten. Das Problem: Andere Dinge beeinflussen Ihre Herzfrequenz ebenfalls.\n\nDas Glas Wein zum Abendessen? Erhöhte Herzfrequenz für Stunden, was potenziell Tiefschlaf-Signaturen maskiert. Ein stressiger Tag? Ihr Nervensystem beruhigt sich möglicherweise nicht genug, um die klaren kardialen Muster zu produzieren, die Algorithmen erwarten. Schlafapnoe? Jede Atemstörung erzeugt Herzfrequenzspitzen, die die Phasenklassifizierung verwirren.\n\nDie Genauigkeit ist bei Menschen mit Schlafstörungen wie unbehandelter Schlafapnoe tendenziell geringer. Die Geräte können fragmentierten Schlaf fälschlich als normale Phasenübergänge klassifizieren.\n\n## Die Trendlinie zählt mehr als jede einzelne Nacht\n\nHier ist, was den Umgang mit Schlafdaten verändern kann: aufhören, sich um einzelne Nächte zu kümmern.\n\nDas Mitteln über mehrere Nächte verringert den zufälligen Fehler, nicht aber systematische Abweichungen.\n\nDas Rauschen hebt sich teilweise auf. Zufällige Überschätzungen gleichen zufällige Unterschätzungen aus. Systematische Verzerrungen bleiben allerdings bestehen, doch für Trends reicht das meist.\n\nWenn Ihr Tracker also einen einwöchigen Rückgang im Tiefschlaf-Prozentsatz zeigt, bedeutet dieses Signal wahrscheinlich etwas. Wenn er eine einzelne Nacht mit ungewöhnlich niedrigem REM zeigt, können Sie mit den Schultern zucken und weitermachen.\n\n## Praktische Interpretation: Ein funktionierendes Framework\n\nNach Durchsicht der Forschung lässt sich ein einfaches mentales Modell zum Lesen der eigenen Schlafdaten ableiten.\n\n**Vollständig vertrauen:** Gesamtschlafzeit. Wearables schätzen dies deutlich zuverlässiger als die Schlafphasen, auch wenn ruhiges Wachliegen manchmal als Schlaf mitgezählt wird. Wenn es sagt, Sie haben 6 Stunden 12 Minuten geschlafen, liegt das wahrscheinlich nah an der Realität, eher etwas darüber.\n\n**Richtungsweisend vertrauen:** Woche-zu-Woche-Trends in jeder Phase. Ein konstanter Rückgang im Tiefschlaf über zwei Wochen spiegelt wahrscheinlich etwas Reales wider, auch wenn die absoluten Zahlen unscharf sind.\n\n**Vorsichtig vertrauen:** REM-Schlafdauer in einzelnen Nächten. Die Genauigkeit ist gut genug, dass große Schwankungen (30+ Minuten Unterschied zu Ihrer Baseline) wahrscheinlich tatsächliche Veränderungen widerspiegeln.\n\n**Skeptisch behandeln:** Tiefschlafdauer in jeder einzelnen Nacht. Der Messfehler ist einfach zu hoch. Eine Schwankung von 47 Minuten gegenüber 103 Minuten, wie sie zuvor erwähnt wurde? Fast sicher Rauschen.\n\n**Komplett ignorieren:** Schlafphasen-Timing innerhalb der Nacht. „Sie sind um 23:47 Uhr in den Tiefschlaf eingetreten\" ist eine Vermutung basierend auf probabilistischen Modellen. Es könnte stimmen. Es könnte um 20 Minuten daneben liegen.\n\n## Was die nächste Generation von Wearables verbessern könnte\n\nEinige neuere Geräte fügen Sensoren hinzu, die die Genauigkeit verbessern könnten. Der Oura Ring Gen 3 enthält einen Blutsauerstoffsensor und Hauttemperatur-Tracking. Samsungs neueste Uhren messen bioelektrische Impedanz.\n\nFrühe Forschung deutet darauf hin, dass diese zusätzlichen Datenströme helfen. Eine Studie in Sensors aus 2021 zeigte, dass ein Oura-Algorithmus, der Bewegung, Herzfrequenzvariabilität, Temperatur und zirkadiane Merkmale nutzt, bei 106 Teilnehmern eine Vierphasen-Genauigkeit von 79% erreichte.\n\nDie größere Verbesserung könnte von personalisierten Algorithmen kommen. Aktuelle Geräte verwenden Populationsdurchschnitts-Modelle – sie nehmen an, dass Ihre Tiefschlaf-Herzsignatur wie die aller anderen aussieht. Zukünftige Geräte könnten über Wochen Ihre spezifischen Muster lernen und ihre Klassifizierungen auf Ihre Physiologie kalibrieren.\n\nEin Unternehmen testet eine Funktion, bei der Nutzer Morgen markieren können, an denen sie sich besonders ausgeruht oder müde fühlen. Der Algorithmus passt dann seine Phasenklassifizierungen an, um diese subjektiven Ergebnisse besser vorherzusagen. Es ist nicht wissenschaftlich, könnte aber nützlicher sein.\n\n## Die ehrlichen Grenzen von Consumer-Schlaf-Tracking\n\nKein am Handgelenk getragenes Gerät wird die Genauigkeit der Polysomnographie erreichen. Die Physik erlaubt es nicht. Gehirnwellen reisen nicht zu Ihrem Handgelenk. Augenbewegungen registrieren sich nicht auf einem Beschleunigungsmesser. Die grundlegenden Daten sind einfach nicht verfügbar.\n\nAber das macht Schlaf-Tracker nicht nutzlos. Ein Thermometer kann Ihnen nicht sagen, warum Sie Fieber haben, aber es ist trotzdem wertvoll, um zu verfolgen, ob Ihre Temperatur steigt oder fällt. Schlaf-Tracker erfüllen eine ähnliche Funktion: unvollkommene Messung von etwas, das sonst unsichtbar wäre.\n\nDer Schlüssel ist, Ihre Erwartungen zu kalibrieren. Ihr Tracker liefert eine grobe Skizze Ihrer Schlafarchitektur, kein Foto. Behandeln Sie die Daten entsprechend.\n\n## Frieden schließen mit unvollkommenen Daten\n\nViele Menschen überprüfen weiterhin jeden Morgen ihre Schlafdaten. Alte Gewohnheiten sterben schwer. Aber es lohnt sich, die Blickrichtung zu ändern.\n\nAnstatt sich auf die Tiefschlaf-Zahl der letzten Nacht zu fixieren, lohnt sich ein Blick auf die 7-Tage- und 30-Tage-Trends. Anstatt sich Sorgen über das Phasen-Timing zu machen, können Sie sich auf die Gesamtschlafdauer konzentrieren – die eine Metrik, die Ihr Tracker tatsächlich gut misst.\n\nUnd wenn Ihre Uhr Ihnen sagt, Sie hatten 47 Minuten Tiefschlaf in einer Nacht, in der Sie sich großartig fühlten, oder 90 Minuten in einer Nacht, in der Sie sich schrecklich fühlten? Dann hilft die Erinnerung, dass das Gerät sein Bestes mit begrenzten Informationen gibt. Genau wie wir alle.",
+      "meta_description": "Wearables ordnen Schlafphasen zu etwa 70 bis 80 % korrekt zu. Wo die Daten taugen, wo nicht und wie Sie Ihren Schlafbericht sinnvoll lesen.",
+      "tldr": "Wearables ordnen Schlafphasen zu etwa 70 bis 80 % richtig zu. Für Trends über Wochen reicht das, für Schlüsse aus einer einzelnen Nacht nicht.",
+      "body_md": "## Ihre Uhr meldet 47 Minuten Tiefschlaf. Stimmt das?\n\nEin typisches Bild: In der Nacht auf Dienstag zeigt die Smartwatch 47 Minuten Tiefschlaf an, in der Nacht darauf 1 Stunde 43 Minuten. Schlafenszeit, Temperatur im Schlafzimmer und das Abendritual waren gleich. Dass das Gehirn binnen 24 Stunden mehr als doppelt so viel Tiefschlaf produziert hat, ist wenig wahrscheinlich.\n\nWer sich mit den Validierungsstudien zum Schlafphasen-Tracking beschäftigt, betrachtet die bunten Schlafdiagramme am Morgen meist gelassener. Ihr Tracker täuscht Sie nicht. Er zeigt Ihnen allerdings nur einen Ausschnitt dessen, was in der Nacht passiert.\n\n## Wie das Schlaflabor Schlafphasen bestimmt\n\nBei der Polysomnographie, dem Referenzverfahren, werden etwa 22 Sensoren am Körper angebracht. Elektroden auf der Kopfhaut zeichnen die Hirnströme auf, Sensoren neben den Augen registrieren die schnellen Augenbewegungen. Weitere erfassen Muskelspannung, Atmung, Herzrhythmus und Beinbewegungen.\n\nAnschließend wertet eine geschulte Fachkraft die Aufzeichnung in Abschnitten von 30 Sekunden aus. Jede dieser „Epochen\" wird als wach, N1 oder N2 (Leichtschlaf), N3 (Tiefschlaf) oder REM eingestuft. In einer Nacht kommen so rund 960 Abschnitte zusammen, und jeder einzelne wird von Hand beurteilt.\n\nEin Wearable am Handgelenk hat dagegen einen optischen Herzfrequenzsensor und einen Beschleunigungssensor. Mit diesen zwei Datenquellen soll es nachbilden, wofür im Labor 22 Sensoren und ein menschlicher Auswerter nötig sind.\n\n## Was hinter den 70 bis 80 Prozent steckt\n\nEine 2021 in der Fachzeitschrift Sleep veröffentlichte Validierungsstudie verglich sieben handelsübliche Schlaftracker bei 34 gesunden jungen Erwachsenen mit der Polysomnographie. Ob jemand schlief oder wach war, erkannten die Geräte gut, bei den Schlafphasen schwankte die Leistung. In der Fachliteratur liegt die Übereinstimmung bei der Phasenzuordnung meist bei etwa 70 bis 80 % der 30-Sekunden-Epochen.\n\nAuf eine Nacht umgerechnet wirkt das weniger beruhigend. Bei 7,5 Stunden Schlaf nimmt der Tracker rund 900 Zuordnungen vor. Liegt er in 75 % der Fälle richtig, sind etwa 225 davon falsch.\n\nDiese Fehler verteilen sich allerdings nicht gleichmäßig über alle Phasen.\n\n## Wo Wearables treffen und wo sie danebenliegen\n\nIn den Studien zeigt sich ein wiederkehrendes Muster. REM-Schlaf erkennen Wearables oft recht ordentlich, denn die Herzfrequenzvariabilität hat in dieser Phase ein typisches Profil, das optische Sensoren vergleichsweise gut erfassen.\n\nBeim Tiefschlaf wird es unsicherer. Für eine einzelne Nacht kann die geschätzte Dauer deutlich zu hoch oder zu niedrig ausfallen.\n\nAm schwächsten schneidet der Leichtschlaf ab. N1 und N2 lassen sich für die Algorithmen kaum trennen, und die meisten Geräte versuchen es gar nicht erst. Sie fassen alles unter „Leichtschlaf\" zusammen, einer Sammelkategorie für alles, was weder Tiefschlaf noch REM noch Wachzeit ist.\n\nBesonders ärgerlich ist die Wacherkennung. Kurze Wachphasen entgehen den Geräten häufig ganz. Wer nachts sechsmal kurz aufwacht, sieht morgens womöglich einen durchgehenden Schlafbalken.\n\n## Warum die Herzfrequenz allein nicht reicht\n\nIm Schlaf durchläuft das Gehirn die Phasen in Zyklen von etwa 90 Minuten. Im Tiefschlaf sinkt die Herzfrequenz auf ihren Tiefstwert, und die Herzfrequenzvariabilität nimmt zu. Im REM-Schlaf schwankt der Puls stärker und liegt etwas höher.\n\nAus diesen Herzsignalen und den Bewegungsdaten schätzt das Wearable, in welcher Phase Sie sich gerade befinden. Die Herzfrequenz reagiert jedoch auch auf vieles andere.\n\nEin Glas Wein zum Abendessen kann den Puls über Stunden anheben und so das typische Tiefschlafmuster überdecken. Nach einem stressigen Arbeitstag kommt das Nervensystem unter Umständen nicht genug zur Ruhe, um die klaren Muster zu erzeugen, mit denen die Algorithmen rechnen. Bei Schlafapnoe löst jeder Atemaussetzer Pulsspitzen aus, die die Phasenzuordnung durcheinanderbringen.\n\nBei Menschen mit Schlafstörungen wie einer unbehandelten Schlafapnoe ist die Genauigkeit tendenziell geringer. Zerstückelter Schlaf wird dann leicht als gewöhnlicher Phasenwechsel verbucht.\n\n## Auf den Verlauf kommt es an, nicht auf die einzelne Nacht\n\nDen größten Unterschied im Umgang mit den eigenen Schlafdaten macht ein einfacher Schritt. Hören Sie auf, einzelne Nächte zu bewerten.\n\nWer über mehrere Nächte mittelt, verringert den zufälligen Fehler, weil sich Über- und Unterschätzungen teilweise ausgleichen. Systematische Abweichungen eines Geräts bleiben bestehen. Für die Beurteilung von Trends reicht die Genauigkeit trotzdem meist aus.\n\nZeigt Ihr Tracker über eine Woche einen sinkenden Tiefschlafanteil, steckt dahinter wahrscheinlich etwas. Eine einzelne Nacht mit auffällig wenig REM können Sie getrost abhaken.\n\n## So lesen Sie Ihre Schlafdaten sinnvoll\n\nAus der Studienlage lässt sich grob ableiten, wie viel Vertrauen die einzelnen Werte verdienen.\n\nAm belastbarsten ist die Gesamtschlafzeit. Sie schätzen Wearables deutlich zuverlässiger als die Phasen, auch wenn ruhiges Wachliegen manchmal als Schlaf mitgezählt wird. Meldet die Uhr 6 Stunden und 12 Minuten, liegt das vermutlich nah an der Wirklichkeit, eher ein wenig darüber.\n\nVeränderungen von Woche zu Woche eignen sich für jede Phase als Richtungsanzeige. Geht der Tiefschlaf zwei Wochen lang stetig zurück, spiegelt das wahrscheinlich eine echte Entwicklung, selbst wenn die absoluten Werte unscharf bleiben.\n\nDie REM-Dauer einzelner Nächte ist mit etwas Vorsicht zu genießen. Hier reicht die Genauigkeit immerhin so weit, dass größere Ausschläge von 30 Minuten oder mehr gegenüber Ihrem üblichen Wert wahrscheinlich eine echte Veränderung anzeigen.\n\nMit der Tiefschlafdauer einer einzelnen Nacht sollten Sie skeptisch umgehen, dafür ist der Messfehler zu groß. Der Sprung von 47 auf 103 Minuten aus dem Beispiel oben ist mit hoher Wahrscheinlichkeit Rauschen.\n\nDen genauen Zeitpunkt der Phasenwechsel müssen Sie gar nicht ernst nehmen. Eine Angabe wie „Um 23:47 Uhr begann Ihr Tiefschlaf\" beruht auf Wahrscheinlichkeitsmodellen. Sie kann stimmen oder um 20 Minuten danebenliegen.\n\n## Was künftige Geräte besser machen könnten\n\nManche neuere Geräte bringen zusätzliche Sensoren mit, die die Genauigkeit verbessern könnten. Der Oura Ring der dritten Generation misst Blutsauerstoff und Hauttemperatur, Samsungs neuere Uhren messen die bioelektrische Impedanz.\n\nErste Studien deuten darauf hin, dass solche zusätzlichen Daten helfen. In einer 2021 in Sensors erschienenen Arbeit erreichte ein Oura-Algorithmus, der Bewegung, Herzfrequenzvariabilität, Temperatur und zirkadiane Merkmale auswertet, bei 106 Teilnehmenden eine Genauigkeit von 79 % für vier Stadien.\n\nMehr könnten personalisierte Algorithmen bringen. Heutige Geräte arbeiten mit Modellen, die auf Durchschnittswerten vieler Menschen beruhen, und gehen davon aus, dass Ihr Herz im Tiefschlaf dasselbe Muster zeigt wie das aller anderen. Künftige Geräte könnten über Wochen Ihre persönlichen Muster lernen und die Einstufung an Ihre Physiologie anpassen.\n\nDenkbar ist auch, dass Nutzer Morgen markieren, an denen sie sich besonders erholt oder besonders müde fühlen, und der Algorithmus seine Einstufungen daran ausrichtet. Wissenschaftlich exakter würde die Messung dadurch nicht, im Alltag womöglich aber nützlicher.\n\n## Die Grenzen der Schlafmessung am Handgelenk\n\nDie Präzision einer Polysomnographie wird ein Gerät am Handgelenk nicht erreichen, das lässt die Physik nicht zu. Hirnströme kommen am Handgelenk nicht an, und Augenbewegungen registriert kein Beschleunigungssensor. Die entscheidenden Rohdaten fehlen schlicht.\n\nNutzlos werden Schlaftracker dadurch nicht. Ein Fieberthermometer verrät auch nicht, woher das Fieber kommt, und trotzdem greift man danach, um zu sehen, ob die Temperatur steigt oder sinkt. Der Tracker misst unvollkommen, liefert aber Hinweise auf einen Bereich, in den man ohne ihn keinen Einblick hätte.\n\nHilfreich ist eine realistische Erwartung. Ihr Tracker liefert eine grobe Skizze Ihrer Schlafarchitektur, kein Foto, und genau so sollten Sie die Daten auch lesen.\n\n## Gelassener Umgang mit unvollkommenen Daten\n\nViele schauen trotzdem jeden Morgen zuerst auf die Schlafauswertung, Gewohnheiten halten sich hartnäckig. Es lohnt sich aber, den Blick zu verschieben.\n\nÖffnen Sie statt der Tiefschlafzahl der letzten Nacht lieber die Ansicht für 7 und 30 Tage. Und achten Sie eher auf die Gesamtschlafdauer als auf den Zeitpunkt einzelner Phasen, denn diesen Wert misst Ihr Tracker tatsächlich gut.\n\nZeigt die Uhr nach einer Nacht, in der Sie sich bestens erholt fühlen, nur 47 Minuten Tiefschlaf an, oder 90 Minuten nach einer miserablen Nacht, dann rechnet das Gerät mit sehr begrenzten Informationen. Das darf man ihm nachsehen.",
       "key_stats": [
         {
-          "label": "Epochen-für-Epochen-Genauigkeit",
-          "value": "70-80%",
-          "source": "Sleep 2021 (sieben Geräte) und allgemeine Literaturspanne"
+          "label": "Übereinstimmung pro 30-Sekunden-Epoche",
+          "value": "70–80 %",
+          "source": "Sleep 2021 (sieben Geräte) und übliche Spanne in der Fachliteratur"
         },
         {
           "label": "Tiefschlaf-Schätzung (einzelne Nacht)",
-          "value": "Kann stark in beide Richtungen abweichen",
-          "source": "Veröffentlichte Validierungsforschung"
+          "value": "Kann deutlich nach oben oder unten abweichen",
+          "source": "Veröffentlichte Validierungsstudien"
         },
         {
-          "label": "REM-Erkennungsgenauigkeit",
+          "label": "REM-Erkennung",
           "value": "Vergleichsweise gut, ohne feste Zahl",
-          "source": "Veröffentlichte Validierungsforschung"
+          "source": "Veröffentlichte Validierungsstudien"
         },
         {
-          "label": "Genauigkeit bei Schlafapnoe-Patienten",
+          "label": "Genauigkeit bei Schlafapnoe",
           "value": "Tendenziell geringer",
-          "source": "Veröffentlichte Validierungsforschung"
+          "source": "Veröffentlichte Validierungsstudien"
         },
         {
-          "label": "Gesamtschlafzeit-Genauigkeit",
-          "value": "Deutlich zuverlässiger als Schlafphasen",
+          "label": "Gesamtschlafzeit",
+          "value": "Deutlich zuverlässiger als die Schlafphasen",
           "source": "Sleep 2021 (sieben Geräte)"
         }
       ],
       "comparison_table": {
-        "title": "Wearable-Schlafmetriken: Vertrauensstufen nach Datentyp",
+        "title": "Schlafdaten von Wearables: Wie verlässlich sind die einzelnen Werte?",
         "headers": [
-          "Metrik",
-          "Genauigkeitsstufe",
-          "Bester Anwendungsfall",
-          "Haupteinschränkung"
+          "Messwert",
+          "Verlässlichkeit",
+          "Sinnvolle Nutzung",
+          "Wichtigste Einschränkung"
         ],
         "rows": [
           [
             "Gesamtschlafzeit",
             "Hoch",
-            "Tägliches Tracking",
-            "Kann kurze Aufwachphasen übersehen"
+            "Tägliche Verfolgung",
+            "Kann kurze Wachphasen übersehen"
           ],
           [
-            "REM-Schlafdauer",
-            "Mittel-Hoch",
-            "Wöchentliche Trends",
-            "Beeinflusst durch Alkohol, Stress"
+            "REM-Dauer",
+            "Mittel bis hoch",
+            "Trends über Wochen",
+            "Beeinflusst durch Alkohol und Stress"
           ],
           [
             "Tiefschlafdauer",
             "Mittel",
-            "Nur 30-Tage-Durchschnitte",
+            "Nur Durchschnitt über 30 Tage",
             "Einzelne Nächte können stark abweichen"
           ],
           [
             "Leichtschlafdauer",
             "Niedrig",
-            "Spezifische Zahlen ignorieren",
+            "Konkrete Zahlen nicht beachten",
             "Sammelkategorie"
           ],
           [
-            "Schlafphasen-Timing",
+            "Zeitpunkt der Phasenwechsel",
             "Niedrig",
-            "Nur allgemeine Muster",
-            "Kann um 20+ Minuten daneben liegen"
+            "Nur grobe Muster",
+            "Kann 20 Minuten und mehr danebenliegen"
           ],
           [
-            "Aufwachepisoden",
+            "Wachphasen",
             "Niedrig",
-            "Nicht zuverlässig",
-            "Übersieht kurze Aufwachphasen"
+            "Nicht verlässlich",
+            "Kurze Wachphasen werden übersehen"
           ]
         ],
-        "caption": "Basierend auf veröffentlichter Polysomnographie-Validierungsforschung, die Consumer-Wearables mit klinischer Schlafphasen-Klassifizierung vergleicht"
+        "caption": "Auf Grundlage veröffentlichter Validierungsstudien, die Wearables mit der Schlafphasen-Auswertung per Polysomnographie vergleichen"
       },
       "faq": [
         {
-          "question": "Warum zeigt mein Schlaf-Tracker unterschiedliche Tiefschlafmengen in ähnlichen Nächten?",
-          "answer": "Die Tiefschlaf-Erkennung gehört zu den weniger zuverlässigen Schätzungen von Wearables, was bedeutet, dass signifikante Nacht-zu-Nacht-Variationen oft Messrauschen sind statt tatsächlicher Veränderungen. Faktoren wie Alkoholkonsum, Stress und Raumtemperatur beeinflussen auch die kardialen Signaturen, die Ihr Gerät zur Schätzung der Schlafphasen verwendet."
+          "question": "Warum zeigt mein Schlaftracker in ähnlichen Nächten so unterschiedlich viel Tiefschlaf an?",
+          "answer": "Die Tiefschlaf-Erkennung gehört zu den unsichereren Schätzungen von Wearables. Größere Schwankungen von Nacht zu Nacht sind deshalb oft Messrauschen und keine echte Veränderung. Auch Alkohol, Stress und die Raumtemperatur beeinflussen die Herzsignale, aus denen Ihr Gerät die Schlafphasen ableitet."
         },
         {
-          "question": "Ist mein Schlaf-Tracker genau genug, um eine Schlafstörung zu erkennen?",
-          "answer": "Consumer-Wearables können Schlafstörungen nicht zuverlässig erkennen. Die Genauigkeit ist bei Menschen mit Schlafstörungen wie unbehandelter Schlafapnoe tendenziell geringer. Wenn Sie eine Schlafstörung vermuten, bleibt klinische Polysomnographie für eine ordnungsgemäße Bewertung notwendig."
+          "question": "Ist mein Schlaftracker genau genug, um eine Schlafstörung zu erkennen?",
+          "answer": "Nein, Wearables erkennen Schlafstörungen nicht zuverlässig. Bei Menschen mit Schlafstörungen wie einer unbehandelten Schlafapnoe ist die Genauigkeit tendenziell sogar geringer. Besteht der Verdacht auf eine Schlafstörung, bleibt für eine fundierte Beurteilung eine Polysomnographie im Schlaflabor notwendig."
         },
         {
-          "question": "Sollte ich den REM-Schlafdaten meines Trackers mehr vertrauen als den Tiefschlafdaten?",
-          "answer": "Tendenziell ja. Wearables erkennen REM-Schlaf oft recht ordentlich, im Allgemeinen zuverlässiger als Tiefschlaf. REM-Schlaf produziert charakteristische Herzfrequenzvariabilitätsmuster, die optische Sensoren zuverlässiger erfassen als die Slow-Wave-Signaturen des Tiefschlafs."
+          "question": "Sind die REM-Daten meines Trackers verlässlicher als die Tiefschlafdaten?",
+          "answer": "Tendenziell ja. Wearables erkennen REM-Schlaf oft recht ordentlich und im Allgemeinen zuverlässiger als Tiefschlaf. Im REM-Schlaf zeigt die Herzfrequenzvariabilität ein typisches Muster, das optische Sensoren besser erfassen als die Merkmale des Tiefschlafs."
         },
         {
-          "question": "Wie lange sollte ich tracken, bevor ich meinen Schlafphasen-Durchschnitten vertraue?",
-          "answer": "Mindestens mehrere Wochen. Das Mitteln über viele Nächte verringert zufällige Fehler, systematische Abweichungen bleiben jedoch bestehen, während einzelne Nächte stark danebenliegen können. Je länger Ihr Tracking-Zeitraum, desto mehr heben sich die zufälligen Fehler auf."
+          "question": "Wie lange sollte ich messen, bevor ich den Durchschnittswerten meiner Schlafphasen traue?",
+          "answer": "Mindestens mehrere Wochen. Der Durchschnitt über viele Nächte verringert zufällige Fehler, während einzelne Nächte stark danebenliegen können. Systematische Abweichungen des Geräts bleiben allerdings bestehen. Je länger der Zeitraum, desto stärker gleichen sich die zufälligen Fehler aus."
         },
         {
-          "question": "Liefern teurere Schlaf-Tracker genauere Phasendaten?",
-          "answer": "Nicht dramatisch. Die Leistung bei der Phasenerkennung unterscheidet sich zwischen den Geräten, der Preis ist jedoch kein verlässlicher Indikator. Geräte mit zusätzlichen Sensoren (Blutsauerstoff, Temperatur) zeigen bescheidene Verbesserungen, aber grundlegende Genauigkeitsgrenzen bleiben."
+          "question": "Messen teurere Schlaftracker die Phasen genauer?",
+          "answer": "Nicht wesentlich. Die Geräte unterscheiden sich bei der Phasenerkennung, der Preis ist dafür aber kein verlässlicher Hinweis. Modelle mit zusätzlichen Sensoren für Blutsauerstoff oder Temperatur schneiden etwas besser ab, an den grundsätzlichen Grenzen ändert das jedoch nichts."
         },
         {
-          "question": "Warum zeigt mein Tracker manchmal, dass ich schlief, obwohl ich weiß, dass ich wach war?",
-          "answer": "Wearables haben Schwierigkeiten, kurze Aufwachphasen und ruhiges Wachsein zu erkennen, bei dem Sie still liegen. Die Geräte verlassen sich stark auf Bewegungserkennung, sodass bewegungsloses Wachsein oft als Leichtschlaf klassifiziert wird."
+          "question": "Warum zeigt mein Tracker Schlaf an, obwohl ich sicher wach war?",
+          "answer": "Wearables tun sich schwer mit kurzen Wachphasen und mit ruhigem Wachliegen. Weil die Geräte sich stark auf Bewegungsdaten stützen, wird regloses Wachliegen oft als Leichtschlaf eingestuft."
         },
         {
-          "question": "Werden zukünftige Wearables bei der Schlafphasen-Klassifizierung genauer sein?",
-          "answer": "Wahrscheinlich bescheidene Verbesserungen. Das Hinzufügen von Sensoren für Blutsauerstoff, Hauttemperatur und bioelektrische Impedanz hat die Genauigkeit in früher Forschung verbessert; ein Oura-Algorithmus mit Bewegung, Herzfrequenzvariabilität, Temperatur und zirkadianen Merkmalen erreichte in einer Sensors-Studie 2021 bei 106 Teilnehmern 79% Vierphasen-Genauigkeit. Personalisierte Algorithmen, die Ihre spezifischen kardialen Muster lernen, könnten weiter helfen, aber am Handgelenk getragene Geräte werden ohne direkte Gehirnwellenmessung niemals die Polysomnographie erreichen."
+          "question": "Werden künftige Wearables die Schlafphasen genauer bestimmen?",
+          "answer": "Vermutlich etwas genauer. Zusätzliche Sensoren für Blutsauerstoff, Hauttemperatur und bioelektrische Impedanz haben die Genauigkeit in ersten Studien verbessert. In einer Sensors-Studie von 2021 erreichte ein Oura-Algorithmus, der Bewegung, Herzfrequenzvariabilität, Temperatur und zirkadiane Merkmale auswertet, bei 106 Teilnehmenden 79 % Genauigkeit für vier Stadien. Personalisierte Algorithmen, die Ihre eigenen Herzmuster lernen, könnten weiter helfen. Ohne direkte Messung der Hirnströme wird ein Gerät am Handgelenk die Polysomnographie aber nicht erreichen."
         }
       ],
       "references": [
@@ -1071,7 +1071,7 @@
           "url": "https://doi.org/10.3390/s21134302"
         }
       ],
-      "last_updated": "2026-11-17"
+      "last_updated": "2026-11-21"
     },
     "fr": {
       "title": "Suivi des stades de sommeil par objets connectés : ce que signifie réellement une précision de 70-80 % pour vos données",
